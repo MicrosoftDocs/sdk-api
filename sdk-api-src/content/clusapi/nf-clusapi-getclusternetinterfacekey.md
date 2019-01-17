@@ -4,7 +4,7 @@ title: GetClusterNetInterfaceKey function
 author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a network interface object.
 old-location: mscs\getclusternetinterfacekey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c6ba405a-e485-49fc-81f4-dd6c7b7bef04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

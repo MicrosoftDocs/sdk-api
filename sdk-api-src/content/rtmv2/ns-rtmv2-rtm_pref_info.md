@@ -4,7 +4,7 @@ title: RTM_PREF_INFO
 author: windows-sdk-content
 description: The RTM_PREF_INFO structure contains the information used when comparing any two routes. The value of the Preference member is given more weight than the value of the Metric member.
 old-location: rras\rtm_pref_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 50aa7f8e-9d89-44bd-897e-f0040f579d24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

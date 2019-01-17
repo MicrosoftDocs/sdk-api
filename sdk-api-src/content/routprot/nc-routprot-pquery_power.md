@@ -4,7 +4,7 @@ title: PQUERY_POWER
 author: windows-sdk-content
 description: The QueryPower function is reserved for future use.
 old-location: rras\querypower.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 591082fb-ef1e-4271-bf6c-d5034bdbae99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MprAdminInterfaceGetCredentialsEx function
 author: windows-sdk-content
 description: Use the MprAdminInterfaceGetCredentialsEx function to retrieve extended credentials information for the specified interface. Use this function to retrieve credentials information used for Extensible Authentication Protocols (EAPs).
 old-location: rras\mpradmininterfacegetcredentialsex.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0ef9f437-a15b-4f6c-ac76-4c31a23e8792
 ms.author: windowssdkdev
 ms.date: 12/5/2018

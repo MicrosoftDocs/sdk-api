@@ -4,7 +4,7 @@ title: ClusterResourceTypeEnum function
 author: windows-sdk-content
 description: Enumerates a resource type's possible owner nodes or resources.
 old-location: mscs\clusterresourcetypeenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 956300f4-a7e8-4a8b-ab7e-e8fc3a37bf21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

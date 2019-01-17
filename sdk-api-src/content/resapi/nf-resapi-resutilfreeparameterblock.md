@@ -4,7 +4,7 @@ title: ResUtilFreeParameterBlock function
 author: windows-sdk-content
 description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.
 old-location: mscs\resutilfreeparameterblock.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

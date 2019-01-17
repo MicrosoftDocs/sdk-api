@@ -4,7 +4,7 @@ title: ClusterRegCreateBatch function
 author: windows-sdk-content
 description: Creates a batch that will execute commands on a cluster registry key.
 old-location: mscs\clusterregcreatebatch.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterRegGetKeySecurity function
 author: windows-sdk-content
 description: Returns a copy of the security descriptor protecting the specified cluster database key.
 old-location: mscs\clusterreggetkeysecurity.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cd0fcfd2-21e0-4627-9b01-6a7f61a80823
 ms.author: windowssdkdev
 ms.date: 12/5/2018

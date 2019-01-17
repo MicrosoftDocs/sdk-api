@@ -4,7 +4,7 @@ title: SUPPORT_FUNCTIONS_50
 author: windows-sdk-content
 description: The SUPPORT_FUNCTIONS structure is used by the router manager to pass the routing protocol a set of pointers to functions provided by the router manager.
 old-location: rras\support_functions.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c6e1e3a3-2c2a-40ef-965f-554263614bdf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

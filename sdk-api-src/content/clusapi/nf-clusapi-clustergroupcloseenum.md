@@ -4,7 +4,7 @@ title: ClusterGroupCloseEnum function
 author: windows-sdk-content
 description: Closes a group enumeration handle.
 old-location: mscs\clustergroupcloseenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9bdab6b9-a54d-4166-988c-effdeb2ab254
 ms.author: windowssdkdev
 ms.date: 12/5/2018

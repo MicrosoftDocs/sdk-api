@@ -153,9 +153,13 @@ The following example function displays a view of the element tree below the ele
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
 {
     HRESULT hr;
@@ -222,8 +226,10 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
     delete[] pArray;
     return S_OK;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <div class="code"></div>

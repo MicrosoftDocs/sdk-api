@@ -4,7 +4,7 @@ title: RtmCreateDestEnum function
 author: windows-sdk-content
 description: The RtmCreateDestEnum function starts an enumeration of the destinations in the routing table. A client can enumerate destinations for one or more views, or for all views.
 old-location: rras\rtmcreatedestenum.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6efea7b4-dd44-4b08-999d-62e7f660ed64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

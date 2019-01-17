@@ -4,7 +4,7 @@ title: RtmInvokeMethod function
 author: windows-sdk-content
 description: The RtmInvokeMethod function invokes a method exported by another client.
 old-location: rras\rtminvokemethod.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 97506565-2fa7-4ff7-b397-7ab712759a5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

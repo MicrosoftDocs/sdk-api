@@ -4,7 +4,7 @@ title: RtmGetEnumNextHops function
 author: windows-sdk-content
 description: The RtmGetEnumNextHops function retrieves the next set of next hops in the specified enumeration.
 old-location: rras\rtmgetenumnexthops.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 3e1a6064-6ba0-4ed8-b6df-1c347b098807
 ms.author: windowssdkdev
 ms.date: 12/5/2018

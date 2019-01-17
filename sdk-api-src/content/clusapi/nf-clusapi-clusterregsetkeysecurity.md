@@ -4,7 +4,7 @@ title: ClusterRegSetKeySecurity function
 author: windows-sdk-content
 description: Sets the security attributes for a cluster database key.
 old-location: mscs\clusterregsetkeysecurity.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: adb2ea52-6a3a-4243-944d-c7ae68a42a1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

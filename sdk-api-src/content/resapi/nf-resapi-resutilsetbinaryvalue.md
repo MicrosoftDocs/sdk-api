@@ -4,7 +4,7 @@ title: ResUtilSetBinaryValue function
 author: windows-sdk-content
 description: Sets a binary value in the cluster database.
 old-location: mscs\resutilsetbinaryvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6a32169c-af14-40f4-ac45-f9923da544ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

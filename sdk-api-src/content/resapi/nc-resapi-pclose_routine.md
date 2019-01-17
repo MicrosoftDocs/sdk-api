@@ -4,7 +4,7 @@ title: PCLOSE_ROUTINE
 author: windows-sdk-content
 description: Closes a resource.
 old-location: mscs\close.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608
 ms.author: windowssdkdev
 ms.date: 12/5/2018

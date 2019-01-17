@@ -4,7 +4,7 @@ title: MprAdminInterfaceGetHandle function
 author: windows-sdk-content
 description: The MprAdminInterfaceGetHandle function retrieves a handle to a specified interface.
 old-location: rras\mpradmininterfacegethandle.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: a220dbc1-90e0-4290-8a65-c2a2dd218f07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

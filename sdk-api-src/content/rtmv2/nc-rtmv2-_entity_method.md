@@ -4,7 +4,7 @@ title: "_ENTITY_METHOD"
 author: windows-sdk-content
 description: The RTM_ENTITY_EXPORT_METHOD callback is the prototype for any method exported by a client.
 old-location: rras\rtm_entity_export_method.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: bf564898-e540-458b-861c-0f57082d40a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

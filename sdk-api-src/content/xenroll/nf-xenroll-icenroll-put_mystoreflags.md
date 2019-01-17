@@ -95,9 +95,13 @@ The <b>MyStoreFlags</b> property should be set before using the following method
 
 #### Examples
 
-
-```cpp
-DWORD    dwFlags;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -114,8 +118,10 @@ hr = pEnroll->put_MyStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
 if ( FAILED ( hr ) )
     printf("Failed updating MyStoreFlags - %x\n", hr );
 else
-    printf("Updated MyStoreFlags\n");
-```
+    printf("Updated MyStoreFlags\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

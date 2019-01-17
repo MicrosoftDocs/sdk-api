@@ -4,7 +4,7 @@ title: WitnessTagUpdateHelper
 author: windows-sdk-content
 description: Contains information used to update and validate a PaxosTagCStruct structure.
 old-location: mscs\witnesstagupdatehelper.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4737A2B0-E295-49B6-8A84-D38BC317011B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ResUtilGetResourceDependentIPAddressProps function
 author: windows-sdk-content
 description: Retrieves the private properties of the first IP Address dependency found for a specified resource. The PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependentipaddressprops.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 283b0086-1dbf-45dc-9651-93af9a9ff6d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

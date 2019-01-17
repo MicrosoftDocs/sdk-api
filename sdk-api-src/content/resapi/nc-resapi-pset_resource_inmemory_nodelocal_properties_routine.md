@@ -4,7 +4,7 @@ title: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\setresourceinmemorynodelocalproperties.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9263E130-49DE-465C-A852-34E2D93A4211
 ms.author: windowssdkdev
 ms.date: 12/5/2018

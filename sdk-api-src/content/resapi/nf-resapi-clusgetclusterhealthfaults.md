@@ -4,7 +4,7 @@ title: ClusGetClusterHealthFaults function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusgetclusterhealthfaults.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 971d4cb6-be46-4259-9c40-72388b70aff7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RTM_ROUTE_INFO
 author: windows-sdk-content
 description: The RTM_ROUTE_INFO structure is used to exchange route information with the routing table manager. Do not change the read-only information.
 old-location: rras\rtm_route_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 7d9bf8c0-dc09-440a-b60d-97463c70a745
 ms.author: windowssdkdev
 ms.date: 12/5/2018

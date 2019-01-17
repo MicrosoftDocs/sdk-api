@@ -4,7 +4,7 @@ title: RESUTIL_PROPERTY_ITEM
 author: windows-sdk-content
 description: Contains information about a cluster object property. An array of RESUTIL_PROPERTY_ITEM structures forms a property table which can be used in property operations.
 old-location: mscs\resutil_property_item.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f65ee50f-59f7-44db-ad69-b29b3e693c7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

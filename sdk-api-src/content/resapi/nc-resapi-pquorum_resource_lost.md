@@ -4,7 +4,7 @@ title: PQUORUM_RESOURCE_LOST
 author: windows-sdk-content
 description: Called when control of the quorum resource has been lost.
 old-location: mscs\quorumresourcelost.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 353eaf47-f93e-4243-8bed-7b6f07513a3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

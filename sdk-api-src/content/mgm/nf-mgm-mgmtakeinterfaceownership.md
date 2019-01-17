@@ -4,7 +4,7 @@ title: MgmTakeInterfaceOwnership function
 author: windows-sdk-content
 description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
 old-location: rras\mgmtakeinterfaceownership.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
 ms.author: windowssdkdev
 ms.date: 12/5/2018

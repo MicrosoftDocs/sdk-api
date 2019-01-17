@@ -4,7 +4,7 @@ title: MprAdminGetErrorString function
 author: windows-sdk-content
 description: The MprAdminGetErrorString function returns the string associated with a router error from Mprerror.h.
 old-location: rras\mpradmingeterrorstring.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757
 ms.author: windowssdkdev
 ms.date: 12/5/2018

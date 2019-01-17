@@ -4,7 +4,7 @@ title: ResUtilGetClusterRoleState function
 author: windows-sdk-content
 description: Determines whether or not a specific role has been assigned to a cluster.
 old-location: mscs\resutilgetclusterrolestate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 582992ca-9381-4673-8fe8-835b50047f51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

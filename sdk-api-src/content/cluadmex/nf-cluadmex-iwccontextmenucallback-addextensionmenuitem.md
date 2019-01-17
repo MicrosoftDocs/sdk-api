@@ -4,7 +4,7 @@ title: IWCContextMenuCallback::AddExtensionMenuItem
 author: windows-sdk-content
 description: Adds a menu item to a Failover Cluster Administrator context menu.
 old-location: mscs\iwccontextmenucallback_addextensionmenuitem.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0eedc564-c82d-4309-b11c-c87d2e73c2c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

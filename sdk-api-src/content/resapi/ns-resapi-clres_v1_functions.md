@@ -4,7 +4,7 @@ title: CLRES_V1_FUNCTIONS
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 1.0 entry points except Startup.
 old-location: mscs\clres_v1_functions.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 54299e92-8b9d-4611-8147-8e7a5e1c8e34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

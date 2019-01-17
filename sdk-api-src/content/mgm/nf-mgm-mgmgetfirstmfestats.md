@@ -4,7 +4,7 @@ title: MgmGetFirstMfeStats function
 author: windows-sdk-content
 description: The MgmGetFirstMfeStats function retrieves MFE statistics starting at the beginning of the MFE list.
 old-location: rras\mgmgetfirstmfestats.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b546c1a6-31a7-4053-9494-6903faa4df52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

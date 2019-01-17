@@ -4,7 +4,7 @@ title: MgmAddGroupMembershipEntry function
 author: windows-sdk-content
 description: The MgmAddGroupMembershipEntry function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface.
 old-location: rras\mgmaddgroupmembershipentry.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b767961e-0935-4662-9f54-d82dfa0e7bd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

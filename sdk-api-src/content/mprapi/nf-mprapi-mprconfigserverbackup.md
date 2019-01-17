@@ -4,7 +4,7 @@ title: MprConfigServerBackup function
 author: windows-sdk-content
 description: The MprConfigServerBackup function creates a backup of the router-manager, interface, and phone-book configuration for the router.
 old-location: rras\mprconfigserverbackup.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 7e318742-78ba-4eb4-818b-939688e79d54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

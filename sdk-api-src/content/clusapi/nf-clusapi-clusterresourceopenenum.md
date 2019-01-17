@@ -4,7 +4,7 @@ title: ClusterResourceOpenEnum function
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a resource's dependencies and nodes.
 old-location: mscs\clusterresourceopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f801401f-f49d-41de-b88b-b832330eeccf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

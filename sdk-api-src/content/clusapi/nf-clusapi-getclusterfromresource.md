@@ -4,7 +4,7 @@ title: GetClusterFromResource function
 author: windows-sdk-content
 description: Returns a handle to the cluster associated with a resource.
 old-location: mscs\getclusterfromresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d0ba93cb-94aa-4c68-b87e-518ee1e5c35c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

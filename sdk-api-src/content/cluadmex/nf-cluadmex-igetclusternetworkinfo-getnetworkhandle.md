@@ -4,7 +4,7 @@ title: IGetClusterNetworkInfo::GetNetworkHandle
 author: windows-sdk-content
 description: Retrieves a handle to a network.
 old-location: mscs\igetclusternetworkinfo_getnetworkhandle.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 596ebdb3-c4c1-4186-ac6b-e6a7d4a61688
 ms.author: windowssdkdev
 ms.date: 12/5/2018

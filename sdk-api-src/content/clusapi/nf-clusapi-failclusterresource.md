@@ -4,7 +4,7 @@ title: FailClusterResource function
 author: windows-sdk-content
 description: Initiates a resource failure.
 old-location: mscs\failclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: fcf0226e-4dd0-4c13-86eb-bc87e461234c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

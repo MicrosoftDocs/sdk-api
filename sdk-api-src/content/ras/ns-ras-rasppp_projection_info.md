@@ -4,7 +4,7 @@ title: RASPPP_PROJECTION_INFO
 author: windows-sdk-content
 description: Contains information obtained during Point-to-Point (PPP) negotiation of Internet Protocol version 4 (IPv4) and IPv6 projection operations, and PPP Link Control Protocol (LCP)/multilink, and Compression Control Protocol (CCP) negotiation.
 old-location: rras\rasppp_projection_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 8394b843-75f0-4bbd-9ad8-6f4b5dc4bf7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OpenClusterGroupEx function
 author: windows-sdk-content
 description: Opens a failover cluster group and returns a handle to it.
 old-location: mscs\openclustergroupex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 240defbb-b9e9-4455-b863-c9b2192f12b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -115,15 +115,21 @@ The swizzled vector (<i>result</i>) will be &lt;40.0f, 40.0f, 10.0f, 30.0f&gt;.
 
 For the case of constant indices (E0, E1, E2, E3), it is much more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855948(v=VS.85).aspx">XMVectorSwizzle</a>:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 template<uint32_t SwizzleX, uint32_t SwizzleY, uint32_t SwizzleZ, uint32_t SwizzleW>
     XMVECTOR XMVectorSwizzle(FXMVECTOR V)
 
 Example: XMVectorSwizzle< 3, 3, 0, 2>(v);
-   
-```
+   </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

@@ -4,7 +4,7 @@ title: CLUS_GROUP_START_SETTING
 author: windows-sdk-content
 description: Enumerates the start settings for a cluster group.
 old-location: mscs\clus_group_start_setting.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9F0A7B9B-278E-4176-BCA7-6CEEF35AFE2E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

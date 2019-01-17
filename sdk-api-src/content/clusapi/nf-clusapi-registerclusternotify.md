@@ -4,7 +4,7 @@ title: RegisterClusterNotify function
 author: windows-sdk-content
 description: Adds an event type to the list of events stored for a notification port.
 old-location: mscs\registerclusternotify.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ddf0e01c-08e9-4e32-b012-76c8a41037a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

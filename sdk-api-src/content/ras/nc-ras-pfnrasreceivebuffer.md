@@ -4,7 +4,7 @@ title: PFNRASRECEIVEBUFFER
 author: windows-sdk-content
 description: The custom-scripting DLL calls the RasReceiveBuffer function to inform RAS that it is ready to receive data from the server over the specified port.
 old-location: rras\rasreceivebuffer.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: cc5523df-748d-4f96-8d54-bf0a2f9ecde4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

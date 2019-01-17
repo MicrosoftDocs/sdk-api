@@ -4,7 +4,7 @@ title: PRELEASE_ROUTINE
 author: windows-sdk-content
 description: Releases the quorum resource from arbitration.
 old-location: mscs\release.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RAS_PORT_CONDITION
 author: windows-sdk-content
 description: The RAS_PORT_CONDITION enumerated type specifies information regarding the connection condition of a given RAS port.
 old-location: rras\ras_port_condition.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 86bcca08-97c5-404c-b5d9-a90d93f26e00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

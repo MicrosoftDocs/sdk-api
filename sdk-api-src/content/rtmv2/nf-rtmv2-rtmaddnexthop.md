@@ -4,7 +4,7 @@ title: RtmAddNextHop function
 author: windows-sdk-content
 description: The RtmAddNextHop function adds a new next-hop entry or updates an existing next-hop entry to a client's next-hop list.
 old-location: rras\rtmaddnexthop.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 7c11397b-f5c9-4a3e-88d8-2f1736f5da13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

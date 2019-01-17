@@ -4,7 +4,7 @@ title: OnlineClusterResource function
 author: windows-sdk-content
 description: Brings an offline or failed resource online.
 old-location: mscs\onlineclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8ea8d741-f6f7-48eb-9678-bbb53f76a9ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

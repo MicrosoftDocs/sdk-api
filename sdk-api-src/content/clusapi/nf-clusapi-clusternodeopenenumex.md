@@ -4,7 +4,7 @@ title: ClusterNodeOpenEnumEx function
 author: windows-sdk-content
 description: Opens an enumerator that can iterate through the network interfaces or groups that are installed on a node.
 old-location: mscs\clusternodeopenenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: A251C5A3-2C9F-4030-8013-4846AD83A2E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

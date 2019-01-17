@@ -4,7 +4,7 @@ title: ClusterNetworkCloseEnum function
 author: windows-sdk-content
 description: Closes a network enumeration handle.
 old-location: mscs\clusternetworkcloseenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 725164c5-dc6d-42f4-a703-06336711e72e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

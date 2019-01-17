@@ -4,7 +4,7 @@ title: MprConfigInterfaceTransportRemove function
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportRemove function removes the specified transport from the specified interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportremove.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0f286003-f9d8-490b-a379-76baa3f53c6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

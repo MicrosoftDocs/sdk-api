@@ -4,7 +4,7 @@ title: RTM_ENTITY_METHOD_INPUT
 author: windows-sdk-content
 description: The RTM_ENTITY_METHOD_INPUT structure is used to pass information to a client when invoking its method.
 old-location: rras\rtm_entity_method_input.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1f900e85-c522-47c9-bfc8-5a1c1d01ab78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

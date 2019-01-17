@@ -4,7 +4,7 @@ title: RAS_USER_0
 author: windows-sdk-content
 description: The RAS_USER_0 structure contains information for a particular Remote Access Service user.
 old-location: rras\ras_user_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f034c6c2-2dac-40bf-b810-9bf6f3eb3c41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

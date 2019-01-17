@@ -4,7 +4,7 @@ title: DeleteClusterGroup function
 author: windows-sdk-content
 description: Removes an offline and empty group from a cluster.
 old-location: mscs\deleteclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterResourceTypeControlAsUser function
 author: windows-sdk-content
 description: Initiates an operation affecting a resource type.
 old-location: mscs\clusterresourcetypecontrolasuser.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9F39952F-4B91-4C06-A789-D92F1F8462A4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterGetVolumeNameForVolumeMountPoint function
 author: windows-sdk-content
 description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
 old-location: mscs\clustergetvolumenameforvolumemountpoint.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d110e30d-046e-45f3-b326-72160a69c17d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -174,11 +174,17 @@ Output: "\\?\Volume{deadbeef-895e-4a1d-9d64-9b82fa068d76}\"
       <b>WCHAR</b>-based data types. The UNICODE preprocessor define must be set before ResApi.h 
       is included.
 
-
-```cpp
-#define UNICODE 1
-#include <ResApi.h>
-```
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
+#include <ResApi.h></pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

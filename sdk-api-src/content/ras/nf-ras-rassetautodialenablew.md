@@ -4,7 +4,7 @@ title: RasSetAutodialEnableW function
 author: windows-sdk-content
 description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location.
 old-location: rras\rassetautodialenable.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0d5f7b8e-9bce-4e72-8657-f465ce4008c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

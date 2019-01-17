@@ -4,7 +4,7 @@ title: RegisterAppInstance function
 author: windows-sdk-content
 description: Registers the AppInstance ID for a process.
 old-location: mscs\registerappinstance.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926
 ms.author: windowssdkdev
 ms.date: 12/5/2018

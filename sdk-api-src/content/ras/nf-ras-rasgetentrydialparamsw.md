@@ -4,7 +4,7 @@ title: RasGetEntryDialParamsW function
 author: windows-sdk-content
 description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
 old-location: rras\rasgetentrydialparams.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

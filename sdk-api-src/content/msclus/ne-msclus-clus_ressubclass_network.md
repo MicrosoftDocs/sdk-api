@@ -4,7 +4,7 @@ title: CLUS_RESSUBCLASS_NETWORK
 author: windows-sdk-content
 description: Identifies a resource subclass that manages an IP address provider.
 old-location: mscs\clus_ressubclass_network.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1dea2545-f0d4-4730-87af-19de135c1640
 ms.author: windowssdkdev
 ms.date: 12/5/2018

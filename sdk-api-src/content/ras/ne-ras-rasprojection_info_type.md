@@ -4,7 +4,7 @@ title: RASPROJECTION_INFO_TYPE
 author: windows-sdk-content
 description: Is used in the RAS_PROJECTION_INFO structure to represent either a RASPPP_PROJECTION_INFO or RASIKEV2_PROJECTION_INFO structure.
 old-location: rras\rasprojection_info_type.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: ac288100-a346-4d9b-9bf4-8144372f54a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

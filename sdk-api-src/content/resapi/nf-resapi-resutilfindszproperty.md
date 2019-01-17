@@ -4,7 +4,7 @@ title: ResUtilFindSzProperty function
 author: windows-sdk-content
 description: Locates a string property in a property list. The PRESUTIL_FIND_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindszproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b7fb6c7e-5a13-4838-98f4-45931e9e96d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

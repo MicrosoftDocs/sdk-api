@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE
 author: windows-sdk-content
 description: Describes the type of notification returned.
 old-location: mscs\cluster_change.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d396d490-84d0-4bf8-9c0d-8597b3baf0ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

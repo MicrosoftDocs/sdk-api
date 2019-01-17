@@ -4,7 +4,7 @@ title: ClusterRegOpenKey function
 author: windows-sdk-content
 description: Opens an existing cluster database key.
 old-location: mscs\clusterregopenkey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f2cf204e-d02d-40b9-86d7-0262b8cc4db1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

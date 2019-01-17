@@ -4,7 +4,7 @@ title: RESOURCE_STATUS_EX
 author: windows-sdk-content
 description: Contains information about a resource that is being brought online or taken offline. This structure is used as a parameter to the callback function SetResourceStatusEx.
 old-location: mscs\resource_status_ex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: CBEBF870-B413-400C-A485-FD093358FB67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

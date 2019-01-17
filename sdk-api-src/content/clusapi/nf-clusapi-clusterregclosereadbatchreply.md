@@ -4,7 +4,7 @@ title: ClusterRegCloseReadBatchReply function
 author: windows-sdk-content
 description: Closes a read batch result handle and frees the memory associated with it.
 old-location: mscs\clusterregclosereadbatchreply.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: C8CC4292-A7CC-4613-B5A8-B504E804E00E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

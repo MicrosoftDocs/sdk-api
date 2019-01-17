@@ -4,7 +4,7 @@ title: CloseClusterResource function
 author: windows-sdk-content
 description: Closes a resource handle.
 old-location: mscs\closeclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: dbefd7f9-3499-45b3-a5c8-d0000632f61c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

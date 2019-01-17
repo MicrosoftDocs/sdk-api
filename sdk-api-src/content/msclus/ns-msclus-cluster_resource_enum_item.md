@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_ENUM_ITEM
 author: windows-sdk-content
 description: Represents the properties of a cluster resource. This structure is used to enumerate cluster resources in the ClusterResourceEnumEx function.
 old-location: mscs\cluster_resource_enum_item.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B8369B29-F72A-4642-93CB-23F04E680663
 ms.author: windowssdkdev
 ms.date: 12/5/2018

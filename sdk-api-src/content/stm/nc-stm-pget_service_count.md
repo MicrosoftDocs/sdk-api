@@ -4,7 +4,7 @@ title: PGET_SERVICE_COUNT
 author: windows-sdk-content
 description: The GetServiceCount function returns the number of services in the table.
 old-location: rras\getservicecount.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 44ba90c0-a019-4aca-92e2-1e795cbd335d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

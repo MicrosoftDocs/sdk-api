@@ -4,7 +4,7 @@ title: LPRESOURCE_CALLBACK
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\lpresource_callback.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1e36be6d-d869-4af9-b22a-401638701bd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

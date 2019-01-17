@@ -4,7 +4,7 @@ title: MprAdminGetPDCServer function
 author: windows-sdk-content
 description: The MprAdminGetPDCServer function retrieves the name of the server with the master User Accounts Subsystem (UAS) from either a domain name or a server name. Either the domain name parameter or the server name parameter may be NULL, but not both.
 old-location: rras\mpradmingetpdcserver.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 96bd5e88-5b13-41b2-ab3a-f9995cae36f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

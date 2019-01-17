@@ -4,7 +4,7 @@ title: ResUtilSetDwordValue function
 author: windows-sdk-content
 description: Sets a numeric value in the cluster database. The PRESUTIL_SET_DWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetdwordvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e8b4393b-84f7-4440-92b5-fd7fa2be96a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

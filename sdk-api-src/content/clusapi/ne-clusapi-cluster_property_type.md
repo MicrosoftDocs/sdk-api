@@ -4,7 +4,7 @@ title: CLUSTER_PROPERTY_TYPE
 author: windows-sdk-content
 description: Defines the property types that are supported by a cluster property list.
 old-location: mscs\cluster_property_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4a10d4f1-2a50-42e7-a143-e9a93d9fcc42
 ms.author: windowssdkdev
 ms.date: 12/5/2018

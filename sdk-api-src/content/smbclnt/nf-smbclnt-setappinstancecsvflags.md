@@ -4,7 +4,7 @@ title: SetAppInstanceCsvFlags function
 author: windows-sdk-content
 description: Sets the flags that affect connections from the application instance.
 old-location: mscs\setappinstancecsvflags.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 37FDAB0A-1593-47D6-B4CE-A667EBA01680
 ms.author: windowssdkdev
 ms.date: 12/5/2018

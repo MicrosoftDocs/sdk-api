@@ -4,7 +4,7 @@ title: RTM_ENTITY_EXPORT_METHODS
 author: windows-sdk-content
 description: The RTM_ENTITY_EXPORT_METHODS structure contains the set of methods exported by a client.
 old-location: rras\rtm_entity_export_methods.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 8198cfad-9188-4f49-92ab-1750ec16aec4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

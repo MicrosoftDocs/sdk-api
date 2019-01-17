@@ -4,7 +4,7 @@ title: SetClusterNetworkName function
 author: windows-sdk-content
 description: Sets the name for a network.
 old-location: mscs\setclusternetworkname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c1b5dcd0-8974-495c-b85a-1d426719e9f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

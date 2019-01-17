@@ -4,7 +4,7 @@ title: PSET_RESOURCE_STATUS_ROUTINE
 author: windows-sdk-content
 description: Called to update the status of a resource.
 old-location: mscs\setresourcestatus.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8ddb4578-f8c4-462e-af04-8c537d585e8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ResUtilStartResourceService function
 author: windows-sdk-content
 description: Starts a service. The PRESUTIL_START_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstartresourceservice.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0c8a80d7-0291-4ed5-af44-67c0c251dc84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

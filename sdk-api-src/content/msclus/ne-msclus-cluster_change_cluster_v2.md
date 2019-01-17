@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_CLUSTER_V2
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a cluster.
 old-location: mscs\cluster_change_cluster_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: EF414341-1EA4-4E69-AEA6-1CA3EAEAEDA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

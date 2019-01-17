@@ -4,7 +4,7 @@ title: IGetClusterDataInfo::GetObjectCount
 author: windows-sdk-content
 description: Returns a count of the number of selected cluster objects.
 old-location: mscs\igetclusterdatainfo_getobjectcount.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 20ef63e2-bcec-48bc-86e8-ab746fb72cc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

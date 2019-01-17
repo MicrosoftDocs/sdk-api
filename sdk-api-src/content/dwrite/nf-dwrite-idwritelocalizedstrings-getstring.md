@@ -95,9 +95,13 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The string returned must be allocated by the caller.  You can get the size of the string by using the <a href="https://msdn.microsoft.com/8dd55a10-d654-4d09-b2ee-d51e504d83c9">GetStringLength</a> method prior to calling <b>GetString</b>, as shown in the following example.
 
-
-```cpp
-UINT32 length = 0;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>UINT32 length = 0;
 
 // Get the string length.
 if (SUCCEEDED(hr))
@@ -117,8 +121,10 @@ if (SUCCEEDED(hr))
 {
     hr = pFamilyNames->GetString(index, name, length+1);
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: CLUSPROP_LIST
 author: windows-sdk-content
 description: Accesses the beginning of a property list.
 old-location: mscs\clusprop_list.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1f76104f-99eb-4376-8d92-e04b7f00c46d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

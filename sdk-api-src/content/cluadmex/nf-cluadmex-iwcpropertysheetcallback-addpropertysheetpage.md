@@ -4,7 +4,7 @@ title: IWCPropertySheetCallback::AddPropertySheetPage
 author: windows-sdk-content
 description: Adds a property page to a Failover Cluster Administrator property sheet.
 old-location: mscs\iwcpropertysheetcallback_addpropertysheetpage.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
 ms.author: windowssdkdev
 ms.date: 12/5/2018

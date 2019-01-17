@@ -4,7 +4,7 @@ title: DeleteClusterGroupSet function
 author: windows-sdk-content
 description: Deletes the specified groupset from the cluster.
 old-location: mscs\deleteclustergroupcollection.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8787d61b-7a80-404c-985f-1ad4ba01acf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

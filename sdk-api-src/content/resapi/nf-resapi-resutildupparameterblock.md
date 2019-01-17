@@ -4,7 +4,7 @@ title: ResUtilDupParameterBlock function
 author: windows-sdk-content
 description: Performs a member-wise copy of the data from one parameter block to another.
 old-location: mscs\resutildupparameterblock.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b05b5afe-7d4b-4a21-9f28-88d6effaf5af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

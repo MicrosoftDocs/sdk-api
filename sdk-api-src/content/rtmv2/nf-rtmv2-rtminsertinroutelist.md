@@ -4,7 +4,7 @@ title: RtmInsertInRouteList function
 author: windows-sdk-content
 description: The RtmInsertInRouteList function inserts the specified set of routes into the client's route list. If a route is already in another list, the route is removed from the old list and inserted into the new one.
 old-location: rras\rtminsertinroutelist.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: e0145bdc-5000-429d-8603-1ebc6003a2bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

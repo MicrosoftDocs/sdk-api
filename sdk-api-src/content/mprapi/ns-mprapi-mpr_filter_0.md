@@ -4,7 +4,7 @@ title: MPR_FILTER_0
 author: windows-sdk-content
 description: Contains static filter configuration information.
 old-location: rras\mpr_filter_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f930b145-554b-40ea-ace0-60978ed428c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

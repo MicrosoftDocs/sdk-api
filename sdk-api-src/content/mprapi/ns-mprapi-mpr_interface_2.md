@@ -4,7 +4,7 @@ title: MPR_INTERFACE_2
 author: windows-sdk-content
 description: Contains data for a router demand-dial interface.
 old-location: rras\mpr_interface_2.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 486f3526-2b0e-4f08-bb85-3aebf10cd52e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

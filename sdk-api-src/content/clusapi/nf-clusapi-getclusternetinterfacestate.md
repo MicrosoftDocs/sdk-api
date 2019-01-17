@@ -4,7 +4,7 @@ title: GetClusterNetInterfaceState function
 author: windows-sdk-content
 description: Returns the current state of a network interface.
 old-location: mscs\getclusternetinterfacestate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d84a5e3f-d0f9-4345-b008-e15c277dcbd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

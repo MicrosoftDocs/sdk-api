@@ -4,7 +4,7 @@ title: CLUSTER_NODE_ENUM
 author: windows-sdk-content
 description: Describes the types of cluster objects that are enumerated by the ClusterNodeEnum and ClusterNodeOpenEnum functions.
 old-location: mscs\cluster_node_enum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e8660f86-f4e5-4aa3-851a-94f0a230e12d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

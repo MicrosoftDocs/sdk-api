@@ -4,7 +4,7 @@ title: CLUS_STARTING_PARAMS
 author: windows-sdk-content
 description: Indicates whether a node's attempt to start the Cluster service represents an attempt to form or join a cluster, and whether the node has attempted to start this version of the Cluster service before.
 old-location: mscs\clus_starting_params.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 255c68ff-0ca0-4718-b7fe-c689c93d0203
 ms.author: windowssdkdev
 ms.date: 12/5/2018

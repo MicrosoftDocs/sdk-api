@@ -4,7 +4,7 @@ title: PBEGIN_RESCALL_AS_USER_ROUTINE
 author: windows-sdk-content
 description: The PBEGIN_RESCALL_AS_USER_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrolasuser.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 58F065C6-0AE1-481D-ADA0-CF2907CB45DC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

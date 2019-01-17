@@ -4,7 +4,7 @@ title: MprAdminServerSetInfo function
 author: windows-sdk-content
 description: The MprAdminServerSetInfo function is used to set the number of ports for L2TP, PPTP, and SSTP devices when the RRAS service is running.
 old-location: rras\mpradminserversetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 37187f6f-388e-47d6-83a8-92c2f69f71d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

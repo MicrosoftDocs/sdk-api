@@ -4,7 +4,7 @@ title: RTM_DEST_INFO
 author: windows-sdk-content
 description: The RTM_DEST_INFO structure is used to exchange destination information with clients registered with the routing table manager.
 old-location: rras\rtm_dest_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6712ed2f-c5b4-416b-b345-a3d0c5d26820
 ms.author: windowssdkdev
 ms.date: 12/5/2018

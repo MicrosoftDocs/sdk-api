@@ -4,7 +4,7 @@ title: AddClusterResourceNode function
 author: windows-sdk-content
 description: Adds a node to the list of possible nodes that a resource can run on.
 old-location: mscs\addclusterresourcenode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtmDeleteEnumHandle function
 author: windows-sdk-content
 description: The RtmDeleteEnumHandle function deletes the specified enumeration handle and frees all resources allocated for the enumeration.
 old-location: rras\rtmdeleteenumhandle.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 87477e25-d4bc-44d2-932b-f266b0bdaafa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

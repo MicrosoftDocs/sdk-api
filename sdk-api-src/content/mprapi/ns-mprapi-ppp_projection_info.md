@@ -4,7 +4,7 @@ title: PPP_PROJECTION_INFO
 author: windows-sdk-content
 description: Contains information obtained during Point-to-Point (PPP) negotiation for Secure Socket Tunneling Protocol (SSTP), Point-to-Point Tunneling Protocol (PPTP), and Layer 2 Tunneling Protocol (L2TP).
 old-location: rras\ppp_projection_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f100a7d0-9f22-4cc6-8db0-684cff565e76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

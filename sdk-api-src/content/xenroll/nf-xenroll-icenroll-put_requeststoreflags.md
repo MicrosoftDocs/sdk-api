@@ -103,9 +103,13 @@ The <b>RequestStoreFlags</b> property should be set before using the following m
 
 #### Examples
 
-
-```cpp
-DWORD    dwFlags;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -123,8 +127,10 @@ hr = pEnroll->put_RequestStoreFlags
 if ( FAILED ( hr ) )
     printf("Failed updating RequestStoreFlags - %x\n", hr );
 else
-    printf("Updated RequestStoreFlags\n");
-```
+    printf("Updated RequestStoreFlags\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: MprAdminGetIpv6AddressForUser function
 author: windows-sdk-content
 description: RAS calls the MprAdminGetIpv6AddressForUser function once for each user that requires an IPv6 address.
 old-location: rras\mpradmingetipv6addressforuser.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: ec4b4130-4864-470f-8647-1fcadd359c58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

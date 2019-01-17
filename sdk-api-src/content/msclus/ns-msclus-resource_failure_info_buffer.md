@@ -4,7 +4,7 @@ title: RESOURCE_FAILURE_INFO_BUFFER
 author: windows-sdk-content
 description: Represents a buffer for a resource failure.
 old-location: mscs\resource_failure_info_buffer.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 131EEF4A-DB1E-4FF7-8329-4AA422AB83B0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

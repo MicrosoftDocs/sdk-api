@@ -4,7 +4,7 @@ title: FILESHARE_CHANGE
 author: windows-sdk-content
 description: Describes the format for an entry in an event notification list.
 old-location: mscs\fileshare_change.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f317f162-49b2-43df-a298-e2de707e089a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

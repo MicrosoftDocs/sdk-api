@@ -4,7 +4,7 @@ title: RTM_IPV4_MASK_FROM_LEN macro
 author: windows-sdk-content
 description: The RTM_IPV4_MASK_FROM_LEN macro converts a generic route length to an IPv4 mask.
 old-location: rras\rtm_ipv4_mask_from_len.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 7f4a67d9-e707-413e-8cc3-600eb7968b82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

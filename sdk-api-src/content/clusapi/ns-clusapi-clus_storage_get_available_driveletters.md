@@ -4,7 +4,7 @@ title: CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 author: windows-sdk-content
 description: Contains a bitmask of the driver letters that are available on a node. It is used as the return value of the CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS control code.
 old-location: mscs\clus_storage_get_available_driveletters.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 37a843db-bb11-46e5-9b1c-da8403f73aa6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

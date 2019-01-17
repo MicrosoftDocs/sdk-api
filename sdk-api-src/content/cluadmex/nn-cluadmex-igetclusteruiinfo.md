@@ -4,7 +4,7 @@ title: IGetClusterUIInfo
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about Failover Cluster Administrator's user interface.
 old-location: mscs\igetclusteruiinfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e41afb20-5bb8-475f-a056-53d7be8f4bf0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

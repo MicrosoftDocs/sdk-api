@@ -4,7 +4,7 @@ title: GET_OPERATION_CONTEXT_PARAMS
 author: windows-sdk-content
 description: Represents context parameters that are used as input for the CLUSCTL_RESOURCE_GET_OPERATION_CONTEXT control code.
 old-location: mscs\get_operation_context_params.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 682215D9-7965-46D5-ABC7-A37B685C43F5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

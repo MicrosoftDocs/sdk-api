@@ -4,7 +4,7 @@ title: PRAISE_RES_TYPE_NOTIFICATION
 author: windows-sdk-content
 description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.
 old-location: mscs\raiserestypenotification.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

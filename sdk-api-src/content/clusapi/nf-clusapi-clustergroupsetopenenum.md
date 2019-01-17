@@ -4,7 +4,7 @@ title: ClusterGroupSetOpenEnum function
 author: windows-sdk-content
 description: Starts the enumeration of groupset for a cluster.
 old-location: mscs\clustergroupcollectionopenenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9e629cc8-2e5f-4682-a9b5-902d13a9792d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ResUtilGetPropertySize function
 author: windows-sdk-content
 description: Returns the total number of bytes required for a specified property.
 old-location: mscs\resutilgetpropertysize.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

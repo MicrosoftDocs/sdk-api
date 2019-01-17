@@ -4,11 +4,11 @@ title: CLUSPROP_RESOURCE_CLASS_INFO
 author: windows-sdk-content
 description: Describes information relating to a resource class.
 old-location: mscs\clusprop_resource_class_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 449f297e-6207-446e-ac80-03145c44d671
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: "*PCLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO structure [Failover Cluster], CLUS_RESCLASS_STORAGE, CLUS_RESCLASS_UNKNOWN, CLUS_RESCLASS_USER, PCLUSPROP_RESOURCE_CLASS_INFO, PCLUSPROP_RESOURCE_CLASS_INFO structure pointer [Failover Cluster], _wolf_clusprop_resource_class_info, clusapi/CLUSPROP_RESOURCE_CLASS_INFO, clusapi/PCLUSPROP_RESOURCE_CLASS_INFO, mscs.clusprop_resource_class_info"
+ms.keywords: "*PCLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO, CLUSPROP_RESOURCE_CLASS_INFO structure [Failover Cluster], PCLUSPROP_RESOURCE_CLASS_INFO, PCLUSPROP_RESOURCE_CLASS_INFO structure pointer [Failover Cluster], _wolf_clusprop_resource_class_info, clusapi/CLUSPROP_RESOURCE_CLASS_INFO, clusapi/PCLUSPROP_RESOURCE_CLASS_INFO, mscs.clusprop_resource_class_info"
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 
@@ -55,10 +55,7 @@ Describes information relating to a resource class. It is used as an entry in a
      and type of the resource class information.</li>
 <li>A <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure 
      describing the resource class and subclass of the resource.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> and 
-    <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> members are listed 
-    explicitly.
-
+</ul>
 
 ## -struct-fields
 
@@ -67,97 +64,16 @@ Describes information relating to a resource class. It is used as an entry in a
 
 ### -field CLUSPROP_VALUE
 
- 
+
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure with a <b>cbLength</b> field indicating 
+       the count of bytes in the <b>CLUS_RESOURCE_CLASS_INFO</b> member. Padding 
+      bytes are not included in the count.
 
 
 ### -field CLUS_RESOURCE_CLASS_INFO
 
- 
 
-
-
-
-#### - DUMMYUNIONNAME
-
-
-
-#### DUMMYSTRUCTNAME
-
-
-
-##### DUMMYUNIONNAME
-
-
-
-###### dw
-
-Member of the 
-         <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure that 
-         describes the resource class as a numeric value.
-
-
-
-###### rc
-
-Member of the 
-         <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure that 
-         describes the resource class with one of the following values.
-
-
-
-####### CLUS_RESCLASS_UNKNOWN
-
-Resource class is unknown.
-
-
-
-####### CLUS_RESCLASS_STORAGE
-
-Resource is a storage device, such as a 
-           <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resource.
-
-
-
-####### CLUS_RESCLASS_USER
-
-Resource belongs to a user-defined class. <b>CLUS_RESCLASS_USER</b> specifies the 
-           beginning of the range for user-defined resource classes.
-
-
-
-##### SubClass
-
-Member of the <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> 
-         structure that further describes the resource class. The following value is valid for 
-         <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resources:
-
-<b>CLUS_RESSUBCLASS_SHARED</b>
-
-Setting <b>SubClass</b> to <b>CLUS_RESSUBCLASS_SHARED</b> 
-         indicates that the resource manages a shared resource such as a disk on a shared SCSI bus.
-
-
-
-#### li
-
-Member of the <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> 
-       structure that describes the resource class and subclass as a <b>ULARGE_INTEGER</b> value 
-       with a low <b>DWORD</b> and a high <b>DWORD</b>.
-
-
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing 
-      the format and type of the data in the 
-      <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure.
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
-      the count of bytes in the 
-      <a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure. Padding 
-      bytes are not included in the count.
+<a href="https://msdn.microsoft.com/b8b6c479-2e35-4cc9-b864-d495c3bded25">CLUS_RESOURCE_CLASS_INFO</a> structure.
 
 
 ## -remarks

@@ -4,7 +4,7 @@ title: ClusterRemoveGroupFromGroupSet function
 author: windows-sdk-content
 description: Removes the specified group from the groupset to which it is currently a member.
 old-location: mscs\clusterremovegroupfromgroupcollection.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 26fdf045-0c7d-49ca-adc4-2f687e85b858
 ms.author: windowssdkdev
 ms.date: 12/5/2018

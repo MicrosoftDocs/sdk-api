@@ -4,7 +4,7 @@ title: MprInfoDuplicate function
 author: windows-sdk-content
 description: The MprInfoDuplicate function duplicates an existing information header.
 old-location: rras\mprinfoduplicate.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 446e93a0-8de5-4117-94fe-6f167da1acef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

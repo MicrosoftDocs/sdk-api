@@ -4,7 +4,7 @@ title: ALIGN_CLUSPROP macro
 author: windows-sdk-content
 description: Aligns structures properly within value lists.
 old-location: mscs\align_clusprop.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: af7c9d39-b76f-494d-af5d-7e0baf0ace2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

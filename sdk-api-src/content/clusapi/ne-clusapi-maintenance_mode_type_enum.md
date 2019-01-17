@@ -4,7 +4,7 @@ title: MAINTENANCE_MODE_TYPE_ENUM
 author: windows-sdk-content
 description: Defines the possible states that a storage class resource can be placed in when marked for maintenance.
 old-location: mscs\maintenance_mode_type_enum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169
 ms.author: windowssdkdev
 ms.date: 12/5/2018

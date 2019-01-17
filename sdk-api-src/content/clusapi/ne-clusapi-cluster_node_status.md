@@ -4,7 +4,7 @@ title: CLUSTER_NODE_STATUS
 author: windows-sdk-content
 description: Describes the status of a cluster node.
 old-location: mscs\cluster_node_status.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DFCCAB22-EF79-4E4D-959A-FE2090E4EA02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

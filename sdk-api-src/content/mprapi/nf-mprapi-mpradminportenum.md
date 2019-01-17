@@ -4,7 +4,7 @@ title: MprAdminPortEnum function
 author: windows-sdk-content
 description: Enumerates all active ports in a specific connection, or all ports available for use or currently used by RAS.
 old-location: rras\mpradminportenum.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b6caa1f0-f4c7-48a9-b1e8-b484e7d7a3a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

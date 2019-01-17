@@ -4,7 +4,7 @@ title: PMIB_GET_FIRST
 author: windows-sdk-content
 description: The MibGetFirst function passes a SNMP MIB-style Get First Request to the routing protocol.
 old-location: rras\mibgetfirst.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 3aef09e2-6314-4de8-a9dd-e02c13e0145c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

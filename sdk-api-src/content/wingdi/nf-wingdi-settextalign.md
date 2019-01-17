@@ -221,22 +221,34 @@ The rectangle that bounds the text is formed by the character cells in the text 
 
 The best way to get left-aligned text is to use either
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 SetTextAlign (hdc, GetTextAlign(hdc) & (~TA_CENTER))
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 or
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 SetTextAlign (hdc,TA_LEFT | <other flags>)
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 You can also use <b>SetTextAlign</b> (hdc, TA_LEFT) for this purpose, but this loses any vertical or right-to-left settings.

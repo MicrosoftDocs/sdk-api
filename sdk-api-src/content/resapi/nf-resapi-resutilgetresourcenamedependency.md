@@ -4,7 +4,7 @@ title: ResUtilGetResourceNameDependency function
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource in the local cluster and returns a handle to a dependency of a specified resource type. The PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY type defines a pointer to this function.
 old-location: mscs\resutilgetresourcenamedependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 071f11bb-fcb3-4c76-ad81-b19ff7bdcb4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

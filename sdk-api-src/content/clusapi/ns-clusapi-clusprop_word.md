@@ -4,7 +4,7 @@ title: CLUSPROP_WORD
 author: windows-sdk-content
 description: Describes numeric data.
 old-location: mscs\clusprop_word.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ba09290b-171b-45cf-a367-485f7322ebef
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -54,9 +54,7 @@ Describes numeric data. It
 <li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing the format, 
      type, and length of the numeric data.</li>
 <li>A <b>WORD</b> value.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
-    explicitly:
-
+</ul>
 
 ## -struct-fields
 
@@ -70,21 +68,10 @@ Numeric value.
 
 ### -field CLUSPROP_VALUE
 
- 
 
-
-
-
-#### - Syntax
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing 
-       the format and type of the <b>w</b> member.
-
-
-#### - cbLength
-
-Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
-       the count of bytes in the <b>w</b> member.
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing 
+       the format, type, and 
+       the count of bytes in the <b>w</b> member. 
 
 
 ## -see-also

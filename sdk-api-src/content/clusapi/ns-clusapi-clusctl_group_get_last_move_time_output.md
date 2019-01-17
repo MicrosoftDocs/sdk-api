@@ -4,7 +4,7 @@ title: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 author: windows-sdk-content
 description: Specifies information about the last time a group was moved to another node.
 old-location: mscs\clusctl_group_get_last_move_time_output.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: C8292546-4220-4A5D-91C6-03687DD06A9B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

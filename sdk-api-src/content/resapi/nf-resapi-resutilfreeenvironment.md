@@ -4,7 +4,7 @@ title: ResUtilFreeEnvironment function
 author: windows-sdk-content
 description: Destroys the environment variable block created with ResUtilGetEnvironmentWithNetName. The PRESUTIL_FREE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilfreeenvironment.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 196f347e-2b2f-4bb1-a86c-b2a73881ed65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

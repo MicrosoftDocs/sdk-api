@@ -4,7 +4,7 @@ title: IGetClusterObjectInfo::GetObjectName
 author: windows-sdk-content
 description: Returns the name of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjectname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e45f3652-74da-4d93-826d-320ddae10f49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

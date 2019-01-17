@@ -4,7 +4,7 @@ title: InitializeClusterHealthFaultArray function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\initializeclusterhealthfaultarray.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9b2a2706-5641-46ba-a280-5a689ad50316
 ms.author: windowssdkdev
 ms.date: 12/5/2018

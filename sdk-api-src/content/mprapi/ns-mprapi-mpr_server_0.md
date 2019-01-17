@@ -4,7 +4,7 @@ title: MPR_SERVER_0
 author: windows-sdk-content
 description: The MPR_SERVER_0 structure is used to retrieve information about a device.
 old-location: rras\mpr_server_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: cffda25b-28f8-4d76-987c-eadcea9c032b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

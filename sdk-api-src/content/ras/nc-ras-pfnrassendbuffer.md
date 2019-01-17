@@ -4,7 +4,7 @@ title: PFNRASSENDBUFFER
 author: windows-sdk-content
 description: The custom-scripting DLL calls the RasSendBuffer function to send data to the server over the specified port.
 old-location: rras\rassendbuffer.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 157a2bc7-351f-4170-b85b-ed789b4997ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

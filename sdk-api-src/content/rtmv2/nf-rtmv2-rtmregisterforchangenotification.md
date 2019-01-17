@@ -4,7 +4,7 @@ title: RtmRegisterForChangeNotification function
 author: windows-sdk-content
 description: The RtmRegisterForChangeNotification function informs the routing table manager that the client should receive change notifications for the specified types of changes.
 old-location: rras\rtmregisterforchangenotification.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b6e04984-ac92-44a2-a18c-018c6b1b49a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterSharedVolumeSetSnapshotState function
 author: windows-sdk-content
 description: Updates the state of a snapshot of a cluster shared volume.
 old-location: mscs\clustersharedvolumesetsnapshotstate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B264CF0E-33FD-44F9-B91E-2F90C35D09AC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ResUtilEnumResourcesEx2 function
 author: windows-sdk-content
 description: Enumerates all of the resources in a specified cluster and initiates a user-defined operation for each resource. The PRESUTIL_ENUM_RESOURCES_EX2 type defines a pointer to this function.
 old-location: mscs\resutilenumresourcesex2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F178850C-D68A-4A51-A830-F12E023352B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

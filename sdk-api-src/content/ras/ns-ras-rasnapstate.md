@@ -4,7 +4,7 @@ title: RASNAPSTATE
 author: windows-sdk-content
 description: The Network Access Protection (NAP) variables for a remote access connection.
 old-location: rras\rasnapstate.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

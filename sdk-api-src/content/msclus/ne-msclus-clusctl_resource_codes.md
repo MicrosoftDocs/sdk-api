@@ -4,7 +4,7 @@ title: CLUSCTL_RESOURCE_CODES
 author: windows-sdk-content
 description: Enumerates resource&#32;control codes.
 old-location: mscs\clusctl_resource_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c90420de-48e9-4105-9848-a27abad9c452
 ms.author: windowssdkdev
 ms.date: 12/5/2018

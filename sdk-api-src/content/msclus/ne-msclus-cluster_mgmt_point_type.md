@@ -4,7 +4,7 @@ title: CLUSTER_MGMT_POINT_TYPE
 author: windows-sdk-content
 description: Specifies the type of the management point for the cluster.
 old-location: mscs\cluster_mgmt_point_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9A849D8E-EC04-470B-A72A-022213CDF92E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetClusterResourceState function
 author: windows-sdk-content
 description: Returns the current state of a resource.
 old-location: mscs\getclusterresourcestate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c3897c96-743e-4753-8fef-b8defe4f2b00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

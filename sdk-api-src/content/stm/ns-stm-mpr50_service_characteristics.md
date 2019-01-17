@@ -4,7 +4,7 @@ title: MPR50_SERVICE_CHARACTERISTICS
 author: windows-sdk-content
 description: The MPR_SERVICE_CHARACTERISTICS structure contains information used to register a routing protocol with the router manager.
 old-location: rras\mpr_service_characteristics.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 92a117ae-3a5f-4702-a936-8e23bc575763
 ms.author: windowssdkdev
 ms.date: 12/5/2018

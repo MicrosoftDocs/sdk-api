@@ -4,7 +4,7 @@ title: CloseClusterNotifyPort function
 author: windows-sdk-content
 description: Closes a notification port established through CreateClusterNotifyPort.
 old-location: mscs\closeclusternotifyport.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: abf7145c-780b-4ec7-babb-0e3975520f4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

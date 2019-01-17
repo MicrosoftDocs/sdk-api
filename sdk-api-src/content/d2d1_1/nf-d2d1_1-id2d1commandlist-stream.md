@@ -87,9 +87,13 @@ If the caller makes any design-time failure calls while a command list is select
 
 Sample use:
 
-
-```cpp
-Class MyCommandSink : public ID2D1CommandSink
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Class MyCommandSink : public ID2D1CommandSink
 {
 public:
     // All of the ID2D1CommandSink methods implemented here.
@@ -115,8 +119,10 @@ StreamToMyCommandSink(
    
     return hr;
 
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

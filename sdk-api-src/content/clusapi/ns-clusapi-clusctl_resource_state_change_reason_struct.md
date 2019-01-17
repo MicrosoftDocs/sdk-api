@@ -4,7 +4,7 @@ title: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
 author: windows-sdk-content
 description: Sent with the CLUSCTL_RESOURCE_STATE_CHANGE_REASON control code to provide the reason for a resource state change.
 old-location: mscs\clusctl_resource_state_change_reason_struct.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5effbb81-eec4-4e5a-b079-b404df8fd801
 ms.author: windowssdkdev
 ms.date: 12/5/2018

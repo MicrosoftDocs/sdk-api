@@ -4,7 +4,7 @@ title: CreateClusterResourceType function
 author: windows-sdk-content
 description: Creates a resource type in a cluster.
 old-location: mscs\createclusterresourcetype.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 19b8e8cf-898c-4df5-959c-e3789b082a76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

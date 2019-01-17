@@ -4,7 +4,7 @@ title: IWCWizard97Callback::AddWizard97Page
 author: windows-sdk-content
 description: Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback_addwizard97page.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c5de70da-2a08-4142-8f21-53a98e28fd42
 ms.author: windowssdkdev
 ms.date: 12/5/2018

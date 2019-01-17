@@ -4,7 +4,7 @@ title: ClusterEnumEx function
 author: windows-sdk-content
 description: Enumerates the objects in a cluster, and then gets the name and properties of the cluster object.
 old-location: mscs\clusterenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F50FB801-8ACA-40BD-9E89-7E3AF2CA2DA5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

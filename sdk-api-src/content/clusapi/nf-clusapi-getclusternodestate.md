@@ -4,7 +4,7 @@ title: GetClusterNodeState function
 author: windows-sdk-content
 description: Returns the current state of a node.
 old-location: mscs\getclusternodestate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 94c83582-3d99-4a20-ad58-1af4e8190781
 ms.author: windowssdkdev
 ms.date: 12/5/2018

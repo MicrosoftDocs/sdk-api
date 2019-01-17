@@ -4,7 +4,7 @@ title: CreateClusterNameAccount function
 author: windows-sdk-content
 description: Creates a cluster name resource and then uses it add a cluster to a domain, even if the machines that host the cluster aren't members of the domain.
 old-location: mscs\createclusternameaccount.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 82BBEE9D-C787-4935-BB5F-09438676B37A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

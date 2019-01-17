@@ -4,7 +4,7 @@ title: CLUSPROP_SZ
 author: windows-sdk-content
 description: Describes multiple NULL-terminated Unicode strings.
 old-location: mscs\clusprop_multi_sz.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3c508ed6-eec8-4fa9-9ae7-9c8d7f4c8b98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

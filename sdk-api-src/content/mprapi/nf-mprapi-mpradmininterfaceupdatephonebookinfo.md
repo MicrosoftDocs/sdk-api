@@ -4,7 +4,7 @@ title: MprAdminInterfaceUpdatePhonebookInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceUpdatePhonebookInfo function forces the router to pick up changes made on a specified demand-dial interface. Call this function after changes are made to a phone-book entry for a demand-dial interface.
 old-location: rras\mpradmininterfaceupdatephonebookinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: fa337886-6fae-4e38-a59a-e26036c80d39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

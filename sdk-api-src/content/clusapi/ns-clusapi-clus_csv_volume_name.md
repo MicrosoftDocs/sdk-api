@@ -4,7 +4,7 @@ title: CLUS_CSV_VOLUME_NAME
 author: windows-sdk-content
 description: Represents the name of a cluster shared volume (CSV).
 old-location: mscs\clus_csv_volume_name.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 18E17AA6-1244-41EA-918E-7BDBB90A0D70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IKEV2_PROJECTION_INFO2
 author: windows-sdk-content
 description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\ikev2_projection_info2.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 577a276e-e2f4-46d6-ae0b-2ba0f0bac67f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

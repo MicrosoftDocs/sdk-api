@@ -4,7 +4,7 @@ title: CLRES_V4_FUNCTIONS
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 4.0 entry points, except StartupEx.
 old-location: mscs\clres_v4_functions.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B3722540-2AC2-4B31-A22B-D40DE0AFA7BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

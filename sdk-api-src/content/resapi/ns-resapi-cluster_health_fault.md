@@ -4,7 +4,7 @@ title: CLUSTER_HEALTH_FAULT
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_health_fault.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 45042bb8-6904-4e5e-bb35-3e8d3b313746
 ms.author: windowssdkdev
 ms.date: 12/5/2018

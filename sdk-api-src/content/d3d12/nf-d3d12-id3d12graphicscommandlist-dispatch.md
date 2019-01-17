@@ -104,9 +104,13 @@ You call the <b>Dispatch</b> method to execute commands in a compute shader. A c
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList::Dispatch</b> as follows:
         
 
-
-```cpp
-// Run the particle simulation using the compute shader.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Run the particle simulation using the compute shader.
 void D3D12nBodyGravity::Simulate(UINT threadIndex)
 {
     ID3D12GraphicsCommandList* pCommandList = m_computeCommandList[threadIndex].Get();
@@ -146,8 +150,10 @@ void D3D12nBodyGravity::Simulate(UINT threadIndex)
 
     pCommandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(pUavResource, D3D12_RESOURCE_STATE_UNORDERED_ACCESS, D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE));
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

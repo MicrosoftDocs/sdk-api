@@ -278,9 +278,13 @@ Hardware codecs should also be registered under an <a href="https://msdn.microso
 
 The following example searches for a video or audio decoder. Asynchronous, hardware, transcode, and field-of-use decoders are excluded. If a match is found, the code creates the first MFT in the list.
 
-
-```cpp
-HRESULT FindDecoderEx(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindDecoderEx(
     const GUID& subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppDecoder    // Receives a pointer to the decoder.
@@ -325,15 +329,21 @@ HRESULT FindDecoderEx(
 
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The next example searches for a video or audio encoder. Asynchronous, hardware, transcode, and field-of-use encoders are excluded.
 
-
-```cpp
-HRESULT FindEncoderEx(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindEncoderEx(
     const GUID& subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppEncoder    // Receives a pointer to the decoder.
@@ -378,15 +388,21 @@ HRESULT FindEncoderEx(
 
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The next example searches for a video decoder, with options to include asynchronous, hardware, or transcode decoders.
 
-
-```cpp
-HRESULT FindVideoDecoder(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindVideoDecoder(
     const GUID& subtype,
     BOOL bAllowAsync,
     BOOL bAllowHardware, 
@@ -443,8 +459,10 @@ HRESULT FindVideoDecoder(
 
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <div class="code"></div>

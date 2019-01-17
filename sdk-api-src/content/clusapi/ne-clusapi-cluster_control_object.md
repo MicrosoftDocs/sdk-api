@@ -4,7 +4,7 @@ title: CLUSTER_CONTROL_OBJECT
 author: windows-sdk-content
 description: The 8-bit object component of a control code that indicates the type of cluster object to which the control code applies. For more information, see Control Code Architecture.
 old-location: mscs\cluster_control_object.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 63719776-0b3a-470a-a732-40e62064c6fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

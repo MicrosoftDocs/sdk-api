@@ -4,7 +4,7 @@ title: RtmGetChangeStatus function
 author: windows-sdk-content
 description: The RtmGetChangeStatus function checks whether there are pending changes that have not been retrieved with RtmGetChangedDests.
 old-location: rras\rtmgetchangestatus.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: fafe465a-6c89-45b0-83a9-f08d1d9546c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

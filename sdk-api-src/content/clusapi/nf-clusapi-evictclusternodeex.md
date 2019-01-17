@@ -4,7 +4,7 @@ title: EvictClusterNodeEx function
 author: windows-sdk-content
 description: Evicts a node from the cluster and initiates cleanup operations on the node.
 old-location: mscs\evictclusternodeex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 7f7ba010-265e-40d5-a429-a776d164fa07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

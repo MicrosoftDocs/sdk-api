@@ -100,9 +100,13 @@ The  <b>ullAvailPhys</b> member of the <a href="https://msdn.microsoft.com/ce3c7
 The following code shows a simple use of the 
 <b>GlobalMemoryStatusEx</b> function.
 
-
-```cpp
-//  Sample output:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Sample output:
 //  There is       51 percent of memory in use.
 //  There are 2029968 total KB of physical memory.
 //  There are  987388 free  KB of physical memory.
@@ -152,8 +156,10 @@ void _tmain()
   _tprintf (TEXT("There are %*I64d free  KB of extended memory.\n"),
             WIDTH, statex.ullAvailExtendedVirtual/DIV);
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

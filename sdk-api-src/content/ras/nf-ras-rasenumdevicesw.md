@@ -4,7 +4,7 @@ title: RasEnumDevicesW function
 author: windows-sdk-content
 description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
 old-location: rras\rasenumdevices.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

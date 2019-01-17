@@ -4,7 +4,7 @@ title: ResUtilExpandEnvironmentStrings function
 author: windows-sdk-content
 description: Expands strings containing unexpanded references to environment variables. The PRESUTIL_EXPAND_ENVIRONMENT_STRINGS type defines a pointer to this function.
 old-location: mscs\resutilexpandenvironmentstrings.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 633e49f5-e01c-4cbd-a2ef-61fcb9e192f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

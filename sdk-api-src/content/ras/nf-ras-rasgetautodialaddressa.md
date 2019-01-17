@@ -4,7 +4,7 @@ title: RasGetAutodialAddressA function
 author: windows-sdk-content
 description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
 old-location: rras\rasgetautodialaddress.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b7182760-30c0-4c09-ae99-f656d868e150
 ms.author: windowssdkdev
 ms.date: 12/5/2018

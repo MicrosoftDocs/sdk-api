@@ -4,7 +4,7 @@ title: ClusterGroupEnumEx function
 author: windows-sdk-content
 description: Retrieves an item in the enumeration.
 old-location: mscs\clustergroupenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RTM_NEXTHOP_INFO
 author: windows-sdk-content
 description: The RTM_NEXTHOP_INFO structure is used to exchange next-hop information with the routing table manager.
 old-location: rras\rtm_nexthop_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 17705e5b-0905-45a5-b76e-e381e863a1ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

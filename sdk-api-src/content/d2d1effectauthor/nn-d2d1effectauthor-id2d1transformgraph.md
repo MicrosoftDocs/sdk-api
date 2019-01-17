@@ -209,12 +209,12 @@ private:
 
     class CMyTransform1 : public ID2D1DrawTransform
     {
-        // <Snip> The transform implementation, one node input</Snip>
+        //  The transform implementation, one node input
     };
 
     class CMyTransform2 : public ID2D1DrawTransform
     {
- 	   // <Snip> A second transform implementation one node input</Snip>
+ 	   //  A second transform implementation one node input
     };
 
     CMyTransform1 *_pTransform1;

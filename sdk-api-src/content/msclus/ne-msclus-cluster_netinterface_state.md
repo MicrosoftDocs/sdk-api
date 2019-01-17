@@ -4,7 +4,7 @@ title: CLUSTER_NETINTERFACE_STATE
 author: windows-sdk-content
 description: Enumerates the possible values of the state of a network interface.
 old-location: mscs\cluster_netinterface_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

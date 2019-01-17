@@ -4,7 +4,7 @@ title: CLUSTER_VALIDATE_DIRECTORY
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_validate_directory.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e5cde16b-da06-4063-9337-c3cc6b6c285b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

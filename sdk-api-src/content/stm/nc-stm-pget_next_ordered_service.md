@@ -4,7 +4,7 @@ title: PGET_NEXT_ORDERED_SERVICE
 author: windows-sdk-content
 description: The GetNextOrderedService function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.
 old-location: rras\getnextorderedservice.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

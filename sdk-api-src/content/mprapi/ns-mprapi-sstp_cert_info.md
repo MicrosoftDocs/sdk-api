@@ -4,7 +4,7 @@ title: SSTP_CERT_INFO
 author: windows-sdk-content
 description: Contains information about a Secure Socket Tunneling Protocool (SSTP) based certificate.
 old-location: rras\sstp_cert_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 004fce6d-c617-4356-9a8f-f7b4fbb3d4c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

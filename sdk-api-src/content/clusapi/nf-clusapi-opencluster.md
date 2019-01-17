@@ -4,7 +4,7 @@ title: OpenCluster function
 author: windows-sdk-content
 description: Opens a connection to a cluster and returns a handle to it.
 old-location: mscs\opencluster.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b2ee2575-cc1e-4696-8e95-9798fb556c58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

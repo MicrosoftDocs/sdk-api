@@ -4,7 +4,7 @@ title: RegisterClusterResourceTypeNotifyV2 function
 author: windows-sdk-content
 description: Adds a notification type to a cluster notification port.
 old-location: mscs\registerclusterresourcetypenotifyv2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

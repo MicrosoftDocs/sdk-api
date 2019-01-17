@@ -111,9 +111,13 @@ For more information about advise sinks that can be installed by each implementa
 <b>ITfThreadMgr</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
@@ -124,16 +128,22 @@ if(SUCCEEDED(hr))
     
     pSourceSingle->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <b>ITfContext</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
@@ -144,8 +154,10 @@ if(SUCCEEDED(hr))
     
     pSourceSingle->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

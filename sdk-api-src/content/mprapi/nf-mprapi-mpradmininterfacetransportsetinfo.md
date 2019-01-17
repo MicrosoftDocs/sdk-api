@@ -4,7 +4,7 @@ title: MprAdminInterfaceTransportSetInfo function
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportSetInfo function sets information for a transport running on a specified interface.
 old-location: rras\mpradmininterfacetransportsetinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 340610af-6fd8-49e3-947a-e24346a9b888
 ms.author: windowssdkdev
 ms.date: 12/5/2018

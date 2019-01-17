@@ -111,9 +111,13 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses the <b>DrawLine</b> method to create a grid that spans the width and height of the render target. The width and height information is provided by the <i>rtSize</i> variable.
 
-
-```cpp
-        // Draw a grid background.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>        // Draw a grid background.
         int width = static_cast<int>(rtSize.width);
         int height = static_cast<int>(rtSize.height);
 
@@ -136,8 +140,10 @@ The following example uses the <b>DrawLine</b> method to create a grid that span
                 0.5f
                 );
         }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: ClusterNodeControl function
 author: windows-sdk-content
 description: Initiates an operation that affects a node. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternodecontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f6fc8525-a2d3-4643-9372-548df5e30900
 ms.author: windowssdkdev
 ms.date: 12/5/2018

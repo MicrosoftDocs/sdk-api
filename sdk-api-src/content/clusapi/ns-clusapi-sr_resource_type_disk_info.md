@@ -4,7 +4,7 @@ title: SR_RESOURCE_TYPE_DISK_INFO
 author: windows-sdk-content
 description: Describes a set of information that indicates whether a disk is eligible for replication.
 old-location: mscs\sr_resource_type_disk_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8A53714D-D125-4B83-B51D-DF0EADE4C4E0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

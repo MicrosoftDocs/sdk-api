@@ -4,7 +4,7 @@ title: CLUSTER_GROUP_ENUM_ITEM
 author: windows-sdk-content
 description: Contains the properties of a cluster group.
 old-location: mscs\cluster_group_enum_item.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: B6436F83-2A10-4E93-8141-9BCFF744E41B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

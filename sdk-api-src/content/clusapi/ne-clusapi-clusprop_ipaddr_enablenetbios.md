@@ -4,7 +4,7 @@ title: CLUSPROP_IPADDR_ENABLENETBIOS
 author: windows-sdk-content
 description: When used with the CLUSPROP_DWORD structure, enables or disables the functionality of the EnableNetBIOS property of IP Address&#32;resources.
 old-location: mscs\clusprop_ipaddr_enablenetbios.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4d1610f0-6a7c-4dfa-9fec-4165f28dd7de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

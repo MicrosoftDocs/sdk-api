@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_STATE_CHANGE_REASON
 author: windows-sdk-content
 description: Used by the CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT and CLUSCTL_RESOURCE_STATE_CHANGE_REASON control codes to describe the reason for a resource state change.
 old-location: mscs\cluster_resource_state_change_reason.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: f9071688-24c2-4b00-ac66-6cf0363bccf2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

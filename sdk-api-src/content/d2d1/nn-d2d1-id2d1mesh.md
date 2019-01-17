@@ -92,9 +92,13 @@ A mesh is a device-dependent resource: your application should create meshes aft
 
 The following code example shows how to use <b>ID2D1Mesh</b>  to represent a set of vertices that form a list of triangles.  
 
-
-```cpp
- ID2D1GeometrySink *pGeometrySink = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre> ID2D1GeometrySink *pGeometrySink = NULL;
  hr = pPathGeometry->Open(&pGeometrySink);
  if (SUCCEEDED(hr))
  {
@@ -139,8 +143,10 @@ The following code example shows how to use <b>ID2D1Mesh</b>  to represent a set
      pGeometrySink->Release();
  }
  pPathGeometry->Release();
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <div class="code"></div>

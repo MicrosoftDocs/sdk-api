@@ -4,7 +4,7 @@ title: GetClusterGroupState function
 author: windows-sdk-content
 description: Returns the current state of a group.
 old-location: mscs\getclustergroupstate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5f794dee-aeee-4906-ba63-c154bfda4d17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

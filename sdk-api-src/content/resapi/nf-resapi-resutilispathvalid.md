@@ -4,7 +4,7 @@ title: ResUtilIsPathValid function
 author: windows-sdk-content
 description: Checks whether a path is syntactically valid.
 old-location: mscs\resutilispathvalid.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4cc8e0ad-8dbc-409d-b063-9fa26f810aac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

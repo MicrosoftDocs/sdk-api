@@ -108,9 +108,13 @@ The bias is the difference, in minutes, between UTC and local time.
 
 The following example displays the current time zone, then adjusts the time zone one zone west. The old and new  time zone names are displayed. You can also verify the changes using Date and Time in Control Panel. The new name is displayed on the <b>Date&amp;Time</b> tab as the <b>Current Time Zone</b>. The new time zone is displayed in the drop-down list on the <b>Time Zone</b> tab. To undo these changes, simply choose your old time zone from the drop-down list.
 
-
-```cpp
-#define UNICODE 1
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
 #define _UNICODE 1
 
 #include <windows.h>
@@ -188,8 +192,10 @@ int main()
 
    return 1;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

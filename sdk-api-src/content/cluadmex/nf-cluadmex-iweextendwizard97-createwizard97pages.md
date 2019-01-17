@@ -4,7 +4,7 @@ title: IWEExtendWizard97::CreateWizard97Pages
 author: windows-sdk-content
 description: Allows you to create Wizard97 property pages and add them to a Failover Cluster Administrator Wizard.
 old-location: mscs\iweextendwizard97_createwizard97pages.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1ab81008-42d8-4863-8836-0508e49ceca9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

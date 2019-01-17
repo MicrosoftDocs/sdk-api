@@ -91,9 +91,13 @@ Returns the control vector.
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-XMVECTOR    ControlVector;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR    ControlVector;
 const uint32_t  ControlElement[] =
             {
                 XM_SELECT_0,
@@ -110,8 +114,10 @@ ControlVector.u[1] = ControlElement[VectorIndex1];
 ControlVector.u[2] = ControlElement[VectorIndex2];
 ControlVector.u[3] = ControlElement[VectorIndex3];
 
-return ControlVector;
-```
+return ControlVector;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

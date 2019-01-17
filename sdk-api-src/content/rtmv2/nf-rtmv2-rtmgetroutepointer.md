@@ -4,7 +4,7 @@ title: RtmGetRoutePointer function
 author: windows-sdk-content
 description: The RtmGetRoutePointer function obtains a direct pointer to a route that allows the owner of the route read access.
 old-location: rras\rtmgetroutepointer.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 889e318c-b515-48bc-9117-83e8c1bb6f1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

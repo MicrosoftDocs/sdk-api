@@ -171,9 +171,13 @@ This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,
 
 The following example shows how to create a virtual surface and associate it with a visual.
 
-
-```cpp
-HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
                          UINT surfaceWidth, UINT surfaceHeight) 
 {
     // Validate the input parameters.
@@ -245,8 +249,10 @@ HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
     return hr;
 
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

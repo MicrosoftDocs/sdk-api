@@ -4,7 +4,7 @@ title: CLUSCTL_NETWORK_CODES
 author: windows-sdk-content
 description: Enumerates network control codes.
 old-location: mscs\clusctl_network_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d9226efc-9dc8-491f-8056-ead799af552b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

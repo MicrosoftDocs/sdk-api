@@ -4,7 +4,7 @@ title: CreateClusterCNOless function
 author: windows-sdk-content
 description: Creates a cluster without cluster name and IP Address resources.
 old-location: mscs\createclustercnoless.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: AED4CDC5-BE90-4F34-A8E2-DFD0617BC65B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

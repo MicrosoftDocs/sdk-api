@@ -81,10 +81,16 @@ Returns true if <i>V1</i> is greater-than-or-equal-to <i>V2</i>, and false other
 
 The following pseudocode demonstrates the operation of the function:
 
-
-```
-return ( V1.x >= V2.x && V1.y >= V2.y );
-```
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>return ( V1.x >= V2.x && V1.y >= V2.y );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

@@ -4,7 +4,7 @@ title: RegisterClusterNotifyV2 function
 author: windows-sdk-content
 description: Registers an event type with a notification port by adding the notification key to the event type.
 old-location: mscs\registerclusternotifyv2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DCBE285A-7386-4922-8599-19149FEBBD9F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

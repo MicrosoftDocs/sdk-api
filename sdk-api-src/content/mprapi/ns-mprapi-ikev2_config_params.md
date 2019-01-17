@@ -4,7 +4,7 @@ title: IKEV2_CONFIG_PARAMS
 author: windows-sdk-content
 description: Used to get or set parameters for Internet Key Exchange version 2 (IKEv2) devices (RFC 4306).
 old-location: rras\ikev2_config_params.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: a494deb0-8f55-46cc-9ca0-a2097459de8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

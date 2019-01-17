@@ -4,7 +4,7 @@ title: ClusterRegQueryInfoKey function
 author: windows-sdk-content
 description: Returns information about a cluster database key.
 old-location: mscs\clusterregqueryinfokey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 90feb6ae-bd15-4431-ba99-0116fa20e94a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -141,9 +141,13 @@ There is no way for applications to write to low physical memory.
 
 The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS firmware table. The <i>pFirmwareTableBuffer</i> buffer receives the following data:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 
 struct RawSMBIOSData
 {
@@ -154,8 +158,10 @@ struct RawSMBIOSData
     DWORD    Length;
     BYTE    SMBIOSTableData[];
 };
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The function returns the size of the address range.

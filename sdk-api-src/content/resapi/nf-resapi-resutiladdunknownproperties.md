@@ -4,7 +4,7 @@ title: ResUtilAddUnknownProperties function
 author: windows-sdk-content
 description: Retrieves a set of unknown properties from the cluster database and appends them to the end of a property list.
 old-location: mscs\resutiladdunknownproperties.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 17659c86-d7cc-4316-ba0e-ce71de727fa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MgmGetProtocolOnInterface function
 author: windows-sdk-content
 description: The MgmGetProtocolOnInterface function retrieves the protocol ID of the multicast routing protocol that owns the specified interface.
 old-location: rras\mgmgetprotocoloninterface.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 38f6cc9b-ae9e-49a3-8f5e-835699ff3d60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

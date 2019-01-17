@@ -4,7 +4,7 @@ title: FreeClusterCrypt function
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\freeclustercrypt.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 33EE9915-2204-4431-8B72-014D47AB4651
 ms.author: windowssdkdev
 ms.date: 12/5/2018

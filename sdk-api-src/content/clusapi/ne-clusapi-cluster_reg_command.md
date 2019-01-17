@@ -4,7 +4,7 @@ title: CLUSTER_REG_COMMAND
 author: windows-sdk-content
 description: Enumerates the possible cluster registry commands that a local node will perform when attempting to join a cluster.
 old-location: mscs\cluster_reg_command.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1a1266dc-a223-48bd-be30-80c8b50c5b21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

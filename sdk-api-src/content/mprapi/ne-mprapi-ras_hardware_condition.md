@@ -4,7 +4,7 @@ title: RAS_HARDWARE_CONDITION
 author: windows-sdk-content
 description: The RAS_HARDWARE_CONDITION enumeration type specifies hardware status information about a given RAS port.
 old-location: rras\ras_hardware_condition.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 54a92552-9ad2-4a4a-b177-041157b445cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

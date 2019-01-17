@@ -4,7 +4,7 @@ title: MgmGetNextMfeStats function
 author: windows-sdk-content
 description: The MgmGetNextMfeStats function retrieves one or more sets of MFE statistics.
 old-location: rras\mgmgetnextmfestats.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: af8dd38e-e66f-459a-a07c-c298154901f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

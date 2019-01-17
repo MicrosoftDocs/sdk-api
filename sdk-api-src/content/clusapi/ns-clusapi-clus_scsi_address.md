@@ -4,7 +4,7 @@ title: CLUS_SCSI_ADDRESS
 author: windows-sdk-content
 description: Contains SCSI address data. It is used as the data member of a CLUSPROP_SCSI_ADDRESS structure and as the return value of some control code operations.
 old-location: mscs\clus_scsi_address.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 05a640c7-16b4-4394-b22f-a78ab1dfab77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

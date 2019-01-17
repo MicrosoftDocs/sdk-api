@@ -4,7 +4,7 @@ title: CLRES_CALLBACK_FUNCTION_TABLE
 author: windows-sdk-content
 description: Represents a function table for the StartupEx callback function.
 old-location: mscs\clres_callback_function_table.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1B67B70B-330D-4BA5-AA6C-408588868C76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

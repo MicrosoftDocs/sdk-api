@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_ENUM
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterResourceEnum or ClusterResourceOpenEnum functions.
 old-location: mscs\cluster_resource_enum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8b59ab43-7e03-4ddf-82cc-9945e9da6462
 ms.author: windowssdkdev
 ms.date: 12/5/2018

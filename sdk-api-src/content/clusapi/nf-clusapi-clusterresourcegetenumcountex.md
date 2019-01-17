@@ -4,7 +4,7 @@ title: ClusterResourceGetEnumCountEx function
 author: windows-sdk-content
 description: Returns the number of cluster objects that are associated with a resource enumeration handle.
 old-location: mscs\clusterresourcegetenumcountex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 97C22642-F968-4E41-90BC-28DF8DF5886C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

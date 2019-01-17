@@ -4,7 +4,7 @@ title: MprAdminInterfaceTransportAdd function
 author: windows-sdk-content
 description: The MprAdminInterfaceTransportAdd function adds a transport (for example, IP or IPX) to a specified interface.
 old-location: rras\mpradmininterfacetransportadd.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 5978a8d3-78ea-4dc2-a957-32f00c81f52d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

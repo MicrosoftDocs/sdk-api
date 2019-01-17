@@ -4,7 +4,7 @@ title: CreateClusterGroupSet function
 author: windows-sdk-content
 description: Adds a groupset to a cluster and returns a handle to the newly added groupset.
 old-location: mscs\createclustergroupcollection.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cb0cdf78-c6d6-47b3-bd11-5ab70416131b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

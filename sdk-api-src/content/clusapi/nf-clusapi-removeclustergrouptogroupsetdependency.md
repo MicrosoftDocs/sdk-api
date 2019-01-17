@@ -4,7 +4,7 @@ title: RemoveClusterGroupToGroupSetDependency function
 author: windows-sdk-content
 description: Removes a groupset from a group's dependency expression.
 old-location: mscs\removeclustergrouptogroupcollectiondependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2bd7e1f4-0b88-466f-a408-dddb9a11a52d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterRegDeleteKey function
 author: windows-sdk-content
 description: Deletes a cluster database key.
 old-location: mscs\clusterregdeletekey.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: af2b3b9c-2ff1-483e-a9cf-5db7b1fcbd85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

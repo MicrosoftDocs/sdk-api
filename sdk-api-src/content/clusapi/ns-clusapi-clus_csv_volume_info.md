@@ -4,7 +4,7 @@ title: CLUS_CSV_VOLUME_INFO
 author: windows-sdk-content
 description: Represents information about a cluster shared volume (CSV).
 old-location: mscs\clus_csv_volume_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: C672B42B-0DB9-4E70-8157-15C3189102EF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

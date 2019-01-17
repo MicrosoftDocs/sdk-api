@@ -4,7 +4,7 @@ title: PPTP_CONFIG_PARAMS
 author: windows-sdk-content
 description: Used to get and set the device configuration for Point-to-Point Tunneling Protocool (PPTP) on a RAS Server.
 old-location: rras\pptp_config_params.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0314c517-75be-4357-90bf-8a2a72d49542
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OpenClusterCryptProvider function
 author: windows-sdk-content
 description: Opens a handle to a Cryptographic Service Provider (CSP) in order to manage the encryption of Checkpointing data for a cluster resource. The POPEN_CLUSTER_CRYPT_PROVIDER type defines a pointer to this function.
 old-location: mscs\openclustercryptprovider.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DFD5C0F1-07BF-4339-8B35-2918B32F66B3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

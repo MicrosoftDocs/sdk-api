@@ -4,7 +4,7 @@ title: SR_REPLICATED_DISK_TYPE
 author: windows-sdk-content
 description: Specifies the replicated disk types for the SR_RESOURCE_TYPE_REPLICATED_DISK structure.
 old-location: mscs\sr_replicated_disk_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 913367E0-B3C2-40D0-B516-6C2F834152BB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

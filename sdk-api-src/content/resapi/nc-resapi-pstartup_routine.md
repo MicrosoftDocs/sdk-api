@@ -4,7 +4,7 @@ title: PSTARTUP_ROUTINE
 author: windows-sdk-content
 description: Loads a resource DLL, returning a structure containing a function table and a version number.
 old-location: mscs\startup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

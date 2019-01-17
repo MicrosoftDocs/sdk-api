@@ -4,7 +4,7 @@ title: ResUtilGetEnvironmentWithNetName function
 author: windows-sdk-content
 description: Adjusts environment data for a resource so that the resource uses a cluster network name to identify its location.
 old-location: mscs\resutilgetenvironmentwithnetname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
 ms.author: windowssdkdev
 ms.date: 12/5/2018

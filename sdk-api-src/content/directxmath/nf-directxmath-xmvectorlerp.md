@@ -102,17 +102,23 @@ return Result;
 Note it is fairly simple to use this function for doing a cubic interpolation instead of a linear interpolation as
    follows:
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 XMVECTOR SmoothStep( XMVECTOR V0, XMVECTOR V1, float t )
 {
     t = (t > 1.0f) ? 1.0f : ((t < 0.0f) ? 0.0f : t);  // Clamp value to 0 to 1
     t = t*t*(3.f - 2.f*t);
     return XMVectorLerp( V0, V1, t );
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

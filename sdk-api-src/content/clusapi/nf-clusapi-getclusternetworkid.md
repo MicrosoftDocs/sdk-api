@@ -4,7 +4,7 @@ title: GetClusterNetworkId function
 author: windows-sdk-content
 description: Returns the identifier of a network.
 old-location: mscs\getclusternetworkid.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 25091883-12fa-41b6-9ac0-70bc22db3f05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

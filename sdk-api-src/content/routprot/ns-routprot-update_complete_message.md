@@ -4,7 +4,7 @@ title: UPDATE_COMPLETE_MESSAGE
 author: windows-sdk-content
 description: The UPDATE_COMPLETE_MESSAGE structure contains information describing the completion status of an update operation.
 old-location: rras\update_complete_message.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 76f00da0-4f56-4a1a-977d-a3872bbe19fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

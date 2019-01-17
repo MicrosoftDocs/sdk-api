@@ -4,7 +4,7 @@ title: OpenClusterNetworkEx function
 author: windows-sdk-content
 description: Opens a connection to a network and returns a handle to it.
 old-location: mscs\openclusternetworkex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e21dcfd6-adb6-40a7-9518-5b49988e2901
 ms.author: windowssdkdev
 ms.date: 12/5/2018

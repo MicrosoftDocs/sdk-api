@@ -4,7 +4,7 @@ title: SetClusterName function
 author: windows-sdk-content
 description: Sets the name for a cluster.
 old-location: mscs\setclustername.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: fac59879-d73c-4955-8454-a2e9d185da10
 ms.author: windowssdkdev
 ms.date: 12/5/2018

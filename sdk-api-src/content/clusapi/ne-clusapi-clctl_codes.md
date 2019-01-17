@@ -4,7 +4,7 @@ title: CLCTL_CODES
 author: windows-sdk-content
 description: Enumerates the possible operations that a control code will perform.
 old-location: mscs\clctl_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: daf9a556-e365-4fb3-9378-8b5d526dc1fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterNetworkGetEnumCount function
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a network enumeration handle.
 old-location: mscs\clusternetworkgetenumcount.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b3397d85-4e9a-4ee8-ba81-25185e2d46fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

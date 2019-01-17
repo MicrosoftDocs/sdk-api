@@ -4,7 +4,7 @@ title: RESDLL_CONTEXT_OPERATION_TYPE
 author: windows-sdk-content
 description: Specifies the various types of context operations for the GET_OPERATION_CONTEXT_PARAMS structure.
 old-location: mscs\resdll_context_operation_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8C074E15-4060-4AC7-BB59-959854102EE0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

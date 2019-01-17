@@ -4,7 +4,7 @@ title: CLUSTER_QUORUM_VALUE
 author: windows-sdk-content
 description: Enumerates values returned by the ClusterControl function with the CLUSCTL_CLUSTER_CHECK_VOTER_DOWN or the CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control codes.
 old-location: mscs\cluster_quorum_value.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5b5310f5-b4f4-4c1e-82ad-3bbf3ebc511b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

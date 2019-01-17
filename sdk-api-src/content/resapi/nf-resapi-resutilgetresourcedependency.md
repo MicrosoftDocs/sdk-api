@@ -4,7 +4,7 @@ title: ResUtilGetResourceDependency function
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource and returns a handle to a dependency of a specified type. The PRESUTIL_GET_RESOURCE_DEPENDENCY type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: eee267b4-4272-4938-b061-02990ec528f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

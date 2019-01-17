@@ -4,7 +4,7 @@ title: CLUSTER_VALIDATE_NETNAME
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_validate_netname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: c524d6cf-85f7-451b-b7d4-9497a2c2f0b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

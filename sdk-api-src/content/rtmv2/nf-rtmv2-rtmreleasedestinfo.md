@@ -4,7 +4,7 @@ title: RtmReleaseDestInfo function
 author: windows-sdk-content
 description: The RtmReleaseDestInfo function releases a destination structure.
 old-location: rras\rtmreleasedestinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 43992abd-7e52-4d1b-b693-f437f5ba77cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

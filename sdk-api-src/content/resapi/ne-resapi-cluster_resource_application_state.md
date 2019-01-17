@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_APPLICATION_STATE
 author: windows-sdk-content
 description: Enumerates resource application states.
 old-location: mscs\cluster_resource_application_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: A67B8251-214B-44DD-8166-C0F74335CE1F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

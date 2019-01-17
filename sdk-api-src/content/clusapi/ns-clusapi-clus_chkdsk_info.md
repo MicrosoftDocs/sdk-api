@@ -4,7 +4,7 @@ title: CLUS_CHKDSK_INFO
 author: windows-sdk-content
 description: Represents information about a Chkdsk operation.
 old-location: mscs\clus_chkdsk_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 455DD59C-B54D-4B42-B661-2E3994E69718
 ms.author: windowssdkdev
 ms.date: 12/5/2018

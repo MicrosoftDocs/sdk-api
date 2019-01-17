@@ -4,7 +4,7 @@ title: RAS_SECURITY_INFO
 author: windows-sdk-content
 description: The RAS_SECURITY_INFO structure is used with the RasSecurityDialogGetInfo function to return information about the RAS port associated with a RAS security DLL authentication transaction.
 old-location: rras\ras_security_info_str.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4bf5e0b8-087c-483b-a472-eab36840f554
 ms.author: windowssdkdev
 ms.date: 12/5/2018

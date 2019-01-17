@@ -4,7 +4,7 @@ title: MPRAPI_OBJECT_TYPE
 author: windows-sdk-content
 description: Specifies the structure type in a MPRAPI_OBJECT_HEADER structure.
 old-location: rras\mprapi_object_type.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 93d5bf41-e0ec-4dcf-b784-bbd9746f8134
 ms.author: windowssdkdev
 ms.date: 12/5/2018

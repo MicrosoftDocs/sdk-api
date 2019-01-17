@@ -4,7 +4,7 @@ title: CLUSTER_MEMBERSHIP_INFO
 author: windows-sdk-content
 description: Represents membership information for a cluster.
 old-location: mscs\cluster_membership_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 4E3F8DFF-6F32-4729-9AAC-56B3E2592393
 ms.author: windowssdkdev
 ms.date: 12/5/2018

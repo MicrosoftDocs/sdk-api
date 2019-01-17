@@ -4,7 +4,7 @@ title: AUTH_VALIDATION_EX
 author: windows-sdk-content
 description: Used for enabling clients to bypass Point-to-Point (PPP) authentication during Secure Socket Tunneling Protocol (SSTP) connection establishment.
 old-location: rras\auth_validation_ex.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 17e78379-a9f8-4aab-aff3-aa9b21eb629c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

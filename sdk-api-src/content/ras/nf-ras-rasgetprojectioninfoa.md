@@ -4,7 +4,7 @@ title: RasGetProjectionInfoA function
 author: windows-sdk-content
 description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.
 old-location: rras\rasgetprojectioninfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 97ae09c3-588a-4dd2-9756-ddcd5fa37f51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

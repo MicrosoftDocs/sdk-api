@@ -144,9 +144,13 @@ The following example shows an application that waits for a location report of t
 The following example code demonstrates how an application may call a function named <b>WaitForLocationReport</b> that registers for events and waits for the first location report. <b>WaitForLocationReport</b> waits for an event that is set by a callback object. The function <b>WaitForLocationReport</b> and the callback object is defined in the examples that follow this one.
 
 <div class="code"></div>
-
-```cpp
-// main.cpp
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// main.cpp
 // An application that demonstrates how to wait for a location report.
 // This sample waits for latitude/longitude reports but can be modified
 // to wait for civic address reports by replacing IID_ILatLongReport 
@@ -211,15 +215,21 @@ int wmain()
 
     return 0;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The following example code is separated into WaitForLocationReport.h and WaitForLocationReport.cpp. WaitForLocationReport.h contains the header for the <b>WaitForLocationReport</b> function. WaitForLocationReport.cpp contains the definition of the <b>WaitForLocationReport</b> function and the definition of the callback object that it uses. The callback object provides implementations of the <a href="https://msdn.microsoft.com/14353c8e-15f5-493b-9b49-139924f2397e">OnLocationChanged</a> and <a href="https://msdn.microsoft.com/d13d8b72-3188-479f-a70c-52b1a9435b80">OnStatusChanged</a> callback methods. Within these methods, it sets an event that signals when a report is available.
 
-
-```cpp
-// WaitForLocationReport.h
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// WaitForLocationReport.h
 // Header for the declaration of the WaitForLocationReport function.
 
 #pragma once
@@ -234,11 +244,16 @@ HRESULT WaitForLocationReport(
     DWORD dwTimeToWait,                // Milliseconds to wait.
     ILocationReport** ppLocationReport // Receives the location report.
 );
-
-```
-
-```cpp
-// WaitForLocationReport.cpp
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// WaitForLocationReport.cpp
 // Contains definitions of the WaitForLocationReport function and
 // the callback object that it uses.
 
@@ -380,8 +395,10 @@ HRESULT WaitForLocationReport(
     }
     return hr;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

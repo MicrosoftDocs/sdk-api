@@ -4,7 +4,7 @@ title: PIS_SERVICE
 author: windows-sdk-content
 description: The IsService function checks whether a service of specified type and name exists in the service table, and optionally returns the service's parameters.
 old-location: rras\isservice.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f2d8e1f4-ce6c-429c-bb14-26c6c75eab7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS
 author: windows-sdk-content
 description: Describes a set of retrieved data disks that can be used as source sites for replication.
 old-location: mscs\sr_resource_type_query_eligible_source_datadisks.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: DA64413A-0FCB-4D25-A6D0-58C1E978455E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

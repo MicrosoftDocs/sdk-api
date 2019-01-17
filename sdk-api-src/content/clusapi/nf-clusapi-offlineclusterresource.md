@@ -4,7 +4,7 @@ title: OfflineClusterResource function
 author: windows-sdk-content
 description: Takes a resource offline.
 old-location: mscs\offlineclusterresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

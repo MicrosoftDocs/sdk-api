@@ -4,7 +4,7 @@ title: CloseClusterGroup function
 author: windows-sdk-content
 description: Closes a group handle.
 old-location: mscs\closeclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5bbacf45-2e1a-402a-8592-c8f60034c4ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

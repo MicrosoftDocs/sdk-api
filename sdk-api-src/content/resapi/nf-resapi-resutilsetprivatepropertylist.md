@@ -4,7 +4,7 @@ title: ResUtilSetPrivatePropertyList function
 author: windows-sdk-content
 description: Sets the private properties of a cluster object.
 old-location: mscs\resutilsetprivatepropertylist.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 18bc7455-a004-4aff-bf33-0edcb96e0cb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

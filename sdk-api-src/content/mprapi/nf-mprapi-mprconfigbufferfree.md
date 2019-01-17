@@ -4,7 +4,7 @@ title: MprConfigBufferFree function
 author: windows-sdk-content
 description: The MprConfigBufferFree function frees buffers allocated by calls to the following functions:
 old-location: rras\mprconfigbufferfree.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

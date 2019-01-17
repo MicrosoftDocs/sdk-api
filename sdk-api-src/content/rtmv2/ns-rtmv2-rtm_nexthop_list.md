@@ -4,7 +4,7 @@ title: RTM_NEXTHOP_LIST
 author: windows-sdk-content
 description: The RTM_NEXTHOP_LIST structure contains a list of next hops used to determine equal-cost paths in a route.
 old-location: rras\rtm_nexthop_list.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f27269e5-ad7e-4426-ac07-cb3a05532579
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSPROP_FTSET_INFO
 author: windows-sdk-content
 description: Contains information about an FT (fault tolerant) set. It is used as an entry in a value list and consists of a CLUSPROP_VALUE and a CLUS_FTSET_INFO structure.
 old-location: mscs\clusprop_ftset_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0BD016A6-B635-4514-886A-8CD136D3F715
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ResUtilGetResourceName function
 author: windows-sdk-content
 description: Returns the name of a resource. The PRESUTIL_GET_RESOURCE_NAME type defines a pointer to this function.
 old-location: mscs\resutilgetresourcename.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

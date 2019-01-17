@@ -4,7 +4,7 @@ title: ClusterRegCloseBatchEx function
 author: windows-sdk-content
 description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
 old-location: mscs\clusterregclosebatchex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 127d06de-28a4-4df4-9f5f-17ea4a330528
 ms.author: windowssdkdev
 ms.date: 12/5/2018

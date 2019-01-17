@@ -4,7 +4,7 @@ title: CloseClusterNetwork function
 author: windows-sdk-content
 description: Closes a network handle.
 old-location: mscs\closeclusternetwork.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2d112729-1306-45ff-8845-43032a55ca1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

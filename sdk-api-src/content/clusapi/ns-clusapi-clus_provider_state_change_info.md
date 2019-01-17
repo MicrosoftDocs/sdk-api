@@ -4,7 +4,7 @@ title: CLUS_PROVIDER_STATE_CHANGE_INFO
 author: windows-sdk-content
 description: Contains data about the state of a provider resource.
 old-location: mscs\clus_provider_state_change_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 53e25d02-6dfa-4a74-8ff3-01c868d2fd44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

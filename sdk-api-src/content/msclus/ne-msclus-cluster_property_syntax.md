@@ -4,7 +4,7 @@ title: CLUSTER_PROPERTY_SYNTAX
 author: windows-sdk-content
 description: Provides the possible values for the syntax structures in a property list.
 old-location: mscs\cluster_property_syntax.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: caadeb63-297c-4657-8ee2-975fceff5484
 ms.author: windowssdkdev
 ms.date: 12/5/2018

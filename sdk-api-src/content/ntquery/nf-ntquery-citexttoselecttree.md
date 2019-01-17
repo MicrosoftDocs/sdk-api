@@ -170,9 +170,13 @@ This example creates a <a href="https://msdn.microsoft.com/en-us/library/ms68988
 
 
 
-
-```cpp
-DBCOMMANDTREE * pCompleteTree; 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DBCOMMANDTREE * pCompleteTree; 
 DBCOMMANDTREE * pTableNode;
  
 // ...
@@ -210,8 +214,10 @@ if ( SUCCEEDED( hr ) )
         // ...
     }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The following diagram shows the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure pSelectTree created by the example code.

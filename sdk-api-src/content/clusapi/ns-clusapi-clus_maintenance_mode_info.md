@@ -4,7 +4,7 @@ title: CLUS_MAINTENANCE_MODE_INFO
 author: windows-sdk-content
 description: Enables or disables maintenance mode on a cluster node.
 old-location: mscs\clus_maintenance_mode_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: dc53dc5e-b7ed-49f8-a08f-495e2c0e45e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

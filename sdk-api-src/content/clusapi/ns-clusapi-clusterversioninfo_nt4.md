@@ -4,7 +4,7 @@ title: CLUSTERVERSIONINFO_NT4
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusterversioninfo_nt4.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1420C1B9-3361-4D7C-B968-34967C0818F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

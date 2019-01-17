@@ -99,9 +99,13 @@ The <b>KeySpec</b> property affects the behavior of the following methods:
 
 #### Examples
 
-
-```cpp
-DWORD    dwKeySpec;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD    dwKeySpec;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -118,8 +122,10 @@ hr = pEnroll->put_KeySpec( AT_KEYEXCHANGE );
 if (FAILED( hr ))
     printf("Failed put_KeySpec - %x\n", hr );
 else
-    printf( "KeySpec set to %d\n", AT_KEYEXCHANGE );
-```
+    printf( "KeySpec set to %d\n", AT_KEYEXCHANGE );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: IGetClusterUIInfo::GetFont
 author: windows-sdk-content
 description: Returns a handle to the font to be displayed on property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getfont.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179
 ms.author: windowssdkdev
 ms.date: 12/5/2018

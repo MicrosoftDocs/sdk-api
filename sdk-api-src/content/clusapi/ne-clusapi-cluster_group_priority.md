@@ -4,7 +4,7 @@ title: CLUSTER_GROUP_PRIORITY
 author: windows-sdk-content
 description: Specifies the priority level of a group.
 old-location: mscs\cluster_group_priority.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: CF2B9D74-72EC-4BBD-85C9-1BB0535580FB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

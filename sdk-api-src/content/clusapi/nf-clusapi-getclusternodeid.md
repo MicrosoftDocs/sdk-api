@@ -4,7 +4,7 @@ title: GetClusterNodeId function
 author: windows-sdk-content
 description: Returns the unique identifier of a cluster node.
 old-location: mscs\getclusternodeid.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 976ca079-10f7-4e12-9033-07ea83e8c92a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ClusterIsPathOnSharedVolume function
 author: windows-sdk-content
 description: Determines whether a path is on a cluster shared volume.
 old-location: mscs\clusterispathonsharedvolume.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8d4702b8-23de-4c45-87ec-1a4ada8a4086
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtmCreateRouteListEnum function
 author: windows-sdk-content
 description: The RtmCreateRouteListEnum function creates an enumeration of routes on the specified route list.
 old-location: rras\rtmcreateroutelistenum.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 107fc253-58b3-479c-9cda-2c3b322e76f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

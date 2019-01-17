@@ -256,9 +256,13 @@ The <b>SERVICE_CONFIG_LAUNCH_PROTECTED</b> value can be used to launch the servi
 
 SERVICE_CONFIG_LAUNCH_PROTECTED example:
 
-
-```cpp
-SERVICE_LAUNCH_PROTECTED_INFO Info;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SERVICE_LAUNCH_PROTECTED_INFO Info;
 SC_HANDLE hService;
 
 Info.dwLaunchProtected = SERVICE_LAUNCH_PROTECTED_ANTIMALWARE_LIGHT;
@@ -271,8 +275,10 @@ if (ChangeServiceConfig2(hService,
 {
     Result = GetLastError();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

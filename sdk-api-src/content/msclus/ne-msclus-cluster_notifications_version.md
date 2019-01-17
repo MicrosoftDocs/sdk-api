@@ -4,7 +4,7 @@ title: CLUSTER_NOTIFICATIONS_VERSION
 author: windows-sdk-content
 description: Defines the various versions of cluster notification enumerations.
 old-location: mscs\cluster_notifications_version.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0328B52E-F9C7-4DA4-85C6-109E3AD3E1A7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

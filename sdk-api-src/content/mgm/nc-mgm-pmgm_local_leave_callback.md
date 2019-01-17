@@ -4,7 +4,7 @@ title: PMGM_LOCAL_LEAVE_CALLBACK
 author: windows-sdk-content
 description: The PMGM_LOCAL_LEAVE_CALLBACK callback is a call into a routing protocol to notify the routing protocol that the IGMP has detected that it no longer has receivers for a group on an interface that is currently owned by the routing protocol.
 old-location: rras\pmgm_local_leave_callback.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9569c0e5-f9bb-4dc9-9689-f97d107697b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

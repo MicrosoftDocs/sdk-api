@@ -4,7 +4,7 @@ title: CLUSTER_READ_BATCH_COMMAND
 author: windows-sdk-content
 description: Represents a result for a single command in a read batch.
 old-location: mscs\cluster_read_batch_command.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: BE7D4B99-27C0-4CAA-BFDC-669737E17D86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

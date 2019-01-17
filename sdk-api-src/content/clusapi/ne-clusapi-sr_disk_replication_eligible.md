@@ -4,7 +4,7 @@ title: SR_DISK_REPLICATION_ELIGIBLE
 author: windows-sdk-content
 description: Specifies the various reasons a disk on a cluster node can be eligible or ineligible for replication.
 old-location: mscs\sr_disk_replication_eligible.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3B38E2C8-CF41-4630-8AA8-72581D1DC264
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -70,12 +70,18 @@ Code for the MIDI event and the event parameters or length, as specified in the 
 
 The <b>MEVT_EVENTPARM</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define MEVT_EVENTPARM(x) ((DWORD) ((x)&0x00FFFFFFL)) 
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: ClusterNetInterfaceControl function
 author: windows-sdk-content
 description: Initiates an operation that affects a network interface. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternetinterfacecontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cfb56e61-3652-47a3-860b-706e6dba03d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

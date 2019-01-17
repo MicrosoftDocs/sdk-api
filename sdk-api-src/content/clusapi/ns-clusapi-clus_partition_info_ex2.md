@@ -4,7 +4,7 @@ title: CLUS_PARTITION_INFO_EX2
 author: windows-sdk-content
 description: Describes the disk partition information of a storage class resource.
 old-location: mscs\clus_partition_info_ex2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1B6690DB-9D23-4D0C-98B7-3066C5452CD1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

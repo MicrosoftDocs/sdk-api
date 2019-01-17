@@ -4,7 +4,7 @@ title: PSET_INTERFACE_INFO
 author: windows-sdk-content
 description: The SetInterfaceInfo function sets the configuration of a specific interface managed by the routing protocol.
 old-location: rras\setinterfaceinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: abcfa220-a860-48cc-92c5-60ce655678b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

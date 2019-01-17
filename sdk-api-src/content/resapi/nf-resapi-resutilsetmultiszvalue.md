@@ -4,7 +4,7 @@ title: ResUtilSetMultiSzValue function
 author: windows-sdk-content
 description: Sets a multiple string value in the cluster database. The PRESUTIL_SET_MULTI_SZ_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetmultiszvalue.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: db048ce5-ca83-424b-853f-eda445176c0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

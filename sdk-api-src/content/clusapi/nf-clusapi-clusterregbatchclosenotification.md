@@ -4,7 +4,7 @@ title: ClusterRegBatchCloseNotification function
 author: windows-sdk-content
 description: Frees the memory associated with the batch notification.
 old-location: mscs\clusterregbatchclosenotification.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

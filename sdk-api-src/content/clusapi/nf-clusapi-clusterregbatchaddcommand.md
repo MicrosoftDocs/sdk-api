@@ -4,7 +4,7 @@ title: ClusterRegBatchAddCommand function
 author: windows-sdk-content
 description: Adds a command to a batch that will be executed on a cluster registry key.
 old-location: mscs\clusterregbatchaddcommand.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 3d59e68a-deb3-443f-9d8f-281cdb15e8b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

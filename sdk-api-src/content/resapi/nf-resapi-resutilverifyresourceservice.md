@@ -4,7 +4,7 @@ title: ResUtilVerifyResourceService function
 author: windows-sdk-content
 description: Verifies that a named service is starting or currently running. The PRESUTIL_VERIFY_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilverifyresourceservice.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 452f4e83-74a6-4830-b244-599e9dc5c854
 ms.author: windowssdkdev
 ms.date: 12/5/2018

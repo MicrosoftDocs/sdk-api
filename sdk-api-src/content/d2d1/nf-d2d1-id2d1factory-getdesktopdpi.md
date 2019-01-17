@@ -90,9 +90,13 @@ Use this method to obtain the system DPI when setting physical pixel values, suc
 
 The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI and set the initial size of a window.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
         // Because the CreateWindow function takes its size in pixels,
         // obtain the system DPI and use it to scale the window size.
         FLOAT dpiX, dpiY;
@@ -116,8 +120,10 @@ The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI
             HINST_THISCOMPONENT,
             this
             );
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For more information about enabling high-DPI scenarios, see <a href="https://msdn.microsoft.com/72a4b076-1cf0-4dc9-bd75-43b5173fc2a0">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>.

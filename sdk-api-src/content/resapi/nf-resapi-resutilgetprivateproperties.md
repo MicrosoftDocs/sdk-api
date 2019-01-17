@@ -4,7 +4,7 @@ title: ResUtilGetPrivateProperties function
 author: windows-sdk-content
 description: Returns private properties for a cluster object. The PRESUTIL_GET_PRIVATE_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetprivateproperties.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 84019a77-4ecd-4618-ab7d-458c6c855dfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

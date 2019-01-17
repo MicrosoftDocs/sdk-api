@@ -457,9 +457,13 @@ Sets underlining for text within a specified text range.
 
 To get a reference to the <b>IDWriteTextLayout</b> interface, the application must call the <a href="https://msdn.microsoft.com/f76f85df-112f-4bc3-b922-a0d7940d2954">IDWriteFactory::CreateTextLayout</a> method, as shown in the following code.  
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Create a text layout using the text format.
 if (SUCCEEDED(hr))
 {
@@ -478,8 +482,10 @@ if (SUCCEEDED(hr))
         );
 }
 
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 The <b>IDWriteTextLayout</b> interface allows the application to change the format for ranges of the text it represents, specified by a <a href="https://msdn.microsoft.com/2e37e060-69b9-4ca2-9d95-8e9a39f6cf83">DWRITE_TEXT_RANGE</a> structure.   The following example shows how to set the font weight for a text range.

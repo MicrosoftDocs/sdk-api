@@ -4,7 +4,7 @@ title: CLUSTER_ENUM_ITEM
 author: windows-sdk-content
 description: Contains the properties of a cluster object. This structure is used to enumerate clusters in the ClusterEnumEx and ClusterNodeEnumEx functions.
 old-location: mscs\cluster_enum_item.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2E7FB4DA-88AD-4739-ACE0-D43670F914D4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

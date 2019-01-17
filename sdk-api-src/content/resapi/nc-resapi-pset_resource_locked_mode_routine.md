@@ -4,7 +4,7 @@ title: PSET_RESOURCE_LOCKED_MODE_ROUTINE
 author: windows-sdk-content
 description: Reports that locked mode was configured for a resource.
 old-location: mscs\setresourcelockedmode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 000D127C-7BDE-4FC1-984E-2EE805E603FC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

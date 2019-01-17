@@ -4,7 +4,7 @@ title: CLUSCTL_NODE_CODES
 author: windows-sdk-content
 description: Enumerates node control codes.
 old-location: mscs\clusctl_node_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 6f69e61a-10f8-4d8d-b504-ee35ddc17ed4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

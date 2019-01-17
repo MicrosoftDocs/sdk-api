@@ -4,7 +4,7 @@ title: GetClusterQuorumResource function
 author: windows-sdk-content
 description: Returns the name of a cluster's quorum resource.
 old-location: mscs\getclusterquorumresource.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 0f841070-9dc0-49e0-9112-8d46185470b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

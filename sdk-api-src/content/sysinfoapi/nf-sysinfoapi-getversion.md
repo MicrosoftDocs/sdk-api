@@ -98,9 +98,13 @@ The following code fragment illustrates how to extract information from the
 <b>GetVersion</b> return value: <a href="https://msdn.microsoft.com/4ab07a72-404d-459b-b061-b3b06b5db37e">OSVERSIONINFOEX</a>
 
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 #include <stdio.h>
 
 void main()
@@ -127,8 +131,10 @@ void main()
                 dwMinorVersion,
                 dwBuild);
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

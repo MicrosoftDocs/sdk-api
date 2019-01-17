@@ -4,7 +4,7 @@ title: PSET_POWER
 author: windows-sdk-content
 description: The SetPower function is reserved for future use.
 old-location: rras\setpower.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 595e1743-04eb-4490-8548-1ce5ce00e144
 ms.author: windowssdkdev
 ms.date: 12/5/2018

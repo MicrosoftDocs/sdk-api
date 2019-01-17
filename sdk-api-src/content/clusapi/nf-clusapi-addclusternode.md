@@ -4,7 +4,7 @@ title: AddClusterNode function
 author: windows-sdk-content
 description: Adds a node to an existing cluster.
 old-location: mscs\addclusternode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e1d3611e-10d1-4858-923a-01633d2ed78b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CLUSTERVERSIONINFO
 author: windows-sdk-content
 description: Describes information about the version of the Cluster service installed locally on a node.
 old-location: mscs\clusterversioninfo.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e1cecdbc-f0e4-4ee8-9a97-14859ceba5fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

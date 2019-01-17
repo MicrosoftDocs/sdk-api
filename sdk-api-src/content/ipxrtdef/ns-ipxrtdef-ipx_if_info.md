@@ -4,7 +4,7 @@ title: IPX_IF_INFO
 author: windows-sdk-content
 description: The IPX_IF_INFO structure stores information for an IPX interface.
 old-location: rras\ipx_if_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f1c07033-dbfa-4bbe-b275-f5bfc629b2d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

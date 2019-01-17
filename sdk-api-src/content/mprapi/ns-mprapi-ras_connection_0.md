@@ -4,7 +4,7 @@ title: RAS_CONNECTION_0
 author: windows-sdk-content
 description: The RAS_CONNECTION_0 structure contains general information regarding a specific connection, such as user name or domain. For more detailed information about a specific connection, such as bytes sent or received, see RAS_CONNECTION_1.
 old-location: rras\ras_connection_0.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: e2561365-be3f-44cd-bb3c-18b001fc4d5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

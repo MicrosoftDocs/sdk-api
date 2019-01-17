@@ -175,9 +175,13 @@ For more information, see <a href="https://msdn.microsoft.com/47671b9b-a2ff-4375
 The following example shows you how to implement 
 <b>CreateInstanceEnumAsync</b>.
 
-
-```cpp
-#define NUM_OF_INSTANCES 3
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define NUM_OF_INSTANCES 3
 
 HRESULT CStdProvider::CreateInstanceEnumAsync( 
             /* [in] */ BSTR strClass,
@@ -220,8 +224,10 @@ HRESULT CStdProvider::CreateInstanceEnumAsync(
     m_pSvc->Release();
 
     return WBEM_S_NO_ERROR;
-}
-```
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 In the previous example, the instance provider acquires a thread from WMI to perform any necessary operations. You may want to call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread for delivering the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether or not  the provider chooses the single thread design over the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.

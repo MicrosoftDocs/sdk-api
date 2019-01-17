@@ -4,7 +4,7 @@ title: CLUSCTL_GROUP_CODES
 author: windows-sdk-content
 description: Enumerates groupcontrol codes.
 old-location: mscs\clusctl_group_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 558e5257-c2d0-4528-bfe6-bd12124342b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

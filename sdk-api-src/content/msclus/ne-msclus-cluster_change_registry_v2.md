@@ -4,7 +4,7 @@ title: CLUSTER_CHANGE_REGISTRY_V2
 author: windows-sdk-content
 description: Defines the notifications that are generated for a registry key.
 old-location: mscs\cluster_change_registry_v2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 830A866B-D260-406B-B8E7-651F5149078E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MprConfigServerConnect function
 author: windows-sdk-content
 description: The MprConfigServerConnect function connects to the router to be configured.
 old-location: rras\mprconfigserverconnect.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 40029088-191d-49b1-88d3-79ffb2da0eef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

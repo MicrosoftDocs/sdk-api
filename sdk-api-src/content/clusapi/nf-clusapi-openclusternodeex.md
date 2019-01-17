@@ -4,7 +4,7 @@ title: OpenClusterNodeEx function
 author: windows-sdk-content
 description: Opens a node and returns a handle to it.
 old-location: mscs\openclusternodeex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 2db24a30-0e4e-4647-8975-c9f584c3a9da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

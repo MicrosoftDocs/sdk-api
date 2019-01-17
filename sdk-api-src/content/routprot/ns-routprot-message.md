@@ -4,7 +4,7 @@ title: MESSAGE
 author: windows-sdk-content
 description: The MESSAGE union contains information about an event reported to the router manager through the routing protocol's message queue.
 old-location: rras\message.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 94f3069f-c282-4dea-84f9-48645f4e1593
 ms.author: windowssdkdev
 ms.date: 12/5/2018

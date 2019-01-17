@@ -4,7 +4,7 @@ title: PGET_GLOBAL_INFO
 author: windows-sdk-content
 description: The GetGlobalInfo function retrieves global (as opposed to interface-specific) configuration information kept by the routing protocol.
 old-location: rras\getglobalinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 89d4ca42-8f78-40bd-96f0-ad10181cb2d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

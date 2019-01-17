@@ -4,7 +4,7 @@ title: CLUS_NETNAME_PWD_INFO
 author: windows-sdk-content
 description: Provides information for resetting the security principal associated with a computer name.
 old-location: mscs\clus_netname_pwd_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 365959c8-63e7-477b-b772-85a0afdaa6f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtmGetEntityInfo function
 author: windows-sdk-content
 description: The RtmGetEntityInfo function returns information about a previously registered client.
 old-location: rras\rtmgetentityinfo.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6062369c-22c7-48e4-9dd3-91efba22df34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

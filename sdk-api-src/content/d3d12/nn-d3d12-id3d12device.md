@@ -443,9 +443,13 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Header file declarations.
 
-
-```cpp
-// Pipeline objects.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
 ComPtr<IDXGISwapChain3> m_swapChain;
 ComPtr<ID3D12Device> m_device;
@@ -462,15 +466,21 @@ ComPtr<ID3D12DescriptorHeap> m_samplerHeap;
 ComPtr<ID3D12PipelineState> m_pipelineState1;
 ComPtr<ID3D12PipelineState> m_pipelineState2;
 D3D12_RECT m_scissorRect;
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Checking supported features.
 
-
-```cpp
-inline UINT8 D3D12GetFormatPlaneCount(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>inline UINT8 D3D12GetFormatPlaneCount(
     _In_ ID3D12Device* pDevice,
     DXGI_FORMAT Format
     )
@@ -482,8 +492,10 @@ inline UINT8 D3D12GetFormatPlaneCount(
     }
     return formatInfo.PlaneCount;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

@@ -4,7 +4,7 @@ title: RAS_CONNECTION_1
 author: windows-sdk-content
 description: The RAS_CONNECTION_1 structure contains detailed information regarding a specific connection, such as error counts and bytes received. For more general information about a specific connection, such as user name or domain, see RAS_CONNECTION_0.
 old-location: rras\ras_connection_1.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 5f6c6895-4baf-46d7-865a-b95342b70abb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

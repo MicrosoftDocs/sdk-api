@@ -4,7 +4,7 @@ title: RtmCreateRouteEnum function
 author: windows-sdk-content
 description: The RtmCreateRouteEnum function creates an enumeration of the routes for a particular destination or range of destinations in the routing table. A client can enumerate routes for one or more views, or for all views.
 old-location: rras\rtmcreaterouteenum.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 9d9c35e8-a9d4-4b30-a92c-f3188e11e317
 ms.author: windowssdkdev
 ms.date: 12/5/2018

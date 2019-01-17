@@ -4,7 +4,7 @@ title: RtmCreateRouteList function
 author: windows-sdk-content
 description: The RtmCreateRouteList function creates a list in which the caller can keep a copy of the routes it owns.
 old-location: rras\rtmcreateroutelist.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 6fa732a8-6c2f-4034-ab13-d64845fab14c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

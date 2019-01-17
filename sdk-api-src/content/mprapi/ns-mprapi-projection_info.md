@@ -4,7 +4,7 @@ title: PROJECTION_INFO
 author: windows-sdk-content
 description: Is used in the RAS_CONNECTION_EX structure as a placeholder for the PPP_PROJECTION_INFO and IKEV2_PROJECTION_INFO structures.
 old-location: rras\projection_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 3f87d09a-2408-4fe4-97f9-61ed9b5d2fa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

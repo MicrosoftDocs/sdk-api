@@ -4,7 +4,7 @@ title: CLUSTER_CSV_VOLUME_FAULT_STATE
 author: windows-sdk-content
 description: Defines the various fault states for a cluster shared volume (CSV).
 old-location: mscs\cluster_csv_volume_fault_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: D3F065E5-3304-4B4E-BD85-04CAC050B001
 ms.author: windowssdkdev
 ms.date: 12/5/2018

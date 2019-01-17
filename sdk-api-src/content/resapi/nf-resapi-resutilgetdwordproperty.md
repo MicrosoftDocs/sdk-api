@@ -4,7 +4,7 @@ title: ResUtilGetDwordProperty function
 author: windows-sdk-content
 description: Retrieves a DWORD property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetdwordproperty.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d67f73f8-a5ce-4922-956f-392c27ee3b1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

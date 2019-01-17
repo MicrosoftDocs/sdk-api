@@ -4,7 +4,7 @@ title: PMGM_CREATION_ALERT_CALLBACK
 author: windows-sdk-content
 description: The PMGM_CREATION_ALERT_CALLBACK callback is a call into a routing protocol. This call determines the subset of interfaces owned by the routing protocol on which a multicast packet from a new source should be forwarded.
 old-location: rras\pmgm_creation_alert_callback.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 1d161a7e-3ceb-429f-a41e-eccd7f98f084
 ms.author: windowssdkdev
 ms.date: 12/5/2018

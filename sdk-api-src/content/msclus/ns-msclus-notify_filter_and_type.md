@@ -4,7 +4,7 @@ title: NOTIFY_FILTER_AND_TYPE
 author: windows-sdk-content
 description: Represents a filter for a notification port that was created by the CreateClusterNotifyPortV2 function. A filter specifies that a notification port accept notifications for the specified type of cluster object during the specified event.
 old-location: mscs\notify_filter_and_type.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: E173F5D8-955B-44FF-980E-CEF536A87AF5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

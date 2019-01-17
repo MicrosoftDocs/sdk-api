@@ -4,7 +4,7 @@ title: ClusWorkerCheckTerminate function
 author: windows-sdk-content
 description: Determines whether a worker thread should exit as soon as possible. The PCLUSAPIClusWorkerCheckTerminate type defines a pointer to this function.
 old-location: mscs\clusworkercheckterminate.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e8833961-ac0e-4d8c-a57e-5aabdb2c8c96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

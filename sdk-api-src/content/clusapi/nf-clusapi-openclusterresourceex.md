@@ -4,7 +4,7 @@ title: OpenClusterResourceEx function
 author: windows-sdk-content
 description: Opens a resource and returns a handle to it.
 old-location: mscs\openclusterresourceex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: bd5a411f-3cf4-4dc5-89fc-0edc59f7b15a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

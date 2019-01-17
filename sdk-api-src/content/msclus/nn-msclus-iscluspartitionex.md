@@ -4,7 +4,7 @@ title: ISClusPartitionEx
 author: windows-sdk-content
 description: Provides extended information about a partition on a Physical Disk resource.
 old-location: mscs\cluspartitionex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1AFDB11F-1AD4-4B84-82EF-C0CE86D744C1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

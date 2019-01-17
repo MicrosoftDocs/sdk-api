@@ -4,7 +4,7 @@ title: CLUS_STORAGE_REMAP_DRIVELETTER
 author: windows-sdk-content
 description: Identifies the existing and target drive letter for a disk drive on a node.
 old-location: mscs\clus_storage_remap_driveletter.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: b79e4aa0-fca3-4b9c-9e3f-73cd627752a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

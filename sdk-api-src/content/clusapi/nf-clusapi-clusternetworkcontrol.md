@@ -4,7 +4,7 @@ title: ClusterNetworkControl function
 author: windows-sdk-content
 description: Initiates an operation on a network. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternetworkcontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: df0d7b45-4d8b-4780-944a-0fbba670f99a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

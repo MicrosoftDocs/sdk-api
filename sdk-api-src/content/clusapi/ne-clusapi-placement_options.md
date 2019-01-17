@@ -4,7 +4,7 @@ title: PLACEMENT_OPTIONS
 author: windows-sdk-content
 description: Defines options for placing the cluster.
 old-location: mscs\placement_options.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 21b968c7-3132-4dda-9b27-404026cd525c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

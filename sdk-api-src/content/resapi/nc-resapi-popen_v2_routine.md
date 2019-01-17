@@ -4,7 +4,7 @@ title: POPEN_V2_ROUTINE
 author: windows-sdk-content
 description: Opens a resource.
 old-location: mscs\openv2.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: EA798D15-9458-4F66-8D0E-13DA383552F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

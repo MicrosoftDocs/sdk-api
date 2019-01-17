@@ -4,7 +4,7 @@ title: RtmFindNextHop function
 author: windows-sdk-content
 description: The RtmFindNextHop function finds a specific next hop in a client's next-hop list.
 old-location: rras\rtmfindnexthop.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 82bf88ad-eb6d-4ea5-98a0-72280e341f83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

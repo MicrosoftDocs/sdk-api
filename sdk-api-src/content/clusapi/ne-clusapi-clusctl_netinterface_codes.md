@@ -4,7 +4,7 @@ title: CLUSCTL_NETINTERFACE_CODES
 author: windows-sdk-content
 description: Enumerates Network Interface control codes.
 old-location: mscs\clusctl_netinterface_codes.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 5665562a-0dcc-4344-b150-286645190c88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

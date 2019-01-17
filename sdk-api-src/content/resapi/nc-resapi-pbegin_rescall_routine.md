@@ -4,7 +4,7 @@ title: PBEGIN_RESCALL_ROUTINE
 author: windows-sdk-content
 description: Starts a call to a resource control code. The PBEGIN_RESCALL_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrol.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1B95607F-658A-469D-8935-DF7E537D1509
 ms.author: windowssdkdev
 ms.date: 12/5/2018

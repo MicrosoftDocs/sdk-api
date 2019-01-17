@@ -4,7 +4,7 @@ title: RAS_CONNECTION_3
 author: windows-sdk-content
 description: The RAS_CONNECTION_3 structure contains information for the connection, including the Globally Unique Identifier (GUID) that identifies the connection and the quarantine state of the connection.
 old-location: rras\ras_connection_3.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: f474563e-01c5-4f2a-aec4-477e0ffc7ab2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

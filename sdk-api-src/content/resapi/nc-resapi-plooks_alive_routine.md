@@ -4,7 +4,7 @@ title: PLOOKS_ALIVE_ROUTINE
 author: windows-sdk-content
 description: Determines whether a resource appears to be available for use.
 old-location: mscs\looksalive.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: cfc57325-847d-4f59-bee8-6a02b0a2ef32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

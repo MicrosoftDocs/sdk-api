@@ -4,7 +4,7 @@ title: CLUS_NETNAME_VS_TOKEN_INFO
 author: windows-sdk-content
 description: Contains the data needed to request a token. It is used as the input parameter of the CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN control code.
 old-location: mscs\clus_netname_vs_token_info.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9b4fc589-f4e4-4fcf-b3df-3b0b6f9f4e65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

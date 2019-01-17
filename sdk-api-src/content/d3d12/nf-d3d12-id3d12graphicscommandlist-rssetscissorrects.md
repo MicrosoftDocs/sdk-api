@@ -102,9 +102,13 @@ Each scissor rectangle in the array corresponds to a viewport in an array of vie
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetScissorRects</b> as follows:
         
 
-
-```cpp
-D3D12_VIEWPORT m_viewport;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D3D12_VIEWPORT m_viewport;
 D3D12_RECT m_scissorRect;
 ComPtr<IDXGISwapChain3> m_swapChain;
 ComPtr<ID3D12Device> m_device;
@@ -116,13 +120,19 @@ ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
 ComPtr<ID3D12PipelineState> m_pipelineState;
 ComPtr<ID3D12GraphicsCommandList> m_commandList;
 UINT m_rtvDescriptorSize;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
-```
 
-
-
-```cpp
-// Command list allocators can only be reset when the associated 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Command list allocators can only be reset when the associated 
 // command lists have finished execution on the GPU; apps should use 
 // fences to determine GPU execution progress.
 ThrowIfFailed(m_commandAllocator->Reset());
@@ -154,8 +164,10 @@ m_commandList->DrawInstanced(3, 1, 0, 0);
 m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
 
 ThrowIfFailed(m_commandList->Close());
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

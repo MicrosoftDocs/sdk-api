@@ -4,7 +4,7 @@ title: CLUSPROP_DWORD
 author: windows-sdk-content
 description: Describes a numeric value identifying the physical drive of a disk.
 old-location: mscs\clusprop_disk_number.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 8230d356-0d5a-4859-ae03-c25d078684b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

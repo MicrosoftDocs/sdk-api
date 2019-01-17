@@ -106,9 +106,13 @@ Direct3D 12 command lists only support these 2 levels of indirection:
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandList</b> as follows:
         
 
-
-```cpp
-DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 {
     ID3D12CommandQueue* pCommandQueue = m_computeCommandQueue[threadIndex].Get();
     ID3D12CommandAllocator* pCommandAllocator = m_computeAllocator[threadIndex].Get();
@@ -151,8 +155,10 @@ DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 
     return 0;
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

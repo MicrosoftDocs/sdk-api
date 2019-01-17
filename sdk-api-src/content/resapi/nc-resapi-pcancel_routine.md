@@ -4,7 +4,7 @@ title: PCANCEL_ROUTINE
 author: windows-sdk-content
 description: Cancels an operation on a resource.
 old-location: mscs\cancel.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770
 ms.author: windowssdkdev
 ms.date: 12/5/2018

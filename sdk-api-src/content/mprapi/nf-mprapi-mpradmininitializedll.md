@@ -4,7 +4,7 @@ title: MprAdminInitializeDll function
 author: windows-sdk-content
 description: When the Routing and Remote Access Service (RRAS) starts, it calls the MprAdminInitializeDll function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL.
 old-location: rras\mpradmininitializedll.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 0a53d84e-d9be-4d18-a619-7d92c17b76bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

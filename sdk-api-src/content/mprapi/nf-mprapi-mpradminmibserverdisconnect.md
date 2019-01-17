@@ -4,7 +4,7 @@ title: MprAdminMIBServerDisconnect function
 author: windows-sdk-content
 description: The MprAdminMIBServerDisconnect function disconnects the connection made by a previous call to MprAdminMIBServerConnect.
 old-location: rras\mpradminmibserverdisconnect.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 63ea910a-b9d7-43a3-97ae-2f9c26b52059
 ms.author: windowssdkdev
 ms.date: 12/5/2018

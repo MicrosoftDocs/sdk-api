@@ -50,7 +50,7 @@ req.redist:
 
 The 
 <b>NDR_USER_MARSHAL_INFO_LEVEL1</b> structure holds information about the state of an RPC call that can be passed to 
-<a href="https://msdn.microsoft.com/">wire_marshal</a> and 
+<a href="https://msdn.microsoft.com/51969f2c-7390-42c4-8aa6-ba12fdb22d23">wire_marshal</a> and 
 <a href="https://msdn.microsoft.com/">user_marshal</a> helper functions.
 
 

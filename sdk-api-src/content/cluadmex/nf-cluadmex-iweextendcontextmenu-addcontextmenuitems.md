@@ -4,7 +4,7 @@ title: IWEExtendContextMenu::AddContextMenuItems
 author: windows-sdk-content
 description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

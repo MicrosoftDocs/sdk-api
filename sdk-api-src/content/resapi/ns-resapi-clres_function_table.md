@@ -4,7 +4,7 @@ title: CLRES_FUNCTION_TABLE
 author: windows-sdk-content
 description: Describes a function table for any version of the Resource API.
 old-location: mscs\clres_function_table.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: fa27076f-393c-415a-9301-91cfe770fb3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

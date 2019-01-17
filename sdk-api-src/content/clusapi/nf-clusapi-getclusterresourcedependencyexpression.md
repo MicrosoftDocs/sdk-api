@@ -4,7 +4,7 @@ title: GetClusterResourceDependencyExpression function
 author: windows-sdk-content
 description: Retrieves the dependency expression associated with the specified resource.
 old-location: mscs\getclusterresourcedependencyexpression.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 16071086-66fe-428e-9bd5-dd0b31cf7b15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

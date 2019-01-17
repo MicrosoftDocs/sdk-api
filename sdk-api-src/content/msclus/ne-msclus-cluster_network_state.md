@@ -4,7 +4,7 @@ title: CLUSTER_NETWORK_STATE
 author: windows-sdk-content
 description: Enumerates the possible values of the state of a network.
 old-location: mscs\cluster_network_state.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 1a9e3ff0-eb5a-4a2e-ae19-e70213dc1a4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CloseClusterNode function
 author: windows-sdk-content
 description: Closes a node handle.
 old-location: mscs\closeclusternode.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: e2d90b7e-d181-48b6-a891-b885c24a15ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

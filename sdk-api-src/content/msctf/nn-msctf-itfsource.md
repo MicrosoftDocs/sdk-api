@@ -123,9 +123,13 @@ For more information about advise sinks that can be installed by each implementa
 <b>ITfThreadMgr</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
@@ -136,16 +140,22 @@ if(SUCCEEDED(hr))
     
     pSource->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <b>ITfContext</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
@@ -156,16 +166,22 @@ if(SUCCEEDED(hr))
     
     pSource->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <b>ITfCompartment</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
@@ -176,16 +192,22 @@ if(SUCCEEDED(hr))
     
     pSource->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <b>ITfInputProcessorProfiles</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
@@ -196,16 +218,22 @@ if(SUCCEEDED(hr))
     
     pSource->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 <b>ITfLangBarItem</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSource *pSource;
 
@@ -216,8 +244,10 @@ if(SUCCEEDED(hr))
     
     pSource->Release();
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,7 +4,7 @@ title: ClusterResourceEnumEx function
 author: windows-sdk-content
 description: Enumerates a resource and then returns a pointer to the current dependent resource or node.
 old-location: mscs\clusterresourceenumex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 9B5C03DF-84BB-4B3A-8404-94C64F192305
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PIS_ALIVE_ROUTINE
 author: windows-sdk-content
 description: Determines whether a resource is available for use.
 old-location: mscs\isalive.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: ff7661af-0a24-4a2e-bb31-c967845a4ff4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

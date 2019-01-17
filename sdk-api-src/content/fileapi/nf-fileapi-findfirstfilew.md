@@ -262,9 +262,13 @@ Yes
 
 The following C++ example shows you a minimal use of <b>FindFirstFile</b>.
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include <windows.h>
 #include <tchar.h>
 #include <stdio.h>
 
@@ -293,8 +297,10 @@ void _tmain(int argc, TCHAR *argv[])
       FindClose(hFind);
    }
 }
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For another example, see 

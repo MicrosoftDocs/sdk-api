@@ -4,7 +4,7 @@ title: IPXWAN_IF_INFO
 author: windows-sdk-content
 description: The IPXWAN_IF_INFO structure stores the administrative state for an IPX WAN interface.
 old-location: rras\ipxwan_if_info.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: c28ef4c9-ba7d-429a-ba43-82bfc9c7c58b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

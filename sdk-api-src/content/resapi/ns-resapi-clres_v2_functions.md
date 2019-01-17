@@ -4,7 +4,7 @@ title: CLRES_V2_FUNCTIONS
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 2.0 entry points except StartupEx.
 old-location: mscs\clres_v2_functions.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 81A5169E-C2AB-4666-9D9F-9DE4A639D0D6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

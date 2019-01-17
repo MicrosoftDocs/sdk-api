@@ -4,7 +4,7 @@ title: CLUSTER_RESOURCE_CLASS
 author: windows-sdk-content
 description: Defines the class of a resource.
 old-location: mscs\cluster_resource_class.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 65168256-f097-48a5-9e86-ec419ccb13bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

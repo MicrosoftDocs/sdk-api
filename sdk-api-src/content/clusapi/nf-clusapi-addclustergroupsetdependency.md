@@ -4,7 +4,7 @@ title: AddClusterGroupSetDependency function
 author: windows-sdk-content
 description: Adds a dependency between two cluster groupsets.
 old-location: mscs\addclustergroupcollectiondependency.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: dab8cef1-475b-4d92-8f3f-e828d62bcd17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

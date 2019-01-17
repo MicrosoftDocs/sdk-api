@@ -4,7 +4,7 @@ title: CLUS_MAINTENANCE_MODE_INFOEX
 author: windows-sdk-content
 description: Represents the extended maintenance mode settings for a storage class resource.
 old-location: mscs\clus_maintenance_mode_infoex.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d68b187d-39c5-42d3-b268-d5061da257c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

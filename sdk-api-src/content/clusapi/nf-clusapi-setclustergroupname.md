@@ -4,7 +4,7 @@ title: SetClusterGroupName function
 author: windows-sdk-content
 description: Sets the name for a group.
 old-location: mscs\setclustergroupname.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: d2dc3837-24d3-4455-8e3e-bb74b95b1d44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

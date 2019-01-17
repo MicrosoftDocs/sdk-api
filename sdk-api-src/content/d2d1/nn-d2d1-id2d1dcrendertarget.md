@@ -115,9 +115,13 @@ SetLayout(m_hwnd, LAYOUT_BITMAPORIENTATIONPRESERVED);
 
 The following code creates a DC render target.
 
-
-```cpp
-// Create a DC render target.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Create a DC render target.
 D2D1_RENDER_TARGET_PROPERTIES props = D2D1::RenderTargetProperties(
     D2D1_RENDER_TARGET_TYPE_DEFAULT,
     D2D1::PixelFormat(
@@ -130,32 +134,50 @@ D2D1_RENDER_TARGET_PROPERTIES props = D2D1::RenderTargetProperties(
     );
 
 hr = m_pD2DFactory->CreateDCRenderTarget(&props, &m_pDCRT);
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>, and <i>m_pDCRT</i> is a pointer to an <b>ID2D1DCRenderTarget</b>. 
 
 The next code example binds a DC to the <b>ID2D1DCRenderTarget</b>.
 
-
-```cpp
-HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
 {
-
-```
-
-```cpp
-// Get the dimensions of the client drawing area.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the dimensions of the client drawing area.
 GetClientRect(m_hwnd, &rc);
-
-```
-
-```cpp
-// Bind the DC to the DC render target.
+</pre>
+</td>
+</tr>
+</table></span><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Bind the DC to the DC render target.
 hr = m_pDCRT->BindDC(ps.hdc, &rc);
-
-```
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 For more information about using GDI with Direct2D, see the <a href="https://msdn.microsoft.com/182df2dc-2574-4d8f-a7e1-30d70da1740a">Direct2D and GDI Interoperation Overview</a>.

@@ -4,7 +4,7 @@ title: PREGISTER_PROTOCOL
 author: windows-sdk-content
 description: The RegisterProtocol function registers the routing protocol with the router manager. It also informs the router manager of the functionality that the routing protocol supports.
 old-location: rras\registerprotocol.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: b9027ef9-e573-4df0-b37e-d09956c1f8ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

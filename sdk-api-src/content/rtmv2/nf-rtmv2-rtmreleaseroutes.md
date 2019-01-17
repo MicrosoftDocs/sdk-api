@@ -4,7 +4,7 @@ title: RtmReleaseRoutes function
 author: windows-sdk-content
 description: The RtmReleaseRoutes function releases the route handles.
 old-location: rras\rtmreleaseroutes.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 4c893144-a2c5-4dc8-83c1-cae0d3024505
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IP_LOCAL_BINDING
 author: windows-sdk-content
 description: The IP_LOCAL_BINDING structure contains IP address information for an adapter.
 old-location: rras\ip_local_binding.htm
-tech.root: rras
+tech.root: RRAS
 ms.assetid: 121cc415-35eb-4c9b-a02d-c23be468d6bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

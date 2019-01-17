@@ -4,7 +4,7 @@ title: ClusterEnum function
 author: windows-sdk-content
 description: Enumerates the cluster objects in a cluster, returning the name of one object with each call.
 old-location: mscs\clusterenum.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: a7511ac6-04cb-407b-90aa-3382c5160cb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

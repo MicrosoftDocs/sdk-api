@@ -4,7 +4,7 @@ title: OnlineClusterGroup function
 author: windows-sdk-content
 description: Brings a group online.
 old-location: mscs\onlineclustergroup.htm
-tech.root: mscs
+tech.root: MsCS
 ms.assetid: 33b4f435-f394-41fc-846f-8e9206c76aa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018
