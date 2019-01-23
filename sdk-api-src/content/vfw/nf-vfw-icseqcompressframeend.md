@@ -61,7 +61,7 @@ The <b>ICSeqCompressFrameEnd</b> function ends sequence compression that was ini
 
 ### -param pc
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a> structure used during sequence compression.
+Pointer to a <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a> structure used during sequence compression.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This function does not return a value.
 
 
 
-When finished with compression, use the <a href="https://msdn.microsoft.com/6d0c9a7d-6458-4330-af74-3f471555cbfc">ICCompressorFree</a> function to release the resources specified by <a href="https://msdn.microsoft.com/en-us/library/Dd797797(v=VS.85).aspx">COMPVARS</a>.
+When finished with compression, use the <a href="https://msdn.microsoft.com/6d0c9a7d-6458-4330-af74-3f471555cbfc">ICCompressorFree</a> function to release the resources specified by <a href="https://msdn.microsoft.com/b34378cb-ccf0-4d97-a952-1966999e3f65">COMPVARS</a>.
 
 
 

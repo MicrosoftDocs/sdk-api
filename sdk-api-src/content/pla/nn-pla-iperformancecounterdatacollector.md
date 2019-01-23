@@ -59,24 +59,20 @@ To create this data collector, call the <a href="https://msdn.microsoft.com/b6d9
 
 The following example shows the XML that you can use to initialize this object if you call <a href="https://msdn.microsoft.com/32a1aba6-24f4-416a-b2ba-9be264fce3fc">CreateDataCollectorFromXml</a> to create it. The <a href="https://msdn.microsoft.com/c362cd5f-2db3-40ad-8f5e-e75a40db204c">IDataCollector::Xml</a> property also returns this XML.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;PerformanceCounterDataCollector&gt;
-    &lt;DataSourceName/&gt;
-    &lt;Counter/&gt;             &lt;!-- Specify this element for each counter --&gt;
-    &lt;CounterDisplayName/&gt;  &lt;!-- Read-only. Contains the contents of --&gt;
-                           &lt;!-- &lt;PerformanceCounter/&gt; in the user's locale --&gt;
-    &lt;LogFileFormat/&gt;
-    &lt;SampleInterval/&gt;
-    &lt;SegmentMaxRecords/&gt;
-&lt;/PerformanceCounterDataCollector&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+<PerformanceCounterDataCollector>
+    <DataSourceName/>
+    <Counter/>             <!-- Specify this element for each counter -->
+    <CounterDisplayName/>  <!-- Read-only. Contains the contents of -->
+                           <!-- <PerformanceCounter/> in the user's locale -->
+    <LogFileFormat/>
+    <SampleInterval/>
+    <SegmentMaxRecords/>
+</PerformanceCounterDataCollector>
+```
+
+
 Note that the example does not show the property elements inherited from <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> that you also need to specify.
 
 When you specify the XML to create the collector, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the collector, the XML provides all elements, including those from <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a>. 

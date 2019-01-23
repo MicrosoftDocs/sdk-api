@@ -70,7 +70,7 @@ A <a href="https://msdn.microsoft.com/62906f28-f6ae-488c-bf1f-655de5c7b95e">VDS_
 
 ### -field VirtualDeviceType
 
-A pointer to a <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure that specifies the storage device type of the virtual disk.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure that specifies the storage device type of the virtual disk.
 
 
 ### -field VirtualSize
@@ -97,7 +97,7 @@ A <b>NULL</b>-terminated wide-character string containing the name and device pa
 
 ### -field DiskFlag
 
-A bitmask of <a href="https://msdn.microsoft.com/f22bcf17-59fd-4a05-9516-2e14f173ed33">DEPENDENT_DISK_FLAG</a> enumeration values that specify disk dependency information.
+A bitmask of <a href="https://msdn.microsoft.com/en-us/library/Dd323663(v=VS.85).aspx">DEPENDENT_DISK_FLAG</a> enumeration values that specify disk dependency information.
 
 
 ### -field bIsChild

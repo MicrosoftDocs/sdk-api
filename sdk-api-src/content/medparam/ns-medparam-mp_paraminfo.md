@@ -61,7 +61,7 @@ The <code>MP_PARAMINFO</code> structure contains information about a parameter.
 
 ### -field mpType
 
-Member of the <a href="https://msdn.microsoft.com/9c8851c7-1a72-4dfd-ba2f-e64d8e22f6dc">MP_TYPE</a> enumeration that specifies the valid data type for this parameter.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/Dd390746(v=VS.85).aspx">MP_TYPE</a> enumeration that specifies the valid data type for this parameter.
 
 
 ### -field mopCaps
@@ -98,7 +98,7 @@ NULL-terminated wide-character string that contains the name of the parameter.
 
 
 
-The <b>szUnitText</b> and <b>szLabel</b> members always contain English-language strings. For international support, use the <a href="https://msdn.microsoft.com/38ecde61-fd4a-4ba3-9cd4-d62a5aa55294">IMediaParamInfo::GetParamText</a> method.
+The <b>szUnitText</b> and <b>szLabel</b> members always contain English-language strings. For international support, use the <a href="https://msdn.microsoft.com/en-us/library/Dd406969(v=VS.85).aspx">IMediaParamInfo::GetParamText</a> method.
 
 
 

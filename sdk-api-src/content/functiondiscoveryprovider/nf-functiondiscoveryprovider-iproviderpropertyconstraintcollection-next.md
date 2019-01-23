@@ -4,7 +4,7 @@ title: IProviderPropertyConstraintCollection::Next
 author: windows-sdk-content
 description: Gets the name and value of the next property constraint in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_next.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: ddf9f2b9-92f6-4a1f-86d8-0d9e8c0c4855
 ms.author: windowssdkdev
 ms.date: 12/5/2018

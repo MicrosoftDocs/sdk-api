@@ -313,13 +313,9 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 The following example shows signing data by first hashing the data to be signed and then signing the hash by using the <b>CryptSignHash</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//-------------------------------------------------------------
+
+```cpp
+//-------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTPROV hProv;
@@ -402,10 +398,8 @@ else
 // Destroy the hash object.
 
 if(hHash) 
-  CryptDestroyHash(hHash);</pre>
-</td>
-</tr>
-</table></span></div>
+  CryptDestroyHash(hHash);
+```
 
 
 For a complete example including the  context for this code, see 

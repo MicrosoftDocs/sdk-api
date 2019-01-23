@@ -63,7 +63,7 @@ The read-only stream to be associated with this resource.
 
 ### -param imageType [in]
 
-The  <a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a> value that describes the type of image in the stream.
+The  <a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a> value that describes the type of image in the stream.
 
 
 ### -param partName [in]
@@ -108,7 +108,7 @@ Because <a href="https://msdn.microsoft.com/30d90686-67f5-4e18-811b-472e6a00538f
 
 
 
-<a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a>
  
 
  

@@ -84,22 +84,18 @@ You must call
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Set up the enumeration.
-hr = pCertServerExit-&gt;EnumerateAttributesSetup(0);
+
+```cpp
+// Set up the enumeration.
+hr = pCertServerExit->EnumerateAttributesSetup(0);
 if (FAILED(hr))
 {
     printf("Failed EnumerateAttributesSetup [%x]\n", hr);
     goto error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

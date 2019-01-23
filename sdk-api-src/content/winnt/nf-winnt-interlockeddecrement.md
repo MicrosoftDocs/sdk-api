@@ -4,7 +4,7 @@ title: InterlockedDecrement function
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 32-bit variable as an atomic operation.
 old-location: base\interlockeddecrement.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -86,7 +86,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 32-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="5268fce3-86b5-4b2b-b96c-2e531a3fb9b5">_InterlockedDecrement</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/f24ya7ct(v=VS.85).aspx">_InterlockedDecrement</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -150,7 +150,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683614(v=VS.85).aspx">InterlockedIncrement</a>
 
 
 

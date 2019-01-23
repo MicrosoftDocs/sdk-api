@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Appends an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure to the end of the collection.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Appends an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d
 
 ### -param dash [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure that is to be appended  to the collection.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure that is to be appended  to the collection.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The figure that follows illustrates how the collection is changed by the <b>Appe
 
 
 
-<a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
  
 
  

@@ -82,13 +82,9 @@ When implemented, the system uses the <a href="https://msdn.microsoft.com/1af8d4
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[ 
+
+```cpp
+[ 
     uuid(7974CD8B-A9EF-4CC4-9A7D-5793CCE30734), 
     pointer_default(unique), 
     object 
@@ -99,18 +95,18 @@ interface IFooExceptionInfo : IUnknown
     HRESULT SetTranformedException(IFooException* exception); 
 } 
 
-class FooExceptionInfo : public Microsoft::WRL::RuntimeClass&lt; 
-    Microsoft::WRL::RuntimeClassFlags&lt; 
-    Microsoft::WRL::RuntimeClassType::ClassicCom&gt;, 
+class FooExceptionInfo : public Microsoft::WRL::RuntimeClass< 
+    Microsoft::WRL::RuntimeClassFlags< 
+    Microsoft::WRL::RuntimeClassType::ClassicCom>, 
     IFooExceptionInfo, 
-    ILanguageExceptionTransform&gt; 
+    ILanguageExceptionTransform> 
 { 
     ... 
     ... 
 private: 
     HRESULT _hr; 
     Microsoft::WRL::Wrappers::HString _message; 
-    ComPtr&lt;IFooException&gt; _transformedException; 
+    ComPtr<IFooException> _transformedException; 
 public: 
     HRESULT SetTranformedException(IFooException* exception) 
     { 
@@ -120,7 +116,7 @@ public:
 
     HRESULT GetTransformedRestrictedErrorInfo(IRestrictedErrorInfo** restrictedErrorInfo) 
     { 
-        return _transformedException-&gt;GetRestrictedErrorForException( 
+        return _transformedException->GetRestrictedErrorForException( 
                    restrictedErrorInfo); 
     } 
 } 
@@ -136,17 +132,17 @@ interface IFooException : IUnknown
     HRESULT GetExceptionInfo(IFooExceptionInfo** exceptionInfo); 
 } 
 
-class FooException : public Microsoft::WRL::RuntimeClass&lt; 
-    Microsoft::WRL::RuntimeClassFlags&lt; 
-    Microsoft::WRL::RuntimeClassType::ClassicCom&gt;, 
+class FooException : public Microsoft::WRL::RuntimeClass< 
+    Microsoft::WRL::RuntimeClassFlags< 
+    Microsoft::WRL::RuntimeClassType::ClassicCom>, 
     IFooException 
-    ...&gt; 
+    ...> 
 { 
     ... 
     ... 
 private: 
-    ComPtr&lt;IFooExceptionInfo&gt; _exceptionInfo; 
-    ComPtr&lt;IRestrictedErrorInfo&gt; _restrictedErrorInfo;  
+    ComPtr<IFooExceptionInfo> _exceptionInfo; 
+    ComPtr<IRestrictedErrorInfo> _restrictedErrorInfo;  
 public: 
     HRESULT GetRestrictedErrorForException(IRestrictedErrorInfo** restrictedErrorInfo) 
     { 
@@ -160,15 +156,15 @@ public:
 } 
 void OriginateErrorInfoForThrowWithCaughtException(IFooException* exception, IFooException* caughtException) 
 { 
-    ComPtr&lt;IFooExceptionInfo&gt; exceptionInfo;     if(SUCCEEDED(exception-&gt;GetExceptionInfo(&amp;exceptionInfo))) 
+    ComPtr<IFooExceptionInfo> exceptionInfo;     if(SUCCEEDED(exception->GetExceptionInfo(&exceptionInfo))) 
     { 
-        exceptionInfo-&gt;SetTranformedException(caughtException); 
-        exception-&gt;OriginateErrorInfoForThrow(); 
+        exceptionInfo->SetTranformedException(caughtException); 
+        exception->OriginateErrorInfoForThrow(); 
     } 
-} </pre>
-</td>
-</tr>
-</table></span></div>
+} 
+```
+
+
 
 
 

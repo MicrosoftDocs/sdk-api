@@ -186,13 +186,9 @@ The following example shows how to call the
 <a href="https://msdn.microsoft.com/97a8e750-3e63-4e6f-a875-1e5c49c30dd4">CredUIPromptForCredentials</a> function to capture the user name and password. The example assumes a valid 
 <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> interface pointer, pJob. The example uses the <a href="https://msdn.microsoft.com/2c4090a6-025b-4b7b-8f31-7e744ad51b39">SecureZeroMemory</a> function to clear the memory locations associated with the sensitive information. The <b>SecureZeroMemory</b> function is defined in WinBase.h.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define MAX_STR_LENGTH 300+1    // BITS limit for user name and password
+
+```cpp
+#define MAX_STR_LENGTH 300+1    // BITS limit for user name and password
 
 CREDUI_INFO cuiinfo;
 WCHAR szUserName[MAX_STR_LENGTH];  
@@ -214,29 +210,29 @@ cuiinfo.pszMessageText = L"Enter user credentials for Basic authentication.";
 //name, see the example code for the IBackgroundCopyJob::GetOwner method. 
 szUserName[0] = L'\0';
 szPassword[0] = L'\0';
-rc = CredUIPromptForCredentials(&amp;cuiinfo, NULL, NULL, 0,
+rc = CredUIPromptForCredentials(&cuiinfo, NULL, NULL, 0,
     szUserName, MAX_STR_LENGTH,
     szPassword, MAX_STR_LENGTH, 
     NULL, CREDUI_FLAGS_DO_NOT_PERSIST | CREDUI_FLAGS_GENERIC_CREDENTIALS);
 
 if (NO_ERROR == rc)
 {
-    pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&amp;pJob2);
+    pJob->QueryInterface(__uuidof(IBackgroundCopyJob2), (void**)&pJob2);
     ac.Target = BG_AUTH_TARGET_SERVER;
     ac.Scheme = BG_AUTH_SCHEME_BASIC;
     ac.Credentials.Basic.UserName = szUserName;
     ac.Credentials.Basic.Password = szPassword;
-    hr = pJob2-&gt;SetCredentials(&amp;ac);
+    hr = pJob2->SetCredentials(&ac);
     if (FAILED(hr))
     {
       //Handle error
     }
     SecureZeroMemory(szUserName, sizeof(szUserName));
     SecureZeroMemory(szPassword, sizeof(szPassword));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

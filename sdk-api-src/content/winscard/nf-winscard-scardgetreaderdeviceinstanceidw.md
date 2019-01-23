@@ -125,13 +125,9 @@ An error code. For more information, see
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 LONG     lReturn;
 LPTSTR   szReaderName = "USB Smart Card Reader 0";
 WCHAR    szDeviceInstanceId[256];
@@ -142,7 +138,7 @@ DWORD    cchDeviceInstanceId = 256;
 lReturn = SCardGetReaderDeviceInstanceId (hContext,
                          szReaderName,
                          szDeviceInstanceId,
-                         &amp;cchDeviceInstanceId);
+                         &cchDeviceInstanceId);
 
 if ( SCARD_S_SUCCESS != lReturn )
 {
@@ -151,9 +147,9 @@ if ( SCARD_S_SUCCESS != lReturn )
 }
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

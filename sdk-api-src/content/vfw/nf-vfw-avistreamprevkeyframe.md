@@ -77,19 +77,15 @@ The search performed by this macro does not include the frame at the specified p
 
 The <b>AVIStreamPrevKeyFrame</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamPrevKeyFrame(pavi, lPos) \ 
     AVIStreamFindSample(pavi, lPos - 1, FIND_PREV | FIND_KEY) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

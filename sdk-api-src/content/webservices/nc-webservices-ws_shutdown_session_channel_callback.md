@@ -49,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/db12b0b7-698e-4c74-b547-6c95d0c5fdb7">WsShutdownSessionChannel</a> call
-                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 
@@ -93,7 +93,7 @@ Specifies where additional error information should be stored if the function fa
 </dl>
 </td>
 <td width="60%">
-This is returned if the channel is not in the <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_OPEN</a> state.
+This is returned if the channel is not in the <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a> state.
                 
 
 </td>

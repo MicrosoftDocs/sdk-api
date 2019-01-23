@@ -58,12 +58,12 @@ The <b>LSA_FOREST_TRUST_COLLISION_INFORMATION</b> structure contains information
 
 ### -field RecordCount
 
-Number of <a href="https://msdn.microsoft.com/9f9d2f57-0e7f-4222-be35-e3f026b60e93">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
+Number of <a href="https://msdn.microsoft.com/en-us/library/Aa378331(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures in the array pointed to by the <b>Entries</b> member.
 
 
 ### -field Entries
 
-Pointer to a pointer to an array of <a href="https://msdn.microsoft.com/9f9d2f57-0e7f-4222-be35-e3f026b60e93">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures, each of which contains information about a single collision.
+Pointer to a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa378331(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_RECORD</a> structures, each of which contains information about a single collision.
 
 
 ### -field Entries.size_is

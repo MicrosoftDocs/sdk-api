@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Describes  device temperature data. Returned as part of <a href="https://msdn.microsoft.com/E155B31F-6543-42E3-BCAB-B1B0100D23E4">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> when querying for temperature data with an <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> request. 
+Describes  device temperature data. Returned as part of <a href="https://msdn.microsoft.com/en-us/library/Mt718128(v=VS.85).aspx">STORAGE_TEMPERATURE_DATA_DESCRIPTOR</a> when querying for temperature data with an <a href="https://msdn.microsoft.com/6755dcd4-e4a0-423f-9dcc-b9719c8e5c88">IOCTL_STORAGE_QUERY_PROPERTY</a> request. 
 
 
 ## -struct-fields

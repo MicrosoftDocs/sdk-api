@@ -105,13 +105,9 @@ The order of matrix multiplication is important. In general, the matrix product 
 
 The following example creates a linear gradient brush and uses it to fill a rectangle. Next, the code sets the brush's transformation matrix, fills a rectangle with the transformed brush, modifies the brush's transformation matrix, and again fills a rectangle with the transformed brush.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_MultTrans(HDC hdc)
+
+```cpp
+VOID Example_MultTrans(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -125,23 +121,23 @@ The following example creates a linear gradient brush and uses it to fill a rect
       LinearGradientModeHorizontal);
 
    // Fill a large area with the gradient brush (no transformation).
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 800, 100);
+   myGraphics.FillRectangle(&linGrBrush, 0, 0, 800, 100);
 
    // Apply the scaling transformation.
-   linGrBrush.SetTransform(&amp;S);
+   linGrBrush.SetTransform(&S);
 
    // Fill a large area with the scaled gradient brush.
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 150, 800, 100);
+   myGraphics.FillRectangle(&linGrBrush, 0, 150, 800, 100);
 
    // Form a composite transformation: first scale, then translate.
-   linGrBrush.MultiplyTransform(&amp;T, MatrixOrderAppend);
+   linGrBrush.MultiplyTransform(&T, MatrixOrderAppend);
 
    // Fill a large area with the scaled and translated gradient brush.
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 300, 800, 100);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.FillRectangle(&linGrBrush, 0, 300, 800, 100);
+}
+```
+
+
 
 
 

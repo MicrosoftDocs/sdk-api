@@ -203,20 +203,16 @@ The following code sample demonstrates how to retrieve current configuration inf
 <b>NetServerGetInfo</b> function. The sample calls 
 <b>NetServerGetInfo</b>, specifying information level 101 (<a href="https://msdn.microsoft.com/6e106a51-9f0c-4603-8121-5b0d01a235b4">SERVER_INFO_101</a>). If the call succeeds, the code attempts to identify the type of server. Finally, the sample frees the memory allocated for the information buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -225,7 +221,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPTSTR pszServerName = NULL;
 
-   if (argc &gt; 2)
+   if (argc > 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -239,7 +235,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetServerGetInfo(pszServerName,
                               dwLevel,
-                              (LPBYTE *)&amp;pBuf);
+                              (LPBYTE *)&pBuf);
    //
    // If the call succeeds,
    //
@@ -248,9 +244,9 @@ int wmain(int argc, wchar_t *argv[])
       //
       // Check for the type of server.
       //
-      if ((pBuf-&gt;sv101_type &amp; SV_TYPE_DOMAIN_CTRL) ||
-         (pBuf-&gt;sv101_type &amp; SV_TYPE_DOMAIN_BAKCTRL) ||
-         (pBuf-&gt;sv101_type &amp; SV_TYPE_SERVER_NT))
+      if ((pBuf->sv101_type & SV_TYPE_DOMAIN_CTRL) ||
+         (pBuf->sv101_type & SV_TYPE_DOMAIN_BAKCTRL) ||
+         (pBuf->sv101_type & SV_TYPE_SERVER_NT))
          printf("This is a server\n");
       else
          printf("This is a workstation\n");
@@ -268,10 +264,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

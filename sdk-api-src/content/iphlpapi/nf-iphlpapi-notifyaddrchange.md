@@ -179,16 +179,12 @@ On Windows Vista and later, the
 
 The following example waits for a change to occur in the table that maps IP addresses to interfaces.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;winsock2.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
+
+```cpp
+#include <winsock2.h>
+#include <iphlpapi.h>
+#include <stdio.h>
+#include <windows.h>
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -201,7 +197,7 @@ void main()
   HANDLE hand = NULL;
   overlap.hEvent = WSACreateEvent();
 
-  ret = NotifyAddrChange(&amp;hand, &amp;overlap);
+  ret = NotifyAddrChange(&hand, &overlap);
 
   if (ret != NO_ERROR)
   {
@@ -215,10 +211,10 @@ void main()
   if ( WaitForSingleObject(overlap.hEvent, INFINITE) == WAIT_OBJECT_0 )
     printf("IP Address table changed..\n");
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

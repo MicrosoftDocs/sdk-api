@@ -58,7 +58,7 @@ Generated when the transaction is in the prepare phase of the commit protocol.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidTx [in]
@@ -85,7 +85,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/103776c8-1cdc-46a5-a2ce-54163726e602">IComTransaction2Events</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678948(v=VS.85).aspx">IComTransaction2Events</a>
  
 
  

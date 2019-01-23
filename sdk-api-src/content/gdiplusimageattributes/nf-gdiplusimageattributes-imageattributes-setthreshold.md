@@ -104,13 +104,9 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a .bmp file. The code also creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap threshold value to 0.6. Then the code draws the image twice: once with no color adjustment and once with the adjustment specified by the threshold.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetThreshold(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -136,10 +132,8 @@ VOID Example_SetThreshold(HDC hdc)
       UnitPixel,
       &imAtt);
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
 
 
 The following illustration shows the output of the preceding code. Note that the red was converted to maximum intensity, and the green was converted to zero intensity.

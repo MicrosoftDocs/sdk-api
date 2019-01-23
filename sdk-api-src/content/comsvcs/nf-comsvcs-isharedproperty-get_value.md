@@ -79,7 +79,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/19ed8d50-3ac1-408e-9f25-09f284d025f1">SharedProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679208(v=VS.85).aspx">SharedProperty</a>
  
 
  

@@ -48,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with the contents of a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with the contents of a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Pointer to date and time information stored in a <a href="https://msdn.microsoft
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -90,29 +90,25 @@ Creates a VT_DATE variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromFileTime">InitVariantFromFileTime</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762323(v=VS.85).aspx">InitVariantFromFileTime</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT var;
+
+```cpp
+VARIANT var;
 FILETIME ft;
 
-GetSystemTimeAsFileTime(&amp;ft);
+GetSystemTimeAsFileTime(&ft);
 
-HRESULT hr = InitVariantFromFileTime(&amp;ft, &amp;var);
+HRESULT hr = InitVariantFromFileTime(&ft, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_DATE.
-    VariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -125,11 +121,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>
 
 
 
-<a href="shell.VariantToFileTime">VariantToFileTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776602(v=VS.85).aspx">VariantToFileTime</a>
  
 
  

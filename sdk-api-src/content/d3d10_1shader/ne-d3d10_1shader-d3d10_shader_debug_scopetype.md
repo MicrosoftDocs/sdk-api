@@ -105,7 +105,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPETYPE</b> enumeration is used to specify scope type in the <a href="https://msdn.microsoft.com/ccee4d4b-86e2-441c-abc1-2aba1163f149">D3D10_SHADER_DEBUG_SCOPE_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPETYPE</b> enumeration is used to specify scope type in the <a href="https://msdn.microsoft.com/en-us/library/Bb172428(v=VS.85).aspx">D3D10_SHADER_DEBUG_SCOPE_INFO</a> structure.
 
 
 
@@ -115,7 +115,7 @@ The <b>D3D10_SHADER_DEBUG_SCOPETYPE</b> enumeration is used to specify scope typ
 
 
 
-<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
  
 
  

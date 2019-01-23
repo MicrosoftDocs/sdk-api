@@ -130,31 +130,27 @@ The interface provides methods to access information about the referenced part a
 
 The following markup shows that these <b>Reference</b> elements are children of the <b>Manifest</b> element in signature markup.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>// Signature XML markup
-&lt;Signature&gt;
+
+```xml
+// Signature XML markup
+<Signature>
 	[...]
-	// Package-specific &lt;Object&gt;
-	&lt;Object Id="idPackageObject"&gt;
-		// This &lt;Manifest&gt; element contains only one signed part. 
-		&lt;Manifest&gt;
+	// Package-specific <Object>
+	<Object Id="idPackageObject">
+		// This <Manifest> element contains only one signed part. 
+		<Manifest>
 			// A reference to a signed part.
-			&lt;Reference URI="aPartName"&gt;
+			<Reference URI="aPartName">
 				[...]
-			&lt;/Reference&gt;
-		&lt;/Manifest&gt;
+			</Reference>
+		</Manifest>
 		[...]
-	&lt;/Object&gt;
+	</Object>
 	[...]
-&lt;/Signature&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+</Signature>
+```
+
+
 
 #### Thread Safety
 

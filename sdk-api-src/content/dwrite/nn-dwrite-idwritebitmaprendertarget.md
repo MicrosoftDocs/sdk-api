@@ -151,20 +151,14 @@ The <b>IDWriteBitmapRenderTarget</b> interface has these methods.
 
 You create an <b>IDWriteBitmapRenderTarget</b> by using the <a href="https://msdn.microsoft.com/1a1bd200-6da6-4e4d-83d3-1f6a4a5e7152">IDWriteGdiInterop::CreateBitmapRenderTarget</a> method, as shown in the following code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr))
+
+```cpp
+if (SUCCEEDED(hr))
 {
     hr = g_pGdiInterop->CreateBitmapRenderTarget(hdc, r.right, r.bottom, &g_pBitmapRenderTarget);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 
@@ -173,13 +167,9 @@ You create an <b>IDWriteBitmapRenderTarget</b> by using the <a href="https://msd
 <h3><a id="Rendering"></a><a id="rendering"></a><a id="RENDERING"></a>Rendering</h3>
 One way to use a  <b>IDWriteBitmapRenderTarget</b>, for rendering to a bitmap, is to implement a custom renderer interface derived from the <a href="https://msdn.microsoft.com/a2ac70c8-e33b-46f1-b53b-1ab07555f109">IDWriteTextRenderer</a> interface.  In your implementation of  the <a href="https://msdn.microsoft.com/95a0044c-dffd-4c6a-a6eb-2f87b02ef89a">DrawGlyphRun</a> method of your custom renderer, call the <a href="https://msdn.microsoft.com/d766d2d1-6be7-468a-a10e-c7cab421b9a7">IDWriteBitmapRenderTarget::DrawGlyphRun</a> method to draw the glyphs as shown in the following code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
+
+```cpp
+STDMETHODIMP GdiTextRenderer::DrawGlyphRun(
     __maybenull void* clientDrawingContext,
     FLOAT baselineOriginX,
     FLOAT baselineOriginY,
@@ -207,10 +197,8 @@ One way to use a  <b>IDWriteBitmapRenderTarget</b>, for rendering to a bitmap, i
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 The <b>IDWriteBitmapRenderTarget</b> encapsulates and renders to a bitmap in memory.  The  <a href="https://msdn.microsoft.com/9ca9a002-2a78-4c7c-926c-52414dd801bb">GetMemoryDC</a> function returns a handle to the device context of this bitmap.

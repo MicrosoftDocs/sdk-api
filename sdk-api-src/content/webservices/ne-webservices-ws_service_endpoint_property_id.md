@@ -50,7 +50,7 @@ req.redist:
 
 Each property represents optional parameters for configuring 
                 the given <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a> structure.
-            This enumeration is used within the <a href="https://msdn.microsoft.com/4342d1d2-3126-401b-8019-c7dd243d4ac4">WS_SERVICE_ENDPOINT_PROPERTY</a> structure that is part of <b>WS_SERVICE_ENDPOINT</b>.
+            This enumeration is used within the <a href="https://msdn.microsoft.com/en-us/library/Dd323421(v=VS.85).aspx">WS_SERVICE_ENDPOINT_PROPERTY</a> structure that is part of <b>WS_SERVICE_ENDPOINT</b>.
 
 
 ## -enum-fields
@@ -132,16 +132,16 @@ The following message properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
 </li>
 </ul>
 
@@ -149,10 +149,10 @@ The following message properties may be specified:
 
 The maximum number of call servicing objects that would be pooled to service a message object, on a given
                     endpoint. Note that in case of session based channels many call objects can be used on a single 
-                                        channel if <a href="https://msdn.microsoft.com/en-us/library/Dd323422(v=VS.85).aspx">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY</a> is greater than 1. 
+                                        channel if <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CONCURRENCY</a> is greater than 1. 
 
 
-For sessionless channels this property should ideally be equal to <a href="https://msdn.microsoft.com/en-us/library/Dd323422(v=VS.85).aspx">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE</a>.
+For sessionless channels this property should ideally be equal to <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_MAX_CHANNEL_POOL_SIZE</a>.
                 
 
 Default is 100.
@@ -183,20 +183,20 @@ Enables or disables must understand header verification on an endpoint. This is 
 
 ### -field WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE
 
-This property can be set to <a href="https://msdn.microsoft.com/en-us/library/Dd401965(v=VS.85).aspx">WS_METADATA_EXCHANGE_TYPE_MEX</a> to enable 
+This property can be set to <a href="https://msdn.microsoft.com/35e66c77-db26-4806-9b56-51539b23bb61">WS_METADATA_EXCHANGE_TYPE_MEX</a> to enable 
                     servicing of WS-MetadataExchange requests on the endpoint. In case the application wishes to 
                     expose metadata through HTTP GET, this property can be set to <b>WS_METADATA_EXCHANGE_TYPE_HTTP_GET</b>
 
-If not specified, the default value of this property is '<a href="https://msdn.microsoft.com/en-us/library/Dd401965(v=VS.85).aspx">WS_METADATA_EXCHANGE_TYPE_NONE</a>'. 
+If not specified, the default value of this property is '<a href="https://msdn.microsoft.com/35e66c77-db26-4806-9b56-51539b23bb61">WS_METADATA_EXCHANGE_TYPE_NONE</a>'. 
                 
 
-Note that this property when set to <a href="https://msdn.microsoft.com/en-us/library/Dd401965(v=VS.85).aspx">WS_METADATA_EXCHANGE_TYPE_HTTP_GET</a> changes the <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> property 
-                    <a href="https://msdn.microsoft.com/en-us/library/Dd401951(v=VS.85).aspx">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and
+Note that this property when set to <a href="https://msdn.microsoft.com/35e66c77-db26-4806-9b56-51539b23bb61">WS_METADATA_EXCHANGE_TYPE_HTTP_GET</a> changes the <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> property 
+                    <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and
                     <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> to <a href="https://msdn.microsoft.com/65449a2d-88c3-431e-83d5-ecb182463cf5">WS_MATCH_URL_PREFIX_PATH</a>. 
                 
 
 When setting this property to WS_METADATA_EXCHANGE_TYPE_HTTP_GET an application must not specify <a href="https://msdn.microsoft.com/65449a2d-88c3-431e-83d5-ecb182463cf5">WS_MATCH_URL_EXACT_PATH</a> for the listener 
-                    properties <a href="https://msdn.microsoft.com/en-us/library/Dd401951(v=VS.85).aspx">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b>for the given <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a>.
+                    properties <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b>for the given <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a>.
                 
 
 
@@ -208,7 +208,7 @@ Specifies the WSDL port name, binding name and binding namespace for the <a href
 This property must be specified to enable the participation of the <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a> in WS-Metadata Exchange.
                 
 
-See <a href="https://msdn.microsoft.com/e02ea746-ed56-48a7-8cd4-9e51d100ef2a">WS_SERVICE_ENDPOINT_METADATA</a> for more details.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd323420(v=VS.85).aspx">WS_SERVICE_ENDPOINT_METADATA</a> for more details.
                 
 
 
@@ -219,7 +219,7 @@ Specifies the suffix which is concatenated as is to the <a href="https://msdn.mi
                     serviced. 
                 
 
-This property must only be specified if <a href="https://msdn.microsoft.com/en-us/library/Dd323422(v=VS.85).aspx">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> is set to <a href="https://msdn.microsoft.com/en-us/library/Dd401965(v=VS.85).aspx">WS_METADATA_EXCHANGE_TYPE_MEX</a>.
+This property must only be specified if <a href="https://msdn.microsoft.com/f6b33fe5-a9e9-4733-8b6c-4b01009d3277">WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_TYPE</a> is set to <a href="https://msdn.microsoft.com/35e66c77-db26-4806-9b56-51539b23bb61">WS_METADATA_EXCHANGE_TYPE_MEX</a>.
                 
 
 Specifying this property is useful in cases where an application wishes to handle WS-Transfer Get requests as well as use the same endpoint to service 
@@ -230,12 +230,12 @@ By default no filtering is done for WS-MetadataExchange v1.1 for MEX and all WS-
                     Ws-MetadataExchange v1.1 is enabled on the endpoint.
                 
 
-Note that this property changes the <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> property <a href="https://msdn.microsoft.com/en-us/library/Dd401951(v=VS.85).aspx">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and
+Note that this property changes the <a href="https://msdn.microsoft.com/2e771c56-4a07-4c8e-92c1-ffcbf74cd1aa">WS_LISTENER</a> property <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and
                     <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> to <a href="https://msdn.microsoft.com/65449a2d-88c3-431e-83d5-ecb182463cf5">WS_MATCH_URL_PREFIX_PATH</a>. 
                 
 
 When setting this property an application must not specify <a href="https://msdn.microsoft.com/65449a2d-88c3-431e-83d5-ecb182463cf5">WS_MATCH_URL_EXACT_PATH</a> for the listener 
-                    properties <a href="https://msdn.microsoft.com/en-us/library/Dd401951(v=VS.85).aspx">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> 
+                    properties <a href="https://msdn.microsoft.com/4998d538-628f-4939-9db9-612e882e68b1">WS_LISTENER_PROPERTY_TRANSPORT_URL_MATCHING_OPTIONS</a> and <b>WS_LISTENER_PROPERTY_TO_HEADER_MATCHING_OPTIONS</b> 
                     for the given <a href="https://msdn.microsoft.com/6b15fc3f-5e4b-4eb3-b337-0170b0ca746f">WS_SERVICE_ENDPOINT</a>.
                 
 

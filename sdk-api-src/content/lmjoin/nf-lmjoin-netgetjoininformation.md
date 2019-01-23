@@ -78,13 +78,9 @@ Receives the join status of the specified computer. This parameter can have one 
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum _NETSETUP_JOIN_STATUS {
+
+```cpp
+typedef enum _NETSETUP_JOIN_STATUS {
 
     NetSetupUnknownStatus = 0,
     NetSetupUnjoined,
@@ -92,10 +88,10 @@ Receives the join status of the specified computer. This parameter can have one 
     NetSetupDomainName
 
 } NETSETUP_JOIN_STATUS, *PNETSETUP_JOIN_STATUS;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 These values have the following meanings.
 
 <table>

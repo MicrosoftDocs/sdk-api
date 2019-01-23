@@ -70,18 +70,12 @@ Code for the MIDI event and the event parameters or length, as specified in the 
 
 The <b>MEVT_EVENTTYPE</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define MEVT_EVENTTYPE(x) ((BYTE) (((x)>>24)&0xFF)) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

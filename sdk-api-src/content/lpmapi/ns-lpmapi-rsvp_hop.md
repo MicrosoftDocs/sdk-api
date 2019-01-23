@@ -59,7 +59,7 @@ The
 
 ### -field hop_header
 
-RSVP hop header, in the form of an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure
+RSVP hop header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure
 
 
 ### -field hop_u
@@ -68,7 +68,7 @@ RSVP hop header, in the form of an <a href="https://msdn.microsoft.com/en-us/lib
 
 #### hop_ipv4
 
-Information about the IPv4 hop, in the form of an <a href="https://msdn.microsoft.com/en-us/library/Aa374135(v=VS.85).aspx">Rsvp_Hop_IPv4</a> structure.
+Information about the IPv4 hop, in the form of an <a href="https://msdn.microsoft.com/1a3f3e65-70f8-490c-8724-9e93c7fba457">Rsvp_Hop_IPv4</a> structure.
 
 
 ### -field hop_ipv4
@@ -83,11 +83,11 @@ Information about the IPv4 hop, in the form of an <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374135(v=VS.85).aspx">Rsvp_Hop_IPv4</a>
+<a href="https://msdn.microsoft.com/1a3f3e65-70f8-490c-8724-9e93c7fba457">Rsvp_Hop_IPv4</a>
  
 
  

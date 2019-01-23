@@ -176,21 +176,17 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    BSTR       bstrCA = NULL;      // Machine\CAName
+
+```cpp
+    BSTR       bstrCA = NULL;      // Machine\CAName
     BSTR       bstrSerial = NULL;  // Contains the certificate 
                              // serial number
     long       nDisp;              // Contains the certificate
                              // disposition
     HRESULT    hr;
 
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
-    bstrSerial = SysAllocString(L"&lt;SERIALNUMBERHERE&gt;");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrSerial = SysAllocString(L"<SERIALNUMBERHERE>");
 
     if (NULL == bstrCA || NULL == bstrSerial)
     {
@@ -201,7 +197,7 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     //  Determine whether the certificate is valid.
     //  pCertAdmin is a previously instantiated ICertAdmin 
     //  object pointer.
-    hr = pCertAdmin-&gt;IsValidCertificate(bstrCA, bstrSerial, &amp;nDisp);
+    hr = pCertAdmin->IsValidCertificate(bstrCA, bstrSerial, &nDisp);
     if (FAILED(hr))
     {
         printf("Failed IsValidCertificate [%x]\n", hr);
@@ -218,10 +214,10 @@ error:
         SysFreeString(bstrCA);
 
     if (NULL != bstrSerial)
-        SysFreeString(bstrSerial);</pre>
-</td>
-</tr>
-</table></span></div>
+        SysFreeString(bstrSerial);
+```
+
+
 
 
 

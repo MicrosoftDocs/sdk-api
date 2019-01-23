@@ -153,13 +153,9 @@ It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/e9c8aacd-9abb-4640-b9ed-1fa417d4d4cc">SHResolveFolderPathInLibrary</a>, which wraps this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // from shobjidl.h
 //
 __inline HRESULT SHResolveFolderPathInLibrary(
@@ -178,32 +174,32 @@ __inline HRESULT SHResolveFolderPathInLibrary(
         IShellItem *psiFolder;
         hr = SHCreateItemFromIDList(
           pidlFolder, 
-          IID_PPV_ARGS(&amp;psiFolder));
+          IID_PPV_ARGS(&psiFolder));
 
         if (SUCCEEDED(hr))
         {
             IShellItem *psiResolved;
-            hr = plib-&gt;ResolveFolder(
+            hr = plib->ResolveFolder(
               psiFolder, 
               dwTimeout, 
-              IID_PPV_ARGS(&amp;psiResolved));
+              IID_PPV_ARGS(&psiResolved));
 
             if (SUCCEEDED(hr))
             {
-                hr = psiResolved-&gt;GetDisplayName(
+                hr = psiResolved->GetDisplayName(
                   SIGDN_DESKTOPABSOLUTEPARSING, 
                   ppszResolvedPath);
-                psiResolved-&gt;Release();
+                psiResolved->Release();
             }
-            psiFolder-&gt;Release();
+            psiFolder->Release();
         }
         CoTaskMemFree(pidlFolder);
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

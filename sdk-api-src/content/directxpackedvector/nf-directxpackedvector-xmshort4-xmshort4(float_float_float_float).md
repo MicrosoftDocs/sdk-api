@@ -100,13 +100,9 @@ The magnitude of each argument to the constructor will be clamped to the range s
 The following pseudocode demonstrates the operation of this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMSHORT4 instance;
 
 	instance.x = (int16_t)min( max( _x, -32767.0 ), 32767.0 );
@@ -114,10 +110,10 @@ The following pseudocode demonstrates the operation of this constructor:
 	instance.z = (int16_t)min( max( _z, -32767.0 ), 32767.0 );
 	instance.w = (int16_t)min( max( _w, -32767.0 ), 32767.0 );
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

@@ -4,7 +4,7 @@ title: "_interlockedbittestandreset function"
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG value and sets it to 0. The operation is atomic.
 old-location: base\interlockedbittestandreset.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 620bc56b-e85a-403f-94b8-14c838f046f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -81,7 +81,7 @@ The value of the specified bit.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="9bbb1442-f2e9-4dc2-b0da-97f3de3493b9">_interlockedbittestandreset</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/h1haebfw(v=VS.85).aspx">_interlockedbittestandreset</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

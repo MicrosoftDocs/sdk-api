@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116c
 
 ### -param fillRule [out, retval]
 
-The <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a>. 
+For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a>. 
 
 The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b> attribute of the <b>PathGeometry</b> element in the document markup.
 
@@ -128,7 +128,7 @@ The value that is returned in <i>fillRule</i>  corresponds to the <b>FillRule</b
 
 
 
-<a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a>
  
 
  

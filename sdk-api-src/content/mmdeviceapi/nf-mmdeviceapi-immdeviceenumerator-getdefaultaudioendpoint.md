@@ -61,7 +61,7 @@ The <b>GetDefaultAudioEndpoint</b> method retrieves the default audio endpoint f
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="https://msdn.microsoft.com/d79315aa-d753-4674-84c2-9ba601f36f57">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint device. The caller should set this parameter to one of the following two <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -72,7 +72,7 @@ The data-flow direction for a rendering device is eRender. The data-flow directi
 
 ### -param role [in]
 
-The role of the endpoint device. The caller should set this parameter to one of the following <a href="https://msdn.microsoft.com/0d0d3174-8489-4951-858c-024d58477ae0">ERole</a> enumeration values:
+The role of the endpoint device. The caller should set this parameter to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx">ERole</a> enumeration values:
 
 eConsole
 
@@ -159,19 +159,15 @@ In Windows Vista, the MMDevice API supports <a href="https://msdn.microsoft.com/
 
 This method retrieves the default endpoint device for the specified data-flow direction (rendering or capture) and role. For example, a client can get the default console playback device by making the following call:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-  hr = pDevEnum-&gt;GetDefaultAudioEndpoint(
-                   eRender, eConsole, &amp;pDeviceOut);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+
+  hr = pDevEnum->GetDefaultAudioEndpoint(
+                   eRender, eConsole, &pDeviceOut);
+
+```
+
+
 In the preceding code fragment, variable <i>hr</i> is of type <b>HRESULT</b>, <i>pDevEnum</i> is a pointer to an <b>IMMDeviceEnumerator</b> interface, and <i>pDeviceOut</i> is a pointer to an <b>IMMDevice</b> interface.
 
 A Windows system might contain some combination of audio endpoint devices such as desktop speakers, high-fidelity headphones, desktop microphones, headsets with speaker and microphones, and high-fidelity multichannel speakers. The user can assign appropriate roles to the devices. For example, an application that manages voice communications streams can call <b>GetDefaultAudioEndpoint</b> to identify the designated rendering and capture devices for that role.

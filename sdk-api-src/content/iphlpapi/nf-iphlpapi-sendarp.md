@@ -231,20 +231,16 @@ For information about the <b>IPAddr</b> data type, see
 
 The following code demonstrates how to obtain the hardware or media access control (MAC) address associated with a specified IPv4 address.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef WIN32_LEAN_AND_MEAN
+
+```cpp
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;winsock2.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <winsock2.h>
+#include <iphlpapi.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -272,8 +268,8 @@ int __cdecl main(int argc, char **argv)
     BYTE *bPhysAddr;
     unsigned int i;
 
-    if (argc &gt; 1) {
-        for (i = 1; i &lt; (unsigned int) argc; i++) {
+    if (argc > 1) {
+        for (i = 1; i < (unsigned int) argc; i++) {
             if ((argv[i][0] == '-') || (argv[i][0] == '/')) {
                 switch (tolower(argv[i][1])) {
                 case 'l':
@@ -299,16 +295,16 @@ int __cdecl main(int argc, char **argv)
 
     DestIp = inet_addr(DestIpString);
 
-    memset(&amp;MacAddr, 0xff, sizeof (MacAddr));
+    memset(&MacAddr, 0xff, sizeof (MacAddr));
 
     printf("Sending ARP request for IP address: %s\n", DestIpString);
 
-    dwRetVal = SendARP(DestIp, SrcIp, &amp;MacAddr, &amp;PhysAddrLen);
+    dwRetVal = SendARP(DestIp, SrcIp, &MacAddr, &PhysAddrLen);
 
     if (dwRetVal == NO_ERROR) {
-        bPhysAddr = (BYTE *) &amp; MacAddr;
+        bPhysAddr = (BYTE *) & MacAddr;
         if (PhysAddrLen) {
-            for (i = 0; i &lt; (int) PhysAddrLen; i++) {
+            for (i = 0; i < (int) PhysAddrLen; i++) {
                 if (i == (PhysAddrLen - 1))
                     printf("%.2X\n", (int) bPhysAddr[i]);
                 else
@@ -348,10 +344,10 @@ int __cdecl main(int argc, char **argv)
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

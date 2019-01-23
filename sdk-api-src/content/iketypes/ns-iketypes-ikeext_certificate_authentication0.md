@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>IKEEXT_CERTIFICATE_AUTHENTICATION0</b> structure is used to specify various parameters for authentication with certificates.<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_AUTHENTICATION0</b> is the specific implementation of IKEEXT_CERTIFICATE_AUTHENTICATION used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/45325f89-b5c9-4f8c-b9b0-4f0b01b34aab">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/39332187-6562-4f58-9284-e2aaccf1489b">IKEEXT_CERTIFICATE_AUTHENTICATION2</a> is available.</div>
+The <b>IKEEXT_CERTIFICATE_AUTHENTICATION0</b> structure is used to specify various parameters for authentication with certificates.<div class="alert"><b>Note</b>  <b>IKEEXT_CERTIFICATE_AUTHENTICATION0</b> is the specific implementation of IKEEXT_CERTIFICATE_AUTHENTICATION used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/en-us/library/Dd744964(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> is available. For Windows 8, <a href="https://msdn.microsoft.com/en-us/library/Hh447405(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION2</a> is available.</div>
 <div> </div>
 
 

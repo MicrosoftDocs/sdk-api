@@ -74,7 +74,7 @@ The number of bytes in the <i>pbInput</i> buffer to decrypt.
 
 ### -param pPaddingInfo [in, optional]
 
-A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an  authenticated encryption mode is used, this parameter must point to a <a href="https://msdn.microsoft.com/6c00f458-7198-44fe-bdb6-2c2eb9995bd9">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <i>dwFlags</i> parameter. Otherwise, the parameter  must be set to <b>NULL</b>.
+A pointer to a structure that contains padding information. This parameter is only used with asymmetric keys and authenticated encryption modes. If an  authenticated encryption mode is used, this parameter must point to a <a href="https://msdn.microsoft.com/en-us/library/Cc562981(v=VS.85).aspx">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure. If asymmetric keys are used, the type of structure this parameter points to is determined by the value of the <i>dwFlags</i> parameter. Otherwise, the parameter  must be set to <b>NULL</b>.
 
 
 ### -param pbIV [in, out, optional]

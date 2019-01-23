@@ -122,7 +122,7 @@ In the document markup, the value returned in <i>startPoint</i> corresponds to t
 
 
 
-<a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a>
  
 
  

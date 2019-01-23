@@ -61,12 +61,12 @@ Occurs when the input area has changed on the Tablet PC Input Panel.
 
 ### -param oldInputArea [in]
 
-The previous input area as defined by the <a href="https://msdn.microsoft.com/fc262f07-aa73-49c8-a26a-1f0a47f8269a">PanelInputArea Enumeration</a>.
+The previous input area as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea Enumeration</a>.
 
 
 ### -param newInputArea [in]
 
-The current input area as defined by the <a href="https://msdn.microsoft.com/fc262f07-aa73-49c8-a26a-1f0a47f8269a">PanelInputArea Enumeration</a>.
+The current input area as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea Enumeration</a>.
 
 
 ## -returns

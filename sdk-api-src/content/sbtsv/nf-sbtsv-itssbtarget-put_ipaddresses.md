@@ -71,7 +71,7 @@ This property is read/write.
 
 This property was formerly known as <b>TargetExternalIpAddresses</b> in Windows Server 2008 R2.
 
-If the number of external IP addresses is unknown, you can call this method with <i>sockaddr</i> set to <b>NULL</b>. The method will then return, in the <i>numAddresses</i> parameter, the number of <a href="https://msdn.microsoft.com/489d79ab-8a59-4789-9dca-df26018bf58c">TSSD_ConnectionPoint</a> structures necessary to receive all the external IP addresses. Allocate the array for <i>sockaddr</i> based on this number, and then call the method again, setting <i>sockaddr</i> to the newly allocated array and <i>numAddresses</i> to the number returned by the first call.
+If the number of external IP addresses is unknown, you can call this method with <i>sockaddr</i> set to <b>NULL</b>. The method will then return, in the <i>numAddresses</i> parameter, the number of <a href="https://msdn.microsoft.com/en-us/library/Ee351748(v=VS.85).aspx">TSSD_ConnectionPoint</a> structures necessary to receive all the external IP addresses. Allocate the array for <i>sockaddr</i> based on this number, and then call the method again, setting <i>sockaddr</i> to the newly allocated array and <i>numAddresses</i> to the number returned by the first call.
 
 
 
@@ -89,7 +89,7 @@ If the number of external IP addresses is unknown, you can call this method with
 
 
 
-<a href="https://msdn.microsoft.com/489d79ab-8a59-4789-9dca-df26018bf58c">TSSD_ConnectionPoint</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351748(v=VS.85).aspx">TSSD_ConnectionPoint</a>
  
 
  

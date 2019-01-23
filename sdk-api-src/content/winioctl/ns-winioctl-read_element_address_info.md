@@ -60,7 +60,7 @@ Represents the volume tag information. It is used by the
 ### -field NumberOfElements
 
 The number of elements matching criteria set forth by the <b>ActionCode</b> member of 
-<a href="https://msdn.microsoft.com/96148983-48be-466d-be7f-c1dbf6910c20">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363175(v=VS.85).aspx">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>. 
 
 
 
@@ -73,7 +73,7 @@ For information on compatibility with the current device, see the <b>Features0</
 
 An array of 
 <a href="https://msdn.microsoft.com/9714994f-4923-48bf-8f96-6a960a87bd5f">CHANGER_ELEMENT_STATUS</a> structures, one for each element that corresponded with the information passed in with the 
-<a href="https://msdn.microsoft.com/96148983-48be-466d-be7f-c1dbf6910c20">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363175(v=VS.85).aspx">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure.
 
 
 ## -see-also
@@ -85,7 +85,7 @@ An array of
 
 
 
-<a href="https://msdn.microsoft.com/96148983-48be-466d-be7f-c1dbf6910c20">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363175(v=VS.85).aspx">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 

@@ -75,7 +75,7 @@ Collision that is not a collision between <a href="https://msdn.microsoft.com/fa
 
 
 
-This enumeration is used by the <a href="https://msdn.microsoft.com/9f9d2f57-0e7f-4222-be35-e3f026b60e93">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
+This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa378331(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_RECORD</a> structure.
 
 
 

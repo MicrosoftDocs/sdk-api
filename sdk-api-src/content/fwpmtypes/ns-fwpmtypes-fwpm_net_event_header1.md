@@ -307,7 +307,7 @@ A <a href="https://msdn.microsoft.com/395b5c1c-988b-4d85-9b31-c1f84e02a90c">FWP_
 
 #### reserved4
 
-A <a href="https://msdn.microsoft.com/1ef0195a-af46-4eb3-8cc0-0408b644a7e9">DL_ADDRESS_TYPE</a> enumeration.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd744934(v=VS.85).aspx">DL_ADDRESS_TYPE</a> enumeration.
 
 
 

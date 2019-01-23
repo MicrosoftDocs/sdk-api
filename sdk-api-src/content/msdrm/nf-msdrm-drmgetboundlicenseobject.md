@@ -106,20 +106,16 @@ On first call, this function takes the <b>DRMHANDLE</b> returned by <a href="htt
 
 The <i>wszSubObjectType</i> parameter identifies an XrML type as shown in the following example. Using g_wszQUERY_OBJECTTYPE to query the XrML would return "Group Identity Licensor."
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;PRINCIPAL internal-id="1"&gt;
-  &lt;OBJECT type="Group Identity Licensor"&gt;
-  &lt;ID type="Group Identity"&gt;someone@example.com&lt;/ID&gt; 
-  &lt;NAME&gt;Pavel's Group Identity&lt;/NAME&gt; 
-  &lt;/OBJECT&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+<PRINCIPAL internal-id="1">
+  <OBJECT type="Group Identity Licensor">
+  <ID type="Group Identity">someone@example.com</ID> 
+  <NAME>Pavel's Group Identity</NAME> 
+  </OBJECT>
+```
+
+
 Call <a href="https://msdn.microsoft.com/422f286c-edf6-488f-8776-359ab2695be3">DRMCloseHandle</a> to close the handle created by calling this function.
 
 

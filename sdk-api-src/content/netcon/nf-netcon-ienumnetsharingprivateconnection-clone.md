@@ -62,7 +62,7 @@ The
 ### -param ppenum [out]
 
 Pointer to an interface pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/0e4cfa2e-8caa-4258-bd52-1f5a00403dfa">IEnumNetSharingPrivateConnection</a> interface.
+<a href="https://msdn.microsoft.com/en-us/library/Aa364767(v=VS.85).aspx">IEnumNetSharingPrivateConnection</a> interface.
 
 
 ## -returns
@@ -177,7 +177,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/0e4cfa2e-8caa-4258-bd52-1f5a00403dfa">IEnumNetSharingPrivateConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364767(v=VS.85).aspx">IEnumNetSharingPrivateConnection</a>
 
 
 
@@ -185,7 +185,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

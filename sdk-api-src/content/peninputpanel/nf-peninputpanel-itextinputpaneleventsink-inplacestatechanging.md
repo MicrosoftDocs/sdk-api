@@ -61,12 +61,12 @@ Occurs when the In-Place state is about to change.
 
 ### -param oldInPlaceState [in]
 
-The current state, as defined by the <a href="https://msdn.microsoft.com/95642cbf-4520-44cc-95ba-80de1fe3b447">InPlaceState Enumeration</a>.
+The current state, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a>.
 
 
 ### -param newInPlaceState [in]
 
-The new state that the Input Panel is changing to, as defined by the <a href="https://msdn.microsoft.com/95642cbf-4520-44cc-95ba-80de1fe3b447">InPlaceState Enumeration</a>.
+The new state that the Input Panel is changing to, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a>.
 
 
 ## -returns

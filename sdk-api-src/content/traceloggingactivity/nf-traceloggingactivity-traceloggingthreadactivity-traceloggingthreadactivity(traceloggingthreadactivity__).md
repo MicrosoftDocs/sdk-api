@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Initializes a new instance of the  <a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a> class.
+Initializes a new instance of the  <a href="https://msdn.microsoft.com/en-us/library/Dn904612(v=VS.85).aspx">TraceLoggingThreadActivity</a> class.
 
 <b>TraceLoggingThreadActivity</b> is a class template.
 
@@ -107,11 +107,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/75930876-4DF2-4559-BA06-133FC676B1AD">TraceLoggingActivity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904612(v=VS.85).aspx">TraceLoggingThreadActivity</a>
  
 
  

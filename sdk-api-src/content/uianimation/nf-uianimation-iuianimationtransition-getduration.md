@@ -111,20 +111,16 @@ An application should typically call the <a href="https://msdn.microsoft.com/5cb
 
 The following shows how to get the duration of a transition.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = pTransition-&gt;IsDurationKnown();
+
+```cpp
+hr = pTransition->IsDurationKnown();
 if (SUCCEEDED(hr))
 {
     bool fDurationKnown = (hr == S_OK); 
     if (fDurationKnown)
     {
         UI_ANIMATION_SECONDS duration;
-        hr = pTransition-&gt;GetDuration(&amp;duration);
+        hr = pTransition->GetDuration(&duration);
         if (SUCCEEDED(hr))
         {        
             ...
@@ -134,10 +130,10 @@ if (SUCCEEDED(hr))
     {
         ...
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

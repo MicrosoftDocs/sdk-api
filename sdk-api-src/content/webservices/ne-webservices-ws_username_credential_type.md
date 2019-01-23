@@ -60,6 +60,6 @@ subtypes of <a href="https://msdn.microsoft.com/961f8c52-9922-4e43-905a-a22a80ab
 
 ### -field WS_STRING_USERNAME_CREDENTIAL_TYPE
 
-Type ID for the username/password credential <a href="https://msdn.microsoft.com/3dea7172-56ac-4209-9016-dc48be5b02e9">WS_STRING_USERNAME_CREDENTIAL</a>.
+Type ID for the username/password credential <a href="https://msdn.microsoft.com/en-us/library/Dd323450(v=VS.85).aspx">WS_STRING_USERNAME_CREDENTIAL</a>.
                 
 

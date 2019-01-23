@@ -119,7 +119,7 @@ A pointer to a caller-defined state that is passed when invoking the <a href="ht
 
 ### -param properties
 
-An "array" reference of optional properties controlling how canonicalization is performed.  <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/79f65ff2-4fa2-4808-b5cb-ad3aa6200260">WS_XML_CANONICALIZATION_PROPERTY</a> for details.</div>
+An "array" reference of optional properties controlling how canonicalization is performed.  <div class="alert"><b>Note</b>  See <a href="https://msdn.microsoft.com/en-us/library/Dd323523(v=VS.85).aspx">WS_XML_CANONICALIZATION_PROPERTY</a> for details.</div>
 <div> </div>
 
 
@@ -192,7 +192,7 @@ The input data was not in the expected format or did not have the expected value
 Calls to this function cannot be nested.  Consequently a call to <b>WsStartReaderCanonicalization</b> must be followed by a call to <a href="https://msdn.microsoft.com/5cacad47-8581-4713-96cb-3b3a863e6327">WsEndReaderCanonicalization</a> before the next <b>WsStartReaderCanonicalization</b> call can be made.
       
 
-If a <a href="https://msdn.microsoft.com/en-us/library/Dd323521(v=VS.85).aspx">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
+If a <a href="https://msdn.microsoft.com/230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4">WS_XML_CANONICALIZATION_ALGORITHM</a> is not specified <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
       
 
 The <b>WS_INCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> and 

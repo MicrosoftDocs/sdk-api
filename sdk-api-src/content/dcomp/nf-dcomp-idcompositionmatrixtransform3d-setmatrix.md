@@ -90,7 +90,7 @@ If any of the matrix elements were previously animated, this method removes the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437425(v=VS.85).aspx">IDCompositionMatrixTransform3D</a>
+<a href="https://msdn.microsoft.com/56C9A564-2504-4940-B850-D280C8E0CF82">IDCompositionMatrixTransform3D</a>
  
 
  

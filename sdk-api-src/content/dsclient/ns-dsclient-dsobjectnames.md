@@ -68,7 +68,7 @@ Contains the number of elements in the <b>aObjects</b> array.
 
 ### -field aObjects
 
-Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms676010(v=VS.85).aspx">DSBOJECT</a> structures. Each <b>DSBOJECT</b> structure represents a single directory object. The <b>cItems</b> member contains the number of elements in the array.
+Contains an array of <a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5-d409a4869c97">DSBOJECT</a> structures. Each <b>DSBOJECT</b> structure represents a single directory object. The <b>cItems</b> member contains the number of elements in the array.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ Contains an array of <a href="https://msdn.microsoft.com/en-us/library/ms676010(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676010(v=VS.85).aspx">DSBOJECT</a>
+<a href="https://msdn.microsoft.com/2f16a015-a777-4410-bed5-d409a4869c97">DSBOJECT</a>
 
 
 

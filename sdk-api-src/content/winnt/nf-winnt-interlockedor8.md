@@ -4,7 +4,7 @@ title: InterlockedOr8 function
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified char values.
 old-location: base\interlockedor8.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: fa5cfecf-dde7-4d54-8dfd-68387aa86083
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -81,7 +81,7 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="5f265240-7af8-44b7-b952-19f3a9c56186">_InterlockedOr8</a> compiler intrinsic directly.
+For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="https://msdn.microsoft.com/library/b11125ze(v=VS.85).aspx">_InterlockedOr8</a> compiler intrinsic directly.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -101,7 +101,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/c677e9fb-4188-466a-8283-9d65a50d150e">InterlockedOr</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683626(v=VS.85).aspx">InterlockedOr</a>
 
 
 

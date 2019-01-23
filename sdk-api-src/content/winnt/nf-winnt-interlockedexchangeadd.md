@@ -4,7 +4,7 @@ title: InterlockedExchangeAdd function
 author: windows-sdk-content
 description: Performs an atomic addition of two 32-bit values.
 old-location: base\interlockedexchangeadd.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: e48b67a0-133b-4e88-b451-432f26b4881a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -93,7 +93,7 @@ this function must be aligned on a 32-bit boundary; otherwise, this function wil
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="25809e1f-9c60-4492-9f7c-0fb59c8d13d2">_InterlockedExchangeAdd</a>
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/191ca0sk(v=VS.85).aspx">_InterlockedExchangeAdd</a>
 
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
@@ -114,11 +114,11 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/c0da780c-5fd0-4c88-a283-8d057db812ac">InterlockedCompareExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683560(v=VS.85).aspx">InterlockedCompareExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/22142195-b592-4a7b-9b23-e31984cc1d41">InterlockedExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683590(v=VS.85).aspx">InterlockedExchange</a>
 
 
 

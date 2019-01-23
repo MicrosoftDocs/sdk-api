@@ -4,7 +4,7 @@ title: RtlFirstEntrySList function
 author: windows-sdk-content
 description: Retrieves the first entry in a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlfirstentryslist.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 945d65a3-a2d2-4865-86ec-0ced0934dc1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

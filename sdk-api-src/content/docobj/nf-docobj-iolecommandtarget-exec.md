@@ -68,7 +68,7 @@ The command to be executed. This command must belong to the group specified with
 
 ### -param nCmdexecopt [in]
 
-Specifies how the object should execute the command. Possible values are taken from the <a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa344051(v=VS.85).aspx">OLECMDID_WINDOWSTATE_FLAG</a> enumerations.
+Specifies how the object should execute the command. Possible values are taken from the <a href="https://msdn.microsoft.com/6245725e-51d4-40e1-8cf1-a65657e790ef">OLECMDEXECOPT</a> and <a href="https://msdn.microsoft.com/31331c73-1f26-436d-8fa7-83f13ef51f0e">OLECMDID_WINDOWSTATE_FLAG</a> enumerations.
 
 
 ### -param pvaIn [in]

@@ -71,7 +71,7 @@ The LUN assigned by the target subsystem to the target device.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb870805(v=VS.85).aspx">ISCSI_TARGET_MAPPING</a>
+<a href="https://msdn.microsoft.com/bdc27e67-1d64-42cd-adfa-a792012b7142">ISCSI_TARGET_MAPPING</a>
  
 
  

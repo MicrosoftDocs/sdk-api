@@ -84,13 +84,9 @@ The <a href="https://msdn.microsoft.com/74c329cc-af54-4cf8-8cb6-eed9e96db4c5">DX
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CALLBACK DXVAHDSW_Plugin(UINT Size, void* pv)
+
+```cpp
+HRESULT CALLBACK DXVAHDSW_Plugin(UINT Size, void* pv)
 {
     if (Size < sizeof(DXVAHDSW_CALLBACKS))
     {
@@ -102,10 +98,8 @@ The <a href="https://msdn.microsoft.com/74c329cc-af54-4cf8-8cb6-eed9e96db4c5">DX
     // TODO: Fill in pCallbacks structure.
 
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

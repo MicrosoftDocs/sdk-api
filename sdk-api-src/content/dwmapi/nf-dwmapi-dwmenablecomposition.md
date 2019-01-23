@@ -86,13 +86,9 @@ Disabling DWM composition disables it for the entire desktop. DWM composition wi
 
 The following code example disables DWM composition.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ...
 HRESULT hr = S_OK;
 
@@ -102,10 +98,10 @@ if (SUCCEEDED(hr))
 {
    // ...
 }
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
+
+
 
 
 

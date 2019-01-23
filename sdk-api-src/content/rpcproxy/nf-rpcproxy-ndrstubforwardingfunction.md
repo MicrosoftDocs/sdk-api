@@ -119,13 +119,9 @@ For methods that are defined in a base interface, RPC needs to forward the code 
 
 For example: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Interface IFunctionSample: IUnknown
+
+```cpp
+Interface IFunctionSample: IUnknown
 
 {
 
@@ -140,10 +136,10 @@ Interface IOperation: IFunctionSample
 HRESULT Operation();
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 In this example, where <b>IFunctionSample</b> and <b>IOperation</b> are defined in different .idl files. <b>IFunctionSample</b> is the base interface and <b>IOperation</b> is the derived interface. <b>IOperation</b> can aggregate <b>IOperation</b> without implementing <b>IOperation::FunctionSample</b>. When the client calls <b>IOperation::FunctionSample</b>, in the server side, RPC forwards the call to <b>IFunctionSample:FunctionSample</b>.
 
 

@@ -4,7 +4,7 @@ title: IProviderQueryConstraintCollection::Reset
 author: windows-sdk-content
 description: Resets the current index to the start of the collection.
 old-location: ncd\iproviderqueryconstraintcollection_reset.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 56bd143b-b3eb-4273-854b-4d6876ad5e4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

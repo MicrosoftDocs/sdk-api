@@ -59,25 +59,25 @@ The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics
 ### -field aggregateSaStatistics
 
 
-<a href="https://msdn.microsoft.com/f0318061-40f9-4380-9681-34db70659c49">IPSEC_AGGREGATE_SA_STATISTICS0</a> structure containing IPsec aggregate SA statistics.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365913(v=VS.85).aspx">IPSEC_AGGREGATE_SA_STATISTICS0</a> structure containing IPsec aggregate SA statistics.
 
 
 ### -field espDropPacketStatistics
 
 
-<a href="https://msdn.microsoft.com/d31ac463-8265-40c6-bd68-9f3ade35eb34">IPSEC_ESP_DROP_PACKET_STATISTICS0</a> structure containing IPsec ESP drop packet statistics.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366300(v=VS.85).aspx">IPSEC_ESP_DROP_PACKET_STATISTICS0</a> structure containing IPsec ESP drop packet statistics.
 
 
 ### -field ahDropPacketStatistics
 
 
-<a href="https://msdn.microsoft.com/dca4d313-fb88-475f-adee-7c42abe550d5">IPSEC_AH_DROP_PACKET_STATISTICS0</a> structure containing IPsec AH drop packet statistics.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366188(v=VS.85).aspx">IPSEC_AH_DROP_PACKET_STATISTICS0</a> structure containing IPsec AH drop packet statistics.
 
 
 ### -field aggregateDropPacketStatistics
 
 
-<a href="https://msdn.microsoft.com/8ee7150e-ac6e-4f8e-99af-1b92b4e54615">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</a> structure containing IPsec aggregate drop packet statistics.
+<a href="https://msdn.microsoft.com/en-us/library/Ee707317(v=VS.85).aspx">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</a> structure containing IPsec aggregate drop packet statistics.
 
 
 ### -field inboundTrafficStatistics
@@ -97,19 +97,19 @@ The <b>IPSEC_STATISTICS1</b> structure is the  top-level of the IPsec statistics
 
 
 
-<a href="https://msdn.microsoft.com/8ee7150e-ac6e-4f8e-99af-1b92b4e54615">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee707317(v=VS.85).aspx">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0318061-40f9-4380-9681-34db70659c49">IPSEC_AGGREGATE_SA_STATISTICS0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365913(v=VS.85).aspx">IPSEC_AGGREGATE_SA_STATISTICS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/dca4d313-fb88-475f-adee-7c42abe550d5">IPSEC_AH_DROP_PACKET_STATISTICS0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366188(v=VS.85).aspx">IPSEC_AH_DROP_PACKET_STATISTICS0</a>
 
 
 
-<a href="https://msdn.microsoft.com/d31ac463-8265-40c6-bd68-9f3ade35eb34">IPSEC_ESP_DROP_PACKET_STATISTICS0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366300(v=VS.85).aspx">IPSEC_ESP_DROP_PACKET_STATISTICS0</a>
 
 
 

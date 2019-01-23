@@ -58,7 +58,7 @@ Contains the result from an <a href="https://msdn.microsoft.com/d34d68ff-c513-48
 
 ### -field rnRandomNumber
 
-An <a href="https://msdn.microsoft.com/d3a5be4b-39d1-43da-b87e-ab4dd7815262">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://msdn.microsoft.com/8959c7d1-9a78-497f-8841-d3e61e9db6a3">OPM_GET_INFO_PARAMETERS</a> or <a href="https://msdn.microsoft.com/20094e3d-3140-451a-a572-c268ad4c50c1">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
+An <a href="https://msdn.microsoft.com/d3a5be4b-39d1-43da-b87e-ab4dd7815262">OPM_RANDOM_NUMBER</a> structure. This structure contains the same 128-bit random number that the application sent to the driver in the <a href="https://msdn.microsoft.com/8959c7d1-9a78-497f-8841-d3e61e9db6a3">OPM_GET_INFO_PARAMETERS</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd388942(v=VS.85).aspx">OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure.
 
 
 ### -field ulStatusFlags

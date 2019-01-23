@@ -99,13 +99,9 @@ If both the
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrHashAlg = NULL;
+
+```cpp
+BSTR     bstrHashAlg = NULL;
 HRESULT  hr;
 
 // get the hash algorithm
@@ -129,10 +125,8 @@ else
     printf( "HashAlgorithm was set to %ws\n", bstrMyHashAlg );
 // free BSTR
 if ( NULL != bstrMyHashAlg )
-    SysFreeString( bstrMyHashAlg);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrMyHashAlg);
+```
 
 
 

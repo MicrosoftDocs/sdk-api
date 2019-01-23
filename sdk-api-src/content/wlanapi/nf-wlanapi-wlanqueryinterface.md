@@ -214,25 +214,21 @@ For another example using the <b>WlanQueryInterface</b> function, see the <a hre
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;windows.h&gt;
-#include &lt;wlanapi.h&gt;
-#include &lt;Windot11.h&gt;           // for DOT11_SSID struct
-#include &lt;objbase.h&gt;
-#include &lt;wtypes.h&gt;
+#include <windows.h>
+#include <wlanapi.h>
+#include <Windot11.h>           // for DOT11_SSID struct
+#include <objbase.h>
+#include <wtypes.h>
 
-//#include &lt;wchar.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+//#include <wchar.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with Wlanapi.lib and Ole32.lib
 #pragma comment(lib, "wlanapi.lib")
@@ -264,39 +260,39 @@ int wmain()
     DWORD connectInfoSize = sizeof(WLAN_CONNECTION_ATTRIBUTES);
     WLAN_OPCODE_VALUE_TYPE opCode = wlan_opcode_value_type_invalid;
 
-    dwResult = WlanOpenHandle(dwMaxClient, NULL, &amp;dwCurVersion, &amp;hClient);
+    dwResult = WlanOpenHandle(dwMaxClient, NULL, &dwCurVersion, &hClient);
     if (dwResult != ERROR_SUCCESS) {
         wprintf(L"WlanOpenHandle failed with error: %u\n", dwResult);
         return 1;
         // You can use FormatMessage here to find out why the function failed
     }
 
-    dwResult = WlanEnumInterfaces(hClient, NULL, &amp;pIfList);
+    dwResult = WlanEnumInterfaces(hClient, NULL, &pIfList);
     if (dwResult != ERROR_SUCCESS) {
         wprintf(L"WlanEnumInterfaces failed with error: %u\n", dwResult);
         return 1;
         // You can use FormatMessage here to find out why the function failed
     } else {
-        wprintf(L"Num Entries: %lu\n", pIfList-&gt;dwNumberOfItems);
-        wprintf(L"Current Index: %lu\n", pIfList-&gt;dwIndex);
-        for (i = 0; i &lt; (int) pIfList-&gt;dwNumberOfItems; i++) {
-            pIfInfo = (WLAN_INTERFACE_INFO *) &amp; pIfList-&gt;InterfaceInfo[i];
+        wprintf(L"Num Entries: %lu\n", pIfList->dwNumberOfItems);
+        wprintf(L"Current Index: %lu\n", pIfList->dwIndex);
+        for (i = 0; i < (int) pIfList->dwNumberOfItems; i++) {
+            pIfInfo = (WLAN_INTERFACE_INFO *) & pIfList->InterfaceInfo[i];
             wprintf(L"  Interface Index[%u]:\t %lu\n", i, i);
             iRet =
-                StringFromGUID2(pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp; GuidString,
+                StringFromGUID2(pIfInfo->InterfaceGuid, (LPOLESTR) & GuidString,
                                 sizeof (GuidString) / sizeof (*GuidString));
             // For c rather than C++ source code, the above line needs to be
-            // iRet = StringFromGUID2(&amp;pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 
+            // iRet = StringFromGUID2(&pIfInfo->InterfaceGuid, (LPOLESTR) &GuidString, 
             //     sizeof(GuidString)/sizeof(*GuidString)); 
             if (iRet == 0)
                 wprintf(L"StringFromGUID2 failed\n");
             else {
                 wprintf(L"  InterfaceGUID[%d]:\t %ws\n", i, GuidString);
             }
-            wprintf(L"  Interface Description[%d]: %ws", i, pIfInfo-&gt;strInterfaceDescription);
+            wprintf(L"  Interface Description[%d]: %ws", i, pIfInfo->strInterfaceDescription);
             wprintf(L"\n");
             wprintf(L"  Interface State[%d]:\t ", i);
-            switch (pIfInfo-&gt;isState) {
+            switch (pIfInfo->isState) {
             case wlan_interface_state_not_ready:
                 wprintf(L"Not ready\n");
                 break;
@@ -322,21 +318,21 @@ int wmain()
                 wprintf(L"In process of authenticating\n");
                 break;
             default:
-                wprintf(L"Unknown state %ld\n", pIfInfo-&gt;isState);
+                wprintf(L"Unknown state %ld\n", pIfInfo->isState);
                 break;
             }
             wprintf(L"\n");
 
             // If interface state is connected, call WlanQueryInterface
             // to get current connection attributes
-            if (pIfInfo-&gt;isState == wlan_interface_state_connected) {
+            if (pIfInfo->isState == wlan_interface_state_connected) {
                 dwResult = WlanQueryInterface(hClient,
-                                              &amp;pIfInfo-&gt;InterfaceGuid,
+                                              &pIfInfo->InterfaceGuid,
                                               wlan_intf_opcode_current_connection,
                                               NULL,
-                                              &amp;connectInfoSize,
-                                              (PVOID *) &amp;pConnectInfo, 
-                                              &amp;opCode);
+                                              &connectInfoSize,
+                                              (PVOID *) &pConnectInfo, 
+                                              &opCode);
 
                 if (dwResult != ERROR_SUCCESS) {
                     wprintf(L"WlanQueryInterface failed with error: %u\n", dwResult);
@@ -346,7 +342,7 @@ int wmain()
                     wprintf(L"  WLAN_CONNECTION_ATTRIBUTES for this interface\n");
 
                     wprintf(L"  Interface State:\t ");
-                    switch (pConnectInfo-&gt;isState) {
+                    switch (pConnectInfo->isState) {
                     case wlan_interface_state_not_ready:
                         wprintf(L"Not ready\n");
                         break;
@@ -373,12 +369,12 @@ int wmain()
                         wprintf(L"In process of authenticating\n");
                         break;
                     default:
-                        wprintf(L"Unknown state %ld\n", pIfInfo-&gt;isState);
+                        wprintf(L"Unknown state %ld\n", pIfInfo->isState);
                         break;
                     }
 
                     wprintf(L"  Connection Mode:\t ");
-                    switch (pConnectInfo-&gt;wlanConnectionMode) {
+                    switch (pConnectInfo->wlanConnectionMode) {
                     case wlan_connection_mode_profile:
                         wprintf(L"A profile is used to make the connection\n");
                         break;
@@ -400,29 +396,29 @@ int wmain()
                         break;
                     default:
                         wprintf(L"Unknown connection mode %ld\n",
-                                pConnectInfo-&gt;wlanConnectionMode);
+                                pConnectInfo->wlanConnectionMode);
                         break;
                     }
 
-                    wprintf(L"  Profile name used:\t %ws\n", pConnectInfo-&gt;strProfileName);
+                    wprintf(L"  Profile name used:\t %ws\n", pConnectInfo->strProfileName);
 
                     wprintf(L"  Association Attributes for this connection\n");
                     wprintf(L"    SSID:\t\t ");
-                    if (pConnectInfo-&gt;wlanAssociationAttributes.dot11Ssid.uSSIDLength == 0)
+                    if (pConnectInfo->wlanAssociationAttributes.dot11Ssid.uSSIDLength == 0)
                         wprintf(L"\n");
                     else {
                         for (k = 0;
-                             k &lt; pConnectInfo-&gt;wlanAssociationAttributes.dot11Ssid.uSSIDLength;
+                             k < pConnectInfo->wlanAssociationAttributes.dot11Ssid.uSSIDLength;
                              k++) {
                             wprintf(L"%c",
-                                    (int) pConnectInfo-&gt;wlanAssociationAttributes.dot11Ssid.
+                                    (int) pConnectInfo->wlanAssociationAttributes.dot11Ssid.
                                     ucSSID[k]);
                         }
                         wprintf(L"\n");
                     }
 
                     wprintf(L"    BSS Network type:\t ");
-                    switch (pConnectInfo-&gt;wlanAssociationAttributes.dot11BssType) {
+                    switch (pConnectInfo->wlanAssociationAttributes.dot11BssType) {
                     case dot11_BSS_type_infrastructure:
                         wprintf(L"Infrastructure\n");
                         break;
@@ -431,23 +427,23 @@ int wmain()
                         break;
                     default:
                         wprintf(L"Other = %lu\n",
-                                pConnectInfo-&gt;wlanAssociationAttributes.dot11BssType);
+                                pConnectInfo->wlanAssociationAttributes.dot11BssType);
                         break;
                     }
 
                     wprintf(L"    MAC address:\t ");
-                    for (k = 0; k &lt; sizeof (pConnectInfo-&gt;wlanAssociationAttributes.dot11Bssid);
+                    for (k = 0; k < sizeof (pConnectInfo->wlanAssociationAttributes.dot11Bssid);
                          k++) {
                         if (k == 5)
                             wprintf(L"%.2X\n",
-                                    pConnectInfo-&gt;wlanAssociationAttributes.dot11Bssid[k]);
+                                    pConnectInfo->wlanAssociationAttributes.dot11Bssid[k]);
                         else
                             wprintf(L"%.2X-",
-                                    pConnectInfo-&gt;wlanAssociationAttributes.dot11Bssid[k]);
+                                    pConnectInfo->wlanAssociationAttributes.dot11Bssid[k]);
                     }
 
                     wprintf(L"    PHY network type:\t ");
-                    switch (pConnectInfo-&gt;wlanAssociationAttributes.dot11PhyType) {
+                    switch (pConnectInfo->wlanAssociationAttributes.dot11PhyType) {
                     case dot11_phy_type_fhss:
                         wprintf(L"Frequency-hopping spread-spectrum (FHSS)\n");
                         break;
@@ -471,39 +467,39 @@ int wmain()
                         break;
                     default:
                         wprintf(L"Unknown = %lu\n",
-                                pConnectInfo-&gt;wlanAssociationAttributes.dot11PhyType);
+                                pConnectInfo->wlanAssociationAttributes.dot11PhyType);
                         break;
                     }
 
                     wprintf(L"    PHY index:\t\t %u\n",
-                            pConnectInfo-&gt;wlanAssociationAttributes.uDot11PhyIndex);
+                            pConnectInfo->wlanAssociationAttributes.uDot11PhyIndex);
 
                     wprintf(L"    Signal Quality:\t %d\n",
-                            pConnectInfo-&gt;wlanAssociationAttributes.wlanSignalQuality);
+                            pConnectInfo->wlanAssociationAttributes.wlanSignalQuality);
 
                     wprintf(L"    Receiving Rate:\t %ld\n",
-                            pConnectInfo-&gt;wlanAssociationAttributes.ulRxRate);
+                            pConnectInfo->wlanAssociationAttributes.ulRxRate);
 
                     wprintf(L"    Transmission Rate:\t %ld\n",
-                            pConnectInfo-&gt;wlanAssociationAttributes.ulTxRate);
+                            pConnectInfo->wlanAssociationAttributes.ulTxRate);
                     wprintf(L"\n");
                     
                     wprintf(L"  Security Attributes for this connection\n");
 
                     wprintf(L"    Security enabled:\t ");
-                    if (pConnectInfo-&gt;wlanSecurityAttributes.bSecurityEnabled == 0)
+                    if (pConnectInfo->wlanSecurityAttributes.bSecurityEnabled == 0)
                         wprintf(L"No\n");
                     else
                         wprintf(L"Yes\n");
 
                     wprintf(L"    802.1X enabled:\t ");
-                    if (pConnectInfo-&gt;wlanSecurityAttributes.bOneXEnabled == 0)
+                    if (pConnectInfo->wlanSecurityAttributes.bOneXEnabled == 0)
                         wprintf(L"No\n");
                     else
                         wprintf(L"Yes\n");
 
                     wprintf(L"    Authentication Algorithm: ");
-                    switch (pConnectInfo-&gt;wlanSecurityAttributes.dot11AuthAlgorithm) {
+                    switch (pConnectInfo->wlanSecurityAttributes.dot11AuthAlgorithm) {
                     case DOT11_AUTH_ALGO_80211_OPEN:
                         wprintf(L"802.11 Open\n");
                         break;
@@ -526,12 +522,12 @@ int wmain()
                         wprintf(L"RSNA with PSK\n");
                         break;
                     default:
-                        wprintf(L"Other (%lu)\n", pConnectInfo-&gt;wlanSecurityAttributes.dot11AuthAlgorithm);
+                        wprintf(L"Other (%lu)\n", pConnectInfo->wlanSecurityAttributes.dot11AuthAlgorithm);
                         break;
                     }
                         
                     wprintf(L"    Cipher Algorithm:\t ");
-                    switch (pConnectInfo-&gt;wlanSecurityAttributes.dot11CipherAlgorithm) {
+                    switch (pConnectInfo->wlanSecurityAttributes.dot11CipherAlgorithm) {
                     case DOT11_CIPHER_ALGO_NONE:
                         wprintf(L"None\n");
                         break;
@@ -551,7 +547,7 @@ int wmain()
                         wprintf(L"WEP\n");
                         break;
                     default:
-                        wprintf(L"Other (0x%x)\n", pConnectInfo-&gt;wlanSecurityAttributes.dot11CipherAlgorithm);
+                        wprintf(L"Other (0x%x)\n", pConnectInfo->wlanSecurityAttributes.dot11CipherAlgorithm);
                         break;
                     }
                     wprintf(L"\n");
@@ -572,10 +568,10 @@ int wmain()
 
     return dwRetVal;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

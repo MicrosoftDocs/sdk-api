@@ -91,15 +91,15 @@ The DirectComposition composition engine operates on the entire desktop all at o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280379(v=VS.85).aspx">IDCompositionDeviceDebug::DisableDebugCounters</a>
+<a href="https://msdn.microsoft.com/7B1E35D4-8CB3-4AAC-91D9-E1191A6DC169">IDCompositionDeviceDebug::DisableDebugCounters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280429(v=VS.85).aspx">IDCompositionVisualDebug</a>
+<a href="https://msdn.microsoft.com/0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4">IDCompositionVisualDebug</a>
  
 
  

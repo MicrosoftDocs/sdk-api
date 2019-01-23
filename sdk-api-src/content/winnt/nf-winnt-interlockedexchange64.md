@@ -4,7 +4,7 @@ title: InterlockedExchange64 function
 author: windows-sdk-content
 description: Sets a 64-bit variable to the specified value as an atomic operation.
 old-location: base\interlockedexchange64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 80d34f5d-3491-4653-959b-6b9efebf764b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -52,7 +52,7 @@ Sets a 64-bit variable to the specified value as an atomic operation.
 
 To operate on a 16-bit variable, use the <a href="https://msdn.microsoft.com/06756ec6-9c1c-4aac-99de-c45186c89af1">InterlockedExchange16</a> function.
 
-To operate on a 32-bit variable, use the <a href="https://msdn.microsoft.com/22142195-b592-4a7b-9b23-e31984cc1d41">InterlockedExchange</a> function.
+To operate on a 32-bit variable, use the <a href="https://msdn.microsoft.com/en-us/library/ms683590(v=VS.85).aspx">InterlockedExchange</a> function.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ The function returns the initial value of the <i>Target</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="be2f232a-6301-462a-a92b-fcdeb8b0f209">_InterlockedExchange64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/1s26w950(v=VS.85).aspx">_InterlockedExchange64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -105,11 +105,11 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/c0da780c-5fd0-4c88-a283-8d057db812ac">InterlockedCompareExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683560(v=VS.85).aspx">InterlockedCompareExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/22142195-b592-4a7b-9b23-e31984cc1d41">InterlockedExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683590(v=VS.85).aspx">InterlockedExchange</a>
 
 
 
@@ -137,7 +137,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/e48b67a0-133b-4e88-b451-432f26b4881a">InterlockedExchangeAdd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a>
 
 
 

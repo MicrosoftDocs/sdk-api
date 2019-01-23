@@ -62,7 +62,7 @@ Dimensions of the page.
 
 Size is described in XPS units. There are 96 XPS units per inch.  For example, the dimensions of an 8.5" by 11.0" page are 816 by 1,056 XPS units.
 
-The  <a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a> structure has the following properties:
+The  <a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> structure has the following properties:
 
 
 
@@ -140,7 +140,7 @@ The page size specified in <i>pageDimensions</i> contains one or more  values th
 
 
 
-<a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a>
  
 
  

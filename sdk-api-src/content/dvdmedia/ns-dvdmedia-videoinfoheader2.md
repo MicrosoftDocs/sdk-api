@@ -83,7 +83,7 @@ The data error rate of the video stream, in bits per second.
 
 ### -field AvgTimePerFrame
 
-The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a> structure.
+The video frame's average display time, in 100-nanosecond units. For more information, see the Remarks section for the <a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a> structure.
           
 
 
@@ -288,7 +288,7 @@ Additional color information is contained in the upper 24 bits of the <b>dwContr
 
 The AMCONTROL_USED flag provides backward compatibility with older filters. If the AMCONTROL_USED flag is not set, the remaining bits in this field should be ignored. If a filter uses any of the other flags, it should set the AMCONTROL_USED flag.
 
-The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle. The source filter sets the AMCONTROL_USED flag and one of the padding flags and calls <a href="https://msdn.microsoft.com/ed11eeef-464b-4a75-958b-2bc6dbc7af04">QueryAccept</a> on the downstream pin. If the decoder rejects the type, the source filter should set the dwControlFlags field to zero. For more information on the use of these flags, see MPEG Decoder Preprocessing Transformations.
+The two AMCONTROL_PAD_xxx flags are used by decoders to determine the aspect ratio of the output rectangle. The source filter sets the AMCONTROL_USED flag and one of the padding flags and calls <a href="https://msdn.microsoft.com/en-us/library/Dd390428(v=VS.85).aspx">QueryAccept</a> on the downstream pin. If the decoder rejects the type, the source filter should set the dwControlFlags field to zero. For more information on the use of these flags, see MPEG Decoder Preprocessing Transformations.
 
 If the AMCONTROL_COLORINFO_PRESENT flag is set, it means the upper 24 bits of the dwControlFlags field are treated as a <b>DXVA_ExtendedFormat</b> structure. See Remarks for more information.
 
@@ -370,7 +370,7 @@ AMINTERLACE_DisplayModeWeaveOnly
 </table>
  
 
-If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="https://msdn.microsoft.com/4fda7f64-130c-42c8-a671-2e24bdd0b09b">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="https://msdn.microsoft.com/f024fe3a-802d-4dc1-9f4d-ebeeed0b067a">IMediaSample2::SetProperties</a> on the media sample.
+If the video is interlaced, the media samples may carry flags that describe the contents of the sample (such as field 1 or field 2), along with the rendering requirements. These are specified by setting the <b>dwTypeSpecificFlags</b> member of each media sample's <a href="https://msdn.microsoft.com/en-us/library/Dd373499(v=VS.85).aspx">AM_SAMPLE2_PROPERTIES</a> structure. The following table shows the valid media sample flags for each of the display modes listed in the previous table. To set these flags, call <a href="https://msdn.microsoft.com/en-us/library/Dd407006(v=VS.85).aspx">IMediaSample2::SetProperties</a> on the media sample.
 
 <table>
 <tr>
@@ -416,14 +416,10 @@ If the video is interlaced, the media samples may carry flags that describe the 
 
 Use the bit mask AMINTERLACE_FieldPatternMask to check the field pattern flags in <b>dwInterlaceFlags</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-switch (dwInterlaceFlags &amp; AMINTERLACE_FieldPatternMask)
+
+```cpp
+
+switch (dwInterlaceFlags & AMINTERLACE_FieldPatternMask)
 {
 case AMINTERLACE_FieldPatField1Only:
     // Stream never contains a Field 2.
@@ -437,20 +433,16 @@ case AMINTERLACE_FieldPatBothRegular:
 case AMINTERLACE_FieldPatBothIrregular:
     // Random pattern of Field 1 and Field 2.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Use the bit mask AMINTERLACE_DisplayModeMask to check the display mode flags in <b>dwInterlaceFlags</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-switch (dwInterlaceFlags &amp; AMINTERLACE_DisplayModeMask)
+
+```cpp
+
+switch (dwInterlaceFlags & AMINTERLACE_DisplayModeMask)
 {
 case AMINTERLACE_DisplayModeBobOnly:
     // Bob display mode only.
@@ -461,54 +453,46 @@ case AMINTERLACE_DisplayModeWeaveOnly:
 case AMINTERLACE_DisplayModeBobOrWeave:
     // Either bob or weave mode.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Interlaced video samples must have valid time stamps. Otherwise, it is not guaranteed that the display driver can deinterlace the video. If you need to display an interlaced video frame with no time stamp, set the AM_VIDEO_FLAG_WEAVE flag on the sample as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IMediaSample2* pSample2 = NULL;
-hr = pSample-&gt;QueryInterface(IID_IMediaSample2, (void**)&amp;pSample2);
+hr = pSample->QueryInterface(IID_IMediaSample2, (void**)&pSample2);
 if (SUCCEEDED(hr))
 {
     AM_SAMPLE2_PROPERTIES Prop;
-    hr = pSample2-&gt;GetProperties(sizeof(Prop), (BYTE*)&amp;Prop);
+    hr = pSample2->GetProperties(sizeof(Prop), (BYTE*)&Prop);
     if (SUCCEEDED(hr))
     {
         Prop.dwTypeSpecificFlags = AM_VIDEO_FLAG_WEAVE;
-        hr = pSample2-&gt;SetProperties(sizeof(Prop), (BYTE*)&amp;Prop);
+        hr = pSample2->SetProperties(sizeof(Prop), (BYTE*)&Prop);
     }
-    pSample2-&gt;Release();
+    pSample2->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This causes the driver to display the two fields as one frame, using weave mode, without deinterlacing.
 
 <h3><a id="Extended_Color_Information"></a><a id="extended_color_information"></a><a id="EXTENDED_COLOR_INFORMATION"></a>Extended Color Information</h3>
 If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> member, you can cast the <b>dwControlFlags</b> value to a <b>DXVA_ExtendedFormat</b> structure to access the extended color information, as shown in the following code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VIDEOINFOHEADER2 *pVIH2;
-DXVA_ExtendedFormat&amp; flags = (DXVA_ExtendedFormat&amp;)pVIH2-&gt;dwControlFlags;
-</pre>
-</td>
-</tr>
-</table></span></div>
+DXVA_ExtendedFormat& flags = (DXVA_ExtendedFormat&)pVIH2->dwControlFlags;
+
+```
+
+
 Ignore the <b>SampleFormat</b> member of the <b>DXVA_ExtendedFormat</b> structure, because it corresponds to the lower 8 bits of <b>dwControlFlags</b>, which are reserved for the AMCONTROL_xxx flags. The <b>DXVA_ExtendedFormat</b> structure is documented in the Windows DDK documentation.
 
 

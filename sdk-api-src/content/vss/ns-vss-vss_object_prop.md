@@ -66,7 +66,7 @@ Object type. Refer to <a href="https://msdn.microsoft.com/b7c91003-0ce7-463e-a81
 
 Object properties: a union of <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415f203cb2">VSS_SNAPSHOT_PROP</a> 
       and <a href="https://msdn.microsoft.com/000da95d-a3f5-447e-a96d-c8fb34e9d0d3">VSS_PROVIDER_PROP</a> structures. (See 
-      <a href="https://msdn.microsoft.com/e8d70f20-00a9-4cae-a92c-e3f3673a8db3">VSS_OBJECT_UNION</a>.) 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa384960(v=VS.85).aspx">VSS_OBJECT_UNION</a>.) 
      
 
 It contains information for an object of the type specified by the <b>Type</b> member of 
@@ -105,7 +105,7 @@ In the case of <a href="https://msdn.microsoft.com/070ec204-e751-4ebf-8f99-3c415
 
 
 
-<a href="https://msdn.microsoft.com/e8d70f20-00a9-4cae-a92c-e3f3673a8db3">VSS_OBJECT_UNION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384960(v=VS.85).aspx">VSS_OBJECT_UNION</a>
 
 
 

@@ -81,28 +81,24 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
   XMVECTOR N;
   static const XMVECTOR  Max = {15.f, 15.f, 15.f, 15.f };
 
   N = XMVectorClamp(V, XMVectorZero, Max);
   N = XMVectorRound(N);
 
-  pDestination-&gt;x = (int8_t)N.v[0];
-  pDestination-&gt;y = (int8_t)N.v[1];
-  pDestination-&gt;z = (int8_t)N.v[2];
-  pDestination-&gt;w = (int8_t)N.v[3];
+  pDestination->x = (int8_t)N.v[0];
+  pDestination->y = (int8_t)N.v[1];
+  pDestination->z = (int8_t)N.v[2];
+  pDestination->w = (int8_t)N.v[3];
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Note these are not normalized values. To convert to the RGBA 4/4/4/4 format, 
     you must scale the input vector by <code>(15.f, 15.f, 15.f, 15.f)</code>. 
     Also, you will probably need to swizzle 

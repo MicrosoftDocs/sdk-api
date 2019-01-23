@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves  a <a href="https://msdn.microsoft.com/e15e67c3-ad39-4504-bd38-1b291082d196">WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE</a> value that indicates the method used by the server to handle clients that are slowing down a multicast transmission.
+Sets or retrieves  a <a href="https://msdn.microsoft.com/en-us/library/Dd891083(v=VS.85).aspx">WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE</a> value that indicates the method used by the server to handle clients that are slowing down a multicast transmission.
 
 This property is read/write.
 

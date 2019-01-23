@@ -135,19 +135,15 @@ This function is fully supported only for images with color maps; that is, image
 
 The following example code creates a bitmap from a resource and makes the color black appear transparent by mapping it to the system color for a button face.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD backgroundColor = GetSysColor(COLOR_BTNFACE);
+
+```cpp
+DWORD backgroundColor = GetSysColor(COLOR_BTNFACE);
 COLORMAP colorMap;
 colorMap.from = RGB(0, 0, 0);
 colorMap.to = backgroundColor;
-HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &amp;colorMap, 1);</pre>
-</td>
-</tr>
-</table></span></div>
+HBITMAP hbm = CreateMappedBitmap(g_hInst, IDB_BITMAP1, 0, &colorMap, 1);
+```
+
+
 
 

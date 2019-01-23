@@ -81,33 +81,29 @@ If the current clipping mode is <b>sslClipByClipRect</b>, the VMR clips the vide
 
 The following example clips the video image to the upper left corner of the source rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-CComPtr&lt;IMSVidVideoRenderer&gt; pVideo;
-HRESULT hr = pVideoControl-&gt;get_VideoRendererActive(&amp;pVideo);
+
+```cpp
+
+CComPtr<IMSVidVideoRenderer> pVideo;
+HRESULT hr = pVideoControl->get_VideoRendererActive(&pVideo);
 if (SUCCEEDED(hr))
 {
     long lWidth, lHeight;
-    CComPtr&lt;IMSVidRect&gt; pRect;
+    CComPtr<IMSVidRect> pRect;
     
-    hr = pVideo-&gt;get_AvailableSourceRect(&amp;pRect);
-    pRect-&gt;get_Height(&amp;lHeight);
-    pRect-&gt;get_Width(&amp;lWidth);
-    pRect-&gt;put_Height(lHeight / 2);
-    pRect-&gt;put_Width(lWidth / 2);
-    pVideo-&gt;put_SourceSize(sslClipByClipRect);
-    hr = pVideo-&gt;put_ClippedSourceRect(pRect);
+    hr = pVideo->get_AvailableSourceRect(&pRect);
+    pRect->get_Height(&lHeight);
+    pRect->get_Width(&lWidth);
+    pRect->put_Height(lHeight / 2);
+    pRect->put_Width(lWidth / 2);
+    pVideo->put_SourceSize(sslClipByClipRect);
+    hr = pVideo->put_ClippedSourceRect(pRect);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

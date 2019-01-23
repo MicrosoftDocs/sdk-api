@@ -100,7 +100,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/285a56fc-9c25-4c5a-ae6a-146c17b00e84">DVINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd388639(v=VS.85).aspx">DVINFO</a>
 
 
 </td>
@@ -112,7 +112,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1a6ab686-99a1-40c2-addf-7fa215e2311a">MPEG2VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390707(v=VS.85).aspx">MPEG2VIDEOINFO</a>
 
 
 </td>
@@ -124,7 +124,7 @@ GUID specifying the format type. The <b>pbFormat</b> member points to the corres
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/ae5b8825-7c1c-4a44-b665-098732e6c3bc">MPEG1VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390700(v=VS.85).aspx">MPEG1VIDEOINFO</a>
 
 
 </td>
@@ -146,7 +146,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/a175592b-0dc1-4001-b52f-785407965932">VIDEOINFOHEADER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407325(v=VS.85).aspx">VIDEOINFOHEADER</a>
 
 
 </td>
@@ -158,7 +158,7 @@ None.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/5e3d5bf0-435f-45da-8409-a1463b56a7ae">VIDEOINFOHEADER2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407326(v=VS.85).aspx">VIDEOINFOHEADER2</a>
 
 
 </td>
@@ -198,7 +198,7 @@ Pointer to the format structure. The structure type is specified by the <b>forma
 
 
 
-This structure is identical to the DirectShow <a href="https://msdn.microsoft.com/973697d0-2897-48b5-88ca-a88a9650eb02">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
+This structure is identical to the DirectShow <a href="https://msdn.microsoft.com/en-us/library/Dd373477(v=VS.85).aspx">AM_MEDIA_TYPE</a> structure. The <b>bFixedSizeSamples</b>, <b>bTemporalCompression</b>, and <b>lSampleSize</b> members are for compatibility with DirectShow. Other DMO clients are not required to use them.
 
 
 

@@ -91,7 +91,7 @@ If the value of the <b>ToNode</b> field is KSFILTER_NODE, this field specifies t
 
 
 
-<a href="https://msdn.microsoft.com/ef062e0f-0866-48ca-bd27-26000cd4983a">IKsTopologyInfo::get_ConnectionInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390151(v=VS.85).aspx">IKsTopologyInfo::get_ConnectionInfo</a>
  
 
  

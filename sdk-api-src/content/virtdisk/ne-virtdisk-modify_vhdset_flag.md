@@ -51,7 +51,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1">ModifyVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Mt414216(v=VS.85).aspx">ModifyVhdSet</a> function.
 
 
 ## -enum-fields

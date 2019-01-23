@@ -107,7 +107,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 
 
 
-You can use composition swap chains with either <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a>’s <a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a> interface or XAML’s <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">SwapChainBackgroundPanel</a> class. For DirectComposition, you can call the <a href="https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx">IDCompositionVisual::SetContent</a> method to set the swap chain as the content of a <a href="https://msdn.microsoft.com/F442BDCA-C913-4438-BFFA-D3F28B68EE85">visual object</a>, which then allows you to bind the swap chain to the visual tree. For XAML, the <b>SwapChainBackgroundPanel</b> class exposes a classic COM interface <b>ISwapChainBackgroundPanelNative</b>. You can use the <a href="https://msdn.microsoft.com/EDAEA67F-78CD-49F8-84FC-A7037629239A">ISwapChainBackgroundPanelNative::SetSwapChain</a> method to bind to the XAML UI graph. For info about how to use composition swap chains with XAML’s <b>SwapChainBackgroundPanel</b> class, see <a href="https://msdn.microsoft.com/17987EEA-6771-423C-9B68-6B9AEADC7B7F">DirectX and XAML interop</a>.
+You can use composition swap chains with either <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a>’s <a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a> interface or XAML’s <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">SwapChainBackgroundPanel</a> class. For DirectComposition, you can call the <a href="https://msdn.microsoft.com/894E6E30-6C28-476D-9AE5-D0664A69E03C">IDCompositionVisual::SetContent</a> method to set the swap chain as the content of a <a href="https://msdn.microsoft.com/F442BDCA-C913-4438-BFFA-D3F28B68EE85">visual object</a>, which then allows you to bind the swap chain to the visual tree. For XAML, the <b>SwapChainBackgroundPanel</b> class exposes a classic COM interface <b>ISwapChainBackgroundPanelNative</b>. You can use the <a href="https://msdn.microsoft.com/EDAEA67F-78CD-49F8-84FC-A7037629239A">ISwapChainBackgroundPanelNative::SetSwapChain</a> method to bind to the XAML UI graph. For info about how to use composition swap chains with XAML’s <b>SwapChainBackgroundPanel</b> class, see <a href="https://msdn.microsoft.com/17987EEA-6771-423C-9B68-6B9AEADC7B7F">DirectX and XAML interop</a>.
 
 The <a href="https://msdn.microsoft.com/en-us/library/Bb174579(v=VS.85).aspx">IDXGISwapChain::SetFullscreenState</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb174578(v=VS.85).aspx">IDXGISwapChain::ResizeTarget</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb174571(v=VS.85).aspx">IDXGISwapChain::GetContainingOutput</a>, <a href="https://msdn.microsoft.com/C1690710-FA63-4841-B3E2-68200E0B7B23">IDXGISwapChain1::GetHwnd</a>, and <a href="https://msdn.microsoft.com/ABD529CF-41D8-4F21-8F47-D0D053AF2322">IDXGISwapChain::GetCoreWindow</a> methods aren't valid on this type of swap chain. If you call any of these methods on this type of swap chain, they fail.
 
@@ -118,44 +118,40 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 The following code example shows how to use <b>CreateSwapChainForComposition</b> in the <a href="https://msdn.microsoft.com/40e2d02b-77e8-425f-ac5e-3dcddef08173">DirectComposition</a> API or the <a href="https://msdn.microsoft.com/e41c3007-8e8d-4c37-b098-dc5bcca39302">Windows.UI.Xaml</a> framework:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IDXGISwapChain1 *pSwapChain = NULL;
-pDXGIFactory-&gt;CreateSwapChainForComposition( pD3DDevice, 
-    SwapChainDescription, NULL, &amp;pSwapChain);
+
+```
+IDXGISwapChain1 *pSwapChain = NULL;
+pDXGIFactory->CreateSwapChainForComposition( pD3DDevice, 
+    SwapChainDescription, NULL, &pSwapChain);
 
 // DComp
 IDCompositionVisual *pDCompVisual = NULL;
-pDCompDevice-&gt;CreateVisual( &amp;pDCompVisual );
-pDCompVisual-&gt;SetContent( pSwapChain );
+pDCompDevice->CreateVisual( &pDCompVisual );
+pDCompVisual->SetContent( pSwapChain );
 
 // XAML
 virtual HRESULT STDMETHODCALLTYPE OnLaunched( __RPC__in_opt ILaunchActivatedEventArgs *args)
 {
     const wchar_t *pXaml =
-    L"&lt;SwapChainBackgroundPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' x:Name='root' "
-    L" xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'&gt; "
-    L"&lt;/SwapChainBackgroundPanel&gt;";
+    L"<SwapChainBackgroundPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' x:Name='root' "
+    L" xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'> "
+    L"</SwapChainBackgroundPanel>";
     LoadXaml( pXaml );
 
-    ComPtr&lt;ISwapChainBackgroundPanel&gt; spSwapChainBackgroundPanel;
-    FindName&lt;Windows::UI::Xaml::Controls::ISwapChainBackgroundPanel&gt;(
+    ComPtr<ISwapChainBackgroundPanel> spSwapChainBackgroundPanel;
+    FindName<Windows::UI::Xaml::Controls::ISwapChainBackgroundPanel>(
             L"root",
-            &amp;spSwapChainBackgroundPanel
+            &spSwapChainBackgroundPanel
             );
 
-    ComPtr&lt;ISwapChainBackgroundPanelNative&gt; spSwapChainBackgroundPanelNative;
-    spSwapChainBackgroundPanel.As&lt;ISwapChainBackgroundPanelNative&gt;(&amp;spSwapChainBackgroundPanelNative);
-    spSwapChainBackgroundPanelNative-&gt;SetSwapChain( pSwapChain );
+    ComPtr<ISwapChainBackgroundPanelNative> spSwapChainBackgroundPanelNative;
+    spSwapChainBackgroundPanel.As<ISwapChainBackgroundPanelNative>(&spSwapChainBackgroundPanelNative);
+    spSwapChainBackgroundPanelNative->SetSwapChain( pSwapChain );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The <a href="https://msdn.microsoft.com/77F5EB53-0DF9-4BA7-810C-9B7B073E76A7">ISwapChainBackgroundPanelNative</a> interface is declared in the windows.ui.xaml.media.dxinterop.h header.
 
 

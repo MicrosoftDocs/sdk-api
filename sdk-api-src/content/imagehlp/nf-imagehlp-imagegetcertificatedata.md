@@ -94,21 +94,17 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 
 The    <b>WIN_CERTIFICATE</b> structure is defined as follows: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _WIN_CERTIFICATE {
+
+```cpp
+typedef struct _WIN_CERTIFICATE {
     DWORD       dwLength;
     WORD        wRevision;
     WORD        wCertificateType;   // WIN_CERT_TYPE_xxx
     BYTE        bCertificate[ANYSIZE_ARRAY];
-} WIN_CERTIFICATE, *LPWIN_CERTIFICATE;</pre>
-</td>
-</tr>
-</table></span></div>
+} WIN_CERTIFICATE, *LPWIN_CERTIFICATE;
+```
+
+
 All ImageHlp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 

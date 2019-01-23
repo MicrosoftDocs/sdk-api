@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets an array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
+Gets an array of <a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
 
 
 ## -parameters
@@ -58,12 +58,12 @@ Gets an array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27c
 
 ### -param indexCount [in, out]
 
-The number of elements that will fit in the array referenced by the <i>glyphIndices</i> parameter. When the method returns, <i>indexCount</i> will contain the number of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures that are returned in the array referenced by <i>glyphIndices</i>.
+The number of elements that will fit in the array referenced by the <i>glyphIndices</i> parameter. When the method returns, <i>indexCount</i> will contain the number of <a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a> structures that are returned in the array referenced by <i>glyphIndices</i>.
 
 
 ### -param glyphIndices [out]
 
-The <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structure array that receives the glyph indices.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a> structure array that receives the glyph indices.
 
 
 ## -returns
@@ -120,7 +120,7 @@ The method succeeded.
 
 
 
- The glyph indices that are returned in <i>glyphIndices</i> override the default cmap mapping from the <b>UnicodeString</b> property to the glyph index. Each <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structure also contains advance width and vertical and horizontal offset information.
+ The glyph indices that are returned in <i>glyphIndices</i> override the default cmap mapping from the <b>UnicodeString</b> property to the glyph index. Each <a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a> structure also contains advance width and vertical and horizontal offset information.
 
 
 <a href="https://msdn.microsoft.com/e7b83f08-e87f-4921-8dbb-f33453c63732">GetGlyphIndexCount</a> gets the number of elements in the glyph index array.
@@ -145,7 +145,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a>
  
 
  

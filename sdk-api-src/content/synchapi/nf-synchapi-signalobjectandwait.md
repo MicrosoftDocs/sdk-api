@@ -4,7 +4,7 @@ title: SignalObjectAndWait function
 author: windows-sdk-content
 description: Signals one object and waits on another object as a single operation.
 old-location: base\signalobjectandwait.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

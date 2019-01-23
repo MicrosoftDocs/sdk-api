@@ -70,7 +70,7 @@ Password hash.
 
 
 
-The <a href="https://msdn.microsoft.com/3a6d4c2d-0d90-48bf-9dfa-2ba587538350">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> and <a href="https://msdn.microsoft.com/09404998-81c5-400c-9d99-a0a4bb4095bf">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structures contain a <b>NET_VALIDATE_PASSWORD_HASH</b> structure. The <a href="https://msdn.microsoft.com/1e6ea28a-a007-4cd1-b5d6-686bcf019fa1">NET_VALIDATE_PERSISTED_FIELDS</a> structure contains a pointer to this structure. 
+The <a href="https://msdn.microsoft.com/en-us/library/Aa370689(v=VS.85).aspx">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa370687(v=VS.85).aspx">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structures contain a <b>NET_VALIDATE_PASSWORD_HASH</b> structure. The <a href="https://msdn.microsoft.com/1e6ea28a-a007-4cd1-b5d6-686bcf019fa1">NET_VALIDATE_PERSISTED_FIELDS</a> structure contains a pointer to this structure. 
 
 
 

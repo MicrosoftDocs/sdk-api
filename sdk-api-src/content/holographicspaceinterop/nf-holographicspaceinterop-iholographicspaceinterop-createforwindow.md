@@ -62,10 +62,14 @@ Instantiates a <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holo
 
 ### -param window [in]
 
+Type: <b>HWN</b>
+
 Handle to the windows of the active application.
 
 
 ### -param riid [in]
+
+Type: <b>REFIID</b>
 
 The RUID for the resource interface.
 
@@ -74,12 +78,16 @@ The REFIID, or GUID, of the interface to the resource can be obtained by using t
 
 ### -param holographicSpace [out]
 
+Type: <b>void</b>
+
 Address of a pointer to a <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">HolographicSpace</a> object.
 
 
 ## -returns
 
 
+
+Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

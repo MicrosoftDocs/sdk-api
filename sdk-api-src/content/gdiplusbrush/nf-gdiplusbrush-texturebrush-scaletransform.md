@@ -109,25 +109,21 @@ The order of matrix multiplication is important. In general, the matrix product 
 
 The following example creates a texture brush and sets the transformation of the brush. The code then uses the transformed brush to fill a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_ScaleTransform(HDC hdc)
+
+```cpp
+VOID Example_ScaleTransform(HDC hdc)
 {
    Graphics graphics(hdc);
 
    Image image(L"HouseAndTree.Gif");
-   TextureBrush textureBrush(&amp;image);
+   TextureBrush textureBrush(&image);
    textureBrush.RotateTransform(30);                      // first rotate
    textureBrush.ScaleTransform(3, 1, MatrixOrderAppend);  // then scale
-   graphics.FillRectangle(&amp;textureBrush, 0, 0, 400, 200);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&textureBrush, 0, 0, 400, 200);
+}
+```
+
+
 
 
 

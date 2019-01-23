@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves a pointer to the <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a> structure for the storage adapter.
+Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structure for the storage adapter.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d
 
 ### -param StorageInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structure.
 
 
 ## -returns
@@ -104,24 +104,20 @@ To be visible to the Windows Biometric Framework, the <b>WbioQueryStorageInterfa
 
 The following pseudocode shows one possible implementation of this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 WINAPI
 WbioQueryStorageInterface(
     __out PWINBIO_STORAGE_INTERFACE *StorageInterface
     )
 {
-    *StorageInterface = &amp;g_StorageInterface; 
+    *StorageInterface = &g_StorageInterface; 
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

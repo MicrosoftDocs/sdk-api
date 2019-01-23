@@ -99,7 +99,7 @@ Returns S_OK if the proposed URL was already acceptable or was successfully corr
 
 
 
-The UrlFixup function recognizes the schemes specified by the <a href="https://msdn.microsoft.com/en-us/library/Bb762576(v=VS.85).aspx">URL_SCHEME</a> enumeration.
+The UrlFixup function recognizes the schemes specified by the <a href="https://msdn.microsoft.com/45686920-356d-4dd7-8482-2427854a92ed">URL_SCHEME</a> enumeration.
 
 Priority is given to the first character in the protocol identifier section so <code>htp</code> will be converted to <code>http</code> instead of <code>ftp</code>.
 
@@ -112,17 +112,13 @@ This function is available only in a Unicode version.
 
 This example shows how to use <b>UrlFixupW</b>. Notice that the last four autocorrections were probably not what the user intended and demonstrate limitations of the heuristic used by the function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;shlwapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <shlwapi.h>
+#include <stdio.h>
+#include <tchar.h>
 
 void sample(LPCWSTR pszUrl)
 {
@@ -164,9 +160,9 @@ someone@example.com         failed
 htpp:wwwmicrosoft.com       http://wwwmicrosoft.com
 htps:\\www.microsoft.com    http://www.microsoft.com
 http:someone@example.com    http://someone@example.com
-                </pre>
-</td>
-</tr>
-</table></span></div>
+                
+```
+
+
 
 

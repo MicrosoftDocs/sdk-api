@@ -87,13 +87,9 @@ The magnitude of each argument to the constructor will be clamped to the range s
 The following pseudocode demonstrates the operation of this constructor, which takes advantage of the <code>union</code>of the four components of the <code>XMUBYTEN2</code> vector with an instance of <code>uint32_t</code> in the definition of
    the structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMUBYTEN2 instance;
 	_x1=min( max( _x, 0.0 ), 1.0 );
 	_y1=min( max( _y, 0.0 ), 1.0 );
@@ -101,10 +97,10 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	_y = round( _y *  255.0f);
 	instance.x = (uint8_t)_x1;
 	instance.y = (uint8_t)_y1;
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

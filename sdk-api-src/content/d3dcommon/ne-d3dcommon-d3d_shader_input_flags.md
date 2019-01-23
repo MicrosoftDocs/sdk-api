@@ -64,7 +64,7 @@ Assign a shader input to a register based on the register assignment in the HLSL
 
 ### -field D3D_SIF_COMPARISON_SAMPLER
 
-Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
           
 
 
@@ -100,7 +100,7 @@ Assign a shader input to a register based on the register assignment in the HLSL
 
 ### -field D3D10_SIF_COMPARISON_SAMPLER
 
-Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
           
 
 
@@ -134,7 +134,7 @@ Forces the enumeration to compile to 32 bits.
 
 
 <b>D3D_SHADER_INPUT_FLAGS</b>-typed values are specified in
-          the <b>uFlags</b> member of the <a href="https://msdn.microsoft.com/384ad8f8-0991-4cd2-bb3d-76b8338686da">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
+          the <b>uFlags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476210(v=VS.85).aspx">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
         
 
 

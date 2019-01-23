@@ -155,41 +155,29 @@ Setting the <i>hdc</i> parameter to <b>NULL</b> lets you use the <b>EnumDisplayM
 
 To paint in response to a WM_PAINT message, using the capabilities of each monitor, you can use code like this in a window procedure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 case WM_PAINT:
   hdc = BeginPaint(hwnd, &ps);
   EnumDisplayMonitors(hdc, NULL, MyPaintEnumProc, 0);
   EndPaint(hwnd, &ps);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 To paint the top half of a window using the capabilities of each monitor, you can use code like this:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 GetClientRect(hwnd, &rc);
 rc.bottom = (rc.bottom - rc.top) / 2;
 hdc = GetDC(hwnd);
 EnumDisplayMonitors(hdc, &rc, MyPaintEnumProc, 0);
 ReleaseDC(hwnd, hdc);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 To paint the entire virtual screen optimally for each display monitor, you can use code like this:

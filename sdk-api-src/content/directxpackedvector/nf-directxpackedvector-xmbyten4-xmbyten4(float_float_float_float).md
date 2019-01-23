@@ -117,13 +117,9 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	    advantage of the <code>union</code> of the four components of the <code>XMBYTEN4</code>vector with an instance of <code>uint32_t</code> in the definition of the structure:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMBYTEN4 instance;
 	_x1=min( max( _x, -1.0 ), 1.0 );
 	_y1=min( max( _y, -1.0 ), 1.0 );
@@ -137,10 +133,10 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	instance.y = (int8_t)_y1;
 	instance.z = (int8_t)_z1;
 	instance.w = (int8_t)_w1;
-      </pre>
-</td>
-</tr>
-</table></span></div>
+      
+```
+
+
 
 
 

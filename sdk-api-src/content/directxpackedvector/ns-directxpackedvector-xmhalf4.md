@@ -114,18 +114,14 @@ The definition of the <code>HALF</code> type used under DirectXMath is consisten
 	    mantissa:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
                     [15] SEEEEEMMMMMMMMMM [0]
-	</pre>
-</td>
-</tr>
-</table></span></div>
+	
+```
+
+
 <code>XMHALF4</code> can be loaded into instances of <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1"> XMVECTOR</a> by
 	    using <a href="https://msdn.microsoft.com/a17c391c-1c40-4c3e-b915-7b2690a17eb5">XMLoadHalf4</a>.
 	

@@ -100,13 +100,9 @@ If you are finished with the context structure, don't forget to release resource
 
 The following example shows how to unregister from the notification callback, as described in the Remarks section.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _CALLBACK_CONTEXT {
+
+```
+typedef struct _CALLBACK_CONTEXT {
     BOOL bUnregister;
     PTP_WORK pWork;
     HCMNOTIFICATION hNotify;
@@ -126,17 +122,17 @@ EventCallback(
     PCALLBACK_CONTEXT pCallbackContext = (PCALLBACK_CONTEXT)Context;
 
    // unregister from the callback
-    EnterCriticalSection(&amp;(pCallbackContext-&gt;lock));
+    EnterCriticalSection(&(pCallbackContext->lock));
 
     // in case this callback fires before the registration call returns, make sure the notification handle is properly set
-    Context-&gt;hNotify = hNotification;
+    Context->hNotify = hNotification;
 
-    if (!pCallbackContext-&gt;bUnregister) {
-        pCallbackContext-&gt;bUnregister = TRUE;
-        SubmitThreadpoolWork(pCallbackContext-&gt;pWork);
+    if (!pCallbackContext->bUnregister) {
+        pCallbackContext->bUnregister = TRUE;
+        SubmitThreadpoolWork(pCallbackContext->pWork);
     }
 
-    LeaveCriticalSection(&amp;(pCallbackContext-&gt;lock));
+    LeaveCriticalSection(&(pCallbackContext->lock));
 
     return ERROR_SUCCESS;
 };
@@ -151,7 +147,7 @@ WorkCallback(
 {
     PCALLBACK_CONTEXT pCallbackContext = (PCALLBACK_CONTEXT)Context;
 
-    CM_Unregister_Notification(pCallbackContext-&gt;hNotify);
+    CM_Unregister_Notification(pCallbackContext->hNotify);
 }
 
 VOID NotificationFunction()
@@ -169,7 +165,7 @@ VOID NotificationFunction()
         goto end;
     }
 
-    InitializeCriticalSection(&amp;(context-&gt;lock));
+    InitializeCriticalSection(&(context->lock));
 
     NotifyFilter.cbSize = sizeof(NotifyFilter);
     NotifyFilter.Flags = 0;
@@ -183,59 +179,59 @@ VOID NotificationFunction()
         goto end;
     }
 
-    context-&gt;pWork = CreateThreadpoolWork(WorkCallback, context, NULL);
-    if (context-&gt;pWork == NULL) {
+    context->pWork = CreateThreadpoolWork(WorkCallback, context, NULL);
+    if (context->pWork == NULL) {
         goto end;
     }
 
-    cr = CM_Register_Notification(&amp;NotifyFilter,
+    cr = CM_Register_Notification(&NotifyFilter,
                                   context,
                                   EventCallback,
-                                  &amp;context-&gt;hNotify);
+                                  &context->hNotify);
    if (cr != CR_SUCCESS) {
         goto end;
     }
 
     // ... do work here ...
 
-    EnterCriticalSection(&amp;(context-&gt;lock));
+    EnterCriticalSection(&(context->lock));
 
-    if (!context-&gt;bUnregister) {
+    if (!context->bUnregister) {
         // unregister not from the callback
         bShouldUnregister = TRUE;
-        context-&gt;bUnregister = TRUE;
+        context->bUnregister = TRUE;
     }
 
-    LeaveCriticalSection(&amp;(context-&gt;lock));
+    LeaveCriticalSection(&(context->lock));
 
     if (bShouldUnregister) {
-        cr = CM_Unregister_Notification(context-&gt;hNotify);
+        cr = CM_Unregister_Notification(context->hNotify);
         if (cr != CR_SUCCESS) {
             goto end;
         }
     } else {
         // if the callback is the one performing the unregister, wait for the threadpool work item to complete the unregister
-        WaitForThreadpoolWorkCallbacks(context-&gt;pWork, FALSE);
+        WaitForThreadpoolWorkCallbacks(context->pWork, FALSE);
     }
 
 end:
 
     if (context != NULL) {
-        if (context-&gt;pWork != NULL) {
-            CloseThreadpoolWork(context-&gt;pWork);
+        if (context->pWork != NULL) {
+            CloseThreadpoolWork(context->pWork);
         }
 
-        DeleteCriticalSection(&amp;(context-&gt;lock));
+        DeleteCriticalSection(&(context->lock));
 
         HeapFree(GetProcessHeap(), 0, context);
     }
 
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

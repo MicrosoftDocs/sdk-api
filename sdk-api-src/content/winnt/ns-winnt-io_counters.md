@@ -95,7 +95,7 @@ The number of bytes transferred during operations other than read and write oper
 
 
 
-<a href="https://msdn.microsoft.com/5c3e4002-d4d2-4a8c-ab0c-f6bcdd62947a">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684144(v=VS.85).aspx">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
  
 
  

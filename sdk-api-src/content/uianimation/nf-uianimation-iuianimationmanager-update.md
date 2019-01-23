@@ -90,23 +90,19 @@ Calling this method advances the animation manager to <i>timeNow</i>, changing s
 
 The following example updates the animation manager with the current time. For additional examples, see <a href="https://msdn.microsoft.com/c4f746c3-e47c-4b82-a41b-e2c0d177d097">Update the Animation Manager and Draw Frames</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Update the animation manager with the current time
+
+```cpp
+// Update the animation manager with the current time
 UI_ANIMATION_SECONDS secondsNow;
-hr = m_pAnimationTimer-&gt;GetTime(
-    &amp;secondsNow
+hr = m_pAnimationTimer->GetTime(
+    &secondsNow
     );
 if (SUCCEEDED(hr))
 {
     UI_ANIMATION_UPDATE_RESULT updateResult;
-    hr = m_pAnimationManager-&gt;Update(
+    hr = m_pAnimationManager->Update(
         secondsNow,
-        &amp;updateResult
+        &updateResult
         );
     if (SUCCEEDED(hr))
     {
@@ -115,10 +111,10 @@ if (SUCCEEDED(hr))
             ...
         }
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -143,11 +139,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/b8995687-c0dc-4cd7-b11a-f871172895f9">UI_ANIMATION_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317046(v=VS.85).aspx">UI_ANIMATION_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/19b1d80f-39b3-4046-aa6a-5312e004b4b0">UI_ANIMATION_UPDATE_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371974(v=VS.85).aspx">UI_ANIMATION_UPDATE_RESULT</a>
  
 
  

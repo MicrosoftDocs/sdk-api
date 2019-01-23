@@ -169,13 +169,9 @@ As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation of this method for a custom single-selection list box. If the control does not have the focus, VT_EMPTY is returned in the variant by the standard accessible object for the HWND. If the control does have the focus, and an item is selected, the child ID of that item is returned; if there is no selection, CHILDID_SELF is returned.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // m_pControl is the control object that is served by this implementation. 
 // m_pStdAccessibleObject is the object returned by CreateStdAccessibleObject. 
 
@@ -183,31 +179,31 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accFocus(VARIANT *pvarChild)
 {
     FAIL_IF_NO_CONTROL;  // Macro that checks for existence of control. 
 
-    HRESULT hr = m_pStdAccessibleObject-&gt;get_accFocus(pvarChild);  
-    if (pvarChild-&gt;vt != VT_I4)
+    HRESULT hr = m_pStdAccessibleObject->get_accFocus(pvarChild);  
+    if (pvarChild->vt != VT_I4)
     {
         return hr;
     }
     else
     {
-        int index = m_pControl-&gt;GetSelectedIndex();
-        if (index &lt;0)
+        int index = m_pControl->GetSelectedIndex();
+        if (index <0)
         {
-            pvarChild-&gt;lVal = CHILDID_SELF;
+            pvarChild->lVal = CHILDID_SELF;
         }
         else
         {
             // Convert to 1-based index for child ID. 
-            pvarChild-&gt;lVal = index + 1;
+            pvarChild->lVal = index + 1;
         }
     }
     return S_OK;
 };
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

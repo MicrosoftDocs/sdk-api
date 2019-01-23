@@ -56,23 +56,19 @@ Retrieves information from the TCP/IP driver.
 
 To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
 				function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,                  // Open handle to the TCP driver
   IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCodeNULL,                              // lpInBuffer (the output buffer is used for input too)
   0,                                 // nInBufferSize(LPVOID) lpOutBuffer,              // Pointer to the output buffer
   (DWORD) nOutBufferSize,            // Size of the output buffer
   (LPDWORD) lpBytesReturned,         // Number of bytes returned (if called synchronously)
   (LPOVERLAPPED) lpOverlapped        // OVERLAPPED structure (if called asynchronously)
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 
 ## -ioctlparameters
 
@@ -334,18 +330,14 @@ On return, the output buffer contains a filled-in <a href="https://msdn.microsof
 The following example shows how to obtain a list of the entities present
 				on the TCP adapter on the current machine.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define  UNICODE
+
+```cpp
+#define  UNICODE
 #define  _WIN32_WINNT  0x0500
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
-#include &lt;iptypes.h&gt;
+#include <stdio.h>
+#include <windows.h>
+#include <iptypes.h>
 #include "winternl.h"
 #include "tdiinfo.h"
 #include "tdistat.h"
@@ -406,7 +398,7 @@ typedef NTSTATUS (NTAPI *P_NT_CREATE_FILE)(
   UnicodeStr.MaximumLength = UnicodeStr.Length + sizeof(UNICODE_NULL);
 
   objectAttributes.Length = sizeof( OBJECT_ATTRIBUTES );
-  objectAttributes.ObjectName = &amp;UnicodeStr;
+  objectAttributes.ObjectName = &UnicodeStr;
   objectAttributes.Attributes = OBJ_CASE_INSENSITIVE;
   objectAttributes.RootDirectory = NULL;
   objectAttributes.SecurityDescriptor = NULL;
@@ -414,8 +406,8 @@ typedef NTSTATUS (NTAPI *P_NT_CREATE_FILE)(
 
   rVal = pNtCreateFile( pTCPDriverHandle,
                        SYNCHRONIZE | GENERIC_EXECUTE,
-                       &amp;objectAttributes,
-                       &amp;ioStatusBlock,
+                       &objectAttributes,
+                       &ioStatusBlock,
                        NULL,
                        FILE_ATTRIBUTE_NORMAL,
                        FILE_SHARE_READ | FILE_SHARE_WRITE,
@@ -424,7 +416,7 @@ typedef NTSTATUS (NTAPI *P_NT_CREATE_FILE)(
                        NULL,
                        0 );
 
-  if( rVal &lt; 0 )
+  if( rVal < 0 )
   {
     printf( "\nFailed to create TCP Driver handle; NT status code = %d.", rVal );
     *pTCPDriverHandle = INVALID_HANDLE_VALUE;
@@ -465,7 +457,7 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
 // First, if the handle passed in is not valid, try to obtain one.
   if( TCPDriverHandle == INVALID_HANDLE_VALUE )
   {
-    if( GetTCPHandle( &amp;TCPDriverHandle ) == FALSE )
+    if( GetTCPHandle( &TCPDriverHandle ) == FALSE )
     {
       *lplpEntities = NULL;
       return( 0 );
@@ -489,7 +481,7 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
 //     infinite looping in case of parameter corruption. Only 2
 //     iterations should ever be necessary unless entities are 
 //     being added while the loop is running.
-  for( i = 0; i &lt; 4; ++i )
+  for( i = 0; i < 4; ++i )
   {
     if( pEntity != NULL )
     {
@@ -510,11 +502,11 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
 
     if( !DeviceIoControl( TCPDriverHandle, // Handle to TCP driver
                           IOCTL_TCP_QUERY_INFORMATION_EX, // Cmd code
-                          &amp;req,            // Pointer to input buffer
+                          &req,            // Pointer to input buffer
                           sizeof(req),     // Size of ipt buffer
                           pEntity,         // Ptr to output buffer
                           bufferLen,       // Size of output buffer
-                          &amp;arrayLen,       // Actual size of array
+                          &arrayLen,       // Actual size of array
                           NULL ) )
       status = GetLastError( );
 
@@ -524,7 +516,7 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
     // successfully copied to the output buffer.
     if( status == TDI_SUCCESS )
     {
-      if( arrayLen &amp;&amp; ( arrayLen &lt;= bufferLen ) )
+      if( arrayLen && ( arrayLen <= bufferLen ) )
         break;
     }
     else
@@ -546,16 +538,16 @@ int main( )
     *entityPtr;
 
   if( !( entityCount = GetEntityArray( INVALID_HANDLE_VALUE, 
-    &amp;entityArray ) ) )
+    &entityArray ) ) )
     return( 1 );
 
   entityPtr = entityArray;
   printf( "\n\nList of %d Transport Driver Interface Entities on this machine:\n", entityCount );
 
-  for( i = 0; i &lt; entityCount; ++i )
+  for( i = 0; i < entityCount; ++i )
   {
     printf( "\n  Entity #%d:\n    Category (tei_entity) is ", i );
-    switch( entityPtr-&gt;tei_entity )
+    switch( entityPtr->tei_entity )
     {
       case GENERIC_ENTITY:
         printf( "Generic." );
@@ -583,10 +575,10 @@ int main( )
         break;
       default:
         printf( "[Unidentified Entity Type] = 0x%x", 
-        entityPtr-&gt;tei_entity );
+        entityPtr->tei_entity );
     }
     printf( "\n Instance (tei_instance) = %d\n", 
-        entityPtr-&gt;tei_instance );
+        entityPtr->tei_instance );
 
     ++entityPtr;
   }
@@ -597,10 +589,10 @@ int main( )
   return( 0 );
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

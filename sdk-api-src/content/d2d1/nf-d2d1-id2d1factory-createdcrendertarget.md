@@ -96,13 +96,9 @@ Your application should create render targets once and hold on to them for the l
 
 The following code creates a DC render target.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create a DC render target.
+
+```cpp
+// Create a DC render target.
 D2D1_RENDER_TARGET_PROPERTIES props = D2D1::RenderTargetProperties(
     D2D1_RENDER_TARGET_TYPE_DEFAULT,
     D2D1::PixelFormat(
@@ -115,50 +111,32 @@ D2D1_RENDER_TARGET_PROPERTIES props = D2D1::RenderTargetProperties(
     );
 
 hr = m_pD2DFactory->CreateDCRenderTarget(&props, &m_pDCRT);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a>, and <i>m_pDCRT</i> is a pointer to an <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a>. 
 
 The next code example binds a DC to the <a href="https://msdn.microsoft.com/6546998e-6740-413a-88c5-36fa0decec8f">ID2D1DCRenderTarget</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
+
+```cpp
+HRESULT DemoApp::OnRender(const PAINTSTRUCT &ps)
 {
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Get the dimensions of the client drawing area.
+
+```
+
+```cpp
+// Get the dimensions of the client drawing area.
 GetClientRect(m_hwnd, &rc);
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Bind the DC to the DC render target.
+
+```
+
+```cpp
+// Bind the DC to the DC render target.
 hr = m_pDCRT->BindDC(ps.hdc, &rc);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

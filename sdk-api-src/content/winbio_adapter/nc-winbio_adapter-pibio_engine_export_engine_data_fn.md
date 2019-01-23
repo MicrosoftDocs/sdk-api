@@ -184,13 +184,9 @@ You must allocate the buffer to be returned in the <i>SampleBuffer</i> parameter
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterExportEngineData
 //
@@ -229,11 +225,11 @@ EngineAdapterExportEngineData(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // At least one processing level flag must be set. Your adapter can also
     // place additional restrictions on supported export formats.
-    if (Flags &amp; (WINBIO_DATA_FLAG_RAW | 
+    if (Flags & (WINBIO_DATA_FLAG_RAW | 
                  WINBIO_DATA_FLAG_INTERMEDIATE | 
                  WINBIO_DATA_FLAG_PROCESSED) == 0)
     {
@@ -246,7 +242,7 @@ EngineAdapterExportEngineData(
     // function passes ownership of the new biometric information record (BIR)
     // to the EngineAdapterExportEngineData routine which then passes the BIR
     // to the caller.
-    hr = _CreateBirFromAdapterData( context, Flags, &amp;birAddress, &amp;birSize);
+    hr = _CreateBirFromAdapterData( context, Flags, &birAddress, &birSize);
     if (SUCCEEDED(hr))
     {
         *SampleBuffer = birAddress;
@@ -257,10 +253,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

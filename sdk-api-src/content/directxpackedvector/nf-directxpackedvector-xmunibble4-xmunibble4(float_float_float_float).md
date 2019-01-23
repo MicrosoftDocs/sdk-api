@@ -108,27 +108,23 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	    advantage of the <code>union</code> of the four components of the <code>XMUNIBBLE4</code>vector with an instance of <code>uint16_t</code> in the definition of the structure:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMUNIBBLE4 instance;
 	_x1=min( max( _x, 0.0 ), 15.0f );
 	_y1=min( max( _y, 0.0 ), 15.0f );
 	_z1=min( max( _z, 0.0 ), 15.0f );
 	_w1=min( max( _w, 0.0 ), 15.0f );
 
-	instance.v =  ( (uint16_t)_w1 &lt;&lt; 12) |
-                      (((uint16_t)_z1 &amp; 0xF) &lt;&lt; 8) |
-                      (((uint16_t)_y1 &amp; 0xF) &lt;&lt; 4) |
-                      (((uint16_t)_x1 &amp; 0xF));
-      </pre>
-</td>
-</tr>
-</table></span></div>
+	instance.v =  ( (uint16_t)_w1 << 12) |
+                      (((uint16_t)_z1 & 0xF) << 8) |
+                      (((uint16_t)_y1 & 0xF) << 4) |
+                      (((uint16_t)_x1 & 0xF));
+      
+```
+
+
 
 
 

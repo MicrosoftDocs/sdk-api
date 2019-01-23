@@ -60,7 +60,7 @@ Sends an event message to indicate a change in the state of the keyboard, such a
 
 ### -param syncFlags
 
-For possible values, see the <a href="https://msdn.microsoft.com/0E16C482-E7D7-4477-B5B2-830D8CD9012A">RDPSRAPI_KBD_SYNC_FLAG</a> enumeration.
+For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Dn408606(v=VS.85).aspx">RDPSRAPI_KBD_SYNC_FLAG</a> enumeration.
 
 
 ## -returns

@@ -72,7 +72,7 @@ The <a href="https://msdn.microsoft.com/d2103f6e-6aa9-4260-bef9-cfcbec35e675">TO
 
 ### -param pProximityEval [out]
 
-The <a href="https://msdn.microsoft.com/a26facc3-fe63-4657-9bd6-821dd89cb11d">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh437256(v=VS.85).aspx">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data.
 
 
 ## -returns

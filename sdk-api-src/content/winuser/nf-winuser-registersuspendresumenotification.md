@@ -60,7 +60,7 @@ Registers to receive notification when the system is suspended or resumed. Simil
 
  This parameter contains parameters for subscribing to a power notification or a window handle representing the subscribing process. 
 
-If <i>Flags</i> is <b>DEVICE_NOTIFY_CALLBACK</b>, <i>hRecipient</i> is interpreted as a pointer to a <a href="https://msdn.microsoft.com/749F7C6F-1A42-43DE-921E-C3654034570D">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a> structure. In this case, the callback function is <a href="https://msdn.microsoft.com/5734FDEE-E330-4115-AFA5-725114023A5A">DeviceNotifyCallbackRoutine</a>. When the <b>Callback</b> function executes, the  <i>Type</i> parameter is set indicating the type of event that occurred. Possible values include <b>PBT_APMSUSPEND</b>, <b>PBT_APMRESUMESUSPEND</b>, and <b>PBT_APMRESUMEAUTOMATIC</b> - see  <a href="https://msdn.microsoft.com/2315e17f-f0c1-409c-b1c0-b3735c25c4c1">Power Management Events</a> for more info. The <i>Setting</i> parameter is not used with suspend/resume notifications.
+If <i>Flags</i> is <b>DEVICE_NOTIFY_CALLBACK</b>, <i>hRecipient</i> is interpreted as a pointer to a <a href="https://msdn.microsoft.com/en-us/library/JJ552972(v=VS.85).aspx">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a> structure. In this case, the callback function is <a href="https://msdn.microsoft.com/5734FDEE-E330-4115-AFA5-725114023A5A">DeviceNotifyCallbackRoutine</a>. When the <b>Callback</b> function executes, the  <i>Type</i> parameter is set indicating the type of event that occurred. Possible values include <b>PBT_APMSUSPEND</b>, <b>PBT_APMRESUMESUSPEND</b>, and <b>PBT_APMRESUMEAUTOMATIC</b> - see  <a href="https://msdn.microsoft.com/2315e17f-f0c1-409c-b1c0-b3735c25c4c1">Power Management Events</a> for more info. The <i>Setting</i> parameter is not used with suspend/resume notifications.
 
 If <i>Flags</i> is <b>DEVICE_NOTIFY_WINDOW_HANDLE</b>, <i>hRecipient</i> is a handle to the window to deliver events to. 
 
@@ -91,7 +91,7 @@ If the function fails, the return value is NULL. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/749F7C6F-1A42-43DE-921E-C3654034570D">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ552972(v=VS.85).aspx">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
 
 
 

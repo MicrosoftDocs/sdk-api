@@ -259,19 +259,15 @@ The
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>accept</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;winsock2.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -282,7 +278,7 @@ int wmain(void)
     //----------------------
     // Initialize Winsock.
     WSADATA wsaData;
-    int iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    int iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"WSAStartup failed with error: %ld\n", iResult);
         return 1;
@@ -306,7 +302,7 @@ int wmain(void)
     service.sin_port = htons(27015);
 
     if (bind(ListenSocket,
-             (SOCKADDR *) &amp; service, sizeof (service)) == SOCKET_ERROR) {
+             (SOCKADDR *) & service, sizeof (service)) == SOCKET_ERROR) {
         wprintf(L"bind failed with error: %ld\n", WSAGetLastError());
         closesocket(ListenSocket);
         WSACleanup();
@@ -344,10 +340,10 @@ int wmain(void)
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For another example that uses the  <b>accept</b> function, see <a href="https://msdn.microsoft.com/905cd5bc-44af-4d3f-841a-9e9a2700a785">Getting Started With Winsock</a>.
 
 <h3><a id="Notes_for_ATM"></a><a id="notes_for_atm"></a><a id="NOTES_FOR_ATM"></a>Notes for ATM</h3>

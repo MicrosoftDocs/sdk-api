@@ -88,7 +88,7 @@ Minimum OPL required to receive uncompressed digital audio.
 
 
 
-This structure is used as a member of the <a href="https://msdn.microsoft.com/5d14bd02-0fb5-4982-b3dc-7f8277cb852f">DRM_PLAY_OPL</a> structure.
+This structure is used as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd798032(v=VS.85).aspx">DRM_PLAY_OPL</a> structure.
 
 
 

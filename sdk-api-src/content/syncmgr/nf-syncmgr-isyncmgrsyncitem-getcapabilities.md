@@ -87,13 +87,9 @@ This method is called by Sync Center in response to a call to <a href="https://m
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceSyncItem::GetCapabilities(
+
+```cpp
+STDMETHODIMP CMyDeviceSyncItem::GetCapabilities(
                               __out SYNCMGR_ITEM_CAPABILITIES *pmCapabilities)
 {
     *pmCapabilities = SYNCMGR_ICM_EVENT_STORE
@@ -102,9 +98,9 @@ The following example shows an implementation of this method.
     
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

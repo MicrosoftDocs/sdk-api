@@ -87,9 +87,9 @@ Integer that specifies the height of the rectangle to test.
 
 ### -param g [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
 
-Optional. Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. The default value is <b>NULL</b>. 
+Optional. Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. The default value is <b>NULL</b>. 
 
 
 ## -returns
@@ -117,13 +117,9 @@ If the rectangle intersects this region, the method returns <b>TRUE</b>; otherwi
 
 The following example creates a region from a path and then tests to determine whether a rectangle intersects the region.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_IsVisibleXYWH(HDC hdc)
+
+```cpp
+VOID Example_IsVisibleXYWH(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -141,23 +137,23 @@ The following example creates a region from a path and then tests to determine w
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&amp;path);
-   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
+   Region pathRegion(&path);
+   graphics.FillRegion(&solidBrush, &pathRegion);
 
    // Check to see whether the rectangle intersects the region.
    // The rectangle has upper-left corner (65, 25), width 70, and height 30.
-   if(pathRegion.IsVisible(65, 25, 70, 30, &amp;graphics))
+   if(pathRegion.IsVisible(65, 25, 70, 30, &graphics))
    {
       // All or part of the rectangle is in the region.
    }
 
    // Draw the rectangle.
    Pen pen(Color(255, 0, 0, 0));
-   graphics.DrawRectangle(&amp;pen, 65, 25, 70, 30);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&pen, 65, 25, 70, 30);
+}
+```
+
+
 
 
 
@@ -166,15 +162,15 @@ The following example creates a region from a path and then tests to determine w
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
  
 
  

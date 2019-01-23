@@ -106,13 +106,9 @@ The  <b>CLUS_STARTING_PARAMS</b> structure allows resource DLLs to respond to th
 
 The following example illustrates an abbreviated implementation of  <a href="https://msdn.microsoft.com/dc4a6e6e-f968-4502-88d0-dc692341528d">ResourceTypeControl</a>. For more information, see  <a href="https://msdn.microsoft.com/23d16976-1491-43d7-9dea-9cd8ae8086cb">Implementing ResourceTypeControl</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>const LPWSTR g_MY_RESOURCE_TYPE_NAME[] =
+
+```cpp
+const LPWSTR g_MY_RESOURCE_TYPE_NAME[] =
 {
     L"MyType_0",
     L"MyType_1",
@@ -140,8 +136,8 @@ DWORD WINAPI MyDllResourceTypeControl(
             if( lstrcmpi( ResourceTypeName, g_MY_RESOURCE_TYPE_NAME[2] ) == 0 )
             {
                 pStart = (PCLUS_STARTING_PARAMS) InBuffer;
-                if( ( pStart-&gt;bForm == TRUE ) &amp;&amp; 
-                    ( pStart-&gt;bFirst == FALSE ) )
+                if( ( pStart->bForm == TRUE ) && 
+                    ( pStart->bFirst == FALSE ) )
                 {
                 //  Hypothetical initialization code for resource type "MyType_2"
                 //  Fires only when the cluster forms, but not for first-time launches of the Cluster service.
@@ -157,7 +153,7 @@ DWORD WINAPI MyDllResourceTypeControl(
         case CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2:
 
             pStart = (PCLUS_STARTING_PARAMS) InBuffer;
-            if( pStart-&gt;bFirst == TRUE )
+            if( pStart->bFirst == TRUE )
             {
             //  Hypothetical verification code for all resource types supported by the DLL
             //  Fires for first-time launches of the Cluster service
@@ -184,10 +180,10 @@ DWORD WINAPI MyDllResourceTypeControl(
 
 }
 // MyDllResourceTypeControl
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -58,7 +58,7 @@ Contains additional information about a resource that can be assigned to users i
 
 ### -field resourceV1
 
-A <a href="https://msdn.microsoft.com/209dee74-c52e-4e31-9d1b-1e7c6c0d0121">pluginResource</a> structure that contains the basic information about the resource.
+A <a href="https://msdn.microsoft.com/en-us/library/Ee351716(v=VS.85).aspx">pluginResource</a> structure that contains the basic information about the resource.
 
 
 ### -field pceFileAssocListSize
@@ -110,7 +110,7 @@ The <b>pluginFolderName</b> type is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/209dee74-c52e-4e31-9d1b-1e7c6c0d0121">pluginResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351716(v=VS.85).aspx">pluginResource</a>
  
 
  

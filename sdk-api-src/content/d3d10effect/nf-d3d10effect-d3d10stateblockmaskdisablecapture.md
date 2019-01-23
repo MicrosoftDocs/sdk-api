@@ -101,21 +101,17 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 This is an example of how to call this function. It creates a mask that cannot capture and apply to geometry-shader samplers in slots 2 ~ 23.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3D10_STATE_BLOCK_MASK stateBlockMask;
-D3D10StateBlockMaskDisableCapture(&amp;stateBlockMask, 
+D3D10StateBlockMaskDisableCapture(&stateBlockMask, 
                                  D3D10_DST_GS_SAMPLERS, 
                                  2, 23);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

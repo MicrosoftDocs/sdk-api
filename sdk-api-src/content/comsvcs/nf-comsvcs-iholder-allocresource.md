@@ -95,7 +95,7 @@ The method completed successfully.
 </dl>
 </td>
 <td width="60%">
-<i>ResTypId</i> is <b>NULL</b> or an empty string, or the Resource Dispenser's <a href="https://msdn.microsoft.com/97b49069-3428-48da-a818-737f3bc342d0">IDispenserDriver::CreateResource</a> method generated an empty or duplicate RESID.
+<i>ResTypId</i> is <b>NULL</b> or an empty string, or the Resource Dispenser's <a href="https://msdn.microsoft.com/en-us/library/ms684313(v=VS.85).aspx">IDispenserDriver::CreateResource</a> method generated an empty or duplicate RESID.
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ The Dispenser Manager takes the following steps to locate a resource:
 <ol>
 <li>Searches the pool for a free resource of this RESTYPID, which is already enlisted in the caller's current transaction.</li>
 <li>Searches the pool for a free unenlisted resource of this RESTYPID, and then enlists it in the caller's current transaction.</li>
-<li>Creates the resource by calling back to the Resource Dispenser's <a href="https://msdn.microsoft.com/97b49069-3428-48da-a818-737f3bc342d0">IDispenserDriver::CreateResource</a> method, and then enlists it.</li>
+<li>Creates the resource by calling back to the Resource Dispenser's <a href="https://msdn.microsoft.com/en-us/library/ms684313(v=VS.85).aspx">IDispenserDriver::CreateResource</a> method, and then enlists it.</li>
 </ol>
 If the caller does not have a current transaction, the enlistment is skipped. Or if the Resource Dispenser rejects the enlistment (meaning the resource is not transaction capable), the enlistment is skipped.
 

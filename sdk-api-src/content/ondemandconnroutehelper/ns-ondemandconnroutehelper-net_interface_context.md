@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The interface context that is part of the <a href="https://msdn.microsoft.com/DA6101F2-EB8F-43DC-93C6-9365A7AABEAC">NET_INTERFACE_CONTEXT_TABLE</a> structure.
+The interface context that is part of the <a href="https://msdn.microsoft.com/en-us/library/Mt162306(v=VS.85).aspx">NET_INTERFACE_CONTEXT_TABLE</a> structure.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ The configuration name.
 
 
 
-<a href="https://msdn.microsoft.com/DA6101F2-EB8F-43DC-93C6-9365A7AABEAC">NET_INTERFACE_CONTEXT_TABLE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt162306(v=VS.85).aspx">NET_INTERFACE_CONTEXT_TABLE</a>
  
 
  

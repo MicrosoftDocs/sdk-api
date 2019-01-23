@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9af">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372964(v=VS.85).aspx">XPS_MATRIX</a> structure, which specifies the transform matrix.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Sets the <a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9a
 
 ### -param matrix [in]
 
-The address of the <a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9af">XPS_MATRIX</a> structure.
+The address of the <a href="https://msdn.microsoft.com/en-us/library/Dd372964(v=VS.85).aspx">XPS_MATRIX</a> structure.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The matrix referenced by <i>matrix</i> is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/0df75410-0e34-4962-8499-879d5153d9af">XPS_MATRIX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372964(v=VS.85).aspx">XPS_MATRIX</a>
  
 
  

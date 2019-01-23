@@ -119,16 +119,12 @@ Similar to <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#include "stdafx.h"
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;ClusAPI.h&gt;
+
+```
+#include "stdafx.h"
+#include <windows.h>
+#include <stdio.h>
+#include <ClusAPI.h>
 
 
 #define DemoResDllTypeName L"dummy"
@@ -209,9 +205,9 @@ Cleanup:
     }
 
     return (int)error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

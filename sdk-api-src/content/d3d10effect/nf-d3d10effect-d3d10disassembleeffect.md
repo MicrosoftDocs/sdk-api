@@ -96,34 +96,30 @@ This returned text includes a header with the version of the HLSL compiler used 
 
 Here is an example of disassembling a compiled effect. The example assumes you start with a compiled effect (shown as <i>l_pBlob_Effect</i> which you can see in <a href="https://msdn.microsoft.com/en-us/library/Bb205078(v=VS.85).aspx">Compile an Effect (Direct3D 10)</a>).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 LPCSTR commentString = NULL;
 ID3D10Blob* pIDisassembly = NULL;
 char* pDisassembly = NULL;
 if( pVSBuf )
 {
-    D3D10DisassembleEffect( (UINT*) l_pBlob_Effect-&gt;GetBufferPointer(),
-        l_pBlob_Effect-&gt;GetBufferSize(), TRUE, commentString, &amp;pIDisassembly );
+    D3D10DisassembleEffect( (UINT*) l_pBlob_Effect->GetBufferPointer(),
+        l_pBlob_Effect->GetBufferSize(), TRUE, commentString, &pIDisassembly );
     if( pIDisassembly )
     {
         FILE* pFile = fopen( "effect.htm", "w" );
         if( pFile)
         {
-            fputs( (char*)pIDisassembly-&gt;GetBufferPointer(), pFile );
+            fputs( (char*)pIDisassembly->GetBufferPointer(), pFile );
             fclose( pFile );
         }
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

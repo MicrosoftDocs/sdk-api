@@ -51,7 +51,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/F6A65E00-857A-44CF-A827-747518564DAB">DeleteSnapshotVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Mt414212(v=VS.85).aspx">DeleteSnapshotVhdSet</a> function.
 
 
 ## -enum-fields

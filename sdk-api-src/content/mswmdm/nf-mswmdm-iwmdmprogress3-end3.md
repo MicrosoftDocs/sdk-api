@@ -136,22 +136,18 @@ The interface that owns the method that is implementing an operation calls <b>En
 
 The following C++ code shows an example implementation of <b>End3</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT End3(GUID  EventId, HRESULT  hrCompletionCode, OPAQUECOMMAND*  pContext)
 {
     // TODO: Display the message "IWMDMProgress3::End3 called."
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

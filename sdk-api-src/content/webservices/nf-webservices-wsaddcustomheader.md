@@ -65,7 +65,7 @@ Adds the specified application-defined header to the <a href="https://msdn.micro
 The message to which to add the header.
                 
 
-The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE</a> enumeration..
+The message can be in any state except <b>WS_MESSAGE_STATE_EMPTY</b> (see the <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> enumeration..
                 
 
 
@@ -78,13 +78,13 @@ The <a href="https://msdn.microsoft.com/17035b64-9b2c-40d3-bdce-45e9b132e9f1">WS
 ### -param writeOption [in]
 
 Whether the header element is required, and how the value is allocated.
-                    For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> enumeration.
+                    For more information, see the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
                 
 
 
 ### -param value [in, ref]
 
-The header value to serialize.  For more information, see  the <a href="https://msdn.microsoft.com/en-us/library/Dd323512(v=VS.85).aspx">WS_WRITE_OPTION</a> enumeration.
+The header value to serialize.  For more information, see  the <a href="https://msdn.microsoft.com/24a0ad2c-fcec-42c5-8f72-bea431b06d2e">WS_WRITE_OPTION</a> enumeration.
                 
                 
 

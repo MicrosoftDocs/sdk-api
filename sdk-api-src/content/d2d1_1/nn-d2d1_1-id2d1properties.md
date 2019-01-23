@@ -183,35 +183,23 @@ The interface is intentionally designed to avoid dependencies on a run-time basi
 
 The interface is primarily based upon an index-based access model, and it supports nested sub-properties within properties. Unlike a directory structure, the property itself has a value and a type and might optionally support sub-properties (directories are not files). These are normally metadata that describe the property, but, this is also used to specify arrays of objects. In order to simplify accessing sub-properties and to allow name-based access, two helper methods – <a href="https://msdn.microsoft.com/3faedf5e-9329-4502-a1c9-162fd7b00319">SetValueByName</a> and <a href="https://msdn.microsoft.com/2dc60fad-9ce2-4951-85ea-647a828420a1">GetValueByName</a> – are defined. These use a "dotted" notation in order to allow sub-properties to be directly specified, for example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>alphaMode = pEffect->GetValueByName<UINT32>(L"Inputs.0.AlphaMode");</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+alphaMode = pEffect->GetValueByName<UINT32>(L"Inputs.0.AlphaMode");
+```
 
 
 
 
 Or:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pEffect->SetValueByName<UINT32>(
+
+```cpp
+pEffect->SetValueByName<UINT32>(
 		    L"Inputs.0.AlphaMode", 
 		    DXGI_ALPHA_MODE_PREMULTIPLIED);
-		</pre>
-</td>
-</tr>
-</table></span></div>
+		
+```
 
 
 
@@ -339,19 +327,13 @@ Each value in this array is a name/index pair. The indices can be set to the par
 <h3><a id="Array-Type_Sub-Properties"></a><a id="array-type_sub-properties"></a><a id="ARRAY-TYPE_SUB-PROPERTIES"></a>Array-Type Sub-Properties</h3>
 See <a href="https://msdn.microsoft.com/42e80588-9e80-4f30-9a3c-77b64f88ff7a">ID2D1Properties::GetType</a> and <a href="https://msdn.microsoft.com/6535d71a-c76c-462c-9972-4db7e4ef383d">D2D1_PROPERTY_TYPE</a> for more information. If the property type is <b>D2D1_PROPERTY_TYPE_ARRAY</b>, the value of the property will be considered to be a <b>UINT</b> that has the count of array elements. The next sub-property will directly map the index to the requested property value. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Inputs: UINT32 – 2
+
+```cpp
+Inputs: UINT32 – 2
 		Inputs.0 : <Type> – First input
 		Inputs.1 : <Type> – Second input
-		</pre>
-</td>
-</tr>
-</table></span></div>
+		
+```
 
 
 The above example makes use of the following sub-properties, which will appear on <b>ARRAY</b>-type properties. Note that the numbered properties are not system properties, and are in the normal (0x0 – 0x80000000) range.

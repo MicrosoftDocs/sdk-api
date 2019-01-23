@@ -100,13 +100,9 @@ A solid color brush is a device-dependent resource. (For more information about 
 
 The following example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742843(v=VS.85).aspx">CreateSolidColorBrush</a> method of a render target (<i>m_pRenderTarget</i>) to create two brushes. The example uses a predefined color (black) to specify the color of the first brush. It uses a hexadecimal color value (yellow) to specify the color of the second brush.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr))
+
+```cpp
+if (SUCCEEDED(hr))
 {
     hr = m_pRenderTarget->CreateSolidColorBrush(
         D2D1::ColorF(D2D1::ColorF::Black, 1.0f),
@@ -122,26 +118,18 @@ if (SUCCEEDED(hr))
         &m_pYellowGreenBrush
         );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 The next code example calls the <a href="https://msdn.microsoft.com/b5d7ca28-0751-4799-8480-f221fd5fe276">FillRectangle</a> method to paint the interior of a rectangle with the yellow green brush and the <a href="https://msdn.microsoft.com/bc176c12-db06-4f1e-b668-4441723a916a">DrawRectangle</a> method to paint the outline of the rectangle with the black brush:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>m_pRenderTarget->FillRectangle(&rcBrushRect, m_pYellowGreenBrush);
+
+```cpp
+m_pRenderTarget->FillRectangle(&rcBrushRect, m_pYellowGreenBrush);
 m_pRenderTarget->DrawRectangle(&rcBrushRect, m_pBlackBrush, 1, NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 These examples produce the output shown in the following illustration.

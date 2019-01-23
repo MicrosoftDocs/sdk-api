@@ -4,7 +4,7 @@ title: DeleteCriticalSection function
 author: windows-sdk-content
 description: Releases all resources used by an unowned critical section object.
 old-location: base\deletecriticalsection.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 97e29fc3-b155-448e-aaa9-19f0fc2d841e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

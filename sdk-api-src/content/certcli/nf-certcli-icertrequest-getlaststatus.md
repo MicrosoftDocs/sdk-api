@@ -95,16 +95,12 @@ Additionally, the request disposition is stored in the Certificate Services data
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT    hrServer, hr;
+
+```cpp
+HRESULT    hrServer, hr;
 // pCertRequest is previously instantiated
 // ICertRequest object pointer.
-hr = pCertRequest-&gt;GetLastStatus((LONG *) &amp;hrServer);
+hr = pCertRequest->GetLastStatus((LONG *) &hrServer);
 if (FAILED(hr))
 {
     printf("Failed GetLastStatus [%x]\n", hr);
@@ -114,10 +110,10 @@ else
 {
     // Use the HRESULT value as needed...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

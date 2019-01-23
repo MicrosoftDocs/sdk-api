@@ -112,7 +112,7 @@ The effect is to offset the blending position of the visual's subtree by <i>x</i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">IDCompositionEffectGroup::SetTransform3D</a>
+<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">IDCompositionEffectGroup::SetTransform3D</a>
 
 
 
@@ -120,7 +120,7 @@ The effect is to offset the blending position of the visual's subtree by <i>x</i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
  
 
  

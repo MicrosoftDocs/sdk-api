@@ -65,7 +65,7 @@ The handle retrieved by previous call to the <a href="https://msdn.microsoft.com
 
 ### -param eReferralType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh971191(v=VS.85).aspx">SLREFERRALTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/350a28bd-cbdf-46f2-a404-aa16550a4711">SLREFERRALTYPE</a></b>
 
 The referral type.
 

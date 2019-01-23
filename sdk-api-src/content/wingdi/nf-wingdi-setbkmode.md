@@ -123,13 +123,9 @@ To see how to make the background of a  hatch brush transparent or opaque, refer
 The next example draws a string 36 times, rotating it 10 degrees 
 counterclockwise each time. It also sets the background mode to transparent to make the text visible.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include "strsafe.h"
+
+```cpp
+#include "strsafe.h"
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     int wmId, wmEvent;
@@ -214,10 +210,8 @@ LocalFree((LOCALHANDLE) plf);
     }
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 <div class="code"></div>

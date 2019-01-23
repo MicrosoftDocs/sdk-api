@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The 
 <b>INetSharingConfiguration</b> interface provides methods to manage connection sharing, port mapping, and Internet Connection Firewall.
@@ -89,7 +89,7 @@ Disables Internet Connection Firewall on this connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85fda578-603c-4447-8546-374077235943">DisableSharing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365940(v=VS.85).aspx">DisableSharing</a>
 </td>
 <td align="left" width="63%">
 Disables sharing on this connection.
@@ -98,7 +98,7 @@ Disables sharing on this connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9805f6bf-ee06-469f-9b2f-e48caa582d1a">EnableInternetFirewall</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365942(v=VS.85).aspx">EnableInternetFirewall</a>
 </td>
 <td align="left" width="63%">
 Enables Internet Connection Firewall on this connection.
@@ -116,7 +116,7 @@ Enables sharing on this connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5465acc-2b36-47d1-b48f-b36df3a8efb3">EnumPortMappings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365946(v=VS.85).aspx">EnumPortMappings</a>
 </td>
 <td align="left" width="63%">
 Retrieves an 

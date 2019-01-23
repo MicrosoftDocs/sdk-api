@@ -191,13 +191,9 @@ Because the call-back might not be returned at the same authentication level as 
 
 For more information, see <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f-884c-fa808b11dc8a">IWbemServices::ExecQuery</a> and <a href="https://msdn.microsoft.com/7a1eda93-014e-4067-b6d0-361a3d2fd1df">Calling a Method</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CStdProvider::ExecQueryAsync( 
+
+```cpp
+HRESULT CStdProvider::ExecQueryAsync( 
             /* [in] */ BSTR strQueryLanguage,
             /* [in] */ BSTR strQuery,
             /* [in] */ long lFlags,
@@ -214,7 +210,7 @@ For more information, see <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f
 // Assume there is an IWbemServices pointer (m_pSvc) available to 
 // retrieve the class definition.
     
-    HRESULT hRes = m_pSvc-&gt;GetObject(L"ClassName", 0, NULL, &amp;pClass, 0);
+    HRESULT hRes = m_pSvc->GetObject(L"ClassName", 0, NULL, &pClass, 0);
     if (FAILED(hRes))
         return hRes;
 
@@ -224,33 +220,33 @@ For more information, see <a href="https://msdn.microsoft.com/8cb4a42b-f8ae-4a6f
 
 // Now loop through the private source and create each   
 // instance which is part of the result set of the query.
-    for (int iCnt = 0 ; iCnt &lt; iNumInst ; iCnt++)
+    for (int iCnt = 0 ; iCnt < iNumInst ; iCnt++)
     {
 // Prepare an empty object to receive the class definition.
          IWbemClassObject *pNextInst = 0;
-         hRes = pClass-&gt;SpawnInstance(0, &amp;pNextInst);
+         hRes = pClass->SpawnInstance(0, &pNextInst);
 
 // Create the instance.
 //   You must implement FillInst().
          /*FillInst(pNextInst, iCnt);*/ 
 
 // Deliver the class to WMI.
-         pResponseHandler-&gt;Indicate(1, &amp;pNextInst);
-         pNextInst-&gt;Release( );
+         pResponseHandler->Indicate(1, &pNextInst);
+         pNextInst->Release( );
     }
 
 // Clean up memory
-    pClass-&gt;Release();
+    pClass->Release();
   
 // Send finish message to WMI.
 
-    pResponseHandler-&gt;SetStatus(0, hRes, 0, 0);
+    pResponseHandler->SetStatus(0, hRes, 0, 0);
 
     return hRes;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 In the previous example, the instance provider acquires a thread from WMI to perform the necessary synching operations. You can call the sink <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method and create another thread to deliver the objects in the result set. Creating another thread allows the current thread to return to WMI without depleting the thread pool. Whether the provider chooses the single thread design or the dual thread design depends on how long the provider plans to use the WMI thread. There are no fixed rules. Experimentation can help you determine how your design affects WMI performance.
 
 <div class="alert"><b>Note</b>  When providers implement 
@@ -258,32 +254,24 @@ In the previous example, the instance provider acquires a thread from WMI to per
 <a href="https://msdn.microsoft.com/en-us/library/Aa391789(v=VS.85).aspx">SetStatus</a> on the sink provided to its 
 <b>ExecQueryAsync</b> implementation, with the following flags.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// The pSink variable is of type IWbemObjectSink*
-pSink-&gt;SetStatus(WBEM_STATUS_REQUIREMENTS,
-    WBEM_REQUIREMENTS_START_POSTFILTER, 0, 0);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+// The pSink variable is of type IWbemObjectSink*
+pSink->SetStatus(WBEM_STATUS_REQUIREMENTS,
+    WBEM_REQUIREMENTS_START_POSTFILTER, 0, 0);
+```
+
+
 <div class="alert"><b>Note</b>  Any objects subsequently sent to the WMI service are filtered. The provider can turn off post-filtering in mid-stream by using the following call.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// The pSink variable is of type IWbemObjectSink*
-pSink-&gt;SetStatus(WBEM_STATUS_REQUIREMENTS, 
-    WBEM_REQUIREMENTS_STOP_POSTFILTER, 0, 0);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+// The pSink variable is of type IWbemObjectSink*
+pSink->SetStatus(WBEM_STATUS_REQUIREMENTS, 
+    WBEM_REQUIREMENTS_STOP_POSTFILTER, 0, 0);
+```
+
+
 
 
 

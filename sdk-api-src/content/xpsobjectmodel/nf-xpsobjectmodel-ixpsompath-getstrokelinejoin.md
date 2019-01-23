@@ -58,7 +58,7 @@ Gets the style for joining stroke lines.
 
 ### -param strokeLineJoin [out, retval]
 
-The <a href="https://msdn.microsoft.com/b0409564-a6b3-4e9d-b136-3d865dd46f1d">XPS_LINE_JOIN</a> value of the line join style of the stroke.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a> value of the line join style of the stroke.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://msdn.microsoft.com/b0409564-a6b3-4e9d-b136-3d865dd46f1d">XPS_LINE_JOIN</a>.
+For more information about the line join styles, see <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a>.
 
 
 
@@ -126,7 +126,7 @@ For more information about the line join styles, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/b0409564-a6b3-4e9d-b136-3d865dd46f1d">XPS_LINE_JOIN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a>
  
 
  

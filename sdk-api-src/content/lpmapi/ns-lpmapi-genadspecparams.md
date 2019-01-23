@@ -59,12 +59,12 @@ The
 
 ### -field gen_parm_hdr
 
-General information and length information for the Adspec parameters object (this structure), expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a> structure.
+General information and length information for the Adspec parameters object (this structure), expressed as an <a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a> structure.
 
 
 ### -field gen_parm_hopcnt_hdr
 
-Parameter header for hop count information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a> structure.
+Parameter header for hop count information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a> structure.
 
 
 ### -field gen_parm_hopcnt
@@ -74,7 +74,7 @@ Hop count information parameter.
 
 ### -field gen_parm_pathbw_hdr
 
-Parameter header for path bandwidth information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a> structure.
+Parameter header for path bandwidth information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a> structure.
 
 
 ### -field gen_parm_path_bw
@@ -84,7 +84,7 @@ Path bandwidth information parameter.
 
 ### -field gen_parm_minlat_hdr
 
-Parameter header for minimum latency information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a> structure.
+Parameter header for minimum latency information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a> structure.
 
 
 ### -field gen_parm_min_latency
@@ -94,7 +94,7 @@ Minimum latency information parameter.
 
 ### -field gen_parm_compmtu_hdr
 
-Parameter header for composed maximum transmission unit (MTU) information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a> structure.
+Parameter header for composed maximum transmission unit (MTU) information associated with the Adspec object, expressed as an <a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a> structure.
 
 
 ### -field gen_parm_composed_MTU
@@ -107,11 +107,11 @@ Composed MTU information parameter.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373723(v=VS.85).aspx">IntServParmHdr</a>
+<a href="https://msdn.microsoft.com/56ca242e-d5e9-4c16-9c8e-70a356375683">IntServParmHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373724(v=VS.85).aspx">IntServServiceHdr</a>
+<a href="https://msdn.microsoft.com/63e6a944-f16e-4b90-ab77-22e5c8ef3fb2">IntServServiceHdr</a>
  
 
  

@@ -99,19 +99,15 @@ The following example creates a
 						<b>StringFormat</b> object. The code uses the second 
 						<b>StringFormat</b> object to draw a string that contains the hot key prefix character. The code also draws the string's layout rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetHotkeyPrefix(HDC hdc)
+
+```cpp
+VOID Example_GetHotkeyPrefix(HDC hdc)
 {
    Graphics graphics(hdc);
 
    SolidBrush  solidBrush(Color(255, 255, 0, 0)); 
    FontFamily  fontFamily(L"Times New Roman");
-   Font        font(&amp;fontFamily, 24, FontStyleRegular, UnitPixel);
+   Font        font(&fontFamily, 24, FontStyleRegular, UnitPixel);
    
    // Create a StringFormat object, and set its hot key prefix.
    StringFormat stringFormat;
@@ -126,20 +122,20 @@ The following example creates a
 
    // Use the second StringFormat object in a call to DrawString.
   graphics.DrawString(
-      L"This &amp;text has some &amp;underlined characters.", 
+      L"This &text has some &underlined characters.", 
       43,  // string length
-      &amp;font, 
+      &font, 
       RectF(30, 30, 160, 200), 
-      &amp;stringFormat2, 
-      &amp;solidBrush);
+      &stringFormat2, 
+      &solidBrush);
 
    // Draw the rectangle that encloses the text.
    Pen pen(Color(255, 255, 0, 0));
-   graphics.DrawRectangle(&amp;pen, 30, 30, 160, 200);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&pen, 30, 30, 160, 200);
+}
+```
+
+
 
 
 

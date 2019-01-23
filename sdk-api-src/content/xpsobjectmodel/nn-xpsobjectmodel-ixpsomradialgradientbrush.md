@@ -141,13 +141,9 @@ Sets the sizes of the radii that define ellipse of the radial gradient region.
 <img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient1.png"/>
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMRadialGradientBrush    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -163,35 +159,35 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateRadialGradientBrush (
+    hr = xpsFactory->CreateRadialGradientBrush (
         gradStop1,
         gradStop2,
-        &amp;centerPoint,
-        &amp;gradientOrigin,
-        &amp;radiiSizes,
-        &amp;newInterface);
+        &centerPoint,
+        &gradientOrigin,
+        &radiiSizes,
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

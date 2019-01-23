@@ -129,7 +129,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7
 
 
 
-<a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>
  
 
  

@@ -184,13 +184,9 @@ A transformation specified by a source rectangle and three destination points ma
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds a closed figure to the path. The code defines a warp transformation by specifying a source rectangle and an array of four destination points. The source rectangle and destination points are passed to the <b>Warp</b> method. The code draws the path twice: once before it has been warped and once after it has been warped.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID WarpExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -212,7 +208,7 @@ VOID WarpExample(HDC hdc)
 
    // Draw the path before applying a warp transformation.
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;bluePen, &amp;path);
+   graphics.DrawPath(&bluePen, &path);
 
    // Define a warp transformation, and warp the path.
    RectF srcRect(10.0f, 50.0f, 50.0f, 100.0f);
@@ -226,20 +222,20 @@ VOID WarpExample(HDC hdc)
    path.Warp(destPts, 4, srcRect);
 
    // Draw the warped path.
-   graphics.DrawPath(&amp;bluePen, &amp;path);
+   graphics.DrawPath(&bluePen, &path);
 
    // Draw the source rectangle and the destination polygon.
    Pen blackPen(Color(255, 0, 0, 0));
-   graphics.DrawRectangle(&amp;blackPen, srcRect);
-   graphics.DrawLine(&amp;blackPen, destPts[0], destPts[1]);
-   graphics.DrawLine(&amp;blackPen, destPts[0], destPts[2]);
-   graphics.DrawLine(&amp;blackPen, destPts[1], destPts[3]);
-   graphics.DrawLine(&amp;blackPen, destPts[2], destPts[3]);
+   graphics.DrawRectangle(&blackPen, srcRect);
+   graphics.DrawLine(&blackPen, destPts[0], destPts[1]);
+   graphics.DrawLine(&blackPen, destPts[0], destPts[2]);
+   graphics.DrawLine(&blackPen, destPts[1], destPts[3]);
+   graphics.DrawLine(&blackPen, destPts[2], destPts[3]);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

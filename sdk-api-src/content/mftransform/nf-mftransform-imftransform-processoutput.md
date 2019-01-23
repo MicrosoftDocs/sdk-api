@@ -234,28 +234,24 @@ It is valid for the <b>ProcessOutput</b> method to return one or more events and
 
 The caller is responsible for releasing any events that the MFT allocates. When the method returns, check the <b>pEvents</b> member of each <a href="https://msdn.microsoft.com/57623c8f-f7b6-4cb3-8d54-4ee516c706c3">MFT_OUTPUT_DATA_BUFFER</a> structure. If the value is not <b>NULL</b>, the caller must release the <a href="https://msdn.microsoft.com/fec6aa17-2770-4f53-b36d-b94236093d23">IMFCollection</a> interface pointer:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Release the events that an MFT might allocate in IMFTransform::ProcessOutput().
+
+```cpp
+// Release the events that an MFT might allocate in IMFTransform::ProcessOutput().
 void ReleaseEventCollection(DWORD cOutputBuffers, MFT_OUTPUT_DATA_BUFFER* pBuffers)
 {
-    for (DWORD i = 0; i &lt; cOutputBuffers; i++)
+    for (DWORD i = 0; i < cOutputBuffers; i++)
     {
         if (pBuffers[i].pEvents)
         {
-            pBuffers[i].pEvents-&gt;Release();
+            pBuffers[i].pEvents->Release();
             pBuffers[i].pEvents = NULL;
         }
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 An MFT should not use the <a href="https://msdn.microsoft.com/a37d0840-c896-43a0-b3d1-c2a6aaff1b25">IMFMediaEventGenerator</a> interface to send in-band events.
 
 <h3><a id="Stream_Changes"></a><a id="stream_changes"></a><a id="STREAM_CHANGES"></a>Stream Changes</h3>

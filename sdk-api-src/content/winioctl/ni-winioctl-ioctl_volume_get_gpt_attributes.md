@@ -53,22 +53,18 @@ Retrieves the attributes for a volume.
 To perform this operation, call the 
    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,           // handle to the volume device
   IOCTL_VOLUME_GET_GPT_ATTRIBUTES, // dwIoControlCodeNULL,                       // lpInBuffer0,                          // nInBufferSize(LPVOID) lpOutBuffer,       // output buffer
   (DWORD) nOutBufferSize,     // size of output buffer
   (LPDWORD) lpBytesReturned,  // number of bytes returned
   (LPOVERLAPPED) lpOverlapped // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 
 ## -ioctlparameters
 
@@ -208,7 +204,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/d67590a9-9182-406f-8d15-8d40172cf5e5">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd627180(v=VS.85).aspx">VOLUME_GET_GPT_ATTRIBUTES_INFORMATION</a>
 
 
 

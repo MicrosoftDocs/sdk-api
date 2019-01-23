@@ -86,7 +86,7 @@ Controls the operation. This parameter can be one of the following values.
 </td>
 <td width="60%">
 Converts encoded characters back to their normal form. This can be used only if the user provides buffers in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a> structure to copy the components into.
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure to copy the components into.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ Converts encoded characters back to their normal form. This can be used only if 
 </td>
 <td width="60%">
 Converts all escape sequences (%xx) to their corresponding characters. This can be used only if the user provides buffers in the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a> structure to copy the components into.
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure to copy the components into.
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Converts all escape sequences (%xx) to their corresponding characters. This can 
 ### -param lpUrlComponents [in, out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a> structure that receives the URL components.
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure that receives the URL components.
 
 
 ## -returns
@@ -126,7 +126,7 @@ Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get 
 
 
 The required components are indicated by members of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a> structure. Each component has a pointer to the value and has a member that stores the length of the stored value. If both the value and the length for a component are equal to zero, that component is not returned. <b>Windows Vista and later.:  </b>If the pointer to the value of the component is <b>NULL</b> and the value of its corresponding length member is nonzero, the address of the first character of the corresponding component in the 
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure. Each component has a pointer to the value and has a member that stores the length of the stored value. If both the value and the length for a component are equal to zero, that component is not returned. <b>Windows Vista and later.:  </b>If the pointer to the value of the component is <b>NULL</b> and the value of its corresponding length member is nonzero, the address of the first character of the corresponding component in the 
 <i>lpszUrl</i> string is stored in the pointer, and the length of the component is stored in the length member.
 
 
@@ -136,10 +136,10 @@ If the pointer contains the address of the user-supplied buffer, the length memb
 
 For 
 <b>InternetCrackUrl</b> to work properly, the size of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a> structure, in bytes, must be stored in the 
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure, in bytes, must be stored in the 
 <b>dwStructSize</b> member.
 
-<b>Note</b>  Do not use <b>InternetCrackUrl</b> on "file://" URLs that contain spaces, because  the value returned in the <b>dwUrlPathLength</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a> structure pointed to by <i>lpUrlComponents</i> is too large. This is only the case, however, with "file://" URLs that contain space characters.
+<b>Note</b>  Do not use <b>InternetCrackUrl</b> on "file://" URLs that contain spaces, because  the value returned in the <b>dwUrlPathLength</b> member of the <a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure pointed to by <i>lpUrlComponents</i> is too large. This is only the case, however, with "file://" URLs that contain space characters.
 
 Like all other aspects of the WinINet API, this function cannot be safely called from within DllMain or the constructors and destructors of global objects.
 

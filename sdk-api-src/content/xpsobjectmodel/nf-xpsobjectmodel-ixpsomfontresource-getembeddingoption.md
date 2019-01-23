@@ -60,7 +60,7 @@ Gets the embedding option that will be applied when the resource is serialized.
 
 The stream's embedding option.
 
-The <a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING</a> value describes how the resource is obfuscated. The following possible values are returned in this parameter:
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING</a> value describes how the resource is obfuscated. The following possible values are returned in this parameter:
 
 <table>
 <tr>
@@ -123,7 +123,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING</a>
  
 
  

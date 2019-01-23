@@ -68,7 +68,7 @@ A string that contains a valid configuration for the CA. The string must be in t
 The <b>SetWebCAInformation</b> method pings the CA computer to verify that it is available on the network.
 
 Upon success, <b>SetWebCAInformation</b> sets the ENUM_SETUPPROP_WEBCAMACHINE and ENUM_SETUPPROP_WEBCANAME properties for the Certification Authority Web Enrollment role configuration.
-For more information about setup properties, see <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a>.
+For more information about setup properties, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
 
 
 

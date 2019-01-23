@@ -91,7 +91,7 @@ The type of information to be generated. This parameter can be one or more of th
 ### -param ExceptionParam [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/86416432-99e4-45ae-84e0-84b7b2341d11">MINIDUMP_EXCEPTION_INFORMATION</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/ms680366(v=VS.85).aspx">MINIDUMP_EXCEPTION_INFORMATION</a> 
       structure describing the client exception that caused the minidump to be generated. If the value of this 
       parameter is <b>NULL</b>, no exception information is included in the minidump file.
 
@@ -99,7 +99,7 @@ A pointer to a
 ### -param UserStreamParam [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/2a6b20ee-83cb-4000-b00a-61c4ab513205">MINIDUMP_USER_STREAM_INFORMATION</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/ms680524(v=VS.85).aspx">MINIDUMP_USER_STREAM_INFORMATION</a> 
       structure. If the value of this parameter is <b>NULL</b>, no user-defined information is 
       included in the minidump file.
 
@@ -107,7 +107,7 @@ A pointer to a
 ### -param CallbackParam [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/98caf4c3-8e6b-4f42-ae48-977a8392de1c">MINIDUMP_CALLBACK_INFORMATION</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/ms680361(v=VS.85).aspx">MINIDUMP_CALLBACK_INFORMATION</a> 
       structure that specifies a callback routine which is to receive extended minidump information. If the value of 
       this parameter is <b>NULL</b>, no callbacks are performed.
 
@@ -168,15 +168,15 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
-<a href="https://msdn.microsoft.com/98caf4c3-8e6b-4f42-ae48-977a8392de1c">MINIDUMP_CALLBACK_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680361(v=VS.85).aspx">MINIDUMP_CALLBACK_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/86416432-99e4-45ae-84e0-84b7b2341d11">MINIDUMP_EXCEPTION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680366(v=VS.85).aspx">MINIDUMP_EXCEPTION_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a6b20ee-83cb-4000-b00a-61c4ab513205">MINIDUMP_USER_STREAM_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680524(v=VS.85).aspx">MINIDUMP_USER_STREAM_INFORMATION</a>
 
 
 

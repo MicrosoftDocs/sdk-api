@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The table of <a href="https://msdn.microsoft.com/71342454-5AEF-4C96-8914-ED8859BD9D81">NET_INTERFACE_CONTEXT</a> structures.
+The table of <a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).aspx">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ The number of entries in the table.
 
 ### -field InterfaceContextArray
 
-An array of <a href="https://msdn.microsoft.com/71342454-5AEF-4C96-8914-ED8859BD9D81">NET_INTERFACE_CONTEXT</a> structures.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).aspx">NET_INTERFACE_CONTEXT</a> structures.
 
 
 ## -see-also
@@ -80,7 +80,7 @@ An array of <a href="https://msdn.microsoft.com/71342454-5AEF-4C96-8914-ED8859BD
 
 
 
-<a href="https://msdn.microsoft.com/71342454-5AEF-4C96-8914-ED8859BD9D81">NET_INTERFACE_CONTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).aspx">NET_INTERFACE_CONTEXT</a>
  
 
  

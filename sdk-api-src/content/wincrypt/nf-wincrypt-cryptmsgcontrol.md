@@ -169,7 +169,7 @@ A <a href="https://msdn.microsoft.com/f599226d-ddd7-455f-b650-74b91674d8f9">CMSG
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/5e347a50-942e-4278-a9ae-ad4c30c55c6b">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa377807(v=VS.85).aspx">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains the index of the signer and a BLOB  that contains the unauthenticated attribute information to be added to the message.
 
 </td>
 </tr>
@@ -236,7 +236,7 @@ The index of the signer to be deleted.
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/729fbbe0-40c6-41e7-851f-6f93f47e8f4d">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa377812(v=VS.85).aspx">CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA</a>   structure that contains an index  that specifies the signer and the index  that specifies the signer's unauthenticated attribute to be deleted.
 
 </td>
 </tr>
@@ -323,7 +323,7 @@ A
 </dl>
 </td>
 <td width="60%">
-A <a href="https://msdn.microsoft.com/56b73de8-c170-46f6-b488-096475b59c15">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
+A <a href="https://msdn.microsoft.com/en-us/library/Aa377824(v=VS.85).aspx">CMSG_CTRL_VERIFY_SIGNATURE_EX_PARA</a>   structure that specifies the signer index and public key to verify the message signature. The signer public key can be a 
 <a href="https://msdn.microsoft.com/bab6c147-b7cd-408a-acac-90f05921e065">CERT_PUBLIC_KEY_INFO</a> structure, a certificate context, or a certificate chain context.
 
 </td>

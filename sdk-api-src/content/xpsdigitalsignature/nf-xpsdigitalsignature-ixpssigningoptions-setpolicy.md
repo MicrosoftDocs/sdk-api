@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> value that represents the signing policy.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Sets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b1
 
 ### -param policy [in]
 
-The logical <b>OR</b> of  the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> values to be set as the signing policy.
+The logical <b>OR</b> of  the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> values to be set as the signing policy.
 
 
 ## -returns
@@ -74,7 +74,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-If an <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value is set and it does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
+If an <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> value is set and it does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
 
 
 
@@ -96,7 +96,7 @@ If an <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">
 
 
 
-<a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a>
  
 
  

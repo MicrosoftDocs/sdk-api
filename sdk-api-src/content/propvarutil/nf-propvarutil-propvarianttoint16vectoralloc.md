@@ -131,25 +131,21 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 This helper function is used in places where the calling application expects a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> to hold an Int16 vector value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is expecting propvar to contain a vector of Int16 values.
 SHORT *prgShorts;
 ULONG cElems;
-HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, &amp; prgShorts, &amp;cElems);
+HRESULT hr = PropVariantToBooleanVectorAlloc(propvar, & prgShorts, &cElems);
 if (SUCCEEDED(hr))
 {
      // prgShorts now points to a vector of cElems SHORTs.
      CoTaskMemFree(prgShorts);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -158,23 +154,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="shell.PropVariantGetInt16Elem">PropVariantGetInt16Elem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a>
 
 
 
-<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
 
 
 
-<a href="shell.PropVariantToInt16Vector">PropVariantToInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776547(v=VS.85).aspx">PropVariantToInt16Vector</a>
 
 
 
-<a href="shell.VariantToInt16Array">VariantToInt16Array</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776605(v=VS.85).aspx">VariantToInt16Array</a>
  
 
  

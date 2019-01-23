@@ -83,7 +83,7 @@ The number of elements in the <i>pInputTypes</i> array.
 
 ### -param pInputTypes [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/1d26b9ee-545a-4e47-9a68-b9e567f0dec4">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. This parameter can be <b>NULL</b> if <i>cInputTypes</i> is zero.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array specifies an input format that the MFT supports. This parameter can be <b>NULL</b> if <i>cInputTypes</i> is zero.
 
 
 ### -param cOutputTypes [in]
@@ -93,7 +93,7 @@ The number of elements in the <i>pOutputTypes</i> array.
 
 ### -param pOutputTypes [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/1d26b9ee-545a-4e47-9a68-b9e567f0dec4">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. This parameter can be <b>NULL</b> if <i>cOutputTypes</i> is zero.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structures. Each member of the array defines an output format that the MFT supports. This parameter can be <b>NULL</b> if <i>cOutputTypes</i> is zero.
 
 
 ## -returns

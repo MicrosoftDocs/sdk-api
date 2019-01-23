@@ -93,33 +93,25 @@ In the process of removing elements,  <b>RemoveAt</b> shifts down all the elemen
 
 The following code example shows the use of <b>CHStringArray::RemoveAt</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHStringArray array;
+
+```cpp
+CHStringArray array;
 
 array.Add( L"String 1" ); // Element 0
 array.Add( L"String 2" ); // Element 1
 array.RemoveAt( 0 );  // Element 1 moves to 0.
-assert ( array[0] == L"String 2" );</pre>
-</td>
-</tr>
-</table></span></div>
+assert ( array[0] == L"String 2" );
+```
+
+
 The results from this program are as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[0] = String 2</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+[0] = String 2
+```
+
+
 
 
 

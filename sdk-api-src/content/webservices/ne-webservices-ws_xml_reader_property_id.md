@@ -80,7 +80,7 @@ See <a href="https://msdn.microsoft.com/0d4449aa-ffcc-41d9-99b1-7352edaf3700">Ws
 
 A <b>BOOL</b> that
           specifies whether the reader will permit multiple elements and non-white space at the top level of the document.  This property
-          may not be set to <b>TRUE</b> with <a href="https://msdn.microsoft.com/dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb">WS_XML_READER_MTOM_ENCODING</a>.
+          may not be set to <b>TRUE</b> with <a href="https://msdn.microsoft.com/en-us/library/Dd323549(v=VS.85).aspx">WS_XML_READER_MTOM_ENCODING</a>.
         
 
 This property defaults to <b>FALSE</b>.
@@ -110,11 +110,11 @@ This property defaults to <b>TRUE</b>.
 
 ### -field WS_XML_READER_PROPERTY_CHARSET
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401789(v=VS.85).aspx">WS_CHARSET</a> value that returns the character set of the xml document.  This value is only available for
+A <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET</a> value that returns the character set of the xml document.  This value is only available for
           text documents.
         
 
-If the reader was initialized with a <a href="https://msdn.microsoft.com/en-us/library/Dd401789(v=VS.85).aspx">WS_CHARSET_AUTO</a> then it will automatically determine this
+If the reader was initialized with a <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a> then it will automatically determine this
           value.  The reader input source is streamed, then the reader must have enough data buffered to be able to
           inspect initial byte order marks and the xml declaration.  See <a href="https://msdn.microsoft.com/1f4138a2-acc5-4f1d-8e35-544859d2fa49">WsFillReader</a>.
         
@@ -167,7 +167,7 @@ Indicates that <a href="https://msdn.microsoft.com/6fd0c8c2-2eac-4d98-898d-1c584
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_ROOT_MIME_PART_SIZE
 
-A <b>ULONG</b>used with <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://msdn.microsoft.com/dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b>used with <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd323549(v=VS.85).aspx">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of the root MIME part, which is the part that contains
           the xml portion of the document.  It has no effect when used with other encodings, or when used with
           <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a>.
@@ -179,7 +179,7 @@ This property defaults to 65536.
 
 ### -field WS_XML_READER_PROPERTY_STREAM_MAX_MIME_HEADERS_SIZE
 
-A <b>ULONG</b>used with <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://msdn.microsoft.com/dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb">WS_XML_READER_MTOM_ENCODING</a>.
+A <b>ULONG</b>used with <a href="https://msdn.microsoft.com/53537eb2-6b8d-443e-9453-4b39dfef1dd7">WS_XML_READER_STREAM_INPUT</a> in conjunction with <a href="https://msdn.microsoft.com/en-us/library/Dd323549(v=VS.85).aspx">WS_XML_READER_MTOM_ENCODING</a>.
           This value specifies the maximum size of any group of MIME headers that may appear in the document.
           It has no effect when used with other encodings, or when used with <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a>.
         
@@ -190,7 +190,7 @@ This property defaults to 256.
 
 ### -field WS_XML_READER_PROPERTY_MAX_MIME_PARTS
 
-A <b>ULONG</b>used with  <a href="https://msdn.microsoft.com/dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb">WS_XML_READER_MTOM_ENCODING</a>. This value specifies the maximum number of MIME parts
+A <b>ULONG</b>used with  <a href="https://msdn.microsoft.com/en-us/library/Dd323549(v=VS.85).aspx">WS_XML_READER_MTOM_ENCODING</a>. This value specifies the maximum number of MIME parts
           that may appear in the document.  It has no effect when used with other encodings.
         
 
@@ -200,7 +200,7 @@ This property defaults to 4096.
 
 ### -field WS_XML_READER_PROPERTY_ALLOW_INVALID_CHARACTER_REFERENCES
 
-A <b>BOOL</b> used with <a href="https://msdn.microsoft.com/ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6">WS_XML_READER_TEXT_ENCODING</a>. Setting this to <b>TRUE</b> permits character references
+A <b>BOOL</b> used with <a href="https://msdn.microsoft.com/en-us/library/Dd323556(v=VS.85).aspx">WS_XML_READER_TEXT_ENCODING</a>. Setting this to <b>TRUE</b> permits character references
           of characters considered invalid by XML 1.0 to be accepted.
         
 

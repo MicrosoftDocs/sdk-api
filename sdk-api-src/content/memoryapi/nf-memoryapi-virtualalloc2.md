@@ -392,13 +392,9 @@ When creating a region that will be executable, the calling program bears respon
 
 Scenario 1. Create a circular buffer by mapping two adjacent views of the same shared memory section.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <windows.h>
+
+```cpp
+#include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -590,21 +586,15 @@ int __cdecl wmain()
     UnmapViewOfFile (ringBuffer);
     UnmapViewOfFile (secondaryView);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Scenario 2. Specify a preferred NUMA node when allocating memory.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 void*
 AllocateWithPreferredNode (size_t size, unsigned int numaNode)
 {
@@ -620,21 +610,15 @@ AllocateWithPreferredNode (size_t size, unsigned int numaNode)
         PAGE_READWRITE,
         &param, 1);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Scenario 3. Allocate memory in a specific virtual address range (below 4GB, in this example) and with specific alignment.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 void*
 AllocateAlignedBelow2GB (size_t size, size_t alignment)
 {
@@ -654,10 +638,8 @@ AllocateAlignedBelow2GB (size_t size, size_t alignment)
         PAGE_READWRITE,
         &param, 1);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

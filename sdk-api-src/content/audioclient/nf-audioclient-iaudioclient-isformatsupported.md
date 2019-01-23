@@ -61,7 +61,7 @@ The <b>IsFormatSupported</b> method indicates whether the audio endpoint device 
 
 ### -param ShareMode [in]
 
-The sharing mode for the stream format. Through this parameter, the client indicates whether it wants to use the specified format in exclusive mode or shared mode. The client should set this parameter to one of the following <a href="https://msdn.microsoft.com/f4870d0f-85d1-48ad-afe0-2f5a960c08fb">AUDCLNT_SHAREMODE</a> enumeration values:
+The sharing mode for the stream format. Through this parameter, the client indicates whether it wants to use the specified format in exclusive mode or shared mode. The client should set this parameter to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370790(v=VS.85).aspx">AUDCLNT_SHAREMODE</a> enumeration values:
 
 AUDCLNT_SHAREMODE_EXCLUSIVE
 

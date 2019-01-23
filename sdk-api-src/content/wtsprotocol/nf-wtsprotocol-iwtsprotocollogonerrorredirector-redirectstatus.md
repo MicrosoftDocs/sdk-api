@@ -65,7 +65,7 @@ A pointer to a string that contains the logon status message.
 
 ### -param pResponse [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/67ed8d6f-641c-4739-911c-e61379e14048">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that contains the response. This can be one of the following values.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd920059(v=VS.85).aspx">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that contains the response. This can be one of the following values.
 
 
 ## -returns

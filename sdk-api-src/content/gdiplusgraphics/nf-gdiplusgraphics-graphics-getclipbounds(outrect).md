@@ -49,7 +49,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::GetClipBounds</b> method gets a rectangle that encloses the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+The <b>Graphics::GetClipBounds</b> method gets a rectangle that encloses the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 ## -parameters
@@ -61,19 +61,19 @@ The <b>Graphics::GetClipBounds</b> method gets a rectangle that encloses the cli
 
 Type: <b>Rect*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object that receives the rectangle that encloses the clipping region. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object that receives the rectangle that encloses the clipping region. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -85,7 +85,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 The world transformation is applied to the clipping region and then the enclosing rectangle is calculated.
 
 If you do not explicitly set the clipping region of a 
-				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, its clipping region is infinite. When the clipping region is infinite, <b>Graphics::GetClipBounds</b> returns a large rectangle. The 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, its clipping region is infinite. When the clipping region is infinite, <b>Graphics::GetClipBounds</b> returns a large rectangle. The 
 				<b>X</b> and 
 				<b>Y</b> data members of that rectangle are large negative numbers, and the 
 				<b>Width</b> and 
@@ -98,13 +98,9 @@ If you do not explicitly set the clipping region of a
 
 The following example sets a clipping region, gets the rectangle that encloses the clipping region, and then fills the rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetClipBounds(HDC hdc)
+
+```cpp
+VOID Example_GetClipBounds(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -120,20 +116,20 @@ The following example sets a clipping region, gets the rectangle that encloses t
    myRegion.Union(rect);
 
    // Set the clipping region of the graphics object.
-   graphics.SetClip(&amp;myRegion);
+   graphics.SetClip(&myRegion);
 
    // Now, get the clipping region, and fill it.
-   graphics.GetClip(&amp;gRegion);
-   graphics.FillRegion(&amp;blueBrush, &amp;gRegion);
+   graphics.GetClip(&gRegion);
+   graphics.FillRegion(&blueBrush, &gRegion);
 
    // Get a rectangle that encloses the clipping region, and draw the enclosing
    // rectangle.
-   graphics.GetClipBounds(&amp;enclosingRect);
+   graphics.GetClipBounds(&enclosingRect);
    graphics.ResetClip();
-   graphics.DrawRectangle(&amp;greenPen, enclosingRect);}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&greenPen, enclosingRect);}
+```
+
+
 
 
 
@@ -142,35 +138,35 @@ The following example sets a clipping region, gets the rectangle that encloses t
 
 
 
-<a href="https://msdn.microsoft.com/58cc052d-31af-4410-81b9-defbad08a1dc">Clipping</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536360(v=VS.85).aspx">Clipping</a>
 
 
 
-<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/af7ed6de-00c3-46c8-b597-142bee9b02cc">GetVisibleClipBounds Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535781(v=VS.85).aspx">GetVisibleClipBounds Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a1f3e79-34c6-4974-a877-3cea75ecb9cc">Graphics::GetClip</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535698(v=VS.85).aspx">Graphics::GetClip</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8348373-da79-4d33-8bea-d594985493d4">SetClip Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535789(v=VS.85).aspx">SetClip Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
  
 
  

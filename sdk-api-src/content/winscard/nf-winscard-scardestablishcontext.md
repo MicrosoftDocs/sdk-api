@@ -135,19 +135,15 @@ If the client attempts a smart card operation in a remote session, such as a cli
 
 The following example establishes a resource manager context.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SCARDCONTEXT    hSC;
+
+```cpp
+SCARDCONTEXT    hSC;
 LONG            lReturn;
 // Establish the context.
 lReturn = SCardEstablishContext(SCARD_SCOPE_USER,
                                 NULL,
                                 NULL,
-                                &amp;hSC);
+                                &hSC);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardEstablishContext\n");
 else
@@ -156,10 +152,10 @@ else
     // free the context by calling SCardReleaseContext.
     // ...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

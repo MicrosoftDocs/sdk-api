@@ -49,7 +49,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Bitmap::ApplyEffect</b> method  creates a new <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object by applying a specified effect to an existing <b>Bitmap</b> object.
+The <b>Bitmap::ApplyEffect</b> method  creates a new <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object by applying a specified effect to an existing <b>Bitmap</b> object.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ The <b>Bitmap::ApplyEffect</b> method  creates a new <a href="https://msdn.micro
 
 ### -param inputs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>**</b>
 
-Address of a pointer to a <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object to which the effect is applied.
+Address of a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object to which the effect is applied.
 
 
 ### -param numInputs [in]
@@ -73,9 +73,9 @@ Integer that specifies the number of input bitmaps. This parameter must be set t
 
 ### -param effect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7b32aad2-ba44-46a6-8315-d55fed2d9391">Effect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a>*</b>
 
-Pointer to an instance of a descendant of the <a href="https://msdn.microsoft.com/7b32aad2-ba44-46a6-8315-d55fed2d9391">Effect</a> class. The descendant (for example, a <a href="https://msdn.microsoft.com/a061b15b-bce4-4b38-adba-836b6b295c80">Blur</a> object) specifies the effect that is applied.
+Pointer to an instance of a descendant of the <a href="https://msdn.microsoft.com/en-us/library/ms534433(v=VS.85).aspx">Effect</a> class. The descendant (for example, a <a href="https://msdn.microsoft.com/en-us/library/ms534422(v=VS.85).aspx">Blur</a> object) specifies the effect that is applied.
 
 
 ### -param ROI [in]
@@ -94,22 +94,22 @@ Pointer to a RECT structure that receives the portion of the input bitmap that w
 
 ### -param output [out]
 
-Type: <b><a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>**</b>
 
-Address of a variable that receives a pointer to the new <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object.
+Address of a variable that receives a pointer to the new <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object.
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -118,22 +118,18 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<b>Bitmap::ApplyEffect</b> returns a pointer to a new <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object. When you have finished using that <b>Bitmap</b> object, call <a href="https://msdn.microsoft.com/b489f6d6-bc04-4234-8f77-b48dce1f2fe6">delete</a> to free the memory that it occupies.
+<b>Bitmap::ApplyEffect</b> returns a pointer to a new <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object. When you have finished using that <b>Bitmap</b> object, call <a href="https://msdn.microsoft.com/en-us/library/ms536164(v=VS.85).aspx">delete</a> to free the memory that it occupies.
 
 
 #### Examples
 
 
 
-The following example creates two <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> objects: <b>inputBitmap</b> and <b>outputBitmap</b>. First, <b>inputBitmap</b> is constructed from a BMP file. Then <b>outputBitmap</b> is created by passing the address of <b>inputBitmap</b> to the <b>Bitmap::ApplyEffect</b> method. <b>Bitmap::ApplyEffect</b> takes the portion of <b>inputBitmap</b> specified by <b>rectOfInterest</b> and increases the contrast as specified by <b>briCon</b>, a <a href="https://msdn.microsoft.com/92eaf786-ab9e-46ae-af02-e620b3a35a8a">BrightnessContrast</a> object.
+The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> objects: <b>inputBitmap</b> and <b>outputBitmap</b>. First, <b>inputBitmap</b> is constructed from a BMP file. Then <b>outputBitmap</b> is created by passing the address of <b>inputBitmap</b> to the <b>Bitmap::ApplyEffect</b> method. <b>Bitmap::ApplyEffect</b> takes the portion of <b>inputBitmap</b> specified by <b>rectOfInterest</b> and increases the contrast as specified by <b>briCon</b>, a <a href="https://msdn.microsoft.com/en-us/library/ms534423(v=VS.85).aspx">BrightnessContrast</a> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_BrightnessContrastApplyEffect2(HDC hdc)
+
+```cpp
+VOID Example_BrightnessContrastApplyEffect2(HDC hdc)
 {
    Graphics graphics(hdc);
    Bitmap* inputBitmap = new Bitmap(L"Picture.bmp");
@@ -144,24 +140,24 @@ The following example creates two <a href="https://msdn.microsoft.com/f9826772-b
    briConParams.brightnessLevel = 0;
    briConParams.contrastLevel = 25;
    BrightnessContrast briCon;
-   briCon.SetParameters(&amp;briConParams);
+   briCon.SetParameters(&briConParams);
 
    // Draw the original image.
    graphics.DrawImage(inputBitmap, 20, 20);
 
    // Apply the change in contrast.
    Bitmap::ApplyEffect(
-      &amp;inputBitmap, 1, &amp;briCon, &amp;rectOfInterest, NULL, &amp;outputBitmap);
+      &inputBitmap, 1, &briCon, &rectOfInterest, NULL, &outputBitmap);
 
    // Draw the new image.
    graphics.DrawImage(outputBitmap, 200, 20);
 
    delete inputBitmap;
    delete outputBitmap;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -170,11 +166,11 @@ The following example creates two <a href="https://msdn.microsoft.com/f9826772-b
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b3d0a2f-acff-47a7-bc9f-6e9d659f683c">Bitmap::ApplyEffect Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536284(v=VS.85).aspx">Bitmap::ApplyEffect Methods</a>
  
 
  

@@ -60,14 +60,14 @@ Sets the color value and color profile of the brush.
 
 The color value of the brush. 
 
-If the value of the <b>colorType</b> field in the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure that is passed in this parameter is <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>, a valid color profile must be provided in the <i>colorProfile</i> parameter.
+If the value of the <b>colorType</b> field in the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure that is passed in this parameter is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>, a valid color profile must be provided in the <i>colorProfile</i> parameter.
 
 
 ### -param colorProfile [in]
 
 The color profile to be used with <i>color</i>.
 
-A color profile is required when the value of the <b>colorType</b> field in the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure that is passed  in the <i>color</i> parameter is <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>. If the value of the <b>colorType</b> field is not <b>XPS_COLOR_TYPE_CONTEXT</b>, this parameter must be set to <b>NULL</b>.
+A color profile is required when the value of the <b>colorType</b> field in the <a href="https://msdn.microsoft.com/710f3ef1-bbc3-416d-9faf-aa4a716007c2">XPS_COLOR</a> structure that is passed  in the <i>color</i> parameter is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>. If the value of the <b>colorType</b> field is not <b>XPS_COLOR_TYPE_CONTEXT</b>, this parameter must be set to <b>NULL</b>.
 
 
 ## -returns
@@ -110,7 +110,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> is <b>NULL</b> when a color profile is expected. A color profile is required when the color type is <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> is <b>NULL</b> when a color profile is expected. A color profile is required when the color type is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> has a color profile when none is expected. A color profile is only allowed when the color type is <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> has a color profile when none is expected. A color profile is only allowed when the color type is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>

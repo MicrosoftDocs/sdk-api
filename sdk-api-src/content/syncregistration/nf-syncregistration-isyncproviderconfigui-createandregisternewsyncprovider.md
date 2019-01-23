@@ -62,7 +62,7 @@ Creates and registers a new  synchronization provider.
 ### -param hwndParent [in]
 
 HWND serving as the parent for the configuration UI that needs to be presented before the synchronization provider can be created. 
-    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://msdn.microsoft.com/4f07719b-c1e5-4985-a952-0ff07601bf1a">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
+    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd317251(v=VS.85).aspx">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
 
 
 ### -param pUnkContext [in]

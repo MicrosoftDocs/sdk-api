@@ -72,7 +72,7 @@ The  offset in the destination space that the image will be rendered to. The ent
 
 ### -param interpolationMode
 
-Type: <b><a href="direct2d.__D2D1_INTERPOLATION_MODE">D2D1_INTERPOLATION_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447004(v=VS.85).aspx">D2D1_INTERPOLATION_MODE</a></b>
 
 The interpolation mode that will be used to scale the image if necessary. 
 

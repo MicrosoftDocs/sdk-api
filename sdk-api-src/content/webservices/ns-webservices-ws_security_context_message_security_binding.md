@@ -112,7 +112,7 @@ Currently, only <a href="https://msdn.microsoft.com/2f19877f-b79b-43c3-a3f5-93dd
             supported.  With this usage, this security binding provides client
             authentication, but not message protection (such as signing, encryption,
             replay detection).  Thus, this binding must be used together with
-            another security binding such as the <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ceb8e6">WS_SSL_TRANSPORT_SECURITY_BINDING</a> 
+            another security binding such as the <a href="https://msdn.microsoft.com/en-us/library/Dd323441(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING</a> 
             that provides a protected channel.
           
 

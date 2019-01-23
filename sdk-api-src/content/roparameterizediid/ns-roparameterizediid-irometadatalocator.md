@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Enables the <a href="https://msdn.microsoft.com/en-us/library/BR229857(v=VS.85).aspx">RoGetParameterizedTypeInstanceIID</a> function to access run-time metadata.
+Enables the <a href="https://msdn.microsoft.com/DE908C82-5D7C-415C-B08B-31786589979B">RoGetParameterizedTypeInstanceIID</a> function to access run-time metadata.
 
 Implement <b>IRoMetaDataLocator</b> when you're implementing programming language bindings to enable a language to call Windows platform APIs by using Windows metadata (.winmd) files.
 

@@ -58,7 +58,7 @@ Removes a child visual from the children list of this visual.
 
 ### -param visual [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>*</b>
 
 The child visual to remove from the children list. This parameter must not be NULL.
 
@@ -90,19 +90,19 @@ This method fails if <i>visual</i> is not a child of the parent visual.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx">IDCompositionDevice::CreateVisual</a>
+<a href="https://msdn.microsoft.com/3b4fefe0-772e-42bd-8e81-37d0b128c418">IDCompositionDevice::CreateVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449141(v=VS.85).aspx">IDCompositionVisual::AddVisual</a>
+<a href="https://msdn.microsoft.com/e1124df5-7795-49c3-a640-f218cfdd4f1d">IDCompositionVisual::AddVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449143(v=VS.85).aspx">IDCompositionVisual::RemoveAllVisuals</a>
+<a href="https://msdn.microsoft.com/b3872d6a-f3f8-4343-b01d-6db5490abb13">IDCompositionVisual::RemoveAllVisuals</a>
  
 
  

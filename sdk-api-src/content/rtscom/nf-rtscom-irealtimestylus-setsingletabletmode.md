@@ -90,35 +90,31 @@ If <a href="https://msdn.microsoft.com/cb8b2a17-68b9-482b-b212-ad129522ff2e">IRe
 
 The following C++ example code sets a <a href="https://msdn.microsoft.com/bfd13012-decf-423a-bc1a-39fb9b0eb64e">IRealTimeStylus</a> object, <code>g_pRealTimeStylus</code>, to single tablet mode so it can get the tablet and retrieve its plug-and-play identifier. Then it sets the <b>IRealTimeStylus</b> object back to all tablets mode.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Must be in single tablet mode for GetTablet to succeed. This call to
+
+```cpp
+// Must be in single tablet mode for GetTablet to succeed. This call to
 // SetSingleTabletMode() would likely happen somewhere else in the app.
-if (SUCCEEDED(g_pRealTimeStylus-&gt;SetSingleTabletMode(pInkTablet)))
+if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 {
     IInkTablet* pTablet = NULL;
 
-    if ((SUCCEEDED(g_pRealTimeStylus-&gt;GetTablet(&amp;pTablet))) &amp;&amp; (NULL != pTablet))
+    if ((SUCCEEDED(g_pRealTimeStylus->GetTablet(&pTablet))) && (NULL != pTablet))
     {
         BSTR bstrPnPID;
 
-        if (SUCCEEDED(pTablet-&gt;get_PlugAndPlayId(&amp;bstrPnPID)))
+        if (SUCCEEDED(pTablet->get_PlugAndPlayId(&bstrPnPID)))
         {
             TRACE("The tablet's Plug-n-Play ID is: %s\n", bstrPnPID);
         }
     }
 
     // Restore all tablets mode.
-    g_pRealTimeStylus-&gt;SetAllTabletsMode(TRUE);
+    g_pRealTimeStylus->SetAllTabletsMode(TRUE);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

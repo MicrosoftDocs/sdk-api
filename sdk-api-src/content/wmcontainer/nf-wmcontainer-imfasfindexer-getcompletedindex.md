@@ -128,13 +128,9 @@ You cannot use this method in an index reading scenario.  You can only use this 
 
 The following example shows how to write the complete ASF index to a byte stream.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
+
+```cpp
+HRESULT WriteASFIndex(IMFASFIndexer *pIndex,IMFByteStream *pStream)
 {
     const DWORD cbChunkSize = 4096;
 
@@ -143,39 +139,39 @@ The following example shows how to write the complete ASF index to a byte stream
     QWORD cbIndex = 0;
     DWORD cbIndexWritten = 0;
 
-    HRESULT hr = pIndex-&gt;GetIndexWriteSpace(&amp;cbIndex);
+    HRESULT hr = pIndex->GetIndexWriteSpace(&cbIndex);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = MFCreateMemoryBuffer(cbChunkSize, &amp;pBuffer);
+    hr = MFCreateMemoryBuffer(cbChunkSize, &pBuffer);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    while (cbIndexWritten &lt; cbIndex)
+    while (cbIndexWritten < cbIndex)
     {
         BYTE *pData = NULL;
         DWORD cbData = 0;
         DWORD cbWritten = 0;
 
-        hr = pIndex-&gt;GetCompletedIndex(pBuffer, cbIndexWritten);
+        hr = pIndex->GetCompletedIndex(pBuffer, cbIndexWritten);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pBuffer-&gt;Lock(&amp;pData, NULL, &amp;cbData);
+        hr = pBuffer->Lock(&pData, NULL, &cbData);
         if (FAILED(hr))
         {
             goto done;
         }
 
-        hr = pStream-&gt;Write(pData, cbData, &amp;cbWritten);
+        hr = pStream->Write(pData, cbData, &cbWritten);
 
-        (void)pBuffer-&gt;Unlock();
+        (void)pBuffer->Unlock();
 
         if (FAILED(hr))
         {
@@ -186,13 +182,13 @@ The following example shows how to write the complete ASF index to a byte stream
     }
 
 done:
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
     return hr;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -167,13 +167,9 @@ These situations can occur if multiple monitors are present. To correct this, fi
 </ul>
 Then, for each point that is returned from <b>GetMouseMovePointsEx</b>, perform the following transform: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>int nVirtualWidth = GetSystemMetrics(SM_CXVIRTUALSCREEN) ;
+
+```
+int nVirtualWidth = GetSystemMetrics(SM_CXVIRTUALSCREEN) ;
 int nVirtualHeight = GetSystemMetrics(SM_CYVIRTUALSCREEN) ;
 int nVirtualLeft = GetSystemMetrics(SM_XVIRTUALSCREEN) ;
 int nVirtualTop = GetSystemMetrics(SM_YVIRTUALSCREEN) ;
@@ -183,19 +179,19 @@ int mode = GMMP_USE_DISPLAY_POINTS ;
 MOUSEMOVEPOINT mp_in ;
 MOUSEMOVEPOINT mp_out[64] ;
 
-ZeroMemory(&amp;mp_in, sizeof(mp_in)) ;
-mp_in.x = pt.x &amp; 0x0000FFFF ;//Ensure that this number will pass through.
-mp_in.y = pt.y &amp; 0x0000FFFF ;
-cpt = GetMouseMovePointsEx(&amp;mp_in, &amp;mp_out, 64, mode) ;
+ZeroMemory(&mp_in, sizeof(mp_in)) ;
+mp_in.x = pt.x & 0x0000FFFF ;//Ensure that this number will pass through.
+mp_in.y = pt.y & 0x0000FFFF ;
+cpt = GetMouseMovePointsEx(&mp_in, &mp_out, 64, mode) ;
 
-for (int i = 0; i &lt; cpt; i++)
+for (int i = 0; i < cpt; i++)
 {
    switch(mode)
    {
    case GMMP_USE_DISPLAY_POINTS:
-      if (mp_out[i].x &gt; 32767)
+      if (mp_out[i].x > 32767)
          mp_out[i].x -= 65536 ;
-      if (mp_out[i].y &gt; 32767)
+      if (mp_out[i].y > 32767)
          mp_out[i].y -= 65536 ;
       break ;
    case GMMP_USE_HIGH_RESOLUTION_POINTS:
@@ -203,10 +199,10 @@ for (int i = 0; i &lt; cpt; i++)
       mp_out[i].y = ((mp_out[i].y * (nVirtualHeight - 1)) - (nVirtualTop * 65536)) / nVirtualHeight ;
       break ;
    }
-} </pre>
-</td>
-</tr>
-</table></span></div>
+} 
+```
+
+
 
 
 

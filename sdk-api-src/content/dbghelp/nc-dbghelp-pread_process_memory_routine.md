@@ -106,13 +106,9 @@ This function should read as much of the requested memory as possible. The
 
 This callback function supersedes the <i>PREAD_PROCESS_MEMORY_ROUTINE</i> callback function.  <i>PREAD_PROCESS_MEMORY_ROUTINE</i> is defined as follows in Dbghelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define PREAD_PROCESS_MEMORY_ROUTINE PREAD_PROCESS_MEMORY_ROUTINE64
 #else
 typedef
@@ -124,10 +120,10 @@ BOOL
     __in DWORD nSize,
     __out PDWORD lpNumberOfBytesRead
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 
 

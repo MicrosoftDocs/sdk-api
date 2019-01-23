@@ -103,50 +103,42 @@ After the successful initialization, use the name translate object to submit req
 
 The following C/C++ code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://msdn.microsoft.com/3d8baeb1-0edc-4648-8691-6ea4dcfd8f62">IADsNameTranslate</a> object before the distinguished name of a user object is rendered in the s format.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsNameTranslate *pNto;
+
+```cpp
+IADsNameTranslate *pNto;
 HRESULT hr;
 hr = CoCreateInstance(CLSID_NameTranslate,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsNameTranslate,
-                      (void**)&amp;pNto);
+                      (void**)&pNto);
 if(FAILED(hr)) { exit 1;}
  
-hr = pNto-&gt;InitEx(ADS_NAME_INITTYPE_SERVER,
+hr = pNto->InitEx(ADS_NAME_INITTYPE_SERVER,
                   CComBSTR("myServer"),
                   CComBSTR("jeffsmith"),
                   CComBSTR("Fabrikam"),
                   CComBSTR("top secret"));
 if (FAILED(hr)) { exit 1;}
  
-hr =pNto-&gt;Set(ADS_NAME_TYPE_1779,
+hr =pNto->Set(ADS_NAME_TYPE_1779,
              CComBSTR("cn=jeffsmith,cn=users,dc=Fabrikam,dc=com"));
 if(FAILED(hr)) {exit 1;}
  
 BSTR bstr;
-hr = pNto-&gt;Get(ADS_NAME_TYPE_NT4, &amp;bstr);
+hr = pNto->Get(ADS_NAME_TYPE_NT4, &bstr);
 printf("Name in the translated format: %S\n", bstr);
  
 SysFreeString(bstr);
-pNto-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+pNto->Release();
+```
+
+
 The following Visual Basic code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://msdn.microsoft.com/3d8baeb1-0edc-4648-8691-6ea4dcfd8f62">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim nto As New NameTranslate
+
+```vb
+Dim nto As New NameTranslate
 dso="CN=jeffsmith, CN=users, DC=Fabrikam dc=COM"
 server = "myServer"
 domain = "Fabrikam"
@@ -156,22 +148,18 @@ passwd = "myPass"
 nto.InitEx  ADS_NAME_INITTYPE_SERVER, server,user,domain,passwd
 nto.Set ADS_NAME_TYPE_1779, dso
 trans = nto.Get(ADS_NAME_TYPE_NT4) 
-MsgBox "Name in the translated format: " &amp; trans</pre>
-</td>
-</tr>
-</table></span></div>
+MsgBox "Name in the translated format: " & trans
+```
+
+
 The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b> method to initialize an <a href="https://msdn.microsoft.com/3d8baeb1-0edc-4648-8691-6ea4dcfd8f62">IADsNameTranslate</a> object in order to have the distinguished name of a user object rendered in the s user name format.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;%@ Language=VBScript %&gt;
-&lt;html&gt;
-&lt;body&gt;
-&lt;%
+
+```vb
+<%@ Language=VBScript %>
+<html>
+<body>
+<%
   Dim nto
   const ADS_NAME_INITTYPE_SERVER = 2  ' VBScript cannot read 
   const ADS_NAME_TYPE_1779 = 1        ' enumeration definition
@@ -189,14 +177,14 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b
   nto.Set ADS_NAME_TYPE_1779, dn
   result = nto.Get(ADS_NAME_TYPE_NT4)
  
-  Response.Write "&lt;p&gt;Name in the translated format: " &amp; result
+  Response.Write "<p>Name in the translated format: " & result
  
-%&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+%>
+</body>
+</html>
+```
+
+
 
 
 

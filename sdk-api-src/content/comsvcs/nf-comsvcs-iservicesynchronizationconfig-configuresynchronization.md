@@ -58,7 +58,7 @@ Configures the synchronization for the enclosed work.
 
 ### -param synchConfig [in]
 
- A value from the <a href="https://msdn.microsoft.com/dc0c4310-e2d8-462c-af55-f1513934b8ef">CSC_SynchronizationConfig</a> enumeration.
+ A value from the <a href="https://msdn.microsoft.com/en-us/library/ms686964(v=VS.85).aspx">CSC_SynchronizationConfig</a> enumeration.
 
 
 ## -returns

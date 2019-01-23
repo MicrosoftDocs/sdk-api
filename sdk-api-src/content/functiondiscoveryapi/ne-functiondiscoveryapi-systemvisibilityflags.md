@@ -4,7 +4,7 @@ title: SystemVisibilityFlags
 author: windows-sdk-content
 description: Determines the visibility of the function instance's data.
 old-location: ncd\systemvisibilityflags_enum.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: a3388293-150c-417a-a4a6-0d5020e0ae82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

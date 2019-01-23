@@ -98,7 +98,7 @@ For each file, this parameter contains the full path from the root directory of 
 
 This parameter must be <b>DEDUP_RECONSTRUCT_UNOPTIMIZED</b> on input. For more 
       information, see the 
-      <a href="https://msdn.microsoft.com/654663C4-1E28-435A-9D81-1E390BC66B62">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/Hh449217(v=VS.85).aspx">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a> 
        enumeration.
 
 
@@ -216,7 +216,7 @@ The <i>Store</i> parameter is required because the restore engine (implemented b
 
 
 
-<a href="https://msdn.microsoft.com/654663C4-1E28-435A-9D81-1E390BC66B62">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449217(v=VS.85).aspx">DEDUP_BACKUP_SUPPORT_PARAM_TYPE</a>
 
 
 

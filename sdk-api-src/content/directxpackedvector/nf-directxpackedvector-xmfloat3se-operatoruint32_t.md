@@ -83,18 +83,14 @@ The values of the three components of the current instance of <code>XMFLOAT3SE</
 	return value, and the mantissa of the x component stored in the least significant bits.
  
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    (E5Z9Y9X9): [32] EEEEEzzz zzzzzzyy yyyyyyyx xxxxxxxx [0]
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Or in detail:
 
 

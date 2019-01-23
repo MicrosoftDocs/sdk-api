@@ -88,7 +88,7 @@ This method is used to enable or disable animation globally. While animation is 
 
 
 
-<a href="https://msdn.microsoft.com/b8995687-c0dc-4cd7-b11a-f871172895f9">UI_ANIMATION_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317046(v=VS.85).aspx">UI_ANIMATION_MODE</a>
  
 
  

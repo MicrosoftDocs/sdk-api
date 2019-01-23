@@ -83,19 +83,19 @@ This method can be called even if this visual has no children.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437414(v=VS.85).aspx">IDCompositionDevice::CreateVisual</a>
+<a href="https://msdn.microsoft.com/3b4fefe0-772e-42bd-8e81-37d0b128c418">IDCompositionDevice::CreateVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449141(v=VS.85).aspx">IDCompositionVisual::AddVisual</a>
+<a href="https://msdn.microsoft.com/e1124df5-7795-49c3-a640-f218cfdd4f1d">IDCompositionVisual::AddVisual</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449145(v=VS.85).aspx">IDCompositionVisual::RemoveVisual</a>
+<a href="https://msdn.microsoft.com/d77161b1-cb35-40a7-a51c-4b44ea320e78">IDCompositionVisual::RemoveVisual</a>
  
 
  

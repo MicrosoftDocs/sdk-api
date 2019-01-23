@@ -59,7 +59,7 @@ Contains the action information returned by an EAP peer method.
 ### -field action
 
 
-<a href="https://msdn.microsoft.com/def7e04e-ed0c-46f0-97d6-4c0ab021fa8b">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
+<a href="https://msdn.microsoft.com/en-us/library/Aa363618(v=VS.85).aspx">EapPeerMethodResponseAction</a> enumeration value that indicates the response EAPHost should take as a result of the EAP peer method operation.
 
 
 ### -field fAllowNotifications

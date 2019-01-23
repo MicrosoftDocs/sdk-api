@@ -105,17 +105,13 @@ During tessellation, the partition option helps to determine how the algorithm c
 
 The      <b>D3D11_TESSELLATOR_PARTITIONING</b> enumeration is type defined in the  D3D11Shader.h header file as a <a href="https://msdn.microsoft.com/2a33c1c2-cdd6-48d0-8bd1-a3108c4b9449">D3D_TESSELLATOR_PARTITIONING</a> enumeration, which is fully defined in the  D3DCommon.h header file.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-typedef D3D_TESSELLATOR_PARTITIONING D3D11_TESSELLATOR_PARTITIONING;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+typedef D3D_TESSELLATOR_PARTITIONING D3D11_TESSELLATOR_PARTITIONING;
+```
+
+
 
 
 

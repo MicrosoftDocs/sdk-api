@@ -64,7 +64,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://m
 
 ### -param gtGainType [in]
 
-A member of the <a href="https://msdn.microsoft.com/330b7891-bc65-4c78-bb43-f8fcd2a6b1c3">MC_GAIN_TYPE</a> enumeration, specifying whether to set the red, green, or blue gain.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692957(v=VS.85).aspx">MC_GAIN_TYPE</a> enumeration, specifying whether to set the red, green, or blue gain.
           
 
 

@@ -74,15 +74,15 @@ The connection is private.
 
 
 
-<a href="https://msdn.microsoft.com/b8872235-0ef3-4ade-8085-fd90f40549af">INetSharingConfiguration::get_SharingEnabled</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365952(v=VS.85).aspx">INetSharingConfiguration::get_SharingEnabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa6cc803-06f5-4b5c-98a5-c37dae08650f">Internet Connection Sharing and Internet Connection Firewall Enumeration Types</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366125(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

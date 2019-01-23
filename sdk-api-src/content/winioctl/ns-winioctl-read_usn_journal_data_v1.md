@@ -288,8 +288,8 @@ The object identifier of the file or directory is changed.
 </td>
 <td width="60%">
 The file or directory is renamed, and the file name in the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a> or 
-        <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> structure holding this journal record is the 
+        <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> or 
+        <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structure holding this journal record is the 
         new name.
 
 </td>
@@ -302,8 +302,8 @@ The file or directory is renamed, and the file name in the
 </td>
 <td width="60%">
 The file or directory is renamed, and the file name in the 
-        <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a> or 
-        <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> structure holding this journal record is the 
+        <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> or 
+        <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structure holding this journal record is the 
         previous name.
 
 </td>
@@ -476,7 +476,7 @@ The NTFS file system can miss putting events in the change journal if the change
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD</a>
+<a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD</a>
  
 
  

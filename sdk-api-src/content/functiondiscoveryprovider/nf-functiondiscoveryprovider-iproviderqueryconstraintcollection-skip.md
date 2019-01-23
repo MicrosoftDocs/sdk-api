@@ -4,7 +4,7 @@ title: IProviderQueryConstraintCollection::Skip
 author: windows-sdk-content
 description: Skips the next item in the collection.
 old-location: ncd\iproviderqueryconstraintcollection_skip.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 18c25f6d-387e-46bf-97b6-6bcf195b15e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

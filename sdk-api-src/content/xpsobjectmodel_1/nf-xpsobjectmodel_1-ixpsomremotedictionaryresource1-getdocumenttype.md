@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE</a> of the resource.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a> of the resource.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Gets the <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E
 
 ### -param documentType [out, retval]
 
-The <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE</a> document type of the resource.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a> document type of the resource.
 
-Returns <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE_UNSPECIFIED</a> unless the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface was created by loading a previously serialized remote dictionary.
+Returns <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE_UNSPECIFIED</a> unless the <a href="https://msdn.microsoft.com/dd757856-f16e-46ad-b865-8203c3428372">IXpsOMRemoteDictionaryResource</a> interface was created by loading a previously serialized remote dictionary.
 
 
 ## -returns

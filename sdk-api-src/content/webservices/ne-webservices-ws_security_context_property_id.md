@@ -67,21 +67,21 @@ On the wire, a security context is identified by an absolute URI, which is uniqu
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_USERNAME
 
-If a <a href="https://msdn.microsoft.com/be6d4787-fa50-4260-8236-39dd992adcae">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+If a <a href="https://msdn.microsoft.com/en-us/library/Dd323497(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
           is a <a href="https://msdn.microsoft.com/eb6c7397-6b15-4e79-89ec-585861113edf">WS_STRING</a> that represents the username that was used during the establishment of the security context.
         
 
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_MESSAGE_SECURITY_WINDOWS_TOKEN
 
-If a <a href="https://msdn.microsoft.com/03127248-f5cc-44da-9c3d-abf016dd6bb2">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+If a <a href="https://msdn.microsoft.com/en-us/library/Dd401944(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
           is a <b>HANDLE</b> that represents the token that was used during the establishment of the security context.
         
 
 
 ### -field WS_SECURITY_CONTEXT_PROPERTY_SAML_ASSERTION
 
-If a <a href="https://msdn.microsoft.com/713afe9a-49b8-419a-b78b-d3b5a4a8d073">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
+If a <a href="https://msdn.microsoft.com/en-us/library/Dd323373(v=VS.85).aspx">WS_SAML_MESSAGE_SECURITY_BINDING</a> is used as bootstrap security, this property
           is a pointer to a <a href="https://msdn.microsoft.com/75f1df70-4dc9-4365-9005-5eaca6688f16">WS_XML_BUFFER</a> that represents the SAML assertion that was used during the establishment of the security context.
         
 

@@ -96,7 +96,7 @@ Defines the policy that's applied in the <a href="https://msdn.microsoft.com/d0e
 
 
 
-The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="https://msdn.microsoft.com/7F557290-7162-4B32-880B-9A445A083F91">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
+The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values from the <a href="https://msdn.microsoft.com/en-us/library/JJ247567(v=VS.85).aspx">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a> enumeration.
 
 
 
@@ -110,7 +110,7 @@ The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values fr
 
 
 
-<a href="https://msdn.microsoft.com/7F557290-7162-4B32-880B-9A445A083F91">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ247567(v=VS.85).aspx">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

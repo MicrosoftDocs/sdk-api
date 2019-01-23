@@ -145,14 +145,10 @@ This information is available only for the current process; you cannot call this
 
 The following example shows how to get the restart settings specified when you called the <a href="https://msdn.microsoft.com/f4cd25b3-2aee-460f-9f9f-b45ecded094f">RegisterApplicationRestart</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
 
 
 void wmain(int argc, WCHAR* argv[])
@@ -174,7 +170,7 @@ void wmain(int argc, WCHAR* argv[])
     }
 
     wprintf(L"Get restart command line using static buffer...\n");
-    hr = GetApplicationRestartSettings(GetCurrentProcess(), wsCommandLine, &amp;cchCmdLine, &amp;dwFlags);
+    hr = GetApplicationRestartSettings(GetCurrentProcess(), wsCommandLine, &cchCmdLine, &dwFlags);
     if (FAILED(hr))
     {
         wprintf(L"GetApplicationRestartSettings failed, 0x%x\n", hr);
@@ -188,14 +184,14 @@ void wmain(int argc, WCHAR* argv[])
     cchCmdLine = 0;
 
     // Returns S_OK instead of ERROR_INSUFFICIENT_BUFFER when pBuffer is NULL and size is 0.
-    hr = GetApplicationRestartSettings(GetCurrentProcess(), (PWSTR)pwsCmdLine, &amp;cchCmdLine, &amp;dwFlags);
+    hr = GetApplicationRestartSettings(GetCurrentProcess(), (PWSTR)pwsCmdLine, &cchCmdLine, &dwFlags);
     if (SUCCEEDED(hr))
     {
         pwsCmdLine = (LPWSTR)malloc(cchCmdLine * sizeof(WCHAR));
 
         if (pwsCmdLine)
         {
-            hr = GetApplicationRestartSettings(GetCurrentProcess(), (PWSTR)pwsCmdLine, &amp;cchCmdLine, &amp;dwFlags);
+            hr = GetApplicationRestartSettings(GetCurrentProcess(), (PWSTR)pwsCmdLine, &cchCmdLine, &dwFlags);
             if (FAILED(hr))
             {
                 wprintf(L"GetApplicationRestartSettings failed with 0x%x\n", hr);
@@ -223,10 +219,10 @@ cleanup:
     if (pwsCmdLine)
         free(pwsCmdLine);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

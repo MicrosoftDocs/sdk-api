@@ -4,7 +4,7 @@ title: SLIST_ENTRY
 author: windows-sdk-content
 description: Represents an item in a singly linked list.
 old-location: base\slist_entry_str.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 6c467621-fa51-49f1-b962-2dd5ec0f7084
 ms.author: windowssdkdev
 ms.date: 12/5/2018

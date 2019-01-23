@@ -62,7 +62,7 @@ The
 ### -param ppenum [out]
 
 Pointer to an interface pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/69f2d4c0-7c25-4a50-988b-3ca6babb489a">IEnumNetSharingPublicConnection</a> interface.
+<a href="https://msdn.microsoft.com/en-us/library/Aa364774(v=VS.85).aspx">IEnumNetSharingPublicConnection</a> interface.
 
 
 ## -returns
@@ -177,7 +177,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/69f2d4c0-7c25-4a50-988b-3ca6babb489a">IEnumNetSharingPublicConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364774(v=VS.85).aspx">IEnumNetSharingPublicConnection</a>
 
 
 

@@ -63,7 +63,7 @@ The server address.
 
 ### -field AddressType
 
-A value of the <a href="https://msdn.microsoft.com/3c79234e-3ded-4911-8a83-2e69d3a6294a">TSSD_AddrV46Type</a> enumeration  that indicates the IP address type.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Ff678305(v=VS.85).aspx">TSSD_AddrV46Type</a> enumeration  that indicates the IP address type.
 
 
 ### -field PortNumber
@@ -81,7 +81,7 @@ The scope of the address.
 
 
 
-<a href="https://msdn.microsoft.com/3c79234e-3ded-4911-8a83-2e69d3a6294a">TSSD_AddrV46Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff678305(v=VS.85).aspx">TSSD_AddrV46Type</a>
  
 
  

@@ -58,7 +58,7 @@ Completes the initialization sequence for an Output Protection Manager (OPM) ses
 
 ### -param pParameters [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/abcf0b84-7370-48da-b4dd-4faded6be343">OPM_ENCRYPTED_INITIALIZATION_PARAMETERS</a> structure. Initialize this structure as described in the Remarks session.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd388944(v=VS.85).aspx">OPM_ENCRYPTED_INITIALIZATION_PARAMETERS</a> structure. Initialize this structure as described in the Remarks session.
 
 
 ## -returns

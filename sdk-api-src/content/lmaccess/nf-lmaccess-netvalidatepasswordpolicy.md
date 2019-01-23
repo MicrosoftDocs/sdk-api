@@ -74,23 +74,19 @@ The type of password validation to perform. This parameter must be one of the fo
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum _NET_VALIDATE_PASSWORD_TYPE {
+
+```cpp
+typedef enum _NET_VALIDATE_PASSWORD_TYPE {
 
     NetValidateAuthentication = 1,
     NetValidatePasswordChange,
     NetValidatePasswordReset,
 
 } NET_VALIDATE_PASSWORD_TYPE, *PNET_VALIDATE_PASSWORD_TYPE;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 These values have the following meanings.
 
 <table>
@@ -104,7 +100,7 @@ These values have the following meanings.
 </dl>
 </td>
 <td width="60%">
-The application is requesting password validation during authentication. The <i>InputArg</i> parameter points to a <a href="https://msdn.microsoft.com/b7466e8a-81d8-4552-adff-47fc2f3ed3ad">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a> structure. This type of validation enforces password expiration and account lockout policy.
+The application is requesting password validation during authentication. The <i>InputArg</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Aa370685(v=VS.85).aspx">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a> structure. This type of validation enforces password expiration and account lockout policy.
 
 </td>
 </tr>
@@ -114,7 +110,7 @@ The application is requesting password validation during authentication. The <i>
 </dl>
 </td>
 <td width="60%">
-The application is requesting password validation during a password change operation. The <i>InputArg</i> parameter points to a <a href="https://msdn.microsoft.com/09404998-81c5-400c-9d99-a0a4bb4095bf">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structure.
+The application is requesting password validation during a password change operation. The <i>InputArg</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Aa370687(v=VS.85).aspx">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> structure.
 
 </td>
 </tr>
@@ -124,7 +120,7 @@ The application is requesting password validation during a password change opera
 </dl>
 </td>
 <td width="60%">
-The application is requesting password validation during a password reset operation. The <i>InputArg</i> parameter points to a <a href="https://msdn.microsoft.com/3a6d4c2d-0d90-48bf-9dfa-2ba587538350">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> structure. You can also reset the "lockout state" of a user account by specifying this structure.
+The application is requesting password validation during a password reset operation. The <i>InputArg</i> parameter points to a <a href="https://msdn.microsoft.com/en-us/library/Aa370689(v=VS.85).aspx">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> structure. You can also reset the "lockout state" of a user account by specifying this structure.
 
 </td>
 </tr>
@@ -220,7 +216,7 @@ If the return code of the <b>NetValidatePasswordPolicy</b> function is <b>Nerr_S
 
 Note that it is the application's responsibility to save all the data in the <b>ChangedPersistedFields</b> member of the <b>NET_VALIDATE_OUTPUT_ARG</b> structure as well as any User object information. The next time the application calls <b>NetValidatePasswordPolicy</b> on the same instance of the User object, the application must provide the required fields from the persistent information.
 
-When you call <b>NetValidatePasswordPolicy</b> and specify <a href="https://msdn.microsoft.com/09404998-81c5-400c-9d99-a0a4bb4095bf">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> or <a href="https://msdn.microsoft.com/3a6d4c2d-0d90-48bf-9dfa-2ba587538350">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> in <i>InputArg</i> parameter, the call also validates the password by passing it through the password filter DLL that the computer is configured to use. For more information about password filters, see <a href="https://msdn.microsoft.com/a3a260b3-a9e7-4812-a50a-f352e5be1a69">Using Password Filters</a>.
+When you call <b>NetValidatePasswordPolicy</b> and specify <a href="https://msdn.microsoft.com/en-us/library/Aa370687(v=VS.85).aspx">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa370689(v=VS.85).aspx">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a> in <i>InputArg</i> parameter, the call also validates the password by passing it through the password filter DLL that the computer is configured to use. For more information about password filters, see <a href="https://msdn.microsoft.com/a3a260b3-a9e7-4812-a50a-f352e5be1a69">Using Password Filters</a>.
 
 If the return value from the <b>NetValidatePasswordPolicy</b> function is nonzero then <i>OutputArg</i> parameter  is set to <b>NULL</b> and password policy
         could not be examined.
@@ -239,7 +235,7 @@ The <a href="https://msdn.microsoft.com/263834cd-a0e2-4ec0-9cb1-c03eb198de3a">Ne
 
 
 
-<a href="https://msdn.microsoft.com/b7466e8a-81d8-4552-adff-47fc2f3ed3ad">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370685(v=VS.85).aspx">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>
 
 
 
@@ -247,11 +243,11 @@ The <a href="https://msdn.microsoft.com/263834cd-a0e2-4ec0-9cb1-c03eb198de3a">Ne
 
 
 
-<a href="https://msdn.microsoft.com/09404998-81c5-400c-9d99-a0a4bb4095bf">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370687(v=VS.85).aspx">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a6d4c2d-0d90-48bf-9dfa-2ba587538350">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370689(v=VS.85).aspx">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>
 
 
 

@@ -439,7 +439,7 @@ Index that indicates the element in a chain where an error or condition that is 
 ### -field pvExtraPolicyStatus
 
 A pointer to a structure. The structure type is determined by the value of the <b>pszPolicyOID</b> parameter of the <a href="https://msdn.microsoft.com/19c37f77-1072-4740-b244-764b816a2a1f">CertVerifyCertificateChainPolicy</a> function. In addition to <b>dwError</b> errors, policy OID–specific extra status can also be returned here to provide additional chain status information. This pointer can be optionally set to point to an 
-<a href="https://msdn.microsoft.com/bc123d07-0d59-49e0-b0e3-23dadb270347">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa375589(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
 
 
 ## -remarks

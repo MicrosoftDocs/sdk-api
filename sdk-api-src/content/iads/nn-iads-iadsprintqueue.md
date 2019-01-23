@@ -455,33 +455,25 @@ In Windows, a printer, or a print queue, is managed by a host computer. If the p
 
 The following Visual Basic code example shows the bind operation.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim pq as IADsPrintQueue
-Set pq = GetObject("WinNT://aMachine/aPrinter")</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+Dim pq as IADsPrintQueue
+Set pq = GetObject("WinNT://aMachine/aPrinter")
+```
+
+
 The following C++ code example shows the bind operation.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsPrintQueue *pq;
+
+```cpp
+IADsPrintQueue *pq;
 LPWSTR adsPath = L"WinNT://aMachine/aPrinter";
 HRESULT hr = ADsGetObject(adsPath,
                           IID_IADsPrintQueue,
-                          (void**)&amp;pq);</pre>
-</td>
-</tr>
-</table></span></div>
+                          (void**)&pq);
+```
+
+
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To enumerate all print queues on a given computer</b>
 
 <ol>
@@ -494,13 +486,9 @@ HRESULT hr = ADsGetObject(adsPath,
 
 The following code example enumerates printers on a given computer.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim cont As IADsContainer
+
+```vb
+Dim cont As IADsContainer
 Dim pq As IADsPrintQueue
 
 On Error GoTo Cleanup
@@ -512,18 +500,18 @@ cont.Filter = Array("PrintQueue")
 
 For Each p In cont
    Set pq = GetObject(p.ADsPath)
-   MsgBox pq.Name &amp; " is a " &amp; pq.Model
+   MsgBox pq.Name & " is a " & pq.Model
 Next p
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set cont = Nothing
-    Set pq = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set pq = Nothing
+```
+
+
 
 
 

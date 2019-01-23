@@ -63,9 +63,9 @@ Represents an extended parameter for a function that manages virtual memory.
 
 ### -field DUMMYSTRUCTNAME.Type
 
-A <a href="base.mem_extended_parameter_type">MEM_EXTENDED_PARAMETER_TYPE</a> value that indicates the type of the parameter.
+A <a href="https://msdn.microsoft.com/en-us/library/Mt832848(v=VS.85).aspx">MEM_EXTENDED_PARAMETER_TYPE</a> value that indicates the type of the parameter.
 
-If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="base.mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
+If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="https://msdn.microsoft.com/en-us/library/Mt832846(v=VS.85).aspx">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
 
 If <i>Type</i> is set to <b>MemExtendedParameterNumaNode</b>, then <i>ULong</i> must be set to the desired node number.
 
@@ -85,7 +85,7 @@ Reserved.
 
 ### -field DUMMYUNIONNAME.Pointer
 
-If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="base.mem_address_requirements">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
+If <i>Type</i> is set to <b>MemExtendedParameterAddressRequirements</b>, then <i>Pointer</i> must be a pointer to a caller-allocated <a href="https://msdn.microsoft.com/en-us/library/Mt832846(v=VS.85).aspx">MEM_ADDRESS_REQUIREMENTS</a> structure that specifies the lowest and highest base address and alignment.
 
 
 ### -field DUMMYUNIONNAME.Size

@@ -64,7 +64,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://m
 
 ### -param pdtyDisplayTechnologyType [out]
 
-Receives the technology type, specified as a member of the <a href="https://msdn.microsoft.com/22cb7b73-931c-4cab-a359-f957ec457148">MC_DISPLAY_TECHNOLOGY_TYPE</a> enumeration.
+Receives the technology type, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692955(v=VS.85).aspx">MC_DISPLAY_TECHNOLOGY_TYPE</a> enumeration.
           
 
 

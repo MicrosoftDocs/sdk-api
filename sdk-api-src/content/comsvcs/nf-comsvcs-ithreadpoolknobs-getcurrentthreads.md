@@ -75,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/3d36e4ec-f4d4-407b-b671-4134886b7a2c">IThreadPoolKnobs</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680317(v=VS.85).aspx">IThreadPoolKnobs</a>
  
 
  

@@ -236,7 +236,7 @@ Specifies which language in the name table to keep when subsetting. Set to 0 to 
 
 ### -param pTTEmbedInfo [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a> structure containing the URLs from which the embedded font object may be legitimately referenced. If <i>pTTEmbedInfo</i> is <b>NULL</b>, no URLs will be added to the embedded font object and no URL checking will occur when the client calls <a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>.
+Pointer to a <a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a> structure containing the URLs from which the embedded font object may be legitimately referenced. If <i>pTTEmbedInfo</i> is <b>NULL</b>, no URLs will be added to the embedded font object and no URL checking will occur when the client calls <a href="https://msdn.microsoft.com/85181d86-bc18-4948-bc7d-65c2d71efefb">TTLoadEmbeddedFont</a>.
 
 
 ## -returns
@@ -272,7 +272,7 @@ For information on embedding Unicode characters, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a>
+<a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a>
 
 
 

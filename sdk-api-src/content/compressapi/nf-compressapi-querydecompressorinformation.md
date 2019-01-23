@@ -63,7 +63,7 @@ Handle to the decompressor being queried for information.
 
 ### -param CompressInformationClass [in]
 
-A value of the  <a href="https://msdn.microsoft.com/en-us/library/Hh437567(v=VS.85).aspx">COMPRESS_INFORMATION_CLASS</a> enumeration that identifies the type of information.
+A value of the  <a href="https://msdn.microsoft.com/ebdcbe03-b7fb-4dec-b906-086f8fe9be4c">COMPRESS_INFORMATION_CLASS</a> enumeration that identifies the type of information.
 
 
 ### -param CompressInformation [out]

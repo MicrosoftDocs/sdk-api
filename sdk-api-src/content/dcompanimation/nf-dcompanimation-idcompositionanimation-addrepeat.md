@@ -96,13 +96,9 @@ This animation segment remains in effect until the begin time of the next segmen
 
 The following example creates an animation function that includes  a repeat segment, and applies the animation to the x and y axes of a scale transform.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT MyCreateAnimatedScaleTransform(IDCompositionDevice *pDevice, 
+
+```cpp
+HRESULT MyCreateAnimatedScaleTransform(IDCompositionDevice *pDevice, 
                                        IDCompositionVisual *pVisual)
 {
     HRESULT hr = S_OK;
@@ -114,44 +110,44 @@ The following example creates an animation function that includes  a repeat segm
         return E_INVALIDARG;
     
     // Create an animation object.
-    hr = pDevice-&gt;CreateAnimation(&amp;pAnimation);
+    hr = pDevice->CreateAnimation(&pAnimation);
     if (SUCCEEDED(hr))
     {
         // Add segments to the animation function.
-        pAnimation-&gt;AddCubic(0, 1, -0.5, 0, 0);
-        pAnimation-&gt;AddRepeat(3.0, 3.0);
-        pAnimation-&gt;End(10, .5);
+        pAnimation->AddCubic(0, 1, -0.5, 0, 0);
+        pAnimation->AddRepeat(3.0, 3.0);
+        pAnimation->End(10, .5);
 
         // Create a scale transform object.
-          hr = pDevice-&gt;CreateScaleTransform(&amp;pScaleTransform);
+          hr = pDevice->CreateScaleTransform(&pScaleTransform);
     }
 
     if (SUCCEEDED(hr))
     {
         // Apply the animation to the x and y axes of the scale transform.
-        pScaleTransform-&gt;SetScaleX(pAnimation);
-        pScaleTransform-&gt;SetScaleY(pAnimation);
+        pScaleTransform->SetScaleX(pAnimation);
+        pScaleTransform->SetScaleY(pAnimation);
 
         // Apply the scale transform to the visual.
-        hr = pVisual-&gt;SetTransform(pScaleTransform);
+        hr = pVisual->SetTransform(pScaleTransform);
     }
 
     if (SUCCEEDED(hr))
     {
         // Commit the composition for rendering.
-        hr = pDevice-&gt;Commit();
+        hr = pDevice->Commit();
     }
 
     // Clean up.
-    SafeRelease(&amp;pAnimation);
-    SafeRelease(&amp;pScaleTransform);
+    SafeRelease(&pAnimation);
+    SafeRelease(&pScaleTransform);
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

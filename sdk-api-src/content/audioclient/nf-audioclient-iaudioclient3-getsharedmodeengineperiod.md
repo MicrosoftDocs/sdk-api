@@ -106,7 +106,7 @@ The longest period, in audio frames,  with which the audio engine will wake the 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. 
 
@@ -117,7 +117,23 @@ This method returns <b>S_OK</b> to indicate that it has completed successfully. 
 
 
 
-Audio clients request a specific periodicity from the audio engine with the <i>PeriodInFrames</i> parameter to <a href="https://msdn.microsoft.com/2DB9ECEC-8199-4157-8854-26A21B88E58A">IAudioClient3::InitializeSharedAudioStream</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pDefaultPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
+Audio clients request a specific periodicity from the audio engine with the <i>PeriodInFrames</i> parameter to <a href="https://msdn.microsoft.com/2DB9ECEC-8199-4157-8854-26A21B88E58A">IAudioClient3::InitializeSharedAudioStream</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
+
+For example, for a 44100 kHz format, <b>GetSharedModeEnginePeriod</b> might return:
+
+
+
+
+
+
+
+<i>pDefaultPeriodInFrames</i>
+<i>pFundamentalPeriodInFrames</i>
+<i>pMinPeriodInFrames</i>
+<i>pMaxPeriodInFrames</i>
+Allowed values for the <i>PeriodInFrames</i> parameter to <b>InitializeSharedAudioStream</b> would include 48 and 448. They would also include things like 96 and 128.
+
+They would NOT include 4 (which is smaller than the minimum allowed value) or 98 (which is not a multiple of the fundamental) or 1000 (which is larger than the maximum allowed value).
 
 
 

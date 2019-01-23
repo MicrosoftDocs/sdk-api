@@ -94,13 +94,9 @@ You cannot use <b>EnqueueSetEvent</b> to determine work completion that is assoc
 
 The following example code shows how to use <b>EnqueueSetEvent</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void BlockingFinish( IDXGIDevice2* pDevice ) 
+
+```
+void BlockingFinish( IDXGIDevice2* pDevice ) 
 {
     // Create a manual-reset event object. 
     hEvent = CreateEvent( 
@@ -116,7 +112,7 @@ The following example code shows how to use <b>EnqueueSetEvent</b>.
         return;
     }
 
-    pDevice-&gt;EnqueueSetEvent(hEvent);    
+    pDevice->EnqueueSetEvent(hEvent);    
 
     DWORD dwWaitResult = WaitForSingleObject( 
         hEvent, // event handle
@@ -137,10 +133,10 @@ The following example code shows how to use <b>EnqueueSetEvent</b>.
 
     CloseHandle(hEvent);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -58,7 +58,7 @@ Creates a new work queue.
 
 ### -param WorkQueueType [in]
 
-A member of the <a href="https://msdn.microsoft.com/en-us/library/Dn448453(v=VS.85).aspx">RTWQ_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
+A member of the <a href="https://msdn.microsoft.com/4aab85f3-855e-4fbf-9d25-209214bdd73b">RTWQ_WORKQUEUE_TYPE</a> enumeration, specifying the type of work queue to create.
 
 <table>
 <tr>

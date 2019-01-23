@@ -236,7 +236,7 @@ A pointer to one or more <a href="https://msdn.microsoft.com/05b4bf7d-a0d9-473c-
 
 ### -field Values.pOctetString
 
-A pointer to one or more <a href="https://msdn.microsoft.com/aebe20d5-280f-45d3-a11d-279a08a1a165">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
+A pointer to one or more <a href="https://msdn.microsoft.com/en-us/library/Dd401614(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> structures.
 
 
 ## -see-also

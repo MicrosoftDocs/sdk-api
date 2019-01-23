@@ -68,7 +68,7 @@ The <b>IComExceptionEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/961e3668-a35e-4e65-8477-fd7457ecc6ca">OnExceptionUser</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684281(v=VS.85).aspx">OnExceptionUser</a>
 </td>
 <td align="left" width="63%">
 Generated for transactional components when an unhandled exception occurs in the user's code.

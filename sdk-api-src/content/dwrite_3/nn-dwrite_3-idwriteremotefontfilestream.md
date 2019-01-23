@@ -72,7 +72,7 @@ The <b>IDWriteRemoteFontFileStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807700(v=VS.85).aspx">BeginDownload</a>
+<a href="https://msdn.microsoft.com/A0EE8383-81A8-4974-B213-142704EFA210">BeginDownload</a>
 </td>
 <td align="left" width="63%">
 Begins downloading all or part of the font file.
@@ -81,7 +81,7 @@ Begins downloading all or part of the font file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807701(v=VS.85).aspx">GetFileFragmentLocality</a>
+<a href="https://msdn.microsoft.com/24F68EFD-D4D6-442B-97C1-C639F570F56B">GetFileFragmentLocality</a>
 </td>
 <td align="left" width="63%">
 Returns information about the locality of a byte range (i.e., font fragment) within the font file stream.
@@ -90,7 +90,7 @@ Returns information about the locality of a byte range (i.e., font fragment) wit
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807702(v=VS.85).aspx">GetLocalFileSize</a>
+<a href="https://msdn.microsoft.com/06FB14D5-19F6-48D3-AEA9-3D622219EF2A">GetLocalFileSize</a>
 </td>
 <td align="left" width="63%">
 GetLocalFileSize returns the number of bytes of the font file that are currently local, which should always be less than or equal to the full
@@ -101,7 +101,7 @@ GetLocalFileSize returns the number of bytes of the font file that are currently
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807703(v=VS.85).aspx">GetLocality</a>
+<a href="https://msdn.microsoft.com/395AC591-3D63-4990-98A7-FA154B6A000F">GetLocality</a>
 </td>
 <td align="left" width="63%">
 Gets the current locality of the file.

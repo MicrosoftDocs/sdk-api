@@ -243,13 +243,9 @@ To obtain a pointer to this interface, call <a href="https://msdn.microsoft.com/
 <b>ITfInputProcessorProfiles</b>
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfInputProcessorProfiles *pProfiles;
 
@@ -267,10 +263,8 @@ if(SUCCEEDED(hr))
     //Release the interface. 
     pProfiles->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

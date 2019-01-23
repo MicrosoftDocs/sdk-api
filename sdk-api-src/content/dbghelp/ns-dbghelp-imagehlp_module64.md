@@ -297,13 +297,9 @@ A value that indicates whether the module contains public symbols.
 This structure supersedes the <b>IMAGEHLP_MODULE</b> structure. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>IMAGEHLP_MODULE</b> is defined as follows in DbgHelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define IMAGEHLP_MODULE IMAGEHLP_MODULE64
 #define PIMAGEHLP_MODULE PIMAGEHLP_MODULE64
 #define IMAGEHLP_MODULEW IMAGEHLP_MODULEW64
@@ -334,10 +330,10 @@ typedef struct _IMAGEHLP_MODULEW {
     WCHAR    ImageName[256]; 
     WCHAR    LoadedImageName[256]; 
 } IMAGEHLP_MODULEW, *PIMAGEHLP_MODULEW;
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 
 

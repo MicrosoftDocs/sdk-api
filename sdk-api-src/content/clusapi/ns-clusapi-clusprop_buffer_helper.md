@@ -260,13 +260,9 @@ In addition to the following example, see
       <a href="https://msdn.microsoft.com/7af7f5a8-fe1f-4b2a-9332-fd2cefc18cc2">Creating Value Lists</a>, and 
       <a href="https://msdn.microsoft.com/3504b04d-9b96-4b44-a8ae-f5e5eb8231d8">Parsing a Value List</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////
 //  
 //    HOW TO USE CLUSPROP_BUFFER HELPER
 //  
@@ -297,20 +293,20 @@ void ClusDocEx_UsingCBH()
 //
 //    The pb member points to the first byte of lp.
 //
-//    lp -----&gt; 0 0 0 0 0 0 0 0 0 0 0 ... 0 
+//    lp -----> 0 0 0 0 0 0 0 0 0 0 0 ... 0 
 //
-//    cbh.pb--&gt;|-|
+//    cbh.pb-->|-|
 //
 //
 //    Note what happens when different cbh pointer types are used:
 //
-//                   lp -----&gt; 0 0 0 0 0 0 0 0 0 0 0 0 ... 0 
+//                   lp -----> 0 0 0 0 0 0 0 0 0 0 0 0 ... 0 
 //
-//    cbh.pdw              --&gt;|-------|
-//    cbh.psz              --&gt;|-|
-//    cbh.pValue           --&gt;|---------------|
-//    cbh.pValue-&gt;Syntax.dw--&gt;|-------|
-//    cbh.pValue-&gt;cbLength         --&gt;|-------|
+//    cbh.pdw              -->|-------|
+//    cbh.psz              -->|-|
+//    cbh.pValue           -->|---------------|
+//    cbh.pValue->Syntax.dw-->|-------|
+//    cbh.pValue->cbLength         -->|-------|
 //
 //
 //    The configuration of bytes that will be affected by a read
@@ -324,14 +320,14 @@ void ClusDocEx_UsingCBH()
 //    structure pointers let you "reach over" intervening members.
 //
 
-      cbh.pValue-&gt;Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_DWORD; 
+      cbh.pValue->Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_DWORD; 
     
-      cbh.pValue-&gt;cbLength = sizeof( DWORD );
+      cbh.pValue->cbLength = sizeof( DWORD );
 
-      cbh.pDwordValue-&gt;dw  = 0x0000EEEEL;
+      cbh.pDwordValue->dw  = 0x0000EEEEL;
 
 //
-//    Result:   lp -----&gt;| syntax | length |  value  | 0 0 0 0 ... 0 
+//    Result:   lp ----->| syntax | length |  value  | 0 0 0 0 ... 0 
 //
 
 
@@ -346,7 +342,7 @@ void ClusDocEx_UsingCBH()
 
       DWORD cbAdvance = ClusDocEx_ListEntrySize( sizeof( DWORD ) );  // See "ClusDocEx.h"
 
-      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) &gt; 100 )
+      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) > 100 )
       {
           // handle the fact that there's more data than the reported size of the buffer
       }
@@ -362,20 +358,20 @@ void ClusDocEx_UsingCBH()
 
       // Write next entry
 
-      cbh.pStringValue-&gt;Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
+      cbh.pStringValue->Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 
-      cbh.pStringValue-&gt;cbLength = ( lstrlenW( L"String Value" ) + 1 ) * sizeof( WCHAR );
+      cbh.pStringValue->cbLength = ( lstrlenW( L"String Value" ) + 1 ) * sizeof( WCHAR );
       
-      StringCchCopyW( cbh.pStringValue-&gt;sz, cbh.pStringValue-&gt;cbLength, L"String Value" );
+      StringCchCopyW( cbh.pStringValue->sz, cbh.pStringValue->cbLength, L"String Value" );
 
 
       // Check space
       
       cbPosition = cbh.pb - (LPBYTE) lp;
 
-      cbAdvance = ClusDocEx_ListEntrySize( cbh.pStringValue-&gt;cbLength ); 
+      cbAdvance = ClusDocEx_ListEntrySize( cbh.pStringValue->cbLength ); 
 
-      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) &gt; 100 )
+      if( ( cbPosition + cbAdvance + sizeof( DWORD ) ) > 100 )
       {
           // 
       }
@@ -389,10 +385,10 @@ void ClusDocEx_UsingCBH()
 
       LocalFree( lp );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

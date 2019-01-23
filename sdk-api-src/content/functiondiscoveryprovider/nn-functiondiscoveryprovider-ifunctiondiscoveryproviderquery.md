@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderQuery
 author: windows-sdk-content
 description: This interface is passed to all IFunctionDiscoveryProvider::Query method calls and contains query definition information. Providers should use this to determine what the constraints are for each query request they receive.
 old-location: ncd\ifunctiondiscoveryproviderquery.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 97468045-faa5-4690-8db5-50ee9656517b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -90,13 +90,9 @@ When used with a magnifier control, calls to <b>MagShowSystemCursor</b> have no 
 
 The following example uses the <b>MagShowSystemCursor</b> function to set the visibility state of the system cursor.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Description:
+
+```cpp
+// Description:
 //   Show or hide the system cursor.
 //
 // Parameters:
@@ -108,9 +104,9 @@ BOOL ShowSystemCursor(BOOL fShow)
 
     return fResult;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

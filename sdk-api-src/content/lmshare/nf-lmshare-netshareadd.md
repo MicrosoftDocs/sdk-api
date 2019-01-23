@@ -238,18 +238,14 @@ The following code sample demonstrates how to share a network resource using a c
 <a href="https://msdn.microsoft.com/cd152ccd-cd60-455f-b25c-c4939c65e0ab">SHARE_INFO_2</a> structure and calls 
 <b>NetShareAdd</b>, specifying information level 2. A password is not required because these platforms do not support share-level security.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;lm.h&gt;
+#include <windows.h>
+#include <stdio.h>
+#include <lm.h>
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain( int argc, TCHAR *argv[ ])
@@ -258,7 +254,7 @@ void wmain( int argc, TCHAR *argv[ ])
    SHARE_INFO_2 p;
    DWORD parm_err = 0;
 
-   if(argc&lt;2)
+   if(argc<2)
       printf("Usage: NetShareAdd server\n");
    else
    {
@@ -277,7 +273,7 @@ void wmain( int argc, TCHAR *argv[ ])
       // Call the NetShareAdd function,
       //  specifying level 2.
       //
-      res=NetShareAdd(argv[1], 2, (LPBYTE) &amp;p, &amp;parm_err);
+      res=NetShareAdd(argv[1], 2, (LPBYTE) &p, &parm_err);
       //
       // If the call succeeds, inform the user.
       //
@@ -292,10 +288,10 @@ void wmain( int argc, TCHAR *argv[ ])
    }
    return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

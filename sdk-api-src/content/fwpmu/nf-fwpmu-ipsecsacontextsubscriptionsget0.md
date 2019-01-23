@@ -65,7 +65,7 @@ Handle for an open session to the filter engine. Call <a href="https://msdn.micr
 
 ### -param entries [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d729f4e2-621a-4a39-beed-e339b76f53fc">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>***</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447460(v=VS.85).aspx">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>***</b>
 
 The current IPsec SA notification subscriptions. 
 
@@ -144,7 +144,7 @@ The returned array (but not the individual entries in the array) must be freed t
 
 
 
-<a href="https://msdn.microsoft.com/d729f4e2-621a-4a39-beed-e339b76f53fc">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447460(v=VS.85).aspx">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
  
 
  

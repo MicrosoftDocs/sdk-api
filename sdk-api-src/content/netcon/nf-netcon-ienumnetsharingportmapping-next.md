@@ -68,7 +68,7 @@ Specifies the number of port mappings to retrieve.
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> variable for the port mapping. This variant contains a pointer to an 
-<a href="https://msdn.microsoft.com/236608c3-061e-4db0-96df-25d263b6463b">INetSharingPortMapping</a> interface.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365971(v=VS.85).aspx">INetSharingPortMapping</a> interface.
 
 
 ### -param pceltFetched [out]
@@ -188,7 +188,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/68334bd2-353f-457d-a2c7-1271816f10f5">IEnumNetSharingPortMapping</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364760(v=VS.85).aspx">IEnumNetSharingPortMapping</a>
 
 
 
@@ -196,7 +196,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

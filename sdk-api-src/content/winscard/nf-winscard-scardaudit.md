@@ -145,13 +145,9 @@ This function is not redirected. An application calling the <b>SCardAudit</b> fu
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// hContext was set by a previous call to SCardEstablishContext.
+
+```cpp
+// hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardAudit (hContext,
                       SCARD_AUDIT_CHV_SUCCESS);
 
@@ -160,9 +156,9 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardAudit - %x\n", lReturn);
     // Take appropriate action
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

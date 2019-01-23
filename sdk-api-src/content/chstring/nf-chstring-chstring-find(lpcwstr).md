@@ -57,7 +57,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">Find</a> method searches a string for the first match of a substring.
+The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method searches a string for the first match of a substring.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ A substring that the method searches for.
 
 
 
-If the <a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
+If the <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method is successful, it returns the zero-based index of the first character in this <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string that matches the requested substring or characters. If the substring or character is not found, the method returns a value of -1.
 
 
 
@@ -83,25 +83,21 @@ If the <a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx"
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa385488(v=VS.85).aspx">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
+The <a href="https://msdn.microsoft.com/98a7c5ad-5bc7-4918-b978-45d2b439f250">Find</a> method is overloaded to accept both single characters (similar to the runtime function, wcschr) and strings (similar to the runtime function, wcsstr).
 
 
 #### Examples
 
 The following code example shows the use of <b>CHString::Find</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHString s( L"abcdef" );
+
+```cpp
+CHString s( L"abcdef" );
 assert( s.Find( 'c' ) == 2 );
-assert( s.Find( L"de" ) == 3 );</pre>
-</td>
-</tr>
-</table></span></div>
+assert( s.Find( L"de" ) == 3 );
+```
+
+
 
 
 

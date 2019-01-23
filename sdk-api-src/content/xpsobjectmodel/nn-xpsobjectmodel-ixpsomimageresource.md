@@ -102,13 +102,9 @@ Sets the read-only stream to be associated with this resource.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMImageResource    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -124,39 +120,39 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
+    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory-&gt;CreateImageResource (
+        hr = xpsFactory->CreateImageResource (
             acquiredStream,
             contentType,
             partUri,
-            &amp;newInterface);
+            &newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface-&gt;Release();
+            newInterface->Release();
         }
-        partUri-&gt;Release();
+        partUri->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

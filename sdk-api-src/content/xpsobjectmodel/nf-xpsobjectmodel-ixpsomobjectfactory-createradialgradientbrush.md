@@ -80,14 +80,14 @@ The coordinates of the origin  of the radial gradient.
 
 ### -param radiiSizes [in]
 
-The <a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a> structure whose members specify the lengths of the gradient region's radii.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> structure whose members specify the lengths of the gradient region's radii.
 
 Size is described in XPS units. There are 96 XPS units per inch. For example, a 1" radius is 96 XPS units.
 
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a> Member</th>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> Member</th>
 <th>Meaning</th>
 </tr>
 <tr>
@@ -148,7 +148,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point that is described by <i>centerPoint</i>, <i>radiiSizes</i>, or <i>gradientOrigin</i> is not valid. The members of the <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point that is described by <i>centerPoint</i>, <i>radiiSizes</i>, or <i>gradientOrigin</i> is not valid. The members of the <a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -191,13 +191,9 @@ For radial-gradient brushes, the gradient stop that is set by the <i>gradStop1</
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMRadialGradientBrush    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -213,35 +209,35 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateRadialGradientBrush (
+    hr = xpsFactory->CreateRadialGradientBrush (
         gradStop1,
         gradStop2,
-        &amp;centerPoint,
-        &amp;gradientOrigin,
-        &amp;radiiSizes,
-        &amp;newInterface);
+        &centerPoint,
+        &gradientOrigin,
+        &radiiSizes,
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -270,11 +266,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a>
  
 
  

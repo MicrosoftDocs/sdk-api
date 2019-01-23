@@ -160,19 +160,15 @@ The account SID of the user referenced by the Identity parameter. The SID bytes 
 
 Here is a pseudocode implementation of the SHA256 HMAC calculation:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// Hash the AccountSid.
-    assert(Identity-&gt;Type == WINBIO_ID_TYPE_SID);
+
+```
+// Hash the AccountSid.
+    assert(Identity->Type == WINBIO_ID_TYPE_SID);
     hashHandle = CreateHash(SHA256_ALGORITHM);
     HashData(
         hashHandle, 
-        Identity-&gt;Value.AccountSid.Data, 
-        Identity-&gt;Value.AccountSid.Size);
+        Identity->Value.AccountSid.Data, 
+        Identity->Value.AccountSid.Size);
     identityHash = FinishHash(hashHandle);
 
     // Hash the parameters.
@@ -188,9 +184,9 @@ Here is a pseudocode implementation of the SHA256 HMAC calculation:
     hashHandle = CreateHash(HMAC_SHA256_ALGORITHM, key, keySize);
     HashData(hashHandle, parameterHash, SHA256_DIGEST_LENGTH);
     authorization = FinishHash(hashHandle);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -106,7 +106,7 @@ A value that was passed in <i>strokeMiterLimit</i> was not valid.
 
  The miter limit value is the ratio of the maximum miter length  to one-half of the stroke thickness.
 
-The miter limit value describes how to render a mitered line join. This value applies only if the line join style value is <a href="https://msdn.microsoft.com/b0409564-a6b3-4e9d-b136-3d865dd46f1d">XPS_LINE_JOIN_MITER</a>.
+The miter limit value describes how to render a mitered line join. This value applies only if the line join style value is <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN_MITER</a>.
 
 
 

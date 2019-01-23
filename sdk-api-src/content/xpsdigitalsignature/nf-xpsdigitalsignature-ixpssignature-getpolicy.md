@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b1
 
 ### -param policy [out, retval]
 
-The logical <b>OR</b> of the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> values that represent the signing policy.
+The logical <b>OR</b> of the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> values that represent the signing policy.
 
 
 ## -returns
@@ -148,7 +148,7 @@ This method deduces the signature policy by examining the list of signed parts a
 
 
 
-<a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a>
  
 
  

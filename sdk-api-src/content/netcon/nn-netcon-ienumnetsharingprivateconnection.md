@@ -98,7 +98,7 @@ Causes subsequent calls to operate from the beginning of the enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2157ab88-02ed-4c04-be07-7bebe3cd85b8">Skip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364773(v=VS.85).aspx">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips the specified number of private connections in this enumeration.
@@ -117,7 +117,7 @@ Skips the specified number of private connections in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/dfef918e-9abf-4ac2-8365-28cd5b249add">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366128(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 

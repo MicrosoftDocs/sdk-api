@@ -137,13 +137,9 @@ If <b>IUIFramework::Initialize</b> returns successfully:
 
 The following example demonstrates a basic framework initialization function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 //  FUNCTION:    InitializeFramework(HWND)
 //
 //  PURPOSE:    Initialize the Ribbon framework and bind a Ribbon to the application.
@@ -201,10 +197,8 @@ bool InitializeFramework(HWND hWnd)
     }
     return true;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 <div class="code"></div>

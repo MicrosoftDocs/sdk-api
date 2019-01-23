@@ -190,13 +190,9 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 The following example shows a simple use of <b>StringCchPrintf</b>, using four arguments.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>TCHAR pszDest[30]; 
+
+```cpp
+TCHAR pszDest[30]; 
 size_t cchDest = 30;
 
 LPCTSTR pszFormat = TEXT("%s %d + %d = %d.");
@@ -204,10 +200,10 @@ TCHAR* pszTxt = TEXT("The answer is");
 
 HRESULT hr = StringCchPrintf(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
 
-// The resultant string at pszDest is "The answer is 1 + 2 = 3."</pre>
-</td>
-</tr>
-</table></span></div>
+// The resultant string at pszDest is "The answer is 1 + 2 = 3."
+```
+
+
 
 
 

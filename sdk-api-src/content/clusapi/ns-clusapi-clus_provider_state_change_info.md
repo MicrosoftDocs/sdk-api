@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains data about the state of a <a href="p_gly.htm">provider</a> resource.
+Contains data about the state of a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">provider</a> resource.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ The resource is not operational.
 
 #### ClusterResourceFailed (4)
 
-The resource has <a href="f_gly.htm">failed</a>.
+The resource has <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS.85).aspx">failed</a>.
 
 
 

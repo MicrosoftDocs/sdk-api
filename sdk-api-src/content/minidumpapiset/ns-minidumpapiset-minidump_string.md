@@ -71,7 +71,7 @@ The null-terminated string.
 
 
 
-<a href="https://msdn.microsoft.com/8387513a-137a-418e-8341-8066965849e6">MINIDUMP_HANDLE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680374(v=VS.85).aspx">MINIDUMP_HANDLE_DESCRIPTOR</a>
 
 
 
@@ -79,7 +79,7 @@ The null-terminated string.
 
 
 
-<a href="https://msdn.microsoft.com/d2ae58fa-561c-4135-a757-88598ebda57a">MINIDUMP_UNLOADED_MODULE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680523(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE</a>
  
 
  

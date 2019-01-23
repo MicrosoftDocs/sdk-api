@@ -89,7 +89,7 @@ Gets the <a href="https://msdn.microsoft.com/cbbcc8bf-6172-41c8-9d74-27e5635ec16
 <a href="https://msdn.microsoft.com/A2B2523F-2F07-4331-A8EA-84BB6636B948">GetXpsType</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
 
 </td>
 </tr>

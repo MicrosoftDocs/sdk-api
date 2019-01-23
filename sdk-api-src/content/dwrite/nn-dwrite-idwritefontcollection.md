@@ -112,23 +112,17 @@ The <b>IDWriteFontCollection</b> interface has these methods.
 
 The <a href="https://msdn.microsoft.com/4f5cbea1-9775-4266-aa3c-7c15892d61b1">IDWriteFactory::GetSystemFontCollection</a> method will give you an <b>IDWriteFontCollection</b> object, which encapsulates the set of fonts installed on the system, as shown in the following code example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IDWriteFontCollection* pFontCollection = NULL;
+
+```cpp
+IDWriteFontCollection* pFontCollection = NULL;
 
 // Get the system font collection.
 if (SUCCEEDED(hr))
 {
     hr = pDWriteFactory->GetSystemFontCollection(&pFontCollection);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 
@@ -136,13 +130,9 @@ if (SUCCEEDED(hr))
 
 To determine what fonts are available on the system,  get a reference to the system font collection.  You can then use the <a href="https://msdn.microsoft.com/82b6409a-6f6c-4b8d-9c48-916f1f7f3750">IDWriteFontCollection::GetFontFamilyCount</a> method to determine the number of fonts and loop through the list. The following example enumerates the fonts in the system font collection, and prints the font family names to the console.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include <dwrite.h>
 #include <string.h>
 #include <stdio.h>
@@ -263,10 +253,8 @@ void wmain()
     SafeRelease(&pDWriteFactory);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

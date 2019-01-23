@@ -83,18 +83,14 @@ Calling this function is identical to calling <a href="https://msdn.microsoft.co
 The return value for this function does not provide useful information about a Language Interface Pack (LIP) language if that language corresponds to a <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">supplemental locale</a>. For such a language, the function returns the hexadecimal value "1400", which corresponds to <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UI_DEFAULT</a> if that language is specified in the user preferred UI languages list. If the language is not specified in the user preferred UI languages list, the function returns the value "1000", corresponding to <a href="https://msdn.microsoft.com/a41a7f55-8905-47a1-86c3-74ed40b3834c">LOCALE_CUSTOM_UNSPECIFIED</a>.
 
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+
+```cpp
+[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.UInt16 GetThreadUILanguage();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

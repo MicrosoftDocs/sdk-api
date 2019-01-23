@@ -4,7 +4,7 @@ title: CreateMutexW function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed mutex object.
 old-location: base\createmutex.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: c8315d1c-98c9-4f0a-ae0d-800d7d8100cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

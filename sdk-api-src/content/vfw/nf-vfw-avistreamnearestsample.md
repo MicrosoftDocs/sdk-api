@@ -75,19 +75,15 @@ Starting position to search in the stream.
 
 The <b>AVIStreamNearestSample</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamNearestSample(pavi, lPos) \ 
     AVIStreamFindSample(pavi, lPos, FIND_PREV | FIND_ANY) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

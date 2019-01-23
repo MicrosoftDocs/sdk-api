@@ -4,7 +4,7 @@ title: InterlockedIncrement64 function
 author: windows-sdk-content
 description: Increments (increases by one) the value of the specified 64-bit variable as an atomic operation.
 old-location: base\interlockedincrement64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: f18b63fa-201f-436d-a152-41e458959a5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -50,7 +50,7 @@ req.redist:
 
 Increments (increases by one) the value of the specified 64-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a> function.
+To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/en-us/library/ms683614(v=VS.85).aspx">InterlockedIncrement</a> function.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 64-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="37700615-f372-438b-bcef-d76e11839482">_InterlockedIncrement64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/2ddez55b(v=VS.85).aspx">_InterlockedIncrement64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -100,11 +100,11 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683580(v=VS.85).aspx">InterlockedDecrement</a>
 
 
 
-<a href="https://msdn.microsoft.com/87eda7fb-966d-4630-9da6-8933b53daadd">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683614(v=VS.85).aspx">InterlockedIncrement</a>
 
 
 

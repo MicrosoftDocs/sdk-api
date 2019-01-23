@@ -172,13 +172,9 @@ Writes the XPS package to a specified stream.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMPackage    *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -189,29 +185,29 @@ hr = CoCreateInstance(
       NULL, 
       CLSCTX_INPROC_SERVER,
       __uuidof(IXpsOMObjectFactory),
-      reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+      reinterpret_cast<LPVOID*>(&xpsFactory)
       );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreatePackage (&amp;newInterface);
+    hr = xpsFactory->CreatePackage (&newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
 
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For information about using this interface in a program, see <a href="https://msdn.microsoft.com/5b6f12ba-9a41-4252-96c4-391bb8d75cd4">Create a Blank XPS OM</a>.
 
 

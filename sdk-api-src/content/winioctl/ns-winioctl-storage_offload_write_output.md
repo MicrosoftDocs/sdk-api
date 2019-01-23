@@ -108,7 +108,7 @@ The length of the copied content.
 
 
 
-<a href="https://msdn.microsoft.com/a3f03509-8be9-4cb4-b942-f5ab358bd70e">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404255(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a>
 
 
 

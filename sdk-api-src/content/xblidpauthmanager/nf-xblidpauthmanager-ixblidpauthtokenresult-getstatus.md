@@ -58,7 +58,7 @@ Reserved for Microsoft use.
 
 ### -param status [out]
 
-Type: <b><a href="https://msdn.microsoft.com/A00933B7-382A-4FFF-98E4-D558B6D73370">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt709259(v=VS.85).aspx">XBL_IDP_AUTH_TOKEN_STATUS</a>*</b>
 
 
 ## -returns

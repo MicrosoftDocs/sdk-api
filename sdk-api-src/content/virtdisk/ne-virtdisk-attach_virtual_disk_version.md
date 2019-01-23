@@ -50,7 +50,7 @@ req.redist:
 
 
 Contains the version of the virtual hard disk (VHD) 
-     <a href="https://msdn.microsoft.com/2bccad87-ddfe-4db4-9bf3-1892d8dd1237">ATTACH_VIRTUAL_DISK_PARAMETERS</a> structure 
+     <a href="https://msdn.microsoft.com/en-us/library/Dd323694(v=VS.85).aspx">ATTACH_VIRTUAL_DISK_PARAMETERS</a> structure 
      to use in calls to VHD functions.
 
 

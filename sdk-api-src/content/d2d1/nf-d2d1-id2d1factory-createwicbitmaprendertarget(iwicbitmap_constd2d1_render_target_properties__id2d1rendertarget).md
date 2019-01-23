@@ -58,7 +58,7 @@ Creates a render target that renders to a Microsoft Windows Imaging Component (W
 
 ### -param target [in]
 
-Type: <b><a href="_wic_codec_iwicbitmap">IWICBitmap</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee719675(v=VS.85).aspx">IWICBitmap</a>*</b>
 
 The bitmap that receives the rendering output of the render target.
 
@@ -81,7 +81,7 @@ When this method returns, contains the address of the pointer to the  <a href="h
 
 
 
-Type: <b><a href="a9046ed2-bfb2-4d56-a719-2824afce59ac">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

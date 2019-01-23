@@ -113,13 +113,9 @@ The debug layer will issue an error if it detects that any resource referenced b
 
 Renders a scene.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Pipeline objects.
+
+```cpp
+// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
 ComPtr<IDXGISwapChain3> m_swapChain;
 ComPtr<ID3D11DeviceContext> m_d3d11DeviceContext;
@@ -139,16 +135,11 @@ ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
 ComPtr<ID3D12PipelineState> m_pipelineState;
 ComPtr<ID3D12GraphicsCommandList> m_commandList;
 D3D12_RECT m_scissorRect;
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Render the scene.
+
+```
+
+```cpp
+// Render the scene.
 void D3D1211on12::OnRender()
 {
     // Record all the commands we need to render the scene into the command list.
@@ -165,10 +156,8 @@ void D3D1211on12::OnRender()
 
     MoveToNextFrame();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

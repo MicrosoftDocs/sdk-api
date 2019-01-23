@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
+The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration value for the Certificate Enrollment Policy (CEP) Web Service configuration.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/34
 
 ### -param propertyId [in]
 
-A value of the <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration that specifies the property value to set. The following values are valid.
 
 <table>
 <tr>
@@ -133,7 +133,7 @@ If you specify <b>ENUM_CEPSETUPPROP_KEYBASED_RENEWAL</b> in the <i>propertyId</i
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration type or you have tried to set the <b>ENUM_CEPSETUPPROP_URL</b> value.
+The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration type or you have tried to set the <b>ENUM_CEPSETUPPROP_URL</b> value.
 
 </td>
 </tr>

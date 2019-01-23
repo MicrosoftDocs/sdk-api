@@ -63,7 +63,7 @@ The type of GATT event.
 
 ### -param EventOutParameter [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/EC6E5B85-495E-401B-ADE5-D51891A4BDFE">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt188598(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a> structure.
 
 
 ### -param Context [in, optional]
@@ -87,7 +87,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/EC6E5B85-495E-401B-ADE5-D51891A4BDFE">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt188598(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT</a>
 
 
 

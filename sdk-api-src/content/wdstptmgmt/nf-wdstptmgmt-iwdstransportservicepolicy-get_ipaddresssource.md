@@ -67,11 +67,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/bc16cf5e-2cfe-480b-b67c-546b47ef2518">WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736536(v=VS.85).aspx">WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/11ed1cff-eeb6-41ab-86a1-af2db5b8e155">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736537(v=VS.85).aspx">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
  
 
  

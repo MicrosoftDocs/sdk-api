@@ -58,7 +58,7 @@ Gets the gamma function to be used for color interpolation.
 
 ### -param colorInterpolationMode [out, retval]
 
-The <a href="https://msdn.microsoft.com/ad203082-d5a3-4414-88e1-8fd4dded6ea9">XPS_COLOR_INTERPOLATION</a> value that describes the gamma function to be used for color interpolation.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372940(v=VS.85).aspx">XPS_COLOR_INTERPOLATION</a> value that describes the gamma function to be used for color interpolation.
 
 
 ## -returns
@@ -117,7 +117,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/ad203082-d5a3-4414-88e1-8fd4dded6ea9">XPS_COLOR_INTERPOLATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372940(v=VS.85).aspx">XPS_COLOR_INTERPOLATION</a>
  
 
  

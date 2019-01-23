@@ -98,7 +98,7 @@ Retrieves the media type for the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ff91c38-51af-467b-baff-0d41a2ba14f7">get_Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365091(v=VS.85).aspx">get_Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the connection.
@@ -107,7 +107,7 @@ Retrieves the name of the connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8d9506a-00a4-4202-aa1f-652a71cb5f0a">get_Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365092(v=VS.85).aspx">get_Status</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of the connection.
@@ -130,7 +130,7 @@ Retrieves the status of the connection.
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

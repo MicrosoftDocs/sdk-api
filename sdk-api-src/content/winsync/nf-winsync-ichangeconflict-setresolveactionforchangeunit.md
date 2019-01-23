@@ -140,7 +140,7 @@ By setting this action in an event handler for <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/6549eee1-6bf4-46b0-97d1-bb2c0f1b59a4">SYNC RESOLVE ACTION Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317266(v=VS.85).aspx">SYNC RESOLVE ACTION Enumeration</a>
  
 
  

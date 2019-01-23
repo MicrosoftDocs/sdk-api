@@ -60,13 +60,13 @@ subtypes of <a href="https://msdn.microsoft.com/729e27f4-354c-4ae9-a527-52c44420
 
 ### -field WS_SUBJECT_NAME_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://msdn.microsoft.com/d146d12f-4a1a-44b4-9e08-9f660554fcbb">WS_SUBJECT_NAME_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://msdn.microsoft.com/en-us/library/Dd323455(v=VS.85).aspx">WS_SUBJECT_NAME_CERT_CREDENTIAL</a>.
                 
 
 
 ### -field WS_THUMBPRINT_CERT_CREDENTIAL_TYPE
 
-Type id for the certificate credential <a href="https://msdn.microsoft.com/b1e7b6a6-1f71-4bcd-9c0e-9a46b963b19b">WS_THUMBPRINT_CERT_CREDENTIAL</a>.
+Type id for the certificate credential <a href="https://msdn.microsoft.com/en-us/library/Dd323473(v=VS.85).aspx">WS_THUMBPRINT_CERT_CREDENTIAL</a>.
                 
 
 

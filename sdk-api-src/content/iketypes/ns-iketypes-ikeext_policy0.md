@@ -77,7 +77,7 @@ See  <a href="https://msdn.microsoft.com/ce11d9ac-2636-432b-9bc7-3509f52478d9">I
 
 Type of impersonation. Applies only to AuthIP. 
 
-See <a href="https://msdn.microsoft.com/840c7429-5a1a-4e3f-823c-c46a412cbe71">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Aa364974(v=VS.85).aspx">IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE</a> for more information.
 
 
 ### -field numIkeProposals

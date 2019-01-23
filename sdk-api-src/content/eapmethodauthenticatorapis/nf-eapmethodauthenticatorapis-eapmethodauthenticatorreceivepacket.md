@@ -75,7 +75,7 @@ A pointer to an <a href="https://msdn.microsoft.com/a5d78db0-990f-4318-8f1a-4e90
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/992336ec-65ef-48bf-947f-1d569c9bd4aa">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that indicates the next action the supplicant must take in the EAP authentication session.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363929(v=VS.85).aspx">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that indicates the next action the supplicant must take in the EAP authentication session.
 
 
 ### -param ppEapError [out]

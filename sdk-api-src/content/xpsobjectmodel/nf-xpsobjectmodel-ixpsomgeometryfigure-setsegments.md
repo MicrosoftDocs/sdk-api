@@ -72,7 +72,7 @@ This value is also the number of elements in the array that is referenced by <i>
 
 ### -param segmentTypes [in]
 
-An array of <a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a> variables. The value of <i>segmentCount</i> specifies the number of elements in this array.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Dd372984(v=VS.85).aspx">XPS_SEGMENT_TYPE</a> variables. The value of <i>segmentCount</i> specifies the number of elements in this array.
 
 
 ### -param segmentData [in]
@@ -176,7 +176,7 @@ An entry in the array that is passed in <i>segmentData</i> contains a negative v
 
 A geometry segment is described by the start point, the segment type, and additional parameters whose values are determined by the segment type. The coordinates for the start point of the first segment are a property of the geometry figure and are set by calling <a href="https://msdn.microsoft.com/d9885c3d-06a0-4d25-81fc-cf0ef466a797">SetStartPoint</a>. The start point of each subsequent segment is the end point of the preceding segment.
 
-The number of data values that define a line segment depends on the segment type. The table that follows describes the specific set of required data values that must be used for each segment type. The values in the segment data array that is passed in the <i>segmentData</i>  parameter must correspond with the <a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a> values in the array that is passed in the <i>segmentTypes</i> parameter. For example, if the first line segment has a segment type value of <b>XPS_SEGMENT_TYPE_LINE</b>, the first two data values in the <i>segmentData</i> array will be the x and y coordinates of the end point of  that segment; if the next segment has a segment type value of <b>XPS_SEGMENT_TYPE_BEZIER</b>, the next six values in the <i>segmentData</i> array will describe the characteristics of that segment; and so on for each line segment in the geometry figure.
+The number of data values that define a line segment depends on the segment type. The table that follows describes the specific set of required data values that must be used for each segment type. The values in the segment data array that is passed in the <i>segmentData</i>  parameter must correspond with the <a href="https://msdn.microsoft.com/en-us/library/Dd372984(v=VS.85).aspx">XPS_SEGMENT_TYPE</a> values in the array that is passed in the <i>segmentTypes</i> parameter. For example, if the first line segment has a segment type value of <b>XPS_SEGMENT_TYPE_LINE</b>, the first two data values in the <i>segmentData</i> array will be the x and y coordinates of the end point of  that segment; if the next segment has a segment type value of <b>XPS_SEGMENT_TYPE_BEZIER</b>, the next six values in the <i>segmentData</i> array will describe the characteristics of that segment; and so on for each line segment in the geometry figure.
 
 <table>
 <tr>
@@ -322,13 +322,9 @@ The following code examples demonstrate one way to create and populate the buffe
 
 In the first code example, the <b>AddSegmentDataToArrays</b> method takes the data points that describe a single segment and stores them in the three different data buffers required by the <b>SetSegments</b> method. The data buffers that are passed as arguments to  <b>AddSegmentDataToArrays</b> are managed by the calling method as shown in the code example that follows <b>AddSegmentDataToArrays</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 AddSegmentDataToArrays(
     XPS_SEGMENT_TYPE        segmentType,
     BOOL                    segmentStroke,
@@ -363,7 +359,7 @@ segmentStroke
 *segmentsAvailable
     IN: the number of values that remain unused in the
         segmentTypeBuffer and the segmentStrokeBuffer.
-        This value must be &gt;= 1 when calling the method.
+        This value must be >= 1 when calling the method.
     OUT:  the number of values that remain unused in the
         segmentTypeBuffer and the segmentStrokeBuffer after
         segmentType and segmentStroke have been added. If the 
@@ -432,14 +428,14 @@ Remarks.
             case    XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE:
             case    XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE:
             case    XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE:
-                if (*segmentPointsAvailable &gt;= 5) 
+                if (*segmentPointsAvailable >= 5) 
                 {
                     // 5 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc end point (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc radius (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc radius (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc angle
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc radius (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc radius (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc angle
                     *segmentPointsAvailable -= 5;
                 }
                 else
@@ -448,15 +444,15 @@ Remarks.
                 }
                 break;
             case    XPS_SEGMENT_TYPE_BEZIER:
-                if (*segmentPointsAvailable &gt;= 6) 
+                if (*segmentPointsAvailable >= 6) 
                 {
                     // 6 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 1 (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 1 (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 1 (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 1 (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (y)
                     *segmentPointsAvailable -= 6;
                 }
                 else
@@ -465,11 +461,11 @@ Remarks.
                 }
                 break;
             case    XPS_SEGMENT_TYPE_LINE:
-                if (*segmentPointsAvailable &gt;= 2) 
+                if (*segmentPointsAvailable >= 2) 
                 {
                     // 2 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (y)
                     *segmentPointsAvailable -= 2;
                 }
                 else
@@ -478,13 +474,13 @@ Remarks.
                 }
                 break;
             case    XPS_SEGMENT_TYPE_QUADRATIC_BEZIER:
-                if (*segmentPointsAvailable &gt;= 4) 
+                if (*segmentPointsAvailable >= 4) 
                 {
                     // 4 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (y)
                     *segmentPointsAvailable -= 4;
                 }
                 else
@@ -515,21 +511,17 @@ Remarks.
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 In this code example, <b>UpdateSegmentData</b> creates the data buffers required by the <b>SetSegments</b> method and calls the <b>AddSegmentDataToArrays</b> method from the preceding code example to populate them with the segment data. After the buffers have been populated, <b>SetSegments</b> is called to add this data to the geometry figure. <div class="alert"><b>Note</b>  The actual segment data is not shown in these code examples.</div>
 <div> </div>
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 UpdateSegmentData (
     IXpsOMGeometryFigure    *geometryFigure,
     UINT32                  segmentCount,
@@ -580,17 +572,17 @@ UpdateSegmentData (
         hr = AddSegmentDataToArrays(
                 segmentType,
                 segmentStroke,
-                &amp;segmentPoints,
-                &amp;segmentsAvailable,
-                &amp;segmentPointsAvailable,
-                &amp;nextSegmentTypeValue,
-                &amp;nextSegmentStrokeValue,
-                &amp;nextSegmentPointValue);
+                &segmentPoints,
+                &segmentsAvailable,
+                &segmentPointsAvailable,
+                &nextSegmentTypeValue,
+                &nextSegmentStrokeValue,
+                &nextSegmentPointValue);
         
     if (SUCCEEDED(hr))
     {
         // set segment data
-        hr = geometryFigure-&gt;SetSegments (
+        hr = geometryFigure->SetSegments (
             segmentCount,
             segmentDataCount,
             segmentTypeBuffer,
@@ -601,10 +593,10 @@ UpdateSegmentData (
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -629,7 +621,7 @@ UpdateSegmentData (
 
 
 
-<a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372984(v=VS.85).aspx">XPS_SEGMENT_TYPE</a>
  
 
  

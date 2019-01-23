@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Returns the flags on the current window. Flags are one of the values of the enumeration type <a href="https://msdn.microsoft.com/0ba626e0-b6dc-4331-9541-0c27c73b3de4">RDPSRAPI_WND_FLAGS</a>.
+Returns the flags on the current window. Flags are one of the values of the enumeration type <a href="https://msdn.microsoft.com/en-us/library/Aa373866(v=VS.85).aspx">RDPSRAPI_WND_FLAGS</a>.
 
 This property is read-only.
 

@@ -89,7 +89,7 @@ A Group Policy change can result in the Peer Distribution service  moving to an 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd408036(v=VS.85).aspx">PEERDIST_STATUS</a>
+<a href="https://msdn.microsoft.com/d693dc1c-39ce-4a2b-b769-9d370abc3d3c">PEERDIST_STATUS</a>
 
 
 

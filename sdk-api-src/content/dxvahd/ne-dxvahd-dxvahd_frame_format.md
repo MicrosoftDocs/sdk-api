@@ -84,7 +84,7 @@ Frame are interlaced. The bottom field of each frame is displayed first.
 
 
 
-<a href="https://msdn.microsoft.com/4fa6a7f7-df9f-4e38-884c-81a01f913df0">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd318764(v=VS.85).aspx">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a>
 
 
 

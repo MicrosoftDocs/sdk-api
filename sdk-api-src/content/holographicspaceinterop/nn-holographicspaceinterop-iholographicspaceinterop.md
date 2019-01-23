@@ -2,7 +2,7 @@
 UID: NN:holographicspaceinterop.IHolographicSpaceInterop
 title: IHolographicSpaceInterop
 author: windows-sdk-content
-description: Enables interoperability with a Univeral Windows Platform (UWP) HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
+description: Enables interoperability with a Universal Windows Platform (UWP) HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
 old-location: mixedreality\iholographicspaceinterop.htm
 tech.root: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
@@ -52,7 +52,7 @@ req.redist:
         Updated for UWP apps on Windows 10. For Windows 8.x articles, see the
         <a href="http://go.microsoft.com/fwlink/p/?linkid=619132">archive</a> ]
 
-Enables interoperability with a Univeral Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">HolographicSpace</a> object and provides access to HolographicSpace members for representing a holographic scene.
+Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">HolographicSpace</a> object and provides access to HolographicSpace members for representing a holographic scene.
 
 
 ## -see-also

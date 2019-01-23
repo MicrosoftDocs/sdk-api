@@ -76,7 +76,7 @@ Type of extended data. The following are possible values.
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/cabc11ca-e65e-4ffd-9832-7fb4f77417e4">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a> to write the event.
+The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/en-us/library/Aa363756(v=VS.85).aspx">EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID</a> structure that contains the related activity identifier if you called <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a> to write the event.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/3def6
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/6898951a-5719-47aa-a219-97f82095686f">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> structure that contains the call stack if the event is captured on a 32-bit computer.
+The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/en-us/library/Dd392308(v=VS.85).aspx">EVENT_EXTENDED_ITEM_STACK_TRACE32</a> structure that contains the call stack if the event is captured on a 32-bit computer.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/68989
 </dl>
 </td>
 <td width="60%">
-The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/3c9e0dcb-1eb9-4c9f-a4c8-5a93566be303">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> structure that contains the call stack if the event is captured on a 64-bit computer.
+The <b>DataPtr</b> member points to an <a href="https://msdn.microsoft.com/en-us/library/Dd392309(v=VS.85).aspx">EVENT_EXTENDED_ITEM_STACK_TRACE64</a> structure that contains the call stack if the event is captured on a 64-bit computer.
 
 </td>
 </tr>

@@ -61,7 +61,7 @@ Only one instance of this binding may be present in a <a href="https://msdn.micr
 
 For a <a href="https://msdn.microsoft.com/574496df-95dc-45f7-8c42-e646aec12e69">federated security</a> scenario that
 involves getting a security token from an issuer and then presenting
-it to a service, one may use <a href="https://msdn.microsoft.com/ee754a7d-73a9-49ae-afc7-b443fbbe0cce">WsRequestSecurityToken</a>together with the <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
+it to a service, one may use <a href="https://msdn.microsoft.com/ee754a7d-73a9-49ae-afc7-b443fbbe0cce">WsRequestSecurityToken</a>together with the <a href="https://msdn.microsoft.com/en-us/library/Dd323568(v=VS.85).aspx">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> on
 the client side, and this binding on the server side.
            
 
@@ -97,7 +97,7 @@ How the security token corresponding to this security binding should be bound to
 supported.  With this usage, this security binding provides client
 authentication, but not message protection (such as signing,
 encryption, replay detection).  Thus, this binding must be used
-together with another security binding such as the <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ceb8e6">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
+together with another security binding such as the <a href="https://msdn.microsoft.com/en-us/library/Dd323441(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING</a> that provides a protected
 channel.
                 
 

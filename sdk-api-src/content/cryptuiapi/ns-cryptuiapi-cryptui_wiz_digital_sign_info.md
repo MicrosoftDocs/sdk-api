@@ -113,7 +113,7 @@ A pointer to a null-terminated Unicode string that contains the path and file na
 
 ### -field pSignBlobInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/9750f52a-f605-4f43-98e1-0f0ea947a214">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380651(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO</a> structure that contains the BLOB to sign. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB</b> is specified for the <b>dwSubjectChoice</b> member.
 
 
 ### -field dwSigningCertChoice
@@ -143,7 +143,7 @@ The certificate is contained in the <a href="https://msdn.microsoft.com/f0a3200e
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the certificate store contained in the <a href="https://msdn.microsoft.com/d3ffbf1c-e8c2-44ab-84d2-d32350d04407">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure pointed to by the <b>pSigningCertStore</b> member.
+The certificate is contained in the certificate store contained in the <a href="https://msdn.microsoft.com/en-us/library/Aa380686(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure pointed to by the <b>pSigningCertStore</b> member.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The certificate is contained in the certificate store contained in the <a href="
 </dl>
 </td>
 <td width="60%">
-The certificate is contained in the PVK file contained in the <a href="https://msdn.microsoft.com/0316ed0b-d4e5-4102-9ab0-637e96c7d9f5">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure pointed to by the <b>pSigningCertPvkInfo</b> member.
+The certificate is contained in the PVK file contained in the <a href="https://msdn.microsoft.com/en-us/library/Aa380659(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure pointed to by the <b>pSigningCertPvkInfo</b> member.
 
 </td>
 </tr>
@@ -178,12 +178,12 @@ A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a3
 
 ### -field pSigningCertStore
 
-A pointer to a <a href="https://msdn.microsoft.com/d3ffbf1c-e8c2-44ab-84d2-d32350d04407">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380686(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 
 ### -field pSigningCertPvkInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/0316ed0b-d4e5-4102-9ab0-637e96c7d9f5">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380659(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_CERT_PVK_INFO</a> structure that contains the certificate to use to sign the entity. This member is used if <b>CRYPTUI_WIZ_DIGITAL_SIGN_PVK</b> is specified for the <b>dwSigningCertChoice</b> member.
 
 
 ### -field pwszTimestampURL
@@ -236,7 +236,7 @@ No additional certificates will be included in the signature.
 
 ### -field pSignExtInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/e061aac4-8c9f-4282-a8f8-bc0c5a10e566">CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</a> structure that contains extended information about the signature.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380672(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</a> structure that contains extended information about the signature.
 
 
 ## -see-also

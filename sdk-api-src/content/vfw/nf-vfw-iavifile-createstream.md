@@ -95,20 +95,16 @@ Returns HRESULT defined by OLE.
 
 For handlers written in C++, <b>CreateStream</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT CreateStream(PAVISTREAM *ppstream, 
     AVISTREAMINFO *psi); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

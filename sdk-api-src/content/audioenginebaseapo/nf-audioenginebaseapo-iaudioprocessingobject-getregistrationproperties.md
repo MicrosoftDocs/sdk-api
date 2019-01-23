@@ -50,7 +50,7 @@ req.redist:
 
 
 GetRegistrationProperties returns the registration properties of the audio processing object (APO).
-<div class="alert"><b>Note</b>  Starting with Windows 8.1, this method has been deprecated.</div><div> </div>
+
 
 ## -parameters
 

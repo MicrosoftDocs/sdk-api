@@ -81,17 +81,11 @@ Returns true if <i>V1</i> is less than <i>V2</i> and false otherwise. See the re
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>return ( V1.x < V2.x && V1.y < V2.y &&
-         V1.z < V2.z );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+return ( V1.x < V2.x && V1.y < V2.y &&
+         V1.z < V2.z );
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/6436c049-d710-4208-882a-0c7e83b4a079">CLIENT_DISPLAY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee338604(v=VS.85).aspx">CLIENT_DISPLAY</a>
 
 
 

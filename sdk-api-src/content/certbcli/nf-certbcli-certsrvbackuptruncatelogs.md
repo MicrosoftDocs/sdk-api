@@ -91,13 +91,9 @@ Depending on the volume of the log files, the log file replay can be a time-cons
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPTRUNCATELOGS* pfnTruncateLogs;
+
+```cpp
+FNCERTSRVBACKUPTRUNCATELOGS* pfnTruncateLogs;
 char * szTruncateLogsFunc = "CertSrvBackupTruncateLogs";
 
 HRESULT    hr=0;
@@ -123,10 +119,10 @@ if (FAILED(hr))
     exit(1); // Or other appropriate error action.
 }
 else
-    printf("Logs truncated\n");</pre>
-</td>
-</tr>
-</table></span></div>
+    printf("Logs truncated\n");
+```
+
+
 
 
 

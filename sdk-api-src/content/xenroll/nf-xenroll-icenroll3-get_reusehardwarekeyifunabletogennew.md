@@ -76,15 +76,11 @@ This property is a Boolean value. This property affects only <a href="https://ms
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Code to set the reuse H/W key status.
+
+```cpp
+// Code to set the reuse H/W key status.
 // hr is HRESULT variable.
-hr = pEnroll-&gt;put_ReuseHardwareKeyIfUnableToGenNew( FALSE );
+hr = pEnroll->put_ReuseHardwareKeyIfUnableToGenNew( FALSE );
 if ( FAILED( hr ) )    
     printf("Failed put_ReuseHardwareKeyIfUnableToGenNew [%x]\n", hr);
 
@@ -92,15 +88,15 @@ if ( FAILED( hr ) )
 // Code to retrieve the reuse H/W key status.
 BOOL bReuse;
 
-hr = pEnroll-&gt;get_ReuseHardwareKeyIfUnableToGenNew( &amp;bReuse );
+hr = pEnroll->get_ReuseHardwareKeyIfUnableToGenNew( &bReuse );
 if ( FAILED( hr ) )
     printf("Failed get_ReuseHardwareKeyIfUnableToGenNew [%x]\n", hr);
 else
     printf("Hardware key %s be reused if unable"
-        " to generate a new key.\n", bReuse ? "will" : "will not");</pre>
-</td>
-</tr>
-</table></span></div>
+        " to generate a new key.\n", bReuse ? "will" : "will not");
+```
+
+
 
 
 

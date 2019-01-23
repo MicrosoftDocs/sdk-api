@@ -147,19 +147,15 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt16Vector">PropVariantToUInt16Vector</a> to access an <b>unsigned short</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776566(v=VS.85).aspx">PropVariantToUInt16Vector</a> to access an <b>unsigned short</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 USHORT rgShorts[4]; // The application is expecting propvar to hold 4 USHORTs in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToUInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &amp;cElems);
+HRESULT hr = PropVariantToUInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgShorts))
@@ -170,10 +166,10 @@ if (SUCCEEDED(hr))
      {
          // The application got cElems which are stored in the first cElems elements of rgShorts
      }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -182,23 +178,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromUInt16Vector">InitPropVariantFromUInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762310(v=VS.85).aspx">InitPropVariantFromUInt16Vector</a>
 
 
 
-<a href="shell.PropVariantGetUInt16Elem">PropVariantGetUInt16Elem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776528(v=VS.85).aspx">PropVariantGetUInt16Elem</a>
 
 
 
-<a href="shell.PropVariantToUInt16">PropVariantToUInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776565(v=VS.85).aspx">PropVariantToUInt16</a>
 
 
 
-<a href="shell.PropVariantToUInt16VectorAlloc">PropVariantToUInt16VectorAlloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776567(v=VS.85).aspx">PropVariantToUInt16VectorAlloc</a>
 
 
 
-<a href="shell.VariantToUInt16Array">VariantToUInt16Array</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776624(v=VS.85).aspx">VariantToUInt16Array</a>
  
 
  

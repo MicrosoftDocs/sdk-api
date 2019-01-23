@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderQuery::GetQueryConstraints
 author: windows-sdk-content
 description: Retrieves the current query constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getqueryconstraints.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: a8329732-79dd-4606-96c3-40534cde5fc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

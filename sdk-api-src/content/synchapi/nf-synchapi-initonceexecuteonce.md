@@ -4,7 +4,7 @@ title: InitOnceExecuteOnce function
 author: windows-sdk-content
 description: Executes the specified function successfully one time. No other threads that specify the same one-time initialization structure can execute the specified function while it is being executed by the current thread.
 old-location: base\initonceexecuteonce.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 04c161ed-d1b0-4995-b246-cb64cb67ae47
 ms.author: windowssdkdev
 ms.date: 12/5/2018

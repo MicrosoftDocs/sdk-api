@@ -111,26 +111,22 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	    advantage of the <code>union</code> of the four components of the <code>XMU555</code>vector with an instance of <code>uint16_t</code> in the definition of the structure:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	_x1=min( max( _x, 0.0 ), 31.0 );
 	_y1=min( max( _y, 0.0 ), 31.0 );
 	_z1=min( max( _z, 0.0 ), 31.0 );
 	_w1=min( max( _w, 0 ), 1 );
 
 	instance.v =  (((uint16_t)_w1 ? 0x8000 : 0) |
-                      (((uint16_t)_z1 &amp; 0x1F) &lt;&lt; 10) |
-                      (((uint16_t)_y1 &amp; 0x1F) &lt;&lt; 5) |  
-		      (((uint16_t)_x1 &amp; 0x1F)));
-	</pre>
-</td>
-</tr>
-</table></span></div>
+                      (((uint16_t)_z1 & 0x1F) << 10) |
+                      (((uint16_t)_y1 & 0x1F) << 5) |  
+		      (((uint16_t)_x1 & 0x1F)));
+	
+```
+
+
 
 
 

@@ -88,27 +88,23 @@ The <b>Collate</b> method performs a case-sensitive comparison of the strings ac
 
 The following code example shows how to use <b>CHString::Collate</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHString str1 = L"co-op";
+
+```cpp
+CHString str1 = L"co-op";
 CHString str2 = L"con";
 
 int n;
 
 // collation uses language rules, such as ignoring dashes
 n = str1.Collate(str2);
-assert(n &gt; 0);
+assert(n > 0);
 
 // comparison is a strict ASCII comparison with no language rules
 n = str1.Compare(str2);
-assert(n &lt; 0);</pre>
-</td>
-</tr>
-</table></span></div>
+assert(n < 0);
+```
+
+
 
 
 

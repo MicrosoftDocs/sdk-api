@@ -98,13 +98,9 @@ This function's ordering schema differs somewhat from <a href="https://msdn.micr
 		
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>2string
+
+```
+2string
 3string
 20string
 st2ring
@@ -112,21 +108,17 @@ st3ring
 st20ring
 string2
 string3
-string20</pre>
-</td>
-</tr>
-</table></span></div>
+string20
+```
+
+
 <b>StrCmpI</b> considers digits in the string only as text so that those same strings are ordered as follows:
 		    
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>20string
+
+```
+20string
 2string
 3string
 st20ring
@@ -134,10 +126,10 @@ st2ring
 st3ring
 string2
 string20
-string3</pre>
-</td>
-</tr>
-</table></span></div>
+string3
+```
+
+
 <div class="alert"><b>Note</b>  Behavior of this function, and therefore the results it returns, can change from release to release. It should not be used for canonical sorting applications.</div>
 <div> </div>
 

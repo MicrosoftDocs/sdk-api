@@ -50,7 +50,7 @@ req.redist: DbgHelp.dll 5.1 or later
 
 Contains thread information for the 
 <a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a> function when the callback type is 
-<a href="https://msdn.microsoft.com/c970564d-e1f0-4317-bf66-752b98767451">ThreadCallback</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680364(v=VS.85).aspx">ThreadCallback</a>.
 
 
 ## -struct-fields
@@ -103,7 +103,7 @@ The ending address of the thread stack.
 
 
 
-<a href="https://msdn.microsoft.com/0ce3083c-21c9-48a4-9099-1dab31afcafa">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a>
 
 
 

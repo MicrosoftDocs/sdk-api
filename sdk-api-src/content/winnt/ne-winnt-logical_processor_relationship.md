@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Represents the relationship between the processor set identified in the corresponding <a href="https://msdn.microsoft.com/32ef5dd8-c00d-44ee-a291-a18653beb1b9">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>  or <a href="https://msdn.microsoft.com/6ff16cda-c1dc-4d5c-ac60-756653cd6b07">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>  structure.
+Represents the relationship between the processor set identified in the corresponding <a href="https://msdn.microsoft.com/32ef5dd8-c00d-44ee-a291-a18653beb1b9">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>  or <a href="https://msdn.microsoft.com/en-us/library/Dd405522(v=VS.85).aspx">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>  structure.
 
 
 ## -enum-fields
@@ -98,7 +98,7 @@ On input, retrieves information about all possible relationship types. This valu
 
 
 
-The value specified by this enumeration indicates the relationship represented in the corresponding <a href="https://msdn.microsoft.com/32ef5dd8-c00d-44ee-a291-a18653beb1b9">SYSTEM_LOGICAL _PROCESSOR_INFORMATION</a>  or <a href="https://msdn.microsoft.com/6ff16cda-c1dc-4d5c-ac60-756653cd6b07">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>  structure. 
+The value specified by this enumeration indicates the relationship represented in the corresponding <a href="https://msdn.microsoft.com/32ef5dd8-c00d-44ee-a291-a18653beb1b9">SYSTEM_LOGICAL _PROCESSOR_INFORMATION</a>  or <a href="https://msdn.microsoft.com/en-us/library/Dd405522(v=VS.85).aspx">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>  structure. 
 
 
 #### Examples
@@ -126,7 +126,7 @@ For an example, see <a href="https://msdn.microsoft.com/904d2d35-f419-4e8f-a689-
 
 
 
-<a href="https://msdn.microsoft.com/6ff16cda-c1dc-4d5c-ac60-756653cd6b07">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd405522(v=VS.85).aspx">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

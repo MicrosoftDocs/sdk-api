@@ -91,7 +91,7 @@ For example, it's appropriate to call the <b>CoAllowUnmarshalerCLSID</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/7F557290-7162-4B32-880B-9A445A083F91">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ247567(v=VS.85).aspx">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

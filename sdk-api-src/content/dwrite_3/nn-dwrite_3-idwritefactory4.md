@@ -54,7 +54,7 @@ The root factory interface for all DirectWrite objects.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn890753(v=VS.85).aspx">IDWriteFactory3</a>. <b>IDWriteFactory4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFactory4</b> interface inherits from <a href="https://msdn.microsoft.com/CCE68F89-6945-40F4-9C27-285AC8AB4D0B">IDWriteFactory3</a>. <b>IDWriteFactory4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -77,7 +77,7 @@ The <b>IDWriteFactory4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt761992(v=VS.85).aspx">TranslateColorGlyphRun</a>
+<a href="https://msdn.microsoft.com/D8C38635-8D7B-4C05-87D5-CCDCF31A4070">TranslateColorGlyphRun</a>
 </td>
 <td align="left" width="63%">
 Translates a glyph run to a sequence of color glyph runs, which can be rendered to produce a color representation of the original "base" run.

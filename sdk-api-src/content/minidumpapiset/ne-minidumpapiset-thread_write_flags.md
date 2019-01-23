@@ -101,7 +101,7 @@ When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set.
 
 
 
-<a href="https://msdn.microsoft.com/57949087-0f22-40c8-ab56-326a8304c310">MINIDUMP_CALLBACK_OUTPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680363(v=VS.85).aspx">MINIDUMP_CALLBACK_OUTPUT</a>
 
 
 

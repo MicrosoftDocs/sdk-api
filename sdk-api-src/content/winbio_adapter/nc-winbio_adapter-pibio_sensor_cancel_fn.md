@@ -114,13 +114,9 @@ If the sensor has no pending operations when this function is called, your imple
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterCancel
 //
@@ -147,23 +143,23 @@ SensorAdapterCancel(
     }
 
     // Validate the current sensor state.
-    if (Pipeline-&gt;SensorHandle == INVALID_HANDLE_VALUE)
+    if (Pipeline->SensorHandle == INVALID_HANDLE_VALUE)
     {
         return WINBIO_E_INVALID_DEVICE_STATE;
     }
 
     // Cancel all I/O to the sensor handle.
-    if (!CancelIoEx(Pipeline-&gt;SensorHandle, NULL))
+    if (!CancelIoEx(Pipeline->SensorHandle, NULL))
     {
         hr = _SensorAdapterGetHresultFromWin32(GetLastError());
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

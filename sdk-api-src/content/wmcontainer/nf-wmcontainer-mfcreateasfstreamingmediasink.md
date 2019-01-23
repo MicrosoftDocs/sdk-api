@@ -93,13 +93,9 @@ An application can get a pointer to the <a href="https://msdn.microsoft.com/6b7f
 
 The following code example shows how to create a media sink for an ASF source. This example copies the stream configuration settings from the source to the ContentInfo object that represents the ASF header object of the output file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  Creates an an instance of the ASF streaming sink.
+
+```cpp
+//  Creates an an instance of the ASF streaming sink.
 
 HRESULT CreateASFStreamingSink(
     IMFMediaSource *pSource, 
@@ -113,7 +109,7 @@ HRESULT CreateASFStreamingSink(
     IMFASFContentInfo* pASFContentInfo = NULL;
 
     // Create the streaming media sink for the ASF file
-    HRESULT hr = MFCreateASFStreamingMediaSink(pOutputByteStream, &amp;pMediaSink);
+    HRESULT hr = MFCreateASFStreamingMediaSink(pOutputByteStream, &pMediaSink);
     if (FAILED(hr))
     {
         goto done;
@@ -124,46 +120,46 @@ HRESULT CreateASFStreamingSink(
     //
 
     // Get the presentation descriptor from the source.
-    hr = pSource-&gt;CreatePresentationDescriptor(&amp;pSourcePD);
+    hr = pSource->CreatePresentationDescriptor(&pSourcePD);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Convert the presentation descriptor to an ASF profile.
-    hr = MFCreateASFProfileFromPresentationDescriptor(pSourcePD, &amp;pASFProfile);
+    hr = MFCreateASFProfileFromPresentationDescriptor(pSourcePD, &pASFProfile);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pMediaSink-&gt;QueryInterface(IID_PPV_ARGS(&amp;pASFContentInfo));
+    hr = pMediaSink->QueryInterface(IID_PPV_ARGS(&pASFContentInfo));
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Set the profile on the sink.
-    hr = pASFContentInfo-&gt;SetProfile(pASFProfile);
+    hr = pASFContentInfo->SetProfile(pASFProfile);
     if (FAILED(hr))
     {
         goto done;
     }
 
     *ppMediaSink = pMediaSink;
-    (*ppMediaSink)-&gt;AddRef();
+    (*ppMediaSink)->AddRef();
 
 done:
-    SafeRelease(&amp;pSourcePD);
-    SafeRelease(&amp;pASFProfile);
-    SafeRelease(&amp;pASFContentInfo);
-    SafeRelease(&amp;pMediaSink);
+    SafeRelease(&pSourcePD);
+    SafeRelease(&pASFProfile);
+    SafeRelease(&pASFContentInfo);
+    SafeRelease(&pMediaSink);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

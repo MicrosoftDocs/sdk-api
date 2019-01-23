@@ -74,7 +74,7 @@ List of integers. The constant MAX_INTLIST_COUNT, by definition, is equal to 402
 
 
 
-The lists are returned by <a href="https://msdn.microsoft.com/123ddb53-4447-4b6b-a311-61da47090e94">GetThemeIntList</a>.
+The lists are returned by <a href="https://msdn.microsoft.com/en-us/library/Bb759752(v=VS.85).aspx">GetThemeIntList</a>.
 
 
 

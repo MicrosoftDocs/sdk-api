@@ -78,7 +78,7 @@ The <b>IDCompositionEffectGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh437423(v=VS.85).aspx">SetTransform3D</a>
+<a href="https://msdn.microsoft.com/40935581-D45C-496B-90B9-152963F0B55A">SetTransform3D</a>
 </td>
 <td align="left" width="63%">
 Sets the 3D transformation effect object that modifies the rasterization of the visuals that this effect group is applied to.
@@ -97,7 +97,7 @@ Sets the 3D transformation effect object that modifies the rasterization of the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449159(v=VS.85).aspx">IDCompositionVisual::SetEffect</a>
+<a href="https://msdn.microsoft.com/CCA785F6-869C-460A-AF54-573BDE798685">IDCompositionVisual::SetEffect</a>
  
 
  

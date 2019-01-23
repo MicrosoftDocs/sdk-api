@@ -128,28 +128,24 @@ To view tables of DXGI formats and hardware features, refer to:
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D1211on12</a> sample uses <b>ID3D12Device::CheckFeatureSupport</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>inline UINT8 D3D12GetFormatPlaneCount(
+
+```cpp
+inline UINT8 D3D12GetFormatPlaneCount(
     _In_ ID3D12Device* pDevice,
     DXGI_FORMAT Format
     )
 {
     D3D12_FEATURE_DATA_FORMAT_INFO formatInfo = {Format};
-    if (FAILED(pDevice-&gt;CheckFeatureSupport(D3D12_FEATURE_FORMAT_INFO, &amp;formatInfo, sizeof(formatInfo))))
+    if (FAILED(pDevice->CheckFeatureSupport(D3D12_FEATURE_FORMAT_INFO, &formatInfo, sizeof(formatInfo))))
     {
         return 0;
     }
     return formatInfo.PlaneCount;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -60,14 +60,14 @@ Contains information specific to ComboBoxEx items for use with notification code
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-The <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
+The <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field ceItem
 
-Type: <b><a href="https://msdn.microsoft.com/d987e62d-e4f2-499e-bf4c-624aeab41377">COMBOBOXEXITEM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775746(v=VS.85).aspx">COMBOBOXEXITEM</a></b>
 
-The <a href="https://msdn.microsoft.com/d987e62d-e4f2-499e-bf4c-624aeab41377">COMBOBOXEXITEM</a> structure that holds item information specific to the current notification. Upon receiving a notification code, the <b>COMBOBOXEXITEM</b> structure holds information required for the owner to respond. The members of this structure are often used as fields for the owner to return values in response to the notification. 
+The <a href="https://msdn.microsoft.com/en-us/library/Bb775746(v=VS.85).aspx">COMBOBOXEXITEM</a> structure that holds item information specific to the current notification. Upon receiving a notification code, the <b>COMBOBOXEXITEM</b> structure holds information required for the owner to respond. The members of this structure are often used as fields for the owner to return values in response to the notification. 
 

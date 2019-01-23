@@ -79,7 +79,7 @@ The <b>ICertificateEnrollmentServerSetup</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4B380551-742C-4D36-80C9-C92F62F916BB">GetProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration value for the CES configuration.
+Retrieves a <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value for the CES configuration.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Specifies user account information for the application pool in which CES runs.
 <a href="https://msdn.microsoft.com/D2E20195-D81F-4717-83D2-BF8DC1D1779B">SetProperty</a>
 </td>
 <td align="left" width="63%">
-Specifies a <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration value for the CES configuration.
+Specifies a <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value for the CES configuration.
 
 </td>
 </tr>

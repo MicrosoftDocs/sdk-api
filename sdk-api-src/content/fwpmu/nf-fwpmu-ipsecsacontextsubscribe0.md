@@ -65,7 +65,7 @@ Handle for an open session to the filter engine. Call <a href="https://msdn.micr
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d729f4e2-621a-4a39-beed-e339b76f53fc">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Hh447460(v=VS.85).aspx">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>*</b>
 
 The notifications which will be delivered.
 
@@ -165,7 +165,7 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/d729f4e2-621a-4a39-beed-e339b76f53fc">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447460(v=VS.85).aspx">IPSEC_SA_CONTEXT_SUBSCRIPTION0</a>
  
 
  

@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The 
 <b>get_NetConnectionProps</b> method retrieves a properties interface for the specified connection.
@@ -62,7 +62,7 @@ The
 ### -param pNetConnection [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a> interface for the connection for which to retrieve the properties interface.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365084(v=VS.85).aspx">INetConnection</a> interface for the connection for which to retrieve the properties interface.
 
 
 ### -param ppProps [out]
@@ -183,7 +183,7 @@ The method failed for unknown reasons.
 
 
 Not all connections can be configured for sharing. Retrieve the properties for the connection to verify that the connection can be shared before calling 
-<a href="https://msdn.microsoft.com/8f774509-0efb-49e5-bf56-61f4810631bd">INetSharingManager::get_INetSharingConfigurationForINetConnection</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365966(v=VS.85).aspx">INetSharingManager::get_INetSharingConfigurationForINetConnection</a>.
 
 
 
@@ -197,7 +197,7 @@ Not all connections can be configured for sharing. Retrieve the properties for t
 
 
 
-<a href="https://msdn.microsoft.com/8f774509-0efb-49e5-bf56-61f4810631bd">INetSharingManager::get_INetSharingConfigurationForINetConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365966(v=VS.85).aspx">INetSharingManager::get_INetSharingConfigurationForINetConnection</a>
 
 
 

@@ -63,7 +63,7 @@ The name of the target.
 
 ### -param targetChangeType [in]
 
-A value of the <a href="https://msdn.microsoft.com/ee1e6433-498f-4d8a-97d7-3e32f79fafda">TARGET_CHANGE_TYPE</a> enumeration that specifies the type of change that occurred in a target.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Ee351745(v=VS.85).aspx">TARGET_CHANGE_TYPE</a> enumeration that specifies the type of change that occurred in a target.
 
 
 ## -returns

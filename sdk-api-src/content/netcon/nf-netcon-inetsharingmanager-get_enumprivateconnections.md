@@ -67,7 +67,7 @@ This parameter must be ICSSC_DEFAULT.
 ### -param ppColl [out]
 
 Pointer to a pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/6e850e7b-841a-4f14-bab2-4a5a67dcb360">INetSharingPrivateConnectionCollection</a> interface.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365988(v=VS.85).aspx">INetSharingPrivateConnectionCollection</a> interface.
 
 
 ## -returns
@@ -186,11 +186,11 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/e7009d13-89c2-4fd9-8f6c-dcdc67178598">INetSharingManager</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365960(v=VS.85).aspx">INetSharingManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e850e7b-841a-4f14-bab2-4a5a67dcb360">INetSharingPrivateConnectionCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365988(v=VS.85).aspx">INetSharingPrivateConnectionCollection</a>
 
 
 
@@ -198,7 +198,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

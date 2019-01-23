@@ -154,13 +154,9 @@ For information on registering event trace providers, see
 
 The following example shows you how to call this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <windows.h>
+
+```cpp
+#include <windows.h>
 #include <stdio.h>
 #include <evntcons.h>
 
@@ -365,10 +361,8 @@ cleanup:
 
     return status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

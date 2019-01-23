@@ -58,7 +58,7 @@ Sets the  style for joining stroke lines.
 
 ### -param strokeLineJoin [in]
 
-The <a href="https://msdn.microsoft.com/b0409564-a6b3-4e9d-b136-3d865dd46f1d">XPS_LINE_JOIN</a> value to be set.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a> value to be set.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeLineJoin</i> is not a valid <a href="https://msdn.microsoft.com/b0409564-a6b3-4e9d-b136-3d865dd46f1d">XPS_LINE_JOIN</a> value.
+<i>strokeLineJoin</i> is not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a> value.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://msdn.microsoft.com/b0409564-a6b3-4e9d-b136-3d865dd46f1d">XPS_LINE_JOIN</a>.
+For more information about the line join styles, see <a href="https://msdn.microsoft.com/en-us/library/Dd372963(v=VS.85).aspx">XPS_LINE_JOIN</a>.
 
 
 

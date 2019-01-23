@@ -68,7 +68,7 @@ The <b>IDCompositionTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx">SetRoot</a>
+<a href="https://msdn.microsoft.com/febbef70-fc21-4295-93c5-2f9f52434aae">SetRoot</a>
 </td>
 <td align="left" width="63%">
 Sets a visual object as the new root object of a visual tree.
@@ -83,11 +83,11 @@ Sets a visual object as the new root object of a visual tree.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437396(v=VS.85).aspx">IDCompositionDevice::CreateTargetForHwnd</a>
+<a href="https://msdn.microsoft.com/eba2388a-9c94-43f0-bf7f-e814895a2792">IDCompositionDevice::CreateTargetForHwnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
  
 
  

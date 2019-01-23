@@ -124,17 +124,13 @@ This function queues an APC function against the specified thread. Under Windows
 
 LPWSAUSERAPC is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef void ( CALLBACK FAR * LPWSAUSERAPC )( DWORD dwContext );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+typedef void ( CALLBACK FAR * LPWSAUSERAPC )( DWORD dwContext );
+
+```
+
+
 Because the APC mechanism supports only a single  context value, <i>lpfnUserApc</i> itself cannot be the client specified–completion routine, which involves more parameters. The service provider must instead supply a pointer to its own APC function that uses the supplied <i>dwContext</i> value to access the needed result information for the overlapped operation, and then invokes the client specified–completion routine.
 
 For service providers where a user-mode component implements overlapped I/O, a typical usage of the APC mechanism is as follows.

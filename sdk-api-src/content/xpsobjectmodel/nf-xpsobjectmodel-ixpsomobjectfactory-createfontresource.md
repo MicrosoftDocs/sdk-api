@@ -67,7 +67,7 @@ The read-only <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23
 
 ### -param fontEmbedding [in]
 
-The <a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING</a> value that specifies the stream's embedding option.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING</a> value that specifies the stream's embedding option.
 
 
 ### -param partUri [in]
@@ -146,8 +146,8 @@ The method succeeded.
 One of the following errors  has occurred:
 
 <ul>
-<li><i>fontEmbedding</i> is not a  valid <a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING</a> value.</li>
-<li><i>fontEmbedding</i> is <a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING_NORMAL</a> and  <i>isObfSourceStream</i> is <b>TRUE</b>.</li>
+<li><i>fontEmbedding</i> is not a  valid <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING</a> value.</li>
+<li><i>fontEmbedding</i> is <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_NORMAL</a> and  <i>isObfSourceStream</i> is <b>TRUE</b>.</li>
 </ul>
 </td>
 </tr>
@@ -174,17 +174,13 @@ One of the following errors  has occurred:
 
 The value of <i>isObfSourceStream</i> describes the state of the <i>acquiredStream</i>-referenced stream  at  the time the font resource is created. All subsequent calls to <a href="https://msdn.microsoft.com/d512e862-e2d0-4cc8-a20a-bc3cfbfbcc47">GetStream</a> or <a href="https://msdn.microsoft.com/87a9d003-9406-4c94-b814-4986d213ee47">SetContent</a> will operate on unobfuscated versions of <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
 
-An error is returned if <i>isObfSourceStream</i> is set to <b>TRUE</b> and <i>fontEmbedding</i> is set to <a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING_NORMAL</a>, or if the name referenced by <i>partUri</i> does not conform to the syntax for obfuscated streams.
+An error is returned if <i>isObfSourceStream</i> is set to <b>TRUE</b> and <i>fontEmbedding</i> is set to <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_NORMAL</a>, or if the name referenced by <i>partUri</i> does not conform to the syntax for obfuscated streams.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMFontResource    *newInterface;
 IOpcPartUri           *partUri;
 
@@ -196,40 +192,40 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
+    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory-&gt;CreateFontResource (
+        hr = xpsFactory->CreateFontResource (
             acquiredStream, 
             XPS_FONT_EMBEDDING_NORMAL,    // normal
             partUri, 
             FALSE,                        // not obfuscated
-            &amp;newInterface);
+            &newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface-&gt;Release();
+            newInterface->Release();
         }
-        partUri-&gt;Release();
+        partUri->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -258,7 +254,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING</a>
  
 
  

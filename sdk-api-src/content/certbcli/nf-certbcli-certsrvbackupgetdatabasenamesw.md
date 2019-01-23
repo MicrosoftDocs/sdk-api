@@ -115,13 +115,9 @@ This function's name in the Certadm.dll is <b>CertSrvBackupGetDatabaseNamesW</b>
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPGETDATABASENAMESW* pfnGetDBNames;
+
+```cpp
+FNCERTSRVBACKUPGETDATABASENAMESW* pfnGetDBNames;
 char * szGetDBNamesFunc = "CertSrvBackupGetDatabaseNamesW";
 WCHAR *    pwszzDBFiles;
 DWORD      nListBytes=0;
@@ -142,7 +138,7 @@ if ( NULL == pfnGetDBNames )
 
 // Determine the names of the database files.
 // hCSBC was set by an earlier call to CertSrvBackupPrepare
-hr = pfnGetDBNames(hCSBC, &amp;pwszzDBFiles, &amp;nListBytes);
+hr = pfnGetDBNames(hCSBC, &pwszzDBFiles, &nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetDBNames call [%x]\n", hr);
@@ -157,7 +153,7 @@ else
     {
         // Use the file name referenced by pwszFile.
         // Here it is merely displayed.
-        printf("%02x: %ws\n", *pwszFile, &amp;pwszFile[1]);
+        printf("%02x: %ws\n", *pwszFile, &pwszFile[1]);
         // Move to the next database file name.
         // + 1 moves past the null terminator.
         pwszFile+=(wcslen(pwszFile)) + 1; 
@@ -166,10 +162,10 @@ else
     // pfnBackupFree is the address of the 
     // CertSrvBackupFree function.
     pfnBackupFree(pwszzDBFiles);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

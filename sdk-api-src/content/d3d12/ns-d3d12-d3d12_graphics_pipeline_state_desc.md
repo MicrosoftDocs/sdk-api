@@ -169,7 +169,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI
 
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) for which the graphics pipeline state is to apply.
             Each bit in the mask corresponds to a single node.
-            Refer to <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+            Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>.
 
 
 ### -field CachedPSO

@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure from a specified location in the collection.
 
 
 ## -parameters
@@ -58,12 +58,12 @@ Gets an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315
 
 ### -param index [in]
 
-The zero-based index in the collection where an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure is to  be obtained.
+The zero-based index in the collection where an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure is to  be obtained.
 
 
 ### -param dash [out, retval]
 
-The <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure that is found at the location specified by <i>index</i>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure that is found at the location specified by <i>index</i>.
 
 
 ## -returns
@@ -101,7 +101,7 @@ For more information about the collection methods, see  <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
  
 
  

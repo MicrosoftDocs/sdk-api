@@ -97,11 +97,11 @@ For a description of the various VMR-9 modes, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/e39077ce-737f-4dd9-ab7d-4dc087828fdf">IVMRFilterConfig9::GetRenderingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377367(v=VS.85).aspx">IVMRFilterConfig9::GetRenderingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7a27d7c-5cd4-4a20-ba15-7056d502e3e3">IVMRFilterConfig9::SetRenderingMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377371(v=VS.85).aspx">IVMRFilterConfig9::SetRenderingMode</a>
  
 
  

@@ -87,13 +87,9 @@ When you write a custom exit module, implement this method.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP
+
+```cpp
+STDMETHODIMP
 CCertExit::GetDescription(
     /* [out, retval] */ BSTR __RPC_FAR *pstrDescription)
 {
@@ -117,10 +113,10 @@ CCertExit::GetDescription(
     }
     // Success
     return( S_OK );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

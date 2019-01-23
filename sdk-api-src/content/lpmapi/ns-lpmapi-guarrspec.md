@@ -72,7 +72,7 @@ Slack term, in  seconds.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373710(v=VS.85).aspx">GuarFlowSpec</a>
+<a href="https://msdn.microsoft.com/549380cc-b4ac-414a-9058-f506741f1e76">GuarFlowSpec</a>
  
 
  

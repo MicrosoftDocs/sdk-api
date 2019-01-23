@@ -162,13 +162,9 @@ With Microsoft CSPs, <b>CryptGenRandom</b> uses the same random number generator
 
 The following example shows the generation of 8 random bytes. These can be used to create cryptographic keys or for any application that uses random numbers. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/e57274cf-42d3-445b-97f1-dd574010290f">Example C Program: Duplicating a Session Key</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//--------------------------------------------------------------------
+
+```cpp
+//--------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTPROV   hCryptProv;
@@ -193,10 +189,10 @@ else
 {
      printf("Error during CryptGenRandom.\n");
      exit(1);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

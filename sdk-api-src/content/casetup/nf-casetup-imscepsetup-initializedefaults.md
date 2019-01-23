@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>InitializeDefaults</b> method initializes a <b>CMSCEPSetup</b> object with default values to enable installation of a Network Device Enrollment Service (NDES) role. To install an NDES role, this method must be called before using the <b>CMSCEPSetup</b> object. For information about default values, see <a href="https://msdn.microsoft.com/c3740afc-842e-427f-87bf-022f5544d0d4">MSCEPSetupProperty</a>.
+The <b>InitializeDefaults</b> method initializes a <b>CMSCEPSetup</b> object with default values to enable installation of a Network Device Enrollment Service (NDES) role. To install an NDES role, this method must be called before using the <b>CMSCEPSetup</b> object. For information about default values, see <a href="https://msdn.microsoft.com/en-us/library/Bb736420(v=VS.85).aspx">MSCEPSetupProperty</a>.
 
 
 ## -parameters

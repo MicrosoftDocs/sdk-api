@@ -74,13 +74,13 @@ This structure is used by the following structures:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/04429f64-ae41-4c26-a777-bdb7aa92b685">WINBIO_ENGINE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401655(v=VS.85).aspx">WINBIO_ENGINE_INTERFACE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ab5a7146-936f-4ee5-9864-4f5a3b774724">WINBIO_SENSOR_INTERFACE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401660(v=VS.85).aspx">WINBIO_SENSOR_INTERFACE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a>
 </li>
 </ul>
 

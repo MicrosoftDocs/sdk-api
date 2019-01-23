@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://msdn.microsoft.com/3ea41491-409c-42b7-a4b2-f0d7c222c299">IWMWriterAdvanced3::GetStatisticsEx</a> to obtain extended writer statistics.
+The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://msdn.microsoft.com/en-us/library/Dd798725(v=VS.85).aspx">IWMWriterAdvanced3::GetStatisticsEx</a> to obtain extended writer statistics.
 
 
 
@@ -71,7 +71,7 @@ The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://msdn.mi
 
 ### -field dwCurrentSampleDropRateInCodec
 
-<b>DWORD</b> containing the current rate at which samples are dropped in the codec. Samples can be dropped when they contain little new data. To prevent this from happening, call <a href="https://msdn.microsoft.com/a920bfe8-1f95-4957-b6c4-9749d5e10ee3">IWMWriterAdvanced2::SetInputSetting</a> to set the g_wszFixedFrameRate setting to <b>TRUE</b>.
+<b>DWORD</b> containing the current rate at which samples are dropped in the codec. Samples can be dropped when they contain little new data. To prevent this from happening, call <a href="https://msdn.microsoft.com/en-us/library/Dd798723(v=VS.85).aspx">IWMWriterAdvanced2::SetInputSetting</a> to set the g_wszFixedFrameRate setting to <b>TRUE</b>.
 
 
 ### -field dwCurrentSampleDropRateInMultiplexer
@@ -100,7 +100,7 @@ The <b>WM_WRITER_STATISTICS_EX</b> structure is used by <a href="https://msdn.mi
 
 Sample rates are given in kilohertz.
 
-Basic writer statistics are contained within a <a href="https://msdn.microsoft.com/907711c9-2ae1-4049-afd8-768912778e37">WM_WRITER_STATISTICS</a> structure and must be obtained by calling <a href="https://msdn.microsoft.com/005c2039-e821-42ab-bead-1bf40f2ab171">IWMWriterAdvanced::GetStatistics</a>.
+Basic writer statistics are contained within a <a href="https://msdn.microsoft.com/en-us/library/Dd758025(v=VS.85).aspx">WM_WRITER_STATISTICS</a> structure and must be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Dd798730(v=VS.85).aspx">IWMWriterAdvanced::GetStatistics</a>.
 
 
 

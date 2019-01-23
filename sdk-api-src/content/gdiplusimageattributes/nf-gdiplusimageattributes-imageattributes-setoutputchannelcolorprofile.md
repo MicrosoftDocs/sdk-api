@@ -118,13 +118,9 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and calls the <a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">DrawImage</a> method to draw the image. Then the code creates an 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and calls its <b>ImageAttributes::SetOutputChannelColorProfile</b> method to specify a profile file for the bitmap category. The call to <a href="https://msdn.microsoft.com/en-us/library/ms535434(v=VS.85).aspx">ImageAttributes::SetOutputChannel</a> sets the output channel (for the bitmap category) to cyan. The code calls <b>DrawImage</b> a second time, passing the address of the <b>Image</b> object and the address of the <b>ImageAttributes</b> object. The cyan channel of each pixel is calculated, and the rendered image shows the intensities of the cyan channel as shades of gray. The code calls <b>DrawImage</b> three more times to show the intensities of the magenta, yellow, and black channels.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetOutputProfile(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -176,10 +172,8 @@ VOID Example_SetOutputProfile(HDC hdc)
       UnitPixel,
       &imAtt); 
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
 
 
 The preceding code, along with the files Mosaic2.bmp and Tekph600.icm, produced the following output.

@@ -61,7 +61,7 @@ The <b>GetType</b> method gets the type of this connector.
 
 ### -param pType [out]
 
-Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="https://msdn.microsoft.com/7171a880-2a3e-45aa-803d-26bf5e9e0365">ConnectorType</a> enumeration constants:
+Pointer to a variable into which the method writes the connector type. The connector type is one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370801(v=VS.85).aspx">ConnectorType</a> enumeration constants:
 
 Unknown_Connector
 

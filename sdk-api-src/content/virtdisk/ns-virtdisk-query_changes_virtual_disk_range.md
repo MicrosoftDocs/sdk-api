@@ -81,7 +81,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/633FA684-5CC6-4615-B62C-54C60B38E652">QueryCangesVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt162230(v=VS.85).aspx">QueryCangesVirtualDisk</a>
 
 
 

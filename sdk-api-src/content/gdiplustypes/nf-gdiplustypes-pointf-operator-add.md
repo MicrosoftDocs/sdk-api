@@ -89,20 +89,16 @@ This method overloads the addition operator for <a href="https://msdn.microsoft.
 
 The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects, then adds the two <b>PointF</b> objects and stores the result in a third <b>PointF</b> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PointF point1(40.0f, 10.0f);
+
+```cpp
+PointF point1(40.0f, 10.0f);
 PointF point2(20.0f, 30.0f);
 
 // Point3 now contains the coordinates (60.0f, 40.0f).
-PointF point3 = point1 + point2; </pre>
-</td>
-</tr>
-</table></span></div>
+PointF point3 = point1 + point2; 
+```
+
+
 
 
 

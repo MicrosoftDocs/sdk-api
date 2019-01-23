@@ -51,7 +51,7 @@ req.redist:
 
 <p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, the <a href="https://msdn.microsoft.com/536aafd2-cc04-48cc-8ee7-920efbba2a5f">Virtual Disk Service</a> COM interface is superseded by the <a href="https://msdn.microsoft.com/ff5e492d-5e62-4c9b-8f55-07859c9fee83">Windows Storage Management API</a>.]
 
-Defines the set of <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool</a> types. These values are used in the <a href="vds_storage_pool_prop.htm">type</a> member of the <b>VDS_STORAGE_POOL_PROP</b> structure.
+Defines the set of <a href="https://msdn.microsoft.com/a6104742-3ef9-4570-9728-3e6580953117">storage pool</a> types. These values are used in the <a href="https://msdn.microsoft.com/en-us/library/Dd405631(v=VS.85).aspx">type</a> member of the <b>VDS_STORAGE_POOL_PROP</b> structure.
 
 
 ## -enum-fields

@@ -98,7 +98,7 @@ World transform multiplied by any DPI scaling.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 

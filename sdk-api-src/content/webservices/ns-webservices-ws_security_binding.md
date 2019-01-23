@@ -80,7 +80,7 @@ security binding.
 ### -field properties
 
 The array of properties specifying the optional security binding
-settings.  Each <a href="https://msdn.microsoft.com/f2790fd7-6f51-45a5-b2b6-e5aaaaca9660">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
+settings.  Each <a href="https://msdn.microsoft.com/en-us/library/Dd323384(v=VS.85).aspx">WS_SECURITY_BINDING_PROPERTY</a> in the array is a key-value
 pair and must use a key defined in <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_ID</a>.  This field can be <b>NULL</b>, and if
 it is <b>NULL</b>, the default value will be used for each security token
 setting.

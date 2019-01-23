@@ -129,7 +129,7 @@ This value is reserved.
 
 
 
-<a href="https://msdn.microsoft.com/1c79f910-8dd9-47dc-80d1-f6252f0a43dd">AAAccountingData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a>
  
 
  

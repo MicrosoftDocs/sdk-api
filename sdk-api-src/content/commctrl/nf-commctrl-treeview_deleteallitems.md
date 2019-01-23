@@ -79,17 +79,13 @@ You can also delete all items with the <a href="https://msdn.microsoft.com/en-us
 If the window style for a tree-view control contains TVS_NOSCROLL and all items are deleted, new items are not displayed until the window styles are reset. The following code shows one way to ensure that items are always displayed.
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DWORD styles = GetWindowLong(hwnd, GWL_STYLE);
+
+```
+DWORD styles = GetWindowLong(hwnd, GWL_STYLE);
 TreeView_DeleteAllItems(hwnd);
-SetWindowLong(hwnd, GWL_STYLE, styles);</pre>
-</td>
-</tr>
-</table></span></div>
+SetWindowLong(hwnd, GWL_STYLE, styles);
+```
+
+
 
 

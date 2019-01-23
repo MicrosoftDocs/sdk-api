@@ -105,19 +105,15 @@ Indicates the start of <a href="https://msdn.microsoft.com/ce16b0e4-3be1-42fc-a4
 The following code snippet retrieves the name of the SDO object, if it exists. The variable pSdo is a pointer to an 
 <a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 _variant_t vtItemName;
-hr = pSdo-&gt;GetProperty(PROPERTY_SDO_NAME, &amp;vtItemName);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pSdo->GetProperty(PROPERTY_SDO_NAME, &vtItemName);
+
+```
+
+
 
 
 

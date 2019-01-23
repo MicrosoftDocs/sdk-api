@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-An administrator can specify criteria that starts transmission on an object of an <b>IWdsTransportNamespaceScheduledCastAutoStart</b> interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.  This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastAutoStart</b> value of the <a href="https://msdn.microsoft.com/baba27d2-6df1-4261-b98d-9728ecbb56f2">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
+An administrator can specify criteria that starts transmission on an object of an <b>IWdsTransportNamespaceScheduledCastAutoStart</b> interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.  This type of namespace is represented by the <b>WdsTptNamespaceTypeScheduledCastAutoStart</b> value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
 
 
 ## -see-also

@@ -59,16 +59,16 @@ The <b>Region::GetRegionScans</b> method gets an array of rectangles that approx
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a> object that is used to transform the region. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a> object that is used to transform the region. 
 
 
 ### -param rects [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> objects that receives the rectangles. 
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> objects that receives the rectangles. 
 
 
 ### -param count [out]
@@ -84,14 +84,14 @@ Pointer to an
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -100,7 +100,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-The <a href="https://msdn.microsoft.com/dc210aa9-6af7-4189-ab53-d961c4c57bfc">Region::GetRegionScansCount</a> method can be used first to determine the number of rectangles. Then, you can allocate a buffer that is the correct size and set the 
+The <a href="https://msdn.microsoft.com/en-us/library/ms534769(v=VS.85).aspx">Region::GetRegionScansCount</a> method can be used first to determine the number of rectangles. Then, you can allocate a buffer that is the correct size and set the 
 				<i>rects</i> parameter to point to the buffer.
 
 
@@ -110,13 +110,9 @@ The <a href="https://msdn.microsoft.com/dc210aa9-6af7-4189-ab53-d961c4c57bfc">Re
 
 The following example creates a region from a path and gets a set of rectangles that approximate the region. The code then draws each of the rectangles.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetRegionScansRect(HDC hdc)
+
+```cpp
+VOID Example_GetRegionScansRect(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -129,24 +125,24 @@ The following example creates a region from a path and gets a set of rectangles 
 
    // Create a region from a path.
    path.AddEllipse(10, 10, 50, 300);
-   Region pathRegion(&amp;path);    
-   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
+   Region pathRegion(&path);    
+   graphics.FillRegion(&solidBrush, &pathRegion);
 
    // Get the rectangles.
-   graphics.GetTransform(&amp;matrix);
-   count = pathRegion.GetRegionScansCount(&amp;matrix);
+   graphics.GetTransform(&matrix);
+   count = pathRegion.GetRegionScansCount(&matrix);
    rects = (Rect*)malloc(count*sizeof(Rect));
-   pathRegion.GetRegionScans(&amp;matrix, rects, &amp;count);  
+   pathRegion.GetRegionScans(&matrix, rects, &count);  
 
    // Draw the rectangles.
-   for(INT j = 0; j &lt; count; ++j)
-      graphics.DrawRectangle(&amp;pen, rects[j]);
+   for(INT j = 0; j < count; ++j)
+      graphics.DrawRectangle(&pen, rects[j]);
 
    free(rects);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -155,31 +151,31 @@ The following example creates a region from a path and gets a set of rectangles 
 
 
 
-<a href="https://msdn.microsoft.com/9776b73e-191e-4a8e-9abe-e485ffed954c">Hit Testing with a Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533826(v=VS.85).aspx">Hit Testing with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/dc210aa9-6af7-4189-ab53-d961c4c57bfc">Region::GetRegionScansCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534769(v=VS.85).aspx">Region::GetRegionScansCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb78d7a0-6293-487f-88c5-88ba455b965f">Regions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536378(v=VS.85).aspx">Regions</a>
 
 
 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
  
 
  

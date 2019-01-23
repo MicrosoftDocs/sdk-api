@@ -175,13 +175,9 @@ Traditionally the basic operation of the palette is to provide a translation fro
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    IWICImagingFactory *pFactory = NULL;
+
+```cpp
+    IWICImagingFactory *pFactory = NULL;
     IWICBitmapDecoder *pDecoder = NULL;
     IWICBitmapFrameDecode *pBitmapFrameDecode = NULL;
     IWICPalette *pPalette = NULL;
@@ -193,35 +189,35 @@ Traditionally the basic operation of the palette is to provide a translation fro
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IWICImagingFactory,
-        (LPVOID*)&amp;pFactory
+        (LPVOID*)&pFactory
         );
 
     if (SUCCEEDED(hr))
     {
-        hr = pFactory-&gt;CreateDecoderFromFilename(
+        hr = pFactory->CreateDecoderFromFilename(
                            L"test.gif",
                            NULL,
                            GENERIC_READ,
-                           &amp;pDecoder);
+                           &pDecoder);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pDecoder-&gt;GetFrameCount(&amp;uiFrameCount);
+        hr = pDecoder->GetFrameCount(&uiFrameCount);
     }
 
-    if (SUCCEEDED(hr) &amp;&amp; (uiFrameCount &gt; 0))
+    if (SUCCEEDED(hr) && (uiFrameCount > 0))
     {
-        hr = pDecoder-&gt;GetFrame(0, &amp;pBitmapFrameDecode);
+        hr = pDecoder->GetFrame(0, &pBitmapFrameDecode);
 
         if (SUCCEEDED(hr))
         {
-            hr = pFactory-&gt;CreatePalette(&amp;pPalette);
+            hr = pFactory->CreatePalette(&pPalette);
         }
 
         if (SUCCEEDED(hr))
         {
-            hr = pBitmapFrameDecode-&gt;CopyPalette(pPalette);
+            hr = pBitmapFrameDecode->CopyPalette(pPalette);
         }
 
         if (SUCCEEDED(hr))
@@ -230,15 +226,15 @@ Traditionally the basic operation of the palette is to provide a translation fro
             UINT uiActualColorCount = 0;
             WICColor *pColors = NULL;
 
-            hr = pPalette-&gt;GetColorCount(&amp;uiColorCount);
+            hr = pPalette->GetColorCount(&uiColorCount);
 
-            if (SUCCEEDED(hr) &amp;&amp; (uiColorCount &gt; 0))
+            if (SUCCEEDED(hr) && (uiColorCount > 0))
             {
                 pColors = new WICColor[uiColorCount];
 
                 if (pColors)
                 {
-                    hr = pPalette-&gt;GetColors(uiColorCount, pColors, &amp;uiActualColorCount);
+                    hr = pPalette->GetColors(uiColorCount, pColors, &uiActualColorCount);
 
                     // Do something with the colors here...
 
@@ -254,28 +250,28 @@ Traditionally the basic operation of the palette is to provide a translation fro
 
     if (pPalette)
     {
-        pPalette-&gt;Release();
+        pPalette->Release();
     }
 
     if (pBitmapFrameDecode)
     {
-        pBitmapFrameDecode-&gt;Release();
+        pBitmapFrameDecode->Release();
     }
 
     if (pDecoder)
     {
-        pDecoder-&gt;Release();
+        pDecoder->Release();
     }
 
     if (pFactory)
     {
-        pFactory-&gt;Release();
+        pFactory->Release();
     }
 
-    return hr;</pre>
-</td>
-</tr>
-</table></span></div>
+    return hr;
+```
+
+
 In this example code, <b>WICColor</b> is defined as a <b>UINT32</b> value with this layout: 
 
 <pre class="syntax" xml:space="preserve"><code>0xAARRGGBB</code></pre>

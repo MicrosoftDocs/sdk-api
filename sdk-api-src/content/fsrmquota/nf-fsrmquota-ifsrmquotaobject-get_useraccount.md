@@ -66,7 +66,7 @@ This property is read-only.
 
 
 This method always returns the string form of the account that corresponds to the well-known SID of 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa379650(v=VS.85).aspx">WinNULLSid</a>.
+    <a href="https://msdn.microsoft.com/6f1fa59e-17c0-412b-937b-ddf746ed68bd">WinNULLSid</a>.
 
 
 

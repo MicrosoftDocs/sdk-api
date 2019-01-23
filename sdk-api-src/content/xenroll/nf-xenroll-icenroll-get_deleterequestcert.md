@@ -95,13 +95,9 @@ The <b>DeleteRequestCert</b> property affects the behavior of the following meth
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL     bDRC;
+
+```cpp
+BOOL     bDRC;
 HRESULT  hr;
 
 
@@ -121,10 +117,8 @@ hr = pEnroll->put_DeleteRequestCert( FALSE );
 if ( FAILED ( hr ) )
     printf("Failed Setting DeleteRequestCert - %x\n", hr );
 else
-    printf( "DeleteRequestCert was set to FALSE\n" );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "DeleteRequestCert was set to FALSE\n" );
+```
 
 
 

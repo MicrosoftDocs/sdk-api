@@ -107,13 +107,9 @@ Enumerating Adapters
 
 The following code example demonstrates how to enumerate adapters using the <b>EnumAdapters1</b> method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 UINT i = 0; 
 IDXGIAdapter1 * pAdapter; 
 std::vector <IDXGIAdapter1*> vAdapters; 
@@ -122,10 +118,8 @@ while(pFactory->EnumAdapters1(i, &pAdapter) != DXGI_ERROR_NOT_FOUND)
 	vAdapters.push_back(pAdapter); 
 	++i; 
 } 
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
 
 
 <div class="code"></div>

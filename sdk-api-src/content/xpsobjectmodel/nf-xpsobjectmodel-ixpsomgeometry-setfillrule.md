@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Sets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Sets the  <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Sets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116c
 
 ### -param fillRule [in]
 
-The <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>fillRule</i> is not a valid <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value.
+<i>fillRule</i> is not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a>. 
+For more information about how the file rule determines whether a point is inside the fill region, see <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a>. 
 
 In the document markup, this value corresponds to the <b>FillRule</b> attribute of the <b>PathGeometry</b> element.
 
@@ -128,7 +128,7 @@ In the document markup, this value corresponds to the <b>FillRule</b> attribute 
 
 
 
-<a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a>
  
 
  

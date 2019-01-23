@@ -101,7 +101,7 @@ Reserved; do not use.
 ### -field cbInQue
 
 The number of bytes received by the serial provider but not yet read by a 
-<a href="base.readfile">ReadFile</a> operation.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> operation.
 
 
 ### -field cbOutQue
@@ -118,7 +118,7 @@ The number of bytes of user data remaining to be transmitted for all write opera
 
 
 
-<a href="base.readfile">ReadFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
 
 
 

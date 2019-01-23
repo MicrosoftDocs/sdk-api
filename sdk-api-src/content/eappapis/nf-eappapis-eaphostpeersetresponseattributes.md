@@ -68,7 +68,7 @@ A pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd0
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/59bf6e02-90b5-4f9a-9865-b71852c61db9">EapHostPeerResponseAction</a> enumeration value that specifies the action code for the next step the supplicant must take as a response.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363575(v=VS.85).aspx">EapHostPeerResponseAction</a> enumeration value that specifies the action code for the next step the supplicant must take as a response.
 
 
 ### -param ppEapError [out]

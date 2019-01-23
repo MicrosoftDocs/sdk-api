@@ -83,23 +83,19 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 	    this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMSHORTN2 instance;
 
 	instance.x = _x;
 	instance.y = _y;
 
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

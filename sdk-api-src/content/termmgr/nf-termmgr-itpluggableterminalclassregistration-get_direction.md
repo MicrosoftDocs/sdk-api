@@ -60,7 +60,7 @@ The
 ### -param pDirection [out]
 
 The 
-<a href="https://msdn.microsoft.com/1758efb7-55fc-4925-be56-7f43177db64f">TMGR_DIRECTION</a> descriptor of the terminal direction.
+<a href="https://msdn.microsoft.com/en-us/library/ms734805(v=VS.85).aspx">TMGR_DIRECTION</a> descriptor of the terminal direction.
 
 
 ## -returns

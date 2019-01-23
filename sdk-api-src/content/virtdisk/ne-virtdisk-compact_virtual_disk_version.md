@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Contains the version of the virtual hard disk (VHD) <a href="https://msdn.microsoft.com/3e58101c-c8a9-432e-99c4-9e418a887b9e">COMPACT_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to VHD functions.
+Contains the version of the virtual hard disk (VHD) <a href="https://msdn.microsoft.com/en-us/library/Dd323657(v=VS.85).aspx">COMPACT_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to VHD functions.
 
 
 ## -enum-fields

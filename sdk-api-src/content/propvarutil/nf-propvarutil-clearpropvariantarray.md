@@ -85,27 +85,23 @@ No return value.
 
 This function releases the memory and references held by each structure in the array before setting the structures to zero.
 
-This function performs the same action as <a href="shell.FreePropVariantArray">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
+This function performs the same action as <a href="https://msdn.microsoft.com/en-us/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>, but <b>FreePropVariantArray</b> returns an <b>HRESULT</b>.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT rgpropvar[5];
+
+```cpp
+// PROPVARIANT rgpropvar[5];
 // Assume all 5 propvariants are initialized and valid.
 
-ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
-</td>
-</tr>
-</table></span></div>
+ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
+```
+
+
 
 
 
@@ -114,7 +110,7 @@ ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="shell.ClearVariantArray">ClearVariantArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762284(v=VS.85).aspx">ClearVariantArray</a>
  
 
  

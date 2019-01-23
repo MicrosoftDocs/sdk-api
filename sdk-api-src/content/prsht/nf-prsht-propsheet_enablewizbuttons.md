@@ -131,17 +131,13 @@ One or more of the same values used in <i>dwState</i>, specifying which buttons 
 
 The following example code enables the <b>Back</b> button and disables the <b>Next</b> button.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PropSheet_EnableWizButtons(hwnd,
+
+```
+PropSheet_EnableWizButtons(hwnd,
                          PSWIZB_NEXT,
-                         PSWIZB_BACK | PSWIZB_NEXT);</pre>
-</td>
-</tr>
-</table></span></div>
+                         PSWIZB_BACK | PSWIZB_NEXT);
+```
+
+
 
 

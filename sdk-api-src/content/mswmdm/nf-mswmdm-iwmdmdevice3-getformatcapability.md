@@ -99,13 +99,9 @@ For a particular format, a client can call this function to obtain the supported
 
 The following function is passed a device pointer and a format code, and retrieves the device's format capabilities for that format. The function uses a custom function to clear the retrieved values. This custom function is shown in <a href="https://msdn.microsoft.com/a431c3cb-e722-4d68-a82d-385fff067ea6">Getting Format Capabilities on Devices That Support IWMDMDevice3</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Each format configuration is described by an WMDM_FORMAT_CAPABILITY enum, and
 // has a WMDM_FORMAT_CAPABILITY structure describing the device capabilities for that format.
 //        Each WMDM_FORMAT_CAPABILITY structure has a WMDM_PROP_CONFIG structure listing configurations.
@@ -117,7 +113,7 @@ HRESULT myGetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
 
     // Get a list of supported configurations for the format.
     WMDM_FORMAT_CAPABILITY formatCapList;
-    hr = pDevice-&gt;GetFormatCapability(formatCode, &amp;formatCapList);
+    hr = pDevice->GetFormatCapability(formatCode, &formatCapList);
     HANDLE_HR(hr, "Got a WMDM_FORMATCODE structure in GetCaps","Couldn't get a WMDM_FORMATCODE structure in GetCaps");
 
     // Print out the format name.
@@ -126,7 +122,7 @@ HRESULT myGetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
     
 
     // Loop through the configurations and examine each one.
-    for(UINT iConfig = 0; iConfig &lt; formatCapList.nPropConfig; iConfig++)
+    for(UINT iConfig = 0; iConfig < formatCapList.nPropConfig; iConfig++)
     {
         WMDM_PROP_CONFIG formatConfig = formatCapList.pConfigs[iConfig];
 
@@ -136,7 +132,7 @@ HRESULT myGetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
         // Loop through all properties for this configuration and get supported
         // values for the property. Values can be a single value, a range, 
         // or a list of enumerated values.
-        for(UINT iDesc = 0; iDesc &lt; formatConfig.nPropDesc; iDesc++)
+        for(UINT iDesc = 0; iDesc < formatConfig.nPropDesc; iDesc++)
         {
             WMDM_PROP_DESC propDesc = formatConfig.pPropDesc[iDesc];
             // TODO: Display the property name.
@@ -162,18 +158,18 @@ HRESULT myGetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
                         // TODO: Display a banner for the values to follow.
                         WMDM_PROP_VALUES_ENUM list = propDesc.ValidValues.EnumeratedValidValues;
                         PROPVARIANT pVal;
-                        for(UINT iValue = 0; iValue &lt; list.cEnumValues; iValue++)
+                        for(UINT iValue = 0; iValue < list.cEnumValues; iValue++)
                         {
                             pVal = list.pValues[iValue];
                             // TODO: Display the current value.
-                            PropVariantClear(&amp;pVal);
-                            PropVariantInit(&amp;pVal);
+                            PropVariantClear(&pVal);
+                            PropVariantInit(&pVal);
                         }
                     }
 
                     break;
                 default:
-                    HANDLE_HR(E_FAIL, "Undefined configuration type in GetCaps" &lt;&lt; endl, "");
+                    HANDLE_HR(E_FAIL, "Undefined configuration type in GetCaps" << endl, "");
                     break;
             }
         }
@@ -184,10 +180,10 @@ HRESULT myGetFormatCaps(WMDM_FORMATCODE formatCode, IWMDMDevice3* pDevice)
 e_Exit:
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

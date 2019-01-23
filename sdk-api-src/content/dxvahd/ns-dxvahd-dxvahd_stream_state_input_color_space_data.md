@@ -221,13 +221,9 @@ If the device supports xvYCC, it returns the <b>DXVAHD_DEVICE_CAPS_xvYCC</b> cap
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DXVAHD_SetInputColorSpace(
+
+```cpp
+HRESULT DXVAHD_SetInputColorSpace(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     BOOL bPlayback,     // TRUE = playback, FALSE = video processing
@@ -244,19 +240,19 @@ If the device supports xvYCC, it returns the <b>DXVAHD_DEVICE_CAPS_xvYCC</b> cap
         YCbCr_xvYCC ? 1 : 0
     };
 
-    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
+    HRESULT hr = pVP->SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE,
         sizeof(data),
-        &amp;data
+        &data
         );
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

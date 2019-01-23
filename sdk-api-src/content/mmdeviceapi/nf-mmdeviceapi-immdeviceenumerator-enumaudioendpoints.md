@@ -61,7 +61,7 @@ The <b>EnumAudioEndpoints</b> method generates a collection of audio endpoint de
 
 ### -param dataFlow [in]
 
-The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="https://msdn.microsoft.com/d79315aa-d753-4674-84c2-9ba601f36f57">EDataFlow</a> enumeration values:
+The data-flow direction for the endpoint devices in the collection. The caller should set this parameter to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration values:
 
 eRender
 
@@ -148,20 +148,14 @@ Out of memory.
 
 For example, the following call enumerates all audio-rendering endpoint devices that are currently active (present and not disabled):
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
   hr = pDevEnum->EnumAudioEndpoints(
                    eRender, DEVICE_STATE_ACTIVE,
                    &pEndpoints);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 In the preceding code fragment, variable <i>hr</i> is of type <b>HRESULT</b>, <i>pDevEnum</i> is a pointer to an <b>IMMDeviceEnumerator</b> interface, and <i>pEndpoints</i> is a pointer to an <b>IMMDeviceCollection</b> interface.

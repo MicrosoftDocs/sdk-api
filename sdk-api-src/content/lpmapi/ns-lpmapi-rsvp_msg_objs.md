@@ -64,22 +64,22 @@ RSVP message type.
 
 ### -field pRsvpSession
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa374412(v=VS.85).aspx">RSVP_SESSION</a> object containing an RSVP session object.
+Pointer to an <a href="https://msdn.microsoft.com/d6674de9-7d79-40f2-ae45-4410408ba047">RSVP_SESSION</a> object containing an RSVP session object.
 
 
 ### -field pRsvpFromHop
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa374134(v=VS.85).aspx">RSVP_HOP</a> structure indicating the hop from which the message has come.
+Pointer to an <a href="https://msdn.microsoft.com/4b23bc0e-ccea-4161-93fa-b136099e88bd">RSVP_HOP</a> structure indicating the hop from which the message has come.
 
 
 ### -field pRsvpToHop
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa374134(v=VS.85).aspx">RSVP_HOP</a> structure indicating the hop to which the message shall be sent.
+Pointer to an <a href="https://msdn.microsoft.com/4b23bc0e-ccea-4161-93fa-b136099e88bd">RSVP_HOP</a> structure indicating the hop to which the message shall be sent.
 
 
 ### -field pResvStyle
 
-Reservation style, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa374123(v=VS.85).aspx">RESV_STYLE</a> structure.
+Reservation style, expressed as a <a href="https://msdn.microsoft.com/facc4217-1e6f-44af-bc04-84993f2dfeec">RESV_STYLE</a> structure.
 
 
 ### -field pRsvpScope
@@ -104,17 +104,17 @@ Number of policy data objects in the message.
 
 ### -field ppPdObjects
 
-Pointer to the first <a href="https://msdn.microsoft.com/en-us/library/Aa373995(v=VS.85).aspx">POLICY_DATA</a> structure in the message.
+Pointer to the first <a href="https://msdn.microsoft.com/0e91b77c-e4dd-4e23-8af6-bf549168cfc5">POLICY_DATA</a> structure in the message.
 
 
 ### -field pErrorSpec
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa373693(v=VS.85).aspx">ERROR_SPEC</a> structure containing an error message.
+Pointer to an <a href="https://msdn.microsoft.com/4d20cbb8-c29a-4c0c-bf06-532144da3e33">ERROR_SPEC</a> structure containing an error message.
 
 
 ### -field pAdspec
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa373388(v=VS.85).aspx">ADSPEC</a> structure containing an Adspec message.
+Pointer to an <a href="https://msdn.microsoft.com/c5be3864-0f21-4fa5-99f8-dee9ad2b7286">ADSPEC</a> structure containing an Adspec message.
 
 
 ## -see-also
@@ -122,11 +122,11 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa373388(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373388(v=VS.85).aspx">ADSPEC</a>
+<a href="https://msdn.microsoft.com/c5be3864-0f21-4fa5-99f8-dee9ad2b7286">ADSPEC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373693(v=VS.85).aspx">ERROR_SPEC</a>
+<a href="https://msdn.microsoft.com/4d20cbb8-c29a-4c0c-bf06-532144da3e33">ERROR_SPEC</a>
 
 
 
@@ -134,19 +134,19 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa373388(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373995(v=VS.85).aspx">POLICY_DATA</a>
+<a href="https://msdn.microsoft.com/0e91b77c-e4dd-4e23-8af6-bf549168cfc5">POLICY_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374123(v=VS.85).aspx">RESV_STYLE</a>
+<a href="https://msdn.microsoft.com/facc4217-1e6f-44af-bc04-84993f2dfeec">RESV_STYLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374134(v=VS.85).aspx">RSVP_HOP</a>
+<a href="https://msdn.microsoft.com/4b23bc0e-ccea-4161-93fa-b136099e88bd">RSVP_HOP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374412(v=VS.85).aspx">RSVP_SESSION</a>
+<a href="https://msdn.microsoft.com/d6674de9-7d79-40f2-ae45-4410408ba047">RSVP_SESSION</a>
  
 
  

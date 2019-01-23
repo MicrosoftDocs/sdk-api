@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>DSCOLUMN</b> structure represents a column in the directory services query dialog box. An array of this structure is contained in the <a href="https://msdn.microsoft.com/en-us/library/ms676019(v=VS.85).aspx">DSQUERYPARAMS</a> structure.
+The <b>DSCOLUMN</b> structure represents a column in the directory services query dialog box. An array of this structure is contained in the <a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a> structure.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Reserved.
 
 ### -field fmt
 
-Contains one of the list view column formatting values that indicates how the column is displayed. The possible values are defined for the <b>fmt</b> member of the <a href="_win32_lvcolumn_cpp">LVCOLUMN</a> structure.
+Contains one of the list view column formatting values that indicates how the column is displayed. The possible values are defined for the <b>fmt</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a> structure.
 
 
 ### -field cx
@@ -73,7 +73,7 @@ Contains the width, in pixels, of the column.
 
 ### -field idsName
 
-Contains the string table identifier for the column header string. To retrieve this string, call  <a href="_win32_loadstring_cpp">LoadString</a> with the <b>hInstance</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms676019(v=VS.85).aspx">DSQUERYPARAMS</a> structure and this member for the string identifier.
+Contains the string table identifier for the column header string. To retrieve this string, call  <a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a> with the <b>hInstance</b> member of the <a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a> structure and this member for the string identifier.
 
 
 ### -field offsetProperty
@@ -92,7 +92,7 @@ The column displays the value of the ADsPath of the object.
 
 The column displays the value of the <b>objectClass</b> of the object.
 
-If this member does not contain one of these values, this member contains the offset, in bytes, from the address of the <a href="https://msdn.microsoft.com/en-us/library/ms676019(v=VS.85).aspx">DSQUERYPARAMS</a> structure to a null-terminated  Unicode string that contains the name of the  attribute value displayed in this column.
+If this member does not contain one of these values, this member contains the offset, in bytes, from the address of the <a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a> structure to a null-terminated  Unicode string that contains the name of the  attribute value displayed in this column.
 
 
 ### -field dwReserved
@@ -105,7 +105,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676019(v=VS.85).aspx">DSQUERYPARAMS</a>
+<a href="https://msdn.microsoft.com/78c3fb1c-275e-45b6-bbe9-ae2d85864e6a">DSQUERYPARAMS</a>
 
 
 
@@ -117,11 +117,11 @@ Reserved.
 
 
 
-<a href="_win32_lvcolumn_cpp">LVCOLUMN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774743(v=VS.85).aspx">LVCOLUMN</a>
 
 
 
-<a href="_win32_loadstring_cpp">LoadString</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647486(v=VS.85).aspx">LoadString</a>
  
 
  

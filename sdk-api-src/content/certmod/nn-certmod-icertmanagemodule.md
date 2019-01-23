@@ -107,21 +107,17 @@ The <b>ICertManageModule</b> interface provides a method to invoke the module us
 
 The following is an example of what could be used in the DECLARE_REGISTRY macro of a class (CMyCertManagePolicyModule) which implements <b>ICertManageModule</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DECLARE_REGISTRY(
+
+```cpp
+DECLARE_REGISTRY(
     CMyCertManagePolicyModule,
     L"MyCode.PolicyManage.1",
     L"MyCode.PolicyManage",
     IDS_CERTMANAGEPOLICYMODULE_DESC,
-    THREADFLAGS_BOTH);</pre>
-</td>
-</tr>
-</table></span></div>
+    THREADFLAGS_BOTH);
+```
+
+
 The IDS_CERTMANAGEPOLICYMODULE_DESC value is an application-specific identifier that identifies a string table string in the resource file (.rc) which describes the class.
 			
 			

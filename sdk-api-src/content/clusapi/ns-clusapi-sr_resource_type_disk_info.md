@@ -83,7 +83,7 @@ The cluster resource identifier of the disk.
 
 
 
-<a href="https://msdn.microsoft.com/EF93A5C7-CBA6-4B8A-A324-8C3830A2B2F5">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt164371(v=VS.85).aspx">SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT</a>
  
 
  

@@ -64,7 +64,7 @@ Pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee0c
 ### -param state [in]
 
 
-<a href="https://msdn.microsoft.com/4cf993ba-d767-4ef8-94a9-e819cc210360">SensorState</a> containing the new state.
+<a href="https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx">SensorState</a> containing the new state.
 
 
 ## -returns

@@ -73,7 +73,7 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 <a href="https://msdn.microsoft.com/4f39a728-9f27-4137-96eb-8f10e6e002cd">GetTileMode</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
             
 
 </td>
@@ -131,7 +131,7 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 <a href="https://msdn.microsoft.com/5901e5ec-1907-404b-b1a8-a00e13d3eab8">SetTileMode</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
             
 
 </td>
@@ -190,7 +190,7 @@ A <i>viewbox</i> describes the portion of the source image that is used for the 
  In the illustration that follows, the  brush is created by using  a viewbox that includes only a portion of the original image or visual.
 
 <img alt="An illustration that shows a viewbox example" src="../images/CreateBrush.png"/>
-The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
+The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="../images/TileMode.png"/>
 

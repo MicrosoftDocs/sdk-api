@@ -62,7 +62,7 @@ The
 ### -param ppenum [out]
 
 Pointer to an interface pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/68334bd2-353f-457d-a2c7-1271816f10f5">IEnumNetSharingPortMapping</a> interface for the new enumeration.
+<a href="https://msdn.microsoft.com/en-us/library/Aa364760(v=VS.85).aspx">IEnumNetSharingPortMapping</a> interface for the new enumeration.
 
 
 ## -returns
@@ -177,15 +177,15 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/68334bd2-353f-457d-a2c7-1271816f10f5">IEnumNetSharingPortMapping</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364760(v=VS.85).aspx">IEnumNetSharingPortMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/dfef918e-9abf-4ac2-8365-28cd5b249add">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366128(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

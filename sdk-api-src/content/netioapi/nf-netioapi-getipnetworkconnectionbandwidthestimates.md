@@ -183,7 +183,7 @@ On input, the <i>AddressFamily</i> parameter must be initialized to either <b>AF
 
     A value must be set for the  <i>InterfaceIndex</i> parameter (the value of this parameter must not be set to zero). 
 
-On output, the <a href="https://msdn.microsoft.com/E3109F71-E103-4586-9274-B83C4DC22382">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>  structure pointed to by the <i>BandwidthEstimates</i> parameter is filled in if the <i>AddressFamily</i> and <i>InterfaceIndex</i> parameters were specified. 
+On output, the <a href="https://msdn.microsoft.com/en-us/library/Hh769033(v=VS.85).aspx">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>  structure pointed to by the <i>BandwidthEstimates</i> parameter is filled in if the <i>AddressFamily</i> and <i>InterfaceIndex</i> parameters were specified. 
 
 The <b>GetIpNetworkConnectionBandwidthEstimates</b> function returns historical estimates of available bandwidth at the point of attachment (the first hop) for use by an application. The estimates are intended as a guide to tune performance parameters and the application should maintain thresholds and differentiate behavior for low and high bandwidth situations. 
 
@@ -210,7 +210,7 @@ The <i>Netioapi.h</i> header file is automatically included by the <i>Iphlpapi.h
 
 
 
-<a href="https://msdn.microsoft.com/E3109F71-E103-4586-9274-B83C4DC22382">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh769033(v=VS.85).aspx">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
 
 
 

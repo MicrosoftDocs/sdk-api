@@ -85,13 +85,9 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>assert(pDestination);
+
+```
+assert(pDestination);
 assert(((uint32_t_PTR)pDestination & 0xF) == 0);
 
 pDestination->m[0][0] = M.r[0].v[0];
@@ -112,10 +108,8 @@ pDestination->m[2][3] = M.r[2].v[3];
 pDestination->m[3][0] = M.r[3].v[0];
 pDestination->m[3][1] = M.r[3].v[1];
 pDestination->m[3][2] = M.r[3].v[2];
-pDestination->m[3][3] = M.r[3].v[3];</pre>
-</td>
-</tr>
-</table></span></div>
+pDestination->m[3][3] = M.r[3].v[3];
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

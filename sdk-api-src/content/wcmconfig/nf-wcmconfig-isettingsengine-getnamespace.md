@@ -63,7 +63,7 @@ An <a href="https://msdn.microsoft.com/aa9d5604-5b94-47d9-9e68-d708a656a5ea">ISe
 
 ### -param Access [in]
 
-A <a href="https://msdn.microsoft.com/11918eab-2f5d-4050-81c6-d4c465b68ce3">WcmNamespaceAccess</a> value that specifies the type of access, whether it is read-only or read and write access.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa378604(v=VS.85).aspx">WcmNamespaceAccess</a> value that specifies the type of access, whether it is read-only or read and write access.
 
 
 ### -param Reserved [in]

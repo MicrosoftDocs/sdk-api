@@ -96,28 +96,24 @@ A positive
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a line. The code then sets the pen's offset value and draws a second line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetDashOffset(HDC hdc)
+
+```cpp
+VOID Example_SetDashOffset(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Create a Pen object, set the dash style, and draw a line.
    Pen pen(Color(255, 0, 0, 255), 15);
    pen.SetDashStyle(DashStyleDash);
-   graphics.DrawLine(&amp;pen, 0, 50, 400, 50);
+   graphics.DrawLine(&pen, 0, 50, 400, 50);
 
    // Set the dash offset value for the pen, and draw a second line.
    pen.SetDashOffset(10);
-   graphics.DrawLine(&amp;pen, 0, 80, 400, 80);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&pen, 0, 80, 400, 80);
+}
+```
+
+
 
 
 

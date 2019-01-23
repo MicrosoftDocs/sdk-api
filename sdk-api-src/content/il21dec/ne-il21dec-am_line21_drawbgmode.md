@@ -80,11 +80,11 @@ Transparent background.
 
 
 
-<a href="https://msdn.microsoft.com/817a47d6-39c4-4186-81d0-ad822814f0ee">IAMLine21Decoder::GetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389389(v=VS.85).aspx">IAMLine21Decoder::GetDrawBackgroundMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/56301cc2-8f27-4530-bb6e-9909eb5bb390">IAMLine21Decoder::SetDrawBackgroundMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389395(v=VS.85).aspx">IAMLine21Decoder::SetDrawBackgroundMode</a>
  
 
  

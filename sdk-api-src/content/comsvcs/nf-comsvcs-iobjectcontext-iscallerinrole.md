@@ -117,7 +117,7 @@ One or more of the arguments passed in is not valid.
 </dl>
 </td>
 <td width="60%">
-An unexpected error occurred. This can happen if one object passes its <a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a> pointer to another object and the other object calls <a href="https://msdn.microsoft.com/8e545cc5-ad4e-43b9-a834-c9d470df24dd">IsCallerInRole</a> using this pointer. An <b>IObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
+An unexpected error occurred. This can happen if one object passes its <a href="https://msdn.microsoft.com/en-us/library/ms684253(v=VS.85).aspx">IObjectContext</a> pointer to another object and the other object calls <a href="https://msdn.microsoft.com/8e545cc5-ad4e-43b9-a834-c9d470df24dd">IsCallerInRole</a> using this pointer. An <b>IObjectContext</b> pointer is not valid outside the context of the object that originally obtained it.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Because <b>IsCallerInRole</b> returns <b>TRUE</b> when the object that invokes i
 
 
 
-<a href="https://msdn.microsoft.com/9395bc9a-dfe5-428a-839f-1c4ad090f636">IObjectContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684253(v=VS.85).aspx">IObjectContext</a>
  
 
  

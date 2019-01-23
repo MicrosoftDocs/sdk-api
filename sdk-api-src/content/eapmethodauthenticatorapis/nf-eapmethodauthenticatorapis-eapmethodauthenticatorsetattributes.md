@@ -70,7 +70,7 @@ A pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd0
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/992336ec-65ef-48bf-947f-1d569c9bd4aa">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that specifies the suggested action the supplicant should take as a response to the updated attributes.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363929(v=VS.85).aspx">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 ### -param ppEapError [out]

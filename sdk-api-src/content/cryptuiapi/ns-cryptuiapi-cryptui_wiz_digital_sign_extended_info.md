@@ -50,7 +50,7 @@ req.redist:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/22d0bc45-0f66-4f5f-87d3-0849c4327eed">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain extended information about a signature.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Aa380676(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain extended information about a signature.
 
 
 ## -struct-fields
@@ -136,7 +136,7 @@ A pointer to a <a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbcc
 
 
 
-<a href="https://msdn.microsoft.com/22d0bc45-0f66-4f5f-87d3-0849c4327eed">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380676(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
  
 
  

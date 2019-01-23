@@ -109,7 +109,7 @@ The method succeeded.
 
 
 
-A color profile is only returned when the color type of <i>color</i> is <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>.
+A color profile is only returned when the color type of <i>color</i> is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>.
 
 
 

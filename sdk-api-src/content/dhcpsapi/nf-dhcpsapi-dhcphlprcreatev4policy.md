@@ -80,7 +80,7 @@ Integer that specifies the processing order of the DHCP server policy. 1 indicat
 ### -param RootOperator [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404406(v=VS.85).aspx">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the policy condition is to be evaluated in terms of the results of its constituents.
+<a href="https://msdn.microsoft.com/e8faffdc-2fd4-4d7a-ae9f-fd93932b8c10">DHCP_POL_LOGIC_OPER</a> enumeration that defines how the policy condition is to be evaluated in terms of the results of its constituents.
 
 
 ### -param Description [in]

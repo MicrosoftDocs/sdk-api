@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the <a href="https://msdn.microsoft.com/dd235e33-39f7-459d-8b7f-76d5c3f96770">WS_XML_SECURITY_TOKEN_PROPERTY</a> structure, which is used as parameter for <a href="https://msdn.microsoft.com/1d82c6c3-2bcf-4883-aed7-1a163bbb2228">WsCreateXmlSecurityToken</a>.
+The keys for the bag of properties for the creation of XML security tokens. This enumeration is used within the <a href="https://msdn.microsoft.com/en-us/library/Dd323557(v=VS.85).aspx">WS_XML_SECURITY_TOKEN_PROPERTY</a> structure, which is used as parameter for <a href="https://msdn.microsoft.com/1d82c6c3-2bcf-4883-aed7-1a163bbb2228">WsCreateXmlSecurityToken</a>.
             
 
 

@@ -99,19 +99,15 @@ After calling this method, an application can verify that the serial has not bee
 
 The following C++ code retrieves the device serial number and verifies the MAC.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 //
 // Get and verify the serial number.
 //
 WMDMID serialNumber;
 BYTE receivedMAC[WMDM_MAC_LENGTH];
-hr = pIWMDMDevice-&gt;GetSerialNumber(&amp;serialNumber, receivedMAC);
+hr = pIWMDMDevice->GetSerialNumber(&serialNumber, receivedMAC);
 
 // Check the MAC to guarantee the serial number has not been tampered with.
 if (hr == S_OK)
@@ -121,9 +117,9 @@ if (hr == S_OK)
     // and finally retrieve the calculated MAC value.
     HMAC hMAC;
     BYTE calculatedMAC[WMDM_MAC_LENGTH];
-    hr = m_pSAC-&gt;MACInit(&amp;hMAC);
-    hr = m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(&amp;serialNumber), sizeof(serialNumber));
-    hr = m_pSAC-&gt;MACFinal(hMAC, (BYTE*)calculatedMAC);
+    hr = m_pSAC->MACInit(&hMAC);
+    hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(&serialNumber), sizeof(serialNumber));
+    hr = m_pSAC->MACFinal(hMAC, (BYTE*)calculatedMAC);
     if (memcmp(calculatedMAC, receivedMAC, sizeof(calculatedMAC)) == 0)
     {
         // MAC is authentic. Print the serial number.
@@ -136,10 +132,10 @@ if (hr == S_OK)
     else
         // TODO: Display a message indicating that the serial number MAC does not match in EnumDevices
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

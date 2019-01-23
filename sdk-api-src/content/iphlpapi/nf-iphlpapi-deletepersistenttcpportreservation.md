@@ -150,13 +150,9 @@ The following example deletes a persistent TCP port reservation.
 
 This example must be run by a user that is a member of the Administrators group. The simplest way to run this example is in an enhanced shell as the built-in Administrator (RunAs administrator). 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
@@ -164,12 +160,12 @@ This example must be run by a user that is a member of the Administrators group.
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;Windows.h.&gt;
-#include &lt;winsock2.h&gt;
-#include &lt;ws2ipdef.h&gt; 
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <Windows.h.>
+#include <winsock2.h>
+#include <ws2ipdef.h> 
+#include <iphlpapi.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with iphlpapi.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -189,7 +185,7 @@ int wmain(int argc, WCHAR **argv)  {
 
     // Validate the parameters
     if (argc != 3) {
-        wprintf(L"usage: %s &lt;Starting Port&gt; &lt;Number of Ports&gt;\n", argv[0]);
+        wprintf(L"usage: %s <Starting Port> <Number of Ports>\n", argv[0]);
         wprintf(L"Delete a persistent TCP port reservation\n");
         wprintf(L"Example usage:\n");
         wprintf(L"   %s 5000 20\n", argv[0]);
@@ -198,14 +194,14 @@ int wmain(int argc, WCHAR **argv)  {
     }
 
     startPort = _wtoi(argv[1]);
-    if ( startPort &lt; 0 || startPort&gt; 65535) {
+    if ( startPort < 0 || startPort> 65535) {
         wprintf(L"Starting point must be either 0 or between 1 and 65,535\n");
         return 1;
     }    
     startPortns = htons((u_short) startPort);
 
     numPorts = _wtoi(argv[2]);
-    if (numPorts &lt; 0) {
+    if (numPorts < 0) {
         wprintf(L"Number of ports must be a positive number\n");
         return 1;
     }    
@@ -222,10 +218,10 @@ int wmain(int argc, WCHAR **argv)  {
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -65,8 +65,8 @@ The reader to use to parse the encoded bytes.
 
 ### -param encoding [in, optional]
 
-The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://msdn.microsoft.com/ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6">WS_XML_READER_TEXT_ENCODING</a> 
-          with a charset of <a href="https://msdn.microsoft.com/en-us/library/Dd401789(v=VS.85).aspx">WS_CHARSET_AUTO</a> will be used.
+The encoding to use when parsing the bytes.  If <b>NULL</b>, a <a href="https://msdn.microsoft.com/en-us/library/Dd323556(v=VS.85).aspx">WS_XML_READER_TEXT_ENCODING</a> 
+          with a charset of <a href="https://msdn.microsoft.com/47dadf5d-1bc7-4f93-936c-21c936bc3fc3">WS_CHARSET_AUTO</a> will be used.
         
 
 

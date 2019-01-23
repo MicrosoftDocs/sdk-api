@@ -79,7 +79,7 @@ If the <b>PackageStatusUpdated</b> method completes successfully, it returns an 
 
 
 
-<a href="https://msdn.microsoft.com/A499CB8D-B2E3-4343-A9AF-079C75EF1441">PrintDocumentPackageStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448417(v=VS.85).aspx">PrintDocumentPackageStatus</a>
  
 
  

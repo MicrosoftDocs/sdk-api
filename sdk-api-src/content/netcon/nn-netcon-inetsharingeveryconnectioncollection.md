@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The 
 <b>INetSharingEveryConnectionCollection</b> interface makes it possible for scripting languages such as VBScript and JScript to enumerate all the connections in the connections folder.
@@ -71,7 +71,7 @@ The <b>INetSharingEveryConnectionCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56d2877b-8e94-4e9a-8d84-5a0263ef825d">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365958(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the connections collection.
@@ -80,7 +80,7 @@ Retrieves an enumerator for the connections collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c387ab2c-7edd-4975-a735-d555dd7191cf">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365957(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the connections collection.
@@ -99,7 +99,7 @@ Retrieves the number of items in the connections collection.
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

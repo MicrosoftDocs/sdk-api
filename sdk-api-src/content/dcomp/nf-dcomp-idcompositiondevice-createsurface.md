@@ -125,7 +125,7 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
 
 ### -param surface [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>**</b>
 
 The newly created surface object. This parameter must not be NULL.
 
@@ -170,11 +170,11 @@ DirectComposition surfaces support the following pixel formats:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437413(v=VS.85).aspx">IDCompositionDevice::CreateVirtualSurface</a>
+<a href="https://msdn.microsoft.com/85619C69-F5AE-4F07-AE56-7305BBECD58F">IDCompositionDevice::CreateVirtualSurface</a>
  
 
  

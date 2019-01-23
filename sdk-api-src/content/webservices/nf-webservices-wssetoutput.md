@@ -66,8 +66,8 @@ The writer for which the output will be set.
 
 ### -param encoding [in, optional]
 
-The encoding describes the format of the input bytes.  This should be one of <a href="https://msdn.microsoft.com/916e693b-9804-4c93-869d-0c3b576e5b61">WS_XML_WRITER_TEXT_ENCODING</a>,
-          <a href="https://msdn.microsoft.com/b4485490-b5e1-406c-883c-a30bfa334316">WS_XML_WRITER_BINARY_ENCODING</a> or <a href="https://msdn.microsoft.com/18236818-492f-4906-9e7d-6ca03ef28d36">WS_XML_WRITER_MTOM_ENCODING</a>.
+The encoding describes the format of the input bytes.  This should be one of <a href="https://msdn.microsoft.com/en-us/library/Dd323586(v=VS.85).aspx">WS_XML_WRITER_TEXT_ENCODING</a>,
+          <a href="https://msdn.microsoft.com/en-us/library/Dd323574(v=VS.85).aspx">WS_XML_WRITER_BINARY_ENCODING</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd323578(v=VS.85).aspx">WS_XML_WRITER_MTOM_ENCODING</a>.
         
 
 
@@ -136,12 +136,12 @@ If <a href="https://msdn.microsoft.com/5ca43d39-e714-4070-b343-6c8ab9484817">enc
 If <a href="https://msdn.microsoft.com/5ca43d39-e714-4070-b343-6c8ab9484817">encoding</a> is not <b>NULL</b>, then <a href="https://msdn.microsoft.com/367e6f98-9351-4a08-b8ce-036e7f2788e4">WS_XML_WRITER_OUTPUT</a> must be non-<b>NULL</b> as well.
       
 
-If <a href="https://msdn.microsoft.com/367e6f98-9351-4a08-b8ce-036e7f2788e4">WS_XML_WRITER_OUTPUT</a> is <a href="https://msdn.microsoft.com/46c0595c-9aa5-47cf-931a-8dc35e265fa0">WS_XML_WRITER_BUFFER_OUTPUT</a> then the writer will buffer the generated
-        bytes of the document.  Use <a href="https://msdn.microsoft.com/1167662f-0383-44bb-a7e1-1ec12539903e">WsGetWriterProperty</a> with <a href="https://msdn.microsoft.com/en-us/library/Dd323583(v=VS.85).aspx">WS_XML_WRITER_PROPERTY_BUFFERS</a> or
+If <a href="https://msdn.microsoft.com/367e6f98-9351-4a08-b8ce-036e7f2788e4">WS_XML_WRITER_OUTPUT</a> is <a href="https://msdn.microsoft.com/en-us/library/Dd323575(v=VS.85).aspx">WS_XML_WRITER_BUFFER_OUTPUT</a> then the writer will buffer the generated
+        bytes of the document.  Use <a href="https://msdn.microsoft.com/1167662f-0383-44bb-a7e1-1ec12539903e">WsGetWriterProperty</a> with <a href="https://msdn.microsoft.com/c919eb01-bd15-4583-afcf-e46ac2fc9c8c">WS_XML_WRITER_PROPERTY_BUFFERS</a> or
         <b>WS_XML_WRITER_PROPERTY_BYTES</b> to obtain these bytes.  In this mode <a href="https://msdn.microsoft.com/ba631942-d5a0-4d93-9899-c3f0ebd4aae5">WsFlushWriter</a> has no effect.
       
 
-If <a href="https://msdn.microsoft.com/367e6f98-9351-4a08-b8ce-036e7f2788e4">WS_XML_WRITER_OUTPUT</a> is <a href="https://msdn.microsoft.com/8ee4ea59-5cdc-43bf-80c0-8f8632fee274">WS_XML_WRITER_STREAM_OUTPUT</a> then the writer will pass the generated
+If <a href="https://msdn.microsoft.com/367e6f98-9351-4a08-b8ce-036e7f2788e4">WS_XML_WRITER_OUTPUT</a> is <a href="https://msdn.microsoft.com/en-us/library/Dd323585(v=VS.85).aspx">WS_XML_WRITER_STREAM_OUTPUT</a> then the writer will pass the generated
         bytes of the document to the specified <a href="https://msdn.microsoft.com/8d106ac2-226d-4e0c-8f14-8d3e17f15548">WS_WRITE_CALLBACK</a> during calls to <a href="https://msdn.microsoft.com/ba631942-d5a0-4d93-9899-c3f0ebd4aae5">WsFlushWriter</a>.
       
 

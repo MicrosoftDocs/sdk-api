@@ -401,20 +401,16 @@ The following code sample demonstrates how to call the
 <b>NetServerSetInfo</b> function. The sample calls 
 <b>NetServerSetInfo</b>, specifying the <i>level</i> parameter as 1005 (required) to set the <b>sv1005_comment</b> member of the <a href="https://msdn.microsoft.com/a8ce88ee-2b44-4b12-ba7a-f84249a3621b">SERVER_INFO_1005</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -437,7 +433,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetServerSetInfo(argv[1],
                               dwLevel,
-                              (LPBYTE)&amp;si,
+                              (LPBYTE)&si,
                               NULL);
    //
    // Display the result of the call.
@@ -448,10 +444,10 @@ int wmain(int argc, wchar_t *argv[])
       fprintf(stderr, "A system error has occurred: %d\n", nStatus);
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -63,7 +63,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 For single GPU operation, set this to zero. If there are multiple GPU nodes, set bits to identify the nodes (the  device's physical adapters) to which the root signature is to apply.
             Each bit in the mask corresponds to a single node.
-            Refer to <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+            Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>.
 
 
 ### -param pBlobWithRootSignature [in]
@@ -134,23 +134,19 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Create an empty root signature.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CD3DX12_ROOT_SIGNATURE_DESC rootSignatureDesc;
+
+```cpp
+CD3DX12_ROOT_SIGNATURE_DESC rootSignatureDesc;
 rootSignatureDesc.Init(0, nullptr, 0, nullptr, D3D12_ROOT_SIGNATURE_FLAG_ALLOW_INPUT_ASSEMBLER_INPUT_LAYOUT);
 
-ComPtr&lt;ID3DBlob&gt; signature;
-ComPtr&lt;ID3DBlob&gt; error;
-ThrowIfFailed(D3D12SerializeRootSignature(&amp;rootSignatureDesc, D3D_ROOT_SIGNATURE_VERSION_1, &amp;signature, &amp;error));
-ThrowIfFailed(m_device-&gt;CreateRootSignature(0, signature-&gt;GetBufferPointer(), signature-&gt;GetBufferSize(), IID_PPV_ARGS(&amp;m_rootSignature)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+ComPtr<ID3DBlob> signature;
+ComPtr<ID3DBlob> error;
+ThrowIfFailed(D3D12SerializeRootSignature(&rootSignatureDesc, D3D_ROOT_SIGNATURE_VERSION_1, &signature, &error));
+ThrowIfFailed(m_device->CreateRootSignature(0, signature->GetBufferPointer(), signature->GetBufferSize(), IID_PPV_ARGS(&m_rootSignature)));
+
+```
+
+
 
 
 

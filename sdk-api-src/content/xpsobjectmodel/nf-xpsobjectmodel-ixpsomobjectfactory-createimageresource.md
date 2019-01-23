@@ -65,7 +65,7 @@ The read-only stream to be associated with this resource. This parameter must 	n
 
 ### -param contentType [in]
 
-The <a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a> value that describes the image type of the stream that is referenced by <i>acquiredStream</i>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a> value that describes the image type of the stream that is referenced by <i>acquiredStream</i>.
 
 
 ### -param partUri [in]
@@ -107,7 +107,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>contentType</i> was not a valid <a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a> value.
+<i>contentType</i> was not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a> value.
 
 </td>
 </tr>
@@ -134,13 +134,9 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMImageResource    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -156,39 +152,39 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
+    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory-&gt;CreateImageResource (
+        hr = xpsFactory->CreateImageResource (
             acquiredStream,
             contentType,
             partUri,
-            &amp;newInterface);
+            &newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface-&gt;Release();
+            newInterface->Release();
         }
-        partUri-&gt;Release();
+        partUri->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -217,7 +213,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a>
  
 
  

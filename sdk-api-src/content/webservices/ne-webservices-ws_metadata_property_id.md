@@ -63,7 +63,7 @@ Each metadata property is of type <a href="https://msdn.microsoft.com/72c37aa9-f
 This property is used with <a href="https://msdn.microsoft.com/21d8dbca-e8a5-4b2f-a1f7-951532922024">WsGetMetadataProperty</a>.
                 
 
-The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4">WS_METADATA_PROPERTY</a> structure contains  the current <a href="https://msdn.microsoft.com/en-us/library/Dd401970(v=VS.85).aspx">WS_METADATA_STATE</a> of the metadata object.
+The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4">WS_METADATA_PROPERTY</a> structure contains  the current <a href="https://msdn.microsoft.com/4d2b8c31-d5ff-4b96-9aaf-57e59d075431">WS_METADATA_STATE</a> of the metadata object.
                 
 
 
@@ -82,11 +82,11 @@ The following heap properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401901(v=VS.85).aspx">WS_HEAP_PROPERTY_MAX_SIZE</a>.  If not specified, the
+<a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_MAX_SIZE</a>.  If not specified, the
                     default value used is 256k bytes.
                     </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401901(v=VS.85).aspx">WS_HEAP_PROPERTY_TRIM_SIZE</a>.  If not specified, the
+<a href="https://msdn.microsoft.com/c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97">WS_HEAP_PROPERTY_TRIM_SIZE</a>.  If not specified, the
                     default value used is 32k bytes.
                 </li>
 </ul>
@@ -101,7 +101,7 @@ This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a
 The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4">WS_METADATA_PROPERTY</a> structure contains   a <a href="https://msdn.microsoft.com/e03f94d9-aeeb-40df-a367-c80e831125e8">WS_POLICY_PROPERTIES</a>  structure that specifies the
                     set of policy properties.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd401993(v=VS.85).aspx">WS_POLICY_PROPERTY_ID</a> for more information on the
+See <a href="https://msdn.microsoft.com/503d39c0-7546-429d-b8e3-66e80c76b7c1">WS_POLICY_PROPERTY_ID</a> for more information on the
                     set of properties that may be specified here.
                 
 
@@ -136,7 +136,7 @@ This property is used with <a href="https://msdn.microsoft.com/c3b6f926-331b-46a
 The accompanying <b>value</b> member of the <a href="https://msdn.microsoft.com/72c37aa9-f9d8-4fc5-8ad8-854e01cb54f4">WS_METADATA_PROPERTY</a> is a <a href="https://msdn.microsoft.com/9815eb1e-0ce6-4b56-9f9a-e3938d502b72">WS_HOST_NAMES</a> structure.
                 
 
-This property may only be specified if <a href="https://msdn.microsoft.com/en-us/library/Dd401968(v=VS.85).aspx">WS_METADATA_PROPERTY_VERIFY_HOST_NAMES</a> is <b>TRUE</b>.
+This property may only be specified if <a href="https://msdn.microsoft.com/d3baa961-4701-4f2f-9263-5ac0266f6056">WS_METADATA_PROPERTY_VERIFY_HOST_NAMES</a> is <b>TRUE</b>.
                 
 
 See <a href="https://msdn.microsoft.com/7854fb44-c397-4fd0-8a0e-ea293eba4f01">WsGetMissingMetadataDocumentAddress</a> for more information

@@ -4,7 +4,7 @@ title: IFunctionInstanceCollection::GetCount
 author: windows-sdk-content
 description: Gets the number of function instances in the collection.
 old-location: ncd\ifunctioninstancecollection_getcount_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: d74d10b1-dab1-4f7e-8dbc-434570bf9c79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderFactory::CreatePropertyStore
 author: windows-sdk-content
 description: Enables providers to reuse the in-memory property store implementation.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createpropertystore.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 668d0a70-a0c1-4e43-a258-5221e3fe28a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

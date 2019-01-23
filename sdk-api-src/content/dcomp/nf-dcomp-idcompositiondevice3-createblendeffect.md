@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919709(v=VS.85).aspx">IDCompositionBlendEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2">IDCompositionBlendEffect</a>.
 
 
 ## -parameters
@@ -58,9 +58,9 @@ Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn91970
 
 ### -param blendEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn919709(v=VS.85).aspx">IDCompositionBlendEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2">IDCompositionBlendEffect</a>**</b>
 
-Receives the created instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919709(v=VS.85).aspx">IDCompositionBlendEffect</a>.
+Receives the created instance of <a href="https://msdn.microsoft.com/F8EDEA1D-A990-48C0-B4D4-3DD9261B47B2">IDCompositionBlendEffect</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn904488(v=VS.85).aspx">IDCompositionDevice3</a>
+<a href="https://msdn.microsoft.com/5da076dc-360d-0b28-f131-8669d1a91dd6">IDCompositionDevice3</a>
  
 
  

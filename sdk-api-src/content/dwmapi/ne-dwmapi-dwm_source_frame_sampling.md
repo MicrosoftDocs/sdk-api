@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Flags used by the <a href="https://msdn.microsoft.com/75684283-9e5e-4c17-b642-7c309a389f6f">DwmSetPresentParameters</a> function to specify the frame sampling type.
+Flags used by the <a href="https://msdn.microsoft.com/en-us/library/Aa969523(v=VS.85).aspx">DwmSetPresentParameters</a> function to specify the frame sampling type.
 
 
 ## -enum-fields
@@ -68,5 +68,5 @@ Use the source frame that includes the most refreshes of the output frame. In th
 
 ### -field DWM_SOURCE_FRAME_SAMPLING_LAST
 
-The maximum recognized <a href="https://msdn.microsoft.com/2574df8f-7562-4034-82c2-def3801e40c4">DWM_SOURCE_FRAME_SAMPLING</a> value, used for validation purposes.
+The maximum recognized <a href="https://msdn.microsoft.com/en-us/library/Aa969531(v=VS.85).aspx">DWM_SOURCE_FRAME_SAMPLING</a> value, used for validation purposes.
 

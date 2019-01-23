@@ -83,35 +83,27 @@ Any additional data. For more information, see Remarks.
     <b>DISK_GEOMETRY_EX</b> structure, use the following 
     macro to access the <b>DISK_DETECTION_INFO</b> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 PDISK_DETECTION_INFO DiskGeometryGetDetect(
   PDISK_GEOMETRY_EX Geometry
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 Similarly, use the following macro to access the 
     <a href="https://msdn.microsoft.com/34a086fc-72ea-46ed-adb3-c084abcb3c74">DISK_PARTITION_INFO</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 PDISK_PARTITION_INFO DiskGeometryGetPartition(
   PDISK_GEOMETRY_EX Geometry
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 The information returned does not include the number of partitions nor the partition information contained in the 
     <a href="https://msdn.microsoft.com/2c8fa83a-0694-4e17-a9e4-87f839a0d458">PARTITION_INFORMATION</a> structure. To obtain 
     this information, use the 

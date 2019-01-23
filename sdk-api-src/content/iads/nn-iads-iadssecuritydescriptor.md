@@ -261,13 +261,9 @@ Often, it is not possible to modify all portions of the security descriptor. For
 
 The following code example shows how to use the <a href="https://msdn.microsoft.com/1884efe5-86f5-4579-a25e-2ff9c9a6ec2a">IADsObjectOptions</a> interface to only modify specific portions of the security descriptor.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Const ADS_OPTION_SECURITY_MASK = 3
+
+```vb
+Const ADS_OPTION_SECURITY_MASK = 3
 Const ADS_SECURITY_INFO_OWNER = 1
 Const ADS_SECURITY_INFO_GROUP = 2
 Const ADS_SECURITY_INFO_DACL = 4
@@ -292,19 +288,15 @@ oOptions.SetOption ADS_OPTION_SECURITY_MASK, ADS_INFO_DACL
 
 ' Update the security descriptor.
 obj.Put "ntSecurityDescriptor", sd
-obj.SetInfo</pre>
-</td>
-</tr>
-</table></span></div>
+obj.SetInfo
+```
+
+
 The following code example shows how to display data from a security descriptor.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Get the security descriptor.
+
+```vb
+' Get the security descriptor.
 Dim x As IADs
 Dim sd As IADsSecurityDescriptor
 
@@ -318,24 +310,20 @@ Debug.Print sd.Owner
 Debug.Print sd.Revision
  
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set x = Nothing
     Set sd = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code example shows how to  display data from a security descriptor of a directory object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DisplaySD(IADs *pObj)
+
+```cpp
+HRESULT DisplaySD(IADs *pObj)
 {
     IADsSecurityDescriptor *pSD = NULL;
     BSTR bstr = NULL;
@@ -343,43 +331,43 @@ The following code example shows how to  display data from a security descriptor
     HRESULT hr = S_OK;
     VARIANT var;
     
-    VariantInit(&amp;var);
+    VariantInit(&var);
 
     if(pObj==NULL)
     {
         return E_FAIL;
     }
     
-    hr = pObj-&gt;Get(CComBSTR("ntSecurityDescriptor"), &amp;var);
+    hr = pObj->Get(CComBSTR("ntSecurityDescriptor"), &var);
     if(FAILED(hr)){goto Cleanup;}
     
     
-    hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADsSecurityDescriptor,(void**)&amp;pSD);
+    hr = V_DISPATCH(&var)->QueryInterface(IID_IADsSecurityDescriptor,(void**)&pSD);
     if(FAILED(hr)){goto Cleanup;}
     
-   hr = pSD-&gt;get_Control(&amp;lVal);
+   hr = pSD->get_Control(&lVal);
    printf("SD Control = %d\n",lVal);
 
-   hr = pSD-&gt;get_Owner(&amp;bstr);
+   hr = pSD->get_Owner(&bstr);
    printf("SD Owner   = %S\n",bstr);
    SysFreeString(bstr);
 
-   hr = pSD-&gt;get_Group(&amp;bstr);
+   hr = pSD->get_Group(&bstr);
    printf("SD Group   = %S\n",bstr);
    SysFreeString(bstr);
 
-   hr = pSD-&gt;get_Revision(&amp;lVal);
+   hr = pSD->get_Revision(&lVal);
    printf("SD Revision= %d\n",lVal);
         
 Cleanup:
-    VariantClear(&amp;var);
-    if(pSD) pSD-&gt;Release();
+    VariantClear(&var);
+    if(pSD) pSD->Release();
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

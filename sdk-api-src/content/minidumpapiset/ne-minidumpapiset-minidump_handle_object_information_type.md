@@ -114,7 +114,7 @@ The information represented by each of these values can vary by operating system
 
 
 
-<a href="https://msdn.microsoft.com/fb79de10-7a98-4a21-b394-63e5279b6681">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680375(v=VS.85).aspx">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
  
 
  

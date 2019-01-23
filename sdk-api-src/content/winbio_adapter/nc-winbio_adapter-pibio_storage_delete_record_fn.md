@@ -169,13 +169,9 @@ If the <b>Type</b> field of the <a href="https://msdn.microsoft.com/58a5f4ba-2f5
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterDeleteRecord
 //
@@ -217,26 +213,26 @@ StorageAdapterDeleteRecord(
     }
 
     // Retrieve the context from the pipeline.
-    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
+    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
 
     // Verify the pipeline state.
-    if (storageContext == NULL || storageContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
+    if (storageContext == NULL || storageContext->FileHandle == INVALID_HANDLE_VALUE)
     {
         hr =  WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
     }
 
     // Check the identity type.
-    if (Identity-&gt;Type != WINBIO_ID_TYPE_GUID &amp;&amp;
-        Identity-&gt;Type != WINBIO_ID_TYPE_SID &amp;&amp;
-        Identity-&gt;Type != WINBIO_ID_TYPE_WILDCARD)
+    if (Identity->Type != WINBIO_ID_TYPE_GUID &&
+        Identity->Type != WINBIO_ID_TYPE_SID &&
+        Identity->Type != WINBIO_ID_TYPE_WILDCARD)
     {
         hr = E_INVALIDARG;
         goto cleanup;
     }
 
-    if (Identity-&gt;Type == WINBIO_ID_TYPE_WILDCARD &amp;&amp;
-        Identity-&gt;Value.Wildcard != WINBIO_IDENTITY_WILDCARD)
+    if (Identity->Type == WINBIO_ID_TYPE_WILDCARD &&
+        Identity->Value.Wildcard != WINBIO_IDENTITY_WILDCARD)
     {
         hr = E_INVALIDARG;
         goto cleanup;
@@ -251,7 +247,7 @@ StorageAdapterDeleteRecord(
     }
 
     // Lock the database for writing (EXCLUSIVE ownership).
-    hr = _LockDatabase( Pipeline-&gt;StorageHandle, TRUE);
+    hr = _LockDatabase( Pipeline->StorageHandle, TRUE);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -259,7 +255,7 @@ StorageAdapterDeleteRecord(
     lockAcquired = TRUE;
 
     // Read the database header block into memory.
-    hr = _ReadFileHeader( Pipeline-&gt;StorageHandle, &amp;fileHeader );
+    hr = _ReadFileHeader( Pipeline->StorageHandle, &fileHeader );
     if (FAILED(hr))
     {
         goto cleanup;
@@ -280,13 +276,13 @@ StorageAdapterDeleteRecord(
     remainingRecords = fileHeader.TotalRecordCount;
 
     // Scan through all records looking for identity matches.
-    while (remainingRecords &gt; 0)
+    while (remainingRecords > 0)
     {
         SIZE_T recordSize = 0;
         BOOLEAN match = FALSE;
 
         hr = _ReadRecordHeader(
-                Pipeline-&gt;StorageHandle,
+                Pipeline->StorageHandle,
                 currentRecordOffset,
                 recordHeader,
                 recordHeaderSize
@@ -296,17 +292,17 @@ StorageAdapterDeleteRecord(
             goto cleanup;
         }
 
-        recordSize = recordHeader-&gt;RecordSize;
+        recordSize = recordHeader->RecordSize;
 
         // Ignore records already marked for deletion.
-        if ((recordHeader-&gt;Flags &amp; _MY_ADAPTER_FLAG_RECORD_DELETED) == 0)
+        if ((recordHeader->Flags & _MY_ADAPTER_FLAG_RECORD_DELETED) == 0)
         {
             hr = _MatchIdentity( 
                     Identity, 
                     SubFactor, 
-                    &amp;recordHeader-&gt;Identity, 
-                    recordHeader-&gt;SubFactor, 
-                    &amp;match
+                    &recordHeader->Identity, 
+                    recordHeader->SubFactor, 
+                    &match
                     );
             if (FAILED(hr))
             {
@@ -322,9 +318,9 @@ StorageAdapterDeleteRecord(
                 // reclamation until the last thread closes is necessary because 
                 // there could be other threads whose result sets contain references 
                 // to the deleted records.
-                recordHeader-&gt;Flags |= _MY_ADAPTER_FLAG_RECORD_DELETED;
+                recordHeader->Flags |= _MY_ADAPTER_FLAG_RECORD_DELETED;
                 hr = _WriteRecordHeader(
-                        Pipeline-&gt;StorageHandle,
+                        Pipeline->StorageHandle,
                         currentRecordOffset,
                         recordHeader,
                         recordHeaderSize
@@ -344,8 +340,8 @@ StorageAdapterDeleteRecord(
 
     // Write the updated file header to disk.
     hr = _WriteFileHeader( 
-            Pipeline-&gt;StorageHandle, 
-            &amp;fileHeader
+            Pipeline->StorageHandle, 
+            &fileHeader
             );
     if (FAILED(hr))
     {
@@ -355,8 +351,8 @@ StorageAdapterDeleteRecord(
 
     //  Recompute the file hash and write it to the protected data area.
     hr = _ReadProtectedData(
-            Pipeline-&gt;StorageHandle,
-            &amp;protectedData
+            Pipeline->StorageHandle,
+            &protectedData
             );
     if (FAILED(hr))
     {
@@ -364,13 +360,13 @@ StorageAdapterDeleteRecord(
     }
 
     hr = _ComputeFileHash(
-            Pipeline-&gt;StorageHandle,
+            Pipeline->StorageHandle,
             _MY_ADAPTER_DPAPI_BLOCK_OFFSET,
             (SIZE_T)(fileHeader.FirstFreeByte.QuadPart - 
                      _MY_ADAPTER_DPAPI_BLOCK_SIZE),
             protectedData.FileHash,
             _MY_ADAPTER_FILE_HASH_LENGTH,
-            (PSIZE_T)&amp;protectedData.FileHashLength
+            (PSIZE_T)&protectedData.FileHashLength
             );
     if (FAILED(hr))
     {
@@ -379,8 +375,8 @@ StorageAdapterDeleteRecord(
     }
 
     hr = _WriteProtectedData(
-                Pipeline-&gt;StorageHandle,
-                &amp;protectedData
+                Pipeline->StorageHandle,
+                &protectedData
                 );
     if (FAILED(hr))
     {
@@ -392,7 +388,7 @@ cleanup:
 
     // Call the SecureZeroMemory function to overwrite the template encryption key 
     // on the stack.
-    SecureZeroMemory( &amp;protectedData, sizeof(struct _MY_ADAPTER_DPAPI_DATA));
+    SecureZeroMemory( &protectedData, sizeof(struct _MY_ADAPTER_DPAPI_DATA));
 
     if (recordHeader != NULL)
     {
@@ -402,7 +398,7 @@ cleanup:
 
     if (lockAcquired == TRUE)
     {
-        _UnlockDatabase( Pipeline-&gt;StorageHandle);
+        _UnlockDatabase( Pipeline->StorageHandle);
         lockAcquired = FALSE;
     }
 
@@ -416,10 +412,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

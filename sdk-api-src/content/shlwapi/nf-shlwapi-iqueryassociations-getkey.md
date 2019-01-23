@@ -65,9 +65,9 @@ The <a href="https://msdn.microsoft.com/e67d0282-9090-43e6-aedf-bb1fc0443221">AS
 
 ### -param key [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a> value that specifies the type of key that is to be returned.
+The <a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a> value that specifies the type of key that is to be returned.
 
 
 ### -param pszExtra [in, optional]

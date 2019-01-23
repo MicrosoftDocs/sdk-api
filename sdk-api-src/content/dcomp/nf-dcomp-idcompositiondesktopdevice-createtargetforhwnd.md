@@ -108,11 +108,11 @@ At most, only two composition targets can be created for each window in the syst
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280350(v=VS.85).aspx">IDCompositionDesktopDevice</a>
+<a href="https://msdn.microsoft.com/0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B">IDCompositionDesktopDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280426(v=VS.85).aspx">IDCompositionVisual2</a>
+<a href="https://msdn.microsoft.com/D4D04A43-BF00-482A-9CDD-A476BD1CB953">IDCompositionVisual2</a>
  
 
  

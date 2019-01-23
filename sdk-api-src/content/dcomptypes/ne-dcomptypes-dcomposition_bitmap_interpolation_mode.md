@@ -101,7 +101,7 @@ If you want a visual to be drawn with antialiasing, use <b>DCOMPOSITION_BITMAP_I
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449147(v=VS.85).aspx">IDCompositionVisual::SetBitmapInterpolationMode</a>
+<a href="https://msdn.microsoft.com/F45A3619-556B-4D2C-BCB0-8D55A1397579">IDCompositionVisual::SetBitmapInterpolationMode</a>
  
 
  

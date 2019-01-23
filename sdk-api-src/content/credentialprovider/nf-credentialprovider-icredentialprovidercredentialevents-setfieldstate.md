@@ -73,9 +73,9 @@ The unique ID of the field where the change occurred to generate the event.
 
 ### -param cpfs [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4cc7858c-483b-4fac-96ba-8962bc362422">CREDENTIAL_PROVIDER_FIELD_STATE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762489(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_STATE</a></b>
 
-The value from the <a href="https://msdn.microsoft.com/4cc7858c-483b-4fac-96ba-8962bc362422">CREDENTIAL_PROVIDER_FIELD_STATE</a> enumeration that specifies the new field state.
+The value from the <a href="https://msdn.microsoft.com/en-us/library/Bb762489(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_STATE</a> enumeration that specifies the new field state.
 
 
 ## -returns

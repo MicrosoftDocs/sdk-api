@@ -88,7 +88,7 @@ String containing the client's name on the domain name server (DNS), if known.
 
 
 
-<a href="https://msdn.microsoft.com/62a5bafd-cc49-4a60-be03-038920e5b073">WM_CLIENT_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757903(v=VS.85).aspx">WM_CLIENT_PROPERTIES</a>
  
 
  

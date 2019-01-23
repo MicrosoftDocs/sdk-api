@@ -58,7 +58,7 @@ The <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structure contains information abou
 
 ### -field Index
 
-Index of this collision record in the array of <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structures pointed to by the <b>Entries</b> member of the <a href="https://msdn.microsoft.com/a4a3b040-c074-4756-a30f-408d8bca87ba">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure.
+Index of this collision record in the array of <b>LSA_FOREST_TRUST_COLLISION_RECORD</b> structures pointed to by the <b>Entries</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Aa378330(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure.
 
 
 ### -field Type

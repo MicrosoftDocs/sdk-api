@@ -60,7 +60,7 @@ Sends a notification to WDS transport services. The notification value is transl
 
 ### -param ServiceNotification [in]
 
-A value of the <a href="https://msdn.microsoft.com/d239241d-efe9-409b-8425-c71382b27c05">WDSTRANSPORT_SERVICE_NOTIFICATION</a> enumeration that specifies the type of service notification to be sent.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736541(v=VS.85).aspx">WDSTRANSPORT_SERVICE_NOTIFICATION</a> enumeration that specifies the type of service notification to be sent.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://msdn.microsoft.com/d239241d-efe9-409b-8425-c71382b27c05">WDSTRANSPORT_SERVICE_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736541(v=VS.85).aspx">WDSTRANSPORT_SERVICE_NOTIFICATION</a>
  
 
  

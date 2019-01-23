@@ -110,7 +110,7 @@ This parameter is reserved. Always set it to  <b>AA_TRUSTEDUSER_TRUSTEDCLIENT</b
 
 ### -param policyAttributes [in]
 
-An array of Boolean values  that specify the redirection settings associated with the connection. Each element of the array corresponds to a value of the <a href="https://msdn.microsoft.com/e2e53f33-1fc5-4002-81ed-8c9cce58f28e">PolicyAttributeType</a> enumeration. If the <i>hrIn</i> parameter is not <b>S_OK</b>, this parameter is ignored.
+An array of Boolean values  that specify the redirection settings associated with the connection. Each element of the array corresponds to a value of the <a href="https://msdn.microsoft.com/en-us/library/Ee672218(v=VS.85).aspx">PolicyAttributeType</a> enumeration. If the <i>hrIn</i> parameter is not <b>S_OK</b>, this parameter is ignored.
 
 
 ## -returns

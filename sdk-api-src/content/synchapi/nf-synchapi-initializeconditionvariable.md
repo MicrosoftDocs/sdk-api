@@ -4,7 +4,7 @@ title: InitializeConditionVariable function
 author: windows-sdk-content
 description: Initializes a condition variable.
 old-location: base\initializeconditionvariable.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 55cc8d1a-d5a8-4bb2-a5ac-50b4114b1b0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

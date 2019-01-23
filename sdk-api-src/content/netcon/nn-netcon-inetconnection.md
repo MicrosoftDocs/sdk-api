@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The 
 <b>INetConnection</b> interface provides methods to manage network connections.
@@ -89,7 +89,7 @@ Delete the network connection from the connections folder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/023abd16-7a07-4247-96cc-607a5e313bad">Disconnect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365095(v=VS.85).aspx">Disconnect</a>
 </td>
 <td align="left" width="63%">
 Disconnect the network connection.
@@ -98,7 +98,7 @@ Disconnect the network connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1196e66d-95c1-4417-ac0d-b84583879d6a">Duplicate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365096(v=VS.85).aspx">Duplicate</a>
 </td>
 <td align="left" width="63%">
 Create a duplicate of the network connection.
@@ -107,7 +107,7 @@ Create a duplicate of the network connection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab27a7fd-061f-4ea2-8ce8-23d59957a46f">GetProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365097(v=VS.85).aspx">GetProperties</a>
 </td>
 <td align="left" width="63%">
 Retrieve the properties for the network connection.
@@ -144,7 +144,7 @@ Rename the connection.
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

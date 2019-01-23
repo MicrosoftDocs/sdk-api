@@ -88,13 +88,9 @@ The <b>Copy</b> method does not free memory, but it allocates extra memory to ac
 
 The following code example shows the use of <b>CHStringArray::Copy</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHStringArray a1, a2;
+
+```cpp
+CHStringArray a1, a2;
 int idx, size;
 
 a1.Add( L"String 1" );
@@ -102,16 +98,16 @@ a1.Add( L"String 2" );
 a2.Add( L"String 5" );
 
 size = a1.GetSize();
-for (idx=0; idx&lt;size; idx++)
+for (idx=0; idx<size; idx++)
    printf("[%d]: %S\n", idx, a1[idx]);
 
 a1.Copy(a2);
 size = a1.GetSize();
-for (idx=0; idx&lt;size; idx++)
-   printf("[%d]: %S\n", idx, a1[idx]);</pre>
-</td>
-</tr>
-</table></span></div>
+for (idx=0; idx<size; idx++)
+   printf("[%d]: %S\n", idx, a1[idx]);
+```
+
+
 
 
 

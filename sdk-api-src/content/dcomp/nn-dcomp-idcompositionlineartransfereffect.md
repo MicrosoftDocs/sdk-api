@@ -54,7 +54,7 @@ The linear transfer effect is used to map the color intensities of an image usin
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionLinearTransferEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionLinearTransferEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionLinearTransferEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionLinearTransferEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDCompositionLinearTransferEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919742(v=VS.85).aspx">SetAlphaDisable</a>
+<a href="https://msdn.microsoft.com/B0D76D35-FDB8-45CA-8D41-8D6C9597ED1B">SetAlphaDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the alpha channel.
@@ -94,7 +94,7 @@ Specifies whether to apply the transfer function to the alpha channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919747(v=VS.85).aspx">SetBlueDisable</a>
+<a href="https://msdn.microsoft.com/DE87E53B-4469-4B30-8397-6A0712DE8A6C">SetBlueDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the blue channel.
@@ -119,7 +119,7 @@ Specifies whether to apply the transfer function to the blue channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919752(v=VS.85).aspx">SetClampOutput</a>
+<a href="https://msdn.microsoft.com/D56B3B15-6437-46A3-B1F9-88F5BC4A9BB2">SetClampOutput</a>
 </td>
 <td align="left" width="63%">
 Specifies whether the effect clamps color values to between 0 and 1 before the effect passes the values to the next effect in the graph.
@@ -128,7 +128,7 @@ Specifies whether the effect clamps color values to between 0 and 1 before the e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919753(v=VS.85).aspx">SetGreenDisable</a>
+<a href="https://msdn.microsoft.com/5C0C9E9C-F332-4F4E-A3F0-423A302AC6FC">SetGreenDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the green channel.
@@ -153,7 +153,7 @@ Specifies whether to apply the transfer function to the green channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919758(v=VS.85).aspx">SetRedDisable</a>
+<a href="https://msdn.microsoft.com/59B82C2B-9DAE-4B6C-A5ED-425A8ACEF24E">SetRedDisable</a>
 </td>
 <td align="left" width="63%">
 Specifies whether to apply the transfer function to the red channel.
@@ -184,7 +184,7 @@ Specifies whether to apply the transfer function to the red channel.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
  
 
  

@@ -4,7 +4,7 @@ title: ResetEvent function
 author: windows-sdk-content
 description: Sets the specified event object to the nonsignaled state.
 old-location: base\resetevent.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: bba7caab-d1ed-4261-aeca-49f847458f4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

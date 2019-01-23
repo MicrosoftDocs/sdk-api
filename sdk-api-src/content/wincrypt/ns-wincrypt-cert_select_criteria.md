@@ -198,7 +198,7 @@ This criteria is evaluated on the certificate.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="https://msdn.microsoft.com/b4b58175-1367-4c91-8680-523a4b125c76">SecPkgContext_SupportedSignatures</a> structure.
+Select certificates based on the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="https://msdn.microsoft.com/en-us/library/Dd408119(v=VS.85).aspx">SecPkgContext_SupportedSignatures</a> structure.
 
 This criteria is evaluated on the certificate.
 

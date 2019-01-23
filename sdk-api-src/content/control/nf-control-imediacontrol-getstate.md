@@ -147,19 +147,15 @@ Avoid specifying a time-out of INFINITE, because threads cannot process messages
 
 The <i>pfs</i> parameter is typed as an <a href="https://msdn.microsoft.com/c0e5d581-a15a-4dd2-b38c-72285cfc2617">OAFilterState</a> pointer but receives a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd375789(v=VS.85).aspx">FILTER_STATE</a> enumeration. You can cast the variable as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 FILTER_STATE fs;
-hr = pControl-&gt;GetState(msTimeOut, (OAFilterState*)&amp;fs);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pControl->GetState(msTimeOut, (OAFilterState*)&fs);
+
+```
+
+
 For more information about filter graph states, see <a href="https://msdn.microsoft.com/97418307-eb50-4c8e-b03b-a2cd08139bdc">Filter States</a>.
 
 

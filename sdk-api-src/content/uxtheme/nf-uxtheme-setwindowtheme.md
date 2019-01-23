@@ -105,16 +105,12 @@ When <i>pszSubAppName</i> and <i>pszSubIdList</i> are <b>NULL</b>, the theme man
 
 The following example code gives a list-view control the appearance of a Windows Explorer list: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SetWindowTheme(hwndList, L"Explorer", NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+SetWindowTheme(hwndList, L"Explorer", NULL);
+
+```
+
+
 
 

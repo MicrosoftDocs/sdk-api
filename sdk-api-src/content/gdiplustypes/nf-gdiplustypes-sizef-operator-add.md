@@ -89,13 +89,9 @@ This method overloads the addition operator for
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_OperatorPlus(HDC hdc)
+
+```cpp
+VOID Example_OperatorPlus(HDC hdc)
 {
 
    Graphics graphics(hdc);
@@ -106,14 +102,14 @@ This method overloads the addition operator for
    
    SizeF size3 = size1 + size2;
 
-   graphics.DrawRectangle(&amp;pen, 50.0f, 50.0f, size1.Width, size1.Height);
-   graphics.DrawRectangle(&amp;pen, 50.0f, 50.0f, size2.Width, size2.Height);
-   graphics.DrawRectangle(&amp;pen, 50.0f, 50.0f, size3.Width, size3.Height);
+   graphics.DrawRectangle(&pen, 50.0f, 50.0f, size1.Width, size1.Height);
+   graphics.DrawRectangle(&pen, 50.0f, 50.0f, size2.Width, size2.Height);
+   graphics.DrawRectangle(&pen, 50.0f, 50.0f, size3.Width, size3.Height);
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

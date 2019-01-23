@@ -80,14 +80,10 @@ For compatibility with operating systems that do not support this function, call
 <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> to detect whether 
 <b>IsWow64Message</b> is implemented in User32.dll. If <b>GetProcAddress</b> succeeds, it is safe to call this function. Otherwise, WOW64 is not present. Note that this technique is not a reliable way to detect whether the operating system is a 64-bit version of Windows because the User32.dll in current versions of 32-bit Windows also contains this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+#include <windows.h>
+#include <tchar.h>
 
 typedef BOOL (WINAPI *LPFN_ISWOW64MESSAGE) (void);
 
@@ -125,10 +121,10 @@ int main( void )
     }
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

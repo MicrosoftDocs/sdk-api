@@ -257,16 +257,12 @@ On success, the caller is responsible for deallocating the <i>typenameParts</i> 
 
 The following C++ example shows how to use the <b>RoParseTypeName</b> function to find the direct child namespaces for a specified type name.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;WinRTString.h&gt;
-#include &lt;TypeResolution.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <WinRTString.h>
+#include <TypeResolution.h>
 
 HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename);
 
@@ -304,22 +300,22 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
 
     hr = WindowsCreateString(
         pszTypename,
-        static_cast&lt;UINT32&gt;(wcslen(pszTypename)),
-        &amp;hstrTypeName);
+        static_cast<UINT32>(wcslen(pszTypename)),
+        &hstrTypeName);
 
     if (SUCCEEDED(hr))
     {
         hr = RoParseTypeName(
             hstrTypeName,
-            &amp;cRetrievedNameParts,
-            &amp;phstrNameParts);
+            &cRetrievedNameParts,
+            &phstrNameParts);
     }
 
     if (SUCCEEDED(hr))
     {
         wprintf(L"Parameterized interface %s is composed of:\n", pszTypename);
 
-        for (UINT32 i = 0; i &lt; cRetrievedNameParts; i++)
+        for (UINT32 i = 0; i < cRetrievedNameParts; i++)
         {
             wprintf(L"Element %d: %s\n", i, WindowsGetStringRawBuffer(phstrNameParts[i], nullptr));
         }
@@ -335,7 +331,7 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
         WindowsDeleteString(hstrTypeName);
     }
 
-    for (UINT32 i = 0; i &lt; cRetrievedNameParts; i++)
+    for (UINT32 i = 0; i < cRetrievedNameParts; i++)
     {
         WindowsDeleteString(phstrNameParts[i]);
     }
@@ -344,9 +340,9 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

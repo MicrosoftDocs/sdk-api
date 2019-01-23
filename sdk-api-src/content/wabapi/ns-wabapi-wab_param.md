@@ -49,7 +49,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Do not use. Contains the input information to pass to <a href="https://msdn.microsoft.com/68f2dcd5-9153-488a-ab9b-7cc03b09a87f">WABOpen</a>.
+Do not use. Contains the input information to pass to <a href="https://msdn.microsoft.com/en-us/library/ms629715(v=VS.85).aspx">WABOpen</a>.
 
 
 ## -struct-fields

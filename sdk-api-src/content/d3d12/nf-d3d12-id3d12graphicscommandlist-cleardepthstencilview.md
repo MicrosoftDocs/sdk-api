@@ -141,13 +141,9 @@ The debug layer will issue an error if the subresources referenced by the view a
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Pipeline objects.
+
+```cpp
+// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
 ComPtr<IDXGISwapChain3> m_swapChain;
 ComPtr<ID3D12Device> m_device;
@@ -164,19 +160,13 @@ ComPtr<ID3D12DescriptorHeap> m_samplerHeap;
 ComPtr<ID3D12PipelineState> m_pipelineState1;
 ComPtr<ID3D12PipelineState> m_pipelineState2;
 D3D12_RECT m_scissorRect;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
+
+```cpp
+void D3D12Bundles::PopulateCommandList(FrameResource* pFrameResource)
 {
     // Command list allocators can only be reset when the associated
     // command lists have finished execution on the GPU; apps should use
@@ -226,22 +216,16 @@ D3D12_RECT m_scissorRect;
 
     ThrowIfFailed(m_commandList->Close());
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Multithreading</a> sample uses <b>ID3D12GraphicsCommandList::ClearDepthStencilView</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void FrameResource::Init()
+
+```cpp
+void FrameResource::Init()
 {
     // Reset the command allocators and lists for the main thread.
     for (int i = 0; i < CommandListCount; i++)
@@ -263,19 +247,13 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
         ThrowIfFailed(m_sceneCommandLists[i]->Reset(m_sceneCommandAllocators[i].Get(), m_pipelineState.Get()));
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Assemble the CommandListPre command list.
+
+```cpp
+// Assemble the CommandListPre command list.
 void D3D12Multithreading::BeginFrame()
 {
     m_pCurrentFrameResource->Init();
@@ -300,10 +278,8 @@ void D3D12Multithreading::MidFrame()
 
     ThrowIfFailed(m_pCurrentFrameResource->m_commandLists[CommandListMid]->Close());
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

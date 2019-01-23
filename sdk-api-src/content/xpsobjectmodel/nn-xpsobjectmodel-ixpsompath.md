@@ -202,7 +202,7 @@ Gets the style of the end cap to be used on the stroke dash.
 <a href="https://msdn.microsoft.com/60c76c8f-1434-4347-9639-a886d6ae133c">GetStrokeDashes</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to the <a href="https://msdn.microsoft.com/02a152a1-e117-42fb-8428-a2b28e6540a9">IXpsOMDashCollection</a> interface that contains the <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structures that  define the dash pattern of the stroke.
+Gets a pointer to the <a href="https://msdn.microsoft.com/02a152a1-e117-42fb-8428-a2b28e6540a9">IXpsOMDashCollection</a> interface that contains the <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structures that  define the dash pattern of the stroke.
             
 
 </td>
@@ -417,13 +417,9 @@ Sets the stroke thickness.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMPath    *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -434,29 +430,29 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreatePath (&amp;newInterface);
+    hr = xpsFactory->CreatePath (&newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -64,7 +64,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://m
 
 ### -param ctCurrentColorTemperature [in]
 
-Color temperature, specified as a member of the <a href="https://msdn.microsoft.com/890d1d84-6a7d-457b-8136-230be4c79e78">MC_COLOR_TEMPERATURE</a> enumeration.
+Color temperature, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692954(v=VS.85).aspx">MC_COLOR_TEMPERATURE</a> enumeration.
           
 
 

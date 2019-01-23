@@ -75,15 +75,15 @@ A signature that identifies the type of data block that follows the header.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773274(v=VS.85).aspx">EXP_DARWIN_LINK</a>
+<a href="https://msdn.microsoft.com/016c539e-6035-4752-99b6-71e2d7199bf0">EXP_DARWIN_LINK</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773359(v=VS.85).aspx">NT_CONSOLE_PROPS</a>
+<a href="https://msdn.microsoft.com/02542cd4-be8f-45c0-ad0f-e1e39a45f5de">NT_CONSOLE_PROPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773362(v=VS.85).aspx">NT_FE_CONSOLE_PROPS</a>
+<a href="https://msdn.microsoft.com/2f22676d-2b46-4a94-9517-64d1caeead43">NT_FE_CONSOLE_PROPS</a>
  
 
  

@@ -103,7 +103,7 @@ Stack and backing store memory written to the minidump file should be filtered t
 
 Stack and backing store memory should be scanned for pointer references to modules in the module list. If a 
       module is referenced by stack or backing store memory, the <b>ModuleWriteFlags</b> member of 
-      the <a href="https://msdn.microsoft.com/57949087-0f22-40c8-ab56-326a8304c310">MINIDUMP_CALLBACK_OUTPUT</a> structure is 
+      the <a href="https://msdn.microsoft.com/en-us/library/ms680363(v=VS.85).aspx">MINIDUMP_CALLBACK_OUTPUT</a> structure is 
       set to <b>ModuleReferencedByMemory</b>.
 
 
@@ -166,7 +166,7 @@ Reduce the data that is dumped by eliminating memory regions that are not essent
 ### -field MiniDumpWithFullMemoryInfo
 
 Include memory region information. For more information, see 
-      <a href="https://msdn.microsoft.com/c1c9a79b-a35a-47e8-be4c-10b3c4ace937">MINIDUMP_MEMORY_INFO_LIST</a>.
+      <a href="https://msdn.microsoft.com/en-us/library/ms680385(v=VS.85).aspx">MINIDUMP_MEMORY_INFO_LIST</a>.
       
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
@@ -175,7 +175,7 @@ Include memory region information. For more information, see
 ### -field MiniDumpWithThreadInfo
 
 Include thread state information. For more information, see 
-      <a href="https://msdn.microsoft.com/ee02a8fa-c81d-4b23-b8a2-6ff31cdaf3de">MINIDUMP_THREAD_INFO_LIST</a>.
+      <a href="https://msdn.microsoft.com/en-us/library/ms680506(v=VS.85).aspx">MINIDUMP_THREAD_INFO_LIST</a>.
       
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.

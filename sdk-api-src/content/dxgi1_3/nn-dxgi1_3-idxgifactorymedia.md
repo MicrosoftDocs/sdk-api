@@ -101,23 +101,19 @@ Because you can create a Direct3D device without creating a swap chain, you migh
           the factory.  The following code shows how.
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IDXGIDevice2 * pDXGIDevice;
-hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice2), (void **)&amp;pDXGIDevice);
+
+```cpp
+IDXGIDevice2 * pDXGIDevice;
+hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice2), (void **)&pDXGIDevice);
       
 IDXGIAdapter * pDXGIAdapter;
-hr = pDXGIDevice-&gt;GetParent(__uuidof(IDXGIAdapter), (void **)&amp;pDXGIAdapter);
+hr = pDXGIDevice->GetParent(__uuidof(IDXGIAdapter), (void **)&pDXGIAdapter);
 
 IDXGIFactoryMedia * pIDXGIFactory;
-pDXGIAdapter-&gt;GetParent(__uuidof(IDXGIFactoryMedia), (void **)&amp;pIDXGIFactory);</pre>
-</td>
-</tr>
-</table></span></div>
+pDXGIAdapter->GetParent(__uuidof(IDXGIFactoryMedia), (void **)&pIDXGIFactory);
+```
+
+
 
 
 

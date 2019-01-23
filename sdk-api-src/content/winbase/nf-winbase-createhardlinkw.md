@@ -229,13 +229,9 @@ The following code snippet shows you how to call
     or any existing link to a file. After this code is executed, <i>pszNewLinkName</i> refers to 
     the file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>  BOOL fCreatedLink = CreateHardLink( pszNewLinkName, 
+
+```cpp
+  BOOL fCreatedLink = CreateHardLink( pszNewLinkName, 
                                       pszExistingFileName, 
                                       NULL ); // reserved, must be NULL
 
@@ -243,10 +239,10 @@ The following code snippet shows you how to call
    {
     ;// handle error condition
    }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

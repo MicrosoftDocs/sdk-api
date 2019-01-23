@@ -64,7 +64,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://m
 
 ### -param pmtrMonitorTimingReport [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/dfad2277-4f0d-4a92-a332-2c6c2bbac138">MC_TIMING_REPORT</a> structure that receives the timing information.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd692960(v=VS.85).aspx">MC_TIMING_REPORT</a> structure that receives the timing information.
           
 
 

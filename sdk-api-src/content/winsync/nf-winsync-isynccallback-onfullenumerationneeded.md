@@ -116,7 +116,7 @@ By default, if an application callback is not registered to receive this notific
 
 
 
-<a href="https://msdn.microsoft.com/4fdb7123-d8c8-4ed7-9009-0e772252bbb7">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317256(v=VS.85).aspx">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
  
 
  

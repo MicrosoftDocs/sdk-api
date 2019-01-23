@@ -255,7 +255,7 @@ A pointer to the new 8-bit-character Macintosh family name of the font. Set to <
 
 ### -param pTTLoadInfo [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd145156(v=VS.85).aspx">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained. If this value does not match one of those contained in the <a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a> structure, the font will not load successfully.
+A pointer to a <a href="https://msdn.microsoft.com/7a4beae7-cd30-47e3-b310-d0a79c3c8c36">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained. If this value does not match one of those contained in the <a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a> structure, the font will not load successfully.
 
 
 ## -returns
@@ -297,7 +297,7 @@ To use the existing name of the embedded font, the name string parameters need t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a>
+<a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a>
 
 
 
@@ -309,7 +309,7 @@ To use the existing name of the embedded font, the name string parameters need t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd145156(v=VS.85).aspx">TTLOADINFO</a>
+<a href="https://msdn.microsoft.com/7a4beae7-cd30-47e3-b310-d0a79c3c8c36">TTLOADINFO</a>
  
 
  

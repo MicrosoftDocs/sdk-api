@@ -68,7 +68,7 @@ The size of each entry following the header, in bytes. This is generally <code>s
 
 ### -field NumberOfEntries
 
-The number of entries in the stream. These are generally <a href="https://msdn.microsoft.com/d2ae58fa-561c-4135-a757-88598ebda57a">MINIDUMP_UNLOADED_MODULE</a> structures. The entries follow the header.
+The number of entries in the stream. These are generally <a href="https://msdn.microsoft.com/en-us/library/ms680523(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE</a> structures. The entries follow the header.
 
 
 ## -see-also
@@ -80,7 +80,7 @@ The number of entries in the stream. These are generally <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/d2ae58fa-561c-4135-a757-88598ebda57a">MINIDUMP_UNLOADED_MODULE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680523(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE</a>
  
 
  

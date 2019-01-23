@@ -120,13 +120,9 @@ The following example creates an <a href="https://msdn.microsoft.com/en-us/libra
 </ul>
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetColorKey(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -147,20 +143,20 @@ VOID Example_SetColorKey(HDC hdc)
 
    // Draw the image. Apply the color key.
    // The bottom stripe of the image will be transparent because
-   // 100 &lt;= 130 &lt;= 250 and
-   // 95  &lt;= 130 &lt;= 245 and
-   // 30  &lt;= 40  &lt;= 60.
+   // 100 <= 130 <= 250 and
+   // 95  <= 130 <= 245 and
+   // 30  <= 40  <= 60.
    graphics.DrawImage(
-      &amp;image, 
+      &image, 
       Rect(20, 20, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 
 
 

@@ -62,55 +62,55 @@ security token used with that security binding is obtained and used.
 
 ### -field WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ceb8e6">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd323441(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/c617f6cf-cedb-4d52-954c-fd4577260ca3">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd323466(v=VS.85).aspx">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/c6ca6760-a927-470f-9785-7500d1711902">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd401908(v=VS.85).aspx">WS_HTTP_HEADER_AUTH_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/be6d4787-fa50-4260-8236-39dd992adcae">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd323497(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/03127248-f5cc-44da-9c3d-abf016dd6bb2">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd401944(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd323568(v=VS.85).aspx">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_SAML_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/713afe9a-49b8-419a-b78b-d3b5a4a8d073">WS_SAML_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd323373(v=VS.85).aspx">WS_SAML_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE
 
-Type id for the security binding <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Dd323391(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
                 
 
 
 ### -field WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE
 
 Windows 8 or later:
-Type id for the security binding <a href="https://msdn.microsoft.com/02FCD206-23BC-4ED0-9E4A-76AB0926FD7C">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+Type id for the security binding <a href="https://msdn.microsoft.com/en-us/library/Hh437361(v=VS.85).aspx">WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING</a>.
                 
 

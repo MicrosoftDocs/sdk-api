@@ -68,7 +68,7 @@ The channel to receive from.
 The message object used to receive.
                 
 
-The message should be in <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a> state.
+The message should be in <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a> state.
                 
 
 
@@ -87,14 +87,14 @@ The number of items in the messageDescriptions array.
 
 ### -param receiveOption [in]
 
-Whether the message is required.  See <a href="https://msdn.microsoft.com/en-us/library/Dd402010(v=VS.85).aspx">WS_RECEIVE_OPTION</a> for more information.
+Whether the message is required.  See <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTION</a> for more information.
                 
 
 
 ### -param readBodyOption [in]
 
 Whether the body element is required, and how to allocate the value.  
-                    See <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a> for more information.
+                    See <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a> for more information.
                 
 
 
@@ -107,10 +107,10 @@ The heap to store the deserialized values in.  If the heap is
 
 ### -param value
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
                 
 
-If <a href="https://msdn.microsoft.com/en-us/library/Dd402010(v=VS.85).aspx">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
+If <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
                     parameter, and no more messages are available on the channel, 
                     this parameter is not touched.  In this case, the function returns <b>WS_S_END</b>.
                 (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
@@ -123,13 +123,13 @@ If the bodyElementDescription of the <a href="https://msdn.microsoft.com/399b336
 
 ### -param valueSize [in]
 
-The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTION</a>.
+The interpretation of this parameter depends on the <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTION</a>.
                 
 
 
 ### -param index
 
-If <a href="https://msdn.microsoft.com/en-us/library/Dd402010(v=VS.85).aspx">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
+If <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> is specified for the receiveOption
                     parameter, and no more messages are available on the channel, 
                     this parameter is untouched.  In this case, the function will
                     return <b>WS_S_END</b>.
@@ -186,7 +186,7 @@ The asynchronous operation is still pending.
 </dl>
 </td>
 <td width="60%">
-The receive option <a href="https://msdn.microsoft.com/en-us/library/Dd402010(v=VS.85).aspx">WS_RECEIVE_OPTIONAL_MESSAGE</a> was specified and
+The receive option <a href="https://msdn.microsoft.com/a2aefba7-40ff-4399-b13f-f1bad191f366">WS_RECEIVE_OPTIONAL_MESSAGE</a> was specified and
                     there are no more messages available for the channel.
                 
 

@@ -77,13 +77,9 @@ The matrix elements are stored in <b>pArray</b> in <i>row-major</i> order.
 
 The following two pseudocode examples demonstrate the operation of this constructor:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    XMFLOAT4X3 mat;
    mat._11 = pArray[0];
    mat._12 = pArray[1];
@@ -97,19 +93,15 @@ The following two pseudocode examples demonstrate the operation of this construc
    mat._41 = pArray[9];
    mat._42 = pArray[10];
    mat._43 = pArray[11];
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 Or
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    XMFLOAT4X3 mat;
    mat.m[0,0] = pArray[0];
    mat.m[0,1] = pArray[1];
@@ -123,10 +115,10 @@ Or
    mat.m[3,0] = pArray[9];
    mat.m[3,1] = pArray[10];
    mat.m[3,2] = pArray[11];
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
+
+
 
 
 

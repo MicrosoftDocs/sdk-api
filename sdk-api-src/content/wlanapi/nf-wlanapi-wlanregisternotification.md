@@ -298,7 +298,7 @@ An application can time out and query the current interface state instead of wai
 
 
 
-<a href="https://msdn.microsoft.com/f01e4a42-3378-4ceb-b23b-5deb78fb18ca">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd439501(v=VS.85).aspx">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
 
 
 

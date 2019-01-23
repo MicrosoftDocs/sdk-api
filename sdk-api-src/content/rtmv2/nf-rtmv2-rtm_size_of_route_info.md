@@ -72,13 +72,9 @@ If the client  only allocates one next hop per route, the client can allocate an
 
 The macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 #define RTM_SIZE_OF_ROUTE_INFO(NumHops)                     \
     FIELD_OFFSET(RTM_ROUTE_INFO, NextHopsList.NumNextHops)
@@ -86,9 +82,9 @@ The macro is defined as follows:
 #define RTM_BASIC_ROUTE_INFO_SIZE                           \
     (RTM_BASIC_ROUTE_INFO_SIZE + (NumHops) *                \
      sizeof(RTM_NEXTHOP_HANDLE))
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

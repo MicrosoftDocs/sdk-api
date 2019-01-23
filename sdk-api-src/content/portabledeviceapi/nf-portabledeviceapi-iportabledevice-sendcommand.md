@@ -179,36 +179,32 @@ There is no option to set a timeout in a call to <b>SendCommand</b> but the deve
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // 
 
 void ResetDevice(IPortableDevice* pDevice)
 {
     HRESULT  hr = S_OK;
-    CComPtr&lt;IPortableDeviceValues&gt;  pDevValues;
+    CComPtr<IPortableDeviceValues>  pDevValues;
 
     hr = CoCreateInstance(CLSID_PortableDeviceValues,
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IPortableDeviceValues,
-        (VOID**) &amp;pDevValues);
+        (VOID**) &pDevValues);
     if (SUCCEEDED(hr))
     {
         if (pDevValues != NULL)
         {
-            hr = pDevValues-&gt;SetGuidValue(WPD_PROPERTY_COMMON_COMMAND_CATEGORY, 
+            hr = pDevValues->SetGuidValue(WPD_PROPERTY_COMMON_COMMAND_CATEGORY, 
                 WPD_COMMAND_COMMON_RESET_DEVICE.fmtid);
             if (FAILED(hr))
             {
                 printf("! IPortableDeviceValues::SetGuidValue failed, hr= 0x%lx\n", hr);
             }
-            hr = pDevValues-&gt;SetUnsignedIntegerValue(WPD_PROPERTY_COMMON_COMMAND_ID,
+            hr = pDevValues->SetUnsignedIntegerValue(WPD_PROPERTY_COMMON_COMMAND_ID,
                 WPD_COMMAND_COMMON_RESET_DEVICE.pid);
             if (FAILED(hr))
             {
@@ -216,7 +212,7 @@ void ResetDevice(IPortableDevice* pDevice)
             }
         }
     }
-    hr = pDevice-&gt;SendCommand(0, pDevValues, &amp;pDevValues);
+    hr = pDevice->SendCommand(0, pDevValues, &pDevValues);
     if (FAILED(hr))
     {
         printf("! Failed to reset the device, hr = 0x%lx\n",hr);
@@ -227,10 +223,10 @@ void ResetDevice(IPortableDevice* pDevice)
 }
 
 //
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

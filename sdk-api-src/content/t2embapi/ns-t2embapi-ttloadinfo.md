@@ -79,7 +79,7 @@ Pointer to the string containing the current URL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd145148(v=VS.85).aspx">TTEMBEDINFO</a>
+<a href="https://msdn.microsoft.com/7e1828bf-c9ed-4120-b91f-b4eb45191e48">TTEMBEDINFO</a>
 
 
 

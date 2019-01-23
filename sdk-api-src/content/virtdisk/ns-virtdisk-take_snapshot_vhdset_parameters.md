@@ -62,7 +62,7 @@ Contains snapshot parameters, indicating information about the new snapshot to b
 
 ### -field Version
 
-A value from the <a href="https://msdn.microsoft.com/E544AC22-6865-4ECF-92F8-B8027746C231">TAKE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union. 
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Mt414224(v=VS.85).aspx">TAKE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union. 
 
 
 

@@ -58,7 +58,7 @@ Sets the starting position of the text.
 
 ### -param origin [in]
 
-The <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a> structure that contains the coordinates to be set as the text's starting position.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a> structure that contains the coordinates to be set as the text's starting position.
 
 
 ## -returns
@@ -137,7 +137,7 @@ In the units of the effective coordinate space, the origin specifies the x and y
 
 
 
-<a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a>
  
 
  

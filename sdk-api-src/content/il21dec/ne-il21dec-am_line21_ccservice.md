@@ -121,11 +121,11 @@ The Line 21 decoder supports CC1 and CC2 only.
 
 
 
-<a href="https://msdn.microsoft.com/bfd1c33d-27e0-4923-9c80-5d1bedb4fd25">IAMLine21Decoder::GetCurrentService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389387(v=VS.85).aspx">IAMLine21Decoder::GetCurrentService</a>
 
 
 
-<a href="https://msdn.microsoft.com/2f1945c3-644d-4e72-b2b7-a7e068b59d96">IAMLine21Decoder::SetCurrentService</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389394(v=VS.85).aspx">IAMLine21Decoder::SetCurrentService</a>
  
 
  

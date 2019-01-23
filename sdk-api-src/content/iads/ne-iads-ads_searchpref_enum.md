@@ -351,22 +351,18 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 The following code example shows how to set up search preferences using the <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> enumeration.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT SetSearchPreferences2(
+
+```cpp
+HRESULT SetSearchPreferences2(
     DWORD dwScope,// -1 indicates default: subtree.
-    DWORD dwOverallTimeOut,// &lt;=0 indicates default: no time out set.
-    DWORD dwOverallSizeLimit,// &lt;=0 indicates default: no size limit set.
-    DWORD dwOverallTimeLimit,// &lt;=0 indicates default: no time limit set.
+    DWORD dwOverallTimeOut,// <=0 indicates default: no time out set.
+    DWORD dwOverallSizeLimit,// <=0 indicates default: no size limit set.
+    DWORD dwOverallTimeLimit,// <=0 indicates default: no time limit set.
     BOOL bCacheResult,// TRUE indicates default.
     BOOL bIsAsynchronous,// FALSE indicates default.
-    DWORD dwPageSize,// &lt;=0 indicates default.
-    DWORD dwPageTimeLimit,// &lt;=0 indicates default.
-    DWORD dwChaseReferral,// &lt;=0 indicates default.
+    DWORD dwPageSize,// <=0 indicates default.
+    DWORD dwPageTimeLimit,// <=0 indicates default.
+    DWORD dwChaseReferral,// <=0 indicates default.
     LPOLESTR szSortKey,// NULL indicates do not sort.
     BOOL bIsDescending,
     BOOL bReturnAttributeNamesOnly,// FALSE indicates default.
@@ -382,21 +378,21 @@ The following code example shows how to set up search preferences using the <a h
  
    if(dwScope==-1)
        dwTotal--;
-   if(dwOverallTimeOut&lt;=0)
+   if(dwOverallTimeOut<=0)
        dwTotal--;
-   if(dwOverallSizeLimit&lt;=0)
+   if(dwOverallSizeLimit<=0)
        dwTotal--;
-   if(dwOverallTimeLimit&lt;=0)
+   if(dwOverallTimeLimit<=0)
        dwTotal--;
    if(bCacheResult)
        dwTotal--;
    if(!bIsAsynchronous)
        dwTotal--;
-   if(dwPageSize&lt;=0)
+   if(dwPageSize<=0)
        dwTotal--;
-   if(dwPageTimeLimit&lt;=0)
+   if(dwPageTimeLimit<=0)
        dwTotal--;
-   if(dwChaseReferral&lt;=0)
+   if(dwChaseReferral<=0)
        dwTotal--;
    if(!bReturnAttributeNamesOnly)
        dwTotal--;
@@ -414,7 +410,7 @@ The following code example shows how to set up search preferences using the <a h
     //////////////////
     // Search Scope
     //////////////////
-    if(dwScope&gt;=0)
+    if(dwScope>=0)
     {
         prefInfo[dwCountPref].dwSearchPref =
                          ADS_SEARCHPREF_SEARCH_SCOPE;
@@ -426,7 +422,7 @@ The following code example shows how to set up search preferences using the <a h
     //////////////////
     // Time Out
     //////////////////
-    if(dwOverallTimeOut&gt;0)
+    if(dwOverallTimeOut>0)
     {
        prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_TIMEOUT;
        prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;
@@ -437,7 +433,7 @@ The following code example shows how to set up search preferences using the <a h
     ///////////////
     // Size Limit
     ///////////////
-    if(dwOverallSizeLimit&gt;0)
+    if(dwOverallSizeLimit>0)
     {
        prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_SIZE_LIMIT;
        prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;
@@ -448,7 +444,7 @@ The following code example shows how to set up search preferences using the <a h
     ///////////////
     // Time Limit
     ///////////////
-    if(dwOverallTimeLimit&gt;0) 
+    if(dwOverallTimeLimit>0) 
     {
        prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_TIME_LIMIT;
        prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;
@@ -472,7 +468,7 @@ The following code example shows how to set up search preferences using the <a h
     //////////////
     // Page Size
     //////////////
-    if(dwPageSize&gt;0)
+    if(dwPageSize>0)
     {
         prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_PAGESIZE;
         prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;;
@@ -483,7 +479,7 @@ The following code example shows how to set up search preferences using the <a h
     //////////////////
     // Page Time Limit
     //////////////////
-    if(dwPageTimeLimit&gt;0)
+    if(dwPageTimeLimit>0)
     {
         prefInfo[dwCountPref].dwSearchPref = 
                                       ADS_SEARCHPREF_PAGED_TIME_LIMIT;
@@ -495,7 +491,7 @@ The following code example shows how to set up search preferences using the <a h
     ///////////////////
     // Chase Referrals
     ///////////////////
-    if(dwChaseReferral&gt;0)
+    if(dwChaseReferral>0)
     {
         prefInfo[dwCountPref].dwSearchPref =
                                       ADS_SEARCHPREF_CHASE_REFERRALS;
@@ -521,7 +517,7 @@ The following code example shows how to set up search preferences using the <a h
         prefInfo[dwCountPref].vValue.ProviderSpecific.dwLength = 
                                                  sizeof(ADS_SORTKEY);
         prefInfo[dwCountPref].vValue.ProviderSpecific.lpValue = 
-                                                 (LPBYTE) &amp;SortKey;
+                                                 (LPBYTE) &SortKey;
         dwCountPref++;
     }
     
@@ -563,10 +559,10 @@ The following code example shows how to set up search preferences using the <a h
  
  
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

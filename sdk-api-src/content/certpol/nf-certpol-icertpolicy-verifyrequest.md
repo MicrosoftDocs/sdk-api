@@ -201,15 +201,11 @@ When you write custom policy modules, you must implement <b>VerifyRequest</b> fu
 
 The following example shows a possible implementation of the <b>VerifyRequest</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certpol.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Certpol.h>
 
 STDMETHODIMP CCertPolicy::VerifyRequest(
              BSTR const strConfig,
@@ -239,7 +235,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertServerPolicy,
-                           (void **) &amp;pServer);
+                           (void **) &pServer);
     if (FAILED( hr ))
     {
         printf("Failed CoCreateInstance for pServer - %x\n", hr );
@@ -247,7 +243,7 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
     }
 
     // Set the context to refer to this request.
-    hr = pServer-&gt;SetContext(Context);
+    hr = pServer->SetContext(Context);
     if (FAILED( hr ))
     {
         printf("Failed SetContext(%u) - %x\n", Context, hr );
@@ -266,10 +262,10 @@ STDMETHODIMP CCertPolicy::VerifyRequest(
 
     // Retrieve the certificate property for the CN.
     // Actual implementations may want to examine other properties.
-    VariantInit( &amp;varProp );
-    hr = pServer-&gt;GetCertificateProperty( bstrPropName,
+    VariantInit( &varProp );
+    hr = pServer->GetCertificateProperty( bstrPropName,
                                           PROPTYPE_STRING,
-                                          &amp;varProp );
+                                          &varProp );
     if (FAILED(hr))
     {
         printf("Failed GetCertificateProperty - %x\n", hr);
@@ -288,18 +284,18 @@ error:
 
     // Free resources.
     if (NULL != pServer)
-        pServer-&gt;Release();
+        pServer->Release();
 
-    VariantClear( &amp;varProp );
+    VariantClear( &varProp );
 
     if ( NULL != bstrPropName )
         SysFreeString( bstrPropName );
 
     return(hr);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

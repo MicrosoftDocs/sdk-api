@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the number of <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structures in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structures in the collection.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the number of <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c
 
 ### -param count [out, retval]
 
-The number of <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structures in the collection.
+The number of <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structures in the collection.
 
 
 ## -returns
@@ -96,7 +96,7 @@ For more information about the collection methods, see  <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
  
 
  

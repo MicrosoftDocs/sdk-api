@@ -82,7 +82,7 @@ Use the <b>SUCCEEDED</b> or <b>FAILED</b> macro on the returned <b>HRESULT</b> t
 
 If the client cancels the query, the <b>Commit</b> method returns an error. A provider writer can use this fact to terminate an enumeration.
 
-Also, framework providers should call this method to commit rather than <a href="https://msdn.microsoft.com/en-us/library/Aa392763(v=VS.85).aspx">Provider::Commit</a>.  <b>Provider::Commit</b> calls <b>CInstance::Release</b> automatically. Smart <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> pointers cannot be used in this case because the smart <b>CInstance</b> pointer would call <b>CInstance::Release</b> in its destructor. If the release has already occurred, an exception will result. Issues of this type are best resolved by allowing the <b>CInstance</b> instance, or a smart pointer to it, to call <b>CInstance::Release</b> when it is appropriate.
+Also, framework providers should call this method to commit rather than <a href="https://msdn.microsoft.com/619adf78-26db-4a90-90ba-bdacb3e55975">Provider::Commit</a>.  <b>Provider::Commit</b> calls <b>CInstance::Release</b> automatically. Smart <a href="https://msdn.microsoft.com/aed29340-eb64-437d-b7e8-4f0e49c8288a">CInstance</a> pointers cannot be used in this case because the smart <b>CInstance</b> pointer would call <b>CInstance::Release</b> in its destructor. If the release has already occurred, an exception will result. Issues of this type are best resolved by allowing the <b>CInstance</b> instance, or a smart pointer to it, to call <b>CInstance::Release</b> when it is appropriate.
 
 
 

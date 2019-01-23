@@ -94,13 +94,9 @@ The following illustration shows the different geometry combine modes.
 
 The following code uses each of the different combine modes to combine two <a href="https://msdn.microsoft.com/4ab6452c-6df8-46c0-9e0d-0cebc19d84ba">ID2D1EllipseGeometry</a> objects. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::CreateGeometryResources()
+
+```cpp
+HRESULT DemoApp::CreateGeometryResources()
 {
     HRESULT hr = S_OK;
     ID2D1GeometrySink *pGeometrySink = NULL;
@@ -112,9 +108,9 @@ The following code uses each of the different combine modes to combine two <a hr
         50.0f
         );
 
-    hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+    hr = m_pD2DFactory->CreateEllipseGeometry(
         circle1,
-        &amp;m_pCircleGeometry1
+        &m_pCircleGeometry1
         );
 
     if (SUCCEEDED(hr))
@@ -126,7 +122,7 @@ The following code uses each of the different combine modes to combine two <a hr
             50.0f
             );
 
-        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(circle2, &amp;m_pCircleGeometry2);
+        hr = m_pD2DFactory->CreateEllipseGeometry(circle2, &m_pCircleGeometry2);
     }
 
 
@@ -135,15 +131,15 @@ The following code uses each of the different combine modes to combine two <a hr
         //
         // Use D2D1_COMBINE_MODE_UNION to combine the geometries.
         //
-        hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometryUnion);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryUnion);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryUnion-&gt;Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryUnion->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
-                hr = m_pCircleGeometry1-&gt;CombineWithGeometry(
+                hr = m_pCircleGeometry1->CombineWithGeometry(
                     m_pCircleGeometry2,
                     D2D1_COMBINE_MODE_UNION,
                     NULL,
@@ -154,10 +150,10 @@ The following code uses each of the different combine modes to combine two <a hr
 
             if (SUCCEEDED(hr))
             {
-                hr = pGeometrySink-&gt;Close();
+                hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -166,15 +162,15 @@ The following code uses each of the different combine modes to combine two <a hr
         //
         // Use D2D1_COMBINE_MODE_INTERSECT to combine the geometries.
         //
-        hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometryIntersect);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryIntersect);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryIntersect-&gt;Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryIntersect->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
-                hr = m_pCircleGeometry1-&gt;CombineWithGeometry(
+                hr = m_pCircleGeometry1->CombineWithGeometry(
                     m_pCircleGeometry2,
                     D2D1_COMBINE_MODE_INTERSECT,
                     NULL,
@@ -185,10 +181,10 @@ The following code uses each of the different combine modes to combine two <a hr
 
             if (SUCCEEDED(hr))
             {
-                hr = pGeometrySink-&gt;Close();
+                hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -197,15 +193,15 @@ The following code uses each of the different combine modes to combine two <a hr
         //
         // Use D2D1_COMBINE_MODE_XOR to combine the geometries.
         //
-        hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometryXOR);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryXOR);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryXOR-&gt;Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryXOR->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
-                hr = m_pCircleGeometry1-&gt;CombineWithGeometry(
+                hr = m_pCircleGeometry1->CombineWithGeometry(
                     m_pCircleGeometry2,
                     D2D1_COMBINE_MODE_XOR,
                     NULL,
@@ -216,10 +212,10 @@ The following code uses each of the different combine modes to combine two <a hr
 
             if (SUCCEEDED(hr))
             {
-                hr = pGeometrySink-&gt;Close();
+                hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
@@ -228,15 +224,15 @@ The following code uses each of the different combine modes to combine two <a hr
         //
         // Use D2D1_COMBINE_MODE_EXCLUDE to combine the geometries.
         //
-        hr = m_pD2DFactory-&gt;CreatePathGeometry(&amp;m_pPathGeometryExclude);
+        hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometryExclude);
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pPathGeometryExclude-&gt;Open(&amp;pGeometrySink);
+            hr = m_pPathGeometryExclude->Open(&pGeometrySink);
 
             if (SUCCEEDED(hr))
             {
-                hr = m_pCircleGeometry1-&gt;CombineWithGeometry(
+                hr = m_pCircleGeometry1->CombineWithGeometry(
                     m_pCircleGeometry2,
                     D2D1_COMBINE_MODE_EXCLUDE,
                     NULL,
@@ -247,18 +243,18 @@ The following code uses each of the different combine modes to combine two <a hr
 
             if (SUCCEEDED(hr))
             {
-                hr = pGeometrySink-&gt;Close();
+                hr = pGeometrySink->Close();
             }
 
-            SafeRelease(&amp;pGeometrySink);
+            SafeRelease(&pGeometrySink);
         }
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

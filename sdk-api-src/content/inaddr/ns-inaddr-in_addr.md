@@ -141,7 +141,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="https://msdn.microsoft.com/225b93ae-e34f-4e5b-a699-1fdd342265c6">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366287(v=VS.85).aspx">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a>
 
 
 

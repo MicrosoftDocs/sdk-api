@@ -118,7 +118,7 @@ The <i>pData</i> member of <a href="https://msdn.microsoft.com/58589825-407c-463
 
 </td>
 <td width="60%">
-the <i>pData</i> member of <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://msdn.microsoft.com/476b903d-7c87-4734-8a42-c8b75d292fb5">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b>). 
+the <i>pData</i> member of <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure  should be cast to a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd439500(v=VS.85).aspx">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a> structure and <b>dwDataSize</b> member  would be at least as large as sizeof(<b>WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</b>). 
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ the <i>pData</i> member of <a href="https://msdn.microsoft.com/58589825-407c-463
 
 
 
-<a href="https://msdn.microsoft.com/476b903d-7c87-4734-8a42-c8b75d292fb5">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd439500(v=VS.85).aspx">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
 
 
 

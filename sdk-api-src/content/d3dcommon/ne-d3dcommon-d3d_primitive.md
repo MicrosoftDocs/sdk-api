@@ -430,16 +430,12 @@ The <b>D3D11_PRIMITIVE</b> enumeration is type defined in the D3D11.h header fil
           <a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a> enumeration, which is fully defined in the D3DCommon.h header file.
         
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef D3D_PRIMITIVE D3D11_PRIMITIVE;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef D3D_PRIMITIVE D3D11_PRIMITIVE;
+```
+
+
 
 
 

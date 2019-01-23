@@ -290,21 +290,17 @@ The <b>bind</b> function is not normally required  for send operations to  a mul
 
 The following example demonstrates the use of the <b>bind</b> function. For another example that uses the <b>bind</b> function, see <a href="https://msdn.microsoft.com/905cd5bc-44af-4d3f-841a-9e9a2700a785">Getting Started With Winsock</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -325,7 +321,7 @@ int main()
 
     //----------------------
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"Error at WSAStartup()\n");
         return 1;
@@ -348,7 +344,7 @@ int main()
 
     //----------------------
     // Bind the socket.
-    iResult = bind(ListenSocket, (SOCKADDR *) &amp;service, sizeof (service));
+    iResult = bind(ListenSocket, (SOCKADDR *) &service, sizeof (service));
     if (iResult == SOCKET_ERROR) {
         wprintf(L"bind failed with error %u\n", WSAGetLastError());
         closesocket(ListenSocket);
@@ -362,10 +358,10 @@ int main()
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

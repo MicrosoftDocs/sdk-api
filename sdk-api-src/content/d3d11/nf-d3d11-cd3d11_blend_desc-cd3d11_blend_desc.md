@@ -67,13 +67,9 @@ Instantiates a new instance of a <a href="https://msdn.microsoft.com/EC45CD9E-FD
 
 Here are the default depth-stencil-state values for the members of <a href="https://msdn.microsoft.com/388f862c-58b0-48a8-a865-ba7568484ef5">D3D11_BLEND_DESC</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>AlphaToCoverageEnable = FALSE;
+
+```
+AlphaToCoverageEnable = FALSE;
         IndependentBlendEnable = FALSE;
         const D3D11_RENDER_TARGET_BLEND_DESC defaultRenderTargetBlendDesc =
         {
@@ -82,12 +78,12 @@ Here are the default depth-stencil-state values for the members of <a href="http
             D3D11_BLEND_ONE, D3D11_BLEND_ZERO, D3D11_BLEND_OP_ADD,
             D3D11_COLOR_WRITE_ENABLE_ALL,
         };
-        for (UINT i = 0; i &lt; D3D11_SIMULTANEOUS_RENDER_TARGET_COUNT; ++i)
+        for (UINT i = 0; i < D3D11_SIMULTANEOUS_RENDER_TARGET_COUNT; ++i)
             RenderTarget[ i ] = defaultRenderTargetBlendDesc;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

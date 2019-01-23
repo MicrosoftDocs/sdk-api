@@ -4,7 +4,7 @@ title: InterlockedAnd64 function
 author: windows-sdk-content
 description: Performs an atomic AND operation on the specified LONGLONG values.
 old-location: base\interlockedand64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 544b0710-3394-4123-88e1-0621de5fe7b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -81,7 +81,7 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="ad271dc3-42cd-47d0-9f65-30d5cfeb66fc">_InterlockedAnd64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/dsx2t7yd(v=VS.85).aspx">_InterlockedAnd64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -101,7 +101,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/463b579e-d1cd-4ad5-b2f2-bae599849401">InterlockedAnd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683516(v=VS.85).aspx">InterlockedAnd</a>
 
 
 

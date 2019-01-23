@@ -76,7 +76,7 @@ Audio rendering or capture stream. Audio data can flow either from the applicati
 
 ### -field EDataFlow_enum_count
 
-The number of members in the <a href="https://msdn.microsoft.com/d79315aa-d753-4674-84c2-9ba601f36f57">EDataFlow</a> enumeration (not counting the EDataFlow_enum_count member).
+The number of members in the <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration (not counting the EDataFlow_enum_count member).
 
 
 ## -remarks

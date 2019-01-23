@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/AB766EC7-2D6E-44EB-9C5C-C840A77242CE">RawSCSIVirtualDisk</a> function.
+Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Mt764771(v=VS.85).aspx">RawSCSIVirtualDisk</a> function.
 
 
 ## -enum-fields

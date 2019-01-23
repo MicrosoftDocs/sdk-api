@@ -60,6 +60,6 @@ The type IDs of the SAML token authenticators used on the server side
 
 ### -field WS_CERT_SIGNED_SAML_AUTHENTICATOR_TYPE
 
-Type ID for the SAML authenticator <a href="https://msdn.microsoft.com/228ba94f-6e99-4bbf-93be-19d0311985ee">WS_CERT_SIGNED_SAML_AUTHENTICATOR</a>.
+Type ID for the SAML authenticator <a href="https://msdn.microsoft.com/en-us/library/Dd401778(v=VS.85).aspx">WS_CERT_SIGNED_SAML_AUTHENTICATOR</a>.
                 
 

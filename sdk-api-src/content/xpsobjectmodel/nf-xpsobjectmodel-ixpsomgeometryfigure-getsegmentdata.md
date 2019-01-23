@@ -132,7 +132,7 @@ To determine the required size of the segment data array before calling this met
 
 A geometry segment is described by the start point, the segment type, and additional parameters whose values are determined by the segment type. The coordinates for the start point of the first segment are a property of the geometry figure and  are set by calling <a href="https://msdn.microsoft.com/d9885c3d-06a0-4d25-81fc-cf0ef466a797">SetStartPoint</a>. The start point of each subsequent segment is the end point of the preceding segment.
 
-The values  in the array returned in the <i>segmentData</i>  parameter will  correspond with the <a href="https://msdn.microsoft.com/dc36e80f-0c49-4317-a545-d50c9cbefd03">XPS_SEGMENT_TYPE</a> values  in the array returned by the <a href="https://msdn.microsoft.com/a440c227-33c9-42f9-8f4a-4cbe6281f9ad">GetSegmentTypes</a> method in the <i>segmentTypes</i>  parameter. To read the segment data values correctly, you will need to know the type of each segment in the geometry figure. For example, if the first line segment has a segment type value of <b>XPS_SEGMENT_TYPE_LINE</b>, the first two data values in the <i>segmentData</i> array will be the x and y coordinates of the end point of  that segment; if the next segment has a segment type value of <b>XPS_SEGMENT_TYPE_BEZIER</b>, the next six values in the <i>segmentData</i> array will describe the characteristics of that segment; and so on for each line segment in the geometry figure.
+The values  in the array returned in the <i>segmentData</i>  parameter will  correspond with the <a href="https://msdn.microsoft.com/en-us/library/Dd372984(v=VS.85).aspx">XPS_SEGMENT_TYPE</a> values  in the array returned by the <a href="https://msdn.microsoft.com/a440c227-33c9-42f9-8f4a-4cbe6281f9ad">GetSegmentTypes</a> method in the <i>segmentTypes</i>  parameter. To read the segment data values correctly, you will need to know the type of each segment in the geometry figure. For example, if the first line segment has a segment type value of <b>XPS_SEGMENT_TYPE_LINE</b>, the first two data values in the <i>segmentData</i> array will be the x and y coordinates of the end point of  that segment; if the next segment has a segment type value of <b>XPS_SEGMENT_TYPE_BEZIER</b>, the next six values in the <i>segmentData</i> array will describe the characteristics of that segment; and so on for each line segment in the geometry figure.
 
 The table that follows describes the specific set of data values that are returned for each segment type. For an example of how to access this data in a program, see the code example that follows.
 
@@ -276,13 +276,9 @@ Four data values:
 
 The following code example accesses the different data points of each segment type  in a geometry figure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // currentFigure is the pointer to an IXpsOMGeometryFigure
+
+```cpp
+    // currentFigure is the pointer to an IXpsOMGeometryFigure
     // that contains the segment data to examine
 
     HRESULT             hr = S_OK;
@@ -293,7 +289,7 @@ The following code example accesses the different data points of each segment ty
     BOOL                *segmentStrokes = NULL;
 
     // get number of segments in this figure
-    hr = currentFigure-&gt;GetSegmentCount (&amp;numSegments);
+    hr = currentFigure->GetSegmentCount (&numSegments);
 
     if (SUCCEEDED(hr))
     {
@@ -312,13 +308,13 @@ The following code example accesses the different data points of each segment ty
     if (SUCCEEDED(hr))
     {
         // get array of segment data types
-        hr = currentFigure-&gt;GetSegmentTypes (&amp;numSegments, segmentTypes);
+        hr = currentFigure->GetSegmentTypes (&numSegments, segmentTypes);
     }
 
     if (SUCCEEDED(hr))
     {
         // get size of segment data array
-        hr = currentFigure-&gt;GetSegmentDataCount (&amp;numSegmentDataPoints);
+        hr = currentFigure->GetSegmentDataCount (&numSegmentDataPoints);
     }
 
     if (SUCCEEDED(hr))
@@ -331,8 +327,8 @@ The following code example accesses the different data points of each segment ty
     if (SUCCEEDED(hr))
     {
         // get segment data points
-        hr = currentFigure-&gt;GetSegmentData (
-            &amp;numSegmentDataPoints, segmentDataPoints);
+        hr = currentFigure->GetSegmentData (
+            &numSegmentDataPoints, segmentDataPoints);
     }
 
     if (SUCCEEDED(hr))
@@ -345,17 +341,17 @@ The following code example accesses the different data points of each segment ty
         FLOAT            *lastSegmentsDataPoint = NULL;
 
         // points to element just after valid array
-        // valid pointers are &lt; this value and  &gt;= &amp;segmentTypes[0]
-        lastSegmentType = &amp;segmentTypes[numSegments]; 
+        // valid pointers are < this value and  >= &segmentTypes[0]
+        lastSegmentType = &segmentTypes[numSegments]; 
         // points to element just after valid array
-        // valid pointers are &lt; this value and &gt;= &amp;segmentDataPoints[0]
-        lastSegmentsDataPoint = &amp;segmentDataPoints[numSegmentDataPoints];
+        // valid pointers are < this value and >= &segmentDataPoints[0]
+        lastSegmentsDataPoint = &segmentDataPoints[numSegmentDataPoints];
 
         // look at each segment that was returned
-        while (thisSegment &lt; numSegments)
+        while (thisSegment < numSegments)
         {
-            if ((thisSegmentType &gt;= lastSegmentType) || 
-                (thisSegmentDataPoint &gt;= lastSegmentsDataPoint))
+            if ((thisSegmentType >= lastSegmentType) || 
+                (thisSegmentDataPoint >= lastSegmentsDataPoint))
             {
                 // the array data is not correct.
                 hr = E_UNEXPECTED;
@@ -424,10 +420,10 @@ The following code example accesses the different data points of each segment ty
     delete[] segmentTypes; segmentTypes = NULL;
     delete[] segmentStrokes; segmentStrokes = NULL;
     delete[] segmentDataPoints; segmentDataPoints = NULL;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

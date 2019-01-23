@@ -110,20 +110,16 @@ If the <b>EngineContext</b> field in the pipeline object is <b>NULL</b> when thi
 
 Before returning S_OK, the <i>EngineAdapterDetach</i> function must set the <b>EngineContext</b> field of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure to <b>NULL</b> and the <b>EngineHandle</b> field to <b>INVALID_HANDLE_VALUE</b>.
 
-This function is called after the storage adapter has been removed from the pipeline. Therefore, this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
+This function is called after the storage adapter has been removed from the pipeline. Therefore, this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
 
 
 #### Examples
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterDetach
 //
@@ -151,14 +147,14 @@ EngineAdapterDetach(
 
     // Retrieve the context from the pipeline and assign it to a local
     // variable.
-    context = (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+    context = (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
     if (context == NULL)
     {
         goto cleanup;
     }
 
     // Set the context on the pipeline to NULL.
-    Pipeline-&gt;EngineContext = NULL;
+    Pipeline->EngineContext = NULL;
 
     // If your adapter supports software-based template hashing and you
     // opened a Cryptography Next Generation (CNG) hash object handle
@@ -170,25 +166,25 @@ EngineAdapterDetach(
     // that remain attached to the context block. These structures can 
     // include the most recent feature set, the current enrollment template, 
     // and other custom defined objects.
-    if (context-&gt;FeatureSet != NULL)
+    if (context->FeatureSet != NULL)
     {
-        _AdapterRelease(context-&gt;FeatureSet);
-        context-&gt;FeatureSet = NULL;
-        context-&gt;FeatureSetSize = 0;
+        _AdapterRelease(context->FeatureSet);
+        context->FeatureSet = NULL;
+        context->FeatureSetSize = 0;
     }
 
-    if (context-&gt;Enrollment.Template != NULL)
+    if (context->Enrollment.Template != NULL)
     {
-        _AdapterRelease(context-&gt;Enrollment.Template);
-        context-&gt;Enrollment.Template = NULL;
-        context-&gt;Enrollment.TemplateSize = 0;
-        context-&gt;Enrollment.SampleCount = 0;
+        _AdapterRelease(context->Enrollment.Template);
+        context->Enrollment.Template = NULL;
+        context->Enrollment.TemplateSize = 0;
+        context->Enrollment.SampleCount = 0;
     }
 
-    if (context-&gt;SomePointerField != NULL)
+    if (context->SomePointerField != NULL)
     {
-        _AdapterRelease(context-&gt;SomePointerField);
-        context-&gt;SomePointerField = NULL;
+        _AdapterRelease(context->SomePointerField);
+        context->SomePointerField = NULL;
     }
 
     // Release the context block.
@@ -198,10 +194,10 @@ cleanup:
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

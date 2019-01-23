@@ -79,7 +79,7 @@ The length of the buffer required to hold the complete list of files at the time
 
 ### -field Offset
 
-The offset from the beginning of this structure to the beginning of the first <a href="https://msdn.microsoft.com/220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
+The offset from the beginning of this structure to the beginning of the first <a href="https://msdn.microsoft.com/en-us/library/Aa365705(v=VS.85).aspx">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a> structure.
 
 
 ## -see-also
@@ -91,7 +91,7 @@ The offset from the beginning of this structure to the beginning of the first <a
 
 
 
-<a href="https://msdn.microsoft.com/220ccb27-c7a2-4d4e-8efd-5c8f8d1697cd">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365705(v=VS.85).aspx">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
  
 
  

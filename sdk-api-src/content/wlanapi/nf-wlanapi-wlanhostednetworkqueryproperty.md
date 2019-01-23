@@ -219,7 +219,7 @@ The data type associated with the buffer pointed to by the <i>ppvData</i> parame
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://msdn.microsoft.com/845eaef2-7ce0-4d7a-8273-8b843b5c95fd">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is returned.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd439499(v=VS.85).aspx">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is returned.
 
 </td>
 </tr>
@@ -229,7 +229,7 @@ A pointer to a <a href="https://msdn.microsoft.com/845eaef2-7ce0-4d7a-8273-8b843
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://msdn.microsoft.com/b86beb10-52e5-4bc0-95fe-08307f8d1ccd">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a> structure is returned.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd439507(v=VS.85).aspx">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a> structure is returned.
 
 </td>
 </tr>
@@ -282,7 +282,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://msdn.microsoft.com/845eaef2-7ce0-4d7a-8273-8b843b5c95fd">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd439499(v=VS.85).aspx">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
 
 
 
@@ -290,7 +290,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://msdn.microsoft.com/b86beb10-52e5-4bc0-95fe-08307f8d1ccd">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd439507(v=VS.85).aspx">WLAN_HOSTED_NETWORK_SECURITY_SETTINGS</a>
 
 
 

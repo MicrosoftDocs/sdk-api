@@ -58,9 +58,9 @@ Increments a global counter.
 
 ### -param id [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a> to increment.
+The <a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a> to increment.
 
 
 ## -returns
@@ -79,7 +79,7 @@ The value of the counter after the increment.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd378454(v=VS.85).aspx">SHGLOBALCOUNTER</a>
+<a href="https://msdn.microsoft.com/e96f40fb-3a95-41d2-a45f-a8d91fb544d3">SHGLOBALCOUNTER</a>
 
 
 

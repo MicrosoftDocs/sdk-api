@@ -145,13 +145,9 @@ To use type information from a type library, use the <a href="https://msdn.micro
 
 The code that follows creates type information from INTERFACEDATA to expose the CCalc object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>static METHODDATA NEARDATA rgmdataCCalc[] =
+
+```cpp
+static METHODDATA NEARDATA rgmdataCCalc[] =
 {
       PROPERTY(VALUE,  IMETH_ACCUM,    IDMEMBER_ACCUM,    VT_I4),
       PROPERTY(ACCUM,  IMETH_ACCUM,    IDMEMBER_ACCUM,    VT_I4),
@@ -182,14 +178,14 @@ CCalc::Create()
 
    if((pcalc = new CCalc()) == NULL)
       return NULL;
-   pcalc-&gt;AddRef();
+   pcalc->AddRef();
 
-   parith = &amp;(pcalc-&gt;m_arith);
+   parith = &(pcalc->m_arith);
 
    // Build type information for the functionality on this object that
    // is being exposed for external programmability.
    hresult = CreateDispTypeInfo(
-      &amp;g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &amp;ptinfo);
+      &g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &ptinfo);
    if(hresult != NOERROR)
       goto LError0;
 
@@ -200,24 +196,24 @@ CCalc::Create()
       pcalc,            // Controlling unknown.
       parith,            // Instance to dispatch on.
       ptinfo,            // Type information describing the instance.
-      &amp;punkStdDisp);
+      &punkStdDisp);
 
-   ptinfo-&gt;Release();
+   ptinfo->Release();
 
    if(hresult != NOERROR)
       goto LError0;
 
-   pcalc-&gt;m_punkStdDisp = punkStdDisp;
+   pcalc->m_punkStdDisp = punkStdDisp;
 
    return pcalc;
 
 LError0:;
-   pcalc-&gt;Release();
+   pcalc->Release();
    return NULL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

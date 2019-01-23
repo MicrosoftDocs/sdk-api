@@ -87,13 +87,9 @@ The resource pointed to by <i>ppszSid</i> will be freed by the logon UI, so it d
 
 If the user's SID is not available, the method returns <b>S_FALSE</b> with a null SID, which associates the credential with an anonymous user tile. This will cause the tile to appear when the "Other user" tile is selected on a domain-joined PC.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Gets the SID of the user corresponding to the credential. 
 HRESULT CSampleCredential::GetUserSid(__deref_out PWSTR *ppszSid) 
 {
@@ -115,10 +111,10 @@ HRESULT CSampleCredential::GetUserSid(__deref_out PWSTR *ppszSid)
 
     return hr;
 }                     
-                    </pre>
-</td>
-</tr>
-</table></span></div>
+                    
+```
+
+
 
 
 

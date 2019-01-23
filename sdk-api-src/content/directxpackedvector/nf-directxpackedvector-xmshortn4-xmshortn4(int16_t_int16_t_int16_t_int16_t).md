@@ -97,13 +97,9 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 	    this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMSHORTN4 instance;
 
 	instance.x = _x;
@@ -111,10 +107,10 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 	instance.z = _z;
 	instance.w = _w;
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

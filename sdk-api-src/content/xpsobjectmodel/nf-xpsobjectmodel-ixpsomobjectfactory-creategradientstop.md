@@ -63,7 +63,7 @@ The color value.
 
 ### -param colorProfile [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a> interface that contains the color profile to be used. If the color type is not <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>, this parameter must be <b>NULL</b>.
+A pointer to the <a href="https://msdn.microsoft.com/8a344300-c3fc-4225-bfa5-d5d33798a094">IXpsOMColorProfileResource</a> interface that contains the color profile to be used. If the color type is not <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>, this parameter must be <b>NULL</b>.
 
 
 ### -param offset [in]
@@ -131,7 +131,7 @@ The value in <i>offset</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> is <b>NULL</b> but a color profile is expected. A color profile is required when the color type is <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> is <b>NULL</b> but a color profile is expected. A color profile is required when the color type is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ The value in <i>offset</i> is not valid.
 </dl>
 </td>
 <td width="60%">
-<i>colorProfile</i> contains a color profile but one is not expected. A color profile is only allowed when the color type is <a href="https://msdn.microsoft.com/995576a6-ccca-4c0d-8346-2155801a2fbc">XPS_COLOR_TYPE_CONTEXT</a>.
+<i>colorProfile</i> contains a color profile but one is not expected. A color profile is only allowed when the color type is <a href="https://msdn.microsoft.com/en-us/library/Dd372941(v=VS.85).aspx">XPS_COLOR_TYPE_CONTEXT</a>.
 
 </td>
 </tr>
@@ -179,13 +179,9 @@ The calculations used to render a gradient are described in the <a href="http://
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMGradientStop    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -201,33 +197,33 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateGradientStop (
-        &amp;color,
+    hr = xpsFactory->CreateGradientStop (
+        &color,
         colorProfile,
         offset,
-        &amp;newInterface);
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -89,20 +89,16 @@ This method overloads the subtraction operator for <a href="https://msdn.microso
 
 The following example creates two <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects, then subtracts the second <b>Point</b> object from the first <b>Point</b> object and stores the result in a third <b>Point</b> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Point point1(40, 10);
+
+```cpp
+Point point1(40, 10);
 Point point2(-20, -30);
 
 // Point3 now contains the coordinates (60, 40).
-Point point3 = point1 - point2; </pre>
-</td>
-</tr>
-</table></span></div>
+Point point3 = point1 - point2; 
+```
+
+
 
 
 

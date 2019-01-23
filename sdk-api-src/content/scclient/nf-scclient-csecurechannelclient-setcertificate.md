@@ -131,19 +131,15 @@ Call the <b>SetCertificate</b> method immediately after creating the <b>CsecureC
 
 You can specify the following dummy values for <i>pbAppCert</i> and <i>pbAppPVK</i> to allow basic functionality:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 BYTE abPVK[] = {0x00};
 BYTE abCert[] = {0x00};
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 You can request a key and certificate from Microsoft as described in <a href="https://msdn.microsoft.com/7932f599-a073-4fc8-82da-c0e7001c1809">Tools for Development</a>.
 
 
@@ -151,18 +147,14 @@ You can request a key and certificate from Microsoft as described in <a href="ht
 
 The following C++ code authenticates the Windows Media Device Manager session and acquires the root object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Authenticates the WMDM, and acquires an interface to the top-level object.
 HRESULT MyClass::Authenticate()
 {
     HRESULT hr;
-    CComPtr&lt;IComponentAuthenticate&gt; pAuth;
+    CComPtr<IComponentAuthenticate> pAuth;
 
     // Create the WMDM object and acquire 
     // its authentication interface.
@@ -171,7 +163,7 @@ HRESULT MyClass::Authenticate()
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IComponentAuthenticate),
-        (void**)&amp;pAuth);
+        (void**)&pAuth);
 
     if (hr != S_OK)
         return hr;
@@ -186,7 +178,7 @@ HRESULT MyClass::Authenticate()
 
     // Send the application's transfer certificate and the associated 
     // private key to the secure channel client.
-    hr = m_pSAC-&gt;SetCertificate(
+    hr = m_pSAC->SetCertificate(
         SAC_CERT_V1,
         (BYTE *)abCert, sizeof(abCert),
         (BYTE *)abPVK,  sizeof(abPVK));
@@ -195,22 +187,22 @@ HRESULT MyClass::Authenticate()
             
     // Send the authentication interface we created to the secure channel 
     // client and try authenticating the application with the V1 protocol.
-    m_pSAC-&gt;SetInterface(pAuth);
-    hr = m_pSAC-&gt;Authenticate(SAC_PROTOCOL_V1);
+    m_pSAC->SetInterface(pAuth);
+    hr = m_pSAC->Authenticate(SAC_PROTOCOL_V1);
     if (hr != S_OK)
         return hr;
 
     // Authenticated succeeded, so we can use the WMDM.
     // Acquire an interface to the top-level WMDM interface.
-    hr = pAuth-&gt;QueryInterface(__uuidof(IWMDeviceManager), (void**)&amp;m_IWMDeviceMgr);
+    hr = pAuth->QueryInterface(__uuidof(IWMDeviceManager), (void**)&m_IWMDeviceMgr);
 
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

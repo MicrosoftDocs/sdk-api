@@ -65,9 +65,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-output-parameter description. See <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-output-parameter description. See <a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a>.
 
 
 ## -returns

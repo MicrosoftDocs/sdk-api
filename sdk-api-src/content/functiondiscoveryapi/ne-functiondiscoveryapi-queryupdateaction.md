@@ -4,7 +4,7 @@ title: QueryUpdateAction
 author: windows-sdk-content
 description: Represents the type of action Function Discovery is performing on the specified function instance. This information is used by the client program's change notification handler.
 old-location: ncd\queryupdateaction_enum.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: ae3a4fe2-1b1f-4a8d-9b5d-361a7ece315d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

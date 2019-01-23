@@ -50,7 +50,7 @@ req.redist:
 
 Defines the flags used with the 
 <b>nScheme</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a> structure.
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a> structure.
 
 
 ## -enum-fields
@@ -154,7 +154,7 @@ Highest known scheme value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385420(v=VS.85).aspx">URL_COMPONENTS</a>
+<a href="https://msdn.microsoft.com/faebdd29-f746-486b-b779-cceeecac9163">URL_COMPONENTS</a>
  
 
  

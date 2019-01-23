@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Defines the options for the <a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a> function.
+Defines the options for the <a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a> function.
 
 
 ## -struct-fields
@@ -170,7 +170,7 @@ A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
 
 
 
-<a href="https://msdn.microsoft.com/2a961479-9fdf-4f9f-923e-2a6601a99442">DrawThemeBackgroundEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773294(v=VS.85).aspx">DrawThemeBackgroundEx</a>
  
 
  

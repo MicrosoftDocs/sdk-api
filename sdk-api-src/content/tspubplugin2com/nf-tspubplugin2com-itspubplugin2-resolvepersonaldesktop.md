@@ -68,12 +68,12 @@ A null-terminated string that contains the identifier of the collection to obtai
 
 ### -param ePdResolutionType [in]
 
-A value of the <a href="https://msdn.microsoft.com/8cba4e6a-3508-4f9f-a206-4a0b41a933c1">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Hh437046(v=VS.85).aspx">TSPUB_PLUGIN_PD_RESOLUTION_TYPE</a> enumeration that specifies the type of resolution being requested.
 
 
 ### -param pPdAssignmentType [out]
 
-A value of the <a href="https://msdn.microsoft.com/8a55d72c-215e-4f72-90dd-0f68c107a635">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Hh437045(v=VS.85).aspx">TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE</a> enumeration that specifies what type of assignment was made for the personal desktop.
 
 
 ### -param endPointName [out]

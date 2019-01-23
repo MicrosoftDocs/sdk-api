@@ -123,14 +123,10 @@ Full-screen applications should not specify a DisplayFormat that contains an alp
 
 The following code fragment shows how you could use CheckDeviceType to test whether a certain device type can be used on this adapter.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-if(SUCCEEDED(pD3Device-&gt;CheckDeviceType(D3DADAPTER_DEFAULT, 
+
+```
+
+if(SUCCEEDED(pD3Device->CheckDeviceType(D3DADAPTER_DEFAULT, 
                                         D3DDEVTYPE_HAL, 
                                         DisplayFormat, 
                                         BackBufferFormat, 
@@ -139,10 +135,10 @@ if(SUCCEEDED(pD3Device-&gt;CheckDeviceType(D3DADAPTER_DEFAULT,
      return S_OK;
 // There is no HAL on this adapter using this render-target format. 
 // Try again, using another format.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This code returns S_OK if the device can be used on the default adapter with the specified surface format.
 
 Using <b>CheckDeviceType</b> to test for compatibility between a back buffer that differs from the display format will return appropriate values. This means that the call will reflect device capabilities. If the device cannot render to the requested back-buffer format, the call will still return D3DERR_NOTAVAILABLE. If the device can render to the format, but cannot perform the color-converting presentation, the return value will also be D3DERR_NOTAVAILABLE. Applications can discover hardware support for the presentation itself by calling <a href="https://msdn.microsoft.com/en-us/library/Bb174310(v=VS.85).aspx">CheckDeviceFormatConversion</a>. No software emulation for the color-converting presentation itself will be offered.

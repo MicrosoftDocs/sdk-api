@@ -67,14 +67,14 @@ The <a href="https://msdn.microsoft.com/d2103f6e-6aa9-4260-bef9-cfcbec35e675">TO
 
 ### -param pProximityEval [in]
 
-The <a href="https://msdn.microsoft.com/a26facc3-fe63-4657-9bd6-821dd89cb11d">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data that the <a href="https://msdn.microsoft.com/443d12f2-9f26-4e1e-9bf3-cd97b4026399">EvaluateProximityToPolygon</a> or <a href="https://msdn.microsoft.com/269ef4c1-9c9f-4bd7-9852-e82c4a707d3c">EvaluateProximityToRect</a> function returns.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh437256(v=VS.85).aspx">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data that the <a href="https://msdn.microsoft.com/443d12f2-9f26-4e1e-9bf3-cd97b4026399">EvaluateProximityToPolygon</a> or <a href="https://msdn.microsoft.com/269ef4c1-9c9f-4bd7-9852-e82c4a707d3c">EvaluateProximityToRect</a> function returns.
 
 
 ## -returns
 
 
 
-If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> values from <a href="https://msdn.microsoft.com/a26facc3-fe63-4657-9bd6-821dd89cb11d">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> as an LRESULT. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> values from <a href="https://msdn.microsoft.com/en-us/library/Hh437256(v=VS.85).aspx">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> as an LRESULT. To retrieve extended error information, call the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
  
 
 

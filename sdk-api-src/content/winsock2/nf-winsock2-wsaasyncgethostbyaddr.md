@@ -295,20 +295,16 @@ The buffer specified to this function is used by Windows Sockets to construct a 
 
 The error code and buffer length should be extracted from the <i>lParam</i> using the macros <b>WSAGETASYNCERROR</b> and <b>WSAGETASYNCBUFLEN</b>, defined in Winsock2.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 #define WSAGETASYNCBUFLEN(lParam)           LOWORD(lParam)
 #define WSAGETASYNCERROR(lParam)            HIWORD(lParam)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The use of these macros will maximize the portability of the source code for the application.
 
 

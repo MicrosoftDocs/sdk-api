@@ -83,7 +83,7 @@ Name of the device associated with the connection.
 ### -field MediaType
 
 
-<a href="https://msdn.microsoft.com/9236371c-0e3f-43ba-a02f-0770768008ae">Media type</a> associated with this connection.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366201(v=VS.85).aspx">Media type</a> associated with this connection.
 
 
 ### -field dwCharacter

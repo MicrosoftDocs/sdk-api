@@ -91,35 +91,31 @@ This method does not remove the object from the collection. To remove an object,
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  Gets an interface pointer from a collection (IMFCollection).
+
+```cpp
+//  Gets an interface pointer from a collection (IMFCollection).
 //
 //  Q: Interface type
 
-template &lt;class Q&gt;
+template <class Q>
 HRESULT GetCollectionObject(IMFCollection *pCollection, 
     DWORD dwIndex, Q **ppObject)
 {
     *ppObject = NULL;   // zero output
 
     IUnknown *pUnk = NULL;
-    HRESULT hr = pCollection-&gt;GetElement(dwIndex, &amp;pUnk);
+    HRESULT hr = pCollection->GetElement(dwIndex, &pUnk);
     if (SUCCEEDED(hr))
     {
-        hr = pUnk-&gt;QueryInterface(IID_PPV_ARGS(ppObject));
-        pUnk-&gt;Release();
+        hr = pUnk->QueryInterface(IID_PPV_ARGS(ppObject));
+        pUnk->Release();
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

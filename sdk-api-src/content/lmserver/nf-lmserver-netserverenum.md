@@ -678,21 +678,17 @@ The following code sample demonstrates how to list all servers that are visible 
 <b>NetServerEnum</b>, specifying information level 101 (
 <a href="https://msdn.microsoft.com/6e106a51-9f0c-4603-8121-5b0d01a235b4">SERVER_INFO_101</a>). If any servers are found, the sample code loops through the entries and prints the retrieved data. If the server is a domain controller, it identifies the server as either a primary domain controller (PDC) or a backup domain controller (BDC). The sample also prints the total number of entries available and a hint about the number of entries actually enumerated, warning the user if all entries were not enumerated. Finally, the sample frees the memory allocated for the information buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;assert.h&gt;
-#include &lt;windows.h&gt;
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <assert.h>
+#include <windows.h>
+#include <lm.h>
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -710,7 +706,7 @@ int wmain(int argc, wchar_t * argv[])
     LPWSTR pszDomainName = NULL;
     DWORD i;
 
-    if (argc &gt; 2) 
+    if (argc > 2) 
     {
         fwprintf(stderr, L"Usage: %s [DomainName]\n", argv[0]);
         exit(1);
@@ -725,13 +721,13 @@ int wmain(int argc, wchar_t * argv[])
     //
     nStatus = NetServerEnum(pszServerName,
                             dwLevel,
-                            (LPBYTE *) &amp; pBuf,
+                            (LPBYTE *) & pBuf,
                             dwPrefMaxLen,
-                            &amp;dwEntriesRead,
-                            &amp;dwTotalEntries,
+                            &dwEntriesRead,
+                            &dwTotalEntries,
                             dwServerType, 
                             pszDomainName, 
-                            &amp;dwResumeHandle);
+                            &dwResumeHandle);
     //
     // If the call succeeds,
     //
@@ -741,7 +737,7 @@ int wmain(int argc, wchar_t * argv[])
             // Loop through the entries and 
             //  print the data for all server types.
             //
-            for (i = 0; i &lt; dwEntriesRead; i++) {
+            for (i = 0; i < dwEntriesRead; i++) {
                 assert(pTmpBuf != NULL);
 
                 if (pTmpBuf == NULL) {
@@ -749,26 +745,26 @@ int wmain(int argc, wchar_t * argv[])
                     break;
                 }
 
-                printf("\tPlatform: %d\n", pTmpBuf-&gt;sv101_platform_id);
-                wprintf(L"\tName:     %s\n", pTmpBuf-&gt;sv101_name);
+                printf("\tPlatform: %d\n", pTmpBuf->sv101_platform_id);
+                wprintf(L"\tName:     %s\n", pTmpBuf->sv101_name);
                 printf("\tVersion:  %d.%d\n",
-                       pTmpBuf-&gt;sv101_version_major,
-                       pTmpBuf-&gt;sv101_version_minor);
-                printf("\tType:     %d", pTmpBuf-&gt;sv101_type);
+                       pTmpBuf->sv101_version_major,
+                       pTmpBuf->sv101_version_minor);
+                printf("\tType:     %d", pTmpBuf->sv101_type);
                 //
                 // Check to see if the server is a domain controller;
                 //  if so, identify it as a PDC or a BDC.
                 //
-                if (pTmpBuf-&gt;sv101_type &amp; SV_TYPE_DOMAIN_CTRL)
+                if (pTmpBuf->sv101_type & SV_TYPE_DOMAIN_CTRL)
                     wprintf(L" (PDC)");
-                else if (pTmpBuf-&gt;sv101_type &amp; SV_TYPE_DOMAIN_BAKCTRL)
+                else if (pTmpBuf->sv101_type & SV_TYPE_DOMAIN_BAKCTRL)
                     wprintf(L" (BDC)");
 
                 printf("\n");
                 //
                 // Also print the comment associated with the server.
                 //
-                wprintf(L"\tComment:  %s\n\n", pTmpBuf-&gt;sv101_comment);
+                wprintf(L"\tComment:  %s\n\n", pTmpBuf->sv101_comment);
 
                 pTmpBuf++;
                 dwTotalCount++;
@@ -802,10 +798,10 @@ int wmain(int argc, wchar_t * argv[])
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

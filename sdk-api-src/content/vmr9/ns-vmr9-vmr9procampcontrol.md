@@ -66,7 +66,7 @@ Size of the structure, in bytes. The value must be <code>sizeof(VMR9ProcAmpContr
 
 ### -field dwFlags
 
-Bitwise combination of flags from the <a href="https://msdn.microsoft.com/5dfba718-4c89-46e7-89b6-e4b133b0ce04">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
+Bitwise combination of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd407373(v=VS.85).aspx">VMR9ProcAmpControlFlags</a> enumeration, indicating which properties the driver supports.
 
 
 ### -field Brightness
@@ -93,7 +93,7 @@ Specifies the image saturation. Saturation alters the color intensity of the ima
 
 
 
-The valid range of values for each property depends on the graphics device driver. Call the <a href="https://msdn.microsoft.com/e7db2b22-b3d2-4c6f-84fc-5a287761ed7a">IVMRMixerControl9::GetProcAmpControlRange</a> method to get the range for each property.
+The valid range of values for each property depends on the graphics device driver. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd390463(v=VS.85).aspx">IVMRMixerControl9::GetProcAmpControlRange</a> method to get the range for each property.
 
 
 

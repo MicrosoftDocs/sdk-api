@@ -118,18 +118,14 @@ There is no way to determine in advance the exact size in characters of an error
 
 The following code obtains an error string for the RAS error 633.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <stdio.h>
 #include "ras.h"
 #include "rasdlg.h"
-#include &lt;tchar.h&gt;
+#include <tchar.h>
 
 #define  ERROR_VAL 633
 #define  BUFFER_SIZE 256
@@ -151,10 +147,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -103,13 +103,9 @@ You can update a monitor's capabilities string by adding an <i>AddReg</i> direct
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 DWORD cchStringLength = 0;
 BOOL bSuccess = 0;
 LPSTR szCapabilitiesString = NULL;
@@ -117,7 +113,7 @@ LPSTR szCapabilitiesString = NULL;
 // Get the length of the string.
 bSuccess = GetCapabilitiesStringLength(
    hPhysicalMonitor, // Handle to the monitor.
-   &amp;cchStringLength
+   &cchStringLength
    );
 
 if (bSuccess)
@@ -137,10 +133,10 @@ if (bSuccess)
         free(szCapabilitiesString);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

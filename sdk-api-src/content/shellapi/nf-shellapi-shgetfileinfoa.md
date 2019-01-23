@@ -304,21 +304,17 @@ When you use the <b>SHGFI_EXETYPE</b> flag with a Windows application, the Windo
 
 The following code example uses <b>SHGetFileInfo</b> to retrieve the display name of the Recycle Bin, identified by its PIDL.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPITEMIDLIST pidl = NULL;
-hr = SHGetFolderLocation(NULL, CSIDL_BITBUCKET, NULL, 0, &amp;pidl);
+
+```cpp
+LPITEMIDLIST pidl = NULL;
+hr = SHGetFolderLocation(NULL, CSIDL_BITBUCKET, NULL, 0, &pidl);
 
 if (SUCCEEDED(hr))                    
 {
     SHFILEINFOW sfi = {0};
     hr = SHGetFileInfo((LPCTSTR)pidl,
                         -1,
-                        &amp;sfi,
+                        &sfi,
                         sizeof(sfi),
                         SHGFI_PIDL | SHGFI_DISPLAYNAME)
             
@@ -328,10 +324,10 @@ if (SUCCEEDED(hr))
     }
 }
 
-ILFree(pidl);</pre>
-</td>
-</tr>
-</table></span></div>
+ILFree(pidl);
+```
+
+
 
 
 

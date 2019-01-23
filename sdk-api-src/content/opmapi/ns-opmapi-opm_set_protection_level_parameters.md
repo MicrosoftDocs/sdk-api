@@ -114,7 +114,7 @@ Reserved for future use. Set to zero.
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/19810f8f-2d23-4b01-864d-86ac82d40fe0">DXVA_COPPSetProtectionLevelCmdData</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://msdn.microsoft.com/en-us/library/Dd388647(v=VS.85).aspx">DXVA_COPPSetProtectionLevelCmdData</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 

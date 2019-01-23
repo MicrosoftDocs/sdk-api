@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
+The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>SetProperty</b> method specifies a <a href="https://msdn.microsoft.com/9F
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration value that specifies the property value to retrieve.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value that specifies the property value to retrieve.
 
 
 ### -param pPropertyValue [in]
@@ -82,7 +82,7 @@ A pointer to a <b>VARIANT</b> variable that contains the property value.
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration type.
+The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration type.
 
 Also, if you are setting the <b>ENUM_CESSETUPPROP_AUTHENTICATION</b> property, you must specify one of the following values in the <i>pPropertyValue</i> argument:<ul>
 <li><b>X509AuthKerberos</b></li>

@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProvider::InstanceQueryService
 author: windows-sdk-content
 description: Creates a provider-specific COM object for the function instance.
 old-location: ncd\ifunctiondiscoveryprovider_instancequeryservice_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 8fb955dd-f396-4473-a1c1-b0d83e2b4b07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

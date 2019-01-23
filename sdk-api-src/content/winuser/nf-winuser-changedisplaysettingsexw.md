@@ -420,20 +420,16 @@ When the display mode is changed dynamically, the <a href="https://msdn.microsof
 
 To change the settings for more than one display at the same time, first call <b>ChangeDisplaySettingsEx</b> for each device individually to update the registry without applying the changes. Then call <b>ChangeDisplaySettingsEx</b> once more, with a <b>NULL</b> device, to apply the changes. For example, to change the settings for two displays, do the following:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ChangeDisplaySettingsEx (lpszDeviceName1, lpDevMode1, NULL, (CDS_UPDATEREGISTRY | CDS_NORESET), NULL);
 ChangeDisplaySettingsEx (lpszDeviceName2, lpDevMode2, NULL, (CDS_UPDATEREGISTRY | CDS_NORESET), NULL);
 ChangeDisplaySettingsEx (NULL, NULL, NULL, 0, NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="DPI_Virtualization"></a><a id="dpi_virtualization"></a><a id="DPI_VIRTUALIZATION"></a>DPI Virtualization</h3>
 This API does not participate in DPI virtualization. The input given is always in terms of physical pixels, and is not related to the calling context.
 

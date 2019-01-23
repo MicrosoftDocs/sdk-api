@@ -87,7 +87,7 @@ Pointer to a buffer that contains the strings to search, if this request is to a
 ### -param lpFindData [out]
 
 Pointer to a 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384215(v=VS.85).aspx">GOPHER_FIND_DATA</a> structure that receives the information retrieved by this function.
+<a href="https://msdn.microsoft.com/53bcba70-2d6a-465a-86ec-4b11b1474ee1">GOPHER_FIND_DATA</a> structure that receives the information retrieved by this function.
 
 
 ### -param dwFlags [in]

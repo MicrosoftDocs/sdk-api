@@ -72,7 +72,7 @@ The address of a <b>LONG</b> variable that receives the number of elements in th
 
 ### -param resourceList [out]
 
-The address of an array of <a href="https://msdn.microsoft.com/BD4761C7-377C-499C-B984-3B126C704089">pluginResource2</a> structures that contains the resources for the specified user. You must use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
+The address of an array of <a href="https://msdn.microsoft.com/en-us/library/Hh436957(v=VS.85).aspx">pluginResource2</a> structures that contains the resources for the specified user. You must use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
 
 
 ## -returns

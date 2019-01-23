@@ -4,7 +4,7 @@ title: InterlockedFlushSList function
 author: windows-sdk-content
 description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\interlockedflushslist.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 3fde3377-8a98-4976-a350-2c173b209e8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

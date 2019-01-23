@@ -94,13 +94,9 @@ All input values,<i>_x</i> and <i>_y</i> are clamped to a range of -1.0 to 1.0.
 The following pseudocode demonstrates the operation of this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMSHORTN2 instance;
 	_x1=min( max( _x, -1.0 ), 1.0 );
 	_y1=min( max( _y, -1.0 ), 1.0 );
@@ -108,10 +104,10 @@ The following pseudocode demonstrates the operation of this constructor:
 	_y1 = round( _y1 * 32767.0f);
 	instance._x = _x1;
 	instance._y = _y1;
-	</pre>
-</td>
-</tr>
-</table></span></div>
+	
+```
+
+
 
 
 

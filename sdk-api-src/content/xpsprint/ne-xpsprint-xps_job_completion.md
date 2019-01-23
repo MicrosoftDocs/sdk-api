@@ -75,7 +75,7 @@ The print job was cancelled by a call to <a href="https://msdn.microsoft.com/f9f
 
 ### -field XPS_JOB_FAILED
 
-The print job failed. The <b>jobStatus</b> member of <a href="https://msdn.microsoft.com/c4e13960-4f26-460a-b47e-98b833fcdfd5">XPS_JOB_STATUS</a> contains the error code of the failure.
+The print job failed. The <b>jobStatus</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dd374577(v=VS.85).aspx">XPS_JOB_STATUS</a> contains the error code of the failure.
 
 
 ## -see-also
@@ -95,7 +95,7 @@ The print job failed. The <b>jobStatus</b> member of <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/c4e13960-4f26-460a-b47e-98b833fcdfd5">XPS_JOB_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd374577(v=VS.85).aspx">XPS_JOB_STATUS</a>
  
 
  

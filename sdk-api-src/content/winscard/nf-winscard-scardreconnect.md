@@ -261,13 +261,9 @@ An error code. For more information, see
 
 The following example  shows reestablishing a connection.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD     dwAP;
+
+```cpp
+DWORD     dwAP;
 LONG      lReturn;
 
 // Reconnect.
@@ -276,13 +272,13 @@ lReturn = SCardReconnect(hCardHandle,
                          SCARD_SHARE_SHARED,
                          SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1,
                          SCARD_LEAVE_CARD,
-                         &amp;dwAP );
+                         &dwAP );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardReconnect\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -83,21 +83,17 @@ ClusAPI.h defines  <b>CLUSPROP_BINARY_DECLARE</b> as follows:
 
 The following example shows how to use  <b>CLUSPROP_BINARY_DECLARE</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BYTE ByteData[] = { 'A', 1, 'B', 2, 'C' };
+
+```cpp
+BYTE ByteData[] = { 'A', 1, 'B', 2, 'C' };
 CLUSPROP_BINARY_DECLARE( ByteValue, sizeof( ByteData ) );
 ByteValue.Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 ByteValue.cbLength = sizeof( ByteData );
 memcpy( ByteValue.rgb, ByteData, sizeof( ByteData ) );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

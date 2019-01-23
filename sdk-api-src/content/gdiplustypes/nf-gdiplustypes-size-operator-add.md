@@ -87,13 +87,9 @@ This method overloads the addition operator for <a href="https://msdn.microsoft.
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_OperatorPlus(HDC hdc)
+
+```cpp
+VOID Example_OperatorPlus(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 0));
@@ -103,13 +99,13 @@ This method overloads the addition operator for <a href="https://msdn.microsoft.
    
    Size size3 = size1 + size2;
 
-   graphics.DrawRectangle(&amp;pen, 50, 50, size1.Width, size1.Height);
-   graphics.DrawRectangle(&amp;pen, 50, 50, size2.Width, size2.Height);
-   graphics.DrawRectangle(&amp;pen, 50, 50, size3.Width, size3.Height);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&pen, 50, 50, size1.Width, size1.Height);
+   graphics.DrawRectangle(&pen, 50, 50, size2.Width, size2.Height);
+   graphics.DrawRectangle(&pen, 50, 50, size3.Width, size3.Height);
+}
+```
+
+
 
 
 

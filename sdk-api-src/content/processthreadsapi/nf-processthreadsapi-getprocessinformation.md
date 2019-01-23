@@ -79,11 +79,11 @@ Pointer to an object to receive the type of information specified by the
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessMemoryPriority</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/03cacfdf-5c66-42e4-bfcf-afaacd3ad038">MEMORY_PRIORITY_INFORMATION</a> structure.
+       <a href="https://msdn.microsoft.com/en-us/library/Hh448387(v=VS.85).aspx">MEMORY_PRIORITY_INFORMATION</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessPowerThrottling</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/394B6509-849C-4B4C-9A46-AF5011A03585">PROCESS_POWER_THROTTLING_STATE</a> structure.
+       <a href="https://msdn.microsoft.com/en-us/library/Mt804324(v=VS.85).aspx">PROCESS_POWER_THROTTLING_STATE</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessProtectionLevelInfo</b>, this parameter must point to a 
@@ -95,7 +95,7 @@ If the <i>ProcessInformationClass</i> parameter is
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessAppMemoryInfo</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/A2D0CDED-0E8B-41D6-8435-BDB4E5445DE4">APP_MEMORY_INFORMATION</a> structure.
+       <a href="https://msdn.microsoft.com/en-us/library/Mt767995(v=VS.85).aspx">APP_MEMORY_INFORMATION</a> structure.
 
 
 ### -param ProcessInformationSize [in]
@@ -144,7 +144,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/03cacfdf-5c66-42e4-bfcf-afaacd3ad038">MEMORY_PRIORITY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448387(v=VS.85).aspx">MEMORY_PRIORITY_INFORMATION</a>
 
 
 

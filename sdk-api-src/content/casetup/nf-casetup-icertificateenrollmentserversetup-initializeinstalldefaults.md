@@ -171,7 +171,7 @@ You must call the <b>InitializeInstallDefaults</b> method before calling any met
 
 
 
-<a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a>
 
 
 

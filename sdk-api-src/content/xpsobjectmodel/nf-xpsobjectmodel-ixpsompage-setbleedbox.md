@@ -155,7 +155,7 @@ The bleed box dimensions are not checked against the page dimensions until the p
 
 
 
-<a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XPS_RECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372982(v=VS.85).aspx">XPS_RECT</a>
  
 
  

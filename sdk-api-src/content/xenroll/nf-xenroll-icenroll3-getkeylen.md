@@ -99,42 +99,38 @@ Call this method to determine the minimum and maximum key lengths. If a CSP does
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD dwExchMin, dwExchMax, dwSignMin, dwSignMax;
+
+```cpp
+DWORD dwExchMin, dwExchMax, dwSignMin, dwSignMax;
 
 // Determine the minimum and maximum key length values.
 // hr is HRESULT variable.
-hr = pEnroll-&gt;GetKeyLen( TRUE, TRUE, &amp;dwExchMin );
+hr = pEnroll->GetKeyLen( TRUE, TRUE, &dwExchMin );
 if ( FAILED( hr ) )    
     printf("Failed GetKeyLen for Exchange Minimum [%x]\n", hr);
 else
     printf("Exchange key Min: %d\n", dwExchMin);
 
-hr = pEnroll-&gt;GetKeyLen( FALSE, TRUE, &amp;dwExchMax );
+hr = pEnroll->GetKeyLen( FALSE, TRUE, &dwExchMax );
 if ( FAILED( hr ) )
     printf("Failed GetKeyLen for Exchange Maximum [%x]\n", hr);
 else
     printf("Exchange key Max: %d\n", dwExchMax );
 
-hr = pEnroll-&gt;GetKeyLen( TRUE, FALSE, &amp;dwSignMin );
+hr = pEnroll->GetKeyLen( TRUE, FALSE, &dwSignMin );
 if ( FAILED( hr ) )
     printf("Failed GetKeyLen for Signature Minimum [%x]\n", hr);
 else
     printf("Signature key Min: %d\n", dwSignMin );
 
-hr = pEnroll-&gt;GetKeyLen( FALSE, FALSE, &amp;dwSignMax );
+hr = pEnroll->GetKeyLen( FALSE, FALSE, &dwSignMax );
 if ( FAILED( hr ) )    
     printf("Failed GetKeyLen for Signature Maximum [%x]\n", hr);
 else
-    printf("Signature key Max: %d\n", dwSignMax );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf("Signature key Max: %d\n", dwSignMax );
+```
+
+
 
 
 

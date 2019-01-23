@@ -86,17 +86,13 @@ The extension-enumeration sequence object is obtained by a call to the <a href="
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IEnumCERTVIEWEXTENSION * pEnumExt2 = NULL;
+
+```cpp
+IEnumCERTVIEWEXTENSION * pEnumExt2 = NULL;
 HRESULT                  hr;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt-&gt;Clone(&amp;pEnumExt2);
+hr = pEnumExt->Clone(&pEnumExt2);
 if (S_OK != hr)
     printf("Unable to clone IEnumCERTVIEWEXTENSION\n");
 else
@@ -106,10 +102,10 @@ else
 }
 // done using cloned object, free memory
 if (NULL != pEnumExt2)
-    pEnumExt2-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumExt2->Release();
+```
+
+
 
 
 

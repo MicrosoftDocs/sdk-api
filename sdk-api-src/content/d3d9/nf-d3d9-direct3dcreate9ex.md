@@ -122,13 +122,9 @@ The following code example demonstrates how to create an <a href="https://msdn.m
     the function.
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT InitD3D9Ex( /* IN */ HWND hWnd, /* OUT */ IDirect3DDevice9Ex ** ppD3DDevice )
+
+```cpp
+HRESULT InitD3D9Ex( /* IN */ HWND hWnd, /* OUT */ IDirect3DDevice9Ex ** ppD3DDevice )
 {
     HRESULT hr = E_FAIL;
     IDirect3D9Ex * pD3D = NULL;
@@ -170,10 +166,8 @@ The following code example demonstrates how to create an <a href="https://msdn.m
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Checking for Direct3D9Ex.

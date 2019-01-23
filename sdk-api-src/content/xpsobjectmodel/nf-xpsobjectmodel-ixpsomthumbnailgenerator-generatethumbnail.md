@@ -63,12 +63,12 @@ A pointer to the <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-458
 
 ### -param thumbnailType [in]
 
-The <a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a> value that specifies the type of thumbnail image to create.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a> value that specifies the type of thumbnail image to create.
 
 
 ### -param thumbnailSize [in]
 
-The <a href="https://msdn.microsoft.com/308083dd-74b4-4674-b5d7-e14e917fbc1f">XPS_THUMBNAIL_SIZE</a> value that specifies the image size of the thumbnail to create.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372991(v=VS.85).aspx">XPS_THUMBNAIL_SIZE</a> value that specifies the image size of the thumbnail to create.
 
 
 ### -param imageResourcePartName [in]
@@ -124,8 +124,8 @@ The method succeeded.
 One of the following parameters contains a value that is not valid:
 
 <ul>
-<li><i>thumbnailType</i>: The image type must be PNG (<a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE_PNG</a>) or JPEG (<b>XPS_IMAGE_TYPE_JPEG</b>)</li>
-<li><i>thumbnailSize</i>: <i>thumbnailSize</i> must be a member of  <a href="https://msdn.microsoft.com/308083dd-74b4-4674-b5d7-e14e917fbc1f">XPS_THUMBNAIL_SIZE</a>
+<li><i>thumbnailType</i>: The image type must be PNG (<a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE_PNG</a>) or JPEG (<b>XPS_IMAGE_TYPE_JPEG</b>)</li>
+<li><i>thumbnailSize</i>: <i>thumbnailSize</i> must be a member of  <a href="https://msdn.microsoft.com/en-us/library/Dd372991(v=VS.85).aspx">XPS_THUMBNAIL_SIZE</a>
 </li>
 </ul>
 </td>
@@ -165,11 +165,11 @@ One of the following parameters contains a value that is not valid:
 
 
 
-<a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/308083dd-74b4-4674-b5d7-e14e917fbc1f">XPS_THUMBNAIL_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372991(v=VS.85).aspx">XPS_THUMBNAIL_SIZE</a>
  
 
  

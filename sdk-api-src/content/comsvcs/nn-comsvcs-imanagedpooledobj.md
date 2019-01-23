@@ -68,7 +68,7 @@ The <b>IManagedPooledObj</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/36e7f210-0532-424f-b958-a7a1be904b3c">SetHeld</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679845(v=VS.85).aspx">SetHeld</a>
 </td>
 <td align="left" width="63%">
 Sets whether the managed object should go back into the COM+ object pool.

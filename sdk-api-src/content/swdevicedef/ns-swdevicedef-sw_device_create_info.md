@@ -63,7 +63,7 @@ The size in bytes of this structure. Use it as a version field.  Initialize it t
 
 ### -field pszInstanceId
 
-A string that represents the instance ID portion of the device instance ID. This value is used for <a href="https://msdn.microsoft.com/3135cb30-a696-4201-8dfc-cdc1a29fe52b">IRP_MN_QUERY_ID</a> <b>BusQueryInstanceID</b>.  Because all software devices are considered "UniqueId" devices, this string must be a unique name for all devices on this software device enumerator.  For more info, see <a href="devinst.instance_ids">Instance IDs</a>.
+A string that represents the instance ID portion of the device instance ID. This value is used for <a href="https://msdn.microsoft.com/3135cb30-a696-4201-8dfc-cdc1a29fe52b">IRP_MN_QUERY_ID</a> <b>BusQueryInstanceID</b>.  Because all software devices are considered "UniqueId" devices, this string must be a unique name for all devices on this software device enumerator.  For more info, see <a href="https://msdn.microsoft.com/library/Ff547656(v=VS.85).aspx">Instance IDs</a>.
 
 
 ### -field pszzHardwareIds

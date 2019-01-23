@@ -144,25 +144,16 @@ For an extended discussion and example of making queries in C++ and WMI, see Mak
 <div class="code"></div>
 The following C++ example shows how to retrieve the CIM class name from an object by using the system property <b>__CLASS.</b> The code requires the following #include statements and references to compile.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <iostream>
+
+```cpp
+#include <iostream>
 using namespace std;
 #include <wbemidl.h>
-#pragma comment(lib, "wbemuuid.lib")</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//Assumes that pObj is defined as a pointer
+#pragma comment(lib, "wbemuuid.lib")
+```
+
+```cpp
+//Assumes that pObj is defined as a pointer
 // to an IWbemClassObject object.
 
 VARIANT v;
@@ -184,10 +175,8 @@ else
 VariantClear(&v);
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

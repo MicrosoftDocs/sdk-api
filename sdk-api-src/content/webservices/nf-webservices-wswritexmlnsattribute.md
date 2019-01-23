@@ -82,7 +82,7 @@ A WS_XML_STRING pointer to the namespace to bind to the prefix.
 ### -param singleQuote [in]
 
 Determines whether to use a single or a double quote for the attribute value.
-        <div class="alert"><b>Note</b>  If <a href="https://msdn.microsoft.com/b4485490-b5e1-406c-883c-a30bfa334316">WS_XML_WRITER_BINARY_ENCODING</a> is set the quotation character is  not preserved and this
+        <div class="alert"><b>Note</b>  If <a href="https://msdn.microsoft.com/en-us/library/Dd323574(v=VS.85).aspx">WS_XML_WRITER_BINARY_ENCODING</a> is set the quotation character is  not preserved and this
           parameter has have no effect.
         </div>
 <div> </div>

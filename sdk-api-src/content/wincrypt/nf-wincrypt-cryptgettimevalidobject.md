@@ -274,7 +274,7 @@ A pointer to an optional <a href="https://msdn.microsoft.com/d28b2f52-3258-44ad-
 
 ### -param pExtraInfo [in, out, optional]
 
-A pointer to an optional <a href="https://msdn.microsoft.com/3de595f9-c922-4c8f-8328-819e91a2997c">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure that contains extra information about the cache entry for an object.
+A pointer to an optional <a href="https://msdn.microsoft.com/en-us/library/Bb394730(v=VS.85).aspx">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure that contains extra information about the cache entry for an object.
 
 
 ## -returns

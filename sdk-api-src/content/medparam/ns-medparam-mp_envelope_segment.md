@@ -122,7 +122,7 @@ Ignore the specified start value. Start from the current value.
 </dl>
 </td>
 <td width="60%">
-Ignore the specified start value. Start from the neutral value. (See <a href="https://msdn.microsoft.com/91d2d08b-a55e-492f-a509-9c080cc438df">MP_PARAMINFO</a>.)
+Ignore the specified start value. Start from the neutral value. (See <a href="https://msdn.microsoft.com/en-us/library/Dd390745(v=VS.85).aspx">MP_PARAMINFO</a>.)
 
 </td>
 </tr>

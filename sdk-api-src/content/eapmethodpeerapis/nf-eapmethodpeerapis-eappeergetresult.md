@@ -65,12 +65,12 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 
 ### -param reason [in]
 
-A <a href="https://msdn.microsoft.com/5f7f18cd-cc75-4d13-a0c0-c60f8c5f1a07">EapPeerMethodResultReason</a> structure that specifies the reason code for the authentication result returned in <i>ppResult</i>.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa363620(v=VS.85).aspx">EapPeerMethodResultReason</a> structure that specifies the reason code for the authentication result returned in <i>ppResult</i>.
 
 
 ### -param ppResult [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/ed6a3560-53a8-4ead-8c6b-8e65c72dafe1">EapPeerMethodResult</a> structure that contains the authentication results.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa363619(v=VS.85).aspx">EapPeerMethodResult</a> structure that contains the authentication results.
 
 
 ### -param ppEapError [out]

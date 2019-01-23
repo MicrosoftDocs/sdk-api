@@ -105,13 +105,9 @@ The <b>enumProviders</b> method  calls the
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR       bstrProvName = NULL;
+
+```cpp
+BSTR       bstrProvName = NULL;
 DWORD      nProv;
 int        j;
 HRESULT    hr;
@@ -124,21 +120,21 @@ DWORD      nProvType[] = { PROV_RSA_FULL,
                            PROV_STT_ISS };
 
 // Loop, for each Prov Type.
-for (j = 0; j &lt; (sizeof(nProvType)/sizeof(DWORD)); j++)
+for (j = 0; j < (sizeof(nProvType)/sizeof(DWORD)); j++)
 {
     nProv = 0;
     
     // pEnroll is previously instantiated ICEnroll interface pointer
-    hr = pEnroll-&gt;put_ProviderType( nProvType[j] );
+    hr = pEnroll->put_ProviderType( nProvType[j] );
     if ( FAILED(hr))
     {
         printf("Failed put_ProviderType - %x\n", hr);
         goto error;
     }
     // Enumerate the CSPs of this type.
-    while ( S_OK == ( hr = pEnroll-&gt;enumProviders(nProv,
+    while ( S_OK == ( hr = pEnroll->enumProviders(nProv,
                                                   0,
-                                                  &amp;bstrProvName)))
+                                                  &bstrProvName)))
     {
         printf("Provider %ws (type %d )\n", bstrProvName, 
             nProvType[j] );
@@ -158,10 +154,10 @@ for (j = 0; j &lt; (sizeof(nProvType)/sizeof(DWORD)); j++)
 error:
 // Clean up resources, and so on.
 if ( bstrProvName )
-    SysFreeString( bstrProvName );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrProvName );
+```
+
+
 
 
 

@@ -50,7 +50,7 @@ req.redist:
 
 
 Contains the version of the virtual disk 
-    <a href="https://msdn.microsoft.com/797e21ae-a4c4-48df-8124-e5c2fad22f33">CREATE_VIRTUAL_DISK_PARAMETERS</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323661(v=VS.85).aspx">CREATE_VIRTUAL_DISK_PARAMETERS</a> 
     structure to use in calls to virtual disk functions.
 
 

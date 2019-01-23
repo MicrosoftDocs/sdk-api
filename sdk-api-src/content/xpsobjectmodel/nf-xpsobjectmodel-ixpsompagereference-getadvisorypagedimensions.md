@@ -124,7 +124,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a>
  
 
  

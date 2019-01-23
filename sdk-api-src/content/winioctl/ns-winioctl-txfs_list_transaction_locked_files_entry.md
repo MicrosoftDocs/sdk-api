@@ -65,7 +65,7 @@ Contains information about a locked transaction.
 ### -field Offset
 
 The offset, in bytes, from the beginning of the 
-      <a href="https://msdn.microsoft.com/55ef34c5-8d99-457d-b670-8c9efaa2eae2">TXFS_LIST_TRANSACTION_LOCKED_FILES</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/Aa365704(v=VS.85).aspx">TXFS_LIST_TRANSACTION_LOCKED_FILES</a> 
       structure to the next 
       <b>TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</b>.
 
@@ -120,7 +120,7 @@ The path to the file, relative to the volume root. The file name is a NULL-termi
 
 
 
-<a href="https://msdn.microsoft.com/55ef34c5-8d99-457d-b670-8c9efaa2eae2">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365704(v=VS.85).aspx">TXFS_LIST_TRANSACTION_LOCKED_FILES</a>
  
 
  

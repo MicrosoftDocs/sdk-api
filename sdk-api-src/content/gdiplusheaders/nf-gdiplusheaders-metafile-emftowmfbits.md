@@ -127,13 +127,9 @@ To create a scalable WMF metafile, specify MM_ANISOTROPIC as the <i>iMapMode</i>
 
 The following example converts an enhanced-format metafile to a WMF metafile. The last parameter passed to <b>Metafile::EmfToWmfBits</b> specifies that the enhanced-format metafile is embedded as a comment in the converted metafile.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Construct a Metafile object from an existing EMF disk file.
+
+```cpp
+// Construct a Metafile object from an existing EMF disk file.
 Metafile myMetafile(L"SourceMetafile.emf");
 
 // Get a handle to the EMF metafile.
@@ -166,10 +162,10 @@ CopyMetaFile(hmf, TEXT("ConvertedMetafile.wmf"));
 
 DeleteMetaFile(hmf);
 DeleteEnhMetaFile(hEmf);
-delete[] buffer;</pre>
-</td>
-</tr>
-</table></span></div>
+delete[] buffer;
+```
+
+
 
 
 

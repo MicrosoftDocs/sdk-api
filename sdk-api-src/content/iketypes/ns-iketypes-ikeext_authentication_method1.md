@@ -60,21 +60,21 @@ The <b>IKEEXT_AUTHENTICATION_METHOD1</b> structure specifies various parameters 
 
 ### -field authenticationMethodType
 
-Type of authentication method specified by <a href="https://msdn.microsoft.com/582ec1ea-9390-4f86-9a3c-25d4e805a218">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>.
+Type of authentication method specified by <a href="https://msdn.microsoft.com/en-us/library/Aa364977(v=VS.85).aspx">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>.
 
 
 ### -field presharedKeyAuthentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
 
-See <a href="https://msdn.microsoft.com/b2009797-f5fd-4d14-8a59-832f9a0acff1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd744976(v=VS.85).aspx">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> for more information.
 
 
 ### -field certificateAuthentication
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_CERTIFICATE</b>, <b>IKEEXT_CERTIFICATE_ECDSA_P256</b>, or <b>IKEEXT_CERTIFICATE_ECDSA_P384</b>.
 
-See <a href="https://msdn.microsoft.com/45325f89-b5c9-4f8c-b9b0-4f0b01b34aab">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd744964(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
 
 
 ### -field kerberosAuthentication
@@ -95,7 +95,7 @@ See <a href="https://msdn.microsoft.com/8ac34054-5066-49f2-80b6-e674f6175c8e">IK
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_SSL</b>, <b>IKEEXT_SSL_ECDSA_P256</b>, or <b>IKEEXT_SSL_ECDSA_P384</b>.
 
-See <a href="https://msdn.microsoft.com/45325f89-b5c9-4f8c-b9b0-4f0b01b34aab">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd744964(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION1</a> for more information.
 
 
 ### -field cgaAuthentication

@@ -79,7 +79,7 @@ Integer that specifies the number of IPv6 stateless clients that have been remov
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404369(v=VS.85).aspx">DHCPV6_STATELESS_STATS</a>
+<a href="https://msdn.microsoft.com/8C0E26F3-9496-497C-9E05-9995CC322189">DHCPV6_STATELESS_STATS</a>
 
 
 

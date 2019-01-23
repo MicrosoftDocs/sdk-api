@@ -58,7 +58,7 @@ The configuration BLOB is returned when the supplicant called one of the followi
 <a href="https://msdn.microsoft.com/afb20482-a439-437d-9c8f-c4e87e440113">EapHostPeerInvokeConfigUI</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/e1f0fc05-d9cd-4a37-ba74-89ac9948a292">EapHostPeerGetResult</a> - via the <a href="https://msdn.microsoft.com/376e5399-61c9-4927-ac68-8a1bb4bdc7db">EapHostPeerMethodResult</a> structure</li>
+<a href="https://msdn.microsoft.com/e1f0fc05-d9cd-4a37-ba74-89ac9948a292">EapHostPeerGetResult</a> - via the <a href="https://msdn.microsoft.com/en-us/library/Aa363570(v=VS.85).aspx">EapHostPeerMethodResult</a> structure</li>
 </ul>
 
 

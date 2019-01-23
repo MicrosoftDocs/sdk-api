@@ -116,25 +116,21 @@ To reference a different row, call one of the following methods to navigate thro
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+
+```cpp
+// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 LONG       Index;
 HRESULT    hr;
 IEnumCERTVIEWEXTENSION * pEnumExt = NULL;
 // Obtain enumerator for extensions.
-hr = pEnumRow-&gt;EnumCertViewExtension(0, &amp;pEnumExt);
+hr = pEnumRow->EnumCertViewExtension(0, &pEnumExt);
 if (FAILED(hr))
 {
     printf("Failed EnumCertViewExtension - %x\n", hr);
     goto error;
 }
 // Enumerate each extension.
-while (S_OK == pEnumExt-&gt;Next(&amp;Index))
+while (S_OK == pEnumExt->Next(&Index))
 {
     // Use this extension as needed.
 }
@@ -142,10 +138,10 @@ error:
 
 // Free resources.
 if (NULL != pEnumExt)
-    pEnumExt-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumExt->Release();
+```
+
+
 
 
 

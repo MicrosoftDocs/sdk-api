@@ -94,33 +94,29 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 The following example shows publishing a CRL.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    DATE ExpDate;  // CRL expiration date
+
+```cpp
+    DATE ExpDate;  // CRL expiration date
     SYSTEMTIME st;
     BSTR bstrCA = NULL;
 
     //  Set the CRL Expiration Date to Noon on Jan. 1, 2005 GMT.
     //  Zero out values first 
 	//  (avoids setting minutes, seconds, and so on).
-    memset(&amp;st, 0, sizeof(SYSTEMTIME));
+    memset(&st, 0, sizeof(SYSTEMTIME));
     st.wYear = 2005;
     st.wMonth = 1;     // Jan
     st.wDay = 1;       // 1st day of month
     st.wHour = 12;     // Noon
 
     //  Place the date in required format.
-    if (!SystemTimeToVariantTime(&amp;st, &amp;ExpDate))
+    if (!SystemTimeToVariantTime(&st, &ExpDate))
     {
         printf("Unable to convert time\n");
         goto error;
     }
 
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed\n");
@@ -129,17 +125,17 @@ The following example shows publishing a CRL.
 
     //  Publish the CRL.
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin-&gt;PublishCRL(bstrCA, ExpDate);
+    hr = pCertAdmin->PublishCRL(bstrCA, ExpDate);
     if (FAILED(hr))
     {
         printf("Failed PublishCRL [%x]\n", hr);
         goto error;
     }
     else
-        printf("PublishCRL succeeded\n");</pre>
-</td>
-</tr>
-</table></span></div>
+        printf("PublishCRL succeeded\n");
+```
+
+
 
 
 

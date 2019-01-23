@@ -93,31 +93,27 @@ For streams that have a clock, the start and end times will be relative to the s
 
 The <i>pCurrentTime</i> parameter enables you to conveniently track the media stream's current time, so you don't have to call <a href="https://msdn.microsoft.com/en-us/library/Dd390332(v=VS.85).aspx">IMultiMediaStream::GetTime</a>. Unlike <b>GetTime</b>, however, this method returns S_OK if the stream doesn't have a clock; <b>GetTime</b> returns S_FALSE. The value assigned to <i>pCurrentTime</i> is the same as the value produced by the following code fragment.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IMediaStream *pMediaStream = 0;
-hr = pSample-&gt;GetMediaStream(&amp;pMediaStream);
+hr = pSample->GetMediaStream(&pMediaStream);
 if (SUCCEEDED(hr))
 {
   IMultiMediaStream *pMultiMediaStream = 0;
-  hr = pMediaStream-&gt;GetMultiMediaStream(&amp;pMultiMediaStream);
-  pMediaStream-&gt;Release();
+  hr = pMediaStream->GetMultiMediaStream(&pMultiMediaStream);
+  pMediaStream->Release();
   if (SUCCEEDED(hr))
   {
     STREAM_TIME CurrentTime = 0;
-    hr = pMultiMediaStream-&gt;GetTime(&amp;CurrentTime);
-    pMultiMediaStream-&gt;Release();
+    hr = pMultiMediaStream->GetTime(&CurrentTime);
+    pMultiMediaStream->Release();
   }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

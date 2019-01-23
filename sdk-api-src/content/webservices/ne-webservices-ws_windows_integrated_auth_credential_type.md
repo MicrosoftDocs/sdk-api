@@ -49,7 +49,7 @@ req.redist:
 
 
 The type of the Windows Integrated Authentication credential, used as
-a selector for subtypes of <a href="https://msdn.microsoft.com/78df2636-439b-4e55-8ca5-dc0f4f4ad745">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+a selector for subtypes of <a href="https://msdn.microsoft.com/en-us/library/Dd323506(v=VS.85).aspx">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
             
 
 
@@ -60,18 +60,18 @@ a selector for subtypes of <a href="https://msdn.microsoft.com/78df2636-439b-4e5
 
 ### -field WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
-Type id for the Windows credential <a href="https://msdn.microsoft.com/31a9c242-b56c-47d5-8b5a-a7a245575124">WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+Type id for the Windows credential <a href="https://msdn.microsoft.com/en-us/library/Dd323452(v=VS.85).aspx">WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
                 
 
 
 ### -field WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
-Type id for the Windows credential <a href="https://msdn.microsoft.com/14753a2d-6054-4041-a72b-4cd7a9576f3b">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+Type id for the Windows credential <a href="https://msdn.microsoft.com/en-us/library/Dd401814(v=VS.85).aspx">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
                 
 
 
 ### -field WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 
-Type id for the Windows credential <a href="https://msdn.microsoft.com/9dc8bde7-b70d-4b1f-9b3f-41af9ea7f215">WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
+Type id for the Windows credential <a href="https://msdn.microsoft.com/en-us/library/Dd401976(v=VS.85).aspx">WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a>.
                 
 

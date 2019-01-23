@@ -77,7 +77,7 @@ Number of elements in the <i>rgAtrMasks</i> array.
 
 ### -param rgReaderStates [in, out]
 
-Array of <a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a> structures that specify the readers to search, and receive the result.
+Array of <a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a> structures that specify the readers to search, and receive the result.
 
 
 ### -param cReaders [in]

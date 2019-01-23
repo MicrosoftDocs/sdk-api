@@ -66,7 +66,7 @@ A handle of the Bluetooth radio device to specify local service information for.
 
 ### -param pauthResponse [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/fc7eda84-3e7b-49e9-a1a6-e1759c894e1a">BLUETOOTH_AUTHENTICATE_RESPONSE</a> structure containing the response to the <b>BTH_REMOTE_AUTHENTICATE_REQUEST</b> event.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd392287(v=VS.85).aspx">BLUETOOTH_AUTHENTICATE_RESPONSE</a> structure containing the response to the <b>BTH_REMOTE_AUTHENTICATE_REQUEST</b> event.
 
 
 ## -returns

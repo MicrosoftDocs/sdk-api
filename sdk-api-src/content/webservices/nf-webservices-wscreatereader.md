@@ -67,7 +67,7 @@ The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCo
                 
 
 For the properties that tiy can use to configure the XML reader.
-        see the <a href="https://msdn.microsoft.com/en-us/library/Dd323552(v=VS.85).aspx">WS_XML_READER_PROPERTY_ID</a> enumeration. 
+        see the <a href="https://msdn.microsoft.com/b8d36716-e25a-4215-8bc7-30091b68c0f6">WS_XML_READER_PROPERTY_ID</a> enumeration. 
       
 
 

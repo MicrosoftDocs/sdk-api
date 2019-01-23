@@ -61,7 +61,7 @@ The <b>TS_SELECTIONSTYLE</b> structure represents the style of a selection.
 
 ### -field ase
 
-Specifies the active end of the selection. For more information, see <a href="https://msdn.microsoft.com/95695f10-2296-41fe-b2b4-efae548292bb">TsActiveSelEnd</a>.
+Specifies the active end of the selection. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms629196(v=VS.85).aspx">TsActiveSelEnd</a>.
 
 
 ### -field fInterimChar

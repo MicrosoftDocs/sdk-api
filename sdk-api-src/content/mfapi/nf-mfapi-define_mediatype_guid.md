@@ -77,20 +77,16 @@ This macro invokes the <b>DEFINE_GUID</b> macro. The resuling GUID constant is d
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;initguid.h&gt;
+
+```cpp
+#include <initguid.h>
 
 // Declares a GUID named MFVideoFormat_ABCD_Format.
 DEFINE_MEDIATYPE_GUID( MFVideoFormat_ABCD_Format, FCC('ABCD') );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

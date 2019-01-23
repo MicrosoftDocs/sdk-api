@@ -59,7 +59,7 @@ The
 
 ### -field st_mh
 
-Header for the corresponding Tspec object, expressed as  <a href="https://msdn.microsoft.com/en-us/library/Aa373722(v=VS.85).aspx">IntServMainHdr</a> structure.
+Header for the corresponding Tspec object, expressed as  <a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a> structure.
 
 
 ### -field tspec_u
@@ -68,13 +68,13 @@ Header for the corresponding Tspec object, expressed as  <a href="https://msdn.m
 
 #### gen_stspec
 
-Generic Tspec, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa373707(v=VS.85).aspx">GenTspec</a> structure.
+Generic Tspec, expressed as a <a href="https://msdn.microsoft.com/cefd94ed-ed54-471d-97fc-d523cedd71d6">GenTspec</a> structure.
 
 
 
 #### qual_stspec
 
-Qualitative Tspec, expressed as a <a href="https://msdn.microsoft.com/en-us/library/Aa374112(v=VS.85).aspx">QualTspec</a> structure.
+Qualitative Tspec, expressed as a <a href="https://msdn.microsoft.com/dc22de18-3e9f-4b92-aba4-579aa47fab64">QualTspec</a> structure.
 
 
 ### -field gen_stspec
@@ -94,15 +94,15 @@ Qualitative Tspec, expressed as a <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373707(v=VS.85).aspx">GenTspec</a>
+<a href="https://msdn.microsoft.com/cefd94ed-ed54-471d-97fc-d523cedd71d6">GenTspec</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373722(v=VS.85).aspx">IntServMainHdr</a>
+<a href="https://msdn.microsoft.com/b67fdf53-322b-4a70-ae83-63d4365e9b57">IntServMainHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374112(v=VS.85).aspx">QualTspec</a>
+<a href="https://msdn.microsoft.com/dc22de18-3e9f-4b92-aba4-579aa47fab64">QualTspec</a>
  
 
  

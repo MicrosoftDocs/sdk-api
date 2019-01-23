@@ -143,9 +143,9 @@ A pointer to a <a href="https://msdn.microsoft.com/3c509bb6-d391-4b59-809c-23466
 
 ### -param pvoid [in]
 
-If the <b>dwSubjectChoice</b> member of  the <a href="https://msdn.microsoft.com/3c509bb6-d391-4b59-809c-23466c8196ea">CRYPTUI_WIZ_EXPORT_INFO</a> structure that <i>pExportInfo</i> references is <b>CRYPTUI_WIZ_EXPORT_CERT_CONTEXT</b>, and if the  <b>CRYPTUI_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>, this parameter is a pointer to a <a href="https://msdn.microsoft.com/6be86c4f-0ac7-43c2-81fb-9767279ebeaf">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure. 
+If the <b>dwSubjectChoice</b> member of  the <a href="https://msdn.microsoft.com/3c509bb6-d391-4b59-809c-23466c8196ea">CRYPTUI_WIZ_EXPORT_INFO</a> structure that <i>pExportInfo</i> references is <b>CRYPTUI_WIZ_EXPORT_CERT_CONTEXT</b>, and if the  <b>CRYPTUI_WIZ_NO_UI</b> flag is set in <i>dwFlags</i>, this parameter is a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380776(v=VS.85).aspx">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure. 
 
-If the <b>CRYPTUI_WIZ_NO_UI</b> flag is not set in <i>dwFlags</i>, this parameter is optional and can be <b>NULL</b>. If this parameter is not <b>NULL</b>, the <a href="https://msdn.microsoft.com/6be86c4f-0ac7-43c2-81fb-9767279ebeaf">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure contains the values that are displayed to the user as the default choices.
+If the <b>CRYPTUI_WIZ_NO_UI</b> flag is not set in <i>dwFlags</i>, this parameter is optional and can be <b>NULL</b>. If this parameter is not <b>NULL</b>, the <a href="https://msdn.microsoft.com/en-us/library/Aa380776(v=VS.85).aspx">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a> structure contains the values that are displayed to the user as the default choices.
 
 
 ## -returns
@@ -165,7 +165,7 @@ the <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">Ge
 
 
 
-<a href="https://msdn.microsoft.com/6be86c4f-0ac7-43c2-81fb-9767279ebeaf">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380776(v=VS.85).aspx">CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO</a>
 
 
 

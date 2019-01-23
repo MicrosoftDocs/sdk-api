@@ -89,7 +89,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt807690(v=VS.85).aspx">IDWriteFontSetBuilder1</a>
+<a href="https://msdn.microsoft.com/32023D5C-5000-44A7-8C7A-995A821951BB">IDWriteFontSetBuilder1</a>
  
 
  

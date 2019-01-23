@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Specifies a type of credential field. Used by <a href="https://msdn.microsoft.com/8409b4b7-c601-4e85-95f9-4272feb29028">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
+Specifies a type of credential field. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb773243(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
 
 
 ## -enum-fields

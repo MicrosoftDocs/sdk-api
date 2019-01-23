@@ -165,15 +165,11 @@ The <b>WSAIoctl</b>
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>ioctlsocket</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;winsock2.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+
+#include <winsock2.h>
+#include <stdio.h>
 
 #pragma comment(lib, "Ws2_32.lib")
 
@@ -185,7 +181,7 @@ WSADATA wsaData;
 int iResult;
 u_long iMode = 0;
 
-iResult = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
+iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
 if (iResult != NO_ERROR)
   printf("Error at WSAStartup()\n");
 
@@ -206,16 +202,16 @@ if (m_socket == INVALID_SOCKET) {
 // If iMode = 0, blocking is enabled; 
 // If iMode != 0, non-blocking mode is enabled.
 
-iResult = ioctlsocket(m_socket, FIONBIO, &amp;iMode);
+iResult = ioctlsocket(m_socket, FIONBIO, &iMode);
 if (iResult != NO_ERROR)
   printf("ioctlsocket failed with error: %ld\n", iResult);
   
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Compatibility"></a><a id="compatibility"></a><a id="COMPATIBILITY"></a>Compatibility</h3>
 This 
 <b>ioctlsocket</b> function performs only a subset of functions on a socket when compared to the <b>ioctl</b> function found in Berkeley sockets. The 

@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a> object) from an array of bytes. The font file reference is bound to the <a href="https://msdn.microsoft.com/en-us/library/Mt807692(v=VS.85).aspx">IDWriteInMemoryFontFileLoader</a> instance with which it was
+Creates a font file reference (<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a> object) from an array of bytes. The font file reference is bound to the <a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a> instance with which it was
         created and remains valid for as long as that loader is registered with the factory.
       
 
@@ -116,7 +116,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt807692(v=VS.85).aspx">IDWriteInMemoryFontFileLoader</a>
+<a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a>
  
 
  

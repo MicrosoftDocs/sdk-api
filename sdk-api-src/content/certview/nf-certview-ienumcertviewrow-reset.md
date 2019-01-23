@@ -94,31 +94,27 @@ columns, attributes, and extensions associated with the certificate in the row c
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+
+```cpp
+// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 HRESULT hr;
 LONG    Index;
 
 // Ensure enumerator is at first row.
-hr = pEnumRow-&gt;Reset();
+hr = pEnumRow->Reset();
 if (FAILED(hr))
     printf("Failed to Reset\n");
 else
 {
     printf("Reset to beginning\n");
     // Retrieve first record.
-    hr = pEnumRow-&gt;Next(&amp;Index);
+    hr = pEnumRow->Next(&Index);
     // Examine hr for success and process row.
     // ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

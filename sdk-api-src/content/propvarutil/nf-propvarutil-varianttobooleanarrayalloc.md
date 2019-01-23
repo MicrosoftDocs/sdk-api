@@ -48,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Allocates an array of <b>BOOL</b> values then extracts data from a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure into that array.
+Allocates an array of <b>BOOL</b> values then extracts data from a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure into that array.
 
 
 ## -parameters
@@ -60,21 +60,21 @@ Allocates an array of <b>BOOL</b> values then extracts data from a <a href="e305
 
 Type: <b>REFVARIANT</b>
 
-Reference to a source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+Reference to a source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ### -param pprgf [out]
 
 Type: <b>BOOL**</b>
 
-When this function returns, contains a pointer to an array of <b>BOOL</b> values extracted from the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains a pointer to an array of <b>BOOL</b> values extracted from the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ### -param pcElem [out]
 
 Type: <b>ULONG*</b>
 
-When this function returns, contains a pointer to the count of elements extracted from the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains a pointer to the count of elements extracted from the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -92,37 +92,33 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used when the calling application expects a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> to hold an array of <b>BOOL</b> values.
+This helper function is used when the calling application expects a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> to hold an array of <b>BOOL</b> values.
 
-If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is of type VT_ARRAY | VT_BOOL, this function extracts an array of <b>BOOL</b> values into a newly allocated array. The calling application is responsible for using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the array pointed to by <i>pprgf</i> when it is no longer needed.
+If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> is of type VT_ARRAY | VT_BOOL, this function extracts an array of <b>BOOL</b> values into a newly allocated array. The calling application is responsible for using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to release the array pointed to by <i>pprgf</i> when it is no longer needed.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.VariantToBooleanArrayAlloc">VariantToBooleanArrayAlloc</a> to access an array of <b>BOOL</b> values stored in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776594(v=VS.85).aspx">VariantToBooleanArrayAlloc</a> to access an array of <b>BOOL</b> values stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialized and valid. 
 // The application expects var to contain an array of BOOL values.
 BOOL *prgFlags;
 ULONG cElems;
 
-HRESULT hr = VariantToBooleanArrayAlloc(var, &amp;prgFlags, &amp;cElems);
+HRESULT hr = VariantToBooleanArrayAlloc(var, &prgFlags, &cElems);
 
 if (SUCCEEDED(hr))
 {
      // prgFlags now points to a vector of cElems BOOLs.
      CoTaskMemFree(prgFlags);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -131,15 +127,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromBooleanArray">InitVariantFromBooleanArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762317(v=VS.85).aspx">InitVariantFromBooleanArray</a>
 
 
 
-<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
 
 
 
-<a href="shell.VariantToBooleanArray">VariantToBooleanArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776593(v=VS.85).aspx">VariantToBooleanArray</a>
  
 
  

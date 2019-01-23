@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Removes and frees an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure from a specified location in the collection.
+Removes and frees an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure from a specified location in the collection.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Removes and frees an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042
 
 ### -param index [in]
 
-The zero-based index in the collection from which  an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure is to be removed and freed.
+The zero-based index in the collection from which  an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure is to be removed and freed.
 
 
 ## -returns
@@ -74,7 +74,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-This method removes and frees  the <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure  referenced by the pointer at  the location specified by <i>index</i>. After freeing the structure, this method compacts the collection by   reducing by 1 the index of each pointer subsequent to <i>index</i>.
+This method removes and frees  the <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure  referenced by the pointer at  the location specified by <i>index</i>. After freeing the structure, this method compacts the collection by   reducing by 1 the index of each pointer subsequent to <i>index</i>.
 
 The figure that follows illustrates how the collection is changed by the <b>RemoveAt</b> method.
 
@@ -95,7 +95,7 @@ The figure that follows illustrates how the collection is changed by the <b>Remo
 
 
 
-<a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
  
 
  

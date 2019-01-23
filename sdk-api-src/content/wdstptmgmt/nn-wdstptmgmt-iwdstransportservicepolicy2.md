@@ -62,7 +62,7 @@ A client application can obtain an interface pointer to an instance of the <b>IW
 
 
 
-<a href="https://msdn.microsoft.com/3D8F193B-6EEA-4E40-A53C-EB0768E0DE83">WDSTRANSPORT_TFTP_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448723(v=VS.85).aspx">WDSTRANSPORT_TFTP_CAPABILITY</a>
  
 
  

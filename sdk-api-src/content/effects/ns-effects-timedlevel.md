@@ -68,7 +68,7 @@ A stereo snapshot of the power value of the audio data at a time specified by th
 
 ### -field state
 
-One member of the <a href="https://msdn.microsoft.com/7cd17639-e491-4066-838a-236554733874">PlayerState</a> enumeration type.
+One member of the <a href="https://msdn.microsoft.com/en-us/library/Dd564012(v=VS.85).aspx">PlayerState</a> enumeration type.
 
 
 ### -field timeStamp
@@ -94,7 +94,7 @@ The second dimension contains the sampled levels. The frequency data ranges from
 
 
 
-<a href="https://msdn.microsoft.com/7cd17639-e491-4066-838a-236554733874">PlayerState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd564012(v=VS.85).aspx">PlayerState</a>
 
 
 

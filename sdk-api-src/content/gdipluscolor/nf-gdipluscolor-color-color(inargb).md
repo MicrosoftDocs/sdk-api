@@ -81,15 +81,15 @@ An
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebd68c22-9b00-4a8e-9954-e8b0eda764f8">Color Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536243(v=VS.85).aspx">Color Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/41befc00-c256-4f56-90c3-8fd5aa18bb49">Color::MakeARGB</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536254(v=VS.85).aspx">Color::MakeARGB</a>
  
 
  

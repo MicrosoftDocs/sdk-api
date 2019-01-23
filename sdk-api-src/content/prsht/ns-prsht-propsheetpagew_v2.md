@@ -69,7 +69,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 <ul>
 <li>Set the PSP_USEHEADERTITLE flag in the <b>dwFlags</b> member.</li>
-<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PROPSHEETHEADER</a> structure.</li>
+<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure.</li>
 <li>Make sure that the PSP_HIDEHEADER flag in the <b>dwFlags</b> member is not set.</li>
 </ul>
 
@@ -84,10 +84,10 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 <ul>
 <li>Set the PSP_USEHEADERSUBTITLE flag in the <b>dwFlags</b> member.</li>
-<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PROPSHEETHEADER</a> structure.</li>
+<li>Set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the page's <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure.</li>
 <li>Make sure that the PSP_HIDEHEADER flag in the <b>dwFlags</b> member is not set.</li>
 </ul>
-<div class="alert"><b>Note</b>  This member is ignored when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).</div>
+<div class="alert"><b>Note</b>  This member is ignored when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).</div>
 <div> </div>
 
 #### - dwFlags
@@ -107,7 +107,7 @@ Flags that indicate which options to use when creating the property sheet page. 
 </dl>
 </td>
 <td width="60%">
-Uses the default meaning for all structure members. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+Uses the default meaning for all structure members. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Uses the default meaning for all structure members. This flag is not supported w
 </dl>
 </td>
 <td width="60%">
-Creates the page from the dialog box template in memory pointed to by the <b>pResource</b> member. The <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function assumes that the template that is in memory is not write-protected. A read-only template will cause an exception in some versions of Windows.
+Creates the page from the dialog box template in memory pointed to by the <b>pResource</b> member. The <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function assumes that the template that is in memory is not write-protected. A read-only template will cause an exception in some versions of Windows.
 
 </td>
 </tr>
@@ -127,7 +127,7 @@ Creates the page from the dialog box template in memory pointed to by the <b>pRe
 </dl>
 </td>
 <td width="60%">
-Enables the property sheet <b>Help</b> button when the page is active. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+Enables the property sheet <b>Help</b> button when the page is active. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ Enables the property sheet <b>Help</b> button when the page is active. This flag
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> and later. Causes the wizard property sheet to hide the header area when the page is selected. If a watermark has been provided, it will be painted on the left side of the page. This flag should be set for welcome and completion pages, and omitted for interior pages. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> and later. Causes the wizard property sheet to hide the header area when the page is selected. If a watermark has been provided, it will be painted on the left side of the page. This flag should be set for welcome and completion pages, and omitted for interior pages. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Enables the property sheet <b>Help</b> button when the page is active. This flag
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a> or later. Causes the page to be created when the property sheet is created. If this flag is not specified, the page will not be created until it is selected the first time. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a> or later. Causes the page to be created when the property sheet is created. If this flag is not specified, the page will not be created until it is selected the first time. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -191,7 +191,7 @@ Calls the function specified by the <b>pfnCallback</b> member when creating or d
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderSubTitle</b> member as the subtitle of the header area of a Wizard97 page. To use this flag, you must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PROPSHEETHEADER</a> structure. The PSP_USEHEADERSUBTITLE flag is ignored if PSP_HIDEHEADER is set. In Aero-style wizards, the title appears near the top of the client area.
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderSubTitle</b> member as the subtitle of the header area of a Wizard97 page. To use this flag, you must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure. The PSP_USEHEADERSUBTITLE flag is ignored if PSP_HIDEHEADER is set. In Aero-style wizards, the title appears near the top of the client area.
 
 </td>
 </tr>
@@ -202,7 +202,7 @@ Calls the function specified by the <b>pfnCallback</b> member when creating or d
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderTitle</b> member as the title in the header of a Wizard97 interior page. You must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PROPSHEETHEADER</a> structure. The PSP_USEHEADERTITLE flag is ignored if PSP_HIDEHEADER is set. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80</a> or later. Displays the string pointed to by the <b>pszHeaderTitle</b> member as the title in the header of a Wizard97 interior page. You must also set the PSH_WIZARD97 flag in the <b>dwFlags</b> member of the associated <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> structure. The PSP_USEHEADERTITLE flag is ignored if PSP_HIDEHEADER is set. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Calls the function specified by the <b>pfnCallback</b> member when creating or d
 </dl>
 </td>
 <td width="60%">
-Uses <b>hIcon</b> as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+Uses <b>hIcon</b> as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ Uses <b>hIcon</b> as the small icon on the tab for the page. This flag is not su
 </dl>
 </td>
 <td width="60%">
-Uses <b>pszIcon</b> as the name of the icon resource to load and use as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+Uses <b>pszIcon</b> as the name of the icon resource to load and use as the small icon on the tab for the page. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ Maintains the reference count specified by the <b>pcRefParent</b> member for the
 </dl>
 </td>
 <td width="60%">
-Uses the <b>pszTitle</b> member as the title of the property sheet dialog box instead of the title stored in the dialog box template. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PSH_AEROWIZARD</a>).
+Uses the <b>pszTitle</b> member as the title of the property sheet dialog box instead of the title stored in the dialog box template. This flag is not supported when using the Aero-style wizard (<a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PSH_AEROWIZARD</a>).
 
 </td>
 </tr>
@@ -283,14 +283,14 @@ Handle to the instance from which to load an icon or string resource. If the <b>
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
 
-When the page is created, a copy of the page's <b>PROPSHEETPAGE</b> structure is passed to the dialog box procedure with a <a href="https://msdn.microsoft.com/bc4f4718-1dab-48db-ae3b-5a81a7be2644">WM_INITDIALOG</a> message. The <b>lParam</b> member is provided to allow you to pass application-specific information to the dialog box procedure. It has no effect on the page itself. For more information, see <a href="https://msdn.microsoft.com/93676a64-7980-48cd-8615-23b14a118e1c">Property Sheet Creation</a>.
+When the page is created, a copy of the page's <b>PROPSHEETPAGE</b> structure is passed to the dialog box procedure with a <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message. The <b>lParam</b> member is provided to allow you to pass application-specific information to the dialog box procedure. It has no effect on the page itself. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb774538(v=VS.85).aspx">Property Sheet Creation</a>.
 
 
 #### - pResource
 
 Type: <b>LPCDLGTEMPLATE</b>
 
-Pointer to a dialog box template in memory. The <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function assumes that the template is not write-protected. A read-only template will cause an exception in some versions of Windows. To use this member, you must set the PSP_DLGINDIRECT flag in the <b>dwFlags</b> member. This member is declared as a union with <b>pszTemplate</b>.
+Pointer to a dialog box template in memory. The <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function assumes that the template is not write-protected. A read-only template will cause an exception in some versions of Windows. To use this member, you must set the PSP_DLGINDIRECT flag in the <b>dwFlags</b> member. This member is declared as a union with <b>pszTemplate</b>.
 
 
 #### - pcRefParent
@@ -301,21 +301,21 @@ Pointer to the reference count value. To use this member, you must set the PSP_U
 
 
 
-<div class="alert"><b>Note</b>   When a property sheet page is created, the value pointed to by <b>pcRefParent</b> is incremented. You create a property sheet page implicitly by setting the PSH_PROPSHEETPAGE flag in the <b>dwFlags</b> member of <a href="https://msdn.microsoft.com/ed4eb370-593f-4893-9de4-1ea9a725b131">PROPSHEETHEADER</a> and calling the <a href="https://msdn.microsoft.com/1cef9b14-498e-4dcb-94a5-5faa17e0774e">PropertySheet</a> function. You can do it explicitly by using the <a href="https://msdn.microsoft.com/fb7ca67a-7dff-4e1d-a303-5da87d8bbd2b">CreatePropertySheetPage</a> function. When a property sheet page is destroyed, the value pointed to by the <b>pcRefParent</b> member is decremented. This takes place automatically when the property sheet is destroyed. You can explicitly destroy a property sheet page by using the <a href="https://msdn.microsoft.com/a8721606-e5d2-4a69-8d76-fde0510612f7">DestroyPropertySheetPage</a> function.</div>
+<div class="alert"><b>Note</b>   When a property sheet page is created, the value pointed to by <b>pcRefParent</b> is incremented. You create a property sheet page implicitly by setting the PSH_PROPSHEETPAGE flag in the <b>dwFlags</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb774546(v=VS.85).aspx">PROPSHEETHEADER</a> and calling the <a href="https://msdn.microsoft.com/en-us/library/Bb760811(v=VS.85).aspx">PropertySheet</a> function. You can do it explicitly by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function. When a property sheet page is destroyed, the value pointed to by the <b>pcRefParent</b> member is decremented. This takes place automatically when the property sheet is destroyed. You can explicitly destroy a property sheet page by using the <a href="https://msdn.microsoft.com/en-us/library/Bb760809(v=VS.85).aspx">DestroyPropertySheetPage</a> function.</div>
 <div> </div>
 
 #### - pfnCallback
 
 Type: <b>LPFNPSPCALLBACK</b>
 
-Pointer to an application-defined callback function that is called when the page is created and when it is about to be destroyed. For more information about the callback function, see <a href="https://msdn.microsoft.com/a1f77ead-99c7-4874-8c32-289775c86458">PropSheetPageProc</a>. To use this member, you must set the PSP_USECALLBACK flag in the <b>dwFlags</b> member.
+Pointer to an application-defined callback function that is called when the page is created and when it is about to be destroyed. For more information about the callback function, see <a href="https://msdn.microsoft.com/en-us/library/Bb760813(v=VS.85).aspx">PropSheetPageProc</a>. To use this member, you must set the PSP_USECALLBACK flag in the <b>dwFlags</b> member.
 
 
 #### - pfnDlgProc
 
 Type: <b>DLGPROC</b>
 
-Pointer to the dialog box procedure for the page. Because the pages are created as modeless dialog boxes, the dialog box procedure must not call the <a href="https://msdn.microsoft.com/925e8aa8-9d8d-4bec-a19e-ba24e78b2d10">EndDialog</a> function.
+Pointer to the dialog box procedure for the page. Because the pages are created as modeless dialog boxes, the dialog box procedure must not call the <a href="https://msdn.microsoft.com/en-us/library/ms645472(v=VS.85).aspx">EndDialog</a> function.
 
 
 #### - pszIcon
@@ -343,7 +343,7 @@ Title of the property sheet dialog box. This title overrides the title specified
 
 
 
-Comctl32.dll version 6 and later are not redistributable. To use Comctl32.dll version 6 or later, specify the .dll file in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>.
+Comctl32.dll version 6 and later are not redistributable. To use Comctl32.dll version 6 or later, specify the .dll file in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>.
 
 
 

@@ -69,7 +69,7 @@ A value from <a href="https://msdn.microsoft.com/6AF30DEA-2018-4AA2-B13A-BD31BD6
 
 ### -param EventParameterIn [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/97EB32A7-87BF-4DBA-9480-4BB7DFCBFB23">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn385750(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a> structure to pass when the event is triggered.
 
 
 ### -param Callback [in]
@@ -165,7 +165,7 @@ A parameter was invalid.
 
 
 
-<a href="https://msdn.microsoft.com/97EB32A7-87BF-4DBA-9480-4BB7DFCBFB23">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn385750(v=VS.85).aspx">BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION</a>
 
 
 

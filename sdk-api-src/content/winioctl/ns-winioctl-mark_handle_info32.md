@@ -50,7 +50,7 @@ req.redist:
 
 Contains information that is used to mark a specified file or directory, and its update sequence 
     number (USN) change journal record with data about changes. This is only defined for 64-bit code and exists to 
-    interpret <a href="https://msdn.microsoft.com/en-us/library/Aa365229(v=VS.85).aspx">MARK_HANDLE_INFO</a> structures sent by 32-bit 
+    interpret <a href="https://msdn.microsoft.com/6f736b31-279d-4118-a5e3-ad3c2bea2250">MARK_HANDLE_INFO</a> structures sent by 32-bit 
     code. It is used by the <a href="https://msdn.microsoft.com/c96b49d8-12f3-4281-9f9f-6621769359f0">FSCTL_MARK_HANDLE</a> 
     control code.
 
@@ -97,7 +97,7 @@ A typical use is when Remote Storage moves data from external to local storage. 
          <b>USN_REASON_DATA_OVERWRITE</b> flag to a USN record. However, the data has not changed 
          from the user point of view. By noting <b>USN_SOURCE_DATA_MANAGEMENT</b> in the 
          <b>SourceInfo</b> member of the 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD</a> structure that holds the record, you can 
+         <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD</a> structure that holds the record, you can 
          determine that although a write operation is performed on the item, data has not changed.
 
 </td>

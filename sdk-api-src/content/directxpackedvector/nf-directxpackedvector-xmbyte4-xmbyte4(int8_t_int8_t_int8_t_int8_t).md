@@ -90,13 +90,9 @@ Value of the w-coordinate of the vector, the <b>w</b> member of the new
 The following pseudocode demonstrates the operation of this constructor:
       
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMBYTE4 instance;
 
 	instance.x = _x;
@@ -104,10 +100,10 @@ The following pseudocode demonstrates the operation of this constructor:
 	instance.z = _z;
 	instance.w = _w;
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

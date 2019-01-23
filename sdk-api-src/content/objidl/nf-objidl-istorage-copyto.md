@@ -116,16 +116,12 @@ The most common way to use the <b>IStorage::CopyTo</b> method is to copy everyth
 
 The following  example code shows how to copy everything  from the source storage object to the destination storage object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pstg-&gt;CopyTo(0, Null, Null, pstgDest)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pstg->CopyTo(0, Null, Null, pstgDest)
+```
+
+
 <div class="alert"><b>Note</b>  To compact a document file, call <b>CopyTo</b> on the root storage object and copy to a new storage object.</div>
 <div> </div>
 

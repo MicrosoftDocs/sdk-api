@@ -117,7 +117,7 @@ The image in  <i>imageResource</i> is not a supported image type.
 
 The thumbnail image is a small, visual representation of the document's   contents.
 
-The image type of the image resource must be either  <a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE_JPEG</a> or <b>XPS_IMAGE_TYPE_PNG</b>.
+The image type of the image resource must be either  <a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE_JPEG</a> or <b>XPS_IMAGE_TYPE_PNG</b>.
 
 
 
@@ -143,7 +143,7 @@ The image type of the image resource must be either  <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/b4300a8c-f0bf-465f-a717-c54de95c1183">XPS_IMAGE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372960(v=VS.85).aspx">XPS_IMAGE_TYPE</a>
  
 
  

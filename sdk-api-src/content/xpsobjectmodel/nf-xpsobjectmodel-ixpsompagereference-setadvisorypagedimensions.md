@@ -94,7 +94,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-Either <i>pageDimensions</i> is <b>NULL</b> or a field in the <a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> contains a value that is not valid.
+Either <i>pageDimensions</i> is <b>NULL</b> or a field in the <a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> contains a value that is not valid.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ The advisory page size described in <i>pageDimensions</i> was not valid. The <b>
 
 
 
-The <b>height</b> and <b>width</b>  members of the <a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> must have values that are greater than or equal to +1.0, if those fields' values are to be set, or –1.0 if not. For example, if an advisory  dimension were to be set just for the page width,  <i>pageDimensions.width</i> would have the desired value and <i>pageDimensions.height</i> would have the value of –1.0.
+The <b>height</b> and <b>width</b>  members of the <a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> structure that is referenced by <i>pageDimensions</i> must have values that are greater than or equal to +1.0, if those fields' values are to be set, or –1.0 if not. For example, if an advisory  dimension were to be set just for the page width,  <i>pageDimensions.width</i> would have the desired value and <i>pageDimensions.height</i> would have the value of –1.0.
 
 
 
@@ -137,7 +137,7 @@ The <b>height</b> and <b>width</b>  members of the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a>
  
 
  

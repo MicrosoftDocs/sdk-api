@@ -73,7 +73,7 @@ A pointer to an address that contains a byte buffer with the new supplicant UI c
 
 ### -param pEapOutput [in]
 
- A pointer to an <a href="https://msdn.microsoft.com/fb3d423e-8509-4478-87d5-86bcbd90a8e7">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
+ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363617(v=VS.85).aspx">EapPeerMethodOutput</a> structure that contains the output of the packet process operation.
 
 
 ### -param ppEapError [out]

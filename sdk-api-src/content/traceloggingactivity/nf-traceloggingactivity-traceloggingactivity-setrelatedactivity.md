@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Sets the related activity for this <a href="https://msdn.microsoft.com/75930876-4DF2-4559-BA06-133FC676B1AD">TraceLoggingActivity</a> object.
+Sets the related activity for this <a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a> object.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/75930876-4DF2-4559-BA06-133FC676B1AD">TraceLoggingActivity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a>
  
 
  

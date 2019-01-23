@@ -60,14 +60,14 @@ The <b>IKEEXT_KEYMODULE_STATISTICS1</b> structure contains various statistics sp
 
 IPv4 common statistics.
 
-See <a href="https://msdn.microsoft.com/45485729-dc02-4c59-83d7-0564e943e60b">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd744973(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1</a> for more information.
 
 
 ### -field v6Statistics
 
 IPv6 common statistics.
 
-See <a href="https://msdn.microsoft.com/45485729-dc02-4c59-83d7-0564e943e60b">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd744973(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1</a> for more information.
 
 
 ### -field errorFrequencyTable

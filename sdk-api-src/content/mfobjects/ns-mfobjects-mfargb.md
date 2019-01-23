@@ -84,7 +84,7 @@ Alpha value.
 
 
 
-<a href="https://msdn.microsoft.com/72e45756-b1aa-4db0-a6e7-2e6ea97211b4">MFPaletteEntry Union</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms698970(v=VS.85).aspx">MFPaletteEntry Union</a>
 
 
 

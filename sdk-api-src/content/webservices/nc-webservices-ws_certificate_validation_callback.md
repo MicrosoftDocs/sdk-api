@@ -63,7 +63,7 @@ A pointer to a <a href="https://msdn.microsoft.com/f0a3200e-6541-423d-a4a3-595a3
 
 ### -param *state [in, optional]
 
-A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="https://msdn.microsoft.com/1D33A816-2580-4295-994D-6C6DFFBA7A0B">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
+A pointer to application specific state information. This parameter corresponds to the <b>state</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Hh994470(v=VS.85).aspx">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a> structure.
 
 
 ## -returns
@@ -121,7 +121,7 @@ The callback implementation must avoid long computation times or long blocking c
 
 
 
-<a href="https://msdn.microsoft.com/1D33A816-2580-4295-994D-6C6DFFBA7A0B">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh994470(v=VS.85).aspx">WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT</a>
  
 
  

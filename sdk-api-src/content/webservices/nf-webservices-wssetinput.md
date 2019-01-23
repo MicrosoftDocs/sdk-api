@@ -70,13 +70,13 @@ A pointer to the <a href="https://msdn.microsoft.com/7acbe407-e91b-435a-82bc-acb
 
 A to an encoding value that describes the format of the input bytes.  This value should be one of:<ul>
 <li>
-<a href="https://msdn.microsoft.com/ffb351d7-36dc-44ce-8a5e-ee452ca8b4e6">WS_XML_READER_TEXT_ENCODING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323556(v=VS.85).aspx">WS_XML_READER_TEXT_ENCODING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/51a0802b-6624-430e-96c1-a8470fac4937">WS_XML_READER_BINARY_ENCODING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323543(v=VS.85).aspx">WS_XML_READER_BINARY_ENCODING</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/dec4d9ad-71d3-48f9-b6c3-49cf6bcb85fb">WS_XML_READER_MTOM_ENCODING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323549(v=VS.85).aspx">WS_XML_READER_MTOM_ENCODING</a>
 </li>
 </ul>
 

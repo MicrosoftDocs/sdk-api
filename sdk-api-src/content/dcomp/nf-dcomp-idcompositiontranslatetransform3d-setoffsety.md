@@ -93,7 +93,7 @@ If the OffsetY property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449114(v=VS.85).aspx">IDCompositionTranslateTransform3D</a>
+<a href="https://msdn.microsoft.com/C265E5FC-F7A1-4E87-8311-C4D0613DD7BC">IDCompositionTranslateTransform3D</a>
 
 
 

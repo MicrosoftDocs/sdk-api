@@ -72,7 +72,7 @@ Specifies the container format of a font resource. A container format is distinc
 
 
 
-DWRITE_CONTAINER_TYPE is returned by <a href="https://msdn.microsoft.com/en-us/library/Mt807685(v=VS.85).aspx">IDWriteFactory5::AnalyzeContainerType</a>
+DWRITE_CONTAINER_TYPE is returned by <a href="https://msdn.microsoft.com/A13656C9-E793-40E2-81BD-0F9C0F437F1E">IDWriteFactory5::AnalyzeContainerType</a>
 
 
 

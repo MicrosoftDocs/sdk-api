@@ -93,16 +93,12 @@ Upon successful completion of this method, call the
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
+
+```cpp
+// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 HRESULT    hr;
 LONG        Index;
-hr = pEnumCol-&gt;Reset();
+hr = pEnumCol->Reset();
 if (S_OK != hr)
     printf("Unable to reset pEnumCol\n");
     // call appropriate error handler / exit routine
@@ -110,14 +106,14 @@ else
 {
     // now at the beginning of the columns
     // enumerate each column
-    while (S_OK == pEnumCol-&gt;Next(&amp;Index))
+    while (S_OK == pEnumCol->Next(&Index))
     {
         // Use each column as needed.
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

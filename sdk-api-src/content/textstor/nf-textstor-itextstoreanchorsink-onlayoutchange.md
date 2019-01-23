@@ -58,7 +58,7 @@ The <b>ITextStoreAnchorSink::OnLayoutChange</b> method is called when the layout
 
 ### -param lcode [in]
 
-Contains a <a href="https://msdn.microsoft.com/879f83ba-211b-49f6-93b2-6cde5f50fc24">TsLayoutCode</a> value that defines the type of change.
+Contains a <a href="https://msdn.microsoft.com/en-us/library/ms629200(v=VS.85).aspx">TsLayoutCode</a> value that defines the type of change.
 
 
 ### -param vcView [in]

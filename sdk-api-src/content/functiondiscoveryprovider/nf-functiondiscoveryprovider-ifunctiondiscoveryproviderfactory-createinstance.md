@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderFactory::CreateInstance
 author: windows-sdk-content
 description: Creates a function instance.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createinstance.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 143a4f62-7093-4127-b89e-e7d0985a92bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

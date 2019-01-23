@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>WSB_OB_STATUS_ENTRY_PAIR_TYPE</b> enumeration indicates the type of the parameter value contained in the <a href="https://msdn.microsoft.com/FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> structure.
+The <b>WSB_OB_STATUS_ENTRY_PAIR_TYPE</b> enumeration indicates the type of the parameter value contained in the <a href="https://msdn.microsoft.com/en-us/library/Hh437334(v=VS.85).aspx">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> structure.
 
 
 ## -enum-fields

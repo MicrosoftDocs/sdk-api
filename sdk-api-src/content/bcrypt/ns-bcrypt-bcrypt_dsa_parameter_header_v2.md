@@ -82,12 +82,12 @@ The size, in bytes, of the key that this structure applies to.
 
 ### -field hashAlgorithm
 
-A <a href="https://msdn.microsoft.com/en-us/library/JJ670565(v=VS.85).aspx">HASHALGORITHM_ENUM</a> enumeration value that specifies the hashing algorithm to use.
+A <a href="https://msdn.microsoft.com/482DA4B6-EC1C-4E88-95C0-62ED1356DC3B">HASHALGORITHM_ENUM</a> enumeration value that specifies the hashing algorithm to use.
 
 
 ### -field standardVersion
 
-A <a href="https://msdn.microsoft.com/en-us/library/JJ670564(v=VS.85).aspx">DSAFIPSVERSION_ENUM</a> enumeration value that specifies the Federal Information Processing Standard(FIPS) to apply.
+A <a href="https://msdn.microsoft.com/6797D7C0-3451-464E-9261-61217ADAB9C1">DSAFIPSVERSION_ENUM</a> enumeration value that specifies the Federal Information Processing Standard(FIPS) to apply.
 
 
 ### -field cbSeedLength

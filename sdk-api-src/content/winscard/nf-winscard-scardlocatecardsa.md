@@ -70,7 +70,7 @@ A multiple string that contains the names of the cards to search for.
 
 ### -param rgReaderStates [in, out]
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a> structures that, on input, specify the readers to search and that, on output, receives the result.
+An array of <a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a> structures that, on input, specify the readers to search and that, on output, receives the result.
 
 
 ### -param cReaders [in]
@@ -139,16 +139,12 @@ Calling this function should be done outside of a transaction. If an application
 
 The following example  shows locating smart cards.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Copyright (C) Microsoft. All rights reserved. 
-#include &lt;stdio.h&gt;
-#include &lt;winscard.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+// Copyright (C) Microsoft. All rights reserved. 
+#include <stdio.h>
+#include <winscard.h>
+#include <tchar.h>
 #pragma comment(lib, "winscard.lib")
 
 HRESULT __cdecl main()
@@ -172,7 +168,7 @@ szCard[lstrlen(szCard) + 1] = 0;  // Double trailing zero.
 lReturn = SCardEstablishContext(SCARD_SCOPE_USER,
                                 NULL,
                                 NULL,
-                                &amp;hSC );
+                                &hSC );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardEstablishContext\n");
@@ -182,8 +178,8 @@ if ( SCARD_S_SUCCESS != lReturn )
 // Determine which readers are available.
 lReturn = SCardListReaders(hSC,
                            NULL,
-                           (LPTSTR)&amp;szReaders,
-                           &amp;cchReaders );
+                           (LPTSTR)&szReaders,
+                           &cchReaders );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardListReaders\n");
@@ -191,7 +187,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 }
 // Place the readers into the state array.
 szRdr = szReaders;
-for ( dwI = 0; dwI &lt; MAXIMUM_SMARTCARD_READERS; dwI++ )
+for ( dwI = 0; dwI < MAXIMUM_SMARTCARD_READERS; dwI++ )
 {
     if ( 0 == *szRdr )
         break;
@@ -218,9 +214,9 @@ if ( 0 != dwRdrCount )
     }
 
     // Look through the array of readers.
-    for ( dwI=0; dwI &lt; dwRdrCount; dwI++)
+    for ( dwI=0; dwI < dwRdrCount; dwI++)
     {
-        if ( 0 != ( SCARD_STATE_ATRMATCH &amp; 
+        if ( 0 != ( SCARD_STATE_ATRMATCH & 
                     rgscState[dwI].dwEventState))
         {
            _tprintf( TEXT("Card '%s' found in reader '%s'.\n"),
@@ -262,10 +258,10 @@ SCardFreeMemory( hSC,
 
 return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -274,7 +270,7 @@ return hr;
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379808(v=VS.85).aspx">SCARD_READERSTATE</a>
+<a href="https://msdn.microsoft.com/4e9bbed7-f899-4361-a526-029a710d5147">SCARD_READERSTATE</a>
 
 
 

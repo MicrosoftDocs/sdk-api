@@ -75,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/afa559bc-5ac2-4487-bb13-25f30c5f4033">IMTSLocator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685936(v=VS.85).aspx">IMTSLocator</a>
  
 
  

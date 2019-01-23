@@ -78,7 +78,7 @@ An instance ID for the device node of the Plug and Play (PnP) ID.
 
 ### -param pServiceInfoIn [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb870604(v=VS.85).aspx">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure that describes the local service to
      set.
 
 
@@ -171,7 +171,7 @@ To use Bluetooth APIs like
     <a href="https://msdn.microsoft.com/2bf2b2df-260c-42a5-9ee9-6db91f304036">Installing a Bluetooth
     Device</a>.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
+The <a href="https://msdn.microsoft.com/en-us/library/Bb870604(v=VS.85).aspx">BLUETOOTH_LOCAL_SERVICE_INFO</a> structure is defined in the SDK 
     BluetoothApis.h header file.
 
 
@@ -182,7 +182,7 @@ The <a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BL
 
 
 
-<a href="https://msdn.microsoft.com/d16fe6f1-4b76-4dbe-825e-e3995d2b4961">BLUETOOTH_LOCAL_SERVICE_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb870604(v=VS.85).aspx">BLUETOOTH_LOCAL_SERVICE_INFO</a>
  
 
  

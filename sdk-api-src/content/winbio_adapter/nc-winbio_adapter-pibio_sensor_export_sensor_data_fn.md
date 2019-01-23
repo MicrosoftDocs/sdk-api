@@ -155,13 +155,9 @@ You must allocate the buffer to be returned in the <i>SampleBuffer</i> parameter
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterExportSensorData
 //
@@ -197,7 +193,7 @@ SensorAdapterExportSensorData(
 
     // Retrieve the context from the pipeline.
     PWINBIO_SENSOR_CONTEXT sensorContext = 
-                 (PWINBIO_SENSOR_CONTEXT)Pipeline-&gt;SensorContext;
+                 (PWINBIO_SENSOR_CONTEXT)Pipeline->SensorContext;
 
     // Verify the state of the pipeline.
     if (sensorContext == NULL)
@@ -206,36 +202,36 @@ SensorAdapterExportSensorData(
     }
 
     // Determine whether there is capture data to return.
-    if (sensorContext-&gt;CaptureBuffer == NULL ||
-        sensorContext-&gt;CaptureBuffer-&gt;CaptureData.Size == 0)
+    if (sensorContext->CaptureBuffer == NULL ||
+        sensorContext->CaptureBuffer->CaptureData.Size == 0)
     {
         return WINBIO_E_NO_CAPTURE_DATA;
     }
 
     // Allocate a buffer, copy the data into it, and return
     // the buffer and buffer size to the caller.
-    sampleBuffer = _AdapterAlloc(sensorContext-&gt;CaptureBuffer-&gt;CaptureData.Size);
+    sampleBuffer = _AdapterAlloc(sensorContext->CaptureBuffer->CaptureData.Size);
     if (sampleBuffer == NULL)
     {
         return E_OUTOFMEMORY;
     }
     RtlCopyMemory(
         sampleBuffer, 
-        sensorContext-&gt;CaptureBuffer-&gt;CaptureData.Data,
-        sensorContext-&gt;CaptureBuffer-&gt;CaptureData.Size
+        sensorContext->CaptureBuffer->CaptureData.Data,
+        sensorContext->CaptureBuffer->CaptureData.Size
         );
 
     *SampleBuffer = sampleBuffer;
     sampleBuffer = NULL;
 
-    *SampleSize = Pipeline-&gt;SensorContext-&gt;CaptureBuffer-&gt;CaptureData.Size;  
+    *SampleSize = Pipeline->SensorContext->CaptureBuffer->CaptureData.Size;  
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

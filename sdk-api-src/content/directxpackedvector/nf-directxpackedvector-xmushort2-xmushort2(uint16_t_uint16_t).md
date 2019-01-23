@@ -51,7 +51,7 @@ req.redist:
 Initializes a new instance of <code>XMUSHORT2</code> from two <code>uint16_t</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/c092fd1c-4dd1-40f0-a7e3-fd552c72385c">XMUSHORT2</a> from two
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a> from two
 	<code>uint16_t</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
 
@@ -81,21 +81,17 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 The following pseudocode demonstrates the operation of this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMUSHORT2 instance;
 
 	instance.x = _x;
 	instance.y = _y;
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 
@@ -108,11 +104,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/c092fd1c-4dd1-40f0-a7e3-fd552c72385c">XMUSHORT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/881a3b1b-5f1d-4fe7-ad29-5a62651ba62c">XMUSHORT2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415494(v=VS.85).aspx">XMUSHORT2 Constructors</a>
  
 
  

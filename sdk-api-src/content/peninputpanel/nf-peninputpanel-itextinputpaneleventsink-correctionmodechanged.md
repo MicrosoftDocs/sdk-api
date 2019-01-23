@@ -61,12 +61,12 @@ Occurs when the correction comb on the Tablet PC Input Panel has changed modes.
 
 ### -param oldCorrectionMode [in]
 
-The previous correction mode, as defined by the <a href="https://msdn.microsoft.com/133d2012-e43c-490a-b126-b7670ea7acf8">CorrectionMode Enumeration</a>.
+The previous correction mode, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms695063(v=VS.85).aspx">CorrectionMode Enumeration</a>.
 
 
 ### -param newCorrectionMode [in]
 
-The current correction mode, as defined by the <a href="https://msdn.microsoft.com/133d2012-e43c-490a-b126-b7670ea7acf8">CorrectionMode Enumeration</a>.
+The current correction mode, as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms695063(v=VS.85).aspx">CorrectionMode Enumeration</a>.
 
 
 ## -returns

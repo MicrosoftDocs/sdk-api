@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/1194B20E-AA50-4AEC-B9C4-AEA1BA84DD99">ApplySnapshotVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="https://msdn.microsoft.com/en-us/library/Mt638034(v=VS.85).aspx">ApplySnapshotVhdSet</a> function.
 
 
 ## -enum-fields

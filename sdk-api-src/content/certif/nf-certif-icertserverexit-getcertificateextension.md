@@ -147,22 +147,18 @@ You must call
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT  varExt;
+
+```cpp
+VARIANT  varExt;
 HRESULT  hr;
 
-VariantInit(&amp;varExt);
+VariantInit(&varExt);
 // Get the Extension value
 // bstrExtName is BSTR assigned by EnumerateExtensions.
 // pCertServerExit has been used to call SetContext previously.
-hr = pCertServerExit-&gt;GetCertificateExtension(bstrExtName,
+hr = pCertServerExit->GetCertificateExtension(bstrExtName,
                                               PROPTYPE_BINARY,
-                                              &amp;varExt);
+                                              &varExt);
 
 if (FAILED(hr))
 {
@@ -173,10 +169,10 @@ if (FAILED(hr))
 // ...
 
 // When done, clear the Variant
-VariantClear(&amp;varExt);</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&varExt);
+```
+
+
 
 
 

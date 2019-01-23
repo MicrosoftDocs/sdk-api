@@ -72,7 +72,7 @@ A pointer to a <b>LONG</b> variable to receive the number of elements in the <i>
 
 ### -param resourceList [out]
 
-The address of a pointer to an array of <a href="https://msdn.microsoft.com/209dee74-c52e-4e31-9d1b-1e7c6c0d0121">pluginResource</a> structures that receive the resources assigned to the specified user. You must use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
+The address of a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Ee351716(v=VS.85).aspx">pluginResource</a> structures that receive the resources assigned to the specified user. You must use the <a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
 
 
 ## -returns

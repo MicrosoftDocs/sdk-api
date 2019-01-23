@@ -65,7 +65,7 @@ A handle to the target process.
 
 ### -param CaptureFlags [in]
 
-Flags that specify what to capture. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457841(v=VS.85).aspx">PSS_CAPTURE_FLAGS</a>.
+Flags that specify what to capture. For more information, see <a href="https://msdn.microsoft.com/6146DDA2-2475-45F8-86F3-65791B10743D">PSS_CAPTURE_FLAGS</a>.
 
 
 ### -param ThreadContextFlags [in, optional]

@@ -233,13 +233,9 @@ Do not modify the returned service structure,
 
 <b>Example</b>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ////////////////////////////////////////////////////////////////////////////
 // Determine Included Services Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -248,7 +244,7 @@ hr = BluetoothGATTGetIncludedServices(
      gattService,
      0,
      NULL,
-     &amp;inclServicesBufferSize,
+     &inclServicesBufferSize,
      BLUETOOTH_GATT_FLAG_NONE);
 
      if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -256,7 +252,7 @@ hr = BluetoothGATTGetIncludedServices(
          goto Done;
      }
 
-     if (inclServicesBufferSize &gt; 0) {
+     if (inclServicesBufferSize > 0) {
          pInclServicesBuffer = (PBTH_LE_GATT_ PBTH_LE_GATT_SERVICE)
                     malloc(inclServicesBufferSize * sizeof(BTH_LE_GATT_SERVICE));
 
@@ -277,17 +273,17 @@ hr = BluetoothGATTGetIncludedServices(
               gattService,
               inclServicesBufferSize,
               pInclServicesBuffer,
-              &amp;numIncludedServices
+              &numIncludedServices
               BLUETOOTH_GATT_FLAG_NONE);
 
          if (S_OK != hr) {
              PrintHr("BluetoothGATTGetIncludedServices - Actual Data", hr);
              goto Done;
          }
-     }</pre>
-</td>
-</tr>
-</table></span></div>
+     }
+```
+
+
 
 
 

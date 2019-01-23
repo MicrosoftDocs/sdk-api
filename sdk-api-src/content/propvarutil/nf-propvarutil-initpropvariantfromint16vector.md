@@ -97,28 +97,24 @@ Creates a VT_VECTOR | VT_I2 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SHORT rgShorts[] = {3, 1, 4};
+
+```cpp
+SHORT rgShorts[] = {3, 1, 4};
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromInt16Vector(rgShorts, ARRAYSIZE(rgShorts), &amp;propvar);
+HRESULT hr = InitPropVariantFromInt16Vector(rgShorts, ARRAYSIZE(rgShorts), &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_I2.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -127,15 +123,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>
 
 
 
-<a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>
 
 
 
-<a href="shell.PropVariantToInt16Vector">PropVariantToInt16Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776547(v=VS.85).aspx">PropVariantToInt16Vector</a>
  
 
  

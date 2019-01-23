@@ -86,13 +86,9 @@ Thumbnail relationships created by the <a href="https://msdn.microsoft.com/en-us
 
 The following example demonstrates how to register and display the desktop thumbnail.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT UpdateDesktop(HWND hwnd)
 {
 	HRESULT hr = S_OK;
@@ -101,7 +97,7 @@ HRESULT UpdateDesktop(HWND hwnd)
 	SIZE size = {100,100};
 	HTHUMBNAIL thumbnail = NULL;
 
-	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &amp;size, &amp;thumbnail);
+	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &size, &thumbnail);
 	if (SUCCEEDED(hr))
 	{
 		// The destination rectangle size
@@ -118,17 +114,17 @@ HRESULT UpdateDesktop(HWND hwnd)
 		dskThumbProps.rcDestination = dest;
 
 		// Display the thumbnail
-		hr = DwmUpdateThumbnailProperties(thumbnail,&amp;dskThumbProps);
+		hr = DwmUpdateThumbnailProperties(thumbnail,&dskThumbProps);
 		if (SUCCEEDED(hr))
 		{
 			// ...
 		}
 	}
 	return hr;	
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

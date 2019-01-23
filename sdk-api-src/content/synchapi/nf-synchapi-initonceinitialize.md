@@ -4,7 +4,7 @@ title: InitOnceInitialize function
 author: windows-sdk-content
 description: Initializes a one-time initialization structure.
 old-location: base\initonceinitialize.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -91,31 +91,27 @@ A one-time initialization object cannot be moved or copied. The process must not
 
 The following example calls <b>InitOnceInitialize</b> to initialize the one-time initialization structure named <code>InitOnce</code>. Alternatively, the structure can be declared as a global variable as shown in <a href="https://msdn.microsoft.com/47e68fbb-29f8-4930-beba-01d44263eb1e">Using One-Time Initialization</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 //Requires Windows Vista, Windows Server 2008 or later
 #define _WIN32_WINNT 0x0600
 
-#include &lt;windows.h&gt;
+#include <windows.h>
 
 BOOL StartInitialization()
 {
     INIT_ONCE InitOnce;
 
-    InitOnceInitialize(&amp;InitOnce);
+    InitOnceInitialize(&InitOnce);
 
     //...
     return TRUE;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

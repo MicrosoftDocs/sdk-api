@@ -59,9 +59,9 @@ The <b>GraphicsPathIterator::NextMarker</b> method gets the next marker-delimite
 
 ### -param path [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved section. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved section. 
 
 
 ## -returns
@@ -80,24 +80,20 @@ This method returns the number of data points in the retrieved section. If there
 
 
 
-A path has an array of data points that define its lines and curves. You can call a path's <a href="https://msdn.microsoft.com/c0c82a33-88f6-4540-9cc9-5cad31a59e58">SetMarker</a> method to designate certain points in the array as markers. Those marker points divide the path into sections.
+A path has an array of data points that define its lines and curves. You can call a path's <a href="https://msdn.microsoft.com/en-us/library/ms535568(v=VS.85).aspx">SetMarker</a> method to designate certain points in the array as markers. Those marker points divide the path into sections.
 
-The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an iterator, it gets the first marker-delimited section of that iterator's associated path. The second time, it gets the second section, and so on. Each time you call <a href="https://msdn.microsoft.com/e7ad0477-10f6-43e0-9788-47373a40e7cd">GraphicsPathIterator::NextSubpath</a>, it returns the number of data points in the retrieved section. When there are no sections remaining, it returns 0.
+The first time you call the <b>GraphicsPathIterator::NextMarker</b> method of an iterator, it gets the first marker-delimited section of that iterator's associated path. The second time, it gets the second section, and so on. Each time you call <a href="https://msdn.microsoft.com/en-us/library/ms535462(v=VS.85).aspx">GraphicsPathIterator::NextSubpath</a>, it returns the number of data points in the retrieved section. When there are no sections remaining, it returns 0.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds five figures to the path. The calls to the <a href="https://msdn.microsoft.com/c0c82a33-88f6-4540-9cc9-5cad31a59e58">SetMarker</a> method place two markers in the path. The first marker is at the end of a figure, and the second marker is in the middle of a figure. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. Then the code calls the iterator's <b>GraphicsPathIterator::NextMarker</b> method twice to obtain the second marker-delimited section of the path. Finally, the code draws the retrieved section of the path.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds five figures to the path. The calls to the <a href="https://msdn.microsoft.com/en-us/library/ms535568(v=VS.85).aspx">SetMarker</a> method place two markers in the path. The first marker is at the end of a figure, and the second marker is in the middle of a figure. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. Then the code calls the iterator's <b>GraphicsPathIterator::NextMarker</b> method twice to obtain the second marker-delimited section of the path. Finally, the code draws the retrieved section of the path.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID NextMarkerExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -121,24 +117,24 @@ VOID NextMarkerExample(HDC hdc)
    path.AddRectangle(Rect(420, 20, 60, 30));
  
    // Create an iterator, and associate it with the path.
-   GraphicsPathIterator iterator(&amp;path);
+   GraphicsPathIterator iterator(&path);
 
    // Get the second marker-delimited section by calling NextMarker twice.
    GraphicsPath section;
    INT count;
-   count = iterator.NextMarker(&amp;section);
-   count = iterator.NextMarker(&amp;section);
+   count = iterator.NextMarker(&section);
+   count = iterator.NextMarker(&section);
 
    // The variable "count" now holds the number of 
    // data points in the second marker-delimited section.
 
    // Draw the retrieved section.
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;bluePen, &amp;section);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawPath(&bluePen, &section);
+}
+```
+
+
 
 
 
@@ -147,31 +143,31 @@ VOID NextMarkerExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/c757cfb8-25fe-4881-96b3-5257f925b781">GetPathData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535534(v=VS.85).aspx">GetPathData</a>
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/91137029-182d-4dc5-89a3-f3835f55d327">GraphicsPathIterator::NextSubpath Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535458(v=VS.85).aspx">GraphicsPathIterator::NextSubpath Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eb9e19c-df28-4cf9-a434-c27478ba1fa5">NextMarker</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535457(v=VS.85).aspx">NextMarker</a>
 
 
 
-<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
  
 
  

@@ -108,7 +108,7 @@ The algorithm identifies objects within a sequence of video fields. Before it re
 
 
 
-<a href="https://msdn.microsoft.com/ae71c9d6-2540-4679-927c-e1d759df7009">VMR9DeinterlaceCaps Structure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407362(v=VS.85).aspx">VMR9DeinterlaceCaps Structure</a>
  
 
  

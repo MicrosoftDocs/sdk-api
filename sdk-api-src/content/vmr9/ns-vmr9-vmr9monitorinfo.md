@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <code>VMR9MonitorInfo</code> structure is used with the VMR-9 in the <a href="https://msdn.microsoft.com/cebd40c2-ea41-4ed1-87d1-37f9d427c539">IVMRMonitorConfig9::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system.
+The <code>VMR9MonitorInfo</code> structure is used with the VMR-9 in the <a href="https://msdn.microsoft.com/en-us/library/Dd390483(v=VS.85).aspx">IVMRMonitorConfig9::GetAvailableMonitors</a> method to set and retrieve information about monitors on the system.
 
 
 

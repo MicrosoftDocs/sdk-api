@@ -84,18 +84,14 @@ The values of the three components of the current instance of <code>XMFLOAT3PK</
 	significant bits:
  
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
   (Z10Y11X11): [32] ZZZZZzzz zzYYYYYY yyyyyXXX XXXxxxxx [0]
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Or in detail:
 
 

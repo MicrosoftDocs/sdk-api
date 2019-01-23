@@ -181,22 +181,18 @@ Do not confuse "Do not show this dialog box" with "Remember this answer". <b>SHM
 			
             	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 int iResult = SHMessageBoxCheck(hwnd, 
                                 TEXT("Do you want to exit without saving?"),
                                 TEXT("Warning"), 
                                 MB_YESNO, 
                                 IDNO,
-                                TEXT("{d9108ba3-9a61-4398-bfbc-b02102c77e8a}");</pre>
-</td>
-</tr>
-</table></span></div>
+                                TEXT("{d9108ba3-9a61-4398-bfbc-b02102c77e8a}");
+```
+
+
 If the user selects <b>In the future, do not show me this</b> dialog box and clicks the <b>Yes</b> button, <b>SHMessageBoxCheck</b> returns IDYES. However, the next time this code is executed, <b>SHMessageBoxCheck</b> does not return IDYES, even though the user selected <b>Yes</b> originally. Instead, it returns IDNO, because that is the value specified by <i>iDefault</i>.
 
 The default button displayed by the message box should agree with your <i>iDefault</i> value. The lack of support for the MB_DEFBUTTON2 flag means that <i>iDefault</i> should be set to IDOK if you have specified the MB_OK or MB_OKCANCEL flag. The <i>iDefault</i> value should be set to IDYES if you have set the MB_YESNO flag.

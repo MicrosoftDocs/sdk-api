@@ -114,13 +114,9 @@ The following example creates a
 						<b>PathGradientBrush::SetInterpolationColors</b> method sets the brush's preset colors to red, blue, and aqua and sets the blend positions to 0, 0, 4, and 1. The 
 						<a href="https://msdn.microsoft.com/en-us/library/ms535773(v=VS.85).aspx">Graphics::FillRectangle</a> method uses the path gradient brush to paint a rectangle that contains the triangular path.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetInterpColors(HDC hdc)
+
+```cpp
+VOID Example_SetInterpColors(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -138,11 +134,11 @@ The following example creates a
       1.0f};   // aqua at the center
 
    pthGrBrush.SetInterpolationColors(col, pos, 3);
-   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 300, 300);  
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&pthGrBrush, 0, 0, 300, 300);  
+}
+```
+
+
 
 
 

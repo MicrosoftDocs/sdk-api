@@ -63,7 +63,7 @@ Attendee that requests control.
 
 ### -param RequestedLevel [in]
 
-Level of control requested by the attendee. For possible values, see the <a href="https://msdn.microsoft.com/f97b0493-82bf-487e-adc1-2dc40eeeb36c">CTRL_LEVEL</a> enumeration.
+Level of control requested by the attendee. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa373265(v=VS.85).aspx">CTRL_LEVEL</a> enumeration.
 
 
 ### -param ReasonCode [in]

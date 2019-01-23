@@ -59,16 +59,16 @@ The <b>Graphics::DrawClosedCurve</b> method draws a closed cardinal spline.
 
 ### -param pen [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>*</b>
 
 Pointer to a pen that is used to draw the closed cardinal spline. 
 
 
 ### -param points [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a> objects that specify the coordinates of the closed cardinal spline. The array of <b>PointF</b> objects must contain a minimum of three elements. 
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a> objects that specify the coordinates of the closed cardinal spline. The array of <b>PointF</b> objects must contain a minimum of three elements. 
 
 
 ### -param count [in]
@@ -90,14 +90,14 @@ Real number that specifies how tightly the curve bends through the coordinates o
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -116,13 +116,9 @@ Each ending point is the starting point for the next cardinal spline. In a close
 
 The following example draws a closed cardinal spline.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_DrawClosedCurve4(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -147,21 +143,21 @@ VOID Example_DrawClosedCurve4(HDC hdc)
       point7};
 
    // Draw the closed curve.
-   graphics.DrawClosedCurve(&amp;greenPen, curvePoints, 7, 1.0);
+   graphics.DrawClosedCurve(&greenPen, curvePoints, 7, 1.0);
 
    // Draw the points in the curve.
    SolidBrush redBrush(Color(255, 255, 0, 0));
-   graphics.FillEllipse(&amp;redBrush, Rect(95, 95, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(495, 95, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(495, 495, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(195, 45, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(395, 5, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(595, 195, 10, 10));
-   graphics.FillEllipse(&amp;redBrush, Rect(695, 395, 10, 10));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&redBrush, Rect(95, 95, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(495, 95, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(495, 495, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(195, 45, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(395, 5, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(595, 195, 10, 10));
+   graphics.FillEllipse(&redBrush, Rect(695, 395, 10, 10));
+}
+```
+
+
 
 
 
@@ -170,31 +166,31 @@ VOID Example_DrawClosedCurve4(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/4fc62f00-7006-4ade-bfcc-091a3a97d889">Cardinal Splines</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536358(v=VS.85).aspx">Cardinal Splines</a>
 
 
 
-<a href="https://msdn.microsoft.com/3b29e150-26ac-46c6-8aa5-984aeb03392a">DrawCurve Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535742(v=VS.85).aspx">DrawCurve Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bb84f55-18d0-4a4c-bc5b-7803aa807954">Drawing Cardinal Splines</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533934(v=VS.85).aspx">Drawing Cardinal Splines</a>
 
 
 
-<a href="https://msdn.microsoft.com/378f0d34-7328-45e5-9f55-826bdaed3aab">FillClosedCurve Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535765(v=VS.85).aspx">FillClosedCurve Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/2d357844-19a8-4ada-ba1e-685fea2e65ce">PointF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534488(v=VS.85).aspx">PointF</a>
  
 
  

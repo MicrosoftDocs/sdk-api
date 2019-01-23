@@ -58,7 +58,7 @@ Gets the restrictions defined for this item.
 
 ### -param RestrictionFacets [out]
 
-A bitmask of  the <a href="https://msdn.microsoft.com/b9e62904-f6a9-4299-a558-51b57bd7d3db">WcmRestrictionFacets</a> values that are defined for this item.
+A bitmask of  the <a href="https://msdn.microsoft.com/en-us/library/Aa378606(v=VS.85).aspx">WcmRestrictionFacets</a> values that are defined for this item.
 
 
 ## -returns

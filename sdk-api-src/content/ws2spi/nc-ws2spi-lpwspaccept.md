@@ -297,13 +297,9 @@ The parameter <i>addr</i> is a result parameter that is filled with the address 
 
 The prototype of the condition function is as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 int CALLBACK ConditionFunc(
   IN LPWSABUF     lpCallerId, 
   IN LPWSABUF     lpCallerData, 
@@ -314,10 +310,10 @@ int CALLBACK ConditionFunc(
   OUT GROUP FAR   *g, 
   IN DWORD        dwCallbackData 
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The <i>lpCallerId</i> and <i>lpCallerData</i> are value parameters that must contain the address of the connecting entity and any user data that was sent along with the connection request. If no caller identifier or caller data is available, the corresponding parameter will be null. Many network protocols do not support connect-time caller data. Most conventional network protocols can be expected to support caller identifier information at connection-request time. The <b>buf</b> part of the 
 <a href="https://msdn.microsoft.com/a012c3ba-67fd-4fcf-84d1-85e9d495c29c">WSABUF</a> pointed to by <i>lpCallerId</i> points to a 
 <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a>. The <b>sockaddr</b> is interpreted according to its address family (typically by casting the <b>sockaddr</b> to some type specific to the address family).

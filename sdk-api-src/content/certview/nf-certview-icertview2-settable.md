@@ -140,23 +140,19 @@ If the <b>SetTable</b> method is not called, then the default table  CVRC_TABLE_
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 
 // Specify the certificate revocation list table.
-hr = pCertView2-&gt;SetTable(CVRC_TABLE_CRL);
+hr = pCertView2->SetTable(CVRC_TABLE_CRL);
 if (FAILED(hr))
 {
     printf("Failed SetTable\n");
     exit(1);  // Or other error action.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

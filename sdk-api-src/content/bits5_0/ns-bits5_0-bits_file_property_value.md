@@ -50,7 +50,7 @@ req.redist:
 
 The <b>BITS_FILE_PROPERTY_VALUE</b> union provides the 
     property value of the BITS file based on a value from the 
-    <a href="https://msdn.microsoft.com/A14E301E-029E-43C8-B012-8FFFA652EA40">BITS_FILE_PROPERTY_ID</a> enumeration.
+    <a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ This value is used when using the property ID
 
 
 
-<a href="https://msdn.microsoft.com/A14E301E-029E-43C8-B012-8FFFA652EA40">BITS_FILE_PROPERTY_ID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a>
 
 
 

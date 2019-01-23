@@ -58,7 +58,7 @@ The <b>KSJACK_SINK_INFORMATION</b> structure stores information about an audio j
 
 ### -field ConnType
 
-Specifies the type of connection. The connection type values are defined in the  <a href="https://msdn.microsoft.com/a1a9b0cf-b1bf-49df-a976-62f44fcf70ae">KSJACK_SINK_CONNECTIONTYPE</a> enumeration.
+Specifies the type of connection. The connection type values are defined in the  <a href="https://msdn.microsoft.com/en-us/library/Dd316547(v=VS.85).aspx">KSJACK_SINK_CONNECTIONTYPE</a> enumeration.
 
 
 ### -field ManufacturerId

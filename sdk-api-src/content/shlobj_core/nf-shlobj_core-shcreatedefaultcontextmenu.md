@@ -58,9 +58,9 @@ Creates an object that represents the Shell's default context menu implementatio
 
 ### -param pdcm [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb773251(v=VS.85).aspx">DEFCONTEXTMENU</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a>*</b>
 
-A pointer to a constant <a href="https://msdn.microsoft.com/en-us/library/Bb773251(v=VS.85).aspx">DEFCONTEXTMENU</a> structure.
+A pointer to a constant <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a> structure.
 
 
 ### -param riid
@@ -92,9 +92,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function is typically used in the implementation of <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">IShellFolder::GetUIObjectOf</a>. <b>GetUIObjectOf</b> creates a context menu that merges <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> handlers specified by the <a href="https://msdn.microsoft.com/en-us/library/Bb773251(v=VS.85).aspx">DEFCONTEXTMENU</a> structure, and can optionally provide default context menu verb implementations such as open, explore, delete, and copy.
+This function is typically used in the implementation of <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">IShellFolder::GetUIObjectOf</a>. <b>GetUIObjectOf</b> creates a context menu that merges <a href="https://msdn.microsoft.com/6ea0b8f9-4a05-4a4b-adc5-d540eb3287ee">IContextMenu</a> handlers specified by the <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a> structure, and can optionally provide default context menu verb implementations such as open, explore, delete, and copy.
 
-The operation of this function is controlled by the input specified in the <a href="https://msdn.microsoft.com/en-us/library/Bb773251(v=VS.85).aspx">DEFCONTEXTMENU</a> structure.The API<a href="https://msdn.microsoft.com/7b5e012d-1c8b-42c5-8181-9923fd389fc5">CDefFolderMenu_Create2</a> is another way to construct the default context menu implementation. It is less expressive than <b>SHCreateDefaultContextMenu</b> but it exists in platforms prior to Windows Vista.
+The operation of this function is controlled by the input specified in the <a href="https://msdn.microsoft.com/007861f6-1e66-4c5f-a459-3cfbe9f8cec2">DEFCONTEXTMENU</a> structure.The API<a href="https://msdn.microsoft.com/7b5e012d-1c8b-42c5-8181-9923fd389fc5">CDefFolderMenu_Create2</a> is another way to construct the default context menu implementation. It is less expressive than <b>SHCreateDefaultContextMenu</b> but it exists in platforms prior to Windows Vista.
            
 
 

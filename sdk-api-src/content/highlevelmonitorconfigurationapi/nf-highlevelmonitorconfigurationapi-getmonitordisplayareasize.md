@@ -64,7 +64,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://m
 
 ### -param stSizeType [in]
 
-A member of the <a href="https://msdn.microsoft.com/6a917b7d-b91d-478a-b84e-7586d743522a">MC_SIZE_TYPE</a> enumeration, specifying whether to retrieve the width or the height.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692959(v=VS.85).aspx">MC_SIZE_TYPE</a> enumeration, specifying whether to retrieve the width or the height.
           
 
 

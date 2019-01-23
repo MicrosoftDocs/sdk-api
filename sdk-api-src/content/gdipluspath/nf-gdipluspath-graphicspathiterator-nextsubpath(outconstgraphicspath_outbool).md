@@ -59,9 +59,9 @@ The <b>GraphicsPathIterator::NextSubpath</b> method gets the next figure (subpat
 
 ### -param path [out]
 
-Type: <b><a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved figure. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object. This method sets the data points of this <b>GraphicsPath</b> object to match the data points of the retrieved figure. 
 
 
 ### -param isClosed [out]
@@ -94,15 +94,11 @@ The first time you call the <b>GraphicsPathIterator::NextSubpath</b> method of a
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> object and adds five figures (also called subpaths) to the path. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <b>GraphicsPathIterator::NextSubpath</b> method twice to retrieve the second figure (subpath) from the path. Then the code calls the <a href="https://msdn.microsoft.com/fffed788-ee5c-4c15-9480-dbedb7caa614">DrawPath</a> method of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to draw that individual subpath.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds five figures (also called subpaths) to the path. The code passes the address of the <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <b>GraphicsPathIterator::NextSubpath</b> method twice to retrieve the second figure (subpath) from the path. Then the code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535685(v=VS.85).aspx">DrawPath</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to draw that individual subpath.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID NextSubpathExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -124,26 +120,26 @@ VOID NextSubpathExample(HDC hdc)
    path.AddRectangle(Rect(420, 20, 60, 30));  // Subpath count is 5.
  
    // Create an iterator, and associate it with the path.
-   GraphicsPathIterator iterator(&amp;path);
+   GraphicsPathIterator iterator(&path);
 
    // Get the second subpath by calling NextSubpath twice.
    GraphicsPath subpath;
    BOOL isClosed;
    INT count;
-   count = iterator.NextSubpath(&amp;subpath, &amp;isClosed);
-   count = iterator.NextSubpath(&amp;subpath, &amp;isClosed);
+   count = iterator.NextSubpath(&subpath, &isClosed);
+   count = iterator.NextSubpath(&subpath, &isClosed);
 
    // The variable "count" now holds the number of 
    // data points in the second subpath.
 
    // Draw the retrieved subpath.
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;bluePen, &amp;subpath);
+   graphics.DrawPath(&bluePen, &subpath);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -152,35 +148,35 @@ VOID NextSubpathExample(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/c757cfb8-25fe-4881-96b3-5257f925b781">GetPathData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535534(v=VS.85).aspx">GetPathData</a>
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/f534b1b2-1fe3-4f30-8a7f-30d44f11d297">GraphicsPathIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a>
 
 
 
-<a href="https://msdn.microsoft.com/815bd2c6-c778-4983-acf4-071a89269a19">GraphicsPathIterator::GetSubpathCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535456(v=VS.85).aspx">GraphicsPathIterator::GetSubpathCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/6eb9e19c-df28-4cf9-a434-c27478ba1fa5">GraphicsPathIterator::NextMarker Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535457(v=VS.85).aspx">GraphicsPathIterator::NextMarker Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/91137029-182d-4dc5-89a3-f3835f55d327">NextSubpath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535458(v=VS.85).aspx">NextSubpath</a>
 
 
 
-<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
  
 
  

@@ -4,7 +4,7 @@ title: CreateWaitableTimerExW function
 author: windows-sdk-content
 description: Creates or opens a waitable timer object and returns a handle to the object.
 old-location: base\createwaitabletimerex.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 9ef51567-7d0f-4a2e-a798-289564733410
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -94,7 +94,7 @@ Windows Animation can call <a href="https://msdn.microsoft.com/a1c5451a-b8d0-4eb
 
 
 
-<a href="https://msdn.microsoft.com/3620723e-5c9b-4d6a-8576-9017fa449a5d">UI_ANIMATION_DEPENDENCIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317034(v=VS.85).aspx">UI_ANIMATION_DEPENDENCIES</a>
 
 
 

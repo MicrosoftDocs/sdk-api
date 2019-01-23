@@ -94,13 +94,9 @@ The <b>UseExistingKeySet</b> property affects the behavior of the following meth
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL     bUEKS;
+
+```cpp
+BOOL     bUEKS;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -117,10 +113,8 @@ hr = pEnroll->put_UseExistingKeySet( TRUE );
 if (FAILED( hr ))
     printf("Failed put_UseExistingKeySet - %x\n", hr );
 else
-    printf( "UseExistingKeySet set to TRUE\n" );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "UseExistingKeySet set to TRUE\n" );
+```
 
 
 

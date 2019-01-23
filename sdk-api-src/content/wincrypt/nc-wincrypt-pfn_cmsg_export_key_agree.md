@@ -63,7 +63,7 @@ A pointer to a <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e0
 
 ### -param pKeyAgreeEncodeInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f8691df7-3cc1-48cb-8787-84c7046b280f">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa377945(v=VS.85).aspx">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
 
 
 ### -param pKeyAgreeEncryptInfo [in, out]

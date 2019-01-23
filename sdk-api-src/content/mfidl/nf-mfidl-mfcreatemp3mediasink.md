@@ -86,13 +86,9 @@ audio samples as input, and writes an MP3 file with ID3 headers as output. The M
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
+
+```cpp
+HRESULT CreateMP3Sink(PCWSTR pszOutputFile, IMFMediaSink **ppSink)
 {
     *ppSink = NULL;
 
@@ -104,7 +100,7 @@ audio samples as input, and writes an MP3 file with ID3 headers as output. The M
         MF_OPENMODE_DELETE_IF_EXIST, 
         MF_FILEFLAGS_NONE, 
         pszOutputFile, 
-        &amp;pStream
+        &pStream
         );
        
     // Create the MP3 media sink.
@@ -113,13 +109,13 @@ audio samples as input, and writes an MP3 file with ID3 headers as output. The M
         hr =  MFCreateMP3MediaSink(pStream, ppSink);
     }
 
-    SafeRelease(&amp;pStream);
+    SafeRelease(&pStream);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

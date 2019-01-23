@@ -59,10 +59,10 @@ The <b>Graphics::FillPie</b> method uses a brush to fill the interior of a pie.
 
 ### -param brush [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/37cfc0f8-8e17-4944-85fc-cc80ebff13df">Brush</a> object that is used to paint the interior of the pie. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534424(v=VS.85).aspx">Brush</a> object that is used to paint the interior of the pie. 
 
 
 ### -param x [in]
@@ -111,12 +111,12 @@ Real number that specifies the angle, in degrees, between the starting and endin
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -135,13 +135,9 @@ A pie is a portion of the interior of an ellipse (it is bounded by an elliptical
 
 The following example defines a pie and then fills it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_FillPie3(HDC hdc)
+
+```cpp
+VOID Example_FillPie3(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -157,11 +153,11 @@ The following example defines a pie and then fills it.
    REAL sweepAngle = 45.0f;
 
    // Fill the pie.
-   graphics.FillPie(&amp;blackBrush, x, y, width, height, startAngle, sweepAngle);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillPie(&blackBrush, x, y, width, height, startAngle, sweepAngle);
+}
+```
+
+
 
 
 
@@ -170,15 +166,15 @@ The following example defines a pie and then fills it.
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
  
 
  

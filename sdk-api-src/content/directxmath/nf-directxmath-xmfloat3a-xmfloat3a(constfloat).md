@@ -71,21 +71,17 @@ Three element floating point array containing the values used to initialize the 
 
 The following pseudocode demonstrates the operation of this constructor:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMFLOAT3 instance;
 	instance.x =  pArray[0];
 	instance.y =  pArray[1];
 	instance.z =  pArray[2];
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

@@ -100,7 +100,7 @@ The data type is unknown.
 
 
 
-A register component type is specified in the <b>ComponentType</b> member of the <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a> structure.
+A register component type is specified in the <b>ComponentType</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a> structure.
 
 
 

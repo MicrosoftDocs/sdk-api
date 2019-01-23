@@ -291,23 +291,19 @@ Specifies/receives routing header.
 
 Control data is made up of one or more control data objects, each beginning with a <b>WSACMSGHDR</b> structure, defined as the following.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 struct wsacmsghdr {
   UINT        cmsg_len;
   INT         cmsg_level;
   INT         cmsg_type;
   /* followed by UCHAR cmsg_data[] */
 } WSACMSGHDR;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 <div class="alert"><b>Note</b>  The transport, not the application, fills out the header information in the <b>WSACMSGHDR</b> structure. The application simply sets the needed socket options and provides the adequate buffer size.</div>
 <div> </div>
@@ -360,75 +356,55 @@ The protocol-specific type of control information.
 
 The following macros are used to navigate the data objects:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define LPCMSGHDR *WSA_CMSG_FIRSTHDR(LPWSAMSG msg);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Returns a pointer to the first control data object. Returns a <b>NULL</b> pointer if there is no control data in the 
 <b>WSAMSG</b> structure, such as when the <b>Control</b> member is a <b>NULL</b> pointer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define LPCMSGHDR *WSA_CMSG_NXTHDR(LPWSAMSG msg, LPWSACMSGHDR cmsg);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Returns a pointer to the next control data object, or <b>NULL</b> if there are no more data objects. If the  <i>pcmsg</i> parameter is <b>NULL</b>, a pointer to the first control data object is returned.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define UCHAR *WSA_CMSG_DATA(LPWSACMSGHDR pcmsg);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Returns a pointer to the first byte of data (referred to as the <b>cmsg_data</b> member, though it is not defined in the structure).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define UINT WSA_CMSG_SPACE(UINT length);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Returns the total size of a control data object, given the amount of data. Used to allocate the correct amount of buffer space. Includes alignment padding.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define UINT WSA_CMSG_LEN(UINT length);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Returns the value in <b>cmsg_len</b> given the amount of data. Includes alignment padding.
 
 

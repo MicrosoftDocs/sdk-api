@@ -104,30 +104,26 @@ If a positive value of the <i>celt</i> parameter causes the index to exceed the 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT  hr;
+
+```cpp
+HRESULT  hr;
 LONG     Index;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 // skip the next five columns
-hr = pEnumCol-&gt;Skip(5);
+hr = pEnumCol->Skip(5);
 if (S_OK == hr) 
 {
     // get the next column
-    hr = pEnumCol-&gt;Next(&amp;Index);
+    hr = pEnumCol->Next(&Index);
     if (S_OK == hr)
     {
         // Use this column as needed.
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

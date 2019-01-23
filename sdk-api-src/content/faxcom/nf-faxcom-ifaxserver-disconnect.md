@@ -74,11 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-A call to the <b>IFaxServer::Disconnect</b> method attempts to terminate a server connection made by a previous call to the <a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a> method.
+A call to the <b>IFaxServer::Disconnect</b> method attempts to terminate a server connection made by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a> method.
 
-In addition to calling the <b>IFaxServer::Disconnect</b> method, an application must also call the <a href="_com_IUnknown_Release">IUnknown::Release</a> method to allow each object to deallocate itself.
+In addition to calling the <b>IFaxServer::Disconnect</b> method, an application must also call the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method to allow each object to deallocate itself.
 
-For more information, see <a href="https://msdn.microsoft.com/da213475-2cfb-4524-80af-51c1ee0bf658">Connecting to a Fax Server</a> and <a href="https://msdn.microsoft.com/02d276b7-bcbc-4bbe-8051-d9b35f12dc93">Disconnecting from a Fax Server</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690910(v=VS.85).aspx">Connecting to a Fax Server</a> and <a href="https://msdn.microsoft.com/en-us/library/ms690866(v=VS.85).aspx">Disconnecting from a Fax Server</a>.
 
 
 
@@ -88,35 +88,35 @@ For more information, see <a href="https://msdn.microsoft.com/da213475-2cfb-4524
 
 
 
-<a href="https://msdn.microsoft.com/da213475-2cfb-4524-80af-51c1ee0bf658">Connecting to a Fax Server</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690910(v=VS.85).aspx">Connecting to a Fax Server</a>
 
 
 
-<a href="https://msdn.microsoft.com/02d276b7-bcbc-4bbe-8051-d9b35f12dc93">Disconnecting from a Fax Server</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690866(v=VS.85).aspx">Disconnecting from a Fax Server</a>
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/12e71c4c-c4b5-4e6d-a1fa-b833d6a00ff8">IFaxServer::Connect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692315(v=VS.85).aspx">IFaxServer::Connect</a>
 
 
 
-<a href="_com_IUnknown_Release">IUnknown::Release</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a>
  
 
  

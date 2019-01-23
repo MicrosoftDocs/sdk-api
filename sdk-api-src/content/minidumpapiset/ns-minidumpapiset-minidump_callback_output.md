@@ -75,7 +75,7 @@ This member is ignored unless the callback type is <b>IncludeThreadCallback</b>,
 
 ### -field SecondaryFlags
 
-Contains a value from the <a href="https://msdn.microsoft.com/c8485db1-0cc0-4baa-90fb-b5c1f9236b80">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
+Contains a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa813365(v=VS.85).aspx">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
 
 <b>DbgHelp 6.5 and earlier:  </b>This member is not available.
 

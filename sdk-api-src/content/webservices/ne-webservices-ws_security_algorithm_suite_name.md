@@ -64,22 +64,22 @@ A suite of security algorithms used for tasks such as signing and encryting.
 Identifies the Basic256 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
 </li>
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -91,22 +91,22 @@ Identifies the Basic256 algorithm suite. This suite uses the following algorithm
 Identifies the Basic192 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
 </li>
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -118,22 +118,22 @@ Identifies the Basic192 algorithm suite. This suite uses the following algorithm
 Identifies the Basic128 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
 </li>
 </ul>The minimum symmetric key length is 128; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -145,22 +145,22 @@ Identifies the Basic128 algorithm suite. This suite uses the following algorithm
 Identifies the Basic256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
 </li>
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -172,22 +172,22 @@ Identifies the Basic256Rsa15 algorithm suite. This suite uses the following algo
 Identifies the Basic192Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
 </li>
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -199,22 +199,22 @@ Identifies the Basic192Rsa15 algorithm suite. This suite uses the following algo
 Identifies the Basic128RSA15 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
 </li>
 </ul>The minimum symmetric key length is 128; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -226,22 +226,22 @@ Identifies the Basic128RSA15 algorithm suite. This suite uses the following algo
 Identifies the Basic256Sha256 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
 </li>
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -253,22 +253,22 @@ Identifies the Basic256Sha256 algorithm suite. This suite uses the following alg
 Identifies the Basic192Sha256 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
 </li>
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -280,22 +280,22 @@ Identifies the Basic192Sha256 algorithm suite. This suite uses the following alg
 Identifies the Basic128Sha256 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_OAEP</a>
 </li>
 </ul>The minimum symmetric key length is 128; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -307,22 +307,22 @@ Identifies the Basic128Sha256 algorithm suite. This suite uses the following alg
 Identifies the Basic256Sha256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
 </li>
 </ul>The minimum symmetric key length is 256; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -334,22 +334,22 @@ Identifies the Basic256Sha256Rsa15 algorithm suite. This suite uses the followin
 Identifies the Basic192Sha256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
 </li>
 </ul>The minimum symmetric key length is 192; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.
@@ -361,22 +361,22 @@ Identifies the Basic192Sha256Rsa15 algorithm suite. This suite uses the followin
 Identifies the Basic128Sha256Rsa15 algorithm suite. This suite uses the following algorithms:
             <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_CANONICALIZATION_EXCLUSIVE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_DIGEST_SHA_256</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_SYMMETRIC_SIGNATURE_HMAC_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_SIGNATURE_RSA_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_KEY_DERIVATION_P_SHA1</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323375(v=VS.85).aspx">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
+<a href="https://msdn.microsoft.com/e1af7178-0671-45d9-9e25-0931b895ad40">WS_SECURITY_ALGORITHM_ASYMMETRIC_KEYWRAP_RSA_1_5</a>
 </li>
 </ul>The minimum symmetric key length is 128; the maximum symmetric key length is 256.
             The minimum asymmetric key length is 1024; the maximum asymmetric key length is 4096.

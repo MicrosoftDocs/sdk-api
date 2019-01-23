@@ -104,7 +104,7 @@ Any registration to receive notifications is automatically undone if the calling
 
 If the <b>NotificationSource</b> member of the  <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure received by the callback function is <b>WLAN_NOTIFICATION_SOURCE_ACM</b>, then the received notification is an auto configuration module notification. The <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure passed to the <b>WLAN_NOTIFICATION_CALLBACK</b> function  determines the interpretation of the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure.  For more information on these notifications, see the <a href="https://msdn.microsoft.com/b0814b2a-ccdc-4bf1-b11e-25f2cf6ba9bd">WLAN_NOTIFICATION_ACM</a> enumeration reference.
 
-If the <b>NotificationSource</b> member of the  <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure received by the callback function is <b>WLAN_NOTIFICATION_SOURCE_HNWK</b>, then the received notification is a wireless Hosted Network notification supported on Windows 7 and  on Windows Server 2008 R2 with the Wireless LAN Service installed. The <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure passed to the <b>WLAN_NOTIFICATION_CALLBACK</b> function  determines the interpretation of the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure. For more information on these notifications, see the <a href="https://msdn.microsoft.com/f01e4a42-3378-4ceb-b23b-5deb78fb18ca">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a> enumeration reference.
+If the <b>NotificationSource</b> member of the  <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure received by the callback function is <b>WLAN_NOTIFICATION_SOURCE_HNWK</b>, then the received notification is a wireless Hosted Network notification supported on Windows 7 and  on Windows Server 2008 R2 with the Wireless LAN Service installed. The <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure passed to the <b>WLAN_NOTIFICATION_CALLBACK</b> function  determines the interpretation of the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure. For more information on these notifications, see the <a href="https://msdn.microsoft.com/en-us/library/Dd439501(v=VS.85).aspx">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a> enumeration reference.
 
 If the <b>NotificationSource</b> member of the  <a href="https://msdn.microsoft.com/58589825-407c-4635-a2ea-20695b63ec2c">WLAN_NOTIFICATION_DATA</a> structure received by the callback function is <b>WLAN_NOTIFICATION_SOURCE_IHV</b>, then the received notification is an indepent hardware vendor (IHV) notification. The <b>NotificationCode</b> member of the <b>WLAN_NOTIFICATION_DATA</b> structure passed to the <b>WLAN_NOTIFICATION_CALLBACK</b> function  determines the interpretation of the <i>pData</i> member of <b>WLAN_NOTIFICATION_DATA</b> structure, which is specific to the IHV.  
 
@@ -128,7 +128,7 @@ If the <b>NotificationSource</b> member of the  <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/f01e4a42-3378-4ceb-b23b-5deb78fb18ca">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd439501(v=VS.85).aspx">WLAN_HOSTED_NETWORK_NOTIFICATION_CODE</a>
 
 
 

@@ -58,7 +58,7 @@ Generated when an activity is part of an ASP page.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ObjId [in]
@@ -95,7 +95,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/f064a5cd-c84d-4b80-96fc-1036af333901">IComIdentityEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687795(v=VS.85).aspx">IComIdentityEvents</a>
  
 
  

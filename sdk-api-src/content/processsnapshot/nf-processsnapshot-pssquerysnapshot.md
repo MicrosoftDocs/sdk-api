@@ -65,7 +65,7 @@ A handle to the snapshot to query.
 
 ### -param InformationClass [in]
 
-An enumerator member that selects what information to query. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457851(v=VS.85).aspx">PSS_QUERY_INFORMATION_CLASS</a>.
+An enumerator member that selects what information to query. For more information, see <a href="https://msdn.microsoft.com/1C3E5BF4-5AC9-4012-B29D-49C35C0AF90B">PSS_QUERY_INFORMATION_CLASS</a>.
 
 
 ### -param Buffer [out]

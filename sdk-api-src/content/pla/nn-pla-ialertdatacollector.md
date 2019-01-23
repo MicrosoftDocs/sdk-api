@@ -59,27 +59,23 @@ To create the alert data collector, call the <a href="https://msdn.microsoft.com
 
 The following example shows the XML that you can use to initialize this object if you call <a href="https://msdn.microsoft.com/32a1aba6-24f4-416a-b2ba-9be264fce3fc">CreateDataCollectorFromXml</a> to create it. The <a href="https://msdn.microsoft.com/c362cd5f-2db3-40ad-8f5e-e75a40db204c">IDataCollector::Xml</a> property also returns this XML.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;AlertDataCollector&gt;
-    &lt;Alert/&gt;              &lt;!-- Specify an &lt;Alert&gt; element for each alert --&gt;
-    &lt;AlertDisplayName/&gt;   &lt;!-- Read-only. Contains the contents of --&gt;
-                          &lt;!-- &lt;Alert/&gt; in the user's locale --&gt;
-    &lt;EventLog/&gt;           &lt;!-- nonzero (true), 0 (false) --&gt;
-    &lt;SampleInterval/&gt;
-    &lt;Task/&gt;
-    &lt;TaskArguments/&gt;
-    &lt;TaskRunAsSelf/&gt;
-    &lt;TaskUserTextArguments/&gt;
-    &lt;TriggerDataCollectorSet/&gt;
-&lt;/AlertDataCollector&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+<AlertDataCollector>
+    <Alert/>              <!-- Specify an <Alert> element for each alert -->
+    <AlertDisplayName/>   <!-- Read-only. Contains the contents of -->
+                          <!-- <Alert/> in the user's locale -->
+    <EventLog/>           <!-- nonzero (true), 0 (false) -->
+    <SampleInterval/>
+    <Task/>
+    <TaskArguments/>
+    <TaskRunAsSelf/>
+    <TaskUserTextArguments/>
+    <TriggerDataCollectorSet/>
+</AlertDataCollector>
+```
+
+
 Note that the example does not show the property elements inherited from <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a> that you also need to specify.
 
 When you specify the XML to create the collector, you can specify only the elements for the properties that you want to set. If you do not specify a property, PLA provides a default value. When you retrieve the XML for the collector, the XML provides all elements, including those from <a href="https://msdn.microsoft.com/e1860bcf-c62d-434b-b98b-38bad7f84d89">IDataCollector</a>. 

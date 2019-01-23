@@ -4,7 +4,7 @@ title: RegisterWaitForSingleObject function
 author: windows-sdk-content
 description: Directs a wait thread in the thread pool to wait on the object.
 old-location: base\registerwaitforsingleobject.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: d0cd8b28-6e20-449a-94dd-cca2be46b812
 ms.author: windowssdkdev
 ms.date: 12/5/2018

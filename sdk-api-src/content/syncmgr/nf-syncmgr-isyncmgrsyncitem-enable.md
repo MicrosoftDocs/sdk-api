@@ -95,19 +95,15 @@ If the handler does not need to perform any actions when it is activated, it can
 
 The following example shows a simple implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceSyncItem::Enable(__in BOOL fEnable)
+
+```cpp
+STDMETHODIMP CMyDeviceSyncItem::Enable(__in BOOL fEnable)
 {
     return E_NOTIMPL;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

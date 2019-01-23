@@ -4,7 +4,7 @@ title: CreateEventA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed event object.
 old-location: base\createevent.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -87,13 +87,9 @@ Windows Store apps must use <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4E
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateD3DDeviceManager(
+
+```cpp
+HRESULT CreateD3DDeviceManager(
     IDirect3DDevice9 *pDevice, 
     UINT *pReset, 
     IDirect3DDeviceManager9 **ppManager
@@ -103,14 +99,14 @@ Windows Store apps must use <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4E
 
     IDirect3DDeviceManager9 *pD3DManager = NULL;
 
-    HRESULT hr = DXVA2CreateDirect3DDeviceManager9(&amp;resetToken, &amp;pD3DManager);
+    HRESULT hr = DXVA2CreateDirect3DDeviceManager9(&resetToken, &pD3DManager);
 
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pD3DManager-&gt;ResetDevice(pDevice, resetToken);
+    hr = pD3DManager->ResetDevice(pDevice, resetToken);
 
     if (FAILED(hr))
     {
@@ -118,19 +114,19 @@ Windows Store apps must use <a href="https://msdn.microsoft.com/4A0DC266-FCF0-4E
     }
 
     *ppManager = pD3DManager;
-    (*ppManager)-&gt;AddRef();
+    (*ppManager)->AddRef();
 
     *pReset = resetToken;
 
 
 done:
-    SafeRelease(&amp;pD3DManager);
+    SafeRelease(&pD3DManager);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -135,13 +135,9 @@ fxc.exe /T fx_4_0 /Fo Tutorial03.fxo Tutorial03.fx
 
 Load the compiled effect at runtime.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 ifstream is("tutorial03.fxo", ios::binary);
 is.seekg(0,ios_base::end);
 streampos pos = is.tellg();
@@ -150,10 +146,8 @@ char * effectBuffer = new char[pos];
 is.read(effectBuffer,pos);
 	
 hr = D3D10CreateEffectFromMemory((void *)effectBuffer,pos,0,g_pd3dDevice,NULL,&g_pEffect);
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
 
 
 <div class="code"></div>

@@ -119,7 +119,7 @@ Use this flag when specifying a monitor on multimonitor systems.
 
 #### SEE_MASK_NOCLOSEPROCESS
 
-The application will close the process. If the <b>lpProcessInformation</b> member is a valid <a href="https://msdn.microsoft.com/78d84499-7e56-4ff7-a8cd-1cf1b275597a">PROCESS_INFORMATION</a> pointer, and <b>SEE_MASK_NOCLOSEPROCESS</b> is set, the process will remain open when <a href="https://msdn.microsoft.com/78548eaf-6907-41e3-9c22-848d0d159085">SHCreateProcessAsUserW</a> returns. The <b>hProcess</b> and <b>hThread</b> members of the <b>PROCESS_INFORMATION</b> structure hold the process and thread handles, respectively. This flag is typically set to allow an application to find out when a process created with <b>SHCreateProcessAsUserW</b> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed. If this flag is not set, the process will be closed before <b>SHCreateProcessAsUserW</b> returns, even if <b>lpProcessInformation</b> is a valid pointer.
+The application will close the process. If the <b>lpProcessInformation</b> member is a valid <a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> pointer, and <b>SEE_MASK_NOCLOSEPROCESS</b> is set, the process will remain open when <a href="https://msdn.microsoft.com/78548eaf-6907-41e3-9c22-848d0d159085">SHCreateProcessAsUserW</a> returns. The <b>hProcess</b> and <b>hThread</b> members of the <b>PROCESS_INFORMATION</b> structure hold the process and thread handles, respectively. This flag is typically set to allow an application to find out when a process created with <b>SHCreateProcessAsUserW</b> terminates. In some cases, such as when execution is satisfied through a DDE conversation, no handle will be returned. The calling application is responsible for closing the handle when it is no longer needed. If this flag is not set, the process will be closed before <b>SHCreateProcessAsUserW</b> returns, even if <b>lpProcessInformation</b> is a valid pointer.
 
 
 
@@ -214,7 +214,7 @@ A pointer to a <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee1
 
 Type: <b>LPPROCESS_INFORMATION</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/78d84499-7e56-4ff7-a8cd-1cf1b275597a">PROCESS_INFORMATION</a> structure that receives information about the new process. Set this member to a valid structure pointer, and set the SEE_MASK_NOCLOSEPROCESS flag in the <b>fMask</b> member, and the process will remain open when the function returns. The <b>PROCESS_INFORMATION</b> structure's <b>hProcess</b> and <b>hThread</b> members will then hold the process and thread handles, respectively. Set this member to <b>NULL</b>, and the process will be closed before the function returns.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684873(v=VS.85).aspx">PROCESS_INFORMATION</a> structure that receives information about the new process. Set this member to a valid structure pointer, and set the SEE_MASK_NOCLOSEPROCESS flag in the <b>fMask</b> member, and the process will remain open when the function returns. The <b>PROCESS_INFORMATION</b> structure's <b>hProcess</b> and <b>hThread</b> members will then hold the process and thread handles, respectively. Set this member to <b>NULL</b>, and the process will be closed before the function returns.
 
 
 ## -remarks
@@ -225,16 +225,12 @@ A pointer to a <a href="https://msdn.microsoft.com/78d84499-7e56-4ff7-a8cd-1cf1b
 
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+sei.lpParameters = "An example: \"\"\"quoted text\"\"\"";
+```
+
+
 In this case, the application receives three parameters: <i>An, example:, and "quoted text"</i>.
 
 

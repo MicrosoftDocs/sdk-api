@@ -58,7 +58,7 @@ The <b>UiInfo</b> structure is used to display repair messages to the user.
 
 ### -field type
 
-Type: <b><a href="https://msdn.microsoft.com/819ab594-860b-42a0-be6e-bab0e669c200">UI_INFO_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa369901(v=VS.85).aspx">UI_INFO_TYPE</a></b>
 
 The type of user interface (UI) to use. This can be one of the values shown in the following members.
 
@@ -100,7 +100,7 @@ Use a direct user interface. Used when <b>type</b> is set to UIT_DUI.
 
 
 
-<a href="https://msdn.microsoft.com/819ab594-860b-42a0-be6e-bab0e669c200">UI_INFO_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369901(v=VS.85).aspx">UI_INFO_TYPE</a>
  
 
  

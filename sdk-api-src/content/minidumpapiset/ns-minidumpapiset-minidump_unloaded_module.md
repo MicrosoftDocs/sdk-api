@@ -87,7 +87,7 @@ An RVA to a
 
 
 
-<a href="https://msdn.microsoft.com/26a42ae7-f84d-451d-92e9-dbaffb15ca74">MINIDUMP_UNLOADED_MODULE_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680521(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE_LIST</a>
  
 
  

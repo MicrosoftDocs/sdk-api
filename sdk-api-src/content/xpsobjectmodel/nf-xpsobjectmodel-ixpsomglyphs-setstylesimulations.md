@@ -58,7 +58,7 @@ Sets the style simulations that will be applied when the glyphs are rendered.
 
 ### -param styleSimulations [in]
 
-The <a href="https://msdn.microsoft.com/3f77c349-ba78-44e9-866a-9f654ed0e9dd">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372990(v=VS.85).aspx">XPS_STYLE_SIMULATION</a> value that specifies the style simulation to be applied.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>styleSimulations</i> is not a valid <a href="https://msdn.microsoft.com/3f77c349-ba78-44e9-866a-9f654ed0e9dd">XPS_STYLE_SIMULATION</a> value.
+<i>styleSimulations</i> is not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372990(v=VS.85).aspx">XPS_STYLE_SIMULATION</a> value.
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/3f77c349-ba78-44e9-866a-9f654ed0e9dd">XPS_STYLE_SIMULATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372990(v=VS.85).aspx">XPS_STYLE_SIMULATION</a>
  
 
  

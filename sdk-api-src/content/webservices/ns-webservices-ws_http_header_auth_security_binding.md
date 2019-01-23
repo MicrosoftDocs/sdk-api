@@ -55,7 +55,7 @@ The security binding subtype for specifying the use of HTTP header authenticatio
                 security binding property can be specified to use it for a HTTP proxy server. This binding provides client authentication, but not message protection
                 since the HTTP body is unaffected by this binding. While this security binding can be used alone, such usage is not recommended;
                 more typically, HTTP header authentication is done in conjunction with transport level security provided by a security binding such as the 
-                <a href="https://msdn.microsoft.com/078efc1d-a1bc-4035-919c-f927a8ceb8e6">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. To use this binding without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>.
+                <a href="https://msdn.microsoft.com/en-us/library/Dd323441(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING</a>. To use this binding without SSL, the security description property <b>WS_SECURITY_PROPERTY_TRANSPORT_PROTECTION_LEVEL</b> must be explicitly set to <b>WS_PROTECTION_LEVEL_NONE</b>.
 
 With this security binding, the following security binding properties may be specified:
 <ul>
@@ -92,7 +92,7 @@ authenticate the client.  This is required on the client side and must
 be <b>NULL</b> on the server side.
                 
 
-If the credential used is a <a href="https://msdn.microsoft.com/14753a2d-6054-4041-a72b-4cd7a9576f3b">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> then 
+If the credential used is a <a href="https://msdn.microsoft.com/en-us/library/Dd401814(v=VS.85).aspx">WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> then 
                     <a href="https://msdn.microsoft.com/6c8b3277-3f49-469b-9783-c552a4c44558">WS_SECURITY_BINDING_PROPERTY_HTTP_HEADER_AUTH_SCHEME</a> must be set to 
                     <a href="https://msdn.microsoft.com/c96e10ee-29d1-4c66-9f4d-64e663b25fd0">WS_HTTP_HEADER_AUTH_SCHEME_NONE</a>, <b>WS_HTTP_HEADER_AUTH_SCHEME_NTLM</b>, 
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</b> or <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b>.

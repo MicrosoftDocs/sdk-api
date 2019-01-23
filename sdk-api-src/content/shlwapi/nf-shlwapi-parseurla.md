@@ -98,23 +98,19 @@ The parsing performed by <b>ParseURL</b> is fairly rudimentary. For more sophist
 
 This sample console application uses <b>ParseURL</b> to parse several simple URLs.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;shlwapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;tchar.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <shlwapi.h>
+#include <stdio.h>
+#include <tchar.h>
 
 void sample(LPCTSTR pcszUrl)
 {
     PARSEDURL pu;
     pu.cbSize = sizeof(pu);
-    HRESULT hr = ParseURL(pcszUrl, &amp;pu);
+    HRESULT hr = ParseURL(pcszUrl, &pu);
     _tprintf(TEXT("ParseURL(%s) returned 0x%08x\n"), pcszUrl, hr);
     if (SUCCEEDED(hr)) {
         _tprintf(TEXT("Protocol = %.*s\n"), pu.cchProtocol, pu.pszProtocol);
@@ -152,9 +148,9 @@ Suffix   = C:\AUTOEXEC.BAT
 Scheme   = 9
 
 ParseURL(C:\AUTOEXEC.BAT) returned 0x80041001
-                </pre>
-</td>
-</tr>
-</table></span></div>
+                
+```
+
+
 
 

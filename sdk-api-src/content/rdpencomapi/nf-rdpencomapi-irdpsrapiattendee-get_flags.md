@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the attendee specific flags that are defined in the <a href="https://msdn.microsoft.com/a2e5520f-f19a-4800-bc41-bb12bd244d35">RDPENCOMAPI_ATTENDEE_FLAGS</a> enumeration type.
+Retrieves the attendee specific flags that are defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa373853(v=VS.85).aspx">RDPENCOMAPI_ATTENDEE_FLAGS</a> enumeration type.
 
 This property is read-only.
 

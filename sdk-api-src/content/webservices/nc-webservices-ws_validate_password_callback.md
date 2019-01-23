@@ -49,7 +49,7 @@ req.redist:
 
 
 Validates a username/password pair
-on the receiver side.  When a <a href="https://msdn.microsoft.com/be6d4787-fa50-4260-8236-39dd992adcae">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> 
+on the receiver side.  When a <a href="https://msdn.microsoft.com/en-us/library/Dd323497(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING</a> 
 containing this callback is included in the security description, this callback
 is invoked for each received message at the server.  This callback is expected 
 to return S_OKif the username/password pair was successfully validated, S_FALSE 
@@ -64,7 +64,7 @@ but it will never be invoked when a channel is not open.  In the
 current drop, this callback is always invoked synchronously.  In the
 next drop, this callback will be invoked synchronously for synchronous
 message receives and asynchronously for asynchronous message receives,
-but it will always be invoked <a href="https://msdn.microsoft.com/en-us/library/Dd401768(v=VS.85).aspx">short</a>when it is invoked asynchronously.
+but it will always be invoked <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">short</a>when it is invoked asynchronously.
             
 
 

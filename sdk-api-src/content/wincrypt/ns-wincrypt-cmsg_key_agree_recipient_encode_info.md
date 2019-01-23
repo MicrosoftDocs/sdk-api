@@ -158,7 +158,7 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 
 ### -field rgpRecipientEncryptedKeys
 
-An array of  <a href="https://msdn.microsoft.com/839ab3d8-0fdc-4d43-a12b-238091289ff5">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a> structures, one for each recipient to receive this key agreement key. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this structure.
+An array of  <a href="https://msdn.microsoft.com/en-us/library/Aa378091(v=VS.85).aspx">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a> structures, one for each recipient to receive this key agreement key. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this structure.
 
 
 ## -see-also
@@ -178,7 +178,7 @@ An array of  <a href="https://msdn.microsoft.com/839ab3d8-0fdc-4d43-a12b-2380912
 
 
 
-<a href="https://msdn.microsoft.com/839ab3d8-0fdc-4d43-a12b-238091289ff5">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378091(v=VS.85).aspx">CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO</a>
 
 
 

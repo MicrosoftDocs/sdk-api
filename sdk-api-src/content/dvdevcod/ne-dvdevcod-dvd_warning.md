@@ -67,7 +67,7 @@ DVD-Video disc is authored incorrectly. Playback can continue, but unexpected be
 
 ### -field DVD_WARNING_FormatNotSupported
 
-A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="https://msdn.microsoft.com/d7221e8a-089f-4eaf-a193-548709c14336">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="https://msdn.microsoft.com/3fb3e57f-7c0b-4a49-b83d-798c84b2d5d1">AM_DVD_STREAM_FLAGS</a>).
+A decoder would not support the current format. Playback of a stream (audio, video or subpicture) might not function. <i>lParam2</i> of the <a href="https://msdn.microsoft.com/d7221e8a-089f-4eaf-a193-548709c14336">EC_DVD_WARNING</a> event notification code contains the stream type (see <a href="https://msdn.microsoft.com/en-us/library/Dd373468(v=VS.85).aspx">AM_DVD_STREAM_FLAGS</a>).
           
 
 

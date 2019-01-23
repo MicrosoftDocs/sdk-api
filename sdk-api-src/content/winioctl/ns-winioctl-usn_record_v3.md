@@ -50,7 +50,7 @@ req.redist:
 
 Contains the information for an update sequence number (USN) change journal version 3.0 
     record. The version 2.0 record is defined by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a> structure (also called 
+    <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> structure (also called 
     <b>USN_RECORD</b> structure).
 
 
@@ -77,19 +77,15 @@ The size in bytes of any change
        <a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a> function. In C, you can 
        determine a record size by using the following code example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>  MaximumChangeJournalRecordSize = 
+
+```cpp
+  MaximumChangeJournalRecordSize = 
       QuadAlign( (MaximumComponentLength - 1) * sizeof(WCHAR) 
        + sizeof(USN_RECORD_V3) );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 To maintain compatibility across version changes of the change journal software, use a run-time calculation 
        to determine the size of the <b>USN_RECORD_V3</b> structure. For 
        more information about compatibility across version changes, see the Remarks section in this topic.
@@ -113,7 +109,7 @@ For example, if the change journal software is version 3.0, the major version nu
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a> structure and the 
+The structure is a <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a> structure and the 
         remainder of the structure should be parsed using that layout.
 
 </td>
@@ -137,7 +133,7 @@ The structure is a <b>USN_RECORD_V3</b> structure and the
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
+The structure is a <a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
 
 </td>
 </tr>
@@ -644,15 +640,15 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365481(v=VS.85).aspx">READ_USN_JOURNAL_DATA</a>
+<a href="https://msdn.microsoft.com/f88e71ba-6099-4928-9d71-732a4ca809bc">READ_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD_V2</a>
+<a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a>
+<a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a>
 
 
 

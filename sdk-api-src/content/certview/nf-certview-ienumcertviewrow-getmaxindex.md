@@ -116,28 +116,24 @@ To navigate through the row-enumeration sequence, call the following methods.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certview.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Certview.h>
 
 long nMax;
 
 //  Determine the maximum row index.
-hr = pRow-&gt;GetMaxIndex(&amp;nMax);
+hr = pRow->GetMaxIndex(&nMax);
 if (FAILED(hr))
     printf("Failed GetMaxIndex [%x]\n", hr);
 else
     printf("Max index is: %d\n", nMax);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

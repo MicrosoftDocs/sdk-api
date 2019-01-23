@@ -63,7 +63,7 @@ The <b>FNFCIGETOPENINFO</b> macro provides the declaration for the application-d
 
 #### - err
 
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
 
 
 #### - pattribs
@@ -135,13 +135,9 @@ The function should open the file using the file open function compatible with t
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNFCIGETOPENINFO(fnGetOpenInfo)
+
+```cpp
+FNFCIGETOPENINFO(fnGetOpenInfo)
 {
     HANDLE hFile;
     FILETIME fileTime;
@@ -151,12 +147,12 @@ The function should open the file using the file open function compatible with t
 
     if ( hFile != (HANDLE)-1 )
     {
-        if( GetFileInformationByHandle(hFile, &amp;fileInfo) 
-        &amp;&amp;  FileTimeToLocalFileTime(&amp;fileInfo.ftCreationTime, &amp;fileTime)
-        &amp;&amp;  FileTimeToDosDateTime(&amp;fileTime, pdate, ptime) )
+        if( GetFileInformationByHandle(hFile, &fileInfo) 
+        &&  FileTimeToLocalFileTime(&fileInfo.ftCreationTime, &fileTime)
+        &&  FileTimeToDosDateTime(&fileTime, pdate, ptime) )
         {
             *pattribs = (USHORT)fileInfo.dwFileAttributes;
-            *pattribs &amp;= ( _A_RDONLY | _A_HIDDEN | _A_SYSTEM | _A_ARCH );
+            *pattribs &= ( _A_RDONLY | _A_HIDDEN | _A_SYSTEM | _A_ARCH );
         }
         else
         {
@@ -167,10 +163,10 @@ The function should open the file using the file open function compatible with t
 
     return (INT_PTR)hFile;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

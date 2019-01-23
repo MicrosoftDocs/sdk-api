@@ -271,13 +271,9 @@ The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host 
 
 The following example shows how to initialize the <i>psizelExtent</i> parameter for to a zoom factor of 1:1. The ellipses indicate code that you need to provide.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 LONG dxpi = GetDeviceCaps(hdc, LOGPIXELSX);
 LONG dypi = GetDeviceCaps(hdc, LOGPIXELSY);
 LONG dyAscent = 0;
@@ -290,12 +286,12 @@ ITextServices2 *pserv = ... ; // Interface for single-line control
 sizel.cx = MulDiv(dx, HIMETRIC_PER_INCH, dxpi); 
 sizel.cy = MulDiv(dy, HIMETRIC_PER_INCH, dypi);
 
-pserv-&gt;TxGetNaturalSize2(DVASPECT_DOCPRINT, hdc, hdcNil, pNil,
-    TXTNS_FITTOCONTENT, &amp;sizel, &amp;dx, &amp;dy, &amp;dyAscent))) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+pserv->TxGetNaturalSize2(DVASPECT_DOCPRINT, hdc, hdcNil, pNil,
+    TXTNS_FITTOCONTENT, &sizel, &dx, &dy, &dyAscent))) 
+
+```
+
+
 
 
 

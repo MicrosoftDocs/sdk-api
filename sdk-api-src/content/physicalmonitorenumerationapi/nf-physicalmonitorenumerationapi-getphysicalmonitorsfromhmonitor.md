@@ -70,7 +70,7 @@ Number of elements in <i>pPhysicalMonitorArray</i>. To get the required size of 
 
 ### -param pPhysicalMonitorArray [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/58eb4999-37d9-472d-aa26-38b19a2287b2">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd692967(v=VS.85).aspx">PHYSICAL_MONITOR</a> structures. The caller must allocate the array.
           
 
 
@@ -97,13 +97,9 @@ When you are done using the monitor handles, close them by passing the <i>pPhysi
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HMONITOR hMonitor = NULL;
 DWORD cPhysicalMonitors;
 LPPHYSICAL_MONITOR pPhysicalMonitors = NULL;
@@ -114,7 +110,7 @@ hMonitor = MonitorFromWindow(hWnd, MONITOR_DEFAULTTOPRIMARY);
 // Get the number of physical monitors.
 BOOL bSuccess = GetNumberOfPhysicalMonitorsFromHMONITOR(
   hMonitor, 
-  &amp;cPhysicalMonitors
+  &cPhysicalMonitors
    );
 
 if (bSuccess)
@@ -139,10 +135,10 @@ if (bSuccess)
         // Free the array.
         free(pPhysicalMonitors);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

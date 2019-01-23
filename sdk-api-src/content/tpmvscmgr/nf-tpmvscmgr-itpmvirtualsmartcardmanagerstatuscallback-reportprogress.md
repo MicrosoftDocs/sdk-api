@@ -59,7 +59,7 @@ Reports the progress of the current operation.
 
 ### -param Status [in]
 
-Status code of the current operation from the possible status states listed in the <a href="https://msdn.microsoft.com/9E678584-D225-4BDD-8035-92818B977DE9">TPMVSCMGR_STATUS</a> enumeration.
+Status code of the current operation from the possible status states listed in the <a href="https://msdn.microsoft.com/en-us/library/Hh707173(v=VS.85).aspx">TPMVSCMGR_STATUS</a> enumeration.
 
 
 ## -returns

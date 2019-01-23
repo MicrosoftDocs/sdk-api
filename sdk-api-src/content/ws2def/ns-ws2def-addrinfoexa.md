@@ -552,13 +552,9 @@ Upon a successful call to <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd
 
 The following example demonstrates the use of the <b>addrinfoex</b> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #ifndef UNICODE
 #define UNICODE
 #endif
@@ -743,10 +739,8 @@ int __cdecl wmain(int argc, wchar_t ** argv)
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 <div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <b>ADDRINFOEX</b> and <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a>, respectively.</div>

@@ -81,13 +81,9 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR N; 
+
+```
+XMVECTOR N; 
 static const XMVECTOR Scale = {510.0f, 510.0f, 510.0f, 3.0f};
 static const XMVECTOR Bias = { 384.0f, 384.0f, 384.0f, 0.0f };
 static const XMVECTOR C = { 1023.f, 1023.f, 1023.f, 3.f };
@@ -97,13 +93,13 @@ assert(pDestination);
 N = XMVectorMultiplyAdd( V, Scale, Bias );
 N = XMVectorClamp( V, XMVectorZero(), C );
 
-pDestination-&gt;v = ((uint32_t)N.v[3] &lt;&lt; 30) |
-(((uint32_t)N.v[2] &amp; 0x3FF) &lt;&lt; 20) |
-(((uint32_t)N.v[1] &amp; 0x3FF) &lt;&lt; 10) |
-(((uint32_t)N.v[0] &amp; 0x3FF));</pre>
-</td>
-</tr>
-</table></span></div>
+pDestination->v = ((uint32_t)N.v[3] << 30) |
+(((uint32_t)N.v[2] & 0x3FF) << 20) |
+(((uint32_t)N.v[1] & 0x3FF) << 10) |
+(((uint32_t)N.v[0] & 0x3FF));
+```
+
+
 For more details on the Extended Range (XR) with Bias conversion, see <a href="https://msdn.microsoft.com/B3014241-A86A-4B6E-BC9D-50057B924D98">XR_BIAS Color Channel Conversion Rules</a>. 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
 author: windows-sdk-content
 description: Verifies that the provider supports the requested access.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystorevalidateaccess.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 0ee8d65d-0be3-4171-946a-10a15b8f8eb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

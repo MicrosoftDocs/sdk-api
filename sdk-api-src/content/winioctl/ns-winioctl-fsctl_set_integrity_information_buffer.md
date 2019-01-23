@@ -163,7 +163,7 @@ If <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b> is specified and the fil
 
 
 
-<a href="https://msdn.microsoft.com/ab87f987-b734-4ad0-af16-1ba967db48d7">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh965607(v=VS.85).aspx">FSCTL_GET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

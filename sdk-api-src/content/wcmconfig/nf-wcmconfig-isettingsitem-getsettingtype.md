@@ -58,7 +58,7 @@ Gets the setting type for the item.
 
 ### -param Type [out]
 
-A <a href="https://msdn.microsoft.com/e7dbe536-778a-445c-929b-56e490fdeffb">WcmSettingType</a> value that contains the setting type of the item.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa378607(v=VS.85).aspx">WcmSettingType</a> value that contains the setting type of the item.
 
 
 ## -returns

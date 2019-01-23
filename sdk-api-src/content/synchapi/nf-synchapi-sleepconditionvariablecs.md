@@ -4,7 +4,7 @@ title: SleepConditionVariableCS function
 author: windows-sdk-content
 description: Sleeps on the specified condition variable and releases the specified critical section as an atomic operation.
 old-location: base\sleepconditionvariablecs.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: af435aef-710a-4f97-bcfd-dcb7f2ec0253
 ms.author: windowssdkdev
 ms.date: 12/5/2018

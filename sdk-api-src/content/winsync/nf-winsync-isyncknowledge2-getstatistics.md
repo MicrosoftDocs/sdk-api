@@ -130,7 +130,7 @@ Invalid pointer.
 
 
 
-<a href="https://msdn.microsoft.com/8a978578-0169-4784-bdcf-ff41f0a09f7a">SYNC_STATISTICS Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd744814(v=VS.85).aspx">SYNC_STATISTICS Enumeration</a>
  
 
  

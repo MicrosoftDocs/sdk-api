@@ -111,7 +111,7 @@ To register for notifications  that a job has exceeded its peak memory limit whi
 
 
 
-<a href="https://msdn.microsoft.com/39cf5f26-dfc1-4f1d-aae4-5f29e277834f">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448386(v=VS.85).aspx">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
 
 
 

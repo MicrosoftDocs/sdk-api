@@ -58,12 +58,12 @@ The <b>GetMSCEPSetupProperty</b> method gets a property value for a Network Devi
 
 ### -param propertyId [in]
 
-A value of the <a href="https://msdn.microsoft.com/c3740afc-842e-427f-87bf-022f5544d0d4">MSCEPSetupProperty</a> enumeration that specifies the type of property to get.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736420(v=VS.85).aspx">MSCEPSetupProperty</a> enumeration that specifies the type of property to get.
 
 
 ### -param pVal [out]
 
-A <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/c3740afc-842e-427f-87bf-022f5544d0d4">MSCEPSetupProperty</a>.
+A <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/en-us/library/Bb736420(v=VS.85).aspx">MSCEPSetupProperty</a>.
 
 
 ## -see-also

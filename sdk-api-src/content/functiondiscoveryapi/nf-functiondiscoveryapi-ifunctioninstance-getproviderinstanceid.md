@@ -4,7 +4,7 @@ title: IFunctionInstance::GetProviderInstanceID
 author: windows-sdk-content
 description: Gets the identifier string for the provider instance.
 old-location: ncd\ifunctioninstance_getproviderinstanceid_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: fad5e3f0-a440-4b09-ba8c-04bae2d14a2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

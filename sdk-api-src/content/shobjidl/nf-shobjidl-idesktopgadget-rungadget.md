@@ -141,30 +141,26 @@ Per-user applications should install their gadgets per-user. Per-machine applica
 
 The following example shows <b>IDesktopGadget::RunGadget</b> in use.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT RunMyGadget(PCWSTR pszGadgetPath)
+
+```cpp
+HRESULT RunMyGadget(PCWSTR pszGadgetPath)
 {
     IDesktopGadget *pDG;
 
     HRESULT hr = CoCreateInstance(CLSID_DesktopGadget, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&amp;pDG));
+                                  IID_PPV_ARGS(&pDG));
     if (SUCCEEDED(hr))
     {
-        hr = pDG-&gt;RunGadget(pszGadgetPath);
-        pDG-&gt;Release();
+        hr = pDG->RunGadget(pszGadgetPath);
+        pDG->Release();
     }
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

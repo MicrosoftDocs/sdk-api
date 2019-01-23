@@ -85,19 +85,19 @@ When you use this constructor to create a <b>Graphics::Graphics</b> object, make
 
 
 
-<a href="https://msdn.microsoft.com/89a154c1-6a49-45d6-a73c-94b0b1567408">Changes in the Programming Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536339(v=VS.85).aspx">Changes in the Programming Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/76c4c444-cd6f-43ff-8ab7-96469d4505b9">Graphics Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535632(v=VS.85).aspx">Graphics Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/9be67cb2-4bf9-4758-af03-7d92dd04feaf">Optimizing Printing by Providing a Printer Handle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533885(v=VS.85).aspx">Optimizing Printing by Providing a Printer Handle</a>
  
 
  

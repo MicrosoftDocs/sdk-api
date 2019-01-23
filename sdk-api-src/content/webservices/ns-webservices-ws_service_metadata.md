@@ -66,7 +66,7 @@ The count of metadata documents being specified.
 
 ### -field documents
 
-A <a href="https://msdn.microsoft.com/d15fb735-9f82-4dd2-8586-f67999ab9727">WS_SERVICE_METADATA_DOCUMENT</a>* array where element represents a WS_SERVICE_METADATA_DOCUMENT for each individual XML Schema, WSDL or a Policy document. 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323427(v=VS.85).aspx">WS_SERVICE_METADATA_DOCUMENT</a>* array where element represents a WS_SERVICE_METADATA_DOCUMENT for each individual XML Schema, WSDL or a Policy document. 
                 The service model expects this to be valid for the lifetime of the <a href="https://msdn.microsoft.com/1186e3ae-87d0-4d0b-a7cc-cce63dc091e2">WS_SERVICE_HOST</a>. 
             
 

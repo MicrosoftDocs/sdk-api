@@ -91,28 +91,20 @@ It is important to note that if your application has a <b>DPI_AWARENESS_PER_MONI
 
 This snippet demonstrates how to set a value of <b>DPI_AWARENESS_SYSTEM_AWARE</b> in your application manifest.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;dpiAwareness&gt;System&lt;/dpiAwareness&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+<dpiAwareness>System</dpiAwareness>
+```
+
+
 This snippet demonstrates how to set a value of <b>DPI_AWARENESS_PER_MONITOR_AWARE</b> in your application manifest.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;dpiAwareness&gt;PerMonitor&lt;/dpiAwareness&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+<dpiAwareness>PerMonitor</dpiAwareness>
+```
+
+
 
 
 

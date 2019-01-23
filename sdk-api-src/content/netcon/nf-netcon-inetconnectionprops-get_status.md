@@ -62,7 +62,7 @@ The
 ### -param pStatus [out]
 
 Pointer to a variable of type 
-<a href="https://msdn.microsoft.com/feb0aa60-b873-4536-8ec2-2dce4d355fdb">NETCON_STATUS</a> that, on successful return, receives a code that specifies the status of the connection.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366265(v=VS.85).aspx">NETCON_STATUS</a> that, on successful return, receives a code that specifies the status of the connection.
 
 
 ## -returns
@@ -181,7 +181,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/feb0aa60-b873-4536-8ec2-2dce4d355fdb">NETCON_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366265(v=VS.85).aspx">NETCON_STATUS</a>
  
 
  

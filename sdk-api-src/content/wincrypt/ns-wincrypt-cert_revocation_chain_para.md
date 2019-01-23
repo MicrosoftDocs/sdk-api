@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>CERT_REVOCATION_CHAIN_PARA</b> structure contains parameters used for building a chain for an independent <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response signer certificate. The <a href="https://msdn.microsoft.com/730db593-c55f-4ecf-bcac-5de54ab90db6">CERT_REVOCATION_PARA</a> and <a href="https://msdn.microsoft.com/3de595f9-c922-4c8f-8328-819e91a2997c">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure definitions include optional pointers to this structure.
+The <b>CERT_REVOCATION_CHAIN_PARA</b> structure contains parameters used for building a chain for an independent <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response signer certificate. The <a href="https://msdn.microsoft.com/730db593-c55f-4ecf-bcac-5de54ab90db6">CERT_REVOCATION_PARA</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb394730(v=VS.85).aspx">CRYPT_GET_TIME_VALID_OBJECT_EXTRA_INFO</a> structure definitions include optional pointers to this structure.
 
 
 ## -struct-fields

@@ -120,7 +120,7 @@ LZMS compression algorithm
 
 ### -param AllocationRoutines [in, optional]
 
-Optional memory allocation and deallocation routines in a <a href="https://msdn.microsoft.com/91f541c8-36b9-4ec2-ae37-0b41aa6fd623">COMPRESS_ALLOCATION_ROUTINES</a> structure.
+Optional memory allocation and deallocation routines in a <a href="https://msdn.microsoft.com/en-us/library/Hh437563(v=VS.85).aspx">COMPRESS_ALLOCATION_ROUTINES</a> structure.
 
 
 ### -param CompressorHandle [out]
@@ -151,7 +151,7 @@ If the compression algorithm fails for some internal reason, the error from <a h
 
 
 
-<a href="https://msdn.microsoft.com/91f541c8-36b9-4ec2-ae37-0b41aa6fd623">COMPRESS_ALLOCATION_ROUTINES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437563(v=VS.85).aspx">COMPRESS_ALLOCATION_ROUTINES</a>
 
 
 

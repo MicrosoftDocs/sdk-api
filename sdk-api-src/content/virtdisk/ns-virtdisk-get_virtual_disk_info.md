@@ -60,7 +60,7 @@ Contains virtual hard disk (VHD) information.
 ### -field Version
 
 A value of the 
-      <a href="https://msdn.microsoft.com/603910e4-7568-4ddf-bd50-32a8a41bfca6">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
+      <a href="https://msdn.microsoft.com/en-us/library/Dd323675(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO_VERSION</a> enumeration 
       that specifies the version of the 
       <b>GET_VIRTUAL_DISK_INFO</b> structure being passed to 
       or from the virtual disk functions. This determines what parts of this structure will be used.
@@ -134,7 +134,7 @@ Internal time stamp of the parent disk backing store. Set the <b>Version</b> mem
 ### -field VirtualStorageType
 
 
-<a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure containing 
+<a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure containing 
        information about the type of virtual disk. Set the <b>Version</b> member to 
        <b>GET_VIRTUAL_DISK_INFO_VIRTUAL_STORAGE_TYPE</b>.
 
@@ -289,11 +289,11 @@ The change tracking identifier for the change that identifies the state of the v
 
 
 
-<a href="https://msdn.microsoft.com/603910e4-7568-4ddf-bd50-32a8a41bfca6">GET_VIRTUAL_DISK_INFO_VERSION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323675(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3832be0-e9b8-4f6a-a663-06349c7fd639">GetVirtualDiskInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323670(v=VS.85).aspx">GetVirtualDiskInformation</a>
 
 
 

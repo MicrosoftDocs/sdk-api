@@ -115,7 +115,7 @@ The <b>EngineContext</b> member of the <a href="https://msdn.microsoft.com/b5fc2
 
 
 
-This function is called before the storage adapter has been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
+This function is called before the storage adapter has been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>StorageInterface</b> member of the pipeline object.
 
 When implementing this function, you must allocate and manage any resources required by the adapter and attach these to the biometric unit pipeline. To do this, allocate a private <b>WINBIO_ENGINE_CONTEXT</b> structure on the  heap, initialize it, and set its address in the <b>EngineContext</b> member of the pipeline object.
 
@@ -130,13 +130,9 @@ Similarly, if the <b>EngineHandle</b> field does not contain <b>INVALID_HANDLE_V
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterAttach
 //
@@ -178,10 +174,10 @@ EngineAdapterAttach(
     ZeroMemory(newContext, sizeof(WINBIO_ENGINE_CONTEXT));
 
     // Initialize any required context fields.
-    newContext-&gt;SomeField = SomeSpecialValue;
+    newContext->SomeField = SomeSpecialValue;
 
-    newContext-&gt;SomePointerField = _AdapterAlloc(sizeof(SOME_STRUCTURE));
-    if (newContext-&gt;SomePointerField == NULL)
+    newContext->SomePointerField = _AdapterAlloc(sizeof(SOME_STRUCTURE));
+    if (newContext->SomePointerField == NULL)
     {
         E_OUTOFMEMORY;
         goto cleanup;
@@ -199,7 +195,7 @@ EngineAdapterAttach(
 
     // If initialization completes successfully, attach the engine context to the 
     // processing pipeline of the biometric unit.
-    Pipeline-&gt;EngineContext = newContext;
+    Pipeline->EngineContext = newContext;
     newContext = NULL;
 
 cleanup:
@@ -216,9 +212,9 @@ cleanup:
             _AdapterCleanupCrypto(newContext);
 
             // Release any other object pointed to by the context.
-            if (newContext-&gt;SomePointerField != NULL)
+            if (newContext->SomePointerField != NULL)
             {
-                _AdapterRelease(newContext-&gt;SomePointerField);
+                _AdapterRelease(newContext->SomePointerField);
             }
 
             // Release the context
@@ -228,10 +224,10 @@ cleanup:
     return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

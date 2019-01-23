@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a> enumerated value for the document package.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E
 
 ### -param documentType [out, retval]
 
-The <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE</a> enumerated value.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a> enumerated value.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method returns an HRESULT value. If the method call fails, it returns the a
 
 
 
-<a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a>
  
 
  

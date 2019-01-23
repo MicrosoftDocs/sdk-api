@@ -58,7 +58,7 @@ Indicates that a subscription object has been added, modified, or deleted.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/6c9f143e-bdd4-48be-a635-a382c8c770c1">COMEVENTSYSCHANGEINFO</a> structure. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms682275(v=VS.85).aspx">COMEVENTSYSCHANGEINFO</a> structure. 
 
 
 ## -returns

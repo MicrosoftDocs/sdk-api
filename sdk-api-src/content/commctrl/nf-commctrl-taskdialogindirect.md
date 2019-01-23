@@ -214,13 +214,9 @@ When you use a task dialog box to indicate that the system is low on memory, the
 
 The parent window should not be hidden or disabled when this function is called. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 int nButtonPressed                  = 0;
 TASKDIALOGCONFIG config             = {0};
 const TASKDIALOG_BUTTON buttons[]   = { 
@@ -235,7 +231,7 @@ config.pszContent                   = L"Remember your changed password.";
 config.pButtons                     = buttons;
 config.cButtons                     = ARRAYSIZE(buttons);
 
-TaskDialogIndirect(&amp;config, &amp;nButtonPressed, NULL, NULL);
+TaskDialogIndirect(&config, &nButtonPressed, NULL, NULL);
 switch (nButtonPressed)
 {
     case IDOK:
@@ -244,10 +240,10 @@ switch (nButtonPressed)
         break; // user canceled the dialog
     default:
         break; // should never happen
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

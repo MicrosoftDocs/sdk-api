@@ -111,13 +111,9 @@ A ClearType alpha texture contains three bytes per pixel, therefore the size of 
 
 The following code example shows how to create a glyph run analysis object.  In this example, an empty glyph run is being used. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalysis **ppGlyphRunAnalysis)
+
+```cpp
+HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalysis **ppGlyphRunAnalysis)
 {
     HRESULT hr = S_OK;
     IDWriteFactory* pDWriteFactory = NULL;
@@ -159,10 +155,8 @@ The following code example shows how to create a glyph run analysis object.  In 
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

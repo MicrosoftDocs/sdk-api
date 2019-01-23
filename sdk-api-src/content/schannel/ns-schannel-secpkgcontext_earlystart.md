@@ -52,7 +52,7 @@ req.redist:
 
 The <b>SecPkgContext_EarlyStart</b> structure contains information about whether to attempt to use the False Start feature in a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security context</a>. 
 
-See  the <a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Building a faster and more secure web</a> blog post for information on this feature.
+See  the <a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Building a faster and more secure web</a> blog post for information on this feature.
 
 
 ## -struct-fields

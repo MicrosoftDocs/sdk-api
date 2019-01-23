@@ -4,7 +4,7 @@ title: WaitForSingleObject function
 author: windows-sdk-content
 description: Waits until the specified object is in the signaled state or the time-out interval elapses.
 old-location: base\waitforsingleobject.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: e37ebff7-b44e-469d-81ab-7a6bd1a0c822
 ms.author: windowssdkdev
 ms.date: 12/5/2018

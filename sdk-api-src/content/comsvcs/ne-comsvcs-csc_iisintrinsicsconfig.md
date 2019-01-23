@@ -58,12 +58,12 @@ Indicates whether the current IIS intrinsics are propagated into the new context
 
 ### -field CSC_NoIISIntrinsics
 
-The current IIS intrinsics do not propagate to the new context. This is the default setting for <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Ignore.
+The current IIS intrinsics do not propagate to the new context. This is the default setting for <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> when <a href="https://msdn.microsoft.com/en-us/library/ms684375(v=VS.85).aspx">CSC_InheritanceConfig</a> is set to CSC_Ignore.
 
 
 ### -field CSC_InheritIISIntrinsics
 
-The current IIS intrinsics propagate to the new context. This is the default setting for <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> when <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> is set to CSC_Inherit.
+The current IIS intrinsics propagate to the new context. This is the default setting for <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> when <a href="https://msdn.microsoft.com/en-us/library/ms684375(v=VS.85).aspx">CSC_InheritanceConfig</a> is set to CSC_Inherit.
 
 
 ## -remarks

@@ -84,7 +84,7 @@ A pointer to a block of data bytes.
 
 
 
-<a href="https://msdn.microsoft.com/5e347a50-942e-4278-a9ae-ad4c30c55c6b">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377807(v=VS.85).aspx">CMSG_CTRL_ADD_SIGNER_UNAUTH_ATTR_PARA</a>
 
 
 

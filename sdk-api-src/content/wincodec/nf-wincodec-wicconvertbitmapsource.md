@@ -100,13 +100,9 @@ If the <i>pISrc</i> bitmap is already in the desired format, <i>pISrc</i> is cop
 
 The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6067-4856-8618-fb66aff4255a">IWICBitmapSource</a> to a <b>GUID_WICPixelFormat128bppPRGBAFloat</b> pixel format.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
    IWICImagingFactory *pFactory = NULL;
    IWICBitmapDecoder *pDecoder = NULL;
    IWICBitmapFrameDecode *pBitmapFrameDecode = NULL;
@@ -121,41 +117,41 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
                     NULL,
                     CLSCTX_INPROC_SERVER,
                     IID_IWICImagingFactory,
-                    (LPVOID*) &amp;pFactory);
+                    (LPVOID*) &pFactory);
 
    // Create a decoder from the file.
    if (SUCCEEDED(hr))
    {
-      hr = pFactory-&gt;CreateDecoderFromFilename(L"test.jpg",
+      hr = pFactory->CreateDecoderFromFilename(L"test.jpg",
                          NULL,
                          GENERIC_READ,
                          WICDecodeMetadataCacheOnDemand,
-                         &amp;pDecoder);
+                         &pDecoder);
    }
 
    // Get the frame count.
    if (SUCCEEDED(hr))
    {
-      hr = pDecoder-&gt;GetFrameCount(&amp;uiFrameCount);
+      hr = pDecoder->GetFrameCount(&uiFrameCount);
    }
 
-   if (SUCCEEDED(hr) &amp;&amp; (uiFrameCount &gt; 0))
+   if (SUCCEEDED(hr) && (uiFrameCount > 0))
    {
       IWICBitmapSource *pSource = NULL;
 
-      hr = pDecoder-&gt;GetFrame(0, &amp;pBitmapFrameDecode);
+      hr = pDecoder->GetFrame(0, &pBitmapFrameDecode);
 
       if (SUCCEEDED(hr))
       {
          pSource = pBitmapFrameDecode;
-         pSource-&gt;AddRef();
+         pSource->AddRef();
 
-         hr = pSource-&gt;GetSize(&amp;uiWidth, &amp;uiHeight);
+         hr = pSource->GetSize(&uiWidth, &uiHeight);
       }
 
       if (SUCCEEDED(hr))
       {
-         hr = pSource-&gt;GetPixelFormat(&amp;pixelFormat);
+         hr = pSource->GetPixelFormat(&pixelFormat);
       }
 
       if (SUCCEEDED(hr))
@@ -163,11 +159,11 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
          if (!IsEqualGUID(pixelFormat, GUID_WICPixelFormat128bppPRGBAFloat))
          {
 
-            hr = WICConvertBitmapSource(GUID_WICPixelFormat128bppPRGBAFloat, pSource, &amp;pConverter);
+            hr = WICConvertBitmapSource(GUID_WICPixelFormat128bppPRGBAFloat, pSource, &pConverter);
 
             if (SUCCEEDED(hr))
             {
-               pSource-&gt;Release();     // the converter has a reference to the source
+               pSource->Release();     // the converter has a reference to the source
                pSource = NULL;         // so we don't need it anymore.
                pSource = pConverter;   // let's treat the 128bppPABGR converter as the source
             }
@@ -188,12 +184,12 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
                rc.Width = uiWidth;
                rc.Height = 1;
 
-               for (UINT i = 0; SUCCEEDED(hr) &amp;&amp; i &lt; uiHeight; i++)
+               for (UINT i = 0; SUCCEEDED(hr) && i < uiHeight; i++)
                {
-                  hr = pSource-&gt;CopyPixels(&amp;rc,
+                  hr = pSource->CopyPixels(&rc,
                                     cbStride,
                                     cbBufferSize,
-                                    reinterpret_cast&lt;BYTE*&gt;(pixels));
+                                    reinterpret_cast<BYTE*>(pixels));
 
                   // Do something with the scanline here...
 
@@ -207,29 +203,29 @@ The following example converts an <a href="https://msdn.microsoft.com/abcc84af-6
                hr = E_OUTOFMEMORY;
             }
 
-            pConverter-&gt;Release();
+            pConverter->Release();
          }
       }
    }
 
    if (pBitmapFrameDecode)
    {
-      pBitmapFrameDecode-&gt;Release();
+      pBitmapFrameDecode->Release();
    }
 
    if (pDecoder)
    {
-      pDecoder-&gt;Release();
+      pDecoder->Release();
    }
 
    if (pFactory)
    {
-      pFactory-&gt;Release();
+      pFactory->Release();
    }
 
-   return hr;</pre>
-</td>
-</tr>
-</table></span></div>
+   return hr;
+```
+
+
 
 

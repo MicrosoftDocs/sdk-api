@@ -4,7 +4,7 @@ title: IPNPXAssociation::Associate
 author: windows-sdk-content
 description: Marks an association database entry as associated.
 old-location: ncd\ipnpxassociation_associate.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 74d2ed38-9362-4664-9384-e773e4ec76f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

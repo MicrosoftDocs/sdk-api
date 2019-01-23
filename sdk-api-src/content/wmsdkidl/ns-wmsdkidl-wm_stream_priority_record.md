@@ -83,7 +83,7 @@ Flag indicating whether the listed stream is mandatory. Mandatory streams will n
 
 
 
-<a href="https://msdn.microsoft.com/ef8ae275-c36a-492c-b57c-d640044ede93">IWMStreamPrioritization Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798573(v=VS.85).aspx">IWMStreamPrioritization Interface</a>
 
 
 

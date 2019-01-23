@@ -82,7 +82,7 @@ Options that failed, if an error occurs.
 ### -field pOptions
 
 Pointer to an array of 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385145(v=VS.85).aspx">INTERNET_PER_CONN_OPTION</a> structures containing the options to query or set. 
+<a href="https://msdn.microsoft.com/35cfc768-1f1d-4be9-8d56-c56c7440513e">INTERNET_PER_CONN_OPTION</a> structures containing the options to query or set. 
 
 
 ## -remarks
@@ -105,7 +105,7 @@ In Microsoft Internet Explorer 5, only the ANSI versions of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385145(v=VS.85).aspx">INTERNET_PER_CONN_OPTION</a>
+<a href="https://msdn.microsoft.com/35cfc768-1f1d-4be9-8d56-c56c7440513e">INTERNET_PER_CONN_OPTION</a>
 
 
 

@@ -78,7 +78,7 @@ Boolean value that specifies whether changes to the <a href="https://msdn.micros
 
 ### -param CollisionInfo [out]
 
-Pointer to a pointer to an <a href="https://msdn.microsoft.com/a4a3b040-c074-4756-a30f-408d8bca87ba">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure that returns information about any collisions that occurred.
+Pointer to a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378330(v=VS.85).aspx">LSA_FOREST_TRUST_COLLISION_INFORMATION</a> structure that returns information about any collisions that occurred.
 
 
 ## -returns

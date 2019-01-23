@@ -85,7 +85,7 @@ No drive letters are assigned to the disk's volumes.
 
 Will decouple the virtual disk lifetime from that of the <i>VirtualDiskHandle</i>. The 
        virtual disk will be attached until the 
-       <a href="https://msdn.microsoft.com/9b3874e1-e107-42f8-9ede-eb1eb6164ed2">DetachVirtualDisk</a> function is called, even if all 
+       <a href="https://msdn.microsoft.com/en-us/library/Dd323696(v=VS.85).aspx">DetachVirtualDisk</a> function is called, even if all 
        open handles to the virtual disk are closed.
 
 <b>Windows 7 and Windows Server 2008 R2:  </b>This flag is not supported for opening ISO virtual disks until Windows 8 and 

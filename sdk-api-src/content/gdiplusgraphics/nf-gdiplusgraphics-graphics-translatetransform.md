@@ -105,24 +105,20 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 The following example sets the world transformation of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to a rotation. The call to <b>Graphics::TranslateTransform</b> multiplies the <b>Graphics</b> object's existing world transformation matrix (rotation) by a translation matrix. The MatrixOrderAppend argument specifies that the multiplication is done with the translation matrix on the right. At that point, the world transformation matrix of the <b>Graphics</b> object represents a composite transformation: first rotate, then translate. The call to <b>DrawEllipse</b> draws a rotated and translated ellipse.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_TranslateTransform(HDC hdc)
+
+```cpp
+VOID Example_TranslateTransform(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 255));
 
    graphics.RotateTransform(30.0f);
    graphics.TranslateTransform(100.0f, 50.0f, MatrixOrderAppend);
-   graphics.DrawEllipse(&amp;pen, 0, 0, 200, 80);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawEllipse(&pen, 0, 0, 200, 80);
+}
+```
+
+
 
 
 

@@ -73,7 +73,7 @@ TeleCaption II.
 
 
 
-<a href="https://msdn.microsoft.com/6f0fc2c3-cc98-4646-ada0-57d74c6b5dd9">IAMLine21Decoder::GetDecoderLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389388(v=VS.85).aspx">IAMLine21Decoder::GetDecoderLevel</a>
  
 
  

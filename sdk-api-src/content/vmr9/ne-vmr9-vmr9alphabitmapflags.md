@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <b>VMR9AlphaBitmapFlags</b> enumeration type defines the possible values for the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/62214c24-0a4b-43c3-91dc-3eb6e5df3d94">VMR9AlphaBitmap</a> structure.
+The <b>VMR9AlphaBitmapFlags</b> enumeration type defines the possible values for the <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407359(v=VS.85).aspx">VMR9AlphaBitmap</a> structure.
 
 
 
@@ -67,13 +67,13 @@ Disable the alpha bitmap. This flag cannot be combined with any other flags.
 
 ### -field VMR9AlphaBitmap_hDC
 
-The bitmap is specified as a GDI device context (HDC) in the <b>hdc</b> member of the <a href="https://msdn.microsoft.com/62214c24-0a4b-43c3-91dc-3eb6e5df3d94">VMR9AlphaBitmap</a> structure. If this flag is not present, the bitmap is specified as a Direct3D <b>IDirect3DSurface9</b> pointer in the <b>pDDS</b> member of the structure.
+The bitmap is specified as a GDI device context (HDC) in the <b>hdc</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407359(v=VS.85).aspx">VMR9AlphaBitmap</a> structure. If this flag is not present, the bitmap is specified as a Direct3D <b>IDirect3DSurface9</b> pointer in the <b>pDDS</b> member of the structure.
           
 
 
 ### -field VMR9AlphaBitmap_EntireDDS
 
-Use the entire Direct3D surface. The <b>rSrc</b> member of the <a href="https://msdn.microsoft.com/62214c24-0a4b-43c3-91dc-3eb6e5df3d94">VMR9AlphaBitmap</a> structure is ignored. This flag cannot be combined with the VMR9AlphaBitmap_hDC flag.
+Use the entire Direct3D surface. The <b>rSrc</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407359(v=VS.85).aspx">VMR9AlphaBitmap</a> structure is ignored. This flag cannot be combined with the VMR9AlphaBitmap_hDC flag.
           
 
 
@@ -85,7 +85,7 @@ Indicates that the <b>srcClrKey</b> member is valid and should be used when blen
 
 ### -field VMR9AlphaBitmap_SrcRect
 
-Indicates that the <b>rSrc</b> member is valid and specifies a sub-rectangle of the original image to be blended. This flag is only valid for the <a href="https://msdn.microsoft.com/89aa0212-9311-4f23-9f55-7e7a1072a19a">IVMRMixerBitmap9::UpdateAlphaBitmapParameters</a> method.
+Indicates that the <b>rSrc</b> member is valid and specifies a sub-rectangle of the original image to be blended. This flag is only valid for the <a href="https://msdn.microsoft.com/en-us/library/Dd390452(v=VS.85).aspx">IVMRMixerBitmap9::UpdateAlphaBitmapParameters</a> method.
           
 
 

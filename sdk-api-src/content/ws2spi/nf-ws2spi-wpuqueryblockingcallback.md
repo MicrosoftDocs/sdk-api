@@ -134,17 +134,13 @@ In Windows, this function can return null in <i>lpfnCallback</i>, indicating tha
 
 LPBLOCKINGCALLBACK is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef BOOL ( CALLBACK FAR * LPBLOCKINGCALLBACK )( DWORD dwContext );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+typedef BOOL ( CALLBACK FAR * LPBLOCKINGCALLBACK )( DWORD dwContext );
+
+```
+
+
 The blocking callback will return <b>TRUE</b> if the service provider is to continue waiting for the blocking operation to complete. It will return <b>FALSE</b> if the blocking operation has been canceled with the 
 <a href="https://msdn.microsoft.com/9219c733-43af-414b-8a38-78da52757bd1">WSPCancelBlockingCall</a>.
 

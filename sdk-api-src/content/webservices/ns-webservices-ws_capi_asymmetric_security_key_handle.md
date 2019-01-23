@@ -62,7 +62,7 @@ it is no longer in use.
             
 
 This type is supported only on pre-Windows Vista platforms: for
-Windows Vista and later, please use <a href="https://msdn.microsoft.com/843e8d93-3191-42e6-aa7b-d78b3b3370ec">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
+Windows Vista and later, please use <a href="https://msdn.microsoft.com/en-us/library/Dd401973(v=VS.85).aspx">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
             
 
 

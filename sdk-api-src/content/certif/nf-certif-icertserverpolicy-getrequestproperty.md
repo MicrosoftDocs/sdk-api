@@ -254,24 +254,20 @@ The <b>RequestType</b> property can be set to one of the following values.<table
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR      bstrPropName = NULL;
+
+```cpp
+BSTR      bstrPropName = NULL;
 VARIANT   varProp;
 
-VariantInit( &amp;varProp );
+VariantInit( &varProp );
 
 bstrPropName = SysAllocString(L"RequestID");
 
 // Retrieve the request property.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy-&gt;GetRequestProperty( bstrPropName,
+hr = pCertServerPolicy->GetRequestProperty( bstrPropName,
                                           PROPTYPE_LONG,
-                                          &amp;varProp );
+                                          &varProp );
 if (FAILED(hr))
 {
     printf("Failed GetRequestProperty [%x]\n", hr);
@@ -284,12 +280,12 @@ else
 }
 
 // Done processing.
-VariantClear( &amp;varProp );
+VariantClear( &varProp );
 if ( NULL != bstrPropName )
-    SysFreeString( bstrPropName );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrPropName );
+```
+
+
 
 
 

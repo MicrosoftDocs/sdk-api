@@ -118,13 +118,9 @@ To get the driver key name in  the registry, you must perform the following task
 </ol>
 The following example code shows how to send the <b>IOCTL_GET_HCD_DRIVERKEY_NAME</b> I/O control request.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 /*++
 
 Routine Description:
@@ -219,10 +215,8 @@ GetHCDDriverKeyNameDone:
     return success;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

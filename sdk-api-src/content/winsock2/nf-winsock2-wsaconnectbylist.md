@@ -299,21 +299,17 @@ When the
 
 For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//Need to #include &lt;mswsock.h&gt; for SO_UPDATE_CONNECT_CONTEXT
+
+```cpp
+//Need to #include <mswsock.h> for SO_UPDATE_CONNECT_CONTEXT
 
 int iResult = 0;
 
 iResult = setsockopt( s, SOL_SOCKET, SO_UPDATE_CONNECT_CONTEXT, NULL, 0 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <div class="alert"><b>Note</b>  When issuing a blocking Winsock call such as <a href="https://msdn.microsoft.com/a4552366-eafa-4f24-b6c2-e6a7edc4b021">WSAConnectByList</a> with the <i>timeout</i> parameter set to <b>NULL</b>, Winsock may need to wait for a network event before the call can complete. Winsock performs an alertable wait in this situation, which can be interrupted by an asynchronous procedure call (APC) scheduled on the same thread. Issuing another blocking Winsock call inside an APC that interrupted an ongoing blocking Winsock call on the same thread will lead to undefined behavior, and must never be attempted by Winsock clients. </div>
 <div> </div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
@@ -325,21 +321,17 @@ iResult = setsockopt( s, SOL_SOCKET, SO_UPDATE_CONNECT_CONTEXT, NULL, 0 );
 
 Establish a connection using <b>WSAConnectByList</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -366,7 +358,7 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
     }
 
     iResult = setsockopt(ConnSocket, IPPROTO_IPV6,
-        IPV6_V6ONLY, (char*)&amp;ipv6only, sizeof(ipv6only) );
+        IPV6_V6ONLY, (char*)&ipv6only, sizeof(ipv6only) );
     if (iResult == SOCKET_ERROR){
         closesocket(ConnSocket);
         return INVALID_SOCKET;       
@@ -375,10 +367,10 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
     // AddressList may contain IPv6 and/or IPv4Mapped addresses
     bSuccess = WSAConnectByList(ConnSocket,
             AddressList,
-            &amp;dwLocalAddr,
-            (SOCKADDR*)&amp;LocalAddr,
-            &amp;dwRemoteAddr,
-            (SOCKADDR*)&amp;RemoteAddr,
+            &dwLocalAddr,
+            (SOCKADDR*)&LocalAddr,
+            &dwRemoteAddr,
+            (SOCKADDR*)&RemoteAddr,
             NULL,
             NULL);
     if (bSuccess){
@@ -387,10 +379,10 @@ OpenAndConnect(SOCKET_ADDRESS_LIST *AddressList)
         return INVALID_SOCKET;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -68,12 +68,12 @@ The <a href="https://msdn.microsoft.com/e115d806-70c1-4c6a-810e-e6a058628b44">IX
 
 ### -param startPoint [in]
 
-The <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a> structure that contains the coordinates of the start point in two-dimensional space.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a> structure that contains the coordinates of the start point in two-dimensional space.
 
 
 ### -param endPoint [in]
 
-The <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a> structure that contains the coordinates of the end point in two-dimensional space.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a> structure that contains the coordinates of the end point in two-dimensional space.
 
 
 ### -param linearGradientBrush [out, retval]
@@ -110,7 +110,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The point specified by either <i>startPoint</i> or <i>endPoint</i> was not valid. The members of the <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a> structure must contain valid and finite floating-point values.
+The point specified by either <i>startPoint</i> or <i>endPoint</i> was not valid. The members of the <a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a> structure must contain valid and finite floating-point values.
 
 </td>
 </tr>
@@ -155,13 +155,9 @@ As shown in the illustration that follows, the start and end points of a linear 
 <img alt="A figure that shows the terms used in a linear gradient" src="../images/LinearGradient1.png"/>
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMLinearGradientBrush    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -176,34 +172,34 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateLinearGradientBrush (
+    hr = xpsFactory->CreateLinearGradientBrush (
         gradStop1,
         gradStop2,
-        &amp;startPoint,
-        &amp;endPoint,
-        &amp;newInterface);
+        &startPoint,
+        &endPoint,
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -232,7 +228,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a>
  
 
  

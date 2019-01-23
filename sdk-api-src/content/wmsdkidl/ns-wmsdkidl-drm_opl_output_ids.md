@@ -73,7 +73,7 @@ Address of an array of GUIDs. Each member of the array contains an OPL output id
 
 
 
-This structure is used as a member of the <a href="https://msdn.microsoft.com/cf35626a-5583-440f-8f17-0c9b79bd843d">DRM_COPY_OPL</a> and <a href="https://msdn.microsoft.com/5d14bd02-0fb5-4982-b3dc-7f8277cb852f">DRM_PLAY_OPL</a> structures to identify groups of output identifiers.
+This structure is used as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd757064(v=VS.85).aspx">DRM_COPY_OPL</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd798032(v=VS.85).aspx">DRM_PLAY_OPL</a> structures to identify groups of output identifiers.
 
 
 

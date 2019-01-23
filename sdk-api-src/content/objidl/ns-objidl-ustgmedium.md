@@ -63,7 +63,50 @@ The ype of storage medium. The marshaling and unmarshaling routines use this val
 
 ### -field u
 
- 
+Handle, string, or interface pointer that the receiving process can use to access the data being transferred. If tymed is TYMED_NULL, the union member is undefined; otherwise, it is one of the following values.
+
+
+
+##### hBitmap
+
+Bitmap handle. The tymed member is TYMED_GDI.
+
+
+
+##### hMetaFilePict
+
+ Metafile handle. The tymed member is TYMED_MFPICT.
+
+
+
+##### hEnhMetaFile
+
+Enhanced metafile handle. The tymed member is TYMED_ENHMF.
+
+
+
+##### hGlobal
+
+Global memory handle. The tymed member is TYMED_HGLOBAL.
+
+
+
+##### lpszFileName
+
+ Pointer to the path of a disk file that contains the data. The tymed member is TYMED_FILE. 
+
+
+
+
+##### pstm
+
+Pointer to an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface. The tymed member is TYMED_ISTREAM.
+
+
+
+##### pstg
+
+Pointer to an <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface. The tymed member is TYMED_ISTORAGE.
 
 
 ### -field u.hBitmap
@@ -105,54 +148,6 @@ The ype of storage medium. The marshaling and unmarshaling routines use this val
 
 Pointer to an interface instance that allows the sending process to control the way the storage is released when the receiving process calls the <a href="https://msdn.microsoft.com/da7d7bcb-0b5b-4053-8f0e-ff311c424375">ReleaseStgMedium</a> function. If <i>pUnkForRelease</i> is <b>NULL</b>, <b>ReleaseStgMedium</b> uses default procedures to release the storage; otherwise, <b>ReleaseStgMedium</b> uses the specified IUnknown interface.
 
-
-
-#### - ( unnamed union )
-
-Handle, string, or interface pointer that the receiving process can use to access the data being transferred. If tymed is TYMED_NULL, the union member is undefined; otherwise, it is one of the following values.
-
-
-
-#### hBitmap
-
-Bitmap handle. The tymed member is TYMED_GDI.
-
-
-
-#### hMetaFilePict
-
- Metafile handle. The tymed member is TYMED_MFPICT.
-
-
-
-#### hEnhMetaFile
-
-Enhanced metafile handle. The tymed member is TYMED_ENHMF.
-
-
-
-#### hGlobal
-
-Global memory handle. The tymed member is TYMED_HGLOBAL.
-
-
-
-#### lpszFileName
-
- Pointer to the path of a disk file that contains the data. The tymed member is TYMED_FILE. 
-
-
-
-
-#### pstm
-
-Pointer to an <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> interface. The tymed member is TYMED_ISTREAM.
-
-
-
-#### pstg
-
-Pointer to an <a href="https://msdn.microsoft.com/2f454538-0f40-4811-b908-cd317ef79487">IStorage</a> interface. The tymed member is TYMED_ISTORAGE.
 
 
 ## -see-also

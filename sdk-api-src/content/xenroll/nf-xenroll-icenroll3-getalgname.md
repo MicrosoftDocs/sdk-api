@@ -95,19 +95,15 @@ Constants for the cryptographic algorithms are defined in Wincrypt.h.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR      bstrAlgName = NULL;
+
+```cpp
+BSTR      bstrAlgName = NULL;
 
 HRESULT   hr;
 
 // Retrieve the algorithm name.
 // dwAlgID is a DWORD variable for an algorithm ID.
-hr = pEnroll-&gt;GetAlgName( dwAlgID, &amp;bstrAlgName);
+hr = pEnroll->GetAlgName( dwAlgID, &bstrAlgName);
 if (FAILED(hr))
     printf("Failed GetAlgName [%x]\n", hr);
 else
@@ -118,10 +114,10 @@ if ( NULL != bstrAlgName )
 {
     SysFreeString( bstrAlgName );
     bstrAlgName = NULL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

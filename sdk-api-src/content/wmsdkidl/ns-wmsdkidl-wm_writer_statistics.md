@@ -123,7 +123,7 @@ Sample rates are specified in kilohertz. For instance, a sample rate of 8 indica
 
 
 
-<a href="https://msdn.microsoft.com/005c2039-e821-42ab-bead-1bf40f2ab171">IWMWriterAdvanced::GetStatistics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798730(v=VS.85).aspx">IWMWriterAdvanced::GetStatistics</a>
 
 
 

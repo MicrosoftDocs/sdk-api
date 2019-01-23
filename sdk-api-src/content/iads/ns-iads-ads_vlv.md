@@ -102,13 +102,9 @@ To set the VLV by <b>dwContentCount</b> and <b>dwOffset</b>, you must also set t
 
 The following code  example shows how to retrieve the first 30 entries in a result set.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ADS_SEARCHPREF_INFO prefInfo[2];
+
+```cpp
+ADS_SEARCHPREF_INFO prefInfo[2];
 ADS_VLV vlv;
 
 vlv.dwBeforeCount=0;
@@ -123,7 +119,7 @@ vlv.lpContextID = NULL;
 prefInfo[0].dwSearchPref = ADS_SEARCHPREF_VLV;
 prefInfo[0].vValue.dwType = ADSTYPE_PROV_SPECIFIC;
 prefInfo[0].vValue.ProviderSpecific.dwLength = sizeof(ADS_VLV);
-prefInfo[0].vValue.ProviderSpecific.lpValue = (LPBYTE) &amp;vlv;
+prefInfo[0].vValue.ProviderSpecific.lpValue = (LPBYTE) &vlv;
 
 // Sort key set preferences.
 prefInfo[1].dwSearchPref = ADS_SEARCHPREF_SORT_ON;
@@ -131,19 +127,15 @@ prefInfo[1].vValue.dwType = ADSTYPE_PROV_SPECIFIC;
 prefInfo[1].vValue.ProviderSpecific.dwLength = sizeof(ADS_SORTKEY);
 prefInfo[1].vValue.ProviderSpecific.lpValue = (LPBYTE) pSortKey;
 
-hr = m_pSearch-&gt;SetSearchPreference(prefInfo, 2);</pre>
-</td>
-</tr>
-</table></span></div>
+hr = m_pSearch->SetSearchPreference(prefInfo, 2);
+```
+
+
 The following code example shows how to retrieve the first 50 entries in a result set that start with the letters "Ha".
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ADS_VLV vlv;
+
+```cpp
+ADS_VLV vlv;
 
 vlv.dwBeforeCount=0;
 vlv.dwAfterCount=50;
@@ -151,21 +143,17 @@ vlv.pszTarget= L"Ha";
 vlv.lpContextID = NULL; 
 vlv.dwContextIDLength = 0;
 
-// For more information about how to set the preference, see the previous code example.</pre>
-</td>
-</tr>
-</table></span></div>
+// For more information about how to set the preference, see the previous code example.
+```
+
+
 The following code example shows how to retrieve the first 100 entries at the 60% approximate target, assuming that the server previously returned <b>dwContentCount</b> as 4294.
 
 <div class="alert"><b>Note</b>  vlvResp represents an <b>ADS_VLV</b> structure previously returned by the server.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ADS_VLV vlv;
+
+```cpp
+ADS_VLV vlv;
 
 vlv.dwBeforeCount=50;
 vlv.dwAfterCount=50;
@@ -173,10 +161,10 @@ vlv.dwOffset=2577;
 vlv.dwContentCount=4294;
 vlv.pszTarget = NULL;
 vlv.dwContextIDLength = vlvResp.dwContextIDLength; 
-vlv.lpContextID = vlvResp.lpContextID;</pre>
-</td>
-</tr>
-</table></span></div>
+vlv.lpContextID = vlvResp.lpContextID;
+```
+
+
 
 
 

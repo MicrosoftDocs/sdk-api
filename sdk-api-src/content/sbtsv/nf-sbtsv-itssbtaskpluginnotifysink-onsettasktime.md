@@ -93,7 +93,7 @@ The display name of the task agent.
 
 ### -param dwTaskStatus [in]
 
-An <a href="https://msdn.microsoft.com/69278A29-9100-4855-B5B3-C790563B8B72">RDV_TASK_STATUS</a> enumeration value  that represents the state of the task.
+An <a href="https://msdn.microsoft.com/en-us/library/Hh972698(v=VS.85).aspx">RDV_TASK_STATUS</a> enumeration value  that represents the state of the task.
 
 
 ### -param saContext [in]

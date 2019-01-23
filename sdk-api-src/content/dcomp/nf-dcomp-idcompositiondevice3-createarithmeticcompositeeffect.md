@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>.
+Creates an instance of <a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>.
 
 
 ## -parameters
@@ -58,9 +58,9 @@ Creates an instance of <a href="https://msdn.microsoft.com/en-us/library/Dn91969
 
 ### -param arithmeticCompositeEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>**</b>
 
-Receives the created instance of <a href="https://msdn.microsoft.com/en-us/library/Dn919698(v=VS.85).aspx">IDCompositionArithmeticCompositeEffect</a>.
+Receives the created instance of <a href="https://msdn.microsoft.com/06430DD6-B6BF-4F55-A99C-13860B800444">IDCompositionArithmeticCompositeEffect</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn904488(v=VS.85).aspx">IDCompositionDevice3</a>
+<a href="https://msdn.microsoft.com/5da076dc-360d-0b28-f131-8669d1a91dd6">IDCompositionDevice3</a>
  
 
  

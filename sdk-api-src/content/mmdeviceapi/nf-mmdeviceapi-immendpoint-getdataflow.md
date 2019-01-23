@@ -61,7 +61,7 @@ The <b>GetDataFlow</b> method indicates whether the audio endpoint device is a r
 
 ### -param pDataFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction of the endpoint device. The direction is indicated by one of the following <a href="https://msdn.microsoft.com/d79315aa-d753-4674-84c2-9ba601f36f57">EDataFlow</a> enumeration constants:
+Pointer to a variable into which the method writes the data-flow direction of the endpoint device. The direction is indicated by one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370828(v=VS.85).aspx">EDataFlow</a> enumeration constants:
 
 eRender
 

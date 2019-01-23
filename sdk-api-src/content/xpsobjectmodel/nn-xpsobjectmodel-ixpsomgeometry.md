@@ -90,7 +90,7 @@ Gets a pointer to the geometry's <a href="https://msdn.microsoft.com/24ed79ff-91
 <a href="https://msdn.microsoft.com/5ec2cfdd-f05d-4e05-b290-fad175fe1cae">GetFillRule</a>
 </td>
 <td align="left" width="63%">
-Gets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Gets the  <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>
@@ -130,7 +130,7 @@ Gets the lookup key for the <a href="https://msdn.microsoft.com/d21457bc-9445-4c
 <a href="https://msdn.microsoft.com/e219a505-48e0-46b0-a739-d46fb898bc58">SetFillRule</a>
 </td>
 <td align="left" width="63%">
-Sets the  <a href="https://msdn.microsoft.com/353a4dc3-0c4d-46df-ae31-cc94c4116ca3">XPS_FILL_RULE</a> value that describes the fill rule to be used.
+Sets the  <a href="https://msdn.microsoft.com/en-us/library/Dd372956(v=VS.85).aspx">XPS_FILL_RULE</a> value that describes the fill rule to be used.
             
 
 </td>
@@ -162,13 +162,9 @@ Sets the lookup key name of a shared matrix transform in a resource dictionary.
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMGeometry    *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -179,28 +175,28 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateGeometry (&amp;newInterface);
+    hr = xpsFactory->CreateGeometry (&newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

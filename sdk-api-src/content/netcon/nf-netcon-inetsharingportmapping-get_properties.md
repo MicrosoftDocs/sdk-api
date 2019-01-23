@@ -62,7 +62,7 @@ The
 ### -param ppNSPMP [out]
 
 Pointer to an interface pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/9fa20653-5224-4588-89fb-8d4ce07b4235">INetSharingPortMappingProps</a> interface for this port mapping.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365975(v=VS.85).aspx">INetSharingPortMappingProps</a> interface for this port mapping.
 
 
 ## -returns
@@ -189,7 +189,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

@@ -112,13 +112,9 @@ For more information, see <a href="https://msdn.microsoft.com/1b92574e-7cde-49c0
 
 The following example code shows a sample implementation of the <b>IAudioVolumeDuckNotification</b> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 
 class CDuckNotification : public IAudioVolumeDuckNotification
 {
@@ -155,12 +151,12 @@ public:
         *ReturnValue = NULL;
         if (iid == IID_IUnknown)
         {
-            *ReturnValue = static_cast&lt;IUnknown *&gt;(static_cast&lt;IAudioVolumeDuckNotification *&gt;(this));
+            *ReturnValue = static_cast<IUnknown *>(static_cast<IAudioVolumeDuckNotification *>(this));
             AddRef();
         }
         else if (iid == __uuidof(IAudioVolumeDuckNotification))
         {
-            *ReturnValue = static_cast&lt;IAudioVolumeDuckNotification *&gt;(this);
+            *ReturnValue = static_cast<IAudioVolumeDuckNotification *>(this);
             AddRef();
         }
         else
@@ -171,12 +167,12 @@ public:
     }
     ULONG AddRef()
     {
-        return InterlockedIncrement(&amp;_Cref);
+        return InterlockedIncrement(&_Cref);
     }
 
     ULONG Release()
     {
-        LONG ref = InterlockedDecrement(&amp;_Cref);
+        LONG ref = InterlockedDecrement(&_Cref);
         if (ref == 0)
         {
             delete this;
@@ -184,10 +180,10 @@ public:
         return 0;
     }
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

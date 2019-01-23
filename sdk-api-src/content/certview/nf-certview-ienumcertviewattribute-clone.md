@@ -87,16 +87,12 @@ the <a href="https://msdn.microsoft.com/53a70f66-3805-429e-8ef6-01b00b666b72">IE
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
+
+```cpp
+// pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
 IEnumCERTVIEWATTRIBUTE * pEnumAttr2 = NULL;
 HRESULT    hr;
-hr = pEnumAttr-&gt;Clone(&amp;pEnumAttr2);
+hr = pEnumAttr->Clone(&pEnumAttr2);
 if (S_OK != hr)
     printf("Unable to clone IEnumCERTVIEWATTRIBUTE\n");
 else
@@ -106,10 +102,10 @@ else
 }
 // done using cloned object, free memory
 if (NULL != pEnumAttr2)
-    pEnumAttr2-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumAttr2->Release();
+```
+
+
 
 
 

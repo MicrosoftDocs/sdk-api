@@ -75,7 +75,7 @@ Returns a handle that can be used to wait for the asynchronous operation to comp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt807681(v=VS.85).aspx">IDWriteAsyncResult</a>
+<a href="https://msdn.microsoft.com/8F267213-EB98-4AD9-826A-7D4E34FEB3E4">IDWriteAsyncResult</a>
  
 
  

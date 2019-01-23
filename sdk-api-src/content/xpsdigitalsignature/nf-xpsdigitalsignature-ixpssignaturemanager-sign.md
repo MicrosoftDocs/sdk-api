@@ -106,7 +106,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value specified that no markup compatibility elements were expected; however, markup compatibility elements were  found.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a> value specified that no markup compatibility elements were expected; however, markup compatibility elements were  found.
 
 </td>
 </tr>

@@ -59,32 +59,32 @@ The <b>Region::GetBounds</b> method gets a rectangle that encloses this region.
 
 ### -param rect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object that receives the enclosing rectangle. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object that receives the enclosing rectangle. 
 
 
 ### -param g [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the 
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the 
 						<b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -102,13 +102,9 @@ The current world and page transformations of the graphics object are used to ca
 
 The following example creates a region from a path, gets the region's enclosing rectangle, and then displays both.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetBoundsRectF(HDC hdc)
+
+```cpp
+VOID Example_GetBoundsRectF(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -128,18 +124,18 @@ The following example creates a region from a path, gets the region's enclosing 
    path.AddClosedCurve(points, 6);
 
     // Create a region from a path.
-    Region pathRegion(&amp;path);
+    Region pathRegion(&path);
     
     // Get the region's enclosing rectangle.
-    pathRegion.GetBounds(&amp;rect, &amp;graphics);
+    pathRegion.GetBounds(&rect, &graphics);
 
     // Show the region and the enclosing rectangle.
-    graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
-    graphics.DrawRectangle(&amp;pen, rect);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    graphics.FillRegion(&solidBrush, &pathRegion);
+    graphics.DrawRectangle(&pen, rect);
+}
+```
+
+
 
 
 
@@ -148,11 +144,11 @@ The following example creates a region from a path, gets the region's enclosing 
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
  
 
  

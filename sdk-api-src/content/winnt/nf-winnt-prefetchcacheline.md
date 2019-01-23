@@ -4,7 +4,7 @@ title: PreFetchCacheLine macro
 author: windows-sdk-content
 description: Indicates to the processor that a cache line will be needed in the near future.
 old-location: base\prefetchcacheline.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

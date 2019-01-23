@@ -89,19 +89,15 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 The following example shows how to use this method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IDirectManipulationPrimaryContent *pContent;
 
-HRESULT hr = pRegion-&gt;GetPrimaryContent(IID_PPV_ARGS(&amp;pContent));
-</pre>
-</td>
-</tr>
-</table></span></div>
+```
+IDirectManipulationPrimaryContent *pContent;
+
+HRESULT hr = pRegion->GetPrimaryContent(IID_PPV_ARGS(&pContent));
+
+```
+
+
 
 
 

@@ -124,35 +124,31 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define _UNICODE 1
+
+```cpp
+#define _UNICODE 1
 #define UNICODE 1
 
-#include &lt;Windows.h&gt;
-#include &lt;appmodel.h&gt;
-#include &lt;malloc.h&gt;
-#include &lt;stdio.h&gt;
+#include <Windows.h>
+#include <appmodel.h>
+#include <malloc.h>
+#include <stdio.h>
 
 int ShowUsage();
 void FullNameToFamilyName(__in PCWSTR fullName);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: PackageFamilyNameFromFullName &lt;fullname&gt; [&lt;fullname&gt;...]\n");
+    wprintf(L"Usage: PackageFamilyNameFromFullName <fullname> [<fullname>...]\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc &lt;= 1)
+    if (argc <= 1)
         return ShowUsage();
 
-    for (int i=1; i&lt;argc; ++i)
+    for (int i=1; i<argc; ++i)
         FullNameToFamilyName(argv[i]);
 
     return 0;
@@ -162,7 +158,7 @@ void FullNameToFamilyName(__in PCWSTR fullName)
 {
     wprintf(L"FullName: %s\n", fullName);
     UINT32 length = 0;
-    LONG rc = PackageFamilyNameFromFullName(fullName, &amp;length, NULL);
+    LONG rc = PackageFamilyNameFromFullName(fullName, &length, NULL);
     if (rc == ERROR_SUCCESS)
     {
         wprintf(L"PackageFamilyNameFromFullName unexpectedly succeeded\n");
@@ -181,7 +177,7 @@ void FullNameToFamilyName(__in PCWSTR fullName)
         return;
     }
 
-    rc = PackageFamilyNameFromFullName(fullName, &amp;length, familyName);
+    rc = PackageFamilyNameFromFullName(fullName, &length, familyName);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d converting PackageFamilyName to FullName\n", rc);
     else
@@ -189,10 +185,10 @@ void FullNameToFamilyName(__in PCWSTR fullName)
 
     free(familyName);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

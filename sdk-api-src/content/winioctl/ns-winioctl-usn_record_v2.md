@@ -78,19 +78,15 @@ The size in bytes of any change
        <a href="https://msdn.microsoft.com/c80a38e1-319e-4f15-8c8a-9d29075e1709">GetVolumeInformation</a> function. In C, you can 
        determine a record size by using the following code example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>  MaximumChangeJournalRecordSize = 
+
+```cpp
+  MaximumChangeJournalRecordSize = 
       ( MaximumComponentLength * sizeof(WCHAR) 
         + sizeof(USN_RECORD)   - sizeof(WCHAR) );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 To maintain compatibility across version changes of the change journal software, use a run-time calculation 
        to determine the size of the <b>USN_RECORD_V2</b> structure. For 
        more information about compatibility across version changes, see the Remarks section in this topic.
@@ -126,7 +122,7 @@ The structure is a <b>USN_RECORD_V2</b> structure and the
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a> structure and the 
+The structure is a <a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a> structure and the 
         remainder of the structure should be parsed using that layout.
 
 </td>
@@ -138,7 +134,7 @@ The structure is a <a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=
 </dl>
 </td>
 <td width="60%">
-The structure is a <a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
+The structure is a <a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a> structure and the remainder of the structure should be parsed using that layout.
 
 </td>
 </tr>
@@ -643,15 +639,15 @@ For more information, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365481(v=VS.85).aspx">READ_USN_JOURNAL_DATA</a>
+<a href="https://msdn.microsoft.com/f88e71ba-6099-4928-9d71-732a4ca809bc">READ_USN_JOURNAL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802708(v=VS.85).aspx">USN_RECORD_V3</a>
+<a href="https://msdn.microsoft.com/6d95c5d1-6c6b-498f-a00d-eaa540e8b15b">USN_RECORD_V3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt684964(v=VS.85).aspx">USN_RECORD_V4</a>
+<a href="https://msdn.microsoft.com/2636D1A1-6FD1-4F84-954C-499DCCE6E390">USN_RECORD_V4</a>
  
 
  

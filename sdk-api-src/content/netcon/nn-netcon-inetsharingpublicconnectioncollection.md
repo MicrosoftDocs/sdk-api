@@ -71,7 +71,7 @@ The <b>INetSharingPublicConnectionCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/169de955-d53d-410e-b2e6-911ab0a78bba">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366120(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumerator for the public connections collection.
@@ -80,7 +80,7 @@ Retrieves an enumerator for the public connections collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d90ce6c-4ac7-4188-9d25-9144e112a8df">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365992(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the public connections collection.

@@ -81,18 +81,18 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="htt
 The <i>content</i> parameter must point to one of the following:
 
 <ul>
-<li>An object that implements the <a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a> interface.</li>
+<li>An object that implements the <a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a> interface.</li>
 <li>An object that implements the <b>IDXGISwapChain1</b> interface.</li>
-<li>A wrapper object that is returned by the <a href="https://msdn.microsoft.com/en-us/library/Hh437406(v=VS.85).aspx">CreateSurfaceFromHandle</a> or  <a href="https://msdn.microsoft.com/en-us/library/Hh437407(v=VS.85).aspx">CreateSurfaceFromHwnd</a> method.
+<li>A wrapper object that is returned by the <a href="https://msdn.microsoft.com/391E98B4-9FFB-4065-91A4-99306B2FEB8F">CreateSurfaceFromHandle</a> or  <a href="https://msdn.microsoft.com/EA49F8EB-FAC8-421E-854D-C4AA81887EB0">CreateSurfaceFromHwnd</a> method.
 </li>
 </ul>
 The new content replaces any content that was previously associated with the visual. If the <i>content</i> parameter is NULL, the visual has no associated content.
 
 A visual can be associated with a bitmap object or a window wrapper. A bitmap is either a Microsoft DirectX swap chain or a Microsoft DirectComposition surface.
 
-A window wrapper is created with the <a href="https://msdn.microsoft.com/en-us/library/Hh437407(v=VS.85).aspx">CreateSurfaceFromHwnd</a> method and is a stand-in for the rasterization of another window, which must be a top-level window or a layered child window. A window wrapper is conceptually equivalent to a bitmap that is the size of the target window on which the contents of the window are drawn. The contents include the target window's child windows (layered or otherwise), and any DirectComposition content that is drawn in the child windows. 
+A window wrapper is created with the <a href="https://msdn.microsoft.com/EA49F8EB-FAC8-421E-854D-C4AA81887EB0">CreateSurfaceFromHwnd</a> method and is a stand-in for the rasterization of another window, which must be a top-level window or a layered child window. A window wrapper is conceptually equivalent to a bitmap that is the size of the target window on which the contents of the window are drawn. The contents include the target window's child windows (layered or otherwise), and any DirectComposition content that is drawn in the child windows. 
 
-A DirectComposition surface wrapper is created with the <a href="https://msdn.microsoft.com/en-us/library/Hh437406(v=VS.85).aspx">CreateSurfaceFromHandle</a> method and is a reference to a swap chain. An application might use a surface wrapper in a cross-process scenario where one process creates the swap chain and another process associates the bitmap with a visual.
+A DirectComposition surface wrapper is created with the <a href="https://msdn.microsoft.com/391E98B4-9FFB-4065-91A4-99306B2FEB8F">CreateSurfaceFromHandle</a> method and is a reference to a swap chain. An application might use a surface wrapper in a cross-process scenario where one process creates the swap chain and another process associates the bitmap with a visual.
 
 The bitmap is always drawn at position (0,0) relative to the visual's coordinate system, although the coordinate system is directly affected by the OffsetX, OffsetY, and Transform properties, as well as indirectly by the transformations on ancestor visuals. The bitmap of a visual is always drawn behind the children of that visual.
 
@@ -104,7 +104,7 @@ The bitmap is always drawn at position (0,0) relative to the visual's coordinate
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
 
 
 

@@ -67,7 +67,7 @@ Pointer to a Unicode string that specifies the name for the new connection.
 ### -param ppCon [out]
 
 Pointer to an interface pointer that, on successful return, points to an 
-<a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a> interface for the new connection.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365084(v=VS.85).aspx">INetConnection</a> interface for the new connection.
 
 
 ## -returns
@@ -182,7 +182,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365084(v=VS.85).aspx">INetConnection</a>
 
 
 

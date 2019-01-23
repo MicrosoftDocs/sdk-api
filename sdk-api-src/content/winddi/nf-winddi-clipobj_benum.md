@@ -86,23 +86,19 @@ The return value is <b>TRUE</b> if the driver must call this function again for 
 
 A possible loop structure for calling this function follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>do {
-    bMore = CLIPOBJ_bEnum(pco, sizeof(buffer), &amp;buffer.c);
-    for (i = 0; i &lt; buffer.c; i++) {
+
+```
+do {
+    bMore = CLIPOBJ_bEnum(pco, sizeof(buffer), &buffer.c);
+    for (i = 0; i < buffer.c; i++) {
         .
         .
         .
     }
-} while (bMore);</pre>
-</td>
-</tr>
-</table></span></div>
+} while (bMore);
+```
+
+
 The count of objects written to the buffer is written to the buffer itself.
 
 

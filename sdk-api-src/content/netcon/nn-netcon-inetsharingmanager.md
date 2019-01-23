@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The 
 <b>INetSharingManager</b> interface is the primary interface for the Manager object. 
@@ -81,7 +81,7 @@ Retrieves an enumeration interface for all connections in the connections folder
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cb770e91-0d85-4f67-b7a1-8cc6e89620eb">get_EnumPrivateConnections</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365962(v=VS.85).aspx">get_EnumPrivateConnections</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration interface for connections that are privately shared.
@@ -103,7 +103,7 @@ Retrieves an enumeration interface for connections that are publicly shared.
 </td>
 <td align="left" width="63%">
 Retrieves an 
-<a href="https://msdn.microsoft.com/3ed1a3ae-87af-4415-b149-c66ae65cd053">INetSharingConfiguration</a> interface for a specified connection.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx">INetSharingConfiguration</a> interface for a specified connection.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ Reports whether the operating system supports connection sharing.
 
 To obtain an enumeration interface for port mappings, use the 
 <a href="https://msdn.microsoft.com/8f774509-0efb-49e5-bf56-61f4810631bd">get_INetSharingConfigurationForINetConnection</a> method to obtain an 
-<a href="https://msdn.microsoft.com/3ed1a3ae-87af-4415-b149-c66ae65cd053">INetSharingConfiguration</a> interface. Then use the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx">INetSharingConfiguration</a> interface. Then use the 
 <a href="https://msdn.microsoft.com/f5465acc-2b36-47d1-b48f-b36df3a8efb3">INetSharingConfiguration::EnumPortMappings</a> method to obtain an 
 <a href="https://msdn.microsoft.com/68334bd2-353f-457d-a2c7-1271816f10f5">IEnumNetSharingPortMapping</a> interface.
 

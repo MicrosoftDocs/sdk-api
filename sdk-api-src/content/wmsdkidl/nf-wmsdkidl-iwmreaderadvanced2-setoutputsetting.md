@@ -69,7 +69,7 @@ The <b>SetOutputSetting</b> method specifies a named setting for a particular ou
 
 ### -param pszName [in]
 
-Pointer to a wide-character null-terminated string containing the name. For a list of global constants that represent setting names, see <a href="https://msdn.microsoft.com/en-us/library/Dd757560(v=VS.85).aspx">Output Settings</a>.
+Pointer to a wide-character null-terminated string containing the name. For a list of global constants that represent setting names, see <a href="https://msdn.microsoft.com/effe6c07-e6df-45b0-b865-2a025c466d6f">Output Settings</a>.
 
 
 ### -param Type [in]

@@ -60,7 +60,7 @@ The <b>EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</b> enumeration specifies the valu
 
 ### -field EcSubscriptionRunTimeStatusActive
 
-Get the status of an active or inactive subscription or an event source. This will return an unsigned 32-bit integer value from the <a href="https://msdn.microsoft.com/254305fe-5646-4661-98e2-b02f5d240da1">EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS</a> enumeration.
+Get the status of an active or inactive subscription or an event source. This will return an unsigned 32-bit integer value from the <a href="https://msdn.microsoft.com/en-us/library/Aa382726(v=VS.85).aspx">EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS</a> enumeration.
 
 
 ### -field EcSubscriptionRunTimeStatusLastError

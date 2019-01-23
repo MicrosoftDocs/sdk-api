@@ -4,7 +4,7 @@ title: WaitForSingleObjectEx function
 author: windows-sdk-content
 description: Waits until the specified object is in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.
 old-location: base\waitforsingleobjectex.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 530b5340-f8b2-4e00-a3ca-87a7c7372482
 ms.author: windowssdkdev
 ms.date: 12/5/2018

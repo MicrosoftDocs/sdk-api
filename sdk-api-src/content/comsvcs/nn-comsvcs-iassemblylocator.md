@@ -68,7 +68,7 @@ The <b>IAssemblyLocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5483c500-ac11-4f1d-b89c-37b6a718a735">GetModules</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681307(v=VS.85).aspx">GetModules</a>
 </td>
 <td align="left" width="63%">
 Used to get the names of the modules that are contained in an assembly.

@@ -126,26 +126,22 @@ If the <i>cResultColumn</i> parameter is set to a positive number (not one of th
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT    hr;
+
+```cpp
+HRESULT    hr;
 // Specify the result set for logged requests.
 // pCertView is pointer to ICertView (which has an Open Connection)
-hr = pCertView-&gt;SetResultColumnCount(CV_COLUMN_LOG_DEFAULT);
+hr = pCertView->SetResultColumnCount(CV_COLUMN_LOG_DEFAULT);
 if (S_OK != hr)
     printf("Failed ICertView::SetResultColumnCount - %x\n", hr);
 else
 {
     // Retrieve data rows by means of ICertView::OpenView.
     // ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

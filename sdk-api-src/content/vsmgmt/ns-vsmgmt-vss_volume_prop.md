@@ -73,7 +73,7 @@ A pointer to a null-terminated Unicode string that contains the shortest mount
 
 
 
-<a href="https://msdn.microsoft.com/4d787229-671a-422c-a935-39ae11073a5e">VSS_MGMT_OBJECT_UNION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>
 
 
 

@@ -71,7 +71,7 @@ This property is read/write.
 
 
 
-If <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b> is set to <b>TRUE</b> for a control, then when the control gains focus, the Tablet PC Input Panel automatically shows in the default <a href="https://msdn.microsoft.com/95642cbf-4520-44cc-95ba-80de1fe3b447">InPlaceState Enumeration</a> provided it is a legal operation.
+If <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b> is set to <b>TRUE</b> for a control, then when the control gains focus, the Tablet PC Input Panel automatically shows in the default <a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a> provided it is a legal operation.
 
 It is possible to prevent the in-place Input Panel and the Input Panel Icon from ever appearing by setting the <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b> to <b>FALSE</b>. Setting it to <b>TRUE</b> reverts it to the system default of appearing when possible, provided it has not been disabled by the user or Group Policy. This option is useful for applications that include custom text entry solutions as an alternative to the Input Panel.
 
@@ -86,41 +86,37 @@ This C++ example creates an <a href="https://msdn.microsoft.com/1e719900-db58-43
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(CoInitialize(NULL)))
+
+```cpp
+if (SUCCEEDED(CoInitialize(NULL)))
 {
-    if (SUCCEEDED(CoCreateInstance(CLSID_TextInputPanel, NULL, CLSCTX_INPROC, IID_ITextInputPanel, (VOID**)&amp;amp;g_pTip)))
+    if (SUCCEEDED(CoCreateInstance(CLSID_TextInputPanel, NULL, CLSCTX_INPROC, IID_ITextInputPanel, (VOID**)&g_pTip)))
     {
-        if (SUCCEEDED(g_pTip-&amp;gt;put_AttachedEditWindow(GetDlgItem(IDC_EDIT3)-&amp;gt;m_hWnd)))
+        if (SUCCEEDED(g_pTip->put_AttachedEditWindow(GetDlgItem(IDC_EDIT3)->m_hWnd)))
         {
-            g_pTip-&amp;gt;put_DefaultInPlaceState(InPlaceState_Expanded);
+            g_pTip->put_DefaultInPlaceState(InPlaceState_Expanded);
             InPlaceState ips;
-            g_pTip-&amp;gt;get_DefaultInPlaceState(&amp;amp;ips);
+            g_pTip->get_DefaultInPlaceState(&ips);
             TRACE("DefaultInplaceState: %d\n", ips);
             
-            g_pTip-&amp;gt;put_DefaultInputArea(PanelInputArea_CharacterPad);
+            g_pTip->put_DefaultInputArea(PanelInputArea_CharacterPad);
             PanelInputArea pia;
-            g_pTip-&amp;gt;get_DefaultInputArea(&amp;amp;pia);
+            g_pTip->get_DefaultInputArea(&pia);
             TRACE("DefaultInputArea: %d\n", pia);
 
-            g_pTip-&amp;gt;put_ExpandPostInsertionCorrection(FALSE);
+            g_pTip->put_ExpandPostInsertionCorrection(FALSE);
             BOOL epic;
-            g_pTip-&amp;gt;get_ExpandPostInsertionCorrection(&amp;amp;epic);
+            g_pTip->get_ExpandPostInsertionCorrection(&epic);
             TRACE("ExpandPostInsertionCorrection: %d\n", epic);
 
-            g_pTip-&amp;gt;put_InPlaceVisibleOnFocus(TRUE);
+            g_pTip->put_InPlaceVisibleOnFocus(TRUE);
             BOOL ipvof;
-            g_pTip-&amp;gt;get_InPlaceVisibleOnFocus(&amp;amp;ipvof);
+            g_pTip->get_InPlaceVisibleOnFocus(&ipvof);
             TRACE("InPlaceVisibleOnFocus: %d\n", ipvof);
 
-            g_pTip-&amp;gt;put_PreferredInPlaceDirection(InPlaceDirection_Top);
+            g_pTip->put_PreferredInPlaceDirection(InPlaceDirection_Top);
             InPlaceDirection direction;
-            g_pTip-&amp;gt;get_PreferredInPlaceDirection(&amp;amp;direction);
+            g_pTip->get_PreferredInPlaceDirection(&direction);
             TRACE("PreferredInPlaceDirection: %d\n", direction);
         }
     }
@@ -129,10 +125,10 @@ This C++ example creates an <a href="https://msdn.microsoft.com/1e719900-db58-43
         TRACE("Failed to create ITextInputPanel object.\n");
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

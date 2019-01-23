@@ -74,15 +74,15 @@ The <b>WM_PORT_NUMBER_RANGE</b> structure describes the range of port numbers us
 
 
 
-<a href="https://msdn.microsoft.com/0957ece7-93fe-411b-b69e-fd03933b09d1">IWMReaderNetworkConfig Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743504(v=VS.85).aspx">IWMReaderNetworkConfig Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a1792fd0-e9c3-4e28-9928-a615e1c9aec8">IWMReaderNetworkConfig::GetUDPPortRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743536(v=VS.85).aspx">IWMReaderNetworkConfig::GetUDPPortRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/9a61943a-8ff9-4504-b76f-25e3c5c8d4a4">IWMReaderNetworkConfig::SetUDPPortRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743551(v=VS.85).aspx">IWMReaderNetworkConfig::SetUDPPortRanges</a>
 
 
 

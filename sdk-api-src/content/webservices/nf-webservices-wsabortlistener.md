@@ -84,7 +84,7 @@ If the function succeeds, it returns NO_ERROR; otherwise, it returns an HRESULT 
 
 
 
-<b>WsAbortListener</b> can be called when the listener is in any state. (See the <a href="https://msdn.microsoft.com/en-us/library/Dd401952(v=VS.85).aspx">WS_LISTENER_STATE</a> enumeration for possible states.) If the listener is in the WS_LISTENER_STATE_OPEN state,  this function will force the listener to fault (reset to the WS_LISTENER_STATE_FAULTED state). When a listener is faulted, all attempts to accept a message from it fail immediately with the WS_E_OBJECT_FAULTED error code. 
+<b>WsAbortListener</b> can be called when the listener is in any state. (See the <a href="https://msdn.microsoft.com/275d0d36-f9a1-49a7-af74-e8967dff574a">WS_LISTENER_STATE</a> enumeration for possible states.) If the listener is in the WS_LISTENER_STATE_OPEN state,  this function will force the listener to fault (reset to the WS_LISTENER_STATE_FAULTED state). When a listener is faulted, all attempts to accept a message from it fail immediately with the WS_E_OBJECT_FAULTED error code. 
 
 
 

@@ -152,13 +152,9 @@ The <b>SCardSetAttrib</b> function is a direct card access function. For informa
 
 The following example  shows how to set an attribute.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Set the attribute.
+
+```cpp
+// Set the attribute.
 // hCardHandle was set by a previous call to SCardConnect.
 // dwAttrID is a DWORD value, specifying the attribute ID.
 // pbAttr points to the buffer of the new value.
@@ -169,10 +165,10 @@ lReturn = SCardSetAttrib(hCardHandle,
                          cByte);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardSetAttrib\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

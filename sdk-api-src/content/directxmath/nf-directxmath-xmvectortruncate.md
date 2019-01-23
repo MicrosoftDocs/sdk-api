@@ -76,21 +76,15 @@ Returns a vector whose components are rounded to the nearest integer value in th
 
 The return value is computed based on the following logic, which preserves special values (INF,+INF,NaN,-NaN).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 Result[0] = (fabsf(V[0]) < 8388608.0f) ? ((float)((int32_t)V[0])) : V[0];
 Result[1] = (fabsf(V[1]) < 8388608.0f) ? ((float)((int32_t)V[1])) : V[1];
 Result[2] = (fabsf(V[2]) < 8388608.0f) ? ((float)((int32_t)V[2])) : V[2];
 Result[3] = (fabsf(V[3]) < 8388608.0f) ? ((float)((int32_t)V[3])) : V[3];
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

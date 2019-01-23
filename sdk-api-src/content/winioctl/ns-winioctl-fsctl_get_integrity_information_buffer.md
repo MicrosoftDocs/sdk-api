@@ -151,7 +151,7 @@ Size in bytes of a cluster for this volume. This value must be a power of 2, mus
 
 
 
-<a href="https://msdn.microsoft.com/e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh965610(v=VS.85).aspx">FSCTL_SET_INTEGRITY_INFORMATION_BUFFER</a>
 
 
 

@@ -101,19 +101,15 @@ To enable <b>GetErrorCodeText</b> to
 The following example describes how to implement 
 <b>GetErrorCodeText</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IWbemStatusCodeText * pStatus = NULL;
+
+```cpp
+IWbemStatusCodeText * pStatus = NULL;
 
     SCODE sc = CoCreateInstance(CLSID_WbemStatusCodeText,
                                 0, 
                                 CLSCTX_INPROC_SERVER,
                                 IID_IWbemStatusCodeText,
-                                (LPVOID *) &amp;pStatus);
+                                (LPVOID *) &pStatus);
     
     if(sc == S_OK)
     {
@@ -121,27 +117,27 @@ The following example describes how to implement
 
         // The m_hres isan HRESULT variable that has already
         // been declared and initialized.
-        sc = pStatus-&gt;GetErrorCodeText(m_hres, 0, 0, &amp;bstr);
+        sc = pStatus->GetErrorCodeText(m_hres, 0, 0, &bstr);
         if(sc == S_OK)
         {
             // to do, display this:
             SysFreeString(bstr);
             bstr = 0;
         }
-        sc = pStatus-&gt;GetFacilityCodeText(m_hres, 0, 0, &amp;bstr);
+        sc = pStatus->GetFacilityCodeText(m_hres, 0, 0, &bstr);
         if(sc == S_OK)
         {
             // to do, display this:
             SysFreeString(bstr);
             bstr = 0;
         }
-        pStatus-&gt;Release();
+        pStatus->Release();
     }
 
     // clean up.
-    pStatus-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pStatus->Release();
+```
+
+
 
 

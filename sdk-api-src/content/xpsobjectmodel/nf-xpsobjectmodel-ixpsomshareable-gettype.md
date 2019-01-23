@@ -58,7 +58,7 @@ Gets the object type of the interface.
 
 ### -param type [out, retval]
 
-The <a href="https://msdn.microsoft.com/2e53f22e-7521-45c9-ac88-b76fb381f556">XPS_OBJECT_TYPE</a> value that describes the interface that is derived from <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372975(v=VS.85).aspx">XPS_OBJECT_TYPE</a> value that describes the interface that is derived from <a href="https://msdn.microsoft.com/2071292f-b898-4ec8-99f7-294c8d820965">IXpsOMShareable</a>.
 
 
 ## -returns

@@ -76,7 +76,7 @@ Returns a <a href="https://msdn.microsoft.com/10b3a703-239b-4fb1-9a20-e466b123b0
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn894561(v=VS.85).aspx">IDWriteFontFace3</a>
+<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
  
 
  

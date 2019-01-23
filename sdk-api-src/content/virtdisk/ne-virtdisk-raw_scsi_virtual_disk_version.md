@@ -51,7 +51,7 @@ req.redist:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-Contains the version of the <a href="https://msdn.microsoft.com/E6E6BD59-F7BC-4523-B368-6EBE12285593">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to virtual disk functions.
+Contains the version of the <a href="https://msdn.microsoft.com/en-us/library/Mt764773(v=VS.85).aspx">RAW_SCSI_VIRTUAL_DISK_PARAMETERS</a> structure to use in calls to virtual disk functions.
 
 
 ## -enum-fields

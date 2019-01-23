@@ -78,22 +78,18 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 The following pseudocode demonstrates the operation of this constructor:
       
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMBYTE2 instance;
 
 	instance.x = _x;
 	instance.y = _y;
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

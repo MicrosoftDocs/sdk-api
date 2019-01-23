@@ -4,7 +4,7 @@ title: IFunctionInstanceCollection::Add
 author: windows-sdk-content
 description: Adds a function instance to the collection.
 old-location: ncd\ifunctioninstancecollection_add.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: c77729f2-2524-4502-82d6-3a3be8344d94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

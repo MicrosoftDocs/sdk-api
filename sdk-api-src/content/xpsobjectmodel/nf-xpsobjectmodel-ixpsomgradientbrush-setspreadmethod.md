@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Sets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.  The gradient region is defined by the start and end points of the gradient.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.  The gradient region is defined by the start and end points of the gradient.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Sets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a90
 
 ### -param spreadMethod [in]
 
-The <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value that describes how the area outside of the gradient region  is to be rendered. The gradient region is defined by the linear-gradient brush or radial-gradient brush that inherits this interface.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a> value that describes how the area outside of the gradient region  is to be rendered. The gradient region is defined by the linear-gradient brush or radial-gradient brush that inherits this interface.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The <i>spreadMethod</i> parameter was not a valid <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value.
+The <i>spreadMethod</i> parameter was not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a> value.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The <i>spreadMethod</i> parameter was not a valid <a href="https://msdn.microsof
 
 
 
-For more information about different types of spread methods, see <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a>.
+For more information about different types of spread methods, see <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a>.
 
 
 
@@ -134,7 +134,7 @@ For more information about different types of spread methods, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a>
  
 
  

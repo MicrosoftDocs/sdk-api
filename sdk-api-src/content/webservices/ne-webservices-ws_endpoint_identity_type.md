@@ -85,6 +85,6 @@ Type ID for <a href="https://msdn.microsoft.com/99a484f0-4d04-4998-90d9-c39194ec
 
 ### -field WS_UNKNOWN_ENDPOINT_IDENTITY_TYPE
 
-Type ID for <a href="https://msdn.microsoft.com/93a51fe5-7195-4286-97f3-92c20b0d3e54">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
+Type ID for <a href="https://msdn.microsoft.com/en-us/library/Dd323489(v=VS.85).aspx">WS_UNKNOWN_ENDPOINT_IDENTITY</a>.
                 
 

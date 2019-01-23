@@ -65,7 +65,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://m
 
 ### -param ptPositionType [in]
 
-A member of the <a href="https://msdn.microsoft.com/199e34dc-0309-4d9b-a05a-90a8bf5ab4cb">MC_POSITION_TYPE</a> enumeration, specifying whether to retrieve the horizontal position or the vertical position.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692958(v=VS.85).aspx">MC_POSITION_TYPE</a> enumeration, specifying whether to retrieve the horizontal position or the vertical position.
           
 
 

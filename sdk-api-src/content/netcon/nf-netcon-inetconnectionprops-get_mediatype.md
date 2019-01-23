@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The 
 <b>get_MediaType</b> method retrieves the media type for the connection.
@@ -62,7 +62,7 @@ The
 ### -param pMediaType [out]
 
 Pointer to a variable of type 
-<a href="https://msdn.microsoft.com/9236371c-0e3f-43ba-a02f-0770768008ae">NETCON_MEDIATYPE</a> that, on successful return, receives a code that specifies the media type for the connection.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366201(v=VS.85).aspx">NETCON_MEDIATYPE</a> that, on successful return, receives a code that specifies the media type for the connection.
 
 
 ## -returns
@@ -181,7 +181,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/9236371c-0e3f-43ba-a02f-0770768008ae">NETCON_MEDIATYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366201(v=VS.85).aspx">NETCON_MEDIATYPE</a>
  
 
  

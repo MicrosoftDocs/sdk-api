@@ -4,7 +4,7 @@ title: IProviderProperties::GetAt
 author: windows-sdk-content
 description: Gets the property key at the specified index.
 old-location: ncd\iproviderproperties_getat_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: f76d010b-f9dd-46d7-9b1f-eba3d11aaef1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

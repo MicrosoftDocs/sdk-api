@@ -80,7 +80,7 @@ A running total of the number of pages that have been processed by the print job
 
 ### -field completion
 
-The <a href="https://msdn.microsoft.com/a0bfb708-033a-4493-a878-0ebdcaae672f">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="https://msdn.microsoft.com/d982ae2e-c68f-4197-b419-22a63e61db8a">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd374575(v=VS.85).aspx">XPS_JOB_COMPLETION</a> value that indicates the completion status of the job.  This value will change when the event passed in the <b>completionEvent</b> parameter of <a href="https://msdn.microsoft.com/d982ae2e-c68f-4197-b419-22a63e61db8a">StartXpsPrintJob</a> is signaled at the end of a job. If the print job fails, this value will be <b>XPS_JOB_FAILED</b>,  with <i>jobStatus</i> containing the error code of the failure.
 
 
 ### -field jobStatus
@@ -105,7 +105,7 @@ The error state of the job.  If the job finishes without an error, this value wi
 
 
 
-<a href="https://msdn.microsoft.com/a0bfb708-033a-4493-a878-0ebdcaae672f">XPS_JOB_COMPLETION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd374575(v=VS.85).aspx">XPS_JOB_COMPLETION</a>
  
 
  

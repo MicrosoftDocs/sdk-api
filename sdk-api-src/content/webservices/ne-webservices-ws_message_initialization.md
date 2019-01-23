@@ -72,7 +72,7 @@ The headers are initialized to be the same as the source message's headers.
 
 ### -field WS_REQUEST_MESSAGE
 
-If using <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).aspx">WS_ADDRESSING_VERSION_0_9</a> or <b>WS_ADDRESSING_VERSION_1_0</b>,
+If using <a href="https://msdn.microsoft.com/87f60067-109c-456c-b060-33ab840872e0">WS_ADDRESSING_VERSION_0_9</a> or <b>WS_ADDRESSING_VERSION_1_0</b>,
                     then a unique message ID is set as the MessageID header of the message.  
                     No other headers are added in the message.
                 
@@ -83,7 +83,7 @@ If using <a href="https://msdn.microsoft.com/en-us/library/Dd430678(v=VS.85).asp
 The ReplyTo header of the source message (an <a href="https://msdn.microsoft.com/4e9b5f3e-849f-46aa-a94a-3cd6ae16275f">WS_ENDPOINT_ADDRESS</a>)
                     is used to address the message.  The MessageID header of the source
                     message is used to add a RelatesTo header to the message.  If the message
-                    will contain a fault reply, then <a href="https://msdn.microsoft.com/en-us/library/Dd401956(v=VS.85).aspx">WS_FAULT_MESSAGE</a> should be
+                    will contain a fault reply, then <a href="https://msdn.microsoft.com/f4a674c1-4017-49c8-aa9a-68f1d2b84378">WS_FAULT_MESSAGE</a> should be
                     used instead.
                 
 

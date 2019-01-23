@@ -74,7 +74,7 @@ This member is not used if <b>CallbackType</b> is <b>IoStartCallback</b>.
 ### -field CallbackType
 
 The type of callback function. This member can be one of the values in the 
-<a href="https://msdn.microsoft.com/c970564d-e1f0-4317-bf66-752b98767451">MINIDUMP_CALLBACK_TYPE</a> enumeration.
+<a href="https://msdn.microsoft.com/en-us/library/ms680364(v=VS.85).aspx">MINIDUMP_CALLBACK_TYPE</a> enumeration.
 
 
 ### -field Status
@@ -85,25 +85,25 @@ If <b>CallbackType</b> is <b>KernelMinidumpStatusCallback</b>, the union is an <
 ### -field Thread
 
 If <b>CallbackType</b> is <b>ThreadCallback</b>, the union is a 
-<a href="https://msdn.microsoft.com/31da83e6-af8c-440c-b715-78c9c6ac4b9f">MINIDUMP_THREAD_CALLBACK</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680397(v=VS.85).aspx">MINIDUMP_THREAD_CALLBACK</a> structure.
 
 
 ### -field ThreadEx
 
 If <b>CallbackType</b> is <b>ThreadExCallback</b>, the union is a 
-<a href="https://msdn.microsoft.com/a81856df-14a3-42bc-89dc-9796c7b252be">MINIDUMP_THREAD_EX_CALLBACK</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680398(v=VS.85).aspx">MINIDUMP_THREAD_EX_CALLBACK</a> structure.
 
 
 ### -field Module
 
 If <b>CallbackType</b> is <b>ModuleCallback</b>, the union is a 
-<a href="https://msdn.microsoft.com/8ca48df0-ed0e-4ee3-a20a-d89057be37f3">MINIDUMP_MODULE_CALLBACK</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680390(v=VS.85).aspx">MINIDUMP_MODULE_CALLBACK</a> structure.
 
 
 ### -field IncludeThread
 
 If <b>CallbackType</b> is <b>IncludeThreadCallback</b>, the union is a 
-<a href="https://msdn.microsoft.com/4695b739-9af4-4bb8-b7d6-409942bc1932">MINIDUMP_INCLUDE_THREAD_CALLBACK</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680381(v=VS.85).aspx">MINIDUMP_INCLUDE_THREAD_CALLBACK</a> structure.
 
 <b>DbgHelp 6.2 and earlier:  </b>This member is not available.
 
@@ -111,7 +111,7 @@ If <b>CallbackType</b> is <b>IncludeThreadCallback</b>, the union is a
 ### -field IncludeModule
 
 If <b>CallbackType</b> is <b>IncludeModuleCallback</b>, the union is a 
-<a href="https://msdn.microsoft.com/01dd2217-fd7b-4bcf-a15e-4769c7518741">MINIDUMP_INCLUDE_MODULE_CALLBACK</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680380(v=VS.85).aspx">MINIDUMP_INCLUDE_MODULE_CALLBACK</a> structure.
 
 <b>DbgHelp 6.2 and earlier:  </b>This member is not available.
 
@@ -125,14 +125,14 @@ If <b>CallbackType</b> is <b>IoStartCallback</b>, <b>IoWriteAllCallback</b>, or 
 
 ### -field ReadMemoryFailure
 
-If <b>CallbackType</b> is <b>ReadMemoryFailureCallback</b>, the union is a <a href="https://msdn.microsoft.com/9710684a-4d08-4ab8-bc33-17c5f01c581f">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a> structure.
+If <b>CallbackType</b> is <b>ReadMemoryFailureCallback</b>, the union is a <a href="https://msdn.microsoft.com/en-us/library/ms680393(v=VS.85).aspx">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a> structure.
 
 <b>DbgHelp 6.4 and earlier:  </b>This member is not available.
 
 
 ### -field SecondaryFlags
 
-Contains a value from the <a href="https://msdn.microsoft.com/c8485db1-0cc0-4baa-90fb-b5c1f9236b80">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
+Contains a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa813365(v=VS.85).aspx">MINIDUMP_SECONDARY_FLAGS</a> enumeration type.
 
 <b>DbgHelp 6.5 and earlier:  </b>This member is not available.
 
@@ -168,15 +168,15 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 
-<a href="https://msdn.microsoft.com/c970564d-e1f0-4317-bf66-752b98767451">MINIDUMP_CALLBACK_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680364(v=VS.85).aspx">MINIDUMP_CALLBACK_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/01dd2217-fd7b-4bcf-a15e-4769c7518741">MINIDUMP_INCLUDE_MODULE_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680380(v=VS.85).aspx">MINIDUMP_INCLUDE_MODULE_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/4695b739-9af4-4bb8-b7d6-409942bc1932">MINIDUMP_INCLUDE_THREAD_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680381(v=VS.85).aspx">MINIDUMP_INCLUDE_THREAD_CALLBACK</a>
 
 
 
@@ -184,19 +184,19 @@ If <b>CallbackType</b> is <b>CancelCallback</b> or <b>MemoryCallback</b>, the <b
 
 
 
-<a href="https://msdn.microsoft.com/8ca48df0-ed0e-4ee3-a20a-d89057be37f3">MINIDUMP_MODULE_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680390(v=VS.85).aspx">MINIDUMP_MODULE_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/9710684a-4d08-4ab8-bc33-17c5f01c581f">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680393(v=VS.85).aspx">MINIDUMP_READ_MEMORY_FAILURE_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/31da83e6-af8c-440c-b715-78c9c6ac4b9f">MINIDUMP_THREAD_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680397(v=VS.85).aspx">MINIDUMP_THREAD_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/a81856df-14a3-42bc-89dc-9796c7b252be">MINIDUMP_THREAD_EX_CALLBACK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680398(v=VS.85).aspx">MINIDUMP_THREAD_EX_CALLBACK</a>
 
 
 

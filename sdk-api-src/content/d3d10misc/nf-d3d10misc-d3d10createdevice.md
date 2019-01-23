@@ -117,38 +117,30 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 This example creates a reference device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 ID3D10Device* g_pd3dDevice = NULL;
 D3D10CreateDevice( NULL, D3D10_DRIVER_TYPE_REFERENCE, NULL, 0, 
-    D3D10_SDK_VERSION, &amp;g_pd3dDevice );             
-      </pre>
-</td>
-</tr>
-</table></span></div>
+    D3D10_SDK_VERSION, &g_pd3dDevice );             
+      
+```
+
+
 To create a device and a swap chain at the same time, see <a href="https://msdn.microsoft.com/en-us/library/Bb205087(v=VS.85).aspx">D3D10CreateDeviceAndSwapChain</a>.
 
 The object returned by D3D10CreateDevice implements the <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a> interface and can be queried for other 
       interfaces the object supports. To retrieve the <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>  interface of the object the following code could be used.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDXGIDevice * pDXGIDevice;
-hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice), (void **)&amp;pDXGIDevice);
-      </pre>
-</td>
-</tr>
-</table></span></div>
+hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice), (void **)&pDXGIDevice);
+      
+```
+
+
 
 
 

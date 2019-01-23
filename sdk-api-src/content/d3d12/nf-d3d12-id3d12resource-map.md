@@ -169,33 +169,23 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Copy triangle data to the vertex buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Copy the triangle data to the vertex buffer.
+
+```cpp
+// Copy the triangle data to the vertex buffer.
 UINT8* pVertexDataBegin;
 CD3DX12_RANGE readRange(0, 0);        // We do not intend to read from this resource on the CPU.
 ThrowIfFailed(m_vertexBuffer->Map(0, &readRange, reinterpret_cast<void**>(&pVertexDataBegin)));
 memcpy(pVertexDataBegin, triangleVertices, sizeof(triangleVertices));
 m_vertexBuffer->Unmap(0, nullptr);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
  Create an upload heap for the constant buffers.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create an upload heap for the constant buffers.
+
+```cpp
+// Create an upload heap for the constant buffers.
 ThrowIfFailed(pDevice->CreateCommittedResource(
     &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
     D3D12_HEAP_FLAG_NONE,
@@ -210,10 +200,8 @@ ThrowIfFailed(pDevice->CreateCommittedResource(
 // mapping/unmapping each frame.
 CD3DX12_RANGE readRange(0, 0);        // We do not intend to read from this resource on the CPU.
 ThrowIfFailed(m_cbvUploadHeap->Map(0, &readRange, reinterpret_cast<void**>(&m_pConstantBuffers)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

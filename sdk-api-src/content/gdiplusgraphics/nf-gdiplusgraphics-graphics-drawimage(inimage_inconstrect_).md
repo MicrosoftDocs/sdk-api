@@ -59,14 +59,14 @@ The <b>Graphics::DrawImage</b> method draws an image.
 
 ### -param image [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that specifies the source image. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that specifies the source image. 
 
 
 ### -param rect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a></b>
 
 Reference to a rectangle that bounds the drawing area for the image. 
 
@@ -75,14 +75,14 @@ Reference to a rectangle that bounds the drawing area for the image.
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -100,13 +100,9 @@ The image is scaled to fit the rectangle.
 
 The following example draws the source image, the rectangle that bounds the resized image, and then draws the resized image to fit the rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawImage9(HDC hdc)
+
+```cpp
+VOID Example_DrawImage9(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -118,20 +114,20 @@ The following example draws the source image, the rectangle that bounds the resi
    Pen pen (Color(255, 255, 0, 0), 2);
 
    // Draw the original source image.
-   graphics.DrawImage(&amp;image, 10, 10);
+   graphics.DrawImage(&image, 10, 10);
 
    // Create a Rect object that specifies the destination of the image.
    Rect destRect(200, 50, 150, 75);
 
    // Draw the rectangle that bounds the image.
-   graphics.DrawRectangle(&amp;pen, destRect);
+   graphics.DrawRectangle(&pen, destRect);
 
    // Draw the image.
-   graphics.DrawImage(&amp;image, destRect);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawImage(&image, destRect);
+}
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing two versions of the same image; the second is slightly narrower than the first, much shorter, and outlined in red" src="images/drawimage6.png"/>
@@ -145,23 +141,23 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/0ad2a132-6db6-4099-81a2-10e1cd1b1f61">Drawing, Positioning, and Cloning Images</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536388(v=VS.85).aspx">Drawing, Positioning, and Cloning Images</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c1a26d9-b640-4f38-8276-10c4464525f2">Loading and Displaying Bitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
  
 
  

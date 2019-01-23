@@ -102,7 +102,7 @@ The data retrieved by
 
 
 
-<a href="https://msdn.microsoft.com/99f33d12-5da0-4ed9-a20f-5e808a610545">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff800831(v=VS.85).aspx">STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR</a>
 
 
 

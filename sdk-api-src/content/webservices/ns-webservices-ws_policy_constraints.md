@@ -82,7 +82,7 @@ An array of channel property constraints which override the default
 
 If a channel property constraint is not specified for a given property,
                     then a default constraint value will be used.
-                    See <a href="https://msdn.microsoft.com/548dcba5-dc78-402e-a930-a58fb462c08a">WS_CHANNEL_PROPERTY_CONSTRAINT</a> for the
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd401785(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CONSTRAINT</a> for the
                     supported set of properties and their default values.
                 
 

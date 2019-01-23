@@ -59,30 +59,30 @@ Creates a <b>LinearGradientBrush::LinearGradientBrush</b> object based on a rect
 
 ### -param rect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a></b>
 
 Reference to a rectangle that specifies the starting and ending points of the gradient. The direction of the gradient, specified by <i>mode</i>, affects how these points are defined. The dimensions of the rectangle affect the direction of the gradient for forward diagonal mode and backward diagonal mode. 
 
 
 ### -param color1 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object that specifies the color at the starting boundary line of this linear gradient brush. 
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object that specifies the color at the starting boundary line of this linear gradient brush. 
 
 
 ### -param color2 [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object that specifies the color at the ending boundary line of this linear gradient brush. 
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object that specifies the color at the ending boundary line of this linear gradient brush. 
 
 
 ### -param mode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/ad3cce3d-67f3-4f7a-84d0-4319425de07a">LinearGradientMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534144(v=VS.85).aspx">LinearGradientMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/ad3cce3d-67f3-4f7a-84d0-4319425de07a">LinearGradientMode</a> enumeration that specifies the direction of the gradient. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534144(v=VS.85).aspx">LinearGradientMode</a> enumeration that specifies the direction of the gradient. 
 
 
 ## -remarks
@@ -119,13 +119,9 @@ The mode affects the boundaries of the gradient:
 
 The following example creates a linear gradient brush using LinearGradientModeVertical for the mode setting. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_Construct04(HDC hdc)
+
+```cpp
+VOID Example_Construct04(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -134,11 +130,11 @@ The following example creates a linear gradient brush using LinearGradientModeVe
       Color(255, 255, 0, 0),   // red
       Color(255, 0, 0, 255),   // blue
       LinearGradientModeVertical);
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 300, 300); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.FillRectangle(&linGrBrush, 0, 0, 300, 300); 
+}
+```
+
+
 
 
 
@@ -147,31 +143,31 @@ The following example creates a linear gradient brush using LinearGradientModeVe
 
 
 
-<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b0236b2-be6b-4918-a106-5b0e6c3dd5ff">Creating a Linear Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533914(v=VS.85).aspx">Creating a Linear Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aa94b39-bd4c-4e66-b0dc-77f8953797b1">Filling a Shape with a Color Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533856(v=VS.85).aspx">Filling a Shape with a Color Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad3cce3d-67f3-4f7a-84d0-4319425de07a">LinearGradientMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534144(v=VS.85).aspx">LinearGradientMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
  
 
  

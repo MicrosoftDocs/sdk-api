@@ -116,13 +116,9 @@ The actual state of a child often depends on the state of its ancestors. For exa
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows a possible implementation of this method for a custom list box that maintains its own child elements (list items), only one of which can be selected at a time. If the client requests the state of the list box itself, the method passes the call to the standard accessible object that serves the control window. For child items, different flags are returned depending on whether the item is selected or not.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // m_pStdAccessibleObject is the standard accessible object returned by CreateAccessibleObject. 
 // m_pControl is the custom control instance that returns this accessible object. 
 
@@ -132,40 +128,36 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accState(
 {
     if (varChild.vt != VT_I4)
     {
-        pvarState-&gt;vt = VT_EMPTY;
+        pvarState->vt = VT_EMPTY;
         return E_INVALIDARG;
     }
     if (varChild.lVal == CHILDID_SELF)
     {
-        return m_pStdAccessibleObject-&gt;get_accState(varChild, pvarState);
+        return m_pStdAccessibleObject->get_accState(varChild, pvarState);
     }
     else  // For list items. 
     {
         DWORD flags = STATE_SYSTEM_SELECTABLE;
         int index = (int)varChild.lVal - 1;
-        if (index == m_pControl-&gt;GetSelectedIndex())
+        if (index == m_pControl->GetSelectedIndex())
         {
             flags |= STATE_SYSTEM_SELECTED;
         }
-        pvarState-&gt;vt = VT_I4;
-        pvarState-&gt;lVal = flags; 
+        pvarState->vt = VT_I4;
+        pvarState->lVal = flags; 
     }
     return S_OK;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function displays the states of the specified accessible object or a child element.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT PrintState(IAccessible* pAcc, long childId)
 {
     if (pAcc == NULL)
@@ -176,15 +168,15 @@ HRESULT PrintState(IAccessible* pAcc, long childId)
     varChild.vt = VT_I4;
     varChild.lVal = childId;
     VARIANT varResult;
-    HRESULT hr = pAcc-&gt;get_accState(varChild, &amp;varResult);
+    HRESULT hr = pAcc->get_accState(varChild, &varResult);
     long stateBits = 0;
-    if ((hr == S_OK) &amp;&amp; (varResult.vt == VT_I4))
+    if ((hr == S_OK) && (varResult.vt == VT_I4))
     {
         printf("State: ");
         stateBits = (DWORD)varResult.lVal;
-        for (DWORD mask = 1; mask &lt;= 0x8000; mask &lt;&lt;= 1)
+        for (DWORD mask = 1; mask <= 0x8000; mask <<= 1)
         {
-            if (mask &amp; stateBits)
+            if (mask & stateBits)
             {
 
                 // Get the length of the string. 
@@ -217,10 +209,10 @@ HRESULT PrintState(IAccessible* pAcc, long childId)
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -111,13 +111,9 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a .bmp file and then draws the image. The code creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its default remap table so that red is converted to blue. Then the code draws the image again using the color adjustment specified by the remap table.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetRemapTable(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -144,10 +140,8 @@ VOID Example_SetRemapTable(HDC hdc)
       UnitPixel,
       &imageAtt);
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
 
 
 The following illustration shows the output of the preceding code.

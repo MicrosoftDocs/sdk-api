@@ -96,7 +96,7 @@ The meaning of this member depends on the handle type and the operating system.
 ### -field ObjectInfoRva
 
 An RVA to a 
-<a href="https://msdn.microsoft.com/fb79de10-7a98-4a21-b394-63e5279b6681">MINIDUMP_HANDLE_OBJECT_INFORMATION</a> structure that specifies object-specific information. This member can be 0 if there is no extra information.
+<a href="https://msdn.microsoft.com/en-us/library/ms680375(v=VS.85).aspx">MINIDUMP_HANDLE_OBJECT_INFORMATION</a> structure that specifies object-specific information. This member can be 0 if there is no extra information.
 
 
 ### -field Reserved0
@@ -109,7 +109,7 @@ Reserved for future use; must be zero.
 
 
 The first descriptor in the handle data stream follows the header, 
-<a href="https://msdn.microsoft.com/5674df6b-77e0-4bca-8349-8217388902ed">MINIDUMP_HANDLE_DATA_STREAM</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>.
 
 
 
@@ -119,11 +119,11 @@ The first descriptor in the handle data stream follows the header,
 
 
 
-<a href="https://msdn.microsoft.com/5674df6b-77e0-4bca-8349-8217388902ed">MINIDUMP_HANDLE_DATA_STREAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/fb79de10-7a98-4a21-b394-63e5279b6681">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680375(v=VS.85).aspx">MINIDUMP_HANDLE_OBJECT_INFORMATION</a>
 
 
 

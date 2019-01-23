@@ -51,7 +51,7 @@ req.redist:
 Returned from the 
     <a href="https://msdn.microsoft.com/21a7cad2-eae0-461d-802e-a54fd7d35808">FSCTL_LOOKUP_STREAM_FROM_CLUSTER</a> control 
     code. Zero or more of these structures follow the 
-    <a href="https://msdn.microsoft.com/1e9b99eb-93a8-4f0c-98ee-ca9f58466400">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Ff951651(v=VS.85).aspx">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a> 
     structure in the output buffer returned.
 
 
@@ -207,7 +207,7 @@ The name in the <b>FileName</b> member can be very long and in a format not reco
 
 
 
-<a href="https://msdn.microsoft.com/1e9b99eb-93a8-4f0c-98ee-ca9f58466400">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff951651(v=VS.85).aspx">LOOKUP_STREAM_FROM_CLUSTER_OUTPUT</a>
 
 
 

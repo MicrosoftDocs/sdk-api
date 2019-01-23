@@ -291,15 +291,11 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 
 The following example shows how to retrieve a specified document from an HTTP server when authentication is required.  The status code is retrieved from the response to determine if the server or proxy is requesting authentication.  If a 200 status code is found, the document is available. If a status code of 401 or 407 is found, authentication is required before the document can be retrieved.  For any other status code an error message is displayed.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;winhttp.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <winhttp.h>
+#include <stdio.h>
 
 #pragma comment(lib, "winhttp.lib")
 
@@ -316,13 +312,13 @@ DWORD ChooseAuthScheme( DWORD dwSupportedSchemes )
   //  because Basic authentication exposes the client's username 
   //  and password to anyone monitoring the connection.
   
-  if( dwSupportedSchemes &amp; WINHTTP_AUTH_SCHEME_NEGOTIATE )
+  if( dwSupportedSchemes & WINHTTP_AUTH_SCHEME_NEGOTIATE )
     return WINHTTP_AUTH_SCHEME_NEGOTIATE;
-  else if( dwSupportedSchemes &amp; WINHTTP_AUTH_SCHEME_NTLM )
+  else if( dwSupportedSchemes & WINHTTP_AUTH_SCHEME_NTLM )
     return WINHTTP_AUTH_SCHEME_NTLM;
-  else if( dwSupportedSchemes &amp; WINHTTP_AUTH_SCHEME_PASSPORT )
+  else if( dwSupportedSchemes & WINHTTP_AUTH_SCHEME_PASSPORT )
     return WINHTTP_AUTH_SCHEME_PASSPORT;
-  else if( dwSupportedSchemes &amp; WINHTTP_AUTH_SCHEME_DIGEST )
+  else if( dwSupportedSchemes & WINHTTP_AUTH_SCHEME_DIGEST )
     return WINHTTP_AUTH_SCHEME_DIGEST;
   else
     return 0;
@@ -362,25 +358,25 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
                           WINHTTP_NO_PROXY_NAME, 
                           WINHTTP_NO_PROXY_BYPASS, 0 );
 
-  INTERNET_PORT nPort = ( pGetRequest-&gt;fUseSSL ) ? 
+  INTERNET_PORT nPort = ( pGetRequest->fUseSSL ) ? 
                         INTERNET_DEFAULT_HTTPS_PORT  :
                         INTERNET_DEFAULT_HTTP_PORT;
 
   // Specify an HTTP server.
   if( hSession )
     hConnect = WinHttpConnect( hSession, 
-                               pGetRequest-&gt;szServer, 
+                               pGetRequest->szServer, 
                                nPort, 0 );
 
   // Create an HTTP request handle.
   if( hConnect )
     hRequest = WinHttpOpenRequest( hConnect, 
                                    L"GET", 
-                                   pGetRequest-&gt;szPath,
+                                   pGetRequest->szPath,
                                    NULL, 
                                    WINHTTP_NO_REFERER, 
                                    WINHTTP_DEFAULT_ACCEPT_TYPES,
-                                   ( pGetRequest-&gt;fUseSSL ) ? 
+                                   ( pGetRequest->fUseSSL ) ? 
                                        WINHTTP_FLAG_SECURE : 0 );
 
   // Continue to send a request until status code is not 401 or 407.
@@ -398,8 +394,8 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
       bResults = WinHttpSetCredentials( hRequest, 
                                         WINHTTP_AUTH_TARGET_PROXY, 
                                         dwProxyAuthScheme, 
-                                        pGetRequest-&gt;szProxyUsername,
-                                        pGetRequest-&gt;szProxyPassword,
+                                        pGetRequest->szProxyUsername,
+                                        pGetRequest->szProxyPassword,
                                         NULL );
     // Send a request.
     bResults = WinHttpSendRequest( hRequest,
@@ -416,7 +412,7 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
     // Resend the request in case of 
     // ERROR_WINHTTP_RESEND_REQUEST error.
-    if( !bResults &amp;&amp; GetLastError( ) == ERROR_WINHTTP_RESEND_REQUEST)
+    if( !bResults && GetLastError( ) == ERROR_WINHTTP_RESEND_REQUEST)
         continue;
 
     // Check the status code.
@@ -425,8 +421,8 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
                                       WINHTTP_QUERY_STATUS_CODE | 
                                           WINHTTP_QUERY_FLAG_NUMBER,
                                       NULL, 
-                                      &amp;dwStatusCode, 
-                                      &amp;dwSize, 
+                                      &dwStatusCode, 
+                                      &dwSize, 
                                       NULL );
 
     if( bResults )
@@ -448,9 +444,9 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
           // Obtain the supported and preferred schemes.
           bResults = WinHttpQueryAuthSchemes( hRequest, 
-                                              &amp;dwSupportedSchemes, 
-                                              &amp;dwFirstScheme, 
-                                              &amp;dwTarget );
+                                              &dwSupportedSchemes, 
+                                              &dwFirstScheme, 
+                                              &dwTarget );
 
           // Set the credentials before re-sending the request.
           if( bResults )
@@ -463,8 +459,8 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
               bResults = WinHttpSetCredentials( 
                                         hRequest, dwTarget, 
                                         dwSelectedScheme,
-                                        pGetRequest-&gt;szServerUsername,
-                                        pGetRequest-&gt;szServerPassword,
+                                        pGetRequest->szServerUsername,
+                                        pGetRequest->szServerPassword,
                                         NULL );
           }
 
@@ -483,9 +479,9 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
 
           // Obtain the supported and preferred schemes.
           bResults = WinHttpQueryAuthSchemes( hRequest, 
-                                              &amp;dwSupportedSchemes, 
-                                              &amp;dwFirstScheme, 
-                                              &amp;dwTarget );
+                                              &dwSupportedSchemes, 
+                                              &dwFirstScheme, 
+                                              &dwTarget );
 
           // Set the credentials before re-sending the request.
           if( bResults )
@@ -526,10 +522,10 @@ void WinHttpAuthSample( IN SWinHttpSampleGet *pGetRequest )
   if( hSession ) WinHttpCloseHandle( hSession );
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

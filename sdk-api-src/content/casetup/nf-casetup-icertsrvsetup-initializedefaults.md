@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>InitializeDefaults</b> method initializes a <b>CCertSrvSetup</b> object with default values to enable installation of the Certification Authority role. To install a CA role, this method must be called before using the <b>CCertSrvSetup</b> object. For information about default values, see <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a>.
+The <b>InitializeDefaults</b> method initializes a <b>CCertSrvSetup</b> object with default values to enable installation of the Certification Authority role. To install a CA role, this method must be called before using the <b>CCertSrvSetup</b> object. For information about default values, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
 
 
 ## -parameters

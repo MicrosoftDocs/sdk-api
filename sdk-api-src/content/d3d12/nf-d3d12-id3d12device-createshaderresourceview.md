@@ -109,13 +109,9 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Describe and create two shader resource views based on one description.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>D3D12_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
+
+```cpp
+D3D12_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
 srvDesc.Shader4ComponentMapping = D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING;
 srvDesc.Format = DXGI_FORMAT_UNKNOWN;
 srvDesc.ViewDimension = D3D12_SRV_DIMENSION_BUFFER;
@@ -128,10 +124,8 @@ CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle0(m_srvUavHeap->GetCPUDescriptorHandleFor
 CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle1(m_srvUavHeap->GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo1 + index, m_srvUavDescriptorSize);
 m_device->CreateShaderResourceView(m_particleBuffer0[index].Get(), &srvDesc, srvHandle0);
 m_device->CreateShaderResourceView(m_particleBuffer1[index].Get(), &srvDesc, srvHandle1);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

@@ -95,13 +95,9 @@ The <b>ProviderName</b> property affects the behavior of the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrProvName = NULL;
+
+```cpp
+BSTR     bstrProvName = NULL;
 BSTR     bstrMyProvName = NULL;
 HRESULT  hr;
 
@@ -127,10 +123,8 @@ else
     printf( "ProviderName set to %ws\n", bstrMyProvName );
 // free BSTR when done
 if ( NULL != bstrMyProvName )
-    SysFreeString( bstrMyProvName );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrMyProvName );
+```
 
 
 

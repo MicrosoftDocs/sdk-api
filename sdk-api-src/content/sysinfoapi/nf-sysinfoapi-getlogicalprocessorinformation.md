@@ -124,13 +124,9 @@ This example reports the number of active processor cores. This example also rep
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include <windows.h>
 #include <malloc.h>    
 #include <stdio.h>
@@ -283,10 +279,8 @@ int _cdecl _tmain ()
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

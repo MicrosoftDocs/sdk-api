@@ -123,13 +123,9 @@ The supplied instance template will contain an object with the key properties fi
 The following code example describes how to implement 
 <b>CreateRefreshableObject</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyHiPerfProvider::CreateRefreshableObject(
+
+```cpp
+HRESULT CMyHiPerfProvider::CreateRefreshableObject(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */IWbemObjectAccess *pTemplate,
   /* [in] */IWbemRefresher *pRefresher,
@@ -144,9 +140,9 @@ The following code example describes how to implement
   // the IMyRefresher interface.
   IMyRefresher* pMyRefr = NULL;
 
-  HRESULT hres = pRefresher-&gt;QueryInterface(
+  HRESULT hres = pRefresher->QueryInterface(
     IID_IMyRefresher,
-    (void**) &amp;pMyRefr );
+    (void**) &pMyRefr );
 
   if ( SUCCEEDED( hres ) )
   {
@@ -160,44 +156,44 @@ The following code example describes how to implement
 
       // Clone the object, then get an
       // IWbemObjectAccess pointer.
-      pTemplate-&gt;QueryInterface(
+      pTemplate->QueryInterface(
         IID_IWbemClassObject,
-        (void**) &amp;pTemplateObj );
+        (void**) &pTemplateObj );
 
-      pTemplateObj-&gt;Clone( &amp;pCloneObj );
+      pTemplateObj->Clone( &pCloneObj );
 
-      pCloneObj-&gt;QueryInterface(
+      pCloneObj->QueryInterface(
         IID_IWbemObjectAccess,
-        (void**) &amp;pCloneAcc );
+        (void**) &pCloneAcc );
 
       // Generate a unique identifier.
       // For example, use:
-      /**plId = InterlockedIncrement( &amp;m_lLastId );*/
+      /**plId = InterlockedIncrement( &m_lLastId );*/
 
       // Add the object to an array of
       // objects to refresh.
       //For example, use:
-      /*pMyRefr-&gt;AddInstance( *plId, pCloneAcc );*/
+      /*pMyRefr->AddInstance( *plId, pCloneAcc );*/
 
       // Maintains AddRef from QI
       *ppRefreshable = pCloneAcc;
 
-      pTemplateObj-&gt;Release();
-      pCloneObj-&gt;Release();
+      pTemplateObj->Release();
+      pCloneObj->Release();
     }
     else
     {
       hres = WBEM_E_NOT_FOUND;
     }
 
-    pMyRefr-&gt;Release();
+    pMyRefr->Release();
   }
 
   return hres;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

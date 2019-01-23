@@ -63,7 +63,7 @@ A pointer to a <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e0
 
 ### -param pKeyTransEncodeInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/20b20759-3d76-4814-9e71-7376dd326f7b">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure that specifies the recipient public key used to encrypt the content encryption key.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa378057(v=VS.85).aspx">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure that specifies the recipient public key used to encrypt the content encryption key.
 
 
 ### -param pKeyTransEncryptInfo [in, out]

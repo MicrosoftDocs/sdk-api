@@ -141,19 +141,15 @@ The current version of the Windows Sockets specification returned in the <b>wHig
 
 The following example demonstrates the use of the <b>WSADATA</b> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WORD wVersionRequested;
+
+```cpp
+WORD wVersionRequested;
 WSADATA wsaData;
 int err;
  
 wVersionRequested = MAKEWORD( 2, 2 );
  
-err = WSAStartup( wVersionRequested, &amp;wsaData );
+err = WSAStartup( wVersionRequested, &wsaData );
 if ( err != 0 ) {
     /* Tell the user that we could not find a usable */
     /* WinSock DLL.                                  */
@@ -178,10 +174,10 @@ if ( LOBYTE( wsaData.wVersion ) != 2 ||
 
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

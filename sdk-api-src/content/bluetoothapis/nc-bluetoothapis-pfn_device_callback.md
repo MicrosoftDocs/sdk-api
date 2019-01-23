@@ -60,7 +60,7 @@ The <b>PFN_DEVICE_CALLBACK</b> function is a callback prototype used in associat
 ### -param pvParam
 
 A parameter passed in from  the <b>pvParam</b> member of the 
-<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure through the <a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a> structure through the <a href="https://msdn.microsoft.com/97fcbd72-99d5-4c5b-bf16-75eea97cbc77">BluetoothSelectDevices</a> function.
 
 
 ### -param *pDevice
@@ -99,7 +99,7 @@ If the callback performs SDP queries for each device, the list of devices from w
 
 
 
-<a href="https://msdn.microsoft.com/34ab348b-ce5d-422a-9bec-adbefa4a5ea0">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362931(v=VS.85).aspx">BLUETOOTH_SELECT_DEVICE_PARAMS</a>
 
 
 

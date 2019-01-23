@@ -50,7 +50,7 @@ req.redist:
 
 
 Used by the 
-    <a href="https://msdn.microsoft.com/5effbb81-eec4-4e5a-b079-b404df8fd801">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa367494(v=VS.85).aspx">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> 
     and  
     <a href="https://msdn.microsoft.com/3261c8eb-b88b-428a-8a2b-684e0967f9de">CLUSCTL_RESOURCE_STATE_CHANGE_REASON</a> 
     control codes to describe the reason for a resource state change.
@@ -65,7 +65,7 @@ Used by the
 
 This reason code is never sent by the cluster. 
        <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">Resource DLLs</a> should use this value to initialize a local 
-       <a href="https://msdn.microsoft.com/5effbb81-eec4-4e5a-b079-b404df8fd801">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> structure and to reset the 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa367494(v=VS.85).aspx">CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</a> structure and to reset the 
        <b>eReason</b> member of the 
        <b>CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT</b> 
        structure before returning from the <a href="https://msdn.microsoft.com/1d67a4f5-66f8-4818-8b63-d0f50452f889">Offline</a> and 

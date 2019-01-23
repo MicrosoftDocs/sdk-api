@@ -80,7 +80,7 @@ When you paint with a brush, it paints in the coordinate space of the render tar
 
 You can "move" the gradient defined by an <a href="https://msdn.microsoft.com/bbb5e36a-d13d-448e-8686-d14ee99b1ccb">ID2D1LinearGradientBrush</a> to a target area by setting its start point and end point. Likewise, you can move the gradient defined by an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a> by changing its center and radii. 
 
-To align the content of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> to the area being painted, you can use the <a href="https://msdn.microsoft.com/57afadc1-88c9-4a5b-a83f-63c4c69182a7">SetTransform</a> method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
+To align the content of an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> to the area being painted, you can use the <a href="https://msdn.microsoft.com/en-us/library/Dd742690(v=VS.85).aspx">SetTransform</a> method to translate the bitmap to the desired location. This transform only affects the brush; it does not affect any other content drawn by the render target. 
 
 The following illustrations show the effect of using an <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a> to fill a rectangle located at (100, 100). The illustration on the left illustration shows the result of filling the rectangle without transforming the brush: the bitmap is drawn at the render target's origin. As a result, only a portion of the bitmap appears in the rectangle.
 
@@ -93,13 +93,9 @@ The illustration on the right shows the result of transforming the <a href="http
 
 The following code examples show how to create the transformation shown in the right diagram in the preceding illustration. First apply a translation to the <a href="https://msdn.microsoft.com/22b14ffa-14cb-4e4d-bf80-7d81e4ae9ee4">ID2D1BitmapBrush</a>, moving the brush 50 pixels right along the x-axis and 50 pixels down along the y-axis. Then use the <b>ID2D1BitmapBrush</b> to fill  the rectangle that has the upper-left corner at (100, 100) and the lower-right corner at (200, 200).   
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create the bitmap to be used by the bitmap brush.
+
+```cpp
+// Create the bitmap to be used by the bitmap brush.
 if (SUCCEEDED(hr))
 {
     hr = LoadResourceBitmap(
@@ -107,65 +103,52 @@ if (SUCCEEDED(hr))
         m_pWICFactory,
         L"FERN",
         L"Image",
-        &amp;m_pBitmap
+        &m_pBitmap
         );
    
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr))
+
+```
+
+
+
+```cpp
+if (SUCCEEDED(hr))
 {
-    hr = m_pRenderTarget-&gt;CreateBitmapBrush(
+    hr = m_pRenderTarget->CreateBitmapBrush(
         m_pBitmap,
-        &amp;m_pBitmapBrush
+        &m_pBitmapBrush
         );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> // Demonstrate the effect of transforming a bitmap brush.
- m_pBitmapBrush-&gt;SetTransform(
+```
+
+
+
+```cpp
+D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
+
+
+```
+
+```cpp
+ // Demonstrate the effect of transforming a bitmap brush.
+ m_pBitmapBrush->SetTransform(
      D2D1::Matrix3x2F::Translation(D2D1::SizeF(50,50))
      );
 
  // To see the content of the rcTransformedBrushRect, comment
  // out this statement.
- m_pRenderTarget-&gt;FillRectangle(
-     &amp;rcTransformedBrushRect, 
+ m_pRenderTarget->FillRectangle(
+     &rcTransformedBrushRect, 
      m_pBitmapBrush
      );
 
- m_pRenderTarget-&gt;DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+ m_pRenderTarget->DrawRectangle(rcTransformedBrushRect, m_pBlackBrush, 1, NULL);
+
+```
+
+
 
 
 

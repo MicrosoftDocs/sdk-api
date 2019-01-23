@@ -77,21 +77,17 @@ The magnitude of each argument to the constructor will be clamped to the range s
 
 The following pseudocode demonstrates the operation of this constructor:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMUBYTE2 instance;
 
 	instance.x = (uint8_t)min( max( _x, 0.0 ), 255.0 );
 	instance.y = (uint8_t)min( max( _y, 0.0 ), 255.0 );
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

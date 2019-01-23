@@ -59,7 +59,7 @@ Specifies the identifier of the client certificate to use for client authenticat
 
 ### -param StoreLocation [in]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/596b1ba1-6652-4c97-a44d-e8271471d864">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa362796(v=VS.85).aspx">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param StoreName [in]
@@ -160,7 +160,7 @@ The user does not have permission to access the store location.
 </dl>
 </td>
 <td width="60%">
-The value for the <i>StoreLocation</i> parameter is not defined in the <a href="https://msdn.microsoft.com/596b1ba1-6652-4c97-a44d-e8271471d864">BG_CERT_STORE_LOCATION</a> enumeration.
+The value for the <i>StoreLocation</i> parameter is not defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa362796(v=VS.85).aspx">BG_CERT_STORE_LOCATION</a> enumeration.
 
 </td>
 </tr>
@@ -255,13 +255,9 @@ SmartCard thumbprints are not supported.
 
 The following example shows how to specify a client certificate for a job using the thumbprint of the certificate. The example hard codes the thumbprint of the certificate and assumes pJob points to a valid job. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
   HRESULT hr = S_OK;
   IBackgroundCopyJob* pJob = NULL;  
   IBackgroundCopyJobHttpOptions* pHttpOptions = NULL;
@@ -269,8 +265,8 @@ The following example shows how to specify a client certificate for a job using 
 
 
   // Retrieve a pointer to the IBackgroundCopyJob4 interface.
-  hr = pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&amp;pHttpOptions);
-  pJob-&gt;Release();
+  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&pHttpOptions);
+  pJob->Release();
   if (FAILED(hr))
   {
     wprintf(L"QueryInterface for HttpOptions failed with 0x%x.\n", hr);
@@ -278,11 +274,11 @@ The following example shows how to specify a client certificate for a job using 
   }
 
   // Use the client certificate in the current user's personal (MY) store.
-  hr = pHttpOptions-&gt;SetClientCertificateByID(BG_CERT_STORE_LOCATION_CURRENT_USER, 
+  hr = pHttpOptions->SetClientCertificateByID(BG_CERT_STORE_LOCATION_CURRENT_USER, 
       L"MY", Thumbprint);
   if (FAILED(hr))
   {
-    wprintf(L"pHttpOptions-&gt;SetClientCertificateByID failed with 0x%x.\n", hr);
+    wprintf(L"pHttpOptions->SetClientCertificateByID failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -291,13 +287,13 @@ cleanup:
 
   if (pHttpOptions)
   {
-    hr = pHttpOptions-&gt;Release();
+    hr = pHttpOptions->Release();
   }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

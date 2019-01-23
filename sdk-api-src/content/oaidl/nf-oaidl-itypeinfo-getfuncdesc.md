@@ -133,20 +133,16 @@ The function <b>ITypeInfo::GetFuncDesc</b> provides access to a FUNCDESC structu
 
 In the following example, the CHECKRESULT function is undefined. Replace this function with your error handling code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHECKRESULT(ptypeinfo-&gt;GetFuncDesc(i, &amp;pfuncdesc));
-idMember = pfuncdesc-&gt;memid;
-CHECKRESULT(ptypeinfo-&gt;GetDocumentation(idMember, &amp;bstrName, NULL, NULL, NULL));
-ptypeinfo-&gt;ReleaseFuncDesc(pfuncdesc);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+CHECKRESULT(ptypeinfo->GetFuncDesc(i, &pfuncdesc));
+idMember = pfuncdesc->memid;
+CHECKRESULT(ptypeinfo->GetDocumentation(idMember, &bstrName, NULL, NULL, NULL));
+ptypeinfo->ReleaseFuncDesc(pfuncdesc);
+
+```
+
+
 
 
 

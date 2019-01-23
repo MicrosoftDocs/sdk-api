@@ -86,7 +86,7 @@ The input/output capabilities for the Bluetooth device are undefined.
 
 
 
-<a href="https://msdn.microsoft.com/fc7eda84-3e7b-49e9-a1a6-e1759c894e1a">BLUETOOTH_AUTHENTICATE_RESPONSE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd392287(v=VS.85).aspx">BLUETOOTH_AUTHENTICATE_RESPONSE</a>
  
 
  

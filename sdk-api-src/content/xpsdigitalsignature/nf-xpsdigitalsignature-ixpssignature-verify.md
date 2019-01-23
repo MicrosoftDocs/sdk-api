@@ -66,7 +66,7 @@ If the signature is not incomplete or incompliant, this  certificate will be use
 
 ### -param sigStatus [out, retval]
 
-The <a href="https://msdn.microsoft.com/8c03749c-49cf-4d9c-90be-a75412f044ec">XPS_SIGNATURE_STATUS</a> value that describes the results of the verification.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372985(v=VS.85).aspx">XPS_SIGNATURE_STATUS</a> value that describes the results of the verification.
 
 
 ## -returns
@@ -127,7 +127,7 @@ This method detects the signature status in the order that is specified in secti
     The sequence of detection is as follows: incompliant, incomplete, broken, questionable, and, finally, valid.
     This means that  if, for example,  a signature is found to be incompliant, no digest will be calculated  if the signature is also broken.
 
-For more information on the different types of signature statuses that can be detected by this method, see  <a href="https://msdn.microsoft.com/8c03749c-49cf-4d9c-90be-a75412f044ec">XPS_SIGNATURE_STATUS</a>.
+For more information on the different types of signature statuses that can be detected by this method, see  <a href="https://msdn.microsoft.com/en-us/library/Dd372985(v=VS.85).aspx">XPS_SIGNATURE_STATUS</a>.
 
 
 
@@ -165,7 +165,7 @@ For more information on the different types of signature statuses that can be de
 
 
 
-<a href="https://msdn.microsoft.com/8c03749c-49cf-4d9c-90be-a75412f044ec">XPS_SIGNATURE_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372985(v=VS.85).aspx">XPS_SIGNATURE_STATUS</a>
  
 
  

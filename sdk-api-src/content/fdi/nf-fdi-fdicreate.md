@@ -141,7 +141,7 @@ Only 80286 instructions can be used.
 
 ### -param perf [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure that receives the error information.
+Pointer to an <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure that receives the error information.
 
 
 ## -returns
@@ -150,7 +150,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85
 
 If the function succeeds, it returns a non-<b>NULL</b> HFDI context pointer; otherwise, it returns <b>NULL</b>.
 
-Extended error information is provided in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure.
+Extended error information is provided in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure.
 
 
 

@@ -94,13 +94,9 @@ If there is no existing <a href="https://msdn.microsoft.com/c1ef3d22-7c88-42b0-9
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/9486252b-9aaf-4daf-b307-5a5adddfaa99">SHLoadLibraryFromKnownFolder</a>, which wraps this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // from shobjidl.h
 //
 __inline HRESULT SHLoadLibraryFromKnownFolder(
@@ -115,20 +111,20 @@ __inline HRESULT SHLoadLibraryFromKnownFolder(
         CLSID_ShellLibrary,
         NULL,
         CLSCTX_INPROC_SERVER,
-        IID_PPV_ARGS(&amp;plib));
+        IID_PPV_ARGS(&plib));
     if (SUCCEEDED(hr))
     {
-        hr = plib-&gt;LoadLibraryFromKnownFolder(kfidLibrary, grfMode);
+        hr = plib->LoadLibraryFromKnownFolder(kfidLibrary, grfMode);
         if (SUCCEEDED(hr))
         {
-            hr = plib-&gt;QueryInterface(riid, ppv);
+            hr = plib->QueryInterface(riid, ppv);
         }
-        plib-&gt;Release();
+        plib->Release();
     }
-    return hr;}</pre>
-</td>
-</tr>
-</table></span></div>
+    return hr;}
+```
+
+
 
 
 

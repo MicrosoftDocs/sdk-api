@@ -52,7 +52,7 @@ req.redist:
 
 The 
 				<b>SnmpUtilVarBindListCpy</b> function copies the specified 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure, and allocates any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure, and allocates any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
 
 
 ## -parameters
@@ -63,13 +63,13 @@ The
 ### -param pVblDst [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure to receive the copy.
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure to receive the copy.
 
 
 ### -param pVblSrc [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a> structure to copy.
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a> structure to copy.
 
 
 ## -returns
@@ -115,7 +115,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378929(v=VS.85).aspx">SnmpVarBindList</a>
+<a href="https://msdn.microsoft.com/73e33a64-39fb-4e36-8267-88c78ec27e26">SnmpVarBindList</a>
  
 
  

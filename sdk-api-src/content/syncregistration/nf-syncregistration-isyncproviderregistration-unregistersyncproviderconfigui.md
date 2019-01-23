@@ -120,7 +120,7 @@ The CLSID and content type combination does not exist in the registration store 
 
 
 
-<a href="https://msdn.microsoft.com/4f07719b-c1e5-4985-a952-0ff07601bf1a">SyncProviderConfigUIConfiguration Structure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317251(v=VS.85).aspx">SyncProviderConfigUIConfiguration Structure</a>
  
 
  

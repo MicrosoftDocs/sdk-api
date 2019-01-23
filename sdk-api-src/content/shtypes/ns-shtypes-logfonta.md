@@ -92,30 +92,22 @@ This mapping occurs when the font is used for the first time.
 
 For the MM_TEXT mapping mode, you may use the following formula to specify a height for a font with a given point size.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
+
+```
+
+
 where <b>MulDiv</b> is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define MulDiv(a,b,c)    (((a)*(b))/(c))
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define MulDiv(a,b,c)    (((a)*(b))/(c))
+
+```
+
+
 
 ### -field lfWidth
 

@@ -51,33 +51,25 @@ req.redist:
 Creates the object that's used to access a device. The instantiated object implements  the <a href="https://msdn.microsoft.com/d285e04e-04d0-4c2a-b9f0-72eebebf4f4b">IDeviceIoControl</a> and <a href="https://msdn.microsoft.com/ebc8d694-c933-4d98-95f5-67b0dd733d4d">ICreateDeviceAccessAsync</a> interfaces.
 
 Conditions (FYI):
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
- !defined(__deviceaccess_h__) [-AND-]  ((NTDDI_VERSION &gt;= NTDDI_WIN8)) [-AND-]  defined(__cplusplus)</pre>
-</td>
-</tr>
-</table></span></div>Declaration from header. 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
+ !defined(__deviceaccess_h__) [-AND-]  ((NTDDI_VERSION >= NTDDI_WIN8)) [-AND-]  defined(__cplusplus)
+```
+
+Declaration from header. 
+
+```
+
  HRESULT WINAPI  
 CreateDeviceAccessInstance(  
     _In_ LPCWSTR deviceInterfacePath,  
     _In_ DWORD desiredAccess,  
     _Outptr_ ICreateDeviceAccessAsync **createAsync  
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
+
 
 ## -parameters
 

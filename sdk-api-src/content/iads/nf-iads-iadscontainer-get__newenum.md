@@ -86,13 +86,9 @@ In C/C++, use the  <a href="https://msdn.microsoft.com/e4fdec19-bccf-49ec-8a95-2
 
 The following code example shows how to enumerate child objects in a container.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim cont As IADsContainer
+
+```vb
+Dim cont As IADsContainer
 On Error GoTo Cleanup
 
 Set cont = GetObject("LDAP://OU=Sales,DC=Fabrikam,DC=com")
@@ -101,22 +97,18 @@ For Each obj In cont
 Next
 
 Cleanup:
-    If(Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If(Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
-    Set cont = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set cont = Nothing
+```
+
+
 The following code example shows how to enumerate the object contained in a container.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IEnumVARIANT *pEnum = NULL;
+
+```cpp
+IEnumVARIANT *pEnum = NULL;
 IADsContainer *pCont = NULL;
 LPUNKNOWN pUnk = NULL;
 VARIANT var;
@@ -126,42 +118,42 @@ IADs *pADs = NULL;
  
 // In this sample, skip error checking.
 ADsGetObject(L"LDAP://OU=Sales,DC=Fabrikam,DC=COM", 
-                        IID_IADsContainer, (void**) &amp;pCont);
-pCont-&gt;get__NewEnum(&amp;pUnk);
-pCont-&gt;Release();
+                        IID_IADsContainer, (void**) &pCont);
+pCont->get__NewEnum(&pUnk);
+pCont->Release();
  
-pUnk-&gt;QueryInterface(IID_IEnumVARIANT, (void**) &amp;pEnum);
-pUnk-&gt;Release();
+pUnk->QueryInterface(IID_IEnumVARIANT, (void**) &pEnum);
+pUnk->Release();
  
 // Enumerate. 
-HRESULT hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
-while(SUCCEEDED(hr) &amp;&amp; lFetch &gt; 0)
+HRESULT hr = pEnum->Next(1, &var, &lFetch);
+while(SUCCEEDED(hr) && lFetch > 0)
 {
     if (lFetch == 1)
     {
         BSTR bstr;
 
-        pDisp = V_DISPATCH(&amp;var);
-        pDisp-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs); 
-        pDisp-&gt;Release();
-        hr = pADs-&gt;get_Name(&amp;bstr);
+        pDisp = V_DISPATCH(&var);
+        pDisp->QueryInterface(IID_IADs, (void**)&pADs); 
+        pDisp->Release();
+        hr = pADs->get_Name(&bstr);
         if(SUCCEEDED(hr))
         {
             SysFreeString(bstr);
         }
 
-        pADs-&gt;Release();
+        pADs->Release();
     }
 
-    VariantClear(&amp;var);
-    hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
+    VariantClear(&var);
+    hr = pEnum->Next(1, &var, &lFetch);
 };
 
  
-pEnum-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+pEnum->Release();
+```
+
+
 
 
 

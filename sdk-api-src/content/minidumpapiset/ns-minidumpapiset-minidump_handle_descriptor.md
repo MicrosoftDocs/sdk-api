@@ -98,7 +98,7 @@ The meaning of this member depends on the handle type and the operating system.
 
 
 The first descriptor in the handle data stream follows the header, 
-<a href="https://msdn.microsoft.com/5674df6b-77e0-4bca-8349-8217388902ed">MINIDUMP_HANDLE_DATA_STREAM</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>.
 
 
 
@@ -108,7 +108,7 @@ The first descriptor in the handle data stream follows the header,
 
 
 
-<a href="https://msdn.microsoft.com/5674df6b-77e0-4bca-8349-8217388902ed">MINIDUMP_HANDLE_DATA_STREAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>
 
 
 

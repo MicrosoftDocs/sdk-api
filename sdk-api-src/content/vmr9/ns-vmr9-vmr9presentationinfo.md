@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <code>VMR9PresentationInfo</code> structure is used with the VMR-9 in the <a href="https://msdn.microsoft.com/1c642958-88df-48b2-8eb1-0d032af71f71">IVMRImagePresenter9::PresentImage</a> method.
+The <code>VMR9PresentationInfo</code> structure is used with the VMR-9 in the <a href="https://msdn.microsoft.com/en-us/library/Dd377392(v=VS.85).aspx">IVMRImagePresenter9::PresentImage</a> method.
 
 
 
@@ -61,7 +61,7 @@ The <code>VMR9PresentationInfo</code> structure is used with the VMR-9 in the <a
 
 ### -field dwFlags
 
-Contains a bitwise combintation of flags from the <a href="https://msdn.microsoft.com/97db420f-a6a5-4c87-9c7f-9733a1ce2b46">VMR9PresentationFlags</a> enumeration type. These flags describe the status of the video sample with respect to its presentation time.
+Contains a bitwise combintation of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd407370(v=VS.85).aspx">VMR9PresentationFlags</a> enumeration type. These flags describe the status of the video sample with respect to its presentation time.
 
 
 ### -field lpSurf
