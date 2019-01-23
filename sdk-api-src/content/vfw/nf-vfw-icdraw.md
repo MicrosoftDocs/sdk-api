@@ -119,7 +119,7 @@ Size of the input data, in bytes.
 
 ### -param lTime
 
-Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Dd743013(v=VS.85).aspx">ICDRAWBEGIN</a> structure.
+Time, in samples, to draw this frame. The units for video data are frames. For a definition of the playback rate, see the <b>dwRate</b> and <b>dwScale</b> members of the <a href="https://msdn.microsoft.com/1ec2309c-7ea8-423e-aee3-5e0c650f0b3d">ICDRAWBEGIN</a> structure.
           
 
 

@@ -365,7 +365,7 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183380(v=VS.85).aspx">BITMAPV4HEADER</a>
+<a href="https://msdn.microsoft.com/17c50d55-1c95-4178-82ba-7f504aa63c83">BITMAPV4HEADER</a>
 
 
 

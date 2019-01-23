@@ -81,11 +81,11 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a>
+<a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449106(v=VS.85).aspx">IDCompositionSurface::SuspendDraw</a>
+<a href="https://msdn.microsoft.com/B3CD2007-502C-48EF-989E-4C690B2B65D8">IDCompositionSurface::SuspendDraw</a>
  
 
  

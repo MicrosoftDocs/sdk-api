@@ -73,7 +73,7 @@ responsible for <a href="https://msdn.microsoft.com/e4928371-a172-4cc8-968b-12ae
 this function.
                 
 
-Thus, the channel must be in state <a href="https://msdn.microsoft.com/en-us/library/Dd401787(v=VS.85).aspx">WS_CHANNEL_STATE_OPEN</a>when this function is called.  After a successful completion of this
+Thus, the channel must be in state <a href="https://msdn.microsoft.com/3a7f5bbd-e484-4a7e-8e5d-df229a7227a5">WS_CHANNEL_STATE_OPEN</a>when this function is called.  After a successful completion of this
 function, the channel will be in state <b>WS_CHANNEL_STATE_OPEN</b>.  After a failed completion, it will
 either be in state <b>WS_CHANNEL_STATE_OPEN</b> or state <b>WS_CHANNEL_STATE_FAULTED</b>.
                 
@@ -99,7 +99,7 @@ completion of the function call, and is unmodified if any failure
 occurs during the execution of the function.
                 
 
-The returned security token may be used with <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
+The returned security token may be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323568(v=VS.85).aspx">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
 presented to a service.  The token must be freed using <a href="https://msdn.microsoft.com/7f9500a8-b54f-4967-8f8d-9f8770d3dd60">WsFreeSecurityToken</a> when it is no longer needed.
                 
 

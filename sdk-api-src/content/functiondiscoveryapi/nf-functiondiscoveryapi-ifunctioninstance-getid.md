@@ -4,7 +4,7 @@ title: IFunctionInstance::GetID
 author: windows-sdk-content
 description: Gets the identifier string for the function instance.
 old-location: ncd\ifunctioninstance_getid_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 8a198bc4-cdec-4d46-a1a2-3952d4dc2a7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

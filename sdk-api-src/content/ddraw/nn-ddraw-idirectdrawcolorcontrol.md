@@ -95,17 +95,13 @@ You can use the LPDIRECTDRAWCOLORCONTROL data type to declare a variable that co
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirectDrawColorControl    FAR *LPDIRECTDRAWCOLORCONTROL;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

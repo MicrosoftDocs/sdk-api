@@ -69,7 +69,7 @@ Management object properties: a union of
        <a href="https://msdn.microsoft.com/f17765d5-ccb4-4ede-86e4-36ac80022da0">VSS_VOLUME_PROP</a>, 
        <a href="https://msdn.microsoft.com/c4a20583-7fee-4ae1-97ed-d80b2a7539e3">VSS_DIFF_VOLUME_PROP</a>, and  
        <a href="https://msdn.microsoft.com/9627d7b0-e9d0-425f-9051-cf4ab6b75a8c">VSS_DIFF_AREA_PROP</a> structures. (For more information, see 
-       <a href="https://msdn.microsoft.com/4d787229-671a-422c-a935-39ae11073a5e">VSS_MGMT_OBJECT_UNION</a>.)
+       <a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>.)
 
 It contains information for an object of the type specified by the <b>Type</b> member. 
        Management objects can be volumes, shadow copy storage volumes, or shadow copy storage areas.
@@ -96,7 +96,7 @@ It contains information for an object of the type specified by the <b>Type</b> m
 
 
 
-<a href="https://msdn.microsoft.com/4d787229-671a-422c-a935-39ae11073a5e">VSS_MGMT_OBJECT_UNION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>
 
 
 

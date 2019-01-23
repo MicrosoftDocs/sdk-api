@@ -48,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Extends <a href="shell.PropVariantCompare">PropVariantCompare</a> by allowing the caller to compare two <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures based on specified comparison units and flags.
+Extends <a href="https://msdn.microsoft.com/en-us/library/Bb776516(v=VS.85).aspx">PropVariantCompare</a> by allowing the caller to compare two <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structures based on specified comparison units and flags.
 
 
 ## -parameters
@@ -72,9 +72,9 @@ Reference to the second <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8
 
 ### -param unit [in]
 
-Type: <b><a href="shell.PROPVAR_COMPARE_UNIT">PROPVAR_COMPARE_UNIT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762530(v=VS.85).aspx">PROPVAR_COMPARE_UNIT</a></b>
 
-Specifies, where appropriate, one of the comparison units defined in <a href="shell.PROPVAR_COMPARE_UNIT">PROPVAR_COMPARE_UNIT</a>.
+Specifies, where appropriate, one of the comparison units defined in <a href="https://msdn.microsoft.com/en-us/library/Bb762530(v=VS.85).aspx">PROPVAR_COMPARE_UNIT</a>.
 
 
 ### -param flags [in]

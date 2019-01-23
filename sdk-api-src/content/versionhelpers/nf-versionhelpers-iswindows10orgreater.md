@@ -86,22 +86,18 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows 10 or later, use the following test.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;VersionHelpers.h&gt;
+
+```cpp
+#include <VersionHelpers.h>
 …
     if (!IsWindows10OrGreater())
     {
        MessageBox(NULL, "You need at least Windows 10.", "Version Not Supported", MB_OK);
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -96,22 +96,18 @@ The following console application creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a JPEG file. The code calls the <b>Image::SetPropertyItem</b> method of that 
 						<b>Image</b> object to set the title of the image. Then the code retrieves and displays the new title.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;gdiplus.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <gdiplus.h>
+#include <stdio.h>
 using namespace Gdiplus;
 
 INT main()
 {
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    // Create an Image object based on a JPEG file.
    Image* image = new Image(L"FakePhoto.jpg");
@@ -120,28 +116,28 @@ INT main()
    PropertyItem* propItem = new PropertyItem;
    CHAR newTitleValue[] = "Fake Photograph 2";
 
-   propItem-&gt;id = PropertyTagImageTitle;
-   propItem-&gt;length = 18;  //  includes null terminator
-   propItem-&gt;type = PropertyTagTypeASCII;
-   propItem-&gt;value = newTitleValue;
+   propItem->id = PropertyTagImageTitle;
+   propItem->length = 18;  //  includes null terminator
+   propItem->type = PropertyTagTypeASCII;
+   propItem->value = newTitleValue;
 
-   image-&gt;SetPropertyItem(propItem);
+   image->SetPropertyItem(propItem);
 
    // Get and display the new image title.
-   UINT size = image-&gt;GetPropertyItemSize(PropertyTagImageTitle);
+   UINT size = image->GetPropertyItemSize(PropertyTagImageTitle);
    PropertyItem* title = (PropertyItem*)malloc(size);
-   image-&gt;GetPropertyItem(PropertyTagImageTitle, size, title);
-   printf("The image title is %s.\n", title-&gt;value);
+   image->GetPropertyItem(PropertyTagImageTitle, size, title);
+   printf("The image title is %s.\n", title->value);
 
    free(title);
    delete propItem;
    delete image;
    GdiplusShutdown(gdiplusToken);
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

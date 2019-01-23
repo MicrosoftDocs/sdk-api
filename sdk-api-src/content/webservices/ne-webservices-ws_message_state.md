@@ -79,7 +79,7 @@ The body of the message is being read, for example
                     when a message is received.
                     In this state, the headers can be accessed, and the body can
                     be read (see <a href="https://msdn.microsoft.com/43ceeb1e-aeb2-4482-90f0-d7f6013b239f">WsReadBody</a> or
-                    <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_BODY_READER</a>).
+                    <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_READER</a>).
                 
 
 
@@ -89,7 +89,7 @@ The body of the message is being written, for example
                     when a message is being sent.
                     In this state, the headers can be accessed, and the body can
                     be written (see <a href="https://msdn.microsoft.com/70ff43f5-6f1a-4bbb-aa39-6fb9476e6a37">WsWriteBody</a> or
-                    <a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
+                    <a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_BODY_WRITER</a>).
                 
 
 

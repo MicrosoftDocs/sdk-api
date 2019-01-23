@@ -61,7 +61,7 @@ Sets the video surface type that a decoder will use for DirectX Video Accelerati
 
 ### -param dwType [in]
 
-Member of the <a href="https://msdn.microsoft.com/7ede2247-7878-4b70-9a74-56b626013989">DXVA2_SurfaceType</a> enumeration specifying the surface type. Currently, the only supported value is DXVA2_SurfaceType_DecoderRenderTarget.
+Member of the <a href="https://msdn.microsoft.com/en-us/library/ms699850(v=VS.85).aspx">DXVA2_SurfaceType</a> enumeration specifying the surface type. Currently, the only supported value is DXVA2_SurfaceType_DecoderRenderTarget.
 
 
 ## -returns

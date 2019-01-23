@@ -193,7 +193,7 @@ A variable for alignment.
 
 
 
-<a href="https://msdn.microsoft.com/c1c9a79b-a35a-47e8-be4c-10b3c4ace937">MINIDUMP_MEMORY_INFO_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680385(v=VS.85).aspx">MINIDUMP_MEMORY_INFO_LIST</a>
  
 
  

@@ -54,13 +54,9 @@ The <b>IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</b>
 To perform this operation, call the 
    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
    function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL 
+
+```cpp
+BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to device
                  IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, // dwIoControlCode
@@ -69,10 +65,10 @@ DeviceIoControl( (HANDLE)       hDevice,         // handle to device
                  (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of the input buffer
                  (LPDWORD)      lpBytesReturned, // number of bytes returned
-                 (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure</pre>
-</td>
-</tr>
-</table></span></div>
+                 (LPOVERLAPPED) lpOverlapped );  // OVERLAPPED structure
+```
+
+
 
 ## -ioctlparameters
 
@@ -155,13 +151,13 @@ Use the
     control code for sending storage system-specific information to the volume manager and storage system.
 
 The input buffers passed through the <i>lpInBuffer</i> parameter start with a 
-     <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+     <a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
      structure but may contain additional parameters before the list of data set ranges depending on the value of the 
      <b>Action</b> member of the 
      <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b> 
      structure. The output buffers returned 
      through the <i>lpOutBuffer</i> parameter start with a 
-     <a href="https://msdn.microsoft.com/a3f03509-8be9-4cb4-b942-f5ab358bd70e">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
+     <a href="https://msdn.microsoft.com/en-us/library/Hh404255(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</a> 
      structure but then can contain additional data depending on the value of the <b>Action</b> 
      member of the 
      <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</b> 
@@ -184,14 +180,14 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <tr>
 <td><b>DeviceDsmAction_Notification</b></td>
 <td>
-<a href="https://msdn.microsoft.com/42f76bab-0260-4b43-a8cf-02faedb7e672">DEVICE_DSM_NOTIFICATION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404249(v=VS.85).aspx">DEVICE_DSM_NOTIFICATION_PARAMETERS</a>
 </td>
 <td>None</td>
 </tr>
 <tr>
 <td><b>DeviceDsmAction_OffloadRead</b></td>
 <td>
-<a href="https://msdn.microsoft.com/20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404251(v=VS.85).aspx">DEVICE_DSM_OFFLOAD_READ_PARAMETERS</a>
 </td>
 <td>
 <a href="https://msdn.microsoft.com/93eaa8dd-b244-4fdd-abd4-c7cab46cb2a6">STORAGE_OFFLOAD_READ_OUTPUT</a>
@@ -200,7 +196,7 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <tr>
 <td><b>DeviceDsmAction_OffloadWrite</b></td>
 <td>
-<a href="https://msdn.microsoft.com/d0107cae-50c9-46d2-97cd-324030692903">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404253(v=VS.85).aspx">DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</a>
 </td>
 <td>
 <a href="https://msdn.microsoft.com/9da3ac28-93fd-45b7-9ebe-1436593bf591">STORAGE_OFFLOAD_WRITE_OUTPUT</a>
@@ -210,13 +206,13 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 <td><b>DeviceDsmAction_Allocation</b></td>
 <td>None</td>
 <td>
-<a href="https://msdn.microsoft.com/757ffd97-2a00-4508-817c-0bfb2f2e3a84">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404245(v=VS.85).aspx">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
 </td>
 </tr>
 <tr>
 <td><b>DeviceDsmAction_Repair</b></td>
 <td>
-<a href="https://msdn.microsoft.com/95bc892c-9bb7-464c-8084-7cc6e643fa28">DEVICE_DATA_SET_REPAIR_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404247(v=VS.85).aspx">DEVICE_DATA_SET_REPAIR_PARAMETERS</a>
 </td>
 <td>None</td>
 </tr>
@@ -241,7 +237,7 @@ The input buffers passed through the <i>lpInBuffer</i> parameter start with a
 
 
 
-<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

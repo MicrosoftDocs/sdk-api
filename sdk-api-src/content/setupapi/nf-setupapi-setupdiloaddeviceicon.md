@@ -109,16 +109,12 @@ The <a href="https://msdn.microsoft.com/eafe72c3-b9d8-44c4-a8a7-45a7e0d19b4e">de
 
 The format of a resource-identifier string is
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>[filepath\]filename,-resourceID</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+[filepath\]filename,-resourceID
+```
+
+
 Where:
 
 <ul>

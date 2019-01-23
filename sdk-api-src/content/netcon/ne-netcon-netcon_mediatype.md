@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The values of the <b>NETCON_MEDIATYPE</b> enumerate the possible ways the computer connects to the network.
 
@@ -117,7 +117,7 @@ Shared connection to a remote or wide area network (WAN).
 
 
 
-<a href="https://msdn.microsoft.com/fa6cc803-06f5-4b5c-98a5-c37dae08650f">Internet Connection Sharing and Internet Connection Firewall Enumeration Types</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366125(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Enumeration Types</a>
 
 
 
@@ -125,7 +125,7 @@ Shared connection to a remote or wide area network (WAN).
 
 
 
-<a href="https://msdn.microsoft.com/5acda2b8-960f-41ef-9ff2-49787f4e1c0c">NETCON_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366207(v=VS.85).aspx">NETCON_PROPERTIES</a>
  
 
  

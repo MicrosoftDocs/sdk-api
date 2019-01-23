@@ -135,13 +135,9 @@ Calls to the <b>IRealTimeStylus::SetDesiredPacketDescription Method</b> method a
 
 The following C++ example code sets the properties that are requested to be included in the packet stream.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>GUID guidDesiredPacketDescription[] = { GUID_PACKETPROPERTY_GUID_X, 
+
+```cpp
+GUID guidDesiredPacketDescription[] = { GUID_PACKETPROPERTY_GUID_X, 
                                         GUID_PACKETPROPERTY_GUID_Y, 
                                         GUID_PACKETPROPERTY_GUID_NORMAL_PRESSURE,
                                         GUID_PACKETPROPERTY_GUID_TANGENT_PRESSURE };
@@ -150,7 +146,7 @@ The following C++ example code sets the properties that are requested to be incl
 ULONG ulProperties = sizeof(guidDesiredPacketDescription) / sizeof(GUID);
 
 // Set the packet information we'd like to get
-if (SUCCEEDED(g_pRealTimeStylus-&gt;SetDesiredPacketDescription(ulProperties, guidDesiredPacketDescription)))
+if (SUCCEEDED(g_pRealTimeStylus->SetDesiredPacketDescription(ulProperties, guidDesiredPacketDescription)))
 {
     TRACE("Set the desired packet description successfully.\n");
 }
@@ -158,20 +154,20 @@ if (SUCCEEDED(g_pRealTimeStylus-&gt;SetDesiredPacketDescription(ulProperties, gu
 GUID* pGuids = NULL;
 
 // See if setting the properties was successful
-if (SUCCEEDED(g_pRealTimeStylus-&gt;GetDesiredPacketDescription(&amp;ulProperties, &amp;pGuids)))
+if (SUCCEEDED(g_pRealTimeStylus->GetDesiredPacketDescription(&ulProperties, &pGuids)))
 {
     TRACE("The RealTimeStylus supports %d properties.\n", ulProperties);
 
     // Display the values of the GUIDs in debug output
-    for (int i = 0; i &lt; ulProperties; i++)
+    for (int i = 0; i < ulProperties; i++)
     {
         TRACE("GUID #%d == %d\n", i, pGuids[i]);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

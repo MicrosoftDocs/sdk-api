@@ -69,7 +69,7 @@ Pointer to the <a href="https://msdn.microsoft.com/5baae290-aead-4986-a7d4-03029
 
 ### -param pUnkOuter [in]
 
-If the object is being created as part of an aggregate, specify a pointer to the controlling <a href="http://msdn.microsoft.com/en-us/library/dd757099(VS.85).aspx">IUnknown</a> interface of the aggregate.
+If the object is being created as part of an aggregate, specify a pointer to the controlling <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the aggregate.
 
 
 ### -param fUseDefault [in]

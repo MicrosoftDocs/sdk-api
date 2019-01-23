@@ -103,7 +103,7 @@ The connection is a bridged connection.
 
 
 
-<a href="https://msdn.microsoft.com/fa6cc803-06f5-4b5c-98a5-c37dae08650f">Internet Connection Sharing and Internet Connection Firewall Enumeration Types</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366125(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Enumeration Types</a>
 
 
 

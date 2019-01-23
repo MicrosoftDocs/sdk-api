@@ -64,7 +64,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://m
 
 ### -param dtDriveType [in]
 
-A member of the <a href="https://msdn.microsoft.com/bc81d258-277d-4f69-be6c-724efcdeee56">MC_DRIVE_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue drive value.
+A member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692956(v=VS.85).aspx">MC_DRIVE_TYPE</a> enumeration, specifying whether to retrieve the red, green, or blue drive value.
           
 
 

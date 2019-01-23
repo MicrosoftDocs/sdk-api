@@ -62,13 +62,13 @@ Helper routine for creating a service endpoint (<a href="https://msdn.microsoft.
 
 ### -param channelType [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401788(v=VS.85).aspx">WS_CHANNEL_TYPE</a> enumeration value representing the type of channel hosted by the endpoint.
+A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration value representing the type of channel hosted by the endpoint.
         
 
 
 ### -param properties [in]
 
-An array of <a href="https://msdn.microsoft.com/4342d1d2-3126-401b-8019-c7dd243d4ac4">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
+An array of <a href="https://msdn.microsoft.com/en-us/library/Dd323421(v=VS.85).aspx">WS_SERVICE_ENDPOINT_PROPERTY</a>  structures containing  properties for the service endpoint. (Application should fill in channel properties in the template structure.)
 
 
 
@@ -105,7 +105,7 @@ The <a href="https://msdn.microsoft.com/3a25284a-8f15-42d4-a292-ece28a08fb69">he
 
 ### -param templateType [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401762(v=VS.85).aspx">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
+A <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates being used to create the service endpoint.
         
 
 

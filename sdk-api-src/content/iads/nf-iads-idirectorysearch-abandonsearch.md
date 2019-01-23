@@ -83,13 +83,9 @@ For other return values, see  <a href="https://msdn.microsoft.com/573889e4-37af-
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR pszAttr[] = { L"ADsPath", L"Name", L"samAccountName" };
+
+```cpp
+LPWSTR pszAttr[] = { L"ADsPath", L"Name", L"samAccountName" };
 ADS_SEARCH_HANDLE hSearch;
 DWORD dwCount= sizeof(pszAttr)/sizeof(LPWSTR);
 ////////////////////////////////////////////////////////////////////
@@ -100,27 +96,27 @@ DWORD dwCount= sizeof(pszAttr)/sizeof(LPWSTR);
 ////////////////////////////////////////////////////////////////////
  
 // Search for all users with a last name that starts with h.
-hr = m_pSearch-&gt;ExecuteSearch(L"(&amp;(objectClass=user)(sn=h*))", pszAttr, dwCount, &amp;hSearch );
-while( m_pSearch-&gt;GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
+hr = m_pSearch->ExecuteSearch(L"(&(objectClass=user)(sn=h*))", pszAttr, dwCount, &hSearch );
+while( m_pSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
 {
     // Get the samAccountName
-    hr = m_pSearch-&gt;GetColumn( hSearch, pszAttr[2], &amp;col );
+    hr = m_pSearch->GetColumn( hSearch, pszAttr[2], &col );
     if ( FAILED(hr) )
     {
-        hr = m_pSearch-&gt;AbandonSearch( hSearch );
-        hr = m_pSearch-&gt;CloseSearchHandle(hSearch);
-        m_pSearch-&gt;Release();
+        hr = m_pSearch->AbandonSearch( hSearch );
+        hr = m_pSearch->CloseSearchHandle(hSearch);
+        m_pSearch->Release();
         break;
     }
     if (col.dwADsType == ADSTYPE_CASE_IGNORE_STRING)
-       printf("%S\n", col.pADsValues-&gt;CaseIgnoreString); 
-   m_pSearch-&gt;FreeColumn( &amp;col );
+       printf("%S\n", col.pADsValues->CaseIgnoreString); 
+   m_pSearch->FreeColumn( &col );
 }
  
-m_pSearch-&gt;CloseSearchHandle( hSearch );</pre>
-</td>
-</tr>
-</table></span></div>
+m_pSearch->CloseSearchHandle( hSearch );
+```
+
+
 
 
 

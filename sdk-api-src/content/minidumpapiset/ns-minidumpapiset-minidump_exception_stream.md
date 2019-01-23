@@ -75,7 +75,7 @@ A
 ### -field ThreadContext
 
 A 
-<a href="https://msdn.microsoft.com/aef17239-9b56-4d49-8347-610270f8612b">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
 
 
 ## -remarks
@@ -96,7 +96,7 @@ In this context, a data stream is a set of data in a minidump file.
 
 
 
-<a href="https://msdn.microsoft.com/aef17239-9b56-4d49-8347-610270f8612b">MINIDUMP_LOCATION_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a>
 
 
 

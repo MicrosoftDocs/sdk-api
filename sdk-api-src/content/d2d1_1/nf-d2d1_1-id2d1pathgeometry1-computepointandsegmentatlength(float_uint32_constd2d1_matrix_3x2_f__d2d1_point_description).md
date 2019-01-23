@@ -90,7 +90,7 @@ When this method returns, contains a description of the point that can be found 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
 

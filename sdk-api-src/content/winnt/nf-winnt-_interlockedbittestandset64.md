@@ -4,7 +4,7 @@ title: "_interlockedbittestandset64 function"
 author: windows-sdk-content
 description: Tests the specified bit of the specified LONG64 value and sets it to 1. The operation is atomic.
 old-location: base\interlockedbittestandset64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 27f344c7-7143-42fe-b5b6-adc1d983abde
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -81,7 +81,7 @@ The value of the specified bit before it is set.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="b1b7e334-53ea-48cf-ba60-5fa3ef51a1fc">_interlockedbittestandset64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/646k06sz(v=VS.85).aspx">_interlockedbittestandset64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

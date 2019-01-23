@@ -4,7 +4,7 @@ title: IFunctionDiscovery::GetInstance
 author: windows-sdk-content
 description: Gets the specified function instance, based on identifier.
 old-location: ncd\ifunctiondiscovery_getinstance_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 8f3b2517-0acf-4a43-9539-d905c78be426
 ms.author: windowssdkdev
 ms.date: 12/5/2018

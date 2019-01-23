@@ -89,14 +89,10 @@ This function only operates on paths that are entirely uppercase. For example: C
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;iostream.h&gt;
+
+```cpp
+#include <windows.h>
+#include <iostream.h>
 #include "Shlwapi.h"
 
 void main( void )
@@ -112,29 +108,29 @@ char *lpStr2;
 lpStr2 = buffer_2;
 
 // Test path name 1.
-    cout &lt;&lt; "The content of the unconverted path is : " &lt;&lt; lpStr1 &lt;&lt; endl;
-    cout &lt;&lt; "The \"PathMakePretty\" function returns the value " 
-         &lt;&lt; PathMakePretty(lpStr1) &lt;&lt; "  = TRUE &amp; converts"  &lt;&lt; endl;
-    cout &lt;&lt; "The content of the converted path is   : " &lt;&lt; lpStr1 &lt;&lt; endl;
+    cout << "The content of the unconverted path is : " << lpStr1 << endl;
+    cout << "The \"PathMakePretty\" function returns the value " 
+         << PathMakePretty(lpStr1) << "  = TRUE & converts"  << endl;
+    cout << "The content of the converted path is   : " << lpStr1 << endl;
 
 // Test path name 2.
-    cout &lt;&lt; "\nThe content of the unconverted path is : " &lt;&lt; lpStr2 &lt;&lt; endl;
-    cout &lt;&lt; "The \"PathMakePretty\" function returns the value " 
-         &lt;&lt; PathMakePretty(lpStr2) &lt;&lt; "  = FALSE &amp; no conversion"  &lt;&lt; endl;
-    cout &lt;&lt; "The content of the converted path is   : " &lt;&lt; lpStr2 &lt;&lt; endl;
+    cout << "\nThe content of the unconverted path is : " << lpStr2 << endl;
+    cout << "The \"PathMakePretty\" function returns the value " 
+         << PathMakePretty(lpStr2) << "  = FALSE & no conversion"  << endl;
+    cout << "The content of the converted path is   : " << lpStr2 << endl;
 }
 
 OUTPUT:
 =============
 The content of the unconverted path is : C:\TEST\FILE
-The "PathMakePretty" function returns the value 1  = TRUE &amp; converts
+The "PathMakePretty" function returns the value 1  = TRUE & converts
 The content of the converted path is   : C:\test\file
 
 The content of the unconverted path is : c:\test\file
-The "PathMakePretty" function returns the value 0  = FALSE &amp; no conversion
-The content of the converted path is   : c:\test\file</pre>
-</td>
-</tr>
-</table></span></div>
+The "PathMakePretty" function returns the value 0  = FALSE & no conversion
+The content of the converted path is   : c:\test\file
+```
+
+
 
 

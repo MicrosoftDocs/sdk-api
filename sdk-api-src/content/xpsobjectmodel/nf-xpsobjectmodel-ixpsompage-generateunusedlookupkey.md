@@ -256,7 +256,7 @@ This method allocates the memory used by the string that is returned in <i>key</
 
 
 
-<a href="https://msdn.microsoft.com/2e53f22e-7521-45c9-ac88-b76fb381f556">XPS_OBJECT_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372975(v=VS.85).aspx">XPS_OBJECT_TYPE</a>
  
 
  

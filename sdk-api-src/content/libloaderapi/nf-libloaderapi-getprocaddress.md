@@ -105,13 +105,9 @@ If the .def file does not number the functions consecutively from 1 to <i>N</i> 
 
 If the function might not exist in the DLL module—for example, if the function  is available only on Windows Vista but the application  might be running on Windows XP—specify the function by name rather than by ordinal value and design your application to handle the case when the function is not available, as shown in the following code fragment.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 typedef void (WINAPI *PGNSI)(LPSYSTEM_INFO);
 
 // Call GetNativeSystemInfo if supported or GetSystemInfo otherwise.
@@ -133,10 +129,8 @@ typedef void (WINAPI *PGNSI)(LPSYSTEM_INFO);
        GetSystemInfo(&si);
    }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 For the complete example that contains this code fragment, see <a href="https://msdn.microsoft.com/ae851aef-27d5-4eb7-aeb2-ccdfbf040e5a">Getting the System Version</a>.

@@ -90,13 +90,9 @@ The following example creates an
 						<i>myArrow</i> as the ending line cap for this 
 						<b>Pen</b> object, and draws a capped line. Next, the code gets the middle inset, increments it, and draws another capped line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetMiddleInset(HDC hdc)
+
+```cpp
+VOID Example_GetMiddleInset(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -106,21 +102,21 @@ The following example creates an
 
    // Create a Pen, and assign myArrow as the end cap.
    Pen arrowPen(Color(255, 0, 0, 0));
-   arrowPen.SetCustomEndCap(&amp;myArrow);
+   arrowPen.SetCustomEndCap(&myArrow);
 
    // Draw a line using arrowPen.
-   graphics.DrawLine(&amp;arrowPen, Point(0, 10), Point(100, 10));
+   graphics.DrawLine(&arrowPen, Point(0, 10), Point(100, 10));
 
    // Get the inset of the arrow.
    REAL inset = myArrow.GetMiddleInset();
 
    // Increase inset by 5 pixels and draw another line.
    myArrow.SetMiddleInset(inset + 5);
-   arrowPen.SetCustomEndCap(&amp;myArrow);
-   graphics.DrawLine(&amp;arrowPen, Point(0, 40), Point(100, 40));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   arrowPen.SetCustomEndCap(&myArrow);
+   graphics.DrawLine(&arrowPen, Point(0, 40), Point(100, 40));
+}
+```
+
+
 
 

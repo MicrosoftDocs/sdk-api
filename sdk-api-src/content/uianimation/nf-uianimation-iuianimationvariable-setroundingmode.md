@@ -107,7 +107,7 @@ For an example, see <a href="https://msdn.microsoft.com/360aa157-cb50-400a-b373-
 
 
 
-<a href="https://msdn.microsoft.com/0221207b-4583-44b8-85aa-dc6cd4cd9d25">UI_ANIMATION_ROUNDING_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371966(v=VS.85).aspx">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

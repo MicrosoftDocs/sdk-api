@@ -154,13 +154,9 @@ Sets the <a href="https://msdn.microsoft.com/2f37dbd2-3078-4aa8-97e7-556a0ff2dd7
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMDocument    *newInterface;
 IOpcPartUri       *partUri;
 
@@ -172,35 +168,35 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
+    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
     
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory-&gt;CreateDocument (partUri, &amp;newInterface);
+        hr = xpsFactory->CreateDocument (partUri, &newInterface);
         
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface-&gt;Release();
+            newInterface->Release();
         }
-        partUri-&gt;Release();
+        partUri->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

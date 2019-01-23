@@ -49,7 +49,7 @@ req.redist:
 
 
 Is called by the supplicant when the supplicant needs to obtains a packet 
-   from EAPHost to send to the authenticator. <b>EapHostPeerGetSendPacket</b> is called when the supplicant receives the <a href="https://msdn.microsoft.com/59bf6e02-90b5-4f9a-9865-b71852c61db9">EapHostPeerResponseAction</a>  enumerator from the server.
+   from EAPHost to send to the authenticator. <b>EapHostPeerGetSendPacket</b> is called when the supplicant receives the <a href="https://msdn.microsoft.com/en-us/library/Aa363575(v=VS.85).aspx">EapHostPeerResponseAction</a>  enumerator from the server.
 
 
 ## -parameters

@@ -317,13 +317,9 @@ The memory size required for the <i>pOutputBuf</i> parameter should either be th
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <windows.h>
+
+```cpp
+#include <windows.h>
 #include <tbs.h>
 #pragma comment(lib, "Tbs.lib")
 
@@ -341,10 +337,8 @@ void main()
         result = Tbsi_Get_TCG_Log(hContext, pLogBuffer, &iLogSize);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

@@ -86,17 +86,13 @@ To retrieve the attribute, call the <a href="https://msdn.microsoft.com/5db05ed9
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Set the context. The value nContext (long) would be the same
+
+```cpp
+// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertPolicy::VerifyRequest.
 // hr is defined as an HRESULT.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy-&gt;SetContext(nContext);
+hr = pCertServerPolicy->SetContext(nContext);
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
@@ -104,15 +100,15 @@ if (FAILED(hr))
 }
 
 // Setup the enumeration.
-hr = pCertServerPolicy-&gt;EnumerateAttributesSetup(0);
+hr = pCertServerPolicy->EnumerateAttributesSetup(0);
 if (FAILED(hr))
 {
     printf("Failed EnumerateAttributesSetup [%x]\n", hr);
     goto error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

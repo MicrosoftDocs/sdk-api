@@ -272,7 +272,7 @@ For example, a change sensitivity value of 2 for SENSOR_DATA_TYPE_TEMPERATURE_CE
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/3d5cb6ff-0228-44fa-8216-dbffcb2ec834">SensorConnectionType</a> value that contains the current connection type.</td>
+<a href="https://msdn.microsoft.com/en-us/library/Dd318902(v=VS.85).aspx">SensorConnectionType</a> value that contains the current connection type.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL<b>VT_UI4</b>
@@ -381,7 +381,7 @@ Resolution values are expressed by using the same units as the data field, excep
 
 </td>
 <td>
-<a href="https://msdn.microsoft.com/4cf993ba-d767-4ef8-94a9-e819cc210360">SensorState</a> value that contains the current sensor state.</td>
+<a href="https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx">SensorState</a> value that contains the current sensor state.</td>
 </tr>
 <tr>
 <td>SENSOR_PROPERTY_TYPE<b>VT_CLSID</b>
@@ -397,27 +397,19 @@ Resolution values are expressed by using the same units as the data field, excep
 
 The following example demonstrates how to call <b>GetValue</b> to get a property value.  You must include sensors.h to use the constant in the example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 PROPVARIANT pv;				
-HRESULT hr = spLatLongReport-&gt;GetValue(SENSOR_DATA_TYPE_LATITUDE_DEGREES, &amp;pv);</pre>
-</td>
-</tr>
-</table></span></div>
+HRESULT hr = spLatLongReport->GetValue(SENSOR_DATA_TYPE_LATITUDE_DEGREES, &pv);
+```
+
+
 The following example shows how to implement <b>GetValue</b> in your own report object. This implementation allows the caller to get values for several location report fields. This code requires you to include sensors.h and provarutil.h.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
+
+```cpp
+STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
 {
     HRESULT hr = S_OK;
 
@@ -469,10 +461,10 @@ The following example shows how to implement <b>GetValue</b> in your own report 
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

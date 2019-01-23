@@ -88,7 +88,7 @@ The parent process ID.
 
 ### -field Flags
 
-Flags about the process. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457849(v=VS.85).aspx">PSS_PROCESS_FLAGS</a>.
+Flags about the process. For more information, see <a href="https://msdn.microsoft.com/A1C793DD-EE93-47B6-8EA8-3A45DAD55F2D">PSS_PROCESS_FLAGS</a>.
 
 
 ### -field CreateTime
@@ -191,7 +191,7 @@ The full path to the process executable. If the path exceeds the allocated buffe
 
 
 
-<a href="https://msdn.microsoft.com/D9580147-28ED-4FF5-B7DB-844ACB19769F">PssQuerySnapshot</a> returns a <b>PSS_PROCESS_INFORMATION</b> structure when the <a href="https://msdn.microsoft.com/en-us/library/Dn457851(v=VS.85).aspx">PSS_QUERY_INFORMATION_CLASS</a> member that the caller provides it is  <b>PSS_QUERY_PROCESS_INFORMATION</b>.
+<a href="https://msdn.microsoft.com/D9580147-28ED-4FF5-B7DB-844ACB19769F">PssQuerySnapshot</a> returns a <b>PSS_PROCESS_INFORMATION</b> structure when the <a href="https://msdn.microsoft.com/1C3E5BF4-5AC9-4012-B29D-49C35C0AF90B">PSS_QUERY_INFORMATION_CLASS</a> member that the caller provides it is  <b>PSS_QUERY_PROCESS_INFORMATION</b>.
 
 
 

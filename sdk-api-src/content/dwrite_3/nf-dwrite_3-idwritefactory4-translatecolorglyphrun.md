@@ -110,7 +110,7 @@ Zero-based index of the color palette to use.
 
 ### -param colorLayers [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt725314(v=VS.85).aspx">IDWriteColorGlyphRunEnumerator1</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/692CB5FF-3E74-4D3E-B961-E4AF5995A1B2">IDWriteColorGlyphRunEnumerator1</a>**</b>
 
 If the function succeeds, receives a pointer to an enumerator object that can be used to obtain the color glyph runs.
           If the base run has no color glyphs, then the output pointer is NULL and the method returns DWRITE_E_NOCOLOR.
@@ -145,7 +145,7 @@ Calling <a href="https://msdn.microsoft.com/1D31F807-C3F2-466F-9723-E6F12B13BFA1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt725315(v=VS.85).aspx">IDWriteFactory4</a>
+<a href="https://msdn.microsoft.com/D3C5E48A-A062-430A-A196-CAC621F346FC">IDWriteFactory4</a>
  
 
  

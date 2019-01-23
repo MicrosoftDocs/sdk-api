@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://msdn.microsoft.com/4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4">CRP_NONE</a>.
+Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://msdn.microsoft.com/en-us/library/Dd316936(v=VS.85).aspx">CRP_NONE</a>.
 
 
 ## -parameters
@@ -119,7 +119,7 @@ This notification can be used by an application to perform custom conflict resol
 
 
 
-<a href="https://msdn.microsoft.com/4fdb7123-d8c8-4ed7-9009-0e772252bbb7">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317256(v=VS.85).aspx">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
  
 
  

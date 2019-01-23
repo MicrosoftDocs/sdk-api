@@ -90,30 +90,26 @@ Creates a VT_FILETIME propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromFileTime">InitPropVariantFromFileTime</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762293(v=VS.85).aspx">InitPropVariantFromFileTime</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FILETIME ft;
+
+```cpp
+FILETIME ft;
 PROPVARIANT propvar;
 
-GetSystemTimeAsFileTime(&amp;ft);
+GetSystemTimeAsFileTime(&ft);
 
-HRESULT hr = InitPropVariantFromFileTime(&amp;ft, &amp;propvar);
+HRESULT hr = InitPropVariantFromFileTime(&ft, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_FILETIME.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -126,15 +122,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromFileTimeVector">InitPropVariantFromFileTimeVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762294(v=VS.85).aspx">InitPropVariantFromFileTimeVector</a>
 
 
 
-<a href="shell.InitVariantFromFileTime">InitVariantFromFileTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762323(v=VS.85).aspx">InitVariantFromFileTime</a>
 
 
 
-<a href="shell.PropVariantToFileTime">PropVariantToFileTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776542(v=VS.85).aspx">PropVariantToFileTime</a>
  
 
  

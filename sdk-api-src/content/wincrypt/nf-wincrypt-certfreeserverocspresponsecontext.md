@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>CertFreeServerOcspResponseContext</b> function decrements the reference count for a <a href="https://msdn.microsoft.com/732e91a3-dcd2-491a-ba4f-e22b75b5a71e">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. If the reference count becomes zero, memory allocated for the structure is released.
+The <b>CertFreeServerOcspResponseContext</b> function decrements the reference count for a <a href="https://msdn.microsoft.com/en-us/library/Bb540821(v=VS.85).aspx">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure. If the reference count becomes zero, memory allocated for the structure is released.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>CertFreeServerOcspResponseContext</b> function decrements the reference c
 
 ### -param pServerOcspResponseContext [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/732e91a3-dcd2-491a-ba4f-e22b75b5a71e">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure that contains a value returned by the <a href="https://msdn.microsoft.com/07476e43-db6b-4119-8d6b-41143b98744e">CertGetServerOcspResponseContext</a> function.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540821(v=VS.85).aspx">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure that contains a value returned by the <a href="https://msdn.microsoft.com/07476e43-db6b-4119-8d6b-41143b98744e">CertGetServerOcspResponseContext</a> function.
 
 
 ## -returns

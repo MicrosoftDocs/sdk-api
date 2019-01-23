@@ -76,13 +76,9 @@ A pointer to a case-sensitive, null-terminated string that names the message. Th
 
 Because this structure contains variable length fields, use it as a template for creating a pointer to a user-defined structure. Note that the structure must not contain pointers. The following example shows such a user-defined structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define NAME_LENGTH 32 
+
+```cpp
+#define NAME_LENGTH 32 
 #define USER_LENGTH 50 
  
 typedef struct tagWIDGET_WARE_DEV_BROADCAST_USERDEFINED
@@ -90,10 +86,10 @@ typedef struct tagWIDGET_WARE_DEV_BROADCAST_USERDEFINED
     struct _DEV_BROADCAST_HDR DBHeader; 
     char   szName[NAME_LENGTH];
     BYTE   UserDefined[USER_LENGTH]; 
-} WIDGET_WARE_DEV_BROADCAST_USERDEFINED;</pre>
-</td>
-</tr>
-</table></span></div>
+} WIDGET_WARE_DEV_BROADCAST_USERDEFINED;
+```
+
+
 
 
 

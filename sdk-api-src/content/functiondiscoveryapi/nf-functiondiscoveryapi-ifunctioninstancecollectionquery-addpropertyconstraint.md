@@ -4,7 +4,7 @@ title: IFunctionInstanceCollectionQuery::AddPropertyConstraint
 author: windows-sdk-content
 description: Adds a property constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -99,7 +99,7 @@ The following shows possible values. Note that only a subset of the PROPVARIANT 
 
 ### -param enumPropertyConstraint [in]
 
-A <a href="https://msdn.microsoft.com/59a3d957-0720-4bd9-b240-512b9cca3c90">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa364708(v=VS.85).aspx">PropertyConstraint</a> value that specifies the type of comparison to use when comparing the constraint's PKEY to the function instance's PKEY.
 
 
 ## -returns

@@ -79,7 +79,7 @@ A pointer to the error message that will be displayed to the user. May be <b>NUL
 
 ### -param pcpsiOptionalStatusIcon [out]
 
-Type: <b><a href="https://msdn.microsoft.com/2aa5b5dc-4756-4eff-a7d8-97c8a1dce41b">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762492(v=VS.85).aspx">CREDENTIAL_PROVIDER_STATUS_ICON</a>*</b>
 
 A pointer to an icon  that will shown on the credential. May be <b>NULL</b>.
 

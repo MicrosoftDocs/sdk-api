@@ -85,7 +85,7 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-You can use the <i>surface</i> pointer in calls to the <a href="https://msdn.microsoft.com/en-us/library/Hh449157(v=VS.85).aspx">IDCompositionVisual::SetContent</a> method to set the content of one or more visuals. After setting the content, the visuals compose the contents of the specified layered window as long as the window is layered. If the window is unlayered, the window content disappears from the output of the composition tree. If the window is later re-layered, the window content reappears as long as it is still associated with a visual.
+You can use the <i>surface</i> pointer in calls to the <a href="https://msdn.microsoft.com/894E6E30-6C28-476D-9AE5-D0664A69E03C">IDCompositionVisual::SetContent</a> method to set the content of one or more visuals. After setting the content, the visuals compose the contents of the specified layered window as long as the window is layered. If the window is unlayered, the window content disappears from the output of the composition tree. If the window is later re-layered, the window content reappears as long as it is still associated with a visual.
 
 If the window is resized, the affected visuals are re-composed. 
 
@@ -99,13 +99,9 @@ If the window is moved off-screen or resized to zero, the system stops composing
 
 The following code snippet creates a wrapper object that represents the rasterization of a layered window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 IDCompositionVisual *pVisual = nullptr;
 IUnknown *pSurface = nullptr;
 
@@ -125,10 +121,8 @@ if (SUCCEEDED(hr))
     // Set the content of the Control child visual.
     hr = pVisual->SetContent(pSurface);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 
@@ -139,15 +133,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437405(v=VS.85).aspx">IDCompositionDevice::CreateSurface</a>
+<a href="https://msdn.microsoft.com/3B321BF8-A7A5-4E40-B548-D88CA45F6DAF">IDCompositionDevice::CreateSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437406(v=VS.85).aspx">IDCompositionDevice::CreateSurfaceFromHandle</a>
+<a href="https://msdn.microsoft.com/391E98B4-9FFB-4065-91A4-99306B2FEB8F">IDCompositionDevice::CreateSurfaceFromHandle</a>
  
 
  

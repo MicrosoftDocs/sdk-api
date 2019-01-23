@@ -170,13 +170,9 @@ If the method returns <b>DXVA2_E_NEW_VIDEO_DEVICE</b>, call <a href="https://msd
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT GetVideoProcessorService(
+
+```cpp
+HRESULT GetVideoProcessorService(
     IDirect3DDeviceManager9 *pDeviceManager,
     IDirectXVideoProcessorService **ppVPService
     )
@@ -185,17 +181,17 @@ If the method returns <b>DXVA2_E_NEW_VIDEO_DEVICE</b>, call <a href="https://msd
 
     HANDLE hDevice;
 
-    HRESULT hr = pDeviceManager-&gt;OpenDeviceHandle(&amp;hDevice);
+    HRESULT hr = pDeviceManager->OpenDeviceHandle(&hDevice);
     if (SUCCEEDED(hr))
     {
         // Get the video processor service 
-        HRESULT hr2 = pDeviceManager-&gt;GetVideoService(
+        HRESULT hr2 = pDeviceManager->GetVideoService(
             hDevice, 
             IID_PPV_ARGS(ppVPService)
             );
 
         // Close the device handle.
-        hr = pDeviceManager-&gt;CloseDeviceHandle(hDevice);
+        hr = pDeviceManager->CloseDeviceHandle(hDevice);
 
         if (FAILED(hr2))
         {
@@ -210,10 +206,10 @@ If the method returns <b>DXVA2_E_NEW_VIDEO_DEVICE</b>, call <a href="https://msd
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

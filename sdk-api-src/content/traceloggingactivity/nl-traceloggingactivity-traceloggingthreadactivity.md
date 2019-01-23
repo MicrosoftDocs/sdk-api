@@ -72,7 +72,7 @@ Creates a new <b>TraceLoggingThreadActivity</b> object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A83EE18B-F443-42B8-841D-83CF2BA0FCBC">TraceLoggingThreadActivity Constructor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904615(v=VS.85).aspx">TraceLoggingThreadActivity Constructor</a>
 </td>
 <td align="left" width="63%">
 Transfers ownership of an activity from an existing instance to a new instance.
@@ -115,7 +115,7 @@ Returns true if the activity has been started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53B0C290-8A1B-4C0A-8EA7-98E26EFF47D1">TraceLoggingThreadActivity::Provider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn934711(v=VS.85).aspx">TraceLoggingThreadActivity::Provider</a>
 </td>
 <td align="left" width="63%">
 Returns the handle to the TraceLogging provider associated with this activity.
@@ -184,7 +184,7 @@ Returns true if the activity has been started.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53B0C290-8A1B-4C0A-8EA7-98E26EFF47D1">TraceLoggingThreadActivity::Provider</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn934711(v=VS.85).aspx">TraceLoggingThreadActivity::Provider</a>
 </td>
 <td align="left" width="63%">
 Returns the handle to the TraceLogging provider associated with this activity.
@@ -250,7 +250,7 @@ Contains the value of the level that will be used in the activity’s start and 
 
 This class works by setting a per-thread variable. Only events occurring on the active thread will be automatically tagged.
 
-In order to use TraceLogging activities, you need to define an instance of either <a href="https://msdn.microsoft.com/75930876-4DF2-4559-BA06-133FC676B1AD">TraceLoggingActivity</a> or <b>TraceLoggingThreadActivity</b>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://msdn.microsoft.com/70382367-E0A0-4E5B-A14F-863BEC0615C5">TraceLoggingFunction</a>, <a href="https://msdn.microsoft.com/E5B9347E-50A7-49BE-BDD5-DCED39371234">TraceLoggingWriteStart</a>, <a href="https://msdn.microsoft.com/638F08E3-5970-40B3-8025-E3D81ECA1D2A">TraceLoggingWriteStop</a>, and <a href="https://msdn.microsoft.com/BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
+In order to use TraceLogging activities, you need to define an instance of either <a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity</a> or <b>TraceLoggingThreadActivity</b>. After you have created an instance of one of these classes, you manipulate activity logging using <a href="https://msdn.microsoft.com/70382367-E0A0-4E5B-A14F-863BEC0615C5">TraceLoggingFunction</a>, <a href="https://msdn.microsoft.com/E5B9347E-50A7-49BE-BDD5-DCED39371234">TraceLoggingWriteStart</a>, <a href="https://msdn.microsoft.com/638F08E3-5970-40B3-8025-E3D81ECA1D2A">TraceLoggingWriteStop</a>, and <a href="https://msdn.microsoft.com/BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E">TraceLoggingWriteTagged</a>. This class automatically creates a unique identifier when it is started and tracing is turned on.
          
 
 Any active threads will be automatically nested in this instance when you start logging with a <b>TraceLoggingThreadActivity</b> object. In addition, all events will be automatically logged with this object's unique identifier.
@@ -274,7 +274,7 @@ This class is not available for store applications.
 
 
 
-<a href="https://msdn.microsoft.com/75930876-4DF2-4559-BA06-133FC676B1AD">TraceLoggingActivity Class</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904598(v=VS.85).aspx">TraceLoggingActivity Class</a>
  
 
  

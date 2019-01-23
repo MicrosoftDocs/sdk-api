@@ -172,7 +172,7 @@ If writing the start element causes <b>WS_XML_WRITER_PROPERTY_MAX_DEPTH</b> to b
         <b>WS_E_QUOTA_EXCEEDED</b> is returned.
        (See <a href="https://msdn.microsoft.com/96285557-8317-4875-b634-e2eacd605901">Windows Web Services Return Values</a>.)
 
-When using <a href="https://msdn.microsoft.com/18236818-492f-4906-9e7d-6ca03ef28d36">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
+When using <a href="https://msdn.microsoft.com/en-us/library/Dd323578(v=VS.85).aspx">WS_XML_WRITER_MTOM_ENCODING</a> it is an error to attempt to write an element with the
         localName "Include" from the namespace"http://www.w3.org/2004/08/xop/include".
       
 

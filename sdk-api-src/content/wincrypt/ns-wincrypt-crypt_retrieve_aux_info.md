@@ -73,7 +73,7 @@ A value that specifies a limit to the number of byes retrieved. A value of zero 
 
 ### -field pPreFetchInfo
 
-A pointer to a <a href="https://msdn.microsoft.com/4c3e3248-83d2-45f4-84a5-a73f0434b804">CRYPTNET_URL_CACHE_PRE_FETCH_INFO</a> structure. To get prefetch information, set its <b>cbSize</b> upon input. For no prefetch information, except for <b>cbSize</b>, the data structure contains zero upon return.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380235(v=VS.85).aspx">CRYPTNET_URL_CACHE_PRE_FETCH_INFO</a> structure. To get prefetch information, set its <b>cbSize</b> upon input. For no prefetch information, except for <b>cbSize</b>, the data structure contains zero upon return.
 
 
 ### -field pFlushInfo

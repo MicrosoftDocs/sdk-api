@@ -94,13 +94,9 @@ This function can only be called from the thread that created the window specifi
 
 The following example retrieves the required buffer size, allocates memory for the reason string, retrieves the reason string, and displays the string as debug output.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 #pragma comment(lib, "User32.lib")
 
@@ -110,12 +106,12 @@ BOOL DisplayShutdownBlockReason()
 {
     DWORD cch=0;
 
-    if (ShutdownBlockReasonQuery(hWnd, NULL, &amp;cch)) 
+    if (ShutdownBlockReasonQuery(hWnd, NULL, &cch)) 
     { 
         WCHAR *pch = (WCHAR *)LocalAlloc(LMEM_FIXED, cch * sizeof(*pch)); 
         if (NULL != pch) 
         { 
-            if (ShutdownBlockReasonQuery(hWnd, pch, &amp;cch)) 
+            if (ShutdownBlockReasonQuery(hWnd, pch, &cch)) 
             { 
                 OutputDebugStringW(L"Shutdown block reason: "); 
                 OutputDebugStringW(pch); 
@@ -127,10 +123,10 @@ BOOL DisplayShutdownBlockReason()
     }
     return FALSE;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -4,7 +4,7 @@ title: InitializeSListHead function
 author: windows-sdk-content
 description: Initializes the head of a singly linked list.
 old-location: base\initializeslisthead.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 4e34f947-1687-4ea9-aaa1-8d8dc11dad70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

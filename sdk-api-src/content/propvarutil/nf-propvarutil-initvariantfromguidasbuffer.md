@@ -48,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as VT_ARRAY | VT_UI1.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as VT_ARRAY | VT_UI1.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Reference to the source <b>GUID</b>.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -90,26 +90,22 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromGUIDAsBuffer">InitVariantFromGUIDAsBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762325(v=VS.85).aspx">InitVariantFromGUIDAsBuffer</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT var;
 
-HRESULT hr = InitVariantFromGUIDAsBuffer(FMTID_DocSummaryInformation, &amp;var);
+```cpp
+VARIANT var;
+
+HRESULT hr = InitVariantFromGUIDAsBuffer(FMTID_DocSummaryInformation, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_ARRAY | VT_UI1.
-    VariantClear(&amp;var);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&var);
+}
+```
+
+
 
 
 
@@ -118,7 +114,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
 
 
 
@@ -126,7 +122,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.VariantToBuffer">VariantToBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a>
  
 
  

@@ -189,11 +189,11 @@ This function may return other errors not listed above.
 
 
 This function is typically used when writing the message body with streamed mode set to  
-                <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an
+                <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a>, or when using an
                 XML Reader in streamed mode.
             
 
-This function is a "no-op" when writing the message body and <a href="https://msdn.microsoft.com/en-us/library/Dd323477(v=VS.85).aspx">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or with an
+This function is a "no-op" when writing the message body and <a href="https://msdn.microsoft.com/6153bef6-f37f-4bc6-b1c5-5fbedd6bd234">WS_STREAMED_OUTPUT_TRANSFER_MODE</a> is not set, or with an
                 XML Reader's mode set to <a href="https://msdn.microsoft.com/86277c29-d42f-4b6a-ba33-b836bef284e7">WS_XML_READER_BUFFER_INPUT</a>.
             
 

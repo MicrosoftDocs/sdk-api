@@ -58,7 +58,7 @@ Creates an object of an <a href="https://msdn.microsoft.com/eadb7b1b-aaef-4a4e-a
 
 ### -param NamespaceType [in]
 
-The type of the new namespace object. This can be one of the namespace types listed by the <a href="https://msdn.microsoft.com/baba27d2-6df1-4261-b98d-9728ecbb56f2">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
+The type of the new namespace object. This can be one of the namespace types listed by the <a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration. 
 
 
 ### -param bszNamespaceName [in]
@@ -103,7 +103,7 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://msdn.microsoft.com/baba27d2-6df1-4261-b98d-9728ecbb56f2">WDSTRANSPORT_NAMESPACE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a>
  
 
  

@@ -125,13 +125,9 @@ If all coefficients except <i>constantCoefficient</i>  are zero, the value of th
 
 The following example creates an animation function with two cubic polynomial segments.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DoAnimatedRotation(IDCompositionDevice *pDevice,
+
+```cpp
+HRESULT DoAnimatedRotation(IDCompositionDevice *pDevice,
                            IDCompositionRotateTransform *pRotateTransform,
                            IDCompositionVisual *pVisual, 
                            float animationTime) 
@@ -140,7 +136,7 @@ The following example creates an animation function with two cubic polynomial se
     IDCompositionAnimation *pAnimation = nullptr;
 
     // Create an animation object. 
-    hr = pDevice-&gt;CreateAnimation(&amp;pAnimation);
+    hr = pDevice->CreateAnimation(&pAnimation);
 
     if (SUCCEEDED(hr)) 
     {
@@ -149,7 +145,7 @@ The following example creates an animation function with two cubic polynomial se
         // a*t^3 + b* t^2 + c*t + d.
         // 
         // The following segment will rotate the visual clockwise.
-        pAnimation-&gt;AddCubic(
+        pAnimation->AddCubic(
             0.0,                                // Begin offset
             0.0,                                // Constant coefficient - d
             (360.0f * 1.0f) / animationTime,    // Linear coefficient - c
@@ -157,7 +153,7 @@ The following example creates an animation function with two cubic polynomial se
             0.0);                               // Cubic coefficient - a
 
         // The following segment will rotate the visual counterclockwise.
-        pAnimation-&gt;AddCubic(
+        pAnimation->AddCubic(
             animationTime,
             0.0,
             -(360.0f * 1.0f) / animationTime,
@@ -165,35 +161,35 @@ The following example creates an animation function with two cubic polynomial se
             0.0);
 
         // Set the end of the animation.
-        pAnimation-&gt;End(
+        pAnimation->End(
             2 * animationTime,  // End offset
             0.0);               // End value
 
         // Apply the animation to the Angle property of the
         // rotate transform. 
-        hr = pRotateTransform-&gt;SetAngle(pAnimation);
+        hr = pRotateTransform->SetAngle(pAnimation);
     }
 
     if (SUCCEEDED(hr))
     {
         // Apply the rotate transform object to a visual.
-        hr = pVisual-&gt;SetTransform(pRotateTransform);
+        hr = pVisual->SetTransform(pRotateTransform);
     }
 
     if (SUCCEEDED(hr))
     {
         // Commit the changes to the composition.
-        hr = pDevice-&gt;Commit();
+        hr = pDevice->Commit();
     }
 
-    SafeRelease(&amp;pAnimation);
+    SafeRelease(&pAnimation);
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -68,9 +68,9 @@ The flags that can be used to control the search. It can be any combination of <
 
 ### -param key [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb762474(v=VS.85).aspx">ASSOCKEY</a> value that specifies the type of key that is to be returned.
+The <a href="https://msdn.microsoft.com/f4ac0ba0-4113-498f-a51b-74a37fe33d49">ASSOCKEY</a> value that specifies the type of key that is to be returned.
 
 
 ### -param pszAssoc [in]

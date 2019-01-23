@@ -85,7 +85,7 @@ The <b>WLAN_HOSTED_NETWORK_PEER_AUTH_STATE</b> enumerated type is an extension t
 
 
 
-<a href="https://msdn.microsoft.com/476b903d-7c87-4734-8a42-c8b75d292fb5">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd439500(v=VS.85).aspx">WLAN_HOSTED_NETWORK_DATA_PEER_STATE_CHANGE</a>
 
 
 

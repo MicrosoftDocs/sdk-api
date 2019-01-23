@@ -61,7 +61,7 @@ The <b>VMR9AllocationInfo</b> structure describes the Direct3D surfaces that a V
 
 ### -field dwFlags
 
-Specifies a bitwise combination of flags from the <a href="https://msdn.microsoft.com/880e6c78-177f-49d0-a526-5f036c715f9e">VMR9SurfaceAllocationFlags</a> enumeration type.
+Specifies a bitwise combination of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd407376(v=VS.85).aspx">VMR9SurfaceAllocationFlags</a> enumeration type.
 
 
 ### -field dwWidth
@@ -108,11 +108,11 @@ Specifies the native video size as a <b>SIZE</b> structure.
 
 
 
-<a href="https://msdn.microsoft.com/44c22dc0-98a9-4a6e-a488-1d70dfff6acd">IVMRSurfaceAllocator9::InitializeDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390503(v=VS.85).aspx">IVMRSurfaceAllocator9::InitializeDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/b69db9e9-6ab0-40ad-b929-30613c0b9e4b">IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390510(v=VS.85).aspx">IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper</a>
  
 
  

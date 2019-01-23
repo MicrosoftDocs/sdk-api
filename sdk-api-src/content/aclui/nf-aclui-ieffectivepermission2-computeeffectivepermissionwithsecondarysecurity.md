@@ -88,7 +88,7 @@ A pointer to additional user groups that should be used to modify the security c
 
 ### -param pAuthzUserGroupsOperations [in, optional]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh448467(v=VS.85).aspx">AUTHZ_SID_OPERATION</a> structures that specify how the user groups in the authz context must be modified for each user group in the <i>pUserGroups</i> argument. This array contains as many elements as the number of groups in the <i>pUserGroups</i> parameter.
+Pointer to an array of <a href="https://msdn.microsoft.com/C312BE7D-DA1B-47FE-80BA-7506B9A26E9E">AUTHZ_SID_OPERATION</a> structures that specify how the user groups in the authz context must be modified for each user group in the <i>pUserGroups</i> argument. This array contains as many elements as the number of groups in the <i>pUserGroups</i> parameter.
 
 
 ### -param pDeviceGroups [in, optional]
@@ -98,7 +98,7 @@ A pointer to additional device groups that should be used to modify the security
 
 ### -param pAuthzDeviceGroupsOperations [in, optional]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh448467(v=VS.85).aspx">AUTHZ_SID_OPERATION</a> enumeration types that specify how the device groups in the authz context must be modified for each device group in the <i>pDeviceGroups</i> argument. This array contains as many elements as the number of groups in the <i>pDeviceGroups</i> parameter.
+Pointer to an array of <a href="https://msdn.microsoft.com/C312BE7D-DA1B-47FE-80BA-7506B9A26E9E">AUTHZ_SID_OPERATION</a> enumeration types that specify how the device groups in the authz context must be modified for each device group in the <i>pDeviceGroups</i> argument. This array contains as many elements as the number of groups in the <i>pDeviceGroups</i> parameter.
 
 
 ### -param pAuthzUserClaims [in, optional]
@@ -108,7 +108,7 @@ Pointer to an <a href="https://msdn.microsoft.com/1db95ab0-951f-488c-b522-b3f38f
 
 ### -param pAuthzUserClaimsOperations [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd401615(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration type that specifies  the operations associated with the user claims context.
+Pointer to an <a href="https://msdn.microsoft.com/c1716cdb-87f9-47d6-bfc3-ae6cc043e917">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration type that specifies  the operations associated with the user claims context.
 
 
 ### -param pAuthzDeviceClaims [in, optional]
@@ -118,7 +118,7 @@ A pointer to the device claims context that should be used to modify the securit
 
 ### -param pAuthzDeviceClaimsOperations [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd401615(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration type that specifies the operations associated with the device claims context.
+Pointer to an <a href="https://msdn.microsoft.com/c1716cdb-87f9-47d6-bfc3-ae6cc043e917">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a> enumeration type that specifies the operations associated with the device claims context.
 
 
 ### -param pEffpermResultLists [in, out]
@@ -159,7 +159,7 @@ For each of the secondary security objects whose <b>fEvaluated</b> member is set
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd401615(v=VS.85).aspx">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a>
+<a href="https://msdn.microsoft.com/c1716cdb-87f9-47d6-bfc3-ae6cc043e917">AUTHZ_SECURITY_ATTRIBUTE_OPERATION</a>
 
 
 

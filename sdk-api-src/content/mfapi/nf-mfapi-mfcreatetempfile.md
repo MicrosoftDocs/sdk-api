@@ -59,19 +59,19 @@ Creates a byte stream that is backed by a temporary local file.
 
 ### -param AccessMode
 
-The requested access mode, specified as a member of the <a href="https://msdn.microsoft.com/38108686-5378-4844-8d5a-a433e89f62bb">MF_FILE_ACCESSMODE</a> enumeration.
+The requested access mode, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms696239(v=VS.85).aspx">MF_FILE_ACCESSMODE</a> enumeration.
           
 
 
 ### -param OpenMode
 
-The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://msdn.microsoft.com/0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6">MF_FILE_OPENMODE</a> enumeration.
+The behavior of the function if the file already exists or does not exist, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/ms694164(v=VS.85).aspx">MF_FILE_OPENMODE</a> enumeration.
           
 
 
 ### -param fFlags
 
-Bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/1e1c906e-c832-4df1-96f5-86e690c3c34e">MF_FILE_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/en-us/library/ms694926(v=VS.85).aspx">MF_FILE_FLAGS</a> enumeration.
           
 
 

@@ -104,13 +104,9 @@ The following example creates an <a href="https://msdn.microsoft.com/en-us/libra
 
 The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The second time the image is drawn (after the call that sets the default matrices), all the colors have their red components increased by 50 percent, and all the grays have their green components increased by 50 percent. The third time the image is drawn (after the call that sets the pen matrices), all the colors drawn by a pen have their blue components increased by 50 percent, and all the grays drawn by a pen have their red, green, and blue components increased by 50 percent. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearColorMatrices</b>), no adjustments are applied to colors and grays drawn by a pen.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetClearColorMatrices(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -195,10 +191,8 @@ VOID Example_SetClearColorMatrices(HDC hdc)
       UnitPixel,
       &imAtt); 
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
 
 
 The following illustration shows the output of the preceding code.

@@ -392,23 +392,19 @@ The transport providers allow an application to invoke send and receive operatio
 
 The prototype of the completion routine is as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 void CALLBACK CompletionROUTINE(
   IN DWORD dwError, 
   IN DWORD cbTransferred, 
   IN LPWSAOVERLAPPED lpOverlapped, 
   IN DWORD dwFlags
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The <b>CompletionRoutine</b> is a placeholder for an application-defined or library-defined function name. The <i>dwError</i> specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. The <i>cbTransferred</i> specifies the number of bytes received. The <i>dwFlags</i> parameter contains information that would have appeared in <i>lpFlags</i> if the receive operation had completed immediately. This function does not return a value.
 
 Returning from this function allows invocation of another pending completion routine for this socket. When using 
@@ -417,21 +413,17 @@ Returning from this function allows invocation of another pending completion rou
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSARecvFrom</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
 
 int __cdecl main()
 {
@@ -458,7 +450,7 @@ int __cdecl main()
     
     //-----------------------------------------------
     // Initialize Winsock
-    rc = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    rc = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (rc != 0) {
         /* Could not find a usable Winsock DLL */
         wprintf(L"WSAStartup failed with error: %ld\n", rc);
@@ -466,7 +458,7 @@ int __cdecl main()
     }
 
     // Make sure the Overlapped struct is zeroed out
-    SecureZeroMemory((PVOID) &amp;Overlapped, sizeof(WSAOVERLAPPED) );
+    SecureZeroMemory((PVOID) &Overlapped, sizeof(WSAOVERLAPPED) );
 
     // Create an event handle and setup the overlapped structure.
     Overlapped.hEvent = WSACreateEvent();
@@ -494,7 +486,7 @@ int __cdecl main()
     RecvAddr.sin_port = htons(Port);
     RecvAddr.sin_addr.s_addr = htonl(INADDR_ANY);
 
-    rc = bind(RecvSocket, (SOCKADDR *) &amp; RecvAddr, sizeof (RecvAddr));
+    rc = bind(RecvSocket, (SOCKADDR *) & RecvAddr, sizeof (RecvAddr));
     if (rc != 0) {
         /* Bind to the socket failed */
         wprintf(L"bind failed with error: %ld\n", WSAGetLastError());
@@ -511,12 +503,12 @@ int __cdecl main()
     DataBuf.buf = RecvBuf;
     wprintf(L"Listening for incoming datagrams on port=%d\n", Port);
     rc = WSARecvFrom(RecvSocket,
-                      &amp;DataBuf,
+                      &DataBuf,
                       1,
-                      &amp;BytesRecv,
-                      &amp;Flags,
-                      (SOCKADDR *) &amp; SenderAddr,
-                      &amp;SenderAddrSize, &amp;Overlapped, NULL);
+                      &BytesRecv,
+                      &Flags,
+                      (SOCKADDR *) & SenderAddr,
+                      &SenderAddrSize, &Overlapped, NULL);
 
     if (rc != 0) {
         err = WSAGetLastError();
@@ -528,14 +520,14 @@ int __cdecl main()
             return 1;
         }
         else {
-            rc = WSAWaitForMultipleEvents(1, &amp;Overlapped.hEvent, TRUE, INFINITE, TRUE);
+            rc = WSAWaitForMultipleEvents(1, &Overlapped.hEvent, TRUE, INFINITE, TRUE);
             if (rc == WSA_WAIT_FAILED) {
                 wprintf(L"WSAWaitForMultipleEvents failed with error: %d\n", WSAGetLastError());
                 retval = 1;
             }
 
-            rc = WSAGetOverlappedResult(RecvSocket, &amp;Overlapped, &amp;BytesRecv,
-                                FALSE, &amp;Flags);
+            rc = WSAGetOverlappedResult(RecvSocket, &Overlapped, &BytesRecv,
+                                FALSE, &Flags);
             if (rc == FALSE) {
                 wprintf(L"WSArecvFrom failed with error: %d\n", WSAGetLastError());
                 retval = 1;
@@ -559,10 +551,10 @@ int __cdecl main()
     WSACleanup();
     return (retval);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

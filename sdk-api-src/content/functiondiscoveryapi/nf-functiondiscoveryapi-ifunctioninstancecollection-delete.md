@@ -4,7 +4,7 @@ title: IFunctionInstanceCollection::Delete
 author: windows-sdk-content
 description: Removes the specified function instance from the collection.
 old-location: ncd\ifunctioninstancecollection_delete.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: e7f94912-9656-4a6b-8754-eb37358b5f9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -83,13 +83,9 @@ The caller must call <b>Release</b> on the copy of ACEs through their <a href="h
 
 The following code example shows how to copy an ACL from one ADSI object to another.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim x As IADs
+
+```vb
+Dim x As IADs
 Dim sd As IADsSecurityDescriptor
 Dim Dacl As IADsAccessControlList
 Dim CopyDacl As IADsAccessControlList
@@ -108,26 +104,22 @@ x.Put "ntSecurityDescriptor", Array(sd)
 x.SetInfo
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set x = Nothing
     Set sd = Nothing
     Set Dacl = Nothing
     Set CopyDacl = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code example copies the ACL from the source object to the target object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CopyACL(IADs *pSource, IADs *pTarget)
+
+```cpp
+HRESULT CopyACL(IADs *pSource, IADs *pTarget)
 {
     IADsSecurityDescriptor *pSourceSD = NULL;
     IADsSecurityDescriptor *pTargetSD = NULL;    
@@ -136,75 +128,75 @@ The following code example copies the ACL from the source object to the target o
     HRESULT hr = S_OK;
     VARIANT varSource, varTarget;
     
-    VariantInit(&amp;varSource);
-    VariantInit(&amp;varTarget);
+    VariantInit(&varSource);
+    VariantInit(&varTarget);
 
     if((pSource==NULL) || (pTarget==NULL))
     {
         return E_FAIL;
     }
     
-    hr = pSource-&gt;Get(CComBSTR("ntSecurityDescriptor"), &amp;varSource);
+    hr = pSource->Get(CComBSTR("ntSecurityDescriptor"), &varSource);
     if(FAILED(hr))
     {
         goto Cleanup;
     }
     
-    hr = pTarget-&gt;Get(CComBSTR("ntSecurityDescriptor"), &amp;varTarget);
+    hr = pTarget->Get(CComBSTR("ntSecurityDescriptor"), &varTarget);
     if(FAILED(hr))
     {
         goto Cleanup;
     }
     
-    hr = V_DISPATCH(&amp;varSource)-&gt;QueryInterface(IID_IADsSecurityDescriptor,
-                    (void**)&amp;pSourceSD);
+    hr = V_DISPATCH(&varSource)->QueryInterface(IID_IADsSecurityDescriptor,
+                    (void**)&pSourceSD);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
 
-    hr = V_DISPATCH(&amp;varTarget)-&gt;QueryInterface(IID_IADsSecurityDescriptor,
-                    (void**)&amp;pTargetSD);
+    hr = V_DISPATCH(&varTarget)->QueryInterface(IID_IADsSecurityDescriptor,
+                    (void**)&pTargetSD);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
     
-    hr = pSourceSD-&gt;get_DiscretionaryAcl(&amp;pDisp);
+    hr = pSourceSD->get_DiscretionaryAcl(&pDisp);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
 
-    hr = pTargetSD-&gt;put_DiscretionaryAcl(pDisp);
+    hr = pTargetSD->put_DiscretionaryAcl(pDisp);
     if(FAILED(hr))
     {
         goto Cleanup;
     }    
     
-    hr = pTarget-&gt;SetInfo();
+    hr = pTarget->SetInfo();
         
 Cleanup:
-    VariantClear(&amp;varSource);
-    VariantClear(&amp;varTarget);
+    VariantClear(&varSource);
+    VariantClear(&varTarget);
     if(pSourceSD) 
     {
-        pSourceSD-&gt;Release();
+        pSourceSD->Release();
     }
     if(pTargetSD) 
     {
-        pTargetSD-&gt;Release();
+        pTargetSD->Release();
     }
     if(pDisp) 
     {
-        pDisp-&gt;Release();
+        pDisp->Release();
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

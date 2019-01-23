@@ -66,7 +66,7 @@ The result of the operation.   If the operation fails
 
 ### -param callbackModel [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401768(v=VS.85).aspx">WS_CALLBACK_MODEL</a> value that determines whether the callback is being invoked as a long or short term callback.
+A <a href="https://msdn.microsoft.com/6a8e4c0b-3c0a-4bd3-bbac-40e6f499a055">WS_CALLBACK_MODEL</a> value that determines whether the callback is being invoked as a long or short term callback.
                     
 
 

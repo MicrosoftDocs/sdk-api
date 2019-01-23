@@ -92,7 +92,7 @@ A pointer to a pointer to an <a href="https://msdn.microsoft.com/6af8cb67-da77-4
 
 
 
-The supplicant should call <a href="https://msdn.microsoft.com/facf4ccf-c2e3-435e-8333-8d2c5bbe0186">EapHostPeerQueryInteractiveUIInputFields</a> function first after receiving the <a href="https://msdn.microsoft.com/59bf6e02-90b5-4f9a-9865-b71852c61db9">EapHostPeerResponseInvokeUI</a> action code from EAPHost. If <a href="https://msdn.microsoft.com/081b7a72-abe3-4cbb-9b6c-07bb6717fbfe">EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED</a> is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <b>EapHostPeerInvokeInteractiveUI</b>. 
+The supplicant should call <a href="https://msdn.microsoft.com/facf4ccf-c2e3-435e-8333-8d2c5bbe0186">EapHostPeerQueryInteractiveUIInputFields</a> function first after receiving the <a href="https://msdn.microsoft.com/en-us/library/Aa363575(v=VS.85).aspx">EapHostPeerResponseInvokeUI</a> action code from EAPHost. If <a href="https://msdn.microsoft.com/081b7a72-abe3-4cbb-9b6c-07bb6717fbfe">EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED</a> is returned, the supplicant should resort to the traditional model of invoking method interactive UI by calling <b>EapHostPeerInvokeInteractiveUI</b>. 
 
 If called,<b>EapHostPeerInvokeInteractiveUI</b> raises the user interface for the EAP method after the supplicant calls <a href="https://msdn.microsoft.com/47ade6f1-067b-48ab-b4ac-a3d3cf63d809">EapHostPeerGetUIContext</a>. This occurs when a call to <a href="https://msdn.microsoft.com/7b3bc23d-312d-494d-afd0-ce82d2d5136c">EapHostPeerProcessReceivedPacket</a> 
    returns the <b>EapHostPeerResponseInvokeUi</b>action code. <b>EapHostPeerGetUIContext</b>returns UI context that 

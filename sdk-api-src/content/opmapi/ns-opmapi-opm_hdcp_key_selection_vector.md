@@ -70,7 +70,7 @@ A buffer that contains the device's KSV. (This is the value named <i>Bksv</i> in
 
 
 
-<a href="https://msdn.microsoft.com/1fb59959-782b-44e8-81b1-eca3c32a0783">OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd388940(v=VS.85).aspx">OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 

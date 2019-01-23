@@ -154,13 +154,13 @@ To resolve a scheduling conflict,
 </ul>
 
 
-If none of the above options is allowed by the priorty comparison objects, the attempt to schedule the storyboard fails and Windows Animation returns <a href="https://msdn.microsoft.com/2d62589a-9121-4af6-b704-566a28dcc21e">UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY</a> to the calling application.
+If none of the above options is allowed by the priorty comparison objects, the attempt to schedule the storyboard fails and Windows Animation returns <a href="https://msdn.microsoft.com/en-us/library/Dd371967(v=VS.85).aspx">UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY</a> to the calling application.
 
 Note that for the new storyboard to be successfully scheduled, it must begin before its longest acceptable delay has elapsed.  This is determined by <a href="https://msdn.microsoft.com/5f87a4b1-8db9-42ba-963f-664db588c520">IUIAnimationStoryboard::SetLongestAcceptableDelay </a>or <a href="https://msdn.microsoft.com/27182009-1614-41a0-9b55-7c1dcb494883">IUIAnimationManager::SetDefaultLongestAcceptableDelay </a>(if neither is called, the default is 0.0 seconds).  If the longest acceptable delay is <b>UI_ANIMATION_SECONDS_EVENTUALLY</b>, any finite delay will be sufficient.
 
-The <i>priorityEffect</i> parameter describes the possible effect on the new storyboard if <b>HasPriority</b> were to return S_FALSE.  If <i>priorityEffect</i> is <a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">UI_ANIMATION_PRIORITY_EFFECT_FAILURE</a>, it is possible that returning S_FALSE will result in a failure to schedule the new storyboard (it is also possible that the animation manager will be allowed to resolve the conflict in a different way by another priority comparison object).  If <i>priorityEffect</i> is <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b>, the only downside of returning S_FALSE is that the storyboard might begin later than it would have had <i>HasPriority</i> returned S_OK.
+The <i>priorityEffect</i> parameter describes the possible effect on the new storyboard if <b>HasPriority</b> were to return S_FALSE.  If <i>priorityEffect</i> is <a href="https://msdn.microsoft.com/en-us/library/Dd317049(v=VS.85).aspx">UI_ANIMATION_PRIORITY_EFFECT_FAILURE</a>, it is possible that returning S_FALSE will result in a failure to schedule the new storyboard (it is also possible that the animation manager will be allowed to resolve the conflict in a different way by another priority comparison object).  If <i>priorityEffect</i> is <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b>, the only downside of returning S_FALSE is that the storyboard might begin later than it would have had <i>HasPriority</i> returned S_OK.
 
-When <a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">UI_ANIMATION_PRIORITY_EFFECT_DELAY</a> is passed to <b>HasPriority</b>, the animation manager has already determined that it can schedule the new storyboard such that it will begin before its longest acceptable delay has elapsed, but it is in effect asking the application if the storyboard should begin even earlier.  In some scenarios, it might be best to reduce the latency of an animation by returning S_OK.  In others, it might be preferable to let scheduled animations complete whenever possible, in which case S_FALSE should be returned.  <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b> is only passed to <b>HasPriority</b> when the animation manager is considering canceling or trimming a storyboard.
+When <a href="https://msdn.microsoft.com/en-us/library/Dd317049(v=VS.85).aspx">UI_ANIMATION_PRIORITY_EFFECT_DELAY</a> is passed to <b>HasPriority</b>, the animation manager has already determined that it can schedule the new storyboard such that it will begin before its longest acceptable delay has elapsed, but it is in effect asking the application if the storyboard should begin even earlier.  In some scenarios, it might be best to reduce the latency of an animation by returning S_OK.  In others, it might be preferable to let scheduled animations complete whenever possible, in which case S_FALSE should be returned.  <b>UI_ANIMATION_PRIORITY_EFFECT_DELAY</b> is only passed to <b>HasPriority</b> when the animation manager is considering canceling or trimming a storyboard.
 
 
 
@@ -190,7 +190,7 @@ When <a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">U
 
 
 
-<a href="https://msdn.microsoft.com/2da8fa3b-0947-46cb-bdb1-725da08b9aaa">UI_ANIMATION_PRIORITY_EFFECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317049(v=VS.85).aspx">UI_ANIMATION_PRIORITY_EFFECT</a>
  
 
  

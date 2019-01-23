@@ -85,13 +85,13 @@ The thread environment block.
 ### -field Stack
 
 A 
-<a href="https://msdn.microsoft.com/34c6de99-8ba5-4199-a382-3e3f7d02571f">MINIDUMP_MEMORY_DESCRIPTOR</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680384(v=VS.85).aspx">MINIDUMP_MEMORY_DESCRIPTOR</a> structure.
 
 
 ### -field ThreadContext
 
 A 
-<a href="https://msdn.microsoft.com/aef17239-9b56-4d49-8347-610270f8612b">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
 
 
 ## -see-also
@@ -99,11 +99,11 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/aef17239-9b56-4d49-8347-610270f8612b">MINIDUMP_LOCATION_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680383(v=VS.85).aspx">MINIDUMP_LOCATION_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/34c6de99-8ba5-4199-a382-3e3f7d02571f">MINIDUMP_MEMORY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680384(v=VS.85).aspx">MINIDUMP_MEMORY_DESCRIPTOR</a>
  
 
  

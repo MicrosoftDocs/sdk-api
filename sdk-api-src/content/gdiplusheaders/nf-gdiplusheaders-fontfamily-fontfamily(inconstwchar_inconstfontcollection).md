@@ -66,10 +66,10 @@ Name of the font family. For example, Arial.ttf is the name of the Arial font fa
 
 ### -param fontCollection [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a>*</b>
 
 Optional. Pointer to a 
-					<a href="https://msdn.microsoft.com/5e1336ea-cb29-4fa4-85d5-077498a69cb2">FontCollection</a> object that specifies the collection that the font family belongs to. If 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object that specifies the collection that the font family belongs to. If 
 					<b>FontCollection</b> is <b>NULL</b>, this font family is not part of a collection. The default value is <b>NULL</b>. 
 
 
@@ -78,19 +78,19 @@ Optional. Pointer to a
 
 
 
-<a href="https://msdn.microsoft.com/cdd2ee9e-eb32-420f-8118-50582b55b7cd">FontFamily</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c71a3eb-4fbf-45b0-ab35-8756a100af31">InstalledFontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534469(v=VS.85).aspx">InstalledFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/b53cc1cd-9dc8-4e93-9f92-7ebed7d034b6">PrivateFontCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534491(v=VS.85).aspx">PrivateFontCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

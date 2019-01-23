@@ -200,20 +200,16 @@ If the column-enumeration sequence is not referencing a valid column, <b>GetValu
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT     hr;
+
+```cpp
+HRESULT     hr;
 VARIANT     var;
 SYSTEMTIME  systime;
 
-VariantInit(&amp;var);
+VariantInit(&var);
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
-hr = pEnumCol-&gt;GetValue(CV_OUT_HEX, &amp;var);
+hr = pEnumCol->GetValue(CV_OUT_HEX, &var);
 if ( FAILED (hr) )
 {
     printf("Failed GetValue - %x\n", hr);
@@ -228,7 +224,7 @@ switch( var.vt )
         printf("%ws\n", var.bstrVal );
         break;
     case VT_DATE:
-        VariantTimeToSystemTime( var.date, &amp;systime );
+        VariantTimeToSystemTime( var.date, &systime );
         printf("%d.%d.%d %02d:%02d:%02d\n",
                systime.wMonth,
                systime.wDay,
@@ -248,10 +244,10 @@ switch( var.vt )
         break;
 }
 // done processing, clear resources
-VariantClear( &amp;var );</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear( &var );
+```
+
+
 
 
 

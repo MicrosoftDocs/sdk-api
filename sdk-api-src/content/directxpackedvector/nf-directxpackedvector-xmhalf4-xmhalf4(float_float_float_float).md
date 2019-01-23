@@ -102,13 +102,9 @@ The following pseudocode demonstrates the operation of this constructor using th
 	    Math <a href="https://msdn.microsoft.com/463abe18-b8c4-44be-9740-b7e0459d3ebd">XMConvertFloatToHalf</a> function:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMHALF4 instance;
 
 	instance.x = XMConvertFloatToHalf(_x);
@@ -116,10 +112,10 @@ The following pseudocode demonstrates the operation of this constructor using th
 	instance.z = XMConvertFloatToHalf(_z);
 	instance.w = XMConvertFloatToHalf(_w);
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

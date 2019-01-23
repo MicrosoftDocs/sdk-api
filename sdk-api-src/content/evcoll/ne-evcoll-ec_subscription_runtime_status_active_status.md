@@ -68,7 +68,7 @@ The subscription or event source is running.
 
 ### -field EcRuntimeStatusActiveStatusInactive
 
-The subscription or event source is inactive. You can query the System event log to see the error events sent by the Event Collector service. Use the <a href="https://msdn.microsoft.com/cc4e58d5-22cf-4823-be5d-e056f6690a45">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> values to obtain information on why the subscription or source is inactive.
+The subscription or event source is inactive. You can query the System event log to see the error events sent by the Event Collector service. Use the <a href="https://msdn.microsoft.com/en-us/library/Aa382727(v=VS.85).aspx">EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID</a> values to obtain information on why the subscription or source is inactive.
 
 
 ### -field EcRuntimeStatusActiveStatusTrying

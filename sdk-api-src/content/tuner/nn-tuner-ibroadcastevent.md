@@ -116,13 +116,9 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 The following example implements a class that can source or sink broadcast events:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 class TunerEvent : public IBroadcastEvent
 {
 
@@ -132,12 +128,12 @@ public:
     // IUnknown methods
     STDMETHODIMP_(ULONG) AddRef()
     {
-        return InterlockedIncrement(&amp;m_nRefCount);
+        return InterlockedIncrement(&m_nRefCount);
     }
     STDMETHODIMP_(ULONG) Release()
     {
-        _ASSERT(m_nRefCount &gt;= 0);
-        ULONG uCount = InterlockedDecrement(&amp;m_nRefCount);
+        _ASSERT(m_nRefCount >= 0);
+        ULONG uCount = InterlockedDecrement(&m_nRefCount);
         if (uCount == 0)
         {
             delete this;
@@ -151,9 +147,9 @@ public:
         if (NULL == ppvObject)
             return E_POINTER;
         if (riid == __uuidof(IUnknown))
-            *ppvObject = static_cast&lt;IUnknown*&gt;(this);
+            *ppvObject = static_cast<IUnknown*>(this);
         else if (riid == __uuidof(IBroadcastEvent))
-            *ppvObject = static_cast&lt;IBroadcastEvent*&gt;(this);
+            *ppvObject = static_cast<IBroadcastEvent*>(this);
         else 
             return E_NOINTERFACE;
         AddRef();
@@ -180,7 +176,7 @@ private:
     HRESULT UnRegisterForTunerEvents();
     HRESULT Fire_Event(GUID eventID);
 
-    CComPtr&lt;IBroadcastEvent&gt;   m_spBroadcastEvent; 
+    CComPtr<IBroadcastEvent>   m_spBroadcastEvent; 
     DWORD m_dwBroadcastEventCookie;
 };
 
@@ -191,14 +187,14 @@ HRESULT TunerEvent::HookupGraphEventService(IFilterGraph *pGraph)
     HRESULT hr = S_OK;
     if (!m_spBroadcastEvent)
     {
-        CComQIPtr&lt;IServiceProvider&gt; spServiceProvider(pGraph);
+        CComQIPtr<IServiceProvider> spServiceProvider(pGraph);
         if (!spServiceProvider)
         {
             return E_NOINTERFACE;
         }
-        hr = spServiceProvider-&gt;QueryService(SID_SBroadcastEventService, 
+        hr = spServiceProvider->QueryService(SID_SBroadcastEventService, 
             IID_IBroadcastEvent, 
-            reinterpret_cast&lt;void**&gt;(&amp;m_spBroadcastEvent));
+            reinterpret_cast<void**>(&m_spBroadcastEvent));
         if (FAILED(hr))
         {
             // Create the Broadcast Event Service object.
@@ -210,14 +206,14 @@ HRESULT TunerEvent::HookupGraphEventService(IFilterGraph *pGraph)
                 return hr; 
             }
             
-            CComQIPtr&lt;IRegisterServiceProvider&gt; spRegService(pGraph);
+            CComQIPtr<IRegisterServiceProvider> spRegService(pGraph);
             if (!spRegService)
             {
                 return E_NOINTERFACE;
             }
             
             // Register the Broadcast Event Service object as a service.
-            hr = spRegService-&gt;RegisterService(
+            hr = spRegService->RegisterService(
                 SID_SBroadcastEventService,
                 m_spBroadcastEvent);
         }
@@ -236,13 +232,13 @@ HRESULT TunerEvent::RegisterForTunerEvents()
     {
         return S_FALSE;  // There is already a connection; nothing to do.
     }
-    CComQIPtr&lt;IConnectionPoint&gt; spConnectionPoint(m_spBroadcastEvent);
+    CComQIPtr<IConnectionPoint> spConnectionPoint(m_spBroadcastEvent);
     if(!spConnectionPoint)
     {
         return E_NOINTERFACE;
     }
-    return spConnectionPoint-&gt;Advise(static_cast&lt;IBroadcastEvent*&gt;(this),
-        &amp;m_dwBroadcastEventCookie);
+    return spConnectionPoint->Advise(static_cast<IBroadcastEvent*>(this),
+        &m_dwBroadcastEventCookie);
 }
 
 // Unregister for events.
@@ -253,14 +249,14 @@ HRESULT TunerEvent::UnRegisterForTunerEvents()
     {
         return S_OK; // Not registered for events; nothing to do.
     }
-    CComQIPtr&lt;IConnectionPoint&gt; spConnectionPoint(m_spBroadcastEvent);
+    CComQIPtr<IConnectionPoint> spConnectionPoint(m_spBroadcastEvent);
     if(!spConnectionPoint)
     {
         return E_NOINTERFACE;
     }
     
     // Release the connection point.
-    hr = spConnectionPoint-&gt;Unadvise(m_dwBroadcastEventCookie);
+    hr = spConnectionPoint->Unadvise(m_dwBroadcastEventCookie);
     if (FAILED(hr))
     {
         // Error: Unable to unadvise the connection point.
@@ -278,12 +274,12 @@ HRESULT TunerEvent::Fire_Event(GUID eventID)
     {
         return E_FAIL; // Forgot to call HookupGraphEventService.
     }
-    return m_spBroadcastEvent-&gt;Fire(eventID);
+    return m_spBroadcastEvent->Fire(eventID);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

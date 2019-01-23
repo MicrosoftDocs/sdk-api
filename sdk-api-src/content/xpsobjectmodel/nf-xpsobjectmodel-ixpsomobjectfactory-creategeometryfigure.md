@@ -108,7 +108,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One of the fields in the <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a  value that is not valid.
+One of the fields in the <a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a  value that is not valid.
 
 
 </td>
@@ -125,13 +125,9 @@ One of the fields in the <a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMGeometryFigure    *newInterface;
 // startPoint contains the starting point
 // of the geometry figure being created
@@ -145,28 +141,28 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateGeometryFigure (&amp;startPoint, &amp;newInterface);
+    hr = xpsFactory->CreateGeometryFigure (&startPoint, &newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -195,7 +191,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/3e5f693a-a0e4-41cf-a2a6-1f61c8e189e3">XPS_POINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372977(v=VS.85).aspx">XPS_POINT</a>
  
 
  

@@ -181,7 +181,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>; otherwise, the
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa373212(v=VS.85).aspx">SYSTEM_BATTERY_STATE</a> structure containing 
+         <a href="https://msdn.microsoft.com/6eed7c93-48bd-4142-b639-df6d71b114f9">SYSTEM_BATTERY_STATE</a> structure containing 
          information about the current system battery.
 
 </td>
@@ -217,7 +217,7 @@ The <i>lpInBuffer</i> parameter must be <b>NULL</b>, otherwise, the
         
 
 The <i>lpOutputBuffer</i> buffer receives a 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a> structure 
+         <a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a> structure 
          containing the current system power capabilities.
 
 This information represents the currently supported power capabilities. It may change as drivers are 
@@ -478,11 +478,11 @@ For more information on using PowrProf.h, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373212(v=VS.85).aspx">SYSTEM_BATTERY_STATE</a>
+<a href="https://msdn.microsoft.com/6eed7c93-48bd-4142-b639-df6d71b114f9">SYSTEM_BATTERY_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373215(v=VS.85).aspx">SYSTEM_POWER_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/aa0af56e-59b3-4d0d-b356-a4046d8754ef">SYSTEM_POWER_CAPABILITIES</a>
 
 
 

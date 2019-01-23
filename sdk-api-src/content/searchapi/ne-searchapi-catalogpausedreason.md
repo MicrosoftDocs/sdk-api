@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/22cd866e-8af7-428a-8036-43f5ac9ad099">ISearchCatalogManager::GetCatalogStatus</a> to determine the reason the catalog is paused.
+Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231490(v=VS.85).aspx">ISearchCatalogManager::GetCatalogStatus</a> to determine the reason the catalog is paused.
 
 
 ## -enum-fields

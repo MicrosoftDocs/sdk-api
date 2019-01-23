@@ -4,7 +4,7 @@ title: SetEvent function
 author: windows-sdk-content
 description: Sets the specified event object to the signaled state.
 old-location: base\setevent.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: b474eef1-5df9-4729-b940-0c5f201c5f31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

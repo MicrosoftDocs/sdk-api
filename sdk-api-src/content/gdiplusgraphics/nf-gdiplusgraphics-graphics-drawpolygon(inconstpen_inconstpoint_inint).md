@@ -59,16 +59,16 @@ The <b>Graphics::DrawPolygon</b> method draws a polygon.
 
 ### -param pen [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>*</b>
 
 Pointer to a pen that is used to draw the polygon. 
 
 
 ### -param points [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> objects that specify the vertices of the polygon. 
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects that specify the vertices of the polygon. 
 
 
 ### -param count [in]
@@ -83,14 +83,14 @@ Integer that specifies the number of elements in the
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -109,13 +109,9 @@ If the first and last coordinates in the
 
 The following example draws a polygon, defined by an array of points.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawPolygon(HDC hdc)
+
+```cpp
+VOID Example_DrawPolygon(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -132,11 +128,11 @@ The following example draws a polygon, defined by an array of points.
    Point* pPoints = points;
 
    // Draw the polygon.
-   graphics.DrawPolygon(&amp;blackPen, pPoints, 5);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawPolygon(&blackPen, pPoints, 5);
+}
+```
+
+
 
 
 
@@ -145,19 +141,19 @@ The following example draws a polygon, defined by an array of points.
 
 
 
-<a href="https://msdn.microsoft.com/e7cc93ab-c1e6-40e7-8888-f6bbffa42a00">FillPolygon Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535770(v=VS.85).aspx">FillPolygon Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1155341-83f3-4805-8d42-a1910515db31">Polygons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536374(v=VS.85).aspx">Polygons</a>
  
 
  

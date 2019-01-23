@@ -52,7 +52,7 @@ req.redist:
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Enumerates the possible versions for parameters for the 
-    <a href="https://msdn.microsoft.com/370C6DB2-EA0F-4B6F-BA14-CE14377E2314">TakeSnapshotVhdSet</a> function.
+    <a href="https://msdn.microsoft.com/en-us/library/Mt414220(v=VS.85).aspx">TakeSnapshotVhdSet</a> function.
 
 
 ## -enum-fields

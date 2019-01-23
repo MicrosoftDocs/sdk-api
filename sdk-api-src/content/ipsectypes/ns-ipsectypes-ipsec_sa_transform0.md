@@ -88,7 +88,7 @@ See <a href="https://msdn.microsoft.com/d8a9515a-943b-4f00-bfa9-948a9da9c060">IP
 
 SA transform data. Available when <b>ipsecTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER</b>.
 
-See <a href="https://msdn.microsoft.com/9f8086c3-1862-432a-af0e-6a434833c651">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Aa366268(v=VS.85).aspx">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a> for more information.
 
 
 ### -field espAuthFwTransform
@@ -117,7 +117,7 @@ See <a href="https://msdn.microsoft.com/26464393-7dc4-4a94-af46-25148c61bdb5">IP
 
 
 
-<a href="https://msdn.microsoft.com/9f8086c3-1862-432a-af0e-6a434833c651">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366268(v=VS.85).aspx">IPSEC_AUTH_AND_CIPHER_TRANSFORM0</a>
 
 
 

@@ -192,7 +192,7 @@ Not available.
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the returned buffer contains detailed information about the activation context. This information is in the form of the 
-<a href="https://msdn.microsoft.com/58e4acfe-d5c8-45ae-bf32-469229ffc836">ACTIVATION_CONTEXT_DETAILED_INFORMATION</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374158(v=VS.85).aspx">ACTIVATION_CONTEXT_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ If
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about the assembly that has the index specified in <i>pvSubInstance</i>. This information is in the form of the 
-<a href="https://msdn.microsoft.com/b093cc6a-55ea-49bf-904d-2b43517f9b02">ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374157(v=VS.85).aspx">ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -232,7 +232,7 @@ Information about a file in one of the assemblies in Activation Context. The <i>
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about requested run level of the activation context. This information is in the form of the 
-<a href="https://msdn.microsoft.com/1c4e7333-6982-4d58-ab2a-d1993c59d0ef">ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa374168(v=VS.85).aspx">ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION</a> structure.
 
 <b>Windows Server 2003 and Windows XP:  </b>This value is not available.
 
@@ -247,7 +247,7 @@ If
 <td width="60%">
 If 
 <b>QueryActCtxW</b> is called with this option and the function succeeds, the buffer contains information about requested compatibility context. This information is in the form of the 
-<a href="https://msdn.microsoft.com/d8c1ef4a-8e64-45bd-a185-b4af7932a0d2">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Dd765160(v=VS.85).aspx">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
 
 <b>Windows Server 2008 and earlier, and Windows Vista and earlier:  </b>This value is not available. This option is available beginning with Windows Server 2008 R2 and Windows 7.
 

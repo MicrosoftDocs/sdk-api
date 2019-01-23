@@ -66,7 +66,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/4de9168b-a0c1-4f92-b573-5072bfc22c0d">WDSTRANSPORT_PROTOCOL_FLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736540(v=VS.85).aspx">WDSTRANSPORT_PROTOCOL_FLAGS</a>
  
 
  

@@ -123,13 +123,9 @@ This method is called just before the Windows Media Device Manager calls <a href
 
 The following C++ code example implements the <b>BeginRead</b> method and outputs a message when a read-from-device action is beginning.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT BeginRead()
 {
     // TODO: Display the message: "IWMDMOperation event--BeginRead."
@@ -143,10 +139,10 @@ HRESULT BeginRead()
     m_OperationStatus = OPERATION_READ;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

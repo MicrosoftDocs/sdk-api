@@ -52,7 +52,7 @@ req.redist:
 
 The <b>DsFreeSchemaGuidMap</b> function frees memory that the 
 <a href="https://msdn.microsoft.com/439fff20-51eb-490d-a330-61d07f79c436">DsMapSchemaGuids</a> function has allocated for a 
-<a href="https://msdn.microsoft.com/en-us/library/ms676283(v=VS.85).aspx">DS_SCHEMA_GUID_MAP</a> structure.
+<a href="https://msdn.microsoft.com/8128f511-ebdc-479d-b99c-ed210c72d151">DS_SCHEMA_GUID_MAP</a> structure.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>DsFreeSchemaGuidMap</b> function frees memory that the
 
 ### -param pGuidMap [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms676283(v=VS.85).aspx">DS_SCHEMA_GUID_MAP</a> structure to deallocate.
+Pointer to a <a href="https://msdn.microsoft.com/8128f511-ebdc-479d-b99c-ed210c72d151">DS_SCHEMA_GUID_MAP</a> structure to deallocate.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676283(v=VS.85).aspx">DS_SCHEMA_GUID_MAP</a>
+<a href="https://msdn.microsoft.com/8128f511-ebdc-479d-b99c-ed210c72d151">DS_SCHEMA_GUID_MAP</a>
 
 
 

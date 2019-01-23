@@ -88,7 +88,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_geticmpstatistics">GetIcmpStatistics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365934(v=VS.85).aspx">GetIcmpStatistics</a>
 
 
 

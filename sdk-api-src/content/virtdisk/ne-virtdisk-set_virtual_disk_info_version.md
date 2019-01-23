@@ -50,7 +50,7 @@ req.redist:
 
 
 Contains the version of the virtual disk 
-    <a href="https://msdn.microsoft.com/04b2bb75-7905-469a-abf1-15591dc64686">SET_VIRTUAL_DISK_INFO</a> structure to use in calls to 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323686(v=VS.85).aspx">SET_VIRTUAL_DISK_INFO</a> structure to use in calls to 
     VHD functions. Use the different versions of the structure to set different kinds of information for the VHD.
 
 

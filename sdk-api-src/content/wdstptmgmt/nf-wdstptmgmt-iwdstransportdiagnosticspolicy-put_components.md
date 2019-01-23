@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/9c6aa422-b5b3-4fe8-a1ca-f401a3c5a1fb">WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736533(v=VS.85).aspx">WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS</a>
  
 
  

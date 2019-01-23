@@ -516,13 +516,9 @@ The following example shows acquiring a cryptographic context and access to publ
 For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/b9d13024-0e53-4930-9962-a2a0d0cb88de">Example C Program: Creating a Key Container and Generating Keys</a>. For additional examples, see 
 <a href="https://msdn.microsoft.com/e8d2503c-a38f-44f6-a653-ae9c7bf903bd">Example C Program: Using CryptAcquireContext</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//-------------------------------------------------------------------
+
+```cpp
+//-------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTPROV hCryptProv = NULL;        // handle for a cryptographic
@@ -536,7 +532,7 @@ LPCSTR UserName = "MyKeyContainer";  // name of the key container
 // to attempt to open an existing key container.
 
 if(CryptAcquireContext(
-   &amp;hCryptProv,               // handle to the CSP
+   &hCryptProv,               // handle to the CSP
    UserName,                  // container name 
    NULL,                      // use the default provider
    PROV_RSA_FULL,             // provider type
@@ -556,7 +552,7 @@ else
  if (GetLastError() == NTE_BAD_KEYSET)
  {
    if(CryptAcquireContext(
-      &amp;hCryptProv, 
+      &hCryptProv, 
       UserName, 
       NULL, 
       PROV_RSA_FULL, 
@@ -592,10 +588,10 @@ if (CryptReleaseContext(hCryptProv,0))
 else
 {
   printf("The handle could not be released.\n");
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

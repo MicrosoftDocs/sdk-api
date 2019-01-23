@@ -58,12 +58,12 @@ Creates an <a href="https://msdn.microsoft.com/56c11e64-64a8-4c42-9547-4f1fcdc13
 
 ### -param viewBox [in]
 
-The <a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XPS_RECT</a> structure that specifies the source image's  area to be used in the brush. This parameter must not be <b>NULL</b>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372982(v=VS.85).aspx">XPS_RECT</a> structure that specifies the source image's  area to be used in the brush. This parameter must not be <b>NULL</b>.
 
 
 ### -param viewPort [in]
 
-The <a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XPS_RECT</a> structure that specifies the destination geometry area of the tile. This parameter must not be <b>NULL</b>.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372982(v=VS.85).aspx">XPS_RECT</a> structure that specifies the destination geometry area of the tile. This parameter must not be <b>NULL</b>.
 
 
 ### -param visualBrush [out, retval]
@@ -128,13 +128,9 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMVisualBrush        *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -145,27 +141,27 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateVisualBrush (
-        &amp;viewBox,
-        &amp;viewPort,
-        &amp;newInterface);
+    hr = xpsFactory->CreateVisualBrush (
+        &viewBox,
+        &viewPort,
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // assign visual using one of the following:
-        newInterface-&gt;SetVisualLocal (localVisual);
+        newInterface->SetVisualLocal (localVisual);
         // or
-        newInterface-&gt;SetVisualLookup (visualLookupKey);
+        newInterface->SetVisualLookup (visualLookupKey);
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
@@ -173,13 +169,13 @@ else
 }
 // use newInterface
 
-newInterface-&gt;Release();
-xpsFactory-&gt;Release();
+newInterface->Release();
+xpsFactory->Release();
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

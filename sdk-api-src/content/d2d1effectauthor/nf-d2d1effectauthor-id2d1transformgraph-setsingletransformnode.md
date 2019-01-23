@@ -130,7 +130,7 @@ private:
 
     class CMyTransform : public ID2D1DrawTransform
     {
-        //  Implementation of transform  
+        // <Snip> Implementation of transform </Snip> 
     };
 
     

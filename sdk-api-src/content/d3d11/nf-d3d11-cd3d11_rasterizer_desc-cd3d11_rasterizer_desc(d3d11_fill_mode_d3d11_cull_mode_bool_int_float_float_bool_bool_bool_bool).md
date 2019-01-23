@@ -145,13 +145,9 @@ A Boolean value that specifies whether to enable line antialiasing; only applies
 
 Here is how CD3D11_RASTERIZER_DESC assigns the provided values to the members of <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FillMode = fillMode;
+
+```
+FillMode = fillMode;
         CullMode = cullMode;
         FrontCounterClockwise = frontCounterClockwise;
         DepthBias = depthBias;
@@ -161,10 +157,10 @@ Here is how CD3D11_RASTERIZER_DESC assigns the provided values to the members of
         ScissorEnable = scissorEnable;
         MultisampleEnable = multisampleEnable;
         AntialiasedLineEnable = antialiasedLineEnable;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

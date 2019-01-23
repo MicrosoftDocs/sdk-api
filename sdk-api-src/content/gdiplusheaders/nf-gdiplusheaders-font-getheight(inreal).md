@@ -80,7 +80,7 @@ This method returns the line spacing of the font in pixels.
 
 
 
-If the font unit is set to anything other than <a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">UnitPixel</a>, the height, in pixels, is calculated using the specified vertical resolution. For example, suppose the font unit is inches and the font size is 0.3. Also suppose that for the corresponding font family, the em height is 2048 and the line spacing is 2355. If the specified vertical resolution is 96 dots per inch, the height is calculated as follows:
+If the font unit is set to anything other than <a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">UnitPixel</a>, the height, in pixels, is calculated using the specified vertical resolution. For example, suppose the font unit is inches and the font size is 0.3. Also suppose that for the corresponding font family, the em height is 2048 and the line spacing is 2355. If the specified vertical resolution is 96 dots per inch, the height is calculated as follows:
 
 2355*(0.3/2048)*96 = 33.1171875
 
@@ -92,23 +92,23 @@ If the font unit is set to anything other than <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/dd8af524-688c-44dd-b3e4-deadb874bdc3">Font</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534437(v=VS.85).aspx">Font</a>
 
 
 
-<a href="https://msdn.microsoft.com/5aa28e74-48e1-47c2-bac0-f2abcdf7b67b">Font::GetSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536197(v=VS.85).aspx">Font::GetSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3453c5d-7ecb-411f-88a6-fae01cca7dd9">Font::GetStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536198(v=VS.85).aspx">Font::GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cf901f0-9be9-4dcd-b847-6c3d530556cd">Font::GetUnit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536199(v=VS.85).aspx">Font::GetUnit</a>
 
 
 
-<a href="https://msdn.microsoft.com/12bc38c3-5fbc-4d7b-902c-92a5f5057473">Using Text and Fonts</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533817(v=VS.85).aspx">Using Text and Fonts</a>
  
 
  

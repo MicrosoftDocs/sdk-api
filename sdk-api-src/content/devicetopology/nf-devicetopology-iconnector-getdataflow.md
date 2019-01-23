@@ -61,7 +61,7 @@ The <b>GetDataFlow</b> method gets the direction of data flow through this conne
 
 ### -param pFlow [out]
 
-Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://msdn.microsoft.com/bdc2336c-5609-43f2-9b65-d8806f0fc63b">DataFlow</a> enumeration values:
+Pointer to a variable into which the method writes the data-flow direction. The direction is one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370808(v=VS.85).aspx">DataFlow</a> enumeration values:
 
 In
 

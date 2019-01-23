@@ -322,18 +322,14 @@ In an ActiveX client, <b>Invoke</b> should be used to get and set the values of 
 
 When you use <b>IDispatch::Invoke()</b> with DISPATCH_PROPERTYPUT or DISPATCH_PROPERTYPUTREF, you have to specially initialize the <b>cNamedArgs</b> and <b>rgdispidNamedArgs</b> elements of your DISPPARAMS structure with the following: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DISPID dispidNamed = DISPID_PROPERTYPUT;
+
+```cpp
+DISPID dispidNamed = DISPID_PROPERTYPUT;
 dispparams.cNamedArgs = 1;
-dispparams.rgdispidNamedArgs = &amp;dispidNamed;</pre>
-</td>
-</tr>
-</table></span></div>
+dispparams.rgdispidNamedArgs = &dispidNamed;
+```
+
+
 The information that follows addresses developers of ActiveX clients and others who use code to expose ActiveX objects. It describes the behavior that users of exposed objects should expect.
 
 

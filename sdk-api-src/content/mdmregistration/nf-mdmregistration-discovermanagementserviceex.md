@@ -72,7 +72,7 @@ Address of a <b>NULL</b>-terminated Unicode string containing the discovery serv
 
 ### -param ppMgmtInfo [out]
 
-Address of a <a href="https://msdn.microsoft.com/6be4540b-e74b-41f3-aef4-f613f2a79bab">MANAGEMENT_SERVICE_INFO</a> 
+Address of a <a href="https://msdn.microsoft.com/en-us/library/Dn574814(v=VS.85).aspx">MANAGEMENT_SERVICE_INFO</a> 
       structure that contains pointers to the URIs of the management and authentication services.
 
 
@@ -108,7 +108,7 @@ This function is not available before Windows Server 2012 R2 Update and Window
 
 
 
-<a href="https://msdn.microsoft.com/6be4540b-e74b-41f3-aef4-f613f2a79bab">MANAGEMENT_SERVICE_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn574814(v=VS.85).aspx">MANAGEMENT_SERVICE_INFO</a>
 
 
 

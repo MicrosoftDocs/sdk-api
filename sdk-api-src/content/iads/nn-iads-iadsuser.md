@@ -52,36 +52,24 @@ The <b>IADsUser</b> interface is a dual interface that inherits from  <a href="h
    
 
 To bind to a domain user through a WinNT provider, use the domain name as part of the ADsPath, as shown in the following code example.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>GetObject("WinNT://MYDOMAIN/jeffsmith,user")</pre>
-</td>
-</tr>
-</table></span></div>Similarly, use the computer name as part of the ADsPath to bind to a local user.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>GetObject("WinNT://MYCOMPUTER/jeffsmith,user")</pre>
-</td>
-</tr>
-</table></span></div>In Active Directory, domain users reside in the directory. The following code example shows how to bind to a domain user through an LDAP provider.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>GetObject("LDAP://CN=Jeff Smith,OU=Sales,DC=Fabrikam,DC=Com")</pre>
-</td>
-</tr>
-</table></span></div>However, local accounts reside in the local SAM database and the LDAP provider does not communicate with the local database. Thus, to bind to a local user, you must go through a WinNT provider as described in the second code example.
+
+```cpp
+GetObject("WinNT://MYDOMAIN/jeffsmith,user")
+```
+
+Similarly, use the computer name as part of the ADsPath to bind to a local user.
+
+```cpp
+GetObject("WinNT://MYCOMPUTER/jeffsmith,user")
+```
+
+In Active Directory, domain users reside in the directory. The following code example shows how to bind to a domain user through an LDAP provider.
+
+```cpp
+GetObject("LDAP://CN=Jeff Smith,OU=Sales,DC=Fabrikam,DC=Com")
+```
+
+However, local accounts reside in the local SAM database and the LDAP provider does not communicate with the local database. Thus, to bind to a local user, you must go through a WinNT provider as described in the second code example.
 
 
 ## -inheritance
@@ -1057,13 +1045,9 @@ As with any other ADSI object, the container object creates a Windows user accou
 
 With WinNT, you do not have to specify any additional attributes when creating a user. You may call the <a href="https://msdn.microsoft.com/9498ef4d-7a03-487f-91a7-189f17a38a24">IADsContainer::Create</a> method to create the user object directly.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim dom As IADsContainer
+
+```vb
+Dim dom As IADsContainer
 Dim usr As IADsUser
 
 On Error GoTo Cleanup
@@ -1073,15 +1057,15 @@ Set usr = dom.Create("user","jeffsmith")
 usr.SetInfo
 
 Cleanup:
-    If(Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If(Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set mach = Nothing
     Set usr = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 In this case, a domain user is created with the following default values.
 
 <table>
@@ -1184,13 +1168,9 @@ Empty
 
 To create a local user, bind to a target computer, as shown in the following code example.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim mach As IADsContainer
+
+```vb
+Dim mach As IADsContainer
 Dim usr as IADsUser
 
 On Error GoTo Cleanup
@@ -1199,15 +1179,15 @@ Set usr = mach.Create("user","jeffsmith")
 usr.SetInfo
 
 Cleanup:
-    If(Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If(Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set mach = Nothing
     Set usr = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The newly created local user will have the same default properties as the domain user. The group membership, however, will be "users", instead of "domain user".
 
 

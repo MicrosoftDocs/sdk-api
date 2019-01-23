@@ -58,7 +58,7 @@ Generated when a client creates an object.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidActivity [in]
@@ -105,7 +105,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/2fb2904d-7069-4303-bb3c-2caef9499c1e">IComInstance2Events</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679548(v=VS.85).aspx">IComInstance2Events</a>
  
 
  

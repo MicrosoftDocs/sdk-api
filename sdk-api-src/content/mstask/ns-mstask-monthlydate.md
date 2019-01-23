@@ -204,18 +204,14 @@ The task will run in December.
 
 The following C++ example shows how to combine the flags.  The example runs a task quarterly.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>MONTHLYDATE example;
+
+```cpp
+MONTHLYDATE example;
 example.rgfDays = 1;
-example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;</pre>
-</td>
-</tr>
-</table></span></div>
+example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
+```
+
+
 
 
 

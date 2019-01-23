@@ -66,7 +66,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/baba27d2-6df1-4261-b98d-9728ecbb56f2">WDSTRANSPORT_NAMESPACE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a>
  
 
  

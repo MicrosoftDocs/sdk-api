@@ -75,14 +75,14 @@ including security tokens appearing after usage.
 
 ### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_FIRST
 
-The elements of the security header can be in arbitrary order as in <a href="https://msdn.microsoft.com/en-us/library/Dd323400(v=VS.85).aspx">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
+The elements of the security header can be in arbitrary order as in <a href="https://msdn.microsoft.com/a3090e6f-1f80-4d67-b7d7-1165486dcc66">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
 be the first element.
                 
 
 
 ### -field WS_SECURITY_HEADER_LAYOUT_LAX_WITH_TIMESTAMP_LAST
 
-The elements of the security header can be in arbitrary order as in <a href="https://msdn.microsoft.com/en-us/library/Dd323400(v=VS.85).aspx">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
+The elements of the security header can be in arbitrary order as in <a href="https://msdn.microsoft.com/a3090e6f-1f80-4d67-b7d7-1165486dcc66">WS_SECURITY_HEADER_LAYOUT_LAX</a>, but the timestamp element must
 be the last element.
                 
 

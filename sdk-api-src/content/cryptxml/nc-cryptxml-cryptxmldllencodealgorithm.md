@@ -65,7 +65,7 @@ A pointer to a <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5a
 
 ### -param dwCharset
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433845(v=VS.85).aspx">CRYPT_XML_CHARSET</a> value that specifies the character set of the encoded XML.
+A <a href="https://msdn.microsoft.com/3f115ac1-a8ed-4151-b3f3-7ddb695802a0">CRYPT_XML_CHARSET</a> value that specifies the character set of the encoded XML.
 
 
 ### -param *pvCallbackState [in, out]

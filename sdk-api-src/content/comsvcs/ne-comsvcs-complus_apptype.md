@@ -86,7 +86,7 @@ COM+ services without components.
 
 
 
-<a href="https://msdn.microsoft.com/3291eede-5318-4d97-a969-ce54381f30af">ApplicationSummary</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd198156(v=VS.85).aspx">ApplicationSummary</a>
  
 
  

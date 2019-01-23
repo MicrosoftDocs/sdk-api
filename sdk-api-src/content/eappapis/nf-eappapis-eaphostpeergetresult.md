@@ -63,12 +63,12 @@ A pointer to an <b>EAP_SESSIONID</b> structure that contains the unique handle f
 
 ### -param reason [in]
 
-An <a href="https://msdn.microsoft.com/f43d2883-d23f-455b-bde0-244a88630d25">EapHostPeerMethodResultReason</a> enumeration value that specifies the reason code for the authentication result returned in <i>ppResult</i>.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa363571(v=VS.85).aspx">EapHostPeerMethodResultReason</a> enumeration value that specifies the reason code for the authentication result returned in <i>ppResult</i>.
 
 
 ### -param ppResult [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/f43d2883-d23f-455b-bde0-244a88630d25">EapHostPeerMethodResultReason</a> structure that contains the authentication results. EAPHost fills this structure with authentication related information defined in <a href="https://msdn.microsoft.com/376e5399-61c9-4927-ac68-8a1bb4bdc7db">EapHostPeerMethodResult</a>.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa363571(v=VS.85).aspx">EapHostPeerMethodResultReason</a> structure that contains the authentication results. EAPHost fills this structure with authentication related information defined in <a href="https://msdn.microsoft.com/en-us/library/Aa363570(v=VS.85).aspx">EapHostPeerMethodResult</a>.
 
 
 ### -param ppEapError [out]

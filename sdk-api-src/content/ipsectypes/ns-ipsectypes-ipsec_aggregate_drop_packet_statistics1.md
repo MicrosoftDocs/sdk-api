@@ -49,7 +49,7 @@ req.redist:
 
 
 The <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</b> structure stores aggregate IPsec kernel packet drop statistics.
-<div class="alert"><b>Note</b>  <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</b> is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/f7c955af-97ec-4c27-a9de-d1498398608e">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IPSEC_AGGREGATE_DROP_PACKET_STATISTICS1</b> is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows 7 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows Vista, <a href="https://msdn.microsoft.com/en-us/library/Aa365911(v=VS.85).aspx">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</a> is available.</div><div> </div>
 
 ## -struct-fields
 

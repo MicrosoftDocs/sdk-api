@@ -347,7 +347,7 @@ The <b>IGPMStarterGPO</b> interface has three properties that do not have a coun
 <li>The <a href="https://msdn.microsoft.com/2cc1d707-d269-40ff-9356-c3ac2fa36de1">Product</a> 
      property contains the name of the product that the Template is designed to manage.  For example a Template might ship to configure MS Office.  This attribute is applicable to System Templates.  For custom Templates this attribute will be blank.  This attribute is read-only.</li>
 <li>The <a href="https://msdn.microsoft.com/2cc1d707-d269-40ff-9356-c3ac2fa36de1">Type</a> 
-     property is an enum value,  <a href="https://msdn.microsoft.com/19b84c06-d8dc-4a25-85f6-cfbe9937f30e">GPMStarterGPOType</a>, that specifies the type of the attribute.  The Type may be either a system  Starter Group Policy object or a custom Starter Group Policy object.</li>
+     property is an enum value,  <a href="https://msdn.microsoft.com/en-us/library/Bb870730(v=VS.85).aspx">GPMStarterGPOType</a>, that specifies the type of the attribute.  The Type may be either a system  Starter Group Policy object or a custom Starter Group Policy object.</li>
 </ul>
 The <a href="https://msdn.microsoft.com/3262513c-9909-47b9-a425-41f913204f16">Save</a> method has no corresponding method in the <a href="https://msdn.microsoft.com/c5c21ca6-2722-4821-8760-03b6cf2befa7">IGPMGPO2</a> interface.  The <b>Save</b> method will generate a CAB file containing all the contents of a single Starter GPO.  The objective of this method is to allow a user to save a Starter GPO in a form that can be easily redistributed. There is no way to create a CAB file containing multiple Starter GPOs.
 

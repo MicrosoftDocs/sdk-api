@@ -87,7 +87,7 @@ This function returns a Windows error code.
 
 
 
-<a href="https://msdn.microsoft.com/749F7C6F-1A42-43DE-921E-C3654034570D">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ552972(v=VS.85).aspx">DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS</a>
 
 
 

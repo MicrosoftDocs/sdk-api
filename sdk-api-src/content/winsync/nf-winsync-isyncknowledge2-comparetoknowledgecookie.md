@@ -131,7 +131,7 @@ This method can be used when the performance of the knowledge comparison operati
 
 
 
-<a href="https://msdn.microsoft.com/9770679e-19ed-49ed-a505-076db6f0119c">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd744812(v=VS.85).aspx">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
  
 
  

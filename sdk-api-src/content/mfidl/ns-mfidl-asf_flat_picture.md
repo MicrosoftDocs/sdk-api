@@ -49,7 +49,7 @@ req.redist:
 
 
 
-Contains an image that is stored as metadata for a media source. This structure is used as the data item for the <a href="wmformat.wm_picture_attribute">WM/Picture</a> metadata attribute.
+Contains an image that is stored as metadata for a media source. This structure is used as the data item for the <a href="https://msdn.microsoft.com/en-us/library/Dd757832(v=VS.85).aspx">WM/Picture</a> metadata attribute.
 
 
 
@@ -61,7 +61,7 @@ Contains an image that is stored as metadata for a media source. This structure 
 
 ### -field bPictureType
 
-Specifies the type of image. This member is equivalent to the <b>bPictureType</b> member in the <a href="https://msdn.microsoft.com/d3670cce-5b57-4624-b10d-2e4d9e9e263c">WM_PICTURE</a> structure. 
+Specifies the type of image. This member is equivalent to the <b>bPictureType</b> member in the <a href="https://msdn.microsoft.com/en-us/library/Dd757977(v=VS.85).aspx">WM_PICTURE</a> structure. 
           
 
 
@@ -75,7 +75,7 @@ Size, in bytes, of the image data.
 
 
 
-The <a href="wmformat.wm_picture_attribute">WM/Picture</a> attribute is defined in the Windows Media Format SDK. The attribute contains a picture related to the content, such as album art.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd757832(v=VS.85).aspx">WM/Picture</a> attribute is defined in the Windows Media Format SDK. The attribute contains a picture related to the content, such as album art.
 
 To get this attribute from a media source, call <a href="https://msdn.microsoft.com/177c8612-5c9f-4a71-9ee1-a4c67737af2d">IMFMetadata::GetProperty</a>, passing in the constant g_wszWMPicture for the <i>pwszName</i> parameter. The method retrieves a <b>PROPVARIANT</b> that contains a binary array (VT_BLOB). The layout of the array is as follows:
 
@@ -91,7 +91,7 @@ Image data.
 
 </li>
 </ul>
-This format differs from the <a href="https://msdn.microsoft.com/d3670cce-5b57-4624-b10d-2e4d9e9e263c">WM_PICTURE</a> structure used in the Windows Media Format SDK. The <b>WM_PICTURE</b> structure contains internal pointers to two strings and the image data. If the structure is copied, these pointers become invalid. The <b>ASF_FLAT_PICTURE</b> structure does not contain internal pointers, so it is safe to copy the structure.
+This format differs from the <a href="https://msdn.microsoft.com/en-us/library/Dd757977(v=VS.85).aspx">WM_PICTURE</a> structure used in the Windows Media Format SDK. The <b>WM_PICTURE</b> structure contains internal pointers to two strings and the image data. If the structure is copied, these pointers become invalid. The <b>ASF_FLAT_PICTURE</b> structure does not contain internal pointers, so it is safe to copy the structure.
 
 
 

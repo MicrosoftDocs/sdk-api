@@ -58,7 +58,7 @@ Sets the style of the stroke's dash cap.
 
 ### -param strokeDashCap [in]
 
-The <a href="https://msdn.microsoft.com/8c4d7314-71ad-4700-bc3e-f611e72c05df">XPS_DASH_CAP</a> value to be set.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372946(v=VS.85).aspx">XPS_DASH_CAP</a> value to be set.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeDashCap</i> was not a valid <a href="https://msdn.microsoft.com/8c4d7314-71ad-4700-bc3e-f611e72c05df">XPS_DASH_CAP</a> value.
+<i>strokeDashCap</i> was not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372946(v=VS.85).aspx">XPS_DASH_CAP</a> value.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about dash cap styles, see <a href="https://msdn.microsoft.com/8c4d7314-71ad-4700-bc3e-f611e72c05df">XPS_DASH_CAP</a>.
+For more information about dash cap styles, see <a href="https://msdn.microsoft.com/en-us/library/Dd372946(v=VS.85).aspx">XPS_DASH_CAP</a>.
 
 
 
@@ -126,7 +126,7 @@ For more information about dash cap styles, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/8c4d7314-71ad-4700-bc3e-f611e72c05df">XPS_DASH_CAP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372946(v=VS.85).aspx">XPS_DASH_CAP</a>
  
 
  

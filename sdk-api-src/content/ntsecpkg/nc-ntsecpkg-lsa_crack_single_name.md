@@ -142,7 +142,7 @@ A <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">secu
 </td>
 <td width="60%">
 GUID string that the 
-<a href="_com_iidfromstring">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
+<a href="https://msdn.microsoft.com/en-us/library/ms687262(v=VS.85).aspx">IIDFromString</a> function returns (for example, {4fa050f0-f561-11cf-bdd9-00aa003a77b6}).
 
 </td>
 </tr>

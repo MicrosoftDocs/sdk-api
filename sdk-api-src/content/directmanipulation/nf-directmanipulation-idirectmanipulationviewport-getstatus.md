@@ -83,19 +83,15 @@ This method will fail if called after <a href="https://msdn.microsoft.com/83d0bc
 
 The following example shows how to use this method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DIRECTMANIPULATION_STATUS status;
 
-HRESULT hr = pViewport-&gt;GetStatus(&amp;status);
-</pre>
-</td>
-</tr>
-</table></span></div>
+```
+DIRECTMANIPULATION_STATUS status;
+
+HRESULT hr = pViewport->GetStatus(&status);
+
+```
+
+
 
 
 

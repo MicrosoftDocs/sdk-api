@@ -109,13 +109,9 @@ The <b>GenKeyFlags</b> property affects the behavior of the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LONG     lGenKey;
+
+```cpp
+LONG     lGenKey;
 HRESULT  hr;
 
 // pEnroll is a previously instantiated ICEnroll interface pointer.
@@ -132,10 +128,8 @@ hr = pEnroll->put_GenKeyFlags( CRYPT_EXPORTABLE );
 if (FAILED( hr ))
     printf("Failed put_GenKeyFlags - %x\n", hr );
 else
-    printf( "GenKeyFlags set to %d\n", CRYPT_EXPORTABLE );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "GenKeyFlags set to %d\n", CRYPT_EXPORTABLE );
+```
 
 
 

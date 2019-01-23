@@ -4,7 +4,7 @@ title: IFunctionInstanceQuery::Execute
 author: windows-sdk-content
 description: Performs the query defined by IFunctionDiscovery::CreateInstanceQuery.
 old-location: ncd\ifunctioninstancequery_execute_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 42618944-6ae6-45f0-85f9-3c958d719ed2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

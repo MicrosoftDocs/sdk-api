@@ -84,6 +84,6 @@ Denotes the "soap.udp" scheme: <a href="https://msdn.microsoft.com/f39c551f-891b
 
 ### -field WS_URL_NETPIPE_SCHEME_TYPE
 
-Windows 8 or later: Denotes the "net.pipe" scheme: <a href="https://msdn.microsoft.com/02FCD206-23BC-4ED0-9E4A-76AB0926FD7C">WS_NETPIPE_URL</a>
+Windows 8 or later: Denotes the "net.pipe" scheme: <a href="https://msdn.microsoft.com/en-us/library/Hh437361(v=VS.85).aspx">WS_NETPIPE_URL</a>
 
 

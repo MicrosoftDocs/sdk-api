@@ -88,13 +88,9 @@ A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-
               Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you can't set <i>pFeatureLevels</i> to <b>NULL</b> because  there is no default feature level array.
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>{
+
+```
+{
     D3D_FEATURE_LEVEL_11_1,
     D3D_FEATURE_LEVEL_11_0,
     D3D_FEATURE_LEVEL_10_1,
@@ -103,10 +99,10 @@ A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-
     D3D_FEATURE_LEVEL_9_2,
     D3D_FEATURE_LEVEL_9_1,
 };
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
+
+
 
 ### -param FeatureLevels
 
@@ -152,7 +148,7 @@ The address of a pointer to an <a href="https://msdn.microsoft.com/A8B9CADC-A9C7
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           

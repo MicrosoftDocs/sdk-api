@@ -83,13 +83,9 @@ The icon path has the format "path,index" or "path,-id", where <i>path</i> is th
 
 The following example sets the icon using a resource identifier for an icon in the application's executable file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT SetIcon(IMFMediaSession *pSession, int nID)
+
+```cpp
+HRESULT SetIcon(IMFMediaSession *pSession, int nID)
 {
     IMFAudioPolicy *pPolicy = NULL;
 
@@ -121,7 +117,7 @@ The following example sets the icon using a resource identifier for an icon in t
     hr = MFGetService(
         pSession, 
         MR_AUDIO_POLICY_SERVICE, 
-        IID_PPV_ARGS(&amp;pPolicy)
+        IID_PPV_ARGS(&pPolicy)
         );
 
     if (FAILED(hr))
@@ -129,20 +125,20 @@ The following example sets the icon using a resource identifier for an icon in t
         goto done;
     }
 
-    hr = pPolicy-&gt;SetIconPath(szIconPath);
+    hr = pPolicy->SetIconPath(szIconPath);
     if (FAILED(hr))
     {
         goto done;
     }
 
 done:
-    SafeRelease(&amp;pPolicy);
+    SafeRelease(&pPolicy);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

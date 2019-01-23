@@ -49,7 +49,7 @@ req.redist:
 
 
 Handles the <a href="https://msdn.microsoft.com/6f3440d2-90cc-4312-bb08-51f08b864cc7">WsGetChannelProperty</a> call
-                for a <a href="https://msdn.microsoft.com/en-us/library/Dd401780(v=VS.85).aspx">WS_CUSTOM_CHANNEL_BINDING</a>.
+                for a <a href="https://msdn.microsoft.com/554cc239-feab-4262-9821-6478a3d93ffc">WS_CUSTOM_CHANNEL_BINDING</a>.
             
 
 
@@ -154,22 +154,22 @@ Every custom channel implementation must support returning
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_ADDRESSING_VERSION</a>
+<a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ADDRESSING_VERSION</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_ENVELOPE_VERSION</a>
+<a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ENVELOPE_VERSION</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_TRANSFER_MODE</a>
+<a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_TRANSFER_MODE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_PROTECTION_LEVEL</a>
+<a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_PROTECTION_LEVEL</a>
 </li>
 </ul>
 Service Model layer provides its own logic of call timeouts as such it requires 
                 disabling timeouts in the underlying channel. In order for a custom channel to be 
                 used from Service Model layer, it should support disabling all of its timeouts and 
-                implement this callback for <a href="https://msdn.microsoft.com/en-us/library/Dd401786(v=VS.85).aspx">WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS</a>. A custom 
+                implement this callback for <a href="https://msdn.microsoft.com/3207c7f0-7f12-4f6b-8ddd-bac9c06ccfbf">WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS</a>. A custom 
                 channel cannot be used through Service Model unless query for 
                 <b>WS_CHANNEL_PROPERTY_ENABLE_TIMEOUTS</b> returns <b>FALSE</b>.
             

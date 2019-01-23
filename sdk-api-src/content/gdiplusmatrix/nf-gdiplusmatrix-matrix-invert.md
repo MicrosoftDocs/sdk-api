@@ -94,28 +94,24 @@ The following example passes the address of a
 						<b>Matrix</b> object and sets the world transformation of the 
 						<b>Graphics</b> object to the inverted matrix. The code draws a second rectangle that is translated 30 units left and 20 units up.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_Invert(HDC hdc)
+
+```cpp
+VOID Example_Invert(HDC hdc)
 {
    Graphics myGraphics(hdc);
    Pen myPen(Color(255, 0, 0, 255));
 
    Matrix matrix(1.0f, 0.0f, 0.0f, 1.0f, 30.0f, 20.0f);
 
-   myGraphics.SetTransform(&amp;matrix);
-   myGraphics.DrawRectangle(&amp;myPen, 0, 0, 200, 100);
+   myGraphics.SetTransform(&matrix);
+   myGraphics.DrawRectangle(&myPen, 0, 0, 200, 100);
    matrix.Invert();
-   myGraphics.SetTransform(&amp;matrix);
-   myGraphics.DrawRectangle(&amp;myPen, 0, 0, 200, 100);  
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.SetTransform(&matrix);
+   myGraphics.DrawRectangle(&myPen, 0, 0, 200, 100);  
+}
+```
+
+
 
 
 

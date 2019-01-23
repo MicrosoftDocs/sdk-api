@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>CertAddRefServerOcspResponseContext</b> function increments the reference count for a <a href="https://msdn.microsoft.com/732e91a3-dcd2-491a-ba4f-e22b75b5a71e">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure.
+The <b>CertAddRefServerOcspResponseContext</b> function increments the reference count for a <a href="https://msdn.microsoft.com/en-us/library/Bb540821(v=VS.85).aspx">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>CertAddRefServerOcspResponseContext</b> function increments the reference
 
 ### -param pServerOcspResponseContext [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/732e91a3-dcd2-491a-ba4f-e22b75b5a71e">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> returned by <a href="https://msdn.microsoft.com/07476e43-db6b-4119-8d6b-41143b98744e">CertGetServerOcspResponseContext</a>.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540821(v=VS.85).aspx">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> returned by <a href="https://msdn.microsoft.com/07476e43-db6b-4119-8d6b-41143b98744e">CertGetServerOcspResponseContext</a>.
 
 
 ## -returns

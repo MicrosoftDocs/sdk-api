@@ -113,13 +113,9 @@ The method may return zero, which indicates that the object does not provide any
 
 This code from the Lines sample file Lines.cpp implements the <b>GetTypeInfoCount</b> member function for the <b>CLines</b> class (ActiveX or OLE object).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP
+
+```cpp
+STDMETHODIMP
 CLines::GetTypeInfoCount(UINT * pctinfo)
 {
    if (pctinfo == NULL) {
@@ -127,10 +123,10 @@ CLines::GetTypeInfoCount(UINT * pctinfo)
 }
    *pctinfo = 1;
    return NOERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -93,13 +93,9 @@ You typically call this function in a loop to enumerate all of the catalog heade
 
 The following example shows the correct sequence of assignments for the <i>pPrevAttr</i> parameter (<code>pAttr</code>).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    CRYPTCATCDF         *pCDF;
+
+```cpp
+    CRYPTCATCDF         *pCDF;
     CRYPTCATATTRIBUTE   *pAttr;
 
     pCDF = CryptCATCDFOpen(L"myCDF", NULL);
@@ -112,10 +108,10 @@ The following example shows the correct sequence of assignments for the <i>pPrev
     }
 
     CryptCATCDFClose(pCDF);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

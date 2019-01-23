@@ -82,7 +82,7 @@ Flags specific to the notify operation
 <td width="60%">
 The ranges specified in the 
         <a href="https://msdn.microsoft.com/5eea412e-ea16-4f47-ac69-46b543069eae">DEVICE_DATA_SET_RANGE</a> structures following the 
-        <a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
+        <a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> 
         structure are currently being used by the file types that are specified in the 
         <b>FileTypeIDs</b> member.
 
@@ -161,7 +161,7 @@ Specifies a notification operation for a system crash dump file.
 
 
 
-<a href="https://msdn.microsoft.com/328902b7-97e3-40dc-9771-f5e64ccf3364">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee907416(v=VS.85).aspx">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

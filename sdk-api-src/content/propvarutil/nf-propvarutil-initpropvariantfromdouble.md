@@ -92,27 +92,23 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromDouble">InitPropVariantFromDouble</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762291(v=VS.85).aspx">InitPropVariantFromDouble</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromDouble(3.1415, &amp;propvar);
+```cpp
+PROPVARIANT propvar;
+
+HRESULT hr = InitPropVariantFromDouble(3.1415, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_R8.
  
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -121,19 +117,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="shell.InitVariantFromDouble">InitVariantFromDouble</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762321(v=VS.85).aspx">InitVariantFromDouble</a>
 
 
 
-<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
 
 
 
-<a href="shell.PropVariantToDoubleWithDefault">PropVariantToDoubleWithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776541(v=VS.85).aspx">PropVariantToDoubleWithDefault</a>
  
 
  

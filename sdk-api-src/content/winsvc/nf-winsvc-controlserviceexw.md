@@ -215,7 +215,7 @@ The information level for the service control parameters. This parameter must be
 
 ### -param pControlParams [in, out]
 
-A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CONTROL_STATUS_REASON_INFO, this member is a pointer to a <a href="https://msdn.microsoft.com/f7213cbb-255f-4ce3-93c9-5537256e078f">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure.
+A pointer to the service control parameters. If <i>dwInfoLevel</i> is SERVICE_CONTROL_STATUS_REASON_INFO, this member is a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms685154(v=VS.85).aspx">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure.
 
 
 ## -returns
@@ -276,7 +276,7 @@ The specified handle was not obtained using
 </dl>
 </td>
 <td width="60%">
-The requested control code in the <i>dwControl</i> parameter is undefined, or <i>dwControl</i> is SERVICE_CONTROL_STOP but the <b>dwReason</b> or <b>pszComment</b> members of the <a href="https://msdn.microsoft.com/f7213cbb-255f-4ce3-93c9-5537256e078f">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure are not valid.
+The requested control code in the <i>dwControl</i> parameter is undefined, or <i>dwControl</i> is SERVICE_CONTROL_STOP but the <b>dwReason</b> or <b>pszComment</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms685154(v=VS.85).aspx">SERVICE_CONTROL_STATUS_REASON_PARAMS</a> structure are not valid.
 
 </td>
 </tr>
@@ -429,7 +429,7 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 
-<a href="https://msdn.microsoft.com/f7213cbb-255f-4ce3-93c9-5537256e078f">SERVICE_CONTROL_STATUS_REASON_PARAMS</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685154(v=VS.85).aspx">SERVICE_CONTROL_STATUS_REASON_PARAMS</a>
 
 
 

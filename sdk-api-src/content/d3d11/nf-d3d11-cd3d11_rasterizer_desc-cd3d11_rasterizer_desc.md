@@ -67,13 +67,9 @@ Instantiates a new instance of a <a href="https://msdn.microsoft.com/3A64A02B-9D
 
 Here are the default rasterizer-state values for the members of <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>FillMode = D3D11_FILL_SOLID;
+
+```
+FillMode = D3D11_FILL_SOLID;
         CullMode = D3D11_CULL_BACK;
         FrontCounterClockwise = FALSE;
         DepthBias = D3D11_DEFAULT_DEPTH_BIAS;
@@ -83,10 +79,10 @@ Here are the default rasterizer-state values for the members of <a href="https:/
         ScissorEnable = FALSE;
         MultisampleEnable = FALSE;
         AntialiasedLineEnable = FALSE;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

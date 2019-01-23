@@ -109,13 +109,9 @@ This interface is available on the following platforms if the Windows Media Form
 
 The following example reads data from a byte stream into a caller-allocated media buffer. For more information about media buffers, see <a href="https://msdn.microsoft.com/3ee073ea-7bac-4971-9167-93a4e541ab77">Media Buffers</a>. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Read data from a byte stream into a media buffer.
+
+```cpp
+// Read data from a byte stream into a media buffer.
 //
 // This function reads a maximum of cbMax bytes, or up to the size size of the 
 // buffer, whichever is smaller. If the end of the byte stream is reached, the 
@@ -133,35 +129,35 @@ HRESULT ReadFromByteStream(
     DWORD cbRead = 0;
     BYTE *pData= NULL;
 
-    HRESULT hr = pBuffer-&gt;Lock(&amp;pData, &amp;cbBufferMax, NULL);
+    HRESULT hr = pBuffer->Lock(&pData, &cbBufferMax, NULL);
 
     // Do not exceed the maximum size of the buffer.
     if (SUCCEEDED(hr))
     {
-        if (cbMax &gt; cbBufferMax)
+        if (cbMax > cbBufferMax)
         {
             cbMax = cbBufferMax;
         }
 
         // Read up to cbMax bytes.
-        hr = pStream-&gt;Read(pData, cbMax, &amp;cbRead);
+        hr = pStream->Read(pData, cbMax, &cbRead);
     }
 
     // Update the size of the valid data in the buffer.
     if (SUCCEEDED(hr))
     {
-        hr = pBuffer-&gt;SetCurrentLength(cbRead);
+        hr = pBuffer->SetCurrentLength(cbRead);
     }
     if (pData)
     {
-        pBuffer-&gt;Unlock();
+        pBuffer->Unlock();
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The next example is similar, but allocates a new media buffer to hold the data. 
 
 
@@ -169,13 +165,9 @@ The next example is similar, but allocates a new media buffer to hold the data.
 <div> </div>
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//-------------------------------------------------------------------
+
+```cpp
+//-------------------------------------------------------------------
 // AllocReadFromByteStream
 //
 // Reads data from a byte stream and returns a media buffer that
@@ -196,44 +188,44 @@ HRESULT AllocReadFromByteStream(
 
     // Create the media buffer. 
     // This function allocates the memory for the buffer.
-    hr = MFCreateMemoryBuffer(cbToRead, &amp;pBuffer);
+    hr = MFCreateMemoryBuffer(cbToRead, &pBuffer);
 
     // Get a pointer to the memory buffer.
     if (SUCCEEDED(hr))
     {
-        hr = pBuffer-&gt;Lock(&amp;pData, NULL, NULL);
+        hr = pBuffer->Lock(&pData, NULL, NULL);
     }
 
     // Read the data from the byte stream.
     if (SUCCEEDED(hr))
     {
-        hr = pStream-&gt;Read(pData, cbToRead, &amp;cbRead);
+        hr = pStream->Read(pData, cbToRead, &cbRead);
     }
 
     // Update the size of the valid data in the buffer.
     if (SUCCEEDED(hr))
     {
-        hr = pBuffer-&gt;SetCurrentLength(cbRead);
+        hr = pBuffer->SetCurrentLength(cbRead);
     }
 
     // Return the pointer to the caller.
     if (SUCCEEDED(hr))
     {
         *ppBuffer = pBuffer;
-        (*ppBuffer)-&gt;AddRef();
+        (*ppBuffer)->AddRef();
     }
 
     if (pData)
     {
-        pBuffer-&gt;Unlock();
+        pBuffer->Unlock();
     }
-    SafeRelease(&amp;pBuffer);
+    SafeRelease(&pBuffer);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

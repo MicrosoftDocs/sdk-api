@@ -70,7 +70,7 @@ Reference to the sink object to receive event notifications from the Input Panel
 
 ### -param EventMask
 
-A bitwise value of the <a href="https://msdn.microsoft.com/83fefdcf-eb5f-4fb6-b107-dc8abce02bb6">EventMask Enumeration</a>, indicating the events of interest.
+A bitwise value of the <a href="https://msdn.microsoft.com/en-us/library/Bb969149(v=VS.85).aspx">EventMask Enumeration</a>, indicating the events of interest.
 
 
 ## -returns
@@ -117,7 +117,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/83fefdcf-eb5f-4fb6-b107-dc8abce02bb6">EventMask Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb969149(v=VS.85).aspx">EventMask Enumeration</a>
 
 
 

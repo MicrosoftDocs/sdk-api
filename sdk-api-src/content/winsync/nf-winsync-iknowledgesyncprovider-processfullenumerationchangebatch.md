@@ -131,7 +131,7 @@ This method is called during forgotten knowledge recovery.
 
 
 
-<a href="https://msdn.microsoft.com/4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4">CONFLICT RESOLUTION POLICY Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd316936(v=VS.85).aspx">CONFLICT RESOLUTION POLICY Enumeration</a>
 
 
 

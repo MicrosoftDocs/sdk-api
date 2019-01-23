@@ -208,13 +208,9 @@ Link Layer Topology Discovery (LLTD) must be implemented on the sink PC or devic
 
 The following code illustrates function use, handling a common exception, and required parameter initializations. Actual parameter values can vary depending on QoS version. The Winsock2.h header file must be included to use Winsock defined identifiers or functions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>QOS_VERSION    Version;
+
+```cpp
+QOS_VERSION    Version;
 HANDLE         QoSHandle = NULL;
 BOOL        QoSResult = FALSE;
 
@@ -223,32 +219,32 @@ Version.MinorVersion = 0;
 
 // Get a handle to the QoS subsystem (required for tracking).
 QoSResult = QOSCreateHandle(
-    &amp;Version, 
-    &amp;QoSHandle );
+    &Version, 
+    &QoSHandle );
 
-if(!QOSStartTrackingClient(QoSHandle, (sockaddr*)ptr-&gt;ai_addr, 0))
+if(!QOSStartTrackingClient(QoSHandle, (sockaddr*)ptr->ai_addr, 0))
 {
-    std::cerr &lt;&lt; std::endl;
-    std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
-    std::cerr &lt;&lt; " - QOSStartTrackingClient failed. Exception code: "; 
-    std::cerr &lt;&lt; GetLastError();
+    std::cerr << std::endl;
+    std::cerr << __FILE__ <<" Line: " << __LINE__ ;
+    std::cerr << " - QOSStartTrackingClient failed. Exception code: "; 
+    std::cerr << GetLastError();
 
     if (GetLastError() == ERROR_NOT_SUPPORTED)
     {
-        std::cerr &lt;&lt; std::endl;
-        std::cerr &lt;&lt; " ERROR_NOT_SUPPORTED" &lt;&lt; std::endl;
-        std::cerr &lt;&lt; "This operation requires information";
-        std::cerr &lt;&lt; "that the QoS subsystem does not have. " &lt;&lt; std::endl;
+        std::cerr << std::endl;
+        std::cerr << " ERROR_NOT_SUPPORTED" << std::endl;
+        std::cerr << "This operation requires information";
+        std::cerr << "that the QoS subsystem does not have. " << std::endl;
     }
 }
 else
-    std::cout &lt;&lt; "QoS client tracking started." &lt;&lt; std::endl;
+    std::cout << "QoS client tracking started." << std::endl;
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

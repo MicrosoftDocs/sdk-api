@@ -197,11 +197,11 @@ If the lcsCSType member is set to LCS_sRGB or LCS_WINDOWS_COLOR_SPACE, the other
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183380(v=VS.85).aspx">BITMAPV4HEADER</a>
+<a href="https://msdn.microsoft.com/17c50d55-1c95-4178-82ba-7f504aa63c83">BITMAPV4HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd183381(v=VS.85).aspx">BITMAPV5HEADER</a>
+<a href="https://msdn.microsoft.com/ec5db6f9-93fa-4dbe-afdb-c039292b26e3">BITMAPV5HEADER</a>
 
 
 

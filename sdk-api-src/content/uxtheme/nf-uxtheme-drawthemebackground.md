@@ -124,13 +124,9 @@ Drawing operations are scaled to fit and not exceed the rectangle specified in <
 Prior to calling <b>DrawThemeBackground</b> to draw the background image for a window, you may call <a href="https://msdn.microsoft.com/en-us/library/Bb759815(v=VS.85).aspx">IsThemeBackgroundPartiallyTransparent</a>. This method determines whether <a href="https://msdn.microsoft.com/en-us/library/Bb773306(v=VS.85).aspx">DrawThemeParentBackground</a> should be called to draw in backgrounds behind partially-transparent or alpha-blended child controls, and is demonstrated in the following example.
 		
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (_hTheme)
+
+```cpp
+if (_hTheme)
 {
   if (IsThemeBackgroundPartiallyTransparent(_hTheme, BP_PUSHBUTTON, _iStateId))
   {
@@ -141,13 +137,13 @@ Prior to calling <b>DrawThemeBackground</b> to draw the background image for a w
                     hdcPaint,
                     BP_PUSHBUTTON,
                     _iStateId,
-                    &amp;rcClient,
+                    &rcClient,
                     prcPaint);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

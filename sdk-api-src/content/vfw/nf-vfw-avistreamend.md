@@ -72,19 +72,15 @@ The sample number returned is not a valid sample number for reading data. It rep
 
 The <b>AVIStreamEnd</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamEnd(pavi) \ 
     (AVIStreamStart(pavi) + AVIStreamLength(pavi)) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

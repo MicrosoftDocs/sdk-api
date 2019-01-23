@@ -97,13 +97,9 @@ The <b>ContainerName</b> property affects the behavior of the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrContainerName = NULL;
+
+```cpp
+BSTR     bstrContainerName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -124,10 +120,8 @@ hr = pEnroll->put_ContainerName( bstrMyName );
 if ( FAILED ( hr ) )
     printf("Failed setting ContainerName - %x\n", hr );
 else
-    printf( "ContainerName was set to %ws\n", bstrMyName );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "ContainerName was set to %ws\n", bstrMyName );
+```
 
 
 

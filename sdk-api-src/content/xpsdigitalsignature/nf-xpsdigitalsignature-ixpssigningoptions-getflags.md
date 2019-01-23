@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb46
 
 ### -param flags [out, retval]
 
-The <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
 
 
 ## -returns
@@ -87,7 +87,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a>
  
 
  

@@ -199,13 +199,9 @@ Upon successful completion of this function, the value in <i>szProvider</i> can 
 
 The following example shows how to retrieve the provider name for the specified reader context. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPTSTR szProvider = NULL;
+
+```cpp
+LPTSTR szProvider = NULL;
 LPTSTR szCardName = _T("WindowsCard");
 DWORD  chProvider = SCARD_AUTOALLOCATE;
 LONG   lReturn = SCARD_S_SUCCESS;
@@ -215,15 +211,15 @@ LONG   lReturn = SCARD_S_SUCCESS;
 lReturn = SCardGetCardTypeProviderName(hContext,
                                        szCardName,
                                        SCARD_PROVIDER_CSP,
-                                       (LPTSTR)&amp;szProvider,
-                                       &amp;chProvider);
+                                       (LPTSTR)&szProvider,
+                                       &chProvider);
 if (SCARD_S_SUCCESS == lReturn)
 {
     BOOL fSts = TRUE;
     HCRYPTPROV hProv = NULL;
   
   // Acquire a Cryptographic operation context.
-    fSts = CryptAcquireContext(&amp;hProv,
+    fSts = CryptAcquireContext(&hProv,
                                NULL,
                                szProvider,
                                PROV_RSA_FULL,
@@ -234,10 +230,10 @@ if (SCARD_S_SUCCESS == lReturn)
     // Free memory allocated by SCardGetCardTypeProviderName.
     lReturn = SCardFreeMemory(hContext, szProvider);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

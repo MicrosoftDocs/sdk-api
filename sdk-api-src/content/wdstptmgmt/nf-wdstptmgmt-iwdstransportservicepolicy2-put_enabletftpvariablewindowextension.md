@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Receives a <a href="https://msdn.microsoft.com/3D8F193B-6EEA-4E40-A53C-EB0768E0DE83">WDSTRANSPORT_TFTP_CAPABILITY</a> value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
+Receives a <a href="https://msdn.microsoft.com/en-us/library/Hh448723(v=VS.85).aspx">WDSTRANSPORT_TFTP_CAPABILITY</a> value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
 
 This property is read/write.
 
@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/3D8F193B-6EEA-4E40-A53C-EB0768E0DE83">WDSTRANSPORT_TFTP_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448723(v=VS.85).aspx">WDSTRANSPORT_TFTP_CAPABILITY</a>
  
 
  

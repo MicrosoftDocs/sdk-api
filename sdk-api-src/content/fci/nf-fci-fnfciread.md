@@ -68,7 +68,7 @@ The maximum number of bytes to read.
 
 #### - err
 
-Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/en-us/library/Bb432257(v=VS.85).aspx">ERF</a> structure used to create the FCI context.
+Pointer to the error code value. This value will be used to provide extended error information in the <a href="https://msdn.microsoft.com/ddbccad9-a68c-4be7-90dc-e3dd25f5cf3b">ERF</a> structure used to create the FCI context.
 
 
 #### - memory
@@ -90,19 +90,15 @@ The function accepts parameters similar to<a href="http://go.microsoft.com/fwlin
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNFCIREAD(fnFileRead)
+
+```cpp
+FNFCIREAD(fnFileRead)
 {
     DWORD dwBytesRead = 0;
 
     UNREFERENCED_PARAMETER(pv);
 
-    if( ReadFile((HANDLE)hf, memory, cb, &amp;dwBytesRead, NULL) == FALSE )
+    if( ReadFile((HANDLE)hf, memory, cb, &dwBytesRead, NULL) == FALSE )
     {
         dwBytesRead = (DWORD)-1;
         *err = GetLastError();
@@ -110,10 +106,10 @@ The function accepts parameters similar to<a href="http://go.microsoft.com/fwlin
          
     return dwBytesRead;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

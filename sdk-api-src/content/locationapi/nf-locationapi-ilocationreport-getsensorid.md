@@ -84,22 +84,18 @@ A sensor ID is a <b>GUID</b>.
 
 The following example demonstrates how to call <b>GetSensorID</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // Print the Sensor ID GUID
+
+```cpp
+    // Print the Sensor ID GUID
     GUID sensorID = {0};
-    if (SUCCEEDED(spLatLongReport-&gt;GetSensorID(&amp;sensorID)))
+    if (SUCCEEDED(spLatLongReport->GetSensorID(&sensorID)))
     {
         wprintf(L"SensorID: %s\n", GUIDToString(sensorID, szGUID, ARRAYSIZE(szGUID)));
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

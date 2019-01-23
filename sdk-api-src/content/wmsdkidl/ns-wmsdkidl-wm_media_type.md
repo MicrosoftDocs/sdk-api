@@ -109,7 +109,7 @@ Pointer to the format structure of the media type. The structure referenced is d
 <tr>
 <td>WMFORMAT_VideoInfo</td>
 <td>
-<a href="https://msdn.microsoft.com/cf079efd-1759-4787-8aeb-85543847ac44">WMVIDEOINFOHEADER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757885(v=VS.85).aspx">WMVIDEOINFOHEADER</a>
 </td>
 </tr>
 <tr>
@@ -121,19 +121,19 @@ Pointer to the format structure of the media type. The structure referenced is d
 <tr>
 <td>WMFORMAT_MPEG2Video</td>
 <td>
-<a href="https://msdn.microsoft.com/e5907b04-200c-4459-971b-3680989a564f">WMMPEG2VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757831(v=VS.85).aspx">WMMPEG2VIDEOINFO</a>
 </td>
 </tr>
 <tr>
 <td>WMFORMAT_WebStream</td>
 <td>
-<a href="https://msdn.microsoft.com/3a392b33-6c2b-4465-86b4-6614940d7383">WMT_WEBSTREAM_FORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757882(v=VS.85).aspx">WMT_WEBSTREAM_FORMAT</a>
 </td>
 </tr>
 <tr>
 <td>WMFORMAT_Script</td>
 <td>
-<a href="https://msdn.microsoft.com/b7c513ac-9c28-4556-a0c8-f3e0d6efc735">WMSCRIPTFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757833(v=VS.85).aspx">WMSCRIPTFORMAT</a>
 </td>
 </tr>
 </table>
@@ -156,11 +156,11 @@ This is the same as the DirectShow structure <b>AM_MEDIA_TYPE</b> but is redefin
 
 
 
-<a href="https://msdn.microsoft.com/8357e5c6-d8c6-4a30-8446-85fa7fa118f7">IWMMediaProps::GetMediaType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757229(v=VS.85).aspx">IWMMediaProps::GetMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a89bf24-6b76-4645-8f39-f1979029d67e">IWMMediaProps::SetMediaType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757231(v=VS.85).aspx">IWMMediaProps::SetMediaType</a>
 
 
 

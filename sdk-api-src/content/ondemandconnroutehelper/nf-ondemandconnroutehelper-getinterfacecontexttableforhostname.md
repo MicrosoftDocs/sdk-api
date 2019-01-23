@@ -103,7 +103,7 @@ The size of the <i>ConnectionProfileFilterRawData</i> in bytes.
 
 ### -param InterfaceContextTable [out]
 
-This is set to the list of <a href="https://msdn.microsoft.com/71342454-5AEF-4C96-8914-ED8859BD9D81">NET_INTERFACE_CONTEXT</a> structures containing the interface indices and configuration names that can be used for the hostname and filter.
+This is set to the list of <a href="https://msdn.microsoft.com/en-us/library/Mt162305(v=VS.85).aspx">NET_INTERFACE_CONTEXT</a> structures containing the interface indices and configuration names that can be used for the hostname and filter.
 
 
 ## -returns
@@ -123,14 +123,14 @@ This function returns the following <b>HRESULT</b> values depending on the statu
 <tr>
 <td><b>S_OK</b></td>
 <td>
-This is returned if connection that satify the parameters and internal policies exists. <a href="https://msdn.microsoft.com/DA6101F2-EB8F-43DC-93C6-9365A7AABEAC">NET_INTERFACE_CONTEXT_TABLE</a> will contain a list of interfaces indices and configuration names of those connections. When S_OK is returned, <a href="https://msdn.microsoft.com/79623E67-C255-498D-ACDA-8BC2AE925224">FreeInterfaceContextTable</a> should be called to release the context table.
+This is returned if connection that satify the parameters and internal policies exists. <a href="https://msdn.microsoft.com/en-us/library/Mt162306(v=VS.85).aspx">NET_INTERFACE_CONTEXT_TABLE</a> will contain a list of interfaces indices and configuration names of those connections. When S_OK is returned, <a href="https://msdn.microsoft.com/79623E67-C255-498D-ACDA-8BC2AE925224">FreeInterfaceContextTable</a> should be called to release the context table.
 
 </td>
 </tr>
 <tr>
 <td><b>S_FALSE</b></td>
 <td>
-This is returned to indicate that any connection or default interface can be used for this hostname and filter. The <a href="https://msdn.microsoft.com/DA6101F2-EB8F-43DC-93C6-9365A7AABEAC">NET_INTERFACE_CONTEXT_TABLE</a> will be null in this case because the caller can use the default route to satisfy the requirements.
+This is returned to indicate that any connection or default interface can be used for this hostname and filter. The <a href="https://msdn.microsoft.com/en-us/library/Mt162306(v=VS.85).aspx">NET_INTERFACE_CONTEXT_TABLE</a> will be null in this case because the caller can use the default route to satisfy the requirements.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ This is returned if no connection is currently available or existing connection 
 <tr>
 <td><b>E_INVALIDARG</b></td>
 <td>
-This is returned if the caller passes an invalid argument, uses an unsupported flag, has a bad connection filter data, incorrect size or null <a href="https://msdn.microsoft.com/DA6101F2-EB8F-43DC-93C6-9365A7AABEAC">NET_INTERFACE_CONTEXT_TABLE</a>
+This is returned if the caller passes an invalid argument, uses an unsupported flag, has a bad connection filter data, incorrect size or null <a href="https://msdn.microsoft.com/en-us/library/Mt162306(v=VS.85).aspx">NET_INTERFACE_CONTEXT_TABLE</a>
 
 
 </td>
@@ -178,7 +178,7 @@ This is returned because of failures that are outside the control of this functi
 
 
 
-<a href="https://msdn.microsoft.com/DA6101F2-EB8F-43DC-93C6-9365A7AABEAC">NET_INTERFACE_CONTEXT_TABLE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt162306(v=VS.85).aspx">NET_INTERFACE_CONTEXT_TABLE</a>
  
 
  

@@ -100,7 +100,7 @@ The previous value of the specified extended option.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt842287(v=VS.85).aspx">IMAGEHLP_EXTENDED_OPTIONS</a>
+<a href="https://msdn.microsoft.com/5354F53C-F161-4887-85E4-7A00521034EE">IMAGEHLP_EXTENDED_OPTIONS</a>
 
 
 

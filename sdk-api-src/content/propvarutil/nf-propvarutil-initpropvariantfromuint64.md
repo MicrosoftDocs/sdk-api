@@ -92,26 +92,22 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt64">InitPropVariantFromUInt64</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762313(v=VS.85).aspx">InitPropVariantFromUInt64</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromUInt64(563, &amp;propvar);
+```cpp
+PROPVARIANT propvar;
+
+HRESULT hr = InitPropVariantFromUInt64(563, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_UI8.
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -120,15 +116,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromUInt64">InitVariantFromUInt64</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762342(v=VS.85).aspx">InitVariantFromUInt64</a>
 
 
 
-<a href="shell.PropVariantToUInt64">PropVariantToUInt64</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776573(v=VS.85).aspx">PropVariantToUInt64</a>
 
 
 
-<a href="shell.PropVariantToUInt64WithDefault">PropVariantToUInt64WithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776576(v=VS.85).aspx">PropVariantToUInt64WithDefault</a>
  
 
  

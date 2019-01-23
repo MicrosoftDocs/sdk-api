@@ -98,7 +98,7 @@ Specifies a Cancel response to an error dialog. Valid only if the <i>nMessageTyp
 
 
 
-The type of response allowed is of type <a href="https://msdn.microsoft.com/2fde8aa9-126a-4908-8faf-71ecad231f8d">ERROR_ADVISE_MESSAGE_TYPE</a>, and indicated by the <i>nMessageType</i> parameter of <a href="https://msdn.microsoft.com/60454ae7-9be9-4414-9865-2b874bbe54c1">IPhotoAcquireProgressCB::ErrorAdvise</a>.
+The type of response allowed is of type <a href="https://msdn.microsoft.com/en-us/library/Dd370692(v=VS.85).aspx">ERROR_ADVISE_MESSAGE_TYPE</a>, and indicated by the <i>nMessageType</i> parameter of <a href="https://msdn.microsoft.com/60454ae7-9be9-4414-9865-2b874bbe54c1">IPhotoAcquireProgressCB::ErrorAdvise</a>.
 
 
 
@@ -108,7 +108,7 @@ The type of response allowed is of type <a href="https://msdn.microsoft.com/2fde
 
 
 
-<a href="https://msdn.microsoft.com/2fde8aa9-126a-4908-8faf-71ecad231f8d">ERROR_ADVISE_MESSAGE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd370692(v=VS.85).aspx">ERROR_ADVISE_MESSAGE_TYPE</a>
 
 
 

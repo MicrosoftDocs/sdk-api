@@ -207,13 +207,9 @@ The following example shows how to use secure transaction semantics to download 
 <b>WinHttpQueryDataAvailable</b> is used with the request handle to determine how much data is available for download, then 
 <a href="https://msdn.microsoft.com/06340601-9b2d-487a-a82a-aa2175a52dc5">WinHttpReadData</a> is used to read that data.  This process repeats until the entire document has been retrieved and displayed.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     DWORD dwSize = 0;
     DWORD dwDownloaded = 0;
     LPSTR pszOutBuffer;
@@ -259,7 +255,7 @@ The following example shows how to use secure transaction semantics to download 
 
             // Verify available data.
             dwSize = 0;
-            if (!WinHttpQueryDataAvailable( hRequest, &amp;dwSize))
+            if (!WinHttpQueryDataAvailable( hRequest, &dwSize))
                 printf( "Error %u in WinHttpQueryDataAvailable.\n",
                         GetLastError());
 
@@ -276,7 +272,7 @@ The following example shows how to use secure transaction semantics to download 
                 ZeroMemory(pszOutBuffer, dwSize+1);
 
                 if (!WinHttpReadData( hRequest, (LPVOID)pszOutBuffer, 
-                                      dwSize, &amp;dwDownloaded))
+                                      dwSize, &dwDownloaded))
                     printf( "Error %u in WinHttpReadData.\n", GetLastError());
                 else
                     printf( "%s\n", pszOutBuffer);
@@ -285,7 +281,7 @@ The following example shows how to use secure transaction semantics to download 
                 delete [] pszOutBuffer;
             }
 
-        } while (dwSize &gt; 0);
+        } while (dwSize > 0);
 
 
     // Report any errors.
@@ -296,10 +292,10 @@ The following example shows how to use secure transaction semantics to download 
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

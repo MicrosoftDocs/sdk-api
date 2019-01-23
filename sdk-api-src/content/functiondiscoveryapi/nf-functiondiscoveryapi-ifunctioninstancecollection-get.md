@@ -4,7 +4,7 @@ title: IFunctionInstanceCollection::Get
 author: windows-sdk-content
 description: Gets the specified function instance and its index from the collection.
 old-location: ncd\ifunctioninstancecollection_get.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 3f3db880-a765-4a18-91ac-d091728cbb39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

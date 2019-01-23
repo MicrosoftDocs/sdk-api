@@ -68,7 +68,7 @@ A <a href="https://msdn.microsoft.com/f0318dd3-4350-4de3-84c8-2c998254c68c">DISP
 
 ### -field outputTechnology
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that specifies the target's connector type. 
+A value from the <a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that specifies the target's connector type. 
 
 
 ### -field edidManufactureId
@@ -122,7 +122,7 @@ If an application calls the <a href="https://msdn.microsoft.com/249dcb1a-4ce3-44
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff554003(v=VS.85).aspx">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
+<a href="https://msdn.microsoft.com/f8c2095a-d67e-42ed-b615-b5e0e0e0d507">DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 

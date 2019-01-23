@@ -51,19 +51,15 @@ req.redist:
 <b>GPMSearchProperty</b> defines  the property of the search criteria.
 
 The property of the search criteria.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum {gpoPermissions, gpoEffectivePermissions, gpoDisplayName, gpoWMIFilter, gpoID, 
+
+```cpp
+typedef enum {gpoPermissions, gpoEffectivePermissions, gpoDisplayName, gpoWMIFilter, gpoID, 
               gpoComputerExtensions, gpoUserExtensions, somLinks, gpoDomain, backupMostRecent,
               starterGPOPermissions, starterGPOEffectivePermissions, starterGPODisplayName, starterGPOID,
-              starterGPODomain} GPMSearchProperty;</pre>
-</td>
-</tr>
-</table></span></div>
+              starterGPODomain} GPMSearchProperty;
+```
+
+
 
 ## -enum-fields
 

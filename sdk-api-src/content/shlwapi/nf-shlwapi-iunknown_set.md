@@ -99,38 +99,34 @@ This function mimics the behavior of a smart pointer. Conceptually, the function
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 void sample()
 {
   IUnknown *punk = NULL;
   IStream* pstm = NULL;
 
-  if (SUCCEEDED(CreateStreamOnHGlobal(NULL, TRUE, &amp;pstm)) {
+  if (SUCCEEDED(CreateStreamOnHGlobal(NULL, TRUE, &pstm)) {
     // since punk == NULL, this merely copies the value and AddRef()s it
-    IUnknown_Set(&amp;punk, pstm);
-    pstm-&gt;Release();
+    IUnknown_Set(&punk, pstm);
+    pstm->Release();
 
-    if (SUCCEEDED(CreateStreamOnHGlobal(NULL, TRUE, &amp;pstm)) {
+    if (SUCCEEDED(CreateStreamOnHGlobal(NULL, TRUE, &pstm)) {
       // this call will release the old value of punk before copying the
       // new value and AddRef()ing it
-      IUnknown_Set(&amp;punk, pstm);
-      pstm-&gt;Release();
+      IUnknown_Set(&punk, pstm);
+      pstm->Release();
     }
   }
 
   // This call will release whatever punk points to, if anything.
-  IUnknown_AtomcRelease((void**)&amp;punk);
+  IUnknown_AtomcRelease((void**)&punk);
 
   // at this point, punk == NULL
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

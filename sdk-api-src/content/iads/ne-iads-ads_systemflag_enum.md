@@ -119,15 +119,11 @@ For <b>classSchema</b> and <b>attributeSchema</b> objects, the 0x10 bit of the <
 
 The following code example shows how elements of the <b>ADS_SYSTEMFLAG_ENUM</b> enumeration, together with the  <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a> interface, are used to search non-replicated properties.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;wchar.h&gt;
-#include &lt;activeds.h&gt;
-#include &lt;atlbase.h&gt;
+
+```cpp
+#include <wchar.h>
+#include <activeds.h>
+#include <atlbase.h>
  
 HRESULT hr = E_FAIL;
 LPWSTR szPrefix = L"LDAP://%s";
@@ -135,7 +131,7 @@ LPWSTR szPath = NULL;
 IDirectorySearch *pSchemaNC = NULL;
 IADs *pObject = NULL;
 size_t nLength = 0;
-LPWSTR pszSearchFilterTemplate = L"(&amp;(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.804:=%d))";
+LPWSTR pszSearchFilterTemplate = L"(&(objectCategory=attributeSchema)(systemFlags:1.2.840.113556.1.4.804:=%d))";
 LPWSTR pszSearchFilter = NULL;
  
 CoInitialize(NULL);     // Initialize COM
@@ -147,11 +143,11 @@ hr = ADsOpenObject(L"LDAP://rootDSE",
                 NULL,
                 ADS_SECURE_AUTHENTICATION, // Use Secure Authentication.
                 IID_IADs,
-                (void**)&amp;pObject);
+                (void**)&pObject);
 if (SUCCEEDED(hr))
 {
     CComVarinat svar;
-    hr = pObject-&gt;Get(CComBSTR("schemaNamingContext"), &amp;svar);
+    hr = pObject->Get(CComBSTR("schemaNamingContext"), &svar);
     if (SUCCEEDED(hr))
     {
         nLength = wcslen(szPrefix) + wcslen(svar.bstrVal) + 1;
@@ -163,7 +159,7 @@ if (SUCCEEDED(hr))
             NULL,
             ADS_SECURE_AUTHENTICATION, 
             IID_IDirectorySearch,
-            (void**)&amp;pSchemaNC);
+            (void**)&pSchemaNC);
 
         delete [] szPath;
 
@@ -195,7 +191,7 @@ if (SUCCEEDED(hr))
             IADs    * pIADs = NULL;
  
             // Set the search preference.
-            hr = pSchemaNC-&gt;SetSearchPreference( &amp;SearchPrefs, dwNumPrefs);
+            hr = pSchemaNC->SetSearchPreference( &SearchPrefs, dwNumPrefs);
             if (FAILED(hr)) 
             {
                 return hr;
@@ -206,26 +202,26 @@ if (SUCCEEDED(hr))
             pszAttribute[0] = L"cn";
 
             // Execute the search.
-            hr = pSchemaNC-&gt;ExecuteSearch(pszSearchFilter,
+            hr = pSchemaNC->ExecuteSearch(pszSearchFilter,
                                           pszAttribute,
                                           dwAttrNameSize,
-                                          &amp;hSearch );
+                                          &hSearch );
 
             delete [] pszSearchFilter;
             if ( SUCCEEDED(hr) ) 
             { 
                 // Call IDirectorySearch::GetNextRow() to retrieve 
                 // the next row of data.
-                while( pSchemaNC-&gt;GetNextRow( hSearch) != S_ADS_NOMORE_ROWS) 
+                while( pSchemaNC->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS) 
                 {
                     // Loop through the array of passed column names,
                     // print the data for each column.
-                    for (DWORD x = 0; x &lt; dwAttrNameSize; x++) 
+                    for (DWORD x = 0; x < dwAttrNameSize; x++) 
                     {
                         // Get the data for this column.
-                        hr = pSchemaNC-&gt;GetColumn( hSearch, 
+                        hr = pSchemaNC->GetColumn( hSearch, 
                                            pszAttribute[x], 
-                                           &amp;col );
+                                           &col );
                         if ( SUCCEEDED(hr) ) 
                         {
                             // Print the data for the column and 
@@ -234,32 +230,32 @@ if (SUCCEEDED(hr))
                             {
                                 wprintf(L"%s: %s\r\n", 
                                 pszAttribute[x], 
-                                col.pADsValues-&gt;CaseIgnoreString); 
+                                col.pADsValues->CaseIgnoreString); 
                             }
                             else
                             {
-                                wprintf(L"&lt;%s property is not a string&gt;", pszAttribute[x]);
+                                wprintf(L"<%s property is not a string>", pszAttribute[x]);
                             }
 
-                            pSchemaNC-&gt;FreeColumn( &amp;col );
+                            pSchemaNC->FreeColumn( &col );
                         }
                     }
                 }
 
                 // Close the search handle to clean up.
-                pSchemaNC-&gt;CloseSearchHandle(hSearch);
+                pSchemaNC->CloseSearchHandle(hSearch);
             } 
         }
     } 
 
-    pObject-&gt;Release();
+    pObject->Release();
 }
 
 CoUninitialize();    // uninitialize COM.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

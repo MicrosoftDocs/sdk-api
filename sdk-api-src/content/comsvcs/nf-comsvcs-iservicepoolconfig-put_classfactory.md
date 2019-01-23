@@ -75,7 +75,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/026abfcf-56b5-4821-a9d4-37beeb3a052b">IServicePoolConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678840(v=VS.85).aspx">IServicePoolConfig</a>
  
 
  

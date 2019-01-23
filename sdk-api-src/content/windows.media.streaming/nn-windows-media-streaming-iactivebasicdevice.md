@@ -222,16 +222,10 @@ An <b>IActiveBasicDevice</b> is associated with a UPnP device.  To retrieve  a p
 
  For example, you can retrieve a <a href="https://msdn.microsoft.com/566cc606-3dfb-4052-93b0-3c922bf30f84">IUPnPDevice</a> pointer as follows: 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pActiveBasicDevice->QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (void **)&spUPnPDevice );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pActiveBasicDevice->QueryService( GUID_NativeDeviceService, IID_IUPnPDevice, (void **)&spUPnPDevice );
+```
 
 
 

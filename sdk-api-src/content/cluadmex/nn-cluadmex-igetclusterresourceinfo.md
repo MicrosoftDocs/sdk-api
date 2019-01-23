@@ -147,13 +147,9 @@ Use the <b>IGetClusterResourceInfo</b> interface only
 
 In the following code, the section enclosed by C-style comments will fail per the previous paragraph.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // Context is a resource extension.
 //
 HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
@@ -167,7 +163,7 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
 
   IGetClusterGroupInfo *pGrpInfo;
 
-  hRes = piResInfo-&gt;GetResourceHandle();
+  hRes = piResInfo->GetResourceHandle();
 
   //
   // Get group handle
@@ -181,8 +177,8 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
   // must return a valid interface. But it is not a valid cluster 
   // operation so the interface won't represent a real object.
   //
-  hr = pResInfo-&gt;QueryInterface( IID_IGetClusterGroupInfo, 
-                                 (LPVOID *) &amp;pGrpInfo );
+  hr = pResInfo->QueryInterface( IID_IGetClusterGroupInfo, 
+                                 (LPVOID *) &pGrpInfo );
 
   //
   // Interface is valid, will pass this test.
@@ -194,7 +190,7 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
   // FAILS!
   // Interface does not represent a real cluster object.
   //    
-  hGrp = pGrpInfo-&gt;GetGroupHandle( 0 );
+  hGrp = pGrpInfo->GetGroupHandle( 0 );
 
 *******************************************************************/
 // Correct:    
@@ -207,7 +203,7 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
                                      NULL,
                                      0,
                                      szGroupName,
-                                     &amp;cchGroupNameSize );
+                                     &cchGroupNameSize );
 
   // Add error check.
 
@@ -220,10 +216,10 @@ HRESULT CExtObject::HrGetResourceInfo( IGetClusterResourceInfo *piResInfo )
   // After error check, use group handle...
 
  }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

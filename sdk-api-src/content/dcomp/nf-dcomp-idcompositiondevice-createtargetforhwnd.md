@@ -72,7 +72,7 @@ TRUE if the visual tree should be displayed on top of the children of the window
 
 ### -param target [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449108(v=VS.85).aspx">IDCompositionTarget</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/86dbfe68-e360-42cf-b572-960398ef06ba">IDCompositionTarget</a>**</b>
 
 The new composition target object. This parameter must not be NULL.
 
@@ -113,13 +113,9 @@ At most, only two composition targets can be created for each window in the syst
 
 The following example creates and initializes a device object, and then binds the device object to a composition target window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <dcomp.h>
+
+```cpp
+#include <dcomp.h>
 #include <d3d11.h>
 
 HRESULT InitializeDirectCompositionDevice(HWND hwndTarget, 
@@ -173,10 +169,8 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 
@@ -191,19 +185,19 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449108(v=VS.85).aspx">IDCompositionTarget</a>
+<a href="https://msdn.microsoft.com/86dbfe68-e360-42cf-b572-960398ef06ba">IDCompositionTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx">IDCompositionTarget::SetRoot</a>
+<a href="https://msdn.microsoft.com/febbef70-fc21-4295-93c5-2f9f52434aae">IDCompositionTarget::SetRoot</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>
+<a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>
  
 
  

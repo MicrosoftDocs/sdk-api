@@ -65,7 +65,7 @@ Handle for an open session to the filter engine. Call <a href="https://msdn.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2e099545-4075-4ea0-9035-53ce334decc4">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa814113(v=VS.85).aspx">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -150,7 +150,7 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/2e099545-4075-4ea0-9035-53ce334decc4">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa814113(v=VS.85).aspx">IPSEC_SA_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 

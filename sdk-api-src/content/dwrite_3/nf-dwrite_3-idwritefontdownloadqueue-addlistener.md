@@ -49,7 +49,7 @@ req.redist:
 
 
 Registers a client-defined listener object that receives download notifications.  
-    All registered listener's DownloadCompleted will be called after <a href="https://msdn.microsoft.com/en-us/library/Dn894554(v=VS.85).aspx">BeginDownload</a>completes. 
+    All registered listener's DownloadCompleted will be called after <a href="https://msdn.microsoft.com/1e3b200c-0190-f600-1cb6-4e2a46f882b4">BeginDownload</a>completes. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ Registers a client-defined listener object that receives download notifications.
 
 ### -param listener
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890775(v=VS.85).aspx">IDWriteFontDownloadListener</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/92678d34-9a14-8d58-129c-be31a0963942">IDWriteFontDownloadListener</a>*</b>
 
 Listener object to add.
 
@@ -68,7 +68,7 @@ Listener object to add.
 
 Type: <b>UINT32*</b>
 
-Receives a token value, which the caller must subsequently pass to <a href="https://msdn.microsoft.com/en-us/library/Dn894559(v=VS.85).aspx">RemoveListener</a>.
+Receives a token value, which the caller must subsequently pass to <a href="https://msdn.microsoft.com/e3470f17-9630-de53-d1ae-ab2a2508a069">RemoveListener</a>.
 
 
 ## -returns
@@ -86,7 +86,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-An <a href="https://msdn.microsoft.com/en-us/library/Dn890775(v=VS.85).aspx">IDWriteFontDownloadListener</a> can also be passed to <a href="https://msdn.microsoft.com/en-us/library/Dn894554(v=VS.85).aspx">BeginDownload</a> 
+An <a href="https://msdn.microsoft.com/92678d34-9a14-8d58-129c-be31a0963942">IDWriteFontDownloadListener</a> can also be passed to <a href="https://msdn.microsoft.com/1e3b200c-0190-f600-1cb6-4e2a46f882b4">BeginDownload</a> 
       using the context parameter, rather than globally registered to the queue.
 
 
@@ -97,7 +97,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Dn890775(v=VS.85).aspx">IDW
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>
+<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>
  
 
  

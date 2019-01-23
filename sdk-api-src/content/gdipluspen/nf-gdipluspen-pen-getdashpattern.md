@@ -107,13 +107,9 @@ The length of each dash and space in the dash pattern is the product of each ele
 The following example creates an array of real numbers and a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash pattern, and draws a custom dashed line. The code then gets the dash pattern currently set for the pen.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetDashPattern(HDC hdc
+
+```cpp
+VOID Example_GetDashPattern(HDC hdc
 {
    Graphics graphics(hdc);
 
@@ -121,7 +117,7 @@ The following example creates an array of real numbers and a
    REAL dashVals[4] = {5, 2, 15, 4};
    Pen pen(Color(255, 0, 0, 0), 5);
    pen.SetDashPattern(dashVals, 4);
-   graphics.DrawLine(&amp;pen, 5, 20, 405, 200);
+   graphics.DrawLine(&pen, 5, 20, 405, 200);
 
    // Obtain information about the pen.
    INT count = 0;
@@ -131,15 +127,15 @@ The following example creates an array of real numbers and a
    dashValues = new REAL[count];
    pen.GetDashPattern(dashValues, count);
 
-   for(INT j = 0; j &lt; count; ++j)
+   for(INT j = 0; j < count; ++j)
    {
       // Inspect or use the value in dashValues[j].
    }
    delete [] dashValues;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

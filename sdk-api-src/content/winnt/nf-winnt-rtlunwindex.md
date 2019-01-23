@@ -110,19 +110,15 @@ This function does not return a value.
 
 The <b>FRAME_POINTERS</b> structure is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _FRAME_POINTERS {
+
+```cpp
+typedef struct _FRAME_POINTERS {
     ULONGLONG MemoryStackFp;
     ULONGLONG BackingStoreFp;
-} FRAME_POINTERS, *PFRAME_POINTERS;</pre>
-</td>
-</tr>
-</table></span></div>
+} FRAME_POINTERS, *PFRAME_POINTERS;
+```
+
+
 
 
 

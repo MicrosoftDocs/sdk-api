@@ -58,12 +58,12 @@ The <b>GetCASetupProperty</b> method gets a property value for a <a href="https:
 
 ### -param propertyId [in]
 
-A value of the <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a> enumeration that specifies the type of property to get.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a> enumeration that specifies the type of property to get.
 
 
 ### -param pPropertyValue [out]
 
-A <b>VARIANT</b> value that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a>.
+A <b>VARIANT</b> value that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
 
 
 ## -see-also

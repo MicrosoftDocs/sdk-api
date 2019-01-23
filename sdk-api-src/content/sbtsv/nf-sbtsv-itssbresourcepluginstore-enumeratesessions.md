@@ -84,7 +84,7 @@ The name of the published remote application.
 
 ### -param pSessionState [in]
 
-A pointer to the  <a href="https://msdn.microsoft.com/2780e704-72f1-44a9-ad54-ab3d2b19befe">TSSESSION_STATE</a> value of the sessions to enumerate.
+A pointer to the  <a href="https://msdn.microsoft.com/en-us/library/Ee351749(v=VS.85).aspx">TSSESSION_STATE</a> value of the sessions to enumerate.
 
 
 ### -param pdwCount [in, out]

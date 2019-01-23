@@ -236,7 +236,7 @@ The data type associated with the buffer pointed to by the <i>pvData</i> paramet
 
 </td>
 <td width="60%">
-A pointer to a <a href="https://msdn.microsoft.com/845eaef2-7ce0-4d7a-8273-8b843b5c95fd">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is passed in the <i>pvData</i> parameter.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd439499(v=VS.85).aspx">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a> structure is passed in the <i>pvData</i> parameter.
 
 </td>
 </tr>
@@ -286,7 +286,7 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 
-<a href="https://msdn.microsoft.com/845eaef2-7ce0-4d7a-8273-8b843b5c95fd">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd439499(v=VS.85).aspx">WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</a>
 
 
 

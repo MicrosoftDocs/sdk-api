@@ -91,20 +91,16 @@ The number of elements, pNumElements, includes the <a href="https://msdn.microso
 
 Here's an example that will return the vertex declaration array of up to 256 elements:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre> 
+
+```
+ 
 D3DVERTEXELEMENT9 decl[MAXD3DDECLLENGTH];
 UINT numElements;
-HRESULT hr = m_pVertexDeclaration-&gt;GetDeclaration( decl, &amp;numElements);
-</pre>
-</td>
-</tr>
-</table></span></div>
+HRESULT hr = m_pVertexDeclaration->GetDeclaration( decl, &numElements);
+
+```
+
+
 Specify <b>NULL</b> for pDeclto get the number of elements in the declaration.
 
 

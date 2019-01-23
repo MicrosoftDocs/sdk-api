@@ -95,13 +95,9 @@ Obtain this interface by calling <b>ITfContext::QueryInterface</b> with IID_ITfC
 
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfContextOwnerCompositionServices *pCompServices;
 
@@ -114,10 +110,8 @@ if(SUCCEEDED(hr))
     //Release the interface. 
     pCompServices->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

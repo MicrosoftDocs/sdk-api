@@ -91,27 +91,23 @@ To get the rendering quality for text, use the <a href="https://msdn.microsoft.c
 
 The following example sets the smoothing mode to two different values and fills an ellipse to demonstrate each mode.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetSetSmoothingMode(HDC hdc)
+
+```cpp
+VOID Example_SetSetSmoothingMode(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // Set the smoothing mode to SmoothingModeHighSpeed, and fill an ellipse.
    graphics.SetSmoothingMode(SmoothingModeHighSpeed);
-   graphics.FillEllipse(&amp;SolidBrush(Color(255, 0, 0, 0)), 0, 0, 200, 100);
+   graphics.FillEllipse(&SolidBrush(Color(255, 0, 0, 0)), 0, 0, 200, 100);
 
    // Set the smoothing mode to SmoothingModeHighQuality, and fill an ellipse.
    graphics.SetSmoothingMode(SmoothingModeHighQuality);
-   graphics.FillEllipse(&amp;SolidBrush(Color(255, 0, 0, 0)), 200, 0, 200, 100);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&SolidBrush(Color(255, 0, 0, 0)), 200, 0, 200, 100);
+}
+```
+
+
 
 
 

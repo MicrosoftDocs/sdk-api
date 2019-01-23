@@ -59,16 +59,16 @@ The <b>Region::IsVisible</b> method determines whether a rectangle intersects th
 
 ### -param rect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a></b>
 
 Reference to a rectangle to test. 
 
 
 ### -param g [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
 
-Optional. Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. The default value is <b>NULL</b>. 
+Optional. Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region and the rectangle. The default value is <b>NULL</b>. 
 
 
 ## -returns
@@ -96,13 +96,9 @@ If the rectangle intersects this region, this method returns <b>TRUE</b>; otherw
 
 The following example creates a region from a path and then tests to determine whether a rectangle intersects the region.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_IsVisibleRect(HDC hdc)
+
+```cpp
+VOID Example_IsVisibleRect(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -120,24 +116,24 @@ The following example creates a region from a path and then tests to determine w
    path.AddClosedCurve(points, 6);
 
    // Create a region from a path.
-   Region pathRegion(&amp;path);
-   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
+   Region pathRegion(&path);
+   graphics.FillRegion(&solidBrush, &pathRegion);
 
    // Check to see whether a rectangle intersects the region.
    Rect testRect(65, 25, 70, 30);
 
-   if(pathRegion.IsVisible(testRect, &amp;graphics))
+   if(pathRegion.IsVisible(testRect, &graphics))
    {
       // All or part of the rectangle is in the region.
    }
 
    // Draw the test rectangle.
    Pen pen(Color(255, 0, 0, 0));
-   graphics.DrawRectangle(&amp;pen, testRect);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&pen, testRect);
+}
+```
+
+
 
 
 
@@ -146,15 +142,15 @@ The following example creates a region from a path and then tests to determine w
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
  
 
  

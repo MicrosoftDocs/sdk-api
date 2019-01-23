@@ -151,14 +151,10 @@ The time value returned in <i>pszOut</i> will always be in the form <i>hh</i> ho
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;iostream.h&gt;
+
+```cpp
+#include <windows.h>
+#include <iostream.h>
 #include "Shlwapi.h"
 
 void main(void)
@@ -167,28 +163,28 @@ void main(void)
     char *pszOut;
     pszOut = TimeString;
 
-    cout &lt;&lt; "The return value from the call to"
-         &lt;&lt; "\nthe function StrFromTimeInterval will"
-         &lt;&lt; "\nreturn the number of elements in the buffer: " &lt;&lt; endl;
+    cout << "The return value from the call to"
+         << "\nthe function StrFromTimeInterval will"
+         << "\nreturn the number of elements in the buffer: " << endl;
 
-    cout &lt;&lt; "\nThe return from StrFromTimeInterval is " 
-         &lt;&lt; StrFromTimeInterval(pszOut,30, 34000,30);
+    cout << "\nThe return from StrFromTimeInterval is " 
+         << StrFromTimeInterval(pszOut,30, 34000,30);
 
-    cout &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
+    cout << "\nThe contents of the TimeString Buffer " << pszOut << endl;
 
-    cout &lt;&lt; "The return from StrFromTimeInterval is " 
-         &lt;&lt; StrFromTimeInterval(pszOut,30, 74000,3);
+    cout << "The return from StrFromTimeInterval is " 
+         << StrFromTimeInterval(pszOut,30, 74000,3);
 
-    cout &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
+    cout << "\nThe contents of the TimeString Buffer " << pszOut << endl;
 
-    cout &lt;&lt; "The return from StrFromTimeInterval is " 
-         &lt;&lt; StrFromTimeInterval(pszOut,30, 74000,2);
+    cout << "The return from StrFromTimeInterval is " 
+         << StrFromTimeInterval(pszOut,30, 74000,2);
 
-    cout &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
+    cout << "\nThe contents of the TimeString Buffer " << pszOut << endl;
 
-    cout &lt;&lt; "The return from StrFromTimeInterval is " 
-         &lt;&lt; StrFromTimeInterval(pszOut,30, 74000,1)
-         &lt;&lt; "\nThe contents of the TimeString Buffer " &lt;&lt; pszOut &lt;&lt; endl;
+    cout << "The return from StrFromTimeInterval is " 
+         << StrFromTimeInterval(pszOut,30, 74000,1)
+         << "\nThe contents of the TimeString Buffer " << pszOut << endl;
 }
 
 OUTPUT:
@@ -204,9 +200,9 @@ The contents of the TimeString Buffer  1 min 14 sec
 The return from StrFromTimeInterval is 13
 The contents of the TimeString Buffer  1 min 10 sec
 The return from StrFromTimeInterval is 6
-The contents of the TimeString Buffer  1 min</pre>
-</td>
-</tr>
-</table></span></div>
+The contents of the TimeString Buffer  1 min
+```
+
+
 
 

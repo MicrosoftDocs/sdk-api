@@ -65,7 +65,7 @@ Handle for an open session to the filter engine. Call <a href="https://msdn.micr
 
 ### -param enumTemplate [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/0d43931a-93ae-43dd-9c5b-3989799e7b60">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>*</b>
 
 Template to selectively restrict the enumeration.
 
@@ -152,7 +152,7 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 
 
-<a href="https://msdn.microsoft.com/0d43931a-93ae-43dd-9c5b-3989799e7b60">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 

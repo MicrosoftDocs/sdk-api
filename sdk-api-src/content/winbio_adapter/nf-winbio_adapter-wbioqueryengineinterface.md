@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Retrieves a pointer to the <a href="https://msdn.microsoft.com/04429f64-ae41-4c26-a777-bdb7aa92b685">WINBIO_ENGINE_INTERFACE</a> structure for the engine adapter.
+Retrieves a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401655(v=VS.85).aspx">WINBIO_ENGINE_INTERFACE</a> structure for the engine adapter.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Retrieves a pointer to the <a href="https://msdn.microsoft.com/04429f64-ae41-4c2
 
 ### -param EngineInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/04429f64-ae41-4c26-a777-bdb7aa92b685">WINBIO_ENGINE_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd401655(v=VS.85).aspx">WINBIO_ENGINE_INTERFACE</a> structure.
 
 
 ## -returns
@@ -104,25 +104,21 @@ To be visible to the Windows Biometric Framework, the <b>WbioQueryEngineInterfac
 
 The following pseudocode shows one possible implementation of this function. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 WINAPI
 WbioQueryEngineInterface(
     __out PWINBIO_ENGINE_INTERFACE *EngineInterface)
 {
     // g_EngineInterface is a global variable.
-    *EngineInterface = &amp;g_EngineInterface;
+    *EngineInterface = &g_EngineInterface;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

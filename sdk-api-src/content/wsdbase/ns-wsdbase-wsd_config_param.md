@@ -58,7 +58,7 @@ Represents configuration parameters for creating <code>WSDAPI</code> objects.
 
 ### -field configParamType
 
-A <a href="https://msdn.microsoft.com/46189d61-79d0-4ec9-82eb-ac1331201490">WSD_CONFIG_PARAM_TYPE</a> value that indicates the type configuration data contained in this structure.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd379744(v=VS.85).aspx">WSD_CONFIG_PARAM_TYPE</a> value that indicates the type configuration data contained in this structure.
 
 
 ### -field pConfigData

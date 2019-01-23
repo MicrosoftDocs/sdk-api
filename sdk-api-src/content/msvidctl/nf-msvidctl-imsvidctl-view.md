@@ -100,36 +100,28 @@ You can specify a particular input device by calling the <a href="https://msdn.m
 
 The following example shows how to submit a tune request to the Video Control:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ITuneRequest *pTuneReq;
 /* Obtain the tune request (not shown). */
 CComVariant varTuneRequest = pTuneReq;
-hr = pVidControl-&gt;View(&amp;varTuneRequest);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pVidControl->View(&varTuneRequest);
+
+```
+
+
 The following example shows how to play a local file:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 CComVariant varFileName(OLESTR("C:Example.avi"));
-hr = pVidControl-&gt;View(&amp;varFileName);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pVidControl->View(&varFileName);
+
+```
+
+
 
 
 

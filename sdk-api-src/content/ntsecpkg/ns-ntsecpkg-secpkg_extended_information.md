@@ -63,7 +63,7 @@ This structure is used by the
 ### -field Class
 
 A value from the 
-<a href="https://msdn.microsoft.com/52c24886-ae81-4ac8-97d5-d638016e82bf">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration which identifies the information in the structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa380113(v=VS.85).aspx">SECPKG_EXTENDED_INFORMATION_CLASS</a> enumeration which identifies the information in the structure.
 
 
 ### -field Info

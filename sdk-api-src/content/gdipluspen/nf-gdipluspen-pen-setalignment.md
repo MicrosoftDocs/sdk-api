@@ -96,13 +96,9 @@ If you set the alignment of a
 The following example creates two 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> objects and sets the alignment for one of the pens. The code then draws two lines using each of the pens.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetAlignment(HDC hdc)
+
+```cpp
+VOID Example_SetAlignment(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -114,12 +110,12 @@ The following example creates two
    greenPen.SetAlignment(PenAlignmentInset);
 
    // Draw two lines using each pen.
-   graphics.DrawEllipse(&amp;greenPen, 0, 0, 100, 200);
-   graphics.DrawEllipse(&amp;blackPen, 0, 0, 100, 200);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawEllipse(&greenPen, 0, 0, 100, 200);
+   graphics.DrawEllipse(&blackPen, 0, 0, 100, 200);
+}
+```
+
+
 
 
 

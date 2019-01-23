@@ -67,33 +67,25 @@ An expression that can be determined at compile time.
 
 The <b>C_ASSERT</b> macro is defined as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define C_ASSERT(e) typedef char __C_ASSERT__[(e)?1:-1]</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define C_ASSERT(e) typedef char __C_ASSERT__[(e)?1:-1]
+```
+
+
 The following examples demonstrate common types of compile-time assertions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>C_ASSERT (BUFFER_CCH_SIZE &lt;= MAX_PATH);
+
+```cpp
+C_ASSERT (BUFFER_CCH_SIZE <= MAX_PATH);
 
 C_ASSERT (ARRAYSIZE(array1) == ARRAYSIZE(array2));
 
 C_ASSERT (FIELD_OFFSET(STRUCT_DEF, MemberName) == 0x1d4);
 
-C_ASSERT (sizeof(BOOLEAN) == sizeof(UCHAR));</pre>
-</td>
-</tr>
-</table></span></div>
+C_ASSERT (sizeof(BOOLEAN) == sizeof(UCHAR));
+```
+
+
 
 

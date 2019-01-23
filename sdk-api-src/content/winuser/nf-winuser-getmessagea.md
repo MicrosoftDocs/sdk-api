@@ -135,13 +135,9 @@ while (GetMessage( lpMsg, hWnd, 0, 0)) ...
 
 The possibility of a -1 return value in the case that hWnd is an invalid parameter (such as referring to a window that has already been destroyed) means that such code can lead to fatal application errors. Instead, use code like this:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOL bRet;
+
+```
+BOOL bRet;
 
 while( (bRet = GetMessage( &msg, hWnd, 0, 0 )) != 0)
 { 
@@ -154,10 +150,8 @@ while( (bRet = GetMessage( &msg, hWnd, 0, 0 )) != 0)
         TranslateMessage(&msg); 
         DispatchMessage(&msg); 
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

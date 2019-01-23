@@ -88,17 +88,13 @@ These VDMs contain the WowExec.exe task. DOS VDMs are not enumerated. To enumera
 
 The following example shows how to enumerate virtual DOS machines running 16-bit Windows tasks.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>   // Enumerate all 16-bit tasks on the system.
+
+```cpp
+   // Enumerate all 16-bit tasks on the system.
    
-   #include &lt;windows.h&gt;
-   #include &lt;stdio.h&gt;
-   #include &lt;vdmdbg.h&gt;
+   #include <windows.h>
+   #include <stdio.h>
+   #include <vdmdbg.h>
 
    BOOL WINAPI ProcessVDMs( DWORD, DWORD, LPARAM );
    BOOL WINAPI ProcessTasks( DWORD, WORD, WORD, PSZ, PSZ, LPARAM );
@@ -145,9 +141,9 @@ The following example shows how to enumerate virtual DOS machines running 16-bit
       return FALSE;
    }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

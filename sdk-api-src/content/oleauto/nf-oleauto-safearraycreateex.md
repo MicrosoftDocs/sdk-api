@@ -99,24 +99,20 @@ If the VARTYPE is VT_RECORD then <a href="https://msdn.microsoft.com/85317e8e-76
 
 The following example describes how a safe array of user-defined types is stored into a variant of type VT_RECORD.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SAFEARRAYBOUND * sab;
+
+```cpp
+SAFEARRAYBOUND * sab;
 sab.cElements = 2;
 sab.lLbound = 0;
 hresult hr;
 
 SAFEARRAY Sa;
-Sa = SafeArrayCreateEx(VT_RECORD, 1, &amp;sab, pRecInfo);
+Sa = SafeArrayCreateEx(VT_RECORD, 1, &sab, pRecInfo);
 if (Sa == NULL)
    return E_OUTOFMEMORY;
 
 PVOID pvData;
-hr = SafeArrayAccessData(Sa, &amp;pvData);
+hr = SafeArrayAccessData(Sa, &pvData);
 if (FAILED(hr)) {
    SafeArrayDestroy(Sa);
    return hr;
@@ -132,11 +128,11 @@ if (FAILED(hr)) {
    return hr;
 }
 
-VariantInit(&amp;variant);
-V_VT(&amp;variant) = VT_ARRAY|VT_RECORD;
-V_ARRAY(&amp;variant) = Sa;</pre>
-</td>
-</tr>
-</table></span></div>
+VariantInit(&variant);
+V_VT(&variant) = VT_ARRAY|VT_RECORD;
+V_ARRAY(&variant) = Sa;
+```
+
+
 
 

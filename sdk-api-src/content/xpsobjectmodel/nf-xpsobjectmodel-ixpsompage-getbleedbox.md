@@ -109,7 +109,7 @@ The default bleed box of a page is:
 <table>
 <tr>
 <th>
-<a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XPS_RECT</a> field</th>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372982(v=VS.85).aspx">XPS_RECT</a> field</th>
 <th>Default value</th>
 </tr>
 <tr>
@@ -151,7 +151,7 @@ The default bleed box of a page is:
 
 
 
-<a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XPS_RECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372982(v=VS.85).aspx">XPS_RECT</a>
  
 
  

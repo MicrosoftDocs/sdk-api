@@ -79,13 +79,9 @@ Generally speaking, you can use <b>ASSOCIATE_NAMERES_CONTEXT_INPUT</b> to enforc
 
 The following code describes making a call to <a href="https://msdn.microsoft.com/cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39">GetAddrInfoEx</a> with a addinfoex4 structure to retrieve the handle to a FQDN. the sample then call <a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a> with the <b>ASSOCIATE_NAMERES_CONTEXT_INPUT</b> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// 
+
+```cpp
+// 
 // Connect to a server using its IPv4 addresses 
 // 
 
@@ -110,7 +106,7 @@ ConnectServer(
     // 
     iResult = WSAStartup( 
         MAKEWORD(2, 2),  
-        &amp;wsaData); 
+        &wsaData); 
     if (iResult != 0) { 
         printf("WSAStartup failed: %d\n", iResult); 
         goto Exit; 
@@ -143,8 +139,8 @@ ConnectServer(
         NULL, 
         NS_DNS, 
         NULL, 
-        (const ADDRINFOEXW*)&amp;hints, 
-        (PADDRINFOEXW*)&amp;pResult, 
+        (const ADDRINFOEXW*)&hints, 
+        (PADDRINFOEXW*)&pResult, 
         NULL, 
         NULL, 
         NULL, NULL); 
@@ -153,7 +149,7 @@ ConnectServer(
         goto Exit; 
     } 
     input.TransportSettingId.Guid = ASSOCIATE_NAMERES_CONTEXT; 
-    input.Handle = pResult-&gt;ai_resolutionhandle; 
+    input.Handle = pResult->ai_resolutionhandle; 
 
     // 
     // Associate socket with the handle 
@@ -162,11 +158,11 @@ ConnectServer(
     if (WSAIoctl( 
             connectSocket, 
             SIO_APPLY_TRANSPORT_SETTING, 
-            (VOID *)&amp;input, 
+            (VOID *)&input, 
             sizeof(input), 
             NULL, 
             0, 
-            &amp;bytesReturned, 
+            &bytesReturned, 
             NULL, 
             NULL) == SOCKET_ERROR) 
     if (iResult != 0){ 
@@ -181,20 +177,20 @@ ConnectServer(
     pCur = pResult; 
     while (pCur != NULL) 
     { 
-        if (pCur-&gt;ai_addr-&gt;sa_family == AF_INET) 
+        if (pCur->ai_addr->sa_family == AF_INET) 
         { 
-            clientService = *(const sockaddr_in*)pCur-&gt;ai_addr; 
+            clientService = *(const sockaddr_in*)pCur->ai_addr; 
             clientService.sin_port = htons(80); 
             if (connect( 
                 connectSocket, 
-                (const SOCKADDR *)&amp;clientService, 
+                (const SOCKADDR *)&clientService, 
                 sizeof(clientService)) == SOCKET_ERROR) 
             { 
                 printf("connect failed: %d\n", WSAGetLastError()); 
                 goto Exit; 
             } 
         } 
-        pCur = pCur-&gt;ai_next; 
+        pCur = pCur->ai_next; 
     } 
 
 Exit: 
@@ -210,10 +206,10 @@ Exit:
     WSACleanup(); 
     return; 
 } 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

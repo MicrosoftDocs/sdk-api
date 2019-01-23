@@ -90,13 +90,9 @@ A user can visualize the event when the calling application is running under an 
 The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">EndEvent</a> methods.
           It also uses the <a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a> smart pointer type.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 CComPtr< ID3D11DeviceContext > pContext;
 
 HRESULT hrCreateDevice = (*pfnD3D11CreateDevice)( 
@@ -118,10 +114,8 @@ if ( FAILED( hr ) )
 pPerf->BeginEvent( L”Now entering ocean rendering code” );
 MyDrawOceanRoutine( );
 pPerf->EndEvent( );
-          </pre>
-</td>
-</tr>
-</table></span></div>
+          
+```
 
 
 <div class="code"></div>

@@ -118,13 +118,9 @@ Decoders should set the values of <b>InputSampleFreq</b> and <b>OutputFrameFreq<
 
 The following code converts a Media Foundation media type, represented using the <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> interface, into a <b>DXVA2_VideoDesc</b> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Fills in the DXVA2_ExtendedFormat structure.
+
+```cpp
+// Fills in the DXVA2_ExtendedFormat structure.
 void GetDXVA2ExtendedFormatFromMFMediaType(
     IMFMediaType *pType, 
     DXVA2_ExtendedFormat *pFormat
@@ -142,33 +138,33 @@ void GetDXVA2ExtendedFormatFromMFMediaType(
     if (interlace == MFVideoInterlace_MixedInterlaceOrProgressive)
     {
         // Default to interleaved fields.
-        pFormat-&gt;SampleFormat = DXVA2_SampleFieldInterleavedEvenFirst;
+        pFormat->SampleFormat = DXVA2_SampleFieldInterleavedEvenFirst;
     }
     else
     {
-        pFormat-&gt;SampleFormat = (UINT)interlace;
+        pFormat->SampleFormat = (UINT)interlace;
     }
 
     // The remaining values translate directly.
     
     // Use the "no-fail" attribute functions and default to "unknown."
     
-    pFormat-&gt;VideoChromaSubsampling = MFGetAttributeUINT32(
+    pFormat->VideoChromaSubsampling = MFGetAttributeUINT32(
         pType, MF_MT_VIDEO_CHROMA_SITING, MFVideoChromaSubsampling_Unknown);
 
-    pFormat-&gt;NominalRange = MFGetAttributeUINT32(
+    pFormat->NominalRange = MFGetAttributeUINT32(
         pType, MF_MT_VIDEO_NOMINAL_RANGE, MFNominalRange_Unknown);
 
-    pFormat-&gt;VideoTransferMatrix = MFGetAttributeUINT32(
+    pFormat->VideoTransferMatrix = MFGetAttributeUINT32(
         pType, MF_MT_YUV_MATRIX, MFVideoTransferMatrix_Unknown);
 
-    pFormat-&gt;VideoLighting = MFGetAttributeUINT32(
+    pFormat->VideoLighting = MFGetAttributeUINT32(
         pType, MF_MT_VIDEO_LIGHTING, MFVideoLighting_Unknown);
 
-    pFormat-&gt;VideoPrimaries = MFGetAttributeUINT32(
+    pFormat->VideoPrimaries = MFGetAttributeUINT32(
         pType, MF_MT_VIDEO_PRIMARIES, MFVideoPrimaries_Unknown);
 
-    pFormat-&gt;VideoTransferFunction = MFGetAttributeUINT32(
+    pFormat->VideoTransferFunction = MFGetAttributeUINT32(
         pType, MF_MT_TRANSFER_FUNCTION, MFVideoTransFunc_Unknown);
 
 }
@@ -185,55 +181,55 @@ HRESULT ConvertMFTypeToDXVAType(IMFMediaType *pType, DXVA2_VideoDesc *pDesc)
     UINT32                  fpsDenominator = 0;
 
     // The D3D format is the first DWORD of the subtype GUID.
-    HRESULT hr = pType-&gt;GetGUID(MF_MT_SUBTYPE, &amp;subtype);
+    HRESULT hr = pType->GetGUID(MF_MT_SUBTYPE, &subtype);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    pDesc-&gt;Format = (D3DFORMAT)subtype.Data1;
+    pDesc->Format = (D3DFORMAT)subtype.Data1;
 
     // Frame size.
-    hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &amp;width, &amp;height);
+    hr = MFGetAttributeSize(pType, MF_MT_FRAME_SIZE, &width, &height);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    pDesc-&gt;SampleWidth = width;
-    pDesc-&gt;SampleHeight = height;
+    pDesc->SampleWidth = width;
+    pDesc->SampleHeight = height;
 
     // Frame rate.
-    hr = MFGetAttributeRatio(pType, MF_MT_FRAME_RATE, &amp;fpsNumerator, &amp;fpsDenominator);
+    hr = MFGetAttributeRatio(pType, MF_MT_FRAME_RATE, &fpsNumerator, &fpsDenominator);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    pDesc-&gt;InputSampleFreq.Numerator = fpsNumerator;
-    pDesc-&gt;InputSampleFreq.Denominator = fpsDenominator;
+    pDesc->InputSampleFreq.Numerator = fpsNumerator;
+    pDesc->InputSampleFreq.Denominator = fpsDenominator;
 
     // Extended format information.
-    GetDXVA2ExtendedFormatFromMFMediaType(pType, &amp;pDesc-&gt;SampleFormat);
+    GetDXVA2ExtendedFormatFromMFMediaType(pType, &pDesc->SampleFormat);
 
     // For progressive or single-field types, the output frequency is the same as
     // the input frequency. For interleaved-field types, the output frequency is
     // twice the input frequency.  
-    pDesc-&gt;OutputFrameFreq = pDesc-&gt;InputSampleFreq;
+    pDesc->OutputFrameFreq = pDesc->InputSampleFreq;
 
-    if ((pDesc-&gt;SampleFormat.SampleFormat == DXVA2_SampleFieldInterleavedEvenFirst) ||
-        (pDesc-&gt;SampleFormat.SampleFormat == DXVA2_SampleFieldInterleavedOddFirst))
+    if ((pDesc->SampleFormat.SampleFormat == DXVA2_SampleFieldInterleavedEvenFirst) ||
+        (pDesc->SampleFormat.SampleFormat == DXVA2_SampleFieldInterleavedOddFirst))
     {
-        pDesc-&gt;OutputFrameFreq.Numerator *= 2;
+        pDesc->OutputFrameFreq.Numerator *= 2;
     }
 
 done:
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

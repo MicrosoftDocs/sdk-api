@@ -50,7 +50,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::FromHDC</b> method creates a 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that is associated with a specified device context.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that is associated with a specified device context.
 
 
 ## -parameters
@@ -63,18 +63,18 @@ The <b>Graphics::FromHDC</b> method creates a
 Type: <b>HDC</b>
 
 Handle to the device context that will be associated with the new 
-					<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 
@@ -84,7 +84,7 @@ This method returns a pointer to the new
 
 
 When you use this method to create a 
-				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, make sure that the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, make sure that the 
 				<b>Graphics</b> object is deleted before the device context is released.
 
 
@@ -93,25 +93,21 @@ When you use this method to create a
 
 
 The following example calls <b>Graphics::FromHDC</b> to create a 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and then uses that 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and then uses that 
 						<b>Graphics</b> object to draw a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_FromHDC(HDC hdc)
+
+```cpp
+VOID Example_FromHDC(HDC hdc)
 {
    Graphics* pGraphics = Graphics::FromHDC(hdc);
    Pen pen(Color(255, 255, 0, 0));
-   pGraphics-&gt;DrawRectangle(&amp;pen, 10, 10, 200, 100);
+   pGraphics->DrawRectangle(&pen, 10, 10, 200, 100);
    delete pGraphics;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -120,31 +116,31 @@ The following example calls <b>Graphics::FromHDC</b> to create a
 
 
 
-<a href="https://msdn.microsoft.com/89a154c1-6a49-45d6-a73c-94b0b1567408">Changes in the Programming Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536339(v=VS.85).aspx">Changes in the Programming Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1d3fc6e-6b7d-4fcf-9bc4-a2bab36304ed">FromHDC Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535778(v=VS.85).aspx">FromHDC Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/76c4c444-cd6f-43ff-8ab7-96469d4505b9">Graphics Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535632(v=VS.85).aspx">Graphics Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/e7c9c984-01cd-45de-95da-378df13f570b">Graphics::FromHWND</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535694(v=VS.85).aspx">Graphics::FromHWND</a>
 
 
 
-<a href="https://msdn.microsoft.com/2611c07a-3c11-46cb-b32e-084979637ea9">Graphics::FromImage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535696(v=VS.85).aspx">Graphics::FromImage</a>
 
 
 
-<a href="https://msdn.microsoft.com/b1a81c8b-7968-4ad8-a7b6-ebe6c266fd0b">Graphics::GetHDC</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a>
  
 
  

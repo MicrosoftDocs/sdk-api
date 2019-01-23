@@ -4,7 +4,7 @@ title: TryAcquireSRWLockExclusive function
 author: windows-sdk-content
 description: Attempts to acquire a slim reader/writer (SRW) lock in exclusive mode. If the call is successful, the calling thread takes ownership of the lock.
 old-location: base\tryacquiresrwlockexclusive.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 0de41cb0-5b37-4ac7-9ba2-e9e3d69e34af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

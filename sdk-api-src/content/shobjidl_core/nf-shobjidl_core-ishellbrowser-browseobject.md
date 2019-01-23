@@ -309,23 +309,19 @@ Views can use this method to force Windows Explorer to browse to a specific plac
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellBrowser* psb;
-hr = IUnknown_QueryService(punkSite, SID_STopLevelBrowser, IID_PPV_ARGS(&amp;psb));
+
+```cpp
+IShellBrowser* psb;
+hr = IUnknown_QueryService(punkSite, SID_STopLevelBrowser, IID_PPV_ARGS(&psb));
 
 if (SUCCEEDED(hr))
 {
-    hr = psb-&gt;BrowseObject(pidlSearch, SBSP_DEFBROWSER | SBSP_ABSOLUTE);
-    psb-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    hr = psb->BrowseObject(pidlSearch, SBSP_DEFBROWSER | SBSP_ABSOLUTE);
+    psb->Release();
+}
+```
+
+
 
 
 

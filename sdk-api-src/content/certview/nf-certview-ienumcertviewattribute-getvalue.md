@@ -100,16 +100,12 @@ one of the following methods to navigate through the enumeration:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR    bstrAttribValue = NULL;
+
+```cpp
+BSTR    bstrAttribValue = NULL;
 
 // pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
-hr = pEnumAttr-&gt;GetValue(&amp;bstrAttribValue);
+hr = pEnumAttr->GetValue(&bstrAttribValue);
 if (S_OK != hr)
     printf("Failed call to GetValue - %x\n", hr);
 else
@@ -117,10 +113,10 @@ else
 
 // free memory when done
 if (NULL != bstrAttribValue)
-    SysFreeString(bstrAttribValue);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrAttribValue);
+```
+
+
 
 
 

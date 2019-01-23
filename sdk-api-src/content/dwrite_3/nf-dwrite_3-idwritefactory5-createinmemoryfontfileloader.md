@@ -59,7 +59,7 @@ Creates a loader object that can be used to create font file references to in-me
 
 ### -param newLoader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt807692(v=VS.85).aspx">IDWriteInMemoryFontFileLoader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/E4B2ADAD-E4B8-4655-BABD-F3FC6A3D4F58">IDWriteInMemoryFontFileLoader</a>**</b>
 
 Receives a pointer to the newly-created loader object.
 
@@ -84,7 +84,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a>
+<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
  
 
  

@@ -83,7 +83,7 @@ V color data.
 
 
 
-This structure is contained within the <a href="https://msdn.microsoft.com/ac368cbe-aaf6-42d5-a8bd-3652800af640">AM_PROPERTY_SPPAL</a> structure.
+This structure is contained within the <a href="https://msdn.microsoft.com/en-us/library/Dd373488(v=VS.85).aspx">AM_PROPERTY_SPPAL</a> structure.
 
 
 

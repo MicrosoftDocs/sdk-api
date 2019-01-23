@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>KSJACK_SINK_CONNECTIONTYPE</b> enumeration defines constants that specify the type of connection. These values are used in  the <a href="https://msdn.microsoft.com/ee7211d8-a34f-40c9-9925-7bb40792bae9">KSJACK_SINK_INFORMATION</a> structure that stores information about an audio jack sink.
+The <b>KSJACK_SINK_CONNECTIONTYPE</b> enumeration defines constants that specify the type of connection. These values are used in  the <a href="https://msdn.microsoft.com/en-us/library/Dd316549(v=VS.85).aspx">KSJACK_SINK_INFORMATION</a> structure that stores information about an audio jack sink.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Display port.
 
 
 
-<a href="https://msdn.microsoft.com/ee7211d8-a34f-40c9-9925-7bb40792bae9">KSJACK_SINK_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd316549(v=VS.85).aspx">KSJACK_SINK_INFORMATION</a>
  
 
  

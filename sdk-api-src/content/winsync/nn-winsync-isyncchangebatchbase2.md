@@ -117,7 +117,7 @@ An <b>ISyncChangeBatchBase2</b> object can be obtained by passing <b>IID_ISyncCh
 
 
 
-<a href="https://msdn.microsoft.com/840a1f5e-56f7-4774-a154-0dab66c3d407">SyncSerializationVersion Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd744813(v=VS.85).aspx">SyncSerializationVersion Enumeration</a>
 
 
 

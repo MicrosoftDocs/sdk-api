@@ -92,20 +92,16 @@ For a list of support metadata formats for fast metadata encoding, see <a href="
 
 The following code demonstrates how to use the <b>CreateFastMetadataEncoderFromFrameDecode</b> method for fast metadata encoding.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IWICFastMetadataEncoder *pFME = NULL;
+
+```
+IWICFastMetadataEncoder *pFME = NULL;
 IWICMetadataQueryWriter *pFMEQW = NULL;
 
-hr = pFactory-&gt;CreateFastMetadataEncoderFromFrameDecode(pFrameDecode, &amp;pFME);
+hr = pFactory->CreateFastMetadataEncoderFromFrameDecode(pFrameDecode, &pFME);
 
 if (SUCCEEDED(hr))
 {
-  hr = pFME-&gt;GetMetadataQueryWriter(&amp;pFMEQW);
+  hr = pFME->GetMetadataQueryWriter(&pFMEQW);
 }
 
 if (SUCCEEDED(hr))
@@ -113,22 +109,22 @@ if (SUCCEEDED(hr))
   // Add additional metadata
   PROPVARIANT value;
 
-  PropVariantInit(&amp;value);
+  PropVariantInit(&value);
 
   value.vt = VT_UI2;
   value.uiVal = 99;
-  hr = pFMEQW-&gt;SetMetadataByName(L"/app1/ifd/{ushort=18249}", &amp;value);
+  hr = pFMEQW->SetMetadataByName(L"/app1/ifd/{ushort=18249}", &value);
 
-  PropVariantClear(&amp;value);
+  PropVariantClear(&value);
 }
 
 if (SUCCEEDED(hr))
 {
-  hr = pFME-&gt;Commit();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+  hr = pFME->Commit();
+}
+```
+
+
 
 
 

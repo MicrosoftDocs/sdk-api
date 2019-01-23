@@ -78,20 +78,16 @@ Returns true if any of the compared components are true.
 
 The following code snippet highlights how this function might be used:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>uint32_t comparisonValue = XMVector4EqualR( V1, V2 );
+
+```
+uint32_t comparisonValue = XMVector4EqualR( V1, V2 );
 if( XMComparisonAnyTrue( comparisonValue ) )
 {
 	DoStuff();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The <code>DoStuff</code> function will be called only if any of the four components of <i>V1</i> and <i>V2</i> are
    equal (any compared components are true).
 

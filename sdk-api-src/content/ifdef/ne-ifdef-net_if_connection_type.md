@@ -49,7 +49,7 @@ req.redist:
 
 
 The NET_IF_CONNECTION_TYPE enumeration type specifies the 
-  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> connection
+  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> connection
   type.
 
 

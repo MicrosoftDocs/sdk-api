@@ -50,8 +50,8 @@ req.redist:
 
 
 Contains the version of the virtual disk 
-     <a href="https://msdn.microsoft.com/bcde890e-24d5-41ac-8e5a-ba0d99e395e1">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
-     used by the <a href="https://msdn.microsoft.com/eb72043a-7515-42c0-900d-feed4503ea7a">MirrorVirtualDisk</a> 
+     <a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a> structure 
+     used by the <a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a> 
      function.
 
 
@@ -75,11 +75,11 @@ Use the <b>Version1</b> member.
 
 
 
-<a href="https://msdn.microsoft.com/bcde890e-24d5-41ac-8e5a-ba0d99e395e1">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb72043a-7515-42c0-900d-feed4503ea7a">MirrorVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a>
 
 
 

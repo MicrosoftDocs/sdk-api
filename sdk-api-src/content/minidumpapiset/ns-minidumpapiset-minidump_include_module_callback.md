@@ -68,11 +68,11 @@ The base address of the executable image in memory.
 
 
 
-<a href="https://msdn.microsoft.com/0ce3083c-21c9-48a4-9099-1dab31afcafa">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/c970564d-e1f0-4317-bf66-752b98767451">MINIDUMP_CALLBACK_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680364(v=VS.85).aspx">MINIDUMP_CALLBACK_TYPE</a>
 
 
 

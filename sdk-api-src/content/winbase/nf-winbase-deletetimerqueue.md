@@ -4,7 +4,7 @@ title: DeleteTimerQueue function
 author: windows-sdk-content
 description: Deletes a timer queue. Any pending timers in the queue are canceled and deleted.
 old-location: base\deletetimerqueue.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 29dde4ec-1c95-4417-a8bf-ab9bd56e3f6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

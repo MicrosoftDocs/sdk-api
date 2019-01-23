@@ -4,7 +4,7 @@ title: IFunctionDiscovery::CreateInstanceQuery
 author: windows-sdk-content
 description: Creates a query for a specific function instance.
 old-location: ncd\ifunctiondiscovery_createinstancequery_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 80e70972-ced1-416e-aa4f-69c54b2cbf95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

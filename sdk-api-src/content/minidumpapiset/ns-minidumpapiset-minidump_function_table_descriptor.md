@@ -86,7 +86,7 @@ The size of alignment padding that follows the function entry data, in bytes. Th
 
 
 The first descriptor in the function table stream follows the header, 
-<a href="https://msdn.microsoft.com/b2845799-acc9-4410-9059-45f7a8313e9f">MINIDUMP_FUNCTION_TABLE_STREAM</a>. The generic descriptor is followed by a native system descriptor, then by <b>EntryCount</b> native system function entry structures.
+<a href="https://msdn.microsoft.com/en-us/library/ms680371(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_STREAM</a>. The generic descriptor is followed by a native system descriptor, then by <b>EntryCount</b> native system function entry structures.
 
 
 
@@ -96,7 +96,7 @@ The first descriptor in the function table stream follows the header,
 
 
 
-<a href="https://msdn.microsoft.com/b2845799-acc9-4410-9059-45f7a8313e9f">MINIDUMP_FUNCTION_TABLE_STREAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680371(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_STREAM</a>
  
 
  

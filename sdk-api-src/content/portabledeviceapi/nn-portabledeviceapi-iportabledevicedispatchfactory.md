@@ -85,18 +85,12 @@ Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/
 
 The <b>IPortableDeviceDispatchFactory</b> interface can be CoCreated directly using <b>CLSID_PortableDeviceDispatchFactory</b> as in the following code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IPortableDeviceDispatchFactgory* pDeviceDispatchFactory = NULL;
+
+```cpp
+IPortableDeviceDispatchFactgory* pDeviceDispatchFactory = NULL;
 HRESULT hr = CoCreateInstance(CLSID_PortableDeviceDispatchFactory, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pDeviceDispatchFactory));   
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

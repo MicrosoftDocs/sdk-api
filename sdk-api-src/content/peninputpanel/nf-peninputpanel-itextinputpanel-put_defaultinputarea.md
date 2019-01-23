@@ -57,7 +57,7 @@ req.redist:
 ]
 
 
-Gets or sets the default input area as specified by the <a href="https://msdn.microsoft.com/fc262f07-aa73-49c8-a26a-1f0a47f8269a">PanelInputArea Enumeration</a>.
+Gets or sets the default input area as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea Enumeration</a>.
 
 
 
@@ -71,7 +71,7 @@ This property is read/write.
 
 
 
-The system default is <a href="https://msdn.microsoft.com/fc262f07-aa73-49c8-a26a-1f0a47f8269a">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
+The system default is <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea_Auto</a>, except in password fields where the system default is <b>PanelInputArea_Keyboard</b>. Setting the default input area overrides the system default in all cases, except when an input area is unavailable because the current recognizer does not support that mode or because there is no recognizer for the current input language.
 
 
 #### Examples
@@ -82,41 +82,37 @@ This C++ example creates an <a href="https://msdn.microsoft.com/1e719900-db58-43
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(CoInitialize(NULL)))
+
+```cpp
+if (SUCCEEDED(CoInitialize(NULL)))
 {
-    if (SUCCEEDED(CoCreateInstance(CLSID_TextInputPanel, NULL, CLSCTX_INPROC, IID_ITextInputPanel, (VOID**)&amp;amp;g_pTip)))
+    if (SUCCEEDED(CoCreateInstance(CLSID_TextInputPanel, NULL, CLSCTX_INPROC, IID_ITextInputPanel, (VOID**)&g_pTip)))
     {
-        if (SUCCEEDED(g_pTip-&amp;gt;put_AttachedEditWindow(GetDlgItem(IDC_EDIT3)-&amp;gt;m_hWnd)))
+        if (SUCCEEDED(g_pTip->put_AttachedEditWindow(GetDlgItem(IDC_EDIT3)->m_hWnd)))
         {
-            g_pTip-&amp;gt;put_DefaultInPlaceState(InPlaceState_Expanded);
+            g_pTip->put_DefaultInPlaceState(InPlaceState_Expanded);
             InPlaceState ips;
-            g_pTip-&amp;gt;get_DefaultInPlaceState(&amp;amp;ips);
+            g_pTip->get_DefaultInPlaceState(&ips);
             TRACE("DefaultInplaceState: %d\n", ips);
             
-            g_pTip-&amp;gt;put_DefaultInputArea(PanelInputArea_CharacterPad);
+            g_pTip->put_DefaultInputArea(PanelInputArea_CharacterPad);
             PanelInputArea pia;
-            g_pTip-&amp;gt;get_DefaultInputArea(&amp;amp;pia);
+            g_pTip->get_DefaultInputArea(&pia);
             TRACE("DefaultInputArea: %d\n", pia);
 
-            g_pTip-&amp;gt;put_ExpandPostInsertionCorrection(FALSE);
+            g_pTip->put_ExpandPostInsertionCorrection(FALSE);
             BOOL epic;
-            g_pTip-&amp;gt;get_ExpandPostInsertionCorrection(&amp;amp;epic);
+            g_pTip->get_ExpandPostInsertionCorrection(&epic);
             TRACE("ExpandPostInsertionCorrection: %d\n", epic);
 
-            g_pTip-&amp;gt;put_InPlaceVisibleOnFocus(TRUE);
+            g_pTip->put_InPlaceVisibleOnFocus(TRUE);
             BOOL ipvof;
-            g_pTip-&amp;gt;get_InPlaceVisibleOnFocus(&amp;amp;ipvof);
+            g_pTip->get_InPlaceVisibleOnFocus(&ipvof);
             TRACE("InPlaceVisibleOnFocus: %d\n", ipvof);
 
-            g_pTip-&amp;gt;put_PreferredInPlaceDirection(InPlaceDirection_Top);
+            g_pTip->put_PreferredInPlaceDirection(InPlaceDirection_Top);
             InPlaceDirection direction;
-            g_pTip-&amp;gt;get_PreferredInPlaceDirection(&amp;amp;direction);
+            g_pTip->get_PreferredInPlaceDirection(&direction);
             TRACE("PreferredInPlaceDirection: %d\n", direction);
         }
     }
@@ -126,10 +122,10 @@ This C++ example creates an <a href="https://msdn.microsoft.com/1e719900-db58-43
     }
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -72,7 +72,7 @@ The handle to the TraceLogging provider associated with this activity.
 
 
 
-<a href="https://msdn.microsoft.com/7666A28B-42B2-473F-852F-BD3F6CAA6AC7">TraceLoggingThreadActivity</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn904612(v=VS.85).aspx">TraceLoggingThreadActivity</a>
  
 
  

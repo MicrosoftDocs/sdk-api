@@ -85,21 +85,17 @@ Value to be stored in the z-component (the <b>z</b> member) of the new instance 
 
 The following pseudocode demonstrates the operation of this constructor:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMINT3 instance;
 	instance.x =  _x;
 	instance.y =  _y;
 	instance.z =  _z;
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

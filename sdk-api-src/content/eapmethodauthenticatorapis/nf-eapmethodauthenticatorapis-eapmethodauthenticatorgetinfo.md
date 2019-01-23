@@ -65,7 +65,7 @@ A pointer to an <a href="https://msdn.microsoft.com/47702dd9-d9c2-4dd5-a12d-23a5
 
 ### -param pEapInfo [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/8ec96ee2-678a-45c0-bfeb-c460ee863620">EAP_AUTHENTICATOR_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to specific RPC calls that can be made by EAP peer method functions.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363640(v=VS.85).aspx">EAP_AUTHENTICATOR_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to specific RPC calls that can be made by EAP peer method functions.
 
 
 ### -param ppEapError [out]

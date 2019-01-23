@@ -71,7 +71,7 @@ An existing object votes to abort the current transaction.
 
 
 
-<a href="https://msdn.microsoft.com/cba54ad7-c670-4efb-ad3b-aca1daabc4a3">IContextState</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686473(v=VS.85).aspx">IContextState</a>
  
 
  

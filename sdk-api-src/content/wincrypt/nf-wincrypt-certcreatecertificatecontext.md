@@ -130,15 +130,11 @@ The
 
 The following example shows creating a certificate context from an encoded certificate. The created context is not put in a certificate store. For another example that uses this function, see <a href="https://msdn.microsoft.com/cf87791c-b98c-4dd7-b346-336c4b1a88ca">Example C Program: Certificate Store Operations</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
 
 #define MY_ENCODING_TYPE  (PKCS_7_ASN_ENCODING | X509_ASN_ENCODING)
 
@@ -152,9 +148,9 @@ void main()
 	//  assigned PCCERT_CONTEXT variable.
 	if(pCertContext = CertCreateCertificateContext(
 		MY_ENCODING_TYPE,              // The encoding type
-		pDesiredCert-&gt;pbCertEncoded,   // The encoded data from
+		pDesiredCert->pbCertEncoded,   // The encoded data from
 									   // the certificate retrieved
-		pDesiredCert-&gt;cbCertEncoded))  // The length of the encoded data
+		pDesiredCert->cbCertEncoded))  // The length of the encoded data
 	{
 		printf("A new certificate has been created.\n");
 	 
@@ -169,10 +165,10 @@ void main()
 		printf("A new certificate could not be created.\n");
 		exit(1);
 	}
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

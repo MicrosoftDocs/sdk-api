@@ -4,7 +4,7 @@ title: CreateEventExW function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed event object and returns a handle to the object.
 old-location: base\createeventex.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 402a721d-8338-4df1-ba0b-074f868a1731
 ms.author: windowssdkdev
 ms.date: 12/5/2018

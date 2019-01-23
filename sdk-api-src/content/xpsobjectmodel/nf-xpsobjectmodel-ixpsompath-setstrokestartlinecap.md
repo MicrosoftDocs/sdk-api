@@ -58,7 +58,7 @@ Sets the style of the stroke's line cap at the  start of the stroke line.
 
 ### -param strokeStartLineCap [in]
 
-The <a href="https://msdn.microsoft.com/63ee8c2d-e7c5-4453-9555-25896dc13870">XPS_LINE_CAP</a> value to be set.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372962(v=VS.85).aspx">XPS_LINE_CAP</a> value to be set.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-<i>strokeStartLineCap</i> is not a valid <a href="https://msdn.microsoft.com/63ee8c2d-e7c5-4453-9555-25896dc13870">XPS_LINE_CAP</a> value.
+<i>strokeStartLineCap</i> is not a valid <a href="https://msdn.microsoft.com/en-us/library/Dd372962(v=VS.85).aspx">XPS_LINE_CAP</a> value.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about the line join styles, see <a href="https://msdn.microsoft.com/63ee8c2d-e7c5-4453-9555-25896dc13870">XPS_LINE_CAP</a>.
+For more information about the line join styles, see <a href="https://msdn.microsoft.com/en-us/library/Dd372962(v=VS.85).aspx">XPS_LINE_CAP</a>.
 
 
 

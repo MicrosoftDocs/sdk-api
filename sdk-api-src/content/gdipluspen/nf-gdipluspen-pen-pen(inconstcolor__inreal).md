@@ -49,7 +49,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object that uses a specified color and width.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object that uses a specified color and width.
 
 
 ## -parameters
@@ -59,9 +59,9 @@ Creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b
 
 ### -param color [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object that specifies the color for this <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object. 
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object that specifies the color for this <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object. 
 
 
 ### -param width [in]
@@ -76,27 +76,23 @@ Optional. Real number that specifies the width of this pen's stroke. The default
 
 
 If you pass the address of a pen to one of the draw methods of a 
-				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, the width of the pen's stroke is dependent on the unit of measure specified in the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, the width of the pen's stroke is dependent on the unit of measure specified in the 
 				<b>Graphics</b> object. The default unit of measure is <b>UnitPixel</b>, which is an element of the 
-				<a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a> enumeration.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a> enumeration.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object with the color red and a width of 4.0.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object with the color red and a width of 4.0.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Pen pen(Color(255,255,0,0), 4.0f); </pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+Pen pen(Color(255,255,0,0), 4.0f); 
+```
+
+
 
 
 
@@ -105,23 +101,23 @@ The following example creates a <a href="https://msdn.microsoft.com/b48affa5-d95
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 
-<a href="https://msdn.microsoft.com/30b58e23-b79a-4746-8b2a-d19711ddcd69">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535014(v=VS.85).aspx">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/f86b8bdd-127c-4dc4-88c2-8a1b6fec19bf">Pen::SetWidth</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535057(v=VS.85).aspx">Pen::SetWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/b529ba0b-1786-4925-88bd-1a8369fc368c">Setting Pen Width and Alignment</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533854(v=VS.85).aspx">Setting Pen Width and Alignment</a>
  
 
  

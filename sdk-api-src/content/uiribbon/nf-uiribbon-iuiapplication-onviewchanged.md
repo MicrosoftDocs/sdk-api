@@ -126,13 +126,9 @@ This callback notification is sent by the framework to the host application on e
 
 The following example demonstrates a basic implementation of the <b>IUIApplication::OnViewChanged</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 //  FUNCTION: OnViewChanged(UINT, UI_VIEWTYPE, IUnknown*, UI_VIEWVERB, INT)
 //
 //  PURPOSE: Called when the state of a View (Ribbon is a view) changes - like created/destroyed/resized.
@@ -202,10 +198,8 @@ STDMETHODIMP CApplication::OnViewChanged(
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 <div class="code"></div>

@@ -173,13 +173,9 @@ The <b>SCardDisconnect</b> function is a <a href="https://msdn.microsoft.com/3e9
 
 The following example terminates the specified smart card connection. The example assumes that lReturn is a variable of type <b>LONG</b>, and that hCardHandle is a valid handle received from a previous call to <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 lReturn = SCardDisconnect(hCardHandle, 
                           SCARD_LEAVE_CARD);
 if ( SCARD_S_SUCCESS != lReturn )
@@ -187,10 +183,10 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardDisconnect\n");
     exit(1);  // Or other appropriate action.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -161,14 +161,10 @@ the view fails, the function then tries to obtain extended
 error information by using <b>MsiGetLastErrorRecord</b>.
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Msiquery.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Msiquery.h>
 #pragma comment(lib, "msi.lib")
 //-------------------------------------------------------------------
 // Function: OpenViewOnDatabase
@@ -186,7 +182,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
     PMSIHANDLE hView = 0;
     UINT uiReturn = MsiDatabaseOpenView(hDatabase, 
                                 TEXT("SELECT * FROM `UnknownTable`"),
-                           &amp;hView);
+                           &hView);
 
     if (ERROR_SUCCESS != uiReturn)
     {
@@ -211,7 +207,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
             UINT uiStatus = MsiFormatRecord(NULL,
                              hLastErrorRec,
                              TEXT(""),
-                             &amp;cchExtendedError);
+                             &cchExtendedError);
 
             if (ERROR_MORE_DATA == uiStatus)
             {
@@ -224,7 +220,7 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
                     uiStatus = MsiFormatRecord(NULL,
                                      hLastErrorRec,
                                      szExtendedError,
-                                     &amp;cchExtendedError);
+                                     &cchExtendedError);
                     if (ERROR_SUCCESS == uiStatus)
                     {
                         // We now have an extended error
@@ -244,10 +240,10 @@ UINT __stdcall OpenViewOnDatabase(MSIHANDLE hDatabase)
 
     return uiReturn;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

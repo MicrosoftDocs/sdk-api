@@ -91,18 +91,14 @@ This mapping occurs when the font is used for the first time.
 
 For the MM_TEXT mapping mode, you can use the following formula to specify a height for a font with a specified point size:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 ### -field lfWidth
 

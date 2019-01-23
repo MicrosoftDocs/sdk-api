@@ -74,7 +74,7 @@ The <b>WM_CLIENT_PROPERTIES </b>structure records information about the client.
 
 
 
-<a href="https://msdn.microsoft.com/a05d7d1e-21dc-4e2a-a17b-5f04e639b143">IWMClientConnections::GetClientProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743307(v=VS.85).aspx">IWMClientConnections::GetClientProperties</a>
 
 
 
@@ -82,7 +82,7 @@ The <b>WM_CLIENT_PROPERTIES </b>structure records information about the client.
 
 
 
-<a href="https://msdn.microsoft.com/dc8b67a9-33fe-408b-b0b5-62a2b219b6b5">WMT_NET_PROTOCOL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757847(v=VS.85).aspx">WMT_NET_PROTOCOL</a>
  
 
  

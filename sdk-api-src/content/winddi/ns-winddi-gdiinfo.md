@@ -743,18 +743,14 @@ The dots in the predefined line style PS_DOT are each one unit long. If the driv
 
 Each of these three numbers must be less than 65536, even though the caps members are LONG values. These style steps are defined by the driver to ensure that the dots and dashes in a line are a pleasing size on the output device. The horizontal and vertical steps can be different to correct for nontrivial aspect ratios. For example, on an EGA display, whose pixels are 33 percent higher than they are wide, you can set:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>pdevcaps-&gt;xStyleStep   =  3;    // For an EGA
-pdevcaps-&gt;yStyleStep   =  4;
-pdevcaps-&gt;denStyleStep = 12;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+pdevcaps->xStyleStep   =  3;    // For an EGA
+pdevcaps->yStyleStep   =  4;
+pdevcaps->denStyleStep = 12;
+```
+
+
 In this case, horizontal dotted lines are 4-pixels-on, 4-pixels-off, because the style advances by 3/12 or 1/4 for each pixel. Vertical dotted lines are 3-pixels-on/3-pixels-off.
 
 Styled lines look better if both the x and y style steps divide evenly into the style denominator, as they do in the preceding example. This gives dashes and dots that are always the same length.

@@ -87,7 +87,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 This method is called to identify which aspects of the custom interpolator are affected by certain inputs: value, velocity, and duration. For each of these inputs, the interpolator returns either of the following:
 
 <ul>
-<li>The bitwise-OR of any members of <a href="https://msdn.microsoft.com/3620723e-5c9b-4d6a-8576-9017fa449a5d">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
+<li>The bitwise-OR of any members of <a href="https://msdn.microsoft.com/en-us/library/Dd317034(v=VS.85).aspx">UI_ANIMATION_DEPENDENCIES</a> that apply.</li>
 <li><b>UI_ANIMATION_DEPENDENCY_NONE</b> if nothing depends on the input.</li>
 </ul>
 For example, consider an interpolator (1) that accepts a final value as a parameter, (2) that always comes to a gradual stop at that final value, and (3) whose duration is determined by the difference between the final and initial values.  The interpolator should return <b>UI_ANIMATION_DEPENDENCY_INTERMEDIATE_VALUES</b>|<b>UI_ANIMATION_DURATION</b> for <i>initialValueDependencies</i>.  It should not return <b>UI_ANIMATION_DEPENDENCY_FINAL_VALUE</b> because this is set when the interpolator is created and is not affected by the initial value. Likewise it should not return <b>UI_ANIMATION_DEPENDENCY_FINAL_VELOCITY</b> because the slope of the curve is defined to always be zero when it reaches the final value.
@@ -108,7 +108,7 @@ It is important that an interpolator return correct set of flags. If a flag is n
 
 
 
-<a href="https://msdn.microsoft.com/3620723e-5c9b-4d6a-8576-9017fa449a5d">UI_ANIMATION_DEPENDENCIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317034(v=VS.85).aspx">UI_ANIMATION_DEPENDENCIES</a>
  
 
  

@@ -95,13 +95,9 @@ This method ignores the translation portion of the <a href="https://msdn.microso
 The following example creates a scale matrix and a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, and then draws a rectangle. The code then scales the pen by the matrix and draws a second rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetTransform(HDC hdc)
+
+```cpp
+VOID Example_SetTransform(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -109,18 +105,18 @@ The following example creates a scale matrix and a
 
    // Create a pen, and use it to draw a rectangle.
    Pen pen(Color(255, 0, 0, 255), 2);
-   graphics.DrawRectangle(&amp;pen, 10, 50, 150, 100);
+   graphics.DrawRectangle(&pen, 10, 50, 150, 100);
 
    // Scale the pen width by a factor of 20 in the horizontal 
    // direction and a factor of 10 in the vertical direction.
-   pen.SetTransform(&amp;matrix);
+   pen.SetTransform(&matrix);
 
    // Draw a rectangle with the transformed pen.
-   graphics.DrawRectangle(&amp;pen, 200, 50, 150, 100);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&pen, 200, 50, 150, 100);
+}
+```
+
+
 
 
 

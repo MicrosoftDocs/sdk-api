@@ -134,7 +134,7 @@ An offload write action is performed. The output described by the
 </td>
 <td width="60%">
 An allocation bitmap is returned for the first data set range passed in. The output is in a 
-         <a href="https://msdn.microsoft.com/757ffd97-2a00-4508-817c-0bfb2f2e3a84">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
+         <a href="https://msdn.microsoft.com/en-us/library/Hh404245(v=VS.85).aspx">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a> 
          structure. The <b>DeviceDsmActionFlag_NonDestructive</b> (0x80000000) is a bit flag to 
          indicate to the driver stack that this operation is non-destructive.
 

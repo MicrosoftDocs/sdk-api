@@ -113,66 +113,50 @@ This method fails if the textures are of different types, if their bottom-level 
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 32x16, 16x8, 8x4, 4x2, 2x1, 1x1
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This six-level source texture could be the source for the following one-level destination.
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 1x1
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For the following two-level destination.
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 2x1, 1x1
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Or, for the following three-level destination.
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 4x2, 2x1, 1x1
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 In addition, this method will fail if the textures are of different formats. If the destination texture has fewer levels than the source, only the matching levels are copied. If the source texture has fewer levels than the destination, the method will fail. 
 
 If the source texture has dirty regions, the copy can be optimized by restricting the copy to only those regions. It is not guaranteed that only those bytes marked dirty will be copied.

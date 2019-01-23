@@ -87,7 +87,7 @@ The data for the status request. The meaning of the data depends on the request.
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/988e6d54-f241-4cfc-8793-fc42de92ac52">AMCOPPStatusInput</a> structure used in COPP.
+The layout of this structure is identical to the <a href="https://msdn.microsoft.com/en-us/library/Dd373427(v=VS.85).aspx">AMCOPPStatusInput</a> structure used in COPP.
 
 
 

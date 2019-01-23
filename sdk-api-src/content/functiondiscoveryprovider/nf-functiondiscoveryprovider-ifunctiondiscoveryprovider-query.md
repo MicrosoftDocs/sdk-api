@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProvider::Query
 author: windows-sdk-content
 description: Retrieves a collection of function instances that meet the specified constraints.
 old-location: ncd\ifunctiondiscoveryprovider_query_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 8c368ea7-c9db-4e80-a080-eef8068f7402
 ms.author: windowssdkdev
 ms.date: 12/5/2018

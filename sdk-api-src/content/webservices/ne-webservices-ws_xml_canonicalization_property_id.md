@@ -49,7 +49,7 @@ req.redist:
 
 
 Identifies each XML canonicalization property and its associated
-        value.  This enumeration is used within the <a href="https://msdn.microsoft.com/79f65ff2-4fa2-4808-b5cb-ad3aa6200260">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> and <a href="https://msdn.microsoft.com/e9ea26d6-a136-4103-ac67-42e943ea67b5">WsStartWriterCanonicalization</a>.
+        value.  This enumeration is used within the <a href="https://msdn.microsoft.com/en-us/library/Dd323523(v=VS.85).aspx">WS_XML_CANONICALIZATION_PROPERTY</a> structure, which is used as a parameter to <a href="https://msdn.microsoft.com/5dad9485-db3c-4ae0-b053-e1e4f32ad64d">WsStartReaderCanonicalization</a> and <a href="https://msdn.microsoft.com/e9ea26d6-a136-4103-ac67-42e943ea67b5">WsStartWriterCanonicalization</a>.
 
 
 ## -enum-fields
@@ -59,14 +59,14 @@ Identifies each XML canonicalization property and its associated
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_ALGORITHM
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd323521(v=VS.85).aspx">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
+A <a href="https://msdn.microsoft.com/230e4b9d-f6ce-45a8-9efd-2a6949d3e6f4">WS_XML_CANONICALIZATION_ALGORITHM</a> value that specifies the algorithm to be used for canonicalization.  If this is not specified,
           the <b>WS_EXCLUSIVE_XML_CANONICALIZATION_ALGORITHM</b> is used.
         
 
 
 ### -field WS_XML_CANONICALIZATION_PROPERTY_INCLUSIVE_PREFIXES
 
-A <a href="https://msdn.microsoft.com/792ab726-6309-4f77-b40c-95dad2d991d9">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323522(v=VS.85).aspx">WS_XML_CANONICALIZATION_INCLUSIVE_PREFIXES</a> structure that contains the set of prefixes to be treated as inclusive prefixes when using
           the exclusive canonicalization algorithm.  If this is not specified,
           no prefix is treated as an inclusive prefix.
         

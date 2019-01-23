@@ -76,38 +76,34 @@ To retrieve custom metadata from an image file, call <a href="https://msdn.micro
 
 The following example saves a piece of custom metadata in a JPEG file. The code relies on a helper function, GetEncoderClsid, to get the class identifier for the JPEG encoder. To see the source code for GetEncoderClsid, see <a href="https://msdn.microsoft.com/en-us/library/ms533843(v=VS.85).aspx">Retrieving the Class Identifier for an Encoder</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHAR myData[] = "Byte sequence of your choice";
+
+```cpp
+CHAR myData[] = "Byte sequence of your choice";
 BYTE description = 0xE4;
 
 ImageItemData itemData;
 itemData.Size = sizeof(itemData);
 itemData.DescSize = 1;
-itemData.Desc = &amp;description;
+itemData.Desc = &description;
 itemData.DataSize = 28;
 itemData.Data = (VOID*)myData;
 itemData.Position = ItemDataPositionAfterHeader;
 
 // Get the Clsid of the JPEG encoder.
 CLSID encoderClsid;
-GetEncoderClsid(L"image/jpeg", &amp;encoderClsid);
+GetEncoderClsid(L"image/jpeg", &encoderClsid);
 
 EncoderParameters encoderParameters;
 encoderParameters.Count = 1;
 encoderParameters.Parameter[0].Guid = EncoderImageItems;
 encoderParameters.Parameter[0].Type = EncoderParameterValueTypePointer;
 encoderParameters.Parameter[0].NumberOfValues = 1; 
-encoderParameters.Parameter[0].Value = &amp;itemData;
+encoderParameters.Parameter[0].Value = &itemData;
 
 Image image(L"River.jpg");
-image.Save(L"River2.jpg", &amp;encoderClsid, &amp;encoderParameters);</pre>
-</td>
-</tr>
-</table></span></div>
+image.Save(L"River2.jpg", &encoderClsid, &encoderParameters);
+```
+
+
 
 

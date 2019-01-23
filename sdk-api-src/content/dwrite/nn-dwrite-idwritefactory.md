@@ -275,13 +275,9 @@ Registers a custom font collection loader with the factory object.
 
 Create an <b>IDWriteFactory</b> object by using the <a href="https://msdn.microsoft.com/c74c0906-0a5c-4ab8-87cf-a195566e1d9e">DWriteCreateFactory</a> function.  
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 if (SUCCEEDED(hr))
 {
     hr = DWriteCreateFactory(
@@ -291,10 +287,8 @@ if (SUCCEEDED(hr))
         );
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 An <b>IDWriteFactory</b> object holds state information, such as font loader registration and cached font data.  This state can be shared or isolated.  Shared is recommended for most applications because it saves memory.  However, isolated can be useful in situations where you want to have a separate state for some objects.

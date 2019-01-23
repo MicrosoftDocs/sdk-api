@@ -95,7 +95,7 @@ A typical use is when Remote Storage moves data from external to local storage. 
          <b>USN_REASON_DATA_OVERWRITE</b> flag to a USN record. However, the data has not changed 
          from the user point of view. By noting <b>USN_SOURCE_DATA_MANAGEMENT</b> in the 
          <b>SourceInfo</b> member of the 
-         <a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD</a> structure that holds the record, you can 
+         <a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD</a> structure that holds the record, you can 
          determine that although a write operation is performed on the item, data has not changed.
 
 </td>
@@ -295,7 +295,7 @@ In the preceding string, <i>X</i> is the letter identifying the drive on which t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365722(v=VS.85).aspx">USN_RECORD</a>
+<a href="https://msdn.microsoft.com/1747453d-fd18-4853-a953-47131f3067ae">USN_RECORD</a>
  
 
  

@@ -51,42 +51,30 @@ req.redist:
 The <b>IADsWinNTSystemInfo</b> interface  retrieves the WinNT system information about a computer. Such system information includes user account name, user domain, host name, and the primary domain controller of the host computer.
 
 The <b>IADsWinNTSystemInfo</b> interface is implemented on the <b>WinNTSystemInfo</b> object residing in Activeds.dll, which is included in the standard installation of ADSI for domain-capable editions of Windows. You must explicitly create an instance of the <b>WinNTSystemInfo</b> object to call the methods on the <b>IADsWinNTSystemInfo</b> interface. This requirement means creating an <b>WinNTSystemInfo</b> instance with the  <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function in C/C++.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsWinNTSystemInfo *pNTsys;
+
+```cpp
+IADsWinNTSystemInfo *pNTsys;
 HRESULT hr = CoCreateInstance(CLSID_WinNTSystemInfo,
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IADsWinNTSystemInfo,
-                              (void**)&amp;pNTsys);</pre>
-</td>
-</tr>
-</table></span></div>You can also use the <b>New</b> operator in Visual Basic.
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim ntSys As New WinNTSystemInfo</pre>
-</td>
-</tr>
-</table></span></div>You can also call the <b>CreateObject</b> function in a scripting environment, supplying "WinNTSystemInfo" as the ProgID.
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim ntSys
-Set ntSys = CreateObject("WinNTSystemInfo")</pre>
-</td>
-</tr>
-</table></span></div>
+                              (void**)&pNTsys);
+```
+
+You can also use the <b>New</b> operator in Visual Basic.
+
+```vb
+Dim ntSys As New WinNTSystemInfo
+```
+
+You can also call the <b>CreateObject</b> function in a scripting environment, supplying "WinNTSystemInfo" as the ProgID.
+
+```vb
+Dim ntSys
+Set ntSys = CreateObject("WinNTSystemInfo")
+```
+
+
 
 ## -see-also
 

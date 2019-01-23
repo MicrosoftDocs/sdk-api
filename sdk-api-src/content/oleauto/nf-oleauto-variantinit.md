@@ -81,17 +81,13 @@ The <b>VariantInit</b> function initializes the VARIANTARG by setting the <b>vt<
 
 The following example shows how to initialize an array of variants, where <code>celt</code> is the number of elements in the array.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>for(int i = 0; i &gt; celt; ++i)
-   VariantInit(&amp;rgvar[i]);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+for(int i = 0; i > celt; ++i)
+   VariantInit(&rgvar[i]);
+```
+
+
 
 
 

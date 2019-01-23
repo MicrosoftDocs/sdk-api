@@ -177,11 +177,11 @@ Bitmask to isolate the MixerPref9_DynamicSwitchToBOB and MixerPref9_DynamicDecim
 
 
 
-<a href="https://msdn.microsoft.com/25df0310-124a-48a5-b0fc-bea1dfd35781">IVMRMixerControl9::GetMixingPrefs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390460(v=VS.85).aspx">IVMRMixerControl9::GetMixingPrefs</a>
 
 
 
-<a href="https://msdn.microsoft.com/db5bf775-685c-4137-846d-fe71cddce08d">IVMRMixerControl9::SetMixingPrefs</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390467(v=VS.85).aspx">IVMRMixerControl9::SetMixingPrefs</a>
  
 
  

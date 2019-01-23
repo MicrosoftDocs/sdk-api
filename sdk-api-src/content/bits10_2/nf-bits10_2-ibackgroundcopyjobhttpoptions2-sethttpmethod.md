@@ -96,7 +96,7 @@ BITS allows you, as the developer, to choose an HTTP method other than the defau
 
 
 
-<a href="bits.ibackgroundcopyjobhttpoptions2">IBackgroundCopyJobHttpOptions2</a>
+<a href="https://msdn.microsoft.com/library/Mt833248(v=VS.85).aspx">IBackgroundCopyJobHttpOptions2</a>
  
 
  

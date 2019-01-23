@@ -59,7 +59,7 @@ Retrieves the client certificate from the job.
 
 ### -param pStoreLocation [out]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/596b1ba1-6652-4c97-a44d-e8271471d864">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa362796(v=VS.85).aspx">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param pStoreName [out]
@@ -141,13 +141,9 @@ You use the <a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f
 
 The following example shows how to retrieve information about the client certificate. The example assumes pJob points to a valid job. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define THUMBPRINT_SIZE 20
+
+```cpp
+#define THUMBPRINT_SIZE 20
 
   HRESULT hr = S_OK;
   IBackgroundCopyJob* pJob = NULL;
@@ -160,24 +156,24 @@ The following example shows how to retrieve information about the client certifi
   LPWSTR pSubjectName = NULL;
 
   // Retrieve a pointer to the IBackgroundCopyJobHttpOptions interface.
-  hr = pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&amp;pHttpOptions);
-  pJob-&gt;Release();
+  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&pHttpOptions);
+  pJob->Release();
   if (FAILED(hr))
   {
-    wprintf(L"pJob-&gt;QueryInterface failed with 0x%x.\n", hr);
+    wprintf(L"pJob->QueryInterface failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
   // Retrieve information about the client certificate set on the job. 
-  hr = pHttpOptions-&gt;GetClientCertificate(&amp;StoreLocation, &amp;pStoreName, 
-         &amp;pThumbprint, &amp;pSubjectName);
+  hr = pHttpOptions->GetClientCertificate(&StoreLocation, &pStoreName, 
+         &pThumbprint, &pSubjectName);
   if (S_OK == hr)
   {
     wprintf(L"\nLocation: %d\nStore name: %s\nSubject: %s\n", 
         StoreLocation, pStoreName, pSubjectName);
 
     wprintf(L"Thumbprint: ");
-    for (DWORD i = 0; i &lt; THUMBPRINT_SIZE; i++)
+    for (DWORD i = 0; i < THUMBPRINT_SIZE; i++)
     {
       wprintf(L"%x ", pThumbprint[i]);
     }
@@ -194,7 +190,7 @@ The following example shows how to retrieve information about the client certifi
   }
   else
   {
-    wprintf(L"pHttpOptions-&gt;GetClientCertificate failed with 0x%x.\n", hr);
+    wprintf(L"pHttpOptions->GetClientCertificate failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -203,12 +199,12 @@ cleanup:
 
   if (pHttpOptions)
   {
-    hr = pHttpOptions-&gt;Release();
+    hr = pHttpOptions->Release();
   }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

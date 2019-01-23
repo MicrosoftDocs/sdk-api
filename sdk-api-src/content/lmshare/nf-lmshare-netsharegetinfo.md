@@ -272,18 +272,14 @@ The following code sample demonstrates how to retrieve information about a parti
 <a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a>). If the call succeeds, the code prints the retrieved data. The sample also calls the 
 <a href="https://msdn.microsoft.com/24a98229-11e4-45ef-988b-c2cf831275e7">IsValidSecurityDescriptor</a> function to validate the <b>shi502_security_descriptor</b> member. Finally, the sample frees the memory allocated for the information buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;lm.h&gt;
+#include <windows.h>
+#include <stdio.h>
+#include <lm.h>
 
 #pragma comment(lib, "Netapi32.lib")
 #pragma comment(lib, "Advapi32.lib")
@@ -304,23 +300,23 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
       lpszShare = lpszArgv[1];
       break;
    default:
-      printf("Usage: NetShareGetInfo sharename &lt;servername&gt;\n");
+      printf("Usage: NetShareGetInfo sharename <servername>\n");
       return;
    }
    //
    // Call the NetShareGetInfo function, specifying level 502.
    //
-   if((res = NetShareGetInfo (lpszServer,lpszShare,502,(LPBYTE *) &amp;BufPtr)) == ERROR_SUCCESS)
+   if((res = NetShareGetInfo (lpszServer,lpszShare,502,(LPBYTE *) &BufPtr)) == ERROR_SUCCESS)
    {
       //
       // Print the retrieved data.
       //
-      printf("%S\t%S\t%u\n",BufPtr-&gt;shi502_netname, BufPtr-&gt;shi502_path, BufPtr-&gt;shi502_current_uses);
+      printf("%S\t%S\t%u\n",BufPtr->shi502_netname, BufPtr->shi502_path, BufPtr->shi502_current_uses);
       //
       // Validate the value of the 
       //  shi502_security_descriptor member.
       //
-      if (IsValidSecurityDescriptor(BufPtr-&gt;shi502_security_descriptor))
+      if (IsValidSecurityDescriptor(BufPtr->shi502_security_descriptor))
          printf("It has a valid Security Descriptor.\n");
       else
          printf("It does not have a valid Security Descriptor.\n");
@@ -333,10 +329,10 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
       printf("Error: %ld\n",res);
    return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

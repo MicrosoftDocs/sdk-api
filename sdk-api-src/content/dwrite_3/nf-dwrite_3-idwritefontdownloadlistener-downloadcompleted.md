@@ -59,7 +59,7 @@ The DownloadCompleted method is called back on an arbitrary thread when a
 
 ### -param downloadQueue [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890778(v=VS.85).aspx">IDWriteFontDownloadQueue</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>*</b>
 
 Pointer to the download queue interface on which     
           the BeginDownload method was called.
@@ -95,7 +95,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890775(v=VS.85).aspx">IDWriteFontDownloadListener</a>
+<a href="https://msdn.microsoft.com/92678d34-9a14-8d58-129c-be31a0963942">IDWriteFontDownloadListener</a>
  
 
  

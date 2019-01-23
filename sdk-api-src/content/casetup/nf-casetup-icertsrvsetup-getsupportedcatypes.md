@@ -58,7 +58,7 @@ The <b>GetSupportedCATypes</b> method gets the types of <a href="https://msdn.mi
 
 ### -param pCATypes [out]
 
-A pointer to a <b>VARIANT</b> array of <b>VT_UI4</b> types that specify the supported CAs. The <a href="https://msdn.microsoft.com/en-us/library/Bb648652(v=VS.85).aspx">ENUM_CATYPES</a> enumeration specifies the possible values for the array.
+A pointer to a <b>VARIANT</b> array of <b>VT_UI4</b> types that specify the supported CAs. The <a href="https://msdn.microsoft.com/32b20317-c0ef-4896-a8c6-309e34f87c30">ENUM_CATYPES</a> enumeration specifies the possible values for the array.
 
 
 ## -see-also

@@ -70,19 +70,15 @@ Specifies the size, in bytes, of the buffer pointed to by <i>pul</i>. GDI will n
 
 Pointer to the buffer in which a structure of the following form is to be written. In this structure, <b>c</b> is a count of the rectangles returned, and <b>arcl</b> is an array of rectangles:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _ENUMRECTS{
+
+```
+typedef struct _ENUMRECTS{
     ULONG c;
     RECTL arcl[]
-} ENUMRECTS;</pre>
-</td>
-</tr>
-</table></span></div>
+} ENUMRECTS;
+```
+
+
 
 ## -returns
 
@@ -101,21 +97,17 @@ The order of enumeration is determined by the call to <a href="https://msdn.micr
 
 A possible loop structure for calling this function follows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>do {
-    bMore = WNDOBJ_bEnum(pwo, sizeof(buffer), &amp;buffer.c);
-    for (i = 0; i &lt; buffer.c; i++) { 
+
+```
+do {
+    bMore = WNDOBJ_bEnum(pwo, sizeof(buffer), &buffer.c);
+    for (i = 0; i < buffer.c; i++) { 
         //  Process the data
     }
-} while (bMore);</pre>
-</td>
-</tr>
-</table></span></div>
+} while (bMore);
+```
+
+
 <b>WNDOBJ_bEnum</b> should be called only by the callback function provided to GDI by the <a href="https://msdn.microsoft.com/14b1cced-32d0-4ba8-be7c-e626bef37e3f">EngCreateWnd</a> function, or by the graphics DDI functions that are given a WNDOBJ.
 
 

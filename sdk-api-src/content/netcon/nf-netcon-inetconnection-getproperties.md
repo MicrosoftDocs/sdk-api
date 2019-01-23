@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/4043a85f-ebdc-424c-acf5-9097d1472773">Windows Firewall API</a>.]
+<p class="CCE_Message">[Internet Connection Firewall may be altered or unavailable in subsequent versions. Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Aa366453(v=VS.85).aspx">Windows Firewall API</a>.]
 
 The 
 <b>GetProperties</b> method retrieves a structure that contains the properties for this network connection.
@@ -62,7 +62,7 @@ The
 ### -param ppProps [out]
 
 Pointer to a pointer that, on successful return, points to a 
-<a href="https://msdn.microsoft.com/5acda2b8-960f-41ef-9ff2-49787f4e1c0c">NETCON_PROPERTIES</a> structure that contains the properties for this network connection.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366207(v=VS.85).aspx">NETCON_PROPERTIES</a> structure that contains the properties for this network connection.
 
 
 ## -returns
@@ -177,7 +177,7 @@ The method failed for unknown reasons.
 
 
 The calling application should free the memory occupied by the 
-<a href="https://msdn.microsoft.com/5acda2b8-960f-41ef-9ff2-49787f4e1c0c">NETCON_PROPERTIES</a> structure returned by <b>GetProperties</b>. Free the memory by calling the <a href="https://msdn.microsoft.com/ac73b831-81da-48e7-858b-7ca1ee03768e">NcFreeNetconProperties</a> function. This function is defined in NetCon.h and is exported by NetShell.dll.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366207(v=VS.85).aspx">NETCON_PROPERTIES</a> structure returned by <b>GetProperties</b>. Free the memory by calling the <a href="https://msdn.microsoft.com/ac73b831-81da-48e7-858b-7ca1ee03768e">NcFreeNetconProperties</a> function. This function is defined in NetCon.h and is exported by NetShell.dll.
 
 
 
@@ -187,7 +187,7 @@ The calling application should free the memory occupied by the
 
 
 
-<a href="https://msdn.microsoft.com/7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f">INetConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365084(v=VS.85).aspx">INetConnection</a>
 
 
 
@@ -195,7 +195,7 @@ The calling application should free the memory occupied by the
 
 
 
-<a href="https://msdn.microsoft.com/7ab18626-adc9-450c-a2b8-723d2c839a7b">Internet Connection Sharing and Internet Connection Firewall Reference</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366131(v=VS.85).aspx">Internet Connection Sharing and Internet Connection Firewall Reference</a>
  
 
  

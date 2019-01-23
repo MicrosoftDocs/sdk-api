@@ -63,7 +63,7 @@ The name of the key.
 
 ### -param DataType [out]
 
-A <a href="https://msdn.microsoft.com/27cf5831-f515-4864-bd40-a9d64f30c92d">WcmDataType</a> value that indicates the data type of the item.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa378603(v=VS.85).aspx">WcmDataType</a> value that indicates the data type of the item.
 
 
 ## -returns

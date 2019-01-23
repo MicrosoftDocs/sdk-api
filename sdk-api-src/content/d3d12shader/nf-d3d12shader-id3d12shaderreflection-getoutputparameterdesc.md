@@ -67,9 +67,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/FDD227A5-FFB9-46E3-B7F7-BECE785ECD7C">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960205(v=VS.85).aspx">D3D12_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A shader-output-parameter description, as a pointer to a <a href="https://msdn.microsoft.com/FDD227A5-FFB9-46E3-B7F7-BECE785ECD7C">D3D12_SIGNATURE_PARAMETER_DESC</a> structure.
+A shader-output-parameter description, as a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960205(v=VS.85).aspx">D3D12_SIGNATURE_PARAMETER_DESC</a> structure.
           
 
 

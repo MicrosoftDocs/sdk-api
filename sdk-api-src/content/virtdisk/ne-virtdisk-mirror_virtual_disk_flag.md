@@ -77,11 +77,11 @@ Create the mirror using an existing file.
 
 
 
-<a href="https://msdn.microsoft.com/bcde890e-24d5-41ac-8e5a-ba0d99e395e1">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448680(v=VS.85).aspx">MIRROR_VIRTUAL_DISK_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb72043a-7515-42c0-900d-feed4503ea7a">MirrorVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a>
 
 
 

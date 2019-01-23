@@ -106,7 +106,7 @@ Used to turn the feature on or off.
 
 
 
-<a href="https://msdn.microsoft.com/0A5B6B4D-B2FF-4873-85E0-3CCB3EA3BF91">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt767998(v=VS.85).aspx">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
  
 
  

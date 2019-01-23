@@ -138,7 +138,7 @@ The number of objects in the <i>ObjectTypeNames</i> array.
 
 ### -field ObjectTypeNames
 
-An array of <a href="https://msdn.microsoft.com/2ec39edc-7819-41a5-8798-dc51c00ba85e">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Aa376324(v=VS.85).aspx">AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET</a> structures that represents the object types for the events.
 
 
 ## -see-also

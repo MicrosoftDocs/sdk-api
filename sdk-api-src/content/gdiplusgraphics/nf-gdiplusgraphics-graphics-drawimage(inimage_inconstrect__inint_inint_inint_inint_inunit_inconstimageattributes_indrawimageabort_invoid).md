@@ -59,14 +59,14 @@ The <b>Graphics::DrawImage</b> method draws an image.
 
 ### -param image [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that specifies the source image. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that specifies the source image. 
 
 
 ### -param destRect [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a></b>
 
 Reference to a rectangle that bounds the drawing area for the image. 
 
@@ -101,16 +101,16 @@ Integer that specifies the height of the portion of the source image to be drawn
 
 ### -param srcUnit [in]
 
-Type: <b><a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a> enumeration that specifies the unit of measure for the image. The default value is <b>UnitPixel</b>. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a> enumeration that specifies the unit of measure for the image. The default value is <b>UnitPixel</b>. 
 
 
 ### -param imageAttributes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object that specifies the color and size attributes of the image to be drawn. The default value is <b>NULL</b>. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object that specifies the color and size attributes of the image to be drawn. The default value is <b>NULL</b>. 
 
 
 ### -param callback [in]
@@ -132,14 +132,14 @@ Pointer to additional data used by the method specified by the
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -157,13 +157,9 @@ The portion of the source image to be drawn is scaled to fit the rectangle.
 
 The following example draws the original source image and then draws a portion of the image in a specified rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawImage5(HDC hdc)
+
+```cpp
+VOID Example_DrawImage5(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -172,7 +168,7 @@ The following example draws the original source image and then draws a portion o
    Image image(L"pattern.png");
 
    // Draw the original source image.
-   graphics.DrawImage(&amp;image, 10, 10);
+   graphics.DrawImage(&image, 10, 10);
 
    // Define the portion of the image to draw.
    int srcX = 70;
@@ -188,24 +184,24 @@ The following example draws the original source image and then draws a portion o
    ColorMap redToBlue;
    redToBlue.oldColor = Color(255, 255, 0, 0);
    redToBlue.newColor = Color(255, 0, 0, 255);
-   remapAttributes.SetRemapTable(1, &amp;redToBlue);
+   remapAttributes.SetRemapTable(1, &redToBlue);
 
    // Draw the resized image.
    graphics.DrawImage(
-   &amp;image,
+   &image,
    destRect,
    srcX,
    srcY,
    srcWidth,
    srcHeight,
    UnitPixel,
-   &amp;remapAttributes,
+   &remapAttributes,
    NULL,
    NULL);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing two graphics: a multicolored checkerboard pattern, then a two-toned enlargement from that pattern" src="images/drawimage3.png"/>
@@ -219,35 +215,35 @@ The following illustration shows the output of the preceding code.
 
 
 
-<a href="https://msdn.microsoft.com/0ad2a132-6db6-4099-81a2-10e1cd1b1f61">Drawing, Positioning, and Cloning Images</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536388(v=VS.85).aspx">Drawing, Positioning, and Cloning Images</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c1a26d9-b640-4f38-8276-10c4464525f2">Loading and Displaying Bitmaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533830(v=VS.85).aspx">Loading and Displaying Bitmaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/87b63b0d-9071-4c7f-9ff6-14083092246a">SetRemapTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535436(v=VS.85).aspx">SetRemapTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/33f0b0fd-7764-48bc-874e-26cc522d5362">Unit</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534405(v=VS.85).aspx">Unit</a>
  
 
  

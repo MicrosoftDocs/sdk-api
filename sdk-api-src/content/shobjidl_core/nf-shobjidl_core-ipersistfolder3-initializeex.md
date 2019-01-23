@@ -72,9 +72,9 @@ A pointer to a fully qualified PIDL that specifies the absolute location of a fo
 
 ### -param ppfti [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb773373(v=VS.85).aspx">PERSIST_FOLDER_TARGET_INFO</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb773373(v=VS.85).aspx">PERSIST_FOLDER_TARGET_INFO</a> structure that specifies the location of the target folder and its attributes. 
 
                     
 

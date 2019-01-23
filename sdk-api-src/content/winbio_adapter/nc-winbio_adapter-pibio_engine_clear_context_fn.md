@@ -131,13 +131,9 @@ Typical examples of the objects in the engine adapter context area that should b
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterClearContext
 //
@@ -164,7 +160,7 @@ EngineAdapterClearContext(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     if (context == NULL)
     {
@@ -177,45 +173,45 @@ EngineAdapterClearContext(
     // assumes that your engine adapter context contains a ULONG data member 
     // and pointers to a feature set and an enrollment object.
 
-    context-&gt;SomeField = 0L;
+    context->SomeField = 0L;
 
-    if (context-&gt;FeatureSet != NULL)
+    if (context->FeatureSet != NULL)
     {
         // Zero the feature set if it contains unencrypted biometric data.
         SecureZeroMemory(
-            context-&gt;FeatureSet,
-            context-&gt;FeatureSetSize);
+            context->FeatureSet,
+            context->FeatureSetSize);
 
         // Release the feature set.
-        _AdapterRelease(context-&gt;FeatureSet);
-        context-&gt;FeatureSet = NULL;
-        context-&gt;FeatureSetSize = 0;
+        _AdapterRelease(context->FeatureSet);
+        context->FeatureSet = NULL;
+        context->FeatureSetSize = 0;
     }
 
-    if (context-&gt;Enrollment.Template != NULL)
+    if (context->Enrollment.Template != NULL)
     {
         // Zero the template if it contains unencrypted biometric data.
         SecureZeroMemory(
-            context-&gt;Enrollment.Template,
-            context-&gt;Enrollment.TemplateSize);
+            context->Enrollment.Template,
+            context->Enrollment.TemplateSize);
 
         // Release the template.
-        _AdapterRelease(context-&gt;Enrollment.Template);
-        context-&gt;Enrollment.Template = NULL;
-        context-&gt;Enrollment.TemplateSize = 0;
+        _AdapterRelease(context->Enrollment.Template);
+        context->Enrollment.Template = NULL;
+        context->Enrollment.TemplateSize = 0;
 
         // Release other data members attached to the enrollment object.
-        context-&gt;Enrollment.SampleCount = 0;
-        context-&gt;Enrollment.InProgress = FALSE;
+        context->Enrollment.SampleCount = 0;
+        context->Enrollment.InProgress = FALSE;
     }
 
 cleanup:
 
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

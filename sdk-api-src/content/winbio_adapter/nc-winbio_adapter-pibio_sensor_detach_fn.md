@@ -110,7 +110,7 @@ If the <b>SensorContext</b> field in the pipeline object is <b>NULL</b> when thi
 
 Before returning S_OK, this function must set the <b>SensorContext</b> field of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure to <b>NULL</b>.
 
-Because this function is called after the storage and engine adapters have been removed from the pipeline, your implementation of this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/04429f64-ae41-4c26-a777-bdb7aa92b685">WINBIO_ENGINE_INTERFACE</a> or <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a> structures pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
+Because this function is called after the storage and engine adapters have been removed from the pipeline, your implementation of this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/en-us/library/Dd401655(v=VS.85).aspx">WINBIO_ENGINE_INTERFACE</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structures pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
 
 Because the <b>SensorHandle</b> member of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure will contain  a valid handle even after  <i>SensorAdapterDetach</i> is called, you can use the handle to access the sensor device if necessary. This function should not close the sensor handle. The Windows biometric Framework will do so after <i>SensorAdapterDetach</i> returns.
 
@@ -119,13 +119,9 @@ Because the <b>SensorHandle</b> member of the <a href="https://msdn.microsoft.co
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterDetach
 //
@@ -152,7 +148,7 @@ SensorAdapterDetach(
     }
  
     // Validate the current state of the sensor.
-    if (Pipeline-&gt;SensorContext == NULL)
+    if (Pipeline->SensorContext == NULL)
     {
         return WINBIO_E_INVALID_DEVICE_STATE;
     }
@@ -161,40 +157,40 @@ SensorAdapterDetach(
     SensorAdapterCancel(Pipeline);
 
     // Take ownership of the sensor context from the pipeline.
-    sensorContext = (PWINBIO_SENSOR_CONTEXT)Pipeline-&gt;SensorContext;
-    Pipeline-&gt;SensorContext = NULL;
+    sensorContext = (PWINBIO_SENSOR_CONTEXT)Pipeline->SensorContext;
+    Pipeline->SensorContext = NULL;
 
     // Release any structures that remain attached to the context block. 
     // The following example assumes that your sensor adapter context 
     // contains pointers to a capture buffer and an attributes buffer.
-    if (sensorContext-&gt;CaptureBuffer != NULL)
+    if (sensorContext->CaptureBuffer != NULL)
     {
         // Zero the capture buffer.
         SecureZeroMemory(
-            sensorContext-&gt;CaptureBuffer,
-            sensorContext-&gt;CaptureBufferSize);
+            sensorContext->CaptureBuffer,
+            sensorContext->CaptureBufferSize);
 
         // Release the capture buffer.
-        _AdapterRelease(sensorContext-&gt;CaptureBuffer);
-        sensorContext-&gt;CaptureBuffer = NULL;
-        sensorContext-&gt;CaptureBufferSize = 0;
+        _AdapterRelease(sensorContext->CaptureBuffer);
+        sensorContext->CaptureBuffer = NULL;
+        sensorContext->CaptureBufferSize = 0;
     }
 
-    if (sensorContext-&gt;AttributesBuffer != NULL)
+    if (sensorContext->AttributesBuffer != NULL)
     {
         // Zero the attributes buffer.
         SecureZeroMemory(
-            sensorContext-&gt;AttributesBuffer,
-            sensorContext-&gt;AttributesBufferSize);
+            sensorContext->AttributesBuffer,
+            sensorContext->AttributesBufferSize);
 
         // Release the attributes buffer.
-        _AdapterRelease(sensorContext-&gt;AttributesBuffer);
-        sensorContext-&gt;AttributesBuffer = NULL;
-        sensorContext-&gt;AttributesBufferSize = 0;
+        _AdapterRelease(sensorContext->AttributesBuffer);
+        sensorContext->AttributesBuffer = NULL;
+        sensorContext->AttributesBufferSize = 0;
     }
 
     // Close the overlapped I/O event handle.
-    CloseHandle(sensorContext-&gt;Overlapped.hEvent);
+    CloseHandle(sensorContext->Overlapped.hEvent);
 
     // Release the context structure.
     _AdapterRelease(sensorContext);
@@ -202,10 +198,10 @@ SensorAdapterDetach(
    
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

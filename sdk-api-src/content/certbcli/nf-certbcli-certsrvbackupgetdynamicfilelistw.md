@@ -94,13 +94,9 @@ This function's name in the Certadm.dll is <b>CertSrvBackupGetDynamicFileListW</
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPGETDYNAMICFILELISTW* pfnGetDynFiles;
+
+```cpp
+FNCERTSRVBACKUPGETDYNAMICFILELISTW* pfnGetDynFiles;
 char * szGetDynFilesFunc = "CertSrvBackupGetDynamicFileListW";
 WCHAR *    pwszzDynFiles;
 DWORD      nListBytes=0;
@@ -120,7 +116,7 @@ if ( NULL == pfnGetDynFiles )
 
 // Determine the names of the dynamic files.
 // hCSBC was set by an earlier call to CertSrvBackupPrepare.
-hr = pfnGetDynFiles(hCSBC, &amp;pwszzDynFiles, &amp;nListBytes);
+hr = pfnGetDynFiles(hCSBC, &pwszzDynFiles, &nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetDynFiles call [%x]\n", hr);
@@ -144,10 +140,10 @@ else
     // pfnBackupFree is the address of the 
     // CertSrvBackupFree function.
     pfnBackupFree(pwszzDynFiles);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

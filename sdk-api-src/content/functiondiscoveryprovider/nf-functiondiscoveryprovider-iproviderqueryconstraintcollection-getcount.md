@@ -4,7 +4,7 @@ title: IProviderQueryConstraintCollection::GetCount
 author: windows-sdk-content
 description: Gets the number of items in the collection.
 old-location: ncd\iproviderqueryconstraintcollection_getcount.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 401e1723-751a-490b-bcb6-d1e0f2f73dfb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

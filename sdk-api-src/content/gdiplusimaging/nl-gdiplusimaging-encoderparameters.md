@@ -61,17 +61,13 @@ An <b>EncoderParameters</b> object is an array of <a href="https://msdn.microsof
 
 When you create an <b>EncoderParameters</b> object, you must allocate enough memory to hold all of the <a href="https://msdn.microsoft.com/en-us/library/ms534434(v=VS.85).aspx">EncoderParameter</a> objects that will eventually be placed in the array. For example, if you want to create an <b>EncoderParameters</b> object that will hold an array of five <b>EncoderParameter</b> objects, you should use code similar to the following:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EncoderParameters* pEncoderParameters = (EncoderParameters*)
-   malloc(sizeof(EncoderParameters) + 4 * sizeof(EncoderParameter));</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+EncoderParameters* pEncoderParameters = (EncoderParameters*)
+   malloc(sizeof(EncoderParameters) + 4 * sizeof(EncoderParameter));
+```
+
+
 
 
 

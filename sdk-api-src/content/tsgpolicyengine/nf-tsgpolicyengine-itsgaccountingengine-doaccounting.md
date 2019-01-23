@@ -60,13 +60,13 @@ Remote Desktop Gateway (RD Gateway) calls this method to pass information to an
 
 ### -param accountingDataType [in]
 
-A value of the <a href="https://msdn.microsoft.com/2864d044-266c-44e4-90d3-ccd75bf08348">AAAccountingDataType</a> 
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Ff687128(v=VS.85).aspx">AAAccountingDataType</a> 
       enumeration type that specifies the type of event that occurred.
 
 
 ### -param accountingData [in]
 
-An <a href="https://msdn.microsoft.com/1c79f910-8dd9-47dc-80d1-f6252f0a43dd">AAAccountingData</a> structure that contains 
+An <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure that contains 
        information about the event that occurred.
 
 

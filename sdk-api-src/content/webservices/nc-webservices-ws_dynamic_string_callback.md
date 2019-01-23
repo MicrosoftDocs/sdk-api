@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Determines whether the specified string can be written in optimized form. This callback is used in <a href="https://msdn.microsoft.com/b4485490-b5e1-406c-883c-a30bfa334316">WS_XML_WRITER_BINARY_ENCODING</a>
+Determines whether the specified string can be written in optimized form. This callback is used in <a href="https://msdn.microsoft.com/en-us/library/Dd323574(v=VS.85).aspx">WS_XML_WRITER_BINARY_ENCODING</a>
 
 
 

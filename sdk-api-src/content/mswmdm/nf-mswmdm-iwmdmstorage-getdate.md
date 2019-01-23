@@ -92,21 +92,17 @@ The time is specified in coordinated universal time.
 
 The following C++ code gets the "last modified" value from a storage passed in.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Get the "Last Modified" date
 WMDMDATETIME lastModified;
-hr = pStorage-&gt;GetDate(&amp;lastModified);
+hr = pStorage->GetDate(&lastModified);
 // TODO: Display the last modified month, day, and year.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

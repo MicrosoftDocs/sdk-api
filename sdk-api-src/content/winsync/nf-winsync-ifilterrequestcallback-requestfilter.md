@@ -63,7 +63,7 @@ The filter that is specified by the destination provider. This filter is passed 
 
 ### -param filteringType [in]
 
-A <a href="https://msdn.microsoft.com/6bcbc011-9d47-4c88-a62e-0c9366abc7d3">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd744771(v=VS.85).aspx">FILTERING_TYPE</a> enumeration value that indicates the type of information that is included in a change batch during filtered synchronization.
 
 
 ## -returns
@@ -137,7 +137,7 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 
-<a href="https://msdn.microsoft.com/6bcbc011-9d47-4c88-a62e-0c9366abc7d3">FILTERING_TYPE Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd744771(v=VS.85).aspx">FILTERING_TYPE Enumeration</a>
 
 
 

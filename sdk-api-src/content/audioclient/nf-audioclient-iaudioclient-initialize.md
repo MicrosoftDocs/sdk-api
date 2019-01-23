@@ -61,7 +61,7 @@ The <b>Initialize</b> method initializes the audio stream.
 
 ### -param ShareMode [in]
 
-The sharing mode for the connection. Through this parameter, the client tells the audio engine whether it wants to share the audio endpoint device with other clients. The client should set this parameter to one of the following <a href="https://msdn.microsoft.com/f4870d0f-85d1-48ad-afe0-2f5a960c08fb">AUDCLNT_SHAREMODE</a> enumeration values:
+The sharing mode for the connection. Through this parameter, the client tells the audio engine whether it wants to share the audio endpoint device with other clients. The client should set this parameter to one of the following <a href="https://msdn.microsoft.com/en-us/library/Dd370790(v=VS.85).aspx">AUDCLNT_SHAREMODE</a> enumeration values:
 
 AUDCLNT_SHAREMODE_EXCLUSIVE
 
@@ -432,13 +432,9 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 The following example code shows how to respond to the<b> AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED</b> return code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define REFTIMES_PER_SEC  10000000
+
+```cpp
+#define REFTIMES_PER_SEC  10000000
 
 HRESULT CreateAudioClient(IMMDevice* pDevice, IAudioClient** ppAudioClient)
 {
@@ -463,17 +459,17 @@ HRESULT CreateAudioClient(IMMDevice* pDevice, IAudioClient** ppAudioClient)
     IAudioClient *pAudioClient = NULL;
 
     // Get the audio client.
-    CHECK_HR( hr = pDevice-&gt;Activate(
+    CHECK_HR( hr = pDevice->Activate(
         __uuidof(IAudioClient), 
         CLSCTX_ALL,
         NULL, 
-        (void**)&amp;pAudioClient));
+        (void**)&pAudioClient));
 
     // Get the device format.
-    CHECK_HR( hr = pAudioClient-&gt;GetMixFormat(&amp;pwfx));
+    CHECK_HR( hr = pAudioClient->GetMixFormat(&pwfx));
 
     // Open the stream and associate it with an audio session.
-    hr = pAudioClient-&gt;Initialize( 
+    hr = pAudioClient->Initialize( 
         AUDCLNT_SHAREMODE_EXCLUSIVE,
         AUDCLNT_STREAMFLAGS_EVENTCALLBACK, 
         hnsRequestedDuration, 
@@ -485,27 +481,27 @@ HRESULT CreateAudioClient(IMMDevice* pDevice, IAudioClient** ppAudioClient)
     if (hr == AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED)
     {	
         // Get the next aligned frame.
-        CHECK_HR( hr = pAudioClient-&gt;GetBufferSize(&amp;nFrames));
+        CHECK_HR( hr = pAudioClient->GetBufferSize(&nFrames));
         
         hnsRequestedDuration = (REFERENCE_TIME)
-        ((10000.0 * 1000 / pwfx-&gt;nSamplesPerSec * nFrames) + 0.5);
+        ((10000.0 * 1000 / pwfx->nSamplesPerSec * nFrames) + 0.5);
 
         // Release the previous allocations.
         SAFE_RELEASE(pAudioClient);
         CoTaskMemFree(pwfx);
         
         // Create a new audio client.
-        CHECK_HR( hr = pDevice-&gt;Activate(
+        CHECK_HR( hr = pDevice->Activate(
             __uuidof(IAudioClient), 
             CLSCTX_ALL,
             NULL, 
-            (void**)&amp;pAudioClient));
+            (void**)&pAudioClient));
     
         // Get the device format.
-        CHECK_HR( hr = pAudioClient-&gt;GetMixFormat(&amp;pwfx));
+        CHECK_HR( hr = pAudioClient->GetMixFormat(&pwfx));
         
         // Open the stream and associate it with an audio session.
-        CHECK_HR( hr = pAudioClient-&gt;Initialize( 
+        CHECK_HR( hr = pAudioClient->Initialize( 
             AUDCLNT_SHAREMODE_EXCLUSIVE,
             AUDCLNT_STREAMFLAGS_EVENTCALLBACK, 
             hnsRequestedDuration, 
@@ -520,7 +516,7 @@ HRESULT CreateAudioClient(IMMDevice* pDevice, IAudioClient** ppAudioClient)
     
     // Return to the caller.
     *(ppAudioClient) = pAudioClient;
-    (*ppAudioClient)-&gt;AddRef();
+    (*ppAudioClient)->AddRef();
 
 done:
 
@@ -529,10 +525,10 @@ done:
     SAFE_RELEASE(pAudioClient);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -58,10 +58,10 @@ Retrieves statistics for the RemoteFX media redirection bitmap renderer.
 
 ### -param pStatistics [out]
 
-Type: <b><a href="https://msdn.microsoft.com/111FA0B3-BFC1-4BD7-8BF0-C0C746A39C5D">BITMAP_RENDERER_STATISTICS</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh994460(v=VS.85).aspx">BITMAP_RENDERER_STATISTICS</a>*</b>
 
 The address of a 
-      <a href="https://msdn.microsoft.com/111FA0B3-BFC1-4BD7-8BF0-C0C746A39C5D">BITMAP_RENDERER_STATISTICS</a> structure 
+      <a href="https://msdn.microsoft.com/en-us/library/Hh994460(v=VS.85).aspx">BITMAP_RENDERER_STATISTICS</a> structure 
       that receives the bitmap rendering statistics.
 
 
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/111FA0B3-BFC1-4BD7-8BF0-C0C746A39C5D">BITMAP_RENDERER_STATISTICS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh994460(v=VS.85).aspx">BITMAP_RENDERER_STATISTICS</a>
 
 
 

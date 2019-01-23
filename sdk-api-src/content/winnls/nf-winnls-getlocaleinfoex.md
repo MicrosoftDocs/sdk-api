@@ -136,13 +136,9 @@ There are two exceptions to this rule. First, the application can retrieve numer
 <div> </div>
 The following examples deal correctly with the buffer size for non-text values:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>int   ret;
+
+```cpp
+int   ret;
 CALID calid;
 DWORD value;
 
@@ -158,10 +154,8 @@ ret = GetLocaleInfoEx(LOCALE_NAME_USER_DEFAULT,
                       LOCALE_FONTSIGNATURE,
                       (LPWSTR)&LocSig,
                       sizeof(LocSig) / sizeof(WCHAR) );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 This function can retrieve data from <a href="https://msdn.microsoft.com/110efeab-c02f-4244-8950-a975cfc91e8a">custom locales</a>. Data is not guaranteed to be the same from computer to computer or between runs of an application. If your application must persist or transmit data, see <a href="https://msdn.microsoft.com/f62402d6-31de-4ff7-9538-7925a007a089">Using Persistent Locale Data</a>.

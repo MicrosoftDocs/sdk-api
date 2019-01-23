@@ -59,7 +59,7 @@ Creates a font set from all the font face references added so
 
 ### -param fontSet [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933235(v=VS.85).aspx">IDWriteFontSet</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/0178f248-8dc0-c0ee-63c1-8db3f6ef94c3">IDWriteFontSet</a>**</b>
 
 Contains the newly created font set object, or nullptr in case of failure.
 
@@ -90,7 +90,7 @@ Creating a font set takes less time if the references were added with metadata r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn933236(v=VS.85).aspx">IDWriteFontSetBuilder</a>
+<a href="https://msdn.microsoft.com/CC6C95CA-BA8B-47C4-A241-650EC8477192">IDWriteFontSetBuilder</a>
  
 
  

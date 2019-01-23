@@ -104,11 +104,11 @@ The sample contains a single field, and each line in the sample corresponds to t
 
 
 
-<a href="https://msdn.microsoft.com/af4bf46a-fae7-4485-b5fb-3fd1857f383f">VMR9VideoDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407377(v=VS.85).aspx">VMR9VideoDesc</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2da0c1e-d592-49ce-937c-0d75ce270282">VMR9VideoStreamInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407378(v=VS.85).aspx">VMR9VideoStreamInfo</a>
  
 
  

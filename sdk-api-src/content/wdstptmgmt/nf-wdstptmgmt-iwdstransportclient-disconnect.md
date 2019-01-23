@@ -58,7 +58,7 @@ Disconnects the WDS client from the session and specifies what action the client
 
 ### -param DisconnectionType [in]
 
-A value of the <a href="https://msdn.microsoft.com/f25bdc9e-0014-4ff7-bc01-8a13b6e3ace1">WDSTRANSPORT_DISCONNECT_TYPE</a> enumeration that specifies what action the WDS client should take when disconnected.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736534(v=VS.85).aspx">WDSTRANSPORT_DISCONNECT_TYPE</a> enumeration that specifies what action the WDS client should take when disconnected.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 
 
 
-<a href="https://msdn.microsoft.com/f25bdc9e-0014-4ff7-bc01-8a13b6e3ace1">WDSTRANSPORT_DISCONNECT_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736534(v=VS.85).aspx">WDSTRANSPORT_DISCONNECT_TYPE</a>
  
 
  

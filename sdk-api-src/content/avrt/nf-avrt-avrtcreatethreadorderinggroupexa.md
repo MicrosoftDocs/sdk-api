@@ -128,15 +128,11 @@ The parent and client threads of a thread ordering group run at high priorities.
 
 The following snippet creates a thread ordering group.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;avrt.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <avrt.h>
+#include <stdio.h>
 
 #pragma comment(lib, "Avrt.lib")
 
@@ -153,10 +149,10 @@ int main( void )
     timeout.QuadPart = Int32x32To64(_100NS_IN_1MS, 10000); // 10 seconds
 
     bRes = AvRtCreateThreadOrderingGroupEx( 
-            &amp;hContext,
-            &amp;period,
-            &amp;guid,
-            &amp;timeout,
+            &hContext,
+            &period,
+            &guid,
+            &timeout,
             TEXT("Audio") );
 
     if( bRes != TRUE )
@@ -167,10 +163,10 @@ int main( void )
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

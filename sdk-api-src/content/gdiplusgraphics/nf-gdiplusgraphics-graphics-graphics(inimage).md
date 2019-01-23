@@ -49,7 +49,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <b>Graphics::Graphics</b> object that is associated with an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
+Creates a <b>Graphics::Graphics</b> object that is associated with an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Creates a <b>Graphics::Graphics</b> object that is associated with an <a href="h
 
 Type: <b>Image*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object that will be associated with the new <b>Graphics::Graphics</b> object. 
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object that will be associated with the new <b>Graphics::Graphics</b> object. 
 
 
 ## -remarks
 
 
 
-This constructor fails if the <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object is based on a metafile that was opened for reading. The 
+This constructor fails if the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object is based on a metafile that was opened for reading. The 
 				<b>Image::Image(file)</b> and 
 				<b>Metafile::Metafile(file)</b> constructors open a metafile for reading. To open a metafile for recording, use a 
 				<b>Metafile</b> constructor that receives a device context handle.
@@ -92,23 +92,23 @@ This constructor also fails if the image uses one of the following pixel formats
 
 
 
-<a href="https://msdn.microsoft.com/89a154c1-6a49-45d6-a73c-94b0b1567408">Changes in the Programming Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536339(v=VS.85).aspx">Changes in the Programming Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/c03c5ef1-13f6-4cf5-9395-be90b46aa6bb">Getting Started</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533807(v=VS.85).aspx">Getting Started</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/76c4c444-cd6f-43ff-8ab7-96469d4505b9">Graphics Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535632(v=VS.85).aspx">Graphics Constructors</a>
 
 
 
-<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
  
 
  

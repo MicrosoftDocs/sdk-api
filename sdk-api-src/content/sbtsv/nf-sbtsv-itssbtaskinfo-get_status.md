@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/69278A29-9100-4855-B5B3-C790563B8B72">RDV_TASK_STATUS</a> enumeration value that represents the state of the task.
+Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Hh972698(v=VS.85).aspx">RDV_TASK_STATUS</a> enumeration value that represents the state of the task.
 
 This property is read-only.
 

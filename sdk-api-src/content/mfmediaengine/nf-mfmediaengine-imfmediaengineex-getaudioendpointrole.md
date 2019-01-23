@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For information on audio endpoint roles, see <a href="https://msdn.microsoft.com/0d0d3174-8489-4951-858c-024d58477ae0">ERole  enumeration</a>.
+For information on audio endpoint roles, see <a href="https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx">ERole  enumeration</a>.
 
 
 

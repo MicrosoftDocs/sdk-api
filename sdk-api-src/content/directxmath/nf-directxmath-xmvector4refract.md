@@ -86,13 +86,9 @@ Returns the refracted incident vector. If the refraction index and the angle bet
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR Result;
+
+```
+XMVECTOR Result;
 
 float t = dot(Incident, Normal);
 float r = 1.0f - RefractionIndex * RefractionIndex * (1.0f - t * t);
@@ -113,10 +109,8 @@ else
 	Result.w = RefractionIndex * Incident.w - s * Normal.w;
 }
 
-return Result;</pre>
-</td>
-</tr>
-</table></span></div>
+return Result;
+```
 
 
 The index of refraction is the ratio of the index of refraction of the medium containing the incident vector to the index of refraction of the medium being entered (where the index of refraction of a medium is itself the ratio of the speed of light in a vacuum to the speed of light in the medium).

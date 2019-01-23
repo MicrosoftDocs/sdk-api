@@ -229,15 +229,11 @@ This function determines which installed CSP is currently set as the default for
 
 The following example retrieves the name of the default CSP for the PROV_RSA_FULL provider type. For another example that uses this function, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <stdio.h>
+#include <windows.h>
+#include <Wincrypt.h>
 #pragma comment(lib, "crypt32.lib")
 
 void main()
@@ -252,7 +248,7 @@ void main()
          NULL, 
          CRYPT_MACHINE_DEFAULT,
          NULL, 
-         &amp;cbProvName))) 
+         &cbProvName))) 
     { 
       printf("Error getting the length of the default "
           "provider name.\n");
@@ -274,7 +270,7 @@ void main()
         NULL, 
         CRYPT_MACHINE_DEFAULT,
         pbProvName,
-        &amp;cbProvName)) 
+        &cbProvName)) 
     {
         printf("The default provider name is %s\n",pbProvName);
     }
@@ -288,10 +284,10 @@ void main()
     LocalFree(pbProvName);
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

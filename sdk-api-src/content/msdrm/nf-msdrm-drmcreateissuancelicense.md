@@ -97,55 +97,47 @@ Do not confuse the owner of an issuance license with a user who has been granted
 
 If specified, the issuance license owner is added as metadata beneath the &lt;WORK&gt; node of the license.
 
-<div class="code"><span codelanguage="Text"><table>
-<tr>
-<th>Text</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;WORK&gt;
-  &lt;OBJECT type="contentType"&gt;
-    &lt;ID type="contentIdType"&gt;contentId&lt;/ID&gt;
-    &lt;NAME&gt;contentName&lt;/NAME&gt;
-  &lt;/OBJECT&gt;
-  &lt;METADATA&gt;
-    &lt;OWNER&gt;
-      &lt;OBJECT&gt;
-        &lt;ID type="Windows"/&gt;
-        &lt;NAME&gt;david@contoso.com&lt;/NAME&gt;
-      &lt;/OBJECT&gt;
-    &lt;/OWNER&gt;
-  &lt;/METADATA&gt;
+
+```
+<WORK>
+  <OBJECT type="contentType">
+    <ID type="contentIdType">contentId</ID>
+    <NAME>contentName</NAME>
+  </OBJECT>
+  <METADATA>
+    <OWNER>
+      <OBJECT>
+        <ID type="Windows"/>
+        <NAME>david@contoso.com</NAME>
+      </OBJECT>
+    </OWNER>
+  </METADATA>
   ...
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 If granted, the OWNER right is added as an attribute of the &lt;RIGHT&gt; element in the license XrML.
 
-<div class="code"><span codelanguage="Text"><table>
-<tr>
-<th>Text</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;WORK&gt;
+
+```
+<WORK>
   ...
-  &lt;RIGHTSGROUP name="MainRights"&gt;
-    &lt;RIGHTSLIST&gt;
-      &lt;VIEW&gt;
+  <RIGHTSGROUP name="MainRights">
+    <RIGHTSLIST>
+      <VIEW>
         ...
-      &lt;/VIEW&gt;
-      &lt;RIGHT name="OWNER"&gt;
-        &lt;CONDITIONLIST&gt;
+      </VIEW>
+      <RIGHT name="OWNER">
+        <CONDITIONLIST>
           ...
-        &lt;/CONDITIONLIST&gt;
-      &lt;/RIGHT&gt;
-    &lt;/RIGHTSLIST&gt;
-  &lt;/RIGHTSGROUP&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+        </CONDITIONLIST>
+      </RIGHT>
+    </RIGHTSLIST>
+  </RIGHTSGROUP>
+```
+
+
 <div class="alert"><b>Note</b>  In the case where you set <i>hOwner</i> to the license author and use a template where you check the <b>Grant Owner (author) full control right with no expiration</b> check box, the license author can subsequently get an end-user license with Owner rights. See <a href="https://msdn.microsoft.com/40e87b21-162c-408d-81ca-16443352ce16">Understanding XrML Rights</a> for more information.</div>
 <div> </div>
 

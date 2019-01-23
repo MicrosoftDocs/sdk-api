@@ -88,7 +88,7 @@ You can use this method when implementing <a href="https://msdn.microsoft.com/6b
 
 
 
-<a href="https://msdn.microsoft.com/5e630812-b2cf-4512-af67-6e919a02bf95">COM+ Object Constructor Strings</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681739(v=VS.85).aspx">COM+ Object Constructor Strings</a>
 
 
 

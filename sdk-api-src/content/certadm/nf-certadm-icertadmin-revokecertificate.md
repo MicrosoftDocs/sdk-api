@@ -139,20 +139,16 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    BSTR bstrCA = NULL;
+
+```cpp
+    BSTR bstrCA = NULL;
     BSTR bstrSerial = NULL;  // certificate serial number
     long nReason;
     DATE RevokeDate;         // revocation date
     SYSTEMTIME st;
 
-    bstrSerial = SysAllocString(L"&lt;SERIALNUMBERHERE&gt;");
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrSerial = SysAllocString(L"<SERIALNUMBERHERE>");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
     if (NULL == bstrCA || NULL == bstrSerial)
     {
         printf("Memory allocation failed\n");
@@ -167,14 +163,14 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     //  This example sets the revoke date to noon on 1/1/2001.
     //  Zero out values first (avoids setting minutes, seconds,
     //  and so on).
-    memset(&amp;st, 0, sizeof(SYSTEMTIME));
+    memset(&st, 0, sizeof(SYSTEMTIME));
     st.wYear = 2001;
     st.wMonth = 1;     // Jan
     st.wDay = 1;       // 1st day of month
     st.wHour = 12;     // Noon
 
     //  Place the date in the required format.
-    if (!SystemTimeToVariantTime(&amp;st, &amp;RevokeDate))
+    if (!SystemTimeToVariantTime(&st, &RevokeDate))
     {
         printf("Unable to convert time.\n");
         goto error;
@@ -182,7 +178,7 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
     //  Revoke the certificate.
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin-&gt;RevokeCertificate( bstrCA,
+    hr = pCertAdmin->RevokeCertificate( bstrCA,
                                         bstrSerial,
                                         nReason,
                                         RevokeDate );
@@ -202,10 +198,10 @@ error:
     if (bstrSerial)
         SysFreeString( bstrSerial );
     if (bstrCA)
-        SysFreeString( bstrCA );</pre>
-</td>
-</tr>
-</table></span></div>
+        SysFreeString( bstrCA );
+```
+
+
 
 
 

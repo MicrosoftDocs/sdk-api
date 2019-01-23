@@ -51,7 +51,7 @@ req.redist:
 
 The <b>WAVEFORMATEX</b> structure defines the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. For formats that require additional information, this structure is included as the first member in another structure, along with the additional information.
 
-Formats that support more than two channels or sample sizes of more than 16 bits can be described in a <a href="https://msdn.microsoft.com/179d6c0c-ea80-4e9f-9e1b-43785f20cbd3">WAVEFORMATEXTENSIBLE</a> structure, which includes the <a href="https://msdn.microsoft.com/48871868-792a-4479-9e92-95306c25673a">WAVEFORMAT</a> structure.
+Formats that support more than two channels or sample sizes of more than 16 bits can be described in a <a href="https://msdn.microsoft.com/en-us/library/Dd757714(v=VS.85).aspx">WAVEFORMATEXTENSIBLE</a> structure, which includes the <a href="https://msdn.microsoft.com/48871868-792a-4479-9e92-95306c25673a">WAVEFORMAT</a> structure.
 
 
 
@@ -63,7 +63,7 @@ Formats that support more than two channels or sample sizes of more than 16 bits
 
 ### -field wFormatTag
 
-Waveform-audio format type. Format tags are registered with Microsoft Corporation for many compression algorithms. A complete list of format tags can be found in the Mmreg.h header file. For one- or two-channel PCM data, this value should be WAVE_FORMAT_PCM. When this structure is included in a <a href="https://msdn.microsoft.com/179d6c0c-ea80-4e9f-9e1b-43785f20cbd3">WAVEFORMATEXTENSIBLE</a> structure, this value must be WAVE_FORMAT_EXTENSIBLE.
+Waveform-audio format type. Format tags are registered with Microsoft Corporation for many compression algorithms. A complete list of format tags can be found in the Mmreg.h header file. For one- or two-channel PCM data, this value should be WAVE_FORMAT_PCM. When this structure is included in a <a href="https://msdn.microsoft.com/en-us/library/Dd757714(v=VS.85).aspx">WAVEFORMATEXTENSIBLE</a> structure, this value must be WAVE_FORMAT_EXTENSIBLE.
 
 
 ### -field nChannels
@@ -95,7 +95,7 @@ Bits per sample for the <b>wFormatTag</b> format type. If <b>wFormatTag</b> is W
 
 ### -field cbSize
 
-Size, in bytes, of extra format information appended to the end of the <b>WAVEFORMATEX</b> structure. This information can be used by non-PCM formats to store extra attributes for the <b>wFormatTag</b>. If no extra information is required by the <b>wFormatTag</b>, this member must be set to 0. For WAVE_FORMAT_PCM formats (and only WAVE_FORMAT_PCM formats), this member is ignored. When this structure is included in a <a href="https://msdn.microsoft.com/179d6c0c-ea80-4e9f-9e1b-43785f20cbd3">WAVEFORMATEXTENSIBLE</a> structure, this value must be at least 22.
+Size, in bytes, of extra format information appended to the end of the <b>WAVEFORMATEX</b> structure. This information can be used by non-PCM formats to store extra attributes for the <b>wFormatTag</b>. If no extra information is required by the <b>wFormatTag</b>, this member must be set to 0. For WAVE_FORMAT_PCM formats (and only WAVE_FORMAT_PCM formats), this member is ignored. When this structure is included in a <a href="https://msdn.microsoft.com/en-us/library/Dd757714(v=VS.85).aspx">WAVEFORMATEXTENSIBLE</a> structure, this value must be at least 22.
 
 
 ## -remarks

@@ -119,19 +119,15 @@ As of Windows XP, <b>SHBrowseForFolder</b> supports custom filtering on the con
 <div> </div>
 If <b>SHBrowseForFolder</b> returns a PIDL to a shortcut, sending that PIDL to <a href="https://msdn.microsoft.com/f043ffa2-37c1-465d-aed6-0475e721fbde">SHGetPathFromIDList</a> returns the path of the shortcut itself rather than the path of its target. The path to the shortcut's target can be obtained by using the <a href="https://msdn.microsoft.com/67982d28-27ce-4482-b588-10fec8143750">IShellLink</a> interface as shown in this example.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#include 
+
+```
+#include 
 
 // Macros for interface casts
 #ifdef __cplusplus
 #define IID_PPV_ARG(IType, ppType) IID_##IType, reinterpret_cast(static_cast(ppType))
 #else
-#define IID_PPV_ARG(IType, ppType) &amp;IID_##IType, (void**)(ppType)
+#define IID_PPV_ARG(IType, ppType) &IID_##IType, (void**)(ppType)
 #endif
 
 // Retrieves the UIObject interface for the specified full PIDL
@@ -142,17 +138,17 @@ STDAPI SHGetUIObjectFromFullPIDL(LPCITEMIDLIST pidl, HWND hwnd, REFIID riid, voi
 
     *ppv = NULL;
 
-    HRESULT hr = SHBindToParent(pidl, IID_PPV_ARG(IShellFolder, &amp;psf), &amp;pidlChild);
+    HRESULT hr = SHBindToParent(pidl, IID_PPV_ARG(IShellFolder, &psf), &pidlChild);
     if (SUCCEEDED(hr))
     {
-        hr = psf-&gt;GetUIObjectOf(hwnd, 1, &amp;pidlChild, riid, NULL, ppv);
-        psf-&gt;Release();
+        hr = psf->GetUIObjectOf(hwnd, 1, &pidlChild, riid, NULL, ppv);
+        psf->Release();
     }
     return hr;
 }
  
 #define ILSkip(pidl, cb)       ((LPITEMIDLIST)(((BYTE*)(pidl))+cb))
-#define ILNext(pidl)           ILSkip(pidl, (pidl)-&gt;mkid.cb)
+#define ILNext(pidl)           ILSkip(pidl, (pidl)->mkid.cb)
  
 HRESULT SHILClone(LPCITEMIDLIST pidl, LPITEMIDLIST *ppidl)
 {
@@ -161,11 +157,11 @@ HRESULT SHILClone(LPCITEMIDLIST pidl, LPITEMIDLIST *ppidl)
     if (pidl)
     {
         LPCITEMIDLIST pidl_temp = pidl;
-        cbTotal += sizeof (pidl_temp-&gt;mkid.cb);
+        cbTotal += sizeof (pidl_temp->mkid.cb);
 
-        while (pidl_temp-&gt;mkid.cb) 
+        while (pidl_temp->mkid.cb) 
         {
-            cbTotal += pidl_temp-&gt;mkid.cb;
+            cbTotal += pidl_temp->mkid.cb;
             pidl_temp += ILNext (pidl_temp);
         }
     }
@@ -186,12 +182,12 @@ STDAPI SHGetTargetFolderIDList(LPCITEMIDLIST pidlFolder, LPITEMIDLIST *ppidl)
 	
     *ppidl = NULL;
     
-    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_PPV_ARG(IShellLink, &amp;psl));
+    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_PPV_ARG(IShellLink, &psl));
     
     if (SUCCEEDED(hr))
     {
-        hr = psl-&gt;GetIDList(ppidl);
-        psl-&gt;Release();
+        hr = psl->GetIDList(ppidl);
+        psl->Release();
     }
     
     // It's not a folder shortcut so get the PIDL normally.
@@ -210,7 +206,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 	
     *pszPath = 0;
 
-    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &amp;pidlTarget);
+    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &pidlTarget);
     
     if (SUCCEEDED(hr))
     {
@@ -219,17 +215,13 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
     }
     
     return *pszPath ? S_OK : E_FAIL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+}
+```
+
+
+
+```
+
 // Retrieves the UIObject interface for the specified full PIDLstatic 
 HRESULT SHGetUIObjectFromFullPIDL(LPCITEMIDLIST pidl, HWND hwnd, REFIID riid, void **ppv)
 {    
@@ -237,11 +229,11 @@ HRESULT SHGetUIObjectFromFullPIDL(LPCITEMIDLIST pidl, HWND hwnd, REFIID riid, vo
     IShellFolder* psf;    
     *ppv = NULL;    
     
-    HRESULT hr = SHBindToParent(pidl, IID_IShellFolder, (LPVOID*)&amp;psf, &amp;pidlChild);    
+    HRESULT hr = SHBindToParent(pidl, IID_IShellFolder, (LPVOID*)&psf, &pidlChild);    
     if (SUCCEEDED(hr))    
     {        
-        hr = psf-&gt;GetUIObjectOf(hwnd, 1, &amp;pidlChild, riid, NULL, ppv);        
-        psf-&gt;Release();    
+        hr = psf->GetUIObjectOf(hwnd, 1, &pidlChild, riid, NULL, ppv);        
+        psf->Release();    
     }    
     return hr;
 }
@@ -252,11 +244,11 @@ static HRESULT SHILClone(LPCITEMIDLIST pidl, LPITEMIDLIST *ppidl)
     if (pidl)
     {        
         LPCITEMIDLIST pidl_temp = pidl;        
-        cbTotal += pidl_temp-&gt;mkid.cb;        
+        cbTotal += pidl_temp->mkid.cb;        
         
-        while (pidl_temp-&gt;mkid.cb)         
+        while (pidl_temp->mkid.cb)         
         {            
-            cbTotal += pidl_temp-&gt;mkid.cb;            
+            cbTotal += pidl_temp->mkid.cb;            
             pidl_temp = ILNext(pidl_temp);        
         }    
     }    
@@ -275,11 +267,11 @@ static HRESULT SHGetTargetFolderIDList(LPCITEMIDLIST pidlFolder, LPITEMIDLIST *p
     IShellLink *psl;    
     *ppidl = NULL;    
     
-    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_IShellLink, (LPVOID*)&amp;psl);    
+    HRESULT hr = SHGetUIObjectFromFullPIDL(pidlFolder, NULL, IID_IShellLink, (LPVOID*)&psl);    
     if (SUCCEEDED(hr))    
     {        
-        hr = psl-&gt;GetIDList(ppidl);        
-        psl-&gt;Release();    
+        hr = psl->GetIDList(ppidl);        
+        psl->Release();    
     }    
     
     // It's not a folder shortcut so get the PIDL normally.    
@@ -296,7 +288,7 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
     LPITEMIDLIST pidlTarget;    
     *pszPath = 0;    
     
-    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &amp;pidlTarget);    
+    HRESULT hr = SHGetTargetFolderIDList(pidlFolder, &pidlTarget);    
     if (SUCCEEDED(hr))    
     {        
         SHGetPathFromIDListW(pidlTarget, pszPath);   
@@ -306,10 +298,10 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
     }    
     
     return *pszPath ? S_OK : E_FAIL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

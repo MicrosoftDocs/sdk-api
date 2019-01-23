@@ -108,17 +108,13 @@ Set a Boolean value to either enable or disable the operating system's stereosco
 Call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> from a factory object (<a href="https://msdn.microsoft.com/en-us/library/Bb174535(v=VS.85).aspx">IDXGIFactory</a>, <a href="https://msdn.microsoft.com/271f1877-25a7-4d32-9ffa-cb174b366b74">IDXGIFactory1</a> or <a href="https://msdn.microsoft.com/D4F210E1-E184-410A-947A-22ED47B3E9F3">IDXGIFactory2</a>) to retrieve the <b>IDXGIDisplayControl</b> interface. The following code shows how.
         
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IDXGIDisplayControl * pDXGIDisplayControl;
-hr = g_pDXGIFactory-&gt;QueryInterface(__uuidof(IDXGIDisplayControl), (void **)&amp;pDXGIDisplayControl);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+IDXGIDisplayControl * pDXGIDisplayControl;
+hr = g_pDXGIFactory->QueryInterface(__uuidof(IDXGIDisplayControl), (void **)&pDXGIDisplayControl);
+```
+
+
 The operating system processes changes to stereo-enabled configuration asynchronously. Therefore, these changes might not be immediately visible in every process that calls <a href="https://msdn.microsoft.com/AE6AA254-3534-4E0F-A206-BAC4536B8B80">IDXGIDisplayControl::IsStereoEnabled</a> to query for stereo configuration.  Control applets can use the <a href="https://msdn.microsoft.com/912FC8B0-8B66-4203-BF27-8D7186F7CAC0">IDXGIFactory2::RegisterStereoStatusEvent</a> or <a href="https://msdn.microsoft.com/42DA05B8-1490-45B6-B22D-95176EBE7150">IDXGIFactory2::RegisterStereoStatusWindow</a> method to register for notifications of all stereo configuration changes.
         
 

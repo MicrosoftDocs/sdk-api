@@ -98,13 +98,9 @@ In Active Directory, the caller must have the <a href="https://msdn.microsoft.co
 
 The following code example shows how to set the user password, if you have the permission to do so.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim usr As IADsUser
+
+```vb
+Dim usr As IADsUser
 Dim szPassword As String
 On Error GoTo Cleanup
 
@@ -114,34 +110,30 @@ Set usr = GetObject("LDAP://MyLdapSvr/CN=JeffSmith,DC=Fabrikam")
 usr.SetPassword szPassword
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
-    Set usr = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set usr = Nothing
+```
+
+
 The following code example shows how to set the user password, if you have the permission to do so.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT SetPassword(IADsUser *pUser, BSTR password)
+
+```cpp
+HRESULT SetPassword(IADsUser *pUser, BSTR password)
 {
     HRESULT hr=S_OK;
     if(!pUser) { return E_FAIL;}
-    hr = pUser-&gt;SetPassword(password);
+    hr = pUser->SetPassword(password);
     if (hr == S_OK) printf("User password has been set");
-    pUser-&gt;Release();
+    pUser->Release();
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

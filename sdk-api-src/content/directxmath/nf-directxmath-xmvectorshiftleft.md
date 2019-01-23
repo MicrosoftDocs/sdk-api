@@ -99,21 +99,15 @@ The shifted vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 50.0f&gt;.
 
 In the case of a constant shift value, it is more efficent to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855947(v=VS.85).aspx">XMVectorShiftLeft</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 template<uint32_t Elements>
     XMVECTOR XMVectorShiftLeft(FXMVECTOR V1, FXMVECTOR V2)
 
 Example: XMVectorShiftLeft<1>( v1, v2 );
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

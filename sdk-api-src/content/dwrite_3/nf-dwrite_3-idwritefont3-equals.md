@@ -81,7 +81,7 @@ Returns whether the two instances of font references are equal. Returns <b>TRUE<
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890766(v=VS.85).aspx">IDWriteFont3</a>
+<a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>
  
 
  

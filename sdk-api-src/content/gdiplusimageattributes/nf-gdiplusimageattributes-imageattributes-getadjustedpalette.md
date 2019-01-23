@@ -100,13 +100,9 @@ When you call <b>ImageAttributes::GetAdjustedPalette</b>, you can specify the ad
 
 The following example initializes a <a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a> structure with four colors: aqua, black, red, and green. The code also creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap remap table so that green will be converted to blue. Then the code adjusts the palette colors by passing the address of the palette to the <b>ImageAttributes::GetAdjustedPalette</b> method of the <b>ImageAttributes</b> object. The code displays the four palette colors twice: once before the adjustment and once after the adjustment.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_GetAdjustedPalette(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -150,10 +146,8 @@ VOID Example_GetAdjustedPalette(HDC hdc)
       graphics.FillRectangle(&brush, 30*j, 30, 20, 20);
    }
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
 
 
 The following illustration shows the output of the preceding code. Note that the green in the original palette was changed to blue.

@@ -121,24 +121,15 @@ To create a path geometry, use the <a href="https://msdn.microsoft.com/35c46055-
 
 The following example creates an <b>ID2D1PathGeometry</b>, retrieves a sink, and uses it to define an hourglass shape. For the complete example, see <a href="https://msdn.microsoft.com/d7aad487-04e0-448d-bedf-b8dfadc7bbe9">How to Draw and Fill a Complex Shape</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ID2D1GeometrySink *pSink = NULL;
 
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create a path geometry.
+```cpp
+ID2D1GeometrySink *pSink = NULL;
+
+
+```
+
+```cpp
+// Create a path geometry.
 if (SUCCEEDED(hr))
 {
     hr = m_pD2DFactory->CreatePathGeometry(&m_pPathGeometry);
@@ -180,10 +171,8 @@ if (SUCCEEDED(hr))
         SafeRelease(&pSink);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 <div class="code"></div>

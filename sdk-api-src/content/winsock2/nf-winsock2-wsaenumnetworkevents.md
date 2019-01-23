@@ -292,23 +292,19 @@ The following error codes can be returned along with the corresponding network e
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the WSAEnumNetworkEvents function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include &lt;windows.h&gt;
+#include <windows.h>
 
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -331,7 +327,7 @@ int main()
     HANDLE NewEvent = NULL; 
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed with error: %d\n", iResult);
         return 1;
@@ -351,7 +347,7 @@ int main()
 
 //-------------------------
 // Bind the listening socket
-    iResult = bind(ListenSocket, (SOCKADDR *) &amp; InetAddr, sizeof (InetAddr));
+    iResult = bind(ListenSocket, (SOCKADDR *) & InetAddr, sizeof (InetAddr));
     if (iResult != 0) {
         wprintf(L"bind failed with error: %d\n", WSAGetLastError() );
         return 1;
@@ -396,20 +392,20 @@ int main()
 //-------------------------
 // Iterate through all events and enumerate
 // if the wait does not fail.
-    for (i = Index; i &lt; EventTotal; i++) {
-        Index = WSAWaitForMultipleEvents(1, &amp;EventArray[i], TRUE, 1000, FALSE);
-        if ((Index != WSA_WAIT_FAILED) &amp;&amp; (Index != WSA_WAIT_TIMEOUT)) {
-            WSAEnumNetworkEvents(SocketArray[i], EventArray[i], &amp;NetworkEvents);
+    for (i = Index; i < EventTotal; i++) {
+        Index = WSAWaitForMultipleEvents(1, &EventArray[i], TRUE, 1000, FALSE);
+        if ((Index != WSA_WAIT_FAILED) && (Index != WSA_WAIT_TIMEOUT)) {
+            WSAEnumNetworkEvents(SocketArray[i], EventArray[i], &NetworkEvents);
         }
     }
 
 //...
     return 0;
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

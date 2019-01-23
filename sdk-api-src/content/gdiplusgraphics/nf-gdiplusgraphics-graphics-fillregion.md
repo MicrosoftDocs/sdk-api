@@ -100,13 +100,9 @@ Because a region describes a set of pixels, a pixel is considered either fully i
 
 The following example creates a region from a rectangle and then fills the region.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_FillRegion(HDC hdc)
+
+```cpp
+VOID Example_FillRegion(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -117,11 +113,11 @@ The following example creates a region from a rectangle and then fills the regio
    Region ellipseRegion(Rect(0, 0, 200, 100));
 
    // Fill the region.
-   graphics.FillRegion(&amp;blackBrush, &amp;ellipseRegion);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRegion(&blackBrush, &ellipseRegion);
+}
+```
+
+
 
 
 

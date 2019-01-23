@@ -4,7 +4,7 @@ title: EnterSynchronizationBarrier function
 author: windows-sdk-content
 description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.
 old-location: base\entersynchronizationbarrier.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: cd938370-b046-4369-931d-5c7c8db7303a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

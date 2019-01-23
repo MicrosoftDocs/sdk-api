@@ -87,13 +87,9 @@ The handler itself, not the UI, is expected to use the <a href="https://msdn.mic
 
 The following example shows the outline of an implementation of this method. In this case, the implementation is that which would be returned when <a href="https://msdn.microsoft.com/54336c43-348b-4767-94e4-fe7dc47c0876">GetObject</a> is called with the SYNCMGR_OBJECTID_QueryBeforeDelete object ID.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CQueryBeforeDelete::Run(__in HWND hwndOwner)
+
+```cpp
+STDMETHODIMP CQueryBeforeDelete::Run(__in HWND hwndOwner)
 {
     HRESULT hr = S_OK;
 
@@ -101,9 +97,9 @@ The following example shows the outline of an implementation of this method. In 
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

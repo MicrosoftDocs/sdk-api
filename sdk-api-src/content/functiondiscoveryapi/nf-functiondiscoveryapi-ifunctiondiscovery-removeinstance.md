@@ -4,7 +4,7 @@ title: IFunctionDiscovery::RemoveInstance
 author: windows-sdk-content
 description: Removes the specified function instance, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_removeinstance_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 743ec310-ea35-4c4b-92f0-bbfe0a2f6f30
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -60,7 +60,7 @@ Removes the specified function instance, based on category and subcategory.
 
 ### -param enumSystemVisibility [in]
 
-A <a href="https://msdn.microsoft.com/a3388293-150c-417a-a4a6-0d5020e0ae82">SystemVisibilityFlags</a> value that specifies whether the function instance is removed system-wide or only for the current user. 
+A <a href="https://msdn.microsoft.com/en-us/library/Aa364818(v=VS.85).aspx">SystemVisibilityFlags</a> value that specifies whether the function instance is removed system-wide or only for the current user. 
 
 
 ### -param pszCategory [in]

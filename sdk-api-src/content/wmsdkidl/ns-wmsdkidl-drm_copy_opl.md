@@ -67,13 +67,13 @@ Minimum output protection level for copy actions.
 ### -field oplIdIncludes
 
 
-<a href="https://msdn.microsoft.com/a1f0e1ad-0ba4-4c42-aff5-c5fb4133e0fa">DRM_OPL_OUTPUT_IDS</a> structure containing the identifiers of technologies to allow. This member is used for output technologies that are assigned OPLs lower than the minimum copy level, but to which the content may be copied.
+<a href="https://msdn.microsoft.com/en-us/library/Dd798028(v=VS.85).aspx">DRM_OPL_OUTPUT_IDS</a> structure containing the identifiers of technologies to allow. This member is used for output technologies that are assigned OPLs lower than the minimum copy level, but to which the content may be copied.
 
 
 ### -field oplIdExcludes
 
 
-<a href="https://msdn.microsoft.com/a1f0e1ad-0ba4-4c42-aff5-c5fb4133e0fa">DRM_OPL_OUTPUT_IDS</a> structure containing the output identifiers of technologies to restrict. This member is used for output technologies that are assigned OPLs that exceed the minimum copy level, but that the license issuer does not grant rights for copying to.
+<a href="https://msdn.microsoft.com/en-us/library/Dd798028(v=VS.85).aspx">DRM_OPL_OUTPUT_IDS</a> structure containing the output identifiers of technologies to restrict. This member is used for output technologies that are assigned OPLs that exceed the minimum copy level, but that the license issuer does not grant rights for copying to.
 
 
 ## -see-also
@@ -81,7 +81,7 @@ Minimum output protection level for copy actions.
 
 
 
-<a href="https://msdn.microsoft.com/5d14bd02-0fb5-4982-b3dc-7f8277cb852f">DRM_PLAY_OPL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798032(v=VS.85).aspx">DRM_PLAY_OPL</a>
 
 
 

@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Contains information about the high and low limits of a progress bar control. This structure is used with the <a href="https://msdn.microsoft.com/676b7a37-bdde-4307-9888-9a0cf40db2db">PBM_GETRANGE</a> message. 
+Contains information about the high and low limits of a progress bar control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760832(v=VS.85).aspx">PBM_GETRANGE</a> message. 
 
 
 ## -struct-fields

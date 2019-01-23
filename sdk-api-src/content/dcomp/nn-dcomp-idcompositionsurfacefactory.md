@@ -68,7 +68,7 @@ The <b>IDCompositionSurfaceFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280424(v=VS.85).aspx">CreateSurface</a>
+<a href="https://msdn.microsoft.com/C65CD072-C00E-409B-B508-C12CE4ACE73F">CreateSurface</a>
 </td>
 <td align="left" width="63%">
 Creates a surface object that can be associated with one or more visuals for composition.
@@ -77,7 +77,7 @@ Creates a surface object that can be associated with one or more visuals for com
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280425(v=VS.85).aspx">CreateVirtualSurface</a>
+<a href="https://msdn.microsoft.com/0C74CDA5-4491-4D16-B972-C9C54007A2FB">CreateVirtualSurface</a>
 </td>
 <td align="left" width="63%">
 Creates a sparsely populated surface that can be associated with one or more visuals for composition.
@@ -92,15 +92,15 @@ Creates a sparsely populated surface that can be associated with one or more vis
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449083(v=VS.85).aspx">IDCompositionSurface</a>
+<a href="https://msdn.microsoft.com/E271B4DC-5F09-426A-A5D3-43A48F30CB24">IDCompositionSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449133(v=VS.85).aspx">IDCompositionVirtualSurface</a>
+<a href="https://msdn.microsoft.com/51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC">IDCompositionVirtualSurface</a>
  
 
  

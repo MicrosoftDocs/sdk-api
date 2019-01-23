@@ -120,14 +120,10 @@ The following image shows the Math Input Control with a custom preview height.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-    CComPtr&lt;IMathInputControl&gt; g_spMIC; // Math Input Control
+
+```cpp
+
+    CComPtr<IMathInputControl> g_spMIC; // Math Input Control
         
     // Set the preview height
     // Note:  Control must be initialized first
@@ -135,12 +131,12 @@ The following image shows the Math Input Control with a custom preview height.
     {
       LONG height = 200;
       HRESULT hr = S_OK;
-      hr = g_spMIC-&gt;SetPreviewHeight(height);
+      hr = g_spMIC->SetPreviewHeight(height);
     }          
-        </pre>
-</td>
-</tr>
-</table></span></div>
+        
+```
+
+
 
 
 

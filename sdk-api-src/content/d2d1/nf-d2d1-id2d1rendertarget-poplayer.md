@@ -80,13 +80,9 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
+
+```cpp
+HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 {
     HRESULT hr = S_OK;
 
@@ -121,10 +117,8 @@ The following example uses a layer to clip a bitmap to a geometric mask. For the
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

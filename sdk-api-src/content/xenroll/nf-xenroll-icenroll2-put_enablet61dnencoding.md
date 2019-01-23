@@ -89,20 +89,16 @@ The <b>EnableT61DNEncoding</b> property affects the behavior of the following me
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL     bT61DN;
+
+```cpp
+BOOL     bT61DN;
 HRESULT  hr;
 
 
 // pEnroll is a previously instantiated ICEnroll2 interface pointer.
 // Get the EnableT61DNEncoding Boolean value.
 
-hr = pEnroll-&gt;get_EnableT61DNEncoding( &amp;bT61DN );
+hr = pEnroll->get_EnableT61DNEncoding( &bT61DN );
 if ( FAILED ( hr ) )
     printf("Failed get_EnableT61DNEncoding - %x\n", hr );
 else
@@ -112,13 +108,13 @@ else
 
 // Set the EnableT61DNEncoding value.
 
-hr = pEnroll-&gt;put_EnableT61DNEncoding( TRUE );
+hr = pEnroll->put_EnableT61DNEncoding( TRUE );
 if ( FAILED ( hr ) )
     printf("Failed Setting EnableT61DNEncoding - %x\n", hr );
 else
-    printf( "EnableT61DNEncoding was set to TRUE\n" );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "EnableT61DNEncoding was set to TRUE\n" );
+```
+
+
 
 

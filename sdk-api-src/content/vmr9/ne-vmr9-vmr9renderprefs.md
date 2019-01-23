@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering preferences for the VMR-9. It is used with the <a href="https://msdn.microsoft.com/b82a9dbe-aa86-4153-945b-fe8968faa5ca">IVMRFilterConfig9::GetRenderingPrefs</a> and <a href="https://msdn.microsoft.com/ce274528-c759-4b43-80c7-0ba1e1275b7d">IVMRFilterConfig9::SetRenderingPrefs</a> methods.
+The <code>VMR9RenderPrefs</code> enumeration type specifies basic rendering preferences for the VMR-9. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd377368(v=VS.85).aspx">IVMRFilterConfig9::GetRenderingPrefs</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd377372(v=VS.85).aspx">IVMRFilterConfig9::SetRenderingPrefs</a> methods.
 
 
 

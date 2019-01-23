@@ -131,13 +131,9 @@ The set of strings represented by an <b>IDWriteLocalizedStrings</b> are indexed 
 
 A common use for the <b>IDWriteLocalizedStrings</b> interface is to hold a list of localized font family names created by using the <a href="https://msdn.microsoft.com/89b36a28-c8c7-42aa-89a6-7d8f5ddae3fa">IDWriteFontFamily::GetFamilyNames</a> method.  The following example shows how to get the family name for the "en-us" locale.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IDWriteLocalizedStrings* pFamilyNames = NULL;
+
+```cpp
+IDWriteLocalizedStrings* pFamilyNames = NULL;
 
 // Get a list of localized strings for the family name.
 if (SUCCEEDED(hr))
@@ -190,10 +186,8 @@ if (SUCCEEDED(hr))
 {
     hr = pFamilyNames->GetString(index, name, length+1);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

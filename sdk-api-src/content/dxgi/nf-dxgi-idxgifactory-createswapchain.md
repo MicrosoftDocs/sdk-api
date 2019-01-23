@@ -113,18 +113,14 @@ If the swap chain is in full-screen mode, before you release it you must use <a 
 After the runtime renders the initial frame in full screen, the runtime might unexpectedly exit full screen during a call to <a href="https://msdn.microsoft.com/en-us/library/Bb174576(v=VS.85).aspx">IDXGISwapChain::Present</a>. To work around this issue, we recommend that you execute the following code right after you call <b>CreateSwapChain</b> to create a full-screen swap chain (<b>Windowed</b> member of <a href="https://msdn.microsoft.com/en-us/library/Bb173075(v=VS.85).aspx">DXGI_SWAP_CHAIN_DESC</a> set to <b>FALSE</b>).
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // Detect if newly created full-screen swap chain isn't actually full screen.
 IDXGIOutput* pTarget; BOOL bFullscreen;
-if (SUCCEEDED(pSwapChain-&gt;GetFullscreenState(&amp;bFullscreen, &amp;pTarget)))
+if (SUCCEEDED(pSwapChain->GetFullscreenState(&bFullscreen, &pTarget)))
 {
-   pTarget-&gt;Release();
+   pTarget->Release();
 }
 else
    bFullscreen = FALSE;
@@ -133,12 +129,12 @@ if (!bFullscreen)
 {
    ShowWindow(hWnd, SW_MINIMIZE);
    ShowWindow(hWnd, SW_RESTORE);
-   pSwapChain-&gt;SetFullscreenState(TRUE, NULL);
+   pSwapChain->SetFullscreenState(TRUE, NULL);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 You can specify <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173076(v=VS.85).aspx">DXGI_SWAP_CHAIN_FLAG</a> values in the swap-chain description that <i>pDesc</i> points to. These values allow you to use features like flip-model presentation and content protection by using pre-Windows 8 APIs.
 
 However, to use stereo presentation and to change resize behavior for the flip model, applications must use the <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a> method. Otherwise, the back-buffer contents implicitly scale to fit the presentation target size; that is, you can't turn off scaling.

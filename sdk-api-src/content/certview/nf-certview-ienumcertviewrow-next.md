@@ -100,31 +100,27 @@ Looping through all the  rows in the enumeration sequence can be resource-intens
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+
+```cpp
+// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 LONG  Index;
 LONG  nCount;
 
 // Ensure enumerator is at first row.
-if (FAILED(pEnumRow-&gt;Reset()))
+if (FAILED(pEnumRow->Reset()))
     printf("Failed to Reset\n");
 else
 {
     nCount = 0;
     // Count the database records by enumerating the rows.
-    while (S_OK == pEnumRow-&gt;Next(&amp;Index))
+    while (S_OK == pEnumRow->Next(&Index))
         nCount++;
     // Display number of records.
     printf("Number of records is %d\n", nCount);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

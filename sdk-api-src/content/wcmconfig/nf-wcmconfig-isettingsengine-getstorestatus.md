@@ -63,7 +63,7 @@ Reserved. Must be <b>NULL</b>.
 
 ### -param Status [out]
 
-A <a href="https://msdn.microsoft.com/1a21d53f-cc0d-48ac-8d38-c53d5ac09878">WcmUserStatus</a> value that indicates the status of the store.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa378609(v=VS.85).aspx">WcmUserStatus</a> value that indicates the status of the store.
 
 
 ## -returns

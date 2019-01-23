@@ -225,13 +225,9 @@ The parent characteristic must be present in the
 
 <b>Example</b>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ////////////////////////////////////////////////////////////////////////////
 // Determine Descriptor Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -241,7 +237,7 @@ GetDescriptors:
                     currGattChar,
                     0,
                     NULL,
-                    &amp;descriptorBufferSize,
+                    &descriptorBufferSize,
                     BLUETOOTH_GATT_FLAG_NONE);
             
             if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -249,7 +245,7 @@ GetDescriptors:
                 goto Done; // Allow continuation
             }
             
-            if (descriptorBufferSize &gt; 0) {
+            if (descriptorBufferSize > 0) {
                 pDescriptorBuffer = (PBTH_LE_GATT_DESCRIPTOR)
                         malloc(descriptorBufferSize 
                             * sizeof(BTH_LE_GATT_DESCRIPTOR));
@@ -270,7 +266,7 @@ GetDescriptors:
                         currGattChar,
                         descriptorBufferSize,
                         pDescriptorBuffer,
-                        &amp;numDescriptors,
+                        &numDescriptors,
                         BLUETOOTH_GATT_FLAG_NONE);
             
                 if (S_OK != hr) {
@@ -283,10 +279,10 @@ GetDescriptors:
                     goto Done;
                 }
             }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -58,7 +58,7 @@ Gets the style of the stroke line's  end cap.
 
 ### -param strokeEndLineCap [out, retval]
 
-The <a href="https://msdn.microsoft.com/63ee8c2d-e7c5-4453-9555-25896dc13870">XPS_LINE_CAP</a> value that specifies the style of the stroke line's end cap.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372962(v=VS.85).aspx">XPS_LINE_CAP</a> value that specifies the style of the stroke line's end cap.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about line   end cap styles, see <a href="https://msdn.microsoft.com/63ee8c2d-e7c5-4453-9555-25896dc13870">XPS_LINE_CAP</a>.
+For more information about line   end cap styles, see <a href="https://msdn.microsoft.com/en-us/library/Dd372962(v=VS.85).aspx">XPS_LINE_CAP</a>.
 
 
 
@@ -126,7 +126,7 @@ For more information about line   end cap styles, see <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/63ee8c2d-e7c5-4453-9555-25896dc13870">XPS_LINE_CAP</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372962(v=VS.85).aspx">XPS_LINE_CAP</a>
  
 
  

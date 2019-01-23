@@ -92,7 +92,7 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 
 
 
-<a href="https://msdn.microsoft.com/45a445d1-cbe2-4588-a184-7d7bab6bc1ee">UI_ANIMATION_TIMER_CLIENT_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371973(v=VS.85).aspx">UI_ANIMATION_TIMER_CLIENT_STATUS</a>
  
 
  

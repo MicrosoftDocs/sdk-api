@@ -84,13 +84,9 @@ A pointer to an array of integers that receive the index values for items in the
 
 The number of elements in <i>lpiArray</i> is specified in <i>iSize</i> and must be equal to the number of items in the control. For example, the following code fragment will reserve enough memory to hold the index values. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 int iItems,
 
     *lpiArray;
@@ -103,9 +99,9 @@ if((iItems = SendMessage(hwndHD, HDM_GETITEMCOUNT, 0,0))!=-1)
 
     if(!(lpiArray = calloc(iItems,sizeof(int))))
 
-MessageBox(hwnd, "Out of memory.","Error", MB_OK);</pre>
-</td>
-</tr>
-</table></span></div>
+MessageBox(hwnd, "Out of memory.","Error", MB_OK);
+```
+
+
 
 

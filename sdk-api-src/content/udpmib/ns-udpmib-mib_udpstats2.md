@@ -89,7 +89,7 @@ The number of entries in the UDP listener table.
 
 
 The 
-			<a href="_iphlp_getudpstatisticsEx2">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
+			<a href="https://msdn.microsoft.com/en-us/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a> function returns a pointer to a <b>MIB_UDPSTATS2</b> structure. 
 
 
 
@@ -99,11 +99,11 @@ The
 
 
 
-<a href="_iphlp_gettcpstatisticsEx2">GetTcpStatisticsEx2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt803265(v=VS.85).aspx">GetTcpStatisticsEx2</a>
 
 
 
-<a href="_iphlp_getudpstatisticsex2">GetUdpStatisticsEx2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt804347(v=VS.85).aspx">GetUdpStatisticsEx2</a>
 
 
 

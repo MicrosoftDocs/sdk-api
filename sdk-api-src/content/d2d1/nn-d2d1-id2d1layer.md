@@ -100,13 +100,9 @@ A layer is a device-dependent resource: your application should create layers af
 
 The following example uses a layer to clip a drawing to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
+
+```cpp
+HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 {
     HRESULT hr = S_OK;
 
@@ -141,10 +137,8 @@ The following example uses a layer to clip a drawing to a geometric mask. For th
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

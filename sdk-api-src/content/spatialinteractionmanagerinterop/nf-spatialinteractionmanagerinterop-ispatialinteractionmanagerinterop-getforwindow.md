@@ -62,15 +62,21 @@ Retrieves a <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial
 
 ### -param window [in]
 
+Type: <b>HWND</b>
+
 Handle to the window of the active application.
 
 
 ### -param riid [in]
 
+Type: <b>REFIID</b>
+
 The GUID of the <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object.
 
 
 ### -param spatialInteractionManager [out]
+
+Type: <b>void</b>
 
 Address of a pointer to a <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object.
 
@@ -78,6 +84,8 @@ Address of a pointer to a <a href="https://docs.microsoft.com/uwp/api/Windows.UI
 ## -returns
 
 
+
+Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
 

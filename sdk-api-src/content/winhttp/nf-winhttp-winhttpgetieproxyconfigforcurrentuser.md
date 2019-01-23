@@ -58,7 +58,7 @@ The <b>WinHttpGetIEProxyConfigForCurrentUser</b> function retrieves the Internet
 
 ### -param pProxyConfig [in, out]
 
-A pointer, on input, to a <a href="https://msdn.microsoft.com/en-us/library/Aa384250(v=VS.85).aspx">WINHTTP_CURRENT_USER_IE_PROXY_CONFIG</a> structure. On output, the structure contains the Internet Explorer proxy settings for the current active network connection (for example, LAN, dial-up, or VPN connection).
+A pointer, on input, to a <a href="https://msdn.microsoft.com/b5aebbfe-18c8-4aeb-a01b-488e37d227a1">WINHTTP_CURRENT_USER_IE_PROXY_CONFIG</a> structure. On output, the structure contains the Internet Explorer proxy settings for the current active network connection (for example, LAN, dial-up, or VPN connection).
 
 
 ## -returns
@@ -122,7 +122,7 @@ This function is useful in client applications running in network environments i
 
 This function should not be used in a service process that does not impersonate a logged-on user.If the caller does not impersonate a logged on user, WinHTTP attempts to retrieve the Internet Explorer settings for the current service process: for example, the local service or the network service. If the Internet Explorer settings are not configured for these system accounts, the call to <b>WinHttpGetIEProxyConfigForCurrentUser</b> will fail.
 
-The caller must free the <b>lpszProxy</b>, <b>lpszProxyBypass</b>  and <b>lpszAutoConfigUrl</b> strings in the <a href="https://msdn.microsoft.com/en-us/library/Aa384250(v=VS.85).aspx">WINHTTP_CURRENT_USER_IE_PROXY_CONFIG</a>  structure if they are non-<b>NULL</b>. Use <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> to free the strings.
+The caller must free the <b>lpszProxy</b>, <b>lpszProxyBypass</b>  and <b>lpszAutoConfigUrl</b> strings in the <a href="https://msdn.microsoft.com/b5aebbfe-18c8-4aeb-a01b-488e37d227a1">WINHTTP_CURRENT_USER_IE_PROXY_CONFIG</a>  structure if they are non-<b>NULL</b>. Use <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> to free the strings.
 
 
 

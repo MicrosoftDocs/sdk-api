@@ -65,12 +65,12 @@ Specifies the video format of the input stream. The state data is a  <a href="ht
 
 ### -field DXVAHD_STREAM_STATE_FRAME_FORMAT
 
-Specifies how the input stream is interlaced. The state data is a  <a href="https://msdn.microsoft.com/4fa6a7f7-df9f-4e38-884c-81a01f913df0">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a> structure.
+Specifies how the input stream is interlaced. The state data is a  <a href="https://msdn.microsoft.com/en-us/library/Dd318764(v=VS.85).aspx">DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA</a> structure.
 
 
 ### -field DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE
 
-Specifies the color space for the input stream. The state data is a <a href="https://msdn.microsoft.com/54b53e4d-990b-4496-aae6-039f443337ae">DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>  structure.
+Specifies the color space for the input stream. The state data is a <a href="https://msdn.microsoft.com/en-us/library/Dd318765(v=VS.85).aspx">DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>  structure.
 
 
 ### -field DXVAHD_STREAM_STATE_OUTPUT_RATE
@@ -85,7 +85,7 @@ Specifies the source rectangle. The source rectangle defines which portion of th
 
 ### -field DXVAHD_STREAM_STATE_DESTINATION_RECT
 
-Specifies the destination rectangle. The destination rectangle defines which portion of the destination rectangle receives the blit. The state data is a  <a href="https://msdn.microsoft.com/f850531b-eee0-4943-8c41-050ec78eab63">DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA</a> structure.
+Specifies the destination rectangle. The destination rectangle defines which portion of the destination rectangle receives the blit. The state data is a  <a href="https://msdn.microsoft.com/en-us/library/Dd318762(v=VS.85).aspx">DXVAHD_STREAM_STATE_DESTINATION_RECT_DATA</a> structure.
 
 
 ### -field DXVAHD_STREAM_STATE_ALPHA
@@ -109,7 +109,7 @@ This state is applicable only if the device supports luma keying. To find out if
 
 ### -field DXVAHD_STREAM_STATE_ASPECT_RATIO
 
-Specifies the pixel aspect ratio of the source and destination surfaces. The state data is a  <a href="https://msdn.microsoft.com/dd7ab16e-2dc6-462e-b55d-b93a14c362cf">DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA</a> structure.
+Specifies the pixel aspect ratio of the source and destination surfaces. The state data is a  <a href="https://msdn.microsoft.com/en-us/library/Dd318760(v=VS.85).aspx">DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA</a> structure.
 
 
 ### -field DXVAHD_STREAM_STATE_FILTER_BRIGHTNESS

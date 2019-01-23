@@ -4,7 +4,7 @@ title: IFunctionInstanceCollection::Item
 author: windows-sdk-content
 description: Gets the specified function instance, by index.
 old-location: ncd\ifunctioninstancecollection_item_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: b79b7cb2-c02a-4474-bd48-8907ebb118fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

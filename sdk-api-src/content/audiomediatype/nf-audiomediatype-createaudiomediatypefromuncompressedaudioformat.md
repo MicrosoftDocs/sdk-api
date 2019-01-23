@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="https://msdn.microsoft.com/b1d35067-7ef3-4c29-8b16-642300485695">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
+The <code>CreateAudioMediaTypeFromUncompressedAudioFormat</code> function uses the information provided in the <a href="https://msdn.microsoft.com/en-us/library/Ff538640(v=VS.85).aspx">UNCOMPRESSEDAUDIOFORMAT</a> structure to create a media type object that describes the audio format.
 
 
 ## -parameters
@@ -97,7 +97,7 @@ When you implement custom audio system effects, the <code>CreateAudioMediaTypeFr
 
 
 
-<a href="https://msdn.microsoft.com/b1d35067-7ef3-4c29-8b16-642300485695">UNCOMPRESSEDAUDIOFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538640(v=VS.85).aspx">UNCOMPRESSEDAUDIOFORMAT</a>
  
 
  

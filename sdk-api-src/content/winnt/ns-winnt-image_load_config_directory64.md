@@ -281,13 +281,9 @@ Reserved for use by the operating system.
 
 If <b>_WIN64</b> is defined, then <b>IMAGE_LOAD_CONFIG_DIRECTORY</b> is defined as <b>IMAGE_LOAD_CONFIG_DIRECTORY64</b>. However, if <b>_WIN64</b> is not defined,  then <b>IMAGE_LOAD_CONFIG_DIRECTORY</b> is defined as <b>IMAGE_LOAD_CONFIG_DIRECTORY32</b>. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct {
+
+```cpp
+typedef struct {
     DWORD   Size;
     DWORD   TimeDateStamp;
     WORD    MajorVersion;
@@ -308,10 +304,10 @@ If <b>_WIN64</b> is defined, then <b>IMAGE_LOAD_CONFIG_DIRECTORY</b> is defined 
     DWORD   SecurityCookie;             // VA
     DWORD   SEHandlerTable;             // VA
     DWORD   SEHandlerCount;
-} IMAGE_LOAD_CONFIG_DIRECTORY32, *PIMAGE_LOAD_CONFIG_DIRECTORY32;</pre>
-</td>
-</tr>
-</table></span></div>
+} IMAGE_LOAD_CONFIG_DIRECTORY32, *PIMAGE_LOAD_CONFIG_DIRECTORY32;
+```
+
+
 
 
 

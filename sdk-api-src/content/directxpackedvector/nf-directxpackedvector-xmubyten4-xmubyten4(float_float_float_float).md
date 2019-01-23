@@ -118,13 +118,9 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	  an instance of <code>uint32_t</code> in the definition of the structure:
       
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMUBYTEN4 instance;
 	_x1=min( max( _x, 0.0 ), 1.0 );
 	_y1=min( max( _y, 0.0 ), 1.0 );
@@ -138,10 +134,10 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	instance.y = (uint8_t)_y1;
 	instance.z = (uint8_t)_z1;
 	instance.w = (uint8_t)_w1;
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

@@ -282,15 +282,11 @@ When you write a custom exit module, implement this method.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certexit.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Certexit.h>
 
 STDMETHODIMP CCertExit::Initialize(
     /* [in] */ BSTR const strConfig,
@@ -325,10 +321,10 @@ STDMETHODIMP CCertExit::Initialize(
     }
 
     return( S_OK );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -132,5 +132,5 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 
 ### -field rgpRecipientEncryptedKeys
 
-The address of an array of <a href="https://msdn.microsoft.com/1921f9b6-86d9-47a0-a36e-e20d481382a3">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
+The address of an array of <a href="https://msdn.microsoft.com/en-us/library/Aa378094(v=VS.85).aspx">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
 

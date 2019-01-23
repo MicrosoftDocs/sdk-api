@@ -87,13 +87,9 @@ The
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IMMCVersionInfo * pVersionInfo = NULL;
+
+```cpp
+IMMCVersionInfo * pVersionInfo = NULL;
 HRESULT   hr;
 
 // Create an object of the MMCVersionInfo class.
@@ -101,7 +97,7 @@ hr = CoCreateInstance(CLSID_MMCVersionInfo,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IMMCVersionInfo,
-                      (void**)&amp;pVersionInfo);
+                      (void**)&pVersionInfo);
 if (S_OK != hr)
 {
     // Error encountered.
@@ -117,8 +113,8 @@ else
 {
     // Call the GetMMCVersion method.
     long lMajor, lMinor;
-    hr = pVersionInfo-&gt;GetMMCVersion(&amp;lMajor,
-                                     &amp;lMinor);
+    hr = pVersionInfo->GetMMCVersion(&lMajor,
+                                     &lMinor);
     if (S_OK != hr)
         OutputDebugString(_T("Failed call to GetMMCVersion\n"));
     else
@@ -131,11 +127,11 @@ else
 // Free the interface pointer.
 if (NULL != pVersionInfo)
 {
-    pVersionInfo-&gt;Release();
+    pVersionInfo->Release();
     pVersionInfo = NULL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

@@ -4,7 +4,7 @@ title: IProviderPublishing::CreateInstance
 author: windows-sdk-content
 description: Creates a new function instance.
 old-location: ncd\iproviderpublishing_createinstance_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 1c8988d0-552a-434b-b33c-31017a191896
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -60,7 +60,7 @@ Creates a new function instance.
 
 ### -param enumVisibilityFlags [in]
 
-A <a href="https://msdn.microsoft.com/a3388293-150c-417a-a4a6-0d5020e0ae82">SystemVisibilityFlags</a> enumeration value that specifies the visibility of the function instance which the provider is about to create.  It is up to the provider whether or not to honor this flag, however the current user visibility can be used to allow processes running in a non-Administrator security context to still be able to add function instances.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa364818(v=VS.85).aspx">SystemVisibilityFlags</a> enumeration value that specifies the visibility of the function instance which the provider is about to create.  It is up to the provider whether or not to honor this flag, however the current user visibility can be used to allow processes running in a non-Administrator security context to still be able to add function instances.
 
 
 ### -param pszSubCategory [in]

@@ -126,22 +126,18 @@ Describes an error for the <b>IMofCompiler</b> interface.
 
 The following code is an example of how to create a pointer to an <b>IMofCompiler</b> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IMofCompiler *pMof = NULL;
+
+```cpp
+IMofCompiler *pMof = NULL;
 CoCreateInstance(
     CLSID_MofCompiler,
     0,
     CLSCTX_INPROC_SERVER,
     IID_IMofCompiler,
-    (LPVOID *) &amp;pMof);</pre>
-</td>
-</tr>
-</table></span></div>
+    (LPVOID *) &pMof);
+```
+
+
 
 
 

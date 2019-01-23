@@ -62,7 +62,7 @@ Removes all instances of a mapped header from the message.
 The message to set the header in.
                 
 
-The message can be in any state but <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE_EMPTY</a>.
+The message can be in any state but <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE_EMPTY</a>.
                 
 
 

@@ -93,11 +93,11 @@ Bitwise <b>OR</b> of all the previous flags. This value is used internally by th
 
 
 
-<a href="https://msdn.microsoft.com/c4395344-e659-4e5a-aba0-ee27e65fe2cc">VMR9ProcAmpControl Structure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407372(v=VS.85).aspx">VMR9ProcAmpControl Structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fa61ed8-4fd6-42fb-8c5b-87d23e239cd1">VMR9ProcAmpControlRange Structure</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd407374(v=VS.85).aspx">VMR9ProcAmpControlRange Structure</a>
  
 
  

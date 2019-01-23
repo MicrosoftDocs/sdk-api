@@ -85,19 +85,15 @@ The method returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Clone</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT Clone(PAVISTREAM *ppResult); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

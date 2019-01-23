@@ -104,13 +104,9 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and calls the <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage</a> method to draw the image. Then the code creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its bitmap output channel to cyan (<a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlagsC</a>). The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536030(v=VS.85).aspx">DrawImage</a> a second time, passing the address of the <b>Image</b> object and the address of the <b>ImageAttributes</b> object. The cyan channel of each pixel is calculated, and the rendered image shows the intensities of the cyan channel as shades of gray. The code calls <b>DrawImage</b> three more times to show the intensities of the magenta, yellow, and black channels.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetOutputChannel(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -161,10 +157,8 @@ VOID Example_SetOutputChannel(HDC hdc)
       UnitPixel,
       &imAtt); 
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
 
 
 The following illustration shows the output of the preceding code.

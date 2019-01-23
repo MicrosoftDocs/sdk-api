@@ -81,7 +81,7 @@ When this method returns, contains the address of the pointer to the <a href="ht
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -99,14 +99,10 @@ When you create a render target and hardware acceleration is available, you allo
 
 The following example creates an <a href="https://msdn.microsoft.com/860342cc-989c-4432-b879-07f3da07d50a">ID2D1HwndRenderTarget</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RECT rc;
-GetClientRect(m_hwnd, &amp;rc);
+
+```cpp
+RECT rc;
+GetClientRect(m_hwnd, &rc);
 
 D2D1_SIZE_U size = D2D1::SizeU(
     rc.right - rc.left,
@@ -114,15 +110,15 @@ D2D1_SIZE_U size = D2D1::SizeU(
     );
 
 // Create a Direct2D render target.
-hr = m_pD2DFactory-&gt;CreateHwndRenderTarget(
+hr = m_pD2DFactory->CreateHwndRenderTarget(
     D2D1::RenderTargetProperties(),
     D2D1::HwndRenderTargetProperties(m_hwnd, size),
-    &amp;m_pRenderTarget
+    &m_pRenderTarget
     );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

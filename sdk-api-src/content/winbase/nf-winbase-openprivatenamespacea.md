@@ -4,7 +4,7 @@ title: OpenPrivateNamespaceA function
 author: windows-sdk-content
 description: Opens a private namespace.
 old-location: base\openprivatenamespace.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 268b4932-2553-4883-8a26-002997fbc59e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

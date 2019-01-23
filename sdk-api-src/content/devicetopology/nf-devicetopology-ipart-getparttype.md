@@ -61,7 +61,7 @@ The <b>GetPartType</b> method gets the part type of this part.
 
 ### -param pPartType [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/7374d6c6-c59e-4862-8b4c-bbe384ccc9d8">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd316559(v=VS.85).aspx">PartType</a> variable into which the method writes the part type. The part type is one of the following <b>PartType</b> enumeration values, which indicate whether the part is a connector or subunit:
 
 Connector
 

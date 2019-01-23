@@ -62,7 +62,7 @@ The <b>DRM_PLAY_OPL</b> structure holds information about the output protection 
 ### -field minOPL
 
 
-<a href="https://msdn.microsoft.com/4358c3ea-b65b-4446-b758-c1cd2d68d02a">DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS</a> structure containing the minimum OPL required to play content in different formats.
+<a href="https://msdn.microsoft.com/en-us/library/Dd798026(v=VS.85).aspx">DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS</a> structure containing the minimum OPL required to play content in different formats.
 
 
 ### -field oplIdReserved
@@ -73,7 +73,7 @@ Reserved for future use.
 ### -field vopi
 
 
-<a href="https://msdn.microsoft.com/95bce5f8-5230-4b69-b4e9-3cb766edce90">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a> structure containing the video output protection identifiers that apply to playback of the content.
+<a href="https://msdn.microsoft.com/en-us/library/Dd798050(v=VS.85).aspx">DRM_VIDEO_OUTPUT_PROTECTION_IDS</a> structure containing the video output protection identifiers that apply to playback of the content.
 
 
 ## -see-also
@@ -81,7 +81,7 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/cf35626a-5583-440f-8f17-0c9b79bd843d">DRM_COPY_OPL</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd757064(v=VS.85).aspx">DRM_COPY_OPL</a>
 
 
 

@@ -96,13 +96,9 @@ If the file already exists, the user is notified and prompted for permission to 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrSPCFile = NULL;
+
+```cpp
+BSTR     bstrSPCFile = NULL;
 BSTR     bstrNewSPCFile = NULL;
 HRESULT  hr;
 
@@ -128,10 +124,8 @@ else
     printf( "SPCFileName set to %ws\n", bstrNewSPCFile );
 // free BSTR when done
 if ( NULL != bstrNewSPCFile )
-    SysFreeString( bstrNewSPCFile );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrNewSPCFile );
+```
 
 
 

@@ -83,7 +83,7 @@ Contains the number of variable bindings in the list.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378936(v=VS.85).aspx">SnmpVarBind</a>
+<a href="https://msdn.microsoft.com/40f9930d-93d1-45eb-aa3a-499947004fcf">SnmpVarBind</a>
  
 
  

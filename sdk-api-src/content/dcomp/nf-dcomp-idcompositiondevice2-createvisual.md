@@ -58,7 +58,7 @@ Creates a new visual object.
 
 ### -param visual [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449139(v=VS.85).aspx">IDCompositionVisual</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/462dfc20-ad5a-425c-94b5-f21ab05f5af8">IDCompositionVisual</a>**</b>
 
 The new visual object. This parameter must not be NULL.
 
@@ -88,15 +88,15 @@ A new visual object has a static value of zero for the OffsetX and OffsetY prope
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280354(v=VS.85).aspx">IDCompositionDevice2</a>
+<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449109(v=VS.85).aspx">IDCompositionTarget::SetRoot</a>
+<a href="https://msdn.microsoft.com/febbef70-fc21-4295-93c5-2f9f52434aae">IDCompositionTarget::SetRoot</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh449141(v=VS.85).aspx">IDCompositionVisual::AddVisual</a>
+<a href="https://msdn.microsoft.com/e1124df5-7795-49c3-a640-f218cfdd4f1d">IDCompositionVisual::AddVisual</a>
  
 
  

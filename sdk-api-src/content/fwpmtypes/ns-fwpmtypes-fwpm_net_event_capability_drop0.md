@@ -58,7 +58,7 @@ The <b>FWPM_NET_EVENT_CAPABILITY_DROP0</b> structure contains information about 
 
 ### -field networkCapabilityId
 
-Type: <b><a href="https://msdn.microsoft.com/e69ac412-0868-49da-9a87-58a03098839d">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447348(v=VS.85).aspx">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a></b>
 
 The specific app container network capability which was missing, therefore causing this traffic to be denied.
 
@@ -82,11 +82,11 @@ True if the packet originated from (or was heading to) the loopback adapter; oth
 
 
 
-<a href="https://msdn.microsoft.com/e69ac412-0868-49da-9a87-58a03098839d">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447348(v=VS.85).aspx">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e53e92e5-f7fa-4457-8681-754b50b24273">FWPM_NET_EVENT_CAPABILITY_ALLOW0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447362(v=VS.85).aspx">FWPM_NET_EVENT_CAPABILITY_ALLOW0</a>
  
 
  

@@ -108,13 +108,9 @@ The following example creates an
 						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a JPEG file. The code calls the <b>Image::GetPropertyIdList</b> method of that 
 						<b>Image</b> object to find out what types of metadata are stored in the image.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <windows.h>
+
+```cpp
+#include <windows.h>
 #include <gdiplus.h>
 #include <stdio.h>
 using namespace Gdiplus;
@@ -147,10 +143,8 @@ INT main()
   
    GdiplusShutdown(gdiplusToken);
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 The preceding code, along with a particular file, FakePhoto.jpg, produced the following output:

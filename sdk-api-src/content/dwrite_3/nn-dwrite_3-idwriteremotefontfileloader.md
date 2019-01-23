@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Represents a font file loader that can access remote (i.e., downloadable) fonts. The <a href="https://msdn.microsoft.com/en-us/library/Mt807687(v=VS.85).aspx">IDWriteFactory5::CreateHttpFontFileLoader</a> method returns an instance of this interface,
+Represents a font file loader that can access remote (i.e., downloadable) fonts. The <a href="https://msdn.microsoft.com/7C8D581E-489D-48BE-8B3F-278E1C246BBA">IDWriteFactory5::CreateHttpFontFileLoader</a> method returns an instance of this interface,
         which the client can use to load remote fonts without having to implement a custom loader. 
         A client can also create its own custom implementation, however. 
         In either case, the client is responsible for registering and unregistering the loader using IDWriteFactory::<a href="https://msdn.microsoft.com/f5b28c3d-c3ad-4435-92c8-07841e8d160a">RegisterFontFileLoader</a> 
@@ -74,7 +74,7 @@ The <b>IDWriteRemoteFontFileLoader</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807696(v=VS.85).aspx">CreateFontFileReferenceFromUrl</a>
+<a href="https://msdn.microsoft.com/C8695514-532F-4CAC-9A50-049C81812F15">CreateFontFileReferenceFromUrl</a>
 </td>
 <td align="left" width="63%">
 Creates a font file reference from a URL if the loader supports this capability.
@@ -83,7 +83,7 @@ Creates a font file reference from a URL if the loader supports this capability.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807697(v=VS.85).aspx">CreateRemoteStreamFromKey</a>
+<a href="https://msdn.microsoft.com/434B7349-0FD3-492F-8973-600A0A0DFA7B">CreateRemoteStreamFromKey</a>
 </td>
 <td align="left" width="63%">
 Creates a remote font file stream object that encapsulates an open file resource and can be used to download remote file data.
@@ -92,7 +92,7 @@ Creates a remote font file stream object that encapsulates an open file resource
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt807698(v=VS.85).aspx">GetLocalityFromKey</a>
+<a href="https://msdn.microsoft.com/997D8F04-8667-4D90-B097-CD48F979BE02">GetLocalityFromKey</a>
 </td>
 <td align="left" width="63%">
 Gets the locality of the file resource identified by the unique key.

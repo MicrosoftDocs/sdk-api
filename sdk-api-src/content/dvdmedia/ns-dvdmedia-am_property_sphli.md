@@ -101,7 +101,7 @@ Ending y-coordinate pixel of the current highlight button.
 
 ### -field ColCon
 
-Color contrast description of type <a href="https://msdn.microsoft.com/9358d860-6187-48d9-81b6-d5d65d73786d">AM_COLCON</a>.
+Color contrast description of type <a href="https://msdn.microsoft.com/en-us/library/Dd373456(v=VS.85).aspx">AM_COLCON</a>.
 
 
 ## -remarks

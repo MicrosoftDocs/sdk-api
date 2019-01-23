@@ -98,28 +98,24 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 #### "admin"
 
-The extension was obtained from the <a href="ad.win2k_a_adminpropertypages">adminPropertyPages</a> attribute.
+The extension was obtained from the <a href="https://msdn.microsoft.com/library/ms675216(v=VS.85).aspx">adminPropertyPages</a> attribute.
 
 
 
 #### "shell"
 
-The extension was obtained from the <a href="ad.win2k_a_shellpropertypages">shellPropertyPages</a> attribute.
+The extension was obtained from the <a href="https://msdn.microsoft.com/library/ms679813(v=VS.85).aspx">shellPropertyPages</a> attribute.
 
 The following example shows how to use this member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pwszAttribPrefix = (LPWSTR)((LPBYTE)pdos + 
-    pdso-&gt;offsetAttribPrefix);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pwszAttribPrefix = (LPWSTR)((LPBYTE)pdos + 
+    pdso->offsetAttribPrefix);
+
+```
+
+
 
 ### -field offsetUserName
 
@@ -127,18 +123,14 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 The following example shows how to use this member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pwszUserName = (LPWSTR)((LPBYTE)pdso + 
-    pdso-&gt;offsetUserName);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pwszUserName = (LPWSTR)((LPBYTE)pdso + 
+    pdso->offsetUserName);
+
+```
+
+
 
 ### -field offsetPassword
 
@@ -146,18 +138,14 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 The following example shows how to use this member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pwszPassword = (LPWSTR)((LPBYTE)pdso + 
-    pdso-&gt;offsetPassword);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pwszPassword = (LPWSTR)((LPBYTE)pdso + 
+    pdso->offsetPassword);
+
+```
+
+
 
 ### -field offsetServer
 
@@ -165,18 +153,14 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 The following example shows how to use this member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pwszServer = (LPWSTR)((LPBYTE)pdso + 
-    pdso-&gt;offsetServer);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pwszServer = (LPWSTR)((LPBYTE)pdso + 
+    pdso->offsetServer);
+
+```
+
+
 
 ### -field offsetServerConfigPath
 
@@ -184,18 +168,14 @@ Contains the offset, in bytes, from the start of the <b>DSDISPLAYSPECOPTIONS</b>
 
 The following example shows how to use this member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pwszServerConfigPath = (LPWSTR)((LPBYTE)pdso + 
-    pdso-&gt;offsetServerConfigPath);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pwszServerConfigPath = (LPWSTR)((LPBYTE)pdso + 
+    pdso->offsetServerConfigPath);
+
+```
+
+
 
 ## -see-also
 

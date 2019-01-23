@@ -81,23 +81,17 @@ Returns a vector whose components are the logical AND of each of the components 
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR Result;
+
+```
+XMVECTOR Result;
 
 Result.x = V1.x & ~V2.x;
 Result.y = V1.y & ~V2.y;
 Result.z = V1.z & ~V2.z;
 Result.w = V1.w & ~V2.w;
 
-return Result;</pre>
-</td>
-</tr>
-</table></span></div>
+return Result;
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

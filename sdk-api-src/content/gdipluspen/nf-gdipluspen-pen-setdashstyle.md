@@ -99,13 +99,9 @@ The length of the dashes in a dashed line is dependent on the dash style and the
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash style, and draws a line. The code then resets the dash style, draws a second line, resets dash style again, and draws a third line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetDashStyle(HDC hdc)
+
+```cpp
+VOID Example_SetDashStyle(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -114,19 +110,19 @@ The following example creates a
 
    // Set the dash style for the pen, and draw a dashed line.
    pen.SetDashStyle(DashStyleDash);
-   graphics.DrawLine(&amp;pen, 0, 50, 400, 150);
+   graphics.DrawLine(&pen, 0, 50, 400, 150);
 
    // Reset the dash style for the pen, and draw a second line.
    pen.SetDashStyle(DashStyleDot);
-   graphics.DrawLine(&amp;pen, 0, 80, 400, 180); 
+   graphics.DrawLine(&pen, 0, 80, 400, 180); 
 
    // Reset the dash style for the pen, and draw a third line.
    pen.SetDashStyle(DashStyleDashDot);
-   graphics.DrawLine(&amp;pen, 0, 110, 400, 210); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&pen, 0, 110, 400, 210); 
+}
+```
+
+
 
 
 

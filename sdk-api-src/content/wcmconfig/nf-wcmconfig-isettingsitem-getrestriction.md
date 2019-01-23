@@ -58,7 +58,7 @@ Gets the information for a given restriction.
 
 ### -param RestrictionFacet [in]
 
-A <a href="https://msdn.microsoft.com/b9e62904-f6a9-4299-a558-51b57bd7d3db">WcmRestrictionFacets</a> value that indicates the type of restriction facet.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa378606(v=VS.85).aspx">WcmRestrictionFacets</a> value that indicates the type of restriction facet.
 
 
 ### -param FacetData [out]

@@ -101,13 +101,6 @@ The second X button was pressed or released.
 
 ### -field tagMOUSEHOOKSTRUCT
 
- 
-
-
-
-
-#### - MOUSEHOOKSTRUCT
-
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a></b>
 
 The members of a <a href="https://msdn.microsoft.com/en-us/library/ms644968(v=VS.85).aspx">MOUSEHOOKSTRUCT</a> structure make up the first part of this structure. 

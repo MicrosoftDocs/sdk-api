@@ -60,7 +60,7 @@ Contains virtual hard disk (VHD) creation parameters, providing control over, an
 
 ### -field Version
 
-A value from the <a href="https://msdn.microsoft.com/8a9f186a-88aa-43dc-97e0-2ffa43d7ffe5">CREATE_VIRTUAL_DISK_VERSION</a> 
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Dd323662(v=VS.85).aspx">CREATE_VIRTUAL_DISK_VERSION</a> 
       enumeration that is the discriminant for the union.
 
 <table>
@@ -314,19 +314,19 @@ If this parameter is not <b>NULL</b>, <b>ParentPath</b> must be
 ### -field Version2.OpenFlags
 
 Zero or more flags from the 
-        <a href="https://msdn.microsoft.com/edc7d3ad-23a0-4e7a-82d5-8ac4df785f35">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
+        <a href="https://msdn.microsoft.com/en-us/library/Dd323681(v=VS.85).aspx">OPEN_VIRTUAL_DISK_FLAG</a> enumeration describing 
         how the virtual disk is to be opened.
 
 
 ### -field Version2.ParentVirtualStorageType
 
-A <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the parent virtual disk specified in the <b>ParentPath</b> member.
 
 
 ### -field Version2.SourceVirtualStorageType
 
-A <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure describing 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure describing 
         the source virtual disk specified in the <b>SourcePath</b> member.
 
 
@@ -496,7 +496,7 @@ Resiliency <b>GUID</b> for the file.
 
 
 
-<a href="https://msdn.microsoft.com/9d9f187e-dea1-48ca-a3fe-9e9c513e9088">CreateVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323659(v=VS.85).aspx">CreateVirtualDisk</a>
 
 
 

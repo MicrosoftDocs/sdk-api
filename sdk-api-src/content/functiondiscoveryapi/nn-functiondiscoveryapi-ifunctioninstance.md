@@ -4,7 +4,7 @@ title: IFunctionInstance
 author: windows-sdk-content
 description: A function instance is created as the result of calling one of the IFunctionDiscovery methods; client program do not create these objects themselves.
 old-location: ncd\ifunctioninstance.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: cc421719-73a6-4d4d-9bf8-171e46c4e275
 ms.author: windowssdkdev
 ms.date: 12/5/2018

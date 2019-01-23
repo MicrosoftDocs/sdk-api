@@ -78,17 +78,13 @@ To use this structure to retrieve a particular PIDL, add the <b>aoffset</b> valu
 				
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define HIDA_GetPIDLFolder(pida) (LPCITEMIDLIST)(((LPBYTE)pida)+(pida)-&gt;aoffset[0])
-#define HIDA_GetPIDLItem(pida, i) (LPCITEMIDLIST)(((LPBYTE)pida)+(pida)-&gt;aoffset[i+1])</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define HIDA_GetPIDLFolder(pida) (LPCITEMIDLIST)(((LPBYTE)pida)+(pida)->aoffset[0])
+#define HIDA_GetPIDLItem(pida, i) (LPCITEMIDLIST)(((LPBYTE)pida)+(pida)->aoffset[i+1])
+```
+
+
 The value that is returned by these macros is a pointer to the <a href="https://msdn.microsoft.com/60daf071-4e93-4e1c-bc38-894f706db04f">ITEMIDLIST</a> structure. Since these structures vary in length, you must determine the end of the structure by parsing it. See <a href="https://msdn.microsoft.com/c0d61bc6-6851-4b47-a62d-4c24d2958b98">NameSpace</a> for further discussion of PIDLs and the <b>ITEMIDLIST</b> structure.
 
 

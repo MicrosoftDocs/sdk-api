@@ -183,7 +183,7 @@ The method failed for unknown reasons.
 
 
 
-<a href="https://msdn.microsoft.com/9fa20653-5224-4588-89fb-8d4ce07b4235">INetSharingPortMappingProps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365975(v=VS.85).aspx">INetSharingPortMappingProps</a>
 
 
 

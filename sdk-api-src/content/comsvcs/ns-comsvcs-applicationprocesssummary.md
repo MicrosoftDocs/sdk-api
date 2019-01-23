@@ -106,7 +106,7 @@ Indicates whether the process is a COM+ server application instance that has bee
 
 
 
-<a href="https://msdn.microsoft.com/f2f9c03b-4f57-4087-8fef-5cdccece91d9">IGetAppTrackerData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd179223(v=VS.85).aspx">IGetAppTrackerData</a>
  
 
  

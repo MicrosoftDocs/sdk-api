@@ -4,7 +4,7 @@ title: IFunctionDiscovery::AddInstance
 author: windows-sdk-content
 description: Creates or modifies a function instance.
 old-location: ncd\ifunctiondiscovery_addinstance_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: a99213b5-b310-4ce2-99ca-07b343f08c4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -60,7 +60,7 @@ Creates or modifies a function instance.
 
 ### -param enumSystemVisibility [in]
 
-A <a href="https://msdn.microsoft.com/a3388293-150c-417a-a4a6-0d5020e0ae82">SystemVisibilityFlags</a> value that specifies whether the created function instance is visible system wide or only to the current user. 
+A <a href="https://msdn.microsoft.com/en-us/library/Aa364818(v=VS.85).aspx">SystemVisibilityFlags</a> value that specifies whether the created function instance is visible system wide or only to the current user. 
 
 <div class="alert"><b>Note</b>  The function instance is stored in HKEY_LOCAL_MACHINE regardless  of the <i>enumSystemVisibility</i> value. The user must have Administrator access to add a function instance.</div>
 <div> </div>

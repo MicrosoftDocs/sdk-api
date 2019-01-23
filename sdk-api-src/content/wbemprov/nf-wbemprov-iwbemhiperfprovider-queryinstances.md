@@ -123,13 +123,9 @@ The
 The following code example shows how to implement 
 <b>QueryInstances</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyHiPerfProvider::QueryInstances(
+
+```cpp
+HRESULT CMyHiPerfProvider::QueryInstances(
     /* [in] */ IWbemServices* pNamespace,  
     /* [in] */ BSTR strClass,
     /* [in] */ long lFlags,
@@ -151,16 +147,16 @@ The following code example shows how to implement
     // Use the namespace pointer to retrieve a class
     // definition.
 
-   hRes = pNamespace -&gt;GetObject(strClass, 0, NULL, &amp;pClass, 0);
+   hRes = pNamespace ->GetObject(strClass, 0, NULL, &pClass, 0);
    if (WBEM_NO_ERROR==hRes)
        return hRes;
 
 
     // Now loop through the private source and create each instance.
 
-     for (int i = 0 ; i &lt; NUM_OF_INSTANCES ; i++)
+     for (int i = 0 ; i < NUM_OF_INSTANCES ; i++)
     {
-         hRes = pClass-&gt;SpawnInstance(0, &amp;pNextInst);
+         hRes = pClass->SpawnInstance(0, &pNextInst);
 
          // Exit loop if no new instance is spawned
          if (WBEM_S_FALSE == hRes)
@@ -174,25 +170,25 @@ The following code example shows how to implement
         /*FillInst(pNextInst);*/
 
         // Deliver the class to WMI.
-        pResponseHandler-&gt;Indicate(1, &amp;pNextInst);
-        pNextInst-&gt;Release(); 
+        pResponseHandler->Indicate(1, &pNextInst);
+        pNextInst->Release(); 
         pNextInst=NULL;
        }
     }
 
    // Send a finish message to WMI.
-    pResponseHandler-&gt;SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
+    pResponseHandler->SetStatus(0, WBEM_S_NO_ERROR, 0, 0);
     // Free memory resources.
-    pNamespace-&gt;Release();
-    pClass-&gt;Release();
+    pNamespace->Release();
+    pClass->Release();
     SysFreeString(strClass);
 
   return WBEM_S_NO_ERROR;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

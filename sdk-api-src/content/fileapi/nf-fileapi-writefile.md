@@ -442,13 +442,9 @@ The following C++ example shows how to align sectors for unbuffered file writes.
      the file. For additional rules regarding unbuffered file I/O, see 
      <a href="https://msdn.microsoft.com/ae1e5d0f-9b55-4aae-8402-b9c8e33d9363">File Buffering</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <windows.h>
+
+```cpp
+#include <windows.h>
 
 #define ROUND_UP_SIZE(Value,Pow2) ((SIZE_T) ((((ULONG)(Value)) + (Pow2) - 1) & (~(((LONG)(Pow2)) - 1))))
 
@@ -495,10 +491,8 @@ cleanup:
    }
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

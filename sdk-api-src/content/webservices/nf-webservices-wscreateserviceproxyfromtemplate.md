@@ -62,7 +62,7 @@ Helper routine for creating a <a href="https://msdn.microsoft.com/e1a5bf5e-dbc1-
 
 ### -param channelType [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401788(v=VS.85).aspx">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy. 
+A <a href="https://msdn.microsoft.com/7e1092f9-10e8-485c-a286-770e1c74d8ca">WS_CHANNEL_TYPE</a> enumeration value representing the channel type for the service proxy. 
         
 
 
@@ -82,7 +82,7 @@ The number of properties in the <i>properties</i> array.
 
 ### -param templateType [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd401762(v=VS.85).aspx">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates  used to create the service proxy.
+A <a href="https://msdn.microsoft.com/831001f4-619d-4128-a645-85077701c28c">WS_BINDING_TEMPLATE_TYPE</a> enumeration value representing the type of templates  used to create the service proxy.
         Please see the <b>Remarks</b> for more information.
 
 

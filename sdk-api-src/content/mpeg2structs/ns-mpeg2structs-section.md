@@ -96,24 +96,20 @@ This structure represents an MPEG-2 short header. The section might contain a lo
 </ul>
 The following code shows how to access the bit fields within the <b>Header</b> member:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 SECTION *pSection; // Points to the section data.
 
 // Coerce the Header field to an MPEG_HEADER_BITS type.
-MPEG_HEADER_BITS *pHeader = (MPEG_HEADER_BITS*)&amp;pSection-&gt;Header.W;
+MPEG_HEADER_BITS *pHeader = (MPEG_HEADER_BITS*)&pSection->Header.W;
 
 // Now use the pHeader pointer to access the bit fields.
-WORD SectionLength = pHeader-&gt;SectionLength;
-</pre>
-</td>
-</tr>
-</table></span></div>
+WORD SectionLength = pHeader->SectionLength;
+
+```
+
+
 
 
 

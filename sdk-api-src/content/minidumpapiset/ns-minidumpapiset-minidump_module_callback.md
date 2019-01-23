@@ -50,7 +50,7 @@ req.redist: DbgHelp.dll 5.1 or later
 
 Contains module information for the 
 <a href="https://msdn.microsoft.com/8dc95b0a-6aee-4c38-ab25-a800153bbe91">MiniDumpCallback</a> function when the callback type is 
-<a href="https://msdn.microsoft.com/c970564d-e1f0-4317-bf66-752b98767451">ModuleCallback</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680364(v=VS.85).aspx">ModuleCallback</a>.
 
 
 ## -struct-fields
@@ -86,7 +86,7 @@ The timestamp value of the module executable image, in <b>time_t</b> format.
 ### -field VersionInfo
 
 A 
-<a href="_win32_vs_fixedfileinfo_str">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
+<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure that specifies the version of the module.
 
 
 ### -field CvRecord
@@ -114,7 +114,7 @@ The size of the miscellaneous record of the module in the <b>MiscRecord</b> memb
 
 
 
-<a href="https://msdn.microsoft.com/0ce3083c-21c9-48a4-9099-1dab31afcafa">MINIDUMP_CALLBACK_INPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a>
 
 
 
@@ -122,7 +122,7 @@ The size of the miscellaneous record of the module in the <b>MiscRecord</b> memb
 
 
 
-<a href="_win32_vs_fixedfileinfo_str">VS_FIXEDFILEINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a>
  
 
  

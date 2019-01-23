@@ -83,18 +83,14 @@ Do not convert the # or ? character, or any characters following them in the str
 <b>UrlUnescapeInPlace</b> is equivalent to the following:
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 UrlUnescape(pszUrl, NULL, NULL, dwFlags | URL_UNESCAPE_INPLACE)
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 
 
 

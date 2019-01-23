@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <code>VMR9PresentationFlags</code> enumeration type contains flags that describe the status of a video sample. These flags are used in the <a href="https://msdn.microsoft.com/7e5cf0e9-1cb9-494a-9370-550328dcd85c">VMR9PresentationInfo</a> structure.
+The <code>VMR9PresentationFlags</code> enumeration type contains flags that describe the status of a video sample. These flags are used in the <a href="https://msdn.microsoft.com/en-us/library/Dd407371(v=VS.85).aspx">VMR9PresentationInfo</a> structure.
 
 
 

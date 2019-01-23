@@ -72,7 +72,7 @@ The type of event.
 
 ### -field ikeMmFailure
 
-Type: <b><a href="https://msdn.microsoft.com/4c67353c-289c-42ef-9081-20c33a9a06a4">FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee707313(v=VS.85).aspx">FWPM_NET_EVENT_IKEEXT_MM_FAILURE1</a>*</b>
 
 Information about  an IKE main mode failure.
 
@@ -81,7 +81,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_MM_FAILURE</b>.
 
 ### -field ikeQmFailure
 
-Type: <b><a href="https://msdn.microsoft.com/a9cffcee-67a2-4a04-9ff1-85e2e02fa9a9">FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa364280(v=VS.85).aspx">FWPM_NET_EVENT_IKEEXT_QM_FAILURE0</a>*</b>
 
 Information about  an IKE quick mode failure.
 
@@ -90,7 +90,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IKEEXT_QM_FAILURE</b>.
 
 ### -field ikeEmFailure
 
-Type: <b><a href="https://msdn.microsoft.com/42348e1d-e3b3-4f8c-9fef-15e2e4ebf580">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee707312(v=VS.85).aspx">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a>*</b>
 
 Information about  an IKE user mode failure.
 
@@ -108,7 +108,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_CLASSIFY_DROP</b>.
 
 ### -field ipsecDrop
 
-Type: <b><a href="https://msdn.microsoft.com/ef970199-3603-4012-9033-afa4a7301fea">FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa814096(v=VS.85).aspx">FWPM_NET_EVENT_IPSEC_KERNEL_DROP0</a>*</b>
 
 Information about an IPsec kernel drop event.
 
@@ -117,7 +117,7 @@ Available when <b>type</b> is <b>FWPM_NET_EVENT_TYPE_IPSEC_KERNEL_DROP</b>.
 
 ### -field idpDrop
 
-Type: <b><a href="https://msdn.microsoft.com/7b28a81f-bf80-4739-989e-a276a0ca8a3a">FWPM_NET_EVENT_IPSEC_DOSP_DROP0</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd744950(v=VS.85).aspx">FWPM_NET_EVENT_IPSEC_DOSP_DROP0</a>*</b>
 
 Information about an IPsec DoS Protection event.
 
@@ -133,21 +133,21 @@ Information about an allow event.
 
 ### -field capabilityDrop
 
-Type: <b><a href="https://msdn.microsoft.com/40848332-0961-417c-8adc-dd1a380594ba">FWPM_NET_EVENT_CAPABILITY_DROP0</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447364(v=VS.85).aspx">FWPM_NET_EVENT_CAPABILITY_DROP0</a>*</b>
 
 Information about a capability-related drop event.
 
 
 ### -field capabilityAllow
 
-Type: <b><a href="https://msdn.microsoft.com/e53e92e5-f7fa-4457-8681-754b50b24273">FWPM_NET_EVENT_CAPABILITY_ALLOW0</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447362(v=VS.85).aspx">FWPM_NET_EVENT_CAPABILITY_ALLOW0</a>*</b>
 
 Information about a capability-related allow event.
 
 
 ### -field classifyDropMac
 
-Type: <b><a href="https://msdn.microsoft.com/750c2cfa-6799-492d-9e10-b4260541ada7">FWPM_NET_EVENT_CLASSIFY_DROP_MAC0</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh969202(v=VS.85).aspx">FWPM_NET_EVENT_CLASSIFY_DROP_MAC0</a>*</b>
 
 Information about a MAC layer drop event.
 

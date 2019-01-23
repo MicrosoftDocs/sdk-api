@@ -4,7 +4,7 @@ title: IProviderPropertyConstraintCollection
 author: windows-sdk-content
 description: This interface is accessible to the provider through IFunctionDiscoveryProviderQuery::GetPropertyConstraints.
 old-location: ncd\iproviderpropertyconstraintcollection.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: d2e3bc10-e45f-43de-abc5-c5e35d366d87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

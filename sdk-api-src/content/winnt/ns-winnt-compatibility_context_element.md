@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> function as part of the <a href="https://msdn.microsoft.com/d8c1ef4a-8e64-45bd-a185-b4af7932a0d2">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
+The <b>COMPATIBILITY_CONTEXT_ELEMENT</b> structure is used by the <a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> function as part of the <a href="https://msdn.microsoft.com/en-us/library/Dd765160(v=VS.85).aspx">ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION</a> structure.
 
 
 

@@ -101,13 +101,9 @@ If <i>cbNew</i> is less than <i>cbOld</i>, the existing memory is truncated to f
 
 The following code example shows how to use <b>ReallocADsMem</b> to enlarge a string.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR pwszPrefix = L"LDAP://"
+
+```cpp
+LPWSTR pwszPrefix = L"LDAP://"
 DWORD dwOldSize = (lstrlenW(pwszPrefix) + 1) * sizeof(WCHAR);
 
 LPWSTR pwszADsPath = (LPWSTR)AllocADsMem(dwOldSize);
@@ -143,10 +139,10 @@ if(pwszADsPath)
 
     // Free remaining memory.
     FreeADsMem(pwszADsPath);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

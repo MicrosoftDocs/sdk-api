@@ -105,19 +105,15 @@ If the function fails, the return value is zero.
 
 The viewport extents are modified as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     xNewVE = (xOldVE * Xnum) / Xdenom 
     yNewVE = (yOldVE * Ynum) / Ydenom 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

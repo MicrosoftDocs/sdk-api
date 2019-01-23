@@ -93,7 +93,7 @@ See <a href="https://msdn.microsoft.com/2a5105ad-b77f-46b7-9a79-50514b88e7ce">IP
 
 Security algorithms of the SA transform. Available when <b>saTransformType</b> is <b>IPSEC_TRANSFORM_ESP_AUTH_AND_CIPHER</b>.
 
-See <a href="https://msdn.microsoft.com/0e213ba0-3993-41da-8ddd-5ecde7942a95">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Aa366467(v=VS.85).aspx">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a> for more information.
 
 
 ### -field espAuthFwInformation
@@ -120,7 +120,7 @@ Security algorithms of the SA transform. Available when <b>saTransformType</b> i
 
 
 
-<a href="https://msdn.microsoft.com/0e213ba0-3993-41da-8ddd-5ecde7942a95">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366467(v=VS.85).aspx">IPSEC_SA_AUTH_AND_CIPHER_INFORMATION0</a>
 
 
 

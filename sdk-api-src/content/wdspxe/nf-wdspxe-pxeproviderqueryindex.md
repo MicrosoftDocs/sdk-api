@@ -87,16 +87,12 @@ If a provider wants to insert itself in the list of registered providers in a sp
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // Suppose Provider wants to handle requests after BINLSVC has rejected them.
 //
-dwError = PxeProviderQueryIndex(L"BINLSVC", &amp;Index);
+dwError = PxeProviderQueryIndex(L"BINLSVC", &Index);
 
 if (dwError == ERROR_SUCCESS)
 {
@@ -104,15 +100,15 @@ if (dwError == ERROR_SUCCESS)
                          L"C:\\MyDir\\MyProv.DLL",
                          PXE_REG_INDEX_BOTTOM,
                          Index + 1,              // Add after BINLSVC
-                         &amp;hKey) != ERROR_SUCCESS)
+                         &hKey) != ERROR_SUCCESS)
  {
   // Handle Error
  }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

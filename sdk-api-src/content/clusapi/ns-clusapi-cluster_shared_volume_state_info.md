@@ -76,7 +76,7 @@ A <a href="https://msdn.microsoft.com/B27C110C-939F-42D4-960E-702CA1B141F9">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/B0926E1A-CA39-44FE-989C-B8BDD86F9683">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn806623(v=VS.85).aspx">CLUSTER_SHARED_VOLUME_STATE_INFO_EX</a>
 
 
 

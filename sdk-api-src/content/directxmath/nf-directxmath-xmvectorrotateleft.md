@@ -92,19 +92,13 @@ The rotated vector (<i>result</i>) will be &lt;20.0f, 30.0f, 40.0f, 10.0f&gt;.
 
 In the case of a constant rotate value, it is more efficient to use the template form of <a href="https://msdn.microsoft.com/en-us/library/Hh855945(v=VS.85).aspx">XMVectorRotateLeft</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 template<uint32_t Elements>
     XMVECTOR XMVectorRotateLeft(FXMVECTOR V)
-   </pre>
-</td>
-</tr>
-</table></span></div>
+   
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

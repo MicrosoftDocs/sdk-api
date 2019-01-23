@@ -81,26 +81,22 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
   XMVECTOR N;
   static const XMVECTOR  Max = {31.f, 63.f, 31.f, 0.0f };
 
   N = XMVectorClamp(V, XMVectorZero, Max);
   N = XMVectorRound(N);
 
-  pDestination-&gt;x = (int8_t)N.v[0];
-  pDestination-&gt;y = (int8_t)N.v[1];
-  pDestination-&gt;z = (int8_t)N.v[2];
-</pre>
-</td>
-</tr>
-</table></span></div>
+  pDestination->x = (int8_t)N.v[0];
+  pDestination->y = (int8_t)N.v[1];
+  pDestination->z = (int8_t)N.v[2];
+
+```
+
+
 Note these are not normalized values. To convert to the RGB 5/6/5 format, 
     you must scale the input vector by <code>(31.f, 63.f, 31.f, 1.f)</code>. 
     Also, you will probably need to swizzle 

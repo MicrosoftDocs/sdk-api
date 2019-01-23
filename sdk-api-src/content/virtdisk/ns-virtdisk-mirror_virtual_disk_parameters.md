@@ -74,7 +74,7 @@ This structure is used if the <b>Version</b> member is set to
 
 <a href="https://msdn.microsoft.com/121cd5b2-e6fd-4eb4-99b4-b652d27b53e8">Fully qualified</a> path where the mirrored 
          virtual disk will be located. If the <i>Flags</i> parameter to 
-         <a href="https://msdn.microsoft.com/eb72043a-7515-42c0-900d-feed4503ea7a">MirrorVirtualDisk</a> is 
+         <a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a> is 
          <b>MIRROR_VIRTUAL_DISK_FLAG_NONE</b> (0) then this file must not exist. If the 
          <i>Flags</i> parameter to 
          <b>MirrorVirtualDisk</b> is 
@@ -86,7 +86,7 @@ This structure is used if the <b>Version</b> member is set to
 
 
 
-<a href="https://msdn.microsoft.com/eb72043a-7515-42c0-900d-feed4503ea7a">MirrorVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448678(v=VS.85).aspx">MirrorVirtualDisk</a>
 
 
 

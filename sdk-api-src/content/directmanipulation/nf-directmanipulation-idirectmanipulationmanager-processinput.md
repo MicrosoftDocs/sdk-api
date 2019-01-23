@@ -86,13 +86,9 @@ Call this method for mouse and keyboard input.
 
 The following example shows how to pass messages to the manipulation manager.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+
+```
+LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     BOOL handled = FALSE;
 
@@ -112,7 +108,7 @@ LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
         msg.lParam = lParam;
         msg.wParam = wParam;
 
-        if (FAILED(m_pManipulationManager-&gt;ProcessInput(&amp;msg, &amp;handled)))
+        if (FAILED(m_pManipulationManager->ProcessInput(&msg, &handled)))
         {
             handled = false;
         }
@@ -128,10 +124,10 @@ LRESULT WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
         return 0;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

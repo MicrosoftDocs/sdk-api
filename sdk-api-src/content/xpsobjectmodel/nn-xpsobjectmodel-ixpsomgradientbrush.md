@@ -92,7 +92,7 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/1f51f818-e9bb-4d88-9795
 <a href="https://msdn.microsoft.com/c4c62817-735b-4ef1-84cf-1c9fa63f55ee">GetSpreadMethod</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ Gets the name of the lookup key  of the shared matrix transform interface that i
 <a href="https://msdn.microsoft.com/f9fa44e7-336a-4758-ac53-b2d527336b7d">SetColorInterpolationMode</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/ad203082-d5a3-4414-88e1-8fd4dded6ea9">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372940(v=VS.85).aspx">XPS_COLOR_INTERPOLATION</a> value, which describes the gamma function to be used for color interpolation.
             
 
 </td>
@@ -140,7 +140,7 @@ Sets the <a href="https://msdn.microsoft.com/ad203082-d5a3-4414-88e1-8fd4dded6ea
 <a href="https://msdn.microsoft.com/2114ba2e-95df-466e-983f-a56491bf891c">SetSpreadMethod</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region is to be rendered.
             
 
 </td>
@@ -181,7 +181,7 @@ Gradient stops  define the color at specific locations along the gradient path; 
 As shown in the figure that follows, the gradient region of a radial gradient is the area enclosed by the ellipse that is described by the center point and the x and y radii that extend from the center point. The spread area is the area outside of that ellipse. The gradient path is a radial line that sweeps the entire gradient region from the gradient origin to the ellipse that bounds the gradient region. In the following illustration, the gradient path is not shown.
 
 <img alt="A figure that shows the terms used in a radial gradient" src="../images/RadialGradient1.png"/>
-The spread method describes how the spread area is filled. Implementation of the spread method depends on the gradient type (linear or radial). The following illustration shows several examples of how the spread area can be filled. For  information about different spread methods, see <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a>.
+The spread method describes how the spread area is filled. Implementation of the spread method depends on the gradient type (linear or radial). The following illustration shows several examples of how the spread area can be filled. For  information about different spread methods, see <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a>.
 
 <img alt="An illustration that shows examples of the spread method" src="../images/XPS_Spread_Method.png"/>
  The transform  determines how the resulting gradient is transformed. The visible part of the gradient that is ultimately rendered in the image is determined by the path, stroke, or glyph that is using the gradient brush.

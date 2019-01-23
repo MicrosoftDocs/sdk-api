@@ -81,18 +81,12 @@ Returns true if both the x and y-components of <i>V</i> are within the set bound
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 return (V.x <= Bounds.x && V.x >= -Bounds.x) &&
-       (V.y <= Bounds.y && V.y >= -Bounds.y);</pre>
-</td>
-</tr>
-</table></span></div>
+       (V.y <= Bounds.y && V.y >= -Bounds.y);
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

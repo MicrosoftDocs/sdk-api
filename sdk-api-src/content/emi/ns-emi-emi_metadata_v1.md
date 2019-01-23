@@ -58,7 +58,7 @@ The <b>EMI_METADATA</b> structure provides metadata about a device that supports
 
 ### -field MeasurementUnit
 
-An <a href="https://msdn.microsoft.com/en-us/library/Dn957427(v=VS.85).aspx">EMI_MEASUREMENT_UNIT</a> that specifies the unit of energy measurements that can be obtained from the device by calling <a href="https://msdn.microsoft.com/E23B1ED2-A87D-419A-8BEB-136AA77258AE">IOCTL_EMI_GET_MEASUREMENT</a>. In devices that support <b>EMI_VERSION_V1</b>, the only supported unit is <b>EmiMeasurementUnitPicowattHours</b>.
+An <a href="https://msdn.microsoft.com/02152942-A024-4D53-962A-A2ECF7E7D50C">EMI_MEASUREMENT_UNIT</a> that specifies the unit of energy measurements that can be obtained from the device by calling <a href="https://msdn.microsoft.com/E23B1ED2-A87D-419A-8BEB-136AA77258AE">IOCTL_EMI_GET_MEASUREMENT</a>. In devices that support <b>EMI_VERSION_V1</b>, the only supported unit is <b>EmiMeasurementUnitPicowattHours</b>.
 
 
 ### -field HardwareOEM

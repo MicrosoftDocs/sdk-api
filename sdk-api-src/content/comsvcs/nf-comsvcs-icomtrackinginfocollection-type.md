@@ -58,7 +58,7 @@ Retrieves the type of a tracking information collection.
 
 ### -param pType [out]
 
-The type of tracking information. For a list of values, see the <a href="https://msdn.microsoft.com/0dd3defb-0731-4bef-9735-6a4b7551cff2">TRACKING_COLL_TYPE</a> enumeration.
+The type of tracking information. For a list of values, see the <a href="https://msdn.microsoft.com/en-us/library/ms678931(v=VS.85).aspx">TRACKING_COLL_TYPE</a> enumeration.
 
 
 ## -returns

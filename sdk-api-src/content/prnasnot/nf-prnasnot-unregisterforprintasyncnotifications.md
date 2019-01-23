@@ -98,13 +98,9 @@ The return values are COM error codes. Because this function might complete the 
 
 The following code example shows how these macros can be used to evaluate the return value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>if (SUCCEEDED(hr)) {
+
+```cpp
+if (SUCCEEDED(hr)) {
   // Call succeeded, check HRESULT value returned
   switch (HRESULT_CODE(hr)){
     case S_OK:
@@ -132,13 +128,13 @@ The following code example shows how these macros can be used to evaluate the re
       break;
   }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 
-See <a href="https://msdn.microsoft.com/en-us/library/Dd162835(v=VS.85).aspx">PrintAsyncNotifyError</a> for other possible return values.
+See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 
 
 

@@ -103,7 +103,7 @@ You must set the <b>cbSize</b> member manually before using this structure. It s
 
 
 
-<a href="https://msdn.microsoft.com/9ed2a3fe-c31d-42fc-9ee9-27dd9aef7e06">IWMReaderAdvanced::GetStatistics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd743477(v=VS.85).aspx">IWMReaderAdvanced::GetStatistics</a>
 
 
 

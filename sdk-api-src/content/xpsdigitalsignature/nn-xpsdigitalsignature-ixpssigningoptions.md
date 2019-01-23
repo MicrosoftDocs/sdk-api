@@ -110,7 +110,7 @@ Gets the current digest method.
 <a href="https://msdn.microsoft.com/02d07300-e8f2-44fa-a562-5cec03af9a8c">GetFlags</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a> value that specifies the signing flags to be used for this signature.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Gets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb46
 <a href="https://msdn.microsoft.com/0643ee4d-7991-4570-8dce-8166f007abc8">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that specifies the signing policy.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> value that specifies the signing policy.
             
 
 </td>
@@ -175,7 +175,7 @@ Sets the URI of the digest method.
 <a href="https://msdn.microsoft.com/59467fd5-c462-4827-a4f8-e152df981ace">SetFlags</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb464">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372986(v=VS.85).aspx">XPS_SIGN_FLAGS</a> value that specifies the signing flags to use for this signature.
             
 
 </td>
@@ -185,7 +185,7 @@ Sets the <a href="https://msdn.microsoft.com/36fa92d4-ffd4-4666-8d3e-02436e3bb46
 <a href="https://msdn.microsoft.com/6e1738b3-f1ce-407e-bbaa-7f4c57e30028">SetPolicy</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy.
+Sets the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> value that represents the signing policy.
             
 
 </td>

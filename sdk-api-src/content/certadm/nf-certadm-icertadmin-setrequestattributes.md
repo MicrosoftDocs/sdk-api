@@ -138,26 +138,22 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    BSTR bstrAttribs = NULL;
+
+```cpp
+    BSTR bstrAttribs = NULL;
     BSTR bstrCA = NULL;
     long nReqID;  // request ID
 
     //  Specify the attributes.
     //  For example, "AttName1:AttValue1\nAttName2:AttValue2". 
-    bstrAttribs = SysAllocString(L"&lt;ATTRIBUTESHERE&gt;");
+    bstrAttribs = SysAllocString(L"<ATTRIBUTESHERE>");
     if (NULL == bstrAttribs)
     {
         printf("Memory allocation failed for bstrAttribs.\n");
         goto error;
     }
     
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed for bstrCA.\n");
@@ -165,12 +161,12 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     }
 
     //  Request ID to receive the attributes.
-    nReqID = &lt;REQUESTIDHERE&gt;;
+    nReqID = <REQUESTIDHERE>;
 
     //  Add these attributes to the certificate.
     //  pCertAdmin is a previously instantiated
     //  ICertAdmin object pointer. 
-    hr = pCertAdmin-&gt;SetRequestAttributes( bstrCA,
+    hr = pCertAdmin->SetRequestAttributes( bstrCA,
                                            nReqID,
                                            bstrAttribs );
     if (FAILED(hr))
@@ -186,10 +182,10 @@ error:
         SysFreeString(bstrAttribs);
     if (bstrCA)
         SysFreeString(bstrCA);
-    //  Free other resources.</pre>
-</td>
-</tr>
-</table></span></div>
+    //  Free other resources.
+```
+
+
 
 
 

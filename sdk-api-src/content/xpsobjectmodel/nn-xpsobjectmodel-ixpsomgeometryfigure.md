@@ -135,7 +135,7 @@ Gets the number of segment data points in the figure.
 <a href="https://msdn.microsoft.com/497701aa-8738-43d1-830f-7a6c00cfa2cc">GetSegmentStrokePattern</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f3758">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
             
 
 </td>
@@ -214,13 +214,9 @@ The <b>IXpsOMGeometryFigure</b> corresponds to the <b>PathFigure</b> element in 
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMGeometryFigure    *newInterface;
 // startPoint contains the starting point
 // of the geometry figure being created
@@ -234,28 +230,28 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreateGeometryFigure (&amp;startPoint, &amp;newInterface);
+    hr = xpsFactory->CreateGeometryFigure (&startPoint, &newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -280,7 +276,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f3758">XPS_SEGMENT_STROKE_PATTERN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a>
  
 
  

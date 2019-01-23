@@ -99,7 +99,7 @@ The  <b>NL_BANDWIDTH_INFORMATION</b> structure is defined in the <i>Nldef.h</i> 
 
 
 
-<a href="https://msdn.microsoft.com/E3109F71-E103-4586-9274-B83C4DC22382">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh769033(v=VS.85).aspx">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>
 
 
 

@@ -160,25 +160,21 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 The following code sample demonstrates how to delete a share using a call to the <b>NetShareDel</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;lm.h&gt;
+#include <windows.h>
+#include <stdio.h>
+#include <lm.h>
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain( int argc, TCHAR *argv[ ])
 {
    NET_API_STATUS res;
 
-   if(argc&lt;3)
+   if(argc<3)
       printf("Usage: NetShareDel server share\n");
    else
    {
@@ -196,10 +192,10 @@ void wmain( int argc, TCHAR *argv[ ])
    }
    return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

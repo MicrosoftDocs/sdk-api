@@ -97,7 +97,7 @@ Calls made to other Windows Animation methods from <b>IUIAnimationManager2::OnMa
 
 
 
-<a href="https://msdn.microsoft.com/499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8">UI_ANIMATION_MANAGER_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317043(v=VS.85).aspx">UI_ANIMATION_MANAGER_STATUS</a>
  
 
  

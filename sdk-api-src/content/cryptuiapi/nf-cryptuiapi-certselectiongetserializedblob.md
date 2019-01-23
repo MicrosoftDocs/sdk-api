@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-The <b>CertSelectionGetSerializedBlob</b> function is a helper function used to retrieve a serialized certificate <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> from a <a href="https://msdn.microsoft.com/en-us/library/Ff394770(v=VS.85).aspx">CERT_SELECTUI_INPUT</a> structure.
+The <b>CertSelectionGetSerializedBlob</b> function is a helper function used to retrieve a serialized certificate <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> from a <a href="https://msdn.microsoft.com/8953cddd-86b6-4781-8dca-b5fd3d298bc8">CERT_SELECTUI_INPUT</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CertSelectionGetSerializedBlob</b> function is a helper function used to 
 
 ### -param pcsi [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff394770(v=VS.85).aspx">CERT_SELECTUI_INPUT</a> structure that contains the certificate store and certificate context chain information.
+A pointer to a <a href="https://msdn.microsoft.com/8953cddd-86b6-4781-8dca-b5fd3d298bc8">CERT_SELECTUI_INPUT</a> structure that contains the certificate store and certificate context chain information.
 
 
 ### -param ppOutBuffer [out]
@@ -92,7 +92,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 The returned serialized BLOB is passed to the <a href="https://msdn.microsoft.com/946ac279-d30a-4a6c-a76d-d93597121427">CredUIPromptForWindowsCredentials</a> function in the <i>pvInAuthBuffer</i> parameter to allow a user to select a certificate by using the credential selection UI.
 
-The certificates that are serialized in the BLOB returned in the buffer pointed to by the <i>ppOutBuffer</i>  parameter of this function are dependent on the values  of the <b>hStore</b> and <b>prgpChain</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Ff394770(v=VS.85).aspx">CERT_SELECTUI_INPUT</a> structure. 
+The certificates that are serialized in the BLOB returned in the buffer pointed to by the <i>ppOutBuffer</i>  parameter of this function are dependent on the values  of the <b>hStore</b> and <b>prgpChain</b> members of the <a href="https://msdn.microsoft.com/8953cddd-86b6-4781-8dca-b5fd3d298bc8">CERT_SELECTUI_INPUT</a> structure. 
 
 <table>
 <tr>

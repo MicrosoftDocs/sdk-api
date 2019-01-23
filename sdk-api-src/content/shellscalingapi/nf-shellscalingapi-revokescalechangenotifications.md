@@ -62,7 +62,7 @@ Revokes the registration of a window, preventing it from receiving callbacks whe
 
 ### -param displayDevice [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh802761(v=VS.85).aspx">DISPLAY_DEVICE_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/C8964494-339B-4198-A544-3BBCCFEB9596">DISPLAY_DEVICE_TYPE</a></b>
 
 The enum value that indicates which display device to receive notifications about.
 

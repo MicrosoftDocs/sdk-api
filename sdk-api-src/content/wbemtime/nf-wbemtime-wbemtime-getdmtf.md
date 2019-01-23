@@ -98,11 +98,11 @@ The calling function must call <a href="https://msdn.microsoft.com/en-us/library
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa394018(v=VS.85).aspx">WBEMTime::GetBSTR</a>
+<a href="https://msdn.microsoft.com/f1fe92cc-1d51-4bd7-950b-84c76b001163">WBEMTime::GetBSTR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa394041(v=VS.85).aspx">WBEMTime::SetDMTF</a>
+<a href="https://msdn.microsoft.com/5a2ed11d-34d8-44b1-a8ce-e8aa7c96c730">WBEMTime::SetDMTF</a>
  
 
  

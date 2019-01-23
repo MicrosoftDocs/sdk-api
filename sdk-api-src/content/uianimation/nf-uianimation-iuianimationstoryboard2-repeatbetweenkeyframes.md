@@ -75,11 +75,11 @@ The number of times the loop is to be repeated; the last iteration of a loop can
 
 The pattern for the loop iteration. 
 
-A value of <a href="https://msdn.microsoft.com/5E3AAAFE-C4EC-4BAF-AD0E-51F1AC04E472">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) specifies that the  start of the loop must alternate between keyframes (k1-&gt;k2, k2-&gt;k1, k1-&gt;k2, and so on).
+A value of <a href="https://msdn.microsoft.com/en-us/library/Hh448672(v=VS.85).aspx">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) specifies that the  start of the loop must alternate between keyframes (k1-&gt;k2, k2-&gt;k1, k1-&gt;k2, and so on).
 
-A value of <a href="https://msdn.microsoft.com/5E3AAAFE-C4EC-4BAF-AD0E-51F1AC04E472">UI_ANIMATION_REPEAT_MODE_NORMAL</a> (0) specifies that the start of the  loop must begin with the first keyframe (k1-&gt;k2, k1-&gt;k2, k1-&gt;k2, and so on).
+A value of <a href="https://msdn.microsoft.com/en-us/library/Hh448672(v=VS.85).aspx">UI_ANIMATION_REPEAT_MODE_NORMAL</a> (0) specifies that the start of the  loop must begin with the first keyframe (k1-&gt;k2, k1-&gt;k2, k1-&gt;k2, and so on).
 
-<div class="alert"><b>Note</b>  If <i>repeatMode</i> has a value of <a href="https://msdn.microsoft.com/5E3AAAFE-C4EC-4BAF-AD0E-51F1AC04E472">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) and <i>cRepetition</i> has a value of <a href="https://msdn.microsoft.com/09213B74-16C9-48F9-9626-59FF6CFDE975">UI_ANIMATION_REPEAT_INDEFINITELY</a> (-1), the loop terminates on the end keyframe.
+<div class="alert"><b>Note</b>  If <i>repeatMode</i> has a value of <a href="https://msdn.microsoft.com/en-us/library/Hh448672(v=VS.85).aspx">UI_ANIMATION_REPEAT_MODE_ALTERNATE</a> (1) and <i>cRepetition</i> has a value of <a href="https://msdn.microsoft.com/09213B74-16C9-48F9-9626-59FF6CFDE975">UI_ANIMATION_REPEAT_INDEFINITELY</a> (-1), the loop terminates on the end keyframe.
 </div>
 <div> </div>
 

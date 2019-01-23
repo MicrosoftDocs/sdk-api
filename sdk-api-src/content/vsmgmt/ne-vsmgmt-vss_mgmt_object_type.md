@@ -49,7 +49,7 @@ req.redist:
 
 
 The <b>VSS_MGMT_OBJECT_TYPE</b> enumeration type is a 
-    discriminant for the <a href="https://msdn.microsoft.com/4d787229-671a-422c-a935-39ae11073a5e">VSS_MGMT_OBJECT_UNION</a> 
+    discriminant for the <a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a> 
     union within the <a href="https://msdn.microsoft.com/86681207-969e-4b33-aff8-79454ab04829">VSS_MGMT_OBJECT_PROP</a> 
     structure.
 
@@ -89,7 +89,7 @@ The object is an association between a volume to be shadow copied and a volume t
 
 
 
-<a href="https://msdn.microsoft.com/4d787229-671a-422c-a935-39ae11073a5e">VSS_MGMT_OBJECT_UNION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384957(v=VS.85).aspx">VSS_MGMT_OBJECT_UNION</a>
  
 
  

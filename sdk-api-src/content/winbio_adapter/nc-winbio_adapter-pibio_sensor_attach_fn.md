@@ -115,7 +115,7 @@ The <b>SensorContext</b> member of the <a href="https://msdn.microsoft.com/b5fc2
 
 
 
-This function is called before the engine and storage adapters have been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/04429f64-ae41-4c26-a777-bdb7aa92b685">WINBIO_ENGINE_INTERFACE</a> or the <a href="https://msdn.microsoft.com/1cc7ce07-66df-43d9-9db2-50558a0f5f47">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
+This function is called before the engine and storage adapters have been initialized for the biometric unit. Therefore, this function must not call any functions referenced by the <a href="https://msdn.microsoft.com/en-us/library/Dd401655(v=VS.85).aspx">WINBIO_ENGINE_INTERFACE</a> or the <a href="https://msdn.microsoft.com/en-us/library/Dd401661(v=VS.85).aspx">WINBIO_STORAGE_INTERFACE</a> structure pointed to by the <b>EngineInterface</b> and <b>StorageInterface</b> members of the pipeline object.
 
 Because the <b>SensorHandle</b> member of the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae41c3e12a">WINBIO_PIPELINE</a> structure will contain  a valid handle before  this method is called, your implementation of <i>SensorAdapterAttach</i>  can use the handle to access the sensor device if necessary.
 
@@ -130,13 +130,9 @@ If the <b>SensorContext</b> field is not <b>NULL</b> when this function is calle
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterAttach
 //
@@ -164,7 +160,7 @@ SensorAdapterAttach(
     }
 
     // Validate the current sensor state.
-    if (Pipeline-&gt;SensorContext != NULL)
+    if (Pipeline->SensorContext != NULL)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -180,8 +176,8 @@ SensorAdapterAttach(
     }
 
     // Create a manual reset event to monitor overlapped I/O.
-    newContext-&gt;Overlapped.hEvent = CreateEvent(NULL, TRUE, FALSE, NULL);
-    if (newContext-&gt;Overlapped.hEvent == NULL)
+    newContext->Overlapped.hEvent = CreateEvent(NULL, TRUE, FALSE, NULL);
+    if (newContext->Overlapped.hEvent == NULL)
     {
         hr = E_OUTOFMEMORY;
         goto cleanup;
@@ -189,31 +185,31 @@ SensorAdapterAttach(
 
     // Initialize any required context fields. This example assumes that your
     // sensor context points to a capture buffer and an attributes buffer.
-    newContext-&gt;CaptureBuffer = NULL;
-    newContext-&gt;CaptureBufferSize = 0;
+    newContext->CaptureBuffer = NULL;
+    newContext->CaptureBufferSize = 0;
 
-    newContext-&gt;AttributesBuffer = NULL;
-    newContext-&gt;AttributesBufferSize = sizeof (WINBIO_SENSOR_ATTRIBUTES);
+    newContext->AttributesBuffer = NULL;
+    newContext->AttributesBufferSize = sizeof (WINBIO_SENSOR_ATTRIBUTES);
 
     // Transfer ownership of the new sensor context structure to the 
     // pipeline.
-    Pipeline-&gt;SensorContext = newContext;
+    Pipeline->SensorContext = newContext;
     newContext = NULL;
 
 cleanup:
 
-    if (FAILED(hr) &amp;&amp; newContext != NULL)
+    if (FAILED(hr) && newContext != NULL)
     {
-        CloseHandle( newContext-&gt;Overlapped.hEvent;
+        CloseHandle( newContext->Overlapped.hEvent;
         _AdapterRelease( newContext );
         newContext = NULL;
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

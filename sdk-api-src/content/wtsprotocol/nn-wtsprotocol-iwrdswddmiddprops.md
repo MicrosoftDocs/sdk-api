@@ -68,7 +68,7 @@ The <b>IWRdsWddmIddProps</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19F07236-6F9C-49F0-B100-E02F9DBF54F7">EnableWddmIdd</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832806(v=VS.85).aspx">EnableWddmIdd</a>
 </td>
 <td align="left" width="63%">
 Termsrv uses this method to tell protocol stack  which mode it is 
@@ -79,7 +79,7 @@ Termsrv uses this method to tell protocol stack  which mode it is
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4F9D2C6D-6555-4ABE-B856-6DD59B139978">GetHardwareId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832807(v=VS.85).aspx">GetHardwareId</a>
 </td>
 <td align="left" width="63%">
 Protocol stack uses this method to return hardware Id of WDDM ID driver.
@@ -88,7 +88,7 @@ Protocol stack uses this method to return hardware Id of WDDM ID driver.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8070441A-60E1-4752-A987-A5BD322AA55A">OnDriverLoad</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832808(v=VS.85).aspx">OnDriverLoad</a>
 </td>
 <td align="left" width="63%">
 Termsrv uses this method to return a handle of the loaded WDDM ID driver to 
@@ -99,7 +99,7 @@ Termsrv uses this method to return a handle of the loaded WDDM ID driver to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D61C38FD-0298-4363-8A09-D0C2844C23CA">OnDriverUnload</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt832809(v=VS.85).aspx">OnDriverUnload</a>
 </td>
 <td align="left" width="63%">
 Termsrv uses this method to tell the protocol stack that PnP unloaded the

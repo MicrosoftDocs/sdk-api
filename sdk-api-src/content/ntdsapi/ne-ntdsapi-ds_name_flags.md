@@ -63,7 +63,7 @@ Indicates that there are no associated flags.
 
 ### -field DS_NAME_FLAG_SYNTACTICAL_ONLY
 
-Performs a syntactical mapping at the client without transferring over the network. The only syntactic mapping supported is from <a href="https://msdn.microsoft.com/en-us/library/ms676245(v=VS.85).aspx">DS_FQDN_1779_NAME</a> to <b>DS_CANONICAL_NAME</b> or <b>DS_CANONICAL_NAME_EX</b>. <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> returns the <b>DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING</b> flag if a  syntactical mapping is not possible.
+Performs a syntactical mapping at the client without transferring over the network. The only syntactic mapping supported is from <a href="https://msdn.microsoft.com/7a99e531-5a38-4352-8921-7b5a765ffd03">DS_FQDN_1779_NAME</a> to <b>DS_CANONICAL_NAME</b> or <b>DS_CANONICAL_NAME_EX</b>. <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> returns the <b>DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING</b> flag if a  syntactical mapping is not possible.
 
 
 ### -field DS_NAME_FLAG_EVAL_AT_DC
@@ -86,7 +86,7 @@ Enables cross forest trust referral.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676245(v=VS.85).aspx">DS_NAME_FORMAT</a>
+<a href="https://msdn.microsoft.com/7a99e531-5a38-4352-8921-7b5a765ffd03">DS_NAME_FORMAT</a>
 
 
 

@@ -254,24 +254,20 @@ This method fails if the extension-enumeration sequence was obtained by a call t
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT     var;
+
+```cpp
+VARIANT     var;
 LONG        Index;
 HRESULT     hr;
 SYSTEMTIME  systime;
 
-VariantInit(&amp;var);
+VariantInit(&var);
 
 // Enumerate each extension
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-while (S_OK == pEnumExt-&gt;Next(&amp;Index))
+while (S_OK == pEnumExt->Next(&Index))
 {
-    hr = pEnumExt-&gt;GetValue(PROPTYPE_BINARY, CV_OUT_HEX, &amp;var);
+    hr = pEnumExt->GetValue(PROPTYPE_BINARY, CV_OUT_HEX, &var);
     if (FAILED(hr))
     {
         printf("Failed GetValue - %x\n", hr);
@@ -286,7 +282,7 @@ while (S_OK == pEnumExt-&gt;Next(&amp;Index))
             printf("BSTR:%ws\n", var.bstrVal);
             break;
         case VT_DATE:
-            VariantTimeToSystemTime(var.date, &amp;systime);
+            VariantTimeToSystemTime(var.date, &systime);
             printf("%d.%d.%d %02d:%02d:%02d\n",
                    systime.wMonth,
                    systime.wDay,
@@ -307,10 +303,10 @@ while (S_OK == pEnumExt-&gt;Next(&amp;Index))
     }
 }
 // Free resources.
-VariantClear( &amp;var );</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear( &var );
+```
+
+
 
 
 

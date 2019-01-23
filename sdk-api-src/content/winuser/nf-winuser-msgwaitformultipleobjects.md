@@ -4,7 +4,7 @@ title: MsgWaitForMultipleObjects function
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.
 old-location: base\msgwaitformultipleobjects.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 0629f1b3-6805-43a7-9aeb-4f80939ec62c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

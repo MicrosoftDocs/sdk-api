@@ -75,7 +75,7 @@ Run state.
 
 
 
-Change the state by calling the <a href="https://msdn.microsoft.com/69c3612f-e91a-4ab3-8f6d-2966e64a9220">IMultiMediaStream::SetState</a> method.
+Change the state by calling the <a href="https://msdn.microsoft.com/en-us/library/Dd390335(v=VS.85).aspx">IMultiMediaStream::SetState</a> method.
 
 
 

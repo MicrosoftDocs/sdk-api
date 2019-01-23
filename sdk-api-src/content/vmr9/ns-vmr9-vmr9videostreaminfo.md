@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the <a href="https://msdn.microsoft.com/a59d21e8-faa2-484d-9d82-991c6bc4e045">IVMRImageCompositor9::CompositeImage</a> method.
+The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the <a href="https://msdn.microsoft.com/en-us/library/Dd377382(v=VS.85).aspx">IVMRImageCompositor9::CompositeImage</a> method.
 
 
 
@@ -61,7 +61,7 @@ The <code>VMR9VideoStreamInfo</code> structure describes the rendering parameter
 
 ### -field pddsVideoSurface
 
-A pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the video to be composited.
 
 
 ### -field dwWidth
@@ -89,7 +89,7 @@ The alpha value for this stream. (Not per-pixel alpha.)
 
 ### -field rNormal
 
-The position of the image in composition space, as a <a href="https://msdn.microsoft.com/226b685c-92da-45c3-b99a-6c1e732f8dc6">VMR9NormalizedRect</a> structure.
+The position of the image in composition space, as a <a href="https://msdn.microsoft.com/en-us/library/Dd407369(v=VS.85).aspx">VMR9NormalizedRect</a> structure.
           
 
 
@@ -105,7 +105,7 @@ The end time of the video frame, in 100-nanosecond units.
 
 ### -field SampleFormat
 
-The video interlacing format, specified as a member of the <a href="https://msdn.microsoft.com/0e501c05-91ac-4594-bdfe-e8b4bfeb5bcb">VMR9_SampleFormat</a> enumeration type.
+The video interlacing format, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407379(v=VS.85).aspx">VMR9_SampleFormat</a> enumeration type.
           
 
 

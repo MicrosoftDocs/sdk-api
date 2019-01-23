@@ -110,7 +110,7 @@ The <b>Values</b> member refers to an array of offsets to Unicode character stri
 </dl>
 </td>
 <td width="60%">
-The <b>Values</b> member refers to an array of <a href="https://msdn.microsoft.com/6647CC4F-1A84-43B2-A80E-7B6BF3A2D7AD">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
+The <b>Values</b> member refers to an array of <a href="https://msdn.microsoft.com/en-us/library/Hh448485(v=VS.85).aspx">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a> values.
 
 </td>
 </tr>
@@ -234,5 +234,5 @@ Pointer to an array of <b>ValueCount</b> members where each member is an offset 
 
 ### -field Values.pOctetString
 
-Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://msdn.microsoft.com/6647CC4F-1A84-43B2-A80E-7B6BF3A2D7AD">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
+Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="https://msdn.microsoft.com/en-us/library/Hh448485(v=VS.85).aspx">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
 

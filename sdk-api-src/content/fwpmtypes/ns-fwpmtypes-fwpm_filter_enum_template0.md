@@ -134,7 +134,7 @@ Include disabled filters; ignored if the <b>FWP_FILTER_ENUM_FLAG_BOOTTIME_ONLY</
 
 ### -field providerContextTemplate
 
-A <a href="https://msdn.microsoft.com/0d43931a-93ae-43dd-9c5b-3989799e7b60">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-<b>NULL</b>, only enumerate filters whose provider context matches the
+A <a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> structure that is used to limit the number of filters enumerated. If non-<b>NULL</b>, only enumerate filters whose provider context matches the
    template. 
 
 
@@ -209,7 +209,7 @@ Uniquely identifies the callout.
 
 
 
-<a href="https://msdn.microsoft.com/0d43931a-93ae-43dd-9c5b-3989799e7b60">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 

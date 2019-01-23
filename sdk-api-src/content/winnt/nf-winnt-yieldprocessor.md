@@ -4,7 +4,7 @@ title: YieldProcessor function
 author: windows-sdk-content
 description: Signals to the processor to give resources to threads that are waiting for them.
 old-location: base\yieldprocessor.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 83a331c1-cfc6-427d-aa80-9583db02ee92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

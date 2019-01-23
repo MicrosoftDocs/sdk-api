@@ -73,7 +73,7 @@ The unique ID of the field.
 
 ### -param cpfis [in]
 
-Type: <b><a href="https://msdn.microsoft.com/745ac5f0-fcfe-4f42-ab4c-c933f1d3870b">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762488(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a></b>
 
 The new interactive state of the field.
 

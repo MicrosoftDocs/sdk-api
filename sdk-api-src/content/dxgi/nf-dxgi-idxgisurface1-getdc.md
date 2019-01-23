@@ -107,28 +107,24 @@ Keep the following in mind when using this method:
 You can also call <b>GetDC</b> on the back buffer at index 0 of a swap chain by obtaining an <a href="https://msdn.microsoft.com/99ece4f3-1bad-46b8-94a9-6ef559864b1c">IDXGISurface1</a>  from the swap chain.  
       The following code illustrates the process.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDXGISwapChain* g_pSwapChain = NULL;
 IDXGISurface1* g_pSurface1 = NULL;
 ...
 //Setup the device and and swapchain
-g_pSwapChain-&gt;GetBuffer(0, __uuidof(IDXGISurface1), (void**) &amp;g_pSurface1);
-g_pSurface1-&gt;GetDC( FALSE, &amp;g_hDC );
+g_pSwapChain->GetBuffer(0, __uuidof(IDXGISurface1), (void**) &g_pSurface1);
+g_pSurface1->GetDC( FALSE, &g_hDC );
 ...      
 //Draw on the DC using GDI
 ...
 //When finish drawing release the DC
-g_pSurface1-&gt;ReleaseDC( NULL );
-      </pre>
-</td>
-</tr>
-</table></span></div>
+g_pSurface1->ReleaseDC( NULL );
+      
+```
+
+
 
 
 

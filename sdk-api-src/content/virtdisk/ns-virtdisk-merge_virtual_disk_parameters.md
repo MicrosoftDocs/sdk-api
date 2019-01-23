@@ -59,7 +59,7 @@ Contains virtual hard disk (VHD) merge request parameters.
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/1f542a51-d314-4add-a389-d450785b0a73">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323679(v=VS.85).aspx">MERGE_VIRTUAL_DISK_VERSION</a> enumeration 
       that specifies the version of the 
       <b>MERGE_VIRTUAL_DISK_PARAMETERS</b> structure 
       being passed to or from the VHD functions.
@@ -78,7 +78,7 @@ Depth of the merge request. This is the number of parent disks in the differenci
 
 <div class="alert"><b>Note</b>  The RWDepth of the virtual disk must be greater than <b>MergeDepth</b>. For more 
          information, see 
-         <a href="https://msdn.microsoft.com/ad67bc3e-a0fe-4198-9307-819577abef7f">OPEN_VIRTUAL_DISK_PARAMETERS</a>.</div>
+         <a href="https://msdn.microsoft.com/en-us/library/Dd323682(v=VS.85).aspx">OPEN_VIRTUAL_DISK_PARAMETERS</a>.</div>
 <div> </div>
 
 ### -field Version2
@@ -105,7 +105,7 @@ Depth from  the leaf to target the merge.  The leaf is at depth 1.
 
 The depth of a merge request specified by the <b>MergeDepth</b> member is the number of  
     parent VHD image files in the differencing chain to be merged.  For more information, see 
-    <a href="https://msdn.microsoft.com/9a9068d1-2f81-42a2-a3b2-6030a24a4445">MergeVirtualDisk</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323676(v=VS.85).aspx">MergeVirtualDisk</a>.
 
 
 
@@ -119,7 +119,7 @@ The depth of a merge request specified by the <b>MergeDepth</b> member is the nu
 
 
 
-<a href="https://msdn.microsoft.com/9a9068d1-2f81-42a2-a3b2-6030a24a4445">MergeVirtualDisk</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323676(v=VS.85).aspx">MergeVirtualDisk</a>
 
 
 

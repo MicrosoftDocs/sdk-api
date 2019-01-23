@@ -91,13 +91,9 @@ The first time you call the <b>FontFamily::GetLastStatus</b> method of a
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534439(v=VS.85).aspx">FontFamily</a> object and then checks the status of the call to create the object. If the call was successful, the example draws text.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetLastStatus(HDC hdc)
+
+```cpp
+VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -111,14 +107,14 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
    if (status ==Ok)
    {
        SolidBrush solidbrush(Color(255, 0, 0, 0));
-       Font       font(&amp;myFontFamily, 16);
+       Font       font(&myFontFamily, 16);
        WCHAR      string[] = L"status = Ok";
-       graphics.DrawString(string, -1, &amp;font, PointF(0, 0), &amp;solidbrush);
+       graphics.DrawString(string, -1, &font, PointF(0, 0), &solidbrush);
    }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

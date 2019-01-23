@@ -164,7 +164,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the current correction comb mode as specified by the <a href="https://msdn.microsoft.com/133d2012-e43c-490a-b126-b7670ea7acf8">CorrectionMode Enumeration</a>.
+Gets the current correction comb mode as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms695063(v=VS.85).aspx">CorrectionMode Enumeration</a>.
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the current in-place state as specified by the <a href="https://msdn.microsoft.com/95642cbf-4520-44cc-95ba-80de1fe3b447">InPlaceState Enumeration</a>.
+Gets the current in-place state as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a>.
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the current input area as specified by the <a href="https://msdn.microsoft.com/fc262f07-aa73-49c8-a26a-1f0a47f8269a">PanelInputArea Enumeration</a>.
+Gets the current input area as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea Enumeration</a>.
 
 </td>
 </tr>
@@ -212,7 +212,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the positioning of the Tablet PC Input Panel as specified by the <a href="https://msdn.microsoft.com/8e01c1fd-3351-47f1-beae-c84d9f7969a8">InteractionMode Enumeration</a>.
+Gets the positioning of the Tablet PC Input Panel as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms701142(v=VS.85).aspx">InteractionMode Enumeration</a>.
 
 </td>
 </tr>
@@ -228,7 +228,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the default in-place state as specified by the <a href="https://msdn.microsoft.com/95642cbf-4520-44cc-95ba-80de1fe3b447">InPlaceState Enumeration</a>.
+Gets or sets the default in-place state as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms701175(v=VS.85).aspx">InPlaceState Enumeration</a>.
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets the default input area as specified by the <a href="https://msdn.microsoft.com/fc262f07-aa73-49c8-a26a-1f0a47f8269a">PanelInputArea Enumeration</a>.
+Gets or sets the default input area as specified by the <a href="https://msdn.microsoft.com/en-us/library/ms704911(v=VS.85).aspx">PanelInputArea Enumeration</a>.
 
 </td>
 </tr>

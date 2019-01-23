@@ -79,7 +79,7 @@ Returns the WQL command if the operation was successful and <b>NULL</b> otherwis
 
 
 
-If <b>GetQuery</b> is called within <a href="https://msdn.microsoft.com/en-us/library/Aa392779(v=VS.85).aspx">Provider::GetObject</a>, the WQL command line does not contain a <a href="https://msdn.microsoft.com/9c1a164e-4728-4fbe-8a49-b571005a46ec">WHERE</a> clause.
+If <b>GetQuery</b> is called within <a href="https://msdn.microsoft.com/c8e2633a-cbea-422c-9598-1b1b1104bbc2">Provider::GetObject</a>, the WQL command line does not contain a <a href="https://msdn.microsoft.com/9c1a164e-4728-4fbe-8a49-b571005a46ec">WHERE</a> clause.
 
 
 

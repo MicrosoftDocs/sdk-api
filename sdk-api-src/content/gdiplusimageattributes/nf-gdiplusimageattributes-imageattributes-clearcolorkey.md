@@ -98,13 +98,9 @@ The following example creates an <a href="https://msdn.microsoft.com/en-us/libra
 
 The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The second time the image is drawn (after the call that sets the default color key), all of the red from 80 through 120 is transparent. The third time the image is drawn (after the call that sets the pen color key), all of the red from 135 through 175 that is drawn with a pen is transparent. Also, all of the red from 80 through 120 that is not drawn with a pen is transparent. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearColorKey</b>), none of the red drawn with a pen is transparent. Also, all of the red from 80 through 120 that is not drawn with a pen is transparent.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetClearColorKey(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -164,10 +160,8 @@ VOID Example_SetClearColorKey(HDC hdc)
       UnitPixel,
       &imAtt); 
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
 
 
 The preceding code, along with a particular file, TestMetafile5.png, produced the following output. The bars in the left column were drawn with a pen, and the bars in the right column were filled with a brush. The default color key applies to the bars filled with a brush. The color key that applies to the bars drawn with a pen varies according to the <a href="https://msdn.microsoft.com/en-us/library/ms535429(v=VS.85).aspx">ImageAttributes::SetColorKey</a> and <b>ImageAttributes::ClearColorKey</b> calls.

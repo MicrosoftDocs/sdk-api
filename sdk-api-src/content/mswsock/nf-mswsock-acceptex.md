@@ -222,23 +222,19 @@ When the
 
 For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//Need to #include &lt;mswsock.h&gt; for SO_UPDATE_ACCEPT_CONTEXT
+
+```cpp
+//Need to #include <mswsock.h> for SO_UPDATE_ACCEPT_CONTEXT
 
 int iResult = 0;
 
 iResult =  setsockopt( sAcceptSocket, SOL_SOCKET, SO_UPDATE_ACCEPT_CONTEXT, 
-    (char *)&amp;sListenSocket, sizeof(sListenSocket) );
+    (char *)&sListenSocket, sizeof(sListenSocket) );
    
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 If a receive buffer is provided, the overlapped operation will not complete until a connection is accepted and data is read. Use the 
 <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> function with the SO_CONNECT_TIME option to check whether a connection has been accepted. If it has been accepted, you can determine how long the connection has been established. The return value is the number of seconds that the socket has been connected. If the socket is not connected, the 
 <b>getsockopt</b> returns 0xFFFFFFFF. Applications that check whether the overlapped operation has completed, in combination with the SO_CONNECT_TIME option, can determine that a connection has been accepted but no data has been received. Scrutinizing a connection in this manner enables an application to determine whether connections that have been established for a while have received no data. It is recommended such connections be terminated by closing the accepted socket, which forces the 
@@ -246,28 +242,24 @@ If a receive buffer is provided, the overlapped operation will not complete unti
 
 For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 INT seconds;
 INT bytes = sizeof(seconds);
 int iResult = 0;
 
 iResult = getsockopt( sAcceptSocket, SOL_SOCKET, SO_CONNECT_TIME,
-                      (char *)&amp;seconds, (PINT)&amp;bytes );
+                      (char *)&seconds, (PINT)&bytes );
 
 if ( iResult != NO_ERROR ) {
     printf( "getsockopt(SO_CONNECT_TIME) failed: %u\n", WSAGetLastError( ) );
     exit(1);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 <div class="alert"><b>Note</b>   All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the  operations complete. See <a href="https://msdn.microsoft.com/e7f6d054-c535-4521-a3b4-800a9174732f">ExitThread</a> for more information.</div>
 <div> </div>
@@ -280,22 +272,18 @@ if ( iResult != NO_ERROR ) {
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example uses the <b>AcceptEx</b> function using overlapped I/O and completion ports.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;mswsock.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <mswsock.h>
+#include <stdio.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -327,7 +315,7 @@ int main()
     u_short port;
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"Error at WSAStartup\n");
         return 1;
@@ -359,13 +347,13 @@ int main()
     // and port 27015
     port = 27015;
     thisHost = gethostbyname("");
-    ip = inet_ntoa(*(struct in_addr *) *thisHost-&gt;h_addr_list);
+    ip = inet_ntoa(*(struct in_addr *) *thisHost->h_addr_list);
 
     service.sin_family = AF_INET;
     service.sin_addr.s_addr = inet_addr(ip);
     service.sin_port = htons(port);
 
-    if (bind(ListenSocket, (SOCKADDR *) &amp; service, sizeof (service)) == SOCKET_ERROR) {
+    if (bind(ListenSocket, (SOCKADDR *) & service, sizeof (service)) == SOCKET_ERROR) {
         wprintf(L"bind failed with error: %u\n", WSAGetLastError());
         closesocket(ListenSocket);
         WSACleanup();
@@ -392,9 +380,9 @@ int main()
     // so that we can call the AcceptEx function directly, rather
     // than refer to the Mswsock.lib library.
     iResult = WSAIoctl(ListenSocket, SIO_GET_EXTENSION_FUNCTION_POINTER,
-             &amp;GuidAcceptEx, sizeof (GuidAcceptEx), 
-             &amp;lpfnAcceptEx, sizeof (lpfnAcceptEx), 
-             &amp;dwBytes, NULL, NULL);
+             &GuidAcceptEx, sizeof (GuidAcceptEx), 
+             &lpfnAcceptEx, sizeof (lpfnAcceptEx), 
+             &dwBytes, NULL, NULL);
     if (iResult == SOCKET_ERROR) {
         wprintf(L"WSAIoctl failed with error: %u\n", WSAGetLastError());
         closesocket(ListenSocket);
@@ -412,12 +400,12 @@ int main()
     }
 
     // Empty our overlapped structure and accept connections.
-    memset(&amp;olOverlap, 0, sizeof (olOverlap));
+    memset(&olOverlap, 0, sizeof (olOverlap));
 
     bRetVal = lpfnAcceptEx(ListenSocket, AcceptSocket, lpOutputBuf,
                  outBufLen - ((sizeof (sockaddr_in) + 16) * 2),
                  sizeof (sockaddr_in) + 16, sizeof (sockaddr_in) + 16, 
-                 &amp;dwBytes, &amp;olOverlap);
+                 &dwBytes, &olOverlap);
     if (bRetVal == FALSE) {
         wprintf(L"AcceptEx failed with error: %u\n", WSAGetLastError());
         closesocket(AcceptSocket);
@@ -444,10 +432,10 @@ int main()
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Notes_for_QoS"></a><a id="notes_for_qos"></a><a id="NOTES_FOR_QOS"></a>Notes for QoS</h3>
 The 
 <a href="https://msdn.microsoft.com/45db763e-735d-48ac-a0e4-6e63b5dda7a5">TransmitFile</a> function allows the setting of two flags, TF_DISCONNECT or TF_REUSE_SOCKET, that return the socket to a "disconnected, reusable" state after the file has been transmitted. These flags should not be used on a socket where quality of service has been requested, since the service provider may immediately delete any quality of service associated with the socket before the file transfer has completed. The best approach for a QoS-enabled socket is to simply call the 

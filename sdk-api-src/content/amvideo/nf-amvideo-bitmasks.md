@@ -75,22 +75,18 @@ You can access the color masks in the array using the following constants, defin
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VIDEOINFO *pVi;
+
+```
+VIDEOINFO *pVi;
 
 /* Initialize pVi (not shown). */
 
 DWORD dwRed   = BITMASKS(pVi)[iRED];
 DWORD dwGreen = BITMASKS(pVi)[iGREEN]; 
-DWORD dwBlue  = BITMASKS(pVi)[iBLUE];</pre>
-</td>
-</tr>
-</table></span></div>
+DWORD dwBlue  = BITMASKS(pVi)[iBLUE];
+```
+
+
 
 
 

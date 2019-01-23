@@ -633,15 +633,11 @@ The TCP_NODELAY option is specific to TCP/IP service providers. The Nagle algori
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code sample demonstrates the use of the <b>getsockopt</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;stdio.h&gt;
+
+```cpp
+#include <stdio.h>
 #include "winsock2.h"
-#include &lt;windows.h&gt;
+#include <windows.h>
 
 void main() {
 
@@ -653,7 +649,7 @@ void main() {
 
   //---------------------------------------
   // Initialize Winsock
-  int iResult = WSAStartup( MAKEWORD(2,2), &amp;wsaData );
+  int iResult = WSAStartup( MAKEWORD(2,2), &wsaData );
   if( iResult != NO_ERROR )
     printf("Error at WSAStartup\n");
 
@@ -674,13 +670,13 @@ void main() {
   u_short port;
   port = 27015;
   thisHost = gethostbyname("");
-  ip = inet_ntoa (*(struct in_addr *)*thisHost-&gt;h_addr_list);
+  ip = inet_ntoa (*(struct in_addr *)*thisHost->h_addr_list);
 
   service.sin_family = AF_INET;
   service.sin_addr.s_addr = inet_addr(ip);
   service.sin_port = htons(port);
  
-  if ( bind( ListenSocket,(SOCKADDR*) &amp;service, sizeof(service) )  == SOCKET_ERROR ) {
+  if ( bind( ListenSocket,(SOCKADDR*) &service, sizeof(service) )  == SOCKET_ERROR ) {
     printf("bind failed\n");
     closesocket(ListenSocket);
     return;
@@ -701,8 +697,8 @@ void main() {
   if (getsockopt(ListenSocket, 
     SOL_SOCKET, 
     SO_ACCEPTCONN, 
-    (char*)&amp;optVal, 
-    &amp;optLen) != SOCKET_ERROR)
+    (char*)&optVal, 
+    &optLen) != SOCKET_ERROR)
     printf("SockOpt Value: %ld\n", optVal);
 
   //---------------------------------------
@@ -717,17 +713,17 @@ void main() {
   if (getsockopt(ListenSocket, 
     SOL_SOCKET, 
     SO_ACCEPTCONN, 
-    (char*)&amp;optVal, 
-    &amp;optLen) != SOCKET_ERROR)
+    (char*)&optVal, 
+    &optLen) != SOCKET_ERROR)
     printf("SockOpt Value: %ld\n", optVal);
 
   WSACleanup();
   return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Notes_for_IrDA_Sockets"></a><a id="notes_for_irda_sockets"></a><a id="NOTES_FOR_IRDA_SOCKETS"></a>Notes for IrDA Sockets</h3>
 
 <ul>
@@ -770,17 +766,13 @@ First, performing a getsockopt function call with the IRLMP_ENUMDEVICES option c
 
 The following code demonstrates this approach.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;af_irda.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
+
+```cpp
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <af_irda.h>
+#include <stdio.h>
+#include <windows.h>
 
 // link with Ws2_32.lib
 
@@ -809,10 +801,10 @@ int __cdecl main()
     int DevListLen = sizeof (DevListBuff);
     PDEVICELIST pDevList;
 
-    pDevList = (PDEVICELIST) &amp; DevListBuff;
+    pDevList = (PDEVICELIST) & DevListBuff;
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -835,20 +827,20 @@ int __cdecl main()
     }
     // Sock is not in connected state
     iResult = getsockopt(Sock, SOL_IRLMP, IRLMP_ENUMDEVICES,
-                         (char *) pDevList, &amp;DevListLen);
+                         (char *) pDevList, &DevListLen);
     if (iResult == SOCKET_ERROR) {
         printf("getsockopt failed with error %d\n", WSAGetLastError());
         WSACleanup();
         return 1;
     }
 
-    if (pDevList-&gt;numDevice == 0) {
+    if (pDevList->numDevice == 0) {
         // no devices discovered or cached
         // not a bad idea to run a couple of times
         printf("No IRDA devices were discovered or cached\n");
     } else {
         // one per discovered device
-        for (i = 0; i &lt; (int) pDevList-&gt;numDevice; i++) {
+        for (i = 0; i < (int) pDevList->numDevice; i++) {
             // typedef struct _IRDA_DEVICE_INFO
             // {
             //     u_char    irdaDeviceID[4];
@@ -858,16 +850,16 @@ int __cdecl main()
             //     u_char    irdaCharSet;
             // } _IRDA_DEVICE_INFO;
 
-            // pDevList-&gt;Device[i]. see _IRDA_DEVICE_INFO for fields
+            // pDevList->Device[i]. see _IRDA_DEVICE_INFO for fields
             // display the device names and let the user select one
         }
     }
 
     // assume the user selected the first device [0]
-    memcpy(&amp;DestSockAddr.irdaDeviceID[0], &amp;pDevList-&gt;Device[0].irdaDeviceID[0],
+    memcpy(&DestSockAddr.irdaDeviceID[0], &pDevList->Device[0].irdaDeviceID[0],
            4);
 
-    iResult = connect(Sock, (const struct sockaddr *) &amp;DestSockAddr,
+    iResult = connect(Sock, (const struct sockaddr *) &DestSockAddr,
                       sizeof (SOCKADDR_IRDA));
     if (iResult == SOCKET_ERROR) {
         printf("connect failed with error %d\n", WSAGetLastError());
@@ -877,10 +869,10 @@ int __cdecl main()
     WSACleanup();
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 </li>
 <li>The second approach to performing discovery of IrDA device addresses is to perform a lazy discovery; in this approach, the application is not notified until the discovered devices list changes from the last discovery run by the stack.</li>
 </ol>

@@ -4,7 +4,7 @@ title: IProviderQueryConstraintCollection::Item
 author: windows-sdk-content
 description: Gets the name and value of the specified query constraint, by index.
 old-location: ncd\iproviderqueryconstraintcollection_item.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: db8840db-365a-485d-9097-ef98a9d875bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -95,15 +95,11 @@ The "working set" of a process is the set of memory pages currently visible to t
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(int argc, char *argv[])
 {
@@ -128,7 +124,7 @@ int main(int argc, char *argv[])
 
     // Retrieve the working set size of the process.
 
-    if (!GetProcessWorkingSetSize(hProcess, &amp;dwMin, &amp;dwMax))
+    if (!GetProcessWorkingSetSize(hProcess, &dwMin, &dwMax))
     {
         printf("GetProcessWorkingSetSize failed (%d)\n",
             GetLastError());
@@ -143,10 +139,10 @@ int main(int argc, char *argv[])
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

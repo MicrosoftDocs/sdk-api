@@ -213,13 +213,9 @@ The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterVerifyFeatureSet
 //
@@ -282,7 +278,7 @@ EngineAdapterVerifyFeatureSet(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Initialize the return values.
     *Match              = FALSE;
@@ -294,7 +290,7 @@ EngineAdapterVerifyFeatureSet(
 
     // The biometric unit cannot perform verification or identification
     // operations while it is performing an enrollment sequence.
-    if (context-&gt;Enrollment.InProgress == TRUE)
+    if (context->Enrollment.InProgress == TRUE)
     {
         hr = WINBIO_E_ENROLLMENT_IN_PROGRESS;
         goto cleanup;
@@ -325,7 +321,7 @@ EngineAdapterVerifyFeatureSet(
 
     // Retrieve the current template record for the Identity and SubFactor 
     // combination specified on input. 
-    hr = WbioStorageGetCurrentRecord( Pipeline, &amp;thisRecord );
+    hr = WbioStorageGetCurrentRecord( Pipeline, &thisRecord );
     if (FAILED(hr))
     {
         goto cleanup;
@@ -341,11 +337,11 @@ EngineAdapterVerifyFeatureSet(
     // RejectDetail parameter.
     hr = _AdapterCompareTemplateToCurrentFeatureSet( 
                 context, 
-                context-&gt;FeatureSet,
-                context-&gt;FeatureSetSize,
+                context->FeatureSet,
+                context->FeatureSetSize,
                 thisRecord.TemplateBlob, 
                 thisRecord.TemplateBlobSize,
-                &amp;match,
+                &match,
                 RejectDetail 
                 );
     if (FAILED(hr))
@@ -362,8 +358,8 @@ EngineAdapterVerifyFeatureSet(
                 context,
                 thisRecord.TemplateBlob, 
                 thisRecord.TemplateBlobSize,
-                context-&gt;HashBuffer,
-                &amp;context-&gt;HashSize
+                context->HashBuffer,
+                &context->HashSize
                 );
     if (FAILED(hr))
     {
@@ -374,8 +370,8 @@ EngineAdapterVerifyFeatureSet(
     *Match              = TRUE;
     *PayloadBlob        = thisRecord.PayloadBlob;
     *PayloadBlobSize    = thisRecord.PayloadBlobSize;
-    *HashValue          = &amp;context-&gt;HashBuffer;
-    *HashSize           = context-&gt;HashSize;
+    *HashValue          = &context->HashBuffer;
+    *HashSize           = context->HashSize;
 
 cleanup:
 
@@ -386,10 +382,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

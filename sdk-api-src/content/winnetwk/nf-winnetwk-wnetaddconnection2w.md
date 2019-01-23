@@ -614,13 +614,9 @@ Other network providers may support the <b>lpRemoteName</b> member of the <a hre
 The following code sample illustrates how to use the 
 <b>WNetAddConnection2</b> function to make connection to a network resource.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "mpr.lib")
@@ -683,10 +679,8 @@ int wmain(int argc, wchar_t * argv[])
     exit(1); 
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 For other code samples that illustrates how to make a connection to a network resource using the 

@@ -145,7 +145,7 @@ This function must block so that  calls to <a href="https://msdn.microsoft.com/F
 
 
 
-<a href="https://msdn.microsoft.com/4B319A83-C230-4BFE-AF21-1395ED2D234B">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh975284(v=VS.85).aspx">CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE</a>
 
 
 

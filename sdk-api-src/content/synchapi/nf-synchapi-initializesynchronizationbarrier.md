@@ -4,7 +4,7 @@ title: InitializeSynchronizationBarrier function
 author: windows-sdk-content
 description: Initializes a new synchronization barrier.
 old-location: base\initializesynchronizationbarrier.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: f69934a1-ee1f-4400-ae3e-cb9a19feff93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

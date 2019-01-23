@@ -95,34 +95,30 @@ This method enumerates certificate extensions recorded in the database, even tho
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrExt = NULL;
+
+```cpp
+BSTR     bstrExt = NULL;
 VARIANT  varExt;
 LONG     ExtFlags;
 HRESULT  hr;
 
-VariantInit(&amp;varExt);
+VariantInit(&varExt);
 
 // Enumerate the extensions.
 while (S_OK ==
-      (hr = pCertServerExit-&gt;EnumerateExtensions(&amp;bstrExt)))
+      (hr = pCertServerExit->EnumerateExtensions(&bstrExt)))
 {
   // Retrieve the extension data.
-  if (FAILED(pCertServerExit-&gt;GetCertificateExtension(
+  if (FAILED(pCertServerExit->GetCertificateExtension(
                               bstrExt,
                               PROPTYPE_BINARY,
-                              &amp;varExt)))
+                              &varExt)))
       printf("Failed GetCertificateExtension\n");
   else
   {
      // Retrieve the extension flags.
-    if (FAILED(pCertServerExit-&gt;GetCertificateExtensionFlags(
-                                &amp;ExtFlags)))
+    if (FAILED(pCertServerExit->GetCertificateExtensionFlags(
+                                &ExtFlags)))
         printf("Failed GetCertificateExtensionFlags\n");
     else
         // This sample will display the extension OID string,
@@ -142,10 +138,10 @@ if (S_FALSE != hr)
 if (NULL != bstrExt)
     SysFreeString(bstrExt);
 // Free VARIANT resource.
-    VariantClear(&amp;varExt);</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&varExt);
+```
+
+
 
 
 

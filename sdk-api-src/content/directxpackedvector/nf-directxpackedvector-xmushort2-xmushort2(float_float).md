@@ -51,7 +51,7 @@ req.redist:
 Initializes a new instance of <code>XMUSHORT2</code> from two <code>float</code> arguments.
     
 
-This constructor initializes a new instance of <a href="https://msdn.microsoft.com/c092fd1c-4dd1-40f0-a7e3-fd552c72385c">XMUSHORT2</a> from two
+This constructor initializes a new instance of <a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a> from two
 	<code>float</code> arguments.
 <div class="alert"><b>Note</b>  This constructor is only available under C++.
     </div><div> </div>
@@ -86,21 +86,17 @@ The magnitude of each argument to the constructor will be clamped to the range s
 The following pseudocode demonstrates the operation of this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMUSHORT2 instance;
 
 	instance.x = (uint16_t)min( max( _x, 0.0 ), 65535.0 );
 	instance.y = (uint16_t)min( max( _y, 0.0 ), 65535.0 );
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 
@@ -113,11 +109,11 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 
-<a href="https://msdn.microsoft.com/c092fd1c-4dd1-40f0-a7e3-fd552c72385c">XMUSHORT2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee420625(v=VS.85).aspx">XMUSHORT2</a>
 
 
 
-<a href="https://msdn.microsoft.com/881a3b1b-5f1d-4fe7-ad29-5a62651ba62c">XMUSHORT2 Constructors</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415494(v=VS.85).aspx">XMUSHORT2 Constructors</a>
  
 
  

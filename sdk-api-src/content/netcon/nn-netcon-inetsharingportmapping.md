@@ -80,7 +80,7 @@ Deletes the port mapping.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/110d9c9b-189c-4529-b960-2722d9037c7c">Disable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365985(v=VS.85).aspx">Disable</a>
 </td>
 <td align="left" width="63%">
 Disables the port mapping.
@@ -114,7 +114,7 @@ Retrieves the properties for the port mapping.
 
 Use the 
 <a href="https://msdn.microsoft.com/0d9e1520-6018-425c-a2f9-c408fa3025cf">INetSharingConfiguration::AddPortMapping</a> and 
-<a href="https://msdn.microsoft.com/f5465acc-2b36-47d1-b48f-b36df3a8efb3">INetSharingConfiguration::EnumPortMappings</a> methods to obtain 
+<a href="https://msdn.microsoft.com/en-us/library/Aa365946(v=VS.85).aspx">INetSharingConfiguration::EnumPortMappings</a> methods to obtain 
 <b>INetSharingPortMapping</b> interfaces.
 
 
@@ -129,7 +129,7 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/f5465acc-2b36-47d1-b48f-b36df3a8efb3">INetSharingConfiguration::EnumPortMappings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365946(v=VS.85).aspx">INetSharingConfiguration::EnumPortMappings</a>
 
 
 

@@ -293,7 +293,7 @@ An HTTP request is about to automatically redirect the request. The
 <td width="60%">
 An asynchronous operation has been completed. The 
 <i>lpvStatusInformation</i> parameter contains the address of an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385129(v=VS.85).aspx">INTERNET_ASYNC_RESULT</a> structure.
+<a href="https://msdn.microsoft.com/e86fb4fd-8601-42e1-8c8e-9747a24459f9">INTERNET_ASYNC_RESULT</a> structure.
 
 </td>
 </tr>
@@ -472,7 +472,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385129(v=VS.85).aspx">INTERNET_ASYNC_RESULT</a>
+<a href="https://msdn.microsoft.com/e86fb4fd-8601-42e1-8c8e-9747a24459f9">INTERNET_ASYNC_RESULT</a>
 
 
 

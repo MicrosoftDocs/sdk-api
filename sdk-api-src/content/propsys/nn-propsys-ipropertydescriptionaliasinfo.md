@@ -53,7 +53,7 @@ Exposes methods to get the "sort by" columns properties for an item. This interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionAliasInfo</b> interface inherits from <a href="shell.IPropertyDescription">IPropertyDescription</a>. <b>IPropertyDescriptionAliasInfo</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyDescriptionAliasInfo</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>. <b>IPropertyDescriptionAliasInfo</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,19 +68,19 @@ The <b>IPropertyDescriptionAliasInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases">GetAdditionalSortByAliases</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761513(v=VS.85).aspx">GetAdditionalSortByAliases</a>
 </td>
 <td align="left" width="63%">
-Gets the address of a pointer to the <a href="shell.IPropertyDescriptionList">IPropertyDescriptionList</a> interface, which contains additional sort column values.
+Gets the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761511(v=VS.85).aspx">IPropertyDescriptionList</a> interface, which contains additional sort column values.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyDescriptionAliasInfo_GetSortByAlias">GetSortByAlias</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761515(v=VS.85).aspx">GetSortByAlias</a>
 </td>
 <td align="left" width="63%">
-Gets the address of a pointer to the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface containing the primary sort column.
+Gets the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface containing the primary sort column.
 
 </td>
 </tr>

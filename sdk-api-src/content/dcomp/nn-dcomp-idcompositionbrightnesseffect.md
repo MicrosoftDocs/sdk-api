@@ -53,7 +53,7 @@ The brightness effect controls the brightness of the image.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionBrightnessEffect</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>. <b>IDCompositionBrightnessEffect</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDCompositionBrightnessEffect</b> interface inherits from <a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>. <b>IDCompositionBrightnessEffect</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IDCompositionBrightnessEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919712(v=VS.85).aspx">SetBlackPoint</a>
+<a href="https://msdn.microsoft.com/C63F0F4C-6C25-495A-8AD8-F1A453E0B4BA">SetBlackPoint</a>
 </td>
 <td align="left" width="63%">
 Specifies the lower portion of the brightness transfer curve for the brightness effect.
@@ -93,7 +93,7 @@ Specifies the lower portion of the brightness transfer curve for the brightness 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn919717(v=VS.85).aspx">SetWhitePoint</a>
+<a href="https://msdn.microsoft.com/C06DFD2A-9B97-4254-BFB5-058FB0ED3F83">SetWhitePoint</a>
 </td>
 <td align="left" width="63%">
 Sets the upper portion of the brightness transfer curve. 
@@ -124,7 +124,7 @@ Sets the upper portion of the brightness transfer curve.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn919730(v=VS.85).aspx">IDCompositionFilterEffect</a>
+<a href="https://msdn.microsoft.com/4303c24d-e3e1-e188-bbef-e654c0e7e266">IDCompositionFilterEffect</a>
  
 
  

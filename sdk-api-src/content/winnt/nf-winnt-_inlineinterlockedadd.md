@@ -4,7 +4,7 @@ title: "_InlineInterlockedAdd function"
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONG values. The operation is performed with acquire memory ordering semantics.
 old-location: base\interlockedaddacquire.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: ec1746cc-aff9-440e-b7e1-15a3d7a0fa58
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -81,7 +81,7 @@ The function returns the result of the operation.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="3d319603-ea9c-4fdd-ae61-e52430ccc3b1">_InterlockedAdd_acq</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/51s265a6(v=VS.85).aspx">_InterlockedAdd_acq</a>.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -125,7 +125,7 @@ This function is implemented using a compiler intrinsic where possible. For more
 
 
 
-<a href="https://msdn.microsoft.com/e48b67a0-133b-4e88-b451-432f26b4881a">InterlockedExchangeAdd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a>
 
 
 

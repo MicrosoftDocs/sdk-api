@@ -61,7 +61,7 @@ The <b>DS_NAME_RESULT_ITEM</b> structure contains a name converted by the
 
 ### -field status
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms676061(v=VS.85).aspx">DS_NAME_ERROR</a> values that indicates the status of this name conversion.
+Contains one of the <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-15d4e7b07869">DS_NAME_ERROR</a> values that indicates the status of this name conversion.
 
 
 ### -field string
@@ -76,7 +76,7 @@ Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms676061(v
 
 ### -field pDomain
 
-Pointer to a null-terminated string that specifies the DNS domain in which the object resides. This member will contain valid data if <b>status</b> contains <a href="https://msdn.microsoft.com/en-us/library/ms676061(v=VS.85).aspx">DS_NAME_NO_ERROR</a> or <b>DS_NAME_ERROR_DOMAIN_ONLY</b>.
+Pointer to a null-terminated string that specifies the DNS domain in which the object resides. This member will contain valid data if <b>status</b> contains <a href="https://msdn.microsoft.com/8475133c-4bc8-4545-bd54-15d4e7b07869">DS_NAME_NO_ERROR</a> or <b>DS_NAME_ERROR_DOMAIN_ONLY</b>.
 
 
 ### -field pName
@@ -88,7 +88,7 @@ Pointer to a null-terminated string that specifies the newly formatted object na
 
 
 
-The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function returns an array of <b>DS_NAME_RESULT_ITEM</b> structures as part of the <a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a> structure.
+The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">DsCrackNames</a> function returns an array of <b>DS_NAME_RESULT_ITEM</b> structures as part of the <a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a> structure.
 
 
 
@@ -98,7 +98,7 @@ The <a href="https://msdn.microsoft.com/f812a001-5aab-4c62-87bd-54f95792e271">Ds
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676246(v=VS.85).aspx">DS_NAME_RESULT</a>
+<a href="https://msdn.microsoft.com/8c3cedae-f998-482c-95db-33bca94e119b">DS_NAME_RESULT</a>
 
 
 

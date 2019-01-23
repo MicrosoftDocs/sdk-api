@@ -63,7 +63,7 @@ The index of the jack to get a description for. If the connection consists of <i
 
 ### -param pDescription2 [out]
 
-Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/67714767-24b8-4838-953a-d6aca0c55bbb">KSJACK_DESCRIPTION2</a> that contains information about the jack. The buffer size must be at least <code>sizeof(KSJACK_DESCRIPTION2)</code>.
+Pointer to a caller-allocated buffer into which the method writes a structure of type <a href="https://msdn.microsoft.com/en-us/library/Dd316545(v=VS.85).aspx">KSJACK_DESCRIPTION2</a> that contains information about the jack. The buffer size must be at least <code>sizeof(KSJACK_DESCRIPTION2)</code>.
 
 
 ## -returns

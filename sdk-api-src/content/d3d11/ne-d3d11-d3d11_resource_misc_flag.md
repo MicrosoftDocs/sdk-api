@@ -208,7 +208,7 @@ Set this flag to indicate that the driver  restricts access to the shared surfac
 
 ### -field D3D11_RESOURCE_MISC_GUARDED
 
-Set this flag to indicate that the resource is guarded. Such a resource is returned by the <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> (DirectComposition) and <a href="https://msdn.microsoft.com/9F08AF78-AD8B-4AFC-ABFF-7006873FA506">ISurfaceImageSourceNative::BeginDraw</a> (Windows Runtime) APIs.  For these APIs, you provide a region of interest (ROI) on a surface to update. This surface isn't compatible with multiple render targets (MRT).
+Set this flag to indicate that the resource is guarded. Such a resource is returned by the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> (DirectComposition) and <a href="https://msdn.microsoft.com/9F08AF78-AD8B-4AFC-ABFF-7006873FA506">ISurfaceImageSourceNative::BeginDraw</a> (Windows Runtime) APIs.  For these APIs, you provide a region of interest (ROI) on a surface to update. This surface isn't compatible with multiple render targets (MRT).
 
 A guarded resource automatically restricts all writes to the region that is related to one of the preceding APIs. Additionally, the resource enforces access to the ROI with these restrictions:
 

@@ -124,39 +124,35 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define _UNICODE 1
+
+```cpp
+#define _UNICODE 1
 #define UNICODE 1
 
-#include &lt;Windows.h&gt;
-#include &lt;appmodel.h&gt;
-#include &lt;malloc.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;stdio.h&gt;
+#include <Windows.h>
+#include <appmodel.h>
+#include <malloc.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 int ShowUsage();
 void ShowProcessApplicationUserModelId(__in const UINT32 pid, __in HANDLE process);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: GetApplicationUserModelId &lt;pid&gt; [&lt;pid&gt;...]\n");
+    wprintf(L"Usage: GetApplicationUserModelId <pid> [<pid>...]\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc &lt;= 1)
+    if (argc <= 1)
         return ShowUsage();
 
-    for (int i=1; i&lt;argc; ++i)
+    for (int i=1; i<argc; ++i)
     {
         UINT32 pid = wcstoul(argv[i], NULL, 10);
-        if (pid &gt; 0)
+        if (pid > 0)
         {
             HANDLE process = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, FALSE, pid);
             if (process == NULL)
@@ -176,7 +172,7 @@ void ShowProcessApplicationUserModelId(__in const UINT32 pid, __in HANDLE proces
     wprintf(L"Process %u (handle=%p)\n", pid, process);
 
     UINT32 length = 0;
-    LONG rc = GetApplicationUserModelId(process, &amp;length, NULL);
+    LONG rc = GetApplicationUserModelId(process, &length, NULL);
     if (rc != ERROR_INSUFFICIENT_BUFFER)
     {
         if (rc == APPMODEL_ERROR_NO_APPLICATION)
@@ -193,7 +189,7 @@ void ShowProcessApplicationUserModelId(__in const UINT32 pid, __in HANDLE proces
         return;
     }
 
-    rc = GetApplicationUserModelId(process, &amp;length, fullName);
+    rc = GetApplicationUserModelId(process, &length, fullName);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d retrieving ApplicationUserModelId\n", rc);
     else
@@ -201,10 +197,10 @@ void ShowProcessApplicationUserModelId(__in const UINT32 pid, __in HANDLE proces
 
     free(fullName);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

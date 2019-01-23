@@ -137,16 +137,12 @@ You must pass the same flag to <b>CryptUnprotectMemory</b> and <a href="https://
 
 The following example calls  the <b>CryptUnprotectMemory</b> function to decrypt data that is in memory. The example assumes the variable pEncryptedText points to a string that has been encrypted using the <a href="https://msdn.microsoft.com/6b372552-87d4-4047-afa5-0d1113348289">CryptProtectMemory</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
-#include &lt;strsafe.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
+#include <strsafe.h>
 #pragma comment(lib, "crypt32.lib")
 
 void main()
@@ -171,10 +167,10 @@ void main()
     SecureZeroMemory(pEncryptedText, cbEncryptedText);
     LocalFree(pEncryptedText);
     pEncryptedText = NULL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

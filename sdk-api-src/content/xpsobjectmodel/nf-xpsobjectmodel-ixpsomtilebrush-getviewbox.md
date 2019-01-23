@@ -58,7 +58,7 @@ Gets the portion  of the source image to be used by the tile.
 
 ### -param viewbox [out, retval]
 
-The <a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XPS_RECT</a> structure that describes the area of the source content to be used by the tile.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372982(v=VS.85).aspx">XPS_RECT</a> structure that describes the area of the source content to be used by the tile.
 
 
 ## -returns
@@ -137,7 +137,7 @@ The preceding parameter values correspond to the  source image as:<dl>
 
 
 
-<a href="https://msdn.microsoft.com/e78a9ecb-b2e7-4295-a178-4a9936b0f27e">XPS_RECT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372982(v=VS.85).aspx">XPS_RECT</a>
  
 
  

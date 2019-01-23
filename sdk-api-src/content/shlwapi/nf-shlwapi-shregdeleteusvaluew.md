@@ -80,9 +80,9 @@ TBD
 
 ### -param delRegFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773514(v=VS.85).aspx">SHREGDEL_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a></b>
 
-One of the <a href="https://msdn.microsoft.com/en-us/library/Bb773514(v=VS.85).aspx">SHREGDEL_FLAGS</a> that specifies from which base key the value will be deleted.
+One of the <a href="https://msdn.microsoft.com/90a8bf22-f62b-4027-8219-7a5ead6577da">SHREGDEL_FLAGS</a> that specifies from which base key the value will be deleted.
 
 
 #### - pszValue [in]

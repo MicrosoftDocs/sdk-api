@@ -194,13 +194,9 @@ The Shell windows collection includes file explorer windows and web browser wind
 
 The following example shows how to retrieve an <b>IShellWindows</b> instance.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#include "exdisp.h"
+
+```
+#include "exdisp.h"
                 
 ...
 
@@ -215,19 +211,19 @@ if (SUCCEEDED(hr))
         NULL,
         CLSCTX_ALL,
         IID_IShellWindows,
-        (void**)&amp;psw
+        (void**)&psw
     );
     
     if (SUCCEEDED(hr))
     {
         // Use the IShellWindows instance...
         
-        psw-&gt;Release();
+        psw->Release();
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

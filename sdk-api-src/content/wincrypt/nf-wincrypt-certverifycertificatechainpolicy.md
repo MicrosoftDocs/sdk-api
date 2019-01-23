@@ -84,9 +84,9 @@ Implements the base chain policy verification checks. The <b>dwFlags</b> member 
 </td>
 <td width="60%">
 Implements the Authenticode chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the structure pointed to by <i>pPolicyPara</i> can be set to point to an 
-<a href="https://msdn.microsoft.com/591bd4d4-5062-4282-84fc-f7e02e9592e7">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa375586(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
 
-The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyStatus</i> can be set to point to an <a href="https://msdn.microsoft.com/bc123d07-0d59-49e0-b0e3-23dadb270347">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
+The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyStatus</i> can be set to point to an <a href="https://msdn.microsoft.com/en-us/library/Aa375589(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a> structure.
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ The <b>pvExtraPolicyStatus</b> member of the structure pointed to by <i>pPolicyS
 </dl>
 </td>
 <td width="60%">
-Implements Authenticode Time Stamp chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="https://msdn.microsoft.com/4c24c924-f466-42d1-a3e0-e86446750040">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
+Implements Authenticode Time Stamp chain policy verification checks. The <b>pvExtraPolicyPara</b> member of the data structure pointed to by <i>pPolicyPara</i> can be set to point to an <a href="https://msdn.microsoft.com/en-us/library/Aa375594(v=VS.85).aspx">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a> structure.
 
 The <b>pvExtraPolicyStatus</b> member of the data structure pointed to by <i>pPolicyStatus</i> is not used and must be set to <b>NULL</b>
 
@@ -188,7 +188,7 @@ Specifies that extended validation of certificates is performed.
 </dl>
 </td>
 <td width="60%">
-Checks if any certificates in the chain have weak crypto or if third party root certificate compliance and provide an error string. The <b>pvExtraPolicyStatus</b> member of the CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must point to <a href="https://msdn.microsoft.com/A78598AA-1C5F-49E9-9A0D-6B6C838F7DDD">SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</a>, which is updated with the results of the weak crypto and root program compliance checks.
+Checks if any certificates in the chain have weak crypto or if third party root certificate compliance and provide an error string. The <b>pvExtraPolicyStatus</b> member of the CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must point to <a href="https://msdn.microsoft.com/en-us/library/Mt759536(v=VS.85).aspx">SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS</a>, which is updated with the results of the weak crypto and root program compliance checks.
 
 Before calling, the <b>cbSize</b> member of the 	CERT_CHAIN_POLICY_STATUS structure pointed to by the <i>pPolicyStatus</i> parameter must be set to a value greater than or equal to sizeof(SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS).
 
@@ -261,15 +261,15 @@ To get the certificate element use this syntax:
 
 
 
-<a href="https://msdn.microsoft.com/591bd4d4-5062-4282-84fc-f7e02e9592e7">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375586(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc123d07-0d59-49e0-b0e3-23dadb270347">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375589(v=VS.85).aspx">AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4c24c924-f466-42d1-a3e0-e86446750040">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375594(v=VS.85).aspx">AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA</a>
 
 
 

@@ -366,7 +366,7 @@ If there is a transaction bound to the directory handle, then the notifications 
 
 
 
-<a href="https://msdn.microsoft.com/193D018B-80FE-45B2-826A-A00D173E32D3">READ_DIRECTORY_NOTIFY_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt843500(v=VS.85).aspx">READ_DIRECTORY_NOTIFY_INFORMATION_CLASS</a>
  
 
  

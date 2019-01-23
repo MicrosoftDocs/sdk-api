@@ -4,7 +4,7 @@ title: PINIT_ONCE_FN
 author: windows-sdk-content
 description: An application-defined callback function. Specify a pointer to this function when calling the InitOnceExecuteOnce function.
 old-location: base\initoncecallback.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: e4a73572-e477-4518-87fe-b9b74234e8ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

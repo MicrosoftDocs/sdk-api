@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <b>VMR9SurfaceAllocationFlags</b> enumeration type is used with the <a href="https://msdn.microsoft.com/44c22dc0-98a9-4a6e-a488-1d70dfff6acd">IVMRSurfaceAllocator9::InitializeDevice</a> method to specify surface creation parameters (VMR-9 only).
+The <b>VMR9SurfaceAllocationFlags</b> enumeration type is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd390503(v=VS.85).aspx">IVMRSurfaceAllocator9::InitializeDevice</a> method to specify surface creation parameters (VMR-9 only).
 
 
 

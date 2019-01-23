@@ -59,7 +59,7 @@ Contains virtual hard disk (VHD) storage dependency information.
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/80437477-3f5e-4dac-a773-9339c5b742e2">STORAGE_DEPENDENCY_INFO_VERSION</a> enumeration that specifies the version of the information structure being passed to or from  the VHD functions. Can be <a href="https://msdn.microsoft.com/63296975-583d-415c-8c1f-f0cccfc5a1b3">STORAGE_DEPENDENCY_INFO_TYPE_1</a> or <a href="https://msdn.microsoft.com/f3e57773-0008-4715-9136-a9b990beea58">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323691(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_VERSION</a> enumeration that specifies the version of the information structure being passed to or from  the VHD functions. Can be <a href="https://msdn.microsoft.com/en-us/library/Dd323689(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_1</a> or <a href="https://msdn.microsoft.com/en-us/library/Dd323690(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
 
 
 ### -field NumberEntries
@@ -69,12 +69,12 @@ Number of entries returned in the following unioned members.
 
 ### -field Version1Entries
 
-Variable-length array containing <a href="https://msdn.microsoft.com/63296975-583d-415c-8c1f-f0cccfc5a1b3">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
+Variable-length array containing <a href="https://msdn.microsoft.com/en-us/library/Dd323689(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_1</a> structures.
 
 
 ### -field Version2Entries
 
-Variable-length array containing <a href="https://msdn.microsoft.com/f3e57773-0008-4715-9136-a9b990beea58">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
+Variable-length array containing <a href="https://msdn.microsoft.com/en-us/library/Dd323690(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_2</a> structures.
 
 
 ## -see-also

@@ -74,7 +74,7 @@ The <b>ICertificateEnrollmentPolicyServerSetup</b> interface has these methods.
 <a href="https://msdn.microsoft.com/52AD50BB-4146-44FC-BA32-9FC46FFE32E4">GetProperty</a>
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration value for the CEP configuration.
+Retrieves a <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration value for the CEP configuration.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Installs the CEP web service configured by this object.
 <a href="https://msdn.microsoft.com/81E20BFF-B4EC-4FA5-A881-5BDCE3FC3057">SetProperty</a>
 </td>
 <td align="left" width="63%">
-Specifies a <a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a> enumeration value for the CEP configuration.
+Specifies a <a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a> enumeration value for the CEP configuration.
 
 </td>
 </tr>

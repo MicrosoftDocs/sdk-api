@@ -87,13 +87,9 @@ Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if
 
 The following example shows the usage of <b>ISyncMgrSyncCallback::ProposeItem</b> and <a href="https://msdn.microsoft.com/e0964cd3-42ad-4af0-90b2-0f365f457448">ISyncMgrSyncCallback::CommitItem</a> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyDeviceHandler::Synchronize(...)
+
+```cpp
+HRESULT CMyDeviceHandler::Synchronize(...)
 {
     ...
 
@@ -108,25 +104,25 @@ The following example shows the usage of <b>ISyncMgrSyncCallback::ProposeItem</b
         ISyncMgrSyncItem *pNewItem = NULL;
         LPWSTR szItemID[MAX_SYNCMGR_ID];
         
-        hr = GetNextNewItem(&amp;pNewItem, szItemID, ARRAYSIZE(szItemID));
+        hr = GetNextNewItem(&pNewItem, szItemID, ARRAYSIZE(szItemID));
         if (SUCCEEDED(hr))
         {
             // Propose this item to Sync Center.
-            hr = pCallback-&gt;ProposeItem(pNewItem);
+            hr = pCallback->ProposeItem(pNewItem);
             if (SUCCEEDED(hr))
             {
                 // Synchronize the item.
                 // Synchronization was successful.  Commit the item.
-                hr = pCallback-&gt;CommitItem(szItemID);
+                hr = pCallback->CommitItem(szItemID);
             }
-            pNewItem-&gt;Release();
+            pNewItem->Release();
         }
     }
     ...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -78,7 +78,7 @@ This error code is never included in the fault directly, but is used as a fallba
 ### -param faultDisclosure [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd401879(v=VS.85).aspx">WS_FAULT_DISCLOSURE</a> enumeration that controls
+<a href="https://msdn.microsoft.com/1dca9074-b329-4293-8a44-d0ced00ae59e">WS_FAULT_DISCLOSURE</a> enumeration that controls
                     what information is copied from
                     the error object to the fault object.
                 
@@ -151,7 +151,7 @@ This function may return other errors not listed above.
 
 
 
-If the error object contains a fault (that is, the WS_FAULT_ERROR_PROPERTY_FAULT value of <a href="https://msdn.microsoft.com/en-us/library/Dd401880(v=VS.85).aspx">WS_FAULT_ERROR_PROPERTY_ID</a>   is non-<b>NULL</b>), then that fault is selected to construct the returned fault.
+If the error object contains a fault (that is, the WS_FAULT_ERROR_PROPERTY_FAULT value of <a href="https://msdn.microsoft.com/f5ae9ee9-18de-428d-9367-aa4a554577ea">WS_FAULT_ERROR_PROPERTY_ID</a>   is non-<b>NULL</b>), then that fault is selected to construct the returned fault.
 
 If the error object does not contain a fault (WS_FAULT_ERROR_PROPERTY_FAULT is <b>NULL</b>),  a generic fault with a generic fault code (and no reason text) is selected to construct the returned fault. 
 
@@ -172,7 +172,7 @@ If the selected fault does not include any reason text,  the fault reason
 By default, the
                 language of any language-dependent information in the error object is  the current 
                 user default UI language. However, you can change the language by setting 
-                the WS_ERROR_PROPERTY_LANGID property. See the the <a href="https://msdn.microsoft.com/en-us/library/Dd401839(v=VS.85).aspx">WS_ERROR_PROPERTY_ID</a> enumeration.
+                the WS_ERROR_PROPERTY_LANGID property. See the the <a href="https://msdn.microsoft.com/527e39be-c959-40db-8f0b-14dcd49a7ca7">WS_ERROR_PROPERTY_ID</a> enumeration.
             
 
 

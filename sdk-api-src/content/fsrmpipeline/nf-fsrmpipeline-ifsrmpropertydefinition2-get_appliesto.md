@@ -55,7 +55,7 @@ req.redist:
     class.]
 
 This property contains flags with values from the 
-    <a href="https://msdn.microsoft.com/deca10b5-fd5f-446f-ab88-1731402a550c">FsrmPropertyDefinitionAppliesTo</a> enumeration 
+    <a href="https://msdn.microsoft.com/en-us/library/Hh780469(v=VS.85).aspx">FsrmPropertyDefinitionAppliesTo</a> enumeration 
     that indicate what a FSRM property definition can be applied to.
 
 This property is read-only.

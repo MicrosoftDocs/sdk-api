@@ -73,15 +73,11 @@ The second <a href="https://msdn.microsoft.com/3f5f31af-f040-443b-9045-976105538
 The <b>IsEqualPropertyKey</b> macro is defined as follows. 
 			
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define IsEqualPropertyKey(a, b)   (((a).pid == (b).pid) &amp;&amp; IsEqualIID((a).fmtid, (b).fmtid) )</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define IsEqualPropertyKey(a, b)   (((a).pid == (b).pid) && IsEqualIID((a).fmtid, (b).fmtid) )
+```
+
+
 
 

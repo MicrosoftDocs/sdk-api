@@ -68,7 +68,7 @@ The <b>IDWriteFontSet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933242(v=VS.85).aspx">FindFontFace</a>
+<a href="https://msdn.microsoft.com/dcb8ddbd-9c82-cd90-f4bd-490855d93efd">FindFontFace</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -77,7 +77,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn958414(v=VS.85).aspx">FindFontFaceReference</a>
+<a href="https://msdn.microsoft.com/dba55a36-8037-5564-59d8-e01189ff0020">FindFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the matching font face reference in the font set, with the same file, face index, and simulations.
@@ -86,7 +86,7 @@ Gets the index of the matching font face reference in the font set, with the sam
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933243(v=VS.85).aspx">GetFontCount</a>
+<a href="https://msdn.microsoft.com/15231d40-9de2-54e4-f4ad-0f1ef9b35c47">GetFontCount</a>
 </td>
 <td align="left" width="63%">
 Get the number of total fonts in the set.
@@ -95,7 +95,7 @@ Get the number of total fonts in the set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933244(v=VS.85).aspx">GetFontFaceReference</a>
+<a href="https://msdn.microsoft.com/8cbc1275-29d5-917d-6938-8fb35e5054fb">GetFontFaceReference</a>
 </td>
 <td align="left" width="63%">
 Gets a reference to the font at the specified index, which may be local or remote.
@@ -112,7 +112,7 @@ Gets a reference to the font at the specified index, which may be local or remot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn933248(v=VS.85).aspx">GetPropertyOccurrenceCount</a>
+<a href="https://msdn.microsoft.com/514359d4-595d-4cac-a784-527b65b53137">GetPropertyOccurrenceCount</a>
 </td>
 <td align="left" width="63%">
 Returns how many times a given property value occurs in the set.

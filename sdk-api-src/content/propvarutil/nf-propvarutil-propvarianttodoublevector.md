@@ -106,23 +106,19 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_GPS_DestLongitude, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_GPS_DestLongitude, &propvar);
 if (SUCCEEDED(hr))
 {
          // PKEY_GPS_DestLongitude is expected to produce a VT_VECTOR | VT_R8 with three values, or VT_EMPTY
          // PropVariantToDoubleVector will return an error for VT_EMPTY
          DOUBLE rgLongitude[3];
          ULONG cElem;
-         hr = PropVariantToDoubleVector(propvar, &amp;rgLongitude, ARRAYSIZE(rgLongitude), &amp;cElem);
+         hr = PropVariantToDoubleVector(propvar, &rgLongitude, ARRAYSIZE(rgLongitude), &cElem);
          if (SUCCEEDED(hr))
          {
                  if (cElem == ARRAYSIZE(rgLongitude))
@@ -137,11 +133,11 @@ if (SUCCEEDED(hr))
          {
                  // propvar either is VT_EMPTY, or contains something other than a vector of 3 doubles
          }
-         PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+         PropVariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -150,23 +146,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromDoubleVector">InitPropVariantFromDoubleVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762292(v=VS.85).aspx">InitPropVariantFromDoubleVector</a>
 
 
 
-<a href="shell.PropVariantGetDoubleElem">PropVariantGetDoubleElem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776520(v=VS.85).aspx">PropVariantGetDoubleElem</a>
 
 
 
-<a href="shell.PropVariantToDouble">PropVariantToDouble</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776538(v=VS.85).aspx">PropVariantToDouble</a>
 
 
 
-<a href="shell.PropVariantToDoubleVectorAlloc">PropVariantToDoubleVectorAlloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776540(v=VS.85).aspx">PropVariantToDoubleVectorAlloc</a>
 
 
 
-<a href="shell.VariantToDoubleArray">VariantToDoubleArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776599(v=VS.85).aspx">VariantToDoubleArray</a>
  
 
  

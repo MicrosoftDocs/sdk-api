@@ -79,13 +79,9 @@ A pointer to the actual data to be written to the card.
 
 For T=0, the data parameters are placed into the address pointed to by <i>pbSendBuffer</i> according to the following structure:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>struct {
+
+```cpp
+struct {
     BYTE
         bCla,   // the instruction class
         bIns,   // the instruction code 
@@ -93,10 +89,10 @@ For T=0, the data parameters are placed into the address pointed to by <i>pbSend
         bP2,    // parameter to the instruction
         bP3;    // size of I/O transfer
 } CmdBytes;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 The data sent to the card should immediately follow the send buffer. In the special case where no data is sent to the card and no data is expected in return, <b>bP3</b> is not sent.
 
@@ -214,13 +210,9 @@ For the <a href="https://msdn.microsoft.com/11f2e098-1d1e-473b-90ff-7b86eb923e9f
 
 The following example  shows sending a service request to the smart card.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  Transmit the request.
+
+```cpp
+//  Transmit the request.
 //  lReturn is of type LONG.
 //  hCardHandle was set by a previous call to SCardConnect.
 //  pbSend points to the buffer of bytes to send.
@@ -233,16 +225,16 @@ lReturn = SCardTransmit(hCardHandle,
                         dwSend,
                         NULL,
                         pbRecv,
-                        &amp;dwRecv );
+                        &dwRecv );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardTransmit\n");
     exit(1);   // or other appropriate error action
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

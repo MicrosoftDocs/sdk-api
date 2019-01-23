@@ -76,7 +76,7 @@ When setting the end IP address, this property validates that it is a valid mult
 
 
 
-<a href="https://msdn.microsoft.com/11ed1cff-eeb6-41ab-86a1-af2db5b8e155">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736537(v=VS.85).aspx">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
  
 
  

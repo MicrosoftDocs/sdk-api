@@ -93,7 +93,7 @@ If the CenterY property was previously animated, this method removes the animati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx">IDCompositionRotateTransform</a>
+<a href="https://msdn.microsoft.com/6c92bd6b-4479-45c2-986c-0a6c91248361">IDCompositionRotateTransform</a>
 
 
 

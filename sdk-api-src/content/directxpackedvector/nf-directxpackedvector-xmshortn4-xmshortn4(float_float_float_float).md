@@ -119,13 +119,9 @@ All input values,<i>_x</i>,<i>_y</i>, <i>_z</i>, and <i>_w</i> are
 The following pseudocode demonstrates the operation of this constructor:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMSHORTN4 instance;
 	_x1=min( max( _x, -1.0 ), 1.0 );
 	_y1=min( max( _y, -1.0 ), 1.0 );
@@ -139,10 +135,10 @@ The following pseudocode demonstrates the operation of this constructor:
 	instance._y = _y1;
 	instance._z = _z1;
 	instance._w = _w1;
-	</pre>
-</td>
-</tr>
-</table></span></div>
+	
+```
+
+
 
 
 

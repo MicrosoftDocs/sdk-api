@@ -65,7 +65,7 @@ Handle for an open session to the filter engine. Call <a href="https://msdn.micr
 
 ### -param subscription [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/f099d531-ab40-4661-b33f-a805a84fba7e">FWPM_VSWITCH_EVENT_SUBSCRIPTION0</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Hh447389(v=VS.85).aspx">FWPM_VSWITCH_EVENT_SUBSCRIPTION0</a>*</b>
 
 The notifications which will be delivered.
 

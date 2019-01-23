@@ -119,24 +119,20 @@ This method is intended for use with both render-target and depth-stencil surfac
 
 The following code fragment shows how you could use <b>CheckDeviceMultiSampleType</b> to test for devices that support a specific multisampling method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-if( SUCCEEDED(pD3D-&gt;CheckDeviceMultiSampleType( pCaps-&gt;AdapterOrdinal, 
-                                pCaps-&gt;DeviceType, BackBufferFormat, 
-                                FALSE, D3DMULTISAMPLE_3_SAMPLES, NULL ) ) &amp;&amp;
-         SUCCEEDED(pD3D-&gt;CheckDeviceMultiSampleType( pCaps-&gt;AdapterOrdinal, 
-                                pCaps-&gt;DeviceType, DepthBufferFormat, 
+
+```
+
+if( SUCCEEDED(pD3D->CheckDeviceMultiSampleType( pCaps->AdapterOrdinal, 
+                                pCaps->DeviceType, BackBufferFormat, 
+                                FALSE, D3DMULTISAMPLE_3_SAMPLES, NULL ) ) &&
+         SUCCEEDED(pD3D->CheckDeviceMultiSampleType( pCaps->AdapterOrdinal, 
+                                pCaps->DeviceType, DepthBufferFormat, 
                                 FALSE, D3DMULTISAMPLE_3_SAMPLES, NULL ) ) )
     return S_OK;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The preceding code will return S_OK if the device supports the full-screen D3DMULTISAMPLE_3_SAMPLES multisampling method with the surface format.
 
 See the remarks in <a href="https://msdn.microsoft.com/en-us/library/Bb172574(v=VS.85).aspx">D3DMULTISAMPLE_TYPE</a> for additional information on working with and setting multisample types and quality levels.

@@ -4,7 +4,7 @@ title: IFunctionDiscoveryNotification::OnEvent
 author: windows-sdk-content
 description: Receives any add, remove, or update events during a notification.
 old-location: ncd\ifunctiondiscoverynotification_onevent.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 4ebfdf15-ca37-4905-b842-8854a0bd276b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -189,13 +189,9 @@ Because other <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599f
 
 The following example shows an OnEvent handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> topic.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <windows.h>
+
+```cpp
+#include <windows.h>
 
 HRESULT CMyNotificationListener::OnEvent(
                                          IN DWORD dwEventID,
@@ -223,10 +219,8 @@ HRESULT CMyNotificationListener::OnEvent(
     
     return hr;
 } 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

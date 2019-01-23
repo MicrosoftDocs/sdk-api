@@ -104,13 +104,9 @@ The user interface elements on the TSF language bar managed by this interface in
 
 An application that does not use the speech text service might require use of the features provided by the speech-related interface elements. In that case, the following code example shows how an application can obtain a pointer to the <b>ITfSpeechUIServer</b> interface by calling the <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> function with the CLSID_SpeechUIServer <b>CLSID</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfSpeechUIServer* piSpeechUIServer;
 
@@ -118,11 +114,11 @@ hr = CoCreateInstance(CLSID_SpeechUIServer,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_ITfSpeechUIServer,
-                      (void**)&amp;piSpeechUIServer);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                      (void**)&piSpeechUIServer);
+
+```
+
+
 Subsequently, the application can use the <a href="https://msdn.microsoft.com/5a51b8c7-3d29-4566-8cfa-f76dfd067aa8">ITfSpeechUIServer::Initialize</a> method to initialize the user interface and the other methods of the <b>ITfSpeechUIServer</b> interface to manage the user interface.
 
 

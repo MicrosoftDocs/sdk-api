@@ -63,7 +63,7 @@ The read-only stream to be associated with this resource.
 
 ### -param embeddingOption [in]
 
-The <a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING</a> value that describes how the resource is to be obfuscated.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING</a> value that describes how the resource is to be obfuscated.
 
 <table>
 <tr>
@@ -152,7 +152,7 @@ Because <a href="https://msdn.microsoft.com/d512e862-e2d0-4cc8-a20a-bc3cfbfbcc47
 
 
 
-<a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING</a>
  
 
  

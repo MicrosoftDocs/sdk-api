@@ -426,7 +426,7 @@ This identifier is reserved.
 
 Data type of <i>pvData</i>: A pointer to a <a href="https://msdn.microsoft.com/7a06eae5-96d8-4ece-98cb-cf0710d2ddbd">CRYPT_DATA_BLOB</a> structure.
 
-This property sets the encoded <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response from a <a href="https://msdn.microsoft.com/732e91a3-dcd2-491a-ba4f-e22b75b5a71e">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> for this certificate.
+This property sets the encoded <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">online certificate status protocol</a> (OCSP) response from a <a href="https://msdn.microsoft.com/en-us/library/Bb540821(v=VS.85).aspx">CERT_SERVER_OCSP_RESPONSE_CONTEXT</a> for this certificate.
 
 
 

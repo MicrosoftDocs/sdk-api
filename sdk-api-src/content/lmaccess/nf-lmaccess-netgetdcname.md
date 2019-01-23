@@ -158,21 +158,17 @@ The following code sample demonstrates how to retrieve the primary domain contro
 <b>NetGetDCName</b> function. The sample calls 
 <b>NetGetDCName</b> specifying the servername and domainname parameters. If the call succeeds, the code prints information out the name of the primary domain controller. Finally, the sample frees the memory allocated for the buffer where the domain controller name was returned.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;  // for _wtoi function
-#include &lt;assert.h&gt;
-#include &lt;windows.h&gt;
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <stdlib.h>  // for _wtoi function
+#include <assert.h>
+#include <windows.h>
+#include <lm.h>
 
 // Need to link with netapi32.lib
 #pragma comment(lib, "netapi32.lib")
@@ -188,7 +184,7 @@ int wmain(int argc, wchar_t * argv[])
     LPCWSTR lpDcName = NULL;
     
     if (argc != 3 ) {
-        wprintf(L"Usage: %ws &lt;ServerName&gt; &lt;DomainName&gt;\n",
+        wprintf(L"Usage: %ws <ServerName> <DomainName>\n",
                 argv[0]);
         wprintf(L"     %ws Myserver Domain\n", argv[0]);
         exit(1);
@@ -204,7 +200,7 @@ int wmain(int argc, wchar_t * argv[])
     //
     // Call the NetGetDCName function
     //
-    nStatus = NetGetDCName(lpServer, lpDomain, (LPBYTE *) &amp;lpDcName);
+    nStatus = NetGetDCName(lpServer, lpDomain, (LPBYTE *) &lpDcName);
     //
     // If the call succeeds,
     //
@@ -265,10 +261,10 @@ int wmain(int argc, wchar_t * argv[])
 
     return nStatus;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

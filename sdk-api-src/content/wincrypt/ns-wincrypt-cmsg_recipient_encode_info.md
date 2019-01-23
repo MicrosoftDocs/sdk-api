@@ -107,17 +107,17 @@ Use with previously distributed key encryption key management
 ### -field DUMMYUNIONNAME.pKeyTrans
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/20b20759-3d76-4814-9e71-7376dd326f7b">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_KEY_TRANS_RECIPIENT
+<a href="https://msdn.microsoft.com/en-us/library/Aa378057(v=VS.85).aspx">CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_KEY_TRANS_RECIPIENT
 
 
 ### -field DUMMYUNIONNAME.pKeyAgree
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/f8691df7-3cc1-48cb-8787-84c7046b280f">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_KEY_AGREE_RECIPIENT
+<a href="https://msdn.microsoft.com/en-us/library/Aa377945(v=VS.85).aspx">CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_KEY_AGREE_RECIPIENT
 
 
 ### -field DUMMYUNIONNAME.pMailList
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/4303a7e7-cb93-4ed1-85e6-42359c2c687c">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_MAIL_LIST_RECIPIENT
+<a href="https://msdn.microsoft.com/en-us/library/Aa378066(v=VS.85).aspx">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure. Used with CMSG_MAIL_LIST_RECIPIENT
 

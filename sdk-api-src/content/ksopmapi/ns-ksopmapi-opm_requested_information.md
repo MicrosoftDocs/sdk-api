@@ -75,7 +75,7 @@ A buffer that contains the result of the status request. The meaning of the data
 
 
 
-The layout of this structure is identical to the <a href="https://msdn.microsoft.com/136ce182-24c3-489d-a9c2-0121593e4b1e">AMCOPPStatusOutput</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this structure is identical to the <a href="https://msdn.microsoft.com/en-us/library/Dd373428(v=VS.85).aspx">AMCOPPStatusOutput</a> structure used in Certified Output Protection Protocol (COPP).
 
 
 

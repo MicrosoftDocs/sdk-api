@@ -262,7 +262,7 @@ Currently undefined. Reserved for a pointer to the stream (font structure).
 
 ### -param pTTLoadInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd145156(v=VS.85).aspx">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained.
+Pointer to a <a href="https://msdn.microsoft.com/7a4beae7-cd30-47e3-b310-d0a79c3c8c36">TTLOADINFO</a> structure containing the URL from which the embedded font object has been obtained.
 
 
 ## -returns
@@ -291,7 +291,7 @@ Otherwise, returns an error code described in <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd145156(v=VS.85).aspx">TTLOADINFO</a>
+<a href="https://msdn.microsoft.com/7a4beae7-cd30-47e3-b310-d0a79c3c8c36">TTLOADINFO</a>
 
 
 

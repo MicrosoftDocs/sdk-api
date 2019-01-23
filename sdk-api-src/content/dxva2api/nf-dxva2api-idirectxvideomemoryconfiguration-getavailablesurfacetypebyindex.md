@@ -66,7 +66,7 @@ Zero-based index of the surface type to retrieve. Surface types are indexed in o
 
 ### -param pdwType [out]
 
-Receives a member of the <a href="https://msdn.microsoft.com/7ede2247-7878-4b70-9a74-56b626013989">DXVA2_SurfaceType</a> enumeration that specifies the surface type.
+Receives a member of the <a href="https://msdn.microsoft.com/en-us/library/ms699850(v=VS.85).aspx">DXVA2_SurfaceType</a> enumeration that specifies the surface type.
 
 
 ## -returns

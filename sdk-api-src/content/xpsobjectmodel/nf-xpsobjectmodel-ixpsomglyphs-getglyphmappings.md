@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://msdn.microsoft.com/6698ae0b-3525-4612-8234-8ba4dd2870a0">GetGlyphIndices</a>.
+Gets an array of <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://msdn.microsoft.com/6698ae0b-3525-4612-8234-8ba4dd2870a0">GetGlyphIndices</a>.
 
 
 ## -parameters
@@ -58,12 +58,12 @@ Gets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99
 
 ### -param glyphMappingCount [in, out]
 
-The number of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that will fit in the array referenced by <i>glyphMappings</i>. When the method returns, <i>glyphMappingCount</i> contains the number of values returned in the array referenced by <i>glyphMappings</i>.
+The number of <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structures that will fit in the array referenced by <i>glyphMappings</i>. When the method returns, <i>glyphMappingCount</i> contains the number of values returned in the array referenced by <i>glyphMappings</i>.
 
 
 ### -param glyphMappings [in, out]
 
-An array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that contain the glyph mapping values.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structures that contain the glyph mapping values.
 
 
 ## -returns
@@ -147,11 +147,11 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a>
  
 
  

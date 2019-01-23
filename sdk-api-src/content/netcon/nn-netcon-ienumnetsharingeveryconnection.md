@@ -71,7 +71,7 @@ The <b>IEnumNetSharingEveryConnection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7adeec50-23a7-4a20-94a8-adc7767368ed">Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364756(v=VS.85).aspx">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a new enumeration interface from this enumeration.
@@ -80,7 +80,7 @@ Creates a new enumeration interface from this enumeration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05c1ec04-81bc-4d38-aab5-843ea54dda1d">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364757(v=VS.85).aspx">Next</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified number of private connections from this enumeration.

@@ -629,13 +629,9 @@ The actual structure in WinNT.h is named <b>IMAGE_OPTIONAL_HEADER32</b>
    <b>IMAGE_OPTIONAL_HEADER64</b>.
    
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _IMAGE_OPTIONAL_HEADER64 {
+
+```cpp
+typedef struct _IMAGE_OPTIONAL_HEADER64 {
  WORD        Magic;
  BYTE        MajorLinkerVersion;
  BYTE        MinorLinkerVersion;
@@ -666,10 +662,10 @@ The actual structure in WinNT.h is named <b>IMAGE_OPTIONAL_HEADER32</b>
  DWORD       LoaderFlags;
  DWORD       NumberOfRvaAndSizes;
  IMAGE_DATA_DIRECTORY DataDirectory[IMAGE_NUMBEROF_DIRECTORY_ENTRIES];
-} IMAGE_OPTIONAL_HEADER64, *PIMAGE_OPTIONAL_HEADER64;</pre>
-</td>
-</tr>
-</table></span></div>
+} IMAGE_OPTIONAL_HEADER64, *PIMAGE_OPTIONAL_HEADER64;
+```
+
+
 
 
 

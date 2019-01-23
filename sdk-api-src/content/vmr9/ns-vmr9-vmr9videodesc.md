@@ -76,7 +76,7 @@ Height of the video to be deinterlaced, in pixels.
 
 ### -field SampleFormat
 
-Specifies the interlacing format of the sample, as a member of the <a href="https://msdn.microsoft.com/0e501c05-91ac-4594-bdfe-e8b4bfeb5bcb">VMR9_SampleFormat</a> enumeration.
+Specifies the interlacing format of the sample, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407379(v=VS.85).aspx">VMR9_SampleFormat</a> enumeration.
 
 
 ### -field dwFourCC
@@ -86,12 +86,12 @@ Specifies the FOURCC code. Valid values include NV12, YV12, YUY2, UYVY, IMC1, IM
 
 ### -field InputSampleFreq
 
-A <a href="https://msdn.microsoft.com/a2d19dcf-521e-4df0-8e28-5561f2617411">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd407365(v=VS.85).aspx">VMR9Frequency</a> structure that specifies the input frequency. For NTSC TV, the frequency would be expressed as 30,000:1001.
 
 
 ### -field OutputFrameFreq
 
-A <a href="https://msdn.microsoft.com/fb4c094a-2760-45b2-b494-a44d5493987f">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd407385(v=VS.85).aspx">VMRFrequency</a> structure that specifies the output frequency. For NTSC TV, the frequency would be expressed as 60,000:1001.
 
 
 ## -see-also

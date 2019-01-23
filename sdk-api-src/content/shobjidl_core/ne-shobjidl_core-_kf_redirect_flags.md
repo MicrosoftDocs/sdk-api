@@ -119,16 +119,12 @@ The <b><b>KF_REDIRECT_OWNER_USER</b></b> and <b><b>KF_REDIRECT_SET_OWNER_EXPLICI
 
 The <b>KF_REDIRECT_FLAGS</b> type is defined in Shobjidl.h as shown here.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef DWORD KF_REDIRECT_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef DWORD KF_REDIRECT_FLAGS;
+```
+
+
 
 
 

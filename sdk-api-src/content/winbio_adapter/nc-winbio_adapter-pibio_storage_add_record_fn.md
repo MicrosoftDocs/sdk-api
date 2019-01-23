@@ -63,7 +63,7 @@ Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae4
 
 ### -param RecordContents [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/fd638a08-cff0-4984-8580-a1eecd509a1f">WINBIO_STORAGE_RECORD</a> structure that contains the template to add.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd401662(v=VS.85).aspx">WINBIO_STORAGE_RECORD</a> structure that contains the template to add.
 
 
 ## -returns
@@ -106,7 +106,7 @@ A mandatory pointer argument is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The size of the  index vector specified in the <a href="https://msdn.microsoft.com/fd638a08-cff0-4984-8580-a1eecd509a1f">WINBIO_STORAGE_RECORD</a> structure does not match the index size specified when the database was created.
+The size of the  index vector specified in the <a href="https://msdn.microsoft.com/en-us/library/Dd401662(v=VS.85).aspx">WINBIO_STORAGE_RECORD</a> structure does not match the index size specified when the database was created.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b> or the <b
 
 
 
-The memory identified by the <i>RecordContents</i> parameter is the property of the Windows Biometric Framework. The storage adapter must not keep a copy of this pointer, or of any pointers contained in the <a href="https://msdn.microsoft.com/fd638a08-cff0-4984-8580-a1eecd509a1f">WINBIO_STORAGE_RECORD</a> structure, after returning from <i>StorageAdapterAddRecord</i>.
+The memory identified by the <i>RecordContents</i> parameter is the property of the Windows Biometric Framework. The storage adapter must not keep a copy of this pointer, or of any pointers contained in the <a href="https://msdn.microsoft.com/en-us/library/Dd401662(v=VS.85).aspx">WINBIO_STORAGE_RECORD</a> structure, after returning from <i>StorageAdapterAddRecord</i>.
 
 
 <div class="alert"><b>Important</b>  <p class="note">Do not attempt to validate the value supplied for the <i>SubFactor</i> value of the <i>RecordContents</i> parameter. The Windows Biometrics Service will validate the supplied value before passing it through to your implementation. If the value is <b>WINBIO_SUBTYPE_NO_INFORMATION</b> or <b>WINBIO_SUBTYPE_ANY</b>, then validate where appropriate.
@@ -199,13 +199,9 @@ The memory identified by the <i>RecordContents</i> parameter is the property of 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterAddRecord
 //
@@ -247,10 +243,10 @@ StorageAdapterAddRecord(
     }
 
     // Retrieve the context from the pipeline.
-    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
+    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
 
     // Verify the pipeline state.
-    if (storageContext == NULL || storageContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
+    if (storageContext == NULL || storageContext->FileHandle == INVALID_HANDLE_VALUE)
     {
         hr =  WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -265,48 +261,48 @@ StorageAdapterAddRecord(
     //    Payload associated with the template
     //    Index vector
     //
-    if (!ARGUMENT_PRESENT(RecordContents-&gt;Identity))
+    if (!ARGUMENT_PRESENT(RecordContents->Identity))
     {
         hr = E_POINTER;
         goto cleanup;
     }
 
-    if (RecordContents-&gt;Identity-&gt;Type != WINBIO_ID_TYPE_GUID &amp;&amp;
-        RecordContents-&gt;Identity-&gt;Type != WINBIO_ID_TYPE_SID)
+    if (RecordContents->Identity->Type != WINBIO_ID_TYPE_GUID &&
+        RecordContents->Identity->Type != WINBIO_ID_TYPE_SID)
     {
         hr = E_INVALIDARG;
         goto cleanup;
     }
 
-    if (RecordContents-&gt;SubFactor == WINBIO_SUBTYPE_NO_INFORMATION ||
-        RecordContents-&gt;SubFactor == WINBIO_SUBTYPE_ANY)
+    if (RecordContents->SubFactor == WINBIO_SUBTYPE_NO_INFORMATION ||
+        RecordContents->SubFactor == WINBIO_SUBTYPE_ANY)
     {
         hr = E_INVALIDARG;
         goto cleanup;
     }
 
-    if (RecordContents-&gt;TemplateBlobSize == 0 ||
-        !ARGUMENT_PRESENT(RecordContents-&gt;TemplateBlob))
+    if (RecordContents->TemplateBlobSize == 0 ||
+        !ARGUMENT_PRESENT(RecordContents->TemplateBlob))
     {
         hr = E_INVALIDARG;
         goto cleanup;
     }
 
-    if (RecordContents-&gt;PayloadBlobSize &gt; 0 &amp;&amp; 
-        !ARGUMENT_PRESENT(RecordContents-&gt;PayloadBlob))
+    if (RecordContents->PayloadBlobSize > 0 && 
+        !ARGUMENT_PRESENT(RecordContents->PayloadBlob))
     {
         hr = E_POINTER;
         goto cleanup;
     }
 
-    if (RecordContents-&gt;IndexElementCount != storageContext-&gt;IndexElementCount)
+    if (RecordContents->IndexElementCount != storageContext->IndexElementCount)
     {
         hr = WINBIO_E_DATABASE_BAD_INDEX_VECTOR;
         goto cleanup;
     }
 
-    if (RecordContents-&gt;IndexElementCount &gt; 0 &amp;&amp;
-        !ARGUMENT_PRESENT(RecordContents-&gt;IndexVector))
+    if (RecordContents->IndexElementCount > 0 &&
+        !ARGUMENT_PRESENT(RecordContents->IndexVector))
     {
         hr = E_POINTER;
         goto cleanup;
@@ -317,15 +313,15 @@ StorageAdapterAddRecord(
     // values as the new record. If a duplicate is found, return.
     hr = _CheckForDuplicateEnrollments(
             Pipeline,
-            RecordContents-&gt;Identity,
-            RecordContents-&gt;SubFactor,
-            &amp;duplicateRecordCount
+            RecordContents->Identity,
+            RecordContents->SubFactor,
+            &duplicateRecordCount
             );
     if (FAILED(hr))
     {
         goto cleanup;
     }
-    if (duplicateRecordCount &gt; 0)
+    if (duplicateRecordCount > 0)
     {
         hr = WINBIO_E_DUPLICATE_ENROLLMENT;
         goto cleanup;
@@ -335,11 +331,11 @@ StorageAdapterAddRecord(
     // data. Do this now so that you can determine how much space will be 
     // required to store the encrypted template.
     hr = _EncryptTemplateData(
-            &amp;storageContext-&gt;CryptoContext,
-            RecordContents-&gt;TemplateBlob,
-            RecordContents-&gt;TemplateBlobSize,
-            &amp;encryptedTemplateBlob,
-            &amp;encryptedTemplateBlobSize
+            &storageContext->CryptoContext,
+            RecordContents->TemplateBlob,
+            RecordContents->TemplateBlobSize,
+            &encryptedTemplateBlob,
+            &encryptedTemplateBlobSize
             );
     if (FAILED(hr))
     {
@@ -354,11 +350,11 @@ StorageAdapterAddRecord(
     // data that will be used by the storage adapter but that will
     // not be made visible to the engine adapter.
     hr = _AllocateNewRecord(
-            RecordContents-&gt;IndexElementCount, 
+            RecordContents->IndexElementCount, 
             encryptedTemplateBlobSize,
-            RecordContents-&gt;PayloadBlobSize,
-            &amp;newRecord,                         // [out] Address of the new record buffer
-            &amp;newRecordSize                      // [out] Size of the new record buffer
+            RecordContents->PayloadBlobSize,
+            &newRecord,                         // [out] Address of the new record buffer
+            &newRecordSize                      // [out] Size of the new record buffer
             );
     if (FAILED(hr))
     {
@@ -367,31 +363,31 @@ StorageAdapterAddRecord(
 
     // Copy the identity information into the new record.
     CopyMemory(
-        &amp;newRecord-&gt;Identity,
-        RecordContents-&gt;Identity,
+        &newRecord->Identity,
+        RecordContents->Identity,
         sizeof(WINBIO_IDENTITY)
         );
 
     // Copy the sub-factor information to the new record.
-    newRecord-&gt;SubFactor = RecordContents-&gt;SubFactor;
+    newRecord->SubFactor = RecordContents->SubFactor;
 
     // Copy the index vector, if present, into the new record.
-    if (RecordContents-&gt;IndexElementCount &gt; 0)
+    if (RecordContents->IndexElementCount > 0)
     {
         PULONG indexVector = _GetIndexVector(newRecord);
-        for (index=0; index &lt; RecordContents-&gt;IndexElementCount; ++index)
+        for (index=0; index < RecordContents->IndexElementCount; ++index)
         {
-            indexVector[index] = RecordContents-&gt;IndexVector[index];
+            indexVector[index] = RecordContents->IndexVector[index];
         }
     }
 
     // Copy the encrypted template.
     templateBlobOffset = 
         sizeof(struct _MY_ADAPTER_RECORD_HEADER) + 
-        RecordContents-&gt;IndexElementCount * sizeof(ULONG);
+        RecordContents->IndexElementCount * sizeof(ULONG);
 
-    newRecord-&gt;TemplateBlobSize = RecordContents-&gt;TemplateBlobSize;
-    newRecord-&gt;EncryptedTemplateBlobSize = encryptedTemplateBlobSize;
+    newRecord->TemplateBlobSize = RecordContents->TemplateBlobSize;
+    newRecord->EncryptedTemplateBlobSize = encryptedTemplateBlobSize;
 
     CopyMemory(
         (PUCHAR)newRecord + templateBlobOffset,
@@ -400,24 +396,24 @@ StorageAdapterAddRecord(
         );
        
     // Copy the payload blob if present.
-    if (RecordContents-&gt;PayloadBlobSize &gt; 0)
+    if (RecordContents->PayloadBlobSize > 0)
     {
         payloadBlobOffset =
             templateBlobOffset + 
             encryptedTemplateBlobSize;
 
-        newRecord-&gt;PayloadBlobSize = RecordContents-&gt;PayloadBlobSize;
+        newRecord->PayloadBlobSize = RecordContents->PayloadBlobSize;
 
         CopyMemory(
             (PUCHAR)newRecord + payloadBlobOffset, 
-            RecordContents-&gt;PayloadBlob, 
-            RecordContents-&gt;PayloadBlobSize
+            RecordContents->PayloadBlob, 
+            RecordContents->PayloadBlobSize
             );
     }
 
     // Call a custom function (_LockDatabase) to lock the database for writing
     // (EXCLUSIVE ownership).
-    hr = _LockDatabase(Pipeline-&gt;StorageHandle, TRUE);
+    hr = _LockDatabase(Pipeline->StorageHandle, TRUE);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -425,7 +421,7 @@ StorageAdapterAddRecord(
     lockAcquired = TRUE;
 
     // Call a custom function (_ReadFileHeader) to read the header block.
-    hr = _ReadFileHeader( Pipeline-&gt;StorageHandle, &amp;fileHeader );
+    hr = _ReadFileHeader( Pipeline->StorageHandle, &fileHeader );
     if (FAILED(hr))
     {
         goto cleanup;
@@ -434,7 +430,7 @@ StorageAdapterAddRecord(
     // Write the new data record to the first free byte at the end of the
     // active data area in the database file.
     hr = _WriteRecord( 
-            Pipeline-&gt;StorageHandle, 
+            Pipeline->StorageHandle, 
             fileHeader.FirstFreeByte, 
             newRecord 
             );
@@ -445,12 +441,12 @@ StorageAdapterAddRecord(
 
     // Update the bookkeeping information in the header and write the header
     // back to the file.
-    fileHeader.FirstFreeByte.QuadPart += newRecord-&gt;RecordSize;
+    fileHeader.FirstFreeByte.QuadPart += newRecord->RecordSize;
     ++fileHeader.TotalRecordCount;
 
     hr = _WriteFileHeader(
-            Pipeline-&gt;StorageHandle,
-            &amp;fileHeader
+            Pipeline->StorageHandle,
+            &fileHeader
             );
     if (FAILED(hr))
     {
@@ -462,8 +458,8 @@ StorageAdapterAddRecord(
     // file. The hash value is an integrity check on data stored in the file. Note that
     // the DPAPI-protected data block is NOT included in the hash.
     hr = _ReadProtectedData(
-            Pipeline-&gt;StorageHandle,
-            &amp;protectedData
+            Pipeline->StorageHandle,
+            &protectedData
             );
     if (FAILED(hr))
     {
@@ -471,13 +467,13 @@ StorageAdapterAddRecord(
     }
 
     hr = _ComputeFileHash(
-            Pipeline-&gt;StorageHandle,
+            Pipeline->StorageHandle,
             _MY_ADAPTER_DPAPI_BLOCK_OFFSET,
             (SIZE_T)(fileHeader.FirstFreeByte.QuadPart - 
                      _MY_ADAPTER_DPAPI_BLOCK_SIZE),
             protectedData.FileHash,
             _MY_ADAPTER_FILE_HASH_LENGTH,
-            (PSIZE_T)&amp;protectedData.FileHashLength
+            (PSIZE_T)&protectedData.FileHashLength
             );
     if (FAILED(hr))
     {
@@ -486,8 +482,8 @@ StorageAdapterAddRecord(
     }
 
     hr = _WriteProtectedData(
-                Pipeline-&gt;StorageHandle,
-                &amp;protectedData
+                Pipeline->StorageHandle,
+                &protectedData
                 );
     if (FAILED(hr))
     {
@@ -499,11 +495,11 @@ cleanup:
 
     // Call the SecureZero function to overwrite the template encryption key 
     // on the stack.
-    SecureZeroMemory( &amp;protectedData, sizeof(struct _MY_ADAPTER_DPAPI_DATA));
+    SecureZeroMemory( &protectedData, sizeof(struct _MY_ADAPTER_DPAPI_DATA));
 
     if (lockAcquired == TRUE)
     {
-        _UnlockDatabase( Pipeline-&gt;StorageHandle);
+        _UnlockDatabase( Pipeline->StorageHandle);
         lockAcquired = FALSE;
     }
 
@@ -523,10 +519,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

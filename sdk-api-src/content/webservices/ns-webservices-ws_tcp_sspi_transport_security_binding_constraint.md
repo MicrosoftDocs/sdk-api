@@ -49,7 +49,7 @@ req.redist:
 
 
 A security binding constraint that corresponds to the
-                <a href="https://msdn.microsoft.com/c617f6cf-cedb-4d52-954c-fd4577260ca3">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
+                <a href="https://msdn.microsoft.com/en-us/library/Dd323466(v=VS.85).aspx">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING</a>.
             
 
 

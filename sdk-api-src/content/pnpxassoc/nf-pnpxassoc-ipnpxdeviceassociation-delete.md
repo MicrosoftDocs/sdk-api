@@ -4,7 +4,7 @@ title: IPNPXDeviceAssociation::Delete
 author: windows-sdk-content
 description: Removes an entry from the association database and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_delete.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 208da586-6bb3-4365-90ba-9fd615a371eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

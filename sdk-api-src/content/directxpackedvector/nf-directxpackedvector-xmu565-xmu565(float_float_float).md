@@ -99,25 +99,21 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	    with an instance of <code>uint16_t</code> in the definition of the structure:
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMU565 instance;
 	_x1=min( max( _x, 0.0 ), 31.0 );
 	_y1=min( max( _y, 0.0 ), 63.0 );
 	_z1=min( max( _z, 0.0 ), 31.0 );
 
-	instance.v= ((z &amp; 0x1F) &lt;&lt; 11) |
-                    ((y &amp; 0x3F) &lt;&lt; 5) |
-                    ((x &amp; 0x1F));
-      </pre>
-</td>
-</tr>
-</table></span></div>
+	instance.v= ((z & 0x1F) << 11) |
+                    ((y & 0x3F) << 5) |
+                    ((x & 0x1F));
+      
+```
+
+
 
 
 

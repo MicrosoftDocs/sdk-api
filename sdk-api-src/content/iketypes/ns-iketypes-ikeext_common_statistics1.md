@@ -60,14 +60,14 @@ The <b>IKEEXT_COMMON_STATISTICS1</b> structure contains various statistics commo
 
 IPv4 common statistics.
 
-See <a href="https://msdn.microsoft.com/58e109fd-8a32-47bd-bc6a-bbe1bb54bc7e">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd744972(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
 
 
 ### -field v6Statistics
 
 IPv6 common statistics.
 
-See <a href="https://msdn.microsoft.com/58e109fd-8a32-47bd-bc6a-bbe1bb54bc7e">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd744972(v=VS.85).aspx">IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1</a> for more information.
 
 
 ### -field totalPacketsReceived

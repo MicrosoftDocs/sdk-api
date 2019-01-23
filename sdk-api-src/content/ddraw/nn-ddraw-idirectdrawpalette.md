@@ -142,17 +142,13 @@ You can use the LPDIRECTDRAWPALETTE data type to declare a variable that contain
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirectDrawPalette    FAR *LPDIRECTDRAWPALETTE;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

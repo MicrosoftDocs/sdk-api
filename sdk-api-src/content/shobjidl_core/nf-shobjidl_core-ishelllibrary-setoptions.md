@@ -95,13 +95,9 @@ To change an option value, you must set the option value that you want to change
 
 The following example clears the LOF_PINNEDTONAVPANE library option.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 LIBRARYOPTIONFLAGS	maskValue;
 LIBRARYOPTIONFLAGS optionValue;
 HRESULT	hr = E_FAIL;
@@ -115,10 +111,10 @@ maskValue = LOF_PINNEDTONAVPANE;
 optionValue = ~LOF_PINNEDTONAVPANE;
 
 // call the method
-hr = library-&gt;SetOptions (maskValue, optionValue);</pre>
-</td>
-</tr>
-</table></span></div>
+hr = library->SetOptions (maskValue, optionValue);
+```
+
+
 
 
 

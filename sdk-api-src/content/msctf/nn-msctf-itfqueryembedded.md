@@ -93,13 +93,9 @@ To obtain an instance of this interface, call the <b>ITfContext::QueryInterface<
 
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfQueryEmbedded *pQueryEmbedded;
 
@@ -110,10 +106,8 @@ if(SUCCEEDED(hr))
     
     pQueryEmbedded->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

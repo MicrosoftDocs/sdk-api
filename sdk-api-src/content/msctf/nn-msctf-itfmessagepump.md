@@ -120,13 +120,9 @@ If the application is Unicode, it should use the PeekMessageW and GetMessageW me
 
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfMessagePump *pMessagePump;
 
@@ -138,10 +134,8 @@ if(SUCCEEDED(hr))
     //Release the ITfMessagePump interface. 
     pMessagePump->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

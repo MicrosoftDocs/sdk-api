@@ -136,13 +136,9 @@ Multithreaded queues use a thread pool, which  can reduce the total number of th
 <h3><a id="Reply_Mode"></a><a id="reply_mode"></a><a id="REPLY_MODE"></a>Reply Mode</h3>
 A serializer queue can also work in "reply" mode. If the caller’s <a href="https://msdn.microsoft.com/374dd139-d3e7-45d0-a7d3-1187b928ef57">IMFAsyncCallback::GetParameters</a> method returns the <b>MFASYNC_REPLY_CALLBACK</b> flag, the serializer queue does not automatically advance to the next work item. Instead, the queue waits for a reply from the caller. The caller signals the reply by invoking the asynchronous result object that the work queue passes to the <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">Invoke</a> method. The following code illustrates how the caller signals the work queue.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CCallback::Invoke(IMFAsyncResult *pResult)
+
+```cpp
+HRESULT CCallback::Invoke(IMFAsyncResult *pResult)
 {
     DoSomeWork();
     
@@ -160,10 +156,10 @@ HRESULT CCallback::GetParameters(DWORD *pdwFlags, DWORD *pdwQueue)
     *pdwQueue = m_QueueId;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

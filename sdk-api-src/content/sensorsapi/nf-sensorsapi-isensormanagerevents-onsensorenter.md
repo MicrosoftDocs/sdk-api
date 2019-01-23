@@ -64,7 +64,7 @@ A pointer to the <a href="https://msdn.microsoft.com/3216afbb-d524-486d-99ad-0ee
 ### -param state [in]
 
 
-<a href="https://msdn.microsoft.com/4cf993ba-d767-4ef8-94a9-e819cc210360">SensorState</a> indicating the current state of the sensor.
+<a href="https://msdn.microsoft.com/en-us/library/Dd318905(v=VS.85).aspx">SensorState</a> indicating the current state of the sensor.
 
 
 ## -returns

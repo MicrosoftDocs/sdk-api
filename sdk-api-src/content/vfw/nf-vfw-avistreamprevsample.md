@@ -77,19 +77,15 @@ The sample position returned does not include the sample specified by <i>lPos</i
 
 The <b>AVIStreamPrevSample</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamPrevSample(pavi, lPos) \ 
     AVIStreamFindSample(pavi, lPos - 1, FIND_PREV | FIND_ANY) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

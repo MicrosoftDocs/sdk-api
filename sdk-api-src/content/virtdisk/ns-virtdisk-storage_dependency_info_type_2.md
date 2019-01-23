@@ -59,7 +59,7 @@ Contains VHD or ISO storage dependency information for type 2.
 
 ### -field DependencyTypeFlags
 
-A <a href="https://msdn.microsoft.com/f22bcf17-59fd-4a05-9516-2e14f173ed33">DEPENDENT_DISK_FLAG</a> enumeration.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323663(v=VS.85).aspx">DEPENDENT_DISK_FLAG</a> enumeration.
 
 
 ### -field ProviderSpecificFlags
@@ -69,7 +69,7 @@ Flags specific to the VHD provider.
 
 ### -field VirtualStorageType
 
-A <a href="https://msdn.microsoft.com/9f0c1848-fa8e-4747-a3b1-71a274695280">VIRTUAL_STORAGE_TYPE</a> structure.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323704(v=VS.85).aspx">VIRTUAL_STORAGE_TYPE</a> structure.
 
 
 ### -field AncestorLevel

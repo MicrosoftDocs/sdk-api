@@ -49,7 +49,7 @@ req.redist:
 
 
 The <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> structure stores information needed for pre-shared key authentication.
-<div class="alert"><b>Note</b>  <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> is the specific implementation of IKEEXT_PRESHARED_KEY_AUTHENTICATION used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/b2009797-f5fd-4d14-8a59-832f9a0acff1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>IKEEXT_PRESHARED_KEY_AUTHENTICATION0</b> is the specific implementation of IKEEXT_PRESHARED_KEY_AUTHENTICATION used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/en-us/library/Dd744976(v=VS.85).aspx">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a> is available.</div><div> </div>
 
 ## -struct-fields
 

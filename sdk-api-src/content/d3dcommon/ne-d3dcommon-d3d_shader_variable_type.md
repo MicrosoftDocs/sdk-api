@@ -647,17 +647,13 @@ The types in a structured buffer describe the structure of the elements in the b
           The following examples show structured buffers:
         
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct mystruct {float4 val; uint ind;}; RWStructuredBuffer&lt;mystruct&gt; rwbuf;
-                                         RWStructuredBuffer&lt;float3&gt; rwbuf2;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+struct mystruct {float4 val; uint ind;}; RWStructuredBuffer<mystruct> rwbuf;
+                                         RWStructuredBuffer<float3> rwbuf2;
+```
+
+
 
 
 

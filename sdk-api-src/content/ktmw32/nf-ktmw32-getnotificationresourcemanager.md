@@ -146,7 +146,7 @@ All resource managers must register to receive <b>TRANSACTION_NOTIFY_PREPREPARE<
 
 
 
-<a href="https://msdn.microsoft.com/29a32b89-22d1-4d26-8927-a2051dd5d37a">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366399(v=VS.85).aspx">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
  
 
  

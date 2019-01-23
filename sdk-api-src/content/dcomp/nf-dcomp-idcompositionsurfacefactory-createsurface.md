@@ -104,11 +104,11 @@ A newly created surface object is in an uninitialized state. While it is uniniti
 
 
 
-To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> method. The first call to this method must cover the entire surface area to provide an initial value for every pixel. Subsequent calls may specify smaller sub-rectangles of the surface to update.
+To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> method. The first call to this method must cover the entire surface area to provide an initial value for every pixel. Subsequent calls may specify smaller sub-rectangles of the surface to update.
 
 
 
-This method will fail if either the width or height exceed the max texture size. If your scenario requires dimensions beyond the max texture size, use <a href="https://msdn.microsoft.com/en-us/library/Dn280425(v=VS.85).aspx">CreateVirtualSurface</a> method.
+This method will fail if either the width or height exceed the max texture size. If your scenario requires dimensions beyond the max texture size, use <a href="https://msdn.microsoft.com/0C74CDA5-4491-4D16-B972-C9C54007A2FB">CreateVirtualSurface</a> method.
 
 DirectComposition surfaces support the following pixel formats:
 
@@ -128,19 +128,19 @@ DirectComposition surfaces support the following pixel formats:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280366(v=VS.85).aspx">IDCompositionDevice2::CreateSurface</a>
+<a href="https://msdn.microsoft.com/1CBE92B6-AC48-47F1-B50A-B78030D356D8">IDCompositionDevice2::CreateSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280372(v=VS.85).aspx">IDCompositionDevice2::CreateVirtualSurface</a>
+<a href="https://msdn.microsoft.com/659D79E3-2E7C-4431-B724-7AC2978BD9BC">IDCompositionDevice2::CreateVirtualSurface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280423(v=VS.85).aspx">IDCompositionSurfaceFactory</a>
+<a href="https://msdn.microsoft.com/1BB028E0-376E-42BD-82FD-08331341C93B">IDCompositionSurfaceFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280425(v=VS.85).aspx">IDCompositionSurfaceFactory::CreateVirtualSurface</a>
+<a href="https://msdn.microsoft.com/0C74CDA5-4491-4D16-B972-C9C54007A2FB">IDCompositionSurfaceFactory::CreateVirtualSurface</a>
  
 
  

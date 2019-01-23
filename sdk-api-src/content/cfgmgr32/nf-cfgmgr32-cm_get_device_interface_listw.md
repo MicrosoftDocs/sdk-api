@@ -150,19 +150,15 @@ Between calling <a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade
 
 This snippet illustrates retrying getting the size and the list as described in the Remarks section.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    CONFIGRET cr = CR_SUCCESS;
+
+```
+    CONFIGRET cr = CR_SUCCESS;
     PWSTR DeviceInterfaceList = NULL;
     ULONG DeviceInterfaceListLength = 0;
 
     do {
-        cr = CM_Get_Device_Interface_List_Size(&amp;DeviceInterfaceListLength,
-                                               (LPGUID)&amp;GUID_DEVINTERFACE_VOLUME,
+        cr = CM_Get_Device_Interface_List_Size(&DeviceInterfaceListLength,
+                                               (LPGUID)&GUID_DEVINTERFACE_VOLUME,
                                                NULL,
                                                CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES);
 
@@ -187,7 +183,7 @@ This snippet illustrates retrying getting the size and the list as described in 
             break;
         }
 
-        cr = CM_Get_Device_Interface_List((LPGUID)&amp;GUID_DEVINTERFACE_VOLUME,
+        cr = CM_Get_Device_Interface_List((LPGUID)&GUID_DEVINTERFACE_VOLUME,
                                           NULL,
                                           DeviceInterfaceList,
                                           DeviceInterfaceListLength,
@@ -198,10 +194,10 @@ This snippet illustrates retrying getting the size and the list as described in 
     {
         goto Exit;
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

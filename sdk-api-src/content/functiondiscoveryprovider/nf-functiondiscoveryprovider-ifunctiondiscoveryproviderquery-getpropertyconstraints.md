@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProviderQuery::GetPropertyConstraints
 author: windows-sdk-content
 description: Retrieves the current property constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getpropertyconstraints.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: d8a45d1b-fb1e-4288-a42a-b967cc9b4533
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -104,20 +104,14 @@ Direct2D geometries are immutable and device-independent resources created by <a
 The following example creates an <a href="https://msdn.microsoft.com/bb5f65ba-34d4-418b-863c-2431046bce8e">ID2D1RectangleGeometry</a>, then draws it without transforming it. It produces the output shown in the following illustration.
 
 <img alt="Illustration of a rectangle" src="./images/transformedgeometry2_step1.png"/>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = m_pD2DFactory->CreateRectangleGeometry(
+
+```cpp
+hr = m_pD2DFactory->CreateRectangleGeometry(
     D2D1::RectF(150.f, 150.f, 200.f, 200.f),
     &m_pRectangleGeometry
     );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 The next example uses the render target to scale the geometry by a factor of 3, then draws it. The following illustration shows the result of drawing the rectangle without the transform and with the transform; notices that the stroke is thicker after the transform, even though the stroke thickness is 1.
@@ -140,13 +134,9 @@ m_pRenderTarget->DrawGeometry(m_pRectangleGeometry, m_pBlackBrush, 1);
 The next example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd742730(v=VS.85).aspx">CreateTransformedGeometry</a> method to scale the geometry by a factor of 3, then draws it. It produces the output shown in the following illustration. Notice that, although the rectangle is larger, its stroke hasn't increased.
 
 <img alt="Illustration of a smaller rectangle inside a larger rectangle with the same stroke" src="./images/transformedgeometry2_step3.png"/>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre> // Create a geometry that is a scaled version
+
+```cpp
+ // Create a geometry that is a scaled version
  // of m_pRectangleGeometry.
  // The new geometry is scaled by a factory of 3
  // from the center of the geometry, (35, 35).
@@ -158,24 +148,17 @@ The next example uses the <a href="https://msdn.microsoft.com/en-us/library/Dd74
          D2D1::Point2F(175.f, 175.f)),
      &m_pTransformedGeometry
      );
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Replace the previous render target transform.
+
+```
+
+```cpp
+// Replace the previous render target transform.
 m_pRenderTarget->SetTransform(D2D1::Matrix3x2F::Identity());
 
 // Draw the transformed geometry.
 m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

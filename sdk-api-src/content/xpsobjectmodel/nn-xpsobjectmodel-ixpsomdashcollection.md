@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-A collection of <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structures.
+A collection of <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structures.
 
 
 ## -inheritance
@@ -71,7 +71,7 @@ The <b>IXpsOMDashCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e8d2baf5-e36e-4363-bde6-1731c97e702f">Append</a>
 </td>
 <td align="left" width="63%">
-Appends an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure to the end of the collection.
+Appends an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure to the end of the collection.
             
 
 </td>
@@ -81,7 +81,7 @@ Appends an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d
 <a href="https://msdn.microsoft.com/70749e4c-1f67-41e8-9def-85d38493c099">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure from a specified location in the collection.
+Gets an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure from a specified location in the collection.
             
 
 </td>
@@ -91,7 +91,7 @@ Gets an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315
 <a href="https://msdn.microsoft.com/51393b2f-6658-4268-bcfc-5647ef2c8406">GetCount</a>
 </td>
 <td align="left" width="63%">
-Gets the number of <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structures in the collection.
+Gets the number of <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structures in the collection.
             
 
 </td>
@@ -101,7 +101,7 @@ Gets the number of <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c
 <a href="https://msdn.microsoft.com/d9ef0ea9-f427-41ff-b33e-c9b5f49cb7d9">InsertAt</a>
 </td>
 <td align="left" width="63%">
-Inserts an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure at a specified location in the collection.
+Inserts an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure at a specified location in the collection.
             
 
 </td>
@@ -111,7 +111,7 @@ Inserts an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d
 <a href="https://msdn.microsoft.com/5ccce0d4-c764-4da4-9d7c-463921a92a6a">RemoveAt</a>
 </td>
 <td align="left" width="63%">
-Removes and frees an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure from a specified location in the collection.
+Removes and frees an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure from a specified location in the collection.
             
 
 </td>
@@ -121,7 +121,7 @@ Removes and frees an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042
 <a href="https://msdn.microsoft.com/c0ea0ae0-2c28-4478-82fc-3e80bc70eef8">SetAt</a>
 </td>
 <td align="left" width="63%">
-Replaces an <a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a> structure at a specified location in the collection.
+Replaces an <a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a> structure at a specified location in the collection.
             
 
 </td>
@@ -155,7 +155,7 @@ For more information about the collection methods, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/c8f43f91-eefb-4025-8042-c2601e89d315">XPS_DASH</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372945(v=VS.85).aspx">XPS_DASH</a>
  
 
  

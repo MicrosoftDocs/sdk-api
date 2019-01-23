@@ -49,7 +49,7 @@ req.redist:
 
 
 The <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> structure contains information that describes an IKE Extended Mode (EM) failure.
-<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/42348e1d-e3b3-4f8c-9fef-15e2e4ebf580">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE0</b> is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows Vista. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7 and later, <a href="https://msdn.microsoft.com/en-us/library/Ee707312(v=VS.85).aspx">FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</a> is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -101,7 +101,7 @@ An <a href="https://msdn.microsoft.com/6bb1e264-6141-4545-add5-e12f09769e25">IKE
 
 ### -field emAuthMethod
 
-An <a href="https://msdn.microsoft.com/582ec1ea-9390-4f86-9a3c-25d4e805a218">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa364977(v=VS.85).aspx">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
 
 
 ### -field endCertHash
@@ -126,7 +126,7 @@ Quick Mode (QM) filter ID associated with this failure.
 
 
 
-<a href="https://msdn.microsoft.com/582ec1ea-9390-4f86-9a3c-25d4e805a218">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364977(v=VS.85).aspx">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>
 
 
 

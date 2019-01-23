@@ -110,13 +110,9 @@ Depending on the format of the bitmap, <a href="https://msdn.microsoft.com/en-us
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object based on a JPEG file. The code draws the bitmap once unaltered. Then the code calls the <b>Bitmap::SetPixel</b> method to create a checkered pattern of black pixels in the bitmap and draws the altered bitmap.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetPixel(HDC hdc)
+
+```cpp
+VOID Example_SetPixel(HDC hdc)
 
 {
    Graphics graphics(hdc);
@@ -125,23 +121,23 @@ The following example creates a
    Bitmap myBitmap(L"Climber.jpg");
 
    // Draw the bitmap.
-   graphics.DrawImage(&amp;myBitmap, 0, 0);
+   graphics.DrawImage(&myBitmap, 0, 0);
 
    // Create a checkered pattern with black pixels.
-   for (UINT row = 0; row &lt; myBitmap.GetWidth(); row += 2)
+   for (UINT row = 0; row < myBitmap.GetWidth(); row += 2)
    {
-      for (UINT col = 0; col &lt; myBitmap.GetHeight(); col += 2)
+      for (UINT col = 0; col < myBitmap.GetHeight(); col += 2)
       {
          myBitmap.SetPixel(row, col, Color(255, 0, 0, 0));
       }
    }
 
    // Draw the altered bitmap.
-   graphics.DrawImage(&amp;myBitmap, 200, 0);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawImage(&myBitmap, 200, 0);
+}
+```
+
+
 
 
 

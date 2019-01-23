@@ -136,7 +136,7 @@ For Boolean and enumeration parameters, only MP_CURVE_JUMP is valid.
 
 
 
-<a href="https://msdn.microsoft.com/b7386b63-c563-42dd-851c-780bf1043f65">MP_ENVELOPE_SEGMENT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390744(v=VS.85).aspx">MP_ENVELOPE_SEGMENT</a>
  
 
  

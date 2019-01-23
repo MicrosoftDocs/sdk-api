@@ -93,7 +93,7 @@ message as carrying the claims present in the certificate.
 
 ### -param properties
 
-An array of  <a href="https://msdn.microsoft.com/dd235e33-39f7-459d-8b7f-76d5c3f96770">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
+An array of  <a href="https://msdn.microsoft.com/en-us/library/Dd323557(v=VS.85).aspx">WS_XML_SECURITY_TOKEN_PROPERTY</a> structures containing optional properties for the XML security token.
 
 The value of this parameter may be <b>NULL</b>, in which case, the <i>propertyCount</i> parameter must be 0 (zero).
                 
@@ -112,7 +112,7 @@ On   success, a pointer that receives the address of the  <a href="https://msdn.
                 When you no longer need this structure, you must free it by calling <a href="https://msdn.microsoft.com/7f9500a8-b54f-4967-8f8d-9f8770d3dd60">WsFreeSecurityToken</a>.
                 
 
-The returned security token may be used with <a href="https://msdn.microsoft.com/5ca1e67a-11f5-44bb-afe8-c934837d711b">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
+The returned security token may be used with <a href="https://msdn.microsoft.com/en-us/library/Dd323568(v=VS.85).aspx">WS_XML_TOKEN_MESSAGE_SECURITY_BINDING</a> if it is to be
 
 presented to a service.
 

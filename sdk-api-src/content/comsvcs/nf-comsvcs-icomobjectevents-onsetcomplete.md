@@ -58,7 +58,7 @@ Generated when the client calls <a href="https://msdn.microsoft.com/8ff25b68-fcb
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param CtxtID [in]

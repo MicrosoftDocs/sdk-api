@@ -4,7 +4,7 @@ title: IProviderPropertyConstraintCollection::Item
 author: windows-sdk-content
 description: Gets the name and value of the specified property constraint, by index.
 old-location: ncd\iproviderpropertyconstraintcollection_item.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 3e5643f6-02a5-48b0-a105-5b82c439b5cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -58,21 +58,21 @@ The <b>IKEEXT_AUTHENTICATION_METHOD2</b> structure specifies various parameters 
 
 ### -field authenticationMethodType
 
-Type: <b><a href="https://msdn.microsoft.com/582ec1ea-9390-4f86-9a3c-25d4e805a218">IKEEXT_AUTHENTICATION_METHOD_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa364977(v=VS.85).aspx">IKEEXT_AUTHENTICATION_METHOD_TYPE</a></b>
 
 Type of authentication method.
 
 
 ### -field presharedKeyAuthentication
 
-Type: <b><a href="https://msdn.microsoft.com/b2009797-f5fd-4d14-8a59-832f9a0acff1">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd744976(v=VS.85).aspx">IKEEXT_PRESHARED_KEY_AUTHENTICATION1</a></b>
 
  Available when <b>authenticationMethodType</b> is <b>IKEEXT_PRESHARED_KEY</b>.
 
 
 ### -field certificateAuthentication
 
-Type: <b><a href="https://msdn.microsoft.com/39332187-6562-4f58-9284-e2aaccf1489b">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447405(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
 
  Available when <b>authenticationMethodType</b> is <b>IKEEXT_CERTIFICATE</b>, <b>IKEEXT_CERTIFICATE_ECDSA_P256</b>, or <b>IKEEXT_CERTIFICATE_ECDSA_P384</b>.
 
@@ -100,7 +100,7 @@ Available when <b>authenticationMethodType</b> is <b>IKEEXT_NTLM_V2</b>.
 
 ### -field sslAuthentication
 
-Type: <b><a href="https://msdn.microsoft.com/39332187-6562-4f58-9284-e2aaccf1489b">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh447405(v=VS.85).aspx">IKEEXT_CERTIFICATE_AUTHENTICATION2</a></b>
 
 Available when <b>authenticationMethodType</b> is <b>IKEEXT_SSL</b>, <b>IKEEXT_SSL_ECDSA_P256</b>, or <b>IKEEXT_SSL_ECDSA_P384</b>.
 

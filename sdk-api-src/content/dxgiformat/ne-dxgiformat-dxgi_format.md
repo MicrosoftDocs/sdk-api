@@ -804,13 +804,9 @@ Most formats have byte-aligned components, and the components are in C-array ord
 Rather than adjusting for whether a system uses big-endian or little-endian byte ordering, you should write portable code, as follows.
           
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // DXGI_FORMAT_R32G32B32A32_FLOAT
 FLOAT* pR32G32B32A32 = ...;
 pR32G32B32A32[0] = 1.f;  // R
@@ -820,11 +816,11 @@ pR32G32B32A32[3] = 0.5f; // A
 
 // DXGI_FORMAT_R10G10B10A2_UNORM
 UINT32* pR10G10B10A2 = ...;
-pR10G10B10A2 = (0x3ff) | (0x1 &lt;&lt; 30);  // R=0x3ff, and A=0x1
-</pre>
-</td>
-</tr>
-</table></span></div>
+pR10G10B10A2 = (0x3ff) | (0x1 << 30);  // R=0x3ff, and A=0x1
+
+```
+
+
 <h3><a id="Restrictions_and_notes_on_formats"></a><a id="restrictions_and_notes_on_formats"></a><a id="RESTRICTIONS_AND_NOTES_ON_FORMATS"></a>Restrictions and notes on formats</h3>
 A few formats have additional restrictions and implied behavior:
 
@@ -912,21 +908,17 @@ A typeless format contains one or more subformats; each subformat resolves the d
   For example, in the R32G32B32 group, which defines types for three-component 96-bit data, there is one typeless format and three fully typed subformats.
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 DXGI_FORMAT_R32G32B32_TYPELESS,
 DXGI_FORMAT_R32G32B32_FLOAT,
 DXGI_FORMAT_R32G32B32_UINT,
 DXGI_FORMAT_R32G32B32_SINT,
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 </td>
 </tr>
 <tr>

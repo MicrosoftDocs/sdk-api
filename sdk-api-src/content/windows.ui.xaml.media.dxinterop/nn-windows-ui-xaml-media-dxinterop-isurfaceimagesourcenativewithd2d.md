@@ -120,21 +120,17 @@ Suspends the drawing operation.
 
 The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides the native implementation of the <a href="https://msdn.microsoft.com/fb58f405-895f-4590-8bff-7b1a9573791f">SurfaceImageSource</a> class. To get a pointer to the  <b>ISurfaceImageSourceNativeWithD2D</b> interface, you must cast a <b>SurfaceImageSource</b> instance to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>, and call the <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-Microsoft::WRL::ComPtr&lt;ISurfaceImageSourceNativeWithD2D&gt;	m_sisD2DNative;
+
+```cpp
+
+Microsoft::WRL::ComPtr<ISurfaceImageSourceNativeWithD2D>	m_sisD2DNative;
 // ...
-IInspectable* sisInspectable = (IInspectable*) reinterpret_cast&lt;IInspectable*&gt;(surfaceImageSource);
-sisInspectable-&gt;QueryInterface(__uuidof(ISurfaceImageSourceNative), (void **)&amp;m_sisD2DNative)
-	</pre>
-</td>
-</tr>
-</table></span></div>
+IInspectable* sisInspectable = (IInspectable*) reinterpret_cast<IInspectable*>(surfaceImageSource);
+sisInspectable->QueryInterface(__uuidof(ISurfaceImageSourceNative), (void **)&m_sisD2DNative)
+	
+```
+
+
 The <b>ISurfaceImageSourceNativeWithD2D</b> interface provides high-performance batched Direct2D drawing, which enables drawing to multiple different <a href="https://msdn.microsoft.com/fb58f405-895f-4590-8bff-7b1a9573791f">SurfaceImageSource</a> or <a href="https://msdn.microsoft.com/7a28cfdd-44d4-4aa7-b57e-a5fbdf66bee3">VirtualSurfaceImageSource</a> objects in the same batch, as long as they share the same Direct2D device.  Batching can improve performance when updating multiple surfaces at the same time.
  
  

@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProvider::InstancePropertyStoreOpen
 author: windows-sdk-content
 description: Opens the property store of the provider.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystoreopen.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 35e98e8a-5e6c-4cbb-9a61-9720f11f90d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

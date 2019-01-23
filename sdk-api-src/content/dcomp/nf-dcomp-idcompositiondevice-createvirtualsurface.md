@@ -127,7 +127,7 @@ The alpha channel should be ignored and the bitmap should be rendered opaquely.
 
 ### -param virtualSurface [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449133(v=VS.85).aspx">IDCompositionVirtualSurface</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC">IDCompositionVirtualSurface</a>**</b>
 
 The newly created surface object. This parameter must not be NULL.
 
@@ -153,7 +153,7 @@ A Microsoft DirectComposition sparse surface is a logical object that behaves li
 
 A newly created surface object is in an uninitialized state. While it is uninitialized, the surface has no effect on the composition of the visual tree. It behaves exactly like a surface that is initialized with 100% transparent pixels. 
 
-To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> method. This method not only provides pixels for the surface, but it also allocates actual storage space for those pixels. The memory allocation persists until the application returns some of the memory to the system. The application can free part or all of the allocated memory by calling the <a href="https://msdn.microsoft.com/en-us/library/Hh449137(v=VS.85).aspx">IDComposition::VirtualSurfaceTrim</a> method.
+To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> method. This method not only provides pixels for the surface, but it also allocates actual storage space for those pixels. The memory allocation persists until the application returns some of the memory to the system. The application can free part or all of the allocated memory by calling the <a href="https://msdn.microsoft.com/5A4F516F-B031-47E6-9A3D-068CF2C3D53A">IDComposition::VirtualSurfaceTrim</a> method.
 
 
 
@@ -171,13 +171,9 @@ This method fails if <i>initialWidth</i> or <i>initialHeight</i> exceeds 16,777,
 
 The following example shows how to create a virtual surface and associate it with a visual.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
+
+```cpp
+HRESULT RenderAVisual(IDCompositionDevice *pDCompDevice, HWND hwndTarget,
                          UINT surfaceWidth, UINT surfaceHeight) 
 {
     // Validate the input parameters.
@@ -249,10 +245,8 @@ The following example shows how to create a virtual surface and associate it wit
     return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 
@@ -263,11 +257,11 @@ The following example shows how to create a virtual surface and associate it wit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437405(v=VS.85).aspx">IDCompositionDevice::CreateSurface</a>
+<a href="https://msdn.microsoft.com/3B321BF8-A7A5-4E40-B548-D88CA45F6DAF">IDCompositionDevice::CreateSurface</a>
  
 
  

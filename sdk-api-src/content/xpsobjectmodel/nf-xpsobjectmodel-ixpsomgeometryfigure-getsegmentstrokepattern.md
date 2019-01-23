@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f3758">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the <a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f375
 
 ### -param segmentStrokePattern [out, retval]
 
-The <a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f3758">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a> value that indicates whether the segments in the figure are stroked.
 
 
 ## -returns
@@ -113,7 +113,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/e824884e-ffad-4c44-9df8-e9c21e1f3758">XPS_SEGMENT_STROKE_PATTERN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372983(v=VS.85).aspx">XPS_SEGMENT_STROKE_PATTERN</a>
  
 
  

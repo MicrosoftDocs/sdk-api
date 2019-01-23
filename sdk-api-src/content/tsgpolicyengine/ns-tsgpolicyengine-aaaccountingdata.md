@@ -68,7 +68,7 @@ The name of the client computer.
 
 ### -field authType
 
-A value of the <a href="https://msdn.microsoft.com/ff80f8ac-8378-4087-aa95-a081d2dd710a">AAAuthSchemes</a> enumeration type that specifies the type of authentication used to connect to RD Gateway.
+A value of the <a href="https://msdn.microsoft.com/en-us/library/Ff687129(v=VS.85).aspx">AAAuthSchemes</a> enumeration type that specifies the type of authentication used to connect to RD Gateway.
 
 
 ### -field resourceName

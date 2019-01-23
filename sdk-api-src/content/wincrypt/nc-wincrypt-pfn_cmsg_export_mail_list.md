@@ -63,7 +63,7 @@ A pointer to a <a href="https://msdn.microsoft.com/c53014a0-049c-42ef-b612-8a1e0
 
 ### -param pMailListEncodeInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/4303a7e7-cb93-4ed1-85e6-42359c2c687c">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa378066(v=VS.85).aspx">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure that specifies the key used to encrypt the content encryption key.
 
 
 ### -param pMailListEncryptInfo [in, out]

@@ -119,11 +119,11 @@ To meet both the user's requirements and Kerberos' requirements, you need  to ma
 
 <ol>
 <li>
-First, you construct a request message type of <a href="https://msdn.microsoft.com/3900428B-B7FE-4169-BFF0-B8BEEEB342ED">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST</a> in which the <b>MessageType</b> member must be set to <b>KerbQueryDomainExtendedPoliciesMessage</b>. The <b>DomainName</b> member is set to the actual domain name for which the extended domain policies are queried. If <b>DomainName</b> is set to null, the local computer's domain is assumed.
+First, you construct a request message type of <a href="https://msdn.microsoft.com/en-us/library/Hh972683(v=VS.85).aspx">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_REQUEST</a> in which the <b>MessageType</b> member must be set to <b>KerbQueryDomainExtendedPoliciesMessage</b>. The <b>DomainName</b> member is set to the actual domain name for which the extended domain policies are queried. If <b>DomainName</b> is set to null, the local computer's domain is assumed.
 
 </li>
 <li>
-Next, you call the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://msdn.microsoft.com/4BFF08D8-9D5E-4041-9DF6-AAE44292C135">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
+Next, you call the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function with Kerberos authentication package and the request message.  Upon successful return, <a href="https://msdn.microsoft.com/en-us/library/Hh972684(v=VS.85).aspx">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is returned.<ul>
 <li>If the local computer has disabled DAC, the <b>Flags</b> member is set to 	KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE_FLAG_DAC_DISABLED.</li>
 <li>If the specified domain has Flexible Authentication Secure Tunneling (FAST) enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_FAST_CAPABLE (0x10000).</li>
 <li>If the specified domain has Claims enabled, <b>ExtendedPolicies</b> member is set to  KERB_EXTENDED_POLICY_CLAIMS_CAPABLE (0x40000).</li>
@@ -138,7 +138,7 @@ Then you must call <a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c
 
 </li>
 <li>
-Finally, you call the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://msdn.microsoft.com/4BFF08D8-9D5E-4041-9DF6-AAE44292C135">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
+Finally, you call the <a href="https://msdn.microsoft.com/b891fa60-28b3-4819-9a92-e4524677fa4f">LsaCallAuthenticationPackage</a> function again with the Kerberos authentication package and the request <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> in which the <b>DcFlags</b> member is set to the <b>DomainControllerInfo</b> flags. All other members should be populated in the same way as <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b>. If the <b>DsFlags</b> of the <a href="https://msdn.microsoft.com/en-us/library/Hh972684(v=VS.85).aspx">KERB_QUERY_DOMAIN_EXTENDED_POLICIES_RESPONSE</a> is zero, then either <b>DcFlags</b> should be set to zero when calling <b>KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST</b> or default back to the existing KERB_ADD_BINDING_CACHE_ENTRY_REQUEST request.
 
 </li>
 </ol>

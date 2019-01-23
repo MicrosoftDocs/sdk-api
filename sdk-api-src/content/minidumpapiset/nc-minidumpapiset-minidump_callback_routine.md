@@ -68,13 +68,13 @@ An application-defined parameter value.
 ### -param CallbackInput [in]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/0ce3083c-21c9-48a4-9099-1dab31afcafa">MINIDUMP_CALLBACK_INPUT</a> structure that specifies extended minidump information.
+<a href="https://msdn.microsoft.com/en-us/library/ms680362(v=VS.85).aspx">MINIDUMP_CALLBACK_INPUT</a> structure that specifies extended minidump information.
 
 
 ### -param CallbackOutput [in, out]
 
 A pointer to a 
-<a href="https://msdn.microsoft.com/57949087-0f22-40c8-ab56-326a8304c310">MINIDUMP_CALLBACK_OUTPUT</a> structure that receives application-defined information from the callback function.
+<a href="https://msdn.microsoft.com/en-us/library/ms680363(v=VS.85).aspx">MINIDUMP_CALLBACK_OUTPUT</a> structure that receives application-defined information from the callback function.
 
 
 ## -returns
@@ -95,7 +95,7 @@ If the function succeeds, return <b>TRUE</b>; otherwise, return <b>FALSE</b>.
 
 
 
-<a href="https://msdn.microsoft.com/98caf4c3-8e6b-4f42-ae48-977a8392de1c">MINIDUMP_CALLBACK_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680361(v=VS.85).aspx">MINIDUMP_CALLBACK_INFORMATION</a>
 
 
 

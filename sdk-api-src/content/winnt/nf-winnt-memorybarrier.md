@@ -4,7 +4,7 @@ title: MemoryBarrier function
 author: windows-sdk-content
 description: Creates a hardware memory barrier (fence) that prevents the CPU from re-ordering read and write operations. It may also prevent the compiler from re-ordering read and write operations.
 old-location: base\memorybarrier.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: f2c06679-fa2f-4357-ae11-6cec1e50fd8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

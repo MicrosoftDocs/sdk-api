@@ -76,7 +76,7 @@ The resource identifier of the value of the status entry.
 ### -field m_cValueTypePair
 
 The number of 
-      <a href="https://msdn.microsoft.com/FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> 
+      <a href="https://msdn.microsoft.com/en-us/library/Hh437334(v=VS.85).aspx">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> 
       structures pointed to by the <b>m_rgValueTypePair</b> member.
 
 
@@ -108,7 +108,7 @@ The resources indicated by the resource IDs contained in the <b>m_dwIcon</b>,
 
 
 
-<a href="https://msdn.microsoft.com/FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh437334(v=VS.85).aspx">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a>
  
 
  

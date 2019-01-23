@@ -61,7 +61,7 @@ Specifies the type of event that the <a href="https://msdn.microsoft.com/ebc57ca
 
 A new session was created.
 
-The following fields in the <a href="https://msdn.microsoft.com/1c79f910-8dd9-47dc-80d1-f6252f0a43dd">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -74,7 +74,7 @@ The following fields in the <a href="https://msdn.microsoft.com/1c79f910-8dd9-47
 
 A new subsession was created by an  existing connection.
 
-The following fields in the <a href="https://msdn.microsoft.com/1c79f910-8dd9-47dc-80d1-f6252f0a43dd">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>userName</b></li>
@@ -89,7 +89,7 @@ The following fields in the <a href="https://msdn.microsoft.com/1c79f910-8dd9-47
 
 A subsession was closed.
 
-The following fields in the <a href="https://msdn.microsoft.com/1c79f910-8dd9-47dc-80d1-f6252f0a43dd">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>numberOfBytesTransfered</b></li>
@@ -102,7 +102,7 @@ The following fields in the <a href="https://msdn.microsoft.com/1c79f910-8dd9-47
 
 A connection was closed.
 
-The following fields in the <a href="https://msdn.microsoft.com/1c79f910-8dd9-47dc-80d1-f6252f0a43dd">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
+The following fields in the <a href="https://msdn.microsoft.com/en-us/library/Ee672198(v=VS.85).aspx">AAAccountingData</a> structure represented by the <i>accountingData</i> parameter are valid:
 
 <ul>
 <li><b>mainSessionId</b></li>

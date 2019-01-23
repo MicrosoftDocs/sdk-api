@@ -97,14 +97,10 @@ The <b>Configure</b> method displays the module user interface (if one exists), 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Certmod.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Certmod.h>
 
 HRESULT CCertManagePolicyModule::Configure( 
             /* [in] */ const BSTR strConfig,
@@ -118,10 +114,10 @@ HRESULT CCertManagePolicyModule::Configure(
                    (MB_OK|MB_ICONINFORMATION));
 
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

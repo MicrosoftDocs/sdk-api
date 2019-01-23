@@ -319,7 +319,7 @@ This parameter contains barycentric coordinate data.
 
 
 
-The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+The <b>D3D_NAME</b> values identify shader parameters that have <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">predefined system-value</a> semantics. These values are used in a shader-signature description. For more information about shader-signature description, see <a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a>.
         
 
 
@@ -334,7 +334,7 @@ The <b>D3D_NAME</b> values identify shader parameters that have <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476215(v=VS.85).aspx">D3D11_SIGNATURE_PARAMETER_DESC</a>
  
 
  

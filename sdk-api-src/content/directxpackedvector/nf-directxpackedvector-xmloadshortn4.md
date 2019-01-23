@@ -77,23 +77,19 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR vectorOut;
 
-vectorOut.x = (float)pSource-&gt;x / 32767.0f;
-vectorOut.y = (float)pSource-&gt;y / 32767.0f;
-vectorOut.z = (float)pSource-&gt;z / 32767.0f;
-vectorOut.w = (float)pSource-&gt;w / 32767.0f;
+```
+XMVECTOR vectorOut;
 
-return vectorOut;</pre>
-</td>
-</tr>
-</table></span></div>
+vectorOut.x = (float)pSource->x / 32767.0f;
+vectorOut.y = (float)pSource->y / 32767.0f;
+vectorOut.z = (float)pSource->z / 32767.0f;
+vectorOut.w = (float)pSource->w / 32767.0f;
+
+return vectorOut;
+```
+
+
 Note that both -32767 and -32768 map to -1.f.
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

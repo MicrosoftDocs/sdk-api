@@ -52,7 +52,7 @@ req.redist:
 ## -description
 
 
-Sets or retrieves the <b>UseDeviceTsid</b> property for a <a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a> object. The <b>UseDeviceTsid</b> property is a Boolean value that indicates whether the fax server uses the device's transmitting station identifier (TSID) instead of a user-specified TSID.
+Sets or retrieves the <b>UseDeviceTsid</b> property for a <a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a> object. The <b>UseDeviceTsid</b> property is a Boolean value that indicates whether the fax server uses the device's transmitting station identifier (TSID) instead of a user-specified TSID.
 
 This property is read/write.
 
@@ -64,7 +64,7 @@ This property is read/write.
 
 
 
-To ensure that the TSID for a port is associated with outbound faxes, set the <b>UseDeviceTsid</b> property equal to <b>TRUE</b>. This overrides the TSID a user can optionally specify for an outbound fax by setting the <a href="https://msdn.microsoft.com/26d33ea3-a30d-4a04-9760-f637196db23d">Tsid</a> property. 
+To ensure that the TSID for a port is associated with outbound faxes, set the <b>UseDeviceTsid</b> property equal to <b>TRUE</b>. This overrides the TSID a user can optionally specify for an outbound fax by setting the <a href="https://msdn.microsoft.com/en-us/library/ms691503(v=VS.85).aspx">Tsid</a> property. 
 		
 
 
@@ -75,23 +75,23 @@ To ensure that the TSID for a port is associated with outbound faxes, set the <b
 
 
 
-<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3169385-6a7f-4b2d-ad70-6d4d323becb8">FaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692367(v=VS.85).aspx">FaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/f06b76b5-b6c2-47a0-ad08-7c1bf7b780bb">IFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692375(v=VS.85).aspx">IFaxServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/26d33ea3-a30d-4a04-9760-f637196db23d">Tsid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691503(v=VS.85).aspx">Tsid</a>
  
 
  

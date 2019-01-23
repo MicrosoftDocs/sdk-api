@@ -197,16 +197,16 @@ Each of these data types contain a struct field called "out".
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/548dcba5-dc78-402e-a930-a58fb462c08a">WS_CHANNEL_PROPERTY_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401785(v=VS.85).aspx">WS_CHANNEL_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/382d75be-2c56-44f5-8069-740ad9b9d1c4">WS_SECURITY_PROPERTY_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323408(v=VS.85).aspx">WS_SECURITY_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/97334ced-315d-49db-9c7b-b05ef387f6c8">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323385(v=VS.85).aspx">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1f547d95-0a9a-44c5-81db-b92880238b1d">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323442(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 The content of the <b>out</b> field of these structures

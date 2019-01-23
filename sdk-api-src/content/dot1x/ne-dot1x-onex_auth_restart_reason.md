@@ -59,7 +59,7 @@ The <b>ONEX_AUTH_RESTART_REASON</b> enumerated type specifies the possible reaso
 
 ### -field OneXRestartReasonPeerInitiated
 
-The EAPHost component (the peer) requested the 802.1x module to restart 802.1X authentication. This results from a <a href="https://msdn.microsoft.com/7b3bc23d-312d-494d-afd0-ce82d2d5136c">EapHostPeerProcessReceivedPacket</a> function call that returns an <a href="https://msdn.microsoft.com/59bf6e02-90b5-4f9a-9865-b71852c61db9">EapHostPeerResponseAction</a> enumeration value of <b>EapHostPeerResponseStartAuthentication</b> in the <i>pEapOutput</i> parameter. 
+The EAPHost component (the peer) requested the 802.1x module to restart 802.1X authentication. This results from a <a href="https://msdn.microsoft.com/7b3bc23d-312d-494d-afd0-ce82d2d5136c">EapHostPeerProcessReceivedPacket</a> function call that returns an <a href="https://msdn.microsoft.com/en-us/library/Aa363575(v=VS.85).aspx">EapHostPeerResponseAction</a> enumeration value of <b>EapHostPeerResponseStartAuthentication</b> in the <i>pEapOutput</i> parameter. 
 
 
 ### -field OneXRestartReasonMsmInitiated
@@ -132,7 +132,7 @@ The <b>ONEX_AUTH_RESTART_REASON</b> specifies the possible values for the reason
 
 
 
-<a href="https://msdn.microsoft.com/59bf6e02-90b5-4f9a-9865-b71852c61db9">EapHostPeerResponseAction</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363575(v=VS.85).aspx">EapHostPeerResponseAction</a>
 
 
 

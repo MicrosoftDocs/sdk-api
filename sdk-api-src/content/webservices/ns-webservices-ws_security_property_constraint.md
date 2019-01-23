@@ -75,16 +75,16 @@ This property constraint may be specified when any
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a3003b9c-405e-4b3d-89a4-6c0884c28805">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fd422ee4-64cd-464f-905f-b46b69e1a440">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/81f42654-8f94-4231-a798-67fbbe46e812">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -100,13 +100,13 @@ This property constraint may be specified when any
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/1f547d95-0a9a-44c5-81db-b92880238b1d">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323442(v=VS.85).aspx">WS_SSL_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c2e793dd-99a7-4028-9e08-4376d494e2b5">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323467(v=VS.85).aspx">WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/1f6341b2-1f98-40a0-8f3a-cc9cf4538209">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401909(v=VS.85).aspx">WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -118,16 +118,16 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a3003b9c-405e-4b3d-89a4-6c0884c28805">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fd422ee4-64cd-464f-905f-b46b69e1a440">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/81f42654-8f94-4231-a798-67fbbe46e812">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -139,16 +139,16 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a3003b9c-405e-4b3d-89a4-6c0884c28805">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fd422ee4-64cd-464f-905f-b46b69e1a440">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/81f42654-8f94-4231-a798-67fbbe46e812">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value
@@ -160,16 +160,16 @@ If this property is not specified, then the default constraint value
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/a3003b9c-405e-4b3d-89a4-6c0884c28805">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323498(v=VS.85).aspx">WS_USERNAME_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/fd422ee4-64cd-464f-905f-b46b69e1a440">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401945(v=VS.85).aspx">WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/81f42654-8f94-4231-a798-67fbbe46e812">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd401776(v=VS.85).aspx">WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/7abc37d8-cb00-459d-aa08-609a06b65a5c">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323392(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT</a>
 </li>
 </ul>
 If this property is not specified, then the default constraint value

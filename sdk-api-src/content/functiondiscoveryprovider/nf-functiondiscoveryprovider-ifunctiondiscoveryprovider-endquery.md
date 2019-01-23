@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProvider::EndQuery
 author: windows-sdk-content
 description: Terminates a query being executed by a provider.
 old-location: ncd\ifunctiondiscoveryprovider_endquery_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: be19f2ac-037c-443b-b36f-68b9c9f132f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

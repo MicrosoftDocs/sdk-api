@@ -4,7 +4,7 @@ title: IFunctionInstance::OpenPropertyStore
 author: windows-sdk-content
 description: Opens the property store for the function instance.
 old-location: ncd\ifunctioninstance_openpropertystore_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 3e03567b-7bac-4bef-ae62-a040f0c33cfb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

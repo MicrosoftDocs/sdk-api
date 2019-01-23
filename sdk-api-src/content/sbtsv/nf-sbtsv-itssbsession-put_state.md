@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/2780e704-72f1-44a9-ad54-ab3d2b19befe">TSSESSION_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351749(v=VS.85).aspx">TSSESSION_STATE</a>
  
 
  

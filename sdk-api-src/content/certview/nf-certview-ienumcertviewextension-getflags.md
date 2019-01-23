@@ -178,30 +178,26 @@ If the extension-enumeration sequence is not referencing a valid extension, <b>G
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT  hr;
+
+```cpp
+HRESULT  hr;
 LONG     ExtFlags;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt-&gt;GetFlags(&amp;ExtFlags);
+hr = pEnumExt->GetFlags(&ExtFlags);
 if (S_OK != hr)
     printf("Failed GetFlags - %x\n", hr);
 else
 {
     LONG ExtPol, ExtOrig;
 
-    ExtPol = ExtFlags &amp; EXTENSION_POLICY_MASK;
-    if (ExtPol &amp; EXTENSION_CRITICAL_FLAG)
+    ExtPol = ExtFlags & EXTENSION_POLICY_MASK;
+    if (ExtPol & EXTENSION_CRITICAL_FLAG)
         printf("The extension is critical\n");
-    if (ExtPol &amp; EXTENSION_DISABLE_FLAG )
+    if (ExtPol & EXTENSION_DISABLE_FLAG )
         printf("The extension is disabled\n");
 
-    ExtOrig = ExtFlags &amp; EXTENSION_ORIGIN_MASK;
+    ExtOrig = ExtFlags & EXTENSION_ORIGIN_MASK;
     switch (ExtOrig)
     {
         case EXTENSION_ORIGIN_REQUEST:
@@ -230,10 +226,10 @@ else
             printf("Unknown extension origin\n");
             break;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

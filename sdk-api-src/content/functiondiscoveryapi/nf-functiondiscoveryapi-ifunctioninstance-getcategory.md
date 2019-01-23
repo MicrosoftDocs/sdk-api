@@ -4,7 +4,7 @@ title: IFunctionInstance::GetCategory
 author: windows-sdk-content
 description: Gets the category and subcategory strings for the function instance.
 old-location: ncd\ifunctioninstance_getcategory_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: dfb5f144-c9b0-455e-aff9-0c07225a21f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

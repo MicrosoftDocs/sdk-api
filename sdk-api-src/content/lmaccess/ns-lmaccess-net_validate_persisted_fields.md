@@ -179,7 +179,7 @@ A pointer to a <a href="https://msdn.microsoft.com/884e5b8c-1288-454e-862d-323d7
 
 Note that it is the application's responsibility to save all changed persistent data as well as any user object information. The next time the application calls <a href="https://msdn.microsoft.com/be5ce51b-6568-49c8-954d-7b0d4bcb8611">NetValidatePasswordPolicy</a> on the same instance of the user object, the application must provide the required fields from the persistent information.
 
-The <a href="https://msdn.microsoft.com/b7466e8a-81d8-4552-adff-47fc2f3ed3ad">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>, <a href="https://msdn.microsoft.com/09404998-81c5-400c-9d99-a0a4bb4095bf">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>, <a href="https://msdn.microsoft.com/3a6d4c2d-0d90-48bf-9dfa-2ba587538350">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>, and <a href="https://msdn.microsoft.com/833c89c3-34ba-485b-a310-1d709aa618cd">NET_VALIDATE_OUTPUT_ARG</a> structures contain a <b>NET_VALIDATE_PERSISTED_FIELDS</b> structure.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa370685(v=VS.85).aspx">NET_VALIDATE_AUTHENTICATION_INPUT_ARG</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa370687(v=VS.85).aspx">NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa370689(v=VS.85).aspx">NET_VALIDATE_PASSWORD_RESET_INPUT_ARG</a>, and <a href="https://msdn.microsoft.com/833c89c3-34ba-485b-a310-1d709aa618cd">NET_VALIDATE_OUTPUT_ARG</a> structures contain a <b>NET_VALIDATE_PERSISTED_FIELDS</b> structure.
 
 
 

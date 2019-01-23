@@ -75,7 +75,7 @@ Size of the buffer passed in fileData.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt807680(v=VS.85).aspx">DWRITE_CONTAINER_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/93275F1D-A25C-4BDD-B278-DA56ADB3436D">DWRITE_CONTAINER_TYPE</a></b>
 
 Returns the container type if recognized. DWRITE_CONTAINER_TYPE_UNKOWNN is returned for all other files, including uncompressed font files.
 
@@ -87,7 +87,7 @@ Returns the container type if recognized. DWRITE_CONTAINER_TYPE_UNKOWNN is retur
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a>
+<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
  
 
  

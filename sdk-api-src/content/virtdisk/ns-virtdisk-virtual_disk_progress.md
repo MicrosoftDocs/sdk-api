@@ -50,7 +50,7 @@ req.redist:
 
 
 Contains the progress and result data for the current virtual hard disk (VHD) operation, used by the 
-    <a href="https://msdn.microsoft.com/392a5258-306d-4c06-a632-85e6fc65ddc9">GetVirtualDiskOperationProgress</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> 
     function.
 
 
@@ -94,13 +94,13 @@ The <b>CurrentValue</b> and <b>CompletionValue</b> members are
     equals percent complete, up to and including 100 percent, even when <b>OperationStatus</b> is 
     still returning <b>ERROR_IO_PENDING</b>. This percentage is not always guaranteed to increase 
     with subsequent calls to the 
-    <a href="https://msdn.microsoft.com/392a5258-306d-4c06-a632-85e6fc65ddc9">GetVirtualDiskOperationProgress</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> 
     function, and may decrease. These decreased percentages may be safely ignored if progress tracking is desired to 
     be only in the positive by locally storing the current maximum percentage.
 
 The <b>CurrentValue</b> and <b>CompletionValue</b> members can vary in 
     subsequent calls to the 
-    <a href="https://msdn.microsoft.com/392a5258-306d-4c06-a632-85e6fc65ddc9">GetVirtualDiskOperationProgress</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a> 
     function, so they must be used together at the same time from the same call. That is, it is not valid to save 
     either of them locally and then make another call to the 
     <b>GetVirtualDiskOperationProgress</b> 
@@ -122,7 +122,7 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
 
 
 
-<a href="https://msdn.microsoft.com/392a5258-306d-4c06-a632-85e6fc65ddc9">GetVirtualDiskOperationProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323671(v=VS.85).aspx">GetVirtualDiskOperationProgress</a>
 
 
 

@@ -61,7 +61,7 @@ Contains the bitmask for specifying access rights to a virtual hard disk (VHD) o
 ### -field VIRTUAL_DISK_ACCESS_NONE
 
 Open the virtual disk with no access. This is the only supported value when calling 
-       <a href="https://msdn.microsoft.com/9d9f187e-dea1-48ca-a3fe-9e9c513e9088">CreateVirtualDisk</a> and specifying  
+       <a href="https://msdn.microsoft.com/en-us/library/Dd323659(v=VS.85).aspx">CreateVirtualDisk</a> and specifying  
        <b>CREATE_VIRTUAL_DISK_VERSION_2</b> in the 
        <i>VirtualDiskAccessMask</i> parameter.
 

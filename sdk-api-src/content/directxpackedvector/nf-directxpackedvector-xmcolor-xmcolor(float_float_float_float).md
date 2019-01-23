@@ -106,13 +106,9 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	    advantage of the <code>union</code> of the four components of the <code>XMCOLOR</code>vector with an instance of <code>uint32_t</code> in the definition of the structure:
 	  
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
         XMCOLOR instance;        
 	_a1 = min( max( _a, 0.0 ), 1.0 );
 	_r1 = min( max( _r, 0.0 ), 1.0 );
@@ -124,14 +120,14 @@ The following pseudocode demonstrates the operation of this constructor, which t
 	_g1 = round ( _g1 * 255.0f );
 	_b1 = round ( _b1 * 255.0f );
 
-	instance.v =  ( (uint32_t)_a1  &lt;&lt; 24) |
-                      ( (uint32_t)_r1  &lt;&lt; 16) |
-                      ( (uint32_t)_b1  &lt;&lt;  8) |
+	instance.v =  ( (uint32_t)_a1  << 24) |
+                      ( (uint32_t)_r1  << 16) |
+                      ( (uint32_t)_b1  <<  8) |
                       ( (uint32_t)_b1 );
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

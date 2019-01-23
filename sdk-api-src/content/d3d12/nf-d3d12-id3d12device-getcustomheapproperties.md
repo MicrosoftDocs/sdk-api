@@ -65,7 +65,7 @@ For single-GPU operation, set this to zero.
           If there are multiple GPU nodes, set a bit to identify the node (the  device's physical adapter).
           Each bit in the mask corresponds to a single node.
           Only 1 bit must be set.
-          See <a href="/windows/desktop/direct3d12/multi-engine">Multi-Adapter</a>.
+          See <a href="https://msdn.microsoft.com/en-us/library/Dn933253(v=VS.85).aspx">Multi-Adapter</a>.
         
 
 

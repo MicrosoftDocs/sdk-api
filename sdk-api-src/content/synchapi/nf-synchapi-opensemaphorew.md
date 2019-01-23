@@ -4,7 +4,7 @@ title: OpenSemaphoreW function
 author: windows-sdk-content
 description: Opens an existing named semaphore object.
 old-location: base\opensemaphore.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 2ea525b9-f33d-4b72-85e1-6d2cfdc64f5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

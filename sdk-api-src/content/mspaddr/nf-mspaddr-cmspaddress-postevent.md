@@ -60,7 +60,7 @@ The
 ### -param EventItem [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/ms733445(v=VS.85).aspx">MSPEVENTITEM</a> structure, which contains the event information.
+<a href="https://msdn.microsoft.com/fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc">MSPEVENTITEM</a> structure, which contains the event information.
 
 
 ## -see-also

@@ -101,13 +101,9 @@ To support Automation, use the <b>ADsBuildVarArrayStr</b> function to convert Un
 
 The following code example shows how to use the <b>ADsBuildVarArrayStr</b> function to convert object class names from Unicode strings to a variant array of strings.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EnumObject(LPWSTR pszADsPath,
+
+```cpp
+HRESULT EnumObject(LPWSTR pszADsPath,
                    LPWSTR * lppClsNames,
                    DWORD dwClsNames)
 {
@@ -122,45 +118,45 @@ The following code example shows how to use the <b>ADsBuildVarArrayStr</b> funct
  
     hr = ADsGetObject(pszADsPath,
                      IID_IADsContainer,
-                     (void**)&amp;pADsContainer);
+                     (void**)&pADsContainer);
     if (FAILED(hr)) goto cleanup;
  
     // Create a string array of class names as search filters.
-    VariantInit(&amp;varFilter);
-    hr = ADsBuildVarArrayStr(lppClsNames, dwClsNames, &amp;varFilter);
+    VariantInit(&varFilter);
+    hr = ADsBuildVarArrayStr(lppClsNames, dwClsNames, &varFilter);
     if (FAILED(hr)) goto cleanup;
  
     // Apply filters to objects in the container.
-    hr = pADsContainer-&gt;put_Filter(varFilter);
+    hr = pADsContainer->put_Filter(varFilter);
     if(FAILED(hr)) goto cleanup;
  
     // Create an enumerator.
-    hr = ADsBuildEnumerator(pADsContainer, &amp;pEnumVar);
+    hr = ADsBuildEnumerator(pADsContainer, &pEnumVar);
     if(FAILED(hr)) goto cleanup;
  
     // Enumerate the objects and print the names.
     while(fContinue) {
         IADs* pObject;
         hr = ADsEnumerateNext(pEnumVar, MAX_ADS_ENUM,
-                            varArray, &amp;ulFetched);
+                            varArray, &ulFetched);
         if(hr == S_FALSE) fContinue = FALSE;
         dwEEnumCount++;
  
-        for (i=0; i&lt;ulFetched; i++) {
+        for (i=0; i<ulFetched; i++) {
             IDispatch *pDispatch = NULL;
             pDispatch = varArray[I].pDispVal;
-            hr = pDispatch-&gt;QueryInterface(IID_IADs,
-                                        (void**) &amp;pObject);
+            hr = pDispatch->QueryInterface(IID_IADs,
+                                        (void**) &pObject);
             if (FAILED(hr)) goto cleanup;
  
-            hr = pObject-&gt;get_Name(&amp;bstrName);
+            hr = pObject->get_Name(&bstrName);
             if(FAILED(hr)) goto cleanup;
             printf(" Object name: %S\n",bstrName);
  
             // Release the ADSI object.
             SysFreeString(bstrname);
-            pObject-&gt;Release();
-            pDispatch-&gt;Release();
+            pObject->Release();
+            pDispatch->Release();
         }
         memset(varArray, 0, sizeof(VARIANT)*MAX_ADS_ENUM);
         dwObjects += ulFetched;
@@ -170,13 +166,13 @@ The following code example shows how to use the <b>ADsBuildVarArrayStr</b> funct
 cleanup:
     if(bstrName) SysFreeString(bstrName);
     if(pEnumvar) ADsFreeEnumerator(pEnumVar);
-    if(pADsContainer) pADsContainer-&gt;Release();
+    if(pADsContainer) pADsContainer->Release();
  
     return (hr);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

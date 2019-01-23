@@ -63,12 +63,12 @@ The handle value.
 
 ### -field Flags
 
-Flags that indicate what parts of this structure are valid. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457844(v=VS.85).aspx">PSS_HANDLE_FLAGS</a>.
+Flags that indicate what parts of this structure are valid. For more information, see <a href="https://msdn.microsoft.com/A4A604A9-0210-413C-BCAC-F8458B371D42">PSS_HANDLE_FLAGS</a>.
 
 
 ### -field ObjectType
 
-The type of the object that the handle references. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457847(v=VS.85).aspx">PSS_OBJECT_TYPE</a>.
+The type of the object that the handle references. For more information, see <a href="https://msdn.microsoft.com/3AF2AE47-6E1A-4B20-B6A3-36C1DDB80674">PSS_OBJECT_TYPE</a>.
 
 
 ### -field CaptureTime
@@ -181,7 +181,7 @@ The parent process ID.
 
 ##### Flags
 
-Flags about the process. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Dn457849(v=VS.85).aspx">PSS_PROCESS_FLAGS</a>.
+Flags about the process. For more information, see <a href="https://msdn.microsoft.com/A1C793DD-EE93-47B6-8EA8-3A45DAD55F2D">PSS_PROCESS_FLAGS</a>.
 
 
 
@@ -477,7 +477,7 @@ Reserved for use by the operating system.
 
 
 
-<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_HANDLE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/en-us/library/Dn457858(v=VS.85).aspx">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_HANDLES</b>.
+<a href="https://msdn.microsoft.com/C6AC38B5-0A1C-44D7-A1F6-8196AE9B8FB0">PssWalkSnapshot</a> returns a <b>PSS_HANDLE_ENTRY</b> structure when the  <a href="https://msdn.microsoft.com/93A79F7F-2164-4F7A-ADE7-C1655EEFC9BF">PSS_WALK_INFORMATION_CLASS</a> member that the caller provides it is <b>PSS_WALK_HANDLES</b>.
 
 
 

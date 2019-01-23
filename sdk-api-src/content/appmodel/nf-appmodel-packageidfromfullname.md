@@ -163,19 +163,15 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define _UNICODE 1
+
+```cpp
+#define _UNICODE 1
 #define UNICODE 1
 
-#include &lt;Windows.h&gt;
-#include &lt;appmodel.h&gt;
-#include &lt;malloc.h&gt;
-#include &lt;stdio.h&gt;
+#include <Windows.h>
+#include <appmodel.h>
+#include <malloc.h>
+#include <stdio.h>
 
 int ShowUsage();
 void FullNameToId(__in PCWSTR fullName, __in const UINT32 flags);
@@ -183,7 +179,7 @@ void ShowPackageId(__in const PACKAGE_ID * packageId);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: PackageIdFromFullName &lt;[flags]fullname&gt; [&lt;[flags]fullname&gt;...]\n"
+    wprintf(L"Usage: PackageIdFromFullName <[flags]fullname> [<[flags]fullname>...]\n"
             L"flags:\n"
             L"    ? = Basic information (PACKAGE_INFORMATION_BASIC)\n"
             L"    * = Full information (PACKAGE_INFORMATION_FULL)\n"
@@ -193,10 +189,10 @@ int ShowUsage()
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc &lt;= 1)
+    if (argc <= 1)
         return ShowUsage();
 
-    for (int i=1; i&lt;argc; ++i)
+    for (int i=1; i<argc; ++i)
     {
         PCWSTR fullName = argv[i];
         UINT32 flags = PACKAGE_INFORMATION_BASIC;
@@ -221,9 +217,9 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 
 void FullNameToId(__in PCWSTR fullName, __in const UINT32 flags)
 {
-    wprintf(L"FullName: %s%s\n", fullName, ((flags &amp; PACKAGE_INFORMATION_FULL) == 0 ? L"  [BASIC]" : L"  [FULL]"));
+    wprintf(L"FullName: %s%s\n", fullName, ((flags & PACKAGE_INFORMATION_FULL) == 0 ? L"  [BASIC]" : L"  [FULL]"));
     UINT32 length = 0;
-    LONG rc = PackageIdFromFullName(fullName, flags, &amp;length, NULL);
+    LONG rc = PackageIdFromFullName(fullName, flags, &length, NULL);
     if (rc == ERROR_SUCCESS)
     {
         wprintf(L"PackageIdFromFullName unexpected succeeded\n");
@@ -242,7 +238,7 @@ void FullNameToId(__in PCWSTR fullName, __in const UINT32 flags)
         return;
     }
 
-    rc = PackageIdFromFullName(fullName, flags, &amp;length, buffer);
+    rc = PackageIdFromFullName(fullName, flags, &length, buffer);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d converting Package Full Name to Id\n", rc);
     else
@@ -255,24 +251,24 @@ void FullNameToId(__in PCWSTR fullName, __in const UINT32 flags)
 
 void ShowPackageId(__in const PACKAGE_ID * packageId)
 {
-    wprintf(L"    Name        : %s\n", packageId-&gt;name);
-    if (packageId-&gt;publisher != NULL)
-        wprintf(L"    Publisher   : %s\n", packageId-&gt;publisher);
-    if (packageId-&gt;publisherId != NULL)
-        wprintf(L"    PublisherId : %s\n", packageId-&gt;publisherId);
+    wprintf(L"    Name        : %s\n", packageId->name);
+    if (packageId->publisher != NULL)
+        wprintf(L"    Publisher   : %s\n", packageId->publisher);
+    if (packageId->publisherId != NULL)
+        wprintf(L"    PublisherId : %s\n", packageId->publisherId);
     wprintf(L"    Version     : %hu.%hu.%hu.%hu\n",
-            packageId-&gt;version.Major,
-            packageId-&gt;version.Minor,
-            packageId-&gt;version.Build,
-            packageId-&gt;version.Revision);
-    wprintf(L"    Architecture: %u\n", packageId-&gt;processorArchitecture);
-    if (packageId-&gt;resourceId != NULL)
-        wprintf(L"    Resource    : %s\n", packageId-&gt;resourceId);
+            packageId->version.Major,
+            packageId->version.Minor,
+            packageId->version.Build,
+            packageId->version.Revision);
+    wprintf(L"    Architecture: %u\n", packageId->processorArchitecture);
+    if (packageId->resourceId != NULL)
+        wprintf(L"    Resource    : %s\n", packageId->resourceId);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

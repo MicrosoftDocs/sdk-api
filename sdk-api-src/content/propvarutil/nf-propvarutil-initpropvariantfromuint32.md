@@ -92,26 +92,22 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromUInt32">InitPropVariantFromUInt32</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762311(v=VS.85).aspx">InitPropVariantFromUInt32</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromUInt32(56, &amp;propvar);
+```cpp
+PROPVARIANT propvar;
+
+HRESULT hr = InitPropVariantFromUInt32(56, &propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_UI4.
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -120,15 +116,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitVariantFromUInt32">InitVariantFromUInt32</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762340(v=VS.85).aspx">InitVariantFromUInt32</a>
 
 
 
-<a href="shell.PropVariantToUInt32">PropVariantToUInt32</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776569(v=VS.85).aspx">PropVariantToUInt32</a>
 
 
 
-<a href="shell.PropVariantToUInt32WithDefault">PropVariantToUInt32WithDefault</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776572(v=VS.85).aspx">PropVariantToUInt32WithDefault</a>
  
 
  

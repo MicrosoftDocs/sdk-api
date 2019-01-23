@@ -90,21 +90,17 @@ The description of a thread can be set more than once; the most recently set val
 
 The following example sets the description for the current thread to "simulation_thread".
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = SetThreadDescription(GetCurrentThread(), L"simulation_thread");
+
+```cpp
+HRESULT hr = SetThreadDescription(GetCurrentThread(), L"simulation_thread");
 if (FAILED(hr))
 {
     // Call failed.
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

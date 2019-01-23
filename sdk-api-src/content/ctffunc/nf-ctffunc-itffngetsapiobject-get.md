@@ -57,7 +57,7 @@ req.redist: TSF 1.0 on Windows 2000 Professional
 
 ### -param sObj [in]
 
-Contains a <a href="https://msdn.microsoft.com/82fb6417-efee-4f04-a9a9-4e52934e2e86">TfSapiObject</a> value that specifies the SAPI object to obtain.
+Contains a <a href="https://msdn.microsoft.com/en-us/library/ms629056(v=VS.85).aspx">TfSapiObject</a> value that specifies the SAPI object to obtain.
 
 
 ### -param ppunk [out]

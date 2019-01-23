@@ -87,22 +87,18 @@ This method is called by Sync Center in response to a call to <a href="https://m
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceHandler::GetCapabilities(
+
+```cpp
+STDMETHODIMP CMyDeviceHandler::GetCapabilities(
                              __out SYNCMGR_HANDLER_CAPABILITIES *pmCapabilities)
 {
     *pmCapabilities = SYNCMGR_HCM_EVENT_STORE
                     | SYNCMGR_HCM_QUERY_BEFORE_ACTIVATE;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -99,7 +99,7 @@ The following sequence describes how to close down a Resource Dispenser:
 <li>Release your final reference to the Resource Dispenser, which now deletes itself.
 </li>
 </ol>
-Note that the <a href="https://msdn.microsoft.com/18633c7f-d589-4e38-82e7-7cdae3fbf1ba">IDispenserManager::RegisterDispenser</a> method does not call <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on its <i>pDispenserDriver</i> object, but <b>IHolder::Close</b> does perform a <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on <i>pDispenserDriver</i>. This can cause the Resource Dispenser object to be destroyed prematurely. To prevent this premature destruction, the caller of <b>IHolder::Close</b> must hold a reference to the Resource Dispenser object as described in steps 1 and 5.
+Note that the <a href="https://msdn.microsoft.com/18633c7f-d589-4e38-82e7-7cdae3fbf1ba">IDispenserManager::RegisterDispenser</a> method does not call <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">AddRef</a> on its <i>pDispenserDriver</i> object, but <b>IHolder::Close</b> does perform a <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on <i>pDispenserDriver</i>. This can cause the Resource Dispenser object to be destroyed prematurely. To prevent this premature destruction, the caller of <b>IHolder::Close</b> must hold a reference to the Resource Dispenser object as described in steps 1 and 5.
 
 
 

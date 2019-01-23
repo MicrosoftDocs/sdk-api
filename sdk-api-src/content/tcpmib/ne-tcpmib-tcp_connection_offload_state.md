@@ -81,7 +81,7 @@ The TCP connection is in the process of being uploaded back to the network stack
 
 ### -field TcpConnectionOffloadStateMax
 
-The maximum possible value for the <a href="https://msdn.microsoft.com/en-us/library/Bb485810(v=VS.85).aspx">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
+The maximum possible value for the <a href="https://msdn.microsoft.com/cef633e7-1577-4f10-bd14-8d8e85aa78e6">TCP_CONNECTION_OFFLOAD_STATE</a> enumeration type. This is not a legal value for the possible TCP connection offload state.
 
 
 ## -remarks

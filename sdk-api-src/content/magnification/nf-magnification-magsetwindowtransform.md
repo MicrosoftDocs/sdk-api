@@ -92,13 +92,9 @@ The transformation matrix specifies the magnification factor that the magnifier 
 
 The following example shows how to set the magnification factor for a magnifier control.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Description:
+
+```cpp
+// Description:
 //   Sets the magnification factor for a magnifier control.
 // Parameters:
 //   hwndMag - Handle of the magnifier control.
@@ -107,17 +103,17 @@ The following example shows how to set the magnification factor for a magnifier 
 BOOL SetMagnificationFactor(HWND hwndMag, float magFactor)
 {
     MAGTRANSFORM matrix;
-    memset(&amp;matrix, 0, sizeof(matrix));
+    memset(&matrix, 0, sizeof(matrix));
     matrix.v[0][0] = magFactor;
     matrix.v[1][1] = magFactor;
     matrix.v[2][2] = 1.0f;
 
-    return MagSetWindowTransform(hwndMag, &amp;matrix);  
+    return MagSetWindowTransform(hwndMag, &matrix);  
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

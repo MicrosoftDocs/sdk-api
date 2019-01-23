@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="wmformat_glossary.htm">interlace</a>, copy protection, and aspect ratio.
+The <b>WMVIDEOINFOHEADER2</b> structure describes the bitmap and color information for a video image, including <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">interlace</a>, copy protection, and aspect ratio.
 
 
 

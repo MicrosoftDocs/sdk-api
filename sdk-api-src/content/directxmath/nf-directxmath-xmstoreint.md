@@ -82,21 +82,15 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>uint32_t* pElement = (uint32_t*)pDestination;
+
+```
+uint32_t* pElement = (uint32_t*)pDestination;
 
 assert(pDestination);
 assert(((uint32_t_PTR)pDestination & 3) == 0);
 
-*pElement = V.u[0];</pre>
-</td>
-</tr>
-</table></span></div>
+*pElement = V.u[0];
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

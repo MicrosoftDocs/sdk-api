@@ -61,7 +61,7 @@ The <b>PartType</b> enumeration defines constants that indicate whether a part i
 
 ### -field Connector
 
-The part is a connector. A connector can represent an audio jack, an internal connection to an integrated endpoint device, or a software connection implemented through DMA transfers. For more information about connector types, see <a href="https://msdn.microsoft.com/7171a880-2a3e-45aa-803d-26bf5e9e0365">ConnectorType Enumeration</a>.
+The part is a connector. A connector can represent an audio jack, an internal connection to an integrated endpoint device, or a software connection implemented through DMA transfers. For more information about connector types, see <a href="https://msdn.microsoft.com/en-us/library/Dd370801(v=VS.85).aspx">ConnectorType Enumeration</a>.
 
 
 ### -field Subunit

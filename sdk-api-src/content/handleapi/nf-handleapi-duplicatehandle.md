@@ -357,13 +357,9 @@ Normally the target process closes a duplicated handle when that process is fini
 
 The following example creates a mutex, duplicates a handle to the mutex, and passes it to another thread. Duplicating the handle ensures that the reference count is increased so that the mutex object will not be destroyed until both threads have closed the handle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 DWORD CALLBACK ThreadProc(PVOID pvParam);
 
@@ -376,13 +372,13 @@ int main()
     DuplicateHandle(GetCurrentProcess(), 
                     hMutex, 
                     GetCurrentProcess(),
-                    &amp;hMutexDup, 
+                    &hMutexDup, 
                     0,
                     FALSE,
                     DUPLICATE_SAME_ACCESS);
 
     hThread = CreateThread(NULL, 0, ThreadProc, 
-        (LPVOID) hMutexDup, 0, &amp;dwThreadId);
+        (LPVOID) hMutexDup, 0, &dwThreadId);
 
     // Perform work here, closing the handle when finished with the
     // mutex. If the reference count is zero, the object is destroyed.
@@ -403,10 +399,10 @@ DWORD CALLBACK ThreadProc(PVOID pvParam)
     CloseHandle(hMutex);
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

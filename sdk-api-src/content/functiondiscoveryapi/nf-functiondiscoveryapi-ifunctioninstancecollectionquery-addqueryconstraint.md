@@ -4,7 +4,7 @@ title: IFunctionInstanceCollectionQuery::AddQueryConstraint
 author: windows-sdk-content
 description: Adds a query constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addqueryconstraint.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 334d7c04-1446-49da-ac45-9a7d4fd82a9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

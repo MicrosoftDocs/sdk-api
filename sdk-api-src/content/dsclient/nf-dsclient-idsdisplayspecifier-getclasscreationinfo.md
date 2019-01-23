@@ -63,7 +63,7 @@ Pointer to a null-terminated Unicode string that contains the name of the attrib
 
 ### -param ppdscci [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms675967(v=VS.85).aspx">DSCLASSCREATIONINFO</a> structure pointer that receives  the class creation data. This memory is allocated by this method. The caller must free this memory using <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> when it is no longer required.
+Pointer to a <a href="https://msdn.microsoft.com/5c1551f7-f651-4b87-829a-ec9a07fb0ec2">DSCLASSCREATIONINFO</a> structure pointer that receives  the class creation data. This memory is allocated by this method. The caller must free this memory using <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a> when it is no longer required.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675967(v=VS.85).aspx">DSCLASSCREATIONINFO</a>
+<a href="https://msdn.microsoft.com/5c1551f7-f651-4b87-829a-ec9a07fb0ec2">DSCLASSCREATIONINFO</a>
 
 
 

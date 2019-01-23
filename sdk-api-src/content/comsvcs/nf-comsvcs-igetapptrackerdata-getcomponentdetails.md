@@ -73,7 +73,7 @@ The CLSID of the component.
 
 ### -param Flags [in]
 
-A combination of flags from the <a href="https://msdn.microsoft.com/7af61221-e876-4b1c-b416-a92817ad7025">GetAppTrackerDataFlags</a> enumeration to select which data is returned. The following flags are supported: GATD_INCLUDE_CLASS_NAME (if retrieving a summary), GATD_INCLUDE_APPLICATION_NAME (if retrieving a summary). 
+A combination of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd198159(v=VS.85).aspx">GetAppTrackerDataFlags</a> enumeration to select which data is returned. The following flags are supported: GATD_INCLUDE_CLASS_NAME (if retrieving a summary), GATD_INCLUDE_APPLICATION_NAME (if retrieving a summary). 
 
 
 ### -param Summary [out]

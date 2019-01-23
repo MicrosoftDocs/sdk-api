@@ -96,48 +96,40 @@ The difference between <b>ITfKeyTraceEventSink</b> and <a href="https://msdn.mic
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pThreadMgr-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
+hr = pThreadMgr->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
 if(SUCCEEDED(hr))
 {
-    hr = pSource-&gt;AdviseSink(IID_ITfKeyTraceEventSink, pKeyTraceEventSink, &amp;m_dwKeyTraveEventSinkCookie);
+    hr = pSource->AdviseSink(IID_ITfKeyTraceEventSink, pKeyTraceEventSink, &m_dwKeyTraveEventSinkCookie);
     
-    pSource-&gt;Release();
+    pSource->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
+
+
+```cpp
+
 HRESULT hr;
 ITfSource *pSource;
 
-hr = pThreadMgr-&gt;QueryInterface(IID_ITfSource, (LPVOID*)&amp;pSource);
+hr = pThreadMgr->QueryInterface(IID_ITfSource, (LPVOID*)&pSource);
 if(SUCCEEDED(hr))
 {
-    hr = pSource-&gt;UnadviseSink(m_dwKeyTraveEventSinkCookie);
+    hr = pSource->UnadviseSink(m_dwKeyTraveEventSinkCookie);
     
-    pSource-&gt;Release();
+    pSource->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

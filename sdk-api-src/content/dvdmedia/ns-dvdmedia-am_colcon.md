@@ -103,7 +103,7 @@ Pattern contrast.
 
 
 
-This structure is contained within the <a href="https://msdn.microsoft.com/fc073d53-bebb-47fc-b60c-7467b4df88c1">AM_PROPERTY_SPHLI</a> structure.
+This structure is contained within the <a href="https://msdn.microsoft.com/en-us/library/Dd373486(v=VS.85).aspx">AM_PROPERTY_SPHLI</a> structure.
 
 
 

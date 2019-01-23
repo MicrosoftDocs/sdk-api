@@ -4,7 +4,7 @@ title: CancelWaitableTimer function
 author: windows-sdk-content
 description: Sets the specified waitable timer to the inactive state.
 old-location: base\cancelwaitabletimer.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 614a237b-71b3-4091-975d-4c0b3cd6ec69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

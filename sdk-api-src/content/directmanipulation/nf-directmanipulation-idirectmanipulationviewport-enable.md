@@ -80,16 +80,12 @@ Call this method if the <b>AUTODISABLE</b> option is set.
 
 The following example shows how to use this method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = pViewport-&gt;Enable();</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+HRESULT hr = pViewport->Enable();
+```
+
+
 
 
 

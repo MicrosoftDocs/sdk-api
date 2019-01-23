@@ -68,7 +68,7 @@ This value depends on which type of security binding constraint that is used.
 A set of binding-specific security property constraints.
                 
 
-See <a href="https://msdn.microsoft.com/97334ced-315d-49db-9c7b-b05ef387f6c8">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
+See <a href="https://msdn.microsoft.com/en-us/library/Dd323385(v=VS.85).aspx">WS_SECURITY_BINDING_PROPERTY_CONSTRAINT</a> for more information.
                 
 
 

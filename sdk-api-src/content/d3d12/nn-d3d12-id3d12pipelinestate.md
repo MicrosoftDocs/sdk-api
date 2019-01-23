@@ -95,13 +95,9 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Declare the pipeline objects.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Asset objects.
+
+```cpp
+// Asset objects.
 ComPtr<ID3D12PipelineState> m_pipelineState;
 ComPtr<ID3D12PipelineState> m_computeState;
 ComPtr<ID3D12GraphicsCommandList> m_commandList;
@@ -115,21 +111,15 @@ ComPtr<ID3D12Resource> m_particleBuffer1Upload[ThreadCount];
 ComPtr<ID3D12Resource> m_constantBufferGS;
 UINT8* m_pConstantBufferGSData;
 ComPtr<ID3D12Resource> m_constantBufferCS;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Initializing a bundle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void FrameResource::InitBundle(ID3D12Device* pDevice, ID3D12PipelineState* pPso,
+
+```cpp
+void FrameResource::InitBundle(ID3D12Device* pDevice, ID3D12PipelineState* pPso,
     UINT frameResourceIndex, UINT numIndices, D3D12_INDEX_BUFFER_VIEW* pIndexBufferViewDesc, D3D12_VERTEX_BUFFER_VIEW* pVertexBufferViewDesc,
     ID3D12DescriptorHeap* pCbvSrvDescriptorHeap, UINT cbvSrvDescriptorSize, ID3D12DescriptorHeap* pSamplerDescriptorHeap, ID3D12RootSignature* pRootSignature)
 {
@@ -140,10 +130,8 @@ Initializing a bundle.
 
     ThrowIfFailed(m_bundle->Close());
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12Bundles</a> sample uses <b>ID3D12PipelineState</b> as follows:
@@ -151,13 +139,9 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Populating the command lists, note the alternating PSO.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void FrameResource::PopulateCommandList(ID3D12GraphicsCommandList* pCommandList, ID3D12PipelineState* pPso1, ID3D12PipelineState* pPso2,
+
+```cpp
+void FrameResource::PopulateCommandList(ID3D12GraphicsCommandList* pCommandList, ID3D12PipelineState* pPso1, ID3D12PipelineState* pPso2,
     UINT frameResourceIndex, UINT numIndices, D3D12_INDEX_BUFFER_VIEW* pIndexBufferViewDesc, D3D12_VERTEX_BUFFER_VIEW* pVertexBufferViewDesc,
     ID3D12DescriptorHeap* pCbvSrvDescriptorHeap, UINT cbvSrvDescriptorSize, ID3D12DescriptorHeap* pSamplerDescriptorHeap, ID3D12RootSignature* pRootSignature)
 {
@@ -199,10 +183,8 @@ Populating the command lists, note the alternating PSO.
         }
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

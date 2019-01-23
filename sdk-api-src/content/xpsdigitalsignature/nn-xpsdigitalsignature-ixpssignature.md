@@ -101,7 +101,7 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/1d0a14c6-826c-419f-9e94
 <a href="https://msdn.microsoft.com/632e5e53-1677-4b55-9085-0def97531a5d">GetPolicy</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
             
 
 </td>
@@ -218,7 +218,7 @@ An <b>IXpsSignature</b> interface may represent a signature that is not XPS comp
 
 
 
-<a href="https://msdn.microsoft.com/88191931-4d6f-4ef3-ba75-227f6d2c2b10">XPS_SIGN_POLICY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372987(v=VS.85).aspx">XPS_SIGN_POLICY</a>
  
 
  

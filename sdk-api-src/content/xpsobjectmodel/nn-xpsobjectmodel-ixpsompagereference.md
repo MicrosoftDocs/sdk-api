@@ -169,7 +169,7 @@ Gets a pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a1d
 <a href="https://msdn.microsoft.com/721dffd7-a15f-4028-be9e-854a4445d76d">HasRestrictedFonts</a>
 </td>
 <td align="left" width="63%">
-Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="https://msdn.microsoft.com/9701b1c2-a909-410e-b05b-76bbd5bc8b44">XPS_FONT_EMBEDDING_RESTRICTED</a>.
+Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose  <b>EmbeddingOption</b> property is set to <a href="https://msdn.microsoft.com/en-us/library/Dd372957(v=VS.85).aspx">XPS_FONT_EMBEDDING_RESTRICTED</a>.
 
 </td>
 </tr>
@@ -240,13 +240,9 @@ Sets the pointer to the <a href="https://msdn.microsoft.com/89a1530e-fa87-45bf-a
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IXpsOMPageReference    *newInterface;
 // The following value is defined outside of 
 // this example.
@@ -260,31 +256,31 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
+    reinterpret_cast<LPVOID*>(&xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory-&gt;CreatePageReference (
-        &amp;advisoryPageDimensions,
-        &amp;newInterface);
+    hr = xpsFactory->CreatePageReference (
+        &advisoryPageDimensions,
+        &newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface-&gt;Release();
+        newInterface->Release();
     }
-    xpsFactory-&gt;Release();
+    xpsFactory->Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For information about using this interface in a program, see <a href="https://msdn.microsoft.com/5b6f12ba-9a41-4252-96c4-391bb8d75cd4">Create a Blank XPS OM</a> and <a href="https://msdn.microsoft.com/90b726aa-29da-4cfb-9c69-f471c2acb678">Navigate the XPS OM</a>.
 
 

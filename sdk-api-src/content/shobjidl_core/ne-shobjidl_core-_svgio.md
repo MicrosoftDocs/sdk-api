@@ -92,15 +92,11 @@ Used with the <a href="https://msdn.microsoft.com/f93e2d30-7b50-48e8-a3e7-6fa29a
 
 The <b>SVGIO</b> type used to refer to members of the <b>_SVGIO</b> enumeration is defined in Shobjidl.h as shown here.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef int SVGIO;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef int SVGIO;
+```
+
+
 
 

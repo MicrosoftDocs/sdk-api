@@ -4,7 +4,7 @@ title: CreateSemaphoreExW function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
 old-location: base\createsemaphoreex.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

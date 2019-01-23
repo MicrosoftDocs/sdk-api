@@ -55,7 +55,7 @@ req.redist:
     <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa385623(v=VS.85).aspx">Mid</a> method extracts a substring of length <i>nCount</i> characters from a 
+The <a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">Mid</a> method extracts a substring of length <i>nCount</i> characters from a 
 <b>CHString</b> string, starting at position <i>nFirst</i> (zero-based). The method returns a copy of the extracted substring.
 
 
@@ -82,24 +82,20 @@ Returns a <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718cae
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa385623(v=VS.85).aspx">Mid</a> method is similar to the Basic <b>MID$</b> function except in the Basic <b>MID$</b> function, indexes are zero-based.
+The <a href="https://msdn.microsoft.com/2036813b-f991-4ca3-95d3-8bbe858aae09">Mid</a> method is similar to the Basic <b>MID$</b> function except in the Basic <b>MID$</b> function, indexes are zero-based.
 
 
 #### Examples
 
 The following code example shows the use of <b>CHString::Mid</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHString s( L"abcdef" );
-assert( s.Mid( 2, 3 ) == L"cde" );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+CHString s( L"abcdef" );
+assert( s.Mid( 2, 3 ) == L"cde" );
+```
+
+
 
 
 

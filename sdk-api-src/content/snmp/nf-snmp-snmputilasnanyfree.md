@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>SnmpUtilAsnAnyFree</b> function frees the memory allocated for the specified 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a> structure. This function is an element of the SNMP Utility API.
+<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a> structure. This function is an element of the SNMP Utility API.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param pAny [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a> structure whose memory should be freed.
+<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a> structure whose memory should be freed.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377952(v=VS.85).aspx">AsnAny</a>
+<a href="https://msdn.microsoft.com/ce8d002e-f357-499c-b976-f8ebaf1e7142">AsnAny</a>
 
 
 

@@ -65,7 +65,7 @@ The security context that is queried for its property.
 
 ### -param id [in]
 
-The id of the property (one of <a href="https://msdn.microsoft.com/en-us/library/Dd323396(v=VS.85).aspx">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
+The id of the property (one of <a href="https://msdn.microsoft.com/fd2b92d4-9834-4d4b-85c3-8ea8d2c8bd8c">WS_SECURITY_CONTEXT_PROPERTY_ID</a>).
         
 
 

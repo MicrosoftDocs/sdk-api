@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f83
 
 ### -param tileMode [out, retval]
 
-The <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once. The following illustration shows examples of how the tile image appears in several tile modes.
+The tile mode determines how the tile image is repeated to fill the output area. If the tile mode value is <a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once. The following illustration shows examples of how the tile image appears in several tile modes.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="../images/TileMode.png"/>
 
@@ -127,7 +127,7 @@ The tile mode determines how the tile image is repeated to fill the output area.
 
 
 
-<a href="https://msdn.microsoft.com/59434771-6402-4b0f-b8b6-58a4dda0f836">XPS_TILE_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372992(v=VS.85).aspx">XPS_TILE_MODE</a>
  
 
  

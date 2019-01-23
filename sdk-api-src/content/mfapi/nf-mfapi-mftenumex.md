@@ -68,14 +68,14 @@ The bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.micro
 
 ### -param pInputType [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/1d26b9ee-545a-4e47-9a68-b9e567f0dec4">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structure that specifies an input media type to match. 
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all input types are matched.
 
 
 ### -param pOutputType [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/1d26b9ee-545a-4e47-9a68-b9e567f0dec4">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms694919(v=VS.85).aspx">MFT_REGISTER_TYPE_INFO</a> structure that specifies an output media type to match.
 
 This parameter can be <b>NULL</b>. If <b>NULL</b>, all output types are matched.
 
@@ -278,13 +278,9 @@ Hardware codecs should also be registered under an <a href="https://msdn.microso
 
 The following example searches for a video or audio decoder. Asynchronous, hardware, transcode, and field-of-use decoders are excluded. If a match is found, the code creates the first MFT in the list.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT FindDecoderEx(
+
+```cpp
+HRESULT FindDecoderEx(
     const GUID& subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppDecoder    // Receives a pointer to the decoder.
@@ -329,21 +325,15 @@ The following example searches for a video or audio decoder. Asynchronous, hardw
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 The next example searches for a video or audio encoder. Asynchronous, hardware, transcode, and field-of-use encoders are excluded.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT FindEncoderEx(
+
+```cpp
+HRESULT FindEncoderEx(
     const GUID& subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppEncoder    // Receives a pointer to the decoder.
@@ -388,21 +378,15 @@ The next example searches for a video or audio encoder. Asynchronous, hardware, 
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 The next example searches for a video decoder, with options to include asynchronous, hardware, or transcode decoders.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT FindVideoDecoder(
+
+```cpp
+HRESULT FindVideoDecoder(
     const GUID& subtype,
     BOOL bAllowAsync,
     BOOL bAllowHardware, 
@@ -459,10 +443,8 @@ The next example searches for a video decoder, with options to include asynchron
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 <div class="code"></div>

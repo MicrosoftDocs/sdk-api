@@ -79,11 +79,11 @@ Pointer to an object that contains the type of information specified by the
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessMemoryPriority</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/03cacfdf-5c66-42e4-bfcf-afaacd3ad038">MEMORY_PRIORITY_INFORMATION</a> structure.
+       <a href="https://msdn.microsoft.com/en-us/library/Hh448387(v=VS.85).aspx">MEMORY_PRIORITY_INFORMATION</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessPowerThrottling</b>, this parameter must point to a 
-       <a href="https://msdn.microsoft.com/394B6509-849C-4B4C-9A46-AF5011A03585">PROCESS_POWER_THROTTLING_STATE</a> structure.
+       <a href="https://msdn.microsoft.com/en-us/library/Mt804324(v=VS.85).aspx">PROCESS_POWER_THROTTLING_STATE</a> structure.
 
 If the <i>ProcessInformationClass</i> parameter is 
        <b>ProcessLeapSecondInfo</b>, this parameter must point to a 
@@ -223,7 +223,7 @@ SetProcessInformation(GetCurrentProcess(),
 
 
 
-<a href="https://msdn.microsoft.com/03cacfdf-5c66-42e4-bfcf-afaacd3ad038">MEMORY_PRIORITY_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448387(v=VS.85).aspx">MEMORY_PRIORITY_INFORMATION</a>
 
 
 

@@ -65,19 +65,15 @@ Specifies the number of elements in the <b>IndicatorList</b> array.
 
 Specifies a device-specific, variable-length array of INDICATOR_LIST structures.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _INDICATOR_LIST {
+
+```
+typedef struct _INDICATOR_LIST {
   USHORT  MakeCode;
   USHORT  IndicatorFlags;
-} INDICATOR_LIST, *PINDICATOR_LIST;</pre>
-</td>
-</tr>
-</table></span></div>
+} INDICATOR_LIST, *PINDICATOR_LIST;
+```
+
+
 
 
 

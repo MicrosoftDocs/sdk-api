@@ -54,7 +54,7 @@ This function
                 The set of headers is extensible and Message assimilation by the receiver is not accessible by the sender.  This function is the receiving applications method for making it known to the sender that the received header has been read and understood.
 <div class="alert"><b>Note</b>  This function should be used only if the application receives a message indicating that the  header
                 must be understood and it did not acquire the header using <a href="https://msdn.microsoft.com/ff6e639f-715d-4a4f-b0ef-35202aa54dc5">WsGetHeader</a>or <a href="https://msdn.microsoft.com/bdfb441b-afc4-4be8-b437-f299a31ce84b">WsGetCustomHeader</a>.
-            The <a href="https://msdn.microsoft.com/en-us/library/Dd401961(v=VS.85).aspx">WS_MESSAGE_STATE</a> must be in the set to  <b>WS_MESSAGE_STATE_READING</b>.
+            The <a href="https://msdn.microsoft.com/2c5ddedd-b0b4-4c26-a5c0-a5851f0408de">WS_MESSAGE_STATE</a> must be in the set to  <b>WS_MESSAGE_STATE_READING</b>.
             See .<a href="https://msdn.microsoft.com/28ca98e5-911b-436d-a592-781b832ca6cc">WsCheckMustUnderstandHeaders</a> for more information.</div><div> </div>
 
 ## -parameters

@@ -322,39 +322,31 @@ Gets the status of the service.
 
 To bind to a file service operations object, use the ADsPath string that identifies the "LanmanServer" service on the host computer, as shown in the following code example.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim fso As IADsFileServiceOperations
+
+```vb
+Dim fso As IADsFileServiceOperations
 On Error Resume Next
 
 ' Replace aDomain with the domain that the computer is located on.
 ' Replace aComputer with the name of the computer.
-Set fso = GetObject("WinNT://aDomain/aComputer/LanmanServer")</pre>
-</td>
-</tr>
-</table></span></div>
+Set fso = GetObject("WinNT://aDomain/aComputer/LanmanServer")
+```
+
+
 From this point, you can handle the file service object as just a service object, applying any of the methods of <a href="https://msdn.microsoft.com/f2459ca2-8a14-4343-bec6-ef3775dbf415">IADsServiceOperations</a> to the file service object. For example, you can examine the operational status of the file service, start or stop the file service, or change its password.
 
 However, the <b>IADsFileServiceOperations</b> interface allows you to work with open resources and active sessions of the file service. See the following example.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>For Each r in fso.Resources
+
+```vb
+For Each r in fso.Resources
 MsgBox r.User
 MsgBox r.Path
 MsgBox r.LockCount
-Next</pre>
-</td>
-</tr>
-</table></span></div>
+Next
+```
+
+
 For more information about active sessions and open resources, see  <a href="https://msdn.microsoft.com/54621f0d-7478-4a6f-a96f-f3f93e64b281">IADsSession</a> and  <a href="https://msdn.microsoft.com/217749a4-55dc-457f-8582-1513ff3b0666">IADsResource</a>.
 
 

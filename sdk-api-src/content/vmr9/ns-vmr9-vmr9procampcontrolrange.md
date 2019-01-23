@@ -66,7 +66,7 @@ Size of the structure, in bytes. The value must be <code>sizeof(VMR9ProcAmpContr
 
 ### -field dwProperty
 
-Specifies the image adjustment property to query, as a member of the <a href="https://msdn.microsoft.com/5dfba718-4c89-46e7-89b6-e4b133b0ce04">VMR9ProcAmpControlFlags</a> enumeration. The caller should set this field.
+Specifies the image adjustment property to query, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd407373(v=VS.85).aspx">VMR9ProcAmpControlFlags</a> enumeration. The caller should set this field.
 
 
 ### -field MinValue
@@ -98,7 +98,7 @@ Specifies the valid increments from <b>MinValue</b> to <b>MaxValue</b>. The driv
 
 
 
-<a href="https://msdn.microsoft.com/e7db2b22-b3d2-4c6f-84fc-5a287761ed7a">IVMRMixerControl9::GetProcAmpControlRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390463(v=VS.85).aspx">IVMRMixerControl9::GetProcAmpControlRange</a>
  
 
  

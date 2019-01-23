@@ -86,7 +86,7 @@ The stream contains module information. For more information, see
 ### -field MemoryListStream
 
 The stream contains memory allocation information. For more information, see 
-<a href="https://msdn.microsoft.com/83a38831-fb90-495c-9f5d-90971849a7a0">MINIDUMP_MEMORY_LIST</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680387(v=VS.85).aspx">MINIDUMP_MEMORY_LIST</a>.
 
 
 ### -field ExceptionStream
@@ -104,13 +104,13 @@ The stream contains general system information. For more information, see
 ### -field ThreadExListStream
 
 The stream contains extended thread information. For more information, see 
-<a href="https://msdn.microsoft.com/653f1079-07c9-43b9-8dfe-05e99b365bdc">MINIDUMP_THREAD_EX_LIST</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680399(v=VS.85).aspx">MINIDUMP_THREAD_EX_LIST</a>.
 
 
 ### -field Memory64ListStream
 
 The stream contains memory allocation information. For more information, see 
-<a href="https://msdn.microsoft.com/83a38831-fb90-495c-9f5d-90971849a7a0">MINIDUMP_MEMORY64_LIST</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680387(v=VS.85).aspx">MINIDUMP_MEMORY64_LIST</a>.
 
 
 ### -field CommentStreamA
@@ -126,19 +126,19 @@ The stream contains a Unicode string used for documentation purposes.
 ### -field HandleDataStream
 
 The stream contains high-level information about the active operating system handles. For more information, see 
-<a href="https://msdn.microsoft.com/5674df6b-77e0-4bca-8349-8217388902ed">MINIDUMP_HANDLE_DATA_STREAM</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>.
 
 
 ### -field FunctionTableStream
 
 The stream contains function table information. For more information, see 
-<a href="https://msdn.microsoft.com/b2845799-acc9-4410-9059-45f7a8313e9f">MINIDUMP_FUNCTION_TABLE_STREAM</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680371(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_STREAM</a>.
 
 
 ### -field UnloadedModuleListStream
 
 The stream contains module information for the unloaded modules. For more information, see 
-<a href="https://msdn.microsoft.com/26a42ae7-f84d-451d-92e9-dbaffb15ca74">MINIDUMP_UNLOADED_MODULE_LIST</a>.
+<a href="https://msdn.microsoft.com/en-us/library/ms680521(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE_LIST</a>.
 
 <b>DbgHelp 5.1:  </b>This value is not supported.
 
@@ -153,21 +153,21 @@ The stream contains miscellaneous information. For more information, see
 
 ### -field MemoryInfoListStream
 
-The stream contains memory region description information. It corresponds to the information that would be returned for the process from the <a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a> function. For more information, see <a href="https://msdn.microsoft.com/c1c9a79b-a35a-47e8-be4c-10b3c4ace937">MINIDUMP_MEMORY_INFO_LIST</a>.
+The stream contains memory region description information. It corresponds to the information that would be returned for the process from the <a href="https://msdn.microsoft.com/3b1f7d27-1f5d-452e-b58f-560cd9b9cbd3">VirtualQuery</a> function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms680385(v=VS.85).aspx">MINIDUMP_MEMORY_INFO_LIST</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
 
 ### -field ThreadInfoListStream
 
-The stream contains thread state information. For more information, see <a href="https://msdn.microsoft.com/ee02a8fa-c81d-4b23-b8a2-6ff31cdaf3de">MINIDUMP_THREAD_INFO_LIST</a>.
+The stream contains thread state information. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms680506(v=VS.85).aspx">MINIDUMP_THREAD_INFO_LIST</a>.
 
 <b>DbgHelp 6.1 and earlier:  </b>This value is not supported.
 
 
 ### -field HandleOperationListStream
 
-This stream contains operation list information. For more information, see <a href="https://msdn.microsoft.com/f7666ff5-a1ae-4ffb-b4ee-9fe5bb58fd36">MINIDUMP_HANDLE_OPERATION_LIST</a>.
+This stream contains operation list information. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms680377(v=VS.85).aspx">MINIDUMP_HANDLE_OPERATION_LIST</a>.
 
 <b>DbgHelp 6.4 and earlier:  </b>This value is not supported.
 
@@ -260,23 +260,23 @@ The <b>StreamType</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/b2845799-acc9-4410-9059-45f7a8313e9f">MINIDUMP_FUNCTION_TABLE_STREAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680371(v=VS.85).aspx">MINIDUMP_FUNCTION_TABLE_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/5674df6b-77e0-4bca-8349-8217388902ed">MINIDUMP_HANDLE_DATA_STREAM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680372(v=VS.85).aspx">MINIDUMP_HANDLE_DATA_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7666ff5-a1ae-4ffb-b4ee-9fe5bb58fd36">MINIDUMP_HANDLE_OPERATION_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680377(v=VS.85).aspx">MINIDUMP_HANDLE_OPERATION_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1c9a79b-a35a-47e8-be4c-10b3c4ace937">MINIDUMP_MEMORY_INFO_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680385(v=VS.85).aspx">MINIDUMP_MEMORY_INFO_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/83a38831-fb90-495c-9f5d-90971849a7a0">MINIDUMP_MEMORY_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680387(v=VS.85).aspx">MINIDUMP_MEMORY_LIST</a>
 
 
 
@@ -292,11 +292,11 @@ The <b>StreamType</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/653f1079-07c9-43b9-8dfe-05e99b365bdc">MINIDUMP_THREAD_EX_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680399(v=VS.85).aspx">MINIDUMP_THREAD_EX_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee02a8fa-c81d-4b23-b8a2-6ff31cdaf3de">MINIDUMP_THREAD_INFO_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680506(v=VS.85).aspx">MINIDUMP_THREAD_INFO_LIST</a>
 
 
 
@@ -304,7 +304,7 @@ The <b>StreamType</b> member of the
 
 
 
-<a href="https://msdn.microsoft.com/26a42ae7-f84d-451d-92e9-dbaffb15ca74">MINIDUMP_UNLOADED_MODULE_LIST</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680521(v=VS.85).aspx">MINIDUMP_UNLOADED_MODULE_LIST</a>
 
 
 

@@ -179,8 +179,8 @@ Calling this method triggers the following notification:
 This method returns successfully even if Internet Connection Firewall was not enabled on this connection.
 
 Use the 
-<a href="https://msdn.microsoft.com/8f774509-0efb-49e5-bf56-61f4810631bd">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
-<a href="https://msdn.microsoft.com/3ed1a3ae-87af-4415-b149-c66ae65cd053">INetSharingConfiguration</a> interface for a particular connection.
+<a href="https://msdn.microsoft.com/en-us/library/Aa365966(v=VS.85).aspx">INetSharingManager::get_INetSharingConfigurationForINetConnection</a> method to obtain an 
+<a href="https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx">INetSharingConfiguration</a> interface for a particular connection.
 
 <b>Windows XP with SP2:  </b>Calling this API will disable the firewall on the specified interface, regardless of whether the Windows Firewall is on.
 
@@ -192,11 +192,11 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/3ed1a3ae-87af-4415-b149-c66ae65cd053">INetSharingConfiguration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365935(v=VS.85).aspx">INetSharingConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/9805f6bf-ee06-469f-9b2f-e48caa582d1a">INetSharingConfiguration::EnableInternetFirewall</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365942(v=VS.85).aspx">INetSharingConfiguration::EnableInternetFirewall</a>
 
 
 

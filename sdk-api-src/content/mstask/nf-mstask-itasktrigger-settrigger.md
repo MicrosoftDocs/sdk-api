@@ -135,17 +135,13 @@ To update the task with these new trigger settings, applications must call the
 The following code shows the variable declaration and calling syntax for this method, including the required members of 
 <a href="https://msdn.microsoft.com/b4716e32-7c7a-40ab-baa1-4c7ebafc3d71">TASK_TRIGGER</a>. Setting the trigger criteria when creating a new trigger, see <a href="https://msdn.microsoft.com/c0f121ff-d0a5-4b6c-935c-6f47b4ea26d5">Creating a New Trigger</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 
 TASK_TRIGGER Trigger;
 
-ZeroMemory(&amp;Trigger, sizeof(TASK_TRIGGER));
+ZeroMemory(&Trigger, sizeof(TASK_TRIGGER));
 
 Trigger.cbTriggerSize = sizeof(TASK_TRIGGER);
 Trigger.wBeginDay = 1;
@@ -153,16 +149,16 @@ Trigger.wBeginMonth = 1;
 Trigger.wBeginYear = 1999;
 
 // pITaskTrigger is a previously assigned ITaskTrigger pointer.
-hr = pITaskTrigger-&gt;SetTrigger(&amp;Trigger);
+hr = pITaskTrigger->SetTrigger(&Trigger);
 if (FAILED(hr))
 {
    printf("Failed SetTrigger\n");
    exit(1);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

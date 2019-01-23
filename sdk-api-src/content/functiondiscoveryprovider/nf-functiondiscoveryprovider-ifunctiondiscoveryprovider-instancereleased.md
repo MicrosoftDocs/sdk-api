@@ -4,7 +4,7 @@ title: IFunctionDiscoveryProvider::InstanceReleased
 author: windows-sdk-content
 description: Releases the specified function instance and frees the memory previously allocated.
 old-location: ncd\ifunctiondiscoveryprovider_instancereleased.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: fa348767-8a83-4a45-9411-1e9eb545d97d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

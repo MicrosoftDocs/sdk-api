@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a> value, which describes how the area outside of the gradient region will be rendered.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Gets the <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a90
 
 ### -param spreadMethod [out, retval]
 
-The <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a> value that describes how the area outside of the gradient region will be rendered. The gradient region is defined by the linear-gradient brush or radial-gradient brush that inherits this interface.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a> value that describes how the area outside of the gradient region will be rendered. The gradient region is defined by the linear-gradient brush or radial-gradient brush that inherits this interface.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method succeeded.
 
 
 
-For more information about different types of spread methods, see <a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a>.
+For more information about different types of spread methods, see <a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a>.
 
 
 
@@ -134,7 +134,7 @@ For more information about different types of spread methods, see <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/9c9cadaf-6f38-4a56-942e-78617017a905">XPS_SPREAD_METHOD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372989(v=VS.85).aspx">XPS_SPREAD_METHOD</a>
  
 
  

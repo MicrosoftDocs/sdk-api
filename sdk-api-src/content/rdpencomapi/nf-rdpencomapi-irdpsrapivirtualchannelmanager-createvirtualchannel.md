@@ -92,7 +92,7 @@ The priority of the channel. This parameter can be one of the following values.
 
 Type: <b>unsigned long</b>
 
-Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="https://msdn.microsoft.com/ca8a063a-81a0-44b8-8654-36a38a6f30ef">CHANNEL_FLAGS_UNCOMPRESSED</a>.
+Flags that determine how data is sent on the channel. This parameter can be 0 or <a href="https://msdn.microsoft.com/en-us/library/Aa373263(v=VS.85).aspx">CHANNEL_FLAGS_UNCOMPRESSED</a>.
 
 
 ### -param ppChannel [out]

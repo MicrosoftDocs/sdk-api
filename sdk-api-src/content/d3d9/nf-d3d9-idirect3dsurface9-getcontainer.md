@@ -92,26 +92,22 @@ If the call succeeds, the reference count of the container is increased by one.
 
 Here's an example getting the parent texture of a mip surface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
     
 // Assumes pSurface is a valid IDirect3DSurface9 pointer
 void *pContainer = NULL;
 IDirect3DTexture9 *pTexture = NULL;
-HRESULT hr = pSurface-&gt;GetContainer(IID_IDirect3DTexture9, &amp;pContainer);
-if (SUCCEEDED(hr) &amp;&amp; pContainer)
+HRESULT hr = pSurface->GetContainer(IID_IDirect3DTexture9, &pContainer);
+if (SUCCEEDED(hr) && pContainer)
 {
     pTexture = (IDirect3DTexture9 *)pContainer;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

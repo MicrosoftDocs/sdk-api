@@ -49,7 +49,7 @@ req.redist:
 
 
 A security binding constraint that corresponds to 
-        the <a href="https://msdn.microsoft.com/c7f45f44-25e9-4124-a0a2-eb9969f0eb99">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
+        the <a href="https://msdn.microsoft.com/en-us/library/Dd323391(v=VS.85).aspx">WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING</a>.
       
 
 

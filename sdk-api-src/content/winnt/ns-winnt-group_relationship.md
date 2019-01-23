@@ -89,7 +89,7 @@ An array of <a href="https://msdn.microsoft.com/6ff9cc3c-34e7-4dc4-94cd-6ed278df
 
 
 
-<a href="https://msdn.microsoft.com/6ff16cda-c1dc-4d5c-ac60-756653cd6b07">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd405522(v=VS.85).aspx">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

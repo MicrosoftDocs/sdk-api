@@ -58,7 +58,7 @@ Creates a 2D rotation transform object.
 
 ### -param rotateTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh448924(v=VS.85).aspx">IDCompositionRotateTransform</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/6c92bd6b-4479-45c2-986c-0a6c91248361">IDCompositionRotateTransform</a>**</b>
 
 The new rotation transform object. This parameter must not be NULL.
 
@@ -88,7 +88,7 @@ A new 2D rotation transform object has a static value of zero for the Angle, Cen
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 

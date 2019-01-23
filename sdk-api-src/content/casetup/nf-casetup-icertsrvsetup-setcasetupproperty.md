@@ -58,7 +58,7 @@ The <b>SetCASetupProperty</b> method sets a property value for a <a href="https:
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a> constant that specifies the type of property to configure.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a> constant that specifies the type of property to configure.
 
 The following properties are set as a side effect of other methods and cannot be set directly with this method.
 
@@ -75,7 +75,7 @@ The following properties are set as a side effect of other methods and cannot be
 
 ### -param pPropertyValue [in]
 
-A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/2245ad2f-89ca-4478-91d0-cbd7a0648479">CASetupProperty</a>.
+A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://msdn.microsoft.com/en-us/library/Bb648668(v=VS.85).aspx">CASetupProperty</a>.
 
 
 ## -see-also

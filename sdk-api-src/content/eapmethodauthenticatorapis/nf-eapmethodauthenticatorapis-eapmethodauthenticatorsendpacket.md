@@ -80,7 +80,7 @@ A pointer to an <a href="https://msdn.microsoft.com/a5d78db0-990f-4318-8f1a-4e90
 
 ### -param pTimeout [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/56c3da89-eaa8-4ea9-a912-3e15d713ba45">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> enumeration that specifies the timeout for the packet.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363641(v=VS.85).aspx">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> enumeration that specifies the timeout for the packet.
 
 
 ### -param ppEapError [out]

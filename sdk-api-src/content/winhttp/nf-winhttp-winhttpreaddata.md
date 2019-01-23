@@ -237,13 +237,9 @@ The following example shows how to use secure transaction semantics to download 
 <a href="https://msdn.microsoft.com/041ec571-10ed-48d0-9a99-e0b5d9e08f70">WinHttpQueryDataAvailable</a> is used with the request handle to determine how much data is available for download, then 
 <b>WinHttpReadData</b> is used to read that data.  This process repeats until the entire document has been retrieved and displayed.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    DWORD dwSize = 0;
+
+```cpp
+    DWORD dwSize = 0;
     DWORD dwDownloaded = 0;
     LPSTR pszOutBuffer;
     BOOL  bResults = FALSE;
@@ -288,7 +284,7 @@ The following example shows how to use secure transaction semantics to download 
         {
             // Check for available data.
             dwSize = 0;
-            if (!WinHttpQueryDataAvailable( hRequest, &amp;dwSize)) 
+            if (!WinHttpQueryDataAvailable( hRequest, &dwSize)) 
             {
                 printf( "Error %u in WinHttpQueryDataAvailable.\n",
                         GetLastError());
@@ -311,7 +307,7 @@ The following example shows how to use secure transaction semantics to download 
             ZeroMemory(pszOutBuffer, dwSize+1);
 
             if (!WinHttpReadData( hRequest, (LPVOID)pszOutBuffer, 
-                                  dwSize, &amp;dwDownloaded))
+                                  dwSize, &dwDownloaded))
             {                                  
                 printf( "Error %u in WinHttpReadData.\n", GetLastError());
             }
@@ -328,7 +324,7 @@ The following example shows how to use secure transaction semantics to download 
             if (!dwDownloaded)
                 break;
                 
-        } while (dwSize &gt; 0);
+        } while (dwSize > 0);
     }
     else
     {
@@ -340,10 +336,10 @@ The following example shows how to use secure transaction semantics to download 
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

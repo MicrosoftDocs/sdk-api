@@ -123,18 +123,14 @@ A visual style can define a content area within each background image. This is t
 When applying a theme to an entire client area of a window, you can call <a href="https://msdn.microsoft.com/en-us/library/ms633503(v=VS.85).aspx">GetClientRect</a> to retrieve this area in a <b>RECT</b>, which can be passed via pointer as the <i>pContentRect</i> parameter to <b>GetThemeBackgroundContentRect</b> as in the following example.
 		
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD resultFlags = GetThemeAppProperties();
-bool ctrlsAreThemed = ((resultFlags &amp; STAP_ALLOW_CONTROLS) != 0);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+DWORD resultFlags = GetThemeAppProperties();
+bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
+
+```
+
+
 
 
 

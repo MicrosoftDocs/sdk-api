@@ -67,7 +67,7 @@ Pointer to the  <a href="https://msdn.microsoft.com/6c1d6c7c-e003-47f9-adfa-4a75
 
 Type: <b>IEnumVARIANT**</b>
 
-Pointer to an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface pointer that receives the enumerator object created for the specified container object.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface pointer that receives the enumerator object created for the specified container object.
 
 
 ## -returns
@@ -85,12 +85,12 @@ This method supports the standard <b>HRESULT</b> return values, including <b>S_O
 
 
 
-The <b>ADsBuildEnumerator</b> helper function wraps the calls used to retrieve the <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on the enumerator object.
+The <b>ADsBuildEnumerator</b> helper function wraps the calls used to retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on the enumerator object.
 
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b> To enumerate the available objects in a container</b>
 
 <ol>
-<li>Call the <b>ADsBuildEnumerator</b> function to create an <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> object that will enumerate the contents of the container.</li>
+<li>Call the <b>ADsBuildEnumerator</b> function to create an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> object that will enumerate the contents of the container.</li>
 <li>Call the <a href="https://msdn.microsoft.com/9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e">ADsEnumerateNext</a> function as many times as necessary to retrieve the items from the enumerator object.</li>
 <li>Call the <a href="https://msdn.microsoft.com/0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315">ADSFreeEnumerator</a> function to release the enumerator object when it is no longer required.</li>
 </ol>
@@ -101,13 +101,9 @@ If the server supports paged searches and the client has specified a page size t
 
 The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="https://msdn.microsoft.com/9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e">ADsEnumerateNext</a>, and <a href="https://msdn.microsoft.com/0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315">ADSFreeEnumerator</a> functions can be used to enumerate the contents of a container.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT PrintAllObjects(IADsContainer* pContainer)
+
+```cpp
+HRESULT PrintAllObjects(IADsContainer* pContainer)
 {
     HRESULT hr;
      
@@ -119,43 +115,43 @@ The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="htt
     IEnumVARIANT *pEnum = NULL;
 
     // Create an enumerator object in the container.
-    hr = ADsBuildEnumerator(pContainer, &amp;pEnum);
+    hr = ADsBuildEnumerator(pContainer, &pEnum);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
         ULONG ulFetched = 0L;
 
         // Get the next contained object.
-        while(S_OK == (hr = ADsEnumerateNext(pEnum, 1, &amp;var, &amp;ulFetched)) &amp;&amp; (ulFetched &gt; 0))
+        while(S_OK == (hr = ADsEnumerateNext(pEnum, 1, &var, &ulFetched)) && (ulFetched > 0))
         {
             IADs *pADs;
 
             // Print the object
-            hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs);
+            hr = V_DISPATCH(&var)->QueryInterface(IID_IADs, (void**)&pADs);
             if(SUCCEEDED(hr))
             {
                 CComBSTR sbstr;
                 IADsContainer *pChildContainer;
 
-                hr = pADs-&gt;get_Name(&amp;sbstr);
+                hr = pADs->get_Name(&sbstr);
                 if(SUCCEEDED(hr))
                 {
                     wprintf(sbstr);
                     wprintf(L"\n");
                 }
 
-                hr = pADs-&gt;QueryInterface(IID_IADsContainer, (void**)&amp;pChildContainer);
+                hr = pADs->QueryInterface(IID_IADsContainer, (void**)&pChildContainer);
                 if(SUCCEEDED(hr))
                 {
                     // If the retrieved object is a container, recursively print its contents as well.
                     PrintAllObjects(pChildContainer);
                 }
                 
-                pADs-&gt;Release();
+                pADs->Release();
             }
             
             // Release the VARIANT.
-            VariantClear(&amp;var);
+            VariantClear(&var);
         }
         
         ADsFreeEnumerator(pEnum);
@@ -163,10 +159,10 @@ The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="htt
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -195,7 +191,7 @@ The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="htt
 
 
 
-<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
  
 
  

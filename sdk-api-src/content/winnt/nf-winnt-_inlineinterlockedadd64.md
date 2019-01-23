@@ -4,7 +4,7 @@ title: "_InlineInterlockedAdd64 function"
 author: windows-sdk-content
 description: Performs an atomic addition operation on the specified LONGLONG values.
 old-location: base\interlockedadd64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: ab37292f-4291-4cca-826c-d6488e141db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -81,7 +81,7 @@ The function returns the result of the operation.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="3d319603-ea9c-4fdd-ae61-e52430ccc3b1">_InterlockedAdd64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/51s265a6(v=VS.85).aspx">_InterlockedAdd64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -127,7 +127,7 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/e48b67a0-133b-4e88-b451-432f26b4881a">InterlockedExchangeAdd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a>
 
 
 

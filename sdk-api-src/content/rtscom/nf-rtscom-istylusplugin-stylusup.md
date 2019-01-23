@@ -118,13 +118,9 @@ The <i>cPropCountPerPkt</i> value is useful to help clarify the boundaries betwe
 
 The following C++ code example implements a <b>StylusUp</b> method that calls a helper function, <b>ModifyPacket</b>, to change the value of the X,Y data to make it fall within a specified rectangle. This is the same functionality that is implemented in the C# sample, <a href="https://msdn.microsoft.com/0ba753d1-d81a-4f7a-942c-2967c46febec">RealTimeStylus Plug-in Sample</a>. The second code snippet is the <b>ModifyPacket</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CPacketModifier::StylusUp( 
+
+```cpp
+STDMETHODIMP CPacketModifier::StylusUp( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPropCountPerPkt,
@@ -133,17 +129,13 @@ The following C++ code example implements a <b>StylusUp</b> method that calls a 
 {
 	return ModifyPacket(cPropCountPerPkt, pPacket, ppInOutPkt);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Helper method to modify a single packet
+
+```
+
+
+
+```cpp
+// Helper method to modify a single packet
 // Called from StylusDown() and StylusUp()
 HRESULT CPacketModifier::ModifyPacket(
             /* [in] */ ULONG cPropCountPerPkt,
@@ -157,7 +149,7 @@ HRESULT CPacketModifier::ModifyPacket(
 	// other properties follow
 	ULONG iOtherProps = 2;
 
-	if (cPropCountPerPkt &gt; 0)
+	if (cPropCountPerPkt > 0)
 	{
 		pTempOutPkt = (LONG*)CoTaskMemAlloc(sizeof(LONG)*cPropCountPerPkt);
 
@@ -171,10 +163,10 @@ HRESULT CPacketModifier::ModifyPacket(
 			// its X,Y values fall outside of the specified rectangle.
 			// If so, replace them with the nearest point that still
 			// falls within the rectangle.
-			x = (x &lt; m_filterRect.left ? m_filterRect.left : x);
-			x = (x &gt; m_filterRect.right ? m_filterRect.right : x);
-			y = (y &lt; m_filterRect.top ? m_filterRect.top : y);
-			y = (y &gt; m_filterRect.bottom ? m_filterRect.bottom : y);
+			x = (x < m_filterRect.left ? m_filterRect.left : x);
+			x = (x > m_filterRect.right ? m_filterRect.right : x);
+			y = (y < m_filterRect.top ? m_filterRect.top : y);
+			y = (y > m_filterRect.bottom ? m_filterRect.bottom : y);
 
 			// If necessary, modify the x,y packet data
 			if ((x != pPacket[0]) || (y != pPacket[1]))
@@ -183,7 +175,7 @@ HRESULT CPacketModifier::ModifyPacket(
 				pTempOutPkt[1] = y;
 
 				// Copy the properties that we haven't modified
-				while (iOtherProps &lt; cPropCountPerPkt)
+				while (iOtherProps < cPropCountPerPkt)
 				{
 					pTempOutPkt[iOtherProps] = pPacket[iOtherProps++];
 				}
@@ -199,10 +191,10 @@ HRESULT CPacketModifier::ModifyPacket(
 
 	return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

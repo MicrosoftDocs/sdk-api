@@ -202,13 +202,9 @@ The debug layer will issue warnings in the following cases:
 The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::ResourceBarrier</b> as follows:
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>D3D12_VIEWPORT m_viewport;
+
+```cpp
+D3D12_VIEWPORT m_viewport;
 D3D12_RECT m_scissorRect;
 ComPtr<IDXGISwapChain3> m_swapChain;
 ComPtr<ID3D12Device> m_device;
@@ -220,19 +216,13 @@ ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
 ComPtr<ID3D12PipelineState> m_pipelineState;
 ComPtr<ID3D12GraphicsCommandList> m_commandList;
 UINT m_rtvDescriptorSize;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void D3D12HelloTriangle::PopulateCommandList()
+
+```cpp
+void D3D12HelloTriangle::PopulateCommandList()
 {
     // Command list allocators can only be reset when the associated 
     // command lists have finished execution on the GPU; apps should use 
@@ -267,10 +257,8 @@ UINT m_rtvDescriptorSize;
 
     ThrowIfFailed(m_commandList->Close());
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.

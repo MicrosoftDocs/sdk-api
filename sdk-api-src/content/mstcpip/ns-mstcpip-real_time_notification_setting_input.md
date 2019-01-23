@@ -88,7 +88,7 @@ The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b>  structure is supported on Windo
 
 
 
-<a href="https://msdn.microsoft.com/A008310D-D812-4DCD-A3F2-64FEEEB31DB8">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ553479(v=VS.85).aspx">REAL_TIME_NOTIFICATION_SETTING_OUTPUT</a>
 
 
 

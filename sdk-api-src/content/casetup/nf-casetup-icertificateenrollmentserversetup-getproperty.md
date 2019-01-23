@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>GetProperty</b> method retrieves a <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
+The <b>GetProperty</b> method retrieves a <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value for the Certificate Enrollment Web Service (CES) configuration.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>GetProperty</b> method retrieves a <a href="https://msdn.microsoft.com/9F
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration value that specifies the property value to retrieve. For more information, see Remarks.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration value that specifies the property value to retrieve. For more information, see Remarks.
 
 
 ### -param pPropertyValue [out]
@@ -82,7 +82,7 @@ A pointer to a <b>VARIANT</b> variable that contains the property value.
 </dl>
 </td>
 <td width="60%">
-The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration type.
+The <i>propertyId</i> argument is not a member of the <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration type.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ The <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">Er
 
 
 
-The <a href="https://msdn.microsoft.com/9FA6B249-B5B3-40AF-B175-CD5933D468B9">CESSetupProperty</a> enumeration type contains the following values:<ul>
+The <a href="https://msdn.microsoft.com/en-us/library/Ff808361(v=VS.85).aspx">CESSetupProperty</a> enumeration type contains the following values:<ul>
 <li><b>ENUM_CESSETUPPROP_USE_IISAPPPOOLIDENTITY</b></li>
 <li><b>ENUM_CESSETUPPROP_CACONFIG</b></li>
 <li><b>ENUM_CESSETUPPROP_AUTHENTICATION</b></li>

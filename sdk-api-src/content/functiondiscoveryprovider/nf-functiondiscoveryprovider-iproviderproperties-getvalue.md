@@ -4,7 +4,7 @@ title: IProviderProperties::GetValue
 author: windows-sdk-content
 description: Gets the value of the specified property key.
 old-location: ncd\iproviderproperties_getvalue_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

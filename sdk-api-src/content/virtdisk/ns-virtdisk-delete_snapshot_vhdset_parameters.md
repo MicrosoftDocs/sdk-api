@@ -61,7 +61,7 @@ Contains snapshot deletion parameters, designating which snapshot to delete from
 
 ### -field Version
 
-A value from the <a href="https://msdn.microsoft.com/D92039E2-775F-4A77-83AA-5681A1A67835">DELETE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union.
+A value from the <a href="https://msdn.microsoft.com/en-us/library/Mt414215(v=VS.85).aspx">DELETE_SNAPSHOT_VHDSET_VERSION</a> enumeration that is the discriminant for the union.
 
 
 ### -field Version1

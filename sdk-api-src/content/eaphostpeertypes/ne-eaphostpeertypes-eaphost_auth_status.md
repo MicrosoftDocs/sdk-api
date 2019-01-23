@@ -101,7 +101,7 @@ The EAP authentication session completed successfully, but authentication failed
 
 
 
-<a href="https://msdn.microsoft.com/b05a1862-9709-4459-a445-5ea4e00cab88">EAPHOST_AUTH_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363582(v=VS.85).aspx">EAPHOST_AUTH_INFO</a>
 
 
 
@@ -109,7 +109,7 @@ The EAP authentication session completed successfully, but authentication failed
 
 
 
-<a href="https://msdn.microsoft.com/adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc">EapHostPeerAuthParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363548(v=VS.85).aspx">EapHostPeerAuthParams</a>
 
 
 

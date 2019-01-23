@@ -4,7 +4,7 @@ title: InterlockedDecrement16 function
 author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
 old-location: base\interlockeddecrement16.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 64fbfe37-fce5-4d96-aecb-3850d1edd34e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -50,7 +50,7 @@ req.redist:
 
 Decrements (decreases by one) the value of the specified 16-bit variable as an atomic operation.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a> function.
+To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/en-us/library/ms683580(v=VS.85).aspx">InterlockedDecrement</a> function.
 
 To operate on 64-bit values, use the <a href="https://msdn.microsoft.com/073b42ba-90dd-48a1-9661-9b1686c09561">InterlockedDecrement64</a> function.
 
@@ -84,7 +84,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 16-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="5268fce3-86b5-4b2b-b96c-2e531a3fb9b5">_InterlockedDecrement16</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/f24ya7ct(v=VS.85).aspx">_InterlockedDecrement16</a>.
 
 This function generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -102,7 +102,7 @@ This function generates a full memory barrier (or fence) to ensure that memory o
 
 
 
-<a href="https://msdn.microsoft.com/d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3">InterlockedDecrement</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683580(v=VS.85).aspx">InterlockedDecrement</a>
 
 
 

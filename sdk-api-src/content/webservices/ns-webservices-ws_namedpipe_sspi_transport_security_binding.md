@@ -84,5 +84,5 @@ The <a href="https://msdn.microsoft.com/6c0663e8-ae73-41a2-9273-50f53534926b">ba
 
 ### -field clientCredential
 
-The <a href="https://msdn.microsoft.com/78df2636-439b-4e55-8ca5-dc0f4f4ad745">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
+The <a href="https://msdn.microsoft.com/en-us/library/Dd323506(v=VS.85).aspx">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server. 
 

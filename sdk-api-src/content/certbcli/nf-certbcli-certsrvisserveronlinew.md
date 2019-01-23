@@ -87,13 +87,9 @@ This function's name in Certadm.dll is <b>CertSrvIsServerOnlineW</b>. You must u
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVISSERVERONLINEW* pfnOnline = NULL;
+
+```cpp
+FNCERTSRVISSERVERONLINEW* pfnOnline = NULL;
 char * szOnlineFunc = "CertSrvIsServerOnlineW";
 BOOL       bOnline = 0;
 HRESULT    hr = 0;
@@ -111,7 +107,7 @@ if ( NULL == pfnOnline )
 }
 
 // Call the function; wszServer was set earlier to the server name.
-hr = pfnOnline(wszServer, &amp;bOnline);
+hr = pfnOnline(wszServer, &bOnline);
 if (FAILED(hr))
 {
     printf("Failed pfnOnline, hr=%x, err=%d\n",
@@ -122,10 +118,10 @@ if (FAILED(hr))
 
 // Display the online status.
 printf("Server is %s\n", 
-       (bOnline ? "Online" : "Suspended" ));</pre>
-</td>
-</tr>
-</table></span></div>
+       (bOnline ? "Online" : "Suspended" ));
+```
+
+
 
 
 

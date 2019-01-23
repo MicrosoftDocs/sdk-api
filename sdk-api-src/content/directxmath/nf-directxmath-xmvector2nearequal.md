@@ -86,17 +86,11 @@ Returns true if the difference between components is less than <i>Epsilon</i>; r
 
 The following pseudocode demonstrates the operation of the function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>return ( ( abs( V1.x - V2.x ) <= Epsilon ) && 
-         ( abs( V1.y - V2.y ) <= Epsilon ) );</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+return ( ( abs( V1.x - V2.x ) <= Epsilon ) && 
+         ( abs( V1.y - V2.y ) <= Epsilon ) );
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

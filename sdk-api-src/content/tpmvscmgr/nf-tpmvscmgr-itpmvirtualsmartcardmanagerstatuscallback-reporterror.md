@@ -59,7 +59,7 @@ Reports any errors from the requested operation.
 
 ### -param Error [in]
 
-Error code of the current error from the possible errors listed in the <a href="https://msdn.microsoft.com/0B8A5703-DA7C-4FD6-A39E-BA2CE172ADF9">TPMVSCMGR_ERROR</a> enumeration.
+Error code of the current error from the possible errors listed in the <a href="https://msdn.microsoft.com/en-us/library/Hh707172(v=VS.85).aspx">TPMVSCMGR_ERROR</a> enumeration.
 
 
 ## -returns

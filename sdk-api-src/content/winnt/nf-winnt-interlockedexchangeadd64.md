@@ -4,7 +4,7 @@ title: InterlockedExchangeAdd64 function
 author: windows-sdk-content
 description: Performs an atomic addition of two 64-bit values.
 old-location: base\interlockedexchangeadd64.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: f8cab5f8-8054-4c02-9a6d-80fd9d98cf74
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -50,7 +50,7 @@ req.redist:
 
 Performs an atomic addition of two 64-bit values.
 
-To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/e48b67a0-133b-4e88-b451-432f26b4881a">InterlockedExchangeAdd</a> function.
+To operate on 32-bit values, use the <a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a> function.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ The variables for this function must be aligned on a 64-bit boundary; otherwise,
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="25809e1f-9c60-4492-9f7c-0fb59c8d13d2">_InterlockedExchangeAdd64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/191ca0sk(v=VS.85).aspx">_InterlockedExchangeAdd64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
@@ -108,15 +108,15 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-<a href="https://msdn.microsoft.com/c0da780c-5fd0-4c88-a283-8d057db812ac">InterlockedCompareExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683560(v=VS.85).aspx">InterlockedCompareExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/22142195-b592-4a7b-9b23-e31984cc1d41">InterlockedExchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683590(v=VS.85).aspx">InterlockedExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/e48b67a0-133b-4e88-b451-432f26b4881a">InterlockedExchangeAdd</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683597(v=VS.85).aspx">InterlockedExchangeAdd</a>
 
 
 

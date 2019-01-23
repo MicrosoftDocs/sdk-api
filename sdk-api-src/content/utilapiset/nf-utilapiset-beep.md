@@ -114,17 +114,13 @@ In Windows 7,  <b>Beep</b> was rewritten to pass the beep to the default sound 
 
 The following example demonstrates the use of this function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Beep( 750, 300 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+Beep( 750, 300 );
+
+```
+
+
 
 
 

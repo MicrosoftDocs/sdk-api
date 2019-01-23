@@ -70,7 +70,7 @@ VCP code to query. The VCP codes are Include the VESA Monitor Control Command Se
 
 ### -param pvct [out]
 
-Receives the VCP code type, as a member of the <a href="https://msdn.microsoft.com/2ccfd6d0-7885-45b7-b44f-edefa320b881">MC_VCP_CODE_TYPE</a> enumeration. This parameter can be <b>NULL</b>.
+Receives the VCP code type, as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd692961(v=VS.85).aspx">MC_VCP_CODE_TYPE</a> enumeration. This parameter can be <b>NULL</b>.
           
 
 

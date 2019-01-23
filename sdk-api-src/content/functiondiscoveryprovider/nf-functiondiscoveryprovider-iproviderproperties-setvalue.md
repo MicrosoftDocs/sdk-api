@@ -4,7 +4,7 @@ title: IProviderProperties::SetValue
 author: windows-sdk-content
 description: Sets the value of the specified property key.
 old-location: ncd\iproviderproperties_setvalue.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: 5aa3e6a3-febc-4d2d-b58b-abfad28d325d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

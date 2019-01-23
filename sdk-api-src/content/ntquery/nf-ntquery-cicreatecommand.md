@@ -154,25 +154,21 @@ A pointer to a null-terminated string that specifies the name of the machine on 
 
 This example creates an <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommand</a> interface for the system catalog on the local machine.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ICommand * pICommand;
-HRESULT hr = CICreateCommand( (IUnknown **) &amp;pICommand, 0, IID_ICommand, L"system", L"." );
+
+```
+ICommand * pICommand;
+HRESULT hr = CICreateCommand( (IUnknown **) &pICommand, 0, IID_ICommand, L"system", L"." );
 if ( SUCCEEDED( hr ) )
 {
     // ...
     // execute one or more queries with the ICommand
     // ...
-    pICommand-&gt;Release();
+    pICommand->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

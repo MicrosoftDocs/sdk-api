@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Contains virtual hard disk (VHD) information to use when you call the <a href="https://msdn.microsoft.com/bd4bee14-6812-4a28-8c44-2b8e8d42e697">SetVirtualDiskInformation</a> function to set VHD properties.
+Contains virtual hard disk (VHD) information to use when you call the <a href="https://msdn.microsoft.com/en-us/library/Dd323685(v=VS.85).aspx">SetVirtualDiskInformation</a> function to set VHD properties.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ Contains virtual hard disk (VHD) information to use when you call the <a href="h
 
 ### -field Version
 
-A <a href="https://msdn.microsoft.com/c9dd9d64-f96b-48f0-bc85-2f81ea3e2cb5">SET_VIRTUAL_DISK_INFO_VERSION</a> 
+A <a href="https://msdn.microsoft.com/en-us/library/Dd323687(v=VS.85).aspx">SET_VIRTUAL_DISK_INFO_VERSION</a> 
       enumeration that specifies the version of the 
       <b>SET_VIRTUAL_DISK_INFO</b> structure being passed to or 
       from the VHD functions. This determines the type of information set.

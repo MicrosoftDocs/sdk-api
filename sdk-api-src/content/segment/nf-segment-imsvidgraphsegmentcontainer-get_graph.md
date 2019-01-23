@@ -81,27 +81,23 @@ The returned <a href="https://msdn.microsoft.com/en-us/library/Dd390085(v=VS.85)
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-CComQIPtr&lt;IMSVidGraphSegmentContainer&gt; pSeg(m_pVideoControl);
+
+```cpp
+
+CComQIPtr<IMSVidGraphSegmentContainer> pSeg(m_pVideoControl);
 if (pSeg)
 {
-    CComPtr&lt;IGraphBuilder&gt; pGraph;
-    hr = pSeg-&gt;get_Graph(&amp;pGraph);
+    CComPtr<IGraphBuilder> pGraph;
+    hr = pSeg->get_Graph(&pGraph);
     if (SUCCEEDED(hr))
     {
         // Use IGraphBuilder::EnumFilters to enumerate the filters.
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

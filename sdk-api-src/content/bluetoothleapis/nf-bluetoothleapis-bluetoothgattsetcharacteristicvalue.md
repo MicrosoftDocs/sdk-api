@@ -446,30 +446,26 @@ The parent characteristic is returned from a previous call to <a href="https://m
 
 <b>Example</b>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 BTH_LE_GATT_CHARACTERISTIC_VALUE newValue;
 
-RtlZeroMemory(&amp;newValue,(sizeof(newValue)));
+RtlZeroMemory(&newValue,(sizeof(newValue)));
 
 newValue.DataSize = sizeof(valueData);
-newValue.Data = (UCHAR*)&amp;valueData;
+newValue.Data = (UCHAR*)&valueData;
 
 // Set the new characteristic value
 hr = BluetoothGATTSetCharacteristicValue(hDevice,
                                     parentCharacteristic,
-                                    &amp;newValue,
+                                    &newValue,
                                     NULL,
                                     BLUETOOTH_GATT_FLAG_NONE);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

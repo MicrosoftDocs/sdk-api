@@ -63,7 +63,7 @@ A pointer to an <a href="https://msdn.microsoft.com/383f1e11-2e40-45e6-8c55-a23d
 
 ### -param pEapInfo [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/fb15d5d0-f27b-4249-bf6f-afc67f6ae7dc">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363943(v=VS.85).aspx">EAP_PEER_METHOD_ROUTINES</a> structure that contains the function pointers to EAP method-specific implementations of the APIs that correspond to supplicant calls made to the peer-based EAPHost.
 
 
 ### -param ppEapError [out]

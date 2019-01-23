@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Sets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="https://msdn.microsoft.com/0ea30e0f-f32b-4a38-9591-27cb1fe7f234">XPS_GLYPH_INDEX</a> structures.
+Sets an array of <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="https://msdn.microsoft.com/en-us/library/Dd372958(v=VS.85).aspx">XPS_GLYPH_INDEX</a> structures.
 
 
 
@@ -60,12 +60,12 @@ Sets an array of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99
 
 ### -param glyphMappingCount [in]
 
-The number of <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures in the array that is referenced by <i>glyphMappings</i>. A value of 0 clears the property.
+The number of <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structures in the array that is referenced by <i>glyphMappings</i>. A value of 0 clears the property.
 
 
 ### -param glyphMappings [in]
 
-An  <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structure array that contains the glyph mapping values. If <i>glyphMappingCount</i> is 0, this parameter is ignored and can be set to <b>NULL</b>.
+An  <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structure array that contains the glyph mapping values. If <i>glyphMappingCount</i> is 0, this parameter is ignored and can be set to <b>NULL</b>.
 
 
 ## -returns
@@ -97,7 +97,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-A member of one or more <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures has a value that  is not valid. This can occur in the following cases: the sum of string length and start position is less than the start position; the sum of index position and index length is less than the start position; and length of indices is 0.
+A member of one or more <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structures has a value that  is not valid. This can occur in the following cases: the sum of string length and start position is less than the start position; the sum of index position and index length is less than the start position; and length of indices is 0.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ A member of one or more <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-9
 </dl>
 </td>
 <td width="60%">
-In one or more <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a> structures, an element  is out of sequence.
+In one or more <a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a> structures, an element  is out of sequence.
 
 
 </td>
@@ -147,7 +147,7 @@ In one or more <a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec
 
 
 
-<a href="https://msdn.microsoft.com/5cc76cba-66e4-4853-969b-a99ec7bb22f3">XPS_GLYPH_MAPPING</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372959(v=VS.85).aspx">XPS_GLYPH_MAPPING</a>
  
 
  

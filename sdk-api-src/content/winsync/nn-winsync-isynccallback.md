@@ -82,7 +82,7 @@ Occurs before a change is applied.
 <a href="https://msdn.microsoft.com/439f2a73-b36c-4604-b739-9f9b68275ac5">OnConflict</a>
 </td>
 <td align="left" width="63%">
-Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://msdn.microsoft.com/4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4">CRP_NONE</a>.
+Occurs when a conflict is detected when the concurrency conflict resolution policy is set to <a href="https://msdn.microsoft.com/en-us/library/Dd316936(v=VS.85).aspx">CRP_NONE</a>.
 
 
 </td>
@@ -125,7 +125,7 @@ Occurs when a synchronization provider sets a recoverable error while it is load
 
 
 
-<a href="https://msdn.microsoft.com/4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4">CONFLICT_RESOLUTION_POLICY Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd316936(v=VS.85).aspx">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
 
 

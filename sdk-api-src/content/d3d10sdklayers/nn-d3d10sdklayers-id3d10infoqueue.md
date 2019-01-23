@@ -391,20 +391,16 @@ Set a boolean that turns the debug output on or off.
 
 This interface is obtained by turning on the <a href="https://msdn.microsoft.com/en-us/library/Bb205068(v=VS.85).aspx">debug layer</a> and querying it from the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a> using <a href="http://msdn.microsoft.com/en-us/library/ms682521(VS.85).aspx">IUnknown::QueryInterface</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>hr = D3D10CreateDeviceAndSwapChain( NULL, g_driverType, NULL, D3D10_CREATE_DEVICE_DEBUG, D3D10_SDK_VERSION, &amp;sd, &amp;g_pSwapChain, &amp;g_pd3dDevice );
+
+```
+hr = D3D10CreateDeviceAndSwapChain( NULL, g_driverType, NULL, D3D10_CREATE_DEVICE_DEBUG, D3D10_SDK_VERSION, &sd, &g_pSwapChain, &g_pd3dDevice );
 ...
 ID3D10InfoQueue * infoQueue;
-g_pd3dDevice-&gt;QueryInterface(__uuidof(ID3D10InfoQueue),  (void **)&amp;infoQueue); 
-</pre>
-</td>
-</tr>
-</table></span></div>
+g_pd3dDevice->QueryInterface(__uuidof(ID3D10InfoQueue),  (void **)&infoQueue); 
+
+```
+
+
 
 
 

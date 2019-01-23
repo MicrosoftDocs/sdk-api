@@ -74,7 +74,7 @@ Size of pbPFX in bytes.
 
 ### -param ImportFlags [in]
 
-One or more <a href="security.importpfxflags">ImportPFXFlag</a> values.
+One or more <a href="https://msdn.microsoft.com/en-us/library/Mt832769(v=VS.85).aspx">ImportPFXFlag</a> values.
 
 
 ### -param pwszPassword [in, optional]

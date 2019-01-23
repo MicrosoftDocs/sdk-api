@@ -88,23 +88,19 @@ This method allocates sufficient memory for the column name, but the caller must
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPWSTR pszColumn;
-m_pSearch-&gt;GetFirstRow( hSearch );
+
+```cpp
+LPWSTR pszColumn;
+m_pSearch->GetFirstRow( hSearch );
 printf("Column names are: ");
-while( m_pSearch-&gt;GetNextColumnName( hSearch, &amp;pszColumn ) != S_ADS_NOMORE_COLUMNS )
+while( m_pSearch->GetNextColumnName( hSearch, &pszColumn ) != S_ADS_NOMORE_COLUMNS )
 {
    printf("%S ", pszColumn );
    FreeADsMem( pszColumn );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -78,11 +78,11 @@ Closed captioning on.
 
 
 
-<a href="https://msdn.microsoft.com/c88d2328-0338-4c0b-b719-8501bcbb8a69">IAMLine21Decoder::GetServiceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd389392(v=VS.85).aspx">IAMLine21Decoder::GetServiceState</a>
 
 
 
-<a href="https://msdn.microsoft.com/009e7d14-5946-42f0-8832-7fd8c565a877">IAMLine21Decoder::SetServiceState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd319637(v=VS.85).aspx">IAMLine21Decoder::SetServiceState</a>
  
 
  

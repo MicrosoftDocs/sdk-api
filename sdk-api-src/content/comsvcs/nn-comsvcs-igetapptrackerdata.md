@@ -68,7 +68,7 @@ The <b>IGetAppTrackerData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/37be49c6-b23c-4215-8332-07f6d3eea912">GetApplicationProcessDetails</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd198157(v=VS.85).aspx">GetApplicationProcessDetails</a>
 </td>
 <td align="left" width="63%">
 Retrieves detailed information about a single process hosting COM+ applications.

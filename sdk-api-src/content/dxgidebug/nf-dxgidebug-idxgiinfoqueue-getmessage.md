@@ -95,24 +95,20 @@ This method gets a message from the message queue after an optional retrieval fi
 
 Call this method twice to retrieve a message, first to obtain the size of the message and second to get the message. Here is a typical example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // Get the size of the message.
 SIZE_T messageLength = 0;
-HRESULT hr = pInfoQueue-&gt;GetMessage(DXGI_DEBUG_ALL, 0, NULL, &amp;messageLength);
+HRESULT hr = pInfoQueue->GetMessage(DXGI_DEBUG_ALL, 0, NULL, &messageLength);
 
 // Allocate space and get the message.
 DXGI_INFO_QUEUE_MESSAGE * pMessage = (DXGI_INFO_QUEUE_MESSAGE*)malloc(messageLength);
-hr = pInfoQueue-&gt;GetMessage(DXGI_DEBUG_ALL, 0, pMessage, &amp;messageLength);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pInfoQueue->GetMessage(DXGI_DEBUG_ALL, 0, pMessage, &messageLength);
+
+```
+
+
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.</div>
 <div> </div>
 

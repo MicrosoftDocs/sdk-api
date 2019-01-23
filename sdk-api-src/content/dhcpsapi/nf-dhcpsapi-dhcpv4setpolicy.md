@@ -63,7 +63,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param FieldsModified [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Hh404384(v=VS.85).aspx">DHCP_POLICY_FIELDS_TO_UPDATE</a> enumeration that defines the DHCPv4 policy fields to modify.
+A value from the <a href="https://msdn.microsoft.com/5ce80514-ad63-44dd-9b9b-36679a97488b">DHCP_POLICY_FIELDS_TO_UPDATE</a> enumeration that defines the DHCPv4 policy fields to modify.
 
 
 ### -param fGlobalPolicy [in]

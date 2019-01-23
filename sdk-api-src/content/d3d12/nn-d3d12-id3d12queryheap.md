@@ -65,61 +65,52 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 
 Create a query heap and a query result buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Pipeline objects.
+
+```cpp
+// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
 D3D12_RECT m_scissorRect;
-ComPtr&lt;IDXGISwapChain3&gt; m_swapChain;
-ComPtr&lt;ID3D12Device&gt; m_device;
-ComPtr&lt;ID3D12Resource&gt; m_renderTargets[FrameCount];
-ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocators[FrameCount];
-ComPtr&lt;ID3D12CommandQueue&gt; m_commandQueue;
-ComPtr&lt;ID3D12RootSignature&gt; m_rootSignature;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_rtvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_cbvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_dsvHeap;
-ComPtr&lt;ID3D12QueryHeap&gt; m_queryHeap;
+ComPtr<IDXGISwapChain3> m_swapChain;
+ComPtr<ID3D12Device> m_device;
+ComPtr<ID3D12Resource> m_renderTargets[FrameCount];
+ComPtr<ID3D12CommandAllocator> m_commandAllocators[FrameCount];
+ComPtr<ID3D12CommandQueue> m_commandQueue;
+ComPtr<ID3D12RootSignature> m_rootSignature;
+ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
+ComPtr<ID3D12DescriptorHeap> m_cbvHeap;
+ComPtr<ID3D12DescriptorHeap> m_dsvHeap;
+ComPtr<ID3D12QueryHeap> m_queryHeap;
 UINT m_rtvDescriptorSize;
 UINT m_cbvSrvDescriptorSize;
 UINT m_frameIndex;
 
 // Synchronization objects.
-ComPtr&lt;ID3D12Fence&gt; m_fence;
+ComPtr<ID3D12Fence> m_fence;
 UINT64 m_fenceValues[FrameCount];
 HANDLE m_fenceEvent;
 
 // Asset objects.
-ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState;
-ComPtr&lt;ID3D12PipelineState&gt; m_queryState;
-ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
-ComPtr&lt;ID3D12Resource&gt; m_vertexBuffer;
-ComPtr&lt;ID3D12Resource&gt; m_constantBuffer;
-ComPtr&lt;ID3D12Resource&gt; m_depthStencil;
-ComPtr&lt;ID3D12Resource&gt; m_queryResult;
+ComPtr<ID3D12PipelineState> m_pipelineState;
+ComPtr<ID3D12PipelineState> m_queryState;
+ComPtr<ID3D12GraphicsCommandList> m_commandList;
+ComPtr<ID3D12Resource> m_vertexBuffer;
+ComPtr<ID3D12Resource> m_constantBuffer;
+ComPtr<ID3D12Resource> m_depthStencil;
+ComPtr<ID3D12Resource> m_queryResult;
 D3D12_VERTEX_BUFFER_VIEW m_vertexBufferView;
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Describe and create a heap for occlusion queries.
+
+```
+
+```cpp
+// Describe and create a heap for occlusion queries.
 D3D12_QUERY_HEAP_DESC queryHeapDesc = {};
 queryHeapDesc.Count = 1;
 queryHeapDesc.Type = D3D12_QUERY_HEAP_TYPE_OCCLUSION;
-ThrowIfFailed(m_device-&gt;CreateQueryHeap(&amp;queryHeapDesc, IID_PPV_ARGS(&amp;m_queryHeap)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+ThrowIfFailed(m_device->CreateQueryHeap(&queryHeapDesc, IID_PPV_ARGS(&m_queryHeap)));
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

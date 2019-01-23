@@ -81,11 +81,11 @@ Microsoft DirectComposition keeps a count of how many DirectComposition devices 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280378(v=VS.85).aspx">IDCompositionDeviceDebug</a>
+<a href="https://msdn.microsoft.com/B8D17570-9729-45DB-99E1-A2EBBDAA5996">IDCompositionDeviceDebug</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn280380(v=VS.85).aspx">IDCompositionDeviceDebug::EnableDebugCounters</a>
+<a href="https://msdn.microsoft.com/AA0E913F-D89F-4AF1-91DE-B57D0C016DB7">IDCompositionDeviceDebug::EnableDebugCounters</a>
  
 
  

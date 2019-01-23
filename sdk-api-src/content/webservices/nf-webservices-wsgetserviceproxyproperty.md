@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-This function retrieves a specified Service Proxy property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/en-us/library/Dd402001(v=VS.85).aspx">WS_PROXY_PROPERTY_ID</a> input parameter.
+This function retrieves a specified Service Proxy property.  The property to retrieve is identified by a  <a href="https://msdn.microsoft.com/d81944ae-74b9-4eee-b02f-5b1d5c99c358">WS_PROXY_PROPERTY_ID</a> input parameter.
             
 
 

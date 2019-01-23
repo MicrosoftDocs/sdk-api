@@ -63,7 +63,7 @@ Pointer to the <a href="https://msdn.microsoft.com/b5fc2b14-b0b6-4327-a42a-ecae4
 
 ### -param RecordContents [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/fd638a08-cff0-4984-8580-a1eecd509a1f">WINBIO_STORAGE_RECORD</a> structure that will receive the contents of the record.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd401662(v=VS.85).aspx">WINBIO_STORAGE_RECORD</a> structure that will receive the contents of the record.
 
 
 ## -returns
@@ -158,13 +158,9 @@ Calling the <i>StorageAdapterGetCurrentRecord</i> function does not change the r
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterGetCurrentRecord
 //
@@ -198,10 +194,10 @@ StorageAdapterGetCurrentRecord(
     }
 
     // Retrieve the context from the pipeline.
-    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
+    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
 
     // Verify the pipeline state.
-    if (storageContext == NULL || storageContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
+    if (storageContext == NULL || storageContext->FileHandle == INVALID_HANDLE_VALUE)
     {
         hr =  WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -211,49 +207,49 @@ StorageAdapterGetCurrentRecord(
     // contents of the current record in the result set. This function should
     // also return the file offset of the template data in the record.
     hr = _ResultSetGetCurrent(
-            &amp;storageContext-&gt;ResultSet,
-            &amp;recordHeader,
-            &amp;dataOffset
+            &storageContext->ResultSet,
+            &recordHeader,
+            &dataOffset
             );
     if (FAILED(hr))
     {
         goto cleanup;
     }
 
-    RecordContents-&gt;Identity = &amp;recordHeader-&gt;Identity;
-    RecordContents-&gt;SubFactor = recordHeader-&gt;SubFactor;
-    RecordContents-&gt;IndexVector = _GetIndexVector(recordHeader);
-    RecordContents-&gt;IndexElementCount = recordHeader-&gt;IndexElementCount;
+    RecordContents->Identity = &recordHeader->Identity;
+    RecordContents->SubFactor = recordHeader->SubFactor;
+    RecordContents->IndexVector = _GetIndexVector(recordHeader);
+    RecordContents->IndexElementCount = recordHeader->IndexElementCount;
 
     // Release any template data buffers created by previous calls to the
     // StorageAdapterGetCurrentRecord function. 
-    if (storageContext-&gt;RawRecordData != NULL)
+    if (storageContext->RawRecordData != NULL)
     {
-        _AdapterRelease(storageContext-&gt;RawRecordData);
-        storageContext-&gt;RawRecordData = NULL;
-        storageContext-&gt;PayloadBlob = NULL;
+        _AdapterRelease(storageContext->RawRecordData);
+        storageContext->RawRecordData = NULL;
+        storageContext->PayloadBlob = NULL;
     }
 
-    if (storageContext-&gt;DecryptedTemplate != NULL)
+    if (storageContext->DecryptedTemplate != NULL)
     {
         // You must call SecureZeroMemory to clear any memory that contains
         // a plaintext version of the template data.
         SecureZeroMemory(
-            storageContext-&gt;DecryptedTemplate, 
-            storageContext-&gt;DecryptedTemplateSize
+            storageContext->DecryptedTemplate, 
+            storageContext->DecryptedTemplateSize
             );
-        _AdapterRelease(storageContext-&gt;DecryptedTemplate);
-        storageContext-&gt;DecryptedTemplate = NULL;
-        storageContext-&gt;DecryptedTemplateSize = 0;
+        _AdapterRelease(storageContext->DecryptedTemplate);
+        storageContext->DecryptedTemplate = NULL;
+        storageContext->DecryptedTemplateSize = 0;
     }
 
     // Allocate a buffer for the template and payload portions of the record.
     allocationSize = 
-        recordHeader-&gt;EncryptedTemplateBlobSize + 
-        recordHeader-&gt;PayloadBlobSize;
+        recordHeader->EncryptedTemplateBlobSize + 
+        recordHeader->PayloadBlobSize;
 
-    storageContext-&gt;RawRecordData = (PUCHAR)_AdapterAlloc(allocationSize);
-    if (storageContext-&gt;RawRecordData == NULL)
+    storageContext->RawRecordData = (PUCHAR)_AdapterAlloc(allocationSize);
+    if (storageContext->RawRecordData == NULL)
     {
         hr = E_OUTOFMEMORY;
         goto cleanup;
@@ -262,11 +258,11 @@ StorageAdapterGetCurrentRecord(
     // Call a custom function (_ReadRecordData) that reads the non-header
     // portion of the record.
     hr = _ReadRecordData(
-            Pipeline-&gt;StorageHandle,
+            Pipeline->StorageHandle,
             dataOffset,
-            storageContext-&gt;RawRecordData,
+            storageContext->RawRecordData,
             (DWORD)allocationSize,
-            (PDWORD)&amp;storageContext-&gt;RawRecordDataSize
+            (PDWORD)&storageContext->RawRecordDataSize
             );
     if (FAILED(hr))
     {
@@ -276,11 +272,11 @@ StorageAdapterGetCurrentRecord(
     // Call a custom function (_DecryptTemplate) that decrypts the template 
     // data and stores a pointer to the plaintext version in the storage context.
     hr = _DecryptTemplate(
-            &amp;storageContext-&gt;CryptoContext,
-            storageContext-&gt;RawRecordData,
-            recordHeader-&gt;EncryptedTemplateBlobSize,
-            &amp;storageContext-&gt;DecryptedTemplate,
-            &amp;storageContext-&gt;DecryptedTemplateSize
+            &storageContext->CryptoContext,
+            storageContext->RawRecordData,
+            recordHeader->EncryptedTemplateBlobSize,
+            &storageContext->DecryptedTemplate,
+            &storageContext->DecryptedTemplateSize
             );
     if (FAILED(hr))
     {
@@ -289,55 +285,55 @@ StorageAdapterGetCurrentRecord(
 
     // Set up return values for the caller. These values will remain valid until
     // the next query or get operation.
-    RecordContents-&gt;TemplateBlob = storageContext-&gt;DecryptedTemplate;
-    RecordContents-&gt;TemplateBlobSize = recordHeader-&gt;TemplateBlobSize;
+    RecordContents->TemplateBlob = storageContext->DecryptedTemplate;
+    RecordContents->TemplateBlobSize = recordHeader->TemplateBlobSize;
 
-    if (recordHeader-&gt;PayloadBlobSize != 0)
+    if (recordHeader->PayloadBlobSize != 0)
     {
-        RecordContents-&gt;PayloadBlob = 
-            storageContext-&gt;RawRecordData + 
-            recordHeader-&gt;EncryptedTemplateBlobSize;
+        RecordContents->PayloadBlob = 
+            storageContext->RawRecordData + 
+            recordHeader->EncryptedTemplateBlobSize;
 
-        RecordContents-&gt;PayloadBlobSize = recordHeader-&gt;PayloadBlobSize;
+        RecordContents->PayloadBlobSize = recordHeader->PayloadBlobSize;
     }
     else
     {
-        RecordContents-&gt;PayloadBlob = NULL;
-        RecordContents-&gt;PayloadBlobSize = 0;
+        RecordContents->PayloadBlob = NULL;
+        RecordContents->PayloadBlobSize = 0;
     }
 
 cleanup:
 
     if (FAILED(hr))
     {
-        if (storageContext-&gt;RawRecordData != NULL)
+        if (storageContext->RawRecordData != NULL)
         {
             // Because the raw record data (including the payload blob) is
             // encrypted, it is not necessary to call SecureZeroMemory.
-            _AdapterRelease(storageContext-&gt;RawRecordData);
-            storageContext-&gt;RawRecordData = NULL;
-            storageContext-&gt;PayloadBlob = NULL;
+            _AdapterRelease(storageContext->RawRecordData);
+            storageContext->RawRecordData = NULL;
+            storageContext->PayloadBlob = NULL;
         }
-        if (storageContext-&gt;DecryptedTemplate != NULL)
+        if (storageContext->DecryptedTemplate != NULL)
         {
             // You must call SecureZeroMemory to clear the plaintext version 
             // of the template before releasing it.
             SecureZeroMemory(
-                storageContext-&gt;DecryptedTemplate, 
-                storageContext-&gt;DecryptedTemplateSize
+                storageContext->DecryptedTemplate, 
+                storageContext->DecryptedTemplateSize
                 );
-            _AdapterRelease(storageContext-&gt;DecryptedTemplate);
-            storageContext-&gt;DecryptedTemplate = NULL;
-            storageContext-&gt;DecryptedTemplateSize = 0;
+            _AdapterRelease(storageContext->DecryptedTemplate);
+            storageContext->DecryptedTemplate = NULL;
+            storageContext->DecryptedTemplateSize = 0;
         }
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

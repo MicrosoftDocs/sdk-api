@@ -151,13 +151,9 @@ CMyTextEditor
 
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask)
 {
         HRESULT         hr;
@@ -211,10 +207,8 @@ STDMETHODIMP CMyTextEditor::AdviseSink(REFIID riid, IUnknown *punk, DWORD dwMask
         return hr;
         
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

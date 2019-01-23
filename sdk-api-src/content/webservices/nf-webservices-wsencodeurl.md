@@ -153,7 +153,7 @@ This function may return other errors not listed above.
 
 
 If a scheme is not recognized in the <i>url</i> parameter the function returns WS_E_INVALID_FORMAT.  
-                Only scheme types identified in  <a href="https://msdn.microsoft.com/en-us/library/Dd323494(v=VS.85).aspx">WS_URL_SCHEME_TYPE</a> are supported.
+                Only scheme types identified in  <a href="https://msdn.microsoft.com/e8763719-6ba0-4e5e-bb71-625d36a45eaf">WS_URL_SCHEME_TYPE</a> are supported.
             
 
 

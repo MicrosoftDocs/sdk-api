@@ -101,16 +101,12 @@ If the extension-enumeration sequence is not referencing a valid extension, <b>G
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR  bstrExtName = NULL;
+
+```cpp
+BSTR  bstrExtName = NULL;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt-&gt;GetName(&amp;bstrExtName);
+hr = pEnumExt->GetName(&bstrExtName);
 if (S_OK == hr)
     printf("Extension name is: %ws\n", bstrExtName);
 else
@@ -118,10 +114,10 @@ else
 
 // free memory when done
 if (NULL != bstrExtName)
-    SysFreeString(bstrExtName);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrExtName);
+```
+
+
 
 
 

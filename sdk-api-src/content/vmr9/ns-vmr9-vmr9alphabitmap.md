@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>VMR9AlphaBitmap</b> structure is used with the <a href="https://msdn.microsoft.com/de48307a-3522-49a0-b0a5-73ce7cf90517">IVMRMixerBitmap9</a> interface when an application provides a static bitmap for alpha blending with the video frame.
+The <b>VMR9AlphaBitmap</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd390449(v=VS.85).aspx">IVMRMixerBitmap9</a> interface when an application provides a static bitmap for alpha blending with the video frame.
         
 
 
@@ -59,7 +59,7 @@ The <b>VMR9AlphaBitmap</b> structure is used with the <a href="https://msdn.micr
 
 ### -field dwFlags
 
-Bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/0b36dd8c-02c6-41f4-a916-205f2c74ea46">VMR9AlphaBitmapFlags</a> enumeration type.
+Bitwise <b>OR</b> of flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd407360(v=VS.85).aspx">VMR9AlphaBitmapFlags</a> enumeration type.
           
 
 
@@ -78,9 +78,9 @@ Pointer to the <b>IDirect3DSurface9</b> interface of a Direct3D surface that con
 
 Specifies the rectangle to copy from the source image. This rectangle is specified relative to the GDI device context or the DirectDraw surface.
 
-When calling <a href="https://msdn.microsoft.com/22aadb5b-8dc8-48ec-bff1-1bac498f3984">IVMRMixerBitmap9::SetAlphaBitmap</a>, the source rectangle must be valid if a GDI bitmap is specified in the <b>hdc</b> member. On the other hand, if a Direct3D surface is specified in the <b>pDDS</b> member, then you can either set <b>rSrc</b> to a valid rectangle, or use the entire surface by setting the VMR9AlphaBitmap_EntireDDS flag in <b>dwFlags</b>.
+When calling <a href="https://msdn.microsoft.com/en-us/library/Dd390451(v=VS.85).aspx">IVMRMixerBitmap9::SetAlphaBitmap</a>, the source rectangle must be valid if a GDI bitmap is specified in the <b>hdc</b> member. On the other hand, if a Direct3D surface is specified in the <b>pDDS</b> member, then you can either set <b>rSrc</b> to a valid rectangle, or use the entire surface by setting the VMR9AlphaBitmap_EntireDDS flag in <b>dwFlags</b>.
 
-When calling <a href="https://msdn.microsoft.com/89aa0212-9311-4f23-9f55-7e7a1072a19a">IVMRMixerBitmap9::UpdateAlphaBitmapParameters</a>, <b>rSrc</b> is always optional, and is used if <b>dwFlags</b> contains the VMR9AlphaBitmap_SrcRect flag.
+When calling <a href="https://msdn.microsoft.com/en-us/library/Dd390452(v=VS.85).aspx">IVMRMixerBitmap9::UpdateAlphaBitmapParameters</a>, <b>rSrc</b> is always optional, and is used if <b>dwFlags</b> contains the VMR9AlphaBitmap_SrcRect flag.
 
 
 ### -field rDest
@@ -103,7 +103,7 @@ Specifies the source color key. This value is used if the <b>dwFlags</b> member 
 
 ### -field dwFilterMode
 
-One of the following flags from the <a href="https://msdn.microsoft.com/59d3af89-248e-43cd-b6dc-e6c0a4d5f5fb">VMR9MixerPrefs</a> enumeration, or zero to specify no filtering.
+One of the following flags from the <a href="https://msdn.microsoft.com/en-us/library/Dd407366(v=VS.85).aspx">VMR9MixerPrefs</a> enumeration, or zero to specify no filtering.
 
 <table>
 <tr>

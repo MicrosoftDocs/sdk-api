@@ -87,7 +87,7 @@ The CRM Compensator should not depend on any state to be maintained between the 
 
 
 
-<a href="https://msdn.microsoft.com/9e5a8f2c-4115-42bd-a541-d0ce75c45b72">ICrmCompensator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685039(v=VS.85).aspx">ICrmCompensator</a>
  
 
  

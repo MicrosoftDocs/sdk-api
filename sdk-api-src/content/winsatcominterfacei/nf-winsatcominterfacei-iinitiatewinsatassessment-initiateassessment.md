@@ -159,16 +159,12 @@ WinSAT requires administrator privileges to run. If the user does not have admin
 
 The following example shows how to run an ad hoc assessment and receive notification of its progress.  
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;conio.h&gt;  // For kbhit()
-#include &lt;winsatcominterfacei.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <conio.h>  // For kbhit()
+#include <winsatcominterfacei.h>
 
 #pragma comment(lib, "ole32.lib")
 
@@ -216,12 +212,12 @@ HRESULT CWinSATCallbacks::QueryInterface(REFIID riid, LPVOID* ppvObj)
 
 ULONG CWinSATCallbacks::AddRef() 
 {
-    return InterlockedIncrement(&amp;m_lRefCount);
+    return InterlockedIncrement(&m_lRefCount);
 }
 
 ULONG CWinSATCallbacks::Release() 
 {
-    ULONG  ulCount = InterlockedDecrement(&amp;m_lRefCount);
+    ULONG  ulCount = InterlockedDecrement(&m_lRefCount);
 
     if(0 == ulCount) 
     {
@@ -270,7 +266,7 @@ void main(void)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           __uuidof(IInitiateWinSATAssessment),
-                          (void**)&amp;pAssessment);
+                          (void**)&pAssessment);
 
     if (FAILED(hr))
     {
@@ -296,7 +292,7 @@ void main(void)
     }
 
     // Run the formal assessment.
-    hr = pAssessment-&gt;InitiateAssessment(pCommand, pCallbacks, NULL);
+    hr = pAssessment->InitiateAssessment(pCommand, pCallbacks, NULL);
     if (FAILED(hr))
     {
         // This is a failure to start WinSAT. If WinSAT fails while running, 
@@ -326,10 +322,10 @@ void main(void)
 cleanup:
 
     if (pAssessment)
-        pAssessment-&gt;Release();
+        pAssessment->Release();
 
     if (pCallbacks)
-        pCallbacks-&gt;Release();
+        pCallbacks->Release();
 
     if (hConsole)
         CloseHandle(hConsole);
@@ -344,9 +340,9 @@ BOOL IsKeyEvent(HANDLE hStdIn)
     DWORD dwRecordsRead = 0;
     BOOL fKeyPress = FALSE;
 
-    if (ReadConsoleInput(hStdIn, Record, 128, &amp;dwRecordsRead))
+    if (ReadConsoleInput(hStdIn, Record, 128, &dwRecordsRead))
     {
-        for (DWORD i = 0; i &lt; dwRecordsRead; i++)
+        for (DWORD i = 0; i < dwRecordsRead; i++)
         {
             if (KEY_EVENT == Record[i].EventType)
             {
@@ -358,10 +354,10 @@ BOOL IsKeyEvent(HANDLE hStdIn)
 
     return fKeyPress;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -49,7 +49,7 @@ req.redist:
 ## -description
 
 
-Contains the version of the virtual hard disk (VHD) <a href="https://msdn.microsoft.com/67648a4d-3f66-407e-9036-c7072bc7e460">STORAGE_DEPENDENCY_INFO</a> structure to use in calls to VHD functions.
+Contains the version of the virtual hard disk (VHD) <a href="https://msdn.microsoft.com/en-us/library/Dd323688(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO</a> structure to use in calls to VHD functions.
 
 
 ## -enum-fields
@@ -64,12 +64,12 @@ The version is not specified.
 
 ### -field STORAGE_DEPENDENCY_INFO_VERSION_1
 
-Specifies <a href="https://msdn.microsoft.com/63296975-583d-415c-8c1f-f0cccfc5a1b3">STORAGE_DEPENDENCY_INFO_TYPE_1</a>.
+Specifies <a href="https://msdn.microsoft.com/en-us/library/Dd323689(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_1</a>.
 
 
 ### -field STORAGE_DEPENDENCY_INFO_VERSION_2
 
-Specifies <a href="https://msdn.microsoft.com/f3e57773-0008-4715-9136-a9b990beea58">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
+Specifies <a href="https://msdn.microsoft.com/en-us/library/Dd323690(v=VS.85).aspx">STORAGE_DEPENDENCY_INFO_TYPE_2</a>.
 
 
 ## -see-also

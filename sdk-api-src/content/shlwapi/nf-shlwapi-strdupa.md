@@ -94,15 +94,11 @@ This function uses <a href="https://msdn.microsoft.com/da8cd2be-ff4c-4da5-813c-8
 
 This simple console application illustrates the use of <b>StrDup</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;shlwapi.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <shlwapi.h>
+#include <stdio.h>
 
 void main(void)
 {
@@ -123,9 +119,9 @@ void main(void)
 OUTPUT:
 - - - - - - 
 Original: This is the buffer text
-Copy:     This is the buffer text</pre>
-</td>
-</tr>
-</table></span></div>
+Copy:     This is the buffer text
+```
+
+
 
 

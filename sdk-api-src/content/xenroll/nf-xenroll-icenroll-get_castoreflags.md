@@ -92,13 +92,9 @@ The <b>CAStoreFlags</b> property affects the behavior of the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD    dwFlags;
+
+```cpp
+DWORD    dwFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -115,10 +111,8 @@ hr = pEnroll->put_CAStoreFlags( CERT_SYSTEM_STORE_LOCAL_MACHINE );
 if ( FAILED ( hr ) )
     printf("Failed updating CAStoreFlags - %x\n", hr );
 else
-    printf("Updated CAStoreFlags\n");</pre>
-</td>
-</tr>
-</table></span></div>
+    printf("Updated CAStoreFlags\n");
+```
 
 
 

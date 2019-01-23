@@ -180,7 +180,7 @@ Predication state.
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/ef68ea4a-5648-426b-8e45-ea801ade13f2">D3D10StateBlockMaskDisableCapture</a>, <a href="https://msdn.microsoft.com/85e4a56d-016b-42e3-9ec8-b279fd4bd95b">D3D10StateBlockMaskEnableCapture</a>, and <a href="https://msdn.microsoft.com/01bf6437-71f5-455a-8028-1df203b33759">D3D10StateBlockMaskGetSetting</a>.
+This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb205104(v=VS.85).aspx">D3D10StateBlockMaskDisableCapture</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb205106(v=VS.85).aspx">D3D10StateBlockMaskEnableCapture</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb205107(v=VS.85).aspx">D3D10StateBlockMaskGetSetting</a>.
 
 
 
@@ -190,7 +190,7 @@ This enumeration is used by <a href="https://msdn.microsoft.com/ef68ea4a-5648-42
 
 
 
-<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
  
 
  

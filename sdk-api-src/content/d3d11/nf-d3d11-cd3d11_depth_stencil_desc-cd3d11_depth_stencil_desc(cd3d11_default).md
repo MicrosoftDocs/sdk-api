@@ -72,13 +72,9 @@ TBD
 
 Here are the default depth-stencil-state values for the members of <a href="https://msdn.microsoft.com/5e136ca8-8655-4c75-9bc0-bcf3a7af930a">D3D11_DEPTH_STENCIL_DESC</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DepthEnable = TRUE;
+
+```
+DepthEnable = TRUE;
         DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ALL;
         DepthFunc = D3D11_COMPARISON_LESS;
         StencilEnable = FALSE;
@@ -88,10 +84,10 @@ Here are the default depth-stencil-state values for the members of <a href="http
         { D3D11_STENCIL_OP_KEEP, D3D11_STENCIL_OP_KEEP, D3D11_STENCIL_OP_KEEP, D3D11_COMPARISON_ALWAYS };
         FrontFace = defaultStencilOp;
         BackFace = defaultStencilOp;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

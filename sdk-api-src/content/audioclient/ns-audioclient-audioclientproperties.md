@@ -96,7 +96,7 @@ Starting with Windows 10, hardware-offloaded audio streams must be event driven
 
 
 
-<a href="https://msdn.microsoft.com/B6B9195A-2704-4633-AFCF-B01CED6B6DB4">AUDIO_STREAM_CATEGORY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404178(v=VS.85).aspx">AUDIO_STREAM_CATEGORY</a>
 
 
 

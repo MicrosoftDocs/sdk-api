@@ -322,13 +322,9 @@ The calling application gets called through the registered callback function as 
 
 This callback function supersedes the <i>PSYMBOL_REGISTERED_CALLBACK</i> callback function.  <i>PSYMBOL_REGISTERED_CALLBACK</i> is defined as follows in Dbghelp.h.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define PSYMBOL_REGISTERED_CALLBACK PSYMBOL_REGISTERED_CALLBACK64
 #else
 typedef BOOL
@@ -338,10 +334,10 @@ typedef BOOL
     __in_opt PVOID CallbackData,
     __in_opt PVOID UserContext
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 For a more extensive example, read <a href="https://msdn.microsoft.com/1dd8af0e-280b-4fc4-bf75-45c5c7517365">Getting Notifications</a>.
 
 

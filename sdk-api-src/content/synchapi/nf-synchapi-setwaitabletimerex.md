@@ -4,7 +4,7 @@ title: SetWaitableTimerEx function
 author: windows-sdk-content
 description: Activates the specified waitable timer and provides context information for the timer. When the due time arrives, the timer is signaled and the thread that set the timer calls the optional completion routine.
 old-location: base\setwaitabletimerex.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 2facde72-6e04-4a2f-9ee6-059f36932539
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -64,18 +64,18 @@ This attribute value indicates that the <i>puInteger</i> parameter of the <a hre
 
 ### -field WCN_TYPE_ASSOCIATION_STATE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is a value containing the association   state or configuration information defined by <a href="https://msdn.microsoft.com/0e225d34-d58e-49ae-8642-7070e3906fb3">WCN_VALUE_TYPE_ASSOCIATION_STATE</a>.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is a value containing the association   state or configuration information defined by <a href="https://msdn.microsoft.com/en-us/library/Dd941808(v=VS.85).aspx">WCN_VALUE_TYPE_ASSOCIATION_STATE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATION_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is a value containing an authentication type defined by <a href="https://msdn.microsoft.com/fb69c89e-ab4b-4382-9bab-889552136da4">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is a value containing an authentication type defined by <a href="https://msdn.microsoft.com/en-us/library/Dd941809(v=VS.85).aspx">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATION_TYPE_FLAGS
 
 This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is a value containing  data that specifies the network authentication capabilities of the Enrollee (access point or station) by providing a
- value defined by <a href="https://msdn.microsoft.com/fb69c89e-ab4b-4382-9bab-889552136da4">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
+ value defined by <a href="https://msdn.microsoft.com/en-us/library/Dd941809(v=VS.85).aspx">WCN_VALUE_TYPE_AUTHENTICATION_TYPE</a>.
 
 
 ### -field WCN_TYPE_AUTHENTICATOR
@@ -94,7 +94,7 @@ is used to control the configuration methods that are enabled on the access poin
 
 ### -field WCN_TYPE_CONFIGURATION_ERROR
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is a value, defined by <a href="https://msdn.microsoft.com/52653dd0-d563-4a3d-a461-d38ea0e327a7">WCN_VALUE_TYPE_CONFIGURATION_ERROR</a>, that specifies the result of the device attempting to configure itself and associate with the WLAN.
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is a value, defined by <a href="https://msdn.microsoft.com/en-us/library/Dd941811(v=VS.85).aspx">WCN_VALUE_TYPE_CONFIGURATION_ERROR</a>, that specifies the result of the device attempting to configure itself and associate with the WLAN.
 
 If a configuration session fails with the error code WCN_E_CONNECTION_REJECTED, any error code returned by the remote device can be obtained by querying this attribute. It is important to note that some devices will return WCN_VALUE_CE_NO_ERROR even if an error has occurred.
 
@@ -154,7 +154,7 @@ would be a unique identifier that describes the product in a way that is recogni
 
 ### -field WCN_TYPE_DEVICE_PASSWORD_ID
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://msdn.microsoft.com/3642bb5d-ef19-4ff3-a8bc-b0f01ad197ce">WCN VALUE TYPE DEVICE_PASSWORD_ID</a>, that is used to identify a device password. 
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method contains a value, defined by <a href="https://msdn.microsoft.com/en-us/library/Dd941814(v=VS.85).aspx">WCN VALUE TYPE DEVICE_PASSWORD_ID</a>, that is used to identify a device password. 
 
 
 ### -field WCN_TYPE_E_HASH1
@@ -535,7 +535,7 @@ convey the current supported Config Methods of a specific Registrar.
 
 ### -field WCN_TYPE_PRIMARY_DEVICE_TYPE
 
-This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is an 8 byte buffer containing values, contained in <a href="https://msdn.microsoft.com/08e81cfb-2c83-4af4-b1b9-91db84e61cfa">WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE</a>, that indicates the primary type of the device. It is recommended that applications instead query the WCN_TYPE_PRIMARY_DEVICE_TYPE_CATEGORY, WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY_OUI, and WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY attributes as they are more convenient. 
+This attribute value indicates that the <i>puInteger</i> parameter of the <a href="https://msdn.microsoft.com/95ad3427-c8c9-4ac9-8c8e-c9bedf855a37">IWCNDevice::GetIntegerAttribute</a> method is an 8 byte buffer containing values, contained in <a href="https://msdn.microsoft.com/en-us/library/Dd941816(v=VS.85).aspx">WCN_VALUE_TYPE_PRIMARY_DEVICE_TYPE</a>, that indicates the primary type of the device. It is recommended that applications instead query the WCN_TYPE_PRIMARY_DEVICE_TYPE_CATEGORY, WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY_OUI, and WCN_TYPE_PRIMARY_DEVICE_TYPE_SUBCATEGORY attributes as they are more convenient. 
 
 
 ### -field WCN_TYPE_SECONDARY_DEVICE_TYPE_LIST

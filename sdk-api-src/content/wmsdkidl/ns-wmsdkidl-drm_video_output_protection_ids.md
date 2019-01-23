@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="https://msdn.microsoft.com/73c7b2ab-3680-462a-ab7f-d3270ea0127b">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
+The <b>DRM_VIDEO_OUTPUT_PROTECTION_IDS</b> structure holds an array of <a href="https://msdn.microsoft.com/en-us/library/Dd798049(v=VS.85).aspx">DRM_VIDEO_OUTPUT_PROTECTION</a> structures.
 
 
 
@@ -73,7 +73,7 @@ Address of an array of <b>DRM_VIDEO_OUTPUT_PROTECTION</b> structures.
 
 
 
-This structure is used as a member of the <a href="https://msdn.microsoft.com/5d14bd02-0fb5-4982-b3dc-7f8277cb852f">DRM_PLAY_OPL</a> structure.
+This structure is used as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd798032(v=VS.85).aspx">DRM_PLAY_OPL</a> structure.
 
 
 
@@ -83,7 +83,7 @@ This structure is used as a member of the <a href="https://msdn.microsoft.com/5d
 
 
 
-<a href="https://msdn.microsoft.com/73c7b2ab-3680-462a-ab7f-d3270ea0127b">DRM_VIDEO_OUTPUT_PROTECTION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798049(v=VS.85).aspx">DRM_VIDEO_OUTPUT_PROTECTION</a>
 
 
 

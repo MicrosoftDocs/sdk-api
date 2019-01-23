@@ -64,7 +64,7 @@ The <a href="https://msdn.microsoft.com/741deebd-9dce-4cd9-883e-4586c10a4609">IX
 
 ### -param advisoryPageDimensions [in]
 
-The <a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a> structure that contains page dimensions.
+The <a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a> structure that contains page dimensions.
 
 Size is described in XPS units. There are 96 XPS units per inch.  For example, the dimensions of an 8.5" by 11.0" page are 816 by 1,056 XPS units.
 
@@ -220,7 +220,7 @@ If <i>pagePrintTicket</i> contains a <b>NULL</b> pointer and the package writer 
 
 
 
-<a href="https://msdn.microsoft.com/2f6eb553-892b-455b-97a5-280f257b5702">XPS_SIZE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372988(v=VS.85).aspx">XPS_SIZE</a>
  
 
  

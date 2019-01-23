@@ -120,23 +120,19 @@ Do not call  <b>ResUtilGetResourceNameDependency</b> from any resource DLL entry
 
 As the following example illustrates, if you know that resource A depends on a  <a href="https://msdn.microsoft.com/d42e9bca-3717-44f7-a1b9-dfad1dbddd23">Physical Disk</a> resource, you can use  <b>ResUtilGetResourceNameDependency</b> to obtain a handle to the dependency.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// String initialization and error checking omitted.
+
+```cpp
+// String initialization and error checking omitted.
 
 HRESOURCE hResD = ResUtilGetResourceNameDependency(
                         L"Resource_A_Name",
                         L"Physical Disk" );
 
 // Close handles and free memory.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

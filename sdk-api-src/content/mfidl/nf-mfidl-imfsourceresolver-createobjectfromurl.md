@@ -156,13 +156,9 @@ For local files, you can pass the file name in the <i>pwszURL</i> parameter; the
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  Create a media source from a URL.
+
+```cpp
+//  Create a media source from a URL.
 HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
 {
     MF_OBJECT_TYPE ObjectType = MF_OBJECT_INVALID;
@@ -171,7 +167,7 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     IUnknown* pSource = NULL;
 
     // Create the source resolver.
-    HRESULT hr = MFCreateSourceResolver(&amp;pSourceResolver);
+    HRESULT hr = MFCreateSourceResolver(&pSourceResolver);
     if (FAILED(hr))
     {
         goto done;
@@ -184,12 +180,12 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     // amount of time, especially for a network source. For a more responsive 
     // UI, use the asynchronous BeginCreateObjectFromURL method.
 
-    hr = pSourceResolver-&gt;CreateObjectFromURL(
+    hr = pSourceResolver->CreateObjectFromURL(
         sURL,                       // URL of the source.
         MF_RESOLUTION_MEDIASOURCE,  // Create a source object.
         NULL,                       // Optional property store.
-        &amp;ObjectType,        // Receives the created object type. 
-        &amp;pSource            // Receives a pointer to the media source.
+        &ObjectType,        // Receives the created object type. 
+        &pSource            // Receives a pointer to the media source.
         );
     if (FAILED(hr))
     {
@@ -197,17 +193,17 @@ HRESULT CreateMediaSource(PCWSTR sURL, IMFMediaSource **ppSource)
     }
 
     // Get the IMFMediaSource interface from the media source.
-    hr = pSource-&gt;QueryInterface(IID_PPV_ARGS(ppSource));
+    hr = pSource->QueryInterface(IID_PPV_ARGS(ppSource));
 
 done:
-    SafeRelease(&amp;pSourceResolver);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSourceResolver);
+    SafeRelease(&pSource);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

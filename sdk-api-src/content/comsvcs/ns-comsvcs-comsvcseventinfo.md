@@ -96,7 +96,7 @@ The fully qualified name of the computer where the event originated.
 
 
 
-<a href="https://msdn.microsoft.com/9b702bcd-d5a6-41fa-98ce-00a245dfe770">IComActivityEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684373(v=VS.85).aspx">IComActivityEvents</a>
 
 
 

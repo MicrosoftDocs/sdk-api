@@ -59,7 +59,7 @@ The <b>Graphics::DrawBezier</b> method draws a Bézier spline.
 
 ### -param pen [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>*</b>
 
 Pointer to a pen that is used to draw the Bézier spline. 
 
@@ -124,14 +124,14 @@ Integer that specifies the y-coordinate of the ending point of the Bézier splin
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns Ok, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -149,13 +149,9 @@ A Bézier spline does not pass through its control points. The control points ac
 
 The following example draws a Bézier curve.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_DrawBezier3(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -173,7 +169,7 @@ VOID Example_DrawBezier3(HDC hdc)
 
    //Draw the curve.
    graphics.DrawBezier(
-   &amp;greenPen,
+   &greenPen,
    startPointx,
    startPointy,
    ctrlPoint1x,
@@ -186,14 +182,14 @@ VOID Example_DrawBezier3(HDC hdc)
    //Draw the end points and control points.
    SolidBrush redBrush(Color(255, 255, 0, 0));
    SolidBrush blueBrush(Color(255, 0, 0, 255));
-   graphics.FillEllipse(&amp;redBrush, 100 - 5, 100 - 5, 10, 10);
-   graphics.FillEllipse(&amp;redBrush, 500 - 5, 100 - 5, 10, 10);
-   graphics.FillEllipse(&amp;blueBrush, 200 - 5, 10 - 5, 10, 10);
-   graphics.FillEllipse(&amp;blueBrush, 350 - 5, 50 - 5, 10, 10);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillEllipse(&redBrush, 100 - 5, 100 - 5, 10, 10);
+   graphics.FillEllipse(&redBrush, 500 - 5, 100 - 5, 10, 10);
+   graphics.FillEllipse(&blueBrush, 200 - 5, 10 - 5, 10, 10);
+   graphics.FillEllipse(&blueBrush, 350 - 5, 50 - 5, 10, 10);
+}
+```
+
+
 
 
 
@@ -202,27 +198,27 @@ VOID Example_DrawBezier3(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/3ee279ea-20cc-4089-b1a5-13bf1c7c4942">Bézier Splines</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536354(v=VS.85).aspx">Bézier Splines</a>
 
 
 
-<a href="https://msdn.microsoft.com/96060c2f-85cc-449f-bdc6-f4bab887d11f">DrawBezier</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535734(v=VS.85).aspx">DrawBezier</a>
 
 
 
-<a href="https://msdn.microsoft.com/af91f612-7e65-4a36-8449-32410d275b00">DrawBeziers Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535738(v=VS.85).aspx">DrawBeziers Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/af19e82b-0d13-4fb0-981e-8d5dd1bbfb36">Drawing Bézier Splines</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533926(v=VS.85).aspx">Drawing Bézier Splines</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
  
 
  

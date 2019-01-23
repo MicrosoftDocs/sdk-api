@@ -64,7 +64,7 @@ Type: <b>UUID</b>
 
 ### -param fileFragments [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt798312(v=VS.85).aspx">DWRITE_FILE_FRAGMENT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/6E893719-E2A7-482A-B344-8FE2AA59A6B9">DWRITE_FILE_FRAGMENT</a></b>
 
 Array of structures, each specifying a byte range to download.
 
@@ -101,7 +101,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt807699(v=VS.85).aspx">IDWriteRemoteFontFileStream</a>
+<a href="https://msdn.microsoft.com/2CC73CE0-162A-4808-ACB6-A9599FD4D09F">IDWriteRemoteFontFileStream</a>
  
 
  

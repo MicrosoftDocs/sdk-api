@@ -131,21 +131,17 @@ To free the VARDESC structure, use <a href="https://msdn.microsoft.com/a0f734d8-
 
 In the following example, the CHECKRESULT function is undefined. Replace this function with your error handling code.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHECKRESULT(ptypeinfo-&gt;GetVarDesc(i, &amp;pvardesc));
-idMember = pvardesc-&gt;memid;
-CHECKRESULT(ptypeinfo-&gt;GetDocumentation(idMember, &amp;bstrName, NULL, NULL, 
+
+```cpp
+CHECKRESULT(ptypeinfo->GetVarDesc(i, &pvardesc));
+idMember = pvardesc->memid;
+CHECKRESULT(ptypeinfo->GetDocumentation(idMember, &bstrName, NULL, NULL, 
       NULL));
-ptypeinfo-&gt;ReleaseVarDesc(pvardesc);
-</pre>
-</td>
-</tr>
-</table></span></div>
+ptypeinfo->ReleaseVarDesc(pvardesc);
+
+```
+
+
 
 
 

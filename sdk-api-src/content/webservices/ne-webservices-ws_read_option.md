@@ -68,10 +68,10 @@ The caller must specify the storage to read the top-level type into.
 The size of the storage specified by the caller varies by the type
                     being deserialized, as follows:
                     <ul>
-<li>For primitives (such as <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_INT32_TYPE</a>), the storage should 
+<li>For primitives (such as <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_INT32_TYPE</a>), the storage should 
                         be the size of the primitive.  In this case, the heap does not need to be specified.
                         </li>
-<li>For structures (whether user defined ones that use <a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRUCT_TYPE</a>,
+<li>For structures (whether user defined ones that use <a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRUCT_TYPE</a>,
                         or predefined ones like <a href="https://msdn.microsoft.com/eb6c7397-6b15-4e79-89ec-585861113edf">WS_STRING</a>), the storage should be the 
                         exact size of the structure.
                         Note that fields of the structure that point to other data is still required to
@@ -81,8 +81,8 @@ The size of the storage specified by the caller varies by the type
 </ul>
 
 
-Pointer types (<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>),
-                    may not be used with <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_VALUE</a>.  The <b>WS_READ_REQUIRED_POINTER</b>  
+Pointer types (<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_WSZ_TYPE</a> and <b>WS_XML_BUFFER_TYPE</b>),
+                    may not be used with <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_VALUE</a>.  The <b>WS_READ_REQUIRED_POINTER</b>  
                     value should be used instead.
                 
 
@@ -104,7 +104,7 @@ The deserialized value is always allocated on the <a href="https://msdn.microsof
 
 If the value is not present, then an error will be returned.
                     <b>NULL</b> will never be returned when this option is used.  If the
-                    value is optional, use <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_OPTIONAL_POINTER</a>.
+                    value is optional, use <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_OPTIONAL_POINTER</a>.
                 
 
 
@@ -124,7 +124,7 @@ If the value is not present in the XML being read, the function will
                 
 
 An application that uses this option should be careful to check for <b>NULL</b> before accessing the value.
-                    If a <b>NULL</b> value is never expected, use <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_POINTER</a>.
+                    If a <b>NULL</b> value is never expected, use <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a>.
                 
 
 
@@ -145,10 +145,10 @@ If the element is nil or missing in the XML being read, the function will succee
                 
 
 An application that uses this option should be careful to check for <b>NULL</b> before accessing the value.
-                    If a <b>NULL</b> value is never expected, use <a href="https://msdn.microsoft.com/en-us/library/Dd402008(v=VS.85).aspx">WS_READ_REQUIRED_POINTER</a>.
+                    If a <b>NULL</b> value is never expected, use <a href="https://msdn.microsoft.com/634b057f-3121-43cc-919f-8636e67ce0d7">WS_READ_REQUIRED_POINTER</a>.
                 
 
-This option is not supported in combination with <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> in APIs
+This option is not supported in combination with <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> in APIs
                 that read XML, inlcuding <a href="https://msdn.microsoft.com/6d026b2e-f2c2-4990-9178-152585a7749a">WsReadType</a> and <a href="https://msdn.microsoft.com/88e0cc4d-ae24-46af-998d-fdbfbcc1be64">WsReadElement</a> calls.
               
 
@@ -165,7 +165,7 @@ If the XML element is nil or missing, then a nil value is returned.  If the XML 
                     non-nil, then the value is deserialized normally.
                 
 
-This option is not supported in combination with <a href="https://msdn.microsoft.com/en-us/library/Dd323480(v=VS.85).aspx">WS_TYPE_MAPPING</a> in APIs
+This option is not supported in combination with <a href="https://msdn.microsoft.com/31e4abad-d007-41ae-bf51-fa693e8b8ae5">WS_TYPE_MAPPING</a> in APIs
                 that read XML, inlcuding <a href="https://msdn.microsoft.com/6d026b2e-f2c2-4990-9178-152585a7749a">WsReadType</a> and <a href="https://msdn.microsoft.com/88e0cc4d-ae24-46af-998d-fdbfbcc1be64">WsReadElement</a> calls.
               
 
@@ -174,13 +174,13 @@ This option is only supported for the following types, listed below,
               for each type for information on how nil is represented.
               <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_XML_STRING_TYPE</a>
+<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_XML_STRING_TYPE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd323479(v=VS.85).aspx">WS_BYTES_TYPE</a>
+<a href="https://msdn.microsoft.com/eb3732fd-1197-4e1c-b5b5-9a34aaa0951e">WS_BYTES_TYPE</a>
 </li>
 </ul>
 

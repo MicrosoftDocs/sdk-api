@@ -108,18 +108,14 @@ Both <i>pszHandlerID</i> and <i>ppszItemIDs</i> must be specified.
 
 The following example shows the outline of an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceHandler::Synchronize(...)
+
+```cpp
+STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 {
     ...
     ISyncMgrSyncCallback *pCallback = NULL;
 
-    hr = pCreator-&gt;CreateSession(_pszHandlerID, ppszItemIDs, cItems, &amp;pCallback);
+    hr = pCreator->CreateSession(_pszHandlerID, ppszItemIDs, cItems, &pCallback);
     if (SUCCEEDED(hr))
     {
         // Perform synchronization.
@@ -127,9 +123,9 @@ The following example shows the outline of an implementation of this method.
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

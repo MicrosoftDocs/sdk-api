@@ -63,7 +63,7 @@ A pointer to an <b>EAP_SESSIONID</b> structure that contains the unique handle f
 
 ### -param authParam [in]
 
-An <a href="https://msdn.microsoft.com/adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc">EapHostPeerAuthParams</a> enumeration value that specifies the type of EAP authentication data to obtain from EAPHost.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa363548(v=VS.85).aspx">EapHostPeerAuthParams</a> enumeration value that specifies the type of EAP authentication data to obtain from EAPHost.
 
 <table>
 <tr>
@@ -76,7 +76,7 @@ An <a href="https://msdn.microsoft.com/adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc">Eap
 </dl>
 </td>
 <td width="60%">
-<i>ppAuthData</i> contains a <a href="https://msdn.microsoft.com/b05a1862-9709-4459-a445-5ea4e00cab88">EAPHOST_AUTH_INFO</a> structure.
+<i>ppAuthData</i> contains a <a href="https://msdn.microsoft.com/en-us/library/Aa363582(v=VS.85).aspx">EAPHOST_AUTH_INFO</a> structure.
 
 </td>
 </tr>

@@ -93,18 +93,14 @@ Plugins must aggregate the free threaded marshaler and must not be single thread
 
 The following C++ code example implements an event handler for a <b>CheckBox Control (Windows Forms)</b>. Depending on the checked state of the control, represented by the <code>m_btnPacketFilter</code> member variable, the function either adds or removes the plug-in represented by the global <code>g_pPacketModifier</code> variable.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
+
+```cpp
+void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 {
 	HRESULT hr;
 	IStylusSyncPlugin* pSyncPlugin;
 
-	hr = g_pPacketModifier-&gt;QueryInterface(IID_IStylusSyncPlugin, reinterpret_cast&lt;void**&gt;(&amp;pSyncPlugin));
+	hr = g_pPacketModifier->QueryInterface(IID_IStylusSyncPlugin, reinterpret_cast<void**>(&pSyncPlugin));
 
 	if (SUCCEEDED(hr))
 	{
@@ -112,20 +108,20 @@ The following C++ code example implements an event handler for a <b>CheckBox Con
 		{
 			// If the checkbox is checked, add the 
 			// Packet Modifier plugin to the RealTimeStylus
-			hr = g_pRealTimeStylus-&gt;AddStylusSyncPlugin(0, pSyncPlugin);
+			hr = g_pRealTimeStylus->AddStylusSyncPlugin(0, pSyncPlugin);
 		}
 		else
 		{
 			// If the checkbox is not checked, remove the 
 			// Packet Modifier plugin from the RealTimeStylus
-			hr = g_pRealTimeStylus-&gt;RemoveStylusSyncPlugin(0, &amp;pSyncPlugin);
+			hr = g_pRealTimeStylus->RemoveStylusSyncPlugin(0, &pSyncPlugin);
 		}
 	}
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

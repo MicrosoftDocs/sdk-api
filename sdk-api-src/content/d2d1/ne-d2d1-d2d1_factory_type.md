@@ -86,43 +86,29 @@ Note the qualifier "On the CPU": GPUs generally take advantage of fine-grained p
 
 The following code fragments declare a factory pointer, create a singlethreaded factory instance, and use the factory to create a render target.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ID2D1Factory* m_pDirect2dFactory;
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // Create a Direct2D factory.
-    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &amp;m_pDirect2dFactory);
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>        // Create a Direct2D render target.
-        hr = m_pDirect2dFactory-&gt;CreateHwndRenderTarget(
+
+```cpp
+ID2D1Factory* m_pDirect2dFactory;
+
+```
+
+```cpp
+    // Create a Direct2D factory.
+    hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pDirect2dFactory);
+
+```
+
+```cpp
+        // Create a Direct2D render target.
+        hr = m_pDirect2dFactory->CreateHwndRenderTarget(
             D2D1::RenderTargetProperties(),
             D2D1::HwndRenderTargetProperties(m_hwnd, size),
-            &amp;m_pRenderTarget
+            &m_pRenderTarget
             );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -95,24 +95,20 @@ It is possible to receive touch events out of the order they were produced.  To 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>static void ProcessDown(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipulationProcessor){
-  pManipulationProcessor-&gt;ProcessDownWithTime(
-    pTouchInput-&gt;dwID, 
-    static_cast&lt;float&gt;(pTouchInput-&gt;x), 
-    static_cast&lt;float&gt;(pTouchInput-&gt;y), 
-    pTouchInput-&gt;dwTime
+
+```cpp
+static void ProcessDown(TOUCHINPUT* pTouchInput, IManipulationProcessor* pManipulationProcessor){
+  pManipulationProcessor->ProcessDownWithTime(
+    pTouchInput->dwID, 
+    static_cast<float>(pTouchInput->x), 
+    static_cast<float>(pTouchInput->y), 
+    pTouchInput->dwTime
   );
 }
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

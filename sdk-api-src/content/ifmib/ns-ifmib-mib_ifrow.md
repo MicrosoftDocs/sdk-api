@@ -477,7 +477,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_getifentry">GetIfEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365939(v=VS.85).aspx">GetIfEntry</a>
 
 
 

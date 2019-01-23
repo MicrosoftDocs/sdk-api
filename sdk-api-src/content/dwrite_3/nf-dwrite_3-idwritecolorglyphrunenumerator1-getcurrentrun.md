@@ -59,7 +59,7 @@ Gets the current color glyph run.
 
 ### -param colorGlyphRun [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt725306(v=VS.85).aspx">DWRITE_COLOR_GLYPH_RUN1</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4433AFDF-F034-43DF-A030-4D7DD6E9CFF5">DWRITE_COLOR_GLYPH_RUN1</a></b>
 
 Receives a pointer to the color glyph run. The pointer remains valid until the next call to
           MoveNext or until the interface is released.
@@ -83,7 +83,7 @@ Standard HRESULT error code. An error is returned if there is
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt725314(v=VS.85).aspx">IDWriteColorGlyphRunEnumerator1</a>
+<a href="https://msdn.microsoft.com/692CB5FF-3E74-4D3E-B961-E4AF5995A1B2">IDWriteColorGlyphRunEnumerator1</a>
  
 
  

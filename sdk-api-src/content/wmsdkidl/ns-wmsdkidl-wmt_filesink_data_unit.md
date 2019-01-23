@@ -61,7 +61,7 @@ The <b>WMT_FILESINK_DATA_UNIT</b> structure is used by <b>IWMWriterFileSink3::On
 
 ### -field packetHeaderBuffer
 
-A <a href="https://msdn.microsoft.com/047e19da-c819-46e5-8a1c-09bc93a05259">WMT_BUFFER_SEGMENT</a> structure specifying the buffer segment that contains the packet header.
+A <a href="https://msdn.microsoft.com/en-us/library/Dd757836(v=VS.85).aspx">WMT_BUFFER_SEGMENT</a> structure specifying the buffer segment that contains the packet header.
 
 
 ### -field cPayloads
@@ -81,7 +81,7 @@ Count of payload data fragments in this packet. This is also the number of eleme
 
 ### -field pPayloadDataFragments
 
-Pointer to an array of <a href="https://msdn.microsoft.com/5a99c772-0e8a-4f6d-a13f-9bf7b4fa7d89">WMT_PAYLOAD_FRAGMENT</a> structures. Each element specifies a buffer segment that contains a payload fragment. The number of elements is specified by <b>cPayloadDataFragments</b>.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd757849(v=VS.85).aspx">WMT_PAYLOAD_FRAGMENT</a> structures. Each element specifies a buffer segment that contains a payload fragment. The number of elements is specified by <b>cPayloadDataFragments</b>.
 
 
 ## -see-also
@@ -89,7 +89,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/5a99c772-0e8a-4f6d-a1
 
 
 
-<a href="https://msdn.microsoft.com/1dbcb27b-7588-4475-99fe-3e547d1659d3">IWMWriterFileSink3::OnDataUnitEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd798756(v=VS.85).aspx">IWMWriterFileSink3::OnDataUnitEx</a>
 
 
 

@@ -92,41 +92,37 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure has type <code>VT_BOOL</code>, <i>iElem</i> must be 0. Otherwise <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="shell.PropVariantGetElementCount">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure has type <code>VT_BOOL</code>, <i>iElem</i> must be 0. Otherwise <i>iElem</i> must be less than the number of elements in the vector or array. You can use <a href="https://msdn.microsoft.com/en-us/library/Bb776522(v=VS.85).aspx">PropVariantGetElementCount</a> to obtain the number of elements in the vector or array.
 
 The following example uses this function to loop through the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure.
 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // assume propvar is initialized and valid
 
-if ((propvar.vt &amp; VT_TYPEMASK) == VT_BOOL)
+if ((propvar.vt & VT_TYPEMASK) == VT_BOOL)
 {
     UINT cElem = PropVariantGetElementCount(propvar);
-    HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
+    HRESULT hr = <mark type="const">S_OK</mark>;
     
-    for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
+    for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
     {
         BOOL fValue;
-        hr = PropVariantGetBooleanElem(propvar, iElem, &amp;fValue);
+        hr = PropVariantGetBooleanElem(propvar, iElem, &fValue);
     
         if (SUCCEEDED(hr))
         {
             // fValue is valid now
         }
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
@@ -135,7 +131,7 @@ if ((propvar.vt &amp; VT_TYPEMASK) == VT_BOOL)
 
 
 
-<a href="shell.PropVariantGetElem">PropVariantGetElem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776521(v=VS.85).aspx">PropVariantGetElem</a>
  
 
  

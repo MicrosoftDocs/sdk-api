@@ -58,7 +58,7 @@ Notifies the client that the connection status of the network has changed.
 
 ### -param eStatus
 
-A <a href="https://msdn.microsoft.com/194179b9-9bd2-4c2f-ab22-c6b95eebfb43">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the updated connection status.
+A <a href="https://msdn.microsoft.com/en-us/library/ms705987(v=VS.85).aspx">DOT11_ADHOC_NETWORK_CONNECTION_STATUS</a> value that specifies the updated connection status.
 
 
 ## -returns

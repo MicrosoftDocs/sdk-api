@@ -92,15 +92,15 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 
-A  device object serves as the factory for all other DirectComposition objects. It also controls transactional composition through the <a href="https://msdn.microsoft.com/en-us/library/Hh437393(v=VS.85).aspx">IDCompositionDevice::Commit</a> method.
+A  device object serves as the factory for all other DirectComposition objects. It also controls transactional composition through the <a href="https://msdn.microsoft.com/49a6d33d-7454-44be-b8ca-602b247d4eab">IDCompositionDevice::Commit</a> method.
 
-The DXGI device specified by <i>dxgiDevice</i> is used to create all DirectComposition surface objects. In particular, the <a href="https://msdn.microsoft.com/en-us/library/Hh449100(v=VS.85).aspx">IDCompositionSurface::BeginDraw</a> method returns an interface pointer to a DXGI surface that belongs to the device specified by the <i>dxgiDevice</i> parameter.
+The DXGI device specified by <i>dxgiDevice</i> is used to create all DirectComposition surface objects. In particular, the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> method returns an interface pointer to a DXGI surface that belongs to the device specified by the <i>dxgiDevice</i> parameter.
 
 
 
 When creating the DXGI device, developers must specify the <a href="https://msdn.microsoft.com/580c784a-17de-495c-9159-833f858ad155">D3D11_CREATE_DEVICE BGRA_SUPPORT</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb204909(v=VS.85).aspx">D3D10_CREATE_DEVICE_BGRA_SUPPORT</a> flag for Direct2D interoperability with Microsoft Direct3D resources.
 
-The <i>iid</i> parameter must be <code>__uuidof(IDCompositionDevice)</code>, and the <i>dcompositionDevice</i> parameter receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a> interface.
+The <i>iid</i> parameter must be <code>__uuidof(IDCompositionDevice)</code>, and the <i>dcompositionDevice</i> parameter receives a pointer to an <a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a> interface.
 
 
 
@@ -108,14 +108,10 @@ The <i>iid</i> parameter must be <code>__uuidof(IDCompositionDevice)</code>, and
 
 The following example shows how to create a device object as part of initialing DirectComposition objects.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;dcomp.h&gt;
-#include &lt;d3d11.h&gt;
+
+```cpp
+#include <dcomp.h>
+#include <d3d11.h>
 
 HRESULT InitializeDirectCompositionDevice(HWND hwndTarget, 
         ID3D11Device **ppD3D11Device, IDCompositionDevice **ppDevice,
@@ -144,34 +140,34 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
         0,
         D3D11_SDK_VERSION,
         ppD3D11Device,
-        &amp;featureLevelSupported,
+        &featureLevelSupported,
         NULL);
 
     if (SUCCEEDED(hr))
     {
         // Create the DXGI device used to create bitmap surfaces.
-        hr = (*ppD3D11Device)-&gt;QueryInterface(&amp;pDXGIDevice);
+        hr = (*ppD3D11Device)->QueryInterface(&pDXGIDevice);
     }
 
     if (SUCCEEDED(hr))
     {
         // Create the DirectComposition device object.
         hr = DCompositionCreateDevice(pDXGIDevice, __uuidof(IDCompositionDevice), 
-                reinterpret_cast&lt;void **&gt;(ppDevice));
+                reinterpret_cast<void **>(ppDevice));
     }
 
     if (SUCCEEDED(hr))
     {
         // Bind the DirectComposition device to the target window.
-        hr = (*ppDevice)-&gt;CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
+        hr = (*ppDevice)->CreateTargetForHwnd(hwndTarget, TRUE, ppCompTarget);   
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

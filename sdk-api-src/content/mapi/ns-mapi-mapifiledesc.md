@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-A <b>MapiFileDesc</b> structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files. For Unicode support, use the <a href="https://msdn.microsoft.com/en-us/library/Hh707272(v=VS.85).aspx">MapiFileDescW</a> structure.
+A <b>MapiFileDesc</b> structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files. For Unicode support, use the <a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B038-5C1144E70AA6">MapiFileDescW</a> structure.
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ If neither flag is set, the attachment is treated as a data file.
 
 ### -field nPosition
 
-An integer used to indicate where in the message text to render the attachment. Attachments replace the character found at a certain position in the message text. That is, attachments replace the character in the <a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a> structure field <b>NoteText</b>[<b>nPosition</b>]. A value of   -1 (0xFFFFFFFF) means the attachment position is not indicated; the client application will have to provide a way for the user to access the attachment.
+An integer used to indicate where in the message text to render the attachment. Attachments replace the character found at a certain position in the message text. That is, attachments replace the character in the <a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a> structure field <b>NoteText</b>[<b>nPosition</b>]. A value of   -1 (0xFFFFFFFF) means the attachment position is not indicated; the client application will have to provide a way for the user to access the attachment.
 
 
 ### -field lpszPathName
@@ -113,7 +113,7 @@ Pointer to the attachment filename seen by the recipient, which may differ from 
 
 ### -field lpFileType
 
-Pointer to the attachment file type, which can be represented with a <a href="https://msdn.microsoft.com/en-us/library/Dd296727(v=VS.85).aspx">MapiFileTagExt</a> structure. A value of <b>NULL</b> indicates an unknown file type or a file type determined by the operating system.
+Pointer to the attachment file type, which can be represented with a <a href="https://msdn.microsoft.com/5f6de637-14a8-46bb-a53e-f355d7592222">MapiFileTagExt</a> structure. A value of <b>NULL</b> indicates an unknown file type or a file type determined by the operating system.
 
 
 ## -remarks
@@ -150,15 +150,15 @@ When using the <b>MapiFileDesc</b> member <b>nPosition</b>, the client applicati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh707272(v=VS.85).aspx">MapiFileDescW</a>
+<a href="https://msdn.microsoft.com/CF7C41DF-D361-457F-B038-5C1144E70AA6">MapiFileDescW</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd296732(v=VS.85).aspx">MapiMessage</a>
+<a href="https://msdn.microsoft.com/7f696dd6-bfae-4c7d-b55f-d37952691c02">MapiMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh707273(v=VS.85).aspx">MapiMessageW</a>
+<a href="https://msdn.microsoft.com/3C74A9C0-1483-4A97-94EB-19A0D30D9A08">MapiMessageW</a>
  
 
  

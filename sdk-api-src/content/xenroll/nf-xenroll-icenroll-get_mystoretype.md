@@ -95,13 +95,9 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrStoreType = NULL;
+
+```cpp
+BSTR     bstrStoreType = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -122,10 +118,8 @@ hr = pEnroll->put_MyStoreType( bstrNewType );
 if ( FAILED ( hr ) )
     printf("Failed setting MyStoreType - %x\n", hr );
 else
-    printf( "MyStoreType was set to %ws\n", bstrNewType );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "MyStoreType was set to %ws\n", bstrNewType );
+```
 
 
 

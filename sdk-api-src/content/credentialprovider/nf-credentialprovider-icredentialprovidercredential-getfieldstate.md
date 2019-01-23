@@ -65,14 +65,14 @@ The identifier for the field.
 
 ### -param pcpfs [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4cc7858c-483b-4fac-96ba-8962bc362422">CREDENTIAL_PROVIDER_FIELD_STATE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762489(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_STATE</a>*</b>
 
 A pointer to the credential provider field state. This indicates when the field should be displayed on the user tile.
 
 
 ### -param pcpfis [out]
 
-Type: <b><a href="https://msdn.microsoft.com/745ac5f0-fcfe-4f42-ab4c-c933f1d3870b">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762488(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE</a>*</b>
 
 A pointer to the credential provider field interactive state. This indicates when the user can interact with the field.
 

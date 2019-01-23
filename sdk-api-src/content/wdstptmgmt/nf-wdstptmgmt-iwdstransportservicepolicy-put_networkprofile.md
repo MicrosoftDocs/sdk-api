@@ -69,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/2fa0d8d8-5ced-402b-8452-bf2e2aa4b19f">WDSTRANSPORT_NETWORK_PROFILE_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736539(v=VS.85).aspx">WDSTRANSPORT_NETWORK_PROFILE_TYPE</a>
  
 
  

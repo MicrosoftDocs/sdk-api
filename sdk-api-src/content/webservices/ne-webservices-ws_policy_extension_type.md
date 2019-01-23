@@ -59,6 +59,6 @@ The values in this enumeration are used to identify the sub-types of <a href="ht
 
 ### -field WS_ENDPOINT_POLICY_EXTENSION_TYPE
 
-This value is used in the type field of <a href="https://msdn.microsoft.com/85a3fa35-b574-4091-9ef2-486ac751ef82">WS_POLICY_EXTENSION</a>to identify a <a href="https://msdn.microsoft.com/8bcb2466-fb07-4a15-82a2-87fc7f0f3d92">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
+This value is used in the type field of <a href="https://msdn.microsoft.com/85a3fa35-b574-4091-9ef2-486ac751ef82">WS_POLICY_EXTENSION</a>to identify a <a href="https://msdn.microsoft.com/en-us/library/Dd401833(v=VS.85).aspx">WS_ENDPOINT_POLICY_EXTENSION</a> structure.
                 
 

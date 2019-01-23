@@ -202,7 +202,7 @@ A pointer to an <a href="https://msdn.microsoft.com/a5d78db0-990f-4318-8f1a-4e90
 
 #### pEapOutput
 
-Receives a pointer to an <a href="https://msdn.microsoft.com/992336ec-65ef-48bf-947f-1d569c9bd4aa">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that indicates the next action the supplicant must take in the EAP authentication session.
+Receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363929(v=VS.85).aspx">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that indicates the next action the supplicant must take in the EAP authentication session.
 
 
 
@@ -244,7 +244,7 @@ Receives a pointer to an <a href="https://msdn.microsoft.com/a5d78db0-990f-4318-
 
 #### pTimeout
 
-Receives a pointer to an <a href="https://msdn.microsoft.com/56c3da89-eaa8-4ea9-a912-3e15d713ba45">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> value that specifies the timeout for the packet.
+Receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363641(v=VS.85).aspx">EAP_AUTHENTICATOR_SEND_TIMEOUT</a> value that specifies the timeout for the packet.
 
 
 
@@ -300,7 +300,7 @@ Pointer to an <a href="https://msdn.microsoft.com/2f88b475-a4ae-4c40-b0f8-2dd05c
 
 #### pEapOutput
 
-Receives a pointer to an <a href="https://msdn.microsoft.com/992336ec-65ef-48bf-947f-1d569c9bd4aa">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that specifies the suggested action the supplicant should take as a response to the updated attributes.
+Receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363929(v=VS.85).aspx">EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION</a> enumeration value that specifies the suggested action the supplicant should take as a response to the updated attributes.
 
 
 
@@ -324,7 +324,7 @@ Function pointer to <a href="https://msdn.microsoft.com/898b5465-a030-4df6-a51f-
 
 #### pResult
 
-Receives a pointer to a <a href="https://msdn.microsoft.com/8367fd35-852b-4cdf-9a86-7d07a5a1a2ef">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
+Receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa363930(v=VS.85).aspx">EAP_METHOD_AUTHENTICATOR_RESULT</a> structure that contains the authentication results.
 
 
 

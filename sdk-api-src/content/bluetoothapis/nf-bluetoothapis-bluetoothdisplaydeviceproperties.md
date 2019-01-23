@@ -84,7 +84,7 @@ Returns <b>TRUE</b> if the property sheet is successfully displayed. Returns <b>
 
 
 
-<a href="https://msdn.microsoft.com/e267df61-d0f5-434f-b49c-6899c2abfa2a">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362925(v=VS.85).aspx">BLUETOOTH_DEVICE_SEARCH_PARAMS</a>
 
 
 

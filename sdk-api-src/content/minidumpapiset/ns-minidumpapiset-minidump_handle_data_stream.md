@@ -81,7 +81,7 @@ Reserved for future use; must be zero.
 
 
 In this context, a data stream is a set of data in a minidump file. This header structure is followed by <b>NumberOfDescriptors</b>
-<a href="https://msdn.microsoft.com/8387513a-137a-418e-8341-8066965849e6">MINIDUMP_HANDLE_DESCRIPTOR</a> or <a href="https://msdn.microsoft.com/c0678315-391c-4ce9-aa77-a88afccf79d9">MINIDUMP_HANDLE_DESCRIPTOR_2</a> structures.
+<a href="https://msdn.microsoft.com/en-us/library/ms680374(v=VS.85).aspx">MINIDUMP_HANDLE_DESCRIPTOR</a> or <a href="https://msdn.microsoft.com/en-us/library/ms680373(v=VS.85).aspx">MINIDUMP_HANDLE_DESCRIPTOR_2</a> structures.
 
 
 
@@ -91,11 +91,11 @@ In this context, a data stream is a set of data in a minidump file. This header 
 
 
 
-<a href="https://msdn.microsoft.com/8387513a-137a-418e-8341-8066965849e6">MINIDUMP_HANDLE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680374(v=VS.85).aspx">MINIDUMP_HANDLE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/c0678315-391c-4ce9-aa77-a88afccf79d9">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680373(v=VS.85).aspx">MINIDUMP_HANDLE_DESCRIPTOR_2</a>
 
 
 

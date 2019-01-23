@@ -48,7 +48,7 @@ req.redist: Windows Desktop Search (WDS) 3.0
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with an array of unsigned 32-bit integer values.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with an array of unsigned 32-bit integer values.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ The number of elements in the array pointed to by <i>prgn</i>.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -97,27 +97,23 @@ Creates a VT_ARRAY | VT_UI4 variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromUInt32Array">InitVariantFromUInt32Array</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762341(v=VS.85).aspx">InitVariantFromUInt32Array</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ULONG rgLongs[] = {4, 2};
+
+```cpp
+ULONG rgLongs[] = {4, 2};
 VARIANT var;
 
-HRESULT hr = InitVariantFromUInt32Array(rgLongs, ARRAYSIZE(rgLongs), &amp;var);
+HRESULT hr = InitVariantFromUInt32Array(rgLongs, ARRAYSIZE(rgLongs), &var);
 
 if (SUCCEEDED(hr))                            
 {
     // var now is valid and has type VT_ARRAY | VT_UI4.
-    VariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&propvar);
+}
+```
+
+
 
 
 
@@ -126,15 +122,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762312(v=VS.85).aspx">InitPropVariantFromUInt32Vector</a>
 
 
 
-<a href="shell.InitVariantFromUInt32">InitVariantFromUInt32</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762340(v=VS.85).aspx">InitVariantFromUInt32</a>
 
 
 
-<a href="shell.VariantToUInt32Array">VariantToUInt32Array</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776628(v=VS.85).aspx">VariantToUInt32Array</a>
  
 
  

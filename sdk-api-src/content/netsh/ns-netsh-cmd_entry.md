@@ -106,13 +106,9 @@ If these macros are used, the following constants must be defined in the helper 
 
 The following are example uses of these macros:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define HLP_SAMPLE_ADD_BAR        1001
+
+```cpp
+#define HLP_SAMPLE_ADD_BAR        1001
 #define HLP_SAMPLE_ADD_BAR_EX     1002
 #define HLP_SAMPLE_DELETE_BAR     1003
 #define HLP_SAMPLE_DELETE_BAR_EX  1004
@@ -158,10 +154,10 @@ CMD_ENTRY  g_SampleShowCmdTable[] =
     CREATE_CMD_ENTRY_EX(SAMPLE_SHOW_BAR, HandleSampleShowBar, (CMD_FLAG_PRIVATE | CMD_FLAG_ONLINE) ),
     CREATE_CMD_ENTRY_EX_VER(SAMPLE_SHOW_FILTER, HandleSampleShowFilter, (CMD_FLAG_PRIVATE | CMD_FLAG_ONLINE), CheckRunningOnWindowsXP),
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

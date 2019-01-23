@@ -76,7 +76,7 @@ A pointer to a buffer that contains the incoming EAP data received by
 
 ### -param pEapOutput [out]
 
-A pointer to an <a href="https://msdn.microsoft.com/59bf6e02-90b5-4f9a-9865-b71852c61db9">EapHostPeerResponseAction</a> value that indicates the supplicant should take appropriate action. Typically the supplicant either calls 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa363575(v=VS.85).aspx">EapHostPeerResponseAction</a> value that indicates the supplicant should take appropriate action. Typically the supplicant either calls 
       another method on EAPHost or acts  on its own.
 
 

@@ -228,13 +228,9 @@ Do not modify the returned service structure,
 
 <b>Example</b>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 ////////////////////////////////////////////////////////////////////////////
 // Determine Services Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -243,7 +239,7 @@ Do not modify the returned service structure,
             hLEDevice,
             0,
             NULL,
-            &amp;serviceBufferCount,
+            &serviceBufferCount,
             BLUETOOTH_GATT_FLAG_NONE);
     
     if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -270,17 +266,17 @@ Do not modify the returned service structure,
             hLEDevice,
             serviceBufferCount,
             pServiceBuffer,
-            &amp;numServices,
+            &numServices,
             BLUETOOTH_GATT_FLAG_NONE);
     
     if (S_OK != hr) {
         PrintHr("BluetoothGATTGetServices - Actual Data", hr);
         goto Done;
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

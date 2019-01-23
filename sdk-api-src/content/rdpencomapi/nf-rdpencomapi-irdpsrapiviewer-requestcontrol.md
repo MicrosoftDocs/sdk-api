@@ -62,7 +62,7 @@ Requests the sharer to change the control level of the viewer. After this method
 
 Type: <b>CTRL_LEVEL</b>
 
-One of the values of the <a href="https://msdn.microsoft.com/f97b0493-82bf-487e-adc1-2dc40eeeb36c">CTRL_LEVEL</a> enumeration.
+One of the values of the <a href="https://msdn.microsoft.com/en-us/library/Aa373265(v=VS.85).aspx">CTRL_LEVEL</a> enumeration.
 
 
 ## -returns

@@ -75,21 +75,17 @@ Position information of the sample in the stream.
 
 The <b>AVIStreamNextSampleTime</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamNextSampleTime(pavi, time) \ 
     AVIStreamSampleToTime(pavi, \ 
     AVIStreamNextSample(pavi, \ 
     AVIStreamTimeToSample(pavi, t))) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

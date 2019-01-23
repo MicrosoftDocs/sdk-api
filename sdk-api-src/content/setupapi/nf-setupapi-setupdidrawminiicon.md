@@ -251,21 +251,17 @@ By default, the icon is centered vertically and forced against the left side of 
 
 <b>SetupDiDrawMiniIcon</b> draws the 16-bit version of the icon that is specified by the <i>MiniIconIndex </i>parameter. Instead of <b>SetupDiDrawMiniIcon</b>, you should use <a href="https://msdn.microsoft.com/f239e207-fb51-4641-a64c-7d8ffa767e18">SetupDiLoadClassIcon</a> together with <b>DrawIcon</b> or <b>DrawIconEx</b> to draw the 32-bit version of the icon. The following is an example of how to use <b>DrawIconEx</b> to display an icon:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HICON hIcon;
 
-if (SetupDiLoadClassIcon(&amp;GUID_DEVCLASS_USB, &amp;hIcon, NULL)) {
+```
+HICON hIcon;
+
+if (SetupDiLoadClassIcon(&GUID_DEVCLASS_USB, &hIcon, NULL)) {
     DrawIconEx(hDC, 0, 0, hIcon, GetSystemMetrics(SM_CXSMICON),GetSystemMetrics(SM_CYSMICON), 0, NULL, DI_NORMAL); 
 DestroyIcon(hIcon);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 For more information about <a href="http://go.microsoft.com/fwlink/p/?linkid=181019">DrawIcon</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=181020">DrawIconEx</a>, refer to the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
 

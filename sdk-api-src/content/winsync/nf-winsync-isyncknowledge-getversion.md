@@ -58,7 +58,7 @@ Gets the version of this knowledge structure.
 
 ### -param pdwVersion [out]
 
-Returns the version of this knowledge structure. is one of the values in the <a href="https://msdn.microsoft.com/840a1f5e-56f7-4774-a154-0dab66c3d407">SYNC_SERIALIZATION_VERSION</a> enumeration.
+Returns the version of this knowledge structure. is one of the values in the <a href="https://msdn.microsoft.com/en-us/library/Dd744813(v=VS.85).aspx">SYNC_SERIALIZATION_VERSION</a> enumeration.
 
 
 ## -returns
@@ -118,7 +118,7 @@ This value is the version of the knowledge structure itself. When the internal k
 
 
 
-<a href="https://msdn.microsoft.com/840a1f5e-56f7-4774-a154-0dab66c3d407">SYNC_SERIALIZATION_VERSION Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd744813(v=VS.85).aspx">SYNC_SERIALIZATION_VERSION Enumeration</a>
  
 
  

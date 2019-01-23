@@ -71,7 +71,7 @@ Number of palette entries. The value must be between 0 and 256.
 
 ### -field Palette
 
-Array of <a href="https://msdn.microsoft.com/72e45756-b1aa-4db0-a6e7-2e6ea97211b4">MFPaletteEntry Union</a>s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
+Array of <a href="https://msdn.microsoft.com/en-us/library/ms698970(v=VS.85).aspx">MFPaletteEntry Union</a>s that contains the color table for a palettized format. The size of the array is given in the <b>PaletteEntries</b> member. If the format is not palettized, set <b>PaletteEntries</b> to zero.
 
 
 ## -see-also

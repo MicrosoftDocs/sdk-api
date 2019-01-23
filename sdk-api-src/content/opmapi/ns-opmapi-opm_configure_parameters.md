@@ -89,7 +89,7 @@ The data for the command. The meaning of the data depends on the command. For mo
 
 
 
-The layout of this  structure is identical to the <a href="https://msdn.microsoft.com/8b2c06e9-f1b7-4185-8ade-b5abe9ac776d">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
+The layout of this  structure is identical to the <a href="https://msdn.microsoft.com/en-us/library/Dd373425(v=VS.85).aspx">AMCOPPCommand</a> structure used in Certified Output Protection Protocol (COPP).
       
 
 Initialize this structure as follows.

@@ -92,7 +92,7 @@ Occurs after a change fails to apply.
 
 
 
-<a href="https://msdn.microsoft.com/4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4">CONFLICT_RESOLUTION_POLICY Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd316936(v=VS.85).aspx">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
 
 

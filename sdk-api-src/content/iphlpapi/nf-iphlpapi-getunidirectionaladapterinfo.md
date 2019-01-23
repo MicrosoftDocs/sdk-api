@@ -60,7 +60,7 @@ The
 ### -param pIPIfInfo [out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/225b93ae-e34f-4e5b-a699-1fdd342265c6">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a> structure that receives information about the unidirectional adapters installed on the local computer.
+<a href="https://msdn.microsoft.com/en-us/library/Aa366287(v=VS.85).aspx">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a> structure that receives information about the unidirectional adapters installed on the local computer.
 
 
 ### -param dwOutBufLen [out]
@@ -93,7 +93,7 @@ If the function fails, use
 
 
 
-<a href="https://msdn.microsoft.com/225b93ae-e34f-4e5b-a699-1fdd342265c6">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366287(v=VS.85).aspx">IP_UNIDIRECTIONAL_ADAPTER_ADDRESS</a>
  
 
  

@@ -87,26 +87,22 @@ The following example shows how to retrieve the local and remote file names and 
 <a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a> interface. The example assumes the 
 <b>IBackgroundCopyFile</b> interface pointer is valid.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IBackgroundCopyFile* pFile;
+
+```cpp
+IBackgroundCopyFile* pFile;
 HRESULT hr;
 WCHAR* pszLocalFileName = NULL;
 WCHAR* pszRemoteFileName = NULL;
 WCHAR  szPercentComplete[4+1];
 BG_FILE_PROGRESS Progress;
 
-hr = pFile-&gt;GetLocalName(&amp;pszLocalFileName);
+hr = pFile->GetLocalName(&pszLocalFileName);
 if (SUCCEEDED(hr))
 {
-  hr = pFile-&gt;GetRemoteName(&amp;pszRemoteFileName);
+  hr = pFile->GetRemoteName(&pszRemoteFileName);
   if (SUCCEEDED(hr))
   {
-    pFile-&gt;GetProgress(&amp;Progress);
+    pFile->GetProgress(&Progress);
     if (BG_SIZE_UNKNOWN == Progress.BytesTotal) 
     {
       StringCchPrintf(szPercentComplete, sizeof(szPercentComplete), L"0%%");
@@ -122,10 +118,10 @@ if (SUCCEEDED(hr))
 if (pszLocalFileName)
   CoTaskMemFree(pszLocalFileName);
 if (pszRemoteFileName)
-  CoTaskMemFree(pszRemoteFileName);</pre>
-</td>
-</tr>
-</table></span></div>
+  CoTaskMemFree(pszRemoteFileName);
+```
+
+
 
 
 

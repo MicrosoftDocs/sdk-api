@@ -67,7 +67,7 @@ The Shell namespace location for this data source, as an IDList.
 
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
-The target namespace location, as an IDList. This is used when the data source is aliased into the namespace. This parameter specifies the location of the network item that the data source will represent. See <a href="https://msdn.microsoft.com/50a426b5-a526-4d3d-a20a-67050229f02e">InitializeEx</a> and in <a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a> see the <i>pidlTargetFolder</i>   definition for more information.
+The target namespace location, as an IDList. This is used when the data source is aliased into the namespace. This parameter specifies the location of the network item that the data source will represent. See <a href="https://msdn.microsoft.com/50a426b5-a526-4d3d-a20a-67050229f02e">InitializeEx</a> and in <a href="https://msdn.microsoft.com/en-us/library/Bb773373(v=VS.85).aspx">PERSIST_FOLDER_TARGET_INFO</a> see the <i>pidlTargetFolder</i>   definition for more information.
 
 
 
@@ -122,7 +122,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/74441551-c315-4203-a4f5-cd4e6c57b58b">PERSIST_FOLDER_TARGET_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773373(v=VS.85).aspx">PERSIST_FOLDER_TARGET_INFO</a>
  
 
  

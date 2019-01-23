@@ -96,13 +96,9 @@ The ability to set this property is disabled when  the Certificate Enrollment Co
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR     bstrStoreName = NULL;
+
+```cpp
+BSTR     bstrStoreName = NULL;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -123,10 +119,8 @@ hr = pEnroll->put_RootStoreName( bstrNewName );
 if ( FAILED ( hr ) )
     printf("Failed setting RootStoreName - %x\n", hr );
 else
-    printf( "RootStoreName was set to : %ws\n", bstrNewName );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "RootStoreName was set to : %ws\n", bstrNewName );
+```
 
 
 

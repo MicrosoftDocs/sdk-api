@@ -61,7 +61,7 @@ The <b>SCardUIDlgSelectCard</b> function displays the <a href="https://msdn.micr
 ### -param Arg1 [in]
 
 Pointer to the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.
+<a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a> structure for the <b>Select Card</b> dialog box.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If the function fails, it returns an error code. For more information, see
 
 
 
-The <b>SCardUIDlgSelectCard</b> function provides a method for connecting to a specific <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>. When called, this function performs a search for appropriate smart cards matching the <a href="https://msdn.microsoft.com/en-us/library/Aa378816(v=VS.85).aspx">OPENCARD_SEARCH_CRITERIA</a> member specified by the <i>pDlgStruc</i> parameter. Depending on the <b>dwFlags</b> member of <b>pDlgStruc</b>, this function takes the following actions.
+The <b>SCardUIDlgSelectCard</b> function provides a method for connecting to a specific <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">smart card</a>. When called, this function performs a search for appropriate smart cards matching the <a href="https://msdn.microsoft.com/f20874ca-a714-45b7-abcb-85bedc4e6245">OPENCARD_SEARCH_CRITERIA</a> member specified by the <i>pDlgStruc</i> parameter. Depending on the <b>dwFlags</b> member of <b>pDlgStruc</b>, this function takes the following actions.
 
 <table>
 <tr>
@@ -129,13 +129,9 @@ This function replaces
 
 The following example  shows how to display the smart card <b>Select Card</b> dialog box.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SCARDCONTEXT     hSC;
+
+```cpp
+SCARDCONTEXT     hSC;
 OPENCARDNAME_EX  dlgStruct;
 WCHAR            szReader[256];
 WCHAR            szCard[256];
@@ -146,7 +142,7 @@ LONG             lReturn;
 lReturn = SCardEstablishContext(SCARD_SCOPE_USER,
                                 NULL,
                                 NULL,
-                                &amp;hSC );
+                                &hSC );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardEstablishContext\n");
@@ -154,7 +150,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 }
 
 // Initialize the structure.
-memset(&amp;dlgStruct, 0, sizeof(dlgStruct));
+memset(&dlgStruct, 0, sizeof(dlgStruct));
 dlgStruct.dwStructSize = sizeof(dlgStruct);
 dlgStruct.hSCardContext = hSC;
 dlgStruct.dwFlags = SC_DLG_FORCE_UI;
@@ -165,17 +161,17 @@ dlgStruct.nMaxCard = 256;
 dlgStruct.lpstrTitle = (LPSTR) "My Select Card Title";
 
 // Display the select card dialog box.
-lReturn = SCardUIDlgSelectCard(&amp;dlgStruct);
+lReturn = SCardUIDlgSelectCard(&dlgStruct);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardUIDlgSelectCard - %x\n", lReturn );
 else
     printf("Reader: %S\nCard: %S\n", szReader, szCard );
 
 // Release the context (by SCardReleaseContext - not shown here).
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 
@@ -184,7 +180,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378815(v=VS.85).aspx">OPENCARDNAME_EX</a>
+<a href="https://msdn.microsoft.com/fb9e64a9-441a-4c7b-b404-79682778c694">OPENCARDNAME_EX</a>
  
 
  

@@ -49,7 +49,7 @@ req.redist:
 
 
 
-The <code>VMR9AspectRatioMode</code> enumeration type is used with the <a href="https://msdn.microsoft.com/c18ab567-5e0d-400a-8dc1-e9ad83650b7c">IVMRWindowlessControl9::GetAspectRatioMode</a> and <a href="https://msdn.microsoft.com/5ba46490-0a82-495f-8742-d7a8efa95332">IVMRWindowlessControl9::SetAspectRatioMode</a> methods to set and retrieve the aspect ratio mode (VMR-9 only).
+The <code>VMR9AspectRatioMode</code> enumeration type is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd390539(v=VS.85).aspx">IVMRWindowlessControl9::GetAspectRatioMode</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd390547(v=VS.85).aspx">IVMRWindowlessControl9::SetAspectRatioMode</a> methods to set and retrieve the aspect ratio mode (VMR-9 only).
 
 
 

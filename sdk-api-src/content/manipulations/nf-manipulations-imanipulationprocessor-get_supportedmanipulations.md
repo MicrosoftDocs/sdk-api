@@ -69,23 +69,19 @@ With this property you can control which manipulations the supports and which it
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
         CoInitialize(0);
 
         hr = spIManipProc.CoCreateInstance(CLSID_ManipulationProcessor, NULL, CLSCTX_ALL);
 
         MANIPULATION_PROCESSOR_MANIPULATIONS mpm;
-        spIManipProc-&gt;get_SupportedManipulations(&amp;mpm);    
-        </pre>
-</td>
-</tr>
-</table></span></div>
+        spIManipProc->get_SupportedManipulations(&mpm);    
+        
+```
+
+
 
 
 

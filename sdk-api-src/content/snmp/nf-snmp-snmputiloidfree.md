@@ -62,7 +62,7 @@ The
 ### -param pOid [in, out]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377954(v=VS.85).aspx">AsnObjectIdentifier</a> structure whose memory should be freed.
+<a href="https://msdn.microsoft.com/695e5581-00df-49af-8abe-1dd1b25cb215">AsnObjectIdentifier</a> structure whose memory should be freed.
 
 
 ## -returns

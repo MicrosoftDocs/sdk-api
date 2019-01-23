@@ -209,7 +209,7 @@ After the new process is created, wait for the process to become idle before ret
 
 #### SEE_MASK_FLAG_HINST_IS_SITE (0x08000000)
 
-The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="_inet_iserviceprovider_interface">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
+The <b>hInstApp</b> member is used to specify the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of an object that implements <a href="https://msdn.microsoft.com/library/Cc678965(v=VS.85).aspx">IServiceProvider</a>. This object will be used as a site pointer. The site pointer is used to provide services to the <a href="https://msdn.microsoft.com/8b1f3978-a0ee-4684-8a37-98e270b63897">ShellExecute</a> function, the handler binding process, and invoked verb handlers.
 
 To use <b>SEE_MASK_FLAG_HINST_IS_SITE</b> in operating systems prior to Windows 8, define it manually in your program: #define SEE_MASK_FLAG_HINST_IS_SITE 0x08000000.
 
@@ -407,7 +407,7 @@ A handle to the registry key for the file type. The access rights for this regis
 
 Type: <b>DWORD</b>
 
-A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/b2c7e6ca-da71-440b-a05e-17f2da419d18">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
+A keyboard shortcut to associate with the application. The low-order word is the virtual key code, and the high-order word is a modifier flag (HOTKEYF_). For a list of modifier flags, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms646284(v=VS.85).aspx">WM_SETHOTKEY</a> message. This member is ignored if <b>fMask</b> does not include <b>SEE_MASK_HOTKEY</b>.
 
 
 ### -field DUMMYUNIONNAME

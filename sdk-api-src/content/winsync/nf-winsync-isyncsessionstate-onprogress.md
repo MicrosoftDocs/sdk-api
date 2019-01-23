@@ -137,11 +137,11 @@ This method can be used to report custom progress to the application. When a pro
 
 
 
-<a href="https://msdn.microsoft.com/06f8542a-d742-4cbb-bb44-c107b59ad38f">SYNC_PROGRESS STAGE Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317258(v=VS.85).aspx">SYNC_PROGRESS STAGE Enumeration</a>
 
 
 
-<a href="https://msdn.microsoft.com/2409c8bf-c4fc-4986-8dde-cc11f0d52ed4">SYNC_PROVIDER ROLE Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317260(v=VS.85).aspx">SYNC_PROVIDER ROLE Enumeration</a>
  
 
  

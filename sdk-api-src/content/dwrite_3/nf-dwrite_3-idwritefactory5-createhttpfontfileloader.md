@@ -74,7 +74,7 @@ Optional additional header fields to include in HTTP requests. Each header field
 
 ### -param newLoader [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt807695(v=VS.85).aspx">IDWriteRemoteFontFileLoader</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/16CFF7ED-642A-48D8-8C72-3EC68B702E50">IDWriteRemoteFontFileLoader</a>**</b>
 
 Receives a pointer to the newly-created loader object.
 
@@ -99,7 +99,7 @@ This method returns an HRESULT success or error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt807684(v=VS.85).aspx">IDWriteFactory5</a>
+<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
  
 
  

@@ -345,30 +345,26 @@ The system can periodically refresh the time by synchronizing with a time source
 
 The following example demonstrates the difference between the time values retrieved by the <a href="https://msdn.microsoft.com/9ed8386b-f035-446f-b0f8-12e0d3f23aac">GetSystemTime</a> and <a href="https://msdn.microsoft.com/a63fcd36-de48-4437-a823-837884cc2bf9">GetLocalTime</a> functions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
 
 void main()
 {
     SYSTEMTIME st, lt;
     
-    GetSystemTime(&amp;st);
-    GetLocalTime(&amp;lt);
+    GetSystemTime(&st);
+    GetLocalTime(&lt);
     
     printf("The system time is: %02d:%02d\n", st.wHour, st.wMinute);
     printf(" The local time is: %02d:%02d\n", lt.wHour, lt.wMinute);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <pre class="syntax" xml:space="preserve"><code>// Sample output
 
 The system time is: 19:34

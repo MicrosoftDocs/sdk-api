@@ -88,7 +88,7 @@ Pointer to a variable that receives a handle to the SNMP protocol data unit (PDU
 ### -param msgBufDesc [in]
 
 Pointer to an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure that contains the SNMP message to decode into its components. The <b>len</b> member of the structure specifies the maximum number of bytes to process; the <b>ptr</b> member points to the encoded SNMP message.
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure that contains the SNMP message to decode into its components. The <b>len</b> member of the structure specifies the maximum number of bytes to process; the <b>ptr</b> member points to the encoded SNMP message.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Pointer to an
 
 
 If the function succeeds, the return value is the number of decoded bytes. This value can be equal to, or less than, the <b>len</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a> structure pointed to by the <i>msgBufDesc</i> parameter.
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a> structure pointed to by the <i>msgBufDesc</i> parameter.
 
 If the function fails, the return value is SNMPAPI_FAILURE. To get extended error information, call 
 <a href="https://msdn.microsoft.com/0cfb2bc3-cfa5-4806-9dcf-119541463e7b">SnmpGetLastError</a>. The 
@@ -262,7 +262,7 @@ The Microsoft WinSNMP implementation allocates resources to the WinSNMP applicat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377995(v=VS.85).aspx">smiOCTETS</a>
+<a href="https://msdn.microsoft.com/d53da0e8-ce7d-4923-90c3-2469cbd9d9b1">smiOCTETS</a>
  
 
  

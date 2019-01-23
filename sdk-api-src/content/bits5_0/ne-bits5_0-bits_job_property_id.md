@@ -50,7 +50,7 @@ req.redist:
 
 The <b>BITS_JOB_PROPERTY_ID</b> enumeration specifies the 
     ID of the property for the BITS job. This enumeration is used in the 
-    <a href="https://msdn.microsoft.com/DF1DDB37-F16F-47FF-B6C1-8C545A827CCB">BITS_JOB_PROPERTY_VALUE</a> union to determine the 
+    <a href="https://msdn.microsoft.com/en-us/library/Hh446784(v=VS.85).aspx">BITS_JOB_PROPERTY_VALUE</a> union to determine the 
     type of value contained in the union.
 
 
@@ -142,15 +142,15 @@ The requirements for a <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> job is that the t
 
 
 
-<a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/DF1DDB37-F16F-47FF-B6C1-8C545A827CCB">BITS_JOB_PROPERTY_VALUE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446784(v=VS.85).aspx">BITS_JOB_PROPERTY_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B321E80-333A-49F3-B36F-18652F2C92FE">BITS_JOB_TRANSFER_POLICY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446785(v=VS.85).aspx">BITS_JOB_TRANSFER_POLICY</a>
 
 
 

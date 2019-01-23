@@ -95,13 +95,9 @@ The thumbnail registration handle obtained by this function is not globally uniq
 
 The following example demonstrates how to register the desktop thumbnail.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT UpdateDesktop(HWND hwnd)
 {
 	HRESULT hr = S_OK;
@@ -109,16 +105,16 @@ HRESULT UpdateDesktop(HWND hwnd)
 	// Register the thumbnail
 	HTHUMBNAIL thumbnail = NULL;
 
-	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &amp;thumbnail);
+	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &thumbnail);
 	if (SUCCEEDED(hr))
 	{
 		// Display the thumbnail using DwmUpdateThumbnailProperties
 	}
 	return hr;	
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

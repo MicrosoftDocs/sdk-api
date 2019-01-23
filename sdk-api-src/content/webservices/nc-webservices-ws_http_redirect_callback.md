@@ -63,7 +63,7 @@ Invoked when a message is about to be automatically
 
 ### -param *state [in]
 
-The 'state' as specified as part of <a href="https://msdn.microsoft.com/2348fcdb-2f76-4a30-91c4-ed7d63012da1">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
+The 'state' as specified as part of <a href="https://msdn.microsoft.com/en-us/library/Dd401919(v=VS.85).aspx">WS_HTTP_REDIRECT_CALLBACK_CONTEXT</a> 'state' field.
                 
 
 

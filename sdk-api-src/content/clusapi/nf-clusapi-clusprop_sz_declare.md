@@ -88,21 +88,17 @@ ClusAPI.h defines <b>CLUSPROP_SZ_DECLARE</b> as follows:
 The following example shows how to use 
      <b>CLUSPROP_SZ_DECLARE</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR szNameData[] = L"Object Name";
+
+```cpp
+WCHAR szNameData[] = L"Object Name";
 CLUSPROP_SZ_DECLARE( NameValue, sizeof( szNameData ) / sizeof( WCHAR ) );
 NameValue.Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 NameValue.cbLength = sizeof( szNameData );
 StringCbCopy( NameValue.sz, NameValue.cbLength, szNameData );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -59,7 +59,7 @@ The <b>LsaUnregisterPolicyChangeNotification</b> function disables a previously 
 ### -param InformationClass [in]
 
 A 
-<a href="https://msdn.microsoft.com/cf8eea7a-d3b0-4c3a-b05b-3027024ab025">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the policy changes that your application will stop receiving notifications for. Specify one of the following values. 
+<a href="https://msdn.microsoft.com/en-us/library/ms721909(v=VS.85).aspx">POLICY_NOTIFICATION_INFORMATION_CLASS</a> value that specifies the policy changes that your application will stop receiving notifications for. Specify one of the following values. 
 
 
 

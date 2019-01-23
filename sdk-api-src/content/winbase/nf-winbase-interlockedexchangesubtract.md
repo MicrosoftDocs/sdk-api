@@ -4,7 +4,7 @@ title: InterlockedExchangeSubtract function
 author: windows-sdk-content
 description: Performs an atomic subtraction of two values.
 old-location: base\interlockedexchangesubtract.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
 ms.author: windowssdkdev
 ms.date: 12/5/2018

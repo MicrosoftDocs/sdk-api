@@ -72,7 +72,7 @@ The <b>IXpsOMRemoteDictionaryResource1</b> interface has these methods.
 <a href="https://msdn.microsoft.com/C8A55D98-0E3C-448B-9E67-575D5B66535D">GetDocumentType</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/C34629CB-7F8C-4126-BBE3-BF506D7586E9">XPS_DOCUMENT_TYPE</a> of the resource.
+Gets the <a href="https://msdn.microsoft.com/en-us/library/Hh832138(v=VS.85).aspx">XPS_DOCUMENT_TYPE</a> of the resource.
 
 </td>
 </tr>

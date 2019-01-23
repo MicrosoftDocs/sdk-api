@@ -83,7 +83,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa394030(v=VS.85).aspx">WBEMTime::IsOk</a>
+<a href="https://msdn.microsoft.com/e2d53db3-b247-40ac-9a8f-c6fef9f4e0d3">WBEMTime::IsOk</a>
  
 
  

@@ -76,7 +76,7 @@ Voice communications (talking to another person).
 
 ### -field ERole_enum_count
 
-The number of members in the <a href="https://msdn.microsoft.com/0d0d3174-8489-4951-858c-024d58477ae0">ERole</a> enumeration (not counting the ERole_enum_count member).
+The number of members in the <a href="https://msdn.microsoft.com/en-us/library/Dd370842(v=VS.85).aspx">ERole</a> enumeration (not counting the ERole_enum_count member).
 
 
 ## -remarks

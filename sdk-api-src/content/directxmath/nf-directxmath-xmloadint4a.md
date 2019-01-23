@@ -80,13 +80,9 @@ To convert the loaded <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR vectorOut;
+
+```
+XMVECTOR vectorOut;
 
 uint32_t* pElement = (uint32_t*)pSource;
 
@@ -97,10 +93,8 @@ V.u[1] = pElement[1];
 V.u[2] = pElement[2];
 V.u[3] = pElement[3];
 	
-return vectorOut;</pre>
-</td>
-</tr>
-</table></span></div>
+return vectorOut;
+```
 
 
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>

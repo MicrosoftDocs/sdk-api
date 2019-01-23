@@ -65,7 +65,7 @@ The time stamp of the last batch of commands to be processed by the composition 
 
 ### -field currentCompositionRate
 
-Type: <b><a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a></b>
 
 The rate at which the composition engine is producing frames, in frames per second.
 
@@ -74,7 +74,7 @@ The rate at which the composition engine is producing frames, in frames per seco
 
 Type: <b><a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a></b>
 
-The current time as computed by the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> function.
+The current time as computed by the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> function.
 
 
 ### -field timeFrequency
@@ -95,7 +95,7 @@ The estimated time when the next frame will be displayed.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh437415(v=VS.85).aspx">IDCompositionDevice::GetFrameStatistics</a> method fills this structure. An application can use the information in this structure to estimate the timestamp of the next few frames that will be started by the composition engine. Note that this is only an estimate because the composition engine may or may not compose the next frame, depending on whether any active animations or other work are pending for that frame. In addition, the composition engine may change frame rates according to the cost of composing individual frames.
+The <a href="https://msdn.microsoft.com/C4DB7A16-BF91-4CD0-BCD2-4793D9599E0A">IDCompositionDevice::GetFrameStatistics</a> method fills this structure. An application can use the information in this structure to estimate the timestamp of the next few frames that will be started by the composition engine. Note that this is only an estimate because the composition engine may or may not compose the next frame, depending on whether any active animations or other work are pending for that frame. In addition, the composition engine may change frame rates according to the cost of composing individual frames.
 
 
 
@@ -105,7 +105,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Hh437415(v=VS.85).aspx">ID
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437415(v=VS.85).aspx">IDCompositionDevice::GetFrameStatistics</a>
+<a href="https://msdn.microsoft.com/C4DB7A16-BF91-4CD0-BCD2-4793D9599E0A">IDCompositionDevice::GetFrameStatistics</a>
  
 
  

@@ -50,7 +50,7 @@ req.redist:
 
 
 Contains the kinds of virtual hard disk (VHD) information that you can retrieve. For more information, 
-    see <a href="https://msdn.microsoft.com/666c1d6e-cf23-4452-98ea-e7d4c31c3d3b">GET_VIRTUAL_DISK_INFO</a>.
+    see <a href="https://msdn.microsoft.com/en-us/library/Dd323674(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO</a>.
 
 
 ## -enum-fields
@@ -166,11 +166,11 @@ The state of resilient change tracking (RCT) for the virtual disk.
 
 
 
-<a href="https://msdn.microsoft.com/666c1d6e-cf23-4452-98ea-e7d4c31c3d3b">GET_VIRTUAL_DISK_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323674(v=VS.85).aspx">GET_VIRTUAL_DISK_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3832be0-e9b8-4f6a-a663-06349c7fd639">GetVirtualDiskInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd323670(v=VS.85).aspx">GetVirtualDiskInformation</a>
 
 
 

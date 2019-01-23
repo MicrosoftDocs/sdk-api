@@ -66,9 +66,9 @@ Windows handle to a metafile.
 
 ### -param wmfPlaceableFileHeader [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d8315d7d-b613-4175-b7cd-7a36cb411a12">WmfPlaceableFileHeader</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534075(v=VS.85).aspx">WmfPlaceableFileHeader</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/d8315d7d-b613-4175-b7cd-7a36cb411a12">WmfPlaceableFileHeader</a> structure that specifies a preheader preceding the metafile header. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534075(v=VS.85).aspx">WmfPlaceableFileHeader</a> structure that specifies a preheader preceding the metafile header. 
 
 
 ### -param deleteWmf [in]
@@ -92,11 +92,11 @@ Placeable metafiles are WMF files that contain a preheader preceding the metafil
 
 
 
-<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/43c3a37c-0703-4bb5-9091-c33f6a388995">PWMFRect16</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534071(v=VS.85).aspx">PWMFRect16</a>
  
 
  

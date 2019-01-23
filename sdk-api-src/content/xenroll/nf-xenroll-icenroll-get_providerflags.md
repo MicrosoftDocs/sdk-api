@@ -102,13 +102,9 @@ The <b>ProviderFlags</b> property affects the behavior of the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD    dwProvFlags;
+
+```cpp
+DWORD    dwProvFlags;
 HRESULT  hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
@@ -124,10 +120,8 @@ hr = pEnroll->put_ProviderFlags(CRYPT_MACHINE_KEYSET);
 if (FAILED( hr ))
     printf("Failed put_ProviderFlags - %x\n", hr );
 else
-    printf( "ProviderFlags set to %d\n", CRYPT_MACHINE_KEYSET  );</pre>
-</td>
-</tr>
-</table></span></div>
+    printf( "ProviderFlags set to %d\n", CRYPT_MACHINE_KEYSET  );
+```
 
 
 

@@ -74,7 +74,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For information on audio stream categories, see <a href="https://msdn.microsoft.com/B6B9195A-2704-4633-AFCF-B01CED6B6DB4">AUDIO_STREAM_CATEGORY enumeration</a>.
+For information on audio stream categories, see <a href="https://msdn.microsoft.com/en-us/library/Hh404178(v=VS.85).aspx">AUDIO_STREAM_CATEGORY enumeration</a>.
 
 
 

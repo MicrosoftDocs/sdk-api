@@ -80,13 +80,9 @@ For every successful call to <a href="https://msdn.microsoft.com/5ddce73f-c693-4
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPCLOSE* pfnClose;
+
+```cpp
+FNCERTSRVBACKUPCLOSE* pfnClose;
 char * szBackupCloseFunc = "CertSrvBackupClose";
 HRESULT    hr=0;
 
@@ -109,10 +105,10 @@ if (FAILED(hr))
 {
     printf("Failed pfnClose call [%x]\n", hr);
     exit(1);  // Or other appropriate error action.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

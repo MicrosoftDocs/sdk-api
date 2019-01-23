@@ -90,18 +90,14 @@ The following example shows the use of <b>IID_PPV_ARGS</b> to create the memory 
  
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IPropertyStore *pPropertyStore;
+
+```
+IPropertyStore *pPropertyStore;
                     
 CoCreateInstance(CLSID_PropertyStore, NULL, CLSCTX_INPROC_SERVER, 
-                 IID_PPV_ARGS(&amp;pPropertyStore));</pre>
-</td>
-</tr>
-</table></span></div>
+                 IID_PPV_ARGS(&pPropertyStore));
+```
+
+
 
 

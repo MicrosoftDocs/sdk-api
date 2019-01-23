@@ -103,7 +103,7 @@ Code segment information will be written to the minidump file. This value will o
 
 
 
-<a href="https://msdn.microsoft.com/57949087-0f22-40c8-ab56-326a8304c310">MINIDUMP_CALLBACK_OUTPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680363(v=VS.85).aspx">MINIDUMP_CALLBACK_OUTPUT</a>
 
 
 

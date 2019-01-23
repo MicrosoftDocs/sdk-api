@@ -70,7 +70,7 @@ Not used with this operation; set to zero.
 ### -output-buffer
 
   A pointer to a buffer that receives a 
-<a href="https://msdn.microsoft.com/F1F2C867-2607-40AD-92B7-E7C07304D885">VM_GENCOUNTER</a> data structure.
+<a href="https://msdn.microsoft.com/en-us/library/Dn508292(v=VS.85).aspx">VM_GENCOUNTER</a> data structure.
 
 
 ### -output-buffer-length
@@ -183,7 +183,7 @@ Not used with this operation; set to zero.
 </td>
 <td width="60%">
   A pointer to a buffer that receives a 
-<a href="https://msdn.microsoft.com/F1F2C867-2607-40AD-92B7-E7C07304D885">VM_GENCOUNTER</a> data structure.
+<a href="https://msdn.microsoft.com/en-us/library/Dn508292(v=VS.85).aspx">VM_GENCOUNTER</a> data structure.
 
 </td>
 </tr>
@@ -271,7 +271,7 @@ For info about the virtual machine generation identifier, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/F1F2C867-2607-40AD-92B7-E7C07304D885">VM_GENCOUNTER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn508292(v=VS.85).aspx">VM_GENCOUNTER</a>
  
 
  

@@ -58,7 +58,7 @@ Creates a 2D skew transform object.
 
 ### -param skewTransform [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh449057(v=VS.85).aspx">IDCompositionSkewTransform</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/c1dbc11f-b8e3-487e-84f0-517ebaf65de8">IDCompositionSkewTransform</a>**</b>
 
 The new 2D skew transform object. This parameter must not be NULL.
 
@@ -88,7 +88,7 @@ A new 2D skew transform object has a static value of zero for the AngleX, AngleY
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437392(v=VS.85).aspx">IDCompositionDevice</a>
+<a href="https://msdn.microsoft.com/081a14ed-c152-4e0a-b85b-1111d825ce53">IDCompositionDevice</a>
 
 
 

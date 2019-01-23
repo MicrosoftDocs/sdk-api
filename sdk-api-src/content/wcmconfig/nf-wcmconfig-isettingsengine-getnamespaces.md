@@ -58,7 +58,7 @@ Returns an enumerator to the installed namespaces.
 
 ### -param Flags [in]
 
-A <a href="https://msdn.microsoft.com/606fad95-1f93-4e16-9be5-2ebd52b91180">WcmNamespaceEnumerationFlags</a> value that specifies the context to include in the collection of namespaces.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa378605(v=VS.85).aspx">WcmNamespaceEnumerationFlags</a> value that specifies the context to include in the collection of namespaces.
 
 
 ### -param Reserved [in]

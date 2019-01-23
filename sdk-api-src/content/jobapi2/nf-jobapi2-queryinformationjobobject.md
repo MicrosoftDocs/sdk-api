@@ -101,7 +101,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://msdn.microsoft.com/5c3e4002-d4d2-4a8c-ab0c-f6bcdd62947a">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/ms684144(v=VS.85).aspx">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -259,7 +259,7 @@ The <i>lpJobObjectInfo</i> parameter is a pointer to a
 </td>
 <td width="60%">
 The <i>lpJobObjectInfo</i> parameter is a pointer to a 
-<a href="https://msdn.microsoft.com/39cf5f26-dfc1-4f1d-aae4-5f29e277834f">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a> structure. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh448386(v=VS.85).aspx">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a> structure. 
 
 <b>Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This flag is not supported.
 
@@ -349,7 +349,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/5c3e4002-d4d2-4a8c-ab0c-f6bcdd62947a">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684144(v=VS.85).aspx">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
 
 
 
@@ -389,7 +389,7 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 
-<a href="https://msdn.microsoft.com/39cf5f26-dfc1-4f1d-aae4-5f29e277834f">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448386(v=VS.85).aspx">JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION</a>
 
 
 

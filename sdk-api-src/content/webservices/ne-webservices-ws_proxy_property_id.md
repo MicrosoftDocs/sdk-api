@@ -88,16 +88,16 @@ The following message properties may be specified:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_HEAP_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_READER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_XML_WRITER_PROPERTIES</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd401959(v=VS.85).aspx">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
+<a href="https://msdn.microsoft.com/7398225c-afbd-45c6-9a32-8b8892f0ff8a">WS_MESSAGE_PROPERTY_MAX_PROCESSED_HEADERS</a>
 </li>
 </ul>
 
@@ -116,7 +116,7 @@ This property is write only.
 ### -field WS_PROXY_PROPERTY_STATE
 
 The current state of the service proxy.
-                It is of type <a href="https://msdn.microsoft.com/en-us/library/Dd323433(v=VS.85).aspx">WS_SERVICE_PROXY_STATE</a>.
+                It is of type <a href="https://msdn.microsoft.com/82156e64-ae95-4a4a-aaad-e3dd69832c97">WS_SERVICE_PROXY_STATE</a>.
 
 This property is read only.
                 

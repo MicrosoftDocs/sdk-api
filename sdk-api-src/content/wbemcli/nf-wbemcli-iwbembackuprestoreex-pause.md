@@ -80,17 +80,13 @@ When implementing the <b>Pause</b> method, the <a href="https://msdn.microsoft.c
 
 The following C++ example shows how to correctly call the <b>IWbemBackupRestoreEx::Pause</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// The pInt variable is of type IWbemBackupRestoreEx*
-pInt-&gt;Pause();</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+// The pInt variable is of type IWbemBackupRestoreEx*
+pInt->Pause();
+```
+
+
 
 
 

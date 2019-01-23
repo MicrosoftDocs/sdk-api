@@ -4,7 +4,7 @@ title: CreateBoundaryDescriptorA function
 author: windows-sdk-content
 description: Creates a boundary descriptor.
 old-location: base\createboundarydescriptor.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: c7789e90-8dfb-47ee-a0b2-906520982d84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

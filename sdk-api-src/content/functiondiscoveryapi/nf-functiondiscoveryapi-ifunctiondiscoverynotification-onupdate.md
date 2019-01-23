@@ -4,7 +4,7 @@ title: IFunctionDiscoveryNotification::OnUpdate
 author: windows-sdk-content
 description: Indicates that a function instance has been added, removed, or changed.
 old-location: ncd\ifunctiondiscoverynotification_onupdate_method.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: ab4d0fc6-de3f-49cf-b53c-573222a8bc89
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -60,7 +60,7 @@ Indicates that a function instance has been added, removed, or changed. This met
 
 ### -param enumQueryUpdateAction [in]
 
-A <a href="https://msdn.microsoft.com/ae3a4fe2-1b1f-4a8d-9b5d-361a7ece315d">QueryUpdateAction</a> value that specifies the type of action Function Discovery is performing on the specified function instance.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa364788(v=VS.85).aspx">QueryUpdateAction</a> value that specifies the type of action Function Discovery is performing on the specified function instance.
 
 
 ### -param fdqcQueryContext [in]
@@ -127,13 +127,9 @@ Because other <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599f
 
 The following code shows an OnUpdate handler implementation. The <b>CMyNotificationListener</b> class is defined in the <a href="https://msdn.microsoft.com/1819fe08-b151-482d-8e2c-1d599fd15609">IFunctionDiscoveryNotification</a> topic.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include <windows.h>
+
+```cpp
+#include <windows.h>
 
 HRESULT STDMETHODCALLTYPE CMyNotificationListener::OnUpdate(
                                           IN QueryUpdateAction Action,
@@ -155,10 +151,8 @@ HRESULT STDMETHODCALLTYPE CMyNotificationListener::OnUpdate(
     }
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

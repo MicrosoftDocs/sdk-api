@@ -4,7 +4,7 @@ title: InitOnceBeginInitialize function
 author: windows-sdk-content
 description: Begins one-time initialization.
 old-location: base\initoncebegininitialize.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

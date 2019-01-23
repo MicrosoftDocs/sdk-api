@@ -4,7 +4,7 @@ title: IPNPXDeviceAssociation::Unassociate
 author: windows-sdk-content
 description: Marks an association database entry as unassociated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_unassociate.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
 ms.author: windowssdkdev
 ms.date: 12/5/2018

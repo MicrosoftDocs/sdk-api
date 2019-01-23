@@ -56,7 +56,7 @@ Represents a clip object that is used to restrict the rendering of a visual subt
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh437434(v=VS.85).aspx">IDCompositionRectangleClip</a>
+<a href="https://msdn.microsoft.com/486bcdb9-e353-4ca2-b24c-af863dda7470">IDCompositionRectangleClip</a>
 
 
 

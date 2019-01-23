@@ -140,7 +140,7 @@ You must call the <b>InitializeInstallDefaults</b> method before calling any met
 
 
 
-<a href="https://msdn.microsoft.com/344701CA-089C-4152-BDA4-249728863180">CEPSetupProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff808352(v=VS.85).aspx">CEPSetupProperty</a>
 
 
 

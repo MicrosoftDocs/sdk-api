@@ -4,7 +4,7 @@ title: IFunctionInstanceCollectionQuery
 author: windows-sdk-content
 description: Implements the asynchronous query for a collection of function instances based on category and subcategory.
 old-location: ncd\ifunctioninstancecollectionquery.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: ae279ac1-ed7a-431b-a5aa-d60f5f9a64b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

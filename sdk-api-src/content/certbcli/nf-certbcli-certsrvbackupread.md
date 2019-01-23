@@ -96,16 +96,12 @@ After opening the file for backup purposes (using
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certbcli.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <stdio.h>
+#include <Certbcli.h>
 
 #define BUFFSIZE 524288
 
@@ -133,9 +129,9 @@ if ( NULL == pfnRead )
 // To read the entire file, this code
 // would be placed in a loop.
 hr = pfnRead( hCSBC,
-              &amp;ReadBuff,
+              &ReadBuff,
               BUFFSIZE,
-              &amp;cbRead );
+              &cbRead );
 if (FAILED(hr))
 {
     printf("Failed pfnRead call [%x]\n", hr);
@@ -145,10 +141,10 @@ if (FAILED(hr))
 // Use the bytes read as needed. For example,
 // in an application-specific routine to back
 // up the file contents.
-// ...</pre>
-</td>
-</tr>
-</table></span></div>
+// ...
+```
+
+
 
 
 

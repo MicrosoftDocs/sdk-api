@@ -68,11 +68,11 @@ An array of security property constraints which override the default
 
 If a security property constraint is not specified for a given property,
                     then a default constraint value will be used.
-                    See <a href="https://msdn.microsoft.com/382d75be-2c56-44f5-8069-740ad9b9d1c4">WS_SECURITY_PROPERTY_CONSTRAINT</a> for the
+                    See <a href="https://msdn.microsoft.com/en-us/library/Dd323408(v=VS.85).aspx">WS_SECURITY_PROPERTY_CONSTRAINT</a> for the
                     supported set of properties and their default values.
                 
 
-Note that the defaults constraints for <a href="https://msdn.microsoft.com/382d75be-2c56-44f5-8069-740ad9b9d1c4">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
+Note that the defaults constraints for <a href="https://msdn.microsoft.com/en-us/library/Dd323408(v=VS.85).aspx">WS_SECURITY_PROPERTY_CONSTRAINT</a> 
                     are the same as the defaults for <a href="https://msdn.microsoft.com/676079cd-6ca8-486b-9604-172423210ad5">WS_SECURITY_PROPERTY</a>.
                 
 
@@ -93,7 +93,7 @@ Any array of security binding constraints which taken as a unit specify
                     the type of security to match in the policy.
                 
 
-The type of each <a href="https://msdn.microsoft.com/d79795ea-6780-4d13-9d40-bd1ea7cd5113">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
+The type of each <a href="https://msdn.microsoft.com/en-us/library/Dd323381(v=VS.85).aspx">WS_SECURITY_BINDING_CONSTRAINT</a> corresponds
                     to the types of security that is specified using a <a href="https://msdn.microsoft.com/6c0663e8-ae73-41a2-9273-50f53534926b">WS_SECURITY_BINDING</a>structure.  Each security binding specifies one security token, and similarly,
                     each security binding constraint specifies constraints on one security token.
                 

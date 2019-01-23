@@ -92,13 +92,9 @@ This example demonstrates the use of <a href="https://msdn.microsoft.com/0aa99a6
 
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex)
+
+```
+void MyUpdateImage(LPCWSTR pszHashItem, int iIndex, UINT uFlags, int iImageIndex)
 {
     SHChangeUpdateImageIDList rgPidl;
     SHChangeDWORDAsIDList rgDWord;
@@ -106,14 +102,14 @@ This example demonstrates the use of <a href="https://msdn.microsoft.com/0aa99a6
     USHORT *pcb;
 
     // Validate parameters: iImageIndex must be a valid system image list value.
-    if (iImageIndex &lt; 0)
+    if (iImageIndex < 0)
     {
         return;
     }
 
     // Validate parameters: pszHashItem must not exceed MAX_PATH in length
     cchLen = lstrlenW(pszHashItem);
-    if (cchLen &gt;= MAX_PATH)
+    if (cchLen >= MAX_PATH)
     {
         return;
     }
@@ -124,7 +120,7 @@ This example demonstrates the use of <a href="https://msdn.microsoft.com/0aa99a6
     rgPidl.iCurIndex = iImageIndex;
     rgPidl.uFlags = uFlags;
     lstrcpynW(rgPidl.szName, pszHashItem, MAX_PATH);
-    pcb = &amp;amp;rgPidl.szName[cchLen+1];
+    pcb = &rgPidl.szName[cchLen+1];
     
     // Set the size of the first element
     rgPidl.cb = (USHORT)((BYTE*)pcb - (BYTE*)rgPidl); 
@@ -139,11 +135,11 @@ This example demonstrates the use of <a href="https://msdn.microsoft.com/0aa99a6
     rgDWord.cbZero = 0;
 
     // Parameters are now in the form that SHCNE_UPDATEIMAGE can accept
-    SHChangeNotify(SHCNE_UPDATEIMAGE, SHCNF_IDLIST, &amp;rgDWord, &amp;rgPidl);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    SHChangeNotify(SHCNE_UPDATEIMAGE, SHCNF_IDLIST, &rgDWord, &rgPidl);
+}
+```
+
+
 
 
 

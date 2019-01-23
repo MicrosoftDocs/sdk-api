@@ -60,7 +60,7 @@ The <b>FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</b> structure is  used to subscribe f
 
 Notifications are only dispatched for objects that match the template. If the template is <b>NULL</b>, it matches all objects.
 
-See <a href="https://msdn.microsoft.com/0d43931a-93ae-43dd-9c5b-3989799e7b60">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> for more information
+See <a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> for more information
 
 
 ### -field flags
@@ -115,7 +115,7 @@ Uniquely identifies this session.
 
 
 
-<a href="https://msdn.microsoft.com/0d43931a-93ae-43dd-9c5b-3989799e7b60">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa364296(v=VS.85).aspx">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 

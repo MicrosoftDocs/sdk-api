@@ -130,7 +130,7 @@ For an overview of what is involved in building synchronization providers using 
 
 
 
-<a href="https://msdn.microsoft.com/4fdb7123-d8c8-4ed7-9009-0e772252bbb7">SYNC_SERIALIZATION_VERSION Enumeration</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317256(v=VS.85).aspx">SYNC_SERIALIZATION_VERSION Enumeration</a>
  
 
  

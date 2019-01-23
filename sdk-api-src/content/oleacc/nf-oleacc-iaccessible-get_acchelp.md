@@ -137,13 +137,9 @@ This property returns a string, whereas <a href="https://msdn.microsoft.com/a8f4
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code shows one possible implementation of this method for a custom list box. Different text is displayed depending on the status of the contact in the list. For simplicity, the example does not localize the returned string.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // m_pControl is the custom control that returns this accessible object. 
 // 'online' is an enumerated value. 
 
@@ -163,12 +159,12 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accHelp(
     else
     {
         int index = (int)varChild.lVal - 1;
-        CustomListControlItem* pItem = m_pControl-&gt;GetItemAt(index);
+        CustomListControlItem* pItem = m_pControl->GetItemAt(index);
         if (pItem == NULL)
         {
             return E_INVALIDARG;
         }
-        if (pItem-&gt;GetStatus() == online)
+        if (pItem->GetStatus() == online)
         {
             *pszHelp = SysAllocString(L"Online contact.");
         }
@@ -179,10 +175,10 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accHelp(
     }
     return S_OK;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -111,7 +111,7 @@ This attribute is supported only by the Schannel security package.
 <td width="60%">
 The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt829323(v=VS.85).aspx">SecPkgContext_EarlyStart</a> structure.
 
-Sets the False Start feature. See  the <a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Building a faster and more secure web</a> blog post for information on this feature.
+Sets the False Start feature. See  the <a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Building a faster and more secure web</a> blog post for information on this feature.
 
 </td>
 </tr>

@@ -4,7 +4,7 @@ title: IPNPXAssociation::Delete
 author: windows-sdk-content
 description: Removes an entry from the association database.
 old-location: ncd\ipnpxassociation_delete.htm
-tech.root: fundisc
+tech.root: FunDisc
 ms.assetid: cc00c135-140d-4e05-9180-779917d88688
 ms.author: windowssdkdev
 ms.date: 12/5/2018

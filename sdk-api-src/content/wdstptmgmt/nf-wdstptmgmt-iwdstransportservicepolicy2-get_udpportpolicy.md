@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Recieves the <a href="https://msdn.microsoft.com/A2049125-B40A-44F0-83AF-C3F5B983ABAE">WDSTRANSPORT_UDP_PORT_POLICY</a> value that specifies the UDP port allocation policy to be used by WDS transport services.  The value enables a WDS client computer to configure the UDP port allocation policy.
+Recieves the <a href="https://msdn.microsoft.com/en-us/library/Hh448724(v=VS.85).aspx">WDSTRANSPORT_UDP_PORT_POLICY</a> value that specifies the UDP port allocation policy to be used by WDS transport services.  The value enables a WDS client computer to configure the UDP port allocation policy.
 
 This property is read/write.
 
@@ -67,7 +67,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/A2049125-B40A-44F0-83AF-C3F5B983ABAE">WDSTRANSPORT_UDP_PORT_POLICY</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh448724(v=VS.85).aspx">WDSTRANSPORT_UDP_PORT_POLICY</a>
  
 
  

@@ -72,23 +72,19 @@ Two element <code>float</code> array containing the values used to initialize th
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 	XMFLOAT2 instance;
 	instance.x = pArray[0];
 	instance.y = pArray[1];
 	instance.z = pArray[2];
 	instance.w = pArray[3];
 
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

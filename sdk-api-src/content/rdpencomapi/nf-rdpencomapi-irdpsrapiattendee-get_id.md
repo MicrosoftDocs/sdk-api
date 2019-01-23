@@ -76,7 +76,7 @@ If an attendee disconnects, the attendee object will be destroyed. If the attend
 
 
 
-<a href="https://msdn.microsoft.com/50c56089-75f9-41c9-a4a4-10556f98d6e8">RDPENCOMAPI_CONSTANTS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373857(v=VS.85).aspx">RDPENCOMAPI_CONSTANTS</a>
  
 
  

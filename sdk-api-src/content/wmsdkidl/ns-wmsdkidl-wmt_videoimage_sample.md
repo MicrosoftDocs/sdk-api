@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="https://msdn.microsoft.com/0c4fa9e2-9b7b-4c9e-be58-e28da408337d">WMT_VIDEOIMAGE_SAMPLE2</a>.]
+<p class="CCE_Message">[This structure is no longer available for use as of the Windows Media Video 9 Image v2 codec. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Dd757862(v=VS.85).aspx">WMT_VIDEOIMAGE_SAMPLE2</a>.]
 
 The <b>WMT_VIDEOIMAGE_SAMPLE</b> structure describes a sample for a Video Image stream that uses the Windows Media Video 9 Image codec.
 

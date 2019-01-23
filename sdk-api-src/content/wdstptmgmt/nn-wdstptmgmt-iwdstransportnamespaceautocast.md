@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The WDS transport server can create, start, and end multicast sessions that are hosted by a namespace object of  this interface. This type of namespace is represented by the <b>WdsTptNamespaceTypeAutoCast</b> value of the <a href="https://msdn.microsoft.com/baba27d2-6df1-4261-b98d-9728ecbb56f2">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
+The WDS transport server can create, start, and end multicast sessions that are hosted by a namespace object of  this interface. This type of namespace is represented by the <b>WdsTptNamespaceTypeAutoCast</b> value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736538(v=VS.85).aspx">WDSTRANSPORT_NAMESPACE_TYPE</a> enumeration.
 
 
 ## -see-also

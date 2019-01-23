@@ -117,13 +117,9 @@ The image brush can be used to fill an arbitrary geometry, an opacity mask or te
 
 This sample illustrates drawing a rectangle with an image brush.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 CreatePatternBrush(
      __in ID2D1DeviceContext *pDeviceContext,
      __deref_out ID2D1ImageBrush **ppImageBrush
@@ -131,24 +127,24 @@ CreatePatternBrush(
 {
     HRESULT hr = S_OK;
     ID2D1Image *pOldTarget = NULL;
-    pDeviceContext-&gt;GetTarget(&amp;pOldTarget);
+    pDeviceContext->GetTarget(&pOldTarget);
 
     ID2D1CommandList *pCommandList = NULL;
-    hr = pDeviceContext-&gt;CreateCommandList(&amp;pCommandList);
+    hr = pDeviceContext->CreateCommandList(&pCommandList);
      
     if (SUCCEEDED(hr))
     {   
-        pDeviceContext-&gt;SetTarget(pCommandList);
+        pDeviceContext->SetTarget(pCommandList);
         hr = RenderPatternToCommandList(pDeviceContext);
     }
 
-    pDeviceContext-&gt;SetTarget(pOldTarget);
+    pDeviceContext->SetTarget(pOldTarget);
 
     ID2D1ImageBrush *pImageBrush = NULL;
 
     if (SUCCEEDED(hr))
     {        
-         hr = pDeviceContext-&gt;CreateImageBrush(
+         hr = pDeviceContext->CreateImageBrush(
             pCommandList,
             D2D1::ImageBrushProperties(
                 D2D1::RectF(198, 298, 370, 470),
@@ -156,25 +152,25 @@ CreatePatternBrush(
                 D2D1_EXTEND_MODE_WRAP,
                 D2D1_INTERPOLATION_MODE_LINEAR
                 ),
-            &amp;pImageBrush
+            &pImageBrush
             );
     }
     
     // Fill a rectangle with the image brush.
     if (SUCCEEDED(hr))
     {
-        pDeviceContext-&gt;FillRectangle(
+        pDeviceContext->FillRectangle(
             D2D1::RectF(0, 0, 100, 100), pImageBrush);
     }
 
-    SafeRelease(&amp;pImageBrush);
-    SafeRelease(&amp;pCommandList);
-    SafeRelease(&amp;pOldTarget);
+    SafeRelease(&pImageBrush);
+    SafeRelease(&pCommandList);
+    SafeRelease(&pOldTarget);
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -58,7 +58,7 @@ req.redist:
 
 ### -field status
 
-An <a href="https://msdn.microsoft.com/e1d0ff30-955c-4998-ae01-5dbadf3f4123">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa363583(v=VS.85).aspx">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
 
 
 ### -field dwErrorCode
@@ -80,7 +80,7 @@ A reason code that specifies the reason the error in <b>dwErrorCode</b> was rais
 
 
 
-<a href="https://msdn.microsoft.com/adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc">EapHostPeerAuthParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363548(v=VS.85).aspx">EapHostPeerAuthParams</a>
 
 
 

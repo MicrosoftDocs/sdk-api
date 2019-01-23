@@ -4,7 +4,7 @@ title: PTIMERAPCROUTINE
 author: windows-sdk-content
 description: An application-defined timer completion routine. Specify this address when calling the SetWaitableTimer function.
 old-location: base\timerapcproc.htm
-tech.root: sync
+tech.root: Sync
 ms.assetid: 4e9f7bee-9c39-40d2-8588-0b3a1d7f9ede
 ms.author: windowssdkdev
 ms.date: 12/5/2018

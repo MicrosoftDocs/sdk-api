@@ -59,7 +59,7 @@ The
 
 ### -field scopl_header
 
-Scope header, in the form of an <a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a> structure.
+Scope header, in the form of an <a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a> structure.
 
 
 ### -field scope_u
@@ -70,7 +70,7 @@ Union containing scope list information.
 
 #### scopl_ipv4
 
-RSVP scope list, in the form of a <a href="https://msdn.microsoft.com/en-us/library/Aa374416(v=VS.85).aspx">Scope_list_ipv4</a> structure.
+RSVP scope list, in the form of a <a href="https://msdn.microsoft.com/f1651371-d192-45d9-9a9e-d272b624f40d">Scope_list_ipv4</a> structure.
 
 
 ### -field scopl_ipv4
@@ -85,11 +85,11 @@ RSVP scope list, in the form of a <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374125(v=VS.85).aspx">RsvpObjHdr</a>
+<a href="https://msdn.microsoft.com/90a237c0-0e62-4f27-927a-e3f3c1ac629e">RsvpObjHdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374416(v=VS.85).aspx">Scope_list_ipv4</a>
+<a href="https://msdn.microsoft.com/f1651371-d192-45d9-9a9e-d272b624f40d">Scope_list_ipv4</a>
  
 
  

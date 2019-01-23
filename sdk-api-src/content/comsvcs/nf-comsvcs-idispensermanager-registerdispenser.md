@@ -58,7 +58,7 @@ Registers the resource dispenser with the dispenser manager.
 
 ### -param __MIDL__IDispenserManager0000 [in]
 
-The <a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a> interface the Resource Dispenser offers to the Dispenser Manager to use later to notify the Resource Dispenser.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686956(v=VS.85).aspx">IDispenserDriver</a> interface the Resource Dispenser offers to the Dispenser Manager to use later to notify the Resource Dispenser.
 
 
 ### -param szDispenserName [in]
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S_OK. Otherwise, it is E_FAIL.
 
 
 
-The Resource Dispenser notifies the Dispenser Manager that it has started and is prepared to accept notifications on this <a href="https://msdn.microsoft.com/dba9c616-031d-48a7-b3e3-eb28b95a573a">IDispenserDriver</a> interface. Then the Dispenser Manager creates the Holder for this new Resource Dispenser and returns it to the Resource Dispenser.
+The Resource Dispenser notifies the Dispenser Manager that it has started and is prepared to accept notifications on this <a href="https://msdn.microsoft.com/en-us/library/ms686956(v=VS.85).aspx">IDispenserDriver</a> interface. Then the Dispenser Manager creates the Holder for this new Resource Dispenser and returns it to the Resource Dispenser.
 
 
 
