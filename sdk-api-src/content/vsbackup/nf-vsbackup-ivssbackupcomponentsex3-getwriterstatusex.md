@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx3::GetWriterStatusEx
 author: windows-sdk-content
 description: Returns extended status information for the specified writer.
 old-location: base\ivssbackupcomponentsex3_getwriterstatusex.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ab2be2c0-04bb-4a56-a636-ebd2c06e844a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetIncludeFile
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getincludefile.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 1a47dbe9-f27d-4f84-bccd-6c7d46e9238b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

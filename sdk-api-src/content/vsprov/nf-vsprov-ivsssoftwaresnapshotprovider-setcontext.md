@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::SetContext
 author: windows-sdk-content
 description: Sets the context for subsequent shadow copy-related operations.
 old-location: base\ivsssoftwaresnapshotprovider_setcontext.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5e2ddd7e-dcb8-4a13-8889-2d0e9dd102f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

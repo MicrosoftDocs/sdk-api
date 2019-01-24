@@ -4,7 +4,7 @@ title: CVssWriter::OnPrepareBackup
 author: windows-sdk-content
 description: The OnPrepareBackup method is called by a writer following a PrepareForBackup event. This method is used to configure a writer's state and its components in preparation for a backup operation.
 old-location: base\cvsswriter_onpreparebackup.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 4e88d92b-48f3-42f9-bf66-61337a745902
 ms.author: windowssdkdev
 ms.date: 12/5/2018

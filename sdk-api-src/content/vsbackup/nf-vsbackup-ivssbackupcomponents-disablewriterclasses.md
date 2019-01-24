@@ -4,7 +4,7 @@ title: IVssBackupComponents::DisableWriterClasses
 author: windows-sdk-content
 description: The DisableWriterClasses method prevents a specific class of writers from receiving any events.
 old-location: base\ivssbackupcomponents_disablewriterclasses.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

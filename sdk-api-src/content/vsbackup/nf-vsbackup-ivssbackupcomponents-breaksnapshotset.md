@@ -4,7 +4,7 @@ title: IVssBackupComponents::BreakSnapshotSet
 author: windows-sdk-content
 description: The BreakSnapshotSet method causes the existence of a shadow copy set to be &#0034;forgotten&#0034; by VSS.
 old-location: base\ivssbackupcomponents_breaksnapshotset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 8c366f19-b10f-46cd-b5dc-cc3c77c5a008
 ms.author: windowssdkdev
 ms.date: 12/5/2018

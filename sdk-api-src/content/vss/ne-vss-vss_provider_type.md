@@ -4,7 +4,7 @@ title: VSS_PROVIDER_TYPE
 author: windows-sdk-content
 description: Specifies the provider type.
 old-location: base\vss_provider_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 76a85ff4-df3c-4280-a6f1-2a1cff96ccfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

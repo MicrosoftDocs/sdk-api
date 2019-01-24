@@ -4,7 +4,7 @@ title: IVssFileShareSnapshotProvider
 author: windows-sdk-content
 description: "."
 old-location: base\ivssfilesharesnapshotprovider.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 1af45503-2f6f-4266-a0d2-ffc74a7be16f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

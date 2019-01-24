@@ -4,7 +4,7 @@ title: IVssComponent::AddPartialFile
 author: windows-sdk-content
 description: The AddPartialFile method indicates that only portions of a given file are to be backed up and which portions those are.
 old-location: base\ivsscomponent_addpartialfile.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 318dc1ee-e63f-4e79-96b9-8a8bd83facd3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

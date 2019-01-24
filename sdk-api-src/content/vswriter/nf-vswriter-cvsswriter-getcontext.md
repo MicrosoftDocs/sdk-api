@@ -4,7 +4,7 @@ title: CVssWriter::GetContext
 author: windows-sdk-content
 description: The GetContext information returns the current context for any ongoing or possible shadow copies.
 old-location: base\cvsswriter_getcontext.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: efe2f43b-fbcf-4b30-a6d4-31d563d321c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssBackupComponents::PreRestore
 author: windows-sdk-content
 description: The PreRestore method will cause VSS to generate a PreRestore event, signaling writers to prepare for an upcoming restore operation.
 old-location: base\ivssbackupcomponents_prerestore.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 7a4c8869-9655-49a7-818b-98a08103f4b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

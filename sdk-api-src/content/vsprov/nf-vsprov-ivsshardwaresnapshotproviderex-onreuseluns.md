@@ -4,7 +4,7 @@ title: IVssHardwareSnapshotProviderEx::OnReuseLuns
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_onreuseluns.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 0a92c992-a351-4d39-a370-f720e50dfbf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

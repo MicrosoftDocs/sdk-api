@@ -4,7 +4,7 @@ title: IVssComponent
 author: windows-sdk-content
 description: The IVssComponent interface is a C++ (not COM) interface containing methods for examining and modifying information about components contained in a requester's Backup Components Document.
 old-location: base\ivsscomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c686a424-b0b9-4efc-8dc6-b92193de2a5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssComponent::GetNewTargetCount
 author: windows-sdk-content
 description: The GetNewTargetCount method returns the number of new target restore locations associated with a given component.
 old-location: base\ivsscomponent_getnewtargetcount.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b41afed9-2689-469e-b3c4-83cf18c5f8a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssProviderCreateSnapshotSet::PostFinalCommitSnapshots
 author: windows-sdk-content
 description: Supports auto-recover shadow copies.
 old-location: base\ivssprovidercreatesnapshotset_postfinalcommitsnapshots.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3b6f7e6e-f1ea-4c90-9d26-fcbe5e104e2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

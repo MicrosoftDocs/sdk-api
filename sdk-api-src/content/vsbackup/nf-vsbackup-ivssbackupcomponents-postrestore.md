@@ -4,7 +4,7 @@ title: IVssBackupComponents::PostRestore
 author: windows-sdk-content
 description: The PostRestore method will cause VSS to generate a PostRestore event, signaling writers that the current restore operation has finished.
 old-location: base\ivssbackupcomponents_postrestore.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

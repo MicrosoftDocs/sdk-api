@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c2410f49-7f92-4e32-947d-d85ffdf854f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetBackupSchema
 author: windows-sdk-content
 description: The GetBackupSchema method is used by a requester to determine from the Writer Metadata Document the types of backup operations that a given writer can participate in.
 old-location: base\ivssexaminewritermetadata_getbackupschema.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: d7099d6e-b8dd-44a5-af68-f3347c5d251b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

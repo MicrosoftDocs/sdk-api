@@ -87,6 +87,8 @@ This method returns <b>S_OK</b> to indicate that it has completed successfully. 
 
 <div class="alert"><b>Note</b>  The values returned by this method are instantaneous values and may be invalid immediately after the call returns if, for example, another audio client sets the periodicity or format to a different value.</div>
 <div> </div>
+<div class="alert"><b>Note</b>  The caller is responsible for calling <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to deallocate the memory of the <b>WAVEFORMATEX</b> structure populated by this method.</div>
+<div> </div>
 
 
 

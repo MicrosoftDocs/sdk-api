@@ -4,7 +4,7 @@ title: IVssCreateExpressWriterMetadata::SetBackupSchema
 author: windows-sdk-content
 description: Used by an express writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
 old-location: base\ivsscreateexpresswritermetadata_setbackupschema.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b270424d-61e1-4984-a487-4dcb4e113985
 ms.author: windowssdkdev
 ms.date: 12/5/2018

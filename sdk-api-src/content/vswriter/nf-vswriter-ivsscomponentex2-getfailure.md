@@ -4,7 +4,7 @@ title: IVssComponentEx2::GetFailure
 author: windows-sdk-content
 description: VSS requesters call this method to retrieve component-level errors reported by writers.
 old-location: base\ivsscomponentex2_getfailure.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a5d739d3-9169-4b25-a590-35703e77dacc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

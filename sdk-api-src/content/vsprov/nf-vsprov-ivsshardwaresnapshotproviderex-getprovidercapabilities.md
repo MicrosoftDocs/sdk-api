@@ -4,7 +4,7 @@ title: IVssHardwareSnapshotProviderEx::GetProviderCapabilities
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_getprovidercapabilities.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: cf95ba6c-b4da-4e9e-969e-58c492cf7901
 ms.author: windowssdkdev
 ms.date: 12/5/2018

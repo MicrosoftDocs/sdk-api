@@ -4,7 +4,7 @@ title: IVssBackupComponents::InitializeForBackup
 author: windows-sdk-content
 description: The InitializeForBackup method initializes the backup components metadata in preparation for backup.
 old-location: base\ivssbackupcomponents_initializeforbackup.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: df469964-c954-4f79-b88f-a521157a0c66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

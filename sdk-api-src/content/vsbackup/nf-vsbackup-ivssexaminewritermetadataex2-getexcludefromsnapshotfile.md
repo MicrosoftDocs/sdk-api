@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile
 author: windows-sdk-content
 description: Obtains information about file sets that have been explicitly excluded from a given shadow copy.
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotfile.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3df57749-9a26-4187-b1fc-aeb68a4d1d06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VSS_SNAPSHOT_PROPERTY_ID
 author: windows-sdk-content
 description: Specifies the property to be set for a shadow copy.
 old-location: base\vss_snapshot_property_id.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 6d741293-7efc-4044-b69d-390138c1be4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

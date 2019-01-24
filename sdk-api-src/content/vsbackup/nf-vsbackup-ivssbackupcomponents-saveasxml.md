@@ -4,7 +4,7 @@ title: IVssBackupComponents::SaveAsXML
 author: windows-sdk-content
 description: The SaveAsXML method saves the Backup Components Document containing a requester's state information to a specified string. This XML document, which contains the Backup Components Document, should always be securely saved as part of a backup operation.
 old-location: base\ivssbackupcomponents_saveasxml.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 8184d15a-7d1f-49ed-afe3-fa9d81a4d32d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

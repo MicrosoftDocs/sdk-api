@@ -4,7 +4,7 @@ title: IVssExpressWriter::CreateMetadata
 author: windows-sdk-content
 description: Creates an express writer metadata object and returns an IVssCreateExpressWriterMetadata interface pointer to it.
 old-location: base\ivssexpresswriter_createwritermetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 254f4a32-cb33-494e-8fb4-06ab1cc2b184
 ms.author: windowssdkdev
 ms.date: 12/5/2018

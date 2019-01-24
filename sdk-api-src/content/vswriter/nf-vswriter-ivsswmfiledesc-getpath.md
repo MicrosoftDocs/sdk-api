@@ -4,7 +4,7 @@ title: IVssWMFiledesc::GetPath
 author: windows-sdk-content
 description: The GetPath method obtains the fully qualified directory path or the UNC path of the remote file share to obtain the list of files described in the current IVssWMFiledesc object.
 old-location: base\ivsswmfiledesc_getpath.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e646bf76-8779-4095-a022-2d69d5c3bead
 ms.author: windowssdkdev
 ms.date: 12/5/2018

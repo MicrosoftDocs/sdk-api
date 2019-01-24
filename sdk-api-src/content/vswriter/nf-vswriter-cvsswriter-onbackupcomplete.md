@@ -4,7 +4,7 @@ title: CVssWriter::OnBackupComplete
 author: windows-sdk-content
 description: The OnBackupComplete method is called by a writer following a BackupComplete event. It is used to perform operations considered necessary following a backup. These operations cannot, however, modify the Backup Components Document.
 old-location: base\cvsswriter_onbackupcomplete.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 77d0621d-81bd-4d53-8e5d-f5d3bfd86013
 ms.author: windowssdkdev
 ms.date: 12/5/2018

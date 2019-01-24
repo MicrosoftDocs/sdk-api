@@ -4,7 +4,7 @@ title: VSS_FILE_RESTORE_STATUS
 author: windows-sdk-content
 description: Defines the set of statuses of a file restore operation.
 old-location: base\vss_file_restore_status.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e1754fad-8da1-4a3e-a70a-ada37dde1c5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

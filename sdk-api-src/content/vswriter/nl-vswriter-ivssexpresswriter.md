@@ -4,7 +4,7 @@ title: IVssExpressWriter
 author: windows-sdk-content
 description: Defines methods to manage metadata for a VSS express writer.
 old-location: base\ivssexpresswriter.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: debb0731-6e24-4320-8236-220e07ec37c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

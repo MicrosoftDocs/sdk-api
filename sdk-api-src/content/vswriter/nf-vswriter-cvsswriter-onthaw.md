@@ -4,7 +4,7 @@ title: CVssWriter::OnThaw
 author: windows-sdk-content
 description: The OnThaw method is called by a writer following a Thaw event.
 old-location: base\cvsswriter_onthaw.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 36028e9f-f7a7-41f1-a570-48f943e9ab83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssBackupComponents::GatherWriterStatus
 author: windows-sdk-content
 description: The GatherWriterStatus method prompts each writer to send a status message.
 old-location: base\ivssbackupcomponents_gatherwriterstatus.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

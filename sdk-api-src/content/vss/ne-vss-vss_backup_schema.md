@@ -4,7 +4,7 @@ title: VSS_BACKUP_SCHEMA
 author: windows-sdk-content
 description: Used by a writer to indicate the types of backup operations it can participate in.
 old-location: base\vss_backup_schema.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3541c8bd-2712-458b-9153-1fffe6bf5688
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssProviderCreateSnapshotSet::PreCommitSnapshots
 author: windows-sdk-content
 description: Ensures the provider is ready to quickly commit the prepared LUNs.
 old-location: base\ivssprovidercreatesnapshotset_precommitsnapshots.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: af1caf80-751d-4b0d-8b35-970800d1dee6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

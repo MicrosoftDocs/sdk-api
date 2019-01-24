@@ -4,7 +4,7 @@ title: IVssWMComponent::GetDatabaseFile
 author: windows-sdk-content
 description: The GetDatabaseFile method obtains an IVssWMFiledesc object containing information about the specified database backup component file.
 old-location: base\ivsswmcomponent_getdatabasefile.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: adb2d6f7-592c-403d-92c0-6b99e2180a6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

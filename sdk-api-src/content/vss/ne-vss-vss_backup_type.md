@@ -4,7 +4,7 @@ title: VSS_BACKUP_TYPE
 author: windows-sdk-content
 description: Indicates the type of backup to be performed.
 old-location: base\vss_backup_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 82934737-0d80-4b5d-a1fa-1ba38e446504
 ms.author: windowssdkdev
 ms.date: 12/5/2018

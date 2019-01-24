@@ -4,7 +4,7 @@ title: IVssProviderCreateSnapshotSet
 author: windows-sdk-content
 description: The IVssProviderCreateSnapshotSet interface contains the methods used during shadow copy creation.
 old-location: base\ivssprovidercreatesnapshotset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 41a795f0-7882-47a3-9226-aa50218a56e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::QueryRevertStatus
 author: windows-sdk-content
 description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
 old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 05c70761-d839-4333-a5d6-6bd8b95851bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

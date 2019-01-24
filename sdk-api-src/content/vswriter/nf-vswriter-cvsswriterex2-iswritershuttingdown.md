@@ -4,7 +4,7 @@ title: CVssWriterEx2::IsWriterShuttingDown
 author: windows-sdk-content
 description: Determines whether the writer is shutting down.
 old-location: base\cvsswriterex2_iswritershuttingdown.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 78ea5993-ee86-435b-a225-8cb6e5f1a240
 ms.author: windowssdkdev
 ms.date: 12/5/2018

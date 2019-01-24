@@ -4,7 +4,7 @@ title: IVssHardwareSnapshotProvider::LocateLuns
 author: windows-sdk-content
 description: Prompts the hardware provider to make the shadow copy LUNs visible to the computer.
 old-location: base\ivsshardwaresnapshotprovider_locateluns.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9a996875-a495-43c1-987e-67c31d0651c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

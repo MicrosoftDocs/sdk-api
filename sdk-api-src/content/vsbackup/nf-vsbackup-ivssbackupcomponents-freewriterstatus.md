@@ -4,7 +4,7 @@ title: IVssBackupComponents::FreeWriterStatus
 author: windows-sdk-content
 description: The FreeWriterStatus method frees system resources allocated during the call to IVssBackupComponents::GatherWriterStatus.
 old-location: base\ivssbackupcomponents_freewriterstatus.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2bf4c575-f94d-43df-b141-94ed5a55294b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

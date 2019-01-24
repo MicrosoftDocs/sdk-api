@@ -4,7 +4,7 @@ title: VSS_PROTECTION_FAULT
 author: windows-sdk-content
 description: Defines the set of shadow copy protection faults.
 old-location: base\vss_protection_fault.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 65310c38-9fad-49ed-acf4-dacfa3947130
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetAlternateLocationMapping
 author: windows-sdk-content
 description: The GetAlternateLocationMapping method obtains a specific alternate location mapping of a file set.
 old-location: base\ivssexaminewritermetadata_getalternatelocationmapping.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 1264d4bc-dd45-41e7-9f95-c6e9aebd4d22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

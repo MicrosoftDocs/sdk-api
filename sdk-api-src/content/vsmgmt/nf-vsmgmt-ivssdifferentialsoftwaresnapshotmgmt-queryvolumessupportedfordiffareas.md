@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt::QueryVolumesSupportedForDiffAreas
 author: windows-sdk-content
 description: Queries volumes that support shadow copy storage areas (including volumes with disabled shadow copy storage areas).
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_queryvolumessupportedfordiffareas.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2aad75e3-0228-4cc4-b813-c70a7ebfdea5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

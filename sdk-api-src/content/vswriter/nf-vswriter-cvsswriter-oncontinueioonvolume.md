@@ -4,7 +4,7 @@ title: CVssWriter::OnContinueIOOnVolume
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_oncontinueioonvolume.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: dd8271a3-4119-412d-abbd-1251196ac948
 ms.author: windowssdkdev
 ms.date: 12/5/2018

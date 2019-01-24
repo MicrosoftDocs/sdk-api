@@ -4,7 +4,7 @@ title: IVssSnapshotMgmt::QuerySnapshotsByVolume
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: base\ivsssnapshotmgmt_querysnapshotsbyvolume.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c74322d8-24a6-4463-82a5-c06e7624a1ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

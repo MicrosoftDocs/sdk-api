@@ -4,7 +4,7 @@ title: IVssFileShareSnapshotProvider::SetSnapshotProperty
 author: windows-sdk-content
 description: Requests the provider to set a property value for the specified snapshot.
 old-location: base\ivssfilesharesnapshotprovider_setsnapshotproperty.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 62a3a189-b14c-434d-98b9-ea4c247e2439
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssExpressWriter::Unregister
 author: windows-sdk-content
 description: Causes VSS to delete the writer's metadata from the express writer metadata store.
 old-location: base\ivssexpresswriter_unregister.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 24398ace-4e76-471b-ae04-d2005e09cb6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

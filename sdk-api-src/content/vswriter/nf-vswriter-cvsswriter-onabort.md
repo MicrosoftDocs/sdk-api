@@ -4,7 +4,7 @@ title: CVssWriter::OnAbort
 author: windows-sdk-content
 description: The OnAbort method is called by a writer following an Abort event issued by VSS indicating that a shadow copy operation has terminated prematurely. The writer uses this method to clean up from its attempt to participate in that operation.
 old-location: base\cvsswriter_onabort.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 56ba5f08-4803-4137-9edd-ce05bc19773b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VSS_SUBSCRIBE_MASK
 author: windows-sdk-content
 description: Indicates the events that the writer is willing to receive.
 old-location: base\vss_subscribe_mask.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 4aa3afe4-98da-4376-b795-75bf404aaed9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

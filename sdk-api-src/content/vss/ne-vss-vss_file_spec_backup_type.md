@@ -4,7 +4,7 @@ title: VSS_FILE_SPEC_BACKUP_TYPE
 author: windows-sdk-content
 description: Used by writers to indicate their support of certain backup operations.
 old-location: base\vss_file_spec_backup_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 41ba60f7-d621-478a-a24a-202d326ebf2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

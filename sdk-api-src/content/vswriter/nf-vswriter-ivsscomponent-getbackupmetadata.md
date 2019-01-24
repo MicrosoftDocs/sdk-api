@@ -4,7 +4,7 @@ title: IVssComponent::GetBackupMetadata
 author: windows-sdk-content
 description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.
 old-location: base\ivsscomponent_getbackupmetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssExpressWriter::Register
 author: windows-sdk-content
 description: Causes VSS to store the writer's metadata in the express writer metadata store.
 old-location: base\ivssexpresswriter_register.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

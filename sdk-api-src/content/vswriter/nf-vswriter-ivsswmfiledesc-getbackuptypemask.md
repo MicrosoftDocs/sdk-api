@@ -4,7 +4,7 @@ title: IVssWMFiledesc::GetBackupTypeMask
 author: windows-sdk-content
 description: The GetBackupTypeMask method returns the file backup specification for the files specified by the current file descriptor as a bit mask (or bitwise OR) of VSS_FILE_SPEC_BACKUP_TYPE values.
 old-location: base\ivsswmfiledesc_getbackuptypemask.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9d5f3a16-2053-42dd-867d-740c4a34bdb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

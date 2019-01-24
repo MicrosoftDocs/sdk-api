@@ -4,7 +4,7 @@ title: IVssBackupComponents
 author: windows-sdk-content
 description: The IVssBackupComponents interface is used by a requester to poll writers about file status and to run backup/restore operations.
 old-location: base\ivssbackupcomponents.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: fe1220c7-11e5-4872-b7a9-61558f7c75c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

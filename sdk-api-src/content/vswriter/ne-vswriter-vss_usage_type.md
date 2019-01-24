@@ -4,7 +4,7 @@ title: VSS_USAGE_TYPE
 author: windows-sdk-content
 description: Specifies how the host system uses the data managed by a writer involved in a VSS operation.
 old-location: base\vss_usage_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 31997417-d993-4f28-b108-ce1dd8239650
 ms.author: windowssdkdev
 ms.date: 12/5/2018

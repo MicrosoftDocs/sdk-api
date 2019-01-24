@@ -4,7 +4,7 @@ title: IVssComponent::GetBackupOptions
 author: windows-sdk-content
 description: The GetBackupOptions method returns the backup options specified to the writer that manages the currently selected component or component set by a requester using IVssBackupComponents::SetBackupOptions.
 old-location: base\ivsscomponent_getbackupoptions.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 54182058-5dbb-4eda-959a-fa1921a27302
 ms.author: windowssdkdev
 ms.date: 12/5/2018

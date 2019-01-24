@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetIdentity
 author: windows-sdk-content
 description: The GetIdentity method obtains basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadata_getidentity.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssEnumObject::Skip
 author: windows-sdk-content
 description: Skips the specified number of objects.
 old-location: base\ivssenumobject_skip.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a655978e-49fa-445d-8576-ba82b523750c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

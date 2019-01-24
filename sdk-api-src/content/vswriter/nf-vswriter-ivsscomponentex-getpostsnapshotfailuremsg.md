@@ -4,7 +4,7 @@ title: IVssComponentEx::GetPostSnapshotFailureMsg
 author: windows-sdk-content
 description: Returns the PostSnapshot failure message string that a writer has set for a given component.
 old-location: base\ivsscomponentex_getpostsnapshotfailuremsg.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 51f96d3e-c783-42f4-9e04-94bf3a6b7c09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssCreateExpressWriterMetadata::SetRestoreMethod
 author: windows-sdk-content
 description: Specifies how an express writer's data is to be restored.
 old-location: base\ivsscreateexpresswritermetadata_setrestoremethod.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 220e399b-aafd-4b72-bef4-abc3f39f202f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

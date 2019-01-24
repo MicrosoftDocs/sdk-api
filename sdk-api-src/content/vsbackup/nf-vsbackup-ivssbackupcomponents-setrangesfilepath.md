@@ -4,7 +4,7 @@ title: IVssBackupComponents::SetRangesFilePath
 author: windows-sdk-content
 description: The SetRangesFilePath method is used when a partial file operation requires a ranges file, and that file has been restored to a location other than its original one.
 old-location: base\ivssbackupcomponents_setrangesfilepath.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 170f9ea0-4846-49d4-ab06-eb1ce580e827
 ms.author: windowssdkdev
 ms.date: 12/5/2018

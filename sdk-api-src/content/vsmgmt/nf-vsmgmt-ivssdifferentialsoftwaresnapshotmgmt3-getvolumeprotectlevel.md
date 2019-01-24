@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
 author: windows-sdk-content
 description: Gets the shadow copy protection level and status for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_getvolumeprotectlevel.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a67bf9f1-135b-4881-acd1-6392f27d58e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

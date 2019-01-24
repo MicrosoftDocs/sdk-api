@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c452dfad-fbc6-45d0-895d-566f12dbfa70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

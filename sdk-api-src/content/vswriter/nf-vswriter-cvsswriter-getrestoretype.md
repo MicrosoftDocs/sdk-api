@@ -4,7 +4,7 @@ title: CVssWriter::GetRestoreType
 author: windows-sdk-content
 description: The GetRestoreType method returns the type of restore a writer is participating in.
 old-location: base\cvsswriter_getrestoretype.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 438298ee-ab8b-4604-9d43-5acefd7cabd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

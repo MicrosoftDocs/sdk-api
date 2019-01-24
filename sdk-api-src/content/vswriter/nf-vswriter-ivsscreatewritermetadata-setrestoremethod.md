@@ -4,7 +4,7 @@ title: IVssCreateWriterMetadata::SetRestoreMethod
 author: windows-sdk-content
 description: The SetRestoreMethod method indicates how the writer's data is to be restored.
 old-location: base\ivsscreatewritermetadata_setrestoremethod.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 0e04df40-49e4-4f23-b4d5-d6b602162935
 ms.author: windowssdkdev
 ms.date: 12/5/2018

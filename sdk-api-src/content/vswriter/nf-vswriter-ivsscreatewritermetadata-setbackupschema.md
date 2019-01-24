@@ -4,7 +4,7 @@ title: IVssCreateWriterMetadata::SetBackupSchema
 author: windows-sdk-content
 description: The SetBackupSchema method is used by a writer to indicate in its Writer Metadata Document the types of backup operations it can participate in.
 old-location: base\ivsscreatewritermetadata_setbackupschema.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 7449fcc8-76fc-4cc5-923c-9a5d53d2cd6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

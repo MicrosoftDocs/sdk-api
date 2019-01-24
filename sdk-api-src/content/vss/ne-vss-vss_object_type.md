@@ -4,7 +4,7 @@ title: VSS_OBJECT_TYPE
 author: windows-sdk-content
 description: Used by requesters to identify an object as a shadow copy set, shadow copy, or provider.
 old-location: base\vss_object_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b7c91003-0ce7-463e-a816-c212da9dc31e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

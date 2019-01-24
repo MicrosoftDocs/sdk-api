@@ -4,7 +4,7 @@ title: IVssBackupComponents::GetWriterMetadataCount
 author: windows-sdk-content
 description: The GetWriterMetadataCount method returns the number of writers with metadata.
 old-location: base\ivssbackupcomponents_getwritermetadatacount.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: cf8c4782-2850-4847-a7a1-95bd2bd547a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

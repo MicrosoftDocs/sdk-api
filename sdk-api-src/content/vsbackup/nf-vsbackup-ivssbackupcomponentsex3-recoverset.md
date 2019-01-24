@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx3::RecoverSet
 author: windows-sdk-content
 description: Initiates a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_recoverset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2e468527-11e7-42d8-808b-2cb2eb86e0ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

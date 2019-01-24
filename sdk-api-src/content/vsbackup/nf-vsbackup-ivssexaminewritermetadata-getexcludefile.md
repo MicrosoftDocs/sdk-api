@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetExcludeFile
 author: windows-sdk-content
 description: The GetExcludeFile method obtains information about files that have been explicitly excluded from backup for a given writer.
 old-location: base\ivssexaminewritermetadata_getexcludefile.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
 ms.author: windowssdkdev
 ms.date: 12/5/2018

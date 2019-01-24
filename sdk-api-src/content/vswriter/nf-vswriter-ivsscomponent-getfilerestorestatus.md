@@ -4,7 +4,7 @@ title: IVssComponent::GetFileRestoreStatus
 author: windows-sdk-content
 description: The GetFileRestoreStatus method returns the status of a completed attempt to restore all the files of a selected component or component set as a VSS_FILE_RESTORE_STATUS enumeration.
 old-location: base\ivsscomponent_getfilerestorestatus.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b79c4443-c850-4edf-bdd2-917e22e67d77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

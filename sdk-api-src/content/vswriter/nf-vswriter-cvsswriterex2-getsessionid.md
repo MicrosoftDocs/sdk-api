@@ -4,7 +4,7 @@ title: CVssWriterEx2::GetSessionId
 author: windows-sdk-content
 description: Returns the writer's session identifier.
 old-location: base\cvsswriterex2_getsessionid.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: bea5ba9c-538b-453f-ae6d-12b94b8edeb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

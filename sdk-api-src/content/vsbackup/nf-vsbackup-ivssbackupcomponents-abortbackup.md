@@ -4,7 +4,7 @@ title: IVssBackupComponents::AbortBackup
 author: windows-sdk-content
 description: The AbortBackup method notifies VSS that a backup operation was terminated.
 old-location: base\ivssbackupcomponents_abortbackup.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

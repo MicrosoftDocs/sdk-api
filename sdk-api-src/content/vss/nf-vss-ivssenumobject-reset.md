@@ -4,7 +4,7 @@ title: IVssEnumObject::Reset
 author: windows-sdk-content
 description: Resets the enumerator so that IVssEnumObject:Next starts at the first enumerated object.
 old-location: base\ivssenumobject_reset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 98fc07b0-3efe-4ec3-bb70-64a8b8828162
 ms.author: windowssdkdev
 ms.date: 12/5/2018

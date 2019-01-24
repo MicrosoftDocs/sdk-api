@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata
 author: windows-sdk-content
 description: The IVssExamineWriterMetadata interface is a C++ (not COM) interface that allows a requester to examine the metadata of a specific writer instance.
 old-location: base\ivssexaminewritermetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b3aa04d9-7299-4e3a-b092-d07f2de6eefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

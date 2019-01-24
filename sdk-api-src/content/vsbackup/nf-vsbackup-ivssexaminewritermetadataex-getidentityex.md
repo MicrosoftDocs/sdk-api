@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadataEx::GetIdentityEx
 author: windows-sdk-content
 description: The GetIdentityEx method obtains the writer instance name and other basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadataex_getidentityex.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f36cfa0e-b51e-488b-89b1-99544e2883d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

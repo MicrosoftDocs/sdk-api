@@ -4,7 +4,7 @@ title: VSS_RESTORE_TARGET
 author: windows-sdk-content
 description: Used by a writer at restore time to indicate how all the files included in a selected component, and all the files in any component set it defines, are to be restored.
 old-location: base\vss_restore_target.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 85b154c0-ebe8-4c17-8cab-0f886bf070e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

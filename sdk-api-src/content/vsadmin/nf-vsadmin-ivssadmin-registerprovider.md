@@ -4,7 +4,7 @@ title: IVssAdmin::RegisterProvider
 author: windows-sdk-content
 description: Registers a new shadow copy provider.
 old-location: base\ivssadmin_registerprovider.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c17aee22-3afc-4ac5-a0c5-3fa1164ceee0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

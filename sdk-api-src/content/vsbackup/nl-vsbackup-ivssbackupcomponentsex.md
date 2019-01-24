@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx
 author: windows-sdk-content
 description: Provides methods for requesters to run backup and restore operations using multiple writer instances.
 old-location: base\ivssbackupcomponentsex.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: d3a265ab-39cc-4861-9191-9ecf094d8826
 ms.author: windowssdkdev
 ms.date: 12/5/2018

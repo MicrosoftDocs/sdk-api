@@ -4,7 +4,7 @@ title: IVssBackupComponents::EnableWriterClasses
 author: windows-sdk-content
 description: The EnableWriterClasses method enables the specified writers to receive all events.
 old-location: base\ivssbackupcomponents_enablewriterclasses.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 27dae374-f3c4-44a5-a0d7-3edb647f0593
 ms.author: windowssdkdev
 ms.date: 12/5/2018

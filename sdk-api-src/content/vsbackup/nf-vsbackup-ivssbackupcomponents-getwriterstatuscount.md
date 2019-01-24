@@ -4,7 +4,7 @@ title: IVssBackupComponents::GetWriterStatusCount
 author: windows-sdk-content
 description: The GetWriterStatusCount method returns the number of writers with status.
 old-location: base\ivssbackupcomponents_getwriterstatuscount.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e358cb2b-9b0f-47fb-a0ca-7bbbc6e49aff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 author: windows-sdk-content
 description: Is called once for the complete shadow copy set, after the last IVssHardwareSnapshotProvider::BeginPrepareSnapshot call.
 old-location: base\ivssprovidercreatesnapshotset_endpreparesnapshots.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

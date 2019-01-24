@@ -4,7 +4,7 @@ title: IVssComponentEx::GetPrepareForBackupFailureMsg
 author: windows-sdk-content
 description: Returns the PrepareForBackup failure message string that a writer has set for a given component.
 old-location: base\ivsscomponentex_getprepareforbackupfailuremsg.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b086ff8d-ff51-4550-887d-e7741e2469f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

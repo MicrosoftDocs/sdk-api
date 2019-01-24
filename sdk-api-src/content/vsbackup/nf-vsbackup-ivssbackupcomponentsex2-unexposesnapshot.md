@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx2::UnexposeSnapshot
 author: windows-sdk-content
 description: Unexposes a shadow copy either by deleting the file share or by removing the drive letter or mounted folder.
 old-location: base\ivssbackupcomponentsex2_unexposesnapshot.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b6946b65-b142-41b9-88c0-a1b11caba08e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

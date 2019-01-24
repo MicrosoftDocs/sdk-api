@@ -4,7 +4,7 @@ title: IVssWMDependency::GetLogicalPath
 author: windows-sdk-content
 description: The GetLogicalPath method retrieves the logical path of a component that the current component depends on in explicit writer-component dependency.
 old-location: base\ivsswmdependency_getlogicalpath.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 642e9266-40b8-4184-b83f-3131886da32b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

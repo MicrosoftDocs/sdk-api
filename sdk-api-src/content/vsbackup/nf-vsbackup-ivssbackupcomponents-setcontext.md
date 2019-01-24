@@ -4,7 +4,7 @@ title: IVssBackupComponents::SetContext
 author: windows-sdk-content
 description: The SetContext method sets the context for subsequent shadow copy-related operations.
 old-location: base\ivssbackupcomponents_setcontext.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 0e466090-b551-44e8-a86d-75126352aa49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

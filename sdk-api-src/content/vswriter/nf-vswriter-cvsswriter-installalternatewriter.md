@@ -4,7 +4,7 @@ title: CVssWriter::InstallAlternateWriter
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_installalternatewriter.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f571a605-6d64-4d1c-82a4-7c8a56349d19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

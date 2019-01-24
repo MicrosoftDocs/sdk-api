@@ -4,7 +4,7 @@ title: IVssBackupComponents::DisableWriterInstances
 author: windows-sdk-content
 description: The DisableWriterInstances method disables a specified writer instance or instances.
 old-location: base\ivssbackupcomponents_disablewriterinstances.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 746fb12d-83d7-463d-848d-36e095832d1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssComponent::SetPostRestoreFailureMsg
 author: windows-sdk-content
 description: The SetPostRestoreFailureMsg method is used to create a message describing a failure in processing a PostRestore event.
 old-location: base\ivsscomponent_setpostrestorefailuremsg.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 1059a586-69e2-4a02-8f52-b8da3f04f51c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VSS_SNAPSHOT_COMPATIBILITY
 author: windows-sdk-content
 description: The VSS_SNAPSHOT_COMPATIBILITY enumeration indicates which volume control or file I/O operations are disabled for the volume that has been shadow copied.
 old-location: base\vss_snapshot_compatibility.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 105d7bd6-0e95-4803-ae39-f03af40daa8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

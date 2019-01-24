@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::SaveAsXML
 author: windows-sdk-content
 description: The SaveAsXML method saves the Writer Metadata Document that contains a writer's state information to a specified string. This string can be saved as part of a backup operation.
 old-location: base\ivssexaminewritermetadata_saveasxml.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 146dcd00-e479-40fa-963b-e7111b783822
 ms.author: windowssdkdev
 ms.date: 12/5/2018

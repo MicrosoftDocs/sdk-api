@@ -4,7 +4,7 @@ title: IVssComponent::GetComponentName
 author: windows-sdk-content
 description: The GetComponentName method returns the logical name of this component.
 old-location: base\ivsscomponent_getcomponentname.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

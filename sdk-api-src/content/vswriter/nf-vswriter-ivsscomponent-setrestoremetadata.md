@@ -4,7 +4,7 @@ title: IVssComponent::SetRestoreMetadata
 author: windows-sdk-content
 description: The SetRestoreMetadata method sets writer-specific metadata for the current component.
 old-location: base\ivsscomponent_setrestoremetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2b329fa8-21ad-4de9-9857-52e14d51d429
 ms.author: windowssdkdev
 ms.date: 12/5/2018

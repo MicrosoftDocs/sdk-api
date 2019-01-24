@@ -4,7 +4,7 @@ title: IVssAsync::Cancel
 author: windows-sdk-content
 description: The Cancel method cancels an incomplete asynchronous operation.
 old-location: base\ivssasync_cancel.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 8ab44737-114b-4edc-a097-d0fa297f6276
 ms.author: windowssdkdev
 ms.date: 12/5/2018

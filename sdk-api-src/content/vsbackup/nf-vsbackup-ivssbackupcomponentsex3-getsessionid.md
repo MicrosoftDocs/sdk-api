@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx3::GetSessionId
 author: windows-sdk-content
 description: Returns the requester's session identifier.
 old-location: base\ivssbackupcomponentsex3_getsessionid.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ad7e548a-9f7a-4e35-9811-edb68458a1df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

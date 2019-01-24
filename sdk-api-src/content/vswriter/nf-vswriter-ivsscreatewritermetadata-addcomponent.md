@@ -4,7 +4,7 @@ title: IVssCreateWriterMetadata::AddComponent
 author: windows-sdk-content
 description: The AddComponent method adds a database or file group as a component to be backed up.
 old-location: base\ivsscreatewritermetadata_addcomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: fdbcbcea-d49e-49bc-9bb8-2210a9de02a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

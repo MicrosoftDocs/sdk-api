@@ -4,7 +4,7 @@ title: VSS_RESTOREMETHOD_ENUM
 author: windows-sdk-content
 description: Used by a writer at backup time to specify through its Writer Metadata Document the default file restore method.
 old-location: base\vss_restoremethod_enum.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 4c6be981-4271-4040-8f6e-725616355062
 ms.author: windowssdkdev
 ms.date: 12/5/2018

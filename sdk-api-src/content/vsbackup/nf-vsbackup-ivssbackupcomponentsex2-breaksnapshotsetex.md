@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx2::BreakSnapshotSetEx
 author: windows-sdk-content
 description: Breaks a shadow copy set according to requester-specified options.
 old-location: base\ivssbackupcomponentsex2_breaksnapshotsetex.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 595fe295-082d-4130-9698-952df49a922e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

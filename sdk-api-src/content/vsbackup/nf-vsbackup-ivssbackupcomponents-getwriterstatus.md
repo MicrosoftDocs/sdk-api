@@ -4,7 +4,7 @@ title: IVssBackupComponents::GetWriterStatus
 author: windows-sdk-content
 description: The GetWriterStatus method returns the status of the specified writer.
 old-location: base\ivssbackupcomponents_getwriterstatus.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 652e9630-291d-41cd-96d9-6a63988932a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

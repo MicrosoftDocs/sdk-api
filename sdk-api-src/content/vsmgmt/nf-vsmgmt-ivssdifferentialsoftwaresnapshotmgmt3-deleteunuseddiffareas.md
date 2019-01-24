@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
 author: windows-sdk-content
 description: Deletes all shadow copy storage areas (also called diff areas) on the specified volume that are not in use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_deleteunuseddiffareas.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: daa23f2c-8342-4387-800a-def5951896ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

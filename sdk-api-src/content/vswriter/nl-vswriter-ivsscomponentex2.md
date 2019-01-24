@@ -4,7 +4,7 @@ title: IVssComponentEx2
 author: windows-sdk-content
 description: Defines additional methods for reporting and retrieving component-level writer errors.
 old-location: base\ivsscomponentex2.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f40705bf-46a9-464d-a545-1d68d89876c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssProviderNotifications::OnLoad
 author: windows-sdk-content
 description: Notifies a provider that it was loaded.
 old-location: base\ivssprovidernotifications_onload.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: dd3df604-074b-4206-827e-3cc4d5f71f87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

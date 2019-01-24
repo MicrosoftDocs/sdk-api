@@ -4,7 +4,7 @@ title: VSS_SNAPSHOT_STATE
 author: windows-sdk-content
 description: Specify the state of a given shadow copy operation.
 old-location: base\vss_snapshot_state.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 0f9ce651-c9ad-454f-88a5-1f877c7c06ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssBackupComponents::SetBackupSucceeded
 author: windows-sdk-content
 description: The SetBackupSucceeded method indicates whether the backup of the specified component of a specific writer was successful.
 old-location: base\ivssbackupcomponents_setbackupsucceeded.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

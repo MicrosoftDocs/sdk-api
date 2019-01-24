@@ -4,7 +4,7 @@ title: VSS_SNAPSHOT_PROP
 author: windows-sdk-content
 description: Contains the properties of a shadow copy or shadow copy set.
 old-location: base\vss_snapshot_prop.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 070ec204-e751-4ebf-8f99-3c415f203cb2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

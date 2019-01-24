@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::BeginPrepareSnapshot
 author: windows-sdk-content
 description: VSS calls this method for each shadow copy that is added to the shadow copy set.
 old-location: base\ivsssoftwaresnapshotprovider_beginpreparesnapshot.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 75e6a865-13e7-4bed-bd83-c74c4c1dc228
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VSS_DIFF_AREA_PROP
 author: windows-sdk-content
 description: Describes associations between volumes containing the original file data and volumes containing the shadow copy storage area.
 old-location: base\vss_diff_area_prop.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9627d7b0-e9d0-425f-9051-cf4ab6b75a8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

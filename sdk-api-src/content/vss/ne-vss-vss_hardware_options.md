@@ -4,7 +4,7 @@ title: VSS_HARDWARE_OPTIONS
 author: windows-sdk-content
 description: Defines shadow copy LUN flags.
 old-location: base\_vss_hardware_options.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 545977ae-7f62-4a8e-9d2f-936224f413b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CVssWriter::GetBackupType
 author: windows-sdk-content
 description: The GetBackupType method indicates the type of backup to be performed.
 old-location: base\cvsswriter_getbackuptype.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b8f78552-27b5-4d64-9d35-baf1c636b526
 ms.author: windowssdkdev
 ms.date: 12/5/2018

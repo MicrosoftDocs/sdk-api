@@ -4,7 +4,7 @@ title: VSS_COMPONENT_FLAGS
 author: windows-sdk-content
 description: Used by writers to indicate support for auto-recovery.
 old-location: base\vss_component_flags.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 91b7fbab-82f8-48cc-8078-f8f71c48a70b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx2
 author: windows-sdk-content
 description: Defines additional methods that requesters can use to run backup and restore operations.
 old-location: base\ivssbackupcomponentsex2.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 69d4d500-0e21-48bd-b90b-d06c88fde136
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssBackupComponents::GetSnapshotProperties
 author: windows-sdk-content
 description: The GetSnapshotProperties method gets the properties of the specified shadow copy.
 old-location: base\ivssbackupcomponents_getsnapshotproperties.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a4e2f9f3-7dee-4324-a48a-6de2a32eabf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

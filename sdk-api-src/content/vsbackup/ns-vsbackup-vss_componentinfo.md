@@ -4,7 +4,7 @@ title: VSS_COMPONENTINFO
 author: windows-sdk-content
 description: Contains information about a given component.
 old-location: base\vss_componentinfo.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

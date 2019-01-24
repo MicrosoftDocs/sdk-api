@@ -4,7 +4,7 @@ title: IVssWriterComponents::GetComponentCount
 author: windows-sdk-content
 description: The GetComponentCount method returns the number of a given writer's components explicitly stored in the Backup Components Document.
 old-location: base\ivsswritercomponents_getcomponentcount.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ec89438f-4811-42f7-bda0-6df6d1b98f18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssCreateExpressWriterMetadata::AddComponent
 author: windows-sdk-content
 description: Adds a file group to an express writer's set of components to be backed up.
 old-location: base\ivsscreateexpresswritermetadata_addcomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289
 ms.author: windowssdkdev
 ms.date: 12/5/2018

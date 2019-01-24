@@ -4,7 +4,7 @@ title: CVssWriter::Initialize
 author: windows-sdk-content
 description: Initializes a CVssWriter object and allows a writer application to interact with VSS.
 old-location: base\cvsswriter_initialize.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a427ebbd-b7c4-46ba-ba16-dd601b1f956e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

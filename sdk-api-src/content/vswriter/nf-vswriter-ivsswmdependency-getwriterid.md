@@ -4,7 +4,7 @@ title: IVssWMDependency::GetWriterId
 author: windows-sdk-content
 description: The GetWriterId method retrieves the class ID of a writer containing a component that the current component depends on in an explicit writer-component dependency.
 old-location: base\ivsswmdependency_getwriterid.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 275843c5-3a8c-4add-b453-53ff5d2bb868
 ms.author: windowssdkdev
 ms.date: 12/5/2018

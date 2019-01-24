@@ -4,7 +4,7 @@ title: IVssBackupComponents::SetFileRestoreStatus
 author: windows-sdk-content
 description: The SetFileRestoreStatus method indicates whether some, all, or no files were successfully restored.
 old-location: base\ivssbackupcomponents_setfilerestorestatus.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 669d61cc-c586-4dcc-a936-5343a393d371
 ms.author: windowssdkdev
 ms.date: 12/5/2018

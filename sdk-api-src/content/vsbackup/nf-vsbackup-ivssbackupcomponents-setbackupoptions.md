@@ -4,7 +4,7 @@ title: IVssBackupComponents::SetBackupOptions
 author: windows-sdk-content
 description: The SetBackupOptions method sets a string of private, or writer-dependent, backup parameters for a component.
 old-location: base\ivssbackupcomponents_setbackupoptions.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2b9a64b2-2bc9-441b-97f7-a72fd7579126
 ms.author: windowssdkdev
 ms.date: 12/5/2018
