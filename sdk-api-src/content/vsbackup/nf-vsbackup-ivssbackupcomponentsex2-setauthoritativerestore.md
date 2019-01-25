@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx2::SetAuthoritativeRestore
 author: windows-sdk-content
 description: Marks the restore of a component as authoritative for a replicated data store.
 old-location: base\ivssbackupcomponentsex2_setauthoritativerestore.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3725a282-2df8-4a0a-a1bf-a73c2b259cbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

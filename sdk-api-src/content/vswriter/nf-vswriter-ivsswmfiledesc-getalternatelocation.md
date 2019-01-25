@@ -4,7 +4,7 @@ title: IVssWMFiledesc::GetAlternateLocation
 author: windows-sdk-content
 description: The GetAlternateLocation method obtains an alternate location for a file set.
 old-location: base\ivsswmfiledesc_getalternatelocation.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3bb787eb-ac15-40d0-9901-b869442399c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

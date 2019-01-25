@@ -4,7 +4,7 @@ title: CVssWriter::SetWriterFailure
 author: windows-sdk-content
 description: The SetWriterFailure method indicates that this writer has encountered an error condition and sets an error condition.
 old-location: base\cvsswriter_setwriterfailure.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9fef9d77-dc0d-4ba0-a317-5c62355458f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

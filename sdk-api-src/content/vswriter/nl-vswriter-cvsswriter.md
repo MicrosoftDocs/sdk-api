@@ -4,7 +4,7 @@ title: CVssWriter
 author: windows-sdk-content
 description: The CVssWriter class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
 old-location: base\cvsswriter.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5d54c966-86ad-41af-82be-8a182b3d203a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

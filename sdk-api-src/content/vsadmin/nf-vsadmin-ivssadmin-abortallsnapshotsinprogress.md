@@ -4,7 +4,7 @@ title: IVssAdmin::AbortAllSnapshotsInProgress
 author: windows-sdk-content
 description: This method is reserved for system use.
 old-location: base\ivssadmin_abortallsnapshotsinprogress.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 64feae8f-c627-45b5-a3bc-0c47e9f8a4cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssBackupComponents::FreeWriterMetadata
 author: windows-sdk-content
 description: The FreeWriterMetadata method frees system resources allocated when IVssBackupComponents::GatherWriterMetadata was called.
 old-location: base\ivssbackupcomponents_freewritermetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 888d30bd-527b-4b7b-9d31-3df0556b268f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

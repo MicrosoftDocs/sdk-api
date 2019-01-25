@@ -4,7 +4,7 @@ title: IVssComponentEx2::SetFailure
 author: windows-sdk-content
 description: VSS writers call this method to report errors at the component level.
 old-location: base\ivsscomponentex2_setfailure.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

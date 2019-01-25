@@ -4,7 +4,7 @@ title: IVssComponent::AddDifferencedFilesByLastModifyLSN
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifylsn.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e708a6e9-9e4e-4620-8251-65b14a7bc6ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

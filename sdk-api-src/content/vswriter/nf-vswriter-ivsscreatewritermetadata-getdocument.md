@@ -4,7 +4,7 @@ title: IVssCreateWriterMetadata::GetDocument
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivsscreatewritermetadata_getdocument.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: defc7c83-9c40-4661-b8d3-1abdd1be0df4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssBackupComponents::IsVolumeSupported
 author: windows-sdk-content
 description: The IsVolumeSupported method determines whether the specified provider supports shadow copies on the specified volume or remote file share.
 old-location: base\ivssbackupcomponents_isvolumesupported.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 42e069cb-3d9a-4592-bbb8-0113f14ed28c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

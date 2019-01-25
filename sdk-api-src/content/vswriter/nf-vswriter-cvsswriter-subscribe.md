@@ -4,7 +4,7 @@ title: CVssWriter::Subscribe
 author: windows-sdk-content
 description: The Subscribe method subscribes the writer with VSS.
 old-location: base\cvsswriter_subscribe.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ab9520c9-bd6b-4c81-87fc-f5cda6ee9c94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CVssWriterEx::GetIdentifyInformation
 author: windows-sdk-content
 description: Obtains the metadata that the writer's OnIdentify or OnIdentifyEx method previously reported.
 old-location: base\cvsswriterex_getidentifyinformation.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 995f353b-d0dc-425a-861d-46b7ee6062da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

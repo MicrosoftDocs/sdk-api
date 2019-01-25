@@ -4,7 +4,7 @@ title: IVssWMDependency::GetComponentName
 author: windows-sdk-content
 description: The GetComponentName method retrieves the name of a component that the current component depends on in an explicit writer-component dependency.
 old-location: base\ivsswmdependency_getcomponentname.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b0115a42-3c74-41a0-8062-0f20123780fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

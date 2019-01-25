@@ -4,7 +4,7 @@ title: CVssWriterEx2
 author: windows-sdk-content
 description: The CVssWriterEx2 class is an abstract base class that defines the interface by which a writer synchronizes its state with VSS and other writers.
 old-location: base\cvsswriterex2.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 13cdeae3-dece-42ae-8bff-037ee3e4cec4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

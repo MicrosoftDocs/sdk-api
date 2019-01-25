@@ -4,7 +4,7 @@ title: VSS_PROTECTION_LEVEL
 author: windows-sdk-content
 description: Defines the set of volume shadow copy protection levels.
 old-location: base\vss_protection_level.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f4c036ac-13fb-47be-8ad8-32c65caf0a2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

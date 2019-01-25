@@ -4,7 +4,7 @@ title: IVssComponent::GetDirectedTarget
 author: windows-sdk-content
 description: The GetDirectedTarget method returns information stored by a writer, at backup time, to the Backup Components Document to indicate that when a file is to be restored, it (the source file) should be remapped.
 old-location: base\ivsscomponent_getdirectedtarget.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e25760b0-14e2-4f1b-b4ff-e7b78f0b7b12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

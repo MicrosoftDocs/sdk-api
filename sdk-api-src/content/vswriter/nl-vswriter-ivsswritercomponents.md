@@ -4,7 +4,7 @@ title: IVssWriterComponents
 author: windows-sdk-content
 description: Contains methods used to obtain and modify component information.
 old-location: base\ivsswritercomponents.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e8ff2491-014c-43c7-bdce-99ed3b408605
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssFileShareSnapshotProvider::GetSnapshotProperties
 author: windows-sdk-content
 description: Gets the VSS_SNAPSHOT_PROP structure for a file share snapshot.
 old-location: base\ivssfilesharesnapshotprovider_getsnapshotproperties.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: db133f55-ed26-4e10-8de1-305bb52de84c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssComponent::GetRestoreMetadata
 author: windows-sdk-content
 description: The GetRestoreMetadata method retrieves private, writer-specific restore metadata that might have been set during a PreRestore event by CVssWriter::OnPreRestore using IVssComponent::SetRestoreMetadata.
 old-location: base\ivsscomponent_getrestoremetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 1b53c523-a105-4507-89f3-1f746aa86204
 ms.author: windowssdkdev
 ms.date: 12/5/2018

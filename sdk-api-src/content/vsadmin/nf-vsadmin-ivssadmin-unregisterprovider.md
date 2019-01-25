@@ -4,7 +4,7 @@ title: IVssAdmin::UnregisterProvider
 author: windows-sdk-content
 description: Unregisters an existing provider.
 old-location: base\ivssadmin_unregisterprovider.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: d31ed47f-6850-4f4b-aea2-5171722db7db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

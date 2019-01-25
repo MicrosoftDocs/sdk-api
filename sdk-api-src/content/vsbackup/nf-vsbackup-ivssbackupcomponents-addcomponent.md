@@ -4,7 +4,7 @@ title: IVssBackupComponents::AddComponent
 author: windows-sdk-content
 description: Used to explicitly add to the backup set.
 old-location: base\ivssbackupcomponents_addcomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

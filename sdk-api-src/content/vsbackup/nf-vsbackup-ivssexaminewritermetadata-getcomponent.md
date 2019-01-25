@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetComponent
 author: windows-sdk-content
 description: The GetComponent method obtains a Writer Metadata Document for a specified backup component.
 old-location: base\ivssexaminewritermetadata_getcomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: fd03ac7c-8398-4972-85f1-2afe13317950
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssWMFiledesc::GetFilespec
 author: windows-sdk-content
 description: The GetFilespec method returns the file specification used to obtain the list of files that the current IVssWMFiledesc object is a member of.
 old-location: base\ivsswmfiledesc_getfilespec.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9661d22b-5c82-412d-966d-83605c568e22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VSS_VOLUME_SNAPSHOT_ATTRIBUTES
 author: windows-sdk-content
 description: Allows additional attributes to be specified for a shadow copy.
 old-location: base\_vss_volume_snapshot_attributes.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 0326a81e-036c-4548-9e09-29054e51fadd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

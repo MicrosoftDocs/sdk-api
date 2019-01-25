@@ -4,7 +4,7 @@ title: IVssComponent::GetRestoreSubcomponentCount
 author: windows-sdk-content
 description: The GetRestoreSubcomponentCount method returns the number of subcomponents associated with a component.
 old-location: base\ivsscomponent_getrestoresubcomponentcount.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 04c1dcdc-7672-4b7c-a9db-eafca80ab257
 ms.author: windowssdkdev
 ms.date: 12/5/2018

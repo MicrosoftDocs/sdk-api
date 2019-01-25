@@ -4,7 +4,7 @@ title: IVssCreateWriterMetadata::AddExcludeFiles
 author: windows-sdk-content
 description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.
 old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

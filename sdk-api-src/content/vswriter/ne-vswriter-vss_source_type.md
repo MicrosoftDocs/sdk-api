@@ -4,7 +4,7 @@ title: VSS_SOURCE_TYPE
 author: windows-sdk-content
 description: Specifies the type of data that a writer manages.
 old-location: base\vss_source_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: cb89c3cc-5a8e-419e-839c-f72a1886eadf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

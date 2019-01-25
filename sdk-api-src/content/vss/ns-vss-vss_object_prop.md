@@ -4,7 +4,7 @@ title: VSS_OBJECT_PROP
 author: windows-sdk-content
 description: Defines the properties of a provider, volume, shadow copy, or shadow copy set.
 old-location: base\vss_object_prop.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 90664042-e9a0-4959-a975-9289477d2394
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CVssWriter::GetCurrentVolumeCount
 author: windows-sdk-content
 description: The GetCurrentVolumeCount method returns the number of volumes in the shadow copy set.
 old-location: base\cvsswriter_getcurrentvolumecount.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5f553a46-10ee-475e-b028-2652c74fbe5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

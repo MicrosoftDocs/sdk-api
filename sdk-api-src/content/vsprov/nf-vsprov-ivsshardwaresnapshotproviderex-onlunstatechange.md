@@ -4,7 +4,7 @@ title: IVssHardwareSnapshotProviderEx::OnLunStateChange
 author: windows-sdk-content
 description: The VSS service calls this method to notify hardware providers of a LUN state change.
 old-location: base\ivsshardwaresnapshotproviderex_onlunstatechange.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 7546eca0-db52-4c4b-9b5a-a3cfdf2a98af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

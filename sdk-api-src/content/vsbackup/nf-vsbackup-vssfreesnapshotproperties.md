@@ -4,7 +4,7 @@ title: VssFreeSnapshotProperties function
 author: windows-sdk-content
 description: The VssFreeSnapshotProperties function is used to free the contents of a VSS_SNAPSHOT_PROP structure as part of managing its life cycle.
 old-location: base\vssfreesnapshotproperties.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: d5b5883b-03d5-4a83-af2e-f4d22e26ee82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

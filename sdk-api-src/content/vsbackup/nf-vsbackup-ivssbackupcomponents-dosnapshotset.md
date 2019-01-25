@@ -4,7 +4,7 @@ title: IVssBackupComponents::DoSnapshotSet
 author: windows-sdk-content
 description: Commits all shadow copies in this set simultaneously.
 old-location: base\ivssbackupcomponents_dosnapshotset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

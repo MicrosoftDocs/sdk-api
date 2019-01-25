@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault
 author: windows-sdk-content
 description: Clears the protection fault state for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

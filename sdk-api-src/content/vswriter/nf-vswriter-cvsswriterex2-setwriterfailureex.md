@@ -4,7 +4,7 @@ title: CVssWriterEx2::SetWriterFailureEx
 author: windows-sdk-content
 description: Sets extended error information to indicate that the writer has encountered a problem with participating in a VSS operation.
 old-location: base\cvsswriterex2_setwriterfailureex.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c049a016-6546-4e72-90e8-46be8c2f7764
 ms.author: windowssdkdev
 ms.date: 12/5/2018

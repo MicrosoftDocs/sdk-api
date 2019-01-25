@@ -4,7 +4,7 @@ title: IVssWMComponent
 author: windows-sdk-content
 description: The IVssWMComponent is a C++ (not COM) interface that allows access to component information stored in a Writer Metadata Document.
 old-location: base\ivsswmcomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 8567ca7f-dc50-4cf2-b3c1-a2ae8d55dc95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

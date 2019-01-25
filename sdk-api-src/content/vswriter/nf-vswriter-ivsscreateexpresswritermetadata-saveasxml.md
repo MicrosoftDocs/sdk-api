@@ -4,7 +4,7 @@ title: IVssCreateExpressWriterMetadata::SaveAsXML
 author: windows-sdk-content
 description: Stores the Writer Metadata Document that contains an express writer's state information into a specified string.
 old-location: base\ivsscreateexpresswritermetadata_saveasxml.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c2a1ba98-74a1-4944-ac31-fec364060a75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

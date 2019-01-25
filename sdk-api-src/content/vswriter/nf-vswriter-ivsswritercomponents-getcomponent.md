@@ -4,7 +4,7 @@ title: IVssWriterComponents::GetComponent
 author: windows-sdk-content
 description: The GetComponent method returns an IVssComponent interface to one of a given writer's components explicitly stored in the Backup Components Document.
 old-location: base\ivsswritercomponents_getcomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ee816d83-31f3-47ff-b581-cc4dcd878f22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

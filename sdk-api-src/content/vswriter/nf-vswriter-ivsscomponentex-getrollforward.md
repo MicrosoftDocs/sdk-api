@@ -4,7 +4,7 @@ title: IVssComponentEx::GetRollForward
 author: windows-sdk-content
 description: Obtains the roll-forward operation type for a component and obtains the restore point for a partial roll-forward operation.
 old-location: base\ivsscomponentex_getrollforward.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 4ba52c80-2229-4653-bd5b-85d9f11cd127
 ms.author: windowssdkdev
 ms.date: 12/5/2018

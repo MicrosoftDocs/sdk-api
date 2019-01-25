@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadataEx2::GetVersion
 author: windows-sdk-content
 description: Obtains the version information for a writer application.
 old-location: base\ivssexaminewritermetadataex2_getversion.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: d702263e-0ea5-428c-bbd6-1ab8a7334a92
 ms.author: windowssdkdev
 ms.date: 12/5/2018

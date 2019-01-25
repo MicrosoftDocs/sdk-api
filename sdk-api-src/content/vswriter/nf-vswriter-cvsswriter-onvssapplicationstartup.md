@@ -4,7 +4,7 @@ title: CVssWriter::OnVSSApplicationStartup
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onvssapplicationstartup.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: bec4ea32-e150-468e-9b4d-2405125e5250
 ms.author: windowssdkdev
 ms.date: 12/5/2018

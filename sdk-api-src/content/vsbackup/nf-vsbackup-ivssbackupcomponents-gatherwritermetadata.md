@@ -4,7 +4,7 @@ title: IVssBackupComponents::GatherWriterMetadata
 author: windows-sdk-content
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VSS_APPLICATION_LEVEL
 author: windows-sdk-content
 description: Indicates the application level, the point in the course of the creation of a shadow copy that a writer is notified of a freeze.
 old-location: base\vss_application_level.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: fc7fbaee-d223-4557-987d-2c09f3877ec2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

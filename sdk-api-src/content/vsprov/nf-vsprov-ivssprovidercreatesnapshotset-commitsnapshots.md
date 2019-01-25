@@ -4,7 +4,7 @@ title: IVssProviderCreateSnapshotSet::CommitSnapshots
 author: windows-sdk-content
 description: Quickly commits all LUNs in this provider.
 old-location: base\ivssprovidercreatesnapshotset_commitsnapshots.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 60489142-125f-4deb-afa0-9dae63ea1d46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::SetSnapshotProperty
 author: windows-sdk-content
 description: Sets a property for a shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_setsnapshotproperty.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 0f3dc027-9663-4b74-a9b5-a117c4f72a00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

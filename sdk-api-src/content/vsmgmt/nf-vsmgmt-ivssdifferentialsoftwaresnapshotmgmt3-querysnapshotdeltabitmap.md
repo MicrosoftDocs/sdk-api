@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: cfa4420f-dc11-48c1-b177-1c58a4515550
 ms.author: windowssdkdev
 ms.date: 12/5/2018

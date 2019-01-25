@@ -4,7 +4,7 @@ title: VSS_PROVIDER_PROP
 author: windows-sdk-content
 description: Specifies shadow copy provider properties.
 old-location: base\vss_provider_prop.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 000da95d-a3f5-447e-a96d-c8fb34e9d0d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

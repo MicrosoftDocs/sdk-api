@@ -4,7 +4,7 @@ title: IVssAdmin::QueryProviders
 author: windows-sdk-content
 description: Queries all registered providers.
 old-location: base\ivssadmin_queryproviders.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 1267b715-dc2e-47a2-88f1-5c03b5fb5415
 ms.author: windowssdkdev
 ms.date: 12/5/2018

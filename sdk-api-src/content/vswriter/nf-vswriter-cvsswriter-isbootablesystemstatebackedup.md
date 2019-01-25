@@ -4,7 +4,7 @@ title: CVssWriter::IsBootableSystemStateBackedUp
 author: windows-sdk-content
 description: The IsBootableSystemStateBackedUp method indicates whether the bootable state will be backed up.
 old-location: base\cvsswriter_isbootablestatebackedup.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2ab7628e-c5d4-4a08-bc34-47356aee94bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

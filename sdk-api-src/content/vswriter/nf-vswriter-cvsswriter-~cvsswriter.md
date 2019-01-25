@@ -4,7 +4,7 @@ title: CVssWriter::~CVssWriter
 author: windows-sdk-content
 description: "~CVssWriter is the destructor of the CVssWriter class object."
 old-location: base\cvsswriter_cvsswriterdestructor.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5ae3f144-24c4-4833-ac8f-44e12df6fbc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

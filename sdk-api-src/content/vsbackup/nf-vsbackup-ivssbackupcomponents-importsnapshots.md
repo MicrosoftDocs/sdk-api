@@ -4,7 +4,7 @@ title: IVssBackupComponents::ImportSnapshots
 author: windows-sdk-content
 description: Imports shadow copies transported from a different machine.
 old-location: base\ivssbackupcomponents_importsnapshots.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 7f28c841-5448-4ed7-b76e-0aa5376fd8bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssComponent::GetPartialFileCount
 author: windows-sdk-content
 description: The GetPartialFileCount method returns the number of partial files associated with a component.
 old-location: base\ivsscomponent_getpartialfilecount.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 7be84c00-49c4-4c44-9c12-7994247726a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

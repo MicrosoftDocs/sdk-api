@@ -4,7 +4,7 @@ title: IVssComponentEx::SetPrepareForBackupFailureMsg
 author: windows-sdk-content
 description: Sets a PrepareForBackup failure message string for a component.
 old-location: base\ivsscomponentex_setprepareforbackupfailuremsg.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b2c48c06-8bfc-431b-aab3-89ec9b30a9a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

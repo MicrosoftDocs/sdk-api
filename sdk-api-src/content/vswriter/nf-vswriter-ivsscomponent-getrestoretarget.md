@@ -4,7 +4,7 @@ title: IVssComponent::GetRestoreTarget
 author: windows-sdk-content
 description: The GetRestoreTarget method returns the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
 old-location: base\ivsscomponent_getrestoretarget.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e2361e38-8757-4a29-bbaf-7f659d1095d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

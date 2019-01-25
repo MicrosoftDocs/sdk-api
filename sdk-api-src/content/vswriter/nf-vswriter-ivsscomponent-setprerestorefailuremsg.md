@@ -4,7 +4,7 @@ title: IVssComponent::SetPreRestoreFailureMsg
 author: windows-sdk-content
 description: The SetPreRestoreFailureMsg method is used to create a message describing a failure in processing a PreRestore event.
 old-location: base\ivsscomponent_setprerestorefailuremsg.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5b273cba-9878-4494-81ef-af1367f1e0a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

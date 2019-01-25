@@ -4,7 +4,7 @@ title: CVssWriter::IsPartialFileSupportEnabled
 author: windows-sdk-content
 description: The IsPartialFileSupportEnabled method determines whether partial file support is enabled or disabled.
 old-location: base\cvsswriter_ispartialfilesupportenabled.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f0552573-6b67-412d-aad0-d182ee50923f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

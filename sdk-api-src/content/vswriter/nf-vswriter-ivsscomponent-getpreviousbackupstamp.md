@@ -4,7 +4,7 @@ title: IVssComponent::GetPreviousBackupStamp
 author: windows-sdk-content
 description: The GetPreviousBackupStamp method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.
 old-location: base\ivsscomponent_getpreviousbackupstamp.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291
 ms.author: windowssdkdev
 ms.date: 12/5/2018

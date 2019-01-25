@@ -4,7 +4,7 @@ title: IVssComponent::GetRestoreSubcomponent
 author: windows-sdk-content
 description: The GetRestoreSubcomponent method returns the specified subcomponent associated with a given component.
 old-location: base\ivsscomponent_getrestoresubcomponent.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 23c37342-fcbd-4401-83d5-a52d4a69b908
 ms.author: windowssdkdev
 ms.date: 12/5/2018

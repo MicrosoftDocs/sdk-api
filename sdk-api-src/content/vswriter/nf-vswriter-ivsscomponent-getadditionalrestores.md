@@ -4,7 +4,7 @@ title: IVssComponent::GetAdditionalRestores
 author: windows-sdk-content
 description: The GetAdditionalRestores method is used by a writer during incremental or differential restore operations to determine whether a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivsscomponent_getadditionalrestores.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f398a88a-6572-4d0b-a241-37cc0e9e99a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

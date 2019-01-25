@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx
 author: windows-sdk-content
 description: Updates the shadow copy storage area maximum size for a certain volume. This may not have an immediate effect. If the bVolatile parameter is FALSE, the change continues even if the computer is rebooted.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_changediffareamaximumsizeex.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9ba621d5-32ec-4512-a18f-dbdadbd3ff09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

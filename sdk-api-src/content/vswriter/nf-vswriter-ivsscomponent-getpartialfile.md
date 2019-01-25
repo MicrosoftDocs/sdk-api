@@ -4,7 +4,7 @@ title: IVssComponent::GetPartialFile
 author: windows-sdk-content
 description: The GetPartialFile method returns information on a partial file associated with this component.
 old-location: base\ivsscomponent_getpartialfile.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ed589ae8-2abb-4c3b-9695-12649fc89818
 ms.author: windowssdkdev
 ms.date: 12/5/2018

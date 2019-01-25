@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx::SetSelectedForRestoreEx
 author: windows-sdk-content
 description: The SetSelectedForRestoreEx method indicates whether the specified selectable component is selected for restoration to a specified writer instance.
 old-location: base\ivssbackupcomponentsex_setselectedforrestoreex.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 469e6d61-85c6-4385-92be-df6addefe37f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

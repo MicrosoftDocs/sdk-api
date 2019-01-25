@@ -4,7 +4,7 @@ title: IVssSnapshotMgmt2::GetMinDiffAreaSize
 author: windows-sdk-content
 description: Returns the current minimum size of the shadow copy storage area.
 old-location: base\ivsssnapshotmgmt2_getmindiffareasize.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: d1ee4499-07cb-4373-a3c9-892129a257db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

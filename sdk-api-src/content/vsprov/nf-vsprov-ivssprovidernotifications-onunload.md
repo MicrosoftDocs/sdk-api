@@ -4,7 +4,7 @@ title: IVssProviderNotifications::OnUnload
 author: windows-sdk-content
 description: Notifies the provider to prepare to be unloaded.
 old-location: base\ivssprovidernotifications_onunload.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5b9e0940-70b4-4913-9281-0347e60baa0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

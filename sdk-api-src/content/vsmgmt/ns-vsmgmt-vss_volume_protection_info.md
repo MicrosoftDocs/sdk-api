@@ -4,7 +4,7 @@ title: VSS_VOLUME_PROTECTION_INFO
 author: windows-sdk-content
 description: Contains information about a volume's shadow copy protection level.
 old-location: base\vss_volume_protection_info.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 46cdc46e-fc44-452a-8aae-e47c12deedb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

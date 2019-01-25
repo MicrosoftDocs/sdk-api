@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx2::SetRestoreName
 author: windows-sdk-content
 description: Assigns a new logical name to a component that is being restored.
 old-location: base\ivssbackupcomponentsex2_setrestorename.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a8334b28-9328-49f4-bf92-f43c556781bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

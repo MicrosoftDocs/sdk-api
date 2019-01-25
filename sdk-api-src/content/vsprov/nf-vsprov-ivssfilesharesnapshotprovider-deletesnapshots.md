@@ -4,7 +4,7 @@ title: IVssFileShareSnapshotProvider::DeleteSnapshots
 author: windows-sdk-content
 description: Deletes specific snapshots, or all snapshots in a specified snapshot set.
 old-location: base\ivssfilesharesnapshotprovider_deletesnapshots.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3fd48346-8a85-4ddf-9a6d-ac0cb82d4133
 ms.author: windowssdkdev
 ms.date: 12/5/2018

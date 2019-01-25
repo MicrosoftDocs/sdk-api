@@ -4,7 +4,7 @@ title: VSS_ALTERNATE_WRITER_STATE
 author: windows-sdk-content
 description: Used to indicate whether a given writer has an associated alternate writer.
 old-location: base\vss_alternate_writer_state.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 8d41fd9d-6448-4bec-a669-4aa50f37cada
 ms.author: windowssdkdev
 ms.date: 12/5/2018

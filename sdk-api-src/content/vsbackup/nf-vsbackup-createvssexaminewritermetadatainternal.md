@@ -4,7 +4,7 @@ title: CreateVssExamineWriterMetadataInternal function
 author: windows-sdk-content
 description: The CreateVssExamineWriterMetadata function creates an IVssExamineWriterMetadata object.
 old-location: base\createvssexaminewritermetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

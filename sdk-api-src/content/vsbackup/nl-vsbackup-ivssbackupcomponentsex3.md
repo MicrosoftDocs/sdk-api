@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx3
 author: windows-sdk-content
 description: Defines additional methods that requesters can use to perform LUN resynchronization and return extended writer status information.
 old-location: base\ivssbackupcomponentsex3.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 56c8e7c2-2d94-4674-bd20-bf036991474f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

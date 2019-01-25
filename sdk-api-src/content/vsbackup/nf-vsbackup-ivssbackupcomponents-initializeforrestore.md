@@ -4,7 +4,7 @@ title: IVssBackupComponents::InitializeForRestore
 author: windows-sdk-content
 description: The InitializeForRestore method initializes the IVssBackupComponents interface in preparation for a restore operation.
 old-location: base\ivssbackupcomponents_initializeforrestore.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a8ba1463-4da7-4539-8ade-b57ecda0a645
 ms.author: windowssdkdev
 ms.date: 12/5/2018

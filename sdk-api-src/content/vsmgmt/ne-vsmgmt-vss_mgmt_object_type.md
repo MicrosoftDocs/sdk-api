@@ -4,7 +4,7 @@ title: VSS_MGMT_OBJECT_TYPE
 author: windows-sdk-content
 description: Discriminant for the VSS_MGMT_OBJECT_UNION union within the VSS_MGMT_OBJECT_PROP structure.
 old-location: base\vss_mgmt_object_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ea28ff2c-6603-4193-9d5f-b41fffe28a90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

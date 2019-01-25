@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::LoadFromXML
 author: windows-sdk-content
 description: The LoadFromXML method loads an XML document that contains a writer's metadata document into an IVssExamineWriterMetadata interface.
 old-location: base\ivssexaminewritermetadata_loadfromxml.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 8a508a2c-1c42-4414-9c54-a78d1e1564a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

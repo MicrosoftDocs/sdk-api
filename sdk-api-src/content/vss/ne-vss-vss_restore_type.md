@@ -4,7 +4,7 @@ title: VSS_RESTORE_TYPE
 author: windows-sdk-content
 description: Used by a requester to indicate the type of restore operation it is about to perform.
 old-location: base\vss_restore_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 4649aee5-da45-4602-a768-eff228a8d726
 ms.author: windowssdkdev
 ms.date: 12/5/2018

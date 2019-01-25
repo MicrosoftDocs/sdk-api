@@ -4,7 +4,7 @@ title: IVssBackupComponents::AddNewTarget
 author: windows-sdk-content
 description: The AddNewTarget method is used by a requester during a restore operation to indicate that the backup application plans to restore files to a new location.
 old-location: base\ivssbackupcomponents_addnewtarget.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 9a4e2638-f6e7-4264-997d-41880f23c981
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt3
 author: windows-sdk-content
 description: Defines methods that allow applications to use the shadow copy protection feature of VSS.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e5abcf69-748a-4ed6-973d-8ba49ec22ef2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

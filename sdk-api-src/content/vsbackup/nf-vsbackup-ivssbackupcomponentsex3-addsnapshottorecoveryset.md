@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet
 author: windows-sdk-content
 description: Specifies the volumes to be included in a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

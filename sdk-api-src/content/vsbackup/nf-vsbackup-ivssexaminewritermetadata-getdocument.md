@@ -4,7 +4,7 @@ title: IVssExamineWriterMetadata::GetDocument
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getdocument.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 3ade4232-147b-4e56-b45c-e692d08cfcdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

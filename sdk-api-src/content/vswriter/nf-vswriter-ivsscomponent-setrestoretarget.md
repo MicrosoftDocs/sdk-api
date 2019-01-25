@@ -4,7 +4,7 @@ title: IVssComponent::SetRestoreTarget
 author: windows-sdk-content
 description: The SetRestoreTarget method sets the restore target (in terms of the VSS_RESTORE_TARGET enumeration) for the current component.
 old-location: base\ivsscomponent_setrestoretarget.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 6e8b9322-6611-4a47-aa7a-876be01d33b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

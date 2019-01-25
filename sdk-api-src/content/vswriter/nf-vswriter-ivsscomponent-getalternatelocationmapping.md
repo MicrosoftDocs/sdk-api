@@ -4,7 +4,7 @@ title: IVssComponent::GetAlternateLocationMapping
 author: windows-sdk-content
 description: The GetAlternateLocationMapping is used to return a file set's alternate location for file restoration. This method can be called by either a writer or a requester.
 old-location: base\ivsscomponent_getalternatelocationmapping.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

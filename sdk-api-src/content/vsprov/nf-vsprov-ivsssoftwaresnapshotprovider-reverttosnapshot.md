@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::RevertToSnapshot
 author: windows-sdk-content
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_reverttosnapshot.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 55c55bbc-b40e-4659-bee6-2448e6b6a4df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

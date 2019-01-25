@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
 author: windows-sdk-content
 description: Queries shadow copy storage areas that physically reside on the given volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasonvolume.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 6d9853d3-9c00-47e6-99e8-e499dea9b495
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssCreateWriterMetadata::AddDatabaseLogFiles
 author: windows-sdk-content
 description: The AddDatabaseLogFiles method indicates the log files that are associated with a database to be backed up, as well as their location.
 old-location: base\ivsscreatewritermetadata_adddatabaselogfiles.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 09bdbdf3-d757-4d3c-8b8b-f792b6cd4ef1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

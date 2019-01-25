@@ -4,7 +4,7 @@ title: CVssWriter::GetCurrentSnapshotSetId
 author: windows-sdk-content
 description: The GetCurrentSnapshotSetId method returns the unique identifier of the shadow copy set.
 old-location: base\cvsswriter_getcurrentsnapshotsetid.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c9327bfc-02e5-402c-b445-15eed4433176
 ms.author: windowssdkdev
 ms.date: 12/5/2018

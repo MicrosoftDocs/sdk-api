@@ -4,7 +4,7 @@ title: CVssWriter::OnIdentify
 author: windows-sdk-content
 description: The OnIdentify method is called by a writer following receipt of an Identify event.
 old-location: base\cvsswriter_onidentify.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 542d479a-695a-4b1f-94e7-f2ffa08440b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

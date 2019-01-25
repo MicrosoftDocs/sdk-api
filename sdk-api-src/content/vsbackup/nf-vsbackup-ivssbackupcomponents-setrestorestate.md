@@ -4,7 +4,7 @@ title: IVssBackupComponents::SetRestoreState
 author: windows-sdk-content
 description: The SetRestoreState method defines an overall configuration for a restore operation.
 old-location: base\ivssbackupcomponents_setrestorestate.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: bc85e93f-1034-41cc-bf69-025aa86a56fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

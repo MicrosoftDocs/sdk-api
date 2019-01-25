@@ -4,7 +4,7 @@ title: IVssEnumObject
 author: windows-sdk-content
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenumobject.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

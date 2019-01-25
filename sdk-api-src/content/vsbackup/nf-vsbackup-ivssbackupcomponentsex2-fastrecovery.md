@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx2::FastRecovery
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssbackupcomponentsex2_fastrecovery.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: e64cb785-9688-4aba-8017-65a8494ddb33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

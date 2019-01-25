@@ -4,7 +4,7 @@ title: IVssBackupComponents::AddToSnapshotSet
 author: windows-sdk-content
 description: The AddToSnapshotSet method adds an original volume or original remote file share to the shadow copy set.
 old-location: base\ivssbackupcomponents_addtosnapshotset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 6c20e386-7cd8-45d9-92d6-96d0a458db50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

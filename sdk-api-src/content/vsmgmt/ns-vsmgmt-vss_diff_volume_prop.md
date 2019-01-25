@@ -4,7 +4,7 @@ title: VSS_DIFF_VOLUME_PROP
 author: windows-sdk-content
 description: Describes a shadow copy storage area volume.
 old-location: base\vss_diff_volume_prop.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: c4a20583-7fee-4ae1-97ed-d80b2a7539e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

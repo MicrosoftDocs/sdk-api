@@ -4,7 +4,7 @@ title: VSS_WRITER_STATE
 author: windows-sdk-content
 description: Indicates the current state of the writer.
 old-location: base\vss_writer_state.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 97aa20a3-4d58-49e8-83c0-fc33c700c410
 ms.author: windowssdkdev
 ms.date: 12/5/2018

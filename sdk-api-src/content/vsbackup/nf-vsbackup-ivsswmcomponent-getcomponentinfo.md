@@ -4,7 +4,7 @@ title: IVssWMComponent::GetComponentInfo
 author: windows-sdk-content
 description: The GetComponentInfo method obtains basic information about the specified writer metadata component.
 old-location: base\ivsswmcomponent_getcomponentinfo.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ac01bfea-e60f-4f50-a865-5bb7e372fbf2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

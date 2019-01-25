@@ -4,7 +4,7 @@ title: IVssExpressWriter::LoadMetadata
 author: windows-sdk-content
 description: Causes VSS to load the writer's metadata from a string instead of the express writer metadata store.
 old-location: base\ivssexpresswriter_load.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2b670278-4589-47b7-a9ad-a24187c39945
 ms.author: windowssdkdev
 ms.date: 12/5/2018

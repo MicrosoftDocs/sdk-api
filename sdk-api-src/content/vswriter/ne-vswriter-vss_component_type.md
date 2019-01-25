@@ -4,7 +4,7 @@ title: VSS_COMPONENT_TYPE
 author: windows-sdk-content
 description: Specify the type of component being used with a shadow copy backup operation.
 old-location: base\vss_component_type.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: ba3b726c-448a-46c0-8fa5-5793497aa385
 ms.author: windowssdkdev
 ms.date: 12/5/2018

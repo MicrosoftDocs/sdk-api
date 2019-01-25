@@ -4,7 +4,7 @@ title: IVssSnapshotMgmt
 author: windows-sdk-content
 description: Provides a method that returns an interface to further configure a shadow copy provider.
 old-location: base\ivsssnapshotmgmt.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 5e5694a1-7c17-4d8a-b094-09dcf28a636f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssHardwareSnapshotProvider::GetTargetLuns
 author: windows-sdk-content
 description: Prompts the hardware provider to initialize the VDS_LUN_INFORMATION structures for the newly created shadow copy LUNs.
 old-location: base\ivsshardwaresnapshotprovider_gettargetluns.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 299020eb-0afd-41c8-9551-1275eff45fa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

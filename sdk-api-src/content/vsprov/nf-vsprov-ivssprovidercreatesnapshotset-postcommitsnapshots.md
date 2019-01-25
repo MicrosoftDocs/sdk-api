@@ -4,7 +4,7 @@ title: IVssProviderCreateSnapshotSet::PostCommitSnapshots
 author: windows-sdk-content
 description: Is called after all providers involved in the shadow copy set have succeeded with CommitSnapshots.
 old-location: base\ivssprovidercreatesnapshotset_postcommitsnapshots.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 191b263b-1bcf-4617-95d4-5b4c1ed714ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

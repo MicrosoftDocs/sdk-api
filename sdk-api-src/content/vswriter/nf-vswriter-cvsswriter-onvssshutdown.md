@@ -4,7 +4,7 @@ title: CVssWriter::OnVSSShutdown
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onvssshutdown.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 79a2ebb4-300a-4c6e-b42d-8136d85fedbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

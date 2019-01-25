@@ -4,7 +4,7 @@ title: IVssComponent::GetNewTarget
 author: windows-sdk-content
 description: The GetNewTarget method returns the new file restoration locations for the selected component or component set.
 old-location: base\ivsscomponent_getnewtarget.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 21f22fae-2230-418b-8942-754c863a9213
 ms.author: windowssdkdev
 ms.date: 12/5/2018

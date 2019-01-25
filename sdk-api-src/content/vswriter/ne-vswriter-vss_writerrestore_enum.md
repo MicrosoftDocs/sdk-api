@@ -4,7 +4,7 @@ title: VSS_WRITERRESTORE_ENUM
 author: windows-sdk-content
 description: Indicate to a requester the conditions under which it will handle events generated during a restore operation.
 old-location: base\vss_writerrestore_enum.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: a3e45d52-4d9a-4bdf-a8e5-622939be6f2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

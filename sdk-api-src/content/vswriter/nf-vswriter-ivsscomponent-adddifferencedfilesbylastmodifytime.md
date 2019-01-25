@@ -4,7 +4,7 @@ title: IVssComponent::AddDifferencedFilesByLastModifyTime
 author: windows-sdk-content
 description: Used by a writer to indicate that a file set (a specified file or files) should be evaluated against a last modification time stamp for inclusion in a time stamped incremental or differential backup using entire files.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifytime.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 33372d10-c947-45de-9ea2-03ba6378179d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

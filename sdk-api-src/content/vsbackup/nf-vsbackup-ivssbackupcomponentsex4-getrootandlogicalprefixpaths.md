@@ -4,7 +4,7 @@ title: IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
 author: windows-sdk-content
 description: Normalizes a local volume path or UNC share path so that it can be passed to the IVssBackupComponents::AddToSnapshotSet method.
 old-location: base\ivssbackupcomponentsex4_getrootandlogicalprefixpaths.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 94F942A9-909D-4A9F-9DEA-CFFCFD00C1BF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVssComponent::SetBackupMetadata
 author: windows-sdk-content
 description: The SetBackupMetadata method sets backup metadata with the component.
 old-location: base\ivsscomponent_setbackupmetadata.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 96d0a581-87a5-4f97-b23f-08e90a805de1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

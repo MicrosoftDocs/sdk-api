@@ -4,7 +4,7 @@ title: IVssWMComponent::GetFile
 author: windows-sdk-content
 description: The GetFile method obtains a file descriptor associated with a file group.
 old-location: base\ivsswmcomponent_getfile.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 55956a05-59b8-4197-8496-03903b6e0faa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

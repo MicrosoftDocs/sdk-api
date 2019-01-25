@@ -4,7 +4,7 @@ title: CVssWriter::CVssWriter
 author: windows-sdk-content
 description: CVssWriter is the constructor of the CVssWriter class object.
 old-location: base\cvsswriter_cvsswriter.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 2619f79b-2ecb-4f20-84b9-c7aa9aed0dba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

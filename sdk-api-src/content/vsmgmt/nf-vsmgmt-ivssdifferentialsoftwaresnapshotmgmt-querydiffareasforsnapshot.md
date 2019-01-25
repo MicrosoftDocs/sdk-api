@@ -4,7 +4,7 @@ title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot
 author: windows-sdk-content
 description: Queries shadow copy storage areas in use by the original volume associated with the input shadow copy.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforsnapshot.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 1203d6de-b389-4349-a83c-5ee729add03c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

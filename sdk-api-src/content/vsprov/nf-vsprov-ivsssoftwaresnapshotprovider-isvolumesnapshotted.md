@@ -4,7 +4,7 @@ title: IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
 author: windows-sdk-content
 description: Determines whether any shadow copies exist for the specified volume.
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesnapshotted.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 0dd8cbe4-a8f8-479c-b8f7-ccdd255e978a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

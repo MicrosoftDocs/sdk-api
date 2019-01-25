@@ -4,7 +4,7 @@ title: IVssEnumMgmtObject::Reset
 author: windows-sdk-content
 description: Resets the enumerator so that IVssEnumMgmtObject starts at the first enumerated object.
 old-location: base\ivssenummgmtobject_reset.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 57f984da-6c20-405b-883b-6e54e4ac9546
 ms.author: windowssdkdev
 ms.date: 12/5/2018

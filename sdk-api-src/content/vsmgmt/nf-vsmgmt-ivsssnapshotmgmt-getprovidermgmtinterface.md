@@ -4,7 +4,7 @@ title: IVssSnapshotMgmt::GetProviderMgmtInterface
 author: windows-sdk-content
 description: Returns an interface to further configure the system provider.
 old-location: base\ivsssnapshotmgmt_getprovidermgmtinterface.htm
-tech.root: vss
+tech.root: VSS
 ms.assetid: 814c6e2c-a5f8-4f44-b508-3a2e95bb1c54
 ms.author: windowssdkdev
 ms.date: 12/5/2018
