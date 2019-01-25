@@ -1,6 +1,6 @@
 ---
 UID: NC:certenroll.FNIMPORTPFXTOPROVIDER
-title: FNIMPORTPFXTOPROVIDER
+title: ImportPFXToProvider
 author: windows-sdk-content
 description: Imports a PFX certificate.
 old-location: security\fnimportpfxtoprovider.htm
@@ -8,7 +8,7 @@ tech.root: SecCrypto
 ms.assetid: D5F4A318-4572-4563-85B0-7F3532833DE4
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: "(FNIMPORTPFXTOPROVIDER), (FNIMPORTPFXTOPROVIDER) callback function [Security], FNIMPORTPFXTOPROVIDER callback, certenroll/(FNIMPORTPFXTOPROVIDER), fnimportpfxtoprovider, security.fnimportpfxtoprovider, wincrypt/(FNIMPORTPFXTOPROVIDER)"
+ms.keywords: "ImportPFXToProvider, (FNIMPORTPFXTOPROVIDER), (FNIMPORTPFXTOPROVIDER) callback function [Security], FNIMPORTPFXTOPROVIDER callback, certenroll/(FNIMPORTPFXTOPROVIDER), fnimportpfxtoprovider, security.fnimportpfxtoprovider, wincrypt/(FNIMPORTPFXTOPROVIDER)"
 ms.topic: callback
 req.header: certenroll.h
 req.include-header: 
@@ -37,13 +37,14 @@ api_location:
  - wincrypt.h
 api_name:
  - (FNIMPORTPFXTOPROVIDER)
+ - ImportPFXToProvider
 product: Windows
 targetos: Windows
 req.typenames: 
 req.redist: 
 ---
 
-# FNIMPORTPFXTOPROVIDER callback function
+# ImportPFXToProvider callback function
 
 
 ## -description
