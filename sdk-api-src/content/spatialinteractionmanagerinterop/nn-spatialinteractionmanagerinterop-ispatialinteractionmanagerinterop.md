@@ -7,7 +7,7 @@ old-location: mixedreality\ispatialinteractionmanagerinterop.htm
 tech.root: MixedReality
 ms.assetid: A6ED74DB-D56A-4133-877C-A98BCBE34F7D
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 01/25/2019
 ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
 ms.topic: interface
 req.header: spatialinteractionmanagerinterop.h
@@ -44,55 +44,20 @@ req.redist:
 
 # ISpatialInteractionManagerInterop interface
 
-
 ## -description
 
-
-[ 
-        Updated for UWP apps on Windows 10. For Windows 8.x articles, see the
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=619132">archive</a> ]
-
-Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object and provides access to <b>SpatialInteractionManager</b> members for accessing user input from hands, motion controllers, and system voice commands.
-
-
-## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialInteractionManagerInterop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ISpatialInteractionManagerInterop</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+Enables interoperability with a Univeral Windows Platform (UWP) [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object, and provides access to **SpatialInteractionManager** members for accessing user input from hands, motion controllers, and system voice commands.
 
 ## -members
 
-The <b>ISpatialInteractionManagerInterop</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt844797(v=WIN.10).aspx">GetForWindow</a>
-</td>
-<td align="left" width="63%">
-Retrieves a <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object bound to the active application.
+The **ISpatialInteractionManagerInterop** interface has these methods.
 
-</td>
-</tr>
-</table> 
-
+|Method|Description|
+|-|-|
+|[GetForWindow](nf-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop-getforwindow.md)|Retrieves a [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object bound to the active application.|
 
 ## -see-also
 
-
-
-
-<a href="https://developer.microsoft.com/windows/mixed-reality">Mixed Reality Dev Center</a>
-
-
-
-<a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">WinRT reference documentation</a>
- 
-
- 
-
+* [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager)
+* [Mixed Reality Dev Center](/windows/mixed-reality)
+* [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic)
