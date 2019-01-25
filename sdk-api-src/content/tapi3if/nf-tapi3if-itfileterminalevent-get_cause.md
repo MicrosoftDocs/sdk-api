@@ -4,7 +4,7 @@ title: ITFileTerminalEvent::get_Cause
 author: windows-sdk-content
 description: The get_Cause method gets the cause associated with this event.
 old-location: tapi3\itfileterminalevent_get_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 90594778-712e-4d26-9fe5-cb5cfd240359
 ms.author: windowssdkdev
 ms.date: 12/5/2018

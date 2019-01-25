@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph::Init
 author: windows-sdk-content
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object.
 old-location: tapi3\cmspcallmultigraph_init.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ffb250b1-b66c-470b-ac73-91511623da00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

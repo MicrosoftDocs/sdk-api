@@ -4,7 +4,7 @@ title: ITAgentSessionEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets an AGENT_SESSION_EVENT descriptor of the event that occurred.
 old-location: tapi3\itagentsessionevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 34779590-c2f6-4bd7-932b-5ac6365bcb20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

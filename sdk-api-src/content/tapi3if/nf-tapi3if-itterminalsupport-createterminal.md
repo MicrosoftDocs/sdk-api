@@ -4,7 +4,7 @@ title: ITTerminalSupport::CreateTerminal
 author: windows-sdk-content
 description: The CreateTerminal method creates and initializes a new ITTerminal object based on the dynamic terminal class and media. The terminal class is identified by a GUID. The GUID must be converted to a string using StringFromIID to pass to this method.
 old-location: tapi3\itterminalsupport_createterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2a2a037a-753c-4dd4-b6ce-10b69f2e2421
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITTAPIObjectEvent2::get_Phone
 author: windows-sdk-content
 description: The get_Phone method returns a pointer to the ITPhone interface on the phone object that caused this TAPI object event to be fired.
 old-location: tapi3\ittapiobjectevent2_get_phone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 76e316f6-536b-4531-a4a6-397e258678cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

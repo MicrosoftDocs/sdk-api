@@ -4,7 +4,7 @@ title: ITAgentSession::put_State
 author: windows-sdk-content
 description: The put_State method sets the state of the agent session.
 old-location: tapi3\itagentsession_put_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4d35bacd-c4e4-4c31-b946-ad76ffb250ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

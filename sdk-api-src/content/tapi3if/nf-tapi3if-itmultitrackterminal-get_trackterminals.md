@@ -4,7 +4,7 @@ title: ITMultiTrackTerminal::get_TrackTerminals
 author: windows-sdk-content
 description: The get_TrackTerminals method creates and returns a collection containing the terminals contained by the multitrack terminal on which this method was called.
 old-location: tapi3\itmultitrackterminal_get_trackterminals.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2bedefe8-6b84-48c0-8a7b-719d017baf24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

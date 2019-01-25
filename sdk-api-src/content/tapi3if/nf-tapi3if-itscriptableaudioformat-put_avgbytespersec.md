@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::put_AvgBytesPerSec
 author: windows-sdk-content
 description: The put_AvgBytesPerSec method sets the nAvgBytesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_avgbytespersec.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ca1b67b3-2dd0-47c1-9e91-ae94b6d78cc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

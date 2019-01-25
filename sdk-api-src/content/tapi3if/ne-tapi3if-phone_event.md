@@ -4,7 +4,7 @@ title: PHONE_EVENT
 author: windows-sdk-content
 description: The PHONE_EVENT enum indicates a type of phone event.
 old-location: tapi3\phone_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9508cb8f-b7c9-4d5c-a58d-afdf079f9fee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITDirectoryObjectUser::get_IPPhonePrimary
 author: windows-sdk-content
 description: The get_IPPhonePrimary method gets the name of a computer that is the primary IP phone for the user.
 old-location: tapi3\itdirectoryobjectuser_get_ipphoneprimary.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 43bb9ce5-28ff-4a6f-a55c-a84633e22dfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMcastScope::get_TTL
 author: windows-sdk-content
 description: The get_TTL method obtains the time to live value for the multicast scope.
 old-location: tapi3\imcastscope_get_ttl.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 68e402e5-87ae-49fd-9149-8eb79a0a8aee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

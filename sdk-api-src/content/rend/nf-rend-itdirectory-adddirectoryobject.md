@@ -4,7 +4,7 @@ title: ITDirectory::AddDirectoryObject
 author: windows-sdk-content
 description: The AddDirectoryObject method adds an ITDirectoryObject object to the server. This may be a directory or a user machine mapping.
 old-location: tapi3\itdirectory_adddirectoryobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7a379bdc-50e3-4034-ac16-d20d1b03cd35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

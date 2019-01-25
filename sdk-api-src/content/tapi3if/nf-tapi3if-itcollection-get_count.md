@@ -4,7 +4,7 @@ title: ITCollection::get_Count
 author: windows-sdk-content
 description: The get_Count method gets the number of items in the collection.
 old-location: tapi3\itcollection_get_count.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 253c09db-4b64-43d0-8040-b3a2ab95af30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCallStateEvent::get_Cause
 author: windows-sdk-content
 description: The get_Cause method gets the cause associated with this event.
 old-location: tapi3\itcallstateevent_get_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e3a4b985-1c0f-4e93-a965-c61c9c0ab10d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

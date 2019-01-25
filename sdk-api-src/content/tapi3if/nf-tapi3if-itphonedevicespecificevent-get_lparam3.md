@@ -4,7 +4,7 @@ title: ITPhoneDeviceSpecificEvent::get_lParam3
 author: windows-sdk-content
 description: The get_lParam3 method retrieves the third of three buffers specific to a given phone device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itphonedevicespecificevent_get_lparam3.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0dd4c5d7-033a-4e25-a7f0-6731b5b08d18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

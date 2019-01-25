@@ -4,7 +4,7 @@ title: ITPhone::get_RingMode
 author: windows-sdk-content
 description: The get_RingMode method retrieves the current ring mode for the phone.
 old-location: tapi3\itphone_get_ringmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 55f6a75c-dffb-46e7-8679-70c7d59ff5b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

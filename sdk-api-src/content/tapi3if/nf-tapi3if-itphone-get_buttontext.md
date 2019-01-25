@@ -4,7 +4,7 @@ title: ITPhone::get_ButtonText
 author: windows-sdk-content
 description: The get_ButtonText method retrieves the button text associated with a particular button.
 old-location: tapi3\itphone_get_buttontext.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 75a216fb-7bb3-4178-baa5-8ba478bd5422
 ms.author: windowssdkdev
 ms.date: 12/5/2018

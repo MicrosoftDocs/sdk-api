@@ -4,7 +4,7 @@ title: ITAgentHandler::EnumerateUsableAddresses
 author: windows-sdk-content
 description: The EnumerateUsableAddresses method enumerates addresses available for receiving ACD calls on this agent handler.
 old-location: tapi3\itagenthandler_enumerateusableaddresses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9821b073-c64b-4f2b-b771-6bf027f9aa70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

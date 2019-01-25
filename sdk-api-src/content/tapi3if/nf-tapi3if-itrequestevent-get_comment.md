@@ -4,7 +4,7 @@ title: ITRequestEvent::get_Comment
 author: windows-sdk-content
 description: The get_Comment method gets the comment.
 old-location: tapi3\itrequestevent_get_comment.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2150d521-cbd2-457f-b3c6-97761941a442
 ms.author: windowssdkdev
 ms.date: 12/5/2018

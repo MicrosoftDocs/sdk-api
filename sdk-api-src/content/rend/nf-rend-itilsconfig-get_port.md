@@ -4,7 +4,7 @@ title: ITILSConfig::get_Port
 author: windows-sdk-content
 description: The get_Port method gets the port number used to connect to the server of a given ILS directory.
 old-location: tapi3\itilsconfig_get_port.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7aa0a8e7-6799-4685-92a0-c2ce610d0e06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

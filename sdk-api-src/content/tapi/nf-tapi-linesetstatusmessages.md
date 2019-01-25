@@ -4,7 +4,7 @@ title: lineSetStatusMessages function
 author: windows-sdk-content
 description: The lineSetStatusMessages function enables an application to specify which notification messages to receive for events related to status changes for the specified line or any of its addresses.
 old-location: tapi2\linesetstatusmessages.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 08a93874-b0d5-4c00-b541-b51c312cfef6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

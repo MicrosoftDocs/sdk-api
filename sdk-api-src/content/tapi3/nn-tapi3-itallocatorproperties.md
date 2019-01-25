@@ -4,7 +4,7 @@ title: ITAllocatorProperties
 author: windows-sdk-content
 description: The ITAllocatorProperties interface exposes the buffer allocator properties of the Media Streaming Terminal (MST) to an end-user or server application.
 old-location: tapi3\itallocatorproperties.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a0facf08-1b03-415b-b97e-3fda5a164b89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

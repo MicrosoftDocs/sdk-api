@@ -4,7 +4,7 @@ title: ITForwardInformation::get_ForwardTypeDestination
 author: windows-sdk-content
 description: The get_ForwardTypeDestination method gets the destination for a forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypedestination.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 84a5737c-3bcd-4fdf-9a51-ef726fe71682
 ms.author: windowssdkdev
 ms.date: 12/5/2018

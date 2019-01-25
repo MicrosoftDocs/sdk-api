@@ -4,7 +4,7 @@ title: lineShutdown function
 author: windows-sdk-content
 description: The lineShutdown function shuts down the application's usage of the line abstraction of the API.
 old-location: tapi2\lineshutdown.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d512508a-fb6a-41ec-a80d-f625abfdd184
 ms.author: windowssdkdev
 ms.date: 12/5/2018

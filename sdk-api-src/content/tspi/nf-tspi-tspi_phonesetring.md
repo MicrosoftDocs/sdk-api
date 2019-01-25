@@ -4,7 +4,7 @@ title: TSPI_phoneSetRing function
 author: windows-sdk-content
 description: The TSPI_phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 old-location: tspi\tspi_phonesetring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8540f39e-4891-48d9-a5b0-b928eeb4be0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITRendezvous::get_DefaultDirectories
 author: windows-sdk-content
 description: The get_DefaultDirectories method enumerates all configured default directories. This method is similar to EnumerateDefaultDirectories but is provided for use by Visual Basic and other scripting languages.
 old-location: tapi3\itrendezvous_get_defaultdirectories.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3db02f17-6fb5-467b-91f6-dc501b5472cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

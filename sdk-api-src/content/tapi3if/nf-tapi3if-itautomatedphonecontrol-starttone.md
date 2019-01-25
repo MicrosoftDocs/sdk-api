@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::StartTone
 author: windows-sdk-content
 description: The StartTone method sends control tones.
 old-location: tapi3\itautomatedphonecontrol_starttone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 04cce8d6-ccab-4eeb-a97c-3bc24ec3fc00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

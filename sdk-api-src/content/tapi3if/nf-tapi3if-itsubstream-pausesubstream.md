@@ -4,7 +4,7 @@ title: ITSubStream::PauseSubStream
 author: windows-sdk-content
 description: The PauseSubStream method pauses the substream.
 old-location: tapi3\itsubstream_pausesubstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 77bd3726-3996-45a6-88be-cb033f5dddc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

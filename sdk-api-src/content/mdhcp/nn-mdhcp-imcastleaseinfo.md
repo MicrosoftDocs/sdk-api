@@ -4,7 +4,7 @@ title: IMcastLeaseInfo
 author: windows-sdk-content
 description: The IMcastLeaseInfo interface exposes methods that can get or set information concerning a multicast address allocation. The IMcastLease object is created by calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a4ad8009-559e-4db9-9ae2-28e4d36cf346
 ms.author: windowssdkdev
 ms.date: 12/5/2018

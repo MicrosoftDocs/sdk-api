@@ -4,7 +4,7 @@ title: ITLocationInfo::get_CityCode
 author: windows-sdk-content
 description: The get_CityCode method gets the code for the city.
 old-location: tapi3\itlocationinfo_get_citycode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ab8aee25-84b8-4913-876f-dd01bca5e3b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

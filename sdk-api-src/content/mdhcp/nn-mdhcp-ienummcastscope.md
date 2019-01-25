@@ -4,7 +4,7 @@ title: IEnumMcastScope
 author: windows-sdk-content
 description: The IEnumMcastScope interface provides COM-standard enumeration methods for the IMcastScope interface. The IMcastAddressAllocation::EnumerateScopes method returns a pointer to IEnumMcastScope.
 old-location: tapi3\ienummcastscope.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: edc8be8e-635b-43f3-a4c1-7566e354cc3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

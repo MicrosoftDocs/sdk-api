@@ -4,7 +4,7 @@ title: ITCallInfo::get_CallInfoBuffer
 author: windows-sdk-content
 description: The get_CallInfoBuffer method gets call information items which require a buffer, such as user-user information.
 old-location: tapi3\itcallinfo_get_callinfobuffer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cda9d577-7230-42d9-8063-5ca94e0400dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

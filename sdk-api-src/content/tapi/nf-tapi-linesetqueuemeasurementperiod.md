@@ -4,7 +4,7 @@ title: lineSetQueueMeasurementPeriod function
 author: windows-sdk-content
 description: The lineSetQueueMeasurementPeriod function sets the measurement period associated with a particular queue.
 old-location: tapi2\linesetqueuemeasurementperiod.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 62b972ed-4a2d-4756-b905-dfb8c2bb0a8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

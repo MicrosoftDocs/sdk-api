@@ -4,7 +4,7 @@ title: ITTTSTerminalEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method returns an ITCallInfo interface pointer for the call involved in the terminal event.
 old-location: tapi3\itttsterminalevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7e9ffff3-1282-4d05-83c9-7f824406fcfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

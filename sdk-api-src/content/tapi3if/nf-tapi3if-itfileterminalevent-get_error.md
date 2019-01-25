@@ -4,7 +4,7 @@ title: ITFileTerminalEvent::get_Error
 author: windows-sdk-content
 description: The get_Error method gets the error code for the event.
 old-location: tapi3\itfileterminalevent_get_error.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1eabd161-12d1-4537-beb1-3a05996aa506
 ms.author: windowssdkdev
 ms.date: 12/5/2018

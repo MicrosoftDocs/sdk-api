@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_SelectedCalls
 author: windows-sdk-content
 description: The get_SelectedCalls method retrieves a VARIANT containing a pointer to a collection object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.
 old-location: tapi3\itautomatedphonecontrol_get_selectedcalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 50196789-c243-4279-8748-960898323992
 ms.author: windowssdkdev
 ms.date: 12/5/2018

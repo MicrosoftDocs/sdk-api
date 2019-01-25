@@ -4,7 +4,7 @@ title: ITQOSEvent
 author: windows-sdk-content
 description: The ITQOSEvent interface contains methods that retrieve the description of quality of service (QOS) events.
 old-location: tapi3\itqosevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6e3a8aef-bd76-4047-9018-801a3cab2c62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

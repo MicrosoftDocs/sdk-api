@@ -4,7 +4,7 @@ title: phoneGetIDW function
 author: windows-sdk-content
 description: The phoneGetID function returns a device identifier for the given device class associated with the specified phone device.
 old-location: tapi2\phonegetid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6a9c90ca-7a9e-43de-8075-240185658538
 ms.author: windowssdkdev
 ms.date: 12/5/2018

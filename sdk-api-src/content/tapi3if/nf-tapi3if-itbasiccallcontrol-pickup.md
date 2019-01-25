@@ -4,7 +4,7 @@ title: ITBasicCallControl::Pickup
 author: windows-sdk-content
 description: The Pickup method picks up a call alerting at the specified group identification.
 old-location: tapi3\itbasiccallcontrol_pickup.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 25da3cf2-50f0-4f64-94ce-cf952e057376
 ms.author: windowssdkdev
 ms.date: 12/5/2018

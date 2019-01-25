@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::put_SamplesPerSec
 author: windows-sdk-content
 description: The put_SamplesPerSec method sets the nSamplesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_samplespersec.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9cf0d204-3623-4c93-9f75-39c39aa20f76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

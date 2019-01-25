@@ -4,7 +4,7 @@ title: ITDetectTone::get_AppSpecific
 author: windows-sdk-content
 description: The get_AppSpecific method retrieves the application-defined tag that identifies the tone to detect.
 old-location: tapi3\itdetecttone_get_appspecific.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a3ffba50-664d-42d2-87b2-fe6943715e85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

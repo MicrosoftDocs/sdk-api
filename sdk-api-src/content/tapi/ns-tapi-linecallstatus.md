@@ -4,7 +4,7 @@ title: LINECALLSTATUS
 author: windows-sdk-content
 description: The LINECALLSTATUS structure describes the current status of a call.
 old-location: tapi2\linecallstatus_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f056bea6-aeb0-4c18-8e3b-c1c6fd907f62
 ms.author: windowssdkdev
 ms.date: 12/5/2018

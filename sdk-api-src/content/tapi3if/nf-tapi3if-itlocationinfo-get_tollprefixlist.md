@@ -4,7 +4,7 @@ title: ITLocationInfo::get_TollPrefixList
 author: windows-sdk-content
 description: The get_TollPrefixList method gets the toll prefix list.
 old-location: tapi3\itlocationinfo_get_tollprefixlist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 45297e46-b1c8-45b0-bb16-8c5d5666bbd0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

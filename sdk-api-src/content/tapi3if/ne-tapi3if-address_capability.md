@@ -4,7 +4,7 @@ title: ADDRESS_CAPABILITY
 author: windows-sdk-content
 description: A member of the ADDRESS_CAPABILITY enum is used by the ITAddressCapabilities::get_AddressCapability method to indicate the address capability required.
 old-location: tapi3\address_capability.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 47ddd1fb-dc47-4822-87b8-9944491f8b3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

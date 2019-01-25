@@ -4,7 +4,7 @@ title: ITCustomTone::put_Frequency
 author: windows-sdk-content
 description: The put_Frequency method sets the frequency of the tone component to generate.
 old-location: tapi3\itcustomtone_put_frequency.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1faae20a-40a7-48d7-9621-5f1761c28773
 ms.author: windowssdkdev
 ms.date: 12/5/2018

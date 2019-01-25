@@ -4,7 +4,7 @@ title: ITCallInfoChangeEvent::get_Cause
 author: windows-sdk-content
 description: The get_Cause method gets a CALLINFOCHANGE_CAUSE description of the change.
 old-location: tapi3\itcallinfochangeevent_get_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c49a5624-8867-46c0-acf6-5e60667fc969
 ms.author: windowssdkdev
 ms.date: 12/5/2018

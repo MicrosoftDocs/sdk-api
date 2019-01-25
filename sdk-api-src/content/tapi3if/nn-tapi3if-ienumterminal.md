@@ -4,7 +4,7 @@ title: IEnumTerminal
 author: windows-sdk-content
 description: The IEnumTerminal interface provides COM-standard enumeration methods for the ITTerminal interface.
 old-location: tapi3\ienumterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a364e466-1d10-402f-935d-ff2713522fed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

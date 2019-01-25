@@ -4,7 +4,7 @@ title: ITDirectory::get_DefaultObjectTTL
 author: windows-sdk-content
 description: The get_DefaultObjectTTL method gets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_get_defaultobjectttl.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f0a24ad9-0020-4f62-a0f2-071b9d251f79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

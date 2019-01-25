@@ -4,7 +4,7 @@ title: lineSetCurrentLocation function
 author: windows-sdk-content
 description: The lineSetCurrentLocation function sets the location used as the context for address translation.
 old-location: tapi2\linesetcurrentlocation.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ad31bc8b-399d-4c2e-b79c-fc935d5adf1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

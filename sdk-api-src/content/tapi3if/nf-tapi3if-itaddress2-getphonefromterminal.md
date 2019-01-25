@@ -4,7 +4,7 @@ title: ITAddress2::GetPhoneFromTerminal
 author: windows-sdk-content
 description: The GetPhoneFromTerminal method returns the phone object associated with the terminal. Only one phone can be associated with a terminal.
 old-location: tapi3\itaddress2_getphonefromterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0d3873ad-ce3d-4b4c-907f-9c0dbf0ef206
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCustomTone::get_CadenceOff
 author: windows-sdk-content
 description: The get_CadenceOff method retrieves the &#0034;off&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_get_cadenceoff.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0d561ab6-fc38-4058-9443-d7825eae2dc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

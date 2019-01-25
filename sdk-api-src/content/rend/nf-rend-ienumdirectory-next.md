@@ -4,7 +4,7 @@ title: IEnumDirectory::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectory_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: db164275-92dc-4a25-ba19-fd26415624f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LINEREQMAKECALL
 author: windows-sdk-content
 description: The LINEREQMAKECALL structure describes a request initiated by a call to the lineGetRequest function.
 old-location: tapi2\linereqmakecall_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: de4e51af-ea1c-41aa-b5a9-9fa628e18d9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

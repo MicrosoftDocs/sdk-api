@@ -4,7 +4,7 @@ title: ITAddress::get_DoNotDisturb
 author: windows-sdk-content
 description: The get_DoNotDisturb method gets the current status of the do not disturb feature on the address. The do not disturb feature may not be available on all addresses.
 old-location: tapi3\itaddress_get_donotdisturb.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d9257201-bcd1-4d6b-9bc7-24b323cd4f15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

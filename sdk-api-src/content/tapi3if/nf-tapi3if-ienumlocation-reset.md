@@ -4,7 +4,7 @@ title: IEnumLocation::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumlocation_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e3933f0c-ae45-4749-916a-c2bc64ba41a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

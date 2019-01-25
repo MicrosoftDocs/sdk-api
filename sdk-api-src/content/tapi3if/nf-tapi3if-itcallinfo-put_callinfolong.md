@@ -4,7 +4,7 @@ title: ITCallInfo::put_CallInfoLong
 author: windows-sdk-content
 description: The put_CallInfoLong method sets call information items described by a long, such as the bearer mode.
 old-location: tapi3\itcallinfo_put_callinfolong.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b5198b78-56f7-4964-970a-1068f2db4743
 ms.author: windowssdkdev
 ms.date: 12/5/2018

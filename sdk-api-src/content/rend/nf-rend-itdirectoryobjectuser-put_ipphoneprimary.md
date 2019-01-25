@@ -4,7 +4,7 @@ title: ITDirectoryObjectUser::put_IPPhonePrimary
 author: windows-sdk-content
 description: The put_IPPhonePrimary method sets the name of a machine as the primary IP phone for a user.
 old-location: tapi3\itdirectoryobjectuser_put_ipphoneprimary.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ba53ea12-7f05-4f68-8a59-915a5906b7be
 ms.author: windowssdkdev
 ms.date: 12/5/2018

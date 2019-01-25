@@ -4,7 +4,7 @@ title: ITBasicCallControl::Dial
 author: windows-sdk-content
 description: The Dial method dials the specified address.
 old-location: tapi3\itbasiccallcontrol_dial.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 31fea4d8-9028-48d5-9f5d-53f1451103c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TERMINAL_MEDIA_STATE
 author: windows-sdk-content
 description: The TERMINAL_MEDIA_STATE enum indicates the state of a file terminal.
 old-location: tapi3\terminal_media_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9cc07684-9804-41ac-bc25-f37f6ae00280
 ms.author: windowssdkdev
 ms.date: 12/5/2018

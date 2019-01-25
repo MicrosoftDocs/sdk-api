@@ -4,7 +4,7 @@ title: IMcastScope::get_ScopeID
 author: windows-sdk-content
 description: The get_ScopeID method obtains an identifier for the scope of multicast addresses.
 old-location: tapi3\imcastscope_get_scopeid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9c0ba8ab-1022-40c6-9d89-74250c149681
 ms.author: windowssdkdev
 ms.date: 12/5/2018

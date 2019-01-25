@@ -4,7 +4,7 @@ title: IEnumTerminal::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminal_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4f8e9b85-abdb-41fb-8e7d-fbcde92f4458
 ms.author: windowssdkdev
 ms.date: 12/5/2018

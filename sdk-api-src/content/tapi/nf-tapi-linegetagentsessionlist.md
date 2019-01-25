@@ -4,7 +4,7 @@ title: lineGetAgentSessionList function
 author: windows-sdk-content
 description: The lineGetAgentSessionList function returns a list of agent sessions created for the specified agent.
 old-location: tapi2\linegetagentsessionlist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6473d5dd-e08e-47f8-acad-b60943525b83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

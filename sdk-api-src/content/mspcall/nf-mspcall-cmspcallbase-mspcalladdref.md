@@ -4,7 +4,7 @@ title: CMSPCallBase::MSPCallAddRef
 author: windows-sdk-content
 description: The MSPCallAddRef method is the private AddRef method for the call object.
 old-location: tapi3\cmspcallbase_mspcalladdref.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fe70ceac-660e-4fdd-960f-b61503bc8939
 ms.author: windowssdkdev
 ms.date: 12/5/2018

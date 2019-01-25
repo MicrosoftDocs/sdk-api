@@ -4,7 +4,7 @@ title: phoneSetDisplay function
 author: windows-sdk-content
 description: The phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tapi2\phonesetdisplay.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

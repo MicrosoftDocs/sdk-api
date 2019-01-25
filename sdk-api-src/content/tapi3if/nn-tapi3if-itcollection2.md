@@ -4,7 +4,7 @@ title: ITCollection2
 author: windows-sdk-content
 description: The ITCollection2 interface is an extension of the ITCollection interface. ITCollection2 exposes additional methods for modifying the collection.
 old-location: tapi3\itcollection2.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d65f06c9-fecd-4ce6-af82-81acb48268e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

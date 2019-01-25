@@ -4,7 +4,7 @@ title: IEnumDialableAddrs::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f68fa12d-dbd3-42a2-bef1-50881d57aa27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITMultiTrackTerminal::EnumerateTrackTerminals
 author: windows-sdk-content
 description: The EnumerateTrackTerminals method creates and returns an enumeration containing the terminals contained by the multitrack terminal on which this method was called.
 old-location: tapi3\itmultitrackterminal_enumeratetrackterminals.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 90ef12f5-1a94-49ca-85c3-092306503827
 ms.author: windowssdkdev
 ms.date: 12/5/2018

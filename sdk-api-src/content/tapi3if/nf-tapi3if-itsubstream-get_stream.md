@@ -4,7 +4,7 @@ title: ITSubStream::get_Stream
 author: windows-sdk-content
 description: The get_Stream method retrieves the pointer to the ITStream interface for the current substream.
 old-location: tapi3\itsubstream_get_stream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ec97e621-3789-46a4-b6b6-96639c5e7d4f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITBasicAudioTerminal::get_Balance
 author: windows-sdk-content
 description: The get_Balance method gets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_get_balance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 36aff613-6065-4d92-98e7-3e5b851bf544
 ms.author: windowssdkdev
 ms.date: 12/5/2018

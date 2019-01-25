@@ -4,7 +4,7 @@ title: LINECOUNTRYLIST
 author: windows-sdk-content
 description: The LINECOUNTRYLIST structure describes a list of countries/regions. This structure can contain an array of LINECOUNTRYENTRY structures. LINECOUNTRYLIST is returned by the lineGetCountry function.
 old-location: tapi2\linecountrylist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f6634d40-0c17-4eb1-a0ca-9590e9e649e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

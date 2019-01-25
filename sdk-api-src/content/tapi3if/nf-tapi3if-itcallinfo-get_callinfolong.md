@@ -4,7 +4,7 @@ title: ITCallInfo::get_CallInfoLong
 author: windows-sdk-content
 description: The get_CallInfoLong method gets call information items described by a long, such as the bearer mode.
 old-location: tapi3\itcallinfo_get_callinfolong.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0c00e672-7bad-4a44-a76a-efd222f763d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

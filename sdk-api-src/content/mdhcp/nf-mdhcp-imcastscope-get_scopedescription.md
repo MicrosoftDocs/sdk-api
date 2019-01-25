@@ -4,7 +4,7 @@ title: IMcastScope::get_ScopeDescription
 author: windows-sdk-content
 description: The get_ScopeDescription method obtains a textual description associated with this scope. The description is used only for clarifying the purpose or meaning of a scope and is not needed for any subsequent calls.
 old-location: tapi3\imcastscope_get_scopedescription.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e675ba4a-8e5f-42a6-8edf-9b136cf9dd46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

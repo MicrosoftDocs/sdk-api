@@ -4,7 +4,7 @@ title: ITBasicCallControl::Answer
 author: windows-sdk-content
 description: The Answer method answers an incoming call. This method can succeed only if the call state is CS_OFFERING.
 old-location: tapi3\itbasiccallcontrol_answer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 81928cf7-082e-44e1-a631-a50a1f01ecec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

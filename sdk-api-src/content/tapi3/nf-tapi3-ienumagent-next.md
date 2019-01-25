@@ -4,7 +4,7 @@ title: IEnumAgent::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagent_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 68a7842c-557a-4da4-aa2b-e7c15a6d4f4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

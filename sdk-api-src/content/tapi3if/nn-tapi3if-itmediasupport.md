@@ -4,7 +4,7 @@ title: ITMediaSupport
 author: windows-sdk-content
 description: The ITMediaSupport interface provides methods that allow an application to discover the media support capabilities for an Address Object that exposes this interface.
 old-location: tapi3\itmediasupport.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 196995f1-b8d0-4ec1-b94e-61a02a258087
 ms.author: windowssdkdev
 ms.date: 12/5/2018

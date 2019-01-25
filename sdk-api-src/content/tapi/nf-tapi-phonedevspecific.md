@@ -4,7 +4,7 @@ title: phoneDevSpecific function
 author: windows-sdk-content
 description: The phoneDevSpecific function is used as a general extension mechanism to enable a Telephony API implementation to provide features not described in the other TAPI functions. The meanings of these extensions are device specific.
 old-location: tapi2\phonedevspecific.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7199b489-bf66-4380-8d1c-73de5aeb7489
 ms.author: windowssdkdev
 ms.date: 12/5/2018

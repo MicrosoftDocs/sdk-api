@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::put_Description
 author: windows-sdk-content
 description: The put_Description method sets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_description.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 46f58067-22ec-490e-b6cc-0fdc12dbb8f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

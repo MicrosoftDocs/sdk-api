@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::put_Url
 author: windows-sdk-content
 description: The put_Url method sets a URL.
 old-location: tapi3\itdirectoryobjectconference_put_url.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ca275c06-fd8f-4044-b528-cc197e4f1177
 ms.author: windowssdkdev
 ms.date: 12/5/2018

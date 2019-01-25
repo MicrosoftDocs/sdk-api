@@ -4,7 +4,7 @@ title: ITDirectoryObject::put_SecurityDescriptor
 author: windows-sdk-content
 description: The put_SecurityDescriptor method sets an IDispatch pointer on a directory service security descriptor object describing current security permissions.
 old-location: tapi3\itdirectoryobject_put_securitydescriptor.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1a6fe823-c794-4b6c-af51-ef03efe62606
 ms.author: windowssdkdev
 ms.date: 12/5/2018

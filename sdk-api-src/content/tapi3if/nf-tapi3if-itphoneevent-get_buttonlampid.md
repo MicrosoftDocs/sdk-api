@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_ButtonLampId
 author: windows-sdk-content
 description: The get_ButtonLampId method returns a long value indicating which button or lamp triggered the event. This information is available only when ITPhoneEvent::get_Event returns PE_LAMPMODE or PE_BUTTON.
 old-location: tapi3\itphoneevent_get_buttonlampid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 43b87d10-8cb9-4795-8778-70c8f8ae6300
 ms.author: windowssdkdev
 ms.date: 12/5/2018

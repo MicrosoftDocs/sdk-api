@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::StopTone
 author: windows-sdk-content
 description: The StopTone method ceases any tone that is currently being played. If no tone is being played, the method performs no action and returns success.
 old-location: tapi3\itautomatedphonecontrol_stoptone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 618743c3-6d4a-4cab-a4fc-7cd4e3b8cdd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

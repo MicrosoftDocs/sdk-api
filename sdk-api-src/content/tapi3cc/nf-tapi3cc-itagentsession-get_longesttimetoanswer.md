@@ -4,7 +4,7 @@ title: ITAgentSession::get_LongestTimeToAnswer
 author: windows-sdk-content
 description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered.
 old-location: tapi3\itagentsession_get_longesttimetoanswer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: aca11b6d-7656-4162-9bf7-1b8ffaa487de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration
 author: windows-sdk-content
 description: The ITPluggableTerminalClassRegistration interface exposes methods that allow the creation, modification, and deletion of the registry entry for a pluggable terminal.
 old-location: tapi3\itpluggableterminalclassregistration.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 178824f5-9dda-4e8a-b921-f2c9d064a83c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

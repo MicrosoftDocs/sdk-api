@@ -4,7 +4,7 @@ title: IMcastAddressAllocation::get_Scopes
 author: windows-sdk-content
 description: The get_Scopes method creates a collection of IMcast scopes available. This method is similar to EnumerateScopes, but is used by scripting languages such as Visual Basic.
 old-location: tapi3\imcastaddressallocation_get_scopes.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4fe824fa-2fcb-4f6b-b3de-15dcfc79575c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

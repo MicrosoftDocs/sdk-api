@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph::ShutDown
 author: windows-sdk-content
 description: The ShutDown method is called by the MSP address object (in the method ShutdownMSPCall) to shut down the MSP call object.
 old-location: tapi3\cmspcallmultigraph_shutdown.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cfcdf443-00c3-4cb5-abb1-1ec072272c0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

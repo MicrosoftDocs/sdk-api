@@ -4,7 +4,7 @@ title: ITPhone::put_ButtonMode
 author: windows-sdk-content
 description: The put_ButtonMode method sets the button mode.
 old-location: tapi3\itphone_put_buttonmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d2287c86-5884-4890-956c-fcc26c426cd3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

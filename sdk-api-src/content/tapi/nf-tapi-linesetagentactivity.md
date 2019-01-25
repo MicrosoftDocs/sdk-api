@@ -4,7 +4,7 @@ title: lineSetAgentActivity function
 author: windows-sdk-content
 description: The lineSetAgentActivity function sets the agent activity code associated with a particular address.
 old-location: tapi2\linesetagentactivity.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2c46e1cb-e2d7-4cb5-b937-55011058fd15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

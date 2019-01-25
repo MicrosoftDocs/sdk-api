@@ -4,7 +4,7 @@ title: IEnumBstr::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumbstr_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 17376fb1-05cc-4ca4-85ab-d578a48f03d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

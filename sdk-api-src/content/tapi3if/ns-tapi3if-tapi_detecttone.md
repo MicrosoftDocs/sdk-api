@@ -4,7 +4,7 @@ title: TAPI_DETECTTONE
 author: windows-sdk-content
 description: The TAPI_DETECTTONE structure describes a tone to be monitored. This is used as an entry in an array.
 old-location: tapi3\tapi_detecttone_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c0e311e8-67b5-4dae-848e-589f306191fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

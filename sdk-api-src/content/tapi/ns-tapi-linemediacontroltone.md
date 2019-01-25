@@ -4,7 +4,7 @@ title: LINEMEDIACONTROLTONE
 author: windows-sdk-content
 description: The LINEMEDIACONTROLTONE structure describes a media action to be executed when a tone has been detected. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontroltone_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0513d580-aaf1-412c-adbf-9342b74025ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

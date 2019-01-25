@@ -4,7 +4,7 @@ title: CALL_PRIVILEGE
 author: windows-sdk-content
 description: A CALL_PRIVILEGE member is returned by the ITCallInfo::get_Privilege method, and indicates when the current application owns or is monitoring the current call.
 old-location: tapi3\call_privilege.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8d2ab3d2-9531-40fc-910d-2bd81a075cc3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

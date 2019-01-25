@@ -4,7 +4,7 @@ title: lineGetAddressIDA function
 author: windows-sdk-content
 description: The lineGetAddressID function returns the address identifier associated with an address in a different format on the specified line.
 old-location: tapi2\linegetaddressid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f714068c-8cdc-4098-b1f6-f2cfd62a83c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

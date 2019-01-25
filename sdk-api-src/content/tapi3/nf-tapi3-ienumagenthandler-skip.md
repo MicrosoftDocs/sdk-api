@@ -4,7 +4,7 @@ title: IEnumAgentHandler::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagenthandler_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cf6b7003-13f1-4203-b341-2c9796cffdd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

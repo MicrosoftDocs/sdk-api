@@ -4,7 +4,7 @@ title: ITAddress2::EnumeratePhones
 author: windows-sdk-content
 description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices that can be used with this address.
 old-location: tapi3\itaddress2_enumeratephones.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 674a9c35-8949-4935-9fa2-800fced6b57b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

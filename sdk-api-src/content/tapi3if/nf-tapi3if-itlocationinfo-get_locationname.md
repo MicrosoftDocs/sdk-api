@@ -4,7 +4,7 @@ title: ITLocationInfo::get_LocationName
 author: windows-sdk-content
 description: The get_LocationName method gets the location name.
 old-location: tapi3\itlocationinfo_get_locationname.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2bd86295-8240-477d-90aa-f3061666c5e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

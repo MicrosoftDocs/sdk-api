@@ -4,7 +4,7 @@ title: ITTAPIEventNotification
 author: windows-sdk-content
 description: The ITTAPIEventNotification interface is an outgoing interface that allows an application to control the processing of event information.
 old-location: tapi3\ittapieventnotification.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 06cfe56c-907f-49ed-8a7a-db31383a06f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

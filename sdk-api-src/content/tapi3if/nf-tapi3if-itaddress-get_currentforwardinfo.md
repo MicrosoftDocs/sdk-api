@@ -4,7 +4,7 @@ title: ITAddress::get_CurrentForwardInfo
 author: windows-sdk-content
 description: The get_CurrentForwardInfo method gets a pointer to the current forwarding information object.
 old-location: tapi3\itaddress_get_currentforwardinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7817ac03-d9fc-4042-ae7d-350ee6cbef53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl2::CreateCustomToneObject
 author: windows-sdk-content
 description: The CreateCustomToneObject method creates a custom tone object to use with the GenerateCustomTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createcustomtoneobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: addef387-9d92-4da3-af4c-b4d40bde2e36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

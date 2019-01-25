@@ -4,7 +4,7 @@ title: ITTerminalControl::get_AddressHandle
 author: windows-sdk-content
 description: The get_AddressHandle method gets the MSP address handle.
 old-location: tapi3\itterminalcontrol_get_addresshandle.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6f222dea-059a-4eda-bcbc-cd6c61cdf2fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

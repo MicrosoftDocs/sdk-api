@@ -4,7 +4,7 @@ title: ITLegacyAddressMediaControl::SetDevConfig
 author: windows-sdk-content
 description: The SetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using GetDevConfig.
 old-location: tapi3\itlegacyaddressmediacontrol_setdevconfig.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7c5fe0ab-8a03-41db-994b-9786782cf7c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

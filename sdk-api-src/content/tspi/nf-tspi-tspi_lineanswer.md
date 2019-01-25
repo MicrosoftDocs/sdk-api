@@ -4,7 +4,7 @@ title: TSPI_lineAnswer function
 author: windows-sdk-content
 description: The TSPI_lineAnswer function answers the specified offering call.
 old-location: tspi\tspi_lineanswer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: efd4d7f8-bf81-46c4-b51b-516036e9baef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

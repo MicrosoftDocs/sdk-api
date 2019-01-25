@@ -4,7 +4,7 @@ title: TERMINAL_STATE
 author: windows-sdk-content
 description: The TERMINAL_STATE enum describes the current state of a terminal device. This enum is returned by the ITTerminal::get_State method.
 old-location: tapi3\terminal_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 310c41f5-dfe7-491d-8669-87a98694f5b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

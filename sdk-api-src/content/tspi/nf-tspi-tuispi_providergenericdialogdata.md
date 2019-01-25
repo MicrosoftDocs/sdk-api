@@ -4,7 +4,7 @@ title: TUISPI_providerGenericDialogData function
 author: windows-sdk-content
 description: The TUISPI_providerGenericDialogData function in the UI DLL is called when the service provider sends a LINE_SENDDIALOGINSTANCEDATA message.
 old-location: tspi\tuispi_providergenericdialogdata.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 212ae478-49e1-44ce-b589-f2fb3994a2a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_phoneSetDisplay function
 author: windows-sdk-content
 description: The TSPI_phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
 old-location: tspi\tspi_phonesetdisplay.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c320122c-037a-40f5-8314-6aa3352cc994
 ms.author: windowssdkdev
 ms.date: 12/5/2018

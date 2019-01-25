@@ -4,7 +4,7 @@ title: ITDetectTone::get_Frequency
 author: windows-sdk-content
 description: The get_Frequency method retrieves the frequency of the tone for which the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_get_frequency.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a7137eba-c863-4125-9602-14bfba814b2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

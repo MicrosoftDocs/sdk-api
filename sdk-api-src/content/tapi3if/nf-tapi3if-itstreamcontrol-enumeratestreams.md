@@ -4,7 +4,7 @@ title: ITStreamControl::EnumerateStreams
 author: windows-sdk-content
 description: The EnumerateStreams method enumerates currently available media streams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Streams method.
 old-location: tapi3\itstreamcontrol_enumeratestreams.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: de018f3e-d3b9-4093-a2b5-4929ac4d1d2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

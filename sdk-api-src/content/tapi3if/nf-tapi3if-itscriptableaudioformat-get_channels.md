@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::get_Channels
 author: windows-sdk-content
 description: The get_Channels method returns the value for the nChannels member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_channels.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3d92b08f-d108-4ea5-beac-cff2fad258cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

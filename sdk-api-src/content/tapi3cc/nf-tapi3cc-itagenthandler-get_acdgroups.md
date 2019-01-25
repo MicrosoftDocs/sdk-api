@@ -4,7 +4,7 @@ title: ITAgentHandler::get_ACDGroups
 author: windows-sdk-content
 description: The get_ACDGroups method creates a collection of ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_get_acdgroups.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 72dcc4c8-fac6-4635-995e-18a5693da99b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

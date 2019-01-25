@@ -4,7 +4,7 @@ title: IEnumStream::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumstream_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: aa9f3a77-4e5c-43b7-9526-b621a300c2ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

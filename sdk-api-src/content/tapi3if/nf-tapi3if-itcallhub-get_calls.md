@@ -4,7 +4,7 @@ title: ITCallHub::get_Calls
 author: windows-sdk-content
 description: The get_Calls method creates a collection of calls associated with the current call hub. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.
 old-location: tapi3\itcallhub_get_calls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 56634ab6-b905-48bb-a4d1-7ca1f0c4c0cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

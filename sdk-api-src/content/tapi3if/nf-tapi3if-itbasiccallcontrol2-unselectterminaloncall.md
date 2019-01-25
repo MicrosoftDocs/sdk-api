@@ -4,7 +4,7 @@ title: ITBasicCallControl2::UnselectTerminalOnCall
 author: windows-sdk-content
 description: The UnselectTerminalOnCall method unselects a terminal from the call.
 old-location: tapi3\itbasiccallcontrol2_unselectterminaloncall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 93795757-58b6-4eb5-9d0c-f7c0a3bb9695
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCallInfo::get_CallInfoString
 author: windows-sdk-content
 description: The get_CallInfoString method gets call information items described by a string, such as the displayable address.
 old-location: tapi3\itcallinfo_get_callinfostring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 248022e7-c6cf-4c46-be94-ee1b79b9f39a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

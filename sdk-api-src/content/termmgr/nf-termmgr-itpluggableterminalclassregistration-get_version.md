@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::get_Version
 author: windows-sdk-content
 description: The get_Version method gets the terminal version.
 old-location: tapi3\itpluggableterminalclassregistration_get_version.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2ce4345b-7d8e-4142-a4ee-df1e8b613a25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

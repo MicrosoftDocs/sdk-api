@@ -4,7 +4,7 @@ title: ITAgentSession::get_AverageTimeToAnswer
 author: windows-sdk-content
 description: The get_AverageTimeToAnswer method gets the average time (in seconds) that calls waited to be answered.
 old-location: tapi3\itagentsession_get_averagetimetoanswer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 24d2b9ee-4fd0-41d3-add1-5c136944a250
 ms.author: windowssdkdev
 ms.date: 12/5/2018

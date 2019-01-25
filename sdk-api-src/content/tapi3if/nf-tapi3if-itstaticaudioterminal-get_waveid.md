@@ -4,7 +4,7 @@ title: ITStaticAudioTerminal::get_WaveId
 author: windows-sdk-content
 description: The get_WaveId method returns the wave ID for the audio device used to implement this terminal.
 old-location: tapi3\itstaticaudioterminal_get_waveid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dbbfbfe0-843b-4baf-b4f5-51a3037c5fd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

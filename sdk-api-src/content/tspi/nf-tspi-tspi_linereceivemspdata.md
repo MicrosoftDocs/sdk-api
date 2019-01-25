@@ -4,7 +4,7 @@ title: TSPI_lineReceiveMSPData function
 author: windows-sdk-content
 description: The TSPI_lineReceiveMSPData function service provider receives data sent by the media service provider (MSP). This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linereceivemspdata.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 90d334e7-e91d-482e-bd79-4b610fe5144d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

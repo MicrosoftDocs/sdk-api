@@ -4,7 +4,7 @@ title: ITBasicAudioTerminal::put_Balance
 author: windows-sdk-content
 description: The put_Balance method sets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_put_balance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8337376e-5de6-4d6d-9f95-49b83d438168
 ms.author: windowssdkdev
 ms.date: 12/5/2018

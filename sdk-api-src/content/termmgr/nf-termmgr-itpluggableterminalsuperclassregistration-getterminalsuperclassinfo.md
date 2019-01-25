@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
 author: windows-sdk-content
 description: The GetTerminalSuperclassInfo method gets class information from the registry for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_getterminalsuperclassinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2e7ac968-c8b7-4af9-95b1-522e1b37c23a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph::InternalCreateStream
 author: windows-sdk-content
 description: The InternalCreateStream method is called by CreateStream to create a stream object (the caller does the argument checking).
 old-location: tapi3\cmspcallmultigraph_internalcreatestream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 62d098d5-b9cd-4e64-bec8-c4f736be22f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

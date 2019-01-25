@@ -4,7 +4,7 @@ title: IEnumPluggableTerminalClassInfo
 author: windows-sdk-content
 description: The IEnumPluggableTerminalClassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalClassInfo interface. The ITTerminalSupport2::EnumeratePluggableTerminalClasses method returns a pointer to IEnumPluggableTerminalClassInfo.
 old-location: tapi3\ienumpluggableterminalclassinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 72c0db41-8391-4923-8961-6aefce9886c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

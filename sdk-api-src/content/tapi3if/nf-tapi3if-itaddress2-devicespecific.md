@@ -4,7 +4,7 @@ title: ITAddress2::DeviceSpecific
 author: windows-sdk-content
 description: The DeviceSpecific method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itaddress2_devicespecific.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d3b9e04d-ec20-4e30-847f-eb77f426f0f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

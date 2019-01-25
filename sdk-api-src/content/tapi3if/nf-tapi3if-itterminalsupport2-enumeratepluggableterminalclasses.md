@@ -4,7 +4,7 @@ title: ITTerminalSupport2::EnumeratePluggableTerminalClasses
 author: windows-sdk-content
 description: The EnumeratePluggableTerminalClasses method enumerates the pluggable terminal classes registered under a given superclass.
 old-location: tapi3\itterminalsupport2_enumeratepluggableterminalclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e8a10b1b-b08e-49b2-bfc6-9f8f4dbc1248
 ms.author: windowssdkdev
 ms.date: 12/5/2018

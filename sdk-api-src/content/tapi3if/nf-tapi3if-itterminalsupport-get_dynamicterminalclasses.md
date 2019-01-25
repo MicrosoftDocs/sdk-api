@@ -4,7 +4,7 @@ title: ITTerminalSupport::get_DynamicTerminalClasses
 author: windows-sdk-content
 description: The get_DynamicTerminalClasses method creates a collection of currently available dynamic terminals.
 old-location: tapi3\itterminalsupport_get_dynamicterminalclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 258fad5c-6269-45ab-bdc0-d38338f8e515
 ms.author: windowssdkdev
 ms.date: 12/5/2018

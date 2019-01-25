@@ -4,7 +4,7 @@ title: ITStream::PauseStream
 author: windows-sdk-content
 description: The PauseStream method pauses the stream.
 old-location: tapi3\itstream_pausestream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d7d70dd9-dcac-4b25-9954-10b4d6b436de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCollection2::Add
 author: windows-sdk-content
 description: The Add method inserts a new item into the collection at the specified index.
 old-location: tapi3\itcollection2_add.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 96c26f76-3835-4140-8379-91171fc4ad37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

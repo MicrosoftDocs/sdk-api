@@ -4,7 +4,7 @@ title: ITACDGroup::get_Queues
 author: windows-sdk-content
 description: The get_Queues method creates a collection of queues associated with the current ACD group. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateQueues method.
 old-location: tapi3\itacdgroup_get_queues.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f285fea5-4c08-4d30-8378-0b0aeeea8226
 ms.author: windowssdkdev
 ms.date: 12/5/2018

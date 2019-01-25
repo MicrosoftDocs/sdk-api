@@ -4,7 +4,7 @@ title: ITLegacyWaveSupport::IsFullDuplex
 author: windows-sdk-content
 description: The IsFullDuplex method gets an indicator of whether the address supports wave devices.
 old-location: tapi3\itlegacywavesupport_isfullduplex.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 117586d7-8214-4fc8-9c7d-08865582cc2a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

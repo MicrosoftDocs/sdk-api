@@ -4,7 +4,7 @@ title: LINECOUNTRYENTRY
 author: windows-sdk-content
 description: Provides the data for a single country/region entry.
 old-location: tapi2\linecountryentry_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 627ff743-f90b-4bcb-b646-cdbc9f768ad2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

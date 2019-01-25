@@ -4,7 +4,7 @@ title: ITDigitsGatheredEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call object on which the event occurred.
 old-location: tapi3\itdigitsgatheredevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 43625f93-4ab2-4aeb-83da-70310f118e34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

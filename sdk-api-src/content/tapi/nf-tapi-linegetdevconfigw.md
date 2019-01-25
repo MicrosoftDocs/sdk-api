@@ -4,7 +4,7 @@ title: lineGetDevConfigW function
 author: windows-sdk-content
 description: The lineGetDevConfig function returns an &#0034;opaque&#0034; data structure object, the contents of which are specific to the line (service provider) and device class.
 old-location: tapi2\linegetdevconfig.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

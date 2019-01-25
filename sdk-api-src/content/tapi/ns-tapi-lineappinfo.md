@@ -4,7 +4,7 @@ title: LINEAPPINFO
 author: windows-sdk-content
 description: The LINEAPPINFO structure contains information about the application that is currently running. The LINEDEVSTATUS structure can contain an array of LINEAPPINFO structures.
 old-location: tapi2\lineappinfo_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1c1d2d31-a234-407e-b9fc-4823928c5ca1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

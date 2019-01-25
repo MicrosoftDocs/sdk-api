@@ -4,7 +4,7 @@ title: TSPI_lineGetExtensionID function
 author: windows-sdk-content
 description: The TSPI_lineGetExtensionID function returns the extension identifier that the service provider supports for the indicated line device.
 old-location: tspi\tspi_linegetextensionid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: aaea0a6a-bf22-491f-b1bf-d2195fba6af5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

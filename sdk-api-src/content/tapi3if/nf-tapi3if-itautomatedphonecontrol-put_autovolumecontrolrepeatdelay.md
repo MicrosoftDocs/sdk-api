@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::put_AutoVolumeControlRepeatDelay
 author: windows-sdk-content
 description: The put_AutoVolumeControlRepeatDelay method sets the AutoVolumeControlRepeatDelay property. The property specifies the delay, in milliseconds (ms), before a volume button starts repeating when it is held down.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolrepeatdelay.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a00993af-2ff2-4f91-889e-b0d3ae550642
 ms.author: windowssdkdev
 ms.date: 12/5/2018

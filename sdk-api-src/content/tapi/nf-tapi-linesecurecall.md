@@ -4,7 +4,7 @@ title: lineSecureCall function
 author: windows-sdk-content
 description: The lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
 old-location: tapi2\linesecurecall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b12a5734-0638-4bb0-8f25-ca27d28e528b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

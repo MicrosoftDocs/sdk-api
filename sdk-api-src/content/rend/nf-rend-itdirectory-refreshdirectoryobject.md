@@ -4,7 +4,7 @@ title: ITDirectory::RefreshDirectoryObject
 author: windows-sdk-content
 description: The RefreshDirectoryObject method refreshes the time to live (TTL) for an object on the server. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_refreshdirectoryobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 85a94960-5d4e-4b23-a3ed-65743a60ee87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LINEAGENTSESSIONENTRY
 author: windows-sdk-content
 description: The LINEAGENTSESSIONENTRY structure describes an ACD agent session. The LINEAGENTSESSIONLIST structure can contain an array of LINEAGENTSESSIONENTRY structures.
 old-location: tapi2\lineagentsessionentry_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 406b003a-11a2-445d-a466-a8549e201199
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassRegistration
 author: windows-sdk-content
 description: The ITPluggableTerminalSuperclassRegistration interface exposes methods that get and set information about a terminal superclass (name and CLSID).
 old-location: tapi3\itpluggableterminalsuperclassregistration.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 76f5d213-d1fb-4437-af09-9d915db05dc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

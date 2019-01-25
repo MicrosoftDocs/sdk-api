@@ -4,7 +4,7 @@ title: DISCONNECT_CODE
 author: windows-sdk-content
 description: The DISCONNECT_CODE enum is used by the ITBasicCallControl::Disconnect method.
 old-location: tapi3\disconnect_code.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 90e7b63f-3e19-422d-b45b-43408de9c6cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

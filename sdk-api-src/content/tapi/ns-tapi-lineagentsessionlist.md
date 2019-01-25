@@ -4,7 +4,7 @@ title: LINEAGENTSESSIONLIST
 author: windows-sdk-content
 description: The LINEAGENTSESSIONLIST structure describes a list of ACD agent sessions. This structure can contain an array of LINEAGENTSESSIONENTRY structures. The lineGetAgentSessionList function returns the LINEAGENTSESSIONLIST structure.
 old-location: tapi2\lineagentsessionlist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b14df70c-1630-46e7-a675-feb5c71dcd14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TAPI_TONEMODE
 author: windows-sdk-content
 description: The TAPI_TONEMODE enum is used to describe the different selections that are used when generating line tones.
 old-location: tapi3\tapi_tonemode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: eeae9d4a-824c-4316-8eb3-846563ac4a54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

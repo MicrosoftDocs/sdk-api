@@ -4,7 +4,7 @@ title: ITBasicAudioTerminal::get_Volume
 author: windows-sdk-content
 description: The get_Volume method gets the volume.
 old-location: tapi3\itbasicaudioterminal_get_volume.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2d3a64fa-41b6-44c4-a67e-08113e771cc7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

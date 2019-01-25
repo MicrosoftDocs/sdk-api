@@ -4,7 +4,7 @@ title: IEnumTerminal::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminal_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4d6b996c-1a1c-441d-9d9e-c5ac7b76fc35
 ms.author: windowssdkdev
 ms.date: 12/5/2018

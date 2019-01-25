@@ -4,7 +4,7 @@ title: IEnumLocation::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumlocation_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3c190f38-26f4-49a6-8dcb-49e61c09db43
 ms.author: windowssdkdev
 ms.date: 12/5/2018

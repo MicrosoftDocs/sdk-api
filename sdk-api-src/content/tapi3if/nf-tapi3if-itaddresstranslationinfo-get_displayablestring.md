@@ -4,7 +4,7 @@ title: ITAddressTranslationInfo::get_DisplayableString
 author: windows-sdk-content
 description: The get_DisplayableString method gets a string that contains a displayable version of the dialable number.
 old-location: tapi3\itaddresstranslationinfo_get_displayablestring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c88474ee-5a7e-4966-8dc2-5f839069b2d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

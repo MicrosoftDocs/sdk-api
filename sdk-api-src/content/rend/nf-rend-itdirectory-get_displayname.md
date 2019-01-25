@@ -4,7 +4,7 @@ title: ITDirectory::get_DisplayName
 author: windows-sdk-content
 description: The get_DisplayName method gets displayable name for directory.
 old-location: tapi3\itdirectory_get_displayname.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a564e501-089e-41fc-9e81-bd0c9e6f951d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

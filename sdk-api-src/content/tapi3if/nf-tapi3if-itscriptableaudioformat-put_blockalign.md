@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::put_BlockAlign
 author: windows-sdk-content
 description: The put_BlockAlign method sets the nBlockAlign member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_blockalign.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bc037229-4c5f-4778-af59-02e07d03a180
 ms.author: windowssdkdev
 ms.date: 12/5/2018

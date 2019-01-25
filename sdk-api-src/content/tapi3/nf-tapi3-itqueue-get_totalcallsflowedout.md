@@ -4,7 +4,7 @@ title: ITQueue::get_TotalCallsFlowedOut
 author: windows-sdk-content
 description: The get_TotalCallsFlowedOut method gets the total number of calls that flowed out of this queue (passed down to another queue or ACD group) during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsflowedout.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e12cc43b-54d9-4e65-82e8-a2e819ea219e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

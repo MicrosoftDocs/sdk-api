@@ -4,7 +4,7 @@ title: ITStreamControl::CreateStream
 author: windows-sdk-content
 description: The CreateStream method creates a new media stream.
 old-location: tapi3\itstreamcontrol_createstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 402cde43-6b2a-4e4e-bf46-97fcafb7574a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

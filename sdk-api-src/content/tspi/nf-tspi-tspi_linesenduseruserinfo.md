@@ -4,7 +4,7 @@ title: TSPI_lineSendUserUserInfo function
 author: windows-sdk-content
 description: The TSPI_lineSendUserUserInfo function sends user-user information to the remote party on the specified call.
 old-location: tspi\tspi_linesenduseruserinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a63fcb64-f509-4cc0-a388-91f7e05e2ef0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: lineSetNumRings function
 author: windows-sdk-content
 description: The lineSetNumRings function sets the number of rings that must occur before an incoming call is answered.
 old-location: tapi2\linesetnumrings.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d600fd39-4e58-421c-81bf-1555f5745f5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

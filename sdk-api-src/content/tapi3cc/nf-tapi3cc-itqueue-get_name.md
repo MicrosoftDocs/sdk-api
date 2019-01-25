@@ -4,7 +4,7 @@ title: ITQueue::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the queue name.
 old-location: tapi3\itqueue_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c2a9f402-9341-426f-8994-902b754ceed9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

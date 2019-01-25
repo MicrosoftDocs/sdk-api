@@ -4,7 +4,7 @@ title: TSPI_lineNegotiateExtVersion function
 author: windows-sdk-content
 description: The TSPI_lineNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.
 old-location: tspi\tspi_linenegotiateextversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cd7cc421-3efb-4fe1-858c-4d894f4d9377
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumDirectoryObject::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fd3d338e-f980-4a87-ae51-b59a8744d029
 ms.author: windowssdkdev
 ms.date: 12/5/2018

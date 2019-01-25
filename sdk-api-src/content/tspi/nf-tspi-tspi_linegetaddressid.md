@@ -4,7 +4,7 @@ title: TSPI_lineGetAddressID function
 author: windows-sdk-content
 description: The TSPI_lineGetAddressID function returns the address identifier associated with address in a different format on the specified line.
 old-location: tspi\tspi_linegetaddressid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8783fb72-a50c-444c-aa89-485cb0eb6739
 ms.author: windowssdkdev
 ms.date: 12/5/2018

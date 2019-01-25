@@ -4,7 +4,7 @@ title: ITBasicCallControl::Unpark
 author: windows-sdk-content
 description: The Unpark method gets the call from park.
 old-location: tapi3\itbasiccallcontrol_unpark.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d4cea44e-0dac-4021-a42c-b136c2e686e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

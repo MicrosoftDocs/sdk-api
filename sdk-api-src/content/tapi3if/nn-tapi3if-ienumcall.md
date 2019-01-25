@@ -4,7 +4,7 @@ title: IEnumCall
 author: windows-sdk-content
 description: The IEnumCall interface provides COM-standard enumeration methods for the ITCallInfo interface. The ITCallHub::EnumerateCalls and ITAddress::EnumerateCalls methods return a pointer to IEnumCall.
 old-location: tapi3\ienumcall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 418c1005-98f0-406f-a85c-c08adb269b9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

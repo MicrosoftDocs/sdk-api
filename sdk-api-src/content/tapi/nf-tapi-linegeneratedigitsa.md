@@ -4,7 +4,7 @@ title: lineGenerateDigitsA function
 author: windows-sdk-content
 description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
 old-location: tapi2\linegeneratedigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89
 ms.author: windowssdkdev
 ms.date: 12/5/2018

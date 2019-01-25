@@ -4,7 +4,7 @@ title: LINECALLINFO
 author: windows-sdk-content
 description: The LINECALLINFO structure contains information about a call.
 old-location: tapi2\linecallinfo_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b077546b-cc95-44ce-99ee-f0007fd916b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

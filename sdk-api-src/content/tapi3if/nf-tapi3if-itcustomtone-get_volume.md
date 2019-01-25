@@ -4,7 +4,7 @@ title: ITCustomTone::get_Volume
 author: windows-sdk-content
 description: The get_Volume method retrieves the volume level at which to generate the tone.
 old-location: tapi3\itcustomtone_get_volume.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 28eead55-915a-4bb6-9915-ebd56c9d123d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

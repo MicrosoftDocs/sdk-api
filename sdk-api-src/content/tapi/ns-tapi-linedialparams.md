@@ -4,7 +4,7 @@ title: LINEDIALPARAMS
 author: windows-sdk-content
 description: The LINEDIALPARAMS structure specifies a collection of dialing-related fields. Call the lineSetCallParams function or the TSPI_lineSetCallParams function to set parameters for a call using the LINEDIALPARAMS structure.
 old-location: tapi2\linedialparams_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: efb65462-abe5-46db-9299-97871e0d011e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

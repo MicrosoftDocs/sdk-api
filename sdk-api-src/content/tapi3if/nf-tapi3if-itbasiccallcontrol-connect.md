@@ -4,7 +4,7 @@ title: ITBasicCallControl::Connect
 author: windows-sdk-content
 description: The Connect method attempts to complete the connection of an outgoing call.
 old-location: tapi3\itbasiccallcontrol_connect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cc9a8bfd-14c0-459c-a911-325b73323c08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

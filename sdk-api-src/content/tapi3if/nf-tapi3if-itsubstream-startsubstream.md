@@ -4,7 +4,7 @@ title: ITSubStream::StartSubStream
 author: windows-sdk-content
 description: The StartSubStream method starts the substream. See the Remarks section under ITStream::StartStream for additional information.
 old-location: tapi3\itsubstream_startsubstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 603cb667-a108-4e47-9808-99fddad5d894
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PHONECAPS_STRING
 author: windows-sdk-content
 description: The PHONECAPS_STRING enum is used by methods that set or get phone capabilities described by a string.
 old-location: tapi3\phonecaps_string.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3ff60aa8-9a77-48a1-a60f-1e1d31653728
 ms.author: windowssdkdev
 ms.date: 12/5/2018

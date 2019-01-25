@@ -4,7 +4,7 @@ title: phoneSetVolume function
 author: windows-sdk-content
 description: The phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.
 old-location: tapi2\phonesetvolume.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 114aba48-f058-47c9-9ee7-493bd758b8a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

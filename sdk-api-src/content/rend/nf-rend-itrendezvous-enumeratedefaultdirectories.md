@@ -4,7 +4,7 @@ title: ITRendezvous::EnumerateDefaultDirectories
 author: windows-sdk-content
 description: The EnumerateDefaultDirectories method enumerates all configured default directories. This method is similar to get_DefaultDirectories but is designed for C/C++.
 old-location: tapi3\itrendezvous_enumeratedefaultdirectories.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fe89a370-32ed-4519-bb98-9d9ea7615eb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITToneTerminalEvent
 author: windows-sdk-content
 description: The ITToneTerminalEvent interface contains methods that retrieve the description of tone terminal events that have occurred.
 old-location: tapi3\ittoneterminalevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6a5d03e9-e6d1-452a-a189-ca693a72c610
 ms.author: windowssdkdev
 ms.date: 12/5/2018

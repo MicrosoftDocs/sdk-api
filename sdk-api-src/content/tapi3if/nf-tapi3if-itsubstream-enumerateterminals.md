@@ -4,7 +4,7 @@ title: ITSubStream::EnumerateTerminals
 author: windows-sdk-content
 description: The EnumerateTerminals method enumerates terminals selected on the substream. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Terminals method.
 old-location: tapi3\itsubstream_enumerateterminals.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bf5e1f7f-3820-433e-b71f-53798c202593
 ms.author: windowssdkdev
 ms.date: 12/5/2018

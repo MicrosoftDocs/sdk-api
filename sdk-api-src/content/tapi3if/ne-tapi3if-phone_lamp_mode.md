@@ -4,7 +4,7 @@ title: PHONE_LAMP_MODE
 author: windows-sdk-content
 description: The PHONE_LAMP_MODE enum provides indicators of a phone lamp's status.
 old-location: tapi3\phone_lamp_mode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cb971936-269c-4e59-bfc1-a3edc977ceb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_linePrepareAddToConference function
 author: windows-sdk-content
 description: The TSPI_linePrepareAddToConference function prepares an existing conference call for the addition of another party. It creates a new, temporary consultation call. The new consultation call can be subsequently added to the conference call.
 old-location: tspi\tspi_lineprepareaddtoconference.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 84642d7d-7673-45f1-91fb-aede75e51029
 ms.author: windowssdkdev
 ms.date: 12/5/2018

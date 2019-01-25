@@ -4,7 +4,7 @@ title: ITAddressEvent
 author: windows-sdk-content
 description: The ITAddressEvent interface contains methods that retrieve the description of address events.
 old-location: tapi3\itaddressevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 340d938a-a107-4317-af65-3dca98102767
 ms.author: windowssdkdev
 ms.date: 12/5/2018

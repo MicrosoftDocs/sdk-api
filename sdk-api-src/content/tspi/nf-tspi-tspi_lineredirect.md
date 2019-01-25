@@ -4,7 +4,7 @@ title: TSPI_lineRedirect function
 author: windows-sdk-content
 description: The TSPI_lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tspi\tspi_lineredirect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 835fce4a-69c4-4a7e-846f-f05df4a24b96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

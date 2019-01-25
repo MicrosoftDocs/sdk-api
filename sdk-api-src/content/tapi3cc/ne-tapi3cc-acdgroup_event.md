@@ -4,7 +4,7 @@ title: ACDGROUP_EVENT
 author: windows-sdk-content
 description: The ACDGROUP_EVENT enum describes ACD group events. The ITACDGroupEvent::get_Event method returns a member of this enum to indicate the type of ACD group event that occurred.
 old-location: tapi3\acdgroup_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fb3de7e5-5a29-4f7b-8b2a-252536dedae6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::put_PhoneHandlingEnabled
 author: windows-sdk-content
 description: The put_PhoneHandlingEnabled method sets the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_put_phonehandlingenabled.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6759b811-2fc1-4827-a03e-d19335520829
 ms.author: windowssdkdev
 ms.date: 12/5/2018

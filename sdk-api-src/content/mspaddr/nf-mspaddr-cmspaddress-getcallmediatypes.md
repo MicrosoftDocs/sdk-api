@@ -4,7 +4,7 @@ title: CMSPAddress::GetCallMediaTypes
 author: windows-sdk-content
 description: The GetCallMediaTypes method gets media types supported by the MSP. The derived class must override this method to indicate the media types supported. The relevant TAPIMEDIATYPE constants should be ORed together and returned.
 old-location: tapi3\cmspaddress_getcallmediatypes.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7331afda-d021-428e-aa09-eecc96709744
 ms.author: windowssdkdev
 ms.date: 12/5/2018

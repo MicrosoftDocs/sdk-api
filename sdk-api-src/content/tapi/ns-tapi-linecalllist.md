@@ -4,7 +4,7 @@ title: LINECALLLIST
 author: windows-sdk-content
 description: The LINECALLLIST structure describes a list of call handles. A structure of this type is returned by the lineGetNewCalls and lineGetConfRelatedCalls functions.
 old-location: tapi2\linecalllist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b715dd07-74bd-4267-91fe-cfc0cd1e6aa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITPhone::get_PhoneCapsString
 author: windows-sdk-content
 description: The get_PhoneCapsString method gets a string capability/information about the phone, based on the PHONECAPS_STRING enum passed in. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_phonecapsstring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e4a0ed77-455e-428c-a3e5-cd467e47b5b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

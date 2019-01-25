@@ -4,7 +4,7 @@ title: ITCallMediaEvent::get_Stream
 author: windows-sdk-content
 description: The get_Stream method gets a pointer to the ITStream interface associated with the call media event.
 old-location: tapi3\itcallmediaevent_get_stream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2afcb8ee-1f8c-41d0-8a8f-f34ebf09d224
 ms.author: windowssdkdev
 ms.date: 12/5/2018

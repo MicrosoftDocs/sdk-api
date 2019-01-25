@@ -4,7 +4,7 @@ title: ITDirectory::get_IsDynamic
 author: windows-sdk-content
 description: The get_IsDynamic method gets an indicator of whether the object on the server needs to be refreshed.
 old-location: tapi3\itdirectory_get_isdynamic.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4260ad95-d684-44e4-877f-fcdbe4fe0fd7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

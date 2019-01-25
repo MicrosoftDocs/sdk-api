@@ -4,7 +4,7 @@ title: LINECALLPARAMS
 author: windows-sdk-content
 description: The LINECALLPARAMS structure describes parameters supplied when making calls using the lineMakeCall and TSPI_lineMakeCall functions. The LINECALLPARAMS structure is also used as a parameter in other operations, such as the lineOpen function.
 old-location: tapi2\linecallparams_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e7bc5604-20eb-48d8-a857-df8962c6b2ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

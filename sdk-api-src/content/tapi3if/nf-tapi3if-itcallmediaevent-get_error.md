@@ -4,7 +4,7 @@ title: ITCallMediaEvent::get_Error
 author: windows-sdk-content
 description: The get_Error method gets the error associated with the media event, if any.
 old-location: tapi3\itcallmediaevent_get_error.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6a6b84f1-700e-42e5-9127-161a6c078235
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_lineUncompleteCall function
 author: windows-sdk-content
 description: The TSPI_lineUncompleteCall function is used to cancel the specified call completion request on the specified line.
 old-location: tspi\tspi_lineuncompletecall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e8b5ee74-245f-4d91-8996-eec482241e4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

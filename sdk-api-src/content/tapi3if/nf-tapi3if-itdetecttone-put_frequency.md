@@ -4,7 +4,7 @@ title: ITDetectTone::put_Frequency
 author: windows-sdk-content
 description: The put_Frequency method sets the frequency of the tone for which the TAPI Server should generate a tone event.
 old-location: tapi3\itdetecttone_put_frequency.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 83895e55-61ab-464b-bb85-e81d15dd96e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITMediaRecord::get_FileName
 author: windows-sdk-content
 description: The get_FileName method retrieves the name of the file that was used for recording by this terminal.
 old-location: tapi3\itmediarecord_get_filename.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fd97665c-ff9e-4621-baf9-7c0b603400c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

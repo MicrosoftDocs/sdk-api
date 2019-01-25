@@ -4,7 +4,7 @@ title: ITQueue::get_CurrentLongestWaitTime
 author: windows-sdk-content
 description: The get_CurrentLongestWaitTime method gets the longest time a current call (still in the queue) has been waiting (in seconds) during the current measurement period.
 old-location: tapi3\itqueue_get_currentlongestwaittime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f3334932-2029-4e10-a12c-605697a2bb36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

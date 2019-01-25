@@ -4,7 +4,7 @@ title: phoneNegotiateAPIVersion function
 author: windows-sdk-content
 description: The phoneNegotiateAPIVersion allows an application to negotiate an API version to use for the specified phone device.
 old-location: tapi2\phonenegotiateapiversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 50c2c15c-459f-451b-9b79-9118acc81c8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITTAPIObjectEvent
 author: windows-sdk-content
 description: The ITTAPIObjectEvent interface contains methods that retrieve the description of TAPI object events.
 old-location: tapi3\ittapiobjectevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 73be7109-0d3a-4ac5-adb7-e1577d8640b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCallingCard::get_NumberOfDigits
 author: windows-sdk-content
 description: The get_NumberOfDigits method gets the number of digits in the existing card number.
 old-location: tapi3\itcallingcard_get_numberofdigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9eacfd2d-b137-4923-9cfa-139473ba8298
 ms.author: windowssdkdev
 ms.date: 12/5/2018

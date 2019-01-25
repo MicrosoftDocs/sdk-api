@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::EnumerateSelectedCalls
 author: windows-sdk-content
 description: The EnumerateSelectedCalls method retrieves an enumerator object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.
 old-location: tapi3\itautomatedphonecontrol_enumerateselectedcalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 534d453c-f47c-48e1-af59-bfa452e2d8d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

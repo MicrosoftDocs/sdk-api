@@ -4,7 +4,7 @@ title: ITDirectory::get_DirectoryObjects
 author: windows-sdk-content
 description: The get_DirectoryObjects method gets the collection of objects in a given directory that matches certain criteria. This method performs the same function as EnumerateDirectoryObjects but is used by Visual Basic and other scripting languages.
 old-location: tapi3\itdirectory_get_directoryobjects.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dd768103-4dfc-4be2-accf-38e33959102d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITTAPICallCenter::get_AgentHandlers
 author: windows-sdk-content
 description: The get_AgentHandlers method creates a collection of agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_get_agenthandlers.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 61972ea2-d3ab-4893-8fc6-cd3c10f8584e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

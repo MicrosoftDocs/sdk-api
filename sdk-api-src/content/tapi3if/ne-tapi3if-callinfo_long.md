@@ -4,7 +4,7 @@ title: CALLINFO_LONG
 author: windows-sdk-content
 description: The CALLINFO_LONG enum is used by ITCallInfo methods that set and get call information of type LONG.
 old-location: tapi3\callinfo_long.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 48a27ba2-e21d-46bb-8fba-8052fc68b851
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::UnselectCall
 author: windows-sdk-content
 description: The UnselectCall method removes the specified call from this phone object, releasing the phone object's reference to the call object.
 old-location: tapi3\itautomatedphonecontrol_unselectcall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3c2a9899-add7-4c09-b32e-11061fc2c5a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

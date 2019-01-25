@@ -4,7 +4,7 @@ title: TSPI_phoneClose function
 author: windows-sdk-content
 description: The TSPI_phoneClose function closes the specified open phone device after completing or aborting all outstanding asynchronous operations on the device.
 old-location: tspi\tspi_phoneclose.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1db4c460-8afa-4420-9c51-ba276693656e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

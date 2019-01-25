@@ -4,7 +4,7 @@ title: ITBasicCallControl2::SelectTerminalOnCall
 author: windows-sdk-content
 description: The SelectTerminalOnCall method selects the terminal onto the call.
 old-location: tapi3\itbasiccallcontrol2_selectterminaloncall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 87117ec1-0d61-4edb-8ed6-0d029a77e1a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

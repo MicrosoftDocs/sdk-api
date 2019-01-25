@@ -4,7 +4,7 @@ title: PHONE_BUTTON_FUNCTION
 author: windows-sdk-content
 description: The PHONE_BUTTON_FUNCTION enum provides detailed information on a button's function.
 old-location: tapi3\phone_button_function.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2200b9aa-37fb-483f-9bfa-928348a4bc51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

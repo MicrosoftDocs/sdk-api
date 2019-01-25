@@ -4,7 +4,7 @@ title: ITTAPI2::CreateEmptyCollectionObject
 author: windows-sdk-content
 description: The CreateEmptyCollectionObject method creates an empty collection object. The collection can be filled with ITDetectTone or ITCustomTone objects for use with the DetectTonesByCollection method or the GenerateCustomTonesByCollection method, respectively.
 old-location: tapi3\ittapi2_createemptycollectionobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0114c0d2-4582-4b44-8fb6-74e468828797
 ms.author: windowssdkdev
 ms.date: 12/5/2018

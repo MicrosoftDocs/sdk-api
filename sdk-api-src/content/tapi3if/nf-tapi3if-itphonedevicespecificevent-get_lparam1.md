@@ -4,7 +4,7 @@ title: ITPhoneDeviceSpecificEvent::get_lParam1
 author: windows-sdk-content
 description: The get_lParam1 method retrieves the first of three buffers specific to a given phone device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itphonedevicespecificevent_get_lparam1.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fc75bbfa-7b0b-4ecc-99cc-48517550d71d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

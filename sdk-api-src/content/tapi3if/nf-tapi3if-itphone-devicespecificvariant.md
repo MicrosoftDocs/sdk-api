@@ -4,7 +4,7 @@ title: ITPhone::DeviceSpecificVariant
 author: windows-sdk-content
 description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itphone_devicespecificvariant.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 828d34e5-efac-4776-85a2-51eb94d68dac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

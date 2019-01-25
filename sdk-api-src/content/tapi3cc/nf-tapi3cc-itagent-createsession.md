@@ -4,7 +4,7 @@ title: ITAgent::CreateSession
 author: windows-sdk-content
 description: The CreateSession method creates a new agent session for the input ACD group and address.
 old-location: tapi3\itagent_createsession.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 68cc2ffe-3c63-4723-8652-0e28da2b17b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

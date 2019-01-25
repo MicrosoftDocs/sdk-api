@@ -4,7 +4,7 @@ title: ITTerminalSupport2::get_PluggableSuperclasses
 author: windows-sdk-content
 description: The get_PluggableSuperclasses method returns a collection of ITPluggableTerminalSuperclassInfo superclass information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggablesuperclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6d66aeca-5ac2-4019-b326-71c3bfb6d28e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCollection::get__NewEnum
 author: windows-sdk-content
 description: The get__NewEnum method gets an enumerator for the collection.
 old-location: tapi3\itcollection_get__newenum.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4b84298f-f114-4171-a2ad-d14122cb4bc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

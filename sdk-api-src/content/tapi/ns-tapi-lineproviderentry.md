@@ -4,7 +4,7 @@ title: LINEPROVIDERENTRY
 author: windows-sdk-content
 description: The LINEPROVIDERENTRY structure provides the information for a single service provider entry. An array of these structures is returned as part of the LINEPROVIDERLIST structure returned by the function lineGetProviderList.
 old-location: tapi2\lineproviderentry_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e54a8244-e773-441f-a387-b3b22c4a0a54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

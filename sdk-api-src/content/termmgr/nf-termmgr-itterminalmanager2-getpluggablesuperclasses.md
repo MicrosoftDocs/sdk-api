@@ -4,7 +4,7 @@ title: ITTerminalManager2::GetPluggableSuperclasses
 author: windows-sdk-content
 description: The GetPluggableSuperclasses method gets the public CLSIDs for all pluggable terminal superclasses in the registry.
 old-location: tapi3\itterminalmanager2_getpluggablesuperclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a3db1979-0ba5-416a-bb14-0ac4b61eb425
 ms.author: windowssdkdev
 ms.date: 12/5/2018

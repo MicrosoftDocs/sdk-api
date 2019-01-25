@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::get_BlockAlign
 author: windows-sdk-content
 description: The get_BlockAlign method returns the value for the nBlockAlign member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_blockalign.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1f96d37e-af8b-4f0e-9bc0-467e3684fadb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

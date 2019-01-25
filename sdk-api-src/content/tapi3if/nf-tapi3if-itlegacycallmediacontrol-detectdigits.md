@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl::DetectDigits
 author: windows-sdk-content
 description: The DetectDigits method sets an identifier of the type of digits that will be detected on the current call, such as rotary pulse or DTMF.
 old-location: tapi3\itlegacycallmediacontrol_detectdigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 09adb3fb-cf77-4c8b-beab-85d173cbb242
 ms.author: windowssdkdev
 ms.date: 12/5/2018

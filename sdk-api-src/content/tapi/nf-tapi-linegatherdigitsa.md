@@ -4,7 +4,7 @@ title: lineGatherDigitsA function
 author: windows-sdk-content
 description: The lineGatherDigits function initiates the buffered gathering of digits on the specified call. The application specifies a buffer in which to place the digits and the maximum number of digits to be collected.
 old-location: tapi2\linegatherdigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 87d5f777-e536-46be-8ad4-437386f04c9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

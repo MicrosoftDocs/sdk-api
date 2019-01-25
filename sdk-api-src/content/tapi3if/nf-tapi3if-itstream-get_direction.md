@@ -4,7 +4,7 @@ title: ITStream::get_Direction
 author: windows-sdk-content
 description: The get_Direction method gets the stream's terminal direction.
 old-location: tapi3\itstream_get_direction.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 196abe2a-d88d-4b2d-8867-4e6cc15dee33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

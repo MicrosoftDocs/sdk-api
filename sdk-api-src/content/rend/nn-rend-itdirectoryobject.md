@@ -4,7 +4,7 @@ title: ITDirectoryObject
 author: windows-sdk-content
 description: The ITDirectoryObject interface is the common interface supported by all objects that can be added and deleted by using the ITDirectory interface.
 old-location: tapi3\itdirectoryobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a48644a4-43e2-4c52-84be-0cb5c49e6436
 ms.author: windowssdkdev
 ms.date: 12/5/2018

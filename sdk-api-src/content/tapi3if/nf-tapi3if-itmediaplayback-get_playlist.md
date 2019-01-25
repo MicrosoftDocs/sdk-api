@@ -4,7 +4,7 @@ title: ITMediaPlayback::get_PlayList
 author: windows-sdk-content
 description: The get_PlayList method gets the list of files to play.
 old-location: tapi3\itmediaplayback_get_playlist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 57bc8373-0015-4652-bad7-21497d1fd6ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

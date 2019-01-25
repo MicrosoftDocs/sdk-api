@@ -4,7 +4,7 @@ title: ITBasicCallControl::Hold
 author: windows-sdk-content
 description: The Hold method places or removes the call from the hold.
 old-location: tapi3\itbasiccallcontrol_hold.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 44f1d3fd-6c48-41f4-a30e-83bf2ce19fde
 ms.author: windowssdkdev
 ms.date: 12/5/2018

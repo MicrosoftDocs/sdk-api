@@ -4,7 +4,7 @@ title: lineDevSpecificFeature function
 author: windows-sdk-content
 description: The lineDevSpecificFeature function enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi2\linedevspecificfeature.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8498318f-9615-4242-86e2-c57b50293b83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

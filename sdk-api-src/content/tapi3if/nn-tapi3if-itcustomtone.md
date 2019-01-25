@@ -4,7 +4,7 @@ title: ITCustomTone
 author: windows-sdk-content
 description: The ITCustomTone interface exposes methods that allow detailed control over the custom tones that are available with some phone sets.
 old-location: tapi3\itcustomtone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f2c51048-93aa-4469-b00e-911e62b5702d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

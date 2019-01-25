@@ -4,7 +4,7 @@ title: TSPI_lineGenerateTone function
 author: windows-sdk-content
 description: The TSPI_lineGenerateTone function generates the specified tone inband over the specified call.
 old-location: tspi\tspi_linegeneratetone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 195d0974-ff0f-4274-9278-5276512fcba4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

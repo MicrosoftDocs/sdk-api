@@ -4,7 +4,7 @@ title: ITAddressCapabilities::EnumerateDeviceClasses
 author: windows-sdk-content
 description: The EnumerateDeviceClasses method gets device classes. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratedeviceclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 33cc965f-0603-40b0-95bb-9b16025dd2b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

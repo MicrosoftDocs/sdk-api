@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::put_AutoDialtone
 author: windows-sdk-content
 description: The put_AutoDialtone method sets the value of the AutoDialtone property.
 old-location: tapi3\itautomatedphonecontrol_put_autodialtone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a906104f-01eb-4c53-9571-7068a98d48a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

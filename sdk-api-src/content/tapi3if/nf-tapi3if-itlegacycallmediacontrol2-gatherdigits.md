@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl2::GatherDigits
 author: windows-sdk-content
 description: The GatherDigits method initiates the gathering of digits on the specified call. The application specifies the maximum number of digits to collect.
 old-location: tapi3\itlegacycallmediacontrol2_gatherdigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ff464b1e-bd4c-4807-b019-cdae6896f897
 ms.author: windowssdkdev
 ms.date: 12/5/2018

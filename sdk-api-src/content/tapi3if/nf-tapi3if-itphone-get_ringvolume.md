@@ -4,7 +4,7 @@ title: ITPhone::get_RingVolume
 author: windows-sdk-content
 description: The get_RingVolume method retrieves the current ring volume for the phone.
 old-location: tapi3\itphone_get_ringvolume.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 147553f1-74a7-4f80-bbf3-b140d9b375ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

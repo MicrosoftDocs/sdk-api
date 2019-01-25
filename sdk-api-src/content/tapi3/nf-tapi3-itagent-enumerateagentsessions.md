@@ -4,7 +4,7 @@ title: ITAgent::EnumerateAgentSessions
 author: windows-sdk-content
 description: The EnumerateAgentSessions method enumerates the current agent sessions. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_AgentSessions method.
 old-location: tapi3\itagent_enumerateagentsessions.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6b639a41-c866-49ad-bc33-1215da7c8a19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

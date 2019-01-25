@@ -4,7 +4,7 @@ title: CMSPCallBase::ShutDown
 author: windows-sdk-content
 description: The ShutDown method is called by the MSPAddress object (in the method ShutdownMSPCall) to shut down the call.
 old-location: tapi3\cmspcallbase_shutdown.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: eec5b712-5cee-41f7-819f-60815d5fba5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

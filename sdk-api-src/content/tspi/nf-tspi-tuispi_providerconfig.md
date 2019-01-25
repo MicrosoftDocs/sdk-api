@@ -4,7 +4,7 @@ title: TUISPI_providerConfig function
 author: windows-sdk-content
 description: The TUISPI_providerConfig function implements the UI elements that must execute in the context of the calling application. This function makes the TSPI_providerConfig function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 old-location: tspi\tuispi_providerconfig.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9730f61a-8da7-4693-9fd2-94650e36ce8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

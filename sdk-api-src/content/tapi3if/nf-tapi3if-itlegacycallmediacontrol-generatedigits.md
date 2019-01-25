@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl::GenerateDigits
 author: windows-sdk-content
 description: The GenerateDigits method causes digits to be output on the current call.
 old-location: tapi3\itlegacycallmediacontrol_generatedigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d4dcdce0-4df5-43bb-a5ea-ea72782d5f04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

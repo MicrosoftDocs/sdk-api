@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl2::DetectTones
 author: windows-sdk-content
 description: The DetectTones method enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
 old-location: tapi3\itlegacycallmediacontrol2_detecttones.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e059bfc0-3701-4e07-8c30-0a2512731080
 ms.author: windowssdkdev
 ms.date: 12/5/2018

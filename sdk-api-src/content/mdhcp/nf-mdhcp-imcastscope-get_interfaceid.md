@@ -4,7 +4,7 @@ title: IMcastScope::get_InterfaceID
 author: windows-sdk-content
 description: The get_InterfaceID method obtains an interface identifier of this scope, which identifies the interface on which the server that published this scope resides. This is normally the network address of the interface.
 old-location: tapi3\imcastscope_get_interfaceid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 376ccbe4-ad83-4eef-88bd-11ed95d14359
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSPCallBase::ReceiveTSPCallData
 author: windows-sdk-content
 description: The ReceiveTSPCallData method is called by the MSP address object's ReceiveTSPData method to dispatch TSP data to the correct call.
 old-location: tapi3\cmspcallbase_receivetspcalldata.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8f5c31cd-7d74-47d4-9e96-8a965843210c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

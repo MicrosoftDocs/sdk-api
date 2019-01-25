@@ -4,7 +4,7 @@ title: TAPI_GATHERTERM
 author: windows-sdk-content
 description: The TAPI_GATHERTERM enum is used to describe the reasons why the TAPI Server terminated the gathering of digits on the call.
 old-location: tapi3\tapi_gatherterm.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 781266db-73a3-4202-922f-5c2d13bd3009
 ms.author: windowssdkdev
 ms.date: 12/5/2018

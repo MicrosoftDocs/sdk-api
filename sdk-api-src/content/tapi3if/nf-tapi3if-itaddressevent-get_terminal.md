@@ -4,7 +4,7 @@ title: ITAddressEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method gets a pointer to the ITTerminal interface associated with the event.
 old-location: tapi3\itaddressevent_get_terminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a57a4eea-2a94-4c32-b98f-c1747c80fec3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

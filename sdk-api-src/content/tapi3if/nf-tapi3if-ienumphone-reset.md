@@ -4,7 +4,7 @@ title: IEnumPhone::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumphone_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 394e1d55-56f2-4233-93ce-a109906414f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

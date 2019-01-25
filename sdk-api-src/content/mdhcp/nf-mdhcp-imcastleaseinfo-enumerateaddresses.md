@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::EnumerateAddresses
 author: windows-sdk-content
 description: The EnumerateAddresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Addresses instead.
 old-location: tapi3\imcastleaseinfo_enumerateaddresses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: edbfe386-9b3d-4160-916e-6c9ea640cfbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

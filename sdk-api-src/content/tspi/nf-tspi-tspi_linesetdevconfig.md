@@ -4,7 +4,7 @@ title: TSPI_lineSetDevConfig function
 author: windows-sdk-content
 description: The TSPI_lineSetDevConfig function restores the configuration of a device associated one-to-one with the line device from a data structure previously obtained using TSPI_lineGetDevConfig.
 old-location: tspi\tspi_linesetdevconfig.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 41699ca8-a30d-48ab-bace-bc2b95b67e77
 ms.author: windowssdkdev
 ms.date: 12/5/2018

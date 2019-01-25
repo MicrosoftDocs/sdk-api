@@ -4,7 +4,7 @@ title: IMcastAddressAllocation::RequestAddress
 author: windows-sdk-content
 description: The RequestAddress method obtains a new lease for one or more multicast addresses. The EnumerateScopes or get_Scopes method must be called first.
 old-location: tapi3\imcastaddressallocation_requestaddress.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ca428138-34d2-499d-9560-8dfd51403ba1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

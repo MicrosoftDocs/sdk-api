@@ -4,7 +4,7 @@ title: ITDetectTone::put_AppSpecific
 author: windows-sdk-content
 description: The put_AppSpecific method sets the application-defined tag that identifies the tone to detect.
 old-location: tapi3\itdetecttone_put_appspecific.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0d008cda-bb01-4249-a0ca-a40d2daacbc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

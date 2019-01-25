@@ -4,7 +4,7 @@ title: ITPhone::get_ButtonFunction
 author: windows-sdk-content
 description: The get_ButtonFunction method retrieves the button function associated with a particular button.
 old-location: tapi3\itphone_get_buttonfunction.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITDigitGenerationEvent::get_CallbackInstance
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
 old-location: tapi3\itdigitgenerationevent_get_callbackinstance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e0cc1e75-bdc2-4b05-a83b-13e4778ed75b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

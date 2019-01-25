@@ -4,7 +4,7 @@ title: ITDirectory::Connect
 author: windows-sdk-content
 description: The Connect method establishes a connection to the directory server.
 old-location: tapi3\itdirectory_connect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b781008b-430a-444e-a700-8cde09e721b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

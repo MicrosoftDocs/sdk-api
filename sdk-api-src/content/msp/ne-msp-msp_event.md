@@ -4,7 +4,7 @@ title: MSP_EVENT
 author: windows-sdk-content
 description: The MSP_EVENT enumerator defines the type of event information contained in MSP_EVENT_INFO.
 old-location: tapi3\msp_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 53e19eff-b5f0-43fd-b59b-e85e75220282
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_lineSetStatusMessages function
 author: windows-sdk-content
 description: The TSPI_lineSetStatusMessages function enables TAPI to specify which notification messages the service provider should generate for events related to status changes for the specified line or any of its addresses.
 old-location: tspi\tspi_linesetstatusmessages.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 546c4f6e-6bda-4b4b-91ed-51d0b64af677
 ms.author: windowssdkdev
 ms.date: 12/5/2018

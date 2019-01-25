@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassInfo::get_Company
 author: windows-sdk-content
 description: The get_Company method gets the name of the company that issued this pluggable terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_company.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b5595b18-264f-437f-8533-b7c87e6e7d00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

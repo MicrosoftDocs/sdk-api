@@ -4,7 +4,7 @@ title: PHONEMESSAGE
 author: windows-sdk-content
 description: The PHONEMESSAGE structure contains the next message queued for delivery to the application. The phoneGetMessage function returns this structure.
 old-location: tapi2\phonemessage_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3655efef-d24c-4d67-b1dc-29d1948a1869
 ms.author: windowssdkdev
 ms.date: 12/5/2018

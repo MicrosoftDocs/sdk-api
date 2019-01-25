@@ -4,7 +4,7 @@ title: AGENT_STATE
 author: windows-sdk-content
 description: The AGENT_STATE enum is used by the ITAgent::put_State and ITAgent::get_State methods to describe the agent state.
 old-location: tapi3\agent_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6d63030e-cd47-48db-ab0d-a3c4f3aac733
 ms.author: windowssdkdev
 ms.date: 12/5/2018

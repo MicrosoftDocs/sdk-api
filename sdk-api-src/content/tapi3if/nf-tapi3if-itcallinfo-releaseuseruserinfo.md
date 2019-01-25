@@ -4,7 +4,7 @@ title: ITCallInfo::ReleaseUserUserInfo
 author: windows-sdk-content
 description: The ReleaseUserUserInfo method informs the service provider that the application has processed the user-user information obtained from the ITCallInfo::GetCallInfoBuffer method.
 old-location: tapi3\itcallinfo_releaseuseruserinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 019823a3-e70d-4b0c-b996-07a13f2bd5f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

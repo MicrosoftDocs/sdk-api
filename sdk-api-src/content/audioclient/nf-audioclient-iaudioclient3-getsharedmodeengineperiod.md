@@ -127,10 +127,14 @@ For example, for a 44100 kHz format, <b>GetSharedModeEnginePeriod</b> might retu
 
 
 
-<i>pDefaultPeriodInFrames</i>
-<i>pFundamentalPeriodInFrames</i>
-<i>pMinPeriodInFrames</i>
-<i>pMaxPeriodInFrames</i>
+<i>pDefaultPeriodInFrames</i> = 448 frames (about 10.16 milliseconds)
+
+<i>pFundamentalPeriodInFrames</i> = 4 frames (about 0.09 milliseconds)
+
+<i>pMinPeriodInFrames</i> = 48 frames (about 1.09 milliseconds)
+
+<i>pMaxPeriodInFrames</i> = 448 frames (same as the default)
+
 Allowed values for the <i>PeriodInFrames</i> parameter to <b>InitializeSharedAudioStream</b> would include 48 and 448. They would also include things like 96 and 128.
 
 They would NOT include 4 (which is smaller than the minimum allowed value) or 98 (which is not a multiple of the fundamental) or 1000 (which is larger than the maximum allowed value).

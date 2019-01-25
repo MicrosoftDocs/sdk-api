@@ -4,7 +4,7 @@ title: ITToneDetectionEvent::get_CallbackInstance
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the application's callback function that will process the event.
 old-location: tapi3\ittonedetectionevent_get_callbackinstance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5ebd7fae-0060-4937-9812-8b48eceb9139
 ms.author: windowssdkdev
 ms.date: 12/5/2018

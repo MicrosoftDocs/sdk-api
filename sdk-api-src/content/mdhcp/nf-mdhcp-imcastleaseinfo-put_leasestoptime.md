@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::put_LeaseStopTime
 author: windows-sdk-content
 description: The put_LeaseStopTime method sets the stop time of the lease. This method, along with put_LeaseStartTime, allows you to renew a lease without calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo_put_leasestoptime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dd171ebe-c436-46cf-9a4a-31f22acbaab2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

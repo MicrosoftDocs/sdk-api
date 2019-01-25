@@ -4,7 +4,7 @@ title: phoneGetStatusMessages function
 author: windows-sdk-content
 description: The phoneGetStatusMessages function returns which phone-state changes on the specified phone device generate a callback to the application.
 old-location: tapi2\phonegetstatusmessages.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3ee182cf-20e2-4745-9aee-d5de8b44c1b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

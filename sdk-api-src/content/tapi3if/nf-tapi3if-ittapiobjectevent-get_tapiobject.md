@@ -4,7 +4,7 @@ title: ITTAPIObjectEvent::get_TAPIObject
 author: windows-sdk-content
 description: The get_TAPIObject method gets a pointer to the TAPI object on which the event occurred.
 old-location: tapi3\ittapiobjectevent_get_tapiobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d0dcf3ca-e6b7-4eb4-b3f2-8ddeea16d746
 ms.author: windowssdkdev
 ms.date: 12/5/2018

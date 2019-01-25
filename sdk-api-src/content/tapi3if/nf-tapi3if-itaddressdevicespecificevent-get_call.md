@@ -4,7 +4,7 @@ title: ITAddressDeviceSpecificEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the ITCallInfo interface pointer for the call object involved in the event.
 old-location: tapi3\itaddressdevicespecificevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dcf3b82d-5c1f-41f7-bb6a-6470a96f4049
 ms.author: windowssdkdev
 ms.date: 12/5/2018

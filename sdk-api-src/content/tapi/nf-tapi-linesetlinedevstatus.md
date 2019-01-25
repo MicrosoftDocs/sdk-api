@@ -4,7 +4,7 @@ title: lineSetLineDevStatus function
 author: windows-sdk-content
 description: The lineSetLineDevStatus function sets the line device status.
 old-location: tapi2\linesetlinedevstatus.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c8eb142d-5160-49f3-81c1-61094c180df8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

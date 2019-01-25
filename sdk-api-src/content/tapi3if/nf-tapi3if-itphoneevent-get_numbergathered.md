@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_NumberGathered
 author: windows-sdk-content
 description: The get_NumberGathered method returns a BSTR value specifying the phone number that was gathered. This information is available only when the ITPhoneEvent::get_Event method returns PE_NUMBERGATHERED.
 old-location: tapi3\itphoneevent_get_numbergathered.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 04537dbb-e1a1-445c-963e-13a8733f2566
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_StartTime
 author: windows-sdk-content
 description: The get_StartTime method gets the start time of the conference.
 old-location: tapi3\itdirectoryobjectconference_get_starttime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: aeb496d5-2cea-4c69-ba19-c9083d133c1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

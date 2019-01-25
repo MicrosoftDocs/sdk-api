@@ -4,7 +4,7 @@ title: ITAddressTranslation::get_Locations
 author: windows-sdk-content
 description: The get_Locations method creates a collection of currently available address locations. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateLocations method.
 old-location: tapi3\itaddresstranslation_get_locations.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b18f7cb1-fcec-41eb-ac57-bf2d47f958e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

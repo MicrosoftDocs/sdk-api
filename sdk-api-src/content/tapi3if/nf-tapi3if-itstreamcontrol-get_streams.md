@@ -4,7 +4,7 @@ title: ITStreamControl::get_Streams
 author: windows-sdk-content
 description: The get_Streams method creates a collection of media streams currently available on the call. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateStreams method.
 old-location: tapi3\itstreamcontrol_get_streams.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4d001f5a-7731-47b9-8c68-e4dd2d0bf02f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

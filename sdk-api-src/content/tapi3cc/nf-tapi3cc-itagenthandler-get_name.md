@@ -4,7 +4,7 @@ title: ITAgentHandler::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the agent handler name.
 old-location: tapi3\itagenthandler_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 18596742-9a0e-44c1-97e1-1d13d84cc10c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

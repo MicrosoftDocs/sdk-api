@@ -4,7 +4,7 @@ title: TMGR_DIRECTION
 author: windows-sdk-content
 description: The TMGR_DIRECTION enum is used by the pluggable terminal methods to indicate terminal direction.
 old-location: tapi3\tmgr_direction.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1758efb7-55fc-4925-be56-7f43177db64f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

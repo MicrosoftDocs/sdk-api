@@ -4,7 +4,7 @@ title: ITForwardInformation::get_ForwardTypeCaller
 author: windows-sdk-content
 description: The get_ForwardTypeCaller method gets the type of caller for a given forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypecaller.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3fca5b5c-dd1e-4c8d-878a-99a7e3ec45f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

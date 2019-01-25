@@ -4,7 +4,7 @@ title: ITAgentSession::get_ACDGroup
 author: windows-sdk-content
 description: The get_ACDGroup method gets the ACD group associated with this session.
 old-location: tapi3\itagentsession_get_acdgroup.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ec80092d-ceff-432c-ba0a-695718b890af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ADDRESS_STATE
 author: windows-sdk-content
 description: The ADDRESS_STATE enum is used by the ITAddress::get_State method to check the address state.
 old-location: tapi3\address_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7c79bd68-5f1d-4796-a16b-fd786345cffd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

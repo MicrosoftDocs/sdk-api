@@ -4,7 +4,7 @@ title: ITLegacyAddressMediaControl2::ConfigDialogEdit
 author: windows-sdk-content
 description: The ConfigDialogEdit method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialogedit.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ff3e1cd4-bbd6-43c1-ad55-4787269821da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

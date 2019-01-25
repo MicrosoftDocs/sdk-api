@@ -4,7 +4,7 @@ title: ITToneTerminalEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method returns an ITTerminal pointer for the tone terminal on which the event occurred.
 old-location: tapi3\ittoneterminalevent_get_terminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3358e219-fde9-4b60-bf75-c6d8c42a51ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

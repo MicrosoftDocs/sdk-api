@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::get_RequestID
 author: windows-sdk-content
 description: The get_RequestID method obtains the request ID for a lease.
 old-location: tapi3\imcastleaseinfo_get_requestid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 832bf532-4779-4066-a630-9892ad746a6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

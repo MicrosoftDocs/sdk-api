@@ -4,7 +4,7 @@ title: ITDirectory::put_DefaultObjectTTL
 author: windows-sdk-content
 description: The put_DefaultObjectTTL method sets the default time to live (TTL) value, in seconds, for objects created. Only applies to dynamic servers. The minimum value is 300 seconds.
 old-location: tapi3\itdirectory_put_defaultobjectttl.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: aecadd26-648e-43ce-8331-ef4af24567ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method returns a pointer to the ITCallInfo interface for the call object involved in the event.
 old-location: tapi3\itphoneevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 52305981-d97a-4b7c-9886-6e2543bd1a27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

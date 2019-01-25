@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassRegistration::put_Name
 author: windows-sdk-content
 description: The put_Name method sets the friendly name for the terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fe9b569b-bfb7-401b-98a8-5db7f3739d41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

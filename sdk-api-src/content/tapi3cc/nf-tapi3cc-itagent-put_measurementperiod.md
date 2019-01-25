@@ -4,7 +4,7 @@ title: ITAgent::put_MeasurementPeriod
 author: windows-sdk-content
 description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information. This also resets any cumulative counts to zero.
 old-location: tapi3\itagent_put_measurementperiod.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3c5d6e8e-8ddf-4eef-be79-fed56daecb1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

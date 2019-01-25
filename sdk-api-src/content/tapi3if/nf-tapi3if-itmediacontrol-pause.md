@@ -4,7 +4,7 @@ title: ITMediaControl::Pause
 author: windows-sdk-content
 description: The Pause method pauses the action, remaining at the current location in the file.
 old-location: tapi3\itmediacontrol_pause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ede287ff-2f13-4258-9afe-f6d0958e53b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

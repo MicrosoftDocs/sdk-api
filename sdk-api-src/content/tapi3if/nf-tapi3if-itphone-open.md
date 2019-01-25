@@ -4,7 +4,7 @@ title: ITPhone::Open
 author: windows-sdk-content
 description: The Open method opens this phone device. The phone device remains open until the application calls ITPhone::Close or until TAPI is shut down.
 old-location: tapi3\itphone_open.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d9efe2f7-3628-4e1f-b554-a6889d82a973
 ms.author: windowssdkdev
 ms.date: 12/5/2018

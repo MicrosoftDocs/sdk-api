@@ -4,7 +4,7 @@ title: TSPI_phoneNegotiateExtVersion function
 author: windows-sdk-content
 description: The TSPI_phoneNegotiateExtVersion function returns the highest extension version number the service provider can operate under for this device, given the range of possible extension versions.
 old-location: tspi\tspi_phonenegotiateextversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 03ea6d25-8e65-4c8a-80dc-f2ecd214ad0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

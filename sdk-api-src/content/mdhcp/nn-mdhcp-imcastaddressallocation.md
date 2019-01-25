@@ -4,7 +4,7 @@ title: IMcastAddressAllocation
 author: windows-sdk-content
 description: IMcastAddressAllocation is the main interface for multicast address allocation. An application calls the COM CoCreateInstance function on this interface to create the multicast client interface object.
 old-location: tapi3\imcastaddressallocation.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 359e67bb-9a5b-4caa-8d3b-eb0739b0828f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

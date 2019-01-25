@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph::RegisterWaitEvent
 author: windows-sdk-content
 description: The RegisterWaitEvent method should be called only within a critical section on the call object.
 old-location: tapi3\cmspcallmultigraph_registerwaitevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3c75ed75-a0b2-435b-aa49-c1e7dadf260f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

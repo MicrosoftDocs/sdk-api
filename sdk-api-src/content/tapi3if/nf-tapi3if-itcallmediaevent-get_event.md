@@ -4,7 +4,7 @@ title: ITCallMediaEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the call media event indicator.
 old-location: tapi3\itcallmediaevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3dd6210f-e904-46c5-8fc3-50a62b8754ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

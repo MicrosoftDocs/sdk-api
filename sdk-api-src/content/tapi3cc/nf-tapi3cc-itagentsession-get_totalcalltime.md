@@ -4,7 +4,7 @@ title: ITAgentSession::get_TotalCallTime
 author: windows-sdk-content
 description: The get_TotalCallTime method gets the number of seconds spent on ACD calls during this agent session (by this agent). This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagentsession_get_totalcalltime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a5d6aee4-0d50-42da-8e2e-db9d3731cb3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

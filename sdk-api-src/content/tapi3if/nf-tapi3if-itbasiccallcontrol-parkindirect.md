@@ -4,7 +4,7 @@ title: ITBasicCallControl::ParkIndirect
 author: windows-sdk-content
 description: The ParkIndirect method parks the call and returns the parked address.
 old-location: tapi3\itbasiccallcontrol_parkindirect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 661ad11c-b653-4b70-9553-59d484527c29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

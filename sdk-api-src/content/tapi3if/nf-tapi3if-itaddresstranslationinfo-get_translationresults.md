@@ -4,7 +4,7 @@ title: ITAddressTranslationInfo::get_TranslationResults
 author: windows-sdk-content
 description: The get_TranslationResults method gets the results of a translation operation.
 old-location: tapi3\itaddresstranslationinfo_get_translationresults.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ca6ac2c9-612d-4294-ab49-7c0278519a24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

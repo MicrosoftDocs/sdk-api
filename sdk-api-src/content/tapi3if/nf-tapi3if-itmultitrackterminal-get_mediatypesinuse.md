@@ -4,7 +4,7 @@ title: ITMultiTrackTerminal::get_MediaTypesInUse
 author: windows-sdk-content
 description: The get_MediaTypesInUse method returns the media types (bitwise ORed) of all tracks managed currently by the multitrack terminal.
 old-location: tapi3\itmultitrackterminal_get_mediatypesinuse.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0c2ebbba-66a4-4ef0-abba-faab129e64e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAddress2::get_Phones
 author: windows-sdk-content
 description: The get_Phones method returns a VARIANT pointer to an ITCollection of phone objects corresponding to the phone devices that can be used with this address.
 old-location: tapi3\itaddress2_get_phones.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5cd82f34-1f3f-46a2-bad3-954dc5b93d87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

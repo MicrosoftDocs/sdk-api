@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::put_FormatTag
 author: windows-sdk-content
 description: The put_FormatTag method sets the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_formattag.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a57eb237-189f-4c42-a1cd-9e70f53c3c4a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

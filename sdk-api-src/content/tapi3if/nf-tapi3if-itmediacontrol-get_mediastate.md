@@ -4,7 +4,7 @@ title: ITMediaControl::get_MediaState
 author: windows-sdk-content
 description: The get_MediaState method gets the current state of media on the file terminal.
 old-location: tapi3\itmediacontrol_get_mediastate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d28063cc-12fe-45b1-8f6a-8c2436926e12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

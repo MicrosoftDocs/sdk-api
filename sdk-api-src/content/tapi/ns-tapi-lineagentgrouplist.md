@@ -4,7 +4,7 @@ title: LINEAGENTGROUPLIST
 author: windows-sdk-content
 description: The LINEAGENTGROUPLIST structure describes a list of ACD agent groups. This structure can contain an array of LINEAGENTGROUPENTRY structures.
 old-location: tapi2\lineagentgrouplist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6189eb8e-20a4-4c87-bc7f-0a6af9605be7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

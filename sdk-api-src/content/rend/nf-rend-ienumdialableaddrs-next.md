@@ -4,7 +4,7 @@ title: IEnumDialableAddrs::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 78ebe1d3-3c40-4ba4-97f0-8612775c80f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

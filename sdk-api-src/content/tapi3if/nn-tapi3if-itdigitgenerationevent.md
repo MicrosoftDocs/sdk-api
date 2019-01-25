@@ -4,7 +4,7 @@ title: ITDigitGenerationEvent
 author: windows-sdk-content
 description: The ITDigitGenerationEvent interface contains methods that describe digit generation events.
 old-location: tapi3\itdigitgenerationevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 788eee9c-b885-4b94-b259-694353c0f63a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

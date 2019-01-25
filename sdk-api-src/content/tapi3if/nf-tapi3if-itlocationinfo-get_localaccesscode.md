@@ -4,7 +4,7 @@ title: ITLocationInfo::get_LocalAccessCode
 author: windows-sdk-content
 description: The get_LocalAccessCode method gets the local access code.
 old-location: tapi3\itlocationinfo_get_localaccesscode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 15e13c34-911f-4e4f-b7d9-f044bfb6c6d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

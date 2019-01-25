@@ -4,7 +4,7 @@ title: TSPI_phoneGetLamp function
 author: windows-sdk-content
 description: The TSPI_phoneGetLamp function returns the current lamp mode of the specified lamp.
 old-location: tspi\tspi_phonegetlamp.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 121032ec-e9ec-4896-b114-3db2b3336812
 ms.author: windowssdkdev
 ms.date: 12/5/2018

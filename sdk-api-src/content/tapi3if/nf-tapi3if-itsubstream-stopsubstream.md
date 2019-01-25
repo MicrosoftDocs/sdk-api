@@ -4,7 +4,7 @@ title: ITSubStream::StopSubStream
 author: windows-sdk-content
 description: The StopSubStream method stops the substream. For additional information, see ITStream::StopStream.
 old-location: tapi3\itsubstream_stopsubstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fa5028f6-80eb-4076-a81c-c83b462fc27c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

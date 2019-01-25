@@ -4,7 +4,7 @@ title: ITAgentSession::get_NumberOfCalls
 author: windows-sdk-content
 description: The get_NumberOfCalls method gets the number of ACD calls handled by this agent during this session.
 old-location: tapi3\itagentsession_get_numberofcalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8a3f00fc-9da2-4dc9-ab9a-ebc92664e907
 ms.author: windowssdkdev
 ms.date: 12/5/2018

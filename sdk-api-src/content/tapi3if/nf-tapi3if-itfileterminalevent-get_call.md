@@ -4,7 +4,7 @@ title: ITFileTerminalEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call on which the event has occurred.
 old-location: tapi3\itfileterminalevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4a9745a7-8119-41a0-b09a-3475f2390d4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

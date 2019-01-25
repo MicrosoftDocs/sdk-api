@@ -4,7 +4,7 @@ title: ITFileTerminalEvent::get_Track
 author: windows-sdk-content
 description: The get_Track method returns the track terminal that generated this event.
 old-location: tapi3\itfileterminalevent_get_track.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f860faf3-6ca5-43d3-8d68-487d1b1d29b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

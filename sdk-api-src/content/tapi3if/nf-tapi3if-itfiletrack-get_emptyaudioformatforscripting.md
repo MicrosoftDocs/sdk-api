@@ -4,7 +4,7 @@ title: ITFileTrack::get_EmptyAudioFormatForScripting
 author: windows-sdk-content
 description: The get_EmptyAudioFormatForScripting method is used to get an ITScriptableAudioFormat interface with all fields set to 0.
 old-location: tapi3\itfiletrack_get_emptyaudioformatforscripting.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 80644b51-4b04-4299-a486-284e77583feb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

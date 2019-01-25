@@ -4,7 +4,7 @@ title: IEnumPluggableSuperclassInfo
 author: windows-sdk-content
 description: The IEnumPluggableSuperclassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalSuperclassInfo interface. The ITTerminalSupport2::EnumeratePluggableSuperclasses method returns a pointer to IEnumPluggableSuperclassInfo.
 old-location: tapi3\ienumpluggablesuperclassinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 80b84976-4256-47d2-a965-3ebe89a3821a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

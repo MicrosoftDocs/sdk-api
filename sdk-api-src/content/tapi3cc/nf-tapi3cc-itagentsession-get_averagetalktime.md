@@ -4,7 +4,7 @@ title: ITAgentSession::get_AverageTalkTime
 author: windows-sdk-content
 description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent).
 old-location: tapi3\itagentsession_get_averagetalktime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b6025053-b21f-478e-86d7-a8572ed2b205
 ms.author: windowssdkdev
 ms.date: 12/5/2018

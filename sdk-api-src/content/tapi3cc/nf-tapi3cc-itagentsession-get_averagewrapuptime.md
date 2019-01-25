@@ -4,7 +4,7 @@ title: ITAgentSession::get_AverageWrapUpTime
 author: windows-sdk-content
 description: The get_AverageWrapUpTime method gets the average time (in seconds) per ACD call spent in wrap-up (after-call work) during this agent session.
 old-location: tapi3\itagentsession_get_averagewrapuptime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 365d98ab-9127-45bb-8232-3e3903bd9ab3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumAgent
 author: windows-sdk-content
 description: Enumerator interface for ITAgent.
 old-location: tapi3\ienumagent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4c75314c-72f0-4eae-a1f5-36f3959c322a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: lineSetDevConfig function
 author: windows-sdk-content
 description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.
 old-location: tapi2\linesetdevconfig.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

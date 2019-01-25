@@ -4,7 +4,7 @@ title: ITMediaRecord::put_FileName
 author: windows-sdk-content
 description: The put_FileName method sets the name of the file to record.
 old-location: tapi3\itmediarecord_put_filename.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d3f6155d-3989-49d7-8944-da26fd03617a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

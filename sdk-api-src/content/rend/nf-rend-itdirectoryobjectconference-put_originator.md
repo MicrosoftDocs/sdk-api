@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::put_Originator
 author: windows-sdk-content
 description: The put_Originator method sets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_put_originator.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 97e8b966-b65c-4c19-ac61-0b952657aec1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

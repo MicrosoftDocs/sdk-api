@@ -4,7 +4,7 @@ title: ITPhone::put_LampMode
 author: windows-sdk-content
 description: The put_LampMode method sets the current lamp mode for the given lamp.
 old-location: tapi3\itphone_put_lampmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0445cf2c-1b00-4136-bdab-3c6e0669ef11
 ms.author: windowssdkdev
 ms.date: 12/5/2018

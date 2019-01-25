@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_Url
 author: windows-sdk-content
 description: The get_Url method gets a URL.
 old-location: tapi3\itdirectoryobjectconference_get_url.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a3ea4bfc-dcb6-46a1-83da-2d897487c2c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

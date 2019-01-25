@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook
 author: windows-sdk-content
 description: The get_AutoStopTonesOnOnHook method retrieves the current value of the AutoStopTonesOnOnHook property.
 old-location: tapi3\itautomatedphonecontrol_get_autostoptonesononhook.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2ece8d7a-b280-42b6-9f51-d88650488699
 ms.author: windowssdkdev
 ms.date: 12/5/2018

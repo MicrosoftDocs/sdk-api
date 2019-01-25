@@ -4,7 +4,7 @@ title: ITTerminalControl::StopRenderFilter
 author: windows-sdk-content
 description: The StopRenderFilter method stops the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_stoprenderfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 30a47de7-c54d-4600-9b4b-07013f962c4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

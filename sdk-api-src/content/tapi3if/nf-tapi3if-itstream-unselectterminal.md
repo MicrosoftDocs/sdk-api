@@ -4,7 +4,7 @@ title: ITStream::UnselectTerminal
 author: windows-sdk-content
 description: The UnselectTerminal method unselects the terminal from the stream and stops streaming for this stream.
 old-location: tapi3\itstream_unselectterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ad16ea41-0c02-4bba-bfd9-267b56c481e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

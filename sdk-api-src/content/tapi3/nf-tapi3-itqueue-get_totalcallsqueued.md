@@ -4,7 +4,7 @@ title: ITQueue::get_TotalCallsQueued
 author: windows-sdk-content
 description: The get_TotalCallsQueued method gets the total number of incoming calls for this queue during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsqueued.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 45a1a47a-4cbe-47dd-ad48-218e74fe74b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSPStream::ProcessGraphEvent
 author: windows-sdk-content
 description: The ProcessGraphEvent method is called by the MSPCall object to let the stream handle graph events.
 old-location: tapi3\cmspstream_processgraphevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 343411de-956d-4264-8bab-ce0c2459f6d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

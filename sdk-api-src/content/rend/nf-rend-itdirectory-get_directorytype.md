@@ -4,7 +4,7 @@ title: ITDirectory::get_DirectoryType
 author: windows-sdk-content
 description: The get_DirectoryType method gets DIRECTORY_TYPE indicator of the type of the directory.
 old-location: tapi3\itdirectory_get_directorytype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3f0ca4c2-4ba9-4a6e-877b-36486086368f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITTAPI2::get_Phones
 author: windows-sdk-content
 description: The get_Phones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty collection and returns S_OK.
 old-location: tapi3\ittapi2_get_phones.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 03fe03fc-c58d-4e2a-a187-5ab9a676e89e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

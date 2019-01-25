@@ -4,7 +4,7 @@ title: lineBlindTransferA function
 author: windows-sdk-content
 description: The lineBlindTransfer function performs a blind or single-step transfer of the specified call to the specified destination address.
 old-location: tapi2\lineblindtransfer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c1997933-475e-4bcd-be44-ad92a2a678eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

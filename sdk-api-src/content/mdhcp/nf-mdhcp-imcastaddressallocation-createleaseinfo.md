@@ -4,7 +4,7 @@ title: IMcastAddressAllocation::CreateLeaseInfo
 author: windows-sdk-content
 description: The CreateLeaseInfo method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress.
 old-location: tapi3\imcastaddressallocation_createleaseinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b7a65998-3329-4117-be91-10e2dd7047d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

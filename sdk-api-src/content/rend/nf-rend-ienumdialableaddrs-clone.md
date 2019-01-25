@@ -4,7 +4,7 @@ title: IEnumDialableAddrs::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdialableaddrs_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5d05bdfb-007a-451a-bf79-f5a8e4171f85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

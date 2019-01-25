@@ -4,7 +4,7 @@ title: IEnumPluggableTerminalClassInfo::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggableterminalclassinfo_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 075faaed-4678-4676-8780-e5b595541488
 ms.author: windowssdkdev
 ms.date: 12/5/2018

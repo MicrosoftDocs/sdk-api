@@ -4,7 +4,7 @@ title: ITQueueEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the descriptor of the event that occurred.
 old-location: tapi3\itqueueevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 704a9601-e8c3-42d4-86bc-be59c44a05b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

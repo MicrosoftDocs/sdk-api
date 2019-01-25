@@ -4,7 +4,7 @@ title: ITFileTrack::get_Format
 author: windows-sdk-content
 description: The get_Format method gets the file terminal's format.
 old-location: tapi3\itfiletrack_get_format.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6d489888-49b3-4fcd-9643-82f0a08fe1c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

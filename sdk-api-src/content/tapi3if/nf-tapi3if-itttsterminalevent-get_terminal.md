@@ -4,7 +4,7 @@ title: ITTTSTerminalEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method gets an ITTerminal interface pointer for the terminal object involved in the event.
 old-location: tapi3\itttsterminalevent_get_terminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ce37e074-8ce0-4fde-b16a-c85a9487f0db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

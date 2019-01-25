@@ -4,7 +4,7 @@ title: ITPhone::get_PreferredAddresses
 author: windows-sdk-content
 description: The get_PreferredAddresses method returns a collection of addresses that the phone is preferred for use on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_preferredaddresses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bda43c65-a1f9-4143-b808-2a4e61220b1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

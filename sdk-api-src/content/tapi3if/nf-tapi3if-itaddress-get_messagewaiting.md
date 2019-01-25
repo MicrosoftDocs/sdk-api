@@ -4,7 +4,7 @@ title: ITAddress::get_MessageWaiting
 author: windows-sdk-content
 description: The get_MessageWaiting method determines if the address has a message waiting.
 old-location: tapi3\itaddress_get_messagewaiting.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4ddb49d9-dde7-498b-a243-f8c5b1294a87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

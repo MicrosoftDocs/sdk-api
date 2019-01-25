@@ -4,7 +4,7 @@ title: ITPhone::get_HookSwitchState
 author: windows-sdk-content
 description: The get_HookSwitchState method retrieves the current hookswitch state for a particular hookswitch device on the phone.
 old-location: tapi3\itphone_get_hookswitchstate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4560b447-45af-482a-b97b-dd0cbdb52466
 ms.author: windowssdkdev
 ms.date: 12/5/2018

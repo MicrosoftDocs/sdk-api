@@ -4,7 +4,7 @@ title: LINEFORWARDLIST
 author: windows-sdk-content
 description: The LINEFORWARDLIST structure describes a list of forwarding instructions. This structure can contain an array of LINEFORWARD structures. The lineForward and TSPI_lineForward functions use the LINEFORWARDLIST structure.
 old-location: tapi2\lineforwardlist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3dec9ab6-43d8-4dda-b0b1-a25407e4d77a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

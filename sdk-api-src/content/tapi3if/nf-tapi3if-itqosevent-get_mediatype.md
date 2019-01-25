@@ -4,7 +4,7 @@ title: ITQOSEvent::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method gets the media type indicator.
 old-location: tapi3\itqosevent_get_mediatype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0f062eea-386d-4f25-8d51-88adbce1aefe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

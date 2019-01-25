@@ -4,7 +4,7 @@ title: phoneGetRing function
 author: windows-sdk-content
 description: The phoneGetRing function enables an application to query the specified open phone device as to its current ring mode.
 old-location: tapi2\phonegetring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7ce96ce5-ab7c-42cf-8d06-e50e676ddbd2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

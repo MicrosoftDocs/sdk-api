@@ -4,7 +4,7 @@ title: ITMediaControl::Stop
 author: windows-sdk-content
 description: The Stop method stops the current action and sets the current location to the beginning of the file.
 old-location: tapi3\itmediacontrol_stop.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4c108838-ad31-407a-b9af-bfc8c1c4a577
 ms.author: windowssdkdev
 ms.date: 12/5/2018

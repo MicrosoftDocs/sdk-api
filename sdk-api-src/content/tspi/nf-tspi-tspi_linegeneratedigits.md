@@ -4,7 +4,7 @@ title: TSPI_lineGenerateDigits function
 author: windows-sdk-content
 description: The TSPI_lineGenerateDigits function initiates the generation of the specified digits on the specified call as in-band tones using the specified signaling mode.
 old-location: tspi\tspi_linegeneratedigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: af16a4aa-1682-432b-827f-ae42289d5b99
 ms.author: windowssdkdev
 ms.date: 12/5/2018

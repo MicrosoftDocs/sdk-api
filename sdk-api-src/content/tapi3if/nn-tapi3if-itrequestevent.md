@@ -4,7 +4,7 @@ title: ITRequestEvent
 author: windows-sdk-content
 description: The ITRequestEvent interface contains methods that allow an application to receive and process Assisted Telephony request events.
 old-location: tapi3\itrequestevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 69f9b504-be01-4167-8002-32a8e86bab0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

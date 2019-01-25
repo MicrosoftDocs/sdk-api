@@ -4,7 +4,7 @@ title: PHONEEVENT
 author: windows-sdk-content
 description: Phone_Event a callback function implemented by TAPI and supplied to the service provider as a parameter to TSPI_phoneOpen. The service provider calls this function to report events that occur on the phone.
 old-location: tspi\phone_event_tspi.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0b5745a4-7652-48ce-9e8a-eef52c09455f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

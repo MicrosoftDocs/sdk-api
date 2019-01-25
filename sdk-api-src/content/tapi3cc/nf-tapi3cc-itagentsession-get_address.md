@@ -4,7 +4,7 @@ title: ITAgentSession::get_Address
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface associated with this session.
 old-location: tapi3\itagentsession_get_address.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: addd088d-5bca-4865-8cae-3c013554dafd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

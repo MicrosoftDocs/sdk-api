@@ -4,7 +4,7 @@ title: LINEAGENTLIST
 author: windows-sdk-content
 description: The LINEAGENTLIST structure describes a list of ACD agents. This structure can contain an array of LINEAGENTENTRY structures.
 old-location: tapi2\lineagentlist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 176beb90-a9aa-4d40-9f84-e6ea9f84b5a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

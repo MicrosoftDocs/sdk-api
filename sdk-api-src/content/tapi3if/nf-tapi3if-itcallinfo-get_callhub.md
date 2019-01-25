@@ -4,7 +4,7 @@ title: ITCallInfo::get_CallHub
 author: windows-sdk-content
 description: The get_CallHub method gets a pointer to the ITCallHub interface of the CallHub object.
 old-location: tapi3\itcallinfo_get_callhub.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ae7d74f7-c69b-45d1-a049-59e581856f27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

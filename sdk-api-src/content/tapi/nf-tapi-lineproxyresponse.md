@@ -4,7 +4,7 @@ title: lineProxyResponse function
 author: windows-sdk-content
 description: Indicates completion of a proxy request by a registered proxy handler, such as an ACD agent handler on a server.
 old-location: tapi2\lineproxyresponse.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: af774fc5-d013-4da2-a737-9e99c09456a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

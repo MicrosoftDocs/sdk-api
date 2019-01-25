@@ -4,7 +4,7 @@ title: TSPI_lineGetID function
 author: windows-sdk-content
 description: The TSPI_lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
 old-location: tspi\tspi_linegetid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d4331721-61c3-4de0-bb1f-c27f475170d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LINEFORWARD
 author: windows-sdk-content
 description: The LINEFORWARD structure describes an entry of the forwarding instructions. The LINEFORWARDLIST and the LINEADDRESSSTATUS structures can contain an array of LINEFORWARD structures.
 old-location: tapi2\lineforward_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cbdb4409-a51a-4ddf-b3ec-c5b958fc2527
 ms.author: windowssdkdev
 ms.date: 12/5/2018

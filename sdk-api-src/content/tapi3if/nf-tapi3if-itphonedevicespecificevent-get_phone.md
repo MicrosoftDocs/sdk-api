@@ -4,7 +4,7 @@ title: ITPhoneDeviceSpecificEvent::get_Phone
 author: windows-sdk-content
 description: The get_Phone method retrieves the ITPhone interface pointer for a phone device event.
 old-location: tapi3\itphonedevicespecificevent_get_phone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 068f4172-92a4-41cc-b554-c6e4014505eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

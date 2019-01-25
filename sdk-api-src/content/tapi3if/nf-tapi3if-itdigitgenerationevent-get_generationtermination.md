@@ -4,7 +4,7 @@ title: ITDigitGenerationEvent::get_GenerationTermination
 author: windows-sdk-content
 description: The get_GenerationTermination method gets the digit or digits that indicate the end of the generated digit series.
 old-location: tapi3\itdigitgenerationevent_get_generationtermination.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 70e8c932-a157-455e-b340-d7e4eb19823c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

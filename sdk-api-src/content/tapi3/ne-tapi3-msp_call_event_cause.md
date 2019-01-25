@@ -4,7 +4,7 @@ title: MSP_CALL_EVENT_CAUSE
 author: windows-sdk-content
 description: The MSP_CALL_EVENT_CAUSE constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
 old-location: tapi3\msp_call_event_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3724bead-d16a-40dd-b55c-3c31846f1c1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITDigitDetectionEvent::get_Digit
 author: windows-sdk-content
 description: The get_Digit method retrieves an unsigned char pointer to the digit that was detected.
 old-location: tapi3\itdigitdetectionevent_get_digit.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b62418de-9a3e-46f1-88d9-7e147859ec96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

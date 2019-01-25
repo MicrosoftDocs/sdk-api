@@ -4,7 +4,7 @@ title: lineGetQueueInfo function
 author: windows-sdk-content
 description: The lineGetQueueInfo function returns a structure holding the ACD information associated with a particular queue.
 old-location: tapi2\linegetqueueinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f7bd6922-a9cd-43ab-96f7-5abf4c6a5b16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

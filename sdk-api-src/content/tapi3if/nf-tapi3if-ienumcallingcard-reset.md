@@ -4,7 +4,7 @@ title: IEnumCallingCard::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallingcard_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 406e4f37-86b6-46bf-97b9-e9944f56bc0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

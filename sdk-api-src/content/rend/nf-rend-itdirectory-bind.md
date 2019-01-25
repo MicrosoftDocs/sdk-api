@@ -4,7 +4,7 @@ title: ITDirectory::Bind
 author: windows-sdk-content
 description: The Bind method binds to the server.
 old-location: tapi3\itdirectory_bind.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4bcf994c-3091-445e-ad79-91958e48960a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

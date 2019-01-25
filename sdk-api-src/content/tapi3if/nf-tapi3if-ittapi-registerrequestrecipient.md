@@ -4,7 +4,7 @@ title: ITTAPI::RegisterRequestRecipient
 author: windows-sdk-content
 description: The RegisterRequestRecipient method registers an application instance as being the proper one to handle assisted telephony requests.
 old-location: tapi3\ittapi_registerrequestrecipient.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bee5348e-99f0-4168-9021-112fc16d8921
 ms.author: windowssdkdev
 ms.date: 12/5/2018

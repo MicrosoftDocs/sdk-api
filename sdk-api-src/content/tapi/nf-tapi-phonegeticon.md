@@ -4,7 +4,7 @@ title: phoneGetIcon function
 author: windows-sdk-content
 description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user.
 old-location: tapi2\phonegeticon.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6c0fa053-387e-4c1f-a972-b7cd42a1ad00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

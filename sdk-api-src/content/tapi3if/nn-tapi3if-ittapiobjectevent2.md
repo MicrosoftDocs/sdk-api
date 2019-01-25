@@ -4,7 +4,7 @@ title: ITTAPIObjectEvent2
 author: windows-sdk-content
 description: The ITTAPIObjectEvent2 interface is an extension of the ITTAPIObjectEvent interface. ITTAPIObjectEvent2 exposes an additional method that returns a pointer to an ITPhone interface on the phone object that caused the TAPI object event.
 old-location: tapi3\ittapiobjectevent2.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ad4fc838-5a6c-4942-b5a0-ed00cea11ba8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

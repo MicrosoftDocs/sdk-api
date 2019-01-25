@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::get_LeaseStartTime
 author: windows-sdk-content
 description: The get_LeaseStartTime method obtains the start time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestarttime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b0998a2d-6ec5-4d39-ba75-ede352b4cbe8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

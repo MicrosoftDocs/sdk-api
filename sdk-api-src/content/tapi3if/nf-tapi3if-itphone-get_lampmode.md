@@ -4,7 +4,7 @@ title: ITPhone::get_LampMode
 author: windows-sdk-content
 description: The get_LampMode method gets the current lamp mode for the given lamp.
 old-location: tapi3\itphone_get_lampmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5e0fa135-304a-4598-a6cd-2e5734b3678c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

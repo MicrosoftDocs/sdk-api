@@ -4,7 +4,7 @@ title: ITCallHub::get_NumCalls
 author: windows-sdk-content
 description: The get_NumCalls method gets the number of calls currently in the CallHub.
 old-location: tapi3\itcallhub_get_numcalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 52313969-ce8e-43da-8844-b4d0834dd446
 ms.author: windowssdkdev
 ms.date: 12/5/2018

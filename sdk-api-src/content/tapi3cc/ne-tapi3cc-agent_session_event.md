@@ -4,7 +4,7 @@ title: AGENT_SESSION_EVENT
 author: windows-sdk-content
 description: The AGENT_SESSION_EVENT enum describes agent session events. The ITAgentSessionEvent::get_Event method returns a member of this enum to indicate the type of agent session event that occurred.
 old-location: tapi3\agent_session_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 44eb7669-6c0b-4b9c-a209-9f15f27a1ba9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

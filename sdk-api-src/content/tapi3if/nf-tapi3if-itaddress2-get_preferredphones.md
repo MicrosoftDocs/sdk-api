@@ -4,7 +4,7 @@ title: ITAddress2::get_PreferredPhones
 author: windows-sdk-content
 description: The get_PreferredPhones method returns a collection of phone objects corresponding to the phone devices that are preferred for use with this address.
 old-location: tapi3\itaddress2_get_preferredphones.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6cb17c83-86db-4d44-bbd3-80a0e52fec73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

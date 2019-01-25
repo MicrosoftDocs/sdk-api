@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl
 author: windows-sdk-content
 description: The ITLegacyCallMediaControl interface supports legacy applications that must communicate directly with a device. This interface is exposed on the Call Object and can be created by calling QueryInterface on ITBasicCallControl.
 old-location: tapi3\itlegacycallmediacontrol.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 73288c46-6c6d-4938-9bb7-4d94acfc67f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

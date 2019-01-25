@@ -4,7 +4,7 @@ title: TSPI_lineGetIcon function
 author: windows-sdk-content
 description: The TSPI_lineGetIcon function retrieves a service line device-specific icon to display to the user.
 old-location: tspi\tspi_linegeticon.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0fa8a030-1b56-4d14-affd-ba1574696a3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018
