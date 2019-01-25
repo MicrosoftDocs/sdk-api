@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl::MonitorMedia
 author: windows-sdk-content
 description: The MonitorMedia method sets monitoring for a given media type on the current call.
 old-location: tapi3\itlegacycallmediacontrol_monitormedia.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 82efd729-fbbf-449f-a347-24bceada140c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

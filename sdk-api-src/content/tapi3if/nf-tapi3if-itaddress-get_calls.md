@@ -4,7 +4,7 @@ title: ITAddress::get_Calls
 author: windows-sdk-content
 description: The get_Calls method creates a collection of calls currently active on the address. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateCalls method.
 old-location: tapi3\itaddress_get_calls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b0b16578-0530-4ff9-a7ce-d36527ed2da9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

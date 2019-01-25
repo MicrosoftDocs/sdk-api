@@ -4,7 +4,7 @@ title: LINETRANSLATECAPS
 author: windows-sdk-content
 description: The LINETRANSLATECAPS structure describes the address translation capabilities.
 old-location: tapi2\linetranslatecaps_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9b4dcbe6-41e9-4b9c-9150-d0c7edef5a19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

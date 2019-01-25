@@ -4,7 +4,7 @@ title: IEnumQueue
 author: windows-sdk-content
 description: The IEnumQueue interface provides COM-standard enumeration methods for the ITQueue interface. The ITACDGroup::EnumerateQueues method returns a pointer to IEnumQueue.
 old-location: tapi3\ienumqueue.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

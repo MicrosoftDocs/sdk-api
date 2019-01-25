@@ -4,7 +4,7 @@ title: lineNegotiateExtVersion function
 author: windows-sdk-content
 description: The lineNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified line device. This operation need not be called if the application does not support extensions.
 old-location: tapi2\linenegotiateextversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 89a49709-a15b-4358-984a-fd836d8e237b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LINETRANSLATEOUTPUT
 author: windows-sdk-content
 description: The LINETRANSLATEOUTPUT structure describes the result of an address translation. The lineTranslateAddress function uses this structure.
 old-location: tapi2\linetranslateoutput_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bcf094ad-8098-4e45-9131-25dbdb7e4093
 ms.author: windowssdkdev
 ms.date: 12/5/2018

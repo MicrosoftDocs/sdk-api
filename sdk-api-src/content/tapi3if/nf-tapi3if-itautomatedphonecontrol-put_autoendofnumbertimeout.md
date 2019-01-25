@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout
 author: windows-sdk-content
 description: The put_AutoEndOfNumberTimeout method sets the value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
 old-location: tapi3\itautomatedphonecontrol_put_autoendofnumbertimeout.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 985466a4-212b-48fd-b901-5fd3cc37eb0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

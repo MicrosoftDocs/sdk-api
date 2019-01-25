@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassRegistration::get_TerminalClasses
 author: windows-sdk-content
 description: The get_TerminalClasses method gets the terminal classes for this pluggable terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_terminalclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 414ce7fe-e664-4915-84d6-0d4b6c750cf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

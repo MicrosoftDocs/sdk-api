@@ -4,7 +4,7 @@ title: ITTerminalSupport::get_StaticTerminals
 author: windows-sdk-content
 description: The get_StaticTerminals method creates a collection of currently available static terminals.
 old-location: tapi3\itterminalsupport_get_staticterminals.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f4cdd3f5-ca8c-4660-b37c-c38779a516dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

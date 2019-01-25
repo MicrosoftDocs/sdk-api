@@ -4,7 +4,7 @@ title: ITQueue::get_AverageWaitTime
 author: windows-sdk-content
 description: The get_AverageWaitTime method gets the average time in the queue (in seconds) for a call during the current measurement period.
 old-location: tapi3\itqueue_get_averagewaittime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 94883656-8a72-464d-9478-89f698c98db8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

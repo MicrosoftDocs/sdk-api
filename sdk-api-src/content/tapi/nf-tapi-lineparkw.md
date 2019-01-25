@@ -4,7 +4,7 @@ title: lineParkW function
 author: windows-sdk-content
 description: The linePark function parks the specified call according to the specified park mode.
 old-location: tapi2\linepark.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a6198229-a6db-43ef-9ef6-957429f270cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

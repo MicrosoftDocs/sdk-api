@@ -4,7 +4,7 @@ title: ITRendezvous::CreateDirectory
 author: windows-sdk-content
 description: The CreateDirectory method creates an ITDirectory object corresponding to a directory of the given type and name.
 old-location: tapi3\itrendezvous_createdirectory.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b285f852-a017-4dcd-b32e-afb2296487a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

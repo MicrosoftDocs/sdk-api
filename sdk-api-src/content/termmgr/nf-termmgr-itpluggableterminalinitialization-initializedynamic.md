@@ -4,7 +4,7 @@ title: ITPluggableTerminalInitialization::InitializeDynamic
 author: windows-sdk-content
 description: The InitializeDynamic method performs primary terminal object creation for the pluggable terminal.
 old-location: tapi3\itpluggableterminalinitialization_initializedynamic.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4cda6540-0c27-4234-8b7e-ffff117903b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

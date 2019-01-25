@@ -4,7 +4,7 @@ title: ITCallInfo2::put_EventFilter
 author: windows-sdk-content
 description: The put_EventFilter method sets an event filter for the current call.
 old-location: tapi3\itcallinfo2_put_eventfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8e1b4474-b9ff-489d-8226-58eda659e057
 ms.author: windowssdkdev
 ms.date: 12/5/2018

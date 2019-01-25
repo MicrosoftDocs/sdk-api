@@ -4,7 +4,7 @@ title: CMSPCallBase::HandleStreamEvent
 author: windows-sdk-content
 description: The HandleStreamEvent method is called by a stream to send an event to TAPI.
 old-location: tapi3\cmspcallbase_handlestreamevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 196f6b18-0de7-463b-9b0f-7b4d666e7470
 ms.author: windowssdkdev
 ms.date: 12/5/2018

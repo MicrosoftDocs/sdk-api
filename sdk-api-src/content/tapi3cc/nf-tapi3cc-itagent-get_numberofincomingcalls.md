@@ -4,7 +4,7 @@ title: ITAgent::get_NumberOfIncomingCalls
 author: windows-sdk-content
 description: The get_NumberOfIncomingCalls method gets the number of incoming non-ACD calls handled by this agent.
 old-location: tapi3\itagent_get_numberofincomingcalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d70073e9-a181-4f8d-b34f-95c8a24fe8d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

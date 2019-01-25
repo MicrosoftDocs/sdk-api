@@ -4,7 +4,7 @@ title: ITDirectoryObject::put_Name
 author: windows-sdk-content
 description: The put_Name method sets the name of the directory object.
 old-location: tapi3\itdirectoryobject_put_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 398ba207-bdd7-4090-ac8b-72badbb401e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

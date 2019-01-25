@@ -4,7 +4,7 @@ title: ITCallMediaEvent::get_Cause
 author: windows-sdk-content
 description: The get_Cause method gets the cause of the call media event, such as a timeout on the renderer device.
 old-location: tapi3\itcallmediaevent_get_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 51905e69-ff95-46fb-a73a-785a8d444253
 ms.author: windowssdkdev
 ms.date: 12/5/2018

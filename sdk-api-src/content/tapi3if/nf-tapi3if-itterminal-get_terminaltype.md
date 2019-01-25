@@ -4,7 +4,7 @@ title: ITTerminal::get_TerminalType
 author: windows-sdk-content
 description: The get_TerminalType method gets the TERMINAL_TYPE of the terminal.
 old-location: tapi3\itterminal_get_terminaltype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b6f33151-2415-4f24-b84b-7f2ce724db5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

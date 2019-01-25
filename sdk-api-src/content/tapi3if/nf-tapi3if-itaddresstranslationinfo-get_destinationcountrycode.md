@@ -4,7 +4,7 @@ title: ITAddressTranslationInfo::get_DestinationCountryCode
 author: windows-sdk-content
 description: Retrieves the country/region code for the call destination.
 old-location: tapi3\itaddresstranslationinfo_get_destinationcountrycode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 29880773-ce19-489f-81d8-d2c91779350f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

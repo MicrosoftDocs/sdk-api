@@ -4,7 +4,7 @@ title: ITAddress::put_DoNotDisturb
 author: windows-sdk-content
 description: The put_DoNotDisturb method sets the do not disturb status. The do not disturb feature may not be available on all addresses.
 old-location: tapi3\itaddress_put_donotdisturb.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4d3071d5-055a-469d-aa17-984b8210cbea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

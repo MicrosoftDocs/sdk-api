@@ -4,7 +4,7 @@ title: CMSPCallBase::Init
 author: windows-sdk-content
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object. The derived class should initialize its members using the passed-in information.
 old-location: tapi3\cmspcallbase_init.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bda49b8e-4ae5-4cf9-ae61-44fbf41e2cda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITForwardInformation::Clear
 author: windows-sdk-content
 description: The Clear method clears all forwarding information in this object.
 old-location: tapi3\itforwardinformation_clear.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 721a4efc-e379-4553-a2a1-efb8831cda38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

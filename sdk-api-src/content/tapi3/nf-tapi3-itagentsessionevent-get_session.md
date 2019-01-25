@@ -4,7 +4,7 @@ title: ITAgentSessionEvent::get_Session
 author: windows-sdk-content
 description: The get_Session method gets a pointer to the ITAgentSession on which the event occurred.
 old-location: tapi3\itagentsessionevent_get_session.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2868e5db-f596-424d-bd6a-0f0c5f52e1e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

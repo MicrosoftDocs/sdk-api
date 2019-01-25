@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoEndOfNumberTimeout
 author: windows-sdk-content
 description: The get_AutoEndOfNumberTimeout method retrieves the current value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
 old-location: tapi3\itautomatedphonecontrol_get_autoendofnumbertimeout.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c5bc3176-7237-4c20-808a-b2d028ae4344
 ms.author: windowssdkdev
 ms.date: 12/5/2018

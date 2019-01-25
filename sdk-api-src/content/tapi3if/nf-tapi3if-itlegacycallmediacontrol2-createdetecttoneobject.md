@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl2::CreateDetectToneObject
 author: windows-sdk-content
 description: The CreateDetectToneObject method creates a detect tone object to use with the DetectTonesByCollection method.
 old-location: tapi3\itlegacycallmediacontrol2_createdetecttoneobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3f00391f-b63f-4fa7-82af-44584fbcd8a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAgentHandlerEvent::get_AgentHandler
 author: windows-sdk-content
 description: The get_AgentHandler method gets the ITAgentHandler interface pointer.
 old-location: tapi3\itagenthandlerevent_get_agenthandler.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7288edb3-e7df-4e31-815d-dc8fc44bb5bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

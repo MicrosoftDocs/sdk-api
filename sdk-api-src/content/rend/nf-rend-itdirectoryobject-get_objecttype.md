@@ -4,7 +4,7 @@ title: ITDirectoryObject::get_ObjectType
 author: windows-sdk-content
 description: The get_ObjectType method gets a DIRECTORY_OBJECT_TYPE descriptor of the object.
 old-location: tapi3\itdirectoryobject_get_objecttype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b71f5286-d97d-4129-942b-fa4d4ef0943e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

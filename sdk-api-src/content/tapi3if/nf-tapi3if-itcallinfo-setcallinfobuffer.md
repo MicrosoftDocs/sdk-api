@@ -4,7 +4,7 @@ title: ITCallInfo::SetCallInfoBuffer
 author: windows-sdk-content
 description: The SetCallInfoBuffer method sets call information items that require a buffer, such as user-user information. Automation client applications, such as those written in Visual Basic, must use the ITCallInfo::put_CallInfoBuffer method.
 old-location: tapi3\itcallinfo_setcallinfobuffer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fafe3c99-4584-43eb-b446-a9f2b9308097
 ms.author: windowssdkdev
 ms.date: 12/5/2018

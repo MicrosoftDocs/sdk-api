@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_ButtonState
 author: windows-sdk-content
 description: The get_ButtonState method returns a PHONE_BUTTON_STATE value specifying the state to which the button has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_BUTTON.
 old-location: tapi3\itphoneevent_get_buttonstate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6eedda9d-c127-446d-972c-09a7c1a4bd0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

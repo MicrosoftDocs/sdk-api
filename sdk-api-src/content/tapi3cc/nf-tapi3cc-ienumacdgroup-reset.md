@@ -4,7 +4,7 @@ title: IEnumACDGroup::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumacdgroup_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 66c51bdd-c820-4670-a80d-27cfa080f08f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::get_TTL
 author: windows-sdk-content
 description: The get_TTL method obtains the time to live (TTL) value associated with this lease.
 old-location: tapi3\imcastleaseinfo_get_ttl.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 393b9d6c-430c-42f8-88fa-4bf5c9c04c1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

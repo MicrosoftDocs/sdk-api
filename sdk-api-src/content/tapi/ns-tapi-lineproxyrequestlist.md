@@ -4,7 +4,7 @@ title: LINEPROXYREQUESTLIST
 author: windows-sdk-content
 description: The LINEPROXYREQUESTLIST structure describes a list of proxy requests. The lineGetProxyStatus function returns the LINEPROXYREQUESTLIST structure.
 old-location: tapi2\lineproxyrequestlist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dc417954-56b4-4436-9582-7b656121fd6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITToneDetectionEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call object on which the tone detection event occurred.
 old-location: tapi3\ittonedetectionevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 50804e3d-ec60-44b3-ac6d-2518c96bfc64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

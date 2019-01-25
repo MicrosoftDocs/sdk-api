@@ -4,7 +4,7 @@ title: ITTAPI::get_EventFilter
 author: windows-sdk-content
 description: The get_EventFilter method gets the current event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 old-location: tapi3\ittapi_get_eventfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c0544e9f-0bfc-43ab-bcf0-800afb0ebfcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

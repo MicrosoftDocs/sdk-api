@@ -4,7 +4,7 @@ title: ITAddressCapabilities::get_AddressCapability
 author: windows-sdk-content
 description: The get_AddressCapability method gets the capability value for a given ADDRESS_CAPABILITY.
 old-location: tapi3\itaddresscapabilities_get_addresscapability.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 76e61d5e-48b6-4b9c-9076-bd20a794859c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

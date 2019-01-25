@@ -4,7 +4,7 @@ title: IEnumMcastScope::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienummcastscope_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 96b2a09f-8a02-471d-a738-f81a8132e0c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

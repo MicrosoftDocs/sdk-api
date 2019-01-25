@@ -4,7 +4,7 @@ title: ITCallStateEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call on which the event has occurred.
 old-location: tapi3\itcallstateevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 942bd437-77d1-4d06-91d3-138b06f3228e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

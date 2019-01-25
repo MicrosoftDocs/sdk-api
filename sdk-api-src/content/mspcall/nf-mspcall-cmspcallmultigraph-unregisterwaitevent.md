@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph::UnregisterWaitEvent
 author: windows-sdk-content
 description: The UnregisterWaitEvent method calls the UnregisterWait function to tell the thread pool to stop waiting on the handle indicated by the wait block at the given index.
 old-location: tapi3\cmspcallmultigraph_unregisterwaitevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a6d20bb9-fa50-4627-a3de-886cde4b8911
 ms.author: windowssdkdev
 ms.date: 12/5/2018

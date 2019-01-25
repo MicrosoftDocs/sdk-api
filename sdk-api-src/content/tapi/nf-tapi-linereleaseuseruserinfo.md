@@ -4,7 +4,7 @@ title: lineReleaseUserUserInfo function
 author: windows-sdk-content
 description: The lineReleaseUserUserInfo function informs the service provider that the application has processed the user-user information contained in the LINECALLINFO structure.
 old-location: tapi2\linereleaseuseruserinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 35d41764-7ed6-4be3-8854-37444f2a44a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

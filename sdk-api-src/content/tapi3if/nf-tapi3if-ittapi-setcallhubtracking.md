@@ -4,7 +4,7 @@ title: ITTAPI::SetCallHubTracking
 author: windows-sdk-content
 description: The SetCallHubTracking method enables or disables CallHub tracking.
 old-location: tapi3\ittapi_setcallhubtracking.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8c33a294-ed45-4353-91ed-fa0d3d66e5da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

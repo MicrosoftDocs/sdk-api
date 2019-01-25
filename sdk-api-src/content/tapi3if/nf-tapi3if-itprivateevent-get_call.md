@@ -4,7 +4,7 @@ title: ITPrivateEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method returns a pointer to the ITCallInfo interface of the call on which the event occurred.
 old-location: tapi3\itprivateevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3d4db0b3-9bff-4e14-9fe2-549934c2d244
 ms.author: windowssdkdev
 ms.date: 12/5/2018

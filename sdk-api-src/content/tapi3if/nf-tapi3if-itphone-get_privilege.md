@@ -4,7 +4,7 @@ title: ITPhone::get_Privilege
 author: windows-sdk-content
 description: The get_Privilege method retrieves the privilege of the open phone.
 old-location: tapi3\itphone_get_privilege.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 88103a48-a5cd-43a7-a88e-9b16313b35c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

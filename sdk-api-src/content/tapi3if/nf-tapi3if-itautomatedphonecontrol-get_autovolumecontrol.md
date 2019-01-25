@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoVolumeControl
 author: windows-sdk-content
 description: The get_AutoVolumeControl method retrieves the current value of the AutoVolumeControl property.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrol.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7dae6d41-59d8-40ab-901f-91d97b59ac83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

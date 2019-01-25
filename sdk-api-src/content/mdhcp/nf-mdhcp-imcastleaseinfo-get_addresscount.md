@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::get_AddressCount
 author: windows-sdk-content
 description: The get_AddressCount method obtains the number of addresses requested or granted in this lease.
 old-location: tapi3\imcastleaseinfo_get_addresscount.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: af7c6923-3859-46c0-aced-5b334a423e03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

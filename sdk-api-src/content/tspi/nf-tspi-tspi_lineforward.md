@@ -4,7 +4,7 @@ title: TSPI_lineForward function
 author: windows-sdk-content
 description: The TSPI_lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
 old-location: tspi\tspi_lineforward.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

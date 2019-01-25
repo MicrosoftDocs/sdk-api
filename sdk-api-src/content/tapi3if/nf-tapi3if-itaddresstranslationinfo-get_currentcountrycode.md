@@ -4,7 +4,7 @@ title: ITAddressTranslationInfo::get_CurrentCountryCode
 author: windows-sdk-content
 description: The get_CurrentCountryCode method gets the current country/region code.
 old-location: tapi3\itaddresstranslationinfo_get_currentcountrycode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 02b19558-d7cb-4c77-977b-9810468ff145
 ms.author: windowssdkdev
 ms.date: 12/5/2018

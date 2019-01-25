@@ -4,7 +4,7 @@ title: ITAddressCapabilities::EnumerateCallTreatments
 author: windows-sdk-content
 description: The EnumerateCallTreatments method gets call treatments. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratecalltreatments.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 34a967ba-7d1f-4841-95be-9e83f927379b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

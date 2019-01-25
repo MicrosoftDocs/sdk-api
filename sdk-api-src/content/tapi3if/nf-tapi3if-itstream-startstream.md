@@ -4,7 +4,7 @@ title: ITStream::StartStream
 author: windows-sdk-content
 description: The StartStream method starts the stream.
 old-location: tapi3\itstream_startstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 23553f00-5ce5-465e-b455-8bf2d73dae9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

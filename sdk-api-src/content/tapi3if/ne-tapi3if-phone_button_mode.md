@@ -4,7 +4,7 @@ title: PHONE_BUTTON_MODE
 author: windows-sdk-content
 description: The PHONE_BUTTON_MODE enum describes the mode of a phone button.
 old-location: tapi3\phone_button_mode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ae410224-bb01-4d56-95e8-1c2ead544cf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

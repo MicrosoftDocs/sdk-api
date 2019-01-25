@@ -4,7 +4,7 @@ title: ITTerminal
 author: windows-sdk-content
 description: The ITTerminal interface is the base interface for a Terminal object.
 old-location: tapi3\itterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 38bc30fa-3e4e-417a-9d04-931ba2451fa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

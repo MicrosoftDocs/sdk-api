@@ -4,7 +4,7 @@ title: TERMINAL_DIRECTION
 author: windows-sdk-content
 description: The TERMINAL_DIRECTION enumeration is used to describe the direction of the media stream with respect to the local computer or the directional capabilities of a terminal.
 old-location: tapi3\terminal_direction.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 55ef9df3-1b85-439b-8ecb-28e5069390b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

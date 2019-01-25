@@ -4,7 +4,7 @@ title: ITRequestEvent::get_AppName
 author: windows-sdk-content
 description: The get_AppName method gets the name of the application.
 old-location: tapi3\itrequestevent_get_appname.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d53fae21-4a4d-46ab-a0ff-48a7474b8782
 ms.author: windowssdkdev
 ms.date: 12/5/2018

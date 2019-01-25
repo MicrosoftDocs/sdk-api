@@ -4,7 +4,7 @@ title: ITPluggableTerminalEventSinkRegistration::RegisterSink
 author: windows-sdk-content
 description: The RegisterSink method registers the application for pluggable terminal event notification.
 old-location: tapi3\itpluggableterminaleventsinkregistration_registersink.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4887d299-8c63-4ead-b456-e80417e6ec56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

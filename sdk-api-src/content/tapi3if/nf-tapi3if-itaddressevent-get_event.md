@@ -4,7 +4,7 @@ title: ITAddressEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the ADDRESS_EVENT descriptor of an event.
 old-location: tapi3\itaddressevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 46dc4ce8-2453-47bb-a101-d925c9317b90
 ms.author: windowssdkdev
 ms.date: 12/5/2018

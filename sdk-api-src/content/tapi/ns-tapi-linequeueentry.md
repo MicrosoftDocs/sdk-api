@@ -4,7 +4,7 @@ title: LINEQUEUEENTRY
 author: windows-sdk-content
 description: The LINEQUEUEENTRY structure provides the information for a single queue entry. The LINEQUEUELIST structure can contain an array of LINEQUEUEENTRY structures. This structure requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeueentry.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b05eb100-2a43-421f-826b-c37d05e4ef14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

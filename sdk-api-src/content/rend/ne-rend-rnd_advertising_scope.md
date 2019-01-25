@@ -4,7 +4,7 @@ title: RND_ADVERTISING_SCOPE
 author: windows-sdk-content
 description: Members of the RND_ADVERTISING_SCOPE enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the ITDirectoryObjectConference interface.
 old-location: tapi3\rnd_advertising_scope.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

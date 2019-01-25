@@ -4,7 +4,7 @@ title: lineGenerateTone function
 author: windows-sdk-content
 description: The lineGenerateTone function generates the specified inband tone over the specified call.
 old-location: tapi2\linegeneratetone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d5975bd0-2406-45a8-9631-80f40a860204
 ms.author: windowssdkdev
 ms.date: 12/5/2018

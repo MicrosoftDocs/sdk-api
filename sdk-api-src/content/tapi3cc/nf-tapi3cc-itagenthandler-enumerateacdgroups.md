@@ -4,7 +4,7 @@ title: ITAgentHandler::EnumerateACDGroups
 author: windows-sdk-content
 description: The EnumerateACDGroups method enumerates ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_enumerateacdgroups.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a9078166-ff6a-4520-8209-e785bd6e7100
 ms.author: windowssdkdev
 ms.date: 12/5/2018

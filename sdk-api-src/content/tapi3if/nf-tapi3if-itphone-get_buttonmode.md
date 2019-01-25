@@ -4,7 +4,7 @@ title: ITPhone::get_ButtonMode
 author: windows-sdk-content
 description: The get_ButtonMode method retrieves the button mode associated with a particular button.
 old-location: tapi3\itphone_get_buttonmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5b3173bf-1c79-4c5d-a2bc-3b3ae4f0ae8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

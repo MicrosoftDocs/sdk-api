@@ -4,7 +4,7 @@ title: lineSetTollListA function
 author: windows-sdk-content
 description: The lineSetTollList function manipulates the toll list.
 old-location: tapi2\linesettolllist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
 ms.author: windowssdkdev
 ms.date: 12/5/2018

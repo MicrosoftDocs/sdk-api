@@ -4,7 +4,7 @@ title: LINEAGENTACTIVITYLIST
 author: windows-sdk-content
 description: The LINEAGENTACTIVITYLIST structure describes a list of ACD agent activities. This structure can contain an array of LINEAGENTACTIVITYENTRY structures. The lineGetAgentActivityList function returns the LINEAGENTACTIVITYLIST structure.
 old-location: tapi2\lineagentactivitylist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 61e46717-8a14-440f-bb61-991c3dadd778
 ms.author: windowssdkdev
 ms.date: 12/5/2018

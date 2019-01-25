@@ -4,7 +4,7 @@ title: ITDirectory::ModifyDirectoryObject
 author: windows-sdk-content
 description: The ModifyDirectoryObject method commits directory modifications to the server.
 old-location: tapi3\itdirectory_modifydirectoryobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: be53c186-c23c-4ff6-8060-f06555ab4548
 ms.author: windowssdkdev
 ms.date: 12/5/2018

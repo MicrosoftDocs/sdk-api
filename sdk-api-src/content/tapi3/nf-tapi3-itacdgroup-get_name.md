@@ -4,7 +4,7 @@ title: ITACDGroup::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the ACD group name. This string can be a displayable name for the group.
 old-location: tapi3\itacdgroup_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 93e61a42-3e60-4d52-bb19-68842f6947da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

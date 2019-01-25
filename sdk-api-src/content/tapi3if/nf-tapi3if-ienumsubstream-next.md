@@ -4,7 +4,7 @@ title: IEnumSubStream::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumsubstream_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fa8c4017-09ac-44e9-a7fa-922d0588d92a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

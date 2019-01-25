@@ -4,7 +4,7 @@ title: ITForwardInformation2::get_ForwardTypeCallerAddressType
 author: windows-sdk-content
 description: The get_ForwardTypeCallerAddressType method gets the caller address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypecalleraddresstype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 030d2b44-0c1d-488b-8cd9-e68ad6d26c6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

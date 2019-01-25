@@ -4,7 +4,7 @@ title: phoneGetHookSwitch function
 author: windows-sdk-content
 description: The phoneGetHookSwitch function returns the current hookswitch mode of the specified open phone device.
 old-location: tapi2\phonegethookswitch.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 246f8b2b-8748-453d-b2b6-16771c0aad36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

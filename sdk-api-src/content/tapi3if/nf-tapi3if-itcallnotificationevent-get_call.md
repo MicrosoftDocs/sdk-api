@@ -4,7 +4,7 @@ title: ITCallNotificationEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method returns the ITCallInfo interface on which a call event has occurred.
 old-location: tapi3\itcallnotificationevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6ff82bd1-de69-4ab7-9152-a578b8566755
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CMSPStream::HandleTSPData
 author: windows-sdk-content
 description: The HandleTSPData method may be called by the derived call object to let the stream handle the TSP commands.
 old-location: tapi3\cmspstream_handletspdata.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2b02690f-9821-488e-b061-916c6338e813
 ms.author: windowssdkdev
 ms.date: 12/5/2018

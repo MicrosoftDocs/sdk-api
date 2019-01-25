@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::get_BitsPerSample
 author: windows-sdk-content
 description: The get_BitsPerSample method returns the value for the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_bitspersample.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a98a3571-89bf-4625-b495-2d080c86c4b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

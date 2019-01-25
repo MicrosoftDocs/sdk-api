@@ -4,7 +4,7 @@ title: ITTerminalControl
 author: windows-sdk-content
 description: The ITTerminalControl interface provides methods to get the MSP handle, connect and disconnect a terminal from a filter graph, and run or stop a renderer.
 old-location: tapi3\itterminalcontrol.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6fe60002-3af3-45e9-a084-7296a48e7263
 ms.author: windowssdkdev
 ms.date: 12/5/2018

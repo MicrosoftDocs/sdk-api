@@ -4,7 +4,7 @@ title: ITAgentHandler::get_UsableAddresses
 author: windows-sdk-content
 description: The get_UsableAddresses method creates a collection of addresses available for receiving ACD calls on this agent handler.
 old-location: tapi3\itagenthandler_get_usableaddresses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ee457b5c-e505-489c-93dc-8bdfb87c7afe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

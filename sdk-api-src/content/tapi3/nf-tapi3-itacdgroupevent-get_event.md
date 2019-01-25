@@ -4,7 +4,7 @@ title: ITACDGroupEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the descriptor of an event which indicates that a new ACD group has been added.
 old-location: tapi3\itacdgroupevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9bc67911-cfb6-450c-bdc6-ade8d4617271
 ms.author: windowssdkdev
 ms.date: 12/5/2018

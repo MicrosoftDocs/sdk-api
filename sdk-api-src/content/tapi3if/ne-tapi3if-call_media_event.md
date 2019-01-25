@@ -4,7 +4,7 @@ title: CALL_MEDIA_EVENT
 author: windows-sdk-content
 description: The CALL_MEDIA_EVENT enum describes call media events. The ITCallMediaEvent::get_Event method returns a member of this enum to indicate the type of call media event that occurred.
 old-location: tapi3\call_media_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 835759f4-652b-4d01-911a-e580bb29d292
 ms.author: windowssdkdev
 ms.date: 12/5/2018

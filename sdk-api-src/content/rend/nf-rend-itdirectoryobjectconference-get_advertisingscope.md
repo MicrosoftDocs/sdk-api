@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_AdvertisingScope
 author: windows-sdk-content
 description: The get_AdvertisingScope method gets the advertising scope.
 old-location: tapi3\itdirectoryobjectconference_get_advertisingscope.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 25e155ad-c809-4ff4-85cb-ca43cb203368
 ms.author: windowssdkdev
 ms.date: 12/5/2018

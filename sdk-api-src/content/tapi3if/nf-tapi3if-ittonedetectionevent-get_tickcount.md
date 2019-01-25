@@ -4,7 +4,7 @@ title: ITToneDetectionEvent::get_TickCount
 author: windows-sdk-content
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which the tone was detected.
 old-location: tapi3\ittonedetectionevent_get_tickcount.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 01a00b2c-d4b0-4de0-91b8-0741ed1fd300
 ms.author: windowssdkdev
 ms.date: 12/5/2018

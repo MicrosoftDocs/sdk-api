@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::get_MediaTypes
 author: windows-sdk-content
 description: The get_MediaTypes method gets the media types supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_get_mediatypes.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: aa8c0da8-2953-483a-b3b9-7a6f3e35c893
 ms.author: windowssdkdev
 ms.date: 12/5/2018

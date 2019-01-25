@@ -4,7 +4,7 @@ title: LINETERMCAPS
 author: windows-sdk-content
 description: The LINETERMCAPS structure describes the capabilities of a line's terminal device. The LINEDEVCAPS structure can contain an array of LINETERMCAPS structures.
 old-location: tapi2\linetermcaps_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 54d36126-a032-4baa-8484-6ebeb9c4adf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

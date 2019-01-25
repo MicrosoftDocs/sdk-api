@@ -4,7 +4,7 @@ title: ITCallStateEvent
 author: windows-sdk-content
 description: The ITCallStateEvent interface contains methods that retrieve the description of call state events.
 old-location: tapi3\itcallstateevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0885ef81-726d-41ca-be8c-b3ff2e02fc3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

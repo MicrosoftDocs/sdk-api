@@ -4,7 +4,7 @@ title: ITAddress::CreateForwardInfoObject
 author: windows-sdk-content
 description: The CreateForwardInfoObject method creates the forwarding information object and returns an ITForwardInformation interface pointer.
 old-location: tapi3\itaddress_createforwardinfoobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 87d37ba3-5398-47a7-808b-eb9b6681653d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

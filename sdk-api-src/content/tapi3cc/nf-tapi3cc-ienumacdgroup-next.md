@@ -4,7 +4,7 @@ title: IEnumACDGroup::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 20cad3aa-2c8c-4ef8-bb3a-b7662b125475
 ms.author: windowssdkdev
 ms.date: 12/5/2018

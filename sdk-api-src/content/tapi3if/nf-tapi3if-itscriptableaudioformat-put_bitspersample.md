@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::put_BitsPerSample
 author: windows-sdk-content
 description: The put_BitsPerSample method sets the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_bitspersample.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8e1038d6-122f-40c9-a6ab-57ae583ff9bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

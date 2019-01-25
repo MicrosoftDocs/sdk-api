@@ -4,7 +4,7 @@ title: lineUnhold function
 author: windows-sdk-content
 description: The lineUnhold function retrieves the specified held call.
 old-location: tapi2\lineunhold.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c32d8d3a-f54c-411a-ae86-4aecd6dce456
 ms.author: windowssdkdev
 ms.date: 12/5/2018

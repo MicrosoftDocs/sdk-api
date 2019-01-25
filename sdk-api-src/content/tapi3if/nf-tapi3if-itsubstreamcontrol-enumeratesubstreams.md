@@ -4,7 +4,7 @@ title: ITSubStreamControl::EnumerateSubStreams
 author: windows-sdk-content
 description: The EnumerateSubStreams method enumerates currently available media substreams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_SubStreams method.
 old-location: tapi3\itsubstreamcontrol_enumeratesubstreams.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 848d31e8-f878-4d33-b2b9-2d28e96bd14a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

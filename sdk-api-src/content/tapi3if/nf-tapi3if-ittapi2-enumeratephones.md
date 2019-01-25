@@ -4,7 +4,7 @@ title: ITTAPI2::EnumeratePhones
 author: windows-sdk-content
 description: The EnumeratePhones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty enumeration and returns S_OK.
 old-location: tapi3\ittapi2_enumeratephones.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6b6aba8d-fbf7-459f-9bc8-79647194b989
 ms.author: windowssdkdev
 ms.date: 12/5/2018

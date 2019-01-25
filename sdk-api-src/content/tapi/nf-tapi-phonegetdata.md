@@ -4,7 +4,7 @@ title: phoneGetData function
 author: windows-sdk-content
 description: The phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
 old-location: tapi2\phonegetdata.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9ad2f99e-73b3-4e4c-a6cd-49ca0fe775ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

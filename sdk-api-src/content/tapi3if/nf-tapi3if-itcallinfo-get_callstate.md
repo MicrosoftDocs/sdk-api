@@ -4,7 +4,7 @@ title: ITCallInfo::get_CallState
 author: windows-sdk-content
 description: The get_CallState method gets a pointer to the current call state, such as CS_IDLE.
 old-location: tapi3\itcallinfo_get_callstate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f7beb48f-d7d2-4a99-8e6a-6122059c9170
 ms.author: windowssdkdev
 ms.date: 12/5/2018

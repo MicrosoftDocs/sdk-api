@@ -4,7 +4,7 @@ title: TAPI_EVENT
 author: windows-sdk-content
 description: Used to notify an application that a change has occurred in the TAPI object.
 old-location: tapi3\tapi_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 94faa4a1-7d86-48bc-9e94-f2b8f83f5280
 ms.author: windowssdkdev
 ms.date: 12/5/2018

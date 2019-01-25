@@ -4,7 +4,7 @@ title: DIRECTORY_TYPE
 author: windows-sdk-content
 description: The DIRECTORY_TYPE enum is used to indicate the type of directory server.
 old-location: tapi3\directory_type.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dd4292f0-ca76-4464-b0fb-288ce5813a40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

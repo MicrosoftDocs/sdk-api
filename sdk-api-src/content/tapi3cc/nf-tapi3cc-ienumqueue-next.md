@@ -4,7 +4,7 @@ title: IEnumQueue::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumqueue_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 95c1a919-4138-49c1-ad3a-2b15d928e84f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

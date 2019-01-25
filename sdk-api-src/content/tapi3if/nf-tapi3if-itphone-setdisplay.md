@@ -4,7 +4,7 @@ title: ITPhone::SetDisplay
 author: windows-sdk-content
 description: The SetDisplay method sets what will appear in a given row and column of the phone's display.
 old-location: tapi3\itphone_setdisplay.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 690756c4-201d-472d-b536-452074226701
 ms.author: windowssdkdev
 ms.date: 12/5/2018

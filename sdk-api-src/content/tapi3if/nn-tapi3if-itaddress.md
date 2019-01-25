@@ -4,7 +4,7 @@ title: ITAddress
 author: windows-sdk-content
 description: The ITAddress interface is the base interface for the Address object. Applications use this interface to get information about and use the Address object.
 old-location: tapi3\itaddress.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 93f2e4cf-013e-4064-88d5-69fddd458274
 ms.author: windowssdkdev
 ms.date: 12/5/2018

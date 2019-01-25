@@ -4,7 +4,7 @@ title: lineRemoveFromConference function
 author: windows-sdk-content
 description: The lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tapi2\lineremovefromconference.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 03363579-66c2-4bb5-b110-01084c20bf09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

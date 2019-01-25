@@ -4,7 +4,7 @@ title: ITTerminalControl::ConnectTerminal
 author: windows-sdk-content
 description: The ConnectTerminal method connects filters and returns a set of pins for connection. Enters each of the internal filters into the filter graph, connects the internal filters together (if applicable) and returns a set of pins for connection.
 old-location: tapi3\itterminalcontrol_connectterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0351e645-b857-44d8-a226-046ebe0f4c81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

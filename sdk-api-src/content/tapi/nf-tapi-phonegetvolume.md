@@ -4,7 +4,7 @@ title: phoneGetVolume function
 author: windows-sdk-content
 description: The phoneGetVolume function returns the volume setting of the specified phone's hookswitch device.
 old-location: tapi2\phonegetvolume.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 049da2d5-4c31-4311-8dac-30545f8bf39b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

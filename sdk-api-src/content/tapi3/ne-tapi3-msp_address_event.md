@@ -4,7 +4,7 @@ title: MSP_ADDRESS_EVENT
 author: windows-sdk-content
 description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT.
 old-location: tapi3\msp_address_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 35aecd05-badd-4509-92e5-1936ca075c37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::Delete
 author: windows-sdk-content
 description: The Delete method deletes the terminal class from the registry.
 old-location: tapi3\itpluggableterminalclassregistration_delete.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ddc0e33a-d7f4-4380-b53b-e368f7646cbf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

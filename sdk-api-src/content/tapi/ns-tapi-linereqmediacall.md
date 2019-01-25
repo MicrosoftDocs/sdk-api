@@ -4,7 +4,7 @@ title: LINEREQMEDIACALL
 author: windows-sdk-content
 description: Describes a request initiated by a call to the lineGetRequest function. This data structure is obsolete and should not be used.
 old-location: tapi2\linereqmediacall_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4b0e4919-ebf9-496c-a8c9-bb8357879c65
 ms.author: windowssdkdev
 ms.date: 12/5/2018

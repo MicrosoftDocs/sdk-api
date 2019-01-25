@@ -4,7 +4,7 @@ title: TSPI_lineConditionalMediaDetection function
 author: windows-sdk-content
 description: The TSPI_lineConditionalMediaDetection function is invoked by TAPI whenever a client application uses LINEMAPPER as the dwDeviceID in a lineOpen function call.
 old-location: tspi\tspi_lineconditionalmediadetection.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8fa3f9ab-1749-43c8-b2a5-c481b1f94177
 ms.author: windowssdkdev
 ms.date: 12/5/2018

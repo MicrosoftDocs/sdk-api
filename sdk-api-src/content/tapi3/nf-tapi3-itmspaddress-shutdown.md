@@ -4,7 +4,7 @@ title: ITMSPAddress::Shutdown
 author: windows-sdk-content
 description: The Shutdown method is called when the MSP is unloaded. Shutdown will be called once per address object.
 old-location: tapi3\itmspaddress_shutdown.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 877691cb-b12b-4389-b93c-4ff13a52f4d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

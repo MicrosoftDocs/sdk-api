@@ -4,7 +4,7 @@ title: ITBasicCallControl::HandoffIndirect
 author: windows-sdk-content
 description: The HandoffIndirect method hands off the call to another application based on the media type of the call.
 old-location: tapi3\itbasiccallcontrol_handoffindirect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 02579638-fafd-4c4a-91a3-460d7ebf6917
 ms.author: windowssdkdev
 ms.date: 12/5/2018

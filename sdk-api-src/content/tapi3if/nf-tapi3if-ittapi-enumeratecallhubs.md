@@ -4,7 +4,7 @@ title: ITTAPI::EnumerateCallHubs
 author: windows-sdk-content
 description: The EnumerateCallHubs method enumerates the currently available call hubs. Provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Callhubs method.
 old-location: tapi3\ittapi_enumeratecallhubs.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 98d20aa3-6d4c-4971-aa4a-5b9632038eb1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

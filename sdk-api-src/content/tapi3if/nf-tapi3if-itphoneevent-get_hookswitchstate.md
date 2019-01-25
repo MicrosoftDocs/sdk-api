@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_HookSwitchState
 author: windows-sdk-content
 description: The get_HookSwitchState method returns a PHONE_HOOK_SWITCH_STATE value specifying the state to which the hookswitch has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_HOOKSWITCH.
 old-location: tapi3\itphoneevent_get_hookswitchstate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d7d1033d-0a37-4b9c-86d7-bab5a2cbb454
 ms.author: windowssdkdev
 ms.date: 12/5/2018

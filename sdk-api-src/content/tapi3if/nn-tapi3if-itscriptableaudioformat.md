@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat
 author: windows-sdk-content
 description: The ITScriptableAudioFormat interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6b5d069a-044f-4bd4-b661-6100a2607107
 ms.author: windowssdkdev
 ms.date: 12/5/2018

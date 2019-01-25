@@ -4,7 +4,7 @@ title: TERMINAL_TYPE
 author: windows-sdk-content
 description: The TERMINAL_TYPE enum describes the type of the terminal. This enum is returned by the ITTerminal::get_TerminalType method.
 old-location: tapi3\terminal_type.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 43d08be3-c09b-4c74-ad71-6b452850d2e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

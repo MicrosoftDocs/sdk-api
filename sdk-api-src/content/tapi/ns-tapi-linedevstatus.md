@@ -4,7 +4,7 @@ title: LINEDEVSTATUS
 author: windows-sdk-content
 description: The LINEDEVSTATUS structure describes the current status of a line device. The lineGetLineDevStatus function and the TSPI_lineGetLineDevStatus function return the LINEDEVSTATUS structure.
 old-location: tapi2\linedevstatus_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3d565e99-eb90-47ca-9fb9-295236f566fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

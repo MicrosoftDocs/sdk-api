@@ -4,7 +4,7 @@ title: ITAddressTranslation::TranslateAddress
 author: windows-sdk-content
 description: The TranslateAddress method creates the address translation information interface.
 old-location: tapi3\itaddresstranslation_translateaddress.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 14e51de8-33fd-4de0-bc1c-5f8085ea095c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

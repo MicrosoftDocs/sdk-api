@@ -4,7 +4,7 @@ title: LINEMONITORTONE
 author: windows-sdk-content
 description: The LINEMONITORTONE structure describes a tone to be monitored. This is used as an entry in an array. The lineMonitorTones and TSPI_lineMonitorTones functions use this structure.
 old-location: tapi2\linemonitortone_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f2d37591-2f1e-458f-b4d4-ab63eb31d33a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

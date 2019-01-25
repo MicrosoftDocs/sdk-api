@@ -4,7 +4,7 @@ title: ITTerminalSupport2::get_PluggableTerminalClasses
 author: windows-sdk-content
 description: The get_PluggableTerminalClasses method returns a collection of ITPluggableTerminalClassInfo terminal class information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggableterminalclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4bbb7f77-fc67-4b6b-88fa-2dc5bcfb6c48
 ms.author: windowssdkdev
 ms.date: 12/5/2018

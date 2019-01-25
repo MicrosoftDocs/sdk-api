@@ -4,7 +4,7 @@ title: ITAddress::put_MessageWaiting
 author: windows-sdk-content
 description: The put_MessageWaiting method sets the status of the message waiting on the address.
 old-location: tapi3\itaddress_put_messagewaiting.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9dc125ab-a452-4108-93d5-9f341b879e8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

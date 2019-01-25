@@ -4,7 +4,7 @@ title: TUISPI_lineConfigDialog function
 author: windows-sdk-content
 description: The TUISPI_lineConfigDialog function causes the provider of the specified line device to display a modal dialog box as a child window of hwndOwner to allow the user to configure parameters related to the line device.
 old-location: tspi\tuispi_lineconfigdialog.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 405af7aa-eb0b-49a1-9712-2f86357fc720
 ms.author: windowssdkdev
 ms.date: 12/5/2018

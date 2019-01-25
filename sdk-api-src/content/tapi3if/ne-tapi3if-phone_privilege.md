@@ -4,7 +4,7 @@ title: PHONE_PRIVILEGE
 author: windows-sdk-content
 description: The PHONE_PRIVILEGE enum indicates the application's privilege status with respect to the current phone device.
 old-location: tapi3\phone_privilege.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f1c162c6-058d-4cf2-a493-17b7752ffeeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

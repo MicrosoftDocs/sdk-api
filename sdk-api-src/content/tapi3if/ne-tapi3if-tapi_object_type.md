@@ -4,7 +4,7 @@ title: TAPI_OBJECT_TYPE
 author: windows-sdk-content
 description: The TAPI_OBJECT_TYPE enum is used to indicate the type of TAPI object involved in an event.
 old-location: tapi3\tapi_object_type.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 343a6049-d97b-4cba-bdf3-07fd72a10671
 ms.author: windowssdkdev
 ms.date: 12/5/2018

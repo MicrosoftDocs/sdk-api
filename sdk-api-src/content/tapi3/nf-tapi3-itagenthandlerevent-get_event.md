@@ -4,7 +4,7 @@ title: ITAgentHandlerEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method gets the description for the event that has occurred.
 old-location: tapi3\itagenthandlerevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3362964c-15d3-497c-876b-46e8d26389c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

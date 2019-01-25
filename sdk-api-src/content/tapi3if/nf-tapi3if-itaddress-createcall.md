@@ -4,7 +4,7 @@ title: ITAddress::CreateCall
 author: windows-sdk-content
 description: The CreateCall method creates a new Call object that can be used to make an outgoing call and returns a pointer to the object's ITBasicCallControl interface. The newly created call is in the CS_IDLE state and has no media or terminals selected.
 old-location: tapi3\itaddress_createcall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1b5a755c-fdaf-42ca-9747-9b34efbd0ac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

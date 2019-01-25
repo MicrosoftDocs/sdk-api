@@ -4,7 +4,7 @@ title: CMSPCallMultiGraph::HandleGraphEvent
 author: windows-sdk-content
 description: The HandleGraphEvent method is called by the DispatchGraphEvent static method to let the call object instance handle the event.
 old-location: tapi3\cmspcallmultigraph_handlegraphevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6c661341-6ae6-4a0a-88e5-b661a09ec9fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

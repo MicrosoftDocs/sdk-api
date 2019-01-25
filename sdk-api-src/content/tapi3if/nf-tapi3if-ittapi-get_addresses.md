@@ -4,7 +4,7 @@ title: ITTAPI::get_Addresses
 author: windows-sdk-content
 description: The get_Addresses method creates a collection of addresses that are currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateAddresses method.
 old-location: tapi3\ittapi_get_addresses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9e70ae94-20a2-4ba4-ab39-794f611011d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

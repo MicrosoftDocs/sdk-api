@@ -4,7 +4,7 @@ title: LINEEXTENSIONID
 author: windows-sdk-content
 description: The LINEEXTENSIONID structure describes an extension identifier.
 old-location: tapi2\lineextensionid_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bf7d9ccc-3f80-4e54-bcc2-cc2fef1d24af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

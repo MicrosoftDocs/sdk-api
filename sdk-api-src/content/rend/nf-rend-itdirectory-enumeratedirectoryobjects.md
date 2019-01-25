@@ -4,7 +4,7 @@ title: ITDirectory::EnumerateDirectoryObjects
 author: windows-sdk-content
 description: The EnumerateDirectoryObjects method creates an enumeration of directory objects of a given type and name.
 old-location: tapi3\itdirectory_enumeratedirectoryobjects.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4d7e0fd5-b85b-41e0-9603-132243a9a265
 ms.author: windowssdkdev
 ms.date: 12/5/2018

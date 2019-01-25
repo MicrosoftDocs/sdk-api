@@ -4,7 +4,7 @@ title: ITForwardInformation2::get_ForwardTypeDestinationAddressType
 author: windows-sdk-content
 description: The get_ForwardTypeDestinationAddressType method gets the destination address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypedestinationaddresstype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: de40538a-e2ba-49ec-bde6-6803da6515da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAddressCapabilities::get_DeviceClasses
 author: windows-sdk-content
 description: The get_DeviceClasses method gets device classes. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_deviceclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 34c662c6-4166-470f-aaaf-001da4ed048a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAllocatorProperties::SetAllocatorProperties
 author: windows-sdk-content
 description: The SetAllocatorProperties method must be called before connection and will force the MSP to use these values during filter negotiation. If the connecting filter doesn't accept these values, the connection is not established.
 old-location: tapi3\itallocatorproperties_setallocatorproperties.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3ab13fac-2667-44ce-aa1a-72cd18d37b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

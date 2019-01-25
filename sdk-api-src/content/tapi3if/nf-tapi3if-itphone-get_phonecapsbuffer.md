@@ -4,7 +4,7 @@ title: ITPhone::get_PhoneCapsBuffer
 author: windows-sdk-content
 description: The get_PhoneCapsBuffer method gets a buffer capability/information about the phone, based on the PHONECAPS_BUFFER enum passed in.
 old-location: tapi3\itphone_get_phonecapsbuffer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d9397aa8-2be4-4775-8123-975bdd58a6b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

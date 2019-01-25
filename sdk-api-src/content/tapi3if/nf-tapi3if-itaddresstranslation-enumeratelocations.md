@@ -4,7 +4,7 @@ title: ITAddressTranslation::EnumerateLocations
 author: windows-sdk-content
 description: The EnumerateLocations method enumerates the currently available address locations. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Locations method.
 old-location: tapi3\itaddresstranslation_enumeratelocations.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b286c738-1037-4a11-8c71-192b050d1502
 ms.author: windowssdkdev
 ms.date: 12/5/2018

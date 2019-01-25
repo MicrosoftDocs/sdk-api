@@ -4,7 +4,7 @@ title: ITTAPI::RegisterCallNotifications
 author: windows-sdk-content
 description: The RegisterCallNotifications method sets which new call notifications an application will receive. The application must call the method for each address, indicating media type or types it can handle, and specifying the privileges it requests.
 old-location: tapi3\ittapi_registercallnotifications.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 335deb2c-7700-4101-b6fa-f7fe0f248307
 ms.author: windowssdkdev
 ms.date: 12/5/2018

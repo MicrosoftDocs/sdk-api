@@ -4,7 +4,7 @@ title: ITCallingCard::get_LongDistanceDialingRule
 author: windows-sdk-content
 description: The get_LongDistanceDialingRule method gets the long distance dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_longdistancedialingrule.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 97ad3528-ee84-4b61-9d08-55d3500432dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

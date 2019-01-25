@@ -4,7 +4,7 @@ title: TSPI_lineDevSpecificFeature function
 author: windows-sdk-content
 description: The TSPI_lineDevSpecificFeature function is used as an extension mechanism to enable service providers to provide access to features not described in other operations.
 old-location: tspi\tspi_linedevspecificfeature.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0c42d932-f359-4557-bf26-daecca48781b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

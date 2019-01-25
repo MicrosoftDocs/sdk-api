@@ -4,7 +4,7 @@ title: ITDigitsGatheredEvent::get_Digits
 author: windows-sdk-content
 description: The get_Digits method gets the gathered digits for the call.
 old-location: tapi3\itdigitsgatheredevent_get_digits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 940e186b-33bd-4846-8314-39ede19bad95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CALLINFOCHANGE_CAUSE
 author: windows-sdk-content
 description: The CALLINFOCHANGE_CAUSE enum is used by the ITCallInfoChangeEvent::get_Cause method to return a description of the type of call information that has changed.
 old-location: tapi3\callinfochange_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 587329e2-3b5f-4d9e-9cec-2676c0bd1de8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

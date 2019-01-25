@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassRegistration::Delete
 author: windows-sdk-content
 description: The Delete method removes the current terminal superclass from the registry.
 old-location: tapi3\itpluggableterminalsuperclassregistration_delete.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fe87d55f-1e1c-4241-b8a3-b56d2000f3ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

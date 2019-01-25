@@ -4,7 +4,7 @@ title: ITCallNotificationEvent
 author: windows-sdk-content
 description: The ITCallNotificationEvent interface contains methods that retrieve the description of call notification events.
 old-location: tapi3\itcallnotificationevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d0ea4f7a-7b50-4610-ae17-957c0c1891e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

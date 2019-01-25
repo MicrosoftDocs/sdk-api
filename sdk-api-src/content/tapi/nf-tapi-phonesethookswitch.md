@@ -4,7 +4,7 @@ title: phoneSetHookSwitch function
 author: windows-sdk-content
 description: The phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.
 old-location: tapi2\phonesethookswitch.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 048f98e3-ac1b-47f8-85c8-97e7b7690030
 ms.author: windowssdkdev
 ms.date: 12/5/2018

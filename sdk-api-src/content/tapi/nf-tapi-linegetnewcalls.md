@@ -4,7 +4,7 @@ title: lineGetNewCalls function
 author: windows-sdk-content
 description: The lineGetNewCalls function returns call handles to calls on a specified line or address for which the application currently does not have handles. The application is granted monitor privilege to these calls.
 old-location: tapi2\linegetnewcalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 179af1a1-078f-401c-8c15-12fc8ca06e3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_lineSetupConference function
 author: windows-sdk-content
 description: The TSPI_lineSetupConference function sets up a conference call for the addition of the third party.
 old-location: tspi\tspi_linesetupconference.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 71b9720b-54dc-44a7-9fad-38dcd9f57ab3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

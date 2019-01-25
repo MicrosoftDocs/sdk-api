@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::put_AutoVolumeControlStep
 author: windows-sdk-content
 description: The put_AutoVolumeControlStep method sets the AutoVolumeControlStep property. The property determines the amount that the phone volume is adjusted when the volume button is pressed.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolstep.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 19766507-7a15-4c45-91bd-4b49ceb177e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAddressTranslation::TranslateDialog
 author: windows-sdk-content
 description: The TranslateDialog method displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect.
 old-location: tapi3\itaddresstranslation_translatedialog.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fe744658-b5a7-4d22-bf8b-9c669be3da1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITBasicAudioTerminal::put_Volume
 author: windows-sdk-content
 description: The put_Volume method sets the volume.
 old-location: tapi3\itbasicaudioterminal_put_volume.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6c611505-74b4-48fa-bb36-ec765cb24f96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

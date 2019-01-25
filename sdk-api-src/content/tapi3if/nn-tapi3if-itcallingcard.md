@@ -4,7 +4,7 @@ title: ITCallingCard
 author: windows-sdk-content
 description: The ITCallingCard interface provides methods to retrieve information concerning telephony calling cards.
 old-location: tapi3\itcallingcard.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 09787cd2-56b5-4ed2-8783-f3c53ce2cc66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

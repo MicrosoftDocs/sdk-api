@@ -4,7 +4,7 @@ title: lineGetRequest function
 author: windows-sdk-content
 description: Retrieves the next by-proxy request for the specified request mode.
 old-location: tapi2\linegetrequest.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

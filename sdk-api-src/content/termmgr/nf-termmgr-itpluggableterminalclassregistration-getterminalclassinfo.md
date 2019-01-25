@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::GetTerminalClassInfo
 author: windows-sdk-content
 description: The GetTerminalClassInfo method gets all the information from the registry for a specific terminal.
 old-location: tapi3\itpluggableterminalclassregistration_getterminalclassinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 35eed68f-be15-4229-b1be-01734f1831c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

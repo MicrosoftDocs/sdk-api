@@ -4,7 +4,7 @@ title: PHONECAPS
 author: windows-sdk-content
 description: The PHONECAPS structure describes the capabilities of a phone device. The phoneGetDevCaps and TSPI_phoneGetDevCaps functions return this structure.
 old-location: tapi2\phonecaps_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9549e30c-9425-4fb1-8ce5-f180a32f8e1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

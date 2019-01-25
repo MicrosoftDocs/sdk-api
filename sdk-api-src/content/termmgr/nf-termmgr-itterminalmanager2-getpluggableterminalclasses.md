@@ -4,7 +4,7 @@ title: ITTerminalManager2::GetPluggableTerminalClasses
 author: windows-sdk-content
 description: The GetPluggableTerminalClasses method lists the terminal classes for all pluggable terminals registered under a terminal superclass.
 old-location: tapi3\itterminalmanager2_getpluggableterminalclasses.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7f967958-fc32-4336-aae5-bea180ba86d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

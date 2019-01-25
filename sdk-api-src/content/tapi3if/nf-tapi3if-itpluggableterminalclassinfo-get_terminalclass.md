@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassInfo::get_TerminalClass
 author: windows-sdk-content
 description: The get_TerminalClass method gets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassinfo_get_terminalclass.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7dfa6cf8-23b8-4959-ba39-6efda1d71562
 ms.author: windowssdkdev
 ms.date: 12/5/2018

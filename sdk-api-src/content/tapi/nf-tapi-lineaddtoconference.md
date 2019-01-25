@@ -4,7 +4,7 @@ title: lineAddToConference function
 author: windows-sdk-content
 description: The lineAddToConference function adds the call specified by hConsultCall to the conference call specified by hConfCall.
 old-location: tapi2\lineaddtoconference.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fbbaea96-727c-46b9-91d1-31d3f89d8ad8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

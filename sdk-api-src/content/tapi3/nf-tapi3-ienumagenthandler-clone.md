@@ -4,7 +4,7 @@ title: IEnumAgentHandler::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumagenthandler_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a7358d0d-6d5a-4845-a212-d278a8d2b7fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

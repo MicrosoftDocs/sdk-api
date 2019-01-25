@@ -4,7 +4,7 @@ title: ITTAPI::Initialize
 author: windows-sdk-content
 description: The Initialize method initializes TAPI. This method must be called before calling any other TAPI 3 method. The application must call the Shutdown method when ending a TAPI session.
 old-location: tapi3\ittapi_initialize.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 822ca3fe-8deb-4fe3-8b83-060eae69840c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

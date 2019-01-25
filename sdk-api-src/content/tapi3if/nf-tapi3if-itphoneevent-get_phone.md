@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_Phone
 author: windows-sdk-content
 description: The get_Phone method returns a pointer to the ITPhone interface on the phone object that fired this event.
 old-location: tapi3\itphoneevent_get_phone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 81b61c98-839a-488b-a0da-085f8891197c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

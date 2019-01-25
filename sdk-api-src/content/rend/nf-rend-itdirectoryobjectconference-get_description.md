@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_Description
 author: windows-sdk-content
 description: The get_Description method gets the description of the conference.
 old-location: tapi3\itdirectoryobjectconference_get_description.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f90defa9-5e70-4168-9a07-ccb520bd5a1f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

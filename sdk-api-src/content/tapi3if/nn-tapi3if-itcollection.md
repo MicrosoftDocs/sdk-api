@@ -4,7 +4,7 @@ title: ITCollection
 author: windows-sdk-content
 description: The ITCollection interface allows Automation client applications, such as those written in Visual Basic, to retrieve collection information.
 old-location: tapi3\itcollection.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2286678a-68b9-4f4a-b36b-7fdf8cdad6a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

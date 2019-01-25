@@ -4,7 +4,7 @@ title: CALL_STATE_EVENT_CAUSE
 author: windows-sdk-content
 description: The CALL_STATE_EVENT_CAUSE enum is returned by the ITCallStateEvent::get_Cause method.
 old-location: tapi3\call_state_event_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9bc9e050-41f7-4330-a263-db745d3fa3f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

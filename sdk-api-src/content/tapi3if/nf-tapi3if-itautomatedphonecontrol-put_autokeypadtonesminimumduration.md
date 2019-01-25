@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::put_AutoKeypadTonesMinimumDuration
 author: windows-sdk-content
 description: The put_AutoKeypadTonesMinimumDuration method sets the value of the AutoKeypadTonesMinimumDuration property. The property specifies how long to play keypad tones on PBS_DOWN.
 old-location: tapi3\itautomatedphonecontrol_put_autokeypadtonesminimumduration.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8c4bdd45-7d19-47a4-aa18-5944d3e58797
 ms.author: windowssdkdev
 ms.date: 12/5/2018

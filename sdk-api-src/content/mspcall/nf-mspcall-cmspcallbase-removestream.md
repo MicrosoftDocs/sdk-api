@@ -4,7 +4,7 @@ title: CMSPCallBase::RemoveStream
 author: windows-sdk-content
 description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
 old-location: tapi3\cmspcallbase_removestream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5e2b4261-ba0f-429a-aef5-974b2841bf0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

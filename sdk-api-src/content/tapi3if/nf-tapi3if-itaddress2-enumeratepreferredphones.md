@@ -4,7 +4,7 @@ title: ITAddress2::EnumeratePreferredPhones
 author: windows-sdk-content
 description: The EnumeratePreferredPhones method enumerates the preferred phone objects for this address.
 old-location: tapi3\itaddress2_enumeratepreferredphones.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a5a02f79-59b3-43f0-9b3b-fdd7839ba026
 ms.author: windowssdkdev
 ms.date: 12/5/2018

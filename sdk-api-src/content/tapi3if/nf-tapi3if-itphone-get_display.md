@@ -4,7 +4,7 @@ title: ITPhone::get_Display
 author: windows-sdk-content
 description: The get_Display method gets the display for the phone. In TAPI, the display is simply an NxM character buffer.
 old-location: tapi3\itphone_get_display.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 259982d7-8c28-4c0d-81b3-e4ec49fc9765
 ms.author: windowssdkdev
 ms.date: 12/5/2018

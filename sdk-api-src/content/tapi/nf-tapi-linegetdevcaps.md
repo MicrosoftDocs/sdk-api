@@ -4,7 +4,7 @@ title: lineGetDevCaps function
 author: windows-sdk-content
 description: The lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
 old-location: tapi2\linegetdevcaps.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c0900c5b-8791-4653-8bfc-d32e51d10c50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

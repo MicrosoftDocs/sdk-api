@@ -4,7 +4,7 @@ title: IEnumSubStream::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumsubstream_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 42f5ecba-4555-410c-97b1-65eb02cd5032
 ms.author: windowssdkdev
 ms.date: 12/5/2018

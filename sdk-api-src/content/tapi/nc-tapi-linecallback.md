@@ -4,7 +4,7 @@ title: LINECALLBACK
 author: windows-sdk-content
 description: The lineCallback function is a placeholder for the application-supplied function name.
 old-location: tapi2\linecallbackfunc.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 449ecf4f-0b1b-449e-9eae-049770d41dbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

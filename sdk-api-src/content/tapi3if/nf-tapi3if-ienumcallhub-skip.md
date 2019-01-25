@@ -4,7 +4,7 @@ title: IEnumCallHub::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcallhub_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6650d0c7-d067-47fa-a597-c45924b03351
 ms.author: windowssdkdev
 ms.date: 12/5/2018

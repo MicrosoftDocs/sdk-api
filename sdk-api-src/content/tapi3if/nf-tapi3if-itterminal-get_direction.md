@@ -4,7 +4,7 @@ title: ITTerminal::get_Direction
 author: windows-sdk-content
 description: The get_Direction method gets a TERMINAL_DIRECTION descriptor of the media stream direction for the terminal.
 old-location: tapi3\itterminal_get_direction.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e0a69c3d-1780-4088-8249-961788dbf184
 ms.author: windowssdkdev
 ms.date: 12/5/2018

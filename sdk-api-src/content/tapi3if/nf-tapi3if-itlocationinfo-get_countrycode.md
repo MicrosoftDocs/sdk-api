@@ -4,7 +4,7 @@ title: ITLocationInfo::get_CountryCode
 author: windows-sdk-content
 description: The get_CountryCode method gets the country/region code.
 old-location: tapi3\itlocationinfo_get_countrycode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3ddd2e25-39ac-419b-9f99-85c6086f0377
 ms.author: windowssdkdev
 ms.date: 12/5/2018

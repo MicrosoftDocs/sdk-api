@@ -4,7 +4,7 @@ title: PHONE_BUTTON_STATE
 author: windows-sdk-content
 description: The PHONE_BUTTON_STATE enum describes the state of a phone button.
 old-location: tapi3\phone_button_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a9f7b527-9c74-45ac-9394-6f736aae1ccf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

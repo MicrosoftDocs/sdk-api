@@ -4,7 +4,7 @@ title: lineRedirectA function
 author: windows-sdk-content
 description: The lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tapi2\lineredirect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 014465af-26a7-451e-9d32-2e020d1043b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

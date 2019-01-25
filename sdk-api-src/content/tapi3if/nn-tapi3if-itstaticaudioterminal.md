@@ -4,7 +4,7 @@ title: ITStaticAudioTerminal
 author: windows-sdk-content
 description: The ITStaticAudioTerminal interface is an interface that TAPI 3.1 MSPs must expose on all static audio terminals. The interface defines methods on static audio terminal objects that are needed to support phone devices.
 old-location: tapi3\itstaticaudioterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 154c07b6-c693-469d-819a-f6d2d2afd744
 ms.author: windowssdkdev
 ms.date: 12/5/2018

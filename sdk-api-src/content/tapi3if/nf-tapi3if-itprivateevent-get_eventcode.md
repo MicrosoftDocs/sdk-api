@@ -4,7 +4,7 @@ title: ITPrivateEvent::get_EventCode
 author: windows-sdk-content
 description: The get_EventCode method returns a pointer to a provider-specific event descriptor.
 old-location: tapi3\itprivateevent_get_eventcode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a66423ca-c0ed-4d1d-bf28-afc59ac5a5d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

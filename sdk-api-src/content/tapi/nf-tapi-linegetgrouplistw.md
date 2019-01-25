@@ -4,7 +4,7 @@ title: lineGetGroupListW function
 author: windows-sdk-content
 description: The lineGetGroupList function returns a list of ACD groups available on the ACD system.
 old-location: tapi2\linegetgrouplist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3e1d63e2-f87d-41ed-92ba-fe3bbdade8d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

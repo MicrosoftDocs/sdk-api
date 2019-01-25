@@ -4,7 +4,7 @@ title: TSPI_phoneSetButtonInfo function
 author: windows-sdk-content
 description: The TSPI_phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tspi\tspi_phonesetbuttoninfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 33b01ac2-cbfd-4697-b242-a7a8f5d1b256
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MSP_EVENT_INFO
 author: windows-sdk-content
 description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
 old-location: tapi3\msp_event_info.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
 ms.author: windowssdkdev
 ms.date: 12/5/2018

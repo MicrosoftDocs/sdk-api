@@ -4,7 +4,7 @@ title: ITForwardInformation::GetForwardType
 author: windows-sdk-content
 description: The GetForwardType method gets the forwarding mode.
 old-location: tapi3\itforwardinformation_getforwardtype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 02d3c558-585a-4dcc-873e-8465c1d2af64
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITDirectory
 author: windows-sdk-content
 description: The ITDirectory interface is exposed by the Directory object, which corresponds to a particular directory.
 old-location: tapi3\itdirectory.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9ec8c0ed-2fed-4701-acb5-86b69c10f18c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

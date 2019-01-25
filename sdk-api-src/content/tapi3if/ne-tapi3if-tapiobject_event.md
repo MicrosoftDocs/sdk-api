@@ -4,7 +4,7 @@ title: TAPIOBJECT_EVENT
 author: windows-sdk-content
 description: The TAPIOBJECT_EVENT enum describes TAPI object events. The ITTAPIObjectEvent::get_Event method returns a member of this enum to indicate the type of TAPI object event that occurred.
 old-location: tapi3\tapiobject_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 606e9f99-d90c-4d4a-8dd5-2734c9bd2e7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

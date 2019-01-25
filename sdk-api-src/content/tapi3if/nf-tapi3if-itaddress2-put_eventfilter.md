@@ -4,7 +4,7 @@ title: ITAddress2::put_EventFilter
 author: windows-sdk-content
 description: The put_EventFilter method sets an event filter for the current address. If no event filters are set, the application will not be notified of events on this address.
 old-location: tapi3\itaddress2_put_eventfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ca58c796-d843-48c3-9eac-ca126395d448
 ms.author: windowssdkdev
 ms.date: 12/5/2018

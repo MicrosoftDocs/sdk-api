@@ -4,7 +4,7 @@ title: ITBasicCallControl::Conference
 author: windows-sdk-content
 description: The Conference method adds a consultation call to the conference in which the current call is a participant. If an associated ITCallHub object does not exist, it is created.
 old-location: tapi3\itbasiccallcontrol_conference.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 73721921-c943-4adc-a2b1-e8c19ec809ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

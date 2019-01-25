@@ -4,7 +4,7 @@ title: PHONESTATUS
 author: windows-sdk-content
 description: The PHONESTATUS structure describes the current status of a phone device. The phoneGetStatus and TSPI_phoneGetStatus functions return this structure.
 old-location: tapi2\phonestatus_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 798a6c57-d3d3-4924-a925-059de350d18e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

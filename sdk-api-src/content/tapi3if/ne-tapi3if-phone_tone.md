@@ -4,7 +4,7 @@ title: PHONE_TONE
 author: windows-sdk-content
 description: The PHONE_TONE enum identifies a phone tone.
 old-location: tapi3\phone_tone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 93782f7e-db48-4479-b5da-77458c41e9a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

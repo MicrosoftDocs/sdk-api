@@ -4,7 +4,7 @@ title: PHONE_HOOK_SWITCH_DEVICE
 author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_DEVICE enum is used to indicate the types of switch hooks on a phone device.
 old-location: tapi3\phone_hook_switch_device.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 20b17e2f-f745-41ef-91ac-d2ab21d43695
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumDirectoryObject::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e14e71f1-5151-4562-bfbf-1370f65cb23a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

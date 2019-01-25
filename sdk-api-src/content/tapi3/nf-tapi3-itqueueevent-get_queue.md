@@ -4,7 +4,7 @@ title: ITQueueEvent::get_Queue
 author: windows-sdk-content
 description: The get_Queue method gets a pointer to the queue on which the event occurred.
 old-location: tapi3\itqueueevent_get_queue.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 59a4be82-0118-4a9c-9f85-0febfe1b3e18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

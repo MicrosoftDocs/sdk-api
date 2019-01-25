@@ -4,7 +4,7 @@ title: lineMakeCallW function
 author: windows-sdk-content
 description: The lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested.
 old-location: tapi2\linemakecall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a7dc9cdc-3cc3-4b6a-98c8-e141402c781e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

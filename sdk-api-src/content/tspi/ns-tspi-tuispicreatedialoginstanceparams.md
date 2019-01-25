@@ -4,7 +4,7 @@ title: TUISPICREATEDIALOGINSTANCEPARAMS
 author: windows-sdk-content
 description: The TUISPI data structure is defined below.
 old-location: tspi\tuispicreatedialoginstanceparams_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4de0ee9b-0643-4eab-b100-ee7aaa0b6992
 ms.author: windowssdkdev
 ms.date: 12/5/2018

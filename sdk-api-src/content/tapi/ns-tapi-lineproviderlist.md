@@ -4,7 +4,7 @@ title: LINEPROVIDERLIST
 author: windows-sdk-content
 description: The LINEPROVIDERLIST structure describes a list of service providers. A structure of this type is returned by the lineGetProviderList function. The LINEPROVIDERLIST structure can contain an array of LINEPROVIDERENTRY structures.
 old-location: tapi2\lineproviderlist_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 75790ffd-bb1b-4efc-a905-5727d31f8aec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

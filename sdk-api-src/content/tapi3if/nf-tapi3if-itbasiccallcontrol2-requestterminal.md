@@ -4,7 +4,7 @@ title: ITBasicCallControl2::RequestTerminal
 author: windows-sdk-content
 description: The RequestTerminal method gets a suitable terminal, given the class, media, and direction required.
 old-location: tapi3\itbasiccallcontrol2_requestterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 20b7266c-8990-457c-94cf-18cc2bed6b21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

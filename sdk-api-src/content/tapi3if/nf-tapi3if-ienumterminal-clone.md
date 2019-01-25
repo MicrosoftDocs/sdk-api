@@ -4,7 +4,7 @@ title: IEnumTerminal::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminal_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 019a8ff7-0238-4519-8912-caa78f059b56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

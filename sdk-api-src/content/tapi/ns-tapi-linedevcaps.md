@@ -4,7 +4,7 @@ title: LINEDEVCAPS
 author: windows-sdk-content
 description: The LINEDEVCAPS structure describes the capabilities of a line device. The lineGetDevCaps function and the TSPI_lineGetDevCaps function return the LINEDEVCAPS structure.
 old-location: tapi2\linedevcaps_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 83e38453-bb93-4cc5-923f-d0cd2898350a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

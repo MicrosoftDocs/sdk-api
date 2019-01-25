@@ -4,7 +4,7 @@ title: lineSetTerminal function
 author: windows-sdk-content
 description: The lineSetTerminal function enables an application to specify which terminal information related to the specified line, address, or call is to be routed.
 old-location: tapi2\linesetterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

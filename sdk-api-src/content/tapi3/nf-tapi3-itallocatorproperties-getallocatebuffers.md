@@ -4,7 +4,7 @@ title: ITAllocatorProperties::GetAllocateBuffers
 author: windows-sdk-content
 description: The GetAllocateBuffers method determines whether the current allocator buffers can be retrieved. If it returns FALSE, the sample that the MST allocated doesn't have any buffers and they must be supplied before Update is called on the samples.
 old-location: tapi3\itallocatorproperties_getallocatebuffers.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 74058181-ab74-4a2d-8395-c8a1a7f02820
 ms.author: windowssdkdev
 ms.date: 12/5/2018

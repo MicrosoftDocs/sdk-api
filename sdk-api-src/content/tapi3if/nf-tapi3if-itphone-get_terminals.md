@@ -4,7 +4,7 @@ title: ITPhone::get_Terminals
 author: windows-sdk-content
 description: The get_Terminals method retrieves a collection of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_terminals.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 09e5921c-c7da-40fc-902a-1e22ebe19b0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

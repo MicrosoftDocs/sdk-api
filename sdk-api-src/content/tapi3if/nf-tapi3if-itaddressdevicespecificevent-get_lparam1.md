@@ -4,7 +4,7 @@ title: ITAddressDeviceSpecificEvent::get_lParam1
 author: windows-sdk-content
 description: The get_lParam1 method retrieves the first of three buffers specific to a given address device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itaddressdevicespecificevent_get_lparam1.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e0cae67a-0c39-407a-b563-bef14c36f014
 ms.author: windowssdkdev
 ms.date: 12/5/2018

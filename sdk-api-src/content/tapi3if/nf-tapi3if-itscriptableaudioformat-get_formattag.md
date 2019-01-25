@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::get_FormatTag
 author: windows-sdk-content
 description: The get_FormatTag method returns the value for the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_formattag.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 073e4800-d84a-4f12-81ce-eba4a4e139fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

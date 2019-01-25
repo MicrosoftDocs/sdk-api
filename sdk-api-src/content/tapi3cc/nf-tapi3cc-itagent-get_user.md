@@ -4,7 +4,7 @@ title: ITAgent::get_User
 author: windows-sdk-content
 description: The get_User method gets the agent user name, which is the same as the operating system user login or e-mail name.
 old-location: tapi3\itagent_get_user.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6949fdb0-5841-4473-bb50-2ea598a71576
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAllocatorProperties::SetBufferSize
 author: windows-sdk-content
 description: The SetBufferSize method sets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_setbuffersize.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5aea70fd-2078-4f51-909f-c51cb997f5ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

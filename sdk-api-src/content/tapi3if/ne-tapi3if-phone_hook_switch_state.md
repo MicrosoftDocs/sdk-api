@@ -4,7 +4,7 @@ title: PHONE_HOOK_SWITCH_STATE
 author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_STATE enum provides indicators of the phone hookswitch status.
 old-location: tapi3\phone_hook_switch_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c9501a3f-1aaa-4d58-aca1-5ef00c31d195
 ms.author: windowssdkdev
 ms.date: 12/5/2018

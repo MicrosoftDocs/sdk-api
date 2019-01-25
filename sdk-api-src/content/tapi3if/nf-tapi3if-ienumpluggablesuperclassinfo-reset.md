@@ -4,7 +4,7 @@ title: IEnumPluggableSuperclassInfo::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggablesuperclassinfo_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5630c3e1-314d-414d-8fef-8440c089b843
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAgentSession::get_SessionDuration
 author: windows-sdk-content
 description: The get_SessionDuration method gets the duration of the Agent session in seconds. This duration is for the active period only; timing stops when a session enters the ASST_SESSION_ENDED state of AGENT_SESSION_STATE.
 old-location: tapi3\itagentsession_get_sessionduration.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e5cb6bd2-3b3e-442a-b766-bdd9254475dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

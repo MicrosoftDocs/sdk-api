@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::get_ServerAddress
 author: windows-sdk-content
 description: The get_ServerAddress method obtains a string representing the address of the multicast server granting this lease.
 old-location: tapi3\imcastleaseinfo_get_serveraddress.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 15f33689-07d5-4bd9-978a-2b5d9088b2ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

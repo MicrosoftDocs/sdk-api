@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::put_StopTime
 author: windows-sdk-content
 description: The put_StopTime method sets the stop time of the conference. If the end time is zero, the session is not bounded.
 old-location: tapi3\itdirectoryobjectconference_put_stoptime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2542f3e2-d391-4d96-8aa8-120d639f0468
 ms.author: windowssdkdev
 ms.date: 12/5/2018

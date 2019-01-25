@@ -4,7 +4,7 @@ title: ITAddressDeviceSpecificEvent::get_Address
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface of the Address object involved in the event.
 old-location: tapi3\itaddressdevicespecificevent_get_address.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 95b745c9-c18a-47c9-8ceb-b2c225ebbf73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAMMediaFormat::get_MediaFormat
 author: windows-sdk-content
 description: The get_MediaFormat method gets the media format.
 old-location: tapi3\itammediaformat_get_mediaformat.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 384cd41e-b59a-4ac4-9687-cf0f0738dfe0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

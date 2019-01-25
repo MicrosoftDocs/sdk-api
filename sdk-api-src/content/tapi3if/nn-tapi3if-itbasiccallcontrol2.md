@@ -4,7 +4,7 @@ title: ITBasicCallControl2
 author: windows-sdk-content
 description: The ITBasicCallControl2 interface is an extension of the ITBasicCallControl interface.
 old-location: tapi3\itbasiccallcontrol2.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fc693221-b7ba-4b33-aed7-59ec92fc9b58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

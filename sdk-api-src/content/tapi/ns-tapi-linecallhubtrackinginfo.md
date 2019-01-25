@@ -4,7 +4,7 @@ title: LINECALLHUBTRACKINGINFO
 author: windows-sdk-content
 description: The LINECALLHUBTRACKINGINFO structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.
 old-location: tapi2\linecallhubtrackinginfo_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1f4eaf7d-fc80-4131-af5a-30c6869c74ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

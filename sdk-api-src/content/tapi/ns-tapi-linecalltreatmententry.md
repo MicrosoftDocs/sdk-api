@@ -4,7 +4,7 @@ title: LINECALLTREATMENTENTRY
 author: windows-sdk-content
 description: The LINECALLTREATMENTENTRY structure provides information on the type of call treatment, such as music, recorded announcement, or silence, on the current call. The LINEADDRESSCAPS structure can contain an array of LINECALLTREATMENTENTRY structures.
 old-location: tapi2\linecalltreatmententry_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c4a9fbb1-5201-45bd-b88c-b0c81b216f72
 ms.author: windowssdkdev
 ms.date: 12/5/2018

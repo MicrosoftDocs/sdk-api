@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoDialtone
 author: windows-sdk-content
 description: The get_AutoDialtone method retrieves the current value of the AutoDialtone property.
 old-location: tapi3\itautomatedphonecontrol_get_autodialtone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 977be70d-bb2d-490a-afd1-8e7f496b10ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

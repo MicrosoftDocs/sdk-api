@@ -4,7 +4,7 @@ title: ITBasicCallControl::HandoffDirect
 author: windows-sdk-content
 description: The HandoffDirect method hands off the call to another application. This indicates that the application no longer requires ownership of the call.
 old-location: tapi3\itbasiccallcontrol_handoffdirect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a96a3790-ee5d-4983-b69a-30c7af96afd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

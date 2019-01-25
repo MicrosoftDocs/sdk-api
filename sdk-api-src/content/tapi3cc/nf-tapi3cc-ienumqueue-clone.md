@@ -4,7 +4,7 @@ title: IEnumQueue::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumqueue_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e63df5aa-8c90-4978-a63f-96ac5f624ef4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

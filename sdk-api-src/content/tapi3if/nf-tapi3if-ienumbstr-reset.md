@@ -4,7 +4,7 @@ title: IEnumBstr::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumbstr_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 52199728-17ab-4c17-bfe5-f51cd1e0b150
 ms.author: windowssdkdev
 ms.date: 12/5/2018

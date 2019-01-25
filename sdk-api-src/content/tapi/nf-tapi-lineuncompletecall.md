@@ -4,7 +4,7 @@ title: lineUncompleteCall function
 author: windows-sdk-content
 description: The lineUncompleteCall function cancels the specified call completion request on the specified line.
 old-location: tapi2\lineuncompletecall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e6b87d84-071c-4b75-afbf-569a5a861e3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

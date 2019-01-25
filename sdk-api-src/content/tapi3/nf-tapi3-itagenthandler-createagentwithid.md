@@ -4,7 +4,7 @@ title: ITAgentHandler::CreateAgentWithID
 author: windows-sdk-content
 description: The CreateAgentWithID method creates an Agent object based on an agent identifier.
 old-location: tapi3\itagenthandler_createagentwithid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 95c70e48-b990-47c7-a8b8-5fa3a84ec5ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

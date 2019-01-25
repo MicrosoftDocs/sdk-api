@@ -4,7 +4,7 @@ title: TSPI_lineSetMediaMode function
 author: windows-sdk-content
 description: The TSPI_lineSetMediaMode function changes the call's media as stored in the call's LINECALLINFO structure.
 old-location: tspi\tspi_linesetmediamode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3a0a5daf-eb4a-4e60-b343-8a47d342a86a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

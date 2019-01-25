@@ -4,7 +4,7 @@ title: ITDirectoryObject::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the name of the directory object.
 old-location: tapi3\itdirectoryobject_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b24c1e69-5ba1-4597-86fb-2233707a1acf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

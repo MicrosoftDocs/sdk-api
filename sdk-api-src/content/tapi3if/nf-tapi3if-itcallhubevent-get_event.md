@@ -4,7 +4,7 @@ title: ITCallHubEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method returns a pointer to a CALLHUB_EVENT enum description of the event that occurred.
 old-location: tapi3\itcallhubevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a2515583-e564-413d-b93f-6f2dd7776d7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

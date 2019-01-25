@@ -4,7 +4,7 @@ title: ITPhone::Close
 author: windows-sdk-content
 description: The Close method closes this phone device. The phone device remains closed until the application calls the ITPhone::Open method. For more information, see the following Remarks section.
 old-location: tapi3\itphone_close.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1eae1a14-dd5e-4ba9-8e6e-71e9956cb3e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

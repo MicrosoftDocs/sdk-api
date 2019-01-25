@@ -4,7 +4,7 @@ title: ITILSConfig
 author: windows-sdk-content
 description: The ITILSConfig interface allows configuration of the ILS directory.
 old-location: tapi3\itilsconfig.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 92a5624b-acf5-4280-9932-860fde53c6a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

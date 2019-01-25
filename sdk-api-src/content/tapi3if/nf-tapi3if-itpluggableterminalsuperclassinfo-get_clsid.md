@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassInfo::get_CLSID
 author: windows-sdk-content
 description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassinfo_get_clsid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 96f2fc11-43b0-4082-ab3d-d5813cd55ee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

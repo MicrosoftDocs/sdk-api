@@ -4,7 +4,7 @@ title: ITMSPAddress::ShutdownMSPCall
 author: windows-sdk-content
 description: The ShutdownMSPCall method is called when the call object is being destroyed.
 old-location: tapi3\itmspaddress_shutdownmspcall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6527db85-cad8-4b0d-977a-9ab8b047e44e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

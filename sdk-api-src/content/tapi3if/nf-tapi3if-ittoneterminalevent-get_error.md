@@ -4,7 +4,7 @@ title: ITToneTerminalEvent::get_Error
 author: windows-sdk-content
 description: The get_Error method returns an HRESULT cast of the error code involved in the event.
 old-location: tapi3\ittoneterminalevent_get_error.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f91497b0-b340-4eb9-8d9f-364991343c3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

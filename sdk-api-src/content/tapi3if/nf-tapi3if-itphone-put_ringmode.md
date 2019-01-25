@@ -4,7 +4,7 @@ title: ITPhone::put_RingMode
 author: windows-sdk-content
 description: The put_RingMode method requests that the phone change its ring mode.
 old-location: tapi3\itphone_put_ringmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f693bf24-540d-4509-bf0c-01be27f823f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

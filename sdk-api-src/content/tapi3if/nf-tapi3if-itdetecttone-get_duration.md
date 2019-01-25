@@ -4,7 +4,7 @@ title: ITDetectTone::get_Duration
 author: windows-sdk-content
 description: The get_Duration method retrieves the length of time during which a tone should be present before the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_get_duration.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3c1f8900-1384-4fb5-8931-90bb0d100d41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LINEMESSAGE
 author: windows-sdk-content
 description: The LINEMESSAGE structure contains parameter values specifying a change in status of the line the application currently has open. The lineGetMessage function returns the LINEMESSAGE structure.
 old-location: tapi2\linemessage_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1d184948-4ba2-4c8c-8771-d1aea6c4f565
 ms.author: windowssdkdev
 ms.date: 12/5/2018

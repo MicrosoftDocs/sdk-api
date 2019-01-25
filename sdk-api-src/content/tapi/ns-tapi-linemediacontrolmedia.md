@@ -4,7 +4,7 @@ title: LINEMEDIACONTROLMEDIA
 author: windows-sdk-content
 description: The LINEMEDIACONTROLMEDIA structure describes a media action to be executed when detecting a media type change. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontrolmedia_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5515d510-3827-4da6-975c-ff191bb0ab4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

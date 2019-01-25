@@ -4,7 +4,7 @@ title: lineSetCallTreatment function
 author: windows-sdk-content
 description: The lineSetCallTreatment function sets the sounds a party on a call that is unanswered or on hold hears. Except for basic parameter validation, it is a straight pass-through by TAPI to the service provider.
 old-location: tapi2\linesetcalltreatment.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0f1a3303-f6c3-4a5f-99bd-35e107c9b0b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

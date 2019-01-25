@@ -4,7 +4,7 @@ title: ITPluggableTerminalEventSinkRegistration::UnregisterSink
 author: windows-sdk-content
 description: The UnregisterSink method clears event registration for pluggable terminal events.
 old-location: tapi3\itpluggableterminaleventsinkregistration_unregistersink.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 261ea39e-485f-4039-94b0-cd92f614c0a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

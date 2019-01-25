@@ -4,7 +4,7 @@ title: ITRequestEvent::get_RegistrationInstance
 author: windows-sdk-content
 description: The get_RegistrationInstance method gets the registration instance.
 old-location: tapi3\itrequestevent_get_registrationinstance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2fa157f8-fb4d-4163-b496-15bc28cca46b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

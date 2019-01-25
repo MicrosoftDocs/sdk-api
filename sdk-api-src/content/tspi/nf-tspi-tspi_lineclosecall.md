@@ -4,7 +4,7 @@ title: TSPI_lineCloseCall function
 author: windows-sdk-content
 description: The TSPI_lineCloseCall function deallocates the call after completing or aborting all outstanding asynchronous operations on the call.
 old-location: tspi\tspi_lineclosecall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 86f5490c-8401-4235-8ddd-313794bd5bf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

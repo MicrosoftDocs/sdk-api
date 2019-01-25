@@ -4,7 +4,7 @@ title: CMSPAddress::ReceiveTSPAddressData
 author: windows-sdk-content
 description: The ReceiveTSPAddressData method is called when a TSP data message is intended to be processed by the address rather than by a specific call. Your MSP must override this method if it wants to handle any per-address TSP messages.
 old-location: tapi3\cmspaddress_receivetspaddressdata.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 56fc4024-bca0-405c-8a15-29ac8e486f80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

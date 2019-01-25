@@ -4,7 +4,7 @@ title: IEnumMcastScope::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of enumeration sequence.
 old-location: tapi3\ienummcastscope_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 799ebbdb-b285-40a6-9fd8-39341d39bbf9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

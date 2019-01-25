@@ -4,7 +4,7 @@ title: phoneConfigDialogW function
 author: windows-sdk-content
 description: The phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box that allows the user to configure parameters related to the phone device.
 old-location: tapi2\phoneconfigdialog.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700
 ms.author: windowssdkdev
 ms.date: 12/5/2018

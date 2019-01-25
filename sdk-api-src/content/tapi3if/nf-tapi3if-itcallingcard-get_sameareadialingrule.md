@@ -4,7 +4,7 @@ title: ITCallingCard::get_SameAreaDialingRule
 author: windows-sdk-content
 description: The get_SameAreaDialingRule method gets the dialing rules for calls within the same area code.
 old-location: tapi3\itcallingcard_get_sameareadialingrule.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d8539040-a988-4d96-8cf1-9ec8ff46a0a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

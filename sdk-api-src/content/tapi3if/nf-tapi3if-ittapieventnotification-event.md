@@ -4,7 +4,7 @@ title: ITTAPIEventNotification::Event
 author: windows-sdk-content
 description: The Event method is called by TAPI to determine the response to an asynchronous event notification.
 old-location: tapi3\ittapieventnotification_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8cd57c81-cd71-4fe5-a176-805c96c06c31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

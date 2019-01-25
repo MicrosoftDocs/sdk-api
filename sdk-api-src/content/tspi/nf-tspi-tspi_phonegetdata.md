@@ -4,7 +4,7 @@ title: TSPI_phoneGetData function
 author: windows-sdk-content
 description: The TSPI_phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
 old-location: tspi\tspi_phonegetdata.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 16692dfe-7a78-428a-94c0-bf56dda834b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

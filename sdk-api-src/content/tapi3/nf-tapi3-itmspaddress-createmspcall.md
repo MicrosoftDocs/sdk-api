@@ -4,7 +4,7 @@ title: ITMSPAddress::CreateMSPCall
 author: windows-sdk-content
 description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface.
 old-location: tapi3\itmspaddress_createmspcall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 56ed10e3-e711-43ae-aad6-65a5992fca0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

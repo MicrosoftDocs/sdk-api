@@ -4,7 +4,7 @@ title: linePrepareAddToConference function
 author: windows-sdk-content
 description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.
 old-location: tapi2\lineprepareaddtoconference.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e1603b36-8bcb-4665-b711-6d2b6794c963
 ms.author: windowssdkdev
 ms.date: 12/5/2018

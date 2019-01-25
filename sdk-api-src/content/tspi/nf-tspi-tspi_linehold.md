@@ -4,7 +4,7 @@ title: TSPI_lineHold function
 author: windows-sdk-content
 description: The TSPI_lineHold function places the specified call on hold.
 old-location: tspi\tspi_linehold.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 395aa8cc-fdbf-4772-940b-ea5944b26812
 ms.author: windowssdkdev
 ms.date: 12/5/2018

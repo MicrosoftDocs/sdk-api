@@ -4,7 +4,7 @@ title: TSPI_lineCloseMSPInstance function
 author: windows-sdk-content
 description: The TSPI_lineCloseMSPInstance function directs the TAPI 3 DLL to close a media service provider (MSP) call instance. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_lineclosemspinstance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 700824ed-05a1-4fb5-adf1-491e1dea7bf4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

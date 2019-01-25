@@ -4,7 +4,7 @@ title: phoneSetRing function
 author: windows-sdk-content
 description: The phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 old-location: tapi2\phonesetring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 14aca99e-e190-4c48-95f2-0b2a3ba3de3f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_phoneSetLamp function
 author: windows-sdk-content
 description: The TSPI_phoneSetLamp function causes the specified lamp to be set on the specified open phone device in the specified lamp mode.
 old-location: tspi\tspi_phonesetlamp.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d525b5d2-f5f8-490b-9db8-06881060efe5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

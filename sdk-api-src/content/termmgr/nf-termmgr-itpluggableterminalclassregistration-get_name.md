@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::get_Name
 author: windows-sdk-content
 description: The get_Name method gets the terminal's friendly name.
 old-location: tapi3\itpluggableterminalclassregistration_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0bbc0862-41d7-40cc-9b9d-57a2238122ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

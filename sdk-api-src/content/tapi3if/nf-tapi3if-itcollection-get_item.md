@@ -4,7 +4,7 @@ title: ITCollection::get_Item
 author: windows-sdk-content
 description: The get_Item method, given an index, returns an item in the collection.
 old-location: tapi3\itcollection_get_item.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f4e6de7e-99c4-415f-b3b4-7e8bf1f082fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

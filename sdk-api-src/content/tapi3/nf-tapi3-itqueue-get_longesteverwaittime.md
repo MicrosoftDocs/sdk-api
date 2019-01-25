@@ -4,7 +4,7 @@ title: ITQueue::get_LongestEverWaitTime
 author: windows-sdk-content
 description: The get_LongestEverWaitTime method gets the longest time any call waited in the queue (in seconds) during the current measurement period.
 old-location: tapi3\itqueue_get_longesteverwaittime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 686ea264-a826-4205-a422-7d1dc3d430f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

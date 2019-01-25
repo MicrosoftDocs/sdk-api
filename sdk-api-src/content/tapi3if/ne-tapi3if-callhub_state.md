@@ -4,7 +4,7 @@ title: CALLHUB_STATE
 author: windows-sdk-content
 description: The CALLHUB_STATE enum is a state indicator returned by the ITCallHub::get_State method.
 old-location: tapi3\callhub_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8ddfe1f5-2f4a-4b41-83ce-858a669afc31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

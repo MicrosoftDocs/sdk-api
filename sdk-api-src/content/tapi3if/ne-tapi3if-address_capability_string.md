@@ -4,7 +4,7 @@ title: ADDRESS_CAPABILITY_STRING
 author: windows-sdk-content
 description: The ADDRESS_CAPABILITY_STRING enum is used to check on address capabilities which are described by strings.
 old-location: tapi3\address_capability_string.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c0afe710-ae6d-4f32-a691-956f8d6fea05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

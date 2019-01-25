@@ -4,7 +4,7 @@ title: ITPluggableTerminalInitialization
 author: windows-sdk-content
 description: The ITPluggableTerminalInitialization interface is implemented by pluggable terminals and allows the Terminal Manager to initialize the terminal. The ITPluggableTerminalInitialization interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itpluggableterminalinitialization.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cc1e6fb7-1b2a-40bd-83a8-d3b8be93ddc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

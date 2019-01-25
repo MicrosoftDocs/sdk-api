@@ -4,7 +4,7 @@ title: ITFileTrack
 author: windows-sdk-content
 description: The ITFileTrack interface exposes methods that allow an application to get and set information concerning file terminal tracks. The ITFileTerminalEvent::get_Track method creates the ITFileTrack interface.
 old-location: tapi3\itfiletrack.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 590ca1ea-e058-4238-b01c-249fddd3c87d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

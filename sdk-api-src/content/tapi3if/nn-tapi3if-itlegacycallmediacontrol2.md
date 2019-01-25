@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl2
 author: windows-sdk-content
 description: The ITLegacyCallMediaControl2 interface is an extension of the ITLegacyCallMediaControl interface. ITLegacyCallMediaControl2 provides additional methods, primarily for tone detection and generation.
 old-location: tapi3\itlegacycallmediacontrol2.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 47fa5669-1c74-4c18-8370-3efe35b3573e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

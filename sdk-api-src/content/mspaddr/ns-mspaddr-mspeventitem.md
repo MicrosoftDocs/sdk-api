@@ -4,7 +4,7 @@ title: MSPEVENTITEM
 author: windows-sdk-content
 description: The MSPEVENTITEM structure contains link pointers and event types for MSP events.
 old-location: tapi3\mspeventitem.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fc99fd05-4d87-4b6e-b2f3-e00ac61ddafc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

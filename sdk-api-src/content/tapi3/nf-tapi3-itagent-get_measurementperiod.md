@@ -4,7 +4,7 @@ title: ITAgent::get_MeasurementPeriod
 author: windows-sdk-content
 description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itagent_get_measurementperiod.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ccc91dfb-83e5-496a-921d-784fcaea5af5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

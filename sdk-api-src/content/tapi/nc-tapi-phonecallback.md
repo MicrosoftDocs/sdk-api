@@ -4,7 +4,7 @@ title: PHONECALLBACK
 author: windows-sdk-content
 description: The phoneCallback function is a placeholder for the application-supplied function name.
 old-location: tapi2\phonecallbackfunc.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 169ac08a-7584-4d43-abb3-eb83eeb48406
 ms.author: windowssdkdev
 ms.date: 12/5/2018

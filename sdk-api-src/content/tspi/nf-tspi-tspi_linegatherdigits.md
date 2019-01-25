@@ -4,7 +4,7 @@ title: TSPI_lineGatherDigits function
 author: windows-sdk-content
 description: The TSPI_lineGatherDigits function initiates the buffered gathering of digits on the specified call. TAPI specifies a buffer in which to place the digits and the maximum number of digits to be collected.
 old-location: tspi\tspi_linegatherdigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a7035e4d-dbb3-48b2-b44a-a7acb85e2d8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

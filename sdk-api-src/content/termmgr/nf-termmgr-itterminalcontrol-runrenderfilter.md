@@ -4,7 +4,7 @@ title: ITTerminalControl::RunRenderFilter
 author: windows-sdk-content
 description: The RunRenderFilter method starts the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_runrenderfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ed02ed04-3665-47be-a77b-7804a2197767
 ms.author: windowssdkdev
 ms.date: 12/5/2018

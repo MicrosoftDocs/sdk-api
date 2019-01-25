@@ -4,7 +4,7 @@ title: ITQueue::put_MeasurementPeriod
 author: windows-sdk-content
 description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itqueue_put_measurementperiod.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9e32b2ae-c4e5-4624-b970-673c950dee3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

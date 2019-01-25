@@ -4,7 +4,7 @@ title: ITAgent::get_NumberOfOutgoingCalls
 author: windows-sdk-content
 description: The get_NumberOfOutgoingCalls method gets the number of outgoing non-ACD calls handled during by this agent.
 old-location: tapi3\itagent_get_numberofoutgoingcalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fb2af58c-0b9e-4b00-8d8c-2fbfb2e0fc95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

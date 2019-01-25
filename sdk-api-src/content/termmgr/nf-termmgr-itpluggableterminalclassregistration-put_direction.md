@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::put_Direction
 author: windows-sdk-content
 description: The put_Direction method sets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_direction.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b68c0697-e889-471d-857a-d11e974c6552
 ms.author: windowssdkdev
 ms.date: 12/5/2018

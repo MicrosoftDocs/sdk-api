@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoVolumeControlRepeatPeriod
 author: windows-sdk-content
 description: The get_AutoVolumeControlRepeatPeriod method retrieves the current value of the AutoVolumeControlRepeatPeriod property. The property controls the period, in milliseconds (ms), of button repeats when a volume button is held down.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolrepeatperiod.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6ab52127-62e2-4e80-980a-8b29b51fa91f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

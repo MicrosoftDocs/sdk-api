@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::put_Channels
 author: windows-sdk-content
 description: The put_Channels method sets the nChannels member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_channels.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 301fd17f-393b-46dd-9d76-1a1e34547629
 ms.author: windowssdkdev
 ms.date: 12/5/2018

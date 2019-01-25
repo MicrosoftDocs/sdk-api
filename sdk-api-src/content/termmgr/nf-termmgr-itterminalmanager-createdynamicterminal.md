@@ -4,7 +4,7 @@ title: ITTerminalManager::CreateDynamicTerminal
 author: windows-sdk-content
 description: The CreateDynamicTerminal method creates a dynamic terminal of a specified terminal class, media type, and direction.
 old-location: tapi3\itterminalmanager_createdynamicterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a6590503-8c95-496d-a35a-1bbb34c728e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

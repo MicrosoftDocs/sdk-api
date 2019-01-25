@@ -4,7 +4,7 @@ title: IEnumACDGroup::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 58f794cc-da10-4772-9afe-078337b7734b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

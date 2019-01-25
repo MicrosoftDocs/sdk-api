@@ -4,7 +4,7 @@ title: ITAMMediaFormat
 author: windows-sdk-content
 description: The ITAMMediaFormat interface sets and gets DirectShow media format.
 old-location: tapi3\itammediaformat.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 82728afe-5743-4b45-86e6-32df021a2a5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

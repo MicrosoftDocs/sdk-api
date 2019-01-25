@@ -4,7 +4,7 @@ title: CALLINFO_BUFFER
 author: windows-sdk-content
 description: The CALLINFO_BUFFER enum indicates the type of buffer accessed by the ITCallInfo::GetCallInfoBuffer method or the ITCallInfo::SetCallInfoBuffer method.
 old-location: tapi3\callinfo_buffer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 76774741-2aa3-455c-a203-1daee42cf0fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

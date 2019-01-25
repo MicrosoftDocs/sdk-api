@@ -4,7 +4,7 @@ title: ITAllocatorProperties::GetBufferSize
 author: windows-sdk-content
 description: The GetBufferSize method gets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_getbuffersize.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c1571bbb-345b-4b62-acb2-67afda1c9c9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: lineSetAgentGroup function
 author: windows-sdk-content
 description: The lineSetAgentGroup function sets the agent groups into which the agent is logged into on a particular address.
 old-location: tapi2\linesetagentgroup.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ce6795fb-fe11-4125-abeb-9b2686ea669a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

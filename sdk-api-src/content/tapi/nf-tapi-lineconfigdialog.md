@@ -4,7 +4,7 @@ title: lineConfigDialog function
 author: windows-sdk-content
 description: The lineConfigDialog function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
 old-location: tapi2\lineconfigdialog.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

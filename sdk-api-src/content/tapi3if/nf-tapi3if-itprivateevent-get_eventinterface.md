@@ -4,7 +4,7 @@ title: ITPrivateEvent::get_EventInterface
 author: windows-sdk-content
 description: The get_EventInterface method returns a pointer to the IDispatch interface of the private object's event handler.
 old-location: tapi3\itprivateevent_get_eventinterface.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c5620930-5cda-4f2e-8059-12af2d7f0a02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

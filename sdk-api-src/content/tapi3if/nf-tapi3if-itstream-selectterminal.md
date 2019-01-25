@@ -4,7 +4,7 @@ title: ITStream::SelectTerminal
 author: windows-sdk-content
 description: The SelectTerminal method selects an ITTerminal object onto the stream.
 old-location: tapi3\itstream_selectterminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ecc4c7eb-c278-457a-b54e-5f1e582e22bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

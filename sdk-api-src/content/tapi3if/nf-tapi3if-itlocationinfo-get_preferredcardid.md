@@ -4,7 +4,7 @@ title: ITLocationInfo::get_PreferredCardID
 author: windows-sdk-content
 description: The get_PreferredCardID method gets the preferred calling card identifier for dialing from the current location.
 old-location: tapi3\itlocationinfo_get_preferredcardid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7881a005-1bab-47a1-a657-31584d3f2713
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITStream::get_Name
 author: windows-sdk-content
 description: The get_Name method gets a BSTR representing the name of the stream. This name is used for informational or display purposes.
 old-location: tapi3\itstream_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b3b81bd7-f99a-4cb1-8d60-6be8c1e68722
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCallNotificationEvent::get_Event
 author: windows-sdk-content
 description: The get_Event method returns a CALL_NOTIFICATION_EVENT description of whether the application owns or is monitoring the call on which the event has occurred.
 old-location: tapi3\itcallnotificationevent_get_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 08a3925c-e14e-442e-952e-483fc41d049c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

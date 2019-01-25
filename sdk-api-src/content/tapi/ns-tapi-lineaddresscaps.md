@@ -4,7 +4,7 @@ title: LINEADDRESSCAPS
 author: windows-sdk-content
 description: The LINEADDRESSCAPS structure describes the capabilities of a specified address. The lineGetAddressCaps function and the TSPI_lineGetAddressCaps function return the LINEADDRESSCAPS structure.
 old-location: tapi2\lineaddresscaps_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c1fe1aaf-2f50-4423-bacf-6a3cf218a809
 ms.author: windowssdkdev
 ms.date: 12/5/2018

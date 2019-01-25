@@ -4,7 +4,7 @@ title: TSPI_providerFreeDialogInstance function
 author: windows-sdk-content
 description: The TSPI_providerFreeDialogInstance function informs the service provider that the dialog box associated with hdDlgInst has exited.
 old-location: tspi\tspi_providerfreedialoginstance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0408c43f-cb80-4caf-ab28-5ece4b2e4851
 ms.author: windowssdkdev
 ms.date: 12/5/2018

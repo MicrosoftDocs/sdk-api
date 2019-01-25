@@ -4,7 +4,7 @@ title: ITCallInfo::put_CallInfoString
 author: windows-sdk-content
 description: The put_CallInfoString method sets call information items described by a string, such as the displayable address.
 old-location: tapi3\itcallinfo_put_callinfostring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d22f1afb-e036-40d0-9a7f-61d8d24d2376
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITPhone::put_HookSwitchState
 author: windows-sdk-content
 description: The put_HookSwitchState method sets the current hookswitch state for a particular hookswitch device on the phone.
 old-location: tapi3\itphone_put_hookswitchstate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ab0bcd30-6985-4f53-a39d-90230421b6f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

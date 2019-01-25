@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_Ringer
 author: windows-sdk-content
 description: The get_Ringer method returns a Boolean value indicating whether the phone is currently performing an incoming ring that was initiated by the StartRinger method on this interface.
 old-location: tapi3\itautomatedphonecontrol_get_ringer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cc4daec0-7f55-4c76-b8a0-19307c7046dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

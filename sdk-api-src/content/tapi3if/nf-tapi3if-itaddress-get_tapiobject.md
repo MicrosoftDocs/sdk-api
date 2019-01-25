@@ -4,7 +4,7 @@ title: ITAddress::get_TAPIObject
 author: windows-sdk-content
 description: The get_TAPIObject method gets a pointer to the TAPI object that owns this address.
 old-location: tapi3\itaddress_get_tapiobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 37064bef-d5c0-44b9-a7eb-ae922b175f91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

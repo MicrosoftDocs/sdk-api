@@ -4,7 +4,7 @@ title: ITTerminal::get_MediaType
 author: windows-sdk-content
 description: The get_MediaType method determines the media that this terminal supports.
 old-location: tapi3\itterminal_get_mediatype.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8c2006ad-d2f9-4e21-b0ae-583ec3ff82f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

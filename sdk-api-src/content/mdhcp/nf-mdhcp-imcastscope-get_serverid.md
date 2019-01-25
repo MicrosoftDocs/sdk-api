@@ -4,7 +4,7 @@ title: IMcastScope::get_ServerID
 author: windows-sdk-content
 description: The get_ServerID method obtains the server ID associated with this scope.
 old-location: tapi3\imcastscope_get_serverid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 80c0ecca-647f-4e5e-92d6-fc95368715ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

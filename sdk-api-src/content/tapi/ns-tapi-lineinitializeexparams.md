@@ -4,7 +4,7 @@ title: LINEINITIALIZEEXPARAMS
 author: windows-sdk-content
 description: The LINEINITIZALIZEEXPARAMS structure describes parameters supplied when making calls using LINEINITIALIZEEX.
 old-location: tapi2\lineinitializeexparams_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 17fed282-6d08-4702-9ceb-9cbcc3737395
 ms.author: windowssdkdev
 ms.date: 12/5/2018

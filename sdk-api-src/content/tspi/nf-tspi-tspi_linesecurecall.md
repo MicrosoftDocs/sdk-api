@@ -4,7 +4,7 @@ title: TSPI_lineSecureCall function
 author: windows-sdk-content
 description: The TSPI_lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
 old-location: tspi\tspi_linesecurecall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a064bf4b-3401-4f92-b318-a9f66de1e61f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

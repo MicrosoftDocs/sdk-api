@@ -4,7 +4,7 @@ title: ITDigitGenerationEvent::get_TickCount
 author: windows-sdk-content
 description: The get_TickCount method gets the &#0034;tick count&#0034; (number of milliseconds since Windows started) at which the digit generation completed.
 old-location: tapi3\itdigitgenerationevent_get_tickcount.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: daae0ae5-0eaf-4ca7-b08a-1c46b9ebfcab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

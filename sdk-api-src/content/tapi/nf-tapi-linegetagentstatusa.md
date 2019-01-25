@@ -4,7 +4,7 @@ title: lineGetAgentStatusA function
 author: windows-sdk-content
 description: The lineGetAgentStatus function obtains the agent-related status on the specified address.
 old-location: tapi2\linegetagentstatus.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6736cde5-af38-493d-b09a-a807d9e9a382
 ms.author: windowssdkdev
 ms.date: 12/5/2018

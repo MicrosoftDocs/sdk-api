@@ -4,7 +4,7 @@ title: ITSubStreamControl
 author: windows-sdk-content
 description: The ITSubStreamControl interface exposes methods that allow an application to enumerate, create, or remove substreams. Many MSPs do not support this interface.
 old-location: tapi3\itsubstreamcontrol.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 17c5f2ba-d526-4b00-9649-8fd73d70bc79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

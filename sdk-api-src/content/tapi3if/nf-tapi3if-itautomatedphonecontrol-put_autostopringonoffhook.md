@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::put_AutoStopRingOnOffHook
 author: windows-sdk-content
 description: The put_AutoStopRingOnOffHook method sets the AutoStopRingOnOffHook property. When this feature is enabled, the phone going offhook results in the termination of any incoming ring produced on the phone (via a call to ITAutomatedPhoneControl::StopRinger).
 old-location: tapi3\itautomatedphonecontrol_put_autostopringonoffhook.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 114e17e2-63e7-47f9-8ae7-1c7e452376f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

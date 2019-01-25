@@ -4,7 +4,7 @@ title: ITAgent::get_OverallCallRate
 author: windows-sdk-content
 description: The get_OverallCallRate method gets an agent's call rate across all sessions. 10 *Calls per agent hour (where agent hour represents the time that an agent was active in one or more agent sessions).
 old-location: tapi3\itagent_get_overallcallrate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ea85f3a7-0081-4ce2-bf2e-c47e6e7c4cbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

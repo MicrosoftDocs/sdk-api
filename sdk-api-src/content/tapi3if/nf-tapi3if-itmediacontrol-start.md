@@ -4,7 +4,7 @@ title: ITMediaControl::Start
 author: windows-sdk-content
 description: The Start method starts the action at the current location.
 old-location: tapi3\itmediacontrol_start.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b6fdf0da-9e22-4c77-9cd8-6ceccba81221
 ms.author: windowssdkdev
 ms.date: 12/5/2018

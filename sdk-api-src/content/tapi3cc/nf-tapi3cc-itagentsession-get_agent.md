@@ -4,7 +4,7 @@ title: ITAgentSession::get_Agent
 author: windows-sdk-content
 description: The get_Agent method gets a pointer to the ITAgent interface associated with this session.
 old-location: tapi3\itagentsession_get_agent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1378f7f1-020e-492c-8f1a-f4e8a9c7c3e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

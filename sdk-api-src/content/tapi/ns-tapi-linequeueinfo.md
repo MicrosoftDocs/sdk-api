@@ -4,7 +4,7 @@ title: LINEQUEUEINFO
 author: windows-sdk-content
 description: The LINEQUEUEINFO structure provides information about a queue on a line device. The lineGetQueueInfo function returns the LINEQUEUEINFO structure. This structure requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeueinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ba49404f-eb84-485f-be27-60760986d489
 ms.author: windowssdkdev
 ms.date: 12/5/2018

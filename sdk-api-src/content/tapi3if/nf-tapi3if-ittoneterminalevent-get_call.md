@@ -4,7 +4,7 @@ title: ITToneTerminalEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method retrieves an interface pointer for the call object on which the event occurred.
 old-location: tapi3\ittoneterminalevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: adbbce76-827d-439c-865d-9dcfe40c9722
 ms.author: windowssdkdev
 ms.date: 12/5/2018

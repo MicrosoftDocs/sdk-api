@@ -4,7 +4,7 @@ title: CALLINFO_STRING
 author: windows-sdk-content
 description: The CALLINFO_STRING enum is used by ITCallInfo methods that set and get call information involving the use of strings.
 old-location: tapi3\callinfo_string.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 28482ba8-c536-48ef-bca6-eba5b801c06e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

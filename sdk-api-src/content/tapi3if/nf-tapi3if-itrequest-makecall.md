@@ -4,7 +4,7 @@ title: ITRequest::MakeCall
 author: windows-sdk-content
 description: The MakeCall method makes a call to the designated party.
 old-location: tapi3\itrequest_makecall.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6896a18a-75ff-4f43-81e2-7b828bb16ff6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

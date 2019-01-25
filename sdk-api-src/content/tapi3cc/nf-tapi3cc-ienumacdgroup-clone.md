@@ -4,7 +4,7 @@ title: IEnumACDGroup::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumacdgroup_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 202f8534-9990-4e69-b3b8-8a8884b651f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

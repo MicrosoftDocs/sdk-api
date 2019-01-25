@@ -4,7 +4,7 @@ title: ITAgentSession::get_AverageCallTime
 author: windows-sdk-content
 description: The get_AverageCallTime method gets the average time (in seconds) spent per ACD call during this agent session. This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagentsession_get_averagecalltime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 05029076-cb76-4771-b0a8-0c09e184e6ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

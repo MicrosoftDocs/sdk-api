@@ -4,7 +4,7 @@ title: ITCallInfo2::get_EventFilter
 author: windows-sdk-content
 description: The get_EventFilter method gets the event filter information applicable to this call.
 old-location: tapi3\itcallinfo2_get_eventfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 21f4f7ae-2bba-424b-889f-4b43e9416b33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

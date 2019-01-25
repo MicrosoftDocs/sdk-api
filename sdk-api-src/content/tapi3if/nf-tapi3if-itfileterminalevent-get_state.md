@@ -4,7 +4,7 @@ title: ITFileTerminalEvent::get_State
 author: windows-sdk-content
 description: The get_State method gets information on the new file terminal state.
 old-location: tapi3\itfileterminalevent_get_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f75537e8-f54c-4165-ba89-013eeabceb74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

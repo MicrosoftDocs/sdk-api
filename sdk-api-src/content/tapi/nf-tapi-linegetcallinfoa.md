@@ -4,7 +4,7 @@ title: lineGetCallInfoA function
 author: windows-sdk-content
 description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
 old-location: tapi2\linegetcallinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
 ms.author: windowssdkdev
 ms.date: 12/5/2018

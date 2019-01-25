@@ -4,7 +4,7 @@ title: ITDigitGenerationEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method returns an ITCallInfo interface pointer for the call on which the event is required.
 old-location: tapi3\itdigitgenerationevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b0f4281f-e1df-4be9-acfc-5482044eb44b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

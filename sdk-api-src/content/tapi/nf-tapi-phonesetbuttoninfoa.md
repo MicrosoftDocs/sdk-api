@@ -4,7 +4,7 @@ title: phoneSetButtonInfoA function
 author: windows-sdk-content
 description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tapi2\phonesetbuttoninfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f51581a9-7b2a-4ba0-83fa-f464c8202648
 ms.author: windowssdkdev
 ms.date: 12/5/2018

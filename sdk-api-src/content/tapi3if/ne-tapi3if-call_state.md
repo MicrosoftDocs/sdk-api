@@ -4,7 +4,7 @@ title: CALL_STATE
 author: windows-sdk-content
 description: The CALL_STATE enum is used by the ITCallInfo::get_CallState and ITCallStateEvent::get_State methods.
 old-location: tapi3\call_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d4ed5e99-3abe-4434-9f99-5e98d8c6f3f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

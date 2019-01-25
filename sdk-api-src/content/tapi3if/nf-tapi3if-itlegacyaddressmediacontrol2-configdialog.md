@@ -4,7 +4,7 @@ title: ITLegacyAddressMediaControl2::ConfigDialog
 author: windows-sdk-content
 description: The ConfigDialog method causes the provider of the specified line device to display a dialog box to allow the user to configure parameters related to the line device. The parameters that can be edited are those currently in use on the device.
 old-location: tapi3\itlegacyaddressmediacontrol2_configdialog.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ac2f7afe-4531-454a-8696-ca21556a049a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

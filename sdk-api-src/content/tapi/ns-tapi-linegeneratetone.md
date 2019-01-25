@@ -4,7 +4,7 @@ title: LINEGENERATETONE
 author: windows-sdk-content
 description: The LINEGENERATETONE structure contains information about a tone to be generated. This structure is used by the lineGenerateTone and TSPI_lineGenerateTone functions.
 old-location: tapi2\linegeneratetone_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e430d944-816b-4072-a40b-b9001c465713
 ms.author: windowssdkdev
 ms.date: 12/5/2018

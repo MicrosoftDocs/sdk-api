@@ -4,7 +4,7 @@ title: TSPI_phoneNegotiateTSPIVersion function
 author: windows-sdk-content
 description: The TSPI_phoneNegotiateTSPIVersion function returns the highest SPI version the service provider can operate under for this device, given the range of possible SPI versions.
 old-location: tspi\tspi_phonenegotiatetspiversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a6bca1a3-a6cd-4cb5-80e9-0da0ad6ba8dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

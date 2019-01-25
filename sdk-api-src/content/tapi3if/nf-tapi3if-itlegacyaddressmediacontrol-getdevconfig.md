@@ -4,7 +4,7 @@ title: ITLegacyAddressMediaControl::GetDevConfig
 author: windows-sdk-content
 description: The GetDevConfig method returns an opaque data structure.
 old-location: tapi3\itlegacyaddressmediacontrol_getdevconfig.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ed8cc556-31a5-4725-92fe-1f78c16aadcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: phoneInitializeExA function
 author: windows-sdk-content
 description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.
 old-location: tapi2\phoneinitializeex.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 362e37df-4b14-4651-8d23-b70613e354c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

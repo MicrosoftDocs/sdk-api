@@ -4,7 +4,7 @@ title: ITAgentSession
 author: windows-sdk-content
 description: An agent session represents an association between an agent, group, and address.
 old-location: tapi3\itagentsession.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
 ms.author: windowssdkdev
 ms.date: 12/5/2018

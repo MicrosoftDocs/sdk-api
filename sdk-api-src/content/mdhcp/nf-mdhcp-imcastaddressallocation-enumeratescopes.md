@@ -4,7 +4,7 @@ title: IMcastAddressAllocation::EnumerateScopes
 author: windows-sdk-content
 description: The EnumerateScopes method creates an enumeration of multicast scopes available. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Scopes instead.
 old-location: tapi3\imcastaddressallocation_enumeratescopes.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1845f5f9-be0e-4609-89d8-1a0ed194dd68
 ms.author: windowssdkdev
 ms.date: 12/5/2018

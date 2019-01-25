@@ -4,7 +4,7 @@ title: TSPI_lineMonitorDigits function
 author: windows-sdk-content
 description: The TSPI_lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call.
 old-location: tspi\tspi_linemonitordigits.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3153eb0e-32e9-40bf-b6aa-de594f6edbf6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

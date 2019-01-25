@@ -4,7 +4,7 @@ title: ITPluggableTerminalSuperclassRegistration::put_CLSID
 author: windows-sdk-content
 description: The put_CLSID method sets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_clsid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ccb7159d-e838-408b-9565-a9854c4ba592
 ms.author: windowssdkdev
 ms.date: 12/5/2018

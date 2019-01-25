@@ -4,7 +4,7 @@ title: ITDispatchMapper::QueryDispatchInterface
 author: windows-sdk-content
 description: The QueryDispatchInterface method returns a dispatch pointer to a different interface on an object given its GUID and the dispatch pointer of another interface on the object.
 old-location: tapi3\itdispatchmapper_querydispatchinterface.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7ee7c6f4-5710-4300-a2b8-de9aecf0528b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

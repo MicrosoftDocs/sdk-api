@@ -4,7 +4,7 @@ title: ITTTSTerminalEvent::get_Error
 author: windows-sdk-content
 description: The get_Error method gets an HRESULT cast of the error code involved in the terminal event.
 old-location: tapi3\itttsterminalevent_get_error.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1a120114-a902-4e66-81e5-9f10205714ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

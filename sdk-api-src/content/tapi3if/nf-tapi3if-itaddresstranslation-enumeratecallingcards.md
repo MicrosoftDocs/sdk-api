@@ -4,7 +4,7 @@ title: ITAddressTranslation::EnumerateCallingCards
 author: windows-sdk-content
 description: The EnumerateCallingCards method enumerates calling cards associated with the address. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_CallingCards method.
 old-location: tapi3\itaddresstranslation_enumeratecallingcards.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 93f3cea1-70da-41f0-a8d5-692468a21695
 ms.author: windowssdkdev
 ms.date: 12/5/2018

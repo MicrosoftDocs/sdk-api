@@ -4,7 +4,7 @@ title: lineConfigDialogEditW function
 author: windows-sdk-content
 description: The lineConfigDialogEdit function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
 old-location: tapi2\lineconfigdialogedit.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 417016c3-8053-4a70-bce4-b96cce5e09a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

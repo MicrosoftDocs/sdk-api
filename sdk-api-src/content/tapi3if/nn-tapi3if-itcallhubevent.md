@@ -4,7 +4,7 @@ title: ITCallHubEvent
 author: windows-sdk-content
 description: The ITCallHubEvent interface contains methods that retrieve the description of CallHub events.
 old-location: tapi3\itcallhubevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4008fc7e-f095-442d-9214-61bfead8cf04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

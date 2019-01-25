@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::put_Version
 author: windows-sdk-content
 description: The put_Version method sets the terminal version.
 old-location: tapi3\itpluggableterminalclassregistration_put_version.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1fd659d3-869b-4055-bbd2-e567d13f239d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

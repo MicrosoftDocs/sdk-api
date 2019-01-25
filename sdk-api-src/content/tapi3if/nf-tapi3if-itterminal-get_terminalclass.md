@@ -4,7 +4,7 @@ title: ITTerminal::get_TerminalClass
 author: windows-sdk-content
 description: The get_TerminalClass method gets the Terminal Class of the terminal.
 old-location: tapi3\itterminal_get_terminalclass.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a31543da-4cb8-4719-8e33-fcb4d9d630b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

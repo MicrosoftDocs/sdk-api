@@ -4,7 +4,7 @@ title: CMSPAddress::UpdateTerminalList
 author: windows-sdk-content
 description: The UpdateTerminalList method populates the MSP's list of static terminals.
 old-location: tapi3\cmspaddress_updateterminallist.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f40964fe-21fe-4dad-8e56-71623ed2be1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

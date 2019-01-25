@@ -4,7 +4,7 @@ title: ITPhone::put_ButtonFunction
 author: windows-sdk-content
 description: The put_ButtonFunction method sets the button function.
 old-location: tapi3\itphone_put_buttonfunction.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8002ab8a-a15d-4a1f-b0c3-7a15c61cb6c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

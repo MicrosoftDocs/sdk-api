@@ -4,7 +4,7 @@ title: phoneGetLamp function
 author: windows-sdk-content
 description: The phoneGetLamp function returns the current lamp mode of the specified lamp.
 old-location: tapi2\phonegetlamp.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 97bc1dc1-ac7e-479f-8fea-e2fcca88367b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

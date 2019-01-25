@@ -4,7 +4,7 @@ title: IEnumSubStream::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumsubstream_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 72b91c81-8cfa-4879-bfcf-87fde38fcc79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

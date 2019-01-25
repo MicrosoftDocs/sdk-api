@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::put_IsEncrypted
 author: windows-sdk-content
 description: The put_IsEncrypted method sets whether the conference is encrypted.
 old-location: tapi3\itdirectoryobjectconference_put_isencrypted.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: af2d55be-cd4f-498b-9c23-abb2dda39f6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

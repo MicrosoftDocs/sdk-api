@@ -4,7 +4,7 @@ title: IMcastAddressAllocation::ReleaseAddress
 author: windows-sdk-content
 description: The ReleaseAddress method releases a lease that was obtained previously.
 old-location: tapi3\imcastaddressallocation_releaseaddress.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6b5fd18b-1b13-4e2a-9ff9-4a66212213a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

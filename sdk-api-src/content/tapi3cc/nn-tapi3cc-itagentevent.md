@@ -4,7 +4,7 @@ title: ITAgentEvent
 author: windows-sdk-content
 description: The ITAgentEvent interface contains methods that retrieve the description of agent events.
 old-location: tapi3\itagentevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: adfb58f7-b02c-4a64-92c1-a1b29c9f7143
 ms.author: windowssdkdev
 ms.date: 12/5/2018

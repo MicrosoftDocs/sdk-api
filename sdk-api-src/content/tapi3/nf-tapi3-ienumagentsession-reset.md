@@ -4,7 +4,7 @@ title: IEnumAgentSession::Reset
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumagentsession_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 38640376-0093-4fa4-9d27-b174c6df1bf4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

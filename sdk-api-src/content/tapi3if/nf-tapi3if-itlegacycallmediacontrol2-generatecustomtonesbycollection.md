@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl2::GenerateCustomTonesByCollection
 author: windows-sdk-content
 description: The GenerateCustomTonesByCollection method generates the specified custom tone.
 old-location: tapi3\itlegacycallmediacontrol2_generatecustomtonesbycollection.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5115192e-68de-4779-92dc-7cf63585faae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

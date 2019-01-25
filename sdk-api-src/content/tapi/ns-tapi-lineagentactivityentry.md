@@ -4,7 +4,7 @@ title: LINEAGENTACTIVITYENTRY
 author: windows-sdk-content
 description: The LINEAGENTACTIVITYENTRY structure describes a single ACD agent activity. The LINEAGENTACTIVITYLIST structure can contain an array of LINEAGENTACTIVITYENTRY structures.
 old-location: tapi2\lineagentactivityentry_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e4f869a9-608c-4119-863b-b29e8b0d9680
 ms.author: windowssdkdev
 ms.date: 12/5/2018

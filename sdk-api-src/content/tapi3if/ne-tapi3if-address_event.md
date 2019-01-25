@@ -4,7 +4,7 @@ title: ADDRESS_EVENT
 author: windows-sdk-content
 description: The ADDRESS_EVENT enum describes address events. The ITAddressEvent::get_Event method returns a member of this enum to indicate the type of address event that occurred.
 old-location: tapi3\address_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7fb4acab-d60a-4848-a426-5e2960efefc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

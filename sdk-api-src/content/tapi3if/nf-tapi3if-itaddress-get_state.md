@@ -4,7 +4,7 @@ title: ITAddress::get_State
 author: windows-sdk-content
 description: The get_State method gets the current state of the address in pAddressState.
 old-location: tapi3\itaddress_get_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f68d0fb0-126d-4464-9d5a-0ffae4d40cb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_HookSwitchDevice
 author: windows-sdk-content
 description: The get_HookSwitchDevice method returns a PHONE_HOOK_SWITCH_DEVICE value specifying the hookswitch device that changed state. This information is available only when the ITPhoneEvent::get_Event method returns PE_HOOKSWITCH.
 old-location: tapi3\itphoneevent_get_hookswitchdevice.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: acc25e8e-966f-4b54-ad59-226d2b7728b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

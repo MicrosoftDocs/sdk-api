@@ -4,7 +4,7 @@ title: CMSPAddress::MSPAddressRelease
 author: windows-sdk-content
 description: The MSPAddressRelease method is the private Release method for the address.
 old-location: tapi3\cmspaddress_mspaddressrelease.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 369d6daf-26fb-47f8-b503-6b0e73613bbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

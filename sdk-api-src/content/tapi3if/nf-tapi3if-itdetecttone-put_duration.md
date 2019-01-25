@@ -4,7 +4,7 @@ title: ITDetectTone::put_Duration
 author: windows-sdk-content
 description: The put_Duration method sets the length of time during which a tone should be present before the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_put_duration.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a64181ca-e8d6-48fc-89ef-b91268b709aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

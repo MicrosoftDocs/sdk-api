@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::get_AutoStopRingOnOffHook
 author: windows-sdk-content
 description: The get_AutoStopRingOnOffHook method retrieves the current value of the AutoStopRingOnOffHook property.
 old-location: tapi3\itautomatedphonecontrol_get_autostopringonoffhook.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 357266e7-b103-43c1-a6af-b00347c90f51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITAMMediaFormat::put_MediaFormat
 author: windows-sdk-content
 description: The put_MediaFormat method sets the media format.
 old-location: tapi3\itammediaformat_put_mediaformat.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 692df069-3016-46a2-9f33-4c709e85be1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

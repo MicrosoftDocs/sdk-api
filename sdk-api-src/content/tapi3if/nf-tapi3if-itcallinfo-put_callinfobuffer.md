@@ -4,7 +4,7 @@ title: ITCallInfo::put_CallInfoBuffer
 author: windows-sdk-content
 description: The put_CallInfoBuffer method sets call information items which require a buffer, such as user-user information.
 old-location: tapi3\itcallinfo_put_callinfobuffer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4404ec08-2443-4d1a-8f94-5eb1b3315169
 ms.author: windowssdkdev
 ms.date: 12/5/2018

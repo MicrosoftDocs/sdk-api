@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_Originator
 author: windows-sdk-content
 description: The get_Originator method gets the originator's user name.
 old-location: tapi3\itdirectoryobjectconference_get_originator.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b17be92c-eee6-43ec-bec0-75d4c30ad22f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

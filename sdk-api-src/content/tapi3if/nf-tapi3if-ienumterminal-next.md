@@ -4,7 +4,7 @@ title: IEnumTerminal::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumterminal_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d419fd5e-2e08-4d41-93c2-062cd86973f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

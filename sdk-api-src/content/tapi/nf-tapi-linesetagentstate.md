@@ -4,7 +4,7 @@ title: lineSetAgentState function
 author: windows-sdk-content
 description: The lineSetAgentState function sets the agent state associated with a particular address.
 old-location: tapi2\linesetagentstate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 985798fd-54b1-4674-a1fe-b72c56c5176b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

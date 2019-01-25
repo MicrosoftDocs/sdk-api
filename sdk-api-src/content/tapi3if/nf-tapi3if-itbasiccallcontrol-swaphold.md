@@ -4,7 +4,7 @@ title: ITBasicCallControl::SwapHold
 author: windows-sdk-content
 description: The SwapHold method swaps the call (which is active) with the specified call on hold.
 old-location: tapi3\itbasiccallcontrol_swaphold.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 372e8ca9-53fb-4ec0-aae8-52f85523b7c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

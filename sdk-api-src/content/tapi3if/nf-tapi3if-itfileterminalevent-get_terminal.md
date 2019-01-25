@@ -4,7 +4,7 @@ title: ITFileTerminalEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method returns the file terminal that generated this event.
 old-location: tapi3\itfileterminalevent_get_terminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 515d9c65-1c24-485a-b7e4-1640e4e8c382
 ms.author: windowssdkdev
 ms.date: 12/5/2018

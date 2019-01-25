@@ -4,7 +4,7 @@ title: ITPhoneDeviceSpecificEvent
 author: windows-sdk-content
 description: The ITPhoneDeviceSpecificEvent exposes methods that allow an application to retrieve information about a phone device-specific event.
 old-location: tapi3\itphonedevicespecificevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a4b2fb49-6128-41b6-8eb3-13a8bbba66ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

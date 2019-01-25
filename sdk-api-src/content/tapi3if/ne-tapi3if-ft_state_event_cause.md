@@ -4,7 +4,7 @@ title: FT_STATE_EVENT_CAUSE
 author: windows-sdk-content
 description: The FT_STATE_EVENT_CAUSE enum indicates the type of file terminal event.
 old-location: tapi3\ft_state_event_cause.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dd81fe2d-07ab-404b-8510-52029d67ef9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

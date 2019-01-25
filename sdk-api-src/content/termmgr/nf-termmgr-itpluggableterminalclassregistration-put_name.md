@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::put_Name
 author: windows-sdk-content
 description: The put_Name method sets the name of the terminal class being registered.
 old-location: tapi3\itpluggableterminalclassregistration_put_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d3d6c585-5592-4ed9-80bb-a55ff151edd1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

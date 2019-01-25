@@ -4,7 +4,7 @@ title: ITACDGroupEvent
 author: windows-sdk-content
 description: The ITACDGroupEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
 old-location: tapi3\itacdgroupevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
 ms.author: windowssdkdev
 ms.date: 12/5/2018

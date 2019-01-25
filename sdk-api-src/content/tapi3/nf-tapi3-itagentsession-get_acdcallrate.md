@@ -4,7 +4,7 @@ title: ITAgentSession::get_ACDCallRate
 author: windows-sdk-content
 description: The get_ACDCallRate method gets the all rate per agent session, in calls per hour.
 old-location: tapi3\itagentsession_get_acdcallrate.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 49737945-7e27-4c88-94c5-29db7dccfc97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

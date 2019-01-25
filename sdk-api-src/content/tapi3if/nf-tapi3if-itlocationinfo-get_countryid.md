@@ -4,7 +4,7 @@ title: ITLocationInfo::get_CountryID
 author: windows-sdk-content
 description: The get_CountryID method gets the identifier for the country/region.
 old-location: tapi3\itlocationinfo_get_countryid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c60e384b-ad0a-4e48-a337-b4ffad1b4891
 ms.author: windowssdkdev
 ms.date: 12/5/2018

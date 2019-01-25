@@ -4,7 +4,7 @@ title: ITRequestEvent::get_RequestMode
 author: windows-sdk-content
 description: The get_RequestMode method gets the mode of the request.
 old-location: tapi3\itrequestevent_get_requestmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 4c53d0ad-cb20-42f0-bd43-9b6bf18debcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

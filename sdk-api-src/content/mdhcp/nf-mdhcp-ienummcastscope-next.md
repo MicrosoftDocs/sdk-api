@@ -4,7 +4,7 @@ title: IEnumMcastScope::Next
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienummcastscope_next.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f7618414-c2fc-46c8-8f9d-c1ad217c8d94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

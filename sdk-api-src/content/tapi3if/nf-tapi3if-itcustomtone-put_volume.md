@@ -4,7 +4,7 @@ title: ITCustomTone::put_Volume
 author: windows-sdk-content
 description: The put_Volume method sets the volume level at which to generate the tone.
 old-location: tapi3\itcustomtone_put_volume.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2de6dbc3-9a3d-48e7-b9e1-56b3e25d1b60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

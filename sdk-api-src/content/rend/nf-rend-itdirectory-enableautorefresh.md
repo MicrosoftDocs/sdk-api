@@ -4,7 +4,7 @@ title: ITDirectory::EnableAutoRefresh
 author: windows-sdk-content
 description: The EnableAutoRefresh method enables auto refresh for directory objects created after it is called. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_enableautorefresh.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: f4d55d7c-54b4-44ee-b8f2-f4dd51bf823d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

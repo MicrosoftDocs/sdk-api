@@ -4,7 +4,7 @@ title: ITPhone::NegotiateExtVersion
 author: windows-sdk-content
 description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support provider specific extensions.
 old-location: tapi3\itphone_negotiateextversion.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a29311bf-0fe4-4e58-96cc-2e3734c32aee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

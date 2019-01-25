@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference::get_IsEncrypted
 author: windows-sdk-content
 description: The get_IsEncrypted method gets whether the conference is encrypted.
 old-location: tapi3\itdirectoryobjectconference_get_isencrypted.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a3228efa-2501-44ec-ba85-0e3b7c00b483
 ms.author: windowssdkdev
 ms.date: 12/5/2018

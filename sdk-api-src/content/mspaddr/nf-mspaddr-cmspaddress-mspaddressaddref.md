@@ -4,7 +4,7 @@ title: CMSPAddress::MSPAddressAddRef
 author: windows-sdk-content
 description: The MSPAddressAddRef method is the private AddRef method for the address.
 old-location: tapi3\cmspaddress_mspaddressaddref.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 74a68851-f1c2-41ed-94cd-ec043be0f0d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

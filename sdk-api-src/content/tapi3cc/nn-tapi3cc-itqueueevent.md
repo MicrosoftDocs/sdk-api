@@ -4,7 +4,7 @@ title: ITQueueEvent
 author: windows-sdk-content
 description: The ITQueueEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) queue events.
 old-location: tapi3\itqueueevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7e4655ff-6ed4-4166-91f7-49d2e0556662
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_lineClose function
 author: windows-sdk-content
 description: The TSPI_lineClose function closes the specified open line device after completing or aborting all outstanding calls and asynchronous operations on the device.
 old-location: tspi\tspi_lineclose.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d1041620-609b-476b-bdb7-e1e0cebd74f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

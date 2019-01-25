@@ -67,7 +67,7 @@ Flags to control creation of the stream. The client should set this parameter to
 
 Type: <b>UINT32</b>
 
-Periodicity requested by the client. This value must  be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter to <a href="https://msdn.microsoft.com/41ED045F-0C47-40BE-9ECD-6A925E166E6D">IAudioClient3::GetSharedModeEnginePeriod</a>.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of returned<i>pMaxPeriodInFrames</i>.
+Periodicity requested by the client. This value must  be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter to <a href="https://msdn.microsoft.com/41ED045F-0C47-40BE-9ECD-6A925E166E6D">IAudioClient3::GetSharedModeEnginePeriod</a>.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value returned in <i>pMaxPeriodInFrames</i>.
 
 
 ### -param pFormat [in]

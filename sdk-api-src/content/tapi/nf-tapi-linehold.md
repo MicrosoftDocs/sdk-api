@@ -4,7 +4,7 @@ title: lineHold function
 author: windows-sdk-content
 description: The lineHold function places the specified call on hold.
 old-location: tapi2\linehold.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d2fd450c-402c-4122-a785-a6b5216acfe9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

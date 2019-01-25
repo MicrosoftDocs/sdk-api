@@ -4,7 +4,7 @@ title: PHONECAPS_LONG
 author: windows-sdk-content
 description: The PHONECAPS_LONG enum is used by methods that set or get phone capabilities described by a long value.
 old-location: tapi3\phonecaps_long.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7a73d5ff-d08a-46e6-b4ad-4f3b973967a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

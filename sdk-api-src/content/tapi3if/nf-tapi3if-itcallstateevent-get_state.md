@@ -4,7 +4,7 @@ title: ITCallStateEvent::get_State
 author: windows-sdk-content
 description: The get_State method gets information on the new call state.
 old-location: tapi3\itcallstateevent_get_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 45e46b99-c65f-4296-9537-7fb7a4210727
 ms.author: windowssdkdev
 ms.date: 12/5/2018

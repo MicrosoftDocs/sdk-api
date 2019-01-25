@@ -4,7 +4,7 @@ title: IEnumDirectoryObject::Clone
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdirectoryobject_clone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2be8430e-2968-416f-9503-b77d6abd6a12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

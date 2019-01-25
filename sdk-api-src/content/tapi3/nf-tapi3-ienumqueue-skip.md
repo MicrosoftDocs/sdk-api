@@ -4,7 +4,7 @@ title: IEnumQueue::Skip
 author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumqueue_skip.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 92862b33-ceaf-4b18-b782-bb0352871d34
 ms.author: windowssdkdev
 ms.date: 12/5/2018

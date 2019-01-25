@@ -4,7 +4,7 @@ title: ITAddress2
 author: windows-sdk-content
 description: The ITAddress2 interface derives from the ITAddress interface. ITAddress2 adds methods to the Address object in order to support phone devices. All Address objects enumerated from TAPI 3.1 automatically implement this interface.
 old-location: tapi3\itaddress2.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3cc47291-8130-45bd-8db8-c5d1b463507d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

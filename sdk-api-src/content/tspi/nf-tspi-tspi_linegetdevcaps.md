@@ -4,7 +4,7 @@ title: TSPI_lineGetDevCaps function
 author: windows-sdk-content
 description: The TSPI_lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
 old-location: tspi\tspi_linegetdevcaps.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6c5a668e-9a9a-4a7a-98e9-bd8ec4b819b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

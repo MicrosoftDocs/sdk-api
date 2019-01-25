@@ -4,7 +4,7 @@ title: ITTAPI::put_EventFilter
 author: windows-sdk-content
 description: The put_EventFilter method sets the event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 old-location: tapi3\ittapi_put_eventfilter.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 126ec551-aade-47d8-987f-1f735f10bd28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

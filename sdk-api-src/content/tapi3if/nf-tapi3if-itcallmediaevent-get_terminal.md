@@ -4,7 +4,7 @@ title: ITCallMediaEvent::get_Terminal
 author: windows-sdk-content
 description: The get_Terminal method gets the terminal associated with the event.
 old-location: tapi3\itcallmediaevent_get_terminal.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 49fa442a-d4b0-4f51-b14a-c7819e06dcef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

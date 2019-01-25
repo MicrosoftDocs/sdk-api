@@ -4,7 +4,7 @@ title: ITPhone::EnumerateTerminals
 author: windows-sdk-content
 description: The EnumerateTerminals method retrieves an enumeration of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumerateterminals.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 87c756e3-abd0-4dff-b815-ff7dd60902f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

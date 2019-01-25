@@ -4,7 +4,7 @@ title: ITSubStreamControl::RemoveSubStream
 author: windows-sdk-content
 description: The RemoveSubStream method removes a substream.
 old-location: tapi3\itsubstreamcontrol_removesubstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 1a1be17c-2cae-4eea-a20a-3344915c5234
 ms.author: windowssdkdev
 ms.date: 12/5/2018

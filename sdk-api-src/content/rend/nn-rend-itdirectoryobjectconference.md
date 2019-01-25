@@ -4,7 +4,7 @@ title: ITDirectoryObjectConference
 author: windows-sdk-content
 description: The ITDirectoryObjectConference interface provides methods that allow an application to set and get conference details. The ITDirectoryObjectConference interface is created by calling QueryInterface on ITDirectoryObject.
 old-location: tapi3\itdirectoryobjectconference.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bab167cf-2726-4423-87b3-69227404bddc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

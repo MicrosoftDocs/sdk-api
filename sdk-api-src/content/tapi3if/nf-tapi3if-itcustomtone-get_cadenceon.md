@@ -4,7 +4,7 @@ title: ITCustomTone::get_CadenceOn
 author: windows-sdk-content
 description: The get_CadenceOn method retrieves the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_get_cadenceon.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 2f3da359-69e1-40a3-bfd6-42ade8de2379
 ms.author: windowssdkdev
 ms.date: 12/5/2018

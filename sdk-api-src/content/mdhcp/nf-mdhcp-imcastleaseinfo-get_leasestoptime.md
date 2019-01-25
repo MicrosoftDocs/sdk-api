@@ -4,7 +4,7 @@ title: IMcastLeaseInfo::get_LeaseStopTime
 author: windows-sdk-content
 description: The get_LeaseStopTime method obtains the stop time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestoptime.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b2b99329-b176-4e5d-afb1-754c418e843a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

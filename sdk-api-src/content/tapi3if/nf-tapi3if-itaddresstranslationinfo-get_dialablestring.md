@@ -4,7 +4,7 @@ title: ITAddressTranslationInfo::get_DialableString
 author: windows-sdk-content
 description: The get_DialableString method gets a string that contains a dialable number. Typically, this number is then used as the pDestAddress argument in ITAddress::CreateCall.
 old-location: tapi3\itaddresstranslationinfo_get_dialablestring.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 76177de9-eab2-4a86-ac25-29b78606b854
 ms.author: windowssdkdev
 ms.date: 12/5/2018

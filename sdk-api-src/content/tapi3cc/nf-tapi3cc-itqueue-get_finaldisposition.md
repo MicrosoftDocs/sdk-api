@@ -4,7 +4,7 @@ title: ITQueue::get_FinalDisposition
 author: windows-sdk-content
 description: The get_FinalDisposition method gets the total number of calls reaching the bottom of a call guide during the current measurement period.
 old-location: tapi3\itqueue_get_finaldisposition.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 024680d2-5b27-4002-a492-54b35a2d3513
 ms.author: windowssdkdev
 ms.date: 12/5/2018

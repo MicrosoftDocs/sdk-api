@@ -4,7 +4,7 @@ title: ITAgent::get_State
 author: windows-sdk-content
 description: The get_State method gets the state of an agent session.
 old-location: tapi3\itagent_get_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6690a62b-65a1-4892-aeee-4a6652939d5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

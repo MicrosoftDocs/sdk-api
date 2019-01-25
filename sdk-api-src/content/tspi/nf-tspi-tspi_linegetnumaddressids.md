@@ -4,7 +4,7 @@ title: TSPI_lineGetNumAddressIDs function
 author: windows-sdk-content
 description: The TSPI_lineGetNumAddressIDs function retrieves the number of address identifiers supported on the indicated line.
 old-location: tspi\tspi_linegetnumaddressids.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 53fd70eb-2694-4c8c-97cd-6ee9f2606ced
 ms.author: windowssdkdev
 ms.date: 12/5/2018

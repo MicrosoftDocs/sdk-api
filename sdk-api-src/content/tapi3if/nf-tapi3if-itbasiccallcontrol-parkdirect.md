@@ -4,7 +4,7 @@ title: ITBasicCallControl::ParkDirect
 author: windows-sdk-content
 description: The ParkDirect method parks the call at a specified address.
 old-location: tapi3\itbasiccallcontrol_parkdirect.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6461fd21-1726-4d24-8a17-d687b807b8e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

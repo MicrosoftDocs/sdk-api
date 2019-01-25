@@ -4,7 +4,7 @@ title: ITLocationInfo::get_LongDistanceAccessCode
 author: windows-sdk-content
 description: The get_LongDistanceAccessCode method gets the code to access long distance.
 old-location: tapi3\itlocationinfo_get_longdistanceaccesscode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c35e6a6a-3740-4595-90cd-709b4c9a42d1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

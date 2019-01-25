@@ -4,7 +4,7 @@ title: ITMSPAddress::GetEvent
 author: windows-sdk-content
 description: Retrieves event information.
 old-location: tapi3\itmspaddress_getevent.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: df5263f2-9d76-472d-b7fc-724d36f0b58f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

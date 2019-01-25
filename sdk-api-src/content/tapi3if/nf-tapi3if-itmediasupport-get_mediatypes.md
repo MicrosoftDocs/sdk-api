@@ -4,7 +4,7 @@ title: ITMediaSupport::get_MediaTypes
 author: windows-sdk-content
 description: The get_MediaTypes method gets the media type or types supported on the current address.
 old-location: tapi3\itmediasupport_get_mediatypes.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8fc3d82e-6d6f-4442-9232-87f8d7605870
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TSPI_phoneConfigDialog function
 author: windows-sdk-content
 description: The TSPI_phoneConfigDialog function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_phoneConfigDialog.
 old-location: tspi\tspi_phoneconfigdialog.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cce9460c-0914-4f02-a6a4-efb7f43ed22a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

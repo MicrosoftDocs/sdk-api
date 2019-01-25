@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl2::GetIDAsVariant
 author: windows-sdk-content
 description: The GetIDAsVariant method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol2_getidasvariant.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6c28889f-3768-4136-ac73-80c6c5ffeac3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

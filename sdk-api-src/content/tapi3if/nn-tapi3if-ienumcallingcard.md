@@ -4,7 +4,7 @@ title: IEnumCallingCard
 author: windows-sdk-content
 description: The IEnumCallingCard interface provides COM-standard enumeration methods for the ITCallingCard interface. The ITAddressTranslation::EnumerateCallingCards method returns a pointer to IEnumCallingCard.
 old-location: tapi3\ienumcallingcard.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: d2eed88b-9a01-4205-a35d-92a24e07a1e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

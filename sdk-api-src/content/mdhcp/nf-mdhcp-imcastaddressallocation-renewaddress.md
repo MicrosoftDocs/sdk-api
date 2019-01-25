@@ -4,7 +4,7 @@ title: IMcastAddressAllocation::RenewAddress
 author: windows-sdk-content
 description: The RenewAddress method renews an address lease. Call CreateLeaseInfo to specify the parameters of the renewal request, and then call this method to make the request.
 old-location: tapi3\imcastaddressallocation_renewaddress.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9f52d1e9-61d9-4f67-b180-c1844b4eb7f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

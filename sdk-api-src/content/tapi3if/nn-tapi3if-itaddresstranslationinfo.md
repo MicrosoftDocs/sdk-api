@@ -4,7 +4,7 @@ title: ITAddressTranslationInfo
 author: windows-sdk-content
 description: Used to determine the address translation data.
 old-location: tapi3\itaddresstranslationinfo.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b59454a0-315f-4160-b969-d930c13bb4de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

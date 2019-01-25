@@ -4,7 +4,7 @@ title: ITAgent::get_ID
 author: windows-sdk-content
 description: The get_ID method gets an agent's ID.
 old-location: tapi3\itagent_get_id.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: e5045dd7-5a12-415e-b68a-f483f77f4887
 ms.author: windowssdkdev
 ms.date: 12/5/2018

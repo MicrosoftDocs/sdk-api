@@ -4,7 +4,7 @@ title: ITCallNotificationEvent::get_CallbackInstance
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with this event.
 old-location: tapi3\itcallnotificationevent_get_callbackinstance.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: daa6d980-49aa-4e5a-9871-77e39dcdb6f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITCallHub::EnumerateCalls
 author: windows-sdk-content
 description: The EnumerateCalls method enumerates calls currently associated with the call hub. This method is provided for C and C++ applications. Automation client applications, such as those written in Visual Basic, must use the get_Calls method.
 old-location: tapi3\itcallhub_enumeratecalls.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: becacf70-0ae7-419c-a53f-c6172278d29f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

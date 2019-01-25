@@ -4,7 +4,7 @@ title: ITStream::StopStream
 author: windows-sdk-content
 description: The StopStream method stops the stream.
 old-location: tapi3\itstream_stopstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 6014e76e-ce2c-4ab8-b6f2-c09fc2acf315
 ms.author: windowssdkdev
 ms.date: 12/5/2018

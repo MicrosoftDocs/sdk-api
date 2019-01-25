@@ -4,7 +4,7 @@ title: ITCallHub::get_State
 author: windows-sdk-content
 description: The get_State method gets the current state of the CallHub.
 old-location: tapi3\itcallhub_get_state.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0ca4bbad-6822-4a8b-8df4-da6e630752f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

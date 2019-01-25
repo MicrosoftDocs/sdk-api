@@ -4,7 +4,7 @@ title: ITDispatchMapper
 author: windows-sdk-content
 description: The ITDispatchMapper interface allows an application to retrieve the dispatch pointer of another interface on an object, given the dispatch pointer of one interface and the GUID of another.
 old-location: tapi3\itdispatchmapper.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 65286ea6-b9a6-423b-9833-2d41ef2fd8de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

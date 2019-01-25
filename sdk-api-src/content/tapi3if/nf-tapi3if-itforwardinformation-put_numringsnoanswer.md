@@ -4,7 +4,7 @@ title: ITForwardInformation::put_NumRingsNoAnswer
 author: windows-sdk-content
 description: The put_NumRingsNoAnswer method sets the number of rings after which a no answer condition is assumed.
 old-location: tapi3\itforwardinformation_put_numringsnoanswer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ad7b2746-cb97-406e-a328-efc051681aa6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITForwardInformation2::SetForwardType2
 author: windows-sdk-content
 description: The SetForwardType2 method sets the current forwarding mode, specified by caller address.
 old-location: tapi3\itforwardinformation2_setforwardtype2.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 774b91e8-b7f9-47b5-bbd9-025b03429b14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

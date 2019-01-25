@@ -4,7 +4,7 @@ title: ITSubStream::get_Terminals
 author: windows-sdk-content
 description: The get_Terminals method creates a collection of terminals associated with the current substream. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateTerminals method.
 old-location: tapi3\itsubstream_get_terminals.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 100854aa-78de-4395-9081-3b1f845c254c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

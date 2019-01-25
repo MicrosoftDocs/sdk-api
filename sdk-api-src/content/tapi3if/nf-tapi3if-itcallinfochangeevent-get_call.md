@@ -4,7 +4,7 @@ title: ITCallInfoChangeEvent::get_Call
 author: windows-sdk-content
 description: The get_Call method returns the ITCallInfo interface on which call information has changed.
 old-location: tapi3\itcallinfochangeevent_get_call.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ee6c4f2f-e53c-4eae-b86c-2849395cca74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

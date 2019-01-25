@@ -4,7 +4,7 @@ title: ITRendezvous
 author: windows-sdk-content
 description: The ITRendezvous interface is the main interface for the Rendezvous control. An application calls the COM CoCreateInstance function on this interface to create the Rendezvous object.
 old-location: tapi3\itrendezvous.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ea8b0a66-b968-4a24-95db-e702d49a2870
 ms.author: windowssdkdev
 ms.date: 12/5/2018

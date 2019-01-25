@@ -4,7 +4,7 @@ title: ITSubStreamControl::CreateSubStream
 author: windows-sdk-content
 description: The CreateSubStream method creates a substream.
 old-location: tapi3\itsubstreamcontrol_createsubstream.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 00fe0f8f-c814-4ae6-a60b-c58f3dc60b67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

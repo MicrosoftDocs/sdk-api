@@ -4,7 +4,7 @@ title: ITBasicCallControl::Finish
 author: windows-sdk-content
 description: The Finish method is called on a consultation call to finish a conference or a transfer.
 old-location: tapi3\itbasiccallcontrol_finish.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 3b0bd871-b618-4c24-a717-62a248112d97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

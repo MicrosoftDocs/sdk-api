@@ -4,7 +4,7 @@ title: ITPhone
 author: windows-sdk-content
 description: The ITPhone interface is the main interface for the new Phone objects in the TAPI 3.1 object model.
 old-location: tapi3\itphone.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 94dff33c-67a1-4df8-9ef5-2b6524438f6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ITTerminal::get_Name
 author: windows-sdk-content
 description: The get_Name method gets a descriptive name of the terminal. The name must be usable to the user.
 old-location: tapi3\itterminal_get_name.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ad3a44ff-ad63-4fd0-9cfd-c97c0cea6162
 ms.author: windowssdkdev
 ms.date: 12/5/2018

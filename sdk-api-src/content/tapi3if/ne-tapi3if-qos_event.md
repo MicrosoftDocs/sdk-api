@@ -4,7 +4,7 @@ title: QOS_EVENT
 author: windows-sdk-content
 description: The QOS_EVENT enum describes quality of service (QOS) events. The ITQOSEvent::get_Event method returns a member of this enum to indicate the type of QOS event that occurred.
 old-location: tapi3\qos_event.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8bf4bfdc-6327-497d-9d19-4771d47982bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumCall::Reset
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcall_reset.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 9aa41bab-c575-440b-b1ff-bdbdde68da36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

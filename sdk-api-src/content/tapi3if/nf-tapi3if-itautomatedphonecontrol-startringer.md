@@ -4,7 +4,7 @@ title: ITAutomatedPhoneControl::StartRinger
 author: windows-sdk-content
 description: The StartRinger method starts the phone's ringer, specifying the ring mode and the duration of the ring.
 old-location: tapi3\itautomatedphonecontrol_startringer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: bf94aab7-6b12-43f8-b49f-a7cf6617dd57
 ms.author: windowssdkdev
 ms.date: 12/5/2018

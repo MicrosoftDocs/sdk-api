@@ -4,7 +4,7 @@ title: ITLegacyCallMediaControl::GetID
 author: windows-sdk-content
 description: The GetID method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol_getid.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 7516f929-d782-499b-a9fb-24c44a85aa9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

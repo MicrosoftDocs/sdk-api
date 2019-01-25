@@ -4,7 +4,7 @@ title: ITScriptableAudioFormat::get_AvgBytesPerSec
 author: windows-sdk-content
 description: The get_AvgBytesPerSec method returns the value for the nAvgBytesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_avgbytespersec.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: fe54e1a5-ff8f-486d-90ba-3c7fc595ec1d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

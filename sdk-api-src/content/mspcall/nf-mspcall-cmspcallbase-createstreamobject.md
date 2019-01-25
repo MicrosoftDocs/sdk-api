@@ -4,7 +4,7 @@ title: CMSPCallBase::CreateStreamObject
 author: windows-sdk-content
 description: The CreateStreamObject method is called by InternalCreateStream.
 old-location: tapi3\cmspcallbase_createstreamobject.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: ac98dd08-4250-40f6-91a8-e1f67b94b51f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

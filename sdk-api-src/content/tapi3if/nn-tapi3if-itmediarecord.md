@@ -4,7 +4,7 @@ title: ITMediaRecord
 author: windows-sdk-content
 description: The ITMediaRecord interface provides recording-specific methods that allow an application to set and get the names of files to record.
 old-location: tapi3\itmediarecord.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 604b0128-1461-40f2-98fe-801dbb71e005
 ms.author: windowssdkdev
 ms.date: 12/5/2018

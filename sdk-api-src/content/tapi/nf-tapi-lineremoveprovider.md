@@ -4,7 +4,7 @@ title: lineRemoveProvider function
 author: windows-sdk-content
 description: The lineRemoveProvider function removes an existing telephony service provider from the telephony system.
 old-location: tapi2\lineremoveprovider.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8398a869-bc64-490a-bdb2-496582a88d84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

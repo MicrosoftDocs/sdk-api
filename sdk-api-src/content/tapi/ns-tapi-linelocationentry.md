@@ -4,7 +4,7 @@ title: LINELOCATIONENTRY
 author: windows-sdk-content
 description: Describes a location used to provide an address translation context.
 old-location: tapi2\linelocationentry_str.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8b4357d8-6dc9-4fc8-b164-79675ac71870
 ms.author: windowssdkdev
 ms.date: 12/5/2018

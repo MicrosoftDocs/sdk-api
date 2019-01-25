@@ -4,7 +4,7 @@ title: lineAnswer function
 author: windows-sdk-content
 description: The lineAnswer function answers the specified offering call.
 old-location: tapi2\lineanswer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: dd51991c-c044-4b88-8f97-9e0ae701a2a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

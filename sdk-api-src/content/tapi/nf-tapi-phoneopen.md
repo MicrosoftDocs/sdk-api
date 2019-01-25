@@ -4,7 +4,7 @@ title: phoneOpen function
 author: windows-sdk-content
 description: The phoneOpen function opens the specified phone device.
 old-location: tapi2\phoneopen.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8fba6d5e-0d8c-488f-a17c-4852b487e300
 ms.author: windowssdkdev
 ms.date: 12/5/2018

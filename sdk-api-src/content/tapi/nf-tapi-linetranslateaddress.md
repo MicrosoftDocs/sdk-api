@@ -4,7 +4,7 @@ title: lineTranslateAddress function
 author: windows-sdk-content
 description: The lineTranslateAddress function translates the specified address into another format.
 old-location: tapi2\linetranslateaddress.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 0347d526-9596-4b42-8075-07318bf39634
 ms.author: windowssdkdev
 ms.date: 12/5/2018

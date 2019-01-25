@@ -4,7 +4,7 @@ title: PHONECAPS_BUFFER
 author: windows-sdk-content
 description: The PHONECAPS_BUFFER enum is used by methods that set or get phone capabilities described by a buffer.
 old-location: tapi3\phonecaps_buffer.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 208efd60-58b2-4d0a-b757-29b1db017195
 ms.author: windowssdkdev
 ms.date: 12/5/2018

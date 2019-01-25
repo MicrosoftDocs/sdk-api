@@ -4,7 +4,7 @@ title: ITFileTrack::put_AudioFormatForScripting
 author: windows-sdk-content
 description: The put_AudioFormatForScripting method sets the audio scripting format.
 old-location: tapi3\itfiletrack_put_audioformatforscripting.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: a5ec8ede-8801-418d-9264-415b78abb336
 ms.author: windowssdkdev
 ms.date: 12/5/2018

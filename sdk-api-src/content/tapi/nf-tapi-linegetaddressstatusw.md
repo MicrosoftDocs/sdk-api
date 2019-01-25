@@ -4,7 +4,7 @@ title: lineGetAddressStatusW function
 author: windows-sdk-content
 description: The lineGetAddressStatus function allows an application to query the specified address for its current status.
 old-location: tapi2\linegetaddressstatus.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 8d747aa5-05cc-4426-9d46-24bce6b4af26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

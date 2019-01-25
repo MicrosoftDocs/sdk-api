@@ -4,7 +4,7 @@ title: ITCustomTone::put_CadenceOff
 author: windows-sdk-content
 description: The put_CadenceOff method sets the &#0034;off&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_put_cadenceoff.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 056e1ca5-2bce-4a69-9b30-2ac142bcb52b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

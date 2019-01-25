@@ -4,7 +4,7 @@ title: ITPrivateEvent::get_CallHub
 author: windows-sdk-content
 description: The get_CallHub method returns a pointer to the ITCallHub interface on which the event occurred.
 old-location: tapi3\itprivateevent_get_callhub.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: c69f0c96-134f-4b78-91dc-44339aa06a98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMcastScope
 author: windows-sdk-content
 description: The IMcastScope interface is obtained by calling IMcastAddressAllocation::EnumerateScopes or IMcastAddressAllocation::get_Scopes.
 old-location: tapi3\imcastscope.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
 ms.author: windowssdkdev
 ms.date: 12/5/2018

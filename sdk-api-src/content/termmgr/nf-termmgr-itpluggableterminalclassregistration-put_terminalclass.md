@@ -4,7 +4,7 @@ title: ITPluggableTerminalClassRegistration::put_TerminalClass
 author: windows-sdk-content
 description: The put_TerminalClass method sets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassregistration_put_terminalclass.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: 257adef8-f578-4c8c-9fe9-df59572b7f6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

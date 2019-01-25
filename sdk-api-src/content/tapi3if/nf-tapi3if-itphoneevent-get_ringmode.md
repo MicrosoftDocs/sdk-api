@@ -4,7 +4,7 @@ title: ITPhoneEvent::get_RingMode
 author: windows-sdk-content
 description: The get_RingMode method returns a long value specifying the ring mode to which the phone has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_RINGMODE.
 old-location: tapi3\itphoneevent_get_ringmode.htm
-tech.root: tapi
+tech.root: Tapi
 ms.assetid: cd43ce66-bcbf-4863-87cc-db10dd81ba99
 ms.author: windowssdkdev
 ms.date: 12/5/2018
