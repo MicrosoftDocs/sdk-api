@@ -12,9 +12,7 @@ tech.root: amsi
 
 # Amsi.h header
 
-
 ## -description
-
 
 This header is used by Antimalware Scan Interface. For more information, see:
 
