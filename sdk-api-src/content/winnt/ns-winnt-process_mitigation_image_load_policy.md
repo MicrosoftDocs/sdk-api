@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_IMAGE_LOAD_POLICY
 author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of images from a remote device.
 old-location: base\process_mitigation_image_load_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: C5B414D0-C209-4669-9E02-D7E453E242B1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetProcessorSystemCycleTime function
 author: windows-sdk-content
 description: Retrieves the cycle time each processor in the specified processor group spent executing deferred procedure calls (DPCs) and interrupt service routines (ISRs) since the processor became active.
 old-location: base\getprocessorsystemcycletime.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 231c2a26-4a2e-4c66-a652-eb9c886369b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

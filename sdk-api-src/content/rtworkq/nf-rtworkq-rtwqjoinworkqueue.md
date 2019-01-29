@@ -4,7 +4,7 @@ title: RtwqJoinWorkQueue function
 author: windows-sdk-content
 description: Associates a work queue with an input/output (I/O) handle.
 old-location: base\rtwqjoinworkqueue.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: c7762a10-269e-48c0-83da-7e040cf9d083
 ms.author: windowssdkdev
 ms.date: 12/5/2018

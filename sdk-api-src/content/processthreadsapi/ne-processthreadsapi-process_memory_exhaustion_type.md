@@ -4,7 +4,7 @@ title: PROCESS_MEMORY_EXHAUSTION_TYPE
 author: windows-sdk-content
 description: Represents the different memory exhaustion types.
 old-location: base\process_memory_exhaustion_type.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 0A5B6B4D-B2FF-4873-85E0-3CCB3EA3BF91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

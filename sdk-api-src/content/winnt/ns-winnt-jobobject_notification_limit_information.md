@@ -4,7 +4,7 @@ title: JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
 author: windows-sdk-content
 description: Contains information about notification limits for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNotificationLimitInformation information class.
 old-location: base\jobobject_notification_limit_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 39cf5f26-dfc1-4f1d-aae4-5f29e277834f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

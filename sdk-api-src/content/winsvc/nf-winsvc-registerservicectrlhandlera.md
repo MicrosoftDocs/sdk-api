@@ -4,7 +4,7 @@ title: RegisterServiceCtrlHandlerA function
 author: windows-sdk-content
 description: Registers a function to handle service control requests.
 old-location: base\registerservicectrlhandler.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 31ec28fe-8774-48fc-91ba-6fa43108e2cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

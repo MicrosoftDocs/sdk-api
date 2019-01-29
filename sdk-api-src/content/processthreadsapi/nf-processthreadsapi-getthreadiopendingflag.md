@@ -4,7 +4,7 @@ title: GetThreadIOPendingFlag function
 author: windows-sdk-content
 description: Determines whether a specified thread has any I/O requests pending.
 old-location: base\getthreadiopendingflag.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5502f735-38f5-44a4-908d-1b421ee66aec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

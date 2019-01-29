@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_DYNAMIC_CODE_POLICY
 author: windows-sdk-content
 description: Contains process mitigation policy settings for restricting dynamic code generation and modification.
 old-location: base\process_mitigation_dynamic_code_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 7BEFC437-FFE4-4971-8D99-E31D102376D4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

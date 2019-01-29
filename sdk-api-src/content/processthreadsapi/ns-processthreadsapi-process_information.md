@@ -4,7 +4,7 @@ title: PROCESS_INFORMATION
 author: windows-sdk-content
 description: Contains information about a newly created process and its primary thread. It is used with the CreateProcess, CreateProcessAsUser, CreateProcessWithLogonW, or CreateProcessWithTokenW function.
 old-location: base\process_information_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 78d84499-7e56-4ff7-a8cd-1cf1b275597a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

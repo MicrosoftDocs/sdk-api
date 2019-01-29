@@ -4,7 +4,7 @@ title: StartServiceA function
 author: windows-sdk-content
 description: Starts a service.
 old-location: base\startservice.htm
-tech.root: services
+tech.root: Services
 ms.assetid: f185a878-e1c3-4fe5-8ec9-c5296d27f985
 ms.author: windowssdkdev
 ms.date: 12/5/2018

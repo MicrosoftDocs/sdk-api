@@ -4,7 +4,7 @@ title: DispatcherQueueOptions
 author: windows-sdk-content
 description: Specifies the threading and apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueueoptions.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: F9AF7DDE-13EB-43DB-BAD5-61A6ABD9307D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

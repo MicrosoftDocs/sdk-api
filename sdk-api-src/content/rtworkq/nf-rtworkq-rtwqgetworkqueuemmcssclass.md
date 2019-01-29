@@ -4,7 +4,7 @@ title: RtwqGetWorkQueueMMCSSClass function
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
 old-location: base\rtwqgetworkqueuemmcssclass.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1fea099d-33cd-4edd-aa6c-026a0e3478e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

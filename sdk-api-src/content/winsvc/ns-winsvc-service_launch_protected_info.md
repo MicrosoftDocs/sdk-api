@@ -4,7 +4,7 @@ title: SERVICE_LAUNCH_PROTECTED_INFO
 author: windows-sdk-content
 description: Indicates a service protection type.
 old-location: base\service_launch_protected_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: ECD44E9F-BE48-4038-94B4-37C8CA5C89F7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

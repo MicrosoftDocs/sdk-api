@@ -4,7 +4,7 @@ title: SetProcessAffinityUpdateMode function
 author: windows-sdk-content
 description: Sets the affinity update mode of the specified process.
 old-location: base\setprocessaffinityupdatemode.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: StartServiceCtrlDispatcherA function
 author: windows-sdk-content
 description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.
 old-location: base\startservicectrldispatcher.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 8e275eb7-a8af-4bd7-bb39-0eac4f3735ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

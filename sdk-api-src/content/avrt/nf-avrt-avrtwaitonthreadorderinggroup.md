@@ -4,7 +4,7 @@ title: AvRtWaitOnThreadOrderingGroup function
 author: windows-sdk-content
 description: Enables client threads of a thread ordering group to wait until they should execute.
 old-location: base\avrtwaitonthreadorderinggroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 11318ce3-d938-4bb5-adb1-28dd15e8cd80
 ms.author: windowssdkdev
 ms.date: 12/5/2018

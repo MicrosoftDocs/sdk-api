@@ -4,7 +4,7 @@ title: GetEnvironmentVariable function
 author: windows-sdk-content
 description: Retrieves the contents of the specified variable from the environment block of the calling process.
 old-location: base\getenvironmentvariable.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1d4cc328-12e6-4aae-9f58-58675116ad54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

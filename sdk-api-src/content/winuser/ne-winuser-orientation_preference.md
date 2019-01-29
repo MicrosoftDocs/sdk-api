@@ -4,7 +4,7 @@ title: ORIENTATION_PREFERENCE
 author: windows-sdk-content
 description: Indicates the screen orientation preference for a desktop app process.
 old-location: base\orientation_preference.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 7399DD9F-F993-40CC-B9C6-20673D39C069
 ms.author: windowssdkdev
 ms.date: 12/5/2018

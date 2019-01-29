@@ -4,7 +4,7 @@ title: ControlService function
 author: windows-sdk-content
 description: Sends a control code to a service.
 old-location: base\controlservice.htm
-tech.root: services
+tech.root: Services
 ms.assetid: c112b587-7455-4f15-93e1-ded73de6dbbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

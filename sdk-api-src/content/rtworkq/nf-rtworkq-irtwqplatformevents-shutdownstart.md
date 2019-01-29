@@ -4,7 +4,7 @@ title: IRtwqPlatformEvents::ShutdownStart
 author: windows-sdk-content
 description: Called before the platform is about to shutdown.
 old-location: base\irtwqplatformevents_shutdownstart.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: B2D3F35E-B859-4735-A11C-B3CB6ACD81EC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

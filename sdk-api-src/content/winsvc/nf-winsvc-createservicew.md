@@ -4,7 +4,7 @@ title: CreateServiceW function
 author: windows-sdk-content
 description: Creates a service object and adds it to the specified service control manager database.
 old-location: base\createservice.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 47288924-3294-4a50-b27d-7df80d5c957c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

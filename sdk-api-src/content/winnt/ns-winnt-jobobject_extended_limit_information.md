@@ -4,7 +4,7 @@ title: JOBOBJECT_EXTENDED_LIMIT_INFORMATION
 author: windows-sdk-content
 description: Contains basic and extended limit information for a job object.
 old-location: base\jobobject_extended_limit_information_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5712fd27-6489-4fdc-b69b-4fb6a7c52c02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

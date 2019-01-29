@@ -4,7 +4,7 @@ title: InitializeProcThreadAttributeList function
 author: windows-sdk-content
 description: Initializes the specified list of attributes for process and thread creation.
 old-location: base\initializeprocthreadattributelist.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 58ce70a1-5b73-429f-a062-bacd9b9c5bc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

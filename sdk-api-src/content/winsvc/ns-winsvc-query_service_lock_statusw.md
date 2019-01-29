@@ -4,7 +4,7 @@ title: QUERY_SERVICE_LOCK_STATUSW
 author: windows-sdk-content
 description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function.
 old-location: base\query_service_lock_status_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: de9797b7-02b0-43cb-bed3-50b7e8676f36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

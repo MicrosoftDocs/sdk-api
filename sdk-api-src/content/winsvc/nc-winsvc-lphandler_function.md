@@ -4,7 +4,7 @@ title: LPHANDLER_FUNCTION
 author: windows-sdk-content
 description: An application-defined callback function used with the RegisterServiceCtrlHandler function. A service program can use it as the control handler function of a particular service.
 old-location: base\handler.htm
-tech.root: services
+tech.root: Services
 ms.assetid: e2d6d3a7-070e-4343-abd7-b4b9f8dd6fbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

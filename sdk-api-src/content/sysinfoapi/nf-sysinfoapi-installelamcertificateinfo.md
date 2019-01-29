@@ -4,7 +4,7 @@ title: InstallELAMCertificateInfo function
 author: windows-sdk-content
 description: Installs the certificate information specified in the resource file, which is linked into the ELAM driver at build time.
 old-location: base\installelamcertificateinfo.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 0EF40169-A078-4B1E-96EC-5390C75639F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

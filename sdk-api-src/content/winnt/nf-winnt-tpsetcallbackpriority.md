@@ -4,7 +4,7 @@ title: TpSetCallbackPriority function
 author: windows-sdk-content
 description: Specifies the priority of a callback function relative to other work items in the same thread pool.
 old-location: base\tpsetcallbackpriority.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 3A2DA8CA-D5F2-442A-B152-11AB28681B5B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

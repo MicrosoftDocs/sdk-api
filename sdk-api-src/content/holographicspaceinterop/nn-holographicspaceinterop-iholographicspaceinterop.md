@@ -7,7 +7,7 @@ old-location: mixedreality\iholographicspaceinterop.htm
 tech.root: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 01/25/2019
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
 ms.topic: interface
 req.header: holographicspaceinterop.h
@@ -44,28 +44,20 @@ req.redist:
 
 # IHolographicSpaceInterop interface
 
-
 ## -description
 
+Enables interoperability with a Univeral Windows Platform (UWP) [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and provides access to **HolographicSpace** members for representing a holographic scene.
 
-[ 
-        Updated for UWP apps on Windows 10. For Windows 8.x articles, see the
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=619132">archive</a> ]
+## -members
 
-Enables interoperability with a Universal Windows Platform (UWP) <a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">HolographicSpace</a> object and provides access to HolographicSpace members for representing a holographic scene.
+The **ISpatialInteractionManagerInterop** interface has these methods.
 
+|Method|Description|
+|-|-|
+|[CreateForWindow](nf-holographicspaceinterop-iholographicspaceinterop-createforwindow.md)|Instantiates a [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) object, and binds it to the current application.|
 
 ## -see-also
 
-
-
-
-<a href="https://developer.microsoft.com/windows/mixed-reality">Mixed Reality Dev Center</a>
-
-
-
-<a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">WinRT reference documentation</a>
- 
-
- 
-
+* [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace)
+* [Mixed Reality Dev Center](/windows/mixed-reality)
+* [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic)

@@ -4,7 +4,7 @@ title: RtwqUnjoinWorkQueue function
 author: windows-sdk-content
 description: Disassociates a work queue from an input/output (I/O) handle.
 old-location: base\rtwqunjoinworkqueue.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 360f595a-ee9b-4979-a763-6d7cbf31d2ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: PFLS_CALLBACK_FUNCTION
 author: windows-sdk-content
 description: An application-defined function. If the FLS slot is in use, FlsCallback is called on fiber deletion, thread exit, and when an FLS index is freed.
 old-location: base\flscallback.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d05a6550-7fec-44e6-9b38-dfafff7895c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

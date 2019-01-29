@@ -4,7 +4,7 @@ title: SERVICE_CONTROL_STATUS_REASON_PARAMSW
 author: windows-sdk-content
 description: Contains service control parameters.
 old-location: base\service_control_status_reason_params.htm
-tech.root: services
+tech.root: Services
 ms.assetid: f7213cbb-255f-4ce3-93c9-5537256e078f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

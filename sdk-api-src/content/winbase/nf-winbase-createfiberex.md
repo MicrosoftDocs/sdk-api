@@ -4,7 +4,7 @@ title: CreateFiberEx function
 author: windows-sdk-content
 description: Allocates a fiber object, assigns it a stack, and sets up execution to begin at the specified start address, typically the fiber function. This function does not schedule the fiber.
 old-location: base\createfiberex.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: eb27cfcf-6086-47df-a5b4-93c51a5e1577
 ms.author: windowssdkdev
 ms.date: 12/5/2018

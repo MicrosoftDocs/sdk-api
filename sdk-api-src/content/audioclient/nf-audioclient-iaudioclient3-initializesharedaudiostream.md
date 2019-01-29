@@ -269,6 +269,24 @@ Out of memory.
 Unlike <a href="https://msdn.microsoft.com/eb778503-06f8-4705-9f8d-9a4fd886ae27">IAudioClient::Initialize</a>, this method does not allow you to specify a  buffer size. The buffer size is computed based on the periodicity requested with the <i>PeriodInFrames</i> parameter. It is the client app's responsibility
     to ensure that audio samples are transferred in and out of the buffer in a timely manner. 
 
+Audio clients should check for allowed values for the <i>PeriodInFrames</i> parameter by calling <a href="https://msdn.microsoft.com/41ED045F-0C47-40BE-9ECD-6A925E166E6D">IAudioClient3::GetSharedModeEnginePeriod</a>. The value of <i>PeriodInFrames</i> must be an integral multiple of the value returned in the <i>pFundamentalPeriodInFrames</i> parameter.  <i>PeriodInFrames</i> must also be greater than or equal to the value returned in <i>pMinPeriodInFrames</i> and less than or equal to the value of <i>pMaxPeriodInFrames</i>.
+
+For example, for a 44100 kHz format, <b>GetSharedModeEnginePeriod</b> might return:
+
+
+
+
+
+
+
+<i>pDefaultPeriodInFrames</i>
+<i>pFundamentalPeriodInFrames</i>
+<i>pMinPeriodInFrames</i>
+<i>pMaxPeriodInFrames</i>
+Allowed values for the <i>PeriodInFrames</i> parameter to <b>InitializeSharedAudioStream</b> would include 48 and 448. They would also include things like 96 and 128.
+
+They would NOT include 4 (which is smaller than the minimum allowed value) or 98 (which is not a multiple of the fundamental) or 1000 (which is larger than the maximum allowed value).
+
 
 
 

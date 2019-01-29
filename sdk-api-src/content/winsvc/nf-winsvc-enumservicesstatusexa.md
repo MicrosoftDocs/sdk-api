@@ -4,7 +4,7 @@ title: EnumServicesStatusExA function
 author: windows-sdk-content
 description: Enumerates services in the specified service control manager database. The name and status of each service are provided, along with additional data based on the specified information level.
 old-location: base\enumservicesstatusex.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 7d7940c3-b562-455f-9a21-6d5fb5953030
 ms.author: windowssdkdev
 ms.date: 12/5/2018

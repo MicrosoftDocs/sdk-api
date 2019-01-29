@@ -4,7 +4,7 @@ title: GROUP_AFFINITY
 author: windows-sdk-content
 description: Represents a processor group-specific affinity, such as the affinity of a thread.
 old-location: base\group_affinity.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 76009431-9139-4c03-9c7b-0c4bb5f0cb83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

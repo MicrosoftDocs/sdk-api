@@ -4,7 +4,7 @@ title: ControlServiceExW function
 author: windows-sdk-content
 description: Sends a control code to a service.
 old-location: base\controlserviceex.htm
-tech.root: services
+tech.root: Services
 ms.assetid: de249903-7545-4fb6-925a-aa647f862f93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

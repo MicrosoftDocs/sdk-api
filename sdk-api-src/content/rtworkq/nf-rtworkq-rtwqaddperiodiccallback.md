@@ -4,7 +4,7 @@ title: RtwqAddPeriodicCallback function
 author: windows-sdk-content
 description: Sets a callback function to be called at a fixed interval.
 old-location: base\rtwqaddperiodiccallback.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5f472e42-7c62-462a-91a8-240c395ad765
 ms.author: windowssdkdev
 ms.date: 12/5/2018

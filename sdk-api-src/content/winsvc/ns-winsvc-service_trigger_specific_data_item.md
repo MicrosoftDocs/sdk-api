@@ -4,7 +4,7 @@ title: SERVICE_TRIGGER_SPECIFIC_DATA_ITEM
 author: windows-sdk-content
 description: Contains trigger-specific data for a service trigger event.
 old-location: base\service_trigger_specific_data_item.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 670e6c49-bbc0-4af6-9e47-6c89801ebb45
 ms.author: windowssdkdev
 ms.date: 12/5/2018

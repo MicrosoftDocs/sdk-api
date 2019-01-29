@@ -4,7 +4,7 @@ title: SERVICE_PREFERRED_NODE_INFO
 author: windows-sdk-content
 description: Represents the preferred node on which to run a service.
 old-location: base\service_preferred_node_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: aa16cc56-0a95-47e0-9390-c219b83aeeb4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

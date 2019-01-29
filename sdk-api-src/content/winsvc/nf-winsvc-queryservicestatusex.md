@@ -4,7 +4,7 @@ title: QueryServiceStatusEx function
 author: windows-sdk-content
 description: Retrieves the current status of the specified service based on the specified information level.
 old-location: base\queryservicestatusex.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 3fe02245-97b1-49f3-8f35-2dcd6f221547
 ms.author: windowssdkdev
 ms.date: 12/5/2018

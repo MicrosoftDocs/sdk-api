@@ -4,7 +4,7 @@ title: QueryServiceConfig2W function
 author: windows-sdk-content
 description: Retrieves the optional configuration parameters of the specified service.
 old-location: base\queryserviceconfig2.htm
-tech.root: services
+tech.root: Services
 ms.assetid: cb090e59-aeff-4420-bb7c-912a4911006f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

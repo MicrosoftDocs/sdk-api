@@ -4,11 +4,11 @@ title: SERVICE_NOTIFY_2A
 author: windows-sdk-content
 description: Represents service status notification information.
 old-location: base\service_notify.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 52ede72e-eb50-48e2-b5c1-125816f6fe57
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: "*PSERVICE_NOTIFYA, *PSERVICE_NOTIFY_2A, PFN_SC_NOTIFY_CALLBACK, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2A, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW"
+ms.keywords: "*PSERVICE_NOTIFYA, *PSERVICE_NOTIFY_2A, PSERVICE_NOTIFY, PSERVICE_NOTIFY structure pointer, SERVICE_NOTIFY, SERVICE_NOTIFY structure, SERVICE_NOTIFYA, SERVICE_NOTIFYW, SERVICE_NOTIFY_2, SERVICE_NOTIFY_2A, base.service_notify, winsvc/PSERVICE_NOTIFY, winsvc/SERVICE_NOTIFY, winsvc/SERVICE_NOTIFYA, winsvc/SERVICE_NOTIFYW"
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h

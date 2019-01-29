@@ -4,7 +4,7 @@ title: PROCESS_PROTECTION_LEVEL_INFORMATION
 author: windows-sdk-content
 description: Specifies whether Protected Process Light (PPL) is enabled.
 old-location: base\process_protection_level_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: E2A99AB0-33F1-4AF5-A05B-31D0929D9B4B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

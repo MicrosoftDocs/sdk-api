@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY
 author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of images depending on the signatures for the image.
 old-location: base\process_mitigation_binary_signature_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 581D6D0C-0480-45A1-9C76-2A269C46D27B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

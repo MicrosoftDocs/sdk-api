@@ -4,7 +4,7 @@ title: JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 author: windows-sdk-content
 description: Contains information used to control the I/O rate for a job. This structure is used by the SetIoRateControlInformationJobObject and QueryIoRateControlInformationJobObject functions.
 old-location: base\jobobject_io_rate_control_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: E4AA03B5-4D83-4826-B85D-FA4B412AFEBF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

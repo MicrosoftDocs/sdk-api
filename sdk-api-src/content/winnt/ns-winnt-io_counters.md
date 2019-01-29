@@ -4,7 +4,7 @@ title: IO_COUNTERS
 author: windows-sdk-content
 description: Contains I/O accounting information for a process or a job object.
 old-location: base\io_counters_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 78729cbe-5256-4939-a7cc-c393662f8361
 ms.author: windowssdkdev
 ms.date: 12/5/2018

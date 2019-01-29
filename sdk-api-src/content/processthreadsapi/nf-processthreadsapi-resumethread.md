@@ -4,7 +4,7 @@ title: ResumeThread function
 author: windows-sdk-content
 description: Decrements a thread's suspend count. When the suspend count is decremented to zero, the execution of the thread is resumed.
 old-location: base\resumethread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: ffc4e474-635b-4bf7-a68f-073899fb3fde
 ms.author: windowssdkdev
 ms.date: 12/5/2018

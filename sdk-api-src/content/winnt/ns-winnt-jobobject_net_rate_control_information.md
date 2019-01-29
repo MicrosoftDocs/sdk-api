@@ -4,7 +4,7 @@ title: JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 author: windows-sdk-content
 description: Contains information used to control the network traffic for a job. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNetRateControlInformation information class.
 old-location: base\jobobject_net_rate_control_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: CE55BC2A-B27C-490A-9D5A-C18FEC09638C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

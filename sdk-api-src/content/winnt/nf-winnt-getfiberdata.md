@@ -4,7 +4,7 @@ title: GetFiberData function
 author: windows-sdk-content
 description: Retrieves the fiber data associated with the current fiber.
 old-location: base\getfiberdata.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 72e616ce-4188-4944-b627-9681e5fd271e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

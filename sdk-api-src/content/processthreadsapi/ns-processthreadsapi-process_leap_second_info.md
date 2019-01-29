@@ -4,7 +4,7 @@ title: PROCESS_LEAP_SECOND_INFO
 author: windows-sdk-content
 description: Specifies how the system handles positive leap seconds.
 old-location: base\process_leap_second_info.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 63AA6F71-506C-47EA-A7EF-8A8309B84257
 ms.author: windowssdkdev
 ms.date: 12/5/2018

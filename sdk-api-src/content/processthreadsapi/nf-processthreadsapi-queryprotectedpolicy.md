@@ -4,7 +4,7 @@ title: QueryProtectedPolicy function
 author: windows-sdk-content
 description: Queries the value associated with a protected policy.
 old-location: base\queryprotectedpolicy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: A9B37117-DE6A-426C-B554-2178247FD4C8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

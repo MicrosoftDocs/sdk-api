@@ -4,7 +4,7 @@ title: TrySubmitThreadpoolCallback function
 author: windows-sdk-content
 description: Requests that a thread pool worker thread call the specified callback function.
 old-location: base\trysubmitthreadpoolcallback.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 689d197e-195f-419c-9317-b30c614038c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

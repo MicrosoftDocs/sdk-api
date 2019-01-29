@@ -37,6 +37,7 @@ api_location:
  - API-MS-Win-Core-TimeZone-l1-1-0.dll
  - KernelBase.dll
  - MinKernelBase.dll
+ - advapi32.dll
 api_name:
  - GetDynamicTimeZoneInformationEffectiveYears
 product: Windows

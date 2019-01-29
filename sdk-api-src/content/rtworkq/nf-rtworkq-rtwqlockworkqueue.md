@@ -4,7 +4,7 @@ title: RtwqLockWorkQueue function
 author: windows-sdk-content
 description: Locks a work queue.
 old-location: base\rtwqlockworkqueue.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 8befdfea-1a09-4591-97d1-0f20ae7bab7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

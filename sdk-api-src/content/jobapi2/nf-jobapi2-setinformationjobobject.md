@@ -4,7 +4,7 @@ title: SetInformationJobObject function
 author: windows-sdk-content
 description: Sets limits for a job object.
 old-location: base\setinformationjobobject.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 46f7c579-e8d3-4434-a6ce-56573cd84387
 ms.author: windowssdkdev
 ms.date: 12/5/2018

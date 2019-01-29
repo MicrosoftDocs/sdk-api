@@ -4,7 +4,7 @@ title: SetProcessMitigationPolicy function
 author: windows-sdk-content
 description: Sets a mitigation policy for the calling process. Mitigation policies enable a process to harden itself against various types of attacks.
 old-location: base\setprocessmitigationpolicy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 57f364f8-58d7-447a-91c3-51fc1fe1a481
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DeleteUmsThreadContext function
 author: windows-sdk-content
 description: Deletes the specified user-mode scheduling (UMS) thread context. The thread must be terminated.
 old-location: base\deleteumsthreadcontext.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: cdd118fc-f664-44ce-958d-857216ceb9a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

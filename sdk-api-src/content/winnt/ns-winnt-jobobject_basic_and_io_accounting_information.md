@@ -4,7 +4,7 @@ title: JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
 author: windows-sdk-content
 description: Contains basic accounting and I/O accounting information for a job object.
 old-location: base\jobobject_basic_and_io_accounting_information_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5c3e4002-d4d2-4a8c-ab0c-f6bcdd62947a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

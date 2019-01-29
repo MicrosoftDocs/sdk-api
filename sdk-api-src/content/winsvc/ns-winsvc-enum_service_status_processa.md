@@ -4,7 +4,7 @@ title: ENUM_SERVICE_STATUS_PROCESSA
 author: windows-sdk-content
 description: Contains the name of a service in a service control manager database and information about the service. It is used by the EnumServicesStatusEx function.
 old-location: base\enum_service_status_process_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 6a683cc8-c2ac-4093-aed7-33e6bdd02d79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

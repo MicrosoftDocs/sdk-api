@@ -4,7 +4,7 @@ title: SERVICE_FAILURE_ACTIONSW
 author: windows-sdk-content
 description: Represents the action the service controller should take on each failure of a service. A service is considered failed when it terminates without reporting a status of SERVICE_STOPPED to the service controller.
 old-location: base\service_failure_actions_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 180ca6d9-f2c3-4ea1-b2c6-319d08ef88ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

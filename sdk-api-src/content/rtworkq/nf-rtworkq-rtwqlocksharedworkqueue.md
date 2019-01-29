@@ -4,7 +4,7 @@ title: RtwqLockSharedWorkQueue function
 author: windows-sdk-content
 description: Obtains and locks a shared work queue.
 old-location: base\rtwqlocksharedworkqueue.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

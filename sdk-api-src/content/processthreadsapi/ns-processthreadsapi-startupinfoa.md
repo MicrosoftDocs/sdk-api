@@ -4,7 +4,7 @@ title: STARTUPINFOA
 author: windows-sdk-content
 description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
 old-location: base\startupinfo_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

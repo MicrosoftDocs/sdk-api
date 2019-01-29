@@ -4,7 +4,7 @@ title: AvRtCreateThreadOrderingGroup function
 author: windows-sdk-content
 description: Creates a thread ordering group.
 old-location: base\avrtcreatethreadorderinggroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: c334a861-7dd6-4fc9-90ce-5923d053d325
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DeleteFiber function
 author: windows-sdk-content
 description: Deletes an existing fiber.
 old-location: base\deletefiber.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e1a7453a-6878-49dd-831f-1857a489e97f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

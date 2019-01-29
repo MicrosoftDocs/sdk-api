@@ -4,7 +4,7 @@ title: SetThreadPriority function
 author: windows-sdk-content
 description: Sets the priority value for the specified thread. This value, together with the priority class of the thread's process, determines the thread's base priority level.
 old-location: base\setthreadpriority.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e3992e19-b546-4b0b-aa6a-dd9a7e330bf3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

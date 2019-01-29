@@ -4,7 +4,7 @@ title: IsWow64Process2 function
 author: windows-sdk-content
 description: Determines whether the specified process is running under WOW64; also returns additional machine process and architecture information.
 old-location: base\iswow64process2.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 77B4E3C8-F9DE-4674-9CEA-9C81AEEB393C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OpenServiceA function
 author: windows-sdk-content
 description: Opens an existing service.
 old-location: base\openservice.htm
-tech.root: services
+tech.root: Services
 ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
 ms.author: windowssdkdev
 ms.date: 12/5/2018

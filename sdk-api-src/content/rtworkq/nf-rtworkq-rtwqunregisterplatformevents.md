@@ -4,7 +4,7 @@ title: RtwqUnregisterPlatformEvents function
 author: windows-sdk-content
 description: Unregisters a listener event from the callback platform.
 old-location: base\rtwqunregisterplatformevents.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: C1AB42C4-745B-46D6-9A1C-B5FD2443F48B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

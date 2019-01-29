@@ -4,7 +4,7 @@ title: CreateRemoteThread function
 author: windows-sdk-content
 description: Creates a thread that runs in the virtual address space of another process.
 old-location: base\createremotethread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

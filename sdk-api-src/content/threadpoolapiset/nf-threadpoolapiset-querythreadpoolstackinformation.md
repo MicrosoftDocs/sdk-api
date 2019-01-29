@@ -4,7 +4,7 @@ title: QueryThreadpoolStackInformation function
 author: windows-sdk-content
 description: Retrieves the stack reserve and commit sizes for threads in the specified thread pool.
 old-location: base\querythreadpoolstackinformation.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1669dfa7-75bf-4776-bba7-7d03a084a32c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

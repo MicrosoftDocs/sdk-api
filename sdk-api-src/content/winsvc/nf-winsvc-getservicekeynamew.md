@@ -4,7 +4,7 @@ title: GetServiceKeyNameW function
 author: windows-sdk-content
 description: Retrieves the service name of the specified service.
 old-location: base\getservicekeyname.htm
-tech.root: services
+tech.root: Services
 ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

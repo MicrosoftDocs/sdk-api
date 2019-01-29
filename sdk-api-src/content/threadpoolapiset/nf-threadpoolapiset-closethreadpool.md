@@ -4,7 +4,7 @@ title: CloseThreadpool function
 author: windows-sdk-content
 description: Closes the specified thread pool.
 old-location: base\closethreadpool.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 84f673b5-d9b1-4f3d-9ae6-b1ad173268cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

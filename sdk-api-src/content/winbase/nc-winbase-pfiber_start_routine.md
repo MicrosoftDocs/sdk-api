@@ -4,7 +4,7 @@ title: PFIBER_START_ROUTINE
 author: windows-sdk-content
 description: An application-defined function used with the CreateFiber function. It serves as the starting address for a fiber.
 old-location: base\fiberproc.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 368d98f3-1ecd-47a0-98cc-0636f055ae41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

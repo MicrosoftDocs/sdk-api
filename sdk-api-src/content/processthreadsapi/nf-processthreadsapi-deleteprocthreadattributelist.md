@@ -4,7 +4,7 @@ title: DeleteProcThreadAttributeList function
 author: windows-sdk-content
 description: Deletes the specified list of attributes for process and thread creation.
 old-location: base\deleteprocthreadattributelist.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 806326c8-2f1e-4ab8-a6f6-f84763ddc31f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

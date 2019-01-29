@@ -4,7 +4,7 @@ title: GetProcessShutdownParameters function
 author: windows-sdk-content
 description: Retrieves the shutdown parameters for the currently calling process.
 old-location: base\getprocessshutdownparameters.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 68b48e67-c7e0-4434-bef5-b2aaebb343ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

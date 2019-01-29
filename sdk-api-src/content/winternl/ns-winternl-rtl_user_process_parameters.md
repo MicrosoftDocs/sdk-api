@@ -4,7 +4,7 @@ title: RTL_USER_PROCESS_PARAMETERS
 author: windows-sdk-content
 description: Contains process parameter information.
 old-location: base\rtl_user_process_parameters.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991
 ms.author: windowssdkdev
 ms.date: 12/5/2018

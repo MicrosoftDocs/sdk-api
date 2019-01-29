@@ -4,7 +4,7 @@ title: NtQueryInformationThread function
 author: windows-sdk-content
 description: Retrieves information about the specified thread.
 old-location: base\ntqueryinformationthread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

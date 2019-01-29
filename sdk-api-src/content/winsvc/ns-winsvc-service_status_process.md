@@ -4,7 +4,7 @@ title: SERVICE_STATUS_PROCESS
 author: windows-sdk-content
 description: Contains process status information for a service. The ControlServiceEx, EnumServicesStatusEx, NotifyServiceStatusChange, and QueryServiceStatusEx functions use this structure.
 old-location: base\service_status_process_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 303986a0-c51e-4078-a3ca-d59e5a302b36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

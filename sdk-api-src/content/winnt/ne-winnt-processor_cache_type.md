@@ -4,7 +4,7 @@ title: PROCESSOR_CACHE_TYPE
 author: windows-sdk-content
 description: Represents the type of processor cache identified in the corresponding CACHE_DESCRIPTOR structure.
 old-location: base\processor_cache_type.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 23044f67-e944-43c2-8c75-3d2fba87cb3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

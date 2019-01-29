@@ -4,7 +4,7 @@ title: CreateProcessAsUserA function
 author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the user represented by the specified token.
 old-location: base\createprocessasuser.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 6b3f4dd9-500b-420e-804a-401a9e188be8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

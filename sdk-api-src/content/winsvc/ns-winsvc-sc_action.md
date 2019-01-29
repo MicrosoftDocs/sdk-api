@@ -4,7 +4,7 @@ title: SC_ACTION
 author: windows-sdk-content
 description: Represents an action that the service control manager can perform.
 old-location: base\sc_action_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: e2c355a6-affe-46bf-a3e6-f8c420422d46
 ms.author: windowssdkdev
 ms.date: 12/5/2018

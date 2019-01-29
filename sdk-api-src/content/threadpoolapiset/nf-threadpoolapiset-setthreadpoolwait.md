@@ -4,7 +4,7 @@ title: SetThreadpoolWait function
 author: windows-sdk-content
 description: Sets the wait object&#8212;replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
 old-location: base\setthreadpoolwait.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

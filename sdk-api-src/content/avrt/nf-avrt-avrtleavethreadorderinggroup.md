@@ -4,7 +4,7 @@ title: AvRtLeaveThreadOrderingGroup function
 author: windows-sdk-content
 description: Enables client threads to leave a thread ordering group.
 old-location: base\avrtleavethreadorderinggroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: b618c312-0a43-4815-ad32-8820c658dc0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

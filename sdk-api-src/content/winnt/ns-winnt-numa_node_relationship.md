@@ -4,7 +4,7 @@ title: NUMA_NODE_RELATIONSHIP
 author: windows-sdk-content
 description: Represents information about a NUMA node in a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\numa_node_relationship.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: a4e4c994-c4af-4b4f-8684-6037bcba35a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

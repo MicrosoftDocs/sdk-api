@@ -7,7 +7,7 @@ old-location: mixedreality\ispatialinteractionmanager_getforwindow.htm
 tech.root: MixedReality
 ms.assetid: 5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 01/25/2019
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,GetForWindow method, ISpatialInteractionManagerInterop.GetForWindow, ISpatialInteractionManagerInterop::GetForWindow, MixedReality.ispatialinteractionmanager_getforwindow, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow
 ms.topic: method
 req.header: spatialinteractionmanagerinterop.h
@@ -44,73 +44,80 @@ req.redist:
 
 # ISpatialInteractionManagerInterop::GetForWindow
 
-
 ## -description
 
-
-[ 
-        Updated for UWP apps on Windows 10. For Windows 8.x articles, see the
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=619132">archive</a> ]
-
-Retrieves a <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object bound to the active application.
-
+Retrieves a [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object bound to the active application.
 
 ## -parameters
 
-
-
-
 ### -param window [in]
 
-Type: <b>HWND</b>
+Type: [HWND](/windows/desktop/winprog/windows-data-types)
 
 Handle to the window of the active application.
 
-
 ### -param riid [in]
 
-Type: <b>REFIID</b>
+Type: **REFIID**
 
-The GUID of the <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object.
-
+The GUID of the [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object.
 
 ### -param spatialInteractionManager [out]
 
-Type: <b>void</b>
+Type: **void\*\***
 
-Address of a pointer to a <a href="https://docs.microsoft.com/uwp/api/Windows.UI.Input.Spatial.SpatialInteractionManager">SpatialInteractionManager</a> object.
-
+Address of a pointer to a [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) object.
 
 ## -returns
 
+Type: **HRESULT**
 
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-Type: <b>HRESULT</b>
+## -examples
 
-If this function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+This example shows how to retrieve a [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) by using **ISpatialInteractionManagerInterop::GetForWindow** to retrieve the **SpatialInteractionManager** for an [HWND](/windows/desktop/winprog/windows-data-types).
 
-
-
+```cppwinrt
+// This code example depends on these headers.
+// <SpatialInteractionManagerInterop.h>
+// <Windows.UI.Input.Spatial.h>
+// <winrt/Windows.UI.Input.Spatial.h>
+ 
+// Create the window for the HolographicSpace.
+hWnd = CreateWindowW(
+    m_szWindowClass, 
+    m_szTitle,
+    WS_VISIBLE,
+    CW_USEDEFAULT, 
+    0, 
+    CW_USEDEFAULT, 
+    0, 
+    nullptr, 
+    nullptr, 
+    hInstance, 
+    nullptr);
+ 
+if (!hWnd)
+{
+    winrt::check_hresult(E_FAIL);
+}
+ 
+{
+    using namespace winrt::Windows::UI::Input::Spatial;
+    winrt::com_ptr<ISpatialInteractionManagerInterop> spatialInteractionManagerInterop = 
+        winrt::get_activation_factory<SpatialInteractionManager, ISpatialInteractionManagerInterop>();
+ 
+    winrt::com_ptr<ABI::Windows::UI::Input::Spatial::ISpatialInteractionManager> spSpatialInteractionManager;
+    winrt::check_hresult(spatialInteractionManagerInterop->GetForWindow(hWnd, __uuidof(ABI::Windows::UI::Input::Spatial::ISpatialInteractionManager), winrt::put_abi(spSpatialInteractionManager)));
+ 
+    SpatialInteractionManager spatialInteractionManager = spSpatialInteractionManager.as<SpatialInteractionManager>();
+}
+```
 
 ## -see-also
 
-
-
-
-<a href="MixedReality.ispatialinteractionmanager">ISpatialInteractionManager</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/Mt844796(v=WIN.10).aspx">ISpatialInteractionManagerInterop</a>
-
-
-
-<a href="https://developer.microsoft.com/windows/mixed-reality">Mixed Reality Dev Center</a>
-
-
-
-<a href="https://docs.microsoft.com/uwp/api/windows.graphics.holographic.holographicspace">WinRT reference documentation</a>
- 
-
- 
-
+* [ISpatialInteractionManagerInterop](nn-spatialinteractionmanagerinterop-ispatialinteractionmanagerinterop.md)
+* [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager)
+* [Mixed Reality Dev Center](/windows/mixed-reality)
+* [Windows.Graphics.Holographic](/uwp/api/windows.graphics.holographic)

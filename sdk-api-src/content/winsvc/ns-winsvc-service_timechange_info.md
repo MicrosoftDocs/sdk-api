@@ -4,7 +4,7 @@ title: SERVICE_TIMECHANGE_INFO
 author: windows-sdk-content
 description: Contains system time change settings.
 old-location: base\service_timechange_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 452b0678-dfea-4128-9236-273323b519f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

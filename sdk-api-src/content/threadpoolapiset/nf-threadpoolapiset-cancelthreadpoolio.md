@@ -4,7 +4,7 @@ title: CancelThreadpoolIo function
 author: windows-sdk-content
 description: Cancels the notification from the StartThreadpoolIo function.
 old-location: base\cancelthreadpoolio.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

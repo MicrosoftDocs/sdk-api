@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY
 author: windows-sdk-content
 description: Contains process mitigation policy settings for Control Flow Guard (CFG).
 old-location: base\process_mitigation_control_flow_guard_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: AD95D76A-4DDE-4256-B604-15DFD6AD9850
 ms.author: windowssdkdev
 ms.date: 12/5/2018

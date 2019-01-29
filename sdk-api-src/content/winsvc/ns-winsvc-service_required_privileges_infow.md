@@ -4,7 +4,7 @@ title: SERVICE_REQUIRED_PRIVILEGES_INFOW
 author: windows-sdk-content
 description: Represents the required privileges for a service.
 old-location: base\service_required_privileges_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 15a2e042-cfd5-443e-a3b8-822f48eb9654
 ms.author: windowssdkdev
 ms.date: 12/5/2018

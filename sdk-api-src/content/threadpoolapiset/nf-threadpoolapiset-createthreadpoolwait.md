@@ -4,7 +4,7 @@ title: CreateThreadpoolWait function
 author: windows-sdk-content
 description: Creates a new wait object.
 old-location: base\createthreadpoolwait.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: ba19f5f9-d4b0-4865-9609-95e7697d61c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: QUERY_SERVICE_CONFIGA
 author: windows-sdk-content
 description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function.
 old-location: base\query_service_config_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 069c1431-a04b-4e96-953b-14c5c0700857
 ms.author: windowssdkdev
 ms.date: 12/5/2018
