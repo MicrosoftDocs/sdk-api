@@ -4,7 +4,7 @@ title: DISPATCHERQUEUE_THREAD_TYPE
 author: windows-sdk-content
 description: Specifies the thread affinity for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_type.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 72558E7E-0ECB-4641-949F-07C43A6E2507
 ms.author: windowssdkdev
 ms.date: 12/5/2018

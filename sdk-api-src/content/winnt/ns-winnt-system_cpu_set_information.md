@@ -4,7 +4,7 @@ title: SYSTEM_CPU_SET_INFORMATION
 author: windows-sdk-content
 description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.
 old-location: base\system_cpu_set_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 48C38098-C42E-46D0-B938-CBD0BA7F8586
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WaitForInputIdle function
 author: windows-sdk-content
 description: Waits until the specified process has finished processing its initial input and is waiting for user input with no input pending, or until the time-out interval has elapsed.
 old-location: base\waitforinputidle.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 2a684921-36f1-438c-895c-5bebc242635a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

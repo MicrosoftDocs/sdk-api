@@ -4,7 +4,7 @@ title: NotifyServiceStatusChangeW function
 author: windows-sdk-content
 description: Enables an application to receive notification when the specified service is created or deleted or when its status changes.
 old-location: base\notifyservicestatuschange.htm
-tech.root: services
+tech.root: Services
 ms.assetid: e22b7f69-f096-486f-97fa-0465bef499cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

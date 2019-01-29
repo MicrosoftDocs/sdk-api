@@ -4,7 +4,7 @@ title: PROCESSOR_NUMBER
 author: windows-sdk-content
 description: Represents a logical processor in a processor group.
 old-location: base\processor_number.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 9005c6d4-07a9-4ce0-9ee2-54880d7244c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

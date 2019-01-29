@@ -4,7 +4,7 @@ title: RTWQ_WORKQUEUE_TYPE
 author: windows-sdk-content
 description: Specifies the type of work queue for the RtwqAllocateWorkQueue function to create.
 old-location: base\rtwq_workqueue_type.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 4aab85f3-855e-4fbf-9d25-209214bdd73b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

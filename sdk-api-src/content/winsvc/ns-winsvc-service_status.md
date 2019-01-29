@@ -4,7 +4,7 @@ title: SERVICE_STATUS
 author: windows-sdk-content
 description: Contains status information for a service.
 old-location: base\service_status_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: d268609b-d442-4d0f-9d49-ed23fee84961
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AvRtDeleteThreadOrderingGroup function
 author: windows-sdk-content
 description: Deletes the specified thread ordering group created by the caller. It cleans up resources for the thread ordering group, including the context information, and returns.
 old-location: base\avrtdeletethreadorderinggroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: fa881a0f-3087-4605-9c42-880f6694c018
 ms.author: windowssdkdev
 ms.date: 12/5/2018

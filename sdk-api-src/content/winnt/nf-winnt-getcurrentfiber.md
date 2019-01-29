@@ -4,7 +4,7 @@ title: GetCurrentFiber function
 author: windows-sdk-content
 description: Retrieves the address of the current fiber.
 old-location: base\getcurrentfiber.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: a08bfac8-00d0-41b7-9879-802189710093
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CACHE_DESCRIPTOR
 author: windows-sdk-content
 description: Describes the cache attributes.
 old-location: base\cache_descriptor.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 38cfa605-831c-45ef-a99f-55f42b2b56e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

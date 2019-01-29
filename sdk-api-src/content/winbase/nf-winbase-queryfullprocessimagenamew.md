@@ -4,7 +4,7 @@ title: QueryFullProcessImageNameW function
 author: windows-sdk-content
 description: Retrieves the full name of the executable image for the specified process.
 old-location: base\queryfullprocessimagename.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

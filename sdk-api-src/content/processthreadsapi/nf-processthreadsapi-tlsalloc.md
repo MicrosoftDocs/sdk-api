@@ -4,7 +4,7 @@ title: TlsAlloc function
 author: windows-sdk-content
 description: Allocates a thread local storage (TLS) index. Any thread of the process can subsequently use this index to store and retrieve values that are local to the thread, because each thread receives its own slot for the index.
 old-location: base\tlsalloc.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: cbb3d832-cd92-4875-8366-6b69be7a536f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

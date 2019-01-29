@@ -4,7 +4,7 @@ title: SERVICE_DESCRIPTIONW
 author: windows-sdk-content
 description: Contains a service description.
 old-location: base\service_description_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 1b4e18d5-6086-4d1b-b39c-1d919bfdc0b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

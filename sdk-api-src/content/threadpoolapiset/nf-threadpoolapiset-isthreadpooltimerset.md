@@ -4,7 +4,7 @@ title: IsThreadpoolTimerSet function
 author: windows-sdk-content
 description: Determines whether the specified timer object is currently set.
 old-location: base\isthreadpooltimerset.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: f9dee0aa-6310-4218-b207-72a24c5019e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

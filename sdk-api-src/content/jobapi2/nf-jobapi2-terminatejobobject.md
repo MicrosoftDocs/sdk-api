@@ -4,7 +4,7 @@ title: TerminateJobObject function
 author: windows-sdk-content
 description: Terminates all processes currently associated with the job.
 old-location: base\terminatejobobject.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: ff8eb4a8-26d0-4f01-ab56-3c51fb16e87c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

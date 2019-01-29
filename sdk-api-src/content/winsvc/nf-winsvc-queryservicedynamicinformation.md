@@ -4,7 +4,7 @@ title: QueryServiceDynamicInformation function
 author: windows-sdk-content
 description: Retrieves dynamic information related to the current service start.
 old-location: base\queryservicedynamicinformation.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 499b63fd-e77b-4b90-9ee7-ff4b7b12c431
 ms.author: windowssdkdev
 ms.date: 12/5/2018

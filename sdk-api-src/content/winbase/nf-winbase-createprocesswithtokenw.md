@@ -4,7 +4,7 @@ title: CreateProcessWithTokenW function
 author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the specified token. It can optionally load the user profile for the specified user.
 old-location: base\createprocesswithtokenw.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: b329866a-0c0d-4cb3-838c-36aac17c87ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

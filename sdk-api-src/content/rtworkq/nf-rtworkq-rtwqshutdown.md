@@ -4,7 +4,7 @@ title: RtwqShutdown function
 author: windows-sdk-content
 description: Shuts down the platform. Call this function once for every call to RtwqStartup. Do not call this function from work queue threads.
 old-location: base\rtwqshutdown.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 806c4142-b628-4ea0-b5e2-d2b4ead73c04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

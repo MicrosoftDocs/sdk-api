@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 author: windows-sdk-content
 description: This data structure provides the status of process policies that are related to the mitigation of side channels. This can include side channel attacks involving speculative execution and page combining.
 old-location: base\process_mitigation_side_channel_isolation_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: FEF2884D-7FE4-4DA7-AC2D-822FFACD4D7B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

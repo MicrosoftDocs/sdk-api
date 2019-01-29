@@ -4,7 +4,7 @@ title: IRtwqAsyncResult
 author: windows-sdk-content
 description: Provides information about the result of an asynchronous operation.
 old-location: base\irtwqasyncresult.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: AB23282D-D731-48EE-AF55-CC5A513EBA33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

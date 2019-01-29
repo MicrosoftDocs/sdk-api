@@ -4,7 +4,7 @@ title: IRtwqPlatformEvents::InitializationComplete
 author: windows-sdk-content
 description: Called after the platform has been initialized.
 old-location: base\irtwqplatformevents_initializationcomplete.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 7CAD2809-9030-4D84-9FF4-A2461EB18583
 ms.author: windowssdkdev
 ms.date: 12/5/2018

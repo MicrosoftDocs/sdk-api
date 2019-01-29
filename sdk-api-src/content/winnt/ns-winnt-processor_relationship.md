@@ -4,7 +4,7 @@ title: PROCESSOR_RELATIONSHIP
 author: windows-sdk-content
 description: Represents information about affinity within a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\processor_relationship.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1efda80d-cf5b-4312-801a-ea3585b152ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

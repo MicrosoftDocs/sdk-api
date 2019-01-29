@@ -4,7 +4,7 @@ title: SetEventWhenCallbackReturns function
 author: windows-sdk-content
 description: Specifies the event that the thread pool will set when the current callback completes.
 old-location: base\seteventwhencallbackreturns.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 50e127bc-d518-4f84-88ea-b262572d5248
 ms.author: windowssdkdev
 ms.date: 12/5/2018

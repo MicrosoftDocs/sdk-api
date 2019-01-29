@@ -4,7 +4,7 @@ title: IRtwqPlatformEvents::ShutdownComplete
 author: windows-sdk-content
 description: Called after the platform has shutdown.
 old-location: base\irtwqplatformevents_shutdowncomplete.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 03F4F1D8-8A90-4DDE-B0BC-8F10EBA9691E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

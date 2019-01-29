@@ -4,7 +4,7 @@ title: JOBOBJECT_SECURITY_LIMIT_INFORMATION
 author: windows-sdk-content
 description: Contains the security limitations for a job object.
 old-location: base\jobobject_security_limit_information_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 148f76b2-809b-4306-a943-bcc04aea547b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

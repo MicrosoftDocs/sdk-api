@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_ASLR_POLICY
 author: windows-sdk-content
 description: Contains process mitigation policy settings for Address Space Randomization Layout (ASLR).
 old-location: base\process_mitigation_aslr_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1324d2e7-64a4-45de-856a-30c5c5bf8e7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

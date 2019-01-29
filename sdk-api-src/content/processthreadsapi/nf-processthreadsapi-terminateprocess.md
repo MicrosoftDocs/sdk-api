@@ -4,7 +4,7 @@ title: TerminateProcess function
 author: windows-sdk-content
 description: Terminates the specified process and all of its threads.
 old-location: base\terminateprocess.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 0e1a8195-4fd3-43d4-ae9e-1a1e05c2119a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

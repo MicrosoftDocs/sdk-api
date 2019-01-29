@@ -4,7 +4,7 @@ title: UMS_CREATE_THREAD_ATTRIBUTES
 author: windows-sdk-content
 description: Specifies attributes for a user-mode scheduling (UMS) worker thread.
 old-location: base\ums_create_thread_attributes.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5d3e1721-c439-49bb-9cb6-8386fa8aaf50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

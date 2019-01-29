@@ -4,7 +4,7 @@ title: SetThreadpoolStackInformation function
 author: windows-sdk-content
 description: Sets the stack reserve and commit sizes for new threads in the specified thread pool. Stack reserve and commit sizes for existing threads are not changed.
 old-location: base\setthreadpoolstackinformation.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: dbed0a95-30d8-4e63-b141-743401103c53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

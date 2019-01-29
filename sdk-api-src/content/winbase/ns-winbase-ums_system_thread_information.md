@@ -4,7 +4,7 @@ title: UMS_SYSTEM_THREAD_INFORMATION
 author: windows-sdk-content
 description: Specifies a UMS scheduler thread, UMS worker thread, or non-UMS thread. The GetUmsSystemThreadInformation function uses this structure.
 old-location: base\ums_system_thread_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: eecdc592-5046-47c3-a4c6-ecb10899db3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

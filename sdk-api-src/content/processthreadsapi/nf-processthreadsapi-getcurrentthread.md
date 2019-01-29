@@ -4,7 +4,7 @@ title: GetCurrentThread function
 author: windows-sdk-content
 description: Retrieves a pseudo handle for the calling thread.
 old-location: base\getcurrentthread.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 91a11552-66c1-42bd-b837-8a7685977bc9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

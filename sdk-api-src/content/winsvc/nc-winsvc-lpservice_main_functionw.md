@@ -4,7 +4,7 @@ title: LPSERVICE_MAIN_FUNCTIONW
 author: windows-sdk-content
 description: The entry point for a service.
 old-location: base\servicemain.htm
-tech.root: services
+tech.root: Services
 ms.assetid: d7f3235e-91bd-4107-a30c-4a8f9a6c731e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetProcessTimes function
 author: windows-sdk-content
 description: Retrieves timing information for the specified process.
 old-location: base\getprocesstimes.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 4c1e8bd4-5ed2-4c97-bc4f-1083a8b24623
 ms.author: windowssdkdev
 ms.date: 12/5/2018

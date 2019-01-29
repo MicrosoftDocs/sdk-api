@@ -4,7 +4,7 @@ title: LPHANDLER_FUNCTION_EX
 author: windows-sdk-content
 description: An application-defined callback function used with the RegisterServiceCtrlHandlerEx function. A service program can use it as the control handler function of a particular service.
 old-location: base\handlerex.htm
-tech.root: services
+tech.root: Services
 ms.assetid: bb1b863f-e29f-496f-a50e-9ea524fe8603
 ms.author: windowssdkdev
 ms.date: 12/5/2018

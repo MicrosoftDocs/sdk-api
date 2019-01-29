@@ -4,7 +4,7 @@ title: OpenJobObjectW function
 author: windows-sdk-content
 description: Opens an existing job object.
 old-location: base\openjobobject.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: cb6ebc6f-5c61-408d-a781-ba029c83ddeb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

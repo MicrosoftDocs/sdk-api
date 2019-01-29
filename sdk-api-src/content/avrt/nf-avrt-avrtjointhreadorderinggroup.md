@@ -4,7 +4,7 @@ title: AvRtJoinThreadOrderingGroup function
 author: windows-sdk-content
 description: Joins client threads to a thread ordering group.
 old-location: base\avrtjointhreadorderinggroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 76e70f91-750e-49c8-8ddf-e8eddd150aa4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

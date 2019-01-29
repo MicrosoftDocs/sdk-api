@@ -4,7 +4,7 @@ title: SERVICE_TRIGGER_INFO
 author: windows-sdk-content
 description: Contains trigger event information for a service. This structure is used by the ChangeServiceConfig2 and QueryServiceConfig2 functions.
 old-location: base\service_trigger_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 8de46056-1ea5-46f2-a260-ad140fd77bc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

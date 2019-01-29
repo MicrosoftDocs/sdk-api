@@ -4,7 +4,7 @@ title: ChangeServiceConfigA function
 author: windows-sdk-content
 description: Changes the configuration parameters of a service.
 old-location: base\changeserviceconfig.htm
-tech.root: services
+tech.root: Services
 ms.assetid: add8a99b-aced-4341-9790-86efac76df6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

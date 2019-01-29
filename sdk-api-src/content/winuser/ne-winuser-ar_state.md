@@ -4,7 +4,7 @@ title: AR_STATE
 author: windows-sdk-content
 description: Indicates the state of screen auto-rotation for the system. For example, whether auto-rotation is supported, and whether it is enabled by the user.
 old-location: base\ar_state.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 55BCB2EB-524D-478A-8DCE-53E59DD0822D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

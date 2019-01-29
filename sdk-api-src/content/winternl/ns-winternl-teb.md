@@ -4,7 +4,7 @@ title: TEB
 author: windows-sdk-content
 description: The Thread Environment Block (TEB structure) describes the state of a thread.
 old-location: base\teb.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: fc77fc09-6319-4daa-ac96-1ded661ef800
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ENUM_SERVICE_STATUSA
 author: windows-sdk-content
 description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions.
 old-location: base\enum_service_status_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: b088bd94-5d25-44a7-93c0-80ce6588b811
 ms.author: windowssdkdev
 ms.date: 12/5/2018

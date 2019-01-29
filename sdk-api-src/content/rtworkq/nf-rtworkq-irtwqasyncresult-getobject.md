@@ -4,7 +4,7 @@ title: IRtwqAsyncResult::GetObject
 author: windows-sdk-content
 description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
 old-location: base\irtwqasyncresult_getobject.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: EF872EDD-4263-4835-81E4-0A61F18E9202
 ms.author: windowssdkdev
 ms.date: 12/5/2018

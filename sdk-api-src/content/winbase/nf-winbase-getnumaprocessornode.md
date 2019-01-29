@@ -4,7 +4,7 @@ title: GetNumaProcessorNode function
 author: windows-sdk-content
 description: Retrieves the node number for the specified processor.
 old-location: base\getnumaprocessornode.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 88e6c6b3-7ec5-43e5-8cf3-21402925f718
 ms.author: windowssdkdev
 ms.date: 12/5/2018

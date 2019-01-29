@@ -4,7 +4,7 @@ title: CreateThreadpool function
 author: windows-sdk-content
 description: Allocates a new pool of threads to execute callbacks.
 old-location: base\createthreadpool.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: cc00d7bf-ac52-44ff-a6a8-76c8eaace5e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

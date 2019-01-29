@@ -4,7 +4,7 @@ title: TpDestroyCallbackEnviron function
 author: windows-sdk-content
 description: Deletes the specified callback environment. Call this function when the callback environment is no longer needed for creating new thread pool objects.
 old-location: base\tpdestroycallbackenviron.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: B0925491-73FE-4342-9E66-E5F6344353FB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

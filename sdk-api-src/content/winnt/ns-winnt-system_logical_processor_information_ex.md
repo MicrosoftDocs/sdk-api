@@ -4,7 +4,7 @@ title: SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX
 author: windows-sdk-content
 description: Contains information about the relationships of logical processors and related hardware. The GetLogicalProcessorInformationEx function uses this structure.
 old-location: base\system_logical_processor_information_ex.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 6ff16cda-c1dc-4d5c-ac60-756653cd6b07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

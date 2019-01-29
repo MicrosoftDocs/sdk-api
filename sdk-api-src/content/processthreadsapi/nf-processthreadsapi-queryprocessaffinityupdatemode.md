@@ -4,7 +4,7 @@ title: QueryProcessAffinityUpdateMode function
 author: windows-sdk-content
 description: Retrieves the affinity update mode of the specified process.
 old-location: base\queryprocessaffinityupdatemode.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e1c9fab2-45a0-4ea7-bafb-91fc0f22e658
 ms.author: windowssdkdev
 ms.date: 12/5/2018

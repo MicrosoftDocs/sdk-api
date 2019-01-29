@@ -4,7 +4,7 @@ title: TlsFree function
 author: windows-sdk-content
 description: Releases a thread local storage (TLS) index, making it available for reuse.
 old-location: base\tlsfree.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: f5b1e8fc-02eb-4a06-b606-2b647944029b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

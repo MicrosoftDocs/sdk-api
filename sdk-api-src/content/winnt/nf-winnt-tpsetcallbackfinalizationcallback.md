@@ -4,7 +4,7 @@ title: TpSetCallbackFinalizationCallback function
 author: windows-sdk-content
 description: Indicates a function to call when the callback environment is finalized.
 old-location: base\tpsetcallbackfinalizationcallback.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 425898A7-5E98-490A-912A-A409D1E2DFDE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

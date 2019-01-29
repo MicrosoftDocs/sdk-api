@@ -4,7 +4,7 @@ title: SERVICE_DELAYED_AUTO_START_INFO
 author: windows-sdk-content
 description: Contains the delayed auto-start setting of an auto-start service.
 old-location: base\service_delayed_auto_start_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 16117450-eb73-47de-8be7-c7aff3d44c81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

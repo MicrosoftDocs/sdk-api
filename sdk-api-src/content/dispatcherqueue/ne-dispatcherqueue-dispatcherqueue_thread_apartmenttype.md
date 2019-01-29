@@ -4,7 +4,7 @@ title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 author: windows-sdk-content
 description: Specifies the threading apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_apartmenttype.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 46BCD25E-22C7-4D9C-A424-AFF0B0B41AB6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

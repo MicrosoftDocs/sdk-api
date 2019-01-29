@@ -4,7 +4,7 @@ title: GetNumaProximityNode function
 author: windows-sdk-content
 description: Retrieves the NUMA node number that corresponds to the specified proximity domain identifier.
 old-location: base\getnumaproximitynode.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 9a2dbfe3-13e7-442d-a5f6-b2632878f618
 ms.author: windowssdkdev
 ms.date: 12/5/2018

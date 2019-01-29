@@ -4,7 +4,7 @@ title: GetProcessWorkingSetSizeEx function
 author: windows-sdk-content
 description: Retrieves the minimum and maximum working set sizes of the specified process.
 old-location: base\getprocessworkingsetsizeex.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d2de0bf2-012b-480c-a1a5-54e4d3928381
 ms.author: windowssdkdev
 ms.date: 12/5/2018

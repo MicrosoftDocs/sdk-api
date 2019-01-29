@@ -4,7 +4,7 @@ title: CloseThreadpoolWait function
 author: windows-sdk-content
 description: Releases the specified wait object.
 old-location: base\closethreadpoolwait.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: f8323ad2-c0b6-4e5c-b6eb-7195673f8992
 ms.author: windowssdkdev
 ms.date: 12/5/2018

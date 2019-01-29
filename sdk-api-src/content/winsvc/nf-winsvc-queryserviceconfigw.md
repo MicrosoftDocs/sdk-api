@@ -4,7 +4,7 @@ title: QueryServiceConfigW function
 author: windows-sdk-content
 description: Retrieves the configuration parameters of the specified service.
 old-location: base\queryserviceconfig.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
 ms.author: windowssdkdev
 ms.date: 12/5/2018

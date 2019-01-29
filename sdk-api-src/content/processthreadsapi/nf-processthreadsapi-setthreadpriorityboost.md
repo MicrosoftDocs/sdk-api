@@ -4,7 +4,7 @@ title: SetThreadPriorityBoost function
 author: windows-sdk-content
 description: Disables or enables the ability of the system to temporarily boost the priority of a thread.
 old-location: base\setthreadpriorityboost.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5cc16bfe-6792-40e8-91ef-6f54a38e6e33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

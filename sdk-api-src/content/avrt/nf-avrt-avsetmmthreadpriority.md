@@ -4,7 +4,7 @@ title: AvSetMmThreadPriority function
 author: windows-sdk-content
 description: Adjusts the thread priority of the calling thread relative to other threads performing the same task.
 old-location: base\avsetmmthreadpriority.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 74259dbc-a9e9-409e-96e6-66a9dc590099
 ms.author: windowssdkdev
 ms.date: 12/5/2018

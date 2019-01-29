@@ -4,7 +4,7 @@ title: CreateThreadpoolCleanupGroup function
 author: windows-sdk-content
 description: Creates a cleanup group that applications can use to track one or more thread pool callbacks.
 old-location: base\createthreadpoolcleanupgroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 668593fe-2ed1-418d-8cd5-5fac61826ea1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

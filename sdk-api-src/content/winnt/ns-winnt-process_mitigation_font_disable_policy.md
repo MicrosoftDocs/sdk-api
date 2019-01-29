@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_FONT_DISABLE_POLICY
 author: windows-sdk-content
 description: Contains process mitigation policy settings for the loading of non-system fonts.
 old-location: base\process_mitigation_font_disable_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 7DDBEDEC-55F4-4DEA-8FFD-EA128FAA1A9B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

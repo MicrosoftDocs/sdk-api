@@ -4,7 +4,7 @@ title: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 author: windows-sdk-content
 description: Contains extended information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation2 information class.
 old-location: base\jobobject_limit_violation_information_2.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: B474F74E-B64B-4681-A235-C2DE317BFE0E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

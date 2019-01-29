@@ -4,7 +4,7 @@ title: PEB_LDR_DATA
 author: windows-sdk-content
 description: Contains information about the loaded modules for the process.
 old-location: base\peb_ldr_data.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 2e03b513-5c03-4436-99f8-3a6d3a45aff2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVICE_PRESHUTDOWN_INFO
 author: windows-sdk-content
 description: Contains preshutdown settings.
 old-location: base\service_preshutdown_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: b9d2362c-e4d7-4072-88c2-5294b3838095
 ms.author: windowssdkdev
 ms.date: 12/5/2018

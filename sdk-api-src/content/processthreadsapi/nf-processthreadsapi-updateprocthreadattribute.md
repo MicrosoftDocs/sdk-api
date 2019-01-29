@@ -4,7 +4,7 @@ title: UpdateProcThreadAttribute function
 author: windows-sdk-content
 description: Updates the specified attribute in a list of attributes for process and thread creation.
 old-location: base\updateprocthreadattribute.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
 ms.author: windowssdkdev
 ms.date: 12/5/2018

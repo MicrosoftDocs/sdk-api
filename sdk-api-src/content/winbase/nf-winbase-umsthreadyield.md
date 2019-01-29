@@ -4,7 +4,7 @@ title: UmsThreadYield function
 author: windows-sdk-content
 description: Yields control to the user-mode scheduling (UMS) scheduler thread on which the calling UMS worker thread is running.
 old-location: base\umsthreadyield.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d7c94ed5-9536-4c39-8658-27e4237cc9ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

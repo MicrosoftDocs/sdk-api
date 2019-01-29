@@ -4,7 +4,7 @@ title: SERVICE_TRIGGER
 author: windows-sdk-content
 description: Represents a service trigger event. This structure is used by the SERVICE_TRIGGER_INFO structure.
 old-location: base\service_trigger.htm
-tech.root: services
+tech.root: Services
 ms.assetid: a57aa702-40a2-4880-80db-6c4f43c3e7ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

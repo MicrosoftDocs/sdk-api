@@ -4,7 +4,7 @@ title: GROUP_RELATIONSHIP
 author: windows-sdk-content
 description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\group_relationship.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetThreadInformation function
 author: windows-sdk-content
 description: Sets information for the specified thread.
 old-location: base\setthreadinformation.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

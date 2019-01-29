@@ -4,7 +4,7 @@ title: THREAD_POWER_THROTTLING_STATE
 author: windows-sdk-content
 description: Specifies the throttling policies and how to apply them to a target thread when that thread is subject to power management.
 old-location: base\thread_power_throttling_state.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 2E4D3A93-F4EE-4293-BE28-239B48E869B4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

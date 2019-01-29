@@ -4,7 +4,7 @@ title: JOBOBJECT_BASIC_UI_RESTRICTIONS
 author: windows-sdk-content
 description: Contains basic user-interface restrictions for a job object.
 old-location: base\jobobject_basic_ui_restrictions_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 69ce908c-fb15-40ba-8bd3-3dae3ee1539a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

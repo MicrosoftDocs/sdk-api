@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_POLICY
 author: windows-sdk-content
 description: Represents the different process mitigation policies.
 old-location: base\process_mitigation_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: b9636a0f-3123-499d-8663-72ed4d4993f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CreateRemoteThreadEx function
 author: windows-sdk-content
 description: Creates a thread that runs in the virtual address space of another process and optionally specifies extended attributes such as processor group affinity.
 old-location: base\createremotethreadex.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 9c2d9e20-7614-4010-9b8b-4f0e9bc2e6fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

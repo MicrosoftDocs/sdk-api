@@ -4,7 +4,7 @@ title: GetNumaNodeNumberFromHandle function
 author: windows-sdk-content
 description: Retrieves the NUMA node associated with the file or I/O device represented by the specified file handle.
 old-location: base\getnumanodenumberfromhandle.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 7622f7c9-2dfc-4ab7-b3e9-48d483c6cc0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

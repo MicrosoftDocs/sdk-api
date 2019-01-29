@@ -4,7 +4,7 @@ title: SetEnvironmentVariable function
 author: windows-sdk-content
 description: Sets the contents of the specified environment variable for the current process.
 old-location: base\setenvironmentvariable.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 95bd6fa5-886d-41dc-a5c3-ede86dbfa15d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

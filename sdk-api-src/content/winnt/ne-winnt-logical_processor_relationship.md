@@ -4,7 +4,7 @@ title: LOGICAL_PROCESSOR_RELATIONSHIP
 author: windows-sdk-content
 description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
 old-location: base\logical_processor_relationship.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

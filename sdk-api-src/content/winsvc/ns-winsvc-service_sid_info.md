@@ -4,7 +4,7 @@ title: SERVICE_SID_INFO
 author: windows-sdk-content
 description: Represents a service security identifier (SID).
 old-location: base\service_sid_info.htm
-tech.root: services
+tech.root: Services
 ms.assetid: cb1a32bd-aafb-4e41-8d6f-673c3d747f14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

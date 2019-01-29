@@ -4,7 +4,7 @@ title: RtwqPutWorkItem function
 author: windows-sdk-content
 description: Puts an asynchronous operation on a work queue.
 old-location: base\rtwqputworkitem.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d2ae1cec-b279-4f5e-a803-fe0b8f453029
 ms.author: windowssdkdev
 ms.date: 12/5/2018

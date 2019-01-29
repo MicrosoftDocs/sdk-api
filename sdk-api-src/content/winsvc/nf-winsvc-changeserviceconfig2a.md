@@ -4,7 +4,7 @@ title: ChangeServiceConfig2A function
 author: windows-sdk-content
 description: Changes the optional configuration parameters of a service.
 old-location: base\changeserviceconfig2.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 6e5b79ed-52e1-460e-b076-01afbd08775c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

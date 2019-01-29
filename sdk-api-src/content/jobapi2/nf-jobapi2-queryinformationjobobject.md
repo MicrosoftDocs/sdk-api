@@ -4,7 +4,7 @@ title: QueryInformationJobObject function
 author: windows-sdk-content
 description: Retrieves limit and job state information from the job object.
 old-location: base\queryinformationjobobject.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: d843d578-fd67-4708-959f-00245ff70ec6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

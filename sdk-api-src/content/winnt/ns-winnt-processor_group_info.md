@@ -4,7 +4,7 @@ title: PROCESSOR_GROUP_INFO
 author: windows-sdk-content
 description: Represents the number and affinity of processors in a processor group.
 old-location: base\processor_group_info.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 6ff9cc3c-34e7-4dc4-94cd-6ed278dfaa03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

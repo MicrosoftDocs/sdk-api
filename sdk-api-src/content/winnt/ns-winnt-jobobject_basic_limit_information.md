@@ -4,7 +4,7 @@ title: JOBOBJECT_BASIC_LIMIT_INFORMATION
 author: windows-sdk-content
 description: Contains basic limit information for a job object.
 old-location: base\jobobject_basic_limit_information_str.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 83b940a7-05a0-4f5e-bfe3-3f2ac17e2d67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

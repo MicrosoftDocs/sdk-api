@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
 author: windows-sdk-content
 description: Used to impose new behavior on handle references that are not valid.
 old-location: base\process_mitigation_strict_handle_check_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 32d97712-67fe-44f2-92d8-23855db5502d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

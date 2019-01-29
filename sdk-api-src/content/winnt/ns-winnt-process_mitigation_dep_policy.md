@@ -4,7 +4,7 @@ title: PROCESS_MITIGATION_DEP_POLICY
 author: windows-sdk-content
 description: Contains process mitigation policy settings for data execution prevention (DEP).
 old-location: base\process_mitigation_dep_policy.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 49f257fe-82e2-41b3-b692-9c88d5896273
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtwqAllocateWorkQueue function
 author: windows-sdk-content
 description: Creates a new work queue.
 old-location: base\rtwqallocateworkqueue.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: B8FF907A-1448-43A4-B249-9D3D859D8F95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

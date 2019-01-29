@@ -4,7 +4,7 @@ title: SetServiceStatus function
 author: windows-sdk-content
 description: Updates the service control manager's status information for the calling service.
 old-location: base\setservicestatus.htm
-tech.root: services
+tech.root: Services
 ms.assetid: bb5943ff-2814-40f2-bee0-ae7132befde9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TlsGetValue function
 author: windows-sdk-content
 description: Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 old-location: base\tlsgetvalue.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

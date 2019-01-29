@@ -4,7 +4,7 @@ title: TpSetCallbackNoActivationContext function
 author: windows-sdk-content
 description: Indicates that the callback environment has no activation context.
 old-location: base\tpsetcallbacknoactivationcontext.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 8415197A-C785-492E-9C74-2055FADDF0CD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: UMS_SCHEDULER_STARTUP_INFO
 author: windows-sdk-content
 description: Specifies attributes for a user-mode scheduling (UMS) scheduler thread.
 old-location: base\ums_scheduler_startup_info.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e3f7b1b7-d2b8-432d-bce7-3633292e855b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

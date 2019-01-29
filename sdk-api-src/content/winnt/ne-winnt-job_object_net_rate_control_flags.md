@@ -4,7 +4,7 @@ title: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 author: windows-sdk-content
 description: Specifies types of scheduling policies for network rate control.
 old-location: base\job_object_net_rate_control_flags.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: D1AD3722-1A15-4BCA-8F0A-6E32A078959A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

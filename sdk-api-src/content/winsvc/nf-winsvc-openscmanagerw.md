@@ -4,7 +4,7 @@ title: OpenSCManagerW function
 author: windows-sdk-content
 description: Establishes a connection to the service control manager on the specified computer and opens the specified service control manager database.
 old-location: base\openscmanager.htm
-tech.root: services
+tech.root: Services
 ms.assetid: a0237989-e5a7-4a3a-ab23-e2474a995341
 ms.author: windowssdkdev
 ms.date: 12/5/2018

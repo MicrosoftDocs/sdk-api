@@ -4,7 +4,7 @@ title: CACHE_RELATIONSHIP
 author: windows-sdk-content
 description: Describes cache attributes. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\cache_relationship.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: f8fe521b-02d6-4c58-8ef8-653280add111
 ms.author: windowssdkdev
 ms.date: 12/5/2018

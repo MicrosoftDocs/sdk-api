@@ -4,7 +4,7 @@ title: MEMORY_PRIORITY_INFORMATION
 author: windows-sdk-content
 description: Specifies the memory priority for a thread or process.
 old-location: base\memory_priority_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 03cacfdf-5c66-42e4-bfcf-afaacd3ad038
 ms.author: windowssdkdev
 ms.date: 12/5/2018

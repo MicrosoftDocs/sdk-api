@@ -4,7 +4,7 @@ title: JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 author: windows-sdk-content
 description: Contains CPU rate control information for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectCpuRateControlInformation information class.
 old-location: base\jobobject_cpu_rate_control_information.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: eaa5bda2-a37e-441b-a0e4-e00dff6425b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

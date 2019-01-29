@@ -4,7 +4,7 @@ title: IRtwqAsyncCallback::Invoke
 author: windows-sdk-content
 description: Called when an asynchronous operation is completed.
 old-location: base\irtwqasynccallback_invoke.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 1798C338-4C82-42A7-AE15-ADFD356604BD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

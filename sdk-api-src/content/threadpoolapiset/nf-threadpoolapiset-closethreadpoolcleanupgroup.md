@@ -4,7 +4,7 @@ title: CloseThreadpoolCleanupGroup function
 author: windows-sdk-content
 description: Closes the specified cleanup group.
 old-location: base\closethreadpoolcleanupgroup.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: e38e4d99-63f2-4bac-8675-cf0f3aa149a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STARTUPINFOEXW
 author: windows-sdk-content
 description: Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the CreateProcess and CreateProcessAsUser functions.
 old-location: base\startupinfoex.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 61203f57-292d-4ea1-88f4-a3b05012d7a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVICE_TABLE_ENTRYA
 author: windows-sdk-content
 description: Specifies the ServiceMain function for a service that can run in the calling process. It is used by the StartServiceCtrlDispatcher function.
 old-location: base\service_table_entry_str.htm
-tech.root: services
+tech.root: Services
 ms.assetid: dd40c4f0-cbbe-429f-91c0-3ba141dab702
 ms.author: windowssdkdev
 ms.date: 12/5/2018

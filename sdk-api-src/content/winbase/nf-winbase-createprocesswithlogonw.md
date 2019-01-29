@@ -4,7 +4,7 @@ title: CreateProcessWithLogonW function
 author: windows-sdk-content
 description: Creates a new process and its primary thread. Then the new process runs the specified executable file in the security context of the specified credentials (user, domain, and password). It can optionally load the user profile for a specified user.
 old-location: base\createprocesswithlogonw.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: dcfdcd5b-0269-4081-b1db-e272171c27a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IRtwqAsyncResult::SetStatus
 author: windows-sdk-content
 description: Sets the status of the asynchronous operation.
 old-location: base\irtwqasyncresult_setstatus.htm
-tech.root: procthread
+tech.root: ProcThread
 ms.assetid: 9F3A74F5-615B-40B2-8E69-145D0ECA22A9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

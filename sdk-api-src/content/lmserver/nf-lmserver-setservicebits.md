@@ -4,7 +4,7 @@ title: SetServiceBits function
 author: windows-sdk-content
 description: Registers a service type with the service control manager and the Server service.
 old-location: base\setservicebits.htm
-tech.root: services
+tech.root: Services
 ms.assetid: 91a985d4-d1af-4161-ae67-a8a9d6740838
 ms.author: windowssdkdev
 ms.date: 12/5/2018
