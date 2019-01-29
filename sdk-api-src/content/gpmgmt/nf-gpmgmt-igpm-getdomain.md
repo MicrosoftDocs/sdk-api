@@ -45,7 +45,6 @@ req.redist:
 
 # IGPM::GetDomain
 
-
 ## -description
 
 
@@ -107,7 +106,7 @@ Returns a reference to a <b>GPMDomain</b> object.
 
 ## -remarks
 
-
+>**Important:** When calling this function, underlying LDAP traffic is encrypted using Kerberos, not SSL.
 
 This method does not allow you to search site SOMs. Call the 
 <a href="https://msdn.microsoft.com/0a1b8975-cd73-49e6-83b9-f6af296276cb">IGPM::GetSitesContainer</a> method to perform this type of query.
