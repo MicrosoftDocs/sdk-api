@@ -21,6 +21,7 @@ To develop Windows Controls, you need these headers:
  * [commoncontrols.h](../commoncontrols/index.md)
  * [dpa_dsa.h](../dpa_dsa/index.md)
  * [prsht.h](../prsht/index.md)
+ * [richedit.h](../richedit/index.md)
  * [richole.h](../richole/index.md)
  * [shlobj.h](../shlobj/index.md)
  * [textserv.h](../textserv/index.md)

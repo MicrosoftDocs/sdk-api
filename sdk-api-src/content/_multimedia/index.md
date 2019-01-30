@@ -22,6 +22,7 @@ To develop Windows Multimedia, you need these headers:
  * [mmddk.h](../mmddk/index.md)
  * [mmeapi.h](../mmeapi/index.md)
  * [mmiscapi.h](../mmiscapi/index.md)
+ * [mmreg.h](../mmreg/index.md)
  * [msacm.h](../msacm/index.md)
  * [timeapi.h](../timeapi/index.md)
  * [vfw.h](../vfw/index.md)

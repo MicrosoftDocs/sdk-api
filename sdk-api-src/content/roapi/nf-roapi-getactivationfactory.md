@@ -28,13 +28,16 @@ req.lib:
 req.dll: Combase.dll
 req.irql: 
 topic_type:
+ - APIRef
  - kbSyntax
 api_type:
- - <TBD>
+ - DllExport
 api_location:
- -
+ - combase.dll
+ - API-MS-Win-Core-Winrt-l1-1-0.dll
 api_name:
  - GetActivationFactory
+ - WinRTGetActivationFactory
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -67,14 +70,16 @@ The activation factory.
 
 ### -param arg3
 
-A template parameter that specifies the type of the activation factory
+TBD
+
+
 
 
 ## -returns
 
 
 
-TBD
+Returns S_OK on success.
 
 
 

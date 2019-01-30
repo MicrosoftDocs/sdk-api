@@ -15,7 +15,9 @@ ms.topic: portal
 
 Overview of the Domain Name System (DNS) technology.
 
-The Domain Name System (DNS) technology is not associated with any headers.
+To develop Domain Name System (DNS), you need these headers:
+
+ * [windns.h](../windns/index.md)
 
 For programming guidance for this technology, see:
 * [Domain Name System (DNS)](/windows/desktop/dns)

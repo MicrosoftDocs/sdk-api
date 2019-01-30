@@ -33,6 +33,7 @@ To develop Microsoft TV Technologies, you need these headers:
  * [regbag.h](../regbag/index.md)
  * [sbe.h](../sbe/index.md)
  * [segment.h](../segment/index.md)
+ * [strmif.h](../strmif/index.md)
  * [tuner.h](../tuner/index.md)
  * [tvratings.h](../tvratings/index.md)
 

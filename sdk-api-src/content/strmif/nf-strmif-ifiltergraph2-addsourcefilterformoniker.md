@@ -1,0 +1,236 @@
+---
+UID: NF:strmif.IFilterGraph2.AddSourceFilterForMoniker
+title: IFilterGraph2::AddSourceFilterForMoniker
+author: windows-sdk-content
+description: The AddSourceFilterForMoniker method creates a source filter from an IMoniker pointer and adds the filter to the graph.
+old-location: dshow\ifiltergraph2_addsourcefilterformoniker.htm
+tech.root: DirectShow
+ms.assetid: 7e398df6-7cb7-4028-be34-3040a2cd1c2b
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: AddSourceFilterForMoniker, AddSourceFilterForMoniker method [DirectShow], AddSourceFilterForMoniker method [DirectShow],IFilterGraph2 interface, IFilterGraph2 interface [DirectShow],AddSourceFilterForMoniker method, IFilterGraph2.AddSourceFilterForMoniker, IFilterGraph2::AddSourceFilterForMoniker, IFilterGraph2AddSourceFilterForMoniker, dshow.ifiltergraph2_addsourcefilterformoniker, strmif/IFilterGraph2::AddSourceFilterForMoniker
+ms.topic: method
+req.header: strmif.h
+req.include-header: Dshow.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Strmiids.lib
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Strmiids.lib
+ - Strmiids.dll
+api_name:
+ - IFilterGraph2.AddSourceFilterForMoniker
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# IFilterGraph2::AddSourceFilterForMoniker
+
+
+## -description
+
+
+
+The <code>AddSourceFilterForMoniker</code> method creates a source filter from an <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> pointer and adds the filter to the graph. For example, you can obtain a moniker for a system device, such as a video capture device, and add a video capture filter for that device. (For more information about system device monikers, see the <a href="https://msdn.microsoft.com/fc300bb8-aea4-4848-af43-a70a7fb8c07c">ICreateDevEnum</a> interface.)
+
+
+
+
+## -parameters
+
+
+
+
+### -param pMoniker [in]
+
+Pointer to the <a href="https://msdn.microsoft.com/17f4c1df-7a9c-42ef-a888-70cd8d85f070">IMoniker</a> interface.
+
+
+### -param pCtx [in]
+
+Pointer to an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> bind context interface.
+
+
+### -param lpcwstrFilterName [in]
+
+Name for the filter.
+
+
+### -param ppFilter [out]
+
+Receives a pointer to the source filter's <a href="https://msdn.microsoft.com/d8c09dc7-dae8-4b51-8da8-69e64928a091">IBaseFilter</a> pointer. The caller must release the interface.
+
+
+## -returns
+
+
+
+Returns and <b>HRESULT</b> value. Possible values include the following.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_S_DUPLICATE_NAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success; but the specified name was a duplicate, so the Filter Graph Manager modified the name.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failure.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_DUPLICATE_NAME</b></dt>
+</dl>
+</td>
+<td width="60%">
+Failed to add a filter with a duplicate name.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_CANNOT_LOAD_SOURCE_FILTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+The source filter for could not be loaded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>VFW_E_UNKNOWN_FILE_TYPE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The media type of this file is not recognized.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+The Filter Graph Manager holds a reference count on the filter until the filter is removed from the graph or the Filter Graph Manager is released.
+
+
+#### Examples
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+IBaseFilter *pSource = NULL;
+IMoniker *pMoniker = NULL;
+
+// Use IEnumMonikers to get the IMoniker pointer. (Not shown.)
+
+// Create a bind context for working with the moniker.
+IBindCtx *pContext=0;
+hr = CreateBindCtx(0, &amp;pContext);
+if (SUCCEEDED(hr))
+{
+    // Query the Filter Graph Manager for IFilterGraph2.
+    IFilterGraph2 *pFG2 = NULL;
+    hr = pGraph-&gt;QueryInterface(IID_IFilterGraph2, (void**)&amp;pFG2);
+    if (SUCCEEDED(hr))
+    {
+        // Create the source filter.
+        hr = pFG2-&gt;AddSourceFilterForMoniker(pMoniker, pContext,
+                 L"Source", &amp;pSource);
+        pFG2-&gt;Release();
+    }
+    pContext-&gt;Release();
+}
+pMoniker-&gt;Release();
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/1a1ef4fe-a054-4ba7-99c7-1f209472c5a6">IFilterGraph2 Interface</a>
+ 
+
+ 
+

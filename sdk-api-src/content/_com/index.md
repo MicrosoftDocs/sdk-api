@@ -25,6 +25,7 @@ To develop Component Object Model (COM), you need these headers:
  * [dmerror.h](../dmerror/index.md)
  * [docobj.h](../docobj/index.md)
  * [eventsys.h](../eventsys/index.md)
+ * [guiddef.h](../guiddef/index.md)
  * [iaccess.h](../iaccess/index.md)
  * [imessagedispatcher.h](../imessagedispatcher/index.md)
  * [messagedispatcherapi.h](../messagedispatcherapi/index.md)
