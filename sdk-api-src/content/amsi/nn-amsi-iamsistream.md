@@ -46,7 +46,7 @@ req.redist:
 
 ## -description
 
-Represents a stream to be scanned.
+Represents a stream to be scanned. For a code example, see the [IAmsiStream interface sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/AmsiStream).
 
 ## -inheritance
 
@@ -82,7 +82,3 @@ Requests a buffer-full of content to be read.
 </td>
 </tr>
 </table> 
-
-## -examples
-
-See [IAmsiStream interface sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/AmsiStream).
