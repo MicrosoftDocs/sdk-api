@@ -1,0 +1,96 @@
+---
+UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_STRING
+title: EAP_METHOD_PROPERTY_VALUE_STRING
+author: windows-sdk-content
+description: Contains the string value of an EAP method property.
+old-location: eaphost\eap_method_property_value_string.htm
+tech.root: eaphost
+ms.assetid: afb2d8f3-c2b1-45b8-9ff3-814c8e4b1595
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: EAP_METHOD_PROPERTY_VALUE_STRING, EAP_METHOD_PROPERTY_VALUE_STRING structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_STRING, PEAP_METHOD_PROPERTY_VALUE_STRING structure pointer [EAPHost], eaphost.eap_method_property_value_string, eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING, eaptypes/PEAP_METHOD_PROPERTY_VALUE_STRING
+ms.topic: struct
+req.header: eaptypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - EapTypes.h
+api_name:
+ - EAP_METHOD_PROPERTY_VALUE_STRING
+product: Windows
+targetos: Windows
+req.typenames: EAP_METHOD_PROPERTY_VALUE_STRING
+req.redist: 
+---
+
+# EAP_METHOD_PROPERTY_VALUE_STRING structure
+
+
+## -description
+
+
+The <b>EAP_METHOD_PROPERTY_VALUE_STRING</b> structure contains the string value of an EAP method property.
+
+
+## -struct-fields
+
+
+
+
+### -field length
+
+The size, in bytes, of <b>value</b>.
+
+
+### -field value.size_is
+
+ 
+
+
+### -field value.size_is.length
+
+ 
+
+
+### -field value
+
+Pointer to a byte buffer than contains the data value of an EAP method property.
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/77595f36-140d-4d8e-af8e-63e9de0031c4">EAPHost Supplicant Structures</a>
+
+
+
+<a href="https://msdn.microsoft.com/298b59d3-245f-4a29-b8a1-2265d65d30e6">EAP_METHOD_PROPERTY_VALUE</a>
+
+
+
+<a href="https://msdn.microsoft.com/b553c022-c9a2-4cf7-8c09-e629b49cd929">EapHostPeerGetMethodProperties</a>
+ 
+
+ 
+
