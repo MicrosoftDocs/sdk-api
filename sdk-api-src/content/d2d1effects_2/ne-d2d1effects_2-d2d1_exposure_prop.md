@@ -7,7 +7,7 @@ old-location: direct2d\d2d1_exposure_prop.htm
 tech.root: Direct2D
 ms.assetid: 0C294B8B-2E18-48B7-AB81-602AB7949131
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 01/30/2019
 ms.keywords: D2D1_EXPOSURE_PROP, D2D1_EXPOSURE_PROP enumeration [Direct2D], D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, d2d1effects_2/D2D1_EXPOSURE_PROP, d2d1effects_2/D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, direct2d.d2d1_exposure_prop
 ms.topic: enum
 req.header: d2d1effects_2.h
@@ -44,24 +44,14 @@ req.redist:
 
 # D2D1_EXPOSURE_PROP enumeration
 
-
 ## -description
 
-
-Identifiers for properties of the <a href="https://msdn.microsoft.com/d384f539-5c19-53c7-e52b-bf833e221449">Exposure effect</a>.
-
+Identifiers for properties of the [Exposure effect](/windows/desktop/Direct2D/exposure-effect).
 
 ## -enum-fields
 
-
-
-
 ### -field D2D1_EXPOSURE_PROP_EXPOSURE_VALUE
 
-The D2D1_EXPOSURE_PROP_EXPOSURE_VALUE property is a float value that specifies how much to increase or decrease the exposure of the image.  The allowed range is -2.0 to 2.0.  The default value is 0.0 (no change).
-
+The D2D1_EXPOSURE_PROP_EXPOSURE_VALUE property is a float value that specifies how much to increase or decrease the exposure of the image. The allowed range is -2.0 to 2.0. The default value is 0.0 (no change).
 
 ### -field D2D1_EXPOSURE_PROP_FORCE_DWORD
-
-
-
