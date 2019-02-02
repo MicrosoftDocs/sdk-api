@@ -45,7 +45,7 @@ req.redist:
 
 ## -description
 
-Defines constants that identify the top level properties of the [HDR Tone Map effect](/windows/desktop/Direct2D/hdr-tone-map-effect). The effect adjusts the maximum luminance of the source image to fit within the maximum output luminance supported. Input and output luminance values are specified in nits. Note that the color space of the target image is assumed to be scRGB.
+Defines constants that identify the top level properties of the [HDR tone map effect](/windows/desktop/Direct2D/hdr-tone-map-effect). The effect adjusts the maximum luminance of the source image to fit within the maximum output luminance supported. Input and output luminance values are specified in nits. Note that the color space of the target image is assumed to be scRGB.
 
 ## -enum-fields
 

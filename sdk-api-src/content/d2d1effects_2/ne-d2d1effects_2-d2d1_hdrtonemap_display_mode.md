@@ -45,7 +45,7 @@ req.redist:
 
 ## -description
 
-Defines constants that specify a value for the [D2D1_HDRTONEMAP_PROP_DISPLAY_MODE](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop) property of the [HDR Tone Map effect](/windows/desktop/Direct2D/hdr-tone-map-effect).
+Defines constants that specify a value for the [D2D1_HDRTONEMAP_PROP_DISPLAY_MODE](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_prop) property of the [HDR tone map effect](/windows/desktop/Direct2D/hdr-tone-map-effect).
 
 ## -enum-fields
 
