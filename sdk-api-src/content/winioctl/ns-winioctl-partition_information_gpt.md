@@ -4,7 +4,7 @@ title: PARTITION_INFORMATION_GPT
 author: windows-sdk-content
 description: Contains GUID partition table (GPT) partition information.
 old-location: fs\partition_information_gpt_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 373b4eb3-af6d-4112-9787-f14c19972189
 ms.author: windowssdkdev
 ms.date: 12/5/2018

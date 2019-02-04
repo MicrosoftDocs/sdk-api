@@ -4,7 +4,7 @@ title: GetFileAttributesA function
 author: windows-sdk-content
 description: Retrieves file system attributes for a specified file or directory.
 old-location: fs\getfileattributes.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690
 ms.author: windowssdkdev
 ms.date: 12/5/2018

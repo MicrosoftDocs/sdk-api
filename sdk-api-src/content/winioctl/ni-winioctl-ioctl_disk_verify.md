@@ -4,7 +4,7 @@ title: IOCTL_DISK_VERIFY
 author: windows-sdk-content
 description: Verifies the specified extent on a fixed disk.
 old-location: fs\ioctl_disk_verify.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 156b217d-6cdc-4802-b711-8845934e277b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SymGetSymFromName function
 author: windows-sdk-content
 description: Locates a symbol for the specified name.
 old-location: base\symgetsymfromname64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 9c9a1a57-06c2-422a-b078-5b7725d54bd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

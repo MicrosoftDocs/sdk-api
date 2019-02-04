@@ -4,7 +4,7 @@ title: FILE_FULL_DIR_INFO
 author: windows-sdk-content
 description: Contains directory information for a file.
 old-location: fs\file_full_dir_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 606726e7-fd6b-4419-bd37-7282283007f8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

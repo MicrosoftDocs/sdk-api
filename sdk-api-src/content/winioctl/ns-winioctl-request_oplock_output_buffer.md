@@ -4,7 +4,7 @@ title: REQUEST_OPLOCK_OUTPUT_BUFFER
 author: windows-sdk-content
 description: Contains the opportunistic lock (oplock) information returned by the FSCTL_REQUEST_OPLOCK control code.
 old-location: fs\request_oplock_output_buffer.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 5912e0db-a102-4e1c-a1c0-c6a900fe0bbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DISK_GEOMETRY_EX
 author: windows-sdk-content
 description: Describes the extended geometry of disk devices and media.
 old-location: fs\disk_geometry_ex_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2b8b2021-8650-452d-a975-54249620d72f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

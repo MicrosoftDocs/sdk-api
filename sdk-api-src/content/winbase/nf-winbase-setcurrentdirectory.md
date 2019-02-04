@@ -4,7 +4,7 @@ title: SetCurrentDirectory function
 author: windows-sdk-content
 description: Changes the current directory for the current process.
 old-location: fs\setcurrentdirectory.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 02dd0a2b-8072-4ce5-99b4-ffa6dcbd46cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FILE_ATTRIBUTE_TAG_INFO
 author: windows-sdk-content
 description: Receives the requested file attribute information. Used for any handles.
 old-location: fs\file_attribute_tag_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4a2467a2-c22a-4ee6-a40e-5603ea381adc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

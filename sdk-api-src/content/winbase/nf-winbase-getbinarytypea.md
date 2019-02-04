@@ -4,7 +4,7 @@ title: GetBinaryTypeA function
 author: windows-sdk-content
 description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file.
 old-location: fs\getbinarytype.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ec937372-ee99-4505-a5dd-7c111405cbc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

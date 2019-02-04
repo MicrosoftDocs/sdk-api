@@ -4,7 +4,7 @@ title: SymInitializeW function
 author: windows-sdk-content
 description: Initializes the symbol handler for a process.
 old-location: base\syminitialize.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: fb1c98cb-6cd0-4218-aea4-384c24c66395
 ms.author: windowssdkdev
 ms.date: 12/5/2018

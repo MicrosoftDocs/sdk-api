@@ -4,7 +4,7 @@ title: LZSeek function
 author: windows-sdk-content
 description: Moves a file pointer the specified number of bytes from a starting position.
 old-location: fs\lzseek.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: eb3d8546-6280-4e4b-8ca4-3697b9339d86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

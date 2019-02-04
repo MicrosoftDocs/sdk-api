@@ -4,7 +4,7 @@ title: ADDRESS64
 author: windows-sdk-content
 description: Represents an address. It is used in the STACKFRAME64 structure.
 old-location: base\address64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f49249e5-ef02-4e1f-9c08-1c7fe25ee71c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

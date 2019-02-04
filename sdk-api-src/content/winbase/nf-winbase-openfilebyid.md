@@ -4,7 +4,7 @@ title: OpenFileById function
 author: windows-sdk-content
 description: Opens the file that matches the specified identifier.
 old-location: fs\openfilebyid.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: caa757a2-fc3f-4883-8d3e-b98d28f92517
 ms.author: windowssdkdev
 ms.date: 12/5/2018

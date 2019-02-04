@@ -4,7 +4,7 @@ title: FindFirstStreamTransactedW function
 author: windows-sdk-content
 description: Enumerates the first stream in the specified file or directory as a transacted operation.
 old-location: fs\findfirststreamtransactedw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 76c64aa9-0501-457d-b774-c209fbac4ccc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

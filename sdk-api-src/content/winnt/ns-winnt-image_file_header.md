@@ -4,7 +4,7 @@ title: IMAGE_FILE_HEADER
 author: windows-sdk-content
 description: Represents the COFF header format.
 old-location: base\image_file_header_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 1f1fe842-0849-46d0-8dba-831cf5aa02ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

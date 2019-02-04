@@ -4,7 +4,7 @@ title: IOCTL_DISK_SET_CACHE_INFORMATION
 author: windows-sdk-content
 description: Sets the disk configuration data.
 old-location: fs\ioctl_disk_set_cache_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e921da48-9435-41f0-87dd-abb383fd5208
 ms.author: windowssdkdev
 ms.date: 12/5/2018

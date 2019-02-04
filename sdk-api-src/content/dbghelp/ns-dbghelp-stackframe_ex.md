@@ -4,7 +4,7 @@ title: STACKFRAME_EX
 author: windows-sdk-content
 description: Represents an extended stack frame.
 old-location: base\stackframe_ex.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: d4606619-f9c5-41e9-8627-17846b98956a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

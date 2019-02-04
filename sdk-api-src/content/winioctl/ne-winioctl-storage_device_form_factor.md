@@ -4,7 +4,7 @@ title: STORAGE_DEVICE_FORM_FACTOR
 author: windows-sdk-content
 description: Specifies the form factor of a device.
 old-location: fs\storage_device_form_factor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: B8FCDC58-D599-4EEE-8096-818345FCD75F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

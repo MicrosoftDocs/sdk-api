@@ -4,7 +4,7 @@ title: DRIVE_LAYOUT_INFORMATION_GPT
 author: windows-sdk-content
 description: Contains information about a drive's GUID partition table (GPT) partitions.
 old-location: fs\drive_layout_information_gpt_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 763b0d64-6dcc-411c-aca1-3beea0890124
 ms.author: windowssdkdev
 ms.date: 12/5/2018

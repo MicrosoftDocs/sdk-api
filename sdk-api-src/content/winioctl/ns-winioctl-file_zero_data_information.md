@@ -4,7 +4,7 @@ title: FILE_ZERO_DATA_INFORMATION
 author: windows-sdk-content
 description: Contains a range of a file to set to zeros.
 old-location: fs\file_zero_data_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ad2c4e2d-7f41-45e8-beff-2f6d735f152e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

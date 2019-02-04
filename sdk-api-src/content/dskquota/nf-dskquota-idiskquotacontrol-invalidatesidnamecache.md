@@ -4,7 +4,7 @@ title: IDiskQuotaControl::InvalidateSidNameCache
 author: windows-sdk-content
 description: Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (IEnumDiskQuotaUsers::Next, IDiskQuotaControl::FindUserSid, and IDiskQuotaControl::FindUserName) must obtain user names from the domain controller.
 old-location: fs\idiskquotacontrol_invalidatesidnamecache.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9bca99e9-2dd7-4e79-ab6a-ad0e821dd9bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

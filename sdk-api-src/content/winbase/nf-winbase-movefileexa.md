@@ -4,7 +4,7 @@ title: MoveFileExA function
 author: windows-sdk-content
 description: Moves an existing file or directory, including its children, with various move options.
 old-location: fs\movefileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 5fb4f897-66ed-49d7-913a-fb6e7cecdfa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

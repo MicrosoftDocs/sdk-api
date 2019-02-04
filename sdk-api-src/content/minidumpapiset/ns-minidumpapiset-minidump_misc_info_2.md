@@ -4,7 +4,7 @@ title: MINIDUMP_MISC_INFO_2
 author: windows-sdk-content
 description: Represents information in the miscellaneous information stream.
 old-location: base\minidump_misc_info_2.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 34f46a51-9e41-4550-a080-1c7c7a603b54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

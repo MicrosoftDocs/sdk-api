@@ -4,7 +4,7 @@ title: CreateDirectory function
 author: windows-sdk-content
 description: Creates a new directory.
 old-location: fs\createdirectory.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

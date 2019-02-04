@@ -4,7 +4,7 @@ title: GetFileSize function
 author: windows-sdk-content
 description: Retrieves the size of the specified file, in bytes.
 old-location: fs\getfilesize.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_UPDATE_PROPERTIES
 author: windows-sdk-content
 description: Invalidates the cached partition table and re-enumerates the device.
 old-location: fs\ioctl_disk_update_properties.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d97e0257-c3b0-48d5-b801-594763be8178
 ms.author: windowssdkdev
 ms.date: 12/5/2018

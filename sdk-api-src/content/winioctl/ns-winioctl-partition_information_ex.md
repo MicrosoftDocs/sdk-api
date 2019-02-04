@@ -4,7 +4,7 @@ title: PARTITION_INFORMATION_EX
 author: windows-sdk-content
 description: Contains partition information for standard AT-style master boot record (MBR) and Extensible Firmware Interface (EFI) disks.
 old-location: fs\partition_information_ex_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3c88ebae-274e-403a-8f57-58fdf863f511
 ms.author: windowssdkdev
 ms.date: 12/5/2018

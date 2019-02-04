@@ -4,7 +4,7 @@ title: DEVICE_TRIM_DESCRIPTOR
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
 old-location: fs\device_trim_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 60b38d08-5869-442f-845b-b3d8667d069f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDiskQuotaControl::SetDefaultQuotaThreshold
 author: windows-sdk-content
 description: Modifies the default warning threshold.
 old-location: fs\idiskquotacontrol_setdefaultquotathreshold.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a935798b-91dc-4a36-aa31-7bde68b45778
 ms.author: windowssdkdev
 ms.date: 12/5/2018

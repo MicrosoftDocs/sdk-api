@@ -4,7 +4,7 @@ title: GetLogicalDriveStringsW function
 author: windows-sdk-content
 description: Fills a buffer with strings that specify valid drives in the system.
 old-location: fs\getlogicaldrivestrings.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d3a83f8d-c37c-48b9-a24c-f81dfe5773e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

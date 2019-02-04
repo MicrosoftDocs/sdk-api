@@ -4,7 +4,7 @@ title: FILE_OBJECTID_BUFFER
 author: windows-sdk-content
 description: Contains an object identifier and user-defined metadata associated with the object identifier.
 old-location: fs\file_objectid_buffer_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4d58921c-a3ec-44f3-b077-528db6b1211c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

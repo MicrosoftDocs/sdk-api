@@ -4,7 +4,7 @@ title: TXF_LOG_RECORD_WRITE
 author: windows-sdk-content
 description: Contains the record for a write operation.
 old-location: fs\txf_log_record_write.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 754ea93e-bc82-498e-8333-eda3262aebc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

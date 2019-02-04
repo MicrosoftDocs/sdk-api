@@ -4,7 +4,7 @@ title: IDiskQuotaControl::CreateUserBatch
 author: windows-sdk-content
 description: Creates a batching object for optimizing updates to the quota settings of multiple users simultaneously.
 old-location: fs\idiskquotacontrol_createuserbatch.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c1c5a71f-4a2f-4bf9-b28f-11b87a558771
 ms.author: windowssdkdev
 ms.date: 12/5/2018

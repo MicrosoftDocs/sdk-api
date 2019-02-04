@@ -4,7 +4,7 @@ title: OpenFile function
 author: windows-sdk-content
 description: Creates, opens, reopens, or deletes a file.
 old-location: fs\openfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 800f4d40-252a-44fe-b10d-348c22d69355
 ms.author: windowssdkdev
 ms.date: 12/5/2018

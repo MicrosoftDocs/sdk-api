@@ -4,7 +4,7 @@ title: FILE_DISPOSITION_INFO
 author: windows-sdk-content
 description: Indicates whether a file should be deleted. Used for any handles.
 old-location: fs\file_disposition_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 07095f62-323a-463a-a33e-7e4ca9adcb69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

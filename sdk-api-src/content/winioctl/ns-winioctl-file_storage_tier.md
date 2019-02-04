@@ -4,7 +4,7 @@ title: FILE_STORAGE_TIER
 author: windows-sdk-content
 description: Represents an identifier for the storage tier relative to the volume.
 old-location: fs\file_storage_tier.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: F9701D3B-57B3-4777-841C-3D45A2CEC17E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FILE_ID_128
 author: windows-sdk-content
 description: Defines a 128-bit file identifier.
 old-location: fs\ext_file_id_128.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 254ea6a9-e1dd-4b97-91f7-2693065c4bb8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

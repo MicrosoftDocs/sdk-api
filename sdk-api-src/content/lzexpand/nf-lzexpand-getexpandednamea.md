@@ -4,7 +4,7 @@ title: GetExpandedNameA function
 author: windows-sdk-content
 description: Retrieves the original name of a compressed file, if the file was compressed by the Lempel-Ziv algorithm.
 old-location: fs\getexpandedname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 173344bc-59ba-46ba-901a-f8a8929bc4ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

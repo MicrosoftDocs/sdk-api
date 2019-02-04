@@ -4,7 +4,7 @@ title: SetFileAttributesW function
 author: windows-sdk-content
 description: Sets the attributes for a file or directory.
 old-location: fs\setfileattributes.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3d5400c3-555f-44fc-9470-52a36d04d90b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

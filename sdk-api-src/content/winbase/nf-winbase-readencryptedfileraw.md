@@ -4,7 +4,7 @@ title: ReadEncryptedFileRaw function
 author: windows-sdk-content
 description: Backs up (export) encrypted files.
 old-location: fs\readencryptedfileraw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 15f6f617-969d-4a40-9038-b902a3c2518b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

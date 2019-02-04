@@ -4,7 +4,7 @@ title: NTFS_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the NTFS file system.
 old-location: fs\ntfs_statistics_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
 ms.author: windowssdkdev
 ms.date: 12/5/2018

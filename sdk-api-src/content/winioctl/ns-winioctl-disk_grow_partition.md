@@ -4,7 +4,7 @@ title: DISK_GROW_PARTITION
 author: windows-sdk-content
 description: Contains information used to increase the size of a partition.
 old-location: fs\disk_grow_partition_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 17ff8bbb-45a6-4ddd-a871-8519500c03a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

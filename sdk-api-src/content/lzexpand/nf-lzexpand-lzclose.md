@@ -4,7 +4,7 @@ title: LZClose function
 author: windows-sdk-content
 description: Closes a file that was opened by using the LZOpenFile function.
 old-location: fs\lzclose.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ba535eb7-8d9b-4290-af1f-495e9737cd38
 ms.author: windowssdkdev
 ms.date: 12/5/2018

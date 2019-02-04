@@ -4,7 +4,7 @@ title: FILE_ALLOCATED_RANGE_BUFFER
 author: windows-sdk-content
 description: Indicates a range of bytes in a file.
 old-location: fs\file_allocated_range_buffer_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e9c7d757-df29-4419-baba-56beb41623bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

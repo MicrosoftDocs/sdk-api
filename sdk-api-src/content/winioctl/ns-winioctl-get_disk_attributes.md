@@ -4,7 +4,7 @@ title: GET_DISK_ATTRIBUTES
 author: windows-sdk-content
 description: Contains the attributes of a disk device.
 old-location: fs\get_disk_attributes.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c6a0461d-cc23-4191-a0ff-c4279c1b097e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

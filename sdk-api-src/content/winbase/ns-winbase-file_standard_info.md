@@ -4,7 +4,7 @@ title: FILE_STANDARD_INFO
 author: windows-sdk-content
 description: Receives extended information for the file.
 old-location: fs\file_standard_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: da3187de-7de2-4307-a083-ae5fff6d8096
 ms.author: windowssdkdev
 ms.date: 12/5/2018

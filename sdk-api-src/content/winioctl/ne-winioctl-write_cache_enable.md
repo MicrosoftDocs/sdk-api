@@ -4,7 +4,7 @@ title: WRITE_CACHE_ENABLE
 author: windows-sdk-content
 description: Indicates whether the write cache is enabled or disabled.
 old-location: fs\write_cache_enable.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3ed8bc79-d8f9-4a57-a37c-46202d639a63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DISKQUOTA_USER_INFORMATION
 author: windows-sdk-content
 description: Represents the per-user quota information.
 old-location: fs\diskquota_user_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8929faab-e15e-47a0-af9e-b64684272cb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

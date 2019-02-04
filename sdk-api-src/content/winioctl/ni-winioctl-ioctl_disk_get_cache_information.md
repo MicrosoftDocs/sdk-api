@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_CACHE_INFORMATION
 author: windows-sdk-content
 description: Retrieves the disk cache configuration data.
 old-location: fs\ioctl_disk_get_cache_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 025a92e8-6169-4d7e-9029-f22acb2bdc9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

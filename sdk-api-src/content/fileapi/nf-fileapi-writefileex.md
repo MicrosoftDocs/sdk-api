@@ -4,7 +4,7 @@ title: WriteFileEx function
 author: windows-sdk-content
 description: Writes data to the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when writing is completed or canceled and the calling thread is in an alertable wait state.
 old-location: fs\writefileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6995c4ee-ba91-41d5-b72d-19dc2eb95945
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EXCEPTION_RECORD
 author: windows-sdk-content
 description: Describes an exception.
 old-location: base\exception_record_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 85a64178-bdcb-4293-9363-289c654730a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

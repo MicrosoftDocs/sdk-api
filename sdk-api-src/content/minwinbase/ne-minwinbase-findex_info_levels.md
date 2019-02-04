@@ -4,7 +4,7 @@ title: FINDEX_INFO_LEVELS
 author: windows-sdk-content
 description: Defines values that are used with the FindFirstFileEx function to specify the information level of the returned data.
 old-location: fs\findex_info_levels_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 454d5fc2-2ada-49de-9e1e-9e6eba050b17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

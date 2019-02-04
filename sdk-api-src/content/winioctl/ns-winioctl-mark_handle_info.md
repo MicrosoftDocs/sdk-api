@@ -4,7 +4,7 @@ title: MARK_HANDLE_INFO
 author: windows-sdk-content
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 old-location: fs\mark_handle_info_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6f736b31-279d-4118-a5e3-ad3c2bea2250
 ms.author: windowssdkdev
 ms.date: 12/5/2018

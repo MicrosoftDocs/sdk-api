@@ -4,7 +4,7 @@ title: MODLOAD_DATA
 author: windows-sdk-content
 description: Contains module data.
 old-location: base\modload_data_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: aa9c2b18-01bf-4eaa-8283-584ca16fc98e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

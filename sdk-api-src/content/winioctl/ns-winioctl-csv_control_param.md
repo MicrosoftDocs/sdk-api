@@ -4,7 +4,7 @@ title: CSV_CONTROL_PARAM
 author: windows-sdk-content
 description: Represents a type of CSV control operation.
 old-location: fs\csv_control_param.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: B984F8CA-3548-4442-8D3B-B2F469F699E1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

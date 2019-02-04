@@ -4,7 +4,7 @@ title: DISK_INT13_INFO
 author: windows-sdk-content
 description: Contains standard Int13 drive geometry parameters.
 old-location: fs\disk_int13_info_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a6991ad1-da8a-4df6-a055-ead3c30938df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

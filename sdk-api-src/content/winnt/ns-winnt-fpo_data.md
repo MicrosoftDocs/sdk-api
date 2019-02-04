@@ -4,7 +4,7 @@ title: FPO_DATA
 author: windows-sdk-content
 description: Represents the stack frame layout for a function on an x86 computer when frame pointer omission (FPO) optimization is used. The structure is used to locate the base of the call frame.
 old-location: base\fpo_data_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 916dc7d5-ed88-4573-b696-fd00bbf4e086
 ms.author: windowssdkdev
 ms.date: 12/5/2018

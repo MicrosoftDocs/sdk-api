@@ -4,7 +4,7 @@ title: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 author: windows-sdk-content
 description: Receives the volume information from a call to FSCTL_QUERY_ON_DISK_VOLUME_INFO.
 old-location: fs\file_query_on_disk_vol_info_buffer.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 812c8840-5e69-4a85-ad93-3be5bf09b917
 ms.author: windowssdkdev
 ms.date: 12/5/2018

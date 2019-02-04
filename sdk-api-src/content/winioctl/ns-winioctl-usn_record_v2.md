@@ -4,7 +4,7 @@ title: USN_RECORD_V2
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) change journal version 2.0 record.
 old-location: fs\usn_record_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1747453d-fd18-4853-a953-47131f3067ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

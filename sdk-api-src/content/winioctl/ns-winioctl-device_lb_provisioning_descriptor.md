@@ -4,7 +4,7 @@ title: DEVICE_LB_PROVISIONING_DESCRIPTOR
 author: windows-sdk-content
 description: Contains the thin provisioning capabilities for a storage device.
 old-location: fs\device_lb_provisioning_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: dbc46b33-9e9d-4ccf-9bc9-1df70738fa73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

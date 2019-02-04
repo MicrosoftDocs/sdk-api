@@ -4,7 +4,7 @@ title: IMAGE_COFF_SYMBOLS_HEADER
 author: windows-sdk-content
 description: Represents the COFF symbols header.
 old-location: base\image_coff_symbols_header_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f3a0ba0e-ef6b-4355-8dc4-5099dd54ab7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CloseThreadWaitChainSession function
 author: windows-sdk-content
 description: Closes the specified WCT session and cancels any outstanding asynchronous operations.
 old-location: base\closethreadwaitchainsession.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: dc288418-01e4-4737-9c63-e6e6b73b5d13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

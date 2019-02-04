@@ -4,7 +4,7 @@ title: BOOT_AREA_INFO
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_BOOT_AREA_INFO control code.
 old-location: fs\boot_area_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e6ec156d-6a20-4b00-89fb-a27421fffbc0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

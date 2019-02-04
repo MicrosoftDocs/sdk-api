@@ -4,7 +4,7 @@ title: NTFS_VOLUME_DATA_BUFFER
 author: windows-sdk-content
 description: Represents volume data.
 old-location: fs\ntfs_volume_data_buffer_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9ca0fe72-162c-4d75-a2f3-e1c7c0b0152a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

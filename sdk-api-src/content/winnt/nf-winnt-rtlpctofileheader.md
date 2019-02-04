@@ -4,7 +4,7 @@ title: RtlPcToFileHeader function
 author: windows-sdk-content
 description: Retrieves the base address of the image that contains the specified PC value.
 old-location: base\rtlpctofileheader.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

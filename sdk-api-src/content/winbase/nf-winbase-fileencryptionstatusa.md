@@ -4,7 +4,7 @@ title: FileEncryptionStatusA function
 author: windows-sdk-content
 description: Retrieves the encryption status of the specified file.
 old-location: fs\fileencryptionstatus.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 96efe065-de62-4941-811d-610465cd7ef5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

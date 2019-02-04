@@ -4,7 +4,7 @@ title: SymEnumSourceLines function
 author: windows-sdk-content
 description: Enumerates all source lines in a module.
 old-location: base\symenumsourcelines.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 395dd97b-4d0b-4f55-80af-38fc748c924a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OpenEncryptedFileRawW function
 author: windows-sdk-content
 description: Opens an encrypted file in order to backup (export) or restore (import) the file.
 old-location: fs\openencryptedfileraw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f792f38d-783e-4f39-a9d8-0c378d508d97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

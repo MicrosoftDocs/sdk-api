@@ -4,7 +4,7 @@ title: TXF_ID
 author: windows-sdk-content
 description: Represents a unique identifier within the context of the Resource Manager.
 old-location: fs\txf_id.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

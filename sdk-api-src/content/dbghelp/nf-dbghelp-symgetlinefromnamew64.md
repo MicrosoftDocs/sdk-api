@@ -4,7 +4,7 @@ title: SymGetLineFromNameW64 function
 author: windows-sdk-content
 description: Locates a source line for the specified module, file name, and line number.
 old-location: base\symgetlinefromname64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
 ms.author: windowssdkdev
 ms.date: 12/5/2018

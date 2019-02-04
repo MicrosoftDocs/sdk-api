@@ -4,7 +4,7 @@ title: MapDebugInformation function
 author: windows-sdk-content
 description: Obtains access to the debugging information for an image.
 old-location: base\mapdebuginformation.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 749a2a99-f6c4-4af3-aa0b-8a7bb5c690da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

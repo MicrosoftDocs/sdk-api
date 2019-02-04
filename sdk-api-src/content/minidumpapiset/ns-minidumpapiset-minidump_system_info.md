@@ -4,7 +4,7 @@ title: MINIDUMP_SYSTEM_INFO
 author: windows-sdk-content
 description: Contains processor and operating system information.
 old-location: base\minidump_system_info_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 1d4e2a78-2184-4846-b51d-441bf1133ec0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

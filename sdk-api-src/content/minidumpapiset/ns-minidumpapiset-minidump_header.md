@@ -4,7 +4,7 @@ title: MINIDUMP_HEADER
 author: windows-sdk-content
 description: Contains header information for the minidump file.
 old-location: base\minidump_header_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 693bd569-e3f2-4cc7-b744-dd1f6da54736
 ms.author: windowssdkdev
 ms.date: 12/5/2018

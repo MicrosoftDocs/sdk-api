@@ -4,7 +4,7 @@ title: ReadDirectoryChangesExW function
 author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory, which can include extended information if that information type is specified.
 old-location: fs\readdirectorychangesexw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 90C2F258-094C-4A0E-80E7-3FA241D288EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

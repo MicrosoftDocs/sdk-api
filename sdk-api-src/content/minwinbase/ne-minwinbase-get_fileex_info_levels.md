@@ -4,7 +4,7 @@ title: GET_FILEEX_INFO_LEVELS
 author: windows-sdk-content
 description: Defines values that are used with the GetFileAttributesEx and GetFileAttributesTransacted functions to specify the information level of the returned data.
 old-location: fs\get_fileex_info_levels.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1004ab99-9c08-4ed4-ba5f-d72f1b44a415
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ImageRvaToVa function
 author: windows-sdk-content
 description: Locates a relative virtual address (RVA) within the image header of a file that is mapped as a file and returns the virtual address of the corresponding byte in the file.
 old-location: base\imagervatova.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 7f022054-d98e-44c8-b256-5c34711ce471
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CREATE_DISK
 author: windows-sdk-content
 description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize GUID partition table (GPT), master boot record (MBR), or raw disks.
 old-location: fs\create_disk_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ec4a1ef9-ff2e-41b3-951b-241c545f256b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

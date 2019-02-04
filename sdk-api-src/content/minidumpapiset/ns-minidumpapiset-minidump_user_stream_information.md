@@ -4,7 +4,7 @@ title: MINIDUMP_USER_STREAM_INFORMATION
 author: windows-sdk-content
 description: Contains a list of user data streams used by the MiniDumpWriteDump function.
 old-location: base\minidump_user_stream_information_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 2a6b20ee-83cb-4000-b00a-61c4ab513205
 ms.author: windowssdkdev
 ms.date: 12/5/2018

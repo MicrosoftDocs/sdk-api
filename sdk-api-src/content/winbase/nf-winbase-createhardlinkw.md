@@ -4,7 +4,7 @@ title: CreateHardLinkW function
 author: windows-sdk-content
 description: Establishes a hard link between an existing file and a new file.
 old-location: fs\createhardlink.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9b0d3f04-775f-44ea-b563-93dee29a278a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

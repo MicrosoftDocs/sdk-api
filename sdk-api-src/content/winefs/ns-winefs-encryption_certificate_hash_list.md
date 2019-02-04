@@ -4,7 +4,7 @@ title: ENCRYPTION_CERTIFICATE_HASH_LIST
 author: windows-sdk-content
 description: Contains a list of certificate hashes.
 old-location: fs\encryption_certificate_hash_list_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 988159b3-3cb9-4a4d-9c68-ebfb309cff25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

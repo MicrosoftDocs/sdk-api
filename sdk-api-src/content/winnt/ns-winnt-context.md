@@ -4,7 +4,7 @@ title: CONTEXT
 author: windows-sdk-content
 description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.
 old-location: base\context_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: a6c201b3-4402-4de4-89c7-e6e2fbcd27f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

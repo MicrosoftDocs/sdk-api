@@ -4,7 +4,7 @@ title: FILE_REMOTE_PROTOCOL_INFO
 author: windows-sdk-content
 description: Contains file remote protocol information.
 old-location: fs\file_remote_protocol_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ddb555ad-0acb-4538-88ce-a871adfc21fc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

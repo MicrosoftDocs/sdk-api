@@ -4,7 +4,7 @@ title: STACKFRAME
 author: windows-sdk-content
 description: Represents a stack frame.
 old-location: base\stackframe64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 2809e3f1-c64a-4753-9fca-f78e89a878b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

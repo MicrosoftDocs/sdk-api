@@ -4,7 +4,7 @@ title: FILE_IO_PRIORITY_HINT_INFO
 author: windows-sdk-content
 description: Specifies the priority hint for a file I/O operation.
 old-location: fs\file_io_priority_hint_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a142b8fd-b71c-4449-a8c6-fb23715d1576
 ms.author: windowssdkdev
 ms.date: 12/5/2018

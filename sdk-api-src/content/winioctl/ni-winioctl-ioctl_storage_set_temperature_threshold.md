@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 author: windows-sdk-content
 description: Windows applications can use this control code to set the temperature threshold of a device (when it's supported by the device).
 old-location: fs\ioctl_storage_set_temperature_threshold.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6B4BF202-6CC9-4571-9078-019984805F00
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FILE_STREAM_INFO
 author: windows-sdk-content
 description: Receives file stream information for the specified file.
 old-location: fs\file_stream_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 36d1b0b3-bd6b-41e7-937a-4e8deef6f9da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

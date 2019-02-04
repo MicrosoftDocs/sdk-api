@@ -4,7 +4,7 @@ title: VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 author: windows-sdk-content
 description: Contains volume attributes retrieved with the IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code.
 old-location: fs\volume_get_gpt_attributes_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d67590a9-9182-406f-8d15-8d40172cf5e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

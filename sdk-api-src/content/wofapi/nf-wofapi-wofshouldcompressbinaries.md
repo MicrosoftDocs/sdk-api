@@ -4,7 +4,7 @@ title: WofShouldCompressBinaries function
 author: windows-sdk-content
 description: Indicates whether compression should be used on a particular volume, and if so, which compression algorithm should be used.
 old-location: fs\wofshouldcompressbinaries.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

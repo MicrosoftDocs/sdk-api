@@ -4,7 +4,7 @@ title: IDiskQuotaControl::AddUserName
 author: windows-sdk-content
 description: Adds a new quota entry on the volume for the specified user. The user is identified by domain and account name.
 old-location: fs\idiskquotacontrol_addusername.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 306120e8-642a-439d-839c-944cb7fd7ee2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FindVolumeClose function
 author: windows-sdk-content
 description: Closes the specified volume search handle.
 old-location: fs\findvolumeclose.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 091a2f0c-df38-4fef-a926-3507545bb58d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

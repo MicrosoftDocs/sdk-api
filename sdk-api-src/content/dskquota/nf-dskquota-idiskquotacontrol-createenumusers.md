@@ -4,7 +4,7 @@ title: IDiskQuotaControl::CreateEnumUsers
 author: windows-sdk-content
 description: Creates an enumerator object for enumerating quota users on the volume.
 old-location: fs\idiskquotacontrol_createenumusers.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a29e1955-80e2-442d-9565-c885006be565
 ms.author: windowssdkdev
 ms.date: 12/5/2018

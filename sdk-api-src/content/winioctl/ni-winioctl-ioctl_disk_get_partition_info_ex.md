@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_PARTITION_INFO_EX
 author: windows-sdk-content
 description: Retrieves extended information about the type, size, and nature of a disk partition.
 old-location: fs\ioctl_disk_get_partition_info_ex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f84f8be6-2b01-4a20-8669-cb1a55c32907
 ms.author: windowssdkdev
 ms.date: 12/5/2018

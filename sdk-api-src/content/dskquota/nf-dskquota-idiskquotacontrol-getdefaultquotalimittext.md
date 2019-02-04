@@ -4,7 +4,7 @@ title: IDiskQuotaControl::GetDefaultQuotaLimitText
 author: windows-sdk-content
 description: Retrieves the default quota limit for the volume. The limit is expressed as a text string; for example, 10.5 MB.
 old-location: fs\idiskquotacontrol_getdefaultquotalimittext.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a39d457c-9a6f-4d57-a91f-878fcb96916e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

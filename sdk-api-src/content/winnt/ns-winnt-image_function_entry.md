@@ -4,7 +4,7 @@ title: IMAGE_FUNCTION_ENTRY
 author: windows-sdk-content
 description: Represents an entry in the function table.
 old-location: base\image_function_entry_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: ced956ec-7a12-4548-8e38-a1c1057c05e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

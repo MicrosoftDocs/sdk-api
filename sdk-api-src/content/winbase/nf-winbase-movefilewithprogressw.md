@@ -4,7 +4,7 @@ title: MoveFileWithProgressW function
 author: windows-sdk-content
 description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications.
 old-location: fs\movefilewithprogress.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f490aadc-7934-498a-8131-5c1be9e6f1aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

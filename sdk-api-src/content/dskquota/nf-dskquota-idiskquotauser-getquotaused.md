@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetQuotaUsed
 author: windows-sdk-content
 description: Retrieves the user's quota used value on the volume.
 old-location: fs\idiskquotauser_getquotaused.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3787648e-7788-4d09-a236-fe28a693a8ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

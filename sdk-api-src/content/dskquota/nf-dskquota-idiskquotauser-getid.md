@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetID
 author: windows-sdk-content
 description: Retrieves a unique identifier (ID) number for the DiskQuotaUser object.
 old-location: fs\idiskquotauser_getid.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 04f84fd1-9ce4-4daa-91b3-24508f326f84
 ms.author: windowssdkdev
 ms.date: 12/5/2018

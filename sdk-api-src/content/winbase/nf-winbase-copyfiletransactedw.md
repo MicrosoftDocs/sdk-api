@@ -4,7 +4,7 @@ title: CopyFileTransactedW function
 author: windows-sdk-content
 description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
 old-location: fs\copyfiletransacted.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_GROW_PARTITION
 author: windows-sdk-content
 description: Enlarges the specified partition.
 old-location: fs\ioctl_disk_grow_partition.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: bbcb0bee-a507-4abb-83df-328f3aa6caaa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

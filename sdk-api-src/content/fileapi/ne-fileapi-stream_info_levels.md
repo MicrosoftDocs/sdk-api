@@ -4,7 +4,7 @@ title: STREAM_INFO_LEVELS
 author: windows-sdk-content
 description: Defines values that are used with the FindFirstStreamW function to specify the information level of the returned data.
 old-location: fs\stream_info_levels.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 411efcdc-e13a-4f27-a3da-31dff714e415
 ms.author: windowssdkdev
 ms.date: 12/5/2018

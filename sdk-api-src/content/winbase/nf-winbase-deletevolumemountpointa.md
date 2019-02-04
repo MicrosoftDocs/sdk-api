@@ -4,7 +4,7 @@ title: DeleteVolumeMountPointA function
 author: windows-sdk-content
 description: Deletes a drive letter or mounted folder.
 old-location: fs\deletevolumemountpoint.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: b1a0a273-fa7f-4794-8b50-c74f00b0228d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_DELETE_DRIVE_LAYOUT
 author: windows-sdk-content
 description: Removes the boot signature from the master boot record, so that the disk will be formatted from sector zero to the end of the disk.
 old-location: fs\ioctl_disk_delete_drive_layout.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: b790e1f8-9371-4ff9-a820-3ea1af29cc6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

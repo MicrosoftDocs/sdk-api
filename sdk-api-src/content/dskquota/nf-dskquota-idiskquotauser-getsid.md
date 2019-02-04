@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetSid
 author: windows-sdk-content
 description: Retrieves the user's security identifier (SID).
 old-location: fs\idiskquotauser_getsid.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1718b5eb-2385-4e0f-a6af-99a5ef73e55d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: OVERLAPPED_ENTRY
 author: windows-sdk-content
 description: Contains the information returned by a call to the GetQueuedCompletionStatusEx function.
 old-location: fs\overlapped_entry.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3e244e6c-0731-477a-b1d3-2601c29449ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

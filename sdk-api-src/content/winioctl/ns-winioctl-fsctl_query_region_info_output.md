@@ -4,7 +4,7 @@ title: FSCTL_QUERY_REGION_INFO_OUTPUT
 author: windows-sdk-content
 description: Contains information for one or more regions.
 old-location: fs\fsctl_query_region_info_output.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4DF96C7E-9BC3-4EB8-95AD-3E46DA1C435F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

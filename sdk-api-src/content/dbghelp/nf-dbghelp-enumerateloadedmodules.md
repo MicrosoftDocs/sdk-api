@@ -4,7 +4,7 @@ title: EnumerateLoadedModules function
 author: windows-sdk-content
 description: Enumerates the loaded modules for the specified process.
 old-location: base\enumerateloadedmodules64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 9bfa683f-2a0f-418f-8ac4-5c4224265f2e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

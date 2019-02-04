@@ -4,7 +4,7 @@ title: DISK_PERFORMANCE
 author: windows-sdk-content
 description: Provides disk performance information.
 old-location: fs\disk_performance_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 938ec37b-450e-4ebf-ad2b-9f1ac5f56112
 ms.author: windowssdkdev
 ms.date: 12/5/2018

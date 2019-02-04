@@ -4,7 +4,7 @@ title: FILE_ALLOCATION_INFO
 author: windows-sdk-content
 description: Contains the total number of bytes that should be allocated for a file.
 old-location: fs\file_allocation_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 909f1747-0099-407e-89a7-bec6331887da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

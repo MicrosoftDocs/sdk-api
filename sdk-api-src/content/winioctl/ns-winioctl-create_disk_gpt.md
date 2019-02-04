@@ -4,7 +4,7 @@ title: CREATE_DISK_GPT
 author: windows-sdk-content
 description: Contains information used by the IOCTL_DISK_CREATE_DISK control code to initialize GUID partition table (GPT) disks.
 old-location: fs\create_disk_gpt_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 526a265b-e15e-4cd2-adaf-c955a8cb92e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

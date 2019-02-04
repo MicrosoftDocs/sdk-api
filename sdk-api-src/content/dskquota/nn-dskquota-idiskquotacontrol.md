@@ -4,7 +4,7 @@ title: IDiskQuotaControl
 author: windows-sdk-content
 description: Controls the disk quota facilities of a single NTFS file system volume.
 old-location: fs\idiskquotacontrol.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: fc9add5a-c9ef-462d-8125-128d48018717
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STORAGE_SPEC_VERSION
 author: windows-sdk-content
 description: Storage specification version.
 old-location: fs\storage_spec_version.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 470DBBC0-A7D7-42A6-97D0-44AEAC990576
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetVolumeInformationByHandleW function
 author: windows-sdk-content
 description: Retrieves information about the file system and volume associated with the specified file.
 old-location: fs\getvolumeinformationbyhandlew.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 09fab0a4-23fd-4bd9-b9f6-f0d1597ab609
 ms.author: windowssdkdev
 ms.date: 12/5/2018

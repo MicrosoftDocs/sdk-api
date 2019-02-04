@@ -4,7 +4,7 @@ title: STORAGE_PORT_CODE_SET
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_port_code_set.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1c1032e8-30b8-45ad-973a-c7616139b26e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STORAGE_PROPERTY_ID
 author: windows-sdk-content
 description: Enumerates the possible values of the PropertyId member of the STORAGE_PROPERTY_QUERY structure passed as input to the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: fs\storage_property_id.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9747be01-7c70-4697-97f7-e3830b54ba0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

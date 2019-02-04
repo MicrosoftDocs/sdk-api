@@ -4,7 +4,7 @@ title: GetFullPathNameW function
 author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file.
 old-location: fs\getfullpathname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

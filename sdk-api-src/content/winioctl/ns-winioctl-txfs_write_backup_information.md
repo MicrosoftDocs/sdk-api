@@ -4,7 +4,7 @@ title: TXFS_WRITE_BACKUP_INFORMATION
 author: windows-sdk-content
 description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
 old-location: fs\txfs_write_backup_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 777210c4-4e9b-484e-a412-8c807882facb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

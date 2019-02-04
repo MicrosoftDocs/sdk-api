@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_LENGTH_INFO
 author: windows-sdk-content
 description: Retrieves the length of the specified disk, volume, or partition.
 old-location: fs\ioctl_disk_get_length_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8d4bd6e3-f0f3-40d6-b0ba-75155282f64a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

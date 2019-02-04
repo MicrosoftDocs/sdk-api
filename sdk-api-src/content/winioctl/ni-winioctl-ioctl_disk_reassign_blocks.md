@@ -4,7 +4,7 @@ title: IOCTL_DISK_REASSIGN_BLOCKS
 author: windows-sdk-content
 description: Directs the disk device to map one or more blocks to its spare-block pool.
 old-location: fs\ioctl_disk_reassign_blocks.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 57343bc9-9dd4-47a3-8130-07ea330eb4d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

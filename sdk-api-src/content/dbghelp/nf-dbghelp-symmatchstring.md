@@ -4,7 +4,7 @@ title: SymMatchString function
 author: windows-sdk-content
 description: Compares the specified string to the specified wildcard expression.
 old-location: base\symmatchstring.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

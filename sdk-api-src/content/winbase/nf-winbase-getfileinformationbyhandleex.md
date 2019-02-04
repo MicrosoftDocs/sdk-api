@@ -4,7 +4,7 @@ title: GetFileInformationByHandleEx function
 author: windows-sdk-content
 description: Retrieves file information for the specified file.
 old-location: fs\getfileinformationbyhandleex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e261ea45-d084-490e-94b4-129bd76f6a04
 ms.author: windowssdkdev
 ms.date: 12/5/2018

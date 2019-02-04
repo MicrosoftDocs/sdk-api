@@ -4,7 +4,7 @@ title: STORAGE_PHYSICAL_ADAPTER_DATA
 author: windows-sdk-content
 description: Describes a physical storage adapter.
 old-location: fs\storage_physical_adapter_data.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8CC7CF43-61C8-4561-BA9C-473878818858
 ms.author: windowssdkdev
 ms.date: 12/5/2018

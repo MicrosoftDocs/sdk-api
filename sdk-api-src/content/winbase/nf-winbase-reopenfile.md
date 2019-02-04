@@ -4,7 +4,7 @@ title: ReOpenFile function
 author: windows-sdk-content
 description: Reopens the specified file system object with different access rights, sharing mode, and flags.
 old-location: fs\reopenfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 56d8a4b1-e3b5-4134-8d21-bf40761e9dcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

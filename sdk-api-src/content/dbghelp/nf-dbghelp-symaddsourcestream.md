@@ -4,7 +4,7 @@ title: SymAddSourceStream function
 author: windows-sdk-content
 description: Adds the stream to the specified module for use by the Source Server.
 old-location: base\symaddsourcestream.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 1f85a5d3-70dc-430f-9a54-7cc08484ca93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

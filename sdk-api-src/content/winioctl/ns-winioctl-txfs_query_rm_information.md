@@ -4,7 +4,7 @@ title: TXFS_QUERY_RM_INFORMATION
 author: windows-sdk-content
 description: Contains information about the resource manager (RM).
 old-location: fs\txfs_query_rm_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a8dc6b69-306a-4843-b7b5-ea6a1e5068cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

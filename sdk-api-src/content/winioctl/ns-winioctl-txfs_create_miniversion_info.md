@@ -4,7 +4,7 @@ title: TXFS_CREATE_MINIVERSION_INFO
 author: windows-sdk-content
 description: Contains the version information about the miniversion created by FSCTL_TXFS_CREATE_MINIVERSION.
 old-location: fs\txfs_create_miniversion_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 247d1471-08f4-4717-bcd8-be9d01e23d79
 ms.author: windowssdkdev
 ms.date: 12/5/2018

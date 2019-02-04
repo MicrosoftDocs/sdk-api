@@ -4,7 +4,7 @@ title: REPAIR_COPIES_INPUT
 author: windows-sdk-content
 description: Input structure for the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_input.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c3cefb13-4825-4482-a87c-4ba482d3820b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

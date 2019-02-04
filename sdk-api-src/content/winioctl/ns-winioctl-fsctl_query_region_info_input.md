@@ -4,7 +4,7 @@ title: FSCTL_QUERY_REGION_INFO_INPUT
 author: windows-sdk-content
 description: Contains the storage tier regions from the storage stack for a particular volume.
 old-location: fs\fsctl_query_region_info_input.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2D098A85-F1EA-4538-9BFB-E04092497945
 ms.author: windowssdkdev
 ms.date: 12/5/2018

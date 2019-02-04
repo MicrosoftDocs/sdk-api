@@ -4,7 +4,7 @@ title: SymAddSymbol function
 author: windows-sdk-content
 description: Adds a virtual symbol to the specified module.
 old-location: base\symaddsymbol.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 28405993-035f-4946-91c3-0e3e34fd8824
 ms.author: windowssdkdev
 ms.date: 12/5/2018
