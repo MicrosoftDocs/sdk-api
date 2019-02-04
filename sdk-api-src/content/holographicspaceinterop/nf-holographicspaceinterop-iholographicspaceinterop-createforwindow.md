@@ -76,7 +76,7 @@ Type: **HRESULT**
 
 If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -examples
+## -remarks
 
 This example shows how to use **IHolographicSpaceInterop::CreateForWindow** to create and use a [HolographicSpace](/uwp/api/windows.graphics.holographic.holographicspace) for an [HWND](/windows/desktop/winprog/windows-data-types). See the [basic hologram sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/BasicHologram) for more info.
 

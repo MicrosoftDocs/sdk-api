@@ -74,7 +74,7 @@ Type: **HRESULT**
 
 If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
-## -examples
+## -remarks
 
 This example shows how to retrieve a [SpatialInteractionManager](/uwp/api/windows.ui.input.spatial.spatialinteractionmanager) by using **ISpatialInteractionManagerInterop::GetForWindow** to retrieve the **SpatialInteractionManager** for an [HWND](/windows/desktop/winprog/windows-data-types).
 

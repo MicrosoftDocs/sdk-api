@@ -45,7 +45,7 @@ req.redist:
 
 ## -description
 
-Defines constants that identify the top level properties of the [White Level Adjustment effect](/windows/desktop/Direct2D/white-level-adjustment-effect). The effect adjusts the white level of the source image by multiplying the source image color by the ratio of the input and output white levels. Input and output white levels are specified in nits.
+Defines constants that identify the top level properties of the [White level adjustment effect](/windows/desktop/Direct2D/white-level-adjustment-effect). The effect adjusts the white level of the source image by multiplying the source image color by the ratio of the input and output white levels. Input and output white levels are specified in nits.
 
 ## -enum-fields
 
