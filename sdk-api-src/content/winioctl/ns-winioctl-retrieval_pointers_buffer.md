@@ -4,7 +4,7 @@ title: RETRIEVAL_POINTERS_BUFFER
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTERS control code.
 old-location: fs\retrieval_pointers_buffer_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ce6ac9c7-6fce-4019-83cf-2f0250d12339
 ms.author: windowssdkdev
 ms.date: 12/5/2018

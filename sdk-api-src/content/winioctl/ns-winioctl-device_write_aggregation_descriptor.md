@@ -4,7 +4,7 @@ title: DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\device_write_aggregation_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 124f05bc-6c3f-4778-9cc0-5a55891cb141
 ms.author: windowssdkdev
 ms.date: 12/5/2018

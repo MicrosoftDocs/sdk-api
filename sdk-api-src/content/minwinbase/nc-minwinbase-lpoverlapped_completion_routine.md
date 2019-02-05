@@ -4,7 +4,7 @@ title: LPOVERLAPPED_COMPLETION_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the ReadFileEx and WriteFileEx functions. It is called when the asynchronous input and output (I/O) operation is completed or canceled and the calling thread is in an alertable state.
 old-location: fs\fileiocompletionroutine.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 574eccda-03eb-4e8a-9d74-cfaecc7312ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RtlCaptureContext function
 author: windows-sdk-content
 description: Retrieves a context record in the context of the caller.
 old-location: base\rtlcapturecontext.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e2ce0cde-43ab-4681-be66-bd7509fd6ca2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

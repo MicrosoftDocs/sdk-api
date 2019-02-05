@@ -4,7 +4,7 @@ title: FILE_END_OF_FILE_INFO
 author: windows-sdk-content
 description: Contains the specified value to which the end of the file should be set.
 old-location: fs\file_end_of_file_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 77500ae7-654a-4b34-aaee-5c3844303271
 ms.author: windowssdkdev
 ms.date: 12/5/2018

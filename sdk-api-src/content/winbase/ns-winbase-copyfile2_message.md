@@ -4,7 +4,7 @@ title: COPYFILE2_MESSAGE
 author: windows-sdk-content
 description: Passed to the CopyFile2ProgressRoutine callback function with information about a pending copy operation.
 old-location: fs\copyfile2_message.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ab841bee-90a0-4beb-99d3-764e608c3872
 ms.author: windowssdkdev
 ms.date: 12/5/2018

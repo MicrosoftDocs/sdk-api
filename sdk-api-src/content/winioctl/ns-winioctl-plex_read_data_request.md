@@ -4,7 +4,7 @@ title: PLEX_READ_DATA_REQUEST
 author: windows-sdk-content
 description: Indicates the range of the read operation to perform and the plex from which to read.
 old-location: fs\plex_read_data_request_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: efabc8f3-1596-4a6a-86a3-ecd5b3d934d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EXIT_PROCESS_DEBUG_INFO
 author: windows-sdk-content
 description: Contains the exit code for a terminating process.
 old-location: base\exit_process_debug_info_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 91a7f4bf-88c7-4a57-b0d0-0d379d967baf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

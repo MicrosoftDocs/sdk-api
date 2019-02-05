@@ -4,7 +4,7 @@ title: STORAGE_TEMPERATURE_INFO
 author: windows-sdk-content
 description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_temperature_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 236B4AC7-AF5E-4556-9FFD-D64C450E6492
 ms.author: windowssdkdev
 ms.date: 12/5/2018

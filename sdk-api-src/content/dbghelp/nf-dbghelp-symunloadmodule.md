@@ -4,7 +4,7 @@ title: SymUnloadModule function
 author: windows-sdk-content
 description: Unloads the symbol table.
 old-location: base\symunloadmodule64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f4801039-eba2-4ec3-8c23-706ab89bb442
 ms.author: windowssdkdev
 ms.date: 12/5/2018

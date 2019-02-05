@@ -4,7 +4,7 @@ title: SetFileApisToOEM function
 author: windows-sdk-content
 description: Causes the file I/O functions for the process to use the OEM character set code page.
 old-location: fs\setfileapistooem.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 15f657d8-075a-4f0c-a653-73273ea62f5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

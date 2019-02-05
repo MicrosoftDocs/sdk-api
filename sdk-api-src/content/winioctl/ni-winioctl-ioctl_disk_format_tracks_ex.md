@@ -4,7 +4,7 @@ title: IOCTL_DISK_FORMAT_TRACKS_EX
 author: windows-sdk-content
 description: Formats a specified, contiguous set of tracks on a floppy disk.
 old-location: fs\ioctl_disk_format_tracks_ex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 50ca069e-efc5-46d8-bf8f-ff44e1593a76
 ms.author: windowssdkdev
 ms.date: 12/5/2018

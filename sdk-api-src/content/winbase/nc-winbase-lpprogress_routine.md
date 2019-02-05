@@ -4,7 +4,7 @@ title: LPPROGRESS_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the CopyFileEx, MoveFileTransacted, and MoveFileWithProgress functions.
 old-location: fs\copyprogressroutine.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2c02b212-d4ac-4b01-8955-2561d8c42b1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

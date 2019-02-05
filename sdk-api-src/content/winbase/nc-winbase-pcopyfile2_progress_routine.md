@@ -4,7 +4,7 @@ title: PCOPYFILE2_PROGRESS_ROUTINE
 author: windows-sdk-content
 description: An application-defined callback function used with the CopyFile2 function.
 old-location: fs\copyfile2progressroutine.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d14b5f5b-c353-49e8-82bb-a695a3ec76fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_PROTOCOL_COMMAND
 author: windows-sdk-content
 description: Windows applications can use this control code to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter.
 old-location: fs\ioctl_storage_protocol_command.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 77027740-CDFD-422A-B458-C36B2E346EFD
 ms.author: windowssdkdev
 ms.date: 12/5/2018

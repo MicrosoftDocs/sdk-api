@@ -4,7 +4,7 @@ title: PFUNCTION_TABLE_ACCESS_ROUTINE64
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It provides access to the run-time function table for the process.
 old-location: base\functiontableaccessproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 387c20b0-ed16-463c-8b11-3ac9a43548a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

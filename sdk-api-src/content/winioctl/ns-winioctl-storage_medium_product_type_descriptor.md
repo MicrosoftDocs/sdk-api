@@ -4,7 +4,7 @@ title: STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
 old-location: fs\storage_medium_product_type_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4845F541-D822-4DD0-8F52-9923B067A4F8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

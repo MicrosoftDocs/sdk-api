@@ -4,7 +4,7 @@ title: MODULE_WRITE_FLAGS
 author: windows-sdk-content
 description: Identifies the type of module information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\module_write_flags.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f074edb2-2cd7-44f6-994b-c649201c1e9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

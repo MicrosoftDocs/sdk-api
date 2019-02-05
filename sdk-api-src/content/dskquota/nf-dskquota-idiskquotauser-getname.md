@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetName
 author: windows-sdk-content
 description: Retrieves the name strings associated with a disk quota user.
 old-location: fs\idiskquotauser_getname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d47e064a-d121-41c3-b713-f81ff7052abf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

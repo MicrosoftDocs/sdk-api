@@ -4,7 +4,7 @@ title: STORAGE_COMPONENT_HEALTH_STATUS
 author: windows-sdk-content
 description: Specifies the health status of a storage component.
 old-location: fs\storage_component_health_status.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ECC5A745-EA8B-4FBE-840D-0D959C9ED5BA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FILE_NAME_INFO
 author: windows-sdk-content
 description: Receives the file name.
 old-location: fs\file_name_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7ab98f41-b99e-4731-b803-921064a961c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

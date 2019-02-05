@@ -4,7 +4,7 @@ title: FindFirstFileW function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
 old-location: fs\findfirstfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

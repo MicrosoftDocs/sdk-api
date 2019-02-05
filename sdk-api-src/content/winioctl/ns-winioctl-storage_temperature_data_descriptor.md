@@ -4,7 +4,7 @@ title: STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 author: windows-sdk-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return temperature data from a storage device or adapter.
 old-location: fs\storage_temperature_data_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E155B31F-6543-42E3-BCAB-B1B0100D23E4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

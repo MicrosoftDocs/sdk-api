@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetAccountStatus
 author: windows-sdk-content
 description: Retrieves the status of the user object's account.
 old-location: fs\idiskquotauser_getaccountstatus.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d4027660-beb1-45eb-9dd3-f4c12df28051
 ms.author: windowssdkdev
 ms.date: 12/5/2018

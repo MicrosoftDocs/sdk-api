@@ -4,7 +4,7 @@ title: DRIVE_LAYOUT_INFORMATION
 author: windows-sdk-content
 description: Contains information about the partitions of a drive.
 old-location: fs\drive_layout_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e67ccaa7-a735-4695-8385-28f57b41821c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

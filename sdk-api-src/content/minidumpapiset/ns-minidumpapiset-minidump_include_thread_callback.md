@@ -4,7 +4,7 @@ title: MINIDUMP_INCLUDE_THREAD_CALLBACK
 author: windows-sdk-content
 description: Contains information for the MiniDumpCallback function when the callback type is IncludeThreadCallback.
 old-location: base\minidump_include_thread_callback_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 4695b739-9af4-4bb8-b7d6-409942bc1932
 ms.author: windowssdkdev
 ms.date: 12/5/2018

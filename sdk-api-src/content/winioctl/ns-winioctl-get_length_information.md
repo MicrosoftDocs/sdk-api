@@ -4,7 +4,7 @@ title: GET_LENGTH_INFORMATION
 author: windows-sdk-content
 description: Contains disk, volume, or partition length information used by the IOCTL_DISK_GET_LENGTH_INFO control code.
 old-location: fs\get_length_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a0d2a5bc-32e0-47d6-a4f0-84bd7f6bb746
 ms.author: windowssdkdev
 ms.date: 12/5/2018

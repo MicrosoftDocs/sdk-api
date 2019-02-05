@@ -4,7 +4,7 @@ title: AddUsersToEncryptedFile function
 author: windows-sdk-content
 description: Adds user keys to the specified encrypted file.
 old-location: fs\adduserstoencryptedfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a92d6a52-20d1-4d5c-a222-ab9afaf85c4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

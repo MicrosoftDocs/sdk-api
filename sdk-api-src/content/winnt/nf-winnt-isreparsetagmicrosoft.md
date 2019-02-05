@@ -4,7 +4,7 @@ title: IsReparseTagMicrosoft macro
 author: windows-sdk-content
 description: Determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: fs\isreparsetagmicrosoft.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f64378a7-084e-41c7-9331-dcffa11e0ae9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

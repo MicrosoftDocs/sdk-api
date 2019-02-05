@@ -4,7 +4,7 @@ title: IOCTL_DISK_PERFORMANCE_OFF
 author: windows-sdk-content
 description: Disables the performance counters that provide disk performance information.
 old-location: fs\ioctl_disk_performance_off.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 68f4f6fb-a4f3-4fa5-8187-b2287a4271e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

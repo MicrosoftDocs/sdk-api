@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_DATA_DESCRIPTOR
 author: windows-sdk-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return protocol-specific data from a storage device or adapter.
 old-location: fs\storage_protocol_data_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: BCA56343-9FB4-4079-9DB1-5DD55529B586
 ms.author: windowssdkdev
 ms.date: 12/5/2018

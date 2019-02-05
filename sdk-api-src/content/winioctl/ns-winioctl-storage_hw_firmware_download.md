@@ -4,7 +4,7 @@ title: STORAGE_HW_FIRMWARE_DOWNLOAD
 author: windows-sdk-content
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: fs\storage_hw_firmware_download.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: BD1D39C7-9624-400C-BF4D-5F7583AA82FB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

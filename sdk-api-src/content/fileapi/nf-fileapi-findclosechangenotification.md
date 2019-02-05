@@ -4,7 +4,7 @@ title: FindCloseChangeNotification function
 author: windows-sdk-content
 description: Stops change notification handle monitoring.
 old-location: fs\findclosechangenotification.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 17ca915c-3891-41f0-8816-6ac31c957afe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

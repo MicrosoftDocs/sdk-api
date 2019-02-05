@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetSidLength
 author: windows-sdk-content
 description: Retrieves the length of the user's security identifier (SID), in bytes.
 old-location: fs\idiskquotauser_getsidlength.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 68fcb122-5d61-464a-99ae-d99e0d4a8117
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NTFS_STATISTICS_EX
 author: windows-sdk-content
 description: Contains statistical information from the NTFS file system.Support for this structure started with Windows 10.
 old-location: fs\ntfs_statistics_ex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: D1A6995C-A4BA-4ECC-892A-196581FA41CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

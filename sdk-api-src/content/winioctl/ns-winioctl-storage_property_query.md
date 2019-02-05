@@ -4,7 +4,7 @@ title: STORAGE_PROPERTY_QUERY
 author: windows-sdk-content
 description: Indicates the properties of a storage device or adapter to retrieve as the input buffer passed to the IOCTL_STORAGE_QUERY_PROPERTY control code.
 old-location: fs\storage_property_query.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c97a14ab-628c-41f1-96c3-0f47654d0606
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FILE_ID_TYPE
 author: windows-sdk-content
 description: Discriminator for the union in the FILE_ID_DESCRIPTOR structure.
 old-location: fs\file_id_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7e46ba94-e3cd-4d6c-962f-5d5bd55d45a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

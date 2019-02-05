@@ -4,7 +4,7 @@ title: CSV_QUERY_MDS_PATH
 author: windows-sdk-content
 description: Contains the path that is used by CSV to communicate to the MDS.
 old-location: fs\csv_query_mds_path.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 478AE3FD-1668-46CE-876D-51E4BB679C87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

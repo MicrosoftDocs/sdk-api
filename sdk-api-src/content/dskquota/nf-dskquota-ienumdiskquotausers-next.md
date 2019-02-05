@@ -4,7 +4,7 @@ title: IEnumDiskQuotaUsers::Next
 author: windows-sdk-content
 description: Retrieves the specified number of user quota entries that are next in the enumeration sequence.
 old-location: fs\ienumdiskquotausers_next.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 498e7c21-b18a-4d43-bbe6-9f20c2e26221
 ms.author: windowssdkdev
 ms.date: 12/5/2018

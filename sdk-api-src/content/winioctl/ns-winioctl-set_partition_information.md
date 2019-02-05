@@ -4,7 +4,7 @@ title: SET_PARTITION_INFORMATION
 author: windows-sdk-content
 description: Contains information used to set a disk partition's type.
 old-location: fs\set_partition_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: cc04868c-cb9c-455f-a0df-bde6a133eb60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_OFFLINE
 author: windows-sdk-content
 description: Takes a volume offline.
 old-location: fs\ioctl_volume_offline.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

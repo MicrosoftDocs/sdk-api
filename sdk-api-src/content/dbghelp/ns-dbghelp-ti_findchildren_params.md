@@ -4,7 +4,7 @@ title: TI_FINDCHILDREN_PARAMS
 author: windows-sdk-content
 description: Contains type index information. It is used by the SymGetTypeInfo function.
 old-location: base\ti_findchildren_params_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 618717d2-879d-4284-a4c2-0a5102698ed9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NTFS_FILE_RECORD_INPUT_BUFFER
 author: windows-sdk-content
 description: Contains data for the FSCTL_GET_NTFS_FILE_RECORD control code.
 old-location: fs\ntfs_file_record_input_buffer_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8b0317ca-6d0e-4a04-a05a-1627d22171e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

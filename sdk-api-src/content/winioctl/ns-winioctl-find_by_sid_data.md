@@ -4,7 +4,7 @@ title: FIND_BY_SID_DATA
 author: windows-sdk-content
 description: Contains data for the FSCTL_FIND_FILES_BY_SID control code.
 old-location: fs\find_by_sid_data.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: fd0294a1-be43-4353-8edc-dff8bf0b0787
 ms.author: windowssdkdev
 ms.date: 12/5/2018

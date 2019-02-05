@@ -4,7 +4,7 @@ title: WOF_FILE_COMPRESSION_INFO_V1
 author: windows-sdk-content
 description: Defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: fs\wof_file_compression_info_v1.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 84FC5525-43BC-436C-AADC-C58882D48C1F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: LOOKUP_STREAM_FROM_CLUSTER_ENTRY
 author: windows-sdk-content
 description: Returned from the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
 old-location: fs\lookup_stream_from_cluster_entry.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2f4de631-8bb4-4b2a-a750-43f06554b22f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ImageDirectoryEntryToDataEx function
 author: windows-sdk-content
 description: Locates a directory entry within the image header and returns the address of the data for the directory entry. This function returns the section header for the data located, if one exists.
 old-location: base\imagedirectoryentrytodataex.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b768a89e-c3bc-43f8-b3be-7e9d99e3504c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

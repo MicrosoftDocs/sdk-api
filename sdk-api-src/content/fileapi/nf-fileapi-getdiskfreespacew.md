@@ -4,7 +4,7 @@ title: GetDiskFreeSpaceW function
 author: windows-sdk-content
 description: Retrieves information about the specified disk, including the amount of free space on the disk.
 old-location: fs\getdiskfreespace.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4fe14c49-3fd6-48b7-92de-a0c867b2e042
 ms.author: windowssdkdev
 ms.date: 12/5/2018

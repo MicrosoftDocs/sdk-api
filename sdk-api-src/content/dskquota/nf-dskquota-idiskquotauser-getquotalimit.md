@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetQuotaLimit
 author: windows-sdk-content
 description: Retrieves the user's quota limit value on the volume.
 old-location: fs\idiskquotauser_getquotalimit.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 77b9099c-7696-47d8-ac08-b58a329909ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

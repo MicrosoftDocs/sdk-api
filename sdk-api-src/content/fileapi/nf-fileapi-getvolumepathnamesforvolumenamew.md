@@ -4,7 +4,7 @@ title: GetVolumePathNamesForVolumeNameW function
 author: windows-sdk-content
 description: Retrieves a list of drive letters and mounted folder paths for the specified volume.
 old-location: fs\getvolumepathnamesforvolumename.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 067904c1-d3e1-4cfd-ac63-6ef32d9a2513
 ms.author: windowssdkdev
 ms.date: 12/5/2018

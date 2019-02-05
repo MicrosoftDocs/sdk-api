@@ -4,7 +4,7 @@ title: MFT_ENUM_DATA_V0
 author: windows-sdk-content
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records.
 old-location: fs\mft_enum_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: bd098d10-b30f-44b0-a379-2d57e33fe1c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

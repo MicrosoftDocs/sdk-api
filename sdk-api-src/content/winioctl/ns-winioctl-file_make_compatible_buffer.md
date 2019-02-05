@@ -4,7 +4,7 @@ title: FILE_MAKE_COMPATIBLE_BUFFER
 author: windows-sdk-content
 description: Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling FSCTL_MAKE_MEDIA_COMPATIBLE.
 old-location: fs\file_make_compatible_buffer.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1c7b1958-099f-404d-a060-99efc543a3c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

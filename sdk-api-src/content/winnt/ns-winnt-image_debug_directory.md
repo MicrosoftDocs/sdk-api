@@ -4,7 +4,7 @@ title: IMAGE_DEBUG_DIRECTORY
 author: windows-sdk-content
 description: Represents the debug directory format.
 old-location: base\image_debug_directory_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f89a3c9b-4d73-4ff5-8f45-2e58500d5084
 ms.author: windowssdkdev
 ms.date: 12/5/2018

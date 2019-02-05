@@ -4,7 +4,7 @@ title: CREATE_DISK_MBR
 author: windows-sdk-content
 description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize master boot record (MBR) disks.
 old-location: fs\create_disk_mbr_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6b475622-371d-4097-9de1-6ef31af76322
 ms.author: windowssdkdev
 ms.date: 12/5/2018

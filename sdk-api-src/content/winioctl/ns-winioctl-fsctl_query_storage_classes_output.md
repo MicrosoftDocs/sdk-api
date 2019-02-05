@@ -4,7 +4,7 @@ title: FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 author: windows-sdk-content
 description: Contains information for all tiers of a specific volume.
 old-location: fs\fsctl_query_storage_classes_output.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 376B457C-2D54-47D0-A80A-16A03DA6A2EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

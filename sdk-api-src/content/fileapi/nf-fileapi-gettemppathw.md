@@ -4,7 +4,7 @@ title: GetTempPathW function
 author: windows-sdk-content
 description: Retrieves the path of the directory designated for temporary files.
 old-location: fs\gettemppath.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: fb366f0d-df6b-44c2-92c9-b7a8e2583054
 ms.author: windowssdkdev
 ms.date: 12/5/2018

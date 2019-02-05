@@ -4,7 +4,7 @@ title: STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_device_resiliency_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7ef6d99a-3e2c-44de-ab08-260e8ddc02f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

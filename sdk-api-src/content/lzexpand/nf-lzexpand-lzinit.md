@@ -4,7 +4,7 @@ title: LZInit function
 author: windows-sdk-content
 description: Allocates memory for the internal data structures required to decompress files, and then creates and initializes them.
 old-location: fs\lzinit.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

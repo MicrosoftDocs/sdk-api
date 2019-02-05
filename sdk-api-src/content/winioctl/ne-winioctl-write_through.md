@@ -4,7 +4,7 @@ title: WRITE_THROUGH
 author: windows-sdk-content
 description: Specifies whether a storage device supports write-through caching.
 old-location: fs\write_through.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8bb26be1-ad02-4cf0-8505-021f922f34bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

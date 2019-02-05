@@ -4,7 +4,7 @@ title: IDiskQuotaUser
 author: windows-sdk-content
 description: Represents a single user quota entry in the volume quota information file.
 old-location: fs\idiskquotauser.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 27edbebc-35b4-4f6a-87cc-d8a99782f405
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetImageConfigInformation function
 author: windows-sdk-content
 description: Locates and changes the load configuration data of an image.
 old-location: base\setimageconfiginformation.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 396af0c0-2fb1-418b-bc2b-9e9eb63174bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

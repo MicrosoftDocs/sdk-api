@@ -4,7 +4,7 @@ title: CSV_IS_OWNED_BY_CSVFS
 author: windows-sdk-content
 description: Contains the output for the FSCTL_IS_VOLUME_OWNED_BYCSVFS control code that determines whether a volume is owned by CSVFS.
 old-location: fs\csv_is_owned_by_csvfs.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: F189E0F9-F711-4AB6-8237-775855FCD290
 ms.author: windowssdkdev
 ms.date: 12/5/2018

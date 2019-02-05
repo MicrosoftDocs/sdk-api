@@ -4,7 +4,7 @@ title: DISK_DETECTION_INFO
 author: windows-sdk-content
 description: Contains detected drive parameters.
 old-location: fs\disk_detection_info_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 57ca68f4-f748-4bc4-90c3-13d545716d87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

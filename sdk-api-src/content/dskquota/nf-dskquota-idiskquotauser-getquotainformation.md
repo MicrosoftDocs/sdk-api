@@ -4,7 +4,7 @@ title: IDiskQuotaUser::GetQuotaInformation
 author: windows-sdk-content
 description: Retrieves the values for the user's warning threshold, hard quota limit, and quota used.
 old-location: fs\idiskquotauser_getquotainformation.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d1640803-965a-473c-bf10-bee51d47fcfa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

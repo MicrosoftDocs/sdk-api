@@ -4,7 +4,7 @@ title: REPARSE_GUID_DATA_BUFFER
 author: windows-sdk-content
 description: Contains information about a reparse point.
 old-location: fs\reparse_guid_data_buffer_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2d49c1bc-0b1d-40b1-a3a2-6b30f0b3cca0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

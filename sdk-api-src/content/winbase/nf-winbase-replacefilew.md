@@ -4,7 +4,7 @@ title: ReplaceFileW function
 author: windows-sdk-content
 description: Replaces one file with another file, with the option of creating a backup copy of the original file.
 old-location: fs\replacefile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 23402a71-e945-4891-9815-c75e57051501
 ms.author: windowssdkdev
 ms.date: 12/5/2018

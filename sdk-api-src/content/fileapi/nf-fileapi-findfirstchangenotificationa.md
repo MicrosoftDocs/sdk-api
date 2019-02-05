@@ -4,7 +4,7 @@ title: FindFirstChangeNotificationA function
 author: windows-sdk-content
 description: Creates a change notification handle and sets up initial change notification filter conditions.
 old-location: fs\findfirstchangenotification.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: dde4dd17-0f8c-41b5-8685-4e4c6b3def3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DELETE_USN_JOURNAL_DATA
 author: windows-sdk-content
 description: Contains information on the deletion of an update sequence number (USN) change journal using the FSCTL_DELETE_USN_JOURNAL control code.
 old-location: fs\delete_usn_journal_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 06db4b46-fc91-40e0-ab0b-1e014622ae22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

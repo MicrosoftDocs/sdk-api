@@ -4,7 +4,7 @@ title: DISK_PARTITION_INFO
 author: windows-sdk-content
 description: Contains the disk partition information.
 old-location: fs\disk_partition_info_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 34a086fc-72ea-46ed-adb3-c084abcb3c74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

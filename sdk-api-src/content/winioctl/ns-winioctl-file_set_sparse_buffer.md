@@ -4,7 +4,7 @@ title: FILE_SET_SPARSE_BUFFER
 author: windows-sdk-content
 description: Specifies the sparse state to be set.
 old-location: fs\file_set_sparse_buffer.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f9c24156-bcd6-423e-b055-18651f4e185e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

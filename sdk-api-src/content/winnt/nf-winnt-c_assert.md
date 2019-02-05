@@ -4,7 +4,7 @@ title: C_ASSERT macro
 author: windows-sdk-content
 description: Checks assertions at compile time.
 old-location: base\c_assert.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RETRIEVAL_POINTER_BASE
 author: windows-sdk-content
 description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTER_BASE control code.
 old-location: fs\retrieval_pointer_base.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e0a779fb-6c46-4831-95dc-968e17f86a81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

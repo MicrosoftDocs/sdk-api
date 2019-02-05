@@ -4,7 +4,7 @@ title: FILE_NOTIFY_EXTENDED_INFORMATION
 author: windows-sdk-content
 description: Describes the changes found by the ReadDirectoryChangesExW function.
 old-location: fs\file_notify_extended_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4558F2E8-F515-4202-9CAA-FDAF20160F61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

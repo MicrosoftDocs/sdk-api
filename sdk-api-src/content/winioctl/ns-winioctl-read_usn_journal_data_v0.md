@@ -4,7 +4,7 @@ title: READ_USN_JOURNAL_DATA_V0
 author: windows-sdk-content
 description: Contains information defining a set of update sequence number (USN) change journal records to return to the calling process.
 old-location: fs\read_usn_journal_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f88e71ba-6099-4928-9d71-732a4ca809bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

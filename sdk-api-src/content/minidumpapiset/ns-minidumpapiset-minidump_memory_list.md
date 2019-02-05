@@ -4,7 +4,7 @@ title: MINIDUMP_MEMORY_LIST
 author: windows-sdk-content
 description: Contains a list of memory ranges.
 old-location: base\minidump_memory_list_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 83a38831-fb90-495c-9f5d-90971849a7a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

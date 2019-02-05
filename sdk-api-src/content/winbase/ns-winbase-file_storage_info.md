@@ -4,7 +4,7 @@ title: FILE_STORAGE_INFO
 author: windows-sdk-content
 description: Contains directory information for a file.
 old-location: fs\file_storage_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1aa9585d-9001-4d94-babe-a39c8dde2332
 ms.author: windowssdkdev
 ms.date: 12/5/2018

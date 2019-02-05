@@ -4,7 +4,7 @@ title: TXFS_LIST_TRANSACTIONS_ENTRY
 author: windows-sdk-content
 description: Contains information about a transaction.
 old-location: fs\txfs_list_transactions_entry.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7de14fb1-1972-4bf0-b0e2-f0344e963eef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

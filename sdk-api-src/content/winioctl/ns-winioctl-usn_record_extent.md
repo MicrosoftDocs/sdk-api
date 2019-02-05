@@ -4,7 +4,7 @@ title: USN_RECORD_EXTENT
 author: windows-sdk-content
 description: Contains the offset and length for an update sequence number (USN) record extent.
 old-location: fs\usn_record_extent.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7D569FCB-06D4-4348-B75A-D087D1D37851
 ms.author: windowssdkdev
 ms.date: 12/5/2018

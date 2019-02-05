@@ -4,7 +4,7 @@ title: SymCleanup function
 author: windows-sdk-content
 description: Deallocates all resources associated with the process handle.
 old-location: base\symcleanup.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

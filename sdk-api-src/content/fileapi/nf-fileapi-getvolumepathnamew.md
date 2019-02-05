@@ -4,7 +4,7 @@ title: GetVolumePathNameW function
 author: windows-sdk-content
 description: Retrieves the volume mount point where the specified path is mounted.
 old-location: fs\getvolumepathname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: fa34786c-af82-4b59-bf36-e9a95a2f913e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

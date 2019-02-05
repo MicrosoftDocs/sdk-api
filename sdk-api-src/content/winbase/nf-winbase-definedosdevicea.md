@@ -4,7 +4,7 @@ title: DefineDosDeviceA function
 author: windows-sdk-content
 description: Defines, redefines, or deletes MS-DOS device names.
 old-location: fs\definedosdevice.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 924b1456-b2c5-4d52-aacf-6172608c73ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

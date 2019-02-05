@@ -4,7 +4,7 @@ title: PARTITION_INFORMATION
 author: windows-sdk-content
 description: Contains information about a disk partition.
 old-location: fs\partition_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2c8fa83a-0694-4e17-a9e4-87f839a0d458
 ms.author: windowssdkdev
 ms.date: 12/5/2018

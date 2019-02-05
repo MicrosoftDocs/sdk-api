@@ -4,7 +4,7 @@ title: COPYFILE2_MESSAGE_TYPE
 author: windows-sdk-content
 description: Indicates the type of message passed in the COPYFILE2_MESSAGE structure to the CopyFile2ProgressRoutine callback function.
 old-location: fs\copyfile2_message_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3a16ca3b-79af-4064-82d5-c073d2aa531c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

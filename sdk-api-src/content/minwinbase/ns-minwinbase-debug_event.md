@@ -4,7 +4,7 @@ title: DEBUG_EVENT
 author: windows-sdk-content
 description: Describes a debugging event.
 old-location: base\debug_event_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 056aa7ee-51ca-48ec-9cd7-26085bb85b11
 ms.author: windowssdkdev
 ms.date: 12/5/2018

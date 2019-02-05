@@ -4,7 +4,7 @@ title: FormatMessage function
 author: windows-sdk-content
 description: Formats a message string.
 old-location: base\formatmessage.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

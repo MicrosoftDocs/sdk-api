@@ -4,7 +4,7 @@ title: TXFS_GET_METADATA_INFO_OUT
 author: windows-sdk-content
 description: Contains the version information about the miniversion that is created.
 old-location: fs\txfs_get_metadata_info_out.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 138fbd75-9d2e-4969-84a7-3cebde683d93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

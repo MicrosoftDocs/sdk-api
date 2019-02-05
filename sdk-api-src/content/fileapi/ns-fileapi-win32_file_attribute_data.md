@@ -4,7 +4,7 @@ title: WIN32_FILE_ATTRIBUTE_DATA
 author: windows-sdk-content
 description: Contains attribute information for a file or directory.
 old-location: fs\win32_file_attribute_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e1a7fb5c-2d69-40e3-b9d8-b583a03d828a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

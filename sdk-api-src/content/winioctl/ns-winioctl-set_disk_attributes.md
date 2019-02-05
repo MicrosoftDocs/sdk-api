@@ -4,7 +4,7 @@ title: SET_DISK_ATTRIBUTES
 author: windows-sdk-content
 description: Specifies the attributes to be set on a disk device.
 old-location: fs\set_disk_attributes.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2caa79aa-24f9-481d-bbe3-ecd3e49bf316
 ms.author: windowssdkdev
 ms.date: 12/5/2018

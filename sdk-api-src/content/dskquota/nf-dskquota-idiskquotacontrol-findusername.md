@@ -4,7 +4,7 @@ title: IDiskQuotaControl::FindUserName
 author: windows-sdk-content
 description: Locates a specific entry in the volume quota information.
 old-location: fs\idiskquotacontrol_findusername.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: dae4e2d4-0293-4ee4-9687-9fed4b3a3600
 ms.author: windowssdkdev
 ms.date: 12/5/2018

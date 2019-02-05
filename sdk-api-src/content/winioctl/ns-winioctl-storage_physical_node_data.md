@@ -4,7 +4,7 @@ title: STORAGE_PHYSICAL_NODE_DATA
 author: windows-sdk-content
 description: Specifies the physical device data of a storage node.
 old-location: fs\storage_physical_node_data.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 66B5C1F8-A741-4CAD-B717-CB91B0D5655F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

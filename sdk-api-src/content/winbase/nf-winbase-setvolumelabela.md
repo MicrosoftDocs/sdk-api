@@ -4,7 +4,7 @@ title: SetVolumeLabelA function
 author: windows-sdk-content
 description: Sets the label of a file system volume.
 old-location: fs\setvolumelabel.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
 ms.author: windowssdkdev
 ms.date: 12/5/2018

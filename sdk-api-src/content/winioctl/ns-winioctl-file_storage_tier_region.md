@@ -4,7 +4,7 @@ title: FILE_STORAGE_TIER_REGION
 author: windows-sdk-content
 description: Describes a single storage tier region.
 old-location: fs\file_storage_tier_region.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 5178A987-397A-44E5-9485-221D72490124
 ms.author: windowssdkdev
 ms.date: 12/5/2018

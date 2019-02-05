@@ -4,7 +4,7 @@ title: SetSearchPathMode function
 author: windows-sdk-content
 description: Sets the per-process mode that the SearchPath function uses when locating files.
 old-location: fs\setsearchpathmode.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1874933d-92c3-4945-a3e4-e6dede232d5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: EXCEPTION_POINTERS
 author: windows-sdk-content
 description: Contains an exception record with a machine-independent description of an exception and a context record with a machine-dependent description of the processor context at the time of the exception.
 old-location: base\exception_pointers_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 57e8cb3a-1b11-45b9-9676-3b6dc600d225
 ms.author: windowssdkdev
 ms.date: 12/5/2018

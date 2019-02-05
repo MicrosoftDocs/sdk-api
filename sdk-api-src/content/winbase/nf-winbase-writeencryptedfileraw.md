@@ -4,7 +4,7 @@ title: WriteEncryptedFileRaw function
 author: windows-sdk-content
 description: Restores (import) encrypted files.
 old-location: fs\writeencryptedfileraw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f44e291e-dbc6-4a44-92ba-92a81e043764
 ms.author: windowssdkdev
 ms.date: 12/5/2018

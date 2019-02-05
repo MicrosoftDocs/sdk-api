@@ -4,7 +4,7 @@ title: DIGEST_FUNCTION
 author: windows-sdk-content
 description: An application-defined callback function used by the ImageGetDigestStream function to process data.
 old-location: base\digestfunction.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 4d5d2593-d9e2-43e8-914b-11f578192085
 ms.author: windowssdkdev
 ms.date: 12/5/2018

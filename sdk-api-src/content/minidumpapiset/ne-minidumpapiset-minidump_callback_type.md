@@ -4,7 +4,7 @@ title: MINIDUMP_CALLBACK_TYPE
 author: windows-sdk-content
 description: Identifies the type of information returned by the MiniDumpCallback function.
 old-location: base\minidump_callback_type.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: c970564d-e1f0-4317-bf66-752b98767451
 ms.author: windowssdkdev
 ms.date: 12/5/2018

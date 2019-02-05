@@ -4,7 +4,7 @@ title: STORAGE_QUERY_TYPE
 author: windows-sdk-content
 description: Used by the STORAGE_PROPERTY_QUERY structure passed to the IOCTL_STORAGE_QUERY_PROPERTY control code to indicate what information is returned about a property of a storage device or adapter.
 old-location: fs\storage_query_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0bce42d2-9d42-4881-9e33-4b3858a40353
 ms.author: windowssdkdev
 ms.date: 12/5/2018

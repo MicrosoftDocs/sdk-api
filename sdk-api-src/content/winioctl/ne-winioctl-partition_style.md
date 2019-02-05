@@ -4,7 +4,7 @@ title: PARTITION_STYLE
 author: windows-sdk-content
 description: Represents the format of a partition.
 old-location: fs\partition_style_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 254e4ea1-d0c8-4033-b8af-e5dbfb7c7da8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

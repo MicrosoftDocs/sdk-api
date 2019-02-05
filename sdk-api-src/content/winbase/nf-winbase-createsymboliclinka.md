@@ -4,7 +4,7 @@ title: CreateSymbolicLinkA function
 author: windows-sdk-content
 description: Creates a symbolic link.
 old-location: fs\createsymboliclink.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
 ms.author: windowssdkdev
 ms.date: 12/5/2018

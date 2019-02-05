@@ -4,7 +4,7 @@ title: GetFileSizeEx function
 author: windows-sdk-content
 description: Retrieves the size of the specified file.
 old-location: fs\getfilesizeex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 782457bc-8f37-4eec-8ff3-b148fd0a7345
 ms.author: windowssdkdev
 ms.date: 12/5/2018

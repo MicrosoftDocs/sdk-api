@@ -4,7 +4,7 @@ title: MINIDUMP_HANDLE_OBJECT_INFORMATION_TYPE
 author: windows-sdk-content
 description: Identifies the type of object-specific information.
 old-location: base\minidump_handle_object_information_type.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 255023e3-0412-42c8-ae80-eba5f00af5ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

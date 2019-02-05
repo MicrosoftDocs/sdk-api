@@ -4,7 +4,7 @@ title: FindFirstStreamW function
 author: windows-sdk-content
 description: Enumerates the first stream with a ::$DATA stream type in the specified file or directory.
 old-location: fs\findfirststreamw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: aab3af94-a2e0-45ad-a846-f457408a19d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

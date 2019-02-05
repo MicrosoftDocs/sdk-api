@@ -4,7 +4,7 @@ title: FILE_LEVEL_TRIM_RANGE
 author: windows-sdk-content
 description: Specifies a range of a file that is to be trimmed.
 old-location: fs\file_level_trim_range.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2ee14239-68bb-40f6-b10b-2500d316dcc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

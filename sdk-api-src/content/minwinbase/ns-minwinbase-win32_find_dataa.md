@@ -4,7 +4,7 @@ title: WIN32_FIND_DATAA
 author: windows-sdk-content
 description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function.
 old-location: fs\win32_find_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: eb700d84-0ba5-4af8-a619-2d2544560dbc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_NVME_DATA_TYPE
 author: windows-sdk-content
 description: Describes the type of NVMe protocol-specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_protocol_nvme_data_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: BB171CEE-1CB7-44AC-9F39-87394EFAFAEC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

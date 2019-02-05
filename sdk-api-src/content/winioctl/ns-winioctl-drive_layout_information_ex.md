@@ -4,7 +4,7 @@ title: DRIVE_LAYOUT_INFORMATION_EX
 author: windows-sdk-content
 description: Contains extended information about a drive's partitions.
 old-location: fs\drive_layout_information_ex_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 381c87a8-fe40-4251-a4df-dddc9e2a126d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

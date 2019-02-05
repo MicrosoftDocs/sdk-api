@@ -4,7 +4,7 @@ title: USN_JOURNAL_DATA_V1
 author: windows-sdk-content
 description: Represents an update sequence number (USN) change journal, its records, and its capacity.
 old-location: fs\usn_journal_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6b75eab2-aa10-4b48-8918-e4b03b5d8564
 ms.author: windowssdkdev
 ms.date: 12/5/2018

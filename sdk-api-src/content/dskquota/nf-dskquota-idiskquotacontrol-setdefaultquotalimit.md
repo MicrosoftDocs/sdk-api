@@ -4,7 +4,7 @@ title: IDiskQuotaControl::SetDefaultQuotaLimit
 author: windows-sdk-content
 description: Modifies the default quota limit.
 old-location: fs\idiskquotacontrol_setdefaultquotalimit.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2e4d8d04-dff2-477f-a5b2-8c8415cb3b52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

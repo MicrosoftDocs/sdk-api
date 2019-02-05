@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_PARTITION_INFO
 author: windows-sdk-content
 description: Retrieves information about the type, size, and nature of a disk partition.
 old-location: fs\ioctl_disk_get_partition_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 24053a1a-8cf8-4aa8-a611-15c9fae0a36d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

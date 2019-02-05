@@ -4,7 +4,7 @@ title: SymSrvIsStore function
 author: windows-sdk-content
 description: Determines whether the specified path points to a symbol store.
 old-location: base\symsrvisstore.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 7fbec886-c1b7-4d17-9813-af7812b4abb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

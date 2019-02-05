@@ -4,7 +4,7 @@ title: FILE_INFO_BY_HANDLE_CLASS
 author: windows-sdk-content
 description: Identifies the type of file information that GetFileInformationByHandleEx should retrieve or SetFileInformationByHandle should set.
 old-location: fs\file_info_by_handle_class.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8f02e824-ca41-48c1-a5e8-5b12d81886b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

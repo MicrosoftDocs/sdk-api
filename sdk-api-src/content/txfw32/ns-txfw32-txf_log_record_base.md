@@ -4,7 +4,7 @@ title: TXF_LOG_RECORD_BASE
 author: windows-sdk-content
 description: Contains the basic record information.
 old-location: fs\txf_log_record_base.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: b891f763-13dd-4b40-aff3-3fccb693d76a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

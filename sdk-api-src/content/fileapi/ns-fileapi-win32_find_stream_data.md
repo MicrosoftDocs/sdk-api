@@ -4,7 +4,7 @@ title: WIN32_FIND_STREAM_DATA
 author: windows-sdk-content
 description: Contains information about the stream found by the FindFirstStreamW or FindNextStreamW function.
 old-location: fs\win32_find_stream_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f21f5161-10a8-474c-85d8-dde075b9daff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

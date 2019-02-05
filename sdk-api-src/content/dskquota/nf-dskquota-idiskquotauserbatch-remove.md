@@ -4,7 +4,7 @@ title: IDiskQuotaUserBatch::Remove
 author: windows-sdk-content
 description: Removes an IDiskQuotaUser pointer from the batch list.
 old-location: fs\idiskquotauserbatch_remove.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 102e9a07-9958-4d47-acd3-6b81e83a5ea7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

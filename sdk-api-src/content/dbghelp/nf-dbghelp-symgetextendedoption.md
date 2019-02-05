@@ -4,7 +4,7 @@ title: SymGetExtendedOption function
 author: windows-sdk-content
 description: Gets whether the specified extended symbol option on or off.
 old-location: base\symgetextendedoption.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 3D6D5E31-ECCB-48B2-A46B-0BB2D7A2DEC0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

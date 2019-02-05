@@ -4,7 +4,7 @@ title: USN_JOURNAL_DATA_V2
 author: windows-sdk-content
 description: Represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the FSCTL_QUERY_USN_JOURNAL control code.
 old-location: fs\usn_journal_data_v2.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: BBFA6D14-1423-45B0-83A0-62019D08507F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

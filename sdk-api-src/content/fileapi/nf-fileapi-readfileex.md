@@ -4,7 +4,7 @@ title: ReadFileEx function
 author: windows-sdk-content
 description: Reads data from the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when reading is completed or canceled and the calling thread is in an alertable wait state.
 old-location: fs\readfileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6c1a4de1-6cae-4c35-bfba-0bc252fadbd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

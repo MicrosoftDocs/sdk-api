@@ -4,7 +4,7 @@ title: MoveFileTransactedW function
 author: windows-sdk-content
 description: Moves an existing file or a directory, including its children, as a transacted operation.
 old-location: fs\movefiletransacted.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 466d733b-30d2-4297-a0e6-77038f1a21d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDiskQuotaUser::SetQuotaLimit
 author: windows-sdk-content
 description: Sets the user's quota limit value on the volume.
 old-location: fs\idiskquotauser_setquotalimit.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f7c99415-685b-4a21-ac7b-68f4816aafb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

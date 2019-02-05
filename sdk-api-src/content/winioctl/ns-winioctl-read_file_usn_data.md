@@ -4,7 +4,7 @@ title: READ_FILE_USN_DATA
 author: windows-sdk-content
 description: Specifies the versions of the update sequence number (USN) change journal supported by the application.
 old-location: fs\read_file_usn_data.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8c403eec-7504-4a69-9f05-7a3a164557a6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

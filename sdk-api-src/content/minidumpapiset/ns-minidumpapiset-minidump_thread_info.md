@@ -4,7 +4,7 @@ title: MINIDUMP_THREAD_INFO
 author: windows-sdk-content
 description: Contains thread state information.
 old-location: base\minidump_thread_info_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 855bbccb-a7c8-4744-b314-8692f785b1c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

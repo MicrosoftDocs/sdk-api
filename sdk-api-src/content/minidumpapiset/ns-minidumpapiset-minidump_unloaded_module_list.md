@@ -4,7 +4,7 @@ title: MINIDUMP_UNLOADED_MODULE_LIST
 author: windows-sdk-content
 description: Contains a list of unloaded modules.
 old-location: base\minidump_unloaded_module_list_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 26a42ae7-f84d-451d-92e9-dbaffb15ca74
 ms.author: windowssdkdev
 ms.date: 12/5/2018

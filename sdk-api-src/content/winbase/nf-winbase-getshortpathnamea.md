@@ -4,7 +4,7 @@ title: GetShortPathNameA function
 author: windows-sdk-content
 description: Retrieves the short path form of the specified path.
 old-location: fs\getshortpathname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

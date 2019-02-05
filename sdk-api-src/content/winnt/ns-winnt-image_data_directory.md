@@ -4,7 +4,7 @@ title: IMAGE_DATA_DIRECTORY
 author: windows-sdk-content
 description: Represents the data directory.
 old-location: base\image_data_directory_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 06d53806-d3a3-4990-bc9a-3a3004e60a3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

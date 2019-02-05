@@ -4,7 +4,7 @@ title: GetVolumeInformationW function
 author: windows-sdk-content
 description: Retrieves information about the file system and volume associated with the specified root directory.
 old-location: fs\getvolumeinformation.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c80a38e1-319e-4f15-8c8a-9d29075e1709
 ms.author: windowssdkdev
 ms.date: 12/5/2018

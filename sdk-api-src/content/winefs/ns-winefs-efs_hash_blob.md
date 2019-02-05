@@ -4,7 +4,7 @@ title: EFS_HASH_BLOB
 author: windows-sdk-content
 description: Contains a certificate hash.
 old-location: fs\efs_hash_blob_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 23a172be-6e94-4a1f-afde-fc9437443c7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: COPYFILE2_COPY_PHASE
 author: windows-sdk-content
 description: Indicates the phase of a copy at the time of an error.
 old-location: fs\copyfile2_copy_phase.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 92bf9028-78a3-4ea3-bfbb-b53a8df557ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

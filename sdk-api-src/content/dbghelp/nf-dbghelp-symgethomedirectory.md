@@ -4,7 +4,7 @@ title: SymGetHomeDirectory function
 author: windows-sdk-content
 description: Retrieves the home directory used by Dbghelp.
 old-location: base\symgethomedirectory.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587
 ms.author: windowssdkdev
 ms.date: 12/5/2018

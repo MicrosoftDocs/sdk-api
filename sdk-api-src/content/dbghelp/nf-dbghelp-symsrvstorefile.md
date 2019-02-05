@@ -4,7 +4,7 @@ title: SymSrvStoreFile function
 author: windows-sdk-content
 description: Stores a file in the specified symbol store.
 old-location: base\symsrvstorefile.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 308ce0bb-d5ff-4de0-b5b3-9e26aa7b163a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

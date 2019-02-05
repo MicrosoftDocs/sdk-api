@@ -4,7 +4,7 @@ title: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 author: windows-sdk-content
 description: Input buffer passed with the FSCTL_SET_INTEGRITY_INFORMATION control code.
 old-location: fs\fsctl_set_integrity_information_buffer.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e5f6c4c5-86cb-4e95-bc24-05d2bea37bc8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

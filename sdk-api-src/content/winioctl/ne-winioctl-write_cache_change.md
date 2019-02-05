@@ -4,7 +4,7 @@ title: WRITE_CACHE_CHANGE
 author: windows-sdk-content
 description: Indicates whether the write cache features of a device are changeable.
 old-location: fs\write_cache_change.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a6974092-fa4f-4524-96ec-b4fad0b8c5ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

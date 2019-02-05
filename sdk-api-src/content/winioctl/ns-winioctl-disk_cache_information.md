@@ -4,7 +4,7 @@ title: DISK_CACHE_INFORMATION
 author: windows-sdk-content
 description: Provides information about the disk cache.
 old-location: fs\disk_cache_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96
 ms.author: windowssdkdev
 ms.date: 12/5/2018

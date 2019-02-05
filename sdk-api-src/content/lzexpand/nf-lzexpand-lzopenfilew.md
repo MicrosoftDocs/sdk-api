@@ -4,7 +4,7 @@ title: LZOpenFileW function
 author: windows-sdk-content
 description: Creates, opens, reopens, or deletes the specified file.
 old-location: fs\lzopenfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6ab3c81c-88f2-4b87-84b1-5b64848af043
 ms.author: windowssdkdev
 ms.date: 12/5/2018

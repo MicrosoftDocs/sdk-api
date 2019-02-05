@@ -4,7 +4,7 @@ title: SHRINK_VOLUME_INFORMATION
 author: windows-sdk-content
 description: Specifies the volume shrink operation to perform.
 old-location: fs\shrink_volume_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 91e2c4a1-7b95-49d9-9f28-c3ce4355f1ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

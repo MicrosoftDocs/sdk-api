@@ -4,7 +4,7 @@ title: LZRead function
 author: windows-sdk-content
 description: Reads (at most) the specified number of bytes from a file and copies them into a buffer.
 old-location: fs\lzread.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 15c6829f-2e24-4299-a2fa-a5737ec73ba9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MEDIA_TYPE
 author: windows-sdk-content
 description: Represents the various forms of device media.
 old-location: fs\media_type_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 183cf8fc-c17b-4def-b590-0aa4b67488f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STORAGE_DEVICE_DESCRIPTOR
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the storage device descriptor data for a device.
 old-location: fs\storage_device_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f84f8a88-b6fc-4b22-b858-52955c8d537d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

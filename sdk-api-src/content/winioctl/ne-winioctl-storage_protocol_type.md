@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_TYPE
 author: windows-sdk-content
 description: Specifies the protocol of a storage device.
 old-location: fs\storage_protocol_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8055B633-99EF-4AAE-AA80-FC09F357BEAB
 ms.author: windowssdkdev
 ms.date: 12/5/2018
