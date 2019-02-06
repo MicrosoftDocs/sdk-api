@@ -51,14 +51,14 @@ Defines constants that identify the top level properties of the [HDR tone map ef
 
 ### -field D2D1_HDRTONEMAP_PROP_INPUT_MAX_LUMINANCE (0)
 
-Identifies the `InputMaxLuminance` property of the effect. The property is of type **FLOAT**, and is specified in nits.
+Identifies the `InputMaxLuminance` property of the effect. The property is of type FLOAT, and is specified in nits.
 
 ### -field D2D1_HDRTONEMAP_PROP_OUTPUT_MAX_LUMINANCE (1)
 
-Identifies the `OutputMaxLuminance` property of the effect. The property is of type **FLOAT**, and is specified in nits.
+Identifies the `OutputMaxLuminance` property of the effect. The property is of type FLOAT, and is specified in nits.
 
 ### -field D2D1_HDRTONEMAP_PROP_DISPLAY_MODE (2)
 
-Identifies the `DisplayMode` property of the effect. The property is of type [D2D1_HDRTONEMAP_DISPLAY_MODE](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode).
+Identifies the `DisplayMode` property of the effect. The property is of type <a href="/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_hdrtonemap_display_mode"><strong>D2D1_HDRTONEMAP_DISPLAY_MODE</strong></a>.
 
 ### -field D2D1_HDRTONEMAP_PROP_FORCE_DWORD (0xFFFFFFFF)

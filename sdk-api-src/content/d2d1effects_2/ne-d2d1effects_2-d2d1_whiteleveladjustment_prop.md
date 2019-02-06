@@ -51,10 +51,10 @@ Defines constants that identify the top level properties of the [White level adj
 
 ### -field D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL (0)
 
-Identifies the `InputWhiteLevel` property of the effect. The property is of type **FLOAT**, and is specified in nits.
+Identifies the `InputWhiteLevel` property of the effect. The property is of type FLOAT, and is specified in nits.
 
 ### -field D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL (1)
 
-Identifies the `OutputWhiteLevel` property of the effect. The property is of type **FLOAT**, and is specified in nits.
+Identifies the `OutputWhiteLevel` property of the effect. The property is of type FLOAT, and is specified in nits.
 
 ### -field D2D1_WHITELEVELADJUSTMENT_PROP_FORCE_DWORD (0xFFFFFFFF)
