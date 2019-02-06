@@ -4,7 +4,7 @@ title: RemoveDirectoryA function
 author: windows-sdk-content
 description: Deletes an existing empty directory.
 old-location: fs\removedirectory.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetUserFileEncryptionKey function
 author: windows-sdk-content
 description: Sets the user's current key to the specified certificate.
 old-location: fs\setuserfileencryptionkey.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: dd23fab7-1675-4d0d-911c-e2aac2273e7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FILE_ALIGNMENT_INFO
 author: windows-sdk-content
 description: Contains alignment information for a file.
 old-location: fs\file_alignment_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a6d3cba0-d59b-45c2-a763-ecdde5b36348
 ms.author: windowssdkdev
 ms.date: 12/5/2018

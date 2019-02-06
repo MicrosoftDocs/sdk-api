@@ -4,7 +4,7 @@ title: WofWimRemoveEntry function
 author: windows-sdk-content
 description: Removes a single WIM data source from backing files on a volume.
 old-location: fs\wofwimremoveentry.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: B376EDF7-8C46-4C8B-900E-0DC79699EC1E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

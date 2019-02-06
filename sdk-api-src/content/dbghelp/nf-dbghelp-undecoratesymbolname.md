@@ -4,7 +4,7 @@ title: UnDecorateSymbolName function
 author: windows-sdk-content
 description: Undecorates the specified decorated C++ symbol name.
 old-location: base\undecoratesymbolname.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f52e8e3b-3113-4d8c-b44a-846c574cfbd8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

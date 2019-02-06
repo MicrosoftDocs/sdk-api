@@ -4,7 +4,7 @@ title: MINIDUMP_EXCEPTION_STREAM
 author: windows-sdk-content
 description: Represents an exception information stream.
 old-location: base\minidump_exception_stream_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 2de717dc-a9ac-4b81-9fab-992f22da9a0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WofWimEnumFiles function
 author: windows-sdk-content
 description: Enumerates all of the files which are being backed by a specified WIM data source on a specified volume.
 old-location: fs\wofwimenumfiles.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: D95F344F-762F-4F3C-ADAE-0A20BAE448F2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

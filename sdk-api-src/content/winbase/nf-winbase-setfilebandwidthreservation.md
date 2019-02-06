@@ -4,7 +4,7 @@ title: SetFileBandwidthReservation function
 author: windows-sdk-content
 description: Requests that bandwidth for the specified file stream be reserved. The reservation is specified as a number of bytes in a period of milliseconds for I/O requests on the specified file handle.
 old-location: fs\setfilebandwidthreservation_func.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a22bd8f3-4fbf-4f77-b8b6-7e786942615a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

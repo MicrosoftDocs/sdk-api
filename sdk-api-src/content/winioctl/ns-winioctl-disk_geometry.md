@@ -4,7 +4,7 @@ title: DISK_GEOMETRY
 author: windows-sdk-content
 description: Describes the geometry of disk devices and media.
 old-location: fs\disk_geometry_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 5e5955b4-1319-42c9-9df8-9910c05dec69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

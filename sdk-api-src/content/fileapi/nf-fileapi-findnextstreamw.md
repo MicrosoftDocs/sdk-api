@@ -4,7 +4,7 @@ title: FindNextStreamW function
 author: windows-sdk-content
 description: Continues a stream search started by a previous call to the FindFirstStreamW function.
 old-location: fs\findnextstreamw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2bb0301c-b2be-4056-913c-e4102386135e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

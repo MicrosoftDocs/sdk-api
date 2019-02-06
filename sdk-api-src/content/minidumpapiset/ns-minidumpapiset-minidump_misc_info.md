@@ -4,7 +4,7 @@ title: MINIDUMP_MISC_INFO
 author: windows-sdk-content
 description: Contains a variety of information.
 old-location: base\minidump_misc_info_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: c80bb631-b26b-40d4-ae35-1cf38ce45d51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

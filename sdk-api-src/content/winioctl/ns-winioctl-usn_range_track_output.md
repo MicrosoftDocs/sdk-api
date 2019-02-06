@@ -4,7 +4,7 @@ title: USN_RANGE_TRACK_OUTPUT
 author: windows-sdk-content
 description: Contains returned update sequence number (USN) from FSCTL_USN_TRACK_MODIFIED_RANGES control code.
 old-location: fs\usn_range_track_output.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E10ECB50-A506-4836-81D2-3073FBB844CA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

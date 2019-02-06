@@ -4,7 +4,7 @@ title: IMAGEHLP_GET_TYPE_INFO_PARAMS
 author: windows-sdk-content
 description: Contains type information for a module.
 old-location: base\imagehlp_get_type_info_params_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f3885945-9a96-49d9-a535-7b37220e1da4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

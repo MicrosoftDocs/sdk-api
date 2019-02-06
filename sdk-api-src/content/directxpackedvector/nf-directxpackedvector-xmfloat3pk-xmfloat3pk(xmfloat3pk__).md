@@ -2,13 +2,13 @@
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK &&)
 title: XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&)
 author: windows-sdk-content
-description: Default constructor for XMFLOAT3PK.
-old-location: dxmath\xmfloat3pk_ctor_1.htm
+description: Assigns the vector component data from one instance of XMFLOAT3SE to the current instance of XMFLOAT3SE.
+old-location: dxmath\xmfloat3se_operator_eq_1.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.#ctor
+ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.operator = (const XMFLOAT3SE)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: XMFLOAT3PK, XMFLOAT3PK constructor [DirectX Math Support APIs], XMFLOAT3PK constructor [DirectX Math Support APIs],XMFLOAT3PK structure, XMFLOAT3PK structure [DirectX Math Support APIs],XMFLOAT3PK constructor, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(), XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK &&), XMFLOAT3PK::XMFLOAT3PK, XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&), dxmath.xmfloat3pk_ctor_1
+ms.keywords: XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK, XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK &&), XMFLOAT3PK::XMFLOAT3PK, XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&), XMFLOAT3SE structure [DirectX Math Support APIs],operator = method, XMFLOAT3SE.operator =(const XMFLOAT3SE&), dxmath.xmfloat3se_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3SE structure
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -35,7 +35,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3PK.XMFLOAT3PK
+ - XMFLOAT3SE.operator =
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -48,10 +48,12 @@ req.redist:
 ## -description
 
 
-Default constructor for <code>XMFLOAT3PK</code>.
+Assigns the vector component data from one instance of <code>XMFLOAT3SE</code> to the current
+	instance of <code>XMFLOAT3SE</code>.
+    
 
-Default constructor for <a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>.
-<div class="alert"><b>Note</b>  This constructor is only available under C++.</div><div> </div>
+This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a> to the current instance of <code>XMFLOAT3SE</code>.
+<div class="alert"><b>Note</b>  This operator is only available under C++.</div><div> </div>
 
 ## -parameters
 
@@ -65,13 +67,19 @@ TBD
 
 
 
-## -remarks
+#### - float3se [ref]
+
+Instance of <code>XMFLOAT3SE</code> used to update the current <code>XMFLOAT3SE</code> structure.
+      
+
+
+## -returns
 
 
 
-<code>XMFLOAT3PK()</code> constructs a new instance of the <code>XMFLOAT3PK</code> structure without
-    defining the value of any of its members.
-   
+The current instance of <code>XMFLOAT3SE</code> whose vector component data has been updated
+	  to match those of the <code>XMFLOAT3SE</code> instance specified by the <b>float3se</b>argument.
+      
 
 
 
@@ -85,11 +93,11 @@ TBD
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419478(v=VS.85).aspx">XMFLOAT3PK</a>
+<a href="https://msdn.microsoft.com/A0FE96C6-42AB-411D-874E-E02E0E81CAF0">XMFLOAT3SE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415282(v=VS.85).aspx">XMFLOAT3PK Constructors</a>
+<a href="https://msdn.microsoft.com/e3c74a38-65ab-48ac-931d-1fc66ec04d74">operator = </a>
  
 
  

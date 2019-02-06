@@ -4,7 +4,7 @@ title: FORMAT_EX_PARAMETERS
 author: windows-sdk-content
 description: Contains information used in formatting a contiguous set of disk tracks. It is used by the IOCTL_DISK_FORMAT_TRACKS_EX control code.
 old-location: fs\format_ex_parameters_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e508106c-a77a-476f-ba71-ea8f9a2d94d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

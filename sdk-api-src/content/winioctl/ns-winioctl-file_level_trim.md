@@ -4,7 +4,7 @@ title: FILE_LEVEL_TRIM
 author: windows-sdk-content
 description: Used as input to the FSCTL_FILE_LEVEL_TRIM control code.
 old-location: fs\file_level_trim.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: db3ac916-83e7-4aa1-b5aa-dab139a0a21a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

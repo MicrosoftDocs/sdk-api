@@ -4,7 +4,7 @@ title: STORAGE_DEVICE_POWER_CAP_UNITS
 author: windows-sdk-content
 description: The units of the maximum power threshold.
 old-location: fs\storage_device_power_cap_units.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: A6C48765-9A18-4F77-8B0F-9653CE6FDE23
 ms.author: windowssdkdev
 ms.date: 12/5/2018

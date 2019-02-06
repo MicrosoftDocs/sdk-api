@@ -4,7 +4,7 @@ title: SetFileCompletionNotificationModes function
 author: windows-sdk-content
 description: Sets the notification modes for a file handle, allowing you to specify how completion notifications work for the specified file.
 old-location: fs\setfilecompletionnotificationmodes_func.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 23796484-ee47-4f80-856d-5a5d5635547c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

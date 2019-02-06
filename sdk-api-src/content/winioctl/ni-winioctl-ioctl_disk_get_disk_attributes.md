@@ -4,7 +4,7 @@ title: IOCTL_DISK_GET_DISK_ATTRIBUTES
 author: windows-sdk-content
 description: Retrieves the attributes of the specified disk device.
 old-location: fs\ioctl_disk_get_disk_attributes.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3fa9fabb-91ef-4306-90b6-c3dd17f3e298
 ms.author: windowssdkdev
 ms.date: 12/5/2018

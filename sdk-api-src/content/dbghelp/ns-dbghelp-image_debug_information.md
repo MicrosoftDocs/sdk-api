@@ -4,7 +4,7 @@ title: IMAGE_DEBUG_INFORMATION
 author: windows-sdk-content
 description: Contains debugging information.
 old-location: base\image_debug_information_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f8db7695-4967-45c0-a6bf-019e825bd9ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

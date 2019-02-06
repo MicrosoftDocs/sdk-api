@@ -4,7 +4,7 @@ title: RtlAddFunctionTable function
 author: windows-sdk-content
 description: Adds a dynamic function table to the dynamic function table list.
 old-location: base\rtladdfunctiontable.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 4717f29e-c5f8-4b02-a7c8-edd065f1c793
 ms.author: windowssdkdev
 ms.date: 12/5/2018

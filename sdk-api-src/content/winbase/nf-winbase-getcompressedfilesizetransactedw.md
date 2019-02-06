@@ -4,7 +4,7 @@ title: GetCompressedFileSizeTransactedW function
 author: windows-sdk-content
 description: Retrieves the actual number of bytes of disk storage used to store a specified file as a transacted operation.
 old-location: fs\getcompressedfilesizetransacted.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
 ms.author: windowssdkdev
 ms.date: 12/5/2018

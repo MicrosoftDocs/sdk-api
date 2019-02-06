@@ -4,7 +4,7 @@ title: ENCRYPTION_CERTIFICATE
 author: windows-sdk-content
 description: Contains a certificate and the SID of its owner.
 old-location: fs\encryption_certificate_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 33b36659-48bb-4297-8142-f8702db03d20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

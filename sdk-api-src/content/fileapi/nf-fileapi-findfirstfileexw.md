@@ -4,7 +4,7 @@ title: FindFirstFileExW function
 author: windows-sdk-content
 description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.
 old-location: fs\findfirstfileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9f40e98f-153f-4b65-afd9-06742684c100
 ms.author: windowssdkdev
 ms.date: 12/5/2018

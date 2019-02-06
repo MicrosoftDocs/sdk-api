@@ -4,7 +4,7 @@ title: FindVolumeMountPointClose function
 author: windows-sdk-content
 description: Closes the specified mounted folder search handle.
 old-location: fs\findvolumemountpointclose.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f0f09a9d-e463-4457-9078-3d324fa8d4d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

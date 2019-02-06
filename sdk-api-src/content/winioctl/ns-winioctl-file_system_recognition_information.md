@@ -4,7 +4,7 @@ title: FILE_SYSTEM_RECOGNITION_INFORMATION
 author: windows-sdk-content
 description: Contains file system recognition information retrieved by the FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control code.
 old-location: fs\file_system_recognition_information.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 27d9fd2b-d4c6-4237-8c15-0fa97b63b991
 ms.author: windowssdkdev
 ms.date: 12/5/2018

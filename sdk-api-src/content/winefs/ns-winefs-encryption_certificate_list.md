@@ -4,7 +4,7 @@ title: ENCRYPTION_CERTIFICATE_LIST
 author: windows-sdk-content
 description: Contains a list of certificates.
 old-location: fs\encryption_certificate_list_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e1914b96-2fba-49ed-9dd2-464659323eda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

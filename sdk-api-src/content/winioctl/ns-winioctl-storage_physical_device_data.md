@@ -4,7 +4,7 @@ title: STORAGE_PHYSICAL_DEVICE_DATA
 author: windows-sdk-content
 description: Describes a physical storage device.
 old-location: fs\storage_physical_device_data.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4B484F79-DDC8-4671-90EA-D793EA0A05C7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

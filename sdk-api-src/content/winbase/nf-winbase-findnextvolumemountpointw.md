@@ -4,7 +4,7 @@ title: FindNextVolumeMountPointW function
 author: windows-sdk-content
 description: Continues a mounted folder search started by a call to the FindFirstVolumeMountPoint function.
 old-location: fs\findnextvolumemountpoint.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 299e2fed-74d8-4008-b593-981c52016532
 ms.author: windowssdkdev
 ms.date: 12/5/2018

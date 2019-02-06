@@ -4,7 +4,7 @@ title: VOLUME_DISK_EXTENTS
 author: windows-sdk-content
 description: Represents a physical location on a disk.
 old-location: fs\volume_disk_extents_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3f38f03c-1b99-4072-904c-dca1b98a245c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

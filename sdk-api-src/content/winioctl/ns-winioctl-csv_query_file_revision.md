@@ -4,7 +4,7 @@ title: CSV_QUERY_FILE_REVISION
 author: windows-sdk-content
 description: Contains information about whether files in a stream have been modified.
 old-location: fs\csv_query_file_revision.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8CF62F9F-9429-435A-B79D-3A97249356A5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

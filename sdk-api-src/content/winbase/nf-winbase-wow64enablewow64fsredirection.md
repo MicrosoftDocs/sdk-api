@@ -4,7 +4,7 @@ title: Wow64EnableWow64FsRedirection function
 author: windows-sdk-content
 description: Enables or disables file system redirection for the calling thread.
 old-location: fs\wow64enablewow64fsredirection.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDiskQuotaUserBatch::FlushToDisk
 author: windows-sdk-content
 description: Writes user object changes to disk in a single call to the underlying file system.
 old-location: fs\idiskquotauserbatch_flushtodisk.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2d147224-64d8-4c15-b860-e6dd216cb170
 ms.author: windowssdkdev
 ms.date: 12/5/2018

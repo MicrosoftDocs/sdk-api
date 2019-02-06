@@ -4,7 +4,7 @@ title: SetFileAttributesTransactedA function
 author: windows-sdk-content
 description: Sets the attributes for a file or directory as a transacted operation.
 old-location: fs\setfileattributestransacted.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e25e77b2-a6ad-4ce4-8589-d7ff6c4074f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

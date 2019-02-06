@@ -4,7 +4,7 @@ title: IDiskQuotaControl::GetDefaultQuotaThresholdText
 author: windows-sdk-content
 description: Retrieves the default warning threshold for the volume.
 old-location: fs\idiskquotacontrol_getdefaultquotathresholdtext.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: faeb2fc5-92b0-49bf-a233-6b21683693bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: Beep function
 author: windows-sdk-content
 description: Generates simple tones on the speaker.
 old-location: base\beep.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: ea74fe2a-759e-4466-bef4-6061643ddd26
 ms.author: windowssdkdev
 ms.date: 12/5/2018

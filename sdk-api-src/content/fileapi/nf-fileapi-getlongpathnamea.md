@@ -4,7 +4,7 @@ title: GetLongPathNameA function
 author: windows-sdk-content
 description: Converts the specified path to its long form.
 old-location: fs\getlongpathname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

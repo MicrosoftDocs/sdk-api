@@ -4,7 +4,7 @@ title: WofSetFileDataLocation function
 author: windows-sdk-content
 description: Used to change a file from being backed by a physical file to one backed by a system data provider.
 old-location: fs\wofsetfiledatalocation.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E5BDD684-46AC-40C0-89FC-DFABBB6AB72C
 ms.author: windowssdkdev
 ms.date: 12/5/2018

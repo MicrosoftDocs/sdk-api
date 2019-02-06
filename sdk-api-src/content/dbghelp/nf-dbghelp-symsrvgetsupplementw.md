@@ -4,7 +4,7 @@ title: SymSrvGetSupplementW function
 author: windows-sdk-content
 description: Retrieves the specified file from the supplement for a symbol store.
 old-location: base\symsrvgetsupplement.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

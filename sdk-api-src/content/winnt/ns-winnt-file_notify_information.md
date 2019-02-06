@@ -4,7 +4,7 @@ title: FILE_NOTIFY_INFORMATION
 author: windows-sdk-content
 description: Describes the changes found by the ReadDirectoryChangesW function.
 old-location: fs\file_notify_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: cb95352f-8a15-48d8-9150-e4bc395e0122
 ms.author: windowssdkdev
 ms.date: 12/5/2018

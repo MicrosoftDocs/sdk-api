@@ -4,7 +4,7 @@ title: LDT_ENTRY
 author: windows-sdk-content
 description: Describes an entry in the descriptor table. This structure is valid only on x86-based systems.
 old-location: base\ldt_entry_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: e4c470ee-63e5-4a00-8c69-76cadd490439
 ms.author: windowssdkdev
 ms.date: 12/5/2018

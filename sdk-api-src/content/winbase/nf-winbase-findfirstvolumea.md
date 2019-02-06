@@ -4,7 +4,7 @@ title: FindFirstVolumeA function
 author: windows-sdk-content
 description: Retrieves the name of a volume on a computer.
 old-location: fs\findfirstvolume.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3eaf9903-ae20-47e7-b32c-943bf60e7bbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

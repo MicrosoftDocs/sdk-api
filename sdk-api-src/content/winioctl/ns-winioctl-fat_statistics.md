@@ -4,7 +4,7 @@ title: FAT_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the FAT file system.
 old-location: fs\fat_statistics_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 98d293e8-e708-48f5-99b1-603f27e6ef16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

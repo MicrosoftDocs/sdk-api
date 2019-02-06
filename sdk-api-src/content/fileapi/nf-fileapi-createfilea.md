@@ -4,7 +4,7 @@ title: CreateFileA function
 author: windows-sdk-content
 description: Creates or opens a file or I/O device. The most commonly used I/O devices are as follows:\_file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe.
 old-location: fs\createfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 80a96083-4de9-4422-9705-b8ad2b6cbd1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

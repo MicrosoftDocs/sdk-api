@@ -4,7 +4,7 @@ title: REASSIGN_BLOCKS_EX
 author: windows-sdk-content
 description: Contains disk block reassignment data.
 old-location: fs\reassign_blocks_ex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 48036bdc-3588-41a6-9dbb-4606bdfcb683
 ms.author: windowssdkdev
 ms.date: 12/5/2018

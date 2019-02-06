@@ -4,7 +4,7 @@ title: IOCTL_VOLUME_ONLINE
 author: windows-sdk-content
 description: Brings a volume online.
 old-location: fs\ioctl_volume_online.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: fa857959-c10e-4c64-8249-4bbf44e15eb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

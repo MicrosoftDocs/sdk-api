@@ -4,7 +4,7 @@ title: NTFS_FILE_RECORD_OUTPUT_BUFFER
 author: windows-sdk-content
 description: Receives output data from the FSCTL_GET_NTFS_FILE_RECORD control code.
 old-location: fs\ntfs_file_record_output_buffer_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e2597939-5159-4c35-9a1f-f3be43081d72
 ms.author: windowssdkdev
 ms.date: 12/5/2018

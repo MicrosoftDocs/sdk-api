@@ -4,7 +4,7 @@ title: BY_HANDLE_FILE_INFORMATION
 author: windows-sdk-content
 description: Contains information that the GetFileInformationByHandle function retrieves.
 old-location: fs\by_handle_file_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a6fc5cf0-d3b0-4a76-af8b-6a13ab32157d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

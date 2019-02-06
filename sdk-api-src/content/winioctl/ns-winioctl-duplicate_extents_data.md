@@ -4,7 +4,7 @@ title: DUPLICATE_EXTENTS_DATA
 author: windows-sdk-content
 description: Contains parameters for the FSCTL_DUPLICATE_EXTENTS control code that performs the Block Cloning operation.
 old-location: fs\duplicate_extents_data.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 9E2B3AA1-BC28-4458-9882-13F7EFB23756
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -2,13 +2,13 @@
 UID: NF:directxpackedvector.XMDEC4.operator uint32_t
 title: XMDEC4::operator uint32_t
 author: windows-sdk-content
-description: Returns an instance of uint32_t containing the components of the XMDEC4instance in a packed format.
-old-location: dxmath\xmdec4_operator_uint32_t.htm
+description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMDEC4.
+old-location: dxmath\xmdec4_operator_eq_2.htm
 tech.root: dxmath
-ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.operator uint32_t
+ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.operator = (const uint32_t)
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: DirectX::PackedVector.XMDEC4.operator uint32_t, DirectX::PackedVector::XMDEC4::operator uint32_t, XMDEC4 structure [DirectX Math Support APIs],operator uint32_t method, XMDEC4.operator uint32_t, XMDEC4::operator uint32_t, dxmath.xmdec4_operator_uint32_t, operator uint32_t, operator uint32_t method [DirectX Math Support APIs], operator uint32_t method [DirectX Math Support APIs],XMDEC4 structure
+ms.keywords: XMDEC4 structure [DirectX Math Support APIs],operator = method, XMDEC4.operator =(const uint32_t), XMDEC4.operator uint32_t, XMDEC4::operator uint32_t, dxmath.xmdec4_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMDEC4 structure, operator uint32_t
 ms.topic: method
 req.header: directxpackedvector.h
 req.include-header: 
@@ -35,7 +35,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMDEC4.operator uint32_t
+ - XMDEC4.operator =
 product: Windows
 targetos: Windows
 req.typenames: 
@@ -48,11 +48,12 @@ req.redist:
 ## -description
 
 
-Returns an instance of <code>uint32_t</code> containing the components of the <code>XMDEC4</code>instance in a packed format.
+Assigns the vector component data packed in an instance of <code>uint32_t</code> to the current
+	instance of <code>XMDEC4</code>.
     
 
-This operator returns an instance of <code>uint32_t</code> containing the components of the <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4 
-	</a> instance in a packed format.
+This operator assigns the vector component data packed in an instance of <code>uint32_t</code> to
+	the current instance of <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a>.
 <div class="alert"><b>Note</b>  This operator is only available under C++.
     </div><div> </div>
 
@@ -63,12 +64,19 @@ This operator returns an instance of <code>uint32_t</code> containing the compon
 
 
 
+#### - Packed
+
+The values of four vector components in a packed format.
+	    
+
+
 ## -returns
 
 
 
-Contains the four vector components of an instance of <code>XMDEC4</code> in a packed
-		format.
+The current instance of <code>XMDEC4</code> whose vector component data has been
+		updated to the component values packed in the <code>uint32_t</code> instance specified by
+		the <b>Packed</b> argument.
 	    
 
 
@@ -78,27 +86,27 @@ Contains the four vector components of an instance of <code>XMDEC4</code> in a p
 
 
 
-The packed format of this operators return value is:
+The format of <b>Packed</b> is:
 	
 
 <ul>
 <li>
-The first 20 bits (bits 0-09) of the return value are to the <b>x</b>component of the current instance of <code>XMDEC4</code>.
+The first 10 bits (bits 0-09) of <b>Packed</b> assigned to the <b>x</b>member of the current instance of <code>XMDEC4</code>.
 		
 
 </li>
 <li>
-The second 20 bits (bits 10-19) of the return value are to the <b>y</b>component of the current instance of <code>XMDEC4</code>.
+The second 10 bits (bits 10-19) of <b>Packed</b> assigned to the <b>y</b>member of the current instance of <code>XMDEC4</code>.
 		
 
 </li>
 <li>
-The third 20 bits (bits 20-29) of the return value are to the <b>z</b>component of the current instance of <code>XMDEC4</code>.
+The third 10 bits (bits 10-29) of <b>Packed</b> assigned to the <b>z</b>member of the current instance of <code>XMDEC4</code>.
 		
 
 </li>
 <li>
-The last 4 bits (bits 30-31) of the return value are to the <b>w</b>component of the current instance of <code>XMDEC4</code>.
+The last 2 bits (bits 30-31) of <b>Packed</b> assigned to the <b>w</b>member of the current instance of <code>XMDEC4</code>.
 		
 
 </li>
@@ -119,7 +127,7 @@ The last 4 bits (bits 30-31) of the return value are to the <b>w</b>component of
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415269(v=VS.85).aspx">XMDEC4 Operators</a>
+<a href="https://msdn.microsoft.com/46a34196-d32a-4ddf-9245-c568b9461f7d">operator = </a>
  
 
  

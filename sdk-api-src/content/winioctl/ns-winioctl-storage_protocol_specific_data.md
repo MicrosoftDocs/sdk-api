@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_SPECIFIC_DATA
 author: windows-sdk-content
 description: Describes protocol-specific device data, provided in the input and output buffer of an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_protocol_specific_data.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 533EC957-FB37-41A7-8E5B-5A09A458D768
 ms.author: windowssdkdev
 ms.date: 12/5/2018

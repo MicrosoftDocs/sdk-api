@@ -4,7 +4,7 @@ title: COPYFILE2_EXTENDED_PARAMETERS
 author: windows-sdk-content
 description: Contains extended parameters for the CopyFile2 function.
 old-location: fs\copyfile2_extended_parameters.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a8da62e5-bc49-4aff-afaa-e774393b7120
 ms.author: windowssdkdev
 ms.date: 12/5/2018

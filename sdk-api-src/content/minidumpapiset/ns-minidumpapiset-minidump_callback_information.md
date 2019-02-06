@@ -4,7 +4,7 @@ title: MINIDUMP_CALLBACK_INFORMATION
 author: windows-sdk-content
 description: Contains a pointer to an optional callback function that can be used by the MiniDumpWriteDump function.
 old-location: base\minidump_callback_information_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 98caf4c3-8e6b-4f42-ae48-977a8392de1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

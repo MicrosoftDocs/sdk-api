@@ -4,7 +4,7 @@ title: STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
 author: windows-sdk-content
 description: Reserved for future use.
 old-location: fs\storage_device_attributes_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E911C72C-E4AF-438D-B718-798AF2E07227
 ms.author: windowssdkdev
 ms.date: 12/5/2018

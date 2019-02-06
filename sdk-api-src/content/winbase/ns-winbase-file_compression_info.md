@@ -4,7 +4,7 @@ title: FILE_COMPRESSION_INFO
 author: windows-sdk-content
 description: Receives file compression information.
 old-location: fs\file_compression_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2f64e7cc-e23c-4e3d-8e17-0e8e38f1ea24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

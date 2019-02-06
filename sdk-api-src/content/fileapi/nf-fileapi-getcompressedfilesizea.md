@@ -4,7 +4,7 @@ title: GetCompressedFileSizeA function
 author: windows-sdk-content
 description: Retrieves the actual number of bytes of disk storage used to store a specified file.
 old-location: fs\getcompressedfilesize.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: cca91080-2270-4996-8693-933c585ff168
 ms.author: windowssdkdev
 ms.date: 12/5/2018

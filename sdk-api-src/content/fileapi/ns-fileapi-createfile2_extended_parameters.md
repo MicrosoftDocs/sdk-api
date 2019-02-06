@@ -4,7 +4,7 @@ title: CREATEFILE2_EXTENDED_PARAMETERS
 author: windows-sdk-content
 description: Contains optional extended parameters for CreateFile2.
 old-location: fs\createfile2_extended_parameters.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: efe68dfc-f13d-47de-9443-30404977e26f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

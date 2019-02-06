@@ -4,7 +4,7 @@ title: TxfLogReadRecords function
 author: windows-sdk-content
 description: Reads the redo records from the log.
 old-location: fs\txflogreadrecords.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f0f10d9c-957a-4484-bde8-337d235e3262
 ms.author: windowssdkdev
 ms.date: 12/5/2018

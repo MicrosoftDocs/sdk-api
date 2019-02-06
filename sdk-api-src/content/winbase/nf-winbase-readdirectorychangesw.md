@@ -4,7 +4,7 @@ title: ReadDirectoryChangesW function
 author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory.
 old-location: fs\readdirectorychangesw.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 14dfc93d-557e-43d0-be45-8414cfd92c29
 ms.author: windowssdkdev
 ms.date: 12/5/2018

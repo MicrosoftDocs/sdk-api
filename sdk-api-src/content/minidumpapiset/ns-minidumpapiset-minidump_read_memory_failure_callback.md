@@ -4,7 +4,7 @@ title: MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 author: windows-sdk-content
 description: Contains information about a failed memory read operation.
 old-location: base\minidump_read_memory_failure_callback.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 9710684a-4d08-4ab8-bc33-17c5f01c581f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

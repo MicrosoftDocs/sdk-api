@@ -4,7 +4,7 @@ title: DISK_EX_INT13_INFO
 author: windows-sdk-content
 description: Contains extended Int13 drive parameters.
 old-location: fs\disk_ex_int13_info_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: efde6ede-b921-4d1d-ab4a-b9f85ae6aea1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

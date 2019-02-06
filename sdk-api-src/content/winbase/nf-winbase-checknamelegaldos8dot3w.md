@@ -4,7 +4,7 @@ title: CheckNameLegalDOS8Dot3W function
 author: windows-sdk-content
 description: Determines whether the specified name can be used to create a file on a FAT file system.
 old-location: fs\checknamelegaldos8dot3.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: bb0edcc5-4991-47d0-9ade-6c6776a36f39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

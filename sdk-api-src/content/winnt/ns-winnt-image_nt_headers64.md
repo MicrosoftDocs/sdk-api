@@ -4,7 +4,7 @@ title: IMAGE_NT_HEADERS64
 author: windows-sdk-content
 description: Represents the PE header format.
 old-location: base\image_nt_headers_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 6511341f-252d-4f73-bb90-284bbb69b065
 ms.author: windowssdkdev
 ms.date: 12/5/2018

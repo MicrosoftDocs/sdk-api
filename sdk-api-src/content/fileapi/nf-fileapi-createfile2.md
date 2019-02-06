@@ -4,7 +4,7 @@ title: CreateFile2 function
 author: windows-sdk-content
 description: Creates or opens a file or I/O device.
 old-location: fs\createfile2.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: cd7a81f3-60ee-443a-99f3-a4c8afd365e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

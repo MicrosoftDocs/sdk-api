@@ -4,7 +4,7 @@ title: IDiskQuotaControl::SetQuotaState
 author: windows-sdk-content
 description: Sets the state of the quota system.
 old-location: fs\idiskquotacontrol_setquotastate.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0bbacc3c-e212-4801-95d8-1e260123665d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IDiskQuotaEvents
 author: windows-sdk-content
 description: Receives quota-related event notifications.
 old-location: fs\idiskquotaevents.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4b5dcb1f-8edb-4fcb-94ea-2a627667071e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

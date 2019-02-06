@@ -4,7 +4,7 @@ title: STORAGE_MINIPORT_DESCRIPTOR
 author: windows-sdk-content
 description: Reserved for system use.
 old-location: fs\storage_miniport_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: b962666d-60ae-4e0b-813e-7b22e1670644
 ms.author: windowssdkdev
 ms.date: 12/5/2018

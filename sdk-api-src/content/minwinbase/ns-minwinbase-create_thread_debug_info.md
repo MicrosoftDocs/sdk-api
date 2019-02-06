@@ -4,7 +4,7 @@ title: CREATE_THREAD_DEBUG_INFO
 author: windows-sdk-content
 description: Contains thread-creation information that can be used by a debugger.
 old-location: base\create_thread_debug_info_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: daabd118-fa03-410e-af25-8655194902b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

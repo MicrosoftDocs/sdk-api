@@ -4,7 +4,7 @@ title: DeleteFileA function
 author: windows-sdk-content
 description: Deletes an existing file.
 old-location: fs\deletefile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0b947a85-816b-4374-a8f8-c369e366a17d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

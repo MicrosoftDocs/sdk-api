@@ -4,7 +4,7 @@ title: CopyFileExA function
 author: windows-sdk-content
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfileex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e19f0299-54fa-4e1e-855a-d2c71d29611b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

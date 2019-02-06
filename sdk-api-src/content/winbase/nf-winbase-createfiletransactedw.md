@@ -4,7 +4,7 @@ title: CreateFileTransactedW function
 author: windows-sdk-content
 description: Creates or opens a file, file stream, or directory as a transacted operation.
 old-location: fs\createfiletransacted.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0cbc081d-8787-409b-84bc-a6a28d8f83a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

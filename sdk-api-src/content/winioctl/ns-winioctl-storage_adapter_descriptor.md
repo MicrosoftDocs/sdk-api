@@ -4,7 +4,7 @@ title: STORAGE_ADAPTER_DESCRIPTOR
 author: windows-sdk-content
 description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the storage adapter descriptor data for a device.
 old-location: fs\storage_adapter_descriptor.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 8a5059d3-09a4-4411-8d86-d1257edb409a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

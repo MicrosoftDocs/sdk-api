@@ -4,7 +4,7 @@ title: FILESYSTEM_STATISTICS_EX
 author: windows-sdk-content
 description: Contains statistical information from the file system.Support for this structure started with Windows 10.
 old-location: fs\filesystem_statistics_ex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E869CF11-E321-478A-948F-226B04D61492
 ms.author: windowssdkdev
 ms.date: 12/5/2018

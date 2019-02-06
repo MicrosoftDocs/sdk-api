@@ -4,7 +4,7 @@ title: MINIDUMP_STREAM_TYPE
 author: windows-sdk-content
 description: Represents the type of a minidump data stream.
 old-location: base\minidump_stream_type.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 495136a0-2fed-47ca-8233-7e813b43b82f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMAGE_OPTIONAL_HEADER64
 author: windows-sdk-content
 description: Represents the optional header format.
 old-location: base\image_optional_header_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b6a50ffc-49f8-4824-9b51-7e381eaf8852
 ms.author: windowssdkdev
 ms.date: 12/5/2018

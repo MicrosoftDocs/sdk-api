@@ -4,7 +4,7 @@ title: TXFS_MODIFY_RM
 author: windows-sdk-content
 description: Contains the information required when modifying log parameters and logging mode for a secondary resource manager.
 old-location: fs\txfs_modify_rm.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f50d64de-4452-47ac-b2fe-a049afbd526c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

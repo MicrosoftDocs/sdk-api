@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_DEVICE_POWER_CAP
 author: windows-sdk-content
 description: Windows applications can use this control code to specify a maximum operational power consumption level for a storage device.
 old-location: fs\ioctl_storage_device_power_cap.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4BF06CA7-5219-4EE0-9A74-F43035914332
 ms.author: windowssdkdev
 ms.date: 12/5/2018

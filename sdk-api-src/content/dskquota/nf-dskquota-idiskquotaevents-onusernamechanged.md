@@ -4,7 +4,7 @@ title: IDiskQuotaEvents::OnUserNameChanged
 author: windows-sdk-content
 description: Notifies the client's connection sink whenever a user's SID has been asynchronously resolved.
 old-location: fs\idiskquotaevents_onusernamechanged.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: d01cb679-03e2-4b76-b068-f64e576709fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: FreeEncryptionCertificateHashList function
 author: windows-sdk-content
 description: Frees a certificate hash list.
 old-location: fs\freeencryptioncertificatehashlist.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

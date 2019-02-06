@@ -4,7 +4,7 @@ title: GetCurrentDirectory function
 author: windows-sdk-content
 description: Retrieves the current directory for the current process.
 old-location: fs\getcurrentdirectory.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

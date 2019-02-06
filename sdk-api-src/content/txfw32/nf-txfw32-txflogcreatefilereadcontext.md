@@ -4,7 +4,7 @@ title: TxfLogCreateFileReadContext function
 author: windows-sdk-content
 description: Creates a context to be used to read replication records.
 old-location: fs\txflogcreatefilereadcontext.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 57218f53-adcd-4a9a-b772-d3dab576b8c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

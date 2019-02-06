@@ -4,7 +4,7 @@ title: MoveFileW function
 author: windows-sdk-content
 description: Moves an existing file or a directory, including its children.
 old-location: fs\movefile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: baa3cc02-0a61-4463-b2f1-0d7aaefa126b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

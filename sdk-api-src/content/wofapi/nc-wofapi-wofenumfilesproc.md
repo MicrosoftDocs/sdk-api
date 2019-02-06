@@ -4,7 +4,7 @@ title: WofEnumFilesProc
 author: windows-sdk-content
 description: Callback function that gets called for each file backed by an external data source, such as a WIM file.
 old-location: fs\wofenumfilesproc.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E710869D-68A9-4E30-96DE-6313A5A182D8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

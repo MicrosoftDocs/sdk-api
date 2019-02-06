@@ -4,7 +4,7 @@ title: IOCTL_DISK_PERFORMANCE
 author: windows-sdk-content
 description: Enables performance counters that provide disk performance information.
 old-location: fs\ioctl_disk_performance.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e182282c-17e9-442a-8742-437052cfed03
 ms.author: windowssdkdev
 ms.date: 12/5/2018

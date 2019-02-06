@@ -4,7 +4,7 @@ title: READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
 author: windows-sdk-content
 description: Indicates the possible types of information that an application that calls the ReadDirectoryChangesExW function can request.
 old-location: fs\read_directory_notify_information_class.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 193D018B-80FE-45B2-826A-A00D173E32D3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

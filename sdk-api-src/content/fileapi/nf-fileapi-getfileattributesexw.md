@@ -4,7 +4,7 @@ title: GetFileAttributesExW function
 author: windows-sdk-content
 description: Retrieves attributes for a specified file or directory.
 old-location: fs\getfileattributesex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
 ms.author: windowssdkdev
 ms.date: 12/5/2018

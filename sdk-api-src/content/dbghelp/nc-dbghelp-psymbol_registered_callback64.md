@@ -4,7 +4,7 @@ title: PSYMBOL_REGISTERED_CALLBACK64
 author: windows-sdk-content
 description: An application-defined callback function used with the SymRegisterCallback64 function. It is called by the symbol handler.
 old-location: base\symregistercallbackproc64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: f3ba952b-ecc5-4235-a806-00c82d40e611
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GetFinalPathNameByHandleW function
 author: windows-sdk-content
 description: Retrieves the final path for the specified file.
 old-location: fs\getfinalpathnamebyhandle.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_COMMAND
 author: windows-sdk-content
 description: This structure is used as an input buffer when using the pass-through mechanism to issue a vendor-specific command to a storage device (via IOCTL_STORAGE_PROTOCOL_COMMAND).
 old-location: fs\storage_protocol_command.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: A2F61F18-A5DE-41D5-95D6-E341009484FF
 ms.author: windowssdkdev
 ms.date: 12/5/2018

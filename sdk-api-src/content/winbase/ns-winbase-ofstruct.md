@@ -4,7 +4,7 @@ title: OFSTRUCT
 author: windows-sdk-content
 description: Contains information about a file that the OpenFile function opened or attempted to open.
 old-location: fs\ofstruct_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 195581e5-e962-4756-a33c-b1e898b5b0e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

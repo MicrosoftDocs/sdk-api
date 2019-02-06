@@ -4,7 +4,7 @@ title: DecryptFileA function
 author: windows-sdk-content
 description: Decrypts an encrypted file or directory.
 old-location: fs\decryptfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6b8f0ed0-8825-4c84-bf58-3a89cda882b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

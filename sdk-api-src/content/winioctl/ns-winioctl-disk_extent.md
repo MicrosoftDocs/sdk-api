@@ -4,7 +4,7 @@ title: DISK_EXTENT
 author: windows-sdk-content
 description: Represents a disk extent.
 old-location: fs\disk_extent_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1b8dc6fa-e60b-4490-b439-44c93b6f4ce5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

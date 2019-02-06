@@ -4,7 +4,7 @@ title: MINIDUMP_FUNCTION_TABLE_STREAM
 author: windows-sdk-content
 description: Represents the header for the function table stream.
 old-location: base\minidump_function_table_stream_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b2845799-acc9-4410-9059-45f7a8313e9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

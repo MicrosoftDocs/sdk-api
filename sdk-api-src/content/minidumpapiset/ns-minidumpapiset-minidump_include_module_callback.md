@@ -4,7 +4,7 @@ title: MINIDUMP_INCLUDE_MODULE_CALLBACK
 author: windows-sdk-content
 description: Contains information for the MiniDumpCallback function when the callback type is IncludeModuleCallback.
 old-location: base\minidump_include_module_callback_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 01dd2217-fd7b-4bcf-a15e-4769c7518741
 ms.author: windowssdkdev
 ms.date: 12/5/2018

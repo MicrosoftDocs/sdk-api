@@ -4,7 +4,7 @@ title: EXFAT_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the exFAT file system.
 old-location: fs\exfat_statistics.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: fc33e967-fbc0-4f98-9b6c-2d6ac103a256
 ms.author: windowssdkdev
 ms.date: 12/5/2018

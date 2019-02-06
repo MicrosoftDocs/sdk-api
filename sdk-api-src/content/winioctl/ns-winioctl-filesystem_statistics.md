@@ -4,7 +4,7 @@ title: FILESYSTEM_STATISTICS
 author: windows-sdk-content
 description: Contains statistical information from the file system.
 old-location: fs\filesystem_statistics.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ff8c7dfe-da7f-4ee2-9a54-613e0cd3e1e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

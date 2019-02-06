@@ -4,7 +4,7 @@ title: FSCTL_GET_INTEGRITY_INFORMATION_BUFFER
 author: windows-sdk-content
 description: Contains the integrity information for a file or directory.
 old-location: fs\fsctl_get_integrity_information_buffer.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: ab87f987-b734-4ad0-af16-1ba967db48d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

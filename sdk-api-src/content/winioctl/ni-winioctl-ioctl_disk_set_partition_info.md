@@ -4,7 +4,7 @@ title: IOCTL_DISK_SET_PARTITION_INFO
 author: windows-sdk-content
 description: Sets partition information for the specified disk partition.
 old-location: fs\ioctl_disk_set_partition_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 868cad92-fa88-4a5a-98bb-92e73c115a22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

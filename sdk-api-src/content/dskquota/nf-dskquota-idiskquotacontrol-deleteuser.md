@@ -4,7 +4,7 @@ title: IDiskQuotaControl::DeleteUser
 author: windows-sdk-content
 description: Removes a user entry from the volume quota information file.
 old-location: fs\idiskquotacontrol_deleteuser.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c7356f56-4cbb-40ed-9457-3818a3b47732
 ms.author: windowssdkdev
 ms.date: 12/5/2018

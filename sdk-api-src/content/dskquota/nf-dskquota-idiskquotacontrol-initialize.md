@@ -4,7 +4,7 @@ title: IDiskQuotaControl::Initialize
 author: windows-sdk-content
 description: Initializes a new DiskQuotaControl object by opening the NTFS file system volume with the requested access rights.
 old-location: fs\idiskquotacontrol_initialize.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 352485fd-4ce7-435b-b8c2-81458786eb44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

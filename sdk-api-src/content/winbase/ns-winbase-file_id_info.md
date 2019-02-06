@@ -4,7 +4,7 @@ title: FILE_ID_INFO
 author: windows-sdk-content
 description: Contains identification information for a file.
 old-location: fs\file_id_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: e2774e29-1a90-44d6-9001-f73a98be6624
 ms.author: windowssdkdev
 ms.date: 12/5/2018

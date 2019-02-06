@@ -4,7 +4,7 @@ title: MINIDUMP_UNLOADED_MODULE
 author: windows-sdk-content
 description: Contains information about a module that has been unloaded. This information can help diagnose problems calling code that is no longer loaded.
 old-location: base\minidump_unloaded_module_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: d2ae58fa-561c-4135-a757-88598ebda57a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

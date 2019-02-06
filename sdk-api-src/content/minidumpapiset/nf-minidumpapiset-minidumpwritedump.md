@@ -4,7 +4,7 @@ title: MiniDumpWriteDump function
 author: windows-sdk-content
 description: Writes user-mode minidump information to the specified file.
 old-location: base\minidumpwritedump.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b476023d-0e93-4d76-9ba8-ce5766c9ac51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

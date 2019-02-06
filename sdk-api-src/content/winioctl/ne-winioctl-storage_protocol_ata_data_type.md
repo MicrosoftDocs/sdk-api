@@ -4,7 +4,7 @@ title: STORAGE_PROTOCOL_ATA_DATA_TYPE
 author: windows-sdk-content
 description: The ATA protocol data type.
 old-location: fs\storage_protocol_ata_data_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 999CB5EB-9D19-41B9-B4ED-001B63C1A7EA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

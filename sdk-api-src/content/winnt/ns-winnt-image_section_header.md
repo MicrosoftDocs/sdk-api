@@ -4,7 +4,7 @@ title: IMAGE_SECTION_HEADER
 author: windows-sdk-content
 description: Represents the image section header format.
 old-location: base\image_section_header_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 81ddf56d-66cc-4a0c-9cff-a84376a3223d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

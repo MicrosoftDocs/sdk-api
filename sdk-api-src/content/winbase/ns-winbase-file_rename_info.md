@@ -4,7 +4,7 @@ title: FILE_RENAME_INFO
 author: windows-sdk-content
 description: Contains the name to which the file should be renamed.
 old-location: fs\file_rename_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: f4de0130-66fd-4847-bb6f-3f16fe17ca6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

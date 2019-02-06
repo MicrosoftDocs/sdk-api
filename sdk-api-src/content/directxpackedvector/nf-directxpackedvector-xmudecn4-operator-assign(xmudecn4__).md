@@ -1,0 +1,106 @@
+---
+UID: NF:directxpackedvector.XMUDECN4.operator-assign(XMUDECN4 &&)
+title: XMUDECN4::operator-assign(XMUDECN4 &&)
+author: windows-sdk-content
+description: Assigns the vector component data from one instance of XMUDECN4 to the current instance of XMUDECN4.
+old-location: dxmath\xmudecn4_operator_eq_1.htm
+tech.root: dxmath
+ms.assetid: M:Microsoft.directx_sdk.reference.XMUDECN4.operator = (const XMUDECN4)
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: XMUDECN4 structure [DirectX Math Support APIs],operator = method, XMUDECN4.operator =(const XMUDECN4&), XMUDECN4.operator-assign(XMUDECN4 &&), XMUDECN4.operator=, XMUDECN4::operator-assign(XMUDECN4 &&), XMUDECN4::operator=, dxmath.xmudecn4_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMUDECN4 structure, operator=
+ms.topic: method
+req.header: directxpackedvector.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: DirectX::PackedVector
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - DirectXPackedVector.h
+api_name:
+ - XMUDECN4.operator =
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# XMUDECN4::operator-assign(XMUDECN4 &&)
+
+
+## -description
+
+
+Assigns the vector component data from one instance of <code>XMUDECN4</code> to the current
+	instance of <code>XMUDECN4</code>.
+    
+
+This operator assigns the vector component data from one instance of <a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a> to the current instance of <code>XMUDECN4</code>.
+<div class="alert"><b>Note</b>  This operator is only available under C++.
+    </div><div> </div>
+
+## -parameters
+
+
+
+
+### -param arg1
+
+TBD
+
+
+
+
+#### - UDecN4 [ref]
+
+Instance of <code>XMUDECN4</code> used to update the current <code>XMUDECN4</code>structure.
+	    
+
+
+## -returns
+
+
+
+The current instance of <code>XMUDECN4</code> whose vector component data has been
+		updated to match those of the <code>XMUDECN4</code> instance specified by the
+		<b>UDecN4</b> argument.
+	    
+
+
+
+
+## -see-also
+
+
+
+
+<b>Reference</b>
+
+
+
+<a href="https://msdn.microsoft.com/4b85445e-8ea9-4e1c-b07e-db13d2ee82aa">XMUDECN4</a>
+
+
+
+<a href="https://msdn.microsoft.com/b5cb7c96-68c2-4d6b-8ed7-a44651c681b5">operator = </a>
+ 
+
+ 
+

@@ -4,7 +4,7 @@ title: TXFS_LIST_TRANSACTION_LOCKED_FILES
 author: windows-sdk-content
 description: Contains a list of files locked by a transacted writer.
 old-location: fs\txfs_list_transaction_locked_files.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 55ef34c5-8d99-457d-b670-8c9efaa2eae2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

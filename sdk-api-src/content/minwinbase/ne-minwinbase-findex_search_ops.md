@@ -4,7 +4,7 @@ title: FINDEX_SEARCH_OPS
 author: windows-sdk-content
 description: Defines values that are used with the FindFirstFileEx function to specify the type of filtering to perform.
 old-location: fs\findex_search_ops_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 3f4c18fb-e128-421f-bd05-456d4d3698a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

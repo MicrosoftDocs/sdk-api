@@ -4,7 +4,7 @@ title: WOW64_CONTEXT
 author: windows-sdk-content
 description: Represents a context frame on WOW64.
 old-location: base\wow64_context.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: b27205a2-2c33-4f45-8948-9919bcd2355a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

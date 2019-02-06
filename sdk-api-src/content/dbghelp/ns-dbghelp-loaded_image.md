@@ -4,7 +4,7 @@ title: LOADED_IMAGE
 author: windows-sdk-content
 description: Contains information about the loaded image.
 old-location: base\loaded_image_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 8bfc6b47-23d6-45e1-a733-5b938d6312da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CSV_NAMESPACE_INFO
 author: windows-sdk-content
 description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.
 old-location: fs\csv_namespace_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

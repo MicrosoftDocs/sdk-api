@@ -4,7 +4,7 @@ title: FILE_BASIC_INFO
 author: windows-sdk-content
 description: Contains the basic information for a file. Used for file handles.
 old-location: fs\file_basic_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7765e430-cf6b-4ccf-b5e7-9fb6e15ca6d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

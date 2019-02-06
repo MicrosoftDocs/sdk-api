@@ -4,7 +4,7 @@ title: IOCTL_DISK_SET_PARTITION_INFO_EX
 author: windows-sdk-content
 description: Sets partition information for the specified disk partition, including layout information for AT and EFI (Extensible Firmware Interface) partitions.
 old-location: fs\ioctl_disk_set_partition_info_ex.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6feec7a9-5b57-406b-bbea-04cf9cdaf56b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

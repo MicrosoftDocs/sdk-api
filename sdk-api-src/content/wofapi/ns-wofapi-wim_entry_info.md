@@ -4,7 +4,7 @@ title: WIM_ENTRY_INFO
 author: windows-sdk-content
 description: Defines metadata specific to each WIM data source hosted on a volume.
 old-location: fs\wim_entry_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2631B8AC-22B6-410A-AF3C-6D81FEECFB61
 ms.author: windowssdkdev
 ms.date: 12/5/2018

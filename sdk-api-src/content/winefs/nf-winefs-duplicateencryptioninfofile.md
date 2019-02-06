@@ -4,7 +4,7 @@ title: DuplicateEncryptionInfoFile function
 author: windows-sdk-content
 description: Copies the EFS metadata from one file or directory to another.
 old-location: fs\duplicateencryptioninfofile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: c830ae98-3649-4981-9369-7d4cb019b50f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

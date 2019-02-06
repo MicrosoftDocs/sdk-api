@@ -4,7 +4,7 @@ title: CreateHardLinkTransactedA function
 author: windows-sdk-content
 description: Establishes a hard link between an existing file and a new file as a transacted operation.
 old-location: fs\createhardlinktransacted.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 27dd5b0a-08ef-4757-8f51-03d9918028c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SetVolumeMountPointW function
 author: windows-sdk-content
 description: Associates a volume with a drive letter or a directory on another volume.
 old-location: fs\setvolumemountpoint.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
 ms.author: windowssdkdev
 ms.date: 12/5/2018

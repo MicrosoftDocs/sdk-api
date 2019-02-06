@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_FIRMWARE_GET_INFO
 author: windows-sdk-content
 description: Windows applications can use this control code to query the storage device for detailed firmware information.
 old-location: fs\ioctl_storage_firmware_get_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: DBF40C42-2282-4F0E-B83A-D3154D7EF332
 ms.author: windowssdkdev
 ms.date: 12/5/2018

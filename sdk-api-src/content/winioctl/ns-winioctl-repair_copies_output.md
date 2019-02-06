@@ -4,7 +4,7 @@ title: REPAIR_COPIES_OUTPUT
 author: windows-sdk-content
 description: Contains output of a repair copies operation returned from the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_output.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: a3da7779-92e7-40bf-a889-dd2013e942ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

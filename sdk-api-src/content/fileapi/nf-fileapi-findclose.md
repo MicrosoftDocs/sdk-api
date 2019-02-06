@@ -4,7 +4,7 @@ title: FindClose function
 author: windows-sdk-content
 description: Closes a file search handle opened by the FindFirstFile, FindFirstFileEx, FindFirstFileNameW, FindFirstFileNameTransactedW, FindFirstFileTransacted, FindFirstStreamTransactedW, or FindFirstStreamW functions.
 old-location: fs\findclose.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 64b3bc49-1e0e-4572-9d9f-936c45f5b01c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

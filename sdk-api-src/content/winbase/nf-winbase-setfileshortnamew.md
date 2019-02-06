@@ -4,7 +4,7 @@ title: SetFileShortNameW function
 author: windows-sdk-content
 description: Sets the short name for the specified file.
 old-location: fs\setfileshortname.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0f4beb95-4e6c-422e-a17c-3371b706f0d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

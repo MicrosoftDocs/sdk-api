@@ -4,7 +4,7 @@ title: IDiskQuotaUser::SetQuotaThreshold
 author: windows-sdk-content
 description: Sets the user's warning threshold value on the volume.
 old-location: fs\idiskquotauser_setquotathreshold.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7c641a1c-fb04-4039-92bd-d3a1c7045355
 ms.author: windowssdkdev
 ms.date: 12/5/2018

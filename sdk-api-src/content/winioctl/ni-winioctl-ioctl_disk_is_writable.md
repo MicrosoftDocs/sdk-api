@@ -4,7 +4,7 @@ title: IOCTL_DISK_IS_WRITABLE
 author: windows-sdk-content
 description: Determines whether the specified disk is writable.
 old-location: fs\ioctl_disk_is_writable.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 0b56ea0d-95ae-4306-9866-b4b5e985ed43
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMAGEHLP_CBA_READ_MEMORY
 author: windows-sdk-content
 description: Contains information about a memory read operation.
 old-location: base\imagehlp_cba_read_memory_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: c5115fdc-aca6-4293-9c2b-82fd64ec7cb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

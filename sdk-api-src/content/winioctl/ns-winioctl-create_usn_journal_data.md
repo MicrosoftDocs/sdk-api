@@ -4,7 +4,7 @@ title: CREATE_USN_JOURNAL_DATA
 author: windows-sdk-content
 description: Contains information that describes an update sequence number (USN) change journal.
 old-location: fs\create_usn_journal_data_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 84d00427-c6eb-41aa-a594-8c57bdd56202
 ms.author: windowssdkdev
 ms.date: 12/5/2018

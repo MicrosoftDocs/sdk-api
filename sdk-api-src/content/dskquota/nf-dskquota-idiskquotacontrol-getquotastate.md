@@ -4,7 +4,7 @@ title: IDiskQuotaControl::GetQuotaState
 author: windows-sdk-content
 description: Retrieves a set of flags describing the state of the quota system.
 old-location: fs\idiskquotacontrol_getquotastate.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 1e35be3e-095a-4299-933d-6ebf3ccc5a1c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

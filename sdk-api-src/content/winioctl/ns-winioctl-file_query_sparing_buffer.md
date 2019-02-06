@@ -4,7 +4,7 @@ title: FILE_QUERY_SPARING_BUFFER
 author: windows-sdk-content
 description: Contains defect management properties.
 old-location: fs\file_query_sparing_buffer.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 4b9b44ec-9e8e-4ebd-b192-952bbb71005d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

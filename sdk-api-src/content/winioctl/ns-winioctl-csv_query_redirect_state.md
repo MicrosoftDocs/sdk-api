@@ -4,7 +4,7 @@ title: CSV_QUERY_REDIRECT_STATE
 author: windows-sdk-content
 description: Contains information about whether files in a stream have been redirected.
 old-location: fs\csv_query_redirect_state.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: E628FFC2-B665-4160-AA63-9F027D4A2736
 ms.author: windowssdkdev
 ms.date: 12/5/2018

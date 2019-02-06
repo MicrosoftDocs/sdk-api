@@ -4,7 +4,7 @@ title: VERIFY_INFORMATION
 author: windows-sdk-content
 description: Contains information used to verify a disk extent.
 old-location: fs\verify_information_str.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: bf987bb5-b3d8-4d5b-af44-d05fbe4c0a5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

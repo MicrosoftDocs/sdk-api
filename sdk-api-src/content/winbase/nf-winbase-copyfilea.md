@@ -4,7 +4,7 @@ title: CopyFileA function
 author: windows-sdk-content
 description: Copies an existing file to a new file.
 old-location: fs\copyfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 2c8ad002-cef4-499c-acda-c162205f6a8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

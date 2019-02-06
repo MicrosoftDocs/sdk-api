@@ -4,7 +4,7 @@ title: IMAGE_LOAD_CONFIG_DIRECTORY32
 author: windows-sdk-content
 description: Contains the load configuration data of an image.
 old-location: base\image_load_config_directory64_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: ebd42f1a-a5aa-4179-a2d0-61c50469d5c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

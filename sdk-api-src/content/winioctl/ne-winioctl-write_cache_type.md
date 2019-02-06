@@ -4,7 +4,7 @@ title: WRITE_CACHE_TYPE
 author: windows-sdk-content
 description: Specifies the cache type.
 old-location: fs\write_cache_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: fb861a65-5207-4af3-b994-0883febcbb0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

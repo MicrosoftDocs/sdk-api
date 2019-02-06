@@ -4,7 +4,7 @@ title: FILE_ID_EXTD_DIR_INFO
 author: windows-sdk-content
 description: Contains identification information for a file.
 old-location: fs\file_id_extd_dir_info.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 68f222c4-beb6-4be1-a31a-c5fbebbf76f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

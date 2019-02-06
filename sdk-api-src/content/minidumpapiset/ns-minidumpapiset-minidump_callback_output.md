@@ -4,7 +4,7 @@ title: MINIDUMP_CALLBACK_OUTPUT
 author: windows-sdk-content
 description: Contains information returned by the MiniDumpCallback function.
 old-location: base\minidump_callback_output_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 57949087-0f22-40c8-ab56-326a8304c310
 ms.author: windowssdkdev
 ms.date: 12/5/2018

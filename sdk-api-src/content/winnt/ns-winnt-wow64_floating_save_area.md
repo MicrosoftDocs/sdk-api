@@ -4,7 +4,7 @@ title: WOW64_FLOATING_SAVE_AREA
 author: windows-sdk-content
 description: Represents the 80387 save area on WOW64.
 old-location: base\wow64_floating_save_area.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: 56fba1c1-432b-40a8-b882-e4c637c03d5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

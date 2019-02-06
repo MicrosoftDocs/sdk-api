@@ -4,7 +4,7 @@ title: SymGetFileLineOffsets64 function
 author: windows-sdk-content
 description: Locates line information for the specified module and file name.
 old-location: base\symgetfilelineoffsets64.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: c83deef1-3476-4d06-a2e1-a3428c2f44d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

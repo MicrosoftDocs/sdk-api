@@ -4,7 +4,7 @@ title: EncryptFileA function
 author: windows-sdk-content
 description: Encrypts a file or directory.
 old-location: fs\encryptfile.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202
 ms.author: windowssdkdev
 ms.date: 12/5/2018

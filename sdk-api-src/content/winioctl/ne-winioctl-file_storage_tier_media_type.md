@@ -4,7 +4,7 @@ title: FILE_STORAGE_TIER_MEDIA_TYPE
 author: windows-sdk-content
 description: Specifies the storage media type.
 old-location: fs\file_storage_tier_media_type.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6D580AC6-5E3C-4F0B-A922-E81E6B8D8658
 ms.author: windowssdkdev
 ms.date: 12/5/2018

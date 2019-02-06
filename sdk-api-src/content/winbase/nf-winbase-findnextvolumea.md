@@ -4,7 +4,7 @@ title: FindNextVolumeA function
 author: windows-sdk-content
 description: Continues a volume search started by a call to the FindFirstVolume function.
 old-location: fs\findnextvolume.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 6ab4467a-f84a-403e-9327-b523ceead19f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

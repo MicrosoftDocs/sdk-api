@@ -4,7 +4,7 @@ title: STORAGE_WRITE_CACHE_PROPERTY
 author: windows-sdk-content
 description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve information about a device's write cache property.
 old-location: fs\storage_write_cache_property.htm
-tech.root: fileio
+tech.root: FileIO
 ms.assetid: 5248be70-229d-42e6-923a-5a6ffd5268b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

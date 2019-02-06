@@ -4,7 +4,7 @@ title: MINIDUMP_LOCATION_DESCRIPTOR64
 author: windows-sdk-content
 description: Contains information describing the location of a data stream within a minidump file.
 old-location: base\minidump_location_descriptor_str.htm
-tech.root: debug
+tech.root: Debug
 ms.assetid: aef17239-9b56-4d49-8347-610270f8612b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
