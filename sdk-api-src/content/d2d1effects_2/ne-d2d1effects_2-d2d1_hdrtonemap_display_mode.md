@@ -51,10 +51,10 @@ Defines constants that specify a value for the [D2D1_HDRTONEMAP_PROP_DISPLAY_MOD
 
 ### -field D2D1_HDRTONEMAP_DISPLAY_MODE_SDR (0)
 
-Specifies the standard dynamic range (SDR) display mode.
+Specifies that the tone mapper algorithm be optimized for best appearance on a standard dynamic range (SDR) display.
 
 ### -field D2D1_HDRTONEMAP_DISPLAY_MODE_HDR (1)
 
-Specifies the high dynamic range (HDR) display mode.
+Specifies that the tone mapper algorithm be optimized for best appearance on a high dynamic range (HDR) display.
 
 ### -field D2D1_HDRTONEMAP_DISPLAY_MODE_FORCE_DWORD (0xFFFFFFFF)
