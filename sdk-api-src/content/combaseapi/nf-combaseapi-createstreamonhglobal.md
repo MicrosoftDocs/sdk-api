@@ -76,7 +76,7 @@ A memory handle allocated by the <a href="https://msdn.microsoft.com/06886545-bd
 
 ### -param fDeleteOnRelease [in]
 
-A value that indicates whether the underlying handle for this stream object should be automatically freed when the stream object is released. If set to <b>FALSE</b>, the caller must free the <i>hGlobal</i> after the final release. If set to <b>TRUE</b>, the final release will automatically free the <i>hGlobal</i> parameter.
+A value that indicates whether the underlying handle for this stream object should be automatically freed when the stream object is released. If set to <b>FALSE</b>, the caller must free the <i>hGlobal</i> after the final release. If set to <b>TRUE</b>, the final release will automatically free the underlying handle. See the Remarks for further discussion of the case where <i>fDeleteOnRelease</i> is <b>FALSE</b>.
 
 
 ### -param ppstm [out]
@@ -119,7 +119,7 @@ If a memory handle is passed to  <b>CreateStreamOnHGlobal</b> or if <a href="htt
 <li>If possible, avoid accessing the memory block during the lifetime of the stream object, because the object may internally call <a href="https://msdn.microsoft.com/2439b16a-f27d-4e95-bc9e-6f1e563933c9">GlobalReAlloc</a> and do not make assumptions about its size and location.  If the memory block must be accessed, the memory access calls should be surrounded by calls to <a href="https://msdn.microsoft.com/0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c">GlobalLock</a> and <a href="https://msdn.microsoft.com/580a2873-7f06-47a1-acf5-c2b3c96e15e7">GlobalUnLock</a>.</li>
 <li>Avoid calling the object’s methods while you have the memory handle locked with <a href="https://msdn.microsoft.com/0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c">GlobalLock</a>.  This can cause method calls to fail unpredictably.</li>
 </ul>
-If the caller sets the <i>fDeleteOnRelease</i> parameter to <b>FALSE</b>, then the caller must also free the <i>hGlobal</i> after the final release. If the caller sets the <i>fDeleteOnRelease</i> parameter to <b>TRUE</b>, the final release will automatically free the <i>hGlobal</i>.
+If the <i>fDeleteOnRelease</i> parameter is <b>FALSE</b>, the caller is responsible for freeing the underlying memory handle, even if the <i>hGlobal</i> parameter is <b>NULL</b>. Use the <b>GetHGlobalFromStream</b> function to obtain the underlying memory handle and <b>GlobalFree</b> that memory after the last reference to the stream is released. If the caller sets the <i>fDeleteOnRelease</i> parameter to <b>TRUE</b>, the final release will automatically free the underlying memory handle.
 
 The memory handle passed as the <i>hGlobal</i> parameter must be allocated as movable and nondiscardable, as shown in the following example:
 
