@@ -4,7 +4,7 @@ title: DNS_NAME_FORMAT
 author: windows-sdk-content
 description: The DNS_NAME_FORMAT enumeration specifies name format information for DNS.
 old-location: dns\dns_name_format.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: f6f1cff3-4bff-4a07-bbc6-5255030b4164
 ms.author: windowssdkdev
 ms.date: 12/5/2018

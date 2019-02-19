@@ -4,7 +4,7 @@ title: MsiEnumComponentCostsA function
 author: windows-sdk-content
 description: The MsiEnumComponentCosts function enumerates the disk-space per drive required to install a component.
 old-location: setup\msienumcomponentcosts.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 3de3a044-2780-445b-a09f-f08ff82f91f3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiProcessAdvertiseScriptW function
 author: windows-sdk-content
 description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.
 old-location: setup\msiprocessadvertisescript.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 2c418552-2c06-4797-9fa3-d36e69ef0d53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

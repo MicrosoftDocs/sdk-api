@@ -4,7 +4,7 @@ title: DNS_SECTION
 author: windows-sdk-content
 description: The DNS_SECTION enumeration is used in record flags, and as an index into DNS wire message header section counts.
 old-location: dns\dns_section.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: d51ef2c7-c2bb-4eed-a026-a559460352b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DNS_QUERY_REQUEST
 author: windows-sdk-content
 description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.
 old-location: dns\dns_query_request.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 9C382800-DE71-4481-AC8D-9F89D6F59EE6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

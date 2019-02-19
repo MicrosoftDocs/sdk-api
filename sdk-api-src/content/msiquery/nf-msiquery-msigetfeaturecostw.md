@@ -4,7 +4,7 @@ title: MsiGetFeatureCostW function
 author: windows-sdk-content
 description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.
 old-location: setup\msigetfeaturecost.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
 ms.author: windowssdkdev
 ms.date: 12/5/2018

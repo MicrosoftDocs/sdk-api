@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_Attributes
 author: windows-sdk-content
 description: The get_Attributes method retrieves the Attributes property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_attributes.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 347451e9-0623-4d31-a9f5-7cb95f234717
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiSetFeatureAttributesW function
 author: windows-sdk-content
 description: The MsiSetFeatureAttributes function can modify the default attributes of a feature at runtime. Note that the default attributes of features are authored in the Attributes column of the Feature table.
 old-location: setup\msisetfeatureattributes.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: d8dcd6db-9792-4b34-9c78-7d11ec2d4d0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

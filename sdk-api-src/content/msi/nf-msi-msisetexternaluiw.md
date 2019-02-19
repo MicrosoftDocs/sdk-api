@@ -4,7 +4,7 @@ title: MsiSetExternalUIW function
 author: windows-sdk-content
 description: The MsiSetExternalUI function enables an external user-interface handler.
 old-location: setup\msisetexternalui.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: fcbf0607-d048-486f-bec2-f6e9d03e4194
 ms.author: windowssdkdev
 ms.date: 12/5/2018

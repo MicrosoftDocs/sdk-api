@@ -4,7 +4,7 @@ title: MSIPATCHSEQUENCEINFOA
 author: windows-sdk-content
 description: The MSIPATCHSEQUENCEINFO structure is used by the MsiDeterminePatchSequence and MsiDetermineApplicablePatches functions.
 old-location: setup\msipatchsequenceinfo.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 75f76d85-39f6-4a2c-8b5f-1238639a2014
 ms.author: windowssdkdev
 ms.date: 12/5/2018

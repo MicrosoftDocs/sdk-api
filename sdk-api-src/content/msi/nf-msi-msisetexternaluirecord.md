@@ -4,7 +4,7 @@ title: MsiSetExternalUIRecord function
 author: windows-sdk-content
 description: The MsiSetExternalUIRecord function enables an external user-interface (UI) handler.
 old-location: setup\msisetexternaluirecord.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f2cd2bb7-0e4f-4d3b-9e6c-6f15661064df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

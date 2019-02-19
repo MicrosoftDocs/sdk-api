@@ -4,7 +4,7 @@ title: MsiGetDatabaseState function
 author: windows-sdk-content
 description: The MsiGetDatabaseState function returns the state of the database.
 old-location: setup\msigetdatabasestate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
 ms.author: windowssdkdev
 ms.date: 12/5/2018

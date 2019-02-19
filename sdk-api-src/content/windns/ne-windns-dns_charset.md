@@ -4,7 +4,7 @@ title: DNS_CHARSET
 author: windows-sdk-content
 description: The DNS_CHARSET enumeration specifies the character set used.
 old-location: dns\dns_charset.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 2674a4e5-c3e2-4a25-bd6f-1fc6b4db3012
 ms.author: windowssdkdev
 ms.date: 12/5/2018

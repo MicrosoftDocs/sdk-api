@@ -71,7 +71,7 @@ The <b>IBackgroundCopyJobHttpOptions2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt833249(v=VS.85).aspx">GetHttpMethod</a>
+<a href="https://msdn.microsoft.com/B855F1A5-AAFC-4E59-8F1D-ABA0034AFDF8">GetHttpMethod</a>
 </td>
 <td align="left" width="63%">
 Retrieves a wide string containing the HTTP method name for the BITS transfer. By default, download jobs will be "GET", and upload and upload-reply jobs will be "BITS_POST".
@@ -80,7 +80,7 @@ Retrieves a wide string containing the HTTP method name for the BITS transfer. B
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt833250(v=VS.85).aspx">SetHttpMethod</a>
+<a href="https://msdn.microsoft.com/0CF8236B-7630-4A38-8A8F-51E69D3461B0">SetHttpMethod</a>
 </td>
 <td align="left" width="63%">
 Overrides the default HTTP method used for a BITS transfer.

@@ -4,7 +4,7 @@ title: MsiGetFeatureStateA function
 author: windows-sdk-content
 description: The MsiGetFeatureState function gets the requested state of a feature.
 old-location: setup\msigetfeaturestate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: eb8942b9-996e-45d8-b515-5c84737eb5ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

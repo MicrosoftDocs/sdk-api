@@ -4,7 +4,7 @@ title: MsiGetPatchInfoW function
 author: windows-sdk-content
 description: The MsiGetPatchInfo function returns information about a patch.
 old-location: setup\msigetpatchinfo.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 4ff951df-5c1b-4874-9f09-f4ac23702e87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

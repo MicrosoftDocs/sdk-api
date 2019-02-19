@@ -4,7 +4,7 @@ title: MsiApplyMultiplePatchesW function
 author: windows-sdk-content
 description: Applies one or more patches to products eligible to receive the patches.
 old-location: setup\msiapplymultiplepatches.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: dc0a93e3-9f3c-40b2-86ee-98306038742a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

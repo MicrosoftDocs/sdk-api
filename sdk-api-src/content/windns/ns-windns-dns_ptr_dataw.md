@@ -4,7 +4,7 @@ title: DNS_PTR_DATAW
 author: windows-sdk-content
 description: The DNS_PTR_DATA structure represents a DNS pointer (PTR) record as specified in section 3.3.12 of RFC 1035.
 old-location: dns\dns_ptr_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 8b7f8898-ac91-46da-876c-889c427068a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

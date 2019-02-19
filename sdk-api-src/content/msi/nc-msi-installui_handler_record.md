@@ -4,7 +4,7 @@ title: INSTALLUI_HANDLER_RECORD
 author: windows-sdk-content
 description: The INSTALLUI_HANDLER_RECORD function prototype defines a callback function that the installer calls for progress notification and error messages. Call the MsiSetExternalUIRecord function to enable a record-base external user-interface (UI) handler.
 old-location: setup\installui_handler_record.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: de714639-f519-4c78-811e-b3b1f04d8450
 ms.author: windowssdkdev
 ms.date: 12/5/2018

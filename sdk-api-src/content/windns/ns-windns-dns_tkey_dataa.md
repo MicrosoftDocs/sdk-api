@@ -4,7 +4,7 @@ title: DNS_TKEY_DATAA
 author: windows-sdk-content
 description: The DNS_TKEY_DATA structure represents a DNS TKEY resource record, used to establish and delete an algorithm's shared-secret keys between a DNS resolver and server as specified in RFC 2930.
 old-location: dns\dns_tkey_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 4dad3449-3e41-47d9-89c2-10fa6e51573b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

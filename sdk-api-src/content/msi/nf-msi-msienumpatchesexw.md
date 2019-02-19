@@ -4,7 +4,7 @@ title: MsiEnumPatchesExW function
 author: windows-sdk-content
 description: Enumerates all patches in a specific context or across all contexts.
 old-location: setup\msienumpatchesex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 32edcc56-190a-465f-b341-56dc60ab0589
 ms.author: windowssdkdev
 ms.date: 12/5/2018

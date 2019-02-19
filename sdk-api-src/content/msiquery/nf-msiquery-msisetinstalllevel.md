@@ -4,7 +4,7 @@ title: MsiSetInstallLevel function
 author: windows-sdk-content
 description: The MsiSetInstallLevel function sets the installation level for a full product installation.
 old-location: setup\msisetinstalllevel.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 98f1d91d-632e-4dea-948f-2dc416b4d410
 ms.author: windowssdkdev
 ms.date: 12/5/2018

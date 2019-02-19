@@ -4,7 +4,7 @@ title: DNS_SOA_DATAW
 author: windows-sdk-content
 description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.
 old-location: dns\dns_soa_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiDoActionA function
 author: windows-sdk-content
 description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
 old-location: setup\msidoaction.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

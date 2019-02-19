@@ -4,7 +4,7 @@ title: MsiCollectUserInfoW function
 author: windows-sdk-content
 description: The MsiCollectUserInfo function obtains and stores the user information and product ID from an installation wizard.
 old-location: setup\msicollectuserinfo.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: a8be3c24-cd5a-4da9-abe7-b0e40a87a07f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

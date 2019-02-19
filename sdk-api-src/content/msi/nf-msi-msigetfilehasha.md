@@ -4,7 +4,7 @@ title: MsiGetFileHashA function
 author: windows-sdk-content
 description: The MsiGetFileHash function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use MsiGetFileHash to obtain the file hash needed to populate the MsiFileHash table.
 old-location: setup\msigetfilehash.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: afd9f0b4-432f-4d23-b59d-7406ac2f68bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

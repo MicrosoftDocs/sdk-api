@@ -4,7 +4,7 @@ title: DNS_ADDR
 author: windows-sdk-content
 description: A DNS_ADDR structure stores an IPv4 or IPv6 address.
 old-location: dns\dns_addr.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677
 ms.author: windowssdkdev
 ms.date: 12/5/2018

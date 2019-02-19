@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_DefaultValue
 author: windows-sdk-content
 description: The get_DefaultValue method retrieves the DefaultValue property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_defaultvalue.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: b62e5a8c-4b1f-4d9e-9df6-6438e715e16a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

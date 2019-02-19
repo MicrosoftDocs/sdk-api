@@ -4,7 +4,7 @@ title: DnsRecordListFree macro
 author: windows-sdk-content
 description: Frees memory allocated for DNS records obtained using the DnsQuery function.
 old-location: dns\dnsrecordlistfree.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: fc4c0cb4-646f-4946-8f07-b5a858f7064a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

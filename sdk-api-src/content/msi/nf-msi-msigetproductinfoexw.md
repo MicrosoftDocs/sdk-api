@@ -4,7 +4,7 @@ title: MsiGetProductInfoExW function
 author: windows-sdk-content
 description: Returns product information for advertised and installed products.
 old-location: setup\msigetproductinfoex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: b0060666-3987-49eb-916e-0bcbf54acb23
 ms.author: windowssdkdev
 ms.date: 12/5/2018

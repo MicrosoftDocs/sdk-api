@@ -4,7 +4,7 @@ title: MsiCloseAllHandles function
 author: windows-sdk-content
 description: The MsiCloseAllHandles function closes all open installation handles allocated by the current thread. This is a diagnostic function and should not be used for cleanup.
 old-location: setup\msicloseallhandles.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 5914e99b-4895-4d12-bb4e-14a377b2eac4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

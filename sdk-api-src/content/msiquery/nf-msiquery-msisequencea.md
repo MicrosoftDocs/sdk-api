@@ -4,7 +4,7 @@ title: MsiSequenceA function
 author: windows-sdk-content
 description: The MsiSequence function executes another action sequence, as described in the specified table.
 old-location: setup\msisequence.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: affb33ab-1b58-4d18-a908-8eaedb9ce1ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

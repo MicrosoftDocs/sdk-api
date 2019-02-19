@@ -4,7 +4,7 @@ title: MsiSourceListAddMediaDiskA function
 author: windows-sdk-content
 description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.
 old-location: setup\msisourcelistaddmediadisk.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 70c58c39-1b0b-44ec-ba0c-6755015c28d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

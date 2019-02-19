@@ -4,7 +4,7 @@ title: IMsmMerge2::CreateSourceImage
 author: windows-sdk-content
 description: The CreateSourceImage method enables the client to extract the files from a module to a source image on disk after a merge, taking into account changes to the module that might have been made during module configuration.
 old-location: setup\imsmmerge2_createsourceimage.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c42fa644-f0e6-4261-af76-741df572df3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

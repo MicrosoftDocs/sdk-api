@@ -4,7 +4,7 @@ title: MsiBeginTransactionA function
 author: windows-sdk-content
 description: The MsiBeginTransaction function starts transaction processing of a multiple-package installation and returns an identifier for the transaction.
 old-location: setup\msibegintransaction.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 05904e58-b24d-4d2c-8b59-a66ad71b494a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiProvideQualifiedComponentW function
 author: windows-sdk-content
 description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
 old-location: setup\msiprovidequalifiedcomponent.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 1d37e2c4-3ee0-42d2-95de-6e058319a4d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

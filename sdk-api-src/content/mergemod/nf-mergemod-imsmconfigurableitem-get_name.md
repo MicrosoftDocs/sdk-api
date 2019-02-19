@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_Name
 author: windows-sdk-content
 description: The get_Name method retrieves the Name property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_name.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 310fcf76-457b-43d0-b33b-181b32480042
 ms.author: windowssdkdev
 ms.date: 12/5/2018

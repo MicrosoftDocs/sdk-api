@@ -4,7 +4,7 @@ title: DNS_NXT_DATAA
 author: windows-sdk-content
 description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
 old-location: dns\dns_nxt_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

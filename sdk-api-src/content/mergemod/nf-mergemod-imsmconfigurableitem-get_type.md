@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_Type
 author: windows-sdk-content
 description: The get_Type method retrieves the Type property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_type.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 18745546-1aa7-4f52-9eba-adfedb46753a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

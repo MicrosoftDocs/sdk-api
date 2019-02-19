@@ -4,7 +4,7 @@ title: MsiReinstallProductW function
 author: windows-sdk-content
 description: Reinstalls products.
 old-location: setup\msireinstallproduct.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: ad69868e-d653-417d-b902-d0d62e05c985
 ms.author: windowssdkdev
 ms.date: 12/5/2018

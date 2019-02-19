@@ -4,7 +4,7 @@ title: MsiGetFeatureInfoA function
 author: windows-sdk-content
 description: Returns descriptive information for a feature.
 old-location: setup\msigetfeatureinfo.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 2553fddf-3349-4b48-86a9-be63f2d23684
 ms.author: windowssdkdev
 ms.date: 12/5/2018

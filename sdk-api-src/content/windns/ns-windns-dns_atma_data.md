@@ -4,7 +4,7 @@ title: DNS_ATMA_DATA
 author: windows-sdk-content
 description: The DNS_ATMA_DATA structure represents a DNS ATM address (ATMA) resource record (RR).
 old-location: dns\dns_atma_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 09df3990-36bd-4656-b5cd-792e521adf9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

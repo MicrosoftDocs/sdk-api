@@ -4,7 +4,7 @@ title: IMsmError::get_Path
 author: windows-sdk-content
 description: The get_Path method retrieves the Path property of the Error object.
 old-location: setup\imsmerror_get_path.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: a431f0c6-6551-4983-8638-0a76cada822d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

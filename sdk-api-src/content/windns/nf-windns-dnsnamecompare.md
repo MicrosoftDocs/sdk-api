@@ -4,7 +4,7 @@ title: DnsNameCompare macro
 author: windows-sdk-content
 description: The DnsNameCompare function compares two DNS names.
 old-location: dns\dnsnamecompare.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 4a1512b3-8273-4632-9426-daa36456bce3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DNS_WINSR_DATAW
 author: windows-sdk-content
 description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
 old-location: dns\dns_winsr_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: a7e79e30-905f-42a5-a4de-02d71adfe95e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

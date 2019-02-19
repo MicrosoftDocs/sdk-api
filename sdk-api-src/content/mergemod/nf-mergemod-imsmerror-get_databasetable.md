@@ -4,7 +4,7 @@ title: IMsmError::get_DatabaseTable
 author: windows-sdk-content
 description: The get_DatabaseTable method retrieves the DatabaseTable property of the Error object. The method returns the name of the table in the database that caused the error.
 old-location: setup\imsmerror_get_databasetable.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: fee774b3-66ee-4ffd-b000-8032118e9a9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

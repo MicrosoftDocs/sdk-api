@@ -4,7 +4,7 @@ title: MsiSetInternalUI function
 author: windows-sdk-content
 description: The MsiSetInternalUI function enables the installer's internal user interface. Then this user interface is used for all subsequent calls to user-interface-generating installer functions in this process. For more information, see User Interface Levels.
 old-location: setup\msisetinternalui.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 303c2ea9-4c8f-46d3-b587-7c50e2810c28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

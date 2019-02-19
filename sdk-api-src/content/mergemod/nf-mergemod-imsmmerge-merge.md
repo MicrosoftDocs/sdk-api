@@ -4,7 +4,7 @@ title: IMsmMerge::Merge
 author: windows-sdk-content
 description: The Merge method executes a merge of the current database and current module.
 old-location: setup\imsmmerge_merge.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 3ff1a2a8-accb-43d7-ba38-a89a5d099dc5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

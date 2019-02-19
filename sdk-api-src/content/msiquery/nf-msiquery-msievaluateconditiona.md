@@ -4,7 +4,7 @@ title: MsiEvaluateConditionA function
 author: windows-sdk-content
 description: The MsiEvaluateCondition function evaluates a conditional expression containing property names and values.
 old-location: setup\msievaluatecondition.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiGetComponentPathW function
 author: windows-sdk-content
 description: The MsiGetComponentPath function returns the full path to an installed component. If the key path for the component is a registry key then the registry key is returned.
 old-location: setup\msigetcomponentpath.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 957fd25c-8db6-4f2e-a705-1e8c3b3de6c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

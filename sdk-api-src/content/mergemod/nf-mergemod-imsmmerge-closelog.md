@@ -4,7 +4,7 @@ title: IMsmMerge::CloseLog
 author: windows-sdk-content
 description: The CloseLog function method closes the current log. For more information, see the CloseLog method of the Merge object.
 old-location: setup\imsmmerge_closelog.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f683e405-da98-455f-85d5-d61dc1d73440
 ms.author: windowssdkdev
 ms.date: 12/5/2018

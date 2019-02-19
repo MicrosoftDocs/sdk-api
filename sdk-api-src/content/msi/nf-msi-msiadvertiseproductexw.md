@@ -4,7 +4,7 @@ title: MsiAdvertiseProductExW function
 author: windows-sdk-content
 description: The MsiAdvertiseProductEx function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproductex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 27e8deb6-912f-4103-97a6-ec505340dccc
 ms.author: windowssdkdev
 ms.date: 12/5/2018
