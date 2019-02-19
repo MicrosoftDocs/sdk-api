@@ -4,7 +4,7 @@ title: MsiGetLanguage function
 author: windows-sdk-content
 description: The MsiGetLanguage function returns the numeric language of the installation that is currently running.
 old-location: setup\msigetlanguage.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: e959dbdc-141c-41be-8752-220aa8e96064
 ms.author: windowssdkdev
 ms.date: 12/5/2018

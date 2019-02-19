@@ -4,7 +4,7 @@ title: IMsmMerge::OpenLog
 author: windows-sdk-content
 description: The OpenLog method opens a log file that receives progress and error messages.
 old-location: setup\imsmmerge_openlog.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: b34e7f28-2cf3-4cc7-9a39-e1da6fb8c788
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DNS_CONFIG_TYPE
 author: windows-sdk-content
 description: The DNS_CONFIG_TYPE enumeration provides DNS configuration type information.
 old-location: dns\dns_config_type.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: e0f0cc05-dcfe-48df-8dbd-e756cfa69154
 ms.author: windowssdkdev
 ms.date: 12/5/2018

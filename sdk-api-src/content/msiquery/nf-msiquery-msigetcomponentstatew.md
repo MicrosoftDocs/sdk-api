@@ -4,7 +4,7 @@ title: MsiGetComponentStateW function
 author: windows-sdk-content
 description: The MsiGetComponentState function obtains the state of a component.
 old-location: setup\msigetcomponentstate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 343f5cbc-e026-4a51-9c54-da5d10b7caa8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

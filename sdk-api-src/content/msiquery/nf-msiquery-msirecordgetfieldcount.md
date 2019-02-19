@@ -4,7 +4,7 @@ title: MsiRecordGetFieldCount function
 author: windows-sdk-content
 description: Returns the number of fields in a record.
 old-location: setup\msirecordgetfieldcount.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 17d4e593-f80c-4f67-bfd0-fa487e2477c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiSourceListAddSourceExA function
 author: windows-sdk-content
 description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.
 old-location: setup\msisourcelistaddsourceex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

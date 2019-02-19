@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_HelpKeyword
 author: windows-sdk-content
 description: The get_HelpKeyword method retrieves the HelpKeyword property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_helpkeyword.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 75dc8672-f910-448a-906b-aba921463e78
 ms.author: windowssdkdev
 ms.date: 12/5/2018

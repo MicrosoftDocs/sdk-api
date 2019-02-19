@@ -4,7 +4,7 @@ title: DnsValidateName_A function
 author: windows-sdk-content
 description: The DnsValidateName function validates the status of a specified DNS name.
 old-location: dns\dnsvalidatename.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: efdbd217-6936-42c1-a1eb-8655a62513ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

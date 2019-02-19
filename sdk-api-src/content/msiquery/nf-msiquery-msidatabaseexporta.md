@@ -4,7 +4,7 @@ title: MsiDatabaseExportA function
 author: windows-sdk-content
 description: The MsiDatabaseExport function exports a Microsoft Installer table from an open database to a Text Archive File.
 old-location: setup\msidatabaseexport.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c20c168d-900e-496a-894c-5678f308cdbe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

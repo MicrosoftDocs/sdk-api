@@ -4,7 +4,7 @@ title: DnsReplaceRecordSetA function
 author: windows-sdk-content
 description: Replaces an existing resource record (RR) set.
 old-location: dns\dnsreplacerecordset.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 7b99f440-72fa-4cf4-9267-98f436e99a50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

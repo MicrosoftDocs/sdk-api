@@ -4,7 +4,7 @@ title: DNS_QUERY_COMPLETION_ROUTINE
 author: windows-sdk-content
 description: The DNS_QUERY_COMPLETION_ROUTINE callback is used to asynchronously return the results of a DNS query.
 old-location: dns\dns_query_completion_routine.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 35D78208-FFC1-48B0-8267-EE583DE2D783
 ms.author: windowssdkdev
 ms.date: 12/5/2018

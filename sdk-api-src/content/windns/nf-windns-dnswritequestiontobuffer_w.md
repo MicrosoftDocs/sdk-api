@@ -4,7 +4,7 @@ title: DnsWriteQuestionToBuffer_W function
 author: windows-sdk-content
 description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
 old-location: dns\dnswritequestiontobuffer.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 9aa853aa-d9b5-41e3-a82a-c25de199924d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

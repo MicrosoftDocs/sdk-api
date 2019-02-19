@@ -4,7 +4,7 @@ title: MsiSourceListGetInfoA function
 author: windows-sdk-content
 description: The MsiSourceListGetInfo function retrieves information about the source list for a product or patch in a specific context.
 old-location: setup\msisourcelistgetinfo.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 24188c7f-d9b5-4907-861a-9555c34cbd2d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

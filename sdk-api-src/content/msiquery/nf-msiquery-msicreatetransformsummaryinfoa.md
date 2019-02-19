@@ -4,7 +4,7 @@ title: MsiCreateTransformSummaryInfoA function
 author: windows-sdk-content
 description: The MsiCreateTransformSummaryInfo function creates summary information of an existing transform to include validation and error conditions. Execution of this function sets the error record, which is accessible by using MsiGetLastErrorRecord.
 old-location: setup\msicreatetransformsummaryinfo.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 7ed6738c-f693-477e-a3d7-e4f50d222fdb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DNS_WINS_DATA
 author: windows-sdk-content
 description: The DNS_WINS_DATA structure represents a DNS Windows Internet Name Service (WINS) record.
 old-location: dns\dns_wins_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: df41c397-e662-42b4-9193-6776f9071898
 ms.author: windowssdkdev
 ms.date: 12/5/2018

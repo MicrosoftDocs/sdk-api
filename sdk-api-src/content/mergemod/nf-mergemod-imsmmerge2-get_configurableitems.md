@@ -4,7 +4,7 @@ title: IMsmMerge2::get_ConfigurableItems
 author: windows-sdk-content
 description: The get_ConfigurableItems method retrieves the ConfigurableItems property of the Merge object.
 old-location: setup\imsmmerge2_get_configurableitems.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c8b34ff7-6b0b-4cd9-bcb2-9d0da6b14254
 ms.author: windowssdkdev
 ms.date: 12/5/2018

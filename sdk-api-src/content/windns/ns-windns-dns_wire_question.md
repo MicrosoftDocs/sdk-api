@@ -4,7 +4,7 @@ title: DNS_WIRE_QUESTION
 author: windows-sdk-content
 description: The DNS_WIRE_QUESTION structure contains information about a DNS question transmitted across the network as specified in section 4.1.2 of RFC 1035..
 old-location: dns\dns_wire_question.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 50498f20-0896-4471-8355-edd997aa4bcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

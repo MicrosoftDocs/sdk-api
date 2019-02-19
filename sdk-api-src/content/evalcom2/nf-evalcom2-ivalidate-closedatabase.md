@@ -4,7 +4,7 @@ title: IValidate::CloseDatabase
 author: windows-sdk-content
 description: The CloseDatabase method closes the currently open Windows Installer package or merge module. Windows Installer packages or merge modules can be opened by using the OpenDatabase method.
 old-location: setup\ivalidate_closedatabase.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 7124f467-4efd-4e8b-9ce2-8463779f6fb9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMsmMerge::Connect
 author: windows-sdk-content
 description: The Connect method connects a module that has been, or will be, merged into the database to an additional feature. For more information, see the Connect method of the Merge object.
 old-location: setup\imsmmerge_connect.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f491beb8-90f7-4e41-891d-ef674306339d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

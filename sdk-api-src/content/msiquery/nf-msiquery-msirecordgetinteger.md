@@ -4,7 +4,7 @@ title: MsiRecordGetInteger function
 author: windows-sdk-content
 description: The MsiRecordGetInteger function returns the integer value from a record field.
 old-location: setup\msirecordgetinteger.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f04d4d61-ebe0-4eb1-b0e7-b94d9ef3c900
 ms.author: windowssdkdev
 ms.date: 12/5/2018

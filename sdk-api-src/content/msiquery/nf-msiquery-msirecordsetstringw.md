@@ -4,7 +4,7 @@ title: MsiRecordSetStringW function
 author: windows-sdk-content
 description: The MsiRecordSetString function copies a string into the designated field.
 old-location: setup\msirecordsetstring.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 225454be-b653-4679-ae77-2280bd3c8d69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

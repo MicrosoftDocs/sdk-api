@@ -4,7 +4,7 @@ title: IMsmMerge::OpenModule
 author: windows-sdk-content
 description: The OpenModule method opens a Windows Installer merge module in read-only mode. A module must be opened before it can be merged with an installation database. For more information, see the OpenModule method of the Merge object.
 old-location: setup\imsmmerge_openmodule.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 37225e61-c24f-4a44-8fdf-673590a6e09d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMsmMerge::CloseModule
 author: windows-sdk-content
 description: The CloseModule method closes the currently open Windows Installer merge module. For more information, see the CloseModule method of the Merge object.
 old-location: setup\imsmmerge_closemodule.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: bbe8ab14-3d8e-441c-a9bf-0319a9b3a5de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

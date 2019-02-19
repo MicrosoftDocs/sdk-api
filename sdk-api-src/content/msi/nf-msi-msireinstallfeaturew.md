@@ -4,7 +4,7 @@ title: MsiReinstallFeatureW function
 author: windows-sdk-content
 description: Reinstalls features.
 old-location: setup\msireinstallfeature.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 0750838d-56c8-449c-b1fd-99c9426beb52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

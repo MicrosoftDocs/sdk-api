@@ -4,7 +4,7 @@ title: MsiProcessMessage function
 author: windows-sdk-content
 description: The MsiProcessMessage function sends an error record to the installer for processing.
 old-location: setup\msiprocessmessage.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 136662bd-b970-4ff3-8ae5-c5e3097ee00d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

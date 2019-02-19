@@ -4,7 +4,7 @@ title: MsiDatabaseGenerateTransformW function
 author: windows-sdk-content
 description: The MsiDatabaseGenerateTransform function generates a transform file of differences between two databases.
 old-location: setup\msidatabasegeneratetransform.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 9e8fc756-4195-4fb7-9adb-0bda20e4ae95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiConfigureFeatureW function
 author: windows-sdk-content
 description: The MsiConfigureFeature function configures the installed state for a product feature.
 old-location: setup\msiconfigurefeature.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 067d6fbb-833f-4e0e-bfdb-18d1b8608f58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiGetMode function
 author: windows-sdk-content
 description: The MsiGetMode function is used to determine whether the installer is currently running in a specified mode, as listed in the table.
 old-location: setup\msigetmode.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 45827df5-3f3f-4fb9-bdfe-38dc78a45321
 ms.author: windowssdkdev
 ms.date: 12/5/2018

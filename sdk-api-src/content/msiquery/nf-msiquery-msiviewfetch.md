@@ -4,7 +4,7 @@ title: MsiViewFetch function
 author: windows-sdk-content
 description: The MsiViewFetch function fetches the next sequential record from the view. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msiviewfetch.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 1a973a22-ca3a-4980-9b20-d3c5b43fdd19
 ms.author: windowssdkdev
 ms.date: 12/5/2018

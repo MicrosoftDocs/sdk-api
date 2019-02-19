@@ -4,7 +4,7 @@ title: DnsAcquireContextHandle_W function
 author: windows-sdk-content
 description: The DnsAcquireContextHandle function type acquires a context handle to a set of credentials.
 old-location: dns\dnsacquirecontexthandle.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 9a820165-2f78-44f4-b49f-dc7a2b6fb4e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

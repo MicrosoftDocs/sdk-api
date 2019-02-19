@@ -4,7 +4,7 @@ title: DNS_TSIG_DATAW
 author: windows-sdk-content
 description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
 old-location: dns\dns_tsig_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
 ms.author: windowssdkdev
 ms.date: 12/5/2018

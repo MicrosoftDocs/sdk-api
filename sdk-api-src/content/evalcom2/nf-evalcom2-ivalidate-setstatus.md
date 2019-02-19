@@ -4,7 +4,7 @@ title: IValidate::SetStatus
 author: windows-sdk-content
 description: The SetStatus method enables an authoring tool to receive information about the progress of validation through a registered callback function.
 old-location: setup\ivalidate_setstatus.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 523334f1-4a82-4981-9c77-fffd2b5b561e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

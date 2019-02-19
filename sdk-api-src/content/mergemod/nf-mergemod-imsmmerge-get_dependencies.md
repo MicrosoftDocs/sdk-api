@@ -4,7 +4,7 @@ title: IMsmMerge::get_Dependencies
 author: windows-sdk-content
 description: The get_Dependencies method retrieves the Dependencies property of the Merge object.
 old-location: setup\imsmmerge_get_dependencies.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 0e59ac31-647e-4dd2-8f56-993eb4c59ab2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

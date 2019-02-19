@@ -4,7 +4,7 @@ title: MsiProvideQualifiedComponentExA function
 author: windows-sdk-content
 description: The MsiProvideQualifiedComponentEx function returns the full component path for a qualified component that is published by a product and performs any necessary installation.
 old-location: setup\msiprovidequalifiedcomponentex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: b8b567de-c21a-4e8f-840c-e71f41c11447
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DNS_RECORDW
 author: windows-sdk-content
 description: Stores a DNS resource record (RR).
 old-location: dns\dns_record.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.author: windowssdkdev
 ms.date: 12/5/2018

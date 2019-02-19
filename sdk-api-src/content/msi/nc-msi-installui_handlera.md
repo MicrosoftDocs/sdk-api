@@ -4,7 +4,7 @@ title: INSTALLUI_HANDLERA
 author: windows-sdk-content
 description: The INSTALLUI_HANDLER function prototype defines a callback function that the installer calls for progress notification and error messages.
 old-location: setup\installui_handler.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 76d771d4-12d0-4975-88cc-1921a32a2a09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

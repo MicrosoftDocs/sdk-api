@@ -4,7 +4,7 @@ title: MsiOpenPackageW function
 author: windows-sdk-content
 description: The MsiOpenPackage function opens a package to use with the functions that access the product database.
 old-location: setup\msiopenpackage.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

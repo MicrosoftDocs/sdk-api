@@ -4,7 +4,7 @@ title: IMsmMerge::get_Errors
 author: windows-sdk-content
 description: The get_Errors method retrieves the Errors property of the Merge object. This retrieves the current collection of errors.
 old-location: setup\imsmmerge_get_errors.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 81bf84f6-d469-47b1-9097-8a3ee9c8550d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

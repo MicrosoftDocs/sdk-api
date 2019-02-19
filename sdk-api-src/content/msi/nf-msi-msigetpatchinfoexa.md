@@ -4,7 +4,7 @@ title: MsiGetPatchInfoExA function
 author: windows-sdk-content
 description: Queries for information about the application of a patch to a specified instance of a product.
 old-location: setup\msigetpatchinfoex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 18acad03-7794-4c29-8cac-1dd3ea64369a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IMsmGetFiles::get_ModuleFiles
 author: windows-sdk-content
 description: The get_ModuleFiles method retrieves the ModuleFiles property of the GetFiles object.
 old-location: setup\imsmgetfiles_get_modulefiles.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 525c1a30-a870-4303-b704-e8b37f9e641f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiQueryComponentStateA function
 author: windows-sdk-content
 description: The MsiQueryComponentState function returns the installed state for a component.
 old-location: setup\msiquerycomponentstate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: d3b387d1-720e-4b54-ba80-731fcabdf676
 ms.author: windowssdkdev
 ms.date: 12/5/2018

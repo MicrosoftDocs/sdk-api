@@ -4,7 +4,7 @@ title: DnsValidateServerStatus function
 author: windows-sdk-content
 description: The DnsValidateServerStatus function validates an IP address as a suitable DNS server.
 old-location: dns\dnsvalidateserverstatus.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 5b362d05-87b2-44dd-8198-bcb5ab5a64f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiSourceListClearAllExW function
 author: windows-sdk-content
 description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.
 old-location: setup\msisourcelistclearallex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 3caa16f0-da9e-44a9-82c3-79d881278b81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

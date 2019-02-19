@@ -4,7 +4,7 @@ title: MsiDatabaseImportA function
 author: windows-sdk-content
 description: The MsiDatabaseImport function imports an installer text archive file into an open database table.
 old-location: setup\msidatabaseimport.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

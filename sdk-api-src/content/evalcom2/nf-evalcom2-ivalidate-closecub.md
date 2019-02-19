@@ -4,7 +4,7 @@ title: IValidate::CloseCUB
 author: windows-sdk-content
 description: The CloseCUB method closes an open Internal Consistency Evaluator (ICE) .cub file. Internal Consistency Evaluator (ICE) .cub files can be opened using the OpenCUB method.
 old-location: setup\ivalidate_closecub.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: be0d21ee-bb15-4c6d-9d69-741adf047863
 ms.author: windowssdkdev
 ms.date: 12/5/2018

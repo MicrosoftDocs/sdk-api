@@ -4,7 +4,7 @@ title: MsiConfigureProductExA function
 author: windows-sdk-content
 description: Installs or uninstalls a product.
 old-location: setup\msiconfigureproductex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 7a7ae88a-b893-4d10-8542-b2066d1572a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

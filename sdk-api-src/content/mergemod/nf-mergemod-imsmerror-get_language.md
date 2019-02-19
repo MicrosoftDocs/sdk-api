@@ -4,7 +4,7 @@ title: IMsmError::get_Language
 author: windows-sdk-content
 description: The get_Language method retrieves the Language property of the Error object. This function returns the LANGID of the error.
 old-location: setup\imsmerror_get_language.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c0d14c18-facc-441c-89c6-85abe6d19443
 ms.author: windowssdkdev
 ms.date: 12/5/2018

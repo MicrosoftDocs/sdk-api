@@ -4,7 +4,7 @@ title: IMsmError::get_DatabaseKeys
 author: windows-sdk-content
 description: The get_DatabaseKeys method retrieves the DatabaseKeys property of the Error object. This method returns a pointer to a string collection containing the primary keys of the row in the database causing the error, one key per entry in the collection.
 old-location: setup\imsmerror_get_databasekeys.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 7c256f03-208c-4adf-9b57-7648064f0dce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

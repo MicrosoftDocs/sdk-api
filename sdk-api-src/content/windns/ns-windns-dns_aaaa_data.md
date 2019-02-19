@@ -4,7 +4,7 @@ title: DNS_AAAA_DATA
 author: windows-sdk-content
 description: The DNS_AAAA_DATA structure represents a DNS IPv6 (AAAA) record as specified in RFC 3596.
 old-location: dns\dns_aaaa_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 0bc48e86-368c-431c-b67a-b7689dca8d3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

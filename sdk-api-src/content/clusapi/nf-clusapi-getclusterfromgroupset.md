@@ -30,7 +30,7 @@ req.irql:
 topic_type:
  - kbSyntax
 api_type:
- - HeaderDef
+ - <TBD>
 api_location:
  -
 api_name:

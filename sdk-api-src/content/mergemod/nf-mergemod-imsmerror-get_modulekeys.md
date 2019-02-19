@@ -4,7 +4,7 @@ title: IMsmError::get_ModuleKeys
 author: windows-sdk-content
 description: The get_ModuleKeys method retrieves the ModuleKeys property of the Error object. This method returns a pointer to a string collection that contains the primary keys of the row in the module causing the error, one key per entry in the collection.
 old-location: setup\imsmerror_get_modulekeys.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f2f483c7-8d38-416e-af92-fd7ab6aef459
 ms.author: windowssdkdev
 ms.date: 12/5/2018

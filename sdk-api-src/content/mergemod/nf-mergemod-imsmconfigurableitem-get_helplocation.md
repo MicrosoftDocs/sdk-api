@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_HelpLocation
 author: windows-sdk-content
 description: The get_HelpLocation method retrieves the HelpLocation property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_helplocation.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: a66f2934-048e-4df2-a004-287faf42445d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

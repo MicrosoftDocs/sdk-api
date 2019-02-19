@@ -4,7 +4,7 @@ title: DNS_NSEC_DATAA
 author: windows-sdk-content
 description: Represents an NSEC resource record (RR) as specified in section 4 of RFC 4034.
 old-location: dns\dns_nsec_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: ea446732-bc6a-4597-b164-11bfd77c07f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

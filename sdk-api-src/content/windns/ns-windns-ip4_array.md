@@ -4,7 +4,7 @@ title: IP4_ARRAY
 author: windows-sdk-content
 description: The IP4_ARRAY structure stores an array of IPv4 addresses.
 old-location: dns\ip4_array.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 4273a739-129c-4951-b6df-aef4332ce0cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

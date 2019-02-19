@@ -4,7 +4,7 @@ title: DNS_SIG_DATAA
 author: windows-sdk-content
 description: Structure represents a DNS Security Extensions (DNSSEC) cryptographic signature (SIG) resource record (RR) as specified in RFC 4034.
 old-location: dns\dns_rrsig_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 09c2f515-acc1-402f-8e62-a0d273031633
 ms.author: windowssdkdev
 ms.date: 12/5/2018

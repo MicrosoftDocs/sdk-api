@@ -4,7 +4,7 @@ title: MsiSourceListSetInfoA function
 author: windows-sdk-content
 description: Sets information about the source list for a product or patch in a specific context.
 old-location: setup\msisourcelistsetinfo.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c449bb2e-2ced-4cde-9111-d3c10db669e1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

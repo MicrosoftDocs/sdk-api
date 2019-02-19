@@ -4,7 +4,7 @@ title: MsiGetSourcePathA function
 author: windows-sdk-content
 description: The MsiGetSourcePath function returns the full source path for a folder in the Directory table.
 old-location: setup\msigetsourcepath.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 3cb8c3fa-6f0a-4829-befd-450e58c86962
 ms.author: windowssdkdev
 ms.date: 12/5/2018

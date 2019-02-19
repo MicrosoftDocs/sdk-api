@@ -4,7 +4,7 @@ title: MsiQueryProductStateA function
 author: windows-sdk-content
 description: The MsiQueryProductState function returns the installed state for a product.
 old-location: setup\msiqueryproductstate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f26f3229-d1ce-4802-99b1-857c6501c828
 ms.author: windowssdkdev
 ms.date: 12/5/2018

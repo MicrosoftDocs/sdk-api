@@ -4,7 +4,7 @@ title: DNS_FREE_TYPE
 author: windows-sdk-content
 description: The DNS_FREE_TYPE enumeration specifies the type of data to free.
 old-location: dns\dns_free_type.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 976982a1-08f1-4c67-b823-1eea34f0c643
 ms.author: windowssdkdev
 ms.date: 12/5/2018

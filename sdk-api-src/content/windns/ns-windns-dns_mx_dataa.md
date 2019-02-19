@@ -4,7 +4,7 @@ title: DNS_MX_DATAA
 author: windows-sdk-content
 description: The DNS_MX_DATA structure represents a DNS mail exchanger (MX) record as specified in section 3.3.9 of RFC 1035.
 old-location: dns\dns_mx_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 72a0b42e-a7af-42d2-b672-cf06d0b5d1ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
