@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_Context
 author: windows-sdk-content
 description: The get_Context method retrieves the Context property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_context.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 90aa0ee2-a7eb-464c-8a8f-ed4bdf46990e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

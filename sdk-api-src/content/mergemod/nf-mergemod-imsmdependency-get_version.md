@@ -4,7 +4,7 @@ title: IMsmDependency::get_Version
 author: windows-sdk-content
 description: The get_Version method retrieves the Version property of the Dependency object. This method returns the version of the required module in the form of a BSTR.
 old-location: setup\imsmdependency_get_version.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 122542f9-b7b5-4e22-b05f-bd5dd04e5a2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

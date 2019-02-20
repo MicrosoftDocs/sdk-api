@@ -4,7 +4,7 @@ title: IMsmConfigurableItem::get_Format
 author: windows-sdk-content
 description: The get_Format method retrieves the Format property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_format.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 85db7d8b-e3f2-4a7a-840f-2d690aa82917
 ms.author: windowssdkdev
 ms.date: 12/5/2018

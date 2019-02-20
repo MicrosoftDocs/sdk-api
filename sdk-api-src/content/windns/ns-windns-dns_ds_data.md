@@ -4,7 +4,7 @@ title: DNS_DS_DATA
 author: windows-sdk-content
 description: Represents a DS resource record (RR) as specified in section 2 of RFC 4034 and is used to verify the contents of DNS_DNSKEY_DATA.
 old-location: dns\dns_ds_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 8624cc27-feb5-4e4a-8970-40aa1d43960e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

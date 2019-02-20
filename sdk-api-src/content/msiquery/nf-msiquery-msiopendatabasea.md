@@ -4,7 +4,7 @@ title: MsiOpenDatabaseA function
 author: windows-sdk-content
 description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msiopendatabase.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 984996e3-aa2c-49ff-9067-ebefd3afdecb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

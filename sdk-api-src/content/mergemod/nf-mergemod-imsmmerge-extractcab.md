@@ -4,7 +4,7 @@ title: IMsmMerge::ExtractCAB
 author: windows-sdk-content
 description: The ExtractCAB method extracts the embedded .cab file from a module and saves it as the specified file.
 old-location: setup\imsmmerge_extractcab.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 3f794dac-6eeb-4c1e-8c23-c9d7384f650f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

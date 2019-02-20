@@ -4,7 +4,7 @@ title: MsiQueryFeatureStateExA function
 author: windows-sdk-content
 description: The MsiQueryFeatureStateEx function returns the installed state for a product feature.
 old-location: setup\msiqueryfeaturestateex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 60165f0d-01d9-4ce8-a369-092d0c670b87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

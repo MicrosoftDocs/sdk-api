@@ -4,7 +4,7 @@ title: MsiInstallMissingComponentA function
 author: windows-sdk-content
 description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.
 old-location: setup\msiinstallmissingcomponent.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 81b44b77-e972-409c-b933-8fcae8887266
 ms.author: windowssdkdev
 ms.date: 12/5/2018

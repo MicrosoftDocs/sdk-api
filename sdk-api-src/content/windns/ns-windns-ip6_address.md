@@ -4,7 +4,7 @@ title: IP6_ADDRESS
 author: windows-sdk-content
 description: The IP6_ADDRESS structure stores an IPv6 address.
 old-location: dns\ip6_address.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 789400be-03c7-4c4f-9e78-fa2573cf114d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

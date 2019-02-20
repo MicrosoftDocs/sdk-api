@@ -4,7 +4,7 @@ title: DnsQuery_A function
 author: windows-sdk-content
 description: Is the generic query interface to the DNS namespace, and provides application developers with a DNS query resolution interface.
 old-location: dns\dnsquery.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 3d810b76-cea1-4904-9b5a-c2566b332c2c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

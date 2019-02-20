@@ -4,7 +4,7 @@ title: MsiSummaryInfoSetPropertyA function
 author: windows-sdk-content
 description: The MsiSummaryInfoSetProperty function sets a single summary information property.
 old-location: setup\msisummaryinfosetproperty.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

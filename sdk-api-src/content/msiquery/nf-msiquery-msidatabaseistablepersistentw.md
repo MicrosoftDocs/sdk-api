@@ -4,7 +4,7 @@ title: MsiDatabaseIsTablePersistentW function
 author: windows-sdk-content
 description: The MsiDatabaseIsTablePersistent function returns an enumeration that describes the state of a specific table.
 old-location: setup\msidatabaseistablepersistent.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 78c9d95a-8e36-40a4-afbb-4d0bf5f6f350
 ms.author: windowssdkdev
 ms.date: 12/5/2018

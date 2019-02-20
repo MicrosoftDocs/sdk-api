@@ -4,7 +4,7 @@ title: MsiDatabaseOpenViewA function
 author: windows-sdk-content
 description: The MsiDatabaseOpenView function prepares a database query and creates a view object. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msidatabaseopenview.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 1ef23f9a-7d79-4d07-9349-8e9c132f1b94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

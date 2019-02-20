@@ -4,7 +4,7 @@ title: MsiDeterminePatchSequenceW function
 author: windows-sdk-content
 description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product.
 old-location: setup\msideterminepatchsequence.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f82e7d42-f0cd-4d25-b56f-7e423cb64cfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

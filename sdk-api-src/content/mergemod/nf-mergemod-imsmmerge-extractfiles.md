@@ -4,7 +4,7 @@ title: IMsmMerge::ExtractFiles
 author: windows-sdk-content
 description: The ExtractFiles method extracts the embedded .cab file from a module and then writes those files to the destination directory. For more information, see the ExtractFiles method of the Merge object.
 old-location: setup\imsmmerge_extractfiles.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: e5bafd2d-0750-4aa6-87e8-22ef3cfdd5ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

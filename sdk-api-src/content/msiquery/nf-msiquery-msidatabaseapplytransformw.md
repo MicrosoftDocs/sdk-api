@@ -4,7 +4,7 @@ title: MsiDatabaseApplyTransformW function
 author: windows-sdk-content
 description: The MsiDatabaseApplyTransform function applies a transform to a database.
 old-location: setup\msidatabaseapplytransform.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: a0222465-f778-43c1-8007-22df6a01f8bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

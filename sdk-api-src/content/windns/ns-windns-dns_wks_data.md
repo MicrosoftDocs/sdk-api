@@ -4,7 +4,7 @@ title: DNS_WKS_DATA
 author: windows-sdk-content
 description: The DNS_WKS_DATA structure represents a DNS well-known services (WKS) record as specified in section 3.4.2 of RFC 1035.
 old-location: dns\dns_wks_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 94477345-74e7-40bf-a75b-e4bf67f1c17b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

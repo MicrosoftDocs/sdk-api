@@ -4,7 +4,7 @@ title: DNS_HEADER
 author: windows-sdk-content
 description: The DNS_HEADER structure contains DNS header information used when sending DNS messages as specified in section 4.1.1 of RFC 1035.
 old-location: dns\dns_header.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: e5bf19a1-4c71-482d-a075-1e149f94505b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

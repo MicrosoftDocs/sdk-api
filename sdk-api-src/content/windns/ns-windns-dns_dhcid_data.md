@@ -4,7 +4,7 @@ title: DNS_DHCID_DATA
 author: windows-sdk-content
 description: Represents a DNS Dynamic Host Configuration Protocol Information (DHCID) resource record (RR) as specified in section 3 of RFC 4701.
 old-location: dns\dns_dhcid_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 868846bc-9f63-4bb3-ac8d-cea34232bb41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

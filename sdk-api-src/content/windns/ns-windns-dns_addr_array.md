@@ -4,7 +4,7 @@ title: DNS_ADDR_ARRAY
 author: windows-sdk-content
 description: Stores an array of IPv4 or IPv6 addresses.
 old-location: dns\dns_addr_array.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiViewModify function
 author: windows-sdk-content
 description: The MsiViewModify function updates a fetched record.
 old-location: setup\msiviewmodify.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 312c3e62-4c08-447b-951f-d8d944daff3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

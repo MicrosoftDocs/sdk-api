@@ -4,7 +4,7 @@ title: DNS_MINFO_DATAA
 author: windows-sdk-content
 description: The DNS_MINFO_DATA structure represents a DNS mail information (MINFO) record as specified in section 3.3.7 of RFC 1035.
 old-location: dns\dns_minfo_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: cd392b48-734f-462b-b893-855f07c30575
 ms.author: windowssdkdev
 ms.date: 12/5/2018

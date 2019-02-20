@@ -112,6 +112,9 @@ The application can register to receive a notification  when a session is create
 
 To begin receiving notifications, the application calls the <b>IAudioSessionManager2::RegisterSessionNotification</b> method to register its <a href="https://msdn.microsoft.com/69222168-87d7-4f5a-93b1-6d91263a54bd">IAudioSessionNotification</a> interface. When the application no longer requires notifications, it calls the <a href="https://msdn.microsoft.com/0c334963-2b60-4eb1-b8a2-c9ed0d21bd5e">IAudioSessionManager2::UnregisterSessionNotification</a> method to delete the registration.
 
+> [!Important]
+> You must call [IAudioSessionEnumerator::GetCount](https://docs.microsoft.com/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessionenumerator-getcount) to begin receiving notifications. The session enumeration API discards new session notifications until the application has first retrieved the list of existing sessions. This is to prevent a race condition that can occur when a session notification arrives while the application using the session APIs is starting up. Calling **GetCount** triggers the enumeration API to begin sending session notifications.
+
 <div class="alert"><b>Note</b>  Make sure that the application initializes COM with Multithreaded Apartment (MTA) model by calling <code>CoInitializeEx(NULL, COINIT_MULTITHREADED)</code> in a non-UI thread. If MTA is not initialized, the application does not receive session notifications from the session manager. 
 Threads that run the user interface of an application should be initialized apartment threading model.
 

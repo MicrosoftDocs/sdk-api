@@ -4,7 +4,7 @@ title: DNS_SRV_DATAW
 author: windows-sdk-content
 description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
 old-location: dns\dns_srv_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

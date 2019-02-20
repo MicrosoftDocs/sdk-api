@@ -4,7 +4,7 @@ title: MsiPreviewDialogW function
 author: windows-sdk-content
 description: The MsiPreviewDialog function displays a dialog box as modeless and inactive.
 old-location: setup\msipreviewdialog.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 4017e122-8214-4158-ade3-5dac1fda428a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiProvideAssemblyA function
 author: windows-sdk-content
 description: The MsiProvideAssembly function returns the full path to a Windows Installer component that contains an assembly. The function prompts for a source and performs any necessary installation. MsiProvideAssembly increments the usage count for the feature.
 old-location: setup\msiprovideassembly.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 9d7deb0b-f247-4af0-ba94-4d40c2f31109
 ms.author: windowssdkdev
 ms.date: 12/5/2018

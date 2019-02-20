@@ -4,7 +4,7 @@ title: IMsmConfigureModule
 author: windows-sdk-content
 description: The IMsmConfigureModule interface is a callback interface; it enables the client to provide merge configuration information during the merge process.
 old-location: setup\imsmconfiguremodule_interface.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 90e09449-6211-4eae-8fd1-446e0187ed6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

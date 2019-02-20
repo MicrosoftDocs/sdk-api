@@ -4,7 +4,7 @@ title: IValidate::Validate
 author: windows-sdk-content
 description: The Validate method performs validation of the installation package or merge module using the specified internal consistency evaluator file.
 old-location: setup\ivalidate_validate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: f7a50031-52ac-4ea2-847c-6212706a9cbd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

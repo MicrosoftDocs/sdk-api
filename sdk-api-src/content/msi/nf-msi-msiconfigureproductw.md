@@ -4,7 +4,7 @@ title: MsiConfigureProductW function
 author: windows-sdk-content
 description: The MsiConfigureProduct function installs or uninstalls a product.
 old-location: setup\msiconfigureproduct.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 06f341ac-badd-47a0-af86-4fb76bf528d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

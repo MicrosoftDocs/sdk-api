@@ -4,7 +4,7 @@ title: MsiProvideComponentW function
 author: windows-sdk-content
 description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
 old-location: setup\msiprovidecomponent.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: da6fa117-9152-4289-aa92-79903b84bd3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

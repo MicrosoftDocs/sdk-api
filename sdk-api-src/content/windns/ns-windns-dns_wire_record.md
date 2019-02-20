@@ -4,7 +4,7 @@ title: DNS_WIRE_RECORD
 author: windows-sdk-content
 description: The DNS_WIRE_RECORD structure contains information about a DNS wire record transmitted across the network as specified in section 4.1.3 of RFC 1035.
 old-location: dns\dns_wire_record.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

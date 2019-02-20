@@ -4,7 +4,7 @@ title: DNS_RRSET
 author: windows-sdk-content
 description: The DNS_RRSET structure contains information about a DNS Resource Record (RR) set.
 old-location: dns\dns_rrset.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: bd87a8db-ca27-490b-85f4-912297b77a2b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

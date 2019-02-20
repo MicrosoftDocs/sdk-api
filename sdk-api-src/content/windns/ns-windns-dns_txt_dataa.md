@@ -4,7 +4,7 @@ title: DNS_TXT_DATAA
 author: windows-sdk-content
 description: The DNS_TXT_DATA structure represents a DNS text (TXT) record as specified in section 3.3.14 of RFC 1035.
 old-location: dns\dns_txt_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 3ff643e2-d736-45d5-8cf8-ab5e63caf44b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

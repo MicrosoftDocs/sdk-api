@@ -4,7 +4,7 @@ title: MsiUseFeatureA function
 author: windows-sdk-content
 description: The MsiUseFeature function increments the usage count for a particular feature and indicates the installation state for that feature. This function should be used to indicate an application's intent to use a feature.
 old-location: setup\msiusefeature.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 7a4dc671-d82e-4775-8198-79b80a4dd9e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

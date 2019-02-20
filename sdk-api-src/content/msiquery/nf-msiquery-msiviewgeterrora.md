@@ -4,7 +4,7 @@ title: MsiViewGetErrorA function
 author: windows-sdk-content
 description: The MsiViewGetError function returns the error that occurred in the MsiViewModify function.
 old-location: setup\msiviewgeterror.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MsiAdvertiseScriptA function
 author: windows-sdk-content
 description: The MsiAdvertiseScript function copies an advertised script file into the specified locations.
 old-location: setup\msiadvertisescript.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 2c255c01-554b-42da-82ff-c946a40098ed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

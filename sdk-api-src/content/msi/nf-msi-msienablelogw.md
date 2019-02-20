@@ -4,7 +4,7 @@ title: MsiEnableLogW function
 author: windows-sdk-content
 description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
 old-location: setup\msienablelog.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: DNS_QUERY_RESULT
 author: windows-sdk-content
 description: A DNS_QUERY_RESULT structure contains the DNS query results returned from a call to DnsQueryEx.
 old-location: dns\dns_query_result.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 03EB1DC2-FAB0-45C5-B438-E8FFDD218F09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

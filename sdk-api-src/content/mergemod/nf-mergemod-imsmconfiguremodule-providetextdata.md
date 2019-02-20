@@ -4,7 +4,7 @@ title: IMsmConfigureModule::ProvideTextData
 author: windows-sdk-content
 description: The ProvideTextData method retrieves text data from the client tool. For more information, see the ProvideTextData method of the ConfigureModule object.
 old-location: setup\imsmconfiguremodule_providetextdata.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 81803b47-e1b1-45b7-b59d-aac555b189f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

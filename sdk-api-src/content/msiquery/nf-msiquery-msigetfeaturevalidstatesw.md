@@ -4,7 +4,7 @@ title: MsiGetFeatureValidStatesW function
 author: windows-sdk-content
 description: The MsiGetFeatureValidStates function returns a valid installation state.
 old-location: setup\msigetfeaturevalidstates.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c4c3f484-6854-4019-9dc0-e4c99162c339
 ms.author: windowssdkdev
 ms.date: 12/5/2018

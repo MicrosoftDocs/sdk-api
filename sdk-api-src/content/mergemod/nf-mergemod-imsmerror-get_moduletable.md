@@ -4,7 +4,7 @@ title: IMsmError::get_ModuleTable
 author: windows-sdk-content
 description: The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.
 old-location: setup\imsmerror_get_moduletable.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: c24145dc-0907-4916-bbec-f9e0ec7584db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

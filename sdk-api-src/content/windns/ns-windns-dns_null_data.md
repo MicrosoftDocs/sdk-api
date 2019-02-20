@@ -4,7 +4,7 @@ title: DNS_NULL_DATA
 author: windows-sdk-content
 description: The DNS_NULL_DATA structure represents NULL data for a DNS resource record as specified in section 3.3.10 of RFC 1035.
 old-location: dns\dns_null_data.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: c31e468f-8efd-4173-bc2c-442ee4df737f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

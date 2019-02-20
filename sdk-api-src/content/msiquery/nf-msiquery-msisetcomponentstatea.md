@@ -4,7 +4,7 @@ title: MsiSetComponentStateA function
 author: windows-sdk-content
 description: The MsiSetComponentState function sets a component to the requested state.
 old-location: setup\msisetcomponentstate.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: d538c81f-130b-4522-9f85-47f04e24f125
 ms.author: windowssdkdev
 ms.date: 12/5/2018

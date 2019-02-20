@@ -4,7 +4,7 @@ title: MsiEnumProductsExW function
 author: windows-sdk-content
 description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.
 old-location: setup\msienumproductsex.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854
 ms.author: windowssdkdev
 ms.date: 12/5/2018

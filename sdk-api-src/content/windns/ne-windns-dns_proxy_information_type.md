@@ -4,7 +4,7 @@ title: DNS_PROXY_INFORMATION_TYPE
 author: windows-sdk-content
 description: The DNS_PROXY_INFORMATION_TYPE enumeration defines the proxy information type in the DNS_PROXY_INFORMATION structure.
 old-location: dns\dns_proxy_information_type.htm
-tech.root: dns
+tech.root: DNS
 ms.assetid: 983d38f3-3ee7-4df6-a9ff-f908f250020f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

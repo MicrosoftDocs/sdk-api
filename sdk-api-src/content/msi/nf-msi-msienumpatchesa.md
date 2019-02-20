@@ -4,7 +4,7 @@ title: MsiEnumPatchesA function
 author: windows-sdk-content
 description: The MsiEnumPatches function enumerates all of the patches that have been applied to a product.
 old-location: setup\msienumpatches.htm
-tech.root: msi
+tech.root: Msi
 ms.assetid: 8f15accf-1ff5-4aa3-8a8e-be0e339360d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018
