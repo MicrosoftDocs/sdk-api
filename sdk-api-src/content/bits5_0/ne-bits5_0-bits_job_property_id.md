@@ -1,8 +1,8 @@
 ---
-UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0002
+UID: NE:bits5_0.BITS_JOB_PROPERTY_ID
 title: BITS_JOB_PROPERTY_ID
 author: windows-sdk-content
-description: Specifies the ID of the property for the BITS job.
+description: Defines constants that specify the ID of the property for the BITS job.
 old-location: bits\bits_job_property_id.htm
 tech.root: Bits
 ms.assetid: 4ED7419E-3435-4F12-B293-1FDC24F40D63
@@ -44,20 +44,13 @@ req.redist:
 
 # BITS_JOB_PROPERTY_ID enumeration
 
-
 ## -description
 
+Defines constants that specify the ID of the property for the BITS job.
 
-The <b>BITS_JOB_PROPERTY_ID</b> enumeration specifies the 
-    ID of the property for the BITS job. This enumeration is used in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Hh446784(v=VS.85).aspx">BITS_JOB_PROPERTY_VALUE</a> union to determine the 
-    type of value contained in the union.
-
+This enumeration is used in the <a href="https://msdn.microsoft.com/en-us/library/Hh446784(v=VS.85).aspx">BITS_JOB_PROPERTY_VALUE</a> union to determine the type of value contained in the union.
 
 ## -enum-fields
-
-
-
 
 ### -field BITS_JOB_PROPERTY_ID_COST_FLAGS
 
@@ -66,7 +59,7 @@ The ID that is used to
       similar networks. This property may be changed while a transfer is ongoing – the new cost flags will take effect immediately. 
 
 
-This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>’s <b>Dword</b> field.
+This property uses the <b>BITS_JOB_PROPERTY_VALUE</b>'s <b>Dword</b> field.
 
 
 
