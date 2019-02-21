@@ -1,13 +1,13 @@
 ---
-UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0004
+UID: NE:bits5_0.BITS_FILE_PROPERTY_ID
 title: BITS_FILE_PROPERTY_ID
 author: windows-sdk-content
-description: Enumerates values that define ID values corresponding to BackgroundCopyFile properties.
+description: Defines constants that specify ID values corresponding to background copy file properties.
 old-location: bits\bits_file_property_id.htm
 tech.root: Bits
 ms.assetid: A14E301E-029E-43C8-B012-8FFFA652EA40
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 02/20/2019
 ms.keywords: BITS_FILE_PROPERTY_ID, BITS_FILE_PROPERTY_ID enumeration [BITS], BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS, bits.bits_file_property_id, bits5_0/BITS_FILE_PROPERTY_ID, bits5_0/BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS
 ms.topic: enum
 req.header: bits5_0.h
@@ -44,19 +44,16 @@ req.redist:
 
 # BITS_FILE_PROPERTY_ID enumeration
 
-
 ## -description
-
-
-Enumerates values that define ID values corresponding to BackgroundCopyFile properties.
-
+Defines constants that specify ID values corresponding to background copy file properties. See [IBackgroundCopyFile5::GetProperty method](/windows/desktop/delivery_optimization/ibackgroundcopyfile5-getproperty) and [SetProperty method](/windows/desktop/delivery_optimization/ibackgroundcopyfile5-setproperty).
 
 ## -enum-fields
-
-
-
 
 ### -field BITS_FILE_PROPERTY_ID_HTTP_RESPONSE_HEADERS
 
 The full set of HTTP response headers from the server's last HTTP response packet.
 
+## -see-also
+
+* [IBackgroundCopyFile5::GetProperty method](/windows/desktop/delivery_optimization/ibackgroundcopyfile5-getproperty)
+* [SetProperty method](/windows/desktop/delivery_optimization/ibackgroundcopyfile5-setproperty)

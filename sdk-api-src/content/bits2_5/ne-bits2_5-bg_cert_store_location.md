@@ -1,13 +1,13 @@
 ---
-UID: NE:bits2_5.__MIDL_IBackgroundCopyJobHttpOptions_0001
+UID: NE:bits2_5.BG_CERT_STORE_LOCATION
 title: BG_CERT_STORE_LOCATION
 author: windows-sdk-content
-description: The BG_CERT_STORE_LOCATION enumeration defines the location of the certificate store.
+description: Defines constants that specify the location of the certificate store.
 old-location: bits\bg_cert_store_location.htm
 tech.root: Bits
 ms.assetid: 596b1ba1-6652-4c97-a44d-e8271471d864
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 02/20/2019
 ms.keywords: BG_CERT_STORE_LOCATION, BG_CERT_STORE_LOCATION enumeration [BITS], BG_CERT_STORE_LOCATION_CURRENT_SERVICE, BG_CERT_STORE_LOCATION_CURRENT_USER, BG_CERT_STORE_LOCATION_CURRENT_USER_GROUP_POLICY, BG_CERT_STORE_LOCATION_LOCAL_MACHINE, BG_CERT_STORE_LOCATION_LOCAL_MACHINE_ENTERPRISE, BG_CERT_STORE_LOCATION_LOCAL_MACHINE_GROUP_POLICY, BG_CERT_STORE_LOCATION_SERVICES, BG_CERT_STORE_LOCATION_USERS, bits.bg_cert_store_location, bits2_5/BG_CERT_STORE_LOCATION, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_SERVICE, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_USER, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_USER_GROUP_POLICY, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE_ENTERPRISE, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE_GROUP_POLICY, bits2_5/BG_CERT_STORE_LOCATION_SERVICES, bits2_5/BG_CERT_STORE_LOCATION_USERS
 ms.topic: enum
 req.header: bits2_5.h
@@ -44,82 +44,41 @@ req.redist:
 
 # BG_CERT_STORE_LOCATION enumeration
 
-
 ## -description
-
-
-The <b>BG_CERT_STORE_LOCATION</b> enumeration defines the location of the certificate store.
-
+Defines constants that specify the location of the certificate store.
 
 ## -enum-fields
 
-
-
-
 ### -field BG_CERT_STORE_LOCATION_CURRENT_USER
-
 Use the current user's certificate store.
 
-
 ### -field BG_CERT_STORE_LOCATION_LOCAL_MACHINE
-
 Use the local computer's certificate store.
 
-
 ### -field BG_CERT_STORE_LOCATION_CURRENT_SERVICE
-
 Use the current service's certificate store.
 
-
 ### -field BG_CERT_STORE_LOCATION_SERVICES
-
 Use a specific service's certificate store.
 
-
 ### -field BG_CERT_STORE_LOCATION_USERS
-
 Use a specific user's certificate store.
 
-
 ### -field BG_CERT_STORE_LOCATION_CURRENT_USER_GROUP_POLICY
-
-Use the current user's group policy certificate store. In a network setting, stores in this location are downloaded to the client computer from the Group Policy Template (GPT) during computer startup or user logon. 
-
+Use the current user's group policy certificate store. In a network setting, stores in this location are downloaded to the client computer from the Group Policy Template (GPT) during computer startup, or user logon. 
 
 ### -field BG_CERT_STORE_LOCATION_LOCAL_MACHINE_GROUP_POLICY
-
-Use the local computer's certificate store. In a network setting, stores in this location are downloaded to the client computer from the Group Policy Template (GPT) during computer startup or user logon.
-
+Use the local computer's certificate store. In a network setting, stores in this location are downloaded to the client computer from the Group Policy Template (GPT) during computer startup, or user logon.
 
 ### -field BG_CERT_STORE_LOCATION_LOCAL_MACHINE_ENTERPRISE
-
-Use the enterprise certificate store. The enterprise store is shared across domains in the enterprise and downloaded from the global enterprise directory.
-
+Use the enterprise certificate store. The enterprise store is shared across domains in the enterprise, and downloaded from the global enterprise directory.
 
 ## -remarks
 
-
-
-For more information, see <a href="https://msdn.microsoft.com/41fe9366-4c17-43bb-91d6-934c7aa87a2d">System Store Locations</a>.
-
-
-
+For more information, see [System store locations](/windows/desktop/SecCrypto/system-store-locations).
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/cd317bf9-1d4b-438e-beec-15ea7da90fc9">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
-
-
-
-<a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
-
-
-
-<a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
- 
-
- 
-
+* [IBackgroundCopyJobHttpOptions::GetClientCertificate method](/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getclientcertificate)
+* [IBackgroundCopyJobHttpOptions::SetClientCertificateByID method](/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid)
+* [IBackgroundCopyJobHttpOptions::SetClientCertificateByName method](/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname)

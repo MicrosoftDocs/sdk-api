@@ -1,13 +1,13 @@
 ---
-UID: NE:bits.__MIDL_IBackgroundCopyJob_0001
+UID: NE:bits.BG_JOB_PRIORITY
 title: BG_JOB_PRIORITY
 author: windows-sdk-content
-description: The BG_JOB_PRIORITY enumeration defines the constant values that specify the priority level of a job.
+description: Defines constants that specify the priority level of a job.
 old-location: bits\bg_job_priority.htm
 tech.root: Bits
 ms.assetid: bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e
 ms.author: windowssdkdev
-ms.date: 12/5/2018
+ms.date: 02/20/2019
 ms.keywords: BG_JOB_PRIORITY, BG_JOB_PRIORITY enumeration [BITS], BG_JOB_PRIORITY_FOREGROUND, BG_JOB_PRIORITY_HIGH, BG_JOB_PRIORITY_LOW, BG_JOB_PRIORITY_NORMAL, _drz_bg_job_priority, bits.bg_job_priority, bits/BG_JOB_PRIORITY, bits/BG_JOB_PRIORITY_FOREGROUND, bits/BG_JOB_PRIORITY_HIGH, bits/BG_JOB_PRIORITY_LOW, bits/BG_JOB_PRIORITY_NORMAL
 ms.topic: enum
 req.header: bits.h
@@ -44,65 +44,33 @@ req.redist:
 
 # BG_JOB_PRIORITY enumeration
 
-
 ## -description
-
-
-The 
-<b>BG_JOB_PRIORITY</b> enumeration defines the constant values that specify the priority level of a job. 
-
+Defines constants that specify the priority level of a job.
 
 ## -enum-fields
 
-
-
-
 ### -field BG_JOB_PRIORITY_FOREGROUND
-
 Transfers the job in the foreground. Foreground transfers compete for network bandwidth with other applications, which can impede the user's network experience. This is the highest priority level.
 
-
 ### -field BG_JOB_PRIORITY_HIGH
-
 Transfers the job in the background with a high priority. Background transfers use idle network bandwidth of the client to transfer files. This is the highest background priority level.
 
-
 ### -field BG_JOB_PRIORITY_NORMAL
-
 Transfers the job in the background with a normal priority. Background transfers use idle network bandwidth of the client to transfer files. This is the default priority level.
 
-
 ### -field BG_JOB_PRIORITY_LOW
-
 Transfers the job in the background with a low priority. Background transfers use idle network bandwidth of the client to transfer files. This is the lowest background priority level.
 
-
 ## -remarks
-
-
-
-For background jobs, the priority level determines when the job is processed relative to other jobs in the transfer queue. Higher priority jobs preempt lower priority jobs. Jobs at the same priority level share transfer time, which prevents a large job from blocking the transfer queue. Lower priority jobs do not receive transfer time until all higher priority jobs are transferred or in an error state. 
+For a background job, the priority level determines when the job is processed relative to other jobs in the transfer queue. A higher-priority job preempts a lower-priority job. Jobs at the same priority level share transfer time, which prevents a large job from blocking the transfer queue. Lower-priority jobs don't receive transfer time until all higher-priority jobs are transferred, or are in an error state. 
 
 Multiple foreground transfers can take place simultaneously. However, multiple files in the same job are transferred sequentially. For example, if you have 5 files that you would like to download concurrently, you may consider creating 5 foreground jobs, one for each transfer.
 
-<b>BITS 1.5 and earlier:  </b>BITS processes one job at a time. Foreground jobs have the highest priority and run before background jobs.
+**BITS 1.5 and earlier:** BITS processes one job at a time. Foreground jobs have the highest priority and run before background jobs.
 
-For more information, see <a href="https://msdn.microsoft.com/f4a09a80-2a85-4b59-b0fd-c23c128973f7">Best Practices When Using BITS</a>.
-
-
-
+For more information, see [Best practices when using BITS](/windows/desktop/bits/best-practices-when-using-bits).
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/8602ed59-a372-4cb3-bbda-cf1c7afc3669">IBackgroundCopyJob::GetPriority</a>
-
-
-
-<a href="https://msdn.microsoft.com/8b59128d-7e63-45dc-af0f-54ea844dac98">IBackgroundCopyJob::SetPriority</a>
- 
-
- 
-
+* [IBackgroundCopyJob::GetPriority method](/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getpriority)
+* [IBackgroundCopyJob::SetPriority method](/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setpriority)
