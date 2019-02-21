@@ -2,7 +2,7 @@
 UID: NS:bits._BG_JOB_PROGRESS
 title: BG_JOB_PROGRESS
 author: windows-sdk-content
-description: The BG_JOB_PROGRESS structure provides job-related progress information, such as the number of bytes and files transferred.
+description: Provides job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\bg_job_progress.htm
 tech.root: Bits
 ms.assetid: 92c5d1d6-1e0b-4b92-9dc5-ec9a4e2c4649
@@ -42,14 +42,9 @@ req.typenames: BG_JOB_PROGRESS
 req.redist: 
 ---
 
-# BG_JOB_PROGRESS structure
-
-
 ## -description
 
-
-The 
-<b>BG_JOB_PROGRESS</b> structure provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file. To view reply file progress, see the 
+Provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file. To view reply file progress, see the 
 <a href="https://msdn.microsoft.com/ea78ee22-87b2-4859-bd49-dd309c8aa234">BG_JOB_REPLY_PROGRESS</a> structure.
 
 

@@ -2,7 +2,7 @@
 UID: NS:bits._BG_JOB_TIMES
 title: BG_JOB_TIMES
 author: windows-sdk-content
-description: The BG_JOB_TIMES structure provides job-related time stamps.
+description: Provides job-related time stamps.
 old-location: bits\bg_job_times.htm
 tech.root: Bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
@@ -47,9 +47,7 @@ req.redist:
 
 ## -description
 
-
-The 
-<b>BG_JOB_TIMES</b> structure provides job-related time stamps.
+Provides job-related time stamps.
 
 
 ## -struct-fields

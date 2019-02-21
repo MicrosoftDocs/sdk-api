@@ -2,7 +2,7 @@
 UID: NS:bits2_0._BG_FILE_RANGE
 title: BG_FILE_RANGE
 author: windows-sdk-content
-description: The BG_FILE_RANGE structure identifies a range of bytes to download from a file.
+description: Identifies a range of bytes to download from a file.
 old-location: bits\bg_file_range.htm
 tech.root: Bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-The <b>BG_FILE_RANGE</b> structure identifies a range of bytes to download from a file.
+Identifies a range of bytes to download from a file.
 
 
 ## -struct-fields

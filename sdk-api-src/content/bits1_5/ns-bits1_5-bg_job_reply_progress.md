@@ -2,7 +2,7 @@
 UID: NS:bits1_5._BG_JOB_REPLY_PROGRESS
 title: BG_JOB_REPLY_PROGRESS
 author: windows-sdk-content
-description: The BG_JOB_REPLY_PROGRESS structure provides progress information related to the reply portion of an upload-reply job.
+description: Provides progress information related to the reply portion of an upload-reply job.
 old-location: bits\bg_job_reply_progress.htm
 tech.root: Bits
 ms.assetid: ea78ee22-87b2-4859-bd49-dd309c8aa234
@@ -47,9 +47,7 @@ req.redist: BITS 1.5 on  Windows XP
 
 ## -description
 
-
-The 
-<b>BG_JOB_REPLY_PROGRESS</b> structure provides progress information related to the reply portion of an upload-reply job.
+Provides progress information related to the reply portion of an upload-reply job.
 
 
 ## -struct-fields
