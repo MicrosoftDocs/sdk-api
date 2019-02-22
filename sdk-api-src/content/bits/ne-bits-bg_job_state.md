@@ -1,5 +1,5 @@
 ---
-UID: NE:bits.BG_JOB_STATE
+UID: NE:bits.__MIDL_IBackgroundCopyJob_0002
 title: BG_JOB_STATE
 author: windows-sdk-content
 description: Defines constants that specify the different states of a job.
