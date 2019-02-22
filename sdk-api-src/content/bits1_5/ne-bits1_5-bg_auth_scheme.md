@@ -1,5 +1,5 @@
 ---
-UID: NE:bits1_5.BG_AUTH_SCHEME
+UID: NE:bits1_5.__MIDL_IBackgroundCopyJob2_0002
 title: BG_AUTH_SCHEME
 author: windows-sdk-content
 description: Defines constants that specify the authentication scheme to use when a proxy or server requests user authentication.

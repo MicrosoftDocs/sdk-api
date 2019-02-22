@@ -1,5 +1,5 @@
 ---
-UID: NE:bits5_0.BITS_JOB_PROPERTY_ID
+UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0002
 title: BITS_JOB_PROPERTY_ID
 author: windows-sdk-content
 description: Defines constants that specify the ID of the property for the BITS job.

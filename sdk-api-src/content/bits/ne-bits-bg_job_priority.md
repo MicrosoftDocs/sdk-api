@@ -1,5 +1,5 @@
 ---
-UID: NE:bits.BG_JOB_PRIORITY
+UID: NE:bits.__MIDL_IBackgroundCopyJob_0001
 title: BG_JOB_PRIORITY
 author: windows-sdk-content
 description: Defines constants that specify the priority level of a job.

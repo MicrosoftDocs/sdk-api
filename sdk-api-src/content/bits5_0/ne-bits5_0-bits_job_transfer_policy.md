@@ -1,5 +1,5 @@
 ---
-UID: NE:bits5_0.BITS_JOB_TRANSFER_POLICY
+UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0001
 title: BITS_JOB_TRANSFER_POLICY
 author: windows-sdk-content
 description: Defines constants that specify ID values corresponding to BITS properties.
