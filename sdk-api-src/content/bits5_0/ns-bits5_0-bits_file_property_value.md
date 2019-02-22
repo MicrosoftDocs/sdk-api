@@ -1,5 +1,5 @@
 ---
-UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0005
+UID: NS:bits5_0.BITS_FILE_PROPERTY_VALUE
 title: BITS_FILE_PROPERTY_VALUE
 author: windows-sdk-content
 description: Provides the property value of a BITS file.
@@ -42,15 +42,10 @@ req.typenames: BITS_FILE_PROPERTY_VALUE
 req.redist: 
 ---
 
-# BITS_FILE_PROPERTY_VALUE structure
-
-
 ## -description
 
 
-The <b>BITS_FILE_PROPERTY_VALUE</b> union provides the 
-    property value of the BITS file based on a value from the 
-    <a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a> enumeration.
+Provides the property value of the BITS file based on a value from the <a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields

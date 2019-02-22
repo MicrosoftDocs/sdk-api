@@ -1,5 +1,5 @@
 ---
-UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0003
+UID: NS:bits5_0.BITS_JOB_PROPERTY_VALUE
 title: BITS_JOB_PROPERTY_VALUE
 author: windows-sdk-content
 description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
@@ -42,15 +42,9 @@ req.typenames: BITS_JOB_PROPERTY_VALUE
 req.redist: 
 ---
 
-# BITS_JOB_PROPERTY_VALUE structure
-
-
 ## -description
 
-
-The <b>BITS_JOB_PROPERTY_VALUE</b> union provides the 
-    property value of the BITS job based on the value of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enumeration.
+Provides the property value of the BITS job based on the value of the <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields

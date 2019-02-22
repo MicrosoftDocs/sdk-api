@@ -1,5 +1,5 @@
 ---
-UID: NE:bits.BG_ERROR_CONTEXT
+UID: NE:bits.__MIDL_IBackgroundCopyError_0001
 title: BG_ERROR_CONTEXT
 author: windows-sdk-content
 description: Defines constants that specify the context in which the error occurred.
