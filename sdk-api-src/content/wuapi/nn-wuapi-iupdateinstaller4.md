@@ -13,7 +13,7 @@ ms.topic: interface
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1507 [desktop apps only]
 req.target-min-winversvr: Windows Server [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -47,8 +47,6 @@ req.redist:
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Provides methods to finalize updates that were previously staged or installed. 
 
