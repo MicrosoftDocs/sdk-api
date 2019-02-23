@@ -55,12 +55,12 @@ Specifies that the job downloads files to the client.
 ### -field BG_JOB_TYPE_UPLOAD
 Specifies that the job uploads a file to the server. 
 
-**BITS 1.2 and earlier:** Not supported.
+**BITS 1.2 and earlier:** not supported.
 
 ### -field BG_JOB_TYPE_UPLOAD_REPLY
 Specifies that the job uploads a file to the server, and receives a reply file from the server application. 
 
-**BITS 1.2 and earlier:** Not supported.
+**BITS 1.2 and earlier:** not supported.
 
 ## -see-also
 
