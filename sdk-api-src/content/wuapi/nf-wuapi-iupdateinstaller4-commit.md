@@ -13,7 +13,7 @@ ms.topic: method
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Windows 10, version 1803 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1507 [desktop apps only]
 req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -69,7 +69,14 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows
 
 error code.
 
+## Remarks
+The **Commit** API was made public in the 1809 SDK. Any app compiled with the wuapi.h header can use the **Commit** method on previous versions of Windows 10 as well.
 
+**Commit** should only be called once. This call should happen just prior to commencing a reboot. Calling it multiple times prior to a reboot is not supported and may cause the update to fail.
+
+Calling **Commit** is required prior to rebooting when a feature update is pending reboot. If **Commit** is not called in this circumstance the update won’t be finalized and installed during the reboot.
+
+**Commit** is safe to call prior to reboot for any other types of updates as well.
 
 
 ## -see-also
