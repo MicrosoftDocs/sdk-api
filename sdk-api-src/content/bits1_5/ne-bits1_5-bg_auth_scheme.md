@@ -50,19 +50,19 @@ Defines constants that specify the authentication scheme to use when a proxy or 
 ## -enum-fields
 
 ### -field BG_AUTH_SCHEME_BASIC
-*Basic* is a scheme in which the user name and password are sent in clear-text to the server or proxy.
+<em>Basic</em> is a scheme in which the user name and password are sent in clear-text to the server or proxy.
 
 ### -field BG_AUTH_SCHEME_DIGEST
-*Digest* is a challenge-response scheme that uses a server-specified data string for the challenge.
+<em>Digest</em> is a challenge-response scheme that uses a server-specified data string for the challenge.
 
 ### -field BG_AUTH_SCHEME_NTLM
-*NTLM* is a challenge-response scheme that uses the credentials of the user for authentication in a Windows network environment.
+<em>NTLM</em> is a challenge-response scheme that uses the credentials of the user for authentication in a Windows network environment.
 
 ### -field BG_AUTH_SCHEME_NEGOTIATE
-*Simple and Protected Negotiation protocol* (Snego) is a challenge-response scheme that negotiates with the server or proxy to determine which scheme to use for authentication. Examples are the Kerberos protocol, and NTLM.
+<em>Simple and Protected Negotiation</em> (Snego) is a challenge-response scheme that negotiates with the server or proxy to determine which scheme to use for authentication. Examples are the Kerberos protocol, and NTLM.
 
 ### -field BG_AUTH_SCHEME_PASSPORT
-*Passport* is a centralized authentication service provided by Microsoft that offers a single logon for member sites.
+<em>Passport</em> is a centralized authentication service provided by Microsoft that offers a single logon for member sites.
 
 ## -remarks
 BITS supports Passport authentication for explicit credentials only, not implicit credentials tied to the account.
