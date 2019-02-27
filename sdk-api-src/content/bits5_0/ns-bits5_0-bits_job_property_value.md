@@ -44,7 +44,7 @@ req.redist:
 
 ## -description
 
-Provides the property value of the BITS job based on the value of the <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enumeration.
+Provides the property value of the BITS job based on the value of the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields
@@ -95,7 +95,7 @@ This value is returned when using the enum property ID <b>BITS_JOB_PROPERTY_USE_
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a>
+<a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a>
 
 
 
