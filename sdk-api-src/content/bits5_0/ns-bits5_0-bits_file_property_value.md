@@ -45,7 +45,7 @@ req.redist:
 ## -description
 
 
-Provides the property value of the BITS file based on a value from the <a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a> enumeration.
+Provides the property value of the BITS file based on a value from the <a href="/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_FILE_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ This value is used when using the property ID
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446782(v=VS.85).aspx">BITS_FILE_PROPERTY_ID</a>
+<a href="/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_FILE_PROPERTY_ID</a>
 
 
 

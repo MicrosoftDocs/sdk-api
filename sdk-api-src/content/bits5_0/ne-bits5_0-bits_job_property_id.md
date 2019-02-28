@@ -110,7 +110,6 @@ The requirements for a <b>BITS_JOB_PROPERTY_ON_DEMAND_MODE</b> job is that the t
 
 ## -see-also
 
-* <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a>
 * <a href="https://msdn.microsoft.com/en-us/library/Hh446784(v=VS.85).aspx">BITS_JOB_PROPERTY_VALUE</a>
 * <a href="https://msdn.microsoft.com/en-us/library/Hh446785(v=VS.85).aspx">BITS_JOB_TRANSFER_POLICY</a>
 * <a href="https://msdn.microsoft.com/567C21C7-C689-4A13-9DCA-D45766CB5150">IBackgroundCopyJob5::GetProperty</a>

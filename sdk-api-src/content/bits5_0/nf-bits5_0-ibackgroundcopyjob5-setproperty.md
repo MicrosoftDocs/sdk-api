@@ -59,12 +59,12 @@ A generic method for setting BITS job properties.
 
 ### -param PropertyId [in]
 
-The ID of the property that is being set specified as a <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enum value.
+The ID of the property that is being set specified as a <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enum value.
 
 
 ### -param PropertyValue [in]
 
-The value of the property that is being set. In order to hold a value whose type is appropriate to the property, this value is specified via the <a href="https://msdn.microsoft.com/en-us/library/Hh446784(v=VS.85).aspx">BITS_JOB_PROPERTY_VALUE</a> union that is composed of all the known property types.
+The value of the property that is being set. In order to hold a value whose type is appropriate to the property, this value is specified via the <a href="/windows/desktop/api/bits5_0/ns-bits5_0-bits_job_property_value">BITS_JOB_PROPERTY_VALUE</a> union that is composed of all the known property types.
 
 
 ## -returns
