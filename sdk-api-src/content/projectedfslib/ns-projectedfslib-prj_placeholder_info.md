@@ -126,5 +126,5 @@ Start of the variable-length buffer to hold EAs, a custom security descriptor, a
 
 #### - versionInfo
 
-Version information for the placeholder (see <a href="https://msdn.microsoft.com/en-us/library/Mt815607(v=VS.85).aspx">PrjMarkDirectoryAsPlaceholder</a> for more information on PRJ_PLACEHOLDER_VERSION_INFO)
+Version information for the placeholder (see <a href="/windows/desktop/api/projectedfslib/nf-projectedfslib-prjmarkdirectoryasplaceholder">PrjMarkDirectoryAsPlaceholder</a> for more information on PRJ_PLACEHOLDER_VERSION_INFO)
 

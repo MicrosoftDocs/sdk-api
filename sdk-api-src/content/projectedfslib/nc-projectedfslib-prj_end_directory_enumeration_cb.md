@@ -67,7 +67,7 @@ The provider can access this buffer only while the callback is running. If it wi
 
 ### -param enumerationId [in]
 
-An identifier for this enumeration session. See the Remarks section of <a href="https://msdn.microsoft.com/en-us/library/Mt815635(v=VS.85).aspx">PRJ_START_DIRECTORY_ENUMERATION_CB</a> for more information.
+An identifier for this enumeration session. See the Remarks section of <a href="/windows/desktop/api/projectedfslib/nc-projectedfslib-prj_start_directory_enumeration_cb">PRJ_START_DIRECTORY_ENUMERATION_CB</a> for more information.
 
 
 ## -returns
