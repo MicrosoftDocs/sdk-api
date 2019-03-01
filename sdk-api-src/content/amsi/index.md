@@ -14,6 +14,7 @@ tech.root: amsi
 
 ## -description
 
-This header is used by Antimalware Scan Interface. For more information, see:
+This header is used by the Antimalware Scan Interface. For more information, see
 
 - [Antimalware Scan Interface](../_amsi)
+<br/>
