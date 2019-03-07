@@ -1,0 +1,6 @@
+{
+  "tech": "w_ui_comp",
+  "headers": [
+    "windows.ui.composition.interop.h"
+  ]
+}

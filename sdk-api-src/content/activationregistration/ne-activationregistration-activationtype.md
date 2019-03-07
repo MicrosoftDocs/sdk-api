@@ -11,7 +11,7 @@ ms.date: 12/5/2018
 ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], ActivationType_InProcess, ActivationType_OutOfProcess, ActivationType_RemoteProcess, __x_ABI_CWindows_CFoundation_CActivationType, activationregistration/ActivationType, activationregistration/ActivationType_InProcess, activationregistration/ActivationType_OutOfProcess, activationregistration/ActivationType_RemoteProcess, winrt.activationtype
 ms.topic: enum
 req.header: activationregistration.h
-req.include-header: 
+req.include-header: Objidl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]

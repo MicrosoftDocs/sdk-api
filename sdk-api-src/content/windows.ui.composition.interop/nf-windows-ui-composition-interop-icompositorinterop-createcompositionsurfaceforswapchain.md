@@ -1,0 +1,93 @@
+---
+UID: NF:windows.ui.composition.interop.ICompositorInterop.CreateCompositionSurfaceForSwapChain
+title: ICompositorInterop::composition
+author: windows-sdk-content
+description: Creates an instance of CompositionSurface for use with a swap chain.
+old-location: w_ui_comp\icompositorinterop_createcompositionsurfaceforswapchain.htm
+tech.root: w_ui_comp
+ms.assetid: FDF81740-C6BA-4F3D-8145-749C738718E5
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: CreateCompositionSurfaceForSwapChain, CreateCompositionSurfaceForSwapChain method, CreateCompositionSurfaceForSwapChain method,ICompositorInterop interface, ICompositorInterop interface,CreateCompositionSurfaceForSwapChain method, ICompositorInterop.CreateCompositionSurfaceForSwapChain, ICompositorInterop.composition, ICompositorInterop::CreateCompositionSurfaceForSwapChain, ICompositorInterop::composition, w_ui_comp.icompositorinterop_createcompositionsurfaceforswapchain, windows/ICompositorInterop::CreateCompositionSurfaceForSwapChain
+ms.topic: method
+req.header: windows.ui.composition.interop.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - windows.ui.composition.interop.h
+api_name:
+ - ICompositorInterop.CreateCompositionSurfaceForSwapChain
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# ICompositorInterop::composition
+
+
+## -description
+
+
+Creates an instance of CompositionSurface for use with a swap chain.
+
+
+## -parameters
+
+
+
+
+### -param swapChain [in]
+
+Type: <b>IUnknown*</b>
+
+The swap chain to create the CompositionSurface for.
+
+
+### -param result [out]
+
+Type: <b>ICompositionSurface**</b>
+
+The created CompositionSurface.
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0BE505EA-1C31-411E-AAF7-06D52D9F4682">ICompositorInterop</a>
+ 
+
+ 
+

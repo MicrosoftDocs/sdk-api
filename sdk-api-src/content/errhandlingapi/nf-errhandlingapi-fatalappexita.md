@@ -1,0 +1,117 @@
+---
+UID: NF:errhandlingapi.FatalAppExitA
+title: FatalAppExitA function
+author: windows-sdk-content
+description: Displays a message box and terminates the application when the message box is closed.
+old-location: base\fatalappexit.htm
+tech.root: Debug
+ms.assetid: f18d8b16-ffe1-49f1-98be-ba8d49db86ef
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: FatalAppExit, FatalAppExit function, FatalAppExitA, FatalAppExitW, _win32_fatalappexit, base.fatalappexit, errhandlingapi/FatalAppExit, errhandlingapi/FatalAppExitA, errhandlingapi/FatalAppExitW
+ms.topic: function
+req.header: errhandlingapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: FatalAppExitW (Unicode) and FatalAppExitA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - FatalAppExit
+ - FatalAppExitA
+ - FatalAppExitW
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# FatalAppExitA function
+
+
+## -description
+
+
+Displays a message box and terminates the application when the message box is closed. If the system is running with a debug version of Kernel32.dll, the message box gives the user the opportunity to terminate the application or to cancel the message box and return to the application that called 
+<b>FatalAppExit</b>.
+
+
+## -parameters
+
+
+
+
+### -param uAction [in]
+
+This parameter must be zero.
+
+
+### -param lpMessageText [in]
+
+The null-terminated string that is displayed in the message box.
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+An application calls 
+<b>FatalAppExit</b> only when it is not capable of terminating any other way. 
+
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ae8ad3a2-1f1a-46d6-adaa-74c50c07dcc5">Error Handling Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/6015e025-872f-455a-89f9-0ff96e59ef15">FatalExit</a>
+ 
+
+ 
+

@@ -1,0 +1,195 @@
+---
+UID: NF:namedpipeapi.ConnectNamedPipe
+title: ConnectNamedPipe function
+author: windows-sdk-content
+description: Enables a named pipe server process to wait for a client process to connect to an instance of a named pipe.
+old-location: base\connectnamedpipe.htm
+tech.root: ipc
+ms.assetid: 50f6680f-900e-4411-a849-ec9a911c9e32
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: ConnectNamedPipe, ConnectNamedPipe function, _win32_connectnamedpipe, base.connectnamedpipe, namedpipeapi/ConnectNamedPipe
+ms.topic: function
+req.header: namedpipeapi.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows 2000 Server [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-NamedPipe-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-NamedPipe-l1-2-1.dll
+ - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+api_name:
+ - ConnectNamedPipe
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# ConnectNamedPipe function
+
+
+## -description
+
+
+Enables a named pipe server process to wait for a client process to connect to an instance of a named pipe. A client process connects by calling either the 
+<a href="base.createfile">CreateFile</a> or 
+<a href="https://msdn.microsoft.com/9cfcb608-a539-4eb6-866c-81dafdabbcdb">CallNamedPipe</a> function.
+
+
+## -parameters
+
+
+
+
+### -param hNamedPipe [in]
+
+A handle to the server end of a named pipe instance. This handle is returned by the 
+<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> function.
+
+
+### -param lpOverlapped [in, out, optional]
+
+A pointer to an 
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
+
+
+
+
+If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED, the <i>lpOverlapped</i> parameter must not be <b>NULL</b>. It must point to a valid <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. If <i>hNamedPipe</i> was opened with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is <b>NULL</b>, the function can incorrectly report that the connect operation is complete.
+
+If <i>hNamedPipe</i> was created with FILE_FLAG_OVERLAPPED and <i>lpOverlapped</i> is not <b>NULL</b>, the <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure should  contain a handle to a manual-reset event object (which the server can create by using the 
+<a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a> function).
+
+If <i>hNamedPipe</i> was not opened with FILE_FLAG_OVERLAPPED, the function does not return until a client is connected or an error occurs. Successful synchronous operations result in the function returning a nonzero value if a client connects after the function is called.
+
+
+## -returns
+
+
+
+If the operation is synchronous, <b>ConnectNamedPipe</b> does not return until the operation has completed. If the function succeeds, the return value is nonzero. If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+If the operation is asynchronous, <b>ConnectNamedPipe</b> returns immediately. If the operation is still pending, the return value is zero and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_IO_PENDING. (You can use the <a href="https://msdn.microsoft.com/1e2a3bf0-a73e-4406-99ac-32652f7f5b25">HasOverlappedIoCompleted</a> macro to determine when the operation has finished.) If the function fails, the return value is zero and 
+<b>GetLastError</b> returns a value other than ERROR_IO_PENDING or ERROR_PIPE_CONNECTED.
+
+If a client connects before the function is called, the function returns zero and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_PIPE_CONNECTED. This can happen if a client connects in the interval between the call to 
+<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> and the call to 
+<b>ConnectNamedPipe</b>. In this situation, there is a good connection between client and server, even though the function returns zero.
+
+
+
+
+## -remarks
+
+
+
+A named pipe server process can use 
+<b>ConnectNamedPipe</b> with a newly created pipe instance. It can also be used with an instance that was previously connected to another client process; in this case, the server process must first call the 
+<a href="https://msdn.microsoft.com/7af2d4fa-5e19-4256-a713-ac5bdaee6023">DisconnectNamedPipe</a> function to disconnect the handle from the previous client before the handle can be reconnected to a new client. Otherwise, 
+<b>ConnectNamedPipe</b> returns zero, and <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_NO_DATA if the previous client has closed its handle or ERROR_PIPE_CONNECTED if it has not closed its handle.
+
+The behavior of 
+<b>ConnectNamedPipe</b> depends on two conditions: whether the pipe handle's wait mode is set to blocking or nonblocking and whether the function is set to execute synchronously or in overlapped mode. A server initially specifies a pipe handle's wait mode in the 
+<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a> function, and it can be changed by using the 
+<a href="https://msdn.microsoft.com/1e62c98e-cecb-4f42-9269-e58ca69e5d39">SetNamedPipeHandleState</a> function.
+
+The server process can use any of the 
+<a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">wait functions</a> or 
+<a href="https://msdn.microsoft.com/a73cff94-ad63-4110-9f01-6469481c3d55">SleepEx</a>— to determine when the state of the event object is signaled, and it can then use the <a href="https://msdn.microsoft.com/1e2a3bf0-a73e-4406-99ac-32652f7f5b25">HasOverlappedIoCompleted</a> 
+macro to determine when the 
+<b>ConnectNamedPipe</b> operation completes.
+
+If the specified pipe handle is in nonblocking mode, 
+<b>ConnectNamedPipe</b> always returns immediately. In nonblocking mode, 
+<b>ConnectNamedPipe</b> returns a nonzero value the first time it is called for a pipe instance that is disconnected from a previous client. This indicates that the pipe is now available to be connected to a new client process. In all other situations when the pipe handle is in nonblocking mode, 
+<b>ConnectNamedPipe</b> returns zero. In these situations, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns ERROR_PIPE_LISTENING if no client is connected, ERROR_PIPE_CONNECTED if a client is connected, and ERROR_NO_DATA if a previous client has closed its pipe handle but the server has not disconnected. Note that a good connection between client and server exists only after the ERROR_PIPE_CONNECTED error is received.
+
+<div class="alert"><b>Note</b>  Nonblocking mode is supported for compatibility with Microsoft LAN Manager version 2.0, and it should not be used to achieve asynchronous input and output (I/O) with named pipes.</div>
+<div> </div>
+<b>Windows 10, version 1709:  </b>Pipes are only supported within an app-container; ie, from one UWP process to another UWP process that's part of the same app. Also, named pipes must use the syntax "\\.\pipe\LOCAL\" for the pipe name.
+
+
+#### Examples
+
+For an example, see 
+<a href="https://msdn.microsoft.com/4657e814-0e7f-45b5-8ddb-17ec0c3612ba">Multithreaded Pipe Server</a>.
+
+<div class="code"></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/9cfcb608-a539-4eb6-866c-81dafdabbcdb">CallNamedPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/1f6d946e-c74c-4599-ac3d-b709216a0900">CreateEvent</a>
+
+
+
+<a href="base.createfile">CreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/00d79639-3f14-4964-90f3-9462a23e68df">CreateNamedPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/7af2d4fa-5e19-4256-a713-ac5bdaee6023">DisconnectNamedPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a>
+
+
+
+<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+
+
+
+<a href="https://msdn.microsoft.com/9e80783e-9641-4cbd-9c28-a8efe6b9efaa">Pipe Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4">Pipes Overview</a>
+
+
+
+<a href="https://msdn.microsoft.com/1e62c98e-cecb-4f42-9269-e58ca69e5d39">SetNamedPipeHandleState</a>
+
+
+
+<a href="https://msdn.microsoft.com/a73cff94-ad63-4110-9f01-6469481c3d55">SleepEx</a>
+ 
+
+ 
+
