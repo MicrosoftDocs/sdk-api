@@ -52,7 +52,7 @@ req.redist:
 
 The <b>DiUninstallDevice</b> function uninstalls a device and removes its device node (<a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">devnode</a>) from the system. This differs from using <a href="https://msdn.microsoft.com/2aa631c3-8d00-4309-a37c-efaa7eda3efa">SetupDiCallClassInstaller</a> with the <a href="https://msdn.microsoft.com/14429756-c059-46d7-bd1c-0ae57d1ec8b5">DIF_REMOVE</a> code because it attempts to uninstall the device node in addition to child devnodes that are present at the time of the call.
 
-Prior to Windows 8 any child devices that are not present at the time of the call will not be uninstalled. However, beginning with Windows 8, any child devices that are not present at the time of the call will be uninstalled.
+Prior to Windows 8 any child devices that are not present at the time of the call will not be uninstalled.  However, beginning with Windows 8, any child devices that are not present at the time of the call will be uninstalled.
 
 
 ## -parameters

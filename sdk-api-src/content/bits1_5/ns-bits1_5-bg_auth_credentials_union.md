@@ -2,7 +2,7 @@
 UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0004
 title: BG_AUTH_CREDENTIALS_UNION
 author: windows-sdk-content
-description: The BG_AUTH_CREDENTIALS_UNION union identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
+description: Identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
 old-location: bits\bg_auth_credentials_union.htm
 tech.root: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
@@ -47,9 +47,7 @@ req.redist: BITS 1.5 on  Windows XP
 
 ## -description
 
-
-The 
-<b>BG_AUTH_CREDENTIALS_UNION</b> union identifies the credentials to use for the authentication scheme specified in the 
+Identifies the credentials to use for the authentication scheme specified in the 
 <a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a> structure.
 
 

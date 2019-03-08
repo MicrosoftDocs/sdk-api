@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Description of a state object. Pass this structure into <a href="https://msdn.microsoft.com/library/Mt830410(v=VS.85).aspx">ID3D12Device::CreateStateObject</a>.
+Description of a state object. Pass this structure into <a href="nf-d3d12-id3d12device5-createstateobject">ID3D12Device5::CreateStateObject</a>.
 
 
 ## -struct-fields

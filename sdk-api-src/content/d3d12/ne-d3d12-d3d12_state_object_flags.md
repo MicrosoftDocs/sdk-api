@@ -58,8 +58,17 @@ Specifies constraints for state objects. Use values from this enumeration in the
 
 ### -field D3D12_STATE_OBJECT_FLAG_NONE
 
+No state object constraints.
+
 
 ### -field D3D12_STATE_OBJECT_FLAG_ALLOW_LOCAL_DEPENDENCIES_ON_EXTERNAL_DEFINITIONS
+
+This flag applies to state objects of type collection only. Otherwise this flag is ignored.  
+
+The exports from this collection are allowed to have unresolved references (dependencies) that would have to be resolved (defined) when the collection is included in a containing state object, such as a raytracing pipeline state object (RTPSO).  This includes depending on externally defined subobject associations to associate an external subobject (e.g. root signature) to a local export.
+
+In the absence of this flag, all exports in this collection must have their dependencies fully locally resolved, including any necessary subobject associations being defined locally.  Advanced implementations/drivers will have enough information to compile the code in the collection and not need to keep around any uncompiled code (unless the <b>D3D12_STATE_OBJECT_FLAG_ALLOW_EXTERNAL_DEPENDENCIES_ON_LOCAL_DEFINITIONS</b> flag is set), so that when the collection is used in a containing state object (e.g. RTPSO), minimal work needs to be done by the driver, ideally a “cheap” link at most.
+
 
 
 ### -field D3D12_STATE_OBJECT_FLAG_ALLOW_EXTERNAL_DEPENDENCIES_ON_LOCAL_DEFINITIONS
@@ -75,16 +84,4 @@ A subobject association defined externally that associates an external subobject
 Regardless of the presence or absence of this flag, shader entrypoints (such as hit groups or miss shaders) in the collection are visible as entrypoints to a containing state object (e.g. RTPSO) if exported by it.  In the case of an RTPSO, the exported entrypoints can be used in shader tables for raytracing.
 
 
-#### - D3D12_STATE_OBJECT_FLAGS_NONE
-
-No state object constraints.
-
-
-#### - D3D12_STATE_OBJECT_FLAG_ALLOW_LOCAL_DEPENDENCIES_ON_EXTERNAL_DEFINITONS
-
-This flag applies to state objects of type collection only. Otherwise this flag is ignored.  
-
-The exports from this collection are allowed to have unresolved references (dependencies) that would have to be resolved (defined) when the collection is included in a containing state object, such as a raytracing pipeline state object (RTPSO).  This includes depending on externally defined subobject associations to associate an external subobject (e.g. root signature) to a local export.
-
-In the absence of this flag, all exports in this collection must have their dependencies fully locally resolved, including any necessary subobject associations being defined locally.  Advanced implementations/drivers will have enough information to compile the code in the collection and not need to keep around any uncompiled code (unless the <b>D3D12_STATE_OBJECT_FLAG_ALLOW_EXTERNAL_DEPENDENCIES_ON_LOCAL_DEFINITIONS</b> flag is set), so that when the collection is used in a containing state object (e.g. RTPSO), minimal work needs to be done by the driver, ideally a “cheap” link at most.
 

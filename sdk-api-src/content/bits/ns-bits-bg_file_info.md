@@ -2,7 +2,7 @@
 UID: NS:bits._BG_FILE_INFO
 title: BG_FILE_INFO
 author: windows-sdk-content
-description: The BG_FILE_INFO structure provides the local and remote names of the file to transfer.
+description: Provides the local and remote names of the file to transfer.
 old-location: bits\bg_file_info.htm
 tech.root: Bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
@@ -48,8 +48,7 @@ req.redist:
 ## -description
 
 
-The 
-<b>BG_FILE_INFO</b> structure provides the local and remote names of the file to transfer.
+Provides the local and remote names of the file to transfer.
 
 
 ## -struct-fields

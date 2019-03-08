@@ -362,7 +362,7 @@ The names of the load ordering group of which this service is a member. Specify 
 
 
 
-The startup program uses load ordering groups to load groups of services in a specified order with respect to the other groups. The list of load ordering groups is contained in the following registry value: <b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control</b>\<b>ServiceGroupOrder</b>
+The startup program uses load ordering groups to load groups of services in a specified order with respect to the other groups. The list of load ordering groups is contained in the following registry value: <b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\ServiceGroupOrder</b>
 
 
 
@@ -374,7 +374,7 @@ A pointer to a variable that receives a tag value that is unique in the group sp
 
 
 
-You can use a tag for ordering service startup within a load ordering group by specifying a tag order vector in the following registry value:<b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control</b>\<b>GroupOrderList</b>
+You can use a tag for ordering service startup within a load ordering group by specifying a tag order vector in the following registry value:<b>HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\GroupOrderList</b>
 
 
 
