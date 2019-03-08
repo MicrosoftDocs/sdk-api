@@ -39,6 +39,8 @@
     "playtomanagerinterop.h",
     "printmanagerinterop.h",
     "windows.graphics.imaging.interop.h",
+    "windows.graphics.effects.interop.h",
+    "windows.ui.composition.interop.h",
     "windows.ui.xaml.media.dxinterop.h",
     "windows.applicationmodel.h",
     "ivectorchangedeventargs.h",
