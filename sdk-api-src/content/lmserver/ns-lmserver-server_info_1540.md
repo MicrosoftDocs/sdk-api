@@ -4,7 +4,7 @@ title: SERVER_INFO_1540
 author: windows-sdk-content
 description: The SERVER_INFO_1540 structure specifies whether the server allows redirected server drives to be shared.
 old-location: netmgmt\server_info_1540_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 918c568d-392a-4efc-9c32-fa6b01614040
 ms.author: windowssdkdev
 ms.date: 12/5/2018

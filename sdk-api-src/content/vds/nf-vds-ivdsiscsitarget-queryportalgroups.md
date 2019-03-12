@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::QueryPortalGroups
 author: windows-sdk-content
 description: Returns an enumeration of the iSCSI portal groups within the target.
 old-location: base\ivdsiscsitarget_queryportalgroups.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: bcddd435-a422-4ba3-8978-24388346ab27
 ms.author: windowssdkdev
 ms.date: 12/5/2018

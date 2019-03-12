@@ -4,7 +4,7 @@ title: IWSDiscoveryProviderNotify::SearchComplete
 author: windows-sdk-content
 description: Called to indicate a user initiated search has successfully completed and no more matches for the search will be accepted.
 old-location: ncd\iwsdiscoveryprovidernotify_searchcomplete.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: a125a7b3-6887-42e2-b421-d0e27973d8ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

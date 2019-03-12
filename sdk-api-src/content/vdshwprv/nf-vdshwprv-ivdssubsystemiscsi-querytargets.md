@@ -4,7 +4,7 @@ title: IVdsSubSystemIscsi::QueryTargets
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI targets of the subsystem.
 old-location: base\ivdssubsystemiscsi_querytargets.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 86a89c23-beed-48d0-8d35-ed8dd39db3c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

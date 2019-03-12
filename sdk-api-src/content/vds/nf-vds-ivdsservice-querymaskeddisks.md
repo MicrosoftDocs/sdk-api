@@ -4,7 +4,7 @@ title: IVdsService::QueryMaskedDisks
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsservice_querymaskeddisks.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6e53b250-0ceb-4a0c-a1ea-11b2686c5b4d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

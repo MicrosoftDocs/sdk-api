@@ -4,7 +4,7 @@ title: WSD_HELLO
 author: windows-sdk-content
 description: Represents a Hello message.
 old-location: ncd\wsd_hello_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 71fad98a-d115-4350-b3aa-3f3927b2c24d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

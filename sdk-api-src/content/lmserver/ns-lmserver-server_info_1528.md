@@ -4,7 +4,7 @@ title: SERVER_INFO_1528
 author: windows-sdk-content
 description: The SERVER_INFO_1528 structure specifies the period of time that the scavenger remains idle before waking up to service requests.
 old-location: netmgmt\server_info_1528_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 59f7f52b-2bf4-49b0-8e45-472ba290acee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDUdpAddress::SetSockaddr
 author: windows-sdk-content
 description: Sets the socket address information.
 old-location: ncd\iwsdudpaddress_setsockaddr.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: a8c6cc53-bba6-44ef-8c1e-f357e11793b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_1023
 author: windows-sdk-content
 description: The USER_INFO_1023 structure contains the name of the server to which network logon requests should be sent. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1023_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 44985bbe-48d2-4fe9-9247-2800089269cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_ASYNC_OUTPUT
 author: windows-sdk-content
 description: Defines the output of an async object. Output elements vary depending on the operation type.
 old-location: base\vds_async_output.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 21771c6a-eca9-47f3-b6fc-383bca1e11bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

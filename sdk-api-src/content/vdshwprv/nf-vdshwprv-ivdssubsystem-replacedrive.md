@@ -4,7 +4,7 @@ title: IVdsSubSystem::ReplaceDrive
 author: windows-sdk-content
 description: Replaces or migrates one drive with another in the subsystem.
 old-location: base\ivdssubsystem_replacedrive.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 349fa2aa-94cd-4db0-9682-c39bcd9f9109
 ms.author: windowssdkdev
 ms.date: 12/5/2018

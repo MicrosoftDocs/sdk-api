@@ -4,7 +4,7 @@ title: USER_INFO_1008
 author: windows-sdk-content
 description: The USER_INFO_1008 structure contains a set of bit flags defining several user network account parameters. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1008_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 142408ef-ed8e-4af3-8fc2-ffdd40ce4f1e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_DRIVE_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a drive.
 old-location: base\vds_drive_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: fff84c91-d207-44fc-bcd6-03e34eaed9e3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

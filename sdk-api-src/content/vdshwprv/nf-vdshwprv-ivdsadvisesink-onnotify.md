@@ -4,7 +4,7 @@ title: IVdsAdviseSink::OnNotify
 author: windows-sdk-content
 description: Passes notifications from providers to VDS, and from VDS to applications.
 old-location: base\ivdsadvisesink_onnotify.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0cf7bf55-922e-4092-bb2f-6423d9addb0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

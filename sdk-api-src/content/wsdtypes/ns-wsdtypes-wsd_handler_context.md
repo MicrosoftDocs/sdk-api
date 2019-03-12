@@ -4,7 +4,7 @@ title: WSD_HANDLER_CONTEXT
 author: windows-sdk-content
 description: Specifies the context for handling incoming messages.
 old-location: ncd\wsd_handler_context_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: d7b69627-5847-47ec-8ada-2df9b427e870
 ms.author: windowssdkdev
 ms.date: 12/5/2018

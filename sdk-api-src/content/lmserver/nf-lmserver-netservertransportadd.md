@@ -4,7 +4,7 @@ title: NetServerTransportAdd function
 author: windows-sdk-content
 description: The NetServerTransportAdd function binds the server to the transport protocol.
 old-location: netmgmt\netservertransportadd.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: c8521aed-0762-4412-b117-c911fc77049b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsVolumeMF::ClearFileSystemFlags
 author: windows-sdk-content
 description: Clears the file-system flags.
 old-location: base\ivdsvolumemf_clearfilesystemflags.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f3b02b4a-109c-419f-94c1-fc2f15ea5291
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsDisk3::QueryFreeExtents
 author: windows-sdk-content
 description: Returns the free extents on the disk and aligns them to the specified alignment size.
 old-location: base\ivdsdisk3_queryfreeextents.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0ca2ebb6-1394-48a2-972b-bdf43bf58ced
 ms.author: windowssdkdev
 ms.date: 12/5/2018

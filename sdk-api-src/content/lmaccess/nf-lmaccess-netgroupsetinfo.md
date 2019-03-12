@@ -4,7 +4,7 @@ title: NetGroupSetInfo function
 author: windows-sdk-content
 description: The NetGroupSetInfo function sets the parameters of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupsetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 8c235f9a-095e-4108-9b93-008ffe9bc776
 ms.author: windowssdkdev
 ms.date: 12/5/2018

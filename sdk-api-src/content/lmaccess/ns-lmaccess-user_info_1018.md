@@ -4,7 +4,7 @@ title: USER_INFO_1018
 author: windows-sdk-content
 description: The USER_INFO_1018 structure contains the maximum amount of disk space available to a network user account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1018_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 15bdff5c-a360-4519-8e0b-c73ddd01298c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

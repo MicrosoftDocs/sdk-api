@@ -4,7 +4,7 @@ title: IVdsSubSystem::Reenumerate
 author: windows-sdk-content
 description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
 old-location: base\ivdssubsystem_reenumerate.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511
 ms.author: windowssdkdev
 ms.date: 12/5/2018

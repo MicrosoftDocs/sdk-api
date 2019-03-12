@@ -4,7 +4,7 @@ title: PSAM_INIT_NOTIFICATION_ROUTINE
 author: windows-sdk-content
 description: The InitializeChangeNotify function is implemented by a password filter DLL. This function initializes the DLL.
 old-location: security\initializechangenotify.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: c503c849-65da-4514-b6d9-a95c9d75433e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

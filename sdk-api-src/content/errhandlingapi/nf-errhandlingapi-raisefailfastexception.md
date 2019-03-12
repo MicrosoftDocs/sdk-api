@@ -1,0 +1,141 @@
+---
+UID: NF:errhandlingapi.RaiseFailFastException
+title: RaiseFailFastException function
+author: windows-sdk-content
+description: Raises an exception that bypasses all exception handlers (frame or vector based).
+old-location: base\raisefailfastexception.htm
+tech.root: Debug
+ms.assetid: 69fbb722-2733-4035-8bfa-a5828311581c
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: FAIL_FAST_GENERATE_EXCEPTION_ADDRESS, RaiseFailFastException, RaiseFailFastException function, base.raisefailfastexception, errhandlingapi/RaiseFailFastException
+ms.topic: function
+req.header: errhandlingapi.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+ - kernel32legacy.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+ - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+ - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+ - API-MS-Win-Core-errorhandling-l1-1-2.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+ - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+api_name:
+ - RaiseFailFastException
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# RaiseFailFastException function
+
+
+## -description
+
+
+Raises an exception that bypasses all exception handlers (frame or vector based). Raising this exception terminates the application and invokes Windows Error Reporting, if Windows Error Reporting is enabled.
+
+
+## -parameters
+
+
+
+
+### -param pExceptionRecord [in, optional]
+
+A pointer to an <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> structure that contains the exception information. You must specify the <b>ExceptionAddress</b> and <b>ExceptionCode</b> members.
+
+If this parameter is <b>NULL</b>, the function creates an exception record and sets the <b>ExceptionCode</b> member to STATUS_FAIL_FAST_EXCEPTION. The function will also set the <b>ExceptionAddress</b> member if the <i>dwFlags</i> parameter contains the FAIL_FAST_GENERATE_EXCEPTION_ADDRESS flag.
+
+
+### -param pContextRecord [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/a6c201b3-4402-4de4-89c7-e6e2fbcd27f7">CONTEXT</a> structure that contains the context information. If <b>NULL</b>, this function generates the context (however, the context will not exactly match the context of the caller).
+
+
+### -param dwFlags [in]
+
+
+You can specify zero or the following flag that control this function's behavior:
+
+
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="FAIL_FAST_GENERATE_EXCEPTION_ADDRESS"></a><a id="fail_fast_generate_exception_address"></a><dl>
+<dt><b>FAIL_FAST_GENERATE_EXCEPTION_ADDRESS</b></dt>
+<dt>0x1</dt>
+</dl>
+</td>
+<td width="60%">
+Causes <b>RaiseFailFastException</b> to set the <b>ExceptionAddress</b> of <a href="https://msdn.microsoft.com/85a64178-bdcb-4293-9363-289c654730a2">EXCEPTION_RECORD</a> to the return address of this function (the next instruction in the caller after the call to <b>RaiseFailFastException</b>). This function will set the exception address only if <b>ExceptionAddress</b> is not <b>NULL</b>.
+
+</td>
+</tr>
+</table>
+ 
+
+
+## -returns
+
+
+
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+Typically, you call this function if your application is in a bad state and you want to terminate the application  immediately and have a Windows Error Report created.
+
+If the WER service is disabled or cannot be started or there is no debugger attached to the process, the process will be terminated.
+
+This function raises a second chance exception. If JIT debugging is enabled, a debugger will attach to the process.
+
+
+
+
+## -see-also
+
+
+
+
+<b>Environment.FailFast</b>
+ 
+
+ 
+

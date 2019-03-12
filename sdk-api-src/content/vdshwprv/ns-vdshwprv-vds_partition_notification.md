@@ -4,7 +4,7 @@ title: VDS_PARTITION_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of partition events.
 old-location: base\vds_partition_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f731d45d-e406-4a03-a604-c6ac001c341f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

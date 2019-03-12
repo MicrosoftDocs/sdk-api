@@ -4,7 +4,7 @@ title: IVdsDisk3::GetProperties2
 author: windows-sdk-content
 description: Returns property information for a disk. This method is identical to the IVdsDisk::GetProperties method, except that it returns a VDS_DISK_PROP2 structure instead of a VDS_DISK_PROP structure.
 old-location: base\ivdsdisk3_getproperties2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ef88b61b-9139-4767-b54f-46122650e922
 ms.author: windowssdkdev
 ms.date: 12/5/2018

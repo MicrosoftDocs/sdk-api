@@ -4,7 +4,7 @@ title: SERVER_INFO_1510
 author: windows-sdk-content
 description: The SERVER_INFO_1510 structure specifies the maximum number of users that can be logged on to the specified server using a single virtual circuit.
 old-location: netmgmt\server_info_1510_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4bef21e3-09b9-4045-b21f-6cb9a75e2ad4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

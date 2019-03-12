@@ -4,7 +4,7 @@ title: IWSDServiceProxy::GetServiceMetadata
 author: windows-sdk-content
 description: Retrieves the metadata for the IWSDServiceProxy object.
 old-location: ncd\iwsdserviceproxy_getservicemetadata_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 552da68f-6e6a-44b2-8c95-e29bc67de3c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

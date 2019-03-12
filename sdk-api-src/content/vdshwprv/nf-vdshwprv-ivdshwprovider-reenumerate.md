@@ -4,7 +4,7 @@ title: IVdsHwProvider::Reenumerate
 author: windows-sdk-content
 description: Discovers newly connected and disconnected subsystems.
 old-location: base\ivdshwprovider_reenumerate.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: aeb06a98-8896-446f-abd5-ea40be0bea40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

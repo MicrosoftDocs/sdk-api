@@ -4,7 +4,7 @@ title: VDS_OBJECT_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types of a VDS object.
 old-location: base\vds_object_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 63997e08-b6d3-4011-8946-56ef9832c0e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

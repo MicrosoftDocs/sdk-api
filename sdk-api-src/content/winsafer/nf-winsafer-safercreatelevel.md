@@ -4,7 +4,7 @@ title: SaferCreateLevel function
 author: windows-sdk-content
 description: Opens a SAFER_LEVEL_HANDLE.
 old-location: security\safercreatelevel.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 7deb1365-5355-4983-900b-8e4fed009403
 ms.author: windowssdkdev
 ms.date: 12/5/2018

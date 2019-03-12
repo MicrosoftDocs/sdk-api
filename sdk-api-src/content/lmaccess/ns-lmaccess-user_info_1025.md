@@ -4,7 +4,7 @@ title: USER_INFO_1025
 author: windows-sdk-content
 description: The USER_INFO_1025 structure contains the code page for a network user's language of choice. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1025_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 85e3584f-8245-47e3-9e48-5c43db51be0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

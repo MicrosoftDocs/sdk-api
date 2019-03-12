@@ -4,7 +4,7 @@ title: USE_INFO_2
 author: windows-sdk-content
 description: The USE_INFO_2 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, and domain name.
 old-location: netmgmt\use_info_2_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4cc36108-085a-47c4-9dfa-b46f7e208c8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

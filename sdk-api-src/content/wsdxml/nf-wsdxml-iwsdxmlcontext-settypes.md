@@ -4,7 +4,7 @@ title: IWSDXMLContext::SetTypes
 author: windows-sdk-content
 description: Associates custom message types with the XML context object.
 old-location: ncd\iwsdxmlcontext_settypes_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: c3bf56e1-42c6-4ecf-971f-2a6253fba0bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

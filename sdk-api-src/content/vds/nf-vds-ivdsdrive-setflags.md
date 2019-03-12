@@ -4,7 +4,7 @@ title: IVdsDrive::SetFlags
 author: windows-sdk-content
 description: Sets flags of a drive object.
 old-location: base\ivdsdrive_setflags.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 73f20f2b-44ec-44f0-b4e9-2aa40e85cc7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

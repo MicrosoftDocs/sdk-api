@@ -4,7 +4,7 @@ title: IVdsLunNaming::SetFriendlyName
 author: windows-sdk-content
 description: Sets the friendly name of a LUN.
 old-location: base\ivdslunnaming_setfriendlyname.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

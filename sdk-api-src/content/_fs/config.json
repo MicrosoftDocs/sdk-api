@@ -11,6 +11,7 @@
     "clfsmgmt.h",
     "minwinbase.h",
     "winioctl.h",
+    "ioapiset.h",
     "fileapi.h",
     "ntdddisk.h",
     "dskquota.h",
@@ -24,7 +25,8 @@
     "ktmw32.h",
     "ktmtypes.h",
     "lmshare.h",
-    "lmstats.h"
+    "lmstats.h",
+    "wow64apiset.h"
   ],
   "displayName": "Data Access and Storage"
 }

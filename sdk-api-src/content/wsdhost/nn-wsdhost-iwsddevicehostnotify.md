@@ -4,7 +4,7 @@ title: IWSDDeviceHostNotify
 author: windows-sdk-content
 description: Provides device-related notifications to an instance of an IWSDDeviceHost object.
 old-location: ncd\iwsddevicehostnotify.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e68e347d-5251-4931-bbcc-7a92b46bf4bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsSubSystemIscsi::CreateTarget
 author: windows-sdk-content
 description: Creates an iSCSI target.
 old-location: base\ivdssubsystemiscsi_createtarget.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 084a1f0e-0764-404a-bd9a-a724e4f12c5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

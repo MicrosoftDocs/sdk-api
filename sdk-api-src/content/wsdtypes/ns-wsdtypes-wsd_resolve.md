@@ -4,7 +4,7 @@ title: WSD_RESOLVE
 author: windows-sdk-content
 description: Represents a Resolve message.
 old-location: ncd\wsd_resolve_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f969f249-6c1e-4c0c-8da6-ec7069b06e20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

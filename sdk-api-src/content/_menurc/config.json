@@ -4,6 +4,7 @@
     "winbase.h",
     "winnt.h",
     "winuser.h",
+    "libloaderapi.h",
     "resourceindexer.h",
     "strsafe.h",
     "winver.h",

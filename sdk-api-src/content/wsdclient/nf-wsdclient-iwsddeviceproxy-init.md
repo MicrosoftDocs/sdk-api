@@ -4,7 +4,7 @@ title: IWSDDeviceProxy::Init
 author: windows-sdk-content
 description: Initializes the device proxy, optionally sharing a session with a previously initialized sponsoring device proxy.
 old-location: ncd\iwsddeviceproxy_init_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: d29212c8-2f29-41cc-ae35-8376ec5f0b7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

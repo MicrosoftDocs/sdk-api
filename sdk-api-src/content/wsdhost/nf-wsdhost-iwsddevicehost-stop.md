@@ -4,7 +4,7 @@ title: IWSDDeviceHost::Stop
 author: windows-sdk-content
 description: Sends a WS-Discovery Bye message and stops the host.
 old-location: ncd\iwsddevicehost_stop_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

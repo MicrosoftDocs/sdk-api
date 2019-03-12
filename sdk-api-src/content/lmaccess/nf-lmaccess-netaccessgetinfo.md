@@ -4,7 +4,7 @@ title: NetAccessGetInfo function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 76d818db-ce13-4879-9ba5-c26d13fe098a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

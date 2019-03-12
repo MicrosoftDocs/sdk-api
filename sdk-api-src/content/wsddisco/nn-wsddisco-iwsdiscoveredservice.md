@@ -4,7 +4,7 @@ title: IWSDiscoveredService
 author: windows-sdk-content
 description: This interface represents a remotely discovered host.
 old-location: ncd\iwsdiscoveredservice.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 6516098a-e440-4dec-b275-165ea3072d49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

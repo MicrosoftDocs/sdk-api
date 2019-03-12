@@ -4,7 +4,7 @@ title: SERVER_INFO_1523
 author: windows-sdk-content
 description: The SERVER_INFO_1523 structure specifies the length of time the server retains information about incomplete search operations.
 old-location: netmgmt\server_info_1523_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 61cf462b-8a1d-455e-b664-6ee6a1a1375c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

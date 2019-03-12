@@ -4,7 +4,7 @@ title: VDS_DRIVE_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of drive events.
 old-location: base\vds_drive_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 933376b3-d5eb-407b-941c-4e2b61774c1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

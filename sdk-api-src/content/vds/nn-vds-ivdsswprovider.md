@@ -4,7 +4,7 @@ title: IVdsSwProvider
 author: windows-sdk-content
 description: Provides methods to perform operations specific to the software provider.
 old-location: base\ivdsswprovider.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0602d4d6-a31d-4425-ad21-a267c6e1dd7b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

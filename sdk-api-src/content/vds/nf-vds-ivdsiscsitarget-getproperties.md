@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::GetProperties
 author: windows-sdk-content
 description: Returns the properties of an iSCSI target.
 old-location: base\ivdsiscsitarget_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: db48ec8e-aae1-4b88-9942-6a23de2cfe25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

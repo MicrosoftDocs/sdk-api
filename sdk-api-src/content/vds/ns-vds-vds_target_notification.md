@@ -4,7 +4,7 @@ title: VDS_TARGET_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of iSCSI target events.
 old-location: base\vds_target_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 71453c9c-d6a7-4527-8988-c0388d7a9991
 ms.author: windowssdkdev
 ms.date: 12/5/2018

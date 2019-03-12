@@ -4,7 +4,7 @@ title: IVdsSubSystemInterconnect
 author: windows-sdk-content
 description: Provides a method to query the interconnect types that are supported by a subsystem.
 old-location: base\ivdssubsysteminterconnect.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d690827a-4608-4d02-a3bb-5cdb5073b0ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

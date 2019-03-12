@@ -4,7 +4,7 @@ title: IVdsVolume::Shrink
 author: windows-sdk-content
 description: Reduces the size of the volume and all plexes, and returns the released extents to free space.
 old-location: base\ivdsvolume_shrink.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 63ac6ef9-0e84-40ed-a302-4f32316a41cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

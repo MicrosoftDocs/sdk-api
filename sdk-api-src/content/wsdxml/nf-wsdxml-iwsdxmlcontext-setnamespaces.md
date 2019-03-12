@@ -4,7 +4,7 @@ title: IWSDXMLContext::SetNamespaces
 author: windows-sdk-content
 description: Associates custom namespaces with the XML context object.
 old-location: ncd\iwsdxmlcontext_setnamespaces_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 94ec94d1-e0d8-42cb-993f-6da9c8df1a47
 ms.author: windowssdkdev
 ms.date: 12/5/2018

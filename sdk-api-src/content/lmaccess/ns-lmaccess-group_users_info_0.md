@@ -4,7 +4,7 @@ title: GROUP_USERS_INFO_0
 author: windows-sdk-content
 description: The GROUP_USERS_INFO_0 structure contains global group member information.
 old-location: netmgmt\group_users_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: cc0e5d27-91f1-4640-bb80-e73899fabba9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

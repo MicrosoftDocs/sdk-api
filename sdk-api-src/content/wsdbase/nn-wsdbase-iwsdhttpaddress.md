@@ -4,7 +4,7 @@ title: IWSDHttpAddress
 author: windows-sdk-content
 description: Provides access to the individual components of an HTTP address.
 old-location: ncd\iwsdhttpaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 79d3570a-56b2-40ad-b3c6-cddc3239da7e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

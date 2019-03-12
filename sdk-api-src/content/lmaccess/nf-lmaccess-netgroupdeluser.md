@@ -4,7 +4,7 @@ title: NetGroupDelUser function
 author: windows-sdk-content
 description: The NetGroupDelUser function removes a user from a particular global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupdeluser.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ab8ce12a-60c0-4d79-8894-4537c6568e15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

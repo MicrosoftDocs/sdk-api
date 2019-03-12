@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::GetDriveLetter
 author: windows-sdk-content
 description: Returns the drive letter assigned to an OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_getdriveletter.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: de914162-3d55-4766-89d8-da2a531e9362
 ms.author: windowssdkdev
 ms.date: 12/5/2018

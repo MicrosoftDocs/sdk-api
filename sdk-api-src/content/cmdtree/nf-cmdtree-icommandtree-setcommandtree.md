@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href="http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 The <b>ICommandTree::SetCommandTree</b> method sets a command object's command tree, replacing the existing one or replacing a text command specified with the <a href="https://msdn.microsoft.com/library/ms709737(v=VS.85).aspx">ICommandText</a> interface. The provided command tree is copied into or transferred to, depending on the <i>fCopy</i> parameter, the command object. Thus, the consumer may delete the original tree or text without affecting the command object. Most error checking is deferred until one of the validation methods, optimization (see <a href="https://msdn.microsoft.com/library/ms713621(v=VS.85).aspx">ICommandPrepare</a>), or the <a href="https://msdn.microsoft.com/library/ms718095(v=VS.85).aspx">ICommand::Execute</a> method is invoked. This method only verifies that the command tree can indeed be copied into the command object's space.
 

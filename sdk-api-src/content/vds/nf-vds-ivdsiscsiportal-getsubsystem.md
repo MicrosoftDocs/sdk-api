@@ -4,7 +4,7 @@ title: IVdsIscsiPortal::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem to which the portal belongs.
 old-location: base\ivdsiscsiportal_getsubsystem.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9e222cdc-6399-4e28-b59b-ba912e32eb9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

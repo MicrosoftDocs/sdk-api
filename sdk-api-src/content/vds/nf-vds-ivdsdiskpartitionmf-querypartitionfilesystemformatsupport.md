@@ -4,7 +4,7 @@ title: IVdsDiskPartitionMF::QueryPartitionFileSystemFormatSupport
 author: windows-sdk-content
 description: Retrieves the properties of the file systems that are supported for formatting a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_querypartitionfilesystemformatsupport.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7ee61c81-28d2-43d8-8444-a62dc025aed0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

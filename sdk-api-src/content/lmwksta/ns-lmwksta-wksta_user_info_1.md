@@ -4,7 +4,7 @@ title: WKSTA_USER_INFO_1
 author: windows-sdk-content
 description: The WKSTA_USER_INFO_1 structure contains user information as it pertains to a specific workstation. The information includes the name of the current user and the domains accessed by the workstation.
 old-location: netmgmt\wksta_user_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: a30747de-6cb0-41dc-95a7-be3d471056d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

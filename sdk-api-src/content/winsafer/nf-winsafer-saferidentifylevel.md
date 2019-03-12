@@ -4,7 +4,7 @@ title: SaferIdentifyLevel function
 author: windows-sdk-content
 description: Retrieves information about a level.
 old-location: security\saferidentifylevel.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: f82c4f40-5c37-4f97-95a2-4b2cc26bf41e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

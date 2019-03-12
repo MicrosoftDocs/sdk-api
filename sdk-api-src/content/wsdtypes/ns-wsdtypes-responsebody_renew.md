@@ -4,7 +4,7 @@ title: RESPONSEBODY_Renew
 author: windows-sdk-content
 description: Represents a WS-Eventing Renew response message.
 old-location: ncd\responsebody_renew_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 3fe288b6-bb84-4b8f-b973-b2309c60c28e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

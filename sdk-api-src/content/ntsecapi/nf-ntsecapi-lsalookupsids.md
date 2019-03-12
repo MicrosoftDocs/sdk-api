@@ -4,7 +4,7 @@ title: LsaLookupSids function
 author: windows-sdk-content
 description: Looks up the names that correspond to an array of security identifiers (SIDs). If LsaLookupSids cannot find a name that corresponds to a SID, the function returns the SID in character form.
 old-location: security\lsalookupsids.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 69051bad-91e7-469d-9010-48ac3d20f8af
 ms.author: windowssdkdev
 ms.date: 12/5/2018

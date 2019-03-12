@@ -4,7 +4,7 @@ title: SERVER_TRANSPORT_INFO_3
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_3 structure contains information about the specified transport protocol, including name, address and password (credentials). This information level is valid only for the NetServerTransportAddEx function.
 old-location: netmgmt\server_transport_info_3_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 045d60d4-518f-4ce4-b611-e23d1588d5d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

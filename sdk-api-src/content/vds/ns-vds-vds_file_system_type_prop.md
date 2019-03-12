@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_TYPE_PROP
 author: windows-sdk-content
 description: Defines the properties of a file system type.
 old-location: base\vds_file_system_type_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 92383a59-d7dd-419b-b6d0-959fef41ad4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

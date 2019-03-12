@@ -4,7 +4,7 @@ title: VDS_HEALTH
 author: windows-sdk-content
 description: Defines the set of health state values for a VDS object.
 old-location: base\vds_health.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c65d9266-d691-4711-8225-a442e90d8ba3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

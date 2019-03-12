@@ -4,7 +4,7 @@ title: NetEnumerateComputerNames function
 author: windows-sdk-content
 description: Enumerates names for the specified computer.
 old-location: netmgmt\netenumeratecomputernames.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: c657ae33-404e-4c36-a956-5fbcfa540be7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

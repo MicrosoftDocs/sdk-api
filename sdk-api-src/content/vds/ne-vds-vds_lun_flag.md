@@ -4,7 +4,7 @@ title: VDS_LUN_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a LUN object.
 old-location: base\vds_lun_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 977ee10c-c91f-4510-bf00-6b7d4da6c1c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

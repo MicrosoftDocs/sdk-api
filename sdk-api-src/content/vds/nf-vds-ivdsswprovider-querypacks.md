@@ -4,7 +4,7 @@ title: IVdsSwProvider::QueryPacks
 author: windows-sdk-content
 description: Returns an enumeration object that contains all packs managed by the software provider.
 old-location: base\ivdsswprovider_querypacks.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f30494d8-ae82-479d-a47a-7087129e7e6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

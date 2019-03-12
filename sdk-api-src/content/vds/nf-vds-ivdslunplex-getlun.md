@@ -4,7 +4,7 @@ title: IVdsLunPlex::GetLun
 author: windows-sdk-content
 description: Returns the LUN to which the plex belongs.
 old-location: base\ivdslunplex_getlun.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 74f9fed5-f33d-4e88-b3d2-7eb8ef33711e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

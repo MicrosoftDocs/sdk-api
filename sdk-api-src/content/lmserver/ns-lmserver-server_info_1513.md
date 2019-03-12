@@ -4,7 +4,7 @@ title: SERVER_INFO_1513
 author: windows-sdk-content
 description: The SERVER_INFO_1513 structure contains the maximum size of pageable memory that the specified server can allocate at a particular time.
 old-location: netmgmt\server_info_1513_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ccfb37b2-6c00-48f2-849b-0443d1dc8371
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_1013
 author: windows-sdk-content
 description: The USER_INFO_1013 structure contains reserved information for network accounts. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1013_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 7166201d-57e3-4288-ad15-392cc3733dc6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

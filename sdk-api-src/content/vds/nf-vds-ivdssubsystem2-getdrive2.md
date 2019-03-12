@@ -4,7 +4,7 @@ title: IVdsSubSystem2::GetDrive2
 author: windows-sdk-content
 description: Returns the specified drive. This method is identical to the IVdsSubSystem::GetDrive method, except that it includes the enclosure number as a parameter.
 old-location: base\ivdssubsystem2_getdrive2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 5646da50-5ebd-44d8-b2e1-b3e96b9a6d3c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

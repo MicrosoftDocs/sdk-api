@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_PROP_FLAG
 author: windows-sdk-content
 description: Defines the details of file-system compression.
 old-location: base\vds_file_system_prop_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f2776ee9-4809-4f99-b464-80b5b53f8675
 ms.author: windowssdkdev
 ms.date: 12/5/2018

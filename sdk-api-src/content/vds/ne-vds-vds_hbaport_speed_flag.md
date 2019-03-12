@@ -4,7 +4,7 @@ title: VDS_HBAPORT_SPEED_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for determining the speeds supported by an HBA port.
 old-location: base\vds_hbaport_speed_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b44a51b5-7aca-4e95-88ec-60ff026c411f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVER_TRANSPORT_INFO_1
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_1 structure contains information about the specified transport protocol, including name and address. This information level is valid only for the NetServerTransportAddEx function.
 old-location: netmgmt\server_transport_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: f21fed49-207a-4f64-becd-3d3c1e995eb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

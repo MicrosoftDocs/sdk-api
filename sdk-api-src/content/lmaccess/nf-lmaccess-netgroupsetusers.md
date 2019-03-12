@@ -4,7 +4,7 @@ title: NetGroupSetUsers function
 author: windows-sdk-content
 description: The NetGroupSetUsers function sets the membership for the specified global group.
 old-location: netmgmt\netgroupsetusers.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4221f5c8-a71c-4368-9be4-9562063b6cfd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

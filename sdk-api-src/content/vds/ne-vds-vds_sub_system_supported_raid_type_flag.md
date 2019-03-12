@@ -4,7 +4,7 @@ title: VDS_SUB_SYSTEM_SUPPORTED_RAID_TYPE_FLAG
 author: windows-sdk-content
 description: Defines the set of RAID levels that can be supported by subsystems.
 old-location: base\vds_sub_system_supported_raid_type_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0ee75959-f55c-43c9-b58c-a62b0544dcda
 ms.author: windowssdkdev
 ms.date: 12/5/2018

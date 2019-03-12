@@ -4,7 +4,7 @@ title: VDS_HBAPORT_PROP
 author: windows-sdk-content
 description: Defines the properties of an HBA port.
 old-location: base\vds_hbaport_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 297ccb5c-3fa2-4bb0-bdd2-60d4685dc55c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

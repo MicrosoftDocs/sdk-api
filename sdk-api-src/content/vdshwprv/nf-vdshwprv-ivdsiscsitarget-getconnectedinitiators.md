@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::GetConnectedInitiators
 author: windows-sdk-content
 description: Returns the list of iSCSI names of the initiators currently logged into the target.
 old-location: base\ivdsiscsitarget_getconnectedinitiators.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2060f012-169c-4077-a6ed-cef362f926d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

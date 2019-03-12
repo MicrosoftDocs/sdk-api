@@ -4,7 +4,7 @@ title: IWSDServiceProxyEventing::EndSubscribeToMultipleOperations
 author: windows-sdk-content
 description: Completes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_endsubscribetomultipleoperations.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 2e3cdb10-fde9-4936-9a7d-61404a754faa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

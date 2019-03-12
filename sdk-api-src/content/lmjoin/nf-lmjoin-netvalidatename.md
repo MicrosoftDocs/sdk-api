@@ -4,7 +4,7 @@ title: NetValidateName function
 author: windows-sdk-content
 description: The NetValidateName function verifies that a name is valid for name type specified(computer name, workgroup name, domain name, or DNS computer name).
 old-location: netmgmt\netvalidatename.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 772603df-ec17-4a83-a715-2d9a14d5c2bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

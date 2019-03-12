@@ -4,7 +4,7 @@ title: IWSDHttpMessageParameters::SetID
 author: windows-sdk-content
 description: Sets the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setid.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

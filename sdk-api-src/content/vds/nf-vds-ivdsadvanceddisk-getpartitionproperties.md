@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::GetPartitionProperties
 author: windows-sdk-content
 description: Returns the properties of the partition identified by the partition offset.
 old-location: base\ivdsadvanceddisk_getpartitionproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6dc96e7b-34e5-4366-8804-d40f111d77c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_INTERCONNECT_FLAG
 author: windows-sdk-content
 description: Defines the set of interconnect types that subsystems can support.
 old-location: base\vds_interconnect_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ada895cb-1ff0-43df-8cd5-8ebc70cb97e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

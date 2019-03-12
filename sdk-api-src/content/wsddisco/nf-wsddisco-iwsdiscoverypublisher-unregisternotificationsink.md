@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::UnRegisterNotificationSink
 author: windows-sdk-content
 description: Detaches a callback notification sink from the discovery publisher.
 old-location: ncd\iwsdiscoverypublisher_unregisternotificationsink_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: aaf6bc07-8ce9-41f7-b468-971b31b51a86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

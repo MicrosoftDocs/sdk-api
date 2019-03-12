@@ -4,7 +4,7 @@ title: IVdsVolumeMF::Dismount
 author: windows-sdk-content
 description: Dismounts a mounted volume.
 old-location: base\ivdsvolumemf_dismount.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1ef5a1e6-0e41-4077-9ae8-fe266f2623cc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

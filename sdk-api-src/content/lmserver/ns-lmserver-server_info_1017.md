@@ -4,7 +4,7 @@ title: SERVER_INFO_1017
 author: windows-sdk-content
 description: The SERVER_INFO_1017 structure contains the network announce rate associated with the specified server.
 old-location: netmgmt\server_info_1017_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ad169dd2-6469-499d-b6be-53d99a92148f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

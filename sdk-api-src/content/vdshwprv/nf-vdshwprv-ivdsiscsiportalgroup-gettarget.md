@@ -4,7 +4,7 @@ title: IVdsIscsiPortalGroup::GetTarget
 author: windows-sdk-content
 description: Returns the target to which the portal group belongs.
 old-location: base\ivdsiscsiportalgroup_gettarget.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b9195e17-4e41-494d-b6ce-ceacfc16d6cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

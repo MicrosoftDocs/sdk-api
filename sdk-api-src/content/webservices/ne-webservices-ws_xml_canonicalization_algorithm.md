@@ -61,14 +61,14 @@ The values for the XML canonicalization algorithms.
 
 The exclusive XML canonicalization algorithm
           represented by the URI 'http://www.w3.org/2001/10/xml-exc-c14n#' and
-          defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
+          defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
         
 
 
 ### -field WS_EXCLUSIVE_WITH_COMMENTS_XML_CANONICALIZATION_ALGORITHM
 
 The exclusive XML canonicalization with comments algorithm
-          defined in <a href=" http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
+          defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=139714">RFC 3741</a>.
         
 
 

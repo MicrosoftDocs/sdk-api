@@ -4,7 +4,7 @@ title: IVdsIscsiPortalLocal
 author: windows-sdk-content
 description: Provides methods for setting local-initiator-specific IPSEC pre-shared keys on an iSCSI portal.
 old-location: base\ivdsiscsiportallocal.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: eec436c4-73a6-43c5-aae2-dcdd37eb5767
 ms.author: windowssdkdev
 ms.date: 12/5/2018

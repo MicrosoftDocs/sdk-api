@@ -4,7 +4,7 @@ title: SERVER_INFO_403
 author: windows-sdk-content
 description: The SERVER_INFO_403 structure contains information about a specified server.
 old-location: netmgmt\server_info_403_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 14309dbe-ad7b-4ae0-8acc-39e9999f411b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

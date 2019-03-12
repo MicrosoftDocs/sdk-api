@@ -4,7 +4,7 @@ title: LOCALGROUP_MEMBERS_INFO_1
 author: windows-sdk-content
 description: The LOCALGROUP_MEMBERS_INFO_1 structure contains the security identifier (SID) and account information associated with the member of a local group.
 old-location: netmgmt\localgroup_members_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: d6b1b729-cdd5-4ed3-a5a1-cf3a8b6cecf2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

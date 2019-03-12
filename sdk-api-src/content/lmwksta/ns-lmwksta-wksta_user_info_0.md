@@ -4,7 +4,7 @@ title: WKSTA_USER_INFO_0
 author: windows-sdk-content
 description: The WKSTA_USER_INFO_0 structure contains the name of the user on a specified workstation.
 old-location: netmgmt\wksta_user_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 8bd8d8c7-4558-46cb-ab46-a2197d53e9f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

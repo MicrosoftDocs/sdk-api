@@ -4,7 +4,7 @@ title: IVdsPack::QueryDisks
 author: windows-sdk-content
 description: Returns an object that enumerates the disks in the pack.
 old-location: base\ivdspack_querydisks.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 115c1900-5fea-4e39-be3e-b6d04ceb8a58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

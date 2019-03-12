@@ -4,7 +4,7 @@ title: VDS_ASYNC_OUTPUT_TYPE
 author: windows-sdk-content
 description: Defines the set of operations that objects can process.
 old-location: base\vds_async_output_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c2c0403a-30b9-4619-8bcb-3b73b637509e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

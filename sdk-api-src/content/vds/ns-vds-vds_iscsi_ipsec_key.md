@@ -4,7 +4,7 @@ title: VDS_ISCSI_IPSEC_KEY
 author: windows-sdk-content
 description: Not supported.This structure is reserved for future use.
 old-location: base\vds_iscsi_ipsec_key.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

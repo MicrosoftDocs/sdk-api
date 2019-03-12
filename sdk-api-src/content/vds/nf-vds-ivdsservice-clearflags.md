@@ -4,7 +4,7 @@ title: IVdsService::ClearFlags
 author: windows-sdk-content
 description: Clears service object flags.
 old-location: base\ivdsservice_clearflags.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 91cb21ea-725b-4032-9a60-34c1b42b55d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

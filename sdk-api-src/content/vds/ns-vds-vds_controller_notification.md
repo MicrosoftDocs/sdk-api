@@ -4,7 +4,7 @@ title: VDS_CONTROLLER_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of controller events.
 old-location: base\vds_controller_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: de2aa5d8-b9b0-4e3d-9846-e886ac1d4241
 ms.author: windowssdkdev
 ms.date: 12/5/2018

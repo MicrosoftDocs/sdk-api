@@ -4,7 +4,7 @@ title: VDS_REPARSE_POINT_PROP
 author: windows-sdk-content
 description: Defines the reparse-point properties of a volume object.
 old-location: base\vds_reparse_point_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7e224f49-c51f-447e-bc0b-6af3843e01ae
 ms.author: windowssdkdev
 ms.date: 12/5/2018

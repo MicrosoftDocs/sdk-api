@@ -4,7 +4,7 @@ title: IEnumVdsObject::Skip
 author: windows-sdk-content
 description: Skips a specified number of objects in the enumeration.
 old-location: base\ienumvdsobject_skip.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8c0a856e-831e-489d-9e2a-bf2829bf59b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

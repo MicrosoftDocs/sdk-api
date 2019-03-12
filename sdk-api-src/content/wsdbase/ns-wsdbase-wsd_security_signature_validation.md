@@ -4,7 +4,7 @@ title: WSD_SECURITY_SIGNATURE_VALIDATION
 author: windows-sdk-content
 description: Represents the criteria for matching client compact signatures against messages.
 old-location: ncd\wsd_security_signature_validation.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e2913f85-a5e7-43c9-a23c-81d836c9a259
 ms.author: windowssdkdev
 ms.date: 12/5/2018

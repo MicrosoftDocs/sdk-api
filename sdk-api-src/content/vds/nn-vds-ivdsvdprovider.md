@@ -4,7 +4,7 @@ title: IVdsVdProvider
 author: windows-sdk-content
 description: Defines methods for creating and managing virtual disks.
 old-location: base\ivdsvdprovider.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 812e8ac5-91c5-455a-94e7-2edf55d92cdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

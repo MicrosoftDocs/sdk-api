@@ -4,7 +4,7 @@ title: SERVER_TRANSPORT_INFO_0
 author: windows-sdk-content
 description: The SERVER_TRANSPORT_INFO_0 structure contains information about the specified transport protocol, including name, address, and location on the network.
 old-location: netmgmt\server_transport_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 5b94cf7a-74d1-4ae8-87bd-22b2daf292cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

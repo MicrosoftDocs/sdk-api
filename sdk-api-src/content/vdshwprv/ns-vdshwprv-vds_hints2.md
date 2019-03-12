@@ -4,7 +4,7 @@ title: VDS_HINTS2
 author: windows-sdk-content
 description: Contains the automagic hints for a LUN in a storage pool.
 old-location: base\vds_hints2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e24935ac-17c8-4338-99cb-2408ca61da8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

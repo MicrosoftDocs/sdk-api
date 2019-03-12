@@ -4,7 +4,7 @@ title: IWSDDeviceHost::Init
 author: windows-sdk-content
 description: Initializes an instance of an IWSDDeviceHost object.
 old-location: ncd\iwsddevicehost_init_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: a66f0600-0bac-4bef-af43-6db60b60605e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::Merge
 author: windows-sdk-content
 description: Merges a child virtual disk with its parents in the differencing chain.
 old-location: base\ivdsopenvdisk_merge.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b513e904-a6ff-494e-9f63-b5158467b245
 ms.author: windowssdkdev
 ms.date: 12/5/2018

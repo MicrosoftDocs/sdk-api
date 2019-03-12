@@ -4,7 +4,7 @@ title: VDS_SUB_SYSTEM_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of subsystem events.
 old-location: base\vds_sub_system_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 368e5b3d-11ba-400e-8dd0-929d45199dd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

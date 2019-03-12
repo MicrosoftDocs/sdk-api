@@ -4,7 +4,7 @@ title: IVdsVolumeShrink
 author: windows-sdk-content
 description: Provides methods to support volume shrinking.
 old-location: base\ivdsvolumeshrink.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 08c354a6-5cc0-405c-91cf-dca55b87b49a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

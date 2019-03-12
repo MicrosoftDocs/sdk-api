@@ -4,7 +4,7 @@ title: IWSDInboundAttachment::Close
 author: windows-sdk-content
 description: Closes the current attachment MIME data stream.
 old-location: ncd\iwsdinboundattachment_close.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 1bd0295c-4c37-42ec-b5a5-dc7f467def05
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsSubSystem::GetProvider
 author: windows-sdk-content
 description: Returns the provider that manages the subsystem.
 old-location: base\ivdssubsystem_getprovider.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 317e4aa3-2635-4e1b-af2d-ad7c6170bf33
 ms.author: windowssdkdev
 ms.date: 12/5/2018

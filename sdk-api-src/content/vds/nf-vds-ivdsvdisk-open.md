@@ -4,7 +4,7 @@ title: IVdsVDisk::Open
 author: windows-sdk-content
 description: Opens a handle to the specified virtual disk file and returns an IVdsOpenVDisk interface pointer to the object that represents the opened handle.
 old-location: base\ivdsvdisk_open.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e633f934-8f2d-4614-b34c-87bb74ebf385
 ms.author: windowssdkdev
 ms.date: 12/5/2018

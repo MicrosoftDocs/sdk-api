@@ -4,7 +4,7 @@ title: NetServerEnum function
 author: windows-sdk-content
 description: The NetServerEnum function lists all servers of the specified type that are visible in a domain.
 old-location: netmgmt\netserverenum.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 10012a87-805e-4817-9f09-9e5632b1fa09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

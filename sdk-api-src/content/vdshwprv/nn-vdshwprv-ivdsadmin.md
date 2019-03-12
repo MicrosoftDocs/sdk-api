@@ -4,7 +4,7 @@ title: IVdsAdmin
 author: windows-sdk-content
 description: Registers providers with VDS.
 old-location: base\ivdsadmin.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 693ee0c0-9f86-4f78-9724-f3a3420463c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

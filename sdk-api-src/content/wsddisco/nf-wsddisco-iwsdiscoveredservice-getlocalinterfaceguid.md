@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetLocalInterfaceGUID
 author: windows-sdk-content
 description: Retrieves the GUID of the local network interface over which the message was received.
 old-location: ncd\iwsdiscoveredservice_getlocalinterfaceguid.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 9c66bda4-d21c-443f-a9b0-e05485306bde
 ms.author: windowssdkdev
 ms.date: 12/5/2018

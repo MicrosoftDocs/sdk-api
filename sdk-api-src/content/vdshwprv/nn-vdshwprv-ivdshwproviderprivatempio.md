@@ -4,7 +4,7 @@ title: IVdsHwProviderPrivateMpio
 author: windows-sdk-content
 description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.
 old-location: base\ivdshwproviderprivatempio.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

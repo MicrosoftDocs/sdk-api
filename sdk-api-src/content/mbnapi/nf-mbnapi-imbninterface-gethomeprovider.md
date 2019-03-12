@@ -58,7 +58,7 @@ Gets the home provider.
 
 ### -param homeProvider [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> structure that represents the home provider.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Upon completion, the calling application must free the memory allocated to the  <b>providerID</b> and <b>providerName</b> members of <b>MBN_PROVIDER</b> by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>
+A pointer to an <a href="https://msdn.microsoft.com/f4a02ca2-6be4-4843-a657-5d5dde8be623">MBN_PROVIDER</a> structure that represents the home provider.  If this method returns any value other than <b>S_OK</b>, this parameter is <b>NULL</b>.  Upon completion, the calling application must free the memory allocated to the  <b>providerID</b> and <b>providerName</b> members of <b>MBN_PROVIDER</b> by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>
 
 
 ## -returns

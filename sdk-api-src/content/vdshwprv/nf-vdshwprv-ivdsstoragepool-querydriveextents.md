@@ -4,7 +4,7 @@ title: IVdsStoragePool::QueryDriveExtents
 author: windows-sdk-content
 description: Returns an array of the drive extents that are used by a storage pool.
 old-location: base\ivdsstoragepool_querydriveextents.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 91bae6e6-3718-4d82-ab8c-e489b9a105fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

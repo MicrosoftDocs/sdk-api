@@ -4,7 +4,7 @@ title: NetJoinDomain function
 author: windows-sdk-content
 description: The NetJoinDomain function joins a computer to a workgroup or domain.
 old-location: netmgmt\netjoindomain.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4efcb399-03af-4312-9f1d-6bc38f356cac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

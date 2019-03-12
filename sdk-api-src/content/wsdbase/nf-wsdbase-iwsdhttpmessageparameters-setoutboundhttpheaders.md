@@ -4,7 +4,7 @@ title: IWSDHttpMessageParameters::SetOutboundHttpHeaders
 author: windows-sdk-content
 description: Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_setoutboundhttpheaders.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f54f86dc-4b25-4faa-8a37-b241e9ba8c6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

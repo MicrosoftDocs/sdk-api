@@ -4,7 +4,7 @@ title: IVdsVDisk::GetHostVolume
 author: windows-sdk-content
 description: Returns an interface pointer to the volume object for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_gethostvolume.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e8ab5d3a-775d-4c80-9c18-d25b5dd169e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

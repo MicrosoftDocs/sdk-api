@@ -4,7 +4,7 @@ title: IVdsVolume::RemovePlex
 author: windows-sdk-content
 description: Removes one or more specified plexes from the current volume, releasing the extents.
 old-location: base\ivdsvolume_removeplex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 724f80e7-4656-4956-aaad-9f778329f139
 ms.author: windowssdkdev
 ms.date: 12/5/2018

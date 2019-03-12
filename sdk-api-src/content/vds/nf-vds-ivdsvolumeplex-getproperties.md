@@ -4,7 +4,7 @@ title: IVdsVolumePlex::GetProperties
 author: windows-sdk-content
 description: Returns the property details of the current volume plex.
 old-location: base\ivdsvolumeplex_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

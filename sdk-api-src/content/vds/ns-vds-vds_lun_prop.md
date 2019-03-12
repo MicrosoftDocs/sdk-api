@@ -4,7 +4,7 @@ title: VDS_LUN_PROP
 author: windows-sdk-content
 description: Defines the properties of a LUN object.
 old-location: base\vds_lun_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 4ef0f4d8-7c63-4d8e-bf46-e6958661bd6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

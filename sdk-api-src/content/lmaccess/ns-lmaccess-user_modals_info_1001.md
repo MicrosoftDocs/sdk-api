@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_1001
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1001 structure contains the minimum length for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_1001_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ef6e63da-f092-4435-93f0-e50d2fdd5664
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVER_INFO_1503
 author: windows-sdk-content
 description: The SERVER_INFO_1503 structure specifies the number of search operations that can be carried out simultaneously.
 old-location: netmgmt\server_info_1503_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: c369b350-a172-4989-a691-e7af0236c6a0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

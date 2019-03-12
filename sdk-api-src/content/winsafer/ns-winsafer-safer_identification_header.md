@@ -4,7 +4,7 @@ title: SAFER_IDENTIFICATION_HEADER
 author: windows-sdk-content
 description: SAFER_IDENTIFICATION_HEADER structure is used as the header for the SAFER_PATHNAME_IDENTIFICATION, SAFER_HASH_IDENTIFICATION, and SAFER_URLZONE_IDENTIFICATION structures.
 old-location: security\safer_identification_header.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 9bcb7d22-2360-4146-9972-118ba8822aa7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

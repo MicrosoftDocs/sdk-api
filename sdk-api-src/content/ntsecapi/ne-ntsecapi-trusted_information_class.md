@@ -4,7 +4,7 @@ title: TRUSTED_INFORMATION_CLASS
 author: windows-sdk-content
 description: The TRUSTED_INFORMATION_CLASS enumeration type defines values that indicate the type of information to set or query for a trusted domain.
 old-location: security\trusted_information_class.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 442a0944-b498-4d9f-b338-d5aed1663d8d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

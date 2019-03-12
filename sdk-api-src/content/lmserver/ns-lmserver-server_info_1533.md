@@ -4,7 +4,7 @@ title: SERVER_INFO_1533
 author: windows-sdk-content
 description: The SERVER_INFO_1533 structure specifies the maximum number of outstanding requests a client can send to the server.
 old-location: netmgmt\server_info_1533_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 2b54dcec-c456-4cef-a2b9-eb24adf4a994
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NetAccessGetUserPerms function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetuserperms.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsServiceIscsi::SetIpsecGroupPresharedKey
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsserviceiscsi_setipsecgrouppresharedkey.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3d386eb3-5897-4ce7-91ab-99cf2bfa93bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

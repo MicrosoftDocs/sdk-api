@@ -4,7 +4,7 @@ title: TRUSTED_DOMAIN_INFORMATION_EX
 author: windows-sdk-content
 description: Used to retrieve extended information about a trusted domain.
 old-location: security\trusted_domain_information_ex.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: acf9a2b5-f301-4e6a-a515-df338658ad56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

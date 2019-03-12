@@ -4,7 +4,7 @@ title: "__VDS_PARTITION_STYLE"
 author: windows-sdk-content
 description: This enumeration is not for explicit use.
 old-location: base\tag_vds_partition_style.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d994715e-1735-4841-98be-5f22de0670f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

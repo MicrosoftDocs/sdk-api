@@ -4,7 +4,7 @@ title: WSD_EVENTING_DELIVERY_MODE_PUSH
 author: windows-sdk-content
 description: Represents the endpoint reference used for push delivery of events in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode_push.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 350d023f-18fb-4eb5-af47-81fdb54e594d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

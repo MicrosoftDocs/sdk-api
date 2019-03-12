@@ -4,7 +4,7 @@ title: NetServerTransportEnum function
 author: windows-sdk-content
 description: The NetServerTransportEnum function supplies information about transport protocols that are managed by the server.
 old-location: netmgmt\netservertransportenum.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: db42ac44-d70d-4b89-882a-6ac83fd611fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

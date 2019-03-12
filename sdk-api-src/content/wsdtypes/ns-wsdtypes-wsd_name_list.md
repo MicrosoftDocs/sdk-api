@@ -4,7 +4,7 @@ title: WSD_NAME_LIST
 author: windows-sdk-content
 description: Represents a node in a single-linked list of XML name structures.
 old-location: ncd\wsd_name_list_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f573365d-100f-4df9-b1af-a484680436eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

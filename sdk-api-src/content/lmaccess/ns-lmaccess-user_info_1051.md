@@ -4,7 +4,7 @@ title: USER_INFO_1051
 author: windows-sdk-content
 description: The USER_INFO_1051 structure contains the relative ID (RID) associated with the user account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1051_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: dbd7c63b-c383-48dd-98f2-087f2b41fc52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

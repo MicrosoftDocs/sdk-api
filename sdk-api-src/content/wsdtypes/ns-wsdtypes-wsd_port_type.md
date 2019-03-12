@@ -4,7 +4,7 @@ title: WSD_PORT_TYPE
 author: windows-sdk-content
 description: Supplies data about a port type.
 old-location: ncd\wsd_port_type_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: ec321771-b3d1-4e7b-b870-009db7c49c6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

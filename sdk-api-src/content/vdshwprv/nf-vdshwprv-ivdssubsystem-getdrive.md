@@ -4,7 +4,7 @@ title: IVdsSubSystem::GetDrive
 author: windows-sdk-content
 description: Returns the specified drive.
 old-location: base\ivdssubsystem_getdrive.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 855e9991-606c-4fcc-ba1d-ebdb928d4c3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

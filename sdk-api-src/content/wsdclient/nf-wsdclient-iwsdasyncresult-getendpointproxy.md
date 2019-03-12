@@ -4,7 +4,7 @@ title: IWSDAsyncResult::GetEndpointProxy
 author: windows-sdk-content
 description: Retrieves the endpoint proxy for the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getendpointproxy.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f2b1f43a-e86c-4ec9-a39f-9c5050f3e3c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

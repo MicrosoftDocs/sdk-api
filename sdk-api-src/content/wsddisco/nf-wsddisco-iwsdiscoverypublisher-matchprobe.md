@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::MatchProbe
 author: windows-sdk-content
 description: Determines whether a Probe message matches the specified host and sends a WS-Discovery ProbeMatches message if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchprobe_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 657f50ad-128f-4ccb-b89a-ed88f5d9b381
 ms.author: windowssdkdev
 ms.date: 12/5/2018

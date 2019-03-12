@@ -4,7 +4,7 @@ title: WKSTA_INFO_502
 author: windows-sdk-content
 description: The WKSTA_INFO_502 structure is obsolete. The structure contains information about a workstation environment.
 old-location: netmgmt\wksta_info_502_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 716e700a-e464-47ec-a2df-74c03597ac6d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

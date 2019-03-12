@@ -4,7 +4,7 @@ title: IVdsControllerControllerPort::QueryControllerPorts
 author: windows-sdk-content
 description: Returns an IEnumVdsObject object that enumerates the ports of the controller.
 old-location: base\ivdscontrollercontrollerport_querycontrollerports.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 676d0ae9-7d9e-4dc3-93c2-56c96a05ac0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

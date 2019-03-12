@@ -4,7 +4,7 @@ title: MSA_INFO_0
 author: windows-sdk-content
 description: Specifies information about a managed service account.
 old-location: security\msa_info_0.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 21e04ee8-98c9-4c78-9564-e07f5edaf847
 ms.author: windowssdkdev
 ms.date: 12/5/2018

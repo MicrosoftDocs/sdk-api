@@ -4,7 +4,7 @@ title: IWSDHttpAuthParameters::GetAuthType
 author: windows-sdk-content
 description: GetAuthType method retrieves the HTTP authentication scheme used during the authentication of the client.
 old-location: ncd\iwsdhttpauthparameters_getauthtype.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: F5D218DD-474B-4562-8877-D159394AF365
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSD_CONFIG_PARAM
 author: windows-sdk-content
 description: Represents configuration parameters for creating WSDAPI objects.
 old-location: ncd\wsd_config_param.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 58dc3e11-586e-4185-b1d0-4249b4bfb252
 ms.author: windowssdkdev
 ms.date: 12/5/2018

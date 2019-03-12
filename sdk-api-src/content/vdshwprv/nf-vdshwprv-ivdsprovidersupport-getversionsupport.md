@@ -4,7 +4,7 @@ title: IVdsProviderSupport::GetVersionSupport
 author: windows-sdk-content
 description: Returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG indicating the versions of the VDS interfaces supported by this provider.
 old-location: base\ivdsprovidersupport_getversionsupport.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c7527d29-7ab4-4f98-991b-411059e14237
 ms.author: windowssdkdev
 ms.date: 12/5/2018

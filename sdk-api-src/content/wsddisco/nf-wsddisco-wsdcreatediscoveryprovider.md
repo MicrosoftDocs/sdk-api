@@ -4,7 +4,7 @@ title: WSDCreateDiscoveryProvider function
 author: windows-sdk-content
 description: Creates an IWSDiscoveryProvider object.
 old-location: ncd\wsdcreatediscoveryprovider_func.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 44275cbe-ea02-41fd-b88d-81d4df966067
 ms.author: windowssdkdev
 ms.date: 12/5/2018

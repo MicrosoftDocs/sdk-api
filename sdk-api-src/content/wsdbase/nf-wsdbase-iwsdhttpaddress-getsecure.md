@@ -4,7 +4,7 @@ title: IWSDHttpAddress::GetSecure
 author: windows-sdk-content
 description: Retrieves the status on whether TLS secure sessions are enabled for this address.
 old-location: ncd\iwsdhttpaddress_getsecure.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: aaf9e918-7d1c-4457-94f8-888a99f07c18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

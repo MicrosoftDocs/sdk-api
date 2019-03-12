@@ -4,7 +4,7 @@ title: MSA_INFO_STATE
 author: windows-sdk-content
 description: Indicates the state of a managed service account.
 old-location: security\msa_info_state.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 3cba6c6a-1d63-4795-b009-1fcdf86cc2ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

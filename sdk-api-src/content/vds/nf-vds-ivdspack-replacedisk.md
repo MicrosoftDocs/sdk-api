@@ -4,7 +4,7 @@ title: IVdsPack::ReplaceDisk
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdspack_replacedisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 4fc59ed0-ef54-4834-90d3-309d297543e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

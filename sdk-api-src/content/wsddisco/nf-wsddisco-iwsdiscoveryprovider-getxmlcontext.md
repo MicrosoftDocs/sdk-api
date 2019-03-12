@@ -4,7 +4,7 @@ title: IWSDiscoveryProvider::GetXMLContext
 author: windows-sdk-content
 description: Gets the XML context associated with this provider.
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: ee2a862a-9d1d-4099-982e-259b6ab815f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

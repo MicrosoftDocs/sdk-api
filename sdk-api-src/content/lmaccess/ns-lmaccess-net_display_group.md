@@ -4,7 +4,7 @@ title: NET_DISPLAY_GROUP
 author: windows-sdk-content
 description: The NET_DISPLAY_GROUP structure contains information that an account manager can access to determine information about group accounts.
 old-location: netmgmt\net_display_group_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 8e467f20-2cfb-40ae-a8b2-a5350d736eed
 ms.author: windowssdkdev
 ms.date: 12/5/2018

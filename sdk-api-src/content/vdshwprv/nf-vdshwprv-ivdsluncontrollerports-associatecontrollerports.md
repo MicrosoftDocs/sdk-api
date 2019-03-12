@@ -4,7 +4,7 @@ title: IVdsLunControllerPorts::AssociateControllerPorts
 author: windows-sdk-content
 description: Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces IVdsLun::AssociateControllers.
 old-location: base\ivdsluncontrollerports_associatecontrollerports.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3b889cb7-92e4-4c18-b9b9-768865895595
 ms.author: windowssdkdev
 ms.date: 12/5/2018

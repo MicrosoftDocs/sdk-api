@@ -4,7 +4,7 @@ title: VDS_MAINTENANCE_OPERATION
 author: windows-sdk-content
 description: Defines the set of valid subsystem maintenance operations.
 old-location: base\vds_maintenance_operation.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 29bc5eb3-2e4b-4ca1-8b0a-9b43d2723e56
 ms.author: windowssdkdev
 ms.date: 12/5/2018

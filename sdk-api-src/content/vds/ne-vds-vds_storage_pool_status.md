@@ -4,7 +4,7 @@ title: VDS_STORAGE_POOL_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a storage pool.
 old-location: base\vds_storage_pool_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b2af30c8-116c-4e51-bffc-0dee9a4bd04e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

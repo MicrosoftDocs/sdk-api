@@ -4,7 +4,7 @@ title: IVdsController::QueryAssociatedLuns
 author: windows-sdk-content
 description: Returns an enumeration of the LUNs with which the controller is associated&#8212;in other words, the LUNs for which the controller is active.
 old-location: base\ivdscontroller_queryassociatedluns.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 832b8d59-6e94-4d62-a31f-4658e9f6102b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

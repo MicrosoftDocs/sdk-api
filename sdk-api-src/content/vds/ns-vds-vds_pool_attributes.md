@@ -4,7 +4,7 @@ title: VDS_POOL_ATTRIBUTES
 author: windows-sdk-content
 description: Defines the attributes of a storage pool.
 old-location: base\vds_pool_attributes.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3dfbd3d9-ec2e-44ac-9d0f-7aa6c530db18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

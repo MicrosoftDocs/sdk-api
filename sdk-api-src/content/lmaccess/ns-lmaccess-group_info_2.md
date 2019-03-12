@@ -4,7 +4,7 @@ title: GROUP_INFO_2
 author: windows-sdk-content
 description: The GROUP_INFO_2 structure contains information about a global group, including name, identifier, and resource attributes.
 old-location: netmgmt\group_info_2_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 2c17a70c-7b62-4dcc-9dc6-2f4b8c41d6ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

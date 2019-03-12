@@ -4,7 +4,7 @@ title: SERVER_INFO_1529
 author: windows-sdk-content
 description: The SERVER_INFO_1529 structure specifies the minimum number of free receive work items the server requires before it begins allocating more items.
 old-location: netmgmt\server_info_1529_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 575cb0fa-b011-42a9-9344-02088effeb9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsVolume::GetProperties
 author: windows-sdk-content
 description: Returns property details of the current volume.
 old-location: base\ivdsvolume_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ba4a92c9-35f1-463a-8fa3-1a0d78720555
 ms.author: windowssdkdev
 ms.date: 12/5/2018

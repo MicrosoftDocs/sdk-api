@@ -4,7 +4,7 @@ title: IVdsSubSystemInterconnect::GetSupportedInterconnects
 author: windows-sdk-content
 description: Returns the interconnect types that the subsystem supports.
 old-location: base\ivdssubsysteminterconnect_getsupportedinterconnects.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 5e8e69b4-023d-49f7-a363-bae1ae9536ac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

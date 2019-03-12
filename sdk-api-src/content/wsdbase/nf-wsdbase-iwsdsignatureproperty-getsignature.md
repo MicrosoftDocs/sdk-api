@@ -4,7 +4,7 @@ title: IWSDSignatureProperty::GetSignature
 author: windows-sdk-content
 description: Gets the signature of a message.
 old-location: ncd\iwsdsignatureproperty_getsignature.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e13df6a4-f51f-4453-8482-563ff7c398c3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

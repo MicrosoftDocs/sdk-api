@@ -4,7 +4,7 @@ title: VDS_DRIVE_LETTER_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of drive-letter events.
 old-location: base\vds_drive_letter_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d64d1ba6-88a2-4418-b32c-36a84e973a06
 ms.author: windowssdkdev
 ms.date: 12/5/2018

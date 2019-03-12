@@ -117,7 +117,7 @@ Cannot be <b>NULL</b>. The object sink receives the result of the method call. T
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-On failure, you can obtain any available information from the COM function <a href=" http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+On failure, you can obtain any available information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
 
 Other errors are reported asynchronously to the object sink supplied in the <i>pReponseHandler</i> parameter.
 

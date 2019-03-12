@@ -4,7 +4,7 @@ title: GROUP_INFO_3
 author: windows-sdk-content
 description: The GROUP_INFO_3 structure contains information about a global group, including name, security identifier (SID), and resource attributes.
 old-location: netmgmt\group_info_3_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: aa0c3b6e-ab27-48b9-a37f-5cceb63c70fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

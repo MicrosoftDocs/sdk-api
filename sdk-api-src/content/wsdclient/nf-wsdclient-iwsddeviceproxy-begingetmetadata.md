@@ -4,7 +4,7 @@ title: IWSDDeviceProxy::BeginGetMetadata
 author: windows-sdk-content
 description: Sends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_begingetmetadata.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 8aa71ef1-61b9-411b-9e8c-75470c638469
 ms.author: windowssdkdev
 ms.date: 12/5/2018

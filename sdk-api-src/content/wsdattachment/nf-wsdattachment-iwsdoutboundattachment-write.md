@@ -4,7 +4,7 @@ title: IWSDOutboundAttachment::Write
 author: windows-sdk-content
 description: Sends attachment data to the remote host using a MIME container.
 old-location: ncd\iwsdoutboundattachment_write_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 5bd24e7c-f2f4-4cc4-abc0-176ed024fa43
 ms.author: windowssdkdev
 ms.date: 12/5/2018

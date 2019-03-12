@@ -4,7 +4,7 @@ title: CREATE_PARTITION_PARAMETERS
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\create_partition_parameters.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7c0311df-0995-4100-babb-481fa3f7dd71
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_1052
 author: windows-sdk-content
 description: The USER_INFO_1052 structure contains the path to a network user's profile. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1052_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 55ec6819-8558-413a-9a79-c2d59993163d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

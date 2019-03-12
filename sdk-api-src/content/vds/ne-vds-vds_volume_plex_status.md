@@ -4,7 +4,7 @@ title: VDS_VOLUME_PLEX_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a volume plex.
 old-location: base\vds_volume_plex_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2e382a68-876a-4287-a7df-d7eadd8ce037
 ms.author: windowssdkdev
 ms.date: 12/5/2018

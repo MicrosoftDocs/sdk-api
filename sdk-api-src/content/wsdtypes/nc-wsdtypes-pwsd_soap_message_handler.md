@@ -4,7 +4,7 @@ title: PWSD_SOAP_MESSAGE_HANDLER
 author: windows-sdk-content
 description: References a SOAP message handler for incoming messages.
 old-location: ncd\pwsd_soap_message_handler_func.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 175d4352-ba85-4c3c-be9f-4612c4b66123
 ms.author: windowssdkdev
 ms.date: 12/5/2018

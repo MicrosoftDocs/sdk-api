@@ -4,7 +4,7 @@ title: SERVER_INFO_1516
 author: windows-sdk-content
 description: The SERVER_INFO_1516 structure specifies whether the server is a reliable time source.
 old-location: netmgmt\server_info_1516_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3d2baa83-61b6-4f7e-8cee-d584f87daf7d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

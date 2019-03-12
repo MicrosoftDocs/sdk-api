@@ -4,7 +4,7 @@ title: VDS_ISCSI_IPSEC_FLAG
 author: windows-sdk-content
 description: Not supported.This enumeration is reserved for future use.
 old-location: base\vds_iscsi_ipsec_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e40789b4-ed34-4acc-8f69-5c3a93e44f82
 ms.author: windowssdkdev
 ms.date: 12/5/2018

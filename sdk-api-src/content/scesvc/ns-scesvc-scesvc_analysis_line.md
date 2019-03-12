@@ -4,7 +4,7 @@ title: SCESVC_ANALYSIS_LINE
 author: windows-sdk-content
 description: The SCESVC_ANALYSIS_LINE structure contains the key, value, and value length for a specific line specified by an SCESVC_ANALYSIS_INFO structure.
 old-location: security\scesvc_analysis_line.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 91fa0f25-30e1-4af3-ad22-f16dc4692b0b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

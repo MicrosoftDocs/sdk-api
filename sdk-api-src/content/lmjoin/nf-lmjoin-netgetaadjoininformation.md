@@ -4,7 +4,7 @@ title: NetGetAadJoinInformation function
 author: windows-sdk-content
 description: Retrieves the join information for the specified tenant. This function examines the join information for Microsoft Azure Active Directory and the work account that the current user added.
 old-location: netmgmt\netgetaadjoininformation.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: C63B3AA7-FC7E-4CB9-9318-BD25560591AB
 ms.author: windowssdkdev
 ms.date: 12/5/2018

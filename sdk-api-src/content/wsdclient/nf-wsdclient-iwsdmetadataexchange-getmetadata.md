@@ -4,7 +4,7 @@ title: IWSDMetadataExchange::GetMetadata
 author: windows-sdk-content
 description: Retrieves metadata for an object.
 old-location: ncd\iwsdmetadataexchange_getmetadata_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: ab84ed56-37a5-48ff-a616-cb92dc07a8ee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

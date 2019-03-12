@@ -1,0 +1,197 @@
+---
+UID: NF:ioapiset.CancelSynchronousIo
+title: CancelSynchronousIo function
+author: windows-sdk-content
+description: Marks pending synchronous I/O operations that are issued by the specified thread as canceled.
+old-location: fs\cancelsynchronousio_func.htm
+tech.root: FileIO
+ms.assetid: f362c8b2-2193-443e-bb69-78f8b4147117
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: CancelSynchronousIo, CancelSynchronousIo function [Files], fs.cancelsynchronousio_func, ioapiset/CancelSynchronousIo, winbase/CancelSynchronousIo
+ms.topic: function
+req.header: ioapiset.h
+req.include-header: Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-io-l1-1-1.dll
+ - KernelBase.dll
+ - MinKernelBase.dll
+ - api-ms-win-downlevel-kernel32-l1-1-0.dll
+api_name:
+ - CancelSynchronousIo
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# CancelSynchronousIo function
+
+
+## -description
+
+
+Marks pending synchronous I/O operations that are issued by the specified thread as 
+    canceled.
+
+
+## -parameters
+
+
+
+
+### -param hThread [in]
+
+A handle to the thread.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is 0 (zero). To get extended error information, call the 
+       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function.
+
+If this function cannot find a request to cancel, the return value is 0 (zero), and 
+       <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> returns 
+       <b>ERROR_NOT_FOUND</b>.
+
+
+
+
+## -remarks
+
+
+
+The caller must have the 
+    <a href="https://msdn.microsoft.com/72709446-5c59-4fac-8dc8-7912906ecc85">THREAD_TERMINATE</a> access right.
+
+If there are any pending I/O operations in progress for the specified thread, the 
+    <b>CancelSynchronousIo</b> function marks them for 
+    cancellation. Most types of operations can be canceled immediately; other operations can continue toward 
+    completion before they are actually canceled and the caller is notified. The 
+    <b>CancelSynchronousIo</b> function does not wait for 
+    all canceled operations to complete. For more information, see 
+    <a href="Http://go.microsoft.com/fwlink/p/?linkid=85346">I/O Completion/Cancellation Guidelines</a>.
+
+The operation being canceled is completed with one of three statuses; you must check the completion status to 
+    determine the completion state. The three statuses are:
+
+<ul>
+<li><b>The operation completed normally.</b> This can occur even if the operation was 
+      canceled, because the cancel request might not have been submitted in time to cancel the operation.</li>
+<li><b>The operation was canceled.</b> The 
+      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns 
+      <b>ERROR_OPERATION_ABORTED</b>.</li>
+<li><b>The operation failed with another error.</b> The 
+      <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> function returns the relevant error 
+      code.</li>
+</ul>
+In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
+
+<table>
+<tr>
+<th>Technology</th>
+<th>Supported</th>
+</tr>
+<tr>
+<td>
+Server Message Block (SMB) 3.0 protocol
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 Transparent Failover (TFO)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+SMB 3.0 with Scale-out File Shares (SO)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+Cluster Shared Volume File System (CsvFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+<tr>
+<td>
+Resilient File System (ReFS)
+
+</td>
+<td>
+Yes
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/b28162dc-0da8-41c6-9901-29381d2d72c4">CancelIo</a>
+
+
+
+<a href="https://msdn.microsoft.com/a2ce13b8-7da6-4848-848d-901d9667c2e3">CancelIoEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/1cf0547d-54ac-410a-acbe-7b3b3ebb310b">File Management Functions</a>
+
+
+
+<a href="https://msdn.microsoft.com/ade51d98-cc9d-4b33-9c52-559a9cb14707">Synchronous and Asynchronous I/O</a>
+ 
+
+ 
+

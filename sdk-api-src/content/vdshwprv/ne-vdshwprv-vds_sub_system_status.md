@@ -4,7 +4,7 @@ title: VDS_SUB_SYSTEM_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a subsystem.
 old-location: base\vds_sub_system_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3393ff1f-df0f-4053-9127-d99196660f4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

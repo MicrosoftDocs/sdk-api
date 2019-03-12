@@ -4,7 +4,7 @@ title: IVdsDrive2
 author: windows-sdk-content
 description: Provides a method for querying the properties of a drive.
 old-location: base\ivdsdrive2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

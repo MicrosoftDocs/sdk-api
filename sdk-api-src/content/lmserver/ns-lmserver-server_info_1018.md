@@ -4,7 +4,7 @@ title: SERVER_INFO_1018
 author: windows-sdk-content
 description: The SERVER_INFO_1018 structure contains information about how much the announce rate can vary for the specified server.
 old-location: netmgmt\server_info_1018_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 0a87d88c-af70-41ce-9d92-6e642d284819
 ms.author: windowssdkdev
 ms.date: 12/5/2018

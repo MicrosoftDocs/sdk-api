@@ -4,7 +4,7 @@ title: IVdsIscsiPortal::SetIpsecSecurity
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportal_setipsecsecurity.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 73209e3c-f1c9-411e-b272-4d4a2b168824
 ms.author: windowssdkdev
 ms.date: 12/5/2018

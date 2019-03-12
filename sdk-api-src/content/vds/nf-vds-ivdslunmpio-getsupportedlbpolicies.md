@@ -4,7 +4,7 @@ title: IVdsLunMpio::GetSupportedLbPolicies
 author: windows-sdk-content
 description: Retrieves the load balance policies that are supported by the hardware provider.
 old-location: base\ivdslunmpio_getsupportedlbpolicies.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1b1f3437-41db-403e-abdb-febbfe90858c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

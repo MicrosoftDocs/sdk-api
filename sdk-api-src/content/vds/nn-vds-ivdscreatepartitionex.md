@@ -4,7 +4,7 @@ title: IVdsCreatePartitionEx
 author: windows-sdk-content
 description: Creates a partition on a basic disk.
 old-location: base\ivdscreatepartitionex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: aae89a86-35b2-45ab-83f5-9461960876c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

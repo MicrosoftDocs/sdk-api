@@ -4,7 +4,7 @@ title: VDS_VOLUME_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for a volume object.
 old-location: base\vds_volume_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 07a44bbf-0726-4094-9b5f-2d26b0030796
 ms.author: windowssdkdev
 ms.date: 12/5/2018

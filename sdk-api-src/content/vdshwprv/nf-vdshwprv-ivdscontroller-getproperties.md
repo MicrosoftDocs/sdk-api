@@ -4,7 +4,7 @@ title: IVdsController::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a controller.
 old-location: base\ivdscontroller_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 37230ac4-45f5-46ba-9a1c-072409e9362c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

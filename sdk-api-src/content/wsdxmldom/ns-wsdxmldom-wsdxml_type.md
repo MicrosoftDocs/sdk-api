@@ -4,7 +4,7 @@ title: WSDXML_TYPE
 author: windows-sdk-content
 description: Describes an XSD type.
 old-location: ncd\wsdxml_type_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: dc214dfb-1717-4f84-af4d-6eb8cf17522c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

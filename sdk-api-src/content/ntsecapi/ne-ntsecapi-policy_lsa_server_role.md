@@ -4,7 +4,7 @@ title: POLICY_LSA_SERVER_ROLE
 author: windows-sdk-content
 description: Defines values that indicate the role of an LSA server.
 old-location: security\policy_lsa_server_role.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: a2bcc380-8873-436b-a0d6-e4deb23669bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

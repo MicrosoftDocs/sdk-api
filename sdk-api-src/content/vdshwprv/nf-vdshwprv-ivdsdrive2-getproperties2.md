@@ -4,7 +4,7 @@ title: IVdsDrive2::GetProperties2
 author: windows-sdk-content
 description: Returns the properties of a drive object.
 old-location: base\ivdsdrive2_getproperties2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 635957be-780f-4dee-8d70-b7fc37fecd5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

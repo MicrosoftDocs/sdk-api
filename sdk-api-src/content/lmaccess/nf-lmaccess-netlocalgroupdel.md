@@ -4,7 +4,7 @@ title: NetLocalGroupDel function
 author: windows-sdk-content
 description: The NetLocalGroupDel function deletes a local group account and all its members from the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netlocalgroupdel.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: b26bfd52-c20a-4f6f-9503-87cac5168362
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDDeviceHost::RegisterPortType
 author: windows-sdk-content
 description: Registers a port type for incoming messages.
 old-location: ncd\iwsddevicehost_registerporttype_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: d514babb-c502-4d9a-b6c8-f371465cb9e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

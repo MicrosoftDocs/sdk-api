@@ -4,7 +4,7 @@ title: IVdsControllerPort::Reset
 author: windows-sdk-content
 description: Reinitializes the controller port.
 old-location: base\ivdscontrollerport_reset.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734
 ms.author: windowssdkdev
 ms.date: 12/5/2018

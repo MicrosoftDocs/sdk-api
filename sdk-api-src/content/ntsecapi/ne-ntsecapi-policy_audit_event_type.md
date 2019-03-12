@@ -4,7 +4,7 @@ title: POLICY_AUDIT_EVENT_TYPE
 author: windows-sdk-content
 description: The POLICY_AUDIT_EVENT_TYPE enumeration defines values that indicate the types of events the system can audit.
 old-location: security\policy_audit_event_type.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: e8dbd1d5-37d5-4a97-9d1c-c645871dc7a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

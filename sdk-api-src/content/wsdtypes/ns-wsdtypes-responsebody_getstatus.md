@@ -4,7 +4,7 @@ title: RESPONSEBODY_GetStatus
 author: windows-sdk-content
 description: Represents a WS-Eventing GetStatus response message.
 old-location: ncd\responsebody_getstatus.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 41db6c35-b722-4b46-bfc2-7bbfe50aaa0a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

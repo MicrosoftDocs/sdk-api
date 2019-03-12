@@ -4,7 +4,7 @@ title: WSDEventType
 author: windows-sdk-content
 description: Identifies the type of event produced by the session layer.
 old-location: ncd\wsdeventtype_enum.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e65742da-57ef-44a8-be3b-5736714747d3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

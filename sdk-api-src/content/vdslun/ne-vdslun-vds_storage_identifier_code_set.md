@@ -4,7 +4,7 @@ title: VDS_STORAGE_IDENTIFIER_CODE_SET
 author: windows-sdk-content
 description: Defines the set of the valid code sets (encodings) of a storage identifier.
 old-location: base\vds_storage_identifier_code_set.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6b4a3282-dc0c-4974-8c4c-777a28fb9005
 ms.author: windowssdkdev
 ms.date: 12/5/2018

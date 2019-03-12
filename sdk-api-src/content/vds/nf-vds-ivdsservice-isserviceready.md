@@ -4,7 +4,7 @@ title: IVdsService::IsServiceReady
 author: windows-sdk-content
 description: Returns the initialization status of VDS.
 old-location: base\ivdsservice_isserviceready.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 79ef68db-6bc6-40b3-a133-86f00eb70ee3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsVolume2::GetProperties2
 author: windows-sdk-content
 description: Returns property information for the current volume. This method is identical to the IVdsVolume::GetProperties method, except that it returns a VDS_VOLUME_PROP2 structure instead of a VDS_VOLUME_PROP structure.
 old-location: base\ivdsvolume2_getproperties2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9580ceb2-6b2f-4313-a140-f6fa6a366960
 ms.author: windowssdkdev
 ms.date: 12/5/2018

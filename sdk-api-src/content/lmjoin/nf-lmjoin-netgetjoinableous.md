@@ -4,7 +4,7 @@ title: NetGetJoinableOUs function
 author: windows-sdk-content
 description: The NetGetJoinableOUs function retrieves a list of organizational units (OUs) in which a computer account can be created.
 old-location: netmgmt\netgetjoinableous.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 1faa912b-c56d-431c-95d5-d36790b0d467
 ms.author: windowssdkdev
 ms.date: 12/5/2018

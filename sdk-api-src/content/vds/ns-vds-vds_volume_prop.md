@@ -4,7 +4,7 @@ title: VDS_VOLUME_PROP
 author: windows-sdk-content
 description: Defines the properties of a volume object.
 old-location: base\vds_volume_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3628b312-f830-4a1c-beb7-ad002a94313c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

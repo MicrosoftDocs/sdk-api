@@ -4,7 +4,7 @@ title: IVdsServiceHba::QueryHbaPorts
 author: windows-sdk-content
 description: Returns an IEnumVdsObject enumeration object containing a list of the HBA ports known to VDS on the local system.
 old-location: base\ivdsservicehba_queryhbaports.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2f81e5e9-5563-4435-8ecb-82f2c385c3dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

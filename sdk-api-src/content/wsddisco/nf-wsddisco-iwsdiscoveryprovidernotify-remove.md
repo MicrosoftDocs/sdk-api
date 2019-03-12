@@ -4,7 +4,7 @@ title: IWSDiscoveryProviderNotify::Remove
 author: windows-sdk-content
 description: Provides information on a recently departed discovery host (from a Bye message).
 old-location: ncd\iwsdiscoveryprovidernotify_remove.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 776fc1d5-9dfe-445f-9af6-36faf971bf37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

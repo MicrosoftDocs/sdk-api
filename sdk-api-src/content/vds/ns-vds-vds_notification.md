@@ -4,7 +4,7 @@ title: VDS_NOTIFICATION
 author: windows-sdk-content
 description: Defines the VDS notification structures specific to each notification target type (subject).
 old-location: base\vds_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 59d21cd3-1cff-47be-be98-f4c55f044306
 ms.author: windowssdkdev
 ms.date: 12/5/2018

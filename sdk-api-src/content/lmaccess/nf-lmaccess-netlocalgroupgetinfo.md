@@ -4,7 +4,7 @@ title: NetLocalGroupGetInfo function
 author: windows-sdk-content
 description: The NetLocalGroupGetInfo function retrieves information about a particular local group account on a server.
 old-location: netmgmt\netlocalgroupgetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ee2f0be9-8d52-439b-ab65-f9e11a2872c5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_1
 author: windows-sdk-content
 description: The USER_INFO_1 structure contains information about a user account, including account name, password data, privilege level, and the path to the user's home directory.
 old-location: netmgmt\user_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: f17a1aef-45f1-461f-975d-75221d08277c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

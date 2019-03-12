@@ -4,7 +4,7 @@ title: IWSDEndpointProxy::GetErrorInfo
 author: windows-sdk-content
 description: Retrieves information on the last error.
 old-location: ncd\iwsdendpointproxy_geterrorinfo.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

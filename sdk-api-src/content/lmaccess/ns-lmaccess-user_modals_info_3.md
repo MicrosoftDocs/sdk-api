@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_3
 author: windows-sdk-content
 description: The USER_MODALS_INFO_3 structure contains lockout information for users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_3_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 39f85712-1afd-4e34-8e7b-0938a7a48234
 ms.author: windowssdkdev
 ms.date: 12/5/2018

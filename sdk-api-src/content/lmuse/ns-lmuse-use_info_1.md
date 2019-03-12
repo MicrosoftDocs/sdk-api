@@ -4,7 +4,7 @@ title: USE_INFO_1
 author: windows-sdk-content
 description: Contains information about the connection between a local device and a shared resource.
 old-location: netmgmt\use_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: b9f680b8-b56a-42be-9af1-d7b18328ded4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

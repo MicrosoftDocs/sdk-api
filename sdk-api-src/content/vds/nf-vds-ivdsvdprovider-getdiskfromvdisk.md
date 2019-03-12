@@ -4,7 +4,7 @@ title: IVdsVdProvider::GetDiskFromVDisk
 author: windows-sdk-content
 description: Returns an IVdsDisk interface pointer for a virtual disk given an IVdsVDisk interface pointer.
 old-location: base\ivdsvdprovider_getdiskfromvdisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e0f1e7ef-fd72-48f5-895d-feabde4a3ded
 ms.author: windowssdkdev
 ms.date: 12/5/2018

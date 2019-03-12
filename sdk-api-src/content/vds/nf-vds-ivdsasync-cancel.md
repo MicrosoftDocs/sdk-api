@@ -4,7 +4,7 @@ title: IVdsAsync::Cancel
 author: windows-sdk-content
 description: Cancels the asynchronous operation.
 old-location: base\ivdsasync_cancel.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 40940cb8-46b7-4483-9952-ab053c49dad7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

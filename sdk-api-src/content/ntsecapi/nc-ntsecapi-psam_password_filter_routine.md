@@ -4,7 +4,7 @@ title: PSAM_PASSWORD_FILTER_ROUTINE
 author: windows-sdk-content
 description: Implemented by a password filter DLL. The value returned by this function determines whether the new password is accepted by the system.
 old-location: security\passwordfilter.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: cb4fe40e-81ea-4040-b3ee-642a093e5fca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

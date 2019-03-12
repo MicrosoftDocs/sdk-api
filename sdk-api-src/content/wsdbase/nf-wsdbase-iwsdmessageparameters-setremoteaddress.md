@@ -4,7 +4,7 @@ title: IWSDMessageParameters::SetRemoteAddress
 author: windows-sdk-content
 description: Sets the generic address object representing the remote address to where the message is sent.
 old-location: ncd\iwsdmessageparameters_setremoteaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98
 ms.author: windowssdkdev
 ms.date: 12/5/2018

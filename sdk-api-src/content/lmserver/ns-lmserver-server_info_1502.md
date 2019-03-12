@@ -4,7 +4,7 @@ title: SERVER_INFO_1502
 author: windows-sdk-content
 description: The SERVER_INFO_1502 structure specifies the maximum number of virtual circuits per client for the specified server.
 old-location: netmgmt\server_info_1502_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: d33cfe93-b284-4299-82fd-8055b39f7b87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

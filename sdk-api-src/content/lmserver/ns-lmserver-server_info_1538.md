@@ -4,7 +4,7 @@ title: SERVER_INFO_1538
 author: windows-sdk-content
 description: The SERVER_INFO_1538 structure specifies whether several MS-DOS File Control Blocks (FCBs) are placed in a single location.
 old-location: netmgmt\server_info_1538_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4e11d2f5-27e5-480d-8486-d683bea22781
 ms.author: windowssdkdev
 ms.date: 12/5/2018

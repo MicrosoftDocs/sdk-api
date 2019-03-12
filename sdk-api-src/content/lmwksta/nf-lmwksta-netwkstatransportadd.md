@@ -4,7 +4,7 @@ title: NetWkstaTransportAdd function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netwkstatransportadd.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 016060ea-eae1-421f-b708-5c2ddd2000c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

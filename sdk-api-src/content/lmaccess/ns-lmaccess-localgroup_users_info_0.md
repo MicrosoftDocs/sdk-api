@@ -4,7 +4,7 @@ title: LOCALGROUP_USERS_INFO_0
 author: windows-sdk-content
 description: The LOCALGROUP_USERS_INFO_0 structure contains local group member information.
 old-location: netmgmt\localgroup_users_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e9358f19-ec8f-4454-896c-c9fadb848378
 ms.author: windowssdkdev
 ms.date: 12/5/2018

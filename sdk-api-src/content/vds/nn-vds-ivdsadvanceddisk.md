@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk
 author: windows-sdk-content
 description: Creates and deletes partitions, and modifies partition attributes.
 old-location: base\ivdsadvanceddisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37
 ms.author: windowssdkdev
 ms.date: 12/5/2018

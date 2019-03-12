@@ -4,7 +4,7 @@ title: IWSDHttpMessageParameters::GetID
 author: windows-sdk-content
 description: Retrieves the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getid.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: fbe7000f-271a-4939-814d-3696d29f7a41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

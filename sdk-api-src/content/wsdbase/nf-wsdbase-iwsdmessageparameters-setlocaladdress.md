@@ -4,7 +4,7 @@ title: IWSDMessageParameters::SetLocalAddress
 author: windows-sdk-content
 description: Sets a generic address object representing the source address that should send the message.
 old-location: ncd\iwsdmessageparameters_setlocaladdress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 8266f091-9c88-44eb-a32b-1ff3da5fa10e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

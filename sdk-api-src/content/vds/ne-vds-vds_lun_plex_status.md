@@ -4,7 +4,7 @@ title: VDS_LUN_PLEX_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a LUN plex.
 old-location: base\vds_lun_plex_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 04eed033-45b3-42bc-a304-25525cddd085
 ms.author: windowssdkdev
 ms.date: 12/5/2018

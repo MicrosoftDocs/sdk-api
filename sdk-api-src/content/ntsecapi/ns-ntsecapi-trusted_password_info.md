@@ -4,7 +4,7 @@ title: TRUSTED_PASSWORD_INFO
 author: windows-sdk-content
 description: The TRUSTED_PASSWORD_INFO structure is used to query or set the password for a trusted domain.
 old-location: security\trusted_password_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 2c3aca10-8efd-4278-8127-2d31db776c0e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: POLICY_AUDIT_EVENTS_INFO
 author: windows-sdk-content
 description: The POLICY_AUDIT_EVENTS_INFO structure is used to set and query the system's auditing rules.
 old-location: security\policy_audit_events_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 3442e5e5-78cf-4bda-ba11-0f51ee40df16
 ms.author: windowssdkdev
 ms.date: 12/5/2018

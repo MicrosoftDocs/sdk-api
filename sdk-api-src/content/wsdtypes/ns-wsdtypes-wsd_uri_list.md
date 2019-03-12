@@ -4,7 +4,7 @@ title: WSD_URI_LIST
 author: windows-sdk-content
 description: Represents a node in a linked list of URIs.
 old-location: ncd\wsd_uri_list_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 86d77741-39c3-44bd-b072-d2d4eb99e488
 ms.author: windowssdkdev
 ms.date: 12/5/2018

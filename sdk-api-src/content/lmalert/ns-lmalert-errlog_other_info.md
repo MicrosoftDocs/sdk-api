@@ -4,7 +4,7 @@ title: ERRLOG_OTHER_INFO
 author: windows-sdk-content
 description: The ERRLOG_OTHER_INFO structure contains error log information. The NetAlertRaise and NetAlertRaiseEx functions use the ERRLOG_OTHER_INFO structure to specify information when adding a new entry to the error log.
 old-location: netmgmt\errlog_other_info_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 832ebe88-e1c4-4ce3-8057-922419b577f7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

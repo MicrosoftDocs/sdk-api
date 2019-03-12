@@ -4,7 +4,7 @@ title: LOCALGROUP_MEMBERS_INFO_3
 author: windows-sdk-content
 description: The LOCALGROUP_MEMBERS_INFO_3 structure contains the account name and domain name associated with a local group member.
 old-location: netmgmt\localgroup_members_info_3_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e8d1d884-c955-4706-bc3e-142469b02545
 ms.author: windowssdkdev
 ms.date: 12/5/2018

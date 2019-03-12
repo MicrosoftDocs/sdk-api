@@ -4,7 +4,7 @@ title: NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
 author: windows-sdk-content
 description: A client application passes the NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password change validation.
 old-location: netmgmt\net_validate_password_change_input_arg.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 09404998-81c5-400c-9d99-a0a4bb4095bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

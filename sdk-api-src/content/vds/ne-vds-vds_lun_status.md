@@ -4,7 +4,7 @@ title: VDS_LUN_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a LUN.
 old-location: base\vds_lun_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: dac82973-d8c0-430b-aeea-163af7d94d24
 ms.author: windowssdkdev
 ms.date: 12/5/2018

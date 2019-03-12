@@ -4,7 +4,7 @@ title: NetProvisionComputerAccount function
 author: windows-sdk-content
 description: Provisions a computer account for later use in an offline domain join operation.
 old-location: netmgmt\netprovisioncomputeraccount.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4c854258-b84d-4ef3-a6da-ce0a9540ffd5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

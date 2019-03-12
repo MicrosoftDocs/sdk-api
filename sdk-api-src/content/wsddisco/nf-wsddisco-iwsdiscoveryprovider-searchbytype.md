@@ -4,7 +4,7 @@ title: IWSDiscoveryProvider::SearchByType
 author: windows-sdk-content
 description: Initializes a search for WS-Discovery hosts by device type.
 old-location: ncd\iwsdiscoveryprovider_searchbytype_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: bb1f2822-4d5d-4156-99e3-5a4528474953
 ms.author: windowssdkdev
 ms.date: 12/5/2018

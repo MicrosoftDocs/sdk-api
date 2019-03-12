@@ -4,7 +4,7 @@ title: VDS_VDISK_PROPERTIES
 author: windows-sdk-content
 description: Defines the properties of a virtual disk.
 old-location: base\vds_vdisk_properties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e4cdab29-2bb7-4754-9ac8-d6f088910b0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

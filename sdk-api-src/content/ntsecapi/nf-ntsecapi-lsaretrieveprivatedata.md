@@ -4,7 +4,7 @@ title: LsaRetrievePrivateData function
 author: windows-sdk-content
 description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
 old-location: security\lsaretrieveprivatedata.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 005460db-0919-46eb-b057-37c5b6042243
 ms.author: windowssdkdev
 ms.date: 12/5/2018

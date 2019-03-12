@@ -4,7 +4,7 @@ title: WKSTA_USER_INFO_1101
 author: windows-sdk-content
 description: The WKSTA_USER_INFO_1101 structure contains information about the domains accessed by a workstation.
 old-location: netmgmt\wksta_user_info_1101_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 88772ba2-046b-4b03-ae02-d851075e4363
 ms.author: windowssdkdev
 ms.date: 12/5/2018

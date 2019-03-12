@@ -4,7 +4,7 @@ title: VDS_DRIVE_LETTER_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a drive letter.
 old-location: base\vds_drive_letter_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f6eebe08-ebc9-45d3-a752-9cdc13f9bcf1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

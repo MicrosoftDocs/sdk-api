@@ -4,7 +4,7 @@ title: VDS_PORTAL_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of iSCSI portal events.
 old-location: base\vds_portal_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 53126339-a9b7-4b80-80af-ac1782dff8a8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

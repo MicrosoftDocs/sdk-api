@@ -4,7 +4,7 @@ title: WSDSetConfigurationOption function
 author: windows-sdk-content
 description: Sets a WSDAPI configuration option.
 old-location: ncd\wsdsetconfigurationoption.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: d7d9b946-9f02-4770-aafe-5ee9e04a51cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

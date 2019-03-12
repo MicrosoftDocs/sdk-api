@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetEndpointReference
 author: windows-sdk-content
 description: Retrieves a WS-Addressing address referencing an endpoint of the remote device.
 old-location: ncd\iwsdiscoveredservice_getendpointreference.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 656ff77d-765e-4c30-8e5d-560d121dc368
 ms.author: windowssdkdev
 ms.date: 12/5/2018

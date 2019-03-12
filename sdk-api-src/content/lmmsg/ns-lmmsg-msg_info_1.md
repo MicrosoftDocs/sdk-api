@@ -4,7 +4,7 @@ title: MSG_INFO_1
 author: windows-sdk-content
 description: The MSG_INFO_1 structure specifies a message alias. This structure exists only for compatibility. Message forwarding is not supported.
 old-location: netmgmt\msg_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 6abb2622-6fa4-460a-b300-feaf548ba648
 ms.author: windowssdkdev
 ms.date: 12/5/2018

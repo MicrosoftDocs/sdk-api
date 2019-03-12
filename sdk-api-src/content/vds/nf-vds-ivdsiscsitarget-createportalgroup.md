@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::CreatePortalGroup
 author: windows-sdk-content
 description: Creates a portal group.
 old-location: base\ivdsiscsitarget_createportalgroup.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c479b5ee-2e6a-4a3f-bd80-c3c25adac20f
 ms.author: windowssdkdev
 ms.date: 12/5/2018
