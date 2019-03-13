@@ -4,7 +4,7 @@ title: VDS_VERSION_SUPPORT_FLAG
 author: windows-sdk-content
 description: Indicate which versions of the VDS interfaces are supported.
 old-location: base\vds_version_support_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c145070f-587f-42d7-bde9-3bf0cdba8444
 ms.author: windowssdkdev
 ms.date: 12/5/2018

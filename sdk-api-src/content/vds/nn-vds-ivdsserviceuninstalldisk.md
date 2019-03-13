@@ -4,7 +4,7 @@ title: IVdsServiceUninstallDisk
 author: windows-sdk-content
 description: Provides methods to uninstall basic and dynamic disks.
 old-location: base\ivdsserviceuninstalldisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2d111105-9970-40a3-bb8d-a92d38985fd9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

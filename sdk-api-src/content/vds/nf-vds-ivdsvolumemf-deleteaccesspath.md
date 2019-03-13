@@ -4,7 +4,7 @@ title: IVdsVolumeMF::DeleteAccessPath
 author: windows-sdk-content
 description: Removes the access path from the current volume.
 old-location: base\ivdsvolumemf_deleteaccesspath.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 05020390-475f-4528-ba44-ecdfe008149f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_CONTROLLER_PROP
 author: windows-sdk-content
 description: Defines the properties of a controller object.
 old-location: base\vds_controller_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b9da3920-9bae-4198-ba0d-a0755aee15e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -1,0 +1,116 @@
+---
+UID: NF:processtopologyapi.GetProcessGroupAffinity
+title: GetProcessGroupAffinity function
+author: windows-sdk-content
+description: Retrieves the processor group affinity of the specified process.
+old-location: base\getprocessgroupaffinity.htm
+tech.root: ProcThread
+ms.assetid: e22a4910-45dd-4eb6-9ed5-a8e0bcdfad7b
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: GetProcessGroupAffinity, GetProcessGroupAffinity function, base.getprocessgroupaffinity, processtopologyapi/GetProcessGroupAffinity, winbase/GetProcessGroupAffinity
+ms.topic: function
+req.header: processtopologyapi.h
+req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7 [desktop apps only]
+req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - kernel32.dll
+ - API-MS-Win-Core-Processtopology-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-Processtopology-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+api_name:
+ - GetProcessGroupAffinity
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# GetProcessGroupAffinity function
+
+
+## -description
+
+
+Retrieves the processor group affinity of the specified process.
+
+
+## -parameters
+
+
+
+
+### -param hProcess [in]
+
+A handle to the process.
+
+This handle must have the PROCESS_QUERY_INFORMATION or PROCESS_QUERY_LIMITED_INFORMATION access right. For more information, see 
+<a href="https://msdn.microsoft.com/508a17c4-88cd-431a-a102-00180a7f7ab5">Process Security and Access Rights</a>.
+
+
+### -param GroupCount [in, out]
+
+On input, specifies the number of elements in <i>GroupArray</i> array. On output, specifies the number of processor groups written to the array. If the array is too small, the function fails with ERROR_INSUFFICIENT_BUFFER and sets the <i>GroupCount</i> parameter to the number of elements required. 
+
+
+### -param GroupArray [out]
+
+An array of processor group numbers. A group number is included in the array if a thread in the process is assigned to a processor in the group. 
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, use <a href="https://msdn.microsoft.com/5e9899e9-e51e-4785-812a-f86eac6e2006">GetLastError</a>.
+
+If the error value is ERROR_INSUFFICIENT_BUFFER, the <i>GroupCount</i> parameter contains the required buffer size in number of elements.
+
+
+
+
+## -remarks
+
+
+
+To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601. For more information, see <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/effc75be-60da-43cc-bfb3-5fb905e1404d">GetThreadGroupAffinity</a>
+
+
+
+<a href="https://msdn.microsoft.com/c627ac0f-96e8-48b5-9103-4316f487e173">Processor Groups</a>
+ 
+
+ 
+

@@ -4,7 +4,7 @@ title: USER_INFO_3
 author: windows-sdk-content
 description: The USER_INFO_3 structure contains information about a user account, including the account name, password data, privilege level, the path to the user's home directory, relative identifiers (RIDs), and other user-related network statistics.
 old-location: netmgmt\user_info_3_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 39ed05f5-165d-4cb8-98af-e4120a1634f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

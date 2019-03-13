@@ -4,7 +4,7 @@ title: VDS_PATH_ID
 author: windows-sdk-content
 description: Defines a unique identification for a path.
 old-location: base\vds_path_id.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: bfb786fc-eb03-4449-b631-fb85813c08c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

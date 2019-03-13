@@ -4,7 +4,7 @@ title: IVdsServiceUninstallDisk::UninstallDisks
 author: windows-sdk-content
 description: Uninstalls a set of disks.
 old-location: base\ivdsserviceuninstalldisk_uninstalldisks.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 65c5444f-7e97-4746-9d74-561dc435212d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

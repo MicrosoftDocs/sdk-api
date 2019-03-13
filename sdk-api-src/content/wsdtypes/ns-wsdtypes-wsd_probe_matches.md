@@ -4,7 +4,7 @@ title: WSD_PROBE_MATCHES
 author: windows-sdk-content
 description: Represents a ProbeMatches message.
 old-location: ncd\wsd_probe_matches_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 41bf8dc2-903a-43d4-b63d-a34242d47288
 ms.author: windowssdkdev
 ms.date: 12/5/2018

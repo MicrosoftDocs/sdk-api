@@ -4,7 +4,7 @@ title: IVdsServiceSAN
 author: windows-sdk-content
 description: Provides methods for managing disk online and offline SAN policy for the operating system.
 old-location: base\ivdsservicesan.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 675e9ea8-06b6-4832-9311-17361e4781d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

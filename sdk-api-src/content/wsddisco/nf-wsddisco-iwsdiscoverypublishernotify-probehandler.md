@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisherNotify::ProbeHandler
 author: windows-sdk-content
 description: Is called when a Probe is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_probehandler_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: d92ce49c-308b-49e2-9646-f1eec2151441
 ms.author: windowssdkdev
 ms.date: 12/5/2018

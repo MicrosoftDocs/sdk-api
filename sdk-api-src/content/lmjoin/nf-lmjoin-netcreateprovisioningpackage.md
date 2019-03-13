@@ -4,7 +4,7 @@ title: NetCreateProvisioningPackage function
 author: windows-sdk-content
 description: Creates a provisioning package that provisions a computer account for later use in an offline domain join operation. The package may also contain information about certificates and policies to add to the machine during provisioning.
 old-location: netmgmt\netcreateprovisioningpackage.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 6E2A5578-8308-41E2-B5E9-5E34E9E76C0B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

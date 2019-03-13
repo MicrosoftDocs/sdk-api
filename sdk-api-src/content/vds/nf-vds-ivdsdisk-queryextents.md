@@ -4,7 +4,7 @@ title: IVdsDisk::QueryExtents
 author: windows-sdk-content
 description: Returns the details of all the extents on a disk.
 old-location: base\ivdsdisk_queryextents.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2e7de42f-da7a-41a7-b38e-849ab8d72ab2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

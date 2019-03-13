@@ -4,7 +4,7 @@ title: IVdsIscsiPortalGroup::Delete
 author: windows-sdk-content
 description: Deletes the portal group.
 old-location: base\ivdsiscsiportalgroup_delete.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 903f89b8-4712-4832-ba70-41a5362cbf28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

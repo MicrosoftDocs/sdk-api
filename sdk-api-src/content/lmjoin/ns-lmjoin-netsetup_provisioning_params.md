@@ -4,7 +4,7 @@ title: NETSETUP_PROVISIONING_PARAMS
 author: windows-sdk-content
 description: The NETSETUP_PROVISIONING_PARAMS structure contains information that is used when creating a provisioning package using the NetCreateProvisionPackage function.
 old-location: netmgmt\netsetup_provisioning_params.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: E965804F-145A-4D8F-BB8E-466580AC65DA
 ms.author: windowssdkdev
 ms.date: 12/5/2018

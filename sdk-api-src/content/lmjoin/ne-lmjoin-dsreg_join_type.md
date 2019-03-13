@@ -4,7 +4,7 @@ title: DSREG_JOIN_TYPE
 author: windows-sdk-content
 description: Specifies the possible ways that a device can be joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_type.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: E29BCBE0-222F-4CA8-97BC-6FE1B6F97A67
 ms.author: windowssdkdev
 ms.date: 12/5/2018

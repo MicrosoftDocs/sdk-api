@@ -4,7 +4,7 @@ title: VDS_VOLUME_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of volume events.
 old-location: base\vds_volume_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0aea3de4-60b1-4452-a5f1-f3556e719e09
 ms.author: windowssdkdev
 ms.date: 12/5/2018

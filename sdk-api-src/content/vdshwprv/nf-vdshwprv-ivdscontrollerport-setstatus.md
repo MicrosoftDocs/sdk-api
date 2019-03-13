@@ -4,7 +4,7 @@ title: IVdsControllerPort::SetStatus
 author: windows-sdk-content
 description: Sets the status of a controller port to the specified value.
 old-location: base\ivdscontrollerport_setstatus.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1338e1e7-80c8-409d-aa54-575618fd9797
 ms.author: windowssdkdev
 ms.date: 12/5/2018

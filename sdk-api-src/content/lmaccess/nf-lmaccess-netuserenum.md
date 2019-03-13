@@ -4,7 +4,7 @@ title: NetUserEnum function
 author: windows-sdk-content
 description: The NetUserEnum function retrieves information about all user accounts on a server.
 old-location: netmgmt\netuserenum.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: b26ef3c0-934a-4840-8c06-4eaff5c9ff86
 ms.author: windowssdkdev
 ms.date: 12/5/2018

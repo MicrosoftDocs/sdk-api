@@ -4,7 +4,7 @@ title: IWSDDeviceProxy::EndGetMetadata
 author: windows-sdk-content
 description: Ends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_endgetmetadata.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: c59ee37f-9189-4c32-8404-23cc94d76ad9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

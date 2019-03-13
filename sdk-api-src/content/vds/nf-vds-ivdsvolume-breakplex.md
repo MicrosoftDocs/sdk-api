@@ -4,7 +4,7 @@ title: IVdsVolume::BreakPlex
 author: windows-sdk-content
 description: Removes a specified plex from the current volume.
 old-location: base\ivdsvolume_breakplex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c7e42aa4-3233-40e9-b537-043eecd192ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

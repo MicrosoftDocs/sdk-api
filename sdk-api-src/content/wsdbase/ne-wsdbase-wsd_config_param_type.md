@@ -4,7 +4,7 @@ title: WSD_CONFIG_PARAM_TYPE
 author: windows-sdk-content
 description: Specifies the kind of data stored in a WSD_CONFIG_PARAM structure.
 old-location: ncd\wsd_config_param_type.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 46189d61-79d0-4ec9-82eb-ac1331201490
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::MatchResolve
 author: windows-sdk-content
 description: Determines whether a Resolve message matches the specified host and sends a WS-Discovery ResolveMatches message if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchresolve_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f01a17ce-2a87-4f11-81d3-a94743b309ab
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsService::Reenumerate
 author: windows-sdk-content
 description: Discovers newly added and newly removed disks.
 old-location: base\ivdsservice_reenumerate.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d057715c-dfd5-4b69-9e33-c40fb89fa11b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

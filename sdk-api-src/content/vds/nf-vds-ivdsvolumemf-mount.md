@@ -4,7 +4,7 @@ title: IVdsVolumeMF::Mount
 author: windows-sdk-content
 description: Mounts a volume.
 old-location: base\ivdsvolumemf_mount.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1de3bbd7-cd81-42f9-9e25-48a0a07e9ccc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

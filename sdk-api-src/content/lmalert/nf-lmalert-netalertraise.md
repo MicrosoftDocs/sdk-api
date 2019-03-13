@@ -4,7 +4,7 @@ title: NetAlertRaise function
 author: windows-sdk-content
 description: The NetAlertRaise function notifies all registered clients when a particular event occurs.
 old-location: netmgmt\netalertraise.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 11367a72-c21d-4044-98cf-a7a30cc43a8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

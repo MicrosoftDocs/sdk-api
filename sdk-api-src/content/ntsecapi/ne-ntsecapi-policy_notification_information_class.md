@@ -4,7 +4,7 @@ title: POLICY_NOTIFICATION_INFORMATION_CLASS
 author: windows-sdk-content
 description: The POLICY_NOTIFICATION_INFORMATION_CLASS enumeration defines the types of policy information and policy domain information for which your application can request notification of changes.
 old-location: security\policy_notification_information_class.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: cf8eea7a-d3b0-4c3a-b05b-3027024ab025
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_PACK_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of pack events.
 old-location: base\vds_pack_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3bfdef22-e3ad-4b23-9aaa-c2d08044dd25
 ms.author: windowssdkdev
 ms.date: 12/5/2018

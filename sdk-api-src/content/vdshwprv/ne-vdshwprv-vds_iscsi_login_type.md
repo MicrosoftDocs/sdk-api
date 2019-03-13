@@ -4,7 +4,7 @@ title: VDS_ISCSI_LOGIN_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for logging into an iSCSI target.
 old-location: base\vds_iscsi_login_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d40db9ab-6fa5-4efb-83e8-ce1dce5fe0c2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

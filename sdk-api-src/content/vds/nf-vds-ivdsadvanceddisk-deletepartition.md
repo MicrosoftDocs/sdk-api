@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::DeletePartition
 author: windows-sdk-content
 description: Deletes a partition from a basic disk.
 old-location: base\ivdsadvanceddisk_deletepartition.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3b1a9d18-5f0b-4535-b0fb-6b1929099c1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

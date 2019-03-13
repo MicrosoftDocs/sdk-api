@@ -4,7 +4,7 @@ title: PFSCE_FREE_INFO
 author: windows-sdk-content
 description: Frees the memory for buffers allocated by the Security Configuration tool set when it calls PFSCE_QUERY_INFO.
 old-location: security\pfsce_free_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: e7cafdbc-9ca2-4bb1-b8ed-d5553acaf7bc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

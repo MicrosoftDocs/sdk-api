@@ -4,7 +4,7 @@ title: USER_INFO_1024
 author: windows-sdk-content
 description: The USER_INFO_1024 structure contains the country/region code for a network user's language of choice. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1024_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 8133238f-c968-4a65-a8dd-7b9a61a193f5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumVdsObject::Clone
 author: windows-sdk-content
 description: Creates an enumeration with the same state as the current enumeration.
 old-location: base\ienumvdsobject_clone.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9d547011-2200-43fc-a8de-9b90ba94c39e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

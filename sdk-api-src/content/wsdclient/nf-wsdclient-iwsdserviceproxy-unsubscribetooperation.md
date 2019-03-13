@@ -4,7 +4,7 @@ title: IWSDServiceProxy::UnsubscribeToOperation
 author: windows-sdk-content
 description: Cancels a subscription to a notification or solicit/response event.
 old-location: ncd\iwsdserviceproxy_unsubscribetooperation_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: b306239c-95a4-4a1d-990c-193237bad275
 ms.author: windowssdkdev
 ms.date: 12/5/2018

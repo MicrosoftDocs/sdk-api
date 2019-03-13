@@ -4,7 +4,7 @@ title: IVdsServiceIscsi::SetAllIpsecSecurity
 author: windows-sdk-content
 description: Not supported.
 old-location: base\ivdsserviceiscsi_setallipsecsecurity.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d76be416-c5e2-4b53-a1ff-0a27418c151e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

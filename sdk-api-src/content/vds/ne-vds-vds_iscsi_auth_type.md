@@ -4,7 +4,7 @@ title: VDS_ISCSI_AUTH_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for authentication when logging into an iSCSI target.
 old-location: base\vds_iscsi_auth_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7e445b10-552a-4a89-aee8-9699db79c5a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

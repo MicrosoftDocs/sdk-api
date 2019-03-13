@@ -4,7 +4,7 @@ title: IVdsService::QueryUnallocatedDisks
 author: windows-sdk-content
 description: Returns an enumeration object containing a list of the unallocated disks managed by VDS.
 old-location: base\ivdsservice_queryunallocateddisks.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d519c3d0-7c5a-4c0c-bad9-2429490f2212
 ms.author: windowssdkdev
 ms.date: 12/5/2018

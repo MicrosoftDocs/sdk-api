@@ -4,7 +4,7 @@ title: VDS_DRIVE_PROP
 author: windows-sdk-content
 description: Defines the properties of a drive object.
 old-location: base\vds_drive_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c17f13f6-ccea-4370-84d1-b422efb63e73
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDUdpAddress::GetTTL
 author: windows-sdk-content
 description: Gets the time-to-live (TTL) for all outbound packets using this address.
 old-location: ncd\iwsdudpaddress_getttl.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 8bc2a973-a776-45c6-b6bf-cf268badab30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

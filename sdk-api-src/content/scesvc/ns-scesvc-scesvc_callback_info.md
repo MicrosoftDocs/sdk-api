@@ -4,7 +4,7 @@ title: SCESVC_CALLBACK_INFO
 author: windows-sdk-content
 description: The SCESVC_CALLBACK_INFO structure contains an opaque database handle and callback function pointers to query, set, and free information.
 old-location: security\scesvc_callback_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: ff232f21-2c2f-4e5e-8b2d-e89147e2d38a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

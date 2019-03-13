@@ -4,7 +4,7 @@ title: WKSTA_TRANSPORT_INFO_0
 author: windows-sdk-content
 description: The WKSTA_TRANSPORT_INFO_0 structure contains information about the workstation transport protocol, such as Wide Area Network (WAN) or NetBIOS.
 old-location: netmgmt\wksta_transport_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e7afe2a3-f729-4fd5-afc3-d3ffbd09e884
 ms.author: windowssdkdev
 ms.date: 12/5/2018

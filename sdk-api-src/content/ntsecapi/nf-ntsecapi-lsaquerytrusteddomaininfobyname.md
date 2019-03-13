@@ -4,7 +4,7 @@ title: LsaQueryTrustedDomainInfoByName function
 author: windows-sdk-content
 description: The LsaQueryTrustedDomainInfoByName function returns information about a trusted domain.
 old-location: security\lsaquerytrusteddomaininfobyname.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: d33d6cee-bd8b-49f4-8e65-07cdc65bec7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

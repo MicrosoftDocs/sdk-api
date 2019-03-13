@@ -4,7 +4,7 @@ title: IVdsHbaPort::GetProperties
 author: windows-sdk-content
 description: Retrieves the properties of an HBA port.
 old-location: base\ivdshbaport_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 5472534f-66c8-4a78-a351-92f59e50ae32
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NET_DISPLAY_MACHINE
 author: windows-sdk-content
 description: The NET_DISPLAY_MACHINE structure contains information that an account manager can access to determine information about computers and their attributes.
 old-location: netmgmt\net_display_machine_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: bdb1bef0-51f1-41d7-97fb-bda4ad24e386
 ms.author: windowssdkdev
 ms.date: 12/5/2018

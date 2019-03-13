@@ -4,7 +4,7 @@ title: IVdsMaintenance
 author: windows-sdk-content
 description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
 old-location: base\ivdsmaintenance.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 08c01459-151a-4dd8-bea5-412076e39a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

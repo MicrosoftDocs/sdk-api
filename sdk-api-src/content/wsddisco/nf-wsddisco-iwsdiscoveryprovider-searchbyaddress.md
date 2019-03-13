@@ -4,7 +4,7 @@ title: IWSDiscoveryProvider::SearchByAddress
 author: windows-sdk-content
 description: Initializes a search for WS-Discovery hosts by device address.
 old-location: ncd\iwsdiscoveryprovider_searchbyaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 64493841-0715-4bae-a416-aca9945b2420
 ms.author: windowssdkdev
 ms.date: 12/5/2018

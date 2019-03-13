@@ -2,7 +2,7 @@
 UID: NF:dwrite.IDWriteTextLayout.HitTestTextRange
 title: IDWriteTextLayout::HitTestTextRange
 author: windows-sdk-content
-description: The application calls this function to get a set of hit-test metrics corresponding to a range of text positions.
+description: The application calls this function to get a set of hit-test metrics corresponding to a range of text positions. One of the main usages is to implement highlight selection of the text string.
 old-location: directwrite\IDWriteTextLayout_HitTestTextRange.htm
 tech.root: DirectWrite
 ms.assetid: 970ea72c-d097-42c2-9d93-774387ba7881
@@ -48,21 +48,19 @@ req.redist:
 ## -description
 
 
- The application calls this function to get a set of hit-test metrics
-     corresponding to a range of text positions. One of the main usages
-     is to implement highlight selection of the text string. The
-     function returns E_NOT_SUFFICIENT_BUFFER, which is equivalent to HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER), when the buffer size of
-     hitTestMetrics is too small to hold all the regions calculated by the
-     function. In this situation, the function sets the output value
-     *actualHitTestMetricsCount to the number of geometries calculated.
-     The application is responsible for allocating a new buffer of greater
-     size and calling the function again.
-    
-     A good value to use as an initial value for maxHitTestMetricsCount may
-     be calculated from the following equation:
-         maxHitTestMetricsCount = lineCount * maxBidiReorderingDepth
-    
-     where lineCount is obtained from the value of the output argument
+ The application calls this function to get a set of hit-test metrics corresponding to a range of text positions. One of the main usages is to implement highlight selection of the text string. 
+
+The function returns E_NOT_SUFFICIENT_BUFFER, which is equivalent to HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER), when the buffer size of hitTestMetrics is too small to hold all the regions calculated by the function. In this situation, the function sets the output value *actualHitTestMetricsCount to the number of geometries calculated. 
+
+The application is responsible for allocating a new buffer of greater size and calling the function again.
+
+A good value to use as an initial value for maxHitTestMetricsCount may be calculated from the following equation:
+
+
+<pre class="syntax" xml:space="preserve"><code>maxHitTestMetricsCount = lineCount * maxBidiReorderingDepth</code></pre>
+
+
+where lineCount is obtained from the value of the output argument
      *actualLineCount (from the function <a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>::GetLineLengths),
      and the maxBidiReorderingDepth value from the <a href="https://msdn.microsoft.com/4524ace3-fca6-4daf-9ecb-516771e53fc9">DWRITE_TEXT_METRICS</a>structure of the output argument *textMetrics (from the function
      <a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>::<a href="https://msdn.microsoft.com/f76f85df-112f-4bc3-b922-a0d7940d2954">CreateTextLayout</a>).

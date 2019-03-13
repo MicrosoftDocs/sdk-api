@@ -4,7 +4,7 @@ title: NET_VALIDATE_OUTPUT_ARG
 author: windows-sdk-content
 description: The NET_VALIDATE_OUTPUT_ARG structure contains information about persistent password-related data that has changed since the user's last logon as well as the result of the function's password validation check.
 old-location: netmgmt\net_validate_output_arg.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 833c89c3-34ba-485b-a310-1d709aa618cd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

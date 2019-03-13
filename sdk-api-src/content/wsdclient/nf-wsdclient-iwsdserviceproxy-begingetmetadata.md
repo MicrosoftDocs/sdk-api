@@ -4,7 +4,7 @@ title: IWSDServiceProxy::BeginGetMetadata
 author: windows-sdk-content
 description: Initiates an asynchronous metadata exchange request with the remote service.
 old-location: ncd\iwsdserviceproxy_begingetmetadata.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: bcc0bcaf-76fb-4dca-b946-2826809a53a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

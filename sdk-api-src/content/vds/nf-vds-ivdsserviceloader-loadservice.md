@@ -4,7 +4,7 @@ title: IVdsServiceLoader::LoadService
 author: windows-sdk-content
 description: Launches VDS on the specified computer and returns a pointer to the service object.
 old-location: base\ivdsserviceloader_loadservice.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 26bb0a1f-37ad-4bb0-af6c-1063c5ccdc0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

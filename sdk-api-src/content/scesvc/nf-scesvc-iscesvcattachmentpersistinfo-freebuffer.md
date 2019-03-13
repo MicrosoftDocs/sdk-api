@@ -4,7 +4,7 @@ title: ISceSvcAttachmentPersistInfo::FreeBuffer
 author: windows-sdk-content
 description: The FreeBuffer method frees memory allocated by the attachment snap-in extension.
 old-location: security\iscesvcattachmentpersistinfo_freebuffer.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: b41f01a4-dc38-4954-a3c5-19fa72910d6f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

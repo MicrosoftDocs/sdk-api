@@ -4,7 +4,7 @@ title: POLICY_SERVER_ENABLE_STATE
 author: windows-sdk-content
 description: The POLICY_SERVER_ENABLE_STATE enumeration represents the state of the LSA server&#8212;that is, whether it is enabled or disabled. Some operations may only be performed on an enabled LSA server.
 old-location: security\policy_server_enable_state.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: aae5875e-ca55-4571-a9a4-684280ae8aa0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: AT_INFO
 author: windows-sdk-content
 description: The AT_INFO structure contains information about a job.
 old-location: netmgmt\at_info_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: eb0bf696-53ca-432a-b04c-5e0b6a61a0fd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

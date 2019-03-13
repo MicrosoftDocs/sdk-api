@@ -4,7 +4,7 @@ title: VDS_ISCSI_INITIATOR_ADAPTER_PROP
 author: windows-sdk-content
 description: Defines the properties of an iSCSI initiator adapter.
 old-location: base\vds_iscsi_initiator_adapter_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: cfcc7c7a-d135-4404-8f67-64e43a425669
 ms.author: windowssdkdev
 ms.date: 12/5/2018

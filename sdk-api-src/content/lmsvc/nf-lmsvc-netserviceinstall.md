@@ -4,7 +4,7 @@ title: NetServiceInstall function
 author: windows-sdk-content
 description: The NetServiceInstall function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netserviceinstall.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4eb0cc77-3862-4b1c-8146-2798cdc6ab66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

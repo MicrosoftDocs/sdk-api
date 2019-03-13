@@ -4,7 +4,7 @@ title: VDS_DISK_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of disk events.
 old-location: base\vds_disk_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ff0069ce-611f-4ad4-9b67-adb7dc0f7abc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsVolumeShrink::QueryMaxReclaimableBytes
 author: windows-sdk-content
 description: Retrieves the maximum number of bytes that can be reclaimed from the current volume.
 old-location: base\ivdsvolumeshrink_querymaxreclaimablebytes.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 416ceb78-50fb-4976-8814-3981b594ebec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

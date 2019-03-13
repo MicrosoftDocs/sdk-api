@@ -4,7 +4,7 @@ title: VDS_PACK_PROP
 author: windows-sdk-content
 description: Defines the properties of a pack object.
 old-location: base\vds_pack_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 5d04bf6c-fda2-4b95-a8bb-907e64267f30
 ms.author: windowssdkdev
 ms.date: 12/5/2018

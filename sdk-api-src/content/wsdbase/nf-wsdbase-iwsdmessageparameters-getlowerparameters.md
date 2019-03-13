@@ -4,7 +4,7 @@ title: IWSDMessageParameters::GetLowerParameters
 author: windows-sdk-content
 description: Retrieves message parameters from the layer below this layer in the protocol stack.
 old-location: ncd\iwsdmessageparameters_getlowerparameters.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 24f4be83-adf4-4742-8a1e-4304870a16dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

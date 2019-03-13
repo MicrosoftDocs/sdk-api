@@ -4,7 +4,7 @@ title: VDS_VOLUME_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a volume object.
 old-location: base\vds_volume_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3a59cc61-1efe-4027-9aca-a785a5cfaef5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

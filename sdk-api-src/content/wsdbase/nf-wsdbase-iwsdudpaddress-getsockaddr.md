@@ -4,7 +4,7 @@ title: IWSDUdpAddress::GetSockaddr
 author: windows-sdk-content
 description: Gets the socket address information.
 old-location: ncd\iwsdudpaddress_getsockaddr.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 4a29722f-a3b7-4285-9ade-06de125f8b91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

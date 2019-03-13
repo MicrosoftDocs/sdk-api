@@ -4,7 +4,7 @@ title: NET_VALIDATE_PERSISTED_FIELDS
 author: windows-sdk-content
 description: The NET_VALIDATE_PERSISTED_FIELDS structure contains information about a user's password properties.
 old-location: netmgmt\net_validate_persisted_fields.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 1e6ea28a-a007-4cd1-b5d6-686bcf019fa1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

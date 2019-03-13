@@ -4,7 +4,7 @@ title: IVdsService::CleanupObsoleteMountPoints
 author: windows-sdk-content
 description: Removes user-mode paths and mounted folders for volumes that no longer exist.
 old-location: base\ivdsservice_cleanupobsoletemountpoints.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 93ed7789-be60-422c-be4f-e70e16d26fce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

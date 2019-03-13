@@ -4,7 +4,7 @@ title: WSDUdpMessageType
 author: windows-sdk-content
 description: Identifies the type of UDP message.
 old-location: ncd\wsdudpmessagetype.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
 ms.author: windowssdkdev
 ms.date: 12/5/2018

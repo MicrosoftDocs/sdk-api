@@ -4,7 +4,7 @@ title: IVdsIscsiPortalGroup::AddPortal
 author: windows-sdk-content
 description: Adds a portal to a portal group.
 old-location: base\ivdsiscsiportalgroup_addportal.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6a2c1427-5137-47d4-a4b9-88a1bbc1e6c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

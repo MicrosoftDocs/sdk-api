@@ -4,7 +4,7 @@ title: IVdsHwProviderPrivate
 author: windows-sdk-content
 description: Provides a method that enables VDS to determine whether the hardware provider manages a specified LUN.
 old-location: base\ivdshwproviderprivate.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7e6dbf9e-9060-46bf-be11-9d9d640a3d36
 ms.author: windowssdkdev
 ms.date: 12/5/2018

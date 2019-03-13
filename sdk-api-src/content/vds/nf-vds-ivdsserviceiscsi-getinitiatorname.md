@@ -4,7 +4,7 @@ title: IVdsServiceIscsi::GetInitiatorName
 author: windows-sdk-content
 description: Returns the iSCSI name of the local initiator service.
 old-location: base\ivdsserviceiscsi_getinitiatorname.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 34f18293-6254-4f73-a633-642a3cdeaf31
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsDiskPartitionMF
 author: windows-sdk-content
 description: Provides methods to perform file system management operations on partitions.
 old-location: base\ivdsdiskpartitionmf.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 84d0918d-479f-4026-b120-11cc21a43233
 ms.author: windowssdkdev
 ms.date: 12/5/2018

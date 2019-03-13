@@ -4,7 +4,7 @@ title: VDS_DRIVE_LETTER_PROP
 author: windows-sdk-content
 description: Defines the properties of a drive letter.
 old-location: base\vds_drive_letter_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b944e29a-85b0-4cab-b804-1a09a19caddb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

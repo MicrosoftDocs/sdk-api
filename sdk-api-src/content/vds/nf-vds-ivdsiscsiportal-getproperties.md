@@ -4,7 +4,7 @@ title: IVdsIscsiPortal::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a portal.
 old-location: base\ivdsiscsiportal_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a17597d5-2525-4a0c-acb3-dc69a6ef04ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

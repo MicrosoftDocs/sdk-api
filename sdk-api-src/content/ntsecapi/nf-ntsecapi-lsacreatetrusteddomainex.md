@@ -4,7 +4,7 @@ title: LsaCreateTrustedDomainEx function
 author: windows-sdk-content
 description: The LsaCreateTrustedDomainEx function establishes a new trusted domain by creating a new TrustedDomain object.
 old-location: security\lsacreatetrusteddomainex.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 2f458098-9498-4f08-bd13-ac572678d734
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_LUN_PLEX_PROP
 author: windows-sdk-content
 description: Defines the properties of a LUN plex object.
 old-location: base\vds_lun_plex_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d79ce5a9-af5a-4691-b853-c18d4a4d04c7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

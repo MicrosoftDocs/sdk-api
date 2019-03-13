@@ -4,7 +4,7 @@ title: VDS_POOL_CUSTOM_ATTRIBUTES
 author: windows-sdk-content
 description: Defines a custom attribute of a storage pool.
 old-location: base\vds_pool_custom_attributes.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: beea122a-476c-43e0-bb70-2555d4211bf7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

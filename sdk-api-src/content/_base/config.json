@@ -5,12 +5,14 @@
     "winbase.h",
     "winnt.h",
     "winerror.h",
+    "winddi.h",
     "winuser.h",
     "none",
     "utilapiset.h",
     "errhandlingapi.h",
     "winternl.h",
     "debugapi.h",
+    "processenv.h",
     "processthreadsapi.h",
     "memoryapi.h",
     "minwinbase.h",
@@ -53,9 +55,9 @@
     "dispatcherqueue.h",
     "processthreadapi.h",
     "jobapi2.h",
+    "jobapi.h",
     "avrt.h",
     "threadpoolapiset.h",
-    "wow64apiset.h",
     "winsvc.h",
     "winsvcp.h",
     "reason.h",
@@ -80,7 +82,10 @@
     "vsmgmt.h",
     "vsbackup.h",
     "vsadmin.h",
-    "vsprov.h"
+    "vsprov.h",
+    "namespaceapi.h",
+    "processtopologyapi.h",
+    "systemtopologyapi.h"
   ],
   "displayName": "System Services"
 }

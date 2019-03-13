@@ -4,7 +4,7 @@ title: IVdsIscsiInitiatorAdapter::QueryInitiatorPortals
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI initiator portals of the initiator adapter.
 old-location: base\ivdsiscsiinitiatoradapter_queryinitiatorportals.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d3c893c0-167f-46f5-92f8-aa61f5e16542
 ms.author: windowssdkdev
 ms.date: 12/5/2018

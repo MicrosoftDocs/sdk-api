@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::Attach
 author: windows-sdk-content
 description: Attaches a virtual disk.
 old-location: base\ivdsopenvdisk_attach.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 02647fe6-b94c-43ac-939c-262cea2c49d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

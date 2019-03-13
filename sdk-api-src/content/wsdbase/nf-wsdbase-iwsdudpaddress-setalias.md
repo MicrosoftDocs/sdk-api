@@ -4,7 +4,7 @@ title: IWSDUdpAddress::SetAlias
 author: windows-sdk-content
 description: Sets the alias for the discovery address.
 old-location: ncd\iwsdudpaddress_setalias.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 2156f271-cad4-4160-8d1f-bc44dc7b0e9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

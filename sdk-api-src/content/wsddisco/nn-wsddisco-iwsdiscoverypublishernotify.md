@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisherNotify
 author: windows-sdk-content
 description: Is implemented by the client program to receive callback notifications from IWSDiscoveryPublisher.
 old-location: ncd\iwsdiscoverypublishernotify.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 6e7e0ab8-dffe-47c2-916c-a6734eb4ac44
 ms.author: windowssdkdev
 ms.date: 12/5/2018

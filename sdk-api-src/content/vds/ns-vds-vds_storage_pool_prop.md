@@ -4,7 +4,7 @@ title: VDS_STORAGE_POOL_PROP
 author: windows-sdk-content
 description: Defines the properties of a storage pool object.
 old-location: base\vds_storage_pool_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2a82e872-2005-4b05-b67a-161b16c4f3aa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

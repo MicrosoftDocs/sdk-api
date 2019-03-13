@@ -4,7 +4,7 @@ title: VDS_LUN_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of a LUN notification.
 old-location: base\vds_lun_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 42b71b32-337e-4352-b4b3-6af2caad86e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

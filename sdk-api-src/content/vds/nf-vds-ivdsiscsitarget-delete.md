@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::Delete
 author: windows-sdk-content
 description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
 old-location: base\ivdsiscsitarget_delete.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

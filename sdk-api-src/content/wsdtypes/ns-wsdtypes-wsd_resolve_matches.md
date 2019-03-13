@@ -4,7 +4,7 @@ title: WSD_RESOLVE_MATCHES
 author: windows-sdk-content
 description: Represents a ResolveMatches message.
 old-location: ncd\wsd_resolve_matches.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: a6094069-af17-4921-b2c3-4ec89cbbb6f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

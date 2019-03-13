@@ -4,7 +4,7 @@ title: WKSTA_INFO_101
 author: windows-sdk-content
 description: Contains information about a workstation environment, including platform-specific information, the name of the domain and the local computer, and information concerning the operating system.
 old-location: netmgmt\wksta_info_101_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 2b692d40-6229-45ef-9ec6-ee464bba0696
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsServiceLoader
 author: windows-sdk-content
 description: Instantiates a service loader object.
 old-location: base\ivdsserviceloader.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 43533ee7-4e44-48c9-8c9d-0992426d79ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018

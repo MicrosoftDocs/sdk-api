@@ -4,7 +4,7 @@ title: IVdsSubSystem::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a subsystem.
 old-location: base\ivdssubsystem_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: cbcf1e14-7e3d-44e6-8c4a-afe927ed0f9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

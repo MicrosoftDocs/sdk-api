@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetXAddrs
 author: windows-sdk-content
 description: Retrieves a list of WS-Discovery XAddrs.
 old-location: ncd\iwsdiscoveredservice_getxaddrs.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: a861374e-fee4-486b-8e23-f4a4a8203b28
 ms.author: windowssdkdev
 ms.date: 12/5/2018

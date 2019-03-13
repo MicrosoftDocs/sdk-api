@@ -4,7 +4,7 @@ title: VDS_INTERCONNECT_ADDRESS_TYPE
 author: windows-sdk-content
 description: Defines the set of the valid address types of a physical interconnect.
 old-location: base\vds_interconnect_address_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 20d75585-a80c-49bc-9f9c-5aae8e5f2c21
 ms.author: windowssdkdev
 ms.date: 12/5/2018

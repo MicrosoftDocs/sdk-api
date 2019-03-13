@@ -4,7 +4,7 @@ title: IVdsIscsiInitiatorAdapter::GetProperties
 author: windows-sdk-content
 description: Returns the properties of an initiator adapter.
 old-location: base\ivdsiscsiinitiatoradapter_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9442e182-bc2e-47dd-9ddc-aa1a618a5563
 ms.author: windowssdkdev
 ms.date: 12/5/2018

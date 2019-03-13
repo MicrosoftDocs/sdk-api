@@ -4,7 +4,7 @@ title: IVdsSwProvider::CreatePack
 author: windows-sdk-content
 description: Creates a pack object.
 old-location: base\ivdsswprovider_createpack.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2d711ed8-9101-4e68-b085-b5df01515b5d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_IPADDRESS_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for an IP address.
 old-location: base\vds_ipaddress_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9121957f-1626-4d52-9749-0a769fece5fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

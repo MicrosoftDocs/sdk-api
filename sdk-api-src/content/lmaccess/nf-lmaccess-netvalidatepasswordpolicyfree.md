@@ -4,7 +4,7 @@ title: NetValidatePasswordPolicyFree function
 author: windows-sdk-content
 description: The NetValidatePasswordPolicyFree function frees the memory that the NetValidatePasswordPolicy function allocates for the OutputArg parameter, which is a NET_VALIDATE_OUTPUT_ARG structure.
 old-location: netmgmt\netvalidatepasswordpolicyfree.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 263834cd-a0e2-4ec0-9cb1-c03eb198de3a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

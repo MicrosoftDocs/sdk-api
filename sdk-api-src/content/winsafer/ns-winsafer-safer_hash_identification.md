@@ -4,7 +4,7 @@ title: SAFER_HASH_IDENTIFICATION
 author: windows-sdk-content
 description: Represents a hash identification rule.
 old-location: security\safer_hash_identification.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 68b4b5f5-8220-4180-8243-b6f1fd7826bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

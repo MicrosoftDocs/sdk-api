@@ -4,7 +4,7 @@ title: IVdsVolumeMF::Format
 author: windows-sdk-content
 description: Formats a file system on the current volume.
 old-location: base\ivdsvolumemf_format.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8203ac16-99af-4962-bafc-12c0d238d062
 ms.author: windowssdkdev
 ms.date: 12/5/2018

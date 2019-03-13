@@ -4,7 +4,7 @@ title: IWSDEndpointProxy::AbortAsyncOperation
 author: windows-sdk-content
 description: Aborts a pending asynchronous operation.
 old-location: ncd\iwsdendpointproxy_abortasyncoperation.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 559c7fcd-9652-4dfa-b22a-45929b6aee14
 ms.author: windowssdkdev
 ms.date: 12/5/2018

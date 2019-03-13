@@ -4,7 +4,7 @@ title: VDS_HBAPORT_STATUS
 author: windows-sdk-content
 description: Defines the set of valid statuses for an HBA port.
 old-location: base\vds_hbaport_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 67ef9025-c929-476b-8644-7e085dff91c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

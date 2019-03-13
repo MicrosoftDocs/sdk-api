@@ -4,7 +4,7 @@ title: NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 author: windows-sdk-content
 description: A client application passes the NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password reset validation.
 old-location: netmgmt\net_validate_password_reset_input_arg.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3a6d4c2d-0d90-48bf-9dfa-2ba587538350
 ms.author: windowssdkdev
 ms.date: 12/5/2018

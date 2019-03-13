@@ -4,7 +4,7 @@ title: NetGetAnyDCName function
 author: windows-sdk-content
 description: The NetGetAnyDCName function returns the name of any domain controller (DC) for a domain that is directly trusted by the specified server.
 old-location: netmgmt\netgetanydcname.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 64dacbf4-46c2-4f82-b250-b7d338535e7c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

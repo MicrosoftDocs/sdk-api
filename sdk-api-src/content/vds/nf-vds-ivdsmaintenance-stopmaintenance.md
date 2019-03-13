@@ -4,7 +4,7 @@ title: IVdsMaintenance::StopMaintenance
 author: windows-sdk-content
 description: Stops a maintenance operation.
 old-location: base\ivdsmaintenance_stopmaintenance.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 542f84d7-eb97-4738-b7c0-1c95bc5e063c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

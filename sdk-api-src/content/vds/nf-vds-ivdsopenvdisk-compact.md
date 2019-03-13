@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::Compact
 author: windows-sdk-content
 description: Compacts the virtual disk to reduce the physical size of the backing file.
 old-location: base\ivdsopenvdisk_compact.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 011adaae-3a17-4643-ae8d-400753019c83
 ms.author: windowssdkdev
 ms.date: 12/5/2018

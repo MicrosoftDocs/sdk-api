@@ -4,7 +4,7 @@ title: IWSDMessageParameters::GetLocalAddress
 author: windows-sdk-content
 description: Retrieves the generic address object representing the local address that received the message.
 old-location: ncd\iwsdmessageparameters_getlocaladdress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.author: windowssdkdev
 ms.date: 12/5/2018

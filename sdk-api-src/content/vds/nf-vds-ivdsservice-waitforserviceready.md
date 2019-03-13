@@ -4,7 +4,7 @@ title: IVdsService::WaitForServiceReady
 author: windows-sdk-content
 description: Waits for VDS initialization to complete and returns the status of the VDS initialization.
 old-location: base\ivdsservice_waitforserviceready.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 85075abe-7fac-40aa-a93e-19d89c0fd760
 ms.author: windowssdkdev
 ms.date: 12/5/2018

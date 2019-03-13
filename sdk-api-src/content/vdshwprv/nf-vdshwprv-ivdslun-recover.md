@@ -4,7 +4,7 @@ title: IVdsLun::Recover
 author: windows-sdk-content
 description: Starts a recovery operation on a LUN.
 old-location: base\ivdslun_recover.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 406da360-9aa8-42df-8918-da72b22ce3b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

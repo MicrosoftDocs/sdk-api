@@ -4,7 +4,7 @@ title: IWSDTransportAddress::SetTransportAddress
 author: windows-sdk-content
 description: Sets the string representation of the transport address.
 old-location: ncd\iwsdtransportaddress_settransportaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: ea87b7d8-71c0-4cb6-b28b-7ac8f2417886
 ms.author: windowssdkdev
 ms.date: 12/5/2018

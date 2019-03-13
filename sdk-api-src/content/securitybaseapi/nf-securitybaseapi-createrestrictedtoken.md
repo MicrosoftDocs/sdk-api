@@ -96,7 +96,7 @@ Disables all privileges in the new token except the <b>SeChangeNotifyPrivilege</
 </dl>
 </td>
 <td width="60%">
-If this value is used, the system does not check <a href=" http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules  or apply <a href="http://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a>. For <a href=" http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL.
+If this value is used, the system does not check <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules  or apply <a href="http://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a>. For <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL.
 
 When creating a setup program that must run extracted DLLs during installation, use the flag <b>SAFER_TOKEN_MAKE_INERT</b> in the <a href="https://msdn.microsoft.com/39406331-3101-48f2-8b92-e049849b2b38">SaferComputeTokenFromLevel</a> function.
 

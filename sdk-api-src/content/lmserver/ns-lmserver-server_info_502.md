@@ -4,7 +4,7 @@ title: SERVER_INFO_502
 author: windows-sdk-content
 description: The SERVER_INFO_502 structure is obsolete. The structure contains information about a specified server.
 old-location: netmgmt\server_info_502_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 97657dff-7bd1-4108-934b-8203f41b3742
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVER_INFO_1515
 author: windows-sdk-content
 description: The SERVER_INFO_1515 structure specifies whether the server should force a client to disconnect once the client's logon time has expired.
 old-location: netmgmt\server_info_1515_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: f9aa8580-47c6-4e3e-9e34-dc90cd5178ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

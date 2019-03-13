@@ -4,7 +4,7 @@ title: PFSCE_QUERY_INFO
 author: windows-sdk-content
 description: Queries service-specific information from the Security Configuration file or analysis database.
 old-location: security\pfsce_query_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: a0e4a205-46d4-47c9-97cf-66f6bec34a1b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

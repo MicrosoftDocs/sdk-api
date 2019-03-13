@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::UnPublish
 author: windows-sdk-content
 description: Announces the departure of a network host by sending a Bye message.
 old-location: ncd\iwsdiscoverypublisher_unpublish_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: ef403d31-769c-499b-a199-089100725ef9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

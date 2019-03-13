@@ -4,7 +4,7 @@ title: IWSDUdpMessageParameters
 author: windows-sdk-content
 description: Use this interface to specify how often WSD repeats the message transmission.
 old-location: ncd\iwsdudpmessageparameters.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 3af6e0ff-c0b9-47af-b018-37567f614adc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

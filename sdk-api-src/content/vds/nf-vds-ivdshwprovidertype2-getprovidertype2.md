@@ -4,7 +4,7 @@ title: IVdsHwProviderType2::GetProviderType2
 author: windows-sdk-content
 description: Retrieves the type of the hardware provider.
 old-location: base\ivdshwprovidertype2_getprovidertype2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9a75e6af-fd3d-4770-bc6d-31ad4d995eee
 ms.author: windowssdkdev
 ms.date: 12/5/2018

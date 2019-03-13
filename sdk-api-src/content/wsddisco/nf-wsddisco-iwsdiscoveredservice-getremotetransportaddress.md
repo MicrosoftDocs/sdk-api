@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetRemoteTransportAddress
 author: windows-sdk-content
 description: Retrieves the string representation of the remote transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getremotetransportaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 15376e12-fd7c-4cf5-a950-bf492392afa3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

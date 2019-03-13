@@ -4,7 +4,7 @@ title: LSA_TRUST_INFORMATION
 author: windows-sdk-content
 description: Identifies a domain.
 old-location: security\lsa_trust_information.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 2b5e6f79-b97a-4018-a45a-37c300c3dc0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

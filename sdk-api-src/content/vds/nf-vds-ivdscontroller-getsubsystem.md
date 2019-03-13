@@ -4,7 +4,7 @@ title: IVdsController::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem to which the controller belongs.
 old-location: base\ivdscontroller_getsubsystem.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8635d594-b58a-4ee1-9966-1340d954da81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

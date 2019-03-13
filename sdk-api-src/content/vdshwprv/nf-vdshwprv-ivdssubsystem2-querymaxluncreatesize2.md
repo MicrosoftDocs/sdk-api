@@ -4,7 +4,7 @@ title: IVdsSubSystem2::QueryMaxLunCreateSize2
 author: windows-sdk-content
 description: Returns the size of the maximum LUN that can be created using the specified LUN type and hints.
 old-location: base\ivdssubsystem2_querymaxluncreatesize2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6cd892d2-f1b0-40cd-b037-5c670da3b32f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

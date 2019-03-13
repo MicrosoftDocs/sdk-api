@@ -4,7 +4,7 @@ title: IVdsMaintenance::StartMaintenance
 author: windows-sdk-content
 description: Starts a maintenance operation.
 old-location: base\ivdsmaintenance_startmaintenance.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8d2e1022-ae79-4f71-a488-2c86b43b2a7f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: TRUSTED_DOMAIN_FULL_INFORMATION
 author: windows-sdk-content
 description: Used to retrieve complete information about a trusted domain.
 old-location: security\trusted_domain_full_information.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: b7abfe1e-d9e6-4583-a738-c16190ffd44d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

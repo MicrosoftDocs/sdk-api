@@ -4,7 +4,7 @@ title: IWSDDeviceHost::RegisterService
 author: windows-sdk-content
 description: Registers a service object for incoming requests and adds the service to the device host metadata.
 old-location: ncd\iwsddevicehost_registerservice_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 8e125e72-4060-4be6-b370-b2f6b24d9da7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

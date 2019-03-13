@@ -4,7 +4,7 @@ title: VDS_PROVIDER_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for a provider.
 old-location: base\vds_provider_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a794e054-1389-4b54-9ad3-eb32b9dd0a5b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

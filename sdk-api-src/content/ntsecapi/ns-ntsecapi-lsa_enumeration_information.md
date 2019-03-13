@@ -4,7 +4,7 @@ title: LSA_ENUMERATION_INFORMATION
 author: windows-sdk-content
 description: The LSA_ENUMERATION_INFORMATION structure is used with the LsaEnumerateAccountsWithUserRight function to return a pointer to a SID.
 old-location: security\lsa_enumeration_information.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 7577548f-3ceb-43a5-b447-6f66a09963fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

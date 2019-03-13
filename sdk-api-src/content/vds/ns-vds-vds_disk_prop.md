@@ -4,7 +4,7 @@ title: VDS_DISK_PROP
 author: windows-sdk-content
 description: Defines the properties of a disk object.
 old-location: base\vds_disk_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c7c09f95-9489-46fd-8b03-cabdee4521cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

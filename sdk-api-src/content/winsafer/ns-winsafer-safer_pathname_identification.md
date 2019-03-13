@@ -4,7 +4,7 @@ title: SAFER_PATHNAME_IDENTIFICATION
 author: windows-sdk-content
 description: Represents a path identification rule.
 old-location: security\safer_pathname_identification.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: d845a750-2931-4c17-be78-92843e2bd76f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

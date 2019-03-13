@@ -4,7 +4,7 @@ title: IWSDScopeMatchingRule::GetScopeRule
 author: windows-sdk-content
 description: Is called to return a URI defining the implemented scope matching rule.
 old-location: ncd\iwsdscopematchingrule_getscoperule_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

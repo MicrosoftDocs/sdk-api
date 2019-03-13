@@ -4,7 +4,7 @@ title: USER_INFO_1009
 author: windows-sdk-content
 description: The USER_INFO_1009 structure contains the path for a user's logon script file. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1009_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: baaabbf9-9571-49db-bf38-a3fc2d0a200a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

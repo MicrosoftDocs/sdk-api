@@ -4,7 +4,7 @@ title: WSD_PROBE
 author: windows-sdk-content
 description: Represents a Probe message.
 old-location: ncd\wsd_probe_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f84f7e77-ffe2-41af-a10f-a626466e9847
 ms.author: windowssdkdev
 ms.date: 12/5/2018

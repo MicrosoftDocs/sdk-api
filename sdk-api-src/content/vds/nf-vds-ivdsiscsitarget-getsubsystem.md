@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem to which the target belongs.
 old-location: base\ivdsiscsitarget_getsubsystem.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c9feb332-1b30-4de8-ac30-79fe53750d8c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

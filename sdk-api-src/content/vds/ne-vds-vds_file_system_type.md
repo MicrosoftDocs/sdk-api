@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for a file system.
 old-location: base\vds_file_system_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 56f2d969-eb1c-44c2-8a12-077a02ae40dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

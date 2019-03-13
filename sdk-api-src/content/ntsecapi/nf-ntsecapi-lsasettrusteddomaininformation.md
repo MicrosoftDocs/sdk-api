@@ -4,7 +4,7 @@ title: LsaSetTrustedDomainInformation function
 author: windows-sdk-content
 description: The LsaSetTrustedDomainInformation function modifies a Policy object's information about a trusted domain.
 old-location: security\lsasettrusteddomaininformation.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: a7b89ea7-af92-46ba-ac73-2fba1cc27680
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_LUN_PLEX_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for a LUN plex.
 old-location: base\vds_lun_plex_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 06aefde9-429b-4a58-923e-c3db6028eeb5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

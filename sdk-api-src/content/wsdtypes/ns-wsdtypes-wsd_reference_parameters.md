@@ -4,7 +4,7 @@ title: WSD_REFERENCE_PARAMETERS
 author: windows-sdk-content
 description: Specifies opaque data that is used by an endpoint.
 old-location: ncd\wsd_reference_parameters_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: add8bda6-b5b1-4026-9900-829ece926670
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsIscsiPortalGroup::RemovePortal
 author: windows-sdk-content
 description: Removes a portal from a portal group.
 old-location: base\ivdsiscsiportalgroup_removeportal.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 462562f5-69c2-413d-9cdf-f9e1176f5c20
 ms.author: windowssdkdev
 ms.date: 12/5/2018

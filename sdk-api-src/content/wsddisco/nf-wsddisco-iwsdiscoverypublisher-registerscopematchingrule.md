@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::RegisterScopeMatchingRule
 author: windows-sdk-content
 description: Adds support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_registerscopematchingrule_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 3ceb55de-c8be-43a7-93d7-8f674f9645ef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

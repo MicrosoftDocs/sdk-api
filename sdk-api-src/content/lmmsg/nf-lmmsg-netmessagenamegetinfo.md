@@ -4,7 +4,7 @@ title: NetMessageNameGetInfo function
 author: windows-sdk-content
 description: The NetMessageNameGetInfo function retrieves information about a particular message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenamegetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 72129865-2aee-41d5-8a89-53bb815a7f63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SAFER_URLZONE_IDENTIFICATION
 author: windows-sdk-content
 description: Represents a URL zone identification rule.
 old-location: security\safer_urlzone_identification.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 8f165956-9ef0-469e-a71b-f9341a347e59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

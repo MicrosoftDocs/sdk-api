@@ -4,7 +4,7 @@ title: IWSDSignatureProperty::GetSignedInfoHash
 author: windows-sdk-content
 description: Gets the hash of a message signature.
 old-location: ncd\iwsdsignatureproperty_getsignedinfohash.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 95e34e7a-18d1-4402-bfd2-5f73d663c181
 ms.author: windowssdkdev
 ms.date: 12/5/2018

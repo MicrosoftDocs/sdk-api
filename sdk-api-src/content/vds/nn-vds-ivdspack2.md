@@ -4,7 +4,7 @@ title: IVdsPack2
 author: windows-sdk-content
 description: Provides a method to create aligned volumes on a pack.
 old-location: base\ivdspack2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b0124293-693d-412a-a97f-d0dae05a3bfc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

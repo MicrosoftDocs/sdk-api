@@ -4,7 +4,7 @@ title: IVdsService::Refresh
 author: windows-sdk-content
 description: Refreshes disk-ownership and disk-layout information.
 old-location: base\ivdsservice_refresh.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ca6a1143-b5f0-49e5-8505-836c565aabcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

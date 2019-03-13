@@ -4,7 +4,7 @@ title: IVdsSubSystem::CreateLun
 author: windows-sdk-content
 description: Creates a logical unit number (LUN).
 old-location: base\ivdssubsystem_createlun.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e8097364-1f23-4cda-8f12-a750bbb4eb4c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

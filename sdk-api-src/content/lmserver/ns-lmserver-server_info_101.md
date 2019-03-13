@@ -4,7 +4,7 @@ title: SERVER_INFO_101
 author: windows-sdk-content
 description: The SERVER_INFO_101 structure contains information about the specified server, including name, platform, type of server, and associated software.
 old-location: netmgmt\server_info_101_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 6e106a51-9f0c-4603-8121-5b0d01a235b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

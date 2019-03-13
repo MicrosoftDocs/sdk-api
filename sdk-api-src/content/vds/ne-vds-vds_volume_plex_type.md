@@ -4,7 +4,7 @@ title: VDS_VOLUME_PLEX_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for a volume plex.
 old-location: base\vds_volume_plex_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b0cd0418-35fa-40ff-964b-154c7f01f4df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

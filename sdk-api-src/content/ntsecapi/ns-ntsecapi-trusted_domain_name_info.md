@@ -4,7 +4,7 @@ title: TRUSTED_DOMAIN_NAME_INFO
 author: windows-sdk-content
 description: Used to query or set the name of a trusted domain.
 old-location: security\trusted_domain_name_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 9bc1301b-1d09-4cd2-8590-e7756ee4792d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

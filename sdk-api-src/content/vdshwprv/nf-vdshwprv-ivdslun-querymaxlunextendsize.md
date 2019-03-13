@@ -4,7 +4,7 @@ title: IVdsLun::QueryMaxLunExtendSize
 author: windows-sdk-content
 description: Returns the maximum size by which a LUN can be extended.
 old-location: base\ivdslun_querymaxlunextendsize.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ac30de71-7a2e-4a65-a37b-34a0d01ca645
 ms.author: windowssdkdev
 ms.date: 12/5/2018

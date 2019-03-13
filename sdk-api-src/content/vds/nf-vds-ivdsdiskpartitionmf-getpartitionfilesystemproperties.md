@@ -4,7 +4,7 @@ title: IVdsDiskPartitionMF::GetPartitionFileSystemProperties
 author: windows-sdk-content
 description: Returns property details about the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1b49ffba-00df-4d8f-a90f-5e26a5c898dd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

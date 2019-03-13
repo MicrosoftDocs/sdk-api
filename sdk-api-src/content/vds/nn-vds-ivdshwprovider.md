@@ -4,7 +4,7 @@ title: IVdsHwProvider
 author: windows-sdk-content
 description: Provides methods for performing query, reenumeration, and refresh operations on a hardware provider.
 old-location: base\ivdshwprovider.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ff90875d-f437-4236-a13f-d55a83b778b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

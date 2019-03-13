@@ -4,7 +4,7 @@ title: SaferGetLevelInformation function
 author: windows-sdk-content
 description: Retrieves information about a policy level.
 old-location: security\safergetlevelinformation.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: cbe73ebc-bf2c-4d39-a203-78ff1a407481
 ms.author: windowssdkdev
 ms.date: 12/5/2018

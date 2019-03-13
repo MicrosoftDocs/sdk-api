@@ -4,7 +4,7 @@ title: VDS_ISCSI_SHARED_SECRET
 author: windows-sdk-content
 description: Defines a CHAP shared secret.
 old-location: base\vds_iscsi_shared_secret.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: eab1e2f4-b14e-4336-9b83-5dd7089da2d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

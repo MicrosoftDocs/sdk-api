@@ -4,7 +4,7 @@ title: SERVER_INFO_1541
 author: windows-sdk-content
 description: The SERVER_INFO_1541 structure specifies the minimum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.
 old-location: netmgmt\server_info_1541_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 22ae4f90-822b-4594-8484-893630f6b680
 ms.author: windowssdkdev
 ms.date: 12/5/2018

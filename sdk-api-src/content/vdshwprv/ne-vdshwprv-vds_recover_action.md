@@ -4,7 +4,7 @@ title: VDS_RECOVER_ACTION
 author: windows-sdk-content
 description: This enumeration is reserved for system use.
 old-location: base\vds_recover_action.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 478c133b-36f3-426c-a1b3-5691e312ce5a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

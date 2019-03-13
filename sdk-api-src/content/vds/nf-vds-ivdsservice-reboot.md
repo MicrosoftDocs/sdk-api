@@ -4,7 +4,7 @@ title: IVdsService::Reboot
 author: windows-sdk-content
 description: Restarts the computer hosting the provider.
 old-location: base\ivdsservice_reboot.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c22be0a5-d7ed-4f76-961d-2455ca99f220
 ms.author: windowssdkdev
 ms.date: 12/5/2018

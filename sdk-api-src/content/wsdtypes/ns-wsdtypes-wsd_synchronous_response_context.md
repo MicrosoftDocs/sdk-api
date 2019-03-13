@@ -4,7 +4,7 @@ title: WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 author: windows-sdk-content
 description: Provides a context for handling the response to a two-way request.
 old-location: ncd\wsd_synchronous_response_context_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 591cf076-f55f-4e78-aa5e-94ea8db3d102
 ms.author: windowssdkdev
 ms.date: 12/5/2018

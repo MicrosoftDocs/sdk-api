@@ -4,7 +4,7 @@ title: NetLocalGroupAddMembers function
 author: windows-sdk-content
 description: The NetLocalGroupAddMembers function adds membership of one or more existing user accounts or global group accounts to an existing local group.
 old-location: netmgmt\netlocalgroupaddmembers.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsIscsiInitiatorPortal::GetProperties
 author: windows-sdk-content
 description: Returns the properties of an initiator portal.
 old-location: base\ivdsiscsiinitiatorportal_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7bf00853-ca26-40b4-a09a-dcb5e7e08f49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

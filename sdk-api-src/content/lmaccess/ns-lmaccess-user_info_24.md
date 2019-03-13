@@ -4,7 +4,7 @@ title: USER_INFO_24
 author: windows-sdk-content
 description: Contains user account information on an account which is connected to an Internet identity. This information includes the Internet provider name for the user, the user's Internet name, and the user's security identifier (SID).
 old-location: netmgmt\user_info_24.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: CE65EDE0-F4AE-4582-9D7F-6667BBA98C75
 ms.author: windowssdkdev
 ms.date: 12/5/2018

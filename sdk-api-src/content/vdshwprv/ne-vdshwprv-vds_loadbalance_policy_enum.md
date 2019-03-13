@@ -4,7 +4,7 @@ title: VDS_LOADBALANCE_POLICY_ENUM
 author: windows-sdk-content
 description: Defines a set of valid load balance policies for a path.
 old-location: base\vds_loadbalance_policy_enum.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0391c605-3808-4c24-8638-77b1fe3342bf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

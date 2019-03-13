@@ -4,7 +4,7 @@ title: IVdsRemovable::Eject
 author: windows-sdk-content
 description: Ejects the media from the current device.
 old-location: base\ivdsremovable_eject.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c77885bd-67af-41c1-9190-e0148c7b7ed5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

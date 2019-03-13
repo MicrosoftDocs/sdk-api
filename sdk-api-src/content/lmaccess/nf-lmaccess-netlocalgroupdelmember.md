@@ -4,7 +4,7 @@ title: NetLocalGroupDelMember function
 author: windows-sdk-content
 description: The NetLocalGroupDelMember function is obsolete. You should use the NetLocalGroupDelMembers function instead.
 old-location: netmgmt\netlocalgroupdelmember.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4a231da6-904e-4b49-9855-03e004a0b695
 ms.author: windowssdkdev
 ms.date: 12/5/2018

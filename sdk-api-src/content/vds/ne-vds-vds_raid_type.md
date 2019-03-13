@@ -4,7 +4,7 @@ title: VDS_RAID_TYPE
 author: windows-sdk-content
 description: Defines the set enumeration values that can be used to specify the underlying RAID type of a storage pool.
 old-location: base\vds_raid_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c818d8f4-5ae5-4e40-91b9-a4405524066c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

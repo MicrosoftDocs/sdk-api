@@ -4,7 +4,7 @@ title: GROUP_INFO_1002
 author: windows-sdk-content
 description: The GROUP_INFO_1002 structure contains a comment to associate with a global group.
 old-location: netmgmt\group_info_1002_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 9c322ef5-4f98-44ad-8b57-40f8533eb9c1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

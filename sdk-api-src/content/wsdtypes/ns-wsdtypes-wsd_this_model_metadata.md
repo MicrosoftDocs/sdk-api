@@ -4,7 +4,7 @@ title: WSD_THIS_MODEL_METADATA
 author: windows-sdk-content
 description: Provides model-specific information relating to the device.
 old-location: ncd\wsd_this_model_metadata_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 614daaeb-76ac-4dec-93fe-f413164d5330
 ms.author: windowssdkdev
 ms.date: 12/5/2018

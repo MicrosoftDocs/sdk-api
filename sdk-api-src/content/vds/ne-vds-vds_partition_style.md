@@ -4,7 +4,7 @@ title: VDS_PARTITION_STYLE
 author: windows-sdk-content
 description: Defines the set of partition style values.
 old-location: base\vds_partition_style.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 31b7f0b3-cc3c-48e7-a4f0-628f0185f3cb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

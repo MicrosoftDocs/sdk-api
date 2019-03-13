@@ -4,7 +4,7 @@ title: IVdsProviderPrivate::OnUnload
 author: windows-sdk-content
 description: Prompts the provider object to uninitialize itself.
 old-location: base\ivdsproviderprivate_onunload.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8c4b2a0b-f056-4d3f-976c-0339c930e3cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

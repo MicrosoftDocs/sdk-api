@@ -4,7 +4,7 @@ title: ISceSvcAttachmentData
 author: windows-sdk-content
 description: The ISceSvcAttachmentData interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.
 old-location: security\iscesvcattachmentdata.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

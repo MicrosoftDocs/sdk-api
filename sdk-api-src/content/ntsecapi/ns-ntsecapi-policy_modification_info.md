@@ -4,7 +4,7 @@ title: POLICY_MODIFICATION_INFO
 author: windows-sdk-content
 description: The POLICY_MODIFICATION_INFO structure is used to query information about the creation time and last modification of the LSA database.
 old-location: security\policy_modification_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87
 ms.author: windowssdkdev
 ms.date: 12/5/2018

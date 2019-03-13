@@ -4,7 +4,7 @@ title: IWSDAttachment
 author: windows-sdk-content
 description: Is the base interface for all other attachment types.
 old-location: ncd\iwsdattachment.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 9acbbca2-9b43-4bed-8917-be99f13fce13
 ms.author: windowssdkdev
 ms.date: 12/5/2018

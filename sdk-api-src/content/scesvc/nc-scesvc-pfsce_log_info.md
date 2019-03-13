@@ -4,7 +4,7 @@ title: PFSCE_LOG_INFO
 author: windows-sdk-content
 description: Logs messages to the configuration log file or analysis log file.
 old-location: security\pfsce_log_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 8960b0c0-abde-4ea1-bbe4-7409a848d81b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

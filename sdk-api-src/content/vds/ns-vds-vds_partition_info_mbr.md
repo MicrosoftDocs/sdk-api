@@ -4,7 +4,7 @@ title: VDS_PARTITION_INFO_MBR
 author: windows-sdk-content
 description: Defines the details of a master boot record (MBR) partition.
 old-location: base\vds_partition_info_mbr.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d14a852f-8a78-4631-a288-476701321ac2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

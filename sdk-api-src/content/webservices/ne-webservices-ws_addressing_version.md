@@ -61,14 +61,14 @@ Identifies the version of the specification used for
 ### -field WS_ADDRESSING_VERSION_0_9
 
 The message addressing headers correspond to version 0.9 (August 2004)
-                    of the addressing specification <a href=" http://go.microsoft.com/fwlink/p/?linkid=139712">Web Services Addressing (WS-Addressing)</a>.
+                    of the addressing specification <a href="http://go.microsoft.com/fwlink/p/?linkid=139712">Web Services Addressing (WS-Addressing)</a>.
                 
 
 
 ### -field WS_ADDRESSING_VERSION_1_0
 
 The message addressing headers correspond to version 1.0 (May 2006)
-                    of the addressing specification <a href=" http://go.microsoft.com/fwlink/p/?linkid=139713">Web Services Addressing 1.0 - Core</a>.
+                    of the addressing specification <a href="http://go.microsoft.com/fwlink/p/?linkid=139713">Web Services Addressing 1.0 - Core</a>.
                 
 
 

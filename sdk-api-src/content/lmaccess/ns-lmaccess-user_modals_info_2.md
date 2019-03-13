@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_2
 author: windows-sdk-content
 description: The USER_MODALS_INFO_2 structure contains the Security Account Manager (SAM) domain name and identifier.
 old-location: netmgmt\user_modals_info_2_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 9a4b3fc1-03b5-4ba7-948f-e455c34fa234
 ms.author: windowssdkdev
 ms.date: 12/5/2018

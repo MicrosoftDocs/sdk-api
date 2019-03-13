@@ -4,7 +4,7 @@ title: STD_ALERT
 author: windows-sdk-content
 description: The STD_ALERT structure contains the time and date when a significant event occurred.
 old-location: netmgmt\std_alert_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: daa4594f-e59e-4f05-8183-677bee4ea446
 ms.author: windowssdkdev
 ms.date: 12/5/2018

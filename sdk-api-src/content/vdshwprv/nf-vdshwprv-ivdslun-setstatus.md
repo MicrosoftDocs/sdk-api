@@ -4,7 +4,7 @@ title: IVdsLun::SetStatus
 author: windows-sdk-content
 description: Sets the status of the LUN to the specified value.
 old-location: base\ivdslun_setstatus.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a293f129-5238-405a-ba56-bf53ac4ab1d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

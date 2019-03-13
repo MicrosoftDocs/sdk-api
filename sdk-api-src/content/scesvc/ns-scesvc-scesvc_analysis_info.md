@@ -4,7 +4,7 @@ title: SCESVC_ANALYSIS_INFO
 author: windows-sdk-content
 description: Contains the analysis information.
 old-location: security\scesvc_analysis_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 4f0273df-435d-4324-b8ce-a774da935059
 ms.author: windowssdkdev
 ms.date: 12/5/2018

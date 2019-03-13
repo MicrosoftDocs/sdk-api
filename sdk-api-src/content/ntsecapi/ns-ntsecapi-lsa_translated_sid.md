@@ -4,7 +4,7 @@ title: LSA_TRANSLATED_SID
 author: windows-sdk-content
 description: Used with the LsaLookupNames function to return information about the SID that identifies an account.
 old-location: security\lsa_translated_sid.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 1fa8fb74-3e61-4982-aa6b-a0ffe979abd4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IEnumVdsObject::Next
 author: windows-sdk-content
 description: Returns a specified number of objects in the enumeration, beginning from the current point. For more information, see Working with Enumeration Objects.
 old-location: base\ienumvdsobject_next.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 372eff29-7481-45aa-ad66-73147f7a631f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

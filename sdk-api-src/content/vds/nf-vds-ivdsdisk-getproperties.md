@@ -4,7 +4,7 @@ title: IVdsDisk::GetProperties
 author: windows-sdk-content
 description: Returns property information for a disk.
 old-location: base\ivdsdisk_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d2046a26-852d-46b2-b060-98b4a2a92387
 ms.author: windowssdkdev
 ms.date: 12/5/2018

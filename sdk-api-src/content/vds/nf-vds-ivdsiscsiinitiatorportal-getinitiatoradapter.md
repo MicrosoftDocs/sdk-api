@@ -4,7 +4,7 @@ title: IVdsIscsiInitiatorPortal::GetInitiatorAdapter
 author: windows-sdk-content
 description: Returns the initiator adapter to which the initiator portal belongs.
 old-location: base\ivdsiscsiinitiatorportal_getinitiatoradapter.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: fcdd2083-36e0-4924-9af0-87a9fe4711e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

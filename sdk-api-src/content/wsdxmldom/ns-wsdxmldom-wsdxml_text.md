@@ -4,7 +4,7 @@ title: WSDXML_TEXT
 author: windows-sdk-content
 description: Describes the text in an XML node.
 old-location: ncd\wsdxml_text_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 44b24ddb-b669-43d0-b8db-0a24f7d020d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

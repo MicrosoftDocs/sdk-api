@@ -4,7 +4,7 @@ title: USER_INFO_1011
 author: windows-sdk-content
 description: The USER_INFO_1011 structure contains the full name of a network user. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1011_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: f60075b4-19c5-4998-b8c3-61e960e76035
 ms.author: windowssdkdev
 ms.date: 12/5/2018

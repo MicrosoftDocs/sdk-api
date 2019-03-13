@@ -4,7 +4,7 @@ title: POLICY_PRIMARY_DOMAIN_INFO
 author: windows-sdk-content
 description: The PolicyPrimaryDomainInformation value and POLICY_PRIMARY_DOMAIN_INFO structure are obsolete. Use the PolicyDnsDomainInformation and POLICY_DNS_DOMAIN_INFO structure instead.
 old-location: security\policy_primary_domain_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 20102da1-bc05-4ea5-9a2d-a50ecba5fd88
 ms.author: windowssdkdev
 ms.date: 12/5/2018

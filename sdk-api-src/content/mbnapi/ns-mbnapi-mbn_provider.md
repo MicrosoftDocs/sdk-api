@@ -58,7 +58,7 @@ The <b>MBN_PROVIDER</b> structure represents a network service provider.  It is 
 
 ### -field providerID
 
-Contains the provider ID.  For GSM networks, this string is a concatenation of a 3-digit mobile country code (MCC) and a 2- or 3-digit mobile network code (MNC).  For CDMA networks, this string is a 5-digit SID.  The maximum length of this string is defined by <b>MBN_PROVIDERID_LEN</b> from <a href="https://msdn.microsoft.com/1cfe230c-16b5-490d-938f-604489a4a936">MBN_PROVIDER_CONSTANTS</a>.  The caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the provider ID.  For GSM networks, this string is a concatenation of a 3-digit mobile country code (MCC) and a 2- or 3-digit mobile network code (MNC).  For CDMA networks, this string is a 5-digit SID.  The maximum length of this string is defined by <b>MBN_PROVIDERID_LEN</b> from <a href="https://msdn.microsoft.com/1cfe230c-16b5-490d-938f-604489a4a936">MBN_PROVIDER_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field providerState
@@ -68,7 +68,7 @@ Contains a bitwise OR combination of <a href="https://msdn.microsoft.com/c9bbda5
 
 ### -field providerName
 
-Contains the provider name.  The contents of this member should be ignored when setting the preferred provider list.  The maximum length of this string is defined by <b>MBN_PROVIDERNAME_LEN</b> from <a href="https://msdn.microsoft.com/1cfe230c-16b5-490d-938f-604489a4a936">MBN_PROVIDER_CONSTANTS</a>.  The string can be empty.  The caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.  
+Contains the provider name.  The contents of this member should be ignored when setting the preferred provider list.  The maximum length of this string is defined by <b>MBN_PROVIDERNAME_LEN</b> from <a href="https://msdn.microsoft.com/1cfe230c-16b5-490d-938f-604489a4a936">MBN_PROVIDER_CONSTANTS</a>.  The string can be empty.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.  
 
 
 ### -field dataClass

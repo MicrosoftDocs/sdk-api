@@ -4,7 +4,7 @@ title: USE_INFO_0
 author: windows-sdk-content
 description: The USE_INFO_0 structure contains the name of a shared resource and the local device redirected to it.
 old-location: netmgmt\use_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 86db3f19-84c5-4e89-82cb-f01d17dcf4ec
 ms.author: windowssdkdev
 ms.date: 12/5/2018

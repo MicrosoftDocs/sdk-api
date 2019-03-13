@@ -4,7 +4,7 @@ title: NetUserModalsSet function
 author: windows-sdk-content
 description: The NetUserModalsSet function sets global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netusermodalsset.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 9884e076-ee6a-4aca-abe6-a79754667759
 ms.author: windowssdkdev
 ms.date: 12/5/2018

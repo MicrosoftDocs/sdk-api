@@ -4,7 +4,7 @@ title: IVdsVolumeMF::GetFileSystemProperties
 author: windows-sdk-content
 description: Returns property details about the file system on the current volume.
 old-location: base\ivdsvolumemf_getfilesystemproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 43f5495c-5a60-44fd-b217-16464c4693a4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

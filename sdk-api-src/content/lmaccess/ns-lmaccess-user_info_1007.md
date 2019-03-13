@@ -4,7 +4,7 @@ title: USER_INFO_1007
 author: windows-sdk-content
 description: The USER_INFO_1007 structure contains a comment associated with a user network account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1007_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: a2e49802-799d-4f98-aa6d-5cb1478cb4d4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

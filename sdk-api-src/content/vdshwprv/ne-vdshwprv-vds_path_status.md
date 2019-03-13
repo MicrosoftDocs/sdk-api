@@ -4,7 +4,7 @@ title: VDS_PATH_STATUS
 author: windows-sdk-content
 description: Defines the set of valid status values for a port.
 old-location: base\vds_path_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f0682db1-9058-4514-abb2-c10b936d4f41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

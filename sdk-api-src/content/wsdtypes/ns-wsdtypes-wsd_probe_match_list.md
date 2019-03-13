@@ -4,7 +4,7 @@ title: WSD_PROBE_MATCH_LIST
 author: windows-sdk-content
 description: Represents a node in a single-linked list of ProbeMatch message structures.
 old-location: ncd\wsd_probe_match_list_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: b7922300-1dc7-487f-b703-736cb0393f17
 ms.author: windowssdkdev
 ms.date: 12/5/2018

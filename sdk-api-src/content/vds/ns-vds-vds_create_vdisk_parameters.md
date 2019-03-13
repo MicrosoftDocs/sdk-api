@@ -4,7 +4,7 @@ title: VDS_CREATE_VDISK_PARAMETERS
 author: windows-sdk-content
 description: Contains the parameters to be used when a virtual disk is created.
 old-location: base\vds_create_vdisk_parameters.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7ee830d5-6392-4e66-a8bb-2fd92c1e092c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

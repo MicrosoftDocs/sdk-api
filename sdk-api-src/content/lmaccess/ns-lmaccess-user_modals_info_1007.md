@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_1007
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1007 structure contains domain controller information.
 old-location: netmgmt\user_modals_info_1007_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: aa6425eb-576c-4f6f-b9c9-96d9535bc7d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsControllerControllerPort
 author: windows-sdk-content
 description: Provides a method to enumerate controller ports for a class implementing the IVdsController interface. This is needed to support MPIO.
 old-location: base\ivdscontrollercontrollerport.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 15b09f97-c729-4687-a62c-dac57661f8c0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::QueryAssociatedLuns
 author: windows-sdk-content
 description: Returns a enumeration of the LUNs associated with the target.
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDAsyncResult::GetEvent
 author: windows-sdk-content
 description: Retrieves a WSD_EVENT structure that contains the result of the event.
 old-location: ncd\iwsdasyncresult_getevent_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: de201c8b-9052-42f9-b95d-3b65cf0c86a3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

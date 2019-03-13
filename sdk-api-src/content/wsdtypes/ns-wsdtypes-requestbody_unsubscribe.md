@@ -4,7 +4,7 @@ title: REQUESTBODY_Unsubscribe
 author: windows-sdk-content
 description: Represents a WS-Eventing Unsubscribe request message.
 old-location: ncd\requestbody_unsubscribe_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 4032fe2b-1fd4-4e6d-998d-3fb80a5b906f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: CHANGE_PARTITION_TYPE_PARAMETERS
 author: windows-sdk-content
 description: Describes parameters to be used when changing a partition's type.
 old-location: base\change_partition_type_parameters.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: bd51c2a6-ab26-4a2f-89f4-431d05f3dd81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

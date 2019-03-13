@@ -4,7 +4,7 @@ title: WSD_EVENTING_DELIVERY_MODE
 author: windows-sdk-content
 description: Represents the delivery mode used in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 6c767642-3b3c-47cb-afd9-c4c005241996
 ms.author: windowssdkdev
 ms.date: 12/5/2018

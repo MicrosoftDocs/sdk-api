@@ -4,7 +4,7 @@ title: IWSDAsyncResult::GetAsyncState
 author: windows-sdk-content
 description: Gets the state of the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
 ms.author: windowssdkdev
 ms.date: 12/5/2018

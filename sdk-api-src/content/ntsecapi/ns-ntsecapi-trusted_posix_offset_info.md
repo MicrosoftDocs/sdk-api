@@ -4,7 +4,7 @@ title: TRUSTED_POSIX_OFFSET_INFO
 author: windows-sdk-content
 description: Used to query or set the value used to generate Posix user and group identifiers.
 old-location: security\trusted_posix_offset_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 0686da5e-43d4-49ac-8c5d-5c56b8d12e50
 ms.author: windowssdkdev
 ms.date: 12/5/2018

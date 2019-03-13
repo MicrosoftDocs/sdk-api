@@ -4,7 +4,7 @@ title: RESPONSEBODY_GetMetadata
 author: windows-sdk-content
 description: Represents a WS-MetadataExchange GetMetadata response message.
 old-location: ncd\responsebody_getmetadata_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 445513a8-5785-4822-bb2e-ec9b7665ac7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

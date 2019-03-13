@@ -4,7 +4,7 @@ title: USE_INFO_3
 author: windows-sdk-content
 description: The USE_INFO_3 structure contains information about a connection between a local computer and a shared resource, including connection type, connection status, user name, domain name, and specific flags that describe connection behavior.
 old-location: netmgmt\use_info_3_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3fb3ad35-f9e5-46ba-b930-fc2ccafd8ee9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

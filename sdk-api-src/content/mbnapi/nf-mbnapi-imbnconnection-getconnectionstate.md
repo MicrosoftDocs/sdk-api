@@ -63,7 +63,7 @@ A pointer to an <a href="https://msdn.microsoft.com/712b9ead-8e38-45b1-8dff-b890
 
 ### -param ProfileName [out, retval]
 
-A pointer to a string that contains the name of the connection profile.  This parameter is valid only when <i>ConnectionState</i> is <b>MBN_ACTIVATION_STATE_ACTIVATED</b>.  When this string is not <b>NULL</b>, the calling application must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+A pointer to a string that contains the name of the connection profile.  This parameter is valid only when <i>ConnectionState</i> is <b>MBN_ACTIVATION_STATE_ACTIVATED</b>.  When this string is not <b>NULL</b>, the calling application must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ## -returns

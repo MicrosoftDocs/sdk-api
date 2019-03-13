@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::DeleteDriveLetter
 author: windows-sdk-content
 description: Deletes a drive letter assigned to an OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_deletedriveletter.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1df6bf7e-0155-463c-85e2-c879557bc044
 ms.author: windowssdkdev
 ms.date: 12/5/2018

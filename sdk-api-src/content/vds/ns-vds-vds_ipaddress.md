@@ -4,7 +4,7 @@ title: VDS_IPADDRESS
 author: windows-sdk-content
 description: Defines an IP address and port.
 old-location: base\vds_ipaddress.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 42e8b161-5e47-4aae-aa23-94b5cacb5698
 ms.author: windowssdkdev
 ms.date: 12/5/2018

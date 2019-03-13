@@ -4,7 +4,7 @@ title: VDS_LUN_PLEX_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a LUN plex object.
 old-location: base\vds_lun_plex_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0258d87c-0270-449e-8e96-2c511c5f7242
 ms.author: windowssdkdev
 ms.date: 12/5/2018

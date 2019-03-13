@@ -4,7 +4,7 @@ title: IVdsCreatePartitionEx::CreatePartitionEx
 author: windows-sdk-content
 description: Creates a partition on a basic disk. This method supersedes the IVdsAdvancedDisk::CreatePartition method.
 old-location: base\ivdscreatepartitionex_createpartitionex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c9ab5a24-b0b3-41cc-a4bf-3619f156008c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

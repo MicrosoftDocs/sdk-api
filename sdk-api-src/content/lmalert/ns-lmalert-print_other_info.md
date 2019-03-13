@@ -4,7 +4,7 @@ title: PRINT_OTHER_INFO
 author: windows-sdk-content
 description: Contains information about a print job.
 old-location: netmgmt\print_other_info_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: f2fd87bc-abde-43c0-b29d-d43cc5f038b8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

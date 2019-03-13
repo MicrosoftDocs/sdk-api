@@ -4,7 +4,7 @@ title: USER_INFO_21
 author: windows-sdk-content
 description: The USER_INFO_21 structure contains a one-way encrypted LAN Manager 2.x-compatible password.
 old-location: netmgmt\user_info_21_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 227e97c5-972e-4d4a-9609-53e60e76d43e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

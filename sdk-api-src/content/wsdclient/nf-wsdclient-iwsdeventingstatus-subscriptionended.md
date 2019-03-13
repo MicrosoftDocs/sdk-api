@@ -4,7 +4,7 @@ title: IWSDEventingStatus::SubscriptionEnded
 author: windows-sdk-content
 description: Called when the device terminated the subscription.
 old-location: ncd\iwsdeventingstatus_subscriptionended.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 4ccb16ed-d7c6-4242-ae53-9e58cecc475b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

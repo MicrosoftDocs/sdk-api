@@ -4,7 +4,7 @@ title: VDS_ISCSI_PORTAL_STATUS
 author: windows-sdk-content
 description: Defines the set of valid status values for an iSCSI portal.
 old-location: base\vds_iscsi_portal_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ae39dfb8-6519-4307-8038-3af670553f51
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_ISCSI_INITIATOR_PORTAL_PROP
 author: windows-sdk-content
 description: Defines the properties of an iSCSI initiator portal.
 old-location: base\vds_iscsi_initiator_portal_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 58fffdb4-71c4-4f84-ad0e-7efe5bdb78a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

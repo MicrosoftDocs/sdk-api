@@ -4,7 +4,7 @@ title: VDS_TRANSITION_STATE
 author: windows-sdk-content
 description: Defines the set of the valid transition state values for a VDS object.
 old-location: base\vds_transition_state.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ef688d1f-136b-4bc8-8209-e30033e752e9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

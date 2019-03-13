@@ -4,7 +4,7 @@ title: VDS_HWPROVIDER_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for a hardware provider.
 old-location: base\vds_hwprovider_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b16cc14b-4aef-43ec-9232-a95de06f1194
 ms.author: windowssdkdev
 ms.date: 12/5/2018

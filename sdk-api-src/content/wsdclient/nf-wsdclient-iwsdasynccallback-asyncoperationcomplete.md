@@ -4,7 +4,7 @@ title: IWSDAsyncCallback::AsyncOperationComplete
 author: windows-sdk-content
 description: Indicates that the asynchronous operation has completed.
 old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f2272d1e-bb12-43cd-a0ae-80530ad25fcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NetRemoveAlternateComputerName function
 author: windows-sdk-content
 description: Removes an alternate name for the specified computer.
 old-location: netmgmt\netremovealternatecomputername.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3c7ab44e-d5fa-40da-83fe-a44bf85b2ba5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsDiskOnline::Offline
 author: windows-sdk-content
 description: Takes the disk offline.Windows Vista:  This method is not supported until Windows Vista with Service Pack 1 (SP1). Use IVdsDisk2::SetSANMode instead.
 old-location: base\ivdsdiskonline_offline.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3f27dd46-2fa1-4522-9d35-db78255c6d11
 ms.author: windowssdkdev
 ms.date: 12/5/2018

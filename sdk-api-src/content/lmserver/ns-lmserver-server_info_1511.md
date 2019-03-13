@@ -4,7 +4,7 @@ title: SERVER_INFO_1511
 author: windows-sdk-content
 description: The SERVER_INFO_1511 structure specifies the maximum number of tree connections that users can make with a single virtual circuit.
 old-location: netmgmt\server_info_1511_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 07865b85-5d08-46ab-9cce-6eba2e14d1b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

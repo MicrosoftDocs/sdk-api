@@ -4,7 +4,7 @@ title: IWSDAsyncResult::SetCallback
 author: windows-sdk-content
 description: Specifies a callback interface to call when the asynchronous operation has completed.
 old-location: ncd\iwsdasyncresult_setcallback.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsLun::AddPlex
 author: windows-sdk-content
 description: Adds a LUN to the target LUN as a new plex.
 old-location: base\ivdslun_addplex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a5d6d746-e740-40b0-b9e1-0c5537d00338
 ms.author: windowssdkdev
 ms.date: 12/5/2018

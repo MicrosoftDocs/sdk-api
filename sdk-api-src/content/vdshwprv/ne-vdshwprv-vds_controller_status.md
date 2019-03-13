@@ -4,7 +4,7 @@ title: VDS_CONTROLLER_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a controller.
 old-location: base\vds_controller_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a888fcb7-83f5-40c1-9f24-efa929aa9f6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

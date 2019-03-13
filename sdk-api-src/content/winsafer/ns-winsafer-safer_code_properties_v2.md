@@ -4,7 +4,7 @@ title: SAFER_CODE_PROPERTIES_V2
 author: windows-sdk-content
 description: Contains code image information and criteria to be checked on the code image.
 old-location: security\safer_code_properties.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 039a37a9-1744-4cff-919e-e0da50d7b291
 ms.author: windowssdkdev
 ms.date: 12/5/2018

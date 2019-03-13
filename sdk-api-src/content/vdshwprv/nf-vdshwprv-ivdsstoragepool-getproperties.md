@@ -4,7 +4,7 @@ title: IVdsStoragePool::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a storage pool.
 old-location: base\ivdsstoragepool_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9c37b5b1-4958-4b63-ba30-65b394dd05b7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

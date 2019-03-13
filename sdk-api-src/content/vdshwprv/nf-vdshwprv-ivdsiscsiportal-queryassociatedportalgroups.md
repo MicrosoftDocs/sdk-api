@@ -4,7 +4,7 @@ title: IVdsIscsiPortal::QueryAssociatedPortalGroups
 author: windows-sdk-content
 description: Returns an enumeration of the portal groups with which the portal is associated.
 old-location: base\ivdsiscsiportal_queryassociatedportalgroups.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6b8dbfc8-9112-4ca9-9976-ac3bf859588d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

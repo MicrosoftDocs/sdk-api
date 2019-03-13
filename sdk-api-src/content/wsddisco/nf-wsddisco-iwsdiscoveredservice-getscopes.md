@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetScopes
 author: windows-sdk-content
 description: Retrieves a list of WS-Discovery Scopes.
 old-location: ncd\iwsdiscoveredservice_getscopes.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 9b389ba3-9cc1-4bc2-949a-e7103378cbcc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

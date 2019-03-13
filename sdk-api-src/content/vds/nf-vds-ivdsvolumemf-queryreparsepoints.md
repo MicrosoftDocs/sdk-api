@@ -4,7 +4,7 @@ title: IVdsVolumeMF::QueryReparsePoints
 author: windows-sdk-content
 description: Returns all reparse points for the current volume.
 old-location: base\ivdsvolumemf_queryreparsepoints.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ae79355d-2012-42bf-930d-2915c4ca502c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

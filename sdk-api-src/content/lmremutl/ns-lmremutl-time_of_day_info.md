@@ -4,7 +4,7 @@ title: TIME_OF_DAY_INFO
 author: windows-sdk-content
 description: The TIME_OF_DAY_INFO structure contains information about the time of day from a remote server.
 old-location: netmgmt\time_of_day_info_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: bf89f071-5c04-40c2-a7b7-4e59fc9eaa02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

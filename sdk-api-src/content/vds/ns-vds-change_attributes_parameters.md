@@ -4,7 +4,7 @@ title: CHANGE_ATTRIBUTES_PARAMETERS
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\change_attributes_parameters.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6ff3ea68-70dd-4ef1-9c31-1f8c1fcf5fca
 ms.author: windowssdkdev
 ms.date: 12/5/2018

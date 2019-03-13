@@ -4,7 +4,7 @@ title: WSDGenerateFault function
 author: windows-sdk-content
 description: Generates a SOAP fault.
 old-location: ncd\wsdgeneratefault.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: eebecf71-2572-4e20-ad40-b1a2f811bedf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

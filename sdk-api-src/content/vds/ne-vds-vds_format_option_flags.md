@@ -4,7 +4,7 @@ title: VDS_FORMAT_OPTION_FLAGS
 author: windows-sdk-content
 description: Defines the set of valid formatting options for the IVdsDiskPartitionMF2::FormatPartitionEx2 method.
 old-location: base\vds_format_option_flags.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 75c92a9a-36c9-4c8d-90f2-a2b88cd8a7b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

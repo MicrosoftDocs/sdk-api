@@ -4,7 +4,7 @@ title: IVdsPack::AddDisk
 author: windows-sdk-content
 description: Adds a disk to an online pack.
 old-location: base\ivdspack_adddisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e64e3891-74c6-4014-9909-24f75f69e06d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

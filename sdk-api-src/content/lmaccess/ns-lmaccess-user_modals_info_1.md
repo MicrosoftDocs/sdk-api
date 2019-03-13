@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_1
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1 structure contains logon server and domain controller information.
 old-location: netmgmt\user_modals_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 2cb7f310-c76e-42fd-892c-fead374af16c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

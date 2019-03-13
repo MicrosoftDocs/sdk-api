@@ -4,7 +4,7 @@ title: ALERT_VAR_DATA macro
 author: windows-sdk-content
 description: The ALERT_VAR_DATA macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an ADMIN_OTHER_INFO, a PRINT_OTHER_INFO, or a USER_OTHER_INFO structure.
 old-location: netmgmt\alert_var_data.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ff71fb3d-8c01-47ac-93f2-108b1f49e2da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

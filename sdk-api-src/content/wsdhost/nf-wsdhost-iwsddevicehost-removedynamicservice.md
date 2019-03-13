@@ -4,7 +4,7 @@ title: IWSDDeviceHost::RemoveDynamicService
 author: windows-sdk-content
 description: Unregisters a service object that was registered using AddDynamicService.
 old-location: ncd\iwsddevicehost_removedynamicservice_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 45c314d3-966b-4b90-ab23-fec2a8e4bc0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSD_OPERATION
 author: windows-sdk-content
 description: Describes an operation as defined by WSDL in terms of one or two messages.
 old-location: ncd\wsd_operation_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: fcd4895d-5357-4b73-90b9-e506e3d7f16e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

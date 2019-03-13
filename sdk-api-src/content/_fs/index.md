@@ -33,6 +33,7 @@ To develop Data Access and Storage, you need these headers:
  * [txfw32.h](../txfw32/index.md)
  * [winefs.h](../winefs/index.md)
  * [wofapi.h](../wofapi/index.md)
+ * [wow64apiset.h](../wow64apiset/index.md)
 
 For programming guidance for this technology, see:
 * [Removable Storage Manager](https://msdn.microsoft.com/en-us/library/windows/desktop/ee663264(v=vs.85).aspx)

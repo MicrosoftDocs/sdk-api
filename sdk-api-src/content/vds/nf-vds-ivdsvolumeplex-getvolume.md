@@ -4,7 +4,7 @@ title: IVdsVolumePlex::GetVolume
 author: windows-sdk-content
 description: Returns the volume to which the current plex is a member.
 old-location: base\ivdsvolumeplex_getvolume.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ddf6102b-81d4-4604-942e-ffb1c2c4730f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

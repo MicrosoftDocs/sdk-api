@@ -4,7 +4,7 @@ title: NetWkstaUserGetInfo function
 author: windows-sdk-content
 description: The NetWkstaUserGetInfo function returns information about the currently logged-on user. This function must be called in the context of the logged-on user.
 old-location: netmgmt\netwkstausergetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 25ec7a49-fd26-4105-823b-a257a57f724e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

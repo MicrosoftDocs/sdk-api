@@ -4,7 +4,7 @@ title: IVdsServiceHba
 author: windows-sdk-content
 description: Provides a method to query HBA ports on the local system.
 old-location: base\ivdsservicehba.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0f3375fa-fc17-4808-ac29-a772a9c13850
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: POLICY_DNS_DOMAIN_INFO
 author: windows-sdk-content
 description: The POLICY_DNS_DOMAIN_INFO structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a Policy object.
 old-location: security\policy_dns_domain_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 5b2879cf-e0dc-4844-bfe8-bf45460285f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

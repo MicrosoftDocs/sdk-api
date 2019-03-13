@@ -4,7 +4,7 @@ title: SAFER_POLICY_INFO_CLASS
 author: windows-sdk-content
 description: Defines the ways in which a policy may be queried.
 old-location: security\safer_policy_info_class.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: e1438a9f-abca-463d-8a3a-3a820cba16e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

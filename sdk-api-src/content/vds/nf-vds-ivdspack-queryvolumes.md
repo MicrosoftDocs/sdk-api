@@ -4,7 +4,7 @@ title: IVdsPack::QueryVolumes
 author: windows-sdk-content
 description: Returns an object that enumerates the volumes in the pack.
 old-location: base\ivdspack_queryvolumes.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 43f9972d-14a6-4674-bf90-741ad3a9eb0d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSDUdpRetransmitParams
 author: windows-sdk-content
 description: Defines the parameters for repeating a message transimission.
 old-location: ncd\wsdupdretransmitparams.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 41bf73d8-0b20-4c38-b8b4-85c39eff0d91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

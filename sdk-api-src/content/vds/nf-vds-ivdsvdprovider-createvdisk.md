@@ -4,7 +4,7 @@ title: IVdsVdProvider::CreateVDisk
 author: windows-sdk-content
 description: Creates a virtual disk.
 old-location: base\ivdsvdprovider_createdisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3655946d-f8b5-46a1-97e3-82b0831124b3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

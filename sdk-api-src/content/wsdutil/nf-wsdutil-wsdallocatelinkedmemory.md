@@ -4,7 +4,7 @@ title: WSDAllocateLinkedMemory function
 author: windows-sdk-content
 description: Allocates a linked memory block.
 old-location: ncd\wsdallocatelinkedmemory_func.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 2608985f-56aa-4223-b76d-85ebe3b080fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

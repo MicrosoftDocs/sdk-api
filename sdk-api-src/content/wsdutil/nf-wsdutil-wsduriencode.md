@@ -4,7 +4,7 @@ title: WSDUriEncode function
 author: windows-sdk-content
 description: Encodes a URI according to URI encoding rules in RFC2396.
 old-location: ncd\wsduriencode.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 3d086ac8-0c14-46fb-baa5-b1d89b86ebbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

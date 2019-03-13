@@ -4,7 +4,7 @@ title: NetUseAdd function
 author: windows-sdk-content
 description: The NetUseAdd function establishes a connection between the local computer and a remote server.
 old-location: netmgmt\netuseadd.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 22550c17-003a-4f59-80f0-58fa3e286844
 ms.author: windowssdkdev
 ms.date: 12/5/2018

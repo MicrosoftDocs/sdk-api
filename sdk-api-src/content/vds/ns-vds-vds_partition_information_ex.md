@@ -4,7 +4,7 @@ title: VDS_PARTITION_INFORMATION_EX
 author: windows-sdk-content
 description: This structure is reserved for system use.
 old-location: base\vds_partition_information_ex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 99ded61d-fcbc-4e1c-8b3a-69c14d4c20bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

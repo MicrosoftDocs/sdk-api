@@ -4,7 +4,7 @@ title: IVdsVolumeMF3::OfflineVolume
 author: windows-sdk-content
 description: Takes the volume offline by using the IOCTL_VOLUME_OFFLINE control code.
 old-location: base\ivdsvolumemf3_offlinevolume.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d7f699c6-6f1c-445d-80b4-3576102d5b5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

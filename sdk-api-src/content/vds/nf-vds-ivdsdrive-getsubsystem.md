@@ -4,7 +4,7 @@ title: IVdsDrive::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem to which the drive belongs.
 old-location: base\ivdsdrive_getsubsystem.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e407cf77-93a7-48f6-85d3-007369316041
 ms.author: windowssdkdev
 ms.date: 12/5/2018

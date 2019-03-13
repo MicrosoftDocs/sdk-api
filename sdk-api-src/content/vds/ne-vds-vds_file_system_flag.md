@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a file system.
 old-location: base\vds_file_system_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2598877b-03f0-4190-8dcc-41ea3cb9497f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

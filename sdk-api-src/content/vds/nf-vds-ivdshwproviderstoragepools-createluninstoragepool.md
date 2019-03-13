@@ -4,7 +4,7 @@ title: IVdsHwProviderStoragePools::CreateLunInStoragePool
 author: windows-sdk-content
 description: Creates a LUN in a storage pool.
 old-location: base\ivdshwproviderstoragepools_createluninstoragepool.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 17377671-1a30-4aeb-bc89-3c1e3823d3fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

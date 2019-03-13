@@ -4,7 +4,7 @@ title: IVdsVolumeOnline::Online
 author: windows-sdk-content
 description: Returns a volume to the healthy state, if possible. This method is supported only for dynamic disks.
 old-location: base\ivdsvolumeonline_online.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8a207e61-5a13-41ad-bad9-11ddf2844a9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

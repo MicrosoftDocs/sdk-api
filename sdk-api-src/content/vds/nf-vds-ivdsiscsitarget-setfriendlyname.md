@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::SetFriendlyName
 author: windows-sdk-content
 description: Sets the friendly name of the target.
 old-location: base\ivdsiscsitarget_setfriendlyname.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 34afd8d7-473b-49c5-8486-2749144aea5c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

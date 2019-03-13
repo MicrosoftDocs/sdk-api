@@ -4,7 +4,7 @@ title: IVdsVolumeMF::QueryAccessPaths
 author: windows-sdk-content
 description: Returns a list of access paths and a drive letter, if one exists, for the current volume.
 old-location: base\ivdsvolumemf_queryaccesspaths.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7d541245-c189-4abe-ac72-2928c7aeed95
 ms.author: windowssdkdev
 ms.date: 12/5/2018

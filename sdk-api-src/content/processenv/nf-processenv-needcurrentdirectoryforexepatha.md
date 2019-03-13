@@ -1,0 +1,110 @@
+---
+UID: NF:processenv.NeedCurrentDirectoryForExePathA
+title: NeedCurrentDirectoryForExePathA function
+author: windows-sdk-content
+description: Determines whether the current directory should be included in the search path for the specified executable.
+old-location: base\needcurrentdirectoryforexepath.htm
+tech.root: ProcThread
+ms.assetid: 2bdc07b9-bb83-48c2-a668-fda5c69d54ee
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: NeedCurrentDirectoryForExePath, NeedCurrentDirectoryForExePath function, NeedCurrentDirectoryForExePathA, NeedCurrentDirectoryForExePathW, base.needcurrentdirectoryforexepath, processenv/NeedCurrentDirectoryForExePath, processenv/NeedCurrentDirectoryForExePathA, processenv/NeedCurrentDirectoryForExePathW, winbase/NeedCurrentDirectoryForExePath, winbase/NeedCurrentDirectoryForExePathA, winbase/NeedCurrentDirectoryForExePathW
+ms.topic: function
+req.header: processenv.h
+req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: NeedCurrentDirectoryForExePathW (Unicode) and NeedCurrentDirectoryForExePathA (ANSI)
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-misc-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+ - MinKernelBase.dll
+api_name:
+ - NeedCurrentDirectoryForExePath
+ - NeedCurrentDirectoryForExePathA
+ - NeedCurrentDirectoryForExePathW
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# NeedCurrentDirectoryForExePathA function
+
+
+## -description
+
+
+Determines whether the current directory should be included in the search path for the specified executable.
+
+
+## -parameters
+
+
+
+
+### -param ExeName [in]
+
+The name of the executable file.
+
+
+## -returns
+
+
+
+If the current directory should be part of the search path, the return value is TRUE. Otherwise, the return value is FALSE.
+
+
+
+
+## -remarks
+
+
+
+This function should only be called in instances where the caller must explicitly resolve a relative executable name to an absolute name.  If <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> is called with a relative executable name, it will automatically search for the executable, calling  this function to determine the search path.
+
+Most system functions perform their own path resolution, therefore, this function should only be called if you are attempting to resolve a search path for the specified executable based on the current directory.
+
+The value of the NoDefaultCurrentDirectoryInExePath environment variable determines the value this function returns. However, you should call this function rather than checking the environment variable directly, as the registry location of this environment variable can change.
+
+If the value of the <i>ExeName</i> parameter contains a backslash (\), this function will always return TRUE. If it does not contain a backslash, the existence of the NoDefaultCurrentDirectoryInExePath environment variable is checked, and not its value.
+
+An example of an instance when this function should be called instead of relying on the default search path resolution algorithm in <a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a> is the "cmd.exe" executable. It calls this function to determine the command search path because it does its own path resolution before calling <b>CreateProcess</b>.  If this function returns TRUE, cmd.exe uses the path ".;%PATH%" for the executable search. If it returns FALSE, cmd.exe uses the path "%PATH%" for the search.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3ef0a5b2-4d71-4c17-8188-76a4025287fc">CreateProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/8c8e8af0-bf50-4a4b-945c-83bae1eff7dd">Process and Thread Functions</a>
+ 
+
+ 
+

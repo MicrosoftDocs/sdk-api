@@ -4,7 +4,7 @@ title: IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
 author: windows-sdk-content
 description: Sets the statuses of paths originating from a particular HBA port to a specified status.
 old-location: base\ivdshwproviderprivatempio_setallpathstatusesfromhbaport.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1fc25ca9-7cb4-438c-b9da-4bf93bd18a0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

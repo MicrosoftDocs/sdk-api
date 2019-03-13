@@ -4,7 +4,7 @@ title: USER_INFO_4
 author: windows-sdk-content
 description: The USER_INFO_4 structure contains information about a user account, including the account name, password data, privilege level, the path to the user's home directory, security identifier (SID), and other user-related network statistics.
 old-location: netmgmt\user_info_4_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 66b11a5f-1c2d-4564-8845-9e2fa1f40f3e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

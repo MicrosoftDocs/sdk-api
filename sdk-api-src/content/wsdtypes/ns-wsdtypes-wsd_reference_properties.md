@@ -4,7 +4,7 @@ title: WSD_REFERENCE_PROPERTIES
 author: windows-sdk-content
 description: Specifies additional data used to uniquely identify an endpoint.
 old-location: ncd\wsd_reference_properties_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 7573683c-e02c-488d-be2f-f549113e78d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

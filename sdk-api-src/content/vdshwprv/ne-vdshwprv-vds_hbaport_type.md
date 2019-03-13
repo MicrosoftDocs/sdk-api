@@ -4,7 +4,7 @@ title: VDS_HBAPORT_TYPE
 author: windows-sdk-content
 description: Defines the set of valid types for an HBA port.
 old-location: base\vds_hbaport_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: fcad33c0-9a85-4180-b5de-fbef06e9e6e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018
