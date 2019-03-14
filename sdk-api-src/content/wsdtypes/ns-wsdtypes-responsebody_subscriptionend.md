@@ -4,7 +4,7 @@ title: RESPONSEBODY_SubscriptionEnd
 author: windows-sdk-content
 description: Represents a WS-Eventing SubscriptionEnd response message.
 old-location: ncd\responsebody_subscriptionend.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 84faf4b7-6bdc-4ecc-92c0-c27e36bbe912
 ms.author: windowssdkdev
 ms.date: 12/5/2018

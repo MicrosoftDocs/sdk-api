@@ -4,7 +4,7 @@ title: LSA_UNICODE_STRING
 author: windows-sdk-content
 description: The LSA_UNICODE_STRING structure is used by various Local Security Authority (LSA) functions to specify a Unicode string.
 old-location: security\lsa_unicode_string.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 9e1cf20f-01f9-4813-bf95-e47c5d57dcdc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

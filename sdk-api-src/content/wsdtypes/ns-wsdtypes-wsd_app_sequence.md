@@ -4,7 +4,7 @@ title: WSD_APP_SEQUENCE
 author: windows-sdk-content
 description: Represents application sequence information relating to WS-Discovery messages.
 old-location: ncd\wsd_app_sequence_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e9aa8e2f-0162-4f2e-ad70-54b6352105f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsVDisk
 author: windows-sdk-content
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsvdisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2b4f81f9-81ec-4288-a26c-8ed4d378358a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

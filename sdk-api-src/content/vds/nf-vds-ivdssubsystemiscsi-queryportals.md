@@ -4,7 +4,7 @@ title: IVdsSubSystemIscsi::QueryPortals
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI portals of the subsystem.
 old-location: base\ivdssubsystemiscsi_queryportals.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 277cc256-ac9d-4a4c-b154-ba611c08db9f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

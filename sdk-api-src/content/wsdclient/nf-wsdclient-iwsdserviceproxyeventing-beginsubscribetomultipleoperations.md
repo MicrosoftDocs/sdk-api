@@ -4,7 +4,7 @@ title: IWSDServiceProxyEventing::BeginSubscribeToMultipleOperations
 author: windows-sdk-content
 description: Initializes an asynchronous operation that subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_beginsubscribetomultipleoperations.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 54c6ac58-4272-45ad-80cc-2114ba6f466e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

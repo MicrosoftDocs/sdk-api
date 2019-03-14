@@ -4,7 +4,7 @@ title: IVdsController::FlushCache
 author: windows-sdk-content
 description: Flushes the cache of the controller to a persistent store.
 old-location: base\ivdscontroller_flushcache.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a27a887d-c254-4e50-be96-564db12a673a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSDXMLAddSibling function
 author: windows-sdk-content
 description: Adds a sibling element.
 old-location: ncd\wsdxmladdsibling.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: dbe5de39-eb8e-4352-b0c4-32d10e324185
 ms.author: windowssdkdev
 ms.date: 12/5/2018

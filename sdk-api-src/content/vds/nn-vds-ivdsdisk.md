@@ -4,7 +4,7 @@ title: IVdsDisk
 author: windows-sdk-content
 description: Provides methods to query and configure basic and dynamic disks.
 old-location: base\ivdsdisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0fd6d1d4-daa6-4be3-8749-be98cd7c0288
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_1010
 author: windows-sdk-content
 description: The USER_INFO_1010 structure contains a set of bit flags defining the operator privileges assigned to a user network account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1010_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 6760729a-1d59-430e-8412-1257977af169
 ms.author: windowssdkdev
 ms.date: 12/5/2018

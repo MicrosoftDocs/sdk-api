@@ -4,7 +4,7 @@ title: WSDXML_NAMESPACE
 author: windows-sdk-content
 description: Specifies an XML namespace.
 old-location: ncd\wsdxml_namespace_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: dcf27f38-e628-4b0c-859c-ad12d3ed0924
 ms.author: windowssdkdev
 ms.date: 12/5/2018

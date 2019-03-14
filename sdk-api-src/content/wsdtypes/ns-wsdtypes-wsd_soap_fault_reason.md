@@ -4,7 +4,7 @@ title: WSD_SOAP_FAULT_REASON
 author: windows-sdk-content
 description: A collection of reason codes associated with a WSD_SOAP_FAULT.
 old-location: ncd\wsd_soap_fault_reason_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: c1b2ac44-8a86-4aac-a0d3-3b8d80a6b1d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

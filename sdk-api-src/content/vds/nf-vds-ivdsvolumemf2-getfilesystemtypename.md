@@ -4,7 +4,7 @@ title: IVdsVolumeMF2::GetFileSystemTypeName
 author: windows-sdk-content
 description: Retrieves the name of the file system on a volume.
 old-location: base\ivdsvolumemf2_getfilesystemtypename.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f9e8627b-0531-4dcb-9818-7560372aa4b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

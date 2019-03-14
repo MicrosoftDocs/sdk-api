@@ -4,7 +4,7 @@ title: USER_INFO_1012
 author: windows-sdk-content
 description: The USER_INFO_1012 structure contains a user comment. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1012_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 92501552-7afe-4a95-980a-576254a122a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

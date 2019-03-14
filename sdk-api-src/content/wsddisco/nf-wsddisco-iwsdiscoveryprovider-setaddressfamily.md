@@ -4,7 +4,7 @@ title: IWSDiscoveryProvider::SetAddressFamily
 author: windows-sdk-content
 description: Specifies the IP address family (IPv4, IPv6, or both) to search when discovering WSD devices.
 old-location: ncd\iwsdiscoveryprovider_setaddressfamily.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 33b13cd5-ea60-4928-a220-db563c00a43c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

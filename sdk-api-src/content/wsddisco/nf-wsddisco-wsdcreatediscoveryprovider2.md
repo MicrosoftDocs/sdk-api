@@ -4,7 +4,7 @@ title: WSDCreateDiscoveryProvider2 function
 author: windows-sdk-content
 description: Creates an IWSDiscoveryProvider object that supports signed messages.
 old-location: ncd\wsdcreatediscoveryprovider2.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: dc757897-032c-4ea3-8f4e-cf00d4ec385b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

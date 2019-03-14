@@ -4,7 +4,7 @@ title: LSA_REFERENCED_DOMAIN_LIST
 author: windows-sdk-content
 description: The LSA_REFERENCED_DOMAIN_LIST structure contains information about the domains referenced in a lookup operation.
 old-location: security\lsa_referenced_domain_list.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

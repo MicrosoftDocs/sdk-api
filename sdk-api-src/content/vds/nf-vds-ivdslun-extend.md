@@ -4,7 +4,7 @@ title: IVdsLun::Extend
 author: windows-sdk-content
 description: Extends a LUN by a specified number of bytes.
 old-location: base\ivdslun_extend.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 65520b6a-206a-4b90-b8cc-b7964d0cf102
 ms.author: windowssdkdev
 ms.date: 12/5/2018

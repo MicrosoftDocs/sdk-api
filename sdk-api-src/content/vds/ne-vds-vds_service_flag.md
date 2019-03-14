@@ -4,7 +4,7 @@ title: VDS_SERVICE_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for the service object.
 old-location: base\vds_service_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d14718bd-43a3-4775-a218-27c59f6995eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

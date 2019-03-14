@@ -4,7 +4,7 @@ title: IVdsLun2
 author: windows-sdk-content
 description: Provides methods for applying and querying logical unit number (LUN) hints.
 old-location: base\ivdslun2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1cc26b91-d77b-4f8d-8c01-40b58cb03038
 ms.author: windowssdkdev
 ms.date: 12/5/2018

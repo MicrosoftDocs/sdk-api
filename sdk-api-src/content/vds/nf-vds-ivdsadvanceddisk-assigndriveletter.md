@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::AssignDriveLetter
 author: windows-sdk-content
 description: Assigns a drive letter to an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_assigndriveletter.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 92a79b87-7385-40d9-aa20-e4724b241e59
 ms.author: windowssdkdev
 ms.date: 12/5/2018

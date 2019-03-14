@@ -4,7 +4,7 @@ title: IVdsLunMpio::SetLoadBalancePolicy
 author: windows-sdk-content
 description: Sets the load balance policy on the LUN.
 old-location: base\ivdslunmpio_setloadbalancepolicy.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2f3eb00a-864e-4fb7-a722-4537e6b8dd42
 ms.author: windowssdkdev
 ms.date: 12/5/2018

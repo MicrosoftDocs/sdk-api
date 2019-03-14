@@ -4,7 +4,7 @@ title: VDS_SERVICE_PROP
 author: windows-sdk-content
 description: Defines the properties of the service object.
 old-location: base\vds_service_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 9029ebbd-f05d-4317-913d-58c8a0a62886
 ms.author: windowssdkdev
 ms.date: 12/5/2018

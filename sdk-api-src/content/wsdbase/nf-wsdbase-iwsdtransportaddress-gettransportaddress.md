@@ -4,7 +4,7 @@ title: IWSDTransportAddress::GetTransportAddress
 author: windows-sdk-content
 description: Gets a pointer to a string representation of the address object.
 old-location: ncd\iwsdtransportaddress_gettransportaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 090b009d-0cca-4925-bf90-cb3d0975d271
 ms.author: windowssdkdev
 ms.date: 12/5/2018

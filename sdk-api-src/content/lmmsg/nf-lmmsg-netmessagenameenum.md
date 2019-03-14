@@ -4,7 +4,7 @@ title: NetMessageNameEnum function
 author: windows-sdk-content
 description: The NetMessageNameEnum function lists the message aliases that receive messages on a specified computer. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenameenum.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: fc1b11e6-294d-47d3-8c63-bee80b5a8581
 ms.author: windowssdkdev
 ms.date: 12/5/2018

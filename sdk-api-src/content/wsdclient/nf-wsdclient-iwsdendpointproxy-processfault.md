@@ -4,7 +4,7 @@ title: IWSDEndpointProxy::ProcessFault
 author: windows-sdk-content
 description: Processes a SOAP fault retrieved by GetFaultInfo.
 old-location: ncd\iwsdendpointproxy_processfault.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f63c8c7c-8581-49d4-a29d-a7b0b46a2db5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

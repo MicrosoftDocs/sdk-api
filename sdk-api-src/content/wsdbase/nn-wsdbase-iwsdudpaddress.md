@@ -4,7 +4,7 @@ title: IWSDUdpAddress
 author: windows-sdk-content
 description: Provides access to the individual components of a UDP address.
 old-location: ncd\iwsdudpaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: b666002f-2cd6-4e96-b055-34d801c1982e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

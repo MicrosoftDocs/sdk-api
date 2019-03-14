@@ -4,7 +4,7 @@ title: IVdsHwProvider::Refresh
 author: windows-sdk-content
 description: Refreshes VDS's internally cached data about existing subsystems that are managed by VDS providers.
 old-location: base\ivdshwprovider_refresh.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

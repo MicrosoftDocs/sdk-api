@@ -4,7 +4,7 @@ title: VDS_PACK_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a pack object.
 old-location: base\vds_pack_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 65b7e65d-5d20-49ff-af35-bd3529f5c858
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
 author: windows-sdk-content
 description: Defines the properties of file systems that are supported for formatting volumes.
 old-location: base\vds_file_system_format_support_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 78d60240-44dc-48b8-b2a6-5babbd79085f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

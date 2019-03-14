@@ -4,7 +4,7 @@ title: SaferGetPolicyInformation function
 author: windows-sdk-content
 description: Gets information about a policy.
 old-location: security\safergetpolicyinformation.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 1c69d3c1-87e6-42cd-9acb-4c3d06801401
 ms.author: windowssdkdev
 ms.date: 12/5/2018

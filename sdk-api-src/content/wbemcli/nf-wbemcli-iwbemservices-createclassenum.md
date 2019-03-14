@@ -139,7 +139,7 @@ Receives the pointer to the enumerator. The returned object has a positive refer
 
 This method returns an <b>HRESULT</b> that indicates the status of a method call. The following list lists the value contained withinan <b>HRESULT</b>.
 
-On failure, you can obtain available information from the COM function <a href=" http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+On failure, you can obtain available information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
 
 COM-specific error codes also can be returned if network problems cause you to lose the remote connection to Windows Management.
 

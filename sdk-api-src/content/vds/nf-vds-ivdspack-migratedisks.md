@@ -4,7 +4,7 @@ title: IVdsPack::MigrateDisks
 author: windows-sdk-content
 description: Migrates a set of disks from one pack to another pack.
 old-location: base\ivdspack_migratedisks.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c7e85c4c-fb7c-48de-abd7-8d65ecb9a1fa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

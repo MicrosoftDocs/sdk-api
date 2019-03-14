@@ -4,7 +4,7 @@ title: NET_DISPLAY_USER
 author: windows-sdk-content
 description: The NET_DISPLAY_USER structure contains information that an account manager can access to determine information about user accounts.
 old-location: netmgmt\net_display_user_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 308966f7-448c-4748-bbe7-9ac63afae1d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

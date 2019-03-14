@@ -4,7 +4,7 @@ title: SERVER_INFO_1010
 author: windows-sdk-content
 description: The SERVER_INFO_1010 structure contains the auto-disconnect time associated with the specified server.
 old-location: netmgmt\server_info_1010_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 54ae857d-91bb-4f60-b678-07e3b4661ef0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

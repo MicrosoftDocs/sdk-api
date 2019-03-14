@@ -4,7 +4,7 @@ title: IWSDiscoveryProvider::Detach
 author: windows-sdk-content
 description: Detaches a callback interface from the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_detach_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 562e7618-06ac-4bd3-9746-6ff3a7531b6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

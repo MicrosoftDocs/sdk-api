@@ -4,7 +4,7 @@ title: POLICY_INFORMATION_CLASS
 author: windows-sdk-content
 description: Defines values that indicate the type of information to set or query in a Policy object.
 old-location: security\policy_information_class.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: b734b5e8-1ee9-436b-b2a9-210ae79fbaf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

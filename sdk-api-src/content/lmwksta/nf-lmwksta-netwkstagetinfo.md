@@ -4,7 +4,7 @@ title: NetWkstaGetInfo function
 author: windows-sdk-content
 description: The NetWkstaGetInfo function returns information about the configuration of a workstation.
 old-location: netmgmt\netwkstagetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 08777069-1afd-4482-8090-c65ef0bec1ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

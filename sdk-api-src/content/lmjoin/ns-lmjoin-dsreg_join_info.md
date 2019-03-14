@@ -4,7 +4,7 @@ title: DSREG_JOIN_INFO
 author: windows-sdk-content
 description: Contains information about how a device is joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_info.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 9B0F7BE3-BDCD-437E-9157-9A646A2A20E2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: VDS_STORAGE_BUS_TYPE
 author: windows-sdk-content
 description: Defines the set of valid bus types of a storage device.
 old-location: base\vds_storage_bus_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 4fa1bd7a-c675-4588-8753-2614be444c9c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NetAccessDel function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessdel.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: be33d9b4-9740-4ccb-ac95-25ae02edaa42
 ms.author: windowssdkdev
 ms.date: 12/5/2018

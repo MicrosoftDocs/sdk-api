@@ -4,7 +4,7 @@ title: VDS_DISK_OFFLINE_REASON
 author: windows-sdk-content
 description: Defines the set of reasons for a disk to be offline.
 old-location: base\vds_disk_offline_reason.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 45115cd5-52bb-4cb8-978b-208a2bc3c148
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDAsyncResult
 author: windows-sdk-content
 description: Represents an asynchronous operation.
 old-location: ncd\iwsdasyncresult.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 49c5ad02-f24b-4ef9-b943-483728c0bbcd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

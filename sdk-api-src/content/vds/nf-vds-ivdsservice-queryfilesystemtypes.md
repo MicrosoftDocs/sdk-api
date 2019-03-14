@@ -4,7 +4,7 @@ title: IVdsService::QueryFileSystemTypes
 author: windows-sdk-content
 description: Returns property details for all file systems known to VDS.
 old-location: base\ivdsservice_queryfilesystemtypes.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 17dcafc8-8faf-4dc2-af24-7e1ab257201e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

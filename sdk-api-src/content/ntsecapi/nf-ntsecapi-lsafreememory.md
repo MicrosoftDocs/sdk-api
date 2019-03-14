@@ -4,7 +4,7 @@ title: LsaFreeMemory function
 author: windows-sdk-content
 description: The LsaFreeMemory function frees memory allocated for an output buffer by an LSA function call.
 old-location: security\lsafreememory.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 6eb3d18f-c54c-4e51-8a4b-b7a3f930cfa9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

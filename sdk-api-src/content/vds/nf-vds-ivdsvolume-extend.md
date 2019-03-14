@@ -4,7 +4,7 @@ title: IVdsVolume::Extend
 author: windows-sdk-content
 description: Expands the size of the current volume by adding disk extents to each member of each plex.
 old-location: base\ivdsvolume_extend.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8f31dd3e-0c06-49fe-8ff2-55cfabe5099e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

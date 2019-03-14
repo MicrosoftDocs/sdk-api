@@ -4,7 +4,7 @@ title: IWSDServiceProxy::SubscribeToOperation
 author: windows-sdk-content
 description: Subscribes to a notification or solicit/response event.
 old-location: ncd\iwsdserviceproxy_subscribetooperation_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: d3294bd7-f3df-4571-92f6-eb6bc57240fb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

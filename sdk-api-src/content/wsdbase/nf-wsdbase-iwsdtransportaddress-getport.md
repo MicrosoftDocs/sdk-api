@@ -4,7 +4,7 @@ title: IWSDTransportAddress::GetPort
 author: windows-sdk-content
 description: Gets the IP port number associated with this transport address.
 old-location: ncd\iwsdtransportaddress_getport.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: cc2e623f-e6b6-42ad-b0de-7960de0142d0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

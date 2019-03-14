@@ -4,7 +4,7 @@ title: LSA_OBJECT_ATTRIBUTES
 author: windows-sdk-content
 description: The LSA_OBJECT_ATTRIBUTES structure is used with the LsaOpenPolicy function to specify the attributes of the connection to the Policy object.
 old-location: security\lsa_object_attributes.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: ad05cb52-8e58-46a9-b3e8-0c9c2a24a997
 ms.author: windowssdkdev
 ms.date: 12/5/2018

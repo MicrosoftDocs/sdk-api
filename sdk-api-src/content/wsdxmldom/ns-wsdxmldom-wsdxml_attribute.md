@@ -4,7 +4,7 @@ title: WSDXML_ATTRIBUTE
 author: windows-sdk-content
 description: Describes an XML attribute.
 old-location: ncd\wsdxml_attribute_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 2697d30d-17c7-417d-a02b-c4427987ec4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

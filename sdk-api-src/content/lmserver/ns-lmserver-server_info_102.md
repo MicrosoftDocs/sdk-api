@@ -4,7 +4,7 @@ title: SERVER_INFO_102
 author: windows-sdk-content
 description: Contains information about the specified server, including name, platform, type of server, attributes, and associated software.
 old-location: netmgmt\server_info_102_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 4c63fee7-1103-414d-b650-da87f8184e91
 ms.author: windowssdkdev
 ms.date: 12/5/2018

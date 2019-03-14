@@ -154,7 +154,7 @@ WMI only calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.8
 
 This method returns an <b>HRESULT</b> that indicates the status of the method call. The following list lists the value contained within an <b>HRESULT</b>.
 
-When there is a  failure, you can obtain   information from the COM function <a href=" http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
+When there is a  failure, you can obtain   information from the COM function <a href="http://go.microsoft.com/fwlink/p/?linkid=119575">GetErrorInfo</a>.
 
 Other error codes are returned to the object sink specified by the <i>pResponseHandler</i> parameter.
 

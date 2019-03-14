@@ -4,7 +4,7 @@ title: IVdsAsync::Wait
 author: windows-sdk-content
 description: Returns when the asynchronous operation has either finished successfully or failed.
 old-location: base\ivdsasync_wait.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1bb30247-efb8-488f-b142-8912c351f5f2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_22
 author: windows-sdk-content
 description: The USER_INFO_22 structure contains information about a user account, including the account name, privilege level, the path to the user's home directory, a one-way encrypted LAN Manager 2.x-compatible password, and other user-related network statistics.
 old-location: netmgmt\user_info_22_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ff8d2088-953b-4a8a-bdcb-86148dc66a7a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

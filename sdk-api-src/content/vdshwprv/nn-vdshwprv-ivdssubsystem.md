@@ -4,7 +4,7 @@ title: IVdsSubSystem
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a subsystem.
 old-location: base\ivdssubsystem.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

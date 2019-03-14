@@ -4,7 +4,7 @@ title: IVdsProvider
 author: windows-sdk-content
 description: Returns the properties of a hardware or software provider.
 old-location: base\ivdsprovider.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c09aa32f-d859-44b1-8656-973ba1b6a167
 ms.author: windowssdkdev
 ms.date: 12/5/2018

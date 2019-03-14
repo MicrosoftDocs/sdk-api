@@ -4,7 +4,7 @@ title: PSAM_PASSWORD_NOTIFICATION_ROUTINE
 author: windows-sdk-content
 description: Is implemented by a password filter DLL. It notifies the DLL that a password was changed.
 old-location: security\passwordchangenotify.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 81d34dff-3842-407b-8fd8-3b0a5a5f38f1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

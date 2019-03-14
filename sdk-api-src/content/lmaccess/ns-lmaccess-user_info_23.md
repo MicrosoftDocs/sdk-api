@@ -4,7 +4,7 @@ title: USER_INFO_23
 author: windows-sdk-content
 description: Contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's security identifier (SID).
 old-location: netmgmt\user_info_23_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 1af3ff6d-bc9f-44ad-9981-124ac1961298
 ms.author: windowssdkdev
 ms.date: 12/5/2018

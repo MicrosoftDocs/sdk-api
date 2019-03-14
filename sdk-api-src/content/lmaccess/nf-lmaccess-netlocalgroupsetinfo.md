@@ -4,7 +4,7 @@ title: NetLocalGroupSetInfo function
 author: windows-sdk-content
 description: The NetLocalGroupSetInfo function changes the name of an existing local group. The function also associates a comment with a local group.
 old-location: netmgmt\netlocalgroupsetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: c1d2a68b-0910-4815-9547-0f0f3c983164
 ms.author: windowssdkdev
 ms.date: 12/5/2018

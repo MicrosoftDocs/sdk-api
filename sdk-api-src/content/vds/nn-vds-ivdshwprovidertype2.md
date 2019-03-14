@@ -4,7 +4,7 @@ title: IVdsHwProviderType2
 author: windows-sdk-content
 description: This interface is not implemented. Use IVdsHwProviderType instead.
 old-location: base\ivdshwprovidertype2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b75b455a-0b1e-49f4-9181-5cbbf1b5d98c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

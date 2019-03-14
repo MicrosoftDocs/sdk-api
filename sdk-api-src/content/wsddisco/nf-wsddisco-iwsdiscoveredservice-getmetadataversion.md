@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetMetadataVersion
 author: windows-sdk-content
 description: Retrieves the metadata version of this message.
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

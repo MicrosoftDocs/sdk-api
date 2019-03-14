@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::PublishEx
 author: windows-sdk-content
 description: Announces the presence of a network host by sending a Hello message with extended information.
 old-location: ncd\iwsdiscoverypublisher_publishex_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f4a1f93d-071b-4244-b4e4-ed7e7bb7432b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

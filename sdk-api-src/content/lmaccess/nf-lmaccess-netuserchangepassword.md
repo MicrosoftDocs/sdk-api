@@ -4,7 +4,7 @@ title: NetUserChangePassword function
 author: windows-sdk-content
 description: The NetUserChangePassword function changes a user's password for a specified network server or domain.
 old-location: netmgmt\netuserchangepassword.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e3791756-3bd4-490b-983a-9687373d846b
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -201,7 +201,7 @@ See
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
 The 
-<b>NetUserChangePassword</b> function does not control how the <i>oldpassword</i> and <i>newpassword</i> parameters are secured when sent over the network to a remote server. Any encryption of these parameters is handled by the Remote Procedure Call (RPC) mechanism supported by the network redirector that provides the network transport. Encryption is also controlled  by the security mechanisms supported by the local computer and the security mechanisms supported by remote network server or domain specified in the <i>domainname</i>   parameter. For more details on security when the Microsoft network redirector is used and the remote network server is running Microsoft Windows, see the protocol documentation for <a href="http://go.microsoft.com/fwlink/p/?linkid=200126">MS-RPCE</a>, <a href=" http://go.microsoft.com/fwlink/p/?linkid=200128">MS-SAMR</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=200129">MS-SPNG</a>, and <a href=" http://go.microsoft.com/fwlink/p/?linkid=200130">MS-NLMP</a>.
+<b>NetUserChangePassword</b> function does not control how the <i>oldpassword</i> and <i>newpassword</i> parameters are secured when sent over the network to a remote server. Any encryption of these parameters is handled by the Remote Procedure Call (RPC) mechanism supported by the network redirector that provides the network transport. Encryption is also controlled  by the security mechanisms supported by the local computer and the security mechanisms supported by remote network server or domain specified in the <i>domainname</i>   parameter. For more details on security when the Microsoft network redirector is used and the remote network server is running Microsoft Windows, see the protocol documentation for <a href="http://go.microsoft.com/fwlink/p/?linkid=200126">MS-RPCE</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=200128">MS-SAMR</a>, <a href="http://go.microsoft.com/fwlink/p/?linkid=200129">MS-SPNG</a>, and <a href="http://go.microsoft.com/fwlink/p/?linkid=200130">MS-NLMP</a>.
 
 
 #### Examples

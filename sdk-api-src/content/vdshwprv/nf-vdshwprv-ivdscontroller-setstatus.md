@@ -4,7 +4,7 @@ title: IVdsController::SetStatus
 author: windows-sdk-content
 description: Sets the status of a controller to the specified value.
 old-location: base\ivdscontroller_setstatus.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f9bae451-ef47-46ad-a11e-b7b36a031a8a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

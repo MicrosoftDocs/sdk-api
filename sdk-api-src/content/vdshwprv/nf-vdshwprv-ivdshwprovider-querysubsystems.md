@@ -4,7 +4,7 @@ title: IVdsHwProvider::QuerySubSystems
 author: windows-sdk-content
 description: Returns an enumeration of the subsystems managed by the provider.
 old-location: base\ivdshwprovider_querysubsystems.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ae327655-3db9-44b0-934a-458ee90b1d07
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsSubSystem::QueryDrives
 author: windows-sdk-content
 description: Returns an object that enumerates the drives in the subsystem.
 old-location: base\ivdssubsystem_querydrives.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7d54922f-0531-4eab-afa9-f51ce6c75bfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

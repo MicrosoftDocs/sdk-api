@@ -4,7 +4,7 @@ title: IVdsSubSystem::QueryControllers
 author: windows-sdk-content
 description: Returns an object that enumerates the online and offline controllers managed by the subsystem.
 old-location: base\ivdssubsystem_querycontrollers.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 61f32915-c616-477e-b0f0-4a7f92aca0e2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

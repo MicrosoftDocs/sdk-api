@@ -4,7 +4,7 @@ title: VDS_MOUNT_POINT_NOTIFICATION
 author: windows-sdk-content
 description: Represents notification information that was returned by the basic or dynamic software provider because a drive letter or volume GUID path changed.
 old-location: base\vds_mount_point_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6e49437e-8fc7-4fc5-a227-b326a1ea9967
 ms.author: windowssdkdev
 ms.date: 12/5/2018

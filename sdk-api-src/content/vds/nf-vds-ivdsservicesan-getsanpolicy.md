@@ -4,7 +4,7 @@ title: IVdsServiceSAN::GetSANPolicy
 author: windows-sdk-content
 description: Gets the disk SAN policy for the operating system.
 old-location: base\ivdsservicesan_getsanpolicy.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 59602d97-2fdf-4d1b-b158-e545619397e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

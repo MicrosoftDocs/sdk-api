@@ -4,7 +4,7 @@ title: IVdsLun::GetSubSystem
 author: windows-sdk-content
 description: Returns the subsystem that surfaces the LUN.
 old-location: base\ivdslun_getsubsystem.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: bd7dbe48-ad56-4304-a076-608f697620d8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

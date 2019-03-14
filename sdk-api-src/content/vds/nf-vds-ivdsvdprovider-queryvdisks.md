@@ -4,7 +4,7 @@ title: IVdsVdProvider::QueryVDisks
 author: windows-sdk-content
 description: Returns a list of all virtual disks that are managed by the provider.
 old-location: base\ivdsvdprovider_querysurfaceddisks.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: eab65da4-eb26-46f5-9978-972fd8dffb41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

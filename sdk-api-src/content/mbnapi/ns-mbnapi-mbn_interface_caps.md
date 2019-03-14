@@ -77,7 +77,7 @@ This field has the bit value <b>MBN_DATA_CLASS_CUSTOM</b> set if the data class 
 
 ### -field customDataClass
 
-Contains the name of the custom data class.  If the <b>MBN_DATA_CLASS_CUSTOM</b> bit  of <b>dataClass</b> is not set, then the string is <b>NULL</b>.  Otherwise, the caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the name of the custom data class.  If the <b>MBN_DATA_CLASS_CUSTOM</b> bit  of <b>dataClass</b> is not set, then the string is <b>NULL</b>.  Otherwise, the caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field gsmBandClass
@@ -306,7 +306,7 @@ The following table provides additional information about MBN_BAND_CLASS values.
 
 ### -field customBandClass
 
-Contains the name of the custom band class.  If the <b>MBN_BAND_CLASS_CUSTOM</b> bit  of <b>cdmaBandClass</b> and <b>gsmBandClass</b> is not set, then the string is <b>NULL</b>.  Otherwise, the caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the name of the custom band class.  If the <b>MBN_BAND_CLASS_CUSTOM</b> bit  of <b>cdmaBandClass</b> and <b>gsmBandClass</b> is not set, then the string is <b>NULL</b>.  Otherwise, the caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field smsCaps
@@ -321,17 +321,17 @@ A bitwise OR combination of <a href="https://msdn.microsoft.com/c4c4bb3b-76ce-48
 
 ### -field deviceID
 
-Contains the device ID.  For GSM devices, this must be the IMEI (up to 15 digits).  For CDMA devices, this must be the ESN (11 digits) / MEID (17 digits).  The maximum length of the string is <b>MBN_DEVICEID_LEN</b>.  For the definition of <b>MBN_DEVICEID_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the device ID.  For GSM devices, this must be the IMEI (up to 15 digits).  For CDMA devices, this must be the ESN (11 digits) / MEID (17 digits).  The maximum length of the string is <b>MBN_DEVICEID_LEN</b>.  For the definition of <b>MBN_DEVICEID_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field manufacturer
 
-Contains the name of the device manufacturer.  This string can be empty.  The maximum length of the string is <b>MBN_MANUFACTURER_LEN</b>.  For the definition of <b>MBN_MANUFACTURER_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the name of the device manufacturer.  This string can be empty.  The maximum length of the string is <b>MBN_MANUFACTURER_LEN</b>.  For the definition of <b>MBN_MANUFACTURER_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field model
 
-Contains the device model.  This string can be empty.  The maximum length of this string is <b>MBN_MODEL_LEN</b>.  For the definition of <b>MBN_MODEL_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href=" http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
+Contains the device model.  This string can be empty.  The maximum length of this string is <b>MBN_MODEL_LEN</b>.  For the definition of <b>MBN_MODEL_LEN</b>, see <a href="https://msdn.microsoft.com/d5478721-7d7b-487e-b223-0240f3451aed">MBN_INTERFACE_CAPS_CONSTANTS</a>.  The caller must free this string by calling <a href="http://go.microsoft.com/fwlink/p/?linkid=120718">SysFreeString</a>.
 
 
 ### -field firmwareInfo

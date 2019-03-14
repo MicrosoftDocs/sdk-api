@@ -4,7 +4,7 @@ title: LsaStorePrivateData function
 author: windows-sdk-content
 description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
 old-location: security\lsastoreprivatedata.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 95d6cf30-fd08-473e-b0b3-3f7ca5e85357
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDEndpointProxy::SendTwoWayRequest
 author: windows-sdk-content
 description: Sends a two-way request message using a synchronous call pattern.
 old-location: ncd\iwsdendpointproxy_sendtwowayrequest.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f93ddbf1-d530-4957-87ab-5718ee5f20d9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDDeviceProxy
 author: windows-sdk-content
 description: Represents a remote Devices Profile for Web Services (DPWS) device for client applications and middleware.
 old-location: ncd\iwsddeviceproxy.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: a1a54ba0-241a-4c3d-8113-89c0f8171c40
 ms.author: windowssdkdev
 ms.date: 12/5/2018

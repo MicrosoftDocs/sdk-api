@@ -4,7 +4,7 @@ title: MSG_INFO_0
 author: windows-sdk-content
 description: The MSG_INFO_0 structure specifies a message alias.
 old-location: netmgmt\msg_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: bc409abd-8c76-4310-b9e3-05fc4e0d253e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

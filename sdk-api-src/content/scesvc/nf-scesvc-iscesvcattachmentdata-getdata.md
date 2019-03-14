@@ -4,7 +4,7 @@ title: ISceSvcAttachmentData::GetData
 author: windows-sdk-content
 description: The GetData method retrieves configuration information from the Security Configuration snap-in.
 old-location: security\iscesvcattachmentdata_getdata.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsIscsiPortalGroup::GetProperties
 author: windows-sdk-content
 description: Returns the properties of a portal group.
 old-location: base\ivdsiscsiportalgroup_getproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7257101e-04a5-41d5-b4fa-401106610dcf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

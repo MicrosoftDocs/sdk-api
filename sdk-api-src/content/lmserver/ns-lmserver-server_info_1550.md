@@ -4,7 +4,7 @@ title: SERVER_INFO_1550
 author: windows-sdk-content
 description: The SERVER_INFO_1550 structure specifies the percentage of free disk space remaining before an alert message is sent.
 old-location: netmgmt\server_info_1550_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 1f352eca-c4dd-4cac-8640-5ff61195be66
 ms.author: windowssdkdev
 ms.date: 12/5/2018

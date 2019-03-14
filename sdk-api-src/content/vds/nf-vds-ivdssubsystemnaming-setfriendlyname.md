@@ -4,7 +4,7 @@ title: IVdsSubSystemNaming::SetFriendlyName
 author: windows-sdk-content
 description: Sets the friendly name of a subsystem.
 old-location: base\ivdssubsystemnaming_setfriendlyname.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8356eb25-af8c-4643-9ac4-e4ce001b617c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: NetScheduleJobEnum function
 author: windows-sdk-content
 description: The NetScheduleJobEnum function lists the jobs queued on a specified computer. This function requires that the schedule service be started.
 old-location: netmgmt\netschedulejobenum.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e3384414-6a15-4979-bed4-6f94f046474a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

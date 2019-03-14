@@ -4,7 +4,7 @@ title: IVdsDiskOnline::Online
 author: windows-sdk-content
 description: Brings the disk online.
 old-location: base\ivdsdiskonline_online.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b3366bc7-18ca-4a90-b4e7-e6213a7cc002
 ms.author: windowssdkdev
 ms.date: 12/5/2018

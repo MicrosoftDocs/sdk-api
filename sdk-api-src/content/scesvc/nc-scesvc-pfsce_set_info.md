@@ -4,7 +4,7 @@ title: PFSCE_SET_INFO
 author: windows-sdk-content
 description: Sets or overwrites service-specific configuration and analysis information.
 old-location: security\pfsce_set_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 131585a9-b0a9-4686-84ba-237bcdcc4f5f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

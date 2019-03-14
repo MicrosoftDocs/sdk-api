@@ -4,7 +4,7 @@ title: IWSDMessageParameters::GetRemoteAddress
 author: windows-sdk-content
 description: Retrieves the generic address object representing the remote address from which the message was sent.
 old-location: ncd\iwsdmessageparameters_getremoteaddress.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 483306d4-9672-4f30-a318-df5c7afbf583
 ms.author: windowssdkdev
 ms.date: 12/5/2018

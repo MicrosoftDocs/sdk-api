@@ -4,7 +4,7 @@ title: VDS_PROVIDER_LBSUPPORT_FLAG
 author: windows-sdk-content
 description: Specifies the set of valid flags for indicating which load balance policies a hardware provider supports.
 old-location: base\vds_provider_lbsupport_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: bfc9aabf-b9ce-4b36-b68a-b74628092962
 ms.author: windowssdkdev
 ms.date: 12/5/2018

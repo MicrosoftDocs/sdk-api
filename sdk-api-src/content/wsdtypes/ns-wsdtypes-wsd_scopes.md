@@ -4,7 +4,7 @@ title: WSD_SCOPES
 author: windows-sdk-content
 description: A collection of scopes used in WS-Discovery messaging.
 old-location: ncd\wsd_scopes_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsController::GetPortProperties
 author: windows-sdk-content
 description: Returns the properties of the specified controller port.
 old-location: base\ivdscontroller_getportproperties.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 01972923-2a43-4a80-80f8-8dab4207bbc4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

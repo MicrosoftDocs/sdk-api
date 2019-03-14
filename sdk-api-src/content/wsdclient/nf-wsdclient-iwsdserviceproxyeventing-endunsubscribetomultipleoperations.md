@@ -4,7 +4,7 @@ title: IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
 author: windows-sdk-content
 description: Completes an asynchronous cancellation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_endunsubscribetomultipleoperations.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 62f42441-11b0-46ce-9a4e-03b34d8b4c9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

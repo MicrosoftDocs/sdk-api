@@ -4,7 +4,7 @@ title: VDS_QUERY_PROVIDER_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for provider query operations. Callers can query for hardware providers, software providers, or both.
 old-location: base\vds_query_provider_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 849b3cbc-a1ed-438a-8fda-ada096fb8375
 ms.author: windowssdkdev
 ms.date: 12/5/2018

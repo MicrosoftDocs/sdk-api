@@ -4,7 +4,7 @@ title: SERVER_INFO_503
 author: windows-sdk-content
 description: The SERVER_INFO_503 structure is obsolete. The structure contains information about the specified server.
 old-location: netmgmt\server_info_503_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: c6ad20ed-9f2b-4cbe-ac2e-a57acf1b32ea
 ms.author: windowssdkdev
 ms.date: 12/5/2018

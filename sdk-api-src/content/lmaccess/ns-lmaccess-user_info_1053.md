@@ -4,7 +4,7 @@ title: USER_INFO_1053
 author: windows-sdk-content
 description: The USER_INFO_1053 structure contains user information for network accounts. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1053_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 687b2c35-344d-49db-a1e2-fb5c2b5db2d6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

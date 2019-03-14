@@ -4,7 +4,7 @@ title: WSD_EVENTING_FILTER
 author: windows-sdk-content
 description: Represents an event filter used in WS-Eventing Subscribe messages.
 old-location: ncd\wsd_eventing_filter.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e702aca8-9784-4e51-988b-f4311573c700
 ms.author: windowssdkdev
 ms.date: 12/5/2018

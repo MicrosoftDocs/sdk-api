@@ -4,7 +4,7 @@ title: LSA_AUTH_INFORMATION
 author: windows-sdk-content
 description: The LSA_AUTH_INFORMATION structure contains authentication information for a trusted domain.
 old-location: security\lsa_auth_information.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 61c17831-4a82-4766-b5af-e97a6d467462
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SCESVC_INFO_TYPE
 author: windows-sdk-content
 description: The SCESVC_INFO_TYPE enumeration is used by PFSCE_QUERY_INFO and PFSCE_SET_INFO to indicate the type of information requested from or passed to the security database. It can be one of the following values.
 old-location: security\scesvc_info_type.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 697dfecf-46a9-4558-90e2-099fabc60742
 ms.author: windowssdkdev
 ms.date: 12/5/2018

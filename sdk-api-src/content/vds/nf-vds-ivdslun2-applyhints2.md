@@ -4,7 +4,7 @@ title: IVdsLun2::ApplyHints2
 author: windows-sdk-content
 description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes. This method is identical to the IVdsLun::ApplyHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdslun2_applyhints2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0032dce3-876c-4a02-8e06-203b3f83ca08
 ms.author: windowssdkdev
 ms.date: 12/5/2018

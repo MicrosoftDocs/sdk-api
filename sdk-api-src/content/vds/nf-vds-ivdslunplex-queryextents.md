@@ -4,7 +4,7 @@ title: IVdsLunPlex::QueryExtents
 author: windows-sdk-content
 description: Returns an array of the drive extents that contribute to the plex.
 old-location: base\ivdslunplex_queryextents.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e9ed5bdd-c696-47cc-84c8-266b230f7970
 ms.author: windowssdkdev
 ms.date: 12/5/2018

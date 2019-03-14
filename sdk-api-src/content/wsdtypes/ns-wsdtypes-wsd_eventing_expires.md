@@ -4,7 +4,7 @@ title: WSD_EVENTING_EXPIRES
 author: windows-sdk-content
 description: Represents the expiration time of a WS-Eventing message.
 old-location: ncd\wsd_eventing_expires.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 728eacdb-3c27-4884-a9ba-34979590a57c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

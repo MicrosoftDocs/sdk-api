@@ -4,7 +4,7 @@ title: IVdsService::QueryProviders
 author: windows-sdk-content
 description: Returns an enumeration object containing a list of the hardware and software providers known to VDS.
 old-location: base\ivdsservice_queryproviders.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 55171eb1-6fec-4651-914c-88d23e8d7849
 ms.author: windowssdkdev
 ms.date: 12/5/2018

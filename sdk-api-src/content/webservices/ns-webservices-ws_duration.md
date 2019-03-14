@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Represents a <a href=" http://go.microsoft.com/fwlink/p/?linkid=139717">xsd:duration</a> data type.
+Represents a <a href="http://go.microsoft.com/fwlink/p/?linkid=139717">xsd:duration</a> data type.
       
 
 

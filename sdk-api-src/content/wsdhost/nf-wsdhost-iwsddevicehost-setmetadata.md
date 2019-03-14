@@ -4,7 +4,7 @@ title: IWSDDeviceHost::SetMetadata
 author: windows-sdk-content
 description: Sets the metadata for a device, excluding user-defined service metadata.
 old-location: ncd\iwsddevicehost_setmetadata_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: dc4cbed9-9ec4-4bbd-b1c9-89c4c11ff424
 ms.author: windowssdkdev
 ms.date: 12/5/2018

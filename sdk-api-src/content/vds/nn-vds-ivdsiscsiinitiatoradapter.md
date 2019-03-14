@@ -4,7 +4,7 @@ title: IVdsIscsiInitiatorAdapter
 author: windows-sdk-content
 description: Provides methods to query and interact with iSCSI initiator adapters on the local system.
 old-location: base\ivdsiscsiinitiatoradapter.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3f911878-28c6-41db-ae9c-81e282aabf9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

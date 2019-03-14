@@ -4,7 +4,7 @@ title: VDS_SUB_SYSTEM_PROP
 author: windows-sdk-content
 description: Defines the properties of a subsystem object.
 old-location: base\vds_sub_system_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8fecb874-5c59-4f55-b528-040ff9209612
 ms.author: windowssdkdev
 ms.date: 12/5/2018

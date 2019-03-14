@@ -4,7 +4,7 @@ title: NetGroupDel function
 author: windows-sdk-content
 description: The NetGroupDel function deletes a global group from the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupdel.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e637d1af-c900-4c91-a771-1428f9cfac8b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

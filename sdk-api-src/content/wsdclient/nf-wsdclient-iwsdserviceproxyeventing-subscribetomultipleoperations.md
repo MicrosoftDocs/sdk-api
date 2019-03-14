@@ -4,7 +4,7 @@ title: IWSDServiceProxyEventing::SubscribeToMultipleOperations
 author: windows-sdk-content
 description: Subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_subscribetomultipleoperations.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 0df5b429-5b6e-4cef-af05-7f615c93aa0f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

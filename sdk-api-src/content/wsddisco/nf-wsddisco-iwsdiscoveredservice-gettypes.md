@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetTypes
 author: windows-sdk-content
 description: Retrieves a list of WS-Discovery Types.
 old-location: ncd\iwsdiscoveredservice_gettypes.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: fda4def4-4c1d-49a7-bfc1-56ff744a7a9d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

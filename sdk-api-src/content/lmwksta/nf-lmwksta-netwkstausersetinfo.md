@@ -4,7 +4,7 @@ title: NetWkstaUserSetInfo function
 author: windows-sdk-content
 description: The NetWkstaUserSetInfo function sets the user-specific information about the configuration elements for a workstation.
 old-location: netmgmt\netwkstausersetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: d48667a3-5ae9-4a7d-9af6-14f08835940d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

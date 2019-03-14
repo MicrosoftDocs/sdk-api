@@ -4,7 +4,7 @@ title: USER_INFO_0
 author: windows-sdk-content
 description: The USER_INFO_0 structure contains a user account name.
 old-location: netmgmt\user_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 5d24a2dd-d1ee-4c97-8fbc-0b336313b60c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

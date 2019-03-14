@@ -4,7 +4,7 @@ title: IWSDMetadataExchange
 author: windows-sdk-content
 description: Is the base class for other objects which access metadata.
 old-location: ncd\iwsdmetadataexchange.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: f4e2c2f7-3e76-4a17-88f8-9d59c18343a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

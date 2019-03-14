@@ -4,7 +4,7 @@ title: VDS_PORT_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of controller port events.
 old-location: base\vds_port_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 4de0969f-fed5-42c7-a5f8-0bd6c58dc237
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSD_CONFIG_ADDRESSES
 author: windows-sdk-content
 description: Information about specific addresses that a host should listen on.
 old-location: ncd\wsd_config_addresses.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: aaec97f4-c0b9-49d3-ab4c-758feda15d6a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

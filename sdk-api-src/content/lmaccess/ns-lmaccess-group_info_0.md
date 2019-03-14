@@ -4,7 +4,7 @@ title: GROUP_INFO_0
 author: windows-sdk-content
 description: The GROUP_INFO_0 structure contains the name of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\group_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 019796d1-b987-45d2-90df-1d3b484217a9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

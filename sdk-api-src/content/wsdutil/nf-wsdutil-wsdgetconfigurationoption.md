@@ -4,7 +4,7 @@ title: WSDGetConfigurationOption function
 author: windows-sdk-content
 description: Gets a WSDAPI configuration option.
 old-location: ncd\wsdgetconfigurationoption.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 33fc271e-4cc5-466c-8688-7b19f4399f8e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

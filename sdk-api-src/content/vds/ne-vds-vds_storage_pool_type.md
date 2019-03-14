@@ -4,7 +4,7 @@ title: VDS_STORAGE_POOL_TYPE
 author: windows-sdk-content
 description: Defines the set of storage pool types.
 old-location: base\vds_storage_pool_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 813d3452-46ad-4f7a-ab53-e3f6577b00ba
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -78,7 +78,7 @@ The storage pool type is concrete (non-primordial).
 
 
 
-The terms <i>primordial storage pool</i> and <i>concrete storage pool</i> are defined in section 5.1.3 of the "Part 3: Block Devices" portion of the <a href=" http://go.microsoft.com/fwlink/p/?linkid=161225">SMI-S v1.5 specification</a>, which can be downloaded from the <a href="http://go.microsoft.com/fwlink/p/?linkid=161226">SNIA website</a>.
+The terms <i>primordial storage pool</i> and <i>concrete storage pool</i> are defined in section 5.1.3 of the "Part 3: Block Devices" portion of the <a href="http://go.microsoft.com/fwlink/p/?linkid=161225">SMI-S v1.5 specification</a>, which can be downloaded from the <a href="http://go.microsoft.com/fwlink/p/?linkid=161226">SNIA website</a>.
 
 A storage area network (SAN) can contain one primordial pool. You can create multiple concrete pools within the primordial pool. The attributes in the <a href="https://msdn.microsoft.com/3dfbd3d9-ec2e-44ac-9d0f-7aa6c530db18">VDS_POOL_ATTRIBUTES</a> structure do not apply to a primordial pool, because it contains all physically available storage on the SAN. For example, suppose you have ten 10-GB SAN drives, five of which are in a concrete pool. In the Disk Management utility, the primordial pool has ten disk drives and a size of 100 GB, because it has a total of 100 GB of storage space available. The concrete pool has only 50 GB of storage space available. But if it is thin-provisioned, the size that the Disk Management utility reports for the concrete pool might be much larger than 50 GB.
 

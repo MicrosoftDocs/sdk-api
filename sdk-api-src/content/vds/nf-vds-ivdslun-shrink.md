@@ -4,7 +4,7 @@ title: IVdsLun::Shrink
 author: windows-sdk-content
 description: Shrinks a LUN by a specified number of bytes.
 old-location: base\ivdslun_shrink.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: a02f7741-c17a-48f3-a823-292613aa287b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

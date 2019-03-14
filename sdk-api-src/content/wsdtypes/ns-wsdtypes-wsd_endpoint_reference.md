@@ -4,7 +4,7 @@ title: WSD_ENDPOINT_REFERENCE
 author: windows-sdk-content
 description: Represents a WS-Addressing endpoint reference.
 old-location: ncd\wsd_endpoint_reference_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 97d6870e-3633-4bea-9a50-984e6b0ba3a1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

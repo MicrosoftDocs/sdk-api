@@ -4,7 +4,7 @@ title: SERVER_INFO_1530
 author: windows-sdk-content
 description: The SERVER_INFO_1530 structure specifies the minimum number of available receive work items the server requires to begin processing a server message block.
 old-location: netmgmt\server_info_1530_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 972c69e6-9f9c-49c2-a799-7b72dd8aa696
 ms.author: windowssdkdev
 ms.date: 12/5/2018

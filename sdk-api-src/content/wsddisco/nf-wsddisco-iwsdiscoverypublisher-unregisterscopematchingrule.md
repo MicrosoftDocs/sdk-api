@@ -4,7 +4,7 @@ title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
 author: windows-sdk-content
 description: Removes support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_unregisterscopematchingrule_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 82af2ea1-8415-45f7-ab05-805a66689482
 ms.author: windowssdkdev
 ms.date: 12/5/2018

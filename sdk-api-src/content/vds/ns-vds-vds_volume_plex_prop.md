@@ -4,7 +4,7 @@ title: VDS_VOLUME_PLEX_PROP
 author: windows-sdk-content
 description: Defines the properties of a volume plex object.
 old-location: base\vds_volume_plex_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 225cdc5e-045b-407f-b383-8f92025fbbd6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsProviderPrivate::OnLoad
 author: windows-sdk-content
 description: Prompts the provider to initialize itself, and passes a callback object that the provider uses to get necessary interfaces.
 old-location: base\ivdsproviderprivate_onload.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c5b2ac78-6a23-470c-a762-26ce6358e0b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

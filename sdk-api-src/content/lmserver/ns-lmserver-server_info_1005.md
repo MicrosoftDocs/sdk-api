@@ -4,7 +4,7 @@ title: SERVER_INFO_1005
 author: windows-sdk-content
 description: The SERVER_INFO_1005 structure contains a comment that describes the specified server.
 old-location: netmgmt\server_info_1005_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: a8ce88ee-2b44-4b12-ba7a-f84249a3621b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

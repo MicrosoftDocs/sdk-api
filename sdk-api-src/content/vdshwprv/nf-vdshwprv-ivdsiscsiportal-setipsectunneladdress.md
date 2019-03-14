@@ -4,7 +4,7 @@ title: IVdsIscsiPortal::SetIpsecTunnelAddress
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportal_setipsectunneladdress.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 200ac111-7029-4bfa-a08b-b4bce3c86bb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDOutboundAttachment::Abort
 author: windows-sdk-content
 description: Aborts the transfer of data on the attachment MIME data stream.
 old-location: ncd\iwsdoutboundattachment_abort.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: add0160c-bbf7-446e-8592-a05fd4d16fac
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_11
 author: windows-sdk-content
 description: The USER_INFO_11 structure contains information about a user account, including the account name, privilege level, the path to the user's home directory, and other user-related network statistics.
 old-location: netmgmt\user_info_11_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 718e7143-a6df-4912-954c-cc63bb490044
 ms.author: windowssdkdev
 ms.date: 12/5/2018

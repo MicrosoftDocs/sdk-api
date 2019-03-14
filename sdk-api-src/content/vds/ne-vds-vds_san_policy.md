@@ -4,7 +4,7 @@ title: VDS_SAN_POLICY
 author: windows-sdk-content
 description: Defines the set of valid disk SAN policy flags.
 old-location: base\vds_san_policy.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2da99388-8ee6-4e6b-98dc-52f12290c4dc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsLunIscsi::AssociateTargets
 author: windows-sdk-content
 description: Associates LUNs with subsystem iSCSI targets.
 old-location: base\ivdsluniscsi_associatetargets.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: eb80020b-caf8-4d85-b250-d9a8738b8848
 ms.author: windowssdkdev
 ms.date: 12/5/2018

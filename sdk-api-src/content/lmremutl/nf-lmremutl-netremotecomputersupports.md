@@ -4,7 +4,7 @@ title: NetRemoteComputerSupports function
 author: windows-sdk-content
 description: The NetRemoteComputerSupports function queries the redirector to retrieve the optional features the remote system supports.
 old-location: netmgmt\netremotecomputersupports.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: e807489a-250e-4d4c-adb6-eff8ac30603b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsDrive::SetStatus
 author: windows-sdk-content
 description: Sets the status of the drive to the specified value.
 old-location: base\ivdsdrive_setstatus.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

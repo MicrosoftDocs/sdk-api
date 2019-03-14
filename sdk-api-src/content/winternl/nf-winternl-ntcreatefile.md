@@ -933,7 +933,7 @@ The <i>CreateOptions</i> parameter's <b>FILE_RESERVE_OPFILTER</b> flag allows an
 
 NTFS is the only Microsoft file system that implements <b>FILE_RESERVE_OPFILTER</b>.
 
-For more information on oplocks, see <a href=" http://go.microsoft.com/fwlink/p/?linkid=163448">Oplock Semantics</a>.
+For more information on oplocks, see <a href="http://go.microsoft.com/fwlink/p/?linkid=163448">Oplock Semantics</a>.
 
 Note that the WDK header file NtDef.h is necessary for many constant definitions 
     as well as the <b>InitializeObjectAttributes</b> macro. The associated import library, 

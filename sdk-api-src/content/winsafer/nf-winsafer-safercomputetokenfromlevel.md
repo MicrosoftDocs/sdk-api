@@ -4,7 +4,7 @@ title: SaferComputeTokenFromLevel function
 author: windows-sdk-content
 description: Restricts a token using restrictions specified by a SAFER_LEVEL_HANDLE.
 old-location: security\safercomputetokenfromlevel.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 39406331-3101-48f2-8b92-e049849b2b38
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -112,7 +112,7 @@ On output, the value of the <i>lpReserved</i> parameter specifies the result of 
 </dl>
 </td>
 <td width="60%">
-If this flag is set, the system does not check <a href=" http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules  or apply <a href="http://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a>. For <a href=" http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
+If this flag is set, the system does not check <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a> rules  or apply <a href="http://go.microsoft.com/fwlink/p/?linkid=161971">Software Restriction Policies</a>. For <a href="http://go.microsoft.com/fwlink/p/?linkid=161970">AppLocker</a>, this flag disables checks for all four rule collections: Executable, Windows Installer, Script, and DLL. 
 
 Set this flag when creating a setup program that must run extracted DLLs during installation.
 

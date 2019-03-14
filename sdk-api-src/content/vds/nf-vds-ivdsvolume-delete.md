@@ -4,7 +4,7 @@ title: IVdsVolume::Delete
 author: windows-sdk-content
 description: Deletes the volume and all plexes, releasing the extents.
 old-location: base\ivdsvolume_delete.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6cc7cb6d-4495-41b7-8fe5-d2e1f574ed70
 ms.author: windowssdkdev
 ms.date: 12/5/2018

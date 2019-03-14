@@ -4,7 +4,7 @@ title: IWSDScopeMatchingRule::MatchScopes
 author: windows-sdk-content
 description: Is called to compare two scopes to determine if they match.
 old-location: ncd\iwsdscopematchingrule_matchscopes_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 0790d3ef-c84a-4882-96f6-dbca87b2ec53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

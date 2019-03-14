@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_0
 author: windows-sdk-content
 description: The USER_MODALS_INFO_0 structure contains global password information for users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: cf3dd091-106e-4a0d-b4db-62bd11fd65cf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

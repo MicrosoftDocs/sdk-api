@@ -4,7 +4,7 @@ title: VDS_VDISK_STATE
 author: windows-sdk-content
 description: Defines the set of status values for a virtual disk object.
 old-location: base\vds_vdisk_state.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 62906f28-f6ae-488c-bf1f-655de5c7b95e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

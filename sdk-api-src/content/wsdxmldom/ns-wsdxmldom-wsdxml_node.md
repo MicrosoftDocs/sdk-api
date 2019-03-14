@@ -4,7 +4,7 @@ title: WSDXML_NODE
 author: windows-sdk-content
 description: Describes an XML node.
 old-location: ncd\wsdxml_node_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 10c918b2-a7b9-4ebb-a884-64877bebb973
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSD_METADATA_SECTION_LIST
 author: windows-sdk-content
 description: Represents a node in a single-linked list of metadata sections.
 old-location: ncd\wsd_metadata_section_list_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e5c6373a-f365-499d-a971-472ffa557a41
 ms.author: windowssdkdev
 ms.date: 12/5/2018

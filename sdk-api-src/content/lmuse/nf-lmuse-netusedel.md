@@ -4,7 +4,7 @@ title: NetUseDel function
 author: windows-sdk-content
 description: The NetUseDel function ends a connection to a shared resource.
 old-location: netmgmt\netusedel.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 200b0640-71e9-4f60-bf4c-c8df10bfe095
 ms.author: windowssdkdev
 ms.date: 12/5/2018

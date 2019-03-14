@@ -4,7 +4,7 @@ title: LOCALGROUP_INFO_0
 author: windows-sdk-content
 description: The LOCALGROUP_INFO_0 structure contains a local group name.
 old-location: netmgmt\localgroup_info_0_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: dfdb4c20-ea4a-45c9-b4f3-d6a844f89bb6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

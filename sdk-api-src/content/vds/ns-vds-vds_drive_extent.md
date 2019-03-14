@@ -4,7 +4,7 @@ title: VDS_DRIVE_EXTENT
 author: windows-sdk-content
 description: Defines the properties of a drive extent.
 old-location: base\vds_drive_extent.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c155d925-e86f-4bec-9032-dae2221172a7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

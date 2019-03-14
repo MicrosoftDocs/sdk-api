@@ -4,7 +4,7 @@ title: SAFER_IDENTIFICATION_TYPES
 author: windows-sdk-content
 description: Defines the possible types of identification rule structures that can be identified by the SAFER_IDENTIFICATION_HEADER structure.
 old-location: security\safer_identification_types.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: ced40d58-e9f1-47cc-9e05-fdaa253bb16b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

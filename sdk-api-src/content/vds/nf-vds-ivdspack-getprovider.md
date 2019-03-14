@@ -4,7 +4,7 @@ title: IVdsPack::GetProvider
 author: windows-sdk-content
 description: Returns the software provider associated with a pack.
 old-location: base\ivdspack_getprovider.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b6e7ca7c-b95f-457d-996b-b3c449b6ce6b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

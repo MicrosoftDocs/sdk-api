@@ -4,7 +4,7 @@ title: VDS_PORT_STATUS
 author: windows-sdk-content
 description: Defines the set of object status values for a port.
 old-location: base\vds_port_status.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 6e363020-caf4-4028-abd5-7f311edb2e69
 ms.author: windowssdkdev
 ms.date: 12/5/2018

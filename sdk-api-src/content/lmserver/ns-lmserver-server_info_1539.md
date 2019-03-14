@@ -4,7 +4,7 @@ title: SERVER_INFO_1539
 author: windows-sdk-content
 description: The SERVER_INFO_1539 structure specifies whether the server processes raw Server Message Blocks (SMBs).
 old-location: netmgmt\server_info_1539_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 938c6db6-16ab-4c8c-8fe3-e12f8e0421b4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

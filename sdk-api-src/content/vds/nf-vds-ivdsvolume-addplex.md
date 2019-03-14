@@ -4,7 +4,7 @@ title: IVdsVolume::AddPlex
 author: windows-sdk-content
 description: Adds a volume as a plex to the current volume.
 old-location: base\ivdsvolume_addplex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b463ad74-400d-4100-83ff-3eb98e6a0db4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

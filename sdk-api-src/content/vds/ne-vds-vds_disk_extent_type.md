@@ -4,7 +4,7 @@ title: VDS_DISK_EXTENT_TYPE
 author: windows-sdk-content
 description: Defines the set of disk extents types. The type can be a partition, volume, or free space.
 old-location: base\vds_disk_extent_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3f7a5dba-315b-4757-bd4c-1335c18739eb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

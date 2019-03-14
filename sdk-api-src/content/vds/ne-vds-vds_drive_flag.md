@@ -4,7 +4,7 @@ title: VDS_DRIVE_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a drive object.
 old-location: base\vds_drive_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 50ddb9d1-32c9-4fee-bb88-498380a34c85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

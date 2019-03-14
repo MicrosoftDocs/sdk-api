@@ -4,7 +4,7 @@ title: NetUserSetInfo function
 author: windows-sdk-content
 description: The NetUserSetInfo function sets the parameters of a user account.
 old-location: netmgmt\netusersetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ffe49d4b-e7e8-4982-8087-59bb7534b257
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -661,7 +661,7 @@ If the
 User account names are limited to 20 characters and group names are limited to 256 characters. In addition, account names cannot be terminated by a period and they cannot include commas or any of the following printable characters: ", /, \, [, ], :, |, &lt;, &gt;, +, =, ;, ?, *. Names also cannot include characters in the range 1-31, which are nonprintable.
 
 The 
-<b>NetUserSetInfo</b> function does not control how the password parameters are secured when sent over the network to a remote server to change a user password. Any encryption of these parameters is handled by the Remote Procedure Call (RPC) mechanism supported by the network redirector that provides the network transport. Encryption is also controlled  by the security mechanisms supported by the local computer and the security mechanisms supported by remote network server specified in the <i>servername</i>   parameter. For more details on security when the Microsoft network redirector is used and the remote network server is running Microsoft Windows, see the protocol documentation for <a href="http://go.microsoft.com/fwlink/p/?linkid=200126">MS-RPCE</a> and <a href=" http://go.microsoft.com/fwlink/p/?linkid=200128">MS-SAMR</a>.
+<b>NetUserSetInfo</b> function does not control how the password parameters are secured when sent over the network to a remote server to change a user password. Any encryption of these parameters is handled by the Remote Procedure Call (RPC) mechanism supported by the network redirector that provides the network transport. Encryption is also controlled  by the security mechanisms supported by the local computer and the security mechanisms supported by remote network server specified in the <i>servername</i>   parameter. For more details on security when the Microsoft network redirector is used and the remote network server is running Microsoft Windows, see the protocol documentation for <a href="http://go.microsoft.com/fwlink/p/?linkid=200126">MS-RPCE</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=200128">MS-SAMR</a>.
 
 
 #### Examples

@@ -4,7 +4,7 @@ title: SERVER_INFO_1107
 author: windows-sdk-content
 description: The SERVER_INFO_1107 structure specifies the number of users that can simultaneously log on to the specified server.
 old-location: netmgmt\server_info_1107_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 8e0b9157-5f06-4555-ab9e-b98b99e0f20d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

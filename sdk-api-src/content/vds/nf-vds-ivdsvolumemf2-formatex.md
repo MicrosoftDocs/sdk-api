@@ -4,7 +4,7 @@ title: IVdsVolumeMF2::FormatEx
 author: windows-sdk-content
 description: Formats a file system volume on a partition.
 old-location: base\ivdsvolumemf2_formatex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: c1d08018-4e9b-466a-b8dd-074b2ce0c8fe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

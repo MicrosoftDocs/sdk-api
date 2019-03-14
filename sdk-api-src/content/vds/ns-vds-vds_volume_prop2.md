@@ -4,7 +4,7 @@ title: VDS_VOLUME_PROP2
 author: windows-sdk-content
 description: Defines the properties of a volume object. This structure is identical to the VDS_VOLUME_PROP structure, except that it also includes the volume GUIDs.
 old-location: base\vds_volume_prop2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e99aaead-f5ad-4181-9208-9158e9fac38f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsDisk::GetIdentificationData
 author: windows-sdk-content
 description: Retrieves information that uniquely identifies a disk.
 old-location: base\ivdsdisk_getidentificationdata.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 400fa102-f98a-4bc1-919c-858c135a5b93
 ms.author: windowssdkdev
 ms.date: 12/5/2018

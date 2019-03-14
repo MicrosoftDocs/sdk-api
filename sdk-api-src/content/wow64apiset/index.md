@@ -7,7 +7,7 @@ ms.keywords:
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: base
+tech.root: fs
 ---
 
 # Wow64Apiset.h header
@@ -16,6 +16,6 @@ tech.root: base
 ## -description
 
 
-This header is used by System Services. For more information, see:
+This header is used by Data Access and Storage. For more information, see:
 
-- [System Services](../_base)
+- [Data Access and Storage](../_fs)

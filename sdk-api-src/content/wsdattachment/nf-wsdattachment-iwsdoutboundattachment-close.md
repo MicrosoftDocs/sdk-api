@@ -4,7 +4,7 @@ title: IWSDOutboundAttachment::Close
 author: windows-sdk-content
 description: Closes the current attachment MIME data stream.
 old-location: ncd\iwsdoutboundattachment_close_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 8ab63ed5-7b71-4f28-926d-a24666f0dd15
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsOpenVDisk::DetachAndDelete
 author: windows-sdk-content
 description: Detaches a virtual disk and deletes the backing files.
 old-location: base\ivdsopenvdisk_detachanddelete.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 79179da4-3c88-480b-bfb8-c4315fa56c4e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

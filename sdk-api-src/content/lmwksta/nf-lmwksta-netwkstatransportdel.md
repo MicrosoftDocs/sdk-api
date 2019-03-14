@@ -4,7 +4,7 @@ title: NetWkstaTransportDel function
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netwkstatransportdel.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 6d0ec459-8d7b-41fe-96dd-203e6a42164f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

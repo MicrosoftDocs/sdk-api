@@ -4,7 +4,7 @@ title: GetNetScheduleAccountInformation function
 author: windows-sdk-content
 description: The GetNetScheduleAccountInformation function retrieves the AT Service account name.
 old-location: netmgmt\getnetscheduleaccountinformation.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726
 ms.author: windowssdkdev
 ms.date: 12/5/2018

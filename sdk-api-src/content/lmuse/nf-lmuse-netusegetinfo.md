@@ -4,7 +4,7 @@ title: NetUseGetInfo function
 author: windows-sdk-content
 description: The NetUseGetInfo function retrieves information about a connection to a shared resource.
 old-location: netmgmt\netusegetinfo.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 257875db-5ed9-4569-8dbb-5dcc7a6af95c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

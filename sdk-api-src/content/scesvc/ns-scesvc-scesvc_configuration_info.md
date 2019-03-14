@@ -4,7 +4,7 @@ title: SCESVC_CONFIGURATION_INFO
 author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_INFO structure provides configuration information for a service. This structure is used by the PFSCE_QUERY_INFO and PFSCE_SET_INFO functions when the configuration information is specified.
 old-location: security\scesvc_configuration_info.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: a89ab072-7b7c-4ecd-83fa-26e2689778df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

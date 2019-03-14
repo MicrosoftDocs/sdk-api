@@ -4,7 +4,7 @@ title: IVdsLunMpio::GetLoadBalancePolicy
 author: windows-sdk-content
 description: Returns the current load balance policy on the LUN.
 old-location: base\ivdslunmpio_getloadbalancepolicy.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 56866ecb-c84b-4297-9bd4-54969501bf9e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

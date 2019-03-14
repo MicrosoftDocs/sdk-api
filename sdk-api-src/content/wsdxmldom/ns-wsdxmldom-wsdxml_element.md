@@ -4,7 +4,7 @@ title: WSDXML_ELEMENT
 author: windows-sdk-content
 description: Describes an XML element.
 old-location: ncd\wsdxml_element_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 727149b4-31b0-4fd8-b0fa-eb773edb171e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

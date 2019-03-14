@@ -4,7 +4,7 @@ title: WSDCreateDeviceHost2 function
 author: windows-sdk-content
 description: Creates a device host that can support signed messages and returns a pointer to the IWSDDeviceHost interface.
 old-location: ncd\wsdcreatedevicehost2.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 2d2a78a2-fca6-4f54-9c75-3406a3c8d492
 ms.author: windowssdkdev
 ms.date: 12/5/2018

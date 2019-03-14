@@ -4,7 +4,7 @@ title: IWSDSignatureProperty
 author: windows-sdk-content
 description: Provides properties of signed messages.
 old-location: ncd\iwsdsignatureproperty.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 10e95100-4890-4c00-b231-bb7125fed197
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -118,7 +118,7 @@ Specifies if a message is signed.
 
 
 
-An application can acquire this interface by calling the <a href=" http://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> method of <a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a>.
+An application can acquire this interface by calling the <a href="http://go.microsoft.com/fwlink/p/?linkid=22407">QueryInterface</a> method of <a href="https://msdn.microsoft.com/6516098a-e440-4dec-b275-165ea3072d49">IWSDiscoveredService</a>.
 
 <b>IWSDSignatureProperty</b> is useful to an application that wants to perform its own signature validation.  By passing a <b>NULL</b> to the <i>pConfigParam</i> of <a href="https://msdn.microsoft.com/dc757897-032c-4ea3-8f4e-cf00d4ec385b">WSDCreateDiscoveryProvider2</a>, the internal signature validation is disabled and the provider can perform its own validation by examining these properties.
 

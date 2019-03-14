@@ -4,7 +4,7 @@ title: NetScheduleJobAdd function
 author: windows-sdk-content
 description: The NetScheduleJobAdd function submits a job to run at a specified future time and date. This function requires that the schedule service be started on the computer to which the job is submitted.
 old-location: netmgmt\netschedulejobadd.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 813d13ba-abe1-4b14-88c7-87ba88a42a3b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

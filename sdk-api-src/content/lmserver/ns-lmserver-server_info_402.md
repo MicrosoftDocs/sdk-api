@@ -4,7 +4,7 @@ title: SERVER_INFO_402
 author: windows-sdk-content
 description: Contains information about a specified server.
 old-location: netmgmt\server_info_402_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 51e5c27e-6a7d-45ac-9cfa-37b1f7f241f9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

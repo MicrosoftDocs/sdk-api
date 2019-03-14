@@ -4,7 +4,7 @@ title: NetGroupAdd function
 author: windows-sdk-content
 description: The NetGroupAdd function creates a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupadd.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: fbf90758-79fd-4959-b6d0-ad3872e77242
 ms.author: windowssdkdev
 ms.date: 12/5/2018

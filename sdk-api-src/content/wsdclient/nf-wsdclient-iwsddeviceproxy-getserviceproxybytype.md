@@ -4,7 +4,7 @@ title: IWSDDeviceProxy::GetServiceProxyByType
 author: windows-sdk-content
 description: Retrieves a generic IWSDServiceProxy proxy for a service exposed by the device by port type name.
 old-location: ncd\iwsddeviceproxy_getserviceproxybytype_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 20df9a62-b983-40ed-a4bc-07131b80de6e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

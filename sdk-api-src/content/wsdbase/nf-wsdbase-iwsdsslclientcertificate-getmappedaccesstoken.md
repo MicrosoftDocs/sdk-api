@@ -4,7 +4,7 @@ title: IWSDSSLClientCertificate::GetMappedAccessToken
 author: windows-sdk-content
 description: Gets the mapped access token.
 old-location: ncd\iwsdsslclientcertificate_getmappedaccesstoken.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 79dbd838-cffd-4571-8227-e508673c1b02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

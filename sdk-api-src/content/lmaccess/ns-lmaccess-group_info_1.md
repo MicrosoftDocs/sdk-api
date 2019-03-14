@@ -4,7 +4,7 @@ title: GROUP_INFO_1
 author: windows-sdk-content
 description: The GROUP_INFO_1 structure contains a global group name and a comment to associate with the group.
 old-location: netmgmt\group_info_1_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 0b42a438-64fd-4f37-98b8-77e10c09548c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

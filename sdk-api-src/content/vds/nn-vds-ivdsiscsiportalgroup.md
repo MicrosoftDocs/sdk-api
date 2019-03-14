@@ -4,7 +4,7 @@ title: IVdsIscsiPortalGroup
 author: windows-sdk-content
 description: Provides methods for performing query and configuration services on an iSCSI portal group.
 old-location: base\ivdsiscsiportalgroup.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
 ms.author: windowssdkdev
 ms.date: 12/5/2018

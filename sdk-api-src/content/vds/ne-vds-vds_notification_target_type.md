@@ -4,7 +4,7 @@ title: VDS_NOTIFICATION_TARGET_TYPE
 author: windows-sdk-content
 description: Defines the set of the valid target types (subjects) of a VDS notification.
 old-location: base\vds_notification_target_type.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ce1f67b4-f7ea-4797-9073-0d80879c4a63
 ms.author: windowssdkdev
 ms.date: 12/5/2018

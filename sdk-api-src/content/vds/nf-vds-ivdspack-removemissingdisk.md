@@ -4,7 +4,7 @@ title: IVdsPack::RemoveMissingDisk
 author: windows-sdk-content
 description: Removes a disk that is missing from the pack. This method applies to software provider objects only.
 old-location: base\ivdspack_removemissingdisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f7bdd5b9-430b-49c8-8476-be15eb3948c6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

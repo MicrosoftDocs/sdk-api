@@ -4,7 +4,7 @@ title: IVdsVdProvider::AddVDisk
 author: windows-sdk-content
 description: Creates a virtual disk object for an existing virtual disk file.
 old-location: base\ivdsvdprovider_addvdisk.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: ef154bf3-ad30-4e6e-8292-af2037eced02
 ms.author: windowssdkdev
 ms.date: 12/5/2018

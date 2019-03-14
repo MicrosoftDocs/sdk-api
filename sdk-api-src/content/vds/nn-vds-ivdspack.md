@@ -4,7 +4,7 @@ title: IVdsPack
 author: windows-sdk-content
 description: Provides methods to query and perform management operations on a pack containing disks and volumes.
 old-location: base\ivdspack.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 106989fe-d1dd-4c7f-b889-00a671c6e567
 ms.author: windowssdkdev
 ms.date: 12/5/2018

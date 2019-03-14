@@ -4,7 +4,7 @@ title: IVdsDiskPartitionMF2
 author: windows-sdk-content
 description: Provides a method to format a partition with additional formatting options.
 old-location: base\ivdsdiskpartitionmf2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 94a8ef66-3daf-46d4-be5f-dd56739c773a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

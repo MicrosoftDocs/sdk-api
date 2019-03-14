@@ -4,7 +4,7 @@ title: WSDCreateDeviceProxy function
 author: windows-sdk-content
 description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface.
 old-location: ncd\wsdcreatedeviceproxy.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: d432ae9a-cf34-4149-978c-637443a3824f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

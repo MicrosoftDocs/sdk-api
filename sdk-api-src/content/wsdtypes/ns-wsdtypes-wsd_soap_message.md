@@ -4,7 +4,7 @@ title: WSD_SOAP_MESSAGE
 author: windows-sdk-content
 description: The contents of a WSD SOAP message.
 old-location: ncd\wsd_soap_message_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: e5352a78-3ece-45d3-bf95-2d922065e3d5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

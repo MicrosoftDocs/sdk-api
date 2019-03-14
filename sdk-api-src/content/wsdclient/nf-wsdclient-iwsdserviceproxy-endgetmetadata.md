@@ -4,7 +4,7 @@ title: IWSDServiceProxy::EndGetMetadata
 author: windows-sdk-content
 description: Completes the asynchronous metadata exchange request and retrieves the service metadata from the response.
 old-location: ncd\iwsdserviceproxy_endgetmetadata.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 6024770a-e4cb-4db1-9767-51b559fd8244
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: SERVER_INFO_1518
 author: windows-sdk-content
 description: The SERVER_INFO_1518 structure specifies whether the server is visible to LAN Manager 2.x clients.
 old-location: netmgmt\server_info_1518_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: d8516ab1-5e1b-42b8-96c4-79ea58d8857e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsController::Reset
 author: windows-sdk-content
 description: Reinitializes the controller and invalidates the cache.
 old-location: base\ivdscontroller_reset.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: e3b08b80-b81d-444b-86f6-2d10607ad02e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsLunPlex
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a LUN plex.
 old-location: base\ivdslunplex.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: de795ae2-784c-43d7-a34c-546af31d2747
 ms.author: windowssdkdev
 ms.date: 12/5/2018

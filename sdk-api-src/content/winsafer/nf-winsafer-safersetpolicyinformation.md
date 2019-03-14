@@ -4,7 +4,7 @@ title: SaferSetPolicyInformation function
 author: windows-sdk-content
 description: Sets the global policy controls.
 old-location: security\safersetpolicyinformation.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: B8F3AFC4-8CAD-4AD2-AF17-CCE05A315AD8
 ms.author: windowssdkdev
 ms.date: 12/5/2018

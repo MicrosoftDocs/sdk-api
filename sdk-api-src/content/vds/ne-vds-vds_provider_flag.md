@@ -4,7 +4,7 @@ title: VDS_PROVIDER_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a provider object.
 old-location: base\vds_provider_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 610e11a8-6670-4e76-baa6-58dd78f7611b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

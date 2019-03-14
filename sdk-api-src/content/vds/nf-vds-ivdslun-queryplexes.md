@@ -4,7 +4,7 @@ title: IVdsLun::QueryPlexes
 author: windows-sdk-content
 description: Returns an enumeration of the plexes in a LUN.
 old-location: base\ivdslun_queryplexes.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 128708cb-2ad1-45be-8e38-b5fd943d0945
 ms.author: windowssdkdev
 ms.date: 12/5/2018

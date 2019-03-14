@@ -4,7 +4,7 @@ title: VDS_SUB_SYSTEM_FLAG
 author: windows-sdk-content
 description: Defines the set of valid flags for a subsystem object.
 old-location: base\vds_sub_system_flag.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 17a07d21-a10a-4f18-a975-def6db073256
 ms.author: windowssdkdev
 ms.date: 12/5/2018

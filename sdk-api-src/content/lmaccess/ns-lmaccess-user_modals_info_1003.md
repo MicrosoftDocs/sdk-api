@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_1003
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1003 structure contains the minimum duration for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_1003_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 5efbba0f-b871-4ffa-8e83-abeab6b70a52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

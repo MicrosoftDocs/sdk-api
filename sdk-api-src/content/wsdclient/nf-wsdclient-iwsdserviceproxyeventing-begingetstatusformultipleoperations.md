@@ -4,7 +4,7 @@ title: IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
 author: windows-sdk-content
 description: Begins an asynchronous operation that retrieves the current status.
 old-location: ncd\iwsdserviceproxyeventing_begingetstatusformultipleoperations.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: cf42f680-f19c-4ee3-824d-dc892608d4d2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: ISceSvcAttachmentData::CloseHandle
 author: windows-sdk-content
 description: The CloseHandle method closes a handle opened during a previous call to ISceSvcAttachmentData::Initialize.
 old-location: security\iscesvcattachmentdata_closehandle.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: e50f5acf-06ef-49bb-bcf1-1fadeb4b808a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

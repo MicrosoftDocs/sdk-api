@@ -4,7 +4,7 @@ title: IVdsLunPlex::QueryHints
 author: windows-sdk-content
 description: Returns the hints that are currently applied to the LUN plex.
 old-location: base\ivdslunplex_queryhints.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 4ecb0840-8eaf-47c9-b8a9-98c738ed7daf
 ms.author: windowssdkdev
 ms.date: 12/5/2018

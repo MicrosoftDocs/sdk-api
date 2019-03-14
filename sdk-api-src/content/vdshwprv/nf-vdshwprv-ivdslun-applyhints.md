@@ -4,7 +4,7 @@ title: IVdsLun::ApplyHints
 author: windows-sdk-content
 description: Applies a new set of hints to the LUN. Hints that are applied to a LUN are simultaneously applied to all plexes.
 old-location: base\ivdslun_applyhints.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2582913a-bc13-45dc-b0c8-9429945014da
 ms.author: windowssdkdev
 ms.date: 12/5/2018

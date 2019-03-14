@@ -4,7 +4,7 @@ title: USER_INFO_10
 author: windows-sdk-content
 description: The USER_INFO_10 structure contains information about a user account, including the account name, comments associated with the account, and the user's full name.
 old-location: netmgmt\user_info_10_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: f85e3e92-02b2-4ee8-8a82-38e4ef5b4072
 ms.author: windowssdkdev
 ms.date: 12/5/2018

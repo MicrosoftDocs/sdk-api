@@ -4,7 +4,7 @@ title: IVdsDisk::GetPack
 author: windows-sdk-content
 description: Returns the disk pack to which the current disk is a member.
 old-location: base\ivdsdisk_getpack.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 52c7edb5-a92d-423d-8115-e8c3cccd95b5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MSA_INFO_LEVEL
 author: windows-sdk-content
 description: Indicates the level of a managed service account.
 old-location: security\msa_info_level.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 06BD0881-30B3-4966-9F6E-29601D86B30F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

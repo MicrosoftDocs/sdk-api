@@ -4,7 +4,7 @@ title: IWSDSignatureProperty::IsMessageSignatureTrusted
 author: windows-sdk-content
 description: Specifies if a message signature is trusted.
 old-location: ncd\iwsdsignatureproperty_ismessagesignaturetrusted.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: b71ddd44-4823-455c-aea7-ee2f63b423bb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

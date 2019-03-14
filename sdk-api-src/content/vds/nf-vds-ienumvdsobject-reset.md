@@ -4,7 +4,7 @@ title: IEnumVdsObject::Reset
 author: windows-sdk-content
 description: Resets to the beginning of the enumeration.
 old-location: base\ienumvdsobject_reset.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: cdc13cd3-bd6f-422e-89fe-244e7a7540bd
 ms.author: windowssdkdev
 ms.date: 12/5/2018

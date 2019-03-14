@@ -4,7 +4,7 @@ title: NetUserAdd function
 author: windows-sdk-content
 description: The NetUserAdd function adds a user account and assigns a password and privilege level.
 old-location: netmgmt\netuseradd.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: b5ca5f76-d40b-4abf-925a-0de54fc476e4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSD_HOST_METADATA
 author: windows-sdk-content
 description: Provides metadata for all services hosted by a device.
 old-location: ncd\wsd_host_metadata_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: da774582-3b27-470d-9b6a-ac2b106a47b9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDDeviceHost::RetireService
 author: windows-sdk-content
 description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.
 old-location: ncd\iwsddevicehost_retireservice_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 7832c787-f268-44e3-b394-363299b6a823
 ms.author: windowssdkdev
 ms.date: 12/5/2018

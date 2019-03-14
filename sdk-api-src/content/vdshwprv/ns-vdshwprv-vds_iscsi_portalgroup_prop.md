@@ -4,7 +4,7 @@ title: VDS_ISCSI_PORTALGROUP_PROP
 author: windows-sdk-content
 description: Defines the properties of an iSCSI portal group.
 old-location: base\vds_iscsi_portalgroup_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 82f891a2-432b-4503-8b5a-a79bea800525
 ms.author: windowssdkdev
 ms.date: 12/5/2018

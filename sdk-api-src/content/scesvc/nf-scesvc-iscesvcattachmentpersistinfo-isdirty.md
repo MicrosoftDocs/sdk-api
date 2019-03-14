@@ -4,7 +4,7 @@ title: ISceSvcAttachmentPersistInfo::IsDirty
 author: windows-sdk-content
 description: The IsDirty method returns a value indicating whether data in the attachment snap-in has been modified since it was last saved.
 old-location: security\iscesvcattachmentpersistinfo_isdirty.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: b430e598-e16c-47fc-8f19-fbcfc6b71337
 ms.author: windowssdkdev
 ms.date: 12/5/2018

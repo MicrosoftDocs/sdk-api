@@ -4,7 +4,7 @@ title: AT_ENUM
 author: windows-sdk-content
 description: The AT_ENUM structure contains information about a submitted job. The NetScheduleJobEnum function uses this structure to enumerate and return information about an entire queue of submitted jobs.
 old-location: netmgmt\at_enum_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ed7c5171-b8aa-4a9a-8f31-4d914bcad0b1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

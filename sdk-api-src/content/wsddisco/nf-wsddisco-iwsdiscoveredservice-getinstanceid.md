@@ -4,7 +4,7 @@ title: IWSDiscoveredService::GetInstanceId
 author: windows-sdk-content
 description: Retrieves the instance identifier of this message.
 old-location: ncd\iwsdiscoveredservice_getinstanceid.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 993f4ef1-ff13-4454-b22f-29c9628da5e0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

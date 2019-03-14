@@ -4,7 +4,7 @@ title: IVdsVolumeMF3
 author: windows-sdk-content
 description: Provides methods to perform additional file system management operations on the volume object.
 old-location: base\ivdsvolumemf3.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 46b8ff26-c00b-45ef-ac30-0aa82786bf9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_1017
 author: windows-sdk-content
 description: The USER_INFO_1017 structure contains expiration information for network user accounts. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1017_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 67ded50e-ab9a-4202-9496-1a39d1af0f58
 ms.author: windowssdkdev
 ms.date: 12/5/2018

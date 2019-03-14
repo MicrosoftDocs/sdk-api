@@ -4,7 +4,7 @@ title: IWSDServiceMessaging::SendResponse
 author: windows-sdk-content
 description: Sends a response message matching a given request context.
 old-location: ncd\iwsdservicemessaging_sendresponse.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: ec136c44-b8f5-42db-a965-2dd5b3cd18ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

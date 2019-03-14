@@ -4,7 +4,7 @@ title: IWSDUdpAddress::GetExclusive
 author: windows-sdk-content
 description: Determines whether the socket is in exclusive mode.
 old-location: ncd\iwsdudpaddress_getexclusive.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 9ee62901-242a-47bc-a50d-4ced245392de
 ms.author: windowssdkdev
 ms.date: 12/5/2018

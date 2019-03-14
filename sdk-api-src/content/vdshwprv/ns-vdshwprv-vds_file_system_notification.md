@@ -4,7 +4,7 @@ title: VDS_FILE_SYSTEM_NOTIFICATION
 author: windows-sdk-content
 description: Defines the details of file-system events.
 old-location: base\vds_file_system_notification.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 81d62c22-4f29-43f6-a00e-12502174a768
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IVdsHwProviderStoragePools::QueryStoragePools
 author: windows-sdk-content
 description: Returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.
 old-location: base\ivdshwproviderstoragepools_querystoragepools.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 308c9821-927d-4b90-854d-b050f3730c22
 ms.author: windowssdkdev
 ms.date: 12/5/2018

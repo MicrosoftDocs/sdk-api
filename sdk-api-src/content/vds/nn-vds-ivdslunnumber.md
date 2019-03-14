@@ -4,7 +4,7 @@ title: IVdsLunNumber
 author: windows-sdk-content
 description: Provides a method to query the LUN number for a LUN.
 old-location: base\ivdslunnumber.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 77bd95f7-005a-474f-97c4-e211432b447d
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_2
 author: windows-sdk-content
 description: The USER_INFO_2 structure contains information about a user account, including the account name, password data, privilege level, the path to the user's home directory, and other user-related network statistics.
 old-location: netmgmt\user_info_2_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 50c78c6a-a08f-473b-929a-9528e618165f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

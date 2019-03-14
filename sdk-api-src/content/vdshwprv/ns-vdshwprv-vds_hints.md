@@ -4,7 +4,7 @@ title: VDS_HINTS
 author: windows-sdk-content
 description: Defines the automagic hints for a LUN or LUN plex.
 old-location: base\vds_hints.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2c9f04bb-a014-401e-9656-affbac11f810
 ms.author: windowssdkdev
 ms.date: 12/5/2018

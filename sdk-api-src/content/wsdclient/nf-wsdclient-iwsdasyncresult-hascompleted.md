@@ -4,7 +4,7 @@ title: IWSDAsyncResult::HasCompleted
 author: windows-sdk-content
 description: Indicates whether the operation has completed.
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
 ms.author: windowssdkdev
 ms.date: 12/5/2018

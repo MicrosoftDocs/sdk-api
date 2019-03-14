@@ -4,7 +4,7 @@ title: IWSDServiceProxy::GetEndpointProxy
 author: windows-sdk-content
 description: Gets the endpoint proxy for the device.
 old-location: ncd\iwsdserviceproxy_getendpointproxy.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 9c236f31-e3ba-4678-a4fe-1e078c9f9af3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

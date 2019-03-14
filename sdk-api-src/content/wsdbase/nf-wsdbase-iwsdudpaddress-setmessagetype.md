@@ -4,7 +4,7 @@ title: IWSDUdpAddress::SetMessageType
 author: windows-sdk-content
 description: Sets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_setmessagetype.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 1b041094-fb00-4b73-8753-cf89f9b10f97
 ms.author: windowssdkdev
 ms.date: 12/5/2018

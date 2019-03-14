@@ -4,7 +4,7 @@ title: USER_INFO_1003
 author: windows-sdk-content
 description: The USER_INFO_1003 structure contains a user password. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1003_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ef1d1ecd-7226-4e4e-a0b3-ec096d3b1207
 ms.author: windowssdkdev
 ms.date: 12/5/2018

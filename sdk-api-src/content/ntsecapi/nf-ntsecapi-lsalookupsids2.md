@@ -4,7 +4,7 @@ title: LsaLookupSids2 function
 author: windows-sdk-content
 description: Looks up the names that correspond to an array of security identifiers (SIDs) and supports Internet provider identities. If LsaLookupSids2 cannot find a name that corresponds to a SID, the function returns the SID in character form.
 old-location: security\lsalookupsids2.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 6B30D1FF-35DC-44E8-A765-36A5761EC0CE
 ms.author: windowssdkdev
 ms.date: 12/5/2018

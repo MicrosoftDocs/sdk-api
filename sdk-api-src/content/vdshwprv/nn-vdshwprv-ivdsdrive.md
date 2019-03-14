@@ -4,7 +4,7 @@ title: IVdsDrive
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a drive.
 old-location: base\ivdsdrive.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 597917cf-fb02-4949-98c3-3da3f7449ed1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

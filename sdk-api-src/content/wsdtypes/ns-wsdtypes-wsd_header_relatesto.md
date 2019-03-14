@@ -4,7 +4,7 @@ title: WSD_HEADER_RELATESTO
 author: windows-sdk-content
 description: Represents a RelatesTo SOAP envelope header block, as specified by the WS-Addressing specification.
 old-location: ncd\wsd_header_relatesto.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 6085620e-2e3d-4e77-90cd-7cb9fd2c197e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

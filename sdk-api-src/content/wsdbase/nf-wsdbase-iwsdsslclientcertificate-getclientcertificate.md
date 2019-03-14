@@ -4,7 +4,7 @@ title: IWSDSSLClientCertificate::GetClientCertificate
 author: windows-sdk-content
 description: Gets the client certificate.
 old-location: ncd\iwsdsslclientcertificate_getclientcertificate.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 82f3f4ae-80fe-4382-9a22-00c70e99524f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

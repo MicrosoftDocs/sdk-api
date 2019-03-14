@@ -4,7 +4,7 @@ title: SAFER_OBJECT_INFO_CLASS
 author: windows-sdk-content
 description: Defines the type of information requested about a Safer object.
 old-location: security\safer_object_info_class.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 31de9e42-6795-433a-937f-c4243e4961df
 ms.author: windowssdkdev
 ms.date: 12/5/2018

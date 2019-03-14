@@ -4,7 +4,7 @@ title: SERVER_INFO_1552
 author: windows-sdk-content
 description: The SERVER_INFO_1552 structure specifies the maximum time allowed for a link delay.
 old-location: netmgmt\server_info_1552_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: eb725f37-4bcd-4402-968f-ea6d58d7d79a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

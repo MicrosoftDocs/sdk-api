@@ -4,7 +4,7 @@ title: IVdsLun::AssociateControllers
 author: windows-sdk-content
 description: Sets the subsystem controllers to active or inactive with respect to the LUN.
 old-location: base\ivdslun_associatecontrollers.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 2c3dc668-1745-49f4-9cd1-3bf0b322d0b2
 ms.author: windowssdkdev
 ms.date: 12/5/2018

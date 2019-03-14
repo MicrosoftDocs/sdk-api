@@ -4,7 +4,7 @@ title: VDS_LUN_RESERVE_MODE
 author: windows-sdk-content
 description: Not supported.This enumeration is reserved for future use.
 old-location: base\vds_lun_reserve_mode.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 198706a4-3692-4f75-bf68-c56671b752a5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

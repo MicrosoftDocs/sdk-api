@@ -4,7 +4,7 @@ title: WSD_BYE
 author: windows-sdk-content
 description: Represents a Bye message.
 old-location: ncd\wsd_bye_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: b0eb67e1-1408-45ab-b7a7-ecde6619a277
 ms.author: windowssdkdev
 ms.date: 12/5/2018

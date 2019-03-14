@@ -4,7 +4,7 @@ title: GROUP_INFO_1005
 author: windows-sdk-content
 description: The GROUP_INFO_1005 structure contains the resource attributes associated with a global group.
 old-location: netmgmt\group_info_1005_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: bd93820a-e019-45f4-88c7-011a517955ad
 ms.author: windowssdkdev
 ms.date: 12/5/2018

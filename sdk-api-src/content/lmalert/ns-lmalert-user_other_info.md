@@ -4,7 +4,7 @@ title: USER_OTHER_INFO
 author: windows-sdk-content
 description: The USER_OTHER_INFO structure contains user error code information. The NetAlertRaise and NetAlertRaiseEx functions use the USER_OTHER_INFO structure to specify information about an event or condition of interest to a user.
 old-location: netmgmt\user_other_info_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 2f6bd906-fdab-410a-8856-4482e047371f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

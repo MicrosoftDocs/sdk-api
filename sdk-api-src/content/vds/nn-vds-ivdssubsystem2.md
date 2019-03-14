@@ -4,7 +4,7 @@ title: IVdsSubSystem2
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a subsystem using the VDS_HINTS2 and VDS_SUB_SYSTEM_PROP2 structures.
 old-location: base\ivdssubsystem2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 7d19792c-cd37-4ea7-8830-c33c489e63e6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

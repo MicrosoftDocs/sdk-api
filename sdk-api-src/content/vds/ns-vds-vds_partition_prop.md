@@ -4,7 +4,7 @@ title: VDS_PARTITION_PROP
 author: windows-sdk-content
 description: Defines the properties of a partition.
 old-location: base\vds_partition_prop.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

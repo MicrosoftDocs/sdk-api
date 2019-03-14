@@ -4,7 +4,7 @@ title: USER_MODALS_INFO_1006
 author: windows-sdk-content
 description: The USER_MODALS_INFO_1006 structure contains logon server information.
 old-location: netmgmt\user_modals_info_1006_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: ca5c0819-b4a0-4d07-90fc-54c86ac5ecf5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

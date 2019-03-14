@@ -4,7 +4,7 @@ title: IVdsVolumeMF3::QueryVolumeGuidPathnames
 author: windows-sdk-content
 description: Returns a list of volume GUID paths for the current volume.
 old-location: base\ivdsvolumemf3_queryvolumeguidpathnames.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 08311403-23a9-4191-9720-3cec805de825
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: IWSDDeviceProxy::GetThisDeviceMetadata
 author: windows-sdk-content
 description: Retrieves device-specific metadata for this device.
 old-location: ncd\iwsddeviceproxy_getthisdevicemetadata_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 95a87bb1-8e62-4ece-a7bc-2483ea282ede
 ms.author: windowssdkdev
 ms.date: 12/5/2018

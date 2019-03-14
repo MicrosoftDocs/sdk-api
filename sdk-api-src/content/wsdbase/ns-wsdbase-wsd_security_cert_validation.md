@@ -4,7 +4,7 @@ title: WSD_SECURITY_CERT_VALIDATION
 author: windows-sdk-content
 description: Represents the criteria for matching client certificates against those of an HTTPS server.
 old-location: ncd\wsd_security_cert_validation.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 1bc157c2-f3c2-4b67-a6ae-251ba1cb0379
 ms.author: windowssdkdev
 ms.date: 12/5/2018

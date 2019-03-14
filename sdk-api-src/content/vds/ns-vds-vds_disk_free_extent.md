@@ -4,7 +4,7 @@ title: VDS_DISK_FREE_EXTENT
 author: windows-sdk-content
 description: Describes a free extent on a disk.
 old-location: base\vds_disk_free_extent.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 94beebd5-bfd6-410f-94b9-51c8e3609bf6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

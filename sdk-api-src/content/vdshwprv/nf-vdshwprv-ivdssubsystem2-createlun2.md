@@ -4,7 +4,7 @@ title: IVdsSubSystem2::CreateLun2
 author: windows-sdk-content
 description: Creates a LUN. This method is identical to the IVdsSubSystem::CreateLun method, except that automagic hints are provided using a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdssubsystem2_createlun2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 1fa046dd-fac9-4246-a90b-1837206b164c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

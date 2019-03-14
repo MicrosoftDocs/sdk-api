@@ -4,7 +4,7 @@ title: IVdsVolume::ClearFlags
 author: windows-sdk-content
 description: Clears the volume flags.
 old-location: base\ivdsvolume_clearflags.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 970dcd4a-ac06-4e2d-969c-82c5dabd0019
 ms.author: windowssdkdev
 ms.date: 12/5/2018

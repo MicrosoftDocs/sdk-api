@@ -4,7 +4,7 @@ title: WSD_PROTOCOL_TYPE
 author: windows-sdk-content
 description: Identifies the type of protocol supported by a port.
 old-location: ncd\wsd_protocol_type.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: db18870b-2688-4d5e-8aae-7990ff0fc423
 ms.author: windowssdkdev
 ms.date: 12/5/2018

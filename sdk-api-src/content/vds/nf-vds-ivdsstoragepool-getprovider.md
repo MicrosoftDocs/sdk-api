@@ -4,7 +4,7 @@ title: IVdsStoragePool::GetProvider
 author: windows-sdk-content
 description: Returns the hardware provider that manages the storage pool.
 old-location: base\ivdsstoragepool_getprovider.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 46265fca-eabd-4d42-b1fd-6a09c566cde9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

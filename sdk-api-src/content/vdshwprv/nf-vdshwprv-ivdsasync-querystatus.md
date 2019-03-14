@@ -4,7 +4,7 @@ title: IVdsAsync::QueryStatus
 author: windows-sdk-content
 description: Returns when the asynchronous operation is in progress, or has either finished successfully or failed.
 old-location: base\ivdsasync_querystatus.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 993228ae-4817-4d88-8544-9cd57cbe8b49
 ms.author: windowssdkdev
 ms.date: 12/5/2018

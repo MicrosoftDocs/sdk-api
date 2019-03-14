@@ -4,7 +4,7 @@ title: SERVER_INFO_1016
 author: windows-sdk-content
 description: The SERVER_INFO_1016 structure contains information about whether the server is visible to other computers in the same network domain.
 old-location: netmgmt\server_info_1016_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: a4c2afaf-05a4-4b71-9b36-91c603cba9d7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

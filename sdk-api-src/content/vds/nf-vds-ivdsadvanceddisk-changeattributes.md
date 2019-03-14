@@ -4,7 +4,7 @@ title: IVdsAdvancedDisk::ChangeAttributes
 author: windows-sdk-content
 description: Modifies the attributes of the partition.
 old-location: base\ivdsadvanceddisk_changeattributes.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 0345a4b1-bbe1-4e59-9a04-bb40ff6db954
 ms.author: windowssdkdev
 ms.date: 12/5/2018

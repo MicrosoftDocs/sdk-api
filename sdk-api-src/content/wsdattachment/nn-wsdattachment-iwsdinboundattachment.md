@@ -4,7 +4,7 @@ title: IWSDInboundAttachment
 author: windows-sdk-content
 description: Allows applications to read MIME-encoded attachment data from an incoming message.
 old-location: ncd\iwsdinboundattachment.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WSD_DURATION
 author: windows-sdk-content
 description: Represents a length of time.
 old-location: ncd\wsd_duration_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 43d4d0c5-509a-46c4-bdf6-24c3307fb811
 ms.author: windowssdkdev
 ms.date: 12/5/2018

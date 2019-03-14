@@ -4,7 +4,7 @@ title: IWSDTransportAddress::SetPort
 author: windows-sdk-content
 description: Sets only the IP port number for this transport address.
 old-location: ncd\iwsdtransportaddress_setport.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 0959e6f9-82cf-4634-9547-682df1965efa
 ms.author: windowssdkdev
 ms.date: 12/5/2018

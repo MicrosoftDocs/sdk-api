@@ -4,7 +4,7 @@ title: IVdsVolumeMF3::FormatEx2
 author: windows-sdk-content
 description: Formats a file system volume on a partition. This method is identical to the IVdsVolumeMF2::FormatEx method, except that formatting options are specified by using the Options parameter.
 old-location: base\ivdsvolumemf3_formatex2.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: b9ef47e2-552c-4630-9f63-84f00bd93fa6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

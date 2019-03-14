@@ -4,7 +4,7 @@ title: SERVER_INFO_1506
 author: windows-sdk-content
 description: The SERVER_INFO_1506 structure contains information about the maximum number of work items the specified server can allocate.
 old-location: netmgmt\server_info_1506_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 3a18838b-2a47-4b78-9356-f20de8a87d2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

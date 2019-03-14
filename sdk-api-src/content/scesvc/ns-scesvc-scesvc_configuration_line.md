@@ -4,7 +4,7 @@ title: SCESVC_CONFIGURATION_LINE
 author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_LINE structure contains information about a line of configuration data. It is used by the SCESVC_CONFIGURATION_INFO structure.
 old-location: security\scesvc_configuration_line.htm
-tech.root: secmgmt
+tech.root: SecMgmt
 ms.assetid: 25801b20-9a7a-423e-8fa3-86896a8fbae4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

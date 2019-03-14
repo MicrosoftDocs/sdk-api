@@ -4,7 +4,7 @@ title: IVdsDrive::ClearFlags
 author: windows-sdk-content
 description: Clears the flags of a drive object.
 old-location: base\ivdsdrive_clearflags.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 195f0c13-40d7-4fad-b589-063ec4ff4efe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

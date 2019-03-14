@@ -4,7 +4,7 @@ title: IVdsIscsiTarget::RememberInitiatorSharedSecret
 author: windows-sdk-content
 description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 3546f42c-2c30-4819-982d-9c186d9f858e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

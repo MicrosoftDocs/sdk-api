@@ -4,7 +4,7 @@ title: WSD_SOAP_FAULT_CODE
 author: windows-sdk-content
 description: Represents a generated SOAP fault code.
 old-location: ncd\wsd_soap_fault_code_struct.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: b71f4bcc-d125-4091-a491-1a5a2aea2310
 ms.author: windowssdkdev
 ms.date: 12/5/2018

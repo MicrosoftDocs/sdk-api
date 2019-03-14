@@ -4,7 +4,7 @@ title: IWSDInboundAttachment::Read
 author: windows-sdk-content
 description: Retrieves attachment data from a message sent by a remote host.
 old-location: ncd\iwsdinboundattachment_read_method.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 66b8ce84-23b3-43f2-826d-c866b8bedab1
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: USER_INFO_20
 author: windows-sdk-content
 description: Contains information about a user account, including the account name, the user's full name, a comment associated with the account, and the user's relative ID (RID).
 old-location: netmgmt\user_info_20_str.htm
-tech.root: netmgmt
+tech.root: NetMgmt
 ms.assetid: 67f58d6b-488b-4a88-808f-edb9c3464d85
 ms.author: windowssdkdev
 ms.date: 12/5/2018

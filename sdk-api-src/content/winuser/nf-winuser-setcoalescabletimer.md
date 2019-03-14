@@ -203,7 +203,7 @@ When <i>uToleranceDelay</i> is set to 0, the system default timer coalescing is 
 
 
 
-<a href=" http://go.microsoft.com/fwlink/p/?linkid=255889">Coalescing timers sample</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=255889">Coalescing timers sample</a>
 
 
 

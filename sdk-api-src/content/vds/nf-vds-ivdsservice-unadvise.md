@@ -4,7 +4,7 @@ title: IVdsService::Unadvise
 author: windows-sdk-content
 description: Unregisters the caller's IVdsAdviseSink interface so that the caller no longer receives notifications from the VDS service.
 old-location: base\ivdsservice_unadvise.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 085d380c-2e09-470a-a23d-704c31535975
 ms.author: windowssdkdev
 ms.date: 12/5/2018

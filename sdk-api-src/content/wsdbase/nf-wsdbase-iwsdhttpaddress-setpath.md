@@ -4,7 +4,7 @@ title: IWSDHttpAddress::SetPath
 author: windows-sdk-content
 description: Sets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_setpath.htm
-tech.root: wsdapi
+tech.root: WsdApi
 ms.assetid: 4bad84a6-f321-4275-9787-f6bae83c807e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

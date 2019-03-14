@@ -4,7 +4,7 @@ title: IVdsDrive::QueryExtents
 author: windows-sdk-content
 description: Returns an array of the extents on a drive, including both allocated and unallocated extents.
 old-location: base\ivdsdrive_queryextents.htm
-tech.root: vds
+tech.root: VDS
 ms.assetid: 8ee3e085-ce69-457e-b652-bb9c45b7fdd8
 ms.author: windowssdkdev
 ms.date: 12/5/2018
