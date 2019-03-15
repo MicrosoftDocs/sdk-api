@@ -4,7 +4,7 @@ title: MapViewOfFileFromApp function
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling Windows Store app.
 old-location: base\mapviewoffilefromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 59369959-3347-44d0-8b08-5c38ac58fdb0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

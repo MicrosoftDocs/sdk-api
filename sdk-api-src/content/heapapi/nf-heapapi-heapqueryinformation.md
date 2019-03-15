@@ -4,7 +4,7 @@ title: HeapQueryInformation function
 author: windows-sdk-content
 description: Retrieves information about the specified heap.
 old-location: base\heapqueryinformation.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

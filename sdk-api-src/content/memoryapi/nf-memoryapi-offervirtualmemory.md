@@ -4,7 +4,7 @@ title: OfferVirtualMemory function
 author: windows-sdk-content
 description: Indicates that the data contained in a range of memory pages is no longer needed by the application and can be discarded by the system if necessary.
 old-location: base\offervirtualmemory.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 45f8a433-0a9e-31d1-f21d-a17d7247e164
 ms.author: windowssdkdev
 ms.date: 12/5/2018

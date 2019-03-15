@@ -4,7 +4,7 @@ title: AtlThunk_DataToCode function
 author: windows-sdk-content
 description: Returns an executable function corresponding to the AtlThunkData_t parameter.
 old-location: base\atlthunk_datatocode.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 138714A8-5BBE-47A8-9E57-9CD6D35DE644
 ms.author: windowssdkdev
 ms.date: 12/5/2018

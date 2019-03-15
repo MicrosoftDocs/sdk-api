@@ -4,7 +4,7 @@ title: MapViewOfFileExNuma function
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling process and specifies the NUMA node for the physical memory.
 old-location: base\mapviewoffileexnuma.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 1e28c8db-112d-481d-b470-8ca618e125ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

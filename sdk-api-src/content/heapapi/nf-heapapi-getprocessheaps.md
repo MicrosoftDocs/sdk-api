@@ -4,7 +4,7 @@ title: GetProcessHeaps function
 author: windows-sdk-content
 description: Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.
 old-location: base\getprocessheaps.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877
 ms.author: windowssdkdev
 ms.date: 12/5/2018

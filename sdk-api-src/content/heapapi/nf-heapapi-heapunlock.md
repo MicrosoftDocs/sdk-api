@@ -4,7 +4,7 @@ title: HeapUnlock function
 author: windows-sdk-content
 description: Releases ownership of the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heapunlock.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: c1a7b2c8-293e-4e07-a654-fd10b2f0ef39
 ms.author: windowssdkdev
 ms.date: 12/5/2018

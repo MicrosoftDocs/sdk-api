@@ -4,7 +4,7 @@ title: CallEnclave function
 author: windows-sdk-content
 description: Calls a function within an enclave.
 old-location: base\callenclave.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 4C495245-381F-4561-970D-5FCEC105276B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: MEMORYSTATUS
 author: windows-sdk-content
 description: Contains information about the current state of both physical and virtual memory.
 old-location: base\memorystatus_str.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 7815ec8f-cacf-4c1b-b5f7-5bb3ef8d759c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

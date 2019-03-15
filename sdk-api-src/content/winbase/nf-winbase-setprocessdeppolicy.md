@@ -4,7 +4,7 @@ title: SetProcessDEPPolicy function
 author: windows-sdk-content
 description: Changes data execution prevention (DEP) and DEP-ATL thunk emulation settings for a 32-bit process.
 old-location: base\setprocessdeppolicy.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 17c9f522-fd64-4061-9212-8fc91cc96b18
 ms.author: windowssdkdev
 ms.date: 12/5/2018

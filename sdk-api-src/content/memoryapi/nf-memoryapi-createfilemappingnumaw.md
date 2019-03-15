@@ -4,7 +4,7 @@ title: CreateFileMappingNumaW function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory.
 old-location: base\createfilemappingnuma.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: d10ead2c-e8a1-4e41-9bcd-d9025dbba3ff
 ms.author: windowssdkdev
 ms.date: 12/5/2018

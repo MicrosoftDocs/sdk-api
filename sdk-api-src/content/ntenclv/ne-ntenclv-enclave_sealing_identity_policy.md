@@ -4,7 +4,7 @@ title: ENCLAVE_SEALING_IDENTITY_POLICY
 author: windows-sdk-content
 description: Defines values that specify how another enclave must be related to the enclave that calls EnclaveSealData for the enclave to unseal the data.
 old-location: base\enclave_sealing_identity_policy.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 986C122D-4CC9-487F-8B9F-6B3F9B727E4A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

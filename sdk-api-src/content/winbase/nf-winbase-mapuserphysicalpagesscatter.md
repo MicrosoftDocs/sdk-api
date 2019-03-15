@@ -4,7 +4,7 @@ title: MapUserPhysicalPagesScatter function
 author: windows-sdk-content
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpagesscatter.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
 ms.author: windowssdkdev
 ms.date: 12/5/2018

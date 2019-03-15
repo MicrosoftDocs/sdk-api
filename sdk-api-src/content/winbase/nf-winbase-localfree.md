@@ -4,7 +4,7 @@ title: LocalFree function
 author: windows-sdk-content
 description: Frees the specified local memory object and invalidates its handle.
 old-location: base\localfree.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: a0393983-cb43-4dfa-91a6-d82a5fb8de12
 ms.author: windowssdkdev
 ms.date: 12/5/2018

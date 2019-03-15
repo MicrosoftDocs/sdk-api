@@ -4,7 +4,7 @@ title: MEM_EXTENDED_PARAMETER_TYPE
 author: windows-sdk-content
 description: Defines values for extended parameters used for file mapping into an address space.
 old-location: base\mem_extended_parameter_type.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: B3591D93-BAF5-4D6E-90ED-88E1C193670E
 ms.author: windowssdkdev
 ms.date: 12/5/2018

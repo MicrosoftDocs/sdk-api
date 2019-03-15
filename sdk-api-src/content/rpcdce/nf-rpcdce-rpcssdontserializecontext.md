@@ -108,7 +108,7 @@ It is recommended that, if your distributed application invokes the
 
 
 
-<a href="https://msdn.microsoft.com/aff2484e-639b-41d2-94a9-f34ca4f2343c">context_handle_noserialize</a>
+<a href="https://msdn.microsoft.com/">context_handle_noserialize</a>
 
 
 

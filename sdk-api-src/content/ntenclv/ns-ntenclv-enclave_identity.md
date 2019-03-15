@@ -4,7 +4,7 @@ title: ENCLAVE_IDENTITY
 author: windows-sdk-content
 description: Describes the identity of the primary module of an enclave.
 old-location: base\enclave_identity.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: D584D824-3C86-4BBB-9086-6DBE0290E0A4
 ms.author: windowssdkdev
 ms.date: 12/5/2018

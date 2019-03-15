@@ -4,7 +4,7 @@ title: VirtualAllocFromApp function
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
 old-location: base\virtualallocfromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 6124F358-718B-464F-ACBF-6BBE5189988B
 ms.author: windowssdkdev
 ms.date: 12/5/2018
