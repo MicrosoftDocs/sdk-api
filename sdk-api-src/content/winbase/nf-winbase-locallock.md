@@ -4,7 +4,7 @@ title: LocalLock function
 author: windows-sdk-content
 description: Locks a local memory object and returns a pointer to the first byte of the object's memory block.
 old-location: base\locallock.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: a9432e28-9fbd-4a7e-8dce-fad3da04804a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

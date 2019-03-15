@@ -4,7 +4,7 @@ title: GlobalDiscard macro
 author: windows-sdk-content
 description: Discards the specified global memory block.
 old-location: base\globaldiscard.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

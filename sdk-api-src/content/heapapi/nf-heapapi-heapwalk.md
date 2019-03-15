@@ -4,7 +4,7 @@ title: HeapWalk function
 author: windows-sdk-content
 description: Enumerates the memory blocks in the specified heap.
 old-location: base\heapwalk.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: ba4b7372-973b-4dea-9a93-faf847a047e5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GlobalAlloc function
 author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\globalalloc.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 06886545-bd5c-4d81-b1c3-dfa7e146e43a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

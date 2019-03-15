@@ -4,7 +4,7 @@ title: GlobalFree function
 author: windows-sdk-content
 description: Frees the specified global memory object and invalidates its handle.
 old-location: base\globalfree.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

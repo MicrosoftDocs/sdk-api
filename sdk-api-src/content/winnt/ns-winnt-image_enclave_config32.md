@@ -4,7 +4,7 @@ title: IMAGE_ENCLAVE_CONFIG32
 author: windows-sdk-content
 description: Defines the format of the enclave configuration for systems running 32-bit Windows.
 old-location: base\image_enclave_config32.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 6006F018-4F3F-4595-8ED2-89D2CC7F782D
 ms.author: windowssdkdev
 ms.date: 12/5/2018

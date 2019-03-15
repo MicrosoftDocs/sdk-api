@@ -4,7 +4,7 @@ title: VirtualAlloc2 function
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
 old-location: base\virtualalloc2.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 5021062F-E414-49A1-8B70-BE2A57A90E54
 ms.author: windowssdkdev
 ms.date: 12/5/2018

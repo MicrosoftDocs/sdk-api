@@ -4,7 +4,7 @@ title: HeapCreate function
 author: windows-sdk-content
 description: Creates a private heap object that can be used by the calling process. The function reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
 old-location: base\heapcreate.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 8c0a77a2-37e6-41f7-bdc6-1f3768d61c9b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

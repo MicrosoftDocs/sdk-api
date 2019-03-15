@@ -4,7 +4,7 @@ title: UnmapViewOfFile2 function
 author: windows-sdk-content
 description: Unmaps a previously mapped view of a file or a pagefile-backed section.
 old-location: base\unmapviewoffile2.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 300BA329-1E56-4C0F-81FC-FED42FCE9EB7
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -99,7 +99,7 @@ Specifies that the priority of the pages being unmapped should be temporarily bo
 </dl>
 </td>
 <td width="60%">
-Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="https://msdn.microsoft.com/D97138F0-2FB3-488A-91AC-A654B22FE9AD">MapViewOfFile2</a> or <a href="base.mapviewoffile2fromapp">MapViewOfFile2FromApp</a>).
+Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="https://msdn.microsoft.com/D97138F0-2FB3-488A-91AC-A654B22FE9AD">MapViewOfFile2</a> or <b>MapViewOfFile2FromApp</b>).
 
 </td>
 </tr>

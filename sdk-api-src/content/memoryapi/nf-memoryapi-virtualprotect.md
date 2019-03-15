@@ -4,7 +4,7 @@ title: VirtualProtect function
 author: windows-sdk-content
 description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
 old-location: base\virtualprotect.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: a0018bba-226b-4c18-8ea4-15e69524db11
 ms.author: windowssdkdev
 ms.date: 12/5/2018

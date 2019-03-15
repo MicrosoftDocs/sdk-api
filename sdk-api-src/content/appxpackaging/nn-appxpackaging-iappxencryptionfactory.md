@@ -89,7 +89,7 @@ Creates a write-only bundle object to which encrypted Windows app packages can b
 <a href="https://msdn.microsoft.com/325E4883-69D7-4E2A-A664-3CA3C5559CB3">CreateEncryptedPackageReader</a>
 </td>
 <td align="left" width="63%">
-Creates a new instance of <a href="appxpkg.iappxencryptedpackagereader">IAppxEncryptedPackageReader</a>.
+Creates a new instance of <b>IAppxEncryptedPackageReader</b>.
 
 </td>
 </tr>

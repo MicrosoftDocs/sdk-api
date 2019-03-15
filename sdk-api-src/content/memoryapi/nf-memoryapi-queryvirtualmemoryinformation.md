@@ -4,7 +4,7 @@ title: QueryVirtualMemoryInformation function
 author: windows-sdk-content
 description: The QueryVirtualMemoryInformation function returns information about a page or a set of pages within the virtual address space of the specified process.
 old-location: base\queryvirtualmemoryinformation.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: D887FB6E-2594-4822-BA5E-803F9B12DCBC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

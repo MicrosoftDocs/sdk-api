@@ -48,7 +48,7 @@ req.redist:
 ## -description
 
 
-Creates a new instance of <a href="appxpkg.iappxencryptedpackagereader">IAppxEncryptedPackageReader</a>.
+Creates a new instance of <b>IAppxEncryptedPackageReader</b>.
 
 
 ## -parameters

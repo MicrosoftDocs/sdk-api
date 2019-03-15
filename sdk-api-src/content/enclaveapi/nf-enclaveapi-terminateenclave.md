@@ -4,7 +4,7 @@ title: TerminateEnclave function
 author: windows-sdk-content
 description: Ends the execution of the threads that are running within an enclave.
 old-location: base\terminateenclave.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: D2BAF02F-AE05-43F2-BDB1-013EAF3AC653
 ms.author: windowssdkdev
 ms.date: 12/5/2018

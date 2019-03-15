@@ -4,7 +4,7 @@ title: GetSystemFileCacheSize function
 author: windows-sdk-content
 description: Retrieves the current size limits for the working set of the system cache.
 old-location: base\getsystemfilecachesize.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 9a82e572-eab8-4096-a3b3-706ca6eb7a52
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -1,0 +1,110 @@
+---
+UID: NF:namespaceapi.ClosePrivateNamespace
+title: ClosePrivateNamespace function
+author: windows-sdk-content
+description: Closes an open namespace handle.
+old-location: base\closeprivatenamespace.htm
+tech.root: Sync
+ms.assetid: b9b74cf2-bf13-4ceb-9242-bc6a884ac6f1
+ms.author: windowssdkdev
+ms.date: 12/5/2018
+ms.keywords: ClosePrivateNamespace, ClosePrivateNamespace function, base.closeprivatenamespace, namespaceapi/ClosePrivateNamespace, winbase/ClosePrivateNamespace
+ms.topic: function
+req.header: namespaceapi.h
+req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
+req.target-type: Windows
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: Kernel32.lib
+req.dll: Kernel32.dll
+req.irql: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - DllExport
+api_location:
+ - Kernel32.dll
+ - API-MS-Win-Core-Namespace-l1-1-0.dll
+ - KernelBase.dll
+ - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+api_name:
+ - ClosePrivateNamespace
+product: Windows
+targetos: Windows
+req.typenames: 
+req.redist: 
+---
+
+# ClosePrivateNamespace function
+
+
+## -description
+
+
+Closes an open namespace handle.
+
+
+## -parameters
+
+
+
+
+### -param Handle [in]
+
+The namespace handle. This handle is created by <a href="https://msdn.microsoft.com/bb6331b0-88cb-4695-b159-6e8750440a69">CreatePrivateNamespace</a> or <a href="https://msdn.microsoft.com/268b4932-2553-4883-8a26-002997fbc59e">OpenPrivateNamespace</a>.
+
+
+### -param Flags [in]
+
+If this parameter is <b>PRIVATE_NAMESPACE_FLAG_DESTROY</b> (0x00000001), the namespace is destroyed.
+
+
+## -returns
+
+
+
+If the function succeeds, the return value is nonzero.
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+
+
+
+
+## -remarks
+
+
+
+To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/bb6331b0-88cb-4695-b159-6e8750440a69">CreatePrivateNamespace</a>
+
+
+
+<a href="https://msdn.microsoft.com/6a84ec16-fa65-4cdd-861a-eccf5d0eee2b">Object Namespaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/268b4932-2553-4883-8a26-002997fbc59e">OpenPrivateNamespace</a>
+ 
+
+ 
+

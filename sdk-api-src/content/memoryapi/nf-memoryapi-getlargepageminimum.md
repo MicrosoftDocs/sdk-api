@@ -4,7 +4,7 @@ title: GetLargePageMinimum function
 author: windows-sdk-content
 description: Retrieves the minimum size of a large page.
 old-location: base\getlargepageminimum.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: ccde687d-ee8f-4668-93c1-a1fece86c2f6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

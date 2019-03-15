@@ -4,7 +4,7 @@ title: AtlThunk_AllocateData function
 author: windows-sdk-content
 description: Allocates space in memory for an ATL thunk.
 old-location: base\atlthunk_allocatedata.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: D306E6CB-72D4-4820-885E-175FC8500954
 ms.author: windowssdkdev
 ms.date: 12/5/2018

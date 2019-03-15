@@ -4,7 +4,7 @@ title: MapViewOfFileNuma2 function
 author: windows-sdk-content
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffilenuma2.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 848BF3AD-9469-4A16-B1C4-B5D78954D9B5
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: GlobalMemoryStatus function
 author: windows-sdk-content
 description: Retrieves information about the system's current usage of both physical and virtual memory.
 old-location: base\globalmemorystatus.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 473e4172-b57a-4fc6-9bb2-e916ac3c9a2f
 ms.author: windowssdkdev
 ms.date: 12/5/2018

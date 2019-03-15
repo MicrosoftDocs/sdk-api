@@ -4,7 +4,7 @@ title: AtlThunk_FreeData function
 author: windows-sdk-content
 description: Frees memory associated with an ATL thunk.
 old-location: base\atlthunk_freedata.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 529F37D7-4C23-4E3B-864D-5707B0262A81
 ms.author: windowssdkdev
 ms.date: 12/5/2018

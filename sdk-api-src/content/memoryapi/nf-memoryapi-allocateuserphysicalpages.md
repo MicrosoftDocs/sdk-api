@@ -4,7 +4,7 @@ title: AllocateUserPhysicalPages function
 author: windows-sdk-content
 description: Allocates physical memory pages to be mapped and unmapped within any Address Windowing Extensions (AWE) region of a specified process.
 old-location: base\allocateuserphysicalpages.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: cf45b24b-0622-4ba1-b485-8429cbf146b6
 ms.author: windowssdkdev
 ms.date: 12/5/2018

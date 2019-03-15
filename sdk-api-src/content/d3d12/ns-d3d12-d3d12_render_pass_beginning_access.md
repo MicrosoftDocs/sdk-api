@@ -71,7 +71,7 @@ A <a href="https://msdn.microsoft.com/E52C3630-1E57-4756-8D25-57E4A9AFDAE9">D3D1
 
 
 
-<a href="/windows/desktop/direct3d12/direct3d-12-render-passes">Direct3D 12 render passes</a>
+<a href="https://msdn.microsoft.com/5BF1440E-E4D8-43C8-BF0E-F02FEFE79C93">Rendering</a>
  
 
  

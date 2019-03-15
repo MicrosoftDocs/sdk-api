@@ -8,7 +8,7 @@ tech.root: WMDM
 ms.assetid: 207435a6-0b16-49d9-a366-878331732a14
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SetSessionKey method, CSecureChannelServer.SetSessionKey, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
+ms.keywords: CSecureChannelServer class [windows Media Device Manager],SetSessionKey method, CSecureChannelServer.SetSessionKey, CSecureChannelServer::SetSessionKey, CSecureChannelServerSetSessionKey, SetSessionKey, SetSessionKey method [windows Media Device Manager], SetSessionKey method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SetSessionKey, wmdm.csecurechannelserver_setsessionkey
 ms.topic: method
 req.header: scserver.h
 req.include-header: 

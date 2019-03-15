@@ -4,7 +4,7 @@ title: PROCESS_HEAP_ENTRY
 author: windows-sdk-content
 description: Contains information about a heap element.
 old-location: base\process_heap_entry_str.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: e61b209a-9cc1-4171-9638-5456b0fcf775
 ms.author: windowssdkdev
 ms.date: 12/5/2018

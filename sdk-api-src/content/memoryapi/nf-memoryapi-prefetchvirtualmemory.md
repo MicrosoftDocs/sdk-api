@@ -4,7 +4,7 @@ title: PrefetchVirtualMemory function
 author: windows-sdk-content
 description: Provides an efficient mechanism to bring into memory potentially discontiguous virtual address ranges in a process address space.
 old-location: base\prefetchvirtualmemory.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: a7aeeb66-afd0-4871-81a3-e4619ac84293
 ms.author: windowssdkdev
 ms.date: 12/5/2018

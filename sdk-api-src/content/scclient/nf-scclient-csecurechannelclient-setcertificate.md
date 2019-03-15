@@ -8,7 +8,7 @@ tech.root: WMDM
 ms.assetid: 58e8f428-f9b9-438b-8f92-e901537e1076
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: CSecureChannelClient interface [windows Media Device Manager],SetCertificate method, CSecureChannelClient.SetCertificate, CSecureChannelClient::SetCertificate, CSecureChannelClientSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::SetCertificate, wmdm.csecurechannelclient_setcertificate
+ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetCertificate method, CSecureChannelClient.SetCertificate, CSecureChannelClient::SetCertificate, CSecureChannelClientSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::SetCertificate, wmdm.csecurechannelclient_setcertificate
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

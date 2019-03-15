@@ -4,7 +4,7 @@ title: AtlThunk_InitData function
 author: windows-sdk-content
 description: Initializes an ATL thunk.
 old-location: base\atlthunk_initdata.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

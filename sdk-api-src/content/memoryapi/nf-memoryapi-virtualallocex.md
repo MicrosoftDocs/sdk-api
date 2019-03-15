@@ -4,7 +4,7 @@ title: VirtualAllocEx function
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of memory within the virtual address space of a specified process. The function initializes the memory it allocates to zero.
 old-location: base\virtualallocex.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: ff0b6b79-40f5-499c-b797-b66797654164
 ms.author: windowssdkdev
 ms.date: 12/5/2018

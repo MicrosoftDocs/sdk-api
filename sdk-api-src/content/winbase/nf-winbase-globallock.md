@@ -4,7 +4,7 @@ title: GlobalLock function
 author: windows-sdk-content
 description: Locks a global memory object and returns a pointer to the first byte of the object's memory block.
 old-location: base\globallock.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 0d7deac2-c9c4-4adc-8a0a-edfc512a4d6c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

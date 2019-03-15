@@ -4,7 +4,7 @@ title: MEMORYSTATUSEX
 author: windows-sdk-content
 description: Contains information about the current state of both physical and virtual memory, including extended memory.
 old-location: base\memorystatusex_str.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: ce3c7993-8b91-4bca-8be8-9d81c26b9bef
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: WIN32_MEMORY_RANGE_ENTRY
 author: windows-sdk-content
 description: Specifies a range of memory.
 old-location: base\win32_memory_range_entry.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: d1372687-c397-4ba8-b0c0-2dcf2ec74fbb
 ms.author: windowssdkdev
 ms.date: 12/5/2018

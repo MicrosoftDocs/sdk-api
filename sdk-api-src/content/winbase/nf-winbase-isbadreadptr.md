@@ -4,7 +4,7 @@ title: IsBadReadPtr function
 author: windows-sdk-content
 description: Verifies that the calling process has read access to the specified range of memory.
 old-location: base\isbadreadptr.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: c1561403-2b77-4c93-80f1-261f26629d4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

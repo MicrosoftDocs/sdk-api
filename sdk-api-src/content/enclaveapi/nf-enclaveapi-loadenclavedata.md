@@ -4,7 +4,7 @@ title: LoadEnclaveData function
 author: windows-sdk-content
 description: Loads data into an uninitialized enclave that you created by calling CreateEnclave.
 old-location: base\loadenclavedata.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: CC696026-FB74-4D91-BB40-17610DF41F8F
 ms.author: windowssdkdev
 ms.date: 12/5/2018

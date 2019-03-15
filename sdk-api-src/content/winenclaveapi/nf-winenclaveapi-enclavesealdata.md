@@ -4,7 +4,7 @@ title: EnclaveSealData function
 author: windows-sdk-content
 description: Generates an encrypted binary large object (blob) from unencypted data.
 old-location: base\enclavesealdata.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: C5711D43-F0B4-43C6-B0DB-D65622851384
 ms.author: windowssdkdev
 ms.date: 12/5/2018
