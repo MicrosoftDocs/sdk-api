@@ -8,7 +8,7 @@ tech.root: WMDM
 ms.assetid: 4e19b86c-9efc-4c20-bac9-8cd6b944f69e
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: CSecureChannelClient interface [windows Media Device Manager],DecryptParam method, CSecureChannelClient.DecryptParam, CSecureChannelClient::DecryptParam, CSecureChannelClientDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::DecryptParam, wmdm.csecurechannelclient_decryptparam
+ms.keywords: CSecureChannelClient class [windows Media Device Manager],DecryptParam method, CSecureChannelClient.DecryptParam, CSecureChannelClient::DecryptParam, CSecureChannelClientDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::DecryptParam, wmdm.csecurechannelclient_decryptparam
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

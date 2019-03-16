@@ -4,7 +4,7 @@ title: PSECURE_MEMORY_CACHE_CALLBACK
 author: windows-sdk-content
 description: An application-defined function previously registered with the AddSecureMemoryCacheCallback function that is called when a secured memory range is freed or its protections are changed.
 old-location: base\securememorycachecallback.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: abde4b6f-7cd8-4a4b-9b00-f035b2c29054
 ms.author: windowssdkdev
 ms.date: 12/5/2018

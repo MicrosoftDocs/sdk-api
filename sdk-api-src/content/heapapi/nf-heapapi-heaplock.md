@@ -4,7 +4,7 @@ title: HeapLock function
 author: windows-sdk-content
 description: Attempts to acquire the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heaplock.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: bc01b82d-ef10-40d7-af82-e599ba825944
 ms.author: windowssdkdev
 ms.date: 12/5/2018

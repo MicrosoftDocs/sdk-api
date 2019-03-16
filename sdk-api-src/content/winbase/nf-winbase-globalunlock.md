@@ -4,7 +4,7 @@ title: GlobalUnlock function
 author: windows-sdk-content
 description: Decrements the lock count associated with a memory object that was allocated with GMEM_MOVEABLE.
 old-location: base\globalunlock.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 580a2873-7f06-47a1-acf5-c2b3c96e15e7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

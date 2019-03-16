@@ -4,7 +4,7 @@ title: GetSystemDEPPolicy function
 author: windows-sdk-content
 description: Gets the data execution prevention (DEP) policy setting for the system.
 old-location: base\getsystemdeppolicy.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 82cb1d4e-c0e5-4601-aa55-9171a106c286
 ms.author: windowssdkdev
 ms.date: 12/5/2018

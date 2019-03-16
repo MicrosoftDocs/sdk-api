@@ -4,7 +4,7 @@ title: AllocateUserPhysicalPagesNuma function
 author: windows-sdk-content
 description: Allocates physical memory pages to be mapped and unmapped within any Address Windowing Extensions (AWE) region of a specified process and specifies the NUMA node for the physical memory.
 old-location: base\allocateuserphysicalpagesnuma.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 33af02c8-609f-4490-b17e-e116d24c217c
 ms.author: windowssdkdev
 ms.date: 12/5/2018

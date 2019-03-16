@@ -4,7 +4,7 @@ title: GetPhysicallyInstalledSystemMemory function
 author: windows-sdk-content
 description: Retrieves the amount of RAM that is physically installed on the computer.
 old-location: base\getphysicallyinstalledsystemmemory.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: b9ac1174-399d-4962-a00c-6f2e3fb0c573
 ms.author: windowssdkdev
 ms.date: 12/5/2018

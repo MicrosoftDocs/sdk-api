@@ -4,7 +4,7 @@ title: SetProcessValidCallTargets function
 author: windows-sdk-content
 description: Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not.
 old-location: base\setprocessvalidcalltargets.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: A28BBE75-5188-452B-B784-B6824D4BD161
 ms.author: windowssdkdev
 ms.date: 12/5/2018

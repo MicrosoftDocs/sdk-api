@@ -4,7 +4,7 @@ title: MapViewOfFile function
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling process.
 old-location: base\mapviewoffile.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: df9f54cd-b2de-4107-a1c5-d5a07045851e
 ms.author: windowssdkdev
 ms.date: 12/5/2018

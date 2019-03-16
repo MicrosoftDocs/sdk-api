@@ -4,7 +4,7 @@ title: OpenFileMappingFromApp function
 author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemappingfromapp.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 66BAB9A6-F983-49D8-8F87-69A3CCBBB1BC
 ms.author: windowssdkdev
 ms.date: 12/5/2018

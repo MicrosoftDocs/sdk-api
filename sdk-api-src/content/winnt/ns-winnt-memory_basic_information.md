@@ -4,7 +4,7 @@ title: MEMORY_BASIC_INFORMATION
 author: windows-sdk-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: base\memory_basic_information_str.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: dc3fa48e-0986-49cc-88a9-ff8179fbe5f0
 ms.author: windowssdkdev
 ms.date: 12/5/2018

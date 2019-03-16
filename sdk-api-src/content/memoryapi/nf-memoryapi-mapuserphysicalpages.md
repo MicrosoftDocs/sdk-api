@@ -4,7 +4,7 @@ title: MapUserPhysicalPages function
 author: windows-sdk-content
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpages.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 7e9804dd-717d-4658-aac8-228878e61e4b
 ms.author: windowssdkdev
 ms.date: 12/5/2018

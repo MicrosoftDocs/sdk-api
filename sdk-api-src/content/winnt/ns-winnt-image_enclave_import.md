@@ -4,7 +4,7 @@ title: IMAGE_ENCLAVE_IMPORT
 author: windows-sdk-content
 description: Defines a entry in the array of images that an enclave can import.
 old-location: base\image_enclave_import.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 32E75114-61B2-4051-99EC-873DD75A368A
 ms.author: windowssdkdev
 ms.date: 12/5/2018

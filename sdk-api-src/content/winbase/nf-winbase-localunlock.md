@@ -4,7 +4,7 @@ title: LocalUnlock function
 author: windows-sdk-content
 description: Decrements the lock count associated with a memory object that was allocated with LMEM_MOVEABLE.
 old-location: base\localunlock.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: eac40b69-5fb6-4523-826d-a012f6f4e5ce
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -83,7 +83,7 @@ BITS allows you, as the developer, to choose an HTTP method other than the defau
 
 <ul>
 <li>BITS automatically changes the job priority to <a href="https://msdn.microsoft.com/bfeab3bb-69bf-4ea2-a0ab-8f886c0d082e">BG_JOB_PRIORITY_FOREGROUND</a>, and prevents that priority from being changed.</li>
-<li>An error that would ordinarily  be resumable (such as loss of connectivity) transitions the job to an ERROR state. You, as the developer, can restart the job by calling <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a>, and the job will be restarted from the beginning. See <a href="/windows/desktop/Bits/life-cycle-of-a-bits-job">BITS job states</a> for more information on BITS job states.</li>
+<li>An error that would ordinarily  be resumable (such as loss of connectivity) transitions the job to an ERROR state. You, as the developer, can restart the job by calling <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a>, and the job will be restarted from the beginning. See <a href="https://msdn.microsoft.com/b765a8ef-74bd-475e-9cd9-e9e2cf4f0305">Life Cycle of a BITS Job</a> for more information on BITS job states.</li>
 <li>BITS doesn’t allow DYNAMIC_CONTENT nor ON_DEMAND_MODE jobs with <b>SetHttpMethod</b>.</li>
 </ul>
 <b>SetHttpMethod</b> does nothing if the method name that you pass matches the default HTTP method for the transfer type. For example, if you set a download job method to "GET" (the default), then the job priority won't be changed. The HTTP method must be set before the first call to <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a> that starts the job.

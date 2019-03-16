@@ -4,7 +4,7 @@ title: MEM_EXTENDED_PARAMETER
 author: windows-sdk-content
 description: Represents an extended parameter for a function that manages virtual memory.
 old-location: base\mem_extended_parameter.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 8D189F7E-83E7-4AF3-9E25-928C66666887
 ms.author: windowssdkdev
 ms.date: 12/5/2018

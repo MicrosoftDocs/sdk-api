@@ -4,7 +4,7 @@ title: HeapReAlloc function
 author: windows-sdk-content
 description: Reallocates a block of memory from a heap. This function enables you to resize a memory block and change other memory block properties.
 old-location: base\heaprealloc.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 21d711d9-3b16-4537-a830-1a2fa049a471
 ms.author: windowssdkdev
 ms.date: 12/5/2018

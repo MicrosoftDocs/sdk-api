@@ -4,7 +4,7 @@ title: IsEnclaveTypeSupported function
 author: windows-sdk-content
 description: Retrieves whether the specified type of enclave is supported.
 old-location: base\isenclavetypesupported.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

@@ -4,7 +4,7 @@ title: RegisterBadMemoryNotification function
 author: windows-sdk-content
 description: Registers a bad memory notification that is called when one or more bad memory pages are detected.
 old-location: base\registerbadmemorynotification.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 4a3a621a-49ed-4538-9e36-b8eab5d57eb7
 ms.author: windowssdkdev
 ms.date: 12/5/2018

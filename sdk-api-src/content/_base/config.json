@@ -85,7 +85,8 @@
     "vsprov.h",
     "namespaceapi.h",
     "processtopologyapi.h",
-    "systemtopologyapi.h"
+    "systemtopologyapi.h",
+    "profileapi.h"
   ],
   "displayName": "System Services"
 }

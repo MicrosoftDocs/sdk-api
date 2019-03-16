@@ -4,7 +4,7 @@ title: CreateFileMappingA function
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file.
 old-location: base\createfilemapping.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: d3302183-76a0-47ec-874f-1173db353dfe
 ms.author: windowssdkdev
 ms.date: 12/5/2018

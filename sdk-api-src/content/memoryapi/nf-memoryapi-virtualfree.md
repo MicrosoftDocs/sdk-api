@@ -4,7 +4,7 @@ title: VirtualFree function
 author: windows-sdk-content
 description: Releases, decommits, or releases and decommits a region of pages within the virtual address space of the calling process.
 old-location: base\virtualfree.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: d6f27be8-8929-4a4d-b52c-fa99044ca243
 ms.author: windowssdkdev
 ms.date: 12/5/2018

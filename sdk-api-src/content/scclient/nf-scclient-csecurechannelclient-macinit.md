@@ -8,7 +8,7 @@ tech.root: WMDM
 ms.assetid: d383d040-55f7-4ed7-b5b8-8e963b6cb16a
 ms.author: windowssdkdev
 ms.date: 12/5/2018
-ms.keywords: CSecureChannelClient interface [windows Media Device Manager],MACInit method, CSecureChannelClient.MACInit, CSecureChannelClient::MACInit, CSecureChannelClientMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::MACInit, wmdm.csecurechannelclient_macinit
+ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACInit method, CSecureChannelClient.MACInit, CSecureChannelClient::MACInit, CSecureChannelClientMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACInit, wmdm.csecurechannelclient_macinit
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

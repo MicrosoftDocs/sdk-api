@@ -63,7 +63,7 @@ For a nonobject RPC interface on the server-side, it points to an RPC server int
 
 ### -field pfnAllocate
 
-Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
+Memory allocation function to be used by the stub. Set to <a href="https://msdn.microsoft.com/">midl_user_allocate</a> for nonobject interface and <a href="https://msdn.microsoft.com/87bfc8ae-62e6-477f-98a7-caf907589b89"> NdrOleAllocate</a> for object interface.  
 
 
 ### -field pfnFree
@@ -103,7 +103,7 @@ Array of function pointers to bind and unbind function pairs for the implicit ge
 
 ### -field apfnExprEval
 
-Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/">size_is</a>(param1 + param2). 
+Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/1f3f3629-f668-460d-86fd-16ef22449973">size_is</a>(param1 + param2). 
 
 
 ### -field aXmitQuintuple
@@ -128,7 +128,7 @@ NDR version required for the stub.
 
 ### -field pMallocFreeStruct
 
-Pointer to the MALLOC_FREE_STRUCT structure which contains the allocate and free function pointers. Use if the <a href="https://msdn.microsoft.com/">enable_allocate</a> MIDL attribute is specified.
+Pointer to the MALLOC_FREE_STRUCT structure which contains the allocate and free function pointers. Use if the <a href="https://msdn.microsoft.com/3a232a82-f114-4d8c-8b71-cf8860c77db3">enable_allocate</a> MIDL attribute is specified.
 
 
 ### -field MIDLVersion
@@ -138,7 +138,7 @@ Version of the MIDL compiler used to compile the .idl file.
 
 ### -field CommFaultOffsets
 
-Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/3ea9ce62-8bd4-40fe-b838-bfebd52b5a15">comm_status</a> or <a href="https://msdn.microsoft.com/">fault_status</a> attributes. 
+Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/">comm_status</a> or <a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">fault_status</a> attributes. 
 
 
 ### -field aUserMarshalQuadruple

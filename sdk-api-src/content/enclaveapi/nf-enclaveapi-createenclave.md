@@ -4,7 +4,7 @@ title: CreateEnclave function
 author: windows-sdk-content
 description: Creates a new uninitialized enclave. An enclave is an isolated region of code and data within the address space for an application. Only code that runs within the enclave can access data within the same enclave.
 old-location: base\createenclave.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 2193AE42-D9CC-4A9C-8676-7DE432ED58C3
 ms.author: windowssdkdev
 ms.date: 12/5/2018

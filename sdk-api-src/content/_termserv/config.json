@@ -4,6 +4,7 @@
     "winbase.h",
     "winuser.h",
     "audioengineendpoint.h",
+    "processthreadsapi.h",
     "wbemcli.h",
     "rdpencomapi.h",
     "tsuserex.h",

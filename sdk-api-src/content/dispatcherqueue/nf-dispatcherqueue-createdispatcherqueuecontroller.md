@@ -89,7 +89,7 @@ An event loop runs asynchronously on a background thread to dispatch
 queued task items to the new dedicated thread.
 
  If <i>options.threadType</i> is  <b>DQTYPE_THREAD_CURRENT</b>, then the <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> instance is created on the current thread. An error results if there is already 
-a <a href="base.idispatcherqueuecontroller">IDispatcherQueueController</a> on the current thread. If you create a dispatcher queue on the current thread, ensure that there is a message pump running on the current thread so that the dispatcher queue can use it to dispatch tasks.
+a <b>IDispatcherQueueController</b> on the current thread. If you create a dispatcher queue on the current thread, ensure that there is a message pump running on the current thread so that the dispatcher queue can use it to dispatch tasks.
 
 This call does not return until the new thread and <a href="https://docs.microsoft.com/uwp/api/windows.system.dispatcherqueuecontroller">DispatcherQueueController</a> are created. The new thread will be initialized using the specified COM apartment.
 

@@ -4,7 +4,7 @@ title: MapViewOfFileEx function
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling process. A caller can optionally specify a suggested base memory address for the view.
 old-location: base\mapviewoffileex.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 2ac8a7d6-5c52-41de-acb9-d7f975fd2a94
 ms.author: windowssdkdev
 ms.date: 12/5/2018

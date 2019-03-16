@@ -4,7 +4,7 @@ title: LocalSize function
 author: windows-sdk-content
 description: Retrieves the current size of the specified local memory object, in bytes.
 old-location: base\localsize.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
 ms.author: windowssdkdev
 ms.date: 12/5/2018

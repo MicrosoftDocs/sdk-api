@@ -4,7 +4,7 @@ title: HeapSetInformation function
 author: windows-sdk-content
 description: Enables features for a specified heap.
 old-location: base\heapsetinformation.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 33c262ca-5093-4f44-a8c6-09045bc90f60
 ms.author: windowssdkdev
 ms.date: 12/5/2018

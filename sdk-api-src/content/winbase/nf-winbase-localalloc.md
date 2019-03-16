@@ -4,7 +4,7 @@ title: LocalAlloc function
 author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\localalloc.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: da8cd2be-ff4c-4da5-813c-8759a58228c9
 ms.author: windowssdkdev
 ms.date: 12/5/2018

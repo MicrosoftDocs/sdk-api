@@ -4,7 +4,7 @@ title: IsBadStringPtrW function
 author: windows-sdk-content
 description: Verifies that the calling process has read access to the specified range of memory.
 old-location: base\isbadstringptr.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: ec708f97-36c8-4484-96d7-b8dfb8578667
 ms.author: windowssdkdev
 ms.date: 12/5/2018

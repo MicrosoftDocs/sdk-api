@@ -4,7 +4,7 @@ title: LoadEnclaveImageW function
 author: windows-sdk-content
 description: Loads an image and all of its imports into an enclave.
 old-location: base\loadenclaveimage.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: BC3F3EB4-BB5E-40D6-B877-50694576FA1B
 ms.author: windowssdkdev
 ms.date: 12/5/2018

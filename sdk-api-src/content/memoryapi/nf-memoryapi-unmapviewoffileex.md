@@ -4,7 +4,7 @@ title: UnmapViewOfFileEx function
 author: windows-sdk-content
 description: This is an extended version of UnmapViewOfFile that takes an additional flags parameter.
 old-location: base\unmapviewoffileex.htm
-tech.root: memory
+tech.root: Memory
 ms.assetid: 1C86075D-17B8-481E-BDF0-6E5A8F55C188
 ms.author: windowssdkdev
 ms.date: 12/5/2018
@@ -99,7 +99,7 @@ Specifies that the priority of the pages being unmapped should be temporarily bo
 </dl>
 </td>
 <td width="60%">
-Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="https://msdn.microsoft.com/D97138F0-2FB3-488A-91AC-A654B22FE9AD">MapViewOfFile2</a> or <a href="base.mapviewoffile2fromapp">MapViewOfFile2FromApp</a>).
+Unmaps a mapped view back to a placeholder (after you've replaced a placeholder with a mapped view using <a href="https://msdn.microsoft.com/D97138F0-2FB3-488A-91AC-A654B22FE9AD">MapViewOfFile2</a> or <b>MapViewOfFile2FromApp</b>).
 
 </td>
 </tr>
