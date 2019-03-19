@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Clone
-title: IEnumWIA_DEV_CAPS::Clone
+title: IEnumWIA_DEV_CAPS::Clone (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_CAPS::Clone method creates an additional instance of the IEnumWIA_DEV_CAPS interface and sends back a pointer to it.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Clone.htm

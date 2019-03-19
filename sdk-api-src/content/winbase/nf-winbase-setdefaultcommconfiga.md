@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetDefaultCommConfigA
-title: SetDefaultCommConfigA function
+title: SetDefaultCommConfigA function (winbase.h)
 author: windows-sdk-content
 description: Sets the default configuration for a communications device.
 old-location: base\setdefaultcommconfig.htm

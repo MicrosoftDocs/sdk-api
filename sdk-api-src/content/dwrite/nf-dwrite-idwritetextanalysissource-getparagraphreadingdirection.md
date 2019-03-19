@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetParagraphReadingDirection
-title: IDWriteTextAnalysisSource::GetParagraphReadingDirection
+title: IDWriteTextAnalysisSource::GetParagraphReadingDirection (dwrite.h)
 author: windows-sdk-content
 description: Gets the paragraph reading direction.
 old-location: directwrite\idwritetextanalysissource_getparagraphreadingdirection.htm

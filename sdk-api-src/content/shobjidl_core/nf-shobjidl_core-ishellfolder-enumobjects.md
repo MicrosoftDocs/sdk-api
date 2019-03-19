@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.EnumObjects
-title: IShellFolder::EnumObjects
+title: IShellFolder::EnumObjects (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables a client to determine the contents of a folder by creating an item identifier enumeration object and returning its IEnumIDList interface. The methods supported by that interface can then be used to enumerate the folder's contents.
 old-location: shell\IShellFolder_EnumObjects.htm

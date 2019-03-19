@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.BitmapProperties1
-title: BitmapProperties1 function
+title: BitmapProperties1 function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_BITMAP_PROPERTIES1 structure.
 old-location: direct2d\bitmapproperties1.htm

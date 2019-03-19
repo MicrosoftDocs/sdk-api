@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkTablets
-title: IInkTablets
+title: IInkTablets (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinktablets.htm

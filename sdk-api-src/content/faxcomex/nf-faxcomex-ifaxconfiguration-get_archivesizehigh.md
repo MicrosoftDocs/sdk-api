@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeHigh
-title: IFaxConfiguration::get_ArchiveSizeHigh
+title: IFaxConfiguration::get_ArchiveSizeHigh (faxcomex.h)
 author: windows-sdk-content
 description: The value that specifies the high-order 32-bit value (in bytes) for the size of the fax message archive.
 old-location: fax\_mfax_ifaxconfiguration_archivesizehigh.htm

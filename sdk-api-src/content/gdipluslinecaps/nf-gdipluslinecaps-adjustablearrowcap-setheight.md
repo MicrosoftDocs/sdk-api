@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetHeight
-title: AdjustableArrowCap::SetHeight
+title: AdjustableArrowCap::SetHeight (gdipluslinecaps.h)
 author: windows-sdk-content
 description: The AdjustableArrowCap::SetHeight method sets the height of the arrow cap. This is the distance from the base of the arrow to its vertex.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetHeight_height_.htm

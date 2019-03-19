@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeAsyncRecvDone
-title: PxeAsyncRecvDone function
+title: PxeAsyncRecvDone function (wdspxe.h)
 author: windows-sdk-content
 description: Passes the results of processing the client request asynchronously. This function should be called only if the PxeProviderRecvRequest function returns ERROR_IO_PENDING.
 old-location: wds\pxeasyncrecvdone.htm

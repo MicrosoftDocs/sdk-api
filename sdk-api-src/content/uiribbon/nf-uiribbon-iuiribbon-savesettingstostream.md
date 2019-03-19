@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIRibbon.SaveSettingsToStream
-title: IUIRibbon::SaveSettingsToStream
+title: IUIRibbon::SaveSettingsToStream (uiribbon.h)
 author: windows-sdk-content
 description: Writes ribbon settings to a binary stream.
 old-location: windowsribbon\windowsribbon_iuiribbon_savesettingstostream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetMode
-title: MsiGetMode function
+title: MsiGetMode function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetMode function is used to determine whether the installer is currently running in a specified mode, as listed in the table.
 old-location: setup\msigetmode.htm

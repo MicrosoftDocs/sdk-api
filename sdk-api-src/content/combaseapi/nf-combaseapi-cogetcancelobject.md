@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetCancelObject
-title: CoGetCancelObject function
+title: CoGetCancelObject function (combaseapi.h)
 author: windows-sdk-content
 description: Obtains a pointer to a call control interface, normally ICancelMethodCalls, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
 old-location: com\cogetcancelobject.htm

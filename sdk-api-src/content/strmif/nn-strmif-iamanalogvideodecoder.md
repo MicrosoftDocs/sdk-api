@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMAnalogVideoDecoder
-title: IAMAnalogVideoDecoder
+title: IAMAnalogVideoDecoder (strmif.h)
 author: windows-sdk-content
 description: The IAMAnalogVideoDecoder interface sets and retrieves information about the analog-to-digital conversion process in a video capture filter.The WDM Video Capture filter exposes this interface if the device is an analog video capture device.
 old-location: dshow\iamanalogvideodecoder.htm

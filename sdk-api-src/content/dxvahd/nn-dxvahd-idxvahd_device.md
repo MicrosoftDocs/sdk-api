@@ -1,6 +1,6 @@
 ---
 UID: NN:dxvahd.IDXVAHD_Device
-title: IDXVAHD_Device
+title: IDXVAHD_Device (dxvahd.h)
 author: windows-sdk-content
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.SetFolder
-title: INewShortcutHookA::SetFolder
+title: INewShortcutHookA::SetFolder (shlobj.h)
 author: windows-sdk-content
 description: Sets the folder name for the shortcut object.
 old-location: shell\INewShortcutHook_SetFolder.htm

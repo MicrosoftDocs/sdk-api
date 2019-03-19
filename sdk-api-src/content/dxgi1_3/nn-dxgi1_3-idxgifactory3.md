@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_3.IDXGIFactory3
-title: IDXGIFactory3
+title: IDXGIFactory3 (dxgi1_3.h)
 author: windows-sdk-content
 description: Enables creating Microsoft DirectX Graphics Infrastructure (DXGI) objects.
 old-location: direct3ddxgi\idxgifactory3.htm

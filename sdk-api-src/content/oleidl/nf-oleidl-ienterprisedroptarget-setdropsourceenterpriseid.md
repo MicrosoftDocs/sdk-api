@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IEnterpriseDropTarget.SetDropSourceEnterpriseId
-title: IEnterpriseDropTarget::SetDropSourceEnterpriseId
+title: IEnterpriseDropTarget::SetDropSourceEnterpriseId (oleidl.h)
 author: windows-sdk-content
 description: Provides the drop target with the enterprise ID of the drop source.
 old-location: com\setdropsourceenterpriseid_setdropsourceenterpriseId.htm

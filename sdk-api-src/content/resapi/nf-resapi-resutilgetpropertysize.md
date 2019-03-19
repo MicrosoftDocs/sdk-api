@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetPropertySize
-title: ResUtilGetPropertySize function
+title: ResUtilGetPropertySize function (resapi.h)
 author: windows-sdk-content
 description: Returns the total number of bytes required for a specified property.
 old-location: mscs\resutilgetpropertysize.htm

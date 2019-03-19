@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_Arrange
-title: ListView_Arrange macro
+title: ListView_Arrange macro (commctrl.h)
 author: windows-sdk-content
 description: Arranges items in icon view. You can use this macro or send the LVM_ARRANGE message explicitly.
 old-location: controls\ListView_Arrange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:vfw.CAPSTATUSCALLBACKW
-title: CAPSTATUSCALLBACKW
+title: CAPSTATUSCALLBACKW (vfw.h)
 author: windows-sdk-content
 description: The capStatusCallback function is the status callback function used with video capture. The name capStatusCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capstatuscallback.htm

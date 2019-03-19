@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_FDC
-title: IBDA_FDC
+title: IBDA_FDC (bdaiface.h)
 author: windows-sdk-content
 description: Provides access to a device's Forward Data Channel (FDC) Service. The FDC is an out-of-band channel that carries configuration and control messages.
 old-location: mstv\ibda_fdc.htm

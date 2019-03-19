@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Stop
-title: IMFMediaSource::Stop
+title: IMFMediaSource::Stop (mfidl.h)
 author: windows-sdk-content
 description: Stops all active streams in the media source.
 old-location: mf\imfmediasource_stop.htm

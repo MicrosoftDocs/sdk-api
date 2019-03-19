@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntSub
-title: UIntSub function
+title: UIntSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type UINT from another.
 old-location: shell\UIntSub.htm

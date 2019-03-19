@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFVideoMixerControl2
-title: IMFVideoMixerControl2
+title: IMFVideoMixerControl2 (evr.h)
 author: windows-sdk-content
 description: Controls preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2.htm

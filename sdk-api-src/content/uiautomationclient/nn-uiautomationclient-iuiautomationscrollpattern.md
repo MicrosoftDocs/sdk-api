@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationScrollPattern
-title: IUIAutomationScrollPattern
+title: IUIAutomationScrollPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that acts as a scrollable container for a collection of child elements.
 old-location: winauto\uiauto_IUIAutomationScrollPattern.htm

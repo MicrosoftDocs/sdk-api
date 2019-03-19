@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryLuns
-title: IVdsSubSystem::QueryLuns
+title: IVdsSubSystem::QueryLuns (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an enumeration of LUNs surfaced in the subsystem. This method applies to hardware provider objects only.
 old-location: base\ivdssubsystem_queryluns.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCallInfo
-title: ITCallInfo
+title: ITCallInfo (tapi3if.h)
 author: windows-sdk-content
 description: The ITCallInfo interface gets and sets a variety of information concerning a Call object. The ITAddress::get_Calls and IEnumCall::Next methods create the ITCallInfo interface.
 old-location: tapi3\itcallinfo.htm

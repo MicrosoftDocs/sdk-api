@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.WSASetLastError
-title: WSASetLastError function
+title: WSASetLastError function (winsock.h)
 author: windows-sdk-content
 description: The WSASetLastError function sets the error code that can be retrieved through the WSAGetLastError function.
 old-location: winsock\wsasetlasterror_2.htm

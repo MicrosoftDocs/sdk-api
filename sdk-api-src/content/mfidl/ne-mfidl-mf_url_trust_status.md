@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0031_0001
-title: MF_URL_TRUST_STATUS
+title: MF_URL_TRUST_STATUS (mfidl.h)
 author: windows-sdk-content
 description: Indicates whether the URL is from a trusted source.
 old-location: mf\mf_url_trust_status.htm

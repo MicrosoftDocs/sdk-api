@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.Serialize
-title: ISyncChangeBatchBase::Serialize
+title: ISyncChangeBatchBase::Serialize (winsync.h)
 author: windows-sdk-content
 description: Serializes the change batch to an array of bytes.
 old-location: winsync\isyncchangebatchbase_serialize.htm

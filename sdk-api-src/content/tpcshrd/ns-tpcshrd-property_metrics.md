@@ -1,6 +1,6 @@
 ---
 UID: NS:tpcshrd._PROPERTY_METRICS
-title: PROPERTY_METRICS
+title: PROPERTY_METRICS (tpcshrd.h)
 author: windows-sdk-content
 description: Defines the range and resolution of a packet property.
 old-location: tablet\property_metrics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragmentRoot.ElementProviderFromPoint
-title: IRawElementProviderFragmentRoot::ElementProviderFromPoint
+title: IRawElementProviderFragmentRoot::ElementProviderFromPoint (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the provider of the element that is at the specified point in this fragment.
 old-location: winauto\uiauto_IRawElementProviderFragmentRoot_ElementProviderFromPoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetAt(int)
-title: CHString::GetAt(int)
+title: CHString::GetAt(int) (chstring.h)
 author: windows-sdk-content
 description: Returns a single character specified by an index number.
 old-location: wmi\chstring_getat.htm

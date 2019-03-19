@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetBounds
-title: MetafileHeader::GetBounds
+title: MetafileHeader::GetBounds (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::GetBounds method gets the bounding rectangle for the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetBounds_rect_.htm

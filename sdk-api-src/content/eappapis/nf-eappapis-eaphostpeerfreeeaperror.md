@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeEapError
-title: EapHostPeerFreeEapError function
+title: EapHostPeerFreeEapError function (eappapis.h)
 author: windows-sdk-content
 description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.
 old-location: eaphost\eaphostpeerfreeeaperror.htm

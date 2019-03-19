@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObj.GetPageCounts
-title: IDsAdminNewObj::GetPageCounts
+title: IDsAdminNewObj::GetPageCounts (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObj::GetPageCounts method obtains the total number of pages in the wizard as well as the index of the first page of the extension.
 old-location: ad\idsadminnewobj_getpagecounts.htm

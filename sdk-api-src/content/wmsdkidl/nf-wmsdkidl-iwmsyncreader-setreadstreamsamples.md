@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.SetReadStreamSamples
-title: IWMSyncReader::SetReadStreamSamples
+title: IWMSyncReader::SetReadStreamSamples (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetReadStreamSamples method specifies whether samples from a stream will be delivered compressed or uncompressed.
 old-location: wmformat\iwmsyncreader_setreadstreamsamples.htm

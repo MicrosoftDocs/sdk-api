@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.Item
-title: IInkDivisionUnits::Item
+title: IInkDivisionUnits::Item (msinkaut15.h)
 author: windows-sdk-content
 description: Retrieves the IInkDivisionUnit object at the specified index within the IInkDivisionUnits collection.
 old-location: tablet\iinkdivisionunits_item.htm

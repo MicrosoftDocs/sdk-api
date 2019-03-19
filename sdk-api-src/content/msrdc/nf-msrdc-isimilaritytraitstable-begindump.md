@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.BeginDump
-title: ISimilarityTraitsTable::BeginDump
+title: ISimilarityTraitsTable::BeginDump (msrdc.h)
 author: windows-sdk-content
 description: Retrieves similarity data from the similarity traits table.
 old-location: rdc\isimilaritytraitstable_begindump.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.HideCaret
-title: HideCaret function
+title: HideCaret function (winuser.h)
 author: windows-sdk-content
 description: Removes the caret from the screen. Hiding a caret does not destroy its current shape or invalidate the insertion point.
 old-location: menurc\hidecaret.htm

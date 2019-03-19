@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadUShort4
-title: XMLoadUShort4 function
+title: XMLoadUShort4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMUSHORT4 into an XMVECTOR.
 old-location: dxmath\xmloadushort4.htm

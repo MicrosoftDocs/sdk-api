@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkPersistenceCompressionMode
-title: InkPersistenceCompressionMode
+title: InkPersistenceCompressionMode (msinkaut.h)
 author: windows-sdk-content
 description: Defines values for the compression modes that are used to save the InkDisp object to a serialized format.
 old-location: tablet\inkpersistencecompressionmode.htm

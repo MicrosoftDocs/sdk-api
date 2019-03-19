@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCheckboxText
-title: IPhotoProgressDialog::SetCheckboxText
+title: IPhotoProgressDialog::SetCheckboxText (photoacquire.h)
 author: windows-sdk-content
 description: The SetCheckboxText method sets the text for the check box in the progress dialog box indicating whether to delete images after transfer.
 old-location: picacq\iphotoprogressdialog_setcheckboxtext.htm

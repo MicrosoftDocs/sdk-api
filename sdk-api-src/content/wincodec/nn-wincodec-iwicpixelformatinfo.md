@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICPixelFormatInfo
-title: IWICPixelFormatInfo
+title: IWICPixelFormatInfo (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about a pixel format.
 old-location: wic\_wic_codec_iwicpixelformatinfo.htm

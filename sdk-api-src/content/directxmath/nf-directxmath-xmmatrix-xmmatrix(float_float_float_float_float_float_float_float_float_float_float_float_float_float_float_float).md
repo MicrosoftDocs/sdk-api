@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
-title: XMMATRIX::XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)
+title: XMMATRIX::XMMATRIX(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of the XMMATRIX structure from sixteen scalar float values.
 old-location: dxmath\xmmatrix_ctor_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportRect
-title: IDirectManipulationViewport::SetViewportRect
+title: IDirectManipulationViewport::SetViewportRect (directmanipulation.h)
 author: windows-sdk-content
 description: Sets the bounding rectangle for the viewport, relative to the origin of the viewport coordinate system.
 old-location: directmanipulation\idirectmanipulationviewport_setviewportrect.htm

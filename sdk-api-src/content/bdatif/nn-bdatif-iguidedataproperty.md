@@ -1,6 +1,6 @@
 ---
 UID: NN:bdatif.IGuideDataProperty
-title: IGuideDataProperty
+title: IGuideDataProperty (bdatif.h)
 author: windows-sdk-content
 description: The IGuideDataProperty interface represents the name, value, and language of a property associated with a service, program or schedule entry object.
 old-location: mstv\iguidedataproperty.htm

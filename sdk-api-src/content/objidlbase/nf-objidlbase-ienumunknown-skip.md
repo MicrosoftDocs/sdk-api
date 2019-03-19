@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumUnknown.Skip
-title: IEnumUnknown::Skip
+title: IEnumUnknown::Skip (objidlbase.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumunknown_skip.htm

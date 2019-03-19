@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluscolormatrix.ColorMap
-title: ColorMap
+title: ColorMap (gdipluscolormatrix.h)
 author: windows-sdk-content
 description: The ColorMap structure contains two Color objects. Several methods of the ImageAttributes class adjust image colors by using a color remap table, which is an array of ColorMap structures.
 old-location: gdiplus\_gdiplus_STRUC_ColorMap.htm

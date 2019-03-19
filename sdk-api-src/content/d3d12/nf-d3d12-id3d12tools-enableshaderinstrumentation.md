@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Tools.EnableShaderInstrumentation
-title: ID3D12Tools::EnableShaderInstrumentation
+title: ID3D12Tools::EnableShaderInstrumentation (d3d12.h)
 author: windows-sdk-content
 description: This method enables tools such as PIX to instrument shaders.
 old-location: direct3d12\id3d12tools_enableshaderinstrumentation.htm

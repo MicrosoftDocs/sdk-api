@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor4.ShouldIndexProperty
-title: IUrlAccessor4::ShouldIndexProperty
+title: IUrlAccessor4::ShouldIndexProperty (searchapi.h)
 author: windows-sdk-content
 description: Identifies whether a property should be indexed.
 old-location: search\iurlaccessor4_shouldindexproperty.htm

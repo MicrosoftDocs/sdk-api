@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockSetRate
-title: IMFClockStateSink::OnClockSetRate
+title: IMFClockStateSink::OnClockSetRate (mfidl.h)
 author: windows-sdk-content
 description: Called when the rate changes on the presentation clock.
 old-location: mf\imfclockstatesink_onclocksetrate.htm

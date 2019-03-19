@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.GetInputDataPointer
-title: IAudioInputEndpointRT::GetInputDataPointer
+title: IAudioInputEndpointRT::GetInputDataPointer (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets a pointer to the buffer from which data will be read by the audio engine.
 old-location: termserv\iaudioinputendpointrt_getinputdatapointer.htm

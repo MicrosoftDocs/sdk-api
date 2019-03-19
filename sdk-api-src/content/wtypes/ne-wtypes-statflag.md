@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypes.tagSTATFLAG
-title: STATFLAG
+title: STATFLAG (wtypes.h)
 author: windows-sdk-content
 description: Indicate whether the method should try to return a name in the pwcsName member of the STATSTG structure.
 old-location: stg\statflag.htm

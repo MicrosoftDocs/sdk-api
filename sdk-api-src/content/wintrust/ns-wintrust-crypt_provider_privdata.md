@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_PRIVDATA
-title: CRYPT_PROVIDER_PRIVDATA
+title: CRYPT_PROVIDER_PRIVDATA (wintrust.h)
 author: windows-sdk-content
 description: Contains private data to be used by a provider.
 old-location: security\crypt_provider_privdata.htm

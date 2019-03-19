@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USB_CONTROLLER_INFO_0
-title: USB_CONTROLLER_INFO_0
+title: USB_CONTROLLER_INFO_0 (usbuser.h)
 author: windows-sdk-content
 description: The USB_CONTROLLER_INFO_0 structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the USB host controller.
 old-location: buses\usb_controller_info_0.htm

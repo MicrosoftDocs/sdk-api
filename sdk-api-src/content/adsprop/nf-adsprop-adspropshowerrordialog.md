@@ -1,6 +1,6 @@
 ---
 UID: NF:adsprop.ADsPropShowErrorDialog
-title: ADsPropShowErrorDialog function
+title: ADsPropShowErrorDialog function (adsprop.h)
 author: windows-sdk-content
 description: The ADsPropShowErrorDialog function displays a dialog box that contains the error messages accumulated through calls to the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR.
 old-location: ad\adspropshowerrordialog.htm

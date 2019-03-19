@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMaxThreads
-title: IThreadPoolKnobs::SetMaxThreads
+title: IThreadPoolKnobs::SetMaxThreads (comsvcs.h)
 author: windows-sdk-content
 description: Sets the maximum number of threads to be allowed in the pool.
 old-location: cos\ithreadpoolknobs_setmaxthreads.htm

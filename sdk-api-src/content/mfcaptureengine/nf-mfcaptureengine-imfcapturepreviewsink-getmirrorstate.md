@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetMirrorState
-title: IMFCapturePreviewSink::GetMirrorState
+title: IMFCapturePreviewSink::GetMirrorState (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the current mirroring state of the video preview stream.
 old-location: mf\imfcapturepreviewsink_getmirrorstate.htm

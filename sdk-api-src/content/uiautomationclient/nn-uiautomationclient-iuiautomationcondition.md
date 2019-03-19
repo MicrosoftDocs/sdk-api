@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationCondition
-title: IUIAutomationCondition
+title: IUIAutomationCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: This is the primary interface for conditions used in filtering when searching for elements in the UI Automation tree.
 old-location: winauto\uiauto_IUIAutomationCondition.htm

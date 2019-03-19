@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.IsVarTypeNumber
-title: IsVarTypeNumber function
+title: IsVarTypeNumber function (propvarutil.h)
 author: windows-sdk-content
 description: Specifies whether VARTYPE is a number.
 old-location: properties\IsVarTypeNumber.htm

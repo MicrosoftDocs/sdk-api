@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GID_ROTATE_ANGLE_TO_ARGUMENT
-title: GID_ROTATE_ANGLE_TO_ARGUMENT macro
+title: GID_ROTATE_ANGLE_TO_ARGUMENT macro (winuser.h)
 author: windows-sdk-content
 description: Converts a radian value to an argument for rotation gesture messages.
 old-location: wintouch\gci_rotate_angle_to_argument.htm

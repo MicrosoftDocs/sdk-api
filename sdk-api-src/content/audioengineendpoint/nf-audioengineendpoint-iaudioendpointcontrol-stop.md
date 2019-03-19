@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Stop
-title: IAudioEndpointControl::Stop
+title: IAudioEndpointControl::Stop (audioengineendpoint.h)
 author: windows-sdk-content
 description: Stops the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_stop.htm

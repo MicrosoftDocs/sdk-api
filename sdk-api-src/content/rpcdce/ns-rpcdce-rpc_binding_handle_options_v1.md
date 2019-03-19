@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_OPTIONS_V1
-title: RPC_BINDING_HANDLE_OPTIONS_V1
+title: RPC_BINDING_HANDLE_OPTIONS_V1 (rpcdce.h)
 author: windows-sdk-content
 description: Contains additional options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_options_v1.htm

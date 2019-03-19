@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.Clear
-title: IMathInputControl::Clear
+title: IMathInputControl::Clear (micaut.h)
 author: windows-sdk-content
 description: Clears all ink from the control.
 old-location: tablet\imathinputcontrol_clear.htm

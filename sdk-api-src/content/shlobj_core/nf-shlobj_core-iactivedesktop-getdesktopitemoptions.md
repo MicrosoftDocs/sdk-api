@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetDesktopItemOptions
-title: IActiveDesktop::GetDesktopItemOptions
+title: IActiveDesktop::GetDesktopItemOptions (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the options for the desktop item.
 old-location: lwef\iactivedesktop_getdesktopitemoptions.htm

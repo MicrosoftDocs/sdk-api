@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoStopTonesOnOnHook
-title: ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook
+title: ITAutomatedPhoneControl::get_AutoStopTonesOnOnHook (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoStopTonesOnOnHook method retrieves the current value of the AutoStopTonesOnOnHook property.
 old-location: tapi3\itautomatedphonecontrol_get_autostoptonesononhook.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Close
-title: IWMWriterFileSink2::Close
+title: IWMWriterFileSink2::Close (wmsdkidl.h)
 author: windows-sdk-content
 description: The Close method closes the sink.
 old-location: wmformat\iwmwriterfilesink2_close.htm

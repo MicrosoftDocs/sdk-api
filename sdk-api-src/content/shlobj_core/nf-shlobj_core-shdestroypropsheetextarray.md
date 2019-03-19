@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHDestroyPropSheetExtArray
-title: SHDestroyPropSheetExtArray function
+title: SHDestroyPropSheetExtArray function (shlobj_core.h)
 author: windows-sdk-content
 description: Frees property sheet handlers that are pointed to an array created by SHCreatePropSheetExtArray.
 old-location: shell\SHDestroyPropSheetExtArray.htm

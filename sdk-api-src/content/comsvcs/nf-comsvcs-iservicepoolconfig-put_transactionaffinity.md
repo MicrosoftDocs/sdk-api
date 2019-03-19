@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_TransactionAffinity
-title: IServicePoolConfig::put_TransactionAffinity
+title: IServicePoolConfig::put_TransactionAffinity (comsvcs.h)
 author: windows-sdk-content
 description: Sets whether objects involved in transactions are held until the transaction completes.
 old-location: cos\iservicepoolconfig_put_transactionaffinity.htm

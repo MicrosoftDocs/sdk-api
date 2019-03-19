@@ -1,6 +1,6 @@
 ---
 UID: NE:evr.MFVideoAspectRatioMode
-title: MFVideoAspectRatioMode
+title: MFVideoAspectRatioMode (evr.h)
 author: windows-sdk-content
 description: Specifies the aspect-ratio mode.
 old-location: mf\mfvideoaspectratiomode.htm

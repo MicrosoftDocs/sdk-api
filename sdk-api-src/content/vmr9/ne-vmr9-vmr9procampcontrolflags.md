@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0005_0002
-title: VMR9ProcAmpControlFlags
+title: VMR9ProcAmpControlFlags (vmr9.h)
 author: windows-sdk-content
 description: The VMR9ProcAmpControlFlags enumeration type specifies image adjustment properties, for use with the Video Mixing Render Filter 9 (VMR-9).
 old-location: dshow\vmr9procampcontrolflags.htm

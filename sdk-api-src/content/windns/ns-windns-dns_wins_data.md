@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_40
-title: DNS_WINS_DATA
+title: DNS_WINS_DATA (windns.h)
 author: windows-sdk-content
 description: The DNS_WINS_DATA structure represents a DNS Windows Internet Name Service (WINS) record.
 old-location: dns\dns_wins_data.htm

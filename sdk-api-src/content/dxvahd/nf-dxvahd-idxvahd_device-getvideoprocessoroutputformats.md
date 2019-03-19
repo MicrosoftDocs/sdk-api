@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorOutputFormats
-title: IDXVAHD_Device::GetVideoProcessorOutputFormats
+title: IDXVAHD_Device::GetVideoProcessorOutputFormats (dxvahd.h)
 author: windows-sdk-content
 description: Gets a list of the output formats supported by the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device_getvideoprocessoroutputformats.htm

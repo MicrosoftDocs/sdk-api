@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_16
-title: WS_CHANNEL_STATE
+title: WS_CHANNEL_STATE (webservices.h)
 author: windows-sdk-content
 description: The different states that a channel can be in.
 old-location: wsw\ws_channel_state.htm

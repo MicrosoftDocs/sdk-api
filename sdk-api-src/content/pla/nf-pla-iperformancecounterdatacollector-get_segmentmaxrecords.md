@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_SegmentMaxRecords
-title: IPerformanceCounterDataCollector::get_SegmentMaxRecords
+title: IPerformanceCounterDataCollector::get_SegmentMaxRecords (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of samples to log.
 old-location: pla\iperformancecounterdatacollector_segmentmaxrecords.htm

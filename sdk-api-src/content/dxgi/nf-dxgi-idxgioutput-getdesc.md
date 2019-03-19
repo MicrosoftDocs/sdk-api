@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetDesc
-title: IDXGIOutput::GetDesc
+title: IDXGIOutput::GetDesc (dxgi.h)
 author: windows-sdk-content
 description: Get a description of the output.
 old-location: direct3ddxgi\idxgioutput_getdesc.htm

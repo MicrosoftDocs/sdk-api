@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._NEW_LOG_FILE_FREQUENCY
-title: NEW_LOG_FILE_FREQUENCY
+title: NEW_LOG_FILE_FREQUENCY (sdoias.h)
 author: windows-sdk-content
 description: The values of the NEW_LOG_FILE_FREQUENCY enumeration type specify how frequently new log files are created.
 old-location: nps\SDO_new_log_file_frequency.htm

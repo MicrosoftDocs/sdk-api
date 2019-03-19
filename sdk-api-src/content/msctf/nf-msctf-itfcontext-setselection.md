@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.SetSelection
-title: ITfContext::SetSelection
+title: ITfContext::SetSelection (msctf.h)
 author: windows-sdk-content
 description: ITfContext::SetSelection method
 old-location: tsf\itfcontext_setselection.htm

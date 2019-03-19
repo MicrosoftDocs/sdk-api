@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.QueryServiceRegistration
-title: IUpdateServiceManager2::QueryServiceRegistration
+title: IUpdateServiceManager2::QueryServiceRegistration (wuapi.h)
 author: windows-sdk-content
 description: Returns a pointer to an IUpdateServiceRegistration interface.
 old-location: wua\iupdateservicemanager2_queryserviceregistration_methods.htm

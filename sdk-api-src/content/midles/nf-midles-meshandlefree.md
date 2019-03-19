@@ -1,6 +1,6 @@
 ---
 UID: NF:midles.MesHandleFree
-title: MesHandleFree function
+title: MesHandleFree function (midles.h)
 author: windows-sdk-content
 description: The MesHandleFree function frees the memory allocated by the serialization handle.
 old-location: rpc\meshandlefree.htm

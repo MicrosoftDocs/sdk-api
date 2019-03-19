@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IInvokeProvider
-title: IInvokeProvider
+title: IInvokeProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to controls that initiate or perform a single, unambiguous action and do not maintain state when activated.
 old-location: winauto\uiauto_IInvokeProvider.htm

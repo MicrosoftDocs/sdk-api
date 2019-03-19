@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.GetDistPointCount
-title: ICertEncodeCRLDistInfo::GetDistPointCount
+title: ICertEncodeCRLDistInfo::GetDistPointCount (certenc.h)
 author: windows-sdk-content
 description: Returns the number of certificate revocation list (CRL) distribution points in a CRL distribution information array.
 old-location: security\icertencodecrldistinfo_getdistpointcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetQwordValue
-title: ResUtilSetQwordValue function
+title: ResUtilSetQwordValue function (resapi.h)
 author: windows-sdk-content
 description: TBD. The PRESUTIL_SET_QWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetqwordvalue.htm

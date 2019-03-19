@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.UpdateDebugInfoFileEx
-title: UpdateDebugInfoFileEx function
+title: UpdateDebugInfoFileEx function (imagehlp.h)
 author: windows-sdk-content
 description: Uses the specified extended information to update the corresponding fields in the symbol file.
 old-location: base\updatedebuginfofileex.htm

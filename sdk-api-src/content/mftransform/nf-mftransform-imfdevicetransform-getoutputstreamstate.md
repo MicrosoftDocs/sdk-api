@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetOutputStreamState
-title: IMFDeviceTransform::GetOutputStreamState
+title: IMFDeviceTransform::GetOutputStreamState (mftransform.h)
 author: windows-sdk-content
 description: The GetOutputStreamState method gets the Device MFT’s output stream state.
 old-location: stream\imfdevicetransform_getoutputstreamstate.htm

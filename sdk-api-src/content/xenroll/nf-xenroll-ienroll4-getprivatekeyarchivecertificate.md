@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.GetPrivateKeyArchiveCertificate
-title: IEnroll4::GetPrivateKeyArchiveCertificate
+title: IEnroll4::GetPrivateKeyArchiveCertificate (xenroll.h)
 author: windows-sdk-content
 description: The GetPrivateKeyArchiveCertificate method retrieves the certificate used to archive the private key. This method was first defined in the IEnroll4 interface.
 old-location: security\ienroll4_getprivatekeyarchivecertificate.htm

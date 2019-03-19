@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.IO_Range_s
-title: IO_RANGE
+title: IO_RANGE (cfgmgr32.h)
 author: windows-sdk-content
 description: The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\io_range.htm

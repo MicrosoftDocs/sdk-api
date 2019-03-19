@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem
-title: ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem
+title: ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem (credentialprovider.h)
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that the selected item in a combo box has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem.htm

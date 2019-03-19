@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SendMessageTimeoutA
-title: SendMessageTimeoutA function
+title: SendMessageTimeoutA function (winuser.h)
 author: windows-sdk-content
 description: Sends the specified message to one or more windows.
 old-location: winmsg\sendmessagetimeout.htm

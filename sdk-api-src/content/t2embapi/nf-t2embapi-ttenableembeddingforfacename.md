@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTEnableEmbeddingForFacename
-title: TTEnableEmbeddingForFacename function
+title: TTEnableEmbeddingForFacename function (t2embapi.h)
 author: windows-sdk-content
 description: Adds or removes facenames from the typeface exclusion list.
 old-location: gdi\ttenableembeddingforfacename.htm

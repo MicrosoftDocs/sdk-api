@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.SetText
-title: ITextStory::SetText
+title: ITextStory::SetText (tom.h)
 author: windows-sdk-content
 description: Replaces the text in a story with the specified text.
 old-location: controls\itextstory_settext.htm

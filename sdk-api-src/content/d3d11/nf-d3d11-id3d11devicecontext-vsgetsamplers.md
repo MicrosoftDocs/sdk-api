@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSGetSamplers
-title: ID3D11DeviceContext::VSGetSamplers
+title: ID3D11DeviceContext::VSGetSamplers (d3d11.h)
 author: windows-sdk-content
 description: Get an array of sampler states from the vertex shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_vsgetsamplers.htm

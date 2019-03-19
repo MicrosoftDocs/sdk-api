@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.LoadEnclaveImageW
-title: LoadEnclaveImageW function
+title: LoadEnclaveImageW function (enclaveapi.h)
 author: windows-sdk-content
 description: Loads an image and all of its imports into an enclave.
 old-location: base\loadenclaveimage.htm

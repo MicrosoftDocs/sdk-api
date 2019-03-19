@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddRectangles(IN const Rect,INT)
-title: GraphicsPath::AddRectangles(IN const Rect,INT)
+title: GraphicsPath::AddRectangles(IN const Rect,INT) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddRectangles method adds a sequence of rectangles to this path
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddRectangles_Rect_rects_INT_count_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linereqmediacall_tag
-title: LINEREQMEDIACALL
+title: LINEREQMEDIACALL (tapi.h)
 author: windows-sdk-content
 description: Describes a request initiated by a call to the lineGetRequest function. This data structure is obsolete and should not be used.
 old-location: tapi2\linereqmediacall_str.htm

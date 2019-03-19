@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.MFDeserializeAttributesFromStream
-title: MFDeserializeAttributesFromStream function
+title: MFDeserializeAttributesFromStream function (mfobjects.h)
 author: windows-sdk-content
 description: Loads attributes from a stream into an attribute store.
 old-location: mf\mfdeserializeattributesfromstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.AfterTypeChange
-title: ITypeChangeEvents::AfterTypeChange
+title: ITypeChangeEvents::AfterTypeChange (oaidl.h)
 author: windows-sdk-content
 description: Raised after a type has been changed.
 old-location: automat\itypechangeevents_aftertypechange.htm

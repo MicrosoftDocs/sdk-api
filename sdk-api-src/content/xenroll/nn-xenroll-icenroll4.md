@@ -1,6 +1,6 @@
 ---
 UID: NN:xenroll.ICEnroll4
-title: ICEnroll4
+title: ICEnroll4 (xenroll.h)
 author: windows-sdk-content
 description: The ICEnroll4 interface is one of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll4.htm

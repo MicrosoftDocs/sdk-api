@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateAudioRendererActivate
-title: MFCreateAudioRendererActivate function
+title: MFCreateAudioRendererActivate function (mfidl.h)
 author: windows-sdk-content
 description: Creates an activation object for the Streaming Audio Renderer.
 old-location: mf\mfcreateaudiorendereractivate.htm

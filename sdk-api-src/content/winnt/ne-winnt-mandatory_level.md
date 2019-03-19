@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._MANDATORY_LEVEL
-title: MANDATORY_LEVEL
+title: MANDATORY_LEVEL (winnt.h)
 author: windows-sdk-content
 description: Lists the possible security levels.
 old-location: security\mandatory_level.htm

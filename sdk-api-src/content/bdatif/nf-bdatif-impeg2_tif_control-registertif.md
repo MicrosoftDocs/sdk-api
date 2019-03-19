@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.RegisterTIF
-title: IMPEG2_TIF_CONTROL::RegisterTIF
+title: IMPEG2_TIF_CONTROL::RegisterTIF (bdatif.h)
 author: windows-sdk-content
 description: The RegisterTIF method is called by the Transport Information Filter (TIF) to register itself with the Network Provider.
 old-location: mstv\impeg2_tif_control_registertif.htm

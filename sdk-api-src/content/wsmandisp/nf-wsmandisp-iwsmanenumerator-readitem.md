@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.ReadItem
-title: IWSManEnumerator::ReadItem
+title: IWSManEnumerator::ReadItem (wsmandisp.h)
 author: windows-sdk-content
 description: Retrieves an item from the resource and returns an XML representation of the item.
 old-location: winrm\iwsmanenumerator_readitem.htm

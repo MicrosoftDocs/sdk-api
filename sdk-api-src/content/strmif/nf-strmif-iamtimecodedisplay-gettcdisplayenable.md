@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.GetTCDisplayEnable
-title: IAMTimecodeDisplay::GetTCDisplayEnable
+title: IAMTimecodeDisplay::GetTCDisplayEnable (strmif.h)
 author: windows-sdk-content
 description: The GetTCDisplayEnable method determines whether an external device's timecode character generator output is enabled or disabled.
 old-location: dshow\iamtimecodedisplay_gettcdisplayenable.htm

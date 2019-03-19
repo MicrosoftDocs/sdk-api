@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ISelector.get_SourceNodeId
-title: ISelector::get_SourceNodeId
+title: ISelector::get_SourceNodeId (vidcap.h)
 author: windows-sdk-content
 description: The get_SourceNodeId method returns the index of the active source node.
 old-location: dshow\iselector_get_sourcenodeid.htm

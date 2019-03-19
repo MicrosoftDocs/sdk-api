@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Reset
-title: IEnumCERTVIEWATTRIBUTE::Reset
+title: IEnumCERTVIEWATTRIBUTE::Reset (certview.h)
 author: windows-sdk-content
 description: Moves to the beginning of the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_reset.htm

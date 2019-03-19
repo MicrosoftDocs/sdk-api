@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PALETTERGB
-title: PALETTERGB macro
+title: PALETTERGB macro (wingdi.h)
 author: windows-sdk-content
 description: The PALETTERGB macro accepts three values that represent the relative intensities of red, green, and blue and returns a palette-relative red, green, blue (RGB) specifier consisting of 2 in the high-order byte and an RGB value in the three low-order bytes. An application using a color palette can pass this specifier, instead of an explicit RGB value, to functions that expect a color.
 old-location: gdi\palettergb.htm

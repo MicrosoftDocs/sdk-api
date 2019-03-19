@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.RemoveTocByType
-title: ITocParser::RemoveTocByType
+title: ITocParser::RemoveTocByType (wmcodecdsp.h)
 author: windows-sdk-content
 description: The RemoveTocByType method removes all tables of contents of a specified type from the TOC Parser object.
 old-location: mf\itocparser_removetocbytype.htm

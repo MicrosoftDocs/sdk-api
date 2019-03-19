@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateAlignedMemoryBuffer
-title: MFCreateAlignedMemoryBuffer function
+title: MFCreateAlignedMemoryBuffer function (mfapi.h)
 author: windows-sdk-content
 description: Allocates system memory with a specified byte alignment and creates a media buffer to manage the memory.
 old-location: mf\mfcreatealignedmemorybuffer.htm

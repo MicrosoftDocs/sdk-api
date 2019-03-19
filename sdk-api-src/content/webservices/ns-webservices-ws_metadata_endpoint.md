@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_METADATA_ENDPOINT
-title: WS_METADATA_ENDPOINT
+title: WS_METADATA_ENDPOINT (webservices.h)
 author: windows-sdk-content
 description: Information about a single endpoint that was read from metadata documents.
 old-location: wsw\ws_metadata_endpoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsExtractRecordsFromMessage_W
-title: DnsExtractRecordsFromMessage_W function
+title: DnsExtractRecordsFromMessage_W function (windns.h)
 author: windows-sdk-content
 description: The DnsExtractRecordsFromMessage function type extracts resource records (RR) from a DNS message, and stores those records in a DNS_RECORD structure.
 old-location: dns\dnsextractrecordsfrommessage.htm

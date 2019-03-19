@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetProfileCustomUserData
-title: WlanSetProfileCustomUserData function
+title: WlanSetProfileCustomUserData function (wlanapi.h)
 author: windows-sdk-content
 description: Sets the custom user data associated with a profile.
 old-location: nwifi\wlansetuserdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.Delete
-title: IPortableDeviceResources::Delete
+title: IPortableDeviceResources::Delete (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Delete method deletes one or more resources from the object identified by the pszObjectID parameter.
 old-location: wpdsdk\iportabledeviceresources_delete.htm

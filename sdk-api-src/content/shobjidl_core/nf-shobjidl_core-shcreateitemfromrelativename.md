@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemFromRelativeName
-title: SHCreateItemFromRelativeName function
+title: SHCreateItemFromRelativeName function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates and initializes a Shell item object from a relative parsing name.
 old-location: shell\SHCreateItemFromRelativeName.htm

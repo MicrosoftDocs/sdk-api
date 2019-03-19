@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualAlloc2FromApp
-title: VirtualAlloc2FromApp function
+title: VirtualAlloc2FromApp function (memoryapi.h)
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
 old-location: base\virtualalloc2fromapp.htm

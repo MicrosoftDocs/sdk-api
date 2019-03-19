@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4(float,float,float,float)
-title: XMSHORTN4::XMSHORTN4(float,float,float,float)
+title: XMSHORTN4::XMSHORTN4(float,float,float,float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMSHORTN4 from four normalized floatarguments.
 old-location: dxmath\xmshortn4_ctor_4.htm

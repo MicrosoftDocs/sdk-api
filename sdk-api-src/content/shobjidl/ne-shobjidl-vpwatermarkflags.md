@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl.VPWATERMARKFLAGS
-title: VPWATERMARKFLAGS
+title: VPWATERMARKFLAGS (shobjidl.h)
 author: windows-sdk-content
 description: Specifies watermark flags. Used by IVisualProperties::SetWatermark.
 old-location: shell\VPWATERMARKFLAGS.htm

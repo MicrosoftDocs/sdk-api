@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLanguage
-title: IXpsOMCoreProperties::SetLanguage
+title: IXpsOMCoreProperties::SetLanguage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the language property.
 old-location: xps\ixpsomcoreproperties_setlanguage.htm

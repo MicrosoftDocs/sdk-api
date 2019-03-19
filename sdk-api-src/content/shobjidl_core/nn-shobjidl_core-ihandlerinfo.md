@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IHandlerInfo
-title: IHandlerInfo
+title: IHandlerInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Supplies methods that provide information about the handler to methods of the IHandlerActivationHost interface.
 old-location: shell\IHandlerInfo.htm

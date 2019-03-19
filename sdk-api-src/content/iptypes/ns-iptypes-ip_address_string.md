@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes.__unnamed_struct_0
-title: IP_ADDRESS_STRING
+title: IP_ADDRESS_STRING (iptypes.h)
 author: windows-sdk-content
 description: Stores an IPv4 address in dotted decimal notation.
 old-location: iphlp\ip_address_string.htm

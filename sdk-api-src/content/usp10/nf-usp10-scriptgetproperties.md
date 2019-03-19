@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptGetProperties
-title: ScriptGetProperties function
+title: ScriptGetProperties function (usp10.h)
 author: windows-sdk-content
 description: Retrieves information about the current scripts.
 old-location: intl\scriptgetproperties.htm

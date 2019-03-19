@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.LeaveCriticalSectionWhenCallbackReturns
-title: LeaveCriticalSectionWhenCallbackReturns function
+title: LeaveCriticalSectionWhenCallbackReturns function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Specifies the critical section that the thread pool will release when the current callback completes.
 old-location: base\leavecriticalsectionwhencallbackreturns.htm

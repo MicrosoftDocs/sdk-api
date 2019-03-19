@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IStringTable.Enumerate
-title: IStringTable::Enumerate
+title: IStringTable::Enumerate (mmc.h)
 author: windows-sdk-content
 description: Supplies a pointer to an IEnumString interface on an enumerator that can return the strings in a snap-in's string table.
 old-location: mmc\istringtable_enumerate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_version_data_tag
-title: PEER_VERSION_DATA
+title: PEER_VERSION_DATA (p2p.h)
 author: windows-sdk-content
 description: The PEER_VERSION_DATA structure contains the version information about the Peer Graphing and Grouping APIs.
 old-location: p2p\peer_version_data.htm

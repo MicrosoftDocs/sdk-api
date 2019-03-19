@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_7
-title: RPC_INTERFACE_TEMPLATEW
+title: RPC_INTERFACE_TEMPLATEW (rpcdce.h)
 author: windows-sdk-content
 description: Defines an RPC interface group server interface.
 old-location: rpc\rpc_interface_template.htm

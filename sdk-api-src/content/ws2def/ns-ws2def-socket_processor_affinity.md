@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def._SOCKET_PROCESSOR_AFFINITY
-title: SOCKET_PROCESSOR_AFFINITY
+title: SOCKET_PROCESSOR_AFFINITY (ws2def.h)
 author: windows-sdk-content
 description: Contains the association between a socket and an RSS processor core and NUMA node.
 old-location: winsock\socket_processor_affinity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegCopyTreeW
-title: RegCopyTreeW function
+title: RegCopyTreeW function (winreg.h)
 author: windows-sdk-content
 description: Copies the specified registry key, along with its values and subkeys, to the specified destination key.
 old-location: base\regcopytree.htm

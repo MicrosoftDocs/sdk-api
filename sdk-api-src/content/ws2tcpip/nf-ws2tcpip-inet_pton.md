@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.inet_pton
-title: inet_pton function
+title: inet_pton function (ws2tcpip.h)
 author: windows-sdk-content
 description: The InetPton function converts an IPv4 or IPv6 Internet network address in its standard text presentation form into its numeric binary form. The ANSI version of this function is inet_pton.
 old-location: winsock\inet_pton.htm

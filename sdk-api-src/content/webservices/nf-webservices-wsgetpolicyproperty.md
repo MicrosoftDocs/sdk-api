@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetPolicyProperty
-title: WsGetPolicyProperty function
+title: WsGetPolicyProperty function (webservices.h)
 author: windows-sdk-content
 description: Retrieves a property of a policy object.
 old-location: wsw\wsgetpolicyproperty.htm

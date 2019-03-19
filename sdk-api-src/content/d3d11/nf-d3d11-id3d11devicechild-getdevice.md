@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceChild.GetDevice
-title: ID3D11DeviceChild::GetDevice
+title: ID3D11DeviceChild::GetDevice (d3d11.h)
 author: windows-sdk-content
 description: Get a pointer to the device that created this interface.
 old-location: direct3d11\id3d11devicechild_getdevice.htm

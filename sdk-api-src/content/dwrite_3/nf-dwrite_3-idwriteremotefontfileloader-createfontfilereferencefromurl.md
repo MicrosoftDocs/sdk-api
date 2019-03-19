@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl
-title: IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl
+title: IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a font file reference from a URL if the loader supports this capability.
 old-location: directwrite\idwriteremotefontfileloader_createfontfilereferencefromurl.htm

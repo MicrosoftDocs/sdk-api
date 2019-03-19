@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetCount
-title: IDWriteStringList::GetCount
+title: IDWriteStringList::GetCount (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the number of strings in the string list.
 old-location: directwrite\idwritestringlist_getcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_0
-title: INTERNET_ASYNC_RESULT
+title: INTERNET_ASYNC_RESULT (wininet.h)
 author: windows-sdk-content
 description: Contains the result of a call to an asynchronous function. This structure is used with InternetStatusCallback.
 old-location: wininet\internet_async_result.htm

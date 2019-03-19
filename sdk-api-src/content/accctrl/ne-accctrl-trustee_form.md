@@ -1,6 +1,6 @@
 ---
 UID: NE:accctrl._TRUSTEE_FORM
-title: TRUSTEE_FORM
+title: TRUSTEE_FORM (accctrl.h)
 author: windows-sdk-content
 description: Values that indicate the type of data pointed to by the ptstrName member of the TRUSTEE structure.
 old-location: security\trustee_form.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.GetEventId
-title: IESEvent::GetEventId
+title: IESEvent::GetEventId (tuner.h)
 author: windows-sdk-content
 description: Gets the unique identifier from an event that is derived from the IESEvent interface. The event identifier is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_geteventid.htm

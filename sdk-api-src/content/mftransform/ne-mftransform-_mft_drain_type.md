@@ -1,6 +1,6 @@
 ---
 UID: NE:mftransform._MFT_DRAIN_TYPE
-title: "_MFT_DRAIN_TYPE"
+title: "_MFT_DRAIN_TYPE" (mftransform.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: mf\_mft_drain_type.htm

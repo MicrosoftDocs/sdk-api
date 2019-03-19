@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11ClassInstance.GetTypeName
-title: ID3D11ClassInstance::GetTypeName
+title: ID3D11ClassInstance::GetTypeName (d3d11.h)
 author: windows-sdk-content
 description: Gets the type of the current HLSL class.
 old-location: direct3d11\id3d11classinstance_gettypename.htm

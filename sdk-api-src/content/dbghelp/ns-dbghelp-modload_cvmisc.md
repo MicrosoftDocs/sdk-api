@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._MODLOAD_CVMISC
-title: MODLOAD_CVMISC
+title: MODLOAD_CVMISC (dbghelp.h)
 author: windows-sdk-content
 description: Contains CodeView and Misc records.
 old-location: base\modload_cvmisc.htm

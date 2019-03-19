@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT(ID3D11Texture1D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT)
-title: CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture1D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT)
+title: CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture1D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT) (d3d11.h)
 author: windows-sdk-content
 description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with a D3D11_VIEWPORT structure.
 old-location: direct3d11\cd3d11_viewport_cd3d11_viewport_d3d11_viewport_.htm

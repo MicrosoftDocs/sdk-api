@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.DebugServerQueryInterface
-title: IRpcStubBuffer::DebugServerQueryInterface
+title: IRpcStubBuffer::DebugServerQueryInterface (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the interface that a stub represents.
 old-location: com\irpcstubbuffer_debugserverqueryinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLocal
-title: IXpsOMPath::GetStrokeBrushLocal
+title: IXpsOMPath::GetStrokeBrushLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the stroke brush for the path.
 old-location: xps\ixpsompath_getstrokebrushlocal.htm

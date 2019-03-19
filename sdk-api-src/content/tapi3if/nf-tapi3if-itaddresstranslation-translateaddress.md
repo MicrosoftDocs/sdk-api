@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslation.TranslateAddress
-title: ITAddressTranslation::TranslateAddress
+title: ITAddressTranslation::TranslateAddress (tapi3if.h)
 author: windows-sdk-content
 description: The TranslateAddress method creates the address translation information interface.
 old-location: tapi3\itaddresstranslation_translateaddress.htm

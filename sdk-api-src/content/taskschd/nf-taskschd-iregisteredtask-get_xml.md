@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Xml
-title: IRegisteredTask::get_Xml
+title: IRegisteredTask::get_Xml (taskschd.h)
 author: windows-sdk-content
 description: Gets the XML-formatted registration information for the registered task.
 old-location: taskschd\iregisteredtask_xml.htm

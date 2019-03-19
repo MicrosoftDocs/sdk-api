@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_DeviceServiceID
-title: IMbnDeviceService::get_DeviceServiceID
+title: IMbnDeviceService::get_DeviceServiceID (mbnapi.h)
 author: windows-sdk-content
 description: The ID of the device service to which this object is associated.
 old-location: mbn\imbndeviceservice_deviceserviceid.htm

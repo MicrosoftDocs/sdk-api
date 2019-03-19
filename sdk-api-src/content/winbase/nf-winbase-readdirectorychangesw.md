@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReadDirectoryChangesW
-title: ReadDirectoryChangesW function
+title: ReadDirectoryChangesW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory.
 old-location: fs\readdirectorychangesw.htm

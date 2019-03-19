@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnOverwrite
-title: IFileDialogEvents::OnOverwrite
+title: IFileDialogEvents::OnOverwrite (shobjidl_core.h)
 author: windows-sdk-content
 description: Called from the save dialog when the user chooses to overwrite a file.
 old-location: shell\IFileDialogEvents_OnOverwrite.htm

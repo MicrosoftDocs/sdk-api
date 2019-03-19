@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetCompressionMode
-title: ITextFont2::SetCompressionMode
+title: ITextFont2::SetCompressionMode (tom.h)
 author: windows-sdk-content
 description: Sets the East Asian compression mode.
 old-location: controls\itextfont2_setcompressionmode.htm

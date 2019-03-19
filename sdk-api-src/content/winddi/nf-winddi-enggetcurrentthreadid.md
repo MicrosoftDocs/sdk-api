@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetCurrentThreadId
-title: EngGetCurrentThreadId function
+title: EngGetCurrentThreadId function (winddi.h)
 author: windows-sdk-content
 description: The EngGetCurrentThreadId function identifies an application's current thread.
 old-location: display\enggetcurrentthreadid.htm

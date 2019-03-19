@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetTypeInfoEx
-title: SymGetTypeInfoEx function
+title: SymGetTypeInfoEx function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves multiple pieces of type information.
 old-location: base\symgettypeinfoex.htm

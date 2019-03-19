@@ -1,6 +1,6 @@
 ---
 UID: NF:wmnetsourcecreator.INSNetSourceCreator.GetNetSourceAdminInterface
-title: INSNetSourceCreator::GetNetSourceAdminInterface
+title: INSNetSourceCreator::GetNetSourceAdminInterface (wmnetsourcecreator.h)
 author: windows-sdk-content
 description: The GetNetSourceAdminInterface method retrieves a pointer to the IDispatch interface of the administrative network source object.
 old-location: wmformat\insnetsourcecreator_getnetsourceadmininterface.htm

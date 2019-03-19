@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMIStreamProps.GetProperty
-title: IWMIStreamProps::GetProperty
+title: IWMIStreamProps::GetProperty (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProperty method retrieves a named property from the IStream.
 old-location: wmformat\iwmistreamprops_getproperty.htm

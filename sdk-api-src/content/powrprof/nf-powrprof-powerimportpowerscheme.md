@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerImportPowerScheme
-title: PowerImportPowerScheme function
+title: PowerImportPowerScheme function (powrprof.h)
 author: windows-sdk-content
 description: Imports a power scheme from a file.
 old-location: base\powerimportpowerscheme.htm

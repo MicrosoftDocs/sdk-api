@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateVertexBuffer
-title: ID2D1EffectContext::CreateVertexBuffer
+title: ID2D1EffectContext::CreateVertexBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices.
 old-location: direct2d\id2d1contextinternal_createvertexbuffer.htm

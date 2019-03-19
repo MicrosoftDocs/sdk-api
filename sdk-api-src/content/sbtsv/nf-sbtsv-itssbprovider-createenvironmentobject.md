@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateEnvironmentObject
-title: ITsSbProvider::CreateEnvironmentObject
+title: ITsSbProvider::CreateEnvironmentObject (sbtsv.h)
 author: windows-sdk-content
 description: Creates an ITsSbEnvironment environment object.
 old-location: termserv\itssbprovider_createenvironmentobject.htm

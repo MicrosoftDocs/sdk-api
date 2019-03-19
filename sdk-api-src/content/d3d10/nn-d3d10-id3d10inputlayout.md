@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10InputLayout
-title: ID3D10InputLayout
+title: ID3D10InputLayout (d3d10.h)
 author: windows-sdk-content
 description: An input-layout interface accesses the input data for the input-assembler stage.
 old-location: direct3d10\id3d10inputlayout.htm

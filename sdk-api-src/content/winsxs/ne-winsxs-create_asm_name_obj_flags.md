@@ -1,6 +1,6 @@
 ---
 UID: NE:winsxs.__MIDL___MIDL_itf_winsxs_0000_0003_0001
-title: CREATE_ASM_NAME_OBJ_FLAGS
+title: CREATE_ASM_NAME_OBJ_FLAGS (winsxs.h)
 author: windows-sdk-content
 description: The CREATE_ASM_NAME_OBJ_FLAGS enumeration is used by the CreateAssemblyNameObject function.
 old-location: setup\create_asm_name_obj_flags_.htm

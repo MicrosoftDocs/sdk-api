@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetName
-title: IAppxManifestPackageId::GetName
+title: IAppxManifestPackageId::GetName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the name of the package as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getname.htm

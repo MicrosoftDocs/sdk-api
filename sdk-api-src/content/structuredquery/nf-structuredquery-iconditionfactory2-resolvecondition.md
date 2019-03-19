@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.ResolveCondition
-title: IConditionFactory2::ResolveCondition
+title: IConditionFactory2::ResolveCondition (structuredquery.h)
 author: windows-sdk-content
 description: Performs a variety of transformations on a condition tree, and thereby the resolved condition for evaluation. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_ResolveCondition.htm

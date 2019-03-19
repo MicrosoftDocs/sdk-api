@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.FindTrackerTargetsCompleted
-title: IReferenceTrackerManager::xaml
+title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Indicates that a garbage collection system has finished making all the calls it needs to IReferenceTracker::FindTrackerTargets; by this time, XAML has pegged all reference tracker targets that it wants to protect.
 old-location: winrt\ireferencetrackermanager_findtrackertargetscompleted.htm

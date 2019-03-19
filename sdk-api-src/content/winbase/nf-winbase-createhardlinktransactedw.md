@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateHardLinkTransactedW
-title: CreateHardLinkTransactedW function
+title: CreateHardLinkTransactedW function (winbase.h)
 author: windows-sdk-content
 description: Establishes a hard link between an existing file and a new file as a transacted operation.
 old-location: fs\createhardlinktransacted.htm

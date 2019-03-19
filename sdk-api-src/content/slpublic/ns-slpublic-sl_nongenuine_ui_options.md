@@ -1,6 +1,6 @@
 ---
 UID: NS:slpublic._tagSL_NONGENUINE_UI_OPTIONS
-title: SL_NONGENUINE_UI_OPTIONS
+title: SL_NONGENUINE_UI_OPTIONS (slpublic.h)
 author: windows-sdk-content
 description: Specifies an application that displays a dialog box when the SLIsGenuineLocal function indicates that an installation is not genuine.
 old-location: security\sl_nongenuine_ui_options.htm

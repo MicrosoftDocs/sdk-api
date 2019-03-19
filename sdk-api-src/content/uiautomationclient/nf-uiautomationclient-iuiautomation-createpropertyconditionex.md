@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreatePropertyConditionEx
-title: IUIAutomation::CreatePropertyConditionEx
+title: IUIAutomation::CreatePropertyConditionEx (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a condition that selects elements that have a property with the specified value, using optional flags.
 old-location: winauto\uiauto_IUIAutomation_CreatePropertyConditionEx.htm

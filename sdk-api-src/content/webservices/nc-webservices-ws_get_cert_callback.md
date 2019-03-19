@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_GET_CERT_CALLBACK
-title: WS_GET_CERT_CALLBACK
+title: WS_GET_CERT_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Provides a certificate to the security runtime.
 old-location: wsw\ws_get_cert_callback.htm

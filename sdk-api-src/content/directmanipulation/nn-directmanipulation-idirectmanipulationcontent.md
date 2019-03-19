@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationContent
-title: IDirectManipulationContent
+title: IDirectManipulationContent (directmanipulation.h)
 author: windows-sdk-content
 description: Encapsulates content inside a viewport, where content represents a visual surface clipped inside the viewport.
 old-location: directmanipulation\idirectmanipulationcontent.htm

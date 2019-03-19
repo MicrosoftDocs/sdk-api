@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_QNAME_TEXT
-title: WS_XML_QNAME_TEXT
+title: WS_XML_QNAME_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents a qname formatted as the text &#0034;prefix:localName&#0034;
 old-location: wsw\ws_xml_qname_text.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.LockResource
-title: LockResource function
+title: LockResource function (libloaderapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the specified resource in memory.
 old-location: menurc\lockresource.htm

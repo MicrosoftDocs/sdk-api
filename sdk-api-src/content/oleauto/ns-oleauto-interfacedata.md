@@ -1,6 +1,6 @@
 ---
 UID: NS:oleauto.tagINTERFACEDATA
-title: INTERFACEDATA
+title: INTERFACEDATA (oleauto.h)
 author: windows-sdk-content
 description: Describes the object's properties and methods.
 old-location: automat\interfacedata.htm

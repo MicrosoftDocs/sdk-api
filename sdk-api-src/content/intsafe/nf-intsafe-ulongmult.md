@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongMult
-title: ULongMult function
+title: ULongMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies one value of type ULONG by another.
 old-location: shell\ULongMult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._CancelPendingView
-title: IBrowserService2::_CancelPendingView
+title: IBrowserService2::_CancelPendingView (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Enables a derived class to request that the base class cancel any pending views.
 old-location: shell\IBrowserService2__CancelPendingView.htm

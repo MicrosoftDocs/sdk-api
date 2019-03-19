@@ -1,6 +1,6 @@
 ---
 UID: NE:functiondiscoveryapi.tagQueryUpdateAction
-title: QueryUpdateAction
+title: QueryUpdateAction (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Represents the type of action Function Discovery is performing on the specified function instance. This information is used by the client program's change notification handler.
 old-location: ncd\queryupdateaction_enum.htm

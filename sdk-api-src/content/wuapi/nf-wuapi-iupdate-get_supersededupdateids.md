@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_SupersededUpdateIDs
-title: IUpdate::get_SupersededUpdateIDs
+title: IUpdate::get_SupersededUpdateIDs (wuapi.h)
 author: windows-sdk-content
 description: Gets a collection of update identifiers. This collection of identifiers specifies the updates that are superseded by the update.
 old-location: wua\iupdate_supersededupdateids.htm

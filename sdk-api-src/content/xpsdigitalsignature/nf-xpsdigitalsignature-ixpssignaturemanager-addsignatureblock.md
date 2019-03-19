@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.AddSignatureBlock
-title: IXpsSignatureManager::AddSignatureBlock
+title: IXpsSignatureManager::AddSignatureBlock (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Creates a new IXpsSignatureBlock interface and adds it to the signature block collection.
 old-location: xps\ixpssignaturemanager_addsignatureblock.htm

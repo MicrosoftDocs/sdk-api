@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.launchURL
-title: IWMPCore::launchURL
+title: IWMPCore::launchURL (wmp.h)
 author: windows-sdk-content
 description: The launchURL method sends a URL to the user's default browser.
 old-location: wmp\iwmpcore_launchurl.htm

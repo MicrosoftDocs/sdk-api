@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetDigestValue
-title: IOpcSignaturePartReference::GetDigestValue
+title: IOpcSignaturePartReference::GetDigestValue (msopc.h)
 author: windows-sdk-content
 description: Gets the digest value that is calculated for part content of the referenced part when the part is signed.
 old-location: opc\iopcsignaturepartreference_getdigestvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMediaBufferWrapper
-title: MFCreateMediaBufferWrapper function
+title: MFCreateMediaBufferWrapper function (mfapi.h)
 author: windows-sdk-content
 description: Creates a media buffer that wraps an existing media buffer.
 old-location: mf\mfcreatemediabufferwrapper.htm

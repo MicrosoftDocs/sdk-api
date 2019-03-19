@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.IsTypeSupported
-title: IMFMediaSourceExtension::IsTypeSupported
+title: IMFMediaSourceExtension::IsTypeSupported (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a value that indicates if the specified MIME type is supported by the media source.
 old-location: mf\imfmediasourceextension_istypesupported.htm

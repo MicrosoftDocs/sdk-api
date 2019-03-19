@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecFromUI2
-title: VarDecFromUI2 function
+title: VarDecFromUI2 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an unsigned short value to a decimal value.
 old-location: automat\vardecfromui2.htm

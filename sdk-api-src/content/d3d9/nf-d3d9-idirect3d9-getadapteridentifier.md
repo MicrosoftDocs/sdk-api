@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9.GetAdapterIdentifier
-title: IDirect3D9::GetAdapterIdentifier
+title: IDirect3D9::GetAdapterIdentifier (d3d9.h)
 author: windows-sdk-content
 description: Describes the physical display adapters present in the system when the IDirect3D9 interface was instantiated.
 old-location: direct3d9\idirect3d9__getadapteridentifier.htm

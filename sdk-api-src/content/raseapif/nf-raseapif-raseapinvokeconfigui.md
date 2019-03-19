@@ -1,6 +1,6 @@
 ---
 UID: NF:raseapif.RasEapInvokeConfigUI
-title: RasEapInvokeConfigUI function
+title: RasEapInvokeConfigUI function (raseapif.h)
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapInvokeConfigUI function to display a dialog to obtain configuration information from the user.
 old-location: eap\raseapinvokeconfigui.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoItem
-title: ISyncKnowledge::ProjectOntoItem
+title: ISyncKnowledge::ProjectOntoItem (winsync.h)
 author: windows-sdk-content
 description: Gets the knowledge for the specified item.
 old-location: winsync\isyncknowledge_projectontoitem.htm

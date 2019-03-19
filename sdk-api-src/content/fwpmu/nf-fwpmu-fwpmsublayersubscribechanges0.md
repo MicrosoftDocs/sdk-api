@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerSubscribeChanges0
-title: FwpmSubLayerSubscribeChanges0 function
+title: FwpmSubLayerSubscribeChanges0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding changes in a particular sublayer.
 old-location: fwp\fwpmsublayersubscribechanges0_func.htm

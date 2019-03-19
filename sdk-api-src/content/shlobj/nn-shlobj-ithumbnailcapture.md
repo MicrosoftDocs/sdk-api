@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj.IThumbnailCapture
-title: IThumbnailCapture
+title: IThumbnailCapture (shlobj.h)
 author: windows-sdk-content
 description: Exposes a method that obtains a thumbnail representation of an HTML wallpaper.
 old-location: shell\IThumbnailCapture.htm

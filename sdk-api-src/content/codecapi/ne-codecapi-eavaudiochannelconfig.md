@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVAudioChannelConfig
-title: eAVAudioChannelConfig
+title: eAVAudioChannelConfig (codecapi.h)
 author: windows-sdk-content
 description: Specifies the speaker configuration for the audio channels in the audio bit stream. This enumeration is used with the AVAudioChannelConfig property.
 old-location: dshow\eavaudiochannelconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &)
-title: BoundingSphere::CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &)
+title: BoundingSphere::CreateFromBoundingBox(BoundingSphere &,const BoundingOrientedBox &) (directxcollision.h)
 author: windows-sdk-content
 description: Creates a BoundingSphere containing the specified BoundingBox.
 old-location: dxmath\boundingsphere_createfromboundingbox.htm

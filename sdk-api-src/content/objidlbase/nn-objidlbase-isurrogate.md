@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.ISurrogate
-title: ISurrogate
+title: ISurrogate (objidlbase.h)
 author: windows-sdk-content
 description: Used to dynamically load new DLL servers into an existing surrogate and free the surrogate when it is no longer needed.
 old-location: com\isurrogate.htm

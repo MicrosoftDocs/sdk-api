@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IBDAComparable.CompareEquivalent
-title: IBDAComparable::CompareEquivalent
+title: IBDAComparable::CompareEquivalent (tuner.h)
 author: windows-sdk-content
 description: The CompareEquivalent method compares two objects to determine whether they contain equivalent tuning information.
 old-location: mstv\ibdacomparable_compareequivalent.htm

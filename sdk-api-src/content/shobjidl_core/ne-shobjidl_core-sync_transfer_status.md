@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.SYNC_TRANSFER_STATUS
-title: SYNC_TRANSFER_STATUS
+title: SYNC_TRANSFER_STATUS (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies possible status values used in the System.SyncTransferStatus property.
 old-location: properties\SYNC_TRANSFER_STATUS.htm

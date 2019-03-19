@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRL_CONTEXT
-title: CRL_CONTEXT
+title: CRL_CONTEXT (wincrypt.h)
 author: windows-sdk-content
 description: The CRL_CONTEXT structure contains both the encoded and decoded representations of a certificate revocation list (CRL). CRL contexts returned by any CryptoAPI function must be freed by calling the CertFreeCRLContext function.
 old-location: security\crl_context.htm

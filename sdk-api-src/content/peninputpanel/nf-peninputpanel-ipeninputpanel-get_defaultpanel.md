@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_DefaultPanel
-title: IPenInputPanel::get_DefaultPanel
+title: IPenInputPanel::get_DefaultPanel (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets the default panel type used for input within the PenInputPanel object.
 old-location: tablet\peninputpanel_defaultpanel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComIdentityEvents
-title: IComIdentityEvents
+title: IComIdentityEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber about an activity that is part of an Internet Information Services (IIS) Active Server Pages (ASP) page. For example, if a COM+ object is invoked in an ASP page, the user would be notified of this activity.
 old-location: cos\icomidentityevents.htm

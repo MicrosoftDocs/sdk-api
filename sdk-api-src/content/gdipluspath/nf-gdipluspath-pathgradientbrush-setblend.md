@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetBlend
-title: PathGradientBrush::SetBlend
+title: PathGradientBrush::SetBlend (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::SetBlend method sets the blend factors and the blend positions of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlend_blendFactors_blendPositions_count_.htm

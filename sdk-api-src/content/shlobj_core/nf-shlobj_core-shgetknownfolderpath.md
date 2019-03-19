@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderPath
-title: SHGetKnownFolderPath function
+title: SHGetKnownFolderPath function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves the full path of a known folder identified by the folder's KNOWNFOLDERID.
 old-location: shell\SHGetKnownFolderPath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.GetDefaultTabStop
-title: ITextDocument::GetDefaultTabStop
+title: ITextDocument::GetDefaultTabStop (tom.h)
 author: windows-sdk-content
 description: Gets the default tab width.
 old-location: controls\ITextDocument_GetDefaultTabStop.htm

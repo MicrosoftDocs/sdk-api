@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateDialogParamA
-title: CreateDialogParamA function
+title: CreateDialogParamA function (winuser.h)
 author: windows-sdk-content
 description: Creates a modeless dialog box from a dialog box template resource.
 old-location: dlgbox\createdialogparam.htm

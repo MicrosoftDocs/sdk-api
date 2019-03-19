@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress2.get_Phones
-title: ITAddress2::get_Phones
+title: ITAddress2::get_Phones (tapi3if.h)
 author: windows-sdk-content
 description: The get_Phones method returns a VARIANT pointer to an ITCollection of phone objects corresponding to the phone devices that can be used with this address.
 old-location: tapi3\itaddress2_get_phones.htm

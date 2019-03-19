@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.OpenThemeDataForDpi
-title: OpenThemeDataForDpi function
+title: OpenThemeDataForDpi function (uxtheme.h)
 author: windows-sdk-content
 description: A variant of OpenThemeData that opens a theme handle associated with a specific DPI.
 old-location: hidpi\openthemedatafordpi.htm

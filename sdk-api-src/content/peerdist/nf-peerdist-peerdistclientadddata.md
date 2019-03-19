@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistClientAddData
-title: PeerDistClientAddData function
+title: PeerDistClientAddData function (peerdist.h)
 author: windows-sdk-content
 description: The PeerDistClientAddData function is used to supply content to the local cache.
 old-location: p2p\peerdistclientadddata.htm

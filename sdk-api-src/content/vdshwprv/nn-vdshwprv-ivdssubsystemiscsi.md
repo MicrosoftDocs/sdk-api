@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemIscsi
-title: IVdsSubSystemIscsi
+title: IVdsSubSystemIscsi (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods to query and configure iSCSI targets and portals on a subsystem.
 old-location: base\ivdssubsystemiscsi.htm

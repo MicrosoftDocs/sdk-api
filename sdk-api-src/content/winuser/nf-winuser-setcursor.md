@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetCursor
-title: SetCursor function
+title: SetCursor function (winuser.h)
 author: windows-sdk-content
 description: Sets the cursor shape.
 old-location: menurc\setcursor.htm

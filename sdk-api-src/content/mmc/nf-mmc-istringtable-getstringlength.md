@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IStringTable.GetStringLength
-title: IStringTable::GetStringLength
+title: IStringTable::GetStringLength (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to determine the length of a string in the snap-in's string table.
 old-location: mmc\istringtable_getstringlength.htm

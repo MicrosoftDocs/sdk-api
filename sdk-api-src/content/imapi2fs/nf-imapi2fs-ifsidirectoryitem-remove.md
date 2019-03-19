@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.Remove
-title: IFsiDirectoryItem::Remove
+title: IFsiDirectoryItem::Remove (imapi2fs.h)
 author: windows-sdk-content
 description: Removes the specified item from the file system image.
 old-location: imapi\ifsidirectoryitem_remove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_ColorEnable
-title: IVideoProcAmp::put_ColorEnable
+title: IVideoProcAmp::put_ColorEnable (vidcap.h)
 author: windows-sdk-content
 description: The put_ColorEnable method sets the camera's color-enable setting.
 old-location: dshow\ivideoprocamp_put_colorenable.htm

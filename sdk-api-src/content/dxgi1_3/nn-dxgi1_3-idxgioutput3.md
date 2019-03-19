@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_3.IDXGIOutput3
-title: IDXGIOutput3
+title: IDXGIOutput3 (dxgi1_3.h)
 author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput3 interface exposes a method to check for overlay support.
 old-location: direct3ddxgi\idxgioutput3.htm

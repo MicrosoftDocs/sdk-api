@@ -1,6 +1,6 @@
 ---
 UID: NF:amparse.IAMParse.Flush
-title: IAMParse::Flush
+title: IAMParse::Flush (amparse.h)
 author: windows-sdk-content
 description: The Flush method clears the current file data to allow for a more rapid switch to a new file.
 old-location: dshow\iamparse_flush.htm

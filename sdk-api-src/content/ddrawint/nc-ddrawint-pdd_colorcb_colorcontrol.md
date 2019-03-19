@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_COLORCB_COLORCONTROL
-title: PDD_COLORCB_COLORCONTROL
+title: PDD_COLORCB_COLORCONTROL (ddrawint.h)
 author: windows-sdk-content
 description: The DdControlColor callback function controls the luminance and brightness controls of an overlay surface.
 old-location: display\ddcontrolcolor.htm

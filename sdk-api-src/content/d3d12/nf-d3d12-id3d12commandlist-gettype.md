@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandList.GetType
-title: ID3D12CommandList::GetType
+title: ID3D12CommandList::GetType (d3d12.h)
 author: windows-sdk-content
 description: Gets the type of the command list, such as direct, bundle, compute, or copy.
 old-location: direct3d12\id3d12commandlist_gettype.htm

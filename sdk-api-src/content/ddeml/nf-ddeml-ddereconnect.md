@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeReconnect
-title: DdeReconnect function
+title: DdeReconnect function (ddeml.h)
 author: windows-sdk-content
 description: Enables a client Dynamic Data Exchange Management Library (DDEML) application to attempt to reestablish a conversation with a service that has terminated a conversation with the client.
 old-location: dataxchg\ddereconnect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vsbackup._VSS_COMPONENTINFO
-title: VSS_COMPONENTINFO
+title: VSS_COMPONENTINFO (vsbackup.h)
 author: windows-sdk-content
 description: Contains information about a given component.
 old-location: base\vss_componentinfo.htm

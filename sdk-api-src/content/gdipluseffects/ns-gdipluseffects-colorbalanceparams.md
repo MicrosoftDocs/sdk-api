@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluseffects.ColorBalanceParams
-title: ColorBalanceParams
+title: ColorBalanceParams (gdipluseffects.h)
 author: windows-sdk-content
 description: A ColorBalanceParams structure contains members that specify the nature of a color balance adjustment.
 old-location: gdiplus\_gdiplus_STRUC_ColorBalanceParams.htm

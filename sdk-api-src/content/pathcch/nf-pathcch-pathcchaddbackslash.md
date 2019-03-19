@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchAddBackslash
-title: PathCchAddBackslash function
+title: PathCchAddBackslash function (pathcch.h)
 author: windows-sdk-content
 description: Adds a backslash to the end of a string to create the correct syntax for a path.
 old-location: shell\PathCchAddBackslash.htm

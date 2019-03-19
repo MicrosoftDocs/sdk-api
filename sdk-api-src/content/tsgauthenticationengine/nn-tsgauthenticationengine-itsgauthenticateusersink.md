@@ -1,6 +1,6 @@
 ---
 UID: NN:tsgauthenticationengine.ITSGAuthenticateUserSink
-title: ITSGAuthenticateUserSink
+title: ITSGAuthenticateUserSink (tsgauthenticationengine.h)
 author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about authentication events.
 old-location: termserv\itsgauthenticateusersink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.socket
-title: socket function
+title: socket function (winsock2.h)
 author: windows-sdk-content
 description: The socket function creates a socket that is bound to a specific transport service provider.
 old-location: winsock\socket_2.htm

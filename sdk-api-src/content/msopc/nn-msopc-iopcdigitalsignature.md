@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcDigitalSignature
-title: IOpcDigitalSignature
+title: IOpcDigitalSignature (msopc.h)
 author: windows-sdk-content
 description: Represents a package digital signature.
 old-location: opc\iopcdigitalsignature.htm

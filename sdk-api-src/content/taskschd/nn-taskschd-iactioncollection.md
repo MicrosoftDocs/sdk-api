@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IActionCollection
-title: IActionCollection
+title: IActionCollection (taskschd.h)
 author: windows-sdk-content
 description: Contains the actions that are performed by the task.
 old-location: taskschd\iactioncollection.htm

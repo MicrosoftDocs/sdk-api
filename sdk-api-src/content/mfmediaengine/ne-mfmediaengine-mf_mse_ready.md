@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MSE_READY
-title: MF_MSE_READY
+title: MF_MSE_READY (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines the different ready states of the Media Source Extension.
 old-location: mf\mf_mse_ready.htm

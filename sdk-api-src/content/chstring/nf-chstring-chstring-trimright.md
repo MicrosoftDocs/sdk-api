@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.TrimRight
-title: CHString::TrimRight
+title: CHString::TrimRight (chstring.h)
 author: windows-sdk-content
 description: The TrimRight method trims trailing whitespace characters from the string by removing trailing newline, space, and tab characters.
 old-location: wmi\chstring_trimright.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetAddressCaps
-title: TSPI_lineGetAddressCaps function
+title: TSPI_lineGetAddressCaps function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
 old-location: tspi\tspi_linegetaddresscaps.htm

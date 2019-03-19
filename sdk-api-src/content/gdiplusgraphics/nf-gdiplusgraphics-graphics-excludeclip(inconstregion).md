@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ExcludeClip(IN const Region)
-title: Graphics::ExcludeClip(IN const Region)
+title: Graphics::ExcludeClip(IN const Region) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::ExcludeClip method updates the clipping region with the portion of itself that does not overlap the specified region.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_region_.htm

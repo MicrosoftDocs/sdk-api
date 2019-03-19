@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.SetInterface
-title: CSecureChannelClient::SetInterface
+title: CSecureChannelClient::SetInterface (scclient.h)
 author: windows-sdk-content
 description: The SetInterface method is used by applications to set the IComponentAuthenticate interface to use for Secure Authenticated Channel (SAC) operations.
 old-location: wmdm\csecurechannelclient_setinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetItem
-title: Header_SetItem macro
+title: Header_SetItem macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the attributes of the specified item in a header control. You can use this macro or send the HDM_SETITEM message explicitly.
 old-location: controls\Header_SetItem.htm

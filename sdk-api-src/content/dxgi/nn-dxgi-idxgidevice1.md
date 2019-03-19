@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi.IDXGIDevice1
-title: IDXGIDevice1
+title: IDXGIDevice1 (dxgi.h)
 author: windows-sdk-content
 description: An IDXGIDevice1 interface implements a derived class for DXGI objects that produce image data.
 old-location: direct3ddxgi\idxgidevice1.htm

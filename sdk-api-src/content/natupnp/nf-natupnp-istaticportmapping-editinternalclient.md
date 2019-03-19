@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditInternalClient
-title: IStaticPortMapping::EditInternalClient
+title: IStaticPortMapping::EditInternalClient (natupnp.h)
 author: windows-sdk-content
 description: The EditInternalClient method sets the internal client property of this port mapping to the specified value.
 old-location: ics\istaticportmapping_editinternalclient.htm

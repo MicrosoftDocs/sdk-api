@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.BeginPrepare
-title: ICrmCompensator::BeginPrepare
+title: ICrmCompensator::BeginPrepare (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the CRM Compensator of the prepare phase of the transaction completion and that records are about to be delivered.
 old-location: cos\icrmcompensator_beginprepare.htm

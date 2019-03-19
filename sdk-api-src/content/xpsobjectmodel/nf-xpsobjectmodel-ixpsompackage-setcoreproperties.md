@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetCoreProperties
-title: IXpsOMPackage::SetCoreProperties
+title: IXpsOMPackage::SetCoreProperties (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMCoreProperties interface of the XPS package.
 old-location: xps\ixpsompackage_setcoreproperties.htm

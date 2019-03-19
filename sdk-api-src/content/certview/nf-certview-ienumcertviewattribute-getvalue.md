@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.GetValue
-title: IEnumCERTVIEWATTRIBUTE::GetValue
+title: IEnumCERTVIEWATTRIBUTE::GetValue (certview.h)
 author: windows-sdk-content
 description: Retrieves the value of the current attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_getvalue.htm

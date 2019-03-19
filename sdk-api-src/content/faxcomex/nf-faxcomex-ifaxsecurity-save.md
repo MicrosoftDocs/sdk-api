@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.Save
-title: IFaxSecurity::Save
+title: IFaxSecurity::Save (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSecurity::Save method saves the FaxSecurity object data.
 old-location: fax\_mfax_faxsecurity_cpp_mfax_faxsecurity_save_cpp.htm

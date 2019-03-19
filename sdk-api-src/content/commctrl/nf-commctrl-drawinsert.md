@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.DrawInsert
-title: DrawInsert function
+title: DrawInsert function (commctrl.h)
 author: windows-sdk-content
 description: Draws the insert icon in the parent window of the specified drag list box.
 old-location: controls\DrawInsert.htm

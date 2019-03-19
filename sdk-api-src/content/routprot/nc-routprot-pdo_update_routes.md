@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PDO_UPDATE_ROUTES
-title: PDO_UPDATE_ROUTES
+title: PDO_UPDATE_ROUTES (routprot.h)
 author: windows-sdk-content
 description: The DoUpdateRoutes function requests the routing protocol to perform a routing information update over the specified interface to obtain static route information.
 old-location: rras\doupdateroutes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartEnumeration
-title: IPhotoAcquireProgressCB::StartEnumeration
+title: IPhotoAcquireProgressCB::StartEnumeration (photoacquire.h)
 author: windows-sdk-content
 description: The StartEnumeration method provides extended functionality when the enumeration of items to acquire begins.
 old-location: picacq\iphotoacquireprogresscb_startenumeration.htm

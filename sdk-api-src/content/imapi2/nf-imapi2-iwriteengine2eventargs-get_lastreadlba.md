@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_LastReadLba
-title: IWriteEngine2EventArgs::get_LastReadLba
+title: IWriteEngine2EventArgs::get_LastReadLba (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the address of the sector most recently read from the burn image.
 old-location: imapi\iwriteengine2eventargs_get_lastreadlba.htm

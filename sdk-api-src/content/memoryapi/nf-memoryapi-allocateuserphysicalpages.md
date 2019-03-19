@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.AllocateUserPhysicalPages
-title: AllocateUserPhysicalPages function
+title: AllocateUserPhysicalPages function (memoryapi.h)
 author: windows-sdk-content
 description: Allocates physical memory pages to be mapped and unmapped within any Address Windowing Extensions (AWE) region of a specified process.
 old-location: base\allocateuserphysicalpages.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegEnumKey
-title: ClusterRegEnumKey function
+title: ClusterRegEnumKey function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the subkeys of an open cluster database key.
 old-location: mscs\clusterregenumkey.htm

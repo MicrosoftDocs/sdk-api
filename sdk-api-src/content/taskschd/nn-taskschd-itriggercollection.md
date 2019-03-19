@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITriggerCollection
-title: ITriggerCollection
+title: ITriggerCollection (taskschd.h)
 author: windows-sdk-content
 description: Provides the methods that are used to add to, remove from, and get the triggers of a task.
 old-location: taskschd\itriggercollection.htm

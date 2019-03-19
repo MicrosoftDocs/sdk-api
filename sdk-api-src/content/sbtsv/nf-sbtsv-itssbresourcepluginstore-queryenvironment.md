@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.QueryEnvironment
-title: ITsSbResourcePluginStore::QueryEnvironment
+title: ITsSbResourcePluginStore::QueryEnvironment (sbtsv.h)
 author: windows-sdk-content
 description: Returns the specified environment object.
 old-location: termserv\itssbresourcepluginstore_queryenvironment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzAccessCheck
-title: AuthzAccessCheck function
+title: AuthzAccessCheck function (authz.h)
 author: windows-sdk-content
 description: Determines which access bits can be granted to a client for a given set of security descriptors.
 old-location: security\authzaccesscheck.htm

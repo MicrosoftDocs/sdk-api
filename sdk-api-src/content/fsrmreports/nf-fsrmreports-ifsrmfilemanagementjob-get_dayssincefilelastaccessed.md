@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_DaysSinceFileLastAccessed
-title: IFsrmFileManagementJob::get_DaysSinceFileLastAccessed
+title: IFsrmFileManagementJob::get_DaysSinceFileLastAccessed (fsrmreports.h)
 author: windows-sdk-content
 description: The number of days that have elapsed since the file was last accessed.
 old-location: fsrm\ifsrmfilemanagementjob_dayssincefilelastaccessed.htm

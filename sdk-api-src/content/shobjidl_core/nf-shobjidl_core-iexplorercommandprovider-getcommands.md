@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommandProvider.GetCommands
-title: IExplorerCommandProvider::GetCommands
+title: IExplorerCommandProvider::GetCommands (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a specified Explorer command enumerator instance.
 old-location: shell\IExplorerCommandProvider_GetCommands.htm

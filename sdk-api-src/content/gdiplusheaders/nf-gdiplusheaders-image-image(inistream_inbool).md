@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.Image(IN IStream,IN BOOL)
-title: Image::Image(IN IStream,IN BOOL)
+title: Image::Image(IN IStream,IN BOOL) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates an Image::Image object based on a stream.
 old-location: gdiplus\_gdiplus_CLASS_Image_Image_stream_useEmbeddedColorManagement_.htm

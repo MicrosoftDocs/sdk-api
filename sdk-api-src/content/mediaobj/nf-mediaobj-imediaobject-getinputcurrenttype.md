@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputCurrentType
-title: IMediaObject::GetInputCurrentType
+title: IMediaObject::GetInputCurrentType (mediaobj.h)
 author: windows-sdk-content
 description: The GetInputCurrentType method retrieves the media type that was set for an input stream, if any.
 old-location: dshow\imediaobject_getinputcurrenttype.htm

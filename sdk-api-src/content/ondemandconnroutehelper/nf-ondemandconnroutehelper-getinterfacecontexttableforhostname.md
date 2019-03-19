@@ -1,6 +1,6 @@
 ---
 UID: NF:ondemandconnroutehelper.GetInterfaceContextTableForHostName
-title: GetInterfaceContextTableForHostName function
+title: GetInterfaceContextTableForHostName function (ondemandconnroutehelper.h)
 author: windows-sdk-content
 description: This function retrieves an interface context table for the given hostname and connection profile filter.
 old-location: nla\getinterfacecontexttableforhostname.htm

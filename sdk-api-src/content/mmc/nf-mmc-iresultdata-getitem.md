@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.GetItem
-title: IResultData::GetItem
+title: IResultData::GetItem (mmc.h)
 author: windows-sdk-content
 description: Enables a user to retrieve the parameters of a single item.
 old-location: mmc\iresultdata_getitem.htm

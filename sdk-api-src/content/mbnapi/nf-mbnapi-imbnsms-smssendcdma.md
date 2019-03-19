@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendCdma
-title: IMbnSms::SmsSendCdma
+title: IMbnSms::SmsSendCdma (mbnapi.h)
 author: windows-sdk-content
 description: Sends a message in CDMA format.
 old-location: mbn\imbnsms_smssendcdma.htm

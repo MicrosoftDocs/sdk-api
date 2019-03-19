@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ParameterSet
-title: MI_ParameterSet
+title: MI_ParameterSet (mi.h)
 author: windows-sdk-content
 description: Holds the method parameters of a class definition.
 old-location: wmi_v2\mi_parameterset.htm

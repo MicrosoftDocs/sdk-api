@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_FEATURE_CAPS
-title: DXVAHD_FEATURE_CAPS
+title: DXVAHD_FEATURE_CAPS (dxvahd.h)
 author: windows-sdk-content
 description: Defines features that a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device can support.
 old-location: mf\dxvahd_feature_caps.htm

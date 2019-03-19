@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_PLACEHOLDER_STANDARD_INFO
-title: CF_PLACEHOLDER_STANDARD_INFO
+title: CF_PLACEHOLDER_STANDARD_INFO (cfapi.h)
 author: windows-sdk-content
 description: Standard placeholder information.
 old-location: cloudapi\cf_placeholder_standard_info.htm

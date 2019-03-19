@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPool
-title: SetThreadpoolCallbackPool function
+title: SetThreadpoolCallbackPool function (winbase.h)
 author: windows-sdk-content
 description: Sets the thread pool to be used when generating callbacks.
 old-location: base\setthreadpoolcallbackpool.htm

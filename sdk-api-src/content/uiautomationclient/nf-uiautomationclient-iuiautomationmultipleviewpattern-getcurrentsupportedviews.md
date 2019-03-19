@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
-title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews
+title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a collection of control-specific view identifiers.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews.htm

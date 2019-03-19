@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnServiceActivationEvents.OnActivationComplete
-title: IMbnServiceActivationEvents::OnActivationComplete
+title: IMbnServiceActivationEvents::OnActivationComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a service activation request ahs completed.
 old-location: mbn\imbnserviceactivationevents_onactivationcomplete.htm

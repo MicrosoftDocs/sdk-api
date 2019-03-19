@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.PresentEx
-title: IDirect3DDevice9Ex::PresentEx
+title: IDirect3DDevice9Ex::PresentEx (d3d9.h)
 author: windows-sdk-content
 description: Swap the swapchain's next buffer with the front buffer.
 old-location: direct3d9\idirect3ddevice9ex_presentex.htm

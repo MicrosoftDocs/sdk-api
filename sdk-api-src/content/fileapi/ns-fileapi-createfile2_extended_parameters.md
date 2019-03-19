@@ -1,6 +1,6 @@
 ---
 UID: NS:fileapi._CREATEFILE2_EXTENDED_PARAMETERS
-title: CREATEFILE2_EXTENDED_PARAMETERS
+title: CREATEFILE2_EXTENDED_PARAMETERS (fileapi.h)
 author: windows-sdk-content
 description: Contains optional extended parameters for CreateFile2.
 old-location: fs\createfile2_extended_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetContainerFormat
-title: IWICMetadataQueryReader::GetContainerFormat
+title: IWICMetadataQueryReader::GetContainerFormat (wincodec.h)
 author: windows-sdk-content
 description: Gets the metadata query readers container format.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getcontainerformat.htm

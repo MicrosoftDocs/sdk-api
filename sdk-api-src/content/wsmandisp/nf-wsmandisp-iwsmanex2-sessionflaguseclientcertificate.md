@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx2.SessionFlagUseClientCertificate
-title: IWSManEx2::SessionFlagUseClientCertificate
+title: IWSManEx2::SessionFlagUseClientCertificate (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseClientCertificate for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex2_sessionflaguseclientcertificate.htm

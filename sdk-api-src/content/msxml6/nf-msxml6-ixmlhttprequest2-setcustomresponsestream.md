@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetCustomResponseStream
-title: IXMLHTTPRequest2::SetCustomResponseStream
+title: IXMLHTTPRequest2::SetCustomResponseStream (msxml6.h)
 author: windows-sdk-content
 description: Provides a custom stream to replace the standard stream for receiving an HTTP response.
 old-location: ixhr2\ixmlhttprequest2_setcustomresponsestream.htm

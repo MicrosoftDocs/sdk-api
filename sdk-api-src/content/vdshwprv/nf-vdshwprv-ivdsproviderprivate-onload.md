@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.OnLoad
-title: IVdsProviderPrivate::OnLoad
+title: IVdsProviderPrivate::OnLoad (vdshwprv.h)
 author: windows-sdk-content
 description: Prompts the provider to initialize itself, and passes a callback object that the provider uses to get necessary interfaces.
 old-location: base\ivdsproviderprivate_onload.htm

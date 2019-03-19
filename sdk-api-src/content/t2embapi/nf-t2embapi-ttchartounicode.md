@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTCharToUnicode
-title: TTCharToUnicode function
+title: TTCharToUnicode function (t2embapi.h)
 author: windows-sdk-content
 description: Converts an array of 8-bit character code values to 16-bit Unicode values.
 old-location: gdi\ttchartounicode.htm

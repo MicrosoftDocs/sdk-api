@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_8
-title: WS_VALUE_TYPE
+title: WS_VALUE_TYPE (webservices.h)
 author: windows-sdk-content
 description: The types of fixed-size primitives.
 old-location: wsw\ws_value_type.htm

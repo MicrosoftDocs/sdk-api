@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_FACTORY_OPTIONS
-title: D2D1_FACTORY_OPTIONS
+title: D2D1_FACTORY_OPTIONS (d2d1.h)
 author: windows-sdk-content
 description: Contains the debugging level of an ID2D1Factory object.
 old-location: direct2d\D2D1_FACTORY_OPTIONS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetModWidthSpace
-title: ITextFont2::GetModWidthSpace
+title: ITextFont2::GetModWidthSpace (tom.h)
 author: windows-sdk-content
 description: Gets whether &#0034;increase width of whitespace&#0034; is active.
 old-location: controls\itextfont2_getmodwidthspace.htm

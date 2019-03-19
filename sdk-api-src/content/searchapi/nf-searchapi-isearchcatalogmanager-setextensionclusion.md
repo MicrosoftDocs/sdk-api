@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetExtensionClusion
-title: ISearchCatalogManager::SetExtensionClusion
+title: ISearchCatalogManager::SetExtensionClusion (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_SetExtensionClusion.htm

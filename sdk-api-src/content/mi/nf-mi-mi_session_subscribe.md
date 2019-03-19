@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_Subscribe
-title: MI_Session_Subscribe function
+title: MI_Session_Subscribe function (mi.h)
 author: windows-sdk-content
 description: Subscribes to an indication on the server represented by the session.
 old-location: wmi_v2\mi_session_subscribe.htm

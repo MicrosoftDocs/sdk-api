@@ -1,6 +1,6 @@
 ---
 UID: NF:fhsvcctl.FhServiceReloadConfiguration
-title: FhServiceReloadConfiguration function
+title: FhServiceReloadConfiguration function (fhsvcctl.h)
 author: windows-sdk-content
 description: This function causes the File History Service to reload the current user’s File History configuration files.
 old-location: winprog\fhservicereloadconfiguration.htm

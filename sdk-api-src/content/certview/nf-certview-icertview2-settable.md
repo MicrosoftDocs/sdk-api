@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView2.SetTable
-title: ICertView2::SetTable
+title: ICertView2::SetTable (certview.h)
 author: windows-sdk-content
 description: Specifies which Certificate Services database table is used for subsequent calls to the methods of the ICertView2 interface.
 old-location: security\icertview2_settable.htm

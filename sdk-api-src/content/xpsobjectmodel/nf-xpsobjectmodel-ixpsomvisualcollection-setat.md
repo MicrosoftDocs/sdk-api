@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.SetAt
-title: IXpsOMVisualCollection::SetAt
+title: IXpsOMVisualCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMVisual interface pointer at a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_setat.htm

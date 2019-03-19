@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_CURSOR_BLOB
-title: DS_REPL_CURSOR_BLOB
+title: DS_REPL_CURSOR_BLOB (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_CURSOR_BLOB structure contains inbound replication state data with respect to all replicas of a given naming context.
 old-location: ad\ds_repl_cursor_blob.htm

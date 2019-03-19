@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsGetLastError
-title: ADsGetLastError function
+title: ADsGetLastError function (adshlp.h)
 author: windows-sdk-content
 description: The ADsGetLastError function retrieves the calling thread's last-error code value.
 old-location: adsi\adsgetlasterror.htm

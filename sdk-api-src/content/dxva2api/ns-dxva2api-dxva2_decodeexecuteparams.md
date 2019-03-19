@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_DecodeExecuteParams
-title: DXVA2_DecodeExecuteParams
+title: DXVA2_DecodeExecuteParams (dxva2api.h)
 author: windows-sdk-content
 description: Contains parameters for the IDirectXVideoDecoder::Execute method.
 old-location: mf\dxva2_decodeexecuteparams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.isDeleted
-title: IWMPPlaylistCollection::isDeleted
+title: IWMPPlaylistCollection::isDeleted (wmp.h)
 author: windows-sdk-content
 description: The isDeleted method retrieves a value indicating whether the specified playlist is in the deleted items folder.
 old-location: wmp\iwmpplaylistcollection_isdeleted.htm

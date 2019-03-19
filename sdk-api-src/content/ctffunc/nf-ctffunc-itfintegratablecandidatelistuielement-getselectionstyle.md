@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.GetSelectionStyle
-title: ITfIntegratableCandidateListUIElement::GetSelectionStyle
+title: ITfIntegratableCandidateListUIElement::GetSelectionStyle (ctffunc.h)
 author: windows-sdk-content
 description: Retrieves the selection style.
 old-location: tsf\itfintegratablecandidatelistuielement_getselectionstyle.htm

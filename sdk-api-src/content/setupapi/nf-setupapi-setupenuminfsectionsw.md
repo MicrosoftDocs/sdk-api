@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupEnumInfSectionsW
-title: SetupEnumInfSectionsW function
+title: SetupEnumInfSectionsW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupEnumInfSections function retrieves section names from an INF file.
 old-location: setup\setupenuminfsections.htm

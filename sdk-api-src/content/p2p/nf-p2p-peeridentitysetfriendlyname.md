@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerIdentitySetFriendlyName
-title: PeerIdentitySetFriendlyName function
+title: PeerIdentitySetFriendlyName function (p2p.h)
 author: windows-sdk-content
 description: The PeerIdentitySetFriendlyName function modifies the friendly name for a specified peer identity. The friendly name is the human-readable name.
 old-location: p2p\peeridentitysetfriendlyname.htm

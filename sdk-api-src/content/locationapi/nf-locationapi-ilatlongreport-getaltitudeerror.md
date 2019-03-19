@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetAltitudeError
-title: ILatLongReport::GetAltitudeError
+title: ILatLongReport::GetAltitudeError (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the altitude error, in meters.
 old-location: winlocation_com_ref\ilatlongreport_getaltitudeerror.htm

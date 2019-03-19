@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList3
-title: ITaskbarList3
+title: ITaskbarList3 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends ITaskbarList2 by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7.
 old-location: shell\ITaskbarList3.htm

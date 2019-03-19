@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidTuner.put_Tune
-title: IMSVidTuner::put_Tune
+title: IMSVidTuner::put_Tune (segment.h)
 author: windows-sdk-content
 description: The put_Tune method specifies the tune request.
 old-location: mstv\imsvidtuner_put_tune.htm

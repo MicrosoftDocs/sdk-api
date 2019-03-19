@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyQualityEvent
-title: IMFQualityManager::NotifyQualityEvent
+title: IMFQualityManager::NotifyQualityEvent (mfidl.h)
 author: windows-sdk-content
 description: Called when a pipeline component sends an MEQualityNotify event.
 old-location: mf\imfqualitymanager_notifyqualityevent.htm

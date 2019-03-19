@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetMatrixTransform
-title: IDXGISwapChain2::GetMatrixTransform
+title: IDXGISwapChain2::GetMatrixTransform (dxgi1_3.h)
 author: windows-sdk-content
 description: Gets the transform matrix that will be applied to a composition swap chain upon the next present.
 old-location: direct3ddxgi\idxgiswapchain2_getmatrixtransform.htm

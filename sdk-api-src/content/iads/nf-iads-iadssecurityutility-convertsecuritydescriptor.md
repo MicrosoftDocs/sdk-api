@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsSecurityUtility.ConvertSecurityDescriptor
-title: IADsSecurityUtility::ConvertSecurityDescriptor
+title: IADsSecurityUtility::ConvertSecurityDescriptor (iads.h)
 author: windows-sdk-content
 description: Converts a security descriptor from one format to another.
 old-location: adsi\iadssecurityutility_convertsecuritydescriptor.htm

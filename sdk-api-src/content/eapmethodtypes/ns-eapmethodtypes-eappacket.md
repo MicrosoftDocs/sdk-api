@@ -1,6 +1,6 @@
 ---
 UID: NS:eapmethodtypes.tagEapPacket
-title: EapPacket
+title: EapPacket (eapmethodtypes.h)
 author: windows-sdk-content
 description: Contains a packet of opaque data sent during an EAP authentication session.
 old-location: eaphost\eappacket.htm

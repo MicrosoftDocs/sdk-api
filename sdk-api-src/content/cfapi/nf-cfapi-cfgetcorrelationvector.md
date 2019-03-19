@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfGetCorrelationVector
-title: CfGetCorrelationVector function
+title: CfGetCorrelationVector function (cfapi.h)
 author: windows-sdk-content
 description: Allows the sync provider to query the current correlation vector for a given placeholder file.
 old-location: cloudapi\cfgetcorrelationvector.htm

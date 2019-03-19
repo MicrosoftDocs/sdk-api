@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ConcreteTransform.SetCached
-title: ID2D1ConcreteTransform::SetCached
+title: ID2D1ConcreteTransform::SetCached (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets whether the output of the specified transform is cached.
 old-location: direct2d\id2d1concretetransform_setcached.htm

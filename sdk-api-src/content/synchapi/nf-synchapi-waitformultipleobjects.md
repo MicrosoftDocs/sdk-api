@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.WaitForMultipleObjects
-title: WaitForMultipleObjects function
+title: WaitForMultipleObjects function (synchapi.h)
 author: windows-sdk-content
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.
 old-location: base\waitformultipleobjects.htm

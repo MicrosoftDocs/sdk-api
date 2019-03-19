@@ -1,6 +1,6 @@
 ---
 UID: NE:wsman.WSManSessionOption
-title: WSManSessionOption
+title: WSManSessionOption (wsman.h)
 author: windows-sdk-content
 description: Defines a set of extended options for the session. These options are used with the WSManSetSessionOption method.
 old-location: winrm\wsmansessionoption.htm

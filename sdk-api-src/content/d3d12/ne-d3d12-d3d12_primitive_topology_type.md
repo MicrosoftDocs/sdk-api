@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_PRIMITIVE_TOPOLOGY_TYPE
-title: D3D12_PRIMITIVE_TOPOLOGY_TYPE
+title: D3D12_PRIMITIVE_TOPOLOGY_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies how the pipeline interprets geometry or hull shader input primitives.
 old-location: direct3d12\d3d12_primitive_topology_type.htm

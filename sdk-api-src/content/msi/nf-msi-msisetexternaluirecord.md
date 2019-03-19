@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSetExternalUIRecord
-title: MsiSetExternalUIRecord function
+title: MsiSetExternalUIRecord function (msi.h)
 author: windows-sdk-content
 description: The MsiSetExternalUIRecord function enables an external user-interface (UI) handler.
 old-location: setup\msisetexternaluirecord.htm

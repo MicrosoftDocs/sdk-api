@@ -1,6 +1,6 @@
 ---
 UID: NN:mftransform.IMFDeviceTransformCallback
-title: IMFDeviceTransformCallback
+title: IMFDeviceTransformCallback (mftransform.h)
 author: windows-sdk-content
 description: Implement this callback to receive notifications when system-allocated frame buffers are sent to the device driver.
 old-location: stream\imfdevicetransformcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_LONG
-title: CLUSPROP_LONG
+title: CLUSPROP_LONG (clusapi.h)
 author: windows-sdk-content
 description: Describes signed LONG data.
 old-location: mscs\clusprop_long.htm

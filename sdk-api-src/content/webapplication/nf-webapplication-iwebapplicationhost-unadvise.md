@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.Unadvise
-title: IWebApplicationHost::Unadvise
+title: IWebApplicationHost::Unadvise (webapplication.h)
 author: windows-sdk-content
 description: Removes a previously established connection.
 old-location: debug\iwebapplicationhost_unadvise.htm

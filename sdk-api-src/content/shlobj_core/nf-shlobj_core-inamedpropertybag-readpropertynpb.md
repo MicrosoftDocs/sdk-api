@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.INamedPropertyBag.ReadPropertyNPB
-title: INamedPropertyBag::ReadPropertyNPB
+title: INamedPropertyBag::ReadPropertyNPB (shlobj_core.h)
 author: windows-sdk-content
 description: Causes a property to be read from the named property bag.
 old-location: shell\INamedPropertyBag_ReadPropertyNPB.htm

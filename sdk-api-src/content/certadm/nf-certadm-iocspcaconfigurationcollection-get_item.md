@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get_Item
-title: IOCSPCAConfigurationCollection::get_Item
+title: IOCSPCAConfigurationCollection::get_Item (certadm.h)
 author: windows-sdk-content
 description: Gets a certification authority (CA) configuration identified by index in the configuration set.
 old-location: security\iocspcaconfigurationcollection_item_method.htm

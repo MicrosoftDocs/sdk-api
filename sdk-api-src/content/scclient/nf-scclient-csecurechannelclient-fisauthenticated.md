@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.fIsAuthenticated
-title: CSecureChannelClient::fIsAuthenticated
+title: CSecureChannelClient::fIsAuthenticated (scclient.h)
 author: windows-sdk-content
 description: The fIsAuthenticated method verifies that a secure authenticated channel has been successfully established. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_fisauthenticated.htm

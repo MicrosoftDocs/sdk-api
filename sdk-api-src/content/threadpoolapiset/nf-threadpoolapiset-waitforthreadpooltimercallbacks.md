@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.WaitForThreadpoolTimerCallbacks
-title: WaitForThreadpoolTimerCallbacks function
+title: WaitForThreadpoolTimerCallbacks function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Waits for outstanding timer callbacks to complete and optionally cancels pending callbacks that have not yet started to execute.
 old-location: base\waitforthreadpooltimercallbacks.htm

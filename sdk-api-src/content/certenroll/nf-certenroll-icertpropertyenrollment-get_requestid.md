@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_RequestId
-title: ICertPropertyEnrollment::get_RequestId
+title: ICertPropertyEnrollment::get_RequestId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a unique certificate request identifier.
 old-location: security\icertpropertyenrollment_requestid_property.htm

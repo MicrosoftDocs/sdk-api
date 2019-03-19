@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._OPEN_VIRTUAL_DISK_VERSION
-title: OPEN_VIRTUAL_DISK_VERSION
+title: OPEN_VIRTUAL_DISK_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the virtual disk OPEN_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\open_virtual_disk_version.htm

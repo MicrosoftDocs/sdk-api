@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.ImageDirectoryEntryToData
-title: ImageDirectoryEntryToData function
+title: ImageDirectoryEntryToData function (dbghelp.h)
 author: windows-sdk-content
 description: Obtains access to image-specific data.
 old-location: base\imagedirectoryentrytodata.htm

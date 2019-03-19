@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.GetProperty
-title: IAzTask::GetProperty
+title: IAzTask::GetProperty (azroles.h)
 author: windows-sdk-content
 description: Returns the IAzTask object property with the specified property ID.
 old-location: security\iaztask_getproperty.htm

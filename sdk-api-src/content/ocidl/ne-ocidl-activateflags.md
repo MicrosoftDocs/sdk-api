@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagACTIVATEFLAGS
-title: ACTIVATEFLAGS
+title: ACTIVATEFLAGS (ocidl.h)
 author: windows-sdk-content
 description: Indicates whether an object is activated as a windowless object. It is used in IOleInPlaceSiteEx::OnInPlaceActivateEx.
 old-location: com\activateflags.htm

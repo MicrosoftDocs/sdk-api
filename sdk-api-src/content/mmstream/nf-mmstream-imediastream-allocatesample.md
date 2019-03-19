@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IMediaStream.AllocateSample
-title: IMediaStream::AllocateSample
+title: IMediaStream::AllocateSample (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Allocates a new stream sample object for the current media stream.
 old-location: dshow\imediastream_allocatesample.htm

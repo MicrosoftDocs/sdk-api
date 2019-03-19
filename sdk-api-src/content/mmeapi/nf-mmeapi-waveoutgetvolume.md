@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutGetVolume
-title: waveOutGetVolume function
+title: waveOutGetVolume function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutGetVolume function retrieves the current volume level of the specified waveform-audio output device.
 old-location: multimedia\waveoutgetvolume.htm

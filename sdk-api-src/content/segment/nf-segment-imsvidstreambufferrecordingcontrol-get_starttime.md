@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_StartTime
-title: IMSVidStreamBufferRecordingControl::get_StartTime
+title: IMSVidStreamBufferRecordingControl::get_StartTime (segment.h)
 author: windows-sdk-content
 description: The get_StartTime method retrieves the start time of the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_starttime.htm

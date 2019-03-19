@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IIPDVDec.put_IPDisplay
-title: IIPDVDec::put_IPDisplay
+title: IIPDVDec::put_IPDisplay (strmif.h)
 author: windows-sdk-content
 description: The put_IPDisplay method sets the decoding resolution.
 old-location: dshow\iipdvdec_put_ipdisplay.htm

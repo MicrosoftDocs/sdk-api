@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxScrollWindowEx
-title: ITextHost::TxScrollWindowEx
+title: ITextHost::TxScrollWindowEx (textserv.h)
 author: windows-sdk-content
 description: Requests the text host to scroll the content of the specified client area.
 old-location: controls\ITextHost_TxScrollWindowEx.htm

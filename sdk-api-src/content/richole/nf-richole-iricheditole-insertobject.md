@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.InsertObject
-title: IRichEditOle::InsertObject
+title: IRichEditOle::InsertObject (richole.h)
 author: windows-sdk-content
 description: Inserts an object into a rich edit control.
 old-location: controls\IRichEditOle_InsertObject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Class_PropertyW
-title: CM_Set_Class_PropertyW function
+title: CM_Set_Class_PropertyW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Set_Class_Property function sets a class property for a device setup class or a device interface class.
 old-location: devinst\cm_set_class_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetType
-title: IEnumCERTVIEWCOLUMN::GetType
+title: IEnumCERTVIEWCOLUMN::GetType (certview.h)
 author: windows-sdk-content
 description: Retrieves the data type of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_gettype.htm

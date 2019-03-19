@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetFileCompletionNotificationModes
-title: SetFileCompletionNotificationModes function
+title: SetFileCompletionNotificationModes function (winbase.h)
 author: windows-sdk-content
 description: Sets the notification modes for a file handle, allowing you to specify how completion notifications work for the specified file.
 old-location: fs\setfilecompletionnotificationmodes_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0002
-title: AAAccountingDataType
+title: AAAccountingDataType (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Specifies the type of event that the ITSGAccountingEngine::DoAccounting method is being notified of.
 old-location: termserv\aaaccountingdatatype.htm

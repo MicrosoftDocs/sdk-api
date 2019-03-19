@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Begin
-title: ID3D11DeviceContext::Begin
+title: ID3D11DeviceContext::Begin (d3d11.h)
 author: windows-sdk-content
 description: Mark the beginning of a series of commands.
 old-location: direct3d11\id3d11devicecontext_begin.htm

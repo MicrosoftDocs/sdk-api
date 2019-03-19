@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetCustData
-title: ICreateTypeInfo2::SetCustData
+title: ICreateTypeInfo2::SetCustData (oaidl.h)
 author: windows-sdk-content
 description: Sets a value for custom data.
 old-location: automat\icreatetypeinfo2_setcustdata.htm

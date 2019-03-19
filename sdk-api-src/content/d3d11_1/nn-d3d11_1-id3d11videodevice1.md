@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_1.ID3D11VideoDevice1
-title: ID3D11VideoDevice1
+title: ID3D11VideoDevice1 (d3d11_1.h)
 author: windows-sdk-content
 description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videodevice1.htm

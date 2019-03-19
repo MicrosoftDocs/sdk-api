@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GetIDAsVariant
-title: ITLegacyCallMediaControl2::GetIDAsVariant
+title: ITLegacyCallMediaControl2::GetIDAsVariant (tapi3if.h)
 author: windows-sdk-content
 description: The GetIDAsVariant method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol2_getidasvariant.htm

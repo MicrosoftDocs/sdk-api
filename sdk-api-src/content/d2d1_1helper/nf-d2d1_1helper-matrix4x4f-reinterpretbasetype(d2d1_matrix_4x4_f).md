@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.ReinterpretBaseType(D2D1_MATRIX_4X4_F)
-title: Matrix4x4F::ReinterpretBaseType(D2D1_MATRIX_4X4_F)
+title: Matrix4x4F::ReinterpretBaseType(D2D1_MATRIX_4X4_F) (d2d1_1helper.h)
 author: windows-sdk-content
 description: Converts the specified D2D1_MATRIX_4X4_F matrix to a Matrix4x4F without making a copy.
 old-location: direct2d\matrix4x4f_reinterpretbasetype.htm

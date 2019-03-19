@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnGetLinguisticAlternates.GetAlternates
-title: ITfFnGetLinguisticAlternates::GetAlternates
+title: ITfFnGetLinguisticAlternates::GetAlternates (ctffunc.h)
 author: windows-sdk-content
 description: Returns a list of alternate strings for a given text range.
 old-location: tsf\itffngetlinguisticalternates_getalternates.htm

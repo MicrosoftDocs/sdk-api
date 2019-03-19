@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.StackWalk
-title: StackWalk function
+title: StackWalk function (dbghelp.h)
 author: windows-sdk-content
 description: Obtains a stack trace.
 old-location: base\stackwalk64.htm

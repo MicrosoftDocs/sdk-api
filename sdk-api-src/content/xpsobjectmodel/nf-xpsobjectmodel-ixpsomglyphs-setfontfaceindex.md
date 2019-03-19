@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontFaceIndex
-title: IXpsOMGlyphs::SetFontFaceIndex
+title: IXpsOMGlyphs::SetFontFaceIndex (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the index of the font face to be used.
 old-location: xps\ixpsomglyphs_setfontfaceindex.htm

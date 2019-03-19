@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.IsPool
-title: ID3D10Effect::IsPool
+title: ID3D10Effect::IsPool (d3d10effect.h)
 author: windows-sdk-content
 description: Test an effect to see if it is part of a memory pool.
 old-location: direct3d10\id3d10effect_ispool.htm

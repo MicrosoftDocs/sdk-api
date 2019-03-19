@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFReadWriteClassFactory
-title: IMFReadWriteClassFactory
+title: IMFReadWriteClassFactory (mfreadwrite.h)
 author: windows-sdk-content
 description: Creates an instance of either the sink writer or the source reader.
 old-location: mf\imfreadwriteclassfactory.htm

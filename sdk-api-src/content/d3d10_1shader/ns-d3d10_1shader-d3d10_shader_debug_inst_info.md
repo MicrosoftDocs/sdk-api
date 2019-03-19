@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_INST_INFO
-title: D3D10_SHADER_DEBUG_INST_INFO
+title: D3D10_SHADER_DEBUG_INST_INFO (d3d10_1shader.h)
 author: windows-sdk-content
 description: Contains instruction data.
 old-location: direct3d10\d3d10_shader_debug_inst_info.htm

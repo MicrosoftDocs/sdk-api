@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmReportGenerationContext
-title: FsrmReportGenerationContext
+title: FsrmReportGenerationContext (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the context in which the report is initiated.
 old-location: fsrm\fsrmreportgenerationcontext.htm

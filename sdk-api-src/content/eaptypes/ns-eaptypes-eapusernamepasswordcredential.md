@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EapUsernamePasswordCredential
-title: EapUsernamePasswordCredential
+title: EapUsernamePasswordCredential (eaptypes.h)
 author: windows-sdk-content
 description: Contains the username and password that is used by the EAP method for authenticating the user.
 old-location: eaphost\eapusernamepasswordcredential.htm

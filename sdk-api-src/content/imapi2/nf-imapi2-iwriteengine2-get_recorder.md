@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_Recorder
-title: IWriteEngine2::get_Recorder
+title: IWriteEngine2::get_Recorder (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the recording device to use in the write operation.
 old-location: imapi\iwriteengine2_get_recorder.htm

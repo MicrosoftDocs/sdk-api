@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.CreateNewFrame
-title: IWICBitmapEncoder::CreateNewFrame
+title: IWICBitmapEncoder::CreateNewFrame (wincodec.h)
 author: windows-sdk-content
 description: Creates a new IWICBitmapFrameEncode instance.
 old-location: wic\_wic_codec_iwicbitmapencoder_createnewframe.htm

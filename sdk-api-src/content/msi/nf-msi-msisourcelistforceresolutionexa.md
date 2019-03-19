@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListForceResolutionExA
-title: MsiSourceListForceResolutionExA function
+title: MsiSourceListForceResolutionExA function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListForceResolutionEx function removes the registration of the property called &#0034;LastUsedSource&#0034;.
 old-location: setup\msisourcelistforceresolutionex.htm

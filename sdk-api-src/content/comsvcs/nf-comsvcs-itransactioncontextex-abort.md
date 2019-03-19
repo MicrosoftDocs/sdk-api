@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionContextEx.Abort
-title: ITransactionContextEx::Abort
+title: ITransactionContextEx::Abort (comsvcs.h)
 author: windows-sdk-content
 description: Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
 old-location: cos\itransactioncontextex_abort.htm

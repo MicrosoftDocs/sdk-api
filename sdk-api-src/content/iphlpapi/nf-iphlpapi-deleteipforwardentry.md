@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.DeleteIpForwardEntry
-title: DeleteIpForwardEntry function
+title: DeleteIpForwardEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: Deletes an existing route in the local computer's IPv4 routing table.
 old-location: iphlp\deleteipforwardentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mgmtapi.SnmpMgrGetTrapEx
-title: SnmpMgrGetTrapEx function
+title: SnmpMgrGetTrapEx function (mgmtapi.h)
 author: windows-sdk-content
 description: The SnmpMgrGetTrapEx function returns outstanding trap data that the caller has not received if trap reception is enabled.
 old-location: snmp\snmpmgrgettrapex.htm

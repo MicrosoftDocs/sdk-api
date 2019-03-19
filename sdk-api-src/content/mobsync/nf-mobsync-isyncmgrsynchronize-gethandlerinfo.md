@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.GetHandlerInfo
-title: ISyncMgrSynchronize::GetHandlerInfo
+title: ISyncMgrSynchronize::GetHandlerInfo (mobsync.h)
 author: windows-sdk-content
 description: Obtains handler information.
 old-location: shell\syncmgr_isyncmgrsynchronize_gethandlerinfo.htm

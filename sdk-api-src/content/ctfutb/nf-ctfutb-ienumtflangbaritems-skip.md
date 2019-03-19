@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Skip
-title: IEnumTfLangBarItems::Skip
+title: IEnumTfLangBarItems::Skip (ctfutb.h)
 author: windows-sdk-content
 description: IEnumTfLangBarItems::Skip method
 old-location: tsf\ienumtflangbaritems_skip.htm

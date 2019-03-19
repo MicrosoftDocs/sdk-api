@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocator.SetProperties
-title: IMemAllocator::SetProperties
+title: IMemAllocator::SetProperties (strmif.h)
 author: windows-sdk-content
 description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
 old-location: dshow\imemallocator_setproperties.htm

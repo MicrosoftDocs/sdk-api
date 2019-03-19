@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10misc.D3D10CreateDeviceAndSwapChain
-title: D3D10CreateDeviceAndSwapChain function
+title: D3D10CreateDeviceAndSwapChain function (d3d10misc.h)
 author: windows-sdk-content
 description: Create a Direct3D 10.0 device and a swap chain.
 old-location: direct3d10\d3d10createdeviceandswapchain.htm

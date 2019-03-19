@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1503
-title: SERVER_INFO_1503
+title: SERVER_INFO_1503 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1503 structure specifies the number of search operations that can be carried out simultaneously.
 old-location: netmgmt\server_info_1503_str.htm

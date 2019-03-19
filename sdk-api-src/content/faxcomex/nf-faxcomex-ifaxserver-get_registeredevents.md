@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_RegisteredEvents
-title: IFaxServer::get_RegisteredEvents
+title: IFaxServer::get_RegisteredEvents (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_RegisteredEvents property is a value from an enumeration that indicates the types of fax service events a client application is listening for.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_registeredevents_cpp.htm

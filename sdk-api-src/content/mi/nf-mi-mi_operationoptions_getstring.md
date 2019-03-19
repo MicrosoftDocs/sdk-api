@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetString
-title: MI_OperationOptions_GetString function
+title: MI_OperationOptions_GetString function (mi.h)
 author: windows-sdk-content
 description: Gets a custom string option.
 old-location: wmi_v2\mi_operationoptions_getstring.htm

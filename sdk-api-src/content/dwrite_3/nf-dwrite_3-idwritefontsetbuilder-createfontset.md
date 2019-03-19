@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder.CreateFontSet
-title: IDWriteFontSetBuilder::CreateFontSet
+title: IDWriteFontSetBuilder::CreateFontSet (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a font set from all the font face references added so far with AddFontFaceReference.
 old-location: directwrite\idwritefontsetbuilder_createfontset.htm

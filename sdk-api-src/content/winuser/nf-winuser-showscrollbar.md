@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ShowScrollBar
-title: ShowScrollBar function
+title: ShowScrollBar function (winuser.h)
 author: windows-sdk-content
 description: The ShowScrollBar function shows or hides the specified scroll bar.
 old-location: controls\ShowScrollBar.htm

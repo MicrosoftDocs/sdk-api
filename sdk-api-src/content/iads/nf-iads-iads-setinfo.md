@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.SetInfo
-title: IADs::SetInfo
+title: IADs::SetInfo (iads.h)
 author: windows-sdk-content
 description: The IADs::SetInfo method saves the cached property values of the ADSI object to the underlying directory store.
 old-location: adsi\iads_setinfo.htm

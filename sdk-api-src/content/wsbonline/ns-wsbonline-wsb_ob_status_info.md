@@ -1,6 +1,6 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_INFO
-title: WSB_OB_STATUS_INFO
+title: WSB_OB_STATUS_INFO (wsbonline.h)
 author: windows-sdk-content
 description: Contains information to update the cloud backup provider status in the Windows Server Backup MMC snap-in.
 old-location: wsb\wsb_ob_status_info.htm

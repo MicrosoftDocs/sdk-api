@@ -1,6 +1,6 @@
 ---
 UID: NF:swdevice.SwDevicePropertySet
-title: SwDevicePropertySet function
+title: SwDevicePropertySet function (swdevice.h)
 author: windows-sdk-content
 description: Sets properties on a software device.
 old-location: swdevice\swdevicepropertyset.htm

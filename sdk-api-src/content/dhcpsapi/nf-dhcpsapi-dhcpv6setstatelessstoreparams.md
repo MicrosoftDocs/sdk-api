@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV6SetStatelessStoreParams
-title: DhcpV6SetStatelessStoreParams function
+title: DhcpV6SetStatelessStoreParams function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets the DHCPv6 stateless client inventory configuration settings at the server or scope level.
 old-location: dhcp\dhcpv6setstatelessstoreparams.htm

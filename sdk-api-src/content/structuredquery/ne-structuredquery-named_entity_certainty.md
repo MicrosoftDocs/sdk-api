@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.__MIDL___MIDL_itf_structuredquery_0000_0012_0001
-title: NAMED_ENTITY_CERTAINTY
+title: NAMED_ENTITY_CERTAINTY (structuredquery.h)
 author: windows-sdk-content
 description: Defines the level of certainty for a named entity.
 old-location: search\_search_NAMED_ENTITY_CERTAINTY.htm

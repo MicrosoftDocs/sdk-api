@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaEventAddWindow
-title: UiaEventAddWindow function
+title: UiaEventAddWindow function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Adds a window to the event listener.
 old-location: winauto\uiauto_UiaEventAddWindowFunction.htm

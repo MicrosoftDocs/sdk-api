@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.RequestLicensingCapabilities
-title: IWTSProtocolLicenseConnection::RequestLicensingCapabilities
+title: IWTSProtocolLicenseConnection::RequestLicensingCapabilities (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection::RequestLicensingCapabilities is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestLicensingCapabilities.
 old-location: termserv\iwtsprotocollicenseconnection_requestlicensingcapabilities.htm

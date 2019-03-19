@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V6
-title: DHCP_SUBNET_ELEMENT_DATA_V6
+title: DHCP_SUBNET_ELEMENT_DATA_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains definitions for the elements of the IPv6 prefix, such as IPv6 reservation, IPv6 exclusion range, and IPv6 range.
 old-location: dhcp\dhcp_subnet_element_data_v6.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_ExtendedStatus
-title: IFaxIncomingJob::get_ExtendedStatus
+title: IFaxIncomingJob::get_ExtendedStatus (faxcomex.h)
 author: windows-sdk-content
 description: The ExtendedStatus property is a null-terminated string that describes the job's extended status.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_extendedstatus_cpp.htm

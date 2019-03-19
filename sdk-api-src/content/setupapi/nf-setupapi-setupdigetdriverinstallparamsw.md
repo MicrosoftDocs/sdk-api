@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDriverInstallParamsW
-title: SetupDiGetDriverInstallParamsW function
+title: SetupDiGetDriverInstallParamsW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDriverInstallParams function retrieves driver installation parameters for a device information set or a particular device information element.
 old-location: devinst\setupdigetdriverinstallparams.htm

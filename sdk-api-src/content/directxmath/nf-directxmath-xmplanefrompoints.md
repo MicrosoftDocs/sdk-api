@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneFromPoints
-title: XMPlaneFromPoints function
+title: XMPlaneFromPoints function (directxmath.h)
 author: windows-sdk-content
 description: Computes the equation of a plane constructed from three points in the plane.
 old-location: dxmath\xmplanefrompoints.htm

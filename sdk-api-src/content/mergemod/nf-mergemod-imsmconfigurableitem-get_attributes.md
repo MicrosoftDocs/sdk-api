@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Attributes
-title: IMsmConfigurableItem::get_Attributes
+title: IMsmConfigurableItem::get_Attributes (mergemod.h)
 author: windows-sdk-content
 description: The get_Attributes method retrieves the Attributes property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_attributes.htm

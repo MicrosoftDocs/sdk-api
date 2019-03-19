@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsOpenDSObject
-title: IADsOpenDSObject
+title: IADsOpenDSObject (iads.h)
 author: windows-sdk-content
 description: The IADsOpenDSObject interface is designed to supply a security context for binding to an object in the underlying directory store.
 old-location: adsi\iadsopendsobject.htm

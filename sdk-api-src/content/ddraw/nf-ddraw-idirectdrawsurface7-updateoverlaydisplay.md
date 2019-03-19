@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlayDisplay
-title: IDirectDrawSurface7::UpdateOverlayDisplay
+title: IDirectDrawSurface7::UpdateOverlayDisplay (ddraw.h)
 author: windows-sdk-content
 description: The IDirectDrawSurface7::UpdateOverlayDisplay method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_updateoverlaydisplay.htm

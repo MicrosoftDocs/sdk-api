@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_FILTER
-title: D3D11_FILTER
+title: D3D11_FILTER (d3d11.h)
 author: windows-sdk-content
 description: Filtering options during texture sampling.
 old-location: direct3d11\d3d11_filter.htm

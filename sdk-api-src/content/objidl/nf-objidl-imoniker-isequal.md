@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMoniker.IsEqual
-title: IMoniker::IsEqual
+title: IMoniker::IsEqual (objidl.h)
 author: windows-sdk-content
 description: Determines whether this moniker is identical to the specified moniker.
 old-location: com\imoniker_isequal.htm

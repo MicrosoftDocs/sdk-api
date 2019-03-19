@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.GetCredentials
-title: IWMSInternalAdminNetSource::GetCredentials
+title: IWMSInternalAdminNetSource::GetCredentials (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The GetCredentials method retrieves a cached password.
 old-location: wmformat\iwmsinternaladminnetsource_getcredentials.htm

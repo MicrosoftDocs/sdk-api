@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Rotate
-title: IInkRenderer::Rotate
+title: IInkRenderer::Rotate (msinkaut.h)
 author: windows-sdk-content
 description: Applies a rotation to a InkRenderer's view transform.
 old-location: tablet\inkrenderer_rotate.htm

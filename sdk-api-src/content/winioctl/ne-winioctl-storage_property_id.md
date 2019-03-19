@@ -1,6 +1,6 @@
 ---
 UID: NE:winioctl._STORAGE_PROPERTY_ID
-title: STORAGE_PROPERTY_ID
+title: STORAGE_PROPERTY_ID (winioctl.h)
 author: windows-sdk-content
 description: Enumerates the possible values of the PropertyId member of the STORAGE_PROPERTY_QUERY structure passed as input to the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: fs\storage_property_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueCopyIndirectW
-title: SetupQueueCopyIndirectW function
+title: SetupQueueCopyIndirectW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.
 old-location: setup\setupqueuecopyindirect.htm

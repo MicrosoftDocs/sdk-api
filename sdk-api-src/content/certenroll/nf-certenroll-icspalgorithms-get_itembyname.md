@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.get_ItemByName
-title: ICspAlgorithms::get_ItemByName
+title: ICspAlgorithms::get_ItemByName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspAlgorithm object from the collection by name.
 old-location: security\icspalgorithms_itembyname_property.htm

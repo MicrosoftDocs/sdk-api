@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIFactory.CreateSoftwareAdapter
-title: IDXGIFactory::CreateSoftwareAdapter
+title: IDXGIFactory::CreateSoftwareAdapter (dxgi.h)
 author: windows-sdk-content
 description: Create an adapter interface that represents a software adapter.
 old-location: direct3ddxgi\idxgifactory_createsoftwareadapter.htm

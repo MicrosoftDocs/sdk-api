@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetContentRect
-title: IDirectManipulationContent::GetContentRect
+title: IDirectManipulationContent::GetContentRect (directmanipulation.h)
 author: windows-sdk-content
 description: Retrieves the bounding rectangle of the content, relative to the bounding rectangle of the viewport (if defined).
 old-location: directmanipulation\idirectmanipulationcontent_getcontentrect.htm

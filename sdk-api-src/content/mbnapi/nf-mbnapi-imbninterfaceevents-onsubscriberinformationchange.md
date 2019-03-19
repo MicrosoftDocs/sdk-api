@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnSubscriberInformationChange
-title: IMbnInterfaceEvents::OnSubscriberInformationChange
+title: IMbnInterfaceEvents::OnSubscriberInformationChange (mbnapi.h)
 author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that the subscriber information for the device has changed.
 old-location: mbn\imbninterfaceevents_onsubscriberinformationchange.htm

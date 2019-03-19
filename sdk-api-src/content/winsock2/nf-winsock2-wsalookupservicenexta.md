@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSALookupServiceNextA
-title: WSALookupServiceNextA function
+title: WSALookupServiceNextA function (winsock2.h)
 author: windows-sdk-content
 description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information.
 old-location: winsock\wsalookupservicenext_2.htm

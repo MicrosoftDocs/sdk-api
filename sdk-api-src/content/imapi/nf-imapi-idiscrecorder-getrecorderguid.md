@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderGUID
-title: IDiscRecorder::GetRecorderGUID
+title: IDiscRecorder::GetRecorderGUID (imapi.h)
 author: windows-sdk-content
 description: Retrieves the GUID of the physical disc recorder currently associated with the recorder object.
 old-location: imapi\idiscrecorder_getrecorderguid.htm

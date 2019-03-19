@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK &&)
-title: XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&)
+title: XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&) (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMFLOAT3SE to the current instance of XMFLOAT3SE.
 old-location: dxmath\xmfloat3se_operator_eq_1.htm

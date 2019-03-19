@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_PARAM
-title: HTTP_SERVICE_CONFIG_SSL_PARAM
+title: HTTP_SERVICE_CONFIG_SSL_PARAM (http.h)
 author: windows-sdk-content
 description: Defines a record in the SSL configuration store.
 old-location: http\http_service_config_ssl_param.htm

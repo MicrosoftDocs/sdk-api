@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IContextMenu.InvokeCommand
-title: IContextMenu::InvokeCommand
+title: IContextMenu::InvokeCommand (shobjidl_core.h)
 author: windows-sdk-content
 description: Carries out the command associated with a shortcut menu item.
 old-location: shell\IContextMenu_InvokeCommand.htm

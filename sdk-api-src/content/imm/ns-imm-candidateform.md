@@ -1,6 +1,6 @@
 ---
 UID: NS:imm.tagCANDIDATEFORM
-title: CANDIDATEFORM
+title: CANDIDATEFORM (imm.h)
 author: windows-sdk-content
 description: Contains position information for the candidate window.
 old-location: intl\candidateform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsOMPackageWriter
-title: IXpsDocumentPackageTarget::GetXpsOMPackageWriter
+title: IXpsDocumentPackageTarget::GetXpsOMPackageWriter (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Gets the IXpsOMPackageWriter object for the document package.
 old-location: xps\ixpsdocumentpackagetarget_getxpsompackagewriter.htm

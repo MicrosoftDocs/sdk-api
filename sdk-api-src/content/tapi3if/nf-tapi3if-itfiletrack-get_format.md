@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_Format
-title: ITFileTrack::get_Format
+title: ITFileTrack::get_Format (tapi3if.h)
 author: windows-sdk-content
 description: The get_Format method gets the file terminal's format.
 old-location: tapi3\itfiletrack_get_format.htm

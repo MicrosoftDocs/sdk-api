@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12shader.ID3D12FunctionParameterReflection
-title: ID3D12FunctionParameterReflection
+title: ID3D12FunctionParameterReflection (d3d12shader.h)
 author: windows-sdk-content
 description: A function-parameter-reflection interface accesses function-parameter info.
 old-location: direct3d12\id3d12functionparameterreflection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelLog.AddEntry
-title: ITravelLog::AddEntry
+title: ITravelLog::AddEntry (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Adds a new entry for a pending navigation to the travel log.
 old-location: shell\ITravelLog_AddEntry.htm

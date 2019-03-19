@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjFreeAlignedBuffer
-title: PrjFreeAlignedBuffer function
+title: PrjFreeAlignedBuffer function (projectedfslib.h)
 author: windows-sdk-content
 description: Frees an allocated buffer.
 old-location: projfs\prjfreealignedbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtGetQueryInfo
-title: EvtGetQueryInfo function
+title: EvtGetQueryInfo function (winevt.h)
 author: windows-sdk-content
 description: Gets information about a query that you ran that identifies the list of channels or log files that the query attempted to access. The function also gets a list of return codes that indicates the success or failure of each access.
 old-location: wes\evtgetqueryinfo.htm

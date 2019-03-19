@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.SetPreference
-title: IOfflineFilesSetting::SetPreference
+title: IOfflineFilesSetting::SetPreference (cscobj.h)
 author: windows-sdk-content
 description: Sets a per-computer or per-user preference associated with an Offline Files setting.
 old-location: of\iofflinefilessetting_setpreference.htm

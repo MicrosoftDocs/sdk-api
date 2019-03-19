@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorCos
-title: XMVectorCos function
+title: XMVectorCos function (directxmath.h)
 author: windows-sdk-content
 description: Computes the cosine of each component of an XMVECTOR.
 old-location: dxmath\xmvectorcos.htm

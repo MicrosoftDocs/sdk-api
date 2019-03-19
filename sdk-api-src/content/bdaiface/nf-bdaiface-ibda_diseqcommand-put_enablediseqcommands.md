@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_EnableDiseqCommands
-title: IBDA_DiseqCommand::put_EnableDiseqCommands
+title: IBDA_DiseqCommand::put_EnableDiseqCommands (bdaiface.h)
 author: windows-sdk-content
 description: Enables or disables the use of Digital Satellite Equipment Control (DiSEqC) commands.
 old-location: mstv\ibda_diseqcommand_put_enablediseqcommands.htm

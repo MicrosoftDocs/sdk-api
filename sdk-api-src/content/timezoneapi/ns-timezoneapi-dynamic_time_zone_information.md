@@ -1,6 +1,6 @@
 ---
 UID: NS:timezoneapi._TIME_DYNAMIC_ZONE_INFORMATION
-title: DYNAMIC_TIME_ZONE_INFORMATION
+title: DYNAMIC_TIME_ZONE_INFORMATION (timezoneapi.h)
 author: windows-sdk-content
 description: Specifies settings for a time zone and dynamic daylight saving time.
 old-location: base\dynamic_time_zone_information.htm

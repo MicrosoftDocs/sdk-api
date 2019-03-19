@@ -1,6 +1,6 @@
 ---
 UID: NS:winperf._PERF_COUNTER_DEFINITION
-title: PERF_COUNTER_DEFINITION
+title: PERF_COUNTER_DEFINITION (winperf.h)
 author: windows-sdk-content
 description: Describes a performance counter.
 old-location: perf\perf_counter_definition_str.htm

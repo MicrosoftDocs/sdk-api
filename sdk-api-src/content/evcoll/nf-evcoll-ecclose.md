@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcClose
-title: EcClose function
+title: EcClose function (evcoll.h)
 author: windows-sdk-content
 description: Closes a handle received from other Event Collector functions.
 old-location: wec\ecclose.htm

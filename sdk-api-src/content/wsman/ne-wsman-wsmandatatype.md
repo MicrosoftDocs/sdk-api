@@ -1,6 +1,6 @@
 ---
 UID: NE:wsman.WSManDataType
-title: WSManDataType
+title: WSManDataType (wsman.h)
 author: windows-sdk-content
 description: Specifies the current data type of the union in the WSMAN_DATA structure.
 old-location: winrm\wsmandatatype.htm

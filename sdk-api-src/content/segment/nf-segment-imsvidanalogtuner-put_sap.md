@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_SAP
-title: IMSVidAnalogTuner::put_SAP
+title: IMSVidAnalogTuner::put_SAP (segment.h)
 author: windows-sdk-content
 description: The put_SAP method specifies the tuner's SAP setting to enable secondary audio components.
 old-location: mstv\imsvidanalogtuner_put_sap.htm

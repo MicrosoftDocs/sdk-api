@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_StageFiles
-title: IFileSystemImage::get_StageFiles
+title: IFileSystemImage::get_StageFiles (imapi2fs.h)
 author: windows-sdk-content
 description: Indicates if the files being added to the file system image should be staged before the burn.
 old-location: imapi\ifilesystemimage_get_stagefiles.htm

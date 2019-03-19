@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.Clear
-title: ID2D1SpriteBatch::Clear
+title: ID2D1SpriteBatch::Clear (d2d1_3.h)
 author: windows-sdk-content
 description: Removes all sprites from this sprite batch.
 old-location: direct2d\id2d1spritebatch_clear.htm

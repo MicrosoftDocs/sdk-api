@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Clone
-title: IWICEnumMetadataItem::Clone
+title: IWICEnumMetadataItem::Clone (wincodec.h)
 author: windows-sdk-content
 description: Creates a copy of the current IWICEnumMetadataItem.
 old-location: wic\_wic_codec_iwicenummetadataitem_clone.htm

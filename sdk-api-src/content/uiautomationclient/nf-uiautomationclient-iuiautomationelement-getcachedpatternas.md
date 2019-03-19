@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPatternAs
-title: IUIAutomationElement::GetCachedPatternAs
+title: IUIAutomationElement::GetCachedPatternAs (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the control pattern interface of the specified pattern from the cache of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPatternAs.htm

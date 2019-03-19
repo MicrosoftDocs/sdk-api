@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WintrustAddDefaultForUsage
-title: WintrustAddDefaultForUsage function
+title: WintrustAddDefaultForUsage function (wintrust.h)
 author: windows-sdk-content
 description: Specifies the default usage identifier and callback information for a provider.
 old-location: security\wintrustadddefaultforusage.htm

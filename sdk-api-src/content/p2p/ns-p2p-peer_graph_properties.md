@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_graph_properties_tag
-title: PEER_GRAPH_PROPERTIES
+title: PEER_GRAPH_PROPERTIES (p2p.h)
 author: windows-sdk-content
 description: The PEER_GRAPH_PROPERTIES structure contains data about the policy of a peer graph, ID, scope, and other information.
 old-location: p2p\peer_graph_properties.htm

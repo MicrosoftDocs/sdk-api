@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0088_0001
-title: ADS_PATHTYPE_ENUM
+title: ADS_PATHTYPE_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_PATHTYPE_ENUM enumeration specifies the type of object on which the IADsSecurityUtility interface is going to add or modify a security descriptor.
 old-location: adsi\ads_pathtype_enum.htm

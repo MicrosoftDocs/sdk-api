@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.GetFileManagementJob
-title: IFsrmFileManagementJobManager::GetFileManagementJob
+title: IFsrmFileManagementJobManager::GetFileManagementJob (fsrmreports.h)
 author: windows-sdk-content
 description: Gets the specified file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_getfilemanagementjob.htm

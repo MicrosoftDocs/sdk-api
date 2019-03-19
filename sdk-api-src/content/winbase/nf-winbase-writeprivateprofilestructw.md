@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WritePrivateProfileStructW
-title: WritePrivateProfileStructW function
+title: WritePrivateProfileStructW function (winbase.h)
 author: windows-sdk-content
 description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.
 old-location: base\writeprivateprofilestruct.htm

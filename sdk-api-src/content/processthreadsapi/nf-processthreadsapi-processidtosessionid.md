@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.ProcessIdToSessionId
-title: ProcessIdToSessionId function
+title: ProcessIdToSessionId function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the Remote Desktop Services session associated with a specified process.
 old-location: termserv\processidtosessionid.htm

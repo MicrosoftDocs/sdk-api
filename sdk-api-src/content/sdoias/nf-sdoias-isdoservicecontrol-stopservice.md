@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.StopService
-title: ISdoServiceControl::StopService
+title: ISdoServiceControl::StopService (sdoias.h)
 author: windows-sdk-content
 description: The StopService method shuts down the service administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_stopservice.htm

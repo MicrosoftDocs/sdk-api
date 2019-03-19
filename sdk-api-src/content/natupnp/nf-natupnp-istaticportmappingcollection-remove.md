@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.Remove
-title: IStaticPortMappingCollection::Remove
+title: IStaticPortMappingCollection::Remove (natupnp.h)
 author: windows-sdk-content
 description: The Remove method removes the specified port mapping from the collection.
 old-location: ics\istaticportmappingcollection_remove.htm

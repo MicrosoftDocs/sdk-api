@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzModifySecurityAttributes
-title: AuthzModifySecurityAttributes function
+title: AuthzModifySecurityAttributes function (authz.h)
 author: windows-sdk-content
 description: Modifies the security attribute information in the specified client context.
 old-location: security\authzmodifysecurityattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetCountOfRecords
-title: IATSC_EIT::GetCountOfRecords
+title: IATSC_EIT::GetCountOfRecords (atscpsipparser.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getcountofrecords.htm

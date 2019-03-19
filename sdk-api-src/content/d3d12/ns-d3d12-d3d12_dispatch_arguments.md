@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_DISPATCH_ARGUMENTS
-title: D3D12_DISPATCH_ARGUMENTS
+title: D3D12_DISPATCH_ARGUMENTS (d3d12.h)
 author: windows-sdk-content
 description: Describes dispatch parameters, for use by the compute shader.
 old-location: direct3d12\d3d12_dispatch_arguments.htm

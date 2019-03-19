@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerRegisterCustomMetadata
-title: WerRegisterCustomMetadata function
+title: WerRegisterCustomMetadata function (werapi.h)
 author: windows-sdk-content
 description: Registers app-specific metadata to be collected (in the form of key/value strings) when WER creates an error report.
 old-location: wer\werregistercustommetadata.htm

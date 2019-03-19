@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBandSite.AddBand
-title: IBandSite::AddBand
+title: IBandSite::AddBand (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a band to a band site object.
 old-location: shell\IBandSite_AddBand.htm

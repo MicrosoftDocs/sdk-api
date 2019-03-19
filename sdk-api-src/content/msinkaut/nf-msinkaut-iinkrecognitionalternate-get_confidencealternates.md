@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_ConfidenceAlternates
-title: IInkRecognitionAlternate::get_ConfidenceAlternates
+title: IInkRecognitionAlternate::get_ConfidenceAlternates (msinkaut.h)
 author: windows-sdk-content
 description: Gets the collection of alternates in which each alternate in the collection consists of the segments with the same property values.
 old-location: tablet\iinkrecognitionalternate_confidencealternates.htm

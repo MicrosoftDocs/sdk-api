@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorProfileCollection
-title: IMFSensorProfileCollection
+title: IMFSensorProfileCollection (mfidl.h)
 author: windows-sdk-content
 description: Contains a collection of media foundation sensor profile objects.
 old-location: mf\imfsensorprofilecollection.htm

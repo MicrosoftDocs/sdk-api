@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.SetActive
-title: ITextStory::SetActive
+title: ITextStory::SetActive (tom.h)
 author: windows-sdk-content
 description: Sets the active state of a story.
 old-location: controls\itextstory_setactive.htm

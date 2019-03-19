@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyReaders
-title: IAzScope::get_PolicyReaders
+title: IAzScope::get_PolicyReaders (azroles.h)
 author: windows-sdk-content
 description: The PolicyReaders property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy readers.
 old-location: security\iazscope_policyreaders.htm

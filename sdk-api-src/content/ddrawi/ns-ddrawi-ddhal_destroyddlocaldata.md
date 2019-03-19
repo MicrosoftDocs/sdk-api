@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawi._DDHAL_DESTROYDDLOCALDATA
-title: DDHAL_DESTROYDDLOCALDATA
+title: DDHAL_DESTROYDDLOCALDATA (ddrawi.h)
 author: windows-sdk-content
 description: DDHAL_DESTROYDDLOCALDATA contains the information required for the driver to destroy a set of surfaces associated to a given local DirectDraw object.
 old-location: display\ddhal_destroyddlocaldata.htm

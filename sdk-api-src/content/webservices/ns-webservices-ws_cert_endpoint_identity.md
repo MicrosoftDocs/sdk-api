@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CERT_ENDPOINT_IDENTITY
-title: WS_CERT_ENDPOINT_IDENTITY
+title: WS_CERT_ENDPOINT_IDENTITY (webservices.h)
 author: windows-sdk-content
 description: Type for certificate endpoint identity
 old-location: wsw\ws_cert_endpoint_identity.htm

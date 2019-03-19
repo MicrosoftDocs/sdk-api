@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_ALL_OPTION_VALUES_PB
-title: DHCP_ALL_OPTION_VALUES_PB
+title: DHCP_ALL_OPTION_VALUES_PB (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_ALL_OPTION_VALUES_PB structure defines the set of all option values for a DHCP server within a scope.
 old-location: dhcp\dhcp_all_option_values_pb.htm

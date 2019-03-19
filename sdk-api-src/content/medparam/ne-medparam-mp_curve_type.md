@@ -1,6 +1,6 @@
 ---
 UID: NE:medparam._MP_CURVE_TYPE
-title: MP_CURVE_TYPE
+title: MP_CURVE_TYPE (medparam.h)
 author: windows-sdk-content
 description: The MP_CURVE_TYPE enumeration defines the curve that a media parameter follows within an envelope segment.
 old-location: dshow\mp_curve_type.htm

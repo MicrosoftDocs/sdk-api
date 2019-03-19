@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.Skip
-title: IEnumCERTVIEWROW::Skip
+title: IEnumCERTVIEWROW::Skip (certview.h)
 author: windows-sdk-content
 description: Skips a specified number of rows in the row enumeration sequence.
 old-location: security\ienumcertviewrow_skip.htm

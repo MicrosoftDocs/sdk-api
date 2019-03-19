@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DSwapChain9.GetPresentParameters
-title: IDirect3DSwapChain9::GetPresentParameters
+title: IDirect3DSwapChain9::GetPresentParameters (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the presentation parameters associated with a swap chain.
 old-location: direct3d9\idirect3dswapchain9__getpresentparameters.htm

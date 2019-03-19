@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.IsBlackWhite
-title: IWICPalette::IsBlackWhite
+title: IWICPalette::IsBlackWhite (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a value that describes whether the palette is black and white.
 old-location: wic\_wic_codec_iwicpalette_isblackwhite.htm

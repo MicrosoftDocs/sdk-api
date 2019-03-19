@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IEnumRangeExceptions
-title: IEnumRangeExceptions
+title: IEnumRangeExceptions (winsync.h)
 author: windows-sdk-content
 description: Enumerates range exceptions that are stored in a knowledge object.
 old-location: winsync\ienumrangeexceptions.htm

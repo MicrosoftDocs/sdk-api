@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.Encode
-title: ICertEncodeAltName::Encode
+title: ICertEncodeAltName::Encode (certenc.h)
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the alternate name array stored in this object. The names in the object are not encoded.
 old-location: security\icertencodealtname_encode.htm

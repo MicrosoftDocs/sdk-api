@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.get_Formula
-title: ISpreadsheetItemProvider::get_Formula
+title: ISpreadsheetItemProvider::get_Formula (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the formula for this spreadsheet cell.
 old-location: winauto\uiauto_ISpreadsheetItemProvider_Formula.htm

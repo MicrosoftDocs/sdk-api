@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbGlobalStore
-title: ITsSbGlobalStore
+title: ITsSbGlobalStore (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that query for target computers, sessions, environments, and farms that have been added to the Remote Desktop Connection Broker (RD Connection Broker) store.
 old-location: termserv\itssbglobalstore.htm

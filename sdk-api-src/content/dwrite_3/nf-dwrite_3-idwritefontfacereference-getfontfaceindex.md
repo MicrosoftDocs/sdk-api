@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFontFaceIndex
-title: IDWriteFontFaceReference::GetFontFaceIndex
+title: IDWriteFontFaceReference::GetFontFaceIndex (dwrite_3.h)
 author: windows-sdk-content
 description: Obtains the zero-based index of the font face in its font file or files. If the font files contain a single face, the return value is zero.
 old-location: directwrite\idwritefontfacereference_getfontfaceindex.htm

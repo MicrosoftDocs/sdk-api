@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.get_Name
-title: ITaskFolder::get_Name
+title: ITaskFolder::get_Name (taskschd.h)
 author: windows-sdk-content
 description: Gets the name that is used to identify the folder that contains a task.
 old-location: taskschd\itaskfolder_name.htm

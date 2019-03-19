@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDServiceProxyEventing
-title: IWSDServiceProxyEventing
+title: IWSDServiceProxyEventing (wsdclient.h)
 author: windows-sdk-content
 description: Represents a remote WSD service for client applications and middleware. This interface allows for the implementation of multiple asynchronous operations.
 old-location: ncd\iwsdserviceproxyeventing.htm

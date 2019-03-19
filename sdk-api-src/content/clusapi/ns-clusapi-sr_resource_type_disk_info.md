@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_DISK_INFO
-title: SR_RESOURCE_TYPE_DISK_INFO
+title: SR_RESOURCE_TYPE_DISK_INFO (clusapi.h)
 author: windows-sdk-content
 description: Describes a set of information that indicates whether a disk is eligible for replication.
 old-location: mscs\sr_resource_type_disk_info.htm

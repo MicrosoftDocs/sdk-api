@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinState
-title: IMbnPinManager::GetPinState
+title: IMbnPinManager::GetPinState (mbnapi.h)
 author: windows-sdk-content
 description: Gets the current PIN state of the device.
 old-location: mbn\imbnpinmanager_getpinstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.GetCredentialAt
-title: ICredentialProvider::GetCredentialAt
+title: ICredentialProvider::GetCredentialAt (credentialprovider.h)
 author: windows-sdk-content
 description: Gets a specific credential.
 old-location: shell\ICredentialProvider_GetCredentialAt.htm

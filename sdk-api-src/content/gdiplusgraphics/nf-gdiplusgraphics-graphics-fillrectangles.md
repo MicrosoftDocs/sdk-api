@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRectangles
-title: Graphics::FillRectangles
+title: Graphics::FillRectangles (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the FillRectangles methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangles_Methods.htm

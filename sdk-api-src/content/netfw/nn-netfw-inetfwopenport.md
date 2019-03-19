@@ -1,6 +1,6 @@
 ---
 UID: NN:netfw.INetFwOpenPort
-title: INetFwOpenPort
+title: INetFwOpenPort (netfw.h)
 author: windows-sdk-content
 description: The INetFwOpenPort interface provides access to the properties of a port that has been opened in the firewall.
 old-location: ics\inetfwopenport.htm

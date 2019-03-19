@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_RAW_COUNTER_ITEM_W
-title: PDH_RAW_COUNTER_ITEM_W
+title: PDH_RAW_COUNTER_ITEM_W (pdh.h)
 author: windows-sdk-content
 description: The PDH_RAW_COUNTER_ITEM structure contains the instance name and raw value of a counter.
 old-location: perf\pdh_raw_counter_item_str.htm

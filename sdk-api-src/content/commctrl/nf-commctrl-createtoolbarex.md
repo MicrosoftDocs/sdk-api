@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.CreateToolbarEx
-title: CreateToolbarEx function
+title: CreateToolbarEx function (commctrl.h)
 author: windows-sdk-content
 description: Creates a toolbar window and adds the specified buttons to the toolbar.
 old-location: controls\CreateToolbarEx.htm

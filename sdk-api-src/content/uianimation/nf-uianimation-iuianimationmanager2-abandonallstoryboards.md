@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.AbandonAllStoryboards
-title: IUIAnimationManager2::AbandonAllStoryboards
+title: IUIAnimationManager2::AbandonAllStoryboards (uianimation.h)
 author: windows-sdk-content
 description: Abandons all active storyboards.
 old-location: uianimation\iuianimationmanager2_abandonallstoryboards.htm

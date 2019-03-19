@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonFunction
-title: ITPhone::get_ButtonFunction
+title: ITPhone::get_ButtonFunction (tapi3if.h)
 author: windows-sdk-content
 description: The get_ButtonFunction method retrieves the button function associated with a particular button.
 old-location: tapi3\itphone_get_buttonfunction.htm

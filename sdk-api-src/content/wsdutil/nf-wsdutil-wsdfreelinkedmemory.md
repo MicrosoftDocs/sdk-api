@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDFreeLinkedMemory
-title: WSDFreeLinkedMemory function
+title: WSDFreeLinkedMemory function (wsdutil.h)
 author: windows-sdk-content
 description: Frees a memory block previously allocated with WSDAllocateLinkedMemory.
 old-location: ncd\wsdfreelinkedmemory_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventObjectChange.ChangedEventClass
-title: IEventObjectChange::ChangedEventClass
+title: IEventObjectChange::ChangedEventClass (eventsys.h)
 author: windows-sdk-content
 description: Indicates that an event class object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange_changedeventclass.htm

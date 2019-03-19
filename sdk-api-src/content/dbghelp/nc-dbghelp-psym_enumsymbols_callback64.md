@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMSYMBOLS_CALLBACK64
-title: PSYM_ENUMSYMBOLS_CALLBACK64
+title: PSYM_ENUMSYMBOLS_CALLBACK64 (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateSymbols64 function. It is called once for each enumerated symbol, and receives the symbol information.
 old-location: base\symenumeratesymbolsproc64.htm

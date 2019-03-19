@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.RenameElement
-title: IStorage::RenameElement
+title: IStorage::RenameElement (objidl.h)
 author: windows-sdk-content
 description: The RenameElement method renames the specified substorage or stream in this storage object.
 old-location: stg\istorage_renameelement.htm

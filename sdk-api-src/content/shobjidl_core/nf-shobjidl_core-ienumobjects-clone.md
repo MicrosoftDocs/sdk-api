@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Clone
-title: IEnumObjects::Clone
+title: IEnumObjects::Clone (shobjidl_core.h)
 author: windows-sdk-content
 description: Not implemented.Not implemented.
 old-location: shell\IEnumObjects_Clone.htm

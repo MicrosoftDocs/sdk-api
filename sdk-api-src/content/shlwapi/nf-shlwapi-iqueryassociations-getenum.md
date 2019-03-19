@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetEnum
-title: IQueryAssociations::GetEnum
+title: IQueryAssociations::GetEnum (shlwapi.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: shell\IQueryAssociations_GetEnum.htm

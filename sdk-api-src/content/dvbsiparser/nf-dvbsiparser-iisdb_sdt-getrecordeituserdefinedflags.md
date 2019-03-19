@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDT.GetRecordEITUserDefinedFlags
-title: IISDB_SDT::GetRecordEITUserDefinedFlags
+title: IISDB_SDT::GetRecordEITUserDefinedFlags (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns the EIT_user_defined_flags field value from a service descriptor in an Integrated Services Digital Broadcasting (ISDB) service description table (SDT).
 old-location: mstv\iisdb_sdt_getrecordeituserdefinedflags.htm

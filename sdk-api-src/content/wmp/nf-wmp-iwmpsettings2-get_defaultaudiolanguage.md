@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings2.get_defaultAudioLanguage
-title: IWMPSettings2::get_defaultAudioLanguage
+title: IWMPSettings2::get_defaultAudioLanguage (wmp.h)
 author: windows-sdk-content
 description: The get_defaultAudioLanguage method retrieves the LCID of the default audio language specified in Windows Media Player.
 old-location: wmp\iwmpsettings2_get_defaultaudiolanguage.htm

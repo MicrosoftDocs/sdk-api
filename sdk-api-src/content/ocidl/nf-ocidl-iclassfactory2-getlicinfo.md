@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IClassFactory2.GetLicInfo
-title: IClassFactory2::GetLicInfo
+title: IClassFactory2::GetLicInfo (ocidl.h)
 author: windows-sdk-content
 description: Retrieves information about the licensing capabilities of this class factory.
 old-location: com\iclassfactory2_getlicinfo.htm

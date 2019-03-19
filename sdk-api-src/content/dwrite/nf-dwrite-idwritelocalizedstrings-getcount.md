@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetCount
-title: IDWriteLocalizedStrings::GetCount
+title: IDWriteLocalizedStrings::GetCount (dwrite.h)
 author: windows-sdk-content
 description: Gets the number of language/string pairs.
 old-location: directwrite\IDWriteLocalizedStrings_GetCount.htm

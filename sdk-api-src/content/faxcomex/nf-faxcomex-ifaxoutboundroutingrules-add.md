@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.Add
-title: IFaxOutboundRoutingRules::Add
+title: IFaxOutboundRoutingRules::Add (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutboundRoutingRules::Add method adds an outbound routing rule (IFaxOutboundRoutingRule interface) to the collection defined by the IFaxOutboundRoutingRules interface.
 old-location: fax\_mfax_faxoutboundroutingrules_add_cpp.htm

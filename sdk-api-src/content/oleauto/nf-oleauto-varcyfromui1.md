@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyFromUI1
-title: VarCyFromUI1 function
+title: VarCyFromUI1 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an unsigned char value to a currency value.
 old-location: automat\varcyfromui1.htm

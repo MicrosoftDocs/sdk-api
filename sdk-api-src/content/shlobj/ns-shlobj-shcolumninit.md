@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj.__unnamed_struct_3
-title: SHCOLUMNINIT
+title: SHCOLUMNINIT (shlobj.h)
 author: windows-sdk-content
 description: Passes initialization information to IColumnProvider::Initialize.
 old-location: shell\SHCOLUMNINIT_str.htm

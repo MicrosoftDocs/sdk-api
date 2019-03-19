@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_INTERACTIVE_UI_DATA
-title: EAP_INTERACTIVE_UI_DATA
+title: EAP_INTERACTIVE_UI_DATA (eaptypes.h)
 author: windows-sdk-content
 description: Contains configuration information for interactive UI components raised on an EAP supplicant.
 old-location: eaphost\eap_interactive_ui_data.htm

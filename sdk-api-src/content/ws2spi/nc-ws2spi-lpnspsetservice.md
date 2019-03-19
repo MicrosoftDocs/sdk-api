@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPSETSERVICE
-title: LPNSPSETSERVICE
+title: LPNSPSETSERVICE (ws2spi.h)
 author: windows-sdk-content
 description: Registers or deregisters a service instance within a namespace.
 old-location: winsock\nspsetservice_2.htm

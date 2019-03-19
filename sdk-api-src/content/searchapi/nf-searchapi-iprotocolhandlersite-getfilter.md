@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IProtocolHandlerSite.GetFilter
-title: IProtocolHandlerSite::GetFilter
+title: IProtocolHandlerSite::GetFilter (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the appropriate IFilteraccording to the supplied parameters.
 old-location: search\_search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp.htm

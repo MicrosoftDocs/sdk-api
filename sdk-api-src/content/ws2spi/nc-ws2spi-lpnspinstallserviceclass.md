@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPINSTALLSERVICECLASS
-title: LPNSPINSTALLSERVICECLASS
+title: LPNSPINSTALLSERVICECLASS (ws2spi.h)
 author: windows-sdk-content
 description: The NSPInstallServiceClass function registers service class schema within the namespace providers.
 old-location: winsock\nspinstallserviceclass_2.htm

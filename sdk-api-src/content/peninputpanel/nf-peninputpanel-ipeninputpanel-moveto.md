@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.MoveTo
-title: IPenInputPanel::MoveTo
+title: IPenInputPanel::MoveTo (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Sets the position of the PenInputPanel object to a static screen position.
 old-location: tablet\peninputpanel_moveto.htm

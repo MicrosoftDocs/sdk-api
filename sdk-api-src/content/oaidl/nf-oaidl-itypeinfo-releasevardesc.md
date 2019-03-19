@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseVarDesc
-title: ITypeInfo::ReleaseVarDesc
+title: ITypeInfo::ReleaseVarDesc (oaidl.h)
 author: windows-sdk-content
 description: Releases a VARDESC previously returned by ITypeInfo::GetVarDesc.
 old-location: automat\itypeinfo_releasevardesc.htm

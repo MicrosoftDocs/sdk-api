@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressEvent.get_Terminal
-title: ITAddressEvent::get_Terminal
+title: ITAddressEvent::get_Terminal (tapi3if.h)
 author: windows-sdk-content
 description: The get_Terminal method gets a pointer to the ITTerminal interface associated with the event.
 old-location: tapi3\itaddressevent_get_terminal.htm

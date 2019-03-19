@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.Gettime_t
-title: WBEMTime::Gettime_t
+title: WBEMTime::Gettime_t (wbemtime.h)
 author: windows-sdk-content
 description: The Gettime_t method gets the time as an ANSI C run-time time_t variable.
 old-location: wmi\wbemtime_gettime_t.htm

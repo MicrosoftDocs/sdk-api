@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0012
-title: ADS_REPLICAPOINTER
+title: ADS_REPLICAPOINTER (iads.h)
 author: windows-sdk-content
 description: Represents an ADSI representation of the Replica Pointer attribute syntax.
 old-location: adsi\ads_replicapointer.htm

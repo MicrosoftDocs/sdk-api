@@ -1,6 +1,6 @@
 ---
 UID: NS:qos._flowspec
-title: FLOWSPEC
+title: FLOWSPEC (qos.h)
 author: windows-sdk-content
 description: The FLOWSPEC structure provides quality of service parameters to the RSVP SP.
 old-location: qos\flowspec.htm

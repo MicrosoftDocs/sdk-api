@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_JOB_STATUS_ENUM
-title: FAX_JOB_STATUS_ENUM
+title: FAX_JOB_STATUS_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_JOB_STATUS_ENUM enumeration defines the status values for a fax job.Note  The members fjsPAUSED and fjsNOLINE are modifiers; they can be used in combination with any other member of this enumeration.
 old-location: fax\_mfax_fax_job_status_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassifierModuleImplementation
-title: IFsrmClassifierModuleImplementation
+title: IFsrmClassifierModuleImplementation (fsrmpipeline.h)
 author: windows-sdk-content
 description: Classifier modules implement this interface. FSRM calls the module's implementation when it runs classification.
 old-location: fsrm\ifsrmclassifiermoduleimplementation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mapi.__unnamed_struct_1
-title: MapiFileDescW
+title: MapiFileDescW (mapi.h)
 author: windows-sdk-content
 description: A MapiFileDescW structure contains information about a file containing a message attachment stored as a temporary file. That file can contain a static OLE object, an embedded OLE object, an embedded message, and other types of files.
 old-location: mapi\mapifiledescw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.Finalize
-title: ITfCandidateListUIElementBehavior::Finalize
+title: ITfCandidateListUIElementBehavior::Finalize (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElementBehavior::Finalize method finalizes the current selection and close the candidate list.
 old-location: tsf\itfcandidatelistuielementbehavior_finalize.htm

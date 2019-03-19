@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ISchemaLocalizerSupport.Localize
-title: ISchemaLocalizerSupport::Localize
+title: ISchemaLocalizerSupport::Localize (structuredquery.h)
 author: windows-sdk-content
 description: Localizes keywords from an input string.
 old-location: search\_search_ISchemaLocalizerSupport_Localize.htm

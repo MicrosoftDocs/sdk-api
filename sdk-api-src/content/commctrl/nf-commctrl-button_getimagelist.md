@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_GetImageList
-title: Button_GetImageList macro
+title: Button_GetImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the BUTTON_IMAGELIST structure that describes the image list that is set for a button control. You can use this macro or send the BCM_GETIMAGELIST message explicitly.
 old-location: controls\Button_GetImageList.htm

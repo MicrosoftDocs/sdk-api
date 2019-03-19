@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0001
-title: MFSensorDeviceType
+title: MFSensorDeviceType (mfidl.h)
 author: windows-sdk-content
 description: Specifies the type of a sensor device. A value from this enumeration is returned by IMFSensorDevice::GetDeviceType.
 old-location: mf\mfsensordevicetype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetObject
-title: IMFAsyncResult::GetObject
+title: IMFAsyncResult::GetObject (mfobjects.h)
 author: windows-sdk-content
 description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
 old-location: mf\imfasyncresult_getobject.htm

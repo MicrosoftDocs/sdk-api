@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetObject
-title: IMFTopologyNode::SetObject
+title: IMFTopologyNode::SetObject (mfidl.h)
 author: windows-sdk-content
 description: Sets the object associated with this node.
 old-location: mf\imftopologynode_setobject.htm

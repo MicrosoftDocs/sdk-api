@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.PutMethod
-title: IWbemClassObject::PutMethod
+title: IWbemClassObject::PutMethod (wbemcli.h)
 author: windows-sdk-content
 description: Used to create a method.
 old-location: wmi\iwbemclassobject_putmethod.htm

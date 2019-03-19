@@ -1,6 +1,6 @@
 ---
 UID: NS:xinput._XINPUT_KEYSTROKE
-title: XINPUT_KEYSTROKE
+title: XINPUT_KEYSTROKE (xinput.h)
 author: windows-sdk-content
 description: Specifies keystroke data returned by XInputGetKeystroke.
 old-location: xinput\xinput_keystroke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_CardName
-title: ITCallingCard::get_CardName
+title: ITCallingCard::get_CardName (tapi3if.h)
 author: windows-sdk-content
 description: The get_CardName method gets the friendly name for the calling card.
 old-location: tapi3\itcallingcard_get_cardname.htm

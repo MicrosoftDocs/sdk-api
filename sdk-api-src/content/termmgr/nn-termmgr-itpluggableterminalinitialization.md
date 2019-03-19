@@ -1,6 +1,6 @@
 ---
 UID: NN:termmgr.ITPluggableTerminalInitialization
-title: ITPluggableTerminalInitialization
+title: ITPluggableTerminalInitialization (termmgr.h)
 author: windows-sdk-content
 description: The ITPluggableTerminalInitialization interface is implemented by pluggable terminals and allows the Terminal Manager to initialize the terminal. The ITPluggableTerminalInitialization interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itpluggableterminalinitialization.htm

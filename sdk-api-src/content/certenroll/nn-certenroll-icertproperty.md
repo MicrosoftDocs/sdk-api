@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertProperty
-title: ICertProperty
+title: ICertProperty (certenroll.h)
 author: windows-sdk-content
 description: Can be used to associate an external property with a certificate.
 old-location: security\icertproperty.htm

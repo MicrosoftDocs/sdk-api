@@ -1,6 +1,6 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyJob5.SetProperty
-title: IBackgroundCopyJob5::SetProperty
+title: IBackgroundCopyJob5::SetProperty (bits5_0.h)
 author: windows-sdk-content
 description: A generic method for setting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_setproperty.htm

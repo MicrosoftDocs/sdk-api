@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.SolidBrush.GetColor
-title: SolidBrush::GetColor
+title: SolidBrush::GetColor (gdiplusbrush.h)
 author: windows-sdk-content
 description: The SolidBrush::GetColor method gets the color of this solid brush.
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_GetColor_color_.htm

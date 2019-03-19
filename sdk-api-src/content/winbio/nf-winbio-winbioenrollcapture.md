@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioEnrollCapture
-title: WinBioEnrollCapture function
+title: WinBioEnrollCapture function (winbio.h)
 author: windows-sdk-content
 description: Captures a biometric sample and adds it to a template. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrollcapture.htm

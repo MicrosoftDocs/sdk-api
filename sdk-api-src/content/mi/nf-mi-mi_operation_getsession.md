@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Operation_GetSession
-title: MI_Operation_GetSession function
+title: MI_Operation_GetSession function (mi.h)
 author: windows-sdk-content
 description: Gets the session associated with an operation.
 old-location: wmi_v2\mi_operation_getsession.htm

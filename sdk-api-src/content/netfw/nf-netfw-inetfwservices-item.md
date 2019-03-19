@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwServices.Item
-title: INetFwServices::Item
+title: INetFwServices::Item (netfw.h)
 author: windows-sdk-content
 description: Returns the specified service if it is in the collection.
 old-location: ics\inetfwservices_item.htm

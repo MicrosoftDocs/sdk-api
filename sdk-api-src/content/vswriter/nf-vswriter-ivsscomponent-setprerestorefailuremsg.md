@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.SetPreRestoreFailureMsg
-title: IVssComponent::SetPreRestoreFailureMsg
+title: IVssComponent::SetPreRestoreFailureMsg (vswriter.h)
 author: windows-sdk-content
 description: The SetPreRestoreFailureMsg method is used to create a message describing a failure in processing a PreRestore event.
 old-location: base\ivsscomponent_setprerestorefailuremsg.htm

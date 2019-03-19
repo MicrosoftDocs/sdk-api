@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SetMuteAsync
-title: IMediaRenderer::streaming
+title: IMediaRenderer::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Instructs the DMR asynchronously to either mute or unmute the audio.
 old-location: mediastreaming\imediarenderer_setmuteasync.htm

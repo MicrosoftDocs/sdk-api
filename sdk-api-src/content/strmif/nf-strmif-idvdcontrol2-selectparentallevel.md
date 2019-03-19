@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectParentalLevel
-title: IDvdControl2::SelectParentalLevel
+title: IDvdControl2::SelectParentalLevel (strmif.h)
 author: windows-sdk-content
 description: The SelectParentalLevel method sets the parental access level for the logged-on user.
 old-location: dshow\idvdcontrol2_selectparentallevel.htm

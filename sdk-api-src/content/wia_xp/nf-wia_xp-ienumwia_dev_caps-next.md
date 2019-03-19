@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Next
-title: IEnumWIA_DEV_CAPS::Next
+title: IEnumWIA_DEV_CAPS::Next (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_CAPS::Next method fills an array of pointers to WIA_DEV_CAP structures.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Next.htm

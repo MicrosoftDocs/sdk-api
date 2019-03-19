@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.EstimateNextEventTime
-title: IUIAnimationManager2::EstimateNextEventTime
+title: IUIAnimationManager2::EstimateNextEventTime (uianimation.h)
 author: windows-sdk-content
 description: Retrieves an estimate of the time interval before the next animation event.
 old-location: uianimation\iuianimationmanager2_estimatenexteventtime.htm

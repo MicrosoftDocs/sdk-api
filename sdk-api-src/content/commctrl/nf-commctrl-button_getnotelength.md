@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_GetNoteLength
-title: Button_GetNoteLength macro
+title: Button_GetNoteLength macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the BCM_GETNOTELENGTH message explicitly.
 old-location: controls\Button_GetNoteLength.htm

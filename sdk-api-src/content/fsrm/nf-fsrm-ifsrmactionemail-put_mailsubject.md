@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailSubject
-title: IFsrmActionEmail::put_MailSubject
+title: IFsrmActionEmail::put_MailSubject (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the subject of the email that is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailsubject.htm

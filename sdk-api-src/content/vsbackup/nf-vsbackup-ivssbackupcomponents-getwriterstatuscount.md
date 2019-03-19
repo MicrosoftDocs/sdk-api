@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterStatusCount
-title: IVssBackupComponents::GetWriterStatusCount
+title: IVssBackupComponents::GetWriterStatusCount (vsbackup.h)
 author: windows-sdk-content
 description: The GetWriterStatusCount method returns the number of writers with status.
 old-location: base\ivssbackupcomponents_getwriterstatuscount.htm

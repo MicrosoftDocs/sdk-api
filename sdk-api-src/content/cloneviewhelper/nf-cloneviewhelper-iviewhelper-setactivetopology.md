@@ -1,6 +1,6 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.SetActiveTopology
-title: IViewHelper::SetActiveTopology
+title: IViewHelper::SetActiveTopology (cloneviewhelper.h)
 author: windows-sdk-content
 description: The SetActiveTopology method sets up the topology to be used by a Video Present Network (VidPN) on a particular graphics adapter.
 old-location: display\iviewhelper_setactivetopology.htm

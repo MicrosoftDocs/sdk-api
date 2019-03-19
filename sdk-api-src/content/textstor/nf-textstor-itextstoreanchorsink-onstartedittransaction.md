@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnStartEditTransaction
-title: ITextStoreAnchorSink::OnStartEditTransaction
+title: ITextStoreAnchorSink::OnStartEditTransaction (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchorSink::OnStartEditTransaction method
 old-location: tsf\itextstoreanchorsink_onstartedittransaction.htm

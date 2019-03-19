@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeSysBool
-title: GetThemeSysBool function
+title: GetThemeSysBool function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the Boolean value of a system metric.
 old-location: controls\GetThemeSysBool.htm

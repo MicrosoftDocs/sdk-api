@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRANSPORT_POLICY2_
-title: IPSEC_TRANSPORT_POLICY2
+title: IPSEC_TRANSPORT_POLICY2 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores the quick mode negotiation policy for transport mode IPsec.
 old-location: fwp\ipsec_transport_policy2.htm

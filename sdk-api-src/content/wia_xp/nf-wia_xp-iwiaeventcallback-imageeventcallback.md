@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaEventCallback.ImageEventCallback
-title: IWiaEventCallback::ImageEventCallback
+title: IWiaEventCallback::ImageEventCallback (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaEventCallback::ImageEventCallback method is invoked by the Windows Image Acquisition (WIA) run-time system when a hardware device event occurs.
 old-location: wia\_wia_IWiaEventCallback_ImageEventCallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmPathMapper
-title: IFsrmPathMapper
+title: IFsrmPathMapper (fsrm.h)
 author: windows-sdk-content
 description: Used to retrieve the network share paths that are mapped to a local path.
 old-location: fsrm\ifsrmpathmapper.htm

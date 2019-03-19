@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_next_attribute
-title: ldap_next_attribute function
+title: ldap_next_attribute function (winldap.h)
 author: windows-sdk-content
 description: Returns the next attribute.
 old-location: ldap\ldap_next_attribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsBeta
-title: IUpdate::get_IsBeta
+title: IUpdate::get_IsBeta (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the update is a beta release.
 old-location: wua\iupdate_isbeta.htm

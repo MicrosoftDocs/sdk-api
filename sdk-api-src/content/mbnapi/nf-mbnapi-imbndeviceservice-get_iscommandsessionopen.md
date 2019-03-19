@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsCommandSessionOpen
-title: IMbnDeviceService::get_IsCommandSessionOpen
+title: IMbnDeviceService::get_IsCommandSessionOpen (mbnapi.h)
 author: windows-sdk-content
 description: Reports if the device service command session is open.
 old-location: mbn\imbndeviceservice_iscommandsessionopen.htm

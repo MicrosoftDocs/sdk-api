@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.GetWindowInputRectangle
-title: IInkPicture::GetWindowInputRectangle
+title: IInkPicture::GetWindowInputRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the window rectangle, in pixels, within which ink is drawn.
 old-location: tablet\inkpicture_getwindowinputrectangle.htm

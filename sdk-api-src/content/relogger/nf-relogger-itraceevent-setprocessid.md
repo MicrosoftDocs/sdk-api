@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.SetProcessId
-title: ITraceEvent::SetProcessId
+title: ITraceEvent::SetProcessId (relogger.h)
 author: windows-sdk-content
 description: Assigns an event to a specific process.
 old-location: etw\ievent_setprocessid.htm

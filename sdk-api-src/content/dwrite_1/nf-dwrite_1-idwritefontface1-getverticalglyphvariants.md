@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetVerticalGlyphVariants
-title: IDWriteFontFace1::GetVerticalGlyphVariants
+title: IDWriteFontFace1::GetVerticalGlyphVariants (dwrite_1.h)
 author: windows-sdk-content
 description: Retrieves the vertical forms of the nominal glyphs retrieved from GetGlyphIndices.
 old-location: directwrite\idwritefontface1_getverticalglyphvariants.htm

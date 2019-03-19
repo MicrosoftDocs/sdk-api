@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundRegion
-title: GetThemeBackgroundRegion function
+title: GetThemeBackgroundRegion function (uxtheme.h)
 author: windows-sdk-content
 description: Computes the region for a regular or partially transparent background that is bounded by a specified rectangle.
 old-location: controls\GetThemeBackgroundRegion.htm

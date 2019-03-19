@@ -1,6 +1,6 @@
 ---
 UID: NC:scesvc.PFSCE_SET_INFO
-title: PFSCE_SET_INFO
+title: PFSCE_SET_INFO (scesvc.h)
 author: windows-sdk-content
 description: Sets or overwrites service-specific configuration and analysis information.
 old-location: security\pfsce_set_info.htm

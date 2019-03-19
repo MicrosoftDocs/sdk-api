@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.put_SignerCertificate
-title: IX509CertificateRequestCertificate::put_SignerCertificate
+title: IX509CertificateRequestCertificate::put_SignerCertificate (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the ISignerCertificate object used to sign the certificate.
 old-location: security\ix509certificaterequestcertificate_signercertificate_property.htm

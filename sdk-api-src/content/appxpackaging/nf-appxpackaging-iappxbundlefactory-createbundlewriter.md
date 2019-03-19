@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleWriter
-title: IAppxBundleFactory::CreateBundleWriter
+title: IAppxBundleFactory::CreateBundleWriter (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a write-only bundle object to which app packages can be added.
 old-location: appxpkg\iappxbundlefactory_createbundlewriter.htm

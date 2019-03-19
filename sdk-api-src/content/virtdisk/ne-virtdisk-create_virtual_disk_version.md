@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._CREATE_VIRTUAL_DISK_VERSION
-title: CREATE_VIRTUAL_DISK_VERSION
+title: CREATE_VIRTUAL_DISK_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the version of the virtual disk CREATE_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\create_virtual_disk_version.htm

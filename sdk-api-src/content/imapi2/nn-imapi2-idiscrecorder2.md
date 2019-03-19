@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscRecorder2
-title: IDiscRecorder2
+title: IDiscRecorder2 (imapi2.h)
 author: windows-sdk-content
 description: This interface represents a physical device. You use this interface to retrieve information about a CD and DVD device installed on the computer and to perform operations such as closing the tray or eject the media.
 old-location: imapi\idiscrecorder2.htm

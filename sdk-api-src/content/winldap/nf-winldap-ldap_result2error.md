@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_result2error
-title: ldap_result2error function
+title: ldap_result2error function (winldap.h)
 author: windows-sdk-content
 description: The ldap_result2error function parses a message and returns the error code.
 old-location: ldap\ldap_result2error.htm

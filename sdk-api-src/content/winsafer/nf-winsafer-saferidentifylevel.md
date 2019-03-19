@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferIdentifyLevel
-title: SaferIdentifyLevel function
+title: SaferIdentifyLevel function (winsafer.h)
 author: windows-sdk-content
 description: Retrieves information about a level.
 old-location: security\saferidentifylevel.htm

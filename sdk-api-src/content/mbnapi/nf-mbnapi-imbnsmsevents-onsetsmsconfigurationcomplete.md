@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSetSmsConfigurationComplete
-title: IMbnSmsEvents::OnSetSmsConfigurationComplete
+title: IMbnSmsEvents::OnSetSmsConfigurationComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method signaling that a set SMS configuration operation has completed, or that the SMS subsystem is initialized and ready for operation.
 old-location: mbn\imbnsmsevents_onsetsmsconfigurationcomplete.htm

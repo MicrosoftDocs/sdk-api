@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.GetMoniker
-title: IOleClientSite::GetMoniker
+title: IOleClientSite::GetMoniker (oleidl.h)
 author: windows-sdk-content
 description: Retrieves a moniker for the object's client site. An object can force the assignment of its own or its container's moniker by specifying a value for dwAssign.
 old-location: com\ioleclientsite_getmoniker.htm

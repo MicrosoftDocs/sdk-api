@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0004
-title: OPC_READ_FLAGS
+title: OPC_READ_FLAGS (msopc.h)
 author: windows-sdk-content
 description: Describes the read settings for caching package components and validating them against ECMA-376 OpenXML, 1st Edition, Part 2:\_Open Packaging Conventions (OPC) conformance requirements.
 old-location: opc\opc_read_flags.htm

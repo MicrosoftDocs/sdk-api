@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupCancelTemporarySourceList
-title: SetupCancelTemporarySourceList function
+title: SetupCancelTemporarySourceList function (setupapi.h)
 author: windows-sdk-content
 description: The SetupCancelTemporarySourceList function cancels any temporary list and no-browse behavior and reestablishes standard list behavior.
 old-location: setup\setupcanceltemporarysourcelist.htm

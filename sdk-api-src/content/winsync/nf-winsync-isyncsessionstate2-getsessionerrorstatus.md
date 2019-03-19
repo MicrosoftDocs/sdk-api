@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState2.GetSessionErrorStatus
-title: ISyncSessionState2::GetSessionErrorStatus
+title: ISyncSessionState2::GetSessionErrorStatus (winsync.h)
 author: windows-sdk-content
 description: Gets the error value that indicates why the synchronization session failed.
 old-location: winsync\isyncsessionstate2_getsessionerrorstatus.htm

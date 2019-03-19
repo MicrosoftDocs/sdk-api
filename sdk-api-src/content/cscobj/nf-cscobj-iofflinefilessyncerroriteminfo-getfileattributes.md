@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorItemInfo.GetFileAttributes
-title: IOfflineFilesSyncErrorItemInfo::GetFileAttributes
+title: IOfflineFilesSyncErrorItemInfo::GetFileAttributes (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the Win32 file attributes for the item.
 old-location: of\iofflinefilessyncerroriteminfo_getfileattributes.htm

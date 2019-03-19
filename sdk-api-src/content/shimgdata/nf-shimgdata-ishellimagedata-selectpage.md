@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.SelectPage
-title: IShellImageData::SelectPage
+title: IShellImageData::SelectPage (shimgdata.h)
 author: windows-sdk-content
 description: Selects a specified page in a multipage image.
 old-location: shell\IShellImageData_SelectPage.htm

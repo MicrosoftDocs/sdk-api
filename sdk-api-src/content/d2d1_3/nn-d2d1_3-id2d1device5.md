@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1Device5
-title: ID2D1Device5
+title: ID2D1Device5 (d2d1_3.h)
 author: windows-sdk-content
 description: Represents a resource domain whose objects and device contexts can be used together. This interface performs all the same functions as the ID2D1Device4 interface. It also enables the creation of ID2D1DeviceContext5 objects.
 old-location: direct2d\id2d1device5.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.GetViewInfo
-title: IOleUIObjInfoW::GetViewInfo
+title: IOleUIObjInfoW::GetViewInfo (oledlg.h)
 author: windows-sdk-content
 description: Gets the view information associated with the object.
 old-location: com\ioleuiobjinfo_getviewinfo.htm

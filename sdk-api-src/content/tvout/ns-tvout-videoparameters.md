@@ -1,6 +1,6 @@
 ---
 UID: NS:tvout._VIDEOPARAMETERS
-title: VIDEOPARAMETERS
+title: VIDEOPARAMETERS (tvout.h)
 author: windows-sdk-content
 description: The video miniport driver receives a pointer to a VIDEOPARAMETERS structure in the InputBuffer member of a VIDEO_REQUEST_PACKET when the IOCTL request is IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS.
 old-location: display\videoparameters.htm

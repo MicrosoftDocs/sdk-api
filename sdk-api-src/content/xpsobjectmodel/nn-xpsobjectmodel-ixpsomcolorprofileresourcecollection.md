@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMColorProfileResourceCollection
-title: IXpsOMColorProfileResourceCollection
+title: IXpsOMColorProfileResourceCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMColorProfileResource interface pointers.
 old-location: xps\ixpsomcolorprofileresourcecollection.htm

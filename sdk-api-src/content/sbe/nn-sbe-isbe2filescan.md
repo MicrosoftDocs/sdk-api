@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.ISBE2FileScan
-title: ISBE2FileScan
+title: ISBE2FileScan (sbe.h)
 author: windows-sdk-content
 description: Repairs a corrupted .WTV file.
 old-location: mstv\isbe2filescan.htm

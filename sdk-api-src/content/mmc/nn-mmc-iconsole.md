@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IConsole
-title: IConsole
+title: IConsole (mmc.h)
 author: windows-sdk-content
 description: Enables communication with the console.
 old-location: mmc\iconsole.htm

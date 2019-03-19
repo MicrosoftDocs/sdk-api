@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.GetTransportType
-title: IWMStreamConfig2::GetTransportType
+title: IWMStreamConfig2::GetTransportType (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetTransportType method retrieves the type of data communication protocol (reliable or unreliable) used for the stream.
 old-location: wmformat\iwmstreamconfig2_gettransporttype.htm

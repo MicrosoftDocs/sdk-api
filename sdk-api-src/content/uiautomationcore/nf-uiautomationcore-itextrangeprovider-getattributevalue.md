@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetAttributeValue
-title: ITextRangeProvider::GetAttributeValue
+title: ITextRangeProvider::GetAttributeValue (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the value of the specified text attribute across the text range.
 old-location: winauto\uiauto_ITextRangeProvider_GetAttributeValue.htm

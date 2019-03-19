@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_INPUT_MODE
-title: DIRECTMANIPULATION_INPUT_MODE
+title: DIRECTMANIPULATION_INPUT_MODE (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the threading behavior for SetInputMode or SetUpdateMode. The exact meaning of each constant depends on the method called.
 old-location: directmanipulation\directmanipulation_input_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptStringAnalyse
-title: ScriptStringAnalyse function
+title: ScriptStringAnalyse function (usp10.h)
 author: windows-sdk-content
 description: Analyzes a plain text string.
 old-location: intl\scriptstringanalyse.htm

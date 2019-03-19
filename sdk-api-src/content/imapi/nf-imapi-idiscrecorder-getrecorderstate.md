@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderState
-title: IDiscRecorder::GetRecorderState
+title: IDiscRecorder::GetRecorderState (imapi.h)
 author: windows-sdk-content
 description: Retrieves the disc recorder state.
 old-location: imapi\idiscrecorder_getrecorderstate.htm

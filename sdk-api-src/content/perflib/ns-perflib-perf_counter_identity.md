@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_COUNTER_IDENTITY
-title: PERF_COUNTER_IDENTITY
+title: PERF_COUNTER_IDENTITY (perflib.h)
 author: windows-sdk-content
 description: Defines the counter that is sent to a provider's callback when the consumer adds or removes a counter from the query.
 old-location: perf\perf_counter_identity.htm

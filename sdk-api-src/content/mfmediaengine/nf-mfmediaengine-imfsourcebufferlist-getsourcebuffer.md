@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferList.GetSourceBuffer
-title: IMFSourceBufferList::GetSourceBuffer
+title: IMFSourceBufferList::GetSourceBuffer (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the IMFSourceBuffer at the specified index in the list.
 old-location: mf\imfsourcebufferlist_getsourcebuffer.htm

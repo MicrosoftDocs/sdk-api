@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddTransition
-title: IUIAnimationStoryboard2::AddTransition
+title: IUIAnimationStoryboard2::AddTransition (uianimation.h)
 author: windows-sdk-content
 description: Adds a transition to the storyboard.
 old-location: uianimation\iuianimationstoryboard2_addtransition.htm

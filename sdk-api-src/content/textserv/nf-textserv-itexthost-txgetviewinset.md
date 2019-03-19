@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetViewInset
-title: ITextHost::TxGetViewInset
+title: ITextHost::TxGetViewInset (textserv.h)
 author: windows-sdk-content
 description: Requests the dimensions of the white space inset around the text in the text host window.
 old-location: controls\ITextHost_TxGetViewInset.htm

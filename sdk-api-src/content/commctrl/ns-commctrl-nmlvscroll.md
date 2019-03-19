@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVSCROLL
-title: NMLVSCROLL
+title: NMLVSCROLL (commctrl.h)
 author: windows-sdk-content
 description: Provides information about a scrolling operation.
 old-location: controls\NMLVSCROLL.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeReader.GetTCRMode
-title: IAMTimecodeReader::GetTCRMode
+title: IAMTimecodeReader::GetTCRMode (strmif.h)
 author: windows-sdk-content
 description: The GetTCRMode method retrieves the timecode reader's properties.
 old-location: dshow\iamtimecodereader_gettcrmode.htm

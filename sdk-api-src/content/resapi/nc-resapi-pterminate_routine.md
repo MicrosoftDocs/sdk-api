@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PTERMINATE_ROUTINE
-title: PTERMINATE_ROUTINE
+title: PTERMINATE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Immediately marks a resource as unavailable for use without waiting for cleanup processing to be completed.
 old-location: mscs\terminate.htm

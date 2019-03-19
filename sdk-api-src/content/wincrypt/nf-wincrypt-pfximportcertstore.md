@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.PFXImportCertStore
-title: PFXImportCertStore function
+title: PFXImportCertStore function (wincrypt.h)
 author: windows-sdk-content
 description: Imports a PFX BLOB and returns the handle of a store that contains certificates and any associated private keys.
 old-location: security\pfximportcertstore.htm

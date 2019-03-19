@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabDeleteObject
-title: PeerCollabDeleteObject function
+title: PeerCollabDeleteObject function (p2p.h)
 author: windows-sdk-content
 description: Deletes a peer object from the calling endpoint.
 old-location: p2p\peercollabdeleteobject.htm

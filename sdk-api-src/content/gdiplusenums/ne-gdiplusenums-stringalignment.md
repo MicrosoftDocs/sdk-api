@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.StringAlignment
-title: StringAlignment
+title: StringAlignment (gdiplusenums.h)
 author: windows-sdk-content
 description: The StringAlignment enumeration specifies how a string is aligned in reference to the bounding rectangle. A bounding rectangle is used to define the area in which the text displays.
 old-location: gdiplus\_gdiplus_ENUM_StringAlignment.htm

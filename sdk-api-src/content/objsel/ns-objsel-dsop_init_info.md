@@ -1,6 +1,6 @@
 ---
 UID: NS:objsel._DSOP_INIT_INFO
-title: DSOP_INIT_INFO
+title: DSOP_INIT_INFO (objsel.h)
 author: windows-sdk-content
 description: The DSOP_INIT_INFO structure contains data required to initialize an object picker dialog box. This structure is used with the IDsObjectPicker::Initialize method.
 old-location: ad\dsop_init_info.htm

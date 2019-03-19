@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_7
-title: REQUESTBODY_Unsubscribe
+title: REQUESTBODY_Unsubscribe (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-Eventing Unsubscribe request message.
 old-location: ncd\requestbody_unsubscribe_struct.htm

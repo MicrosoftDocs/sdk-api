@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot._MESSAGE
-title: MESSAGE
+title: MESSAGE (routprot.h)
 author: windows-sdk-content
 description: The MESSAGE union contains information about an event reported to the router manager through the routing protocol's message queue.
 old-location: rras\message.htm

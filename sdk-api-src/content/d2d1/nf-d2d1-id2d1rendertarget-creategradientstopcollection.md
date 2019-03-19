@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateGradientStopCollection
-title: ID2D1RenderTarget::CreateGradientStopCollection
+title: ID2D1RenderTarget::CreateGradientStopCollection (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1_GRADIENT_STOP structures.
 old-location: direct2d\id2d1rendertarget_creategradientstopcollection.htm

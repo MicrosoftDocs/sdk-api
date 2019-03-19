@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.get_DiagnosticsPolicy
-title: IWdsTransportConfigurationManager::get_DiagnosticsPolicy
+title: IWdsTransportConfigurationManager::get_DiagnosticsPolicy (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives an interface pointer to the Configuration Manager's Diagnostics Policy object. The object can be used to configure diagnostics settings that WDS transport server components enable for diagnostic event logging.
 old-location: wds\iwdstransportconfigurationmanager_diagnosticspolicy.htm

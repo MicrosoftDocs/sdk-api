@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_4
-title: ISCSI_TARGET_MAPPINGW
+title: ISCSI_TARGET_MAPPINGW (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_TARGET_MAPPING.
 old-location: iscsidisc\iscsi_target_mapping.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.GetSpriteCount
-title: ID2D1SpriteBatch::GetSpriteCount
+title: ID2D1SpriteBatch::GetSpriteCount (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the number of sprites in this sprite batch.
 old-location: direct2d\id2d1spritebatch_getspritecount.htm

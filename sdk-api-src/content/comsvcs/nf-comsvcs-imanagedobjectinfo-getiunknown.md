@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.GetIUnknown
-title: IManagedObjectInfo::GetIUnknown
+title: IManagedObjectInfo::GetIUnknown (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the IUnknown interface that is associated with the managed object.
 old-location: cos\imanagedobjectinfo_getiunknown.htm

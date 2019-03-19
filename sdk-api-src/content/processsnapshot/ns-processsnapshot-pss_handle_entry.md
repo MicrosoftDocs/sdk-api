@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_10
-title: PSS_HANDLE_ENTRY
+title: PSS_HANDLE_ENTRY (processsnapshot.h)
 author: windows-sdk-content
 description: Holds information about a handle returned by PssWalkSnapshot.
 old-location: proc_snap\pss_handle_entry.htm

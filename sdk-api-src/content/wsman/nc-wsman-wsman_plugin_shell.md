@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SHELL
-title: WSMAN_PLUGIN_SHELL
+title: WSMAN_PLUGIN_SHELL (wsman.h)
 author: windows-sdk-content
 description: Defines the shell callback for a plug-in.
 old-location: winrm\wsman_plugin_shell.htm

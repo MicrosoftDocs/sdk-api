@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCapture
-title: IAdvancedMediaCapture
+title: IAdvancedMediaCapture (mfmediacapture.h)
 author: windows-sdk-content
 description: Enables advanced media capture.
 old-location: mf\iadvancedmediacapture.htm

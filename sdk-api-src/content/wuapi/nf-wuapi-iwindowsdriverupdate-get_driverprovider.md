@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverProvider
-title: IWindowsDriverUpdate::get_DriverProvider
+title: IWindowsDriverUpdate::get_DriverProvider (wuapi.h)
 author: windows-sdk-content
 description: Gets the language-invariant name of the provider of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driverprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_PRIORITY_TYPE_ENUM
-title: FAX_PRIORITY_TYPE_ENUM
+title: FAX_PRIORITY_TYPE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_PRIORITY_TYPE_ENUM enumeration defines the types of priorities for outbound faxes.
 old-location: fax\_mfax_fax_priority_type_enum.htm

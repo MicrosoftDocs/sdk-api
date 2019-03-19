@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ComboBox_GetCueBannerText
-title: ComboBox_GetCueBannerText macro
+title: ComboBox_GetCueBannerText macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the cue banner text displayed in the edit control of a combo box. Use this macro or send the CB_GETCUEBANNER message explicitly.
 old-location: controls\ComboBox_GetCueBannerText.htm

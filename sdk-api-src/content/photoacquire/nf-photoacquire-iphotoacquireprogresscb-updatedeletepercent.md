@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateDeletePercent
-title: IPhotoAcquireProgressCB::UpdateDeletePercent
+title: IPhotoAcquireProgressCB::UpdateDeletePercent (photoacquire.h)
 author: windows-sdk-content
 description: The UpdateDeletePercent method provides extended functionality when the percentage of items deleted changes. The application provides the implementation of the UpdateDeletePercent method.
 old-location: picacq\iphotoacquireprogresscb_updatedeletepercent.htm

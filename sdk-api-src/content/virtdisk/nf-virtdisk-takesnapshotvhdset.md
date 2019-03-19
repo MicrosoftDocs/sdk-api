@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.TakeSnapshotVhdSet
-title: TakeSnapshotVhdSet function
+title: TakeSnapshotVhdSet function (virtdisk.h)
 author: windows-sdk-content
 description: Creates a snapshot of the current virtual disk for VHD Set files.
 old-location: vhd\takesnapshotvhdset.htm

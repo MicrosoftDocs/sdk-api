@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchCatA
-title: StringCchCatA function
+title: StringCchCatA function (strsafe.h)
 author: windows-sdk-content
 description: Concatenates one string to another string.
 old-location: menurc\stringcchcat.htm

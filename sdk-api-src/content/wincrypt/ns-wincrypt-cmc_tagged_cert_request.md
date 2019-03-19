@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_CERT_REQUEST
-title: CMC_TAGGED_CERT_REQUEST
+title: CMC_TAGGED_CERT_REQUEST (wincrypt.h)
 author: windows-sdk-content
 description: Used in the CMC_TAGGED_REQUEST structure.
 old-location: security\cmc_tagged_cert_request.htm

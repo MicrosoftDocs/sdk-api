@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl2.GetSupportedHardwareEffects
-title: IMFVideoProcessorControl2::GetSupportedHardwareEffects
+title: IMFVideoProcessorControl2::GetSupportedHardwareEffects (mfidl.h)
 author: windows-sdk-content
 description: Returns the list of supported effects in the currently configured video processor.
 old-location: mf\imfvideoprocessorcontrol2_getsupportedhardwareeffects.htm

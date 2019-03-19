@@ -1,6 +1,6 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.RemoveCredentials
-title: IBackgroundCopyJob2::RemoveCredentials
+title: IBackgroundCopyJob2::RemoveCredentials (bits1_5.h)
 author: windows-sdk-content
 description: Removes credentials from use. The credentials must match an existing target and scheme pair that you specified using the IBackgroundCopyJob2::SetCredentials method. There is no method to retrieve the credentials you have set.
 old-location: bits\ibackgroundcopyjob2_removecredentials.htm

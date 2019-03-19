@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetCancelTimeout
-title: RpcMgmtSetCancelTimeout function
+title: RpcMgmtSetCancelTimeout function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtSetCancelTimeout function sets the lower bound on the time to wait before timing out after forwarding a cancel.
 old-location: rpc\rpcmgmtsetcanceltimeout.htm

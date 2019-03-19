@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPointerInactive
-title: IPointerInactive
+title: IPointerInactive (ocidl.h)
 author: windows-sdk-content
 description: Enables an object to remain inactive most of the time, yet still participate in interaction with the mouse, including drag and drop.
 old-location: com\ipointerinactive.htm

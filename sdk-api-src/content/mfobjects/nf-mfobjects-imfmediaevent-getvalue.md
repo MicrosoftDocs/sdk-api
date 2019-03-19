@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEvent.GetValue
-title: IMFMediaEvent::GetValue
+title: IMFMediaEvent::GetValue (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the value associated with the event, if any. The value is retrieved as a PROPVARIANT structure. The actual data type and the meaning of the value depend on the event.
 old-location: mf\imfmediaevent_getvalue.htm

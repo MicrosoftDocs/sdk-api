@@ -1,6 +1,6 @@
 ---
 UID: NF:prntvpt.PTMergeAndValidatePrintTicket
-title: PTMergeAndValidatePrintTicket function
+title: PTMergeAndValidatePrintTicket function (prntvpt.h)
 author: windows-sdk-content
 description: Merges two print tickets and returns a valid, viable print ticket.
 old-location: gdi\ptmergeandvalidateprintticket.htm

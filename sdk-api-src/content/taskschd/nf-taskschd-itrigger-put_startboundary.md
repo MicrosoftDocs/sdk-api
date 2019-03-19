@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITrigger.put_StartBoundary
-title: ITrigger::put_StartBoundary
+title: ITrigger::put_StartBoundary (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the date and time when the trigger is activated.
 old-location: taskschd\itrigger_startboundary.htm

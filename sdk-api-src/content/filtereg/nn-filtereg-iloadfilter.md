@@ -1,6 +1,6 @@
 ---
 UID: NN:filtereg.ILoadFilter
-title: ILoadFilter
+title: ILoadFilter (filtereg.h)
 author: windows-sdk-content
 description: Defines methods and properties that are implemented by the FilterRegistration object, which provides methods for loading a filter.
 old-location: search\iloadfilter.htm

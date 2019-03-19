@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Texture2D.Map
-title: ID3D10Texture2D::Map
+title: ID3D10Texture2D::Map (d3d10.h)
 author: windows-sdk-content
 description: Get a pointer to the data contained in a subresource, and deny GPU access to that subresource.
 old-location: direct3d10\id3d10texture2d_map.htm

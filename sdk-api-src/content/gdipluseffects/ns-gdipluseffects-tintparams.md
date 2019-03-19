@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluseffects.TintParams
-title: TintParams
+title: TintParams (gdipluseffects.h)
 author: windows-sdk-content
 description: A TintParams structure contains members that specify the nature of a tint adjustment to a bitmap.
 old-location: gdiplus\_gdiplus_STRUC_TintParams.htm

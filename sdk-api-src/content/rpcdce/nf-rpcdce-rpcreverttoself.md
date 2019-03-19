@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcRevertToSelf
-title: RpcRevertToSelf function
+title: RpcRevertToSelf function (rpcdce.h)
 author: windows-sdk-content
 description: After calling RpcImpersonateClient and completing any tasks that require client impersonation, the server calls RpcRevertToSelf to end impersonation and to reestablish its own security identity.
 old-location: rpc\rpcreverttoself.htm

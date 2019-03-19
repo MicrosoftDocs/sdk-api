@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.UpdateTexture
-title: IDirect3DDevice9::UpdateTexture
+title: IDirect3DDevice9::UpdateTexture (d3d9helper.h)
 author: windows-sdk-content
 description: Updates the dirty portions of a texture.
 old-location: direct3d9\idirect3ddevice9__updatetexture.htm

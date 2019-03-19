@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetMultiSzValue
-title: ResUtilSetMultiSzValue function
+title: ResUtilSetMultiSzValue function (resapi.h)
 author: windows-sdk-content
 description: Sets a multiple string value in the cluster database. The PRESUTIL_SET_MULTI_SZ_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetmultiszvalue.htm

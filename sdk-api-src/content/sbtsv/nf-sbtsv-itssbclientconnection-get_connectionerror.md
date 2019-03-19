@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_ConnectionError
-title: ITsSbClientConnection::get_ConnectionError
+title: ITsSbClientConnection::get_ConnectionError (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the error that occurred while a client connection was being processed.
 old-location: termserv\itssbclientconnection_connectionerror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionSquadV
-title: XMQuaternionSquadV function
+title: XMQuaternionSquadV function (directxmath.h)
 author: windows-sdk-content
 description: Interpolates between four unit quaternions, using spherical quadrangle interpolation.
 old-location: dxmath\xmquaternionsquadv.htm

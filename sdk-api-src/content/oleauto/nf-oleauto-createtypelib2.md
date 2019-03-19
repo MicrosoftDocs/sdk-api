@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.CreateTypeLib2
-title: CreateTypeLib2 function
+title: CreateTypeLib2 function (oleauto.h)
 author: windows-sdk-content
 description: Creates a type library in the current file format.
 old-location: automat\createtypelib2.htm

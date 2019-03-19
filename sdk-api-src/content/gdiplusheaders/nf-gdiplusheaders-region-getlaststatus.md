@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.GetLastStatus
-title: Region::GetLastStatus
+title: Region::GetLastStatus (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::GetLastStatus method returns a value that indicates the nature of this Regionobject's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetLastStatus_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.SetProperty
-title: ITextPara2::SetProperty
+title: ITextPara2::SetProperty (tom.h)
 author: windows-sdk-content
 description: Sets the property value.
 old-location: controls\itextpara2_setproperty.htm

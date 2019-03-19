@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegEnumValueW
-title: RegEnumValueW function
+title: RegEnumValueW function (winreg.h)
 author: windows-sdk-content
 description: Enumerates the values for the specified open registry key. The function copies one indexed value name and data block for the key each time it is called.
 old-location: base\regenumvalue.htm

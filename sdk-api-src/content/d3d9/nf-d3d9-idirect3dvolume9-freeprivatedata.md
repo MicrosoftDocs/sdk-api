@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.FreePrivateData
-title: IDirect3DVolume9::FreePrivateData
+title: IDirect3DVolume9::FreePrivateData (d3d9.h)
 author: windows-sdk-content
 description: Frees the specified private data associated with this volume.
 old-location: direct3d9\idirect3dvolume9__freeprivatedata.htm

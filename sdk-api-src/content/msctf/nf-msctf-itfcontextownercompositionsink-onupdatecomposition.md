@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnUpdateComposition
-title: ITfContextOwnerCompositionSink::OnUpdateComposition
+title: ITfContextOwnerCompositionSink::OnUpdateComposition (msctf.h)
 author: windows-sdk-content
 description: ITfContextOwnerCompositionSink::OnUpdateComposition method
 old-location: tsf\itfcontextownercompositionsink_onupdatecomposition.htm

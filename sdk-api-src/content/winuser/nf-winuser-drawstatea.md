@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawStateA
-title: DrawStateA function
+title: DrawStateA function (winuser.h)
 author: windows-sdk-content
 description: The DrawState function displays an image and applies a visual effect to indicate a state, such as a disabled or default state.
 old-location: gdi\drawstate.htm

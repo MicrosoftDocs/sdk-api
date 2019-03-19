@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_SetExtendedUI
-title: ComboBox_SetExtendedUI macro
+title: ComboBox_SetExtendedUI macro (windowsx.h)
 author: windows-sdk-content
 description: Selects either the default user interface (UI) or the extended UI for a combo box that has the CBS_DROPDOWN or CBS_DROPDOWNLIST style. You can use this macro or send the CB_SETEXTENDEDUI message explicitly.
 old-location: controls\ComboBox_SetExtendedUI.htm

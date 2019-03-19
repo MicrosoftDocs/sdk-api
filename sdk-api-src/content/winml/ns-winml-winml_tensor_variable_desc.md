@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_TENSOR_VARIABLE_DESC
-title: WINML_TENSOR_VARIABLE_DESC
+title: WINML_TENSOR_VARIABLE_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the tensor variable.
 old-location: machinelearning\winml_tensor_variable_desc.htm

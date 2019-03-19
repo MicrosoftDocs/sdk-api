@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetViewportExtEx
-title: GetViewportExtEx function
+title: GetViewportExtEx function (wingdi.h)
 author: windows-sdk-content
 description: The GetViewportExtEx function retrieves the x-extent and y-extent of the current viewport for the specified device context.
 old-location: gdi\getviewportextex.htm

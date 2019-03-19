@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dcompiler._D3D_SHADER_DATA
-title: D3D_SHADER_DATA
+title: D3D_SHADER_DATA (d3dcompiler.h)
 author: windows-sdk-content
 description: Describes shader data.
 old-location: direct3dhlsl\d3d_shader_data.htm

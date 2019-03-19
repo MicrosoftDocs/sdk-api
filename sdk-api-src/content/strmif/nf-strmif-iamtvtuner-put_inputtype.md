@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVTuner.put_InputType
-title: IAMTVTuner::put_InputType
+title: IAMTVTuner::put_InputType (strmif.h)
 author: windows-sdk-content
 description: The put_InputType method sets the tuner input type (cable or antenna).
 old-location: dshow\iamtvtuner_put_inputtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRELLIPSE
-title: EMRELLIPSE
+title: EMRELLIPSE (wingdi.h)
 author: windows-sdk-content
 description: The EMRELLIPSE and EMRRECTANGLE structures contain members for the Ellipse and Rectangle enhanced metafile records.
 old-location: gdi\emrellipse__emrrectangle.htm

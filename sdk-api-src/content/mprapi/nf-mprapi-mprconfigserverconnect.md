@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigServerConnect
-title: MprConfigServerConnect function
+title: MprConfigServerConnect function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigServerConnect function connects to the router to be configured.
 old-location: rras\mprconfigserverconnect.htm

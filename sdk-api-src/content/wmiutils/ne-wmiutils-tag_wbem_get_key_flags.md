@@ -1,6 +1,6 @@
 ---
 UID: NE:wmiutils.tag_WBEM_GET_KEY_FLAGS
-title: tag_WBEM_GET_KEY_FLAGS
+title: tag_WBEM_GET_KEY_FLAGS (wmiutils.h)
 author: windows-sdk-content
 description: Contains flags which control the format of the text.
 old-location: wmi\tag_wbem_get_key_flags.htm

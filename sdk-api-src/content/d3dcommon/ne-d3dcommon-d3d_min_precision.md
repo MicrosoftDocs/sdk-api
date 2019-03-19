@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_MIN_PRECISION
-title: D3D_MIN_PRECISION
+title: D3D_MIN_PRECISION (d3dcommon.h)
 author: windows-sdk-content
 description: Values that indicate the minimum desired interpolation precision.
 old-location: direct3d11\d3d_min_precision.htm

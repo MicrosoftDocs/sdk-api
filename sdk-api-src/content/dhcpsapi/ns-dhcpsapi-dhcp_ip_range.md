@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RANGE
-title: DHCP_IP_RANGE
+title: DHCP_IP_RANGE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_IP_RANGE structure defines a range of IP addresses.
 old-location: dhcp\dhcp_ip_range.htm

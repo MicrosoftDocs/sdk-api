@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveEventHandler
-title: IDirectManipulationViewport::RemoveEventHandler
+title: IDirectManipulationViewport::RemoveEventHandler (directmanipulation.h)
 author: windows-sdk-content
 description: Removes an existing event handler from the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removeeventhandler.htm

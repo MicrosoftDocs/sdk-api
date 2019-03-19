@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetConfigEntry
-title: ICertAdmin2::GetConfigEntry
+title: ICertAdmin2::GetConfigEntry (certadm.h)
 author: windows-sdk-content
 description: Retrieves configuration information for a certification authority (CA).
 old-location: security\icertadmin2_getconfigentry.htm

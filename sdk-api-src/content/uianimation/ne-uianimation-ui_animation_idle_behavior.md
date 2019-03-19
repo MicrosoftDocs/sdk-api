@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0012_0001
-title: UI_ANIMATION_IDLE_BEHAVIOR
+title: UI_ANIMATION_IDLE_BEHAVIOR (uianimation.h)
 author: windows-sdk-content
 description: Defines the behavior of a timer when the animation manager is idle.
 old-location: uianimation\ui_animation_idle_behavior.htm

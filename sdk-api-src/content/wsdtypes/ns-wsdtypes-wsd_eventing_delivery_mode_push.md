@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_DELIVERY_MODE_PUSH
-title: WSD_EVENTING_DELIVERY_MODE_PUSH
+title: WSD_EVENTING_DELIVERY_MODE_PUSH (wsdtypes.h)
 author: windows-sdk-content
 description: Represents the endpoint reference used for push delivery of events in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode_push.htm

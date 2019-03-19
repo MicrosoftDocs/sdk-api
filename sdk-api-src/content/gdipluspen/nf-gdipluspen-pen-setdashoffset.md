@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetDashOffset
-title: Pen::SetDashOffset
+title: Pen::SetDashOffset (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetDashOffset method sets the distance from the start of the line to the start of the first dash in a dashed line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashOffset_dashOffset_.htm

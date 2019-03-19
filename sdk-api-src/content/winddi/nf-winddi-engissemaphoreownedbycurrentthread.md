@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngIsSemaphoreOwnedByCurrentThread
-title: EngIsSemaphoreOwnedByCurrentThread function
+title: EngIsSemaphoreOwnedByCurrentThread function (winddi.h)
 author: windows-sdk-content
 description: The EngIsSemaphoreOwnedByCurrentThread function determines whether the currently executing thread holds the specified semaphore.
 old-location: display\engissemaphoreownedbycurrentthread.htm

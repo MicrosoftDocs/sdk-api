@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetNamespaces
-title: ISettingsContext::GetNamespaces
+title: ISettingsContext::GetNamespaces (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the namespaces that exist in the context.
 old-location: smi\isettingscontext_getnamespaces.htm

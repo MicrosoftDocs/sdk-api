@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.EndFigure
-title: ID2D1SimplifiedGeometrySink::EndFigure
+title: ID2D1SimplifiedGeometrySink::EndFigure (d2d1.h)
 author: windows-sdk-content
 description: Ends the current figure; optionally, closes it.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_EndFigure.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.SCODE_CODE
-title: SCODE_CODE macro
+title: SCODE_CODE macro (winerror.h)
 author: windows-sdk-content
 description: Extracts the code portion of the specified SCODE.
 old-location: com\scode_code_macro.htm

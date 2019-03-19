@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetRecommendedRenderingMode
-title: IDWriteFontFace3::GetRecommendedRenderingMode
+title: IDWriteFontFace3::GetRecommendedRenderingMode (dwrite_3.h)
 author: windows-sdk-content
 description: Determines the recommended text rendering and grid-fit mode to be used based on the font, size, world transform, and measuring mode.
 old-location: directwrite\idwritefontface3_getrecommendedrenderingmode.htm

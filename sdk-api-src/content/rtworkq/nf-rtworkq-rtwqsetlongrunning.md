@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqSetLongRunning
-title: RtwqSetLongRunning function
+title: RtwqSetLongRunning function (rtworkq.h)
 author: windows-sdk-content
 description: Indicates that the app will be submitting a hint that long running work will occur on this work queue.
 old-location: base\rtwqsetlongrunning.htm

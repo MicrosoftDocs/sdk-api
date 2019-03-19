@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcEpUnregister
-title: RpcEpUnregister function
+title: RpcEpUnregister function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcEpUnregister function removes server-address information from the local endpoint-map database.
 old-location: rpc\rpcepunregister.htm

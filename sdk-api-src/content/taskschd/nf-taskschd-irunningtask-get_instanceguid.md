@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.get_InstanceGuid
-title: IRunningTask::get_InstanceGuid
+title: IRunningTask::get_InstanceGuid (taskschd.h)
 author: windows-sdk-content
 description: Gets the GUID identifier for this instance of the task.
 old-location: taskschd\irunningtask_instanceguid.htm

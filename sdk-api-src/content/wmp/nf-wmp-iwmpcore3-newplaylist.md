@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore3.newPlaylist
-title: IWMPCore3::newPlaylist
+title: IWMPCore3::newPlaylist (wmp.h)
 author: windows-sdk-content
 description: The newPlaylist method retrieves a pointer to an IWMPPlaylist interface for a new playlist.
 old-location: wmp\iwmpcore3_newplaylist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetZoomBoundaries
-title: IDirectManipulationPrimaryContent::SetZoomBoundaries
+title: IDirectManipulationPrimaryContent::SetZoomBoundaries (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the minimum and maximum boundaries for zoom.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setzoomboundaries.htm

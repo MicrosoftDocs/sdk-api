@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Version_Available
-title: CM_Is_Version_Available function
+title: CM_Is_Version_Available function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Is_Version_Available function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) is supported by a local machine.
 old-location: devinst\cm_is_version_available.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Flush
-title: Graphics::Flush
+title: Graphics::Flush (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::Flush method flushes all pending graphics operations.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Flush_intention_.htm

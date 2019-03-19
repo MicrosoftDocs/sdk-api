@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetKeyboardType
-title: GetKeyboardType function
+title: GetKeyboardType function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the current keyboard.
 old-location: inputdev\getkeyboardtype.htm

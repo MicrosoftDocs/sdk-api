@@ -1,6 +1,6 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_LISTENER
-title: X3DAUDIO_LISTENER
+title: X3DAUDIO_LISTENER (x3daudio.h)
 author: windows-sdk-content
 description: Defines a point of 3D audio reception.
 old-location: xaudio2\x3daudio_listener.htm

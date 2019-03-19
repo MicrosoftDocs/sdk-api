@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.tagCaptureParms
-title: CAPTUREPARMS
+title: CAPTUREPARMS (vfw.h)
 author: windows-sdk-content
 description: The CAPTUREPARMS structure contains parameters that control the streaming video capture process. This structure is used to get and set parameters that affect the capture rate, the number of buffers to use while capturing, and how capture is terminated.
 old-location: multimedia\captureparms.htm

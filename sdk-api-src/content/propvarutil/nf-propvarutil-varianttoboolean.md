@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToBoolean
-title: VariantToBoolean function
+title: VariantToBoolean function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts the value of a Boolean property from a VARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToBoolean.htm

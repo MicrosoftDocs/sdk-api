@@ -1,6 +1,6 @@
 ---
 UID: NC:minidumpapiset.MINIDUMP_CALLBACK_ROUTINE
-title: MINIDUMP_CALLBACK_ROUTINE
+title: MINIDUMP_CALLBACK_ROUTINE (minidumpapiset.h)
 author: windows-sdk-content
 description: An application-defined callback function used with MiniDumpWriteDump. It receives extended minidump information.
 old-location: base\minidumpcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi.DXGI_SWAP_CHAIN_FLAG
-title: DXGI_SWAP_CHAIN_FLAG
+title: DXGI_SWAP_CHAIN_FLAG (dxgi.h)
 author: windows-sdk-content
 description: Options for swap-chain behavior.
 old-location: direct3ddxgi\DXGI_SWAP_CHAIN_FLAG.htm

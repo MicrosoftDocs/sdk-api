@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._COMMPROP
-title: COMMPROP
+title: COMMPROP (winbase.h)
 author: windows-sdk-content
 description: Contains information about a communications driver.
 old-location: base\commprop_str.htm

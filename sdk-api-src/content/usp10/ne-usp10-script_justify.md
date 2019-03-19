@@ -1,6 +1,6 @@
 ---
 UID: NE:usp10.tag_SCRIPT_JUSTIFY
-title: SCRIPT_JUSTIFY
+title: SCRIPT_JUSTIFY (usp10.h)
 author: windows-sdk-content
 description: Defines glyph characteristic information that an application needs to implement justification.
 old-location: intl\script_justify.htm

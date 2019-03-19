@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTVDISPINFOEXA
-title: NMTVDISPINFOEXA
+title: NMTVDISPINFOEXA (commctrl.h)
 author: windows-sdk-content
 description: Contains information pertaining to extended TreeView notification information.
 old-location: controls\NMTVDISPINFOEX.htm

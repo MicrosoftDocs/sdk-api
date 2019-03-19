@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalkCB.FoundItem
-title: INamespaceWalkCB::FoundItem
+title: INamespaceWalkCB::FoundItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when an object is found in the namespace during a namespace walk. Use this method as the main action function for the class implementing it. Perform your actions as needed inside this method.
 old-location: shell\INamespaceWalkCB_FoundItem.htm

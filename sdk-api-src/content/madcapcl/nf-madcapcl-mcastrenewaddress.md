@@ -1,6 +1,6 @@
 ---
 UID: NF:madcapcl.McastRenewAddress
-title: McastRenewAddress function
+title: McastRenewAddress function (madcapcl.h)
 author: windows-sdk-content
 description: The McastRenewAddress function renews one or more multicast addresses from a MADCAP server.
 old-location: madcap\mcastrenewaddress.htm

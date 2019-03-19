@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbServiceDescriptor
-title: IDvbServiceDescriptor
+title: IDvbServiceDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor.htm

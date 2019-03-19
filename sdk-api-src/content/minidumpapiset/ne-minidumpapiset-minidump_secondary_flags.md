@@ -1,6 +1,6 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_SECONDARY_FLAGS
-title: MINIDUMP_SECONDARY_FLAGS
+title: MINIDUMP_SECONDARY_FLAGS (minidumpapiset.h)
 author: windows-sdk-content
 description: Specifies the secondary flags for the minidump.
 old-location: base\minidump_secondary_flags.htm

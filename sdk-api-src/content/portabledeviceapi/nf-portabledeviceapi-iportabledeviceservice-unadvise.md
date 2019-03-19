@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Unadvise
-title: IPortableDeviceService::Unadvise
+title: IPortableDeviceService::Unadvise (portabledeviceapi.h)
 author: windows-sdk-content
 description: Unregisters a service event callback object.
 old-location: wpdsdk\iportabledeviceservice_unadvise.htm

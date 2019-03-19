@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._EXCEPTION_RECORD
-title: EXCEPTION_RECORD
+title: EXCEPTION_RECORD (winnt.h)
 author: windows-sdk-content
 description: Describes an exception.
 old-location: base\exception_record_str.htm

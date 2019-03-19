@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.EndRead
-title: IMFByteStream::EndRead
+title: IMFByteStream::EndRead (mfobjects.h)
 author: windows-sdk-content
 description: Completes an asynchronous read operation.
 old-location: mf\imfbytestream_endread.htm

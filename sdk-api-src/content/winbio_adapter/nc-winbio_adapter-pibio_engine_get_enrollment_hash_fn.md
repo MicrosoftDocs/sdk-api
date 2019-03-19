@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN
-title: PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN
+title: PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves the hash of the completed enrollment template in the pipeline.
 old-location: secbiomet\engineadaptergetenrollmenthash.htm

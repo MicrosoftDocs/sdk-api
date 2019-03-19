@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer2.get_TftpManager
-title: IWdsTransportServer2::get_TftpManager
+title: IWdsTransportServer2::get_TftpManager (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a pointer to the object of the IWdsTransportTftpManager interface used to manage the WDS TFTP server.
 old-location: wds\iwdstransportserver2_tftpmanager.htm

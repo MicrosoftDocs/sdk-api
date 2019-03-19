@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComObjectEvents
-title: IComObjectEvents
+title: IComObjectEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if an instance of a just-in-time (JIT) activated object has been created or freed.
 old-location: cos\icomobjectevents.htm

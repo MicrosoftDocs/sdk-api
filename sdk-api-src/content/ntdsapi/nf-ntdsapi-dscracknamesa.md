@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsCrackNamesA
-title: DsCrackNamesA function
+title: DsCrackNamesA function (ntdsapi.h)
 author: windows-sdk-content
 description: Converts an array of directory service object names from one format to another.
 old-location: ad\dscracknames.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_IsA
-title: MI_Instance_IsA function
+title: MI_Instance_IsA function (mi.h)
 author: windows-sdk-content
 description: Determines if the instance self is an instance of the class given by classDecl.
 old-location: wmi_v2\mi_instance_isa.htm

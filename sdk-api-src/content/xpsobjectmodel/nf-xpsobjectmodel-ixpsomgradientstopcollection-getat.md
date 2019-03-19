@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetAt
-title: IXpsOMGradientStopCollection::GetAt
+title: IXpsOMGradientStopCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMGradientStop interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_getat.htm

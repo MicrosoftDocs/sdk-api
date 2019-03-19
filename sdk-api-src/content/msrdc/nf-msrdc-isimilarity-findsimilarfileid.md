@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarity.FindSimilarFileId
-title: ISimilarity::FindSimilarFileId
+title: ISimilarity::FindSimilarFileId (msrdc.h)
 author: windows-sdk-content
 description: Returns a list of files that are similar to a given file.
 old-location: rdc\isimilarity_findsimilarfileid.htm

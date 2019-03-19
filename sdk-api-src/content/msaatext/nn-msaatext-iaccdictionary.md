@@ -1,6 +1,6 @@
 ---
 UID: NN:msaatext.IAccDictionary
-title: IAccDictionary
+title: IAccDictionary (msaatext.h)
 author: windows-sdk-content
 description: Exposes methods for string manipulation.
 old-location: winauto\iaccdictionary.htm

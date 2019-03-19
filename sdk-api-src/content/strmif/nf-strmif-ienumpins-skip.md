@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumPins.Skip
-title: IEnumPins::Skip
+title: IEnumPins::Skip (strmif.h)
 author: windows-sdk-content
 description: The Skip method skips over a specified number of pins.
 old-location: dshow\ienumpins_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_SYNTAX
-title: STRUCTURED_QUERY_SYNTAX
+title: STRUCTURED_QUERY_SYNTAX (structuredquery.h)
 author: windows-sdk-content
 description: Specifies the type of query syntax.
 old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm

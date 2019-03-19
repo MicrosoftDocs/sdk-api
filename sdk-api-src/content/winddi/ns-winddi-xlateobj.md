@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._XLATEOBJ
-title: XLATEOBJ
+title: XLATEOBJ (winddi.h)
 author: windows-sdk-content
 description: The XLATEOBJ structure is used to translate color indexes from one palette to another.
 old-location: display\xlateobj.htm

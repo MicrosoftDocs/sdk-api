@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_104
-title: WS_METADATA_PROPERTY_ID
+title: WS_METADATA_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Each metadata property is of type WS_METADATA_PROPERTY, is identified by an ID, and has an associated value. If a property is not specified when the metadata is created, then its default value is used.
 old-location: wsw\ws_metadata_property_id.htm

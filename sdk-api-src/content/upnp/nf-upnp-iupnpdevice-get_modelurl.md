@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ModelURL
-title: IUPnPDevice::get_ModelURL
+title: IUPnPDevice::get_ModelURL (upnp.h)
 author: windows-sdk-content
 description: The ModelURL property specifies the URL for a Web page that contains model-specific information for the device.
 old-location: upnp\iupnpdevice_modelurl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Child_Ex
-title: CM_Get_Child_Ex function
+title: CM_Get_Child_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Child_Ex function is used to retrieve a device instance handle to the first child node of a specified device node (devnode) in a local or a remote machine's device tree.
 old-location: devinst\cm_get_child_ex.htm

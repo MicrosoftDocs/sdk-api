@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.SupportSeeking
-title: IMediaStreamFilter::SupportSeeking
+title: IMediaStreamFilter::SupportSeeking (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SupportSeeking method initializes the filter to support seeking. The multimedia stream object calls this method.
 old-location: dshow\imediastreamfilter_supportseeking.htm

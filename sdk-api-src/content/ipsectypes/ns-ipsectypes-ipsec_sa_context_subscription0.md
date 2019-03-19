@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT_SUBSCRIPTION0_
-title: IPSEC_SA_CONTEXT_SUBSCRIPTION0
+title: IPSEC_SA_CONTEXT_SUBSCRIPTION0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores information used to subscribe to notifications about a particular IPsec security association (SA) context.
 old-location: fwp\ipsec_sa_context_subscription0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCustomTone.put_Volume
-title: ITCustomTone::put_Volume
+title: ITCustomTone::put_Volume (tapi3if.h)
 author: windows-sdk-content
 description: The put_Volume method sets the volume level at which to generate the tone.
 old-location: tapi3\itcustomtone_put_volume.htm

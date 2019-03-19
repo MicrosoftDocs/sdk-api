@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.CommitAndUpdateDerived
-title: IFsrmFileScreenTemplate::CommitAndUpdateDerived
+title: IFsrmFileScreenTemplate::CommitAndUpdateDerived (fsrmscreen.h)
 author: windows-sdk-content
 description: Saves the file screen template and then applies any changes to the derived file screen objects.
 old-location: fsrm\ifsrmfilescreentemplate_commitandupdatederived.htm

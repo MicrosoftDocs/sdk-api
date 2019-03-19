@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolLicenseConnection
-title: IWTSProtocolLicenseConnection
+title: IWTSProtocolLicenseConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLicenseConnection is no longer available. Instead, use IWRdsProtocolLicenseConnection.
 old-location: termserv\iwtsprotocollicenseconnection.htm

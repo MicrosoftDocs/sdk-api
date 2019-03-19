@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.EnumObjects
-title: IPortableDeviceContent::EnumObjects
+title: IPortableDeviceContent::EnumObjects (portabledeviceapi.h)
 author: windows-sdk-content
 description: The EnumObjects method retrieves an interface that is used to enumerate the immediate child objects of an object. It has an optional filter that can enumerate objects with specific properties.
 old-location: wpdsdk\iportabledevicecontent_enumobjects.htm

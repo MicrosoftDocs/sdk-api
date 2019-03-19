@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib._TCPIP_OWNER_MODULE_BASIC_INFO
-title: TCPIP_OWNER_MODULE_BASIC_INFO
+title: TCPIP_OWNER_MODULE_BASIC_INFO (iprtrmib.h)
 author: windows-sdk-content
 description: Contains pointers to the module name and module path values associated with a TCP connection. The TCPIP_OWNER_MODULE_BASIC_INFO structure is returned by the GetOwnerModuleFromTcpEntry and GetOwnerModuleFromTcp6Entry functions.
 old-location: iphlp\tcpip_owner_module_basic_info.htm

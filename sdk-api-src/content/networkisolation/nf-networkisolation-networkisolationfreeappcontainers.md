@@ -1,6 +1,6 @@
 ---
 UID: NF:networkisolation.NetworkIsolationFreeAppContainers
-title: NetworkIsolationFreeAppContainers function
+title: NetworkIsolationFreeAppContainers function (networkisolation.h)
 author: windows-sdk-content
 description: Used to release memory resources allocated to one or more app containers.
 old-location: ics\networkisolationfreeappcontainers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoGetCurrentProcess
-title: CoGetCurrentProcess function
+title: CoGetCurrentProcess function (combaseapi.h)
 author: windows-sdk-content
 description: Returns a value that is unique to the current thread. CoGetCurrentProcess can be used to avoid thread ID reuse problems.
 old-location: com\cogetcurrentprocess.htm

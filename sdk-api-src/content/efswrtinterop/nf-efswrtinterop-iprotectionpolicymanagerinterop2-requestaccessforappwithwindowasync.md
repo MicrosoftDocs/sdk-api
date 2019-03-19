@@ -1,6 +1,6 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
-title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync
+title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync (efswrtinterop.h)
 author: windows-sdk-content
 description: Request access to enterprise-protected content for a specific target app.
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithwindowasync.htm

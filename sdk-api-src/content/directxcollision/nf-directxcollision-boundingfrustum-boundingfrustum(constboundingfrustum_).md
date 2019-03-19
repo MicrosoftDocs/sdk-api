@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(const BoundingFrustum &)
-title: BoundingFrustum::BoundingFrustum(const BoundingFrustum &)
+title: BoundingFrustum::BoundingFrustum(const BoundingFrustum &) (directxcollision.h)
 author: windows-sdk-content
 description: Creates an instance of BoundingFrustum.
 old-location: dxmath\boundingfrustum_ctor_3.htm

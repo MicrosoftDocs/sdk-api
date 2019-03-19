@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.GetSessionKey
-title: CSecureChannelServer::GetSessionKey
+title: CSecureChannelServer::GetSessionKey (scserver.h)
 author: windows-sdk-content
 description: The GetSessionKey method retrieves the current session key that is used for encryption and decryption. This method is published and available, but normally is used only by Windows Media Device Manager.
 old-location: wmdm\csecurechannelserver_getsessionkey.htm

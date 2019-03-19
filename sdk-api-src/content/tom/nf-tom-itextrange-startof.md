@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.StartOf
-title: ITextRange::StartOf
+title: ITextRange::StartOf (tom.h)
 author: windows-sdk-content
 description: Moves the range ends to the start of the first overlapping Unit in the range.
 old-location: controls\ITextRange_StartOf.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Clone
-title: IEnumSearchScopeRules::Clone
+title: IEnumSearchScopeRules::Clone (searchapi.h)
 author: windows-sdk-content
 description: Creates a copy of this IEnumSearchScopeRules object with the same contents and state as the current one.
 old-location: search\_search_IEnumSearchScopeRules_Clone.htm

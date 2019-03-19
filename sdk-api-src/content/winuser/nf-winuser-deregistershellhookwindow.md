@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DeregisterShellHookWindow
-title: DeregisterShellHookWindow function
+title: DeregisterShellHookWindow function (winuser.h)
 author: windows-sdk-content
 description: Unregisters a specified Shell window that is registered to receive Shell hook messages.
 old-location: winmsg\deregistershellhookwindow.htm

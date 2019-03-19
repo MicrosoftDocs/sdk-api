@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptUnregisterOIDInfo
-title: CryptUnregisterOIDInfo function
+title: CryptUnregisterOIDInfo function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptUnregisterOIDInfo function removes the registration of a specified CRYPT_OID_INFO OID information structure. The structure to be unregistered is identified by the structure's pszOID and dwGroupId members.
 old-location: security\cryptunregisteroidinfo.htm

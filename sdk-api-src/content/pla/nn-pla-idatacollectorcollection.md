@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IDataCollectorCollection
-title: IDataCollectorCollection
+title: IDataCollectorCollection (pla.h)
 author: windows-sdk-content
 description: Manages a collection of DataCollector objects.To get this interface, access the IDataCollectorSet::DataCollectors property.
 old-location: pla\idatacollectorcollection.htm

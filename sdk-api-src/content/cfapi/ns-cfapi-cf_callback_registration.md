@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_REGISTRATION
-title: CF_CALLBACK_REGISTRATION
+title: CF_CALLBACK_REGISTRATION (cfapi.h)
 author: windows-sdk-content
 description: The callbacks to be registered by the sync provider.
 old-location: cloudapi\cf_callback_registration.htm

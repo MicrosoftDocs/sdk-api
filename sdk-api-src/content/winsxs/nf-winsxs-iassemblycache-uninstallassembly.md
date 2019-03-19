@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCache.UninstallAssembly
-title: IAssemblyCache::UninstallAssembly
+title: IAssemblyCache::UninstallAssembly (winsxs.h)
 author: windows-sdk-content
 description: The UnistallAssembly method removes an application reference to an assembly from the side-by-side store.
 old-location: setup\iassemblycache_uninstallassembly.htm

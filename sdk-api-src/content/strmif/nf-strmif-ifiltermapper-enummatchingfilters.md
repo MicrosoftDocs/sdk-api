@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper.EnumMatchingFilters
-title: IFilterMapper::EnumMatchingFilters
+title: IFilterMapper::EnumMatchingFilters (strmif.h)
 author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Provides an enumerator that enumerates registered filters that meet specified requirements.
 old-location: dshow\ifiltermapper_enummatchingfilters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:inked.IInkEdit
-title: IInkEdit
+title: IInkEdit (inked.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkedit_.htm

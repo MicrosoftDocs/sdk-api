@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetVersionNumber
-title: IISDB_CDT::GetVersionNumber
+title: IISDB_CDT::GetVersionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getversionnumber.htm

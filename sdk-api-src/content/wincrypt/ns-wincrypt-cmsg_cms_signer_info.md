@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CMS_SIGNER_INFO
-title: CMSG_CMS_SIGNER_INFO
+title: CMSG_CMS_SIGNER_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the content of the defined SignerInfo in signed or signed and enveloped messages.
 old-location: security\cmsg_cms_signer_info.htm

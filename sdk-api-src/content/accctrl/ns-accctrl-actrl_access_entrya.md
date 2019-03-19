@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._ACTRL_ACCESS_ENTRYA
-title: ACTRL_ACCESS_ENTRYA
+title: ACTRL_ACCESS_ENTRYA (accctrl.h)
 author: windows-sdk-content
 description: Contains access-control information for a specified trustee. This structure stores information equivalent to the access-control information stored in an ACE.
 old-location: com\actrl_access_entry.htm

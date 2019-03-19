@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderReadContent
-title: WdsTransportProviderReadContent function
+title: WdsTransportProviderReadContent function (wdstpdi.h)
 author: windows-sdk-content
 description: Reads content from an open content stream.
 old-location: wds\wdstransportproviderreadcontent.htm

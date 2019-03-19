@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetForeColor
-title: ITextFont::SetForeColor
+title: ITextFont::SetForeColor (tom.h)
 author: windows-sdk-content
 description: Sets the foreground (text) color.
 old-location: controls\ITextFont_SetForeColor.htm

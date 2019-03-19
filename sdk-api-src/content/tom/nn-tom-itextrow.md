@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextRow
-title: ITextRow
+title: ITextRow (tom.h)
 author: windows-sdk-content
 description: The ITextRow interface provides methods to insert one or more identical table rows, and to retrieve and change table row properties. To insert nonidentical rows, call ITextRow::Insert for each different row configuration.
 old-location: controls\itextrow.htm

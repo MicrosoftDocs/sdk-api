@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.GetCount
-title: ISyncMgrConflictStore::GetCount
+title: ISyncMgrConflictStore::GetCount (syncmgr.h)
 author: windows-sdk-content
 description: Gets the number of conflicts in the store.
 old-location: shell\ISyncMgrConflictStore_GetCount.htm

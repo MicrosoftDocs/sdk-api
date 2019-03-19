@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetOverhangMetrics
-title: IDWriteTextLayout::GetOverhangMetrics
+title: IDWriteTextLayout::GetOverhangMetrics (dwrite.h)
 author: windows-sdk-content
 description: Returns the overhangs (in DIPs) of the layout and all objects contained in it, including text glyphs and inline objects.
 old-location: directwrite\idwritetextlayout_getoverhangmetrics.htm

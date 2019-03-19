@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.CreateUserBatch
-title: IDiskQuotaControl::CreateUserBatch
+title: IDiskQuotaControl::CreateUserBatch (dskquota.h)
 author: windows-sdk-content
 description: Creates a batching object for optimizing updates to the quota settings of multiple users simultaneously.
 old-location: fs\idiskquotacontrol_createuserbatch.htm

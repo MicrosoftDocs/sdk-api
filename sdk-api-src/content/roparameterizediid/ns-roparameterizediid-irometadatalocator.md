@@ -1,6 +1,6 @@
 ---
 UID: NS:roparameterizediid.IRoMetaDataLocator
-title: IRoMetaDataLocator
+title: IRoMetaDataLocator (roparameterizediid.h)
 author: windows-sdk-content
 description: Enables the RoGetParameterizedTypeInstanceIID function to access run-time metadata.
 old-location: winrt\irometadatalocator_struct.htm

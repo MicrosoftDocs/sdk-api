@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetHwnd
-title: IDXGISwapChain1::GetHwnd
+title: IDXGISwapChain1::GetHwnd (dxgi1_2.h)
 author: windows-sdk-content
 description: Retrieves the underlying HWND for this swap-chain object.
 old-location: direct3ddxgi\idxgiswapchain1_gethwnd.htm

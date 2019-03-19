@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetROP2
-title: GetROP2 function
+title: GetROP2 function (wingdi.h)
 author: windows-sdk-content
 description: The GetROP2 function retrieves the foreground mix mode of the specified device context. The mix mode specifies how the pen or interior color and the color already on the screen are combined to yield a new color.
 old-location: gdi\getrop2.htm

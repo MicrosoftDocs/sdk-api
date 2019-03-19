@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.SetMultithreadProtected
-title: ID3D11Multithread::SetMultithreadProtected
+title: ID3D11Multithread::SetMultithreadProtected (d3d11_4.h)
 author: windows-sdk-content
 description: Turns multithread protection on or off.
 old-location: direct3d11\id3d11multithread_setmultithreadprotected.htm

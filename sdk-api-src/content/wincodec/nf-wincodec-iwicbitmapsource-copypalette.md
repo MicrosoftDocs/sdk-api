@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.CopyPalette
-title: IWICBitmapSource::CopyPalette
+title: IWICBitmapSource::CopyPalette (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the color table for indexed pixel formats.
 old-location: wic\_wic_codec_iwicbitmapsource_copypalette.htm

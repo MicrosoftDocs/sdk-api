@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Open
-title: IPortableDevice::Open
+title: IPortableDevice::Open (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Open method opens a connection between the application and the device.
 old-location: wpdsdk\iportabledevice_open.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1020
-title: USER_INFO_1020
+title: USER_INFO_1020 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1020 structure contains the times during which a user can log on to the network. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1020_str.htm

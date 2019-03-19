@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_DESTROYVPORT
-title: PDD_VPORTCB_DESTROYVPORT
+title: PDD_VPORTCB_DESTROYVPORT (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortDestroy callback function notifies the driver that DirectDraw has destroyed the specified VPE object.
 old-location: display\ddvideoportdestroy.htm

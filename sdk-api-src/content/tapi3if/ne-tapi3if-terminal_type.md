@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TERMINAL_TYPE
-title: TERMINAL_TYPE
+title: TERMINAL_TYPE (tapi3if.h)
 author: windows-sdk-content
 description: The TERMINAL_TYPE enum describes the type of the terminal. This enum is returned by the ITTerminal::get_TerminalType method.
 old-location: tapi3\terminal_type.htm

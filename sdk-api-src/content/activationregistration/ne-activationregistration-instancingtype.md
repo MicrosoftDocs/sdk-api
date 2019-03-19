@@ -1,6 +1,6 @@
 ---
 UID: NE:activationregistration.InstancingType
-title: InstancingType
+title: InstancingType (activationregistration.h)
 author: windows-sdk-content
 description: Represents the kind of instancing behavior for the out-of-process server.
 old-location: winrt\instancingtype.htm

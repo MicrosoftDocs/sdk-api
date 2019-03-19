@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetAntialiasMode
-title: ID2D1RenderTarget::SetAntialiasMode
+title: ID2D1RenderTarget::SetAntialiasMode (d2d1.h)
 author: windows-sdk-content
 description: Sets the antialiasing mode of the render target. The antialiasing mode applies to all subsequent drawing operations, excluding text and glyph drawing operations.
 old-location: direct2d\ID2D1RenderTarget_SetAntialiasMode.htm

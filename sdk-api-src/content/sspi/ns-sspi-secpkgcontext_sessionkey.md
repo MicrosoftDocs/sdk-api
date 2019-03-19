@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_SessionKey
-title: SecPkgContext_SessionKey
+title: SecPkgContext_SessionKey (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_SessionKey structure contains information about the session key used for the security context. This structure is returned by the QueryContextAttributes (General) function.
 old-location: security\secpkgcontext_sessionkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ISessionStateChangeTrigger.get_StateChange
-title: ISessionStateChangeTrigger::get_StateChange
+title: ISessionStateChangeTrigger::get_StateChange (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the kind of Terminal Server session change that would trigger a task launch.
 old-location: taskschd\isessionstatechangetrigger_statechange.htm

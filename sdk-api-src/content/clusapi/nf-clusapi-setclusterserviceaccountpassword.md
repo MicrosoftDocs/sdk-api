@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterServiceAccountPassword
-title: SetClusterServiceAccountPassword function
+title: SetClusterServiceAccountPassword function (clusapi.h)
 author: windows-sdk-content
 description: Changes the password for the Cluster service user account on all available cluster nodes.
 old-location: mscs\setclusterserviceaccountpassword.htm

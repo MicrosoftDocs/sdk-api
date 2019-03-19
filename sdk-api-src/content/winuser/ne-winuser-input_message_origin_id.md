@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagINPUT_MESSAGE_ORIGIN_ID
-title: INPUT_MESSAGE_ORIGIN_ID
+title: INPUT_MESSAGE_ORIGIN_ID (winuser.h)
 author: windows-sdk-content
 description: The ID of the input message source.
 old-location: input_sourceid\input_message_origin_id.htm

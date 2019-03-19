@@ -1,6 +1,6 @@
 ---
 UID: NN:iwstdec.IAMWstDecoder
-title: IAMWstDecoder
+title: IAMWstDecoder (iwstdec.h)
 author: windows-sdk-content
 description: The IAMWstDecoder interface sets and retrieves information about World Standard Teletext (WST). The WST Decoder filter implements this interface.
 old-location: dshow\iamwstdecoder.htm

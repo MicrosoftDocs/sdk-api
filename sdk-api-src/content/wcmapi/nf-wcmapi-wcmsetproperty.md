@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmapi.WcmSetProperty
-title: WcmSetProperty function
+title: WcmSetProperty function (wcmapi.h)
 author: windows-sdk-content
 description: Sets the value of a WCM property.
 old-location: wcm\wcmsetproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRFILLRGN
-title: EMRFILLRGN
+title: EMRFILLRGN (wingdi.h)
 author: windows-sdk-content
 description: The EMRFILLRGN structure contains members for the FillRgn enhanced metafile record.
 old-location: gdi\emrfillrgn.htm

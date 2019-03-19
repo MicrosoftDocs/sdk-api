@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInvokeConfigUI
-title: EapPeerInvokeConfigUI function
+title: EapPeerInvokeConfigUI function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Raises the EAP method's specific connection configuration user interface dialog on the client.
 old-location: eaphost\eappeerinvokeconfigui.htm

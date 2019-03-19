@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1SpriteBatch
-title: ID2D1SpriteBatch
+title: ID2D1SpriteBatch (d2d1_3.h)
 author: windows-sdk-content
 description: Represents a single group of sprites with their associated drawing properties.
 old-location: direct2d\id2d1spritebatch.htm

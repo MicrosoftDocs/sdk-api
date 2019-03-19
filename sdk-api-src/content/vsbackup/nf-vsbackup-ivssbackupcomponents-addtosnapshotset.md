@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddToSnapshotSet
-title: IVssBackupComponents::AddToSnapshotSet
+title: IVssBackupComponents::AddToSnapshotSet (vsbackup.h)
 author: windows-sdk-content
 description: The AddToSnapshotSet method adds an original volume or original remote file share to the shadow copy set.
 old-location: base\ivssbackupcomponents_addtosnapshotset.htm

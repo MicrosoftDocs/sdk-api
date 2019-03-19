@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescGetKeyword
-title: EventDescGetKeyword function
+title: EventDescGetKeyword function (evntprov.h)
 author: windows-sdk-content
 description: Retrieves the keyword from the event descriptor.
 old-location: etw\eventdescgetkeyword_func.htm

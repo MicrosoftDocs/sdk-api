@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_MessageDrain
-title: IVideoWindow::get_MessageDrain
+title: IVideoWindow::get_MessageDrain (control.h)
 author: windows-sdk-content
 description: The get_MessageDrain method retrieves the window that receives mouse and keyboard messages from the video window, if any.
 old-location: dshow\ivideowindow_get_messagedrain.htm

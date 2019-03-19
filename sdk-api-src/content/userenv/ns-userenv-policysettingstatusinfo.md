@@ -1,6 +1,6 @@
 ---
 UID: NS:userenv._POLICYSETTINGSTATUSINFO
-title: POLICYSETTINGSTATUSINFO
+title: POLICYSETTINGSTATUSINFO (userenv.h)
 author: windows-sdk-content
 description: The POLICYSETTINGSTATUSINFO structure provides information about a policy-setting event.
 old-location: policy\policysettingstatusinfo_str.htm

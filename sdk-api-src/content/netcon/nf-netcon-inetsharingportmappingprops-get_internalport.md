@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_InternalPort
-title: INetSharingPortMappingProps::get_InternalPort
+title: INetSharingPortMappingProps::get_InternalPort (netcon.h)
 author: windows-sdk-content
 description: The get_InternalPort method retrieves the internal port associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_internalport.htm

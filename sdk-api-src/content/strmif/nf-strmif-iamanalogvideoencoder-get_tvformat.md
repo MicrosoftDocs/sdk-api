@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_TVFormat
-title: IAMAnalogVideoEncoder::get_TVFormat
+title: IAMAnalogVideoEncoder::get_TVFormat (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_TVFormat method retrieves the analog video standard that the encoder is currently set to (NTSC/M, PAL/B, SECAM/K1, and so on).
 old-location: dshow\iamanalogvideoencoder_get_tvformat.htm

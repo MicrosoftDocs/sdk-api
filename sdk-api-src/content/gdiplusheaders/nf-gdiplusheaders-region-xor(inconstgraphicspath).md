@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Xor(IN const GraphicsPath)
-title: Region::Xor(IN const GraphicsPath)
+title: Region::Xor(IN const GraphicsPath) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Xor method updates this region to the nonintersecting portions of itself and the specified path's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Xor_path_.htm

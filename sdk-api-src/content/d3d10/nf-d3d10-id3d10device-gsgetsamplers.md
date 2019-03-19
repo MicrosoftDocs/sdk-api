@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetSamplers
-title: ID3D10Device::GSGetSamplers
+title: ID3D10Device::GSGetSamplers (d3d10.h)
 author: windows-sdk-content
 description: Get an array of sampler states from the geometry shader pipeline stage.
 old-location: direct3d10\id3d10device_gsgetsamplers.htm

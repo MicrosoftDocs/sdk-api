@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnLangProfileUtil
-title: ITfFnLangProfileUtil
+title: ITfFnLangProfileUtil (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnLangProfileUtil interface is implemented by the speech text service and used to provide utility methods for the speech text service.
 old-location: tsf\itffnlangprofileutil.htm

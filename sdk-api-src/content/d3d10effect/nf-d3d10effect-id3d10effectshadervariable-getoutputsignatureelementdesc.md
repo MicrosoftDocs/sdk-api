@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetOutputSignatureElementDesc
-title: ID3D10EffectShaderVariable::GetOutputSignatureElementDesc
+title: ID3D10EffectShaderVariable::GetOutputSignatureElementDesc (d3d10effect.h)
 author: windows-sdk-content
 description: Get an output-signature description.
 old-location: direct3d10\id3d10effectshadervariable_getoutputsignatureelementdesc.htm

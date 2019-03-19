@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.MakeDefault
-title: IAssocHandler::MakeDefault
+title: IAssocHandler::MakeDefault (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets an application as the default application for this file type.
 old-location: shell\IAssocHandler_MakeDefault.htm

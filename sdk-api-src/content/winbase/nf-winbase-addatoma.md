@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.AddAtomA
-title: AddAtomA function
+title: AddAtomA function (winbase.h)
 author: windows-sdk-content
 description: Adds a character string to the local atom table and returns a unique value (an atom) identifying the string.
 old-location: dataxchg\addatom.htm

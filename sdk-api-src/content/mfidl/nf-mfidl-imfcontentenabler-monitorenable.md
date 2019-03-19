@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.MonitorEnable
-title: IMFContentEnabler::MonitorEnable
+title: IMFContentEnabler::MonitorEnable (mfidl.h)
 author: windows-sdk-content
 description: Requests notification when the enabling action is completed.
 old-location: mf\imfcontentenabler_monitorenable.htm

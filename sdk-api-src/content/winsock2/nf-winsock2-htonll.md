@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.htonll
-title: htonll function
+title: htonll function (winsock2.h)
 author: windows-sdk-content
 description: Converts an unsigned __int64 from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonll.htm

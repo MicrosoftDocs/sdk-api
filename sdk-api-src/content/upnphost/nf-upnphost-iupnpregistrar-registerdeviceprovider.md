@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterDeviceProvider
-title: IUPnPRegistrar::RegisterDeviceProvider
+title: IUPnPRegistrar::RegisterDeviceProvider (upnphost.h)
 author: windows-sdk-content
 description: The RegisterDeviceProvider method registers a device provider with the device host. The device provider is not published on the network. Instead, it creates devices dynamically and registers them using RegisterRunningDevice.
 old-location: upnp\iupnpregistrar_registerdeviceprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineCreateAgentSessionA
-title: lineCreateAgentSessionA function
+title: lineCreateAgentSessionA function (tapi.h)
 author: windows-sdk-content
 description: The lineCreateAgentSession function creates a new AgentSession object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENTSESSION.
 old-location: tapi2\linecreateagentsession.htm

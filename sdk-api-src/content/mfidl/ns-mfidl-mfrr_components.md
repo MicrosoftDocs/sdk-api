@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFRR_COMPONENTS
-title: MFRR_COMPONENTS
+title: MFRR_COMPONENTS (mfidl.h)
 author: windows-sdk-content
 description: Contains information about one or more revoked components.
 old-location: mf\mfrr_components.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusimaging.ImageCodecInfo
-title: ImageCodecInfo
+title: ImageCodecInfo (gdiplusimaging.h)
 author: windows-sdk-content
 description: An ImageCodecInfo object stores information about an image codec (encoder/decoder).
 old-location: gdiplus\_gdiplus_CLASS_ImageCodecInfo_Class.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_Digit
-title: ITDigitDetectionEvent::get_Digit
+title: ITDigitDetectionEvent::get_Digit (tapi3if.h)
 author: windows-sdk-content
 description: The get_Digit method retrieves an unsigned char pointer to the digit that was detected.
 old-location: tapi3\itdigitdetectionevent_get_digit.htm

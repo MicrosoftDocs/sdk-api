@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsServiceOperations.Start
-title: IADsServiceOperations::Start
+title: IADsServiceOperations::Start (iads.h)
 author: windows-sdk-content
 description: The IADsServiceOperations::Start method starts a network service.
 old-location: adsi\iadsserviceoperations_start.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcFactory.CreatePartUri
-title: IOpcFactory::CreatePartUri
+title: IOpcFactory::CreatePartUri (msopc.h)
 author: windows-sdk-content
 description: Creates a part URI object that represents a part name.
 old-location: opc\iopcfactory_createparturi.htm

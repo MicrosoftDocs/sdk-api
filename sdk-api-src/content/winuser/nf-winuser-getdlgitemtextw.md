@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDlgItemTextW
-title: GetDlgItemTextW function
+title: GetDlgItemTextW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the title or text associated with a control in a dialog box.
 old-location: dlgbox\getdlgitemtext.htm

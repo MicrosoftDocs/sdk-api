@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymInitialize
-title: SymInitialize function
+title: SymInitialize function (dbghelp.h)
 author: windows-sdk-content
 description: Initializes the symbol handler for a process.
 old-location: base\syminitialize.htm

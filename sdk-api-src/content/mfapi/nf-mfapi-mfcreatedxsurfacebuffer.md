@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateDXSurfaceBuffer
-title: MFCreateDXSurfaceBuffer function
+title: MFCreateDXSurfaceBuffer function (mfapi.h)
 author: windows-sdk-content
 description: Creates a media buffer object that manages a Direct3D 9 surface.
 old-location: mf\mfcreatedxsurfacebuffer.htm

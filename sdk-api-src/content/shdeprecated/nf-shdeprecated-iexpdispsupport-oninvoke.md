@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnInvoke
-title: IExpDispSupport::OnInvoke
+title: IExpDispSupport::OnInvoke (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Gets ambient properties.
 old-location: shell\IExpDispSupport_OnInvoke.htm

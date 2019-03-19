@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.SetColorSpace1
-title: IDXGISwapChain3::SetColorSpace1
+title: IDXGISwapChain3::SetColorSpace1 (dxgi1_4.h)
 author: windows-sdk-content
 description: Sets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgiswapchain3_setcolorspace1.htm

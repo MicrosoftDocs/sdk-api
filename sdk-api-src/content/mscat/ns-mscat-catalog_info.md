@@ -1,6 +1,6 @@
 ---
 UID: NS:mscat.CATALOG_INFO_
-title: CATALOG_INFO
+title: CATALOG_INFO (mscat.h)
 author: windows-sdk-content
 description: The CATALOG_INFO structure contains the name of a catalog file. This structure is used by the CryptCATCatalogInfoFromContext function.
 old-location: security\catalog_info.htm

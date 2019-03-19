@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumStoredMessages
-title: ID3D11InfoQueue::GetNumStoredMessages
+title: ID3D11InfoQueue::GetNumStoredMessages (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Get the number of messages currently stored in the message queue.
 old-location: direct3d11\id3d11infoqueue_getnumstoredmessages.htm

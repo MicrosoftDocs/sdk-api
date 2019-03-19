@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlUnicodeStringToAnsiString
-title: RtlUnicodeStringToAnsiString function
+title: RtlUnicodeStringToAnsiString function (winternl.h)
 author: windows-sdk-content
 description: Converts the specified Unicode source string into an ANSI string.
 old-location: winprog\rtlunicodestringtoansistring.htm

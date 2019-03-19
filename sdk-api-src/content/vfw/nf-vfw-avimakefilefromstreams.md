@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIMakeFileFromStreams
-title: AVIMakeFileFromStreams function
+title: AVIMakeFileFromStreams function (vfw.h)
 author: windows-sdk-content
 description: The AVIMakeFileFromStreams function constructs an AVIFile interface pointer from separate streams.
 old-location: multimedia\avimakefilefromstreams.htm

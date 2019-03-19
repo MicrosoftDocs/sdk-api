@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._DVD_REGION
-title: DVD_REGION
+title: DVD_REGION (dvdmedia.h)
 author: windows-sdk-content
 description: Identifies the DVD region as reported by the local system components.
 old-location: dshow\dvd_region.htm

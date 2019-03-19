@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateAnimation
-title: IDCompositionDevice2::CreateAnimation
+title: IDCompositionDevice2::CreateAnimation (dcomp.h)
 author: windows-sdk-content
 description: Creates an animation object that is used to animate one or more scalar properties of one or more Microsoft DirectComposition objects.
 old-location: directcomp\idcompositiondevice2_createanimation.htm

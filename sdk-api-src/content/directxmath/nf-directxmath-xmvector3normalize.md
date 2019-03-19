@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Normalize
-title: XMVector3Normalize function
+title: XMVector3Normalize function (directxmath.h)
 author: windows-sdk-content
 description: Returns the normalized version of a 3D vector.
 old-location: dxmath\xmvector3normalize.htm

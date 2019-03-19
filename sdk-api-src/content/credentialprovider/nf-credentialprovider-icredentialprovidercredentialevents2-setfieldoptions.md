@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.SetFieldOptions
-title: ICredentialProviderCredentialEvents2::SetFieldOptions
+title: ICredentialProviderCredentialEvents2::SetFieldOptions (credentialprovider.h)
 author: windows-sdk-content
 description: Specifies whether a specified field in the logon or credential UI should display a &#0034;password reveal&#0034; glyph or is expected to receive an e-mail address.
 old-location: shell\ICredentialProviderCredentialEvents2_SetFieldOptions.htm

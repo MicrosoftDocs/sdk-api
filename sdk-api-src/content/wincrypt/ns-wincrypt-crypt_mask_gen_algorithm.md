@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_MASK_GEN_ALGORITHM
-title: CRYPT_MASK_GEN_ALGORITHM
+title: CRYPT_MASK_GEN_ALGORITHM (wincrypt.h)
 author: windows-sdk-content
 description: Identifies the algorithm used to generate an RSA PKCS #1 v2.1 signature mask.
 old-location: security\crypt_mask_gen_algorithm.htm

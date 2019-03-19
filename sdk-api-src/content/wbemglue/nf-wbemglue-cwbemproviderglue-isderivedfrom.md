@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.IsDerivedFrom
-title: CWbemProviderGlue::IsDerivedFrom
+title: CWbemProviderGlue::IsDerivedFrom (wbemglue.h)
 author: windows-sdk-content
 description: The IsDerivedFrom method determines whether one class is derived from another.
 old-location: wmi\cwbemproviderglue_isderivedfrom.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceScheduledCast.StartTransmission
-title: IWdsTransportNamespaceScheduledCast::StartTransmission
+title: IWdsTransportNamespaceScheduledCast::StartTransmission (wdstptmgmt.h)
 author: windows-sdk-content
 description: Starts a transmission on a namespace.
 old-location: wds\iwdstransportnamespacescheduledcast_starttransmission.htm

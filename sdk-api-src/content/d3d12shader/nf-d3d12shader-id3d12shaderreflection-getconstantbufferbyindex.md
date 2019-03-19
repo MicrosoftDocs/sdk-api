@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetConstantBufferByIndex
-title: ID3D12ShaderReflection::GetConstantBufferByIndex
+title: ID3D12ShaderReflection::GetConstantBufferByIndex (d3d12shader.h)
 author: windows-sdk-content
 description: Gets a constant buffer by index.
 old-location: direct3d12\id3d12shaderreflection_getconstantbufferbyindex.htm

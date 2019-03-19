@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetAllInstancesAsynch
-title: CWbemProviderGlue::GetAllInstancesAsynch
+title: CWbemProviderGlue::GetAllInstancesAsynch (wbemglue.h)
 author: windows-sdk-content
 description: The GetAllInstancesAsynch method retrieves a list of instances returned by a specific class. This method allows the provider to respond asynchronously by returning one instance at a time.
 old-location: wmi\cwbemproviderglue_getallinstancesasynch.htm

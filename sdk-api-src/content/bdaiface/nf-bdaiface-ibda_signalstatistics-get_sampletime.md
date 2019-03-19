@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SampleTime
-title: IBDA_SignalStatistics::get_SampleTime
+title: IBDA_SignalStatistics::get_SampleTime (bdaiface.h)
 author: windows-sdk-content
 description: The get_SampleTime method retrieves the sample time used to measure the signal.
 old-location: mstv\ibda_signalstatistics_get_sampletime.htm

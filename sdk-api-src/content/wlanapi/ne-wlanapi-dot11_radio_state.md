@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._DOT11_RADIO_STATE
-title: DOT11_RADIO_STATE
+title: DOT11_RADIO_STATE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies an 802.11 radio state.
 old-location: nwifi\dot11_radio_state.htm

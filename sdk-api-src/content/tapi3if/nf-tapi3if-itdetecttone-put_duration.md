@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDetectTone.put_Duration
-title: ITDetectTone::put_Duration
+title: ITDetectTone::put_Duration (tapi3if.h)
 author: windows-sdk-content
 description: The put_Duration method sets the length of time during which a tone should be present before the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_put_duration.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.put_maxBandwidth
-title: IWMPNetwork::put_maxBandwidth
+title: IWMPNetwork::put_maxBandwidth (wmp.h)
 author: windows-sdk-content
 description: The put_maxBandwidth method specifies the maximum allowed bandwidth.
 old-location: wmp\iwmpnetwork_put_maxbandwidth.htm

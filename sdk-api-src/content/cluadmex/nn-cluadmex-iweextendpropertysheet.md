@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IWEExtendPropertySheet
-title: IWEExtendPropertySheet
+title: IWEExtendPropertySheet (cluadmex.h)
 author: windows-sdk-content
 description: Implement the IWEExtendPropertySheet interface to create property sheet pages for a cluster object and add them to a Failover Cluster Administrator property sheet.
 old-location: mscs\iweextendpropertysheet.htm

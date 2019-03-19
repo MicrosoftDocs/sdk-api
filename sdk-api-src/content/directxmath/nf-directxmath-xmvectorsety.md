@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSetY
-title: XMVectorSetY function
+title: XMVectorSetY function (directxmath.h)
 author: windows-sdk-content
 description: Set the value of the y component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsety.htm

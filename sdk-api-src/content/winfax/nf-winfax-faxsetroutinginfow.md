@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxSetRoutingInfoW
-title: FaxSetRoutingInfoW function
+title: FaxSetRoutingInfoW function (winfax.h)
 author: windows-sdk-content
 description: A fax management application calls the FaxSetRoutingInfo function to modify the routing information for a fax routing method that is associated with a specific fax device.
 old-location: fax\_mfax_faxsetroutinginfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.InitializeFromCertificate
-title: ICertProperty::InitializeFromCertificate
+title: ICertProperty::InitializeFromCertificate (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object by using a property value associated with an existing certificate.
 old-location: security\icertproperty_initializefromcertificate_method.htm

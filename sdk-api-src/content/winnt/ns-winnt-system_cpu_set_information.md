@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_CPU_SET_INFORMATION
-title: SYSTEM_CPU_SET_INFORMATION
+title: SYSTEM_CPU_SET_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: This structure is returned by GetSystemCpuSetInformation. It is used to enumerate the CPU Sets on the system and determine their current state.
 old-location: base\system_cpu_set_information.htm

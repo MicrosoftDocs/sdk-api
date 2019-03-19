@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionTemplate
-title: IX509ExtensionTemplate
+title: IX509ExtensionTemplate (certenroll.h)
 author: windows-sdk-content
 description: Defines methods and properties that can be used to initialize or retrieve a CertificateTemplate extension.
 old-location: security\ix509extensiontemplate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsync._SYNC_TIME
-title: SYNC_TIME
+title: SYNC_TIME (winsync.h)
 author: windows-sdk-content
 description: Represents a date-and-time value.
 old-location: winsync\sync_time.htm

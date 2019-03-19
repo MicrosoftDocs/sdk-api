@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi1_2.DXGI_PRESENT_PARAMETERS
-title: DXGI_PRESENT_PARAMETERS
+title: DXGI_PRESENT_PARAMETERS (dxgi1_2.h)
 author: windows-sdk-content
 description: Describes information about present that helps the operating system optimize presentation.
 old-location: direct3ddxgi\dxgi_present_parameters.htm

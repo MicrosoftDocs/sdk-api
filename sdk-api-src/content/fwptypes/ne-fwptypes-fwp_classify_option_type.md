@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_CLASSIFY_OPTION_TYPE_
-title: FWP_CLASSIFY_OPTION_TYPE
+title: FWP_CLASSIFY_OPTION_TYPE (fwptypes.h)
 author: windows-sdk-content
 description: The FWP_CLASSIFY_OPTION_TYPE enumerated type is used by callouts and shims during run-time classification.FWP_CLASSIFY_OPTION_TYPE specifies timeout options for unicast, multicast, and loose source mapping states and enables blocking or permission of state creation on outbound multicast and broadcast traffic.
 old-location: fwp\fwp_classify_option_type.htm

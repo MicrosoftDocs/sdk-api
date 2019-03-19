@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PrintWindow
-title: PrintWindow function
+title: PrintWindow function (winuser.h)
 author: windows-sdk-content
 description: The PrintWindow function copies a visual window into the specified device context (DC), typically a printer DC.
 old-location: gdi\printwindow.htm

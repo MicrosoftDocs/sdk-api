@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindowsServer
-title: IsWindowsServer function
+title: IsWindowsServer function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS is a Windows Server release.
 old-location: base\iswindowsserver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
-title: IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
+title: IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D (xpsobjectmodel_2.h)
 author: windows-sdk-content
 description: Gets a new IXpsOMPackageWriter3D object for the document package.
 old-location: xps\ixpsdocumentpackagetarget3d_getxpsompackagewriter3d.htm

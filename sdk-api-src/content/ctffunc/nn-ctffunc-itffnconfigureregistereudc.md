@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnConfigureRegisterEudc
-title: ITfFnConfigureRegisterEudc
+title: ITfFnConfigureRegisterEudc (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnConfigureRegisterEudc interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
 old-location: tsf\itffnconfigureregistereudc.htm

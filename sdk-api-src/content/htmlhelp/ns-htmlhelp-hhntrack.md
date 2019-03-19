@@ -1,6 +1,6 @@
 ---
 UID: NS:htmlhelp.tagHHNTRACK
-title: HHNTRACK
+title: HHNTRACK (htmlhelp.h)
 author: windows-sdk-content
 description: This structure returns the file name of the current topic and a constant that specifies the user action that is about to occur, such as hiding the Navigation pane by clicking the Hide button on the toolbar.
 old-location: htmlhelp\hhntrack_structure.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.SetDuration
-title: IMFMediaSourceExtension::SetDuration
+title: IMFMediaSourceExtension::SetDuration (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the duration of the media source in 100-nanosecond units.
 old-location: mf\imfmediasourceextension_setduration.htm

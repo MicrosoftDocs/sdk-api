@@ -1,6 +1,6 @@
 ---
 UID: NF:icmpapi.IcmpParseReplies
-title: IcmpParseReplies function
+title: IcmpParseReplies function (icmpapi.h)
 author: windows-sdk-content
 description: Parses the reply buffer provided and returns the number of ICMP echo request responses found.
 old-location: iphlp\icmpparsereplies.htm

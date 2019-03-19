@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_SWITCH_DESKTOP_TO_USER
-title: PWLX_SWITCH_DESKTOP_TO_USER
+title: PWLX_SWITCH_DESKTOP_TO_USER (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to switch to the application desktop.
 old-location: security\wlxswitchdesktoptouser.htm

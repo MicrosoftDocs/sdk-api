@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetSurfaceDesc
-title: IDirectDrawSurface7::GetSurfaceDesc
+title: IDirectDrawSurface7::GetSurfaceDesc (ddraw.h)
 author: windows-sdk-content
 description: Retrieves a description of this surface in its current condition.
 old-location: directdraw\idirectdrawsurface7_getsurfacedesc.htm

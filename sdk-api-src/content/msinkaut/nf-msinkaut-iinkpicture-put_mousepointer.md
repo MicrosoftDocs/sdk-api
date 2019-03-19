@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_MousePointer
-title: IInkPicture::put_MousePointer
+title: IInkPicture::put_MousePointer (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the type of mouse pointer that appears.
 old-location: tablet\inkpicture_mousepointer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.ITunerCapEx
-title: ITunerCapEx
+title: ITunerCapEx (tuner.h)
 author: windows-sdk-content
 description: Provides information about the capabilities of a BDA device filter that represents a TV tuner. This interface extends the ITunerCap interface.
 old-location: mstv\itunercapex.htm

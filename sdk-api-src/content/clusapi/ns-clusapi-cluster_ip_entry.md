@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSTER_IP_ENTRY
-title: CLUSTER_IP_ENTRY
+title: CLUSTER_IP_ENTRY (clusapi.h)
 author: windows-sdk-content
 description: Describes an IP address for a cluster.
 old-location: mscs\cluster_ip_entry.htm

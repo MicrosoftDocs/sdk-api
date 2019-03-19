@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleItemContainer
-title: IOleItemContainer
+title: IOleItemContainer (oleidl.h)
 author: windows-sdk-content
 description: Used by item monikers when they are bound to the objects they identify.
 old-location: com\ioleitemcontainer.htm

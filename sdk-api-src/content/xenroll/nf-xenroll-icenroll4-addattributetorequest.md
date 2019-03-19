@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.addAttributeToRequest
-title: ICEnroll4::addAttributeToRequest
+title: ICEnroll4::addAttributeToRequest (xenroll.h)
 author: windows-sdk-content
 description: Adds an attribute to the certificate request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_addattributetorequest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_COMPARISON_FLAG
-title: WBEM_COMPARISON_FLAG
+title: WBEM_COMPARISON_FLAG (wbemcli.h)
 author: windows-sdk-content
 description: Contains flags that define the comparison to perform when using the IWbemClassObject::CompareTo method.
 old-location: wmi\wbem_comparison_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_LowOscillator
-title: IDVBSTuningSpace::get_LowOscillator
+title: IDVBSTuningSpace::get_LowOscillator (tuner.h)
 author: windows-sdk-content
 description: The get_LowOscillator method retrieves the low oscillator frequency.
 old-location: mstv\idvbstuningspace_get_lowoscillator.htm

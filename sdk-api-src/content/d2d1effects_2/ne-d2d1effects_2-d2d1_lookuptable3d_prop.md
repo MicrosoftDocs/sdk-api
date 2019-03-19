@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_LOOKUPTABLE3D_PROP
-title: D2D1_LOOKUPTABLE3D_PROP
+title: D2D1_LOOKUPTABLE3D_PROP (d2d1effects_2.h)
 author: windows-sdk-content
 description: Identifiers for the properties of the 3D Lookup Table effect.
 old-location: direct2d\d2d1_lookuptable3d_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphBuilder.Abort
-title: IGraphBuilder::Abort
+title: IGraphBuilder::Abort (strmif.h)
 author: windows-sdk-content
 description: The Abort method requests the Filter Graph Manager to halt its current task as quickly as possible.
 old-location: dshow\igraphbuilder_abort.htm

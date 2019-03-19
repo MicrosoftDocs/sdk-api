@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
-title: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT
+title: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_OUTPUT (d3d11.h)
 author: windows-sdk-content
 description: Contains the response to a D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION query.
 old-location: mf\d3d11_authenticated_query_crypto_session_output.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFStandardVideoFormat
-title: MFStandardVideoFormat
+title: MFStandardVideoFormat (mfobjects.h)
 author: windows-sdk-content
 description: Contains values that specify common video formats.
 old-location: mf\mfstandardvideoformat.htm

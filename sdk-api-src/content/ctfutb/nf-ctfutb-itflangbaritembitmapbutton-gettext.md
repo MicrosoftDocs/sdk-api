@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.GetText
-title: ITfLangBarItemBitmapButton::GetText
+title: ITfLangBarItemBitmapButton::GetText (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemBitmapButton::GetText method
 old-location: tsf\itflangbaritembitmapbutton_gettext.htm

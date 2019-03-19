@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromVelocity
-title: IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity
+title: IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromVelocity (uianimation.h)
 author: windows-sdk-content
 description: Creates a sinusoidal-velocity transition, with an amplitude determined by the initial velocity.
 old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransitionfromvelocity.htm

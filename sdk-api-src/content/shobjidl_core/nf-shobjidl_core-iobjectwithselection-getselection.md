@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithSelection.GetSelection
-title: IObjectWithSelection::GetSelection
+title: IObjectWithSelection::GetSelection (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the Shell item array that contains the selected items.
 old-location: shell\IObjectWithSelection_GetSelection.htm

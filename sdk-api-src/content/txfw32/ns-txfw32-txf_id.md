@@ -1,6 +1,6 @@
 ---
 UID: NS:txfw32._TXF_ID
-title: TXF_ID
+title: TXF_ID (txfw32.h)
 author: windows-sdk-content
 description: Represents a unique identifier within the context of the Resource Manager.
 old-location: fs\txf_id.htm

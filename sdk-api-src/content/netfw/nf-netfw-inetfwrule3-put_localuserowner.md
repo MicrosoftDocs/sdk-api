@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule3.put_LocalUserOwner
-title: INetFwRule3::put_LocalUserOwner
+title: INetFwRule3::put_LocalUserOwner (netfw.h)
 author: windows-sdk-content
 description: Specifies the user security identifier (SID) of the user who is the owner of the rule.
 old-location: ics\inetfwrule3_localuserowner.htm

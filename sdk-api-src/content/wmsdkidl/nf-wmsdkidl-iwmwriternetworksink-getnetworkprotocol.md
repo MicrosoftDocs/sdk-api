@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.GetNetworkProtocol
-title: IWMWriterNetworkSink::GetNetworkProtocol
+title: IWMWriterNetworkSink::GetNetworkProtocol (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetNetworkProtocol method retrieves the network protocol that the network sink uses. Currently, HTTP is the only protocol the network sink supports.
 old-location: wmformat\iwmwriternetworksink_getnetworkprotocol.htm

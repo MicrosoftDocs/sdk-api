@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.GetRecordByIndex
-title: IPBDA_Services::GetRecordByIndex
+title: IPBDA_Services::GetRecordByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a service record at a given position from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_getrecordbyindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetNotifyInterface
-title: IBackgroundCopyJob::SetNotifyInterface
+title: IBackgroundCopyJob::SetNotifyInterface (bits.h)
 author: windows-sdk-content
 description: Identifies your implementation of the IBackgroundCopyCallback interface to BITS. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
 old-location: bits\ibackgroundcopyjob_setnotifyinterface.htm

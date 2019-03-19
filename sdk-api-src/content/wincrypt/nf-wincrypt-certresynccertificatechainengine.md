@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertResyncCertificateChainEngine
-title: CertResyncCertificateChainEngine function
+title: CertResyncCertificateChainEngine function (wincrypt.h)
 author: windows-sdk-content
 description: Resyncs the certificate chain engine, which resynchronizes the stores the store's engine and updates the engine caches.
 old-location: security\certresynccertificatechainengine.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetPartialFile
-title: IVssComponent::GetPartialFile
+title: IVssComponent::GetPartialFile (vswriter.h)
 author: windows-sdk-content
 description: The GetPartialFile method returns information on a partial file associated with this component.
 old-location: base\ivsscomponent_getpartialfile.htm

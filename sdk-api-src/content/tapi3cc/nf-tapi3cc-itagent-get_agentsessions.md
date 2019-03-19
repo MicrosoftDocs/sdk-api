@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_AgentSessions
-title: ITAgent::get_AgentSessions
+title: ITAgent::get_AgentSessions (tapi3cc.h)
 author: windows-sdk-content
 description: The get_AgentSessions method creates a collection of current agent sessions. This method is provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateAgentSessions method.
 old-location: tapi3\itagent_get_agentsessions.htm

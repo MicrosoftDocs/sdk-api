@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DIndexBuffer9.GetDesc
-title: IDirect3DIndexBuffer9::GetDesc
+title: IDirect3DIndexBuffer9::GetDesc (d3d9.h)
 author: windows-sdk-content
 description: Retrieves a description of the index buffer resource.
 old-location: direct3d9\idirect3dindexbuffer9__getdesc.htm

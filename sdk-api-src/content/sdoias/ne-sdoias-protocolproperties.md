@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._PROTOCOLPROPERTIES
-title: PROTOCOLPROPERTIES
+title: PROTOCOLPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the PROTOCOLPROPERTIES enumeration type enumerate properties of an authentication protocol.
 old-location: nps\SDO_protocolproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1OffsetTransform.SetOffset
-title: ID2D1OffsetTransform::SetOffset
+title: ID2D1OffsetTransform::SetOffset (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the offset in the current offset transform.
 old-location: direct2d\id2d1offsettransform_setoffset.htm

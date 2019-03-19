@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.Show
-title: IOleDocumentView::Show
+title: IOleDocumentView::Show (docobj.h)
 author: windows-sdk-content
 description: Activates or deactivates a view.
 old-location: com\ioledocumentview_show.htm

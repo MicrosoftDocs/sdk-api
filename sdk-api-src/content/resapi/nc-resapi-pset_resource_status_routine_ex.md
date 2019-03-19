@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_STATUS_ROUTINE_EX
-title: PSET_RESOURCE_STATUS_ROUTINE_EX
+title: PSET_RESOURCE_STATUS_ROUTINE_EX (resapi.h)
 author: windows-sdk-content
 description: Called to update the status of a resource.
 old-location: mscs\setresourcestatusex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToDouble
-title: VariantToDouble function
+title: VariantToDouble function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a DOUBLE value from a VARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToDouble.htm

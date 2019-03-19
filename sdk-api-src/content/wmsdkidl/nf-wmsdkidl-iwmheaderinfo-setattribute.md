@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.SetAttribute
-title: IWMHeaderInfo::SetAttribute
+title: IWMHeaderInfo::SetAttribute (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetAttribute method sets a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::AddAttribute, and should not be used.
 old-location: wmformat\iwmheaderinfo_setattribute.htm

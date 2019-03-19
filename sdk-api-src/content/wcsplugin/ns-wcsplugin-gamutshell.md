@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._GamutShell
-title: GamutShell
+title: GamutShell (wcsplugin.h)
 author: windows-sdk-content
 description: Contains information that defines a gamut shell, which is represented by a list of indexed triangles. The vertex buffer contains the vertices data.
 old-location: wcs\gamutshell.htm

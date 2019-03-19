@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.LoadLibraryW
-title: LoadLibraryW function
+title: LoadLibraryW function (libloaderapi.h)
 author: windows-sdk-content
 description: Loads the specified module into the address space of the calling process.
 old-location: base\loadlibrary.htm

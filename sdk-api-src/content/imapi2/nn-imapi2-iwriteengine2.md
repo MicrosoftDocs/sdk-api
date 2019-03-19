@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IWriteEngine2
-title: IWriteEngine2
+title: IWriteEngine2 (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to write a data stream to a device.
 old-location: imapi\iwriteengine2.htm

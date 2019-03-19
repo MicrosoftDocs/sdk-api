@@ -1,6 +1,6 @@
 ---
 UID: NF:reconcil.INotifyReplica.YouAreAReplica
-title: INotifyReplica::YouAreAReplica
+title: INotifyReplica::YouAreAReplica (reconcil.h)
 author: windows-sdk-content
 description: Notifies an object that it may be subject to subsequent reconciliation through the Reconcile method.
 old-location: shell\INotifyReplica_YouAreAReplica.htm

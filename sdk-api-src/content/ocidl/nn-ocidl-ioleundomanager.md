@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IOleUndoManager
-title: IOleUndoManager
+title: IOleUndoManager (ocidl.h)
 author: windows-sdk-content
 description: The IOleUndoManager interface enables containers to implement multi-level undo and redo operations for actions that occur within contained controls.
 old-location: com\ioleundomanager.htm

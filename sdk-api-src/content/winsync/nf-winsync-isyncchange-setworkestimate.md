@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.SetWorkEstimate
-title: ISyncChange::SetWorkEstimate
+title: ISyncChange::SetWorkEstimate (winsync.h)
 author: windows-sdk-content
 description: Sets the work estimate for this change.
 old-location: winsync\isyncchange_setworkestimate.htm

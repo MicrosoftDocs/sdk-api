@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmReleaseRoutes
-title: RtmReleaseRoutes function
+title: RtmReleaseRoutes function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmReleaseRoutes function releases the route handles.
 old-location: rras\rtmreleaseroutes.htm

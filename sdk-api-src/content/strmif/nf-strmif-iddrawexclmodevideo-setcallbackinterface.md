@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetCallbackInterface
-title: IDDrawExclModeVideo::SetCallbackInterface
+title: IDDrawExclModeVideo::SetCallbackInterface (strmif.h)
 author: windows-sdk-content
 description: The SetCallbackInterface method retrieves a pointer to the callback interface of the Overlay Mixer so that the calling application can be notified about adjustments to the display during video playback.
 old-location: dshow\iddrawexclmodevideo_setcallbackinterface.htm

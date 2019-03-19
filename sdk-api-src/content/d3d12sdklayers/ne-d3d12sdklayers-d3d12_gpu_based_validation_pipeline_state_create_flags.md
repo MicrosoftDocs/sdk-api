@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
-title: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS
+title: D3D12_GPU_BASED_VALIDATION_PIPELINE_STATE_CREATE_FLAGS (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Specifies how GPU-Based Validation handles patched pipeline states during ID3D12Device::CreateGraphicsPipelineState and ID3D12Device::CreateComputePipelineState.
 old-location: direct3d12\d3d12_gpu_based_validation_pipeline_state_create_flags.htm

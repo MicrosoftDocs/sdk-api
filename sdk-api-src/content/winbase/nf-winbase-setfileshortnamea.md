@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetFileShortNameA
-title: SetFileShortNameA function
+title: SetFileShortNameA function (winbase.h)
 author: windows-sdk-content
 description: Sets the short name for the specified file.
 old-location: fs\setfileshortname.htm

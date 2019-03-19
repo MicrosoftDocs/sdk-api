@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2IsNaN
-title: XMVector2IsNaN function
+title: XMVector2IsNaN function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any component of a 2D vector is a NaN.
 old-location: dxmath\xmvector2isnan.htm

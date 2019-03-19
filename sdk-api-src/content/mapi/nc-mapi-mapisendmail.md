@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPISENDMAIL
-title: MAPISENDMAIL
+title: MAPISENDMAIL (mapi.h)
 author: windows-sdk-content
 description: Sends an ANSI message.
 old-location: mapi\mapisendmail.htm

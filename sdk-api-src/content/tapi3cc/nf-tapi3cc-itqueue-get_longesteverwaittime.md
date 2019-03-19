@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_LongestEverWaitTime
-title: ITQueue::get_LongestEverWaitTime
+title: ITQueue::get_LongestEverWaitTime (tapi3cc.h)
 author: windows-sdk-content
 description: The get_LongestEverWaitTime method gets the longest time any call waited in the queue (in seconds) during the current measurement period.
 old-location: tapi3\itqueue_get_longesteverwaittime.htm

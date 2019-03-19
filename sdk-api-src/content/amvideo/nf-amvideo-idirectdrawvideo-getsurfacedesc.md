@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSurfaceDesc
-title: IDirectDrawVideo::GetSurfaceDesc
+title: IDirectDrawVideo::GetSurfaceDesc (amvideo.h)
 author: windows-sdk-content
 description: The GetSurfaceDesc method retrieves a DDSURFACEDESC structure describing the current DirectDraw surface.
 old-location: dshow\idirectdrawvideo_getsurfacedesc.htm

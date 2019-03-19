@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapEncoderCacheOption
-title: WICBitmapEncoderCacheOption
+title: WICBitmapEncoderCacheOption (wincodec.h)
 author: windows-sdk-content
 description: Specifies the cache options available for an encoder.
 old-location: wic\_wic_codec_wicbitmapencodercacheoption.htm

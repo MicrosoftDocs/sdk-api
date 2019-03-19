@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_GetHorizontalExtent
-title: ListBox_GetHorizontalExtent macro
+title: ListBox_GetHorizontalExtent macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the LB_GETHORIZONTALEXTENT message explicitly.
 old-location: controls\ListBox_GetHorizontalExtent.htm

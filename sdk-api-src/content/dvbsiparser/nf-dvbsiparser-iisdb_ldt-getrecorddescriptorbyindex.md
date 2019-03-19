@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetRecordDescriptorByIndex
-title: IISDB_LDT::GetRecordDescriptorByIndex
+title: IISDB_LDT::GetRecordDescriptorByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getrecorddescriptorbyindex.htm

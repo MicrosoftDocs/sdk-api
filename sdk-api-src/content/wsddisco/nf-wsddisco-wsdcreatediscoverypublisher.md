@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryPublisher
-title: WSDCreateDiscoveryPublisher function
+title: WSDCreateDiscoveryPublisher function (wsddisco.h)
 author: windows-sdk-content
 description: Creates an IWSDiscoveryPublisher object.
 old-location: ncd\wsdcreatediscoverypublisher_func.htm

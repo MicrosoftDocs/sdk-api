@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.ImageType
-title: ImageType
+title: ImageType (gdiplusenums.h)
 author: windows-sdk-content
 description: The ImageType enumeration indicates whether an image is a bitmap or a metafile. The Image::GetType method returns an element of this enumeration.
 old-location: gdiplus\_gdiplus_ENUM_ImageType.htm

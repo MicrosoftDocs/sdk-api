@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.IO_Resource_s
-title: IO_RESOURCE
+title: IO_RESOURCE (cfgmgr32.h)
 author: windows-sdk-content
 description: The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance.
 old-location: devinst\io_resource.htm

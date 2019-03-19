@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._GET_DISK_ATTRIBUTES
-title: GET_DISK_ATTRIBUTES
+title: GET_DISK_ATTRIBUTES (winioctl.h)
 author: windows-sdk-content
 description: Contains the attributes of a disk device.
 old-location: fs\get_disk_attributes.htm

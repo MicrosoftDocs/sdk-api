@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptIsComplex
-title: ScriptIsComplex function
+title: ScriptIsComplex function (usp10.h)
 author: windows-sdk-content
 description: Determines whether a Unicode string requires complex script processing.
 old-location: intl\scriptiscomplex.htm

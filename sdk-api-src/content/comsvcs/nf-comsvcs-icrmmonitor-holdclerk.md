@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitor.HoldClerk
-title: ICrmMonitor::HoldClerk
+title: ICrmMonitor::HoldClerk (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a pointer on the specified clerk.
 old-location: cos\icrmmonitor_holdclerk.htm

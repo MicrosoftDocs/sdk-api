@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.IsShaderLoaded
-title: ID2D1EffectContext::IsShaderLoaded
+title: ID2D1EffectContext::IsShaderLoaded (d2d1effectauthor.h)
 author: windows-sdk-content
 description: This tests to see if the given shader is loaded.
 old-location: direct2d\id2d1contextinternal_isresourceloaded.htm

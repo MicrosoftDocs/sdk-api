@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.put_Logging
-title: IFsrmClassificationManager::put_Logging
+title: IFsrmClassificationManager::put_Logging (fsrmpipeline.h)
 author: windows-sdk-content
 description: The types of logging to perform when running the classification rules.
 old-location: fsrm\ifsrmclassificationmanager_logging.htm

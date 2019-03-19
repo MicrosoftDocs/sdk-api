@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.SetPresentPerRenderOpDelay
-title: ID3D10Debug::SetPresentPerRenderOpDelay
+title: ID3D10Debug::SetPresentPerRenderOpDelay (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Set the number of milliseconds to sleep after Present is called.
 old-location: direct3d10\id3d10debug_setpresentperrenderopdelay.htm

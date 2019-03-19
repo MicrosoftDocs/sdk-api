@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.ProcessInput
-title: IMediaObject::ProcessInput
+title: IMediaObject::ProcessInput (mediaobj.h)
 author: windows-sdk-content
 description: The ProcessInput method delivers a buffer to the specified input stream.
 old-location: dshow\imediaobject_processinput.htm

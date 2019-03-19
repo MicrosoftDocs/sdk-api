@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnStartEditTransaction
-title: ITextStoreACPSink::OnStartEditTransaction
+title: ITextStoreACPSink::OnStartEditTransaction (textstor.h)
 author: windows-sdk-content
 description: ITextStoreACPSink::OnStartEditTransaction method
 old-location: tsf\itextstoreacpsink_onstartedittransaction.htm

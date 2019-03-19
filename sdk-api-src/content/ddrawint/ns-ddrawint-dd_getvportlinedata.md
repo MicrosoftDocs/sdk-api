@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTLINEDATA
-title: DD_GETVPORTLINEDATA
+title: DD_GETVPORTLINEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETVPORTLINEDATA structure contains the current line number of the hardware video port.
 old-location: display\dd_getvportlinedata.htm

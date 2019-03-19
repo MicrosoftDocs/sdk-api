@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateChannel
-title: WsCreateChannel function
+title: WsCreateChannel function (webservices.h)
 author: windows-sdk-content
 description: Creates a channel for message exchange with an endpoint.
 old-location: wsw\wscreatechannel.htm

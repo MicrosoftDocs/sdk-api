@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.Initialize
-title: CVssWriter::Initialize
+title: CVssWriter::Initialize (vswriter.h)
 author: windows-sdk-content
 description: Initializes a CVssWriter object and allows a writer application to interact with VSS.
 old-location: base\cvsswriter_initialize.htm

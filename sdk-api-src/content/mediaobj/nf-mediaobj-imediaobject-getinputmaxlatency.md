@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputMaxLatency
-title: IMediaObject::GetInputMaxLatency
+title: IMediaObject::GetInputMaxLatency (mediaobj.h)
 author: windows-sdk-content
 description: The GetInputMaxLatency method retrieves the maximum latency on a specified input stream.
 old-location: dshow\imediaobject_getinputmaxlatency.htm

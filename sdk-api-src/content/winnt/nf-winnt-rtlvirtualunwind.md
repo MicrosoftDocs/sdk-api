@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlVirtualUnwind
-title: RtlVirtualUnwind function
+title: RtlVirtualUnwind function (winnt.h)
 author: windows-sdk-content
 description: Retrieves the invocation context of the function that precedes the specified function context.
 old-location: base\rtlvirtualunwind.htm

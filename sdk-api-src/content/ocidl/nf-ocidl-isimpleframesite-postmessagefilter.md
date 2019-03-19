@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PostMessageFilter
-title: ISimpleFrameSite::PostMessageFilter
+title: ISimpleFrameSite::PostMessageFilter (ocidl.h)
 author: windows-sdk-content
 description: Sends the simple frame site a message that is received by a control's own window after the control has processed the message.
 old-location: com\isimpleframesite_postmessagefilter.htm

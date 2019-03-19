@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_27
-title: WS_OPERATION_CONTEXT_PROPERTY_ID
+title: WS_OPERATION_CONTEXT_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: The properties available on the Context. Not all properties may be available at a given point on a context. All context properties are available through WsGetOperationContextProperty.
 old-location: wsw\ws_operation_context_property_id.htm

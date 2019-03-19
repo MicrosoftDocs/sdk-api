@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMemAlloc
-title: CryptMemAlloc function
+title: CryptMemAlloc function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptMemAlloc function allocates memory for a buffer. It is used by all Crypt32.lib functions that return allocated buffers.
 old-location: security\cryptmemalloc.htm

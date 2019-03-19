@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.BindToFilter
-title: IUrlAccessor::BindToFilter
+title: IUrlAccessor::BindToFilter (searchapi.h)
 author: windows-sdk-content
 description: Binds the item being processed to the appropriate IFilterand retrieves a pointer to the IFilter.
 old-location: search\_search_IUrlAccessor_BindToFilter.htm

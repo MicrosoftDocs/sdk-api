@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxSetCursor
-title: ITextHost::TxSetCursor
+title: ITextHost::TxSetCursor (textserv.h)
 author: windows-sdk-content
 description: Establishes a new cursor shape (I-beam) in the text host's window.
 old-location: controls\ITextHost_TxSetCursor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetFILETIME
-title: WBEMTime::GetFILETIME
+title: WBEMTime::GetFILETIME (wbemtime.h)
 author: windows-sdk-content
 description: The GetFILETIME method gets the time as an MFC FILETIME structure.
 old-location: wmi\wbemtime_getfiletime.htm

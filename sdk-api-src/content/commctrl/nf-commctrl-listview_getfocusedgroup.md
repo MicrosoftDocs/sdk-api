@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetFocusedGroup
-title: ListView_GetFocusedGroup macro
+title: ListView_GetFocusedGroup macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the group that has the focus. Use this macro or send the LVM_GETFOCUSEDGROUP message explicitly.
 old-location: controls\ListView_GetFocusedGroup.htm

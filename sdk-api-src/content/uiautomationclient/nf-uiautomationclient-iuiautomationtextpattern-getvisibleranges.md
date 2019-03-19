@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.GetVisibleRanges
-title: IUIAutomationTextPattern::GetVisibleRanges
+title: IUIAutomationTextPattern::GetVisibleRanges (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an array of disjoint text ranges from a text-based control where each text range represents a contiguous span of visible text.
 old-location: winauto\uiauto_IUIAutomationTextPattern_GetVisibleRanges.htm

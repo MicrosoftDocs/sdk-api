@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjUpdateFileIfNeeded
-title: PrjUpdateFileIfNeeded function
+title: PrjUpdateFileIfNeeded function (projectedfslib.h)
 author: windows-sdk-content
 description: Enables a provider to update an item that has been cached on the local file system.
 old-location: projfs\prjupdatefileifneeded.htm

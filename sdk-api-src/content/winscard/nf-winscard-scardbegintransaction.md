@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardBeginTransaction
-title: SCardBeginTransaction function
+title: SCardBeginTransaction function (winscard.h)
 author: windows-sdk-content
 description: Starts a transaction.
 old-location: security\scardbegintransaction.htm

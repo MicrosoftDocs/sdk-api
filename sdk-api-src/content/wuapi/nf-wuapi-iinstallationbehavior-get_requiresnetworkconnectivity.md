@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_RequiresNetworkConnectivity
-title: IInstallationBehavior::get_RequiresNetworkConnectivity
+title: IInstallationBehavior::get_RequiresNetworkConnectivity (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the installation or uninstallation of an update requires network connectivity.
 old-location: wua\iinstallationbehavior_requiresnetworkconnectivity.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.ImagehlpApiVersionEx
-title: ImagehlpApiVersionEx function
+title: ImagehlpApiVersionEx function (dbghelp.h)
 author: windows-sdk-content
 description: Modifies the version information of the library used by the application.
 old-location: base\imagehlpapiversionex.htm

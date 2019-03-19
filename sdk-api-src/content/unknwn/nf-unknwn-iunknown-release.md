@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IUnknown.Release
-title: IUnknown::Release
+title: IUnknown::Release (unknwn.h)
 author: windows-sdk-content
 description: Decrements the reference count for an interface on an object.
 old-location: com\iunknown_release.htm

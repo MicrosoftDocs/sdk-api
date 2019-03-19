@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteStringList.GetLocaleName
-title: IDWriteStringList::GetLocaleName
+title: IDWriteStringList::GetLocaleName (dwrite_3.h)
 author: windows-sdk-content
 description: Copies the locale name with the specified index to the specified array.
 old-location: directwrite\idwritestringlist_getlocalename.htm

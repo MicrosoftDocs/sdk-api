@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_WritePipe
-title: WinUsb_WritePipe function
+title: WinUsb_WritePipe function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_WritePipe function writes data to a pipe.
 old-location: buses\winusb_writepipe.htm

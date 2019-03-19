@@ -1,6 +1,6 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnDataReceived
-title: IWRdsGraphicsChannelEvents::OnDataReceived
+title: IWRdsGraphicsChannelEvents::OnDataReceived (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Called when a full message is received from the server.
 old-location: termserv\iwrdsgraphicschannelevents_ondatareceived.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_INVERTEDIFSTACK_TABLE
-title: MIB_INVERTEDIFSTACK_TABLE
+title: MIB_INVERTEDIFSTACK_TABLE (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of inverted network interface stack row entries. This specifies the relationship of the network interfaces on an interface stack in reverse order.
 old-location: mib\mib_invertedifstack_table.htm

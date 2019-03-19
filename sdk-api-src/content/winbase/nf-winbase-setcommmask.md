@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetCommMask
-title: SetCommMask function
+title: SetCommMask function (winbase.h)
 author: windows-sdk-content
 description: Specifies a set of events to be monitored for a communications device.
 old-location: base\setcommmask.htm

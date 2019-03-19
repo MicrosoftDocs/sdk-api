@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallStateEvent.get_Cause
-title: ITCallStateEvent::get_Cause
+title: ITCallStateEvent::get_Cause (tapi3if.h)
 author: windows-sdk-content
 description: The get_Cause method gets the cause associated with this event.
 old-location: tapi3\itcallstateevent_get_cause.htm

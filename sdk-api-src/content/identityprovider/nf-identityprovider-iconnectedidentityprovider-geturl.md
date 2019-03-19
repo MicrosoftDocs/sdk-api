@@ -1,6 +1,6 @@
 ---
 UID: NF:identityprovider.IConnectedIdentityProvider.GetUrl
-title: IConnectedIdentityProvider::GetUrl
+title: IConnectedIdentityProvider::GetUrl (identityprovider.h)
 author: windows-sdk-content
 description: Returns the URL string for the specified wizard or webpage.
 old-location: security\iconnectedidentityprovider_geturl.htm

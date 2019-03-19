@@ -1,6 +1,6 @@
 ---
 UID: NF:certpol.INDESPolicy.GenerateChallenge
-title: INDESPolicy::GenerateChallenge
+title: INDESPolicy::GenerateChallenge (certpol.h)
 author: windows-sdk-content
 description: Performs the policy decision whether to issue a challenge password to the SCEP client.
 old-location: security\indespolicy_generatechallenge.htm

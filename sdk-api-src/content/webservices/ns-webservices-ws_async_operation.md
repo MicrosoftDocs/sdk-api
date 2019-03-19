@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ASYNC_OPERATION
-title: WS_ASYNC_OPERATION
+title: WS_ASYNC_OPERATION (webservices.h)
 author: windows-sdk-content
 description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
 old-location: wsw\ws_async_operation.htm

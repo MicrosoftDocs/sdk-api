@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11RasterizerState
-title: ID3D11RasterizerState
+title: ID3D11RasterizerState (d3d11.h)
 author: windows-sdk-content
 description: The rasterizer-state interface holds a description for rasterizer state that you can bind to the rasterizer stage.
 old-location: direct3d11\id3d11rasterizerstate.htm

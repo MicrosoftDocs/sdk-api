@@ -1,6 +1,6 @@
 ---
 UID: NF:ddrawgdi.DdCreateDIBSection
-title: DdCreateDIBSection function
+title: DdCreateDIBSection function (ddrawgdi.h)
 author: windows-sdk-content
 description: Creates a DIBSECTION structure that shares its color table with the device. GdiEntry9 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddcreatedibsection.htm

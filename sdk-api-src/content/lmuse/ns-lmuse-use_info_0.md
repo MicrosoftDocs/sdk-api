@@ -1,6 +1,6 @@
 ---
 UID: NS:lmuse._USE_INFO_0
-title: USE_INFO_0
+title: USE_INFO_0 (lmuse.h)
 author: windows-sdk-content
 description: The USE_INFO_0 structure contains the name of a shared resource and the local device redirected to it.
 old-location: netmgmt\use_info_0_str.htm

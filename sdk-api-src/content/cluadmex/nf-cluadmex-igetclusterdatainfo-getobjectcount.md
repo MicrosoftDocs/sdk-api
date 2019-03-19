@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetObjectCount
-title: IGetClusterDataInfo::GetObjectCount
+title: IGetClusterDataInfo::GetObjectCount (cluadmex.h)
 author: windows-sdk-content
 description: Returns a count of the number of selected cluster objects.
 old-location: mscs\igetclusterdatainfo_getobjectcount.htm

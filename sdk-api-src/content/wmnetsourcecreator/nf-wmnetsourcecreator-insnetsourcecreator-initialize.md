@@ -1,6 +1,6 @@
 ---
 UID: NF:wmnetsourcecreator.INSNetSourceCreator.Initialize
-title: INSNetSourceCreator::Initialize
+title: INSNetSourceCreator::Initialize (wmnetsourcecreator.h)
 author: windows-sdk-content
 description: The Initialize method prepares the network source creator for operations. You must call this method before calling any of the other methods in the INSNetSourceCreator interface.
 old-location: wmformat\insnetsourcecreator_initialize.htm

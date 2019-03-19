@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFsiItem
-title: IFsiItem
+title: IFsiItem (imapi2fs.h)
 author: windows-sdk-content
 description: Base interface containing properties common to both file and directory items.
 old-location: imapi\ifsiitem.htm

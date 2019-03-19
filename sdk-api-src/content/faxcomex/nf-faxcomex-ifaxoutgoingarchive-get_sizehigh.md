@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.get_SizeHigh
-title: IFaxOutgoingArchive::get_SizeHigh
+title: IFaxOutgoingArchive::get_SizeHigh (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingArchive::get_SizeHigh property is a value that specifies the high 32-bit value (in bytes) for the size of the archive of outgoing fax messages.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_sizehigh_cpp.htm

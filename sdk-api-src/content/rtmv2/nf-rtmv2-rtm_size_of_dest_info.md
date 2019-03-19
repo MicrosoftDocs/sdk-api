@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_SIZE_OF_DEST_INFO
-title: RTM_SIZE_OF_DEST_INFO macro
+title: RTM_SIZE_OF_DEST_INFO macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_SIZE_OF_DEST_INFO macro returns the size of the destination information structure (RTM_DEST_INFO).
 old-location: rras\rtm_size_of_dest_info.htm

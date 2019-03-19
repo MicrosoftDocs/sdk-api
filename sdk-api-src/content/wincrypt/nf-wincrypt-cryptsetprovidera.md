@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSetProviderA
-title: CryptSetProviderA function
+title: CryptSetProviderA function (wincrypt.h)
 author: windows-sdk-content
 description: Specifies the current user's default cryptographic service provider (CSP).
 old-location: security\cryptsetprovider.htm

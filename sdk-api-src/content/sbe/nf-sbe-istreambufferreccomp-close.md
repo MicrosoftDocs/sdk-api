@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Close
-title: IStreamBufferRecComp::Close
+title: IStreamBufferRecComp::Close (sbe.h)
 author: windows-sdk-content
 description: The Close method closes the target file.
 old-location: mstv\istreambufferreccomp_close.htm

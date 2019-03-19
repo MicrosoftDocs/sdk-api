@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USBUSER_POWER_INFO_REQUEST
-title: USBUSER_POWER_INFO_REQUEST
+title: USBUSER_POWER_INFO_REQUEST (usbuser.h)
 author: windows-sdk-content
 description: The USBUSER_POWER_INFO_REQUEST structure is used in conjunction with the IOCTL_USB_USER_REQUEST I/O control request to retrieve power policy information concerning the relationship of a specific system state to the power state of the host controller and the root hub.
 old-location: buses\usbuser_power_info_request.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetTransformMethod
-title: IOpcSignatureReference::GetTransformMethod
+title: IOpcSignatureReference::GetTransformMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the canonicalization method to use on the referenced XML element, when the element is signed.
 old-location: opc\iopcsignaturereference_gettransformmethod.htm

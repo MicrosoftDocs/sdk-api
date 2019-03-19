@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR8FromDisp
-title: VarR8FromDisp function
+title: VarR8FromDisp function (oleauto.h)
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a double value.
 old-location: automat\varr8fromdisp.htm

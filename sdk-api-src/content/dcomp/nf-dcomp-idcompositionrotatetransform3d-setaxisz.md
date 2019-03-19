@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisZ
-title: IDCompositionRotateTransform3D::SetAxisZ
+title: IDCompositionRotateTransform3D::SetAxisZ (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisz_float.htm

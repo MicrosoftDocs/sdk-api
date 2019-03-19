@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetOutputBitmapSource
-title: IMILBitmapEffectImpl::GetOutputBitmapSource
+title: IMILBitmapEffectImpl::GetOutputBitmapSource (mileffects.h)
 author: windows-sdk-content
 description: Gets the output bitmap source of the effect of the given render context.
 old-location: wibe\_wibe_imilbitmapeffectimpl_getoutputbitmapsource.htm

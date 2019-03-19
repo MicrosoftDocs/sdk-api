@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPServices
-title: IUPnPServices
+title: IUPnPServices (upnp.h)
 author: windows-sdk-content
 description: The IUPnPServices interface enumerates a collection of services.
 old-location: upnp\iupnpservices.htm

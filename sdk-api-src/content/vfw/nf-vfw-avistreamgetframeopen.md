@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamGetFrameOpen
-title: AVIStreamGetFrameOpen function
+title: AVIStreamGetFrameOpen function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamGetFrameOpen function prepares to decompress video frames from the specified video stream.
 old-location: multimedia\avistreamgetframeopen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRadialGradientBrush
-title: IXpsOMObjectFactory::CreateRadialGradientBrush
+title: IXpsOMObjectFactory::CreateRadialGradientBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMRadialGradientBrush interface.
 old-location: xps\ixpsomobjectfactory_createradialgradientbrush.htm

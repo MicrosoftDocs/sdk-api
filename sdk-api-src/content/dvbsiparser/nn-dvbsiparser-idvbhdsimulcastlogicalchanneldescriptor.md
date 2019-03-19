@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbHDSimulcastLogicalChannelDescriptor
-title: IDvbHDSimulcastLogicalChannelDescriptor
+title: IDvbHDSimulcastLogicalChannelDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements the IDvbLogicalChannelDescriptor interface for Digital Video Broadcast (DVB) streams based on Motion Picture Experts Group Version 4 Advanced Video Coding (MPEG-4AVC) that support high-definition (HD) simulcasting.
 old-location: mstv\idvbhdsimulcastlogicalchanneldescriptor.htm

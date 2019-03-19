@@ -1,6 +1,6 @@
 ---
 UID: NS:lmalert._ERRLOG_OTHER_INFO
-title: ERRLOG_OTHER_INFO
+title: ERRLOG_OTHER_INFO (lmalert.h)
 author: windows-sdk-content
 description: The ERRLOG_OTHER_INFO structure contains error log information. The NetAlertRaise and NetAlertRaiseEx functions use the ERRLOG_OTHER_INFO structure to specify information when adding a new entry to the error log.
 old-location: netmgmt\errlog_other_info_str.htm

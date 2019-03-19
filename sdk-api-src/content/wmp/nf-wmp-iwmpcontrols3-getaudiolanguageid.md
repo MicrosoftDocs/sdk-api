@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls3.getAudioLanguageID
-title: IWMPControls3::getAudioLanguageID
+title: IWMPControls3::getAudioLanguageID (wmp.h)
 author: windows-sdk-content
 description: The getAudioLanguageID method retrieves the locale identifier (LCID) for a specified audio language index.
 old-location: wmp\iwmpcontrols3_getaudiolanguageid.htm

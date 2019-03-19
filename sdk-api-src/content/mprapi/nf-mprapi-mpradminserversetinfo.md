@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminServerSetInfo
-title: MprAdminServerSetInfo function
+title: MprAdminServerSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminServerSetInfo function is used to set the number of ports for L2TP, PPTP, and SSTP devices when the RRAS service is running.
 old-location: rras\mpradminserversetinfo.htm

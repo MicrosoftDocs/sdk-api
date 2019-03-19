@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagHistogramGrid
-title: HistogramGrid
+title: HistogramGrid (mfapi.h)
 author: windows-sdk-content
 description: The HistogramGrid structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.
 old-location: stream\histogramgrid.htm

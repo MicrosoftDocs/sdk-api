@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearVectorTransition
-title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransition
+title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a linear vector transition in the specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortransition.htm

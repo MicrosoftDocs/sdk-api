@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.IsPwrSuspendAllowed
-title: IsPwrSuspendAllowed function
+title: IsPwrSuspendAllowed function (powrprof.h)
 author: windows-sdk-content
 description: Determines whether the computer supports the sleep states.
 old-location: base\ispwrsuspendallowed.htm

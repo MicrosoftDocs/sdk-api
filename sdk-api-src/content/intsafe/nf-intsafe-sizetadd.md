@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.SizeTAdd
-title: SizeTAdd function
+title: SizeTAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type size_t.
 old-location: shell\SizeTAdd.htm

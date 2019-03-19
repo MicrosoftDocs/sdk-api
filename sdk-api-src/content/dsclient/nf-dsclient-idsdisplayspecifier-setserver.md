@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.SetServer
-title: IDsDisplaySpecifier::SetServer
+title: IDsDisplaySpecifier::SetServer (dsclient.h)
 author: windows-sdk-content
 description: Specifies the server from which display specifier data is obtained.
 old-location: ad\idsdisplayspecifier_setserver.htm

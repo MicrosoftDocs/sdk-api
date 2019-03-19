@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetSharingPortMappingCollection
-title: INetSharingPortMappingCollection
+title: INetSharingPortMappingCollection (netcon.h)
 author: windows-sdk-content
 description: The INetSharingPortMappingCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate port mappings.
 old-location: ics\inetsharingportmappingcollection.htm

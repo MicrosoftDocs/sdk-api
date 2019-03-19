@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetStringScripts
-title: GetStringScripts function
+title: GetStringScripts function (winnls.h)
 author: windows-sdk-content
 description: Provides a list of scripts used in the specified Unicode string.
 old-location: intl\getstringscripts.htm

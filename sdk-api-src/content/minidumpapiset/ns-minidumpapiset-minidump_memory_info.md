@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_INFO
-title: MINIDUMP_MEMORY_INFO
+title: MINIDUMP_MEMORY_INFO (minidumpapiset.h)
 author: windows-sdk-content
 description: Describes a region of memory.
 old-location: base\minidump_memory_info_str.htm

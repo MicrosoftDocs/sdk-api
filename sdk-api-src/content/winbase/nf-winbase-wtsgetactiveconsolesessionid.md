@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WTSGetActiveConsoleSessionId
-title: WTSGetActiveConsoleSessionId function
+title: WTSGetActiveConsoleSessionId function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the session identifier of the console session.
 old-location: termserv\wtsgetactiveconsolesessionid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.AddPropertyItem
-title: IAzApplication::AddPropertyItem
+title: IAzApplication::AddPropertyItem (azroles.h)
 author: windows-sdk-content
 description: Adds the specified principal to the specified list of principals.
 old-location: security\iazapplication_addpropertyitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.ItemContainerPattern_FindItemByProperty
-title: ItemContainerPattern_FindItemByProperty function
+title: ItemContainerPattern_FindItemByProperty function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves a node within a containing node, based on a specified property value.
 old-location: winauto\uiauto_ItemContainerPattern_FindItemByProperty.htm

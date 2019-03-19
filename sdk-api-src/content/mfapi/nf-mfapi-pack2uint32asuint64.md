@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.Pack2UINT32AsUINT64
-title: Pack2UINT32AsUINT64 function
+title: Pack2UINT32AsUINT64 function (mfapi.h)
 author: windows-sdk-content
 description: Packs two UINT32 values into a UINT64 value.
 old-location: mf\pack2uint32asuint64.htm

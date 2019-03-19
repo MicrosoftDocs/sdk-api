@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetLowerHypotheses
-title: INetDiagHelper::GetLowerHypotheses
+title: INetDiagHelper::GetLowerHypotheses (ndhelper.h)
 author: windows-sdk-content
 description: Generate hypotheses for possible causes of low health in the local components.
 old-location: ndf\inetdiaghelpe_getlowerhypotheses.htm

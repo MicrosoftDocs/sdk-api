@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetAutoRotationState
-title: GetAutoRotationState function
+title: GetAutoRotationState function (winuser.h)
 author: windows-sdk-content
 description: Retrieves an AR_STATE value containing the state of screen auto-rotation for the system, for example whether auto-rotation is supported, and whether it is enabled by the user.
 old-location: base\getautorotationstate.htm

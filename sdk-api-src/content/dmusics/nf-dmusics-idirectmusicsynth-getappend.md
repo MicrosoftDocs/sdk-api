@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetAppend
-title: IDirectMusicSynth::GetAppend
+title: IDirectMusicSynth::GetAppend (dmusics.h)
 author: windows-sdk-content
 description: The GetAppend method outputs the number of additional wave samples that the DirectMusic &#0034;port&#0034; needs to have appended to the end of a download buffer.
 old-location: audio\idirectmusicsynth_getappend.htm

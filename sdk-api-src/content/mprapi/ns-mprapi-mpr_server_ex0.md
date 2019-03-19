@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_SERVER_EX0
-title: MPR_SERVER_EX0
+title: MPR_SERVER_EX0 (mprapi.h)
 author: windows-sdk-content
 description: Used to get or set the configuration of a RAS server.
 old-location: rras\mpr_server_ex.htm

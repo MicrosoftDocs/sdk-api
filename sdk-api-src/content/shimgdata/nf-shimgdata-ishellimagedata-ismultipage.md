@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsMultipage
-title: IShellImageData::IsMultipage
+title: IShellImageData::IsMultipage (shimgdata.h)
 author: windows-sdk-content
 description: Determines whether the image is a multipage Tagged Image File Format (TIFF) image.
 old-location: shell\IShellImageData_IsMultipage.htm

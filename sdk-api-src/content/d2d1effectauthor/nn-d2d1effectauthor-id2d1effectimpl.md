@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1EffectImpl
-title: ID2D1EffectImpl
+title: ID2D1EffectImpl (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Allows a custom effect's interface and behavior to be specified by the effect author.
 old-location: direct2d\id2d1effectimpl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ipmib.__unnamed_enum_3
-title: ICMP6_TYPE
+title: ICMP6_TYPE (ipmib.h)
 author: windows-sdk-content
 description: Defines the set of Internet Control Message Protocol for IP version 6.0 (ICMPv6) message types.
 old-location: mib\icmp6_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider2.ShowContextMenu
-title: ITextRangeProvider2::ShowContextMenu
+title: ITextRangeProvider2::ShowContextMenu (uiautomationcore.h)
 author: windows-sdk-content
 description: Programmatically invokes a context menu on the target element.
 old-location: winauto\uiauto_ITextRangeProvider2_ShowContextMenu.htm

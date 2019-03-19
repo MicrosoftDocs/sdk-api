@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetTimeout
-title: MI_DestinationOptions_SetTimeout function
+title: MI_DestinationOptions_SetTimeout function (mi.h)
 author: windows-sdk-content
 description: Sets the default options timeout value.
 old-location: wmi_v2\mi_destinationoptions_settimeout.htm

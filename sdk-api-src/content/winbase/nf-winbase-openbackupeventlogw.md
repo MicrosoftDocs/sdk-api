@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenBackupEventLogW
-title: OpenBackupEventLogW function
+title: OpenBackupEventLogW function (winbase.h)
 author: windows-sdk-content
 description: Opens a handle to a backup event log created by the BackupEventLog function.
 old-location: base\openbackupeventlog.htm

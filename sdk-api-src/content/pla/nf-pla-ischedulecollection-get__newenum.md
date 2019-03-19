@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IScheduleCollection.get__NewEnum
-title: IScheduleCollection::get__NewEnum
+title: IScheduleCollection::get__NewEnum (pla.h)
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\ischedulecollection__newenum.htm

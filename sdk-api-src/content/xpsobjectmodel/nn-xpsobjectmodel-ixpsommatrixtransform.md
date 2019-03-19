@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMMatrixTransform
-title: IXpsOMMatrixTransform
+title: IXpsOMMatrixTransform (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Specifies an affine matrix transform that can be applied to other objects in the object model.
 old-location: xps\ixpsommatrixtransform.htm

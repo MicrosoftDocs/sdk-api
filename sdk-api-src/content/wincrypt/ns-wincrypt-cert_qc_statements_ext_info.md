@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_QC_STATEMENTS_EXT_INFO
-title: CERT_QC_STATEMENTS_EXT_INFO
+title: CERT_QC_STATEMENTS_EXT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a sequence of one or more statements that make up the Qualified Certificate (QC) statements extension for a QC.
 old-location: security\cert_qc_statements_ext_info.htm

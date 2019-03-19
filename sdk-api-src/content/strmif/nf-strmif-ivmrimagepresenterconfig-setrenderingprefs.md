@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImagePresenterConfig.SetRenderingPrefs
-title: IVMRImagePresenterConfig::SetRenderingPrefs
+title: IVMRImagePresenterConfig::SetRenderingPrefs (strmif.h)
 author: windows-sdk-content
 description: The SetRenderingPrefs method sets the rendering preferences on the VMR-7 filter's allocator-presenter.
 old-location: dshow\ivmrimagepresenterconfig_setrenderingprefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpAddUrl
-title: HttpAddUrl function
+title: HttpAddUrl function (http.h)
 author: windows-sdk-content
 description: Registers a given URL so that requests that match it are routed to a specified HTTP Server API request queue.
 old-location: http\httpaddurl.htm

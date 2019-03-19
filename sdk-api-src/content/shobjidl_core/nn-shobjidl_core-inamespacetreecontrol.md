@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.INameSpaceTreeControl
-title: INameSpaceTreeControl
+title: INameSpaceTreeControl (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods used to view and manipulate nodes in a tree of Shell items.
 old-location: shell\INameSpaceTreeControl.htm

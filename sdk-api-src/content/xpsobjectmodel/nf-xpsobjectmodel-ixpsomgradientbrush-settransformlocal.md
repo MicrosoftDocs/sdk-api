@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetTransformLocal
-title: IXpsOMGradientBrush::SetTransformLocal
+title: IXpsOMGradientBrush::SetTransformLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMMatrixTransform interface pointer to a local, unshared matrix transform that is to be used for the brush.
 old-location: xps\ixpsomgradientbrush_settransformlocal.htm

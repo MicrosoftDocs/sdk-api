@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IBlockRangeList.get_BlockRanges
-title: IBlockRangeList::get_BlockRanges
+title: IBlockRangeList::get_BlockRanges (imapi2.h)
 author: windows-sdk-content
 description: Returns the list of sector ranges in the form of a safe array of variants of type VT_Dispatch.
 old-location: imapi\iblockrangelist_get_blockranges.htm

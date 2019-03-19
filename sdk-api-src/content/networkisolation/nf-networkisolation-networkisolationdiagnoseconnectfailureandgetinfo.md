@@ -1,6 +1,6 @@
 ---
 UID: NF:networkisolation.NetworkIsolationDiagnoseConnectFailureAndGetInfo
-title: NetworkIsolationDiagnoseConnectFailureAndGetInfo function
+title: NetworkIsolationDiagnoseConnectFailureAndGetInfo function (networkisolation.h)
 author: windows-sdk-content
 description: Gets information about a network isolation connection failure due to a missing capability.
 old-location: ics\networkisolationdiagnoseconnectfailureandgetinfo.htm

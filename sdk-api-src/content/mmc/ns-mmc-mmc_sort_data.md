@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_SORT_DATA
-title: MMC_SORT_DATA
+title: MMC_SORT_DATA (mmc.h)
 author: windows-sdk-content
 description: Contains the column sort data of a single column in a column set.
 old-location: mmc\mmc_sort_data.htm

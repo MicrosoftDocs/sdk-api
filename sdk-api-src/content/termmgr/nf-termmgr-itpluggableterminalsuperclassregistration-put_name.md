@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.put_Name
-title: ITPluggableTerminalSuperclassRegistration::put_Name
+title: ITPluggableTerminalSuperclassRegistration::put_Name (termmgr.h)
 author: windows-sdk-content
 description: The put_Name method sets the friendly name for the terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_name.htm

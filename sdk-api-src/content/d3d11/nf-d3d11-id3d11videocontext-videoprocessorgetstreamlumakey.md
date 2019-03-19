@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamLumaKey
-title: ID3D11VideoContext::VideoProcessorGetStreamLumaKey
+title: ID3D11VideoContext::VideoProcessorGetStreamLumaKey (d3d11.h)
 author: windows-sdk-content
 description: Gets the luma key for an input stream of the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamlumakey.htm

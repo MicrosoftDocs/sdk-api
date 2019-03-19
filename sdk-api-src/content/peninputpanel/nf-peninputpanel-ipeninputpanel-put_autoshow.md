@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.put_AutoShow
-title: IPenInputPanel::put_AutoShow
+title: IPenInputPanel::put_AutoShow (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets or sets a value that indicates whether the pen input panel appears when focus is set on the attached control by using the pen.
 old-location: tablet\peninputpanel_autoshow.htm

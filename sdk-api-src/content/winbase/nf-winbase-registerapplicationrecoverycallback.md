@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.RegisterApplicationRecoveryCallback
-title: RegisterApplicationRecoveryCallback function
+title: RegisterApplicationRecoveryCallback function (winbase.h)
 author: windows-sdk-content
 description: Registers the active instance of an application for recovery.
 old-location: recovery\registerapplicationrecoverycallback.htm

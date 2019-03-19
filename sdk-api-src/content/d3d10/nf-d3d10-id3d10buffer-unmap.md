@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Buffer.Unmap
-title: ID3D10Buffer::Unmap
+title: ID3D10Buffer::Unmap (d3d10.h)
 author: windows-sdk-content
 description: Invalidate the pointer to the resource retrieved by ID3D10Buffer::Map and reenable GPU access to the resource.
 old-location: direct3d10\id3d10buffer_unmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_TRIM_DESCRIPTOR
-title: DEVICE_TRIM_DESCRIPTOR
+title: DEVICE_TRIM_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
 old-location: fs\device_trim_descriptor.htm

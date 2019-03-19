@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings2.get_UseUnifiedSchedulingEngine
-title: ITaskSettings2::get_UseUnifiedSchedulingEngine
+title: ITaskSettings2::get_UseUnifiedSchedulingEngine (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task.
 old-location: taskschd\itasksettings2_useunifiedschedulingengine.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelLog.CountEntries
-title: ITravelLog::CountEntries
+title: ITravelLog::CountEntries (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Generates the number of entries in the travel log.
 old-location: shell\ITravelLog_CountEntries.htm

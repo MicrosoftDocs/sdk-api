@@ -1,6 +1,6 @@
 ---
 UID: NE:msxml6._XHR_COOKIE_STATE
-title: XHR_COOKIE_STATE
+title: XHR_COOKIE_STATE (msxml6.h)
 author: windows-sdk-content
 description: Specifies the state of the cookie.
 old-location: ixhr2\xhr_cookie_state.htm

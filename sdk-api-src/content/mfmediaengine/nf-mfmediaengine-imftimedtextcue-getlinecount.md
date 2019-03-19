@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetLineCount
-title: IMFTimedTextCue::GetLineCount
+title: IMFTimedTextCue::GetLineCount (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the number of lines of text in the timed-text cue.
 old-location: mf\imftimedtextcue_getlinecount.htm

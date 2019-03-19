@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.UpdateAllViews
-title: IConsole::UpdateAllViews
+title: IConsole::UpdateAllViews (mmc.h)
 author: windows-sdk-content
 description: Called by a snap-in when there is a content change in the result pane. This method can be called either by IComponent or IComponentData.
 old-location: mmc\iconsole_updateallviews.htm

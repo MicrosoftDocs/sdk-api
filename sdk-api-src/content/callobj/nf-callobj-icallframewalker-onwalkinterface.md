@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrameWalker.OnWalkInterface
-title: ICallFrameWalker::OnWalkInterface
+title: ICallFrameWalker::OnWalkInterface (callobj.h)
 author: windows-sdk-content
 description: Walks through a call frame to look for the specified interface in the call frame. The interface can be manipulated or replaced by paying close attention to the reference count.
 old-location: com\icallframewalker_onwalkinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTVCUSTOMDRAW
-title: NMTVCUSTOMDRAW
+title: NMTVCUSTOMDRAW (commctrl.h)
 author: windows-sdk-content
 description: Contains information specific to an NM_CUSTOMDRAW (tree view) notification code sent by a tree-view control.
 old-location: controls\NMTVCUSTOMDRAW.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_ALLOCATED_RANGE_BUFFER
-title: FILE_ALLOCATED_RANGE_BUFFER
+title: FILE_ALLOCATED_RANGE_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Indicates a range of bytes in a file.
 old-location: fs\file_allocated_range_buffer_str.htm

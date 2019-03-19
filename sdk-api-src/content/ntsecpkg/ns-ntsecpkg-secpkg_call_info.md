@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CALL_INFO
-title: SECPKG_CALL_INFO
+title: SECPKG_CALL_INFO (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains information about a currently executing call.
 old-location: security\secpkg_call_info.htm

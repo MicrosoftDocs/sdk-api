@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetProcessHandleCount
-title: GetProcessHandleCount function
+title: GetProcessHandleCount function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the number of open handles that belong to the specified process.
 old-location: base\getprocesshandlecount.htm

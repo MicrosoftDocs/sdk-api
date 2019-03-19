@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.COLORS
-title: COLORS macro
+title: COLORS macro (amvideo.h)
 author: windows-sdk-content
 description: The COLORS macro retrieves the palette entries from a VIDEOINFO structure.
 old-location: dshow\colors.htm

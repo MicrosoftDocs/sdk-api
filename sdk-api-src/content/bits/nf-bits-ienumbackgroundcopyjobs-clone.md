@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyJobs.Clone
-title: IEnumBackgroundCopyJobs::Clone
+title: IEnumBackgroundCopyJobs::Clone (bits.h)
 author: windows-sdk-content
 description: Creates another IEnumBackgroundCopyJobs enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyjobs_clone.htm

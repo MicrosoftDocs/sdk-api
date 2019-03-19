@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventClass2
-title: IEventClass2
+title: IEventClass2 (eventsys.h)
 author: windows-sdk-content
 description: Used to set and obtain data on event class objects. This interface extends the IEventClass interface.
 old-location: cos\ieventclass2.htm

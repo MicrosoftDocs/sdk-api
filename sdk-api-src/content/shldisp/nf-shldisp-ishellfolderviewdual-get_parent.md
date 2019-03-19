@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Parent
-title: IShellFolderViewDual::get_Parent
+title: IShellFolderViewDual::get_Parent (shldisp.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IShellFolderViewDual_get_Parent.htm

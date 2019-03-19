@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_DELETE_CERT
-title: PFN_CERT_STORE_PROV_DELETE_CERT
+title: PFN_CERT_STORE_PROV_DELETE_CERT (wincrypt.h)
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCertificateFromStore before deleting a certificate from the store.
 old-location: security\certstoreprovdeletecertcallback.htm

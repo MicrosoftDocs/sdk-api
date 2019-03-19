@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSAQuerySetW
-title: WSAQUERYSETW
+title: WSAQUERYSETW (winsock2.h)
 author: windows-sdk-content
 description: Provides relevant information about a given service, including service class ID, service name, applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
 old-location: winsock\wsaqueryset_2.htm

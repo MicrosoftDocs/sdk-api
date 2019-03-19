@@ -1,6 +1,6 @@
 ---
 UID: NS:psapi._ENUM_PAGE_FILE_INFORMATION
-title: ENUM_PAGE_FILE_INFORMATION
+title: ENUM_PAGE_FILE_INFORMATION (psapi.h)
 author: windows-sdk-content
 description: Contains information about a pagefile.
 old-location: psapi\enum_page_file_information_str.htm

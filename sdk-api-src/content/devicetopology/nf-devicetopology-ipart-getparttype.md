@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetPartType
-title: IPart::GetPartType
+title: IPart::GetPartType (devicetopology.h)
 author: windows-sdk-content
 description: The GetPartType method gets the part type of this part.
 old-location: coreaudio\ipart_getparttype.htm

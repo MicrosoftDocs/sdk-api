@@ -1,6 +1,6 @@
 ---
 UID: NS:winnls._numberfmtW
-title: NUMBERFMTW
+title: NUMBERFMTW (winnls.h)
 author: windows-sdk-content
 description: Contains information that defines the format of a number string. The GetNumberFormat function uses this information to customize a number string for a specified locale.
 old-location: intl\numberfmt.htm

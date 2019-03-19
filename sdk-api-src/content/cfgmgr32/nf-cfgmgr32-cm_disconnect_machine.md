@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Disconnect_Machine
-title: CM_Disconnect_Machine function
+title: CM_Disconnect_Machine function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Disconnect_Machine function removes a connection to a remote machine.
 old-location: devinst\cm_disconnect_machine.htm

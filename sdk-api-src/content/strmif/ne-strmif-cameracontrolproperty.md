@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagCameraControlProperty
-title: CameraControlProperty
+title: CameraControlProperty (strmif.h)
 author: windows-sdk-content
 description: The CameraControlProperty enumeration specifies a setting on a camera.
 old-location: dshow\cameracontrolproperty.htm

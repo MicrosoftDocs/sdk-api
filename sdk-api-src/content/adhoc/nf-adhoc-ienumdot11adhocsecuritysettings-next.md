@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Next
-title: IEnumDot11AdHocSecuritySettings::Next
+title: IEnumDot11AdHocSecuritySettings::Next (adhoc.h)
 author: windows-sdk-content
 description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
 old-location: nwifi\ienumdot11adhocsecuritysettings_next.htm

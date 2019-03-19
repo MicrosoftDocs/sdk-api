@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumPluggableTerminalClassInfo
-title: IEnumPluggableTerminalClassInfo
+title: IEnumPluggableTerminalClassInfo (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumPluggableTerminalClassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalClassInfo interface. The ITTerminalSupport2::EnumeratePluggableTerminalClasses method returns a pointer to IEnumPluggableTerminalClassInfo.
 old-location: tapi3\ienumpluggableterminalclassinfo.htm

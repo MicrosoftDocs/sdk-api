@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupGetEnumCount
-title: ClusterGroupGetEnumCount function
+title: ClusterGroupGetEnumCount function (clusapi.h)
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a group enumeration handle.
 old-location: mscs\clustergroupgetenumcount.htm

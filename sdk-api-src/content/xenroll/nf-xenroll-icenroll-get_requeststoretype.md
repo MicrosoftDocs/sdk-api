@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RequestStoreType
-title: ICEnroll::get_RequestStoreType
+title: ICEnroll::get_RequestStoreType (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RequestStoreName property. This store type is passed directly to the CertOpenStore function.
 old-location: security\icenroll4_requeststoretype.htm

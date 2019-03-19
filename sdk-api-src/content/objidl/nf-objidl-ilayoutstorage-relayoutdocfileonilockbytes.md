@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILayoutStorage.ReLayoutDocfileOnILockBytes
-title: ILayoutStorage::ReLayoutDocfileOnILockBytes
+title: ILayoutStorage::ReLayoutDocfileOnILockBytes (objidl.h)
 author: windows-sdk-content
 description: Is not implemented. If called, it returns STG_E_UNIMPLEMENTEDFUNCTION.
 old-location: stg\ilayoutstorage_relayoutdocfileonilockbytes.htm

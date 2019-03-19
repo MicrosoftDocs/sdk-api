@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetName
-title: ITsSbTarget::get_TargetName
+title: ITsSbTarget::get_TargetName (sbtsv.h)
 author: windows-sdk-content
 description: Specifies or retrieves the name of the target.
 old-location: termserv\itssbtarget_targetname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.CreateOperation
-title: IAzApplication::CreateOperation
+title: IAzApplication::CreateOperation (azroles.h)
 author: windows-sdk-content
 description: Creates an IAzOperation object with the specified name.
 old-location: security\iazapplication_createoperation.htm

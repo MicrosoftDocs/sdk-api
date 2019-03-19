@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinLengthMax
-title: IMbnPin::get_PinLengthMax
+title: IMbnPin::get_PinLengthMax (mbnapi.h)
 author: windows-sdk-content
 description: The maximum length of the PIN.
 old-location: mbn\imbnpin_pinlengthmax.htm

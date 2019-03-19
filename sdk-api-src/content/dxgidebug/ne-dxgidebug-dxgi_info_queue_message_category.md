@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgidebug.DXGI_INFO_QUEUE_MESSAGE_CATEGORY
-title: DXGI_INFO_QUEUE_MESSAGE_CATEGORY
+title: DXGI_INFO_QUEUE_MESSAGE_CATEGORY (dxgidebug.h)
 author: windows-sdk-content
 description: Values that specify categories of debug messages.
 old-location: direct3ddxgi\dxgi_info_queue_message_category.htm

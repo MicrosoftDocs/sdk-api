@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluscolormatrix.ColorMatrix
-title: ColorMatrix
+title: ColorMatrix (gdipluscolormatrix.h)
 author: windows-sdk-content
 description: The ColorMatrix structure contains a 5&#215;5 matrix of real numbers. Several methods of the ImageAttributes class adjust image colors by using a color matrix.
 old-location: gdiplus\_gdiplus_STRUC_ColorMatrix.htm

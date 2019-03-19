@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_FriendlyName
-title: ITuningSpace::get_FriendlyName
+title: ITuningSpace::get_FriendlyName (tuner.h)
 author: windows-sdk-content
 description: The get_FriendlyName method retrieves the localized, user-friendly name of the tuning space.
 old-location: mstv\ituningspace_get_friendlyname.htm

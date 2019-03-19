@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISecurityProperty
-title: ISecurityProperty
+title: ISecurityProperty (comsvcs.h)
 author: windows-sdk-content
 description: Determines the security identifier of the current object's original caller or direct caller. However, the preferred way to get information about an object's callers is to use the ISecurityCallContext interface.
 old-location: cos\isecurityproperty.htm

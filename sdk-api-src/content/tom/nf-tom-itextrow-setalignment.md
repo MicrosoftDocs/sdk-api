@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetAlignment
-title: ITextRow::SetAlignment
+title: ITextRow::SetAlignment (tom.h)
 author: windows-sdk-content
 description: Sets the horizontal alignment of a row.
 old-location: controls\itextrow_setalignment.htm

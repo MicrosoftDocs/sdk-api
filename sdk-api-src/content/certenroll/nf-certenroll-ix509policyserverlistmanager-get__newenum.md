@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get__NewEnum
-title: IX509PolicyServerListManager::get__NewEnum
+title: IX509PolicyServerListManager::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ix509policyserverlistmanager__newenum.htm

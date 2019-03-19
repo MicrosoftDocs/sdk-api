@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Skip
-title: IEnumWIA_DEV_INFO::Skip
+title: IEnumWIA_DEV_INFO::Skip (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_DEV_INFO::Skip method skips the specified number of hardware devices during an enumeration of available devices.
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Skip.htm

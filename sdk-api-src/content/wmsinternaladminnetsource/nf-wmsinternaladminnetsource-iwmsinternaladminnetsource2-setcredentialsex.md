@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.SetCredentialsEx
-title: IWMSInternalAdminNetSource2::SetCredentialsEx
+title: IWMSInternalAdminNetSource2::SetCredentialsEx (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The SetCredentialsEx method adds a password to the cache.
 old-location: wmformat\iwmsinternaladminnetsource2_setcredentialsex.htm

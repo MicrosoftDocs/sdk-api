@@ -1,6 +1,6 @@
 ---
 UID: NN:richole.IRichEditOleCallback
-title: IRichEditOleCallback
+title: IRichEditOleCallback (richole.h)
 author: windows-sdk-content
 description: The IRichEditOleCallback interface is used by a rich text edit control to retrieve OLE-related information from its client.
 old-location: controls\IRichEditOleCallback.htm

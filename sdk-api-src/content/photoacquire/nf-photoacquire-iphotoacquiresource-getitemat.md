@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetItemAt
-title: IPhotoAcquireSource::GetItemAt
+title: IPhotoAcquireSource::GetItemAt (photoacquire.h)
 author: windows-sdk-content
 description: The GetItemAt method retrieves the IPhotoAcquireItem object at the given index in the list of items.
 old-location: picacq\iphotoacquiresource_getitemat.htm

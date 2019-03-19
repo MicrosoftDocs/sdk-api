@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.DecommissionNtmsMedia
-title: DecommissionNtmsMedia function
+title: DecommissionNtmsMedia function (ntmsapi.h)
 author: windows-sdk-content
 description: The DecommissionNtmsMedia function moves a side from the Available state to the Decommissioned state.
 old-location: fs\decommissionntmsmedia.htm

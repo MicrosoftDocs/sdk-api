@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ParentWindow
-title: IX509PrivateKey::put_ParentWindow
+title: IX509PrivateKey::put_ParentWindow (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the ID of the window used to display key information.
 old-location: security\ix509privatekey_parentwindow_property.htm

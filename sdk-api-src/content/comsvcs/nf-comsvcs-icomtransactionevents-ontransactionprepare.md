@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionPrepare
-title: IComTransactionEvents::OnTransactionPrepare
+title: IComTransactionEvents::OnTransactionPrepare (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the prepare phase of the two-phase commit protocol of the transaction is completed.
 old-location: cos\icomtransactionevents_ontransactionprepare.htm

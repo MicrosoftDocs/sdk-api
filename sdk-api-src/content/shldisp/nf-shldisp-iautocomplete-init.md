@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IAutoComplete.Init
-title: IAutoComplete::Init
+title: IAutoComplete::Init (shldisp.h)
 author: windows-sdk-content
 description: Initializes the autocomplete object.
 old-location: shell\IAutoComplete_Init.htm

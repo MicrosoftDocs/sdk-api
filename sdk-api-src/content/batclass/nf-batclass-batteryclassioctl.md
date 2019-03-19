@@ -1,6 +1,6 @@
 ---
 UID: NF:batclass.BatteryClassIoctl
-title: BatteryClassIoctl function
+title: BatteryClassIoctl function (batclass.h)
 author: windows-sdk-content
 description: BatteryClassIoctl handles system-defined battery IOCTLs.
 old-location: battery\batteryclassioctl.htm

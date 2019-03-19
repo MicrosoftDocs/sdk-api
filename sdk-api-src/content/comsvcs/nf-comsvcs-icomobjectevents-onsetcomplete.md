@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnSetComplete
-title: IComObjectEvents::OnSetComplete
+title: IComObjectEvents::OnSetComplete (comsvcs.h)
 author: windows-sdk-content
 description: Generated when the client calls SetComplete on a context.
 old-location: cos\icomobjectevents_onsetcomplete.htm

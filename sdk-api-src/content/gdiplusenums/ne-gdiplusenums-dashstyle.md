@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.DashStyle
-title: DashStyle
+title: DashStyle (gdiplusenums.h)
 author: windows-sdk-content
 description: The DashStyle enumeration specifies the line style of a line drawn with a Windows GDI+ pen. The line can be drawn by using one of several predefined styles or a custom style.
 old-location: gdiplus\_gdiplus_ENUM_DashStyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertConfig.GetConfig
-title: ICertConfig::GetConfig
+title: ICertConfig::GetConfig (certcli.h)
 author: windows-sdk-content
 description: Retrieves the configuration string for a Certificate Services server. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getconfig.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqLockPlatform
-title: RtwqLockPlatform function
+title: RtwqLockPlatform function (rtworkq.h)
 author: windows-sdk-content
 description: Adds a reference to indicate to the platform that there are still pending asynchronous items. Blocks the RtwqShutdown function if there are active asynchronous items.
 old-location: base\rtwqlockplatform.htm

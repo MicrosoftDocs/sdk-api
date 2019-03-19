@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxRemoveStatusMessage
-title: WlxRemoveStatusMessage function
+title: WlxRemoveStatusMessage function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function to tell the GINA DLL to stop displaying the status message.
 old-location: security\wlxremovestatusmessage.htm

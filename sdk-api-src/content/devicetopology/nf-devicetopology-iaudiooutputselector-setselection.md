@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioOutputSelector.SetSelection
-title: IAudioOutputSelector::SetSelection
+title: IAudioOutputSelector::SetSelection (devicetopology.h)
 author: windows-sdk-content
 description: The SetSelection method selects one of the outputs of the output selector.
 old-location: coreaudio\iaudiooutputselector_setselection.htm

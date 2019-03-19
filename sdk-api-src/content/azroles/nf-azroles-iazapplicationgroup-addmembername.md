@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddMemberName
-title: IAzApplicationGroup::AddMemberName
+title: IAzApplicationGroup::AddMemberName (azroles.h)
 author: windows-sdk-content
 description: Adds the specified account name to the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_addmembername.htm

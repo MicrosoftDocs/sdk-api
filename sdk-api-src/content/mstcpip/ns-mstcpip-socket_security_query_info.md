@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_QUERY_INFO
-title: SOCKET_SECURITY_QUERY_INFO
+title: SOCKET_SECURITY_QUERY_INFO (mstcpip.h)
 author: windows-sdk-content
 description: Contains security information returned by the WSAQuerySocketSecurity function.
 old-location: winsock\socket_security_query_info.htm

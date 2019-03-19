@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetResourceFilter.OnSendingRequest
-title: IMFNetResourceFilter::OnSendingRequest
+title: IMFNetResourceFilter::OnSendingRequest (mfidl.h)
 author: windows-sdk-content
 description: Called when the byte stream requests a URL.
 old-location: mf\imfnetresourcefilter_onsendingrequest.htm

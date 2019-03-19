@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.AddBeziers
-title: ID2D1SimplifiedGeometrySink::AddBeziers
+title: ID2D1SimplifiedGeometrySink::AddBeziers (d2d1.h)
 author: windows-sdk-content
 description: Creates a sequence of cubic Bezier curves and adds them to the geometry sink.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_AddBeziers.htm

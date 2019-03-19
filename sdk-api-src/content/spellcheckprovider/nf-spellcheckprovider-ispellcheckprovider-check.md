@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Check
-title: ISpellCheckProvider::Check
+title: ISpellCheckProvider::Check (spellcheckprovider.h)
 author: windows-sdk-content
 description: Checks the spelling of the supplied text and returns a collection of spelling errors.
 old-location: intl\ispellcheckprovider_check.htm

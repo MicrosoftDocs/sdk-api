@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccIdentity.GetIdentityString
-title: IAccIdentity::GetIdentityString
+title: IAccIdentity::GetIdentityString (oleacc.h)
 author: windows-sdk-content
 description: Retrieves a string of bytes (an identity string) that uniquely identifies an accessible element.
 old-location: winauto\iaccidentity_iaccidentity__getidentitystring.htm

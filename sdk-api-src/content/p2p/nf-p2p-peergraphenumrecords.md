@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphEnumRecords
-title: PeerGraphEnumRecords function
+title: PeerGraphEnumRecords function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphEnumRecords function creates and returns an enumeration handle used to enumerate records of a specific type of record, user, or both. An enumeration provides a snapshot of records at the time an enumeration is performed.
 old-location: p2p\peergraphenumrecords.htm

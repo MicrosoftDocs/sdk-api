@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.put_CustomConfigCLSID
-title: IEventClass::put_CustomConfigCLSID
+title: IEventClass::put_CustomConfigCLSID (eventsys.h)
 author: windows-sdk-content
 description: The CLSID of a component that can assist in adding properties into the property bag of a subscription object. This property is supported only for backward compatibility.
 old-location: cos\ieventclass_customconfigclsid.htm

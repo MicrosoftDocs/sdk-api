@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.QueryAcceptData
-title: IRichEditOleCallback::QueryAcceptData
+title: IRichEditOleCallback::QueryAcceptData (richole.h)
 author: windows-sdk-content
 description: During a paste operation or a drag event, determines if the data that is pasted or dragged should be accepted.
 old-location: controls\IRichEditOleCallback_QueryAcceptData.htm

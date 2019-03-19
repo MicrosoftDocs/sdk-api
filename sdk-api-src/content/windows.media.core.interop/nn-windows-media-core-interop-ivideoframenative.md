@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.core.interop.IVideoFrameNative
-title: IVideoFrameNative
+title: IVideoFrameNative (windows.media.core.interop.h)
 author: windows-sdk-content
 description: Represents a frame of video data.
 old-location: winrt\ivideoframenative.htm

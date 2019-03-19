@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager3.GetService
-title: IDirectManipulationManager3::GetService
+title: IDirectManipulationManager3::GetService (directmanipulation.h)
 author: windows-sdk-content
 description: Retrieves an IDirectManipulationDeferContactService object.
 old-location: directmanipulation\idirectmanipulationmanager3_getservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCallerSID
-title: ISecurityProperty::GetDirectCallerSID
+title: ISecurityProperty::GetDirectCallerSID (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the security identifier of the external process that called the currently executing method.
 old-location: cos\isecurityproperty_getdirectcallersid.htm

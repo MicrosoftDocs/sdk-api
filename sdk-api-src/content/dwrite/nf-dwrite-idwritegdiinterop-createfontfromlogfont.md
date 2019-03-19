@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateFontFromLOGFONT
-title: IDWriteGdiInterop::CreateFontFromLOGFONT
+title: IDWriteGdiInterop::CreateFontFromLOGFONT (dwrite.h)
 author: windows-sdk-content
 description: Creates a font object that matches the properties specified by the LOGFONT structure.
 old-location: directwrite\IDWriteGdiInterop_CreateFontFromLOGFONT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_SenderFaxNumber
-title: IFaxIncomingMessage2::get_SenderFaxNumber
+title: IFaxIncomingMessage2::get_SenderFaxNumber (faxcomex.h)
 author: windows-sdk-content
 description: Contains the sender's fax number associated with the inbound fax message. This property is a null-terminated string.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_senderfaxnumber_cpp.htm

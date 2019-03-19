@@ -1,6 +1,6 @@
 ---
 UID: NE:prnasnot.__unnamed_enum_2
-title: PrintAsyncNotifyError
+title: PrintAsyncNotifyError (prnasnot.h)
 author: windows-sdk-content
 description: Specifies the error code portion of the HRESULT returned after an asynchronous notification failure.
 old-location: gdi\printasyncnotifyerror.htm

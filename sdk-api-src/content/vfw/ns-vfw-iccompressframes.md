@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_3
-title: ICCOMPRESSFRAMES
+title: ICCOMPRESSFRAMES (vfw.h)
 author: windows-sdk-content
 description: The ICCOMPRESSFRAMES structure contains compression parameters used with the ICM_COMPRESS_FRAMES_INFO message.
 old-location: multimedia\iccompressframes.htm

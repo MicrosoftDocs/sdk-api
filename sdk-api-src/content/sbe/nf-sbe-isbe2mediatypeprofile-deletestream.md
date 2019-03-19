@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.DeleteStream
-title: ISBE2MediaTypeProfile::DeleteStream
+title: ISBE2MediaTypeProfile::DeleteStream (sbe.h)
 author: windows-sdk-content
 description: Removes a stream from a media type profile.
 old-location: mstv\isbe2mediatypeprofile_deletestream.htm

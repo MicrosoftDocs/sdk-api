@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_EndTime
-title: ITsSbTaskInfo::get_EndTime
+title: ITsSbTaskInfo::get_EndTime (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the latest time the task agent can start the task.
 old-location: termserv\itssbtaskinfo_endtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateXmlBuffer
-title: WsCreateXmlBuffer function
+title: WsCreateXmlBuffer function (webservices.h)
 author: windows-sdk-content
 description: Creates an XML Buffer which can be used to process XML data .
 old-location: wsw\wscreatexmlbuffer.htm

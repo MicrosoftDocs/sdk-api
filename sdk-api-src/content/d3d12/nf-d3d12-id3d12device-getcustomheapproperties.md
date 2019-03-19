@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetCustomHeapProperties
-title: ID3D12Device::GetCustomHeapProperties
+title: ID3D12Device::GetCustomHeapProperties (d3d12.h)
 author: windows-sdk-content
 description: Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
 old-location: direct3d12\id3d12device_getcustomheapproperties.htm

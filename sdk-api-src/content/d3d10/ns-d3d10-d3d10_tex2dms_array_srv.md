@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_ARRAY_SRV
-title: D3D10_TEX2DMS_ARRAY_SRV
+title: D3D10_TEX2DMS_ARRAY_SRV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the subresource(s) from an array of multisampled 2D textures to use in a shader-resource view.
 old-location: direct3d10\d3d10_tex2dms_array_srv.htm

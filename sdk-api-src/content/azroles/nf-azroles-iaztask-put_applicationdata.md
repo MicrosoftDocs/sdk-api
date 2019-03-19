@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.put_ApplicationData
-title: IAzTask::put_ApplicationData
+title: IAzTask::put_ApplicationData (azroles.h)
 author: windows-sdk-content
 description: The ApplicationData property of IAzTask sets or retrieves an opaque field that can be used by the application to store information.
 old-location: security\iaztask_applicationdata.htm

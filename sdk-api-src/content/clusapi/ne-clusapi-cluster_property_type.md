@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_PROPERTY_TYPE
-title: CLUSTER_PROPERTY_TYPE
+title: CLUSTER_PROPERTY_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Defines the property types that are supported by a cluster property list.
 old-location: mscs\cluster_property_type.htm

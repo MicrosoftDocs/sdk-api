@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_PALETTE_LOCAL
-title: DD_PALETTE_LOCAL
+title: DD_PALETTE_LOCAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_PALETTE_LOCAL structure contains palette-related data that is unique to an individual palette object.
 old-location: display\dd_palette_local.htm

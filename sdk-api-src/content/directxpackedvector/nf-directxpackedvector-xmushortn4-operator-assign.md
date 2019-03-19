@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN4.operator-assign
-title: XMUSHORTN4::operator-assign
+title: XMUSHORTN4::operator-assign (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMUSHORTN4 to the current instance of XMUSHORTN4.
 old-location: dxmath\xmushortn4_operator_eq.htm

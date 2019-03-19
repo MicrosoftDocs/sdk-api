@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqCancelWorkItem
-title: RtwqCancelWorkItem function
+title: RtwqCancelWorkItem function (rtworkq.h)
 author: windows-sdk-content
 description: Attempts to cancel an asynchronous operation that was scheduled with RtwqScheduleWorkItem.
 old-location: base\rtwqcancelworkitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaQueryDomainInformationPolicy
-title: LsaQueryDomainInformationPolicy function
+title: LsaQueryDomainInformationPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves domain information from the Policyobject.
 old-location: security\lsaquerydomaininformationpolicy.htm

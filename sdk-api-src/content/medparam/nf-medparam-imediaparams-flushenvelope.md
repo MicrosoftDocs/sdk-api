@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParams.FlushEnvelope
-title: IMediaParams::FlushEnvelope
+title: IMediaParams::FlushEnvelope (medparam.h)
 author: windows-sdk-content
 description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.
 old-location: dshow\imediaparams_flushenvelope.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.IThumbnailCachePrimer.PageInThumbnail
-title: IThumbnailCachePrimer::PageInThumbnail
+title: IThumbnailCachePrimer::PageInThumbnail (thumbcache.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IThumbnailCachePrimer_PageInThumbnail.htm

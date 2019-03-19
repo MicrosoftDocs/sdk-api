@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSymbolicLink
-title: IMFSensorGroup::GetSymbolicLink
+title: IMFSensorGroup::GetSymbolicLink (mfidl.h)
 author: windows-sdk-content
 description: Gets the symbolic link name of the sensor group.
 old-location: mf\imfsensorgroup_getsymboliclink.htm

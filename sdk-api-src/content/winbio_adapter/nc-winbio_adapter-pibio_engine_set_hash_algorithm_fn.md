@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SET_HASH_ALGORITHM_FN
-title: PIBIO_ENGINE_SET_HASH_ALGORITHM_FN
+title: PIBIO_ENGINE_SET_HASH_ALGORITHM_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Selects a hash algorithm for use in subsequent operations.
 old-location: secbiomet\engineadaptersethashalgorithm.htm

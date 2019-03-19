@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetProcessActivity
-title: IMFSensorActivityReport::GetProcessActivity
+title: IMFSensorActivityReport::GetProcessActivity (mfidl.h)
 author: windows-sdk-content
 description: Gets an IMFSensorProcessActivity object representing the current process activity of a sensor.
 old-location: mf\imfsensoractivityreport_getprocessactivity.htm

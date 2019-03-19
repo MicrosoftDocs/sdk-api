@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.get_RoleDefinitions
-title: IAzScope2::get_RoleDefinitions
+title: IAzScope2::get_RoleDefinitions (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with this scope.
 old-location: security\iazscope2_roledefinitions.htm

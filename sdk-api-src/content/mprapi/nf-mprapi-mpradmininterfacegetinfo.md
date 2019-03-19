@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetInfo
-title: MprAdminInterfaceGetInfo function
+title: MprAdminInterfaceGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceGetInfo function retrieves information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacegetinfo.htm

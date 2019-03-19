@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2NearEqual
-title: XMVector2NearEqual function
+title: XMVector2NearEqual function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 2D vector is near another 2D vector.
 old-location: dxmath\xmvector2nearequal.htm

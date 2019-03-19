@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.WriteData
-title: IDsAdminNewObjExt::WriteData
+title: IDsAdminNewObjExt::WriteData (dsadmin.h)
 author: windows-sdk-content
 description: Enables the object creation wizard extension to write its data into an object in Active Directory Domain Services.
 old-location: ad\idsadminnewobjext_writedata.htm

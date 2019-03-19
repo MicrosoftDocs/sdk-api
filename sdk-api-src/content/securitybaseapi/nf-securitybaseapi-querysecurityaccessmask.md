@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.QuerySecurityAccessMask
-title: QuerySecurityAccessMask function
+title: QuerySecurityAccessMask function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates an access mask that represents the access permissions necessary to query the specified object security information.
 old-location: security\querysecurityaccessmask.htm

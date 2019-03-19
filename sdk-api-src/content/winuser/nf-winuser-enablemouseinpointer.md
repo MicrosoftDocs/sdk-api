@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnableMouseInPointer
-title: EnableMouseInPointer function
+title: EnableMouseInPointer function (winuser.h)
 author: windows-sdk-content
 description: Enables the mouse to act as a pointer input device and send WM_POINTER messages.
 old-location: inputmsg\enablemouseinpointer.htm

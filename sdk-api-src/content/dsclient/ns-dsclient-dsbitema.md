@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient.__unnamed_struct_8
-title: DSBITEMA
+title: DSBITEMA (dsclient.h)
 author: windows-sdk-content
 description: Contains data about an item in the Active Directory container browser dialog box.
 old-location: ad\dsbitem.htm

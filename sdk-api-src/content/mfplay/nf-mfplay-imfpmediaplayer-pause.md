@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Pause
-title: IMFPMediaPlayer::Pause
+title: IMFPMediaPlayer::Pause (mfplay.h)
 author: windows-sdk-content
 description: Pauses playback.
 old-location: mf\imfpmediaplayer_pause.htm

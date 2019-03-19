@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaDbGetSecurityInfo0
-title: IPsecSaDbGetSecurityInfo0 function
+title: IPsecSaDbGetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for the IPsec security association (SA) database.
 old-location: fwp\ipsecsadbgetsecurityinfo0.htm

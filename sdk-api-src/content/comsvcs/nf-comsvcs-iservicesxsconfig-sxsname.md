@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsName
-title: IServiceSxsConfig::SxsName
+title: IServiceSxsConfig::SxsName (comsvcs.h)
 author: windows-sdk-content
 description: Sets the file name of the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsname.htm

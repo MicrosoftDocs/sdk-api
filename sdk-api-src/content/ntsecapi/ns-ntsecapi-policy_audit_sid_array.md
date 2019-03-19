@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._POLICY_AUDIT_SID_ARRAY
-title: POLICY_AUDIT_SID_ARRAY
+title: POLICY_AUDIT_SID_ARRAY (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies an array of SID structures that represent Windows users or groups.
 old-location: security\policy_audit_sid_array.htm

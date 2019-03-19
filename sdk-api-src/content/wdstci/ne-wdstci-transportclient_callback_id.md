@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstci._TRANSPORTCLIENT_CALLBACK_ID
-title: TRANSPORTCLIENT_CALLBACK_ID
+title: TRANSPORTCLIENT_CALLBACK_ID (wdstci.h)
 author: windows-sdk-content
 description: This enumeration is received by the WdsTransportClientRegisterCallback function.
 old-location: wds\transportclient_callback_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualAllocExNuma
-title: VirtualAllocExNuma function
+title: VirtualAllocExNuma function (memoryapi.h)
 author: windows-sdk-content
 description: Reserves, commits, or changes the state of a region of memory within the virtual address space of the specified process, and specifies the NUMA node for the physical memory.
 old-location: base\virtualallocexnuma.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_TaskUserTextArguments
-title: IAlertDataCollector::get_TaskUserTextArguments
+title: IAlertDataCollector::get_TaskUserTextArguments (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the command-line arguments to pass to the Task Scheduler job specified in the IAlertDataCollector::Task property.
 old-location: pla\ialertdatacollector_taskusertextarguments.htm

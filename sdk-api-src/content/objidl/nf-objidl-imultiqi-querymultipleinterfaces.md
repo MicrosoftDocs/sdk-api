@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMultiQI.QueryMultipleInterfaces
-title: IMultiQI::QueryMultipleInterfaces
+title: IMultiQI::QueryMultipleInterfaces (objidl.h)
 author: windows-sdk-content
 description: Retrieves pointers to multiple supported interfaces on an object.
 old-location: com\imultiqi_querymultipleinterfaces.htm

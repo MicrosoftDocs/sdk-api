@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLEWHICHMK
-title: OLEWHICHMK
+title: OLEWHICHMK (oleidl.h)
 author: windows-sdk-content
 description: Indicates which part of an object's moniker is being set or retrieved.
 old-location: com\olewhichmk.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManDeinitialize
-title: WSManDeinitialize function
+title: WSManDeinitialize function (wsman.h)
 author: windows-sdk-content
 description: Deinitializes the Windows Remote Management client stack.
 old-location: winrm\wsmandeinitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DlgDirListA
-title: DlgDirListA function
+title: DlgDirListA function (winuser.h)
 author: windows-sdk-content
 description: Replaces the contents of a list box with the names of the subdirectories and files in a specified directory. You can filter the list of names by specifying a set of file attributes. The list can optionally include mapped drives.
 old-location: controls\DlgDirList.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiRecordGetStringW
-title: MsiRecordGetStringW function
+title: MsiRecordGetStringW function (msiquery.h)
 author: windows-sdk-content
 description: The MsiRecordGetString function returns the string value of a record field.
 old-location: setup\msirecordgetstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.SetHeader
-title: IFEDictionary::SetHeader
+title: IFEDictionary::SetHeader (msime.h)
 author: windows-sdk-content
 description: Sets a dictionary header in a dictionary file.
 old-location: intl\ifedictionary_setheader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.EmptyWorkingSet
-title: EmptyWorkingSet function
+title: EmptyWorkingSet function (psapi.h)
 author: windows-sdk-content
 description: Removes as many pages as possible from the working set of the specified process.
 old-location: psapi\emptyworkingset.htm

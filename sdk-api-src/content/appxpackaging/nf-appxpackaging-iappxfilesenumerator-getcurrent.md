@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFilesEnumerator.GetCurrent
-title: IAppxFilesEnumerator::GetCurrent
+title: IAppxFilesEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the payload file at the current position of the enumerator.
 old-location: appxpkg\iappxfilesenumerator_getcurrent.htm

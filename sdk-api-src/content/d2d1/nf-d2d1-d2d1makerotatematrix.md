@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.D2D1MakeRotateMatrix
-title: D2D1MakeRotateMatrix function
+title: D2D1MakeRotateMatrix function (d2d1.h)
 author: windows-sdk-content
 description: Creates a rotation transformation that rotates by the specified angle about the specified point.
 old-location: direct2d\d2d1makerotatematrix.htm

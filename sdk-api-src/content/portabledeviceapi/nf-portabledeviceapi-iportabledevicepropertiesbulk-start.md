@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.Start
-title: IPortableDevicePropertiesBulk::Start
+title: IPortableDevicePropertiesBulk::Start (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Start method starts a queued operation.
 old-location: wpdsdk\iportabledevicepropertiesbulk_start.htm

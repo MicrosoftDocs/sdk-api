@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_MenuAttributes
-title: DVD_MenuAttributes
+title: DVD_MenuAttributes (strmif.h)
 author: windows-sdk-content
 description: The DVD_MenuAttributes structure contains information about a DVD menu. The IDvdInfo2::GetTitleAttributes method fills in a DVD_MenuAttributes structure for a specified stream.
 old-location: dshow\dvd_menuattributes.htm

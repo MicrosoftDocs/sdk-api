@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_COUNTER_INFO
-title: D3D11_COUNTER_INFO
+title: D3D11_COUNTER_INFO (d3d11.h)
 author: windows-sdk-content
 description: Information about the video card's performance counter capabilities.
 old-location: direct3d11\d3d11_counter_info.htm

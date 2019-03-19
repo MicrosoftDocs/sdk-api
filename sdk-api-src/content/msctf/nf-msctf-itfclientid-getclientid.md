@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfClientId.GetClientId
-title: ITfClientId::GetClientId
+title: ITfClientId::GetClientId (msctf.h)
 author: windows-sdk-content
 description: ITfClientId::GetClientId method
 old-location: tsf\itfclientid_getclientid.htm

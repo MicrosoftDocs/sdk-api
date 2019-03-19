@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsNameTranslate
-title: IADsNameTranslate
+title: IADsNameTranslate (iads.h)
 author: windows-sdk-content
 description: The IADsNameTranslateinterface translates distinguished names (DNs) among various formats as defined in the ADS_NAME_TYPE_ENUM enumeration. The feature is available to objects in Active Directory.
 old-location: adsi\iadsnametranslate.htm

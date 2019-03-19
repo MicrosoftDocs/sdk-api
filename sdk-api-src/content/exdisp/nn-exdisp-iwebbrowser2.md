@@ -1,6 +1,6 @@
 ---
 UID: NN:exdisp.IWebBrowser2
-title: IWebBrowser2
+title: IWebBrowser2 (exdisp.h)
 author: windows-sdk-content
 description: Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation).
 old-location: winprog\iwebbrowser2.htm

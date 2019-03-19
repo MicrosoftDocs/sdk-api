@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SetCurSel
-title: ListBox_SetCurSel macro
+title: ListBox_SetCurSel macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the currently selected item in a single-selection list box. You can use this macro or send the LB_SETCURSEL message explicitly.
 old-location: controls\ListBox_SetCurSel.htm

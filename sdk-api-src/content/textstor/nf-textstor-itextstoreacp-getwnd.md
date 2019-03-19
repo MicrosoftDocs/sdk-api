@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetWnd
-title: ITextStoreACP::GetWnd
+title: ITextStoreACP::GetWnd (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itextstoreacp_getwnd.htm

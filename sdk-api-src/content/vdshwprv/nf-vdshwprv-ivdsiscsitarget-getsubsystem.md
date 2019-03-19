@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.GetSubSystem
-title: IVdsIscsiTarget::GetSubSystem
+title: IVdsIscsiTarget::GetSubSystem (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the subsystem to which the target belongs.
 old-location: base\ivdsiscsitarget_getsubsystem.htm

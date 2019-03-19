@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhCloseDecodingHandle
-title: TdhCloseDecodingHandle function
+title: TdhCloseDecodingHandle function (tdh.h)
 author: windows-sdk-content
 description: Frees any resources associated with the input decoding handle.
 old-location: etw\tdhclosedecodinghandle.htm

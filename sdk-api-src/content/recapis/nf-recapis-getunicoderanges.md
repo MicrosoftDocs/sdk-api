@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetUnicodeRanges
-title: GetUnicodeRanges function
+title: GetUnicodeRanges function (recapis.h)
 author: windows-sdk-content
 description: Returns the ranges of Unicode points that the recognizer supports.
 old-location: tablet\getunicoderanges.htm

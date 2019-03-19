@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontFamilyName
-title: IDWriteTextLayout::SetFontFamilyName
+title: IDWriteTextLayout::SetFontFamilyName (dwrite.h)
 author: windows-sdk-content
 description: Sets null-terminated font family name for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetFontFamilyName.htm

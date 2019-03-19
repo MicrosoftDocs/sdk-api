@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetOptions
-title: SymGetOptions function
+title: SymGetOptions function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the current option mask.
 old-location: base\symgetoptions.htm

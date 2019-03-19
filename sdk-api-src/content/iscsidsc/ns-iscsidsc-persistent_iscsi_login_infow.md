@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_22
-title: PERSISTENT_ISCSI_LOGIN_INFOW
+title: PERSISTENT_ISCSI_LOGIN_INFOW (iscsidsc.h)
 author: windows-sdk-content
 description: PERSISTENT_ISCSI_LOGIN_INFO structure contains information that describes a login session established by the Microsoft iSCSI initiator service after the machine boots up.
 old-location: iscsidisc\persistent_iscsi_login_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetColumn
-title: IMetaDataTables::GetColumn
+title: IMetaDataTables::GetColumn (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the value contained in the cell of the specified column and row in the given table.
 old-location: winrt\imetadatatables_getcolumn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelperInfo.GetAttributeInfo
-title: INetDiagHelperInfo::GetAttributeInfo
+title: INetDiagHelperInfo::GetAttributeInfo (ndhelper.h)
 author: windows-sdk-content
 description: The GetAttributeInfo method retrieves the list of key parameters needed by the Helper Class Extension.
 old-location: ndf\inetdiaghelperinfo_getattributeinfo.htm

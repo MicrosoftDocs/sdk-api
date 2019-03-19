@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetIntArray
-title: ID3D10EffectScalarVariable::SetIntArray
+title: ID3D10EffectScalarVariable::SetIntArray (d3d10effect.h)
 author: windows-sdk-content
 description: Set an array of integer variables.
 old-location: direct3d10\id3d10effectscalarvariable_setintarray.htm

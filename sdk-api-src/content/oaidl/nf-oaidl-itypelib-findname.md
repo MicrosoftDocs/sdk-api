@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib.FindName
-title: ITypeLib::FindName
+title: ITypeLib::FindName (oaidl.h)
 author: windows-sdk-content
 description: Finds occurrences of a type description in a type library. This may be used to quickly verify that a name exists in a type library.
 old-location: automat\itypelib_findname.htm

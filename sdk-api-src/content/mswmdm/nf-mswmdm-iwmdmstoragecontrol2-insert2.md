@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl2.Insert2
-title: IWMDMStorageControl2::Insert2
+title: IWMDMStorageControl2::Insert2 (mswmdm.h)
 author: windows-sdk-content
 description: The Insert2 method puts content into/next to the storage. This method extends IWMDMStorageControl::Insert by allowing the application to specify a new destination name, and provide a pointer to a custom COM object.
 old-location: wmdm\iwmdmstoragecontrol2_insert2.htm

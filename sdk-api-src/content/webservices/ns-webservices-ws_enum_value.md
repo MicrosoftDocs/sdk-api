@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ENUM_VALUE
-title: WS_ENUM_VALUE
+title: WS_ENUM_VALUE (webservices.h)
 author: windows-sdk-content
 description: Provides serialization information about a single value that is part of an enumeration (WS_ENUM_DESCRIPTION).
 old-location: wsw\ws_enum_value.htm

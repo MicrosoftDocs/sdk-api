@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICspStatuses
-title: ICspStatuses
+title: ICspStatuses (certenroll.h)
 author: windows-sdk-content
 description: Contains information about a cryptographic provider/algorithm pair.
 old-location: security\icspstatuses.htm

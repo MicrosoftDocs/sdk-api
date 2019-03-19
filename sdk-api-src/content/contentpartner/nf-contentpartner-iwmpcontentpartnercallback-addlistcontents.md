@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.AddListContents
-title: IWMPContentPartnerCallback::AddListContents
+title: IWMPContentPartnerCallback::AddListContents (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The AddListContents method adds a set of media items to a list.
 old-location: wmp\iwmpcontentpartnercallback_addlistcontents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Start
-title: ITMediaControl::Start
+title: ITMediaControl::Start (tapi3if.h)
 author: windows-sdk-content
 description: The Start method starts the action at the current location.
 old-location: tapi3\itmediacontrol_start.htm

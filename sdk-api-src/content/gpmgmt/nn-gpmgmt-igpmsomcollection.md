@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMSOMCollection
-title: IGPMSOMCollection
+title: IGPMSOMCollection (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMSOMCollection interface represents a collection of GPMSOM objects.
 old-location: gpmc\igpmsomcollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemCallResult
-title: IWbemCallResult
+title: IWbemCallResult (wbemcli.h)
 author: windows-sdk-content
 description: Used for semisynchronous calls of the IWbemServices interface. When making such calls, the called IWbemServices method returns immediately, along with an IWbemCallResult object.
 old-location: wmi\iwbemcallresult.htm

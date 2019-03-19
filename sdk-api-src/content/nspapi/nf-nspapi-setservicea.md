@@ -1,6 +1,6 @@
 ---
 UID: NF:nspapi.SetServiceA
-title: SetServiceA function
+title: SetServiceA function (nspapi.h)
 author: windows-sdk-content
 description: The SetService function registers or removes from the registry a network service within one or more namespaces.
 old-location: winsock\setservice_2.htm

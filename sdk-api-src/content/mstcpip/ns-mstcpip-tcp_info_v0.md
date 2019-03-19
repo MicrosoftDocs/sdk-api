@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._TCP_INFO_v0
-title: TCP_INFO_v0
+title: TCP_INFO_v0 (mstcpip.h)
 author: windows-sdk-content
 description: Contains the Transmission Control Protocol (TCP) statistics that were collected for a socket.
 old-location: winsock\tcp_info_v0.htm

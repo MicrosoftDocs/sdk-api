@@ -1,6 +1,6 @@
 ---
 UID: NN:indexsrv.IStemmer
-title: IStemmer
+title: IStemmer (indexsrv.h)
 author: windows-sdk-content
 description: Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a specified word.
 old-location: search\_search_IStemmer.htm

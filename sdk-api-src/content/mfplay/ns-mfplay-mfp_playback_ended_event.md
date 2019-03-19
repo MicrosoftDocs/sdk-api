@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_PLAYBACK_ENDED_EVENT
-title: MFP_PLAYBACK_ENDED_EVENT
+title: MFP_PLAYBACK_ENDED_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_PLAYBACK_ENDED event.
 old-location: mf\mfp_playback_ended_event.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTRegister
-title: MFTRegister function
+title: MFTRegister function (mfapi.h)
 author: windows-sdk-content
 description: Adds information about a Media Foundation transform (MFT) to the registry.
 old-location: mf\mftregister.htm

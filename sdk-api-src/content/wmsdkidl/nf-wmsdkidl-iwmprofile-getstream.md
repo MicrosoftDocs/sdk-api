@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetStream
-title: IWMProfile::GetStream
+title: IWMProfile::GetStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStream method retrieves a stream from the profile.
 old-location: wmformat\iwmprofile_getstream.htm

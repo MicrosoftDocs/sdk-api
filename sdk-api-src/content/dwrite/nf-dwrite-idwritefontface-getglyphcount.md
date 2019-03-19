@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGlyphCount
-title: IDWriteFontFace::GetGlyphCount
+title: IDWriteFontFace::GetGlyphCount (dwrite.h)
 author: windows-sdk-content
 description: Obtains the number of glyphs in the font face.
 old-location: directwrite\IDWriteFontFace_GetGlyphCount.htm

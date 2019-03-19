@@ -1,6 +1,6 @@
 ---
 UID: NS:mileffects.MILMatrixF
-title: MILMatrixF
+title: MILMatrixF (mileffects.h)
 author: windows-sdk-content
 description: Represents a 4x4 affine transformation matrix.
 old-location: wibe\_wibe_milmatrixf.htm

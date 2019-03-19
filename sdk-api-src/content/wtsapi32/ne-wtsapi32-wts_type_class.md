@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsapi32._WTS_TYPE_CLASS
-title: WTS_TYPE_CLASS
+title: WTS_TYPE_CLASS (wtsapi32.h)
 author: windows-sdk-content
 description: Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
 old-location: termserv\wts_type_class.htm

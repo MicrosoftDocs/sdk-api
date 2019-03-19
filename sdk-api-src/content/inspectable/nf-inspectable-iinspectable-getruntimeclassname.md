@@ -1,6 +1,6 @@
 ---
 UID: NF:inspectable.IInspectable.GetRuntimeClassName
-title: IInspectable::GetRuntimeClassName
+title: IInspectable::GetRuntimeClassName (inspectable.h)
 author: windows-sdk-content
 description: Gets the fully qualified name of the current Windows Runtime object.
 old-location: winrt\iinspectable_getruntimeclassname.htm

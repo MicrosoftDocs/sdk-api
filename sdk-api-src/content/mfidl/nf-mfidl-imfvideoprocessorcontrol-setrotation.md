@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetRotation
-title: IMFVideoProcessorControl::SetRotation
+title: IMFVideoProcessorControl::SetRotation (mfidl.h)
 author: windows-sdk-content
 description: Specifies whether to rotate the video to the correct orientation.
 old-location: mf\imfvideoprocessorcontrol_setrotation.htm

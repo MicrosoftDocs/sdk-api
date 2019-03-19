@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_ReceiptOptions
-title: IFaxServer::get_ReceiptOptions
+title: IFaxServer::get_ReceiptOptions (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_ReceiptOptions property creates a IFaxReceiptOptions configuration interface. The object permits a fax client application to set and retrieve the receipt configuration that the fax service uses to send fax receipts.
 old-location: fax\_mfax_faxserver_receiptoptions_cpp.htm

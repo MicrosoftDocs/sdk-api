@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxRecipient.get_FaxNumber
-title: IFaxRecipient::get_FaxNumber
+title: IFaxRecipient::get_FaxNumber (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxRecipient::get_FaxNumber property is a null-terminated string that contains the fax number associated with the recipient.
 old-location: fax\_mfax_faxrecipient_cpp_mfax_faxrecipient_faxnumber_cpp.htm

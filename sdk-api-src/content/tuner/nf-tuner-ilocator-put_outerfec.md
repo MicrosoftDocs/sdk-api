@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.put_OuterFEC
-title: ILocator::put_OuterFEC
+title: ILocator::put_OuterFEC (tuner.h)
 author: windows-sdk-content
 description: The put_OuterFEC method sets the type of outer FEC to use.
 old-location: mstv\ilocator_put_outerfec.htm

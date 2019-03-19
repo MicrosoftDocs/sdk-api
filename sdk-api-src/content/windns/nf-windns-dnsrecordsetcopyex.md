@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsRecordSetCopyEx
-title: DnsRecordSetCopyEx function
+title: DnsRecordSetCopyEx function (windns.h)
 author: windows-sdk-content
 description: The DnsRecordSetCopyEx function creates a copy of a specified resource record set. The DnsRecordSetCopyEx function is also capable of converting the character encoding during the copy operation.
 old-location: dns\dnsrecordsetcopyex.htm

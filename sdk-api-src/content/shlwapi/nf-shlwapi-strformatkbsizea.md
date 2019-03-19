@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrFormatKBSizeA
-title: StrFormatKBSizeA function
+title: StrFormatKBSizeA function (shlwapi.h)
 author: windows-sdk-content
 description: Converts a numeric value into a string that represents the number expressed as a size value in kilobytes.
 old-location: shell\StrFormatKBSize.htm

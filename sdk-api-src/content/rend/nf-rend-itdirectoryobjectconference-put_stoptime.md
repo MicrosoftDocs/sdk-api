@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_StopTime
-title: ITDirectoryObjectConference::put_StopTime
+title: ITDirectoryObjectConference::put_StopTime (rend.h)
 author: windows-sdk-content
 description: The put_StopTime method sets the stop time of the conference. If the end time is zero, the session is not bounded.
 old-location: tapi3\itdirectoryobjectconference_put_stoptime.htm

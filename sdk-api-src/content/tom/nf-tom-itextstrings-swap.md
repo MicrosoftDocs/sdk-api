@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.Swap
-title: ITextStrings::Swap
+title: ITextStrings::Swap (tom.h)
 author: windows-sdk-content
 description: Swaps the top two strings in the collection.
 old-location: controls\itextstrings_swap.htm

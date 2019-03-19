@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.GetStreamActiveState
-title: IVMRVideoStreamControl::GetStreamActiveState
+title: IVMRVideoStreamControl::GetStreamActiveState (strmif.h)
 author: windows-sdk-content
 description: The GetStreamActiveState method retrieves the state of the stream.
 old-location: dshow\ivmrvideostreamcontrol_getstreamactivestate.htm

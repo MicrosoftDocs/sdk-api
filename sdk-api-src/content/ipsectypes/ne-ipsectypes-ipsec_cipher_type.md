@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_CIPHER_TYPE_
-title: IPSEC_CIPHER_TYPE
+title: IPSEC_CIPHER_TYPE (ipsectypes.h)
 author: windows-sdk-content
 description: Indicates the type of encryption algorithm used in an IPsec SA for data privacy.
 old-location: fwp\ipsec_cipher_type_enum.htm

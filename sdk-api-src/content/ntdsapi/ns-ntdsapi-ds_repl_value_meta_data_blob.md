@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_VALUE_META_DATA_BLOB
-title: DS_REPL_VALUE_META_DATA_BLOB
+title: DS_REPL_VALUE_META_DATA_BLOB (ntdsapi.h)
 author: windows-sdk-content
 description: Used to contain attribute value replication metadata.
 old-location: ad\ds_repl_value_meta_data_blob.htm

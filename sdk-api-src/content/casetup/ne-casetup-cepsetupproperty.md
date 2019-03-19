@@ -1,6 +1,6 @@
 ---
 UID: NE:casetup.__MIDL___MIDL_itf_casetup_0000_0005_0001
-title: CEPSetupProperty
+title: CEPSetupProperty (casetup.h)
 author: windows-sdk-content
 description: Used by the GetProperty and SetProperty methods on the ICertificateEnrollmentPolicyServerSetup interface to specify the type of property information to retrieve or set.
 old-location: security\cepsetupproperty.htm

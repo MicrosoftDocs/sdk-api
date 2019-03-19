@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptionFactory3
-title: IAppxEncryptionFactory3
+title: IAppxEncryptionFactory3 (appxpackaging.h)
 author: windows-sdk-content
 description: Creates objects for encrypting, decrypting, reading, and writing Windows app packages and bundles.
 old-location: appxpkg\iappxencryptionfactory3.htm

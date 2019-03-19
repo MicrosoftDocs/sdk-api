@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_UsedRoutingMethods
-title: IFaxDevice::get_UsedRoutingMethods
+title: IFaxDevice::get_UsedRoutingMethods (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::get_UsedRoutingMethods property is an array of strings that contains the GUIDs associated with the routing methods that the device uses, where each GUID represents an inbound routing method (FaxInboundRoutingMethod).
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_usedroutingmethods_cpp.htm

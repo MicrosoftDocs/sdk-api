@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFGetSupportedMimeTypes
-title: MFGetSupportedMimeTypes function
+title: MFGetSupportedMimeTypes function (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the MIME types that are registered for the source resolver.
 old-location: mf\mfgetsupportedmimetypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmReleaseContext
-title: ImmReleaseContext function
+title: ImmReleaseContext function (imm.h)
 author: windows-sdk-content
 description: Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the ImmGetContext function.
 old-location: intl\immreleasecontext.htm

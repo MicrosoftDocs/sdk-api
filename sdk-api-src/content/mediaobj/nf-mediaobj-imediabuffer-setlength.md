@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaBuffer.SetLength
-title: IMediaBuffer::SetLength
+title: IMediaBuffer::SetLength (mediaobj.h)
 author: windows-sdk-content
 description: The SetLength method specifies the length of the data currently in the buffer.
 old-location: dshow\imediabuffer_setlength.htm

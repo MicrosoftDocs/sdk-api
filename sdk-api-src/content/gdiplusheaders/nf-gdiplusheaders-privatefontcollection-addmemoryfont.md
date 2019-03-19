@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.AddMemoryFont
-title: PrivateFontCollection::AddMemoryFont
+title: PrivateFontCollection::AddMemoryFont (gdiplusheaders.h)
 author: windows-sdk-content
 description: The PrivateFontCollection::AddMemoryFont method adds a font that is contained in system memory to a Windows GDI+ font collection.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_AddMemoryFont_memory_length_.htm

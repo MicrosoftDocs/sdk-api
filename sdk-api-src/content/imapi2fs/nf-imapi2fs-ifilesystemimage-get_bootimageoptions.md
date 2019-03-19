@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_BootImageOptions
-title: IFileSystemImage::get_BootImageOptions
+title: IFileSystemImage::get_BootImageOptions (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the boot image that you want to add to the file system image.
 old-location: imapi\ifilesystemimage_get_bootimageoptions.htm

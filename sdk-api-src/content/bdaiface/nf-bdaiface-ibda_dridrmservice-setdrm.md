@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DRIDRMService.SetDRM
-title: IBDA_DRIDRMService::SetDRM
+title: IBDA_DRIDRMService::SetDRM (bdaiface.h)
 author: windows-sdk-content
 description: Selects a Digital Rights Management (DRM) application for a Media Transform Device (MTD) in a Protected Broadcast Device Architecture (PBDA) graph.
 old-location: mstv\ibda_dridrmservice_setdrm.htm

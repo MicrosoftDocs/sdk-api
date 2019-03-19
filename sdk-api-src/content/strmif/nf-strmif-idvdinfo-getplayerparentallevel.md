@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetPlayerParentalLevel
-title: IDvdInfo::GetPlayerParentalLevel
+title: IDvdInfo::GetPlayerParentalLevel (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current parental level and country/region code settings for the DVD player.
 old-location: dshow\idvdinfo_getplayerparentallevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_TARGETINFO
-title: SECPKG_TARGETINFO
+title: SECPKG_TARGETINFO (ntsecpkg.h)
 author: windows-sdk-content
 description: Specifies the target of an authentication request.
 old-location: security\secpkg_targetinfo.htm

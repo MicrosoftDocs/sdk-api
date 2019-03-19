@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.CheckDeviceFormatConversion
-title: IDirect3D9::CheckDeviceFormatConversion
+title: IDirect3D9::CheckDeviceFormatConversion (d3d9helper.h)
 author: windows-sdk-content
 description: Tests the device to see if it supports conversion from one display format to another.
 old-location: direct3d9\idirect3d9__checkdeviceformatconversion.htm

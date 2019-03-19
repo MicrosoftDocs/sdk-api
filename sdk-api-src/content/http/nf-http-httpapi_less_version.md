@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTPAPI_LESS_VERSION
-title: HTTPAPI_LESS_VERSION macro
+title: HTTPAPI_LESS_VERSION macro (http.h)
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is less than a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_less_version.htm

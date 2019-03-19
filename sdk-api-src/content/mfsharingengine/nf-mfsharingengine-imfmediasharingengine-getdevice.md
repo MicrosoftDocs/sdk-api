@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngine.GetDevice
-title: IMFMediaSharingEngine::GetDevice
+title: IMFMediaSharingEngine::GetDevice (mfsharingengine.h)
 author: windows-sdk-content
 description: Gets information about the media sharing device.
 old-location: mf\imfmediasharingengine_getdevice.htm

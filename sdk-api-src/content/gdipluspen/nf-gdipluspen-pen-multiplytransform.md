@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.MultiplyTransform
-title: Pen::MultiplyTransform
+title: Pen::MultiplyTransform (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::MultiplyTransform method updates the world transformation matrix of this Pen object with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_.htm

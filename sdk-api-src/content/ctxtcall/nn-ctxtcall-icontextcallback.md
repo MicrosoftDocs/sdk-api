@@ -1,6 +1,6 @@
 ---
 UID: NN:ctxtcall.IContextCallback
-title: IContextCallback
+title: IContextCallback (ctxtcall.h)
 author: windows-sdk-content
 description: Provides a mechanism to execute a function inside a specific COM+ object context.
 old-location: com\icontextcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
-title: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+title: CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT (clusapi.h)
 author: windows-sdk-content
 description: Sent with the CLUSCTL_RESOURCE_STATE_CHANGE_REASON control code to provide the reason for a resource state change.
 old-location: mscs\clusctl_resource_state_change_reason_struct.htm

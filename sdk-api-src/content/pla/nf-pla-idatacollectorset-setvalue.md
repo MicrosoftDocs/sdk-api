@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.SetValue
-title: IDataCollectorSet::SetValue
+title: IDataCollectorSet::SetValue (pla.h)
 author: windows-sdk-content
 description: Sets a user-defined value.
 old-location: pla\idatacollectorset_setvalue.htm

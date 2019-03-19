@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerSetCredentials
-title: EapPeerSetCredentials function
+title: EapPeerSetCredentials function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Supplies new or updated authentication credentials to the EAP method.
 old-location: eaphost\eappeersetcredentials.htm

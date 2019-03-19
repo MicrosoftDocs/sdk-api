@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetInterpolationMode
-title: IDCompositionAffineTransform2DEffect::SetInterpolationMode
+title: IDCompositionAffineTransform2DEffect::SetInterpolationMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the interpolation mode of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_setinterpolationmode.htm

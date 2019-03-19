@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SOURCE_MODE
-title: DISPLAYCONFIG_SOURCE_MODE
+title: DISPLAYCONFIG_SOURCE_MODE (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_SOURCE_MODE structure represents a point or an offset in a two-dimensional space.
 old-location: display\displayconfig_source_mode.htm

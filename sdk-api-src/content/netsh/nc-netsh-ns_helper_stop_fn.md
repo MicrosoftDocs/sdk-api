@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_HELPER_STOP_FN
-title: NS_HELPER_STOP_FN
+title: NS_HELPER_STOP_FN (netsh.h)
 author: windows-sdk-content
 description: Is the stop function for helpers.
 old-location: netshell\ns_helper_stop_fn.htm

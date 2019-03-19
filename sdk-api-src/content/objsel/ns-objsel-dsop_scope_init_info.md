@@ -1,6 +1,6 @@
 ---
 UID: NS:objsel._DSOP_SCOPE_INIT_INFO
-title: DSOP_SCOPE_INIT_INFO
+title: DSOP_SCOPE_INIT_INFO (objsel.h)
 author: windows-sdk-content
 description: The DSOP_SCOPE_INIT_INFO structure describes one or more scope types that have the same attributes.
 old-location: ad\dsop_scope_init_info.htm

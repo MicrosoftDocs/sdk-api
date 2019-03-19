@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofShouldCompressBinaries
-title: WofShouldCompressBinaries function
+title: WofShouldCompressBinaries function (wofapi.h)
 author: windows-sdk-content
 description: Indicates whether compression should be used on a particular volume, and if so, which compression algorithm should be used.
 old-location: fs\wofshouldcompressbinaries.htm

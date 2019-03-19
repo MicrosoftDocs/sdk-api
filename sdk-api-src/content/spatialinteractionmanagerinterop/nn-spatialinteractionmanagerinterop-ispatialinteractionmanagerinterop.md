@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop
-title: ISpatialInteractionManagerInterop
+title: ISpatialInteractionManagerInterop (spatialinteractionmanagerinterop.h)
 author: windows-sdk-content
 description: Enables interoperability with a Universal Windows Platform (UWP) SpatialInteractionManager object and provides access to SpatialInteractionManager members for accessing user input from hands, motion controllers, and system voice commands.
 old-location: mixedreality\ispatialinteractionmanagerinterop.htm

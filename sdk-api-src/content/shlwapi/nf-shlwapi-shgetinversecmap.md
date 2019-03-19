@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHGetInverseCMAP
-title: SHGetInverseCMAP function
+title: SHGetInverseCMAP function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves the inverse color table mapping for the halftone palette.
 old-location: shell\SHGetInverseCMAP.htm

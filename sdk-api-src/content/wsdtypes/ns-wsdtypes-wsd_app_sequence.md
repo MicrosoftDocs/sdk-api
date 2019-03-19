@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_APP_SEQUENCE
-title: WSD_APP_SEQUENCE
+title: WSD_APP_SEQUENCE (wsdtypes.h)
 author: windows-sdk-content
 description: Represents application sequence information relating to WS-Discovery messages.
 old-location: ncd\wsd_app_sequence_struct.htm

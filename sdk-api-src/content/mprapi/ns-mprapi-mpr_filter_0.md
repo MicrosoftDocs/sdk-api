@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_FILTER_0
-title: MPR_FILTER_0
+title: MPR_FILTER_0 (mprapi.h)
 author: windows-sdk-content
 description: Contains static filter configuration information.
 old-location: rras\mpr_filter_0.htm

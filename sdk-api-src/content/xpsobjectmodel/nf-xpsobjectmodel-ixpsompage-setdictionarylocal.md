@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetDictionaryLocal
-title: IXpsOMPage::SetDictionaryLocal
+title: IXpsOMPage::SetDictionaryLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMDictionary interface pointer of the page's local dictionary resource.
 old-location: xps\ixpsompage_setdictionarylocal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeExtensions.InitializeDecode
-title: IX509AttributeExtensions::InitializeDecode
+title: IX509AttributeExtensions::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the attribute value.
 old-location: security\ix509attributeextensions_initializedecode_method.htm

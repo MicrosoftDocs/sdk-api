@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchManager2
-title: ISearchManager2
+title: ISearchManager2 (searchapi.h)
 author: windows-sdk-content
 description: Enabled applications to create and delete custom catalogs in the Windows Search indexer.
 old-location: search\isearchmanager2.htm

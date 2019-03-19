@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetOutputChannelColorProfile
-title: ImageAttributes::SetOutputChannelColorProfile
+title: ImageAttributes::SetOutputChannelColorProfile (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetOutputChannelColorProfile method sets the output channel color-profile file for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetOutputChannelColorProfile_colorProfileFilename_type_.htm

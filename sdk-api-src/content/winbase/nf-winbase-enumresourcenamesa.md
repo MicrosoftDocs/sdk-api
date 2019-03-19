@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EnumResourceNamesA
-title: EnumResourceNamesA function
+title: EnumResourceNamesA function (winbase.h)
 author: windows-sdk-content
 description: Enumerates resources of a specified type within a binary module.
 old-location: menurc\enumresourcenames.htm

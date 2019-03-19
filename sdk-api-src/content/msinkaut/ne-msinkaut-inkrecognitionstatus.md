@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkRecognitionStatus
-title: InkRecognitionStatus
+title: InkRecognitionStatus (msinkaut.h)
 author: windows-sdk-content
 description: Specifies whether an error occurred during recognition and, if so, which error occurred.
 old-location: tablet\inkrecognitionstatus.htm

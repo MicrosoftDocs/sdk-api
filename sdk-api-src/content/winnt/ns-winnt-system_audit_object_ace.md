@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_AUDIT_OBJECT_ACE
-title: SYSTEM_AUDIT_OBJECT_ACE
+title: SYSTEM_AUDIT_OBJECT_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for a system access control list (SACL).
 old-location: security\system_audit_object_ace.htm

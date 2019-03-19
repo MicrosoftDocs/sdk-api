@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.ISimpleAudioVolume
-title: ISimpleAudioVolume
+title: ISimpleAudioVolume (audioclient.h)
 author: windows-sdk-content
 description: The ISimpleAudioVolume interface enables a client to control the master volume level of an audio session.
 old-location: coreaudio\isimpleaudiovolume.htm

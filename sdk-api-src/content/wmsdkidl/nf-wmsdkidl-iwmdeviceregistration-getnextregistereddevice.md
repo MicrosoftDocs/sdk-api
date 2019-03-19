@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetNextRegisteredDevice
-title: IWMDeviceRegistration::GetNextRegisteredDevice
+title: IWMDeviceRegistration::GetNextRegisteredDevice (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetNextRegisteredDevice method enumerates the registered devices of a specified type.
 old-location: wmformat\iwmdeviceregistration_getnextregistereddevice.htm

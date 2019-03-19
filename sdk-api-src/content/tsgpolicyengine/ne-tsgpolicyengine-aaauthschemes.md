@@ -1,6 +1,6 @@
 ---
 UID: NE:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001
-title: AAAuthSchemes
+title: AAAuthSchemes (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Specifies the type of authentication used to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\aaauthschemes.htm

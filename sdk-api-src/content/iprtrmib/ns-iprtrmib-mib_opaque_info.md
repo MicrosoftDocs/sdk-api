@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib._MIB_OPAQUE_INFO
-title: MIB_OPAQUE_INFO
+title: MIB_OPAQUE_INFO (iprtrmib.h)
 author: windows-sdk-content
 description: Contains information returned from a MIB opaque query.
 old-location: mib\mib_opaque_info.htm

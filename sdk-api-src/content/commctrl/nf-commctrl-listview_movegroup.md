@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_MoveGroup
-title: ListView_MoveGroup macro
+title: ListView_MoveGroup macro (commctrl.h)
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\ListView_MoveGroup.htm

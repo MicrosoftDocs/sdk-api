@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMouseTracker.UnadviseMouseSink
-title: ITfMouseTracker::UnadviseMouseSink
+title: ITfMouseTracker::UnadviseMouseSink (msctf.h)
 author: windows-sdk-content
 description: ITfMouseTracker::UnadviseMouseSink method
 old-location: tsf\itfmousetracker_unadvisemousesink.htm

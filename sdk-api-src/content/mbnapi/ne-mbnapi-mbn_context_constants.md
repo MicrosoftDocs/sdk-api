@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_CONTEXT_CONSTANTS
-title: MBN_CONTEXT_CONSTANTS
+title: MBN_CONTEXT_CONSTANTS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_CONTEXT_CONSTANTS enumerated type specifies the maximum string lengths supported by members of the MBN_CONTEXT structure.
 old-location: mbn\mbn_context_constants.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetHashMethod
-title: IAppxBlockMapReader::GetHashMethod
+title: IAppxBlockMapReader::GetHashMethod (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the URI for the hash algorithm used to create block hashes in the block map.
 old-location: appxpkg\iappxblockmapreader_gethashmethod.htm

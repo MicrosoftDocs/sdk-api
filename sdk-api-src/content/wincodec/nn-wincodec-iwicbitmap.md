@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmap
-title: IWICBitmap
+title: IWICBitmap (wincodec.h)
 author: windows-sdk-content
 description: Defines methods that add the concept of writeability and static in-memory representations of bitmaps to IWICBitmapSource.
 old-location: wic\_wic_codec_iwicbitmap.htm

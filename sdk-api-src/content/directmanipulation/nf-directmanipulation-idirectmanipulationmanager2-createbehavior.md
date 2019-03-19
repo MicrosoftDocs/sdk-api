@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager2.CreateBehavior
-title: IDirectManipulationManager2::CreateBehavior
+title: IDirectManipulationManager2::CreateBehavior (directmanipulation.h)
 author: windows-sdk-content
 description: Factory method to create a behavior.
 old-location: directmanipulation\idirectmanipulationmanager2_createbehavior.htm

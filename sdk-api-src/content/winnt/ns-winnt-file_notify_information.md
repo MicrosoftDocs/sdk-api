@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._FILE_NOTIFY_INFORMATION
-title: FILE_NOTIFY_INFORMATION
+title: FILE_NOTIFY_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Describes the changes found by the ReadDirectoryChangesW function.
 old-location: fs\file_notify_information_str.htm

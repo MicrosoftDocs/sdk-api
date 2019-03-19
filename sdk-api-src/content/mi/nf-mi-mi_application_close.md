@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_Close
-title: MI_Application_Close function
+title: MI_Application_Close function (mi.h)
 author: windows-sdk-content
 description: Deinitializes the management infrastructure client API that was initialized through a call to MI_Application_Initialize.
 old-location: wmi_v2\mi_application_close.htm

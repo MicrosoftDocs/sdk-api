@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMDuplicatePubHandle
-title: DRMDuplicatePubHandle function
+title: DRMDuplicatePubHandle function (msdrm.h)
 author: windows-sdk-content
 description: Makes a copy of a DRMPUBHANDLE.
 old-location: rm\drmduplicatepubhandle.htm

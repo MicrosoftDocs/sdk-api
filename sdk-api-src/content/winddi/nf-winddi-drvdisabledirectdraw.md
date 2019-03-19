@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvDisableDirectDraw
-title: DrvDisableDirectDraw function
+title: DrvDisableDirectDraw function (winddi.h)
 author: windows-sdk-content
 description: The DrvDisableDirectDraw function disables hardware for DirectDraw use.
 old-location: display\drvdisabledirectdraw.htm

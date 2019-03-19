@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Next
-title: IEnumNetworks::Next
+title: IEnumNetworks::Next (netlistmgr.h)
 author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworks_next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.Close
-title: IOleParentUndoUnit::Close
+title: IOleParentUndoUnit::Close (ocidl.h)
 author: windows-sdk-content
 description: Closes the specified parent undo unit.
 old-location: com\ioleparentundounit_close.htm

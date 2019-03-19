@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.GetRange
-title: IAMVideoProcAmp::GetRange
+title: IAMVideoProcAmp::GetRange (strmif.h)
 author: windows-sdk-content
 description: The GetRange method gets the range and default value of a specified video property.
 old-location: dshow\iamvideoprocamp_getrange.htm

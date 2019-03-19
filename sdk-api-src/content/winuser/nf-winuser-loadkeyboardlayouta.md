@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadKeyboardLayoutA
-title: LoadKeyboardLayoutA function
+title: LoadKeyboardLayoutA function (winuser.h)
 author: windows-sdk-content
 description: Loads a new input locale identifier (formerly called the keyboard layout) into the system.
 old-location: inputdev\loadkeyboardlayout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationTimer
-title: IUIAnimationTimer
+title: IUIAnimationTimer (uianimation.h)
 author: windows-sdk-content
 description: Defines an animation timer, which provides services for managing animation timing.
 old-location: uianimation\iuianimationtimer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdviseLimits.GetMinimumQualityLevel
-title: IMFQualityAdviseLimits::GetMinimumQualityLevel
+title: IMFQualityAdviseLimits::GetMinimumQualityLevel (mfidl.h)
 author: windows-sdk-content
 description: Gets the minimum quality level that is supported by the component.
 old-location: mf\imfqualityadviselimits_getminimumqualitylevel.htm

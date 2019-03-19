@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiDecryptAuthIdentity
-title: SspiDecryptAuthIdentity function
+title: SspiDecryptAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Decrypts the specified encrypted credential.
 old-location: security\sspidecryptauthidentity.htm

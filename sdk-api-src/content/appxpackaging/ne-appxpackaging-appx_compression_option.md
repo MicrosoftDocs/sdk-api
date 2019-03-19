@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_COMPRESSION_OPTION
-title: APPX_COMPRESSION_OPTION
+title: APPX_COMPRESSION_OPTION (appxpackaging.h)
 author: windows-sdk-content
 description: Specifies the degree of compression used to store the file in the package.
 old-location: appxpkg\appx_compression_option.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreateCustomAction
-title: IFsrmFileManagementJob::CreateCustomAction
+title: IFsrmFileManagementJob::CreateCustomAction (fsrmreports.h)
 author: windows-sdk-content
 description: Creates a custom action object.
 old-location: fsrm\ifsrmfilemanagementjob_createcustomaction.htm

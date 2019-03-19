@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_COVERPAGE_TYPE_ENUM
-title: FAX_COVERPAGE_TYPE_ENUM
+title: FAX_COVERPAGE_TYPE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_COVERPAGE_TYPE_ENUM enumeration defines whether a cover page template file is a local computer cover page or a server-based cover page. It can also specify that no file is used.
 old-location: fax\_mfax_fax_coverpage_type_enum.htm

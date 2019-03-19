@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.RemoveAllControlItems
-title: IFileDialogCustomize::RemoveAllControlItems
+title: IFileDialogCustomize::RemoveAllControlItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IFileDialogCustomize_RemoveAllControlItems.htm

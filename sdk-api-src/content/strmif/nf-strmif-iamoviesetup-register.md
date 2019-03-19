@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMovieSetup.Register
-title: IAMovieSetup::Register
+title: IAMovieSetup::Register (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMovieSetup interface is deprecated. Use the AMovieDllRegisterServer2 function instead. Adds the filter to the registry.
 old-location: dshow\iamoviesetup_register.htm

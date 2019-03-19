@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.put_Type
-title: IAzApplicationGroup::put_Type
+title: IAzApplicationGroup::put_Type (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the group type of the application group.
 old-location: security\iazapplicationgroup_type.htm

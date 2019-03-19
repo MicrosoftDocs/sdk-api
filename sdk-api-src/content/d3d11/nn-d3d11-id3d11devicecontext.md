@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11DeviceContext
-title: ID3D11DeviceContext
+title: ID3D11DeviceContext (d3d11.h)
 author: windows-sdk-content
 description: The ID3D11DeviceContext interface represents a device context which generates rendering commands.
 old-location: direct3d11\id3d11devicecontext.htm

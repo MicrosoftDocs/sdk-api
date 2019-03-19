@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFActivate.DetachObject
-title: IMFActivate::DetachObject
+title: IMFActivate::DetachObject (mfobjects.h)
 author: windows-sdk-content
 description: Detaches the created object from the activation object.
 old-location: mf\imfactivate_detachobject.htm

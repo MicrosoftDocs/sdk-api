@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.GetMemoryErrorHandlingCapabilities
-title: GetMemoryErrorHandlingCapabilities function
+title: GetMemoryErrorHandlingCapabilities function (memoryapi.h)
 author: windows-sdk-content
 description: Gets the memory error handling capabilities of the system.
 old-location: base\getmemoryerrorhandlingcapabilities.htm

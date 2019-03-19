@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfDisconnectSyncRoot
-title: CfDisconnectSyncRoot function
+title: CfDisconnectSyncRoot function (cfapi.h)
 author: windows-sdk-content
 description: Disconnects a communication channel created by CfConnectSyncRoot.
 old-location: cloudapi\cfdisconnectsyncroot.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.put_rate
-title: IWMPSettings::put_rate
+title: IWMPSettings::put_rate (wmp.h)
 author: windows-sdk-content
 description: The put_rate method specifies the current playback rate for video.
 old-location: wmp\iwmpsettings_put_rate.htm

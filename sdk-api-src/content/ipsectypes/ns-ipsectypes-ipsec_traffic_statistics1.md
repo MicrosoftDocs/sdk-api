@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC_STATISTICS1_
-title: IPSEC_TRAFFIC_STATISTICS1
+title: IPSEC_TRAFFIC_STATISTICS1 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores IPsec traffic statistics.
 old-location: fwp\ipsec_traffic_statistics1_struct.htm

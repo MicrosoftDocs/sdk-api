@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._MIRROR_VIRTUAL_DISK_PARAMETERS
-title: MIRROR_VIRTUAL_DISK_PARAMETERS
+title: MIRROR_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) mirror request parameters.
 old-location: vhd\mirror_virtual_disk_parameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CallNamedPipeA
-title: CallNamedPipeA function
+title: CallNamedPipeA function (winbase.h)
 author: windows-sdk-content
 description: Connects to a message-type pipe (and waits if an instance of the pipe is not available), writes to and reads from the pipe, and then closes the pipe.
 old-location: base\callnamedpipe.htm

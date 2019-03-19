@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreFloat4x4A
-title: XMStoreFloat4x4A function
+title: XMStoreFloat4x4A function (directxmath.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMFLOAT4X4A.
 old-location: dxmath\xmstorefloat4x4a.htm

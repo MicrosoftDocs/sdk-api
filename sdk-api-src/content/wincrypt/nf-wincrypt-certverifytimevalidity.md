@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertVerifyTimeValidity
-title: CertVerifyTimeValidity function
+title: CertVerifyTimeValidity function (wincrypt.h)
 author: windows-sdk-content
 description: The CertVerifyTimeValidity function verifies the time validity of a certificate.
 old-location: security\certverifytimevalidity.htm

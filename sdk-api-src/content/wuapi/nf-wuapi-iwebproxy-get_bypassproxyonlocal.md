@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWebProxy.get_BypassProxyOnLocal
-title: IWebProxy::get_BypassProxyOnLocal
+title: IWebProxy::get_BypassProxyOnLocal (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether local addresses bypass the proxy server.
 old-location: wua\iwebproxy_bypassproxyonlocal.htm

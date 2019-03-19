@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_NetworkUtilization
-title: IWdsTransportClient::get_NetworkUtilization
+title: IWdsTransportClient::get_NetworkUtilization (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the percentage of the WDS client’s network bandwidth used.
 old-location: wds\iwdstransportclient_networkutilization.htm

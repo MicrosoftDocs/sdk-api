@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetAttributesFromDataObject
-title: SHGetAttributesFromDataObject function
+title: SHGetAttributesFromDataObject function (shlobj_core.h)
 author: windows-sdk-content
 description: SHGetAttributesFromDataObject may be altered or unavailable.
 old-location: shell\SHGetAttributesFromDataObject.htm

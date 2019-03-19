@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemDeleted
-title: INameSpaceTreeControlEvents::OnItemDeleted
+title: INameSpaceTreeControlEvents::OnItemDeleted (shobjidl.h)
 author: windows-sdk-content
 description: Called after an IShellItem has been deleted.
 old-location: shell\INameSpaceTreeControlEvents_OnItemDeleted.htm

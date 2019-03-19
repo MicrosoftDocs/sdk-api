@@ -1,6 +1,6 @@
 ---
 UID: NE:eapauthenticatoractiondefine._EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
-title: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
+title: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION (eapauthenticatoractiondefine.h)
 author: windows-sdk-content
 description: Defines the set of response instructions sent by the authenticator to the supplicant or EAP peer method.
 old-location: eaphost\eap_method_authenticator_response_action.htm

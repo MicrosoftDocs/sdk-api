@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.Commit
-title: IX509CertificateTemplateWritable::Commit
+title: IX509CertificateTemplateWritable::Commit (certenroll.h)
 author: windows-sdk-content
 description: Deletes a template from or saves it to Active Directory.
 old-location: security\ix509certificatetemplatewritable_commit.htm

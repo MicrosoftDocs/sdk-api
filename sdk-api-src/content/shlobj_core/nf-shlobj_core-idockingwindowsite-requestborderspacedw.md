@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IDockingWindowSite.RequestBorderSpaceDW
-title: IDockingWindowSite::RequestBorderSpaceDW
+title: IDockingWindowSite::RequestBorderSpaceDW (shlobj_core.h)
 author: windows-sdk-content
 description: Approves, modifies, or refuses a request for an IDockingWindow object's border space. The border space is not allocated until the SetBorderSpaceDW method is called.
 old-location: shell\IDockingWindowSite_RequestBorderSpaceDW.htm

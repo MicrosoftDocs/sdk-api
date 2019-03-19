@@ -1,6 +1,6 @@
 ---
 UID: NF:realtimeapiset.QueryIdleProcessorCycleTime
-title: QueryIdleProcessorCycleTime function
+title: QueryIdleProcessorCycleTime function (realtimeapiset.h)
 author: windows-sdk-content
 description: Retrieves the cycle time for the idle thread of each processor in the system.
 old-location: base\queryidleprocessorcycletime.htm

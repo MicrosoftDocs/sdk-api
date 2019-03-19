@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetGenericParamConstraintProps
-title: IMetaDataImport2::GetGenericParamConstraintProps
+title: IMetaDataImport2::GetGenericParamConstraintProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the metadata associated with the generic parameter constraint represented by the specified constraint token.
 old-location: winrt\imetadataimport2_getgenericparamconstraintprops.htm

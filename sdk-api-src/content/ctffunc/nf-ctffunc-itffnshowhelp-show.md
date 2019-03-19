@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnShowHelp.Show
-title: ITfFnShowHelp::Show
+title: ITfFnShowHelp::Show (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnShowHelp::Show method
 old-location: tsf\itffnshowhelp_show.htm

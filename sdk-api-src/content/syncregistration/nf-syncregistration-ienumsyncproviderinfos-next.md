@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderInfos.Next
-title: IEnumSyncProviderInfos::Next
+title: IEnumSyncProviderInfos::Next (syncregistration.h)
 author: windows-sdk-content
 description: Returns the next ISyncProviderInfo object.
 old-location: winsync\ienumsyncproviderinfos_next.htm

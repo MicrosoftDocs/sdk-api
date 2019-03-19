@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxFreeTextServicesNotification
-title: ITextHost2::TxFreeTextServicesNotification
+title: ITextHost2::TxFreeTextServicesNotification (textserv.h)
 author: windows-sdk-content
 description: Notifies the text host that text services have been freed.
 old-location: controls\itexthost2_txfreetextservicesnotification.htm

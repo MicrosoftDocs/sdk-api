@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IToggleProvider.Toggle
-title: IToggleProvider::Toggle
+title: IToggleProvider::Toggle (uiautomationcore.h)
 author: windows-sdk-content
 description: Cycles through the toggle states of a control.
 old-location: winauto\uiauto_IToggleProvider_Toggle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetShowCmd
-title: IShellLinkA::GetShowCmd
+title: IShellLinkA::GetShowCmd (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the show command for a Shell link object.
 old-location: shell\IShellLink_GetShowCmd.htm

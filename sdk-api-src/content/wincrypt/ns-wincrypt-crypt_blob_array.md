@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_BLOB_ARRAY
-title: CRYPT_BLOB_ARRAY
+title: CRYPT_BLOB_ARRAY (wincrypt.h)
 author: windows-sdk-content
 description: Contains an array of CRYPT_DATA_BLOB structures.
 old-location: security\crypt_blob_array.htm

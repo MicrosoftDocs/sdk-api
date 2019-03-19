@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SysStringByteLen
-title: SysStringByteLen function
+title: SysStringByteLen function (oleauto.h)
 author: windows-sdk-content
 description: Returns the length (in bytes) of a BSTR.
 old-location: automat\sysstringbytelen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wia_xp.IWiaDataCallback
-title: IWiaDataCallback
+title: IWiaDataCallback (wia_xp.h)
 author: windows-sdk-content
 description: Provides an application callback mechanism during data transfers from Windows Image Acquisition (WIA) hardware devices to applications.Note  For Windows Vista applications, use IWiaTransferCallback instead of IWiaDataCallback.
 old-location: wia\_wia_IWiaDataCallback.htm

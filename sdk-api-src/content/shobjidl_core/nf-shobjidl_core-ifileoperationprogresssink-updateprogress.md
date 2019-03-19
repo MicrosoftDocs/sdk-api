@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.UpdateProgress
-title: IFileOperationProgressSink::UpdateProgress
+title: IFileOperationProgressSink::UpdateProgress (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides an estimate of the total amount of work currently done in relation to the total amount of work.
 old-location: shell\IFileOperationProgressSink_UpdateProgress.htm

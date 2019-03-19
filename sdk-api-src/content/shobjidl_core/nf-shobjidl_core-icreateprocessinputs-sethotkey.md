@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetHotKey
-title: ICreateProcessInputs::SetHotKey
+title: ICreateProcessInputs::SetHotKey (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the hot key for the application.
 old-location: shell\icreateprocessinputs_sethotkey.htm

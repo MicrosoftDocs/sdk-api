@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbPropertySet
-title: ITsSbPropertySet
+title: ITsSbPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Can be used to define custom properties as appropriate.
 old-location: termserv\itssbpropertyset.htm

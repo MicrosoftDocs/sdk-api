@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OfflineClusterResource
-title: OfflineClusterResource function
+title: OfflineClusterResource function (clusapi.h)
 author: windows-sdk-content
 description: Takes a resource offline.
 old-location: mscs\offlineclusterresource.htm

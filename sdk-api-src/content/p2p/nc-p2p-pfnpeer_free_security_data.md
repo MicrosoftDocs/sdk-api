@@ -1,6 +1,6 @@
 ---
 UID: NC:p2p.PFNPEER_FREE_SECURITY_DATA
-title: PFNPEER_FREE_SECURITY_DATA
+title: PFNPEER_FREE_SECURITY_DATA (p2p.h)
 author: windows-sdk-content
 description: The PFNPEER_FREE_SECURITY_DATA callback specifies the function that the Peer Graphing Infrastructure calls to free data returned by PFNPEER_SECURE_RECORD and PFNPEER_VALIDATE_RECORD callbacks.
 old-location: p2p\pfnpeer_free_security_data.htm

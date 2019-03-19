@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetPresenterNextStep
-title: ISyncMgrConflictResolveInfo::GetPresenterNextStep
+title: ISyncMgrConflictResolveInfo::GetPresenterNextStep (syncmgr.h)
 author: windows-sdk-content
 description: Gets what the presenter wants to do as the next step in the sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo_GetPresenterNextStep.htm

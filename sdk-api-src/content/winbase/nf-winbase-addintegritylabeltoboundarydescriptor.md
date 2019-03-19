@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.AddIntegrityLabelToBoundaryDescriptor
-title: AddIntegrityLabelToBoundaryDescriptor function
+title: AddIntegrityLabelToBoundaryDescriptor function (winbase.h)
 author: windows-sdk-content
 description: Adds a new required security identifier (SID) to the specified boundary descriptor.
 old-location: base\addintegritylabeltoboundarydescriptor.htm

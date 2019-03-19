@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Copyright
-title: IAMMediaContent::get_Copyright
+title: IAMMediaContent::get_Copyright (qnetwork.h)
 author: windows-sdk-content
 description: The get_Copyright method retrieves copyright information.
 old-location: dshow\iammediacontent_get_copyright.htm

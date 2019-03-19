@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListener.StopListen
-title: IWTSProtocolListener::StopListen
+title: IWTSProtocolListener::StopListen (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolListener::StopListen is no longer available. Instead, use IWRdsProtocolListener::StopListen.
 old-location: termserv\iwtsprotocollistener_stoplisten.htm

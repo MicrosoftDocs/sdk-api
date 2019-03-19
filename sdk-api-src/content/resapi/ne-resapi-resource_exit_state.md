@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi._RESOURCE_EXIT_STATE
-title: RESOURCE_EXIT_STATE
+title: RESOURCE_EXIT_STATE (resapi.h)
 author: windows-sdk-content
 description: Enumerates the possible exit states of a resource.
 old-location: mscs\resource_exit_state.htm

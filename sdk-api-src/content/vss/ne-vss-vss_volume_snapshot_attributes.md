@@ -1,6 +1,6 @@
 ---
 UID: NE:vss._VSS_VOLUME_SNAPSHOT_ATTRIBUTES
-title: VSS_VOLUME_SNAPSHOT_ATTRIBUTES
+title: VSS_VOLUME_SNAPSHOT_ATTRIBUTES (vss.h)
 author: windows-sdk-content
 description: Allows additional attributes to be specified for a shadow copy.
 old-location: base\_vss_volume_snapshot_attributes.htm

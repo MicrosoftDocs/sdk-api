@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI1FromR4
-title: VarI1FromR4 function
+title: VarI1FromR4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a float value to a char value.
 old-location: automat\vari1fromr4.htm

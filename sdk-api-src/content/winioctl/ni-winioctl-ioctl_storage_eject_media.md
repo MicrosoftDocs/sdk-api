@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_EJECT_MEDIA
-title: IOCTL_STORAGE_EJECT_MEDIA
+title: IOCTL_STORAGE_EJECT_MEDIA (winioctl.h)
 author: windows-sdk-content
 description: Ejects media from a SCSI device.
 old-location: base\ioctl_storage_eject_media.htm

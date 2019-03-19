@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.OnFrameWindowActivate
-title: IOleInPlaceActiveObject::OnFrameWindowActivate
+title: IOleInPlaceActiveObject::OnFrameWindowActivate (oleidl.h)
 author: windows-sdk-content
 description: Notifies the object when the container's top-level frame window is activated or deactivated.
 old-location: com\ioleinplaceactiveobject_onframewindowactivate.htm

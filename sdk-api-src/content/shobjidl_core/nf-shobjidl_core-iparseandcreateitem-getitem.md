@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IParseAndCreateItem.GetItem
-title: IParseAndCreateItem::GetItem
+title: IParseAndCreateItem::GetItem (shobjidl_core.h)
 author: windows-sdk-content
 description: IParseAndCreateItem::GetItem method
 old-location: shell\IParseAndCreateItem_GetItem.htm

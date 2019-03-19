@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetFolderSettings
-title: IExplorerBrowser::SetFolderSettings
+title: IExplorerBrowser::SetFolderSettings (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the folder settings for the current view.
 old-location: shell\IExplorerBrowser_SetFolderSettings.htm

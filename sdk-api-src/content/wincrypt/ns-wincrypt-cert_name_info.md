@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_NAME_INFO
-title: CERT_NAME_INFO
+title: CERT_NAME_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains subject or issuer names.
 old-location: security\cert_name_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIFFDEVICEATTRIBUTES
-title: DIFFDEVICEATTRIBUTES
+title: DIFFDEVICEATTRIBUTES (dinputd.h)
 author: windows-sdk-content
 description: The DIFFDEVICEATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the OEMForceFeedback registry key.
 old-location: hid\diffdeviceattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PACK_PROP
-title: VDS_PACK_PROP
+title: VDS_PACK_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a pack object.
 old-location: base\vds_pack_prop.htm

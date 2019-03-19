@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.PSSetConstantBuffers
-title: ID3D10Device::PSSetConstantBuffers
+title: ID3D10Device::PSSetConstantBuffers (d3d10.h)
 author: windows-sdk-content
 description: Set the constant buffers used by the pixel shader pipeline stage.
 old-location: direct3d10\id3d10device_pssetconstantbuffers.htm

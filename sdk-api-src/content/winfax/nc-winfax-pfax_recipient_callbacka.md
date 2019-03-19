@@ -1,6 +1,6 @@
 ---
 UID: NC:winfax.PFAX_RECIPIENT_CALLBACKA
-title: PFAX_RECIPIENT_CALLBACKA
+title: PFAX_RECIPIENT_CALLBACKA (winfax.h)
 author: windows-sdk-content
 description: The FAX_RECIPIENT_CALLBACK function is an application-defined or library-defined callback function that the FaxSendDocumentForBroadcast function calls to retrieve user-specific information for the transmission.
 old-location: fax\_mfax_fax_recipient_callback.htm

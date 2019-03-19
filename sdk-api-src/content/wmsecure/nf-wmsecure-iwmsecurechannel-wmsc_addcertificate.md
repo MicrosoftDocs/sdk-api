@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_AddCertificate
-title: IWMSecureChannel::WMSC_AddCertificate
+title: IWMSecureChannel::WMSC_AddCertificate (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_AddCertificate method adds certificates that this object can present to other secure channel objects. If no certs are added, then this object can only connect to objects with no signatures.
 old-location: wmformat\iwmsecurechannel_wmsc_addcertificate.htm

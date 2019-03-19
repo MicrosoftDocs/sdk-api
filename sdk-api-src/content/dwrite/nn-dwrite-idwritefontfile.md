@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFontFile
-title: IDWriteFontFile
+title: IDWriteFontFile (dwrite.h)
 author: windows-sdk-content
 description: Represents a font file. Applications such as font managers or font viewers can call IDWriteFontFile::Analyze to find out if a particular file is a font file, and whether it is a font type that is supported by the font system.
 old-location: directwrite\IDWriteFontFile.htm

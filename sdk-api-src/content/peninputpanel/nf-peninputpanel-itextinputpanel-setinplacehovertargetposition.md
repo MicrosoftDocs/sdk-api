@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlaceHoverTargetPosition
-title: ITextInputPanel::SetInPlaceHoverTargetPosition
+title: ITextInputPanel::SetInPlaceHoverTargetPosition (peninputpanel.h)
 author: windows-sdk-content
 description: Explicitly positions the Tablet PC Input Panel hover target in screen coordinates.
 old-location: tablet\itextinputpanel_setinplacehovertargetposition.htm

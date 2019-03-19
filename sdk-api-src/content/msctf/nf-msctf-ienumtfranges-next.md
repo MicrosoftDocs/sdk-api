@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Next
-title: IEnumTfRanges::Next
+title: IEnumTfRanges::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumTfRanges::Next method
 old-location: tsf\ienumtfranges_next.htm

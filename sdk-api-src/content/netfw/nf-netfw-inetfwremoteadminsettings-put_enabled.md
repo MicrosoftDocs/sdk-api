@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.put_Enabled
-title: INetFwRemoteAdminSettings::put_Enabled
+title: INetFwRemoteAdminSettings::put_Enabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether remote administration is enabled..
 old-location: ics\inetfwremoteadminsettings_enabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.Items
-title: IFolderView::Items
+title: IFolderView::Items (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the address of an enumeration object based on the collection of items in the folder view.
 old-location: shell\IFolderView_Items.htm

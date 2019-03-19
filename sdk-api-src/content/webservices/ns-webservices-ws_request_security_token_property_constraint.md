@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT
-title: WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT
+title: WS_REQUEST_SECURITY_TOKEN_PROPERTY_CONSTRAINT (webservices.h)
 author: windows-sdk-content
 description: This structure is used to specify a set of constraints for a particular request security token property. Any property constraints that are not specified will use the default constraints.
 old-location: wsw\ws_request_security_token_property_constraint.htm

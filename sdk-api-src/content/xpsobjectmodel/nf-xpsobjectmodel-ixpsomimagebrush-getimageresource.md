@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.GetImageResource
-title: IXpsOMImageBrush::GetImageResource
+title: IXpsOMImageBrush::GetImageResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMImageResource interface, which contains the image resource to be used as the source for the brush.
 old-location: xps\ixpsomimagebrush_getimageresource.htm

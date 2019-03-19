@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetLine
-title: ISettingsResult::GetLine
+title: ISettingsResult::GetLine (wcmconfig.h)
 author: windows-sdk-content
 description: Returns the line number where the error has occurred.
 old-location: smi\isettingsresult_getline.htm

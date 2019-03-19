@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallState
-title: ITCallInfo::get_CallState
+title: ITCallInfo::get_CallState (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallState method gets a pointer to the current call state, such as CS_IDLE.
 old-location: tapi3\itcallinfo_get_callstate.htm

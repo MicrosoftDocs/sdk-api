@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgCreateDocfile
-title: StgCreateDocfile function
+title: StgCreateDocfile function (coml2api.h)
 author: windows-sdk-content
 description: Creates a new compound file storage object using the COM-provided compound file implementation for the IStorage interface.
 old-location: stg\stgcreatedocfile.htm

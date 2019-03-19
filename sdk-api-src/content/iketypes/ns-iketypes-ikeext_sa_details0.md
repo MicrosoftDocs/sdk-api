@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_SA_DETAILS0_
-title: IKEEXT_SA_DETAILS0
+title: IKEEXT_SA_DETAILS0 (iketypes.h)
 author: windows-sdk-content
 description: Is used to store information returned when enumerating IKE, AuthIP, or IKEv2 security associations (SAs).
 old-location: fwp\ikeext_sa_details0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.EndGetClientCertificate
-title: IMFSSLCertificateManager::EndGetClientCertificate
+title: IMFSSLCertificateManager::EndGetClientCertificate (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to get the client SSL certificate.
 old-location: mf\imfsslcertificatemanager_endgetclientcertificate.htm

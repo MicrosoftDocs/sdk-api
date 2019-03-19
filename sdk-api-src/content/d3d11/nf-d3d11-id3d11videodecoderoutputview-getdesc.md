@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoderOutputView.GetDesc
-title: ID3D11VideoDecoderOutputView::GetDesc
+title: ID3D11VideoDecoderOutputView::GetDesc (d3d11.h)
 author: windows-sdk-content
 description: Gets the properties of the video decoder output view.
 old-location: mf\id3d11videodecoderoutputview_getdesc.htm

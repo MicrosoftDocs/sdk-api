@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.SetD3DManager
-title: IMFMediaSourceEx::SetD3DManager
+title: IMFMediaSourceEx::SetD3DManager (mfidl.h)
 author: windows-sdk-content
 description: Sets a pointer to the Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager on the media source.
 old-location: mf\imfmediasourceex_setd3dmanager.htm

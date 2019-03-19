@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequestFactory.CreateTuneRequest
-title: IMPEG2TuneRequestFactory::CreateTuneRequest
+title: IMPEG2TuneRequestFactory::CreateTuneRequest (tuner.h)
 author: windows-sdk-content
 description: The CreateTuneRequest method creates the minimal MPEG-2 tune request for a specified tuning space.
 old-location: mstv\impeg2tunerequestfactory_createtunerequest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.SetUrlCacheGroupAttributeA
-title: SetUrlCacheGroupAttributeA function
+title: SetUrlCacheGroupAttributeA function (wininet.h)
 author: windows-sdk-content
 description: Sets the attribute information of the specified cache group.
 old-location: wininet\seturlcachegroupattribute.htm

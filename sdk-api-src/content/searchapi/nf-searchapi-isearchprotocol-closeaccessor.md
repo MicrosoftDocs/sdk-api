@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchProtocol.CloseAccessor
-title: ISearchProtocol::CloseAccessor
+title: ISearchProtocol::CloseAccessor (searchapi.h)
 author: windows-sdk-content
 description: Closes a previously created IUrlAccessor object.
 old-location: search\_search_ISearchProtocol_CloseAccessor.htm

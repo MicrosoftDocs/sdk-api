@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetGradientStops
-title: IXpsOMGradientBrush::GetGradientStops
+title: IXpsOMGradientBrush::GetGradientStops (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to an IXpsOMGradientStopCollection interface that contains the collection of IXpsOMGradientStop interfaces that define the gradient.
 old-location: xps\ixpsomgradientbrush_getgradientstops.htm

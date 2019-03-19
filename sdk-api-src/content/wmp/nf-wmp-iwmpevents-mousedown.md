@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseDown
-title: IWMPEvents::MouseDown
+title: IWMPEvents::MouseDown (wmp.h)
 author: windows-sdk-content
 description: The MouseDown event occurs when a mouse button is pressed.
 old-location: wmp\iwmpevents_iwmpevents__mousedown.htm

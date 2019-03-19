@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetMsaAppId
-title: IXblIdpAuthTokenResult::GetMsaAppId
+title: IXblIdpAuthTokenResult::GetMsaAppId (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getmsaappid.htm

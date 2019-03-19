@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.Serialize
-title: ID3D12PipelineLibrary::Serialize
+title: ID3D12PipelineLibrary::Serialize (d3d12.h)
 author: windows-sdk-content
 description: Writes the contents of the library to the provided memory, to be provided back to the runtime at a later time.
 old-location: direct3d12\id3d12pipelinelibrary_serialize.htm

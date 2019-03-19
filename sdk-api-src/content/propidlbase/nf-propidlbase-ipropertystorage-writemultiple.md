@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.WriteMultiple
-title: IPropertyStorage::WriteMultiple
+title: IPropertyStorage::WriteMultiple (propidlbase.h)
 author: windows-sdk-content
 description: Writes a specified group of properties to the current property set.
 old-location: stg\ipropertystorage_writemultiple.htm

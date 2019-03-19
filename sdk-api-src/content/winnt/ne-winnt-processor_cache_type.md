@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._PROCESSOR_CACHE_TYPE
-title: PROCESSOR_CACHE_TYPE
+title: PROCESSOR_CACHE_TYPE (winnt.h)
 author: windows-sdk-content
 description: Represents the type of processor cache identified in the corresponding CACHE_DESCRIPTOR structure.
 old-location: base\processor_cache_type.htm

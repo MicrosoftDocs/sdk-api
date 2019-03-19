@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeComp.Bind
-title: ITypeComp::Bind
+title: ITypeComp::Bind (oaidl.h)
 author: windows-sdk-content
 description: Maps a name to a member of a type, or binds global variables and functions contained in a type library.
 old-location: automat\itypecomp_bind.htm

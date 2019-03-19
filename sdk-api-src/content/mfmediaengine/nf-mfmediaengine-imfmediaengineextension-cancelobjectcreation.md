@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.CancelObjectCreation
-title: IMFMediaEngineExtension::CancelObjectCreation
+title: IMFMediaEngineExtension::CancelObjectCreation (mfmediaengine.h)
 author: windows-sdk-content
 description: Cancels the current request to create an object.
 old-location: mf\imfmediaengineextension_cancelobjectcreation.htm

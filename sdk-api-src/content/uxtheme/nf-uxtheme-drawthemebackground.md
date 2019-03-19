@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.DrawThemeBackground
-title: DrawThemeBackground function
+title: DrawThemeBackground function (uxtheme.h)
 author: windows-sdk-content
 description: Draws the border and fill defined by the visual style for the specified control part.
 old-location: controls\DrawThemeBackground.htm

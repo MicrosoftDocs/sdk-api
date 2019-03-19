@@ -1,6 +1,6 @@
 ---
 UID: NN:audioclient.IAudioClockAdjustment
-title: IAudioClockAdjustment
+title: IAudioClockAdjustment (audioclient.h)
 author: windows-sdk-content
 description: The IAudioClockAdjustment interface is used to adjust the sample rate of a stream.
 old-location: coreaudio\iaudioclockadjustment.htm

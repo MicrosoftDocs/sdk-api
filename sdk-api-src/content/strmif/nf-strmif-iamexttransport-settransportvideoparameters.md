@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportVideoParameters
-title: IAMExtTransport::SetTransportVideoParameters
+title: IAMExtTransport::SetTransportVideoParameters (strmif.h)
 author: windows-sdk-content
 description: The SetTransportVideoParameters method assigns video parameters for external transport.
 old-location: dshow\iamexttransport_settransportvideoparameters.htm

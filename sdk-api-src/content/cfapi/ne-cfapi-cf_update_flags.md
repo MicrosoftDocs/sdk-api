@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_UPDATE_FLAGS
-title: CF_UPDATE_FLAGS
+title: CF_UPDATE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags for updating a placeholder file or directory.
 old-location: cloudapi\cf_update_flags.htm

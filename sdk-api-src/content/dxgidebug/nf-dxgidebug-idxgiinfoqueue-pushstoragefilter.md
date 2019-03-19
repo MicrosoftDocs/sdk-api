@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushStorageFilter
-title: IDXGIInfoQueue::PushStorageFilter
+title: IDXGIInfoQueue::PushStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pushes a storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushstoragefilter.htm

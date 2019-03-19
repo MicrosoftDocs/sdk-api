@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutUnprepareHeader
-title: midiOutUnprepareHeader function
+title: midiOutUnprepareHeader function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutUnprepareHeader function cleans up the preparation performed by the midiOutPrepareHeader function.
 old-location: multimedia\midioutunprepareheader.htm

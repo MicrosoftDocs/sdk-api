@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_FIELD_TYPE_
-title: FWPM_FIELD_TYPE
+title: FWPM_FIELD_TYPE (fwpmtypes.h)
 author: windows-sdk-content
 description: Provides additional information about how the field's data should be interpreted.
 old-location: fwp\fwpm_field_type_enum.htm

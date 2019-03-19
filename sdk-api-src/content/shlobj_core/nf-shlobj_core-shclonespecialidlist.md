@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCloneSpecialIDList
-title: SHCloneSpecialIDList function
+title: SHCloneSpecialIDList function (shlobj_core.h)
 author: windows-sdk-content
 description: SHCloneSpecialIDList may be altered or unavailable. Instead, use SHGetSpecialFolderLocation.
 old-location: shell\SHCloneSpecialIDList.htm

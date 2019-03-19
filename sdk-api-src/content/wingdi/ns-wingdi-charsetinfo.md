@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagCHARSETINFO
-title: CHARSETINFO
+title: CHARSETINFO (wingdi.h)
 author: windows-sdk-content
 description: Contains information about a character set.
 old-location: intl\charsetinfo.htm

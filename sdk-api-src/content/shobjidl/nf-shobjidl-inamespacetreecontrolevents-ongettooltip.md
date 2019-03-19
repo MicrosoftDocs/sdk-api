@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnGetToolTip
-title: INameSpaceTreeControlEvents::OnGetToolTip
+title: INameSpaceTreeControlEvents::OnGetToolTip (shobjidl.h)
 author: windows-sdk-content
 description: Enables you to provide a tooltip.
 old-location: shell\INameSpaceTreeControlEvents_OnGetToolTip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNET_PROXYSETTINGS
-title: MFNET_PROXYSETTINGS
+title: MFNET_PROXYSETTINGS (mfidl.h)
 author: windows-sdk-content
 description: Specifies how the default proxy locator will specify the connection settings to a proxy server.
 old-location: mf\mfnet_proxysettings.htm

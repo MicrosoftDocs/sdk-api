@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateAsyncResult
-title: MFCreateAsyncResult function
+title: MFCreateAsyncResult function (mfapi.h)
 author: windows-sdk-content
 description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
 old-location: mf\mfcreateasyncresult.htm

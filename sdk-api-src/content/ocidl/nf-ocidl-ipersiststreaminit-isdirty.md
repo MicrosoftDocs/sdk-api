@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.IsDirty
-title: IPersistStreamInit::IsDirty
+title: IPersistStreamInit::IsDirty (ocidl.h)
 author: windows-sdk-content
 description: Determines whether an object has changed since it was last saved to its stream.
 old-location: com\ipersiststreaminit_isdirty.htm

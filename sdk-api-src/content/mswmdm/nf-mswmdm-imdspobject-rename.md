@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Rename
-title: IMDSPObject::Rename
+title: IMDSPObject::Rename (mswmdm.h)
 author: windows-sdk-content
 description: The Rename method renames the associated object which can be a file or a folder.
 old-location: wmdm\imdspobject_rename.htm

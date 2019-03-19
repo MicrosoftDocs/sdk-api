@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IStream
-title: IStream
+title: IStream (objidl.h)
 author: windows-sdk-content
 description: The IStream interface lets you read and write data to stream objects.
 old-location: stg\istream.htm

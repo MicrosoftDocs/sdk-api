@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_7
-title: INTERNET_VERSION_INFO
+title: INTERNET_VERSION_INFO (wininet.h)
 author: windows-sdk-content
 description: Contains the HTTP version number of the server. This structure is used when passing the INTERNET_OPTION_VERSION flag to the InternetQueryOption function.
 old-location: wininet\internet_version_info.htm

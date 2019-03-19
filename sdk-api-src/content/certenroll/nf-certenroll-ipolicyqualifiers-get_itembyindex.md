@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get_ItemByIndex
-title: IPolicyQualifiers::get_ItemByIndex
+title: IPolicyQualifiers::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\ipolicyqualifiers_itembyindex.htm

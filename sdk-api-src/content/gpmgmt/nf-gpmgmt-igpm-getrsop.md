@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetRSOP
-title: IGPM::GetRSOP
+title: IGPM::GetRSOP (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns an GPMRSOP. You can specify the Resultant Set of Policy (RSoP) mode and a Windows Management Instrumentation (WMI) namespace.
 old-location: gpmc\igpm_getrsop.htm

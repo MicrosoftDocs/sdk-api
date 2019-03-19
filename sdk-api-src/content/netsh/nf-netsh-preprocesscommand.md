@@ -1,6 +1,6 @@
 ---
 UID: NF:netsh.PreprocessCommand
-title: PreprocessCommand function
+title: PreprocessCommand function (netsh.h)
 author: windows-sdk-content
 description: Parses an argument string and verifies that all required tags are present.
 old-location: netshell\preprocesscommand.htm

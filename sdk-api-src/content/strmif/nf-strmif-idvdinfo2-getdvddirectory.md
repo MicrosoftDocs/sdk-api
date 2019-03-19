@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDDirectory
-title: IDvdInfo2::GetDVDDirectory
+title: IDvdInfo2::GetDVDDirectory (strmif.h)
 author: windows-sdk-content
 description: The GetDVDDirectory method retrieves the root directory that is set in the DVD Navigator.
 old-location: dshow\idvdinfo2_getdvddirectory.htm

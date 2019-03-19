@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetReadyState
-title: IMbnInterface::GetReadyState
+title: IMbnInterface::GetReadyState (mbnapi.h)
 author: windows-sdk-content
 description: Gets the ready state.
 old-location: mbn\imbninterface_getreadystate.htm

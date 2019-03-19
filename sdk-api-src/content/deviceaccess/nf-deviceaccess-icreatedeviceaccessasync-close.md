@@ -1,6 +1,6 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Close
-title: ICreateDeviceAccessAsync::Close
+title: ICreateDeviceAccessAsync::Close (deviceaccess.h)
 author: windows-sdk-content
 description: The Close method performs cleanup after the asynchronous operation is completed and you retrieve the results.
 old-location: deviceaccess\icreatedeviceaccessasync_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_ID_BOTH_DIR_INFO
-title: FILE_ID_BOTH_DIR_INFO
+title: FILE_ID_BOTH_DIR_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains information about files in the specified directory.
 old-location: fs\file_id_both_dir_info.htm

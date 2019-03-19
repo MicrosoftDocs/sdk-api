@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.SetIpNetEntry
-title: SetIpNetEntry function
+title: SetIpNetEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The SetIpNetEntry function modifies an existing ARP entry in the ARP table on the local computer.
 old-location: iphlp\setipnetentry.htm

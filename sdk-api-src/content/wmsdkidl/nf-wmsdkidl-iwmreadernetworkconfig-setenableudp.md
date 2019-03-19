@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableUDP
-title: IWMReaderNetworkConfig::SetEnableUDP
+title: IWMReaderNetworkConfig::SetEnableUDP (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetEnableUDP method enables or disables UDP.
 old-location: wmformat\iwmreadernetworkconfig_setenableudp.htm

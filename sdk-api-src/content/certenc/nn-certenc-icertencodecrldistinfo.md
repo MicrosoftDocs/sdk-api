@@ -1,6 +1,6 @@
 ---
 UID: NN:certenc.ICertEncodeCRLDistInfo
-title: ICertEncodeCRLDistInfo
+title: ICertEncodeCRLDistInfo (certenc.h)
 author: windows-sdk-content
 description: Provides methods for handling certificate revocation list (CRL) distribution information arrays used in certificate extensions.
 old-location: security\icertencodecrldistinfo.htm

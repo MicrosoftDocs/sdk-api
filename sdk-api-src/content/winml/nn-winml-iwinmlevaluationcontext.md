@@ -1,6 +1,6 @@
 ---
 UID: NN:winml.IWinMLEvaluationContext
-title: IWinMLEvaluationContext
+title: IWinMLEvaluationContext (winml.h)
 author: windows-sdk-content
 description: Represents the context to bind inputs and outputs to a WinML model.
 old-location: machinelearning\iwinmlevaluationcontext.htm

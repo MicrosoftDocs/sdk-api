@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetPropertyAttributes
-title: IPortableDeviceProperties::GetPropertyAttributes
+title: IPortableDeviceProperties::GetPropertyAttributes (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetPropertyAttributes method retrieves attributes of a specified object property on a device.
 old-location: wpdsdk\iportabledeviceproperties_getpropertyattributes.htm

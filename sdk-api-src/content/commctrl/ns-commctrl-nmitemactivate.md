@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMITEMACTIVATE
-title: NMITEMACTIVATE
+title: NMITEMACTIVATE (commctrl.h)
 author: windows-sdk-content
 description: Contains information about an LVN_ITEMACTIVATE notification code.
 old-location: controls\NMITEMACTIVATE.htm

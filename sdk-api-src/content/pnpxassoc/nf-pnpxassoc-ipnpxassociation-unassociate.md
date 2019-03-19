@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Unassociate
-title: IPNPXAssociation::Unassociate
+title: IPNPXAssociation::Unassociate (pnpxassoc.h)
 author: windows-sdk-content
 description: Marks an association database entry as unassociated.
 old-location: ncd\ipnpxassociation_unassociate.htm

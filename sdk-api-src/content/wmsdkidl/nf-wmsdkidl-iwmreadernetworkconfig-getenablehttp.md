@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableHTTP
-title: IWMReaderNetworkConfig::GetEnableHTTP
+title: IWMReaderNetworkConfig::GetEnableHTTP (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetEnableHTTP method queries whether HTTP is enabled for protocol rollover.
 old-location: wmformat\iwmreadernetworkconfig_getenablehttp.htm

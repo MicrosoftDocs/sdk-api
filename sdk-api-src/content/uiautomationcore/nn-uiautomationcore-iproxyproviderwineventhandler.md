@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IProxyProviderWinEventHandler
-title: IProxyProviderWinEventHandler
+title: IProxyProviderWinEventHandler (uiautomationcore.h)
 author: windows-sdk-content
 description: Exposes a method that is implemented by proxy providers to handle WinEvents.
 old-location: winauto\uiauto_IProxyProviderWinEventHandler.htm

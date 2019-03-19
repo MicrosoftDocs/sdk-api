@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupMapReader
-title: IAppxContentGroupMapReader
+title: IAppxContentGroupMapReader (appxpackaging.h)
 author: windows-sdk-content
 description: Gets information about a content group map.
 old-location: appxpkg\iappxcontentgroupmapreader.htm

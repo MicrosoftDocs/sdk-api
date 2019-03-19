@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_DEVICE_NUMBER
-title: IOCTL_STORAGE_GET_DEVICE_NUMBER
+title: IOCTL_STORAGE_GET_DEVICE_NUMBER (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the device type, device number, and, for a partitionable device, the partition number of a device.
 old-location: base\ioctl_storage_get_device_number.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_VoidTransform.Start
-title: IBDA_VoidTransform::Start
+title: IBDA_VoidTransform::Start (bdaiface.h)
 author: windows-sdk-content
 description: The Start method restarts data flow through a control node.
 old-location: mstv\ibda_voidtransform_start.htm

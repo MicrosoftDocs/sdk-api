@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_ProviderCLSID
-title: IOCSPCAConfiguration::put_ProviderCLSID
+title: IOCSPCAConfiguration::put_ProviderCLSID (certadm.h)
 author: windows-sdk-content
 description: Gets or sets the CLSID of the revocation information provider used by the CA configuration.
 old-location: security\iocspcaconfiguration_providerclsid_method.htm

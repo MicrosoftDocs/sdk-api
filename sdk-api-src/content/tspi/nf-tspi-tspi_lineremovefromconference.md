@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineRemoveFromConference
-title: TSPI_lineRemoveFromConference function
+title: TSPI_lineRemoveFromConference function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tspi\tspi_lineremovefromconference.htm

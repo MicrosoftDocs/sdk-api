@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_Formats
-title: IFsrmReportJob::get_Formats
+title: IFsrmReportJob::get_Formats (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves or sets an array of formats that determine the content format of the reports.
 old-location: fsrm\ifsrmreportjob_formats.htm

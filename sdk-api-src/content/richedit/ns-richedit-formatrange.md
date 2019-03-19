@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._formatrange
-title: FORMATRANGE
+title: FORMATRANGE (richedit.h)
 author: windows-sdk-content
 description: Information that a rich edit control uses to format its output for a particular device. This structure is used with the EM_FORMATRANGE message.
 old-location: controls\FORMATRANGE.htm

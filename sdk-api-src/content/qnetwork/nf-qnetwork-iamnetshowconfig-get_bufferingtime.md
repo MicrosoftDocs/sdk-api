@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_BufferingTime
-title: IAMNetShowConfig::get_BufferingTime
+title: IAMNetShowConfig::get_BufferingTime (qnetwork.h)
 author: windows-sdk-content
 description: The get_BufferingTime method retrieves the buffering time.
 old-location: dshow\iamnetshowconfig_get_bufferingtime.htm

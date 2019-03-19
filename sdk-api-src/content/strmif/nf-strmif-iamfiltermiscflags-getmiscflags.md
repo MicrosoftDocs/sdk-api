@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMFilterMiscFlags.GetMiscFlags
-title: IAMFilterMiscFlags::GetMiscFlags
+title: IAMFilterMiscFlags::GetMiscFlags (strmif.h)
 author: windows-sdk-content
 description: The GetMiscFlags method returns the filter's type, either source or renderer.
 old-location: dshow\iamfiltermiscflags_getmiscflags.htm

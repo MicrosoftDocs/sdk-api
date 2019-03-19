@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromMPEG1VideoInfo
-title: MFInitMediaTypeFromMPEG1VideoInfo function
+title: MFInitMediaTypeFromMPEG1VideoInfo function (mfapi.h)
 author: windows-sdk-content
 description: Initializes a media type from a DirectShow MPEG1VIDEOINFO structure.
 old-location: mf\mfinitmediatypefrommpeg1videoinfo.htm

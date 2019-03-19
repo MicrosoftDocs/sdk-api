@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.wglCopyContext
-title: wglCopyContext function
+title: wglCopyContext function (wingdi.h)
 author: windows-sdk-content
 description: The wglCopyContext function copies selected groups of rendering states from one OpenGL rendering context to another.
 old-location: opengl\wglcopycontext.htm

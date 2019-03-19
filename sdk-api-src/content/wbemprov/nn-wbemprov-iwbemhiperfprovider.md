@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemHiPerfProvider
-title: IWbemHiPerfProvider
+title: IWbemHiPerfProvider (wbemprov.h)
 author: windows-sdk-content
 description: Enables providers to supply refreshable objects and enumerators.
 old-location: wmi\iwbemhiperfprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMComparisonAnyOutOfBounds
-title: XMComparisonAnyOutOfBounds function
+title: XMComparisonAnyOutOfBounds function (directxmath.h)
 author: windows-sdk-content
 description: Tests the comparison value to determine if any of the compared components are outside the set bounds.
 old-location: dxmath\xmcomparisonanyoutofbounds.htm

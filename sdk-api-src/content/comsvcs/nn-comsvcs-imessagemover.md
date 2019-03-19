@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IMessageMover
-title: IMessageMover
+title: IMessageMover (comsvcs.h)
 author: windows-sdk-content
 description: Moves messages from one queue to another queue.
 old-location: cos\imessagemover.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:intshcut.urlassociationdialog_in_flags
-title: URLASSOCIATIONDIALOG_IN_FLAGS
+title: URLASSOCIATIONDIALOG_IN_FLAGS (intshcut.h)
 author: windows-sdk-content
 description: The URLASSOCIATIONDIALOG_IN_FLAGS enumerated values are used with URLAssociationDialog to determine how it executes.
 old-location: shell\URLASSOCIATIONDIALOG_IN_FLAGS.htm

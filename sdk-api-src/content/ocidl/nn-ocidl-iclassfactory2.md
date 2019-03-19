@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IClassFactory2
-title: IClassFactory2
+title: IClassFactory2 (ocidl.h)
 author: windows-sdk-content
 description: Enables a class factory object, in any sort of object server, to control object creation through licensing.
 old-location: com\iclassfactory2.htm

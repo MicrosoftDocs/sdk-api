@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents3.PrefetchFileBegin
-title: IOfflineFilesEvents3::PrefetchFileBegin
+title: IOfflineFilesEvents3::PrefetchFileBegin (cscobj.h)
 author: windows-sdk-content
 description: Reports that a file prefetch operation has begun.
 old-location: of\iofflinefilesevents3_prefetchfilebegin.htm

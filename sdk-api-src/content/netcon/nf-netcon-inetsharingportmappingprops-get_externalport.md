@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_ExternalPort
-title: INetSharingPortMappingProps::get_ExternalPort
+title: INetSharingPortMappingProps::get_ExternalPort (netcon.h)
 author: windows-sdk-content
 description: The get_ExternalPort method retrieves the external port associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_externalport.htm

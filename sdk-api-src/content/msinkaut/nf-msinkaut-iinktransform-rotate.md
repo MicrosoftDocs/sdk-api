@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.Rotate
-title: IInkTransform::Rotate
+title: IInkTransform::Rotate (msinkaut.h)
 author: windows-sdk-content
 description: Changes the amount, measured in degrees, to change the rotation factor of the InkTransform object and optionally the center point of the rotation.
 old-location: tablet\inktransform_rotate.htm

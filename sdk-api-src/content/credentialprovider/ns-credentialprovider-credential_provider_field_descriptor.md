@@ -1,6 +1,6 @@
 ---
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
-title: CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR
+title: CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR (credentialprovider.h)
 author: windows-sdk-content
 description: Describes a single field in a credential. For example, a string or a user image.
 old-location: shell\CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR.htm

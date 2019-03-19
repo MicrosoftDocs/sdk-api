@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.DeleteOutputPin
-title: IMpeg2Demultiplexer::DeleteOutputPin
+title: IMpeg2Demultiplexer::DeleteOutputPin (strmif.h)
 author: windows-sdk-content
 description: The DeleteOutputPin method deletes the specified output pin.
 old-location: dshow\impeg2demultiplexer_deleteoutputpin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfMessagePump.GetMessageW
-title: ITfMessagePump::GetMessageW
+title: ITfMessagePump::GetMessageW (msctf.h)
 author: windows-sdk-content
 description: ITfMessagePump::GetMessageW method
 old-location: tsf\itfmessagepump_getmessagew.htm

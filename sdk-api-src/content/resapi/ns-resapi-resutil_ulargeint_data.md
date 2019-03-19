@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.RESUTIL_ULARGEINT_DATA
-title: RESUTIL_ULARGEINT_DATA
+title: RESUTIL_ULARGEINT_DATA (resapi.h)
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for an unsigned large integer.
 old-location: mscs\resutil_ulargeint_data.htm

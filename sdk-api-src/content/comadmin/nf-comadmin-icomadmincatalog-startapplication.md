@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StartApplication
-title: ICOMAdminCatalog::StartApplication
+title: ICOMAdminCatalog::StartApplication (comadmin.h)
 author: windows-sdk-content
 description: Starts the specified COM+ server application. The application components are launched in a dedicated server process.
 old-location: cos\icomadmincatalog_startapplication.htm

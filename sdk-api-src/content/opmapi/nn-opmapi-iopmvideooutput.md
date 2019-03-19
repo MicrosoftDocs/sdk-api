@@ -1,6 +1,6 @@
 ---
 UID: NN:opmapi.IOPMVideoOutput
-title: IOPMVideoOutput
+title: IOPMVideoOutput (opmapi.h)
 author: windows-sdk-content
 description: Represents a video output for an Output Protection Manager (OPM) session.
 old-location: mf\iopmvideooutput.htm

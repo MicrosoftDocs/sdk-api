@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetEmfHeader
-title: MetafileHeader::GetEmfHeader
+title: MetafileHeader::GetEmfHeader (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::GetEmfHeader method gets an ENHMETAHEADER3 structure that contains properties of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetEmfHeader_.htm

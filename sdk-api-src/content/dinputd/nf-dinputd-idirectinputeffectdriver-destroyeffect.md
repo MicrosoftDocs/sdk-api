@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.DestroyEffect
-title: IDirectInputEffectDriver::DestroyEffect
+title: IDirectInputEffectDriver::DestroyEffect (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::DestroyEffect method removes an effect from the device. If the effect is playing, the driver should stop it before unloading it.
 old-location: hid\idirectinputeffectdriver_destroyeffect.htm

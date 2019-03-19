@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get__NewEnum
-title: IRDPSRAPIAttendeeManager::get__NewEnum
+title: IRDPSRAPIAttendeeManager::get__NewEnum (rdpencomapi.h)
 author: windows-sdk-content
 description: An enumerator interface for the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager__newenum.htm

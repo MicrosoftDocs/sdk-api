@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.EndBufferedPaint
-title: EndBufferedPaint function
+title: EndBufferedPaint function (uxtheme.h)
 author: windows-sdk-content
 description: Completes a buffered paint operation and frees the associated buffered paint handle.
 old-location: controls\EndBufferedPaint.htm

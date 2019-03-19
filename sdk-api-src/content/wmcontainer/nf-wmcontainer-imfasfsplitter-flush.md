@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.Flush
-title: IMFASFSplitter::Flush
+title: IMFASFSplitter::Flush (wmcontainer.h)
 author: windows-sdk-content
 description: Resets the Advanced Systems Format (ASF) splitter and releases all pending samples.
 old-location: mf\imfasfsplitter_flush.htm

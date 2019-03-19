@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileHeader
-title: GetEnhMetaFileHeader function
+title: GetEnhMetaFileHeader function (wingdi.h)
 author: windows-sdk-content
 description: The GetEnhMetaFileHeader function retrieves the record containing the header for the specified enhanced-format metafile.
 old-location: gdi\getenhmetafileheader.htm

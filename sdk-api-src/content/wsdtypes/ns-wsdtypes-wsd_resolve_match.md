@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_RESOLVE_MATCH
-title: WSD_RESOLVE_MATCH
+title: WSD_RESOLVE_MATCH (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a ResolveMatch message.
 old-location: ncd\wsd_resolve_match_struct.htm

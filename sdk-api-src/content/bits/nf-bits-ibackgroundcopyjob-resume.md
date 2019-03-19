@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Resume
-title: IBackgroundCopyJob::Resume
+title: IBackgroundCopyJob::Resume (bits.h)
 author: windows-sdk-content
 description: Activates a new job or restarts a job that has been suspended.
 old-location: bits\ibackgroundcopyjob_resume.htm

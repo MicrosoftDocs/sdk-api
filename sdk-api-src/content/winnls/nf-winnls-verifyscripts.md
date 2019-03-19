@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.VerifyScripts
-title: VerifyScripts function
+title: VerifyScripts function (winnls.h)
 author: windows-sdk-content
 description: Compares two enumerated lists of scripts.
 old-location: intl\verifyscripts.htm

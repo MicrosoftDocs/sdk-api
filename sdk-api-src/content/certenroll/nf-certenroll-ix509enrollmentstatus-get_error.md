@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_Error
-title: IX509EnrollmentStatus::get_Error
+title: IX509EnrollmentStatus::get_Error (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a value that identifies the error status of the certificate enrollment process.
 old-location: security\ix509enrollmentstatus_error_property.htm

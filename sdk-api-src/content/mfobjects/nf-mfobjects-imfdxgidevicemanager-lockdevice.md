@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.LockDevice
-title: IMFDXGIDeviceManager::LockDevice
+title: IMFDXGIDeviceManager::LockDevice (mfobjects.h)
 author: windows-sdk-content
 description: Gives the caller exclusive access to the Microsoft Direct3D device.
 old-location: mf\imfdxgidevicemanager_lockdevice.htm

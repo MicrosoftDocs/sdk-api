@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptCacheGetHeight
-title: ScriptCacheGetHeight function
+title: ScriptCacheGetHeight function (usp10.h)
 author: windows-sdk-content
 description: Retrieves the height of the currently cached font.
 old-location: intl\scriptcachegetheight.htm

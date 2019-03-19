@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Clone
-title: IEnumMcastScope::Clone
+title: IEnumMcastScope::Clone (mdhcp.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienummcastscope_clone.htm

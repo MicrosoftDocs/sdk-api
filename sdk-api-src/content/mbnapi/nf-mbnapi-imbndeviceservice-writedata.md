@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.WriteData
-title: IMbnDeviceService::WriteData
+title: IMbnDeviceService::WriteData (mbnapi.h)
 author: windows-sdk-content
 description: Write data to a device service data session.
 old-location: mbn\imbndeviceservice_writedata.htm

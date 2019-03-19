@@ -1,6 +1,6 @@
 ---
 UID: NF:timezoneapi.GetDynamicTimeZoneInformationEffectiveYears
-title: GetDynamicTimeZoneInformationEffectiveYears function
+title: GetDynamicTimeZoneInformationEffectiveYears function (timezoneapi.h)
 author: windows-sdk-content
 description: Gets a range, expressed in years, for which a DYNAMIC_TIME_ZONE_INFORMATION has valid entries.
 old-location: base\getdynamictimezoneinformationeffectiveyears.htm

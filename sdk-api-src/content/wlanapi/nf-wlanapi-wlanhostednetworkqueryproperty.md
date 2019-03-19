@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkQueryProperty
-title: WlanHostedNetworkQueryProperty function
+title: WlanHostedNetworkQueryProperty function (wlanapi.h)
 author: windows-sdk-content
 description: Queries the current static properties of the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkqueryproperty.htm

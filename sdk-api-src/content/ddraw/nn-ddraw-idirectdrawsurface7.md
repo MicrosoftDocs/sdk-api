@@ -1,6 +1,6 @@
 ---
 UID: NN:ddraw.IDirectDrawSurface7
-title: IDirectDrawSurface7
+title: IDirectDrawSurface7 (ddraw.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirectDrawSurface7 interface to create DirectDrawSurface objects and work with system-level variables. This section is a reference to the methods of this interface.
 old-location: directdraw\idirectdrawsurface7.htm

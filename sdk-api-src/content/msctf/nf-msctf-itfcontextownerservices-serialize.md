@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.Serialize
-title: ITfContextOwnerServices::Serialize
+title: ITfContextOwnerServices::Serialize (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwnerServices::Serialize method obtains a property from a range of text and writes the property data into a stream object. This enables an application to store property data, for example, when writing the data to a file.
 old-location: tsf\itfcontextownerservices_serialize.htm

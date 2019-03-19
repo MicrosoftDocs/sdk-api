@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_PreallocateFile
-title: ITraceDataCollector::put_PreallocateFile
+title: ITraceDataCollector::put_PreallocateFile (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA should allocate the entire log file size before logging.
 old-location: pla\itracedatacollector_preallocatefile.htm

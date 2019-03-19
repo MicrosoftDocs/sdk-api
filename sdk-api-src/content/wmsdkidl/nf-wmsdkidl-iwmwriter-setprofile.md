@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetProfile
-title: IWMWriter::SetProfile
+title: IWMWriter::SetProfile (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetProfile method specifies the profile to use for the current writing task.
 old-location: wmformat\iwmwriter_setprofile.htm

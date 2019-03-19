@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_2
-title: IKE_AUTHENTICATION_INFORMATION
+title: IKE_AUTHENTICATION_INFORMATION (iscsidsc.h)
 author: windows-sdk-content
 description: IKE_AUTHENTICATION_INFORMATION structure contains Internet Key Exchange (IKE) authentication information used to establish a secure channel between two key management daemons.
 old-location: iscsidisc\ike_authentication_information.htm

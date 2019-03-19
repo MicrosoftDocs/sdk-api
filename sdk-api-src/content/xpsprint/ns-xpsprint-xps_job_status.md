@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0002
-title: XPS_JOB_STATUS
+title: XPS_JOB_STATUS (xpsprint.h)
 author: windows-sdk-content
 description: Contains a snapshot of job status.
 old-location: gdi\xps_job_status.htm

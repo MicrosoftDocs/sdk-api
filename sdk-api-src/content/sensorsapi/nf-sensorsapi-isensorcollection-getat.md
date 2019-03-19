@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.GetAt
-title: ISensorCollection::GetAt
+title: ISensorCollection::GetAt (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves the sensor at the specified index in the collection.
 old-location: winsensors_com_ref\isensorcollection_getat.htm

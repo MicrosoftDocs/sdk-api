@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._CHANGE_PARTITION_TYPE_PARAMETERS
-title: CHANGE_PARTITION_TYPE_PARAMETERS
+title: CHANGE_PARTITION_TYPE_PARAMETERS (vds.h)
 author: windows-sdk-content
 description: Describes parameters to be used when changing a partition's type.
 old-location: base\change_partition_type_parameters.htm

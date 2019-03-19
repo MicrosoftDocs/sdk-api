@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._HTTPSPolicyCallbackData
-title: HTTPSPolicyCallbackData
+title: HTTPSPolicyCallbackData (wincrypt.h)
 author: windows-sdk-content
 description: Holds policy information used in the verification of Secure Sockets Layer (SSL) client/server certificate chains.
 old-location: security\ssl_extra_cert_chain_policy_para.htm

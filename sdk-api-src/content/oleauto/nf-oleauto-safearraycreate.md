@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayCreate
-title: SafeArrayCreate function
+title: SafeArrayCreate function (oleauto.h)
 author: windows-sdk-content
 description: Creates a new array descriptor, allocates and initializes the data for the array, and returns a pointer to the new array descriptor.
 old-location: automat\safearraycreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.InstallResponse2
-title: IX509Enrollment2::InstallResponse2
+title: IX509Enrollment2::InstallResponse2 (certenroll.h)
 author: windows-sdk-content
 description: Installs a certificate chain on the end-entity computer.
 old-location: security\ix509enrollment2_installresponse2.htm

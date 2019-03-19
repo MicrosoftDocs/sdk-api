@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetTTL
-title: IWSDUdpAddress::GetTTL
+title: IWSDUdpAddress::GetTTL (wsdbase.h)
 author: windows-sdk-content
 description: Gets the time-to-live (TTL) for all outbound packets using this address.
 old-location: ncd\iwsdudpaddress_getttl.htm

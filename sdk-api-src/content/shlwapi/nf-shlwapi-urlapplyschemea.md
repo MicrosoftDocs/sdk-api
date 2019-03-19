@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlApplySchemeA
-title: UrlApplySchemeA function
+title: UrlApplySchemeA function (shlwapi.h)
 author: windows-sdk-content
 description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.
 old-location: shell\UrlApplyScheme.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.Initialize
-title: IDeviceModelPlugIn::Initialize
+title: IDeviceModelPlugIn::Initialize (wcsplugin.h)
 author: windows-sdk-content
 description: Takes a pointer to a Stream that contains the whole device model plug-in as input, and initializes any internal parameters required by the plug-in.
 old-location: wcs\IDeviceModelPlugIn_Initialize.htm

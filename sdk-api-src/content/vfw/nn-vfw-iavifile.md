@@ -1,6 +1,6 @@
 ---
 UID: NN:vfw.IAVIFile
-title: IAVIFile
+title: IAVIFile (vfw.h)
 author: windows-sdk-content
 description: The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods:\_
 The IAVIFile interface supports opening and manipulating files and file headers, and creating and obtaining stream interfaces. Uses IUnknown::QueryInterface, IUnknown::AddRef, and IUnknown::Release in addition to the following custom methods:

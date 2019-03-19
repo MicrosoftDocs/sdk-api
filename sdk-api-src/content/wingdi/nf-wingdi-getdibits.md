@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetDIBits
-title: GetDIBits function
+title: GetDIBits function (wingdi.h)
 author: windows-sdk-content
 description: The GetDIBits function retrieves the bits of the specified compatible bitmap and copies them into a buffer as a DIB using the specified format.
 old-location: gdi\getdibits.htm

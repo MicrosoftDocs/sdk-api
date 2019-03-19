@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes.ip_interface_name_info_w2ksp1
-title: IP_INTERFACE_NAME_INFO_W2KSP1
+title: IP_INTERFACE_NAME_INFO_W2KSP1 (iptypes.h)
 author: windows-sdk-content
 description: Contains information about an IPv4 interface on the local computer.
 old-location: iphlp\ip_interface_name_info.htm

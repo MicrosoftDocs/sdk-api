@@ -1,6 +1,6 @@
 ---
 UID: NF:madcapcl.McastReleaseAddress
-title: McastReleaseAddress function
+title: McastReleaseAddress function (madcapcl.h)
 author: windows-sdk-content
 description: The McastReleaseAddress function releases leased multicast addresses from the MCAST server.
 old-location: madcap\mcastreleaseaddress.htm

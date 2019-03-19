@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetZOrder
-title: IVMRMixerControl::SetZOrder
+title: IVMRMixerControl::SetZOrder (strmif.h)
 author: windows-sdk-content
 description: The SetZOrder method sets this video stream's position in the Z-order; larger values are further away.
 old-location: dshow\ivmrmixercontrol_setzorder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_DEVICE_CAPS
-title: DXVAHD_DEVICE_CAPS
+title: DXVAHD_DEVICE_CAPS (dxvahd.h)
 author: windows-sdk-content
 description: Defines video processing capabilities for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_device_caps.htm

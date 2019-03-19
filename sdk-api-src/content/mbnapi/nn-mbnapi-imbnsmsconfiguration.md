@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnSmsConfiguration
-title: IMbnSmsConfiguration
+title: IMbnSmsConfiguration (mbnapi.h)
 author: windows-sdk-content
 description: Provides access to the SMS configuration of a device.
 old-location: mbn\imbnsmsconfiguration.htm

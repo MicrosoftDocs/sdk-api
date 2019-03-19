@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionTranslateTransform
-title: IDCompositionTranslateTransform
+title: IDCompositionTranslateTransform (dcomp.h)
 author: windows-sdk-content
 description: Represents a 2D transformation that affects only the offset of a visual along the x-axis and y-axis.
 old-location: directcomp\idcompositiontranslatetransform.htm

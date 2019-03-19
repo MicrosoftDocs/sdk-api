@@ -1,6 +1,6 @@
 ---
 UID: NE:naptypes.tagFixupState
-title: FixupState
+title: FixupState (naptypes.h)
 author: windows-sdk-content
 description: Defines the fix-up state of the System Health Agent (SHA).
 old-location: nap\fixupstate_enum.htm

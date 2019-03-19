@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystem2
-title: IVdsSubSystem2
+title: IVdsSubSystem2 (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a subsystem using the VDS_HINTS2 and VDS_SUB_SYSTEM_PROP2 structures.
 old-location: base\ivdssubsystem2.htm

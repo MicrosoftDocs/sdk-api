@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSManEx3
-title: IWSManEx3
+title: IWSManEx3 (wsmandisp.h)
 author: windows-sdk-content
 description: Extends the methods and properties of the IWSManEx interface to include a method that returns a session flag value related to authentication using the Credential Security Support Provider (CredSSP).
 old-location: winrm\iwsmanex3.htm

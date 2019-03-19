@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFunctionProvider
-title: ITfThreadMgr::GetFunctionProvider
+title: ITfThreadMgr::GetFunctionProvider (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::GetFunctionProvider method
 old-location: tsf\itfthreadmgr_getfunctionprovider.htm

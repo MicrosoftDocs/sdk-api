@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CREATE_DATABASE_FN
-title: PIBIO_STORAGE_CREATE_DATABASE_FN
+title: PIBIO_STORAGE_CREATE_DATABASE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Creates and configures a new database.
 old-location: secbiomet\storageadaptercreatedatabase.htm

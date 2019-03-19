@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontWeight
-title: IDWriteTextLayout::GetFontWeight
+title: IDWriteTextLayout::GetFontWeight (dwrite.h)
 author: windows-sdk-content
 description: Gets the font weight of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontWeight.htm

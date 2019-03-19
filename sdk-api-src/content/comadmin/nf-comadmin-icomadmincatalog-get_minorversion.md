@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.get_MinorVersion
-title: ICOMAdminCatalog::get_MinorVersion
+title: ICOMAdminCatalog::get_MinorVersion (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the minor version number of the COMAdmin library.
 old-location: cos\icomadmincatalog_minorversion.htm

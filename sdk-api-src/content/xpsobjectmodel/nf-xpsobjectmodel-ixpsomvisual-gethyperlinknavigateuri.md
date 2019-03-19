@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetHyperlinkNavigateUri
-title: IXpsOMVisual::GetHyperlinkNavigateUri
+title: IXpsOMVisual::GetHyperlinkNavigateUri (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IUri interface to which this visual object links.
 old-location: xps\ixpsomvisual_gethyperlinknavigateuri.htm

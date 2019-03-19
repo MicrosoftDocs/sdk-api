@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusOutOfRange
-title: IStylusPlugin::StylusOutOfRange
+title: IStylusPlugin::StylusOutOfRange (rtscom.h)
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the stylus has left the detection range of the digitizer.
 old-location: tablet\istylusplugin_stylusoutofrange.htm

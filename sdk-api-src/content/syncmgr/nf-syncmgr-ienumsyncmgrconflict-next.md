@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Next
-title: IEnumSyncMgrConflict::Next
+title: IEnumSyncMgrConflict::Next (syncmgr.h)
 author: windows-sdk-content
 description: Gets the next batch of conflicts from the conflicts store.
 old-location: shell\IEnumSyncMgrConflict_Next.htm

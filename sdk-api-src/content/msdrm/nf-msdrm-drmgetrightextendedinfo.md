@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetRightExtendedInfo
-title: DRMGetRightExtendedInfo function
+title: DRMGetRightExtendedInfo function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves custom name-value pairs attached to a right.
 old-location: rm\drmgetrightextendedinfo.htm

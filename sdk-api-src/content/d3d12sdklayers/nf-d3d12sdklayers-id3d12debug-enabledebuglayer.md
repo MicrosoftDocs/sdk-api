@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug.EnableDebugLayer
-title: ID3D12Debug::EnableDebugLayer
+title: ID3D12Debug::EnableDebugLayer (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Enables the debug layer.
 old-location: direct3d12\id3d12debug_enabledebuglayer.htm

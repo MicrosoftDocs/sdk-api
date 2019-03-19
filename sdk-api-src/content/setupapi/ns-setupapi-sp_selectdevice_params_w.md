@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_SELECTDEVICE_PARAMS_W
-title: SP_SELECTDEVICE_PARAMS_W
+title: SP_SELECTDEVICE_PARAMS_W (setupapi.h)
 author: windows-sdk-content
 description: An SP_SELECTDEVICE_PARAMS structure corresponds to a DIF_SELECTDEVICE installation request.
 old-location: devinst\sp_selectdevice_params.htm

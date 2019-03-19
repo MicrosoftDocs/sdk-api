@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetAvailableDataClasses
-title: IMbnRegistration::GetAvailableDataClasses
+title: IMbnRegistration::GetAvailableDataClasses (mbnapi.h)
 author: windows-sdk-content
 description: Gets the available data classes in the current network.
 old-location: mbn\imbnregistration_getavailabledataclasses.htm

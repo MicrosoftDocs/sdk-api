@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Skip
-title: IEnumBackgroundCopyFiles::Skip
+title: IEnumBackgroundCopyFiles::Skip (bits.h)
 author: windows-sdk-content
 description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbackgroundcopyfiles_skip.htm

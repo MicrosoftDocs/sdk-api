@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IEnumPins
-title: IEnumPins
+title: IEnumPins (strmif.h)
 author: windows-sdk-content
 description: Enumerates pins on a filter.The IBaseFilter::EnumPins method returns this interface.
 old-location: dshow\ienumpins.htm

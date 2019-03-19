@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetDisplayName
-title: IPropertyUI::GetDisplayName
+title: IPropertyUI::GetDisplayName (shobjidl_core.h)
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Gets a string specifying the name of the property suitable for display to users.
 old-location: properties\IPropertyUI_GetDisaplayName.htm

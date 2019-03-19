@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.CreateRequest
-title: IMFHttpDownloadSession::CreateRequest
+title: IMFHttpDownloadSession::CreateRequest (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to create an object that implements the IMFHttpDownloadRequest interface, which is used to send a single HTTP, or HTTPS request.
 old-location: mf\imfhttpdownloadsession_createrequest.htm

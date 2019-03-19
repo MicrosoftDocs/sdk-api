@@ -1,6 +1,6 @@
 ---
 UID: NS:iads.ads_searchpref_info
-title: ADS_SEARCHPREF_INFO
+title: ADS_SEARCHPREF_INFO (iads.h)
 author: windows-sdk-content
 description: The ADS_SEARCHPREF_INFO structure specifies the query preferences.
 old-location: adsi\ads_searchpref_info.htm

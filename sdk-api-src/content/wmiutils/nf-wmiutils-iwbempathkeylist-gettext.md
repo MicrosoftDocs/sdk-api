@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetText
-title: IWbemPathKeyList::GetText
+title: IWbemPathKeyList::GetText (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPathKeyList::GetText method retrieves the key list as text.
 old-location: wmi\iwbempathkeylist_gettext.htm

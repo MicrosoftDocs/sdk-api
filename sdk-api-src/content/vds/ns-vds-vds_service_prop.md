@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_SERVICE_PROP
-title: VDS_SERVICE_PROP
+title: VDS_SERVICE_PROP (vds.h)
 author: windows-sdk-content
 description: Defines the properties of the service object.
 old-location: base\vds_service_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.INATNumberOfEntriesCallback.NewNumberOfEntries
-title: INATNumberOfEntriesCallback::NewNumberOfEntries
+title: INATNumberOfEntriesCallback::NewNumberOfEntries (natupnp.h)
 author: windows-sdk-content
 description: The system calls the NewNumberOfEntries method if the total number of NAT port mappings changes.
 old-location: ics\inatnumberofentriescallback_newnumberofentries.htm

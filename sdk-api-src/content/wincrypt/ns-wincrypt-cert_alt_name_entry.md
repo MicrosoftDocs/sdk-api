@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_ALT_NAME_ENTRY
-title: CERT_ALT_NAME_ENTRY
+title: CERT_ALT_NAME_ENTRY (wincrypt.h)
 author: windows-sdk-content
 description: Contains an alternative name in one of a variety of name forms.
 old-location: security\cert_alt_name_entry.htm

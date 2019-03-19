@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumerateSymbolsW64
-title: SymEnumerateSymbolsW64 function
+title: SymEnumerateSymbolsW64 function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all the symbols for a specified module.
 old-location: base\symenumeratesymbols64.htm

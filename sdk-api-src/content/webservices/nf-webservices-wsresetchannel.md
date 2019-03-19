@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsResetChannel
-title: WsResetChannel function
+title: WsResetChannel function (webservices.h)
 author: windows-sdk-content
 description: Reset a channel so it can be reused.
 old-location: wsw\wsresetchannel.htm

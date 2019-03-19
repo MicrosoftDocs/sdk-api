@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.AdviseNotify
-title: IVMRSurfaceAllocator9::AdviseNotify
+title: IVMRSurfaceAllocator9::AdviseNotify (vmr9.h)
 author: windows-sdk-content
 description: The AdviseNotify method provides the allocator-presenter with the VMR-9 filter's interface for notification callbacks.
 old-location: dshow\ivmrsurfaceallocator9_advisenotify.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comadmin.ICatalogObject
-title: ICatalogObject
+title: ICatalogObject (comadmin.h)
 author: windows-sdk-content
 description: Represents items in collections on the COM+ catalog. ICatalogObject enables you to get and put properties exposed by objects in the catalog.
 old-location: cos\icatalogobject.htm

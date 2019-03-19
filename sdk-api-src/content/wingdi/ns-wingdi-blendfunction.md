@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._BLENDFUNCTION
-title: BLENDFUNCTION
+title: BLENDFUNCTION (wingdi.h)
 author: windows-sdk-content
 description: The BLENDFUNCTION structure controls blending by specifying the blending functions for source and destination bitmaps.
 old-location: gdi\blendfunction.htm

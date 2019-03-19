@@ -1,6 +1,6 @@
 ---
 UID: NF:intshcut.URLAssociationDialogW
-title: URLAssociationDialogW function
+title: URLAssociationDialogW function (intshcut.h)
 author: windows-sdk-content
 description: Invokes the unregistered URL protocol dialog box.
 old-location: shell\URLAssociationDialog.htm

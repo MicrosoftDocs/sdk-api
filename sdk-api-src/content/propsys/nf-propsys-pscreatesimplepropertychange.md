@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSCreateSimplePropertyChange
-title: PSCreateSimplePropertyChange function
+title: PSCreateSimplePropertyChange function (propsys.h)
 author: windows-sdk-content
 description: Creates a simple property change.
 old-location: properties\PSCreateSimplePropertyChange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.GetDatabaseLogFile
-title: IVssWMComponent::GetDatabaseLogFile
+title: IVssWMComponent::GetDatabaseLogFile (vsbackup.h)
 author: windows-sdk-content
 description: The GetDatabaseLogFile method obtains a file descriptor for the log file associated with the specified database backup component.
 old-location: base\ivsswmcomponent_getdatabaselogfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._CACHE_DESCRIPTOR
-title: CACHE_DESCRIPTOR
+title: CACHE_DESCRIPTOR (winnt.h)
 author: windows-sdk-content
 description: Describes the cache attributes.
 old-location: base\cache_descriptor.htm

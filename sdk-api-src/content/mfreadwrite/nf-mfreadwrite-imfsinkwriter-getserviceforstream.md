@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.GetServiceForStream
-title: IMFSinkWriter::GetServiceForStream
+title: IMFSinkWriter::GetServiceForStream (mfreadwrite.h)
 author: windows-sdk-content
 description: Queries the underlying media sink or encoder for an interface.
 old-location: mf\imfsinkwriter_getserviceforstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecNeg
-title: VarDecNeg function
+title: VarDecNeg function (oleauto.h)
 author: windows-sdk-content
 description: Performs logical negation on a variant of type decimal.
 old-location: automat\vardecneg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IValueMapItem
-title: IValueMapItem
+title: IValueMapItem (pla.h)
 author: windows-sdk-content
 description: Defines a name/value pair.To get this interface, call the IValueMap::Item property. To create this interface, call the IValueMap::CreateValueMapItem method.
 old-location: pla\ivaluemapitem.htm

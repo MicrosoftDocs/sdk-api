@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlGetPartW
-title: UrlGetPartW function
+title: UrlGetPartW function (shlwapi.h)
 author: windows-sdk-content
 description: Accepts a URL string and returns a specified part of that URL.
 old-location: shell\UrlGetPart.htm

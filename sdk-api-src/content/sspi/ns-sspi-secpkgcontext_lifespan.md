@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_Lifespan
-title: SecPkgContext_Lifespan
+title: SecPkgContext_Lifespan (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_Lifespan structure indicates the life span of a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_lifespan.htm

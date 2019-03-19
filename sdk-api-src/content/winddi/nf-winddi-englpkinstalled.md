@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngLpkInstalled
-title: EngLpkInstalled function
+title: EngLpkInstalled function (winddi.h)
 author: windows-sdk-content
 description: The EngLpkInstalled function determines whether the language pack is installed on the system.
 old-location: display\englpkinstalled.htm

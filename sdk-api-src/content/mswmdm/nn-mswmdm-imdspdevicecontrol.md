@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPDeviceControl
-title: IMDSPDeviceControl
+title: IMDSPDeviceControl (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPDeviceControl interface provides methods for controlling devices.
 old-location: wmdm\imdspdevicecontrol.htm

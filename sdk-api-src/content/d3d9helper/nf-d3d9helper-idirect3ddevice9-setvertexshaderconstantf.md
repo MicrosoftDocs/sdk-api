@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetVertexShaderConstantF
-title: IDirect3DDevice9::SetVertexShaderConstantF
+title: IDirect3DDevice9::SetVertexShaderConstantF (d3d9helper.h)
 author: windows-sdk-content
 description: Sets a floating-point vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstantf.htm

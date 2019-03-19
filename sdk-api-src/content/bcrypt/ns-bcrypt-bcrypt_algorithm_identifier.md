@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_ALGORITHM_IDENTIFIER
-title: BCRYPT_ALGORITHM_IDENTIFIER
+title: BCRYPT_ALGORITHM_IDENTIFIER (bcrypt.h)
 author: windows-sdk-content
 description: Is used with the BCryptEnumAlgorithms function to contain a cryptographic algorithm identifier.
 old-location: security\bcrypt_algorithm_identifier_struct.htm

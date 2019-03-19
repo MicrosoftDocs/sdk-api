@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.EnumCandidates
-title: ITfCandidateList::EnumCandidates
+title: ITfCandidateList::EnumCandidates (ctffunc.h)
 author: windows-sdk-content
 description: ITfCandidateList::EnumCandidates method
 old-location: tsf\itfcandidatelist_enumcandidates.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IManagedPoolAction
-title: IManagedPoolAction
+title: IManagedPoolAction (comsvcs.h)
 author: windows-sdk-content
 description: Enables an object to be notified before it is released from a COM+ object pool.
 old-location: cos\imanagedpoolaction.htm

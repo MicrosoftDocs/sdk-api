@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.CreateInMemoryFontFileLoader
-title: IDWriteFactory5::CreateInMemoryFontFileLoader
+title: IDWriteFactory5::CreateInMemoryFontFileLoader (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a loader object that can be used to create font file references to in-memory fonts. The caller is responsible for registering and unregistering the loader.
 old-location: directwrite\idwritefactory5_createinmemoryfontfileloader.htm

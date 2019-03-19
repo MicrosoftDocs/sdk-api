@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IVirtualDesktopManager
-title: IVirtualDesktopManager
+title: IVirtualDesktopManager (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.
 old-location: shell\ivirtualdesktopmanager.htm

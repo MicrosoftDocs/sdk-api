@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetExtendedStyle
-title: TabCtrl_SetExtendedStyle macro
+title: TabCtrl_SetExtendedStyle macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the extended styles that the tab control will use. You can use this macro or send the TCM_SETEXTENDEDSTYLE message explicitly.
 old-location: controls\TabCtrl_SetExtendedStyle.htm

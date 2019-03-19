@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_NewDynamicInstance
-title: MI_Context_NewDynamicInstance function
+title: MI_Context_NewDynamicInstance function (mi.h)
 author: windows-sdk-content
 description: Creates a new dynamic instance (weakly typed instance without a class declaration) of a class.
 old-location: wmi_v2\mi_context_newdynamicinstance.htm

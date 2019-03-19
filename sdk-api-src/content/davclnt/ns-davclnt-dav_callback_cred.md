@@ -1,6 +1,6 @@
 ---
 UID: NS:davclnt._DAV_CALLBACK_CRED
-title: DAV_CALLBACK_CRED
+title: DAV_CALLBACK_CRED (davclnt.h)
 author: windows-sdk-content
 description: Stores user credential information that was retrieved by the DavAuthCallback callback function.
 old-location: webdav\dav_callback_cred.htm

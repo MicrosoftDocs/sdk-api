@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPGetSignedDataMsg
-title: CryptSIPGetSignedDataMsg function
+title: CryptSIPGetSignedDataMsg function (mssip.h)
 author: windows-sdk-content
 description: Retrieves an Authenticode signature from the file.
 old-location: security\cryptsipgetsigneddatamsg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.UnregisterSyncProvider
-title: ISyncProviderRegistration::UnregisterSyncProvider
+title: ISyncProviderRegistration::UnregisterSyncProvider (syncregistration.h)
 author: windows-sdk-content
 description: Unregisters and removes the specified synchronization provider from the registration store.
 old-location: winsync\isyncproviderregistration_unregistersyncprovider.htm

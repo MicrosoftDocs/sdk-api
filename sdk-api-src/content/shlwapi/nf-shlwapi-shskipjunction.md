@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHSkipJunction
-title: SHSkipJunction function
+title: SHSkipJunction function (shlwapi.h)
 author: windows-sdk-content
 description: Checks a bind context to see if it is safe to bind to a particular component object.
 old-location: shell\SHSkipJunction.htm

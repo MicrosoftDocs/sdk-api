@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParser.GetSchemaProvider
-title: IQueryParser::GetSchemaProvider
+title: IQueryParser::GetSchemaProvider (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves a schema provider for browsing the currently loaded schema.
 old-location: search\_search_IQueryParser_GetSchemaProvider.htm

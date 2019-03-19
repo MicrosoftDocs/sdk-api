@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_Image
-title: IFaxTiff::get_Image
+title: IFaxTiff::get_Image (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the Image property for a FaxTiff object.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_image_cpp.htm

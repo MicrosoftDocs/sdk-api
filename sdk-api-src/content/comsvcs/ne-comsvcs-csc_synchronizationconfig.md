@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_SynchronizationConfig
-title: CSC_SynchronizationConfig
+title: CSC_SynchronizationConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates how synchronization is configured for CServiceConfig.
 old-location: cos\csc_synchronizationconfig.htm

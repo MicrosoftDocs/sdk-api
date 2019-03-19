@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ExportApplication
-title: ICOMAdminCatalog::ExportApplication
+title: ICOMAdminCatalog::ExportApplication (comadmin.h)
 author: windows-sdk-content
 description: Exports a COM+ application or application proxy to a file, ready for installation on different computers.
 old-location: cos\icomadmincatalog_exportapplication.htm

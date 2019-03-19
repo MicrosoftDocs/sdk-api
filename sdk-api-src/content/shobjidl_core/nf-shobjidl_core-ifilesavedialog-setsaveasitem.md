@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.SetSaveAsItem
-title: IFileSaveDialog::SetSaveAsItem
+title: IFileSaveDialog::SetSaveAsItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets an item to be used as the initial entry in a Save As dialog.
 old-location: shell\IFileSaveDialog_SetSaveAsItem.htm

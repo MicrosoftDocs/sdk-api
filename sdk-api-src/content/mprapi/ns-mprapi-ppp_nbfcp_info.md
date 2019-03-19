@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_NBFCP_INFO
-title: PPP_NBFCP_INFO
+title: PPP_NBFCP_INFO (mprapi.h)
 author: windows-sdk-content
 description: The PPP_NBFCP_INFO structure contains the result of a PPP NetBEUI Framer (NBF) projection operation.
 old-location: rras\ppp_nbfcp_info.htm

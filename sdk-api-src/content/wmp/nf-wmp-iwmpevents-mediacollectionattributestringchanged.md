@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringChanged
-title: IWMPEvents::MediaCollectionAttributeStringChanged
+title: IWMPEvents::MediaCollectionAttributeStringChanged (wmp.h)
 author: windows-sdk-content
 description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringchanged.htm

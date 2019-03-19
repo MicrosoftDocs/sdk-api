@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_BINDING_BASE
-title: HTTP_SERVICE_BINDING_BASE
+title: HTTP_SERVICE_BINDING_BASE (http.h)
 author: windows-sdk-content
 description: HTTP_SERVICE_BINDING_BASE.
 old-location: http\http_service_binding_base.htm

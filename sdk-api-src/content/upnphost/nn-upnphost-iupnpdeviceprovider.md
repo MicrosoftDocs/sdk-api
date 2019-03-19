@@ -1,6 +1,6 @@
 ---
 UID: NN:upnphost.IUPnPDeviceProvider
-title: IUPnPDeviceProvider
+title: IUPnPDeviceProvider (upnphost.h)
 author: windows-sdk-content
 description: The IUPnPDeviceProvider interface allows a device provider to start and stop its processing.
 old-location: upnp\iupnpdeviceprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.AddLoggedConflict
-title: ISyncChangeBatch::AddLoggedConflict
+title: ISyncChangeBatch::AddLoggedConflict (winsync.h)
 author: windows-sdk-content
 description: Adds metadata that represents a conflict to the change batch.
 old-location: winsync\isyncchangebatch_addloggedconflict.htm

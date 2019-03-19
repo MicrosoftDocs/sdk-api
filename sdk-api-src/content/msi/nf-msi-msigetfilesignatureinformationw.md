@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetFileSignatureInformationW
-title: MsiGetFileSignatureInformationW function
+title: MsiGetFileSignatureInformationW function (msi.h)
 author: windows-sdk-content
 description: The MsiGetFileSignatureInformation function takes the path to a file that has been digitally signed and returns the file's signer certificate and hash.
 old-location: setup\msigetfilesignatureinformation.htm

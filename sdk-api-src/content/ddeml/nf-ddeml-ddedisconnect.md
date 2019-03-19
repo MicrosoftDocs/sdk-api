@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeDisconnect
-title: DdeDisconnect function
+title: DdeDisconnect function (ddeml.h)
 author: windows-sdk-content
 description: Terminates a conversation started by either the DdeConnect or DdeConnectList function and invalidates the specified conversation handle.
 old-location: dataxchg\ddedisconnect.htm

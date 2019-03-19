@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.ConnectNotify
-title: IWTSProtocolConnection::ConnectNotify
+title: IWTSProtocolConnection::ConnectNotify (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.
 old-location: termserv\iwtsprotocolconnection_connectnotify.htm

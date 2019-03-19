@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IEnumVdsObject.Reset
-title: IEnumVdsObject::Reset
+title: IEnumVdsObject::Reset (vdshwprv.h)
 author: windows-sdk-content
 description: Resets to the beginning of the enumeration.
 old-location: base\ienumvdsobject_reset.htm

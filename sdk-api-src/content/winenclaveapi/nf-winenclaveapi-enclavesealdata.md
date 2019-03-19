@@ -1,6 +1,6 @@
 ---
 UID: NF:winenclaveapi.EnclaveSealData
-title: EnclaveSealData function
+title: EnclaveSealData function (winenclaveapi.h)
 author: windows-sdk-content
 description: Generates an encrypted binary large object (blob) from unencypted data.
 old-location: base\enclavesealdata.htm

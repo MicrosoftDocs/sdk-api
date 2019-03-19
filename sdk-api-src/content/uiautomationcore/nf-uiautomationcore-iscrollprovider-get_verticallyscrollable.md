@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticallyScrollable
-title: IScrollProvider::get_VerticallyScrollable
+title: IScrollProvider::get_VerticallyScrollable (uiautomationcore.h)
 author: windows-sdk-content
 description: Indicates whether the control can scroll vertically.
 old-location: winauto\uiauto_IScrollProvider_VerticallyScrollable.htm

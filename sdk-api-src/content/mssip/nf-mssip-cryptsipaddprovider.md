@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPAddProvider
-title: CryptSIPAddProvider function
+title: CryptSIPAddProvider function (mssip.h)
 author: windows-sdk-content
 description: The CryptSIPAddProvider function registers functions that are exported by a given DLL file that implements a Subject Interface Package (SIP).
 old-location: security\cryptsipaddprovider.htm

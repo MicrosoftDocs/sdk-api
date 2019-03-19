@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.SetSecurityInfo
-title: SetSecurityInfo function
+title: SetSecurityInfo function (aclapi.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a specified object. The caller identifies the object by a handle.
 old-location: security\setsecurityinfo.htm

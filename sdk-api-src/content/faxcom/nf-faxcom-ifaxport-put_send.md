@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Send
-title: IFaxPort::put_Send
+title: IFaxPort::put_Send (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::get_Send property is a Boolean value that indicates whether a fax port is enabled to send faxes.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_send_cpp.htm

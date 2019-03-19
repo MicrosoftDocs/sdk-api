@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_PASSWORD_CREDENTIALSW
-title: CRYPT_PASSWORD_CREDENTIALSW
+title: CRYPT_PASSWORD_CREDENTIALSW (wincrypt.h)
 author: windows-sdk-content
 description: Contains the user name and password credentials to be used in the CRYPT_CREDENTIALS structure as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
 old-location: security\crypt_password_credentials.htm

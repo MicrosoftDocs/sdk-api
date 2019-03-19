@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.addCertTypeToRequestEx
-title: ICEnroll4::addCertTypeToRequestEx
+title: ICEnroll4::addCertTypeToRequestEx (xenroll.h)
 author: windows-sdk-content
 description: Adds a certificate template (or &#0034;certificate type&#0034;) to a request.
 old-location: security\icenroll4_addcerttypetorequestex.htm

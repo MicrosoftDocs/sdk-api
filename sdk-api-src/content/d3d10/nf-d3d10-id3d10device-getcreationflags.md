@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetCreationFlags
-title: ID3D10Device::GetCreationFlags
+title: ID3D10Device::GetCreationFlags (d3d10.h)
 author: windows-sdk-content
 description: Get the flags used during the call to create the device with D3D10CreateDevice.
 old-location: direct3d10\id3d10device_getcreationflags.htm

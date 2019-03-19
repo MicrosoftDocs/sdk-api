@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_NOTIFY_TYPE
-title: MMC_NOTIFY_TYPE
+title: MMC_NOTIFY_TYPE (mmc.h)
 author: windows-sdk-content
 description: The MMC_NOTIFY_TYPE enumeration defines the notifications of user actions that can be sent to a snap-in by the console's Node Manager when it calls IComponentData::Notify, IComponent::Notify, or IExtendControlbar::ControlbarNotify.
 old-location: mmc\mmc_notify_type.htm

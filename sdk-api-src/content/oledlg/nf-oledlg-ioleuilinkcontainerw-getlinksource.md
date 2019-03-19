@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.GetLinkSource
-title: IOleUILinkContainerW::GetLinkSource
+title: IOleUILinkContainerW::GetLinkSource (oledlg.h)
 author: windows-sdk-content
 description: Retrieves information about a link that can be displayed in the Links dialog box.
 old-location: com\ioleuilinkcontainer_getlinksource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliWaitForTransfer
-title: WdsCliWaitForTransfer function
+title: WdsCliWaitForTransfer function (wdsclientapi.h)
 author: windows-sdk-content
 description: Waits for an image or file transfer to complete.
 old-location: wds\wdscliwaitfortransfer.htm

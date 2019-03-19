@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStream.get_Name
-title: ITStream::get_Name
+title: ITStream::get_Name (tapi3if.h)
 author: windows-sdk-content
 description: The get_Name method gets a BSTR representing the name of the stream. This name is used for informational or display purposes.
 old-location: tapi3\itstream_get_name.htm

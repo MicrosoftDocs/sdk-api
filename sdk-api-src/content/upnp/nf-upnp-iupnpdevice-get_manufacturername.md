@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ManufacturerName
-title: IUPnPDevice::get_ManufacturerName
+title: IUPnPDevice::get_ManufacturerName (upnp.h)
 author: windows-sdk-content
 description: The ManufacturerName property specifies a human-readable form of the manufacturer name of the device.
 old-location: upnp\iupnpdevice_manufacturername.htm

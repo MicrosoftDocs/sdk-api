@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV
-title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV
+title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV (d3d12.h)
 author: windows-sdk-content
 description: A shader resource view (SRV) structure for storing a raytracing acceleration structure.
 old-location: direct3d12\d3d12_raytracing_acceleration_structure_srv.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSManSession
-title: IWSManSession
+title: IWSManSession (wsmandisp.h)
 author: windows-sdk-content
 description: Defines operations and session settings.
 old-location: winrm\iwsmansession.htm

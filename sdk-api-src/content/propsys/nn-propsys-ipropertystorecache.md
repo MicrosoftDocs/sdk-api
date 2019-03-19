@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyStoreCache
-title: IPropertyStoreCache
+title: IPropertyStoreCache (propsys.h)
 author: windows-sdk-content
 description: Exposes methods that allow a handler to manage various states for each property.
 old-location: properties\IPropertyStoreCache.htm

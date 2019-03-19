@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigTransportGetInfo
-title: MprConfigTransportGetInfo function
+title: MprConfigTransportGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigTransportGetInfo function retrieves the configuration for the specified transport protocol from the router.
 old-location: rras\mprconfigtransportgetinfo.htm

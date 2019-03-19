@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumMessagesAllowedByStorageFilter
-title: ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter
+title: ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Get the number of messages that were allowed to pass through a storage filter.
 old-location: direct3d11\id3d11infoqueue_getnummessagesallowedbystoragefilter.htm

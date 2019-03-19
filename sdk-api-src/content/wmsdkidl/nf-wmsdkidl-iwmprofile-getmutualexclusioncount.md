@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetMutualExclusionCount
-title: IWMProfile::GetMutualExclusionCount
+title: IWMProfile::GetMutualExclusionCount (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMutualExclusionCount method retrieves the number of mutual exclusion objects in the profile.
 old-location: wmformat\iwmprofile_getmutualexclusioncount.htm

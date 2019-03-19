@@ -1,6 +1,6 @@
 ---
 UID: NS:shtypes._COMDLG_FILTERSPEC
-title: COMDLG_FILTERSPEC
+title: COMDLG_FILTERSPEC (shtypes.h)
 author: windows-sdk-content
 description: Used generically to filter elements.
 old-location: shell\COMDLG_FILTERSPEC.htm

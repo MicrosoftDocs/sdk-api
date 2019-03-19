@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectImpl
-title: IMILBitmapEffectImpl
+title: IMILBitmapEffectImpl (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define an an out IMILBitmapEffect object.
 old-location: wibe\_wibe_imilbitmapeffectimpl.htm

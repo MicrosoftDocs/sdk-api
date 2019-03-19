@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMBegin
-title: IComCRMEvents::OnCRMBegin
+title: IComCRMEvents::OnCRMBegin (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a CRM clerk is starting, either due to a client registering a compensator or during recovery.
 old-location: cos\icomcrmevents_oncrmbegin.htm

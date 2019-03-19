@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandQueue
-title: ID3D12Device::CreateCommandQueue
+title: ID3D12Device::CreateCommandQueue (d3d12.h)
 author: windows-sdk-content
 description: Creates a command queue.
 old-location: direct3d12\id3d12device_createcommandqueue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetSupportedRates
-title: IMFPMediaPlayer::GetSupportedRates
+title: IMFPMediaPlayer::GetSupportedRates (mfplay.h)
 author: windows-sdk-content
 description: Gets the range of supported playback rates.
 old-location: mf\imfpmediaplayer_getsupportedrates.htm

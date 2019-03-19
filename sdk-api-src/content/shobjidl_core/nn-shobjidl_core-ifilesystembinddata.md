@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileSystemBindData
-title: IFileSystemBindData
+title: IFileSystemBindData (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that store file system information for optimizing calls to IShellFolder::ParseDisplayName.
 old-location: shell\IFileSystemBindData.htm

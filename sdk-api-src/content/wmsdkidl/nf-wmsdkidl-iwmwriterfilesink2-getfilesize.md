@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.GetFileSize
-title: IWMWriterFileSink2::GetFileSize
+title: IWMWriterFileSink2::GetFileSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetFileSize method retrieves the size of the file.
 old-location: wmformat\iwmwriterfilesink2_getfilesize.htm

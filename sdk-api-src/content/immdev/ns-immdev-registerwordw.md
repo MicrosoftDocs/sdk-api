@@ -1,6 +1,6 @@
 ---
 UID: NS:immdev.tagREGISTERWORDW
-title: REGISTERWORDW
+title: REGISTERWORDW (immdev.h)
 author: windows-sdk-content
 description: Contains reading information or a word to register.
 old-location: intl\registerword.htm

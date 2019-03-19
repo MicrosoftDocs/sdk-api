@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.ScaleTransform
-title: Pen::ScaleTransform
+title: Pen::ScaleTransform (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::ScaleTransform method sets the Pen object's world transformation matrix equal to the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_ScaleTransform_sx_sy_order_.htm

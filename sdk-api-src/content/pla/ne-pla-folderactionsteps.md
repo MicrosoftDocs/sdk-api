@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0012
-title: FolderActionSteps
+title: FolderActionSteps (pla.h)
 author: windows-sdk-content
 description: Defines the action that the data manager takes when both the age and size limits are met.
 old-location: pla\folderactionsteps.htm

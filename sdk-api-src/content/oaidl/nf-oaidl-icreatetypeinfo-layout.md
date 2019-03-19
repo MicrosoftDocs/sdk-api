@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.LayOut
-title: ICreateTypeInfo::LayOut
+title: ICreateTypeInfo::LayOut (oaidl.h)
 author: windows-sdk-content
 description: Assigns VTBL offsets for virtual functions and instance offsets for per-instance data members, and creates the two type descriptions for dual interfaces.
 old-location: automat\icreatetypeinfo_layout.htm

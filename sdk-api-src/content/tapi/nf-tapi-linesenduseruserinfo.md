@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSendUserUserInfo
-title: lineSendUserUserInfo function
+title: lineSendUserUserInfo function (tapi.h)
 author: windows-sdk-content
 description: The lineSendUserUserInfo function sends user-user information to the remote party on the specified call.
 old-location: tapi2\linesenduseruserinfo.htm

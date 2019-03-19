@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.ISCPSecureExchange3
-title: ISCPSecureExchange3
+title: ISCPSecureExchange3 (mswmdm.h)
 author: windows-sdk-content
 description: The ISCPSecureExchange3 interface extends ISCPSecureExchange2 by providing improved data exchange performance, and a transfer-complete callback method.
 old-location: wmdm\iscpsecureexchange3.htm

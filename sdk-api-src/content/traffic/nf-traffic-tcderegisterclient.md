@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcDeregisterClient
-title: TcDeregisterClient function
+title: TcDeregisterClient function (traffic.h)
 author: windows-sdk-content
 description: The TcDeregisterClient function deregisters a client with the Traffic Control Interface (TCI).
 old-location: qos\tcderegisterclient.htm

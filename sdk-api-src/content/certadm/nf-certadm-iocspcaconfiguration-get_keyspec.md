@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_KeySpec
-title: IOCSPCAConfiguration::get_KeySpec
+title: IOCSPCAConfiguration::get_KeySpec (certadm.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the key bound to the configuration is used for encryption or for signing content.
 old-location: security\iocspcaconfiguration_keyspec_method.htm

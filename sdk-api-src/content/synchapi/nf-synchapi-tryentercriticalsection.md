@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.TryEnterCriticalSection
-title: TryEnterCriticalSection function
+title: TryEnterCriticalSection function (synchapi.h)
 author: windows-sdk-content
 description: Attempts to enter a critical section without blocking. If the call is successful, the calling thread takes ownership of the critical section.
 old-location: base\tryentercriticalsection.htm

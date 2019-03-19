@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_PercentCompletion
-title: IWdsTransportClient::get_PercentCompletion
+title: IWdsTransportClient::get_PercentCompletion (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the percentage of the current object that has been downloaded.
 old-location: wds\iwdstransportclient_percentcompletion.htm

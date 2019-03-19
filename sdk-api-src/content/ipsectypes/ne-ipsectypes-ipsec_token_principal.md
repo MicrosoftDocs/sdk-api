@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_PRINCIPAL_
-title: IPSEC_TOKEN_PRINCIPAL
+title: IPSEC_TOKEN_PRINCIPAL (ipsectypes.h)
 author: windows-sdk-content
 description: An access token principal.
 old-location: fwp\ipsec_token_principal.htm

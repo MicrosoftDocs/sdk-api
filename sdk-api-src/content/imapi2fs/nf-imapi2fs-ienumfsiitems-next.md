@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Next
-title: IEnumFsiItems::Next
+title: IEnumFsiItems::Next (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence.
 old-location: imapi\ienumfsiitems_next.htm

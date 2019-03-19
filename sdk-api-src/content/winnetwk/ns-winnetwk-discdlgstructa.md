@@ -1,6 +1,6 @@
 ---
 UID: NS:winnetwk._DISCDLGSTRUCTA
-title: DISCDLGSTRUCTA
+title: DISCDLGSTRUCTA (winnetwk.h)
 author: windows-sdk-content
 description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.
 old-location: wnet\discdlgstruct_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemRenamed
-title: IOfflineFilesEvents::ItemRenamed
+title: IOfflineFilesEvents::ItemRenamed (cscobj.h)
 author: windows-sdk-content
 description: Reports that the path for an item in the Offline Files cache has been renamed.
 old-location: of\iofflinefilesevents_itemrenamed.htm

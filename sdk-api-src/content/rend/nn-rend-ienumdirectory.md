@@ -1,6 +1,6 @@
 ---
 UID: NN:rend.IEnumDirectory
-title: IEnumDirectory
+title: IEnumDirectory (rend.h)
 author: windows-sdk-content
 description: The IEnumDirectory interface provides COM-standard enumeration methods for the ITDirectory interface. The ITRendezvous::EnumerateDefaultDirectories method returns a pointer to IEnumDirectory.
 old-location: tapi3\ienumdirectory.htm

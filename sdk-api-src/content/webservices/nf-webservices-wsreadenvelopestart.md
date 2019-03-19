@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadEnvelopeStart
-title: WsReadEnvelopeStart function
+title: WsReadEnvelopeStart function (webservices.h)
 author: windows-sdk-content
 description: Reads the headers of the message and prepare to read the body elements.
 old-location: wsw\wsreadenvelopestart.htm

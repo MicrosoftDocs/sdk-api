@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.CopyFromBitmap
-title: ID2D1Bitmap::CopyFromBitmap
+title: ID2D1Bitmap::CopyFromBitmap (d2d1.h)
 author: windows-sdk-content
 description: Copies the specified region from the specified bitmap into the current bitmap.
 old-location: direct2d\ID2D1Bitmap_CopyFromBitmap.htm

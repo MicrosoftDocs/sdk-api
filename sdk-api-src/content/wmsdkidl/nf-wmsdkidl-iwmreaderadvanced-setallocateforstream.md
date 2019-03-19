@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetAllocateForStream
-title: IWMReaderAdvanced::SetAllocateForStream
+title: IWMReaderAdvanced::SetAllocateForStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetAllocateForStream method specifies whether the reader uses IWMReaderCallbackAdvanced::AllocateForStream to allocate buffers for stream samples.
 old-location: wmformat\iwmreaderadvanced_setallocateforstream.htm

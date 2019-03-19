@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendContextMenu.Command
-title: IExtendContextMenu::Command
+title: IExtendContextMenu::Command (mmc.h)
 author: windows-sdk-content
 description: The IExtendContextMenu::Command method is called if one of the items you added to the context menu with IExtendContextMenu::AddMenuItems is subsequently selected.
 old-location: mmc\iextendcontextmenu_command.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef.__unnamed_enum_1
-title: NL_SUFFIX_ORIGIN
+title: NL_SUFFIX_ORIGIN (nldef.h)
 author: windows-sdk-content
 description: The IP_SUFFIX_ORIGIN enumeration specifies the origin of an IPv4 or IPv6 address suffix, and is used with the IP_ADAPTER_UNICAST_ADDRESS structure.
 old-location: iphlp\ip_suffix_origin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteTextRenderer
-title: IDWriteTextRenderer
+title: IDWriteTextRenderer (dwrite.h)
 author: windows-sdk-content
 description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
 old-location: directwrite\IDWriteTextRenderer.htm

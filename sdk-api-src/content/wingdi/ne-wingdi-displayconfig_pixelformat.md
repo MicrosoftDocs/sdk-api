@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.__unnamed_enum_5
-title: DISPLAYCONFIG_PIXELFORMAT
+title: DISPLAYCONFIG_PIXELFORMAT (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_PIXELFORMAT enumeration specifies pixel format in various bits per pixel (BPP) values.
 old-location: display\displayconfig_pixelformat.htm

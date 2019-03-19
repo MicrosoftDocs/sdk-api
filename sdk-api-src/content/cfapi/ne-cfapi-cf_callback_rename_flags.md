@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_RENAME_FLAGS
-title: CF_CALLBACK_RENAME_FLAGS
+title: CF_CALLBACK_RENAME_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Call back flags to inform the sync provider that a placeholder under one of its sync roots is about to be renamed or moved.
 old-location: cloudapi\cf_callback_rename_flags.htm

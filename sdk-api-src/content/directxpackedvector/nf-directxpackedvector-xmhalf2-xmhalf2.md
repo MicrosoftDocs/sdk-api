@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2
-title: XMHALF2::XMHALF2
+title: XMHALF2::XMHALF2 (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMHALF2.
 old-location: dxmath\xmhalf2_ctor_1.htm

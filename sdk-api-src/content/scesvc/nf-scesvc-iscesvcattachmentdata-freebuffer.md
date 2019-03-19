@@ -1,6 +1,6 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.FreeBuffer
-title: ISceSvcAttachmentData::FreeBuffer
+title: ISceSvcAttachmentData::FreeBuffer (scesvc.h)
 author: windows-sdk-content
 description: The FreeBuffer method frees memory allocated by the Security Configuration snap-in.
 old-location: security\iscesvcattachmentdata_freebuffer.htm

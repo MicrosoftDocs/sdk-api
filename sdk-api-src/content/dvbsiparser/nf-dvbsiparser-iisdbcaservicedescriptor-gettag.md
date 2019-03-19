@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetTag
-title: IIsdbCAServiceDescriptor::GetTag
+title: IIsdbCAServiceDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_gettag.htm

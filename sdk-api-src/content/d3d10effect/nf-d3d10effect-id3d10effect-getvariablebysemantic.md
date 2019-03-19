@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableBySemantic
-title: ID3D10Effect::GetVariableBySemantic
+title: ID3D10Effect::GetVariableBySemantic (d3d10effect.h)
 author: windows-sdk-content
 description: Get a variable by semantic.
 old-location: direct3d10\id3d10effect_getvariablebysemantic.htm

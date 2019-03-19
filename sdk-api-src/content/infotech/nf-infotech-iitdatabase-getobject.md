@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITDatabase.GetObject
-title: IITDatabase::GetObject
+title: IITDatabase::GetObject (infotech.h)
 author: windows-sdk-content
 description: Retrieves a specified IUnknown-based interface on the object identified by the dwObjInstance parameter.
 old-location: htmlhelp\iitdatabase_getobject.htm

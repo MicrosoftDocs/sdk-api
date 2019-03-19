@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.TakeOwnership
-title: IDXGIOutput::TakeOwnership
+title: IDXGIOutput::TakeOwnership (dxgi.h)
 author: windows-sdk-content
 description: Takes ownership of an output.
 old-location: direct3ddxgi\idxgioutput_takeownership.htm

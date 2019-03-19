@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IEnumComponents
-title: IEnumComponents
+title: IEnumComponents (tuner.h)
 author: windows-sdk-content
 description: The IEnumComponents interface provides a standard COM enumeration object for the components (substreams) in a given program stream.
 old-location: mstv\ienumcomponents.htm

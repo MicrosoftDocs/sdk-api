@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDropPosition
-title: INameSpaceTreeControlDropHandler::OnDropPosition
+title: INameSpaceTreeControlDropHandler::OnDropPosition (shobjidl.h)
 author: windows-sdk-content
 description: Called when the item is being dropped within the same level (within the same parent folder) in the tree.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDropPosition.htm

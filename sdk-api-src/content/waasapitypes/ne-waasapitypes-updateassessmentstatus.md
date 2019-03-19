@@ -1,6 +1,6 @@
 ---
 UID: NE:waasapitypes.tagUpdateAssessmentStatus
-title: UpdateAssessmentStatus
+title: UpdateAssessmentStatus (waasapitypes.h)
 author: windows-sdk-content
 description: Describes how up-to-date the OS on a device is.
 old-location: base\updateassessmentstatus.htm

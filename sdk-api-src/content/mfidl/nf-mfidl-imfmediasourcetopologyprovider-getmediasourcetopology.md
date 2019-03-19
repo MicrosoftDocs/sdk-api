@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSourceTopologyProvider.GetMediaSourceTopology
-title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology
+title: IMFMediaSourceTopologyProvider::GetMediaSourceTopology (mfidl.h)
 author: windows-sdk-content
 description: Returns a topology for a media source that builds an internal topology.
 old-location: mf\imfmediasourcetopologyprovider_getmediasourcetopology.htm

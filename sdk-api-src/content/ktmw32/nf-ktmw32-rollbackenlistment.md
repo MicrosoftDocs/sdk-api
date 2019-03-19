@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.RollbackEnlistment
-title: RollbackEnlistment function
+title: RollbackEnlistment function (ktmw32.h)
 author: windows-sdk-content
 description: Rolls back the specified transaction that is associated with an enlistment. This function cannot be called for read-only enlistments.
 old-location: fs\rollbackenlistment.htm

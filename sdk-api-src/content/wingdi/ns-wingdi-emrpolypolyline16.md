@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRPOLYPOLYLINE16
-title: EMRPOLYPOLYLINE16
+title: EMRPOLYPOLYLINE16 (wingdi.h)
 author: windows-sdk-content
 description: The EMRPOLYPOLYLINE16 and EMRPOLYPOLYGON16 structures contain members for the PolyPolyline and PolyPolygon enhanced metafile records.
 old-location: gdi\emrpolypolyline16__emrpolypolygon16.htm

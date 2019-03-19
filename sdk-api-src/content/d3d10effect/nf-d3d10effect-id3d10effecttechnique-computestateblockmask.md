@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.ComputeStateBlockMask
-title: ID3D10EffectTechnique::ComputeStateBlockMask
+title: ID3D10EffectTechnique::ComputeStateBlockMask (d3d10effect.h)
 author: windows-sdk-content
 description: Compute a state-block mask to allow/prevent state changes.
 old-location: direct3d10\id3d10effecttechnique_computestateblockmask.htm

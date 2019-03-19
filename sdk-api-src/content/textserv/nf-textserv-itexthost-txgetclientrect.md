@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetClientRect
-title: ITextHost::TxGetClientRect
+title: ITextHost::TxGetClientRect (textserv.h)
 author: windows-sdk-content
 description: Retrieves the client coordinates of the text host's client area.
 old-location: controls\ITextHost_TxGetClientRect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &)
-title: Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &)
+title: Graphics::DrawBezier(IN const Pen,IN const Point &,IN const Point &,IN const Point &,IN const Point &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawBezier method draws a B&#233;zier spline.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_Point_pt1_Point_pt2_Point_pt3_Point_pt4_.htm

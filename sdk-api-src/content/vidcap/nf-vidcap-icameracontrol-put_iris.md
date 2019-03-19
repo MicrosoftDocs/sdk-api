@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Iris
-title: ICameraControl::put_Iris
+title: ICameraControl::put_Iris (vidcap.h)
 author: windows-sdk-content
 description: The put_Iris method sets the camera's aperture setting.
 old-location: dshow\icameracontrol_put_iris.htm

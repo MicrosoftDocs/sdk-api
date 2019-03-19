@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzRoleAssignments
-title: IAzRoleAssignments
+title: IAzRoleAssignments (azroles.h)
 author: windows-sdk-content
 description: Represents a collection of IAzRoleAssignment objects.
 old-location: security\iazroleassignments.htm

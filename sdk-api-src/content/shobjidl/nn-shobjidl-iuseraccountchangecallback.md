@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IUserAccountChangeCallback
-title: IUserAccountChangeCallback
+title: IUserAccountChangeCallback (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method which is called when the picture that represents a user account is changed.
 old-location: shell\IUserAccountChangeCallback.htm

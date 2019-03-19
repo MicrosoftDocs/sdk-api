@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.get_Description
-title: IAzRole::get_Description
+title: IAzRole::get_Description (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the role.
 old-location: security\iazrole_description.htm

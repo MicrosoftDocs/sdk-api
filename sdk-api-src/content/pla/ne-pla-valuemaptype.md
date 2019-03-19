@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0008
-title: ValueMapType
+title: ValueMapType (pla.h)
 author: windows-sdk-content
 description: Defines the type of the value.
 old-location: pla\valuemaptype.htm

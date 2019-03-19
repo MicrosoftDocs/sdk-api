@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.QueryRevertStatus
-title: IVssBackupComponents::QueryRevertStatus
+title: IVssBackupComponents::QueryRevertStatus (vsbackup.h)
 author: windows-sdk-content
 description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
 old-location: base\ivssbackupcomponents_queryrevertstatus.htm

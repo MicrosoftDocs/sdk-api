@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.GetRoutingMethods
-title: IFaxPort::GetRoutingMethods
+title: IFaxPort::GetRoutingMethods (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::GetRoutingMethods interface method creates a FaxRoutingMethods object for the parent FaxPort object.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_getroutingmethods_cpp.htm

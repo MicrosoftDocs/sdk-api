@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumContextProps.Count
-title: IEnumContextProps::Count
+title: IEnumContextProps::Count (objidl.h)
 author: windows-sdk-content
 description: Retrieves the number of context properties in the context.
 old-location: com\ienumcontextprops_count.htm

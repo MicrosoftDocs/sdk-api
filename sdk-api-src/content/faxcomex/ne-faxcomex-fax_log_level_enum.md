@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_LOG_LEVEL_ENUM
-title: FAX_LOG_LEVEL_ENUM
+title: FAX_LOG_LEVEL_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_LOG_LEVEL_ENUM enumeration defines the event logging levels for a logging category.
 old-location: fax\_mfax_fax_log_level_enum.htm

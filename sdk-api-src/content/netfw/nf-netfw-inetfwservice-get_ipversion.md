@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.get_IpVersion
-title: INetFwService::get_IpVersion
+title: INetFwService::get_IpVersion (netfw.h)
 author: windows-sdk-content
 description: Specifies the firewall IP version for which the service is authorized.
 old-location: ics\inetfwservice_ipversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRDeinterlaceControl
-title: IVMRDeinterlaceControl
+title: IVMRDeinterlaceControl (strmif.h)
 author: windows-sdk-content
 description: The IVMRDeinterlaceControl interface provides support for advanced hardware-accelerated deinterlacing using the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrdeinterlacecontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetClipboardData
-title: IRichEditOleCallback::GetClipboardData
+title: IRichEditOleCallback::GetClipboardData (richole.h)
 author: windows-sdk-content
 description: Allows the client to supply its own clipboard object.
 old-location: controls\IRichEditOleCallback_GetClipboardData.htm

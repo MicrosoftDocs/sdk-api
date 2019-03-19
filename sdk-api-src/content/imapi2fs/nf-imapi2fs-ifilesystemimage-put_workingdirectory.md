@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_WorkingDirectory
-title: IFileSystemImage::put_WorkingDirectory
+title: IFileSystemImage::put_WorkingDirectory (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the temporary directory in which stash files are built.
 old-location: imapi\ifilesystemimage_put_workingdirectory.htm

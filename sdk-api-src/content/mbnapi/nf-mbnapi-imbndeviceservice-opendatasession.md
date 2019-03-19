@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.OpenDataSession
-title: IMbnDeviceService::OpenDataSession
+title: IMbnDeviceService::OpenDataSession (mbnapi.h)
 author: windows-sdk-content
 description: Open a data session to the device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_opendatasession.htm

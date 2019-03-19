@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.CreateStrokeDashArray
-title: ID2D1SvgDocument::CreateStrokeDashArray
+title: ID2D1SvgDocument::CreateStrokeDashArray (d2d1svg.h)
 author: windows-sdk-content
 description: Creates a dash array object which can be used to set the stroke-dasharray property.
 old-location: direct2d\id2d1svgdocument_createstrokedasharray.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetGraphicsMode
-title: SetGraphicsMode function
+title: SetGraphicsMode function (wingdi.h)
 author: windows-sdk-content
 description: The SetGraphicsMode function sets the graphics mode for the specified device context.
 old-location: gdi\setgraphicsmode.htm

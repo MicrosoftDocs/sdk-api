@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetWindowPlacement
-title: SetWindowPlacement function
+title: SetWindowPlacement function (winuser.h)
 author: windows-sdk-content
 description: Sets the show state and the restored, minimized, and maximized positions of the specified window.
 old-location: winmsg\setwindowplacement.htm

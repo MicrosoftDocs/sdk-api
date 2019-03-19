@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.GetColorControls
-title: IDirectDrawColorControl::GetColorControls
+title: IDirectDrawColorControl::GetColorControls (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the current color-control settings that are associated with an overlay or a primary surface.
 old-location: directdraw\idirectdrawcolorcontrol_getcolorcontrols.htm

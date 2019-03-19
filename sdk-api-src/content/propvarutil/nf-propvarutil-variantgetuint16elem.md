@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantGetUInt16Elem
-title: VariantGetUInt16Elem function
+title: VariantGetUInt16Elem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single unsigned Int16 element from a variant structure.
 old-location: properties\VariantGetUInt16Elem.htm

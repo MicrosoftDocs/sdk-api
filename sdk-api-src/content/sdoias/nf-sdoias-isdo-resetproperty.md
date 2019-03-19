@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.ResetProperty
-title: ISdo::ResetProperty
+title: ISdo::ResetProperty (sdoias.h)
 author: windows-sdk-content
 description: The ResetProperty method resets the specified property to its default value.
 old-location: nps\SDO_isdo_resetproperty.htm

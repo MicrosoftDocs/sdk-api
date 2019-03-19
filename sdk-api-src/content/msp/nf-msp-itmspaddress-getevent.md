@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.GetEvent
-title: ITMSPAddress::GetEvent
+title: ITMSPAddress::GetEvent (msp.h)
 author: windows-sdk-content
 description: Retrieves event information.
 old-location: tapi3\itmspaddress_getevent.htm

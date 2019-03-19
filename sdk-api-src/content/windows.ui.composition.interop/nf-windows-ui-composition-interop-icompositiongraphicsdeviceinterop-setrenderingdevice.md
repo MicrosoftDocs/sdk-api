@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositionGraphicsDeviceInterop.SetRenderingDevice
-title: ICompositionGraphicsDeviceInterop::composition
+title: ICompositionGraphicsDeviceInterop::composition (windows.ui.composition.interop.h)
 author: windows-sdk-content
 description: Sets the rendering device.
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop_setrenderingdevice.htm

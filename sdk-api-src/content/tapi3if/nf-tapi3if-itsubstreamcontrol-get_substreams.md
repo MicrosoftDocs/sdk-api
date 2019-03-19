@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.get_SubStreams
-title: ITSubStreamControl::get_SubStreams
+title: ITSubStreamControl::get_SubStreams (tapi3if.h)
 author: windows-sdk-content
 description: The get_SubStreams method creates a collection of substreams currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateSubStreams method.
 old-location: tapi3\itsubstreamcontrol_get_substreams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.CollectionElementValue
-title: CollectionElementValue
+title: CollectionElementValue (xamlom.h)
 author: windows-sdk-content
 description: Represents an element in a collection.
 old-location: xaml_diagnostics\collectionelementvalue.htm

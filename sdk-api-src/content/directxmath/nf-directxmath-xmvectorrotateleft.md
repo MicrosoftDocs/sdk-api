@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorRotateLeft
-title: XMVectorRotateLeft function
+title: XMVectorRotateLeft function (directxmath.h)
 author: windows-sdk-content
 description: Rotates the vector left by a given number of 32-bit elements.
 old-location: dxmath\xmvectorrotateleft.htm

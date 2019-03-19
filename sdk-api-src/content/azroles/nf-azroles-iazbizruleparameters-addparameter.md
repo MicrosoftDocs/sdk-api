@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.AddParameter
-title: IAzBizRuleParameters::AddParameter
+title: IAzBizRuleParameters::AddParameter (azroles.h)
 author: windows-sdk-content
 description: Adds a parameter to the list of parameters available to business rule (BizRule) scripts.
 old-location: security\iazbizruleparameters_addparameter_method.htm

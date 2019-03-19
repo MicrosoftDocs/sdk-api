@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_3.D3D11_TEX2D_ARRAY_UAV1
-title: D3D11_TEX2D_ARRAY_UAV1
+title: D3D11_TEX2D_ARRAY_UAV1 (d3d11_3.h)
 author: windows-sdk-content
 description: Describes an array of unordered-access 2D texture resources.
 old-location: direct3d11\d3d11_tex2d_array_uav1.htm

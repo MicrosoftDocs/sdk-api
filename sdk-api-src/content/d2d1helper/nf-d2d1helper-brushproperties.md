@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.BrushProperties
-title: BrushProperties function
+title: BrushProperties function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_BRUSH_PROPERTIES structure.
 old-location: direct2d\brushproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiSourceListClearAllExA
-title: MsiSourceListClearAllExA function
+title: MsiSourceListClearAllExA function (msi.h)
 author: windows-sdk-content
 description: The MsiSourceListClearAllEx function removes all the existing sources of a given source type for the specified product or patch instance.
 old-location: setup\msisourcelistclearallex.htm

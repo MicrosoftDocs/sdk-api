@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.GetFileProperty
-title: IFsrmPropertyBag::GetFileProperty
+title: IFsrmPropertyBag::GetFileProperty (fsrmpipeline.h)
 author: windows-sdk-content
 description: Retrieves the specified property from the property bag.
 old-location: fsrm\ifsrmpropertybag_getfileproperty.htm

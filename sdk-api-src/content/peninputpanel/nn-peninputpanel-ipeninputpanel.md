@@ -1,6 +1,6 @@
 ---
 UID: NN:peninputpanel.IPenInputPanel
-title: IPenInputPanel
+title: IPenInputPanel (peninputpanel.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\ipeninputpanel.htm

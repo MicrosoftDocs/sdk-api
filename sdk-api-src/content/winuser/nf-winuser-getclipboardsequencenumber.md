@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClipboardSequenceNumber
-title: GetClipboardSequenceNumber function
+title: GetClipboardSequenceNumber function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the clipboard sequence number for the current window station.
 old-location: dataxchg\getclipboardsequencenumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorInputView
-title: ID3D11VideoDevice::CreateVideoProcessorInputView
+title: ID3D11VideoDevice::CreateVideoProcessorInputView (d3d11.h)
 author: windows-sdk-content
 description: Creates a resource view for a video processor, describing the input sample for the video processing operation.
 old-location: mf\id3d11videodevice_createvideoprocessorinputview.htm

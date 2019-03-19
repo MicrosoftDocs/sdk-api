@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagVMRALLOCATIONINFO
-title: VMRALLOCATIONINFO
+title: VMRALLOCATIONINFO (strmif.h)
 author: windows-sdk-content
 description: The VMRALLOCATIONINFO structure is used in the VMR-7 filter's IVMRSurfaceAllocator::AllocateSurface method.
 old-location: dshow\vmrallocationinfo.htm

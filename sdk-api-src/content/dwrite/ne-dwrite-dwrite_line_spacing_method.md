@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_LINE_SPACING_METHOD
-title: DWRITE_LINE_SPACING_METHOD
+title: DWRITE_LINE_SPACING_METHOD (dwrite.h)
 author: windows-sdk-content
 description: The method used for line spacing in a text layout.
 old-location: directwrite\dwrite_line_spacing_method.htm

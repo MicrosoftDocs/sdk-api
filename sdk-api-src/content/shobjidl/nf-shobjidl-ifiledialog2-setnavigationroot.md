@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFileDialog2.SetNavigationRoot
-title: IFileDialog2::SetNavigationRoot
+title: IFileDialog2::SetNavigationRoot (shobjidl.h)
 author: windows-sdk-content
 description: Specifies a top-level location from which to begin browsing a namespace, for instance in the Save dialog's Browse folder option. Users cannot navigate above this location.
 old-location: shell\IFileDialog2_SetNavigationRoot.htm

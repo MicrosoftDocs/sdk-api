@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreGetSize
-title: IMallocSpy::PreGetSize
+title: IMallocSpy::PreGetSize (objidl.h)
 author: windows-sdk-content
 description: Performs operations required before calling IMalloc::GetSize.
 old-location: com\imallocspy_pregetsize.htm

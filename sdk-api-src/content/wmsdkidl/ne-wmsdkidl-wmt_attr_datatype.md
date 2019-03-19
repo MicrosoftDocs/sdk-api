@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_ATTR_DATATYPE
-title: WMT_ATTR_DATATYPE
+title: WMT_ATTR_DATATYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_ATTR_DATATYPE enumeration defines the data type for a variably typed property.
 old-location: wmformat\wmt_attr_datatype.htm

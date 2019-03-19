@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFolderViewOptions.SetFolderViewOptions
-title: IFolderViewOptions::SetFolderViewOptions
+title: IFolderViewOptions::SetFolderViewOptions (shobjidl.h)
 author: windows-sdk-content
 description: Sets specified options for the view.
 old-location: shell\IFolderViewOptions_SetFolderViewOptions.htm

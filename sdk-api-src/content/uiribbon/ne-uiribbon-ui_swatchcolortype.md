@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_SWATCHCOLORTYPE
-title: UI_SWATCHCOLORTYPE
+title: UI_SWATCHCOLORTYPE (uiribbon.h)
 author: windows-sdk-content
 description: Specifies the values that identify how a color swatch in a DropDownColorPicker or a FontControl color picker (Text color or Text highlight) is filled.Note  These are recommendations only.
 old-location: windowsribbon\windowsribbon_ui_swatchcolortype.htm

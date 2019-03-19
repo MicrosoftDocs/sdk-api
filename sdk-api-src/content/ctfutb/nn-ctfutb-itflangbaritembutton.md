@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemButton
-title: ITfLangBarItemButton
+title: ITfLangBarItemButton (ctfutb.h)
 author: windows-sdk-content
 description: The ITfLangBarItemButton interface is implemented by a language bar button provider and used by the language bar manager to obtain information about a button item on the language bar.
 old-location: tsf\itflangbaritembutton.htm

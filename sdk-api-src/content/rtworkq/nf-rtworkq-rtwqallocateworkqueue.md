@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqAllocateWorkQueue
-title: RtwqAllocateWorkQueue function
+title: RtwqAllocateWorkQueue function (rtworkq.h)
 author: windows-sdk-content
 description: Creates a new work queue.
 old-location: base\rtwqallocateworkqueue.htm

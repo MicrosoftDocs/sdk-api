@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement5.get_CurrentLandmarkType
-title: IUIAutomationElement5::get_CurrentLandmarkType
+title: IUIAutomationElement5::get_CurrentLandmarkType (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets the current landmark type ID for the automation element.
 old-location: winauto\uiauto_IUIAutomationElement5_CurrentLandmarkType.htm

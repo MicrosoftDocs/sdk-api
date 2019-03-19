@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IThumbnailHandlerFactory
-title: IThumbnailHandlerFactory
+title: IThumbnailHandlerFactory (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method for retrieving the thumbnail handler of an item. Implement this interface if you want to specify what extractor is used for a child IDList.
 old-location: shell\IThumbnailHandlerFactory.htm

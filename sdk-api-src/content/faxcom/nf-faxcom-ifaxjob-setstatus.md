@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.SetStatus
-title: IFaxJob::SetStatus
+title: IFaxJob::SetStatus (faxcom.h)
 author: windows-sdk-content
 description: Call the IFaxJob::SetStatus method to pause, resume, cancel, or restart a specified fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_setstatus_cpp.htm

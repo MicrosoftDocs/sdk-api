@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSymbolFileW
-title: SymGetSymbolFileW function
+title: SymGetSymbolFileW function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a symbol file in the specified symbol path.
 old-location: base\symgetsymbolfile.htm

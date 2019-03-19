@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.RegisterContentProvider
-title: IWdsTransportSetupManager::RegisterContentProvider
+title: IWdsTransportSetupManager::RegisterContentProvider (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables an application run on a client computer to register a content provider DLL. This makes the provider available for use by the WDS transport server.
 old-location: wds\iwdstransportsetupmanager_registercontentprovider.htm

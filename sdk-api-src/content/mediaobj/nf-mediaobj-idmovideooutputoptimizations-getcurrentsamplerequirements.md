@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.GetCurrentSampleRequirements
-title: IDMOVideoOutputOptimizations::GetCurrentSampleRequirements
+title: IDMOVideoOutputOptimizations::GetCurrentSampleRequirements (mediaobj.h)
 author: windows-sdk-content
 description: The GetCurrentSampleRequirements method retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
 old-location: dshow\idmovideooutputoptimizations_getcurrentsamplerequirements.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.SetCaptionText
-title: IMathInputControl::SetCaptionText
+title: IMathInputControl::SetCaptionText (micaut.h)
 author: windows-sdk-content
 description: Modifies the string that will be used as the control's caption when the window is created.
 old-location: tablet\imathinputcontrol_setcaptiontext.htm

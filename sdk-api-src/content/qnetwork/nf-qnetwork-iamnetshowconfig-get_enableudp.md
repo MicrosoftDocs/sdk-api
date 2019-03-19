@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableUDP
-title: IAMNetShowConfig::get_EnableUDP
+title: IAMNetShowConfig::get_EnableUDP (qnetwork.h)
 author: windows-sdk-content
 description: The get_EnableUDP method queries whether UDP-based streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enableudp.htm

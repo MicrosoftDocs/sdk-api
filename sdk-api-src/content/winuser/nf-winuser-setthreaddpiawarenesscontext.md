@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetThreadDpiAwarenessContext
-title: SetThreadDpiAwarenessContext function
+title: SetThreadDpiAwarenessContext function (winuser.h)
 author: windows-sdk-content
 description: Set the DPI awareness for the current thread to the provided value.
 old-location: hidpi\setthreaddpiawarenesscontext.htm

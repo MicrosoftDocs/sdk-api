@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IAssemblyLocator
-title: IAssemblyLocator
+title: IAssemblyLocator (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves information about an assembly when using managed code in the .NET Framework common language runtime.
 old-location: cos\iassemblylocator.htm

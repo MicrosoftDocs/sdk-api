@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCloseBatchNotifyPort
-title: ClusterRegCloseBatchNotifyPort function
+title: ClusterRegCloseBatchNotifyPort function (clusapi.h)
 author: windows-sdk-content
 description: Closes a subscription to a batch notification port created by the ClusterRegCreateBatchNotifyPort function.
 old-location: mscs\clusterregclosebatchnotifyport.htm

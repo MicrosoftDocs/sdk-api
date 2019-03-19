@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_PinControl.RegistrationContext
-title: IBDA_PinControl::RegistrationContext
+title: IBDA_PinControl::RegistrationContext (bdaiface.h)
 author: windows-sdk-content
 description: The RegistrationContext method retrieves the registration context of a particular pin.
 old-location: mstv\ibda_pincontrol_registrationcontext.htm

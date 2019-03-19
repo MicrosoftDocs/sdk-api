@@ -1,6 +1,6 @@
 ---
 UID: NS:lmat._AT_INFO
-title: AT_INFO
+title: AT_INFO (lmat.h)
 author: windows-sdk-content
 description: The AT_INFO structure contains information about a job.
 old-location: netmgmt\at_info_str.htm

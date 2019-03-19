@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetCustomSink
-title: IMFCapturePreviewSink::SetCustomSink
+title: IMFCapturePreviewSink::SetCustomSink (mfcaptureengine.h)
 author: windows-sdk-content
 description: Sets a custom media sink for preview.
 old-location: mf\imfcapturepreviewsink_setcustomsink.htm

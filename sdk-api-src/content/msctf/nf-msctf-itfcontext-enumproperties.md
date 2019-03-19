@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.EnumProperties
-title: ITfContext::EnumProperties
+title: ITfContext::EnumProperties (msctf.h)
 author: windows-sdk-content
 description: ITfContext::EnumProperties method
 old-location: tsf\itfcontext_enumproperties.htm

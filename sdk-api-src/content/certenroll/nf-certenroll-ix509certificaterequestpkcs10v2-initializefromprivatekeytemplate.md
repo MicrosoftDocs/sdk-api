@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V2.InitializeFromPrivateKeyTemplate
-title: IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate
+title: IX509CertificateRequestPkcs10V2::InitializeFromPrivateKeyTemplate (certenroll.h)
 author: windows-sdk-content
 description: Initializes the certificate request by using an IX509PrivateKey object and a certificate template.
 old-location: security\ix509certificaterequestpkcs10v2_initializefromprivatekeytemplate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_CallerId
-title: IFaxStatus::get_CallerId
+title: IFaxStatus::get_CallerId (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the CallerId property for the FaxStatus object of a parent FaxPort object. The CallerId property is a string that identifies the calling device that sent an inbound fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_callerid_cpp.htm

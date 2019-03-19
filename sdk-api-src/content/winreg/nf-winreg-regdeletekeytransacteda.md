@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDeleteKeyTransactedA
-title: RegDeleteKeyTransactedA function
+title: RegDeleteKeyTransactedA function (winreg.h)
 author: windows-sdk-content
 description: Deletes a subkey and its values from the specified platform-specific view of the registry as a transacted operation.
 old-location: base\regdeletekeytransacted.htm

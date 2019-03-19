@@ -1,6 +1,6 @@
 ---
 UID: NC:evr.MFCreateVideoMixer
-title: MFCreateVideoMixer
+title: MFCreateVideoMixer (evr.h)
 author: windows-sdk-content
 description: Creates the default video mixer for the enhanced video renderer (EVR).
 old-location: mf\mfcreatevideomixer.htm

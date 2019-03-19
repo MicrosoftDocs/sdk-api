@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFileSourceFilter.Load
-title: IFileSourceFilter::Load
+title: IFileSourceFilter::Load (strmif.h)
 author: windows-sdk-content
 description: The Load method causes a source filter to load a media file.
 old-location: dshow\ifilesourcefilter_load.htm

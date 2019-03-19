@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReOpenFile
-title: ReOpenFile function
+title: ReOpenFile function (winbase.h)
 author: windows-sdk-content
 description: Reopens the specified file system object with different access rights, sharing mode, and flags.
 old-location: fs\reopenfile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.OpenNamespace
-title: IWbemServices::OpenNamespace
+title: IWbemServices::OpenNamespace (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::OpenNamespace method provides the caller with a new IWbemServices pointer that has the specified child namespace as its operating context.
 old-location: wmi\iwbemservices_opennamespace.htm

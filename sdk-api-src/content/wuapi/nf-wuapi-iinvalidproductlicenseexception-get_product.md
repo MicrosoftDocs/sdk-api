@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInvalidProductLicenseException.get_Product
-title: IInvalidProductLicenseException::get_Product
+title: IInvalidProductLicenseException::get_Product (wuapi.h)
 author: windows-sdk-content
 description: Gets the language-invariant name of the product.
 old-location: wua\iinvalidproductlicenseexception_product.htm

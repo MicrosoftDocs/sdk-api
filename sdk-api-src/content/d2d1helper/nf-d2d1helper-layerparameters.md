@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.LayerParameters
-title: LayerParameters function
+title: LayerParameters function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_LAYER_PARAMETERS structure.
 old-location: direct2d\layerparameters.htm

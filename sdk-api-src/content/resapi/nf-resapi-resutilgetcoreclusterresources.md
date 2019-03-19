@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetCoreClusterResources
-title: ResUtilGetCoreClusterResources function
+title: ResUtilGetCoreClusterResources function (resapi.h)
 author: windows-sdk-content
 description: Returns handles to the core&#32;Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.
 old-location: mscs\resutilgetcoreclusterresources.htm

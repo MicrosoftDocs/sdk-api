@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.GetParameters
-title: IWICDdsEncoder::GetParameters
+title: IWICDdsEncoder::GetParameters (wincodec.h)
 author: windows-sdk-content
 description: Gets DDS-specific data.
 old-location: wic\iwicddsencoder_getparameters.htm

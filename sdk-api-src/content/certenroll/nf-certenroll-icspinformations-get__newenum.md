@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.get__NewEnum
-title: ICspInformations::get__NewEnum
+title: ICspInformations::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icspinformations__newenum_property.htm

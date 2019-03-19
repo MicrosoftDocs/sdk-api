@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWritePossibleDescription
-title: PowerWritePossibleDescription function
+title: PowerWritePossibleDescription function (powrprof.h)
 author: windows-sdk-content
 description: Sets the description for one of the possible choices of a power setting value.
 old-location: base\powerwritepossibledescription.htm

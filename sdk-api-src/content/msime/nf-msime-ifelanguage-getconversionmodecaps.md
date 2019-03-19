@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFELanguage.GetConversionModeCaps
-title: IFELanguage::GetConversionModeCaps
+title: IFELanguage::GetConversionModeCaps (msime.h)
 author: windows-sdk-content
 description: Gets the conversion mode capability of the IFELanguage object.
 old-location: intl\ifelanguage_getconversionmodecaps.htm

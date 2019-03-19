@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_6
-title: VOLUME_BITMAP_BUFFER
+title: VOLUME_BITMAP_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Represents the occupied and available clusters on a disk.
 old-location: fs\volume_bitmap_buffer_str.htm

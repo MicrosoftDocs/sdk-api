@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystemInterconnect
-title: IVdsSubSystemInterconnect
+title: IVdsSubSystemInterconnect (vdshwprv.h)
 author: windows-sdk-content
 description: Provides a method to query the interconnect types that are supported by a subsystem.
 old-location: base\ivdssubsysteminterconnect.htm

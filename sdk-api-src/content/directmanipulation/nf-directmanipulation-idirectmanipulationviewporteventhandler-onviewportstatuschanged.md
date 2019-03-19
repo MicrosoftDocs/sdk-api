@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnViewportStatusChanged
-title: IDirectManipulationViewportEventHandler::OnViewportStatusChanged
+title: IDirectManipulationViewportEventHandler::OnViewportStatusChanged (directmanipulation.h)
 author: windows-sdk-content
 description: Called when the status of a viewport changes.
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportstatuschanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CreateModuleDefinition
-title: IFsrmClassificationManager::CreateModuleDefinition
+title: IFsrmClassificationManager::CreateModuleDefinition (fsrmpipeline.h)
 author: windows-sdk-content
 description: Creates a module definition of the specified type.
 old-location: fsrm\ifsrmclassificationmanager_createmoduledefinition.htm

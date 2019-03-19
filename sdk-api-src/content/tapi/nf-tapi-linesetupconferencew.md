@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetupConferenceW
-title: lineSetupConferenceW function
+title: lineSetupConferenceW function (tapi.h)
 author: windows-sdk-content
 description: The lineSetupConference function sets up a conference call for the addition of the third party.
 old-location: tapi2\linesetupconference.htm

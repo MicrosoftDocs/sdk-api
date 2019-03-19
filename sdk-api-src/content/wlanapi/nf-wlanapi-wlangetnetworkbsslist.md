@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanGetNetworkBssList
-title: WlanGetNetworkBssList function
+title: WlanGetNetworkBssList function (wlanapi.h)
 author: windows-sdk-content
 description: Retrieves a list of the basic service set (BSS) entries of the wireless network or networks on a given wireless LAN interface.
 old-location: nwifi\wlangetnetworkbsslist.htm

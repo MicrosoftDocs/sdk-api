@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0007
-title: RDPSRAPI_WND_FLAGS
+title: RDPSRAPI_WND_FLAGS (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the type of window.
 old-location: rdp\rdpsrapi_wnd_flags.htm

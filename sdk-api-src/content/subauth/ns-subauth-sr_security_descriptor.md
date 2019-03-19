@@ -1,6 +1,6 @@
 ---
 UID: NS:subauth._SR_SECURITY_DESCRIPTOR
-title: SR_SECURITY_DESCRIPTOR
+title: SR_SECURITY_DESCRIPTOR (subauth.h)
 author: windows-sdk-content
 description: The SR_SECURITY_DESCRIPTOR structure contains information about the security privileges of the user.
 old-location: security\sr_security_descriptor.htm

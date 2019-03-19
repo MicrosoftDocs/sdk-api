@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CLIPPER_GLOBAL
-title: DD_CLIPPER_GLOBAL
+title: DD_CLIPPER_GLOBAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CLIPPER_GLOBAL structure contains the global DirectDrawClipper data that can be shared between object instances.
 old-location: display\dd_clipper_global.htm

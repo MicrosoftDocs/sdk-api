@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateBitmapBrush
-title: ID2D1RenderTarget::CreateBitmapBrush
+title: ID2D1RenderTarget::CreateBitmapBrush (d2d1.h)
 author: windows-sdk-content
 description: Creates an ID2D1BitmapBrush from the specified bitmap.
 old-location: direct2d\ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ptr_D2D1_BITMAP_BRUSH_PROPERTIES_ptr_D2D1_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush.htm

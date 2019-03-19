@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_INPUTPROCESSORPROFILE
-title: TF_INPUTPROCESSORPROFILE
+title: TF_INPUTPROCESSORPROFILE (msctf.h)
 author: windows-sdk-content
 description: This structure contains data for the input processor profile.
 old-location: tsf\tf_inputprocessorprofile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParser.RestateToString
-title: IQueryParser::RestateToString
+title: IQueryParser::RestateToString (structuredquery.h)
 author: windows-sdk-content
 description: Restates a condition as a structured query string. If the condition was the result of parsing an original query string, the keywords of that query string are used to a great extent. If not, default keywords are used.
 old-location: search\_search_IQueryParser_RestateToString.htm

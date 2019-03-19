@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_RawData
-title: IAlternativeName::get_RawData
+title: IAlternativeName::get_RawData (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the Distinguished Encoding Rules (DER) encoded byte array that contains the name.
 old-location: security\ialternativename_rawdata_property.htm

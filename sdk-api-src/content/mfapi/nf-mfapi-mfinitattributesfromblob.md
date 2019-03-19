@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFInitAttributesFromBlob
-title: MFInitAttributesFromBlob function
+title: MFInitAttributesFromBlob function (mfapi.h)
 author: windows-sdk-content
 description: Initializes the contents of an attribute store from a byte array.
 old-location: mf\mfinitattributesfromblob.htm

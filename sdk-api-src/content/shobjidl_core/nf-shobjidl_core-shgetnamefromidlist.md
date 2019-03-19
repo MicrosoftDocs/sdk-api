@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHGetNameFromIDList
-title: SHGetNameFromIDList function
+title: SHGetNameFromIDList function (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the display name of an item identified by its IDList.
 old-location: shell\SHGetNameFromIDList.htm

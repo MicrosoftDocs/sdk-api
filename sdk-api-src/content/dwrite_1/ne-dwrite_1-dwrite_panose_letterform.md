@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_LETTERFORM
-title: DWRITE_PANOSE_LETTERFORM
+title: DWRITE_PANOSE_LETTERFORM (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_LETTERFORM enumeration contains values that specify the roundness of letterform for text.
 old-location: directwrite\dwrite_panose_letterform.htm

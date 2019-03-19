@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.Lock
-title: IMediaObject::Lock
+title: IMediaObject::Lock (mediaobj.h)
 author: windows-sdk-content
 description: The Lock method acquires or releases a lock on the DMO. Call this method to keep the DMO serialized when performing multiple operations.
 old-location: dshow\imediaobject_lock.htm

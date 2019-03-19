@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetOutputFilenameTemplate
-title: IPhotoAcquireSettings::GetOutputFilenameTemplate
+title: IPhotoAcquireSettings::GetOutputFilenameTemplate (photoacquire.h)
 author: windows-sdk-content
 description: The GetOutputFilenameTemplate method retrieves a format string (template) that specifies the format of file names.
 old-location: picacq\iphotoacquiresettings_getoutputfilenametemplate.htm

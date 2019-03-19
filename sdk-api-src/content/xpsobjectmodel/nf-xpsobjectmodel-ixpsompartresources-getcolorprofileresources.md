@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetColorProfileResources
-title: IXpsOMPartResources::GetColorProfileResources
+title: IXpsOMPartResources::GetColorProfileResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMColorProfileResourceCollection interface that contains the color profiles that are used in the XPS document.
 old-location: xps\ixpsompartresources_getcolorprofileresources.htm

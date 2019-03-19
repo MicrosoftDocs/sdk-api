@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedMaximum
-title: IUIAutomationRangeValuePattern::get_CachedMaximum
+title: IUIAutomationRangeValuePattern::get_CachedMaximum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached maximum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedMaximum.htm

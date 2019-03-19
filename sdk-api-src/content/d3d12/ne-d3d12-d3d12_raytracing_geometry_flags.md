@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_GEOMETRY_FLAGS
-title: D3D12_RAYTRACING_GEOMETRY_FLAGS
+title: D3D12_RAYTRACING_GEOMETRY_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies flags for raytracing geometry in a D3D12_RAYTRACING_GEOMETRY_DESC structure.
 old-location: direct3d12\d3d12_raytracing_geometry_flags.htm

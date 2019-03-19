@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11InfoQueue
-title: ID3D11InfoQueue
+title: ID3D11InfoQueue (d3d11sdklayers.h)
 author: windows-sdk-content
 description: An information-queue interface stores, retrieves, and filters debug messages. The queue consists of a message queue, an optional storage filter stack, and a optional retrieval filter stack.
 old-location: direct3d11\id3d11infoqueue.htm

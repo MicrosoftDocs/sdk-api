@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_72
-title: WS_USERNAME_CREDENTIAL_TYPE
+title: WS_USERNAME_CREDENTIAL_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of the username/password credential, used as a selector for subtypes of WS_USERNAME_CREDENTIAL.
 old-location: wsw\ws_username_credential_type.htm

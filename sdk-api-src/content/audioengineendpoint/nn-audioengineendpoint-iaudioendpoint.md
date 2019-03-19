@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpoint
-title: IAudioEndpoint
+title: IAudioEndpoint (audioengineendpoint.h)
 author: windows-sdk-content
 description: Provides information to the audio engine about an audio endpoint. This interface is implemented by an audio endpoint.
 old-location: termserv\iaudioendpoint.htm

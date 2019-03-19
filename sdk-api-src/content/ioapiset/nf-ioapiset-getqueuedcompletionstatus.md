@@ -1,6 +1,6 @@
 ---
 UID: NF:ioapiset.GetQueuedCompletionStatus
-title: GetQueuedCompletionStatus function
+title: GetQueuedCompletionStatus function (ioapiset.h)
 author: windows-sdk-content
 description: Attempts to dequeue an I/O completion packet from the specified I/O completion port.
 old-location: fs\getqueuedcompletionstatus.htm

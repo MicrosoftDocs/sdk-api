@@ -1,6 +1,6 @@
 ---
 UID: NF:winefs.SetUserFileEncryptionKey
-title: SetUserFileEncryptionKey function
+title: SetUserFileEncryptionKey function (winefs.h)
 author: windows-sdk-content
 description: Sets the user's current key to the specified certificate.
 old-location: fs\setuserfileencryptionkey.htm

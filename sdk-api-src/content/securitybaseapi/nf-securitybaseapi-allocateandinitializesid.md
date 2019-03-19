@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AllocateAndInitializeSid
-title: AllocateAndInitializeSid function
+title: AllocateAndInitializeSid function (securitybaseapi.h)
 author: windows-sdk-content
 description: Allocates and initializes a security identifier (SID) with up to eight subauthorities.
 old-location: security\allocateandinitializesid.htm

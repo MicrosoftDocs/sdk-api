@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCredentialsAt
-title: MI_DestinationOptions_GetCredentialsAt function
+title: MI_DestinationOptions_GetCredentialsAt function (mi.h)
 author: windows-sdk-content
 description: Get the credentials at the specified index.
 old-location: wmi_v2\mi_destinationoptions_getcredentialsat.htm

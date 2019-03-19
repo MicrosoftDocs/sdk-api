@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpQueryServiceConfiguration
-title: HttpQueryServiceConfiguration function
+title: HttpQueryServiceConfiguration function (http.h)
 author: windows-sdk-content
 description: Retrieves one or more HTTP Server API configuration records.
 old-location: http\httpqueryserviceconfiguration.htm

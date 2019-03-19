@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumFiles
-title: IMetaDataAssemblyImport::EnumFiles
+title: IMetaDataAssemblyImport::EnumFiles (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates the files referenced in the current assembly manifest.
 old-location: winrt\imetadataassemblyimport_enumfiles.htm

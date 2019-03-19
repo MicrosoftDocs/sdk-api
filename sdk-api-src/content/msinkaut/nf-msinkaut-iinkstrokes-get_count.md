@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.get_Count
-title: IInkStrokes::get_Count
+title: IInkStrokes::get_Count (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\inkstrokes_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.AddFontMemResourceEx
-title: AddFontMemResourceEx function
+title: AddFontMemResourceEx function (wingdi.h)
 author: windows-sdk-content
 description: The AddFontMemResourceEx function adds the font resource from a memory image to the system.
 old-location: gdi\addfontmemresourceex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.EnqueueSetEvent
-title: IDXGIDevice2::EnqueueSetEvent
+title: IDXGIDevice2::EnqueueSetEvent (dxgi1_2.h)
 author: windows-sdk-content
 description: Flushes any outstanding rendering commands and sets the specified event object to the signaled state after all previously submitted rendering commands complete.
 old-location: direct3ddxgi\idxgidevice2_enqueuesetevent.htm

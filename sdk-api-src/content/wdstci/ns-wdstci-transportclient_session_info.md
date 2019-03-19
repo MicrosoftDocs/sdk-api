@@ -1,6 +1,6 @@
 ---
 UID: NS:wdstci._TRANSPORTCLIENT_SESSION_INFO
-title: TRANSPORTCLIENT_SESSION_INFO
+title: TRANSPORTCLIENT_SESSION_INFO (wdstci.h)
 author: windows-sdk-content
 description: This structure is used by the PFN_WdsTransportClientSessionStartEx callback function.
 old-location: wds\transportclient_session_info.htm

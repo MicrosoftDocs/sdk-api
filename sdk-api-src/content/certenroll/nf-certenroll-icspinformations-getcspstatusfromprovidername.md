@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.GetCspStatusFromProviderName
-title: ICspInformations::GetCspStatusFromProviderName
+title: ICspInformations::GetCspStatusFromProviderName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspStatus object for a legacy provider by provider name and supported key operations.
 old-location: security\icspinformations_getcspstatusfromprovidername_method.htm

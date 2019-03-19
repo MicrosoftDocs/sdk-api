@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectImpl.Initialize
-title: ID2D1EffectImpl::Initialize
+title: ID2D1EffectImpl::Initialize (d2d1effectauthor.h)
 author: windows-sdk-content
 description: The effect can use this method to do one time initialization tasks.
 old-location: direct2d\id2d1effectimpl_initialize.htm

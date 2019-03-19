@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.BackupComplete
-title: IVssBackupComponents::BackupComplete
+title: IVssBackupComponents::BackupComplete (vsbackup.h)
 author: windows-sdk-content
 description: The BackupComplete method causes VSS to generate a BackupComplete event, which signals writers that the backup process has completed.
 old-location: base\ivssbackupcomponents_backupcomplete.htm

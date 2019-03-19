@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._CONTEXTMENUITEM
-title: CONTEXTMENUITEM
+title: CONTEXTMENUITEM (mmc.h)
 author: windows-sdk-content
 description: The CONTEXTMENUITEM structure is passed to the IContextMenuCallback::AddItem method or the IContextMenuProvider::AddItem method (inherited from IContextMenuCallback) to define a new menu item, submenu, or insertion point.
 old-location: mmc\contextmenuitem.htm

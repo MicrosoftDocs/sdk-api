@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICSendMessage
-title: ICSendMessage function
+title: ICSendMessage function (vfw.h)
 author: windows-sdk-content
 description: The ICSendMessage function sends a message to a compressor.
 old-location: multimedia\icsendmessage.htm

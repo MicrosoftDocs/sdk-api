@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.ReturnFromSubmenu
-title: IDvdControl2::ReturnFromSubmenu
+title: IDvdControl2::ReturnFromSubmenu (strmif.h)
 author: windows-sdk-content
 description: The ReturnFromSubmenu method returns the display from a submenu to its parent menu.
 old-location: dshow\idvdcontrol2_returnfromsubmenu.htm

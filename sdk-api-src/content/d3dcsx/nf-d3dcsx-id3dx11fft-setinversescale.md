@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.SetInverseScale
-title: ID3DX11FFT::SetInverseScale
+title: ID3DX11FFT::SetInverseScale (d3dcsx.h)
 author: windows-sdk-content
 description: Sets the scale used for inverse transforms.
 old-location: direct3d11\id3dx11fft_setinversescale.htm

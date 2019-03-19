@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.getCAStore
-title: IEnroll::getCAStore
+title: IEnroll::getCAStore (xenroll.h)
 author: windows-sdk-content
 description: The getCAStore method is not implemented.
 old-location: security\ienroll4_getcastore.htm

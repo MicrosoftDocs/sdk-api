@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.CreateEncryptedPackageReader
-title: IAppxEncryptionFactory::CreateEncryptedPackageReader
+title: IAppxEncryptionFactory::CreateEncryptedPackageReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a new instance of IAppxEncryptedPackageReader.
 old-location: appxpkg\iappxencryptionfactory_createencryptedpackagereader.htm

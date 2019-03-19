@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACL_SIZE_INFORMATION
-title: ACL_SIZE_INFORMATION
+title: ACL_SIZE_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains information about the size of an ACL structure.
 old-location: security\acl_size_information.htm

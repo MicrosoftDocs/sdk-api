@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.AddMutualExclusion
-title: IMFASFProfile::AddMutualExclusion
+title: IMFASFProfile::AddMutualExclusion (wmcontainer.h)
 author: windows-sdk-content
 description: Adds a configured Advanced Systems Format (ASF) mutual exclusion object to the profile.
 old-location: mf\imfasfprofile_addmutualexclusion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetStatus
-title: IDot11AdHocNetwork::GetStatus
+title: IDot11AdHocNetwork::GetStatus (adhoc.h)
 author: windows-sdk-content
 description: Gets the connection status of the network.
 old-location: nwifi\idot11adhocnetwork_getstatus.htm

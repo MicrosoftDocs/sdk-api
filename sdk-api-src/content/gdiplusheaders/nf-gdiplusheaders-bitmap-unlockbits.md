@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.UnlockBits
-title: Bitmap::UnlockBits
+title: Bitmap::UnlockBits (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::UnlockBits method unlocks a portion of this bitmap that was previously locked by a call to Bitmap::LockBits.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_UnlockBits_lockedBitmapData_.htm

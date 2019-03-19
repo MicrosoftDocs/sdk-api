@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFileSinkFilter.SetFileName
-title: IFileSinkFilter::SetFileName
+title: IFileSinkFilter::SetFileName (strmif.h)
 author: windows-sdk-content
 description: The SetFileName method sets the name of the file into which media samples will be written.
 old-location: dshow\ifilesinkfilter_setfilename.htm

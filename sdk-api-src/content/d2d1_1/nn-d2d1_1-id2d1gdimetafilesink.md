@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1GdiMetafileSink
-title: ID2D1GdiMetafileSink
+title: ID2D1GdiMetafileSink (d2d1_1.h)
 author: windows-sdk-content
 description: A developer implemented interface that allows a metafile to be replayed.
 old-location: direct2d\id2d1gdimetafilesink.htm

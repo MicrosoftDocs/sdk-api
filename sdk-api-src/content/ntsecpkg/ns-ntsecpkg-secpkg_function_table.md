@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_FUNCTION_TABLE
-title: SECPKG_FUNCTION_TABLE
+title: SECPKG_FUNCTION_TABLE (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_FUNCTION_TABLE structure contains pointers to the LSA functions that a security package must implement. The Local Security Authority (LSA) obtains this structure from an SSP/AP DLL when it calls the SpLsaModeInitialize function.
 old-location: security\secpkg_function_table.htm

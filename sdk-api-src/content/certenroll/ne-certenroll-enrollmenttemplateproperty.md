@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.EnrollmentTemplateProperty
-title: EnrollmentTemplateProperty
+title: EnrollmentTemplateProperty (certenroll.h)
 author: windows-sdk-content
 description: Contains property values for a given template.
 old-location: security\enrollmenttemplateproperty.htm

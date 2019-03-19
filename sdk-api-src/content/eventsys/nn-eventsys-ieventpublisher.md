@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IEventPublisher
-title: IEventPublisher
+title: IEventPublisher (eventsys.h)
 author: windows-sdk-content
 description: Registers, modifies, removes, and provides information about an event publisher.
 old-location: com\ieventpublisher.htm

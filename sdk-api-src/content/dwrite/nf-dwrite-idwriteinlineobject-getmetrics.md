@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteInlineObject.GetMetrics
-title: IDWriteInlineObject::GetMetrics
+title: IDWriteInlineObject::GetMetrics (dwrite.h)
 author: windows-sdk-content
 description: IDWriteTextLayout calls this callback function to get the measurement of the inline object.
 old-location: directwrite\IDWriteInlineObject_GetMetrics.htm

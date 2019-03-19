@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSManEnumerator
-title: IWSManEnumerator
+title: IWSManEnumerator (wsmandisp.h)
 author: windows-sdk-content
 description: Represents a stream of results returned from operations such as a WS-Management protocol WS-Enumeration:Enumerate operation.
 old-location: winrm\iwsmanenumerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_parse_referenceW
-title: ldap_parse_referenceW function
+title: ldap_parse_referenceW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_parse_reference function returns a list of subordinate referrals in a search response message.
 old-location: ldap\ldap_parse_reference.htm

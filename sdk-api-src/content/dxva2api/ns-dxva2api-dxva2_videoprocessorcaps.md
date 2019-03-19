@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_VideoProcessorCaps
-title: DXVA2_VideoProcessorCaps
+title: DXVA2_VideoProcessorCaps (dxva2api.h)
 author: windows-sdk-content
 description: Describes the capabilities of a DirectX Video Acceleration (DVXA) video processor mode.
 old-location: mf\dxva2_videoprocessorcaps.htm

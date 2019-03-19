@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioGetCredentialState
-title: WinBioGetCredentialState function
+title: WinBioGetCredentialState function (winbio.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether credentials have been set for the specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiogetcredentialstate.htm

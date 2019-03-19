@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineCompleteCall
-title: lineCompleteCall function
+title: lineCompleteCall function (tapi.h)
 author: windows-sdk-content
 description: The lineCompleteCall function specifies how a call that could not be connected normally should be completed instead.
 old-location: tapi2\linecompletecall.htm

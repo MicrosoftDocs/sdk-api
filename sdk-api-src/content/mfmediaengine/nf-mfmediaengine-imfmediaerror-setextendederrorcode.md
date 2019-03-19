@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.SetExtendedErrorCode
-title: IMFMediaError::SetExtendedErrorCode
+title: IMFMediaError::SetExtendedErrorCode (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the extended error code.
 old-location: mf\imfmediaerror_setextendederrorcode.htm

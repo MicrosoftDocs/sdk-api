@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetGroupInfo
-title: ListView_GetGroupInfo macro
+title: ListView_GetGroupInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Gets group information. You can use this macro or send the LVM_GETGROUPINFO message explicitly.
 old-location: controls\ListView_GetGroupInfo.htm

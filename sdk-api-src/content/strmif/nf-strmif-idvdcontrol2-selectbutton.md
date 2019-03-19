@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectButton
-title: IDvdControl2::SelectButton
+title: IDvdControl2::SelectButton (strmif.h)
 author: windows-sdk-content
 description: The SelectButton method selects the specified menu button.
 old-location: dshow\idvdcontrol2_selectbutton.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemBitmap
-title: ITfLangBarItemBitmap
+title: ITfLangBarItemBitmap (ctfutb.h)
 author: windows-sdk-content
 description: The ITfLangBarItemBitmap interface is implemented by an application or text service and used by the language bar manager to obtain information specific to a bitmap item on the language bar.
 old-location: tsf\itflangbaritembitmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntToUChar
-title: UIntToUChar function
+title: UIntToUChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type UINT to a value of type UCHAR.
 old-location: shell\UIntToUChar.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAAddressToStringA
-title: WSAAddressToStringA function
+title: WSAAddressToStringA function (winsock2.h)
 author: windows-sdk-content
 description: Converts all components of a sockaddr structure into a human-readable string representation of the address.
 old-location: winsock\wsaaddresstostring_2.htm

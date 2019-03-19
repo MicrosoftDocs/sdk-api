@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.InformVPInputFormats
-title: IVPBaseConfig::InformVPInputFormats
+title: IVPBaseConfig::InformVPInputFormats (vpconfig.h)
 author: windows-sdk-content
 description: The InformVPInputFormats method informs the device what video formats the video port supports.
 old-location: dshow\ivpbaseconfig_informvpinputformats.htm

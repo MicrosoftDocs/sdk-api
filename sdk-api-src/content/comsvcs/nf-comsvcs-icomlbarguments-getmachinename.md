@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.GetMachineName
-title: ICOMLBArguments::GetMachineName
+title: ICOMLBArguments::GetMachineName (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the computer name for the load balancing server.
 old-location: cos\icomlbarguments_getmachinename.htm

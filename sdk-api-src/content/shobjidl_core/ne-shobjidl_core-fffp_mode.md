@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FFFP_MODE
-title: FFFP_MODE
+title: FFFP_MODE (shobjidl_core.h)
 author: windows-sdk-content
 description: Describes match criteria. Used by methods of the IKnownFolderManager interface.
 old-location: shell\FFFP_MODE.htm

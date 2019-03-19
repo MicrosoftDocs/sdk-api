@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPCancelConnection
-title: NPCancelConnection function
+title: NPCancelConnection function (npapi.h)
 author: windows-sdk-content
 description: Disconnects a network connection.
 old-location: security\npcancelconnection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin.ResubmitRequest
-title: ICertAdmin::ResubmitRequest
+title: ICertAdmin::ResubmitRequest (certadm.h)
 author: windows-sdk-content
 description: Submits the specified certificate request to the policy module for the specified certification authority. This method was first introduced in the ICertAdmin interface.
 old-location: security\icertadmin2_resubmitrequest.htm

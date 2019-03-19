@@ -1,6 +1,6 @@
 ---
 UID: NF:namedpipeapi.CreatePipe
-title: CreatePipe function
+title: CreatePipe function (namedpipeapi.h)
 author: windows-sdk-content
 description: Creates an anonymous pipe, and returns handles to the read and write ends of the pipe.
 old-location: base\createpipe.htm

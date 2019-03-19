@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptFindOIDInfo
-title: CryptFindOIDInfo function
+title: CryptFindOIDInfo function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves the first predefined or registered CRYPT_OID_INFO structure that matches a specified key type and key. The search can be limited to object identifiers (OIDs) within a specified OID group.
 old-location: security\cryptfindoidinfo.htm

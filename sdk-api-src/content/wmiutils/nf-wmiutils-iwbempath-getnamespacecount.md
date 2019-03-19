@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetNamespaceCount
-title: IWbemPath::GetNamespaceCount
+title: IWbemPath::GetNamespaceCount (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::GetNamespaceCount method returns the number of namespaces in the path.
 old-location: wmi\iwbempath_getnamespacecount.htm

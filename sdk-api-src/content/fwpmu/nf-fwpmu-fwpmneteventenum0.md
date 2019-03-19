@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventEnum0
-title: FwpmNetEventEnum0 function
+title: FwpmNetEventEnum0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns the next page of results from the network event enumerator.
 old-location: fwp\fwpmneteventenum0.htm

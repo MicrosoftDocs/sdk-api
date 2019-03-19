@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceManager.SetFocus
-title: IResourceManager::SetFocus
+title: IResourceManager::SetFocus (strmif.h)
 author: windows-sdk-content
 description: The SetFocus method notifies the resource manager that a specified object has been given the focus of the user.
 old-location: dshow\iresourcemanager_setfocus.htm

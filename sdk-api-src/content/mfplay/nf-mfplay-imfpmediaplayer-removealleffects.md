@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.RemoveAllEffects
-title: IMFPMediaPlayer::RemoveAllEffects
+title: IMFPMediaPlayer::RemoveAllEffects (mfplay.h)
 author: windows-sdk-content
 description: Removes all effects that were added with the IMFPMediaPlayer::InsertEffect method.
 old-location: mf\imfpmediaplayer_removealleffects.htm

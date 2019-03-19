@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_LCP_INFO
-title: PPP_LCP_INFO
+title: PPP_LCP_INFO (mprapi.h)
 author: windows-sdk-content
 description: The PPP_LCP_INFO structure contains information that describes the results of an PPP Link Control Protocol (LCP) negotiation.
 old-location: rras\ppp_lcp_info.htm

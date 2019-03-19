@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateAutoApplyQuota
-title: IFsrmQuotaManager::CreateAutoApplyQuota
+title: IFsrmQuotaManager::CreateAutoApplyQuota (fsrmquota.h)
 author: windows-sdk-content
 description: Creates an automatic quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_createautoapplyquota.htm

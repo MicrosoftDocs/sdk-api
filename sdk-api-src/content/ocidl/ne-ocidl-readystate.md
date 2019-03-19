@@ -1,6 +1,6 @@
 ---
 UID: NE:ocidl.tagREADYSTATE
-title: READYSTATE
+title: READYSTATE (ocidl.h)
 author: windows-sdk-content
 description: The ReadyState property retrieves the ReadyState of the MSWebDVD object.
 old-location: dshow\readystate_property.htm

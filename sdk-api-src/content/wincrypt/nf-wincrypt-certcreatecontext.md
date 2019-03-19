@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCreateContext
-title: CertCreateContext function
+title: CertCreateContext function (wincrypt.h)
 author: windows-sdk-content
 description: Creates the specified context from the encoded bytes. The context created does not include any extended properties.
 old-location: security\certcreatecontext.htm

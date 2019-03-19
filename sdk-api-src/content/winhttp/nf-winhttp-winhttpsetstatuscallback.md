@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpSetStatusCallback
-title: WinHttpSetStatusCallback function
+title: WinHttpSetStatusCallback function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpSetStatusCallback function sets up a callback function that WinHTTP can call as progress is made during an operation.
 old-location: http\winhttpsetstatuscallback.htm

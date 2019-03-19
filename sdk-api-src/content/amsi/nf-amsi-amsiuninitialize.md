@@ -1,6 +1,6 @@
 ---
 UID: NF:amsi.AmsiUninitialize
-title: AmsiUninitialize function
+title: AmsiUninitialize function (amsi.h)
 author: windows-sdk-content
 description: Remove the instance of the AMSI API that was originally opened by AmsiInitialize.
 old-location: amsi\amsiuninitialize.htm

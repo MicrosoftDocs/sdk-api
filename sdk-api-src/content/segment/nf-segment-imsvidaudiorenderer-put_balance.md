@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.put_Balance
-title: IMSVidAudioRenderer::put_Balance
+title: IMSVidAudioRenderer::put_Balance (segment.h)
 author: windows-sdk-content
 description: The put_Balance method specifies the audio renderer's balance level.
 old-location: mstv\imsvidaudiorenderer_put_balance.htm

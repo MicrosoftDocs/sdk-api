@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11ClassInstance
-title: ID3D11ClassInstance
+title: ID3D11ClassInstance (d3d11.h)
 author: windows-sdk-content
 description: This interface encapsulates an HLSL class.
 old-location: direct3d11\id3d11classinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnls._nlsversioninfoex
-title: NLSVERSIONINFOEX
+title: NLSVERSIONINFOEX (winnls.h)
 author: windows-sdk-content
 description: Contains version information about an NLS capability.
 old-location: intl\nlsversioninfoex.htm

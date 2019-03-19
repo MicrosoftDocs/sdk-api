@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.get_XmlText
-title: IActionCollection::get_XmlText
+title: IActionCollection::get_XmlText (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets an XML-formatted version of the collection.
 old-location: taskschd\iactioncollection_xmltext.htm

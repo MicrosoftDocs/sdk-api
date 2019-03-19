@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamGetFrameClose
-title: AVIStreamGetFrameClose function
+title: AVIStreamGetFrameClose function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamGetFrameClose function releases resources used to decompress video frames.
 old-location: multimedia\avistreamgetframeclose.htm

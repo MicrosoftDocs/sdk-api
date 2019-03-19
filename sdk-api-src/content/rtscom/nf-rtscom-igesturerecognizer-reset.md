@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.Reset
-title: IGestureRecognizer::Reset
+title: IGestureRecognizer::Reset (rtscom.h)
 author: windows-sdk-content
 description: Deletes past stroke information from the GestureRecognizer Class object.
 old-location: tablet\igesturerecognizer_reset.htm

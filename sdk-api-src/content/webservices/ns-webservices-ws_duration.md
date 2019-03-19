@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_DURATION
-title: WS_DURATION
+title: WS_DURATION (webservices.h)
 author: windows-sdk-content
 description: Represents a xsd:duration data type.
 old-location: wsw\ws_duration.htm

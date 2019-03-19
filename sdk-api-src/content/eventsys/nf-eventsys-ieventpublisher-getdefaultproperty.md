@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.GetDefaultProperty
-title: IEventPublisher::GetDefaultProperty
+title: IEventPublisher::GetDefaultProperty (eventsys.h)
 author: windows-sdk-content
 description: Retrieves a named property and its value from the property bag associated with the event publisher.
 old-location: com\ieventpublisher_getdefaultproperty.htm

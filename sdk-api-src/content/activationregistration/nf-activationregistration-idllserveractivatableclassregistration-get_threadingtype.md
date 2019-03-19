@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IDllServerActivatableClassRegistration.get_ThreadingType
-title: IDllServerActivatableClassRegistration::get_ThreadingType
+title: IDllServerActivatableClassRegistration::get_ThreadingType (activationregistration.h)
 author: windows-sdk-content
 description: Gets the apartment threading model for activating the in-process server.
 old-location: winrt\idllserveractivatableclassregistration_threadingtype.htm

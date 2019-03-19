@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.AddRemoveExcludeRule
-title: IFhConfigMgr::AddRemoveExcludeRule
+title: IFhConfigMgr::AddRemoveExcludeRule (fhcfg.h)
 author: windows-sdk-content
 description: Adds an exclusion rule to the exclusion list or removes a rule from the list.
 old-location: winprog\ifhconfigmgr_addremoveexcluderule.htm

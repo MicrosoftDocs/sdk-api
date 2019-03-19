@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpGetPduData
-title: SnmpGetPduData function
+title: SnmpGetPduData function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpGetPduData function returns selected data fields from a specified SNMP protocol data unit (PDU).
 old-location: snmp\snmpgetpdudata.htm

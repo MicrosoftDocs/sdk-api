@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWCWizard97Callback.AddWizard97Page
-title: IWCWizard97Callback::AddWizard97Page
+title: IWCWizard97Callback::AddWizard97Page (cluadmex.h)
 author: windows-sdk-content
 description: Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback_addwizard97page.htm

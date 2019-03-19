@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.EFFECTIVE_POWER_MODE_CALLBACK
-title: EFFECTIVE_POWER_MODE_CALLBACK function
+title: EFFECTIVE_POWER_MODE_CALLBACK function (powersetting.h)
 author: windows-sdk-content
 description: Function class for effective power mode callback.
 old-location: base\effective_power_mode_callback.htm

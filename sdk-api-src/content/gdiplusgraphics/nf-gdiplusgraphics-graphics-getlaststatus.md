@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetLastStatus
-title: Graphics::GetLastStatus
+title: Graphics::GetLastStatus (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetLastStatus method returns a value that indicates the nature of this Graphics object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetLastStatus_.htm

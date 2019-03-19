@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_OPCODE
-title: WLAN_HOSTED_NETWORK_OPCODE
+title: WLAN_HOSTED_NETWORK_OPCODE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the possible values of the operation code for the properties to query or set on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_opcode.htm

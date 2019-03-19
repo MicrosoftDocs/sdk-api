@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_7
-title: PSS_PERFORMANCE_COUNTERS
+title: PSS_PERFORMANCE_COUNTERS (processsnapshot.h)
 author: windows-sdk-content
 description: Holds performance counters returned by PssQuerySnapshot.
 old-location: proc_snap\pss_performance_counters.htm

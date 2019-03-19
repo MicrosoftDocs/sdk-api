@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Tsid
-title: IFaxPort::get_Tsid
+title: IFaxPort::get_Tsid (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::get_Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_tsid_cpp.htm

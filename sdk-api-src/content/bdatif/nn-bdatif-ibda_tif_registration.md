@@ -1,6 +1,6 @@
 ---
 UID: NN:bdatif.IBDA_TIF_REGISTRATION
-title: IBDA_TIF_REGISTRATION
+title: IBDA_TIF_REGISTRATION (bdatif.h)
 author: windows-sdk-content
 description: The IBDA_TIF_REGISTRATION interface is exposed by the BDA Network Provider.
 old-location: mstv\ibda_tif_registration.htm

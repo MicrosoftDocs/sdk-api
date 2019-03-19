@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanQueryInterface
-title: WlanQueryInterface function
+title: WlanQueryInterface function (wlanapi.h)
 author: windows-sdk-content
 description: The WlanQueryInterface function queries various parameters of a specified interface.
 old-location: nwifi\wlanqueryinterface.htm

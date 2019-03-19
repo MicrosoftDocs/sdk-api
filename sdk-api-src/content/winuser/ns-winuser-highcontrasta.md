@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagHIGHCONTRASTA
-title: HIGHCONTRASTA
+title: HIGHCONTRASTA (winuser.h)
 author: windows-sdk-content
 description: Contains information about the high contrast accessibility feature.
 old-location: winauto\highcontrast.htm

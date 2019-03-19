@@ -1,6 +1,6 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.ShowProperties
-title: IEmptyVolumeCache::ShowProperties
+title: IEmptyVolumeCache::ShowProperties (emptyvc.h)
 author: windows-sdk-content
 description: Notifies the handler to display its UI.
 old-location: lwef\iemptyvolumecache_showproperties.htm

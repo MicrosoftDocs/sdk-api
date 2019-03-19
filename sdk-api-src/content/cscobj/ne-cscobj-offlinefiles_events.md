@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_EVENTS
-title: OFFLINEFILES_EVENTS
+title: OFFLINEFILES_EVENTS (cscobj.h)
 author: windows-sdk-content
 description: Event identifier codes describing events to be received or excluded by an event sink.
 old-location: of\offlinefiles_events.htm

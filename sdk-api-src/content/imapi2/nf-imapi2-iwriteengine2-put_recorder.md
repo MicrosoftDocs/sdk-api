@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_Recorder
-title: IWriteEngine2::put_Recorder
+title: IWriteEngine2::put_Recorder (imapi2.h)
 author: windows-sdk-content
 description: Sets a recording device for the write operation.
 old-location: imapi\iwriteengine2_put_recorder.htm

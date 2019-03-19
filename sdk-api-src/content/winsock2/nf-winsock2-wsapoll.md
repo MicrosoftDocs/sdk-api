@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAPoll
-title: WSAPoll function
+title: WSAPoll function (winsock2.h)
 author: windows-sdk-content
 description: The WSAPoll function determines status of one or more sockets.
 old-location: winsock\wsapoll.htm

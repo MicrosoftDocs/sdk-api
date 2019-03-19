@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.ModifyScheduleTask
-title: IFsrmReportScheduler::ModifyScheduleTask
+title: IFsrmReportScheduler::ModifyScheduleTask (fsrmreports.h)
 author: windows-sdk-content
 description: Modifies a task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_modifyscheduletask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:filehc.FCACHE_RICHCREATE_CALLBACK
-title: FCACHE_RICHCREATE_CALLBACK
+title: FCACHE_RICHCREATE_CALLBACK (filehc.h)
 author: windows-sdk-content
 description: A callback function that is used to create items in the cache.
 old-location: winprog\fcache_richcreate_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.put_TypeLib
-title: IEventClass::put_TypeLib
+title: IEventClass::put_TypeLib (eventsys.h)
 author: windows-sdk-content
 description: The path of the type library that contains the description of the event interface.
 old-location: cos\ieventclass_typelib.htm

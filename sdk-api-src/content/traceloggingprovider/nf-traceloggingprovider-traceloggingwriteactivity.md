@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingWriteActivity
-title: TraceLoggingWriteActivity macro
+title: TraceLoggingWriteActivity macro (traceloggingprovider.h)
 author: windows-sdk-content
 description: Emits an event with specific activity IDs.
 old-location: tracelogging\traceloggingwriteactivity.htm

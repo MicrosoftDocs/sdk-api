@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetWallpaper
-title: IActiveDesktop::SetWallpaper
+title: IActiveDesktop::SetWallpaper (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the wallpaper for the Active Desktop.
 old-location: lwef\iactivedesktop_setwallpaper.htm

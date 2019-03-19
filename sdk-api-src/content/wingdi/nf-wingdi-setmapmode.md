@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetMapMode
-title: SetMapMode function
+title: SetMapMode function (wingdi.h)
 author: windows-sdk-content
 description: The SetMapMode function sets the mapping mode of the specified device context. The mapping mode defines the unit of measure used to transform page-space units into device-space units, and also defines the orientation of the device's x and y axes.
 old-location: gdi\setmapmode.htm

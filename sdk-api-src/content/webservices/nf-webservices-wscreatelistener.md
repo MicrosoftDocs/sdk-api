@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateListener
-title: WsCreateListener function
+title: WsCreateListener function (webservices.h)
 author: windows-sdk-content
 description: Creates a listener with the specified properties.
 old-location: wsw\wscreatelistener.htm

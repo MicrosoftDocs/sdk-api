@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointOffloadStreamVolume
-title: IAudioEndpointOffloadStreamVolume
+title: IAudioEndpointOffloadStreamVolume (audioengineendpoint.h)
 author: windows-sdk-content
 description: The IAudioEndpointOffloadStreamVolume interface allows the client application to manipulate the volume level of the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume.htm

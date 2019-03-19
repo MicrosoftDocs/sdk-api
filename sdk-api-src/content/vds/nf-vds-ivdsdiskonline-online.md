@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDiskOnline.Online
-title: IVdsDiskOnline::Online
+title: IVdsDiskOnline::Online (vds.h)
 author: windows-sdk-content
 description: Brings the disk online.
 old-location: base\ivdsdiskonline_online.htm

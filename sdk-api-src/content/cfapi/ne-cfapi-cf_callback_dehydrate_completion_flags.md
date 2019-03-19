@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS
-title: CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS
+title: CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: A callback flag to inform the sync provider that a placeholder under one of its sync roots has been successfully dehydrated.
 old-location: cloudapi\cf_callback_dehydrate_completion_flags.htm

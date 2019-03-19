@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_ARC_SEGMENT
-title: D2D1_ARC_SEGMENT
+title: D2D1_ARC_SEGMENT (d2d1.h)
 author: windows-sdk-content
 description: Describes an elliptical arc between two points.
 old-location: direct2d\D2D1_ARC_SEGMENT.htm

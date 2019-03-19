@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._ADRLIST
-title: ADRLIST
+title: ADRLIST (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Describes zero or more properties belonging to one or more recipients.
 old-location: wab\_wab_ADRLIST.htm

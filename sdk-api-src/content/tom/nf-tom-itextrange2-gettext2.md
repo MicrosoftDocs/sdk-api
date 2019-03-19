@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetText2
-title: ITextRange2::GetText2
+title: ITextRange2::GetText2 (tom.h)
 author: windows-sdk-content
 description: Gets the text in this range according to the specified conversion flags.
 old-location: controls\itextrange2_gettext2.htm

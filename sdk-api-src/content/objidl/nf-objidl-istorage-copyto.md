@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.CopyTo
-title: IStorage::CopyTo
+title: IStorage::CopyTo (objidl.h)
 author: windows-sdk-content
 description: Copies the entire contents of an open storage object to another storage object.
 old-location: stg\istorage_copyto.htm

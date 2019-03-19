@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._MIRROR_VIRTUAL_DISK_FLAG
-title: MIRROR_VIRTUAL_DISK_FLAG
+title: MIRROR_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) mirror request flags.
 old-location: vhd\mirror_virtual_disk_flag.htm

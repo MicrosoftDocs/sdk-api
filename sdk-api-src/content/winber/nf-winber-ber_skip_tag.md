@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_skip_tag
-title: ber_skip_tag function
+title: ber_skip_tag function (winber.h)
 author: windows-sdk-content
 description: The ber_skip_tag function skips the current tag and returns the tag of the next element in the supplied BerElement structure.
 old-location: ldap\ber_skip_tag.htm

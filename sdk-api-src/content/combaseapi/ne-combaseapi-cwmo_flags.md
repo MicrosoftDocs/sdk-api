@@ -1,6 +1,6 @@
 ---
 UID: NE:combaseapi.CWMO_FLAGS
-title: CWMO_FLAGS
+title: CWMO_FLAGS (combaseapi.h)
 author: windows-sdk-content
 description: Provides flags for the CoWaitForMultipleObjects function.
 old-location: com\cwmo_flags.htm

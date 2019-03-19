@@ -1,6 +1,6 @@
 ---
 UID: NC:netsh.NS_CONTEXT_CONNECT_FN
-title: NS_CONTEXT_CONNECT_FN
+title: NS_CONTEXT_CONNECT_FN (netsh.h)
 author: windows-sdk-content
 description: Is the connect function for helpers.
 old-location: netshell\ns_context_connect_fn.htm

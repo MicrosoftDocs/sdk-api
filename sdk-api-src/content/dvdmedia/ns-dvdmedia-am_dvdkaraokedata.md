@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia.tagAM_DvdKaraokeData
-title: AM_DvdKaraokeData
+title: AM_DvdKaraokeData (dvdmedia.h)
 author: windows-sdk-content
 description: Specifies how to mix the karaoke audio channels.
 old-location: dshow\am_dvdkaraokedata.htm

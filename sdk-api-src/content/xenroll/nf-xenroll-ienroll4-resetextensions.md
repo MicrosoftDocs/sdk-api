@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.resetExtensions
-title: IEnroll4::resetExtensions
+title: IEnroll4::resetExtensions (xenroll.h)
 author: windows-sdk-content
 description: Removes all extensions from the request.
 old-location: security\ienroll4_resetextensions.htm

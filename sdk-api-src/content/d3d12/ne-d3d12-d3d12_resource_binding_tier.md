@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_BINDING_TIER
-title: D3D12_RESOURCE_BINDING_TIER
+title: D3D12_RESOURCE_BINDING_TIER (d3d12.h)
 author: windows-sdk-content
 description: Identifies the tier of resource binding being used.
 old-location: direct3d12\d3d12_resource_binding_tier.htm

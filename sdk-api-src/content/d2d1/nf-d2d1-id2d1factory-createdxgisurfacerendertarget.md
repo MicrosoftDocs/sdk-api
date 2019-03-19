@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDxgiSurfaceRenderTarget
-title: ID2D1Factory::CreateDxgiSurfaceRenderTarget
+title: ID2D1Factory::CreateDxgiSurfaceRenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
 old-location: direct2d\id2d1factory_createdxgisurfacerendertarget.htm

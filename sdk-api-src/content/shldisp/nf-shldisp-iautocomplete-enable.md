@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IAutoComplete.Enable
-title: IAutoComplete::Enable
+title: IAutoComplete::Enable (shldisp.h)
 author: windows-sdk-content
 description: Enables or disables autocompletion.
 old-location: shell\IAutoComplete_Enable.htm

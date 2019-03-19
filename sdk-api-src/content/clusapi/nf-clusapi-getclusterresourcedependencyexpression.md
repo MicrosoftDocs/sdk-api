@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterResourceDependencyExpression
-title: GetClusterResourceDependencyExpression function
+title: GetClusterResourceDependencyExpression function (clusapi.h)
 author: windows-sdk-content
 description: Retrieves the dependency expression associated with the specified resource.
 old-location: mscs\getclusterresourcedependencyexpression.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignatureReference
-title: IOpcSignatureReference
+title: IOpcSignatureReference (msopc.h)
 author: windows-sdk-content
 description: Represents a reference to XML markup that has been or will be signed.
 old-location: opc\iopcsignaturereference.htm

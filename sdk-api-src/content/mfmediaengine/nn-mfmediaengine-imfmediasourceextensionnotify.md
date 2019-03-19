@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaSourceExtensionNotify
-title: IMFMediaSourceExtensionNotify
+title: IMFMediaSourceExtensionNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides functionality for raising events associated with IMFMediaSourceExtension.
 old-location: mf\imfmediasourceextensionnotify.htm

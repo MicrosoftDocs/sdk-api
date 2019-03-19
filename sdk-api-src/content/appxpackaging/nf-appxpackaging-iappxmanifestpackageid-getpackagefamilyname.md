@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetPackageFamilyName
-title: IAppxManifestPackageId::GetPackageFamilyName
+title: IAppxManifestPackageId::GetPackageFamilyName (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the package family name.
 old-location: appxpkg\iappxmanifestpackageid_getpackagefamilyname.htm

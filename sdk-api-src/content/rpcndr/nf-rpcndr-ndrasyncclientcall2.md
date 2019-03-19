@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrAsyncClientCall2
-title: NdrAsyncClientCall2 function
+title: NdrAsyncClientCall2 function (rpcndr.h)
 author: windows-sdk-content
 description: NdrAsyncClientCall2 may be altered or unavailable.
 old-location: rpc\ndrasyncclientcall2.htm

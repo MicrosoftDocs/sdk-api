@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEVR.get_Presenter
-title: IMSVidEVR::get_Presenter
+title: IMSVidEVR::get_Presenter (segment.h)
 author: windows-sdk-content
 description: "."
 old-location: mstv\imsvidevr_get_presenter.htm

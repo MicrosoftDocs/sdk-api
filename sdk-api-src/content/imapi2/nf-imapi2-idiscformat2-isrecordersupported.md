@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2.IsRecorderSupported
-title: IDiscFormat2::IsRecorderSupported
+title: IDiscFormat2::IsRecorderSupported (imapi2.h)
 author: windows-sdk-content
 description: Determines if the recorder supports the given format.
 old-location: imapi\idiscformat2_isrecordersupported.htm

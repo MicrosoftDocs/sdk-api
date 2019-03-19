@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_ExpectedTableOfContents
-title: IRawCDImageCreator::get_ExpectedTableOfContents
+title: IRawCDImageCreator::get_ExpectedTableOfContents (imapi2.h)
 author: windows-sdk-content
 description: Gets the SCSI-form table of contents for the resulting disc.
 old-location: imapi\irawcdimagecreator_get_expectedtableofcontents.htm

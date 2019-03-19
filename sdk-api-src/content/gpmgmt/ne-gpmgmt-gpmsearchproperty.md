@@ -1,6 +1,6 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0003
-title: GPMSearchProperty
+title: GPMSearchProperty (gpmgmt.h)
 author: windows-sdk-content
 description: The property of the search criteria.
 old-location: gpmc\gpmsearchproperty.htm

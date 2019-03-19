@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagAnalogVideoStandard
-title: AnalogVideoStandard
+title: AnalogVideoStandard (strmif.h)
 author: windows-sdk-content
 description: The AnalogVideoStandard enumeration specifies the format of an analog television signal.
 old-location: dshow\analogvideostandard.htm

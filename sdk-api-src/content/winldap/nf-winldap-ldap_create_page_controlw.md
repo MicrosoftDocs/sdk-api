@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_create_page_controlW
-title: ldap_create_page_controlW function
+title: ldap_create_page_controlW function (winldap.h)
 author: windows-sdk-content
 description: Use the ldap_create_page_control function to create a basic control for paging results. Support for controls is available effective with LDAP 3, but whether the page control is supported or not is dependent on the particular server.
 old-location: ldap\ldap_create_page_control.htm

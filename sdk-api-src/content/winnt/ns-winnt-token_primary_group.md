@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_PRIMARY_GROUP
-title: TOKEN_PRIMARY_GROUP
+title: TOKEN_PRIMARY_GROUP (winnt.h)
 author: windows-sdk-content
 description: Specifies a group security identifier (SID) for an access token.
 old-location: security\token_primary_group.htm

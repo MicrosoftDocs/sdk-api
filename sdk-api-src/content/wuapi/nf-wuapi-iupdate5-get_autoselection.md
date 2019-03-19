@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate5.get_AutoSelection
-title: IUpdate5::get_AutoSelection
+title: IUpdate5::get_AutoSelection (wuapi.h)
 author: windows-sdk-content
 description: Gets a value indicating the automatic selection mode of update in the Control Panel of Windows Update.
 old-location: wua\iupdate5_autoselection.htm

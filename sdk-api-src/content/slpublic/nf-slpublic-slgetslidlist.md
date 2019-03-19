@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLGetSLIDList
-title: SLGetSLIDList function
+title: SLGetSLIDList function (slpublic.h)
 author: windows-sdk-content
 description: Gets a list of SLIDs according to the input query ID type and the ID value.
 old-location: security\slgetslidlist.htm

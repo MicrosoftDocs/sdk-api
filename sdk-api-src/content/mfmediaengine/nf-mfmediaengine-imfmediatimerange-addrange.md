@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.AddRange
-title: IMFMediaTimeRange::AddRange
+title: IMFMediaTimeRange::AddRange (mfmediaengine.h)
 author: windows-sdk-content
 description: Adds a new range to the list of time ranges.
 old-location: mf\imfmediatimerange_addrange.htm

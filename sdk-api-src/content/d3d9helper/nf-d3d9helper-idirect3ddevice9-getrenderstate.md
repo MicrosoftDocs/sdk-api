@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetRenderState
-title: IDirect3DDevice9::GetRenderState
+title: IDirect3DDevice9::GetRenderState (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a render-state value for a device.
 old-location: direct3d9\idirect3ddevice9__getrenderstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:aviriff._avimainheader
-title: AVIMAINHEADER
+title: AVIMAINHEADER (aviriff.h)
 author: windows-sdk-content
 description: The AVIMAINHEADER structure defines global information in an AVI file.
 old-location: dshow\avimainheader.htm

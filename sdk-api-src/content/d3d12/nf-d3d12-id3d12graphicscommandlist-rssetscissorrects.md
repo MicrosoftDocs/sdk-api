@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.RSSetScissorRects
-title: ID3D12GraphicsCommandList::RSSetScissorRects
+title: ID3D12GraphicsCommandList::RSSetScissorRects (d3d12.h)
 author: windows-sdk-content
 description: Binds an array of scissor rectangles to the rasterizer stage.
 old-location: direct3d12\id3d12graphicscommandlist_rssetscissorrects.htm

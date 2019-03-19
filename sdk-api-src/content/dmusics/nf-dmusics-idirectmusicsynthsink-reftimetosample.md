@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.RefTimeToSample
-title: IDirectMusicSynthSink::RefTimeToSample
+title: IDirectMusicSynthSink::RefTimeToSample (dmusics.h)
 author: windows-sdk-content
 description: The RefTimeToSample method converts a reference time to a sample time.
 old-location: audio\idirectmusicsynthsink_reftimetosample.htm

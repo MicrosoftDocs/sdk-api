@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInterfaceRegKeyW
-title: SetupDiCreateDeviceInterfaceRegKeyW function
+title: SetupDiCreateDeviceInterfaceRegKeyW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiCreateDeviceInterfaceRegKey function creates a registry key for storing information about a device interface and returns a handle to the key.
 old-location: devinst\setupdicreatedeviceinterfaceregkey.htm

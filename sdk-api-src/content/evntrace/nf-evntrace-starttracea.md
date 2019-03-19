@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.StartTraceA
-title: StartTraceA function
+title: StartTraceA function (evntrace.h)
 author: windows-sdk-content
 description: The StartTrace function registers and starts an event tracing session.
 old-location: etw\starttrace.htm

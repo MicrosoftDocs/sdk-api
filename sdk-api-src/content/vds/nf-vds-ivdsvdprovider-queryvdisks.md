@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVdProvider.QueryVDisks
-title: IVdsVdProvider::QueryVDisks
+title: IVdsVdProvider::QueryVDisks (vds.h)
 author: windows-sdk-content
 description: Returns a list of all virtual disks that are managed by the provider.
 old-location: base\ivdsvdprovider_querysurfaceddisks.htm

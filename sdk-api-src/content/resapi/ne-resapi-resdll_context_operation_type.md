@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi.RESDLL_CONTEXT_OPERATION_TYPE
-title: RESDLL_CONTEXT_OPERATION_TYPE
+title: RESDLL_CONTEXT_OPERATION_TYPE (resapi.h)
 author: windows-sdk-content
 description: Specifies the various types of context operations for the GET_OPERATION_CONTEXT_PARAMS structure.
 old-location: mscs\resdll_context_operation_type.htm

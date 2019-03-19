@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetFlags
-title: IMFSensorGroup::GetFlags
+title: IMFSensorGroup::GetFlags (mfidl.h)
 author: windows-sdk-content
 description: Gets the flags set for the sensor group.
 old-location: mf\imfsensorgroup_getflags.htm

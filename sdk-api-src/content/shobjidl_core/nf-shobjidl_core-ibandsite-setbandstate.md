@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IBandSite.SetBandState
-title: IBandSite::SetBandState
+title: IBandSite::SetBandState (shobjidl_core.h)
 author: windows-sdk-content
 description: Set the state of a band in the band site.
 old-location: shell\IBandSite_SetBandState.htm

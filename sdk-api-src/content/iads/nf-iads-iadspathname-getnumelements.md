@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.GetNumElements
-title: IADsPathname::GetNumElements
+title: IADsPathname::GetNumElements (iads.h)
 author: windows-sdk-content
 description: Retrieves the number of elements in the path.
 old-location: adsi\iadspathname_getnumelements.htm

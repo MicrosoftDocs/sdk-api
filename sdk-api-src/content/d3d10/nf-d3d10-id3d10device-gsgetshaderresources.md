@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetShaderResources
-title: ID3D10Device::GSGetShaderResources
+title: ID3D10Device::GSGetShaderResources (d3d10.h)
 author: windows-sdk-content
 description: Get the geometry shader resources.
 old-location: direct3d10\id3d10device_gsgetshaderresources.htm

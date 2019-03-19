@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_Terminals
-title: ITPhone::get_Terminals
+title: ITPhone::get_Terminals (tapi3if.h)
 author: windows-sdk-content
 description: The get_Terminals method retrieves a collection of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_terminals.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagSTGMEDIUM
-title: uSTGMEDIUM
+title: uSTGMEDIUM (objidl.h)
 author: windows-sdk-content
 description: Represents a generalized global memory handle used for data transfer operations by the IAdviseSink, IDataObject, and IOleCache interfaces.
 old-location: com\stgmedium.htm

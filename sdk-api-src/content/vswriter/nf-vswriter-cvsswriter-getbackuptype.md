@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetBackupType
-title: CVssWriter::GetBackupType
+title: CVssWriter::GetBackupType (vswriter.h)
 author: windows-sdk-content
 description: The GetBackupType method indicates the type of backup to be performed.
 old-location: base\cvsswriter_getbackuptype.htm

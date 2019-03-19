@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_BLT_STATE
-title: DXVAHD_BLT_STATE
+title: DXVAHD_BLT_STATE (dxvahd.h)
 author: windows-sdk-content
 description: Specifies state parameters for blit operations when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_blt_state.htm

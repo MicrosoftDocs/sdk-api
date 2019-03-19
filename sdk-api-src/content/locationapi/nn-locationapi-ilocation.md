@@ -1,6 +1,6 @@
 ---
 UID: NN:locationapi.ILocation
-title: ILocation
+title: ILocation (locationapi.h)
 author: windows-sdk-content
 description: Provides methods used to manage location reports, event registration, and sensor permissions.
 old-location: winlocation\ilocation.htm

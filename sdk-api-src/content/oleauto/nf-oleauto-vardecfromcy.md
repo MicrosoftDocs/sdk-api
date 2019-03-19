@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecFromCy
-title: VarDecFromCy function
+title: VarDecFromCy function (oleauto.h)
 author: windows-sdk-content
 description: Converts a currency value to a decimal value.
 old-location: automat\vardecfromcy.htm

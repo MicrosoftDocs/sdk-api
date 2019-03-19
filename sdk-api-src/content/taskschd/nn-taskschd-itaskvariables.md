@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.ITaskVariables
-title: ITaskVariables
+title: ITaskVariables (taskschd.h)
 author: windows-sdk-content
 description: Defines task variables that can be passed as parameters to task handlers and external executables that are launched by tasks.
 old-location: taskschd\itaskvariables.htm

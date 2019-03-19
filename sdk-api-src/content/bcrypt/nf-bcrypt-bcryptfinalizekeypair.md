@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptFinalizeKeyPair
-title: BCryptFinalizeKeyPair function
+title: BCryptFinalizeKeyPair function (bcrypt.h)
 author: windows-sdk-content
 description: Completes a public/private key pair.
 old-location: security\bcryptfinalizekeypair_func.htm

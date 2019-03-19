@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.GetCurrent
-title: IAppxBlockMapBlocksEnumerator::GetCurrent
+title: IAppxBlockMapBlocksEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the block at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapblocksenumerator_getcurrent.htm

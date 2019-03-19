@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_BSS_LIST
-title: WLAN_BSS_LIST
+title: WLAN_BSS_LIST (wlanapi.h)
 author: windows-sdk-content
 description: Contains a list of basic service set (BSS) entries.
 old-location: nwifi\wlan_bss_list.htm

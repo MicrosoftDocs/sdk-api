@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ProgramChanged
-title: IGuideDataEvent::ProgramChanged
+title: IGuideDataEvent::ProgramChanged (bdatif.h)
 author: windows-sdk-content
 description: The ProgramChanged method is called when information about one or more programs has changed.
 old-location: mstv\iguidedataevent_programchanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.ProcessTime
-title: IInertiaProcessor::ProcessTime
+title: IInertiaProcessor::ProcessTime (manipulations.h)
 author: windows-sdk-content
 description: The ProcessTime method performs calculations for the given tick and can raise the Started, Delta, or Completed event depending on whether extrapolation is completed or not. If extrapolation finished at the previous tick, the method is no-op.
 old-location: wintouch\iinertiaprocessor_processtime.htm

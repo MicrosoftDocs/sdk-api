@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetEncoderParams
-title: IShellImageData::GetEncoderParams
+title: IShellImageData::GetEncoderParams (shimgdata.h)
 author: windows-sdk-content
 description: Gets the current set of encoder parameters.
 old-location: shell\IShellImageData_GetEncoderParams.htm

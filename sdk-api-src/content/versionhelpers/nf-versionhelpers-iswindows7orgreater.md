@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindows7OrGreater
-title: IsWindows7OrGreater function
+title: IsWindows7OrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 7 version.
 old-location: base\iswindows7orgreater.htm

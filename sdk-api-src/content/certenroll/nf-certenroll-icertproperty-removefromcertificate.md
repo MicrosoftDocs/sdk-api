@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.RemoveFromCertificate
-title: ICertProperty::RemoveFromCertificate
+title: ICertProperty::RemoveFromCertificate (certenroll.h)
 author: windows-sdk-content
 description: Disassociates a property from a certificate.
 old-location: security\icertproperty_removefromcertificate_method.htm

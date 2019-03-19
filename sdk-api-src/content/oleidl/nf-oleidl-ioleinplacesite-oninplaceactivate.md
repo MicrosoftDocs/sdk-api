@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnInPlaceActivate
-title: IOleInPlaceSite::OnInPlaceActivate
+title: IOleInPlaceSite::OnInPlaceActivate (oleidl.h)
 author: windows-sdk-content
 description: Notifies the container that one of its objects is being activated in place.
 old-location: com\ioleinplacesite_oninplaceactivate.htm

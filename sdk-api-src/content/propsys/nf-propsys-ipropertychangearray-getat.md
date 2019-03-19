@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.GetAt
-title: IPropertyChangeArray::GetAt
+title: IPropertyChangeArray::GetAt (propsys.h)
 author: windows-sdk-content
 description: Gets the change operation at a specified array index.
 old-location: properties\IPropertyChangeArray_GetAt.htm

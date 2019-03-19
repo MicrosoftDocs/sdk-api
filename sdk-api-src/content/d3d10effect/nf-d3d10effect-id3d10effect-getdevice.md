@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetDevice
-title: ID3D10Effect::GetDevice
+title: ID3D10Effect::GetDevice (d3d10effect.h)
 author: windows-sdk-content
 description: Get the device that created the effect.
 old-location: direct3d10\id3d10effect_getdevice.htm

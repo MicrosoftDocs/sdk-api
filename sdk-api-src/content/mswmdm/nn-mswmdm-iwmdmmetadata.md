@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMMetaData
-title: IWMDMMetaData
+title: IWMDMMetaData (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMMetaData interface sets and retrieves metadata properties (such as artist, album, genre, and so on) of a storage.
 old-location: wmdm\iwmdmmetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.SetWordList
-title: SetWordList function
+title: SetWordList function (recapis.h)
 author: windows-sdk-content
 description: Sets the word list for the current recognizer context to recognize.
 old-location: tablet\setwordlist.htm

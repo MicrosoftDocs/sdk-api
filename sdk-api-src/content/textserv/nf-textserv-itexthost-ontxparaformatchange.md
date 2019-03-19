@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.OnTxParaFormatChange
-title: ITextHost::OnTxParaFormatChange
+title: ITextHost::OnTxParaFormatChange (textserv.h)
 author: windows-sdk-content
 description: Sets the default paragraph format for the text host.
 old-location: controls\ITextHost_OnTxParaFormatChange.htm

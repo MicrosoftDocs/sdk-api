@@ -1,6 +1,6 @@
 ---
 UID: NF:inspectable.IInspectable.GetTrustLevel
-title: IInspectable::GetTrustLevel
+title: IInspectable::GetTrustLevel (inspectable.h)
 author: windows-sdk-content
 description: Gets the trust level of the current Windows Runtime object.
 old-location: winrt\iinspectable_gettrustlevel.htm

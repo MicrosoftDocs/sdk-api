@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFRR_COMPONENT_HASH_INFO
-title: MFRR_COMPONENT_HASH_INFO
+title: MFRR_COMPONENT_HASH_INFO (mfidl.h)
 author: windows-sdk-content
 description: Contains information about a revoked component.
 old-location: mf\mfrr_component_hash_info.htm

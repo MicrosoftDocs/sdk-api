@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_BLEND_DESC.operator const D3D11_BLEND_DESC&
-title: CD3D11_BLEND_DESC::operator const D3D11_BLEND_DESC&
+title: CD3D11_BLEND_DESC::operator const D3D11_BLEND_DESC& (d3d11.h)
 author: windows-sdk-content
 description: This operator returns the address of a D3D11_BLEND_DESC structure that contains the data from the CD3D11_BLEND_DESC instance.
 old-location: direct3d11\cd3d11_blend_desc_d3d11_blend_desc__.htm

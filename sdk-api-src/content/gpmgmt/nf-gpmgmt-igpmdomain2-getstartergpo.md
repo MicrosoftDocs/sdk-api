@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.GetStarterGPO
-title: IGPMDomain2::GetStarterGPO
+title: IGPMDomain2::GetStarterGPO (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves a GPMStarterGPO object that has a specified Group Policy object ID.
 old-location: gpmc\igpmdomain2_getstartergpo.htm

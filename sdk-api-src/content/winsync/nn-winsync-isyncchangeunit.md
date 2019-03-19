@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncChangeUnit
-title: ISyncChangeUnit
+title: ISyncChangeUnit (winsync.h)
 author: windows-sdk-content
 description: Represents a change to a change unit that is contained in an item.
 old-location: winsync\isyncchangeunit.htm

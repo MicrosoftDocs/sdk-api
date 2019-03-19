@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.IsolationLevel
-title: IServiceTransactionConfigBase::IsolationLevel
+title: IServiceTransactionConfigBase::IsolationLevel (comsvcs.h)
 author: windows-sdk-content
 description: Sets the isolation level of the transactions.
 old-location: cos\iservicetransactionconfigbase_isolationlevel.htm

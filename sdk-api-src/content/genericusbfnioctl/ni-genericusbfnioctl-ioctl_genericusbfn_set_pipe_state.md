@@ -1,6 +1,6 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_SET_PIPE_STATE
-title: IOCTL_GENERICUSBFN_SET_PIPE_STATE
+title: IOCTL_GENERICUSBFN_SET_PIPE_STATE (genericusbfnioctl.h)
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to set the state of the specified Universal Serial Bus (USB) pipe.
 old-location: buses\ioctl_genericusbfn_set_pipe_state.htm

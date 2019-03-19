@@ -1,6 +1,6 @@
 ---
 UID: NN:certview.IEnumCERTVIEWATTRIBUTE
-title: IEnumCERTVIEWATTRIBUTE
+title: IEnumCERTVIEWATTRIBUTE (certview.h)
 author: windows-sdk-content
 description: Represents an attribute-enumeration sequence that contains the certificate attributes for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewattribute.htm

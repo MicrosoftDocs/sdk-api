@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_EKUS0_
-title: IKEEXT_CERT_EKUS0
+title: IKEEXT_CERT_EKUS0 (iketypes.h)
 author: windows-sdk-content
 description: Contains information about the extended key usage (EKU) properties of a certificate.
 old-location: fwp\ikeext_cert_ekus0.htm

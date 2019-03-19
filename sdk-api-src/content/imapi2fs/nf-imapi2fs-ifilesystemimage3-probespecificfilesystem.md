@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage3.ProbeSpecificFileSystem
-title: IFileSystemImage3::ProbeSpecificFileSystem
+title: IFileSystemImage3::ProbeSpecificFileSystem (imapi2fs.h)
 author: windows-sdk-content
 description: Determines if a specific file system on the current media is appendable through the IMAPI.
 old-location: imapi\ifilesystemimage3_probespecificfilesystem.htm

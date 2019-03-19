@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPart.GetContentStream
-title: IOpcPart::GetContentStream
+title: IOpcPart::GetContentStream (msopc.h)
 author: windows-sdk-content
 description: Gets a stream that provides read/write access to part content.
 old-location: opc\iopcpart_getcontentstream.htm

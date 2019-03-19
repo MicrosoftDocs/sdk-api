@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IContextMenuProvider.AddThirdPartyExtensionItems
-title: IContextMenuProvider::AddThirdPartyExtensionItems
+title: IContextMenuProvider::AddThirdPartyExtensionItems (mmc.h)
 author: windows-sdk-content
 description: The IContextMenuProvider::AddThirdPartyExtensionItems method enables third-party extensions to add items at specified insertion points in this context menu.
 old-location: mmc\icontextmenuprovider_addthirdpartyextensionitems.htm

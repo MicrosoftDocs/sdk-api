@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._DICTIONARYPROPERTIES
-title: DICTIONARYPROPERTIES
+title: DICTIONARYPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the DICTIONARYPROPERTIES properties type enumerate properties associated with the attribute dictionary.
 old-location: nps\SDO_dictionaryproperties.htm

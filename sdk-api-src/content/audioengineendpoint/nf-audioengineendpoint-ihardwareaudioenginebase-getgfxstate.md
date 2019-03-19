@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetGfxState
-title: IHardwareAudioEngineBase::GetGfxState
+title: IHardwareAudioEngineBase::GetGfxState (audioengineendpoint.h)
 author: windows-sdk-content
 description: The GetGfxState method retrieves the GFX state of the offloaded audio stream.
 old-location: coreaudio\ihardwareaudioenginebase_getgfxstate.htm

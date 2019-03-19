@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceOpen
-title: IMFMediaSourceExtensionNotify::OnSourceOpen
+title: IMFMediaSourceExtensionNotify::OnSourceOpen (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to indicate that the media source has opened.
 old-location: mf\imfmediasourceextensionnotify_onsourceopen.htm

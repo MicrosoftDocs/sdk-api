@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.UnregisterForPackageStateChanges
-title: IPackageDebugSettings::UnregisterForPackageStateChanges
+title: IPackageDebugSettings::UnregisterForPackageStateChanges (shobjidl_core.h)
 author: windows-sdk-content
 description: Stops receiving package state-change notifications associated with a previous call to RegisterForPackageStateChanges.
 old-location: shell\IPackageDebugSettings_UnregisterForPackageStateChanges.htm

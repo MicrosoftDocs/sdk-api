@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.ExportTemplates
-title: IFsrmQuotaTemplateManager::ExportTemplates
+title: IFsrmQuotaTemplateManager::ExportTemplates (fsrmquota.h)
 author: windows-sdk-content
 description: Exports the quota templates as an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_exporttemplates.htm

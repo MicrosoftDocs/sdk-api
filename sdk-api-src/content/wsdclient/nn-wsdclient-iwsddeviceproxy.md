@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDDeviceProxy
-title: IWSDDeviceProxy
+title: IWSDDeviceProxy (wsdclient.h)
 author: windows-sdk-content
 description: Represents a remote Devices Profile for Web Services (DPWS) device for client applications and middleware.
 old-location: ncd\iwsddeviceproxy.htm

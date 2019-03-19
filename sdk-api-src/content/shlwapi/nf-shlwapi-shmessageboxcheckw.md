@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHMessageBoxCheckW
-title: SHMessageBoxCheckW function
+title: SHMessageBoxCheckW function (shlwapi.h)
 author: windows-sdk-content
 description: SHMessageBoxCheck may be altered or unavailable.
 old-location: shell\SHMessageBoxCheck.htm

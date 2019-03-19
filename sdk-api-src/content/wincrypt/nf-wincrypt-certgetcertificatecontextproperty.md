@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetCertificateContextProperty
-title: CertGetCertificateContextProperty function
+title: CertGetCertificateContextProperty function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves the information contained in an extended property of a certificate context.
 old-location: security\certgetcertificatecontextproperty.htm

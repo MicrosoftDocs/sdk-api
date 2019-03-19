@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzEnumerateSecurityEventSources
-title: AuthzEnumerateSecurityEventSources function
+title: AuthzEnumerateSecurityEventSources function (authz.h)
 author: windows-sdk-content
 description: Retrieves the registered security event sources that are not installed by default.
 old-location: security\authzenumeratesecurityeventsources.htm

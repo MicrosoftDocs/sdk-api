@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.MFP_GET_RATE_SET_EVENT
-title: MFP_GET_RATE_SET_EVENT macro
+title: MFP_GET_RATE_SET_EVENT macro (mfplay.h)
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_RATE_SET_EVENT pointer.
 old-location: mf\mfp_get_rate_set_event.htm

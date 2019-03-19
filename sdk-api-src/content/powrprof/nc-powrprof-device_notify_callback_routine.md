@@ -1,6 +1,6 @@
 ---
 UID: NC:powrprof.DEVICE_NOTIFY_CALLBACK_ROUTINE
-title: DEVICE_NOTIFY_CALLBACK_ROUTINE
+title: DEVICE_NOTIFY_CALLBACK_ROUTINE (powrprof.h)
 author: windows-sdk-content
 description: An application's DeviceNotifyCallbackRoutine callback function is used for receiving power notifications.
 old-location: base\device_notify_callback_routine.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetNumberOfStreams
-title: IMFMediaEngineEx::GetNumberOfStreams
+title: IMFMediaEngineEx::GetNumberOfStreams (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the number of streams in the media resource.
 old-location: mf\imfmediaengineex_getnumberofstreams.htm

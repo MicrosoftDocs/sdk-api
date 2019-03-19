@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetResource
-title: IMFDXGIBuffer::GetResource
+title: IMFDXGIBuffer::GetResource (mfobjects.h)
 author: windows-sdk-content
 description: Queries the Microsoft DirectX Graphics Infrastructure (DXGI)surface for an interface.
 old-location: mf\imfdxgibuffer_getresource.htm

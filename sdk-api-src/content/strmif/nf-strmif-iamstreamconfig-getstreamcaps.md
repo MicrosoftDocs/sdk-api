@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetStreamCaps
-title: IAMStreamConfig::GetStreamCaps
+title: IAMStreamConfig::GetStreamCaps (strmif.h)
 author: windows-sdk-content
 description: The GetStreamCaps method retrieves a set of format capabilities.
 old-location: dshow\iamstreamconfig_getstreamcaps.htm

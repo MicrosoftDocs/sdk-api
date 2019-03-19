@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.UnMapDesktopSurface
-title: IDXGIOutputDuplication::UnMapDesktopSurface
+title: IDXGIOutputDuplication::UnMapDesktopSurface (dxgi1_2.h)
 author: windows-sdk-content
 description: Invalidates the pointer to the desktop image that was retrieved by using IDXGIOutputDuplication::MapDesktopSurface.
 old-location: direct3ddxgi\idxgioutputduplication_unmapdesktopsurface.htm

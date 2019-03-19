@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiInstallMissingComponentA
-title: MsiInstallMissingComponentA function
+title: MsiInstallMissingComponentA function (msi.h)
 author: windows-sdk-content
 description: The MsiInstallMissingComponent function installs files that are unexpectedly missing.
 old-location: setup\msiinstallmissingcomponent.htm

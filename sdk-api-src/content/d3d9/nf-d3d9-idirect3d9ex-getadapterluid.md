@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3D9Ex.GetAdapterLUID
-title: IDirect3D9Ex::GetAdapterLUID
+title: IDirect3D9Ex::GetAdapterLUID (d3d9.h)
 author: windows-sdk-content
 description: This method returns a unique identifier for the adapter that is specific to the adapter hardware. Applications can use this identifier to define robust mappings across various APIs (Direct3D 9, DXGI).
 old-location: direct3d9\idirect3d9ex_getadapterluid.htm

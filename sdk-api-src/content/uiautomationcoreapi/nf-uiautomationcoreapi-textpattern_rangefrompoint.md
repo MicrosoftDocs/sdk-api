@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_RangeFromPoint
-title: TextPattern_RangeFromPoint function
+title: TextPattern_RangeFromPoint function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves the degenerate (empty) text range nearest to the specified screen coordinates.
 old-location: winauto\uiauto_TextPattern_RangeFromPointConPat.htm

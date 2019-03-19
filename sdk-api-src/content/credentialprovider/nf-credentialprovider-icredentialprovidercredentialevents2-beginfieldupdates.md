@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.BeginFieldUpdates
-title: ICredentialProviderCredentialEvents2::BeginFieldUpdates
+title: ICredentialProviderCredentialEvents2::BeginFieldUpdates (credentialprovider.h)
 author: windows-sdk-content
 description: Starts a batch update to fields in the logon or credential UI.
 old-location: shell\ICredentialProviderCredentialEvents2_BeginFieldUpdates.htm

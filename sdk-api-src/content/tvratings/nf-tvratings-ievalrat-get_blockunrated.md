@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IEvalRat.get_BlockUnRated
-title: IEvalRat::get_BlockUnRated
+title: IEvalRat::get_BlockUnRated (tvratings.h)
 author: windows-sdk-content
 description: The get_BlockUnRated method indicates whether a program without rating information is blocked.
 old-location: mstv\ievalrat_get_blockunrated.htm

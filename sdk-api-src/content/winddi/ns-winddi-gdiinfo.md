@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._GDIINFO
-title: GDIINFO
+title: GDIINFO (winddi.h)
 author: windows-sdk-content
 description: The GDIINFO structure describes the graphics capabilities of a given device.
 old-location: display\gdiinfo.htm

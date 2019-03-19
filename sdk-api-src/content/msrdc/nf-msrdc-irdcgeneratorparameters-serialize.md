@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.Serialize
-title: IRdcGeneratorParameters::Serialize
+title: IRdcGeneratorParameters::Serialize (msrdc.h)
 author: windows-sdk-content
 description: Serializes the parameter data into a block of memory.
 old-location: rdc\irdcgeneratorparameters_serialize.htm

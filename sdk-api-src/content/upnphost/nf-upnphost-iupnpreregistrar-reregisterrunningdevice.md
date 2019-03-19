@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPReregistrar.ReregisterRunningDevice
-title: IUPnPReregistrar::ReregisterRunningDevice
+title: IUPnPReregistrar::ReregisterRunningDevice (upnphost.h)
 author: windows-sdk-content
 description: The ReregisterRunningDevice method re-registers a running device with the device host.
 old-location: upnp\iupnpreregistrar_reregisterrunningdevice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._LUID_AND_ATTRIBUTES
-title: LUID_AND_ATTRIBUTES
+title: LUID_AND_ATTRIBUTES (winnt.h)
 author: windows-sdk-content
 description: Represents a locally unique identifier (LUID) and its attributes.
 old-location: security\luid_and_attributes.htm

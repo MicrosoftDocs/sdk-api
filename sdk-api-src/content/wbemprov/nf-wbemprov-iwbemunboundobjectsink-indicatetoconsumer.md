@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemUnboundObjectSink.IndicateToConsumer
-title: IWbemUnboundObjectSink::IndicateToConsumer
+title: IWbemUnboundObjectSink::IndicateToConsumer (wbemprov.h)
 author: windows-sdk-content
 description: Called by WMI to actually deliver events to a consumer.
 old-location: wmi\iwbemunboundobjectsink_indicatetoconsumer.htm

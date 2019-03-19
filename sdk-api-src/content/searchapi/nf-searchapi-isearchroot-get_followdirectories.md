@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_FollowDirectories
-title: ISearchRoot::get_FollowDirectories
+title: ISearchRoot::get_FollowDirectories (searchapi.h)
 author: windows-sdk-content
 description: Gets a BOOL value that indicates whether the search engine follows subdirectories and hierarchical scopes.
 old-location: search\_search_ISearchRoot_get_FollowDirectories.htm

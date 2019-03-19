@@ -1,6 +1,6 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetAt
-title: CHPtrArray::GetAt
+title: CHPtrArray::GetAt (chptrarr.h)
 author: windows-sdk-content
 description: The GetAt method accesses an element in a CHPtrArray array.
 old-location: wmi\chptrarray_getat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.put_Type
-title: IComponent::put_Type
+title: IComponent::put_Type (tuner.h)
 author: windows-sdk-content
 description: The put_Type method sets an IComponentType object describing the general characteristics of the component.
 old-location: mstv\icomponent_put_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Title
-title: IAMMediaContent::get_Title
+title: IAMMediaContent::get_Title (qnetwork.h)
 author: windows-sdk-content
 description: The get_Title method retrieves the title.
 old-location: dshow\iammediacontent_get_title.htm

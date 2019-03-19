@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderAction.get_SendCabTo
-title: IFolderAction::get_SendCabTo
+title: IFolderAction::get_SendCabTo (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the destination of the cabinet file if the action is to send a cabinet file.
 old-location: pla\ifolderaction_sendcabto.htm

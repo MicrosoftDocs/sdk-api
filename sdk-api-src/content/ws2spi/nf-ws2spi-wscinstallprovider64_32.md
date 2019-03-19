@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCInstallProvider64_32
-title: WSCInstallProvider64_32 function
+title: WSCInstallProvider64_32 function (ws2spi.h)
 author: windows-sdk-content
 description: Installs the specified transport service provider into the 32-bit and 64-bit system configuration databases on a 64-bit computer.
 old-location: winsock\wscinstallprovider64_32.htm

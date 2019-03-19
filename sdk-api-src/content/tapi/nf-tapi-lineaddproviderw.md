@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineAddProviderW
-title: lineAddProviderW function
+title: lineAddProviderW function (tapi.h)
 author: windows-sdk-content
 description: The lineAddProvider function installs a new telephony service provider into the telephony system.
 old-location: tapi2\lineaddprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetDestInfo
-title: RtmGetDestInfo function
+title: RtmGetDestInfo function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetDestInfo function returns information about a destination.
 old-location: rras\rtmgetdestinfo.htm

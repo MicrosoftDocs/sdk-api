@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CANCEL_NOTIFICATION
-title: LSA_CANCEL_NOTIFICATION
+title: LSA_CANCEL_NOTIFICATION (ntsecpkg.h)
 author: windows-sdk-content
 description: The CancelNotification function cancels a previously registered notification.
 old-location: security\cancelnotification.htm

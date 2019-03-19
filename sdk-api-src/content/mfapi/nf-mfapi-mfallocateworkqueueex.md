@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFAllocateWorkQueueEx
-title: MFAllocateWorkQueueEx function
+title: MFAllocateWorkQueueEx function (mfapi.h)
 author: windows-sdk-content
 description: Creates a new work queue.
 old-location: mf\mfallocateworkqueueex.htm

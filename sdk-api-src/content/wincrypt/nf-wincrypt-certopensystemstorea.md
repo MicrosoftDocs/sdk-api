@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertOpenSystemStoreA
-title: CertOpenSystemStoreA function
+title: CertOpenSystemStoreA function (wincrypt.h)
 author: windows-sdk-content
 description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore.
 old-location: security\certopensystemstore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader2
-title: IAppxManifestReader2
+title: IAppxManifestReader2 (appxpackaging.h)
 author: windows-sdk-content
 description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
 old-location: appxpkg\iappxmanifestreader2.htm

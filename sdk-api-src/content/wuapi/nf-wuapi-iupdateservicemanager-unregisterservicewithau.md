@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.UnregisterServiceWithAU
-title: IUpdateServiceManager::UnregisterServiceWithAU
+title: IUpdateServiceManager::UnregisterServiceWithAU (wuapi.h)
 author: windows-sdk-content
 description: Unregisters a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_unregisterservicewithau.htm

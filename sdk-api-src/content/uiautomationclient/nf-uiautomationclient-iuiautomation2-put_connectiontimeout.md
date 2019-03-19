@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.put_ConnectionTimeout
-title: IUIAutomation2::put_ConnectionTimeout
+title: IUIAutomation2::put_ConnectionTimeout (uiautomationclient.h)
 author: windows-sdk-content
 description: Specifies the length of time that UI Automation will wait for a provider to respond to a client request for an automation element.
 old-location: winauto\uiauto_iuiautomation2_connectiontimeout.htm

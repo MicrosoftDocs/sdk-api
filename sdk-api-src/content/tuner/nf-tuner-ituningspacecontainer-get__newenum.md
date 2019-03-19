@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get__NewEnum
-title: ITuningSpaceContainer::get__NewEnum
+title: ITuningSpaceContainer::get__NewEnum (tuner.h)
 author: windows-sdk-content
 description: The get__NewEnum method supports For...Each loops in Automation clients.
 old-location: mstv\ituningspacecontainer_get__newenum.htm

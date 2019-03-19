@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_IPProtocol
-title: INetSharingPortMappingProps::get_IPProtocol
+title: INetSharingPortMappingProps::get_IPProtocol (netcon.h)
 author: windows-sdk-content
 description: The get_IPProtocol method retrieves the IP Protocol associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_ipprotocol.htm

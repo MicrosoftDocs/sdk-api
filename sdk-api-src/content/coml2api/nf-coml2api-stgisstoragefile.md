@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgIsStorageFile
-title: StgIsStorageFile function
+title: StgIsStorageFile function (coml2api.h)
 author: windows-sdk-content
 description: The StgIsStorageFile function indicates whether a particular disk file contains a storage object.
 old-location: stg\stgisstoragefile.htm

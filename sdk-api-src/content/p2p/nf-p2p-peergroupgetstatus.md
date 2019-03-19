@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupGetStatus
-title: PeerGroupGetStatus function
+title: PeerGroupGetStatus function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupGetStatus function retrieves the current status of a group.
 old-location: p2p\peergroupgetstatus.htm

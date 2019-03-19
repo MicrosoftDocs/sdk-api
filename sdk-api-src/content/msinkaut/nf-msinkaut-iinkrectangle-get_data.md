@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.get_Data
-title: IInkRectangle::get_Data
+title: IInkRectangle::get_Data (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets access to the rectangle structure (C++ only).
 old-location: tablet\inkrectangle_data.htm

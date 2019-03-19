@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetServer
-title: IWbemPath::GetServer
+title: IWbemPath::GetServer (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::GetServer method retrieves the server portion of the path.
 old-location: wmi\iwbempath_getserver.htm

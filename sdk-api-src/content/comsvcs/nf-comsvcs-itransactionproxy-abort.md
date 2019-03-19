@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Abort
-title: ITransactionProxy::Abort
+title: ITransactionProxy::Abort (comsvcs.h)
 author: windows-sdk-content
 description: Aborts the transaction.
 old-location: cos\itransactionproxy_abort.htm

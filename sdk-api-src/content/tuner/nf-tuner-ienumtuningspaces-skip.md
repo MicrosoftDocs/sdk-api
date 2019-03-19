@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Skip
-title: IEnumTuningSpaces::Skip
+title: IEnumTuningSpaces::Skip (tuner.h)
 author: windows-sdk-content
 description: The Skip method skips the specified element in the collection.
 old-location: mstv\ienumtuningspaces_skip.htm

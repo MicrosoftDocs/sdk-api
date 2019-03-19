@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_REFERENCE_FLAGS
-title: EVT_CHANNEL_REFERENCE_FLAGS
+title: EVT_CHANNEL_REFERENCE_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the values that specify how a channel is referenced.
 old-location: wes\evt_channel_reference_flags.htm

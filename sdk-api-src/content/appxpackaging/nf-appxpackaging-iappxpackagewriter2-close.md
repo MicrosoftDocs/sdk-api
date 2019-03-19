@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageWriter2.Close
-title: IAppxPackageWriter2::Close
+title: IAppxPackageWriter2::Close (appxpackaging.h)
 author: windows-sdk-content
 description: Closes the package writer object's output stream.
 old-location: appxpkg\iappxpackagewriter2_close.htm

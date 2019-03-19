@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.POPEN_ROUTINE
-title: POPEN_ROUTINE
+title: POPEN_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Opens a resource.
 old-location: mscs\open.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:gdipluseffects.BlurParams
-title: BlurParams
+title: BlurParams (gdipluseffects.h)
 author: windows-sdk-content
 description: A BlurParams structure contains members that specify the nature of a Gaussian blur.
 old-location: gdiplus\_gdiplus_STRUC_BlurParams.htm

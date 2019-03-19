@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetStatusMessages
-title: phoneGetStatusMessages function
+title: phoneGetStatusMessages function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetStatusMessages function returns which phone-state changes on the specified phone device generate a callback to the application.
 old-location: tapi2\phonegetstatusmessages.htm

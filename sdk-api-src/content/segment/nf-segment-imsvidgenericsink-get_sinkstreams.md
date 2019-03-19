@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink.get_SinkStreams
-title: IMSVidGenericSink::get_SinkStreams
+title: IMSVidGenericSink::get_SinkStreams (segment.h)
 author: windows-sdk-content
 description: The get_SinkStreams method retrieves the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_get_sinkstreams.htm

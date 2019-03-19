@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetNextProgram
-title: ITuneRequestInfo::GetNextProgram
+title: ITuneRequestInfo::GetNextProgram (bdatif.h)
 author: windows-sdk-content
 description: The GetNextProgram method creates a new tune request with channel or program locator information for the next service.
 old-location: mstv\itunerequestinfo_getnextprogram.htm

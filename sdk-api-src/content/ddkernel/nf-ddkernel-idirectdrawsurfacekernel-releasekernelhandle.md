@@ -1,6 +1,6 @@
 ---
 UID: NF:ddkernel.IDirectDrawSurfaceKernel.ReleaseKernelHandle
-title: IDirectDrawSurfaceKernel::ReleaseKernelHandle
+title: IDirectDrawSurfaceKernel::ReleaseKernelHandle (ddkernel.h)
 author: windows-sdk-content
 description: The IDirectDrawSurfaceKernel::ReleaseKernelHandle method releases a kernel-mode handle to the DirectDraw surface.
 old-location: display\idirectdrawsurfacekernel_releasekernelhandle.htm

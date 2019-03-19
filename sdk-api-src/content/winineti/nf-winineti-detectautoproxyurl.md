@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.DetectAutoProxyUrl
-title: DetectAutoProxyUrl function
+title: DetectAutoProxyUrl function (winineti.h)
 author: windows-sdk-content
 description: Attempts to determine the location of a WPAD autoproxy script.
 old-location: wininet\detectautoproxyurl.htm

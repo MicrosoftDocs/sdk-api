@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsDialogMessageW
-title: IsDialogMessageW function
+title: IsDialogMessageW function (winuser.h)
 author: windows-sdk-content
 description: Determines whether a message is intended for the specified dialog box and, if it is, processes the message.
 old-location: dlgbox\isdialogmessage.htm

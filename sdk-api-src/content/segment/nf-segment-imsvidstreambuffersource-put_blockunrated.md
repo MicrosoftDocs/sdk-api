@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.put_BlockUnrated
-title: IMSVidStreamBufferSource::put_BlockUnrated
+title: IMSVidStreamBufferSource::put_BlockUnrated (segment.h)
 author: windows-sdk-content
 description: The put_BlockUnrated method specifies whether to block unrated content.
 old-location: mstv\imsvidstreambuffersource_put_blockunrated.htm

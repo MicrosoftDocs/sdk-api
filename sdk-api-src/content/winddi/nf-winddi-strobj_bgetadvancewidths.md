@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.STROBJ_bGetAdvanceWidths
-title: STROBJ_bGetAdvanceWidths function
+title: STROBJ_bGetAdvanceWidths function (winddi.h)
 author: windows-sdk-content
 description: The STROBJ_bGetAdvanceWidths function retrieves an array of vectors specifying the probable widths of glyphs making up a specified string.
 old-location: display\strobj_bgetadvancewidths.htm

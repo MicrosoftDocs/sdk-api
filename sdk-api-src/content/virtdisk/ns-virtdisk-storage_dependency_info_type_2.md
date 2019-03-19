@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._STORAGE_DEPENDENCY_INFO_TYPE_2
-title: STORAGE_DEPENDENCY_INFO_TYPE_2
+title: STORAGE_DEPENDENCY_INFO_TYPE_2 (virtdisk.h)
 author: windows-sdk-content
 description: Contains VHD or ISO storage dependency information for type 2.
 old-location: vhd\storage_dependency_info_type_2.htm

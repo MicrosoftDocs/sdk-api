@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetCurrentService
-title: IAMLine21Decoder::SetCurrentService
+title: IAMLine21Decoder::SetCurrentService (il21dec.h)
 author: windows-sdk-content
 description: The SetCurrentService method sets the closed captioning service.
 old-location: dshow\iamline21decoder_setcurrentservice.htm

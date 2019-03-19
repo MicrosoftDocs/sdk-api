@@ -1,6 +1,6 @@
 ---
 UID: NF:smbclnt.RegisterAppInstance
-title: RegisterAppInstance function
+title: RegisterAppInstance function (smbclnt.h)
 author: windows-sdk-content
 description: Registers the AppInstance ID for a process.
 old-location: mscs\registerappinstance.htm

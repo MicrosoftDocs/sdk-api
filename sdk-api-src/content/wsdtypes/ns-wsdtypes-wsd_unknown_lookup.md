@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_UNKNOWN_LOOKUP
-title: WSD_UNKNOWN_LOOKUP
+title: WSD_UNKNOWN_LOOKUP (wsdtypes.h)
 author: windows-sdk-content
 description: Represents an XML element that could not be parsed.
 old-location: ncd\wsd_unknown_lookup.htm

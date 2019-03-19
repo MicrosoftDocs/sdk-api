@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf
-title: CM_Free_Log_Conf function
+title: CM_Free_Log_Conf function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Free_Log_Conf function removes a logical configuration and all associated resource descriptors from the local machine.
 old-location: devinst\cm_free_log_conf.htm

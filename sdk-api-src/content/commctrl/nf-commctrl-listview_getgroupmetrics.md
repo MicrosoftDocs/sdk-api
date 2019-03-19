@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetGroupMetrics
-title: ListView_GetGroupMetrics macro
+title: ListView_GetGroupMetrics macro (commctrl.h)
 author: windows-sdk-content
 description: Gets information about the display of groups. You can use this macro or send the LVM_GETGROUPMETRICS message explicitly.
 old-location: controls\ListView_GetGroupMetrics.htm

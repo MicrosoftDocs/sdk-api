@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.IsEnabled
-title: IUIAnimationTimer::IsEnabled
+title: IUIAnimationTimer::IsEnabled (uianimation.h)
 author: windows-sdk-content
 description: Determines whether the timer is currently enabled.
 old-location: uianimation\iuianimationtimer_isenabled.htm

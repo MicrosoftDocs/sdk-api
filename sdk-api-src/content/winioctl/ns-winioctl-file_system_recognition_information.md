@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_SYSTEM_RECOGNITION_INFORMATION
-title: FILE_SYSTEM_RECOGNITION_INFORMATION
+title: FILE_SYSTEM_RECOGNITION_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Contains file system recognition information retrieved by the FSCTL_QUERY_FILE_SYSTEM_RECOGNITION control code.
 old-location: fs\file_system_recognition_information.htm

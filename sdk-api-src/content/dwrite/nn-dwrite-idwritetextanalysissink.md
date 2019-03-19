@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteTextAnalysisSink
-title: IDWriteTextAnalysisSink
+title: IDWriteTextAnalysisSink (dwrite.h)
 author: windows-sdk-content
 description: This interface is implemented by the text analyzer's client to receive the output of a given text analysis.
 old-location: directwrite\idwritetextanalysissink.htm

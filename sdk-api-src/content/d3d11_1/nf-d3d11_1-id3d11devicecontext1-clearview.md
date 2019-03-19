@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.ClearView
-title: ID3D11DeviceContext1::ClearView
+title: ID3D11DeviceContext1::ClearView (d3d11_1.h)
 author: windows-sdk-content
 description: Sets all the elements in a resource view to one value.
 old-location: direct3d11\id3d11devicecontext1_clearview.htm

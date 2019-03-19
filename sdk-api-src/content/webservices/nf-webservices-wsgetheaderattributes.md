@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetHeaderAttributes
-title: WsGetHeaderAttributes function
+title: WsGetHeaderAttributes function (webservices.h)
 author: windows-sdk-content
 description: This function populates a ULONG parameter with the WS_HEADER_ATTRIBUTES from the header element on which the reader is positioned. The envelope version of the message is used to determine which attributes to return.
 old-location: wsw\wsgetheaderattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLVCACHEHINT
-title: NMLVCACHEHINT
+title: NMLVCACHEHINT (commctrl.h)
 author: windows-sdk-content
 description: Contains information used to update the cached item information for use with a virtual list view.
 old-location: controls\NMLVCACHEHINT.htm

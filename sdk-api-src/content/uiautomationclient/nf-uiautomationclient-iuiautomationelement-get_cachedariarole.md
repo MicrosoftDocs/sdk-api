@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAriaRole
-title: IUIAutomationElement::get_CachedAriaRole
+title: IUIAutomationElement::get_CachedAriaRole (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Accessible Rich Internet Applications (ARIA) role of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAriaRole.htm

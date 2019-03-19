@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_PIN_STATE
-title: CF_PIN_STATE
+title: CF_PIN_STATE (cfapi.h)
 author: windows-sdk-content
 description: Pin states of a placeholder file or directory.
 old-location: cloudapi\cf_pin_state.htm

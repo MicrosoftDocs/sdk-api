@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPersistIDList.SetIDList
-title: IPersistIDList::SetIDList
+title: IPersistIDList::SetIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a persisted item identifier list.
 old-location: shell\IPersistIDList_SetIDList.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.CreateFolder
-title: ITaskFolder::CreateFolder
+title: ITaskFolder::CreateFolder (taskschd.h)
 author: windows-sdk-content
 description: Creates a folder for related tasks.
 old-location: taskschd\itaskfolder_createfolder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.Remove
-title: ITextStrings::Remove
+title: ITextStrings::Remove (tom.h)
 author: windows-sdk-content
 description: Removes a string from a string collection, starting at an index.
 old-location: controls\itextstrings_remove.htm

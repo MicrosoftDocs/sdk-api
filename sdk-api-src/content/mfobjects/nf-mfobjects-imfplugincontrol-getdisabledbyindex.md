@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetDisabledByIndex
-title: IMFPluginControl::GetDisabledByIndex
+title: IMFPluginControl::GetDisabledByIndex (mfobjects.h)
 author: windows-sdk-content
 description: Gets a class identifier (CLSID) from the blocked list.
 old-location: mf\imfplugincontrol_imfplugincontrol__getdisabledbyindex.htm

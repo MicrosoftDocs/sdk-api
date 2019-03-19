@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVINSERTGROUPSORTED
-title: LVINSERTGROUPSORTED
+title: LVINSERTGROUPSORTED (commctrl.h)
 author: windows-sdk-content
 description: Used to sort groups. It is used with LVM_INSERTGROUPSORTED.
 old-location: controls\LVINSERTGROUPSORTED.htm

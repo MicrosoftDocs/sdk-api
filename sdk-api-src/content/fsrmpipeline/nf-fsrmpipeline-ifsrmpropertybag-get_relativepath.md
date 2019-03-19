@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_RelativePath
-title: IFsrmPropertyBag::get_RelativePath
+title: IFsrmPropertyBag::get_RelativePath (fsrmpipeline.h)
 author: windows-sdk-content
 description: The relative path to the file.
 old-location: fsrm\ifsrmpropertybag_relativepath.htm

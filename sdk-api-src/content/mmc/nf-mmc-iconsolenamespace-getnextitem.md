@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetNextItem
-title: IConsoleNameSpace::GetNextItem
+title: IConsoleNameSpace::GetNextItem (mmc.h)
 author: windows-sdk-content
 description: The IConsoleNameSpace2::GetNextItem method enables the snap-in to retrieve the handle to the next item in the scope view.
 old-location: mmc\iconsolenamespace2_getnextitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.OnReady
-title: IWRdsProtocolConnectionCallback::OnReady
+title: IWRdsProtocolConnectionCallback::OnReady (wtsprotocol.h)
 author: windows-sdk-content
 description: Requests that the Remote Desktop Services service continue the connection process for that client.
 old-location: termserv\iwrdsprotocolconnectioncallback_onready.htm

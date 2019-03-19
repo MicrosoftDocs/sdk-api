@@ -1,6 +1,6 @@
 ---
 UID: NE:wmlss.WindowsMediaLibrarySharingDeviceAuthorizationStatus
-title: WindowsMediaLibrarySharingDeviceAuthorizationStatus
+title: WindowsMediaLibrarySharingDeviceAuthorizationStatus (wmlss.h)
 author: windows-sdk-content
 description: The WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration defines constants that indicate whether a media device is authorized to have access to a media library.
 old-location: wmlss\WMLSDeviceAuthorizationStatusEnumeration.htm

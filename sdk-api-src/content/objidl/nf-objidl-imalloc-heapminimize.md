@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMalloc.HeapMinimize
-title: IMalloc::HeapMinimize
+title: IMalloc::HeapMinimize (objidl.h)
 author: windows-sdk-content
 description: Minimizes the heap as much as possible by releasing unused memory to the operating system, coalescing adjacent free blocks, and committing free pages.
 old-location: com\imalloc_heapminimize.htm

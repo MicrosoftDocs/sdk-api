@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.GetFriendlyName
-title: ISensor::GetFriendlyName
+title: ISensor::GetFriendlyName (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves the sensor name that is intended to be seen by the user.
 old-location: winsensors_com_ref\isensor_getfriendlyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Write
-title: IWTSVirtualChannel::Write
+title: IWTSVirtualChannel::Write (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Starts a write request on the channel.
 old-location: termserv\iwtsvirtualchannel_write.htm

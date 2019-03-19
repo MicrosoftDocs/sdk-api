@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_RPC_LOGIN_FLAGS
-title: EVT_RPC_LOGIN_FLAGS
+title: EVT_RPC_LOGIN_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines the types of authentication that you can use to authenticate the user when connecting to a remote computer.
 old-location: wes\evt_rpc_login_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISecurityCallContext
-title: ISecurityCallContext
+title: ISecurityCallContext (comsvcs.h)
 author: windows-sdk-content
 description: Provides access to security methods and information about the security call context of the current call.
 old-location: cos\isecuritycallcontext.htm

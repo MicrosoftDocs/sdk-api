@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.Wow64EnableWow64FsRedirection
-title: Wow64EnableWow64FsRedirection function
+title: Wow64EnableWow64FsRedirection function (winbase.h)
 author: windows-sdk-content
 description: Enables or disables file system redirection for the calling thread.
 old-location: fs\wow64enablewow64fsredirection.htm

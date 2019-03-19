@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtGetObjectArraySize
-title: EvtGetObjectArraySize function
+title: EvtGetObjectArraySize function (winevt.h)
 author: windows-sdk-content
 description: Gets the number of elements in the array of objects.
 old-location: wes\evtgetobjectarraysize.htm

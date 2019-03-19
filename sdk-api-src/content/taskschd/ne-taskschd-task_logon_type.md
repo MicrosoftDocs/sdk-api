@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_LOGON_TYPE
-title: TASK_LOGON_TYPE
+title: TASK_LOGON_TYPE (taskschd.h)
 author: windows-sdk-content
 description: Defines what logon technique is required to run a task.
 old-location: taskschd\task_logon_type.htm

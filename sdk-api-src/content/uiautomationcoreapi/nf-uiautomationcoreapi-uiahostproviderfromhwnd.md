@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHostProviderFromHwnd
-title: UiaHostProviderFromHwnd function
+title: UiaHostProviderFromHwnd function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets the host provider for a window.
 old-location: winauto\uiauto_UiaHostProviderFromHwndFunction.htm

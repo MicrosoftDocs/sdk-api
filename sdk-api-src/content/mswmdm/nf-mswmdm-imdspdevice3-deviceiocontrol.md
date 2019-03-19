@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.DeviceIoControl
-title: IMDSPDevice3::DeviceIoControl
+title: IMDSPDevice3::DeviceIoControl (mswmdm.h)
 author: windows-sdk-content
 description: The DeviceIoControl method calls the device I/O control.
 old-location: wmdm\imdspdevice3_deviceiocontrol.htm

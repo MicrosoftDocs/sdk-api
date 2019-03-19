@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi._PROCESS_LEAP_SECOND_INFO
-title: PROCESS_LEAP_SECOND_INFO
+title: PROCESS_LEAP_SECOND_INFO (processthreadsapi.h)
 author: windows-sdk-content
 description: Specifies how the system handles positive leap seconds.
 old-location: base\process_leap_second_info.htm

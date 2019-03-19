@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetDuration
-title: IMFMediaEngine::GetDuration
+title: IMFMediaEngine::GetDuration (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the duration of the media resource.
 old-location: mf\imfmediaengine_getduration.htm

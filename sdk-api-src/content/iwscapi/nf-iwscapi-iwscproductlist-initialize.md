@@ -1,6 +1,6 @@
 ---
 UID: NF:iwscapi.IWSCProductList.Initialize
-title: IWSCProductList::Initialize
+title: IWSCProductList::Initialize (iwscapi.h)
 author: windows-sdk-content
 description: Gathers information on all of the providers of the specified type on the computer.
 old-location: winprog\iwscproductlist_initialize.htm

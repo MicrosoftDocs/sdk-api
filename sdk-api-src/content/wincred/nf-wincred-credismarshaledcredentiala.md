@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredIsMarshaledCredentialA
-title: CredIsMarshaledCredentialA function
+title: CredIsMarshaledCredentialA function (wincred.h)
 author: windows-sdk-content
 description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential.
 old-location: security\credismarshaledcredential.htm

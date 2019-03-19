@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IPhraseSink.PutPhrase
-title: IPhraseSink::PutPhrase
+title: IPhraseSink::PutPhrase (indexsrv.h)
 author: windows-sdk-content
 description: Puts a query-time phrase in the IPhraseSink object.
 old-location: search\iphrasesink_putphrase.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_PanTilt
-title: ICameraControl::put_PanTilt
+title: ICameraControl::put_PanTilt (vidcap.h)
 author: windows-sdk-content
 description: The put_PanTilt method sets the camera's pan and tilt angles.
 old-location: dshow\icameracontrol_put_pantilt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.put_QueryNetworkAdapters
-title: IConfigurationDataCollector::put_QueryNetworkAdapters
+title: IConfigurationDataCollector::put_QueryNetworkAdapters (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the installed network adapters are queried for their offloading capabilities and other configuration information.
 old-location: pla\iconfigurationdatacollector_querynetworkadapters.htm

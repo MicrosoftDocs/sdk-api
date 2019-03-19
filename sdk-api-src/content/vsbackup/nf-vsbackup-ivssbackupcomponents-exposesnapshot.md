@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.ExposeSnapshot
-title: IVssBackupComponents::ExposeSnapshot
+title: IVssBackupComponents::ExposeSnapshot (vsbackup.h)
 author: windows-sdk-content
 description: The ExposeSnapshot method exposes a shadow copy as a drive letter, mounted folder, or file share.
 old-location: base\ivssbackupcomponents_exposesnapshot.htm

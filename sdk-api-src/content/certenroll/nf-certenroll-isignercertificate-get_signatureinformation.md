@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_SignatureInformation
-title: ISignerCertificate::get_SignatureInformation
+title: ISignerCertificate::get_SignatureInformation (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509SignatureInformation object that contains information about the certificate signature.
 old-location: security\isignercertificate_signatureinformation_property.htm

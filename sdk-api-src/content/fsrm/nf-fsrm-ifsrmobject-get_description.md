@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmObject.get_Description
-title: IFsrmObject::get_Description
+title: IFsrmObject::get_Description (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the description of the object.
 old-location: fsrm\ifsrmobject_description.htm

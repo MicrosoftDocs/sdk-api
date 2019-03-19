@@ -1,6 +1,6 @@
 ---
 UID: NF:radialcontrollerinterop.IRadialControllerConfigurationInterop.GetForWindow
-title: IRadialControllerConfigurationInterop::GetForWindow
+title: IRadialControllerConfigurationInterop::GetForWindow (radialcontrollerinterop.h)
 author: windows-sdk-content
 description: Retrieves a RadialControllerConfiguration object bound to the active application.
 old-location: input_radial\iradialcontrollerconfigurationinterop_getforwindow.htm

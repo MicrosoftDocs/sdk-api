@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.CheckSignature
-title: IX509CertificateRequestPkcs10::CheckSignature
+title: IX509CertificateRequestPkcs10::CheckSignature (certenroll.h)
 author: windows-sdk-content
 description: Verifies that the certificate request has been signed and that the signature is valid.
 old-location: security\ix509certificaterequestpkcs10_checksignature_method.htm

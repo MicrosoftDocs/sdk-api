@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXW
-title: ENUMLOGFONTEXW
+title: ENUMLOGFONTEXW (wingdi.h)
 author: windows-sdk-content
 description: The ENUMLOGFONTEX structure contains information about an enumerated font.
 old-location: gdi\enumlogfontex.htm

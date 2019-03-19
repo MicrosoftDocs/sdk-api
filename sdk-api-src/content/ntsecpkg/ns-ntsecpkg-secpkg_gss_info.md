@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_GSS_INFO
-title: SECPKG_GSS_INFO
+title: SECPKG_GSS_INFO (ntsecpkg.h)
 author: windows-sdk-content
 description: A SECPKG_GSS_INFO structure contains information used for GSS-compatible negotiations.
 old-location: security\secpkg_gss_info.htm

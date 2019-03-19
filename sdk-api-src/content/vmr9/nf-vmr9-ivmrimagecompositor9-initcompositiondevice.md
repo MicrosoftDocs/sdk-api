@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.InitCompositionDevice
-title: IVMRImageCompositor9::InitCompositionDevice
+title: IVMRImageCompositor9::InitCompositionDevice (vmr9.h)
 author: windows-sdk-content
 description: The InitCompositionDevice method informs the compositor that a new composition target has been created.
 old-location: dshow\ivmrimagecompositor9_initcompositiondevice.htm

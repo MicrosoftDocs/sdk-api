@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePageFromStream
-title: IXpsOMObjectFactory::CreatePageFromStream
+title: IXpsOMObjectFactory::CreatePageFromStream (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Reads the page markup from the specified stream to create and populate an IXpsOMPage interface.
 old-location: xps\ixpsomobjectfactory_createpagefromstream.htm

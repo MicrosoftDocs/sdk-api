@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._MAINTENANCE_MODE_TYPE_ENUM
-title: MAINTENANCE_MODE_TYPE_ENUM
+title: MAINTENANCE_MODE_TYPE_ENUM (clusapi.h)
 author: windows-sdk-content
 description: Defines the possible states that a storage class resource can be placed in when marked for maintenance.
 old-location: mscs\maintenance_mode_type_enum.htm

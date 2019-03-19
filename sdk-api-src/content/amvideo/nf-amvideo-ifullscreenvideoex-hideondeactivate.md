@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.HideOnDeactivate
-title: IFullScreenVideoEx::HideOnDeactivate
+title: IFullScreenVideoEx::HideOnDeactivate (amvideo.h)
 author: windows-sdk-content
 description: The HideOnDeactivate method . Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.
 old-location: dshow\ifullscreenvideoex_hideondeactivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_ROOT_CONFIG0_
-title: IKEEXT_CERT_ROOT_CONFIG0
+title: IKEEXT_CERT_ROOT_CONFIG0 (iketypes.h)
 author: windows-sdk-content
 description: Stores the IKE, AuthIP, or IKEv2 certificate root configuration.
 old-location: fwp\ikeext_cert_root_config0.htm

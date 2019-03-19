@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Reset
-title: IEnumMediaTypes::Reset
+title: IEnumMediaTypes::Reset (strmif.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienummediatypes_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptFindCertificateKeyProvInfo
-title: CryptFindCertificateKeyProvInfo function
+title: CryptFindCertificateKeyProvInfo function (wincrypt.h)
 author: windows-sdk-content
 description: Enumerates the cryptographic providers and their containers to find the private key that corresponds to the certificate's public key.
 old-location: security\cryptfindcertificatekeyprovinfo.htm

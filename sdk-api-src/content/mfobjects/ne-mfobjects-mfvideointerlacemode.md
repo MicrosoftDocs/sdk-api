@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFVideoInterlaceMode
-title: MFVideoInterlaceMode
+title: MFVideoInterlaceMode (mfobjects.h)
 author: windows-sdk-content
 description: Specifies how a video stream is interlaced.
 old-location: mf\mfvideointerlacemode.htm

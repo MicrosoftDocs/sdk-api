@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_BLEND_OP
-title: D3D12_BLEND_OP
+title: D3D12_BLEND_OP (d3d12.h)
 author: windows-sdk-content
 description: Specifies RGB or alpha blending operations.
 old-location: direct3d12\d3d12_blend_op.htm

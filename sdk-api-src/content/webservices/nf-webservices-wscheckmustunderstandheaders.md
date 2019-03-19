@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCheckMustUnderstandHeaders
-title: WsCheckMustUnderstandHeaders function
+title: WsCheckMustUnderstandHeaders function (webservices.h)
 author: windows-sdk-content
 description: Verifies that the specified headers were understood by the receiver. Note  This function should be called after all headers have been read for a received message.  .
 old-location: wsw\wscheckmustunderstandheaders.htm

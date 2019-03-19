@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Next
-title: IEnumCERTVIEWCOLUMN::Next
+title: IEnumCERTVIEWCOLUMN::Next (certview.h)
 author: windows-sdk-content
 description: Moves to the next column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_next.htm

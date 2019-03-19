@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetSOM
-title: IGPMDomain::GetSOM
+title: IGPMDomain::GetSOM (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the IGPMSOM interface that represents the domain or the organizational unit (OU) at the specified path.
 old-location: gpmc\igpmdomain_getsom.htm

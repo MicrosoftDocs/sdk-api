@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_SEQUENCE_VARIABLE_DESC
-title: WINML_SEQUENCE_VARIABLE_DESC
+title: WINML_SEQUENCE_VARIABLE_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the sequence variable.
 old-location: machinelearning\winml_sequence_variable_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TUISPI_providerConfig
-title: TUISPI_providerConfig function
+title: TUISPI_providerConfig function (tspi.h)
 author: windows-sdk-content
 description: The TUISPI_providerConfig function implements the UI elements that must execute in the context of the calling application. This function makes the TSPI_providerConfig function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 old-location: tspi\tuispi_providerconfig.htm

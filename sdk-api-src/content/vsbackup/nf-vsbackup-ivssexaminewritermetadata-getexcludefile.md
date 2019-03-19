@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetExcludeFile
-title: IVssExamineWriterMetadata::GetExcludeFile
+title: IVssExamineWriterMetadata::GetExcludeFile (vsbackup.h)
 author: windows-sdk-content
 description: The GetExcludeFile method obtains information about files that have been explicitly excluded from backup for a given writer.
 old-location: base\ivssexaminewritermetadata_getexcludefile.htm

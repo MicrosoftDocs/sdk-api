@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_Azimuth
-title: IDVBSLocator::get_Azimuth
+title: IDVBSLocator::get_Azimuth (tuner.h)
 author: windows-sdk-content
 description: The get_Azimuth method retrieves the azimuth setting used for positioning the satellite dish.
 old-location: mstv\idvbslocator_get_azimuth.htm

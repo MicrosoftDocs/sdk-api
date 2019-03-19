@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.Clear
-title: IMFTopology::Clear
+title: IMFTopology::Clear (mfidl.h)
 author: windows-sdk-content
 description: Removes all nodes from the topology.
 old-location: mf\imftopology_clear.htm

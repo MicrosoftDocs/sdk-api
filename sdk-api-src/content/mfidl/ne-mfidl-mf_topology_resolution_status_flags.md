@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
-title: MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
+title: MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Defines status flags for the MF_TOPOLOGY_RESOLUTION_STATUS attribute.
 old-location: mf\mf_topology_resolution_status_flags.htm

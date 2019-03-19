@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._ENUM_SERVICE_STATUSW
-title: ENUM_SERVICE_STATUSW
+title: ENUM_SERVICE_STATUSW (winsvc.h)
 author: windows-sdk-content
 description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions.
 old-location: base\enum_service_status_str.htm

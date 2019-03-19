@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WTHelperGetProvSignerFromChain
-title: WTHelperGetProvSignerFromChain function
+title: WTHelperGetProvSignerFromChain function (wintrust.h)
 author: windows-sdk-content
 description: Retrieves a signer or countersigner by index from the chain.
 old-location: security\wthelpergetprovsignerfromchain.htm

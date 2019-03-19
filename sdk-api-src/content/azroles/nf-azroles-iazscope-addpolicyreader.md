@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.AddPolicyReader
-title: IAzScope::AddPolicyReader
+title: IAzScope::AddPolicyReader (azroles.h)
 author: windows-sdk-content
 description: The AddPolicyReader method of IAzScope adds the specified security identifier in text form to the list of principals that act as policy readers.
 old-location: security\iazscope_addpolicyreader.htm

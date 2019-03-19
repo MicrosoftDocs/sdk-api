@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509EnrollmentPolicyExportFlags
-title: X509EnrollmentPolicyExportFlags
+title: X509EnrollmentPolicyExportFlags (certenroll.h)
 author: windows-sdk-content
 description: Is used by the Export method on the IX509EnrollmentPolicyServer interface to specify what items to export from the policy server.
 old-location: security\x509enrollmentpolicyexportflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat)
-title: Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat)
+title: Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::Clone method creates a new Bitmapobject by copying a portion of this bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_REAL_x_REAL_y_REAL_width_REAL_height_PixelFormat_format_.htm

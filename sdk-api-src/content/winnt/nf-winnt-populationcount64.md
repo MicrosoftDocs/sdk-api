@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.PopulationCount64
-title: PopulationCount64 function
+title: PopulationCount64 function (winnt.h)
 author: windows-sdk-content
 description: Counts the number of one bits (population count) in a 64-bit unsigned integer.
 old-location: winprog\populationcount64.htm

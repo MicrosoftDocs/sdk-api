@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_FocusedItem
-title: IShellFolderViewDual::get_FocusedItem
+title: IShellFolderViewDual::get_FocusedItem (shldisp.h)
 author: windows-sdk-content
 description: Gets the FolderItem object that represents the item that has input focus.
 old-location: shell\IShellFolderViewDual_get_FocusedItem.htm

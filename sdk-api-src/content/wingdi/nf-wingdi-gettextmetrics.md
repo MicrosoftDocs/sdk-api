@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetTextMetrics
-title: GetTextMetrics function
+title: GetTextMetrics function (wingdi.h)
 author: windows-sdk-content
 description: The GetTextMetrics function fills the specified buffer with the metrics for the currently selected font.
 old-location: gdi\gettextmetrics.htm

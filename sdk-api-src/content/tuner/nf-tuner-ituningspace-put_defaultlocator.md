@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.put_DefaultLocator
-title: ITuningSpace::put_DefaultLocator
+title: ITuningSpace::put_DefaultLocator (tuner.h)
 author: windows-sdk-content
 description: The put_DefaultLocator method sets the default locator for this tuning space.
 old-location: mstv\ituningspace_put_defaultlocator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_Existing
-title: ICertSrvSetupKeyInformation::put_Existing
+title: ICertSrvSetupKeyInformation::put_Existing (casetup.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates whether the private key already exists.
 old-location: security\icertsrvsetupkeyinformation_existing.htm

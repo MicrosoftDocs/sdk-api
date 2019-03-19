@@ -1,6 +1,6 @@
 ---
 UID: NE:pnrpdef._PNRP_CLOUD_STATE
-title: PNRP_CLOUD_STATE
+title: PNRP_CLOUD_STATE (pnrpdef.h)
 author: windows-sdk-content
 description: The PNRP_CLOUD_STATE enumeration specifies the different states a PNRP cloud can be in.
 old-location: p2p\pnrp_cloud_state.htm

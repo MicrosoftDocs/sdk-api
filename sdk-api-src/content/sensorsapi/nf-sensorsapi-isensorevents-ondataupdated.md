@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorEvents.OnDataUpdated
-title: ISensorEvents::OnDataUpdated
+title: ISensorEvents::OnDataUpdated (sensorsapi.h)
 author: windows-sdk-content
 description: Provides sensor event data.
 old-location: winsensors_com_ref\isensorevents_ondataupdated.htm

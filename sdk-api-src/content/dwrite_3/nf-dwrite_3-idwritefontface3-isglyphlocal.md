@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.IsGlyphLocal
-title: IDWriteFontFace3::IsGlyphLocal
+title: IDWriteFontFace3::IsGlyphLocal (dwrite_3.h)
 author: windows-sdk-content
 description: Determines whether the glyph is locally downloaded from the font.
 old-location: directwrite\idwritefontface3_isglyphlocal.htm

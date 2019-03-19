@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
-title: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE
+title: PSET_RESOURCE_INMEMORY_NODELOCAL_PROPERTIES_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\setresourceinmemorynodelocalproperties.htm

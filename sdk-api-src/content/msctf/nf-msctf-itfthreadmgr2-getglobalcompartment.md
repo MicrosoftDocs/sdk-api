@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.GetGlobalCompartment
-title: ITfThreadMgr2::GetGlobalCompartment
+title: ITfThreadMgr2::GetGlobalCompartment (msctf.h)
 author: windows-sdk-content
 description: Obtains the global compartment manager object.
 old-location: tsf\itfthreadmgr2_getglobalcompartment.htm

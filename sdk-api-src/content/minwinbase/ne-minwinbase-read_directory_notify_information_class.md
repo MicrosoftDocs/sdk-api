@@ -1,6 +1,6 @@
 ---
 UID: NE:minwinbase._READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
-title: READ_DIRECTORY_NOTIFY_INFORMATION_CLASS
+title: READ_DIRECTORY_NOTIFY_INFORMATION_CLASS (minwinbase.h)
 author: windows-sdk-content
 description: Indicates the possible types of information that an application that calls the ReadDirectoryChangesExW function can request.
 old-location: fs\read_directory_notify_information_class.htm

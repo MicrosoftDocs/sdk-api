@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.__unnamed_enum_4
-title: DISPLAYCONFIG_MODE_INFO_TYPE
+title: DISPLAYCONFIG_MODE_INFO_TYPE (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_MODE_INFO_TYPE enumeration specifies that the information that is contained within the DISPLAYCONFIG_MODE_INFO structure is either source or target mode.
 old-location: display\displayconfig_mode_info_type.htm

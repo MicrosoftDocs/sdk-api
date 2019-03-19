@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVirtualSurface.Trim
-title: IDCompositionVirtualSurface::Trim
+title: IDCompositionVirtualSurface::Trim (dcomp.h)
 author: windows-sdk-content
 description: Discards pixels that fall outside of the specified trim rectangles.
 old-location: directcomp\idcompositionvirtualsurface_trim.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedControllerFor
-title: IUIAutomationElement::get_CachedControllerFor
+title: IUIAutomationElement::get_CachedControllerFor (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached array of UI Automation elements for which this element serves as the controller.
 old-location: winauto\uiauto_IUIAutomationElement_CachedControllerFor.htm

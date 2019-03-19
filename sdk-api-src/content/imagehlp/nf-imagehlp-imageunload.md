@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ImageUnload
-title: ImageUnload function
+title: ImageUnload function (imagehlp.h)
 author: windows-sdk-content
 description: Deallocates resources from a previous call to the ImageLoad function.
 old-location: base\imageunload.htm

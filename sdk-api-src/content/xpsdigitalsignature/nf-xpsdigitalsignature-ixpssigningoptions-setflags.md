@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetFlags
-title: IXpsSigningOptions::SetFlags
+title: IXpsSigningOptions::SetFlags (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the XPS_SIGN_FLAGS value that specifies the signing flags to use for this signature.
 old-location: xps\ixpssigningoptions_setflags.htm

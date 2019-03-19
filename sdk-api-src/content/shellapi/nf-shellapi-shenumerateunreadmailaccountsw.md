@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHEnumerateUnreadMailAccountsW
-title: SHEnumerateUnreadMailAccountsW function
+title: SHEnumerateUnreadMailAccountsW function (shellapi.h)
 author: windows-sdk-content
 description: Enumerates the user accounts that have unread email.
 old-location: shell\SHEnumerateUnreadMailAccounts.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyPort
-title: IWMReaderNetworkConfig::GetProxyPort
+title: IWMReaderNetworkConfig::GetProxyPort (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProxyPort method retrieves the port number of the proxy server.
 old-location: wmformat\iwmreadernetworkconfig_getproxyport.htm

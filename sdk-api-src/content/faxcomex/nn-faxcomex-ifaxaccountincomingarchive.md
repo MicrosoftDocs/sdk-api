@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxAccountIncomingArchive
-title: IFaxAccountIncomingArchive
+title: IFaxAccountIncomingArchive (faxcomex.h)
 author: windows-sdk-content
 description: Used by a fax client application to access a particular fax account's archive of successfully received inbound fax messages. Use this interface to retrieve messages and get the size of the archive.
 old-location: fax\_mfax_faxaccountincomingarchive_cpp.htm

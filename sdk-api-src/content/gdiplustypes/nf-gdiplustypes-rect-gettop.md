@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.GetTop
-title: Rect::GetTop
+title: Rect::GetTop (gdiplustypes.h)
 author: windows-sdk-content
 description: The Rect::GetTop method gets the y-coordinate of the top edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetTop_.htm

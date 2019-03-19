@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx4
-title: IVssBackupComponentsEx4
+title: IVssBackupComponentsEx4 (vsbackup.h)
 author: windows-sdk-content
 description: Defines additional methods to support the processing of UNC file share paths in a requester.
 old-location: base\ivssbackupcomponentsex4.htm

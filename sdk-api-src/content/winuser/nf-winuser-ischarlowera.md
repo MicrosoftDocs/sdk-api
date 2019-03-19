@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsCharLowerA
-title: IsCharLowerA function
+title: IsCharLowerA function (winuser.h)
 author: windows-sdk-content
 description: Determines whether a character is lowercase. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 old-location: menurc\ischarlower.htm

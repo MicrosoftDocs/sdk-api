@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayRedim
-title: SafeArrayRedim function
+title: SafeArrayRedim function (oleauto.h)
 author: windows-sdk-content
 description: Changes the right-most (least significant) bound of the specified safe array.
 old-location: automat\safearrayredim.htm

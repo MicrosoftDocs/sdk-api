@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPError.webHelp
-title: IWMPError::webHelp
+title: IWMPError::webHelp (wmp.h)
 author: windows-sdk-content
 description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
 old-location: wmp\iwmperror_webhelp.htm

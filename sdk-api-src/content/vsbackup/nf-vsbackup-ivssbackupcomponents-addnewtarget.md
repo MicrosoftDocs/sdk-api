@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddNewTarget
-title: IVssBackupComponents::AddNewTarget
+title: IVssBackupComponents::AddNewTarget (vsbackup.h)
 author: windows-sdk-content
 description: The AddNewTarget method is used by a requester during a restore operation to indicate that the backup application plans to restore files to a new location.
 old-location: base\ivssbackupcomponents_addnewtarget.htm

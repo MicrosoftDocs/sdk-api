@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawImage
-title: ID2D1CommandSink::DrawImage
+title: ID2D1CommandSink::DrawImage (d2d1_1.h)
 author: windows-sdk-content
 description: Draws the provided image to the command sink.
 old-location: direct2d\id2d1commandsink_drawimage.htm

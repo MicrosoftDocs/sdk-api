@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.StartServiceCtrlDispatcherW
-title: StartServiceCtrlDispatcherW function
+title: StartServiceCtrlDispatcherW function (winsvc.h)
 author: windows-sdk-content
 description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.
 old-location: base\startservicectrldispatcher.htm

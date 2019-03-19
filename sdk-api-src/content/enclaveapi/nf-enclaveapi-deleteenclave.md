@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.DeleteEnclave
-title: DeleteEnclave function
+title: DeleteEnclave function (enclaveapi.h)
 author: windows-sdk-content
 description: Deletes the specified enclave.
 old-location: base\deleteenclave.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:windows.foundation.PropertyType
-title: PropertyType
+title: PropertyType (windows.foundation.h)
 author: windows-sdk-content
 description: Identifies the type that is stored in a Windows Runtime object that implements the IPropertyValue interface.
 old-location: winrt\propertytype.htm

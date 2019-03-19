@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTCHITTESTINFO
-title: TCHITTESTINFO
+title: TCHITTESTINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a hit test. This structure supersedes the TC_HITTESTINFO structure.
 old-location: controls\TCHITTESTINFO.htm

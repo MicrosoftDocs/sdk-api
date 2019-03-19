@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.RegisterProxyFailure
-title: IWMSInternalAdminNetSource::RegisterProxyFailure
+title: IWMSInternalAdminNetSource::RegisterProxyFailure (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: Registers a proxy failure.
 old-location: wmformat\iwmsinternaladminnetsource_registerproxyfailure.htm

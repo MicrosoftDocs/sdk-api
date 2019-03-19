@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_ReceptionQuality
-title: IAMNetworkStatus::get_ReceptionQuality
+title: IAMNetworkStatus::get_ReceptionQuality (qnetwork.h)
 author: windows-sdk-content
 description: The get_ReceptionQuality method retrieves a value indicating the reception quality.
 old-location: dshow\iamnetworkstatus_get_receptionquality.htm

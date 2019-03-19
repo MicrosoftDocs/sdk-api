@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.get_ExtendedSeed
-title: IStreamPseudoRandomBased::get_ExtendedSeed
+title: IStreamPseudoRandomBased::get_ExtendedSeed (imapi2.h)
 author: windows-sdk-content
 description: Retrieves an array of seed values used by the random number generator.
 old-location: imapi\istreampseudorandombased_get_extendedseed.htm

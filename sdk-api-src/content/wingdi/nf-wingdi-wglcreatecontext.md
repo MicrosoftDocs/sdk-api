@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.wglCreateContext
-title: wglCreateContext function
+title: wglCreateContext function (wingdi.h)
 author: windows-sdk-content
 description: The wglCreateContext function creates a new OpenGL rendering context, which is suitable for drawing on the device referenced by hdc. The rendering context has the same pixel format as the device context.
 old-location: opengl\wglcreatecontext.htm

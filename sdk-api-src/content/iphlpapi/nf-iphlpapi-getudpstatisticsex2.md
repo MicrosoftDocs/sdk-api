@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetUdpStatisticsEx2
-title: GetUdpStatisticsEx2 function
+title: GetUdpStatisticsEx2 function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetUdpStatisticsEx2 function retrieves the User Datagram Protocol (UDP) statistics for the current computer.
 old-location: iphlp\getudpstatisticsex2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.LsnRecordSequence
-title: LsnRecordSequence function
+title: LsnRecordSequence function (clfsw32.h)
 author: windows-sdk-content
 description: Retrieves the record sequence number that is contained in a specified LSN.
 old-location: fs\lsnrecordsequence.htm

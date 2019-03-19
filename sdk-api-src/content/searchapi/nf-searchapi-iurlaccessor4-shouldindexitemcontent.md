@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor4.ShouldIndexItemContent
-title: IUrlAccessor4::ShouldIndexItemContent
+title: IUrlAccessor4::ShouldIndexItemContent (searchapi.h)
 author: windows-sdk-content
 description: Identifies whether the item's content should be indexed.
 old-location: search\_search_IUrlAccessor4_ShouldIndexItemContent.htm

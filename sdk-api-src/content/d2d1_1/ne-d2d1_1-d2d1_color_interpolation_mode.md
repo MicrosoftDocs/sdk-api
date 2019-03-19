@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_COLOR_INTERPOLATION_MODE
-title: D2D1_COLOR_INTERPOLATION_MODE
+title: D2D1_COLOR_INTERPOLATION_MODE (d2d1_1.h)
 author: windows-sdk-content
 description: Defines how to interpolate between colors.
 old-location: direct2d\d2d1_color_interpolation_mode.htm

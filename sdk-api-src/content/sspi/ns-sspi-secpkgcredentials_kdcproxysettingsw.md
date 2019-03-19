@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgCredentials_KdcProxySettingsW
-title: SecPkgCredentials_KdcProxySettingsW
+title: SecPkgCredentials_KdcProxySettingsW (sspi.h)
 author: windows-sdk-content
 description: Specifies the Kerberos proxy settings for the credentials.
 old-location: security\secpkgcredentials_kdcproxysettings.htm

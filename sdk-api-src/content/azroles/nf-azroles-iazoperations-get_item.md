@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperations.get_Item
-title: IAzOperations::get_Item
+title: IAzOperations::get_Item (azroles.h)
 author: windows-sdk-content
 description: Retrieves the IAzOperation object at the specified index into the IAzOperations collection.
 old-location: security\iazoperations_item.htm

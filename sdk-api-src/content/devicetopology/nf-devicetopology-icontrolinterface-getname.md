@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IControlInterface.GetName
-title: IControlInterface::GetName
+title: IControlInterface::GetName (devicetopology.h)
 author: windows-sdk-content
 description: The GetName method gets the friendly name for the audio function that the control interface encapsulates.
 old-location: coreaudio\icontrolinterface_getname.htm

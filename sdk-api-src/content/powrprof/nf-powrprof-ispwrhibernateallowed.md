@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.IsPwrHibernateAllowed
-title: IsPwrHibernateAllowed function
+title: IsPwrHibernateAllowed function (powrprof.h)
 author: windows-sdk-content
 description: Determines whether the computer supports hibernation.
 old-location: base\ispwrhibernateallowed.htm

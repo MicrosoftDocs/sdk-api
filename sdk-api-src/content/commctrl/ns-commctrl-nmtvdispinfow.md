@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagTVDISPINFOW
-title: NMTVDISPINFOW
+title: NMTVDISPINFOW (commctrl.h)
 author: windows-sdk-content
 description: Contains and receives display information for a tree-view item. This structure is identical to the TV_DISPINFO structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTVDISPINFO.htm

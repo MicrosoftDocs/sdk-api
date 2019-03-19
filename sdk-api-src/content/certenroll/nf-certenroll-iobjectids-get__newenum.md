@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.get__NewEnum
-title: IObjectIds::get__NewEnum
+title: IObjectIds::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\iobjectids__newenum_property.htm

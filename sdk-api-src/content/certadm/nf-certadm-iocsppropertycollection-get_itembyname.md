@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_ItemByName
-title: IOCSPPropertyCollection::get_ItemByName
+title: IOCSPPropertyCollection::get_ItemByName (certadm.h)
 author: windows-sdk-content
 description: Gets the property identified by name in a property set.
 old-location: security\iocsppropertycollection_itembyname_method.htm

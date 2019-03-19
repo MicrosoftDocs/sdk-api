@@ -1,6 +1,6 @@
 ---
 UID: NE:comsvcs.tagCSC_IISIntrinsicsConfig
-title: CSC_IISIntrinsicsConfig
+title: CSC_IISIntrinsicsConfig (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether the current IIS intrinsics are propagated into the new context.
 old-location: cos\csc_iisintrinsicsconfig.htm

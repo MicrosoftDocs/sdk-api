@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get__NewEnum
-title: IDiscMaster2::get__NewEnum
+title: IDiscMaster2::get__NewEnum (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a list of the CD and DVD devices installed on the computer.
 old-location: imapi\idiscmaster2_get__newenum.htm

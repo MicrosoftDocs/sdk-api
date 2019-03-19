@@ -1,6 +1,6 @@
 ---
 UID: NN:rometadataapi.IMetaDataTables2
-title: IMetaDataTables2
+title: IMetaDataTables2 (rometadataapi.h)
 author: windows-sdk-content
 description: Extends IMetaDataTables to include methods for working with metadata streams.
 old-location: winrt\imetadatatables2.htm

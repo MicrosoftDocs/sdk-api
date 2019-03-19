@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPart.SetPartName
-title: IXpsOMPart::SetPartName
+title: IXpsOMPart::SetPartName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the name that will be used when the part is serialized.
 old-location: xps\ixpsompart_setpartname.htm

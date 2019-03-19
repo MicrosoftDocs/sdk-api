@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.SubpictureStreamChange
-title: IDvdControl::SubpictureStreamChange
+title: IDvdControl::SubpictureStreamChange (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the new subpicture stream and enables or disables it for display.
 old-location: dshow\idvdcontrol_subpicturestreamchange.htm

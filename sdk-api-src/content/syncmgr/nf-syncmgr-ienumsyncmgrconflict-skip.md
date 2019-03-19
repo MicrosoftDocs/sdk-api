@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrConflict.Skip
-title: IEnumSyncMgrConflict::Skip
+title: IEnumSyncMgrConflict::Skip (syncmgr.h)
 author: windows-sdk-content
 description: Skips forward the specified number of conflicts in the enumeration.
 old-location: shell\IEnumSyncMgrConflict_Skip.htm

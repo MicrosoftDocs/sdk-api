@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPControls2
-title: IWMPControls2
+title: IWMPControls2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPControls2 interface provides a method that supplements the IWMPControls interface.
 old-location: wmp\iwmpcontrols2.htm

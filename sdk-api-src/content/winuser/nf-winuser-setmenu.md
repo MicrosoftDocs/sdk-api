@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetMenu
-title: SetMenu function
+title: SetMenu function (winuser.h)
 author: windows-sdk-content
 description: Assigns a new menu to the specified window.
 old-location: menurc\setmenu.htm

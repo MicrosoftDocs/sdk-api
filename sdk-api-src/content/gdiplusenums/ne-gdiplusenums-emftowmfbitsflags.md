@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.EmfToWmfBitsFlags
-title: EmfToWmfBitsFlags
+title: EmfToWmfBitsFlags (gdiplusenums.h)
 author: windows-sdk-content
 description: Specifies options for the Metafile::EmfToWmfBits method, which converts an Enhanced Metafile (EMF) metafile to a Windows Metafile Format (WMF) metafile.
 old-location: gdiplus\_gdiplus_ENUM_EmfToWmfBitsFlags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.DeleteSecurityPackageW
-title: DeleteSecurityPackageW function
+title: DeleteSecurityPackageW function (sspi.h)
 author: windows-sdk-content
 description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate.
 old-location: security\deletesecuritypackage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.SetValue
-title: IEncoderAPI::SetValue
+title: IEncoderAPI::SetValue (strmif.h)
 author: windows-sdk-content
 description: The SetValue method sets the current value of a parameter.
 old-location: mstv\iencoderapi_setvalue.htm

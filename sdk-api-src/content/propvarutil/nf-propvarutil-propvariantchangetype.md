@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantChangeType
-title: PropVariantChangeType function
+title: PropVariantChangeType function (propvarutil.h)
 author: windows-sdk-content
 description: Coerces a value stored as a PROPVARIANT structure to an equivalent value of a different variant type.
 old-location: properties\PropVariantChangeType.htm

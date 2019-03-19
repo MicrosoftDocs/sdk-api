@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxSendDocumentForBroadcastA
-title: FaxSendDocumentForBroadcastA function
+title: FaxSendDocumentForBroadcastA function (winfax.h)
 author: windows-sdk-content
 description: A fax client application calls the FaxSendDocumentForBroadcast function to queue several fax jobs that will transmit the same outgoing fax transmission to several recipients.
 old-location: fax\_mfax_faxsenddocumentforbroadcast.htm

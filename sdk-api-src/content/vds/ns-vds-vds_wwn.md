@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_WWN
-title: VDS_WWN
+title: VDS_WWN (vds.h)
 author: windows-sdk-content
 description: Defines a world-wide name (WWN). This structure corresponds to the HBA_WWN structure defined by the ANSI HBA API.
 old-location: base\vds_wwn.htm

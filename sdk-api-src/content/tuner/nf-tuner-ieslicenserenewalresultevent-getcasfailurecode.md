@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetCASFailureCode
-title: IESLicenseRenewalResultEvent::GetCASFailureCode
+title: IESLicenseRenewalResultEvent::GetCASFailureCode (tuner.h)
 author: windows-sdk-content
 description: Gets a code from a LicenseRenewalResult event that indicates the reason for the failure in the conditional access system (CAS).
 old-location: mstv\ieslicenserenewalresultevent_getcasfailurecode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:contentpartner.WMPTaskType
-title: WMPTaskType
+title: WMPTaskType (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTaskType enumeration represents Windows Media Player task panes.
 old-location: wmp\wmptasktype.htm

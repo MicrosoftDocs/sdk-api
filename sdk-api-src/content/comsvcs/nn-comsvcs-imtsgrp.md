@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IMtsGrp
-title: IMtsGrp
+title: IMtsGrp (comsvcs.h)
 author: windows-sdk-content
 description: Provides methods for enumerating through running packages.
 old-location: cos\imtsgrp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter2.GetCurrLicenseExpDate
-title: IDTFilter2::GetCurrLicenseExpDate
+title: IDTFilter2::GetCurrLicenseExpDate (encdec.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\idtfilter2_getcurrlicenseexpdate.htm

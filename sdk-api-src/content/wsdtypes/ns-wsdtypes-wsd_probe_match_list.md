@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE_MATCH_LIST
-title: WSD_PROBE_MATCH_LIST
+title: WSD_PROBE_MATCH_LIST (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a node in a single-linked list of ProbeMatch message structures.
 old-location: ncd\wsd_probe_match_list_struct.htm

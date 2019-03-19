@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetRawFormat
-title: Image::GetRawFormat
+title: Image::GetRawFormat (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetRawFormat method gets a globally unique identifier ( GUID) that identifies the format of this Image object. GUIDs that identify various file formats are defined in Gdiplusimaging.h.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetRawFormat_format_.htm

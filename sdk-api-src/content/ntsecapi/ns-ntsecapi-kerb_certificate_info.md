@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_INFO
-title: KERB_CERTIFICATE_INFO
+title: KERB_CERTIFICATE_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: Contains the certificate information.
 old-location: security\kerb_certificate_info.htm

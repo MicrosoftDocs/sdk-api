@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetCustomStartCap
-title: Pen::SetCustomStartCap
+title: Pen::SetCustomStartCap (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetCustomStartCap method sets the custom start cap for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetCustomStartCap_customCap_.htm

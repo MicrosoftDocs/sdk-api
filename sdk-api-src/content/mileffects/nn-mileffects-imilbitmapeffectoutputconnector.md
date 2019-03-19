@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectOutputConnector
-title: IMILBitmapEffectOutputConnector
+title: IMILBitmapEffectOutputConnector (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that define an output connector.
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector.htm

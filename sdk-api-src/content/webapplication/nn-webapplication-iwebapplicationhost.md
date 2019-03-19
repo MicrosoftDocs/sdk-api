@@ -1,6 +1,6 @@
 ---
 UID: NN:webapplication.IWebApplicationHost
-title: IWebApplicationHost
+title: IWebApplicationHost (webapplication.h)
 author: windows-sdk-content
 description: Exposes methods and properties that are implemented by the WWAHost.
 old-location: debug\iwebapplicationhost.htm

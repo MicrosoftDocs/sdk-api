@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkOverlay
-title: IInkOverlay
+title: IInkOverlay (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkoverlay.htm

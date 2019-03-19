@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnableScrollBar
-title: EnableScrollBar function
+title: EnableScrollBar function (winuser.h)
 author: windows-sdk-content
 description: The EnableScrollBar function enables or disables one or both scroll bar arrows.
 old-location: controls\EnableScrollBar.htm

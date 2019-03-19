@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.put_MessageWaiting
-title: ITAddress::put_MessageWaiting
+title: ITAddress::put_MessageWaiting (tapi3if.h)
 author: windows-sdk-content
 description: The put_MessageWaiting method sets the status of the message waiting on the address.
 old-location: tapi3\itaddress_put_messagewaiting.htm

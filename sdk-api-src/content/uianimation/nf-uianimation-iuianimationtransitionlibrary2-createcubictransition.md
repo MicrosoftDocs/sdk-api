@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicTransition
-title: IUIAnimationTransitionLibrary2::CreateCubicTransition
+title: IUIAnimationTransitionLibrary2::CreateCubicTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates a cubic scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createcubictransition.htm

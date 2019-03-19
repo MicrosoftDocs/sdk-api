@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetHeartbeatInterval
-title: MI_SubscriptionDeliveryOptions_GetHeartbeatInterval function
+title: MI_SubscriptionDeliveryOptions_GetHeartbeatInterval function (mi.h)
 author: windows-sdk-content
 description: Gets the delivery heartbeat interval.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getheartbeatinterval.htm

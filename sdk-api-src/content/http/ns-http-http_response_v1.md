@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_RESPONSE_V1
-title: HTTP_RESPONSE_V1
+title: HTTP_RESPONSE_V1 (http.h)
 author: windows-sdk-content
 description: Contains data associated with an HTTP response.
 old-location: http\http_response_v1.htm

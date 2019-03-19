@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.WriteSource
-title: IWICBitmapFrameEncode::WriteSource
+title: IWICBitmapFrameEncode::WriteSource (wincodec.h)
 author: windows-sdk-content
 description: Encodes a bitmap source.
 old-location: wic\_wic_codec_iwicbitmapframeencode_writesource.htm

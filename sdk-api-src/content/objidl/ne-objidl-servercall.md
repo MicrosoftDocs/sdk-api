@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagSERVERCALL
-title: SERVERCALL
+title: SERVERCALL (objidl.h)
 author: windows-sdk-content
 description: Indicates the status of server call.
 old-location: com\servercall.htm

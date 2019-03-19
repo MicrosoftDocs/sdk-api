@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11sdklayers.D3D11_MESSAGE_ID
-title: D3D11_MESSAGE_ID
+title: D3D11_MESSAGE_ID (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Debug messages for setting up an info-queue filter (see D3D11_INFO_QUEUE_FILTER); use these messages to allow or deny message categories to pass through the storage and retrieval filters.
 old-location: direct3d11\d3d11_message_id.htm

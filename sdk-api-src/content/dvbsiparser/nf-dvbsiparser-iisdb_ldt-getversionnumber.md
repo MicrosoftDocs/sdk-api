@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetVersionNumber
-title: IISDB_LDT::GetVersionNumber
+title: IISDB_LDT::GetVersionNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT).
 old-location: mstv\iisdb_ldt_getversionnumber.htm

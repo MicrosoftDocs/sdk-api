@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorRenderTargets
-title: IDirectXVideoProcessorService::GetVideoProcessorRenderTargets
+title: IDirectXVideoProcessorService::GetVideoProcessorRenderTargets (dxva2api.h)
 author: windows-sdk-content
 description: Gets the render target formats that a video processor device supports. The list may include RGB and YUV formats.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorrendertargets.htm

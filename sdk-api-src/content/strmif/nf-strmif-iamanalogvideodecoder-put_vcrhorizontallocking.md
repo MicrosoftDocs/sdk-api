@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_VCRHorizontalLocking
-title: IAMAnalogVideoDecoder::put_VCRHorizontalLocking
+title: IAMAnalogVideoDecoder::put_VCRHorizontalLocking (strmif.h)
 author: windows-sdk-content
 description: The put_VCRHorizontalLocking method specifies whether the video is a tape source or a broadcast source.
 old-location: dshow\iamanalogvideodecoder_put_vcrhorizontallocking.htm

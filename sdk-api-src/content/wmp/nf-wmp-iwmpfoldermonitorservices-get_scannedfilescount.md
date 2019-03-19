@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_scannedFilesCount
-title: IWMPFolderMonitorServices::get_scannedFilesCount
+title: IWMPFolderMonitorServices::get_scannedFilesCount (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_scannedFilesCount method retrieves the count of files inspected during the current scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_get_scannedfilescount.htm

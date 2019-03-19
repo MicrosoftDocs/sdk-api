@@ -1,6 +1,6 @@
 ---
 UID: NF:compressapi.CreateDecompressor
-title: CreateDecompressor function
+title: CreateDecompressor function (compressapi.h)
 author: windows-sdk-content
 description: Generates a new DECOMPRESSOR_HANDLE.
 old-location: cmpapi\createdecompressor.htm

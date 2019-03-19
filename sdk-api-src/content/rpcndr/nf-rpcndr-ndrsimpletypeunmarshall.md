@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrSimpleTypeUnmarshall
-title: NdrSimpleTypeUnmarshall function
+title: NdrSimpleTypeUnmarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrSimpleTypeUnmarshall function unmarshalls a simple type.
 old-location: rpc\ndrsimpletypeunmarshall.htm

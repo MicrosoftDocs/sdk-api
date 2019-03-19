@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.POFFLINE_V2_ROUTINE
-title: POFFLINE_V2_ROUTINE
+title: POFFLINE_V2_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Marks a resource as unavailable for use after cleanup processing is complete.
 old-location: mscs\offlinev2.htm

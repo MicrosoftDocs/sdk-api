@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Score
-title: IProvideWinSATAssessmentInfo::get_Score
+title: IProvideWinSATAssessmentInfo::get_Score (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves the score for the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_score.htm

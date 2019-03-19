@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_object_tag
-title: PEER_OBJECT
+title: PEER_OBJECT (p2p.h)
 author: windows-sdk-content
 description: The PEER_OBJECT structure contains application-specific run-time information that can be shared with trusted contacts within a peer collaboration network.
 old-location: p2p\peer_object.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_DialableAddress
-title: ITAddress::get_DialableAddress
+title: ITAddress::get_DialableAddress (tapi3if.h)
 author: windows-sdk-content
 description: The get_DialableAddress method gets the BSTR which can be used to connect to this address. The BSTR corresponds to the destination address string that another application would use to connect to this address, such as a phone number or an e-mail name.
 old-location: tapi3\itaddress_get_dialableaddress.htm

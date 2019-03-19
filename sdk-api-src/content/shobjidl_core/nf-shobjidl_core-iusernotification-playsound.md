@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.PlaySound
-title: IUserNotification::PlaySound
+title: IUserNotification::PlaySound (shobjidl_core.h)
 author: windows-sdk-content
 description: Plays a sound in conjunction with the notification.
 old-location: shell\IUserNotification_PlaySound.htm

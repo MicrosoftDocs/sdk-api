@@ -1,6 +1,6 @@
 ---
 UID: NF:certexit.ICertExit.Notify
-title: ICertExit::Notify
+title: ICertExit::Notify (certexit.h)
 author: windows-sdk-content
 description: Called by the server engine to notify an exit module that an event has occurred.
 old-location: security\icertexit2_notify.htm

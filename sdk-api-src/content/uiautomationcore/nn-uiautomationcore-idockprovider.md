@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IDockProvider
-title: IDockProvider
+title: IDockProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to an element in a docking container.
 old-location: winauto\uiauto_IDockProvider.htm

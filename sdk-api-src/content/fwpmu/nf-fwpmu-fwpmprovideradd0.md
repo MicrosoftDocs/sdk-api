@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderAdd0
-title: FwpmProviderAdd0 function
+title: FwpmProviderAdd0 function (fwpmu.h)
 author: windows-sdk-content
 description: Adds a new provider to the system.
 old-location: fwp\fwpmprovideradd0_func.htm

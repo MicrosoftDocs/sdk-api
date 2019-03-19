@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetInterfaceImplProps
-title: IMetaDataImport::GetInterfaceImplProps
+title: IMetaDataImport::GetInterfaceImplProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the metadata tokens for the Type that implements the specified method, and for the interface that declares that method.
 old-location: winrt\imetadataimport_getinterfaceimplprops.htm

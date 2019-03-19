@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhIsRealTimeQuery
-title: PdhIsRealTimeQuery function
+title: PdhIsRealTimeQuery function (pdh.h)
 author: windows-sdk-content
 description: Determines if the specified query is a real-time query.
 old-location: perf\pdhisrealtimequery.htm

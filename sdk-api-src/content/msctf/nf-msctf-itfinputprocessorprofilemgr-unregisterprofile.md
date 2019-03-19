@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.UnregisterProfile
-title: ITfInputProcessorProfileMgr::UnregisterProfile
+title: ITfInputProcessorProfileMgr::UnregisterProfile (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::UnregisterProfile method unregisters the text service and the profile.
 old-location: tsf\itfinputprocessorprofilemgr_unregisterprofile.htm

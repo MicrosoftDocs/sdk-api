@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.Encode
-title: IX509CertificateRequest::Encode
+title: IX509CertificateRequest::Encode (certenroll.h)
 author: windows-sdk-content
 description: Signs and encodes a certificate request and creates a key pair if one does not exist.
 old-location: security\ix509certificaterequest_encode_method.htm

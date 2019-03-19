@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextComposition.StartComposition
-title: ITfContextComposition::StartComposition
+title: ITfContextComposition::StartComposition (msctf.h)
 author: windows-sdk-content
 description: ITfContextComposition::StartComposition method
 old-location: tsf\itfcontextcomposition_startcomposition.htm

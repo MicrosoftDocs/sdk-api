@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.IEnumNetSharingPortMapping.Skip
-title: IEnumNetSharingPortMapping::Skip
+title: IEnumNetSharingPortMapping::Skip (netcon.h)
 author: windows-sdk-content
 description: The Skip method skips the specified number of port mappings for this enumeration.
 old-location: ics\ienumnetsharingportmapping_skip.htm

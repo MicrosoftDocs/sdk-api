@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyKeyProvInfo.get_PrivateKey
-title: ICertPropertyKeyProvInfo::get_PrivateKey
+title: ICertPropertyKeyProvInfo::get_PrivateKey (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the private key associated with the certificate.
 old-location: security\icertpropertykeyprovinfo_privatekey_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetDefaultDigestMethod
-title: IOpcSigningOptions::GetDefaultDigestMethod
+title: IOpcSigningOptions::GetDefaultDigestMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the default digest method that will be used to compute digest values for objects to be signed.
 old-location: opc\iopcsigningoptions_getdefaultdigestmethod.htm

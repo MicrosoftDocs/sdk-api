@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputStreamInfo
-title: IMediaObject::GetOutputStreamInfo
+title: IMediaObject::GetOutputStreamInfo (mediaobj.h)
 author: windows-sdk-content
 description: The GetOutputStreamInfo method retrieves information about an output stream; for example, whether the stream is discardable, and whether it uses a fixed sample size. This information never changes.
 old-location: dshow\imediaobject_getoutputstreaminfo.htm

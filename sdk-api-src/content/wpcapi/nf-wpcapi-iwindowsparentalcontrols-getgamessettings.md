@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControls.GetGamesSettings
-title: IWindowsParentalControls::GetGamesSettings
+title: IWindowsParentalControls::GetGamesSettings (wpcapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to an interface for games restrictions settings for the specified user.
 old-location: parcon\iwindowsparentalcontrols_getgamessettings.htm

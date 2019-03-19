@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponent.get_DescLangID
-title: IComponent::get_DescLangID
+title: IComponent::get_DescLangID (tuner.h)
 author: windows-sdk-content
 description: The get_DescLangID method retrieves the language identifier for the description property.
 old-location: mstv\icomponent_get_desclangid.htm

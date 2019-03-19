@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskVariables.GetInput
-title: ITaskVariables::GetInput
+title: ITaskVariables::GetInput (taskschd.h)
 author: windows-sdk-content
 description: Gets the input variables for a task.
 old-location: taskschd\itaskvariables_getinput.htm

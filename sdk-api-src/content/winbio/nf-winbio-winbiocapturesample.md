@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioCaptureSample
-title: WinBioCaptureSample function
+title: WinBioCaptureSample function (winbio.h)
 author: windows-sdk-content
 description: Captures a biometric sample and fills a biometric information record (BIR) with the raw or processed data.
 old-location: secbiomet\winbiocapturesample.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetUnitMode
-title: ID2D1DeviceContext::GetUnitMode
+title: ID2D1DeviceContext::GetUnitMode (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the mode that is being used to interpret values by the device context.
 old-location: direct2d\id2d1devicecontext_getunitmode.htm

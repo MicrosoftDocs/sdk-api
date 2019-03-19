@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.__unnamed_struct_4
-title: DLGTEMPLATE
+title: DLGTEMPLATE (winuser.h)
 author: windows-sdk-content
 description: Defines the dimensions and style of a dialog box.
 old-location: dlgbox\dlgtemplate.htm

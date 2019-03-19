@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_Tsid
-title: IFaxDoc::put_Tsid
+title: IFaxDoc::put_Tsid (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the Tsid property of a FaxDoc object. The Tsid property is a null-terminated string that contains a user-defined transmitting station identifier (TSID).
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_tsid_cpp.htm

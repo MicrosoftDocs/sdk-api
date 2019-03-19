@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetClientTitle
-title: IAttachmentExecute::SetClientTitle
+title: IAttachmentExecute::SetClientTitle (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies and stores the title of the prompt window.
 old-location: shell\IAttachmentExecute_SetClientTitle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSCTL_RESOURCE_CODES
-title: CLUSCTL_RESOURCE_CODES
+title: CLUSCTL_RESOURCE_CODES (msclus.h)
 author: windows-sdk-content
 description: Enumerates resource&#32;control codes.
 old-location: mscs\clusctl_resource_codes.htm

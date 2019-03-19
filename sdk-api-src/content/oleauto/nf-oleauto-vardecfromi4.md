@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecFromI4
-title: VarDecFromI4 function
+title: VarDecFromI4 function (oleauto.h)
 author: windows-sdk-content
 description: Converts a long value to a decimal value.
 old-location: automat\vardecfromi4.htm

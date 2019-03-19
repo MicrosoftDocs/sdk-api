@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfGetPlatformInfo
-title: CfGetPlatformInfo function
+title: CfGetPlatformInfo function (cfapi.h)
 author: windows-sdk-content
 description: Gets the platform version information.
 old-location: cloudapi\cfgetplatforminfo.htm

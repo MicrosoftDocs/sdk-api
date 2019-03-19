@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.ITuner
-title: ITuner
+title: ITuner (tuner.h)
 author: windows-sdk-content
 description: The ITuner interface is implemented on the Microsoft BDA Network Provider filters.
 old-location: mstv\ituner.htm

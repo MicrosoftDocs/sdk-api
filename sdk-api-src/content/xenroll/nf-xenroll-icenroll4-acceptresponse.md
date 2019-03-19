@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.acceptResponse
-title: ICEnroll4::acceptResponse
+title: ICEnroll4::acceptResponse (xenroll.h)
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createRequest and places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptresponse.htm

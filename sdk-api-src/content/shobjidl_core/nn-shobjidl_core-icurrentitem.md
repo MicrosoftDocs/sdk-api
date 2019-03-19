@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ICurrentItem
-title: ICurrentItem
+title: ICurrentItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Obtained by calling IShellFolder::BindToObject for an item. If the item represents a snapshot of an item at a previous time, this interface will obtain the current version of the item.
 old-location: shell\ICurrentItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:evr.MFCreateVideoRenderer
-title: MFCreateVideoRenderer
+title: MFCreateVideoRenderer (evr.h)
 author: windows-sdk-content
 description: Creates an instance of the enhanced video renderer (EVR) media sink.
 old-location: mf\mfcreatevideorenderer.htm

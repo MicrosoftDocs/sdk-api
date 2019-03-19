@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_2.DWRITE_OPTICAL_ALIGNMENT
-title: DWRITE_OPTICAL_ALIGNMENT
+title: DWRITE_OPTICAL_ALIGNMENT (dwrite_2.h)
 author: windows-sdk-content
 description: The optical margin alignment mode.
 old-location: directwrite\dwrite_optical_alignment.htm

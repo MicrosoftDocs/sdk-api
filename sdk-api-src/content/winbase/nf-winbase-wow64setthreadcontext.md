@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.Wow64SetThreadContext
-title: Wow64SetThreadContext function
+title: Wow64SetThreadContext function (winbase.h)
 author: windows-sdk-content
 description: Sets the context of the specified WOW64 thread.
 old-location: base\wow64setthreadcontext.htm

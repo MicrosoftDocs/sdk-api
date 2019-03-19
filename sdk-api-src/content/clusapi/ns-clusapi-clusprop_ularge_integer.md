@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_ULARGE_INTEGER
-title: CLUSPROP_ULARGE_INTEGER
+title: CLUSPROP_ULARGE_INTEGER (clusapi.h)
 author: windows-sdk-content
 description: Describes an unsigned large integer.
 old-location: mscs\clusprop_ularge_integer.htm

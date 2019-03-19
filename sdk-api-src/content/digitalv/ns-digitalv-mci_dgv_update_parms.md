@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_33
-title: MCI_DGV_UPDATE_PARMS
+title: MCI_DGV_UPDATE_PARMS (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_UPDATE_PARMS structure contains parameters for the MCI_UPDATE command.
 old-location: multimedia\mci_dgv_update_parms.htm

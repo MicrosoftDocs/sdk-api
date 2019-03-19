@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_SubjectAttributes
-title: SecPkgContext_SubjectAttributes
+title: SecPkgContext_SubjectAttributes (sspi.h)
 author: windows-sdk-content
 description: Returns the security attribute information.
 old-location: security\secpkgcontext_subjectattributes.htm

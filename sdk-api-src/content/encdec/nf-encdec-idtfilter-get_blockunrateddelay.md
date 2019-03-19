@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockUnRatedDelay
-title: IDTFilter::get_BlockUnRatedDelay
+title: IDTFilter::get_BlockUnRatedDelay (encdec.h)
 author: windows-sdk-content
 description: The get_BlockUnRatedDelay method retrieves that length of time the filter waits before it blocks unrated content.
 old-location: mstv\idtfilter_get_blockunrateddelay.htm

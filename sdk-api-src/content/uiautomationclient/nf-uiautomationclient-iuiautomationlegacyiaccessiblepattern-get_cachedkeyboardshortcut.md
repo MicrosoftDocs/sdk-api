@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility keyboard shortcut property for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedKeyboardShortcut.htm

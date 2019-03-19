@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.SetQualityLevel
-title: IMFQualityAdvise::SetQualityLevel
+title: IMFQualityAdvise::SetQualityLevel (mfidl.h)
 author: windows-sdk-content
 description: Sets the quality level. The quality level determines how the component consumes or produces samples.
 old-location: mf\imfqualityadvise_setqualitylevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetDesc
-title: ID3D12CommandQueue::GetDesc
+title: ID3D12CommandQueue::GetDesc (d3d12.h)
 author: windows-sdk-content
 description: Gets the description of the command queue.
 old-location: direct3d12\id3d12commandqueue_getdesc.htm

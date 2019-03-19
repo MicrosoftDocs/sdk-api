@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_17
-title: WS_RECEIVE_OPTION
+title: WS_RECEIVE_OPTION (webservices.h)
 author: windows-sdk-content
 description: Specifies whether a message is required when receiving from a channel.
 old-location: wsw\ws_receive_option.htm

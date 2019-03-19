@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetOpenUrlA
-title: InternetOpenUrlA function
+title: InternetOpenUrlA function (wininet.h)
 author: windows-sdk-content
 description: Opens a resource specified by a complete FTP or HTTP URL.
 old-location: wininet\internetopenurl.htm

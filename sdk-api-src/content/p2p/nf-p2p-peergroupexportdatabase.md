@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupExportDatabase
-title: PeerGroupExportDatabase function
+title: PeerGroupExportDatabase function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupExportDatabase function exports a peer group database to a specific file, which can be transported to another computer and imported with the PeerGroupImportDatabase function.
 old-location: p2p\peergroupexportdatabase.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:rtworkq.IRtwqAsyncCallback
-title: IRtwqAsyncCallback
+title: IRtwqAsyncCallback (rtworkq.h)
 author: windows-sdk-content
 description: Callback interface to notify the application when an asynchronous method completes.
 old-location: base\irtwqasynccallback.htm

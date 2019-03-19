@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StartedMonitoringScope
-title: ISearchPersistentItemsChangedSink::StartedMonitoringScope
+title: ISearchPersistentItemsChangedSink::StartedMonitoringScope (searchapi.h)
 author: windows-sdk-content
 description: Called by a notifications provider to notify the indexer to monitor changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StartedMonitoringScope.htm

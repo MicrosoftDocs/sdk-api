@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.get_AttestationEncryptionCertificate
-title: IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate
+title: IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate (certenroll.h)
 author: windows-sdk-content
 description: The certificate used to encrypt the EKPUB and EKCERT values from the client. This property must be set to a valid certificate that chains to a trusted machine root.
 old-location: security\ix509certificaterequestpkcs10v3_attestationencryptioncertificate.htm

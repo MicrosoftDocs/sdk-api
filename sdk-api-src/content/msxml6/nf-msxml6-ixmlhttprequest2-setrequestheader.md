@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetRequestHeader
-title: IXMLHTTPRequest2::SetRequestHeader
+title: IXMLHTTPRequest2::SetRequestHeader (msxml6.h)
 author: windows-sdk-content
 description: Specifies the name of an HTTP header to be sent to the server along with the default request headers.
 old-location: ixhr2\ixmlhttprequest2_setrequestheader.htm

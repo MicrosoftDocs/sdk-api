@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.ReadFile
-title: ReadFile function
+title: ReadFile function (fileapi.h)
 author: windows-sdk-content
 description: Reads data from the specified file or input/output (I/O) device. Reads occur at the position specified by the file pointer if supported by the device.
 old-location: fs\readfile.htm

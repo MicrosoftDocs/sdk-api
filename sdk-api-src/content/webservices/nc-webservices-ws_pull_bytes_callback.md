@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_PULL_BYTES_CALLBACK
-title: WS_PULL_BYTES_CALLBACK
+title: WS_PULL_BYTES_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Used by the WsPullBytes function to request the data that should be written.
 old-location: wsw\ws_pull_bytes_callback.htm

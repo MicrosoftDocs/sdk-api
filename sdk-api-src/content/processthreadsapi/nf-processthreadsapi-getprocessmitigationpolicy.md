@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetProcessMitigationPolicy
-title: GetProcessMitigationPolicy function
+title: GetProcessMitigationPolicy function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves mitigation policy settings for the calling process.
 old-location: base\getprocessmitigationpolicy.htm

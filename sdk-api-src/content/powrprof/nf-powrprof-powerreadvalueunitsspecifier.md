@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadValueUnitsSpecifier
-title: PowerReadValueUnitsSpecifier function
+title: PowerReadValueUnitsSpecifier function (powrprof.h)
 author: windows-sdk-content
 description: Reads the string used to describe the units of a power setting that supports a range of values.
 old-location: base\powerreadvalueunitsspecifier.htm

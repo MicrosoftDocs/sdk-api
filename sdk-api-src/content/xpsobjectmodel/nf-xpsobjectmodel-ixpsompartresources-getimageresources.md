@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetImageResources
-title: IXpsOMPartResources::GetImageResources
+title: IXpsOMPartResources::GetImageResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMImageResourceCollection interface that contains the images that are used in the XPS document.
 old-location: xps\ixpsompartresources_getimageresources.htm

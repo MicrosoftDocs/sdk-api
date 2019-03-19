@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetAltitude
-title: ILatLongReport::GetAltitude
+title: ILatLongReport::GetAltitude (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the altitude, in meters. Altitude is relative to the reference ellipsoid.
 old-location: winlocation_com_ref\ilatlongreport_getaltitude.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetLatencyClock
-title: IDirectMusicSynth::GetLatencyClock
+title: IDirectMusicSynth::GetLatencyClock (dmusics.h)
 author: windows-sdk-content
 description: The GetLatencyClock method retrieves a reference to the IReferenceClock interface (described in the Microsoft Windows SDK documentation) of the reference-clock object that tracks the current mix time.
 old-location: audio\idirectmusicsynth_getlatencyclock.htm

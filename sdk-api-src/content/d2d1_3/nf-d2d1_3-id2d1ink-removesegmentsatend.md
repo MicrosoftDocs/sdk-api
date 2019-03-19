@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.RemoveSegmentsAtEnd
-title: ID2D1Ink::RemoveSegmentsAtEnd
+title: ID2D1Ink::RemoveSegmentsAtEnd (d2d1_3.h)
 author: windows-sdk-content
 description: Removes the given number of segments from the end of this ink object.
 old-location: direct2d\id2d1ink_removesegmentsatend.htm

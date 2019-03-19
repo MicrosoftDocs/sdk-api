@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CONFLICT_ITEM_TYPE
-title: SYNCMGR_CONFLICT_ITEM_TYPE
+title: SYNCMGR_CONFLICT_ITEM_TYPE (syncmgr.h)
 author: windows-sdk-content
 description: Describes conflict item type.
 old-location: shell\SYNCMGR_CONFLICT_ITEM_TYPE.htm

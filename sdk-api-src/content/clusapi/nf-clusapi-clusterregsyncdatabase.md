@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegSyncDatabase
-title: ClusterRegSyncDatabase function
+title: ClusterRegSyncDatabase function (clusapi.h)
 author: windows-sdk-content
 description: Synchronizes the Cluster Database with a cluster.
 old-location: mscs\clusterregsyncdatabase.htm

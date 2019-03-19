@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.AddPid
-title: IBDA_FDC::AddPid
+title: IBDA_FDC::AddPid (bdaiface.h)
 author: windows-sdk-content
 description: Adds one or more packet identifiers (PIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addpid.htm

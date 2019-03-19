@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateRectRgn
-title: CreateRectRgn function
+title: CreateRectRgn function (wingdi.h)
 author: windows-sdk-content
 description: The CreateRectRgn function creates a rectangular region.
 old-location: gdi\createrectrgn.htm

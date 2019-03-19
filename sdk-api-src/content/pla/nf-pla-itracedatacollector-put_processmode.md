@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_ProcessMode
-title: ITraceDataCollector::put_ProcessMode
+title: ITraceDataCollector::put_ProcessMode (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the session is a private, in-process session.
 old-location: pla\itracedatacollector_processmode.htm

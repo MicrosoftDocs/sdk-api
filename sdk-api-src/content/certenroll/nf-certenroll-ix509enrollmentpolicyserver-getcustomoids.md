@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCustomOids
-title: IX509EnrollmentPolicyServer::GetCustomOids
+title: IX509EnrollmentPolicyServer::GetCustomOids (certenroll.h)
 author: windows-sdk-content
 description: Is not implemented.
 old-location: security\ix509enrollmentpolicyserver_getcustomoids.htm

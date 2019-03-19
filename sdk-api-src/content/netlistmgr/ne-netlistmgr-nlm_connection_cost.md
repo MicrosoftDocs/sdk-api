@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_CONNECTION_COST
-title: NLM_CONNECTION_COST
+title: NLM_CONNECTION_COST (netlistmgr.h)
 author: windows-sdk-content
 description: The NLM_CONNECTION_COST enumeration specifies a set of cost levels and cost flags supported in Windows 8 Cost APIs.
 old-location: nla\nlm_connection_cost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenser.OpenScopeOnMemory
-title: IMetaDataDispenser::OpenScopeOnMemory
+title: IMetaDataDispenser::OpenScopeOnMemory (rometadataapi.h)
 author: windows-sdk-content
 description: Opens an area of memory that contains existing metadata. That is, this method opens a specified area of memory in which the existing data is treated as metadata.
 old-location: winrt\imetadatadispenser_openscopeonmemory.htm

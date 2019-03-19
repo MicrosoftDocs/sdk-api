@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_GetHandle
-title: Edit_GetHandle macro
+title: Edit_GetHandle macro (windowsx.h)
 author: windows-sdk-content
 description: Gets a handle to the memory currently allocated for the text of a multiline edit control. You can use this macro or send the EM_GETHANDLE message explicitly.
 old-location: controls\Edit_GetHandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFSampleOutputStream
-title: IMFSampleOutputStream
+title: IMFSampleOutputStream (mfobjects.h)
 author: windows-sdk-content
 description: Writes media samples to a byte stream.
 old-location: mf\imfsampleoutputstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.Advise
-title: IDataAdviseHolder::Advise
+title: IDataAdviseHolder::Advise (objidl.h)
 author: windows-sdk-content
 description: Creates a connection between an advise sink and a data object for receiving notifications.
 old-location: com\idataadviseholder_advise.htm

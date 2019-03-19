@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACL_REVISION_INFORMATION
-title: ACL_REVISION_INFORMATION
+title: ACL_REVISION_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains revision information about an ACL structure.
 old-location: security\acl_revision_information.htm

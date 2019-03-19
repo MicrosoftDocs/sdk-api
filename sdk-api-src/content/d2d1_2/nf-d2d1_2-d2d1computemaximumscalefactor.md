@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_2.D2D1ComputeMaximumScaleFactor
-title: D2D1ComputeMaximumScaleFactor function
+title: D2D1ComputeMaximumScaleFactor function (d2d1_2.h)
 author: windows-sdk-content
 description: Computes the maximum factor by which a given transform can stretch any vector.
 old-location: direct2d\d2d1computemaximumscalefactor.htm

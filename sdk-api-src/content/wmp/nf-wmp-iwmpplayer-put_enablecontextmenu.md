@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.put_enableContextMenu
-title: IWMPPlayer::put_enableContextMenu
+title: IWMPPlayer::put_enableContextMenu (wmp.h)
 author: windows-sdk-content
 description: The put_enableContextMenu method specifies a value indicating whether to enable the context menu, which appears when the right mouse button is clicked.
 old-location: wmp\iwmpplayer_put_enablecontextmenu.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tsuserex.IADsTSUserEx
-title: IADsTSUserEx
+title: IADsTSUserEx (tsuserex.h)
 author: windows-sdk-content
 description: Used to examine and configure Remote Desktop Services user properties.
 old-location: termserv\iadstsuserex.htm

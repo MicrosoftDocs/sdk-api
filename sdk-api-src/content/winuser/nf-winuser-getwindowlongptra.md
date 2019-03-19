@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowLongPtrA
-title: GetWindowLongPtrA function
+title: GetWindowLongPtrA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves information about the specified window. The function also retrieves the value at a specified offset into the extra window memory.
 old-location: winmsg\getwindowlongptr.htm

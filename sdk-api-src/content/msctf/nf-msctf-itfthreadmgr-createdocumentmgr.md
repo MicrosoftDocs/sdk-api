@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.CreateDocumentMgr
-title: ITfThreadMgr::CreateDocumentMgr
+title: ITfThreadMgr::CreateDocumentMgr (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::CreateDocumentMgr method
 old-location: tsf\itfthreadmgr_createdocumentmgr.htm

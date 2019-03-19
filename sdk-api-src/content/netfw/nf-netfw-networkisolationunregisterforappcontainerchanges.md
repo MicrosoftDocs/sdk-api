@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.NetworkIsolationUnregisterForAppContainerChanges
-title: NetworkIsolationUnregisterForAppContainerChanges function
+title: NetworkIsolationUnregisterForAppContainerChanges function (netfw.h)
 author: windows-sdk-content
 description: Is used to cancel an app container change registration and stop receiving notifications.
 old-location: ics\networkisolationunregisterforappcontainerchanges.htm

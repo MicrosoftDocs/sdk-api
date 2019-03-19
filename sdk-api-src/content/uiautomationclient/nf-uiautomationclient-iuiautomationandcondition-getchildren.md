@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAndCondition.GetChildren
-title: IUIAutomationAndCondition::GetChildren
+title: IUIAutomationAndCondition::GetChildren (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the conditions that make up this &#0034;and&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationAndCondition_GetChildren.htm

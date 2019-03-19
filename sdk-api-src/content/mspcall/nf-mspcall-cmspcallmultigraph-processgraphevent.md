@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.ProcessGraphEvent
-title: CMSPCallMultiGraph::ProcessGraphEvent
+title: CMSPCallMultiGraph::ProcessGraphEvent (mspcall.h)
 author: windows-sdk-content
 description: The ProcessGraphEvent method (as defined in MSPCall.h) is called on the MSP worker thread.
 old-location: tapi3\cmspcallmultigraph_processgraphevent.htm

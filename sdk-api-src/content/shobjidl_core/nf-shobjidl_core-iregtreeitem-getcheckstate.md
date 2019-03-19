@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IRegTreeItem.GetCheckState
-title: IRegTreeItem::GetCheckState
+title: IRegTreeItem::GetCheckState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the state of a check box item in a tree-view control.
 old-location: shell\IRegTreeItem_GetCheckState.htm

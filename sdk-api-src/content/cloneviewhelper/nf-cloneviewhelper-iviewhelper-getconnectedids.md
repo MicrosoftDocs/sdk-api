@@ -1,6 +1,6 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.GetConnectedIDs
-title: IViewHelper::GetConnectedIDs
+title: IViewHelper::GetConnectedIDs (cloneviewhelper.h)
 author: windows-sdk-content
 description: The GetConnectedIDs method retrieves, for a given adapter, an array of identifiers for either targets or sources.
 old-location: display\iviewhelper_getconnectedids.htm

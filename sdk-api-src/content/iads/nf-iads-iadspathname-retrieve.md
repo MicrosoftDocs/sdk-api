@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.Retrieve
-title: IADsPathname::Retrieve
+title: IADsPathname::Retrieve (iads.h)
 author: windows-sdk-content
 description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.
 old-location: adsi\iadspathname_retrieve.htm

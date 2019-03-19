@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_RUN_DESCRIPTION
-title: DWRITE_GLYPH_RUN_DESCRIPTION
+title: DWRITE_GLYPH_RUN_DESCRIPTION (dwrite.h)
 author: windows-sdk-content
 description: Contains additional properties related to those in DWRITE_GLYPH_RUN.
 old-location: directwrite\dwrite_glyph_run_description.htm

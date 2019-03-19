@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetMinimumRetryDelay
-title: IBackgroundCopyJob::GetMinimumRetryDelay
+title: IBackgroundCopyJob::GetMinimumRetryDelay (bits.h)
 author: windows-sdk-content
 description: Retrieves the minimum length of time that the service waits after encountering a transient error condition before trying to transfer the file.
 old-location: bits\ibackgroundcopyjob_getminimumretrydelay.htm

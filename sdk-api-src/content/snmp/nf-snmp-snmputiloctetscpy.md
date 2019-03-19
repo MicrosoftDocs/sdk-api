@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpUtilOctetsCpy
-title: SnmpUtilOctetsCpy function
+title: SnmpUtilOctetsCpy function (snmp.h)
 author: windows-sdk-content
 description: The SnmpUtilOctetsCpy function copies the variable pointed to by the pOctetsSrc parameter to the variable pointed to by the pOctetsDst parameter.
 old-location: snmp\snmputiloctetscpy.htm

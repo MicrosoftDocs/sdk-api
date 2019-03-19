@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommandApplicationHostEnvironment.GetValue
-title: IExecuteCommandApplicationHostEnvironment::GetValue
+title: IExecuteCommandApplicationHostEnvironment::GetValue (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines whether the current application host environment is in the desktop or immersive mode.
 old-location: shell\IExecuteCommandApplicationHostEnvironment_GetValue.htm

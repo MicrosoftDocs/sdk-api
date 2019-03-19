@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.INamedPropertyStore
-title: INamedPropertyStore
+title: INamedPropertyStore (propsys.h)
 author: windows-sdk-content
 description: Exposes methods that get and set named properties.
 old-location: shell\INamedPropertyStore.htm

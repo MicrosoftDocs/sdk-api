@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwMgr.RestoreDefaults
-title: INetFwMgr::RestoreDefaults
+title: INetFwMgr::RestoreDefaults (netfw.h)
 author: windows-sdk-content
 description: Restores the local configuration to its default, installed state.
 old-location: ics\inetfwmgr_restoredefaults.htm

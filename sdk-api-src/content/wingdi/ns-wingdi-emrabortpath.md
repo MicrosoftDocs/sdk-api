@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagABORTPATH
-title: EMRABORTPATH
+title: EMRABORTPATH (wingdi.h)
 author: windows-sdk-content
 description: Contains data for the AbortPath, BeginPath, EndPath, CloseFigure, FlattenPath, WidenPath, SetMetaRgn, SaveDC, and RealizePalette enhanced metafile records.
 old-location: gdi\enhanced_metafile_records_with_no_parameters.htm

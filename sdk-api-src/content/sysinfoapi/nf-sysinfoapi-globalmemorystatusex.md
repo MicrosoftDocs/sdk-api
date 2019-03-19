@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GlobalMemoryStatusEx
-title: GlobalMemoryStatusEx function
+title: GlobalMemoryStatusEx function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves information about the system's current usage of both physical and virtual memory.
 old-location: base\globalmemorystatusex.htm

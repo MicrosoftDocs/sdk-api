@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderProfile
-title: ID3D11VideoDevice::GetVideoDecoderProfile
+title: ID3D11VideoDevice::GetVideoDecoderProfile (d3d11.h)
 author: windows-sdk-content
 description: Gets a profile that is supported by the driver.
 old-location: mf\id3d11videodevice_getvideodecoderprofile.htm

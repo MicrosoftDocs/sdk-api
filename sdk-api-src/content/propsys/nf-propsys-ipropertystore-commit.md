@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStore.Commit
-title: IPropertyStore::Commit
+title: IPropertyStore::Commit (propsys.h)
 author: windows-sdk-content
 description: After a change has been made, this method saves the changes.
 old-location: audio\ipropertystore_commit.htm

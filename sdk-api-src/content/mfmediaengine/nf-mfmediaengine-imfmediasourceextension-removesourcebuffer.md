@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtension.RemoveSourceBuffer
-title: IMFMediaSourceExtension::RemoveSourceBuffer
+title: IMFMediaSourceExtension::RemoveSourceBuffer (mfmediaengine.h)
 author: windows-sdk-content
 description: Removes the specified source buffer from the collection of source buffers managed by the IMFMediaSourceExtension object.
 old-location: mf\imfmediasourceextension_removesourcebuffer.htm

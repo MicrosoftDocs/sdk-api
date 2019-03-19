@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.FindCloseChangeNotification
-title: FindCloseChangeNotification function
+title: FindCloseChangeNotification function (fileapi.h)
 author: windows-sdk-content
 description: Stops change notification handle monitoring.
 old-location: fs\findclosechangenotification.htm

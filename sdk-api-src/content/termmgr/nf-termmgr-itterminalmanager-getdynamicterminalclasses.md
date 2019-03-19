@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalManager.GetDynamicTerminalClasses
-title: ITTerminalManager::GetDynamicTerminalClasses
+title: ITTerminalManager::GetDynamicTerminalClasses (termmgr.h)
 author: windows-sdk-content
 description: The GetDynamicTerminalClasses method gets a list of terminal classes for a set of media types.
 old-location: tapi3\itterminalmanager_getdynamicterminalclasses.htm

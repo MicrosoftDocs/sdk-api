@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.GetImageRect
-title: IImageList::GetImageRect
+title: IImageList::GetImageRect (commoncontrols.h)
 author: windows-sdk-content
 description: Gets an image's bounding rectangle.
 old-location: controls\IImageList_GetImageRect.htm

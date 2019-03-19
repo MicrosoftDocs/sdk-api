@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingStarted
-title: IMSVidStreamBufferRecordingControl::get_RecordingStarted
+title: IMSVidStreamBufferRecordingControl::get_RecordingStarted (segment.h)
 author: windows-sdk-content
 description: The get_RecordingStarted method queries whether the recording has started.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingstarted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_FLAGS
-title: D3D12_GPU_BASED_VALIDATION_FLAGS
+title: D3D12_GPU_BASED_VALIDATION_FLAGS (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Describes the level of GPU-based validation to perform at runtime.
 old-location: direct3d12\d3d12_gpu_based_validation_flags.htm

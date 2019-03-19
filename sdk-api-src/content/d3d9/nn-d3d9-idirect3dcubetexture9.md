@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9.IDirect3DCubeTexture9
-title: IDirect3DCubeTexture9
+title: IDirect3DCubeTexture9 (d3d9.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DCubeTexture9 interface to manipulate a cube texture resource.
 old-location: direct3d9\idirect3dcubetexture9.htm

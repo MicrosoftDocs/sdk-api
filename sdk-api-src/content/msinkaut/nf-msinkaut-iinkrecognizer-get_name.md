@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Name
-title: IInkRecognizer::get_Name
+title: IInkRecognizer::get_Name (msinkaut.h)
 author: windows-sdk-content
 description: Gets the name of the object.
 old-location: tablet\iinkrecognizer_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Reset
-title: IEnumMcastScope::Reset
+title: IEnumMcastScope::Reset (mdhcp.h)
 author: windows-sdk-content
 description: The Reset method resets to the beginning of enumeration sequence.
 old-location: tapi3\ienummcastscope_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11on12.ID3D11On12Device
-title: ID3D11On12Device
+title: ID3D11On12Device (d3d11on12.h)
 author: windows-sdk-content
 description: Handles the creation, wrapping, and releasing of D3D11 resources for Direct3D11on12.
 old-location: direct3d12\id3d11on12device.htm

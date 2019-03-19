@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDataStream.GetObjectID
-title: IPortableDeviceDataStream::GetObjectID
+title: IPortableDeviceDataStream::GetObjectID (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetObjectID method retrieves the object ID of the resource that was written to the device. This method is only valid after calling IStream::Commit on the data stream.
 old-location: wpdsdk\iportabledevicedatastream_getobjectid.htm

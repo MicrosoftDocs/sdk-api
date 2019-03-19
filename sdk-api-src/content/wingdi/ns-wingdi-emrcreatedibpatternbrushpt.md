@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRCREATEDIBPATTERNBRUSHPT
-title: EMRCREATEDIBPATTERNBRUSHPT
+title: EMRCREATEDIBPATTERNBRUSHPT (wingdi.h)
 author: windows-sdk-content
 description: The EMRCREATEDIBPATTERNBRUSHPT structure contains members for the CreateDIBPatternBrushPt enhanced metafile record. The BITMAPINFO structure is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
 old-location: gdi\emrcreatedibpatternbrushpt.htm

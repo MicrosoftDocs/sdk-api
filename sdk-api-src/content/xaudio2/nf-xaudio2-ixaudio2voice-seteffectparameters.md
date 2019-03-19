@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetEffectParameters
-title: IXAudio2Voice::SetEffectParameters
+title: IXAudio2Voice::SetEffectParameters (xaudio2.h)
 author: windows-sdk-content
 description: Sets parameters for a given effect in the voice's effect chain.
 old-location: xaudio2\ixaudio2voice_interface_seteffectparameters.htm

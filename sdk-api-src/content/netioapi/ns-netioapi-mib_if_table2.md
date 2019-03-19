@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IF_TABLE2
-title: MIB_IF_TABLE2
+title: MIB_IF_TABLE2 (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of logical and physical interface entries.
 old-location: mib\mib_if_table2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink)
-title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink)
+title: ID2D1Ink::StreamAsGeometry(ID2D1InkStyle,const D2D1_MATRIX_3X2_F,ID2D1SimplifiedGeometrySink) (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves a geometric representation of this ink object.
 old-location: direct2d\id2d1ink_streamasgeometry_3.htm

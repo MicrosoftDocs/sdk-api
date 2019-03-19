@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IMPEG2TuneRequestFactory
-title: IMPEG2TuneRequestFactory
+title: IMPEG2TuneRequestFactory (tuner.h)
 author: windows-sdk-content
 description: The IMPEG2TuneRequestFactory interface creates a tune request for a basic MPEG-2 transport stream containing the minimal tables. To obtain this interface, call CoCreateInstance with the class identifier CLSID_MPEG2TuneRequestFactory.
 old-location: mstv\impeg2tunerequestfactory.htm

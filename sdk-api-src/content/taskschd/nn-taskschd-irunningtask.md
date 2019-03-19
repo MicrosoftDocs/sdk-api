@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IRunningTask
-title: IRunningTask
+title: IRunningTask (taskschd.h)
 author: windows-sdk-content
 description: Provides the methods to get information from and control a running task.
 old-location: taskschd\irunningtask.htm

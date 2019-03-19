@@ -1,6 +1,6 @@
 ---
 UID: NN:certenc.ICertEncodeAltName
-title: ICertEncodeAltName
+title: ICertEncodeAltName (certenc.h)
 author: windows-sdk-content
 description: Provides methods for handling alternate names used in certificate extensions.
 old-location: security\icertencodealtname.htm

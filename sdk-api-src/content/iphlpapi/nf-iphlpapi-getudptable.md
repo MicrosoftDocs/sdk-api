@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetUdpTable
-title: GetUdpTable function
+title: GetUdpTable function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves the IPv4 User Datagram Protocol (UDP) listener table.
 old-location: iphlp\getudptable.htm

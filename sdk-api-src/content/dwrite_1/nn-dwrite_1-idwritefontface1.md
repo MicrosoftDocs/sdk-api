@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_1.IDWriteFontFace1
-title: IDWriteFontFace1
+title: IDWriteFontFace1 (dwrite_1.h)
 author: windows-sdk-content
 description: Represents an absolute reference to a font face.
 old-location: directwrite\idwritefontface1.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.get_TuneRequest
-title: ITuner::get_TuneRequest
+title: ITuner::get_TuneRequest (tuner.h)
 author: windows-sdk-content
 description: The get_TuneRequest method gets the tune request currently in effect for the Network Provider.
 old-location: mstv\ituner_get_tunerequest.htm

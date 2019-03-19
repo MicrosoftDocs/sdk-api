@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSSetShader
-title: ID3D11DeviceContext::PSSetShader
+title: ID3D11DeviceContext::PSSetShader (d3d11.h)
 author: windows-sdk-content
 description: Sets a pixel shader to the device.
 old-location: direct3d11\id3d11devicecontext_pssetshader.htm

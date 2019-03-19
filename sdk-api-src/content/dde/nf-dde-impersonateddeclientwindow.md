@@ -1,6 +1,6 @@
 ---
 UID: NF:dde.ImpersonateDdeClientWindow
-title: ImpersonateDdeClientWindow function
+title: ImpersonateDdeClientWindow function (dde.h)
 author: windows-sdk-content
 description: Enables a Dynamic Data Exchange (DDE) server application to impersonate a DDE client application's security context. This protects secure server data from unauthorized DDE clients.
 old-location: dataxchg\impersonateddeclientwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManCreateSession
-title: WSManCreateSession function
+title: WSManCreateSession function (wsman.h)
 author: windows-sdk-content
 description: Creates a session object.
 old-location: winrm\wsmancreatesession.htm

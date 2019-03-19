@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorNegativeMultiplySubtract
-title: XMVectorNegativeMultiplySubtract function
+title: XMVectorNegativeMultiplySubtract function (directxmath.h)
 author: windows-sdk-content
 description: Computes the difference of a third vector and the product of the first two vectors.
 old-location: dxmath\xmvectornegativemultiplysubtract.htm

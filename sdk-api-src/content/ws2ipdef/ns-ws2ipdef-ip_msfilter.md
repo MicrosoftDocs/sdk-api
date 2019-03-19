@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.ip_msfilter
-title: IP_MSFILTER
+title: IP_MSFILTER (ws2ipdef.h)
 author: windows-sdk-content
 description: The ip_msfilter structure provides multicast filtering parameters for IPv4 addresses.
 old-location: winsock\ip_msfilter.htm

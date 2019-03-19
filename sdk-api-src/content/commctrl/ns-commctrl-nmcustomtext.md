@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMCUSTOMTEXT
-title: NMCUSTOMTEXT
+title: NMCUSTOMTEXT (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with custom text notification.
 old-location: controls\NMCUSTOMTEXT.htm

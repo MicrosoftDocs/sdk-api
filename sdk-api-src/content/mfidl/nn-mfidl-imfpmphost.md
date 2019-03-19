@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFPMPHost
-title: IMFPMPHost
+title: IMFPMPHost (mfidl.h)
 author: windows-sdk-content
 description: Enables a media source in the application process to create objects in the protected media path (PMP) process.
 old-location: mf\imfpmphost.htm

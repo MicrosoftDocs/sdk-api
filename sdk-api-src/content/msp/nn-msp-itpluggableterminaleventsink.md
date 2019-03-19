@@ -1,6 +1,6 @@
 ---
 UID: NN:msp.ITPluggableTerminalEventSink
-title: ITPluggableTerminalEventSink
+title: ITPluggableTerminalEventSink (msp.h)
 author: windows-sdk-content
 description: The ITPluggableTerminalEventSink interface provides a method that fires a message to notify client applications about a change in a pluggable terminal.
 old-location: tapi3\itpluggableterminaleventsink.htm

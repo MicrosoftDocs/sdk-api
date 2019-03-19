@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_POLICY_PARA
-title: CERT_CHAIN_POLICY_PARA
+title: CERT_CHAIN_POLICY_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information used in CertVerifyCertificateChainPolicy to establish policy criteria for the verification of certificate chains.
 old-location: security\cert_chain_policy_para.htm

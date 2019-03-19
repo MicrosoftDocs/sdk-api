@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnCreateUICommand
-title: IUIApplication::OnCreateUICommand
+title: IUIApplication::OnCreateUICommand (uiribbon.h)
 author: windows-sdk-content
 description: Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an IUICommandHandler.
 old-location: windowsribbon\windowsribbon_iuiapplication_oncreateuicommand.htm

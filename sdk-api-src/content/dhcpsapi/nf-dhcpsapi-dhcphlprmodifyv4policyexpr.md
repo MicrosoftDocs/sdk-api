@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprModifyV4PolicyExpr
-title: DhcpHlprModifyV4PolicyExpr function
+title: DhcpHlprModifyV4PolicyExpr function (dhcpsapi.h)
 author: windows-sdk-content
 description: Modifies the DHCP server policy expression in a DHCP server policy structure.
 old-location: dhcp\dhcphlprmodifyv4policyexpr.htm

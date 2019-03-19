@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromDec
-title: VarBstrFromDec function
+title: VarBstrFromDec function (oleauto.h)
 author: windows-sdk-content
 description: Converts a decimal value to a BSTR value.
 old-location: automat\varbstrfromdec.htm

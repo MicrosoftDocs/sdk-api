@@ -1,6 +1,6 @@
 ---
 UID: NF:peerdist.PeerDistServerUnpublish
-title: PeerDistServerUnpublish function
+title: PeerDistServerUnpublish function (peerdist.h)
 author: windows-sdk-content
 description: PeerDistServerUnpublish function removes a publication created via PeerDistServerPublishStream.
 old-location: p2p\peerdistserverunpublish.htm

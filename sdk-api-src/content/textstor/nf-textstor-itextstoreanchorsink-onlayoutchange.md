@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLayoutChange
-title: ITextStoreAnchorSink::OnLayoutChange
+title: ITextStoreAnchorSink::OnLayoutChange (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchorSink::OnLayoutChange method is called when the layout (on-screen representation) of the document changes.
 old-location: tsf\itextstoreanchorsink_onlayoutchange.htm

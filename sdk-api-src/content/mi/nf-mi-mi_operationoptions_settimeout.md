@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetTimeout
-title: MI_OperationOptions_SetTimeout function
+title: MI_OperationOptions_SetTimeout function (mi.h)
 author: windows-sdk-content
 description: Sets the operation timeout for a specific operation.
 old-location: wmi_v2\mi_operationoptions_settimeout.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CLUSCTL_GET_CONTROL_FUNCTION
-title: CLUSCTL_GET_CONTROL_FUNCTION macro
+title: CLUSCTL_GET_CONTROL_FUNCTION macro (clusapi.h)
 author: windows-sdk-content
 description: Extracts the operation code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
 old-location: mscs\clusctl_get_control_function.htm

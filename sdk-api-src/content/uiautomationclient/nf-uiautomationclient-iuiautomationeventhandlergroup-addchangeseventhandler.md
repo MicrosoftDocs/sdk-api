@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddChangesEventHandler
-title: IUIAutomationEventHandlerGroup::AddChangesEventHandler
+title: IUIAutomationEventHandlerGroup::AddChangesEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a method that handles change events.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addchangeseventhandler.htm

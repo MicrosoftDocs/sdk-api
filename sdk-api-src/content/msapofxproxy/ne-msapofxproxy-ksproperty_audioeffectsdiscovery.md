@@ -1,6 +1,6 @@
 ---
 UID: NE:msapofxproxy.__unnamed_enum_0
-title: KSPROPERTY_AUDIOEFFECTSDISCOVERY
+title: KSPROPERTY_AUDIOEFFECTSDISCOVERY (msapofxproxy.h)
 author: windows-sdk-content
 description: The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used by the list of audio processing objects (APOs).
 old-location: audio\ksproperty_audioeffectsdiscovery.htm

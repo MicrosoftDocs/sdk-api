@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WRDS_CONNECTION_SETTING
-title: WRDS_CONNECTION_SETTING
+title: WRDS_CONNECTION_SETTING (wtsdefs.h)
 author: windows-sdk-content
 description: Contains different levels of settings for a remote desktop connection.
 old-location: termserv\wrds_connection_setting.htm

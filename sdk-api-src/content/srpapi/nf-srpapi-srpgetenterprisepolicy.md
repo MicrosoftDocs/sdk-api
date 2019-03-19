@@ -1,6 +1,6 @@
 ---
 UID: NF:srpapi.SrpGetEnterprisePolicy
-title: SrpGetEnterprisePolicy function
+title: SrpGetEnterprisePolicy function (srpapi.h)
 author: windows-sdk-content
 description: Policy can be applied on Windows 10, version 1607.Gets information about the enterprise policy of an app.
 old-location: edp\srpgetenterprisepolicy.htm

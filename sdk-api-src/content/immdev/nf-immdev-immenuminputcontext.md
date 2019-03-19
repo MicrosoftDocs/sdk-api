@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmEnumInputContext
-title: ImmEnumInputContext function
+title: ImmEnumInputContext function (immdev.h)
 author: windows-sdk-content
 description: Retrieves the input context for the specified thread.
 old-location: intl\immenuminputcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetEngineFormat
-title: IHardwareAudioEngineBase::GetEngineFormat
+title: IHardwareAudioEngineBase::GetEngineFormat (audioengineendpoint.h)
 author: windows-sdk-content
 description: The GetEngineFormat method retrieves the current data format of the offloaded audio stream.
 old-location: coreaudio\ihardwareaudioenginebase_getengineformat.htm

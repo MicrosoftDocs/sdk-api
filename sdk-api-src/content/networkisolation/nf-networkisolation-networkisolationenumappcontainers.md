@@ -1,6 +1,6 @@
 ---
 UID: NF:networkisolation.NetworkIsolationEnumAppContainers
-title: NetworkIsolationEnumAppContainers function
+title: NetworkIsolationEnumAppContainers function (networkisolation.h)
 author: windows-sdk-content
 description: Enumerates all of the app containers that have been created in the system.
 old-location: ics\networkisolationenumappcontainers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagFUNCDESC
-title: FUNCDESC
+title: FUNCDESC (oaidl.h)
 author: windows-sdk-content
 description: Describes a function.
 old-location: automat\funcdesc.htm

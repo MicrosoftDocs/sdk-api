@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDUriDecode
-title: WSDUriDecode function
+title: WSDUriDecode function (wsdutil.h)
 author: windows-sdk-content
 description: Decodes a URI according to the rules in RFC2396.
 old-location: ncd\wsduridecode.htm

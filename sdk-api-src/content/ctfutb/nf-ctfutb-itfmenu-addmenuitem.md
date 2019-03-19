@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfMenu.AddMenuItem
-title: ITfMenu::AddMenuItem
+title: ITfMenu::AddMenuItem (ctfutb.h)
 author: windows-sdk-content
 description: ITfMenu::AddMenuItem method
 old-location: tsf\itfmenu_addmenuitem.htm

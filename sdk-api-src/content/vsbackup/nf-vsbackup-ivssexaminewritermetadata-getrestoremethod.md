@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetRestoreMethod
-title: IVssExamineWriterMetadata::GetRestoreMethod
+title: IVssExamineWriterMetadata::GetRestoreMethod (vsbackup.h)
 author: windows-sdk-content
 description: The GetRestoreMethod method returns information about how a writer wants its data to be restored.
 old-location: base\ivssexaminewritermetadata_getrestoremethod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.get_LastModified
-title: IFsrmClassifierModuleImplementation::get_LastModified
+title: IFsrmClassifierModuleImplementation::get_LastModified (fsrmpipeline.h)
 author: windows-sdk-content
 description: The last time the classifier's internal rules were modified as a 64-bit FILETIME value.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_lastmodified.htm

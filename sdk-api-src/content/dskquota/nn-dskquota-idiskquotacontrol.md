@@ -1,6 +1,6 @@
 ---
 UID: NN:dskquota.IDiskQuotaControl
-title: IDiskQuotaControl
+title: IDiskQuotaControl (dskquota.h)
 author: windows-sdk-content
 description: Controls the disk quota facilities of a single NTFS file system volume.
 old-location: fs\idiskquotacontrol.htm

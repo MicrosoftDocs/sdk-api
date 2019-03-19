@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_free
-title: ber_free function
+title: ber_free function (winber.h)
 author: windows-sdk-content
 description: The ber_free function frees a BerElement structure that was previously allocated with ber_alloc_t, ber_init, or the ldap_first_attribute/ ldap_next_attribute search functions.
 old-location: ldap\ber_free.htm

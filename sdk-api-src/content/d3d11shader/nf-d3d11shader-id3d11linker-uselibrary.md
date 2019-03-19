@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11Linker.UseLibrary
-title: ID3D11Linker::UseLibrary
+title: ID3D11Linker::UseLibrary (d3d11shader.h)
 author: windows-sdk-content
 description: Adds an instance of a library module to be used for linking.
 old-location: direct3d11\id3d11linker_uselibrary.htm

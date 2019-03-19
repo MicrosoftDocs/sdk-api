@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetDate
-title: IWMDMStorage::GetDate
+title: IWMDMStorage::GetDate (mswmdm.h)
 author: windows-sdk-content
 description: The GetDate method retrieves the date when the storage was last modified.
 old-location: wmdm\iwmdmstorage_getdate.htm

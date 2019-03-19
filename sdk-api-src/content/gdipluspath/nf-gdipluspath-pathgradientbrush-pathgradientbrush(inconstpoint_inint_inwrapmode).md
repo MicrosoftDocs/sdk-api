@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const Point,IN INT,IN WrapMode)
-title: PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode)
+title: PathGradientBrush::PathGradientBrush(IN const Point,IN INT,IN WrapMode) (gdipluspath.h)
 author: windows-sdk-content
 description: Creates a PathGradientBrush::PathGradientBrush object based on an array of points. Initializes the wrap mode of the path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_Point_points_INT_count_WrapMode_wrapMode_.htm

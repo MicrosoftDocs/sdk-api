@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetClearAllPerSiteCookieDecisions
-title: InternetClearAllPerSiteCookieDecisions function
+title: InternetClearAllPerSiteCookieDecisions function (wininet.h)
 author: windows-sdk-content
 description: Clears all decisions that were made about cookies on a site by site basis.
 old-location: wininet\internetclearallpersitecookiedecisions.htm

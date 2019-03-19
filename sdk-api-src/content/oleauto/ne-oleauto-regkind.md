@@ -1,6 +1,6 @@
 ---
 UID: NE:oleauto.tagREGKIND
-title: REGKIND
+title: REGKIND (oleauto.h)
 author: windows-sdk-content
 description: Controls how a type library is registered.
 old-location: automat\regkind.htm

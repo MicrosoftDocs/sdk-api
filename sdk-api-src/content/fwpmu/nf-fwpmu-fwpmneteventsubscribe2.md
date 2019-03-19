@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventSubscribe2
-title: FwpmNetEventSubscribe2 function
+title: FwpmNetEventSubscribe2 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding a particular net event.
 old-location: fwp\fwpmneteventsubscribe2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsFreeReader
-title: WsFreeReader function
+title: WsFreeReader function (webservices.h)
 author: windows-sdk-content
 description: Releases the memory resource associated with an XML_Reader object.
 old-location: wsw\wsfreereader.htm

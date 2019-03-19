@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.getItemInfo
-title: IWMPCdromBurn::getItemInfo
+title: IWMPCdromBurn::getItemInfo (wmp.h)
 author: windows-sdk-content
 description: The getItemInfo method retrieves the value of the specified attribute for the CD.
 old-location: wmp\iwmpcdromburn_getiteminfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsComputerOperations
-title: IADsComputerOperations
+title: IADsComputerOperations (iads.h)
 author: windows-sdk-content
 description: The IADsComputerOperations interface is a dual interface that inherits from IADs.
 old-location: adsi\iadscomputeroperations.htm

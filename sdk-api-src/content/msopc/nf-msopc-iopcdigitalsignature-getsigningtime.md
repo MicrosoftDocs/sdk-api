@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSigningTime
-title: IOpcDigitalSignature::GetSigningTime
+title: IOpcDigitalSignature::GetSigningTime (msopc.h)
 author: windows-sdk-content
 description: Gets a string that indicates the time at which the signature was generated.
 old-location: opc\iopcdigitalsignature_getsigningtime.htm

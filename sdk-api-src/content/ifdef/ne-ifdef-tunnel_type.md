@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef.__unnamed_enum_0
-title: TUNNEL_TYPE
+title: TUNNEL_TYPE (ifdef.h)
 author: windows-sdk-content
 description: The TUNNEL_TYPE enumeration type defines the encapsulation method used by a tunnel, as described by the Internet Assigned Names Authority (IANA).
 old-location: netvista\tunnel_type.htm

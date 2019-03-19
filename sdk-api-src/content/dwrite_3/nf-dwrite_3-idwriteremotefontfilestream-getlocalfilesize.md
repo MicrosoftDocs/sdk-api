@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocalFileSize
-title: IDWriteRemoteFontFileStream::GetLocalFileSize
+title: IDWriteRemoteFontFileStream::GetLocalFileSize (dwrite_3.h)
 author: windows-sdk-content
 description: GetLocalFileSize returns the number of bytes of the font file that are currently local, which should always be less than or equal to the full file size returned by GetFileSize.
 old-location: directwrite\idwriteremotefontfilestream_getlocalfilesize.htm

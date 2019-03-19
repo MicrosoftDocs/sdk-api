@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_Addresses
-title: ITPhone::get_Addresses
+title: ITPhone::get_Addresses (tapi3if.h)
 author: windows-sdk-content
 description: The get_Addresses method returns a collection of addresses that the phone can be used on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_addresses.htm

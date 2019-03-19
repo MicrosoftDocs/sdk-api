@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerRegisterMemoryBlock
-title: WerRegisterMemoryBlock function
+title: WerRegisterMemoryBlock function (werapi.h)
 author: windows-sdk-content
 description: Registers a memory block to be collected when WER creates an error report.
 old-location: wer\werregistermemoryblock.htm

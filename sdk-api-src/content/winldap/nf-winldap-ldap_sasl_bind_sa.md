@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_sasl_bind_sA
-title: ldap_sasl_bind_sA function
+title: ldap_sasl_bind_sA function (winldap.h)
 author: windows-sdk-content
 description: The ldap_sasl_bind_s function is a synchronous function that authenticates a client to the LDAP server using SASL.
 old-location: ldap\ldap_sasl_bind_s.htm

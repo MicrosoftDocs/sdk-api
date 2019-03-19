@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetRetrievalFilterStackSize
-title: ID3D10InfoQueue::GetRetrievalFilterStackSize
+title: ID3D10InfoQueue::GetRetrievalFilterStackSize (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Get the size of the retrieval-filter stack in bytes.
 old-location: direct3d10\id3d10infoqueue_getretrievalfilterstacksize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.FWPM_CONNECTION_CALLBACK0
-title: FWPM_CONNECTION_CALLBACK0
+title: FWPM_CONNECTION_CALLBACK0 (fwpmu.h)
 author: windows-sdk-content
 description: Is used to add custom behavior to the connection object subscription process.
 old-location: fwp\fwpm_connection_callback0.htm

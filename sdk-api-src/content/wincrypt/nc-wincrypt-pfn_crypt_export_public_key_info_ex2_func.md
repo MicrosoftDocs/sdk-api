@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
-title: PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC
+title: PFN_CRYPT_EXPORT_PUBLIC_KEY_INFO_EX2_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Called by CryptExportPublicKeyInfoEx to export a public key BLOB and encode it.
 old-location: security\pfn_crypt_export_public_key_info_ex2_func.htm

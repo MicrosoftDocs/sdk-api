@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_CANPLAY
-title: MF_MEDIA_ENGINE_CANPLAY
+title: MF_MEDIA_ENGINE_CANPLAY (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the likelihood that the Media Engine can play a specified type of media resource.
 old-location: mf\mf_media_engine_canplay.htm

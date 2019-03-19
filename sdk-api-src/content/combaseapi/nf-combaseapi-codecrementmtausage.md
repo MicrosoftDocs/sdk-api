@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoDecrementMTAUsage
-title: CoDecrementMTAUsage function
+title: CoDecrementMTAUsage function (combaseapi.h)
 author: windows-sdk-content
 description: Releases the increment made by a previous call to the CoIncrementMTAUsage function.
 old-location: com\codecrementmtausage.htm

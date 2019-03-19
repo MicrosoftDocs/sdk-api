@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IISDB_BIT
-title: IISDB_BIT
+title: IISDB_BIT (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT). A BIT contains a broadcaster unit and the service information transmission parameter for each broadcaster unit.
 old-location: mstv\iisdb_bit.htm

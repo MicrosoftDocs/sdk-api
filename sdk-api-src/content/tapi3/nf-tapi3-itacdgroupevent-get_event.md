@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITACDGroupEvent.get_Event
-title: ITACDGroupEvent::get_Event
+title: ITACDGroupEvent::get_Event (tapi3.h)
 author: windows-sdk-content
 description: The get_Event method gets the descriptor of an event which indicates that a new ACD group has been added.
 old-location: tapi3\itacdgroupevent_get_event.htm

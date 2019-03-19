@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._VMRFrequency
-title: VMRFrequency
+title: VMRFrequency (strmif.h)
 author: windows-sdk-content
 description: The VMRFrequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 old-location: dshow\vmrfrequency.htm

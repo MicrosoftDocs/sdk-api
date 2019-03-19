@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12SharingContract
-title: ID3D12SharingContract
+title: ID3D12SharingContract (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Part of a contract between D3D11On12 diagnostic layers and graphics diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract.htm

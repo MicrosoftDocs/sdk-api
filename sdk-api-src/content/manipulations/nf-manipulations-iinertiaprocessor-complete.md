@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.Complete
-title: IInertiaProcessor::Complete
+title: IInertiaProcessor::Complete (manipulations.h)
 author: windows-sdk-content
 description: The Complete method finishes the current manipulation and stops inertia on the inertia processor.
 old-location: wintouch\iinertiaprocessor_complete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.IsThreadpoolTimerSet
-title: IsThreadpoolTimerSet function
+title: IsThreadpoolTimerSet function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Determines whether the specified timer object is currently set.
 old-location: base\isthreadpooltimerset.htm

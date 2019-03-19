@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_ScheduledTime
-title: IFaxOutgoingJob::get_ScheduledTime
+title: IFaxOutgoingJob::get_ScheduledTime (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_ScheduledTime property indicates the time to submit the fax for processing to the fax service.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_scheduledtime_cpp.htm

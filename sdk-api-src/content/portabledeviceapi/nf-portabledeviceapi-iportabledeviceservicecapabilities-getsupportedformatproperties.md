@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedFormatProperties
-title: IPortableDeviceServiceCapabilities::GetSupportedFormatProperties
+title: IPortableDeviceServiceCapabilities::GetSupportedFormatProperties (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves the properties supported by the service for the specified format.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedformatproperties.htm

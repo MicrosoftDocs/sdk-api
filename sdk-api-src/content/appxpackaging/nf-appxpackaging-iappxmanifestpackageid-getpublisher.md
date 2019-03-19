@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetPublisher
-title: IAppxManifestPackageId::GetPublisher
+title: IAppxManifestPackageId::GetPublisher (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the name of the package publisher as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid_getpublisher.htm

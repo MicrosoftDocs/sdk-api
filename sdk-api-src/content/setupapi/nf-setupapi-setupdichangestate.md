@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiChangeState
-title: SetupDiChangeState function
+title: SetupDiChangeState function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiChangeState function is the default handler for the DIF_PROPERTYCHANGE installation request.
 old-location: devinst\setupdichangestate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorLess
-title: XMVectorLess function
+title: XMVectorLess function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for less-than between two vectors.
 old-location: dxmath\xmvectorless.htm

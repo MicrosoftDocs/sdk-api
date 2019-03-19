@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ShortMult
-title: ShortMult function
+title: ShortMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies two values of type SHORT.
 old-location: shell\ShortMult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaIAccessibleFromProvider
-title: UiaIAccessibleFromProvider function
+title: UiaIAccessibleFromProvider function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves an IAccessible implementation that provides Microsoft Active Accessibility data on behalf of a Microsoft UI Automation provider.
 old-location: winauto\uiauto_UiaIAccessibleFromProvider.htm

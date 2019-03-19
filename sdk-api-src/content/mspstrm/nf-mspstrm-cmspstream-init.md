@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.Init
-title: CMSPStream::Init
+title: CMSPStream::Init (mspstrm.h)
 author: windows-sdk-content
 description: The Init method is called by the MSPCall when the stream is created. It initializes the members, calls MSPCallAddRef on the call object, and queries for various interfaces on the filter graph.
 old-location: tapi3\cmspstream_init.htm

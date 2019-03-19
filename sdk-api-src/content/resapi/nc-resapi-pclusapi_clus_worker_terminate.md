@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PCLUSAPI_CLUS_WORKER_TERMINATE
-title: PCLUSAPI_CLUS_WORKER_TERMINATE
+title: PCLUSAPI_CLUS_WORKER_TERMINATE (resapi.h)
 author: windows-sdk-content
 description: Terminates a worker thread. The PCLUSAPI_CLUS_WORKER_TERMINATE type defines a pointer to this function.
 old-location: mscs\clusworkerterminate.htm

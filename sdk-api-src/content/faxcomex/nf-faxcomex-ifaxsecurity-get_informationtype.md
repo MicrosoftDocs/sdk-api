@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.get_InformationType
-title: IFaxSecurity::get_InformationType
+title: IFaxSecurity::get_InformationType (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSecurity::InformationType property represents the security information type.
 old-location: fax\_mfax_faxsecurity_informationtype_cpp.htm

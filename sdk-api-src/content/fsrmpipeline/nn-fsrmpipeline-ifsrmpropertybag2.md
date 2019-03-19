@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyBag2
-title: IFsrmPropertyBag2
+title: IFsrmPropertyBag2 (fsrmpipeline.h)
 author: windows-sdk-content
 description: IFsrmPropertyBag2 Interface
 old-location: fsrm\ifsrmpropertybag2.htm

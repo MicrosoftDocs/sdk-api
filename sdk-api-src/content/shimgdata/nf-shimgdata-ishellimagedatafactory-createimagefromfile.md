@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.CreateImageFromFile
-title: IShellImageDataFactory::CreateImageFromFile
+title: IShellImageDataFactory::CreateImageFromFile (shimgdata.h)
 author: windows-sdk-content
 description: Creates an instance of the IShellImageData interface based on a given file.
 old-location: shell\IShellImageDataFactory_CreateImageFromFile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.SetHomeProvider
-title: IMbnMultiCarrier::SetHomeProvider
+title: IMbnMultiCarrier::SetHomeProvider (mbnapi.h)
 author: windows-sdk-content
 description: Updates the home provider for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_sethomeprovider.htm

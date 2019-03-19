@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCreateCertificateChainEngine
-title: CertCreateCertificateChainEngine function
+title: CertCreateCertificateChainEngine function (wincrypt.h)
 author: windows-sdk-content
 description: The CertCreateCertificateChainEngine function creates a new, nondefault chain engine for an application.
 old-location: security\certcreatecertificatechainengine.htm

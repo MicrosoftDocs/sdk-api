@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.SetTargetSessionId
-title: IPackageDebugSettings::SetTargetSessionId
+title: IPackageDebugSettings::SetTargetSessionId (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the session identifier.
 old-location: shell\IPackageDebugSettings_SetTargetSessionId.htm

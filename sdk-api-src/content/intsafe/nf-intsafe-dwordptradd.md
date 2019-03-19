@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.DWordPtrAdd
-title: DWordPtrAdd function
+title: DWordPtrAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type DWORD_PTR.
 old-location: shell\DWordPtrAdd.htm

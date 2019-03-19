@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationTimerClientEventHandler
-title: IUIAnimationTimerClientEventHandler
+title: IUIAnimationTimerClientEventHandler (uianimation.h)
 author: windows-sdk-content
 description: Defines a method for handling events related to changes in timer client status.
 old-location: uianimation\iuianimationtimerclienteventhandler.htm

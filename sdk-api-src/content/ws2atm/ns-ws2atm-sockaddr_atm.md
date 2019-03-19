@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2atm.sockaddr_atm
-title: sockaddr_atm
+title: sockaddr_atm (ws2atm.h)
 author: windows-sdk-content
 description: The Windows Sockets sockaddr_atm structure stores socket address information for ATM sockets.
 old-location: winsock\sockaddr_atm_2.htm

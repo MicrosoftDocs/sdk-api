@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.Escape
-title: IWiaItemExtras::Escape
+title: IWiaItemExtras::Escape (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItemExtras::Escape method sends a request for a vendor-specific I/O operation to a still image device.
 old-location: wia\_wia_IWiaItemExtras_Escape.htm

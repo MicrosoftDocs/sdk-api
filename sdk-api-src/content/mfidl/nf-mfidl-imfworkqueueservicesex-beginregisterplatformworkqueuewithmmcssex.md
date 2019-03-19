@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServicesEx.BeginRegisterPlatformWorkQueueWithMMCSSEx
-title: IMFWorkQueueServicesEx::BeginRegisterPlatformWorkQueueWithMMCSSEx
+title: IMFWorkQueueServicesEx::BeginRegisterPlatformWorkQueueWithMMCSSEx (mfidl.h)
 author: windows-sdk-content
 description: Registers a platform work queue with Multimedia Class Scheduler Service (MMCSS) using the specified class and task id.
 old-location: mf\imfworkqueueservicesex_beginregisterplatformworkqueuewithmmcssex.htm

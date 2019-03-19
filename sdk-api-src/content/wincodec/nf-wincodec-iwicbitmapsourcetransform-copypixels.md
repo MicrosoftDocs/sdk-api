@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.CopyPixels
-title: IWICBitmapSourceTransform::CopyPixels
+title: IWICBitmapSourceTransform::CopyPixels (wincodec.h)
 author: windows-sdk-content
 description: Copies pixel data using the supplied input parameters.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_copypixels.htm

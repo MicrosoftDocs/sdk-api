@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IEnumStreamBufferRecordingAttrib
-title: IEnumStreamBufferRecordingAttrib
+title: IEnumStreamBufferRecordingAttrib (sbe.h)
 author: windows-sdk-content
 description: The IEnumStreamBufferRecordingAttrib interface enumerates a collection of attributes on a stream buffer file.
 old-location: mstv\ienumstreambufferrecordingattrib.htm

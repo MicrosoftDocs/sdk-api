@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDpiForWindow
-title: GetDpiForWindow function
+title: GetDpiForWindow function (winuser.h)
 author: windows-sdk-content
 description: Returns the dots per inch (dpi) value for the associated window.
 old-location: hidpi\getdpiforwindow.htm

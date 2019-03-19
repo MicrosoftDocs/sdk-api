@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_AllowPersonalCoverPages
-title: IFaxConfiguration::get_AllowPersonalCoverPages
+title: IFaxConfiguration::get_AllowPersonalCoverPages (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether personal cover pages are allowed.
 old-location: fax\_mfax_IFaxConfiguration_AllowPersonalCoverPages.htm

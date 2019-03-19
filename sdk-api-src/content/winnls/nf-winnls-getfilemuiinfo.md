@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetFileMUIInfo
-title: GetFileMUIInfo function
+title: GetFileMUIInfo function (winnls.h)
 author: windows-sdk-content
 description: Retrieves resource-related information about a file.
 old-location: intl\getfilemuiinfo.htm

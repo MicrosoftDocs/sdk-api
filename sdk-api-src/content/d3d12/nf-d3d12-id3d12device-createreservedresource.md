@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateReservedResource
-title: ID3D12Device::CreateReservedResource
+title: ID3D12Device::CreateReservedResource (d3d12.h)
 author: windows-sdk-content
 description: Creates a resource that is reserved, which is not yet mapped to any pages in a heap.
 old-location: direct3d12\id3d12device_createreservedresource.htm

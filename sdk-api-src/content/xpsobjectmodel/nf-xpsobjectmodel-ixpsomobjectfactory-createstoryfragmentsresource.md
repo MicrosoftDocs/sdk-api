@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateStoryFragmentsResource
-title: IXpsOMObjectFactory::CreateStoryFragmentsResource
+title: IXpsOMObjectFactory::CreateStoryFragmentsResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMStoryFragmentsResource interface that provides access to the content of the resource stream of a page's StoryFragments part.
 old-location: xps\ixpsomobjectfactory_createstoryfragmentsresource.htm

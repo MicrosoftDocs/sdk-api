@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnThreadItemChange
-title: ITfLangBarEventSink::OnThreadItemChange
+title: ITfLangBarEventSink::OnThreadItemChange (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarEventSink::OnThreadItemChange method
 old-location: tsf\itflangbareventsink_onthreaditemchange.htm

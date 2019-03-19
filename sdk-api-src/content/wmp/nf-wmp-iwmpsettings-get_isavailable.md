@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.get_isAvailable
-title: IWMPSettings::get_isAvailable
+title: IWMPSettings::get_isAvailable (wmp.h)
 author: windows-sdk-content
 description: The get_isAvailable method indicates whether a specified action can be performed.
 old-location: wmp\iwmpsettings_get_isavailable.htm

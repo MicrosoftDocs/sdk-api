@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.INetworkListManager
-title: INetworkListManager
+title: INetworkListManager (netlistmgr.h)
 author: windows-sdk-content
 description: The INetworkListManager interface provides a set of methods to perform network list management functions.
 old-location: nla\inetworklistmanager.htm

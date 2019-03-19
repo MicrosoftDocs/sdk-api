@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.AlgorithmOperationFlags
-title: AlgorithmOperationFlags
+title: AlgorithmOperationFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies the operations that an algorithm can perform.
 old-location: security\algorithmoperationflags_enum.htm

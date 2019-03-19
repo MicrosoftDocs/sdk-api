@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypesbase._COAUTHIDENTITY
-title: COAUTHIDENTITY
+title: COAUTHIDENTITY (wtypesbase.h)
 author: windows-sdk-content
 description: Contains a user name and password.
 old-location: com\coauthidentity.htm

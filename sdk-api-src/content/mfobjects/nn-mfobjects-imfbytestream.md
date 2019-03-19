@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFByteStream
-title: IMFByteStream
+title: IMFByteStream (mfobjects.h)
 author: windows-sdk-content
 description: Represents a byte stream from some data source, which might be a local file, a network file, or some other source.
 old-location: mf\imfbytestream.htm

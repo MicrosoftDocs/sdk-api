@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFilterGraph3
-title: IFilterGraph3
+title: IFilterGraph3 (strmif.h)
 author: windows-sdk-content
 description: The IFilterGraph3 interface extends the IFilterGraph2 interface, which contains methods for building filter graphs.The Filter Graph Manager implements this interface.
 old-location: dshow\ifiltergraph3.htm

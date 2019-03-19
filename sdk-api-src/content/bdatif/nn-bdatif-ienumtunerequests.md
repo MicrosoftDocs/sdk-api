@@ -1,6 +1,6 @@
 ---
 UID: NN:bdatif.IEnumTuneRequests
-title: IEnumTuneRequests
+title: IEnumTuneRequests (bdatif.h)
 author: windows-sdk-content
 description: The IEnumTuneRequests interface provides access to a collection of tune requests returned from a call to IGuideData::GetServices. This collection of tune requests represents all the services available in the tuning space.
 old-location: mstv\ienumtunerequests.htm

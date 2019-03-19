@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetTag
-title: IDvbShortEventDescriptor::GetTag
+title: IDvbShortEventDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_gettag.htm

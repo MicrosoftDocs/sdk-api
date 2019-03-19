@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.SetNumPreprocessingPasses
-title: IWMWriterPreprocess::SetNumPreprocessingPasses
+title: IWMWriterPreprocess::SetNumPreprocessingPasses (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetNumPreprocessingPasses method sets the number of passes to perform on an input.
 old-location: wmformat\iwmwriterpreprocess_setnumpreprocessingpasses.htm

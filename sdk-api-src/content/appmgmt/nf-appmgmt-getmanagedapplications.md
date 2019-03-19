@@ -1,6 +1,6 @@
 ---
 UID: NF:appmgmt.GetManagedApplications
-title: GetManagedApplications function
+title: GetManagedApplications function (appmgmt.h)
 author: windows-sdk-content
 description: The GetManagedApplications function gets a list of applications that are displayed in the Add pane of Add/Remove Programs (ARP) for a specified user context.
 old-location: policy\getmanagedapplications.htm

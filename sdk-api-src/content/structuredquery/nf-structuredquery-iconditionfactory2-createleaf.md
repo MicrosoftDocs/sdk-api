@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateLeaf
-title: IConditionFactory2::CreateLeaf
+title: IConditionFactory2::CreateLeaf (structuredquery.h)
 author: windows-sdk-content
 description: Creates a leaf condition node for any value. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateLeaf.htm

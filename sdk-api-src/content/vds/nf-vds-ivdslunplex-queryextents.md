@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunPlex.QueryExtents
-title: IVdsLunPlex::QueryExtents
+title: IVdsLunPlex::QueryExtents (vds.h)
 author: windows-sdk-content
 description: Returns an array of the drive extents that contribute to the plex.
 old-location: base\ivdslunplex_queryextents.htm

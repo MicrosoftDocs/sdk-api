@@ -1,6 +1,6 @@
 ---
 UID: NS:mftransform._MFT_OUTPUT_DATA_BUFFER
-title: MFT_OUTPUT_DATA_BUFFER
+title: MFT_OUTPUT_DATA_BUFFER (mftransform.h)
 author: windows-sdk-content
 description: Contains information about an output buffer for a Media Foundation transform. This structure is used in the IMFTransform::ProcessOutput method.
 old-location: mf\mft_output_data_buffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.DDCOLORKEY
-title: DDCOLORKEY
+title: DDCOLORKEY (strmif.h)
 author: windows-sdk-content
 description: Describes a color key as a range of values.
 old-location: dshow\ddcolorkey.htm

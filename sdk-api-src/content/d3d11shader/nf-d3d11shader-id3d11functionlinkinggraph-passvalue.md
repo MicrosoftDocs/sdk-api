@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.PassValue
-title: ID3D11FunctionLinkingGraph::PassValue
+title: ID3D11FunctionLinkingGraph::PassValue (d3d11shader.h)
 author: windows-sdk-content
 description: Passes a value from a source linking node to a destination linking node.
 old-location: direct3d11\id3d11functionlinkinggraph_passvalue.htm

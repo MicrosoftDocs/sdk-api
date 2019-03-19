@@ -1,6 +1,6 @@
 ---
 UID: NE:wscapi._WSC_SECURITY_PROVIDER
-title: WSC_SECURITY_PROVIDER
+title: WSC_SECURITY_PROVIDER (wscapi.h)
 author: windows-sdk-content
 description: Defines all the services that are monitored by Windows Security Center (WSC).
 old-location: winprog\wsc_security_provider.htm

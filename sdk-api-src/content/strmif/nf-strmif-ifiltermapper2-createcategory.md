@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper2.CreateCategory
-title: IFilterMapper2::CreateCategory
+title: IFilterMapper2::CreateCategory (strmif.h)
 author: windows-sdk-content
 description: The CreateCategory method adds a new filter category to the registry.
 old-location: dshow\ifiltermapper2_createcategory.htm

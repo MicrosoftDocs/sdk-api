@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetMailslotInfo
-title: SetMailslotInfo function
+title: SetMailslotInfo function (winbase.h)
 author: windows-sdk-content
 description: Sets the time-out value used by the specified mailslot for a read operation.
 old-location: base\setmailslotinfo.htm

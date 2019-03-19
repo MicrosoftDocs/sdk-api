@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_FriendlyName
-title: IUPnPDevice::get_FriendlyName
+title: IUPnPDevice::get_FriendlyName (upnp.h)
 author: windows-sdk-content
 description: The FriendlyName property specifies the device display name for the device.
 old-location: upnp\iupnpdevice_friendlyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetSize
-title: ID2D1RenderTarget::GetSize
+title: ID2D1RenderTarget::GetSize (d2d1.h)
 author: windows-sdk-content
 description: Returns the size of the render target in device-independent pixels.
 old-location: direct2d\ID2D1RenderTarget_GetSize.htm

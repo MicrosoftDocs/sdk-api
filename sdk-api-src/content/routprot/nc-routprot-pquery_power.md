@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PQUERY_POWER
-title: PQUERY_POWER
+title: PQUERY_POWER (routprot.h)
 author: windows-sdk-content
 description: The QueryPower function is reserved for future use.
 old-location: rras\querypower.htm

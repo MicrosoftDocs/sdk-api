@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchCombine
-title: PathCchCombine function
+title: PathCchCombine function (pathcch.h)
 author: windows-sdk-content
 description: Combines two path fragments into a single path.
 old-location: shell\PathCchCombine.htm

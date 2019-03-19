@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_QUALIFIER_INFO
-title: CERT_POLICY_QUALIFIER_INFO
+title: CERT_POLICY_QUALIFIER_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_POLICY_QUALIFIER_INFO structure contains an object identifier (OID) specifying the qualifier and qualifier-specific supplemental information.
 old-location: security\cert_policy_qualifier_info.htm

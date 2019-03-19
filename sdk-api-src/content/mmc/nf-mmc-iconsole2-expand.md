@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole2.Expand
-title: IConsole2::Expand
+title: IConsole2::Expand (mmc.h)
 author: windows-sdk-content
 description: The IConsole2::Expand method enables the snap-in to expand or collapse an item in the scope pane.
 old-location: mmc\iconsole2_expand.htm

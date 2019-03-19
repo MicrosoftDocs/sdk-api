@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMBrush
-title: IXpsOMBrush
+title: IXpsOMBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Defines objects that are used to paint graphical objects. Classes that derive from IXpsOMBrush describe how the area is painted.
 old-location: xps\ixpsombrush.htm

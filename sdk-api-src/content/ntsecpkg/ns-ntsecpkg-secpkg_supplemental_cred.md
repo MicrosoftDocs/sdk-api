@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SUPPLEMENTAL_CRED
-title: SECPKG_SUPPLEMENTAL_CRED
+title: SECPKG_SUPPLEMENTAL_CRED (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_SUPPLEMENTAL_CRED structure contains supplemental credentials recognized by the security package.
 old-location: security\secpkg_supplemental_cred.htm

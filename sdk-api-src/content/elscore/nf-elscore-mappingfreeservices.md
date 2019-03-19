@@ -1,6 +1,6 @@
 ---
 UID: NF:elscore.MappingFreeServices
-title: MappingFreeServices function
+title: MappingFreeServices function (elscore.h)
 author: windows-sdk-content
 description: Frees memory and resources allocated for the application to interact with one or more ELS services. The memory and resources are allocated in an application call to MappingGetServices.
 old-location: intl\mappingfreeservices.htm

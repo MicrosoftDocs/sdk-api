@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateArithmeticCompositeEffect
-title: IDCompositionDevice3::CreateArithmeticCompositeEffect
+title: IDCompositionDevice3::CreateArithmeticCompositeEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionArithmeticCompositeEffect.
 old-location: directcomp\idcompositiondevice3_createarithmeticcompositeeffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:workspaceax.IWorkspaceResTypeRegistry
-title: IWorkspaceResTypeRegistry
+title: IWorkspaceResTypeRegistry (workspaceax.h)
 author: windows-sdk-content
 description: Exposes methods that allow a plug-in to manage third-party file name extensions in RemoteApp and Desktop Connection runtime.
 old-location: termserv\iworkspacerestyperegistry.htm

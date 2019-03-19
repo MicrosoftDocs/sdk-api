@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnDisconnectComplete
-title: IMbnConnectionEvents::OnDisconnectComplete
+title: IMbnConnectionEvents::OnDisconnectComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates that a disconnection operation has been performed.
 old-location: mbn\imbnconnectionevents_ondisconnectcomplete.htm

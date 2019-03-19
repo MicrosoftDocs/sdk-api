@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngLoadModuleForWrite
-title: EngLoadModuleForWrite function
+title: EngLoadModuleForWrite function (winddi.h)
 author: windows-sdk-content
 description: The EngLoadModuleForWrite function loads the specified executable module into system memory for writing.
 old-location: display\engloadmoduleforwrite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertEmbeddedAtSelection
-title: ITextStoreAnchor::InsertEmbeddedAtSelection
+title: ITextStoreAnchor::InsertEmbeddedAtSelection (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::InsertEmbeddedAtSelection method inserts an IDataObject object at the insertion point or selection. The client that calls this method must have a read/write lock before inserting an IDataObject into the text stream.
 old-location: tsf\itextstoreanchor_insertembeddedatselection.htm

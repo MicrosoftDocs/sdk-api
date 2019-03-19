@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accName
-title: IAccessible::get_accName
+title: IAccessible::get_accName (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accName method retrieves the name of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accname.htm

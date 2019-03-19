@@ -1,6 +1,6 @@
 ---
 UID: NE:certsrv.__unnamed_enum_0
-title: ENUM_CATYPES
+title: ENUM_CATYPES (certsrv.h)
 author: windows-sdk-content
 description: Specifies a certification authority (CA) type.
 old-location: security\enum_catypes.htm

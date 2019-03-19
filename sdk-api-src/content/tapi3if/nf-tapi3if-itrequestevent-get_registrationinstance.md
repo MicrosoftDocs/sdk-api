@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_RegistrationInstance
-title: ITRequestEvent::get_RegistrationInstance
+title: ITRequestEvent::get_RegistrationInstance (tapi3if.h)
 author: windows-sdk-content
 description: The get_RegistrationInstance method gets the registration instance.
 old-location: tapi3\itrequestevent_get_registrationinstance.htm

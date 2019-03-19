@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_Mul
-title: FLOATOBJ_Mul function
+title: FLOATOBJ_Mul function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_Mul function multiplies the two FLOATOBJs, and returns with the result in the first parameter.
 old-location: display\floatobj_mul.htm

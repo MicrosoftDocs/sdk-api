@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_LAYER_OPTIONS1
-title: D2D1_LAYER_OPTIONS1
+title: D2D1_LAYER_OPTIONS1 (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies how the layer contents should be prepared.
 old-location: direct2d\d2d1_layer_options1.htm

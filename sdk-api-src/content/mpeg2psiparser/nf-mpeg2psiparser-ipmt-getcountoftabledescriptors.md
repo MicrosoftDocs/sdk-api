@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetCountOfTableDescriptors
-title: IPMT::GetCountOfTableDescriptors
+title: IPMT::GetCountOfTableDescriptors (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetCountOfTableDescriptors method returns the number of table-wide descriptors in the PMT.
 old-location: mstv\ipmt_getcountoftabledescriptors.htm

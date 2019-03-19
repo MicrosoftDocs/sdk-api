@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeFromProvider
-title: UiaNodeFromProvider function
+title: UiaNodeFromProvider function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves the UI Automation node for a raw element provider.
 old-location: winauto\uiauto_UiaNodeFromProviderFunction.htm

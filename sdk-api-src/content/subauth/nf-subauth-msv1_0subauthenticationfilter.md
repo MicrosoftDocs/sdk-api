@@ -1,6 +1,6 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationFilter
-title: Msv1_0SubAuthenticationFilter function
+title: Msv1_0SubAuthenticationFilter function (subauth.h)
 author: windows-sdk-content
 description: Performs user logon authentication that is specific to domain controllers.
 old-location: security\msv1_0subauthenticationfilter.htm

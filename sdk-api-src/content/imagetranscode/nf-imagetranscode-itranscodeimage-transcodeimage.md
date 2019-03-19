@@ -1,6 +1,6 @@
 ---
 UID: NF:imagetranscode.ITranscodeImage.TranscodeImage
-title: ITranscodeImage::TranscodeImage
+title: ITranscodeImage::TranscodeImage (imagetranscode.h)
 author: windows-sdk-content
 description: Converts an image to JPEG or bitmap (BMP) image format.
 old-location: shell\TranscodeImage.htm

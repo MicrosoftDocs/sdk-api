@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_WRITING_MODE
-title: MF_TIMED_TEXT_WRITING_MODE
+title: MF_TIMED_TEXT_WRITING_MODE (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the sequence in which text is written on its parent element.
 old-location: mf\mf_timed_text_writing_mode.htm

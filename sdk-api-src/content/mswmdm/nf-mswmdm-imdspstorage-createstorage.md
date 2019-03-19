@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.CreateStorage
-title: IMDSPStorage::CreateStorage
+title: IMDSPStorage::CreateStorage (mswmdm.h)
 author: windows-sdk-content
 description: The CreateStorage method creates a new storage and returns a pointer to the IMDSPStorage interface on the newly created storage.
 old-location: wmdm\imdspstorage_createstorage.htm

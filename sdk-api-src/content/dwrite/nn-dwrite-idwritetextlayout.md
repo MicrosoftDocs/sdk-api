@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteTextLayout
-title: IDWriteTextLayout
+title: IDWriteTextLayout (dwrite.h)
 author: windows-sdk-content
 description: The IDWriteTextLayout interface represents a block of text after it has been fully analyzed and formatted.
 old-location: directwrite\IDWriteTextLayout.htm

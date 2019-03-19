@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetFileAttributesTransactedA
-title: SetFileAttributesTransactedA function
+title: SetFileAttributesTransactedA function (winbase.h)
 author: windows-sdk-content
 description: Sets the attributes for a file or directory as a transacted operation.
 old-location: fs\setfileattributestransacted.htm

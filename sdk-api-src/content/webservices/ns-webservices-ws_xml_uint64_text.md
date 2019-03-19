@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_UINT64_TEXT
-title: WS_XML_UINT64_TEXT
+title: WS_XML_UINT64_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents an unsigned 64 bit integer.
 old-location: wsw\ws_xml_uint64_text.htm

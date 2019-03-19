@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetTechniqueByName
-title: ID3D10Effect::GetTechniqueByName
+title: ID3D10Effect::GetTechniqueByName (d3d10effect.h)
 author: windows-sdk-content
 description: Get a technique by name.
 old-location: direct3d10\id3d10effect_gettechniquebyname.htm

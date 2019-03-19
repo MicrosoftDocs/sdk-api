@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontStretch
-title: IDWriteTextLayout::SetFontStretch
+title: IDWriteTextLayout::SetFontStretch (dwrite.h)
 author: windows-sdk-content
 description: Sets the font stretch for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetFontStretch.htm

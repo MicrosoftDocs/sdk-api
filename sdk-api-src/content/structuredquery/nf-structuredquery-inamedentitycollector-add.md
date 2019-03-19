@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.INamedEntityCollector.Add
-title: INamedEntityCollector::Add
+title: INamedEntityCollector::Add (structuredquery.h)
 author: windows-sdk-content
 description: Adds a single (potential) named entity to this INamedEntityCollector collection, as identified in a tokenized span of the input string being parsed.
 old-location: search\_search_INamedEntityCollector_Add.htm

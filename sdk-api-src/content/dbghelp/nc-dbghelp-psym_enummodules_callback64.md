@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMMODULES_CALLBACK64
-title: PSYM_ENUMMODULES_CALLBACK64
+title: PSYM_ENUMMODULES_CALLBACK64 (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumerateModules64 function. It is called once for each enumerated module, and receives the module information.
 old-location: base\symenumeratemodulesproc64.htm

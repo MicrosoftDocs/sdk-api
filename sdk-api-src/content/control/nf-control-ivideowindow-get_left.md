@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_Left
-title: IVideoWindow::get_Left
+title: IVideoWindow::get_Left (control.h)
 author: windows-sdk-content
 description: The get_Left method retrieves the video window's x-axis coordinate.
 old-location: dshow\ivideowindow_get_left.htm

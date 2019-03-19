@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetUserData
-title: IMFPMediaItem::SetUserData
+title: IMFPMediaItem::SetUserData (mfplay.h)
 author: windows-sdk-content
 description: Stores an application-defined value in the media item.
 old-location: mf\imfpmediaitem_setuserdata.htm

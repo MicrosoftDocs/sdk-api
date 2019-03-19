@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkExtendedProperties
-title: IInkExtendedProperties
+title: IInkExtendedProperties (msinkaut.h)
 author: windows-sdk-content
 description: Represents a collection of IInkExtendedProperty objects that contain application-defined data.
 old-location: tablet\iinkextendedproperties.htm

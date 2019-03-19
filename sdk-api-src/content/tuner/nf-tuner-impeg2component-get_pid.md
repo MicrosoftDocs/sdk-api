@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2Component.get_PID
-title: IMPEG2Component::get_PID
+title: IMPEG2Component::get_PID (tuner.h)
 author: windows-sdk-content
 description: The get_PID method returns the packet identifier (PID) for this substream.
 old-location: mstv\impeg2component_get_pid.htm

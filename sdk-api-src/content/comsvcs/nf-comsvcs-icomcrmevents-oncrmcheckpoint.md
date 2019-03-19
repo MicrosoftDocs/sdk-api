@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMCheckpoint
-title: IComCRMEvents::OnCRMCheckpoint
+title: IComCRMEvents::OnCRMCheckpoint (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a CRM checkpoint occurs.
 old-location: cos\icomcrmevents_oncrmcheckpoint.htm

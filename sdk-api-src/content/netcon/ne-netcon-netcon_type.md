@@ -1,6 +1,6 @@
 ---
 UID: NE:netcon.tagNETCON_TYPE
-title: NETCON_TYPE
+title: NETCON_TYPE (netcon.h)
 author: windows-sdk-content
 description: The NETCON_TYPE type enumerates the various kinds of network connections.
 old-location: ics\netcon_type.htm

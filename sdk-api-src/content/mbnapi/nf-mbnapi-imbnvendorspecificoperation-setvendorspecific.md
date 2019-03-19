@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnVendorSpecificOperation.SetVendorSpecific
-title: IMbnVendorSpecificOperation::SetVendorSpecific
+title: IMbnVendorSpecificOperation::SetVendorSpecific (mbnapi.h)
 author: windows-sdk-content
 description: Sends a request to the underlying Mobile Broadband device miniport driver.
 old-location: mbn\imbnvendorspecificoperation_setvendorspecific.htm

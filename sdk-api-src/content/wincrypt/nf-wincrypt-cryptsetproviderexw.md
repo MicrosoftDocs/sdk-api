@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSetProviderExW
-title: CryptSetProviderExW function
+title: CryptSetProviderExW function (wincrypt.h)
 author: windows-sdk-content
 description: Specifies the default cryptographic service provider (CSP) of a specified provider type for the local computer or current user.
 old-location: security\cryptsetproviderex.htm

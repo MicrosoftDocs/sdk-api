@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionBasicConstraints.get_PathLenConstraint
-title: IX509ExtensionBasicConstraints::get_PathLenConstraint
+title: IX509ExtensionBasicConstraints::get_PathLenConstraint (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the depth of the subordinate certification authority chain.
 old-location: security\ix509extensionbasicconstraints_pathlenconstraint_property.htm

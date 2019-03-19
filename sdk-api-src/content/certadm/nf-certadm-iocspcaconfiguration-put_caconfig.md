@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_CAConfig
-title: IOCSPCAConfiguration::put_CAConfig
+title: IOCSPCAConfiguration::put_CAConfig (certadm.h)
 author: windows-sdk-content
 description: Gets or sets a certification authority (CA) name with which a signing certificate must be signed.
 old-location: security\iocspcaconfiguration_caconfig.htm

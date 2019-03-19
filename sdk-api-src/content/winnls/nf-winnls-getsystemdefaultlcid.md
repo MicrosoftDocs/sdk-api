@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetSystemDefaultLCID
-title: GetSystemDefaultLCID function
+title: GetSystemDefaultLCID function (winnls.h)
 author: windows-sdk-content
 description: Returns the locale identifier for the system locale.Note  Any application that runs only on Windows Vista and later should use GetSystemDefaultLocaleName in preference to this function.
 old-location: intl\getsystemdefaultlcid.htm

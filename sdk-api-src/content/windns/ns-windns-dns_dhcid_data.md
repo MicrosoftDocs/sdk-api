@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_19
-title: DNS_DHCID_DATA
+title: DNS_DHCID_DATA (windns.h)
 author: windows-sdk-content
 description: Represents a DNS Dynamic Host Configuration Protocol Information (DHCID) resource record (RR) as specified in section 3 of RFC 4701.
 old-location: dns\dns_dhcid_data.htm

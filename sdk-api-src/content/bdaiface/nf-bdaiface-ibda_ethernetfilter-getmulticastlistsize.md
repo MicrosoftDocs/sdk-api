@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.GetMulticastListSize
-title: IBDA_EthernetFilter::GetMulticastListSize
+title: IBDA_EthernetFilter::GetMulticastListSize (bdaiface.h)
 author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the number of addresses currently in the list.
 old-location: mstv\ibda_ethernetfilter_getmulticastlistsize.htm

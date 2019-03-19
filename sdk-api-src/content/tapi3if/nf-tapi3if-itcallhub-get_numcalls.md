@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallHub.get_NumCalls
-title: ITCallHub::get_NumCalls
+title: ITCallHub::get_NumCalls (tapi3if.h)
 author: windows-sdk-content
 description: The get_NumCalls method gets the number of calls currently in the CallHub.
 old-location: tapi3\itcallhub_get_numcalls.htm

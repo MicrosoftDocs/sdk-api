@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_4.IDXGIOutput4
-title: IDXGIOutput4
+title: IDXGIOutput4 (dxgi1_4.h)
 author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput4 interface exposes a method to check for overlay color space support.
 old-location: direct3ddxgi\idxgioutput4.htm

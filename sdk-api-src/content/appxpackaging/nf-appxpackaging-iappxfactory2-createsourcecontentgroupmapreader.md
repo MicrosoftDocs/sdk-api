@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateSourceContentGroupMapReader
-title: IAppxFactory2::CreateSourceContentGroupMapReader
+title: IAppxFactory2::CreateSourceContentGroupMapReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates an IAppxSourceContentGroupMapReader.
 old-location: appxpkg\iappxfactory2_createsourcecontentgroupmapreader.htm

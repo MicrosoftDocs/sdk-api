@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtSeek
-title: EvtSeek function
+title: EvtSeek function (winevt.h)
 author: windows-sdk-content
 description: Seeks to a specific event in a query result set.
 old-location: wes\evtseek.htm

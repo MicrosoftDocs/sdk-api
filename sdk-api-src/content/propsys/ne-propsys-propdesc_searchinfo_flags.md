@@ -1,6 +1,6 @@
 ---
 UID: NE:propsys.PROPDESC_SEARCHINFO_FLAGS
-title: PROPDESC_SEARCHINFO_FLAGS
+title: PROPDESC_SEARCHINFO_FLAGS (propsys.h)
 author: windows-sdk-content
 description: Determines whether and how a property is indexed by Windows Search.
 old-location: properties\PROPDESC_SEARCHINFO_FLAGS.htm

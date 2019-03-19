@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.midiproptempo_tag
-title: MIDIPROPTEMPO
+title: MIDIPROPTEMPO (mmeapi.h)
 author: windows-sdk-content
 description: The MIDIPROPTEMPO structure contains the tempo property for a stream.
 old-location: multimedia\midiproptempo.htm

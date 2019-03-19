@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetDrawBackgroundMode
-title: IAMLine21Decoder::SetDrawBackgroundMode
+title: IAMLine21Decoder::SetDrawBackgroundMode (il21dec.h)
 author: windows-sdk-content
 description: The SetDrawBackgroundMode method specifies whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
 old-location: dshow\iamline21decoder_setdrawbackgroundmode.htm

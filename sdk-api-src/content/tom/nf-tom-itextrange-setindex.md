@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.SetIndex
-title: ITextRange::SetIndex
+title: ITextRange::SetIndex (tom.h)
 author: windows-sdk-content
 description: Changes this range to the specified unit of the story.
 old-location: controls\ITextRange_SetIndex.htm

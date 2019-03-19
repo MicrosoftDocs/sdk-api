@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._DVENCODERRESOLUTION
-title: "_DVENCODERRESOLUTION"
+title: "_DVENCODERRESOLUTION" (strmif.h)
 author: windows-sdk-content
 description: Indicates the digital video (DV) encoding resolution.
 old-location: dshow\dvencoderresolution.htm

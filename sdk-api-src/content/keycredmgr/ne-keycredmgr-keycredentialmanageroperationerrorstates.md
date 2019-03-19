@@ -1,6 +1,6 @@
 ---
 UID: NE:keycredmgr.KeyCredentialManagerOperationErrorStates
-title: KeyCredentialManagerOperationErrorStates
+title: KeyCredentialManagerOperationErrorStates (keycredmgr.h)
 author: windows-sdk-content
 description: Enumeration of Error states returned by the function KeyCredentialManagerGetOperationErrorStates as flags.
 old-location: security\keycredentialmanageroperationerrorstates.htm

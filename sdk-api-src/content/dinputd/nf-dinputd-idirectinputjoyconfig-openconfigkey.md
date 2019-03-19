@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig.OpenConfigKey
-title: IDirectInputJoyConfig::OpenConfigKey
+title: IDirectInputJoyConfig::OpenConfigKey (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputJoyConfig8::OpenConfigKey method opens IDirectInputJoyConfigthe registry key associated with a joystick configuration.
 old-location: hid\idirectinputjoyconfig8_openconfigkey.htm

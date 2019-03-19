@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetBump
-title: IAMExtTransport::GetBump
+title: IAMExtTransport::GetBump (strmif.h)
 author: windows-sdk-content
 description: The GetBump method retrieves the status of bump mode.
 old-location: dshow\iamexttransport_getbump.htm

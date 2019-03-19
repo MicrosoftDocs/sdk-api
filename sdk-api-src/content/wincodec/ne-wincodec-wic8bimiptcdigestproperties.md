@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WIC8BIMIptcDigestProperties
-title: WIC8BIMIptcDigestProperties
+title: WIC8BIMIptcDigestProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata block.
 old-location: wic\_wic_codec_wic8bimiptcdigestproperties.htm

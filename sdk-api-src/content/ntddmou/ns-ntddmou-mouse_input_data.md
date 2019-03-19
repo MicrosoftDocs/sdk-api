@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmou._MOUSE_INPUT_DATA
-title: MOUSE_INPUT_DATA
+title: MOUSE_INPUT_DATA (ntddmou.h)
 author: windows-sdk-content
 description: MOUSE_INPUT_DATA contains one packet of mouse input data.
 old-location: hid\mouse_input_data.htm

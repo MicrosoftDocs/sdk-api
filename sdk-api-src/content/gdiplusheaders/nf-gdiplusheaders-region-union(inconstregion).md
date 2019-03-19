@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Union(IN const Region)
-title: Region::Union(IN const Region)
+title: Region::Union(IN const Region) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of another region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Union_region_.htm

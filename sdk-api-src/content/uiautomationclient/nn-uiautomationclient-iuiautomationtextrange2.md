@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRange2
-title: IUIAutomationTextRange2
+title: IUIAutomationTextRange2 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationTextRange interface to enable Microsoft UI Automation clients to programmatically invoke context menus.
 old-location: winauto\uiauto_IUIAutomationTextRange2.htm

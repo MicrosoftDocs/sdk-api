@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_Recorder
-title: IDiscFormat2Erase::put_Recorder
+title: IDiscFormat2Erase::put_Recorder (imapi2.h)
 author: windows-sdk-content
 description: Sets the recording device to use in the erase operation.
 old-location: imapi\idiscformat2erase_put_recorder.htm

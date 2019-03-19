@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.ResetProtocolRolloverSettings
-title: IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings
+title: IMFNetSchemeHandlerConfig::ResetProtocolRolloverSettings (mfidl.h)
 author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\imfnetschemehandlerconfig_resetprotocolrolloversettings.htm

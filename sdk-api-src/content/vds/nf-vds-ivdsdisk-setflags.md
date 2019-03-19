@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.SetFlags
-title: IVdsDisk::SetFlags
+title: IVdsDisk::SetFlags (vds.h)
 author: windows-sdk-content
 description: Sets the flags of a disk object.
 old-location: base\ivdsdisk_setflags.htm

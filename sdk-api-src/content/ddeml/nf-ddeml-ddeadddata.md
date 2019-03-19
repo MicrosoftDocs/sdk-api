@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeAddData
-title: DdeAddData function
+title: DdeAddData function (ddeml.h)
 author: windows-sdk-content
 description: Adds data to the specified Dynamic Data Exchange (DDE) object.
 old-location: dataxchg\ddeadddata.htm

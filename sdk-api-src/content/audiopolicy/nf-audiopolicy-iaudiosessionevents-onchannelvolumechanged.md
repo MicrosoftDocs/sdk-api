@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnChannelVolumeChanged
-title: IAudioSessionEvents::OnChannelVolumeChanged
+title: IAudioSessionEvents::OnChannelVolumeChanged (audiopolicy.h)
 author: windows-sdk-content
 description: The OnChannelVolumeChanged method notifies the client that the volume level of an audio channel in the session submix has changed.
 old-location: coreaudio\iaudiosessionevents_onchannelvolumechanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATAdminCalcHashFromFileHandle
-title: CryptCATAdminCalcHashFromFileHandle function
+title: CryptCATAdminCalcHashFromFileHandle function (mscat.h)
 author: windows-sdk-content
 description: Calculates the hash for a file.
 old-location: security\cryptcatadmincalchashfromfilehandle.htm

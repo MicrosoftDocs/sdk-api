@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_DESKTOP_IMAGE_INFO
-title: DISPLAYCONFIG_DESKTOP_IMAGE_INFO
+title: DISPLAYCONFIG_DESKTOP_IMAGE_INFO (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure contains information about the image displayed on the desktop.
 old-location: display\displayconfig_desktop_image_info.htm

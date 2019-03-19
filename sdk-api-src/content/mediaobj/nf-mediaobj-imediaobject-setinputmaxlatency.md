@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.SetInputMaxLatency
-title: IMediaObject::SetInputMaxLatency
+title: IMediaObject::SetInputMaxLatency (mediaobj.h)
 author: windows-sdk-content
 description: The SetInputMaxLatency method sets the maximum latency on a specified input stream. For the definition of maximum latency, see IMediaObject::GetInputMaxLatency.
 old-location: dshow\imediaobject_setinputmaxlatency.htm

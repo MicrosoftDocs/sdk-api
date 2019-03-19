@@ -1,6 +1,6 @@
 ---
 UID: NS:dmoreg._DMO_PARTIAL_MEDIATYPE
-title: DMO_PARTIAL_MEDIATYPE
+title: DMO_PARTIAL_MEDIATYPE (dmoreg.h)
 author: windows-sdk-content
 description: The DMO_PARTIAL_MEDIATYPE structure partially describes a media type used by a Microsoft DirectX Media Object (DMO). The DMO registration functions use this structure to specify supported media types.
 old-location: dshow\dmo_partial_mediatype.htm

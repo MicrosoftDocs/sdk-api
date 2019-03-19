@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetDownloadDataId
-title: IISDB_CDT::GetDownloadDataId
+title: IISDB_CDT::GetDownloadDataId (dvbsiparser.h)
 author: windows-sdk-content
 description: Receives the download_data_id field value for a logo transmission descriptor from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT). The download_data_id field identifies the data to be downloaded.
 old-location: mstv\iisdb_cdt_getdownloaddataid.htm

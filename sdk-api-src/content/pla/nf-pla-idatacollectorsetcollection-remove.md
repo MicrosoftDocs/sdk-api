@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Remove
-title: IDataCollectorSetCollection::Remove
+title: IDataCollectorSetCollection::Remove (pla.h)
 author: windows-sdk-content
 description: Removes a data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_remove.htm

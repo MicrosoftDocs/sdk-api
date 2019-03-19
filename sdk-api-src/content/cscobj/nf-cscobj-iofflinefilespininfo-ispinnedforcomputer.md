@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinnedForComputer
-title: IOfflineFilesPinInfo::IsPinnedForComputer
+title: IOfflineFilesPinInfo::IsPinnedForComputer (cscobj.h)
 author: windows-sdk-content
 description: Determines whether the item was pinned for all users on the computer by Group Policy.
 old-location: of\iofflinefilespininfo_ispinnedforcomputer.htm

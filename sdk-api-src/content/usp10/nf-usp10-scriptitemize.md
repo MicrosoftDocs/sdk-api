@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptItemize
-title: ScriptItemize function
+title: ScriptItemize function (usp10.h)
 author: windows-sdk-content
 description: Breaks a Unicode string into individually shapeable items.
 old-location: intl\scriptitemize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.AddPolicyServer
-title: IX509EnrollmentHelper::AddPolicyServer
+title: IX509EnrollmentHelper::AddPolicyServer (certenroll.h)
 author: windows-sdk-content
 description: Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.
 old-location: security\ix509enrollmenthelper_addpolicyserver.htm

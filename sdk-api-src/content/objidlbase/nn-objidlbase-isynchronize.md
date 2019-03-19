@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.ISynchronize
-title: ISynchronize
+title: ISynchronize (objidlbase.h)
 author: windows-sdk-content
 description: Provides asynchronous communication between objects about the occurrence of an event.
 old-location: com\isynchronize.htm

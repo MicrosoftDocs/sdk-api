@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_BUFFERS
-title: WS_BUFFERS
+title: WS_BUFFERS (webservices.h)
 author: windows-sdk-content
 description: A structure used to represent a discontiguous array of WS_BYTES.
 old-location: wsw\ws_buffers.htm

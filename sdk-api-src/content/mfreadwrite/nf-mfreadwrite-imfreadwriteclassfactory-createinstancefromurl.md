@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromURL
-title: IMFReadWriteClassFactory::CreateInstanceFromURL
+title: IMFReadWriteClassFactory::CreateInstanceFromURL (mfreadwrite.h)
 author: windows-sdk-content
 description: Creates an instance of the sink writer or source reader, given a URL.
 old-location: mf\imfreadwriteclassfactory_createinstancefromurl.htm

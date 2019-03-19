@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.AcceptConnection
-title: IWTSProtocolConnection::AcceptConnection
+title: IWTSProtocolConnection::AcceptConnection (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::AcceptConnection is no longer available. Instead, use IWRdsProtocolConnection::AcceptConnection.
 old-location: termserv\iwtsprotocolconnection_acceptconnection.htm

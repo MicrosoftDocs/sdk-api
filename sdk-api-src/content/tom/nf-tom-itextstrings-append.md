@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.Append
-title: ITextStrings::Append
+title: ITextStrings::Append (tom.h)
 author: windows-sdk-content
 description: Appends a string to the string at the specified index in the collection.
 old-location: controls\itextstrings_append.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDHttpMessageParameters
-title: IWSDHttpMessageParameters
+title: IWSDHttpMessageParameters (wsdbase.h)
 author: windows-sdk-content
 description: Provides access to the HTTP headers used when transmitting messages via SOAP-over-HTTP.
 old-location: ncd\iwsdhttpmessageparameters.htm

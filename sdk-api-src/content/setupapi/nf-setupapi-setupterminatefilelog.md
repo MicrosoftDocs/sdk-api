@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupTerminateFileLog
-title: SetupTerminateFileLog function
+title: SetupTerminateFileLog function (setupapi.h)
 author: windows-sdk-content
 description: The SetupTerminateFileLog function releases resources associated with a file log.
 old-location: setup\setupterminatefilelog.htm

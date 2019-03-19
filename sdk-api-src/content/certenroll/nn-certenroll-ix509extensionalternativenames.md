@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionAlternativeNames
-title: IX509ExtensionAlternativeNames
+title: IX509ExtensionAlternativeNames (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify one or more alternative name forms for the subject of a certificate. A certification authority processes the extension by binding the names to the certified public key.
 old-location: security\ix509extensionalternativenames.htm

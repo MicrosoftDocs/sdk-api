@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Unassociate
-title: IPNPXDeviceAssociation::Unassociate
+title: IPNPXDeviceAssociation::Unassociate (pnpxassoc.h)
 author: windows-sdk-content
 description: Marks an association database entry as unassociated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_unassociate.htm

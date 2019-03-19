@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._SEC_WINNT_AUTH_IDENTITY_W
-title: SEC_WINNT_AUTH_IDENTITY_W
+title: SEC_WINNT_AUTH_IDENTITY_W (rpcdce.h)
 author: windows-sdk-content
 description: The SEC_WINNT_AUTH_IDENTITY structure enables passing a particular user name and password to the run-time library for the purpose of authentication. The structure is valid for Windows and Macintosh.
 old-location: rpc\sec_winnt_auth_identity.htm

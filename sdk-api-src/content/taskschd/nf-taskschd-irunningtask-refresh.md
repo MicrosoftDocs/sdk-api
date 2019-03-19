@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRunningTask.Refresh
-title: IRunningTask::Refresh
+title: IRunningTask::Refresh (taskschd.h)
 author: windows-sdk-content
 description: Refreshes all of the local instance variables of the task.
 old-location: taskschd\irunningtask_refresh.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.PresentBuffer
-title: IDXGIDecodeSwapChain::PresentBuffer
+title: IDXGIDecodeSwapChain::PresentBuffer (dxgi1_3.h)
 author: windows-sdk-content
 description: Presents a frame on the output adapter.
 old-location: direct3ddxgi\idxgidecodeswapchain_presentbuffer.htm

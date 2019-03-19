@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PREAD_PROCESS_MEMORY_ROUTINE
-title: PREAD_PROCESS_MEMORY_ROUTINE
+title: PREAD_PROCESS_MEMORY_ROUTINE (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It is called when StackWalk64 needs to read memory from the address space of the process.
 old-location: base\readprocessmemoryproc64.htm

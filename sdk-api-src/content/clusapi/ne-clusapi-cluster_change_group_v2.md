@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_GROUP_V2
-title: CLUSTER_CHANGE_GROUP_V2
+title: CLUSTER_CHANGE_GROUP_V2 (clusapi.h)
 author: windows-sdk-content
 description: Defines the list of notifications that are generated for a group.
 old-location: mscs\cluster_change_group_v2.htm

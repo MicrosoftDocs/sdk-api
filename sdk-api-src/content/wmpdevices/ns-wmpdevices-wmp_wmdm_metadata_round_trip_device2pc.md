@@ -1,6 +1,6 @@
 ---
 UID: NS:wmpdevices._WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
-title: WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC
+title: WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC (wmpdevices.h)
 author: windows-sdk-content
 description: The WMP_WMDM_METADATA_ROUND_TRIP_DEVICE2PC structure is used by Windows Media Player to receive accelerated metadata synchronization information from portable devices that do not support MTP.
 old-location: wmp\wmp_wmdm_metadata_round_trip_device2pc.htm

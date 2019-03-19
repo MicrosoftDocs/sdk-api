@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2Data.GetSection
-title: IMpeg2Data::GetSection
+title: IMpeg2Data::GetSection (mpeg2data.h)
 author: windows-sdk-content
 description: GetSection is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data_getsection.htm

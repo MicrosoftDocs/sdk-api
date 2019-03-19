@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateTransferPercent
-title: IPhotoAcquireProgressCB::UpdateTransferPercent
+title: IPhotoAcquireProgressCB::UpdateTransferPercent (photoacquire.h)
 author: windows-sdk-content
 description: The UpdateTransferPercent method provides extended functionality when the percentage of items transferred changes. The application provides the implementation of the UpdateTransferPercent method.
 old-location: picacq\iphotoacquireprogresscb_updatetransferpercent.htm

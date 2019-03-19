@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IInvokeProvider.Invoke
-title: IInvokeProvider::Invoke
+title: IInvokeProvider::Invoke (uiautomationcore.h)
 author: windows-sdk-content
 description: Sends a request to activate a control and initiate its single, unambiguous action.
 old-location: winauto\uiauto_IInvokeProvider_Invoke.htm

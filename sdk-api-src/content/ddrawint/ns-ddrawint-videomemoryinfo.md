@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._VIDEOMEMORYINFO
-title: VIDEOMEMORYINFO
+title: VIDEOMEMORYINFO (ddrawint.h)
 author: windows-sdk-content
 description: The VIDEOMEMORYINFO structure describes the general format of the display's memory.
 old-location: display\videomemoryinfo.htm

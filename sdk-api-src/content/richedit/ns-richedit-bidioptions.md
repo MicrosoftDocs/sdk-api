@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._bidioptions
-title: BIDIOPTIONS
+title: BIDIOPTIONS (richedit.h)
 author: windows-sdk-content
 description: Contains bidirectional information about a rich edit control. This structure is used by the EM_GETBIDIOPTIONS and EM_SETBIDIOPTIONS messages to get and set the bidirectional information for a control.
 old-location: controls\BIDIOPTIONS.htm

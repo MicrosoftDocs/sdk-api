@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1550
-title: SERVER_INFO_1550
+title: SERVER_INFO_1550 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1550 structure specifies the percentage of free disk space remaining before an alert message is sent.
 old-location: netmgmt\server_info_1550_str.htm

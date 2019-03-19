@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RenewPrefix
-title: Dhcpv6RenewPrefix function
+title: Dhcpv6RenewPrefix function (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Renews a prefix.
 old-location: dhcp\dhcpv6renewprefix.htm

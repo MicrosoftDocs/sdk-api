@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList2
-title: ITaskbarList2
+title: ITaskbarList2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the ITaskbarList interface by exposing a method to mark a window as a full-screen display.
 old-location: shell\ITaskbarList2.htm

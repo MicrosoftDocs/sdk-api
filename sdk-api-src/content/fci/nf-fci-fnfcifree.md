@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FNFCIFREE
-title: FNFCIFREE macro
+title: FNFCIFREE macro (fci.h)
 author: windows-sdk-content
 description: The FNFCIFREE macro provides the declaration for the application-defined callback function to free previously allocated memory in an FCI context.
 old-location: winprog\fnfcifree.htm

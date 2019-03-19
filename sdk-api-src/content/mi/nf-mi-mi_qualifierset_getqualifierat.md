@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_QualifierSet_GetQualifierAt
-title: MI_QualifierSet_GetQualifierAt function
+title: MI_QualifierSet_GetQualifierAt function (mi.h)
 author: windows-sdk-content
 description: Gets a qualifier at the specified index.
 old-location: wmi_v2\mi_qualifierset_getqualifierat.htm

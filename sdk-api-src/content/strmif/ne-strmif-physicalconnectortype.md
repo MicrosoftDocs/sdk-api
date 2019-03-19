@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagPhysicalConnectorType
-title: PhysicalConnectorType
+title: PhysicalConnectorType (strmif.h)
 author: windows-sdk-content
 description: Specifies the physical type of pin (audio or video).
 old-location: dshow\physicalconnectortype.htm

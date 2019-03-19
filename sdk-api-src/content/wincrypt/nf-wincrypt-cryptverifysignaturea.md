@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptVerifySignatureA
-title: CryptVerifySignatureA function
+title: CryptVerifySignatureA function (wincrypt.h)
 author: windows-sdk-content
 description: Verifies the signature of a hash object.
 old-location: security\cryptverifysignature.htm

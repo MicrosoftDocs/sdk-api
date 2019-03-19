@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.GetClientCertificate
-title: IMFSSLCertificateManager::GetClientCertificate
+title: IMFSSLCertificateManager::GetClientCertificate (mfidl.h)
 author: windows-sdk-content
 description: Gets the client SSL certificate synchronously.
 old-location: mf\imfsslcertificatemanager_getclientcertificate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._CACHE_RELATIONSHIP
-title: CACHE_RELATIONSHIP
+title: CACHE_RELATIONSHIP (winnt.h)
 author: windows-sdk-content
 description: Describes cache attributes. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\cache_relationship.htm

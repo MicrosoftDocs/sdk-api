@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_OPM_ACP_PROTECTION_LEVEL
-title: MF_OPM_ACP_PROTECTION_LEVEL
+title: MF_OPM_ACP_PROTECTION_LEVEL (mfidl.h)
 author: windows-sdk-content
 description: Defines protection levels for MFPROTECTION_ACP.
 old-location: mf\mf_opm_acp_protection_level.htm

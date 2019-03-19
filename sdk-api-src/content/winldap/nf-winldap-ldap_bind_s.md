@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_bind_s
-title: ldap_bind_s function
+title: ldap_bind_s function (winldap.h)
 author: windows-sdk-content
 description: Synchronously authenticates a client to the LDAP server.
 old-location: ldap\ldap_bind_s.htm

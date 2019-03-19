@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IsManaged
-title: IUpdateService::get_IsManaged
+title: IUpdateService::get_IsManaged (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a service is a managed service.
 old-location: wua\iupdateservice_ismanaged.htm

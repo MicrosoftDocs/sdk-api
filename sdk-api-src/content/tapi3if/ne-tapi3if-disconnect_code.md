@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.DISCONNECT_CODE
-title: DISCONNECT_CODE
+title: DISCONNECT_CODE (tapi3if.h)
 author: windows-sdk-content
 description: The DISCONNECT_CODE enum is used by the ITBasicCallControl::Disconnect method.
 old-location: tapi3\disconnect_code.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_AddString
-title: ComboBox_AddString macro
+title: ComboBox_AddString macro (windowsx.h)
 author: windows-sdk-content
 description: Adds a string to a list in a combo box.
 old-location: controls\ComboBox_AddString.htm

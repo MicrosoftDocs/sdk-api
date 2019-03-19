@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongLongSub
-title: ULongLongSub function
+title: ULongLongSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type SIZE_T from another.
 old-location: shell\SIZETSub_1.htm

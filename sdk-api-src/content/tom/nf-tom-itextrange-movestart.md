@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.MoveStart
-title: ITextRange::MoveStart
+title: ITextRange::MoveStart (tom.h)
 author: windows-sdk-content
 description: Moves the start postion of the range the specified number of units in the specified direction.
 old-location: controls\ITextRange_MoveStart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeyTraceEventSink.OnKeyTraceUp
-title: ITfKeyTraceEventSink::OnKeyTraceUp
+title: ITfKeyTraceEventSink::OnKeyTraceUp (msctf.h)
 author: windows-sdk-content
 description: ITfKeyTraceEventSink::OnKeyTraceUp method
 old-location: tsf\itfkeytraceeventsink_onkeytraceup.htm

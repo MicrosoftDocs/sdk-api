@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetIsDefaultCEP
-title: IX509EnrollmentPolicyServer::GetIsDefaultCEP
+title: IX509EnrollmentPolicyServer::GetIsDefaultCEP (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether this is the default certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getisdefaultcep.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineappinfo_tag
-title: LINEAPPINFO
+title: LINEAPPINFO (tapi.h)
 author: windows-sdk-content
 description: The LINEAPPINFO structure contains information about the application that is currently running. The LINEDEVSTATUS structure can contain an array of LINEAPPINFO structures.
 old-location: tapi2\lineappinfo_str.htm

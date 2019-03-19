@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_RingMode
-title: ITPhoneEvent::get_RingMode
+title: ITPhoneEvent::get_RingMode (tapi3if.h)
 author: windows-sdk-content
 description: The get_RingMode method returns a long value specifying the ring mode to which the phone has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_RINGMODE.
 old-location: tapi3\itphoneevent_get_ringmode.htm

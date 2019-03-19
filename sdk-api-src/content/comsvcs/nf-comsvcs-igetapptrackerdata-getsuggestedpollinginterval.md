@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetSuggestedPollingInterval
-title: IGetAppTrackerData::GetSuggestedPollingInterval
+title: IGetAppTrackerData::GetSuggestedPollingInterval (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the minimum interval for polling suggested by the Tracker Server.
 old-location: cos\igetapptrackerdata_getsuggestedpollinginterval.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._HD_ITEMW
-title: HDITEMW
+title: HDITEMW (commctrl.h)
 author: windows-sdk-content
 description: Contains information about an item in a header control. This structure supersedes the HD_ITEM structure.
 old-location: controls\HDITEM.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.put_Top
-title: IInkRectangle::put_Top
+title: IInkRectangle::put_Top (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the top position of the InkRectangle object.
 old-location: tablet\inkrectangle_top.htm

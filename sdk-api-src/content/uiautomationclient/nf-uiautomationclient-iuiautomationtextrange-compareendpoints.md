@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.CompareEndpoints
-title: IUIAutomationTextRange::CompareEndpoints
+title: IUIAutomationTextRange::CompareEndpoints (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the start or end endpoint of this text range is the same as the start or end endpoint of another text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_CompareEndpoints.htm

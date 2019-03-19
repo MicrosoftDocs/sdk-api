@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.IsSelectedForRestore
-title: IVssComponent::IsSelectedForRestore
+title: IVssComponent::IsSelectedForRestore (vswriter.h)
 author: windows-sdk-content
 description: The IsSelectedForRestore method determines whether the current component has been selected to be restored.
 old-location: base\ivsscomponent_isselectedforrestore.htm

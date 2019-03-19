@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.get_Services
-title: INetFwProfile::get_Services
+title: INetFwProfile::get_Services (netfw.h)
 author: windows-sdk-content
 description: Retrieves the collection of services of the profile.
 old-location: ics\inetfwprofile_services.htm

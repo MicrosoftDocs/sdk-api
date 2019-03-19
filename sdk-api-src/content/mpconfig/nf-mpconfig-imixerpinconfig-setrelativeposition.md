@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetRelativePosition
-title: IMixerPinConfig::SetRelativePosition
+title: IMixerPinConfig::SetRelativePosition (mpconfig.h)
 author: windows-sdk-content
 description: The SetRelativePosition method sets the position of the stream in the display window.
 old-location: dshow\imixerpinconfig_setrelativeposition.htm

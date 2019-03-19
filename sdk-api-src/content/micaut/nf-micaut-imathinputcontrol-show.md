@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.Show
-title: IMathInputControl::Show
+title: IMathInputControl::Show (micaut.h)
 author: windows-sdk-content
 description: Shows the control.
 old-location: tablet\imathinputcontrol_show.htm

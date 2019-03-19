@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.IDefaultLocation.GetReport
-title: IDefaultLocation::GetReport
+title: IDefaultLocation::GetReport (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the specified report type from the default location provider.
 old-location: winlocation_com_ref\idefaultlocation_getreport.htm

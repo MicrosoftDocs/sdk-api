@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTuner.RegisterNotificationCallBack
-title: IAMTuner::RegisterNotificationCallBack
+title: IAMTuner::RegisterNotificationCallBack (strmif.h)
 author: windows-sdk-content
 description: The RegisterNotificationCallBack method enables an object to receive event notifications when the tuner changes state.
 old-location: dshow\iamtuner_registernotificationcallback.htm

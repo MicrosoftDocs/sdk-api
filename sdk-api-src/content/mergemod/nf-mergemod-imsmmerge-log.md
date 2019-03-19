@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmMerge.Log
-title: IMsmMerge::Log
+title: IMsmMerge::Log (mergemod.h)
 author: windows-sdk-content
 description: The Log method writes a text string to the currently open log file. For more information, see the Log method of the Merge object.
 old-location: setup\imsmmerge_log.htm

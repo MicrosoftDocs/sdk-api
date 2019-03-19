@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorFore
-title: ITextRow::SetCellColorFore
+title: ITextRow::SetCellColorFore (tom.h)
 author: windows-sdk-content
 description: Sets the foreground color of the active cell.
 old-location: controls\itextrow_setcellcolorfore.htm

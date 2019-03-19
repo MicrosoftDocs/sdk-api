@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL)
-title: LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL)
+title: LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL) (gdiplusbrush.h)
 author: windows-sdk-content
 description: Creates a LinearGradientBrush::LinearGradientBrush object from a rectangle and angle of direction.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Rect_rect_Color_color1_Color_color2_REAL_angl.htm

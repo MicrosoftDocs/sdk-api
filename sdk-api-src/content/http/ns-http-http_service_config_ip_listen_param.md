@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
-title: HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
+title: HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM (http.h)
 author: windows-sdk-content
 description: Used to specify an IP address to be added to or deleted from the list of IP addresses to which the HTTP service binds.
 old-location: http\http_service_config_ip_listen_param.htm

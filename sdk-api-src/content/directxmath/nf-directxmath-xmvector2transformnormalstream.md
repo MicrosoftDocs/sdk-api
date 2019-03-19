@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2TransformNormalStream
-title: XMVector2TransformNormalStream function
+title: XMVector2TransformNormalStream function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a stream of 2D normal vectors by a given matrix.
 old-location: dxmath\xmvector2transformnormalstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskVariables.GetContext
-title: ITaskVariables::GetContext
+title: ITaskVariables::GetContext (taskschd.h)
 author: windows-sdk-content
 description: Used to share the context between different steps and tasks that are in the same job instance.
 old-location: taskschd\itaskvariables_getcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPNET_ROW2
-title: MIB_IPNET_ROW2
+title: MIB_IPNET_ROW2 (netioapi.h)
 author: windows-sdk-content
 description: Stores information about a neighbor IP address.
 old-location: mib\mib_ipnet_row2.htm

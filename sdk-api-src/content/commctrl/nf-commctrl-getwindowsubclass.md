@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.GetWindowSubclass
-title: GetWindowSubclass function
+title: GetWindowSubclass function (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the reference data for the specified window subclass callback.
 old-location: shell\GetWindowSubclass.htm

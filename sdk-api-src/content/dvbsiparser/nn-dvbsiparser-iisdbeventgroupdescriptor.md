@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IIsdbEventGroupDescriptor
-title: IIsdbEventGroupDescriptor
+title: IIsdbEventGroupDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor.htm

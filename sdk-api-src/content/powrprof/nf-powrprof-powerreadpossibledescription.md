@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerReadPossibleDescription
-title: PowerReadPossibleDescription function
+title: PowerReadPossibleDescription function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the description for one of the possible choices of a power setting value.
 old-location: base\powerreadpossibledescription.htm

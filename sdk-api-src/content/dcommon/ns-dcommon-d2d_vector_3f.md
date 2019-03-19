@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_VECTOR_3F
-title: D2D_VECTOR_3F
+title: D2D_VECTOR_3F (dcommon.h)
 author: windows-sdk-content
 description: A vector of 3 FLOAT values (x, y, z).
 old-location: direct2d\d2d1_vector_3f.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNode
-title: IMFTopology::GetNode
+title: IMFTopology::GetNode (mfidl.h)
 author: windows-sdk-content
 description: Gets a node in the topology, specified by index.
 old-location: mf\imftopology_getnode.htm

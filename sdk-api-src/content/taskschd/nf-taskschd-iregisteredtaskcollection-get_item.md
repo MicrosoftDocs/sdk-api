@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTaskCollection.get_Item
-title: IRegisteredTaskCollection::get_Item
+title: IRegisteredTaskCollection::get_Item (taskschd.h)
 author: windows-sdk-content
 description: Gets the specified registered task from the collection.
 old-location: taskschd\iregisteredtaskcollection_item.htm

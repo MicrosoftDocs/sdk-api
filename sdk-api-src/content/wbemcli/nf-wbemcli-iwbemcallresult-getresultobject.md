@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetResultObject
-title: IWbemCallResult::GetResultObject
+title: IWbemCallResult::GetResultObject (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemCallResult::GetResultObject method attempts to retrieve an object from a previous semisynchronous call to IWbemServices::GetObject or IWbemServices::ExecMethod.
 old-location: wmi\iwbemcallresult_getresultobject.htm

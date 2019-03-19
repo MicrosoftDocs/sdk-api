@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths
-title: IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
+title: IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths (vsbackup.h)
 author: windows-sdk-content
 description: Normalizes a local volume path or UNC share path so that it can be passed to the IVssBackupComponents::AddToSnapshotSet method.
 old-location: base\ivssbackupcomponentsex4_getrootandlogicalprefixpaths.htm

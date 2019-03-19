@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetKerningPairAdjustments
-title: IDWriteFontFace1::GetKerningPairAdjustments
+title: IDWriteFontFace1::GetKerningPairAdjustments (dwrite_1.h)
 author: windows-sdk-content
 description: Retrieves the kerning pair adjustments from the font's kern table.
 old-location: directwrite\idwritefontface1_getkerningpairadjustments.htm

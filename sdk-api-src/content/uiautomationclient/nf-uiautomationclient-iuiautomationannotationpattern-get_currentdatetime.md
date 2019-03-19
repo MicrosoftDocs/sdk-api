@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentDateTime
-title: IUIAutomationAnnotationPattern::get_CurrentDateTime
+title: IUIAutomationAnnotationPattern::get_CurrentDateTime (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the date and time that this annotation was created.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentDateTime.htm

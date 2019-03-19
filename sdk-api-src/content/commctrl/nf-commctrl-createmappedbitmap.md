@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.CreateMappedBitmap
-title: CreateMappedBitmap function
+title: CreateMappedBitmap function (commctrl.h)
 author: windows-sdk-content
 description: Creates a bitmap for use in a toolbar.
 old-location: controls\CreateMappedBitmap.htm

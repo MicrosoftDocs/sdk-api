@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.Exists
-title: IFileSystemImage::Exists
+title: IFileSystemImage::Exists (imapi2fs.h)
 author: windows-sdk-content
 description: Checks for the existence of a given file or directory.
 old-location: imapi\ifilesystemimage_exists.htm

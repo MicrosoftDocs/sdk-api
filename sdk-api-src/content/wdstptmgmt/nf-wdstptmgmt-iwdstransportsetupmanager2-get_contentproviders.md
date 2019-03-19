@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager2.get_ContentProviders
-title: IWdsTransportSetupManager2::get_ContentProviders
+title: IWdsTransportSetupManager2::get_ContentProviders (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a pointer to an instance of the IWdsTransportCollection interface. The collection contains objects of the IWdsTransportContentProvider interface for the content providers registered on the server.
 old-location: wds\iwdstransportsetupmanager2_contentproviders.htm

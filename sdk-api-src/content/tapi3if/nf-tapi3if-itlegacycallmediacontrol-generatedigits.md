@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.GenerateDigits
-title: ITLegacyCallMediaControl::GenerateDigits
+title: ITLegacyCallMediaControl::GenerateDigits (tapi3if.h)
 author: windows-sdk-content
 description: The GenerateDigits method causes digits to be output on the current call.
 old-location: tapi3\itlegacycallmediacontrol_generatedigits.htm

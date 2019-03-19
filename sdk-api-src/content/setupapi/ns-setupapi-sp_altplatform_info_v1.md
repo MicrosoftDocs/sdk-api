@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_ALTPLATFORM_INFO_V1
-title: SP_ALTPLATFORM_INFO_V1
+title: SP_ALTPLATFORM_INFO_V1 (setupapi.h)
 author: windows-sdk-content
 description: This structure is used to pass information for an alternate platform to SetupQueryInfOriginalFileInformation.
 old-location: setup\sp_altplatform_info_v1.htm

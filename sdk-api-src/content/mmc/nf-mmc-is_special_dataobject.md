@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IS_SPECIAL_DATAOBJECT
-title: IS_SPECIAL_DATAOBJECT macro
+title: IS_SPECIAL_DATAOBJECT macro (mmc.h)
 author: windows-sdk-content
 description: Determines whether an LPDATAOBJECT passed by MMC in a call to the snap-in's Notify method is a special type of data object instead of a pointer to an actual IDataObject object.
 old-location: mmc\is_special_dataobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_Recorder
-title: IDiscFormat2Data::put_Recorder
+title: IDiscFormat2Data::put_Recorder (imapi2.h)
 author: windows-sdk-content
 description: Sets the recording device to use for the write operation.
 old-location: imapi\idiscformat2data_put_recorder.htm

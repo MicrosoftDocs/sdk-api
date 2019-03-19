@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetSaturation
-title: IWICDevelopRaw::GetSaturation
+title: IWICDevelopRaw::GetSaturation (wincodec.h)
 author: windows-sdk-content
 description: Gets the saturation value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getsaturation.htm

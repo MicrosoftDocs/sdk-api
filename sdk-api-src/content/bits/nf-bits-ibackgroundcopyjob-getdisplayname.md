@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetDisplayName
-title: IBackgroundCopyJob::GetDisplayName
+title: IBackgroundCopyJob::GetDisplayName (bits.h)
 author: windows-sdk-content
 description: Retrieves the display name for the job. Typically, you use the display name to identify the job in a user interface.
 old-location: bits\ibackgroundcopyjob_getdisplayname.htm

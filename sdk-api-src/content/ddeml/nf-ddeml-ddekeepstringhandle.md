@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeKeepStringHandle
-title: DdeKeepStringHandle function
+title: DdeKeepStringHandle function (ddeml.h)
 author: windows-sdk-content
 description: Increments the usage count associated with the specified handle.
 old-location: dataxchg\ddekeepstringhandle.htm

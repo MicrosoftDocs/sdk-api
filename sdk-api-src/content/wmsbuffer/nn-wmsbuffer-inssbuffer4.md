@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer4
-title: INSSBuffer4
+title: INSSBuffer4 (wmsbuffer.h)
 author: windows-sdk-content
 description: The INSSBuffer4 interface provides methods to enumerate buffer properties.
 old-location: wmformat\inssbuffer4.htm

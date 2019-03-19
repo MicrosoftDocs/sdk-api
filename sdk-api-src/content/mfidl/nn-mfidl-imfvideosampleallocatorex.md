@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorEx
-title: IMFVideoSampleAllocatorEx
+title: IMFVideoSampleAllocatorEx (mfidl.h)
 author: windows-sdk-content
 description: Allocates video samples that contain Microsoft Direct3D 11 texture surfaces.
 old-location: mf\imfvideosampleallocatorex.htm

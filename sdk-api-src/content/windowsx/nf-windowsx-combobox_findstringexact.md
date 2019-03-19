@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_FindStringExact
-title: ComboBox_FindStringExact macro
+title: ComboBox_FindStringExact macro (windowsx.h)
 author: windows-sdk-content
 description: Finds the first string in a combo box list that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the CB_FINDSTRINGEXACT message explicitly.
 old-location: controls\ComboBox_FindStringExact.htm

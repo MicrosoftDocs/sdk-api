@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationInteractionEventHandler.OnInteraction
-title: IDirectManipulationInteractionEventHandler::OnInteraction
+title: IDirectManipulationInteractionEventHandler::OnInteraction (directmanipulation.h)
 author: windows-sdk-content
 description: Called when an interaction is detected.
 old-location: directmanipulation\idirectmanipulationinteractioneventhandler_oninteraction.htm

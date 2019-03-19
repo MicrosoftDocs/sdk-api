@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetClampOutput
-title: IDCompositionColorMatrixEffect::SetClampOutput
+title: IDCompositionColorMatrixEffect::SetClampOutput (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether the effect clamps color values to between 0 and 1 before the effects passes the values to the next effect in the chain.
 old-location: directcomp\idcompositioncolormatrixeffect_setclampoutput.htm

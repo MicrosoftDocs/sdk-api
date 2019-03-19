@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.OleLoadPicture
-title: OleLoadPicture function
+title: OleLoadPicture function (olectl.h)
 author: windows-sdk-content
 description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect with NULL as the first parameter, followed by a call to IPersistStream::Load.
 old-location: com\oleloadpicture.htm

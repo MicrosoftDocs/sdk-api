@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation3.RemoveTextEditTextChangedEventHandler
-title: IUIAutomation3::RemoveTextEditTextChangedEventHandler
+title: IUIAutomation3::RemoveTextEditTextChangedEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes a programmatic text-edit event handler.
 old-location: winauto\uiauto_IUIAutomation3_RemoveTextEditTextChangedEventHandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveAutomationEventHandler
-title: IUIAutomation::RemoveAutomationEventHandler
+title: IUIAutomation::RemoveAutomationEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes the specified UI Automation event handler.
 old-location: winauto\uiauto_IUIAutomation_RemoveAutomationEventHandler.htm

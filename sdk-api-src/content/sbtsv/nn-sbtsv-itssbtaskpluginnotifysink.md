@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbTaskPluginNotifySink
-title: ITsSbTaskPluginNotifySink
+title: ITsSbTaskPluginNotifySink (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that report status and error messages about tasks to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbtaskpluginnotifysink.htm

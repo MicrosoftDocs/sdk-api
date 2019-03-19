@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_DELETE_RECORD_FN
-title: PIBIO_STORAGE_DELETE_RECORD_FN
+title: PIBIO_STORAGE_DELETE_RECORD_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Deletes one or more templates from the database.
 old-location: secbiomet\storageadapterdeleterecord.htm

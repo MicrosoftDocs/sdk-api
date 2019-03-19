@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_close_extended_op
-title: ldap_close_extended_op function
+title: ldap_close_extended_op function (winldap.h)
 author: windows-sdk-content
 description: The ldap_close_extended_op function ends a request that was made by calling ldap_extended_operation.
 old-location: ldap\ldap_close_extended_op.htm

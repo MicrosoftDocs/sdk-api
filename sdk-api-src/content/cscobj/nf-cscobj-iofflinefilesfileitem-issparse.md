@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileItem.IsSparse
-title: IOfflineFilesFileItem::IsSparse
+title: IOfflineFilesFileItem::IsSparse (cscobj.h)
 author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache is sparsely cached.
 old-location: of\iofflinefilesfileitem_issparse.htm

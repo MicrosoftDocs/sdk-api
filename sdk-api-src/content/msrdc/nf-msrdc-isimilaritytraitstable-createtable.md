@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.CreateTable
-title: ISimilarityTraitsTable::CreateTable
+title: ISimilarityTraitsTable::CreateTable (msrdc.h)
 author: windows-sdk-content
 description: Creates or opens a similarity traits table.
 old-location: rdc\isimilaritytraitstable_createtable.htm

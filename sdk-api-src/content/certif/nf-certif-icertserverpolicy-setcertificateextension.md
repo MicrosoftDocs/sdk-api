@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateExtension
-title: ICertServerPolicy::SetCertificateExtension
+title: ICertServerPolicy::SetCertificateExtension (certif.h)
 author: windows-sdk-content
 description: Adds a new extension to the certificate.
 old-location: security\icertserverpolicy_setcertificateextension.htm

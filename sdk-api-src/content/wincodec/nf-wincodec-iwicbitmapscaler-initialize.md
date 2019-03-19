@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapScaler.Initialize
-title: IWICBitmapScaler::Initialize
+title: IWICBitmapScaler::Initialize (wincodec.h)
 author: windows-sdk-content
 description: Initializes the bitmap scaler with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapscaler_initialize.htm

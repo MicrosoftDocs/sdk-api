@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventProvider.ProvideEvents
-title: IWbemEventProvider::ProvideEvents
+title: IWbemEventProvider::ProvideEvents (wbemprov.h)
 author: windows-sdk-content
 description: Windows Management calls the IWbemEventProvider::ProvideEvents method to signal an event provider to begin delivery of its events.
 old-location: wmi\iwbemeventprovider_provideevents.htm

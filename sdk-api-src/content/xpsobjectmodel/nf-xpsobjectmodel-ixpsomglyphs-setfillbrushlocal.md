@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFillBrushLocal
-title: IXpsOMGlyphs::SetFillBrushLocal
+title: IXpsOMGlyphs::SetFillBrushLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMBrush interface pointer to a local, unshared fill brush.
 old-location: xps\ixpsomglyphs_setfillbrushlocal.htm

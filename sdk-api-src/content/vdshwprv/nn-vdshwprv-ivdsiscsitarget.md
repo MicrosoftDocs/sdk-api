@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiTarget
-title: IVdsIscsiTarget
+title: IVdsIscsiTarget (vdshwprv.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on an iSCSI target.
 old-location: base\ivdsiscsitarget.htm

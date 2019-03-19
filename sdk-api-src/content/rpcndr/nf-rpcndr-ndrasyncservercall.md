@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrAsyncServerCall
-title: NdrAsyncServerCall function
+title: NdrAsyncServerCall function (rpcndr.h)
 author: windows-sdk-content
 description: NdrAsyncServerCall is not intended to be directly called by applications.
 old-location: rpc\ndrasyncservercall.htm

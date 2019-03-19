@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_StartAddressOfPreviousSession
-title: IMultisessionSequential::get_StartAddressOfPreviousSession
+title: IMultisessionSequential::get_StartAddressOfPreviousSession (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the first sector written in the previous session on the media.
 old-location: imapi\imultisessionsequential_get_startaddressofprevioussession.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_search_stA
-title: ldap_search_stA function
+title: ldap_search_stA function (winldap.h)
 author: windows-sdk-content
 description: The ldap_search_st function synchronously searches the LDAP directory and returns a requested set of attributes for each entry matched. An additional parameter specifies a local time-out for the search.
 old-location: ldap\ldap_search_st.htm

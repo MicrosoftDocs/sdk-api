@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(GpRegion)
-title: Region::Region(GpRegion)
+title: Region::Region(GpRegion) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a region that is infinite. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm

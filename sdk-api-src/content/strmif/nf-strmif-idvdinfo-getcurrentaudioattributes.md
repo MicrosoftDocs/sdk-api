@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentAudioAttributes
-title: IDvdInfo::GetCurrentAudioAttributes
+title: IDvdInfo::GetCurrentAudioAttributes (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current audio stream in the current title or menu.
 old-location: dshow\idvdinfo_getcurrentaudioattributes.htm

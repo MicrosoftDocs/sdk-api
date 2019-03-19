@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcsx.D3DX11_SCAN_DIRECTION
-title: D3DX11_SCAN_DIRECTION
+title: D3DX11_SCAN_DIRECTION (d3dcsx.h)
 author: windows-sdk-content
 description: Direction to perform scan in.
 old-location: direct3d11\d3dx11_scan_direction.htm

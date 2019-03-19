@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSOpenServerW
-title: WTSOpenServerW function
+title: WTSOpenServerW function (wtsapi32.h)
 author: windows-sdk-content
 description: Opens a handle to the specified Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsopenserver.htm

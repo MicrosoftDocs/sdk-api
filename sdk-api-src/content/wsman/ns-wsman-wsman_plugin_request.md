@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_PLUGIN_REQUEST
-title: WSMAN_PLUGIN_REQUEST
+title: WSMAN_PLUGIN_REQUEST (wsman.h)
 author: windows-sdk-content
 description: Specifies information for a plug-in request.
 old-location: winrm\wsman_plugin_request.htm

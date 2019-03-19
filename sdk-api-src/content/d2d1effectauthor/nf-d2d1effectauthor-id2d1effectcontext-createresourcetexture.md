@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateResourceTexture
-title: ID2D1EffectContext::CreateResourceTexture
+title: ID2D1EffectContext::CreateResourceTexture (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates or finds the given resource texture, depending on whether a resource id is specified.
 old-location: direct2d\id2d1contextinternal_createresourcetexture.htm

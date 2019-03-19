@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.ISearchViewChangedSink
-title: ISearchViewChangedSink
+title: ISearchViewChangedSink (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchViewChangedSink.htm

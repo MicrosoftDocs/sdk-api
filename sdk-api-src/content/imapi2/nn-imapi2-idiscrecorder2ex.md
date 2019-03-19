@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IDiscRecorder2Ex
-title: IDiscRecorder2Ex
+title: IDiscRecorder2Ex (imapi2.h)
 author: windows-sdk-content
 description: This interface represents a physical device.
 old-location: imapi\idiscrecorder2ex.htm

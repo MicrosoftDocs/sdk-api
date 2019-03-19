@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.GetPosTable
-title: IFEDictionary::GetPosTable
+title: IFEDictionary::GetPosTable (msime.h)
 author: windows-sdk-content
 description: Obtains the public POS (Part of Speech) table.
 old-location: intl\ifedictionary_getpostable.htm

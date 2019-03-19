@@ -1,6 +1,6 @@
 ---
 UID: NE:uxtheme.PROPERTYORIGIN
-title: PROPERTYORIGIN
+title: PROPERTYORIGIN (uxtheme.h)
 author: windows-sdk-content
 description: Returned by GetThemePropertyOrigin to specify where a property was found.
 old-location: controls\PROPERTYORIGIN.htm

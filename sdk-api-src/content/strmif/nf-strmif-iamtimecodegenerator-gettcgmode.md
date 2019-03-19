@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.GetTCGMode
-title: IAMTimecodeGenerator::GetTCGMode
+title: IAMTimecodeGenerator::GetTCGMode (strmif.h)
 author: windows-sdk-content
 description: The GetTCGMode method retrieves the SMPTE timecode generator properties.
 old-location: dshow\iamtimecodegenerator_gettcgmode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_DragShowNolock
-title: ImageList_DragShowNolock function
+title: ImageList_DragShowNolock function (commctrl.h)
 author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: controls\ImageList_DragShowNolock.htm

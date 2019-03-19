@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.GetCurrentLength
-title: IMFMediaBuffer::GetCurrentLength
+title: IMFMediaBuffer::GetCurrentLength (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the length of the valid data in the buffer.
 old-location: mf\imfmediabuffer_getcurrentlength.htm

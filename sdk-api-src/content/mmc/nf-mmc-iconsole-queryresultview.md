@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.QueryResultView
-title: IConsole::QueryResultView
+title: IConsole::QueryResultView (mmc.h)
 author: windows-sdk-content
 description: Queries IConsole for the result view object IUnknown interface pointer.
 old-location: mmc\iconsole_queryresultview.htm

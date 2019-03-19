@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.ReclaimResources
-title: IDXGIDevice2::ReclaimResources
+title: IDXGIDevice2::ReclaimResources (dxgi1_2.h)
 author: windows-sdk-content
 description: Restores access to resources that were previously offered by calling IDXGIDevice2::OfferResources.
 old-location: direct3ddxgi\idxgidevice2_reclaimresources.htm

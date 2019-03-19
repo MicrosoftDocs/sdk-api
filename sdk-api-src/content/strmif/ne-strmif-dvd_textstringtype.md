@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.DVD_TextStringType
-title: DVD_TextStringType
+title: DVD_TextStringType (strmif.h)
 author: windows-sdk-content
 description: Defines a subset of the DVD text-string types.
 old-location: dshow\dvd_textstringtype.htm

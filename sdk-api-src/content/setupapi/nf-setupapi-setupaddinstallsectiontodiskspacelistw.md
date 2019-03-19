@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupAddInstallSectionToDiskSpaceListW
-title: SetupAddInstallSectionToDiskSpaceListW function
+title: SetupAddInstallSectionToDiskSpaceListW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupAddInstallSectionToDiskSpaceList function searches for CopyFile and DelFile lines in an Install section of an INF file. The function then adds the file operations specified in those sections to a disk-space list.
 old-location: setup\setupaddinstallsectiontodiskspacelist.htm

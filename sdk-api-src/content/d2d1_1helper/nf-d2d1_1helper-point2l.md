@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Point2L
-title: Point2L function
+title: Point2L function (d2d1_1helper.h)
 author: windows-sdk-content
 description: Returns a point struct of long integers.
 old-location: direct2d\point2l.htm

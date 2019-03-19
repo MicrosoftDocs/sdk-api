@@ -1,6 +1,6 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleasePrimaryBufferInterface
-title: IAMDirectSound::ReleasePrimaryBufferInterface
+title: IAMDirectSound::ReleasePrimaryBufferInterface (amaudio.h)
 author: windows-sdk-content
 description: The ReleasePrimaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_releaseprimarybufferinterface.htm

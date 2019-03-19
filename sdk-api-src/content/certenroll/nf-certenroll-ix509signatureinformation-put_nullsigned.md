@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_NullSigned
-title: IX509SignatureInformation::put_NullSigned
+title: IX509SignatureInformation::put_NullSigned (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that indicates whether the certificate request is null-signed.
 old-location: security\ix509signatureinformation_nullsigned_property.htm

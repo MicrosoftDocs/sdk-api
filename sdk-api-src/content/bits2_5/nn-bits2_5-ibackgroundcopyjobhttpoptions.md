@@ -1,6 +1,6 @@
 ---
 UID: NN:bits2_5.IBackgroundCopyJobHttpOptions
-title: IBackgroundCopyJobHttpOptions
+title: IBackgroundCopyJobHttpOptions (bits2_5.h)
 author: windows-sdk-content
 description: Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions.htm

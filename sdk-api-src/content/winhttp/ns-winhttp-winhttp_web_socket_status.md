@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp._WINHTTP_WEB_SOCKET_STATUS
-title: WINHTTP_WEB_SOCKET_STATUS
+title: WINHTTP_WEB_SOCKET_STATUS (winhttp.h)
 author: windows-sdk-content
 description: The WINHTTP_WEB_SOCKET_STATUS enumeration includes the status of a WebSocket operation.
 old-location: http\winhttp_web_socket_status.htm

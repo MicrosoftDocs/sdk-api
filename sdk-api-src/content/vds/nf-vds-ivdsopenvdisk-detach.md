@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Detach
-title: IVdsOpenVDisk::Detach
+title: IVdsOpenVDisk::Detach (vds.h)
 author: windows-sdk-content
 description: Detaches a virtual disk.
 old-location: base\ivdsopenvdisk_detach.htm

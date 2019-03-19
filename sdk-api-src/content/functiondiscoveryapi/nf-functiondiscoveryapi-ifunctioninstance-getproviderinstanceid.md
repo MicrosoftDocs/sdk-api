@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetProviderInstanceID
-title: IFunctionInstance::GetProviderInstanceID
+title: IFunctionInstance::GetProviderInstanceID (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Gets the identifier string for the provider instance.
 old-location: ncd\ifunctioninstance_getproviderinstanceid_method.htm

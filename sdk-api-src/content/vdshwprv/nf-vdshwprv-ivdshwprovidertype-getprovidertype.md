@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderType.GetProviderType
-title: IVdsHwProviderType::GetProviderType
+title: IVdsHwProviderType::GetProviderType (vdshwprv.h)
 author: windows-sdk-content
 description: Retrieves the type of the hardware provider.
 old-location: base\ivdshwprovidertype_getprovidertype.htm

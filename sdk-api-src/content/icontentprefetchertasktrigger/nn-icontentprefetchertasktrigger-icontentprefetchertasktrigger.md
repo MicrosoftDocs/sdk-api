@@ -1,6 +1,6 @@
 ---
 UID: NN:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger
-title: IContentPrefetcherTaskTrigger
+title: IContentPrefetcherTaskTrigger (icontentprefetchertasktrigger.h)
 author: windows-sdk-content
 description: The IContentPrefetcherTaskTrigger interface supports content prefetching behavior and performance testing by defining methods that allow you to verify that an installed app package is registered for this background task and manually trigger its content prefetch operations.
 old-location: wsw\icontentprefetchertasktrigger.htm

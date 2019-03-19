@@ -1,6 +1,6 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0002
-title: SysmonDataType
+title: SysmonDataType (isysmon.h)
 author: windows-sdk-content
 description: Determines the type of data to return from a given data point on the graph.
 old-location: sysmon\sysmondatatype.htm

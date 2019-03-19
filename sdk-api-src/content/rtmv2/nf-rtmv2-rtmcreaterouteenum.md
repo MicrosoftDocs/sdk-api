@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmCreateRouteEnum
-title: RtmCreateRouteEnum function
+title: RtmCreateRouteEnum function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmCreateRouteEnum function creates an enumeration of the routes for a particular destination or range of destinations in the routing table. A client can enumerate routes for one or more views, or for all views.
 old-location: rras\rtmcreaterouteenum.htm

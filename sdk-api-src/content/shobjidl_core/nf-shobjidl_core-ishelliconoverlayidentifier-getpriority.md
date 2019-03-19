@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.GetPriority
-title: IShellIconOverlayIdentifier::GetPriority
+title: IShellIconOverlayIdentifier::GetPriority (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies the priority of an icon overlay.
 old-location: shell\IShellIconOverlayIdentifier_GetPriority.htm

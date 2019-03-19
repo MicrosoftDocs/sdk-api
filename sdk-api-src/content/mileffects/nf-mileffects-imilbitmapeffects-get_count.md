@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects.get_Count
-title: IMILBitmapEffects::get_Count
+title: IMILBitmapEffects::get_Count (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the number of items in the enumeration.
 old-location: wibe\_wibe_imilbitmapeffects_count.htm

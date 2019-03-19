@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.RSSetScissorRects
-title: ID3D11DeviceContext::RSSetScissorRects
+title: ID3D11DeviceContext::RSSetScissorRects (d3d11.h)
 author: windows-sdk-content
 description: Bind an array of scissor rectangles to the rasterizer stage.
 old-location: direct3d11\id3d11devicecontext_rssetscissorrects.htm

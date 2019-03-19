@@ -1,6 +1,6 @@
 ---
 UID: NN:mstask.IEnumWorkItems
-title: IEnumWorkItems
+title: IEnumWorkItems (mstask.h)
 author: windows-sdk-content
 description: Provides the methods for enumerating the tasks in the Scheduled Tasks folder.
 old-location: taskschd\ienumworkitems.htm

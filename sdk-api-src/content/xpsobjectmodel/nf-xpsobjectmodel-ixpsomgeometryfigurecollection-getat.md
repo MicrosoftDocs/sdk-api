@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.GetAt
-title: IXpsOMGeometryFigureCollection::GetAt
+title: IXpsOMGeometryFigureCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMGeometryFigure interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_getat.htm

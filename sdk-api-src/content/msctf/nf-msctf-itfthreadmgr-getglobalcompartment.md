@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetGlobalCompartment
-title: ITfThreadMgr::GetGlobalCompartment
+title: ITfThreadMgr::GetGlobalCompartment (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgr::GetGlobalCompartment method
 old-location: tsf\itfthreadmgr_getglobalcompartment.htm

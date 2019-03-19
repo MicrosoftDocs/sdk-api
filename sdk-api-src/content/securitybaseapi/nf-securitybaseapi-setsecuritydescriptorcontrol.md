@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorControl
-title: SetSecurityDescriptorControl function
+title: SetSecurityDescriptorControl function (securitybaseapi.h)
 author: windows-sdk-content
 description: Sets the control bits of a security descriptor. The function can set only the control bits that relate to automatic inheritance of ACEs.
 old-location: security\setsecuritydescriptorcontrol.htm

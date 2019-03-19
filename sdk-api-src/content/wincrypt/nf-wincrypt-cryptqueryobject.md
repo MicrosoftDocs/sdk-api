@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptQueryObject
-title: CryptQueryObject function
+title: CryptQueryObject function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves information about the contents of a cryptography API object, such as a certificate, a certificate revocation list, or a certificate trust list.
 old-location: security\cryptqueryobject.htm

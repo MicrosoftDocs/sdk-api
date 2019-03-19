@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._NM_UPDOWN
-title: NMUPDOWN
+title: NMUPDOWN (commctrl.h)
 author: windows-sdk-content
 description: Contains information specific to up-down control notification messages. It is identical to and replaces the NM_UPDOWN structure.
 old-location: controls\NMUPDOWN.htm

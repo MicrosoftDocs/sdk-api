@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyBypassForLocal
-title: IWMPNetwork::getProxyBypassForLocal
+title: IWMPNetwork::getProxyBypassForLocal (wmp.h)
 author: windows-sdk-content
 description: The getProxyBypassForLocal method retrieves a value indicating whether the proxy server is bypassed if the origin server is on a local network.
 old-location: wmp\iwmpnetwork_getproxybypassforlocal.htm

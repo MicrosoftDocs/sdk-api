@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetRecordItemW
-title: IDvbExtendedEventDescriptor::GetRecordItemW
+title: IDvbExtendedEventDescriptor::GetRecordItemW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the item and descriptor from a Digital Videl Broadcast (DVB) extended event descriptor, in Unicode string format.
 old-location: mstv\idvbextendedeventdescriptor_getrecorditemw.htm

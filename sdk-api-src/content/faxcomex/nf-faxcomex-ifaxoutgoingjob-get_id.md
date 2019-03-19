@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Id
-title: IFaxOutgoingJob::get_Id
+title: IFaxOutgoingJob::get_Id (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_Id property is a null-terminated string that contains a unique identifier for the outbound fax job. You can use the identifier to retrieve the archived fax message after the job completes successfully.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp.htm

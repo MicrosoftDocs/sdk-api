@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2ComponentType.get_StreamType
-title: IMPEG2ComponentType::get_StreamType
+title: IMPEG2ComponentType::get_StreamType (tuner.h)
 author: windows-sdk-content
 description: The get_StreamType method retrieves the stream type.
 old-location: mstv\impeg2componenttype_get_streamtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_2
-title: HASHALGORITHM_ENUM
+title: HASHALGORITHM_ENUM (bcrypt.h)
 author: windows-sdk-content
 description: Specifies signing and hashing algorithms.
 old-location: security\hashalgorithm_enum.htm

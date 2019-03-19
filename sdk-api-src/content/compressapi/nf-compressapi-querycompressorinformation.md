@@ -1,6 +1,6 @@
 ---
 UID: NF:compressapi.QueryCompressorInformation
-title: QueryCompressorInformation function
+title: QueryCompressorInformation function (compressapi.h)
 author: windows-sdk-content
 description: Queries a compressor for information for a particular compression algorithm.
 old-location: cmpapi\querycompressorinformation.htm

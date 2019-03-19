@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IFeedClockVector.GetUpdateCount
-title: IFeedClockVector::GetUpdateCount
+title: IFeedClockVector::GetUpdateCount (winsync.h)
 author: windows-sdk-content
 description: Gets the number of updates that have been made to the FeedSync item.
 old-location: winsync\ifeedclockvector_getupdatecount.htm

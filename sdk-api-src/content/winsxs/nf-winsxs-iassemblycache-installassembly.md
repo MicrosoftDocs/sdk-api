@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCache.InstallAssembly
-title: IAssemblyCache::InstallAssembly
+title: IAssemblyCache::InstallAssembly (winsxs.h)
 author: windows-sdk-content
 description: The InstallAssembly method adds an application reference to an assembly to the side-by-side store and copies the files of the assembly to the side-by-side store. The files of the assembly being installed must be present in the current file system.
 old-location: setup\iassemblycache_installassembly.htm

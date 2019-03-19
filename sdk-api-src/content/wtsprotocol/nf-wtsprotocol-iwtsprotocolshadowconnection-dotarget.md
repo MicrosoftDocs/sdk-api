@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.DoTarget
-title: IWTSProtocolShadowConnection::DoTarget
+title: IWTSProtocolShadowConnection::DoTarget (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::DoTarget is no longer available. Instead, use IWRdsProtocolShadowConnection::DoTarget.
 old-location: termserv\iwtsprotocolshadowconnection_dotarget.htm

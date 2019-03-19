@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetVolumeLabelW
-title: SetVolumeLabelW function
+title: SetVolumeLabelW function (winbase.h)
 author: windows-sdk-content
 description: Sets the label of a file system volume.
 old-location: fs\setvolumelabel.htm

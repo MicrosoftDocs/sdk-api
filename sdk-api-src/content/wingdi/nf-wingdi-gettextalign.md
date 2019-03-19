@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetTextAlign
-title: GetTextAlign function
+title: GetTextAlign function (wingdi.h)
 author: windows-sdk-content
 description: The GetTextAlign function retrieves the text-alignment setting for the specified device context.
 old-location: gdi\gettextalign.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.GetReportInterval
-title: ILocation::GetReportInterval
+title: ILocation::GetReportInterval (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the requested amount of time, in milliseconds, between report events.
 old-location: winlocation_com_ref\ilocation_getreportinterval.htm

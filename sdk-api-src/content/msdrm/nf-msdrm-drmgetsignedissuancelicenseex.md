@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetSignedIssuanceLicenseEx
-title: DRMGetSignedIssuanceLicenseEx function
+title: DRMGetSignedIssuanceLicenseEx function (msdrm.h)
 author: windows-sdk-content
 description: Acquires a signed issuance license offline.
 old-location: rm\drmgetsignedissuancelicenseex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessStreamStatePrivate
-title: PDXVAHDSW_GetVideoProcessStreamStatePrivate
+title: PDXVAHDSW_GetVideoProcessStreamStatePrivate (dxvahd.h)
 author: windows-sdk-content
 description: Gets a private stream state from a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\pdxvahdsw_getvideoprocessstreamstateprivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls3.get_audioLanguageCount
-title: IWMPControls3::get_audioLanguageCount
+title: IWMPControls3::get_audioLanguageCount (wmp.h)
 author: windows-sdk-content
 description: The get_audioLanguageCount method retrieves the count of supported audio languages.
 old-location: wmp\iwmpcontrols3_get_audiolanguagecount.htm

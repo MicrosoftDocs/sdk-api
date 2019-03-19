@@ -1,6 +1,6 @@
 ---
 UID: NE:qos2._QOS_SHAPING
-title: QOS_SHAPING
+title: QOS_SHAPING (qos2.h)
 author: windows-sdk-content
 description: The QOS_SHAPING enumeration defines the shaping behavior of a flow.
 old-location: qos\qos_shaping.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._SYMBOL_INFO
-title: SYMBOL_INFO
+title: SYMBOL_INFO (dbghelp.h)
 author: windows-sdk-content
 description: Contains symbol information.
 old-location: base\symbol_info_str.htm

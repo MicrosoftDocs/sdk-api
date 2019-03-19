@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_88
-title: WS_SERVICE_CANCEL_REASON
+title: WS_SERVICE_CANCEL_REASON (webservices.h)
 author: windows-sdk-content
 description: The reasons for a cancellation.
 old-location: wsw\ws_service_cancel_reason.htm

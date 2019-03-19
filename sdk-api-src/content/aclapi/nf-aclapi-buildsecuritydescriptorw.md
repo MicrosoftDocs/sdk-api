@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.BuildSecurityDescriptorW
-title: BuildSecurityDescriptorW function
+title: BuildSecurityDescriptorW function (aclapi.h)
 author: windows-sdk-content
 description: Allocates and initializes a new security descriptor.
 old-location: security\buildsecuritydescriptor.htm

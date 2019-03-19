@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegSetKeySecurity
-title: ClusterRegSetKeySecurity function
+title: ClusterRegSetKeySecurity function (clusapi.h)
 author: windows-sdk-content
 description: Sets the security attributes for a cluster database key.
 old-location: mscs\clusterregsetkeysecurity.htm

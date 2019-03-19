@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtGetEventMetadataProperty
-title: EvtGetEventMetadataProperty function
+title: EvtGetEventMetadataProperty function (winevt.h)
 author: windows-sdk-content
 description: Gets the specified event metadata property.
 old-location: wes\evtgeteventmetadataproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_6
-title: DS_REPSYNCALL_EVENT
+title: DS_REPSYNCALL_EVENT (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPSYNCALL_EVENT enumeration is used with the DS_REPSYNCALL_UPDATE structure to define which event the DS_REPSYNCALL_UPDATE structure represents.
 old-location: ad\ds_repsyncall_event.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMWriterAdvanced3
-title: IWMWriterAdvanced3
+title: IWMWriterAdvanced3 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMWriterAdvanced3 interface provides additional functionality for the writer object.IWMWriterAdvanced3 exists for every instance of the writer object. To obtain a pointer to this interface, call QueryInterface on the writer object.
 old-location: wmformat\iwmwriteradvanced3.htm

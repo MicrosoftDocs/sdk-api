@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_ADAPTER_NAME
-title: DISPLAYCONFIG_ADAPTER_NAME
+title: DISPLAYCONFIG_ADAPTER_NAME (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_ADAPTER_NAME structure contains information about the display adapter.
 old-location: display\displayconfig_adapter_name.htm

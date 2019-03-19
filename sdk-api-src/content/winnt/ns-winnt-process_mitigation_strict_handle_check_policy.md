@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
-title: PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
+title: PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY (winnt.h)
 author: windows-sdk-content
 description: Used to impose new behavior on handle references that are not valid.
 old-location: base\process_mitigation_strict_handle_check_policy.htm

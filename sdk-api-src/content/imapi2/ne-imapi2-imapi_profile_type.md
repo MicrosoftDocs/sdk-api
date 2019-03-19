@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_PROFILE_TYPE
-title: IMAPI_PROFILE_TYPE
+title: IMAPI_PROFILE_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines values for the possible profiles of a CD and DVD device. A profile defines the type of media and features that the device supports.
 old-location: imapi\imapi_profile_type.htm

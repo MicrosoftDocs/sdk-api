@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IProcessLock.AddRefOnProcess
-title: IProcessLock::AddRefOnProcess
+title: IProcessLock::AddRefOnProcess (objidl.h)
 author: windows-sdk-content
 description: Increments the reference count of the process.
 old-location: com\iprocesslock_addrefonprocess.htm

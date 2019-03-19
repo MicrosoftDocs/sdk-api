@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.EnterSynchronizationBarrier
-title: EnterSynchronizationBarrier function
+title: EnterSynchronizationBarrier function (synchapi.h)
 author: windows-sdk-content
 description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.
 old-location: base\entersynchronizationbarrier.htm

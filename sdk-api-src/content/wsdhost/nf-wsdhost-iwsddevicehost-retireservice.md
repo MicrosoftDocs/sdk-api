@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RetireService
-title: IWSDDeviceHost::RetireService
+title: IWSDDeviceHost::RetireService (wsdhost.h)
 author: windows-sdk-content
 description: Unregisters a service object that was registered using RegisterService and removes the service from the device host metadata.
 old-location: ncd\iwsddevicehost_retireservice_method.htm

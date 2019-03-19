@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetForceRerunAutoProxyDetection
-title: IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection
+title: IWMReaderNetworkConfig::GetForceRerunAutoProxyDetection (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetForceRerunAutoProxyDetection method ascertains whether forced rerun detection is enabled.
 old-location: wmformat\iwmreadernetworkconfig_getforcererunautoproxydetection.htm

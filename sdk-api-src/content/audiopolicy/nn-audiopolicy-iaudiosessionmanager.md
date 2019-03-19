@@ -1,6 +1,6 @@
 ---
 UID: NN:audiopolicy.IAudioSessionManager
-title: IAudioSessionManager
+title: IAudioSessionManager (audiopolicy.h)
 author: windows-sdk-content
 description: The IAudioSessionManager interface enables a client to access the session controls and volume controls for both cross-process and process-specific audio sessions.
 old-location: coreaudio\iaudiosessionmanager.htm

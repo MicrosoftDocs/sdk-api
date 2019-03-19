@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SYN_OPTS_ROS_v0
-title: TCP_ESTATS_SYN_OPTS_ROS_v0
+title: TCP_ESTATS_SYN_OPTS_ROS_v0 (tcpestats.h)
 author: windows-sdk-content
 description: Contains read-only static information for extended TCP statistics on SYN exchange for a TCP connection.
 old-location: iphlp\tcp_estats_syn_opts_ros_v0.htm

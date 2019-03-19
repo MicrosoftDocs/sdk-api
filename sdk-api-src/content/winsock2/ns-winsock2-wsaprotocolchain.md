@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSAPROTOCOLCHAIN
-title: WSAPROTOCOLCHAIN
+title: WSAPROTOCOLCHAIN (winsock2.h)
 author: windows-sdk-content
 description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.
 old-location: winsock\wsaprotocolchain_2.htm

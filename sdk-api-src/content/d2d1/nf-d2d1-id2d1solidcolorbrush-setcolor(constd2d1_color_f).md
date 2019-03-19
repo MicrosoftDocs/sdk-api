@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SolidColorBrush.SetColor(const D2D1_COLOR_F)
-title: ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F)
+title: ID2D1SolidColorBrush::SetColor(const D2D1_COLOR_F) (d2d1.h)
 author: windows-sdk-content
 description: Specifies the color of this solid color brush.
 old-location: direct2d\ID2D1SolidColorBrush_SetColor_ptr_COLOR_F.htm

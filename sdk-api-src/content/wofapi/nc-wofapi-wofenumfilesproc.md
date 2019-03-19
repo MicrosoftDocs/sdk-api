@@ -1,6 +1,6 @@
 ---
 UID: NC:wofapi.WofEnumFilesProc
-title: WofEnumFilesProc
+title: WofEnumFilesProc (wofapi.h)
 author: windows-sdk-content
 description: Callback function that gets called for each file backed by an external data source, such as a WIM file.
 old-location: fs\wofenumfilesproc.htm

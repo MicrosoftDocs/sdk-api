@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_DrawingAttributes
-title: IInkCursor::get_DrawingAttributes
+title: IInkCursor::get_DrawingAttributes (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the drawing attributes to apply to ink as it is drawn.
 old-location: tablet\iinkcursor_drawingattributes.htm

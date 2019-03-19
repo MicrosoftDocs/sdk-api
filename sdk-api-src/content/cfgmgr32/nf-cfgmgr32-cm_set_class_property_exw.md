@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Class_Property_ExW
-title: CM_Set_Class_Property_ExW function
+title: CM_Set_Class_Property_ExW function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Set_Class_Property_ExW function sets a class property for a device setup class or a device interface class.
 old-location: devinst\cm_set_class_property_exw.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sensevts.SENS_QOCINFO
-title: SENS_QOCINFO
+title: SENS_QOCINFO (sensevts.h)
 author: windows-sdk-content
 description: The SENS_QOCINFO structure is used by the ISensNetwork::ConnectionMade method. This structure contains Quality of Connection information to the sink object in an application that subscribes to SENS.
 old-location: sens\sens_qocinfo.htm

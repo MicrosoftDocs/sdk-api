@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegOpenUserClassesRoot
-title: RegOpenUserClassesRoot function
+title: RegOpenUserClassesRoot function (winreg.h)
 author: windows-sdk-content
 description: Retrieves a handle to the HKEY_CLASSES_ROOT key for a specified user. The user is identified by an access token.
 old-location: base\regopenuserclassesroot.htm

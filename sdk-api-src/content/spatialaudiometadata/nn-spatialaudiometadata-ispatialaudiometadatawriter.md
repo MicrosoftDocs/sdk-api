@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataWriter
-title: ISpatialAudioMetadataWriter
+title: ISpatialAudioMetadataWriter (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Provides methods for storing spatial audio metadata items positioned within a range of corresponding audio frames.
 old-location: coreaudio\ispatialaudiometadatawriter.htm

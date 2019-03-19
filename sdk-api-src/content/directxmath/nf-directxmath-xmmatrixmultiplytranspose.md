@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixMultiplyTranspose
-title: XMMatrixMultiplyTranspose function
+title: XMMatrixMultiplyTranspose function (directxmath.h)
 author: windows-sdk-content
 description: Computes the transpose of the product of two matrices.
 old-location: dxmath\xmmatrixmultiplytranspose.htm

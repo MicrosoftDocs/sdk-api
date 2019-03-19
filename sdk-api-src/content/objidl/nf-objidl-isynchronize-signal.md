@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISynchronize.Signal
-title: ISynchronize::Signal
+title: ISynchronize::Signal (objidl.h)
 author: windows-sdk-content
 description: Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
 old-location: com\isynchronize_signal.htm

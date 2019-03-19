@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef.__unnamed_enum_1
-title: IF_OPER_STATUS
+title: IF_OPER_STATUS (ifdef.h)
 author: windows-sdk-content
 description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.
 old-location: iphlp\if_oper_status.htm

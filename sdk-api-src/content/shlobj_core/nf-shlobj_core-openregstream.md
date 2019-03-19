@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.OpenRegStream
-title: OpenRegStream function
+title: OpenRegStream function (shlobj_core.h)
 author: windows-sdk-content
 description: OpenRegStream may be altered or unavailable. Instead, use SHOpenRegStream2 or SHOpenRegStream.
 old-location: shell\OpenRegStream.htm

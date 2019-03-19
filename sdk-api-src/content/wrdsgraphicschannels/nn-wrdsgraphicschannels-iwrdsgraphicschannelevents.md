@@ -1,6 +1,6 @@
 ---
 UID: NN:wrdsgraphicschannels.IWRdsGraphicsChannelEvents
-title: IWRdsGraphicsChannelEvents
+title: IWRdsGraphicsChannelEvents (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: This interface receives notifications that relate to a graphics virtual channel.
 old-location: termserv\iwrdsgraphicschannelevents.htm

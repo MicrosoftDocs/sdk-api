@@ -1,6 +1,6 @@
 ---
 UID: NF:certmod.ICertManageModule.GetProperty
-title: ICertManageModule::GetProperty
+title: ICertManageModule::GetProperty (certmod.h)
 author: windows-sdk-content
 description: Retrieves a module's property value.
 old-location: security\icertmanagemodule_getproperty.htm

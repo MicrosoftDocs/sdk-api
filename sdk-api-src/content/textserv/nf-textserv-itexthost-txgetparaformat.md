@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetParaFormat
-title: ITextHost::TxGetParaFormat
+title: ITextHost::TxGetParaFormat (textserv.h)
 author: windows-sdk-content
 description: Requests the text host's default paragraph format.
 old-location: controls\ITextHost_TxGetParaFormat.htm

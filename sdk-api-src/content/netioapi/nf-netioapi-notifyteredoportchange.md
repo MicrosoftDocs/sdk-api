@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.NotifyTeredoPortChange
-title: NotifyTeredoPortChange function
+title: NotifyTeredoPortChange function (netioapi.h)
 author: windows-sdk-content
 description: Registers to be notified for changes to the UDP port number used by the Teredo client for the Teredo service port on a local computer.
 old-location: iphlp\notifyteredoportchange.htm

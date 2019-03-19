@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.EndUninstall
-title: IUpdateInstaller::EndUninstall
+title: IUpdateInstaller::EndUninstall (wuapi.h)
 author: windows-sdk-content
 description: Completes an asynchronous uninstallation of the updates.
 old-location: wua\iupdateinstaller_enduninstall.htm

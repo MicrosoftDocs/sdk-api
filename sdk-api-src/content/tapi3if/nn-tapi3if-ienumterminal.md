@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumTerminal
-title: IEnumTerminal
+title: IEnumTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumTerminal interface provides COM-standard enumeration methods for the ITTerminal interface.
 old-location: tapi3\ienumterminal.htm

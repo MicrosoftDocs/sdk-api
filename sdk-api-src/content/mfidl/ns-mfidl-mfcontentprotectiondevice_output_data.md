@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
-title: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
+title: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA (mfidl.h)
 author: windows-sdk-content
 description: Contains information about the data you received as output from a protection system function.
 old-location: mf\mfcontentprotectiondevice_output_data.htm

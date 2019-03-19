@@ -1,6 +1,6 @@
 ---
 UID: NS:peerdist.peerdist_status_info_tag
-title: PEERDIST_STATUS_INFO
+title: PEERDIST_STATUS_INFO (peerdist.h)
 author: windows-sdk-content
 description: The PEERDIST_STATUS_INFO structure contains information about the current status and capabilities of the BranchCache service on the local computer.
 old-location: p2p\peerdist_status_info.htm

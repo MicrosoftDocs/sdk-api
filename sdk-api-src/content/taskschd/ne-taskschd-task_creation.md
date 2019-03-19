@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_CREATION
-title: TASK_CREATION
+title: TASK_CREATION (taskschd.h)
 author: windows-sdk-content
 description: Defines how the Task Scheduler service creates, updates, or disables the task.
 old-location: taskschd\taskcreation.htm

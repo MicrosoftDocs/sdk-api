@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMIStyleName
-title: IWMPClosedCaption2::getSAMIStyleName
+title: IWMPClosedCaption2::getSAMIStyleName (wmp.h)
 author: windows-sdk-content
 description: The getSAMIStyleName method retrieves the name of a style supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamistylename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest3.GetRefreshPolicy
-title: ICertRequest3::GetRefreshPolicy
+title: ICertRequest3::GetRefreshPolicy (certcli.h)
 author: windows-sdk-content
 description: Returns a value that indicates whether a client's cached certificate enrollment policy is out of date and needs to be refreshed.
 old-location: security\icertrequest3_getrefreshpolicy.htm

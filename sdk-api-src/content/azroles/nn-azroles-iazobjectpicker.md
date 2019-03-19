@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzObjectPicker
-title: IAzObjectPicker
+title: IAzObjectPicker (azroles.h)
 author: windows-sdk-content
 description: Displays a dialog box that allows users to select one or more principals from a list.
 old-location: security\iazobjectpicker.htm

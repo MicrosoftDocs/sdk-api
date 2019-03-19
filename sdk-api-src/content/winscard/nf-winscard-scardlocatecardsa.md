@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardLocateCardsA
-title: SCardLocateCardsA function
+title: SCardLocateCardsA function (winscard.h)
 author: windows-sdk-content
 description: Searches the readers listed in the rgReaderStates parameter for a card with an ATR string that matches one of the card names specified in mszCards, returning immediately with the result.
 old-location: security\scardlocatecards.htm

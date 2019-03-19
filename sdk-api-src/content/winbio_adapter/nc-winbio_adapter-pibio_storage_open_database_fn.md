@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_OPEN_DATABASE_FN
-title: PIBIO_STORAGE_OPEN_DATABASE_FN
+title: PIBIO_STORAGE_OPEN_DATABASE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Opens a database for use by the storage adapter.
 old-location: secbiomet\storageadapteropendatabase.htm

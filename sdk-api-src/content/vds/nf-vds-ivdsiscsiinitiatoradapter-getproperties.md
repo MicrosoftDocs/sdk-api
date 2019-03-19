@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.GetProperties
-title: IVdsIscsiInitiatorAdapter::GetProperties
+title: IVdsIscsiInitiatorAdapter::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of an initiator adapter.
 old-location: base\ivdsiscsiinitiatoradapter_getproperties.htm

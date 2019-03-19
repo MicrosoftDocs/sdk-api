@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.RSSetViewports
-title: ID3D12GraphicsCommandList::RSSetViewports
+title: ID3D12GraphicsCommandList::RSSetViewports (d3d12.h)
 author: windows-sdk-content
 description: Bind an array of viewports to the rasterizer stage of the pipeline.
 old-location: direct3d12\id3d12graphicscommandlist_rssetviewports.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D1_PIXEL_FORMAT
-title: D2D1_PIXEL_FORMAT
+title: D2D1_PIXEL_FORMAT (dcommon.h)
 author: windows-sdk-content
 description: Contains the data format and alpha mode for a bitmap or render target.
 old-location: direct2d\D2D1_PIXEL_FORMAT.htm

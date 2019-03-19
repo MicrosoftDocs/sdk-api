@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioEnrollSelect
-title: WinBioEnrollSelect function
+title: WinBioEnrollSelect function (winbio.h)
 author: windows-sdk-content
 description: Specifies the individual that you want to enroll when data that represents multiple individuals is present in the sample buffer. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrollselect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetCLSID
-title: IUrlAccessor::GetCLSID
+title: IUrlAccessor::GetCLSID (searchapi.h)
 author: windows-sdk-content
 description: Gets the CLSID for the document type of the URL item being processed.
 old-location: search\_search_IUrlAccessor_GetCLSID.htm

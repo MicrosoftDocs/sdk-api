@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkWordList2
-title: IInkWordList2
+title: IInkWordList2 (msinkaut.h)
 author: windows-sdk-content
 description: Adds members to the InkWordList Class.
 old-location: tablet\iinkwordlist2.htm

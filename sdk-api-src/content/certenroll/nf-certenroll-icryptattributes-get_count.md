@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get_Count
-title: ICryptAttributes::get_Count
+title: ICryptAttributes::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of ICryptAttribute objects in the collection.
 old-location: security\icryptattributes_count_property.htm

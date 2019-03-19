@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FCIFlushCabinet
-title: FCIFlushCabinet function
+title: FCIFlushCabinet function (fci.h)
 author: windows-sdk-content
 description: The FCIFlushCabinet function completes the current cabinet.
 old-location: winprog\fciflushcabinet.htm

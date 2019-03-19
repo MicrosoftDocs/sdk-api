@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IContextState
-title: IContextState
+title: IContextState (comsvcs.h)
 author: windows-sdk-content
 description: Controls object deactivation and transaction voting by manipulating context state flags.
 old-location: cos\icontextstate.htm

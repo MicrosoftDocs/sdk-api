@@ -1,6 +1,6 @@
 ---
 UID: NF:prntvpt.PTCloseProvider
-title: PTCloseProvider function
+title: PTCloseProvider function (prntvpt.h)
 author: windows-sdk-content
 description: Closes a print ticket provider handle.
 old-location: gdi\ptcloseprovider.htm

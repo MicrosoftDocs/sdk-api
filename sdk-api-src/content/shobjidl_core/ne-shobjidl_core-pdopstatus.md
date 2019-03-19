@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.PDOPSTATUS
-title: PDOPSTATUS
+title: PDOPSTATUS (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides operation status flags.
 old-location: properties\PDOPSTATUS.htm

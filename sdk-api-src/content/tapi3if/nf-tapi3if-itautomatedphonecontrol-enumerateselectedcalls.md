@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.EnumerateSelectedCalls
-title: ITAutomatedPhoneControl::EnumerateSelectedCalls
+title: ITAutomatedPhoneControl::EnumerateSelectedCalls (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateSelectedCalls method retrieves an enumerator object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.
 old-location: tapi3\itautomatedphonecontrol_enumerateselectedcalls.htm

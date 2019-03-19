@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_TargetInformation
-title: SecPkgContext_TargetInformation
+title: SecPkgContext_TargetInformation (sspi.h)
 author: windows-sdk-content
 description: Returns information about the credential used for the security context.
 old-location: security\secpkgcontext_targetinformation.htm

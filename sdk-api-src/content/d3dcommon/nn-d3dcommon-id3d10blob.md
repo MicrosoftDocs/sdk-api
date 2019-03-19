@@ -1,6 +1,6 @@
 ---
 UID: NN:d3dcommon.ID3D10Blob
-title: ID3D10Blob
+title: ID3D10Blob (d3dcommon.h)
 author: windows-sdk-content
 description: This interface is used to return arbitrary-length data.
 old-location: direct3d11\id3d10blob.htm

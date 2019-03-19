@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IUnknown_QueryService
-title: IUnknown_QueryService function
+title: IUnknown_QueryService function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves an interface for a service from a specified object.
 old-location: shell\IUnknown_QueryService.htm

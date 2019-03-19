@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentWriteSpeed
-title: IDiscFormat2RawCD::get_CurrentWriteSpeed
+title: IDiscFormat2RawCD::get_CurrentWriteSpeed (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the drive's current write speed.
 old-location: imapi\idiscformat2rawcd_get_currentwritespeed.htm

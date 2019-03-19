@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterface
-title: IPart::GetControlInterface
+title: IPart::GetControlInterface (devicetopology.h)
 author: windows-sdk-content
 description: The GetControlInterface method gets a reference to the specified control interface, if this part supports it.
 old-location: coreaudio\ipart_getcontrolinterface.htm

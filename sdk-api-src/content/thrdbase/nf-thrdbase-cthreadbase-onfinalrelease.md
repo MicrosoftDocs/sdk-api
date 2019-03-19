@@ -1,6 +1,6 @@
 ---
 UID: NF:thrdbase.CThreadBase.OnFinalRelease
-title: CThreadBase::OnFinalRelease
+title: CThreadBase::OnFinalRelease (thrdbase.h)
 author: windows-sdk-content
 description: The OnFinalRelease method is a virtual function called by Release when the reference count reaches zero. CThreadBase is called internally.
 old-location: wmi\cthreadbase_onfinalrelease.htm

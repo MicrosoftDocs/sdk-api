@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnit.get_RotationTransform
-title: IInkDivisionUnit::get_RotationTransform
+title: IInkDivisionUnit::get_RotationTransform (msinkaut15.h)
 author: windows-sdk-content
 description: Gets the transformation matrix that the IInkDivisionUnit object uses to rotate the strokes to horizontal.
 old-location: tablet\iinkdivisionunit_rotationtransform.htm

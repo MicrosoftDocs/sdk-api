@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_SWATCHCOLORMODE
-title: UI_SWATCHCOLORMODE
+title: UI_SWATCHCOLORMODE (uiribbon.h)
 author: windows-sdk-content
 description: Specifies whether a swatch has normal or monochrome mode.
 old-location: windowsribbon\ui_swatchcolormode.htm

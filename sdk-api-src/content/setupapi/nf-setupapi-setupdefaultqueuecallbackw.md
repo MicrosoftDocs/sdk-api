@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDefaultQueueCallbackW
-title: SetupDefaultQueueCallbackW function
+title: SetupDefaultQueueCallbackW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDefaultQueueCallback function is the default queue callback routine included with the Setup API. You can use it to process notifications sent by the SetupCommitFileQueue function.
 old-location: setup\setupdefaultqueuecallback.htm

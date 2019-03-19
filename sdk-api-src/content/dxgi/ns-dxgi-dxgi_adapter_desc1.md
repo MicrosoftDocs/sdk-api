@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi.DXGI_ADAPTER_DESC1
-title: DXGI_ADAPTER_DESC1
+title: DXGI_ADAPTER_DESC1 (dxgi.h)
 author: windows-sdk-content
 description: Describes an adapter (or video card) using DXGI 1.1.
 old-location: direct3ddxgi\dxgi_adapter_desc1.htm

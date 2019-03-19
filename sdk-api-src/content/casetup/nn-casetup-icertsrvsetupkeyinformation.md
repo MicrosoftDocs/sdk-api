@@ -1,6 +1,6 @@
 ---
 UID: NN:casetup.ICertSrvSetupKeyInformation
-title: ICertSrvSetupKeyInformation
+title: ICertSrvSetupKeyInformation (casetup.h)
 author: windows-sdk-content
 description: Defines a set of private key properties that are used for setup of certification authority (CA) or Microsoft Simple Certificate Enrollment Protocol (SCEP) roles.
 old-location: security\icertsrvsetupkeyinformation.htm

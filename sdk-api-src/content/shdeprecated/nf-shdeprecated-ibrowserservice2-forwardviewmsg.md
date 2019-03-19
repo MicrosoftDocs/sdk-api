@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.ForwardViewMsg
-title: IBrowserService2::ForwardViewMsg
+title: IBrowserService2::ForwardViewMsg (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Calls the SendMessage function with a message received by the view, using the _hwndView member of the BASEBROWSERDATA structure as the SendMessage hWnd parameter.
 old-location: shell\IBrowserService2_ForwardViewMsg.htm

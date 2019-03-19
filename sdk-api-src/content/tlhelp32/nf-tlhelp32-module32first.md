@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.Module32First
-title: Module32First function
+title: Module32First function (tlhelp32.h)
 author: windows-sdk-content
 description: Retrieves information about the first module associated with a process.
 old-location: toolhelp\module32first.htm

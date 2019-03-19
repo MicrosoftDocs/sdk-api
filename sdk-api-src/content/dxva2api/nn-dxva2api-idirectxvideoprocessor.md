@@ -1,6 +1,6 @@
 ---
 UID: NN:dxva2api.IDirectXVideoProcessor
-title: IDirectXVideoProcessor
+title: IDirectXVideoProcessor (dxva2api.h)
 author: windows-sdk-content
 description: Represents a DirectX Video Acceleration (DXVA) video processor device.
 old-location: mf\idirectxvideoprocessor.htm

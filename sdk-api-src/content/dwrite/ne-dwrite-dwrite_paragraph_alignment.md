@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_PARAGRAPH_ALIGNMENT
-title: DWRITE_PARAGRAPH_ALIGNMENT
+title: DWRITE_PARAGRAPH_ALIGNMENT (dwrite.h)
 author: windows-sdk-content
 description: Specifies the alignment of paragraph text along the flow direction axis, relative to the top and bottom of the flow's layout box.
 old-location: directwrite\dwrite_paragraph_alignment.htm

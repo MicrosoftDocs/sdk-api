@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasEnumEntriesA
-title: RasEnumEntriesA function
+title: RasEnumEntriesA function (ras.h)
 author: windows-sdk-content
 description: The RasEnumEntries function lists all entry names in a remote access phone book.
 old-location: rras\rasenumentries.htm

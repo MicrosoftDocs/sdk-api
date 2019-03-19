@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.GetDescription
-title: IOleUndoUnit::GetDescription
+title: IOleUndoUnit::GetDescription (ocidl.h)
 author: windows-sdk-content
 description: Retrieves a description of the undo unit that can be used in the undo or redo user interface.
 old-location: com\ioleundounit_getdescription.htm

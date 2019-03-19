@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateAC3MediaSink
-title: MFCreateAC3MediaSink function
+title: MFCreateAC3MediaSink function (mfidl.h)
 author: windows-sdk-content
 description: Creates an instance of the AC-3 media sink.
 old-location: mf\mfcreateac3mediasink.htm

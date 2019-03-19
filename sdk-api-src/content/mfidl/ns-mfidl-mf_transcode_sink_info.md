@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MF_TRANSCODE_SINK_INFO
-title: MF_TRANSCODE_SINK_INFO
+title: MF_TRANSCODE_SINK_INFO (mfidl.h)
 author: windows-sdk-content
 description: Contains information about the audio and video streams for the transcode sink activation object.
 old-location: mf\mf_transcode_sink_info.htm

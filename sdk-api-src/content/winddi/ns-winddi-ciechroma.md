@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._CIECHROMA
-title: CIECHROMA
+title: CIECHROMA (winddi.h)
 author: windows-sdk-content
 description: The CIECHROMA structure is used to describe the chromaticity coordinates, x and y, and the luminance, Y in CIE color space.
 old-location: display\ciechroma.htm

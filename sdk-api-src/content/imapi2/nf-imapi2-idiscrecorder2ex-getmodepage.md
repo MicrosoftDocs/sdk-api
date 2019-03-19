@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetModePage
-title: IDiscRecorder2Ex::GetModePage
+title: IDiscRecorder2Ex::GetModePage (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the specified mode page from the device.
 old-location: imapi\idiscrecorder2ex_getmodepage.htm

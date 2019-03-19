@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IConsolePower
-title: IConsolePower
+title: IConsolePower (mmc.h)
 author: windows-sdk-content
 description: The IConsolePower interface controls the execution state and idle timers on operating systems that support power management.
 old-location: mmc\iconsolepower.htm

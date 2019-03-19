@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegBatchCloseNotification
-title: ClusterRegBatchCloseNotification function
+title: ClusterRegBatchCloseNotification function (clusapi.h)
 author: windows-sdk-content
 description: Frees the memory associated with the batch notification.
 old-location: mscs\clusterregbatchclosenotification.htm

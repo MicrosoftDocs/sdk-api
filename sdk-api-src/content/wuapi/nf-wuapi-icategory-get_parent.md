@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ICategory.get_Parent
-title: ICategory::get_Parent
+title: ICategory::get_Parent (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that describes the parent category of this category.
 old-location: wua\icategory_parent.htm

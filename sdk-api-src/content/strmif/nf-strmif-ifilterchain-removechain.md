@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterChain.RemoveChain
-title: IFilterChain::RemoveChain
+title: IFilterChain::RemoveChain (strmif.h)
 author: windows-sdk-content
 description: The RemoveChain method removes every filter in a filter chain from the filter graph.
 old-location: dshow\ifilterchain_removechain.htm

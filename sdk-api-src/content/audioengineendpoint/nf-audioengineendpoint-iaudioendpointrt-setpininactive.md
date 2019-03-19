@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.SetPinInactive
-title: IAudioEndpointRT::SetPinInactive
+title: IAudioEndpointRT::SetPinInactive (audioengineendpoint.h)
 author: windows-sdk-content
 description: Notifies the endpoint that it must change the state of the underlying stream resources to an inactive state.
 old-location: termserv\iaudioendpointrt_setpininactive.htm

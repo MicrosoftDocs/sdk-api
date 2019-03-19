@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.MAKE_SCODE
-title: MAKE_SCODE macro
+title: MAKE_SCODE macro (winerror.h)
 author: windows-sdk-content
 description: Creates an SCODE value from its component pieces.
 old-location: com\make_scode_macro.htm

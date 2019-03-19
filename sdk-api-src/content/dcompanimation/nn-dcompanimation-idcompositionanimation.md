@@ -1,6 +1,6 @@
 ---
 UID: NN:dcompanimation.IDCompositionAnimation
-title: IDCompositionAnimation
+title: IDCompositionAnimation (dcompanimation.h)
 author: windows-sdk-content
 description: Represents a function for animating one or more properties of one or more Microsoft DirectComposition objects.
 old-location: directcomp\idcompositionanimation.htm

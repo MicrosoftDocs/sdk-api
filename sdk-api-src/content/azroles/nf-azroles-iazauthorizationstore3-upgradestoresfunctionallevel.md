@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.UpgradeStoresFunctionalLevel
-title: IAzAuthorizationStore3::UpgradeStoresFunctionalLevel
+title: IAzAuthorizationStore3::UpgradeStoresFunctionalLevel (azroles.h)
 author: windows-sdk-content
 description: Upgrades this authorization store from version 1 to version 2.
 old-location: security\iazauthorizationstore3_upgradestoresfunctionallevel_method.htm

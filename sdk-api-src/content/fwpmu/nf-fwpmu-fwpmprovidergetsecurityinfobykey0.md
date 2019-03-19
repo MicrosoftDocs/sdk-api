@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderGetSecurityInfoByKey0
-title: FwpmProviderGetSecurityInfoByKey0 function
+title: FwpmProviderGetSecurityInfoByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a provider object.
 old-location: fwp\fwpmprovidergetsecurityinfobykey0_func.htm

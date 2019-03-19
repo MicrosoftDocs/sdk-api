@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetFarmProperty
-title: ITsSbResourcePluginStore::GetFarmProperty
+title: ITsSbResourcePluginStore::GetFarmProperty (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a property of a farm.
 old-location: termserv\itssbresourcepluginstore_getfarmproperty.htm

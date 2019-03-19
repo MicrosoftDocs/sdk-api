@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Unlock
-title: IWMSecureChannel::WMSC_Unlock
+title: IWMSecureChannel::WMSC_Unlock (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_Unlock method unlocks access to the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_unlock.htm

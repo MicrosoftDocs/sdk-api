@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.SetStorageFormat
-title: IWMProfile3::SetStorageFormat
+title: IWMProfile3::SetStorageFormat (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetStorageFormat method is not implemented.
 old-location: wmformat\iwmprofile3_setstorageformat.htm

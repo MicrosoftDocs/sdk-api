@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ChangePoint
-title: IFileSystemImage::get_ChangePoint
+title: IFileSystemImage::get_ChangePoint (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the change point identifier.
 old-location: imapi\ifilesystemimage_get_changepoint.htm

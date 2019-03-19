@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_GetSelRange
-title: MonthCal_GetSelRange macro
+title: MonthCal_GetSelRange macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the MCM_GETSELRANGE message explicitly.
 old-location: controls\MonthCal_GetSelRange.htm

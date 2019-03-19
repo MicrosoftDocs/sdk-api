@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidGenericSink.SetSinkFilter
-title: IMSVidGenericSink::SetSinkFilter
+title: IMSVidGenericSink::SetSinkFilter (segment.h)
 author: windows-sdk-content
 description: The SetSinkFilter method sets the filter for the sink.
 old-location: mstv\imsvidgenericsink_setsinkfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dvdevcod._tagDVD_ERROR
-title: DVD_ERROR
+title: DVD_ERROR (dvdevcod.h)
 author: windows-sdk-content
 description: The DVD_ERROR enumeration value defines DVD error conditions.
 old-location: dshow\dvd_error.htm

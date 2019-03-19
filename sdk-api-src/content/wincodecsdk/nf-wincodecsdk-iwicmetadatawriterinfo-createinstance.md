@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriterInfo.CreateInstance
-title: IWICMetadataWriterInfo::CreateInstance
+title: IWICMetadataWriterInfo::CreateInstance (wincodecsdk.h)
 author: windows-sdk-content
 description: Creates an instance of an IWICMetadataWriter.
 old-location: wic\_wic_codec_iwicmetadatawriterinfo_createinstance.htm

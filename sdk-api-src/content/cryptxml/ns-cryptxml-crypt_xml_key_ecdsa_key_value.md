@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_ECDSA_KEY_VALUE
-title: CRYPT_XML_KEY_ECDSA_KEY_VALUE
+title: CRYPT_XML_KEY_ECDSA_KEY_VALUE (cryptxml.h)
 author: windows-sdk-content
 description: Defines an Elliptic Curve Digital Signature Algorithm (ECDSA) key value. The CRYPT_XML_KEY_ECDSA_KEY_VALUE structure is used as an element of the key value union in the CRYPT_XML_KEY_VALUE structure.
 old-location: security\crypt_xml_key_ecdsa_key_value.htm

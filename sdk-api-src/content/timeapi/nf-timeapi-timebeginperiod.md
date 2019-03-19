@@ -1,6 +1,6 @@
 ---
 UID: NF:timeapi.timeBeginPeriod
-title: timeBeginPeriod function
+title: timeBeginPeriod function (timeapi.h)
 author: windows-sdk-content
 description: The timeBeginPeriod function requests a minimum resolution for periodic timers.
 old-location: multimedia\timebeginperiod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertTextAtSelection
-title: ITextStoreAnchor::InsertTextAtSelection
+title: ITextStoreAnchor::InsertTextAtSelection (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::InsertTextAtSelection method
 old-location: tsf\itextstoreanchor_inserttextatselection.htm

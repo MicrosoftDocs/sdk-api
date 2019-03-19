@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IAudioStreamSample.GetAudioData
-title: IAudioStreamSample::GetAudioData
+title: IAudioStreamSample::GetAudioData (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the address of a pointer to the IAudioData object associated with the sample.
 old-location: dshow\iaudiostreamsample_getaudiodata.htm

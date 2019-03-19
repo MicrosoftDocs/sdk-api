@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPHttpHeaderControl
-title: IUPnPHttpHeaderControl
+title: IUPnPHttpHeaderControl (upnp.h)
 author: windows-sdk-content
 description: Enables the caller to specify additional HTTP headers sent in HTTP requests to a device.
 old-location: upnp\iupnphttpheadercontrol.htm

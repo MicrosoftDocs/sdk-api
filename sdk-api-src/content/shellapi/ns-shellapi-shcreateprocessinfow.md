@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._SHCREATEPROCESSINFOW
-title: SHCREATEPROCESSINFOW
+title: SHCREATEPROCESSINFOW (shellapi.h)
 author: windows-sdk-content
 description: Contains the information needed by SHCreateProcessAsUserW to create a process.
 old-location: shell\SHCREATEPROCESSINFOW_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._MFCameraExtrinsic_CalibratedTransform
-title: MFCameraExtrinsic_CalibratedTransform
+title: MFCameraExtrinsic_CalibratedTransform (mfapi.h)
 author: windows-sdk-content
 description: A transform describing the location of a camera relative to other cameras or an established external reference.
 old-location: mf\mfcameraextrinsic_calibratedtransform.htm

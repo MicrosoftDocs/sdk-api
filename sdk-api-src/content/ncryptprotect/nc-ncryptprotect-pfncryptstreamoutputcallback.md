@@ -1,6 +1,6 @@
 ---
 UID: NC:ncryptprotect.PFNCryptStreamOutputCallback
-title: PFNCryptStreamOutputCallback
+title: PFNCryptStreamOutputCallback (ncryptprotect.h)
 author: windows-sdk-content
 description: Receives encrypted or decrypted data from tasks started by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\pfncryptstreamoutputcallback.htm

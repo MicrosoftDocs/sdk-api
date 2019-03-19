@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapWalk
-title: HeapWalk function
+title: HeapWalk function (heapapi.h)
 author: windows-sdk-content
 description: Enumerates the memory blocks in the specified heap.
 old-location: base\heapwalk.htm

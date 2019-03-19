@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.AddPropertyItem
-title: IAzRole::AddPropertyItem
+title: IAzRole::AddPropertyItem (azroles.h)
 author: windows-sdk-content
 description: Adds the specified entity to the specified list.
 old-location: security\iazrole_addpropertyitem.htm

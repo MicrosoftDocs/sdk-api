@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.SetHandlerClsid
-title: IDefaultFolderMenuInitialize::SetHandlerClsid
+title: IDefaultFolderMenuInitialize::SetHandlerClsid (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IDefaultFolderMenuInitialize_SetHandlerClsid.htm

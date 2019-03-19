@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.AddFileSet
-title: IBackgroundCopyJob::AddFileSet
+title: IBackgroundCopyJob::AddFileSet (bits.h)
 author: windows-sdk-content
 description: Adds multiple files to a job.
 old-location: bits\ibackgroundcopyjob_addfileset.htm

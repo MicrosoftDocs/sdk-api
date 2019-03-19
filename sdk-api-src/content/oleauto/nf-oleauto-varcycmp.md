@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyCmp
-title: VarCyCmp function
+title: VarCyCmp function (oleauto.h)
 author: windows-sdk-content
 description: Compares two variants of type currency.
 old-location: automat\varcycmp.htm

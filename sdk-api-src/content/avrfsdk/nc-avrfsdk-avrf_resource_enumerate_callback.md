@@ -1,6 +1,6 @@
 ---
 UID: NC:avrfsdk.AVRF_RESOURCE_ENUMERATE_CALLBACK
-title: AVRF_RESOURCE_ENUMERATE_CALLBACK
+title: AVRF_RESOURCE_ENUMERATE_CALLBACK (avrfsdk.h)
 author: windows-sdk-content
 description: Provides access to one of the specialized callback functions for enumeration of either heap allocation or handle trace information.
 old-location: winprog\avrf_resource_enumerate_callback.htm

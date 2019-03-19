@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserSamCompat
-title: IAzClientContext::get_UserSamCompat
+title: IAzClientContext::get_UserSamCompat (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the current client in a format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_usersamcompat.htm

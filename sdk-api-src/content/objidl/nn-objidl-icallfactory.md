@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.ICallFactory
-title: ICallFactory
+title: ICallFactory (objidl.h)
 author: windows-sdk-content
 description: Creates a call object for processing calls to the methods of an asynchronous interface.
 old-location: com\icallfactory.htm

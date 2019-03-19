@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.SetMultithreadProtected
-title: ID3D10Multithread::SetMultithreadProtected
+title: ID3D10Multithread::SetMultithreadProtected (d3d10.h)
 author: windows-sdk-content
 description: Turn multithreading on or off.
 old-location: direct3d10\id3d10multithread_setmultithreadprotected.htm

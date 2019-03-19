@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetDeviceSignature
-title: IDot11AdHocInterface::GetDeviceSignature
+title: IDot11AdHocInterface::GetDeviceSignature (adhoc.h)
 author: windows-sdk-content
 description: Gets the signature of the NIC.
 old-location: nwifi\idot11adhocinterface_getdevicesignature.htm

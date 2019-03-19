@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_UNIT_MODE
-title: D2D1_UNIT_MODE
+title: D2D1_UNIT_MODE (d2d1_1.h)
 author: windows-sdk-content
 description: Specifies how units in Direct2D will be interpreted.
 old-location: direct2d\__d2d1_unit_mode.htm

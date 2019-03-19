@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleCacheControl
-title: IOleCacheControl
+title: IOleCacheControl (oleidl.h)
 author: windows-sdk-content
 description: Provides proper maintenance of caches. It maintains the caches by connecting the running object's IDataObject implementation to the cache, allowing the cache to receive notifications from the running object.
 old-location: com\iolecachecontrol.htm

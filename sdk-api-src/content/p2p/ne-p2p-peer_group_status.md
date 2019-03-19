@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_group_status_tag
-title: PEER_GROUP_STATUS
+title: PEER_GROUP_STATUS (p2p.h)
 author: windows-sdk-content
 description: The PEER_GROUP_STATUS flags indicate whether or not the peer group has connections present.
 old-location: p2p\peer_group_status.htm

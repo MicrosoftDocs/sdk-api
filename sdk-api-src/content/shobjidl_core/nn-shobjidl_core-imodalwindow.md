@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IModalWindow
-title: IModalWindow
+title: IModalWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that represents a modal window. This interface is used in the Windows XP Passport Wizard.
 old-location: shell\IModalWindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundDestinationUnreachable
-title: INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable
+title: INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable (netfw.h)
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutbounddestinationunreachable.htm

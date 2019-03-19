@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisession.put_InUse
-title: IMultisession::put_InUse
+title: IMultisession::put_InUse (imapi2.h)
 author: windows-sdk-content
 description: Determines if this multi-session interface is the one you should use on the current media.
 old-location: imapi\imultisession_put_inuse.htm

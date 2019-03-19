@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.RenderFile
-title: IMediaControl::RenderFile
+title: IMediaControl::RenderFile (control.h)
 author: windows-sdk-content
 description: The RenderFile method builds a filter graph that renders the specified file.
 old-location: dshow\imediacontrol_renderfile.htm

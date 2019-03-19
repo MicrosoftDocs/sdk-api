@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_AUTHORITY_KEY_ID2_INFO
-title: CERT_AUTHORITY_KEY_ID2_INFO
+title: CERT_AUTHORITY_KEY_ID2_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_AUTHORITY_KEY_ID2_INFO structure identifies the key used to sign a certificate or CRL.
 old-location: security\cert_authority_key_id2_info.htm

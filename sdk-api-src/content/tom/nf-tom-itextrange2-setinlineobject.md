@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetInlineObject
-title: ITextRange2::SetInlineObject
+title: ITextRange2::SetInlineObject (tom.h)
 author: windows-sdk-content
 description: Sets or inserts the properties of an inline object for a degenerate range.
 old-location: controls\itextrange2_setinlineobject.htm

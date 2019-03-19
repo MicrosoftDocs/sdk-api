@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Complement(IN const RectF &)
-title: Region::Complement(IN const RectF &)
+title: Region::Complement(IN const RectF &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Complement method updates this region to the portion of the specified rectangle's interior that does not intersect this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Complement_RectF_rect_.htm

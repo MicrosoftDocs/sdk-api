@@ -1,6 +1,6 @@
 ---
 UID: NF:mgmtapi.SnmpMgrRequest
-title: SnmpMgrRequest function
+title: SnmpMgrRequest function (mgmtapi.h)
 author: windows-sdk-content
 description: The SnmpMgrRequest function requests the specified operation be performed with the specified agent. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrrequest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_User
-title: ITAgent::get_User
+title: ITAgent::get_User (tapi3cc.h)
 author: windows-sdk-content
 description: The get_User method gets the agent user name, which is the same as the operating system user login or e-mail name.
 old-location: tapi3\itagent_get_user.htm

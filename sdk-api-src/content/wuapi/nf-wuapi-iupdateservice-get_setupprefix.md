@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateService.get_SetupPrefix
-title: IUpdateService::get_SetupPrefix
+title: IUpdateService::get_SetupPrefix (wuapi.h)
 author: windows-sdk-content
 description: Identifies the prefix for the setup files.
 old-location: wua\iupdateservice_setupprefix.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreatePnrpIncident
-title: NdfCreatePnrpIncident function
+title: NdfCreatePnrpIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Creates a session to diagnose issues with the Peer Name Resolution Protocol (PNRP) service.
 old-location: ndf\ndfcreatepnrpincident.htm

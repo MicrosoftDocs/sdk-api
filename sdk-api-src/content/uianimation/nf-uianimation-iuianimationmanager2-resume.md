@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Resume
-title: IUIAnimationManager2::Resume
+title: IUIAnimationManager2::Resume (uianimation.h)
 author: windows-sdk-content
 description: Resumes all animations.
 old-location: uianimation\iuianimationmanager2_resume.htm

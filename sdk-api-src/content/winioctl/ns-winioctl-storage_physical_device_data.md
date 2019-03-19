@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_DEVICE_DATA
-title: STORAGE_PHYSICAL_DEVICE_DATA
+title: STORAGE_PHYSICAL_DEVICE_DATA (winioctl.h)
 author: windows-sdk-content
 description: Describes a physical storage device.
 old-location: fs\storage_physical_device_data.htm

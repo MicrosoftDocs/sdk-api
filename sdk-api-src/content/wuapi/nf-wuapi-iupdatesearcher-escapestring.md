@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EscapeString
-title: IUpdateSearcher::EscapeString
+title: IUpdateSearcher::EscapeString (wuapi.h)
 author: windows-sdk-content
 description: Converts a string into a string that can be used as a literal value in a search criteria string.
 old-location: wua\iupdatesearcherescapestring.htm

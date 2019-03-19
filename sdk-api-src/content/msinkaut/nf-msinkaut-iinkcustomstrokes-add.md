@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Add
-title: IInkCustomStrokes::Add
+title: IInkCustomStrokes::Add (msinkaut.h)
 author: windows-sdk-content
 description: Adds an InkStrokes collection to an IInkCustomStrokes collection.
 old-location: tablet\iinkcustomstrokes_add.htm

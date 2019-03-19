@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.UnadviseEventSink
-title: ITfLangBarMgr::UnadviseEventSink
+title: ITfLangBarMgr::UnadviseEventSink (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::UnadviseEventSink method
 old-location: tsf\itflangbarmgr_unadviseeventsink.htm

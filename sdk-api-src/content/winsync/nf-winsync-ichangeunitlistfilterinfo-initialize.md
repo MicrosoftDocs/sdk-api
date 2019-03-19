@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.Initialize
-title: IChangeUnitListFilterInfo::Initialize
+title: IChangeUnitListFilterInfo::Initialize (winsync.h)
 author: windows-sdk-content
 description: Initializes a new instance of the IChangeUnitListFilterInfo class that contains the specified array of change unit IDs.
 old-location: winsync\ichangeunitlistfilterinfo_initialize.htm

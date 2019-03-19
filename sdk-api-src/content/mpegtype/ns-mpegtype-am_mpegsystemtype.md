@@ -1,6 +1,6 @@
 ---
 UID: NS:mpegtype.tagAM_MPEGSYSTEMTYPE
-title: AM_MPEGSYSTEMTYPE
+title: AM_MPEGSYSTEMTYPE (mpegtype.h)
 author: windows-sdk-content
 description: The AM_MPEGSYSTEMTYPE structure defines the format block for an MPEG-1 system stream.
 old-location: dshow\am_mpegsystemtype.htm

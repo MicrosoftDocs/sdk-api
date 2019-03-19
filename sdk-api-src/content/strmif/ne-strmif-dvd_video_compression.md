@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_VIDEO_COMPRESSION
-title: DVD_VIDEO_COMPRESSION
+title: DVD_VIDEO_COMPRESSION (strmif.h)
 author: windows-sdk-content
 description: Defines the possible DVD video compression types.
 old-location: dshow\dvd_video_compression.htm

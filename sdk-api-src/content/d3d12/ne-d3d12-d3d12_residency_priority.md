@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RESIDENCY_PRIORITY
-title: D3D12_RESIDENCY_PRIORITY
+title: D3D12_RESIDENCY_PRIORITY (d3d12.h)
 author: windows-sdk-content
 description: Specifies broad residency priority buckets useful for quickly establishing an application priority scheme.
 old-location: direct3d12\d3d12_residency_priority.htm

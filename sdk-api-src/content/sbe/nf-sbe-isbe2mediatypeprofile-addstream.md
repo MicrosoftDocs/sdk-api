@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.AddStream
-title: ISBE2MediaTypeProfile::AddStream
+title: ISBE2MediaTypeProfile::AddStream (sbe.h)
 author: windows-sdk-content
 description: Adds a stream to a media type profile.
 old-location: mstv\isbe2mediatypeprofile_addstream.htm

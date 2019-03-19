@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPolicyScope
-title: IOfflineFilesSetting::GetPolicyScope
+title: IOfflineFilesSetting::GetPolicyScope (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the scope of the policy associated with this setting.
 old-location: of\iofflinefilessetting_getpolicyscope.htm

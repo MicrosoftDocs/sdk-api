@@ -1,6 +1,6 @@
 ---
 UID: NF:dsattrib.IAttributeGet.GetCount
-title: IAttributeGet::GetCount
+title: IAttributeGet::GetCount (dsattrib.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iattributeget_getcount.htm

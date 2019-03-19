@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBooleanVector
-title: InitPropVariantFromBooleanVector function
+title: InitPropVariantFromBooleanVector function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure from a specified Boolean vector.
 old-location: properties\InitPropVariantFromBooleanVector.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Load
-title: IPersistStreamInit::Load
+title: IPersistStreamInit::Load (ocidl.h)
 author: windows-sdk-content
 description: Initializes an object from the stream where it was saved previously.
 old-location: com\ipersiststreaminit_load.htm

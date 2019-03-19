@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerCanRestoreIndividualDefaultPowerScheme
-title: PowerCanRestoreIndividualDefaultPowerScheme function
+title: PowerCanRestoreIndividualDefaultPowerScheme function (powrprof.h)
 author: windows-sdk-content
 description: Determines if the current user has access to the data for the specified power scheme so that it could be restored if necessary.
 old-location: base\powercanrestoreindividualdefaultpowerscheme.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsrm._RM_SEND_WINDOW
-title: RM_SEND_WINDOW
+title: RM_SEND_WINDOW (wsrm.h)
 author: windows-sdk-content
 description: The RM_SEND_WINDOW structure specifies the Reliable Multicast send window. This structure is used with the RM_RATE_WINDOW_SIZE socket option.
 old-location: winsock\rm_send_window.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_FMT_COUNTERVALUE
-title: PDH_FMT_COUNTERVALUE
+title: PDH_FMT_COUNTERVALUE (pdh.h)
 author: windows-sdk-content
 description: The PDH_FMT_COUNTERVALUE structure contains the computed value of the counter and its status.
 old-location: perf\pdh_fmt_countervalue_str.htm

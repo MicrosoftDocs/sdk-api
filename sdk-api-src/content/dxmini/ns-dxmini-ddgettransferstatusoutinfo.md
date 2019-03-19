@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDGETTRANSFERSTATUSOUTINFO
-title: DDGETTRANSFERSTATUSOUTINFO
+title: DDGETTRANSFERSTATUSOUTINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDGETTRANSFERSTATUSOUTINFO structure contains the transfer status information.
 old-location: display\ddgettransferstatusoutinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_Status
-title: IFaxDeviceProvider::get_Status
+title: IFaxDeviceProvider::get_Status (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_Status property is a number that indicates whether the fax service provider (FSP) loaded and initialized successfully.
 old-location: fax\_mfax_faxdeviceprovider_status.htm

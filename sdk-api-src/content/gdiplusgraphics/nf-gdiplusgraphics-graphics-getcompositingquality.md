@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetCompositingQuality
-title: Graphics::GetCompositingQuality
+title: Graphics::GetCompositingQuality (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::GetCompositingQuality method gets the compositing quality currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingQuality_.htm

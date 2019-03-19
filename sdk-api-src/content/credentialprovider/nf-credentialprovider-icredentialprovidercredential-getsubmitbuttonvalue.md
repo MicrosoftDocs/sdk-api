@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetSubmitButtonValue
-title: ICredentialProviderCredential::GetSubmitButtonValue
+title: ICredentialProviderCredential::GetSubmitButtonValue (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves the identifier of a field that the submit button should be placed next to in the Logon UI.
 old-location: shell\ICredentialProviderCredential_GetSubmitButtonValue.htm

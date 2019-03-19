@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetSelectedItems
-title: INameSpaceTreeControl::GetSelectedItems
+title: INameSpaceTreeControl::GetSelectedItems (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an array of selected Shell items.
 old-location: shell\INameSpaceTreeControl_GetSelectedItems.htm

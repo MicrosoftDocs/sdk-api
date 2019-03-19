@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLookup
-title: IXpsOMVisual::SetTransformLookup
+title: IXpsOMVisual::SetTransformLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
 old-location: xps\ixpsomvisual_settransformlookup.htm

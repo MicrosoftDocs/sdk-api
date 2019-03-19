@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_IncomingFaxesArePublic
-title: IFaxConfiguration::get_IncomingFaxesArePublic
+title: IFaxConfiguration::get_IncomingFaxesArePublic (faxcomex.h)
 author: windows-sdk-content
 description: Indicates whether incoming faxes are either viewable by everyone or private.
 old-location: fax\_mfax_IFaxConfiguration_IncomingFaxesArePublic.htm

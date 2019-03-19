@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.AddEnrollmentServer
-title: IX509EnrollmentHelper::AddEnrollmentServer
+title: IX509EnrollmentHelper::AddEnrollmentServer (certenroll.h)
 author: windows-sdk-content
 description: Saves certificate enrollment server (CES) access credentials in the credential cache.
 old-location: security\ix509enrollmenthelper_addenrollmentserver.htm

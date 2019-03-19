@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.ICDBurn
-title: ICDBurn
+title: ICDBurn (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that determine whether a system has hardware for writing to CD, the drive letter of a CD writer device, and programmatically initiate a CD writing session.
 old-location: shell\ICDBurn.htm

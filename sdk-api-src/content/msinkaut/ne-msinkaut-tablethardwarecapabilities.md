@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.TabletHardwareCapabilities
-title: TabletHardwareCapabilities
+title: TabletHardwareCapabilities (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the hardware capabilities of the Tablet PC.
 old-location: tablet\tablethardwarecapabilities.htm

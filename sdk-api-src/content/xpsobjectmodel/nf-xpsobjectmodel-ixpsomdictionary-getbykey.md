@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetByKey
-title: IXpsOMDictionary::GetByKey
+title: IXpsOMDictionary::GetByKey (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMShareable interface pointer of the entry that contains the specified key.
 old-location: xps\ixpsomdictionary_getbykey.htm

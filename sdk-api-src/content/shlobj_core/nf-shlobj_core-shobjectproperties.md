@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHObjectProperties
-title: SHObjectProperties function
+title: SHObjectProperties function (shlobj_core.h)
 author: windows-sdk-content
 description: SHObjectProperties may be altered or unavailable.
 old-location: shell\SHObjectProperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngAllocPrivateUserMem
-title: EngAllocPrivateUserMem macro
+title: EngAllocPrivateUserMem macro (winddi.h)
 author: windows-sdk-content
 description: The EngAllocPrivateUserMem function allocates a block of user memory from the address space of a specified process and inserts a caller-supplied tag before the allocation.
 old-location: display\engallocprivateusermem.htm

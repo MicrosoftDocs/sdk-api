@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmapi.WcmQueryProperty
-title: WcmQueryProperty function
+title: WcmQueryProperty function (wcmapi.h)
 author: windows-sdk-content
 description: Retrieves the value of a specified WCM property.
 old-location: wcm\wcmqueryproperty.htm

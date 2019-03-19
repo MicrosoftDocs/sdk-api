@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITWordWheel.Open
-title: IITWordWheel::Open
+title: IITWordWheel::Open (infotech.h)
 author: windows-sdk-content
 description: Opens a word wheel.
 old-location: htmlhelp\iitwordwheel_open.htm

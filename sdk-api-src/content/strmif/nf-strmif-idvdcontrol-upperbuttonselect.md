@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.UpperButtonSelect
-title: IDvdControl::UpperButtonSelect
+title: IDvdControl::UpperButtonSelect (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the upper directional button from the displayed menu.
 old-location: dshow\idvdcontrol_upperbuttonselect.htm

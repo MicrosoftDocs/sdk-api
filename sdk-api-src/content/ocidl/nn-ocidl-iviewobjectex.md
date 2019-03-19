@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IViewObjectEx
-title: IViewObjectEx
+title: IViewObjectEx (ocidl.h)
 author: windows-sdk-content
 description: An extension derived from IViewObject2 to provide support for:
 old-location: com\iviewobjectex.htm

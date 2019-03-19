@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.CreateEmptyMetadataObject
-title: IWMDMStorage3::CreateEmptyMetadataObject
+title: IWMDMStorage3::CreateEmptyMetadataObject (mswmdm.h)
 author: windows-sdk-content
 description: The CreateEmptyMetadataObject method creates a new IWMDMMetaData interface. This interface is used to set or retrieve metadata properties of a storage.
 old-location: wmdm\iwmdmstorage3_createemptymetadataobject.htm

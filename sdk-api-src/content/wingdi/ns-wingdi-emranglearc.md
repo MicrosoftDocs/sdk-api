@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRANGLEARC
-title: EMRANGLEARC
+title: EMRANGLEARC (wingdi.h)
 author: windows-sdk-content
 description: The EMRANGLEARC structure contains members for the AngleArc enhanced metafile record.
 old-location: gdi\emranglearc.htm

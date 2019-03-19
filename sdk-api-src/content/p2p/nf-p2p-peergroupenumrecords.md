@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupEnumRecords
-title: PeerGroupEnumRecords function
+title: PeerGroupEnumRecords function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupEnumRecords function creates an enumeration of peer group records.
 old-location: p2p\peergroupenumrecords.htm

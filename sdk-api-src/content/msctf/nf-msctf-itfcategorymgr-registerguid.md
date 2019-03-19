@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterGUID
-title: ITfCategoryMgr::RegisterGUID
+title: ITfCategoryMgr::RegisterGUID (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::RegisterGUID method
 old-location: tsf\itfcategorymgr_registerguid.htm

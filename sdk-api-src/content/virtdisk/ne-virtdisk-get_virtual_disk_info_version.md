@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._GET_VIRTUAL_DISK_INFO_VERSION
-title: GET_VIRTUAL_DISK_INFO_VERSION
+title: GET_VIRTUAL_DISK_INFO_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Contains the kinds of virtual hard disk (VHD) information that you can retrieve.
 old-location: vhd\get_virtual_disk_info_version.htm

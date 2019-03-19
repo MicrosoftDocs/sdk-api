@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_3.IDWriteGdiInterop1
-title: IDWriteGdiInterop1
+title: IDWriteGdiInterop1 (dwrite_3.h)
 author: windows-sdk-content
 description: Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects.
 old-location: directwrite\idwritegdiinterop1.htm

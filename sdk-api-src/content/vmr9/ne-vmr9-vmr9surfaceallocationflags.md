@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0001_0001
-title: VMR9SurfaceAllocationFlags
+title: VMR9SurfaceAllocationFlags (vmr9.h)
 author: windows-sdk-content
 description: The VMR9SurfaceAllocationFlags enumeration type is used with the IVMRSurfaceAllocator9::InitializeDevice method to specify surface creation parameters (VMR-9 only).
 old-location: dshow\vmr9surfaceallocationflags.htm

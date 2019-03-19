@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_STATUS_TYPE
-title: WBEM_STATUS_TYPE
+title: WBEM_STATUS_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Describes the status of an asynchronous operation.
 old-location: wmi\wbem_status_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPEnumDevice.Clone
-title: IMDSPEnumDevice::Clone
+title: IMDSPEnumDevice::Clone (mswmdm.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: wmdm\imdspenumdevice_clone.htm

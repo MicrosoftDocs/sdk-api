@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetCapability
-title: IAMExtTransport::GetCapability
+title: IAMExtTransport::GetCapability (strmif.h)
 author: windows-sdk-content
 description: The GetCapability method retrieves the general capabilities of the transport.
 old-location: dshow\iamexttransport_getcapability.htm

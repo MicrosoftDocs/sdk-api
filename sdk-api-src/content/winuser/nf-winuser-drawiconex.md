@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawIconEx
-title: DrawIconEx function
+title: DrawIconEx function (winuser.h)
 author: windows-sdk-content
 description: Draws an icon or cursor into the specified device context, performing the specified raster operations, and stretching or compressing the icon or cursor as specified.
 old-location: menurc\drawiconex.htm

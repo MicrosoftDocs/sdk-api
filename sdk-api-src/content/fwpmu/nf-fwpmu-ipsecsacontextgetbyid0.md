@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextGetById0
-title: IPsecSaContextGetById0 function
+title: IPsecSaContextGetById0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextgetbyid0.htm

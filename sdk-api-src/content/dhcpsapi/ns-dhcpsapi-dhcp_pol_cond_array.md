@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_POL_COND_ARRAY
-title: DHCP_POL_COND_ARRAY
+title: DHCP_POL_COND_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POL_COND_ARRAY structure defines an array of DHCP server policy conditions.
 old-location: dhcp\dhcp_pol_cond_array.htm

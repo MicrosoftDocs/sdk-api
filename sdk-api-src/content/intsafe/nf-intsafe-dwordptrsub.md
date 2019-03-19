@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.DWordPtrSub
-title: DWordPtrSub function
+title: DWordPtrSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: shell\DWordPtrSub.htm

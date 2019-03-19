@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.AssocCreateForClasses
-title: AssocCreateForClasses function
+title: AssocCreateForClasses function (shellapi.h)
 author: windows-sdk-content
 description: Retrieves an object that implements an IQueryAssociations interface.
 old-location: shell\AssocCreateForClasses.htm

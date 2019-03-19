@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IDropSource
-title: IDropSource
+title: IDropSource (oleidl.h)
 author: windows-sdk-content
 description: The IDropSource interface is one of the interfaces you implement to provide drag-and-drop operations in your application.
 old-location: com\idropsource.htm

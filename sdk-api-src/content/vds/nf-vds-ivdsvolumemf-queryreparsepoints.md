@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.QueryReparsePoints
-title: IVdsVolumeMF::QueryReparsePoints
+title: IVdsVolumeMF::QueryReparsePoints (vds.h)
 author: windows-sdk-content
 description: Returns all reparse points for the current volume.
 old-location: base\ivdsvolumemf_queryreparsepoints.htm

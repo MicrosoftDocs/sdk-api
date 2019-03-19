@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertIsRDNAttrsInCertificateName
-title: CertIsRDNAttrsInCertificateName function
+title: CertIsRDNAttrsInCertificateName function (wincrypt.h)
 author: windows-sdk-content
 description: The CertIsRDNAttrsInCertificateName function compares the attributes in the certificate name with the specified CERT_RDN to determine whether all attributes are included there.
 old-location: security\certisrdnattrsincertificatename.htm

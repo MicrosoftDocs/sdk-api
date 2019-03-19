@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(const float)
-title: XMBYTE4::XMBYTE4(const float)
+title: XMBYTE4::XMBYTE4(const float) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMBYTE4.
 old-location: dxmath\xmbyte4_ctor_1.htm

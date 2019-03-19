@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICEEND
-title: LPNSPLOOKUPSERVICEEND
+title: LPNSPLOOKUPSERVICEEND (ws2spi.h)
 author: windows-sdk-content
 description: Called to free the handle after previous calls to NSPLookupServiceBegin and NSPLookupServiceNext.
 old-location: winsock\nsplookupserviceend_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Deserialize
-title: ISettingsContext::Deserialize
+title: ISettingsContext::Deserialize (wcmconfig.h)
 author: windows-sdk-content
 description: Deserializes the data in the stream that is provided to this context.
 old-location: smi\isettingscontext_deserialize.htm

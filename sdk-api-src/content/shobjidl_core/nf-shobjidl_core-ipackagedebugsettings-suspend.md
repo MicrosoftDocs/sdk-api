@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.Suspend
-title: IPackageDebugSettings::Suspend
+title: IPackageDebugSettings::Suspend (shobjidl_core.h)
 author: windows-sdk-content
 description: Suspends the processes of the package if they are currently running.
 old-location: shell\IPackageDebugSettings_Suspend.htm

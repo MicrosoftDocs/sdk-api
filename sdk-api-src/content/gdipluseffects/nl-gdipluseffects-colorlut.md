@@ -1,6 +1,6 @@
 ---
 UID: NL:gdipluseffects.ColorLUT
-title: ColorLUT
+title: ColorLUT (gdipluseffects.h)
 author: windows-sdk-content
 description: A ColorLUTParams structure has four members, each being a lookup table for a particular color channel:\_alpha, red, green, or blue.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_Class.htm

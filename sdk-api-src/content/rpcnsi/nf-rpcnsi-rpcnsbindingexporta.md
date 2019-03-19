@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingExportA
-title: RpcNsBindingExportA function
+title: RpcNsBindingExportA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingExport function establishes a name service&#8211;database entry with multiple binding handles and multiple objects for a server.
 old-location: rpc\rpcnsbindingexport.htm

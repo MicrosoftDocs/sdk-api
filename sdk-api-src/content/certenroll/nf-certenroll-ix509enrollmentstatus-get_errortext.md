@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_ErrorText
-title: IX509EnrollmentStatus::get_ErrorText
+title: IX509EnrollmentStatus::get_ErrorText (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that contains the message associated with the error result code returned by the Error property.
 old-location: security\ix509enrollmentstatus_errortext_property.htm

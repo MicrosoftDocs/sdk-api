@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_WAITFORVERTICALBLANKDATA
-title: DD_WAITFORVERTICALBLANKDATA
+title: DD_WAITFORVERTICALBLANKDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_WAITFORVERTICALBLANKDATA structure contains information necessary to obtain the monitor's vertical blank information.
 old-location: display\dd_waitforverticalblankdata.htm

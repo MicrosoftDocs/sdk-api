@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_DeviceControl
-title: IBDA_DeviceControl
+title: IBDA_DeviceControl (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_DeviceControl interface is implemented on all BDA device filters.
 old-location: mstv\ibda_devicecontrol.htm

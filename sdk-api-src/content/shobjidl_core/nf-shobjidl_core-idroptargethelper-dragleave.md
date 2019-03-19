@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.DragLeave
-title: IDropTargetHelper::DragLeave
+title: IDropTargetHelper::DragLeave (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies the drag-image manager that the drop target's IDropTarget::DragLeave method has been called.
 old-location: shell\IDropTargetHelper_DragLeave.htm

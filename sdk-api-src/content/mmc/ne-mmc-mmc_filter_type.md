@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_FILTER_TYPE
-title: MMC_FILTER_TYPE
+title: MMC_FILTER_TYPE (mmc.h)
 author: windows-sdk-content
 description: The MMC_FILTER_TYPE enumeration is introduced in MMC 1.2.
 old-location: mmc\mmc_filter_type.htm

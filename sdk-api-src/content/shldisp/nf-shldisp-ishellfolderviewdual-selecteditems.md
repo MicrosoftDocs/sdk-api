@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.SelectedItems
-title: IShellFolderViewDual::SelectedItems
+title: IShellFolderViewDual::SelectedItems (shldisp.h)
 author: windows-sdk-content
 description: Gets a FolderItems object that represents all of the selected items in the view.
 old-location: shell\IShellFolderViewDual_SelectedItems.htm

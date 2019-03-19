@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.HasRestrictedFonts
-title: IXpsOMPageReference::HasRestrictedFonts
+title: IXpsOMPageReference::HasRestrictedFonts (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose EmbeddingOption property is set to XPS_FONT_EMBEDDING_RESTRICTED.
 old-location: xps\ixpsompagereference_hasrestrictedfonts.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetAvailableMonitors
-title: IVMRMonitorConfig9::GetAvailableMonitors
+title: IVMRMonitorConfig9::GetAvailableMonitors (vmr9.h)
 author: windows-sdk-content
 description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
 old-location: dshow\ivmrmonitorconfig9_getavailablemonitors.htm

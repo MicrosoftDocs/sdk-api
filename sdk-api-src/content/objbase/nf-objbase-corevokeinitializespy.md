@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoRevokeInitializeSpy
-title: CoRevokeInitializeSpy function
+title: CoRevokeInitializeSpy function (objbase.h)
 author: windows-sdk-content
 description: Revokes a registered implementation of the IInitializeSpy interface.
 old-location: com\corevokeinitializespy.htm

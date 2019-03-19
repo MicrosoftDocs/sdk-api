@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.StartWdsTransportServices
-title: IWdsTransportConfigurationManager::StartWdsTransportServices
+title: IWdsTransportConfigurationManager::StartWdsTransportServices (wdstptmgmt.h)
 author: windows-sdk-content
 description: Starts all WDS transport services. This method provides the means to change the running state of WDS transport services without changing their configuration.
 old-location: wds\iwdstransportconfigurationmanager_startwdstransportservices.htm

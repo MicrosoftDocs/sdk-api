@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Cancel
-title: IStreamBufferRecComp::Cancel
+title: IStreamBufferRecComp::Cancel (sbe.h)
 author: windows-sdk-content
 description: The Cancel method cancels an append operation, if one is in progress. Otherwise, it has no effect.
 old-location: mstv\istreambufferreccomp_cancel.htm

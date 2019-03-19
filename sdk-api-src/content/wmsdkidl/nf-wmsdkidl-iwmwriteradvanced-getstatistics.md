@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetStatistics
-title: IWMWriterAdvanced::GetStatistics
+title: IWMWriterAdvanced::GetStatistics (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStatistics method retrieves statistics describing the current writing operation.
 old-location: wmformat\iwmwriteradvanced_getstatistics.htm

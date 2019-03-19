@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdcep._RPC_MESSAGE
-title: RPC_MESSAGE
+title: RPC_MESSAGE (rpcdcep.h)
 author: windows-sdk-content
 description: The RPC_MESSAGE structure contains information shared between NDR and the rest of the RPC or OLE runtime.
 old-location: rpc\rpc_message.htm

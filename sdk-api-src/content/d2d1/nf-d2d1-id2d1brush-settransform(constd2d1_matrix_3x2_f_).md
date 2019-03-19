@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F &)
-title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F &)
+title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F &) (d2d1.h)
 author: windows-sdk-content
 description: Sets the transformation applied to the brush.
 old-location: direct2d\ID2D1Brush_SetTransform_ref_D2D_MATRIX_3X2_F.htm

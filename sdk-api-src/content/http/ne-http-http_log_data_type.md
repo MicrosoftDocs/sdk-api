@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_LOG_DATA_TYPE
-title: HTTP_LOG_DATA_TYPE
+title: HTTP_LOG_DATA_TYPE (http.h)
 author: windows-sdk-content
 description: Identifies the type of log data.
 old-location: http\http_log_data_type.htm

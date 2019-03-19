@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.Clone
-title: IUIAutomationCacheRequest::Clone
+title: IUIAutomationCacheRequest::Clone (uiautomationclient.h)
 author: windows-sdk-content
 description: Creates a copy of the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_Clone.htm

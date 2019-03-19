@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.DestroyInteractionContext
-title: DestroyInteractionContext function
+title: DestroyInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Destroys the specified Interaction Context object.
 old-location: input_intcontext\destroyinteractioncontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccountSet.RemoveAccount
-title: IFaxAccountSet::RemoveAccount
+title: IFaxAccountSet::RemoveAccount (faxcomex.h)
 author: windows-sdk-content
 description: Removes a fax account from the fax server.
 old-location: fax\_mfax_faxaccountset_cpp_mfax_faxaccountset_removeaccount_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_SetSplitInfo
-title: Button_SetSplitInfo macro
+title: Button_SetSplitInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Sets information for a specified split button control. Use this macro or send the BCM_SETSPLITINFO message explicitly.
 old-location: controls\Button_SetSplitInfo.htm

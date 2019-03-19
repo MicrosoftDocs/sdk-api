@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_9
-title: PSS_VA_SPACE_ENTRY
+title: PSS_VA_SPACE_ENTRY (processsnapshot.h)
 author: windows-sdk-content
 description: Holds the MEMORY_BASIC_INFORMATION returned by PssWalkSnapshot for a virtual address (VA) region.
 old-location: proc_snap\pss_va_space_entry.htm

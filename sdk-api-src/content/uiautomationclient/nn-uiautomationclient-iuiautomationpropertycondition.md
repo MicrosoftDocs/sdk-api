@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationPropertyCondition
-title: IUIAutomationPropertyCondition
+title: IUIAutomationPropertyCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Represents a condition based on a property value that is used to find UI Automation elements.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition.htm

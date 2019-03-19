@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetName
-title: ITextFont::SetName
+title: ITextFont::SetName (tom.h)
 author: windows-sdk-content
 description: Sets the font name.
 old-location: controls\ITextFont_SetName.htm

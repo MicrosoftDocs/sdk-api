@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagAutomaticUpdatesScheduledInstallationDay
-title: AutomaticUpdatesScheduledInstallationDay
+title: AutomaticUpdatesScheduledInstallationDay (wuapi.h)
 author: windows-sdk-content
 description: Defines the days of the week when Automatic Updates installs or uninstalls updates.
 old-location: wua\automaticupdatesscheduledinstallationday.htm

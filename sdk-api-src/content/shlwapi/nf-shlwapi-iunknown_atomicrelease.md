@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IUnknown_AtomicRelease
-title: IUnknown_AtomicRelease function
+title: IUnknown_AtomicRelease function (shlwapi.h)
 author: windows-sdk-content
 description: Releases a Component Object Model (COM) pointer and sets it to NULL.
 old-location: shell\IUnknown_AtomicRelease.htm

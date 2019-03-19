@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.TraceEventInstance
-title: TraceEventInstance function
+title: TraceEventInstance function (evntrace.h)
 author: windows-sdk-content
 description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 old-location: etw\traceeventinstance.htm

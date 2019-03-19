@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdef._LIST_ENTRY
-title: LIST_ENTRY
+title: LIST_ENTRY (ntdef.h)
 author: windows-sdk-content
 description: A LIST_ENTRY structure describes an entry in a doubly linked list or serves as the header for such a list.
 old-location: kernel\list_entry.htm

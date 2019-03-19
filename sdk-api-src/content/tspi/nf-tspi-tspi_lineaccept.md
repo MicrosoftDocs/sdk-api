@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineAccept
-title: TSPI_lineAccept function
+title: TSPI_lineAccept function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
 old-location: tspi\tspi_lineaccept.htm

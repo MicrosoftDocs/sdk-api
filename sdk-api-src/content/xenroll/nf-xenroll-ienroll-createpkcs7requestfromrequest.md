@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.CreatePKCS7RequestFromRequest
-title: IEnroll::CreatePKCS7RequestFromRequest
+title: IEnroll::CreatePKCS7RequestFromRequest (xenroll.h)
 author: windows-sdk-content
 description: The CreatePKCS7RequestFromRequest method creates a PKCS #7 request from an existing certificate request. This method was first defined in the IEnroll interface.
 old-location: security\ienroll4_createpkcs7requestfromrequest.htm

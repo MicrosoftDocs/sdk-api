@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_updateProgress
-title: IWMPFolderMonitorServices::get_updateProgress
+title: IWMPFolderMonitorServices::get_updateProgress (wmp.h)
 author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_updateProgress method retrieves the update progress as percent complete.
 old-location: wmp\iwmpfoldermonitorservices_get_updateprogress.htm

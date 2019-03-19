@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumMoniker.Skip
-title: IEnumMoniker::Skip
+title: IEnumMoniker::Skip (objidl.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienummoniker_skip.htm

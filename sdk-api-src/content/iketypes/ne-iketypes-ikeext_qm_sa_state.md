@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_QM_SA_STATE_
-title: IKEEXT_QM_SA_STATE
+title: IKEEXT_QM_SA_STATE (iketypes.h)
 author: windows-sdk-content
 description: States for the Quick Mode (QM) negotiation exchanges that are part of the Authenticated Internet Protocol (AuthIP) and Internet Key Exchange (IKE) protocols.
 old-location: fwp\ikeext_qm_sa_state.htm

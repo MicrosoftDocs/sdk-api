@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetBuildVersion
-title: IVersionInfo::GetBuildVersion
+title: IVersionInfo::GetBuildVersion (msaatext.h)
 author: windows-sdk-content
 description: Clients call IVersionInfo::GetBuildVersion to retrieve build information for a specified component.
 old-location: winauto\iversioninfo_iversioninfo__getbuildversion.htm

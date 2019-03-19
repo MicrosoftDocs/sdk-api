@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.put_Item
-title: ITuningSpaceContainer::put_Item
+title: ITuningSpaceContainer::put_Item (tuner.h)
 author: windows-sdk-content
 description: The put_Item method saves changes to an existing tuning space in the collection.
 old-location: mstv\ituningspacecontainer_put_item.htm

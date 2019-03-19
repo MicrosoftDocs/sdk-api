@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderNotifications.OnLoad
-title: IVssProviderNotifications::OnLoad
+title: IVssProviderNotifications::OnLoad (vsprov.h)
 author: windows-sdk-content
 description: Notifies a provider that it was loaded.
 old-location: base\ivssprovidernotifications_onload.htm

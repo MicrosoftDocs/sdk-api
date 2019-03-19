@@ -1,6 +1,6 @@
 ---
 UID: NN:austream.IAudioMediaStream
-title: IAudioMediaStream
+title: IAudioMediaStream (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiomediastream.htm

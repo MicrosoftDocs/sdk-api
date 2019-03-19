@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertControlStore
-title: CertControlStore function
+title: CertControlStore function (wincrypt.h)
 author: windows-sdk-content
 description: Allows an application to be notified when there is a difference between the contents of a cached store in use and the contents of that store as it is persisted to storage.
 old-location: security\certcontrolstore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetLength
-title: IIsdbEmergencyInformationDescriptor::GetLength
+title: IIsdbEmergencyInformationDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an emergency information descriptor, in bytes.
 old-location: mstv\iisdbemergencyinformationdescriptor_getlength.htm

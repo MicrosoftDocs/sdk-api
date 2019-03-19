@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder.AddFontFaceReference(IDWriteFontFaceReference)
-title: IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference)
+title: IDWriteFontSetBuilder::AddFontFaceReference(IDWriteFontFaceReference) (dwrite_3.h)
 author: windows-sdk-content
 description: Adds a reference to a font to the set being built. The necessary metadata will automatically be extracted from the font upon calling CreateFontSet.
 old-location: directwrite\idwritefontsetbuilder_addfontfacereference_1.htm

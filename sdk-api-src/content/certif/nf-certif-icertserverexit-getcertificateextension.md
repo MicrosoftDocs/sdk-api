@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateExtension
-title: ICertServerExit::GetCertificateExtension
+title: ICertServerExit::GetCertificateExtension (certif.h)
 author: windows-sdk-content
 description: Gets a specified certificate extension.
 old-location: security\icertserverexit_getcertificateextension.htm

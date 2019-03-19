@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.CloseNtmsNotification
-title: CloseNtmsNotification function
+title: CloseNtmsNotification function (ntmsapi.h)
 author: windows-sdk-content
 description: The CloseNtmsNotification function closes the specified open notification channel.
 old-location: fs\closentmsnotification.htm

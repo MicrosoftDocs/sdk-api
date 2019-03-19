@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableResends
-title: IWMReaderNetworkConfig2::GetEnableResends
+title: IWMReaderNetworkConfig2::GetEnableResends (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetEnableResends method ascertains whether resending is enabled.
 old-location: wmformat\iwmreadernetworkconfig2_getenableresends.htm

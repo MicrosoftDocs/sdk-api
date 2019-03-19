@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Log_Conf_Priority_Ex
-title: CM_Get_Log_Conf_Priority_Ex function
+title: CM_Get_Log_Conf_Priority_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Log_Conf_Priority_Ex function obtains the configuration priority of a specified logical configuration on a local or a remote machine.
 old-location: devinst\cm_get_log_conf_priority_ex.htm

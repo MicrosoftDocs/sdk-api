@@ -1,6 +1,6 @@
 ---
 UID: NE:isysmon.eDataSourceTypeConstant
-title: DataSourceTypeConstants
+title: DataSourceTypeConstants (isysmon.h)
 author: windows-sdk-content
 description: Determines the source of the performance counter data.
 old-location: sysmon\datasourcetypeconstants.htm

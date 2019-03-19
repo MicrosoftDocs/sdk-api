@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteDriverObj
-title: EngDeleteDriverObj function
+title: EngDeleteDriverObj function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteDriverObj function frees the handle used for tracking a device-managed resource.
 old-location: display\engdeletedriverobj.htm

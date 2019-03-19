@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetSubmitButtonText
-title: IUserInputString::GetSubmitButtonText
+title: IUserInputString::GetSubmitButtonText (photoacquire.h)
 author: windows-sdk-content
 description: The GetSubmitButtonText method retrieves the text for the submit button.
 old-location: picacq\iuserinputstring_getsubmitbuttontext.htm

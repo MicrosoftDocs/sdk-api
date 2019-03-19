@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSensorActivityMonitor
-title: MFCreateSensorActivityMonitor function
+title: MFCreateSensorActivityMonitor function (mfidl.h)
 author: windows-sdk-content
 description: Initializes a new instance of the IMFSensorActivityMonitor interface.
 old-location: mf\mfcreatesensoractivitymonitor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredential.LoggedOnUser
-title: IMFNetCredential::LoggedOnUser
+title: IMFNetCredential::LoggedOnUser (mfidl.h)
 author: windows-sdk-content
 description: Queries whether logged-on credentials should be used.
 old-location: mf\imfnetcredential_loggedonuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItem
-title: ISpatialAudioMetadataWriter::WriteNextItem
+title: ISpatialAudioMetadataWriter::WriteNextItem (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Starts a new metadata item at the specified offset.
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitem.htm

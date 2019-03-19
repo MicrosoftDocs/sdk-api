@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._LSA_TOKEN_INFORMATION_V3
-title: LSA_TOKEN_INFORMATION_V3
+title: LSA_TOKEN_INFORMATION_V3 (ntsecpkg.h)
 author: windows-sdk-content
 description: Adds claim support to the LSA token and contains information an authentication package can place in a Version 3 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
 old-location: security\lsa_token_information_v3.htm

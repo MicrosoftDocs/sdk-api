@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IContinueCallback.FContinuePrinting
-title: IContinueCallback::FContinuePrinting
+title: IContinueCallback::FContinuePrinting (docobj.h)
 author: windows-sdk-content
 description: Indicates whether a lengthy printing operation should continue.
 old-location: com\icontinuecallback_fcontinueprinting.htm

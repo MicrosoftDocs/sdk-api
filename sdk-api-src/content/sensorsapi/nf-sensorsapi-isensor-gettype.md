@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.GetType
-title: ISensor::GetType
+title: ISensor::GetType (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves the sensor type ID.
 old-location: winsensors_com_ref\isensor_gettype.htm

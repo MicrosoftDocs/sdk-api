@@ -1,6 +1,6 @@
 ---
 UID: NS:winscard._SCARD_ATRMASK
-title: SCARD_ATRMASK
+title: SCARD_ATRMASK (winscard.h)
 author: windows-sdk-content
 description: Used by the SCardLocateCardsByATR function to locate cards.
 old-location: security\scard_atrmask.htm

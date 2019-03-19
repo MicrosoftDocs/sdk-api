@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_19
-title: WS_CHANNEL_TYPE
+title: WS_CHANNEL_TYPE (webservices.h)
 author: windows-sdk-content
 description: Indicates the basic characteristics of the channel, such as whether it is sessionful, and what directions of communication are supported.
 old-location: wsw\ws_channel_type.htm

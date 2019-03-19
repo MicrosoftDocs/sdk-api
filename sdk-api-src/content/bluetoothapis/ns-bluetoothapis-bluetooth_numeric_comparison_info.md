@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_NUMERIC_COMPARISON_INFO
-title: BLUETOOTH_NUMERIC_COMPARISON_INFO
+title: BLUETOOTH_NUMERIC_COMPARISON_INFO (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_NUMERIC_COMPARISON_INFO structure contains the numeric value used for authentication via numeric comparison.
 old-location: bluetooth\bluetooth_numeric_comparison_info.htm

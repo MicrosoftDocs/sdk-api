@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetConcatenatedItemW
-title: IDvbExtendedEventDescriptor::GetConcatenatedItemW
+title: IDvbExtendedEventDescriptor::GetConcatenatedItemW (dvbsiparser.h)
 author: windows-sdk-content
 description: Concatenates the bytes from the item in the current Digital Video Broadcast (DVB) extended event descriptor with the bytes from the item in the next DVB extended event descriptor and returns the concatenated data as a Unicode string.
 old-location: mstv\idvbextendedeventdescriptor_getconcatenateditemw.htm

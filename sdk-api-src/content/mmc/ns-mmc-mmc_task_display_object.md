@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_TASK_DISPLAY_OBJECT
-title: MMC_TASK_DISPLAY_OBJECT
+title: MMC_TASK_DISPLAY_OBJECT (mmc.h)
 author: windows-sdk-content
 description: Specifies the type of image and all the data required to use that image to display a task or the background on a taskpad.
 old-location: mmc\mmc_task_display_object.htm

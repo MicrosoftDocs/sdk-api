@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager2.RegisterSessionNotification
-title: IAudioSessionManager2::RegisterSessionNotification
+title: IAudioSessionManager2::RegisterSessionNotification (audiopolicy.h)
 author: windows-sdk-content
 description: The RegisterSessionNotification method registers the application to receive a notification when a session is created.
 old-location: coreaudio\iaudiosessionmanager2_registersessionnotification.htm

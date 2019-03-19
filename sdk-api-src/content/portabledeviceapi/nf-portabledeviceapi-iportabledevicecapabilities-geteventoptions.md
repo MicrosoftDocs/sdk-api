@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetEventOptions
-title: IPortableDeviceCapabilities::GetEventOptions
+title: IPortableDeviceCapabilities::GetEventOptions (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetEventOptions method retrieves all the supported options for the specified event on the device.
 old-location: wpdsdk\iportabledevicecapabilities_geteventoptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.EnumTemplates
-title: IFsrmQuotaTemplateManager::EnumTemplates
+title: IFsrmQuotaTemplateManager::EnumTemplates (fsrmquota.h)
 author: windows-sdk-content
 description: Enumerates the quota templates on the server.
 old-location: fsrm\ifsrmquotatemplatemanager_enumtemplates.htm

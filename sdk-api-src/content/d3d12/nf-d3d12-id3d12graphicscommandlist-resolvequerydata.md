@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveQueryData
-title: ID3D12GraphicsCommandList::ResolveQueryData
+title: ID3D12GraphicsCommandList::ResolveQueryData (d3d12.h)
 author: windows-sdk-content
 description: Extracts data from a query. ResolveQueryData works with all heap types (default, upload, and readback).  ResolveQueryData works with all heap types (default, upload, and readback). .
 old-location: direct3d12\id3d12graphicscommandlist_resolvequerydata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfo
-title: ITypeLib::GetTypeInfo
+title: ITypeLib::GetTypeInfo (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the specified type description in the library.
 old-location: automat\itypelib_gettypeinfo.htm

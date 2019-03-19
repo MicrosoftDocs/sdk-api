@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeMargins
-title: GetThemeMargins function
+title: GetThemeMargins function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a MARGINS property.
 old-location: controls\GetThemeMargins.htm

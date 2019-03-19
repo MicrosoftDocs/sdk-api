@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDetectTone.get_Duration
-title: ITDetectTone::get_Duration
+title: ITDetectTone::get_Duration (tapi3if.h)
 author: windows-sdk-content
 description: The get_Duration method retrieves the length of time during which a tone should be present before the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_get_duration.htm

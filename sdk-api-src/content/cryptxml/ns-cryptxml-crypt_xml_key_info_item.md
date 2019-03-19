@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_INFO_ITEM
-title: CRYPT_XML_KEY_INFO_ITEM
+title: CRYPT_XML_KEY_INFO_ITEM (cryptxml.h)
 author: windows-sdk-content
 description: Encapsulates key information data that corresponds to a KeyInfo element. The KeyInfo element enables the recipient to obtain the key needed to validate the signature.
 old-location: security\crypt_xml_key_info_item.htm

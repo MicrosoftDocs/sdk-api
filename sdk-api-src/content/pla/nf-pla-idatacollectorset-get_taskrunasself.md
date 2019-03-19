@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_TaskRunAsSelf
-title: IDataCollectorSet::get_TaskRunAsSelf
+title: IDataCollectorSet::get_TaskRunAsSelf (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\idatacollectorset_taskrunasself.htm

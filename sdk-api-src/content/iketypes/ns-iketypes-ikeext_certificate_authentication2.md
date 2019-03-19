@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_AUTHENTICATION2_
-title: IKEEXT_CERTIFICATE_AUTHENTICATION2
+title: IKEEXT_CERTIFICATE_AUTHENTICATION2 (iketypes.h)
 author: windows-sdk-content
 description: Is used to specify various parameters for authentication with certificates.
 old-location: fwp\ikeext_certificate_authentication2.htm

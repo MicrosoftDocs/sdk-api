@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetDocumentSequence
-title: IXpsOMPackage::GetDocumentSequence
+title: IXpsOMPackage::GetDocumentSequence (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocumentSequence interface that contains the document sequence of the XPS package.
 old-location: xps\ixpsompackage_getdocumentsequence.htm

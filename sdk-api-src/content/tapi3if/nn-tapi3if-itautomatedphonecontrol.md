@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITAutomatedPhoneControl
-title: ITAutomatedPhoneControl
+title: ITAutomatedPhoneControl (tapi3if.h)
 author: windows-sdk-content
 description: The ITAutomatedPhoneControl is a fully OLE automatable and scriptable interface exposed by the TAPI phone object.
 old-location: tapi3\itautomatedphonecontrol.htm

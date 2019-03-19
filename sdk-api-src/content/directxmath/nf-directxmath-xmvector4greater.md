@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4Greater
-title: XMVector4Greater function
+title: XMVector4Greater function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether one 4D vector is greater than another 4D vector.
 old-location: dxmath\xmvector4greater.htm

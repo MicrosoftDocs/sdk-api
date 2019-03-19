@@ -1,6 +1,6 @@
 ---
 UID: NF:faxdev.FaxDevShutdown
-title: FaxDevShutdown function
+title: FaxDevShutdown function (faxdev.h)
 author: windows-sdk-content
 description: The fax service calls the FaxDevShutdown function to notify the fax service provider (FSP) that the service is about to unload the FSP's DLL. FaxDevShutdown releases the global resources allocated by the FaxDevInitialize function.
 old-location: fax\_mfax_faxdevshutdown.htm

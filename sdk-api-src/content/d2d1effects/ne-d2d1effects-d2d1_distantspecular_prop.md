@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_DISTANTSPECULAR_PROP
-title: D2D1_DISTANTSPECULAR_PROP
+title: D2D1_DISTANTSPECULAR_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Distant-specular lighting effect.
 old-location: direct2d\d2d1_distantspecular_prop.htm

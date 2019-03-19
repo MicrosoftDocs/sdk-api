@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_DATA_TYPE_
-title: FWP_DATA_TYPE
+title: FWP_DATA_TYPE (fwptypes.h)
 author: windows-sdk-content
 description: Data types that can be stored in an FWP_VALUE0 or an FWP_CONDITION_VALUE0structure.
 old-location: fwp\fwp_data_type_enum.htm

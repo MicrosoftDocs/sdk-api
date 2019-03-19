@@ -1,6 +1,6 @@
 ---
 UID: NF:srpapi.SrpIsTokenService
-title: SrpIsTokenService function
+title: SrpIsTokenService function (srpapi.h)
 author: windows-sdk-content
 description: Identifies whether a service is a token service.
 old-location: edp\srpistokenservice.htm

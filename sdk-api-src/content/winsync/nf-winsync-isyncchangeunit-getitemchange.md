@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetItemChange
-title: ISyncChangeUnit::GetItemChange
+title: ISyncChangeUnit::GetItemChange (winsync.h)
 author: windows-sdk-content
 description: Gets the item change that contains this change unit change.
 old-location: winsync\isyncchangeunit_getitemchange.htm

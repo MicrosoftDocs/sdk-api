@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.ISpecifyPropertyPages
-title: ISpecifyPropertyPages
+title: ISpecifyPropertyPages (ocidl.h)
 author: windows-sdk-content
 description: Indicates that an object supports property pages.
 old-location: com\ispecifypropertypages.htm

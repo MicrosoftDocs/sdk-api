@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeClientTransaction
-title: DdeClientTransaction function
+title: DdeClientTransaction function (ddeml.h)
 author: windows-sdk-content
 description: Begins a data transaction between a client and a server. Only a Dynamic Data Exchange (DDE) client application can call this function, and the application can use it only after establishing a conversation with the server.
 old-location: dataxchg\ddeclienttransaction.htm

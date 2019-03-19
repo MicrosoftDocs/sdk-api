@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.RegisterTaskDefinition
-title: ITaskFolder::RegisterTaskDefinition
+title: ITaskFolder::RegisterTaskDefinition (taskschd.h)
 author: windows-sdk-content
 description: Registers (creates) a task in a specified location using the ITaskDefinition interface to define a task.
 old-location: taskschd\itaskfolder_registertaskdefinition.htm

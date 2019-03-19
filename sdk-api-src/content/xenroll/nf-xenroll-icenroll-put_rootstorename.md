@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_RootStoreName
-title: ICEnroll::put_RootStoreName
+title: ICEnroll::put_RootStoreName (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the root store where all intrinsically trusted, self-signed root certificates are kept.
 old-location: security\icenroll4_rootstorename.htm

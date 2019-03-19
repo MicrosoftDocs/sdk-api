@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_TARGET_VIEW_DESC
-title: D3D12_RENDER_TARGET_VIEW_DESC
+title: D3D12_RENDER_TARGET_VIEW_DESC (d3d12.h)
 author: windows-sdk-content
 description: Describes the subresources from a resource that are accessible by using a render-target view.
 old-location: direct3d12\d3d12_render_target_view_desc.htm

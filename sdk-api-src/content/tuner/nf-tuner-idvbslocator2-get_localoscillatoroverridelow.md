@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.get_LocalOscillatorOverrideLow
-title: IDVBSLocator2::get_LocalOscillatorOverrideLow
+title: IDVBSLocator2::get_LocalOscillatorOverrideLow (tuner.h)
 author: windows-sdk-content
 description: Specifies the low oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
 old-location: mstv\idvbslocator2_localoscillatoroverridelow.htm

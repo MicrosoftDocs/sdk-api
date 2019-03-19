@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDescriptionDocument
-title: IUPnPDescriptionDocument
+title: IUPnPDescriptionDocument (upnp.h)
 author: windows-sdk-content
 description: The IUPnPDescriptionDocument interface enables an application to load a device description.
 old-location: upnp\iupnpdescriptiondocument.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignatureCustomObjectSet
-title: IOpcSignatureCustomObjectSet
+title: IOpcSignatureCustomObjectSet (msopc.h)
 author: windows-sdk-content
 description: An unordered set of IOpcSignatureCustomObject interface pointers that contain the XML markup of application-specific Object elements.
 old-location: opc\iopcsignaturecustomobjectset.htm

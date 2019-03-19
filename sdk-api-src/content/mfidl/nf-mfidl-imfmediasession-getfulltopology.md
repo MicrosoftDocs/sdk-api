@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetFullTopology
-title: IMFMediaSession::GetFullTopology
+title: IMFMediaSession::GetFullTopology (mfidl.h)
 author: windows-sdk-content
 description: Gets a topology from the Media Session.
 old-location: mf\imfmediasession_getfulltopology.htm

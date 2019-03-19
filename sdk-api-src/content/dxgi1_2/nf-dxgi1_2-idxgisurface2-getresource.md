@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISurface2.GetResource
-title: IDXGISurface2::GetResource
+title: IDXGISurface2::GetResource (dxgi1_2.h)
 author: windows-sdk-content
 description: Gets the parent resource and subresource index that support a subresource surface.
 old-location: direct3ddxgi\idxgisurface2_getresource.htm

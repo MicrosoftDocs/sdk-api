@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateFontIndirectW
-title: CreateFontIndirectW function
+title: CreateFontIndirectW function (wingdi.h)
 author: windows-sdk-content
 description: The CreateFontIndirect function creates a logical font that has the specified characteristics. The font can subsequently be selected as the current font for any device context.
 old-location: gdi\createfontindirect.htm

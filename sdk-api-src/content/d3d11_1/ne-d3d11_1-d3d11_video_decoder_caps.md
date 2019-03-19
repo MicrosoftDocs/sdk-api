@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_1.D3D11_VIDEO_DECODER_CAPS
-title: D3D11_VIDEO_DECODER_CAPS
+title: D3D11_VIDEO_DECODER_CAPS (d3d11_1.h)
 author: windows-sdk-content
 description: Specifies capabilities of the video decoder.
 old-location: mf\d3d11_video_decoder_caps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmIPsecTunnelDeleteByKey0
-title: FwpmIPsecTunnelDeleteByKey0 function
+title: FwpmIPsecTunnelDeleteByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Removes an Internet Protocol Security (IPsec) tunnel mode policy from the system.
 old-location: fwp\fwpmipsectunneldeletebykey0.htm

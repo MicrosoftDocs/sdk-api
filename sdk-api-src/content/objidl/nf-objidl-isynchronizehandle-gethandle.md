@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ISynchronizeHandle.GetHandle
-title: ISynchronizeHandle::GetHandle
+title: ISynchronizeHandle::GetHandle (objidl.h)
 author: windows-sdk-content
 description: Retrieves a handle to the synchronization object.
 old-location: com\isynchronizehandle_gethandle.htm

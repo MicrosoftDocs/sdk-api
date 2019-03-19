@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetNamespaces
-title: ISettingsEngine::GetNamespaces
+title: ISettingsEngine::GetNamespaces (wcmconfig.h)
 author: windows-sdk-content
 description: Returns an enumerator to the installed namespaces.
 old-location: smi\isettingsengine_getnamespaces.htm

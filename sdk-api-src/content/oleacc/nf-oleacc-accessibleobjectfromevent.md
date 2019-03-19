@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromEvent
-title: AccessibleObjectFromEvent function
+title: AccessibleObjectFromEvent function (oleacc.h)
 author: windows-sdk-content
 description: Retrieves the address of the IAccessible interface for the object that generated the event that is currently being processed by the client's event hook function.
 old-location: winauto\accessibleobjectfromevent.htm

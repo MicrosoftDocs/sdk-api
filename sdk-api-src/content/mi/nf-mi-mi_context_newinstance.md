@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_NewInstance
-title: MI_Context_NewInstance function
+title: MI_Context_NewInstance function (mi.h)
 author: windows-sdk-content
 description: Creates a new instance of a class given a class declaration.
 old-location: wmi_v2\mi_context_newinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMIndoubt
-title: IComCRMEvents::OnCRMIndoubt
+title: IComCRMEvents::OnCRMIndoubt (comsvcs.h)
 author: windows-sdk-content
 description: Generated when CRM clerk receives an in-doubt notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmindoubt.htm

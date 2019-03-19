@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetOpenClipboardWindow
-title: GetOpenClipboardWindow function
+title: GetOpenClipboardWindow function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the handle to the window that currently has the clipboard open.
 old-location: dataxchg\getopenclipboardwindow.htm

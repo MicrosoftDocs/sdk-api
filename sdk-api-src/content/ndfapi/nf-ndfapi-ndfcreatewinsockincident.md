@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfCreateWinSockIncident
-title: NdfCreateWinSockIncident function
+title: NdfCreateWinSockIncident function (ndfapi.h)
 author: windows-sdk-content
 description: Provides access to the Winsock Helper Class provided by Microsoft.
 old-location: ndf\ndfcreatewinsockincident.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.CreateInstance
-title: IProviderPublishing::CreateInstance
+title: IProviderPublishing::CreateInstance (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Creates a new function instance.
 old-location: ncd\iproviderpublishing_createinstance_method.htm

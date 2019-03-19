@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderEvents.CredentialsChanged
-title: ICredentialProviderEvents::CredentialsChanged
+title: ICredentialProviderEvents::CredentialsChanged (credentialprovider.h)
 author: windows-sdk-content
 description: Signals the Logon UI or Credential UI that the enumerated list of credentials has changed.
 old-location: shell\ICredentialProviderEvents_CredentialsChanged.htm

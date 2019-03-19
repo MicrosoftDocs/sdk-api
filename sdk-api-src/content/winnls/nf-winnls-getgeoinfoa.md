@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetGeoInfoA
-title: GetGeoInfoA function
+title: GetGeoInfoA function (winnls.h)
 author: windows-sdk-content
 description: Retrieves information about a specified geographical location.
 old-location: intl\getgeoinfo.htm

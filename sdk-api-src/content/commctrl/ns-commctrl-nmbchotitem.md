@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMBCHOTITEM
-title: NMBCHOTITEM
+title: NMBCHOTITEM (commctrl.h)
 author: windows-sdk-content
 description: Contains information about the movement of the mouse over a button control.
 old-location: controls\NMBCHOTITEM.htm

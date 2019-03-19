@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetNextSibling
-title: TreeView_GetNextSibling macro
+title: TreeView_GetNextSibling macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the next sibling item of a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_NEXT flag.
 old-location: controls\TreeView_GetNextSibling.htm

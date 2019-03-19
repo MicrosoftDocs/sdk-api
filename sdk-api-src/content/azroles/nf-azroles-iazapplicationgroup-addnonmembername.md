@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddNonMemberName
-title: IAzApplicationGroup::AddNonMemberName
+title: IAzApplicationGroup::AddNonMemberName (azroles.h)
 author: windows-sdk-content
 description: Adds the specified account name to the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_addnonmembername.htm

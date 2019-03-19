@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_Height
-title: IMSVidRect::put_Height
+title: IMSVidRect::put_Height (segment.h)
 author: windows-sdk-content
 description: The put_Height method specifies the height of the rectangle.
 old-location: mstv\imsvidrect_put_height.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_InkEnabled
-title: IInkPicture::put_InkEnabled
+title: IInkPicture::put_InkEnabled (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether the InkPicture control collects pen input (in-air packets, cursor in range events, and so on).
 old-location: tablet\inkpicture_inkenabled.htm

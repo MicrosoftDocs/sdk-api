@@ -1,6 +1,6 @@
 ---
 UID: NF:swdevice.SwDeviceInterfaceRegister
-title: SwDeviceInterfaceRegister function
+title: SwDeviceInterfaceRegister function (swdevice.h)
 author: windows-sdk-content
 description: Registers a device interface for a software device and optionally sets properties on that interface.
 old-location: swdevice\swdeviceinterfaceregister.htm

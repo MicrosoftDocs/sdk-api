@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateVideoSampleAllocatorEx
-title: MFCreateVideoSampleAllocatorEx function
+title: MFCreateVideoSampleAllocatorEx function (mfapi.h)
 author: windows-sdk-content
 description: Creates an object that allocates video samples that are compatible with Microsoft DirectX Graphics Infrastructure (DXGI).
 old-location: mf\mfcreatevideosampleallocatorex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.OnVideoStreamTick
-title: IMFMediaEngine::OnVideoStreamTick
+title: IMFMediaEngine::OnVideoStreamTick (mfmediaengine.h)
 author: windows-sdk-content
 description: Queries the Media Engine to find out whether a new video frame is ready.
 old-location: mf\imfmediaengine_onvideostreamtick.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.RangeFromChild
-title: IUIAutomationTextPattern::RangeFromChild
+title: IUIAutomationTextPattern::RangeFromChild (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a text range enclosing a child element such as an image, hyperlink, Microsoft Excel spreadsheet, or other embedded object.
 old-location: winauto\uiauto_IUIAutomationTextPattern_RangeFromChild.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1515
-title: SERVER_INFO_1515
+title: SERVER_INFO_1515 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1515 structure specifies whether the server should force a client to disconnect once the client's logon time has expired.
 old-location: netmgmt\server_info_1515_str.htm

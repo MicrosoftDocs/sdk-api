@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWizardExtension.GetLastPage
-title: IWizardExtension::GetLastPage
+title: IWizardExtension::GetLastPage (shobjidl.h)
 author: windows-sdk-content
 description: Gets a handle to the final page of the wizard extension pages.
 old-location: shell\IWizardExtension_GetLastPage.htm

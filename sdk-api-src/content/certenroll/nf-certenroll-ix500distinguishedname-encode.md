@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX500DistinguishedName.Encode
-title: IX500DistinguishedName::Encode
+title: IX500DistinguishedName::Encode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a string that contains a distinguished name.
 old-location: security\ix500distinguishedname_encode_method.htm

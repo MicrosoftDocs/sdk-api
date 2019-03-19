@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_LAYER0_
-title: FWPM_LAYER0
+title: FWPM_LAYER0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Schema information for a layer.
 old-location: fwp\fwpm_layer0_struct.htm

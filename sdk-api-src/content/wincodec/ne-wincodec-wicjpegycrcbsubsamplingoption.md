@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICJpegYCrCbSubsamplingOption
-title: WICJpegYCrCbSubsamplingOption
+title: WICJpegYCrCbSubsamplingOption (wincodec.h)
 author: windows-sdk-content
 description: Specifies the JPEG YCrCB subsampling options.
 old-location: wic\_wic_codec_wicjpegycrcbsubsamplingoption.htm

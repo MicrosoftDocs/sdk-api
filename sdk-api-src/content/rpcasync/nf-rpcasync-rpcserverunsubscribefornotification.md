@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcServerUnsubscribeForNotification
-title: RpcServerUnsubscribeForNotification function
+title: RpcServerUnsubscribeForNotification function (rpcasync.h)
 author: windows-sdk-content
 description: Unsubscribes the server from RPC notifications.
 old-location: rpc\rpcserverunsubscribefornotification.htm

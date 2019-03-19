@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CSV_CONTROL_PARAM
-title: CSV_CONTROL_PARAM
+title: CSV_CONTROL_PARAM (winioctl.h)
 author: windows-sdk-content
 description: Represents a type of CSV control operation.
 old-location: fs\csv_control_param.htm

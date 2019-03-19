@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IColumnProvider.GetColumnInfo
-title: IColumnProvider::GetColumnInfo
+title: IColumnProvider::GetColumnInfo (shlobj.h)
 author: windows-sdk-content
 description: Requests information about a column.
 old-location: shell\IColumnProvider_GetColumnInfo.htm

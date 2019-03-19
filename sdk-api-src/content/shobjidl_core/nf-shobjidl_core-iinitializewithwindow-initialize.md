@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithWindow.Initialize
-title: IInitializeWithWindow::Initialize
+title: IInitializeWithWindow::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies an owner window to be used by a Windows Runtime object that is used in a desktop app.
 old-location: shell\IInitializeWithWindow_Initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.FreeResource
-title: IHolder::FreeResource
+title: IHolder::FreeResource (comsvcs.h)
 author: windows-sdk-content
 description: Returns a resource to the inventory.
 old-location: cos\iholder_freeresource.htm

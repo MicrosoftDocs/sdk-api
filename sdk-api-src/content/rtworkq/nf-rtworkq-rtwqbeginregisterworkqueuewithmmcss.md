@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqBeginRegisterWorkQueueWithMMCSS
-title: RtwqBeginRegisterWorkQueueWithMMCSS function
+title: RtwqBeginRegisterWorkQueueWithMMCSS function (rtworkq.h)
 author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqbeginregisterworkqueuewithmmcss.htm

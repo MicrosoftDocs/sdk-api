@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_DISK_STATUS
-title: VDS_DISK_STATUS
+title: VDS_DISK_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a disk.
 old-location: base\vds_disk_status.htm

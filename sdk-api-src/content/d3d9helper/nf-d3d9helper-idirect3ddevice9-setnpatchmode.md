@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetNPatchMode
-title: IDirect3DDevice9::SetNPatchMode
+title: IDirect3DDevice9::SetNPatchMode (d3d9helper.h)
 author: windows-sdk-content
 description: Enable or disable N-patches.
 old-location: direct3d9\idirect3ddevice9__setnpatchmode.htm

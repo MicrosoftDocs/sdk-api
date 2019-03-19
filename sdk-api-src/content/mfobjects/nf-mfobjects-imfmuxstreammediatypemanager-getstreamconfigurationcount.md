@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount
-title: IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
+title: IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount (mfobjects.h)
 author: windows-sdk-content
 description: Gets the count of registered stream configurations, which define set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_getstreamconfigurationcount.htm

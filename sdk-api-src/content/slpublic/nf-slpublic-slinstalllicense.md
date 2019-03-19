@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLInstallLicense
-title: SLInstallLicense function
+title: SLInstallLicense function (slpublic.h)
 author: windows-sdk-content
 description: Stores the specified license and returns a license file ID.
 old-location: security\slinstalllicense.htm

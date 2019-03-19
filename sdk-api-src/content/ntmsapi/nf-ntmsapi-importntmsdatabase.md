@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.ImportNtmsDatabase
-title: ImportNtmsDatabase function
+title: ImportNtmsDatabase function (ntmsapi.h)
 author: windows-sdk-content
 description: The ImportNtmsDatabase function causes RSM to import the database files from the database Export directory at the next restart of the RSM.
 old-location: fs\importntmsdatabase.htm

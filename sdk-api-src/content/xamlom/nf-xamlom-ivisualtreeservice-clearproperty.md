@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.ClearProperty
-title: IVisualTreeService::ClearProperty
+title: IVisualTreeService::ClearProperty (xamlom.h)
 author: windows-sdk-content
 description: Clears the specified property on a XAML element.
 old-location: xaml_diagnostics\ivisualtreeservice_clearproperty.htm

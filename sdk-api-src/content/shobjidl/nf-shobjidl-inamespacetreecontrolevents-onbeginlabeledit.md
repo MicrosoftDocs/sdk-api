@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeginLabelEdit
-title: INameSpaceTreeControlEvents::OnBeginLabelEdit
+title: INameSpaceTreeControlEvents::OnBeginLabelEdit (shobjidl.h)
 author: windows-sdk-content
 description: Called before the IShellItem goes into edit mode.
 old-location: shell\INameSpaceTreeControlEvents_OnBeginLabelEdit.htm

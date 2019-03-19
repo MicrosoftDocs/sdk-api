@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0005
-title: ADS_SD_CONTROL_ENUM
+title: ADS_SD_CONTROL_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_SD_CONTROL_ENUM enumeration specifies control flags for a security descriptor.
 old-location: adsi\ads_sd_control_enum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixSet
-title: XMMatrixSet function
+title: XMMatrixSet function (directxmath.h)
 author: windows-sdk-content
 description: Creates a matrix with float values.
 old-location: dxmath\xmmatrixset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetHidden
-title: ITextFont::GetHidden
+title: ITextFont::GetHidden (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are hidden.
 old-location: controls\ITextFont_GetHidden.htm

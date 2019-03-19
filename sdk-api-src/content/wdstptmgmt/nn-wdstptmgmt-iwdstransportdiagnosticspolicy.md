@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportDiagnosticsPolicy
-title: IWdsTransportDiagnosticsPolicy
+title: IWdsTransportDiagnosticsPolicy (wdstptmgmt.h)
 author: windows-sdk-content
 description: Represents the diagnostics policy part of the WDS transport server's configuration.
 old-location: wds\iwdstransportdiagnosticspolicy.htm

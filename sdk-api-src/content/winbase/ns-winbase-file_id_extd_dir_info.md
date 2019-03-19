@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_ID_EXTD_DIR_INFO
-title: FILE_ID_EXTD_DIR_INFO
+title: FILE_ID_EXTD_DIR_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains identification information for a file.
 old-location: fs\file_id_extd_dir_info.htm

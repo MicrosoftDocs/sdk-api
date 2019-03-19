@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IHeaderCtrl2.SetChangeTimeOut
-title: IHeaderCtrl2::SetChangeTimeOut
+title: IHeaderCtrl2::SetChangeTimeOut (mmc.h)
 author: windows-sdk-content
 description: The IHeaderCtrl2::SetChangeTimeOut sets the time-out interval between the time a change takes place in the filter attributes and the posting of an MMCN_FILTER_CHANGE filter change notification, which is sent to the snap-in's IComponent::Notify method.
 old-location: mmc\iheaderctrl2_setchangetimeout.htm

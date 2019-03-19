@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Pan
-title: ICameraControl::getRange_Pan
+title: ICameraControl::getRange_Pan (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Pan method returns the range of panning angles supported by the camera.
 old-location: dshow\icameracontrol_getrange_pan.htm

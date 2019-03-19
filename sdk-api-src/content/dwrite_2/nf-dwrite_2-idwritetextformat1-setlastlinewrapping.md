@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetLastLineWrapping
-title: IDWriteTextFormat1::SetLastLineWrapping
+title: IDWriteTextFormat1::SetLastLineWrapping (dwrite_2.h)
 author: windows-sdk-content
 description: Sets the wrapping mode of the last line.
 old-location: directwrite\idwritetextformat1_setwraponlastline.htm

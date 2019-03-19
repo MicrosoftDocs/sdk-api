@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPControls3
-title: IWMPControls3
+title: IWMPControls3 (wmp.h)
 author: windows-sdk-content
 description: The IWMPControls3 interface provides methods that supplement the IWMPControls2 interface.
 old-location: wmp\iwmpcontrols3.htm

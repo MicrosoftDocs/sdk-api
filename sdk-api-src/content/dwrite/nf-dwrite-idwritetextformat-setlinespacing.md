@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetLineSpacing
-title: IDWriteTextFormat::SetLineSpacing
+title: IDWriteTextFormat::SetLineSpacing (dwrite.h)
 author: windows-sdk-content
 description: Sets the line spacing.
 old-location: directwrite\IDWriteTextFormat_SetLineSpacing.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPreprocess.BeginPreprocessingPass
-title: IWMWriterPreprocess::BeginPreprocessingPass
+title: IWMWriterPreprocess::BeginPreprocessingPass (wmsdkidl.h)
 author: windows-sdk-content
 description: The BeginPreprocessingPass method prepares the writer to begin preprocessing samples for the specified input stream.
 old-location: wmformat\iwmwriterpreprocess_beginpreprocessingpass.htm

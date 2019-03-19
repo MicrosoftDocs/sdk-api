@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Next
-title: IEnumTfDocumentMgrs::Next
+title: IEnumTfDocumentMgrs::Next (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDocumentMgrs::Next method
 old-location: tsf\ienumtfdocumentmgrs_next.htm

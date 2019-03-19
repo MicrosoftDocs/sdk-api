@@ -1,6 +1,6 @@
 ---
 UID: NS:nb30._NAME_BUFFER
-title: NAME_BUFFER
+title: NAME_BUFFER (nb30.h)
 author: windows-sdk-content
 description: The NAME_BUFFER structure contains information about a local network name. One or more NAME_BUFFER structures follows an ADAPTER_STATUS structure when an application specifies the NCBASTAT command in the ncb_command member of the NCB structure.
 old-location: netbios\name_buffer.htm

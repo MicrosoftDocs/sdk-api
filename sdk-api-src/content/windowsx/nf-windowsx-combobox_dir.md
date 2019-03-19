@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_Dir
-title: ComboBox_Dir macro
+title: ComboBox_Dir macro (windowsx.h)
 author: windows-sdk-content
 description: Adds names to the list displayed by a combo box.
 old-location: controls\ComboBox_Dir.htm

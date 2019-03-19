@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IDataRetrieverCallback.LoadChangeDataComplete
-title: IDataRetrieverCallback::LoadChangeDataComplete
+title: IDataRetrieverCallback::LoadChangeDataComplete (winsync.h)
 author: windows-sdk-content
 description: Indicates that IAsynchronousDataRetriever::LoadChangeData has finished successfully.
 old-location: winsync\idataretrievercallback_loadchangedatacomplete.htm

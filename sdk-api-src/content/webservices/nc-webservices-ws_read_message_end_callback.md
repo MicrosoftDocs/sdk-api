@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_READ_MESSAGE_END_CALLBACK
-title: WS_READ_MESSAGE_END_CALLBACK
+title: WS_READ_MESSAGE_END_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsReadMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_read_message_end_callback.htm

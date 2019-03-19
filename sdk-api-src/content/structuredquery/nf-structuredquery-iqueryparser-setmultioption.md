@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IQueryParser.SetMultiOption
-title: IQueryParser::SetMultiOption
+title: IQueryParser::SetMultiOption (structuredquery.h)
 author: windows-sdk-content
 description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.
 old-location: search\_search_IQueryParser_SetMultiOption.htm

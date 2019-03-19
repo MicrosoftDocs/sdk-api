@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcIfInqId
-title: RpcIfInqId function
+title: RpcIfInqId function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcIfInqId function returns the interface-identification part of an interface specification.
 old-location: rpc\rpcifinqid.htm

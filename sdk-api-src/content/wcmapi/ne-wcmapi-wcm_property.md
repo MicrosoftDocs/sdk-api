@@ -1,6 +1,6 @@
 ---
 UID: NE:wcmapi._WCM_PROPERTY
-title: WCM_PROPERTY
+title: WCM_PROPERTY (wcmapi.h)
 author: windows-sdk-content
 description: Specifies a property of a connection.
 old-location: wcm\wcm_property.htm

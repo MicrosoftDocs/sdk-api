@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.ImpersonateSecurityContext
-title: ImpersonateSecurityContext function
+title: ImpersonateSecurityContext function (sspi.h)
 author: windows-sdk-content
 description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.
 old-location: security\impersonatesecuritycontext.htm

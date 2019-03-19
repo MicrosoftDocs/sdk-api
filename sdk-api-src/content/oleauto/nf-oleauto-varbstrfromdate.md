@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBstrFromDate
-title: VarBstrFromDate function
+title: VarBstrFromDate function (oleauto.h)
 author: windows-sdk-content
 description: Converts a date value to a BSTR value.
 old-location: automat\varbstrfromdate.htm

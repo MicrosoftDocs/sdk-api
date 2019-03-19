@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.SetResultOnStrokes
-title: IInkRecognitionResult::SetResultOnStrokes
+title: IInkRecognitionResult::SetResultOnStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Assigns the recognition results to the strokes that were used to create the results.
 old-location: tablet\iinkrecognitionresult_setresultonstrokes.htm

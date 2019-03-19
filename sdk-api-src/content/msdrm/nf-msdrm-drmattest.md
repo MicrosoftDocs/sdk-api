@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMAttest
-title: DRMAttest function
+title: DRMAttest function (msdrm.h)
 author: windows-sdk-content
 description: The DRMAttest function is no longer supported and returns E_NOTIMPL.
 old-location: rm\drmattest.htm

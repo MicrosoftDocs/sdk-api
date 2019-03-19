@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISendMethodEvents.SendMethodReturn
-title: ISendMethodEvents::SendMethodReturn
+title: ISendMethodEvents::SendMethodReturn (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a method called through a component interface returns control to the caller.
 old-location: cos\isendmethodevents_sendmethodreturn.htm

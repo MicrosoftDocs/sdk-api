@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IDeferredCommand.Postpone
-title: IDeferredCommand::Postpone
+title: IDeferredCommand::Postpone (control.h)
 author: windows-sdk-content
 description: The Postpone method specifies a new invocation time for the command.
 old-location: dshow\ideferredcommand_postpone.htm

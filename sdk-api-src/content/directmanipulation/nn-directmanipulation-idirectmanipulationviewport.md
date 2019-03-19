@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationViewport
-title: IDirectManipulationViewport
+title: IDirectManipulationViewport (directmanipulation.h)
 author: windows-sdk-content
 description: Defines a region within a window (referred to as a viewport) that is able to receive and process input from user interactions.
 old-location: directmanipulation\idirectmanipulationviewport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_ProcAmpValues
-title: DXVA2_ProcAmpValues
+title: DXVA2_ProcAmpValues (dxva2api.h)
 author: windows-sdk-content
 description: Contains values for DirectX Video Acceleration (DXVA) video processing operations.
 old-location: mf\dxva2_procampvalues.htm

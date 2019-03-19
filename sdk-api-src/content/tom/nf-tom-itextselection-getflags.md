@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.GetFlags
-title: ITextSelection::GetFlags
+title: ITextSelection::GetFlags (tom.h)
 author: windows-sdk-content
 description: Gets the text selection flags.
 old-location: controls\ITextSelection_GetFlags.htm

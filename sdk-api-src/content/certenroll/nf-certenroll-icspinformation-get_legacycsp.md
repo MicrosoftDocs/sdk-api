@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_LegacyCsp
-title: ICspInformation::get_LegacyCsp
+title: ICspInformation::get_LegacyCsp (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider is a Cryptography API:\_Next Generation (CNG) provider or a CryptoAPI (legacy) CSP.
 old-location: security\icspinformation_legacycsp.htm

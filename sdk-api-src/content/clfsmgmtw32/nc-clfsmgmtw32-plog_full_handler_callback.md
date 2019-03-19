@@ -1,6 +1,6 @@
 ---
 UID: NC:clfsmgmtw32.PLOG_FULL_HANDLER_CALLBACK
-title: PLOG_FULL_HANDLER_CALLBACK
+title: PLOG_FULL_HANDLER_CALLBACK (clfsmgmtw32.h)
 author: windows-sdk-content
 description: The LOG_FULL_HANDLER_CALLBACK function is an application-defined callback function that receives notification that the call to HandleLogFull is complete.
 old-location: fs\log_full_handler_callback.htm

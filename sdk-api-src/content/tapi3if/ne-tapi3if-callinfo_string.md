@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALLINFO_STRING
-title: CALLINFO_STRING
+title: CALLINFO_STRING (tapi3if.h)
 author: windows-sdk-content
 description: The CALLINFO_STRING enum is used by ITCallInfo methods that set and get call information involving the use of strings.
 old-location: tapi3\callinfo_string.htm

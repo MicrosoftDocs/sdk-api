@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.AlgorithmFlags
-title: AlgorithmFlags
+title: AlgorithmFlags (certenroll.h)
 author: windows-sdk-content
 description: Contains flags that can be used to refine the search for a cryptographic algorithm.
 old-location: security\algorithmflags_enum.htm

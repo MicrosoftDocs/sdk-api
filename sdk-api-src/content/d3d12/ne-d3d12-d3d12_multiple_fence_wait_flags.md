@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_MULTIPLE_FENCE_WAIT_FLAGS
-title: D3D12_MULTIPLE_FENCE_WAIT_FLAGS
+title: D3D12_MULTIPLE_FENCE_WAIT_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies multiple wait flags for multiple fences.
 old-location: direct3d12\d3d12_multiple_fence_wait_flags.htm

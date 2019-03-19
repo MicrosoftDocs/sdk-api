@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.SetActiveAlt
-title: ITaskbarList::SetActiveAlt
+title: ITaskbarList::SetActiveAlt (shobjidl_core.h)
 author: windows-sdk-content
 description: Marks a taskbar item as active but does not visually activate it.
 old-location: shell\ITaskbarList_SetActiveAlt.htm

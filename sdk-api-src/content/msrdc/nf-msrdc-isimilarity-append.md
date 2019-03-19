@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarity.Append
-title: ISimilarity::Append
+title: ISimilarity::Append (msrdc.h)
 author: windows-sdk-content
 description: Adds the file ID and similarity data information to the tables in the similarity file.
 old-location: rdc\isimilarity_append.htm

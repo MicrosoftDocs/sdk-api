@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhComputeCounterStatistics
-title: PdhComputeCounterStatistics function
+title: PdhComputeCounterStatistics function (pdh.h)
 author: windows-sdk-content
 description: Computes statistics for a counter from an array of raw values.
 old-location: perf\pdhcomputecounterstatistics.htm

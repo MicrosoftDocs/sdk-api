@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RealChildWindowFromPoint
-title: RealChildWindowFromPoint function
+title: RealChildWindowFromPoint function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the child window at the specified point. The search is restricted to immediate child windows; grandchildren and deeper descendant windows are not searched.
 old-location: winmsg\realchildwindowfrompoint.htm

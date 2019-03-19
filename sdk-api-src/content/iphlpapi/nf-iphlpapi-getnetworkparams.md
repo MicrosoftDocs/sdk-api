@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetNetworkParams
-title: GetNetworkParams function
+title: GetNetworkParams function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetNetworkParams function retrieves network parameters for the local computer.
 old-location: iphlp\getnetworkparams.htm

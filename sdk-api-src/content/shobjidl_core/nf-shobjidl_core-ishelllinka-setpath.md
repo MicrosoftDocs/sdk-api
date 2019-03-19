@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetPath
-title: IShellLinkA::SetPath
+title: IShellLinkA::SetPath (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the path and file name for the target of a Shell link object.
 old-location: shell\IShellLink_SetPath.htm

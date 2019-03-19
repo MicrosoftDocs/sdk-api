@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.ProtocolComplete
-title: IWRdsProtocolLicenseConnection::ProtocolComplete
+title: IWRdsProtocolLicenseConnection::ProtocolComplete (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol whether the licensing process completed successfully.
 old-location: termserv\iwrdsprotocollicenseconnection_protocolcomplete.htm

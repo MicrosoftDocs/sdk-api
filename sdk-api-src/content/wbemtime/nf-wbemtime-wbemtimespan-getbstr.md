@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.GetBSTR
-title: WBEMTimeSpan::GetBSTR
+title: WBEMTimeSpan::GetBSTR (wbemtime.h)
 author: windows-sdk-content
 description: The GetBSTR method gets the time span as a BSTR in Date and Time format.
 old-location: wmi\wbemtimespan_getbstr.htm

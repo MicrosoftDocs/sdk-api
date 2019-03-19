@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketQueryCloseStatus
-title: WinHttpWebSocketQueryCloseStatus function
+title: WinHttpWebSocketQueryCloseStatus function (winhttp.h)
 author: windows-sdk-content
 description: Retrieves the close status sent by a server.
 old-location: http\winhttpwebsocketqueryclosestatus.htm

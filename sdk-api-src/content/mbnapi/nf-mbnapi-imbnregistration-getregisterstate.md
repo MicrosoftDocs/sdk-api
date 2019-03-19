@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegisterState
-title: IMbnRegistration::GetRegisterState
+title: IMbnRegistration::GetRegisterState (mbnapi.h)
 author: windows-sdk-content
 description: Gets the registration state.
 old-location: mbn\imbnregistration_getregisterstate.htm

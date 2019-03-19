@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2GlobalEvent2.GetEventEx
-title: ISBE2GlobalEvent2::GetEventEx
+title: ISBE2GlobalEvent2::GetEventEx (sbe.h)
 author: windows-sdk-content
 description: Gets a global spanning event and its data from a Stream Buffer Source filter.
 old-location: mstv\isbe2globalevent2_geteventex.htm

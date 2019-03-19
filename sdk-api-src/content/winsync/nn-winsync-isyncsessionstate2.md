@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.ISyncSessionState2
-title: ISyncSessionState2
+title: ISyncSessionState2 (winsync.h)
 author: windows-sdk-content
 description: Represents additional information about the current synchronization session.
 old-location: winsync\isyncsessionstate2.htm

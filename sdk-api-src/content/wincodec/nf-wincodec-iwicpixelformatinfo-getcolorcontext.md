@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetColorContext
-title: IWICPixelFormatInfo::GetColorContext
+title: IWICPixelFormatInfo::GetColorContext (wincodec.h)
 author: windows-sdk-content
 description: Gets the pixel format's IWICColorContext.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getcolorcontext.htm

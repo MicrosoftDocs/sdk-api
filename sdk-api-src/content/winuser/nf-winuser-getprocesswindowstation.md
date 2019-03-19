@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetProcessWindowStation
-title: GetProcessWindowStation function
+title: GetProcessWindowStation function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the current window station for the calling process.
 old-location: winstation\getprocesswindowstation.htm

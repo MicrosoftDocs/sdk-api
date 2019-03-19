@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.RegisterWaitForSingleObject
-title: RegisterWaitForSingleObject function
+title: RegisterWaitForSingleObject function (winbase.h)
 author: windows-sdk-content
 description: Directs a wait thread in the thread pool to wait on the object.
 old-location: base\registerwaitforsingleobject.htm

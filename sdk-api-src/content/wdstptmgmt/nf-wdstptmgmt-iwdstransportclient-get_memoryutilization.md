@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_MemoryUtilization
-title: IWdsTransportClient::get_MemoryUtilization
+title: IWdsTransportClient::get_MemoryUtilization (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the percentage of the WDS client’s memory in use.
 old-location: wds\iwdstransportclient_memoryutilization.htm

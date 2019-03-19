@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_RegisteredTrustLevel
-title: IActivatableClassRegistration::get_RegisteredTrustLevel
+title: IActivatableClassRegistration::get_RegisteredTrustLevel (activationregistration.h)
 author: windows-sdk-content
 description: Gets the trust level of the current activatable class.
 old-location: winrt\iactivatableclassregistration_registeredtrustlevel.htm

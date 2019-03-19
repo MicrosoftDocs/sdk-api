@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1TessellationSink.Close
-title: ID2D1TessellationSink::Close
+title: ID2D1TessellationSink::Close (d2d1.h)
 author: windows-sdk-content
 description: Closes the sink and returns its error status.
 old-location: direct2d\ID2D1TessellationSink_Close.htm

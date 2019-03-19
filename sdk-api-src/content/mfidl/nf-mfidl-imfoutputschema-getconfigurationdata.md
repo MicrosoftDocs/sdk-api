@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFOutputSchema.GetConfigurationData
-title: IMFOutputSchema::GetConfigurationData
+title: IMFOutputSchema::GetConfigurationData (mfidl.h)
 author: windows-sdk-content
 description: Returns configuration data for the output protection system. The configuration data is used to enable or disable the protection system, and to set the protection levels.
 old-location: mf\imfoutputschema_getconfigurationdata.htm

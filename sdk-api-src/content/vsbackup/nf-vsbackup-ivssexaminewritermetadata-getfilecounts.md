@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetFileCounts
-title: IVssExamineWriterMetadata::GetFileCounts
+title: IVssExamineWriterMetadata::GetFileCounts (vsbackup.h)
 author: windows-sdk-content
 description: The GetFileCounts method obtains excluded files and the number of components that a writer manages.
 old-location: base\ivssexaminewritermetadata_getfilecounts.htm

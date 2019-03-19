@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.PropVariantClear
-title: PropVariantClear function
+title: PropVariantClear function (combaseapi.h)
 author: windows-sdk-content
 description: Frees all elements that can be freed in a given PROPVARIANT structure.
 old-location: stg\propvariantclear.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextComposition.EnumCompositions
-title: ITfContextComposition::EnumCompositions
+title: ITfContextComposition::EnumCompositions (msctf.h)
 author: windows-sdk-content
 description: ITfContextComposition::EnumCompositions method
 old-location: tsf\itfcontextcomposition_enumcompositions.htm

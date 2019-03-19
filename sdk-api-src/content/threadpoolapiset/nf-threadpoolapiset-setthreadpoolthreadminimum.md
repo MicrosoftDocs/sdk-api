@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolThreadMinimum
-title: SetThreadpoolThreadMinimum function
+title: SetThreadpoolThreadMinimum function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Sets the minimum number of threads that the specified thread pool must make available to process callbacks.
 old-location: base\setthreadpoolthreadminimum.htm

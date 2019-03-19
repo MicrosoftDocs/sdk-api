@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtCreateDerivedKeySecurityProvider
-title: DrtCreateDerivedKeySecurityProvider function
+title: DrtCreateDerivedKeySecurityProvider function (drt.h)
 author: windows-sdk-content
 description: DrtCreateDerivedKeySecurityProvider function creates the derived key security provider for a Distributed Routing Table.
 old-location: p2p\drtcreatederivedkeysecurityprovider.htm

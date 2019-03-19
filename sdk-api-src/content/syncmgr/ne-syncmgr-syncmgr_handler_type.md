@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_HANDLER_TYPE
-title: SYNCMGR_HANDLER_TYPE
+title: SYNCMGR_HANDLER_TYPE (syncmgr.h)
 author: windows-sdk-content
 description: Specifies the type of a handler. Used by ISyncMgrHandlerInfo::GetType.
 old-location: shell\SYNCMGR_HANDLER_TYPE.htm

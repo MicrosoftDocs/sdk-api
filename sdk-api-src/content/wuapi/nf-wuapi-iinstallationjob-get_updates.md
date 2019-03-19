@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_Updates
-title: IInstallationJob::get_Updates
+title: IInstallationJob::get_Updates (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
 old-location: wua\iinstallationjob_updates.htm

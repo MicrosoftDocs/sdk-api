@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IInitializeNetworkFolder
-title: IInitializeNetworkFolder
+title: IInitializeNetworkFolder (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that initializes the network data source CLSID_NetworkPlaces as specified.
 old-location: shell\IInitializeNetworkFolder.htm

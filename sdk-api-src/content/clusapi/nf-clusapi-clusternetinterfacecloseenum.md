@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceCloseEnum
-title: ClusterNetInterfaceCloseEnum function
+title: ClusterNetInterfaceCloseEnum function (clusapi.h)
 author: windows-sdk-content
 description: Closes a network interface enumeration handle.
 old-location: mscs\clusternetinterfacecloseenum.htm

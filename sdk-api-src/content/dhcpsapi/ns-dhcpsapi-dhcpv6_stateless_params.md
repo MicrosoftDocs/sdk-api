@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi.__unnamed_struct_0
-title: DHCPV6_STATELESS_PARAMS
+title: DHCPV6_STATELESS_PARAMS (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCPV6_STATELESS_PARAMS structure defines the DHCPv6 stateless client inventory configuration settings at server and scope level.
 old-location: dhcp\dhcpv6_stateless_params.htm

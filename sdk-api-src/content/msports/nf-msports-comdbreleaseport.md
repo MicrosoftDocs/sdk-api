@@ -1,6 +1,6 @@
 ---
 UID: NF:msports.ComDBReleasePort
-title: ComDBReleasePort function
+title: ComDBReleasePort function (msports.h)
 author: windows-sdk-content
 description: ComDBReleasePort releases a COM port number in the COM port database.
 old-location: serports\comdbreleaseport.htm

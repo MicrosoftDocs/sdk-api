@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamSelector
-title: MFCreateASFStreamSelector function
+title: MFCreateASFStreamSelector function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates the ASF stream selector.
 old-location: mf\mfcreateasfstreamselector.htm

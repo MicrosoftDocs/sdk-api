@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetForeColor
-title: ITextFont::GetForeColor
+title: ITextFont::GetForeColor (tom.h)
 author: windows-sdk-content
 description: Gets the foreground, or text, color.
 old-location: controls\ITextFont_GetForeColor.htm

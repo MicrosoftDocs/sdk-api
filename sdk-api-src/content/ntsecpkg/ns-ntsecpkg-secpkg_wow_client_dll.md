@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_WOW_CLIENT_DLL
-title: SECPKG_WOW_CLIENT_DLL
+title: SECPKG_WOW_CLIENT_DLL (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains the path to the WOW-aware 32-bit DLL.
 old-location: security\secpkg_wow_client_dll.htm

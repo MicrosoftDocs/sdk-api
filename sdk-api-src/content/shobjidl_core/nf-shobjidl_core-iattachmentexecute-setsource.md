@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetSource
-title: IAttachmentExecute::SetSource
+title: IAttachmentExecute::SetSource (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets an alternate path or URL for the source of a file transfer.
 old-location: shell\IAttachmentExecute_SetSource.htm

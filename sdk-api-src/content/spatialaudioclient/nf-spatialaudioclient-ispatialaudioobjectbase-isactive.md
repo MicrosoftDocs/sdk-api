@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.IsActive
-title: ISpatialAudioObjectBase::IsActive
+title: ISpatialAudioObjectBase::IsActive (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets a boolean value indicating whether the ISpatialAudioObject is valid.
 old-location: coreaudio\ispatialaudioobject_isactive.htm

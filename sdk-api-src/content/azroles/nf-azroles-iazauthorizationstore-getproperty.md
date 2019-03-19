@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.GetProperty
-title: IAzAuthorizationStore::GetProperty
+title: IAzAuthorizationStore::GetProperty (azroles.h)
 author: windows-sdk-content
 description: Returns the AzAuthorizationStore object property with the specified property ID.
 old-location: security\azauthorizationstore_getproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:userenv._GROUP_POLICY_OBJECTA
-title: GROUP_POLICY_OBJECTA
+title: GROUP_POLICY_OBJECTA (userenv.h)
 author: windows-sdk-content
 description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list.
 old-location: policy\group_policy_object_str.htm

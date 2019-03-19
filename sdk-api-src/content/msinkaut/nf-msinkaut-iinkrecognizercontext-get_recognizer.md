@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.get_Recognizer
-title: IInkRecognizerContext::get_Recognizer
+title: IInkRecognizerContext::get_Recognizer (msinkaut.h)
 author: windows-sdk-content
 description: Gets the IInkRecognizer object used by the InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_recognizer.htm

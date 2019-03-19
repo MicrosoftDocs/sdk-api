@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSACloseEvent
-title: WSACloseEvent function
+title: WSACloseEvent function (winsock2.h)
 author: windows-sdk-content
 description: The WSACloseEvent function closes an open event object handle.
 old-location: winsock\wsacloseevent_2.htm

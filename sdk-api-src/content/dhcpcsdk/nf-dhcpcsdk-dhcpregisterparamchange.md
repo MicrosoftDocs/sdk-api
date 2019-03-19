@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpcsdk.DhcpRegisterParamChange
-title: DhcpRegisterParamChange function
+title: DhcpRegisterParamChange function (dhcpcsdk.h)
 author: windows-sdk-content
 description: The DhcpRegisterParamChange function enables clients to register for notification of changes in DHCP configuration parameters.
 old-location: dhcp\dhcpregisterparamchange.htm

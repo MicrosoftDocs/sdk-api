@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.GetProcessWorkingSetSizeEx
-title: GetProcessWorkingSetSizeEx function
+title: GetProcessWorkingSetSizeEx function (memoryapi.h)
 author: windows-sdk-content
 description: Retrieves the minimum and maximum working set sizes of the specified process.
 old-location: base\getprocessworkingsetsizeex.htm

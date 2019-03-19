@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_VoidTransform.Stop
-title: IBDA_VoidTransform::Stop
+title: IBDA_VoidTransform::Stop (bdaiface.h)
 author: windows-sdk-content
 description: The Stop method stops data flow through a control node.
 old-location: mstv\ibda_voidtransform_stop.htm

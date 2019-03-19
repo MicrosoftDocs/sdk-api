@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpcsdk.DhcpCApiCleanup
-title: DhcpCApiCleanup function
+title: DhcpCApiCleanup function (dhcpcsdk.h)
 author: windows-sdk-content
 description: The DhcpCApiCleanup function enables DHCP to properly clean up resources allocated throughout the use of DHCP function calls. The DhcpCApiCleanup function must only be called if a previous call to DhcpCApiInitialize executed successfully.
 old-location: dhcp\dhcpcapicleanup.htm

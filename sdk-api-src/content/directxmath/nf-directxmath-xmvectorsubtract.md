@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorSubtract
-title: XMVectorSubtract function
+title: XMVectorSubtract function (directxmath.h)
 author: windows-sdk-content
 description: Computes the difference of two vectors.
 old-location: dxmath\xmvectorsubtract.htm

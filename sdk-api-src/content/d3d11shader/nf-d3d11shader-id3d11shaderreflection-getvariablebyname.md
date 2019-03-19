@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetVariableByName
-title: ID3D11ShaderReflection::GetVariableByName
+title: ID3D11ShaderReflection::GetVariableByName (d3d11shader.h)
 author: windows-sdk-content
 description: Gets a variable by name.
 old-location: direct3d11\id3d11shaderreflection_getvariablebyname.htm

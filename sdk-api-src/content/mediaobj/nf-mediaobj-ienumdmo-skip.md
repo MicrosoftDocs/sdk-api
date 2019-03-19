@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Skip
-title: IEnumDMO::Skip
+title: IEnumDMO::Skip (mediaobj.h)
 author: windows-sdk-content
 description: The Skip method skips over a specified number of items in the enumeration sequence.
 old-location: dshow\ienumdmo_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.GetOptionDescription
-title: ISpellChecker::GetOptionDescription
+title: ISpellChecker::GetOptionDescription (spellcheck.h)
 author: windows-sdk-content
 description: Retrieves the information (id, description, heading and labels) of a specific option.
 old-location: intl\ispellchecker_getoptiondescription.htm

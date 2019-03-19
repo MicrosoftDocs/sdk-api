@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaLimit
-title: IDiskQuotaControl::GetDefaultQuotaLimit
+title: IDiskQuotaControl::GetDefaultQuotaLimit (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the default quota limit for the volume.
 old-location: fs\idiskquotacontrol_getdefaultquotalimit.htm

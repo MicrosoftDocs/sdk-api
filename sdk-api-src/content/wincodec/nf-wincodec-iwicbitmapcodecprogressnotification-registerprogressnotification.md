@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecProgressNotification.RegisterProgressNotification
-title: IWICBitmapCodecProgressNotification::RegisterProgressNotification
+title: IWICBitmapCodecProgressNotification::RegisterProgressNotification (wincodec.h)
 author: windows-sdk-content
 description: Registers a progress notification callback function.
 old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification.htm

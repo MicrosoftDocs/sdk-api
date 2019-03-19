@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.InfiniteRect
-title: InfiniteRect function
+title: InfiniteRect function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a rectangle that has its upper-left corner set to (negative infinity, negative infinity) and its lower-right corner set to (infinity, infinity).
 old-location: direct2d\infiniterect.htm

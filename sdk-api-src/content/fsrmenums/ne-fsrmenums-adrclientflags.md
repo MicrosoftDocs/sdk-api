@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._AdrClientFlags
-title: AdrClientFlags
+title: AdrClientFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Enumerates flags for indicating why an access denied remediation (ADR) client operation could not be performed.
 old-location: fsrm\adrclientflags.htm

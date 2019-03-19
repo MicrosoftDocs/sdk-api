@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStoryRanges.Item
-title: ITextStoryRanges::Item
+title: ITextStoryRanges::Item (tom.h)
 author: windows-sdk-content
 description: Retrieves an ITextRange object for the Indexth story in this story collection.
 old-location: controls\ITextStoryRanges_Item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_READ_CERT
-title: PFN_CERT_STORE_PROV_READ_CERT
+title: PFN_CERT_STORE_PROV_READ_CERT (wincrypt.h)
 author: windows-sdk-content
 description: An application-defined callback function that reads the provider's copy of the certificate context.
 old-location: security\certstoreprovreadcertcallback.htm

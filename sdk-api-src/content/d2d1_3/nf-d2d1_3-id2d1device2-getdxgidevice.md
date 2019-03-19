@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1Device2.GetDxgiDevice
-title: ID2D1Device2::GetDxgiDevice
+title: ID2D1Device2::GetDxgiDevice (d2d1_3.h)
 author: windows-sdk-content
 description: Returns the DXGI device associated with this Direct2D device.
 old-location: direct2d\id2d1device2_getdxgidevice.htm

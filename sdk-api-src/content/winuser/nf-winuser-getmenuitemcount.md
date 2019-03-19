@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuItemCount
-title: GetMenuItemCount function
+title: GetMenuItemCount function (winuser.h)
 author: windows-sdk-content
 description: Determines the number of items in the specified menu.
 old-location: menurc\getmenuitemcount.htm

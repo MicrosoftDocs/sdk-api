@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.RemoveStreamForRecord
-title: IWMMutualExclusion2::RemoveStreamForRecord
+title: IWMMutualExclusion2::RemoveStreamForRecord (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveStreamForRecord method removes a stream from a record's list.
 old-location: wmformat\iwmmutualexclusion2_removestreamforrecord.htm

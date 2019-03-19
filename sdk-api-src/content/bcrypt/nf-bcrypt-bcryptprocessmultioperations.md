@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptProcessMultiOperations
-title: BCryptProcessMultiOperations function
+title: BCryptProcessMultiOperations function (bcrypt.h)
 author: windows-sdk-content
 description: The BCryptProcessMultiOperations function processes a sequence of operations on a multi-object state.
 old-location: security\bcryptprocessmultioperation.htm

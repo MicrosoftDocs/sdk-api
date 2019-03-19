@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromMediaSource
-title: MFCreateSourceReaderFromMediaSource function
+title: MFCreateSourceReaderFromMediaSource function (mfreadwrite.h)
 author: windows-sdk-content
 description: Creates the source reader from a media source.
 old-location: mf\mfcreatesourcereaderfrommediasource.htm

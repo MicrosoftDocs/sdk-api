@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.ShutDown
-title: CMSPCallMultiGraph::ShutDown
+title: CMSPCallMultiGraph::ShutDown (mspcall.h)
 author: windows-sdk-content
 description: The ShutDown method is called by the MSP address object (in the method ShutdownMSPCall) to shut down the MSP call object.
 old-location: tapi3\cmspcallmultigraph_shutdown.htm

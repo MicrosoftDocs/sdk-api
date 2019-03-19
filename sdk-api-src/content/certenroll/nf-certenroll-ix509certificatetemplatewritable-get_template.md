@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.get_Template
-title: IX509CertificateTemplateWritable::get_Template
+title: IX509CertificateTemplateWritable::get_Template (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a copy of the IX509CertificateTemplate object that was used to initialize this IX509CertificateTemplateWritable instance.
 old-location: security\ix509certificatetemplatewritable_template.htm

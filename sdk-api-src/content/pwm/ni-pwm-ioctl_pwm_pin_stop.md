@@ -1,6 +1,6 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_STOP
-title: IOCTL_PWM_PIN_STOP
+title: IOCTL_PWM_PIN_STOP (pwm.h)
 author: windows-sdk-content
 description: Stops generation of Pulse Width Modulation (PWM) signal on a pin or channel. To check whether a pin is started, use IOCTL_PWM_PIN_IS_STARTED.
 old-location: base\ioctl_pwm_pin_stop.htm

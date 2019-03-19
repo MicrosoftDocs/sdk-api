@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.HasProfile
-title: IDot11AdHocNetwork::HasProfile
+title: IDot11AdHocNetwork::HasProfile (adhoc.h)
 author: windows-sdk-content
 description: Returns a boolean value that specifies whether there is a saved profile associated with the network.
 old-location: nwifi\idot11adhocnetwork_hasprofile.htm

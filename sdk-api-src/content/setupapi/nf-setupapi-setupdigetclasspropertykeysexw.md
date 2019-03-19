@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyKeysExW
-title: SetupDiGetClassPropertyKeysExW function
+title: SetupDiGetClassPropertyKeysExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassPropertyKeysEx function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class on a local or a remote computer.
 old-location: devinst\setupdigetclasspropertykeysex.htm

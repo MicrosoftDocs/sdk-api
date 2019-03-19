@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransformLocal
-title: IXpsOMTileBrush::GetTransformLocal
+title: IXpsOMTileBrush::GetTransformLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared resolved matrix transform for the brush.
 old-location: xps\ixpsomtilebrush_gettransformlocal.htm

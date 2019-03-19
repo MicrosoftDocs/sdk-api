@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_SelInksDisplayMode
-title: IInkEdit::get_SelInksDisplayMode
+title: IInkEdit::get_SelInksDisplayMode (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that allows for toggling the appearance of the selection between ink and text.
 old-location: tablet\inkedit_selinksdisplaymode.htm

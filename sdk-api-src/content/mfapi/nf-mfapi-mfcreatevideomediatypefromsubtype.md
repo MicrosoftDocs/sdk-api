@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromSubtype
-title: MFCreateVideoMediaTypeFromSubtype function
+title: MFCreateVideoMediaTypeFromSubtype function (mfapi.h)
 author: windows-sdk-content
 description: Creates a partial video media type with a specified subtype.
 old-location: mf\mfcreatevideomediatypefromsubtype.htm

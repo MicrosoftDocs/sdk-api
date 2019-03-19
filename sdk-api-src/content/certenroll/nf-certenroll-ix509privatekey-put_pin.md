@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Pin
-title: IX509PrivateKey::put_Pin
+title: IX509PrivateKey::put_Pin (certenroll.h)
 author: windows-sdk-content
 description: Specifies a personal identification number (PIN) that is used to authenticate users prior to accessing a private key container on a smart card.
 old-location: security\ix509privatekey_pin.htm

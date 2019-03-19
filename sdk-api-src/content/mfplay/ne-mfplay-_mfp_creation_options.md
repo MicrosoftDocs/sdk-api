@@ -1,6 +1,6 @@
 ---
 UID: NE:mfplay._MFP_CREATION_OPTIONS
-title: "_MFP_CREATION_OPTIONS"
+title: "_MFP_CREATION_OPTIONS" (mfplay.h)
 author: windows-sdk-content
 description: Specifies options for the MFPCreateMediaPlayer function.
 old-location: mf\_mfp_creation_options.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SSL_INFO
-title: HTTP_SSL_INFO
+title: HTTP_SSL_INFO (http.h)
 author: windows-sdk-content
 description: Contains data for a connection that uses Secure Sockets Layer (SSL), obtained through the SSL handshake.
 old-location: http\http_ssl_info.htm

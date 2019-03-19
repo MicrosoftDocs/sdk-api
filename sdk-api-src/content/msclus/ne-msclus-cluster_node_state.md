@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_NODE_STATE
-title: CLUSTER_NODE_STATE
+title: CLUSTER_NODE_STATE (msclus.h)
 author: windows-sdk-content
 description: Describes the state of a cluster node.
 old-location: mscs\cluster_node_state.htm

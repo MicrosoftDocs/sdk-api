@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateChannelForListener
-title: WsCreateChannelForListener function
+title: WsCreateChannelForListener function (webservices.h)
 author: windows-sdk-content
 description: Creates a channel associated with a specified listener.
 old-location: wsw\wscreatechannelforlistener.htm

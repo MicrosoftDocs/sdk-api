@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetSigningStatus
-title: IWICComponentInfo::GetSigningStatus
+title: IWICComponentInfo::GetSigningStatus (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the signing status of the component.
 old-location: wic\_wic_codec_iwiccomponentinfo_getsigningstatus.htm

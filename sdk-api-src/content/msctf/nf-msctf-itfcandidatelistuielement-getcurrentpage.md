@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCurrentPage
-title: ITfCandidateListUIElement::GetCurrentPage
+title: ITfCandidateListUIElement::GetCurrentPage (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetCurrentPage method returns the current page.
 old-location: tsf\itfcandidatelistuielement_getcurrentpage.htm

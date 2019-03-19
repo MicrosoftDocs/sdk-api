@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.CreateVssExamineWriterMetadataInternal
-title: CreateVssExamineWriterMetadataInternal function
+title: CreateVssExamineWriterMetadataInternal function (vsbackup.h)
 author: windows-sdk-content
 description: The CreateVssExamineWriterMetadata function creates an IVssExamineWriterMetadata object.
 old-location: base\createvssexaminewritermetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivityLogging.Refresh
-title: IFaxActivityLogging::Refresh
+title: IFaxActivityLogging::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivityLogging::Refresh method refreshes FaxActivityLogging object information from the fax server.
 old-location: fax\_mfax_faxactivitylogging_cpp_mfax_faxactivitylogging_refresh_cpp.htm

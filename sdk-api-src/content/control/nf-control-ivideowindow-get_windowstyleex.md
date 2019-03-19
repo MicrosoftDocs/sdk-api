@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_WindowStyleEx
-title: IVideoWindow::get_WindowStyleEx
+title: IVideoWindow::get_WindowStyleEx (control.h)
 author: windows-sdk-content
 description: The get_WindowStyleEx method retrieves the extended window styles on the video window.
 old-location: dshow\ivideowindow_get_windowstyleex.htm

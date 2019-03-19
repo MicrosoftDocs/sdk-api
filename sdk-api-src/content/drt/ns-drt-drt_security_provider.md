@@ -1,6 +1,6 @@
 ---
 UID: NS:drt.drt_security_provider_tag
-title: DRT_SECURITY_PROVIDER
+title: DRT_SECURITY_PROVIDER (drt.h)
 author: windows-sdk-content
 description: DRT_SECURITY_PROVIDER structure defines the DRT interface that must be implemented by a security provider.
 old-location: p2p\drt_security_provider.htm

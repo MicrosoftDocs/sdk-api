@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsService
-title: IADsService
+title: IADsService (iads.h)
 author: windows-sdk-content
 description: The IADsService interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsservice.htm

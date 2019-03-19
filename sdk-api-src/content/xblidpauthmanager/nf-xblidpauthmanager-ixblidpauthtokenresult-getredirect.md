@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRedirect
-title: IXblIdpAuthTokenResult::GetRedirect
+title: IXblIdpAuthTokenResult::GetRedirect (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getredirect.htm

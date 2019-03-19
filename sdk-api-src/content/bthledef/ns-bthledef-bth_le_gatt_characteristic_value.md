@@ -1,6 +1,6 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_CHARACTERISTIC_VALUE
-title: BTH_LE_GATT_CHARACTERISTIC_VALUE
+title: BTH_LE_GATT_CHARACTERISTIC_VALUE (bthledef.h)
 author: windows-sdk-content
 description: The BTH_LE_GATT_CHARACTERISTIC_VALUE structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile characteristic value.
 old-location: bltooth\bth_le_gatt_characteristic_value.htm

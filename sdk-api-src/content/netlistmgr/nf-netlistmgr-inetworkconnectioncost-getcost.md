@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCost.GetCost
-title: INetworkConnectionCost::GetCost
+title: INetworkConnectionCost::GetCost (netlistmgr.h)
 author: windows-sdk-content
 description: GetCost method retrieves the network cost associated with a connection.
 old-location: nla\inetworkconnectioncost_getcost.htm

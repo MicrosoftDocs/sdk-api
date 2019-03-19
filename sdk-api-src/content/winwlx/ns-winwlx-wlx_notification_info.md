@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_NOTIFICATION_INFO
-title: WLX_NOTIFICATION_INFO
+title: WLX_NOTIFICATION_INFO (winwlx.h)
 author: windows-sdk-content
 description: This structure stores information about a Winlogon event.
 old-location: security\wlx_notification_info.htm

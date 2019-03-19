@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.NetworkIsolationSetAppContainerConfig
-title: NetworkIsolationSetAppContainerConfig function
+title: NetworkIsolationSetAppContainerConfig function (netfw.h)
 author: windows-sdk-content
 description: Used to set the configuration of one or more app containers.
 old-location: ics\networkisolationsetappcontainerconfig.htm

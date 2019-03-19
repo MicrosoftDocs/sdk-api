@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_INFO
-title: CRYPT_TIMESTAMP_INFO
+title: CRYPT_TIMESTAMP_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a signed data content type in Cryptographic Message Syntax (CMS) format.
 old-location: security\crypt_timestamp_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.SetFormattedText
-title: ITextStrings::SetFormattedText
+title: ITextStrings::SetFormattedText (tom.h)
 author: windows-sdk-content
 description: Replaces text with formatted text.
 old-location: controls\itextstrings_setformattedtext.htm

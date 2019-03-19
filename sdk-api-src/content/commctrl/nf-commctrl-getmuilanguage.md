@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.GetMUILanguage
-title: GetMUILanguage function
+title: GetMUILanguage function (commctrl.h)
 author: windows-sdk-content
 description: Gets the language currently in use by the common controls for a particular process.
 old-location: controls\GetMUILanguage.htm

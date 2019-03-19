@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagDATADIR
-title: DATADIR
+title: DATADIR (objidl.h)
 author: windows-sdk-content
 description: Specifies the direction of the data flow. This determines the formats that the resulting enumerator can enumerate.
 old-location: com\datadir.htm

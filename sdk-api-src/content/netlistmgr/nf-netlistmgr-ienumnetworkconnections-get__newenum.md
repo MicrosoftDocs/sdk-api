@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.get__NewEnum
-title: IEnumNetworkConnections::get__NewEnum
+title: IEnumNetworkConnections::get__NewEnum (netlistmgr.h)
 author: windows-sdk-content
 description: The get_NewEnum property returns an automation enumerator object that you can use to iterate through the IEnumNetworkConnections collection.
 old-location: nla\ienumnetworkconnections_get__newenum.htm

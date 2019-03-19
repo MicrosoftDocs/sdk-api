@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSwProvider.CreatePack
-title: IVdsSwProvider::CreatePack
+title: IVdsSwProvider::CreatePack (vds.h)
 author: windows-sdk-content
 description: Creates a pack object.
 old-location: base\ivdsswprovider_createpack.htm

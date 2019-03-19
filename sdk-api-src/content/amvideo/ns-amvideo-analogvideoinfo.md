@@ -1,6 +1,6 @@
 ---
 UID: NS:amvideo.tagAnalogVideoInfo
-title: ANALOGVIDEOINFO
+title: ANALOGVIDEOINFO (amvideo.h)
 author: windows-sdk-content
 description: The ANALOGVIDEOINFO structure maintains information about the format of the analog video signal.
 old-location: dshow\analogvideoinfo.htm

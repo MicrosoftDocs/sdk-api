@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get_Count
-title: IUpdateHistoryEntryCollection::get_Count
+title: IUpdateHistoryEntryCollection::get_Count (wuapi.h)
 author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatehistoryentrycollection_count.htm

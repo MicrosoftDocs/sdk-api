@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_MUSICSPEECH_CLASS_MODE
-title: WMT_MUSICSPEECH_CLASS_MODE
+title: WMT_MUSICSPEECH_CLASS_MODE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_MUSICSPEECH_CLASS_MODE enumeration type defines the types of compression supported by the Windows Media Audio 9 Voice codec.
 old-location: wmformat\wmt_musicspeech_class_mode.htm

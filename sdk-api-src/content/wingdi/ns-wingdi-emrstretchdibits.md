@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSTRETCHDIBITS
-title: EMRSTRETCHDIBITS
+title: EMRSTRETCHDIBITS (wingdi.h)
 author: windows-sdk-content
 description: The EMRSTRETCHDIBITS structure contains members for the StretchDIBits enhanced metafile record.
 old-location: gdi\emrstretchdibits.htm

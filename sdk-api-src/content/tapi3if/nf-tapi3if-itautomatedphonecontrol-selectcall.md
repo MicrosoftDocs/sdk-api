@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.SelectCall
-title: ITAutomatedPhoneControl::SelectCall
+title: ITAutomatedPhoneControl::SelectCall (tapi3if.h)
 author: windows-sdk-content
 description: The SelectCall method selects the current phone object onto the Call object pointed to by the pCall parameter.
 old-location: tapi3\itautomatedphonecontrol_selectcall.htm

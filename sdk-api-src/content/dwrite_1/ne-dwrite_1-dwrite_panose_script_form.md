@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SCRIPT_FORM
-title: DWRITE_PANOSE_SCRIPT_FORM
+title: DWRITE_PANOSE_SCRIPT_FORM (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SCRIPT_FORM enumeration contains values that specify the general look of the character face, with consideration of its slope and tails.
 old-location: directwrite\dwrite_panose_script_form.htm

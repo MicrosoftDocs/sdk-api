@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IRepetitionPattern
-title: IRepetitionPattern
+title: IRepetitionPattern (taskschd.h)
 author: windows-sdk-content
 description: Defines how often the task is run and how long the repetition pattern is repeated after the task is started.
 old-location: taskschd\irepetitionpattern.htm

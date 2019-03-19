@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindClockVectorForChangeUnit
-title: ISyncKnowledge::FindClockVectorForChangeUnit
+title: ISyncKnowledge::FindClockVectorForChangeUnit (winsync.h)
 author: windows-sdk-content
 description: Gets the clock vector that is associated with the specified change unit ID.
 old-location: winsync\isyncknowledge_findclockvectorforchangeunit.htm

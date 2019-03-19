@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_Address
-title: ITCallInfo::get_Address
+title: ITCallInfo::get_Address (tapi3if.h)
 author: windows-sdk-content
 description: The get_Address method gets a pointer to the ITAddress interface of the Address object.
 old-location: tapi3\itcallinfo_get_address.htm

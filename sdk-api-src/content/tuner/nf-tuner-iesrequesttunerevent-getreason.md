@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESRequestTunerEvent.GetReason
-title: IESRequestTunerEvent::GetReason
+title: IESRequestTunerEvent::GetReason (tuner.h)
 author: windows-sdk-content
 description: Gets a code that indicates the reason a device is requesting exclusive access to a tuner and its Conditional Access Services (CAS).
 old-location: mstv\iesrequesttunerevent_getreason.htm

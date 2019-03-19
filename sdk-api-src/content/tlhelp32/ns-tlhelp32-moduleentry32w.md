@@ -1,6 +1,6 @@
 ---
 UID: NS:tlhelp32.tagMODULEENTRY32W
-title: MODULEENTRY32W
+title: MODULEENTRY32W (tlhelp32.h)
 author: windows-sdk-content
 description: Describes an entry from a list of the modules belonging to the specified process.
 old-location: toolhelp\moduleentry32_str.htm

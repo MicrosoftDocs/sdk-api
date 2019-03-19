@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2def._WSAMSG
-title: WSAMSG
+title: WSAMSG (ws2def.h)
 author: windows-sdk-content
 description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.
 old-location: winsock\wsamsg_2.htm

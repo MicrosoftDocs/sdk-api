@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.put_EventClassName
-title: IEventClass::put_EventClassName
+title: IEventClass::put_EventClassName (eventsys.h)
 author: windows-sdk-content
 description: The ProgID for the event class object.
 old-location: cos\ieventclass_eventclassname.htm

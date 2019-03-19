@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizers.GetDefaultRecognizer
-title: IInkRecognizers::GetDefaultRecognizer
+title: IInkRecognizers::GetDefaultRecognizer (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the default recognizer for a known language, specified by a national language support (NLS) language code identifier (LCID).
 old-location: tablet\inkrecognizers_getdefaultrecognizer.htm

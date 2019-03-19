@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetColorSpace
-title: GetColorSpace function
+title: GetColorSpace function (wingdi.h)
 author: windows-sdk-content
 description: The GetColorSpace function retrieves the handle to the input color space from a specified device context.
 old-location: wcs\getcolorspace.htm

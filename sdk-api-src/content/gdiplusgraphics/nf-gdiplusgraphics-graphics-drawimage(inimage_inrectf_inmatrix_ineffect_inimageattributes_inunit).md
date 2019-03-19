@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit)
-title: Graphics::DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit)
+title: Graphics::DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The method draws a portion of an image after applying a specified effect.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_sourceRect_Matrix_xForm_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.ImagehlpApiVersion
-title: ImagehlpApiVersion function
+title: ImagehlpApiVersion function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the version information of the DbgHelp library installed on the system.
 old-location: base\imagehlpapiversion.htm

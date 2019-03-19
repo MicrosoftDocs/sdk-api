@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Filter_GetExpression
-title: MI_Filter_GetExpression function
+title: MI_Filter_GetExpression function (mi.h)
 author: windows-sdk-content
 description: Gets the filter language and expression.
 old-location: wmi_v2\mi_filter_getexpression.htm

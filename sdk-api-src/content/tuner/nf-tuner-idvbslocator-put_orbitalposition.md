@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_OrbitalPosition
-title: IDVBSLocator::put_OrbitalPosition
+title: IDVBSLocator::put_OrbitalPosition (tuner.h)
 author: windows-sdk-content
 description: The put_OrbitalPosition method sets the setting for the satellite's orbital position.
 old-location: mstv\idvbslocator_put_orbitalposition.htm

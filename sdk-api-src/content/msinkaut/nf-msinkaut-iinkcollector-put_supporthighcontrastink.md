@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_SupportHighContrastInk
-title: IInkCollector::put_SupportHighContrastInk
+title: IInkCollector::put_SupportHighContrastInk (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether ink is rendered as just one color when the system is in High Contrast mode.
 old-location: tablet\inkcollector_supporthighcontrastink.htm

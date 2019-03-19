@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_STRING_DESCRIPTION
-title: WS_XML_STRING_DESCRIPTION
+title: WS_XML_STRING_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: This type description is used with WS_XML_STRING_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_xml_string_description.htm

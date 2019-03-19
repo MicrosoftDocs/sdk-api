@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_WindowSize
-title: IAMVideoCompression::get_WindowSize
+title: IAMVideoCompression::get_WindowSize (strmif.h)
 author: windows-sdk-content
 description: The get_WindowSize method retrieves the number of frames over which the compressor will maintain the average data rate.
 old-location: dshow\iamvideocompression_get_windowsize.htm

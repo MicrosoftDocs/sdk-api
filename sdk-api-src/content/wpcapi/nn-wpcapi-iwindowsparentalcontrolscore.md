@@ -1,6 +1,6 @@
 ---
 UID: NN:wpcapi.IWindowsParentalControlsCore
-title: IWindowsParentalControlsCore
+title: IWindowsParentalControlsCore (wpcapi.h)
 author: windows-sdk-content
 description: "."
 old-location: parcon\iwindowsparentalcontrolscore.htm

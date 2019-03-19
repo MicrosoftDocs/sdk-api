@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllDefaults
-title: ICodecAPI::SetAllDefaults
+title: ICodecAPI::SetAllDefaults (strmif.h)
 author: windows-sdk-content
 description: The SetAllDefaults method resets all codec properties to their default values.
 old-location: dshow\icodecapi_setalldefaults.htm

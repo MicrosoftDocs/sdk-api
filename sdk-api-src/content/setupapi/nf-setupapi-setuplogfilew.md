@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupLogFileW
-title: SetupLogFileW function
+title: SetupLogFileW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupLogFile function adds an entry to the log file.
 old-location: setup\setuplogfile.htm

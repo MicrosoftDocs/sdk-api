@@ -1,6 +1,6 @@
 ---
 UID: NS:traffic._TC_GEN_FILTER
-title: TC_GEN_FILTER
+title: TC_GEN_FILTER (traffic.h)
 author: windows-sdk-content
 description: The TC_GEN_FILTER structure creates a filter that matches a certain set of packet attributes or criteria, which can subsequently be used to associate packets that meet the attribute criteria with a particular flow.
 old-location: qos\tc_gen_filter.htm

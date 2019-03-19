@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoKeypadTonesMinimumDuration
-title: ITAutomatedPhoneControl::put_AutoKeypadTonesMinimumDuration
+title: ITAutomatedPhoneControl::put_AutoKeypadTonesMinimumDuration (tapi3if.h)
 author: windows-sdk-content
 description: The put_AutoKeypadTonesMinimumDuration method sets the value of the AutoKeypadTonesMinimumDuration property. The property specifies how long to play keypad tones on PBS_DOWN.
 old-location: tapi3\itautomatedphonecontrol_put_autokeypadtonesminimumduration.htm

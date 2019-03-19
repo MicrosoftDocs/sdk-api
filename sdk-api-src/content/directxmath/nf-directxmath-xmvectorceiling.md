@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorCeiling
-title: XMVectorCeiling function
+title: XMVectorCeiling function (directxmath.h)
 author: windows-sdk-content
 description: Computes the ceiling of each component of an XMVECTOR.
 old-location: dxmath\xmvectorceiling.htm

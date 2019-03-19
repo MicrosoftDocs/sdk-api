@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminPortEnum
-title: MprAdminPortEnum function
+title: MprAdminPortEnum function (mprapi.h)
 author: windows-sdk-content
 description: Enumerates all active ports in a specific connection, or all ports available for use or currently used by RAS.
 old-location: rras\mpradminportenum.htm

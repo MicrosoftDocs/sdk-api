@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetAspectRatioMode
-title: IVMRWindowlessControl9::GetAspectRatioMode
+title: IVMRWindowlessControl9::GetAspectRatioMode (vmr9.h)
 author: windows-sdk-content
 description: The GetAspectRatioMode method retrieves the current aspect ratio display mode.
 old-location: dshow\ivmrwindowlesscontrol9_getaspectratiomode.htm

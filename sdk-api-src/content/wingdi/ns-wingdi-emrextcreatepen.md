@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMREXTCREATEPEN
-title: EMREXTCREATEPEN
+title: EMREXTCREATEPEN (wingdi.h)
 author: windows-sdk-content
 description: The EMREXTCREATEPEN structure contains members for the ExtCreatePen enhanced metafile record. If the record contains a BITMAPINFO structure, it is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
 old-location: gdi\emrextcreatepen.htm

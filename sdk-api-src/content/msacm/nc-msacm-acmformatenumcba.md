@@ -1,6 +1,6 @@
 ---
 UID: NC:msacm.ACMFORMATENUMCBA
-title: ACMFORMATENUMCBA
+title: ACMFORMATENUMCBA (msacm.h)
 author: windows-sdk-content
 description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name.
 old-location: multimedia\acmformatenumcallback.htm

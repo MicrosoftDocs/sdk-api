@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddObjectByTemplate
-title: IWbemConfigureRefresher::AddObjectByTemplate
+title: IWbemConfigureRefresher::AddObjectByTemplate (wbemcli.h)
 author: windows-sdk-content
 description: With the IWbemConfigureRefresher::AddObjectByTemplate method, you can add an object you want refreshed to a refresher by specifying an IWbemClassObject instance template.
 old-location: wmi\iwbemconfigurerefresher_addobjectbytemplate.htm

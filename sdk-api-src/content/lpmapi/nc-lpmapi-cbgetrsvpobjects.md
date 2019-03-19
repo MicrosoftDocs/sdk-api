@@ -1,6 +1,6 @@
 ---
 UID: NC:lpmapi.CBGETRSVPOBJECTS
-title: CBGETRSVPOBJECTS
+title: CBGETRSVPOBJECTS (lpmapi.h)
 author: windows-sdk-content
 description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.
 old-location: qos\cbgetrsvpobjects.htm

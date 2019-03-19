@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetAccessibilityLongDescription
-title: IXpsOMCanvas::GetAccessibilityLongDescription
+title: IXpsOMCanvas::GetAccessibilityLongDescription (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsomcanvas_getaccessibilitylongdescription.htm

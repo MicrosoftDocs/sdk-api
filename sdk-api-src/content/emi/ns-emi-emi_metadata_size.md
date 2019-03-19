@@ -1,6 +1,6 @@
 ---
 UID: NS:emi.__unnamed_struct_1
-title: EMI_METADATA_SIZE
+title: EMI_METADATA_SIZE (emi.h)
 author: windows-sdk-content
 description: The EMI_METADATA_SIZE structure specifies the size of the Energy Metering Interface (EMI) metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request.
 old-location: powermeter\emi_metadata_size.htm

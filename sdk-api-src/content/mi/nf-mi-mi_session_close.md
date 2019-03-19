@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Session_Close
-title: MI_Session_Close function
+title: MI_Session_Close function (mi.h)
 author: windows-sdk-content
 description: Closes a session and releases all associated memory.
 old-location: wmi_v2\mi_session_close.htm

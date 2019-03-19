@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent
-title: IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent
+title: IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a value indicating if the connecting to Web audio should delay the page's load event.
 old-location: mf\imfmediaenginewebsupport_shoulddelaytheloadevent.htm

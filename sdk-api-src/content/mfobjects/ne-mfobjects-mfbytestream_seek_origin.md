@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFBYTESTREAM_SEEK_ORIGIN
-title: MFBYTESTREAM_SEEK_ORIGIN
+title: MFBYTESTREAM_SEEK_ORIGIN (mfobjects.h)
 author: windows-sdk-content
 description: Specifies the origin for a seek request.
 old-location: mf\mfbytestream_seek_origin.htm

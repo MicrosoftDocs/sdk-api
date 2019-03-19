@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_ShowScrollBar
-title: FlatSB_ShowScrollBar function
+title: FlatSB_ShowScrollBar function (commctrl.h)
 author: windows-sdk-content
 description: Shows or hides a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard ShowScrollBar function.
 old-location: controls\FlatSB_ShowScrollBar.htm

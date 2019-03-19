@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_CurrentAction
-title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction
+title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the current write action being performed.
 old-location: imapi\idiscformat2trackatonceeventargs_get_currentaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueue.get_AverageWaitTime
-title: ITQueue::get_AverageWaitTime
+title: ITQueue::get_AverageWaitTime (tapi3.h)
 author: windows-sdk-content
 description: The get_AverageWaitTime method gets the average time in the queue (in seconds) for a call during the current measurement period.
 old-location: tapi3\itqueue_get_averagewaittime.htm

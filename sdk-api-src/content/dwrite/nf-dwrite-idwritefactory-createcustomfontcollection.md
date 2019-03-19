@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateCustomFontCollection
-title: IDWriteFactory::CreateCustomFontCollection
+title: IDWriteFactory::CreateCustomFontCollection (dwrite.h)
 author: windows-sdk-content
 description: Creates a font collection using a custom font collection loader.
 old-location: directwrite\IDWriteFactory_CreateCustomFontCollection.htm

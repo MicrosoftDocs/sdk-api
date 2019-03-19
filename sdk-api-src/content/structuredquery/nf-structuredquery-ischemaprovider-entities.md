@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.Entities
-title: ISchemaProvider::Entities
+title: ISchemaProvider::Entities (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves an enumeration of IEntity objects with one entry for each entity in the loaded schema.
 old-location: search\_search_ISchemaProvider_Entities.htm

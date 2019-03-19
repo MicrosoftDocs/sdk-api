@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_TerminalClass
-title: ITTerminal::get_TerminalClass
+title: ITTerminal::get_TerminalClass (tapi3if.h)
 author: windows-sdk-content
 description: The get_TerminalClass method gets the Terminal Class of the terminal.
 old-location: tapi3\itterminal_get_terminalclass.htm

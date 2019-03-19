@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._QualityOfService
-title: QOS
+title: QOS (winsock2.h)
 author: windows-sdk-content
 description: The QOS structure provides the means by which QOS-enabled applications can specify quality of service parameters for sent and received traffic on a particular flow.
 old-location: qos\qos.htm

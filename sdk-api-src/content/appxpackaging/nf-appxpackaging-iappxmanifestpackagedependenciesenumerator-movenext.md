@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependenciesEnumerator.MoveNext
-title: IAppxManifestPackageDependenciesEnumerator::MoveNext
+title: IAppxManifestPackageDependenciesEnumerator::MoveNext (appxpackaging.h)
 author: windows-sdk-content
 description: Advances the position of the enumerator to the next package dependency.
 old-location: appxpkg\iappxmanifestpackagedependenciesenumerator_movenext.htm

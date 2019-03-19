@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._COLORMAP
-title: COLORMAP
+title: COLORMAP (commctrl.h)
 author: windows-sdk-content
 description: Contains information used by the CreateMappedBitmap function to map the colors of the bitmap.
 old-location: controls\COLORMAP.htm

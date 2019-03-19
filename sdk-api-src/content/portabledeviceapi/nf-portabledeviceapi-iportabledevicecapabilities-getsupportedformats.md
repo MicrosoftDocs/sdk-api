@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedFormats
-title: IPortableDeviceCapabilities::GetSupportedFormats
+title: IPortableDeviceCapabilities::GetSupportedFormats (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetSupportedFormats method retrieves the supported formats for a specified object type on the device. For example, specifying audio objects might return WPD_OBJECT_FORMAT_WMA, WPD_OBJECT_FORMAT_WAV, and WPD_OBJECT_FORMAT_MP3.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedformats.htm

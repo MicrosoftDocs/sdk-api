@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileReader.Read
-title: IRdcFileReader::Read
+title: IRdcFileReader::Read (msrdc.h)
 author: windows-sdk-content
 description: Reads the specified amount of data starting at the specified position.
 old-location: rdc\irdcfilereader_read.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjWriteFileData
-title: PrjWriteFileData function
+title: PrjWriteFileData function (projectedfslib.h)
 author: windows-sdk-content
 description: TBD.
 old-location: projfs\prjwritefiledata.htm

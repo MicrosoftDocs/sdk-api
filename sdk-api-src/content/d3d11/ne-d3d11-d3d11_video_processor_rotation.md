@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_ROTATION
-title: D3D11_VIDEO_PROCESSOR_ROTATION
+title: D3D11_VIDEO_PROCESSOR_ROTATION (d3d11.h)
 author: windows-sdk-content
 description: Specifies the video rotation states.
 old-location: mf\d3d11_video_processor_rotation.htm

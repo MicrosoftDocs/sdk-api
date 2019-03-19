@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BorderTransform.SetExtendModeX
-title: ID2D1BorderTransform::SetExtendModeX
+title: ID2D1BorderTransform::SetExtendModeX (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the extend mode in the x direction.
 old-location: direct2d\id2d1bordertransform_setextendmodex.htm

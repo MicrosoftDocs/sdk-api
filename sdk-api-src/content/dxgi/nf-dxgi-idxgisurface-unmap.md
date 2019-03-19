@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISurface.Unmap
-title: IDXGISurface::Unmap
+title: IDXGISurface::Unmap (dxgi.h)
 author: windows-sdk-content
 description: Invalidate the pointer to the surface retrieved by IDXGISurface::Map and re-enable GPU access to the resource.
 old-location: direct3ddxgi\idxgisurface_unmap.htm

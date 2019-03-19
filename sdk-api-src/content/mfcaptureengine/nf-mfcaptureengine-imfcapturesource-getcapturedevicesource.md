@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCaptureDeviceSource
-title: IMFCaptureSource::GetCaptureDeviceSource
+title: IMFCaptureSource::GetCaptureDeviceSource (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the current capture device's IMFMediaSource object pointer.
 old-location: mf\imfcapturesource_getcapturedevicesource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupOpenAppendInfFileW
-title: SetupOpenAppendInfFileW function
+title: SetupOpenAppendInfFileW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile.
 old-location: setup\setupopenappendinffile.htm

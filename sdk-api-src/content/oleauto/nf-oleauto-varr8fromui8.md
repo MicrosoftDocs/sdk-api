@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR8FromUI8
-title: VarR8FromUI8 function
+title: VarR8FromUI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an 8-byte unsigned integer value to a double value.
 old-location: automat\varr8fromui8.htm

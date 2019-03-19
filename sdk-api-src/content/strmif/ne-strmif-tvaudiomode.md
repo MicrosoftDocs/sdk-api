@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagTVAudioMode
-title: TVAudioMode
+title: TVAudioMode (strmif.h)
 author: windows-sdk-content
 description: Specifies the mode of a TV audio control.
 old-location: dshow\tvaudiomode.htm

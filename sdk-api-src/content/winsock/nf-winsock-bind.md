@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.bind
-title: bind function
+title: bind function (winsock.h)
 author: windows-sdk-content
 description: The bind function associates a local address with a socket.
 old-location: winsock\bind_2.htm

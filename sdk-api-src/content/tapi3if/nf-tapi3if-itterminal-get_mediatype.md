@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_MediaType
-title: ITTerminal::get_MediaType
+title: ITTerminal::get_MediaType (tapi3if.h)
 author: windows-sdk-content
 description: The get_MediaType method determines the media that this terminal supports.
 old-location: tapi3\itterminal_get_mediatype.htm

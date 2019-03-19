@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IAssocHandlerInvoker
-title: IAssocHandlerInvoker
+title: IAssocHandlerInvoker (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that invoke an associated application handler.
 old-location: shell\IAssocHandlerInvoker.htm

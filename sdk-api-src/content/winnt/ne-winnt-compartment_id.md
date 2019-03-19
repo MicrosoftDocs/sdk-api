@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt.__unnamed_enum_0
-title: COMPARTMENT_ID
+title: COMPARTMENT_ID (winnt.h)
 author: windows-sdk-content
 description: The COMPARTMENT_ID enumeration indicates the network routing compartment identifier.
 old-location: kernel\compartment_id.htm

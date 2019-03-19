@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.GetProfile
-title: ITfInputProcessorProfileMgr::GetProfile
+title: ITfInputProcessorProfileMgr::GetProfile (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::GetProfile method returns the information of the specified text service's profile or keyboard layout in TF_INPUTPROCESSORPROFILE structure.
 old-location: tsf\itfinputprocessorprofilemgr_getprofile.htm

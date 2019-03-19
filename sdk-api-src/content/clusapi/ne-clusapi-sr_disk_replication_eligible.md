@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi._SR_DISK_REPLICATION_ELIGIBLE
-title: SR_DISK_REPLICATION_ELIGIBLE
+title: SR_DISK_REPLICATION_ELIGIBLE (clusapi.h)
 author: windows-sdk-content
 description: Specifies the various reasons a disk on a cluster node can be eligible or ineligible for replication.
 old-location: mscs\sr_disk_replication_eligible.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSaveJob
-title: IMFSaveJob
+title: IMFSaveJob (mfidl.h)
 author: windows-sdk-content
 description: Persists media data from a source byte stream to an application-provided byte stream.
 old-location: mf\imfsavejob.htm

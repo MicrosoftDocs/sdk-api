@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagANIMATIONINFO
-title: ANIMATIONINFO
+title: ANIMATIONINFO (winuser.h)
 author: windows-sdk-content
 description: Describes the animation effects associated with user actions.
 old-location: winmsg\animationinfo_str.htm

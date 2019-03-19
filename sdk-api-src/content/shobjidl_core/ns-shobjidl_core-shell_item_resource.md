@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.SHELL_ITEM_RESOURCE
-title: SHELL_ITEM_RESOURCE
+title: SHELL_ITEM_RESOURCE (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines Shell item resource.
 old-location: shell\SHELL_ITEM_RESOURCE.htm

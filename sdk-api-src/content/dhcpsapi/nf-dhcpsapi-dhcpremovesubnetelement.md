@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveSubnetElement
-title: DhcpRemoveSubnetElement function
+title: DhcpRemoveSubnetElement function (dhcpsapi.h)
 author: windows-sdk-content
 description: Removes an IPv4 subnet element from an IPv4 subnet defined on the DHCPv4 server.
 old-location: dhcp\dhcpremovesubnetelement.htm

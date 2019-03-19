@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHGetItemFromObject
-title: SHGetItemFromObject function
+title: SHGetItemFromObject function (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves an IShellItem for an object.
 old-location: shell\SHGetItemFromObject.htm

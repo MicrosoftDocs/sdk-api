@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DDCOMPBUFFERINFO
-title: DDCOMPBUFFERINFO
+title: DDCOMPBUFFERINFO (ddrawint.h)
 author: windows-sdk-content
 description: The DDCOMPBUFFERINFO structure contains driver-supplied information regarding compression buffers.
 old-location: display\ddcompbufferinfo.htm

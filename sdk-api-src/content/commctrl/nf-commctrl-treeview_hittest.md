@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_HitTest
-title: TreeView_HitTest macro
+title: TreeView_HitTest macro (commctrl.h)
 author: windows-sdk-content
 description: Determines the location of the specified point relative to the client area of a tree-view control. You can use this macro or send the TVM_HITTEST message explicitly.
 old-location: controls\TreeView_HitTest.htm

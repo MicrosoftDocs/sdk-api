@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetDrawingEffect
-title: IDWriteTextLayout::SetDrawingEffect
+title: IDWriteTextLayout::SetDrawingEffect (dwrite.h)
 author: windows-sdk-content
 description: Sets the application-defined drawing effect.
 old-location: directwrite\IDWriteTextLayout_SetDrawingEffect.htm

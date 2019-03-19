@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._EXPLICIT_ACCESS_A
-title: EXPLICIT_ACCESS_A
+title: EXPLICIT_ACCESS_A (accctrl.h)
 author: windows-sdk-content
 description: Defines access control information for a specified trustee.
 old-location: security\explicit_access.htm

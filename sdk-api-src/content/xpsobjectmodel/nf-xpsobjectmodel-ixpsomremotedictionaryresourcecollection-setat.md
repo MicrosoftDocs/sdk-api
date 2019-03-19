@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.SetAt
-title: IXpsOMRemoteDictionaryResourceCollection::SetAt
+title: IXpsOMRemoteDictionaryResourceCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMRemoteDictionaryResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_setat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_SP3_COMPATIBLE_AUX_INFO
-title: CMSG_SP3_COMPATIBLE_AUX_INFO
+title: CMSG_SP3_COMPATIBLE_AUX_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information needed for SP3 compatible encryption.
 old-location: security\cmsg_sp3_compatible_aux_info.htm

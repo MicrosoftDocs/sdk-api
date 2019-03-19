@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.UserHandleGrantAccess
-title: UserHandleGrantAccess function
+title: UserHandleGrantAccess function (winuser.h)
 author: windows-sdk-content
 description: Grants or denies access to a handle to a User object to a job that has a user-interface restriction.
 old-location: base\userhandlegrantaccess.htm

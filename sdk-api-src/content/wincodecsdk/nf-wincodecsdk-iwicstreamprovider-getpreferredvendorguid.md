@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetPreferredVendorGUID
-title: IWICStreamProvider::GetPreferredVendorGUID
+title: IWICStreamProvider::GetPreferredVendorGUID (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the preferred vendor GUID.
 old-location: wic\_wic_codec_iwicstreamprovider_getpreferredvendorguid.htm

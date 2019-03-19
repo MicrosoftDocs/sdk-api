@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_CAP_STYLE
-title: D2D1_CAP_STYLE
+title: D2D1_CAP_STYLE (d2d1.h)
 author: windows-sdk-content
 description: Describes the shape at the end of a line or segment.
 old-location: direct2d\D2D1_CAP_STYLE.htm

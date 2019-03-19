@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_Length
-title: IX509PublicKey::get_Length
+title: IX509PublicKey::get_Length (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the length of the public key.
 old-location: security\ix509publickey_length_property.htm

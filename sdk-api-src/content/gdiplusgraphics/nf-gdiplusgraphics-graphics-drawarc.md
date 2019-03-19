@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawArc
-title: Graphics::DrawArc
+title: Graphics::DrawArc (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the DrawArc methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawArc_Methods.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.IsInBandEnabled
-title: IMFTimedText::IsInBandEnabled
+title: IMFTimedText::IsInBandEnabled (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether inband mode is enabled.
 old-location: mf\imftimedtext_isinbandenabled.htm

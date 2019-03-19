@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.SetBuffer
-title: IAudioDeviceEndpoint::SetBuffer
+title: IAudioDeviceEndpoint::SetBuffer (audioengineendpoint.h)
 author: windows-sdk-content
 description: Initializes the endpoint and creates a buffer based on the format of the endpoint into which the audio data is streamed.
 old-location: termserv\iaudiodeviceendpoint_setbuffer.htm

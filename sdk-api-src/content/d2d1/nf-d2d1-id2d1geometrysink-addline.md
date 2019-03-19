@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddLine
-title: ID2D1GeometrySink::AddLine
+title: ID2D1GeometrySink::AddLine (d2d1.h)
 author: windows-sdk-content
 description: Creates a line segment between the current point and the specified end point and adds it to the geometry sink.
 old-location: direct2d\ID2D1GeometrySink_AddLine.htm

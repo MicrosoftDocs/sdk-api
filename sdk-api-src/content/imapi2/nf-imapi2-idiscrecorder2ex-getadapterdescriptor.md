@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetAdapterDescriptor
-title: IDiscRecorder2Ex::GetAdapterDescriptor
+title: IDiscRecorder2Ex::GetAdapterDescriptor (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the adapter descriptor for the device.
 old-location: imapi\idiscrecorder2ex_getadapterdescriptor.htm

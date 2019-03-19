@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetRootStorage
-title: IMDSPStorageGlobals::GetRootStorage
+title: IMDSPStorageGlobals::GetRootStorage (mswmdm.h)
 author: windows-sdk-content
 description: The GetRootStorage method retrieves a pointer to the IMDSPStorage interface for the root storage of the storage medium.
 old-location: wmdm\imdspstorageglobals_getrootstorage.htm

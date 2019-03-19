@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorCallback
-title: IMFVideoSampleAllocatorCallback
+title: IMFVideoSampleAllocatorCallback (mfidl.h)
 author: windows-sdk-content
 description: Enables an application to track video samples allocated by the enhanced video renderer (EVR).
 old-location: mf\imfvideosampleallocatorcallback.htm

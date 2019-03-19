@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ShowWindow
-title: ShowWindow function
+title: ShowWindow function (winuser.h)
 author: windows-sdk-content
 description: Sets the specified window's show state.
 old-location: winmsg\showwindow.htm

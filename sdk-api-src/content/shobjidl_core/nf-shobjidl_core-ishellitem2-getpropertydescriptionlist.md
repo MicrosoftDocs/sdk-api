@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetPropertyDescriptionList
-title: IShellItem2::GetPropertyDescriptionList
+title: IShellItem2::GetPropertyDescriptionList (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a property description list object given a reference to a property key.
 old-location: shell\IShellItem2_GetPropertyDescriptionList.htm

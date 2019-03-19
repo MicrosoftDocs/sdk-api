@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ProviderProperties
-title: IOCSPCAConfiguration::get_ProviderProperties
+title: IOCSPCAConfiguration::get_ProviderProperties (certadm.h)
 author: windows-sdk-content
 description: Gets or sets information that provides certificate status responses.
 old-location: security\iocspcaconfiguration_providerproperties_method.htm

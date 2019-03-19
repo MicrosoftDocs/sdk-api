@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capCaptureSingleFrameOpen
-title: capCaptureSingleFrameOpen macro
+title: capCaptureSingleFrameOpen macro (vfw.h)
 author: windows-sdk-content
 description: The capCaptureSingleFrameOpen macro opens the capture file for single-frame capturing. Any previous information in the capture file is overwritten. You can use this macro or explicitly send the WM_CAP_SINGLE_FRAME_OPEN message.
 old-location: multimedia\capcapturesingleframeopen.htm

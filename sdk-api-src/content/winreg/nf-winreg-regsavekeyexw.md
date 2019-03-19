@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegSaveKeyExW
-title: RegSaveKeyExW function
+title: RegSaveKeyExW function (winreg.h)
 author: windows-sdk-content
 description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
 old-location: base\regsavekeyex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:lmdfs.NetDfsMove
-title: NetDfsMove function
+title: NetDfsMove function (lmdfs.h)
 author: windows-sdk-content
 description: Renames or moves a DFS link.
 old-location: dfs\netdfsmove.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetSyncBatchParameters
-title: IKnowledgeSyncProvider::GetSyncBatchParameters
+title: IKnowledgeSyncProvider::GetSyncBatchParameters (winsync.h)
 author: windows-sdk-content
 description: Gets the requested number of item changes that will be included in change batches, and the current knowledge for the synchronization scope.
 old-location: winsync\iknowledgesyncprovider_getsyncbatchparameters.htm

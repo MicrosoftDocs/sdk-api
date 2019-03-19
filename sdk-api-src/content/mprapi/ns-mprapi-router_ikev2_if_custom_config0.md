@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._ROUTER_IKEv2_IF_CUSTOM_CONFIG0
-title: ROUTER_IKEv2_IF_CUSTOM_CONFIG0
+title: ROUTER_IKEv2_IF_CUSTOM_CONFIG0 (mprapi.h)
 author: windows-sdk-content
 description: Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces.
 old-location: rras\router_ikev2_if_custom_config0.htm

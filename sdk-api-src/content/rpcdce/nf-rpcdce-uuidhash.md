@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.UuidHash
-title: UuidHash function
+title: UuidHash function (rpcdce.h)
 author: windows-sdk-content
 description: An application calls the UuidHash function to generate a hash value for a specified UUID.
 old-location: rpc\uuidhash.htm

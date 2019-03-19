@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.PlaceMarker
-title: IMFSinkWriter::PlaceMarker
+title: IMFSinkWriter::PlaceMarker (mfreadwrite.h)
 author: windows-sdk-content
 description: Places a marker in the specified stream.
 old-location: mf\imfsinkwriter_placemarker.htm

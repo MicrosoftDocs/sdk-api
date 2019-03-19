@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.operator-assign
-title: CharacterRange::operator-assign
+title: CharacterRange::operator-assign (gdiplustypes.h)
 author: windows-sdk-content
 description: The CharacterRange::operator= method sets this CharacterRange object equal to the specified CharacterRange object.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_operator_rhs_.htm

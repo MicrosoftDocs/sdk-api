@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateWindowStationA
-title: CreateWindowStationA function
+title: CreateWindowStationA function (winuser.h)
 author: windows-sdk-content
 description: Creates a window station object, associates it with the calling process, and assigns it to the current session.
 old-location: winstation\createwindowstation.htm

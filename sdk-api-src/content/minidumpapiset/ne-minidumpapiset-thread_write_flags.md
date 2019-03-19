@@ -1,6 +1,6 @@
 ---
 UID: NE:minidumpapiset._THREAD_WRITE_FLAGS
-title: THREAD_WRITE_FLAGS
+title: THREAD_WRITE_FLAGS (minidumpapiset.h)
 author: windows-sdk-content
 description: Identifies the type of thread information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\thread_write_flags.htm

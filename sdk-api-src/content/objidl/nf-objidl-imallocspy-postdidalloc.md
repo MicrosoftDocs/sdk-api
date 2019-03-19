@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PostDidAlloc
-title: IMallocSpy::PostDidAlloc
+title: IMallocSpy::PostDidAlloc (objidl.h)
 author: windows-sdk-content
 description: Performs operations required after calling IMalloc::DidAlloc.
 old-location: com\imallocspy_postdidalloc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxActivity.get_OutgoingMessages
-title: IFaxActivity::get_OutgoingMessages
+title: IFaxActivity::get_OutgoingMessages (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivity::get_OutgoingMessages property is a number that represents the total number of outgoing fax jobs that the fax service is in the process of sending.
 old-location: fax\_mfax_faxactivity_cpp_mfax_faxactivity_outgoingmessages_cpp.htm

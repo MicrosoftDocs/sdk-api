@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_LOCK_STATUSW
-title: QUERY_SERVICE_LOCK_STATUSW
+title: QUERY_SERVICE_LOCK_STATUSW (winsvc.h)
 author: windows-sdk-content
 description: Contains information about the lock status of a service control manager database. It is used by the QueryServiceLockStatus function.
 old-location: base\query_service_lock_status_str.htm

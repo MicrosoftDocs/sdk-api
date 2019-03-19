@@ -1,6 +1,6 @@
 ---
 UID: NS:netfw._INET_FIREWALL_AC_CHANGE
-title: INET_FIREWALL_AC_CHANGE
+title: INET_FIREWALL_AC_CHANGE (netfw.h)
 author: windows-sdk-content
 description: Contains information about a change made to an app container.
 old-location: ics\inet_firewall_ac_change.htm

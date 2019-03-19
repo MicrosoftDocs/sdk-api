@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Descender
-title: IInkRecognitionAlternate::get_Descender
+title: IInkRecognitionAlternate::get_Descender (msinkaut.h)
 author: windows-sdk-content
 description: Gets the decender line for an IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_descender.htm

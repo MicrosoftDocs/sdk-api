@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetStreamByNumber
-title: IWMProfile::GetStreamByNumber
+title: IWMProfile::GetStreamByNumber (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamByNumber method retrieves a stream from the profile.
 old-location: wmformat\iwmprofile_getstreambynumber.htm

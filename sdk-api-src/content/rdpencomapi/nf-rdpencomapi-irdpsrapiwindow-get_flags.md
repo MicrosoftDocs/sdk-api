@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Flags
-title: IRDPSRAPIWindow::get_Flags
+title: IRDPSRAPIWindow::get_Flags (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns the flags on the current window.
 old-location: rdp\irdpsrapiwindow_flags.htm

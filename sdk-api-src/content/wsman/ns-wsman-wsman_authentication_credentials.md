@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_AUTHENTICATION_CREDENTIALS
-title: WSMAN_AUTHENTICATION_CREDENTIALS
+title: WSMAN_AUTHENTICATION_CREDENTIALS (wsman.h)
 author: windows-sdk-content
 description: Defines the authentication method and the credentials used for server or proxy authentication.
 old-location: winrm\wsman_authentication_credentials.htm

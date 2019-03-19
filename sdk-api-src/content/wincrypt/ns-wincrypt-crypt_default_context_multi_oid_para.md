@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
-title: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
+title: CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Used with the CryptInstallDefaultContext function to contain an array of object identifier strings.
 old-location: security\crypt_default_context_multi_oid_para.htm

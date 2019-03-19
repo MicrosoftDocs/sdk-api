@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.Clone
-title: FontFamily::Clone
+title: FontFamily::Clone (gdiplusheaders.h)
 author: windows-sdk-content
 description: The FontFamily::Clone method creates a new FontFamily object based on this FontFamily object.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Clone_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRateSupport.GetSlowestRate
-title: IMFRateSupport::GetSlowestRate
+title: IMFRateSupport::GetSlowestRate (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the slowest playback rate supported by the object.
 old-location: mf\imfratesupport_getslowestrate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteStartCData
-title: WsWriteStartCData function
+title: WsWriteStartCData function (webservices.h)
 author: windows-sdk-content
 description: This operation starts a CDATA section in the writer.
 old-location: wsw\wswritestartcdata.htm

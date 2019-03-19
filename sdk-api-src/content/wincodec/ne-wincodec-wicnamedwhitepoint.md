@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICNamedWhitePoint
-title: WICNamedWhitePoint
+title: WICNamedWhitePoint (wincodec.h)
 author: windows-sdk-content
 description: Specifies named white balances for raw images.
 old-location: wic\_wic_codec_wicnamedwhitepoint.htm

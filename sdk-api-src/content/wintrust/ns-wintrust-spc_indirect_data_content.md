@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._SPC_INDIRECT_DATA_CONTENT
-title: SPC_INDIRECT_DATA_CONTENT
+title: SPC_INDIRECT_DATA_CONTENT (wintrust.h)
 author: windows-sdk-content
 description: Is used in Authenticode signatures to store the digest and other attributes of the signed file.
 old-location: security\spc_indirect_data_content.htm

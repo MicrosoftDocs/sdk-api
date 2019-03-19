@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyProcessInput
-title: IMFQualityManager::NotifyProcessInput
+title: IMFQualityManager::NotifyProcessInput (mfidl.h)
 author: windows-sdk-content
 description: Called when the media processor is about to deliver an input sample to a pipeline component.
 old-location: mf\imfqualitymanager_notifyprocessinput.htm

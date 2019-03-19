@@ -1,6 +1,6 @@
 ---
 UID: NC:commdlg.LPPAGESETUPHOOK
-title: LPPAGESETUPHOOK
+title: LPPAGESETUPHOOK (commdlg.h)
 author: windows-sdk-content
 description: Receives messages or notifications intended for the default dialog box procedure of the Page Setup dialog box. The PageSetupHook hook procedure is an application-defined or library-defined callback function used with the PageSetupDlg function.
 old-location: dlgbox\pagesetuphook.htm

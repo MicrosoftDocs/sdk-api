@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2NotEqualInt
-title: XMVector2NotEqualInt function
+title: XMVector2NotEqualInt function (directxmath.h)
 author: windows-sdk-content
 description: Test whether two vectors are not equal, treating each component as an unsigned integer.
 old-location: dxmath\xmvector2notequalint.htm

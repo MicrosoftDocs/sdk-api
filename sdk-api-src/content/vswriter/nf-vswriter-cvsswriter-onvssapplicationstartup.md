@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnVSSApplicationStartup
-title: CVssWriter::OnVSSApplicationStartup
+title: CVssWriter::OnVSSApplicationStartup (vswriter.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_onvssapplicationstartup.htm

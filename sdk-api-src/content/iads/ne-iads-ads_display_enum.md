@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0003
-title: ADS_DISPLAY_ENUM
+title: ADS_DISPLAY_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADS_DISPLAY_ENUM enumeration specifies how a path is to be displayed.
 old-location: adsi\ads_display_enum.htm

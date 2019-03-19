@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathAllocCombine
-title: PathAllocCombine function
+title: PathAllocCombine function (pathcch.h)
 author: windows-sdk-content
 description: Concatenates two path fragments into a single path.
 old-location: shell\PathAllocCombine.htm

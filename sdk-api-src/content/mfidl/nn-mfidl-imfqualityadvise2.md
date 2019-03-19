@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFQualityAdvise2
-title: IMFQualityAdvise2
+title: IMFQualityAdvise2 (mfidl.h)
 author: windows-sdk-content
 description: Enables a pipeline object to adjust its own audio or video quality, in response to quality messages.
 old-location: mf\imfqualityadvise2.htm

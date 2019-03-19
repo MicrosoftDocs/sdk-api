@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISupportLastWriteTime.GetItemChangeTime
-title: ISupportLastWriteTime::GetItemChangeTime
+title: ISupportLastWriteTime::GetItemChangeTime (winsync.h)
 author: windows-sdk-content
 description: Gets the date and time when the specified item was last changed.
 old-location: winsync\isupportlastwritetime_getitemchangetime.htm

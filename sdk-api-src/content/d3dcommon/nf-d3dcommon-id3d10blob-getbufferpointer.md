@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcommon.ID3D10Blob.GetBufferPointer
-title: ID3D10Blob::GetBufferPointer
+title: ID3D10Blob::GetBufferPointer (d3dcommon.h)
 author: windows-sdk-content
 description: Gets a pointer to the data.
 old-location: direct3d11\id3d10blob_getbufferpointer.htm

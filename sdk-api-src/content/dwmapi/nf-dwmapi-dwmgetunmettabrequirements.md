@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmGetUnmetTabRequirements
-title: DwmGetUnmetTabRequirements function
+title: DwmGetUnmetTabRequirements function (dwmapi.h)
 author: windows-sdk-content
 description: Note  This function is publically available, but nonfunctional, for Windows 10, version 1803.Checks the requirements needed to get tabs in the application title bar for the specified window.
 old-location: dwm\dwmgetunmettabrequirements.htm

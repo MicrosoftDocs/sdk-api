@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_PROPERTY_SPPAL
-title: AM_PROPERTY_SPPAL
+title: AM_PROPERTY_SPPAL (dvdmedia.h)
 author: windows-sdk-content
 description: Specifies the DVD subpicture palette.
 old-location: dshow\am_property_sppal.htm

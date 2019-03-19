@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPngBkgdProperties
-title: WICPngBkgdProperties
+title: WICPngBkgdProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) background (bKGD) chunk metadata properties.
 old-location: wic\_wic_codec_wicpngbkgdproperties.htm

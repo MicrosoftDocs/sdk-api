@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_SID_TYPE
-title: EVT_CHANNEL_SID_TYPE
+title: EVT_CHANNEL_SID_TYPE (winevt.h)
 author: windows-sdk-content
 description: Defines the values that determine whether the event includes the security identifier (SID) of the principal that logged the event.
 old-location: wes\evt_channel_sid_type.htm

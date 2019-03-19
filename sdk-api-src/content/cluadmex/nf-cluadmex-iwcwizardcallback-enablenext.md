@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWCWizardCallback.EnableNext
-title: IWCWizardCallback::EnableNext
+title: IWCWizardCallback::EnableNext (cluadmex.h)
 author: windows-sdk-content
 description: Enables or disables the Next or Finish button on a Failover Cluster Administrator Wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizardcallback_enablenext.htm

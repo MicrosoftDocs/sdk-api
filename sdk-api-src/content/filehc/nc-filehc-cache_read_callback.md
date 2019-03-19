@@ -1,6 +1,6 @@
 ---
 UID: NC:filehc.CACHE_READ_CALLBACK
-title: CACHE_READ_CALLBACK
+title: CACHE_READ_CALLBACK (filehc.h)
 author: windows-sdk-content
 description: A callback that is provided to the cache to help examine items within the cache.
 old-location: winprog\fcache_read_callback.htm

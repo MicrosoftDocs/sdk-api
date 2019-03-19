@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.Open
-title: IOleDocumentView::Open
+title: IOleDocumentView::Open (docobj.h)
 author: windows-sdk-content
 description: Displays a document view in a separate pop-up window. The semantics are equivalent to IOleObject::DoVerb with OLEIVERB_OPEN.
 old-location: com\ioledocumentview_open.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOCollection.get_Item
-title: IGPMStarterGPOCollection::get_Item
+title: IGPMStarterGPOCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a pointer to an IGPMGPO interface from the collection.
 old-location: gpmc\igpmstartergpocollection_get_item.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsWddmIddProps.GetHardwareId
-title: IWRdsWddmIddProps::GetHardwareId
+title: IWRdsWddmIddProps::GetHardwareId (wtsprotocol.h)
 author: windows-sdk-content
 description: Protocol stack uses this method to return hardware Id of WDDM ID driver.
 old-location: termserv\iwrdswddmiddprops_gethardwareid.htm

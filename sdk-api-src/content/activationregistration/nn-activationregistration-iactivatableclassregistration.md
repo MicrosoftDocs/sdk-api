@@ -1,6 +1,6 @@
 ---
 UID: NN:activationregistration.IActivatableClassRegistration
-title: IActivatableClassRegistration
+title: IActivatableClassRegistration (activationregistration.h)
 author: windows-sdk-content
 description: Enables getting the registration info for a class.
 old-location: winrt\iactivatableclassregistration.htm

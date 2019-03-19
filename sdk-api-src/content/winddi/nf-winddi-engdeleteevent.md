@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteEvent
-title: EngDeleteEvent function
+title: EngDeleteEvent function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteEvent function deletes the specified event object.
 old-location: display\engdeleteevent.htm

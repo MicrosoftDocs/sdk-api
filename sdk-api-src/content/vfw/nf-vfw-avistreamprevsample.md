@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamPrevSample
-title: AVIStreamPrevSample macro
+title: AVIStreamPrevSample macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamPrevSample macro locates the nearest nonempty sample that precedes a specified position in a stream.
 old-location: multimedia\avistreamprevsample.htm

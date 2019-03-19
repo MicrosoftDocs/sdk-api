@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetDuplicate2
-title: ITextFont2::SetDuplicate2
+title: ITextFont2::SetDuplicate2 (tom.h)
 author: windows-sdk-content
 description: Sets the properties of this object by copying the properties of another text font object.
 old-location: controls\itextfont2_setduplicate2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.AuthenticateClientToSession
-title: IWRdsProtocolConnection::AuthenticateClientToSession
+title: IWRdsProtocolConnection::AuthenticateClientToSession (wtsprotocol.h)
 author: windows-sdk-content
 description: Specifies a session that the connection should be reconnected to.
 old-location: termserv\iwrdsprotocolconnection_authenticateclienttosession.htm

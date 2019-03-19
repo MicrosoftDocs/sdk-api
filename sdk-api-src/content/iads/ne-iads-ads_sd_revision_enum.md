@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0006
-title: ADS_SD_REVISION_ENUM
+title: ADS_SD_REVISION_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies the revision number of the access-control entry (ACE), or the access-control list (ACL), for Active Directory.
 old-location: adsi\ads_sd_revision_enum.htm

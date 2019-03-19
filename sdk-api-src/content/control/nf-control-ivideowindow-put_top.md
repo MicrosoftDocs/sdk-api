@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_Top
-title: IVideoWindow::put_Top
+title: IVideoWindow::put_Top (control.h)
 author: windows-sdk-content
 description: The put_Top method specifies the y-coordinate of the video window.
 old-location: dshow\ivideowindow_put_top.htm

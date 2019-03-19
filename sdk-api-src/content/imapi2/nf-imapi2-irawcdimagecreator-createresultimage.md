@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.CreateResultImage
-title: IRawCDImageCreator::CreateResultImage
+title: IRawCDImageCreator::CreateResultImage (imapi2.h)
 author: windows-sdk-content
 description: Creates the final IStream object based on the current settings.
 old-location: imapi\irawcdimagecreator_createresultimage.htm

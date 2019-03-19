@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.get_Name
-title: ITPluggableTerminalSuperclassRegistration::get_Name
+title: ITPluggableTerminalSuperclassRegistration::get_Name (termmgr.h)
 author: windows-sdk-content
 description: The get_Name method gets the friendly name for the terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_name.htm

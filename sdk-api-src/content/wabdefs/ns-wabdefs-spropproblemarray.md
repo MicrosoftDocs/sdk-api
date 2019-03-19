@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SPropProblemArray
-title: SPropProblemArray
+title: SPropProblemArray (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Contains an array of one or more SPropProblem structures.
 old-location: wab\_wab_SPropProblemArray.htm

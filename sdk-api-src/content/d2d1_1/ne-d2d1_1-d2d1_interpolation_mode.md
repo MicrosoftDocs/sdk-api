@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_INTERPOLATION_MODE
-title: D2D1_INTERPOLATION_MODE
+title: D2D1_INTERPOLATION_MODE (d2d1_1.h)
 author: windows-sdk-content
 description: This is used to specify the quality of image scaling with ID2D1DeviceContext::DrawImage and with the 2D affine transform effect.
 old-location: direct2d\__d2d1_image_interpolation_mode.htm

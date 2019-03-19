@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoKeypadTones
-title: ITAutomatedPhoneControl::get_AutoKeypadTones
+title: ITAutomatedPhoneControl::get_AutoKeypadTones (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoKeypadTones method gets the AutoKeypadTones property for this phone. When this feature is enabled, a digit tone is automatically played whenever a keypad button is pressed.
 old-location: tapi3\itautomatedphonecontrol_get_autokeypadtones.htm

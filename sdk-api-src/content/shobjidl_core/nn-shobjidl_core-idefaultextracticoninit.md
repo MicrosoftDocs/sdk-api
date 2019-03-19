@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDefaultExtractIconInit
-title: IDefaultExtractIconInit
+title: IDefaultExtractIconInit (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods to set default icons associated with an object.
 old-location: shell\IDefaultExtractIconInit.htm

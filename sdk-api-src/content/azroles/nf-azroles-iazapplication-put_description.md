@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_Description
-title: IAzApplication::put_Description
+title: IAzApplication::put_Description (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves a comment that describes the application.
 old-location: security\iazapplication_description.htm

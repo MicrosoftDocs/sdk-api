@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPPlayState
-title: WMPPlayState
+title: WMPPlayState (wmp.h)
 author: windows-sdk-content
 description: The WMPPlayState enumeration type defines the possible operational states of Windows Media Player as it plays a digital media file.
 old-location: wmp\wmpplaystate.htm

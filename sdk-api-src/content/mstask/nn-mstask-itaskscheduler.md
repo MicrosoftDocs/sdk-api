@@ -1,6 +1,6 @@
 ---
 UID: NN:mstask.ITaskScheduler
-title: ITaskScheduler
+title: ITaskScheduler (mstask.h)
 author: windows-sdk-content
 description: Provides the methods for scheduling tasks.
 old-location: taskschd\itaskscheduler.htm

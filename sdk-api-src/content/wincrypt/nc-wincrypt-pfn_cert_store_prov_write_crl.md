@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_WRITE_CRL
-title: PFN_CERT_STORE_PROV_WRITE_CRL
+title: PFN_CERT_STORE_PROV_WRITE_CRL (wincrypt.h)
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertAddEncodedCRLToStore, CertAddCRLContextToStore and CertAddSerializedElementToStore before adding to the store.
 old-location: security\certstoreprovwritecrlcallback.htm

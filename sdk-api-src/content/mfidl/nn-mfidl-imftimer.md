@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTimer
-title: IMFTimer
+title: IMFTimer (mfidl.h)
 author: windows-sdk-content
 description: Provides a timer that invokes a callback at a specified time.
 old-location: mf\imftimer.htm

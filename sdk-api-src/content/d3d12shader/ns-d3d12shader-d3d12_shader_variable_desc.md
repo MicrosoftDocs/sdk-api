@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12shader._D3D12_SHADER_VARIABLE_DESC
-title: D3D12_SHADER_VARIABLE_DESC
+title: D3D12_SHADER_VARIABLE_DESC (d3d12shader.h)
 author: windows-sdk-content
 description: Describes a shader variable.
 old-location: direct3d12\d3d12_shader_variable_desc.htm

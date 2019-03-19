@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_EncryptedKeyHash
-title: IX509CertificateRequestCmc::get_EncryptedKeyHash
+title: IX509CertificateRequestCmc::get_EncryptedKeyHash (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a hash of the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptedkeyhash_property.htm

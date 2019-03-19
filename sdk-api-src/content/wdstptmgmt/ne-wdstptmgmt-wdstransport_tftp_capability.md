@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0012
-title: WDSTRANSPORT_TFTP_CAPABILITY
+title: WDSTRANSPORT_TFTP_CAPABILITY (wdstptmgmt.h)
 author: windows-sdk-content
 description: Indicates which features are supported by the WDS TFTP server.
 old-location: wds\wdstransport_tftp_capability.htm

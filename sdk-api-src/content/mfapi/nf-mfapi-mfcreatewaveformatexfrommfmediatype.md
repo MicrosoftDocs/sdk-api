@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateWaveFormatExFromMFMediaType
-title: MFCreateWaveFormatExFromMFMediaType function
+title: MFCreateWaveFormatExFromMFMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Converts a Media Foundation audio media type to a WAVEFORMATEX structure.
 old-location: mf\mfcreatewaveformatexfrommfmediatype.htm

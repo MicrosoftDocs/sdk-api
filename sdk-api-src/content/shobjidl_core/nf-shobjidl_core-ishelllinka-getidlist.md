@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetIDList
-title: IShellLinkA::GetIDList
+title: IShellLinkA::GetIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the list of item identifiers for the target of a Shell link object.
 old-location: shell\IShellLink_GetIDList.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_HResult
-title: IUpdateHistoryEntry::get_HResult
+title: IUpdateHistoryEntry::get_HResult (wuapi.h)
 author: windows-sdk-content
 description: Gets the HRESULT value that is returned from the operation on an update.
 old-location: wua\iupdatehistoryentry_hresult.htm

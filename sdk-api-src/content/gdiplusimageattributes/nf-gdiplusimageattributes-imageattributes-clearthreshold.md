@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearThreshold
-title: ImageAttributes::ClearThreshold
+title: ImageAttributes::ClearThreshold (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::ClearThreshold method clears the threshold value for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearThreshold_type_.htm

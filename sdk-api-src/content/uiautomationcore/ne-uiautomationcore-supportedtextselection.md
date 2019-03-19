@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.SupportedTextSelection
-title: SupportedTextSelection
+title: SupportedTextSelection (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the supported text selection attribute.
 old-location: winauto\uiauto_SupportedTextSelectionEnum.htm

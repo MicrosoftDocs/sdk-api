@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_State
-title: ITsSbSession::put_State
+title: ITsSbSession::put_State (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the session state.
 old-location: termserv\itssbsession_state.htm

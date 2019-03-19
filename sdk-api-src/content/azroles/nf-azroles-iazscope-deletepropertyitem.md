@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.DeletePropertyItem
-title: IAzScope::DeletePropertyItem
+title: IAzScope::DeletePropertyItem (azroles.h)
 author: windows-sdk-content
 description: Removes the specified principal from the specified list of principals.
 old-location: security\iazscope_deletepropertyitem.htm

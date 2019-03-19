@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
-title: IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
+title: IDirectManipulationCompositor2::AddContentWithCrossProcessChaining (directmanipulation.h)
 author: windows-sdk-content
 description: Associates content (owned by the component host) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor2_addcontentwithcrossprocesschaining.htm

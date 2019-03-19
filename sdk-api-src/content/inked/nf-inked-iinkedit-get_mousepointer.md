@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_MousePointer
-title: IInkEdit::get_MousePointer
+title: IInkEdit::get_MousePointer (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value indicating the type of mouse pointer to be displayed.
 old-location: tablet\inkedit_mousepointer.htm

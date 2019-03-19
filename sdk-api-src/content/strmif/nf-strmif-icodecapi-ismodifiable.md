@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.IsModifiable
-title: ICodecAPI::IsModifiable
+title: ICodecAPI::IsModifiable (strmif.h)
 author: windows-sdk-content
 description: The IsModifiable method queries whether a codec property can be changed, given the codec's current configuration.
 old-location: dshow\icodecapi_ismodifiable.htm

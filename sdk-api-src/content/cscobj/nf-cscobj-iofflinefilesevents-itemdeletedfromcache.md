@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemDeletedFromCache
-title: IOfflineFilesEvents::ItemDeletedFromCache
+title: IOfflineFilesEvents::ItemDeletedFromCache (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item has been removed from the Offline Files cache.
 old-location: of\iofflinefilesevents_itemdeletedfromcache.htm

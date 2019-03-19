@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_TIME_STAMP_REQUEST_INFO
-title: CRYPT_TIME_STAMP_REQUEST_INFO
+title: CRYPT_TIME_STAMP_REQUEST_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Used for time stamping.
 old-location: security\crypt_time_stamp_request_info.htm

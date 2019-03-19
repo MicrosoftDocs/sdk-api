@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetGroupCount
-title: ListView_GetGroupCount macro
+title: ListView_GetGroupCount macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the number of groups. You can use this macro or send the LVM_GETGROUPCOUNT message explicitly.
 old-location: controls\ListView_GetGroupCount.htm

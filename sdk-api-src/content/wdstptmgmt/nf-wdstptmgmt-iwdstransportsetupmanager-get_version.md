@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.get_Version
-title: IWdsTransportSetupManager::get_Version
+title: IWdsTransportSetupManager::get_Version (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives a value that indicates the operating system version of the WDS server.
 old-location: wds\iwdstransportsetupmanager_version.htm

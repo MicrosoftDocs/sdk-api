@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIOBJECTATTRIBUTES
-title: DIOBJECTATTRIBUTES
+title: DIOBJECTATTRIBUTES (dinputd.h)
 author: windows-sdk-content
 description: The DIOBJECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each &#0034;object&#0034; on a device. If the &#0034;Attributes&#0034; value is absent, then default attributes are used.
 old-location: hid\diobjectattributes.htm

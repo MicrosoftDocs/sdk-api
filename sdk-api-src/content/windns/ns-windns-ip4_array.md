@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._IP4_ARRAY
-title: IP4_ARRAY
+title: IP4_ARRAY (windns.h)
 author: windows-sdk-content
 description: The IP4_ARRAY structure stores an array of IPv4 addresses.
 old-location: dns\ip4_array.htm

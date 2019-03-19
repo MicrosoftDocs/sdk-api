@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Skip
-title: IEnumTfLanguageProfiles::Skip
+title: IEnumTfLanguageProfiles::Skip (msctf.h)
 author: windows-sdk-content
 description: IEnumTfLanguageProfiles::Skip method
 old-location: tsf\ienumtflanguageprofiles_skip.htm

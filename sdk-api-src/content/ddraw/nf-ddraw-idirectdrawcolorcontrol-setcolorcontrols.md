@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.SetColorControls
-title: IDirectDrawColorControl::SetColorControls
+title: IDirectDrawColorControl::SetColorControls (ddraw.h)
 author: windows-sdk-content
 description: Sets the color-control options for an overlay or a primary surface.
 old-location: directdraw\idirectdrawcolorcontrol_setcolorcontrols.htm

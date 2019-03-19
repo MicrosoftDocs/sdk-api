@@ -1,6 +1,6 @@
 ---
 UID: NE:functiondiscoveryapi.tagSystemVisibilityFlags
-title: SystemVisibilityFlags
+title: SystemVisibilityFlags (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Determines the visibility of the function instance's data.
 old-location: ncd\systemvisibilityflags_enum.htm

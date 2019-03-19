@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetCurrentPackageFamilyName
-title: GetCurrentPackageFamilyName function
+title: GetCurrentPackageFamilyName function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package family name for the calling process.
 old-location: appxpkg\getcurrentpackagefamilyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.GetCredentialsEx2
-title: IWMSInternalAdminNetSource3::GetCredentialsEx2
+title: IWMSInternalAdminNetSource3::GetCredentialsEx2 (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The GetCredentialsEx2 method retrieves a cached password. This improved version of IWMSInternalAdminNetSource2::GetCredentialsEx adds a flag (fClearTextAuthentication) that indicates whether credentials were sent in unencrypted form over the network.
 old-location: wmformat\iwmsinternaladminnetsource3_getcredentialsex2.htm

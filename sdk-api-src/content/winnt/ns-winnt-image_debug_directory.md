@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_DEBUG_DIRECTORY
-title: IMAGE_DEBUG_DIRECTORY
+title: IMAGE_DEBUG_DIRECTORY (winnt.h)
 author: windows-sdk-content
 description: Represents the debug directory format.
 old-location: base\image_debug_directory_str.htm

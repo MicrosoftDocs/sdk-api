@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IEnumNames.Skip
-title: IEnumNames::Skip
+title: IEnumNames::Skip (comsvcs.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: cos\ienumnames_skip.htm

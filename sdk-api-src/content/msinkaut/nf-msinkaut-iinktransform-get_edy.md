@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.get_eDy
-title: IInkTransform::get_eDy
+title: IInkTransform::get_eDy (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the element in the third row, second column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_edy.htm

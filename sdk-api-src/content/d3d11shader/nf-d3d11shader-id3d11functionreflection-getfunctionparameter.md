@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetFunctionParameter
-title: ID3D11FunctionReflection::GetFunctionParameter
+title: ID3D11FunctionReflection::GetFunctionParameter (d3d11shader.h)
 author: windows-sdk-content
 description: Gets the function parameter reflector.
 old-location: direct3d11\id3d11functionreflection_getfunctionparameter.htm

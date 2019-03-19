@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.DeleteProperty
-title: IOCSPPropertyCollection::DeleteProperty
+title: IOCSPPropertyCollection::DeleteProperty (certadm.h)
 author: windows-sdk-content
 description: Removes a named property from a property set.
 old-location: security\iocsppropertycollection_deleteproperty_method.htm

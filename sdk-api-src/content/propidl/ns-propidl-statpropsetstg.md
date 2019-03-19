@@ -1,6 +1,6 @@
 ---
 UID: NS:propidl.tagSTATPROPSETSTG
-title: STATPROPSETSTG
+title: STATPROPSETSTG (propidl.h)
 author: windows-sdk-content
 description: The STATPROPSETSTG structure contains information about a property set.
 old-location: stg\statpropsetstg.htm

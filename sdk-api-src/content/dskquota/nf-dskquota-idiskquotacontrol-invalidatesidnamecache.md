@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.InvalidateSidNameCache
-title: IDiskQuotaControl::InvalidateSidNameCache
+title: IDiskQuotaControl::InvalidateSidNameCache (dskquota.h)
 author: windows-sdk-content
 description: Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (IEnumDiskQuotaUsers::Next, IDiskQuotaControl::FindUserSid, and IDiskQuotaControl::FindUserName) must obtain user names from the domain controller.
 old-location: fs\idiskquotacontrol_invalidatesidnamecache.htm

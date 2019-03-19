@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.IsBadCodePtr
-title: IsBadCodePtr function
+title: IsBadCodePtr function (winbase.h)
 author: windows-sdk-content
 description: Determines whether the calling process has read access to the memory at the specified address.
 old-location: base\isbadcodeptr.htm

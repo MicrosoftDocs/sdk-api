@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_graph_scope_tag
-title: PEER_GRAPH_SCOPE
+title: PEER_GRAPH_SCOPE (p2p.h)
 author: windows-sdk-content
 description: The PEER_GRAPH_SCOPE enumeration specifies the network scope of a peer graph.
 old-location: p2p\peer_graph_scope.htm

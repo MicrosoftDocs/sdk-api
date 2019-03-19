@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamMediaType
-title: MFCreateMuxStreamMediaType function
+title: MFCreateMuxStreamMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Creates an IMFMediaType describing the media types of multiplexed substreams.
 old-location: mf\mfcreatemuxstreammediatype.htm

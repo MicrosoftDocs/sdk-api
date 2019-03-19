@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.get_Description
-title: IEventClass::get_Description
+title: IEventClass::get_Description (eventsys.h)
 author: windows-sdk-content
 description: A displayable text description of the event class object.
 old-location: cos\ieventclass_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteProgress
-title: IWbemObjectSinkEx::WriteProgress
+title: IWbemObjectSinkEx::WriteProgress (wbemcli.h)
 author: windows-sdk-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writeprogress.htm

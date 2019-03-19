@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfQuerySyncProviderStatus
-title: CfQuerySyncProviderStatus function
+title: CfQuerySyncProviderStatus function (cfapi.h)
 author: windows-sdk-content
 description: Queries a sync provider to get the status of the provider.
 old-location: cloudapi\cfquerysyncproviderstatus.htm

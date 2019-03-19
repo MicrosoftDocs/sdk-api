@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantGetElem
-title: VariantGetElem function
+title: VariantGetElem function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure from a specified variant element.
 old-location: properties\VariantGetElem.htm

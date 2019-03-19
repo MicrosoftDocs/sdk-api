@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDistributorNotify.Stop
-title: IDistributorNotify::Stop
+title: IDistributorNotify::Stop (strmif.h)
 author: windows-sdk-content
 description: The Stop method is called when the filter graph is entering a stopped state.
 old-location: dshow\idistributornotify_stop.htm

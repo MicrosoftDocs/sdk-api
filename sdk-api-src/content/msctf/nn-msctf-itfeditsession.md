@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfEditSession
-title: ITfEditSession
+title: ITfEditSession (msctf.h)
 author: windows-sdk-content
 description: The ITfEditSession interface is implemented by a text service and used by the TSF manager to read and/or modify the text and properties of a context.
 old-location: tsf\itfeditsession.htm

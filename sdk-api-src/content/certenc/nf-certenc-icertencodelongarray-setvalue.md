@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.SetValue
-title: ICertEncodeLongArray::SetValue
+title: ICertEncodeLongArray::SetValue (certenc.h)
 author: windows-sdk-content
 description: Sets a Long value at the specified index of the Long array.
 old-location: security\icertencodelongarray_setvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.SHResolveFolderPathInLibrary
-title: SHResolveFolderPathInLibrary function
+title: SHResolveFolderPathInLibrary function (shobjidl.h)
 author: windows-sdk-content
 description: Attempts to resolve the target location of a library folder that has been moved or renamed.
 old-location: shell\SHResolveFolderPathInLibrary.htm

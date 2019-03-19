@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IESLicenseRenewalResultEvent
-title: IESLicenseRenewalResultEvent
+title: IESLicenseRenewalResultEvent (tuner.h)
 author: windows-sdk-content
 description: Implements methods that get information from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent.htm

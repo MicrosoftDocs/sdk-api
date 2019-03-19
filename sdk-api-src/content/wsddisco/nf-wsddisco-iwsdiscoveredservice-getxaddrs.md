@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetXAddrs
-title: IWSDiscoveredService::GetXAddrs
+title: IWSDiscoveredService::GetXAddrs (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves a list of WS-Discovery XAddrs.
 old-location: ncd\iwsdiscoveredservice_getxaddrs.htm

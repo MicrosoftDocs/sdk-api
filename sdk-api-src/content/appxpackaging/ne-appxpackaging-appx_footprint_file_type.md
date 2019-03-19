@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_FOOTPRINT_FILE_TYPE
-title: APPX_FOOTPRINT_FILE_TYPE
+title: APPX_FOOTPRINT_FILE_TYPE (appxpackaging.h)
 author: windows-sdk-content
 description: Specifies the type of footprint file in a package.
 old-location: appxpkg\appx_footprint_file_type.htm

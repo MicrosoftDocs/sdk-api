@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.get_HeaderFields
-title: IEmailAction::get_HeaderFields
+title: IEmailAction::get_HeaderFields (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the header information in the email message to send.
 old-location: taskschd\iemailaction_headerfields.htm

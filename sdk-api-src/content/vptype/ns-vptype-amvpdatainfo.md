@@ -1,6 +1,6 @@
 ---
 UID: NS:vptype._AMVPDATAINFO
-title: AMVPDATAINFO
+title: AMVPDATAINFO (vptype.h)
 author: windows-sdk-content
 description: The AMVPDATAINFO structure specifies the data-specific characteristics of the VP input stream.
 old-location: dshow\amvpdatainfo.htm

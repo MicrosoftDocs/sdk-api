@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.ReleaseInputDataPointer
-title: IAudioInputEndpointRT::ReleaseInputDataPointer
+title: IAudioInputEndpointRT::ReleaseInputDataPointer (audioengineendpoint.h)
 author: windows-sdk-content
 description: Releases the acquired data pointer.
 old-location: termserv\iaudioinputendpointrt_releaseinputdatapointer.htm

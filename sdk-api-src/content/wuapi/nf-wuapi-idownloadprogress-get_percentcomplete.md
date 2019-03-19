@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_PercentComplete
-title: IDownloadProgress::get_PercentComplete
+title: IDownloadProgress::get_PercentComplete (wuapi.h)
 author: windows-sdk-content
 description: Gets an estimate of the percentage of all the updates that have been downloaded.
 old-location: wua\idownloadprogress_percentcomplete.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_PARA
-title: CERT_REVOCATION_PARA
+title: CERT_REVOCATION_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Is passed in calls to the CertVerifyRevocation function to assist in finding the issuer of the context to be verified.
 old-location: security\cert_revocation_para.htm

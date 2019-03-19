@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi.tagCRYPTUI_VIEWCERTIFICATE_STRUCTA
-title: CRYPTUI_VIEWCERTIFICATE_STRUCTA
+title: CRYPTUI_VIEWCERTIFICATE_STRUCTA (cryptuiapi.h)
 author: windows-sdk-content
 description: Contains information about a certificate to view. This structure is used in the CryptUIDlgViewCertificate function.
 old-location: security\cryptui_viewcertificate_struct.htm

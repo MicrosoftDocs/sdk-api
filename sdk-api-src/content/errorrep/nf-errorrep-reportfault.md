@@ -1,6 +1,6 @@
 ---
 UID: NF:errorrep.ReportFault
-title: ReportFault function
+title: ReportFault function (errorrep.h)
 author: windows-sdk-content
 description: Enables an application that performs its own exception handling to report faults to Microsoft.
 old-location: wer\reportfault.htm

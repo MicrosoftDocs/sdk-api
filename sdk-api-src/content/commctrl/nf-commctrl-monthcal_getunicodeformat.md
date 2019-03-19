@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_GetUnicodeFormat
-title: MonthCal_GetUnicodeFormat macro
+title: MonthCal_GetUnicodeFormat macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the Unicode character format flag for the control. You can use this macro or send the MCM_GETUNICODEFORMAT message explicitly.
 old-location: controls\MonthCal_GetUnicodeFormat.htm

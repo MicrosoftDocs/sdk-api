@@ -1,6 +1,6 @@
 ---
 UID: NF:dpapi.CryptUnprotectMemory
-title: CryptUnprotectMemory function
+title: CryptUnprotectMemory function (dpapi.h)
 author: windows-sdk-content
 description: Decrypts memory that was encrypted using the CryptProtectMemory function.
 old-location: security\cryptunprotectmemory.htm

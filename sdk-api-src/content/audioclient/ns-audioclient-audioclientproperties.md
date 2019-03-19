@@ -1,6 +1,6 @@
 ---
 UID: NS:audioclient.AudioClientProperties
-title: AudioClientProperties
+title: AudioClientProperties (audioclient.h)
 author: windows-sdk-content
 description: The AudioClientProperties structure is used to set the parameters that describe the properties of the client's audio stream.
 old-location: coreaudio\audioclientproperties.htm

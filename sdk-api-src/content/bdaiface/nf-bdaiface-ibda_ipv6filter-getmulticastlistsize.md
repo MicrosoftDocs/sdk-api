@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV6Filter.GetMulticastListSize
-title: IBDA_IPV6Filter::GetMulticastListSize
+title: IBDA_IPV6Filter::GetMulticastListSize (bdaiface.h)
 author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the size in bytes of the list of multicast addresses.
 old-location: mstv\ibda_ipv6filter_getmulticastlistsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.ITableItemProvider
-title: ITableItemProvider
+title: ITableItemProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to child controls of containers that implement ITableProvider.
 old-location: winauto\uiauto_ITableItemProvider.htm

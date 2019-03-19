@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmSetStatusWindowPos
-title: ImmSetStatusWindowPos function
+title: ImmSetStatusWindowPos function (immdev.h)
 author: windows-sdk-content
 description: Sets the position of the status window.
 old-location: intl\immsetstatuswindowpos.htm

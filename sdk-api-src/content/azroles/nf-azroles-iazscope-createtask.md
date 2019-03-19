@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.CreateTask
-title: IAzScope::CreateTask
+title: IAzScope::CreateTask (azroles.h)
 author: windows-sdk-content
 description: Creates an IAzTask object with the specified name.
 old-location: security\iazscope_createtask.htm

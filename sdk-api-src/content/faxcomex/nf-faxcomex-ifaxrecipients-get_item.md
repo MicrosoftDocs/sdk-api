@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.get_Item
-title: IFaxRecipients::get_Item
+title: IFaxRecipients::get_Item (faxcomex.h)
 author: windows-sdk-content
 description: The Item method returns a FaxRecipient object from the FaxRecipients collection.
 old-location: fax\_mfax_faxrecipients_item_cpp.htm

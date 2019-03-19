@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerVisuals.SetTextColor
-title: IPreviewHandlerVisuals::SetTextColor
+title: IPreviewHandlerVisuals::SetTextColor (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the color of the text within the preview handler.
 old-location: shell\IPreviewHandlerVisuals_SetTextColor.htm

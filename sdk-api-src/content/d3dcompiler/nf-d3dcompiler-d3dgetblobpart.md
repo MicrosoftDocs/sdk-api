@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DGetBlobPart
-title: D3DGetBlobPart function
+title: D3DGetBlobPart function (d3dcompiler.h)
 author: windows-sdk-content
 description: Retrieves a specific part from a compilation result.
 old-location: direct3dhlsl\d3dgetblobpart.htm

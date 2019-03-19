@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateVertexBuffer
-title: IDirect3DDevice9::CreateVertexBuffer
+title: IDirect3DDevice9::CreateVertexBuffer (d3d9helper.h)
 author: windows-sdk-content
 description: Creates a vertex buffer.
 old-location: direct3d9\idirect3ddevice9__createvertexbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetStringFieldW
-title: SetupGetStringFieldW function
+title: SetupGetStringFieldW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetStringField function retrieves a string from the specified field of a line in an INF file.
 old-location: setup\setupgetstringfield.htm

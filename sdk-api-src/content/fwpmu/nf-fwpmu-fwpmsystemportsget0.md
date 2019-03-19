@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsGet0
-title: FwpmSystemPortsGet0 function
+title: FwpmSystemPortsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all of the system port types.
 old-location: fwp\fwpmsystemportsget0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITBasicCallControl
-title: ITBasicCallControl
+title: ITBasicCallControl (tapi3if.h)
 author: windows-sdk-content
 description: The ITBasicCallControl interface is used by the application to connect, answer, and perform basic telephony operations on a call object.
 old-location: tapi3\itbasiccallcontrol.htm

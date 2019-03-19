@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetLineByIndexA
-title: SetupGetLineByIndexA function
+title: SetupGetLineByIndexA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetLineByIndex function locates a line by its index value in the specified section in the INF file.
 old-location: setup\setupgetlinebyindex.htm

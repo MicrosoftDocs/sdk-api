@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetThreadPreferredUILanguages
-title: GetThreadPreferredUILanguages function
+title: GetThreadPreferredUILanguages function (winnls.h)
 author: windows-sdk-content
 description: Retrieves the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.
 old-location: intl\getthreadpreferreduilanguages.htm

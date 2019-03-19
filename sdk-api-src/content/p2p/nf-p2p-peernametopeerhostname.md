@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerNameToPeerHostName
-title: PeerNameToPeerHostName function
+title: PeerNameToPeerHostName function (p2p.h)
 author: windows-sdk-content
 description: Encodes the supplied peer name as a format that can be used with a subsequent call to the getaddrinfo Windows Sockets function.
 old-location: p2p\peernametopeerhostname.htm

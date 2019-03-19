@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion.GetType
-title: IWMMutualExclusion::GetType
+title: IWMMutualExclusion::GetType (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetType method retrieves the GUID of the type of mutual exclusion required.
 old-location: wmformat\iwmmutualexclusion_gettype.htm

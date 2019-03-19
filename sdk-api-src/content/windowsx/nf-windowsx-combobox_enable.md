@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_Enable
-title: ComboBox_Enable macro
+title: ComboBox_Enable macro (windowsx.h)
 author: windows-sdk-content
 description: Enables or disables a combo box control.
 old-location: controls\ComboBox_Enable.htm

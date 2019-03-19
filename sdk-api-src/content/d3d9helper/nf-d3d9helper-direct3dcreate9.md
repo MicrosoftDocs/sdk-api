@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.Direct3DCreate9
-title: Direct3DCreate9 function
+title: Direct3DCreate9 function (d3d9helper.h)
 author: windows-sdk-content
 description: Create an IDirect3D9 object and return an interface to it.
 old-location: direct3d9\direct3dcreate9.htm

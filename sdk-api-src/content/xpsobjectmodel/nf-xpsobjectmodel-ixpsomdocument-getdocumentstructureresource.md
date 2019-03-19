@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetDocumentStructureResource
-title: IXpsOMDocument::GetDocumentStructureResource
+title: IXpsOMDocument::GetDocumentStructureResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocumentStructureResource interface of the resource that contains structural information about the document.
 old-location: xps\ixpsomdocument_getdocumentstructureresource.htm

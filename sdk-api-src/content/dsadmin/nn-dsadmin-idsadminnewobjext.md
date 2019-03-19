@@ -1,6 +1,6 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObjExt
-title: IDsAdminNewObjExt
+title: IDsAdminNewObjExt (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObjExt interface is implemented by an object creation wizard extension.
 old-location: ad\idsadminnewobjext.htm

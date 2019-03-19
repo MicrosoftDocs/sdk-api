@@ -1,6 +1,6 @@
 ---
 UID: NE:vdslun._VDS_INTERCONNECT_ADDRESS_TYPE
-title: VDS_INTERCONNECT_ADDRESS_TYPE
+title: VDS_INTERCONNECT_ADDRESS_TYPE (vdslun.h)
 author: windows-sdk-content
 description: Defines the set of the valid address types of a physical interconnect.
 old-location: base\vds_interconnect_address_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeComp.BindType
-title: ITypeComp::BindType
+title: ITypeComp::BindType (oaidl.h)
 author: windows-sdk-content
 description: Binds to the type descriptions contained within a type library.
 old-location: automat\itypecomp_bindtype.htm

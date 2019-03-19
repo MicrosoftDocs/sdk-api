@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetClientGuid
-title: IAttachmentExecute::SetClientGuid
+title: IAttachmentExecute::SetClientGuid (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies and stores the GUID for the client.
 old-location: shell\IAttachmentExecute_SetClientGuid.htm

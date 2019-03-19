@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VolumeName
-title: IDiscRecorder2::get_VolumeName
+title: IDiscRecorder2::get_VolumeName (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the unique volume name associated with the device.
 old-location: imapi\idiscrecorder2_get_volumename.htm

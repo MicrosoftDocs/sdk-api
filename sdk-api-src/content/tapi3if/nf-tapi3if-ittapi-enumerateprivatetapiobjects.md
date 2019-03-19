@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPI.EnumeratePrivateTAPIObjects
-title: ITTAPI::EnumeratePrivateTAPIObjects
+title: ITTAPI::EnumeratePrivateTAPIObjects (tapi3if.h)
 author: windows-sdk-content
 description: The EnumeratePrivateTAPIObjects method of the ITTAPI interface is not implemented and will return E_NOTIMPL.
 old-location: tapi3\ittapi_enumerateprivatetapiobjects.htm

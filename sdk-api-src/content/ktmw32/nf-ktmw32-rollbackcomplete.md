@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.RollbackComplete
-title: RollbackComplete function
+title: RollbackComplete function (ktmw32.h)
 author: windows-sdk-content
 description: Indicates that the resource manager (RM) has successfully completed rolling back a transaction.
 old-location: fs\rollbackcomplete.htm

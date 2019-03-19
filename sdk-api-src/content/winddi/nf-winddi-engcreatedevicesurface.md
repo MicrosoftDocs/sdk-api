@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCreateDeviceSurface
-title: EngCreateDeviceSurface function
+title: EngCreateDeviceSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngCreateDeviceSurface function creates and returns a handle for a device surface that the driver will manage.
 old-location: display\engcreatedevicesurface.htm

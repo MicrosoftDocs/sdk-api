@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.GetSecurityInfo
-title: IGPMWMIFilter::GetSecurityInfo
+title: IGPMWMIFilter::GetSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: Returns an interface or object that represents the list of permissions for the current WMI filter.
 old-location: gpmc\igpmwmifilter_getsecurityinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_CONVERSATIONLEAVEEVENT
-title: WPC_ARGS_CONVERSATIONLEAVEEVENT
+title: WPC_ARGS_CONVERSATIONLEAVEEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about leaving a conversation.
 old-location: parcon\wpc_args_conversationleaveevent.htm

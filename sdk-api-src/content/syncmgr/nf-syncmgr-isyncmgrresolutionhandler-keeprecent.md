@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepRecent
-title: ISyncMgrResolutionHandler::KeepRecent
+title: ISyncMgrResolutionHandler::KeepRecent (syncmgr.h)
 author: windows-sdk-content
 description: Keeps the more recent copy.
 old-location: shell\ISyncMgrResolutionHandler_KeepRecent.htm

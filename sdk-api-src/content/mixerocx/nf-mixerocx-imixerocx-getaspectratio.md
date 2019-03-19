@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetAspectRatio
-title: IMixerOCX::GetAspectRatio
+title: IMixerOCX::GetAspectRatio (mixerocx.h)
 author: windows-sdk-content
 description: The GetAspectRatio method returns the current aspect ratio setting on the Overlay Mixer. (Currently not implemented.).
 old-location: dshow\imixerocx_getaspectratio.htm

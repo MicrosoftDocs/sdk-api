@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.get__NewEnum
-title: IStringCollection::get__NewEnum
+title: IStringCollection::get__NewEnum (wuapi.h)
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\istringcollection__newenum.htm

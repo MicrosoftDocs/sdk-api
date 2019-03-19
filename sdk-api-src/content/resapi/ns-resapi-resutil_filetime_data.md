@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.RESUTIL_FILETIME_DATA
-title: RESUTIL_FILETIME_DATA
+title: RESUTIL_FILETIME_DATA (resapi.h)
 author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a FILETIME.
 old-location: mscs\resutil_filetime_data.htm

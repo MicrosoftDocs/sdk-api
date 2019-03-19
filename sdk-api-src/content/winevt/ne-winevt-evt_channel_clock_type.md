@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_CLOCK_TYPE
-title: EVT_CHANNEL_CLOCK_TYPE
+title: EVT_CHANNEL_CLOCK_TYPE (winevt.h)
 author: windows-sdk-content
 description: Defines the values that specify the type of time stamp to use when logging events channel.
 old-location: wes\evt_channel_clock_type.htm

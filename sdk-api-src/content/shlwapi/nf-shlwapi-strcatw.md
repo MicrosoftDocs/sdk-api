@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCatW
-title: StrCatW function
+title: StrCatW function (shlwapi.h)
 author: windows-sdk-content
 description: Appends one string to another.
 old-location: shell\StrCat.htm

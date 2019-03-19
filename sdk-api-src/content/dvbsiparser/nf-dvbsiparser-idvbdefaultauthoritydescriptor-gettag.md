@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDefaultAuthorityDescriptor.GetTag
-title: IDvbDefaultAuthorityDescriptor::GetTag
+title: IDvbDefaultAuthorityDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag from the default authority descriptor for a Digital Video Broadcast (DVB) content reference identifier (CRID).
 old-location: mstv\idvbdefaultauthoritydescriptor_gettag.htm

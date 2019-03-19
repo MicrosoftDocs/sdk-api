@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputSizeInfo
-title: IMediaObject::GetInputSizeInfo
+title: IMediaObject::GetInputSizeInfo (mediaobj.h)
 author: windows-sdk-content
 description: The GetInputSizeInfo method retrieves the buffer requirements for a specified input stream.
 old-location: dshow\imediaobject_getinputsizeinfo.htm

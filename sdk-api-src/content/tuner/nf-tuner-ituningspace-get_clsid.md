@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_CLSID
-title: ITuningSpace::get_CLSID
+title: ITuningSpace::get_CLSID (tuner.h)
 author: windows-sdk-content
 description: The get_CLSID method gets the CLSID of the tuning space as a BSTR.
 old-location: mstv\ituningspace_get_clsid.htm

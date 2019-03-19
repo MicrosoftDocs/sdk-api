@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRoleDefinition.RoleAssignments
-title: IAzRoleDefinition::RoleAssignments
+title: IAzRoleDefinition::RoleAssignments (azroles.h)
 author: windows-sdk-content
 description: Retrieves a collection of IAzRoleAssignment objects that represent the role assignments associated with this IAzRoleDefinition object.
 old-location: security\iazroledefinition_roleassignments.htm

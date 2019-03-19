@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.Clear
-title: IUICollection::Clear
+title: IUICollection::Clear (uiribbon.h)
 author: windows-sdk-content
 description: Deletes all items from the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_clear.htm

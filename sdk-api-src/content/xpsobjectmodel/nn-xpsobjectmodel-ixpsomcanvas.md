@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMCanvas
-title: IXpsOMCanvas
+title: IXpsOMCanvas (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A group of visual elements and related properties.
 old-location: xps\ixpsomcanvas.htm

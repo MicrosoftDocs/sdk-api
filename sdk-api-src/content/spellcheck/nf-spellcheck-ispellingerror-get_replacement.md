@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_Replacement
-title: ISpellingError::get_Replacement
+title: ISpellingError::get_Replacement (spellcheck.h)
 author: windows-sdk-content
 description: Gets the text to use as replacement text when the corrective action is replace.
 old-location: intl\ispellingerror_replacement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IExecAction
-title: IExecAction
+title: IExecAction (taskschd.h)
 author: windows-sdk-content
 description: Represents an action that executes a command-line operation.
 old-location: taskschd\iexecaction.htm

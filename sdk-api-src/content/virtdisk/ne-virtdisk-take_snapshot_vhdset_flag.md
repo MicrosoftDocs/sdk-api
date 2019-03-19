@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._TAKE_SNAPSHOT_VHDSET_FLAG
-title: TAKE_SNAPSHOT_VHDSET_FLAG
+title: TAKE_SNAPSHOT_VHDSET_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the TakeSnapshotVhdSet function.
 old-location: vhd\take_snapshot_vhdset_flag.htm

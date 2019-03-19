@@ -1,6 +1,6 @@
 ---
 UID: NF:bits5_0.IBackgroundCopyJob5.GetProperty
-title: IBackgroundCopyJob5::GetProperty
+title: IBackgroundCopyJob5::GetProperty (bits5_0.h)
 author: windows-sdk-content
 description: A generic method for getting BITS job properties.
 old-location: bits\ibackgroundcopyjob5_getproperty.htm

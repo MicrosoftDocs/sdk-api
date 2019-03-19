@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClientRect
-title: GetClientRect function
+title: GetClientRect function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the coordinates of a window's client area.
 old-location: winmsg\getclientrect.htm

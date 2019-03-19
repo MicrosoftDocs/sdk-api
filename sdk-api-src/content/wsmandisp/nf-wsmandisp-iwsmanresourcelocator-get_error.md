@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_Error
-title: IWSManResourceLocator::get_Error
+title: IWSManResourceLocator::get_Error (wsmandisp.h)
 author: windows-sdk-content
 description: Gets an XML representation of additional error information.
 old-location: winrm\iwsmanresourcelocator_error.htm

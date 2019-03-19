@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.Clone
-title: IEnumWIA_FORMAT_INFO::Clone
+title: IEnumWIA_FORMAT_INFO::Clone (wia_xp.h)
 author: windows-sdk-content
 description: The IEnumWIA_FORMAT_INFO::Clone method creates an additional instance of the IEnumWIA_FORMAT_INFO interface and returns an interface pointer to the new interface.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_Clone.htm

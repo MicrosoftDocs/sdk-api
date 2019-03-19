@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionType.GetMemberTypeByIndex
-title: ID3D10ShaderReflectionType::GetMemberTypeByIndex
+title: ID3D10ShaderReflectionType::GetMemberTypeByIndex (d3d10shader.h)
 author: windows-sdk-content
 description: Get a shader-reflection-variable type by index.
 old-location: direct3d10\id3d10shaderreflectiontype_getmembertypebyindex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.Close
-title: IMFHttpDownloadRequest::Close
+title: IMFHttpDownloadRequest::Close (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to allow IMFHttpDownloadRequest to free any internal resources. It will also cancel the current request if it is still in progress.
 old-location: mf\imfhttpdownloadrequest_close.htm

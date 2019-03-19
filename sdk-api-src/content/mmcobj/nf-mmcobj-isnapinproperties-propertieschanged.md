@@ -1,6 +1,6 @@
 ---
 UID: NF:mmcobj.ISnapinProperties.PropertiesChanged
-title: ISnapinProperties::PropertiesChanged
+title: ISnapinProperties::PropertiesChanged (mmcobj.h)
 author: windows-sdk-content
 description: Called when a property is added, changed, or deleted.
 old-location: mmc\isnapinproperties_propertieschanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_DefaultContainer
-title: IX509PrivateKey::get_DefaultContainer
+title: IX509PrivateKey::get_DefaultContainer (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the private key represents the default key container.
 old-location: security\ix509privatekey_defaultcontainer_property.htm

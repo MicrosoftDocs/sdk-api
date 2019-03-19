@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcore.UiaChangeInfo
-title: UiaChangeInfo
+title: UiaChangeInfo (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains data about a UI Automation change that occurred.
 old-location: winauto\uiachangeinfo.htm

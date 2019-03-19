@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IServiceThreadPoolConfig
-title: IServiceThreadPoolConfig
+title: IServiceThreadPoolConfig (comsvcs.h)
 author: windows-sdk-content
 description: Configures the thread pool of the activity object that is returned by calling CoCreateActivity.
 old-location: cos\iservicethreadpoolconfig.htm

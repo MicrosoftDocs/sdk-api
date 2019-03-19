@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.DeleteDirectoryObject
-title: ITDirectory::DeleteDirectoryObject
+title: ITDirectory::DeleteDirectoryObject (rend.h)
 author: windows-sdk-content
 description: The DeleteDirectoryObject method deletes an object from the server.
 old-location: tapi3\itdirectory_deletedirectoryobject.htm

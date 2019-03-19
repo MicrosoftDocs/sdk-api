@@ -1,6 +1,6 @@
 ---
 UID: NF:tlhelp32.Heap32ListNext
-title: Heap32ListNext function
+title: Heap32ListNext function (tlhelp32.h)
 author: windows-sdk-content
 description: Retrieves information about the next heap that has been allocated by a process.
 old-location: toolhelp\heap32listnext.htm

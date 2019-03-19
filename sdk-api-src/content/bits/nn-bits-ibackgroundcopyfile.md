@@ -1,6 +1,6 @@
 ---
 UID: NN:bits.IBackgroundCopyFile
-title: IBackgroundCopyFile
+title: IBackgroundCopyFile (bits.h)
 author: windows-sdk-content
 description: IBackgroundCopyFile contains information about a file that is part of a job. For example, you can use IBackgroundCopyFile methods to retrieve the local and remote names of the file and transfer progress information.
 old-location: bits\ibackgroundcopyfile.htm

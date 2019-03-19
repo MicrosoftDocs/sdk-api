@@ -1,6 +1,6 @@
 ---
 UID: NC:winuser.SENDASYNCPROC
-title: SENDASYNCPROC
+title: SENDASYNCPROC (winuser.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the SendMessageCallback function.
 old-location: winmsg\sendasyncproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegDeleteUSValueW
-title: SHRegDeleteUSValueW function
+title: SHRegDeleteUSValueW function (shlwapi.h)
 author: windows-sdk-content
 description: Deletes a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegDeleteUSValue.htm

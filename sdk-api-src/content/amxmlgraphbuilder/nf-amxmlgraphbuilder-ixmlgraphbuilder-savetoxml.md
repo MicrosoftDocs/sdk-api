@@ -1,6 +1,6 @@
 ---
 UID: NF:amxmlgraphbuilder.IXMLGraphBuilder.SaveToXML
-title: IXMLGraphBuilder::SaveToXML
+title: IXMLGraphBuilder::SaveToXML (amxmlgraphbuilder.h)
 author: windows-sdk-content
 description: The SaveToXML method saves a filter graph to an XML element.
 old-location: dshow\ixmlgraphbuilder_savetoxml.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:evr.IMFVideoMixerControl
-title: IMFVideoMixerControl
+title: IMFVideoMixerControl (evr.h)
 author: windows-sdk-content
 description: Controls how the Enhanced Video Renderer (EVR) mixes video substreams.
 old-location: mf\imfvideomixercontrol.htm

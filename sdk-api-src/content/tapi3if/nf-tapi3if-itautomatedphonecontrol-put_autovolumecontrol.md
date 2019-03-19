@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoVolumeControl
-title: ITAutomatedPhoneControl::put_AutoVolumeControl
+title: ITAutomatedPhoneControl::put_AutoVolumeControl (tapi3if.h)
 author: windows-sdk-content
 description: The put_AutoVolumeControl method sets the AutoVolumeControl property for this phone.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrol.htm

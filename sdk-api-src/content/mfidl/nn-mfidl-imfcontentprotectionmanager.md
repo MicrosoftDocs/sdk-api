@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFContentProtectionManager
-title: IMFContentProtectionManager
+title: IMFContentProtectionManager (mfidl.h)
 author: windows-sdk-content
 description: Enables playback of protected content by providing the application with a pointer to a content enabler object.
 old-location: mf\imfcontentprotectionmanager.htm

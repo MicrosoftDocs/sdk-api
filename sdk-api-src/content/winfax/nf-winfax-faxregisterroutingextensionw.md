@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxRegisterRoutingExtensionW
-title: FaxRegisterRoutingExtensionW function
+title: FaxRegisterRoutingExtensionW function (winfax.h)
 author: windows-sdk-content
 description: The FaxRegisterRoutingExtension function registers a fax routing extension DLL with the fax service. The function configures the fax service registry to use the new routing extension DLL.
 old-location: fax\_mfax_faxregisterroutingextension.htm

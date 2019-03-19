@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManPluginReceiveResult
-title: WSManPluginReceiveResult function
+title: WSManPluginReceiveResult function (wsman.h)
 author: windows-sdk-content
 description: Reports results for the WSMAN_PLUGIN_RECEIVE plug-in call and is used by most shell plug-ins that return results.
 old-location: winrm\wsmanpluginreceiveresult.htm

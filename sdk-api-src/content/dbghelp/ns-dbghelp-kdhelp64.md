@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp._KDHELP64
-title: KDHELP64
+title: KDHELP64 (dbghelp.h)
 author: windows-sdk-content
 description: Information that is used by kernel debuggers to trace through user-mode callbacks in a thread's kernel stack.
 old-location: base\kdhelp64_str.htm

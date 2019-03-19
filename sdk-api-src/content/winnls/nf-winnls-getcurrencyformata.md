@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetCurrencyFormatA
-title: GetCurrencyFormatA function
+title: GetCurrencyFormatA function (winnls.h)
 author: windows-sdk-content
 description: Formats a number string as a currency string for a locale specified by identifier.
 old-location: intl\getcurrencyformat.htm

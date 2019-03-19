@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetImpersonationType
-title: MI_DestinationOptions_SetImpersonationType function
+title: MI_DestinationOptions_SetImpersonationType function (mi.h)
 author: windows-sdk-content
 description: Sets the impersonation type.
 old-location: wmi_v2\mi_destinationoptions_setimpersonationtype.htm

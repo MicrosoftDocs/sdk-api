@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.put_CCEnable
-title: IAMAnalogVideoEncoder::put_CCEnable
+title: IAMAnalogVideoEncoder::put_CCEnable (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_CCEnable method enables or disables closed captioning.
 old-location: dshow\iamanalogvideoencoder_put_ccenable.htm

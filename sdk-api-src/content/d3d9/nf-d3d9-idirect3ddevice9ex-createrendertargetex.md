@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CreateRenderTargetEx
-title: IDirect3DDevice9Ex::CreateRenderTargetEx
+title: IDirect3DDevice9Ex::CreateRenderTargetEx (d3d9.h)
 author: windows-sdk-content
 description: Creates a render-target surface.
 old-location: direct3d9\idirect3ddevice9ex_createrendertargetex.htm

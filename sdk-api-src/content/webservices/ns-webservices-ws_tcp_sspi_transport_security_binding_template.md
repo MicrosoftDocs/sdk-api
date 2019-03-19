@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE
-title: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE
+title: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE (webservices.h)
 author: windows-sdk-content
 description: The security binding template for specifying the use of Windows SSPI protocol based transport security.
 old-location: wsw\ws_tcp_sspi_transport_security_binding_template.htm

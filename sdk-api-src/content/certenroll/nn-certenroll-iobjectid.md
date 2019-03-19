@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IObjectId
-title: IObjectId
+title: IObjectId (certenroll.h)
 author: windows-sdk-content
 description: Represents an object identifier (OID).
 old-location: security\iobjectid.htm

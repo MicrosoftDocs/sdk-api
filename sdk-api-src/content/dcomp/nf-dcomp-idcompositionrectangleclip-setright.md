@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetRight
-title: IDCompositionRectangleClip::SetRight
+title: IDCompositionRectangleClip::SetRight (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the Right property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setright_float.htm

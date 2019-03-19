@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetNoiseReduction
-title: IWICDevelopRaw::SetNoiseReduction
+title: IWICDevelopRaw::SetNoiseReduction (wincodec.h)
 author: windows-sdk-content
 description: Sets the noise reduction value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_setnoisereduction.htm

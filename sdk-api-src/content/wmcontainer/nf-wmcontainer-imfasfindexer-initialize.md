@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.Initialize
-title: IMFASFIndexer::Initialize
+title: IMFASFIndexer::Initialize (wmcontainer.h)
 author: windows-sdk-content
 description: Initializes the indexer object.
 old-location: mf\imfasfindexer_initialize.htm

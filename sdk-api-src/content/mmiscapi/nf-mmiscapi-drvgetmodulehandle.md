@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.DrvGetModuleHandle
-title: DrvGetModuleHandle function
+title: DrvGetModuleHandle function (mmiscapi.h)
 author: windows-sdk-content
 description: Retrieves the instance handle of the module that contains the installable driver. This function is provided for compatibility with previous versions of Windows.
 old-location: multimedia\drvgetmodulehandle.htm

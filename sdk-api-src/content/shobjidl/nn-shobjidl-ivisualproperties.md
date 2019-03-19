@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IVisualProperties
-title: IVisualProperties
+title: IVisualProperties (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that set and get visual properties.
 old-location: shell\IVisualProperties.htm

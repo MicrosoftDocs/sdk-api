@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngUnlockSurface
-title: EngUnlockSurface function
+title: EngUnlockSurface function (winddi.h)
 author: windows-sdk-content
 description: The EngUnlockSurface function causes GDI to unlock the surface.
 old-location: display\engunlocksurface.htm

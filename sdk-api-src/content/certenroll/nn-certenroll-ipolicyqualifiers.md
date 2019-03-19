@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IPolicyQualifiers
-title: IPolicyQualifiers
+title: IPolicyQualifiers (certenroll.h)
 author: windows-sdk-content
 description: Defines methods and properties that enable you to manage a collection of IPolicyQualifier objects.
 old-location: security\ipolicyqualifiers.htm

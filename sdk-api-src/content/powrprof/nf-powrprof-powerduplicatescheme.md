@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerDuplicateScheme
-title: PowerDuplicateScheme function
+title: PowerDuplicateScheme function (powrprof.h)
 author: windows-sdk-content
 description: Duplicates an existing power scheme.
 old-location: base\powerduplicatescheme.htm

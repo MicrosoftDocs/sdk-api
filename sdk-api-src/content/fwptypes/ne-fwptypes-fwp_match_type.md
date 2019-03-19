@@ -1,6 +1,6 @@
 ---
 UID: NE:fwptypes.FWP_MATCH_TYPE_
-title: FWP_MATCH_TYPE
+title: FWP_MATCH_TYPE (fwptypes.h)
 author: windows-sdk-content
 description: Different match types allowed in filter conditions.
 old-location: fwp\fwp_match_type_enum.htm

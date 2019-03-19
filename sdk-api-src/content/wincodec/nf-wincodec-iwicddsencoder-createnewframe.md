@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.CreateNewFrame
-title: IWICDdsEncoder::CreateNewFrame
+title: IWICDdsEncoder::CreateNewFrame (wincodec.h)
 author: windows-sdk-content
 description: Creates a new frame to encode.
 old-location: wic\iwicddsencoder_createnewframe.htm

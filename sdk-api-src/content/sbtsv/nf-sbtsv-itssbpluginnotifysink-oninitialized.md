@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbPluginNotifySink.OnInitialized
-title: ITsSbPluginNotifySink::OnInitialized
+title: ITsSbPluginNotifySink::OnInitialized (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the plug-in has completed a call of Initialize.
 old-location: termserv\itssbpluginnotifysink_oninitialized.htm

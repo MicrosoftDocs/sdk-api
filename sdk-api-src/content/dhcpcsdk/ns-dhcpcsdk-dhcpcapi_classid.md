@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpcsdk._DHCPCAPI_CLASSID
-title: DHCPCAPI_CLASSID
+title: DHCPCAPI_CLASSID (dhcpcsdk.h)
 author: windows-sdk-content
 description: The DHCPCAPI_CLASSID structure defines a client Class ID.
 old-location: dhcp\dhcpcapi_classid.htm

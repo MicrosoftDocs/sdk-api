@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDeviceInterfaceData
-title: SetupDiDeleteDeviceInterfaceData function
+title: SetupDiDeleteDeviceInterfaceData function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiDeleteDeviceInterfaceData function deletes a device interface from a device information set.
 old-location: devinst\setupdideletedeviceinterfacedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityReportProgress.ReportProgress
-title: ISimilarityReportProgress::ReportProgress
+title: ISimilarityReportProgress::ReportProgress (msrdc.h)
 author: windows-sdk-content
 description: Reports the current completion percentage of a similarity operation in progress.
 old-location: rdc\isimilarityreportprogress_reportprogress.htm

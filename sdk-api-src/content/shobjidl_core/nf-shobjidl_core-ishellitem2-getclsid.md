@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetCLSID
-title: IShellItem2::GetCLSID
+title: IShellItem2::GetCLSID (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the class identifier (CLSID) value of specified property key.
 old-location: shell\IShellItem2_GetCLSID.htm

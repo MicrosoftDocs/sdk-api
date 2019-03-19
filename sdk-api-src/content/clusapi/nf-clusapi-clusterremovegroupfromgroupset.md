@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRemoveGroupFromGroupSet
-title: ClusterRemoveGroupFromGroupSet function
+title: ClusterRemoveGroupFromGroupSet function (clusapi.h)
 author: windows-sdk-content
 description: Removes the specified group from the groupset to which it is currently a member.
 old-location: mscs\clusterremovegroupfromgroupcollection.htm

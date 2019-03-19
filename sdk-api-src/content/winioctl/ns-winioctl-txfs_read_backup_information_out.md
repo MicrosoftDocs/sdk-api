@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_READ_BACKUP_INFORMATION_OUT
-title: TXFS_READ_BACKUP_INFORMATION_OUT
+title: TXFS_READ_BACKUP_INFORMATION_OUT (winioctl.h)
 author: windows-sdk-content
 description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
 old-location: fs\txfs_read_backup_information_out.htm

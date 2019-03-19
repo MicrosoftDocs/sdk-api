@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_RemotePorts
-title: INetFwRule::get_RemotePorts
+title: INetFwRule::get_RemotePorts (netfw.h)
 author: windows-sdk-content
 description: Specifies the list of remote ports for this rule.
 old-location: ics\inetfwrule_remoteports.htm

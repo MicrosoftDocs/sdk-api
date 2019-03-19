@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsDeleteOps.DeleteObject
-title: IADsDeleteOps::DeleteObject
+title: IADsDeleteOps::DeleteObject (iads.h)
 author: windows-sdk-content
 description: The IADsDeleteOps::DeleteObject method deletes an ADSI object.
 old-location: adsi\iadsdeleteops_deleteobject.htm

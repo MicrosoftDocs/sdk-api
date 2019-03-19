@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2._WSANETWORKEVENTS
-title: WSANETWORKEVENTS
+title: WSANETWORKEVENTS (winsock2.h)
 author: windows-sdk-content
 description: The WSANETWORKEVENTS structure is used to store a socket's internal information about network events.
 old-location: winsock\wsanetworkevents_2.htm

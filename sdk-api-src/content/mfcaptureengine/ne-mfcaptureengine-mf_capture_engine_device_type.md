@@ -1,6 +1,6 @@
 ---
 UID: NE:mfcaptureengine.MF_CAPTURE_ENGINE_DEVICE_TYPE
-title: MF_CAPTURE_ENGINE_DEVICE_TYPE
+title: MF_CAPTURE_ENGINE_DEVICE_TYPE (mfcaptureengine.h)
 author: windows-sdk-content
 description: Specifies a type of capture device.
 old-location: mf\mf_capture_engine_device_type.htm

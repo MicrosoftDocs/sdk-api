@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate5
-title: IWindowsDriverUpdate5
+title: IWindowsDriverUpdate5 (wuapi.h)
 author: windows-sdk-content
 description: Contains the properties and methods that are available only from a Windows driver update.
 old-location: wua\iwindowsdriverupdate5.htm

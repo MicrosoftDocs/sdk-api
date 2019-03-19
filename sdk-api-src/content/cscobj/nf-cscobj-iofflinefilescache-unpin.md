@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Unpin
-title: IOfflineFilesCache::Unpin
+title: IOfflineFilesCache::Unpin (cscobj.h)
 author: windows-sdk-content
 description: Unpins files, directories, and network shared folders from the Offline Files cache.
 old-location: of\iofflinefilescache_unpin.htm

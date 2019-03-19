@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.DeleteAppContainerProfile
-title: DeleteAppContainerProfile function
+title: DeleteAppContainerProfile function (userenv.h)
 author: windows-sdk-content
 description: Deletes the specified per-user, per-app profile.
 old-location: shell\deleteappcontainerprofile.htm

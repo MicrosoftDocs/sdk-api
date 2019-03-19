@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionTarget
-title: IDCompositionTarget
+title: IDCompositionTarget (dcomp.h)
 author: windows-sdk-content
 description: Represents a binding between a Microsoft DirectComposition visual tree and a destination on top of which the visual tree should be composed.
 old-location: directcomp\idcompositiontarget.htm

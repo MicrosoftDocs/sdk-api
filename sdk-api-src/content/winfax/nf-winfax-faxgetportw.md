@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxGetPortW
-title: FaxGetPortW function
+title: FaxGetPortW function (winfax.h)
 author: windows-sdk-content
 description: The FaxGetPort function returns information for a specified fax port to a fax client application.
 old-location: fax\_mfax_faxgetport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader2
-title: IWMDRMReader2
+title: IWMDRMReader2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMDRMReader2 interface provides methods for examining the rights granted by DRM version 10 licenses.An IWMDRMReader2 interface exists for every instance of the reader object.
 old-location: wmformat\iwmdrmreader2.htm

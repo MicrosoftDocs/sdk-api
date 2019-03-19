@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetFuncDesc
-title: ITypeInfo::GetFuncDesc
+title: ITypeInfo::GetFuncDesc (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the FUNCDESC structure that contains information about a specified function.
 old-location: automat\itypeinfo_getfuncdesc.htm

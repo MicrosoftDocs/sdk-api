@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.UpdatePoints
-title: ID2D1SvgPointCollection::UpdatePoints
+title: ID2D1SvgPointCollection::UpdatePoints (d2d1svg.h)
 author: windows-sdk-content
 description: Updates the points array. Existing points not updated by this method are preserved. The array is resized larger if necessary to accomodate the new points.
 old-location: direct2d\id2d1svgpointcollection_updatepoints.htm

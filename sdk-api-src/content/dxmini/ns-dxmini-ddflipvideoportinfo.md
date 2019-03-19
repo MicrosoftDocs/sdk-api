@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDFLIPVIDEOPORTINFO
-title: DDFLIPVIDEOPORTINFO
+title: DDFLIPVIDEOPORTINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDFLIPVIDEOPORTINFO structure contains the video port extensions (VPE) object and surface information.
 old-location: display\ddflipvideoportinfo.htm

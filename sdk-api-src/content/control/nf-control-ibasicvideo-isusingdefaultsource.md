@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicVideo.IsUsingDefaultSource
-title: IBasicVideo::IsUsingDefaultSource
+title: IBasicVideo::IsUsingDefaultSource (control.h)
 author: windows-sdk-content
 description: The IsUsingDefaultSource method queries whether the renderer is using the default source rectangle.
 old-location: dshow\ibasicvideo_isusingdefaultsource.htm

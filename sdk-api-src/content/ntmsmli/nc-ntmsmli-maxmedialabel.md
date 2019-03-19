@@ -1,6 +1,6 @@
 ---
 UID: NC:ntmsmli.MAXMEDIALABEL
-title: MAXMEDIALABEL
+title: MAXMEDIALABEL (ntmsmli.h)
 author: windows-sdk-content
 description: The MaxMediaLabel callback function determines the maximum size of the media label for the applications supported by the media label library.
 old-location: fs\maxmedialabel.htm

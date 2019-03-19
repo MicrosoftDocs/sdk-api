@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2fs.PlatformId
-title: PlatformId
+title: PlatformId (imapi2fs.h)
 author: windows-sdk-content
 description: Defines values for the operating system architecture that the boot image supports.
 old-location: imapi\platformid.htm

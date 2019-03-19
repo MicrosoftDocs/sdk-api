@@ -1,6 +1,6 @@
 ---
 UID: NS:wdstpdi._WDS_TRANSPORTPROVIDER_SETTINGS
-title: WDS_TRANSPORTPROVIDER_SETTINGS
+title: WDS_TRANSPORTPROVIDER_SETTINGS (wdstpdi.h)
 author: windows-sdk-content
 description: This structure is used by the WdsTransportProviderInitialize callback function.
 old-location: wds\wds_transportprovider_settings.htm

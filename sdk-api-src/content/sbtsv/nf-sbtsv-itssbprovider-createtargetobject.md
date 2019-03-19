@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateTargetObject
-title: ITsSbProvider::CreateTargetObject
+title: ITsSbProvider::CreateTargetObject (sbtsv.h)
 author: windows-sdk-content
 description: Creates an ITsSbTarget target object.
 old-location: termserv\itssbprovider_createtargetobject.htm

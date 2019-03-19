@@ -1,6 +1,6 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronizeCallback
-title: ISyncMgrSynchronizeCallback
+title: ISyncMgrSynchronizeCallback (mobsync.h)
 author: windows-sdk-content
 description: Exposes methods that manage the synchronization process.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback.htm

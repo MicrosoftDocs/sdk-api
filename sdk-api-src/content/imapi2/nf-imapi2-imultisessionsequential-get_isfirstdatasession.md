@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_IsFirstDataSession
-title: IMultisessionSequential::get_IsFirstDataSession
+title: IMultisessionSequential::get_IsFirstDataSession (imapi2.h)
 author: windows-sdk-content
 description: Determines if this session is the first data session on the media.
 old-location: imapi\imultisessionsequential_get_isfirstdatasession.htm

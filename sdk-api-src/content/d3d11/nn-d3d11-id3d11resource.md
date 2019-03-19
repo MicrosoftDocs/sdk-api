@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11Resource
-title: ID3D11Resource
+title: ID3D11Resource (d3d11.h)
 author: windows-sdk-content
 description: A resource interface provides common actions on all resources.
 old-location: direct3d11\id3d11resource.htm

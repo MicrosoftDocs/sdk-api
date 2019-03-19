@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncCallback.GetParameters
-title: IRtwqAsyncCallback::GetParameters
+title: IRtwqAsyncCallback::GetParameters (rtworkq.h)
 author: windows-sdk-content
 description: Provides configuration information to the dispatching thread for a callback.
 old-location: base\irtwqasynccallback_getparameters.htm

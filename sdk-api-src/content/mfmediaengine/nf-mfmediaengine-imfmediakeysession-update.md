@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySession.Update
-title: IMFMediaKeySession::Update
+title: IMFMediaKeySession::Update (mfmediaengine.h)
 author: windows-sdk-content
 description: Passes in a key value with any associated data required by the Content Decryption Module for the given key system.
 old-location: mf\imfmediakeysession_update.htm

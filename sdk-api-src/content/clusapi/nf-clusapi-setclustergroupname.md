@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterGroupName
-title: SetClusterGroupName function
+title: SetClusterGroupName function (clusapi.h)
 author: windows-sdk-content
 description: Sets the name for a group.
 old-location: mscs\setclustergroupname.htm

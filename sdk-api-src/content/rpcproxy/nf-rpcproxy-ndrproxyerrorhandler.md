@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrProxyErrorHandler
-title: NdrProxyErrorHandler function
+title: NdrProxyErrorHandler function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrProxyErrorHandler function maps an exception into an HRESULT, with RPC facility code.
 old-location: rpc\ndrproxyerrorhandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:textserv.ITextServices
-title: ITextServices
+title: ITextServices (textserv.h)
 author: windows-sdk-content
 description: Extends the Text Object Model (TOM) to provide extra functionality for windowless operation.
 old-location: controls\ITextServices.htm

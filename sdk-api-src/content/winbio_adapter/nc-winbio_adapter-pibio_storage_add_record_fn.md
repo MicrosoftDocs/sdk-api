@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_ADD_RECORD_FN
-title: PIBIO_STORAGE_ADD_RECORD_FN
+title: PIBIO_STORAGE_ADD_RECORD_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Adds a template to the database.
 old-location: secbiomet\storageadapteraddrecord.htm

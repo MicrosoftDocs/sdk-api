@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IStemmer.GenerateWordForms
-title: IStemmer::GenerateWordForms
+title: IStemmer::GenerateWordForms (indexsrv.h)
 author: windows-sdk-content
 description: Generates alternative forms for a word and puts these forms in the IWordFormSink object.
 old-location: search\_search_IStemmer_GenerateWordForms.htm

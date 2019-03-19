@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_INFO_QUEUE_FILTER
-title: D3D11_INFO_QUEUE_FILTER
+title: D3D11_INFO_QUEUE_FILTER (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Debug message filter; contains a lists of message types to allow or deny.
 old-location: direct3d11\d3d11_info_queue_filter.htm

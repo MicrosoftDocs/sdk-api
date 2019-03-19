@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_FILTER
-title: D3D10_FILTER
+title: D3D10_FILTER (d3d10.h)
 author: windows-sdk-content
 description: Filtering options during texture sampling.
 old-location: direct3d10\d3d10_filter.htm

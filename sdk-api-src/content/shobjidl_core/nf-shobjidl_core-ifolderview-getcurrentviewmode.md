@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetCurrentViewMode
-title: IFolderView::GetCurrentViewMode
+title: IFolderView::GetCurrentViewMode (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an address containing a value representing the folder's current view mode.
 old-location: shell\IFolderView_GetCurrentViewMode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.SetEventInterest
-title: ISensor::SetEventInterest
+title: ISensor::SetEventInterest (sensorsapi.h)
 author: windows-sdk-content
 description: Specifies the list of sensor events to receive.
 old-location: winsensors_com_ref\isensor_seteventinterest.htm

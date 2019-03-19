@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemModified
-title: IOfflineFilesEvents::ItemModified
+title: IOfflineFilesEvents::ItemModified (cscobj.h)
 author: windows-sdk-content
 description: Reports that an item in the Offline Files cache has been modified.
 old-location: of\iofflinefilesevents_itemmodified.htm

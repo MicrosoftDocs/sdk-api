@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12RootSignatureDeserializer.GetRootSignatureDesc
-title: ID3D12RootSignatureDeserializer::GetRootSignatureDesc
+title: ID3D12RootSignatureDeserializer::GetRootSignatureDesc (d3d12.h)
 author: windows-sdk-content
 description: Gets the layout of the root signature.
 old-location: direct3d12\id3d12rootsignaturedeserializer_getrootsignaturedesc.htm

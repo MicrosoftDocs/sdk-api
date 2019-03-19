@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLActivateProduct
-title: SLActivateProduct function
+title: SLActivateProduct function (slpublic.h)
 author: windows-sdk-content
 description: Acquires a use license from the Software License Server (SLS).
 old-location: security\slactivateproduct.htm

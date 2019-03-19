@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSelectedItem
-title: IFolderView2::GetSelectedItem
+title: IFolderView2::GetSelectedItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Locates the currently selected item at or after a given index.
 old-location: shell\IFolderView2_GetSelectedItem.htm

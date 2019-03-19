@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.SwapDeviceContextState
-title: ID3D11DeviceContext1::SwapDeviceContextState
+title: ID3D11DeviceContext1::SwapDeviceContextState (d3d11_1.h)
 author: windows-sdk-content
 description: Activates the given context state object and changes the current device behavior to Direct3D 11, Direct3D 10.1, or Direct3D 10.
 old-location: direct3d11\id3d11devicecontext1_swapdevicecontextstate.htm

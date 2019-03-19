@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationObjectModelPattern
-title: IUIAutomationObjectModelPattern
+title: IUIAutomationObjectModelPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to the underlying object model implemented by a control or application.
 old-location: winauto\uiauto_IUIAutomationObjectModelPattern.htm

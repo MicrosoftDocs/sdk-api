@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_StartTime
-title: ITDirectoryObjectConference::get_StartTime
+title: ITDirectoryObjectConference::get_StartTime (rend.h)
 author: windows-sdk-content
 description: The get_StartTime method gets the start time of the conference.
 old-location: tapi3\itdirectoryobjectconference_get_starttime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.CompleteTime
-title: IInertiaProcessor::CompleteTime
+title: IInertiaProcessor::CompleteTime (manipulations.h)
 author: windows-sdk-content
 description: Finishes the current manipulation at the given tick, stops inertia on the inertia processor, and raises the ManipulationCompleted event.
 old-location: wintouch\iinertiaprocessor_completetime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_AverageTimeToAnswer
-title: ITAgentSession::get_AverageTimeToAnswer
+title: ITAgentSession::get_AverageTimeToAnswer (tapi3cc.h)
 author: windows-sdk-content
 description: The get_AverageTimeToAnswer method gets the average time (in seconds) that calls waited to be answered.
 old-location: tapi3\itagentsession_get_averagetimetoanswer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Busy
-title: IPenInputPanel::get_Busy
+title: IPenInputPanel::get_Busy (peninputpanel.h)
 author: windows-sdk-content
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets a a value that indicates whether the PenInputPanel object is currently processing ink.
 old-location: tablet\peninputpanel_busy.htm

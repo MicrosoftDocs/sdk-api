@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateSyntheticPointerDevice
-title: CreateSyntheticPointerDevice function
+title: CreateSyntheticPointerDevice function (winuser.h)
 author: windows-sdk-content
 description: Configures the pointer injection device for the calling application, and initializes the maximum number of simultaneous pointers that the app can inject.
 old-location: input_pointerdevice\createsyntheticpointerdevice.htm

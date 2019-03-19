@@ -1,6 +1,6 @@
 ---
 UID: NE:taskschd._TASK_COMPATIBILITY
-title: TASK_COMPATIBILITY
+title: TASK_COMPATIBILITY (taskschd.h)
 author: windows-sdk-content
 description: Defines what versions of Task Scheduler or the AT command that the task is compatible with.
 old-location: taskschd\task_compatibility.htm

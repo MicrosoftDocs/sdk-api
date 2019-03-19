@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMREBARCHILDSIZE
-title: NMREBARCHILDSIZE
+title: NMREBARCHILDSIZE (commctrl.h)
 author: windows-sdk-content
 description: Contains information used in handling the RBN_CHILDSIZE notification code.
 old-location: controls\NMREBARCHILDSIZE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetThreadOptions
-title: DhcpSetThreadOptions function
+title: DhcpSetThreadOptions function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpSetThreadOptions function sets options on the currently executing DHCP thread.
 old-location: dhcp\dhcpsetthreadoptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISingleItemException.GetItemId
-title: ISingleItemException::GetItemId
+title: ISingleItemException::GetItemId (winsync.h)
 author: windows-sdk-content
 description: Gets the ID of the item that is specified in the exception.
 old-location: winsync\isingleitemexception_getitemid.htm

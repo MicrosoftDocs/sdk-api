@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetAnimation
-title: ITextFont::SetAnimation
+title: ITextFont::SetAnimation (tom.h)
 author: windows-sdk-content
 description: Sets the animation type.
 old-location: controls\ITextFont_SetAnimation.htm

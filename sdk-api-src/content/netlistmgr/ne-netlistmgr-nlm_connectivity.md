@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_CONNECTIVITY
-title: NLM_CONNECTIVITY
+title: NLM_CONNECTIVITY (netlistmgr.h)
 author: windows-sdk-content
 description: The NLM_Connectivity enumeration is a set of flags that provide notification whenever connectivity related parameters have changed.
 old-location: nla\nlm_connectivity.htm

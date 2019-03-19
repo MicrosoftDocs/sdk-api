@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbPrintfA
-title: StringCbPrintfA function
+title: StringCbPrintfA function (strsafe.h)
 author: windows-sdk-content
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcbprintf.htm

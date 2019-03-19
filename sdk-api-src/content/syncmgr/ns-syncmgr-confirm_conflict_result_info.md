@@ -1,6 +1,6 @@
 ---
 UID: NS:syncmgr.CONFIRM_CONFLICT_RESULT_INFO
-title: CONFIRM_CONFLICT_RESULT_INFO
+title: CONFIRM_CONFLICT_RESULT_INFO (syncmgr.h)
 author: windows-sdk-content
 description: Defines conflict result information structure.
 old-location: shell\CONFIRM_CONFLICT_RESULT_INFO.htm

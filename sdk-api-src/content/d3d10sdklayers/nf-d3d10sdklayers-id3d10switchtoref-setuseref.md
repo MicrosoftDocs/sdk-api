@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10SwitchToRef.SetUseRef
-title: ID3D10SwitchToRef::SetUseRef
+title: ID3D10SwitchToRef::SetUseRef (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Switch between a hardware and a software device.
 old-location: direct3d10\id3d10switchtoref_setuseref.htm

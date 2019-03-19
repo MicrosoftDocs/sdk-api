@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiOpenDeviceInterfaceRegKey
-title: SetupDiOpenDeviceInterfaceRegKey function
+title: SetupDiOpenDeviceInterfaceRegKey function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiOpenDeviceInterfaceRegKey function opens the registry subkey that is used by applications and drivers to store information that is specific to a device interface.
 old-location: devinst\setupdiopendeviceinterfaceregkey.htm

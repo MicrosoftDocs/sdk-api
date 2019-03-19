@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.INoMarshal
-title: INoMarshal
+title: INoMarshal (objidlbase.h)
 author: windows-sdk-content
 description: Marks an object that doesn't support being marshaled or stored in the Global Interface Table.
 old-location: com\inomarshal.htm

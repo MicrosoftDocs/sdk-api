@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement2.get_CachedLiveSetting
-title: IUIAutomationElement2::get_CachedLiveSetting
+title: IUIAutomationElement2::get_CachedLiveSetting (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the type of notifications, if any, that the element sends when the content of the element changes.
 old-location: winauto\uiauto_iuiautomationelement2_cachedlivesetting.htm

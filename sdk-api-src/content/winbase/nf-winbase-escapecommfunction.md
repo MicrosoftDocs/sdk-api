@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EscapeCommFunction
-title: EscapeCommFunction function
+title: EscapeCommFunction function (winbase.h)
 author: windows-sdk-content
 description: Directs the specified communications device to perform an extended function.
 old-location: base\escapecommfunction.htm

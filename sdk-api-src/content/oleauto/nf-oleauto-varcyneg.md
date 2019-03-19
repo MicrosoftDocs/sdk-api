@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarCyNeg
-title: VarCyNeg function
+title: VarCyNeg function (oleauto.h)
 author: windows-sdk-content
 description: Performs a logical negation on a variant of type currency.
 old-location: automat\varcyneg.htm

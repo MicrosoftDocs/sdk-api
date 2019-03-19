@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._ENG_TIME_FIELDS
-title: ENG_TIME_FIELDS
+title: ENG_TIME_FIELDS (winddi.h)
 author: windows-sdk-content
 description: The ENG_TIME_FIELDS structure is used by the EngQueryLocalTime function to return the local time.
 old-location: display\eng_time_fields.htm

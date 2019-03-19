@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.ReadLogNotification
-title: ReadLogNotification function
+title: ReadLogNotification function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: Retrieves notifications from the log manager. It retrieves a queued notification from the log manager immediately if a notification is available; otherwise the request remains pending until a notification is generated.
 old-location: fs\readlognotification.htm

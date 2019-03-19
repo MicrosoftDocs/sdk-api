@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.RemoveRecord
-title: IWMMutualExclusion2::RemoveRecord
+title: IWMMutualExclusion2::RemoveRecord (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveRecord method removes a record from the mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_removerecord.htm

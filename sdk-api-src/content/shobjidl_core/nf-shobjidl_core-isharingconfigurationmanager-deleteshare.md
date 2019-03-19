@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.DeleteShare
-title: ISharingConfigurationManager::DeleteShare
+title: ISharingConfigurationManager::DeleteShare (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes sharing from either the Users or Public folder.
 old-location: shell\ISharingConfigurationManager_DeleteShare.htm

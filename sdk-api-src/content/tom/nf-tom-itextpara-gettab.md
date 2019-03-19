@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetTab
-title: ITextPara::GetTab
+title: ITextPara::GetTab (tom.h)
 author: windows-sdk-content
 description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.
 old-location: controls\ITextPara_GetTab.htm

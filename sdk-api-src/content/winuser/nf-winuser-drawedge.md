@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DrawEdge
-title: DrawEdge function
+title: DrawEdge function (winuser.h)
 author: windows-sdk-content
 description: The DrawEdge function draws one or more edges of rectangle.
 old-location: gdi\drawedge.htm

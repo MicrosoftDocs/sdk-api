@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.media.streaming.TransportInformation
-title: TransportInformation
+title: TransportInformation (windows.media.streaming.h)
 author: windows-sdk-content
 description: Contains the current values of media playback transport-related information obtained from the DMR.
 old-location: mediastreaming\transportinformation.htm

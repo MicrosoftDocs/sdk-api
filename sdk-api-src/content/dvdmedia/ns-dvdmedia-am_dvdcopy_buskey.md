@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_BUSKEY
-title: AM_DVDCOPY_BUSKEY
+title: AM_DVDCOPY_BUSKEY (dvdmedia.h)
 author: windows-sdk-content
 description: Identifies the DVD bus key.
 old-location: dshow\am_dvdcopy_buskey.htm

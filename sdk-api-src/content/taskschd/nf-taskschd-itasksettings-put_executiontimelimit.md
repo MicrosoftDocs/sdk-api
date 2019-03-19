@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_ExecutionTimeLimit
-title: ITaskSettings::put_ExecutionTimeLimit
+title: ITaskSettings::put_ExecutionTimeLimit (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the amount of time that is allowed to complete the task.
 old-location: taskschd\itasksettings_executiontimelimit.htm

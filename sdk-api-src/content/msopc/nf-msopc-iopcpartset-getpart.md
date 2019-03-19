@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcPartSet.GetPart
-title: IOpcPartSet::GetPart
+title: IOpcPartSet::GetPart (msopc.h)
 author: windows-sdk-content
 description: Gets a part object, which represents a specified part, in the set.
 old-location: opc\iopcpartset_getpart.htm

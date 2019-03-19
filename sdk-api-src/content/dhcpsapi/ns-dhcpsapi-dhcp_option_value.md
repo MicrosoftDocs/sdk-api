@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_VALUE
-title: DHCP_OPTION_VALUE
+title: DHCP_OPTION_VALUE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_VALUE structure defines a DHCP option value (just the option data with an associated ID tag).
 old-location: dhcp\dhcp_option_value.htm

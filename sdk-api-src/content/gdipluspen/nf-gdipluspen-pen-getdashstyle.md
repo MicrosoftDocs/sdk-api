@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashStyle
-title: Pen::GetDashStyle
+title: Pen::GetDashStyle (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::GetDashStyle method gets the dash style currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashStyle_.htm

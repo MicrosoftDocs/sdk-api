@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMHeaderInfo2
-title: IWMHeaderInfo2
+title: IWMHeaderInfo2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMHeaderInfo2 interface exposes information about the codecs used to create the content in a file.The IWMHeaderInfo2 interface is implemented by the metadata editor object, the writer object, the reader object, and the synchronous reader object.
 old-location: wmformat\iwmheaderinfo2.htm

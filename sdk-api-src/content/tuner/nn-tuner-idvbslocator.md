@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IDVBSLocator
-title: IDVBSLocator
+title: IDVBSLocator (tuner.h)
 author: windows-sdk-content
 description: The IDVBSLocator interface is implemented on the DVBSLocator object.
 old-location: mstv\idvbslocator.htm

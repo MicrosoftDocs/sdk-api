@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SessionArbitrationEnumeration
-title: IWRdsProtocolConnection::SessionArbitrationEnumeration
+title: IWRdsProtocolConnection::SessionArbitrationEnumeration (wtsprotocol.h)
 author: windows-sdk-content
 description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.
 old-location: termserv\iwrdsprotocolconnection_sessionarbitrationenumeration.htm

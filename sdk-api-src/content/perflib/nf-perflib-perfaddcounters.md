@@ -1,6 +1,6 @@
 ---
 UID: NF:perflib.PerfAddCounters
-title: PerfAddCounters function
+title: PerfAddCounters function (perflib.h)
 author: windows-sdk-content
 description: Adds performance counter specifications to the specified query.
 old-location: perf\perfaddcounters.htm

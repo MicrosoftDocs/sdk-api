@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferDestination.Advise
-title: ITransferDestination::Advise
+title: ITransferDestination::Advise (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets up an advisory connection for notifications on the status of file operations.
 old-location: shell\ITransferDestination_Advise.htm

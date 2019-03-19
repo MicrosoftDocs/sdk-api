@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSsGetThreadHandle
-title: RpcSsGetThreadHandle function
+title: RpcSsGetThreadHandle function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSsGetThreadHandle function returns a thread handle for the stub memory&#8211;management environment.
 old-location: rpc\rpcssgetthreadhandle.htm

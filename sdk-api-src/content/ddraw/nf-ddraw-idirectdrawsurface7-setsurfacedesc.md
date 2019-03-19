@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetSurfaceDesc
-title: IDirectDrawSurface7::SetSurfaceDesc
+title: IDirectDrawSurface7::SetSurfaceDesc (ddraw.h)
 author: windows-sdk-content
 description: Sets the characteristics of an existing surface.
 old-location: directdraw\idirectdrawsurface7_setsurfacedesc.htm

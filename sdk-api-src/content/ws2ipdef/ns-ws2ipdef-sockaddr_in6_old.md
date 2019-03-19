@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2ipdef.sockaddr_in6_old
-title: sockaddr_in6_old
+title: sockaddr_in6_old (ws2ipdef.h)
 author: windows-sdk-content
 description: The sockaddr structure varies depending on the protocol selected.
 old-location: winsock\sockaddr_2.htm

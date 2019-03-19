@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendTaskPad.GetListPadInfo
-title: IExtendTaskPad::GetListPadInfo
+title: IExtendTaskPad::GetListPadInfo (mmc.h)
 author: windows-sdk-content
 description: The IExtendTaskPad::GetListPadInfo method is used for list-view taskpads only.
 old-location: mmc\iextendtaskpad_getlistpadinfo.htm

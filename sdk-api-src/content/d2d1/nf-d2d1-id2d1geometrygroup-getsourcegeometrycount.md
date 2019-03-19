@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GeometryGroup.GetSourceGeometryCount
-title: ID2D1GeometryGroup::GetSourceGeometryCount
+title: ID2D1GeometryGroup::GetSourceGeometryCount (d2d1.h)
 author: windows-sdk-content
 description: Indicates the number of geometry objects in the geometry group.
 old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometryCount.htm

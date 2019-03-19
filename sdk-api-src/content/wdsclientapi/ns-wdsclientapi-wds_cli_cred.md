@@ -1,6 +1,6 @@
 ---
 UID: NS:wdsclientapi.tagWDS_CLI_CRED
-title: WDS_CLI_CRED
+title: WDS_CLI_CRED (wdsclientapi.h)
 author: windows-sdk-content
 description: Contains credentials used to authorize a client session.
 old-location: wds\wds_cli_cred.htm

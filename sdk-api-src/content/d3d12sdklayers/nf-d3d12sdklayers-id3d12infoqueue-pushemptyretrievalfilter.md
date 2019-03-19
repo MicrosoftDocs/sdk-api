@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PushEmptyRetrievalFilter
-title: ID3D12InfoQueue::PushEmptyRetrievalFilter
+title: ID3D12InfoQueue::PushEmptyRetrievalFilter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Push an empty retrieval filter onto the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_pushemptyretrievalfilter.htm

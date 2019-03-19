@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_connected
-title: IWMPSyncDevice::get_connected
+title: IWMPSyncDevice::get_connected (wmp.h)
 author: windows-sdk-content
 description: The get_connected method retrieves a value indicating whether the device is connected to Windows Media Player.
 old-location: wmp\iwmpsyncdevice_get_connected.htm

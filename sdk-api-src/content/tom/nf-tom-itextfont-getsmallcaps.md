@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetSmallCaps
-title: ITextFont::GetSmallCaps
+title: ITextFont::GetSmallCaps (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are in small capital letters.
 old-location: controls\ITextFont_GetSmallCaps.htm

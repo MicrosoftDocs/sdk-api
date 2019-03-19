@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetUserData
-title: IWTSProtocolConnection::GetUserData
+title: IWTSProtocolConnection::GetUserData (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::GetUserData is no longer available. Instead, use IWRdsProtocolSettings::MergeSettings.
 old-location: termserv\iwtsprotocolconnection_getuserdata.htm

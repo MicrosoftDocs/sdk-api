@@ -1,6 +1,6 @@
 ---
 UID: NS:oleauto.__unnamed_struct_0
-title: NUMPARSE
+title: NUMPARSE (oleauto.h)
 author: windows-sdk-content
 description: Specifies numeric parsing information.
 old-location: automat\numparse.htm

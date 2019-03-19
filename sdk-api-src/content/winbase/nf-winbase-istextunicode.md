@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.IsTextUnicode
-title: IsTextUnicode function
+title: IsTextUnicode function (winbase.h)
 author: windows-sdk-content
 description: Determines if a buffer is likely to contain a form of Unicode text.
 old-location: intl\istextunicode.htm

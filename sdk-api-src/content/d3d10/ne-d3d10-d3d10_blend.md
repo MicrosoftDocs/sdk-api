@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_BLEND
-title: D3D10_BLEND
+title: D3D10_BLEND (d3d10.h)
 author: windows-sdk-content
 description: Blend options. A blend option identifies the data source and an optional pre-blend operation.
 old-location: direct3d10\d3d10_blend.htm

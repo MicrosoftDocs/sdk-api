@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.RegisterWaitHandleCallback
-title: IDirectManipulationUpdateManager::RegisterWaitHandleCallback
+title: IDirectManipulationUpdateManager::RegisterWaitHandleCallback (directmanipulation.h)
 author: windows-sdk-content
 description: Registers a callback that is triggered by a handle.
 old-location: directmanipulation\idirectmanipulationupdatemanager_registerwaithandlecallback.htm

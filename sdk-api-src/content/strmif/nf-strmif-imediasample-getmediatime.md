@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.GetMediaTime
-title: IMediaSample::GetMediaTime
+title: IMediaSample::GetMediaTime (strmif.h)
 author: windows-sdk-content
 description: The GetMediaTime method retrieves the media times for this sample.
 old-location: dshow\imediasample_getmediatime.htm

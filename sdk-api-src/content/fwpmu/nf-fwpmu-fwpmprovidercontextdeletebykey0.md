@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextDeleteByKey0
-title: FwpmProviderContextDeleteByKey0 function
+title: FwpmProviderContextDeleteByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Removes a provider context from the system.
 old-location: fwp\fwpmprovidercontextdeletebykey0_func.htm

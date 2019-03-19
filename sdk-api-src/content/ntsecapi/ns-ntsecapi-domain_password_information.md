@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._DOMAIN_PASSWORD_INFORMATION
-title: DOMAIN_PASSWORD_INFORMATION
+title: DOMAIN_PASSWORD_INFORMATION (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about a domain's password policy, such as the minimum length for passwords and how unique passwords must be.
 old-location: security\domain_password_information.htm

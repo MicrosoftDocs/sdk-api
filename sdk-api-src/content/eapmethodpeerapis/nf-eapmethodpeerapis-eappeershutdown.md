@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerShutdown
-title: EapPeerShutdown function
+title: EapPeerShutdown function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Shuts down the EAP method and prepares to unload its corresponding DLL.
 old-location: eaphost\eappeershutdown.htm

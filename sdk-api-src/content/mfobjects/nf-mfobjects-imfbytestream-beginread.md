@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.BeginRead
-title: IMFByteStream::BeginRead
+title: IMFByteStream::BeginRead (mfobjects.h)
 author: windows-sdk-content
 description: Begins an asynchronous read operation from the stream.
 old-location: mf\imfbytestream_beginread.htm

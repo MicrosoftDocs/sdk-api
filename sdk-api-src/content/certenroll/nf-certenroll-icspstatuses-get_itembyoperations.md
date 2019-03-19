@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByOperations
-title: ICspStatuses::get_ItemByOperations
+title: ICspStatuses::get_ItemByOperations (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspStatus object that has the same name as the provider specified on input and the same algorithm but identifies a different cryptographic operation.
 old-location: security\icspstatuses_itembyoperations_property.htm

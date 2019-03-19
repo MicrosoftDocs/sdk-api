@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetType
-title: IXpsOMShareable::GetType
+title: IXpsOMShareable::GetType (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the object type of the interface.
 old-location: xps\ixpsomshareable_gettype.htm

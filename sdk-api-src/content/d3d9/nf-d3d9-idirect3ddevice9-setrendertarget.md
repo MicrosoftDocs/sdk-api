@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetRenderTarget
-title: IDirect3DDevice9::SetRenderTarget
+title: IDirect3DDevice9::SetRenderTarget (d3d9.h)
 author: windows-sdk-content
 description: Sets a new color buffer for the device.
 old-location: direct3d9\idirect3ddevice9__setrendertarget.htm

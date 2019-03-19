@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginQueryStateVariable
-title: IUPnPServiceAsync::BeginQueryStateVariable
+title: IUPnPServiceAsync::BeginQueryStateVariable (upnp.h)
 author: windows-sdk-content
 description: BeginQueryStateVariable method initiates an asynchronous request for the state variable value from a specific service.
 old-location: upnp\iupnpserviceasync_beginquerystatevariable.htm

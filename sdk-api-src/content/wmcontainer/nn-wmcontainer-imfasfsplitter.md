@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFSplitter
-title: IMFASFSplitter
+title: IMFASFSplitter (wmcontainer.h)
 author: windows-sdk-content
 description: Provides methods to read data from an Advanced Systems Format (ASF) file.
 old-location: mf\imfasfsplitter.htm

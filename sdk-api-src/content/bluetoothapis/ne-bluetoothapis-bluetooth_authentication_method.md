@@ -1,6 +1,6 @@
 ---
 UID: NE:bluetoothapis._BLUETOOTH_AUTHENTICATION_METHOD
-title: BLUETOOTH_AUTHENTICATION_METHOD
+title: BLUETOOTH_AUTHENTICATION_METHOD (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_METHOD enumeration defines the supported authentication types during device pairing.
 old-location: bluetooth\bluetooth_authentication_method.htm

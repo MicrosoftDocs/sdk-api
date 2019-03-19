@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_SETTINGSCHANGEEVENT
-title: WPC_ARGS_SETTINGSCHANGEEVENT
+title: WPC_ARGS_SETTINGSCHANGEEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the changes to settings being made by a user.
 old-location: parcon\wpc_args_settingschangeevent.htm

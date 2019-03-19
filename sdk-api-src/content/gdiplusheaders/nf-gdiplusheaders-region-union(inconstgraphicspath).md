@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Union(IN const GraphicsPath)
-title: Region::Union(IN const GraphicsPath)
+title: Region::Union(IN const GraphicsPath) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of the specified path's interior.
 old-location: gdiplus\_gdiplus_CLASS_Region_Union_path_.htm

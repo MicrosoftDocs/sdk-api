@@ -1,6 +1,6 @@
 ---
 UID: NN:txlogpub.IFileBasedLogInit
-title: IFileBasedLogInit
+title: IFileBasedLogInit (txlogpub.h)
 author: windows-sdk-content
 description: Initializes an instance of a file based implementation of ILog.
 old-location: com\ifilebasedloginit.htm

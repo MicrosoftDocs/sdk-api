@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_TOKEN
-title: STORAGE_OFFLOAD_TOKEN
+title: STORAGE_OFFLOAD_TOKEN (winioctl.h)
 author: windows-sdk-content
 description: The token used to represent a portion of a file used in by offload read and write operations.
 old-location: base\storage_offload_token.htm

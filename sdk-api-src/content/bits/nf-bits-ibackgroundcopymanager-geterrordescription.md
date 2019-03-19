@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.GetErrorDescription
-title: IBackgroundCopyManager::GetErrorDescription
+title: IBackgroundCopyManager::GetErrorDescription (bits.h)
 author: windows-sdk-content
 description: Retrieves a description for the specified error code.
 old-location: bits\ibackgroundcopymanager_geterrordescription.htm

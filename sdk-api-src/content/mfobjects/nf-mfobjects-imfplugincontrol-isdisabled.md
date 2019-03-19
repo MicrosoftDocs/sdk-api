@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.IsDisabled
-title: IMFPluginControl::IsDisabled
+title: IMFPluginControl::IsDisabled (mfobjects.h)
 author: windows-sdk-content
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 old-location: mf\imfplugincontrol_imfplugincontrol__isdisabled.htm

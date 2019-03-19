@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_ArchiveFolder
-title: IFaxIncomingArchive::get_ArchiveFolder
+title: IFaxIncomingArchive::get_ArchiveFolder (faxcomex.h)
 author: windows-sdk-content
 description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived inbound faxes.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_archivefolder_cpp.htm

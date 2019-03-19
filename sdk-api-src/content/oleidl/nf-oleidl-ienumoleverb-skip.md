@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Skip
-title: IEnumOLEVERB::Skip
+title: IEnumOLEVERB::Skip (oleidl.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoleverb_skip.htm

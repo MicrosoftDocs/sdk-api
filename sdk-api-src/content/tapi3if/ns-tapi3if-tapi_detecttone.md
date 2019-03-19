@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi3if.TAPI_DETECTTONE
-title: TAPI_DETECTTONE
+title: TAPI_DETECTTONE (tapi3if.h)
 author: windows-sdk-content
 description: The TAPI_DETECTTONE structure describes a tone to be monitored. This is used as an entry in an array.
 old-location: tapi3\tapi_detecttone_str.htm

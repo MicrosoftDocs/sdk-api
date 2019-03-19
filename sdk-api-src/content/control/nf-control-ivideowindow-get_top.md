@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_Top
-title: IVideoWindow::get_Top
+title: IVideoWindow::get_Top (control.h)
 author: windows-sdk-content
 description: The get_Top method retrieves the video window's y-coordinate.
 old-location: dshow\ivideowindow_get_top.htm

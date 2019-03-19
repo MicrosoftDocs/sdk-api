@@ -1,6 +1,6 @@
 ---
 UID: NS:appmgmt._LOCALMANAGEDAPPLICATION
-title: LOCALMANAGEDAPPLICATION
+title: LOCALMANAGEDAPPLICATION (appmgmt.h)
 author: windows-sdk-content
 description: The LOCALMANAGEDAPPLICATION structure describes a managed application installed for a user or a computer. Returned by the GetLocalManagedApplications function.
 old-location: policy\localmanagedapplication_str.htm

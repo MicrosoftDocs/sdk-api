@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolListenerCallback
-title: IWTSProtocolListenerCallback
+title: IWTSProtocolListenerCallback (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolListenerCallback is no longer available. Instead, use IWRdsProtocolListenerCallback.
 old-location: termserv\iwtsprotocollistenercallback.htm

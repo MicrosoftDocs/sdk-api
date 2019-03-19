@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11_3.CD3D11_QUERY_DESC1
-title: CD3D11_QUERY_DESC1
+title: CD3D11_QUERY_DESC1 (d3d11_3.h)
 author: windows-sdk-content
 description: Describes a query.
 old-location: direct3d11\d3d11_query_desc1.htm

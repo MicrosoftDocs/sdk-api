@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetStorageFilter
-title: IDXGIInfoQueue::GetStorageFilter
+title: IDXGIInfoQueue::GetStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Gets the storage filter at the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_getstoragefilter.htm

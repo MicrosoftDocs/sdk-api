@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_BITMAP_BRUSH_PROPERTIES1
-title: D2D1_BITMAP_BRUSH_PROPERTIES1
+title: D2D1_BITMAP_BRUSH_PROPERTIES1 (d2d1_1.h)
 author: windows-sdk-content
 description: Describes the extend modes and the interpolation mode of an ID2D1BitmapBrush.
 old-location: direct2d\d2d1_bitmap_brush_properties1.htm

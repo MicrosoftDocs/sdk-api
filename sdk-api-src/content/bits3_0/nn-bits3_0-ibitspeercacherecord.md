@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IBitsPeerCacheRecord
-title: IBitsPeerCacheRecord
+title: IBitsPeerCacheRecord (bits3_0.h)
 author: windows-sdk-content
 description: Use IBitsPeerCacheRecord to get information about a file in the cache.
 old-location: bits\ibitspeercacherecord.htm

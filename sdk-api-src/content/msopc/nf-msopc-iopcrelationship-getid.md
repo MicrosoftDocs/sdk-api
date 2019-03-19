@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetId
-title: IOpcRelationship::GetId
+title: IOpcRelationship::GetId (msopc.h)
 author: windows-sdk-content
 description: Gets the unique identifier of the relationship.
 old-location: opc\iopcrelationship_getid.htm

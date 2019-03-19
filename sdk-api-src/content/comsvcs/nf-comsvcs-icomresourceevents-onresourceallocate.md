@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceAllocate
-title: IComResourceEvents::OnResourceAllocate
+title: IComResourceEvents::OnResourceAllocate (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an existing resource is allocated.
 old-location: cos\icomresourceevents_onresourceallocate.htm

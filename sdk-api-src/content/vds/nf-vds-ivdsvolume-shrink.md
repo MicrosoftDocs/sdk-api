@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolume.Shrink
-title: IVdsVolume::Shrink
+title: IVdsVolume::Shrink (vds.h)
 author: windows-sdk-content
 description: Reduces the size of the volume and all plexes, and returns the released extents to free space.
 old-location: base\ivdsvolume_shrink.htm

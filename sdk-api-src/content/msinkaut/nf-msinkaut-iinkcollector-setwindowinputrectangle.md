@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.SetWindowInputRectangle
-title: IInkCollector::SetWindowInputRectangle
+title: IInkCollector::SetWindowInputRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Sets the window rectangle, in pixels, within which ink is drawn.
 old-location: tablet\inkcollector_setwindowinputrectangle.htm

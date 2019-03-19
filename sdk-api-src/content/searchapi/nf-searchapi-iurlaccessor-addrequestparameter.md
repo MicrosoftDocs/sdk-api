@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.AddRequestParameter
-title: IUrlAccessor::AddRequestParameter
+title: IUrlAccessor::AddRequestParameter (searchapi.h)
 author: windows-sdk-content
 description: Requests a property-value set.
 old-location: search\_search_IUrlAccessor_AddRequestParameter.htm

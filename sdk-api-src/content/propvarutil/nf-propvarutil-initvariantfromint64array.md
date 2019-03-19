@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitVariantFromInt64Array
-title: InitVariantFromInt64Array function
+title: InitVariantFromInt64Array function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a VARIANT structure with an array of 64-bit integer values.
 old-location: properties\InitVariantFromInt64Array.htm

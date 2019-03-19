@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.InitializeTransform
-title: IMFDeviceTransform::InitializeTransform
+title: IMFDeviceTransform::InitializeTransform (mftransform.h)
 author: windows-sdk-content
 description: InitializeTransform is called to initialize the Device MFT.
 old-location: stream\imfdevicetransform_initializetransform.htm

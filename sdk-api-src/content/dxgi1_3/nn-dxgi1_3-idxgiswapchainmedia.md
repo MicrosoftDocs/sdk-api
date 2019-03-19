@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_3.IDXGISwapChainMedia
-title: IDXGISwapChainMedia
+title: IDXGISwapChainMedia (dxgi1_3.h)
 author: windows-sdk-content
 description: This swap chain interface allows desktop media applications to request a seamless change to a specific refresh rate.
 old-location: direct3ddxgi\idxgiswapchainmedia.htm

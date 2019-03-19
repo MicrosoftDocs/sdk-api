@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllEncodeAlgorithm
-title: CryptXmlDllEncodeAlgorithm
+title: CryptXmlDllEncodeAlgorithm (cryptxml.h)
 author: windows-sdk-content
 description: Encodes SignatureMethod or DigestMethod elements for agile algorithms with default parameters.
 old-location: security\cryptxmldllencodealgorithm.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.RegisterAudioSessionNotification
-title: IAudioSessionControl::RegisterAudioSessionNotification
+title: IAudioSessionControl::RegisterAudioSessionNotification (audiopolicy.h)
 author: windows-sdk-content
 description: The RegisterAudioSessionNotification method registers the client to receive notifications of session events, including changes in the stream state.
 old-location: coreaudio\iaudiosessioncontrol_registeraudiosessionnotification.htm

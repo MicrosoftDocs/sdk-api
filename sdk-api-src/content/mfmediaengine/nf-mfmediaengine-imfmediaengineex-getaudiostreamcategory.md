@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetAudioStreamCategory
-title: IMFMediaEngineEx::GetAudioStreamCategory
+title: IMFMediaEngineEx::GetAudioStreamCategory (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the audio stream category used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getaudiostreamcategory.htm

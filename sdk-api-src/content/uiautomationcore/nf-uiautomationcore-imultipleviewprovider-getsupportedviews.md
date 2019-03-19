@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IMultipleViewProvider.GetSupportedViews
-title: IMultipleViewProvider::GetSupportedViews
+title: IMultipleViewProvider::GetSupportedViews (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a collection of control-specific view identifiers.
 old-location: winauto\uiauto_IMultipleViewProvider_GetSupportedViews.htm

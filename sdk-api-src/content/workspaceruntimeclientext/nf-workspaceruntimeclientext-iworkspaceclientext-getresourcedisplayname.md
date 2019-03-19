@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntimeclientext.IWorkspaceClientExt.GetResourceDisplayName
-title: IWorkspaceClientExt::GetResourceDisplayName
+title: IWorkspaceClientExt::GetResourceDisplayName (workspaceruntimeclientext.h)
 author: windows-sdk-content
 description: Returns the display name of the custom client in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceclientext_getresourcedisplayname.htm

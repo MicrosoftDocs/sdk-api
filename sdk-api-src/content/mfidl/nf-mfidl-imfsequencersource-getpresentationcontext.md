@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.GetPresentationContext
-title: IMFSequencerSource::GetPresentationContext
+title: IMFSequencerSource::GetPresentationContext (mfidl.h)
 author: windows-sdk-content
 description: Maps a presentation descriptor to its associated sequencer element identifier and the topology it represents.
 old-location: mf\imfsequencersource_getpresentationcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.DestroyRecognizer
-title: DestroyRecognizer function
+title: DestroyRecognizer function (recapis.h)
 author: windows-sdk-content
 description: Destroys a recognizer.
 old-location: tablet\destroyrecognizer.htm

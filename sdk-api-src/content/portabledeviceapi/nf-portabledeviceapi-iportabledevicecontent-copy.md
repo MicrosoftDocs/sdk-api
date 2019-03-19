@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Copy
-title: IPortableDeviceContent::Copy
+title: IPortableDeviceContent::Copy (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Copy method copies objects from one location on a device to another.
 old-location: wpdsdk\iportabledevicecontent_copy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccount.ListenToAccountEvents
-title: IFaxAccount::ListenToAccountEvents
+title: IFaxAccount::ListenToAccountEvents (faxcomex.h)
 author: windows-sdk-content
 description: Sets the flags of a FAX_ACCOUNT_EVENTS_TYPE_ENUM variable that represents the events for which the account is listening.
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_listentoaccountevents_cpp.htm

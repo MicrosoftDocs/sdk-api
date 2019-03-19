@@ -1,6 +1,6 @@
 ---
 UID: NS:cchannel.tagCHANNEL_ENTRY_POINTS
-title: CHANNEL_ENTRY_POINTS
+title: CHANNEL_ENTRY_POINTS (cchannel.h)
 author: windows-sdk-content
 description: Contains pointers to the functions called by a client-side DLL to access virtual channels.
 old-location: termserv\channel_entry_points_str.htm

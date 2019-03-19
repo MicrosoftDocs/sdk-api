@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumTypesByNameW
-title: SymEnumTypesByNameW function
+title: SymEnumTypesByNameW function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all user-defined types.
 old-location: base\symenumtypesbyname.htm

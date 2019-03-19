@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateSessionObject
-title: ITsSbProvider::CreateSessionObject
+title: ITsSbProvider::CreateSessionObject (sbtsv.h)
 author: windows-sdk-content
 description: Plug-ins can use the CreateSessionObject method to create an ITsSbSession session object.
 old-location: termserv\itssbprovider_createsessionobject.htm

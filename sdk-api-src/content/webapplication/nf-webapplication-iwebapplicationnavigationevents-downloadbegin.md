@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DownloadBegin
-title: IWebApplicationNavigationEvents::DownloadBegin
+title: IWebApplicationNavigationEvents::DownloadBegin (webapplication.h)
 author: windows-sdk-content
 description: Download of a page has started.
 old-location: debug\iwebapplicationnavigationevents_downloadbegin.htm

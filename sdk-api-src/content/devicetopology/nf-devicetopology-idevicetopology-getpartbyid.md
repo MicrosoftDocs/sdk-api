@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetPartById
-title: IDeviceTopology::GetPartById
+title: IDeviceTopology::GetPartById (devicetopology.h)
 author: windows-sdk-content
 description: The GetPartById method gets a part that is identified by its local ID.
 old-location: coreaudio\idevicetopology_getpartbyid.htm

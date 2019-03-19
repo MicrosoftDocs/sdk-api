@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CREATEVPORTDATA
-title: DD_CREATEVPORTDATA
+title: DD_CREATEVPORTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CREATEVPORTDATA structure contains the information necessary to describe the video port extensions (VPE) object being created.
 old-location: display\dd_createvportdata.htm

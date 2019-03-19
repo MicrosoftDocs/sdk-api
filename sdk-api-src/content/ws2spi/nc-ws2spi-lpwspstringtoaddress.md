@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPWSPSTRINGTOADDRESS
-title: LPWSPSTRINGTOADDRESS
+title: LPWSPSTRINGTOADDRESS (ws2spi.h)
 author: windows-sdk-content
 description: The WSPStringToAddress function converts a human-readable numeric string to a socket address structure (sockaddr) suitable to passing to Windows Sockets routines that take such a structure.
 old-location: winsock\wspstringtoaddress_2.htm

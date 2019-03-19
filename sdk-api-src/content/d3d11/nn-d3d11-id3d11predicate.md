@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11Predicate
-title: ID3D11Predicate
+title: ID3D11Predicate (d3d11.h)
 author: windows-sdk-content
 description: A predicate interface determines whether geometry should be processed depending on the results of a previous draw call.
 old-location: direct3d11\id3d11predicate.htm

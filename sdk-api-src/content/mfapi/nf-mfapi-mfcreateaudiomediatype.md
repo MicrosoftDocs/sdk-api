@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateAudioMediaType
-title: MFCreateAudioMediaType function
+title: MFCreateAudioMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Creates an audio media type from a WAVEFORMATEX structure.
 old-location: mf\mfcreateaudiomediatype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_WINDOW_STATE
-title: D2D1_WINDOW_STATE
+title: D2D1_WINDOW_STATE (d2d1.h)
 author: windows-sdk-content
 description: Describes whether a window is occluded.
 old-location: direct2d\D2D1_WINDOW_STATE.htm

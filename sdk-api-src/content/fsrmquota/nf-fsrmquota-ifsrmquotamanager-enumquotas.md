@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.EnumQuotas
-title: IFsrmQuotaManager::EnumQuotas
+title: IFsrmQuotaManager::EnumQuotas (fsrmquota.h)
 author: windows-sdk-content
 description: Enumerates the quotas for the specified directory and any quotas associated with its subdirectories (recursively).
 old-location: fsrm\ifsrmquotamanager_enumquotas.htm

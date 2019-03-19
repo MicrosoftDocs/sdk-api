@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseDigest
-title: IWSManEx::SessionFlagUseDigest
+title: IWSManEx::SessionFlagUseDigest (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseDigest for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusedigest.htm

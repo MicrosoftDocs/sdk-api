@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageName
-title: WdsCliGetImageName function
+title: WdsCliGetImageName function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the name of the current image.
 old-location: wds\wdscligetimagename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation.GetObjectInformation
-title: ISecurityInformation::GetObjectInformation
+title: ISecurityInformation::GetObjectInformation (aclui.h)
 author: windows-sdk-content
 description: The GetObjectInformation method requests information that the access control editor uses to initialize its pages and to determine the editing options available to the user.
 old-location: security\isecurityinformation_getobjectinformation.htm

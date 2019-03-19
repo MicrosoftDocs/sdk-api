@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._TCP_INITIAL_RTO_PARAMETERS
-title: TCP_INITIAL_RTO_PARAMETERS
+title: TCP_INITIAL_RTO_PARAMETERS (mstcpip.h)
 author: windows-sdk-content
 description: Specifies data used by the SIO_TCP_INITIAL_RTO IOCTL to configure initial re-transmission timeout (RTO) parameters to be used on the socket.
 old-location: winsock\tcp_initial_rto_parameters.htm

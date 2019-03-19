@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportDiagnosticsPolicy.put_Enabled
-title: IWdsTransportDiagnosticsPolicy::put_Enabled
+title: IWdsTransportDiagnosticsPolicy::put_Enabled (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives or sets a value that enables a WDS client to configure diagnostic logging on the server.
 old-location: wds\iwdstransportdiagnosticspolicy_enabled.htm

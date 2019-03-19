@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetContext
-title: IWSDHttpMessageParameters::GetContext
+title: IWSDHttpMessageParameters::GetContext (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getcontext.htm

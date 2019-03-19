@@ -1,6 +1,6 @@
 ---
 UID: NF:dsparse.DsIsMangledDnA
-title: DsIsMangledDnA function
+title: DsIsMangledDnA function (dsparse.h)
 author: windows-sdk-content
 description: The DsIsMangledDn function determines if the first relative distinguished name (RDN) in a distinguished name (DN) is a mangled name of a given type.
 old-location: ad\dsismangleddn.htm

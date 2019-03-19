@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_NumberOfACDCalls
-title: ITAgent::get_NumberOfACDCalls
+title: ITAgent::get_NumberOfACDCalls (tapi3cc.h)
 author: windows-sdk-content
 description: The get_NumberOfACDCalls method gets the number of ACD calls handled by this agent across all sessions.
 old-location: tapi3\itagent_get_numberofacdcalls.htm

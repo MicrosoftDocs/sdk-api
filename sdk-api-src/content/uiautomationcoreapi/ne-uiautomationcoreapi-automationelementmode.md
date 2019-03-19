@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.AutomationElementMode
-title: AutomationElementMode
+title: AutomationElementMode (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Contains values that specify the type of reference to use when returning UI Automation elements.
 old-location: winauto\uiauto_AutomationElementModeEnum.htm

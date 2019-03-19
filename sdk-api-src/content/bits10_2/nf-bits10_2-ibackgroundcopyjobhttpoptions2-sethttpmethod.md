@@ -1,6 +1,6 @@
 ---
 UID: NF:bits10_2.IBackgroundCopyJobHttpOptions2.SetHttpMethod
-title: IBackgroundCopyJobHttpOptions2::SetHttpMethod
+title: IBackgroundCopyJobHttpOptions2::SetHttpMethod (bits10_2.h)
 author: windows-sdk-content
 description: Overrides the default HTTP method used for a BITS transfer.
 old-location: bits\ibackgroundcopyjobhttpoptions2_sethttpmethod.htm

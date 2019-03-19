@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupWriteTextLog
-title: SetupWriteTextLog function
+title: SetupWriteTextLog function (setupapi.h)
 author: windows-sdk-content
 description: The SetupWriteTextLog function writes a log entry in a SetupAPI text log.
 old-location: devinst\setupwritetextlog.htm

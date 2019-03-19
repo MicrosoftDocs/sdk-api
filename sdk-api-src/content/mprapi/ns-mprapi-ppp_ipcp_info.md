@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_IPCP_INFO
-title: PPP_IPCP_INFO
+title: PPP_IPCP_INFO (mprapi.h)
 author: windows-sdk-content
 description: The PPP_IPCP_INFO structure contains the result of a PPP Internet Protocol (IP) negotiation.
 old-location: rras\ppp_ipcp_info.htm

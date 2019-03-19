@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcPart
-title: IOpcPart
+title: IOpcPart (msopc.h)
 author: windows-sdk-content
 description: Represents a part that contains data and is not a Relationships part.
 old-location: opc\iopcpart.htm

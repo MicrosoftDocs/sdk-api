@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.RtlEncryptMemory
-title: RtlEncryptMemory function
+title: RtlEncryptMemory function (ntsecapi.h)
 author: windows-sdk-content
 description: Encrypts memory contents.
 old-location: security\rtlencryptmemory.htm

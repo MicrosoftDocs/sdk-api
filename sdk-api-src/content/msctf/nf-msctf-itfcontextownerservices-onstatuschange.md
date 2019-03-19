@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContextOwnerServices.OnStatusChange
-title: ITfContextOwnerServices::OnStatusChange
+title: ITfContextOwnerServices::OnStatusChange (msctf.h)
 author: windows-sdk-content
 description: The ITfContextOwnerServices::OnStatusChange method is called by the context owner when the dwDynamicFlags member of the TS_STATUS structure returned by the ITfContextOwner::GetStatus method changes.
 old-location: tsf\itfcontextownerservices_onstatuschange.htm

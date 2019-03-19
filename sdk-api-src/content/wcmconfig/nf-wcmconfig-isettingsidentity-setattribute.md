@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.SetAttribute
-title: ISettingsIdentity::SetAttribute
+title: ISettingsIdentity::SetAttribute (wcmconfig.h)
 author: windows-sdk-content
 description: Sets an identity attribute for a namespace identity.
 old-location: smi\isettingsidentity_setattribute.htm

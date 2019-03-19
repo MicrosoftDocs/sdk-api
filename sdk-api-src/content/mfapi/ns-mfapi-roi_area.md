@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi._ROI_AREA
-title: ROI_AREA
+title: ROI_AREA (mfapi.h)
 author: windows-sdk-content
 description: Defines a regions of interest.
 old-location: mf\roi_area.htm

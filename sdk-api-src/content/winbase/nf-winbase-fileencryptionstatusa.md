@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FileEncryptionStatusA
-title: FileEncryptionStatusA function
+title: FileEncryptionStatusA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the encryption status of the specified file.
 old-location: fs\fileencryptionstatus.htm

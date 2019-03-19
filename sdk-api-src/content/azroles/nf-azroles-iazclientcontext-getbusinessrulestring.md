@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.GetBusinessRuleString
-title: IAzClientContext::GetBusinessRuleString
+title: IAzClientContext::GetBusinessRuleString (azroles.h)
 author: windows-sdk-content
 description: Returns the application-specific string for the business rule (BizRule).
 old-location: security\iazclientcontext_getbusinessrulestring.htm

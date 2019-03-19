@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_AUDIO
-title: CERT_LOGOTYPE_AUDIO
+title: CERT_LOGOTYPE_AUDIO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about an audio logotype.
 old-location: security\cert_logotype_audio.htm

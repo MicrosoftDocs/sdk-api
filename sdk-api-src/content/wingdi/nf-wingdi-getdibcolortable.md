@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetDIBColorTable
-title: GetDIBColorTable function
+title: GetDIBColorTable function (wingdi.h)
 author: windows-sdk-content
 description: The GetDIBColorTable function retrieves RGB (red, green, blue) color values from a range of entries in the color table of the DIB section bitmap that is currently selected into a specified device context.
 old-location: gdi\getdibcolortable.htm

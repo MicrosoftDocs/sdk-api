@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
-title: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
+title: CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT (clusapi.h)
 author: windows-sdk-content
 description: Specifies information about the last time a group was moved to another node.
 old-location: mscs\clusctl_group_get_last_move_time_output.htm

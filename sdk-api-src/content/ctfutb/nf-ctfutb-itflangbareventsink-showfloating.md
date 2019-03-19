@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.ShowFloating
-title: ITfLangBarEventSink::ShowFloating
+title: ITfLangBarEventSink::ShowFloating (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarEventSink::ShowFloating method
 old-location: tsf\itflangbareventsink_showfloating.htm

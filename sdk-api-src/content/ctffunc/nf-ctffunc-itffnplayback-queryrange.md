@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnPlayBack.QueryRange
-title: ITfFnPlayBack::QueryRange
+title: ITfFnPlayBack::QueryRange (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnPlayBack::QueryRange method
 old-location: tsf\itffnplayback_queryrange.htm

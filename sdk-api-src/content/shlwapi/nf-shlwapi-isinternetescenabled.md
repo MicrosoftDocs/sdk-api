@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IsInternetESCEnabled
-title: IsInternetESCEnabled function
+title: IsInternetESCEnabled function (shlwapi.h)
 author: windows-sdk-content
 description: Determines whether Windows Internet Explorer is in the Enhanced Security Configuration.
 old-location: shell\IsInternetESCEnabled.htm

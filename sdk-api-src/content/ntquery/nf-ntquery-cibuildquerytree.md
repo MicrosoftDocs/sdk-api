@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.CIBuildQueryTree
-title: CIBuildQueryTree function
+title: CIBuildQueryTree function (ntquery.h)
 author: windows-sdk-content
 description: Builds a query restriction tree for a Command object.
 old-location: indexsrv\cibuildquerytree.htm

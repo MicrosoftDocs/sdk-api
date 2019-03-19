@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComMethodEvents.OnMethodCall
-title: IComMethodEvents::OnMethodCall
+title: IComMethodEvents::OnMethodCall (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an object's method is called.
 old-location: cos\icommethodevents_onmethodcall.htm

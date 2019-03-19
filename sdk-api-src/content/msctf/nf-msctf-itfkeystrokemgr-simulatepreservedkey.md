@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.SimulatePreservedKey
-title: ITfKeystrokeMgr::SimulatePreservedKey
+title: ITfKeystrokeMgr::SimulatePreservedKey (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::SimulatePreservedKey method
 old-location: tsf\itfkeystrokemgr_simulatepreservedkey.htm

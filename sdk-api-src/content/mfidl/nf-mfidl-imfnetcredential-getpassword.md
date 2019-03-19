@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredential.GetPassword
-title: IMFNetCredential::GetPassword
+title: IMFNetCredential::GetPassword (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the password.
 old-location: mf\imfnetcredential_getpassword.htm

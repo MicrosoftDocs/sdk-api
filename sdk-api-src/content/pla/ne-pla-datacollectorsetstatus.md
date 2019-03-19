@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0004
-title: DataCollectorSetStatus
+title: DataCollectorSetStatus (pla.h)
 author: windows-sdk-content
 description: Defines the running status of the data collector set.
 old-location: pla\datacollectorsetstatus.htm

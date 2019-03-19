@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.NetAddr_SetAllowType
-title: NetAddr_SetAllowType macro
+title: NetAddr_SetAllowType macro (shellapi.h)
 author: windows-sdk-content
 description: Sets the network address types that a specified network address control accepts.
 old-location: shell\NetAddr_SetAllowType.htm

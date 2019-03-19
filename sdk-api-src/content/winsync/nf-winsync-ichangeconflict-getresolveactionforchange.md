@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeConflict.GetResolveActionForChange
-title: IChangeConflict::GetResolveActionForChange
+title: IChangeConflict::GetResolveActionForChange (winsync.h)
 author: windows-sdk-content
 description: Gets the conflict resolution action for the conflict.
 old-location: winsync\ichangeconflict_getresolveactionforchange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.DeactivateProfile
-title: ITfInputProcessorProfileMgr::DeactivateProfile
+title: ITfInputProcessorProfileMgr::DeactivateProfile (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::DeactivateProfile method deactivates the specified text service's profile or keyboard layout.
 old-location: tsf\itfinputprocessorprofilemgr_deactivateprofile.htm

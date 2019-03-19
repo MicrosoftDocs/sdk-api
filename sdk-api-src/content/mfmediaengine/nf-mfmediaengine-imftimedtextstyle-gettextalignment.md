@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetTextAlignment
-title: IMFTimedTextStyle::GetTextAlignment
+title: IMFTimedTextStyle::GetTextAlignment (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the text alignment of the timed-text style.
 old-location: mf\imftimedtextstyle_gettextalignment.htm

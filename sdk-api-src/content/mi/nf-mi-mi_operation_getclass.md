@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Operation_GetClass
-title: MI_Operation_GetClass function
+title: MI_Operation_GetClass function (mi.h)
 author: windows-sdk-content
 description: Gets a synchronous result for a class operation.
 old-location: wmi_v2\mi_operation_getclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsHwProviderType
-title: IVdsHwProviderType
+title: IVdsHwProviderType (vds.h)
 author: windows-sdk-content
 description: Provides a method to retrieve the type of hardware provider.
 old-location: base\ivdshwprovidertype.htm

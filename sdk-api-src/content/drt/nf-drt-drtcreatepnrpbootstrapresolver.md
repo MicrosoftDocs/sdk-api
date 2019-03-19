@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtCreatePnrpBootstrapResolver
-title: DrtCreatePnrpBootstrapResolver function
+title: DrtCreatePnrpBootstrapResolver function (drt.h)
 author: windows-sdk-content
 description: DrtCreatePnrpBootstrapResolver.
 old-location: p2p\drtcreatepnrpbootstrapresolver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Stop
-title: IWMReader::Stop
+title: IWMReader::Stop (wmsdkidl.h)
 author: windows-sdk-content
 description: The Stop method stops reading the file.
 old-location: wmformat\iwmreader_stop.htm

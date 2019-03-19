@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHLoadIndirectString
-title: SHLoadIndirectString function
+title: SHLoadIndirectString function (shlwapi.h)
 author: windows-sdk-content
 description: Extracts a specified text resource when given that resource in the form of an indirect string (a string that begins with the '@' symbol).
 old-location: shell\SHLoadIndirectString.htm

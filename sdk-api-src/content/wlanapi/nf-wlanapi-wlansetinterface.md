@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetInterface
-title: WlanSetInterface function
+title: WlanSetInterface function (wlanapi.h)
 author: windows-sdk-content
 description: Sets user-configurable parameters.
 old-location: nwifi\wlansetinterface.htm

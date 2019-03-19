@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_FinalDisposition
-title: ITQueue::get_FinalDisposition
+title: ITQueue::get_FinalDisposition (tapi3cc.h)
 author: windows-sdk-content
 description: The get_FinalDisposition method gets the total number of calls reaching the bottom of a call guide during the current measurement period.
 old-location: tapi3\itqueue_get_finaldisposition.htm

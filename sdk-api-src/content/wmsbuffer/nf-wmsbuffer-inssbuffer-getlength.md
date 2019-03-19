@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetLength
-title: INSSBuffer::GetLength
+title: INSSBuffer::GetLength (wmsbuffer.h)
 author: windows-sdk-content
 description: The GetLength method retrieves the size of the used portion of the buffer controlled by the buffer object.
 old-location: wmformat\inssbuffer_getlength.htm

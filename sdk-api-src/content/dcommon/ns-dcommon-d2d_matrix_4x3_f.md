@@ -1,6 +1,6 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_4X3_F
-title: D2D_MATRIX_4X3_F
+title: D2D_MATRIX_4X3_F (dcommon.h)
 author: windows-sdk-content
 description: Describes a 4-by-3 floating point matrix.
 old-location: direct2d\d2d_matrix_4x3_f.htm

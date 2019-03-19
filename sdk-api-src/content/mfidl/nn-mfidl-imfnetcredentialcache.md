@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFNetCredentialCache
-title: IMFNetCredentialCache
+title: IMFNetCredentialCache (mfidl.h)
 author: windows-sdk-content
 description: Gets credentials from the credential cache.
 old-location: mf\imfnetcredentialcache.htm

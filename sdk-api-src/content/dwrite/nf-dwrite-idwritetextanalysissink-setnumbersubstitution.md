@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetNumberSubstitution
-title: IDWriteTextAnalysisSink::SetNumberSubstitution
+title: IDWriteTextAnalysisSink::SetNumberSubstitution (dwrite.h)
 author: windows-sdk-content
 description: Sets the number substitution on the text range affected by the text analysis.
 old-location: directwrite\idwritetextanalysissink_setnumbersubstitution.htm

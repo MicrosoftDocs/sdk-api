@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IPrincipal
-title: IPrincipal
+title: IPrincipal (taskschd.h)
 author: windows-sdk-content
 description: Provides the security credentials for a principal.
 old-location: taskschd\iprincipal.htm

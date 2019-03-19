@@ -1,6 +1,6 @@
 ---
 UID: NF:restartmanager.RmGetFilterList
-title: RmGetFilterList function
+title: RmGetFilterList function (restartmanager.h)
 author: windows-sdk-content
 description: Lists the modifications to shutdown and restart actions that have already been applied by the RmAddFilter function.
 old-location: rstmgr\rmgetfilterlist.htm

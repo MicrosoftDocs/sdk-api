@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.Update
-title: ITextDocument2::Update
+title: ITextDocument2::Update (tom.h)
 author: windows-sdk-content
 description: Updates the selection and caret.
 old-location: controls\itextdocument2_update.htm

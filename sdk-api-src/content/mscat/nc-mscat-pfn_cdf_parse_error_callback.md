@@ -1,6 +1,6 @@
 ---
 UID: NC:mscat.PFN_CDF_PARSE_ERROR_CALLBACK
-title: PFN_CDF_PARSE_ERROR_CALLBACK
+title: PFN_CDF_PARSE_ERROR_CALLBACK (mscat.h)
 author: windows-sdk-content
 description: Called for Catalog Definition Function errors while parsing a catalog definition file (CDF).
 old-location: security\pfn_cdf_parse_error_callback.htm

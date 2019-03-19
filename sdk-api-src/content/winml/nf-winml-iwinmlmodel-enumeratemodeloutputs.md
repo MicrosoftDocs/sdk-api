@@ -1,6 +1,6 @@
 ---
 UID: NF:winml.IWinMLModel.EnumerateModelOutputs
-title: IWinMLModel::EnumerateModelOutputs
+title: IWinMLModel::EnumerateModelOutputs (winml.h)
 author: windows-sdk-content
 description: Enumerates the WinML model outputs.
 old-location: machinelearning\iwinmlmodel_enumeratemodeloutputs.htm

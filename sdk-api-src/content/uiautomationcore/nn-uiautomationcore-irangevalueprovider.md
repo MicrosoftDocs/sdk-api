@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IRangeValueProvider
-title: IRangeValueProvider
+title: IRangeValueProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to controls that can be set to a value within a range.
 old-location: winauto\uiauto_IRangeValueProvider.htm

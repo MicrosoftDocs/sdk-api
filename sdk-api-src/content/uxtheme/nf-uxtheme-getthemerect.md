@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeRect
-title: GetThemeRect function
+title: GetThemeRect function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a RECT property.
 old-location: controls\GetThemeRect.htm

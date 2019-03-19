@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetLineCountA
-title: SetupGetLineCountA function
+title: SetupGetLineCountA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetLineCount function returns the number of lines in a specified section of an INF file.
 old-location: setup\setupgetlinecount.htm

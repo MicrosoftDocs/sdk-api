@@ -1,6 +1,6 @@
 ---
 UID: NE:tdh._DECODING_SOURCE
-title: DECODING_SOURCE
+title: DECODING_SOURCE (tdh.h)
 author: windows-sdk-content
 description: Defines the source of the event data.
 old-location: etw\decoding_source_enum.htm

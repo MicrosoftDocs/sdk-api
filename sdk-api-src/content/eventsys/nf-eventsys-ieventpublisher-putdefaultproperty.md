@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.PutDefaultProperty
-title: IEventPublisher::PutDefaultProperty
+title: IEventPublisher::PutDefaultProperty (eventsys.h)
 author: windows-sdk-content
 description: Writes a named property and its value to the property bag associated with the event publisher.
 old-location: com\ieventpublisher_putdefaultproperty.htm

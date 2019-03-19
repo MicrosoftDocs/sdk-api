@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMallocSpy.PreAlloc
-title: IMallocSpy::PreAlloc
+title: IMallocSpy::PreAlloc (objidl.h)
 author: windows-sdk-content
 description: Performs operations required before calling IMalloc::Alloc.
 old-location: com\imallocspy_prealloc.htm

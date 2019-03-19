@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Name
-title: INetFwOpenPort::put_Name
+title: INetFwOpenPort::put_Name (netfw.h)
 author: windows-sdk-content
 description: Specifies the friendly name of this port.
 old-location: ics\inetfwopenport_name.htm

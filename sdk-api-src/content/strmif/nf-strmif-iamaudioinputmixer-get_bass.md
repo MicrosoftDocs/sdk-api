@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Bass
-title: IAMAudioInputMixer::get_Bass
+title: IAMAudioInputMixer::get_Bass (strmif.h)
 author: windows-sdk-content
 description: The get_Bass method retrieves the bass equalization.
 old-location: dshow\iamaudioinputmixer_get_bass.htm

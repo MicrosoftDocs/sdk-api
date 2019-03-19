@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITBasicAudioTerminal
-title: ITBasicAudioTerminal
+title: ITBasicAudioTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The ITBasicAudioTerminal interface provides methods that allow an application to control basic sound characteristics of terminal.
 old-location: tapi3\itbasicaudioterminal.htm

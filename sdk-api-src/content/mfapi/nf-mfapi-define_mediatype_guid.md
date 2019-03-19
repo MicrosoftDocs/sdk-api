@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.DEFINE_MEDIATYPE_GUID
-title: DEFINE_MEDIATYPE_GUID macro
+title: DEFINE_MEDIATYPE_GUID macro (mfapi.h)
 author: windows-sdk-content
 description: Defines a media subtype GUID from a FOURCC code, D3DFORMAT value, or audio format type.
 old-location: mf\define_mediatype_guid_macro.htm

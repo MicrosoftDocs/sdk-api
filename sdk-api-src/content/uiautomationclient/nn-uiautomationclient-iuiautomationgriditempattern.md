@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationGridItemPattern
-title: IUIAutomationGridItemPattern
+title: IUIAutomationGridItemPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a child control in a grid-style container that supports the IUIAutomationGridPattern interface.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern.htm

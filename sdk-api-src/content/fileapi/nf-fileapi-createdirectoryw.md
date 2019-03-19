@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.CreateDirectoryW
-title: CreateDirectoryW function
+title: CreateDirectoryW function (fileapi.h)
 author: windows-sdk-content
 description: Creates a new directory.
 old-location: fs\createdirectory.htm

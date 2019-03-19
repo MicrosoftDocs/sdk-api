@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel_1.__MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001
-title: XPS_DOCUMENT_TYPE
+title: XPS_DOCUMENT_TYPE (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Indicates the format into which the document was serialized.
 old-location: xps\xps_document_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferRecordingAttribute
-title: IStreamBufferRecordingAttribute
+title: IStreamBufferRecordingAttribute (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferRecordingAttribute interface sets and retrieves attributes on a stream buffer recording.
 old-location: mstv\istreambufferrecordingattribute.htm

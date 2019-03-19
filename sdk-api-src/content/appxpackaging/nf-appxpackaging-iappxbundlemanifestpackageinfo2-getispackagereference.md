@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo2.GetIsPackageReference
-title: IAppxBundleManifestPackageInfo2::GetIsPackageReference
+title: IAppxBundleManifestPackageInfo2::GetIsPackageReference (appxpackaging.h)
 author: windows-sdk-content
 description: Determines whether a package is stored inside an app bundle, or if it's a reference to a package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getispackagereference.htm

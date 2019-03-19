@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamBeginStreaming
-title: AVIStreamBeginStreaming function
+title: AVIStreamBeginStreaming function (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamBeginStreaming function specifies the parameters used in streaming and lets a stream handler prepare for streaming.
 old-location: multimedia\avistreambeginstreaming.htm

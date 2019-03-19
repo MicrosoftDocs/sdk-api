@@ -1,6 +1,6 @@
 ---
 UID: NE:vswriter.VSS_FILE_RESTORE_STATUS
-title: VSS_FILE_RESTORE_STATUS
+title: VSS_FILE_RESTORE_STATUS (vswriter.h)
 author: windows-sdk-content
 description: Defines the set of statuses of a file restore operation.
 old-location: base\vss_file_restore_status.htm

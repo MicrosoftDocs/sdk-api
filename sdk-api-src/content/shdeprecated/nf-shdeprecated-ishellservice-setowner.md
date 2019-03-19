@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IShellService.SetOwner
-title: IShellService::SetOwner
+title: IShellService::SetOwner (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Declares an owner reference to the service object.
 old-location: shell\IShellService_SetOwner.htm

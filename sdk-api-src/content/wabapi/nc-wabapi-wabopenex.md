@@ -1,6 +1,6 @@
 ---
 UID: NC:wabapi.WABOpenEx
-title: WABOpenEx
+title: WABOpenEx (wabapi.h)
 author: windows-sdk-content
 description: WABOpenEx is no longer available for use as of Windows Vista.
 old-location: wab\_wab_WABOpenEx.htm

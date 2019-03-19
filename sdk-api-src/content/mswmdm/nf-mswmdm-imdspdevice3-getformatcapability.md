@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.GetFormatCapability
-title: IMDSPDevice3::GetFormatCapability
+title: IMDSPDevice3::GetFormatCapability (mswmdm.h)
 author: windows-sdk-content
 description: The GetFormatCapability method retrieves information from a device about the values or ranges of values supported by the device for each aspect of a particular object format.
 old-location: wmdm\imdspdevice3_getformatcapability.htm

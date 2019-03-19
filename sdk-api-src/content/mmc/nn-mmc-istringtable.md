@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IStringTable
-title: IStringTable
+title: IStringTable (mmc.h)
 author: windows-sdk-content
 description: The IStringTable interface is introduced in MMC 1.1.
 old-location: mmc\istringtable.htm

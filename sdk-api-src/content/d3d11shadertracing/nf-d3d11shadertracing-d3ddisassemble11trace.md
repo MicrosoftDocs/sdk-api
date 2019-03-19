@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.D3DDisassemble11Trace
-title: D3DDisassemble11Trace function
+title: D3DDisassemble11Trace function (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Disassembles a section of compiled Microsoft High Level Shader Language (HLSL) code that is specified by shader trace steps.
 old-location: direct3d11\d3ddisassemble11trace.htm

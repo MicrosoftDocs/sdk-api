@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyDescriptionSearchInfo
-title: IPropertyDescriptionSearchInfo
+title: IPropertyDescriptionSearchInfo (propsys.h)
 author: windows-sdk-content
 description: Exposes search-related information for a property.
 old-location: properties\IPropertyDescriptionSearchInfo.htm

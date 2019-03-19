@@ -1,6 +1,6 @@
 ---
 UID: NE:resapi.CLUSTER_RESOURCE_APPLICATION_STATE
-title: CLUSTER_RESOURCE_APPLICATION_STATE
+title: CLUSTER_RESOURCE_APPLICATION_STATE (resapi.h)
 author: windows-sdk-content
 description: Enumerates resource application states.
 old-location: mscs\cluster_resource_application_state.htm

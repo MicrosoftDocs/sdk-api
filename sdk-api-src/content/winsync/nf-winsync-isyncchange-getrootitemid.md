@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChange.GetRootItemId
-title: ISyncChange::GetRootItemId
+title: ISyncChange::GetRootItemId (winsync.h)
 author: windows-sdk-content
 description: Gets the ID of the changed item.
 old-location: winsync\isyncchange_getrootitemid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusimaging.EncoderParameter
-title: EncoderParameter
+title: EncoderParameter (gdiplusimaging.h)
 author: windows-sdk-content
 description: An EncoderParameter object holds a parameter that can be passed to an image encoder. An EncoderParameter object can also be used to receive a list of possible values supported by a particular parameter of a particular image encoder.
 old-location: gdiplus\_gdiplus_CLASS_EncoderParameter_Class.htm

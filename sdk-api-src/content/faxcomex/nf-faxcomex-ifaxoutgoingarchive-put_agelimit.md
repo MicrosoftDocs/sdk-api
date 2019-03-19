@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.put_AgeLimit
-title: IFaxOutgoingArchive::put_AgeLimit
+title: IFaxOutgoingArchive::put_AgeLimit (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingArchive::get_AgeLimit property is a value that indicates the number of days that the fax service retains fax messages in the archive of outbound faxes.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_agelimit_cpp.htm

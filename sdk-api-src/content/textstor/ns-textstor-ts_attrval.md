@@ -1,6 +1,6 @@
 ---
 UID: NS:textstor.TS_ATTRVAL
-title: TS_ATTRVAL
+title: TS_ATTRVAL (textstor.h)
 author: windows-sdk-content
 description: The TS_ATTRVAL structure contains document attribute values.
 old-location: tsf\ts_attrval.htm

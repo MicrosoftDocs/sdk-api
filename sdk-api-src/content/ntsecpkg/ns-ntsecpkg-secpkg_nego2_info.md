@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_NEGO2_INFO
-title: SECPKG_NEGO2_INFO
+title: SECPKG_NEGO2_INFO (ntsecpkg.h)
 author: windows-sdk-content
 description: Contains extended package information used for NEGO2 negotiations.
 old-location: security\secpkg_nego2_info.htm

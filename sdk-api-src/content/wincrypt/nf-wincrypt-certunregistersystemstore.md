@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertUnregisterSystemStore
-title: CertUnregisterSystemStore function
+title: CertUnregisterSystemStore function (wincrypt.h)
 author: windows-sdk-content
 description: The CertUnregisterSystemStore function unregisters a specified system store.
 old-location: security\certunregistersystemstore.htm

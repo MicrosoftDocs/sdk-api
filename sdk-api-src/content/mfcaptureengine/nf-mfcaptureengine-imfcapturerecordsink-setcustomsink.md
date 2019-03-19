@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetCustomSink
-title: IMFCaptureRecordSink::SetCustomSink
+title: IMFCaptureRecordSink::SetCustomSink (mfcaptureengine.h)
 author: windows-sdk-content
 description: Sets a custom media sink for recording.
 old-location: mf\imfcapturerecordsink_setcustomsink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxAccountSet
-title: IFaxAccountSet
+title: IFaxAccountSet (faxcomex.h)
 author: windows-sdk-content
 description: Provides methods for fax account management, including adding, removing, and retrieving fax accounts.
 old-location: fax\_mfax_faxaccountset_cpp.htm

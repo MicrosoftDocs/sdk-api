@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValueWithNotify
-title: ICodecAPI::SetValueWithNotify
+title: ICodecAPI::SetValueWithNotify (strmif.h)
 author: windows-sdk-content
 description: The SetValueWithNotify method sets a property on a codec and returns a list of other properties that changed as a result.
 old-location: dshow\icodecapi_setvaluewithnotify.htm

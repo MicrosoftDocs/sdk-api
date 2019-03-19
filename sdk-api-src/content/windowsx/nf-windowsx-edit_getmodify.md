@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_GetModify
-title: Edit_GetModify macro
+title: Edit_GetModify macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the state of an edit or rich edit control's modification flag. The flag indicates whether the contents of the control have been modified. You can use this macro or send the EM_GETMODIFY message explicitly.
 old-location: controls\Edit_GetModify.htm

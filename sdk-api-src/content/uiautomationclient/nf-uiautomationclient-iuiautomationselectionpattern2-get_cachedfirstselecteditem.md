@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedFirstSelectedItem
-title: IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem
+title: IUIAutomationSelectionPattern2::get_CachedFirstSelectedItem (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets a cached IUIAutomationElement object representing the first item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedFirstSelectedItem.htm

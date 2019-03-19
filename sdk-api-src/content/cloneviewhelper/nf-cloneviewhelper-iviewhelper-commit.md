@@ -1,6 +1,6 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.Commit
-title: IViewHelper::Commit
+title: IViewHelper::Commit (cloneviewhelper.h)
 author: windows-sdk-content
 description: The Commit method invalidates a Video Present Network (VidPN) on all graphics adapters.
 old-location: display\iviewhelper_commit.htm

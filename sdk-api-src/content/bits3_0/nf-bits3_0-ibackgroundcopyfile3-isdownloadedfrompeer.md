@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.IsDownloadedFromPeer
-title: IBackgroundCopyFile3::IsDownloadedFromPeer
+title: IBackgroundCopyFile3::IsDownloadedFromPeer (bits3_0.h)
 author: windows-sdk-content
 description: Gets a value that determines if any part of the file was downloaded from a peer.
 old-location: bits\ibackgroundcopyfile3_isdownloadedfrompeer.htm

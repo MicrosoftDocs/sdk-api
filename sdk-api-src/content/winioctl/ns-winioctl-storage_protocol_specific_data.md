@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_PROTOCOL_SPECIFIC_DATA
-title: STORAGE_PROTOCOL_SPECIFIC_DATA
+title: STORAGE_PROTOCOL_SPECIFIC_DATA (winioctl.h)
 author: windows-sdk-content
 description: Describes protocol-specific device data, provided in the input and output buffer of an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: fs\storage_protocol_specific_data.htm

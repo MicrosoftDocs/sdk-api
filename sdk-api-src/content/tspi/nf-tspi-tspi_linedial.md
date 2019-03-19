@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineDial
-title: TSPI_lineDial function
+title: TSPI_lineDial function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineDial function dials the specified dialable number on the specified call.
 old-location: tspi\tspi_linedial.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._HMAC_Info
-title: HMAC_INFO
+title: HMAC_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The HMAC_INFO structure specifies the hash algorithm and the inner and outer strings that are to be used to calculate the HMAC hash.
 old-location: security\hmac_info.htm

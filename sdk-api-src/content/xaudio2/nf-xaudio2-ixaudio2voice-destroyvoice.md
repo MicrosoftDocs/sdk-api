@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.DestroyVoice
-title: IXAudio2Voice::DestroyVoice
+title: IXAudio2Voice::DestroyVoice (xaudio2.h)
 author: windows-sdk-content
 description: Destroys the voice. If necessary, stops the voice and removes it from the XAudio2 graph.
 old-location: xaudio2\ixaudio2voice_interface_destroyvoice.htm

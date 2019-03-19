@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.RemoveFromSelection
-title: ISelectionItemProvider::RemoveFromSelection
+title: ISelectionItemProvider::RemoveFromSelection (uiautomationcore.h)
 author: windows-sdk-content
 description: Removes the current element from the collection of selected items.
 old-location: winauto\uiauto_ISelectionItemProvider_RemoveFromSelection.htm

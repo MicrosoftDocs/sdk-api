@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFActivate.ShutdownObject
-title: IMFActivate::ShutdownObject
+title: IMFActivate::ShutdownObject (mfobjects.h)
 author: windows-sdk-content
 description: Shuts down the created object.
 old-location: mf\imfactivate_shutdownobject.htm

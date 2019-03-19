@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_bEnum
-title: PATHOBJ_bEnum function
+title: PATHOBJ_bEnum function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_bEnum function retrieves the next PATHDATA record from a specified path and enumerates the curves in the path.
 old-location: display\pathobj_benum.htm

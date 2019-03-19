@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetCharWidthI
-title: GetCharWidthI function
+title: GetCharWidthI function (wingdi.h)
 author: windows-sdk-content
 description: The GetCharWidthI function retrieves the widths, in logical coordinates, of consecutive glyph indices in a specified range from the current font.
 old-location: gdi\getcharwidthi.htm

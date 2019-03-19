@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_AddressCount
-title: IMcastLeaseInfo::get_AddressCount
+title: IMcastLeaseInfo::get_AddressCount (mdhcp.h)
 author: windows-sdk-content
 description: The get_AddressCount method obtains the number of addresses requested or granted in this lease.
 old-location: tapi3\imcastleaseinfo_get_addresscount.htm

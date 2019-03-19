@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocSecuritySettings.GetDot11AuthAlgorithm
-title: IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm
+title: IDot11AdHocSecuritySettings::GetDot11AuthAlgorithm (adhoc.h)
 author: windows-sdk-content
 description: Gets the authentication algorithm associated with the security settings.
 old-location: nwifi\idot11adhocsecuritysettings_getdot11authalgorithm.htm

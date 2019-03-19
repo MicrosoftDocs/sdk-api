@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.Unlock2D
-title: IMF2DBuffer::Unlock2D
+title: IMF2DBuffer::Unlock2D (mfobjects.h)
 author: windows-sdk-content
 description: Unlocks a buffer that was previously locked. Call this method once for each call to IMF2DBuffer::Lock2D.
 old-location: mf\imf2dbuffer_unlock2d.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStream.StopSubStream
-title: ITSubStream::StopSubStream
+title: ITSubStream::StopSubStream (tapi3if.h)
 author: windows-sdk-content
 description: The StopSubStream method stops the substream. For additional information, see ITStream::StopStream.
 old-location: tapi3\itsubstream_stopsubstream.htm

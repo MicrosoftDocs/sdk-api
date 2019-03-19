@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.ActivateButton
-title: IDvdControl2::ActivateButton
+title: IDvdControl2::ActivateButton (strmif.h)
 author: windows-sdk-content
 description: The ActivateButton method activates the currently selected menu button.
 old-location: dshow\idvdcontrol2_activatebutton.htm

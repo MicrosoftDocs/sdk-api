@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystemIscsi.QueryTargets
-title: IVdsSubSystemIscsi::QueryTargets
+title: IVdsSubSystemIscsi::QueryTargets (vds.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the iSCSI targets of the subsystem.
 old-location: base\ivdssubsystemiscsi_querytargets.htm

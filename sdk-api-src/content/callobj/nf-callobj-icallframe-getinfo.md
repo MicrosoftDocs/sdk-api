@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetInfo
-title: ICallFrame::GetInfo
+title: ICallFrame::GetInfo (callobj.h)
 author: windows-sdk-content
 description: Retrieves information about the call frame.
 old-location: com\icallframe_getinfo.htm

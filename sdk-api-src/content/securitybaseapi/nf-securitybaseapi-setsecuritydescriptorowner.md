@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorOwner
-title: SetSecurityDescriptorOwner function
+title: SetSecurityDescriptorOwner function (securitybaseapi.h)
 author: windows-sdk-content
 description: Sets the owner information of an absolute-format security descriptor. It replaces any owner information already present in the security descriptor.
 old-location: security\setsecuritydescriptorowner.htm

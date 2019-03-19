@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative
-title: IVirtualSurfaceImageSourceNative
+title: IVirtualSurfaceImageSourceNative (windows.ui.xaml.media.dxinterop.h)
 author: windows-sdk-content
 description: Provides the implementation of a large (greater than the screen size) shared surface for DirectX drawing.
 old-location: winrt\ivirtualsurfaceimagesourcenative.htm

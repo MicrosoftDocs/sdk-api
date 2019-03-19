@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.SetWriteSpeed
-title: IDiscFormat2RawCD::SetWriteSpeed
+title: IDiscFormat2RawCD::SetWriteSpeed (imapi2.h)
 author: windows-sdk-content
 description: Sets the write speed of the disc recorder.
 old-location: imapi\idiscformat2rawcd_setwritespeed.htm

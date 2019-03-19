@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentValue
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentValue
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility value property.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentValue.htm

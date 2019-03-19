@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartReferenceSet
-title: IOpcSigningOptions::GetSignaturePartReferenceSet
+title: IOpcSigningOptions::GetSignaturePartReferenceSet (msopc.h)
 author: windows-sdk-content
 description: Gets an IOpcSignaturePartReferenceSet interface.
 old-location: opc\iopcsigningoptions_getsignaturepartreferenceset.htm

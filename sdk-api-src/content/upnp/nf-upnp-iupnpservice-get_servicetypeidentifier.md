@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPService.get_ServiceTypeIdentifier
-title: IUPnPService::get_ServiceTypeIdentifier
+title: IUPnPService::get_ServiceTypeIdentifier (upnp.h)
 author: windows-sdk-content
 description: The ServiceTypeIdentifier property specifies the service type identifier for the device.
 old-location: upnp\iupnpservice_servicetypeidentifier.htm

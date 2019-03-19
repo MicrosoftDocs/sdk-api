@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskTrigger.GetTrigger
-title: ITaskTrigger::GetTrigger
+title: ITaskTrigger::GetTrigger (mstask.h)
 author: windows-sdk-content
 description: The GetTrigger method retrieves the current task trigger.
 old-location: taskschd\itasktrigger_gettrigger.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsxs._FUSION_INSTALL_REFERENCE_
-title: FUSION_INSTALL_REFERENCE
+title: FUSION_INSTALL_REFERENCE (winsxs.h)
 author: windows-sdk-content
 description: The FUSION_INSTALL_REFERENCE structure contains information about the application which references the side-by-side assembly.
 old-location: setup\fusion_install_reference_.htm

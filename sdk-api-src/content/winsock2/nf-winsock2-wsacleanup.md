@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSACleanup
-title: WSACleanup function
+title: WSACleanup function (winsock2.h)
 author: windows-sdk-content
 description: The WSACleanup function terminates use of the WS2_32.dll.
 old-location: winsock\wsacleanup_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.End
-title: IDsAdminNotifyHandler::End
+title: IDsAdminNotifyHandler::End (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNotifyHandler::End method is called after the notification event has occurred. This method is called even if the notification process is canceled.
 old-location: ad\idsadminnotifyhandler_end.htm

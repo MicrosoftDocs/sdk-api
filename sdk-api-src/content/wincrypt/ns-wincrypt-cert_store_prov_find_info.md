@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_STORE_PROV_FIND_INFO
-title: CERT_STORE_PROV_FIND_INFO
+title: CERT_STORE_PROV_FIND_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Used by many of the store provider callback functions.
 old-location: security\cert_store_prov_find_info.htm

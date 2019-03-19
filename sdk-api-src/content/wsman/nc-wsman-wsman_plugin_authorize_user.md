@@ -1,6 +1,6 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_AUTHORIZE_USER
-title: WSMAN_PLUGIN_AUTHORIZE_USER
+title: WSMAN_PLUGIN_AUTHORIZE_USER (wsman.h)
 author: windows-sdk-content
 description: Authorizes a connection.
 old-location: winrm\wsman_plugin_authorize_user.htm

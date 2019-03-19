@@ -1,6 +1,6 @@
 ---
 UID: NE:authif._RADIUS_REJECT_REASON_CODE
-title: RADIUS_REJECT_REASON_CODE
+title: RADIUS_REJECT_REASON_CODE (authif.h)
 author: windows-sdk-content
 description: The RADIUS_REJECT_REASON_CODE enumeration defines the possible RADIUS packet reject codes.
 old-location: nps\IAS_radius_reject_reason_code.htm

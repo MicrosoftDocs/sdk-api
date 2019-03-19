@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Instance
-title: MI_Instance
+title: MI_Instance (mi.h)
 author: windows-sdk-content
 description: This structure represents a CIM instance. This object should not be accessed directly. Instead, the MI_Instance_* functions should be used.
 old-location: wmi_v2\mi_instance.htm

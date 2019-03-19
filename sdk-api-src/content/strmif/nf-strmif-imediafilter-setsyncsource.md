@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaFilter.SetSyncSource
-title: IMediaFilter::SetSyncSource
+title: IMediaFilter::SetSyncSource (strmif.h)
 author: windows-sdk-content
 description: The SetSyncSource method sets the reference clock.
 old-location: dshow\imediafilter_setsyncsource.htm

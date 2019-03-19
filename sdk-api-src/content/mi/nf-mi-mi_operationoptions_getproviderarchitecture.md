@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetProviderArchitecture
-title: MI_OperationOptions_GetProviderArchitecture function
+title: MI_OperationOptions_GetProviderArchitecture function (mi.h)
 author: windows-sdk-content
 description: Gets the provider architecture for an operation.
 old-location: wmi_v2\mi_operationoptions_getproviderarchitecture.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_PropertySet_GetElementAt
-title: MI_PropertySet_GetElementAt function
+title: MI_PropertySet_GetElementAt function (mi.h)
 author: windows-sdk-content
 description: Gets the element of a property set at the specified index.
 old-location: wmi_v2\mi_propertyset_getelementat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_DRIVE_PROP
-title: VDS_DRIVE_PROP
+title: VDS_DRIVE_PROP (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the properties of a drive object.
 old-location: base\vds_drive_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumn
-title: ICrmFormatLogRecords::GetColumn
+title: ICrmFormatLogRecords::GetColumn (comsvcs.h)
 author: windows-sdk-content
 description: Formats one unstructured log record into an array of viewable fields.
 old-location: cos\icrmformatlogrecords_getcolumn.htm

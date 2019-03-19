@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixMultiply
-title: XMMatrixMultiply function
+title: XMMatrixMultiply function (directxmath.h)
 author: windows-sdk-content
 description: Computes the product of two matrices.
 old-location: dxmath\xmmatrixmultiply.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_COPY_OFFLOAD_DESCRIPTOR
-title: DEVICE_COPY_OFFLOAD_DESCRIPTOR
+title: DEVICE_COPY_OFFLOAD_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: Contains the copy offload capabilities for a storage device.
 old-location: fs\device_copy_offload_descriptor.htm

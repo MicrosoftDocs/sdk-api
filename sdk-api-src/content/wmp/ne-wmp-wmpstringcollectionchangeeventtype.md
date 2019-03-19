@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPStringCollectionChangeEventType
-title: WMPStringCollectionChangeEventType
+title: WMPStringCollectionChangeEventType (wmp.h)
 author: windows-sdk-content
 description: The WMPStringCollectionChangeEventType enumeration type defines the types of changes that can occur in a string collection.
 old-location: wmp\wmpstringcollectionchangeeventtype.htm

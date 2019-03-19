@@ -1,6 +1,6 @@
 ---
 UID: NF:certpoleng.PstGetUserNameForCertificate
-title: PstGetUserNameForCertificate function
+title: PstGetUserNameForCertificate function (certpoleng.h)
 author: windows-sdk-content
 description: Retrieves the user name associated with the specified certificate.
 old-location: security\pstgetusernameforcertificate.htm

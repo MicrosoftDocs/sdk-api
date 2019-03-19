@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PatBlt
-title: PatBlt function
+title: PatBlt function (wingdi.h)
 author: windows-sdk-content
 description: The PatBlt function paints the specified rectangle using the brush that is currently selected into the specified device context. The brush color and the surface color or colors are combined by using the specified raster operation.
 old-location: gdi\patblt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.IsVisible
-title: IMathInputControl::IsVisible
+title: IMathInputControl::IsVisible (micaut.h)
 author: windows-sdk-content
 description: Determines whether the control is visible.
 old-location: tablet\imathinputcontrol_isvisible.htm

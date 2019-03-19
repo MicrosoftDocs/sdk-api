@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.SendOpaqueCommand
-title: IWMDMDevice::SendOpaqueCommand
+title: IWMDMDevice::SendOpaqueCommand (mswmdm.h)
 author: windows-sdk-content
 description: The SendOpaqueCommand method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.
 old-location: wmdm\iwmdmdevice_sendopaquecommand.htm

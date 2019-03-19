@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetTextRenderingHint
-title: Graphics::SetTextRenderingHint
+title: Graphics::SetTextRenderingHint (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::SetTextRenderingHint method sets the text rendering mode of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetTextRenderingHint_newMode_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_Writable
-title: IAzScope::get_Writable
+title: IAzScope::get_Writable (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the scope can be modified by the user context that initialized it.
 old-location: security\iazscope_writable.htm

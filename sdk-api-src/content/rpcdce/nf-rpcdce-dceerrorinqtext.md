@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.DceErrorInqText
-title: DceErrorInqText function
+title: DceErrorInqText function (rpcdce.h)
 author: windows-sdk-content
 description: The DceErrorInqText function returns the message text for a status code.
 old-location: rpc\dceerrorinqtext.htm

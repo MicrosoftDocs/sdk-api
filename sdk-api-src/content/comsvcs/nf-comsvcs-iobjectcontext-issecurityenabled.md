@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContext.IsSecurityEnabled
-title: IObjectContext::IsSecurityEnabled
+title: IObjectContext::IsSecurityEnabled (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether security is enabled for the current object. COM+ security is enabled unless the object is running in the client's process.
 old-location: cos\iobjectcontext_issecurityenabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:gdiplusmetaheader.__unnamed_struct_0
-title: ENHMETAHEADER3
+title: ENHMETAHEADER3 (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The ENHMETAHEADER3 structure contains enhanced-metafile data including the dimensions of the metafile image, the number of records in the metafile, and the resolution of the device on which the metafile was created.
 old-location: gdiplus\_gdiplus_STRUC_ENHMETAHEADER3.htm

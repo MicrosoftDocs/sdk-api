@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_BIND_FLAG
-title: D3D10_BIND_FLAG
+title: D3D10_BIND_FLAG (d3d10.h)
 author: windows-sdk-content
 description: Identifies how to bind a resource to the pipeline.
 old-location: direct3d10\d3d10_bind_flag.htm

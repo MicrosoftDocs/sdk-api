@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCDEventArgs.get_ElapsedTime
-title: IDiscFormat2RawCDEventArgs::get_ElapsedTime
+title: IDiscFormat2RawCDEventArgs::get_ElapsedTime (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the total elapsed time of the write operation.
 old-location: imapi\idiscformat2rawcdeventargs_get_elapsedtime.htm

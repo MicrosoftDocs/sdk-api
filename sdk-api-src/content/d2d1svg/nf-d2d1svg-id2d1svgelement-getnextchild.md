@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetNextChild
-title: ID2D1SvgElement::GetNextChild
+title: ID2D1SvgElement::GetNextChild (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the next sibling of the referenceChild element.
 old-location: direct2d\id2d1svgelement_getnextchild.htm

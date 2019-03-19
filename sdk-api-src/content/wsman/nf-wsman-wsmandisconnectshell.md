@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManDisconnectShell
-title: WSManDisconnectShell function
+title: WSManDisconnectShell function (wsman.h)
 author: windows-sdk-content
 description: Disconnects the network connection of an active shell and its associated commands.
 old-location: winrm\wsmandisconnectshell.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.Stop
-title: IRDPSRAPIAudioStream::Stop
+title: IRDPSRAPIAudioStream::Stop (rdpencomapi.h)
 author: windows-sdk-content
 description: Stops the audio stream.
 old-location: rdp\irdpsrapiaudiostream_stop.htm

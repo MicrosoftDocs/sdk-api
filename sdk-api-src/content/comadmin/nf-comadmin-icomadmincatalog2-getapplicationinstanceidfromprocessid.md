@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID
-title: ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID
+title: ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID (comadmin.h)
 author: windows-sdk-content
 description: Retrieives the application instance identifier for the specified process identifier.
 old-location: cos\icomadmincatalog2_getapplicationinstanceidfromprocessid.htm

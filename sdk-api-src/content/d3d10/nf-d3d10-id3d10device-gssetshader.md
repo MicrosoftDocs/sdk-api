@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetShader
-title: ID3D10Device::GSSetShader
+title: ID3D10Device::GSSetShader (d3d10.h)
 author: windows-sdk-content
 description: Set a geometry shader to the device.
 old-location: direct3d10\id3d10device_gssetshader.htm

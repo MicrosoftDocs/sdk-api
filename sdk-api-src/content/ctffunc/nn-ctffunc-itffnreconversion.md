@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnReconversion
-title: ITfFnReconversion
+title: ITfFnReconversion (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnReconversion interface is implemented by a text service and is used by the TSF manager or a client to support reconversion of text provided by the text service.
 old-location: tsf\itffnreconversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_LUN_NOTIFICATION
-title: VDS_LUN_NOTIFICATION
+title: VDS_LUN_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of a LUN notification.
 old-location: base\vds_lun_notification.htm

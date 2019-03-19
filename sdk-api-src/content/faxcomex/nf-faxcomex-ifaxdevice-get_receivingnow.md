@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_ReceivingNow
-title: IFaxDevice::get_ReceivingNow
+title: IFaxDevice::get_ReceivingNow (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::get_ReceivingNow property is a Boolean value that indicates whether the fax device is receiving a fax at the moment the property is retrieved (the status could change immediately thereafter).
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_receivingnow_cpp.htm

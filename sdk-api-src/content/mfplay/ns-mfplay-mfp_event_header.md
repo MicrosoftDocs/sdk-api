@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_EVENT_HEADER
-title: MFP_EVENT_HEADER
+title: MFP_EVENT_HEADER (mfplay.h)
 author: windows-sdk-content
 description: Contains information that is common to every type of MFPlay event.
 old-location: mf\mfp_event_header.htm

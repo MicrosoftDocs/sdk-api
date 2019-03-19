@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.InitializeFromLocalRequestOriginator
-title: ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator
+title: ICertPropertyRequestOriginator::InitializeFromLocalRequestOriginator (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from the DNS name of the local computer.
 old-location: security\icertpropertyrequestoriginator_initializefromlocalrequestoriginator_method.htm

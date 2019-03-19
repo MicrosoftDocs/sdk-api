@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegReadBatchReplyNextCommand
-title: ClusterRegReadBatchReplyNextCommand function
+title: ClusterRegReadBatchReplyNextCommand function (clusapi.h)
 author: windows-sdk-content
 description: Reads the next command from a read batch result.
 old-location: mscs\clusterregreadbatchreplynextcommand.htm

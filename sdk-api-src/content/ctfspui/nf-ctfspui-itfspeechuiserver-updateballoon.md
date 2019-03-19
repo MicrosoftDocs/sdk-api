@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.UpdateBalloon
-title: ITfSpeechUIServer::UpdateBalloon
+title: ITfSpeechUIServer::UpdateBalloon (ctfspui.h)
 author: windows-sdk-content
 description: ITfSpeechUIServer::UpdateBalloon method
 old-location: tsf\itfspeechuiserver_updateballoon.htm

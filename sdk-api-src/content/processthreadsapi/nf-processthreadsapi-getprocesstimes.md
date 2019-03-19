@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetProcessTimes
-title: GetProcessTimes function
+title: GetProcessTimes function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves timing information for the specified process.
 old-location: base\getprocesstimes.htm

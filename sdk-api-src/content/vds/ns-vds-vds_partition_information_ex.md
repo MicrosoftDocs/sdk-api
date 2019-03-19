@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PARTITION_INFORMATION_EX
-title: VDS_PARTITION_INFORMATION_EX
+title: VDS_PARTITION_INFORMATION_EX (vds.h)
 author: windows-sdk-content
 description: This structure is reserved for system use.
 old-location: base\vds_partition_information_ex.htm

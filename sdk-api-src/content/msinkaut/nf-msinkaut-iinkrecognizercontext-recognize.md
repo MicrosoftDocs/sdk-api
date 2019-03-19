@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.Recognize
-title: IInkRecognizerContext::Recognize
+title: IInkRecognizerContext::Recognize (msinkaut.h)
 author: windows-sdk-content
 description: Performs recognition on an InkStrokes collection and returns recognition results.
 old-location: tablet\inkrecognizercontext_recognize.htm

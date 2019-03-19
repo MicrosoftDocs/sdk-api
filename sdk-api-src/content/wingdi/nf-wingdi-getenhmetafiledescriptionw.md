@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileDescriptionW
-title: GetEnhMetaFileDescriptionW function
+title: GetEnhMetaFileDescriptionW function (wingdi.h)
 author: windows-sdk-content
 description: The GetEnhMetaFileDescription function retrieves an optional text description from an enhanced-format metafile and copies the string to the specified buffer.
 old-location: gdi\getenhmetafiledescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetStreamTransparent
-title: IMixerPinConfig::GetStreamTransparent
+title: IMixerPinConfig::GetStreamTransparent (mpconfig.h)
 author: windows-sdk-content
 description: The GetStreamTransparent method determines whether a stream is transparent.
 old-location: dshow\imixerpinconfig_getstreamtransparent.htm

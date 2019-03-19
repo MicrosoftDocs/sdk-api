@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentIndex
-title: IXpsSignatureBlock::GetDocumentIndex
+title: IXpsSignatureBlock::GetDocumentIndex (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the index of the FixedDocument part that references the SignatureDefinitions part that corresponds to this signature block.
 old-location: xps\ixpssignatureblock_getdocumentindex.htm

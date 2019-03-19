@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.UpdateVideoStream
-title: IMFMediaEngineEx::UpdateVideoStream
+title: IMFMediaEngineEx::UpdateVideoStream (mfmediaengine.h)
 author: windows-sdk-content
 description: Updates the source rectangle, destination rectangle, and border color for the video.
 old-location: mf\imfmediaengineex_updatevideostream.htm

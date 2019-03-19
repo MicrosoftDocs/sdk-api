@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.LockForProcess
-title: IXAPO::LockForProcess
+title: IXAPO::LockForProcess (xapo.h)
 author: windows-sdk-content
 description: Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before Process is called on the realtime thread.
 old-location: xaudio2\ixapo_interface_lockforprocess.htm

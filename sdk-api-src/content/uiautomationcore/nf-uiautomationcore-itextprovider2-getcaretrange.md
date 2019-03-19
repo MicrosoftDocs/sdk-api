@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextProvider2.GetCaretRange
-title: ITextProvider2::GetCaretRange
+title: ITextProvider2::GetCaretRange (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides a zero-length text range at the location of the caret that belongs to the text-based control.
 old-location: winauto\uiauto_ITextProvider2_GetCaretRange.htm

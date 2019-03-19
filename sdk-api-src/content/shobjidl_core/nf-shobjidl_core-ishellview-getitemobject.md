@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView.GetItemObject
-title: IShellView::GetItemObject
+title: IShellView::GetItemObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an interface that refers to data presented in the view.
 old-location: shell\IShellView_GetItemObject.htm

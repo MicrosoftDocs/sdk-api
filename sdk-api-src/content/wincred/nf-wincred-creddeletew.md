@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredDeleteW
-title: CredDeleteW function
+title: CredDeleteW function (wincred.h)
 author: windows-sdk-content
 description: Deletes a credential from the user's credential set.
 old-location: security\creddelete.htm

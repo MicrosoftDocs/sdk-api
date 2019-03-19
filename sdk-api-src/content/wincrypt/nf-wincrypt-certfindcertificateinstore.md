@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFindCertificateInStore
-title: CertFindCertificateInStore function
+title: CertFindCertificateInStore function (wincrypt.h)
 author: windows-sdk-content
 description: Finds the first or next certificate context in a certificate store that matches a search criteria established by the dwFindType and its associated pvFindPara.
 old-location: security\certfindcertificateinstore.htm

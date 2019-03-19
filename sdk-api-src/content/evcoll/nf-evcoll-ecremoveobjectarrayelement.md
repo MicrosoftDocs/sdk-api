@@ -1,6 +1,6 @@
 ---
 UID: NF:evcoll.EcRemoveObjectArrayElement
-title: EcRemoveObjectArrayElement function
+title: EcRemoveObjectArrayElement function (evcoll.h)
 author: windows-sdk-content
 description: Removes an element from an array of objects that contain property values for the event sources of a subscription.
 old-location: wec\ecremoveobjectarrayelement.htm

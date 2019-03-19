@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress2.get_EventFilter
-title: ITAddress2::get_EventFilter
+title: ITAddress2::get_EventFilter (tapi3if.h)
 author: windows-sdk-content
 description: The get_EventFilter method retrieves the current filter settings for the current address and a given TAPI_EVENT value.
 old-location: tapi3\itaddress2_get_eventfilter.htm

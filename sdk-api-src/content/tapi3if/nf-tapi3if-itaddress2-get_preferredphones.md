@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress2.get_PreferredPhones
-title: ITAddress2::get_PreferredPhones
+title: ITAddress2::get_PreferredPhones (tapi3if.h)
 author: windows-sdk-content
 description: The get_PreferredPhones method returns a collection of phone objects corresponding to the phone devices that are preferred for use with this address.
 old-location: tapi3\itaddress2_get_preferredphones.htm

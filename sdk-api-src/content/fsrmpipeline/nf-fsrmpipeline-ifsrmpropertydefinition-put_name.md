@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Name
-title: IFsrmPropertyDefinition::put_Name
+title: IFsrmPropertyDefinition::put_Name (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the property.
 old-location: fsrm\ifsrmpropertydefinition_name.htm

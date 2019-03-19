@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetCancelConnectionW
-title: WNetCancelConnectionW function
+title: WNetCancelConnectionW function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetCancelConnection function cancels an existing network connection.
 old-location: wnet\wnetcancelconnection.htm

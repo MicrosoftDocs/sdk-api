@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITRendezvous.get_DefaultDirectories
-title: ITRendezvous::get_DefaultDirectories
+title: ITRendezvous::get_DefaultDirectories (rend.h)
 author: windows-sdk-content
 description: The get_DefaultDirectories method enumerates all configured default directories. This method is similar to EnumerateDefaultDirectories but is provided for use by Visual Basic and other scripting languages.
 old-location: tapi3\itrendezvous_get_defaultdirectories.htm

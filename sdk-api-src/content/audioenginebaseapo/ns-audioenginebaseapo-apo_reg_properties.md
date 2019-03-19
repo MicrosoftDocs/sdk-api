@@ -1,6 +1,6 @@
 ---
 UID: NS:audioenginebaseapo.APO_REG_PROPERTIES
-title: APO_REG_PROPERTIES
+title: APO_REG_PROPERTIES (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The APO_REG_PROPERTIES structure is used by IAudioProcessingObject::GetRegistrationProperties for returning the registration properties of an audio processing object (APO).
 old-location: audio\apo_reg_properties.htm

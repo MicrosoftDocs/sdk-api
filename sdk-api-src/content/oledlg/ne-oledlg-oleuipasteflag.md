@@ -1,6 +1,6 @@
 ---
 UID: NE:oledlg.tagOLEUIPASTEFLAG
-title: OLEUIPASTEFLAG
+title: OLEUIPASTEFLAG (oledlg.h)
 author: windows-sdk-content
 description: Indicates the user options that are available to the user when pasting this format, and within which group or list of choices (Paste, Paste Link, etc.).
 old-location: com\oleuipasteflag.htm

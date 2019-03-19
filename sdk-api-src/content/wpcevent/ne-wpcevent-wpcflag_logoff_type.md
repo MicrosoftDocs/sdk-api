@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPCFLAG_LOGOFF_TYPE
-title: WPCFLAG_LOGOFF_TYPE
+title: WPCFLAG_LOGOFF_TYPE (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the type of logoff method used.
 old-location: parcon\wpcflag_logoff_type.htm

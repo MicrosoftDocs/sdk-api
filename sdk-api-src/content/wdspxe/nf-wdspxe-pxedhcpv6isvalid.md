@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6IsValid
-title: PxeDhcpv6IsValid function
+title: PxeDhcpv6IsValid function (wdspxe.h)
 author: windows-sdk-content
 description: Validates that a packet is a valid DHCPv6 packet.
 old-location: wds\pxedhcpv6isvalid.htm

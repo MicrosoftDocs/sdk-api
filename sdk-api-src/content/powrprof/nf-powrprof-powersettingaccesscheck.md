@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerSettingAccessCheck
-title: PowerSettingAccessCheck function
+title: PowerSettingAccessCheck function (powrprof.h)
 author: windows-sdk-content
 description: Queries for a group policy override for specified power settings.
 old-location: base\powersettingaccesscheck.htm

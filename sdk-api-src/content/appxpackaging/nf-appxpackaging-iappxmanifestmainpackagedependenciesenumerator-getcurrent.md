@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
-title: IAppxManifestMainPackageDependenciesEnumerator::GetCurrent
+title: IAppxManifestMainPackageDependenciesEnumerator::GetCurrent (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the &lt;MainPackageDependency&gt; element at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator_getcurrent.htm

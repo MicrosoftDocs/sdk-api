@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.PackageFamilyNameFromId
-title: PackageFamilyNameFromId function
+title: PackageFamilyNameFromId function (appmodel.h)
 author: windows-sdk-content
 description: Gets the package family name for the specified package identifier.
 old-location: appxpkg\packagefamilynamefromid.htm

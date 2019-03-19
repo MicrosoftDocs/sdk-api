@@ -1,6 +1,6 @@
 ---
 UID: NS:mschapp._SAMPR_ENCRYPTED_USER_PASSWORD
-title: SAMPR_ENCRYPTED_USER_PASSWORD
+title: SAMPR_ENCRYPTED_USER_PASSWORD (mschapp.h)
 author: windows-sdk-content
 description: The SAMPR_ENCRYPTED_USER_PASSWORD stores a user's encrypted password.
 old-location: mschap\sampr_encrypted_user_password.htm

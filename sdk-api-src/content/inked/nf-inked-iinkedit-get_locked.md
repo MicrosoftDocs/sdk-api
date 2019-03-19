@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_Locked
-title: IInkEdit::get_Locked
+title: IInkEdit::get_Locked (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value indicating whether the contents of the InkEdit control can be edited.
 old-location: tablet\inkedit_locked.htm

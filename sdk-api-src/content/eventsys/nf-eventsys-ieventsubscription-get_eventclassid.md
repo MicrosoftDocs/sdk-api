@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_EventClassID
-title: IEventSubscription::get_EventClassID
+title: IEventSubscription::get_EventClassID (eventsys.h)
 author: windows-sdk-content
 description: The unique ID of the event class associated with the subscription.
 old-location: cos\ieventsubscription_eventclassid.htm

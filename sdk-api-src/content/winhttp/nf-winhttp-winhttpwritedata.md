@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpWriteData
-title: WinHttpWriteData function
+title: WinHttpWriteData function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpWriteData function writes request data to an HTTP server.
 old-location: http\winhttpwritedata.htm

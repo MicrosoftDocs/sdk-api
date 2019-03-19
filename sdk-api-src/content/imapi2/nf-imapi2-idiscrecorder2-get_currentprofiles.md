@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_CurrentProfiles
-title: IDiscRecorder2::get_CurrentProfiles
+title: IDiscRecorder2::get_CurrentProfiles (imapi2.h)
 author: windows-sdk-content
 description: Retrieves all MMC profiles of the device that are marked as current.
 old-location: imapi\idiscrecorder2_get_currentprofiles.htm

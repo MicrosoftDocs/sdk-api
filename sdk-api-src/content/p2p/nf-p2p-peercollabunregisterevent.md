@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabUnregisterEvent
-title: PeerCollabUnregisterEvent function
+title: PeerCollabUnregisterEvent function (p2p.h)
 author: windows-sdk-content
 description: Deregisters an application from notification about specific peer collaboration events.
 old-location: p2p\peercollabunregisterevent.htm

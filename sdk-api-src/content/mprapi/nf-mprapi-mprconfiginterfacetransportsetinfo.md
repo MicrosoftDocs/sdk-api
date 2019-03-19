@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportSetInfo
-title: MprConfigInterfaceTransportSetInfo function
+title: MprConfigInterfaceTransportSetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceTransportSetInfo function updates the configuration information for the client on the specified interface and transport protocol.
 old-location: rras\mprconfiginterfacetransportsetinfo.htm

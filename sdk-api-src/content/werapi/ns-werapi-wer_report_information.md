@@ -1,6 +1,6 @@
 ---
 UID: NS:werapi._WER_REPORT_INFORMATION
-title: WER_REPORT_INFORMATION
+title: WER_REPORT_INFORMATION (werapi.h)
 author: windows-sdk-content
 description: Contains information used by the WerReportCreate function.
 old-location: wer\wer_report_information.htm

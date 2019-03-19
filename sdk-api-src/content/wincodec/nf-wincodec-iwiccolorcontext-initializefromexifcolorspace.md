@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromExifColorSpace
-title: IWICColorContext::InitializeFromExifColorSpace
+title: IWICColorContext::InitializeFromExifColorSpace (wincodec.h)
 author: windows-sdk-content
 description: Initializes the color context using an Exchangeable Image File (EXIF) color space.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromexifcolorspace.htm

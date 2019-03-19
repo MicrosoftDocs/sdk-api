@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectParentalCountry
-title: IDvdControl2::SelectParentalCountry
+title: IDvdControl2::SelectParentalCountry (strmif.h)
 author: windows-sdk-content
 description: The SelectParentalCountry method sets the country/region for interpreting parental access levels and setting default languages.
 old-location: dshow\idvdcontrol2_selectparentalcountry.htm

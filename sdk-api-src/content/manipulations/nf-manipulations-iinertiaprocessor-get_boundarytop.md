@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_BoundaryTop
-title: IInertiaProcessor::get_BoundaryTop
+title: IInertiaProcessor::get_BoundaryTop (manipulations.h)
 author: windows-sdk-content
 description: The BoundaryTop property limits how far towards the top of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_topboundary.htm

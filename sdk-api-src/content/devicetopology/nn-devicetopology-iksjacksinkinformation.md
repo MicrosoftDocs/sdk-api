@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IKsJackSinkInformation
-title: IKsJackSinkInformation
+title: IKsJackSinkInformation (devicetopology.h)
 author: windows-sdk-content
 description: The IKsJackSinkInformation interface provides access to jack sink information if the jack is supported by the hardware.
 old-location: coreaudio\iksjacksinkinformation.htm

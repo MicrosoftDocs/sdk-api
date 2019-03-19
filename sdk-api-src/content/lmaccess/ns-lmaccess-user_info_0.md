@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_0
-title: USER_INFO_0
+title: USER_INFO_0 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_0 structure contains a user account name.
 old-location: netmgmt\user_info_0_str.htm

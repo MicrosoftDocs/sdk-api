@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedLocalizedControlType
-title: IUIAutomationElement::get_CachedLocalizedControlType
+title: IUIAutomationElement::get_CachedLocalizedControlType (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached localized description of the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedLocalizedControlType.htm

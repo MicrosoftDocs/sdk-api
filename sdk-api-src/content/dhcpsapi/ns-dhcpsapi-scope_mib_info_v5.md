@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._SCOPE_MIB_INFO_V5
-title: SCOPE_MIB_INFO_V5
+title: SCOPE_MIB_INFO_V5 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains information about a specific DHCP scope.
 old-location: dhcp\scope_mib_info_v5.htm

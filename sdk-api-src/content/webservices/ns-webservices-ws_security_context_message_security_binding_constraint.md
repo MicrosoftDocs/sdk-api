@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT
-title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT
+title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT (webservices.h)
 author: windows-sdk-content
 description: A security binding constraint that corresponds to the WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING.
 old-location: wsw\ws_security_context_message_security_binding_constraint.htm

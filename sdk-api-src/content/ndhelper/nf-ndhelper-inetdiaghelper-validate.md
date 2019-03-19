@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Validate
-title: INetDiagHelper::Validate
+title: INetDiagHelper::Validate (ndhelper.h)
 author: windows-sdk-content
 description: Called by NDF after a repair is successfully completed.
 old-location: ndf\inetdiaghelpe_validate.htm

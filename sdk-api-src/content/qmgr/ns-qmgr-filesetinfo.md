@@ -1,6 +1,6 @@
 ---
 UID: NS:qmgr._FILESETINFO
-title: FILESETINFO
+title: FILESETINFO (qmgr.h)
 author: windows-sdk-content
 description: The FILESETINFO structure identifies the remote and local names of the file to download.
 old-location: bits\filesetinfo.htm

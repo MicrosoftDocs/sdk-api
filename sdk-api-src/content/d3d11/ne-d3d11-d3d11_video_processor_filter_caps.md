@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_FILTER_CAPS
-title: D3D11_VIDEO_PROCESSOR_FILTER_CAPS
+title: D3D11_VIDEO_PROCESSOR_FILTER_CAPS (d3d11.h)
 author: windows-sdk-content
 description: Defines image filter capabilities for a Microsoft Direct3D 11 video processor.
 old-location: mf\d3d11_video_processor_filter_caps.htm

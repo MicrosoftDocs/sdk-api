@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProviderFactory.CreateSpellCheckProvider
-title: ISpellCheckProviderFactory::CreateSpellCheckProvider
+title: ISpellCheckProviderFactory::CreateSpellCheckProvider (spellcheckprovider.h)
 author: windows-sdk-content
 description: Creates a spell checker (implemented by a spell check provider) that supports the specified language.
 old-location: intl\ispellcheckproviderfactory_createspellcheckprovider.htm

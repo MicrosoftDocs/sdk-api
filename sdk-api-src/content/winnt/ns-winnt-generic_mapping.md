@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._GENERIC_MAPPING
-title: GENERIC_MAPPING
+title: GENERIC_MAPPING (winnt.h)
 author: windows-sdk-content
 description: Defines the mapping of generic access rights to specific and standard access rights for an object.
 old-location: security\generic_mapping.htm

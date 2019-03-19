@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectStringVariable
-title: ID3D10EffectStringVariable
+title: ID3D10EffectStringVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A string-variable interface accesses a string variable.
 old-location: direct3d10\id3d10effectstringvariable.htm

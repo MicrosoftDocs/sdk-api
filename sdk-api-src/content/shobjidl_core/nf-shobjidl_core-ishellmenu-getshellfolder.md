@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.GetShellFolder
-title: IShellMenu::GetShellFolder
+title: IShellMenu::GetShellFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the folder that the menu band is set to browse.
 old-location: shell\IShellMenu_GetShellFolder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_8
-title: ASSOCDATA
+title: ASSOCDATA (shlwapi.h)
 author: windows-sdk-content
 description: Used by IQueryAssociations::GetData to define the type of data that is to be returned.
 old-location: shell\ASSOCDATA_str.htm

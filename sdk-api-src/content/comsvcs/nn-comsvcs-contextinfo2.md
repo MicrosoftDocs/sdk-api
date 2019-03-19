@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ContextInfo2
-title: ContextInfo2
+title: ContextInfo2 (comsvcs.h)
 author: windows-sdk-content
 description: Provides additional information about an object's context, supplementing the information that is available through the ContextInfo interface.
 old-location: cos\contextinfo2.htm

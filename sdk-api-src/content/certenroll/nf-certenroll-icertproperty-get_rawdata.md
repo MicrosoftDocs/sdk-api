@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperty.get_RawData
-title: ICertProperty::get_RawData
+title: ICertProperty::get_RawData (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the value of the certificate property.
 old-location: security\icertproperty_rawdata_property.htm

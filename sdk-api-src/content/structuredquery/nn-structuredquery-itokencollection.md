@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.ITokenCollection
-title: ITokenCollection
+title: ITokenCollection (structuredquery.h)
 author: windows-sdk-content
 description: Gets the tokens that result from using a word breaker.
 old-location: search\_search_ITokenCollection.htm

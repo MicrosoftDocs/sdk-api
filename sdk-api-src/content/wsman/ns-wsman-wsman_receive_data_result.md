@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_RECEIVE_DATA_RESULT
-title: WSMAN_RECEIVE_DATA_RESULT
+title: WSMAN_RECEIVE_DATA_RESULT (wsman.h)
 author: windows-sdk-content
 description: Represents the output data received from a WSManReceiveShellOutput method.
 old-location: winrm\wsman_receive_data_result.htm

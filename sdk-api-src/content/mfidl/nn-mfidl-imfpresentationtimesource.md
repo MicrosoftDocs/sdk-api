@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFPresentationTimeSource
-title: IMFPresentationTimeSource
+title: IMFPresentationTimeSource (mfidl.h)
 author: windows-sdk-content
 description: Provides the clock times for the presentation clock.
 old-location: mf\imfpresentationtimesource.htm

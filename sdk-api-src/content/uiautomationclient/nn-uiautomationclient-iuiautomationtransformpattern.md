@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTransformPattern
-title: IUIAutomationTransformPattern
+title: IUIAutomationTransformPattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that can be moved, resized, or rotated.
 old-location: winauto\uiauto_IUIAutomationTransformPattern.htm

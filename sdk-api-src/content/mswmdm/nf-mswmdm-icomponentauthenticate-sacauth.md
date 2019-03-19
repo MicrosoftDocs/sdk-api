@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IComponentAuthenticate.SACAuth
-title: IComponentAuthenticate::SACAuth
+title: IComponentAuthenticate::SACAuth (mswmdm.h)
 author: windows-sdk-content
 description: The SACAuth method establishes a secure authenticated channel between components.
 old-location: wmdm\icomponentauthenticate_sacauth.htm

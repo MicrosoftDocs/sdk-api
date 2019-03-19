@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrEnumItems.Reset
-title: ISyncMgrEnumItems::Reset
+title: ISyncMgrEnumItems::Reset (mobsync.h)
 author: windows-sdk-content
 description: Instructs the enumerator to position itself at the beginning of the list of elements.
 old-location: shell\syncmgr_isyncmgrenumitems_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vdshwprv._VDS_DISK_NOTIFICATION
-title: VDS_DISK_NOTIFICATION
+title: VDS_DISK_NOTIFICATION (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the details of disk events.
 old-location: base\vds_disk_notification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_RTV
-title: D3D11_TEX2D_RTV
+title: D3D11_TEX2D_RTV (d3d11.h)
 author: windows-sdk-content
 description: Specifies the subresource from a 2D texture to use in a render-target view.
 old-location: direct3d11\d3d11_tex2d_rtv.htm

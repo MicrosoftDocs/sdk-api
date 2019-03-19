@@ -1,6 +1,6 @@
 ---
 UID: NS:raseapif._RAS_AUTH_ATTRIBUTE
-title: RAS_AUTH_ATTRIBUTE
+title: RAS_AUTH_ATTRIBUTE (raseapif.h)
 author: windows-sdk-content
 description: The RAS_AUTH_ATTRIBUTE structure is used to pass authentication attributes, of type RAS_AUTH_ATTRIBUTE_TYPE, during an EAP session.
 old-location: eap\ras_auth_attribute.htm

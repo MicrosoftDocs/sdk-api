@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITSubStream.get_Stream
-title: ITSubStream::get_Stream
+title: ITSubStream::get_Stream (tapi3if.h)
 author: windows-sdk-content
 description: The get_Stream method retrieves the pointer to the ITStream interface for the current substream.
 old-location: tapi3\itsubstream_get_stream.htm

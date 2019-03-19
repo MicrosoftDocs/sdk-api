@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.QueryExtents
-title: IVdsDrive::QueryExtents
+title: IVdsDrive::QueryExtents (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an array of the extents on a drive, including both allocated and unallocated extents.
 old-location: base\ivdsdrive_queryextents.htm

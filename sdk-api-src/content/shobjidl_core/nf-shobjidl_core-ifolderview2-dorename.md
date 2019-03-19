@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.DoRename
-title: IFolderView2::DoRename
+title: IFolderView2::DoRename (shobjidl_core.h)
 author: windows-sdk-content
 description: Starts a rename operation on the current selection.
 old-location: shell\IFolderView2_DoRename.htm

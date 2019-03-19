@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignatureId
-title: IOpcSigningOptions::SetSignatureId
+title: IOpcSigningOptions::SetSignatureId (msopc.h)
 author: windows-sdk-content
 description: Sets the value of the Id attribute of the Signature element.
 old-location: opc\iopcsigningoptions_setsignatureid.htm

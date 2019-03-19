@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Csid
-title: IFaxStatus::get_Csid
+title: IFaxStatus::get_Csid (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the Csid property for the FaxStatus object of a parent FaxPort object. The Csid property is a string that contains called station identifier (CSID) information, typically the fax number of the receiving device.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_csid_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX500DistinguishedName.get_Name
-title: IX500DistinguishedName::get_Name
+title: IX500DistinguishedName::get_Name (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a distinguished name.
 old-location: security\ix500distinguishedname_name_property.htm

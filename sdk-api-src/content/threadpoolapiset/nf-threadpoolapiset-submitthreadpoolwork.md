@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.SubmitThreadpoolWork
-title: SubmitThreadpoolWork function
+title: SubmitThreadpoolWork function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Posts a work object to the thread pool. A worker thread calls the work object's callback function.
 old-location: base\submitthreadpoolwork.htm

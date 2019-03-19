@@ -1,6 +1,6 @@
 ---
 UID: NS:iphlpapi._INTERFACE_TIMESTAMP_CAPABILITY_FLAGS
-title: INTERFACE_TIMESTAMP_CAPABILITY_FLAGS
+title: INTERFACE_TIMESTAMP_CAPABILITY_FLAGS (iphlpapi.h)
 author: windows-sdk-content
 description: This structure is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_timestamp_capability_flags.htm

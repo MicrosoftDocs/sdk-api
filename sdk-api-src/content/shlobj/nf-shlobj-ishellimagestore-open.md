@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IShellImageStore.Open
-title: IShellImageStore::Open
+title: IShellImageStore::Open (shlobj.h)
 author: windows-sdk-content
 description: Opens the store and returns a lock.
 old-location: shell\IShellImageStore_Open.htm

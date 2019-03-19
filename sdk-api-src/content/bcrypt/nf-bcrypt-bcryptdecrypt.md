@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptDecrypt
-title: BCryptDecrypt function
+title: BCryptDecrypt function (bcrypt.h)
 author: windows-sdk-content
 description: Decrypts a block of data.
 old-location: security\bcryptdecrypt_func.htm

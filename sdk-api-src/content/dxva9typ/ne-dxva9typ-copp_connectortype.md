@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva9typ._COPP_ConnectorType
-title: COPP_ConnectorType
+title: COPP_ConnectorType (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies the type of physical connector.
 old-location: dshow\copp_connectortype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:pnrpns._PNRPCLOUDINFO
-title: PNRPCLOUDINFO
+title: PNRPCLOUDINFO (pnrpns.h)
 author: windows-sdk-content
 description: The PNRPCLOUDINFO structure is pointed to by the lpBlob member of the WSAQUERYSET structure.
 old-location: p2p\pnrpcloudinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtGetSearchResult
-title: DrtGetSearchResult function
+title: DrtGetSearchResult function (drt.h)
 author: windows-sdk-content
 description: DrtGetSearchResult function.
 old-location: p2p\drtgetsearchresult.htm

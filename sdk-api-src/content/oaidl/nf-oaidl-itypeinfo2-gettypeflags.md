@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetTypeFlags
-title: ITypeInfo2::GetTypeFlags
+title: ITypeInfo2::GetTypeFlags (oaidl.h)
 author: windows-sdk-content
 description: Returns the type flags without any allocations. This returns a flag that expands the type flags without growing the TYPEATTR (type attribute).
 old-location: automat\itypeinfo2_gettypeflags.htm

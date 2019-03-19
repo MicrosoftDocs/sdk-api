@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RestartCount
-title: ITaskSettings::put_RestartCount
+title: ITaskSettings::put_RestartCount (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the number of times that the Task Scheduler will attempt to restart the task.
 old-location: taskschd\itasksettings_restartcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Reset
-title: IEnumNetSharingEveryConnection::Reset
+title: IEnumNetSharingEveryConnection::Reset (netcon.h)
 author: windows-sdk-content
 description: The Reset method causes subsequent enumeration calls to operate from the beginning of the enumeration.
 old-location: ics\ienumnetsharingeveryconnection_reset.htm

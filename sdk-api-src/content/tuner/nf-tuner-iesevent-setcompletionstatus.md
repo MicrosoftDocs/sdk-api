@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.SetCompletionStatus
-title: IESEvent::SetCompletionStatus
+title: IESEvent::SetCompletionStatus (tuner.h)
 author: windows-sdk-content
 description: Sets the completion status for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevent_setcompletionstatus.htm

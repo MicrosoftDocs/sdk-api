@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetLanguage
-title: MsiGetLanguage function
+title: MsiGetLanguage function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetLanguage function returns the numeric language of the installation that is currently running.
 old-location: setup\msigetlanguage.htm

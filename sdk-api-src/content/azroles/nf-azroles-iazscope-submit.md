@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.Submit
-title: IAzScope::Submit
+title: IAzScope::Submit (azroles.h)
 author: windows-sdk-content
 description: Persists changes made to the IAzScope object.
 old-location: security\iazscope_submit.htm

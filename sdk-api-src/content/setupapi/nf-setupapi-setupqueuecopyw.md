@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueueCopyW
-title: SetupQueueCopyW function
+title: SetupQueueCopyW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueueCopy function adds a single file copy operation to a setup file queue.
 old-location: setup\setupqueuecopy.htm

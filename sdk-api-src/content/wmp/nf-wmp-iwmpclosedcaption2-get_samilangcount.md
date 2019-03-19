@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.get_SAMILangCount
-title: IWMPClosedCaption2::get_SAMILangCount
+title: IWMPClosedCaption2::get_SAMILangCount (wmp.h)
 author: windows-sdk-content
 description: The get_SAMILangCount method retrieves the number of languages supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_get_samilangcount.htm

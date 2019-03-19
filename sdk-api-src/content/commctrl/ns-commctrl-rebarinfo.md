@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagREBARINFO
-title: REBARINFO
+title: REBARINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information that describes rebar control characteristics.
 old-location: controls\REBARINFO.htm

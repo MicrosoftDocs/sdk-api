@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IXDSToRat.ParseXDSBytePair
-title: IXDSToRat::ParseXDSBytePair
+title: IXDSToRat::ParseXDSBytePair (tvratings.h)
 author: windows-sdk-content
 description: "."
 old-location: mstv\ixdstorat_parsexdsbytepair.htm

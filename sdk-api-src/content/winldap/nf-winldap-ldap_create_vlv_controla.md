@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_create_vlv_controlA
-title: ldap_create_vlv_controlA function
+title: ldap_create_vlv_controlA function (winldap.h)
 author: windows-sdk-content
 description: The ldap_create_vlv_control function is used to create the request control (LDAP_CONTROL_VLVREQUEST) on the server.
 old-location: ldap\ldap_create_vlv_control.htm

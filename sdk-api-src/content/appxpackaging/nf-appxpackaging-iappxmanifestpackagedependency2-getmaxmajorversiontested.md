@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency2.GetMaxMajorVersionTested
-title: IAppxManifestPackageDependency2::GetMaxMajorVersionTested
+title: IAppxManifestPackageDependency2::GetMaxMajorVersionTested (appxpackaging.h)
 author: windows-sdk-content
 description: Returns the maximum major version number of the package that is tested to be compatible with the current package.
 old-location: appxpkg\iappxmanifestpackagedependency2_getmaxmajorversiontested.htm

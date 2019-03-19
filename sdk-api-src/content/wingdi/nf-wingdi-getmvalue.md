@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetMValue
-title: GetMValue macro
+title: GetMValue macro (wingdi.h)
 author: windows-sdk-content
 description: The GetMValue macro retrieves the magenta color value from a CMYK color value.
 old-location: wcs\getmvalue.htm

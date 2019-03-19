@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.SetStreamMediaType
-title: IVMRImageCompositor::SetStreamMediaType
+title: IVMRImageCompositor::SetStreamMediaType (strmif.h)
 author: windows-sdk-content
 description: The SetStreamMediaType method sets the media type for the input stream.
 old-location: dshow\ivmrimagecompositor_setstreammediatype.htm

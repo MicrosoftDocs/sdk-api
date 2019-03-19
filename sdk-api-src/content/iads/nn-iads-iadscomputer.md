@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsComputer
-title: IADsComputer
+title: IADsComputer (iads.h)
 author: windows-sdk-content
 description: The IADsComputer interface is a dual interface that inherits from IADs.
 old-location: adsi\iadscomputer.htm

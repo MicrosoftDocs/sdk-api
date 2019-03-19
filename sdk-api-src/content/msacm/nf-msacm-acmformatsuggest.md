@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmFormatSuggest
-title: acmFormatSuggest function
+title: acmFormatSuggest function (msacm.h)
 author: windows-sdk-content
 description: The acmFormatSuggest function queries the ACM or a specified ACM driver to suggest a destination format for the supplied source format.
 old-location: multimedia\acmformatsuggest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_value_free_len
-title: ldap_value_free_len function
+title: ldap_value_free_len function (winldap.h)
 author: windows-sdk-content
 description: The ldap_value_free_len frees berval structures that were returned by ldap_get_values_len.
 old-location: ldap\ldap_value_free_len.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetAllocateForPostView
-title: IWMWriterPostView::GetAllocateForPostView
+title: IWMWriterPostView::GetAllocateForPostView (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAllocateForPostView method ascertains whether the application, and not the writer, must supply the buffers.
 old-location: wmformat\iwmwriterpostview_getallocateforpostview.htm

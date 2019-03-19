@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmError.get_ModuleTable
-title: IMsmError::get_ModuleTable
+title: IMsmError::get_ModuleTable (mergemod.h)
 author: windows-sdk-content
 description: The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.
 old-location: setup\imsmerror_get_moduletable.htm

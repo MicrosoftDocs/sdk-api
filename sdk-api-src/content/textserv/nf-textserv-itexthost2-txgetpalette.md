@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetPalette
-title: ITextHost2::TxGetPalette
+title: ITextHost2::TxGetPalette (textserv.h)
 author: windows-sdk-content
 description: Retrieves the color palette of the rich edit control.
 old-location: controls\itexthost2_txgetpalette.htm

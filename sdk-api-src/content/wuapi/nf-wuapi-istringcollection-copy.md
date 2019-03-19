@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IStringCollection.Copy
-title: IStringCollection::Copy
+title: IStringCollection::Copy (wuapi.h)
 author: windows-sdk-content
 description: Creates a deep read/write copy of the collection.
 old-location: wua\istringcollection_copy.htm

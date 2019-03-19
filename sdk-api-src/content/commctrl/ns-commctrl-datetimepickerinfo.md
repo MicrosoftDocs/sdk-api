@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagDATETIMEPICKERINFO
-title: DATETIMEPICKERINFO
+title: DATETIMEPICKERINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a date and time picker (DTP) control.
 old-location: controls\DATETIMEPICKERINFO.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchStripPrefix
-title: PathCchStripPrefix function
+title: PathCchStripPrefix function (pathcch.h)
 author: windows-sdk-content
 description: Removes the &#0034;\\?\&#0034; prefix, if present, from a file path.
 old-location: shell\PathCchStripPrefix.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3Callback.OnServerCertificateReceived
-title: IXMLHTTPRequest3Callback::OnServerCertificateReceived
+title: IXMLHTTPRequest3Callback::OnServerCertificateReceived (msxml6.h)
 author: windows-sdk-content
 description: Occurs when a client receives certificate errors or a server certificate chain during SSL negotiation with the server.
 old-location: ixhr2\ixmlhttprequest3callback_onservercertificatereceived.htm

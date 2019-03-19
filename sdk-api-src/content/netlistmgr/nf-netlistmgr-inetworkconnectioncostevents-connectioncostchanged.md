@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCostEvents.ConnectionCostChanged
-title: INetworkConnectionCostEvents::ConnectionCostChanged
+title: INetworkConnectionCostEvents::ConnectionCostChanged (netlistmgr.h)
 author: windows-sdk-content
 description: ConnectionCostChanged method notifies an application of a network cost change for a connection.
 old-location: nla\inetworkconnectioncostevents_connectioncostchanged.htm

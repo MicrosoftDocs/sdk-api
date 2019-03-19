@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.get_IsConnectedToInternet
-title: INetworkListManager::get_IsConnectedToInternet
+title: INetworkListManager::get_IsConnectedToInternet (netlistmgr.h)
 author: windows-sdk-content
 description: The get_IsConnectedToInternet property specifies if the local machine has internet connectivity.
 old-location: nla\inetworklistmanager_get_isconnectedtointernet.htm

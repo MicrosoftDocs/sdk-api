@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_NonMembersName
-title: IAzApplicationGroup::get_NonMembersName
+title: IAzApplicationGroup::get_NonMembersName (azroles.h)
 author: windows-sdk-content
 description: Retrieves the account names of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_nonmembersname.htm

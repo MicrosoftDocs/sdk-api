@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.CheckTypesSet
-title: IMediaObjectImpl::CheckTypesSet
+title: IMediaObjectImpl::CheckTypesSet (dmoimpl.h)
 author: windows-sdk-content
 description: The CheckTypesSet method determines whether the media type has been set on all of the streams.
 old-location: dshow\imediaobjectimpl_checktypesset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetMaximumLatency
-title: MI_SubscriptionDeliveryOptions_SetMaximumLatency function
+title: MI_SubscriptionDeliveryOptions_SetMaximumLatency function (mi.h)
 author: windows-sdk-content
 description: Sets the maximum amount of time that the server will hold a result before delivering it to the client.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setmaximumlatency.htm

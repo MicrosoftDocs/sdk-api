@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.DefaultPhrase
-title: IConditionGenerator::DefaultPhrase
+title: IConditionGenerator::DefaultPhrase (structuredquery.h)
 author: windows-sdk-content
 description: This method attempts to produce a phrase that, when recognized by this instance of IConditionGenerator, represents the type and value pair for an entity, relationship, or named entity.
 old-location: search\_search_IConditionGenerator_DefaultPhrase.htm

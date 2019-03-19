@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_CCP_INFO
-title: PPP_CCP_INFO
+title: PPP_CCP_INFO (mprapi.h)
 author: windows-sdk-content
 description: The PPP_CCP_INFO structure contains information that describes the results of a Compression Control Protocol (CCP) negotiation.
 old-location: rras\ppp_ccp_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgCredentials_Cert
-title: SecPkgCredentials_Cert
+title: SecPkgCredentials_Cert (sspi.h)
 author: windows-sdk-content
 description: Specifies the certificate credentials. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_cert.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetStreamSelectorFlags
-title: IMFASFStreamSelector::SetStreamSelectorFlags
+title: IMFASFStreamSelector::SetStreamSelectorFlags (wmcontainer.h)
 author: windows-sdk-content
 description: Sets options for the stream selector.
 old-location: mf\imfasfstreamselector_setstreamselectorflags.htm

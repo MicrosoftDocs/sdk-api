@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetScopes
-title: IWSDiscoveredService::GetScopes
+title: IWSDiscoveredService::GetScopes (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves a list of WS-Discovery Scopes.
 old-location: ncd\iwsdiscoveredservice_getscopes.htm

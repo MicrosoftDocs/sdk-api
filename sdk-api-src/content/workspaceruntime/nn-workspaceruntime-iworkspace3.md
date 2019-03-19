@@ -1,6 +1,6 @@
 ---
 UID: NN:workspaceruntime.IWorkspace3
-title: IWorkspace3
+title: IWorkspace3 (workspaceruntime.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection, and adds the ability to retrieve or set a claims token.
 old-location: termserv\iworkspace3.htm

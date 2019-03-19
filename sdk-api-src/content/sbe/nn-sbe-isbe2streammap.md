@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.ISBE2StreamMap
-title: ISBE2StreamMap
+title: ISBE2StreamMap (sbe.h)
 author: windows-sdk-content
 description: Handles the mapping between output pins and streams for the Stream Buffer Source filter.
 old-location: mstv\isbe2streammap.htm

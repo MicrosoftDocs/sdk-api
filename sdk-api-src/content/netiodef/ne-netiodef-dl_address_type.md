@@ -1,6 +1,6 @@
 ---
 UID: NE:netiodef.__unnamed_enum_0
-title: DL_ADDRESS_TYPE
+title: DL_ADDRESS_TYPE (netiodef.h)
 author: windows-sdk-content
 description: The DL_ADDRESS_TYPE enumerated type.
 old-location: fwp\dl_address_type.htm

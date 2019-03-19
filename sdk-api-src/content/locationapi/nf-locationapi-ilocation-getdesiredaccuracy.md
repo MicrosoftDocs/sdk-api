@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ILocation.GetDesiredAccuracy
-title: ILocation::GetDesiredAccuracy
+title: ILocation::GetDesiredAccuracy (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the current requested accuracy setting.
 old-location: winlocation\ilocation_getdesiredaccuracy.htm

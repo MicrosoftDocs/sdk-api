@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerDestroyEnumHandle0
-title: FwpmSubLayerDestroyEnumHandle0 function
+title: FwpmSubLayerDestroyEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Frees a handle returned by FwpmSubLayerCreateEnumHandle0.
 old-location: fwp\fwpmsublayerdestroyenumhandle0_func.htm

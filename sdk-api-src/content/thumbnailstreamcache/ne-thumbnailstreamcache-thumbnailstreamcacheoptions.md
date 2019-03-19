@@ -1,6 +1,6 @@
 ---
 UID: NE:thumbnailstreamcache.ThumbnailStreamCacheOptions
-title: ThumbnailStreamCacheOptions
+title: ThumbnailStreamCacheOptions (thumbnailstreamcache.h)
 author: windows-sdk-content
 description: Defines the cache options used by the IThumbnailStreamCache interface.
 old-location: shell\thumbnailstreamcacheoptions.htm

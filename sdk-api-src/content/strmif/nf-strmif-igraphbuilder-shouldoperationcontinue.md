@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphBuilder.ShouldOperationContinue
-title: IGraphBuilder::ShouldOperationContinue
+title: IGraphBuilder::ShouldOperationContinue (strmif.h)
 author: windows-sdk-content
 description: The ShouldOperationContinue method queries whether the current operation should continue.
 old-location: dshow\igraphbuilder_shouldoperationcontinue.htm

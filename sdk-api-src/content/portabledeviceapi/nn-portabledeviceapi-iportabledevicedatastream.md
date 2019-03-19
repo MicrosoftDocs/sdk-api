@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceDataStream
-title: IPortableDeviceDataStream
+title: IPortableDeviceDataStream (portabledeviceapi.h)
 author: windows-sdk-content
 description: The IPortableDeviceDataStream interface exposes additional methods on an IStream that is used for data transfers.
 old-location: wpdsdk\iportabledevicedatastream.htm

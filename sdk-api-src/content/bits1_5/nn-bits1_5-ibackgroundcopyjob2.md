@@ -1,6 +1,6 @@
 ---
 UID: NN:bits1_5.IBackgroundCopyJob2
-title: IBackgroundCopyJob2
+title: IBackgroundCopyJob2 (bits1_5.h)
 author: windows-sdk-content
 description: Retrieve reply data from an upload-reply job, determine the progress of the reply data transfer to the client, request command line execution, and provide credentials for proxy and remote server authentication requests.
 old-location: bits\ibackgroundcopyjob2.htm

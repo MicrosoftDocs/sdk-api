@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupEnumMembers
-title: PeerGroupEnumMembers function
+title: PeerGroupEnumMembers function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupEnumMembers function creates an enumeration of available peer group members and the associated membership information.
 old-location: p2p\peergroupenummembers.htm

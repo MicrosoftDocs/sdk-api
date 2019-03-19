@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_NAME_INFO
-title: TRUSTED_DOMAIN_NAME_INFO
+title: TRUSTED_DOMAIN_NAME_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: Used to query or set the name of a trusted domain.
 old-location: security\trusted_domain_name_info.htm

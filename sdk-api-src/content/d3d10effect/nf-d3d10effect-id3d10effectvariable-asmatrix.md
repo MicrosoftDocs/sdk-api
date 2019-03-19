@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsMatrix
-title: ID3D10EffectVariable::AsMatrix
+title: ID3D10EffectVariable::AsMatrix (d3d10effect.h)
 author: windows-sdk-content
 description: Get a matrix variable.
 old-location: direct3d10\id3d10effectvariable_asmatrix.htm

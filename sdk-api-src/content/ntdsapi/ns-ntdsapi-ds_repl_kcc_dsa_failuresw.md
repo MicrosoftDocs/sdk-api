@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_KCC_DSA_FAILURESW
-title: DS_REPL_KCC_DSA_FAILURESW
+title: DS_REPL_KCC_DSA_FAILURESW (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_KCC_DSA_FAILURES structure contains an array of DS_REPL_KCC_DSA_FAILURE structures, which in turn contain replication state data with respect to inbound replication partners, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
 old-location: ad\ds_repl_kcc_dsa_failures.htm

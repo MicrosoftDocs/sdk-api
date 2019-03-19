@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.SetDesktopSharedRect
-title: IRDPSRAPISharingSession::SetDesktopSharedRect
+title: IRDPSRAPISharingSession::SetDesktopSharedRect (rdpencomapi.h)
 author: windows-sdk-content
 description: Sets the desktop region that will be shared.
 old-location: rdp\irdpsrapisharingsession_setdesktopsharedrect.htm

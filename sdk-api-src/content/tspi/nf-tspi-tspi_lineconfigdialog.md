@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineConfigDialog
-title: TSPI_lineConfigDialog function
+title: TSPI_lineConfigDialog function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineConfigDialog function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_lineConfigDialog.
 old-location: tspi\tspi_lineconfigdialog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioAscend
-title: mmioAscend function
+title: mmioAscend function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioAscend function ascends out of a chunk in a RIFF file descended into with the mmioDescend function or created with the mmioCreateChunk function.
 old-location: multimedia\mmioascend.htm

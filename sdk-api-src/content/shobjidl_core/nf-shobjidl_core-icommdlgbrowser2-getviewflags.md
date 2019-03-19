@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser2.GetViewFlags
-title: ICommDlgBrowser2::GetViewFlags
+title: ICommDlgBrowser2::GetViewFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when the view must determine if special customization needs to be made for the common dialog browser.
 old-location: shell\ICommDlgBrowser2_GetViewFlags.htm

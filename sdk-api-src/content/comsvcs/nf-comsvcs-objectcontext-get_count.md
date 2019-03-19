@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Count
-title: ObjectContext::get_Count
+title: ObjectContext::get_Count (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of named context object properties.
 old-location: cos\objectcontext_get_count.htm

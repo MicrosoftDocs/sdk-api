@@ -1,6 +1,6 @@
 ---
 UID: NE:amsi.AMSI_ATTRIBUTE
-title: AMSI_ATTRIBUTE
+title: AMSI_ATTRIBUTE (amsi.h)
 author: windows-sdk-content
 description: Specifies the types of attributes that can be requested by IAmsiStream::GetAttribute.
 old-location: amsi\amsi_attribute.htm

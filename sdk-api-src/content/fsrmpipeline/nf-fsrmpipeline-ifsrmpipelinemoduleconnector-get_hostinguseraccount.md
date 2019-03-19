@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_HostingUserAccount
-title: IFsrmPipelineModuleConnector::get_HostingUserAccount
+title: IFsrmPipelineModuleConnector::get_HostingUserAccount (fsrmpipeline.h)
 author: windows-sdk-content
 description: The user account under which the module runs.
 old-location: fsrm\ifsrmpipelinemoduleconnector_hostinguseraccount.htm

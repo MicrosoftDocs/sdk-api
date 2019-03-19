@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.CROSS_SLIDE_PARAMETER
-title: CROSS_SLIDE_PARAMETER
+title: CROSS_SLIDE_PARAMETER (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the cross-slide threshold and its distance threshold.
 old-location: input_intcontext\cross_slide_parameter.htm

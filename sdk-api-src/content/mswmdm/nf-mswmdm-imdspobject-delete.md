@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Delete
-title: IMDSPObject::Delete
+title: IMDSPObject::Delete (mswmdm.h)
 author: windows-sdk-content
 description: The Delete method removes an object or objects from a storage medium on a media device.
 old-location: wmdm\imdspobject_delete.htm

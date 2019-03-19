@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.DeleteProperties
-title: ITsSbFilterPluginStore::DeleteProperties
+title: ITsSbFilterPluginStore::DeleteProperties (sbtsv.h)
 author: windows-sdk-content
 description: Deletes a property.
 old-location: termserv\itssbfilterpluginstore_deleteproperties.htm

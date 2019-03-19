@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptVerifySignature
-title: BCryptVerifySignature function
+title: BCryptVerifySignature function (bcrypt.h)
 author: windows-sdk-content
 description: Verifies that the specified signature matches the specified hash.
 old-location: security\bcryptverifysignature_func.htm

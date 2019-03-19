@@ -1,6 +1,6 @@
 ---
 UID: NN:emptyvc.IEmptyVolumeCache
-title: IEmptyVolumeCache
+title: IEmptyVolumeCache (emptyvc.h)
 author: windows-sdk-content
 description: Used by the disk cleanup manager to communicate with a disk cleanup handler. Exposes methods that enable the manager to request information from a handler, and notify it of events such as the start of a scan or purge.
 old-location: lwef\iemptyvolumecache.htm

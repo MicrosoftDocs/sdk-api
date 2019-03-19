@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetUserInfo
-title: DRMGetUserInfo function
+title: DRMGetUserInfo function (msdrm.h)
 author: windows-sdk-content
 description: Obtains information about a user.
 old-location: rm\drmgetuserinfo.htm

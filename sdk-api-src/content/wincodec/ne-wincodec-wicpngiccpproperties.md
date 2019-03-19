@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPngIccpProperties
-title: WICPngIccpProperties
+title: WICPngIccpProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) iCCP chunk metadata properties.
 old-location: wic\_wic_codec_wicpngiccpproperties.htm

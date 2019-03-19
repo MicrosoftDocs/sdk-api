@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetEnvironment
-title: IXblIdpAuthTokenResult::GetEnvironment
+title: IXblIdpAuthTokenResult::GetEnvironment (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getenvironment.htm

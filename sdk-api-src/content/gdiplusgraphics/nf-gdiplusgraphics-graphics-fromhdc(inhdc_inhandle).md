@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FromHDC(IN HDC,IN HANDLE)
-title: Graphics::FromHDC(IN HDC,IN HANDLE)
+title: Graphics::FromHDC(IN HDC,IN HANDLE) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::FromHDC method creates a Graphics object that is associated with a specified device context and a specified device.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHDC_hdc_hdevice_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capPaletteOpen
-title: capPaletteOpen macro
+title: capPaletteOpen macro (vfw.h)
 author: windows-sdk-content
 description: The capPaletteOpen macro loads a new palette from a palette file and passes it to a capture driver.
 old-location: multimedia\cappaletteopen.htm

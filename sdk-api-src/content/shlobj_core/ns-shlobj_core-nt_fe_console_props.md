@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_1
-title: NT_FE_CONSOLE_PROPS
+title: NT_FE_CONSOLE_PROPS (shlobj_core.h)
 author: windows-sdk-content
 description: Holds an extra data block used by IShellLinkDataList. It holds the console's code page.
 old-location: shell\NT_FE_CONSOLE_PROPS_str.htm

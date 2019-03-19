@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.TuneByChannel
-title: IBDA_ConditionalAccess::TuneByChannel
+title: IBDA_ConditionalAccess::TuneByChannel (bdaiface.h)
 author: windows-sdk-content
 description: The TuneByChannel method tunes to a virtual channel.
 old-location: mstv\ibda_conditionalaccess_tunebychannel.htm

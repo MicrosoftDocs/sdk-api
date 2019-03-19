@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetDictionaryResource
-title: IXpsOMCanvas::SetDictionaryResource
+title: IXpsOMCanvas::SetDictionaryResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the remote dictionary resource.
 old-location: xps\ixpsomcanvas_setdictionaryresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.ILocator
-title: ILocator
+title: ILocator (tuner.h)
 author: windows-sdk-content
 description: The ILocator interface is implemented (through derived interfaces such as IATSCLocator) on Locator objects that contain tuning information about the tuning space.
 old-location: mstv\ilocator.htm

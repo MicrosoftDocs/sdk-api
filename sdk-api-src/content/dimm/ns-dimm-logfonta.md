@@ -1,6 +1,6 @@
 ---
 UID: NS:dimm.__MIDL___MIDL_itf_dimm_0000_0000_0003
-title: LOGFONTA
+title: LOGFONTA (dimm.h)
 author: windows-sdk-content
 description: Defines the attributes of a font.
 old-location: shell\LOGFONT.htm

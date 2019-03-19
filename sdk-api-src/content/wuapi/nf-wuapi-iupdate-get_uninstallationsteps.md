@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_UninstallationSteps
-title: IUpdate::get_UninstallationSteps
+title: IUpdate::get_UninstallationSteps (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains the uninstallation steps for the update.
 old-location: wua\iupdate_uninstallationsteps.htm

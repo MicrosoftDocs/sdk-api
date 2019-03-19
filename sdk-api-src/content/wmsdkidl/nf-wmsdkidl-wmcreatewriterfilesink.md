@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateWriterFileSink
-title: WMCreateWriterFileSink function
+title: WMCreateWriterFileSink function (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMCreateWriterFileSink function creates a writer file sink object.
 old-location: wmformat\wmcreatewriterfilesink.htm

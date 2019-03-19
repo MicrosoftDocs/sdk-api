@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_COMMIT_ENROLLMENT_FN
-title: PIBIO_ENGINE_COMMIT_ENROLLMENT_FN
+title: PIBIO_ENGINE_COMMIT_ENROLLMENT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Finalizes the enrollment object, converts it to a template, and saves the template in the database.
 old-location: secbiomet\engineadaptercommitenrollment.htm

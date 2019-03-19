@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.Hide
-title: IMathInputControl::Hide
+title: IMathInputControl::Hide (micaut.h)
 author: windows-sdk-content
 description: Hides the control.
 old-location: tablet\imathinputcontrol_hide.htm

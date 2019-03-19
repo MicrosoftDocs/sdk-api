@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_ERR
-title: MF_MEDIA_ENGINE_ERR
+title: MF_MEDIA_ENGINE_ERR (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines error status codes for the Media Engine.
 old-location: mf\mf_media_engine_err.htm

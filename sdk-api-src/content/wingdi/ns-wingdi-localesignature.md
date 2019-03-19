@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLOCALESIGNATURE
-title: LOCALESIGNATURE
+title: LOCALESIGNATURE (wingdi.h)
 author: windows-sdk-content
 description: Contains extended font signature information, including two code page bitfields (CPBs) that define the default and supported character sets and code pages. This structure is typically used to represent the relationships between font coverage and locales.
 old-location: intl\localesignature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CancelClusterGroupOperation
-title: CancelClusterGroupOperation function
+title: CancelClusterGroupOperation function (clusapi.h)
 author: windows-sdk-content
 description: Enables a client to cancel a MoveClusterGroup or MoveClusterGroupEx operation that is pending for a group. The group is then returned to its persistent state.
 old-location: mscs\cancelclustergroupoperation.htm

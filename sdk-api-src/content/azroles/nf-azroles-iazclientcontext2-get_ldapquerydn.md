@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext2.get_LDAPQueryDN
-title: IAzClientContext2::get_LDAPQueryDN
+title: IAzClientContext2::get_LDAPQueryDN (azroles.h)
 author: windows-sdk-content
 description: Retrieves or sets the domain name of the directory object to be used during evaluation of LDAP query groups.
 old-location: security\iazclientcontext2_ldapquerydn.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:datetimeapi.GetDateFormatA
-title: GetDateFormatA function
+title: GetDateFormatA function (datetimeapi.h)
 author: windows-sdk-content
 description: Formats a date as a date string for a locale specified by the locale identifier.
 old-location: intl\getdateformat.htm

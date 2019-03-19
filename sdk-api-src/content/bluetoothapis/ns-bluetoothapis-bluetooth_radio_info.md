@@ -1,6 +1,6 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_RADIO_INFO
-title: BLUETOOTH_RADIO_INFO
+title: BLUETOOTH_RADIO_INFO (bluetoothapis.h)
 author: windows-sdk-content
 description: Contains information about a Bluetooth radio.
 old-location: bluetooth\bluetooth_radio_info.htm

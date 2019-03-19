@@ -1,6 +1,6 @@
 ---
 UID: NC:filehc.CACHE_DESTROY_CALLBACK
-title: CACHE_DESTROY_CALLBACK
+title: CACHE_DESTROY_CALLBACK (filehc.h)
 author: windows-sdk-content
 description: A function that is called whenever an entry in the name cache is destroyed.
 old-location: winprog\cache_destroy_callback.htm

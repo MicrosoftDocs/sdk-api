@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList4.SetTabProperties
-title: ITaskbarList4::SetTabProperties
+title: ITaskbarList4::SetTabProperties (shobjidl_core.h)
 author: windows-sdk-content
 description: Allows a tab to specify whether the main application frame window or the tab window should be used as a thumbnail or in the peek feature under certain circumstances.
 old-location: shell\ITaskbarList4_SetTabProperties.htm

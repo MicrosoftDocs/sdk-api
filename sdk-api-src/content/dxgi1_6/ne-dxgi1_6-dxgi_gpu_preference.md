@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_6.DXGI_GPU_PREFERENCE
-title: DXGI_GPU_PREFERENCE
+title: DXGI_GPU_PREFERENCE (dxgi1_6.h)
 author: windows-sdk-content
 description: The preference of GPU for the app to run on.
 old-location: direct3ddxgi\dxgi_gpu_preference.htm

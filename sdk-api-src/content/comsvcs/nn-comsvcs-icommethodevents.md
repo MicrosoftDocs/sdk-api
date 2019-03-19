@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComMethodEvents
-title: IComMethodEvents
+title: IComMethodEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.
 old-location: cos\icommethodevents.htm

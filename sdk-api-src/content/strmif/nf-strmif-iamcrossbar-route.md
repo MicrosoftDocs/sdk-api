@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMCrossbar.Route
-title: IAMCrossbar::Route
+title: IAMCrossbar::Route (strmif.h)
 author: windows-sdk-content
 description: The Route method routes an input pin to an output pin.
 old-location: dshow\iamcrossbar_route.htm

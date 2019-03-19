@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.Stop
-title: IRegisteredTask::Stop
+title: IRegisteredTask::Stop (taskschd.h)
 author: windows-sdk-content
 description: Stops the registered task immediately.
 old-location: taskschd\iregisteredtask_stop.htm

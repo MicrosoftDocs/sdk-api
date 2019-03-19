@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetCADistinguishedName
-title: ICertSrvSetup::SetCADistinguishedName
+title: ICertSrvSetup::SetCADistinguishedName (casetup.h)
 author: windows-sdk-content
 description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
 old-location: security\icertsrvsetup_setcadistinguishedname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_OverallCallRate
-title: ITAgent::get_OverallCallRate
+title: ITAgent::get_OverallCallRate (tapi3cc.h)
 author: windows-sdk-content
 description: The get_OverallCallRate method gets an agent's call rate across all sessions. 10 *Calls per agent hour (where agent hour represents the time that an agent was active in one or more agent sessions).
 old-location: tapi3\itagent_get_overallcallrate.htm

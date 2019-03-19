@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsControllerPort.GetController
-title: IVdsControllerPort::GetController
+title: IVdsControllerPort::GetController (vds.h)
 author: windows-sdk-content
 description: Returns the controller to which the controller port belongs.
 old-location: base\ivdscontrollerport_getcontroller.htm

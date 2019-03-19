@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_TSID
-title: IFaxOutgoingMessage::get_TSID
+title: IFaxOutgoingMessage::get_TSID (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_TSID property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax outbound message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_tsid_cpp.htm

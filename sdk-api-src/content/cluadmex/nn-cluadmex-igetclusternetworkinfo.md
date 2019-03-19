@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IGetClusterNetworkInfo
-title: IGetClusterNetworkInfo
+title: IGetClusterNetworkInfo (cluadmex.h)
 author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a network.
 old-location: mscs\igetclusternetworkinfo.htm

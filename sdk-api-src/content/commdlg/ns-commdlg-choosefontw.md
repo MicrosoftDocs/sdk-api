@@ -1,6 +1,6 @@
 ---
 UID: NS:commdlg.tagCHOOSEFONTW
-title: CHOOSEFONTW
+title: CHOOSEFONTW (commdlg.h)
 author: windows-sdk-content
 description: Contains information that the ChooseFont function uses to initialize the Font dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 old-location: dlgbox\choosefont_str.htm

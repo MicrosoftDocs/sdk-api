@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection
-title: IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection
+title: IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Creates a function instance collection.
 old-location: ncd\ifunctiondiscoveryproviderfactory_createfunctioninstancecollection.htm

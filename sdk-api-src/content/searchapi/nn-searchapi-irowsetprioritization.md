@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.IRowsetPrioritization
-title: IRowsetPrioritization
+title: IRowsetPrioritization (searchapi.h)
 author: windows-sdk-content
 description: Sets or retrieves the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization.htm

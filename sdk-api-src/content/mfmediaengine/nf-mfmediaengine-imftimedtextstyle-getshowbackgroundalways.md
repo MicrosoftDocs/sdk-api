@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetShowBackgroundAlways
-title: IMFTimedTextStyle::GetShowBackgroundAlways
+title: IMFTimedTextStyle::GetShowBackgroundAlways (mfmediaengine.h)
 author: windows-sdk-content
 description: Determines whether the style of timed text always shows the background.
 old-location: mf\imftimedtextstyle_getshowbackgroundalways.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:loadperf.LoadPerfCounterTextStringsA
-title: LoadPerfCounterTextStringsA function
+title: LoadPerfCounterTextStringsA function (loadperf.h)
 author: windows-sdk-content
 description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
 old-location: perf\loadperfcountertextstrings.htm

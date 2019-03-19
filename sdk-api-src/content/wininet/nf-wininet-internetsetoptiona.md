@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetSetOptionA
-title: InternetSetOptionA function
+title: InternetSetOptionA function (wininet.h)
 author: windows-sdk-content
 description: Sets an Internet option.
 old-location: wininet\internetsetoption.htm

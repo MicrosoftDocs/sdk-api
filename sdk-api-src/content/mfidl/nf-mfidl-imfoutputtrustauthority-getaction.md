@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFOutputTrustAuthority.GetAction
-title: IMFOutputTrustAuthority::GetAction
+title: IMFOutputTrustAuthority::GetAction (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the action that is performed by this output trust authority (OTA).
 old-location: mf\imfoutputtrustauthority_getaction.htm

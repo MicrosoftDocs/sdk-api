@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1017
-title: USER_INFO_1017
+title: USER_INFO_1017 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1017 structure contains expiration information for network user accounts. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1017_str.htm

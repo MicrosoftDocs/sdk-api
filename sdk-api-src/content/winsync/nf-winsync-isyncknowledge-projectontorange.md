@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoRange
-title: ISyncKnowledge::ProjectOntoRange
+title: ISyncKnowledge::ProjectOntoRange (winsync.h)
 author: windows-sdk-content
 description: Gets the knowledge for the specified range of item IDs.
 old-location: winsync\isyncknowledge_projectontorange.htm

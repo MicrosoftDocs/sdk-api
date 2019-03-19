@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.LogEx
-title: IWiaLogEx::LogEx
+title: IWiaLogEx::LogEx (wia_xp.h)
 author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaLogEx_LogEx.htm

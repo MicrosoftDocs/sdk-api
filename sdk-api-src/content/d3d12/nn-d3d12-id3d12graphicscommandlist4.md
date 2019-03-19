@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList4
-title: ID3D12GraphicsCommandList4
+title: ID3D12GraphicsCommandList4 (d3d12.h)
 author: windows-sdk-content
 description: Encapsulates a list of graphics commands for rendering, extending the interface to support ray tracing and render passes.
 old-location: direct3d12\id3d12graphicscommandlist4.htm

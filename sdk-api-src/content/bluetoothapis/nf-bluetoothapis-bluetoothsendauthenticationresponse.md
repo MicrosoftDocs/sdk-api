@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSendAuthenticationResponse
-title: BluetoothSendAuthenticationResponse function
+title: BluetoothSendAuthenticationResponse function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothSendAuthenticationResponse function is called when an authentication request to send the passkey response is received.
 old-location: bluetooth\bluetoothsendauthenticationresponse.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngQueryFileTimeStamp
-title: EngQueryFileTimeStamp function
+title: EngQueryFileTimeStamp function (winddi.h)
 author: windows-sdk-content
 description: The EngQueryFileTimeStamp function returns the time stamp of a file.
 old-location: display\engqueryfiletimestamp.htm

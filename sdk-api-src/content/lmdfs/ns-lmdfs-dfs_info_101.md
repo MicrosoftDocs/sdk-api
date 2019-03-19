@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_101
-title: DFS_INFO_101
+title: DFS_INFO_101 (lmdfs.h)
 author: windows-sdk-content
 description: Describes the state of storage on a DFS root, link, root target, or link target.
 old-location: dfs\dfs_info_101_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMedia
-title: DeleteNtmsMedia function
+title: DeleteNtmsMedia function (ntmsapi.h)
 author: windows-sdk-content
 description: The DeleteNtmsMedia function deletes a physical piece of offline media from RSM by removing all references to the specified media from the database.
 old-location: fs\deletentmsmedia.htm

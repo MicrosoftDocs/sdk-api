@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.CreateEnumUsers
-title: IDiskQuotaControl::CreateEnumUsers
+title: IDiskQuotaControl::CreateEnumUsers (dskquota.h)
 author: windows-sdk-content
 description: Creates an enumerator object for enumerating quota users on the volume.
 old-location: fs\idiskquotacontrol_createenumusers.htm

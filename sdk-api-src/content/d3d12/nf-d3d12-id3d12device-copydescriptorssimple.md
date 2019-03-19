@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.CopyDescriptorsSimple
-title: ID3D12Device::CopyDescriptorsSimple
+title: ID3D12Device::CopyDescriptorsSimple (d3d12.h)
 author: windows-sdk-content
 description: Copies descriptors from a source to a destination.
 old-location: direct3d12\id3d12device_copydescriptorssimple.htm

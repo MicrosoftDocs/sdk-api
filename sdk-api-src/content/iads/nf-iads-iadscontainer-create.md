@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.Create
-title: IADsContainer::Create
+title: IADsContainer::Create (iads.h)
 author: windows-sdk-content
 description: Sets up a request to create a directory object of the specified schema class and a given name in the container.
 old-location: adsi\iadscontainer_create.htm

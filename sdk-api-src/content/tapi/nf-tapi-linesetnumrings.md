@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetNumRings
-title: lineSetNumRings function
+title: lineSetNumRings function (tapi.h)
 author: windows-sdk-content
 description: The lineSetNumRings function sets the number of rings that must occur before an incoming call is answered.
 old-location: tapi2\linesetnumrings.htm

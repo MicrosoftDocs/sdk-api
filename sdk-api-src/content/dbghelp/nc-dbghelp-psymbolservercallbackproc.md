@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PSYMBOLSERVERCALLBACKPROC
-title: PSYMBOLSERVERCALLBACKPROC
+title: PSYMBOLSERVERCALLBACKPROC (dbghelp.h)
 author: windows-sdk-content
 description: An entry point to the symbol server DLL.
 old-location: winprog\symbolservercallback.htm

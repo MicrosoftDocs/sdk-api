@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IDragProvider
-title: IDragProvider
+title: IDragProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Enables a Microsoft UI Automation element to describe itself as an element that can be dragged as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idragprovider.htm

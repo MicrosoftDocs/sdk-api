@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateMerged
-title: BoundingBox::CreateMerged
+title: BoundingBox::CreateMerged (directxcollision.h)
 author: windows-sdk-content
 description: Creates a BoundingBox large enough to contains two specified BoundBox intances.
 old-location: dxmath\boundingbox_createmerged.htm

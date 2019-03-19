@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.GetWindow
-title: IPhotoProgressDialog::GetWindow
+title: IPhotoProgressDialog::GetWindow (photoacquire.h)
 author: windows-sdk-content
 description: The GetWindow method retrieves the handle to the progress dialog box.
 old-location: picacq\iphotoprogressdialog_getwindow.htm

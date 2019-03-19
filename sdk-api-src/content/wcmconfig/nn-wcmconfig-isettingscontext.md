@@ -1,6 +1,6 @@
 ---
 UID: NN:wcmconfig.ISettingsContext
-title: ISettingsContext
+title: ISettingsContext (wcmconfig.h)
 author: windows-sdk-content
 description: An interface to a backing store that is used to store setting changes made through the other SMI APIs, and provides operations to serialize to and deserialize from a representation.
 old-location: smi\isettingscontext.htm

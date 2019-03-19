@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
-title: IDvbSubtitlingDescriptor::GetRecordAncillaryPageID
+title: IDvbSubtitlingDescriptor::GetRecordAncillaryPageID (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the ancillary page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordancillarypageid.htm

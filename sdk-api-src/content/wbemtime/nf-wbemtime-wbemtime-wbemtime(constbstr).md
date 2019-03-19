@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const BSTR)
-title: WBEMTime::WBEMTime(const BSTR)
+title: WBEMTime::WBEMTime(const BSTR) (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime class constructor overload method takes a BSTR parameter.
 old-location: wmi\wbemtime_wbemtime_bstr_.htm

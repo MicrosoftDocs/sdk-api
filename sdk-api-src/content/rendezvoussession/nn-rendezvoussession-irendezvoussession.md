@@ -1,6 +1,6 @@
 ---
 UID: NN:rendezvoussession.IRendezvousSession
-title: IRendezvousSession
+title: IRendezvousSession (rendezvoussession.h)
 author: windows-sdk-content
 description: Exposes methods that send data about the session and that can terminate it.
 old-location: remoteassist\remoteassist_IRendezvousSession.htm

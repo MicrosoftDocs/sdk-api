@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._CHANGER_SET_POSITION
-title: CHANGER_SET_POSITION
+title: CHANGER_SET_POSITION (winioctl.h)
 author: windows-sdk-content
 description: Contains information needed by the IOCTL_CHANGER_SET_POSITION control code to set the changer's robotic transport mechanism to the specified element address.
 old-location: base\changer_set_position_str.htm

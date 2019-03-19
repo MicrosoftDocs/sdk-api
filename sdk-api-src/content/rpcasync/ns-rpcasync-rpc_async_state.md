@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcasync._RPC_ASYNC_STATE
-title: RPC_ASYNC_STATE
+title: RPC_ASYNC_STATE (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_ASYNC_STATE structure holds the state of an asynchronous remote procedure call. RPC_ASYNC_STATE is a handle to this structure, used to wait for, query, reply to, or cancel asynchronous calls.
 old-location: rpc\rpc_async_state.htm

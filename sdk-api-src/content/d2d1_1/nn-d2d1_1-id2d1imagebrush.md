@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1ImageBrush
-title: ID2D1ImageBrush
+title: ID2D1ImageBrush (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a brush based on an ID2D1Image.
 old-location: direct2d\id2d1imagebrush.htm

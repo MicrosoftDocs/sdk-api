@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetBidiLevel
-title: IDWriteTextAnalysisSink::SetBidiLevel
+title: IDWriteTextAnalysisSink::SetBidiLevel (dwrite.h)
 author: windows-sdk-content
 description: Sets a bidirectional level on the range, which is called once per run change (either explicit or resolved implicit).
 old-location: directwrite\idwritetextanalysissink_setbidilevel.htm

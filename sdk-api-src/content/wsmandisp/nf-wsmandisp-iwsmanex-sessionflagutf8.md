@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUTF8
-title: IWSManEx::SessionFlagUTF8
+title: IWSManEx::SessionFlagUTF8 (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUTF8 for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagutf8.htm

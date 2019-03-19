@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.get_imageSourceHeight
-title: IWMPMedia::get_imageSourceHeight
+title: IWMPMedia::get_imageSourceHeight (wmp.h)
 author: windows-sdk-content
 description: The get_imageSourceHeight method retrieves the height of the current media item in pixels.
 old-location: wmp\iwmpmedia_get_imagesourceheight.htm

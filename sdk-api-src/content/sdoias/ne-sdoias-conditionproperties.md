@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._CONDITIONPROPERTIES
-title: CONDITIONPROPERTIES
+title: CONDITIONPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the CONDITIONPROPERTIES enumeration type specify the properties of a Network Access Policy (NAP) condition.
 old-location: nps\SDO_conditionproperties.htm

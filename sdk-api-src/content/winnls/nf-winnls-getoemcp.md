@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetOEMCP
-title: GetOEMCP function
+title: GetOEMCP function (winnls.h)
 author: windows-sdk-content
 description: Returns the current original equipment manufacturer (OEM) code page identifier for the operating system.
 old-location: intl\getoemcp.htm

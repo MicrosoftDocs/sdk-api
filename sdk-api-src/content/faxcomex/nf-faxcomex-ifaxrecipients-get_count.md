@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.get_Count
-title: IFaxRecipients::get_Count
+title: IFaxRecipients::get_Count (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxRecipients::get_Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.
 old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_count_cpp.htm

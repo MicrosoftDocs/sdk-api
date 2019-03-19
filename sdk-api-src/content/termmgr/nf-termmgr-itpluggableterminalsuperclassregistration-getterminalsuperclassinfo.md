@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
-title: ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
+title: ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo (termmgr.h)
 author: windows-sdk-content
 description: The GetTerminalSuperclassInfo method gets class information from the registry for the current terminal superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_getterminalsuperclassinfo.htm

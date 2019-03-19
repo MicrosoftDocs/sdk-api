@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowOutboundParameterProblem
-title: INetFwIcmpSettings::put_AllowOutboundParameterProblem
+title: INetFwIcmpSettings::put_AllowOutboundParameterProblem (netfw.h)
 author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundparameterproblem.htm

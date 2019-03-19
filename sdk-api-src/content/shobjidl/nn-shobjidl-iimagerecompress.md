@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IImageRecompress
-title: IImageRecompress
+title: IImageRecompress (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that recompress images.
 old-location: shell\IImageRecompress.htm

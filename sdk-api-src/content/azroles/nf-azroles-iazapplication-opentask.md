@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.OpenTask
-title: IAzApplication::OpenTask
+title: IAzApplication::OpenTask (azroles.h)
 author: windows-sdk-content
 description: Opens an IAzTask object with the specified name.
 old-location: security\iazapplication_opentask.htm

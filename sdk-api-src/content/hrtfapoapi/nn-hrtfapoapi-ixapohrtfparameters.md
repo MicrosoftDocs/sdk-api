@@ -1,6 +1,6 @@
 ---
 UID: NN:hrtfapoapi.IXAPOHrtfParameters
-title: IXAPOHrtfParameters
+title: IXAPOHrtfParameters (hrtfapoapi.h)
 author: windows-sdk-content
 description: The interface used to set parameters that control how head-related transfer function (HRTF) is applied to a sound.
 old-location: xaudio2\ixapohrtfparameters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ual.tagUAL_DATA_BLOB
-title: UAL_DATA_BLOB
+title: UAL_DATA_BLOB (ual.h)
 author: windows-sdk-content
 description: Specifies information about a User Access Logging (UAL) session.
 old-location: ual\ual_data_blob.htm

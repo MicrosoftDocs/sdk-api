@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetAttribute
-title: ISettingsItem::GetAttribute
+title: ISettingsItem::GetAttribute (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the value of an attribute by specifying its name.
 old-location: smi\isettingsitem_getattribute.htm

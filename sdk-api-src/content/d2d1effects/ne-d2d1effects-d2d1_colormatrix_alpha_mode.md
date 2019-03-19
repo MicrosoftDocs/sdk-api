@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMATRIX_ALPHA_MODE
-title: D2D1_COLORMATRIX_ALPHA_MODE
+title: D2D1_COLORMATRIX_ALPHA_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The alpha mode of the output of the Color matrix effect.
 old-location: direct2d\d2d1_colormatrix_alpha_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacity
-title: IXpsOMVisual::GetOpacity
+title: IXpsOMVisual::GetOpacity (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the opacity value of this visual.
 old-location: xps\ixpsomvisual_getopacity.htm

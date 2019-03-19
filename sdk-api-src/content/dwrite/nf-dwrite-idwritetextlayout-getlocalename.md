@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetLocaleName
-title: IDWriteTextLayout::GetLocaleName
+title: IDWriteTextLayout::GetLocaleName (dwrite.h)
 author: windows-sdk-content
 description: Gets the locale name of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetLocaleName.htm

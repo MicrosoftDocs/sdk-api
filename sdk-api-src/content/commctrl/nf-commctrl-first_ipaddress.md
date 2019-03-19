@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FIRST_IPADDRESS
-title: FIRST_IPADDRESS macro
+title: FIRST_IPADDRESS macro (commctrl.h)
 author: windows-sdk-content
 description: Extracts the field 0 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\FIRST_IPADDRESS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSuspend.SuspendRoot
-title: IOfflineFilesSuspend::SuspendRoot
+title: IOfflineFilesSuspend::SuspendRoot (cscobj.h)
 author: windows-sdk-content
 description: Suspend or release a share root or directory tree.
 old-location: of\iofflinefilessuspend_suspendroot.htm

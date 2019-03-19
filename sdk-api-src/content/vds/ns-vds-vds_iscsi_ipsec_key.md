@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_ISCSI_IPSEC_KEY
-title: VDS_ISCSI_IPSEC_KEY
+title: VDS_ISCSI_IPSEC_KEY (vds.h)
 author: windows-sdk-content
 description: Not supported.This structure is reserved for future use.
 old-location: base\vds_iscsi_ipsec_key.htm

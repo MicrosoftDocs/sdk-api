@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendTaskPad.GetDescriptiveText
-title: IExtendTaskPad::GetDescriptiveText
+title: IExtendTaskPad::GetDescriptiveText (mmc.h)
 author: windows-sdk-content
 description: The IExtendTaskPad::GetDescriptiveText method enables MMC to get the taskpad's descriptive text to display in taskpads that use MMC taskpad templates.
 old-location: mmc\iextendtaskpad_getdescriptivetext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarRound
-title: VarRound function
+title: VarRound function (oleauto.h)
 author: windows-sdk-content
 description: Rounds a variant to the specified number of decimal places.
 old-location: automat\varround.htm

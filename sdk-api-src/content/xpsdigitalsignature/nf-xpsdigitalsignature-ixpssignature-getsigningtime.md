@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSigningTime
-title: IXpsSignature::GetSigningTime
+title: IXpsSignature::GetSigningTime (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the date and time of signature creation.
 old-location: xps\ixpssignature_getsigningtime.htm

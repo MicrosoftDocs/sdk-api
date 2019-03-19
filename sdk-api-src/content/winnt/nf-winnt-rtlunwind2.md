@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlUnwind2
-title: RtlUnwind2 function
+title: RtlUnwind2 function (winnt.h)
 author: windows-sdk-content
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwind2.htm

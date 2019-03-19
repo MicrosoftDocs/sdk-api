@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.MoveUntil
-title: ITextRange::MoveUntil
+title: ITextRange::MoveUntil (tom.h)
 author: windows-sdk-content
 description: Searches up to Count characters for the first character in the set of characters specified by Cset. If a character is found, the range is collapsed to that point. The start of the search and the direction are also specified by Count.
 old-location: controls\ITextRange_MoveUntil.htm

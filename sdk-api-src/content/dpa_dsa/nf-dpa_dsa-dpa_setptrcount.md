@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_SetPtrCount
-title: DPA_SetPtrCount macro
+title: DPA_SetPtrCount macro (dpa_dsa.h)
 author: windows-sdk-content
 description: Sets the number of pointers in a dynamic pointer array (DPA).
 old-location: controls\DPA_SetPtrCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetInspector
-title: ISyncKnowledge2::GetInspector
+title: ISyncKnowledge2::GetInspector (winsync.h)
 author: windows-sdk-content
 description: Returns an object that can be used to retrieve the contents of the knowledge object.
 old-location: winsync\isyncknowledge2_getinspector.htm

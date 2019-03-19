@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.TransformCoords
-title: IOleControlSite::TransformCoords
+title: IOleControlSite::TransformCoords (ocidl.h)
 author: windows-sdk-content
 description: Converts coordinates expressed in HIMETRIC units (as is standard in OLE) to the units specified by the container.
 old-location: com\iolecontrolsite_transformcoords.htm

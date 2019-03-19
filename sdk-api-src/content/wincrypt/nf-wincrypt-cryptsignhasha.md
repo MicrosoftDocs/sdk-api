@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptSignHashA
-title: CryptSignHashA function
+title: CryptSignHashA function (wincrypt.h)
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptsignhash.htm

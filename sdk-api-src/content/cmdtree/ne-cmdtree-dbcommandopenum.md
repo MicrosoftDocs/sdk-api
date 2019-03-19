@@ -1,6 +1,6 @@
 ---
 UID: NE:cmdtree.DBCOMMANDOPENUM
-title: DBCOMMANDOPENUM
+title: DBCOMMANDOPENUM (cmdtree.h)
 author: windows-sdk-content
 description: The DBCOMMANDOPENUM enumerated type contains a list of the possible command operators for nodes in a command tree.
 old-location: indexsrv\dbcommandopenum.htm

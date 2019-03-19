@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10Texture2D
-title: ID3D10Texture2D
+title: ID3D10Texture2D (d3d10.h)
 author: windows-sdk-content
 description: A 2D texture interface manages texel data, which is structured memory.
 old-location: direct3d10\id3d10texture2d.htm

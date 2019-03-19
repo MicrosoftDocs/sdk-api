@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.Initialize
-title: ICertificateAttestationChallenge::Initialize
+title: ICertificateAttestationChallenge::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initialize using the full Certificate Management over CMS (CMC) response returned from the CA.
 old-location: security\icertificateattestationchallenge_initialize.htm

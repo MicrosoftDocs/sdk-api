@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.EnumDeviceInfo
-title: IWiaDevMgr::EnumDeviceInfo
+title: IWiaDevMgr::EnumDeviceInfo (wia_xp.h)
 author: windows-sdk-content
 description: Applications use the IWiaDevMgr::EnumDeviceInfo method to enumerate property information for each available Windows Image Acquisition (WIA) device.
 old-location: wia\_wia_IWiaDevMgr_EnumDeviceInfo.htm

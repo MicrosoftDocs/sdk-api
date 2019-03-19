@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITAddressTranslationInfo
-title: ITAddressTranslationInfo
+title: ITAddressTranslationInfo (tapi3if.h)
 author: windows-sdk-content
 description: Used to determine the address translation data.
 old-location: tapi3\itaddresstranslationinfo.htm

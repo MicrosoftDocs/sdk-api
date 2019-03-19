@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.Acquire
-title: IPhotoAcquire::Acquire
+title: IPhotoAcquire::Acquire (photoacquire.h)
 author: windows-sdk-content
 description: The Acquire method acquires photos from a device.
 old-location: picacq\iphotoacquire_acquire.htm

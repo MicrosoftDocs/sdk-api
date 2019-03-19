@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPngTimeProperties
-title: WICPngTimeProperties
+title: WICPngTimeProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) tIME chunk metadata properties.
 old-location: wic\_wic_codec_wicpngtimeproperties.htm

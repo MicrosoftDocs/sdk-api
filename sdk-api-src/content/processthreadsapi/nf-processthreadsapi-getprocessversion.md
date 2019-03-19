@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetProcessVersion
-title: GetProcessVersion function
+title: GetProcessVersion function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the major and minor version numbers of the system on which the specified process expects to run.
 old-location: base\getprocessversion.htm

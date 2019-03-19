@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DialogBoxParamW
-title: DialogBoxParamW function
+title: DialogBoxParamW function (winuser.h)
 author: windows-sdk-content
 description: Creates a modal dialog box from a dialog box template resource.
 old-location: dlgbox\dialogboxparam.htm

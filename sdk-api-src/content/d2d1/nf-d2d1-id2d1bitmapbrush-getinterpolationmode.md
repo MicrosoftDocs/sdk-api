@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.GetInterpolationMode
-title: ID2D1BitmapBrush::GetInterpolationMode
+title: ID2D1BitmapBrush::GetInterpolationMode (d2d1.h)
 author: windows-sdk-content
 description: Gets the interpolation method used when the brush bitmap is scaled or rotated.
 old-location: direct2d\ID2D1BitmapBrush_GetInterpolationMode.htm

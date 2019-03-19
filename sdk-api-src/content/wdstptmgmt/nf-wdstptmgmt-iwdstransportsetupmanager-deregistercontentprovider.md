@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSetupManager.DeregisterContentProvider
-title: IWdsTransportSetupManager::DeregisterContentProvider
+title: IWdsTransportSetupManager::DeregisterContentProvider (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables an application run on a client computer to deregister a content provider. This makes the provider no longer available for use by the WDS transport server.
 old-location: wds\iwdstransportsetupmanager_deregistercontentprovider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNamedPipeClientSessionId
-title: GetNamedPipeClientSessionId function
+title: GetNamedPipeClientSessionId function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the client session identifier for the specified named pipe.
 old-location: base\getnamedpipeclientsessionid.htm

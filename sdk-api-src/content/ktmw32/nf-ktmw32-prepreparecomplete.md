@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.PrePrepareComplete
-title: PrePrepareComplete function
+title: PrePrepareComplete function (ktmw32.h)
 author: windows-sdk-content
 description: Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.
 old-location: fs\prepreparecomplete.htm

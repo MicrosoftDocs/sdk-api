@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDUdpAddress
-title: IWSDUdpAddress
+title: IWSDUdpAddress (wsdbase.h)
 author: windows-sdk-content
 description: Provides access to the individual components of a UDP address.
 old-location: ncd\iwsdudpaddress.htm

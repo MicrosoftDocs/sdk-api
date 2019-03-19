@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.GetGradientMeshWorldBounds
-title: ID2D1DeviceContext2::GetGradientMeshWorldBounds
+title: ID2D1DeviceContext2::GetGradientMeshWorldBounds (d2d1_3.h)
 author: windows-sdk-content
 description: Returns the world bounds of a given gradient mesh.
 old-location: direct2d\id2d1devicecontext2_getgradientmeshworldbounds.htm

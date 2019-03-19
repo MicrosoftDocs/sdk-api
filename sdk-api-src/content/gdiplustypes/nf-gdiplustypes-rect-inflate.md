@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Rect.Inflate
-title: Rect::Inflate
+title: Rect::Inflate (gdiplustypes.h)
 author: windows-sdk-content
 description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Inflate_Methods.htm

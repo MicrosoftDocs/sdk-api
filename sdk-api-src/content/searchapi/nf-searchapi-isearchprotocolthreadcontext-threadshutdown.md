@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadShutdown
-title: ISearchProtocolThreadContext::ThreadShutdown
+title: ISearchProtocolThreadContext::ThreadShutdown (searchapi.h)
 author: windows-sdk-content
 description: Notifies the protocol handler that the thread is being shut down.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadShutdown.htm

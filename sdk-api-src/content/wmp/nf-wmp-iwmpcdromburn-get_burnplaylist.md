@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnPlaylist
-title: IWMPCdromBurn::get_burnPlaylist
+title: IWMPCdromBurn::get_burnPlaylist (wmp.h)
 author: windows-sdk-content
 description: The get_burnPlaylist method retrieves the current playlist to burn to the CD.
 old-location: wmp\iwmpcdromburn_get_burnplaylist.htm

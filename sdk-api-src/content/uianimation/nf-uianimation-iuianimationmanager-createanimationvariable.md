@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.CreateAnimationVariable
-title: IUIAnimationManager::CreateAnimationVariable
+title: IUIAnimationManager::CreateAnimationVariable (uianimation.h)
 author: windows-sdk-content
 description: Creates a new animation variable.
 old-location: uianimation\iuianimationmanager_createanimationvariable.htm

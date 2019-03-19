@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj.__unnamed_struct_0
-title: FVSHOWINFO
+title: FVSHOWINFO (shlobj.h)
 author: windows-sdk-content
 description: Contains information that the file viewer uses to display a file.
 old-location: shell\FVSHOWINFO.htm

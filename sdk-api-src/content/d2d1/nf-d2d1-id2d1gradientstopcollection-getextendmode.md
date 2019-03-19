@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GradientStopCollection.GetExtendMode
-title: ID2D1GradientStopCollection::GetExtendMode
+title: ID2D1GradientStopCollection::GetExtendMode (d2d1.h)
 author: windows-sdk-content
 description: Indicates the behavior of the gradient outside the normalized gradient range.
 old-location: direct2d\ID2D1GradientStopCollection_GetExtendMode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorDeviceCaps
-title: IDXVAHD_Device::GetVideoProcessorDeviceCaps
+title: IDXVAHD_Device::GetVideoProcessorDeviceCaps (dxvahd.h)
 author: windows-sdk-content
 description: Gets the capabilities of the Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device_getvideoprocessordevicecaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DialogBoxParamA
-title: DialogBoxParamA function
+title: DialogBoxParamA function (winuser.h)
 author: windows-sdk-content
 description: Creates a modal dialog box from a dialog box template resource.
 old-location: dlgbox\dialogboxparam.htm

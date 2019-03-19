@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_TerminalClass
-title: ITPluggableTerminalClassRegistration::put_TerminalClass
+title: ITPluggableTerminalClassRegistration::put_TerminalClass (termmgr.h)
 author: windows-sdk-content
 description: The put_TerminalClass method sets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassregistration_put_terminalclass.htm

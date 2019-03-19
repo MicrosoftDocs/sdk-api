@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.VerifyPermissionComplete
-title: IWMPContentPartnerCallback::VerifyPermissionComplete
+title: IWMPContentPartnerCallback::VerifyPermissionComplete (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_verifypermissioncomplete.htm

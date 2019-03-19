@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultDataCompare.Compare
-title: IResultDataCompare::Compare
+title: IResultDataCompare::Compare (mmc.h)
 author: windows-sdk-content
 description: Provides a way for a primary snap-in to compare cookies for the purpose of sorting the result items that it inserts in the result pane.
 old-location: mmc\iresultdatacompare_compare.htm

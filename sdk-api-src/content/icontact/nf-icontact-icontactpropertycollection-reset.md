@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.Reset
-title: IContactPropertyCollection::Reset
+title: IContactPropertyCollection::Reset (icontact.h)
 author: windows-sdk-content
 description: Resets enumeration of properties.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_Reset.htm

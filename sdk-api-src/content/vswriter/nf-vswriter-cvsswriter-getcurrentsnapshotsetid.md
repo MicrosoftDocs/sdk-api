@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetCurrentSnapshotSetId
-title: CVssWriter::GetCurrentSnapshotSetId
+title: CVssWriter::GetCurrentSnapshotSetId (vswriter.h)
 author: windows-sdk-content
 description: The GetCurrentSnapshotSetId method returns the unique identifier of the shadow copy set.
 old-location: base\cvsswriter_getcurrentsnapshotsetid.htm

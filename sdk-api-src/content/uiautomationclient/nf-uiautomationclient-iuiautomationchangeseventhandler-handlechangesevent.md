@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationChangesEventHandler.HandleChangesEvent
-title: IUIAutomationChangesEventHandler::HandleChangesEvent
+title: IUIAutomationChangesEventHandler::HandleChangesEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Handles one or more Microsoft UI Automation change events.
 old-location: winauto\uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent.htm

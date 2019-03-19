@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange2.ShowContextMenu
-title: IUIAutomationTextRange2::ShowContextMenu
+title: IUIAutomationTextRange2::ShowContextMenu (uiautomationclient.h)
 author: windows-sdk-content
 description: Programmatically invokes a context menu on the target text range.
 old-location: winauto\uiauto_IUIAutomationTextRange2_ShowContextMenu.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetClientInfo
-title: DhcpV4FailoverGetClientInfo function
+title: DhcpV4FailoverGetClientInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the DHCPv4 client lease information.
 old-location: dhcp\dhcpv4failovergetclientinfo.htm

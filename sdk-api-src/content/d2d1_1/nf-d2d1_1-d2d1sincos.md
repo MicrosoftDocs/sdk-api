@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.D2D1SinCos
-title: D2D1SinCos function
+title: D2D1SinCos function (d2d1_1.h)
 author: windows-sdk-content
 description: Returns the sine and cosine of an angle.
 old-location: direct2d\d2d1sincos.htm

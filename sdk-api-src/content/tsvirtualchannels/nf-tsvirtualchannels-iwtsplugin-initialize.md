@@ -1,6 +1,6 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Initialize
-title: IWTSPlugin::Initialize
+title: IWTSPlugin::Initialize (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Used for the first call that is made from the client to the plug-in.
 old-location: termserv\iwtsplugin_initialize.htm

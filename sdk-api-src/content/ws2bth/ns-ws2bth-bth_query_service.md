@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2bth._BTH_QUERY_SERVICE
-title: BTH_QUERY_SERVICE
+title: BTH_QUERY_SERVICE (ws2bth.h)
 author: windows-sdk-content
 description: The BTH_QUERY_SERVICE structure is used to query a Bluetooth service.
 old-location: bluetooth\bth_query_service.htm

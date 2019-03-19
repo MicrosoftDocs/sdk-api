@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.AllocateMore
-title: IWABObject::AllocateMore
+title: IWABObject::AllocateMore (wabapi.h)
 author: windows-sdk-content
 description: Allocates a memory buffer that is linked to another buffer previously allocated with the IWABObject::AllocateBuffer method.
 old-location: wab\_wab_IWABObject_AllocateMore.htm

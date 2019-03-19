@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader2.GetOptionalBundles
-title: IAppxBundleManifestReader2::GetOptionalBundles
+title: IAppxBundleManifestReader2::GetOptionalBundles (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves an object that represents the &lt;OptionalBundles&gt; element under the root &lt;Bundle&gt; element.
 old-location: appxpkg\iappxbundlemanifestreader2_getoptionalbundles.htm

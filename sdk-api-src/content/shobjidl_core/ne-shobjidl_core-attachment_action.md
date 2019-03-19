@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.ATTACHMENT_ACTION
-title: ATTACHMENT_ACTION
+title: ATTACHMENT_ACTION (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the action to be performed upon user confirmation.
 old-location: shell\ATTACHMENT_ACTION.htm

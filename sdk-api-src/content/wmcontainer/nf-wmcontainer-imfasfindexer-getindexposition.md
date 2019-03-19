@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexPosition
-title: IMFASFIndexer::GetIndexPosition
+title: IMFASFIndexer::GetIndexPosition (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the offset of the index object from the start of the content.
 old-location: mf\imfasfindexer_getindexposition.htm

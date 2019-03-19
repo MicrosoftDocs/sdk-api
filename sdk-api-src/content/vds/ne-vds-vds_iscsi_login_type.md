@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_ISCSI_LOGIN_TYPE
-title: VDS_ISCSI_LOGIN_TYPE
+title: VDS_ISCSI_LOGIN_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid types for logging into an iSCSI target.
 old-location: base\vds_iscsi_login_type.htm

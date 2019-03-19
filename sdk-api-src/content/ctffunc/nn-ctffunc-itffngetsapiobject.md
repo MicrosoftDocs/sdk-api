@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfFnGetSAPIObject
-title: ITfFnGetSAPIObject
+title: ITfFnGetSAPIObject (ctffunc.h)
 author: windows-sdk-content
 description: The ITfFnGetSAPIObject interface is implemented by the Speech API (SAPI) text service. This interface is used by the TSF manager or a client (application or other text service) to obtain various SAPI objects.
 old-location: tsf\itffngetsapiobject.htm

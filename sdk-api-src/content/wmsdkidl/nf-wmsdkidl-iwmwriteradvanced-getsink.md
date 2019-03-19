@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSink
-title: IWMWriterAdvanced::GetSink
+title: IWMWriterAdvanced::GetSink (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetSink method retrieves a writer sink object. Used in conjunction with IWMWriterAdvanced::GetSinkCount, this method can be used to enumerate the sinks associated with a writer object.
 old-location: wmformat\iwmwriteradvanced_getsink.htm

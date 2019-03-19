@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzObjectPicker.GetPrincipals
-title: IAzObjectPicker::GetPrincipals
+title: IAzObjectPicker::GetPrincipals (azroles.h)
 author: windows-sdk-content
 description: Displays a dialog box from which users can choose one or more principals, and then returns the chosen list of principals and their corresponding security identifiers (SIDs).
 old-location: security\iazobjectpicker_getprincipals_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer2.Configure
-title: IWMIndexer2::Configure
+title: IWMIndexer2::Configure (wmsdkidl.h)
 author: windows-sdk-content
 description: The Configure method changes the internal settings of the indexer object.
 old-location: wmformat\iwmindexer2_configure.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPersistFolder2
-title: IPersistFolder2
+title: IPersistFolder2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that obtain information from Shell folder objects.
 old-location: shell\IPersistFolder2.htm

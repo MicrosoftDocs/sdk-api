@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.GetSystemFontCollection
-title: IDWriteFactory::GetSystemFontCollection
+title: IDWriteFactory::GetSystemFontCollection (dwrite.h)
 author: windows-sdk-content
 description: Gets an object which represents the set of installed fonts.
 old-location: directwrite\IDWriteFactory_GetSystemFontCollection.htm

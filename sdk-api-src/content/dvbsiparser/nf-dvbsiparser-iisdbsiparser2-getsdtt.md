@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetSDTT
-title: IIsdbSiParser2::GetSDTT
+title: IIsdbSiParser2::GetSDTT (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the software download trigger table (SDTT) from an Integrated Services Digital Broadcast (ISDB) transport stream. An SDTT contains download information such as the service identifier, schedule, and receiver types for revision.
 old-location: mstv\iisdbsiparser2_getsdtt.htm

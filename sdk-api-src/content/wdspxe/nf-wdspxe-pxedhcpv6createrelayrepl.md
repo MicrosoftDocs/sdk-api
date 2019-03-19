@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6CreateRelayRepl
-title: PxeDhcpv6CreateRelayRepl function
+title: PxeDhcpv6CreateRelayRepl function (wdspxe.h)
 author: windows-sdk-content
 description: Generates a RELAY-REPL message.
 old-location: wds\pxedhcpv6createrelayrepl.htm

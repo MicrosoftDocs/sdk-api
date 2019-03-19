@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.SetOffset
-title: IXpsOMGradientStop::SetOffset
+title: IXpsOMGradientStop::SetOffset (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the offset location of the gradient stop.
 old-location: xps\ixpsomgradientstop_setoffset.htm

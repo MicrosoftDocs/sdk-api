@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._MESSAGE_RESOURCE_BLOCK
-title: MESSAGE_RESOURCE_BLOCK
+title: MESSAGE_RESOURCE_BLOCK (winnt.h)
 author: windows-sdk-content
 description: Contains information about message strings with identifiers in the range indicated by the LowId and HighId members.
 old-location: menurc\message_resource_block.htm

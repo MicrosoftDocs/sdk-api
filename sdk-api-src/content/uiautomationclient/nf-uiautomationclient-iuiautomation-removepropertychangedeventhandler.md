@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemovePropertyChangedEventHandler
-title: IUIAutomation::RemovePropertyChangedEventHandler
+title: IUIAutomation::RemovePropertyChangedEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes a property-changed event handler.
 old-location: winauto\uiauto_IUIAutomation_RemovePropertyChangedEventHandler.htm

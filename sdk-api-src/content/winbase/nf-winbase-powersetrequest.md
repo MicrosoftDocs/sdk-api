@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.PowerSetRequest
-title: PowerSetRequest function
+title: PowerSetRequest function (winbase.h)
 author: windows-sdk-content
 description: Increments the count of power requests of the specified type for a power request object.
 old-location: base\powersetrequest.htm

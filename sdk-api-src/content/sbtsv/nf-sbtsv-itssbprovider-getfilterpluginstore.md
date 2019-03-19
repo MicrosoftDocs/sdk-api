@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetFilterPluginStore
-title: ITsSbProvider::GetFilterPluginStore
+title: ITsSbProvider::GetFilterPluginStore (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a FilterPluginStore instance of the filter plugin store.
 old-location: termserv\itssbprovider_getfilterpluginstore.htm

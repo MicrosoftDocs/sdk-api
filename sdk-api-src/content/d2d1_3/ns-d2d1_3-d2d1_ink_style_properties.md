@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_3.D2D1_INK_STYLE_PROPERTIES
-title: D2D1_INK_STYLE_PROPERTIES
+title: D2D1_INK_STYLE_PROPERTIES (d2d1_3.h)
 author: windows-sdk-content
 description: Defines the general pen tip shape and the transform used in an ID2D1InkStyle object.
 old-location: direct2d\d2d1_ink_style_properties.htm

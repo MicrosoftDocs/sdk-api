@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFBufferListNotify.OnRemoveSourceBuffer
-title: IMFBufferListNotify::OnRemoveSourceBuffer
+title: IMFBufferListNotify::OnRemoveSourceBuffer (mfmediaengine.h)
 author: windows-sdk-content
 description: Indicates that a IMFSourceBuffer has been removed.
 old-location: mf\imfbufferlistnotify_onremovesourcebuffer.htm

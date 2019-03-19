@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxAccounts.get_Count
-title: IFaxAccounts::get_Count
+title: IFaxAccounts::get_Count (faxcomex.h)
 author: windows-sdk-content
 description: Holds the number of items in the IFaxAccounts collection.
 old-location: fax\_mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp.htm

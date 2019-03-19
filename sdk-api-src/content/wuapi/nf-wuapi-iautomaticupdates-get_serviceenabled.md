@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.get_ServiceEnabled
-title: IAutomaticUpdates::get_ServiceEnabled
+title: IAutomaticUpdates::get_ServiceEnabled (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether all the components that Automatic Updates requires are available.
 old-location: wua\iautomaticupdates_serviceenabled.htm

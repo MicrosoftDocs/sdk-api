@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontRenderingEmSize
-title: IXpsOMGlyphs::GetFontRenderingEmSize
+title: IXpsOMGlyphs::GetFontRenderingEmSize (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the font size.
 old-location: xps\ixpsomglyphs_getfontrenderingemsize.htm

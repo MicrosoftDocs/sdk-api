@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUBAUTH_RESPONSE
-title: MSV1_0_SUBAUTH_RESPONSE
+title: MSV1_0_SUBAUTH_RESPONSE (ntsecapi.h)
 author: windows-sdk-content
 description: Contains the response from a subauthentication package.
 old-location: security\msv1_0_subauth_response.htm

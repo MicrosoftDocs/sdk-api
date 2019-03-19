@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.ISynchronizeEvent
-title: ISynchronizeEvent
+title: ISynchronizeEvent (objidl.h)
 author: windows-sdk-content
 description: Assigns an event handle to a synchronization object.
 old-location: com\isynchronizeevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.DeletePin
-title: IBDA_Topology::DeletePin
+title: IBDA_Topology::DeletePin (bdaiface.h)
 author: windows-sdk-content
 description: The DeletePin method deletes a pin from the filter's topology.
 old-location: mstv\ibda_topology_deletepin.htm

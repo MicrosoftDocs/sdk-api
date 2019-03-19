@@ -1,6 +1,6 @@
 ---
 UID: NF:joystickapi.joyGetNumDevs
-title: joyGetNumDevs function
+title: joyGetNumDevs function (joystickapi.h)
 author: windows-sdk-content
 description: The joyGetNumDevs function queries the joystick driver for the number of joysticks it supports.
 old-location: multimedia\joygetnumdevs.htm

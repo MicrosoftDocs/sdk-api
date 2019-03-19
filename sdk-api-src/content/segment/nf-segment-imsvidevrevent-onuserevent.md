@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEVREvent.OnUserEvent
-title: IMSVidEVREvent::OnUserEvent
+title: IMSVidEVREvent::OnUserEvent (segment.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista or later.
 old-location: mstv\imsvidevrevent_onuserevent.htm

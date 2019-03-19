@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.DAD_ShowDragImage
-title: DAD_ShowDragImage function
+title: DAD_ShowDragImage function (shlobj_core.h)
 author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: shell\DAD_ShowDragImage.htm

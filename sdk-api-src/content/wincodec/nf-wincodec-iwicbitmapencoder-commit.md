@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.Commit
-title: IWICBitmapEncoder::Commit
+title: IWICBitmapEncoder::Commit (wincodec.h)
 author: windows-sdk-content
 description: Commits all changes for the image and closes the stream.
 old-location: wic\_wic_codec_iwicbitmapencoder_commit.htm

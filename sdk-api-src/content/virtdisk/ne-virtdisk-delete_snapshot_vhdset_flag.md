@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._DELETE_SNAPSHOT_VHDSET_FLAG
-title: DELETE_SNAPSHOT_VHDSET_FLAG
+title: DELETE_SNAPSHOT_VHDSET_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains flags affecting the behavior of the DeleteSnapshotVhdSet function.
 old-location: vhd\delete_snapshot_vhdset_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StopHandlerSync
-title: ISyncMgrControl::StopHandlerSync
+title: ISyncMgrControl::StopHandlerSync (syncmgr.h)
 author: windows-sdk-content
 description: Stops the synchronization of a specified handler.
 old-location: shell\ISyncMgrControl_StopHandlerSync.htm

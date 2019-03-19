@@ -1,6 +1,6 @@
 ---
 UID: NS:msacm.tACMFILTERTAGDETAILS
-title: ACMFILTERTAGDETAILS
+title: ACMFILTERTAGDETAILS (msacm.h)
 author: windows-sdk-content
 description: The ACMFILTERTAGDETAILS structure details a waveform-audio filter tag for an ACM filter driver.
 old-location: multimedia\acmfiltertagdetails_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.GetPrivateData
-title: IDirect3DVolume9::GetPrivateData
+title: IDirect3DVolume9::GetPrivateData (d3d9.h)
 author: windows-sdk-content
 description: Copies the private data associated with the volume to a provided buffer.
 old-location: direct3d9\idirect3dvolume9__getprivatedata.htm

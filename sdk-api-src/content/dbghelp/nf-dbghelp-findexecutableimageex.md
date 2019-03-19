@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.FindExecutableImageEx
-title: FindExecutableImageEx function
+title: FindExecutableImageEx function (dbghelp.h)
 author: windows-sdk-content
 description: Locates the specified executable file.
 old-location: base\findexecutableimageex.htm

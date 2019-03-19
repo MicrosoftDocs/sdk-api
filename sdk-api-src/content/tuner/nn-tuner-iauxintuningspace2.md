@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IAuxInTuningSpace2
-title: IAuxInTuningSpace2
+title: IAuxInTuningSpace2 (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\iauxintuningspace2.htm

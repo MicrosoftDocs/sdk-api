@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertProperties.Remove
-title: ICertProperties::Remove
+title: ICertProperties::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes a property from the collection by index value.
 old-location: security\icertproperties_remove_method.htm

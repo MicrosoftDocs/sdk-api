@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.SetEncoderParams
-title: IShellImageData::SetEncoderParams
+title: IShellImageData::SetEncoderParams (shimgdata.h)
 author: windows-sdk-content
 description: Sets encoder parameters.
 old-location: shell\IShellImageData_SetEncoderParams.htm

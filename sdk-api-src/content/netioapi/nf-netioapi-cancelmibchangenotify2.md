@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.CancelMibChangeNotify2
-title: CancelMibChangeNotify2 function
+title: CancelMibChangeNotify2 function (netioapi.h)
 author: windows-sdk-content
 description: Deregisters for change notifications for IP interface changes, IP address changes, IP route changes, Teredo port changes, and when the unicast IP address table is stable and can be retrieved.
 old-location: iphlp\cancelmibchangenotify2.htm

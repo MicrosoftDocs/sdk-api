@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.get_ImageName
-title: IUIAutomationProxyFactoryEntry::get_ImageName
+title: IUIAutomationProxyFactoryEntry::get_ImageName (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the image of the proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ImageName.htm

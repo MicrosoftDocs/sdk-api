@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_WindowState
-title: IVideoWindow::get_WindowState
+title: IVideoWindow::get_WindowState (control.h)
 author: windows-sdk-content
 description: The get_WindowState method queries whether the video window is visible, hidden, minimized, or maximized.
 old-location: dshow\ivideowindow_get_windowstate.htm

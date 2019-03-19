@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.SetType
-title: IWMBandwidthSharing::SetType
+title: IWMBandwidthSharing::SetType (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetType method sets the type of sharing (exclusive or partial) for the bandwidth sharing object.
 old-location: wmformat\iwmbandwidthsharing_settype.htm

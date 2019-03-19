@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2spi._WSPPROC_TABLE
-title: WSPPROC_TABLE
+title: WSPPROC_TABLE (ws2spi.h)
 author: windows-sdk-content
 description: Contains a table of pointers to service provider functions.
 old-location: winsock\wspproc_table.htm

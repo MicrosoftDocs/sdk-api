@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.CancelAsyncFind
-title: IUPnPDeviceFinder::CancelAsyncFind
+title: IUPnPDeviceFinder::CancelAsyncFind (upnp.h)
 author: windows-sdk-content
 description: The CancelAsyncFind method cancels an asynchronous search.
 old-location: upnp\iupnpdevicefinder_cancelasyncfind.htm

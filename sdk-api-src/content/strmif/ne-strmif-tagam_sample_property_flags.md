@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagAM_SAMPLE_PROPERTY_FLAGS
-title: tagAM_SAMPLE_PROPERTY_FLAGS
+title: tagAM_SAMPLE_PROPERTY_FLAGS (strmif.h)
 author: windows-sdk-content
 description: Specifies values for the dwSampleFlags and dwStreamId members of the AM_SAMPLE2_PROPERTIES structure. These values describe the properties of media samples.
 old-location: dshow\am_sample_property_flags.htm

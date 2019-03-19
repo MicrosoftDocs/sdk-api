@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDetailsOf
-title: IShellFolder2::GetDetailsOf
+title: IShellFolder2::GetDetailsOf (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets detailed information, identified by a column index, on an item in a Shell folder.
 old-location: shell\IShellFolder2_GetDetailsOf.htm

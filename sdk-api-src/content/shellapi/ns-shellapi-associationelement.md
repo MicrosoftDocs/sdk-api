@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi.ASSOCIATIONELEMENT
-title: ASSOCIATIONELEMENT
+title: ASSOCIATIONELEMENT (shellapi.h)
 author: windows-sdk-content
 description: Defines information used by AssocCreateForClasses to retrieve an IQueryAssociations interface for a given file association.
 old-location: shell\ASSOCIATIONELEMENT.htm

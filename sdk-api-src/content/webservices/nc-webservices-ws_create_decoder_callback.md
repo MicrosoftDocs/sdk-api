@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_CREATE_DECODER_CALLBACK
-title: WS_CREATE_DECODER_CALLBACK
+title: WS_CREATE_DECODER_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles creating an decoder instance.
 old-location: wsw\ws_create_decoder_callback.htm

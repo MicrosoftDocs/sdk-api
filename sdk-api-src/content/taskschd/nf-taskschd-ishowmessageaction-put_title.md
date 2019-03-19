@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IShowMessageAction.put_Title
-title: IShowMessageAction::put_Title
+title: IShowMessageAction::put_Title (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the title of the message box.
 old-location: taskschd\ishowmessageaction_title.htm

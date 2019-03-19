@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Skip
-title: IWMDMEnumStorage::Skip
+title: IWMDMEnumStorage::Skip (mswmdm.h)
 author: windows-sdk-content
 description: The Skip method skips over the specified number of storages in the enumeration sequence.
 old-location: wmdm\iwmdmenumstorage_skip.htm

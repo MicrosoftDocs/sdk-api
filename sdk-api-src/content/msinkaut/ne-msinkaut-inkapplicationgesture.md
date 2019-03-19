@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkApplicationGesture
-title: InkApplicationGesture
+title: InkApplicationGesture (msinkaut.h)
 author: windows-sdk-content
 description: Defines values that set the interest in a set of application-specific gesture.Application gestures are gestures that you can choose to have your application support.
 old-location: tablet\inkapplicationgesture.htm

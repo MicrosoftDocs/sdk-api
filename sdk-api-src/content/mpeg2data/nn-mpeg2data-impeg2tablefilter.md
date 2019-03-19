@@ -1,6 +1,6 @@
 ---
 UID: NN:mpeg2data.IMpeg2TableFilter
-title: IMpeg2TableFilter
+title: IMpeg2TableFilter (mpeg2data.h)
 author: windows-sdk-content
 description: The IMpeg2TableFilter interface controls which tables are parsed by the MPEG-2 Sections and Tables filter. The BDA MPEG-2 Transport Information filter exposes this interface on its output pins.
 old-location: mstv\impeg2tablefilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Delete
-title: IOpcSignatureCustomObjectSet::Delete
+title: IOpcSignatureCustomObjectSet::Delete (msopc.h)
 author: windows-sdk-content
 description: Deletes a specified IOpcSignatureCustomObject interface pointer from the set.
 old-location: opc\iopcsignaturecustomobjectset_delete.htm

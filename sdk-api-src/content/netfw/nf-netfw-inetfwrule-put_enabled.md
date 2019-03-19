@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_Enabled
-title: INetFwRule::put_Enabled
+title: INetFwRule::put_Enabled (netfw.h)
 author: windows-sdk-content
 description: Enables or disables a rule.
 old-location: ics\inetfwrule_enabled.htm

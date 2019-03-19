@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.CreateStdDispatch
-title: CreateStdDispatch function
+title: CreateStdDispatch function (oleauto.h)
 author: windows-sdk-content
 description: Creates a standard implementation of the IDispatch interface through a single function call. This simplifies exposing objects through Automation.
 old-location: automat\createstddispatch.htm

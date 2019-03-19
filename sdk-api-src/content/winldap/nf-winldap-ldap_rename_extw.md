@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_rename_extW
-title: ldap_rename_extW function
+title: ldap_rename_extW function (winldap.h)
 author: windows-sdk-content
 description: The ldap_rename_ext function starts an asynchronous operation that changes the distinguished name of an entry in the directory. This function is available effective with LDAP 3.
 old-location: ldap\ldap_rename_ext.htm

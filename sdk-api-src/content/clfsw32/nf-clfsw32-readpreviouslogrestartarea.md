@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ReadPreviousLogRestartArea
-title: ReadPreviousLogRestartArea function
+title: ReadPreviousLogRestartArea function (clfsw32.h)
 author: windows-sdk-content
 description: Reads the previous log restart area that is relative to the current restart record specified in the read context, pvReadContext. This read context is the one previously created by a call to ReadLogRestartArea.
 old-location: fs\readpreviouslogrestartarea.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetCIMSSM
-title: GetCIMSSM function
+title: GetCIMSSM function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the source of the input message (GetCurrentInputMessageSourceInSendMessage).
 old-location: input_sourceid\getcimssm.htm

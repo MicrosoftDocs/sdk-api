@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2data.IMpeg2Stream.SupplyDataBuffer
-title: IMpeg2Stream::SupplyDataBuffer
+title: IMpeg2Stream::SupplyDataBuffer (mpeg2data.h)
 author: windows-sdk-content
 description: The SupplyDataBuffer method provides a buffer for the Mpeg2Stream object to write data.
 old-location: mstv\impeg2stream_supplydatabuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_MaxDisconnectionTime
-title: IADsTSUserEx::get_MaxDisconnectionTime
+title: IADsTSUserEx::get_MaxDisconnectionTime (tsuserex.h)
 author: windows-sdk-content
 description: The maximum amount of time that a disconnected Remote Desktop Services session remains active on the Remote Desktop Session Host (RD Session Host) server. After the specified number of minutes have elapsed, the session is terminated.
 old-location: termserv\iadstsuserex_maxdisconnectiontime.htm

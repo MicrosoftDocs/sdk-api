@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern2.GetCaretRange
-title: IUIAutomationTextPattern2::GetCaretRange
+title: IUIAutomationTextPattern2::GetCaretRange (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a zero-length text range at the location of the caret that belongs to the text-based control.
 old-location: winauto\uiauto_IUIAutomationTextPattern2_GetCaretRange.htm

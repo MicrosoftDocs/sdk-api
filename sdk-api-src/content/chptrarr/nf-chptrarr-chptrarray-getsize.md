@@ -1,6 +1,6 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetSize
-title: CHPtrArray::GetSize
+title: CHPtrArray::GetSize (chptrarr.h)
 author: windows-sdk-content
 description: The GetSize function obtains the pointer array size. Because indexes are zero-based, the size is one greater than the largest index.
 old-location: wmi\chptrarray_getsize.htm

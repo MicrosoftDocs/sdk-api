@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADs
-title: IADs
+title: IADs (iads.h)
 author: windows-sdk-content
 description: The IADs interface defines the basic object features, that is, properties and methods, of any ADSI object.
 old-location: adsi\iads.htm

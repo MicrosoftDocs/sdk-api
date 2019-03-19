@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbProvider
-title: ITsSbProvider
+title: ITsSbProvider (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that create default implementations of objects that are used in Remote Desktop Virtualization.
 old-location: termserv\itssbprovider.htm

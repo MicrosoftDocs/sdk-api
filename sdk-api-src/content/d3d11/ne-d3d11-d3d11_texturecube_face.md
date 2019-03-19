@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_TEXTURECUBE_FACE
-title: D3D11_TEXTURECUBE_FACE
+title: D3D11_TEXTURECUBE_FACE (d3d11.h)
 author: windows-sdk-content
 description: The different faces of a cube texture.
 old-location: direct3d11\d3d11_texturecube_face.htm

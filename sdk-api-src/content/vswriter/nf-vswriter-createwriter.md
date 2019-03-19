@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CreateWriter
-title: CreateWriter function
+title: CreateWriter function (vswriter.h)
 author: windows-sdk-content
 description: This function is reserved for system use.
 old-location: base\createwriter.htm

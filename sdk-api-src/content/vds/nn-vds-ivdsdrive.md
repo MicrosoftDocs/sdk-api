@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsDrive
-title: IVdsDrive
+title: IVdsDrive (vds.h)
 author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a drive.
 old-location: base\ivdsdrive.htm

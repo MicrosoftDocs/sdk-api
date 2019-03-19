@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmAccountType
-title: FsrmAccountType
+title: FsrmAccountType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the computer account types under which a command action (see FsrmActionType) can run.
 old-location: fsrm\fsrmaccounttype.htm

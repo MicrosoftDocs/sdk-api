@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearBrushRemapTable
-title: ImageAttributes::ClearBrushRemapTable
+title: ImageAttributes::ClearBrushRemapTable (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::ClearBrushRemapTable method clears the brush color-remap table of this ImageAttributes object.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_.htm

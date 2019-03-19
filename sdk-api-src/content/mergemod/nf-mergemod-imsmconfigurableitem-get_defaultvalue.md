@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_DefaultValue
-title: IMsmConfigurableItem::get_DefaultValue
+title: IMsmConfigurableItem::get_DefaultValue (mergemod.h)
 author: windows-sdk-content
 description: The get_DefaultValue method retrieves the DefaultValue property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_defaultvalue.htm

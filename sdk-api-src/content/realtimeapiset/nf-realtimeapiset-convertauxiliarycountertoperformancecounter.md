@@ -1,6 +1,6 @@
 ---
 UID: NF:realtimeapiset.ConvertAuxiliaryCounterToPerformanceCounter
-title: ConvertAuxiliaryCounterToPerformanceCounter function
+title: ConvertAuxiliaryCounterToPerformanceCounter function (realtimeapiset.h)
 author: windows-sdk-content
 description: Converts the specified auxiliary counter value to the corresponding performance counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
 old-location: base\convertauxiliarycountertoperformancecounter.htm

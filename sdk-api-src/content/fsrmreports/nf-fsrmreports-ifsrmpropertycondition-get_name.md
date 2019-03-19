@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.get_Name
-title: IFsrmPropertyCondition::get_Name
+title: IFsrmPropertyCondition::get_Name (fsrmreports.h)
 author: windows-sdk-content
 description: The name of the classification property whose value you want to compare to the property condition's value.
 old-location: fsrm\ifsrmpropertycondition_name.htm

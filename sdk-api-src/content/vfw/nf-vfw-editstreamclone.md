@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.EditStreamClone
-title: EditStreamClone function
+title: EditStreamClone function (vfw.h)
 author: windows-sdk-content
 description: The EditStreamClone function creates a duplicate editable stream.
 old-location: multimedia\editstreamclone.htm

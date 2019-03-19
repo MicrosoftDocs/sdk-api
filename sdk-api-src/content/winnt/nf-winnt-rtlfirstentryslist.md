@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.RtlFirstEntrySList
-title: RtlFirstEntrySList function
+title: RtlFirstEntrySList function (winnt.h)
 author: windows-sdk-content
 description: Retrieves the first entry in a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlfirstentryslist.htm

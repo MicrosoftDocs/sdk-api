@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.Reset
-title: IEnumBackgroundCopyJobs1::Reset
+title: IEnumBackgroundCopyJobs1::Reset (qmgr.h)
 author: windows-sdk-content
 description: Use the Reset method to reset the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopyjobs1_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRadioEvents.OnRadioStateChange
-title: IMbnRadioEvents::OnRadioStateChange
+title: IMbnRadioEvents::OnRadioStateChange (mbnapi.h)
 author: windows-sdk-content
 description: A notification signaling that the radio state of the device has changed.
 old-location: mbn\imbnradioevents_onradiostatechange.htm

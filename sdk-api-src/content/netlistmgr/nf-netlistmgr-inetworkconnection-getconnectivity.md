@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetConnectivity
-title: INetworkConnection::GetConnectivity
+title: INetworkConnection::GetConnectivity (netlistmgr.h)
 author: windows-sdk-content
 description: The GetConnectivity method returns the connectivity state of the network connection.
 old-location: nla\inetworkconnection_getconnectivity.htm

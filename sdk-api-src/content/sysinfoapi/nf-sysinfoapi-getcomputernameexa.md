@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetComputerNameExA
-title: GetComputerNameExA function
+title: GetComputerNameExA function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves a NetBIOS or DNS name associated with the local computer. The names are established at system startup, when the system reads them from the registry.
 old-location: base\getcomputernameex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHwndPropServer
-title: IAccPropServices::SetHwndPropServer
+title: IAccPropServices::SetHwndPropServer (oleacc.h)
 author: windows-sdk-content
 description: This method wraps SetPropServer, providing a convenient entry point for callers who are annotating HWND-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__sethwndpropserver.htm

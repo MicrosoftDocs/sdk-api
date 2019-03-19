@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.Initialize
-title: IMFCaptureEngine::Initialize
+title: IMFCaptureEngine::Initialize (mfcaptureengine.h)
 author: windows-sdk-content
 description: Initializes the capture engine.
 old-location: mf\imfcaptureengine_initialize.htm

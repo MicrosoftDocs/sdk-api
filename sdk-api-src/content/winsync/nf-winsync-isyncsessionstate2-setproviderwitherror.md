@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState2.SetProviderWithError
-title: ISyncSessionState2::SetProviderWithError
+title: ISyncSessionState2::SetProviderWithError (winsync.h)
 author: windows-sdk-content
 description: Indicates which provider caused synchronization to fail.
 old-location: winsync\isyncsessionstate2_setproviderwitherror.htm

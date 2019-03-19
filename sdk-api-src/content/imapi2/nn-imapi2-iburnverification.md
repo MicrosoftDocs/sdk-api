@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IBurnVerification
-title: IBurnVerification
+title: IBurnVerification (imapi2.h)
 author: windows-sdk-content
 description: Use this interface with IDiscFormat2Data or IDiscFormat2TrackAtOnce to get or set the Burn Verification Level property which dictates how burned media is verified for integrity after the write operation.
 old-location: imapi\iburnverification.htm

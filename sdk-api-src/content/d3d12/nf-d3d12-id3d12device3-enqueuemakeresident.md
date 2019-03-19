@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device3.EnqueueMakeResident
-title: ID3D12Device3::EnqueueMakeResident
+title: ID3D12Device3::EnqueueMakeResident (d3d12.h)
 author: windows-sdk-content
 description: Asynchronously makes objects resident for the device.
 old-location: direct3d12\id3d12device3_enqueuemakeresident.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetSourceRect
-title: IDXGIDecodeSwapChain::GetSourceRect
+title: IDXGIDecodeSwapChain::GetSourceRect (dxgi1_3.h)
 author: windows-sdk-content
 description: Gets the source region that is used for the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_getsourcerect.htm

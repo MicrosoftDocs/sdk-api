@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MFSESSION_GETFULLTOPOLOGY_FLAGS
-title: MFSESSION_GETFULLTOPOLOGY_FLAGS
+title: MFSESSION_GETFULLTOPOLOGY_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Defines flags for the IMFMediaSession::GetFullTopology method.
 old-location: mf\mfsession_getfulltopology_flags.htm

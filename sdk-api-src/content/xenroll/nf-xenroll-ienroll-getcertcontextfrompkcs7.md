@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.getCertContextFromPKCS7
-title: IEnroll::getCertContextFromPKCS7
+title: IEnroll::getCertContextFromPKCS7 (xenroll.h)
 author: windows-sdk-content
 description: Retrieves a certificate context based on a PKCS #7 message that was issued in response to a PKCS #10 certificate request.
 old-location: security\ienroll4_getcertcontextfrompkcs7.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xapobase.CXAPOBase.ProcessThru
-title: CXAPOBase::ProcessThru
+title: CXAPOBase::ProcessThru (xapobase.h)
 author: windows-sdk-content
 description: Called by an IXAPO::Process implementation when an XAPO is disabled for thru processing.
 old-location: xaudio2\cxapobase_processthru.htm

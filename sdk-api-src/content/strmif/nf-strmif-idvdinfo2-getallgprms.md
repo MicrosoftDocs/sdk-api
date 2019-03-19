@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAllGPRMs
-title: IDvdInfo2::GetAllGPRMs
+title: IDvdInfo2::GetAllGPRMs (strmif.h)
 author: windows-sdk-content
 description: The GetAllGPRMs method retrieves the current contents of all general parameter registers (GPRMs).
 old-location: dshow\idvdinfo2_getallgprms.htm

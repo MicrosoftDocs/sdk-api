@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceParens
-title: ITextFont2::GetAutospaceParens
+title: ITextFont2::GetAutospaceParens (tom.h)
 author: windows-sdk-content
 description: Gets the East Asian &#0034;autospace parentheses&#0034; state.
 old-location: controls\itextfont2_getautospaceparens.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.GetFrameStatistics
-title: IDCompositionDevice::GetFrameStatistics
+title: IDCompositionDevice::GetFrameStatistics (dcomp.h)
 author: windows-sdk-content
 description: Retrieves information from the composition engine about composition times and the frame rate.
 old-location: directcomp\idcompositiondevice_getframestatistics.htm

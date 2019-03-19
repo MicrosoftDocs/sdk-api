@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_TransmissionMode
-title: IBDA_DigitalDemodulator2::put_TransmissionMode
+title: IBDA_DigitalDemodulator2::put_TransmissionMode (bdaiface.h)
 author: windows-sdk-content
 description: Sets the demodulator's transmission mode.
 old-location: mstv\ibda_digitaldemodulator2_put_transmissionmode.htm

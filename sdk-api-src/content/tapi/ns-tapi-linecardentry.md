@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linecardentry_tag
-title: LINECARDENTRY
+title: LINECARDENTRY (tapi.h)
 author: windows-sdk-content
 description: The LINECARDENTRY structure describes a calling card. The LINETRANSLATECAPS structure can contain an array of LINECARDENTRY structures.
 old-location: tapi2\linecardentry_str.htm

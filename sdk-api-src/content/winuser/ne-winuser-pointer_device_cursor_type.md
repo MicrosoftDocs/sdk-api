@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagPOINTER_DEVICE_CURSOR_TYPE
-title: POINTER_DEVICE_CURSOR_TYPE
+title: POINTER_DEVICE_CURSOR_TYPE (winuser.h)
 author: windows-sdk-content
 description: Identifies the pointer device cursor types.
 old-location: input_pointerdevice\pointer_device_cursor_type.htm

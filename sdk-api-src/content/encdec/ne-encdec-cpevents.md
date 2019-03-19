@@ -1,6 +1,6 @@
 ---
 UID: NE:encdec.CPEvents
-title: CPEvents
+title: CPEvents (encdec.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\cpevents.htm

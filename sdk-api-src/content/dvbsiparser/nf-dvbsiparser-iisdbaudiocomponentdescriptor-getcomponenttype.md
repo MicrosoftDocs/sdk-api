@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetComponentType
-title: IIsdbAudioComponentDescriptor::GetComponentType
+title: IIsdbAudioComponentDescriptor::GetComponentType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the component_type field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This field identifies the audio component type.
 old-location: mstv\iisdbaudiocomponentdescriptor_getcomponenttype.htm

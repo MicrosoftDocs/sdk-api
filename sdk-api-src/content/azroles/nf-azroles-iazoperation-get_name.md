@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.get_Name
-title: IAzOperation::get_Name
+title: IAzOperation::get_Name (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the operation.
 old-location: security\iazoperation_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateFFT1DReal
-title: D3DX11CreateFFT1DReal function
+title: D3DX11CreateFFT1DReal function (d3dcsx.h)
 author: windows-sdk-content
 description: Creates an ID3DX11FFT COM interface object.
 old-location: direct3d11\d3dx11createfft1dreal.htm

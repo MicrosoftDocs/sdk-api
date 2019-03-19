@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketGetGlobalProperty
-title: WebSocketGetGlobalProperty function
+title: WebSocketGetGlobalProperty function (websocket.h)
 author: windows-sdk-content
 description: Gets a single WebSocket property.
 old-location: websock\websocketgetglobalproperty.htm

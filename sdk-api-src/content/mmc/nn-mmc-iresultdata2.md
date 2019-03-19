@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IResultData2
-title: IResultData2
+title: IResultData2 (mmc.h)
 author: windows-sdk-content
 description: The IResultData2 interface supersedes the IResultData interface. The IResultData2 interface contains the IResultData2::RenameResultItem method, which allows a result node to programmatically be put in rename mode.
 old-location: mmc\iresultdata2.htm

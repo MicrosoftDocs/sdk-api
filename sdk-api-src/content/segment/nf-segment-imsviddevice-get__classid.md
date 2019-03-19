@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get__ClassID
-title: IMSVidDevice::get__ClassID
+title: IMSVidDevice::get__ClassID (segment.h)
 author: windows-sdk-content
 description: The get__ClassID method retrieves the device's class identifier (CLSID) as a GUID.
 old-location: mstv\imsviddevice_get__classid.htm

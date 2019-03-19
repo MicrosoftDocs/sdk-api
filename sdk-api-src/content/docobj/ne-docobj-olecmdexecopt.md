@@ -1,6 +1,6 @@
 ---
 UID: NE:docobj.OLECMDEXECOPT
-title: OLECMDEXECOPT
+title: OLECMDEXECOPT (docobj.h)
 author: windows-sdk-content
 description: Specifies command execution options.
 old-location: com\olecmdexecopt.htm

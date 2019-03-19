@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateIdentity.get_RevisionNumber
-title: IUpdateIdentity::get_RevisionNumber
+title: IUpdateIdentity::get_RevisionNumber (wuapi.h)
 author: windows-sdk-content
 description: Gets the revision number of an update.
 old-location: wua\iupdateidentity_revisionnumber.htm

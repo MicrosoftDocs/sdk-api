@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetInsertMark
-title: ListView_GetInsertMark macro
+title: ListView_GetInsertMark macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the position of the insertion point. You can use this macro or send the LVM_GETINSERTMARK message explicitly.
 old-location: controls\ListView_GetInsertMark.htm

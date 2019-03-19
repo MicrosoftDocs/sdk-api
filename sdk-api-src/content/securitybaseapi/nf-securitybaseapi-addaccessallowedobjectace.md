@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddAccessAllowedObjectAce
-title: AddAccessAllowedObjectAce function
+title: AddAccessAllowedObjectAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds an access-allowed access control entry (ACE) to the end of a discretionary access control list (DACL).
 old-location: security\addaccessallowedobjectace.htm

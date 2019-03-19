@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetUserObjectInformationW
-title: SetUserObjectInformationW function
+title: SetUserObjectInformationW function (winuser.h)
 author: windows-sdk-content
 description: Sets information about the specified window station or desktop object.
 old-location: winstation\setuserobjectinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellExtInit.Initialize
-title: IShellExtInit::Initialize
+title: IShellExtInit::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes a property sheet extension, shortcut menu extension, or drag-and-drop handler.
 old-location: shell\IShellExtInit_Initialize.htm

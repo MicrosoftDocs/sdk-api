@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IDynamicHWHandler
-title: IDynamicHWHandler
+title: IDynamicHWHandler (shobjidl.h)
 author: windows-sdk-content
 description: Called by AutoPlay. Exposes methods that get dynamic information regarding a registered handler prior to displaying it to the user.
 old-location: shell\IDynamicHWHandler.htm

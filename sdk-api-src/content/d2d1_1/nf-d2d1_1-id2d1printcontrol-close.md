@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1PrintControl.Close
-title: ID2D1PrintControl::Close
+title: ID2D1PrintControl::Close (d2d1_1.h)
 author: windows-sdk-content
 description: Passes all remaining resources to the print sub-system, then clean up and close the current print job.
 old-location: direct2d\id2d1printcontrol_close.htm

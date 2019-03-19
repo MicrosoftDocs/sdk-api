@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.put_Data
-title: IFsiFileItem::put_Data
+title: IFsiFileItem::put_Data (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the data stream of the file's content.
 old-location: imapi\ifsifileitem_put_data.htm

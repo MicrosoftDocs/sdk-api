@@ -1,6 +1,6 @@
 ---
 UID: NN:rrascfg.IEAPProviderConfig
-title: IEAPProviderConfig
+title: IEAPProviderConfig (rrascfg.h)
 author: windows-sdk-content
 description: UI for EAP provider.
 old-location: eap\ieapproviderconfig.htm

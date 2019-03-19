@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterFindClose
-title: FilterFindClose function
+title: FilterFindClose function (fltuser.h)
 author: windows-sdk-content
 description: The FilterFindClose function closes the specified minifilter search handle. The FilterFindFirst and FilterFindNext functions use this search handle to locate minifilters.
 old-location: ifsk\filterfindclose.htm

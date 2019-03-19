@@ -1,6 +1,6 @@
 ---
 UID: NE:dsrole._DSROLE_MACHINE_ROLE
-title: DSROLE_MACHINE_ROLE
+title: DSROLE_MACHINE_ROLE (dsrole.h)
 author: windows-sdk-content
 description: Used with the MachineRole member of the DSROLE_PRIMARY_DOMAIN_INFO_BASIC structure to specify the computer role.
 old-location: ad\dsrole_machine_role.htm

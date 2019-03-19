@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_VOLUME_NOTIFICATION
-title: VDS_VOLUME_NOTIFICATION
+title: VDS_VOLUME_NOTIFICATION (vds.h)
 author: windows-sdk-content
 description: Defines the details of volume events.
 old-location: base\vds_volume_notification.htm

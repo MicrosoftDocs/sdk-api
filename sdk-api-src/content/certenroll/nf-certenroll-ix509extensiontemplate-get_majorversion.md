@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionTemplate.get_MajorVersion
-title: IX509ExtensionTemplate::get_MajorVersion
+title: IX509ExtensionTemplate::get_MajorVersion (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the minimum major version number of the certificate template.
 old-location: security\ix509extensiontemplate_majorversion_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.EndCreateObjectFromURL
-title: IMFSourceResolver::EndCreateObjectFromURL
+title: IMFSourceResolver::EndCreateObjectFromURL (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to create an object from a URL.
 old-location: mf\imfsourceresolver_endcreateobjectfromurl.htm

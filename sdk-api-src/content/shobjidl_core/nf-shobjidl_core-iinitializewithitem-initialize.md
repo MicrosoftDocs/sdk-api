@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithItem.Initialize
-title: IInitializeWithItem::Initialize
+title: IInitializeWithItem::Initialize (shobjidl_core.h)
 author: windows-sdk-content
 description: Initializes a handler with an IShellItem.
 old-location: shell\IInitializeWithItem_Initialize.htm

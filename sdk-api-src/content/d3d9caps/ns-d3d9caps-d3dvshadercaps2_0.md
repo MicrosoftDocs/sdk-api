@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d9caps._D3DVSHADERCAPS2_0
-title: D3DVSHADERCAPS2_0
+title: D3DVSHADERCAPS2_0 (d3d9caps.h)
 author: windows-sdk-content
 description: Vertex shader caps.
 old-location: direct3d9\d3dvshadercaps2_0.htm

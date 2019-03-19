@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemePartSize
-title: GetThemePartSize function
+title: GetThemePartSize function (uxtheme.h)
 author: windows-sdk-content
 description: Calculates the original size of the part defined by a visual style.
 old-location: controls\GetThemePartSize.htm

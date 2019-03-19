@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest2.GetIssuedCertificate
-title: ICertRequest2::GetIssuedCertificate
+title: ICertRequest2::GetIssuedCertificate (certcli.h)
 author: windows-sdk-content
 description: Retrieves a certificate's disposition by specifying either the request ID or the certificate serial number.
 old-location: security\icertrequest2_getissuedcertificate.htm

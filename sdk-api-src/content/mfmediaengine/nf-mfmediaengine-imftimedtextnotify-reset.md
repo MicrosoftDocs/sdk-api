@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Reset
-title: IMFTimedTextNotify::Reset
+title: IMFTimedTextNotify::Reset (mfmediaengine.h)
 author: windows-sdk-content
 description: Resets the timed-text-notify object.
 old-location: mf\imftimedtextnotify_reset.htm

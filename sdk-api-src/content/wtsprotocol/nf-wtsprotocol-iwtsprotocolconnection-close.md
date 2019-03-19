@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.Close
-title: IWTSProtocolConnection::Close
+title: IWTSProtocolConnection::Close (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::Close is no longer available. Instead, use IWRdsProtocolConnection::Close.
 old-location: termserv\iwtsprotocolconnection_close.htm

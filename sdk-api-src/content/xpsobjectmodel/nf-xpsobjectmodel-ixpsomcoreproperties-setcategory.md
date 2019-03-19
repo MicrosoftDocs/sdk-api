@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCategory
-title: IXpsOMCoreProperties::SetCategory
+title: IXpsOMCoreProperties::SetCategory (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the category property.
 old-location: xps\ixpsomcoreproperties_setcategory.htm

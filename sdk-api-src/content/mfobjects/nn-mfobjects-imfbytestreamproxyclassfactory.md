@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFByteStreamProxyClassFactory
-title: IMFByteStreamProxyClassFactory
+title: IMFByteStreamProxyClassFactory (mfobjects.h)
 author: windows-sdk-content
 description: Creates a proxy to a byte stream.
 old-location: mf\imfbytestreamproxyclassfactory.htm

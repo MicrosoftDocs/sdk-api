@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Classes
-title: CM_Enumerate_Classes function
+title: CM_Enumerate_Classes function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Enumerate_Classes function, when called repeatedly, enumerates the local machine's installed device classes by supplying each class's GUID.
 old-location: devinst\cm_enumerate_classes.htm

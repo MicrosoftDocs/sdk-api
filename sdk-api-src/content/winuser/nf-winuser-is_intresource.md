@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IS_INTRESOURCE
-title: IS_INTRESOURCE macro
+title: IS_INTRESOURCE macro (winuser.h)
 author: windows-sdk-content
 description: Determines whether a value is an integer identifier for a resource.
 old-location: menurc\is_intresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const SYSTEMTIME &)
-title: WBEMTime::WBEMTime(const SYSTEMTIME &)
+title: WBEMTime::WBEMTime(const SYSTEMTIME &) (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTime overload class constructor takes a SYSTEMTIME parameter.
 old-location: wmi\wbemtime_wbemtime_const_systemtime__.htm

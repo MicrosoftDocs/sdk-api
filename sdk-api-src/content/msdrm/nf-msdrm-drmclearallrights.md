@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMClearAllRights
-title: DRMClearAllRights function
+title: DRMClearAllRights function (msdrm.h)
 author: windows-sdk-content
 description: Removes all rights from an existing issuance license.
 old-location: rm\drmclearallrights.htm

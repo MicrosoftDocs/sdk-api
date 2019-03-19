@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_GROUPS
-title: TOKEN_GROUPS
+title: TOKEN_GROUPS (winnt.h)
 author: windows-sdk-content
 description: Contains information about the group security identifiers (SIDs) in an access token.
 old-location: security\token_groups.htm

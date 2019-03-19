@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ATTRIBUTE_DESCRIPTION
-title: WS_ATTRIBUTE_DESCRIPTION
+title: WS_ATTRIBUTE_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: Represents a mapping between a C data type and an XML attribute.
 old-location: wsw\ws_attribute_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
-title: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
+title: PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT (pwm.h)
 author: windows-sdk-content
 description: Contains the effective output signal period of the Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_set_desired_period_output.htm

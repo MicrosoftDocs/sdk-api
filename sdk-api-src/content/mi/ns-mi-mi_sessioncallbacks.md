@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_SessionCallbacks
-title: MI_SessionCallbacks
+title: MI_SessionCallbacks (mi.h)
 author: windows-sdk-content
 description: A container for callback function pointers that handle logging and error messages.
 old-location: wmi_v2\mi_sessioncallbacks.htm

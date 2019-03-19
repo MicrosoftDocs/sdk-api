@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SMS_FLAG
-title: MBN_SMS_FLAG
+title: MBN_SMS_FLAG (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_FLAG enumerated type specifies the SMS message class.
 old-location: mbn\mbn_sms_flag.htm

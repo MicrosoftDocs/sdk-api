@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.GetTransformForStream
-title: IMFSourceReaderEx::GetTransformForStream
+title: IMFSourceReaderEx::GetTransformForStream (mfreadwrite.h)
 author: windows-sdk-content
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsourcereaderex_gettransformforstream.htm

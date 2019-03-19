@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_RequestStoreNameWStr
-title: IEnroll::get_RequestStoreNameWStr
+title: IEnroll::get_RequestStoreNameWStr (xenroll.h)
 author: windows-sdk-content
 description: The RequestStoreNameWStr property of IEnroll4 sets or retrieves the name of the store that contains the dummy certificate.
 old-location: security\ienroll4_requeststorenamewstr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_CANCREATESURFACEDATA
-title: DD_CANCREATESURFACEDATA
+title: DD_CANCREATESURFACEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CANCREATESURFACEDATA structure contains information necessary to indicate whether a surface--in the case of CanCreateD3DBuffer, a buffer--can be created.
 old-location: display\dd_cancreatesurfacedata.htm

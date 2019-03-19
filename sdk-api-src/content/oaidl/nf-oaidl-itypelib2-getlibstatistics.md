@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetLibStatistics
-title: ITypeLib2::GetLibStatistics
+title: ITypeLib2::GetLibStatistics (oaidl.h)
 author: windows-sdk-content
 description: Returns statistics about a type library that are required for efficient sizing of hash tables.
 old-location: automat\itypelib2_getlibstatistics.htm

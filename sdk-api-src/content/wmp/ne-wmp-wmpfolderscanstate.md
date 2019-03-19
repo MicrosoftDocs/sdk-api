@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPFolderScanState
-title: WMPFolderScanState
+title: WMPFolderScanState (wmp.h)
 author: windows-sdk-content
 description: The WMPFolderScanState enumeration type defines the possible operational states of Windows Media Player as it monitors file folders for digital media content.
 old-location: wmp\wmpfolderscanstate.htm

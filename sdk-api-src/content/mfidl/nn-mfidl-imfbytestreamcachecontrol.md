@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFByteStreamCacheControl
-title: IMFByteStreamCacheControl
+title: IMFByteStreamCacheControl (mfidl.h)
 author: windows-sdk-content
 description: Controls how a network byte stream transfers data to a local cache.
 old-location: mf\imfbytestreamcachecontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_Invitations
-title: IRDPSRAPISharingSession::get_Invitations
+title: IRDPSRAPISharingSession::get_Invitations (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapisharingsession_invitations.htm

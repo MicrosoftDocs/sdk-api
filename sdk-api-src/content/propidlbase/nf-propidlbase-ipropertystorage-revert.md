@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.Revert
-title: IPropertyStorage::Revert
+title: IPropertyStorage::Revert (propidlbase.h)
 author: windows-sdk-content
 description: The Revert method discards all changes to the named property set since it was last opened or discards changes that were last committed to the property set. This method has no effect on a direct-mode property set.
 old-location: stg\ipropertystorage_revert.htm

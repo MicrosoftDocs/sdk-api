@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,REFIID,void)
-title: ID2D1SvgElement::GetAttributeValue(PCWSTR,REFIID,void)
+title: ID2D1SvgElement::GetAttributeValue(PCWSTR,REFIID,void) (d2d1svg.h)
 author: windows-sdk-content
 description: Gets an attribute of this element as an interface type.
 old-location: direct2d\id2d1svgelement_getattributevalue_3.htm

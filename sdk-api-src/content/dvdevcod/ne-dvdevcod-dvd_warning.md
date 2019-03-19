@@ -1,6 +1,6 @@
 ---
 UID: NE:dvdevcod._tagDVD_WARNING
-title: DVD_WARNING
+title: DVD_WARNING (dvdevcod.h)
 author: windows-sdk-content
 description: Specifies DVD warning conditions.
 old-location: dshow\dvd_warning.htm

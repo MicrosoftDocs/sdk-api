@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetLanguage
-title: IWMReaderAdvanced4::GetLanguage
+title: IWMReaderAdvanced4::GetLanguage (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetLanguage method retrieves information about a language supported by an output. You must specify an output number and a language index, and this method will supply the RFC1766-compliant language string.
 old-location: wmformat\iwmreaderadvanced4_getlanguage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCacheDir
-title: IX509EnrollmentPolicyServer::GetCacheDir
+title: IX509EnrollmentPolicyServer::GetCacheDir (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the name of the directory on the certificate enrollment policy (CEP) server that contains the policy cache file.
 old-location: security\ix509enrollmentpolicyserver_getcachedir.htm

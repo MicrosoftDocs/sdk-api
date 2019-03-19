@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceManager
-title: IPortableDeviceManager
+title: IPortableDeviceManager (portabledeviceapi.h)
 author: windows-sdk-content
 description: Enumerates devices that are connected to the computer and provides a simple way to request installation information, including manufacturer, friendly name, and description.
 old-location: wpdsdk\iportabledevicemanager.htm

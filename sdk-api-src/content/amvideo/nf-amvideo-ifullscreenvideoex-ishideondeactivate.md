@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsHideOnDeactivate
-title: IFullScreenVideoEx::IsHideOnDeactivate
+title: IFullScreenVideoEx::IsHideOnDeactivate (amvideo.h)
 author: windows-sdk-content
 description: The IsHideOnDeactivate method indicates the behavior when the user switches to another application.
 old-location: dshow\ifullscreenvideoex_ishideondeactivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyProcessOutput
-title: IMFQualityManager::NotifyProcessOutput
+title: IMFQualityManager::NotifyProcessOutput (mfidl.h)
 author: windows-sdk-content
 description: Called after the media processor gets an output sample from a pipeline component.
 old-location: mf\imfqualitymanager_notifyprocessoutput.htm

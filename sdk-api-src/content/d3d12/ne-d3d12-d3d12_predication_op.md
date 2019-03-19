@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_PREDICATION_OP
-title: D3D12_PREDICATION_OP
+title: D3D12_PREDICATION_OP (d3d12.h)
 author: windows-sdk-content
 description: Specifies the predication operation to apply.
 old-location: direct3d12\d3d12_predication_op.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolWork
-title: CreateThreadpoolWork function
+title: CreateThreadpoolWork function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Creates a new work object.
 old-location: base\createthreadpoolwork.htm

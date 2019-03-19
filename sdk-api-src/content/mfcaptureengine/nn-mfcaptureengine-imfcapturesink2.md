@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSink2
-title: IMFCaptureSink2
+title: IMFCaptureSink2 (mfcaptureengine.h)
 author: windows-sdk-content
 description: Extends the IMFCaptureSink interface to provide functionality for dynamically setting the output media type of the record sink or preview sink.
 old-location: mf\imfcapturesink2.htm

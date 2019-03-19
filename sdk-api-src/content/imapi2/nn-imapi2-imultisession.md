@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IMultisession
-title: IMultisession
+title: IMultisession (imapi2.h)
 author: windows-sdk-content
 description: Base interface containing properties common to derived multisession interfaces.
 old-location: imapi\imultisession.htm

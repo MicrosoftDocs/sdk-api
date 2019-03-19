@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation4
-title: IUIAutomation4
+title: IUIAutomation4 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomation3 interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation4.htm

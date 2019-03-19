@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList
-title: ID3D12GraphicsCommandList
+title: ID3D12GraphicsCommandList (d3d12.h)
 author: windows-sdk-content
 description: Encapsulates a list of graphics commands for rendering. Includes APIs for instrumenting the command list execution, and for setting and clearing the pipeline state.
 old-location: direct3d12\id3d12graphicscommandlist.htm

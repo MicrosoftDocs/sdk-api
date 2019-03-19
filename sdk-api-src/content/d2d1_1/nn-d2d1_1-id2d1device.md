@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1Device
-title: ID2D1Device
+title: ID2D1Device (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a resource domain whose objects and device contexts can be used together.
 old-location: direct2d\id2d1device.htm

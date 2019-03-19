@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._POLICY_MODIFICATION_INFO
-title: POLICY_MODIFICATION_INFO
+title: POLICY_MODIFICATION_INFO (ntsecapi.h)
 author: windows-sdk-content
 description: The POLICY_MODIFICATION_INFO structure is used to query information about the creation time and last modification of the LSA database.
 old-location: security\policy_modification_info.htm

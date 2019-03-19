@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetBorderColor
-title: IVMRWindowlessControl::SetBorderColor
+title: IVMRWindowlessControl::SetBorderColor (strmif.h)
 author: windows-sdk-content
 description: The SetBorderColor method sets the border color to be used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_setbordercolor.htm

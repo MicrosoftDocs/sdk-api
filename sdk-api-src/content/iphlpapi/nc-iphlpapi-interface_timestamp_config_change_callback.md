@@ -1,6 +1,6 @@
 ---
 UID: NC:iphlpapi.INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK
-title: INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK
+title: INTERFACE_TIMESTAMP_CONFIG_CHANGE_CALLBACK (iphlpapi.h)
 author: windows-sdk-content
 description: This callback is reserved for system use, and you should not use it in your code.
 old-location: iphlp\interface_timestamp_config_change_callback.htm

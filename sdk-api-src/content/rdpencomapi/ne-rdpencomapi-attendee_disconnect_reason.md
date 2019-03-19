@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0002
-title: ATTENDEE_DISCONNECT_REASON
+title: ATTENDEE_DISCONNECT_REASON (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the reasons why an attendee was disconnected from the session.
 old-location: rdp\attendee_disconnect_reason.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceManager
-title: IWdsTransportNamespaceManager
+title: IWdsTransportNamespaceManager (wdstptmgmt.h)
 author: windows-sdk-content
 description: Manages namespaces on a WDS transport server.
 old-location: wds\iwdstransportnamespacemanager.htm

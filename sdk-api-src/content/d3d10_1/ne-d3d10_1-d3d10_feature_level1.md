@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10_1.D3D10_FEATURE_LEVEL1
-title: D3D10_FEATURE_LEVEL1
+title: D3D10_FEATURE_LEVEL1 (d3d10_1.h)
 author: windows-sdk-content
 description: The version of hardware acceleration requested.
 old-location: direct3d10\d3d10_feature_level1.htm

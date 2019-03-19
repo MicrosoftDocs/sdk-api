@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.FreeIDListArray
-title: FreeIDListArray function
+title: FreeIDListArray function (shobjidl_core.h)
 author: windows-sdk-content
 description: Frees the memory used by an pointer to an item identifier list (PIDL) list array.
 old-location: shell\FreeIDListArray.htm

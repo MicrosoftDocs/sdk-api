@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.INDEXTOOVERLAYMASK
-title: INDEXTOOVERLAYMASK macro
+title: INDEXTOOVERLAYMASK macro (commctrl.h)
 author: windows-sdk-content
 description: Prepares the index of an overlay mask so that the ImageList_Draw function can use it.
 old-location: controls\INDEXTOOVERLAYMASK.htm

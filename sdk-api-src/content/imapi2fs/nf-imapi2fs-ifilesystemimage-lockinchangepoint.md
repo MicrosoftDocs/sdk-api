@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.LockInChangePoint
-title: IFileSystemImage::LockInChangePoint
+title: IFileSystemImage::LockInChangePoint (imapi2fs.h)
 author: windows-sdk-content
 description: Locks the file system information at the current change-point level.
 old-location: imapi\ifilesystemimage_lockinchangepoint.htm

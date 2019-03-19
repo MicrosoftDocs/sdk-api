@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.acceptFileResponse
-title: ICEnroll4::acceptFileResponse
+title: ICEnroll4::acceptFileResponse (xenroll.h)
 author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequest, and it places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptfileresponse.htm

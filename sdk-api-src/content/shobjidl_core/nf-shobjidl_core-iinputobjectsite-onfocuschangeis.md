@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IInputObjectSite.OnFocusChangeIS
-title: IInputObjectSite::OnFocusChangeIS
+title: IInputObjectSite::OnFocusChangeIS (shobjidl_core.h)
 author: windows-sdk-content
 description: Informs the browser that the focus has changed.
 old-location: shell\IInputObjectSite_OnFocusChangeIS.htm

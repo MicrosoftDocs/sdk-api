@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.FindNextAttrTransition
-title: ITextStoreAnchor::FindNextAttrTransition
+title: ITextStoreAnchor::FindNextAttrTransition (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::FindNextAttrTransition method finds the location in the text stream where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
 old-location: tsf\itextstoreanchor_findnextattrtransition.htm

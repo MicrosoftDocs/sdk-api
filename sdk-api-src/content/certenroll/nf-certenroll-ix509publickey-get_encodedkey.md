@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_EncodedKey
-title: IX509PublicKey::get_EncodedKey
+title: IX509PublicKey::get_EncodedKey (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a byte array that contains the public key.
 old-location: security\ix509publickey_encodedkey_property.htm

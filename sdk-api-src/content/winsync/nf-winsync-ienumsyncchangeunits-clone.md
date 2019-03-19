@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Clone
-title: IEnumSyncChangeUnits::Clone
+title: IEnumSyncChangeUnits::Clone (winsync.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: winsync\ienumsyncchangeunits_clone.htm

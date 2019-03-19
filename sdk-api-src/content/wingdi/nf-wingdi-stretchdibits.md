@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.StretchDIBits
-title: StretchDIBits function
+title: StretchDIBits function (wingdi.h)
 author: windows-sdk-content
 description: The StretchDIBits function copies the color data for a rectangle of pixels in a DIB, JPEG, or PNG image to the specified destination rectangle.
 old-location: gdi\stretchdibits.htm

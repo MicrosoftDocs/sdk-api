@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetHomeDirectory
-title: SymGetHomeDirectory function
+title: SymGetHomeDirectory function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the home directory used by Dbghelp.
 old-location: base\symgethomedirectory.htm

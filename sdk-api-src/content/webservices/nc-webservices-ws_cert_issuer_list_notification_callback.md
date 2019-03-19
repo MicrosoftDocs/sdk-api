@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
-title: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK
+title: WS_CERT_ISSUER_LIST_NOTIFICATION_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Notifies the client of the list of certificate issuers that are acceptable to the server.
 old-location: wsw\ws_cert_issuer_list_notification_callback.htm

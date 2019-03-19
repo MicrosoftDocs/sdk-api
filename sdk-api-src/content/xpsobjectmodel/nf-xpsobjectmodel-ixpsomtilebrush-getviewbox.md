@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewbox
-title: IXpsOMTileBrush::GetViewbox
+title: IXpsOMTileBrush::GetViewbox (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the portion of the source image to be used by the tile.
 old-location: xps\ixpsomtilebrush_getviewbox.htm

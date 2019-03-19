@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt64
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the signed 64-bit integer value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getint64.htm

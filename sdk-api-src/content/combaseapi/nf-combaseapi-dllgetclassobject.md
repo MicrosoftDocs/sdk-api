@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.DllGetClassObject
-title: DllGetClassObject function
+title: DllGetClassObject function (combaseapi.h)
 author: windows-sdk-content
 description: Retrieves the class object from a DLL object handler or object application.
 old-location: com\dllgetclassobject.htm

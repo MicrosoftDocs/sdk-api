@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetPropertyType
-title: IPropertyDescription::GetPropertyType
+title: IPropertyDescription::GetPropertyType (propsys.h)
 author: windows-sdk-content
 description: Gets the variant type of the property.
 old-location: properties\IPropertyDescription_GetPropertyType.htm

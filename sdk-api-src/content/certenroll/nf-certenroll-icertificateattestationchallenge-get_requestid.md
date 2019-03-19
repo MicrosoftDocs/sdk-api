@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.get_RequestID
-title: ICertificateAttestationChallenge::get_RequestID
+title: ICertificateAttestationChallenge::get_RequestID (certenroll.h)
 author: windows-sdk-content
 description: Gets the request ID from the Certificate Management over CMS (CMC) response.
 old-location: security\icertificateattestationchallenge_requestid.htm

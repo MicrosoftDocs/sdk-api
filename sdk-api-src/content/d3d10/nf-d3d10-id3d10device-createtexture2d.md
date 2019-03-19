@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture2D
-title: ID3D10Device::CreateTexture2D
+title: ID3D10Device::CreateTexture2D (d3d10.h)
 author: windows-sdk-content
 description: Create an array of 2D textures (see Texture2D).
 old-location: direct3d10\id3d10device_createtexture2d.htm

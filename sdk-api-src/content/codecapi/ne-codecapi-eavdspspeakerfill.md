@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDSPSpeakerFill
-title: eAVDSPSpeakerFill
+title: eAVDSPSpeakerFill (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether speaker fill is enabled in an audio decoder or digital signal processor (DSP).
 old-location: dshow\eavdspspeakerfill.htm

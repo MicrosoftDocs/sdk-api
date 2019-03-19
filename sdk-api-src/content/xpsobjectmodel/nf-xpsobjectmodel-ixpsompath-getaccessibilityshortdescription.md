@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityShortDescription
-title: IXpsOMPath::GetAccessibilityShortDescription
+title: IXpsOMPath::GetAccessibilityShortDescription (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the short textual description of the object's contents.
 old-location: xps\ixpsompath_getaccessibilityshortdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_DRIVE_STATUS
-title: VDS_DRIVE_STATUS
+title: VDS_DRIVE_STATUS (vds.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a drive.
 old-location: base\vds_drive_status.htm

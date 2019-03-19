@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilter.GetLastErrorCode
-title: IETFilter::GetLastErrorCode
+title: IETFilter::GetLastErrorCode (encdec.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: mstv\ietfilter_getlasterrorcode.htm

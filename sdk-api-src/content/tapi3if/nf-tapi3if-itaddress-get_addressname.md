@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddress.get_AddressName
-title: ITAddress::get_AddressName
+title: ITAddress::get_AddressName (tapi3if.h)
 author: windows-sdk-content
 description: The get_AddressName method gets the displayable name of the address.
 old-location: tapi3\itaddress_get_addressname.htm

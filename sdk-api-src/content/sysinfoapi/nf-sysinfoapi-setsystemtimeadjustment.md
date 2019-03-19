@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.SetSystemTimeAdjustment
-title: SetSystemTimeAdjustment function
+title: SetSystemTimeAdjustment function (sysinfoapi.h)
 author: windows-sdk-content
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 old-location: base\setsystemtimeadjustment.htm

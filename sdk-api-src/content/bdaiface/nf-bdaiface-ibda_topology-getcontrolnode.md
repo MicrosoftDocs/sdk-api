@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetControlNode
-title: IBDA_Topology::GetControlNode
+title: IBDA_Topology::GetControlNode (bdaiface.h)
 author: windows-sdk-content
 description: The GetControlNode method retrieves an IUnknown interface pointer for a specified control node.
 old-location: mstv\ibda_topology_getcontrolnode.htm

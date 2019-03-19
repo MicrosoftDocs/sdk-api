@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_Priority
-title: IFaxDocument::put_Priority
+title: IFaxDocument::put_Priority (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDocument::get_Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_priority_cpp.htm

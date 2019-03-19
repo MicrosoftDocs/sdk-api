@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyType
-title: IContactPropertyCollection::GetPropertyType
+title: IContactPropertyCollection::GetPropertyType (icontact.h)
 author: windows-sdk-content
 description: Retrieves the type for the current property in the enumeration.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyType.htm

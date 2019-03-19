@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.GetPartitionProperties
-title: IVdsAdvancedDisk::GetPartitionProperties
+title: IVdsAdvancedDisk::GetPartitionProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of the partition identified by the partition offset.
 old-location: base\ivdsadvanceddisk_getpartitionproperties.htm

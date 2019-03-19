@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnID
-title: IDXGIInfoQueue::GetBreakOnID
+title: IDXGIInfoQueue::GetBreakOnID (dxgidebug.h)
 author: windows-sdk-content
 description: Determines whether the break on a message identifier is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakonid.htm

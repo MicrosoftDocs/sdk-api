@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.EnumObjects
-title: EnumObjects function
+title: EnumObjects function (wingdi.h)
 author: windows-sdk-content
 description: The EnumObjects function enumerates the pens or brushes available for the specified device context (DC).
 old-location: gdi\enumobjects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManRunShellCommandEx
-title: WSManRunShellCommandEx function
+title: WSManRunShellCommandEx function (wsman.h)
 author: windows-sdk-content
 description: Provides the same functionality as the WSManRunShellCommand function, with the addition of a command ID option.
 old-location: winrm\wsmanrunshellcommandex.htm

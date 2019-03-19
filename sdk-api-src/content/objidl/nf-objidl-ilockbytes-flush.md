@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILockBytes.Flush
-title: ILockBytes::Flush
+title: ILockBytes::Flush (objidl.h)
 author: windows-sdk-content
 description: The Flush method ensures that any internal buffers maintained by the ILockBytes implementation are written out to the underlying physical storage.
 old-location: stg\ilockbytes_flush.htm

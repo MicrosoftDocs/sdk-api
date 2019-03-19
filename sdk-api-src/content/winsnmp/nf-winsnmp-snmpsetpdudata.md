@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpSetPduData
-title: SnmpSetPduData function
+title: SnmpSetPduData function (winsnmp.h)
 author: windows-sdk-content
 description: The WinSNMP SnmpSetPduData function updates selected data fields in the specified SNMP protocol data unit (PDU).
 old-location: snmp\snmpsetpdudata.htm

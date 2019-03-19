@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetFont
-title: IVisualProperties::GetFont
+title: IVisualProperties::GetFont (shobjidl.h)
 author: windows-sdk-content
 description: Gets the current attributes set on the font.
 old-location: shell\IVisualProperties_GetFont.htm

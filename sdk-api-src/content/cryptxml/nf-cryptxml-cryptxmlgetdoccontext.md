@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlGetDocContext
-title: CryptXmlGetDocContext function
+title: CryptXmlGetDocContext function (cryptxml.h)
 author: windows-sdk-content
 description: Returns the document context specified by the supplied handle.
 old-location: security\cryptxmlgetdoccontext.htm

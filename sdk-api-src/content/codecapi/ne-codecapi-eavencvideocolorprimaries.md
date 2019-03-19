@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorPrimaries
-title: eAVEncVideoColorPrimaries
+title: eAVEncVideoColorPrimaries (codecapi.h)
 author: windows-sdk-content
 description: Specifies the color primaries of the video. This enumeration is used with the AVEncVideoInputColorPrimaries and AVEncVideoOutputColorPrimaries properties.
 old-location: dshow\eavencvideocolorprimaries.htm

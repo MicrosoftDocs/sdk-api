@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.FindTrackerTargets
-title: IReferenceTracker::xaml
+title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Finds out what reference tracker targets are reachable from a reference tracker source; must be called by a garbage collector between calls to ReferenceTrackingStarted and FindTrackerTargetsCompleted.
 old-location: winrt\ireferencetracker_findtrackertargets.htm

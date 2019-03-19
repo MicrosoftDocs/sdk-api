@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromUInt64Vector
-title: InitPropVariantFromUInt64Vector function
+title: InitPropVariantFromUInt64Vector function (propvarutil.h)
 author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a vector of 64-bit unsigned integers.
 old-location: properties\InitPropVariantFromUInt64Vector.htm

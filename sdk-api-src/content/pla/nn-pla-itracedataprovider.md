@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.ITraceDataProvider
-title: ITraceDataProvider
+title: ITraceDataProvider (pla.h)
 author: windows-sdk-content
 description: Specifies a trace provider to enable in the trace session.
 old-location: pla\itracedataprovider.htm

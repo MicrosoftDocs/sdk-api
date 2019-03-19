@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComExceptionEvents
-title: IComExceptionEvents
+title: IComExceptionEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber when an unhandled exception occurs in the user's code.
 old-location: cos\icomexceptionevents.htm

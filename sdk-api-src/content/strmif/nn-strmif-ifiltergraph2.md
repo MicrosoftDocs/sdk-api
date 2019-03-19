@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFilterGraph2
-title: IFilterGraph2
+title: IFilterGraph2 (strmif.h)
 author: windows-sdk-content
 description: The IFilterGraph2 interface extends the IFilterGraph and IGraphBuilder interfaces, which contain methods for building filter graphs.The Filter Graph Manager implements this interface.
 old-location: dshow\ifiltergraph2.htm

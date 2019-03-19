@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._BLENDOBJ
-title: BLENDOBJ
+title: BLENDOBJ (winddi.h)
 author: windows-sdk-content
 description: The BLENDOBJ structure controls blending by specifying the blending functions for source and destination bitmaps.
 old-location: display\blendobj.htm

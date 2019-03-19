@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaFind
-title: UiaFind function
+title: UiaFind function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Retrieves one or more UI Automation nodes that match the search criteria.
 old-location: winauto\uiauto_UiaFindAutoMeth.htm

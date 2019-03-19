@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestApplicationsEnumerator
-title: IAppxManifestApplicationsEnumerator
+title: IAppxManifestApplicationsEnumerator (appxpackaging.h)
 author: windows-sdk-content
 description: Enumerates the applications defined in the package manifest.
 old-location: appxpkg\iappxmanifestapplicationsenumerator.htm

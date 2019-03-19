@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._tagCOMPONENT
-title: COMPONENT
+title: COMPONENT (shlobj_core.h)
 author: windows-sdk-content
 description: Used by Windows 2000 to hold information about a component. This structure replaces the IE4COMPONENT structure.
 old-location: shell\COMPONENT.htm

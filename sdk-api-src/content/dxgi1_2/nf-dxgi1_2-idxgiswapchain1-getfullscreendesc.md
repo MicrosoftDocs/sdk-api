@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetFullscreenDesc
-title: IDXGISwapChain1::GetFullscreenDesc
+title: IDXGISwapChain1::GetFullscreenDesc (dxgi1_2.h)
 author: windows-sdk-content
 description: Gets a description of a full-screen swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getfullscreendesc.htm

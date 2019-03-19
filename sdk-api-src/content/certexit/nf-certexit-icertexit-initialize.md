@@ -1,6 +1,6 @@
 ---
 UID: NF:certexit.ICertExit.Initialize
-title: ICertExit::Initialize
+title: ICertExit::Initialize (certexit.h)
 author: windows-sdk-content
 description: Called by the server engine when it initializes itself.
 old-location: security\icertexit2_initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeByIndex
-title: IMFMediaTypeHandler::GetMediaTypeByIndex
+title: IMFMediaTypeHandler::GetMediaTypeByIndex (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a media type from the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypebyindex.htm

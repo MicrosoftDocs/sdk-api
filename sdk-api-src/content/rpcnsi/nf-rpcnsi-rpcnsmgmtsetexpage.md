@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtSetExpAge
-title: RpcNsMgmtSetExpAge function
+title: RpcNsMgmtSetExpAge function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsMgmtSetExpAge function modifies the application's global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtsetexpage.htm

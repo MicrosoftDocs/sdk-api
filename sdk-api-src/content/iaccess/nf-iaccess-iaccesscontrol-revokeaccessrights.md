@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.RevokeAccessRights
-title: IAccessControl::RevokeAccessRights
+title: IAccessControl::RevokeAccessRights (iaccess.h)
 author: windows-sdk-content
 description: Removes any explicit entries for the list of trustees.
 old-location: com\iaccesscontrol_revokeaccessrights.htm

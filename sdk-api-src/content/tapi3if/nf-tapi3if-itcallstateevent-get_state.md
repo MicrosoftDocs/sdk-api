@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallStateEvent.get_State
-title: ITCallStateEvent::get_State
+title: ITCallStateEvent::get_State (tapi3if.h)
 author: windows-sdk-content
 description: The get_State method gets information on the new call state.
 old-location: tapi3\itcallstateevent_get_state.htm

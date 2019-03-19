@@ -1,6 +1,6 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE
-title: IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE
+title: IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE (pwm.h)
 author: windows-sdk-content
 description: Set a desired duty cycle percentage value for the controller pin or channel. The control code specifies the percentage as a PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure.
 old-location: base\ioctl_pwm_pin_set_active_duty_cycle_percentage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetMessageType
-title: IWSDUdpAddress::SetMessageType
+title: IWSDUdpAddress::SetMessageType (wsdbase.h)
 author: windows-sdk-content
 description: Sets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_setmessagetype.htm

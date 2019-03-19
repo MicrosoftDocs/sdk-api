@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItemImageFactory.GetImage
-title: IShellItemImageFactory::GetImage
+title: IShellItemImageFactory::GetImage (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an HBITMAP that represents an IShellItem.
 old-location: shell\IShellItemImageFactory_GetImage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.GetSwapChain
-title: ID3D10Debug::GetSwapChain
+title: ID3D10Debug::GetSwapChain (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Get the swap chain that the runtime will use for automatically calling Present.
 old-location: direct3d10\id3d10debug_getswapchain.htm

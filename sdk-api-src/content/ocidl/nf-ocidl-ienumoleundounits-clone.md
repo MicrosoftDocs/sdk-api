@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Clone
-title: IEnumOleUndoUnits::Clone
+title: IEnumOleUndoUnits::Clone (ocidl.h)
 author: windows-sdk-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumoleundounits_clone.htm

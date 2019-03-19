@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpAcceptLsaModeContextFn
-title: SpAcceptLsaModeContextFn
+title: SpAcceptLsaModeContextFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Server dispatch function used to create a security context shared by a server and client.
 old-location: security\spacceptlsamodecontext.htm

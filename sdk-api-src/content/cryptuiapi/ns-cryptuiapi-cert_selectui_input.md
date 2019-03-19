@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi.__unnamed_struct_0
-title: CERT_SELECTUI_INPUT
+title: CERT_SELECTUI_INPUT (cryptuiapi.h)
 author: windows-sdk-content
 description: Used by the CertSelectionGetSerializedBlob function to serialize the certificates contained in a store or an array of certificate chains. The returned serialized BLOB can be passed to the CredUIPromptForWindowsCredentials function.
 old-location: security\cert_selectui_input.htm

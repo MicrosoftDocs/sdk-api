@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11View
-title: ID3D11View
+title: ID3D11View (d3d11.h)
 author: windows-sdk-content
 description: A view interface specifies the parts of a resource the pipeline can access during rendering.
 old-location: direct3d11\id3d11view.htm

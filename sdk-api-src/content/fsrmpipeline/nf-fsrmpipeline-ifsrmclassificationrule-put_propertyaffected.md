@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.put_PropertyAffected
-title: IFsrmClassificationRule::put_PropertyAffected
+title: IFsrmClassificationRule::put_PropertyAffected (fsrmpipeline.h)
 author: windows-sdk-content
 description: The name of the property that this rule affects.
 old-location: fsrm\ifsrmclassificationrule_propertyaffected.htm

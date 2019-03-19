@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.SetIndexing
-title: IWICJpegFrameDecode::SetIndexing
+title: IWICJpegFrameDecode::SetIndexing (wincodec.h)
 author: windows-sdk-content
 description: Enables indexing of the JPEG for efficient random access.
 old-location: wic\iwicjpegframedecode_setindexing.htm

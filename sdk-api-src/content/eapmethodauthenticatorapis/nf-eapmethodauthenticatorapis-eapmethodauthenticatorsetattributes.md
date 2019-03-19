@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorSetAttributes
-title: EapMethodAuthenticatorSetAttributes function
+title: EapMethodAuthenticatorSetAttributes function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Provides updated EAP authentication attributes to set on the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorsetattributes.htm

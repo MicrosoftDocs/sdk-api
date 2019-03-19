@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_OUTPUT_DATA_BUFFER_FLAGS
-title: "_DMO_OUTPUT_DATA_BUFFER_FLAGS"
+title: "_DMO_OUTPUT_DATA_BUFFER_FLAGS" (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_OUTPUT_DATA_BUFFER_FLAGS enumeration defines flags that describe an output buffer.
 old-location: dshow\dmo_output_data_buffer_flags.htm

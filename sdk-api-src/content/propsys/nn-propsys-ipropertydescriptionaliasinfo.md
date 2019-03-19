@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyDescriptionAliasInfo
-title: IPropertyDescriptionAliasInfo
+title: IPropertyDescriptionAliasInfo (propsys.h)
 author: windows-sdk-content
 description: Exposes methods to get the &#0034;sort by&#0034; columns properties for an item. This interface is used by UI objects that want to retrieve the primary or secondary sort columns for a given property.
 old-location: properties\IPropertyDescriptionAliasInfo.htm

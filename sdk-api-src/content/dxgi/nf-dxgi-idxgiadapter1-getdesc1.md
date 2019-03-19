@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIAdapter1.GetDesc1
-title: IDXGIAdapter1::GetDesc1
+title: IDXGIAdapter1::GetDesc1 (dxgi.h)
 author: windows-sdk-content
 description: Gets a DXGI 1.1 description of an adapter (or video card).
 old-location: direct3ddxgi\idxgiadapter1_getdesc1.htm

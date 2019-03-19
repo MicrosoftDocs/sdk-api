@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterTouchWindow
-title: RegisterTouchWindow function
+title: RegisterTouchWindow function (winuser.h)
 author: windows-sdk-content
 description: Registers a window as being touch-capable.
 old-location: wintouch\registertouchwindow.htm

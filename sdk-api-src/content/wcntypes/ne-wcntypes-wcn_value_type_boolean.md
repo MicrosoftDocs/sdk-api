@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_BOOLEAN
-title: WCN_VALUE_TYPE_BOOLEAN
+title: WCN_VALUE_TYPE_BOOLEAN (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_BOOLEAN enumeration defines values used to represent true/false conditions encountered during device setup and association.
 old-location: wcn\wcn_value_type_boolean.htm

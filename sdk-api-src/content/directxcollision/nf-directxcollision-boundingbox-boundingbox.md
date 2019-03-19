@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingBox.BoundingBox
-title: BoundingBox::BoundingBox
+title: BoundingBox::BoundingBox (directxcollision.h)
 author: windows-sdk-content
 description: Creates an instance of the BoundingBox class.
 old-location: dxmath\boundingbox_ctor_3.htm

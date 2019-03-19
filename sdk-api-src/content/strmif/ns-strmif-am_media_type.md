@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._AMMediaType
-title: AM_MEDIA_TYPE
+title: AM_MEDIA_TYPE (strmif.h)
 author: windows-sdk-content
 description: The AM_MEDIA_TYPE structure describes the format of a media sample.
 old-location: dshow\am_media_type.htm

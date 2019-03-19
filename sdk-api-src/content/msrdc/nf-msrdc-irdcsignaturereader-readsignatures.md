@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadSignatures
-title: IRdcSignatureReader::ReadSignatures
+title: IRdcSignatureReader::ReadSignatures (msrdc.h)
 author: windows-sdk-content
 description: Reads a block of signatures from the current position.
 old-location: rdc\irdcsignaturereader_readsignatures.htm

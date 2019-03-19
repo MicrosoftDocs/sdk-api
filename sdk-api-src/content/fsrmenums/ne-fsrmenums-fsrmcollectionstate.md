@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmCollectionState
-title: FsrmCollectionState
+title: FsrmCollectionState (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the possible states of a collection object.
 old-location: fsrm\fsrmcollectionstate.htm

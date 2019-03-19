@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpSetServerBindingInfo
-title: DhcpSetServerBindingInfo function
+title: DhcpSetServerBindingInfo function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpSetServerBindingInfo function sets endpoint bindings for the DHCP server.
 old-location: dhcp\dhcpsetserverbindinginfo.htm

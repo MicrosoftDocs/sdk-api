@@ -1,6 +1,6 @@
 ---
 UID: NF:t2embapi.TTEmbedFont
-title: TTEmbedFont function
+title: TTEmbedFont function (t2embapi.h)
 author: windows-sdk-content
 description: Creates a font structure containing the subsetted wide-character (16-bit) font. The current font of the device context (hDC) provides the font information.
 old-location: gdi\ttembedfont.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetItemState
-title: TreeView_SetItemState macro
+title: TreeView_SetItemState macro (commctrl.h)
 author: windows-sdk-content
 description: Sets a tree-view item's state attributes. You can use this macro or send the TVM_SETITEM message explicitly.
 old-location: controls\TreeView_SetItemState.htm

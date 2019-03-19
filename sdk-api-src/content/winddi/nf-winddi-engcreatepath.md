@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCreatePath
-title: EngCreatePath function
+title: EngCreatePath function (winddi.h)
 author: windows-sdk-content
 description: The EngCreatePath function allocates a path for the driver's temporary use.
 old-location: display\engcreatepath.htm

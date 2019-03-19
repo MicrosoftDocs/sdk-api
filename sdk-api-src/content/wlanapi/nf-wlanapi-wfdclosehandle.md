@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WFDCloseHandle
-title: WFDCloseHandle function
+title: WFDCloseHandle function (wlanapi.h)
 author: windows-sdk-content
 description: Closes a handle to the Wi-Fi Direct service.
 old-location: nwifi\wfdclosehandle.htm

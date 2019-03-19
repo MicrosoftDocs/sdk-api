@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigTransportEnum
-title: MprConfigTransportEnum function
+title: MprConfigTransportEnum function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigTransportEnum function enumerates the transports configured on the router.
 old-location: rras\mprconfigtransportenum.htm

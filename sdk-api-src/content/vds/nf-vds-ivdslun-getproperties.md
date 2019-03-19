@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.GetProperties
-title: IVdsLun::GetProperties
+title: IVdsLun::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the properties of a LUN object.
 old-location: base\ivdslun_getproperties.htm

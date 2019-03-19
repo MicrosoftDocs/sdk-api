@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PopRetrievalFilter
-title: ID3D12InfoQueue::PopRetrievalFilter
+title: ID3D12InfoQueue::PopRetrievalFilter (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Pop a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_popretrievalfilter.htm

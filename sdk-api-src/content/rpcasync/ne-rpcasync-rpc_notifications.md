@@ -1,6 +1,6 @@
 ---
 UID: NE:rpcasync._RPC_NOTIFICATIONS
-title: RPC_NOTIFICATIONS
+title: RPC_NOTIFICATIONS (rpcasync.h)
 author: windows-sdk-content
 description: The RPC_NOTIFICATIONS enumeration specifies the notifications a server can receive from RPC.
 old-location: rpc\rpc_notifications.htm

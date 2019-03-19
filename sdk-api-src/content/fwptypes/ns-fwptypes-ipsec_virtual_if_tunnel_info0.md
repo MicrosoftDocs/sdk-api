@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.IPSEC_VIRTUAL_IF_TUNNEL_INFO0_
-title: IPSEC_VIRTUAL_IF_TUNNEL_INFO0
+title: IPSEC_VIRTUAL_IF_TUNNEL_INFO0 (fwptypes.h)
 author: windows-sdk-content
 description: Is used to store information specific to virtual interface tunneling.
 old-location: fwp\ipsec_virtual_if_tunnel_info0.htm

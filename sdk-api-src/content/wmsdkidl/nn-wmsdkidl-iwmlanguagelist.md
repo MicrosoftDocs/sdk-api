@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMLanguageList
-title: IWMLanguageList
+title: IWMLanguageList (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMLanguageList interface manages a list of languages supported by an ASF file.
 old-location: wmformat\iwmlanguagelist.htm

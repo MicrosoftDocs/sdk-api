@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRemoteProxy.GetRemoteObject
-title: IMFRemoteProxy::GetRemoteObject
+title: IMFRemoteProxy::GetRemoteObject (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the remote object for which this object is a proxy.
 old-location: mf\imfremoteproxy_getremoteobject.htm

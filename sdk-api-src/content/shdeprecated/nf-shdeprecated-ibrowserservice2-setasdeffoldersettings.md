@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetAsDefFolderSettings
-title: IBrowserService2::SetAsDefFolderSettings
+title: IBrowserService2::SetAsDefFolderSettings (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets the folder's current view mode as the default view mode for all folders. Used by the Folder Options dialog.
 old-location: shell\IBrowserService2_SetAsDefFolderSettings.htm

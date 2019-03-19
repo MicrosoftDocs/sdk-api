@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxDeactivate
-title: ITextHost::TxDeactivate
+title: ITextHost::TxDeactivate (textserv.h)
 author: windows-sdk-content
 description: Notifies the text host that the control is now inactive.
 old-location: controls\ITextHost_TxDeactivate.htm

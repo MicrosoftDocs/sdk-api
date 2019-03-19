@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IGamutMapModelPlugIn.Initialize
-title: IGamutMapModelPlugIn::Initialize
+title: IGamutMapModelPlugIn::Initialize (wcsplugin.h)
 author: windows-sdk-content
 description: Initializes a gamut map model profile (GMMP) by using the specified source and destination gamut boundary descriptions and optional source and destination device model plug-ins.
 old-location: wcs\IGamutMapModelPlugIn_Initialize.htm

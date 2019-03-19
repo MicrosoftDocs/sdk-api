@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetPropServer
-title: IAccPropServices::SetPropServer
+title: IAccPropServices::SetPropServer (oleacc.h)
 author: windows-sdk-content
 description: Servers use SetPropServer to specify a callback object to be used to annotate an array of properties for the accessible element.
 old-location: winauto\iaccpropservices_iaccpropservices__setpropserver.htm

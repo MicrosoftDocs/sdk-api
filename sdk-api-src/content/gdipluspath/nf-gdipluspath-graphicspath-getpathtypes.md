@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathTypes
-title: GraphicsPath::GetPathTypes
+title: GraphicsPath::GetPathTypes (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::GetPathTypes method gets this path's array of point types.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathTypes_types_count_.htm

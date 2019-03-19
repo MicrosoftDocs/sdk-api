@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTunerNotification.OnEvent
-title: IAMTunerNotification::OnEvent
+title: IAMTunerNotification::OnEvent (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMTunerNotification interface is deprecated. The OnEvent method handles events from the TV tuner card.
 old-location: dshow\iamtunernotification_onevent.htm

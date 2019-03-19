@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12CommandList
-title: ID3D12CommandList
+title: ID3D12CommandList (d3d12.h)
 author: windows-sdk-content
 description: An interface from which ID3D12GraphicsCommandList inherits from. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
 old-location: direct3d12\id3d12commandlist.htm

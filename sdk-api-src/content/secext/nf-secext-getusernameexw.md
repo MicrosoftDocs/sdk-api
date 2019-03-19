@@ -1,6 +1,6 @@
 ---
 UID: NF:secext.GetUserNameExW
-title: GetUserNameExW function
+title: GetUserNameExW function (secext.h)
 author: windows-sdk-content
 description: Retrieves the name of the user or other security principal associated with the calling thread. You can specify the format of the returned name.
 old-location: base\getusernameex.htm

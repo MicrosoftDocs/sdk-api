@@ -1,6 +1,6 @@
 ---
 UID: NE:photoacquire.tagPROGRESS_DIALOG_CHECKBOX_ID
-title: PROGRESS_DIALOG_CHECKBOX_ID
+title: PROGRESS_DIALOG_CHECKBOX_ID (photoacquire.h)
 author: windows-sdk-content
 description: The PROGRESS_DIALOG_CHECKBOX_ID enumeration type indicates the check box on the IPhotoProgressDialog object.
 old-location: picacq\progress_dialog_checkbox_id.htm

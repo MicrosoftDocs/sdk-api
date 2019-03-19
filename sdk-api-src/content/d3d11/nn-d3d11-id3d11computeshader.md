@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11ComputeShader
-title: ID3D11ComputeShader
+title: ID3D11ComputeShader (d3d11.h)
 author: windows-sdk-content
 description: A compute-shader interface manages an executable program (a compute shader) that controls the compute-shader stage.
 old-location: direct3d11\id3d11computeshader.htm

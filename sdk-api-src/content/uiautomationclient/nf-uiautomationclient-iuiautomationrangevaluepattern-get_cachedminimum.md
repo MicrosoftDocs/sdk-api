@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedMinimum
-title: IUIAutomationRangeValuePattern::get_CachedMinimum
+title: IUIAutomationRangeValuePattern::get_CachedMinimum (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached minimum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedMinimum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._COMSTAT
-title: COMSTAT
+title: COMSTAT (winbase.h)
 author: windows-sdk-content
 description: Contains information about a communications device.
 old-location: base\comstat_str.htm

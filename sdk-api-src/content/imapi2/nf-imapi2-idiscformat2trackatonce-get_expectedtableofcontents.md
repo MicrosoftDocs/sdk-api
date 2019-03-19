@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
-title: IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
+title: IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the table of content for the audio tracks that were laid on the media within the track-writing session.
 old-location: imapi\idiscformat2trackatonce_get_expectedtableofcontents.htm

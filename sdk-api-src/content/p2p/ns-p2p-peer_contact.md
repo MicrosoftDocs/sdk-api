@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_contact_tag
-title: PEER_CONTACT
+title: PEER_CONTACT (p2p.h)
 author: windows-sdk-content
 description: The PEER_CONTACT structure contains information about a specific contact.
 old-location: p2p\peer_contact.htm

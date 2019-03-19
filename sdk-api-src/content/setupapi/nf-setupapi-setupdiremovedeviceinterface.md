@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiRemoveDeviceInterface
-title: SetupDiRemoveDeviceInterface function
+title: SetupDiRemoveDeviceInterface function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiRemoveDeviceInterface function removes a registered device interface from the system.
 old-location: devinst\setupdiremovedeviceinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsObjectOptions.SetOption
-title: IADsObjectOptions::SetOption
+title: IADsObjectOptions::SetOption (iads.h)
 author: windows-sdk-content
 description: Sets a provider-specific option for manipulating a directory object.
 old-location: adsi\iadsobjectoptions_setoption.htm

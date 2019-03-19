@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_CERTIFICATE_VALIDATION_CALLBACK
-title: WS_CERTIFICATE_VALIDATION_CALLBACK
+title: WS_CERTIFICATE_VALIDATION_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: The WS_CERTIFICATE_VALIDATION_CALLBACK callback is invoked to validate a certificate when a connection to an HTTP server has been established and headers sent.
 old-location: wsw\ws_certificate_validation_callback.htm

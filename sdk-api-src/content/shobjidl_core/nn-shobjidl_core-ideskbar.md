@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDeskBar
-title: IDeskBar
+title: IDeskBar (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that enable desk bar manipulation.
 old-location: shell\IDeskBar.htm

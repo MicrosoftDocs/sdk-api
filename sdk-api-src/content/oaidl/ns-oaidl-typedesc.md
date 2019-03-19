@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagTYPEDESC
-title: TYPEDESC
+title: TYPEDESC (oaidl.h)
 author: windows-sdk-content
 description: Describes the type of a variable, the return type of a function, or the type of a function parameter.
 old-location: automat\typedesc.htm

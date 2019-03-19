@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyAdministratorName
-title: IAzScope::DeletePolicyAdministratorName
+title: IAzScope::DeletePolicyAdministratorName (azroles.h)
 author: windows-sdk-content
 description: The DeletePolicyAdministratorName method of IAzScope removes the specified account name from the list of principals that act as policy administrators.
 old-location: security\iazscope_deletepolicyadministratorname.htm

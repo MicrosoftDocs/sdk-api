@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_INFO
-title: DHCP_SUBNET_INFO
+title: DHCP_SUBNET_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_SUBNET_INFO structure defines information describing a subnet.
 old-location: dhcp\dhcp_subnet_info.htm

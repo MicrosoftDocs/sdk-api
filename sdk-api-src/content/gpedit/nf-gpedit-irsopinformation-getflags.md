@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IRSOPInformation.GetFlags
-title: IRSOPInformation::GetFlags
+title: IRSOPInformation::GetFlags (gpedit.h)
 author: windows-sdk-content
 description: The GetFlags method retrieves information about the RSoP user interface session.
 old-location: policy\irsopinformation_getflags.htm

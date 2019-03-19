@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.sndOpenSound
-title: sndOpenSound function
+title: sndOpenSound function (mmiscapi.h)
 author: windows-sdk-content
 description: Opens the specified sound event.
 old-location: multimedia\sndopensound.htm

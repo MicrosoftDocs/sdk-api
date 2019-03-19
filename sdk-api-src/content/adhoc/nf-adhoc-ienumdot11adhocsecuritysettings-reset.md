@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Reset
-title: IEnumDot11AdHocSecuritySettings::Reset
+title: IEnumDot11AdHocSecuritySettings::Reset (adhoc.h)
 author: windows-sdk-content
 description: Resets to the beginning of the enumeration sequence.
 old-location: nwifi\ienumdot11adhocsecuritysettings_reset.htm

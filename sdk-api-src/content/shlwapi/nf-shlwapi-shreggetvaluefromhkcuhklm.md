@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegGetValueFromHKCUHKLM
-title: SHRegGetValueFromHKCUHKLM function
+title: SHRegGetValueFromHKCUHKLM function (shlwapi.h)
 author: windows-sdk-content
 description: Obtains specified information from the registry.
 old-location: shell\SHRegGetValueFromHKCUHKLM.htm

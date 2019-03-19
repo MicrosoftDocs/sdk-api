@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetVarIndexOfMemId
-title: ITypeInfo2::GetVarIndexOfMemId
+title: ITypeInfo2::GetVarIndexOfMemId (oaidl.h)
 author: windows-sdk-content
 description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
 old-location: automat\itypeinfo2_getvarindexofmemid.htm

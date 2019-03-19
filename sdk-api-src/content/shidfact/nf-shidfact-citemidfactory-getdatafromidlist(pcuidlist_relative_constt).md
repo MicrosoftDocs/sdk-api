@@ -1,6 +1,6 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE,const T)
-title: CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE,const T)
+title: CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE,const T) (shidfact.h)
 author: windows-sdk-content
 description: Gets a read only pointer to the client provided structure in the first ItemID in the IDList.
 old-location: shell\citemidfactory_getdatafromidlist.htm

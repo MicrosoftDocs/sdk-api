@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Qualifier
-title: MI_Qualifier
+title: MI_Qualifier (mi.h)
 author: windows-sdk-content
 description: Represents a CIM qualifier.
 old-location: wmi_v2\mi_qualifier.htm

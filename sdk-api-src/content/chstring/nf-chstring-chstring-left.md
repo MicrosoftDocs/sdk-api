@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.Left
-title: CHString::Left
+title: CHString::Left (chstring.h)
 author: windows-sdk-content
 description: Extracts the first nCount characters from a CHString string and returns a copy of the extracted substring.
 old-location: wmi\chstring_left.htm

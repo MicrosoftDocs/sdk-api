@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CommitEnlistment
-title: CommitEnlistment function
+title: CommitEnlistment function (ktmw32.h)
 author: windows-sdk-content
 description: Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 old-location: fs\commitenlistment.htm

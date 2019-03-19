@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandlerVisuals
-title: IPreviewHandlerVisuals
+title: IPreviewHandlerVisuals (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods for applying color and font information to preview handlers.
 old-location: shell\IPreviewHandlerVisuals.htm

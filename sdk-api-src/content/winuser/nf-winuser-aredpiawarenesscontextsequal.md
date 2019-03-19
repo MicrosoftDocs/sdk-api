@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AreDpiAwarenessContextsEqual
-title: AreDpiAwarenessContextsEqual function
+title: AreDpiAwarenessContextsEqual function (winuser.h)
 author: windows-sdk-content
 description: Determines whether two DPI_AWARENESS_CONTEXT values are identical.
 old-location: hidpi\aredpiawarenesscontextsequal.htm

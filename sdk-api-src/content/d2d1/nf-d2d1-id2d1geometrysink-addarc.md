@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddArc
-title: ID2D1GeometrySink::AddArc
+title: ID2D1GeometrySink::AddArc (d2d1.h)
 author: windows-sdk-content
 description: Creates a single arc and adds it to the path geometry.
 old-location: direct2d\id2d1geometrysink_addarc.htm

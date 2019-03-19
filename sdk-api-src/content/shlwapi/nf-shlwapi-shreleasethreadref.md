@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHReleaseThreadRef
-title: SHReleaseThreadRef function
+title: SHReleaseThreadRef function (shlwapi.h)
 author: windows-sdk-content
 description: Releases a thread reference before the thread procedure returns.
 old-location: shell\SHReleaseThreadRef.htm

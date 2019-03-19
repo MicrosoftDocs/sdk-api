@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ICommDlgBrowser2
-title: ICommDlgBrowser2
+title: ICommDlgBrowser2 (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the capabilities of ICommDlgBrowser. This interface is exposed by the common file dialog boxes when they host a Shell browser. A pointer to ICommDlgBrowser2 can be obtained by calling QueryInterface on the IShellBrowser object.
 old-location: shell\ICommDlgBrowser2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_CanModify
-title: IFaxPort::get_CanModify
+title: IFaxPort::get_CanModify (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::get_CanModify property is a Boolean value that indicates whether the user has permission to modify configuration information for the fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_canmodify_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateScaleTransform3D
-title: IDCompositionDevice2::CreateScaleTransform3D
+title: IDCompositionDevice2::CreateScaleTransform3D (dcomp.h)
 author: windows-sdk-content
 description: Creates a 3D scale transform object.
 old-location: directcomp\idcompositiondevice2_createscaletransform3d.htm

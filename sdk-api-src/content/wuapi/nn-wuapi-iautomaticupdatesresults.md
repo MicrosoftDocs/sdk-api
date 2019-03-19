@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IAutomaticUpdatesResults
-title: IAutomaticUpdatesResults
+title: IAutomaticUpdatesResults (wuapi.h)
 author: windows-sdk-content
 description: Contains the read-only properties that describe Automatic Updates.
 old-location: wua\iautomaticupdatesresults.htm

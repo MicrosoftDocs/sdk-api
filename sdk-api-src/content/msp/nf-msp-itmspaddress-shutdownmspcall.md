@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITMSPAddress.ShutdownMSPCall
-title: ITMSPAddress::ShutdownMSPCall
+title: ITMSPAddress::ShutdownMSPCall (msp.h)
 author: windows-sdk-content
 description: The ShutdownMSPCall method is called when the call object is being destroyed.
 old-location: tapi3\itmspaddress_shutdownmspcall.htm

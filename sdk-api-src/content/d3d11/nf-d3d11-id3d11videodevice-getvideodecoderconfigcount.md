@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetVideoDecoderConfigCount
-title: ID3D11VideoDevice::GetVideoDecoderConfigCount
+title: ID3D11VideoDevice::GetVideoDecoderConfigCount (d3d11.h)
 author: windows-sdk-content
 description: Gets the number of decoder configurations that the driver supports for a specified video description.
 old-location: mf\id3d11videodevice_getvideodecoderconfigcount.htm

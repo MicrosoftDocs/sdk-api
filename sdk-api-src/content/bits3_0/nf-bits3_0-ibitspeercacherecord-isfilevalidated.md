@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.IsFileValidated
-title: IBitsPeerCacheRecord::IsFileValidated
+title: IBitsPeerCacheRecord::IsFileValidated (bits3_0.h)
 author: windows-sdk-content
 description: Determines whether the file has been validated.
 old-location: bits\ibitspeercacherecord_isfilevalidated.htm

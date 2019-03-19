@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._DEVHTINFO
-title: DEVHTINFO
+title: DEVHTINFO (winddi.h)
 author: windows-sdk-content
 description: The DEVHTINFO structure is used as input to the HTUI_DeviceColorAdjustment function.
 old-location: display\devhtinfo.htm

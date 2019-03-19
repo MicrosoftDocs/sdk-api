@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.SelectionHitResult
-title: SelectionHitResult
+title: SelectionHitResult (msinkaut.h)
 author: windows-sdk-content
 description: Specifies which part of a selection, if any, was hit during a hit test.
 old-location: tablet\selectionhitresult.htm

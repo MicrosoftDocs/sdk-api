@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI4FromCy
-title: VarUI4FromCy function
+title: VarUI4FromCy function (oleauto.h)
 author: windows-sdk-content
 description: Converts a currency value to an unsigned long value.
 old-location: automat\varui4fromcy.htm

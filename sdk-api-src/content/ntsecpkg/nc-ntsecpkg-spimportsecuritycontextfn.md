@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpImportSecurityContextFn
-title: SpImportSecurityContextFn
+title: SpImportSecurityContextFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Imports a security context from another process.
 old-location: security\spimportsecuritycontext.htm

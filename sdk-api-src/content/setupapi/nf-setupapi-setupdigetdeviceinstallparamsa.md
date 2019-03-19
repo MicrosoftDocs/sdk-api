@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstallParamsA
-title: SetupDiGetDeviceInstallParamsA function
+title: SetupDiGetDeviceInstallParamsA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDeviceInstallParams function retrieves device installation parameters for a device information set or a particular device information element.
 old-location: devinst\setupdigetdeviceinstallparams.htm

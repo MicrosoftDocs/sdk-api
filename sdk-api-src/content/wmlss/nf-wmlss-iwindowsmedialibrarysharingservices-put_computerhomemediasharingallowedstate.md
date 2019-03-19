@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_computerHomeMediaSharingAllowedState
-title: IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState
+title: IWindowsMediaLibrarySharingServices::put_computerHomeMediaSharingAllowedState (wmlss.h)
 author: windows-sdk-content
 description: The put_computerHomeMediaSharingAllowedState method specifies whether media libraries on the computer are allowed to be shared on the home network.
 old-location: wmlss\IWMLSSput_computerHomeMediaSharingAllowedState.htm

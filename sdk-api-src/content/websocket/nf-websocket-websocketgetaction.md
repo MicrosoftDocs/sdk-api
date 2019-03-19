@@ -1,6 +1,6 @@
 ---
 UID: NF:websocket.WebSocketGetAction
-title: WebSocketGetAction function
+title: WebSocketGetAction function (websocket.h)
 author: windows-sdk-content
 description: Returns an action from a call to WebSocketSend, WebSocketReceive or WebSocketCompleteAction.
 old-location: websock\websocketgetaction.htm

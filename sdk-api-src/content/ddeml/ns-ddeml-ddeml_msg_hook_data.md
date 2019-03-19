@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagDDEML_MSG_HOOK_DATA
-title: DDEML_MSG_HOOK_DATA
+title: DDEML_MSG_HOOK_DATA (ddeml.h)
 author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) message, and provides read access to the data referenced by the message. This structure is intended to be used by a Dynamic Data Exchange Management Library (DDEML) monitoring application.
 old-location: dataxchg\ddeml_msg_hook_data_str.htm

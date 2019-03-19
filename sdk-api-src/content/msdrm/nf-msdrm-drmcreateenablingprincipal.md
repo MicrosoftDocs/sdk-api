@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateEnablingPrincipal
-title: DRMCreateEnablingPrincipal function
+title: DRMCreateEnablingPrincipal function (msdrm.h)
 author: windows-sdk-content
 description: Creates an enabling principal needed to bind to a license.
 old-location: rm\drmcreateenablingprincipal.htm

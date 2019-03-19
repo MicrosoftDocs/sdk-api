@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptGetProvParam
-title: CryptGetProvParam function
+title: CryptGetProvParam function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves parameters that govern the operations of a cryptographic service provider (CSP).
 old-location: security\cryptgetprovparam.htm

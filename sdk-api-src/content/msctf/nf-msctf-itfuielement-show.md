@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElement.Show
-title: ITfUIElement::Show
+title: ITfUIElement::Show (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElement::Show method shows the text service's UI of this UI element.
 old-location: tsf\itfuielement_show.htm

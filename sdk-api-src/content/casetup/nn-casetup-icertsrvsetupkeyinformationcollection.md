@@ -1,6 +1,6 @@
 ---
 UID: NN:casetup.ICertSrvSetupKeyInformationCollection
-title: ICertSrvSetupKeyInformationCollection
+title: ICertSrvSetupKeyInformationCollection (casetup.h)
 author: windows-sdk-content
 description: Defines functionality to populate and enumerate a collection of ICertSrvSetupKeyInformation objects.
 old-location: security\icertsrvsetupkeyinformationcollection.htm

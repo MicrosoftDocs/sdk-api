@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsDocumentPackageTarget
-title: IXpsDocumentPackageTarget
+title: IXpsDocumentPackageTarget (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: The IXpsDocumentPackageTarget interface contains the elements needed for printing XPS content in the Document Printing model.
 old-location: xps\ixpsdocumentpackagetarget.htm

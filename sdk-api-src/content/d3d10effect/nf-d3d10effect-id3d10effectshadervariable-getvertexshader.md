@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetVertexShader
-title: ID3D10EffectShaderVariable::GetVertexShader
+title: ID3D10EffectShaderVariable::GetVertexShader (d3d10effect.h)
 author: windows-sdk-content
 description: Get a vertex shader.
 old-location: direct3d10\id3d10effectshadervariable_getvertexshader.htm

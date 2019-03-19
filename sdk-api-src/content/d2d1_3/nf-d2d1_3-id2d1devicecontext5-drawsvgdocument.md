@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext5.DrawSvgDocument
-title: ID2D1DeviceContext5::DrawSvgDocument
+title: ID2D1DeviceContext5::DrawSvgDocument (d2d1_3.h)
 author: windows-sdk-content
 description: Draws an SVG document.
 old-location: direct2d\id2d1devicecontext5_drawsvgdocument.htm

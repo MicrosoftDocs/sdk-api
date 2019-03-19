@@ -1,6 +1,6 @@
 ---
 UID: NN:mdhcp.IMcastAddressAllocation
-title: IMcastAddressAllocation
+title: IMcastAddressAllocation (mdhcp.h)
 author: windows-sdk-content
 description: IMcastAddressAllocation is the main interface for multicast address allocation. An application calls the COM CoCreateInstance function on this interface to create the multicast client interface object.
 old-location: tapi3\imcastaddressallocation.htm

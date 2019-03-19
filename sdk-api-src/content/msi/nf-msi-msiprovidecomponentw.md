@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiProvideComponentW
-title: MsiProvideComponentW function
+title: MsiProvideComponentW function (msi.h)
 author: windows-sdk-content
 description: The MsiProvideComponent function returns the full component path, performing any necessary installation. This function prompts for source if necessary and increments the usage count for the feature.
 old-location: setup\msiprovidecomponent.htm

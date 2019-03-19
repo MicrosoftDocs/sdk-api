@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._JOBOBJECT_END_OF_JOB_TIME_INFORMATION
-title: JOBOBJECT_END_OF_JOB_TIME_INFORMATION
+title: JOBOBJECT_END_OF_JOB_TIME_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Specifies the action the system will perform when an end-of-job time limit is exceeded.
 old-location: base\jobobject_end_of_job_time_information_str.htm

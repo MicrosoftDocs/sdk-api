@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.InstalledFontCollection.InstalledFontCollection(const InstalledFontCollection &)
-title: InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &)
+title: InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates an InstalledFontCollection::InstalledFontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_.htm

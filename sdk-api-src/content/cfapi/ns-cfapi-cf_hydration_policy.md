@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_HYDRATION_POLICY
-title: CF_HYDRATION_POLICY
+title: CF_HYDRATION_POLICY (cfapi.h)
 author: windows-sdk-content
 description: Specifies the primary hydration policy and its modifier.
 old-location: cloudapi\cf_hydration_policy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1008
-title: USER_INFO_1008
+title: USER_INFO_1008 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1008 structure contains a set of bit flags defining several user network account parameters. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1008_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.GetMouseWheelParameterInteractionContext
-title: GetMouseWheelParameterInteractionContext function
+title: GetMouseWheelParameterInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Gets the mouse wheel state for the Interaction Context object.
 old-location: input_intcontext\getmousewheelparameterinteractioncontext.htm

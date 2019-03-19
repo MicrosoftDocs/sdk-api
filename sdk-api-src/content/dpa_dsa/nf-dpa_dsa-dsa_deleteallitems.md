@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_DeleteAllItems
-title: DSA_DeleteAllItems function
+title: DSA_DeleteAllItems function (dpa_dsa.h)
 author: windows-sdk-content
 description: Deletes all items from a dynamic structure array (DSA).
 old-location: controls\DSA_DeleteAllItems.htm

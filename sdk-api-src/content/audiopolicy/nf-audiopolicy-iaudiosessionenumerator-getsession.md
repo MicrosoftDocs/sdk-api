@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEnumerator.GetSession
-title: IAudioSessionEnumerator::GetSession
+title: IAudioSessionEnumerator::GetSession (audiopolicy.h)
 author: windows-sdk-content
 description: The GetSession method gets the audio session specified by an audio session number.
 old-location: coreaudio\iaudiosessionenumerator_getsession.htm

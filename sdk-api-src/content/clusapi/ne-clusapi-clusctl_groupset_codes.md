@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSCTL_GROUPSET_CODES
-title: CLUSCTL_GROUPSET_CODES
+title: CLUSCTL_GROUPSET_CODES (clusapi.h)
 author: windows-sdk-content
 description: Enumerates groupset control codes used by the ClusterGroupSetControl function.
 old-location: mscs\clusctl_collection_codes.htm

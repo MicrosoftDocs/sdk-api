@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLSetAuthenticationData
-title: SLSetAuthenticationData function
+title: SLSetAuthenticationData function (slpublic.h)
 author: windows-sdk-content
 description: Sets authentication data.
 old-location: security\slsetauthenticationdata.htm

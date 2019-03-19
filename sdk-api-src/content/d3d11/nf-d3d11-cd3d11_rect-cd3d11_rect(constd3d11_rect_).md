@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_RECT.CD3D11_RECT(const D3D11_RECT &)
-title: CD3D11_RECT::CD3D11_RECT(const D3D11_RECT &)
+title: CD3D11_RECT::CD3D11_RECT(const D3D11_RECT &) (d3d11.h)
 author: windows-sdk-content
 description: Instantiates a new instance of an uninitialized CD3D11_RECT structure.
 old-location: direct3d11\cd3d11_rect_cd3d11_rect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorRECT
-title: IDesktopWallpaper::GetMonitorRECT
+title: IDesktopWallpaper::GetMonitorRECT (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the display rectangle of the specified monitor.
 old-location: shell\IDesktopWallpaper_GetMonitorRECT.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSecuritySetting
-title: IDot11AdHocNetwork::GetSecuritySetting
+title: IDot11AdHocNetwork::GetSecuritySetting (adhoc.h)
 author: windows-sdk-content
 description: Gets the security settings for the network.
 old-location: nwifi\idot11adhocnetwork_getsecuritysetting.htm

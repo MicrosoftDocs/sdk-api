@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetStream
-title: IWICStreamProvider::GetStream
+title: IWICStreamProvider::GetStream (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the stream held by the component.
 old-location: wic\_wic_codec_iwicstreamprovider_getstream.htm

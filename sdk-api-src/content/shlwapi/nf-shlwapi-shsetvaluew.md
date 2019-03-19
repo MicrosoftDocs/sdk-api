@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHSetValueW
-title: SHSetValueW function
+title: SHSetValueW function (shlwapi.h)
 author: windows-sdk-content
 description: Sets the value of a registry key.
 old-location: shell\SHSetValue.htm

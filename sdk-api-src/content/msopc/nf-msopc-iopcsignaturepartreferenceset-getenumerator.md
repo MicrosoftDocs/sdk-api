@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.GetEnumerator
-title: IOpcSignaturePartReferenceSet::GetEnumerator
+title: IOpcSignaturePartReferenceSet::GetEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of IOpcSignaturePartReference interface pointers in the set.
 old-location: opc\iopcsignaturepartreferenceset_getenumerator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetErrorRetryCount
-title: IScheduledWorkItem::SetErrorRetryCount
+title: IScheduledWorkItem::SetErrorRetryCount (mstask.h)
 author: windows-sdk-content
 description: Sets the number of times Task Scheduler will try to run the work item again if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretrycount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsOpenVDisk
-title: IVdsOpenVDisk
+title: IVdsOpenVDisk (vds.h)
 author: windows-sdk-content
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsopenvdisk.htm

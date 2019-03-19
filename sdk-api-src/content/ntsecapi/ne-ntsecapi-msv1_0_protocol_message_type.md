@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._MSV1_0_PROTOCOL_MESSAGE_TYPE
-title: MSV1_0_PROTOCOL_MESSAGE_TYPE
+title: MSV1_0_PROTOCOL_MESSAGE_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Lists the types of messages that can be sent to the MSV1_0 Authentication Package by calling the LsaCallAuthenticationPackage function.
 old-location: security\msv1_0_protocol_message_type.htm

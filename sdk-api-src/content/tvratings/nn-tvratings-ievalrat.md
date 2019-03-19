@@ -1,6 +1,6 @@
 ---
 UID: NN:tvratings.IEvalRat
-title: IEvalRat
+title: IEvalRat (tvratings.h)
 author: windows-sdk-content
 description: The IEvalRat interface is used to evaluate content ratings carried by a broadcast stream.
 old-location: mstv\ievalrat.htm

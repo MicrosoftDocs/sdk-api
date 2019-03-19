@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriter
-title: IMFSinkWriter
+title: IMFSinkWriter (mfreadwrite.h)
 author: windows-sdk-content
 description: Implemented by the Microsoft Media Foundation sink writer object.
 old-location: mf\imfsinkwriter.htm

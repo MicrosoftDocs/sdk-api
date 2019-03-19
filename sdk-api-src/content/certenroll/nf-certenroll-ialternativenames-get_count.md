@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get_Count
-title: IAlternativeNames::get_Count
+title: IAlternativeNames::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\ialternativenames_count_property.htm

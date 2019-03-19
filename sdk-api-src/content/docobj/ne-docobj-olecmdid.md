@@ -1,6 +1,6 @@
 ---
 UID: NE:docobj.OLECMDID
-title: OLECMDID
+title: OLECMDID (docobj.h)
 author: windows-sdk-content
 description: Specifies which standard command is to be executed. A single value from this enumeration is passed in the nCmdID argument of IOleCommandTarget::Exec.
 old-location: com\olecmdid.htm

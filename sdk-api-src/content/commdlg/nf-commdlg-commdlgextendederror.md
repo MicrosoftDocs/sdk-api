@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.CommDlgExtendedError
-title: CommDlgExtendedError function
+title: CommDlgExtendedError function (commdlg.h)
 author: windows-sdk-content
 description: Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
 old-location: dlgbox\commdlgextendederror.htm

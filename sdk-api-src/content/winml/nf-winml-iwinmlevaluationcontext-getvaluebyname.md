@@ -1,6 +1,6 @@
 ---
 UID: NF:winml.IWinMLEvaluationContext.GetValueByName
-title: IWinMLEvaluationContext::GetValueByName
+title: IWinMLEvaluationContext::GetValueByName (winml.h)
 author: windows-sdk-content
 description: Returns the input/output description for the specific binding name.
 old-location: machinelearning\iwinmlevaluationcontext_getvaluebyname.htm

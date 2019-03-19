@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId
-title: IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId
+title: IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a conditional access unit identifier from a specified component group record in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid.htm

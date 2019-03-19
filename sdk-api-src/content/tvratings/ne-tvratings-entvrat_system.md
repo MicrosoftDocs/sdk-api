@@ -1,6 +1,6 @@
 ---
 UID: NE:tvratings.EnTvRat_System
-title: EnTvRat_System
+title: EnTvRat_System (tvratings.h)
 author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_system.htm

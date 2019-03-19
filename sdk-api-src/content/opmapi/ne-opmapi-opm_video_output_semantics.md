@@ -1,6 +1,6 @@
 ---
 UID: NE:opmapi._OPM_VIDEO_OUTPUT_SEMANTICS
-title: OPM_VIDEO_OUTPUT_SEMANTICS
+title: OPM_VIDEO_OUTPUT_SEMANTICS (opmapi.h)
 author: windows-sdk-content
 description: Specifies whether the IOPMVideoOutput interface will use Output Protection Manager (OPM) semantics or Certified Output Protection Protocol (COPP) semantics.
 old-location: mf\opm_video_output_semantics.htm

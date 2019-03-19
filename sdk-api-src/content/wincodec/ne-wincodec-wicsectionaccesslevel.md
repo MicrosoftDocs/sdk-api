@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICSectionAccessLevel
-title: WICSectionAccessLevel
+title: WICSectionAccessLevel (wincodec.h)
 author: windows-sdk-content
 description: Specifies the access level of a Windows Graphics Device Interface (GDI) section.
 old-location: wic\_wic_codec_wicsectionaccesslevel.htm

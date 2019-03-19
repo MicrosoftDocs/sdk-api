@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectRenderTargetViewVariable
-title: ID3D10EffectRenderTargetViewVariable
+title: ID3D10EffectRenderTargetViewVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A render-target-view interface accesses a render target.
 old-location: direct3d10\id3d10effectrendertargetviewvariable.htm

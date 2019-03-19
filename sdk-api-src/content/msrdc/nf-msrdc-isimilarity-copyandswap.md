@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarity.CopyAndSwap
-title: ISimilarity::CopyAndSwap
+title: ISimilarity::CopyAndSwap (msrdc.h)
 author: windows-sdk-content
 description: Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.
 old-location: rdc\isimilarity_copyandswap.htm

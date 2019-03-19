@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkGesture.GetHotPoint
-title: IInkGesture::GetHotPoint
+title: IInkGesture::GetHotPoint (msinkaut.h)
 author: windows-sdk-content
 description: Gets the hot point of the gesture, in ink space coordinates.
 old-location: tablet\iinkgesture_gethotpoint.htm

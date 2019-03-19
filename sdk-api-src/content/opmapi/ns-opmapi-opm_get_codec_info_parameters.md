@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_GET_CODEC_INFO_PARAMETERS
-title: OPM_GET_CODEC_INFO_PARAMETERS
+title: OPM_GET_CODEC_INFO_PARAMETERS (opmapi.h)
 author: windows-sdk-content
 description: Contains information for the OPM_GET_CODEC_INFO command.
 old-location: mf\opm_get_codec_info_parameters.htm

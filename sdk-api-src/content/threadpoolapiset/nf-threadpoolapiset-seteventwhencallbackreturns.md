@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.SetEventWhenCallbackReturns
-title: SetEventWhenCallbackReturns function
+title: SetEventWhenCallbackReturns function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Specifies the event that the thread pool will set when the current callback completes.
 old-location: base\seteventwhencallbackreturns.htm

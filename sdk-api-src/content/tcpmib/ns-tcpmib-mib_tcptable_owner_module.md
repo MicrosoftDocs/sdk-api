@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpmib._MIB_TCPTABLE_OWNER_MODULE
-title: MIB_TCPTABLE_OWNER_MODULE
+title: MIB_TCPTABLE_OWNER_MODULE (tcpmib.h)
 author: windows-sdk-content
 description: Contains a table of process IDs (PIDs) and the IPv4 TCP links context bound to the PIDs, and any available ownership data.
 old-location: mib\mib_tcptable_owner_module.htm

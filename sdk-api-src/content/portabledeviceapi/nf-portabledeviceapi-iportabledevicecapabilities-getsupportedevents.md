@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedEvents
-title: IPortableDeviceCapabilities::GetSupportedEvents
+title: IPortableDeviceCapabilities::GetSupportedEvents (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetSupportedEvents method retrieves the supported events for this device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedevents.htm

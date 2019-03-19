@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindResourceExA
-title: FindResourceExA function
+title: FindResourceExA function (winbase.h)
 author: windows-sdk-content
 description: Determines the location of the resource with the specified type, name, and language in the specified module.
 old-location: menurc\findresourceex.htm

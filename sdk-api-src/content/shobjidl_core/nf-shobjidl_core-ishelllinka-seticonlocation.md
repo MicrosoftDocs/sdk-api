@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetIconLocation
-title: IShellLinkA::SetIconLocation
+title: IShellLinkA::SetIconLocation (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the location (path and index) of the icon for a Shell link object.
 old-location: shell\IShellLink_SetIconLocation.htm

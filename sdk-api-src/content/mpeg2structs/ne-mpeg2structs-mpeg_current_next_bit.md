@@ -1,6 +1,6 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0004
-title: MPEG_CURRENT_NEXT_BIT
+title: MPEG_CURRENT_NEXT_BIT (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_CURRENT_NEXT_BIT enumeration type specifies the value of the current_next_indicator bit.
 old-location: mstv\mpeg_current_next_bit.htm

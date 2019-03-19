@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_ReleaseNotes
-title: IUpdate::get_ReleaseNotes
+title: IUpdate::get_ReleaseNotes (wuapi.h)
 author: windows-sdk-content
 description: Gets the localized release notes for the update.
 old-location: wua\iupdate_releasenotes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:identitystore.IIdentityStore.EnumerateIdentities
-title: IIdentityStore::EnumerateIdentities
+title: IIdentityStore::EnumerateIdentities (identitystore.h)
 author: windows-sdk-content
 description: Gets a pointer to an IEnumUnknown interface pointer that can be used to enumerate identities across identity providers.
 old-location: security\iidentitystore_enumerateidentities.htm

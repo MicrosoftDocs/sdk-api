@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CHANNEL_PROPERTY_CONSTRAINT
-title: WS_CHANNEL_PROPERTY_CONSTRAINT
+title: WS_CHANNEL_PROPERTY_CONSTRAINT (webservices.h)
 author: windows-sdk-content
 description: Specifies constraints for a particular channel property.
 old-location: wsw\ws_channel_property_constraint.htm

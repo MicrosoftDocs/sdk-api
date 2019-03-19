@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.SaveDefaultSender
-title: IFaxSender::SaveDefaultSender
+title: IFaxSender::SaveDefaultSender (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSender::SaveDefaultSender method stores information about the default sender from the FaxSender object.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_savedefaultsender_cpp.htm

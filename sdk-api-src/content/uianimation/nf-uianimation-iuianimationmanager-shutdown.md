@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.Shutdown
-title: IUIAnimationManager::Shutdown
+title: IUIAnimationManager::Shutdown (uianimation.h)
 author: windows-sdk-content
 description: Shuts down the animation manager and all its associated objects.
 old-location: uianimation\iuianimationmanager_shutdown.htm

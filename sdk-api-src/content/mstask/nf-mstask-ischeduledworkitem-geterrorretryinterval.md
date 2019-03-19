@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetErrorRetryInterval
-title: IScheduledWorkItem::GetErrorRetryInterval
+title: IScheduledWorkItem::GetErrorRetryInterval (mstask.h)
 author: windows-sdk-content
 description: Retrieves the time interval, in minutes, between Task Scheduler's attempts to run a work item if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_geterrorretryinterval.htm

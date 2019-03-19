@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.FreeLibraryAndExitThread
-title: FreeLibraryAndExitThread function
+title: FreeLibraryAndExitThread function (libloaderapi.h)
 author: windows-sdk-content
 description: Decrements the reference count of a loaded dynamic-link library (DLL) by one, then calls ExitThread to terminate the calling thread.
 old-location: base\freelibraryandexitthread.htm

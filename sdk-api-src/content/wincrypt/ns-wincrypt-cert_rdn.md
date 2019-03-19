@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_RDN
-title: CERT_RDN
+title: CERT_RDN (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_RDN structure contains a relative distinguished name (RDN) consisting of an array of CERT_RDN_ATTR structures.
 old-location: security\cert_rdn.htm

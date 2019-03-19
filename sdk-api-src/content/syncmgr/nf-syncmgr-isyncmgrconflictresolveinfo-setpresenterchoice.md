@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetPresenterChoice
-title: ISyncMgrConflictResolveInfo::SetPresenterChoice
+title: ISyncMgrConflictResolveInfo::SetPresenterChoice (syncmgr.h)
 author: windows-sdk-content
 description: Sets what kind of choice was made about a sync manager conflict resolution and whether to apply the choice to all subsequent conflicts in the set.
 old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterChoice.htm

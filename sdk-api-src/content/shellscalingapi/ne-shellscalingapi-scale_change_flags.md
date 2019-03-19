@@ -1,6 +1,6 @@
 ---
 UID: NE:shellscalingapi.__unnamed_enum_1
-title: SCALE_CHANGE_FLAGS
+title: SCALE_CHANGE_FLAGS (shellscalingapi.h)
 author: windows-sdk-content
 description: Flags that are used to indicate the scaling change that occured.
 old-location: shell\scale_change_flags.htm

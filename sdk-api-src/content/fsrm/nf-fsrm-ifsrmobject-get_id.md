@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmObject.get_Id
-title: IFsrmObject::get_Id
+title: IFsrmObject::get_Id (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the object.
 old-location: fsrm\ifsrmobject_id.htm

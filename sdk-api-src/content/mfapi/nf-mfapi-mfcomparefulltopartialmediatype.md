@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCompareFullToPartialMediaType
-title: MFCompareFullToPartialMediaType function
+title: MFCompareFullToPartialMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Compares a full media type to a partial media type.
 old-location: mf\mfcomparefulltopartialmediatype.htm

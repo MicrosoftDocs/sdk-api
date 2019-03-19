@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get_State
-title: IFsrmCollection::get_State
+title: IFsrmCollection::get_State (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the state of the collection.
 old-location: fsrm\ifsrmcollection_state.htm

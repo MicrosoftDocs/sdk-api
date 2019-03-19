@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.get_Scopes
-title: IMcastAddressAllocation::get_Scopes
+title: IMcastAddressAllocation::get_Scopes (mdhcp.h)
 author: windows-sdk-content
 description: The get_Scopes method creates a collection of IMcast scopes available. This method is similar to EnumerateScopes, but is used by scripting languages such as Visual Basic.
 old-location: tapi3\imcastaddressallocation_get_scopes.htm

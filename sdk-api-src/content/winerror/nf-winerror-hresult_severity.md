@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.HRESULT_SEVERITY
-title: HRESULT_SEVERITY macro
+title: HRESULT_SEVERITY macro (winerror.h)
 author: windows-sdk-content
 description: Extracts the severity field of the specified HRESULT.
 old-location: com\hresult_severity_macro.htm

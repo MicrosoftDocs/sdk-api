@@ -1,6 +1,6 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0008
-title: GPMReportingOptions
+title: GPMReportingOptions (gpmgmt.h)
 author: windows-sdk-content
 description: Options for Group Policy Management Console reports.
 old-location: gpmc\gpmreportingoptions.htm

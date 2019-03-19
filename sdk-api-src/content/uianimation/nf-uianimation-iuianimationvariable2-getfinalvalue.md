@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetFinalValue
-title: IUIAnimationVariable2::GetFinalValue
+title: IUIAnimationVariable2::GetFinalValue (uianimation.h)
 author: windows-sdk-content
 description: Gets the final value of the animation variable. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable2_getfinalvalue.htm

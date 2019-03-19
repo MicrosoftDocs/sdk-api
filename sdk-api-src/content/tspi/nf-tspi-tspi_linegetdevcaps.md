@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetDevCaps
-title: TSPI_lineGetDevCaps function
+title: TSPI_lineGetDevCaps function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetDevCaps function queries a specified line device to determine its telephony capabilities. The returned information is valid for all addresses on the line device.
 old-location: tspi\tspi_linegetdevcaps.htm

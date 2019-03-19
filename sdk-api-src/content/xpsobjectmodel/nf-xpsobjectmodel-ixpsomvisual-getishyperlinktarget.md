@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetIsHyperlinkTarget
-title: IXpsOMVisual::GetIsHyperlinkTarget
+title: IXpsOMVisual::GetIsHyperlinkTarget (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the visual is the target of a hyperlink.
 old-location: xps\ixpsomvisual_getishyperlinktarget.htm

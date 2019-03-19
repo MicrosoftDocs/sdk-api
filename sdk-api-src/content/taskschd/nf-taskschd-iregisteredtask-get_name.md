@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Name
-title: IRegisteredTask::get_Name
+title: IRegisteredTask::get_Name (taskschd.h)
 author: windows-sdk-content
 description: Gets the name of the registered task.
 old-location: taskschd\iregisteredtask_name.htm

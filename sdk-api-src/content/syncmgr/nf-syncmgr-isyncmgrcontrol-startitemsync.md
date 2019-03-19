@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartItemSync
-title: ISyncMgrControl::StartItemSync
+title: ISyncMgrControl::StartItemSync (syncmgr.h)
 author: windows-sdk-content
 description: Initiates the synchronization of specified items managed by a particular handler.
 old-location: shell\ISyncMgrControl_StartItemSync.htm

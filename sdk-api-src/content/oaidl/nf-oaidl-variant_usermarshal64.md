@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.VARIANT_UserMarshal64
-title: VARIANT_UserMarshal64 function
+title: VARIANT_UserMarshal64 function (oaidl.h)
 author: windows-sdk-content
 description: Marshals a VARIANT object into the RPC buffer.
 old-location: automat\variant_usermarshal64.htm

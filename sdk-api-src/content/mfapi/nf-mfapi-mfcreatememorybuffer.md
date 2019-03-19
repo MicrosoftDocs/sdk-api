@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMemoryBuffer
-title: MFCreateMemoryBuffer function
+title: MFCreateMemoryBuffer function (mfapi.h)
 author: windows-sdk-content
 description: Allocates system memory and creates a media buffer to manage it.
 old-location: mf\mfcreatememorybuffer.htm

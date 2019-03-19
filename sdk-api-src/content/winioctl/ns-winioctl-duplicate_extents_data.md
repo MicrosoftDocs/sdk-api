@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DUPLICATE_EXTENTS_DATA
-title: DUPLICATE_EXTENTS_DATA
+title: DUPLICATE_EXTENTS_DATA (winioctl.h)
 author: windows-sdk-content
 description: Contains parameters for the FSCTL_DUPLICATE_EXTENTS control code that performs the Block Cloning operation.
 old-location: fs\duplicate_extents_data.htm

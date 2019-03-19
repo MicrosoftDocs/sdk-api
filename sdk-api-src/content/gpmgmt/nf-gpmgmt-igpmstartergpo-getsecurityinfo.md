@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GetSecurityInfo
-title: IGPMStarterGPO::GetSecurityInfo
+title: IGPMStarterGPO::GetSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the set of permissions for the Starter GPO, such as who is granted permission to edit it.
 old-location: gpmc\igpmstartergpo_getsecurityinfo.htm

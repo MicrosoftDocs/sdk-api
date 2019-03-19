@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagACTIVATIONTYPE
-title: ACTIVATIONTYPE
+title: ACTIVATIONTYPE (objidl.h)
 author: windows-sdk-content
 description: Specifies the kind of activation for an activatable class.
 old-location: winrt\activationtype.htm

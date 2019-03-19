@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetAccessAdd
-title: NetAccessAdd function
+title: NetAccessAdd function (lmaccess.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessadd.htm

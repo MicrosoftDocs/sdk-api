@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_CONFIG_INPUT_FIELD_ARRAY
-title: EAP_CONFIG_INPUT_FIELD_ARRAY
+title: EAP_CONFIG_INPUT_FIELD_ARRAY (eaptypes.h)
 author: windows-sdk-content
 description: Contains a set of EAP_CONFIG_INPUT_FIELD_DATA structures that collectively contain the user input field data obtained from the user.
 old-location: eaphost\eap_config_input_field_array.htm

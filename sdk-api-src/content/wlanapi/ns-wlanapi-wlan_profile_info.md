@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_PROFILE_INFO
-title: WLAN_PROFILE_INFO
+title: WLAN_PROFILE_INFO (wlanapi.h)
 author: windows-sdk-content
 description: Basic information about a profile.
 old-location: nwifi\wlan_profile_info.htm

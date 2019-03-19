@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.ISystemInformation.get_OemHardwareSupportLink
-title: ISystemInformation::get_OemHardwareSupportLink
+title: ISystemInformation::get_OemHardwareSupportLink (wuapi.h)
 author: windows-sdk-content
 description: Gets a hyperlink to technical support information for OEM hardware.
 old-location: wua\isysteminformation_oemhardwaresupportlink.htm

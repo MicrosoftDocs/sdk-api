@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.__unnamed_struct_4
-title: ICSETSTATUSPROC
+title: ICSETSTATUSPROC (vfw.h)
 author: windows-sdk-content
 description: The ICSETSTATUSPROC structure contains status information used with the ICM_SET_STATUS_PROC message.
 old-location: multimedia\icsetstatusproc_struct.htm

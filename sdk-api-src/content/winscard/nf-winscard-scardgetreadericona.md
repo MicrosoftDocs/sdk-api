@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardGetReaderIconA
-title: SCardGetReaderIconA function
+title: SCardGetReaderIconA function (winscard.h)
 author: windows-sdk-content
 description: Gets an icon of the smart card reader for a given reader's name.
 old-location: security\scardgetreadericon.htm

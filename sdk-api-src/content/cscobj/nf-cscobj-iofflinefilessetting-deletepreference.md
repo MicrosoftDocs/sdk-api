@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.DeletePreference
-title: IOfflineFilesSetting::DeletePreference
+title: IOfflineFilesSetting::DeletePreference (cscobj.h)
 author: windows-sdk-content
 description: Removes a preference setting.
 old-location: of\iofflinefilessetting_deletepreference.htm

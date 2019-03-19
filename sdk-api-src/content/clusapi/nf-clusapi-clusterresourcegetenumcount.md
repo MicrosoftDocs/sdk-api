@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceGetEnumCount
-title: ClusterResourceGetEnumCount function
+title: ClusterResourceGetEnumCount function (clusapi.h)
 author: windows-sdk-content
 description: Returns the number of cluster objects associated with a resource enumeration handle.
 old-location: mscs\clusterresourcegetenumcount.htm

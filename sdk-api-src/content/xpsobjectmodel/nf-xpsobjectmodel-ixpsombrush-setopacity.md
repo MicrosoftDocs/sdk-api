@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMBrush.SetOpacity
-title: IXpsOMBrush::SetOpacity
+title: IXpsOMBrush::SetOpacity (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the opacity of the brush.
 old-location: xps\ixpsombrush_setopacity.htm

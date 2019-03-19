@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,FLOAT)
-title: ID2D1SvgElement::GetAttributeValue(PCWSTR,FLOAT)
+title: ID2D1SvgElement::GetAttributeValue(PCWSTR,FLOAT) (d2d1svg.h)
 author: windows-sdk-content
 description: Gets an attribute of this element as a float.
 old-location: direct2d\id2d1svgelement_getattributevalue_4.htm

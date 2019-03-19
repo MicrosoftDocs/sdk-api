@@ -1,6 +1,6 @@
 ---
 UID: NF:dmodshow.IDMOWrapperFilter.Init
-title: IDMOWrapperFilter::Init
+title: IDMOWrapperFilter::Init (dmodshow.h)
 author: windows-sdk-content
 description: The Init method initializes the DMO Wrapper filter with the specified DMO.
 old-location: dshow\idmowrapperfilter_init.htm

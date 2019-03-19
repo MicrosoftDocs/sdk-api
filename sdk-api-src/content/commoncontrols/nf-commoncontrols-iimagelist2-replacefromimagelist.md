@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.ReplaceFromImageList
-title: IImageList2::ReplaceFromImageList
+title: IImageList2::ReplaceFromImageList (commoncontrols.h)
 author: windows-sdk-content
 description: Replaces an image in one image list with an image from another image list.
 old-location: controls\IImageList2_ReplaceFromImageList.htm

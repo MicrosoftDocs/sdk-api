@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmError.get_ModuleKeys
-title: IMsmError::get_ModuleKeys
+title: IMsmError::get_ModuleKeys (mergemod.h)
 author: windows-sdk-content
 description: The get_ModuleKeys method retrieves the ModuleKeys property of the Error object. This method returns a pointer to a string collection that contains the primary keys of the row in the module causing the error, one key per entry in the collection.
 old-location: setup\imsmerror_get_modulekeys.htm

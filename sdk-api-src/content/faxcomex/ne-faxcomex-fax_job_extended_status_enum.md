@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_JOB_EXTENDED_STATUS_ENUM
-title: FAX_JOB_EXTENDED_STATUS_ENUM
+title: FAX_JOB_EXTENDED_STATUS_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_JOB_EXTENDED_STATUS_ENUM enumeration defines the extended status values for a fax job.
 old-location: fax\_mfax_fax_job_extended_status_enum.htm

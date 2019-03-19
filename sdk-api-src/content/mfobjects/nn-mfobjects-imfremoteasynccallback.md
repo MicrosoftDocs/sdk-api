@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFRemoteAsyncCallback
-title: IMFRemoteAsyncCallback
+title: IMFRemoteAsyncCallback (mfobjects.h)
 author: windows-sdk-content
 description: Used by the Microsoft Media Foundation proxy/stub DLL to marshal certain asynchronous method calls across process boundaries.Applications do not use or implement this interface.
 old-location: mf\imfremoteasynccallback.htm

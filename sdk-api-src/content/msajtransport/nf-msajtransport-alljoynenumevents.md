@@ -1,6 +1,6 @@
 ---
 UID: NF:msajtransport.AllJoynEnumEvents
-title: AllJoynEnumEvents function
+title: AllJoynEnumEvents function (msajtransport.h)
 author: windows-sdk-content
 description: Provides AllJoyn transport functionality similar to the TCP socket WSAEnumNetworkEvents functionality.
 old-location: alljoyn\alljoynenumevents.htm

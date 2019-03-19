@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetSummaryInformationA
-title: MsiGetSummaryInformationA function
+title: MsiGetSummaryInformationA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetSummaryInformation function obtains a handle to the _SummaryInformation stream for an installer database. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetsummaryinformation.htm

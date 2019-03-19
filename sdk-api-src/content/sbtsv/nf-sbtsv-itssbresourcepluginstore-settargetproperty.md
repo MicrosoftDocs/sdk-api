@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetProperty
-title: ITsSbResourcePluginStore::SetTargetProperty
+title: ITsSbResourcePluginStore::SetTargetProperty (sbtsv.h)
 author: windows-sdk-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetproperty.htm

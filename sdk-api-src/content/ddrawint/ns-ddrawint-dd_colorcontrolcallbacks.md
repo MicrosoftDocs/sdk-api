@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_COLORCONTROLCALLBACKS
-title: DD_COLORCONTROLCALLBACKS
+title: DD_COLORCONTROLCALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_COLORCONTROLCALLBACKS structure contains an entry pointer to the Microsoft DirectDraw color control callback that a device driver supports.
 old-location: display\dd_colorcontrolcallbacks.htm

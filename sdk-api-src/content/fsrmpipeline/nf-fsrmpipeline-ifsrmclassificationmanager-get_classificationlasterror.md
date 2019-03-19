@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationLastError
-title: IFsrmClassificationManager::get_ClassificationLastError
+title: IFsrmClassificationManager::get_ClassificationLastError (fsrmpipeline.h)
 author: windows-sdk-content
 description: The error message from the last time that classification was run.
 old-location: fsrm\ifsrmclassificationmanager_classificationlasterror.htm

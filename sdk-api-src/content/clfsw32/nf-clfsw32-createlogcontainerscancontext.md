@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.CreateLogContainerScanContext
-title: CreateLogContainerScanContext function
+title: CreateLogContainerScanContext function (clfsw32.h)
 author: windows-sdk-content
 description: Creates a scan context to use with ScanLogContainers to enumerate all log containers that are associated with a log, and performs the first scan.
 old-location: fs\createlogcontainerscancontext.htm

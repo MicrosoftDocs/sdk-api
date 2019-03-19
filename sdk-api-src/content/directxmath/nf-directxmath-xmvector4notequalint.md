@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4NotEqualInt
-title: XMVector4NotEqualInt function
+title: XMVector4NotEqualInt function (directxmath.h)
 author: windows-sdk-content
 description: Test whether two 4D vectors are not equal, treating each component as an unsigned integer.
 old-location: dxmath\xmvector4notequalint.htm

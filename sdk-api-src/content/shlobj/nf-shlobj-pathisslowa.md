@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.PathIsSlowA
-title: PathIsSlowA function
+title: PathIsSlowA function (shlobj.h)
 author: windows-sdk-content
 description: PathIsSlow may be altered or unavailable.
 old-location: shell\PathIsSlow.htm

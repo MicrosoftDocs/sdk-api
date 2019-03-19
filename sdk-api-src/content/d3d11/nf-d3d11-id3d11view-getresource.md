@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11View.GetResource
-title: ID3D11View::GetResource
+title: ID3D11View::GetResource (d3d11.h)
 author: windows-sdk-content
 description: Get the resource that is accessed through this view.
 old-location: direct3d11\id3d11view_getresource.htm

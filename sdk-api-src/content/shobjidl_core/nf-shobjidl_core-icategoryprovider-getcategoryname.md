@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetCategoryName
-title: ICategoryProvider::GetCategoryName
+title: ICategoryProvider::GetCategoryName (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the name of the specified category.
 old-location: shell\ICategoryProvider_GetCategoryName.htm

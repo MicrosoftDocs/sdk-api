@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetUseClientId
-title: IX509EnrollmentPolicyServer::GetUseClientId
+title: IX509EnrollmentPolicyServer::GetUseClientId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the ClientId attribute is set in the policy server flags of the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getuseclientid.htm

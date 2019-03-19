@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetControlState
-title: IFileDialogCustomize::GetControlState
+title: IFileDialogCustomize::GetControlState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current visibility and enabled states of a given control.
 old-location: shell\IFileDialogCustomize_GetControlState.htm

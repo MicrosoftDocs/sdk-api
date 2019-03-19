@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.Clone
-title: IInkRecognizerContext::Clone
+title: IInkRecognizerContext::Clone (msinkaut.h)
 author: windows-sdk-content
 description: Creates a duplicate InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_clone.htm

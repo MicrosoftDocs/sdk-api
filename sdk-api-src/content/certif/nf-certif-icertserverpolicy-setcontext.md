@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetContext
-title: ICertServerPolicy::SetContext
+title: ICertServerPolicy::SetContext (certif.h)
 author: windows-sdk-content
 description: Specifies the request to be used as the context for subsequent calls to Certificate Services.
 old-location: security\icertserverpolicy_setcontext.htm

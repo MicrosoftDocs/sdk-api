@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData
-title: IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
+title: IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData (videoacc.h)
 author: windows-sdk-content
 description: The GetCreateVideoAcceleratorData method gets information needed to create a video accelerator object.
 old-location: dshow\iamvideoacceleratornotify_getcreatevideoacceleratordata.htm

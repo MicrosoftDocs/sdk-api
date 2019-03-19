@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_1.DWRITE_UNICODE_RANGE
-title: DWRITE_UNICODE_RANGE
+title: DWRITE_UNICODE_RANGE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_UNICODE_RANGE structure specifies the range of Unicode code points.
 old-location: directwrite\dwrite_unicode_range.htm

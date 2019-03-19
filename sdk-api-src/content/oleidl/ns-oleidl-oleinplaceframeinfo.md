@@ -1,6 +1,6 @@
 ---
 UID: NS:oleidl.tagOIFI
-title: OLEINPLACEFRAMEINFO
+title: OLEINPLACEFRAMEINFO (oleidl.h)
 author: windows-sdk-content
 description: Contains information about the accelerators supported by a container during an in-place session. The structure is used in the IOleInPlaceSite::GetWindowContext method and the OleTranslateAccelerator function.
 old-location: com\oleinplaceframeinfo.htm

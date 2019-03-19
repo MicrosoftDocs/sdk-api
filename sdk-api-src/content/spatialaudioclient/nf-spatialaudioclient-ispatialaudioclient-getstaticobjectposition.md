@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetStaticObjectPosition
-title: ISpatialAudioClient::GetStaticObjectPosition
+title: ISpatialAudioClient::GetStaticObjectPosition (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets the position in 3D space of the specified static spatial audio channel.
 old-location: coreaudio\ispatialaudioclient_getstaticobjectposition.htm

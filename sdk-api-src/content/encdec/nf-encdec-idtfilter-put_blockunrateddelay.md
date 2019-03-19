@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockUnRatedDelay
-title: IDTFilter::put_BlockUnRatedDelay
+title: IDTFilter::put_BlockUnRatedDelay (encdec.h)
 author: windows-sdk-content
 description: The put_BlockUnRatedDelay method sets the length of time the filter waits before it blocks unrated content.
 old-location: mstv\idtfilter_put_blockunrateddelay.htm

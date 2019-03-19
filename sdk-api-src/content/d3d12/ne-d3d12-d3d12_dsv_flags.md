@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_DSV_FLAGS
-title: D3D12_DSV_FLAGS
+title: D3D12_DSV_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies depth-stencil view options.
 old-location: direct3d12\d3d12_dsv_flags.htm

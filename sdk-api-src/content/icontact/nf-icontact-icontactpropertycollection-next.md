@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.Next
-title: IContactPropertyCollection::Next
+title: IContactPropertyCollection::Next (icontact.h)
 author: windows-sdk-content
 description: Moves to the next property.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_Next.htm

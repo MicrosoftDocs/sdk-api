@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateAndInitializeInkPresenter
-title: IInkDesktopHost::CreateAndInitializeInkPresenter
+title: IInkDesktopHost::CreateAndInitializeInkPresenter (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Creates an IInkPresenterDesktop object on an application thread, connects it to the app's DirectComposition visual tree, and sets the size of the object.
 old-location: input_ink\iinkdesktophost_createandinitializeinkpresenter.htm

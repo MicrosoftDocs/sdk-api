@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqUnregisterPlatformEvents
-title: RtwqUnregisterPlatformEvents function
+title: RtwqUnregisterPlatformEvents function (rtworkq.h)
 author: windows-sdk-content
 description: Unregisters a listener event from the callback platform.
 old-location: base\rtwqunregisterplatformevents.htm

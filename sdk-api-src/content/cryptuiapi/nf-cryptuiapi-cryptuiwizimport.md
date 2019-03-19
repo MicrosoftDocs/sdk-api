@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizImport
-title: CryptUIWizImport function
+title: CryptUIWizImport function (cryptuiapi.h)
 author: windows-sdk-content
 description: Imports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a certificate store.
 old-location: security\cryptuiwizimport.htm

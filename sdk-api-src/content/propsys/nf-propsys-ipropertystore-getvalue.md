@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyStore.GetValue
-title: IPropertyStore::GetValue
+title: IPropertyStore::GetValue (propsys.h)
 author: windows-sdk-content
 description: This method retrieves the data for a specific property.
 old-location: audio\ipropertystore_getvalue.htm

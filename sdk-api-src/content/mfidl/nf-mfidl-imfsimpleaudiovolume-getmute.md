@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMute
-title: IMFSimpleAudioVolume::GetMute
+title: IMFSimpleAudioVolume::GetMute (mfidl.h)
 author: windows-sdk-content
 description: Queries whether the audio is muted.
 old-location: mf\imfsimpleaudiovolume_getmute.htm

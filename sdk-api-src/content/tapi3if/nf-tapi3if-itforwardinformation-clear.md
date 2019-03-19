@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.Clear
-title: ITForwardInformation::Clear
+title: ITForwardInformation::Clear (tapi3if.h)
 author: windows-sdk-content
 description: The Clear method clears all forwarding information in this object.
 old-location: tapi3\itforwardinformation_clear.htm

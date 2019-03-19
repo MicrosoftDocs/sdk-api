@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegFlushKey
-title: RegFlushKey function
+title: RegFlushKey function (winreg.h)
 author: windows-sdk-content
 description: Writes all the attributes of the specified open registry key into the registry.
 old-location: base\regflushkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentItemStatus
-title: IUIAutomationElement::get_CurrentItemStatus
+title: IUIAutomationElement::get_CurrentItemStatus (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the description of the status of an item in an element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentItemStatus.htm

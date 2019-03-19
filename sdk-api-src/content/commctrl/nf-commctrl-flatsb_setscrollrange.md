@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_SetScrollRange
-title: FlatSB_SetScrollRange function
+title: FlatSB_SetScrollRange function (commctrl.h)
 author: windows-sdk-content
 description: Sets the scroll range of a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard SetScrollRange function.
 old-location: controls\FlatSB_SetScrollRange.htm

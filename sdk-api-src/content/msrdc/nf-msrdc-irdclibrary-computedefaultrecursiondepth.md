@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcLibrary.ComputeDefaultRecursionDepth
-title: IRdcLibrary::ComputeDefaultRecursionDepth
+title: IRdcLibrary::ComputeDefaultRecursionDepth (msrdc.h)
 author: windows-sdk-content
 description: Computes the maximum level of recursion for the specified file size.
 old-location: rdc\irdclibrary_computedefaultrecursiondepth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPersistIDList
-title: IPersistIDList
+title: IPersistIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that are used to persist item identifier lists.
 old-location: shell\IPersistIDList.htm

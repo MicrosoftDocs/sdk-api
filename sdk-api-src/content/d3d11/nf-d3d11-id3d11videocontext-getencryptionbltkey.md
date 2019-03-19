@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.GetEncryptionBltKey
-title: ID3D11VideoContext::GetEncryptionBltKey
+title: ID3D11VideoContext::GetEncryptionBltKey (d3d11.h)
 author: windows-sdk-content
 description: Gets the cryptographic key to decrypt the data returned by the ID3D11VideoContext::EncryptionBlt method.
 old-location: mf\id3d11videocontext_getencryptionbltkey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymLoadModuleEx
-title: SymLoadModuleEx function
+title: SymLoadModuleEx function (dbghelp.h)
 author: windows-sdk-content
 description: Loads the symbol table for the specified module.
 old-location: base\symloadmoduleex.htm

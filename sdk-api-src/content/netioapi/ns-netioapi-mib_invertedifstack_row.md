@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_INVERTEDIFSTACK_ROW
-title: MIB_INVERTEDIFSTACK_ROW
+title: MIB_INVERTEDIFSTACK_ROW (netioapi.h)
 author: windows-sdk-content
 description: Represents the relationship between two network interfaces.
 old-location: mib\mib_invertedifstack_row.htm

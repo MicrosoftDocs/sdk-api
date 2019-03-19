@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ObjectContext.CreateInstance
-title: ObjectContext::CreateInstance
+title: ObjectContext::CreateInstance (comsvcs.h)
 author: windows-sdk-content
 description: Creates an object using current object's context.
 old-location: cos\objectcontext_createinstance.htm

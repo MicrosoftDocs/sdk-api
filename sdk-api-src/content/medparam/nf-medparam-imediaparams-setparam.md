@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParams.SetParam
-title: IMediaParams::SetParam
+title: IMediaParams::SetParam (medparam.h)
 author: windows-sdk-content
 description: The SetParam method sets the value of a parameter.
 old-location: dshow\imediaparams_setparam.htm

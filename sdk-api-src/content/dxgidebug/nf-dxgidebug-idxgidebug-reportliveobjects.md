@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIDebug.ReportLiveObjects
-title: IDXGIDebug::ReportLiveObjects
+title: IDXGIDebug::ReportLiveObjects (dxgidebug.h)
 author: windows-sdk-content
 description: Reports info about the lifetime of an object or objects.
 old-location: direct3ddxgi\idxgidebug_reportliveobjects.htm

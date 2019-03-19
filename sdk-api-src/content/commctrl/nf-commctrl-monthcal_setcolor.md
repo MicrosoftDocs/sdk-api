@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_SetColor
-title: MonthCal_SetColor macro
+title: MonthCal_SetColor macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the color for a given portion of a month calendar control. You can use this macro or send the MCM_SETCOLOR message explicitly.
 old-location: controls\MonthCal_SetColor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumConnections
-title: IKsTopologyInfo::get_NumConnections
+title: IKsTopologyInfo::get_NumConnections (vidcap.h)
 author: windows-sdk-content
 description: The get_NumConnections method returns the number of node connections within the filter.
 old-location: dshow\ikstopologyinfo_get_numconnections.htm

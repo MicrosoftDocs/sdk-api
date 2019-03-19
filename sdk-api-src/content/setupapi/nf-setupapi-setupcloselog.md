@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupCloseLog
-title: SetupCloseLog function
+title: SetupCloseLog function (setupapi.h)
 author: windows-sdk-content
 description: The SetupCloseLog function closes the log files.
 old-location: setup\setupcloselog.htm

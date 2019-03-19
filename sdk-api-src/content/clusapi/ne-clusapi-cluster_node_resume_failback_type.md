@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_RESUME_FAILBACK_TYPE
-title: CLUSTER_NODE_RESUME_FAILBACK_TYPE
+title: CLUSTER_NODE_RESUME_FAILBACK_TYPE (clusapi.h)
 author: windows-sdk-content
 description: Specifies the failback type to use when a cluster node in a paused state is resumed by the ResumeClusterNodeEx function.
 old-location: mscs\cluster_node_resume_failback_type.htm

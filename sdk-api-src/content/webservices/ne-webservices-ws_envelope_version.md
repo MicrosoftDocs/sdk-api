@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_45
-title: WS_ENVELOPE_VERSION
+title: WS_ENVELOPE_VERSION (webservices.h)
 author: windows-sdk-content
 description: The version of the specification used for the envelope structure.
 old-location: wsw\ws_envelope_version.htm

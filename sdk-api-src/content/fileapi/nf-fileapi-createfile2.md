@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.CreateFile2
-title: CreateFile2 function
+title: CreateFile2 function (fileapi.h)
 author: windows-sdk-content
 description: Creates or opens a file or I/O device.
 old-location: fs\createfile2.htm

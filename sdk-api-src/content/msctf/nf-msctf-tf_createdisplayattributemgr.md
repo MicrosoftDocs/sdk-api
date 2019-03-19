@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.TF_CreateDisplayAttributeMgr
-title: TF_CreateDisplayAttributeMgr function
+title: TF_CreateDisplayAttributeMgr function (msctf.h)
 author: windows-sdk-content
 description: The TF_CreateDisplayAttributeMgr function is used to create a display attribute manager object without having to initialize COM.
 old-location: tsf\tf_createdisplayattributemgr.htm

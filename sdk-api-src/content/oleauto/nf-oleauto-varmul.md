@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarMul
-title: VarMul function
+title: VarMul function (oleauto.h)
 author: windows-sdk-content
 description: Returns the result from multiplying two variants.
 old-location: automat\varmul.htm

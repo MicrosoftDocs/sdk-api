@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_SEEK_PENALTY_DESCRIPTOR
-title: DEVICE_SEEK_PENALTY_DESCRIPTOR
+title: DEVICE_SEEK_PENALTY_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the seek penalty descriptor data for a device.
 old-location: fs\device_seek_penalty_descriptor.htm

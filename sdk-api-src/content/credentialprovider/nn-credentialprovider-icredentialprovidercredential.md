@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderCredential
-title: ICredentialProviderCredential
+title: ICredentialProviderCredential (credentialprovider.h)
 author: windows-sdk-content
 description: Exposes methods that enable the handling of a credential.
 old-location: shell\ICredentialProviderCredential.htm

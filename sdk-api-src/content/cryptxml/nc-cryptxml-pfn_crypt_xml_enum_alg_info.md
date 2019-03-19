@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_ENUM_ALG_INFO
-title: PFN_CRYPT_XML_ENUM_ALG_INFO
+title: PFN_CRYPT_XML_ENUM_ALG_INFO (cryptxml.h)
 author: windows-sdk-content
 description: Enumerates predefined and registered CRYPT_XML_ALGORITHM_INFO entries.
 old-location: security\pfn_crypt_xml_enum_alg_info.htm

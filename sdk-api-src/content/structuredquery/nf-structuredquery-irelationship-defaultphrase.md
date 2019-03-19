@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IRelationship.DefaultPhrase
-title: IRelationship::DefaultPhrase
+title: IRelationship::DefaultPhrase (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves the default phrase to use for this relationship in restatements.
 old-location: search\_search_IRelationship_DefaultPhrase.htm

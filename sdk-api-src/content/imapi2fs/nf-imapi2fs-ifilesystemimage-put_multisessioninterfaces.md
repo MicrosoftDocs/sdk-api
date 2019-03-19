@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_MultisessionInterfaces
-title: IFileSystemImage::put_MultisessionInterfaces
+title: IFileSystemImage::put_MultisessionInterfaces (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the list of multi-session interfaces for the optical media.
 old-location: imapi\ifilesystemimage_put_multisessioninterfaces.htm

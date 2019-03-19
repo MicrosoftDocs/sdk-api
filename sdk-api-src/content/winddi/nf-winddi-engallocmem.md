@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngAllocMem
-title: EngAllocMem macro
+title: EngAllocMem macro (winddi.h)
 author: windows-sdk-content
 description: The EngAllocMem function allocates a block of memory and inserts a caller-supplied tag before the allocation.
 old-location: display\engallocmem.htm

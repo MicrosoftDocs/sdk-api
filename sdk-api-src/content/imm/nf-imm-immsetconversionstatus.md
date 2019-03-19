@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmSetConversionStatus
-title: ImmSetConversionStatus function
+title: ImmSetConversionStatus function (imm.h)
 author: windows-sdk-content
 description: Sets the current conversion status.
 old-location: intl\immsetconversionstatus.htm

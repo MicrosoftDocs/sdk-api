@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Content
-title: IPortableDeviceService::Content
+title: IPortableDeviceService::Content (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves access to the service content.
 old-location: wpdsdk\iportabledeviceservice_content.htm

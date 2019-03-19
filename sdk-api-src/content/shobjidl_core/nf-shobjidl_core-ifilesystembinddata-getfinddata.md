@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData.GetFindData
-title: IFileSystemBindData::GetFindData
+title: IFileSystemBindData::GetFindData (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the file system information stored in the WIN32_FIND_DATA structure.
 old-location: shell\IFileSystemBindData_GetFindData.htm

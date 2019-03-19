@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IEnumComponents.Reset
-title: IEnumComponents::Reset
+title: IEnumComponents::Reset (tuner.h)
 author: windows-sdk-content
 description: The Reset method resets the enumerator to the beginning of the collection.
 old-location: mstv\ienumcomponents_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0004
-title: BITS_FILE_PROPERTY_ID
+title: BITS_FILE_PROPERTY_ID (bits5_0.h)
 author: windows-sdk-content
 description: Defines constants that specify ID values corresponding to background copy file properties.
 old-location: bits\bits_file_property_id.htm

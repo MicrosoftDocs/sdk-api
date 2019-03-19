@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_maxBandwidth
-title: IWMPNetwork::get_maxBandwidth
+title: IWMPNetwork::get_maxBandwidth (wmp.h)
 author: windows-sdk-content
 description: The get_maxBandwidth method retrieves the maximum allowed bandwidth.
 old-location: wmp\iwmpnetwork_get_maxbandwidth.htm

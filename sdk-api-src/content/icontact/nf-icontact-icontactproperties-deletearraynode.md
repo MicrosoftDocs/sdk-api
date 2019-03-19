@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteArrayNode
-title: IContactProperties::DeleteArrayNode
+title: IContactProperties::DeleteArrayNode (icontact.h)
 author: windows-sdk-content
 description: Deletes the data at a specified array entry.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteArrayNode.htm

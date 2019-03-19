@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySessionOfServiceStart
-title: IWRdsProtocolManager::NotifySessionOfServiceStart
+title: IWRdsProtocolManager::NotifySessionOfServiceStart (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol provider that the Remote Desktop Services service has started for a given session.
 old-location: termserv\iwrdsprotocolmanager_notifysessionofservicestart.htm

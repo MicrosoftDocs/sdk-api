@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRMixerBitmap
-title: IVMRMixerBitmap
+title: IVMRMixerBitmap (strmif.h)
 author: windows-sdk-content
 description: The IVMRMixerBitmap interface enables an application to blend a static image from a bitmap or DirectDraw surface onto the video stream, when using the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrmixerbitmap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetGraphicsPath
-title: PathGradientBrush::SetGraphicsPath
+title: PathGradientBrush::SetGraphicsPath (gdipluspath.h)
 author: windows-sdk-content
 description: The PathGradientBrush::SetGraphicsPath method is not implemented in Windows GDI+ version 1.0.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetGraphicsPath_path_.htm

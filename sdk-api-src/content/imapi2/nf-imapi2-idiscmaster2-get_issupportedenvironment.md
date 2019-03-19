@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_IsSupportedEnvironment
-title: IDiscMaster2::get_IsSupportedEnvironment
+title: IDiscMaster2::get_IsSupportedEnvironment (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a value that determines if the environment contains one or more optical devices and the execution context has permission to access the devices.
 old-location: imapi\idiscmaster2_get_issupportedenvironment.htm

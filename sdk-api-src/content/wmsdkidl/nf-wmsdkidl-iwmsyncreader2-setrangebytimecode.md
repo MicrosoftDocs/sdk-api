@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetRangeByTimecode
-title: IWMSyncReader2::SetRangeByTimecode
+title: IWMSyncReader2::SetRangeByTimecode (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetRangeByTimecode method sets a starting and ending time, based on SMPTE time codes, for playback of a file.
 old-location: wmformat\iwmsyncreader2_setrangebytimecode.htm

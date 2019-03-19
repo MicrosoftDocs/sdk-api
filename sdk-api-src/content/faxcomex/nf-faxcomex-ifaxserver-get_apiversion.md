@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_APIVersion
-title: IFaxServer::get_APIVersion
+title: IFaxServer::get_APIVersion (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_APIVersion property is a value that indicates the version of the fax server API.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_apiversion_cpp.htm

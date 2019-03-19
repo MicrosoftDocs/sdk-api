@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagNCCALCSIZE_PARAMS
-title: NCCALCSIZE_PARAMS
+title: NCCALCSIZE_PARAMS (winuser.h)
 author: windows-sdk-content
 description: Contains information that an application can use while processing the WM_NCCALCSIZE message to calculate the size, position, and valid contents of the client area of a window.
 old-location: winmsg\nccalcsize_params.htm

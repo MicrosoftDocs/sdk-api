@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetTabOrder
-title: ITaskbarList3::SetTabOrder
+title: ITaskbarList3::SetTabOrder (shobjidl_core.h)
 author: windows-sdk-content
 description: Inserts a new thumbnail into a tabbed-document interface (TDI) or multiple-document interface (MDI) application's group flyout or moves an existing thumbnail to a new position in the application's group.
 old-location: shell\ITaskbarList3_SetTabOrder.htm

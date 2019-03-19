@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.get_Count
-title: ICrmMonitorClerks::get_Count
+title: ICrmMonitorClerks::get_Count (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the count of CRM clerks in the collection.
 old-location: cos\icrmmonitorclerks_get_count.htm

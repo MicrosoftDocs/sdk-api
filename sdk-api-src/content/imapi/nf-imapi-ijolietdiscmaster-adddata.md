@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.AddData
-title: IJolietDiscMaster::AddData
+title: IJolietDiscMaster::AddData (imapi.h)
 author: windows-sdk-content
 description: Adds the contents of a root storage to the staged image file. This storage will be enumerated to place all substorages and streams in the root file system of the stage image file. Substorages become folders and streams become files.
 old-location: imapi\ijolietdiscmaster_adddata.htm

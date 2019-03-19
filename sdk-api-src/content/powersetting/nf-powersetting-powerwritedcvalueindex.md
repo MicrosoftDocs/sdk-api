@@ -1,6 +1,6 @@
 ---
 UID: NF:powersetting.PowerWriteDCValueIndex
-title: PowerWriteDCValueIndex function
+title: PowerWriteDCValueIndex function (powersetting.h)
 author: windows-sdk-content
 description: Sets the DC index of the specified power setting.
 old-location: base\powerwritedcvalueindex.htm

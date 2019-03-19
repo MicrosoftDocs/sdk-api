@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorManagerEvents.OnSensorEnter
-title: ISensorManagerEvents::OnSensorEnter
+title: ISensorManagerEvents::OnSensorEnter (sensorsapi.h)
 author: windows-sdk-content
 description: Provides notification when a sensor device is connected.
 old-location: winsensors_com_ref\isensormanagerevents_onsensorenter.htm

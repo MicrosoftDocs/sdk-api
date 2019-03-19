@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_NETWORK_PROPERTY_CHANGE
-title: NLM_NETWORK_PROPERTY_CHANGE
+title: NLM_NETWORK_PROPERTY_CHANGE (netlistmgr.h)
 author: windows-sdk-content
 description: The NLM_NETWORK_PROPERTY_CHANGE enumeration is a set of flags that define changes made to the properties of a network.
 old-location: nla\nlm_network_property_change.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IPublishingWizard.GetTransferManifest
-title: IPublishingWizard::GetTransferManifest
+title: IPublishingWizard::GetTransferManifest (shobjidl.h)
 author: windows-sdk-content
 description: Gets a transfer manifest for a file transfer operation performed by a publishing wizard, such as the Online Print Wizard or the Add Network Place Wizard.
 old-location: shell\IPublishingWizard_GetTransferManifest.htm

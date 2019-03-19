@@ -1,6 +1,6 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_REGISTER_USB_STRING
-title: IOCTL_GENERICUSBFN_REGISTER_USB_STRING
+title: IOCTL_GENERICUSBFN_REGISTER_USB_STRING (genericusbfnioctl.h)
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to register a string descriptor.Universal Serial Bus (USB) string descriptor.
 old-location: buses\ioctl_genericusbfn_register_usb_string.htm

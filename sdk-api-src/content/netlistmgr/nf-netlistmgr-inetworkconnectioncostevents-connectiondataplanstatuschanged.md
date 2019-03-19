@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
-title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged
+title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged (netlistmgr.h)
 author: windows-sdk-content
 description: ConnectionDataPlanStatusChanged method notifies an application of a data plan status change on a connection.
 old-location: nla\inetworkconnectioncostevents_connectiondataplanstatuschanged.htm

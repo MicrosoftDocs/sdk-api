@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_KEY
-title: HTTP_SERVICE_CONFIG_SSL_CCS_KEY
+title: HTTP_SERVICE_CONFIG_SSL_CCS_KEY (http.h)
 author: windows-sdk-content
 description: Serves as the key by which identifies the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake.
 old-location: http\http_service_config_ssl_ccs_key.htm

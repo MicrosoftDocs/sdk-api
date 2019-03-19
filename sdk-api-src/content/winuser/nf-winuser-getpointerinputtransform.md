@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerInputTransform
-title: GetPointerInputTransform function
+title: GetPointerInputTransform function (winuser.h)
 author: windows-sdk-content
 description: Gets one or more transforms for the pointer information coordinates associated with the current message.
 old-location: inputmsg\getpointerinputtransform.htm

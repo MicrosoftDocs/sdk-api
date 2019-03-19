@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.INTERACTION_ARGUMENTS_CROSS_SLIDE
-title: INTERACTION_ARGUMENTS_CROSS_SLIDE
+title: INTERACTION_ARGUMENTS_CROSS_SLIDE (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the state of the cross-slide interaction.
 old-location: input_intcontext\interaction_arguments_cross_slide.htm

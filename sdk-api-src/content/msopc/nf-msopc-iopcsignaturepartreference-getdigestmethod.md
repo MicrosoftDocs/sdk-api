@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetDigestMethod
-title: IOpcSignaturePartReference::GetDigestMethod
+title: IOpcSignaturePartReference::GetDigestMethod (msopc.h)
 author: windows-sdk-content
 description: Gets the digest method to use on part content of the referenced part when the part is signed.
 old-location: opc\iopcsignaturepartreference_getdigestmethod.htm

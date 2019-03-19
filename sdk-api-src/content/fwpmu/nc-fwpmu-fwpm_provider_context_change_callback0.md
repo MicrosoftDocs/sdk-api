@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
-title: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
+title: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 (fwpmu.h)
 author: windows-sdk-content
 description: Is used to add custom behavior to the provider context change notification process.
 old-location: fwp\fwpm_provider_context_change_callback0_func.htm

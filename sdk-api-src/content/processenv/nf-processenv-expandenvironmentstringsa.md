@@ -1,6 +1,6 @@
 ---
 UID: NF:processenv.ExpandEnvironmentStringsA
-title: ExpandEnvironmentStringsA function
+title: ExpandEnvironmentStringsA function (processenv.h)
 author: windows-sdk-content
 description: Expands environment-variable strings and replaces them with the values defined for the current user.
 old-location: base\expandenvironmentstrings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_CREATE_DISK
-title: IOCTL_DISK_CREATE_DISK
+title: IOCTL_DISK_CREATE_DISK (winioctl.h)
 author: windows-sdk-content
 description: Initializes the specified disk and disk partition table using the information in the CREATE_DISK structure.
 old-location: fs\ioctl_disk_create_disk.htm

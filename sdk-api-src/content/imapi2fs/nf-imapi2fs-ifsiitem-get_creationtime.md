@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_CreationTime
-title: IFsiItem::get_CreationTime
+title: IFsiItem::get_CreationTime (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the date and time that the directory or file item was created and added to the file system image.
 old-location: imapi\ifsiitem_get_creationtime.htm

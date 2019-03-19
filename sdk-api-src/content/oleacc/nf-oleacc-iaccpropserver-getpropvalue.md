@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServer.GetPropValue
-title: IAccPropServer::GetPropValue
+title: IAccPropServer::GetPropValue (oleacc.h)
 author: windows-sdk-content
 description: Retrieves a property value for an accessible element.
 old-location: winauto\iaccpropserver_iaccpropserver__getpropvalue.htm

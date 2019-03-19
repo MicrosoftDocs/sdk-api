@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.FlowDirections
-title: FlowDirections
+title: FlowDirections (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values for the TextFlowDirections text attribute.
 old-location: winauto\uiauto_FlowDirectionsEnum.htm

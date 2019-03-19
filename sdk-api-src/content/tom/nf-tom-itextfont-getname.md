@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetName
-title: ITextFont::GetName
+title: ITextFont::GetName (tom.h)
 author: windows-sdk-content
 description: Gets the font name.
 old-location: controls\ITextFont_GetName.htm

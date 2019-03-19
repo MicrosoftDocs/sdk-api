@@ -1,6 +1,6 @@
 ---
 UID: NS:windns.__unnamed_struct_42
-title: DNS_WINSR_DATAA
+title: DNS_WINSR_DATAA (windns.h)
 author: windows-sdk-content
 description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
 old-location: dns\dns_winsr_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetID
-title: IMFSpatialAudioObjectBuffer::GetID
+title: IMFSpatialAudioObjectBuffer::GetID (mfspatialaudio.h)
 author: windows-sdk-content
 description: Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_getid.htm

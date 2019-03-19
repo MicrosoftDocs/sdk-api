@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTP_SET_NULL_ID
-title: HTTP_SET_NULL_ID macro
+title: HTTP_SET_NULL_ID macro (http.h)
 author: windows-sdk-content
 description: The HTTP_SET_NULL_ID macro sets the HTTP_OPAQUE_ID to NULL.
 old-location: http\http_set_null_id.htm

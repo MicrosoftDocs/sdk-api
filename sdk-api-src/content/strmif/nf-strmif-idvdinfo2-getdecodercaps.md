@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDecoderCaps
-title: IDvdInfo2::GetDecoderCaps
+title: IDvdInfo2::GetDecoderCaps (strmif.h)
 author: windows-sdk-content
 description: The GetDecoderCaps method retrieves the DVD decoder's maximum data rate for video, audio, and subpicture (in forward and reverse) as well as support for various types of audio (AC-3, MPEG-2, DTS, SDDS, LPCM).
 old-location: dshow\idvdinfo2_getdecodercaps.htm

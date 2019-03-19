@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerDeterminePlatformRole
-title: PowerDeterminePlatformRole function
+title: PowerDeterminePlatformRole function (powrprof.h)
 author: windows-sdk-content
 description: Determines the computer role for Windows 7, Windows Server 2008 R2, Windows Vista or Windows Server 2008.
 old-location: base\powerdetermineplatformrole.htm

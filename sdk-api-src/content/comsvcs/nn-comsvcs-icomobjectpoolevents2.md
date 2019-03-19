@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComObjectPoolEvents2
-title: IComObjectPoolEvents2
+title: IComObjectPoolEvents2 (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber when a new object is created for or removed from the pool.
 old-location: cos\icomobjectpoolevents2.htm

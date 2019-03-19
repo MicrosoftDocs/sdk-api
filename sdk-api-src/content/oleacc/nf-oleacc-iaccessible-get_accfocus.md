@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accFocus
-title: IAccessible::get_accFocus
+title: IAccessible::get_accFocus (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accFocus method retrieves the object that has the keyboard focus. All objects that may receive the keyboard focus must support this property.
 old-location: winauto\iaccessible_iaccessible__get_accfocus.htm

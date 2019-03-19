@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngLoadImage
-title: EngLoadImage macro
+title: EngLoadImage macro (winddi.h)
 author: windows-sdk-content
 description: The EngLoadImage function loads the specified executable image into kernel-mode memory.
 old-location: display\engloadimage.htm

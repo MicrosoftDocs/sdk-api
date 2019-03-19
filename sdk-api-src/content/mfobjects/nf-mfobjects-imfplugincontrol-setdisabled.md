@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.SetDisabled
-title: IMFPluginControl::SetDisabled
+title: IMFPluginControl::SetDisabled (mfobjects.h)
 author: windows-sdk-content
 description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
 old-location: mf\imfplugincontrol_imfplugincontrol__setdisabled.htm

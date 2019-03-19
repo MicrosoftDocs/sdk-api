@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.ITunerCap
-title: ITunerCap
+title: ITunerCap (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The ITunerCap interface provides information about the capabilities of a BDA device filter that represents a TV tuner.
 old-location: mstv\itunercap.htm

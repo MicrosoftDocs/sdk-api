@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate2.CopyToCache
-title: IUpdate2::CopyToCache
+title: IUpdate2::CopyToCache (wuapi.h)
 author: windows-sdk-content
 description: Copies files for an update from a specified source location to the internal Windows Update Agent (WUA) download cache.
 old-location: wua\iupdate2_copytocache.htm

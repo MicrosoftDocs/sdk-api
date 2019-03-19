@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditSetSecurity
-title: AuditSetSecurity function
+title: AuditSetSecurity function (ntsecapi.h)
 author: windows-sdk-content
 description: Sets a security descriptor that delegates access to audit policy.
 old-location: security\auditsetsecurity.htm

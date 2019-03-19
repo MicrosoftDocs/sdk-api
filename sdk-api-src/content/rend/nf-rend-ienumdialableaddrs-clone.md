@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Clone
-title: IEnumDialableAddrs::Clone
+title: IEnumDialableAddrs::Clone (rend.h)
 author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdialableaddrs_clone.htm

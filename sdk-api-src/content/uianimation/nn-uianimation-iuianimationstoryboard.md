@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationStoryboard
-title: IUIAnimationStoryboard
+title: IUIAnimationStoryboard (uianimation.h)
 author: windows-sdk-content
 description: Defines a storyboard, which contains a group of transitions that are synchronized relative to one another.
 old-location: uianimation\iuianimationstoryboard.htm

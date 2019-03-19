@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictResolveInfo
-title: ISyncMgrConflictResolveInfo
+title: ISyncMgrConflictResolveInfo (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that get and set information about sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo.htm

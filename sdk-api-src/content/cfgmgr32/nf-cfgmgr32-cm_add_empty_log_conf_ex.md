@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Add_Empty_Log_Conf_Ex
-title: CM_Add_Empty_Log_Conf_Ex function
+title: CM_Add_Empty_Log_Conf_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Add_Empty_Log_Conf_Ex function creates an empty logical configuration, for a specified configuration type and a specified device instance, on either the local or a remote machine.
 old-location: devinst\cm_add_empty_log_conf_ex.htm

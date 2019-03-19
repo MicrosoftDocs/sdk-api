@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetInvertPolarity
-title: IVPBaseConfig::SetInvertPolarity
+title: IVPBaseConfig::SetInvertPolarity (vpconfig.h)
 author: windows-sdk-content
 description: The SetInvertPolarity method reverses the current polarity the device uses.
 old-location: dshow\ivpbaseconfig_setinvertpolarity.htm

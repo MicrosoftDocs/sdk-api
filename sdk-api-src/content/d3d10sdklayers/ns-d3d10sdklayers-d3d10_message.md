@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10sdklayers.D3D10_MESSAGE
-title: D3D10_MESSAGE
+title: D3D10_MESSAGE (d3d10sdklayers.h)
 author: windows-sdk-content
 description: A debug message in the Information Queue.
 old-location: direct3d10\d3d10_message.htm

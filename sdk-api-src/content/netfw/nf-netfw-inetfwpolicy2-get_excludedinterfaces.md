@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_ExcludedInterfaces
-title: INetFwPolicy2::get_ExcludedInterfaces
+title: INetFwPolicy2::get_ExcludedInterfaces (netfw.h)
 author: windows-sdk-content
 description: Specifies a list of interfaces on which firewall settings are excluded.
 old-location: ics\inetfwpolicy2_excludedinterfaces.htm

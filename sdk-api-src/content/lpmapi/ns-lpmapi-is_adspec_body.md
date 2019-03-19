@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_32
-title: IS_ADSPEC_BODY
+title: IS_ADSPEC_BODY (lpmapi.h)
 author: windows-sdk-content
 description: The IS_ADSPEC_BODY structure contains Integrated Services Adspec information.
 old-location: qos\is_adspec_body.htm

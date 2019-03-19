@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPMPHostApp.LockProcess
-title: IMFPMPHostApp::LockProcess
+title: IMFPMPHostApp::LockProcess (mfidl.h)
 author: windows-sdk-content
 description: Blocks the protected media path (PMP) process from ending.
 old-location: mf\imfpmphostapp_lockprocess.htm

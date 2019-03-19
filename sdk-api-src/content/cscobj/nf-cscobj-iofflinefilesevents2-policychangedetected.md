@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.PolicyChangeDetected
-title: IOfflineFilesEvents2::PolicyChangeDetected
+title: IOfflineFilesEvents2::PolicyChangeDetected (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files service detected a change in one or more of its setting values that are controlled by Group Policy.
 old-location: of\iofflinefilesevents2_policychangedetected.htm

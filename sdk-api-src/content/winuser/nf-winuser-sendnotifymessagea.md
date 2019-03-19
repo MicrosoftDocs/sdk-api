@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SendNotifyMessageA
-title: SendNotifyMessageA function
+title: SendNotifyMessageA function (winuser.h)
 author: windows-sdk-content
 description: Sends the specified message to a window or windows.
 old-location: winmsg\sendnotifymessage.htm

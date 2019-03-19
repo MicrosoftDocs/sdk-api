@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRemoteDictionaryResource
-title: IXpsOMObjectFactory::CreateRemoteDictionaryResource
+title: IXpsOMObjectFactory::CreateRemoteDictionaryResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMRemoteDictionaryResource interface that enables the sharing of property resources.
 old-location: xps\ixpsomobjectfactory_createremotedictionaryresource.htm

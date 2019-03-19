@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_HEADER
-title: EVENT_HEADER
+title: EVENT_HEADER (evntcons.h)
 author: windows-sdk-content
 description: Defines information about the event.
 old-location: etw\event_header.htm

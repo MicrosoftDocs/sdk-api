@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetDwordValue
-title: ResUtilSetDwordValue function
+title: ResUtilSetDwordValue function (resapi.h)
 author: windows-sdk-content
 description: Sets a numeric value in the cluster database. The PRESUTIL_SET_DWORD_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetdwordvalue.htm

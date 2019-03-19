@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9VideoStreamInfo
-title: VMR9VideoStreamInfo
+title: VMR9VideoStreamInfo (vmr9.h)
 author: windows-sdk-content
 description: The VMR9VideoStreamInfo structure describes the rendering parameters for a video compositing operation in the VRM-9 filter. This structure is used in the IVMRImageCompositor9::CompositeImage method.
 old-location: dshow\vmr9videostreaminfo.htm

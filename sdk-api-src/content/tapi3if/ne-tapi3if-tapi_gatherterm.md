@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.TAPI_GATHERTERM
-title: TAPI_GATHERTERM
+title: TAPI_GATHERTERM (tapi3if.h)
 author: windows-sdk-content
 description: The TAPI_GATHERTERM enum is used to describe the reasons why the TAPI Server terminated the gathering of digits on the call.
 old-location: tapi3\tapi_gatherterm.htm

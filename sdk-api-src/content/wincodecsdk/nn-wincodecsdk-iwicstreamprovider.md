@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodecsdk.IWICStreamProvider
-title: IWICStreamProvider
+title: IWICStreamProvider (wincodecsdk.h)
 author: windows-sdk-content
 description: Exposes methods for a stream provider.
 old-location: wic\_wic_codec_iwicstreamprovider.htm

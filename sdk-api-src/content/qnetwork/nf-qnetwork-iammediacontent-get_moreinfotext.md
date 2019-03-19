@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoText
-title: IAMMediaContent::get_MoreInfoText
+title: IAMMediaContent::get_MoreInfoText (qnetwork.h)
 author: windows-sdk-content
 description: The get_MoreInfoText method retrieves additional information as text.
 old-location: dshow\iammediacontent_get_moreinfotext.htm

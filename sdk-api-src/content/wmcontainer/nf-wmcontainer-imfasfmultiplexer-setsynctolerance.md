@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.SetSyncTolerance
-title: IMFASFMultiplexer::SetSyncTolerance
+title: IMFASFMultiplexer::SetSyncTolerance (wmcontainer.h)
 author: windows-sdk-content
 description: Sets the maximum time by which samples from various streams can be out of synchronization.
 old-location: mf\imfasfmultiplexer_setsynctolerance.htm

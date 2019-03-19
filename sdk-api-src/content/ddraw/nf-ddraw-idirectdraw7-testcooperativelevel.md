@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.TestCooperativeLevel
-title: IDirectDraw7::TestCooperativeLevel
+title: IDirectDraw7::TestCooperativeLevel (ddraw.h)
 author: windows-sdk-content
 description: Reports the current cooperative-level status of the DirectDraw device for a windowed or full-screen application.
 old-location: directdraw\idirectdraw7_testcooperativelevel.htm

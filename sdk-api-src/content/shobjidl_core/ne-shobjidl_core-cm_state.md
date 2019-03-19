@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.CM_STATE
-title: CM_STATE
+title: CM_STATE (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies column state values. Used by members of the IColumnManager interface through the CM_COLUMNINFO structure.
 old-location: shell\CM_STATE.htm

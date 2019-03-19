@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetSid
-title: IDiskQuotaUser::GetSid
+title: IDiskQuotaUser::GetSid (dskquota.h)
 author: windows-sdk-content
 description: Retrieves the user's security identifier (SID).
 old-location: fs\idiskquotauser_getsid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext5.CreateColorContextFromDxgiColorSpace
-title: ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace
+title: ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace (d2d1_3.h)
 author: windows-sdk-content
 description: Creates a color context from a DXGI color space type. It is only valid to use this with the Color Management Effect in 'Best' mode.
 old-location: direct2d\id2d1devicecontext5_createcolorcontextfromdxgicolorspace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:activation.IActivationFactory
-title: IActivationFactory
+title: IActivationFactory (activation.h)
 author: windows-sdk-content
 description: Enables classes to be activated by the Windows Runtime.
 old-location: winrt\iactivationfactory.htm

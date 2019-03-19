@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_RequestedWriteSpeed
-title: IDiscFormat2Data::get_RequestedWriteSpeed
+title: IDiscFormat2Data::get_RequestedWriteSpeed (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the requested write speed.
 old-location: imapi\idiscformat2data_get_requestedwritespeed.htm

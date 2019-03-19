@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_COMPUTERINFORMATION
-title: NTMS_COMPUTERINFORMATION
+title: NTMS_COMPUTERINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_COMPUTERINFORMATION structure defines the properties specific to the RSM server.
 old-location: fs\ntms_computerinformation.htm

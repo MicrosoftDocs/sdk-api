@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagMONHSZSTRUCTA
-title: MONHSZSTRUCTA
+title: MONHSZSTRUCTA (ddeml.h)
 author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) string handle. A DDE monitoring application can use this structure when monitoring the activity of the string manager component of the DDE Management Library.
 old-location: dataxchg\monhszstruct_str.htm

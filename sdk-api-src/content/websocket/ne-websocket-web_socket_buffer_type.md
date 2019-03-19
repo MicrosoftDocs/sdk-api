@@ -1,6 +1,6 @@
 ---
 UID: NE:websocket._WEB_SOCKET_BUFFER_TYPE
-title: WEB_SOCKET_BUFFER_TYPE
+title: WEB_SOCKET_BUFFER_TYPE (websocket.h)
 author: windows-sdk-content
 description: Specifies the bit values used to construct the WebSocket frame header.
 old-location: websock\web_socket_buffer_type.htm

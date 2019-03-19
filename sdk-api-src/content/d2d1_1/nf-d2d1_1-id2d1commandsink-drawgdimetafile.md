@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawGdiMetafile
-title: ID2D1CommandSink::DrawGdiMetafile
+title: ID2D1CommandSink::DrawGdiMetafile (d2d1_1.h)
 author: windows-sdk-content
 description: Draw a metafile to the device context.
 old-location: direct2d\id2d1commandsink_drawmetafile.htm

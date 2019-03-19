@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderType
-title: IDiscRecorder::GetRecorderType
+title: IDiscRecorder::GetRecorderType (imapi.h)
 author: windows-sdk-content
 description: Determines whether the disc recorder is a CD-R or CD-RW type device. This does not indicate the type of media that is currently inserted in the device.
 old-location: imapi\idiscrecorder_getrecordertype.htm

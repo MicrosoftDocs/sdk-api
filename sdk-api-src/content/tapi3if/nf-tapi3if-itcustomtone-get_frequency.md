@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_Frequency
-title: ITCustomTone::get_Frequency
+title: ITCustomTone::get_Frequency (tapi3if.h)
 author: windows-sdk-content
 description: The get_Frequency method retrieves the frequency of the tone component to generate.
 old-location: tapi3\itcustomtone_get_frequency.htm

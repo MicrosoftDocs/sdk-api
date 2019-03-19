@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleX(float)
-title: IDCompositionScaleTransform::SetScaleX(float)
+title: IDCompositionScaleTransform::SetScaleX(float) (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the ScaleX property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setscalex_float.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.SwitchedToPlayerApplication
-title: IWMPEvents::SwitchedToPlayerApplication
+title: IWMPEvents::SwitchedToPlayerApplication (wmp.h)
 author: windows-sdk-content
 description: The SwitchedToPlayerApplication event occurs when a remoted Windows Media Player control switches to the full mode of the Player.
 old-location: wmp\iwmpevents_iwmpevents__switchedtoplayerapplication.htm

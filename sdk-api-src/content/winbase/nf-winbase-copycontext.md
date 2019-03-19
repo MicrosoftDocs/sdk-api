@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CopyContext
-title: CopyContext function
+title: CopyContext function (winbase.h)
 author: windows-sdk-content
 description: Copies a source context structure (including any XState) onto an initialized destination context structure.
 old-location: base\copycontext.htm

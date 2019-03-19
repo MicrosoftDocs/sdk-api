@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagPOINTF
-title: POINTF
+title: POINTF (ocidl.h)
 author: windows-sdk-content
 description: Contains information that is used to convert between container units, expressed in floating point, and control units, expressed in HIMETRIC.
 old-location: com\pointf.htm

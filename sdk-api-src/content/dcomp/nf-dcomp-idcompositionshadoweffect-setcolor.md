@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetColor
-title: IDCompositionShadowEffect::SetColor
+title: IDCompositionShadowEffect::SetColor (dcomp.h)
 author: windows-sdk-content
 description: Sets color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setcolor.htm

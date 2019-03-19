@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfLanguageProfileNotifySink.OnLanguageChange
-title: ITfLanguageProfileNotifySink::OnLanguageChange
+title: ITfLanguageProfileNotifySink::OnLanguageChange (msctf.h)
 author: windows-sdk-content
 description: ITfLanguageProfileNotifySink::OnLanguageChange method
 old-location: tsf\itflanguageprofilenotifysink_onlanguagechange.htm

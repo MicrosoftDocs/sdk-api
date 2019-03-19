@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.RunClassification
-title: IFsrmClassificationManager::RunClassification
+title: IFsrmClassificationManager::RunClassification (fsrmpipeline.h)
 author: windows-sdk-content
 description: Runs classification rules and generates the classification report.
 old-location: fsrm\ifsrmclassificationmanager_runclassification.htm

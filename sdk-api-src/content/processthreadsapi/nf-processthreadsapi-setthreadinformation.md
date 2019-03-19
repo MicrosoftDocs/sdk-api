@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadInformation
-title: SetThreadInformation function
+title: SetThreadInformation function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets information for the specified thread.
 old-location: base\setthreadinformation.htm

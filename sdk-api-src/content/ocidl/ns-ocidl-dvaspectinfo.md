@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagAspectInfo
-title: DVASPECTINFO
+title: DVASPECTINFO (ocidl.h)
 author: windows-sdk-content
 description: Contains information that is used by the IViewObject::Draw method to optimize rendering of an inactive object by making more efficient use of the GDI.
 old-location: com\dvaspectinfo.htm

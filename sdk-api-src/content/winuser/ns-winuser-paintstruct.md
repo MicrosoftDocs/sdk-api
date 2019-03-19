@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagPAINTSTRUCT
-title: PAINTSTRUCT
+title: PAINTSTRUCT (winuser.h)
 author: windows-sdk-content
 description: The PAINTSTRUCT structure contains information for an application. This information can be used to paint the client area of a window owned by that application.
 old-location: gdi\paintstruct.htm

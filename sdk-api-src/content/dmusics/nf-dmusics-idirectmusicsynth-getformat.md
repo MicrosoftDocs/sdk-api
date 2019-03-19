@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetFormat
-title: IDirectMusicSynth::GetFormat
+title: IDirectMusicSynth::GetFormat (dmusics.h)
 author: windows-sdk-content
 description: The GetFormat method retrieves information about the wave format.
 old-location: audio\idirectmusicsynth_getformat.htm

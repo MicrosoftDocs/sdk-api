@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9helper.IDirect3DSurface9
-title: IDirect3DSurface9
+title: IDirect3DSurface9 (d3d9helper.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DSurface9 interface to query and prepare surfaces.
 old-location: direct3d9\idirect3dsurface9.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UseRestrictedCharacterSet
-title: IFileSystemImage::get_UseRestrictedCharacterSet
+title: IFileSystemImage::get_UseRestrictedCharacterSet (imapi2fs.h)
 author: windows-sdk-content
 description: Determines if the file and directory names use a restricted character.
 old-location: imapi\ifilesystemimage_get_userestrictedcharacterset.htm

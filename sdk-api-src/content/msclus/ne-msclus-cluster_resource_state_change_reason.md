@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_STATE_CHANGE_REASON
-title: CLUSTER_RESOURCE_STATE_CHANGE_REASON
+title: CLUSTER_RESOURCE_STATE_CHANGE_REASON (msclus.h)
 author: windows-sdk-content
 description: Used by the CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT and CLUSCTL_RESOURCE_STATE_CHANGE_REASON control codes to describe the reason for a resource state change.
 old-location: mscs\cluster_resource_state_change_reason.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4ReciprocalLength
-title: XMVector4ReciprocalLength function
+title: XMVector4ReciprocalLength function (directxmath.h)
 author: windows-sdk-content
 description: Computes the reciprocal of the length of a 4D vector.
 old-location: dxmath\xmvector4reciprocallength.htm

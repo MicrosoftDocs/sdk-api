@@ -1,6 +1,6 @@
 ---
 UID: NF:storprop.CdromDisableDigitalPlayback
-title: CdromDisableDigitalPlayback function
+title: CdromDisableDigitalPlayback function (storprop.h)
 author: windows-sdk-content
 description: Disables digital playback for the specified CD-ROM or DVD drive.
 old-location: base\cdromdisabledigitalplayback.htm

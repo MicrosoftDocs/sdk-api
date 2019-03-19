@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetPositionString
-title: MCIWndGetPositionString macro
+title: MCIWndGetPositionString macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetPositionString macro retrieves the numerical value of the current position within the content of the MCI device.
 old-location: multimedia\mciwndgetpositionstring.htm

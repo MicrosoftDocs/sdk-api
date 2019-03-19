@@ -1,6 +1,6 @@
 ---
 UID: NS:lmuse._USE_INFO_1
-title: USE_INFO_1
+title: USE_INFO_1 (lmuse.h)
 author: windows-sdk-content
 description: Contains information about the connection between a local device and a shared resource.
 old-location: netmgmt\use_info_1_str.htm

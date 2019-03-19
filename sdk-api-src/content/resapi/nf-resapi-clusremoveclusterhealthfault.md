@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusRemoveClusterHealthFault
-title: ClusRemoveClusterHealthFault function
+title: ClusRemoveClusterHealthFault function (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusremoveclusterhealthfault.htm

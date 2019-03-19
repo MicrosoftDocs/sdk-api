@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Count
-title: IInkRecognitionAlternates::get_Count
+title: IInkRecognitionAlternates::get_Count (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkrecognitionalternates_count.htm

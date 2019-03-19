@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSubunitCount
-title: IDeviceTopology::GetSubunitCount
+title: IDeviceTopology::GetSubunitCount (devicetopology.h)
 author: windows-sdk-content
 description: The GetSubunitCount method gets the number of subunits in the device topology.
 old-location: coreaudio\idevicetopology_getsubunitcount.htm

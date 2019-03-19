@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmTemplateApplyOptions
-title: FsrmTemplateApplyOptions
+title: FsrmTemplateApplyOptions (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the options for applying template changes to derived objects.
 old-location: fsrm\fsrmtemplateapplyoptions.htm

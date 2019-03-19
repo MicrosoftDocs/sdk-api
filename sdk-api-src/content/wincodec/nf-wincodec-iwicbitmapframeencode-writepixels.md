@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.WritePixels
-title: IWICBitmapFrameEncode::WritePixels
+title: IWICBitmapFrameEncode::WritePixels (wincodec.h)
 author: windows-sdk-content
 description: Copies scan-line data from a caller-supplied buffer to the IWICBitmapFrameEncode object.
 old-location: wic\_wic_codec_iwicbitmapframeencode_writepixels.htm

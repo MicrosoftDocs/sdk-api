@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSConnectSessionA
-title: WTSConnectSessionA function
+title: WTSConnectSessionA function (wtsapi32.h)
 author: windows-sdk-content
 description: Connects a Remote Desktop Services session to an existing session on the local computer.
 old-location: termserv\wtsconnectsession.htm

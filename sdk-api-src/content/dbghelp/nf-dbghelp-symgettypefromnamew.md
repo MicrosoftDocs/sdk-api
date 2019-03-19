@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetTypeFromNameW
-title: SymGetTypeFromNameW function
+title: SymGetTypeFromNameW function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves a type index for the specified type name.
 old-location: base\symgettypefromname.htm

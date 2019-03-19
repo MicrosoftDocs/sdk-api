@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetFeaturePage
-title: IDiscRecorder2Ex::GetFeaturePage
+title: IDiscRecorder2Ex::GetFeaturePage (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the specified feature page from the device.
 old-location: imapi\idiscrecorder2ex_getfeaturepage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_SMTPSender
-title: IFaxReceiptOptions::get_SMTPSender
+title: IFaxReceiptOptions::get_SMTPSender (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxReceiptOptions::get_SMTPSender property is a null-terminated string that contains the Simple Mail Transport Protocol (SMTP) email address for the sender of the mail message receipt.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_smtpsender_cpp.htm

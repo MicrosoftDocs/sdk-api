@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings.put_playCount
-title: IWMPSettings::put_playCount
+title: IWMPSettings::put_playCount (wmp.h)
 author: windows-sdk-content
 description: The put_playCount method specifies the number of times a media item will play.
 old-location: wmp\iwmpsettings_put_playcount.htm

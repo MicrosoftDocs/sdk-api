@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.SetFileProperty
-title: IFsrmPropertyBag::SetFileProperty
+title: IFsrmPropertyBag::SetFileProperty (fsrmpipeline.h)
 author: windows-sdk-content
 description: Sets the specified property in the property bag.
 old-location: fsrm\ifsrmpropertybag_setfileproperty.htm

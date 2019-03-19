@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDataCallback.BandedDataCallback
-title: IWiaDataCallback::BandedDataCallback
+title: IWiaDataCallback::BandedDataCallback (wia_xp.h)
 author: windows-sdk-content
 description: Provides data transfer status notifications. Windows Image Acquisition (WIA) data transfer methods of the IWiaDataTransfer interface periodically call this method.
 old-location: wia\_wia_IWiaDataCallback_BandedDataCallback.htm

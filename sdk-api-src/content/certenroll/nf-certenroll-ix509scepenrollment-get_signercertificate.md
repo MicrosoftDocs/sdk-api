@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_SignerCertificate
-title: IX509SCEPEnrollment::get_SignerCertificate
+title: IX509SCEPEnrollment::get_SignerCertificate (certenroll.h)
 author: windows-sdk-content
 description: Gets or sets the signer certificate for the request.
 old-location: security\ix509scepenrollment_signercertificate.htm

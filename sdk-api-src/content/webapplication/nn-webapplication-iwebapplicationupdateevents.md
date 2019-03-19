@@ -1,6 +1,6 @@
 ---
 UID: NN:webapplication.IWebApplicationUpdateEvents
-title: IWebApplicationUpdateEvents
+title: IWebApplicationUpdateEvents (webapplication.h)
 author: windows-sdk-content
 description: Enables an authoring app to receive notification of designer events and respond to those events.
 old-location: debug\iwebapplicationupdateevents.htm

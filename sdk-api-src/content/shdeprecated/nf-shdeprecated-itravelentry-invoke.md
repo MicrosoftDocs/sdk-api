@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.ITravelEntry.Invoke
-title: ITravelEntry::Invoke
+title: ITravelEntry::Invoke (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Invokes the travel entry, navigating to that page.
 old-location: shell\ITravelEntry_Invoke.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumNodes
-title: IKsTopologyInfo::get_NumNodes
+title: IKsTopologyInfo::get_NumNodes (vidcap.h)
 author: windows-sdk-content
 description: The get_NumNodes method returns the number of nodes in the filter.
 old-location: dshow\ikstopologyinfo_get_numnodes.htm

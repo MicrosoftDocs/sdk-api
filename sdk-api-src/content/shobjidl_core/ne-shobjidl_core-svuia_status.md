@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.SVUIA_STATUS
-title: SVUIA_STATUS
+title: SVUIA_STATUS (shobjidl_core.h)
 author: windows-sdk-content
 description: Used with the IBrowserService2::_UIActivateView method to set the state of a browser view.
 old-location: shell\SVUIA_STATUS.htm

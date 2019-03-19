@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.CredFreeCredentialsFn
-title: CredFreeCredentialsFn
+title: CredFreeCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Frees memory used to store credentials used by a security package.
 old-location: security\credifreecredentials.htm

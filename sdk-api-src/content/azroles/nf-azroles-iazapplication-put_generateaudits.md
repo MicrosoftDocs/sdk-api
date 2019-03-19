@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_GenerateAudits
-title: IAzApplication::put_GenerateAudits
+title: IAzApplication::put_GenerateAudits (azroles.h)
 author: windows-sdk-content
 description: The GenerateAudits property of IAzApplication sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\iazapplication_generateaudits.htm

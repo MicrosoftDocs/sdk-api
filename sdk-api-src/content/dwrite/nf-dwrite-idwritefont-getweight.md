@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetWeight
-title: IDWriteFont::GetWeight
+title: IDWriteFont::GetWeight (dwrite.h)
 author: windows-sdk-content
 description: Gets the weight, or stroke thickness, of the specified font.
 old-location: directwrite\IDWriteFont_GetWeight.htm

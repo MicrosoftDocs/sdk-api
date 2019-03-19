@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IAppDomainHelper.DoCallback
-title: IAppDomainHelper::DoCallback
+title: IAppDomainHelper::DoCallback (comsvcs.h)
 author: windows-sdk-content
 description: Switches into a given application domain (which the calling object must be bound to), executes the supplied callback function in that application domain, and then returns to the original application domain.
 old-location: cos\iappdomainhelper_docallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsStartReaderCanonicalization
-title: WsStartReaderCanonicalization function
+title: WsStartReaderCanonicalization function (webservices.h)
 author: windows-sdk-content
 description: This operation begins the process of putting the specified XML Reader in a standard or &#0034;canonized&#0034; form.
 old-location: wsw\wsstartreadercanonicalization.htm

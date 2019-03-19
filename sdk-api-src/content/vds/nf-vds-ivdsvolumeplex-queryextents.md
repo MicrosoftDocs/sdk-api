@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumePlex.QueryExtents
-title: IVdsVolumePlex::QueryExtents
+title: IVdsVolumePlex::QueryExtents (vds.h)
 author: windows-sdk-content
 description: Returns all extents for the current plex.
 old-location: base\ivdsvolumeplex_queryextents.htm

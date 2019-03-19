@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhReassociation.PerformReassociation
-title: IFhReassociation::PerformReassociation
+title: IFhReassociation::PerformReassociation (fhcfg.h)
 author: windows-sdk-content
 description: This method re-establishes relationship between the current user and the configuration selected previously via the IFhReassociation::SelectConfiguration method and prepares the target device for accepting backup data from the current computer.
 old-location: winprog\ifhreassociation_performreassociation.htm

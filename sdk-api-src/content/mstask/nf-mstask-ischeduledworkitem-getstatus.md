@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetStatus
-title: IScheduledWorkItem::GetStatus
+title: IScheduledWorkItem::GetStatus (mstask.h)
 author: windows-sdk-content
 description: Retrieves the status of the work item.
 old-location: taskschd\ischeduledworkitem_getstatus.htm

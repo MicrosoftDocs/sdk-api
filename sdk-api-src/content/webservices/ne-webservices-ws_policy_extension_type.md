@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_108
-title: WS_POLICY_EXTENSION_TYPE
+title: WS_POLICY_EXTENSION_TYPE (webservices.h)
 author: windows-sdk-content
 description: The values in this enumeration are used to identify the sub-types of WS_POLICY_EXTENSION.
 old-location: wsw\ws_policy_extension_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindFirst
-title: IUIAutomationElement::FindFirst
+title: IUIAutomationElement::FindFirst (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the first child or descendant element that matches the specified condition.
 old-location: winauto\uiauto_IUIAutomationElement_FindFirst.htm

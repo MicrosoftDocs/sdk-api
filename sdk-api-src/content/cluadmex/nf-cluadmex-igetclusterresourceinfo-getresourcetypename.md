@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterResourceInfo.GetResourceTypeName
-title: IGetClusterResourceInfo::GetResourceTypeName
+title: IGetClusterResourceInfo::GetResourceTypeName (cluadmex.h)
 author: windows-sdk-content
 description: Returns the type of a resource.
 old-location: mscs\igetclusterresourceinfo_getresourcetypename.htm

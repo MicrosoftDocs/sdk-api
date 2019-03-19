@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.DragMove
-title: IImageList::DragMove
+title: IImageList::DragMove (commoncontrols.h)
 author: windows-sdk-content
 description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message.
 old-location: controls\IImageList_DragMove.htm

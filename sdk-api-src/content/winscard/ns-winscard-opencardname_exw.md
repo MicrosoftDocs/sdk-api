@@ -1,6 +1,6 @@
 ---
 UID: NS:winscard.__unnamed_struct_5
-title: OPENCARDNAME_EXW
+title: OPENCARDNAME_EXW (winscard.h)
 author: windows-sdk-content
 description: The OPENCARDNAME_EX structure contains the information that the SCardUIDlgSelectCard function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname_ex.htm

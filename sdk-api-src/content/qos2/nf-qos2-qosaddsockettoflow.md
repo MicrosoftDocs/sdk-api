@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSAddSocketToFlow
-title: QOSAddSocketToFlow function
+title: QOSAddSocketToFlow function (qos2.h)
 author: windows-sdk-content
 description: Adds a new flow for traffic.
 old-location: qos\qosaddsockettoflow.htm

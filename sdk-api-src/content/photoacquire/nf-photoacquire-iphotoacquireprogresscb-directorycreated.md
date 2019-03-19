@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.DirectoryCreated
-title: IPhotoAcquireProgressCB::DirectoryCreated
+title: IPhotoAcquireProgressCB::DirectoryCreated (photoacquire.h)
 author: windows-sdk-content
 description: The DirectoryCreated method provides extended functionality when a destination directory is created during the acquisition process. The application provides the implementation of the DirectoryCreated method.
 old-location: picacq\iphotoacquireprogresscb_directorycreated.htm

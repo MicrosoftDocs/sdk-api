@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddPushButton
-title: IFileDialogCustomize::AddPushButton
+title: IFileDialogCustomize::AddPushButton (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a button to the dialog.
 old-location: shell\IFileDialogCustomize_AddPushButton.htm

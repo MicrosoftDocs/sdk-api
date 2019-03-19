@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetDeviceModels
-title: IWICBitmapCodecInfo::GetDeviceModels
+title: IWICBitmapCodecInfo::GetDeviceModels (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a comma delimited list of device models associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getdevicemodels.htm

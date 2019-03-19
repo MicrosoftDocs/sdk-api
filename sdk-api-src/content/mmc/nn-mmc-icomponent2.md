@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IComponent2
-title: IComponent2
+title: IComponent2 (mmc.h)
 author: windows-sdk-content
 description: The IComponent2 interface, implemented by snap-ins, is introduced in MMC 2.0 and supersedes the IComponent interface.
 old-location: mmc\icomponent2.htm

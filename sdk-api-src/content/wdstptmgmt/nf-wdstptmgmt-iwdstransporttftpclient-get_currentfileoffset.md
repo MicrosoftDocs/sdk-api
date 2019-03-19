@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_CurrentFileOffset
-title: IWdsTransportTftpClient::get_CurrentFileOffset
+title: IWdsTransportTftpClient::get_CurrentFileOffset (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the offset from the start of the file in bytes of the current block being transferred in the TFTP session.
 old-location: wds\iwdstransporttftpclient_currentfileoffset.htm

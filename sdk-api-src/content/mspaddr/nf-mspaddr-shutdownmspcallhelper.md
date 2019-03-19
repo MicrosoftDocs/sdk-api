@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.ShutdownMSPCallHelper
-title: ShutdownMSPCallHelper function
+title: ShutdownMSPCallHelper function (mspaddr.h)
 author: windows-sdk-content
 description: The ShutdownMSPCallHelper helper template function is called in the derived class' implementation of ShutdownMSPCall.
 old-location: tapi3\cmspaddress_shutdownmspcallhelper.htm

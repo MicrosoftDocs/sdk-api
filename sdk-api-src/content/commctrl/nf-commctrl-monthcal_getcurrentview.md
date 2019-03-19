@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_GetCurrentView
-title: MonthCal_GetCurrentView macro
+title: MonthCal_GetCurrentView macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the view for a month calendar control. You can use this macro or send the MCM_GETCURRENTVIEW message explicitly.
 old-location: controls\MonthCal_GetCurrentView.htm

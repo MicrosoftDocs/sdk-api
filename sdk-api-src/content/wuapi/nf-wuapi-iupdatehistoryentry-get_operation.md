@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Operation
-title: IUpdateHistoryEntry::get_Operation
+title: IUpdateHistoryEntry::get_Operation (wuapi.h)
 author: windows-sdk-content
 description: Gets an UpdateOperation value that specifies the operation on an update.
 old-location: wua\iupdatehistoryentry_operation.htm

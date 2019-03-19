@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFOutputPolicy
-title: IMFOutputPolicy
+title: IMFOutputPolicy (mfidl.h)
 author: windows-sdk-content
 description: Encapsulates a usage policy from an input trust authority (ITA).
 old-location: mf\imfoutputpolicy.htm

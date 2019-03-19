@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_PROPERTY
-title: WS_SECURITY_CONTEXT_PROPERTY
+title: WS_SECURITY_CONTEXT_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Defines a property of a WS_SECURITY_CONTEXT
 old-location: wsw\ws_security_context_property.htm

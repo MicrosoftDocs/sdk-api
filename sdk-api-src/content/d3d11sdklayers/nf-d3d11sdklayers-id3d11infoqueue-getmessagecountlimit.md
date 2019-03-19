@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetMessageCountLimit
-title: ID3D11InfoQueue::GetMessageCountLimit
+title: ID3D11InfoQueue::GetMessageCountLimit (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Get the maximum number of messages that can be added to the message queue.
 old-location: direct3d11\id3d11infoqueue_getmessagecountlimit.htm

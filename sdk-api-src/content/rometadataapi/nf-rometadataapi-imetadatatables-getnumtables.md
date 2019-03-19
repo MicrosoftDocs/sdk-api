@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNumTables
-title: IMetaDataTables::GetNumTables
+title: IMetaDataTables::GetNumTables (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the number of tables in the scope of the current IMetaDataTables instance.
 old-location: winrt\imetadatatables_getnumtables.htm

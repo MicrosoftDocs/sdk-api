@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.UnpackSize
-title: UnpackSize function
+title: UnpackSize function (mfapi.h)
 author: windows-sdk-content
 description: Gets the low-order and high-order UINT32 values from a UINT64 value that represnets a size.
 old-location: mf\unpacksize.htm

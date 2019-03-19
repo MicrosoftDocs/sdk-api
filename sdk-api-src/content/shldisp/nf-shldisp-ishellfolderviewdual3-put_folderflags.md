@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.put_FolderFlags
-title: IShellFolderViewDual3::put_FolderFlags
+title: IShellFolderViewDual3::put_FolderFlags (shldisp.h)
 author: windows-sdk-content
 description: Sets the current folders settings.
 old-location: shell\IShellFolderViewDual3_put_FolderFlags.htm

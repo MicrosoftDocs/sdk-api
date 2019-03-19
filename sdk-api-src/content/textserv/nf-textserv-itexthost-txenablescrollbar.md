@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxEnableScrollBar
-title: ITextHost::TxEnableScrollBar
+title: ITextHost::TxEnableScrollBar (textserv.h)
 author: windows-sdk-content
 description: Enables or disables one or both scroll bar arrows in the text host window.
 old-location: controls\ITextHost_TxEnableScrollBar.htm

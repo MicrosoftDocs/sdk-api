@@ -1,6 +1,6 @@
 ---
 UID: NF:msports.ComDBClose
-title: ComDBClose function
+title: ComDBClose function (msports.h)
 author: windows-sdk-content
 description: ComDBClose closes a handle to the COM port database.
 old-location: serports\comdbclose.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_MousePointer
-title: IInkCollector::put_MousePointer
+title: IInkCollector::put_MousePointer (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the type of mouse pointer that appears.
 old-location: tablet\inkcollector_mousepointer.htm

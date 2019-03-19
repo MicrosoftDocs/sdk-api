@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbLoadBalancingNotifySink
-title: ITsSbLoadBalancingNotifySink
+title: ITsSbLoadBalancingNotifySink (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that return the result of a load-balancing algorithm to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbloadbalancingnotifysink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDUriEncode
-title: WSDUriEncode function
+title: WSDUriEncode function (wsdutil.h)
 author: windows-sdk-content
 description: Encodes a URI according to URI encoding rules in RFC2396.
 old-location: ncd\wsduriencode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_PossibleValues
-title: IFsrmPropertyDefinition::put_PossibleValues
+title: IFsrmPropertyDefinition::put_PossibleValues (fsrmpipeline.h)
 author: windows-sdk-content
 description: The possible values to which the property can be set.
 old-location: fsrm\ifsrmpropertydefinition_possiblevalues.htm

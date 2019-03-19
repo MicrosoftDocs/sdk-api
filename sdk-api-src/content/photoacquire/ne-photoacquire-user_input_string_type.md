@@ -1,6 +1,6 @@
 ---
 UID: NE:photoacquire.tagUSER_INPUT_STRING_TYPE
-title: USER_INPUT_STRING_TYPE
+title: USER_INPUT_STRING_TYPE (photoacquire.h)
 author: windows-sdk-content
 description: The USER_INPUT_STRING_TYPE enumeration type indicates the type of string to obtain from the user in IPhotoAcquireProgressCB::GetUserInput.
 old-location: picacq\user_input_string_type.htm

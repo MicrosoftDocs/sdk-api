@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanGetAvailableNetworkList
-title: WlanGetAvailableNetworkList function
+title: WlanGetAvailableNetworkList function (wlanapi.h)
 author: windows-sdk-content
 description: Retrieves the list of available networks on a wireless LAN interface.
 old-location: nwifi\wlangetavailablenetworklist.htm

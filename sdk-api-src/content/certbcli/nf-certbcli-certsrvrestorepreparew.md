@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvRestorePrepareW
-title: CertSrvRestorePrepareW function
+title: CertSrvRestorePrepareW function (certbcli.h)
 author: windows-sdk-content
 description: Prepares a Certificate Services instance for restore operations.
 old-location: security\certsrvrestoreprepare.htm

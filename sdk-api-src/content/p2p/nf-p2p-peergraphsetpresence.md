@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphSetPresence
-title: PeerGraphSetPresence function
+title: PeerGraphSetPresence function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphSetPresence function explicitly turns on or off the publication of presence records for a specific node.
 old-location: p2p\peergraphsetpresence.htm

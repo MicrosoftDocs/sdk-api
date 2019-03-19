@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_GetFloat
-title: FLOATOBJ_GetFloat function
+title: FLOATOBJ_GetFloat function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_GetFloat function calculates and returns the FLOAT-equivalent value of the specified FLOATOBJ.
 old-location: display\floatobj_getfloat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10View.GetResource
-title: ID3D10View::GetResource
+title: ID3D10View::GetResource (d3d10.h)
 author: windows-sdk-content
 description: Get the resource that is accessed through this view.
 old-location: direct3d10\id3d10view_getresource.htm

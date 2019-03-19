@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.ShowProperties
-title: ISyncMgrSynchronize::ShowProperties
+title: ISyncMgrSynchronize::ShowProperties (mobsync.h)
 author: windows-sdk-content
 description: Called by the synchronization manager when a user selects an item in the choice dialog box, and then clicks the Properties button.
 old-location: shell\syncmgr_isyncmgrsynchronize_showproperties.htm

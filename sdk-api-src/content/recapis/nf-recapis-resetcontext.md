@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.ResetContext
-title: ResetContext function
+title: ResetContext function (recapis.h)
 author: windows-sdk-content
 description: Deletes the current ink and recognition results from the context.The current settings of the recognizer context are preserved.
 old-location: tablet\resetcontext.htm

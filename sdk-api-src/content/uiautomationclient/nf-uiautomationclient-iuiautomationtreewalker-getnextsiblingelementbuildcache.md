@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetNextSiblingElementBuildCache
-title: IUIAutomationTreeWalker::GetNextSiblingElementBuildCache
+title: IUIAutomationTreeWalker::GetNextSiblingElementBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the next sibling element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSiblingBuildCache.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_AYUVSample16
-title: DXVA2_AYUVSample16
+title: DXVA2_AYUVSample16 (dxva2api.h)
 author: windows-sdk-content
 description: Defines a 16-bit AYUV pixel value.
 old-location: mf\dxva2_ayuvsample16.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileListExA
-title: SetupDiGetHwProfileListExA function
+title: SetupDiGetHwProfileListExA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetHwProfileListEx function retrieves a list of all currently defined hardware profile IDs on a local or remote computer.
 old-location: devinst\setupdigethwprofilelistex.htm

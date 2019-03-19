@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_QueryInterfaceSettings
-title: WinUsb_QueryInterfaceSettings function
+title: WinUsb_QueryInterfaceSettings function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_QueryInterfaceSettings function retrieves the interface descriptor for the specified alternate interface settings for a particular interface handle.
 old-location: buses\winusb_queryinterfacesettings.htm

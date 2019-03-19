@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource2.get_CCCounter
-title: IMSVidStreamBufferSource2::get_CCCounter
+title: IMSVidStreamBufferSource2::get_CCCounter (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersource2_get_cccounter.htm

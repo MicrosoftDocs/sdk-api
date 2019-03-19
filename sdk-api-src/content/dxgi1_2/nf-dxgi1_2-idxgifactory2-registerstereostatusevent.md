@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterStereoStatusEvent
-title: IDXGIFactory2::RegisterStereoStatusEvent
+title: IDXGIFactory2::RegisterStereoStatusEvent (dxgi1_2.h)
 author: windows-sdk-content
 description: Registers to receive notification of changes in stereo status by using event signaling.
 old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusEvent.htm

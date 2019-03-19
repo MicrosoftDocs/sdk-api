@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_24
-title: USER_INFO_24
+title: USER_INFO_24 (lmaccess.h)
 author: windows-sdk-content
 description: Contains user account information on an account which is connected to an Internet identity. This information includes the Internet provider name for the user, the user's Internet name, and the user's security identifier (SID).
 old-location: netmgmt\user_info_24.htm

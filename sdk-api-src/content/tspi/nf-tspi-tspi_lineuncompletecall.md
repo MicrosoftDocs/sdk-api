@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineUncompleteCall
-title: TSPI_lineUncompleteCall function
+title: TSPI_lineUncompleteCall function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineUncompleteCall function is used to cancel the specified call completion request on the specified line.
 old-location: tspi\tspi_lineuncompletecall.htm

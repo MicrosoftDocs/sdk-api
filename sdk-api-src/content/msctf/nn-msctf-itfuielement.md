@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfUIElement
-title: ITfUIElement
+title: ITfUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElement interface is a base interface of the UIElement object and is implemented by a text service.
 old-location: tsf\itfuielement.htm

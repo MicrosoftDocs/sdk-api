@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_PRIVATE_KEY_INFO
-title: CRYPT_PRIVATE_KEY_INFO
+title: CRYPT_PRIVATE_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a clear-text private key in the PrivateKey field (DER encoded). CRYPT_PRIVATE_KEY_INFO contains the information in a PKCS #8 PrivateKeyInfo ASN.1 type found in the PKCS #8 standard.
 old-location: security\crypt_private_key_info.htm

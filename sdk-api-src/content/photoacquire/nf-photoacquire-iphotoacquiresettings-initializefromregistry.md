@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.InitializeFromRegistry
-title: IPhotoAcquireSettings::InitializeFromRegistry
+title: IPhotoAcquireSettings::InitializeFromRegistry (photoacquire.h)
 author: windows-sdk-content
 description: The InitializeFromRegistry method specifies a registry key from which to initialize settings.
 old-location: picacq\iphotoacquiresettings_initializefromregistry.htm

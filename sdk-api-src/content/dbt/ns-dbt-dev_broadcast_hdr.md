@@ -1,6 +1,6 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_HDR
-title: DEV_BROADCAST_HDR
+title: DEV_BROADCAST_HDR (dbt.h)
 author: windows-sdk-content
 description: Serves as a standard header for information related to a device event reported through the WM_DEVICECHANGE message.
 old-location: base\dev_broadcast_hdr_str.htm

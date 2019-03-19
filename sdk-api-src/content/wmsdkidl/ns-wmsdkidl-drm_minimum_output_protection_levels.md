@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
-title: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS
+title: DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS (wmsdkidl.h)
 author: windows-sdk-content
 description: The DRM_MINIMUM_OUTPUT_PROTECTION_LEVELS structure holds the minimum output protection levels (OPL) for playback of various types of content. A device must support the minimum OPL for a type of data to receive that type of data from the reader.
 old-location: wmformat\drm_minimum_output_protection_levels.htm

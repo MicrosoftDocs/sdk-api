@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordServiceIdByIndex
-title: IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex
+title: IIsdbTSInformationDescriptor::GetRecordServiceIdByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a service identifier from a specified service record in an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordserviceidbyindex.htm

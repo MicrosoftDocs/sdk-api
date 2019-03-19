@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetAt
-title: IXpsOMRemoteDictionaryResourceCollection::GetAt
+title: IXpsOMRemoteDictionaryResourceCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMRemoteDictionaryResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_getat.htm

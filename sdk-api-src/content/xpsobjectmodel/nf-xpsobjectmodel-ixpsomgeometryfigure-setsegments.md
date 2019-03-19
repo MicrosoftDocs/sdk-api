@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetSegments
-title: IXpsOMGeometryFigure::SetSegments
+title: IXpsOMGeometryFigure::SetSegments (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the segment information and data points for segments in the figure.
 old-location: xps\ixpsomgeometryfigure_setsegments.htm

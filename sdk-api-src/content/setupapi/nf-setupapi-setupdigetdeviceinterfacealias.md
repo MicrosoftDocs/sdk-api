@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfaceAlias
-title: SetupDiGetDeviceInterfaceAlias function
+title: SetupDiGetDeviceInterfaceAlias function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDeviceInterfaceAlias function returns an alias of a specified device interface.
 old-location: devinst\setupdigetdeviceinterfacealias.htm

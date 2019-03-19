@@ -1,6 +1,6 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.ModifySyncProvider
-title: ISyncProviderConfigUI::ModifySyncProvider
+title: ISyncProviderConfigUI::ModifySyncProvider (syncregistration.h)
 author: windows-sdk-content
 description: Updates the ISyncProviderInfo of the synchronization provider that is configured by this ISyncProviderConfigUI.
 old-location: winsync\isyncproviderconfigui_modifysyncprovider.htm

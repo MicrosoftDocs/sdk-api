@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadDWORD
-title: IWbemObjectAccess::ReadDWORD
+title: IWbemObjectAccess::ReadDWORD (wbemcli.h)
 author: windows-sdk-content
 description: The ReadDWORD method reads 32 bits of property data using a property handle.
 old-location: wmi\iwbemobjectaccess_readdword.htm

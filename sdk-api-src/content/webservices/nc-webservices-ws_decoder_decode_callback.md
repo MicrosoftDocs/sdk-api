@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_DECODER_DECODE_CALLBACK
-title: WS_DECODER_DECODE_CALLBACK
+title: WS_DECODER_DECODE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Decodes a message.
 old-location: wsw\ws_decoder_decode_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_INIT_INFO
-title: AUTHZ_INIT_INFO
+title: AUTHZ_INIT_INFO (authz.h)
 author: windows-sdk-content
 description: Defines the initialization information for the resource manager.
 old-location: security\authz_init_info.htm

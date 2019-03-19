@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_70
-title: WS_CERT_CREDENTIAL_TYPE
+title: WS_CERT_CREDENTIAL_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of the certificate credential, used as a selector for subtypes of WS_CERT_CREDENTIAL.
 old-location: wsw\ws_cert_credential_type.htm

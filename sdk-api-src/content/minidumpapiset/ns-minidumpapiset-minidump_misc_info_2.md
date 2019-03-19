@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MISC_INFO_2
-title: MINIDUMP_MISC_INFO_2
+title: MINIDUMP_MISC_INFO_2 (minidumpapiset.h)
 author: windows-sdk-content
 description: Represents information in the miscellaneous information stream.
 old-location: base\minidump_misc_info_2.htm

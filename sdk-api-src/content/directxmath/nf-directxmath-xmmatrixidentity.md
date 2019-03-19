@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixIdentity
-title: XMMatrixIdentity function
+title: XMMatrixIdentity function (directxmath.h)
 author: windows-sdk-content
 description: Builds the identity matrix.
 old-location: dxmath\xmmatrixidentity.htm

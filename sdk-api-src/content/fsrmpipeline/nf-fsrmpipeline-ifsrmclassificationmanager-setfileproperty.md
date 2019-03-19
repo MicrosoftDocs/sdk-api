@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.SetFileProperty
-title: IFsrmClassificationManager::SetFileProperty
+title: IFsrmClassificationManager::SetFileProperty (fsrmpipeline.h)
 author: windows-sdk-content
 description: Sets the value of the specified property in the file or folder.
 old-location: fsrm\ifsrmclassificationmanager_setfileproperty.htm

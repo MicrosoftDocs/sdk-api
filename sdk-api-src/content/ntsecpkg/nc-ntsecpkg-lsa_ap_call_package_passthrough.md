@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_CALL_PACKAGE_PASSTHROUGH
-title: LSA_AP_CALL_PACKAGE_PASSTHROUGH
+title: LSA_AP_CALL_PACKAGE_PASSTHROUGH (ntsecpkg.h)
 author: windows-sdk-content
 description: The dispatch function for pass-through logon requests sent to the LsaCallAuthenticationPackage function.
 old-location: security\lsaapcallpackagepassthrough.htm

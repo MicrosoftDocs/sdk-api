@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetInputPrefType
-title: IMFTopologyNode::SetInputPrefType
+title: IMFTopologyNode::SetInputPrefType (mfidl.h)
 author: windows-sdk-content
 description: Sets the preferred media type for an input stream on this node.
 old-location: mf\imftopologynode_setinputpreftype.htm

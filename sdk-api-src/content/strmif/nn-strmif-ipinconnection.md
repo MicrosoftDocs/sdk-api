@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IPinConnection
-title: IPinConnection
+title: IPinConnection (strmif.h)
 author: windows-sdk-content
 description: This interface provides methods for reconnecting an input pin while the filter is still running.
 old-location: dshow\ipinconnection.htm

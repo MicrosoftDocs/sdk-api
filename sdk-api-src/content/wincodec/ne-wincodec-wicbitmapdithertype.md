@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICBitmapDitherType
-title: WICBitmapDitherType
+title: WICBitmapDitherType (wincodec.h)
 author: windows-sdk-content
 description: Specifies the type of dither algorithm to apply when converting between image formats.
 old-location: wic\_wic_codec_wicbitmapdithertype.htm

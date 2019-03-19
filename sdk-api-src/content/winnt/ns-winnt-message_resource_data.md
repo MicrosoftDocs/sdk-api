@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._MESSAGE_RESOURCE_DATA
-title: MESSAGE_RESOURCE_DATA
+title: MESSAGE_RESOURCE_DATA (winnt.h)
 author: windows-sdk-content
 description: Contains information about formatted text for display as an error message or in a message box in a message table resource.
 old-location: menurc\message_resource_data.htm

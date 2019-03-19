@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionTableTransferEffect
-title: IDCompositionTableTransferEffect
+title: IDCompositionTableTransferEffect (dcomp.h)
 author: windows-sdk-content
 description: The table transfer effect is used to map the color intensities of an image using a transfer function created from interpolating a list of values you provide.
 old-location: directcomp\idcompositiontabletransfereffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CanResourceBeDependent
-title: CanResourceBeDependent function
+title: CanResourceBeDependent function (clusapi.h)
 author: windows-sdk-content
 description: Determines if one resource can be dependent upon another resource.
 old-location: mscs\canresourcebedependent.htm

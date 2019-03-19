@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetEffectParameters
-title: IXAudio2Voice::GetEffectParameters
+title: IXAudio2Voice::GetEffectParameters (xaudio2.h)
 author: windows-sdk-content
 description: Returns the current effect-specific parameters of a given effect in the voice's effect chain.
 old-location: xaudio2\ixaudio2voice_interface_geteffectparameters.htm

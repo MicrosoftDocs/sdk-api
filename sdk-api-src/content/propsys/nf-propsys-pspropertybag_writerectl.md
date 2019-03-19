@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteRECTL
-title: PSPropertyBag_WriteRECTL function
+title: PSPropertyBag_WriteRECTL function (propsys.h)
 author: windows-sdk-content
 description: Stores the coordinates of a rectangle in a property in a property bag.
 old-location: properties\PSPropertyBag_WriteRECTL.htm

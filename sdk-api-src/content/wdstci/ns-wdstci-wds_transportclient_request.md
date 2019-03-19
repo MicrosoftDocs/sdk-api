@@ -1,6 +1,6 @@
 ---
 UID: NS:wdstci._WDS_TRANSPORTCLIENT_REQUEST
-title: WDS_TRANSPORTCLIENT_REQUEST
+title: WDS_TRANSPORTCLIENT_REQUEST (wdstci.h)
 author: windows-sdk-content
 description: This structure is used by the WdsTransportClientStartSession function.
 old-location: wds\wds_transportclient_request.htm

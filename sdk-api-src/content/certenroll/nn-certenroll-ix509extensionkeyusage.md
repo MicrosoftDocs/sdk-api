@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionKeyUsage
-title: IX509ExtensionKeyUsage
+title: IX509ExtensionKeyUsage (certenroll.h)
 author: windows-sdk-content
 description: Can be used to define restrictions on the operations that can be performed by the public key contained in the certificate.
 old-location: security\ix509extensionkeyusage.htm

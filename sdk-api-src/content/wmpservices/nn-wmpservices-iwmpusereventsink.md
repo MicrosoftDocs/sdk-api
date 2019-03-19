@@ -1,6 +1,6 @@
 ---
 UID: NN:wmpservices.IWMPUserEventSink
-title: IWMPUserEventSink
+title: IWMPUserEventSink (wmpservices.h)
 author: windows-sdk-content
 description: The IWMPUserEventSink interface receives event notifications from a custom video presenter.
 old-location: wmp\iwmpusereventsink.htm

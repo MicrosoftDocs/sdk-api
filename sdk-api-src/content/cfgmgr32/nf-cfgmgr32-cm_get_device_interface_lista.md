@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_ListA
-title: CM_Get_Device_Interface_ListA function
+title: CM_Get_Device_Interface_ListA function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class.
 old-location: devinst\cm_get_device_interface_list.htm

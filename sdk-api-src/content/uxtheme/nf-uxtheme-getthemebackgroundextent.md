@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundExtent
-title: GetThemeBackgroundExtent function
+title: GetThemeBackgroundExtent function (uxtheme.h)
 author: windows-sdk-content
 description: Calculates the size and location of the background, defined by the visual style, given the content area.
 old-location: controls\GetThemeBackgroundExtent.htm

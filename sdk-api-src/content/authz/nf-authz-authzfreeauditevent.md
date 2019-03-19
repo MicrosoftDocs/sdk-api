@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzFreeAuditEvent
-title: AuthzFreeAuditEvent function
+title: AuthzFreeAuditEvent function (authz.h)
 author: windows-sdk-content
 description: Frees the structure allocated by the AuthzInitializeObjectAccessAuditEvent function.
 old-location: security\authzfreeauditevent.htm

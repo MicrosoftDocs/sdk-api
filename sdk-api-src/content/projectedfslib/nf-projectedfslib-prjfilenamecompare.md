@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjFileNameCompare
-title: PrjFileNameCompare function
+title: PrjFileNameCompare function (projectedfslib.h)
 author: windows-sdk-content
 description: Compares two file names and returns a value that indicates their relative collation order.
 old-location: projfs\prjfilenamecompare.htm

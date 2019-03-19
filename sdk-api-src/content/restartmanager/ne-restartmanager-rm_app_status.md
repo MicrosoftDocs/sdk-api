@@ -1,6 +1,6 @@
 ---
 UID: NE:restartmanager._RM_APP_STATUS
-title: RM_APP_STATUS
+title: RM_APP_STATUS (restartmanager.h)
 author: windows-sdk-content
 description: Describes the current status of an application that is acted upon by the Restart Manager.
 old-location: rstmgr\rm_app_status.htm

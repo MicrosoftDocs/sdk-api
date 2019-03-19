@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGetByIndexPtr
-title: XMVectorGetByIndexPtr function
+title: XMVectorGetByIndexPtr function (directxmath.h)
 author: windows-sdk-content
 description: Retrieve, into an instance of a floating-point referenced by pointer, the value of one of the four components of an XMVECTOR Data Type containing floating-point data, referenced by index.
 old-location: dxmath\xmvectorgetbyindexptr.htm

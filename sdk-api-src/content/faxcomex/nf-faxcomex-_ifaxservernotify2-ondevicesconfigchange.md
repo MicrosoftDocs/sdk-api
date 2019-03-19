@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnDevicesConfigChange
-title: "_IFaxServerNotify2::OnDevicesConfigChange"
+title: "_IFaxServerNotify2::OnDevicesConfigChange" (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnDevicesConfigChange method when there is a change to a fax device configuration.
 old-location: fax\_mfax_ifaxservernotify2_ondevicesconfigchange.htm

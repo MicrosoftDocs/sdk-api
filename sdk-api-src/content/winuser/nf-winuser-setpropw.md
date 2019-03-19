@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetPropW
-title: SetPropW function
+title: SetPropW function (winuser.h)
 author: windows-sdk-content
 description: Adds a new entry or changes an existing entry in the property list of the specified window.
 old-location: winmsg\setprop.htm

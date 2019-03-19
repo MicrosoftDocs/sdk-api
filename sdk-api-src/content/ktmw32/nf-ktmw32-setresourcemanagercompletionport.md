@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.SetResourceManagerCompletionPort
-title: SetResourceManagerCompletionPort function
+title: SetResourceManagerCompletionPort function (ktmw32.h)
 author: windows-sdk-content
 description: Associates the specified I/O completion port with the specified resource manager (RM). This port receives all notifications for the RM.
 old-location: fs\setresourcemanagercompletionport.htm

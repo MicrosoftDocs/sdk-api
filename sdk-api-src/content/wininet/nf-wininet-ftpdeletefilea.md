@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.FtpDeleteFileA
-title: FtpDeleteFileA function
+title: FtpDeleteFileA function (wininet.h)
 author: windows-sdk-content
 description: Deletes a file stored on the FTP server.
 old-location: wininet\ftpdeletefile.htm

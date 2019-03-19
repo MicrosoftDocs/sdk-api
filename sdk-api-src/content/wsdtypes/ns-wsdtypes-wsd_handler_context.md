@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_HANDLER_CONTEXT
-title: WSD_HANDLER_CONTEXT
+title: WSD_HANDLER_CONTEXT (wsdtypes.h)
 author: windows-sdk-content
 description: Specifies the context for handling incoming messages.
 old-location: ncd\wsd_handler_context_struct.htm

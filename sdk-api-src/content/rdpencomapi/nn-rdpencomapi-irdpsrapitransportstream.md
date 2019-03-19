@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITransportStream
-title: IRDPSRAPITransportStream
+title: IRDPSRAPITransportStream (rdpencomapi.h)
 author: windows-sdk-content
 description: Exposes methods that perform operations with streams.
 old-location: rdp\irdpsrapitransportstream.htm

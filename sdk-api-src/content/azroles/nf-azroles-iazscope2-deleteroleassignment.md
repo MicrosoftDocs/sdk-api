@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope2.DeleteRoleAssignment
-title: IAzScope2::DeleteRoleAssignment
+title: IAzScope2::DeleteRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Removes the specified IAzRoleAssignment object from this scope.
 old-location: security\iazscope2_deleteroleassignment.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PGET_MFE_STATUS
-title: PGET_MFE_STATUS
+title: PGET_MFE_STATUS (routprot.h)
 author: windows-sdk-content
 description: The router manager calls the GetMfeStatus function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.
 old-location: rras\getmfestatus.htm

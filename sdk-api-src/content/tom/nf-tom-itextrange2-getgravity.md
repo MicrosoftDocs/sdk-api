@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetGravity
-title: ITextRange2::GetGravity
+title: ITextRange2::GetGravity (tom.h)
 author: windows-sdk-content
 description: Gets the gravity of this range.
 old-location: controls\itextrange2_getgravity.htm

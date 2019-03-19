@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.OnBeginPainting
-title: IWTSProtocolLogonErrorRedirector::OnBeginPainting
+title: IWTSProtocolLogonErrorRedirector::OnBeginPainting (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolLogonErrorRedirector::OnBeginPainting is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::OnBeginPainting.
 old-location: termserv\iwtsprotocollogonerrorredirector_onbeginpainting.htm

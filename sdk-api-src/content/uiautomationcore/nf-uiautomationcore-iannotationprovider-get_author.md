@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_Author
-title: IAnnotationProvider::get_Author
+title: IAnnotationProvider::get_Author (uiautomationcore.h)
 author: windows-sdk-content
 description: The name of the annotation author.
 old-location: winauto\uiauto_IAnnotationProvider_Author.htm

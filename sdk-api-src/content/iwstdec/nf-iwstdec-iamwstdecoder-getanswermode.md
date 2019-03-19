@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetAnswerMode
-title: IAMWstDecoder::GetAnswerMode
+title: IAMWstDecoder::GetAnswerMode (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the GetAnswerMode method to retrieve the current answer mode.
 old-location: dshow\iamwstdecoder_getanswermode.htm

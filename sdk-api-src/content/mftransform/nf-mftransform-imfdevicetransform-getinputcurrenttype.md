@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputCurrentType
-title: IMFDeviceTransform::GetInputCurrentType
+title: IMFDeviceTransform::GetInputCurrentType (mftransform.h)
 author: windows-sdk-content
 description: The GetInputCurrentType method gets the current media type for an input stream on this Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_getinputcurrenttype.htm

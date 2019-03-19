@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplicationList
-title: IRDPSRAPIApplicationList
+title: IRDPSRAPIApplicationList (rdpencomapi.h)
 author: windows-sdk-content
 description: Manages the application list.
 old-location: rdp\irdpsrapiapplicationlist.htm

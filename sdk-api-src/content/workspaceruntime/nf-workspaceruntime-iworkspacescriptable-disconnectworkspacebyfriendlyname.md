@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.DisconnectWorkspaceByFriendlyName
-title: IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName
+title: IWorkspaceScriptable::DisconnectWorkspaceByFriendlyName (workspaceruntime.h)
 author: windows-sdk-content
 description: Disconnects all existing connections associated with the connection that has the specified name.
 old-location: termserv\iworkspacescriptable_disconnectworkspacebyfriendlyname.htm

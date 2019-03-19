@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.DeleteItem
-title: IResultData::DeleteItem
+title: IResultData::DeleteItem (mmc.h)
 author: windows-sdk-content
 description: Enables the snap-in to delete a single item in the result view pane.
 old-location: mmc\iresultdata_deleteitem.htm

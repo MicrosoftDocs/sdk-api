@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethodsWithName
-title: IMetaDataImport::EnumMethodsWithName
+title: IMetaDataImport::EnumMethodsWithName (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates methods that have the specified name and that are defined by the type referenced by the specified TypeDef token.
 old-location: winrt\imetadataimport_enummethodswithname.htm

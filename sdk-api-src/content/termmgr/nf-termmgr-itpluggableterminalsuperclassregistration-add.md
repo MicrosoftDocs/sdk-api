@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.Add
-title: ITPluggableTerminalSuperclassRegistration::Add
+title: ITPluggableTerminalSuperclassRegistration::Add (termmgr.h)
 author: windows-sdk-content
 description: The Add method adds a pluggable terminal superclass to the registry. If the superclass already exists, the method modifies the information for the superclass.
 old-location: tapi3\itpluggableterminalsuperclassregistration_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.QueryCapability
-title: IWICBitmapDecoder::QueryCapability
+title: IWICBitmapDecoder::QueryCapability (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the capabilities of the decoder based on the specified stream.
 old-location: wic\_wic_codec_iwicbitmapdecoder_querycapability.htm

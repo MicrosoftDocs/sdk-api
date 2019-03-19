@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITRequest.MakeCall
-title: ITRequest::MakeCall
+title: ITRequest::MakeCall (tapi3if.h)
 author: windows-sdk-content
 description: The MakeCall method makes a call to the designated party.
 old-location: tapi3\itrequest_makecall.htm

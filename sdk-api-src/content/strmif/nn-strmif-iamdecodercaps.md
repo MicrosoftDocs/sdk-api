@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMDecoderCaps
-title: IAMDecoderCaps
+title: IAMDecoderCaps (strmif.h)
 author: windows-sdk-content
 description: The IAMDecoderCaps interface returns capabilities information from an MPEG decoder filter.
 old-location: dshow\iamdecodercaps.htm

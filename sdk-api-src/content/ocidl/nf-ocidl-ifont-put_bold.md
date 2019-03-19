@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Bold
-title: IFont::put_Bold
+title: IFont::put_Bold (ocidl.h)
 author: windows-sdk-content
 description: Sets the font's Bold property.
 old-location: com\ifont_put_bold.htm

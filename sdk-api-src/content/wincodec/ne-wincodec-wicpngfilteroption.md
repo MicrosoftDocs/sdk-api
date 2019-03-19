@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPngFilterOption
-title: WICPngFilterOption
+title: WICPngFilterOption (wincodec.h)
 author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) filters available for compression optimization.
 old-location: wic\_wic_codec_wicpngfilteroption.htm

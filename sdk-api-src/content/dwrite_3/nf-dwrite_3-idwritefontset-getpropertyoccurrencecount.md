@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetPropertyOccurrenceCount
-title: IDWriteFontSet::GetPropertyOccurrenceCount
+title: IDWriteFontSet::GetPropertyOccurrenceCount (dwrite_3.h)
 author: windows-sdk-content
 description: Returns how many times a given property value occurs in the set.
 old-location: directwrite\idwritefontset_getpropertyoccurrencecount.htm

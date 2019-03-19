@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmGetWindowAttribute
-title: DwmGetWindowAttribute function
+title: DwmGetWindowAttribute function (dwmapi.h)
 author: windows-sdk-content
 description: Retrieves the current value of a specified attribute applied to a window.
 old-location: dwm\dwmgetwindowattribute.htm

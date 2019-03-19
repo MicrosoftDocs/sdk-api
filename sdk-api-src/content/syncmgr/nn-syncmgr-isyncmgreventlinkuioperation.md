@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrEventLinkUIOperation
-title: ISyncMgrEventLinkUIOperation
+title: ISyncMgrEventLinkUIOperation (syncmgr.h)
 author: windows-sdk-content
 description: Provides a method that is called when event links are clicked in the sync results folder.
 old-location: shell\ISyncMgrEventLinkUIOperation.htm

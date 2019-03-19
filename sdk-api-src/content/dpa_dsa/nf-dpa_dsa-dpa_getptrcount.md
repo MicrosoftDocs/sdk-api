@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_GetPtrCount
-title: DPA_GetPtrCount macro
+title: DPA_GetPtrCount macro (dpa_dsa.h)
 author: windows-sdk-content
 description: Gets the number of pointers in a dynamic pointer array (DPA).
 old-location: controls\DPA_GetPtrCount.htm

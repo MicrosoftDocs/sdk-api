@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.IsStringSupported
-title: IInkRecognizerContext::IsStringSupported
+title: IInkRecognizerContext::IsStringSupported (msinkaut.h)
 author: windows-sdk-content
 description: Indicates whether the system dictionary, user dictionary, or word list contain a specified string.
 old-location: tablet\inkrecognizercontext_isstringsupported.htm

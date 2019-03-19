@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateTrustedDomains
-title: LsaEnumerateTrustedDomains function
+title: LsaEnumerateTrustedDomains function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaEnumerateTrustedDomains function retrieves the names and SIDs of domains trusted to authenticate logon credentials.
 old-location: security\lsaenumeratetrusteddomains.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.RemoveEntryByIndex
-title: ITocCollection::RemoveEntryByIndex
+title: ITocCollection::RemoveEntryByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The RemoveEntryByIndex method removes a table of contents, specified by an index, from the collection.
 old-location: mf\itoccollection_removeentrybyindex.htm

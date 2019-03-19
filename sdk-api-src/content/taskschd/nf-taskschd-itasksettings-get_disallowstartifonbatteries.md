@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_DisallowStartIfOnBatteries
-title: ITaskSettings::get_DisallowStartIfOnBatteries
+title: ITaskSettings::get_DisallowStartIfOnBatteries (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task will not be started if the computer is running on batteries.
 old-location: taskschd\itasksettings_disallowstartifonbatteries.htm

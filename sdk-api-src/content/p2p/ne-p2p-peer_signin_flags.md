@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_signin_flags_tag
-title: PEER_SIGNIN_FLAGS
+title: PEER_SIGNIN_FLAGS (p2p.h)
 author: windows-sdk-content
 description: The PEER_SIGNIN_FLAGS enumeration defines the set of peer presence publication behaviors available when the peer signs in to a peer collaboration network.
 old-location: p2p\peer_signin_flags.htm

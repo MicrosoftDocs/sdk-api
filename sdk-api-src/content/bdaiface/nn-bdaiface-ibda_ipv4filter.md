@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_IPV4Filter
-title: IBDA_IPV4Filter
+title: IBDA_IPV4Filter (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_ IPV4Filter interface is implemented on a Network Provider.
 old-location: mstv\ibda_ipv4filter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.GetBufferCount
-title: IMFSample::GetBufferCount
+title: IMFSample::GetBufferCount (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the number of buffers in the sample.
 old-location: mf\imfsample_getbuffercount.htm

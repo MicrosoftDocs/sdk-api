@@ -1,6 +1,6 @@
 ---
 UID: NN:xaudio2.IXAudio2EngineCallback
-title: IXAudio2EngineCallback
+title: IXAudio2EngineCallback (xaudio2.h)
 author: windows-sdk-content
 description: The IXAudio2EngineCallback interface contains methods that notify the client when certain events happen in the IXAudio2 engine.
 old-location: xaudio2\ixaudio2enginecallback.htm

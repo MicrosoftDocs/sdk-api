@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_result
-title: ldap_result function
+title: ldap_result function (winldap.h)
 author: windows-sdk-content
 description: Obtains the result of an asynchronous operation.
 old-location: ldap\ldap_result.htm

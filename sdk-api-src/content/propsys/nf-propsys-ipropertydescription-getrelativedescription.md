@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetRelativeDescription
-title: IPropertyDescription::GetRelativeDescription
+title: IPropertyDescription::GetRelativeDescription (propsys.h)
 author: windows-sdk-content
 description: Compares two property values in the manner specified by the property description. Returns two display strings that describe how the two properties compare.
 old-location: properties\IPropertyDescription_GetRelativeDescription.htm

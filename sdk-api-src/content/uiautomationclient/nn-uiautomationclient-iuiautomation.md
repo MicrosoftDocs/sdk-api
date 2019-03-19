@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation
-title: IUIAutomation
+title: IUIAutomation (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes methods that enable Microsoft UI Automation client applications to discover, access, and filter UI Automation elements.
 old-location: winauto\uiauto_IUIAutomation.htm

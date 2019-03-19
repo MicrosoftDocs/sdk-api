@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2fx.ReverbConvertI3DL2ToNative
-title: ReverbConvertI3DL2ToNative function
+title: ReverbConvertI3DL2ToNative function (xaudio2fx.h)
 author: windows-sdk-content
 description: Inline function that converts I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters to native XAudio2 parameters.
 old-location: xaudio2\reverbconverti3dl2tonative.htm

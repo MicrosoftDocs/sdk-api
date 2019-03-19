@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL)
-title: CustomLineCap::CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL)
+title: CustomLineCap::CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a CustomLineCap::CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_.htm

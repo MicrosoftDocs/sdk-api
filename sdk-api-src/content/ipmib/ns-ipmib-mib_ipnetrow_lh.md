@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPNETROW_LH
-title: MIB_IPNETROW_LH
+title: MIB_IPNETROW_LH (ipmib.h)
 author: windows-sdk-content
 description: Contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
 old-location: mib\mib_ipnetrow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetExtensionID
-title: TSPI_phoneGetExtensionID function
+title: TSPI_phoneGetExtensionID function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetExtensionID function retrieves the extension identifier that the service provider supports for the indicated phone device.
 old-location: tspi\tspi_phonegetextensionid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincodecsdk.WICMetadataHeader
-title: WICMetadataHeader
+title: WICMetadataHeader (wincodecsdk.h)
 author: windows-sdk-content
 description: Represents metadata header.
 old-location: wic\_wic_codec_wicmetadataheader.htm

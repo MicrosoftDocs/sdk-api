@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaCreateEnumHandle0
-title: IPsecSaCreateEnumHandle0 function
+title: IPsecSaCreateEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Creates a handle used to enumerate a set of Internet Protocol Security (IPsec) security association (SA) objects.
 old-location: fwp\ipsecsacreateenumhandle0_func.htm

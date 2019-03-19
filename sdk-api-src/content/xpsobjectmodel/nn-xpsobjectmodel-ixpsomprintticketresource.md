@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPrintTicketResource
-title: IXpsOMPrintTicketResource
+title: IXpsOMPrintTicketResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Provides an IStream interface to a PrintTicket resource.
 old-location: xps\ixpsomprintticketresource.htm

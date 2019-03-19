@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComUserEvent
-title: IComUserEvent
+title: IComUserEvent (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber of the specified user-defined metrics.
 old-location: cos\icomuserevent.htm

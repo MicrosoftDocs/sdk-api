@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetExtendedTileViewProperties
-title: IFolderView2::SetExtendedTileViewProperties
+title: IFolderView2::SetExtendedTileViewProperties (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the list of extended tile properties for an item.
 old-location: shell\IFolderView2_SetExtendedTileViewProperties.htm

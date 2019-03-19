@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1Layer
-title: ID2D1Layer
+title: ID2D1Layer (d2d1.h)
 author: windows-sdk-content
 description: Represents the backing store required to render a layer.
 old-location: direct2d\ID2D1Layer.htm

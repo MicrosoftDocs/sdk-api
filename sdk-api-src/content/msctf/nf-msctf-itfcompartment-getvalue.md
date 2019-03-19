@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartment.GetValue
-title: ITfCompartment::GetValue
+title: ITfCompartment::GetValue (msctf.h)
 author: windows-sdk-content
 description: ITfCompartment::GetValue method
 old-location: tsf\itfcompartment_getvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.GetDimension
-title: IUIAnimationTransition2::GetDimension
+title: IUIAnimationTransition2::GetDimension (uianimation.h)
 author: windows-sdk-content
 description: Gets the number of dimensions in which the animation variable has a transition specified.
 old-location: uianimation\iuianimationtransition2_getdimension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetOwner
-title: IXpsOMSignatureBlockResource::GetOwner
+title: IXpsOMSignatureBlockResource::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocument interface that contains the resource.
 old-location: xps\ixpsomsignatureblockresource_getowner.htm

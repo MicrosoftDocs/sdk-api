@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuningSpace2.put_NetworkID
-title: IDVBTuningSpace2::put_NetworkID
+title: IDVBTuningSpace2::put_NetworkID (tuner.h)
 author: windows-sdk-content
 description: The put_NetworkID method sets the Network ID of the DVB system.
 old-location: mstv\idvbtuningspace2_put_networkid.htm

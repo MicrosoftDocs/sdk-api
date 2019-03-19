@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMSetBlendState
-title: ID3D10Device::OMSetBlendState
+title: ID3D10Device::OMSetBlendState (d3d10.h)
 author: windows-sdk-content
 description: Set the blend state of the output-merger stage.
 old-location: direct3d10\id3d10device_omsetblendstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTrackedSample.SetAllocator
-title: IMFTrackedSample::SetAllocator
+title: IMFTrackedSample::SetAllocator (mfidl.h)
 author: windows-sdk-content
 description: Sets the owner for the sample.
 old-location: mf\imftrackedsample_setallocator.htm

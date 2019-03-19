@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobTransferred
-title: IBackgroundCopyCallback::JobTransferred
+title: IBackgroundCopyCallback::JobTransferred (bits.h)
 author: windows-sdk-content
 description: BITS calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
 old-location: bits\ibackgroundcopycallback_jobtransferred.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.put_MaxMajorChannel
-title: IDigitalCableTuningSpace::put_MaxMajorChannel
+title: IDigitalCableTuningSpace::put_MaxMajorChannel (tuner.h)
 author: windows-sdk-content
 description: The put_MaxMajorChannel method sets the highest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_put_maxmajorchannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_ExtendedStatus
-title: IFaxOutgoingJob::get_ExtendedStatus
+title: IFaxOutgoingJob::get_ExtendedStatus (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_ExtendedStatus property is a null-terminated string that describes the job's extended status.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatus_cpp.htm

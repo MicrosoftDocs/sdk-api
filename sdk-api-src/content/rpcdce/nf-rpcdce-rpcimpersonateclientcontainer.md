@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcImpersonateClientContainer
-title: RpcImpersonateClientContainer function
+title: RpcImpersonateClientContainer function (rpcdce.h)
 author: windows-sdk-content
 description: RpcImpersonateClientContainer may be altered or unavailable.
 old-location: rpc\rpcimpersonateclientcontainer.htm

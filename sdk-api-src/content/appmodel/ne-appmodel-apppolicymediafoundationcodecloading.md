@@ -1,6 +1,6 @@
 ---
 UID: NE:appmodel.AppPolicyMediaFoundationCodecLoading
-title: AppPolicyMediaFoundationCodecLoading
+title: AppPolicyMediaFoundationCodecLoading (appmodel.h)
 author: windows-sdk-content
 description: The AppPolicyMediaFoundationCodecLoading enumeration indicates whether a process’s policy allows it to load non-Windows (third-party) plugins.
 old-location: appxpkg\apppolicymediafoundationcodecloading.htm

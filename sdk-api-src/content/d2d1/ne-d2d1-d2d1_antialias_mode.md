@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_ANTIALIAS_MODE
-title: D2D1_ANTIALIAS_MODE
+title: D2D1_ANTIALIAS_MODE (d2d1.h)
 author: windows-sdk-content
 description: Specifies how the edges of nontext primitives are rendered.
 old-location: direct2d\D2D1_ANTIALIAS_MODE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.SetCellMergeFlags
-title: ITextRow::SetCellMergeFlags
+title: ITextRow::SetCellMergeFlags (tom.h)
 author: windows-sdk-content
 description: Sets the merge flags of the active cell.
 old-location: controls\itextrow_setcellmergeflags.htm

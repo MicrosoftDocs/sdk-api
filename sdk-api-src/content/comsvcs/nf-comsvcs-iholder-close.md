@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.Close
-title: IHolder::Close
+title: IHolder::Close (comsvcs.h)
 author: windows-sdk-content
 description: Closes the Holder.
 old-location: cos\iholder_close.htm

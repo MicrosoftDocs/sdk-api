@@ -1,6 +1,6 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.GetForWindow
-title: IPrintManagerInterop::GetForWindow
+title: IPrintManagerInterop::GetForWindow (printmanagerinterop.h)
 author: windows-sdk-content
 description: Gets the PrintManager instance for the specified window.
 old-location: winrt\iprintmanagerinterop_getforwindow.htm

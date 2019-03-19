@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.SetGain
-title: IDirectInputEffectDriver::SetGain
+title: IDirectInputEffectDriver::SetGain (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::SetGain method sets the overall device gain.
 old-location: hid\idirectinputeffectdriver_setgain.htm

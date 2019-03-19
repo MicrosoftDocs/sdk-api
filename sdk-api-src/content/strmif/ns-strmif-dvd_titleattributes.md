@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_TitleMainAttributes
-title: DVD_TitleAttributes
+title: DVD_TitleAttributes (strmif.h)
 author: windows-sdk-content
 description: The DVD_TitleAttributes structure contains information about a DVD title.
 old-location: dshow\dvd_titleattributes.htm

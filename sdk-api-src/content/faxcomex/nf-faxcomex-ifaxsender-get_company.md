@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_Company
-title: IFaxSender::get_Company
+title: IFaxSender::get_Company (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSender::get_Company property is a null-terminated string that contains the company name associated with the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_company_cpp.htm

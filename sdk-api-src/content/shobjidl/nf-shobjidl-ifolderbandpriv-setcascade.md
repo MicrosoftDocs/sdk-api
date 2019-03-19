@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetCascade
-title: IFolderBandPriv::SetCascade
+title: IFolderBandPriv::SetCascade (shobjidl.h)
 author: windows-sdk-content
 description: Sets a cascade folder.
 old-location: shell\IFolderBandPriv_SetCascade.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidFilePlayback.put_FileName
-title: IMSVidFilePlayback::put_FileName
+title: IMSVidFilePlayback::put_FileName (segment.h)
 author: windows-sdk-content
 description: The put_FileName method sets the name of the file to play.
 old-location: mstv\imsvidfileplayback_put_filename.htm

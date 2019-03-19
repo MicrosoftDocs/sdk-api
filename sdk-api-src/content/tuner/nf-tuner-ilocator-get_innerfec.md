@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_InnerFEC
-title: ILocator::get_InnerFEC
+title: ILocator::get_InnerFEC (tuner.h)
 author: windows-sdk-content
 description: The get_InnerFEC method gets the type of inner FEC that is used.
 old-location: mstv\ilocator_get_innerfec.htm

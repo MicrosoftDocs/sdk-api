@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontFaceIndex
-title: IXpsOMGlyphs::GetFontFaceIndex
+title: IXpsOMGlyphs::GetFontFaceIndex (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the index of the font face to be used.
 old-location: xps\ixpsomglyphs_getfontfaceindex.htm

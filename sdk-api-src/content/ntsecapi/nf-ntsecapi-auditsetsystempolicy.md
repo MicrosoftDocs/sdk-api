@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditSetSystemPolicy
-title: AuditSetSystemPolicy function
+title: AuditSetSystemPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Sets system audit policy for one or more audit-policy subcategories.
 old-location: security\auditsetsystempolicy_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GeometrySink.AddQuadraticBeziers
-title: ID2D1GeometrySink::AddQuadraticBeziers
+title: ID2D1GeometrySink::AddQuadraticBeziers (d2d1.h)
 author: windows-sdk-content
 description: Adds a sequence of quadratic Bezier segments as an array in a single call.
 old-location: direct2d\ID2D1GeometrySink_AddQuadraticBeziers.htm

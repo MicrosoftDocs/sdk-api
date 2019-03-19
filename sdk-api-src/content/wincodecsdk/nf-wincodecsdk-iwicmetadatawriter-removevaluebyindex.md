@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValueByIndex
-title: IWICMetadataWriter::RemoveValueByIndex
+title: IWICMetadataWriter::RemoveValueByIndex (wincodecsdk.h)
 author: windows-sdk-content
 description: Removes the metadata item at the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevaluebyindex.htm

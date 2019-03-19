@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Lock
-title: IWMSecureChannel::WMSC_Lock
+title: IWMSecureChannel::WMSC_Lock (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_Lock method locks access to the secure connection.
 old-location: wmformat\iwmsecurechannel_wmsc_lock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.InsertNullStr
-title: ITextStrings::InsertNullStr
+title: ITextStrings::InsertNullStr (tom.h)
 author: windows-sdk-content
 description: Inserts a NULL string in the collection at a selected string index.
 old-location: controls\itextstrings_insertnullstr.htm

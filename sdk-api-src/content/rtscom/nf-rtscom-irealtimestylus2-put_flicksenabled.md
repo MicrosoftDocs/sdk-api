@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus2.put_FlicksEnabled
-title: IRealTimeStylus2::put_FlicksEnabled
+title: IRealTimeStylus2::put_FlicksEnabled (rtscom.h)
 author: windows-sdk-content
 description: Indicates if flick gesture recognition is enabled.
 old-location: tablet\irealtimestylus2_put_flicksenabled.htm

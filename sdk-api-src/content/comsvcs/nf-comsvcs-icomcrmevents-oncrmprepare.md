@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMPrepare
-title: IComCRMEvents::OnCRMPrepare
+title: IComCRMEvents::OnCRMPrepare (comsvcs.h)
 author: windows-sdk-content
 description: Generated when CRM clerk receives a prepare notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmprepare.htm

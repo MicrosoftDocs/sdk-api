@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetNumChannels
-title: IDeviceModelPlugIn::GetNumChannels
+title: IDeviceModelPlugIn::GetNumChannels (wcsplugin.h)
 author: windows-sdk-content
 description: Returns the number of device channels in the parameter pNumChannels.
 old-location: wcs\IDeviceModelPlugIn_GetNumChannels.htm

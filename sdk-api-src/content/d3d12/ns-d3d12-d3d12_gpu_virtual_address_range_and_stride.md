@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
-title: D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
+title: D3D12_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE (d3d12.h)
 author: windows-sdk-content
 description: Represents a GPU virtual address range and stride.
 old-location: direct3d12\d3d12_gpu_virtual_address_range_and_stride.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmcobj.ISnapinProperties.QueryPropertyNames
-title: ISnapinProperties::QueryPropertyNames
+title: ISnapinProperties::QueryPropertyNames (mmcobj.h)
 author: windows-sdk-content
 description: The QueryPropertyNames method returns the names of the properties used for the snap-in's configuration.
 old-location: mmc\isnapinproperties_querypropertynames.htm

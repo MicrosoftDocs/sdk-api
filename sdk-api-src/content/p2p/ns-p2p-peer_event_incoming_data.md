@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_event_incoming_data_tag
-title: PEER_EVENT_INCOMING_DATA
+title: PEER_EVENT_INCOMING_DATA (p2p.h)
 author: windows-sdk-content
 description: Points to the PEER_EVENT_INCOMING_DATA structure if one of the following peer events is triggered.
 old-location: p2p\peer_event_incoming_data.htm

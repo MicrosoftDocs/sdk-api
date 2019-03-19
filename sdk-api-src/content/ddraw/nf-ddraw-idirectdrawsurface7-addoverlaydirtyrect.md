@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.AddOverlayDirtyRect
-title: IDirectDrawSurface7::AddOverlayDirtyRect
+title: IDirectDrawSurface7::AddOverlayDirtyRect (ddraw.h)
 author: windows-sdk-content
 description: The IDirectDrawSurface7::AddOverlayDirtyRect method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_addoverlaydirtyrect.htm

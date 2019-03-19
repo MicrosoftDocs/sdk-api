@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.get_Name
-title: IFsiItem::get_Name
+title: IFsiItem::get_Name (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the name of the directory or file item in the file system image.
 old-location: imapi\ifsiitem_get_name.htm

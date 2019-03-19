@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PtInRegion
-title: PtInRegion function
+title: PtInRegion function (wingdi.h)
 author: windows-sdk-content
 description: The PtInRegion function determines whether the specified point is inside the specified region.
 old-location: gdi\ptinregion.htm

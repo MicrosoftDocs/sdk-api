@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskNamedValuePair.put_Value
-title: ITaskNamedValuePair::put_Value
+title: ITaskNamedValuePair::put_Value (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the value that is associated with a name in a name-value pair.
 old-location: taskschd\itasknamedvaluepair_value.htm

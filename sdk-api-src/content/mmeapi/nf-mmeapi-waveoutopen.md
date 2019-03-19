@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutOpen
-title: waveOutOpen function
+title: waveOutOpen function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutOpen function opens the given waveform-audio output device for playback.
 old-location: multimedia\waveoutopen.htm

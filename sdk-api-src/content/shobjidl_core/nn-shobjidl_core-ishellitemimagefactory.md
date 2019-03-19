@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellItemImageFactory
-title: IShellItemImageFactory
+title: IShellItemImageFactory (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method to return either icons or thumbnails for Shell items. If no thumbnail or icon is available for the requested item, a per-class icon may be provided from the Shell.
 old-location: shell\IShellItemImageFactory.htm

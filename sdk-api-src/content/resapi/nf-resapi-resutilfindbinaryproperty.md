@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFindBinaryProperty
-title: ResUtilFindBinaryProperty function
+title: ResUtilFindBinaryProperty function (resapi.h)
 author: windows-sdk-content
 description: Locates a specified binary property in a property list and can also return the value of the property. The PRESUTIL_FIND_BINARY_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindbinaryproperty.htm

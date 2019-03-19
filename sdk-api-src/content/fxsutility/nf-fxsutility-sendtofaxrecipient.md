@@ -1,6 +1,6 @@
 ---
 UID: NF:fxsutility.SendToFaxRecipient
-title: SendToFaxRecipient function
+title: SendToFaxRecipient function (fxsutility.h)
 author: windows-sdk-content
 description: Called by an application to fax a file.
 old-location: fax\_mfax_sendtofaxrecipient.htm

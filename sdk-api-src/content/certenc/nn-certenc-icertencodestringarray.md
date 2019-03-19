@@ -1,6 +1,6 @@
 ---
 UID: NN:certenc.ICertEncodeStringArray
-title: ICertEncodeStringArray
+title: ICertEncodeStringArray (certenc.h)
 author: windows-sdk-content
 description: Provides methods for handling string arrays used in certificate extensions.
 old-location: security\icertencodestringarray.htm

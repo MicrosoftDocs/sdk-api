@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_EXCHANGE_MEDIUM
-title: IOCTL_CHANGER_EXCHANGE_MEDIUM
+title: IOCTL_CHANGER_EXCHANGE_MEDIUM (winioctl.h)
 author: windows-sdk-content
 description: Moves a piece of media from a source element to one destination, and the piece of media originally in the first destination to a second destination.
 old-location: base\ioctl_changer_exchange_medium.htm

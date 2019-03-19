@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetCategory
-title: IFunctionInstance::GetCategory
+title: IFunctionInstance::GetCategory (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Gets the category and subcategory strings for the function instance.
 old-location: ncd\ifunctioninstance_getcategory_method.htm

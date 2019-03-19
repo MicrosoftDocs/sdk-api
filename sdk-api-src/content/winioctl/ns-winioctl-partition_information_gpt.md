@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION_GPT
-title: PARTITION_INFORMATION_GPT
+title: PARTITION_INFORMATION_GPT (winioctl.h)
 author: windows-sdk-content
 description: Contains GUID partition table (GPT) partition information.
 old-location: fs\partition_information_gpt_str.htm

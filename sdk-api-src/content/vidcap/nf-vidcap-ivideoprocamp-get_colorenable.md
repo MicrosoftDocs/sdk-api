@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_ColorEnable
-title: IVideoProcAmp::get_ColorEnable
+title: IVideoProcAmp::get_ColorEnable (vidcap.h)
 author: windows-sdk-content
 description: The get_ColorEnable method returns the camera's color-enable setting.
 old-location: dshow\ivideoprocamp_get_colorenable.htm

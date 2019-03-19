@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteError
-title: IWbemObjectSinkEx::WriteError
+title: IWbemObjectSinkEx::WriteError (wbemcli.h)
 author: windows-sdk-content
 description: TBD
 old-location: wmi\iwbemobjectsinkex_writeerror.htm

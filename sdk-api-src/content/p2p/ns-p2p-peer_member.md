@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_member_tag
-title: PEER_MEMBER
+title: PEER_MEMBER (p2p.h)
 author: windows-sdk-content
 description: The PEER_MEMBER structure contains information that describes a member of a peer group.
 old-location: p2p\peer_member.htm

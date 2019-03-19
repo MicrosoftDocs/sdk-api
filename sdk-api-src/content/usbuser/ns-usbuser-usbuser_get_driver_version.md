@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USBUSER_GET_DRIVER_VERSION
-title: USBUSER_GET_DRIVER_VERSION
+title: USBUSER_GET_DRIVER_VERSION (usbuser.h)
 author: windows-sdk-content
 description: The USBUSER_GET_DRIVER_VERSION structure is used with the IOCTL_USB_USER_REQUEST I/O control request to read driver and interface version information.
 old-location: buses\usbuser_get_driver_version.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFMEDIASOURCE_CHARACTERISTICS
-title: MFMEDIASOURCE_CHARACTERISTICS
+title: MFMEDIASOURCE_CHARACTERISTICS (mfidl.h)
 author: windows-sdk-content
 description: Defines the characteristics of a media source.
 old-location: mf\mfmediasource_characteristics.htm

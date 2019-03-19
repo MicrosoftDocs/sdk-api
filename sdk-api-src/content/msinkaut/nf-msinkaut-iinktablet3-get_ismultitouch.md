@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet3.get_IsMultiTouch
-title: IInkTablet3::get_IsMultiTouch
+title: IInkTablet3::get_IsMultiTouch (msinkaut.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether an input device supports multitouch.
 old-location: tablet\iinktablet3_ismultitouch.htm

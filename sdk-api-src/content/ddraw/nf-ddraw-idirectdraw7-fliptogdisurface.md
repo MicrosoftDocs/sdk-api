@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.FlipToGDISurface
-title: IDirectDraw7::FlipToGDISurface
+title: IDirectDraw7::FlipToGDISurface (ddraw.h)
 author: windows-sdk-content
 description: Makes the surface that the GDI writes to the primary surface.
 old-location: directdraw\idirectdraw7_fliptogdisurface.htm

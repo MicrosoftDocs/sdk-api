@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.TransactionTimeout
-title: IServiceTransactionConfigBase::TransactionTimeout
+title: IServiceTransactionConfigBase::TransactionTimeout (comsvcs.h)
 author: windows-sdk-content
 description: Sets the transaction time-out for a new transaction.
 old-location: cos\iservicetransactionconfigbase_transactiontimeout.htm

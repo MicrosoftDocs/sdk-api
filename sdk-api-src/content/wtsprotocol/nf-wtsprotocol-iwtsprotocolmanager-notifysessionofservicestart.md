@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifySessionOfServiceStart
-title: IWTSProtocolManager::NotifySessionOfServiceStart
+title: IWTSProtocolManager::NotifySessionOfServiceStart (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionOfServiceStart is no longer available. Instead, use IWRdsProtocolManager::NotifySessionOfServiceStart.
 old-location: termserv\iwtsprotocolmanager_notifysessionofservicestart.htm

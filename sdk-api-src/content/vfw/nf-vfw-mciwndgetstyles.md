@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetStyles
-title: MCIWndGetStyles macro
+title: MCIWndGetStyles macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetStyles macro retrieves the flags specifying the current MCIWnd window styles used by a window. You can use this macro or explicitly send the MCIWNDM_GETSTYLES message.
 old-location: multimedia\mciwndgetstyles.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnVirtualMachineStatusChanged
-title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged
+title: ITsSbProvisioningPluginNotifySink::OnVirtualMachineStatusChanged (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the status of a virtual machine is changed.
 old-location: termserv\itssbprovisioningpluginnotifysink_onvirtualmachinestatuschanged.htm

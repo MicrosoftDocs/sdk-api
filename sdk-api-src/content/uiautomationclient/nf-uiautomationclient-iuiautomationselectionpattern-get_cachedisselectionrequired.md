@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CachedIsSelectionRequired
-title: IUIAutomationSelectionPattern::get_CachedIsSelectionRequired
+title: IUIAutomationSelectionPattern::get_CachedIsSelectionRequired (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether at least one item must be selected at all times.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CachedIsSelectionRequired.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mdmregistration.UnregisterDeviceWithManagement
-title: UnregisterDeviceWithManagement function
+title: UnregisterDeviceWithManagement function (mdmregistration.h)
 author: windows-sdk-content
 description: Unregisters a device with the MDM service.
 old-location: mdmreg\unregisterdevicewithmanagement.htm

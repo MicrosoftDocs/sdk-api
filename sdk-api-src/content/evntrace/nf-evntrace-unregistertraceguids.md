@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.UnregisterTraceGuids
-title: UnregisterTraceGuids function
+title: UnregisterTraceGuids function (evntrace.h)
 author: windows-sdk-content
 description: The UnregisterTraceGuids function unregisters an event trace provider and its event trace classes.
 old-location: etw\unregistertraceguids.htm

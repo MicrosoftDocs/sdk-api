@@ -1,6 +1,6 @@
 ---
 UID: NS:opmapi._OPM_SET_HDCP_SRM_PARAMETERS
-title: OPM_SET_HDCP_SRM_PARAMETERS
+title: OPM_SET_HDCP_SRM_PARAMETERS (opmapi.h)
 author: windows-sdk-content
 description: Contains parameters for the OPM_SET_HDCP_SRM command.
 old-location: mf\opm_set_hdcp_srm_parameters.htm

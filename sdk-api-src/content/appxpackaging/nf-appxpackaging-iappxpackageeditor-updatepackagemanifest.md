@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.UpdatePackageManifest
-title: IAppxPackageEditor::UpdatePackageManifest
+title: IAppxPackageEditor::UpdatePackageManifest (appxpackaging.h)
 author: windows-sdk-content
 description: Updates an app package manifest.
 old-location: appxpkg\iappxpackageeditor_updatepackagemanifest.htm

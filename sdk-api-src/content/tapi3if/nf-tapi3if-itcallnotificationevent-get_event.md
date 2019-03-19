@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallNotificationEvent.get_Event
-title: ITCallNotificationEvent::get_Event
+title: ITCallNotificationEvent::get_Event (tapi3if.h)
 author: windows-sdk-content
 description: The get_Event method returns a CALL_NOTIFICATION_EVENT description of whether the application owns or is monitoring the call on which the event has occurred.
 old-location: tapi3\itcallnotificationevent_get_event.htm

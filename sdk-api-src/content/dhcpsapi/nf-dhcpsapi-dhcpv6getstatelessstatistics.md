@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV6GetStatelessStatistics
-title: DhcpV6GetStatelessStatistics function
+title: DhcpV6GetStatelessStatistics function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the stateless server IPv6 subnet statistics.
 old-location: dhcp\dhcpv6getstatelessstatistics.htm

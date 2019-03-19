@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_V1
-title: CLAIM_SECURITY_ATTRIBUTE_V1
+title: CLAIM_SECURITY_ATTRIBUTE_V1 (winnt.h)
 author: windows-sdk-content
 description: Defines a security attribute that can be associated with a token or authorization context.
 old-location: security\claim_security_attribute_v1.htm

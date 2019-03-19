@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProgressDialog
-title: IFileOperation::SetProgressDialog
+title: IFileOperation::SetProgressDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies a dialog box used to display the progress of the operation.
 old-location: shell\IFileOperation_SetProgressDialog.htm

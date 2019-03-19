@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_FilterEnabled
-title: ITraceDataProvider::get_FilterEnabled
+title: ITraceDataProvider::get_FilterEnabled (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the filter data is used to enable the provider.
 old-location: pla\itracedataprovider_filterenabled.htm

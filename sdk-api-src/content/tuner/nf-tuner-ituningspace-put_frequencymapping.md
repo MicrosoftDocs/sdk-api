@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.put_FrequencyMapping
-title: ITuningSpace::put_FrequencyMapping
+title: ITuningSpace::put_FrequencyMapping (tuner.h)
 author: windows-sdk-content
 description: The put_FrequencyMapping method creates a frequency/channel map, frequency/transponder map, or whatever other mapping from carrier frequencies to frequency identifiers is appropriate for the tuning space.
 old-location: mstv\ituningspace_put_frequencymapping.htm

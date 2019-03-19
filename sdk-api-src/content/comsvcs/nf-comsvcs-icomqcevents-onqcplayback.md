@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCPlayback
-title: IComQCEvents::OnQCPlayback
+title: IComQCEvents::OnQCPlayback (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a messages contents are replayed.
 old-location: cos\icomqcevents_onqcplayback.htm

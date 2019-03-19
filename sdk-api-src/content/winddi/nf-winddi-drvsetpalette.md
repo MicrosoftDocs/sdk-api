@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvSetPalette
-title: DrvSetPalette function
+title: DrvSetPalette function (winddi.h)
 author: windows-sdk-content
 description: The DrvSetPalette function requests that the driver realize the palette for a specified device.
 old-location: display\drvsetpalette.htm

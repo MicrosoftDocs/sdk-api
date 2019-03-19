@@ -1,6 +1,6 @@
 ---
 UID: NC:dpa_dsa.PFNDACOMPARECONST
-title: PFNDACOMPARECONST
+title: PFNDACOMPARECONST (dpa_dsa.h)
 author: windows-sdk-content
 description: Defines the prototype for the compare function used by DSA_Sort when the items being compared are constant objects.
 old-location: controls\PFNDACOMPARECONST.htm

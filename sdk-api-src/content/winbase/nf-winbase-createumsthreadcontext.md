@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateUmsThreadContext
-title: CreateUmsThreadContext function
+title: CreateUmsThreadContext function (winbase.h)
 author: windows-sdk-content
 description: Creates a user-mode scheduling (UMS) thread context to represent a UMS worker thread.
 old-location: base\createumsthreadcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.CopyFromCache
-title: IUpdate::CopyFromCache
+title: IUpdate::CopyFromCache (wuapi.h)
 author: windows-sdk-content
 description: Copies the contents of an update to a specified path.
 old-location: wua\iupdate_copyfromcache.htm

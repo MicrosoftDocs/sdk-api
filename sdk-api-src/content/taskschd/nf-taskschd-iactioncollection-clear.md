@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IActionCollection.Clear
-title: IActionCollection::Clear
+title: IActionCollection::Clear (taskschd.h)
 author: windows-sdk-content
 description: Clears all the actions from the collection.
 old-location: taskschd\iactioncollection_clear.htm

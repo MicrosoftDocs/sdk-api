@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PSTART_PROTOCOL
-title: PSTART_PROTOCOL
+title: PSTART_PROTOCOL (routprot.h)
 author: windows-sdk-content
 description: The StartProtocol function initializes the routing protocol's functionality.
 old-location: rras\startprotocol.htm

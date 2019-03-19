@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFilterInfo.Serialize
-title: ISyncFilterInfo::Serialize
+title: ISyncFilterInfo::Serialize (winsync.h)
 author: windows-sdk-content
 description: Serializes the filter data to an array of bytes.
 old-location: winsync\isyncfilterinfo_serialize.htm

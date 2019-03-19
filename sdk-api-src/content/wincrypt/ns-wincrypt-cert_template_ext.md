@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_TEMPLATE_EXT
-title: CERT_TEMPLATE_EXT
+title: CERT_TEMPLATE_EXT (wincrypt.h)
 author: windows-sdk-content
 description: A certificate template.
 old-location: security\cert_template_ext.htm

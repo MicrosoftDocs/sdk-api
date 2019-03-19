@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.put_Value
-title: IFsrmClassificationRule::put_Value
+title: IFsrmClassificationRule::put_Value (fsrmpipeline.h)
 author: windows-sdk-content
 description: The value that this rule will set the property to.
 old-location: fsrm\ifsrmclassificationrule_value.htm

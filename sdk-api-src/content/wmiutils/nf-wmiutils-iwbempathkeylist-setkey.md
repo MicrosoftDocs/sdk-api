@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.SetKey
-title: IWbemPathKeyList::SetKey
+title: IWbemPathKeyList::SetKey (wmiutils.h)
 author: windows-sdk-content
 description: Sets the name or value pair for a key.
 old-location: wmi\iwbempathkeylist_setkey.htm

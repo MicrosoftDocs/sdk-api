@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache2.RenameItemEx
-title: IOfflineFilesCache2::RenameItemEx
+title: IOfflineFilesCache2::RenameItemEx (cscobj.h)
 author: windows-sdk-content
 description: Renames an item in the cache. This method is identical to the IOfflineFilesCache::RenameItem method, except that it will attempt to do the rename operation right away.
 old-location: of\iofflinefilescache2_renameitemex.htm

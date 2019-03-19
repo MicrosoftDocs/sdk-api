@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateLayer
-title: ID2D1RenderTarget::CreateLayer
+title: ID2D1RenderTarget::CreateLayer (d2d1.h)
 author: windows-sdk-content
 description: Creates a layer resource that can be used with this render target and its compatible render targets.
 old-location: direct2d\id2d1rendertarget_createlayer.htm

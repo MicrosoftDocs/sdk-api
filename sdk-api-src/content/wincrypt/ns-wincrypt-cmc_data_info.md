@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_DATA_INFO
-title: CMC_DATA_INFO
+title: CMC_DATA_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Provides a means of communicating different pieces of tagged information.
 old-location: security\cmc_data_info.htm

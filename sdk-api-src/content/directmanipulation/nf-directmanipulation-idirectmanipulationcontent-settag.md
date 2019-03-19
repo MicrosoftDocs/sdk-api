@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SetTag
-title: IDirectManipulationContent::SetTag
+title: IDirectManipulationContent::SetTag (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the tag object for the content.
 old-location: directmanipulation\idirectmanipulationcontent_settag.htm

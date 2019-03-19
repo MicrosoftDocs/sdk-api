@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.CreateTableIndirect
-title: ISimilarityFileIdTable::CreateTableIndirect
+title: ISimilarityFileIdTable::CreateTableIndirect (msrdc.h)
 author: windows-sdk-content
 description: Creates or opens a similarity file ID table using the RDC application's implementation of the IRdcFileWriter interface.
 old-location: rdc\isimilarityfileidtable_createtableindirect.htm

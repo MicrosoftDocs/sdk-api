@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTBANDWIDTHDATA
-title: DD_GETVPORTBANDWIDTHDATA
+title: DD_GETVPORTBANDWIDTHDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETVPORTBANDWIDTHDATA structure contains the bandwidth information for any specified format.
 old-location: display\dd_getvportbandwidthdata.htm

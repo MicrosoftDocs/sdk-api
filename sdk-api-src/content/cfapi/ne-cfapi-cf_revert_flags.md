@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_REVERT_FLAGS
-title: CF_REVERT_FLAGS
+title: CF_REVERT_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags for reverting a placeholder file to a regular file.
 old-location: cloudapi\cf_revert_flags.htm

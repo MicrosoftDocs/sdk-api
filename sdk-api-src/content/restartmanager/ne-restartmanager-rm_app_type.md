@@ -1,6 +1,6 @@
 ---
 UID: NE:restartmanager._RM_APP_TYPE
-title: RM_APP_TYPE
+title: RM_APP_TYPE (restartmanager.h)
 author: windows-sdk-content
 description: Specifies the type of application that is described by the RM_PROCESS_INFO structure.
 old-location: rstmgr\rm_app_type.htm

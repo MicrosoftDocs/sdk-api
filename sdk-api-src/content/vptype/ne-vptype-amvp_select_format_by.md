@@ -1,6 +1,6 @@
 ---
 UID: NE:vptype._AMVP_SELECT_FORMAT_BY
-title: AMVP_SELECT_FORMAT_BY
+title: AMVP_SELECT_FORMAT_BY (vptype.h)
 author: windows-sdk-content
 description: Specifies the criteria that the Overlay Mixer Filter should use to select the video format.
 old-location: dshow\amvp_select_format_by.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.OpenEventA
-title: OpenEventA function
+title: OpenEventA function (synchapi.h)
 author: windows-sdk-content
 description: Opens an existing named event object.
 old-location: base\openevent.htm

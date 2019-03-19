@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVUI_DATA
-title: CRYPT_PROVUI_DATA
+title: CRYPT_PROVUI_DATA (wintrust.h)
 author: windows-sdk-content
 description: Provides user interface (UI) data for a provider. This structure is used by the CRYPT_PROVUI_FUNCS structure.
 old-location: security\crypt_provui_data.htm

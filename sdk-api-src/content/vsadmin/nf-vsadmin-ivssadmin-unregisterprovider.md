@@ -1,6 +1,6 @@
 ---
 UID: NF:vsadmin.IVssAdmin.UnregisterProvider
-title: IVssAdmin::UnregisterProvider
+title: IVssAdmin::UnregisterProvider (vsadmin.h)
 author: windows-sdk-content
 description: Unregisters an existing provider.
 old-location: base\ivssadmin_unregisterprovider.htm

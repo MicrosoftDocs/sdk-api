@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetCharRep
-title: ITextFont2::GetCharRep
+title: ITextFont2::GetCharRep (tom.h)
 author: windows-sdk-content
 description: Gets the character repertoire (writing system).
 old-location: controls\itextfont2_getcharrep.htm

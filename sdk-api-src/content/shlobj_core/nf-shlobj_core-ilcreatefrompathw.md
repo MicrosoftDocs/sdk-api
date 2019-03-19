@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILCreateFromPathW
-title: ILCreateFromPathW function
+title: ILCreateFromPathW function (shlobj_core.h)
 author: windows-sdk-content
 description: Returns the ITEMIDLIST structure associated with a specified file path.
 old-location: shell\ILCreateFromPathW.htm

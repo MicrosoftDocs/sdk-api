@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewInstanceFromClass
-title: MI_Application_NewInstanceFromClass function
+title: MI_Application_NewInstanceFromClass function (mi.h)
 author: windows-sdk-content
 description: Creates a new MI_Instance object based on a class object.
 old-location: wmi_v2\mi_application_newinstancefromclass.htm

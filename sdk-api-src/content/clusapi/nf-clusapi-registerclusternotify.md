@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.RegisterClusterNotify
-title: RegisterClusterNotify function
+title: RegisterClusterNotify function (clusapi.h)
 author: windows-sdk-content
 description: Adds an event type to the list of events stored for a notification port.
 old-location: mscs\registerclusternotify.htm

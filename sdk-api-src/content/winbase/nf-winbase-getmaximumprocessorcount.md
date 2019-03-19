@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetMaximumProcessorCount
-title: GetMaximumProcessorCount function
+title: GetMaximumProcessorCount function (winbase.h)
 author: windows-sdk-content
 description: Returns the maximum number of logical processors that a processor group or the system can have.
 old-location: base\getmaximumprocessorcount.htm

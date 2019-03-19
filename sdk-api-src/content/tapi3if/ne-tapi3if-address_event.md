@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.ADDRESS_EVENT
-title: ADDRESS_EVENT
+title: ADDRESS_EVENT (tapi3if.h)
 author: windows-sdk-content
 description: The ADDRESS_EVENT enum describes address events. The ITAddressEvent::get_Event method returns a member of this enum to indicate the type of address event that occurred.
 old-location: tapi3\address_event.htm

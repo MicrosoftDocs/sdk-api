@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Shear
-title: Matrix::Shear
+title: Matrix::Shear (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::Shear method updates this matrix with the product of itself and a shearing matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Shear_shearX_shearY_order_.htm

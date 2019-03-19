@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarEqv
-title: VarEqv function
+title: VarEqv function (oleauto.h)
 author: windows-sdk-content
 description: Performs a bitwise equivalence on two variants.
 old-location: automat\vareqv.htm

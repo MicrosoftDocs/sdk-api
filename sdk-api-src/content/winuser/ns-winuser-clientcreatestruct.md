@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCLIENTCREATESTRUCT
-title: CLIENTCREATESTRUCT
+title: CLIENTCREATESTRUCT (winuser.h)
 author: windows-sdk-content
 description: Contains information about the menu and first multiple-document interface (MDI) child window of an MDI client window.
 old-location: winmsg\clientcreatestruct.htm

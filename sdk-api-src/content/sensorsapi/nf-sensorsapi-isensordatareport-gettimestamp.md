@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorDataReport.GetTimestamp
-title: ISensorDataReport::GetTimestamp
+title: ISensorDataReport::GetTimestamp (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves the time at which the data report was created.
 old-location: winsensors_com_ref\isensordatareport_gettimestamp.htm

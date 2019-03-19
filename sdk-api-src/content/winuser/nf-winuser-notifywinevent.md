@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.NotifyWinEvent
-title: NotifyWinEvent function
+title: NotifyWinEvent function (winuser.h)
 author: windows-sdk-content
 description: Signals the system that a predefined event occurred. If any client applications have registered a hook function for the event, the system calls the client's hook function.
 old-location: winauto\notifywinevent.htm

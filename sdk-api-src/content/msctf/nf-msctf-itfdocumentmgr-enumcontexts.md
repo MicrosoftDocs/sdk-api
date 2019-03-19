@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.EnumContexts
-title: ITfDocumentMgr::EnumContexts
+title: ITfDocumentMgr::EnumContexts (msctf.h)
 author: windows-sdk-content
 description: ITfDocumentMgr::EnumContexts method
 old-location: tsf\itfdocumentmgr_enumcontexts.htm

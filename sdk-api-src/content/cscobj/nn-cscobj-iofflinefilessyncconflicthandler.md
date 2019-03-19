@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesSyncConflictHandler
-title: IOfflineFilesSyncConflictHandler
+title: IOfflineFilesSyncConflictHandler (cscobj.h)
 author: windows-sdk-content
 description: Used by a client calling the IOfflineFilesCache::Synchronize method to prescribe a conflict resolution strategy for sync conflicts as they are detected.
 old-location: of\iofflinefilessyncconflicthandler.htm

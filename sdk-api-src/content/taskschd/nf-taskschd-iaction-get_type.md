@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IAction.get_Type
-title: IAction::get_Type
+title: IAction::get_Type (taskschd.h)
 author: windows-sdk-content
 description: Gets the type of action.
 old-location: taskschd\iaction_type.htm

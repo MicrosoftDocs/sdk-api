@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidDevice.get_Power
-title: IMSVidDevice::get_Power
+title: IMSVidDevice::get_Power (segment.h)
 author: windows-sdk-content
 description: The get_Power method queries whether the device is off or on.
 old-location: mstv\imsviddevice_get_power.htm

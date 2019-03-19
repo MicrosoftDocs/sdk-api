@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT Point,IN INT)
-title: Graphics::TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT Point,IN INT)
+title: Graphics::TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT Point,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::TransformPoints method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vpnotify.IVPNotify
-title: IVPNotify
+title: IVPNotify (vpnotify.h)
 author: windows-sdk-content
 description: Supports a private communication mechanism between the Overlay Mixer filter and a VPE decoder filter that represents a hardware decoder.Only the Overlay Mixer filter implements this interface. Applications should never use it.
 old-location: dshow\ivpnotify.htm

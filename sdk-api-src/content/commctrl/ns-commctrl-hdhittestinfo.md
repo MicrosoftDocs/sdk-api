@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._HD_HITTESTINFO
-title: HDHITTESTINFO
+title: HDHITTESTINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a hit test. This structure is used with the HDM_HITTEST message and it supersedes the HD_HITTESTINFO structure.
 old-location: controls\HDHITTESTINFO.htm

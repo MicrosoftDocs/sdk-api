@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IQueryCodePage.SetCodePage
-title: IQueryCodePage::SetCodePage
+title: IQueryCodePage::SetCodePage (shobjidl.h)
 author: windows-sdk-content
 description: Sets the numeric value of the ANSI code page to a specified code page identifier.
 old-location: shell\IQueryCodePage_SetCodePage.htm

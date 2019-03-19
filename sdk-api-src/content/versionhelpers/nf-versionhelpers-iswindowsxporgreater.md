@@ -1,6 +1,6 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPOrGreater
-title: IsWindowsXPOrGreater function
+title: IsWindowsXPOrGreater function (versionhelpers.h)
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows XP version.
 old-location: base\iswindowsxporgreater.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:objidl.tagSOLE_AUTHENTICATION_LIST
-title: SOLE_AUTHENTICATION_LIST
+title: SOLE_AUTHENTICATION_LIST (objidl.h)
 author: windows-sdk-content
 description: Indicates the default authentication information to use with each authentication service.
 old-location: com\sole_authentication_list.htm

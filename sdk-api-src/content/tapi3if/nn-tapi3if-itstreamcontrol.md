@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITStreamControl
-title: ITStreamControl
+title: ITStreamControl (tapi3if.h)
 author: windows-sdk-content
 description: The ITStreamControl interface represents the media streaming features of a call and exposes methods that allow an application to enumerate, create, or remove streams.
 old-location: tapi3\itstreamcontrol.htm

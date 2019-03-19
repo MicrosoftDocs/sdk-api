@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Sibling_Ex
-title: CM_Get_Sibling_Ex function
+title: CM_Get_Sibling_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Sibling_Ex function obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine's device tree.
 old-location: devinst\cm_get_sibling_ex.htm

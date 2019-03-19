@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
-title: IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension
+title: IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension (fsrmpipeline.h)
 author: windows-sdk-content
 description: The local directory path where the reports were stored the last time that classification ran.
 old-location: fsrm\ifsrmclassificationmanager_classificationlastreportpathwithoutextension.htm

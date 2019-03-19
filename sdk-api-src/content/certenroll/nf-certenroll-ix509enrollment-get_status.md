@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Status
-title: IX509Enrollment::get_Status
+title: IX509Enrollment::get_Status (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509EnrollmentStatus object that can be used to monitor the status of the enrollment process and retrieve error information.
 old-location: security\ix509enrollment_status_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetProfileStringA
-title: GetProfileStringA function
+title: GetProfileStringA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the string associated with a key in the specified section of the Win.ini file.
 old-location: base\getprofilestring.htm

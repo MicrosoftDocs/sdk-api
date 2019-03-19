@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_ELEMENTS_LAYOUT
-title: D3D12_ELEMENTS_LAYOUT
+title: D3D12_ELEMENTS_LAYOUT (d3d12.h)
 author: windows-sdk-content
 description: Describes how the locations of elements are identified.
 old-location: direct3d12\d3d12_elements_layout.htm

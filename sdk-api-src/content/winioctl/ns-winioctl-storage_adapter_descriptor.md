@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._STORAGE_ADAPTER_DESCRIPTOR
-title: STORAGE_ADAPTER_DESCRIPTOR
+title: STORAGE_ADAPTER_DESCRIPTOR (winioctl.h)
 author: windows-sdk-content
 description: Used with the IOCTL_STORAGE_QUERY_PROPERTY control code to retrieve the storage adapter descriptor data for a device.
 old-location: fs\storage_adapter_descriptor.htm

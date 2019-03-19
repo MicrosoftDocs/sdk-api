@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SelectItem
-title: TreeView_SelectItem macro
+title: TreeView_SelectItem macro (commctrl.h)
 author: windows-sdk-content
 description: Selects the specified tree-view item. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
 old-location: controls\TreeView_SelectItem.htm

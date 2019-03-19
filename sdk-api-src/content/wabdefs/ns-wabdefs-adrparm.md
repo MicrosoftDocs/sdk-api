@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._ADRPARM
-title: ADRPARM
+title: ADRPARM (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Describes the display and behavior of the common address dialog box.
 old-location: wab\_wab_ADRPARM.htm

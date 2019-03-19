@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.GetThreadErrorMode
-title: GetThreadErrorMode function
+title: GetThreadErrorMode function (errhandlingapi.h)
 author: windows-sdk-content
 description: Retrieves the error mode for the calling thread.
 old-location: base\getthreaderrormode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MaxMinorChannel
-title: IATSCTuningSpace::get_MaxMinorChannel
+title: IATSCTuningSpace::get_MaxMinorChannel (tuner.h)
 author: windows-sdk-content
 description: The get_MaxMinorChannel method gets the highest minor channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_maxminorchannel.htm

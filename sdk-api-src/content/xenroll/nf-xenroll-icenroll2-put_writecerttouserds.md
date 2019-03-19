@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll2.put_WriteCertToUserDS
-title: ICEnroll2::put_WriteCertToUserDS
+title: ICEnroll2::put_WriteCertToUserDS (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether the certificate is written to the user's Active Directory store.
 old-location: security\icenroll4_writecerttouserds.htm

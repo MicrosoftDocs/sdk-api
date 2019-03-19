@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.TriggerEdgeGesture
-title: IApplicationDesignModeSettings::TriggerEdgeGesture
+title: IApplicationDesignModeSettings::TriggerEdgeGesture (shobjidl_core.h)
 author: windows-sdk-content
 description: Sends a spoofed edge gesture event to the proxy core window on the caller's thread. This gesture toggles the app's app bar, if the app supports one. The caller can specify the type of input that triggered the edge gesture.
 old-location: shell\IApplicationDesignModeSettings_TriggerEdgeGesture.htm

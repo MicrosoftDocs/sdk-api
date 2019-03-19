@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICFormatConverterInfo.CreateInstance
-title: IWICFormatConverterInfo::CreateInstance
+title: IWICFormatConverterInfo::CreateInstance (wincodec.h)
 author: windows-sdk-content
 description: Creates a new IWICFormatConverter instance.
 old-location: wic\_wic_codec_iwicformatconverterinfo_createinstance.htm

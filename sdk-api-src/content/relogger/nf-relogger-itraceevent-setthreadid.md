@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.SetThreadId
-title: ITraceEvent::SetThreadId
+title: ITraceEvent::SetThreadId (relogger.h)
 author: windows-sdk-content
 description: Sets the identifier of a thread that generates an event.
 old-location: etw\ievent_setthreadid.htm

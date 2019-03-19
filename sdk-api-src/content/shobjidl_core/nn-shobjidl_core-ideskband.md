@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDeskBand
-title: IDeskBand
+title: IDeskBand (shobjidl_core.h)
 author: windows-sdk-content
 description: Used to obtain information about a band object.
 old-location: shell\IDeskBand.htm

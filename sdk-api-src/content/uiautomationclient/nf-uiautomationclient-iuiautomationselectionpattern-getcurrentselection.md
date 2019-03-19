@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.GetCurrentSelection
-title: IUIAutomationSelectionPattern::GetCurrentSelection
+title: IUIAutomationSelectionPattern::GetCurrentSelection (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the selected elements in the container.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_GetCurrentSelection.htm

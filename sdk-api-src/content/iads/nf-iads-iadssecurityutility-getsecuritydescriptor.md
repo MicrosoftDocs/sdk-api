@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsSecurityUtility.GetSecurityDescriptor
-title: IADsSecurityUtility::GetSecurityDescriptor
+title: IADsSecurityUtility::GetSecurityDescriptor (iads.h)
 author: windows-sdk-content
 description: Retrieves a security descriptor for the specified file, fileshare, or registry key.
 old-location: adsi\iadssecurityutility_getsecuritydescriptor.htm

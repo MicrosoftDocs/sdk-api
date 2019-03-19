@@ -1,6 +1,6 @@
 ---
 UID: NN:qnetwork.IAMMediaContent2
-title: IAMMediaContent2
+title: IAMMediaContent2 (qnetwork.h)
 author: windows-sdk-content
 description: The IAMMediaContent2 interface retrieves custom parameters and playlists from ASX files. This interface is not implemented by any default components in DirectShow.
 old-location: dshow\iammediacontent2.htm

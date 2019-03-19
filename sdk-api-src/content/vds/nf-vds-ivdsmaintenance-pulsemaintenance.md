@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsMaintenance.PulseMaintenance
-title: IVdsMaintenance::PulseMaintenance
+title: IVdsMaintenance::PulseMaintenance (vds.h)
 author: windows-sdk-content
 description: Performs the specified operation a specified number of times.
 old-location: base\ivdsmaintenance_pulsemaintenance.htm

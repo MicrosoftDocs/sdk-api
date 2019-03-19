@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateError
-title: IMFMediaEngineClassFactory::CreateError
+title: IMFMediaEngineClassFactory::CreateError (mfmediaengine.h)
 author: windows-sdk-content
 description: Creates a media error object.
 old-location: mf\imfmediaengineclassfactory_createerror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._TAKE_SNAPSHOT_VHDSET_PARAMETERS
-title: TAKE_SNAPSHOT_VHDSET_PARAMETERS
+title: TAKE_SNAPSHOT_VHDSET_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains snapshot parameters, indicating information about the new snapshot to be created.
 old-location: vhd\take_snapshot_vhdset_parameters.htm

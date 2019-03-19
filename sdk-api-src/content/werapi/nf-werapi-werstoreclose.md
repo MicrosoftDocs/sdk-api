@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerStoreClose
-title: WerStoreClose function
+title: WerStoreClose function (werapi.h)
 author: windows-sdk-content
 description: Closes the collection of stored reports.
 old-location: wer\werstoreclose.htm

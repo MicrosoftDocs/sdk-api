@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHDeleteEmptyKeyW
-title: SHDeleteEmptyKeyW function
+title: SHDeleteEmptyKeyW function (shlwapi.h)
 author: windows-sdk-content
 description: Deletes an empty key.
 old-location: shell\SHDeleteEmptyKey.htm

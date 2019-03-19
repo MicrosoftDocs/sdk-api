@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_GETBLTSTATUS
-title: PDD_SURFCB_GETBLTSTATUS
+title: PDD_SURFCB_GETBLTSTATUS (ddrawint.h)
 author: windows-sdk-content
 description: The DdGetBltStatus callback function queries the blit status of the specified surface.
 old-location: display\ddgetbltstatus.htm

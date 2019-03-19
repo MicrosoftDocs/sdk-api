@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtRenameKey
-title: NtRenameKey function
+title: NtRenameKey function (winternl.h)
 author: windows-sdk-content
 description: Changes the name of the specified registry key.
 old-location: winprog\ntrenamekey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.POINTTOPOINTS
-title: POINTTOPOINTS macro
+title: POINTTOPOINTS macro (winuser.h)
 author: windows-sdk-content
 description: The POINTTOPOINTS macro converts a POINT structure to a POINTS structure.
 old-location: gdi\pointtopoints.htm

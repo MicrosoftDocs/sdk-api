@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS
-title: D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS
+title: D3D11_STANDARD_MULTISAMPLE_QUALITY_LEVELS (d3d11.h)
 author: windows-sdk-content
 description: Specifies a multi-sample pattern type.
 old-location: direct3d11\d3d11_standard_multisample_quality_levels.htm

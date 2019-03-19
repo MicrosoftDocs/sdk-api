@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_NetworkProvider
-title: IBDA_NetworkProvider
+title: IBDA_NetworkProvider (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_NetworkProvider interface is implemented on a Network Provider filter. It provides methods that BDA device filters call to register themselves after they are added to the graph.
 old-location: mstv\ibda_networkprovider.htm

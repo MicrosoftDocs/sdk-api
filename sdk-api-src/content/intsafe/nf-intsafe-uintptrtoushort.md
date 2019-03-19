@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrToUShort
-title: UIntPtrToUShort function
+title: UIntPtrToUShort function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type USHORT.
 old-location: shell\UIntPtrToUShort.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsMinor
-title: ISCTE_EAS::GetDetailsMinor
+title: ISCTE_EAS::GetDetailsMinor (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetDetailsMinor method returns the minor channel number for the details channel.
 old-location: mstv\iscte_eas_getdetailsminor.htm

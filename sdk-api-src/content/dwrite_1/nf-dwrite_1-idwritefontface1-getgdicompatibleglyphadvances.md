@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetGdiCompatibleGlyphAdvances
-title: IDWriteFontFace1::GetGdiCompatibleGlyphAdvances
+title: IDWriteFontFace1::GetGdiCompatibleGlyphAdvances (dwrite_1.h)
 author: windows-sdk-content
 description: Returns the pixel-aligned advances for a sequences of glyphs.
 old-location: directwrite\idwritefontface1_getgdicompatibleglyphadvances.htm

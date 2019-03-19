@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqSetDeadline
-title: RtwqSetDeadline function
+title: RtwqSetDeadline function (rtworkq.h)
 author: windows-sdk-content
 description: Sets a deadline by which the work in a work queue must be completed.
 old-location: base\rtwqsetdeadline.htm

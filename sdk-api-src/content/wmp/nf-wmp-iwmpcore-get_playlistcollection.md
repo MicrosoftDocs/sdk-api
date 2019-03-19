@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_playlistCollection
-title: IWMPCore::get_playlistCollection
+title: IWMPCore::get_playlistCollection (wmp.h)
 author: windows-sdk-content
 description: The get_playlistCollection method retrieves a pointer to an IWMPPlaylistCollection interface.
 old-location: wmp\iwmpcore_get_playlistcollection.htm

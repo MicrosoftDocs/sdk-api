@@ -1,6 +1,6 @@
 ---
 UID: NS:amvideo.tagVIDEOINFOHEADER
-title: VIDEOINFOHEADER
+title: VIDEOINFOHEADER (amvideo.h)
 author: windows-sdk-content
 description: The VIDEOINFOHEADER structure describes the bitmap and color information for a video image.
 old-location: dshow\videoinfoheader.htm

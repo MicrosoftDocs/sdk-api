@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PSET_INTERNAL_STATE
-title: PSET_INTERNAL_STATE
+title: PSET_INTERNAL_STATE (resapi.h)
 author: windows-sdk-content
 description: Sets the internal state of a resource.
 old-location: mscs\setinternalstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetMultiSzFieldA
-title: SetupGetMultiSzFieldA function
+title: SetupGetMultiSzFieldA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetMultiSzField function retrieves multiple strings stored in a line of an INF file, from the specified field to the end of the line.
 old-location: setup\setupgetmultiszfield.htm

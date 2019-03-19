@@ -1,6 +1,6 @@
 ---
 UID: NF:ndfapi.NdfGetTraceFile
-title: NdfGetTraceFile function
+title: NdfGetTraceFile function (ndfapi.h)
 author: windows-sdk-content
 description: Used to retrieve the path containing an Event Trace Log (ETL) file that contains Event Tracing for Windows (ETW) events from a diagnostic session.
 old-location: ndf\ndfgettracefile.htm

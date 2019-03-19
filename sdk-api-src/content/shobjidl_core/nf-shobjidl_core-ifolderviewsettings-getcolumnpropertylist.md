@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetColumnPropertyList
-title: IFolderViewSettings::GetColumnPropertyList
+title: IFolderViewSettings::GetColumnPropertyList (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an ordered list of columns that corresponds to the column enumerated.
 old-location: shell\IFolderViewSettings_GetColumnPropertyList.htm

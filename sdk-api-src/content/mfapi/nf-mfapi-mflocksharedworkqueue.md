@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFLockSharedWorkQueue
-title: MFLockSharedWorkQueue function
+title: MFLockSharedWorkQueue function (mfapi.h)
 author: windows-sdk-content
 description: Obtains and locks a shared work queue.
 old-location: mf\mflocksharedworkqueue.htm

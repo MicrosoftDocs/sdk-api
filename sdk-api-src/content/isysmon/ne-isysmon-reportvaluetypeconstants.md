@@ -1,6 +1,6 @@
 ---
 UID: NE:isysmon.eReportValueTypeConstant
-title: ReportValueTypeConstants
+title: ReportValueTypeConstants (isysmon.h)
 author: windows-sdk-content
 description: Determines if the Histogram and Report views graph the last value sampled or a calculated value using values from the sampling period, such as the average or minimum value.
 old-location: sysmon\reportvaluetypeconstants.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyFromScope
-title: IMetaDataAssemblyImport::GetAssemblyFromScope
+title: IMetaDataAssemblyImport::GetAssemblyFromScope (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a pointer to the assembly in the current scope.
 old-location: winrt\imetadataassemblyimport_getassemblyfromscope.htm

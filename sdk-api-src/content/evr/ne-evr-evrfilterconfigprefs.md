@@ -1,6 +1,6 @@
 ---
 UID: NE:evr._EVRFilterConfig_Prefs
-title: EVRFilterConfigPrefs
+title: EVRFilterConfigPrefs (evr.h)
 author: windows-sdk-content
 description: Contains flags that are used to configure the Microsoft DirectShow enhanced video renderer (EVR) filter.
 old-location: mf\evrfilterconfigprefs.htm

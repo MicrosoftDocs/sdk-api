@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4IsNaN
-title: XMVector4IsNaN function
+title: XMVector4IsNaN function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any component of a 4D vector is a NaN.
 old-location: dxmath\xmvector4isnan.htm

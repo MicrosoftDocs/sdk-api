@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_RequestUnload
-title: MI_Context_RequestUnload function
+title: MI_Context_RequestUnload function (mi.h)
 author: windows-sdk-content
 description: Requests to unload the module or the provider.
 old-location: wmi_v2\mi_context_requestunload.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Clone
-title: IEnumTfInputProcessorProfiles::Clone
+title: IEnumTfInputProcessorProfiles::Clone (msctf.h)
 author: windows-sdk-content
 description: The IEnumTfInputProcessorProfiles::Clone method creates a copy of the enumerator object.
 old-location: tsf\ienumtfinputprocessorprofiles_clone.htm

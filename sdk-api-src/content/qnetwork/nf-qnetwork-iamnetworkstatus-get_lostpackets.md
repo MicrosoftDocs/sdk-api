@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_LostPackets
-title: IAMNetworkStatus::get_LostPackets
+title: IAMNetworkStatus::get_LostPackets (qnetwork.h)
 author: windows-sdk-content
 description: The get_LostPackets method retrieves the number of packets that have been lost.
 old-location: dshow\iamnetworkstatus_get_lostpackets.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_vEnumStart
-title: PATHOBJ_vEnumStart function
+title: PATHOBJ_vEnumStart function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_vEnumStart function notifies a given PATHOBJ structure that the driver will be calling PATHOBJ_bEnum to enumerate lines and/or curves in the path.
 old-location: display\pathobj_venumstart.htm

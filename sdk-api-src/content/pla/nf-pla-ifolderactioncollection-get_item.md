@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IFolderActionCollection.get_Item
-title: IFolderActionCollection::get_Item
+title: IFolderActionCollection::get_Item (pla.h)
 author: windows-sdk-content
 description: Retrieves the requested folder action from the collection.
 old-location: pla\ifolderactioncollection_item.htm

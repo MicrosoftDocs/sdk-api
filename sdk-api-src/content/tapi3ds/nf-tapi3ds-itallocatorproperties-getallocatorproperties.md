@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.GetAllocatorProperties
-title: ITAllocatorProperties::GetAllocatorProperties
+title: ITAllocatorProperties::GetAllocatorProperties (tapi3ds.h)
 author: windows-sdk-content
 description: The GetAllocatorProperties method gets the current values for the allocator properties after connection and provides the negotiated values. This method is invalid before connection. The MST will accept any values suggested by the connected filters.
 old-location: tapi3\itallocatorproperties_getallocatorproperties.htm

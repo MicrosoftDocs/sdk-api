@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_INTERCONNECT_FLAG
-title: VDS_INTERCONNECT_FLAG
+title: VDS_INTERCONNECT_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of interconnect types that subsystems can support.
 old-location: base\vds_interconnect_flag.htm

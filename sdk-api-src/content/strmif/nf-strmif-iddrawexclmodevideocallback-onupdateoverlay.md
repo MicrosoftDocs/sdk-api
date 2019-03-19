@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateOverlay
-title: IDDrawExclModeVideoCallback::OnUpdateOverlay
+title: IDDrawExclModeVideoCallback::OnUpdateOverlay (strmif.h)
 author: windows-sdk-content
 description: The OnUpdateOverlay method informs the application when the overlay surface for the video is about to become visible, invisible, change size, or change position, so that the application can repaint its window appropriately.
 old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm

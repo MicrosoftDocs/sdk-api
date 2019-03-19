@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_50
-title: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE
+title: WS_WINDOWS_INTEGRATED_AUTH_PACKAGE (webservices.h)
 author: windows-sdk-content
 description: Defines the specific SSP package to be used for Windows Integrated Authentication.
 old-location: wsw\ws_windows_integrated_auth_package.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:txlogpub.RECORD_READING_POLICY
-title: RECORD_READING_POLICY
+title: RECORD_READING_POLICY (txlogpub.h)
 author: windows-sdk-content
 description: Specifies a hint about the order in which records are to be read from a log.
 old-location: com\record_reading_policy.htm

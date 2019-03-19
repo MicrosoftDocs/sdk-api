@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxLoggedOutSAS
-title: WlxLoggedOutSAS function
+title: WlxLoggedOutSAS function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while no user is logged on.
 old-location: security\wlxloggedoutsas.htm

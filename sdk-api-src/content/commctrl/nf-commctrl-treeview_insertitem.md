@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_InsertItem
-title: TreeView_InsertItem macro
+title: TreeView_InsertItem macro (commctrl.h)
 author: windows-sdk-content
 description: Inserts a new item in a tree-view control. You can use this macro or send the TVM_INSERTITEM message explicitly.
 old-location: controls\TreeView_InsertItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedContentTypes
-title: IPortableDeviceCapabilities::GetSupportedContentTypes
+title: IPortableDeviceCapabilities::GetSupportedContentTypes (portabledeviceapi.h)
 author: windows-sdk-content
 description: The GetSupportedContentTypes method retrieves all supported content types for a specified functional object type on a device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedcontenttypes.htm

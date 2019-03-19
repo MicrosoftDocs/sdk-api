@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetObjectCount
-title: IShellFolderView::SetObjectCount
+title: IShellFolderView::SetObjectCount (shlobj_core.h)
 author: windows-sdk-content
 description: SetObjectCount is no longer available.
 old-location: shell\IShellFolderView_SetObjectCount.htm

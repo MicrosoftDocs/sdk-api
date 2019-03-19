@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.NewTask
-title: ITaskService::NewTask
+title: ITaskService::NewTask (taskschd.h)
 author: windows-sdk-content
 description: Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.
 old-location: taskschd\itaskservice_newtask.htm

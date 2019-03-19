@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterHotKey
-title: RegisterHotKey function
+title: RegisterHotKey function (winuser.h)
 author: windows-sdk-content
 description: Defines a system-wide hot key.
 old-location: inputdev\registerhotkey.htm

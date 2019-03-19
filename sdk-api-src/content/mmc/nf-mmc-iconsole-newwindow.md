@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.NewWindow
-title: IConsole::NewWindow
+title: IConsole::NewWindow (mmc.h)
 author: windows-sdk-content
 description: Creates a new multiple-document interface (MDI) child window rooted at the specified scope item.
 old-location: mmc\iconsole_newwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryFont
-title: DrvQueryFont function
+title: DrvQueryFont function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
 old-location: display\drvqueryfont.htm

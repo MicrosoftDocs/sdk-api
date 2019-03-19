@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetKeyboardLayoutList
-title: GetKeyboardLayoutList function
+title: GetKeyboardLayoutList function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the input locale identifiers (formerly called keyboard layout handles) corresponding to the current set of input locales in the system. The function copies the identifiers to the specified buffer.
 old-location: inputdev\getkeyboardlayoutlist.htm

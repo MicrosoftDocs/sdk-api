@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTimer.CancelTimer
-title: IMFTimer::CancelTimer
+title: IMFTimer::CancelTimer (mfidl.h)
 author: windows-sdk-content
 description: Cancels a timer that was set using the IMFTimer::SetTimer method.
 old-location: mf\imftimer_canceltimer.htm

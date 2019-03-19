@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallHub.get_State
-title: ITCallHub::get_State
+title: ITCallHub::get_State (tapi3if.h)
 author: windows-sdk-content
 description: The get_State method gets the current state of the CallHub.
 old-location: tapi3\itcallhub_get_state.htm

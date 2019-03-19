@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_DeleteExpiredTaskAfter
-title: ITaskSettings::get_DeleteExpiredTaskAfter
+title: ITaskSettings::get_DeleteExpiredTaskAfter (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the amount of time that the Task Scheduler will wait before deleting the task after it expires.
 old-location: taskschd\itasksettings_deleteexpiredtaskafter.htm

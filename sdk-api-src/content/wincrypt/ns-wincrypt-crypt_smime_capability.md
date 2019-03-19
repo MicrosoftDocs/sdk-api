@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_SMIME_CAPABILITY
-title: CRYPT_SMIME_CAPABILITY
+title: CRYPT_SMIME_CAPABILITY (wincrypt.h)
 author: windows-sdk-content
 description: The CRYPT_SMIME_CAPABILITY structure specifies a single capability and its associated parameters. Single capabilities are grouped together into a list of CRYPT_SMIME_CAPABILITIES which can specify a prioritized list of capability preferences.
 old-location: security\crypt_smime_capability.htm

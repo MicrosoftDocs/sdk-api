@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetProcessMitigationPolicy
-title: SetProcessMitigationPolicy function
+title: SetProcessMitigationPolicy function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets a mitigation policy for the calling process. Mitigation policies enable a process to harden itself against various types of attacks.
 old-location: base\setprocessmitigationpolicy.htm

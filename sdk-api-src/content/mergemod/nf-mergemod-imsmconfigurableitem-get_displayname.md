@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_DisplayName
-title: IMsmConfigurableItem::get_DisplayName
+title: IMsmConfigurableItem::get_DisplayName (mergemod.h)
 author: windows-sdk-content
 description: The get_DisplayName method retrieves the DisplayName property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_displayname.htm

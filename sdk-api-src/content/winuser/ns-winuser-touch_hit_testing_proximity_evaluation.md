@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
-title: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION
+title: TOUCH_HIT_TESTING_PROXIMITY_EVALUATION (winuser.h)
 author: windows-sdk-content
 description: Contains the hit test score that indicates whether the object is the likely target of the touch contact area, relative to other objects that intersect the touch contact area.
 old-location: input_touchhittest\touch_hit_testing_proximity_evaluation.htm

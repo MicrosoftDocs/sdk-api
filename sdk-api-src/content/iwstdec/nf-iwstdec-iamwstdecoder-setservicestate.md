@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetServiceState
-title: IAMWstDecoder::SetServiceState
+title: IAMWstDecoder::SetServiceState (iwstdec.h)
 author: windows-sdk-content
 description: Applications use the SetServiceState method to assign the service state.
 old-location: dshow\iamwstdecoder_setservicestate.htm

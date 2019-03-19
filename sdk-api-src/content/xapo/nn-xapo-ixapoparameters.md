@@ -1,6 +1,6 @@
 ---
 UID: NN:xapo.IXAPOParameters
-title: IXAPOParameters
+title: IXAPOParameters (xapo.h)
 author: windows-sdk-content
 description: An optional interface that allows an XAPO to use effect-specific parameters.
 old-location: xaudio2\ixapoparameters.htm

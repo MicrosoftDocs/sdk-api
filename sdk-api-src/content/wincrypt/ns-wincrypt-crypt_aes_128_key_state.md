@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_AES_128_KEY_STATE
-title: CRYPT_AES_128_KEY_STATE
+title: CRYPT_AES_128_KEY_STATE (wincrypt.h)
 author: windows-sdk-content
 description: Specifies the 128-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.
 old-location: security\crypt_aes_128_key_state.htm

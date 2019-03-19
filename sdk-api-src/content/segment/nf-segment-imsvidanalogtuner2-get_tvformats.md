@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner2.get_TVFormats
-title: IMSVidAnalogTuner2::get_TVFormats
+title: IMSVidAnalogTuner2::get_TVFormats (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_tvformats.htm

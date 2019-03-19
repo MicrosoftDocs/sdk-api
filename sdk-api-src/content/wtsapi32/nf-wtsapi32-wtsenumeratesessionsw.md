@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateSessionsW
-title: WTSEnumerateSessionsW function
+title: WTSEnumerateSessionsW function (wtsapi32.h)
 author: windows-sdk-content
 description: Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumeratesessions.htm

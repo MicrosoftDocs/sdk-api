@@ -1,6 +1,6 @@
 ---
 UID: NS:iads._ads_attr_def
-title: ADS_ATTR_DEF
+title: ADS_ATTR_DEF (iads.h)
 author: windows-sdk-content
 description: The ADS_ATTR_DEF structure is used only as a part of IDirectorySchemaMgmt, which is an obsolete interface.
 old-location: adsi\ads_attr_def.htm

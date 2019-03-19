@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_COMMON_STATISTICS1_
-title: IKEEXT_COMMON_STATISTICS1
+title: IKEEXT_COMMON_STATISTICS1 (iketypes.h)
 author: windows-sdk-content
 description: Various statistics common to IKE, Authip, and IKEv2.
 old-location: fwp\ikeext_common_statistics1.htm

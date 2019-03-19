@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.GetPnPID
-title: IPortableDeviceConnector::GetPnPID
+title: IPortableDeviceConnector::GetPnPID (portabledeviceconnectapi.h)
 author: windows-sdk-content
 description: Retrieves the connector's Plug and Play (PnP) device identifier.
 old-location: wpdsdk\iportabledeviceconnector_getpnpid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IIPDVDec.get_IPDisplay
-title: IIPDVDec::get_IPDisplay
+title: IIPDVDec::get_IPDisplay (strmif.h)
 author: windows-sdk-content
 description: The get_IPDisplay method gets the decoding resolution.
 old-location: dshow\iipdvdec_get_ipdisplay.htm

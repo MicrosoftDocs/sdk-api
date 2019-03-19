@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.Search
-title: IUpdateSearcher::Search
+title: IUpdateSearcher::Search (wuapi.h)
 author: windows-sdk-content
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearchersearch.htm

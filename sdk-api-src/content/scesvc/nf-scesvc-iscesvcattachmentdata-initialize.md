@@ -1,6 +1,6 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.Initialize
-title: ISceSvcAttachmentData::Initialize
+title: ISceSvcAttachmentData::Initialize (scesvc.h)
 author: windows-sdk-content
 description: The Initialize method informs the Security Configuration snap-in that the snap-in extension is loaded, and it establishes a context for communications.
 old-location: security\iscesvcattachmentdata_initialize.htm

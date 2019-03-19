@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHCopyKeyW
-title: SHCopyKeyW function
+title: SHCopyKeyW function (shlwapi.h)
 author: windows-sdk-content
 description: Recursively copies the subkeys and values of the source subkey to the destination key. SHCopyKey does not copy the security attributes of the keys.
 old-location: shell\SHCopyKey.htm

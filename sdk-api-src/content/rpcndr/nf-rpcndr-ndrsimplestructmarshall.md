@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrSimpleStructMarshall
-title: NdrSimpleStructMarshall function
+title: NdrSimpleStructMarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrSimpleStructMarshall function marshals the simple structure into a network buffer.
 old-location: winprog\ndrsimplestructmarshall.htm

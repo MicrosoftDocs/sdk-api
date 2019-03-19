@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUBAUTH_REQUEST
-title: MSV1_0_SUBAUTH_REQUEST
+title: MSV1_0_SUBAUTH_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information to pass to an subauthentication package.
 old-location: security\msv1_0_subauth_request.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_SHADER_MIN_PRECISION_SUPPORT
-title: D3D12_SHADER_MIN_PRECISION_SUPPORT
+title: D3D12_SHADER_MIN_PRECISION_SUPPORT (d3d12.h)
 author: windows-sdk-content
 description: Describes minimum precision support options for shaders in the current graphics driver.
 old-location: direct3d12\d3d12_shader_min_precision_support.htm

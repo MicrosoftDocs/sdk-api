@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetSetStatusCallback
-title: InternetSetStatusCallback function
+title: InternetSetStatusCallback function (wininet.h)
 author: windows-sdk-content
 description: Sets up a callback function that WinINet functions can call as progress is made during an operation.
 old-location: wininet\internetsetstatuscallback.htm

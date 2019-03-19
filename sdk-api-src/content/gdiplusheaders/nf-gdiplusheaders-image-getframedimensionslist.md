@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetFrameDimensionsList
-title: Image::GetFrameDimensionsList
+title: Image::GetFrameDimensionsList (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetFrameDimensionsList method gets the identifiers for the frame dimensions of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetFrameDimensionsList_dimensionIDs_count_.htm

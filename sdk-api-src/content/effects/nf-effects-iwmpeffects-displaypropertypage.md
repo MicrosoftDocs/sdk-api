@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects.DisplayPropertyPage
-title: IWMPEffects::DisplayPropertyPage
+title: IWMPEffects::DisplayPropertyPage (effects.h)
 author: windows-sdk-content
 description: The DisplayPropertyPage method displays the property page of a visualization, if it exists.
 old-location: wmp\iwmpeffects_displaypropertypage.htm

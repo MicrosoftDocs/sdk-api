@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetHistogram
-title: Bitmap::GetHistogram
+title: Bitmap::GetHistogram (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Bitmap::GetHistogram method returns one or more histograms for specified color channels of this Bitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHistogram_.htm

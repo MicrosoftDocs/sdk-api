@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IWEExtendWizard.CreateWizardPages
-title: IWEExtendWizard::CreateWizardPages
+title: IWEExtendWizard::CreateWizardPages (cluadmex.h)
 author: windows-sdk-content
 description: Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
 old-location: mscs\iweextendwizard_createwizardpages.htm

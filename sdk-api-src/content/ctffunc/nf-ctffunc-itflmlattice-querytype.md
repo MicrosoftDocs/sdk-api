@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfLMLattice.QueryType
-title: ITfLMLattice::QueryType
+title: ITfLMLattice::QueryType (ctffunc.h)
 author: windows-sdk-content
 description: ITfLMLattice::QueryType method
 old-location: tsf\itflmlattice_querytype.htm

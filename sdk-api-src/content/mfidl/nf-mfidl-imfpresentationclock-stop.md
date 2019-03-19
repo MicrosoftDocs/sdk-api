@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.Stop
-title: IMFPresentationClock::Stop
+title: IMFPresentationClock::Stop (mfidl.h)
 author: windows-sdk-content
 description: Stops the presentation clock. While the clock is stopped, the clock time does not advance, and the clock's IMFPresentationClock::GetTime method returns zero.
 old-location: mf\imfpresentationclock_stop.htm

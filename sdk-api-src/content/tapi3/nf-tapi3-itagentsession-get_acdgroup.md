@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_ACDGroup
-title: ITAgentSession::get_ACDGroup
+title: ITAgentSession::get_ACDGroup (tapi3.h)
 author: windows-sdk-content
 description: The get_ACDGroup method gets the ACD group associated with this session.
 old-location: tapi3\itagentsession_get_acdgroup.htm

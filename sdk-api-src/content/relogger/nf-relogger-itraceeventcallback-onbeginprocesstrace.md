@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEventCallback.OnBeginProcessTrace
-title: ITraceEventCallback::OnBeginProcessTrace
+title: ITraceEventCallback::OnBeginProcessTrace (relogger.h)
 author: windows-sdk-content
 description: Indicates that a trace is about to begin so that relogging can be started.
 old-location: etw\ieventcallback_onbeginprocesstrace.htm

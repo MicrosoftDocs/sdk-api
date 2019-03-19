@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Reset
-title: IEnumBitsPeers::Reset
+title: IEnumBitsPeers::Reset (bits3_0.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbitspeers_reset.htm

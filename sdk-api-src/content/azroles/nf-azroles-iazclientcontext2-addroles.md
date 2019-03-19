@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddRoles
-title: IAzClientContext2::AddRoles
+title: IAzClientContext2::AddRoles (azroles.h)
 author: windows-sdk-content
 description: Adds the specified array of existing IAzRole objects to the client context.
 old-location: security\iazclientcontext2_addroles.htm

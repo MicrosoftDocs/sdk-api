@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.InterleavingMode
-title: InterleavingMode
+title: InterleavingMode (strmif.h)
 author: windows-sdk-content
 description: Specifies how video frames and audio samples will be written to disk.
 old-location: dshow\interleavingmode.htm

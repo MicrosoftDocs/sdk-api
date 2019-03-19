@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPacketData
-title: IInkStrokeDisp::GetPacketData
+title: IInkStrokeDisp::GetPacketData (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the packet data for a range of packets within the IInkStrokeDisp object.
 old-location: tablet\iinkstrokedisp_getpacketdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CreateStateObject
-title: ID3D12Device5::CreateStateObject
+title: ID3D12Device5::CreateStateObject (d3d12.h)
 author: windows-sdk-content
 description: Creates an ID3D12StateObject.
 old-location: direct3d12\id3d12device5_createstateobject.htm

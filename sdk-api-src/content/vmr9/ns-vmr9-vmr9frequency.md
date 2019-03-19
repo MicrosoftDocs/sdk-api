@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9Frequency
-title: VMR9Frequency
+title: VMR9Frequency (vmr9.h)
 author: windows-sdk-content
 description: The VMR9Frequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 old-location: dshow\vmr9frequency.htm

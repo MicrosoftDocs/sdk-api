@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPControls3.put_currentAudioLanguageIndex
-title: IWMPControls3::put_currentAudioLanguageIndex
+title: IWMPControls3::put_currentAudioLanguageIndex (wmp.h)
 author: windows-sdk-content
 description: The put_currentAudioLanguageIndex method specifies the one-based index that corresponds to the audio language for playback.
 old-location: wmp\iwmpcontrols3_put_currentaudiolanguageindex.htm

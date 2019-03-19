@@ -1,6 +1,6 @@
 ---
 UID: NE:activationregistration.RegistrationScope
-title: RegistrationScope
+title: RegistrationScope (activationregistration.h)
 author: windows-sdk-content
 description: Represents the deployment scope of an activatable class.
 old-location: winrt\registrationscope.htm

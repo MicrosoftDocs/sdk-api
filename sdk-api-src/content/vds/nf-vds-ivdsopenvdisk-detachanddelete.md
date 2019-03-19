@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.DetachAndDelete
-title: IVdsOpenVDisk::DetachAndDelete
+title: IVdsOpenVDisk::DetachAndDelete (vds.h)
 author: windows-sdk-content
 description: Detaches a virtual disk and deletes the backing files.
 old-location: base\ivdsopenvdisk_detachanddelete.htm

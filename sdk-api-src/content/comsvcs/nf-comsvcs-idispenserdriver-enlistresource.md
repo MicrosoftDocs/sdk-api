@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.EnlistResource
-title: IDispenserDriver::EnlistResource
+title: IDispenserDriver::EnlistResource (comsvcs.h)
 author: windows-sdk-content
 description: Enlists a resource in a transaction.
 old-location: cos\idispenserdriver_enlistresource.htm

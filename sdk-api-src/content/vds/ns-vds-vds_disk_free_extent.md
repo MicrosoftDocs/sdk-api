@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_DISK_FREE_EXTENT
-title: VDS_DISK_FREE_EXTENT
+title: VDS_DISK_FREE_EXTENT (vds.h)
 author: windows-sdk-content
 description: Describes a free extent on a disk.
 old-location: base\vds_disk_free_extent.htm

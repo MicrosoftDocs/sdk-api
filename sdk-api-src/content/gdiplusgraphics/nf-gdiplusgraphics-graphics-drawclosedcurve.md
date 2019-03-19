@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawClosedCurve
-title: Graphics::DrawClosedCurve
+title: Graphics::DrawClosedCurve (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the DrawClosedCurve methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawClosedCurve_Methods.htm

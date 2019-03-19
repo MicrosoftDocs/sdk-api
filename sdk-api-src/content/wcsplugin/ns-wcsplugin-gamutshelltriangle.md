@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._GamutShellTriangle
-title: GamutShellTriangle
+title: GamutShellTriangle (wcsplugin.h)
 author: windows-sdk-content
 description: Contains three vertex indices for accessing a vertex buffer.
 old-location: wcs\gamutshelltriangle.htm

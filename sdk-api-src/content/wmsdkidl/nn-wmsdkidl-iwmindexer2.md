@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMIndexer2
-title: IWMIndexer2
+title: IWMIndexer2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMIndexer2 interface enables you to change the settings of the indexer object to suit your needs.This interface is implemented as part of the indexer object.
 old-location: wmformat\iwmindexer2.htm

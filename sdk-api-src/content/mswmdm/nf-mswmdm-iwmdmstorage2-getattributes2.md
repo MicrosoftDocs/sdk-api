@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.GetAttributes2
-title: IWMDMStorage2::GetAttributes2
+title: IWMDMStorage2::GetAttributes2 (mswmdm.h)
 author: windows-sdk-content
 description: The GetAttributes2 method retrieves extended attributes of the storage.
 old-location: wmdm\iwmdmstorage2_getattributes2.htm

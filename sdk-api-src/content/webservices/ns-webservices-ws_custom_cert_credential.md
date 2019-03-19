@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_CUSTOM_CERT_CREDENTIAL
-title: WS_CUSTOM_CERT_CREDENTIAL
+title: WS_CUSTOM_CERT_CREDENTIAL (webservices.h)
 author: windows-sdk-content
 description: The type for specifying a certificate credential that is to be supplied by a callback to the application.
 old-location: wsw\ws_custom_cert_credential.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IAppDomainHelper
-title: IAppDomainHelper
+title: IAppDomainHelper (comsvcs.h)
 author: windows-sdk-content
 description: Binds a managed object to an application domain, which is an isolated environment where applications execute.
 old-location: cos\iappdomainhelper.htm

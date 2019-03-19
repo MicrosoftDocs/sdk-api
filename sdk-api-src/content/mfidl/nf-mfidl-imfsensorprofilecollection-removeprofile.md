@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.RemoveProfile
-title: IMFSensorProfileCollection::RemoveProfile
+title: IMFSensorProfileCollection::RemoveProfile (mfidl.h)
 author: windows-sdk-content
 description: Removes the specified profile based on the specified profile ID.
 old-location: mf\imfsensorprofilecollection_removeprofile.htm

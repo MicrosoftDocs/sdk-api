@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfProperty.SetValue
-title: ITfProperty::SetValue
+title: ITfProperty::SetValue (msctf.h)
 author: windows-sdk-content
 description: ITfProperty::SetValue method
 old-location: tsf\itfproperty_setvalue.htm

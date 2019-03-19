@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DlgDirSelectComboBoxExW
-title: DlgDirSelectComboBoxExW function
+title: DlgDirSelectComboBoxExW function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the current selection from a combo box filled by using the DlgDirListComboBox function. The selection is interpreted as a drive letter, a file, or a directory name.
 old-location: controls\DlgDirSelectComboBoxEx.htm

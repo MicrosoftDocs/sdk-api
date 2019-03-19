@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_Plugin
-title: PDXVAHDSW_Plugin
+title: PDXVAHDSW_Plugin (dxvahd.h)
 author: windows-sdk-content
 description: Pointer to a function that initializes a software plug-in device for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\pdxvahdsw_plugin.htm

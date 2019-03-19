@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.IConnectableCredentialProviderCredential
-title: IConnectableCredentialProviderCredential
+title: IConnectableCredentialProviderCredential (credentialprovider.h)
 author: windows-sdk-content
 description: Exposes methods for connecting and disconnecting IConnectableCredentialProviderCredential objects.
 old-location: shell\IConnectableCredentialProviderCredential.htm

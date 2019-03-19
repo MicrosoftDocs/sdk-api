@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetHelpFileName
-title: ICreateTypeLib::SetHelpFileName
+title: ICreateTypeLib::SetHelpFileName (oaidl.h)
 author: windows-sdk-content
 description: Sets the name of the Help file.
 old-location: automat\icreatetypelib_sethelpfilename.htm

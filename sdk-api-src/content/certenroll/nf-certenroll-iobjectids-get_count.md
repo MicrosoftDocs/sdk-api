@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IObjectIds.get_Count
-title: IObjectIds::get_Count
+title: IObjectIds::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\iobjectids_count_property.htm

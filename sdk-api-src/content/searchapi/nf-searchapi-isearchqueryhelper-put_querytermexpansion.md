@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryTermExpansion
-title: ISearchQueryHelper::put_QueryTermExpansion
+title: ISearchQueryHelper::put_QueryTermExpansion (searchapi.h)
 author: windows-sdk-content
 description: Sets a value that specifies how query terms are to be expanded.
 old-location: search\_search_ISearchQueryHelper_put_QueryTermExpansion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.get_Parameters
-title: IFsrmPropertyDefinition::get_Parameters
+title: IFsrmPropertyDefinition::get_Parameters (fsrmpipeline.h)
 author: windows-sdk-content
 description: The parameters for the property definition.
 old-location: fsrm\ifsrmpropertydefinition_parameters.htm

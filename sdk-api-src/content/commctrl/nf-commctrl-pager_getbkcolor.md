@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Pager_GetBkColor
-title: Pager_GetBkColor macro
+title: Pager_GetBkColor macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the current background color for the pager control. You can use this macro or send the PGM_GETBKCOLOR message explicitly.
 old-location: controls\Pager_GetBkColor.htm

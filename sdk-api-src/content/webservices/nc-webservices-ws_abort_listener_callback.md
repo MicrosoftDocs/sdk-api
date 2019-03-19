@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ABORT_LISTENER_CALLBACK
-title: WS_ABORT_LISTENER_CALLBACK
+title: WS_ABORT_LISTENER_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsAbortListener call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_abort_listener_callback.htm

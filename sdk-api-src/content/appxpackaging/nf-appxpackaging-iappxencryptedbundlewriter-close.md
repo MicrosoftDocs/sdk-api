@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter.Close
-title: IAppxEncryptedBundleWriter::Close
+title: IAppxEncryptedBundleWriter::Close (appxpackaging.h)
 author: windows-sdk-content
 description: Writes the bundle manifest and blockmap footprint files to the bundle.
 old-location: appxpkg\iappxencryptedbundlewriter_close.htm

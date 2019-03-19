@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsHungAppWindow
-title: IsHungAppWindow function
+title: IsHungAppWindow function (winuser.h)
 author: windows-sdk-content
 description: Determines whether the system considers that a specified application is not responding.
 old-location: winmsg\ishungappwindow.htm

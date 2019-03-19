@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsOffscreen
-title: IUIAutomationElement::get_CachedIsOffscreen
+title: IUIAutomationElement::get_CachedIsOffscreen (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element is off-screen.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsOffscreen.htm

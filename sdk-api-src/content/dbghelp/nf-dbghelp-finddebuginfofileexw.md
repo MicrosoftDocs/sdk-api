@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.FindDebugInfoFileExW
-title: FindDebugInfoFileExW function
+title: FindDebugInfoFileExW function (dbghelp.h)
 author: windows-sdk-content
 description: Locates the specified debug (.dbg) file.
 old-location: base\finddebuginfofileex.htm

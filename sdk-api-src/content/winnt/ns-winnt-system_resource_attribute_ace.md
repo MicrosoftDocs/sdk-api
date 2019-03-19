@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_RESOURCE_ATTRIBUTE_ACE
-title: SYSTEM_RESOURCE_ATTRIBUTE_ACE
+title: SYSTEM_RESOURCE_ATTRIBUTE_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the system resource attributes for a securable object.
 old-location: security\system_resource_attribute_ace.htm

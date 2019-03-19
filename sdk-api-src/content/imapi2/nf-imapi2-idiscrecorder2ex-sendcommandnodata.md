@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandNoData
-title: IDiscRecorder2Ex::SendCommandNoData
+title: IDiscRecorder2Ex::SendCommandNoData (imapi2.h)
 author: windows-sdk-content
 description: Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.
 old-location: imapi\idiscrecorder2ex_sendcommandnodata.htm

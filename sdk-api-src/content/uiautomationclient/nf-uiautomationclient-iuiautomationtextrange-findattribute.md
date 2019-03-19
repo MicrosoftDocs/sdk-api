@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.FindAttribute
-title: IUIAutomationTextRange::FindAttribute
+title: IUIAutomationTextRange::FindAttribute (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a text range subset that has the specified text attribute value.
 old-location: winauto\uiauto_IUIAutomationTextRange_FindAttribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass._BATTERY_WMI_STATUS
-title: BATTERY_WMI_STATUS
+title: BATTERY_WMI_STATUS (batclass.h)
 author: windows-sdk-content
 description: Defines battery status information.
 old-location: battery\battery_wmi_status.htm

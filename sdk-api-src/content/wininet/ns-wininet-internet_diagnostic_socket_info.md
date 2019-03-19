@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_1
-title: INTERNET_DIAGNOSTIC_SOCKET_INFO
+title: INTERNET_DIAGNOSTIC_SOCKET_INFO (wininet.h)
 author: windows-sdk-content
 description: The INTERNET_DIAGNOSTIC_SOCKET_INFO structure is returned by the InternetQueryOption function when the INTERNET_OPTION_DIAGNOSTIC_SOCKET_INFO flag is passed to it together with a handle to an HTTP Request.
 old-location: wininet\internet_diagnostic_socket_info.htm

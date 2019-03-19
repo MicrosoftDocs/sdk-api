@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.GetProperties
-title: IVdsLunPlex::GetProperties
+title: IVdsLunPlex::GetProperties (vdshwprv.h)
 author: windows-sdk-content
 description: Returns the properties of the LUN plex.
 old-location: base\ivdslunplex_getproperties.htm

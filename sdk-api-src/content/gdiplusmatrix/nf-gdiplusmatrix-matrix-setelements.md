@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.SetElements
-title: Matrix::SetElements
+title: Matrix::SetElements (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::SetElements method sets the elements of this matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_.htm

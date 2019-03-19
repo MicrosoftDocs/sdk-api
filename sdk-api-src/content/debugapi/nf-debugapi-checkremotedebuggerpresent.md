@@ -1,6 +1,6 @@
 ---
 UID: NF:debugapi.CheckRemoteDebuggerPresent
-title: CheckRemoteDebuggerPresent function
+title: CheckRemoteDebuggerPresent function (debugapi.h)
 author: windows-sdk-content
 description: Determines whether the specified process is being debugged.
 old-location: base\checkremotedebuggerpresent.htm

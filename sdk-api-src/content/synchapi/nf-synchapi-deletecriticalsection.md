@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.DeleteCriticalSection
-title: DeleteCriticalSection function
+title: DeleteCriticalSection function (synchapi.h)
 author: windows-sdk-content
 description: Releases all resources used by an unowned critical section object.
 old-location: base\deletecriticalsection.htm

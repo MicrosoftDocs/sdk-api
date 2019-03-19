@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHEnumValueA
-title: SHEnumValueA function
+title: SHEnumValueA function (shlwapi.h)
 author: windows-sdk-content
 description: Enumerates the values of the specified open registry key.
 old-location: shell\SHEnumValue.htm

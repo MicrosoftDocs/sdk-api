@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateTargets
-title: ITsSbResourcePluginStore::EnumerateTargets
+title: ITsSbResourcePluginStore::EnumerateTargets (sbtsv.h)
 author: windows-sdk-content
 description: Returns an array that contains the specified targets that are present in the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumeratetargets.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedItemCount
-title: IUIAutomationSelectionPattern2::get_CachedItemCount
+title: IUIAutomationSelectionPattern2::get_CachedItemCount (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets a cached integer value indicating the number of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedItemCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoder
-title: IWICImagingFactory::CreateDecoder
+title: IWICImagingFactory::CreateDecoder (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of IWICBitmapDecoder.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoder.htm

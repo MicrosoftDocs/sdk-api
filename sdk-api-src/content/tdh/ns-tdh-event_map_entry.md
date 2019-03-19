@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._EVENT_MAP_ENTRY
-title: EVENT_MAP_ENTRY
+title: EVENT_MAP_ENTRY (tdh.h)
 author: windows-sdk-content
 description: Defines a single value map entry.
 old-location: etw\event_map_entry_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IReferenceClock.GetTime
-title: IReferenceClock::GetTime
+title: IReferenceClock::GetTime (strmif.h)
 author: windows-sdk-content
 description: The GetTime method retrieves the current reference time.
 old-location: dshow\ireferenceclock_gettime.htm

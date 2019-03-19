@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IServerSecurity.ImpersonateClient
-title: IServerSecurity::ImpersonateClient
+title: IServerSecurity::ImpersonateClient (objidlbase.h)
 author: windows-sdk-content
 description: Enables a server to impersonate a client for the duration of a call.
 old-location: com\iserversecurity_impersonateclient.htm

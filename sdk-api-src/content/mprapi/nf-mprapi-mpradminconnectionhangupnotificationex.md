@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminConnectionHangupNotificationEx
-title: MprAdminConnectionHangupNotificationEx function
+title: MprAdminConnectionHangupNotificationEx function (mprapi.h)
 author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminConnectionHangupNotificationEx function after the last link for the specified connection has been dismantled.
 old-location: rras\mpradminconnectionhangupnotificationex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetDescription
-title: IXpsOMCoreProperties::GetDescription
+title: IXpsOMCoreProperties::GetDescription (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the description property.
 old-location: xps\ixpsomcoreproperties_getdescription.htm

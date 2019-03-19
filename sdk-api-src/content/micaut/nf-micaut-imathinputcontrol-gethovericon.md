@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.GetHoverIcon
-title: IMathInputControl::GetHoverIcon
+title: IMathInputControl::GetHoverIcon (micaut.h)
 author: windows-sdk-content
 description: Retrieves the icon to be used for the hover target to launch math input control.
 old-location: tablet\imathinputcontrol_gethovericon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.UnregisterControlChangeNotify
-title: IAudioEndpointVolume::UnregisterControlChangeNotify
+title: IAudioEndpointVolume::UnregisterControlChangeNotify (endpointvolume.h)
 author: windows-sdk-content
 description: The UnregisterControlChangeNotify method deletes the registration of a client's notification callback interface that the client registered in a previous call to the IAudioEndpointVolume::RegisterControlChangeNotify method.
 old-location: coreaudio\iaudioendpointvolume_unregistercontrolchangenotify.htm

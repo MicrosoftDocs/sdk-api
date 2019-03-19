@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_CODEC_INFO_TYPE
-title: WMT_CODEC_INFO_TYPE
+title: WMT_CODEC_INFO_TYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_CODEC_INFO_TYPE enumeration type defines the broad categories of codecs supported by this SDK.
 old-location: wmformat\wmt_codec_info_type.htm

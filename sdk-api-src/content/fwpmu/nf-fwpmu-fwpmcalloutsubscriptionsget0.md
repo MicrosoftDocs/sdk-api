@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscriptionsGet0
-title: FwpmCalloutSubscriptionsGet0 function
+title: FwpmCalloutSubscriptionsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all the current callout change notification subscriptions.
 old-location: fwp\fwpmcalloutsubscriptionsget0_func.htm

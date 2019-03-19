@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IShellApp.GetAppInfo
-title: IShellApp::GetAppInfo
+title: IShellApp::GetAppInfo (shappmgr.h)
 author: windows-sdk-content
 description: Gets general information about an application.
 old-location: shell\IShellApp_GetAppInfo.htm

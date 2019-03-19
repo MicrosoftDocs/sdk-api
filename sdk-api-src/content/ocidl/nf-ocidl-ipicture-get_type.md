@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_Type
-title: IPicture::get_Type
+title: IPicture::get_Type (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the current type of the picture contained in the picture object.
 old-location: com\ipicture_get_type.htm

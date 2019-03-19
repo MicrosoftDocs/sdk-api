@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Pause
-title: IMFMediaEngine::Pause
+title: IMFMediaEngine::Pause (mfmediaengine.h)
 author: windows-sdk-content
 description: Pauses playback.
 old-location: mf\imfmediaengine_pause.htm

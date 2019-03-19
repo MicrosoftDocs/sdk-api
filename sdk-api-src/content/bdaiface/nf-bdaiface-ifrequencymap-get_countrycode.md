@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_CountryCode
-title: IFrequencyMap::get_CountryCode
+title: IFrequencyMap::get_CountryCode (bdaiface.h)
 author: windows-sdk-content
 description: The get_CountryCode method returns the country/region code the Network Provider is currently using. The country/region code determines which frequency table the Network Provider loads.
 old-location: mstv\ifrequencymap_get_countrycode.htm

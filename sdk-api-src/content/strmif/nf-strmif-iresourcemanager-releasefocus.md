@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IResourceManager.ReleaseFocus
-title: IResourceManager::ReleaseFocus
+title: IResourceManager::ReleaseFocus (strmif.h)
 author: windows-sdk-content
 description: The ReleaseFocus method sets the focus object to NULL in the resource manager if the current focus object is the one specified in this method.
 old-location: dshow\iresourcemanager_releasefocus.htm

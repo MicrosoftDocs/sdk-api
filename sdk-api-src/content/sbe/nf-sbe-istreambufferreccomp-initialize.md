@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Initialize
-title: IStreamBufferRecComp::Initialize
+title: IStreamBufferRecComp::Initialize (sbe.h)
 author: windows-sdk-content
 description: The Initialize method sets the file name and the profile for the new recording. Call this method once, after creating the RecComp object.
 old-location: mstv\istreambufferreccomp_initialize.htm

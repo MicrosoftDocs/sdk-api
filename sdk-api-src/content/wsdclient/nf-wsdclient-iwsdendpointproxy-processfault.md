@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.ProcessFault
-title: IWSDEndpointProxy::ProcessFault
+title: IWSDEndpointProxy::ProcessFault (wsdclient.h)
 author: windows-sdk-content
 description: Processes a SOAP fault retrieved by GetFaultInfo.
 old-location: ncd\iwsdendpointproxy_processfault.htm

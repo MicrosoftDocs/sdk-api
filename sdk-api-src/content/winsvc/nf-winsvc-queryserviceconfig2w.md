@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.QueryServiceConfig2W
-title: QueryServiceConfig2W function
+title: QueryServiceConfig2W function (winsvc.h)
 author: windows-sdk-content
 description: Retrieves the optional configuration parameters of the specified service.
 old-location: base\queryserviceconfig2.htm

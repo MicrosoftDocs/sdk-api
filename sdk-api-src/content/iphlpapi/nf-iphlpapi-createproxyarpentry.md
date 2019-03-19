@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.CreateProxyArpEntry
-title: CreateProxyArpEntry function
+title: CreateProxyArpEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The CreateProxyArpEnry function creates a Proxy Address Resolution Protocol (PARP) entry on the local computer for the specified IPv4 address.
 old-location: iphlp\createproxyarpentry.htm

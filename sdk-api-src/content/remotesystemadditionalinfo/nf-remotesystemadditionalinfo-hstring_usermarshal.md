@@ -1,6 +1,6 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserMarshal
-title: HSTRING_UserMarshal function
+title: HSTRING_UserMarshal function (remotesystemadditionalinfo.h)
 author: windows-sdk-content
 description: Marshals an HSTRING object into the RPC buffer.
 old-location: winrt\hstring_usermarshal.htm

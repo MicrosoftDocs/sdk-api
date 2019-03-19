@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhOpenDecodingHandle
-title: TdhOpenDecodingHandle function
+title: TdhOpenDecodingHandle function (tdh.h)
 author: windows-sdk-content
 description: Opens a decoding handle.
 old-location: etw\tdhopendecodinghandle.htm

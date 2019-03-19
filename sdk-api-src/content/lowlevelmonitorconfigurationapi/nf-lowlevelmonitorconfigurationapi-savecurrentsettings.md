@@ -1,6 +1,6 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.SaveCurrentSettings
-title: SaveCurrentSettings function
+title: SaveCurrentSettings function (lowlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Saves the current monitor settings to the display's nonvolatile storage.
 old-location: monitor\savecurrentsettings.htm

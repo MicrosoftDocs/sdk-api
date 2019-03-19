@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Query.GetDesc
-title: ID3D10Query::GetDesc
+title: ID3D10Query::GetDesc (d3d10.h)
 author: windows-sdk-content
 description: Get a query description.
 old-location: direct3d10\id3d10query_getdesc.htm

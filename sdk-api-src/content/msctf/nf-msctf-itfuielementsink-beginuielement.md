@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementSink.BeginUIElement
-title: ITfUIElementSink::BeginUIElement
+title: ITfUIElementSink::BeginUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementSink::BeginUIElement method is called when the UIElement started. This sink can let the textservice to draw or not to draw the UI element.
 old-location: tsf\itfuielementsink_beginuielement.htm

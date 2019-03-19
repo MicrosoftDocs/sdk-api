@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.Deactivate
-title: ITfThreadMgr2::Deactivate
+title: ITfThreadMgr2::Deactivate (msctf.h)
 author: windows-sdk-content
 description: Deactivates TSF for the calling thread.
 old-location: tsf\itfthreadmgr2_deactivate.htm

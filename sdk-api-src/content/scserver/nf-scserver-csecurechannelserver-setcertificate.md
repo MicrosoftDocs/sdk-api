@@ -1,6 +1,6 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SetCertificate
-title: CSecureChannelServer::SetCertificate
+title: CSecureChannelServer::SetCertificate (scserver.h)
 author: windows-sdk-content
 description: The SetCertificate method specifies the certificate and private key of the secure authenticated channel (SAC) server. Information about where to get this certificate is given in Tools for Development.
 old-location: wmdm\csecurechannelserver_setcertificate.htm

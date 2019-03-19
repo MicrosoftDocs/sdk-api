@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetOriginalNetworkId
-title: IISDB_BIT::GetOriginalNetworkId
+title: IISDB_BIT::GetOriginalNetworkId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getoriginalnetworkid.htm

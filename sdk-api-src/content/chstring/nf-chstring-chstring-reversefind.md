@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.ReverseFind
-title: CHString::ReverseFind
+title: CHString::ReverseFind (chstring.h)
 author: windows-sdk-content
 description: The ReverseFind method searches a CHString string for the last match of a substring. This method is similar to the runtime function, wcsrchr.
 old-location: wmi\chstring_reversefind.htm

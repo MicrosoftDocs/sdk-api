@@ -1,6 +1,6 @@
 ---
 UID: NS:memoryapi.WIN32_MEMORY_REGION_INFORMATION
-title: WIN32_MEMORY_REGION_INFORMATION
+title: WIN32_MEMORY_REGION_INFORMATION (memoryapi.h)
 author: windows-sdk-content
 description: Contains information about a memory region.
 old-location: base\win32_memory_region_information.htm

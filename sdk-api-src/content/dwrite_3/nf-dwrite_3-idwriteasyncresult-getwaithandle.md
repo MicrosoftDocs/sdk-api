@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteAsyncResult.GetWaitHandle
-title: IDWriteAsyncResult::GetWaitHandle
+title: IDWriteAsyncResult::GetWaitHandle (dwrite_3.h)
 author: windows-sdk-content
 description: Returns a handle that can be used to wait for the asynchronous operation to complete. The handle remains valid until the interface is released.
 old-location: directwrite\idwriteasyncresult_getwaithandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuneRequest.put_SourceID
-title: IDigitalCableTuneRequest::put_SourceID
+title: IDigitalCableTuneRequest::put_SourceID (tuner.h)
 author: windows-sdk-content
 description: The put_SourceID method sets the source identifier, which maps to a physical channel.
 old-location: mstv\idigitalcabletunerequest_put_sourceid.htm

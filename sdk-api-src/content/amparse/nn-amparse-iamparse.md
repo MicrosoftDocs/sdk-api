@@ -1,6 +1,6 @@
 ---
 UID: NN:amparse.IAMParse
-title: IAMParse
+title: IAMParse (amparse.h)
 author: windows-sdk-content
 description: The IAMParse interface sets and retrieves the parse time for an MPEG-2 stream.
 old-location: dshow\iamparse.htm

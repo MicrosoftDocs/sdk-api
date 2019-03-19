@@ -1,6 +1,6 @@
 ---
 UID: NS:uiribbon._UI_EVENTPARAMS_COMMAND
-title: UI_EVENTPARAMS_COMMAND
+title: UI_EVENTPARAMS_COMMAND (uiribbon.h)
 author: windows-sdk-content
 description: Contains information about a Command associated with a event.
 old-location: windowsribbon\ui_eventparams_command_.htm

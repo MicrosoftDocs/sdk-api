@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IEnumContextProps.Next
-title: IEnumContextProps::Next
+title: IEnumContextProps::Next (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumcontextprops_next.htm

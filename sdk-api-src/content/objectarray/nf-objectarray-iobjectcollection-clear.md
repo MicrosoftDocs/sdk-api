@@ -1,6 +1,6 @@
 ---
 UID: NF:objectarray.IObjectCollection.Clear
-title: IObjectCollection::Clear
+title: IObjectCollection::Clear (objectarray.h)
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: shell\IObjectCollection_Clear.htm

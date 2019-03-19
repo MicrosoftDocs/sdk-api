@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIJOYTYPEINFO
-title: DIJOYTYPEINFO
+title: DIJOYTYPEINFO (dinputd.h)
 author: windows-sdk-content
 description: The DIJOYTYPEINFO structure contains information about a joystick type.
 old-location: hid\dijoytypeinfo.htm

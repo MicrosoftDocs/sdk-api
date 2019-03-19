@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceUnitsStream.SeekInUnits
-title: IPortableDeviceUnitsStream::SeekInUnits
+title: IPortableDeviceUnitsStream::SeekInUnits (portabledeviceapi.h)
 author: windows-sdk-content
 description: The SeekInUnits method performs a seek on a stream, based on alternate units.
 old-location: wpdsdk\iportabledeviceunitsstream_seekinunits.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetLastErrorEx
-title: SetLastErrorEx function
+title: SetLastErrorEx function (winuser.h)
 author: windows-sdk-content
 description: Sets the last-error code.
 old-location: base\setlasterrorex.htm

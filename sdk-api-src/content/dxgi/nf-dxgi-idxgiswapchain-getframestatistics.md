@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetFrameStatistics
-title: IDXGISwapChain::GetFrameStatistics
+title: IDXGISwapChain::GetFrameStatistics (dxgi.h)
 author: windows-sdk-content
 description: Gets performance statistics about the last render frame.
 old-location: direct3ddxgi\idxgiswapchain_getframestatistics.htm

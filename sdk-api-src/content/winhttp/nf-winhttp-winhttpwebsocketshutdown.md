@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketShutdown
-title: WinHttpWebSocketShutdown function
+title: WinHttpWebSocketShutdown function (winhttp.h)
 author: windows-sdk-content
 description: Sends a close frame to a WebSocket server to close the send channel, but leaves the receive channel open.
 old-location: http\winhttpwebsocketshutdown.htm

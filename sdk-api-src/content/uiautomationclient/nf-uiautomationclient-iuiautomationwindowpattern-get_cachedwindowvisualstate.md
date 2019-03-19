@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedWindowVisualState
-title: IUIAutomationWindowPattern::get_CachedWindowVisualState
+title: IUIAutomationWindowPattern::get_CachedWindowVisualState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached value that indicates the visual state of the window; that is, whether it is in the normal, maximized, or minimized state.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowVisualState.htm

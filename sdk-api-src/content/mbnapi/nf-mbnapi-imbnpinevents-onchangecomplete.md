@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnChangeComplete
-title: IMbnPinEvents::OnChangeComplete
+title: IMbnPinEvents::OnChangeComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a PIN change operation has completed.
 old-location: mbn\imbnpinevents_onchangecomplete.htm

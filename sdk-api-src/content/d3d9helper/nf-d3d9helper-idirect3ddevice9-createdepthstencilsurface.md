@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateDepthStencilSurface
-title: IDirect3DDevice9::CreateDepthStencilSurface
+title: IDirect3DDevice9::CreateDepthStencilSurface (d3d9helper.h)
 author: windows-sdk-content
 description: Creates a depth-stencil resource.
 old-location: direct3d9\idirect3ddevice9__createdepthstencilsurface.htm

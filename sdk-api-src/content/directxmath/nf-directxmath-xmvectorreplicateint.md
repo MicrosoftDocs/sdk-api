@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorReplicateInt
-title: XMVectorReplicateInt function
+title: XMVectorReplicateInt function (directxmath.h)
 author: windows-sdk-content
 description: Replicates an integer value into all four components of a vector.
 old-location: dxmath\xmvectorreplicateint.htm

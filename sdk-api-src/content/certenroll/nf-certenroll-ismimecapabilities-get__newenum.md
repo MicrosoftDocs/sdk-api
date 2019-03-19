@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.get__NewEnum
-title: ISmimeCapabilities::get__NewEnum
+title: ISmimeCapabilities::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ismimecapabilities__newenum_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:htmlhelp.tagHH_POPUP
-title: HH_POPUP
+title: HH_POPUP (htmlhelp.h)
 author: windows-sdk-content
 description: Use this structure to specify or modify the attributes of a pop-up window.
 old-location: htmlhelp\hh_popup_structure.htm

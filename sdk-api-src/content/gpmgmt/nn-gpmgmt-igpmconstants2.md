@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMConstants2
-title: IGPMConstants2
+title: IGPMConstants2 (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMConstants2 interface supports methods that retrieve the value of multiple Group Policy Management Console (GPMC) constants.
 old-location: gpmc\igpmconstants2.htm

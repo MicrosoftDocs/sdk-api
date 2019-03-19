@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.PutMulticastList
-title: IBDA_EthernetFilter::PutMulticastList
+title: IBDA_EthernetFilter::PutMulticastList (bdaiface.h)
 author: windows-sdk-content
 description: The PutMulticastList method sets the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ethernetfilter_putmulticastlist.htm

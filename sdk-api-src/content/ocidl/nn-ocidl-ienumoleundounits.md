@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IEnumOleUndoUnits
-title: IEnumOleUndoUnits
+title: IEnumOleUndoUnits (ocidl.h)
 author: windows-sdk-content
 description: Enumerates the undo units on the undo or redo stack.
 old-location: com\ienumoleundounits.htm

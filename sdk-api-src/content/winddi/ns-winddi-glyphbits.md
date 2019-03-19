@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._GLYPHBITS
-title: GLYPHBITS
+title: GLYPHBITS (winddi.h)
 author: windows-sdk-content
 description: The GLYPHBITS structure is used to define a glyph bitmap.
 old-location: display\glyphbits.htm

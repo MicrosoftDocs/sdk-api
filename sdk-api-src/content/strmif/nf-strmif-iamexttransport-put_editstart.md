@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_EditStart
-title: IAMExtTransport::put_EditStart
+title: IAMExtTransport::put_EditStart (strmif.h)
 author: windows-sdk-content
 description: The put_EditStart method activates the edit control on a capable transport.
 old-location: dshow\iamexttransport_put_editstart.htm

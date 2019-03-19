@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemFlagEnum
-title: WbemFlagEnum
+title: WbemFlagEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Defines constants that are used by SWbemServices.ExecQuery, SWbemServices.ExecQueryAsync, SWbemServices.SubclassesOf, and SWbemServices.InstancesOf.
 old-location: wmi\wbemflagenum.htm

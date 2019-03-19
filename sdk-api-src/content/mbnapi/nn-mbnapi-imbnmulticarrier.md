@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnMultiCarrier
-title: IMbnMultiCarrier
+title: IMbnMultiCarrier (mbnapi.h)
 author: windows-sdk-content
 description: This interface exposes the multi-carrier functionality of a capable Mobile Broadband device.
 old-location: mbn\imbnmulticarrier.htm

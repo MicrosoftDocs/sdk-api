@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawAlertTextLen
-title: ISCTE_EAS::GetRawAlertTextLen
+title: ISCTE_EAS::GetRawAlertTextLen (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets the length of the alert_text field.
 old-location: mstv\iscte_eas_getrawalerttextlen.htm

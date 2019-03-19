@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._DOMAINTYPE
-title: IASDOMAINTYPE
+title: IASDOMAINTYPE (sdoias.h)
 author: windows-sdk-content
 description: The values of the IASDOMAINTYPE enumeration type specify whether the SDO computer is part of a domain, and if so, what type of domain.
 old-location: nps\SDO_iasdomaintype.htm

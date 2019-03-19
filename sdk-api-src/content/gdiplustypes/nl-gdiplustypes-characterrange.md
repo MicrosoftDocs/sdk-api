@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplustypes.CharacterRange
-title: CharacterRange
+title: CharacterRange (gdiplustypes.h)
 author: windows-sdk-content
 description: A CharacterRange object specifies a range of character positions within a string.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_Class.htm

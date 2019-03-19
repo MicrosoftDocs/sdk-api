@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyTopology
-title: IMFQualityManager::NotifyTopology
+title: IMFQualityManager::NotifyTopology (mfidl.h)
 author: windows-sdk-content
 description: Called when the Media Session is about to start playing a new topology.
 old-location: mf\imfqualitymanager_notifytopology.htm

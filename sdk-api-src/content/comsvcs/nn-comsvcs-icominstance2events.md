@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComInstance2Events
-title: IComInstance2Events
+title: IComInstance2Events (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber if an object is created or released by a client.
 old-location: cos\icominstance2events.htm

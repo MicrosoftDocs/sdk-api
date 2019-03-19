@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BuffersLost
-title: ITraceDataCollector::get_BuffersLost
+title: ITraceDataCollector::get_BuffersLost (pla.h)
 author: windows-sdk-content
 description: Retrieves the number of buffers that were not written to the log file.
 old-location: pla\itracedatacollector_bufferslost.htm

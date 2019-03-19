@@ -1,6 +1,6 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetReplyProgress
-title: IBackgroundCopyJob2::GetReplyProgress
+title: IBackgroundCopyJob2::GetReplyProgress (bits1_5.h)
 author: windows-sdk-content
 description: Retrieves progress information related to the transfer of the reply data from an upload-reply job.
 old-location: bits\ibackgroundcopyjob2_getreplyprogress.htm

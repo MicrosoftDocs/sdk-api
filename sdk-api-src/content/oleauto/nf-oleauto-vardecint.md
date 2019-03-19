@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecInt
-title: VarDecInt function
+title: VarDecInt function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves the integer portion of a variant of type decimal.
 old-location: automat\vardecint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPrintTicketResource
-title: IXpsOMDocument::GetPrintTicketResource
+title: IXpsOMDocument::GetPrintTicketResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the IXpsOMPrintTicketResource interface of the document-level print ticket.
 old-location: xps\ixpsomdocument_getprintticketresource.htm

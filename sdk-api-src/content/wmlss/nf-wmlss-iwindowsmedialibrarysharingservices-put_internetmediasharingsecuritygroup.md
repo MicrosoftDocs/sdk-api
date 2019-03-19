@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_internetMediaSharingSecurityGroup
-title: IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup
+title: IWindowsMediaLibrarySharingServices::put_internetMediaSharingSecurityGroup (wmlss.h)
 author: windows-sdk-content
 description: The put_internetMediaSharingSecurityGroup method specifies the name of the security group that is used to authenticate connections coming in over the Internet.
 old-location: wmlss\IWMLSSput_internetMediaSharingSecurityGroup.htm

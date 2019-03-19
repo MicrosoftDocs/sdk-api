@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_FAULT_REASON
-title: WSD_SOAP_FAULT_REASON
+title: WSD_SOAP_FAULT_REASON (wsdtypes.h)
 author: windows-sdk-content
 description: A collection of reason codes associated with a WSD_SOAP_FAULT.
 old-location: ncd\wsd_soap_fault_reason_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetVendorExtension
-title: IWCNDevice::GetVendorExtension
+title: IWCNDevice::GetVendorExtension (wcndevice.h)
 author: windows-sdk-content
 description: The GetVendorExtension method gets a cached vendor extension from the device.
 old-location: wcn\iwcndevice_getvendorextension.htm

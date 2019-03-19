@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanGetSecuritySettings
-title: WlanGetSecuritySettings function
+title: WlanGetSecuritySettings function (wlanapi.h)
 author: windows-sdk-content
 description: Gets the security settings associated with a configurable object.
 old-location: nwifi\wlangetsecuritysettings.htm

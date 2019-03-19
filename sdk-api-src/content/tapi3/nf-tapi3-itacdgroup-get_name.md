@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITACDGroup.get_Name
-title: ITACDGroup::get_Name
+title: ITACDGroup::get_Name (tapi3.h)
 author: windows-sdk-content
 description: The get_Name method gets the ACD group name. This string can be a displayable name for the group.
 old-location: tapi3\itacdgroup_get_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMREXTCREATEFONTINDIRECTW
-title: EMREXTCREATEFONTINDIRECTW
+title: EMREXTCREATEFONTINDIRECTW (wingdi.h)
 author: windows-sdk-content
 description: The EMREXTCREATEFONTINDIRECTW structure contains members for the CreateFontIndirect enhanced metafile record.
 old-location: gdi\emrextcreatefontindirectw.htm

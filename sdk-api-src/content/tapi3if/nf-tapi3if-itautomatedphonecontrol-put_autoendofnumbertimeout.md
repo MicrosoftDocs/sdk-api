@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoEndOfNumberTimeout
-title: ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout
+title: ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout (tapi3if.h)
 author: windows-sdk-content
 description: The put_AutoEndOfNumberTimeout method sets the value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
 old-location: tapi3\itautomatedphonecontrol_put_autoendofnumbertimeout.htm

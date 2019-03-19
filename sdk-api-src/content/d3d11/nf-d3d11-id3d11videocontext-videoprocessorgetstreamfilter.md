@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamFilter
-title: ID3D11VideoContext::VideoProcessorGetStreamFilter
+title: ID3D11VideoContext::VideoProcessorGetStreamFilter (d3d11.h)
 author: windows-sdk-content
 description: Gets the image filter settings for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamfilter.htm

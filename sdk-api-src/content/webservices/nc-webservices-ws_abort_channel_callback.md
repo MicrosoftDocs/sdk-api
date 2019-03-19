@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ABORT_CHANNEL_CALLBACK
-title: WS_ABORT_CHANNEL_CALLBACK
+title: WS_ABORT_CHANNEL_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsAbortChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_abort_channel_callback.htm

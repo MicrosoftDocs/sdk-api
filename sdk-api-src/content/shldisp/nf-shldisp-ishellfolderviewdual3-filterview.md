@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.FilterView
-title: IShellFolderViewDual3::FilterView
+title: IShellFolderViewDual3::FilterView (shldisp.h)
 author: windows-sdk-content
 description: Sets the filter on the contents of the current view.
 old-location: shell\IShellFolderViewDual3_FilterView.htm

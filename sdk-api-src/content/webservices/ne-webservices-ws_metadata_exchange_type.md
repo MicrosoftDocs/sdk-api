@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_93
-title: WS_METADATA_EXCHANGE_TYPE
+title: WS_METADATA_EXCHANGE_TYPE (webservices.h)
 author: windows-sdk-content
 description: WS_METADATA_EXCHANGE_TYPE enumeration
 old-location: wsw\ws_metadata_exchange_type.htm

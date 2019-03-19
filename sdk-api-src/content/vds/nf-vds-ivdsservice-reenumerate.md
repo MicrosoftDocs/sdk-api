@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsService.Reenumerate
-title: IVdsService::Reenumerate
+title: IVdsService::Reenumerate (vds.h)
 author: windows-sdk-content
 description: Discovers newly added and newly removed disks.
 old-location: base\ivdsservice_reenumerate.htm

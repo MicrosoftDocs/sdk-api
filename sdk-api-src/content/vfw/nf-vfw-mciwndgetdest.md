@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetDest
-title: MCIWndGetDest macro
+title: MCIWndGetDest macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetDest macro retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_GET_DEST message.
 old-location: multimedia\mciwndgetdest.htm

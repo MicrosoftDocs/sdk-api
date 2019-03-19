@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetExpiryDate
-title: IESFileExpiryDateEvent::GetExpiryDate
+title: IESFileExpiryDateEvent::GetExpiryDate (tuner.h)
 author: windows-sdk-content
 description: Gets the date from a FileExpiryDate event that indicates when a license for protected content expires.
 old-location: mstv\iesfileexpirydateevent_getexpirydate.htm

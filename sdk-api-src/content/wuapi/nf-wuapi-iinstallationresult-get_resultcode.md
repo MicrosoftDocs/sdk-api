@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_ResultCode
-title: IInstallationResult::get_ResultCode
+title: IInstallationResult::get_ResultCode (wuapi.h)
 author: windows-sdk-content
 description: Gets an OperationResultCode value that specifies the result of an operation on an update.
 old-location: wua\iinstallationresult_resultcode.htm

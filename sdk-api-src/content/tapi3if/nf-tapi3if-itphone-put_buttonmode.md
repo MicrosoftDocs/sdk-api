@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonMode
-title: ITPhone::put_ButtonMode
+title: ITPhone::put_ButtonMode (tapi3if.h)
 author: windows-sdk-content
 description: The put_ButtonMode method sets the button mode.
 old-location: tapi3\itphone_put_buttonmode.htm

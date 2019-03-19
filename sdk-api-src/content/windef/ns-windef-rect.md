@@ -1,6 +1,6 @@
 ---
 UID: NS:windef.tagRECT
-title: RECT
+title: RECT (windef.h)
 author: windows-sdk-content
 description: The RECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\rect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetData
-title: CHStringArray::GetData
+title: CHStringArray::GetData (chstrarr.h)
 author: windows-sdk-content
 description: The GetData method gains direct access to the elements in the array.
 old-location: wmi\chstringarray_getdata.htm

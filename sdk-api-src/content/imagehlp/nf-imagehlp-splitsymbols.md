@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.SplitSymbols
-title: SplitSymbols function
+title: SplitSymbols function (imagehlp.h)
 author: windows-sdk-content
 description: Strips symbols from the specified image.
 old-location: base\splitsymbols.htm

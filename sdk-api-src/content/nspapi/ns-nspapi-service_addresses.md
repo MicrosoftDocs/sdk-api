@@ -1,6 +1,6 @@
 ---
 UID: NS:nspapi._SERVICE_ADDRESSES
-title: SERVICE_ADDRESSES
+title: SERVICE_ADDRESSES (nspapi.h)
 author: windows-sdk-content
 description: The SERVICE_ADDRESSES structure contains an array of SERVICE_ADDRESS data structures.
 old-location: winsock\service_addresses_2.htm

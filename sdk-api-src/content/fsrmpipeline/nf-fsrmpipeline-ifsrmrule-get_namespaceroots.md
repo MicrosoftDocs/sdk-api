@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_NamespaceRoots
-title: IFsrmRule::get_NamespaceRoots
+title: IFsrmRule::get_NamespaceRoots (fsrmpipeline.h)
 author: windows-sdk-content
 description: An array of directory paths that the rule is applied to when classification is run.
 old-location: fsrm\ifsrmrule_namespaceroots.htm

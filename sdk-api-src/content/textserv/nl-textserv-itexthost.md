@@ -1,6 +1,6 @@
 ---
 UID: NL:textserv.ITextHost
-title: ITextHost
+title: ITextHost (textserv.h)
 author: windows-sdk-content
 description: The ITextHost interface is used by a text services object to obtain text host services.
 old-location: controls\ITextHost.htm

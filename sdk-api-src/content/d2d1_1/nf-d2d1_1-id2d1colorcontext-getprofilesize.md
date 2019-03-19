@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1ColorContext.GetProfileSize
-title: ID2D1ColorContext::GetProfileSize
+title: ID2D1ColorContext::GetProfileSize (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the size of the color profile associated with the bitmap.
 old-location: direct2d\id2d1colorcontext_getprofilesize.htm

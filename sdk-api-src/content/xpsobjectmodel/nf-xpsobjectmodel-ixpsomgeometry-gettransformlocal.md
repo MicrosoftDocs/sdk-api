@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetTransformLocal
-title: IXpsOMGeometry::GetTransformLocal
+title: IXpsOMGeometry::GetTransformLocal (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared matrix transform for the geometry.
 old-location: xps\ixpsomgeometry_gettransformlocal.htm

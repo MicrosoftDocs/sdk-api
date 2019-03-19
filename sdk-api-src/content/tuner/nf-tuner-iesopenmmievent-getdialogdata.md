@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESOpenMmiEvent.GetDialogData
-title: IESOpenMmiEvent::GetDialogData
+title: IESOpenMmiEvent::GetDialogData (tuner.h)
 author: windows-sdk-content
 description: Gets the data associated with an OpenMMI event, in byte stream format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.
 old-location: mstv\iesopenmmievent_getdialogdata.htm

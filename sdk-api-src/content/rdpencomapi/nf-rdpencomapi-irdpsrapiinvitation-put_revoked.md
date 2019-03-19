@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.put_Revoked
-title: IRDPSRAPIInvitation::put_Revoked
+title: IRDPSRAPIInvitation::put_Revoked (rdpencomapi.h)
 author: windows-sdk-content
 description: The revoked state of the invitation.
 old-location: rdp\irdpsrapiinvitation_revoked.htm

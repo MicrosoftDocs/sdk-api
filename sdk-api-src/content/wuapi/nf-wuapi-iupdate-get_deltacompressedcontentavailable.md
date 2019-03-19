@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DeltaCompressedContentAvailable
-title: IUpdate::get_DeltaCompressedContentAvailable
+title: IUpdate::get_DeltaCompressedContentAvailable (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether delta-compressed content is available on a server for the update.
 old-location: wua\iupdate_deltacompressedcontentavailable.htm

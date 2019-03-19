@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSessionEvent.get_Session
-title: ITAgentSessionEvent::get_Session
+title: ITAgentSessionEvent::get_Session (tapi3.h)
 author: windows-sdk-content
 description: The get_Session method gets a pointer to the ITAgentSession on which the event occurred.
 old-location: tapi3\itagentsessionevent_get_session.htm

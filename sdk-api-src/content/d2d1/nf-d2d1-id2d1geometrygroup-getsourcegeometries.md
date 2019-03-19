@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1GeometryGroup.GetSourceGeometries
-title: ID2D1GeometryGroup::GetSourceGeometries
+title: ID2D1GeometryGroup::GetSourceGeometries (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the geometries in the geometry group.
 old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometries.htm

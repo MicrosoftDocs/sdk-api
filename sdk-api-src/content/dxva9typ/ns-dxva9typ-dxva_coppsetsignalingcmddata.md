@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPSetSignalingCmdData
-title: DXVA_COPPSetSignalingCmdData
+title: DXVA_COPPSetSignalingCmdData (dxva9typ.h)
 author: windows-sdk-content
 description: Contains information for the Set Signal command in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppsetsignalingcmddata.htm

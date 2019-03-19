@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.QueryResultImageList
-title: IConsole::QueryResultImageList
+title: IConsole::QueryResultImageList (mmc.h)
 author: windows-sdk-content
 description: Retrieves the console-provided result-view image list. This image list should be used only if the snap-in is using the default list view.
 old-location: mmc\iconsole_queryresultimagelist.htm

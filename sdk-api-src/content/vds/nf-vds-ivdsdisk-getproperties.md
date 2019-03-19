@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDisk.GetProperties
-title: IVdsDisk::GetProperties
+title: IVdsDisk::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns property information for a disk.
 old-location: base\ivdsdisk_getproperties.htm

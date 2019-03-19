@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetTextExt
-title: ITextStoreAnchor::GetTextExt
+title: ITextStoreAnchor::GetTextExt (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetTextExt method returns the bounding box, in screen coordinates, of a range of text. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreanchor_gettextext.htm

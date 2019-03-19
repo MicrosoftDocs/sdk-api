@@ -1,6 +1,6 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityUnion
-title: SpatialAudioHrtfDirectivityUnion
+title: SpatialAudioHrtfDirectivityUnion (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Defines a spatial audio directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivityunion.htm

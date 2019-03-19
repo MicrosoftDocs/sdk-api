@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongToUInt
-title: ULongToUInt function
+title: ULongToUInt function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type UINT.
 old-location: shell\ULongToUInt.htm

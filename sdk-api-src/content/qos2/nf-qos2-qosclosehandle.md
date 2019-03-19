@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSCloseHandle
-title: QOSCloseHandle function
+title: QOSCloseHandle function (qos2.h)
 author: windows-sdk-content
 description: The QOSCloseHandle function closes a handle returned by the QOSCreateHandle function.
 old-location: qos\qosclosehandle.htm

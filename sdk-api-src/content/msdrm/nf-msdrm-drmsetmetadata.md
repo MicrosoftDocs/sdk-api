@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMSetMetaData
-title: DRMSetMetaData function
+title: DRMSetMetaData function (msdrm.h)
 author: windows-sdk-content
 description: Adds application-specific metadata to an issuance license.
 old-location: rm\drmsetmetadata.htm

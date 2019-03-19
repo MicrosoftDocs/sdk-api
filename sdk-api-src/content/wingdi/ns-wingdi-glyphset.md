@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagGLYPHSET
-title: GLYPHSET
+title: GLYPHSET (wingdi.h)
 author: windows-sdk-content
 description: The GLYPHSET structure contains information about a range of Unicode code points.
 old-location: gdi\glyphset.htm

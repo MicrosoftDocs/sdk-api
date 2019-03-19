@@ -1,6 +1,6 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0027
-title: MPEG_CONTEXT_TYPE
+title: MPEG_CONTEXT_TYPE (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_CONTEXT_TYPE enumeration type identifies the source of an MPEG-2 data stream.
 old-location: mstv\mpeg_context_type.htm

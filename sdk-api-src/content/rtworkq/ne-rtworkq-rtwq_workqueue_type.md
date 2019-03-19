@@ -1,6 +1,6 @@
 ---
 UID: NE:rtworkq.__unnamed_enum_0
-title: RTWQ_WORKQUEUE_TYPE
+title: RTWQ_WORKQUEUE_TYPE (rtworkq.h)
 author: windows-sdk-content
 description: Specifies the type of work queue for the RtwqAllocateWorkQueue function to create.
 old-location: base\rtwq_workqueue_type.htm

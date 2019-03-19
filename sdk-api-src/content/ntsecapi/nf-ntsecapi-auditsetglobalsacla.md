@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditSetGlobalSaclA
-title: AuditSetGlobalSaclA function
+title: AuditSetGlobalSaclA function (ntsecapi.h)
 author: windows-sdk-content
 description: Sets a global system access control list (SACL) that delegates access to the audit messages.
 old-location: security\auditsetglobalsacl.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.StartDocA
-title: StartDocA function
+title: StartDocA function (wingdi.h)
 author: windows-sdk-content
 description: The StartDoc function starts a print job.
 old-location: gdi\startdoc.htm

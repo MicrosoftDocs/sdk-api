@@ -1,6 +1,6 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.SetSize
-title: IInkPresenterDesktop::SetSize
+title: IInkPresenterDesktop::SetSize (inkpresenterdesktop.h)
 author: windows-sdk-content
 description: Sets the size of the InkPresenter object.
 old-location: input_ink\iinkpresenterdesktop_setsize.htm

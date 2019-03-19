@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IImageInformation.get_Source
-title: IImageInformation::get_Source
+title: IImageInformation::get_Source (wuapi.h)
 author: windows-sdk-content
 description: Gets the source location of the image.
 old-location: wua\iimageinformation_source.htm

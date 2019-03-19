@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_15
-title: MCI_DGV_QUALITY_PARMSA
+title: MCI_DGV_QUALITY_PARMSA (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_QUALITY_PARMS structure contains parameters for the MCI_QUALITY command for digital-video devices.
 old-location: multimedia\mci_dgv_quality_parms.htm

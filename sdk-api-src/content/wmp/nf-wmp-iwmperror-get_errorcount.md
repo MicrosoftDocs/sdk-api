@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPError.get_errorCount
-title: IWMPError::get_errorCount
+title: IWMPError::get_errorCount (wmp.h)
 author: windows-sdk-content
 description: The get_errorCount method retrieves the number of errors in the error queue.
 old-location: wmp\iwmperror_get_errorcount.htm

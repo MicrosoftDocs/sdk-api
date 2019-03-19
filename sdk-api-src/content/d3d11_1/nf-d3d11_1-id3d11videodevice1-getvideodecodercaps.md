@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.GetVideoDecoderCaps
-title: ID3D11VideoDevice1::GetVideoDecoderCaps
+title: ID3D11VideoDevice1::GetVideoDecoderCaps (d3d11_1.h)
 author: windows-sdk-content
 description: Retrieves capabilities and limitations of the video decoder.
 old-location: mf\id3d11videodevice1_getvideodecodercaps.htm

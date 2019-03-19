@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.put_MyStoreType
-title: ICEnroll::put_MyStoreType
+title: ICEnroll::put_MyStoreType (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the type of store specified by the MyStoreName property.
 old-location: security\icenroll4_mystoretype.htm

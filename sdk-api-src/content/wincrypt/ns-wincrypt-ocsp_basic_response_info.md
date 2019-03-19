@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_RESPONSE_INFO
-title: OCSP_BASIC_RESPONSE_INFO
+title: OCSP_BASIC_RESPONSE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a basic online certificate status protocol (OCSP) response as specified by RFC 2560.
 old-location: security\ocsp_basic_response_info.htm

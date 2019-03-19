@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoRegisterActivationFilter
-title: CoRegisterActivationFilter function
+title: CoRegisterActivationFilter function (combaseapi.h)
 author: windows-sdk-content
 description: Registers a process-wide filter to process activation requests.
 old-location: com\coregisteractivationfilter.htm

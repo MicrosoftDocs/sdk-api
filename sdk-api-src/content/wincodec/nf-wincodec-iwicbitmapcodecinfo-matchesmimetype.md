@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.MatchesMimeType
-title: IWICBitmapCodecInfo::MatchesMimeType
+title: IWICBitmapCodecInfo::MatchesMimeType (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a value indicating whether the given mime type matches the mime type of the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_matchesmimetype.htm

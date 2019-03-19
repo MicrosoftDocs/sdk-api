@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.D3D10CompileEffectFromMemory
-title: D3D10CompileEffectFromMemory function
+title: D3D10CompileEffectFromMemory function (d3d10effect.h)
 author: windows-sdk-content
 description: Compile an effect.
 old-location: direct3d10\d3d10compileeffectfrommemory.htm

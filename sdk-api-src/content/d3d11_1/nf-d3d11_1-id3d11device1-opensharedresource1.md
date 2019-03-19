@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11Device1.OpenSharedResource1
-title: ID3D11Device1::OpenSharedResource1
+title: ID3D11Device1::OpenSharedResource1 (d3d11_1.h)
 author: windows-sdk-content
 description: Gives a device access to a shared resource that is referenced by a handle and that was created on a different device.
 old-location: direct3d11\id3d11device1_opensharedresource1.htm

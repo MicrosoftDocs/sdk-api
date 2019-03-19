@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegisterMode
-title: IMbnRegistration::GetRegisterMode
+title: IMbnRegistration::GetRegisterMode (mbnapi.h)
 author: windows-sdk-content
 description: Gets the network registration mode of a Mobile Broadband device.
 old-location: mbn\imbnregistration_getregistermode.htm

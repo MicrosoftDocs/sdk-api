@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.put_PlaybackSpeed
-title: IAMExtendedSeeking::put_PlaybackSpeed
+title: IAMExtendedSeeking::put_PlaybackSpeed (qnetwork.h)
 author: windows-sdk-content
 description: The put_PlaybackSpeed method specifies the playback speed.
 old-location: dshow\iamextendedseeking_put_playbackspeed.htm

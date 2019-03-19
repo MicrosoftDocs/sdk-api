@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.IEntity
-title: IEntity
+title: IEntity (structuredquery.h)
 author: windows-sdk-content
 description: Provides methods for retrieving information about an entity type in the schema.
 old-location: search\_search_IEntity.htm

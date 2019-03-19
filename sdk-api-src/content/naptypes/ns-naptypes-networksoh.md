@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagNetworkSoH
-title: NetworkSoH
+title: NetworkSoH (naptypes.h)
 author: windows-sdk-content
 description: Defines the wire SoH protocol.
 old-location: nap\networksoh_struct.htm

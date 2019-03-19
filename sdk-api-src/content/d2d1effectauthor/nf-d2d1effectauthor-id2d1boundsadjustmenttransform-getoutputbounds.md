@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BoundsAdjustmentTransform.GetOutputBounds
-title: ID2D1BoundsAdjustmentTransform::GetOutputBounds
+title: ID2D1BoundsAdjustmentTransform::GetOutputBounds (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Returns the output rectangle of the support transform.
 old-location: direct2d\id2d1boundsadjustmenttransform_getoutputbounds.htm

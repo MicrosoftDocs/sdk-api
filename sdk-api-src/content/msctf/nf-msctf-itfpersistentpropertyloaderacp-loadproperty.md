@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPersistentPropertyLoaderACP.LoadProperty
-title: ITfPersistentPropertyLoaderACP::LoadProperty
+title: ITfPersistentPropertyLoaderACP::LoadProperty (msctf.h)
 author: windows-sdk-content
 description: ITfPersistentPropertyLoaderACP::LoadProperty method
 old-location: tsf\itfpersistentpropertyloaderacp_loadproperty.htm

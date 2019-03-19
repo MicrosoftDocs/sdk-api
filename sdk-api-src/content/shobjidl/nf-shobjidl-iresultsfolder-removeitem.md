@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveItem
-title: IResultsFolder::RemoveItem
+title: IResultsFolder::RemoveItem (shobjidl.h)
 author: windows-sdk-content
 description: Removes an item from a results folder.
 old-location: shell\IResultsFolder_RemoveItem.htm

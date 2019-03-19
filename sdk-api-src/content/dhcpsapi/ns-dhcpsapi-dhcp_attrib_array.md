@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_ATTRIB_ARRAY
-title: DHCP_ATTRIB_ARRAY
+title: DHCP_ATTRIB_ARRAY (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines a set of DHCP server attributes.
 old-location: dhcp\dhcp_attrib_array.htm

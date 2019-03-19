@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineMonitorDigits
-title: TSPI_lineMonitorDigits function
+title: TSPI_lineMonitorDigits function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call.
 old-location: tspi\tspi_linemonitordigits.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditSetPerUserPolicy
-title: AuditSetPerUserPolicy function
+title: AuditSetPerUserPolicy function (ntsecapi.h)
 author: windows-sdk-content
 description: Sets per-user audit policy in one or more audit subcategories for the specified principal.
 old-location: security\auditsetperuserpolicy_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPoints
-title: IInkStrokeDisp::GetPoints
+title: IInkStrokeDisp::GetPoints (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the points that make up a stroke.
 old-location: tablet\iinkstrokedisp_getpoints.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.RemovePortMapping
-title: INetSharingConfiguration::RemovePortMapping
+title: INetSharingConfiguration::RemovePortMapping (netcon.h)
 author: windows-sdk-content
 description: The RemovePortMapping method removes a service port mapping from the list of mappings for this connection.
 old-location: ics\inetsharingconfiguration_removeportmapping.htm

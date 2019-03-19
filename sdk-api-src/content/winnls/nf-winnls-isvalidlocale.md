@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsValidLocale
-title: IsValidLocale function
+title: IsValidLocale function (winnls.h)
 author: windows-sdk-content
 description: Determines if the specified locale is installed or supported on the operating system. For more information, see Locales and Languages.
 old-location: intl\isvalidlocale.htm

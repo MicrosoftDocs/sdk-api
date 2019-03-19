@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_DeleteAllItems
-title: TabCtrl_DeleteAllItems macro
+title: TabCtrl_DeleteAllItems macro (commctrl.h)
 author: windows-sdk-content
 description: Removes all items from a tab control. You can use this macro or send the TCM_DELETEALLITEMS message explicitly.
 old-location: controls\TabCtrl_DeleteAllItems.htm

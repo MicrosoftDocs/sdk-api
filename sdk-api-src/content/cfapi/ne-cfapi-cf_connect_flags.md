@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_CONNECT_FLAGS
-title: CF_CONNECT_FLAGS
+title: CF_CONNECT_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Additional information that can be requested by a sync provider when its callbacks are invoked.
 old-location: cloudapi\cf_connect_flags.htm

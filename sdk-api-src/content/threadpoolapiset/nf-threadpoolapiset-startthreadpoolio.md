@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.StartThreadpoolIo
-title: StartThreadpoolIo function
+title: StartThreadpoolIo function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Notifies the thread pool that I/O operations may possibly begin for the specified I/O completion object. A worker thread calls the I/O completion object's callback function after the operation completes on the file handle bound to this object.
 old-location: base\startthreadpoolio.htm

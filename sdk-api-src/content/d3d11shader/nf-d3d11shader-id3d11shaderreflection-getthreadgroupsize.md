@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetThreadGroupSize
-title: ID3D11ShaderReflection::GetThreadGroupSize
+title: ID3D11ShaderReflection::GetThreadGroupSize (d3d11shader.h)
 author: windows-sdk-content
 description: Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
 old-location: direct3d11\id3d11shaderreflection_getthreadgroupsize.htm

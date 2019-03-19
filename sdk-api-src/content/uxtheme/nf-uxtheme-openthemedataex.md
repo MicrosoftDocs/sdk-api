@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.OpenThemeDataEx
-title: OpenThemeDataEx function
+title: OpenThemeDataEx function (uxtheme.h)
 author: windows-sdk-content
 description: Opens the theme data associated with a window for specified theme classes.
 old-location: controls\OpenThemeDataEx.htm

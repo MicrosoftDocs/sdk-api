@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsFilled
-title: IXpsOMGeometryFigure::GetIsFilled
+title: IXpsOMGeometryFigure::GetIsFilled (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the figure is filled.
 old-location: xps\ixpsomgeometryfigure_getisfilled.htm

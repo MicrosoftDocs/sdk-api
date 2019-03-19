@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSGetChildSessionId
-title: WTSGetChildSessionId function
+title: WTSGetChildSessionId function (wtsapi32.h)
 author: windows-sdk-content
 description: Retrieves the child session identifier, if present.
 old-location: termserv\wtsgetchildsessionid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Next
-title: IEnumWbemClassObject::Next
+title: IEnumWbemClassObject::Next (wbemcli.h)
 author: windows-sdk-content
 description: Use the IEnumWbemClassObject::Next method to get one or more objects starting at the current position in an enumeration.
 old-location: wmi\ienumwbemclassobject_next.htm

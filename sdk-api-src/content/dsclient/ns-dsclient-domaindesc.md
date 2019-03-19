@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient._DOMAINDESC
-title: DOMAINDESC
+title: DOMAINDESC (dsclient.h)
 author: windows-sdk-content
 description: Contains data about an element in a domain tree obtained with the IDsBrowseDomainTree::GetDomains method.
 old-location: ad\domaindesc.htm

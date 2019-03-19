@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_HBAPORT_TYPE
-title: VDS_HBAPORT_TYPE
+title: VDS_HBAPORT_TYPE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid types for an HBA port.
 old-location: base\vds_hbaport_type.htm

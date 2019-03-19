@@ -1,6 +1,6 @@
 ---
 UID: NS:olectl.tagOCPFIPARAMS
-title: OCPFIPARAMS
+title: OCPFIPARAMS (olectl.h)
 author: windows-sdk-content
 description: Contains parameters used to invoke a property sheet dialog box through the OleCreatePropertyFrameIndirect function.
 old-location: com\ocpfiparams.htm

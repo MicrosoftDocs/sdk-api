@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetData
-title: TSPI_phoneGetData function
+title: TSPI_phoneGetData function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
 old-location: tspi\tspi_phonegetdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rasshost._RAS_SECURITY_INFO
-title: RAS_SECURITY_INFO
+title: RAS_SECURITY_INFO (rasshost.h)
 author: windows-sdk-content
 description: The RAS_SECURITY_INFO structure is used with the RasSecurityDialogGetInfo function to return information about the RAS port associated with a RAS security DLL authentication transaction.
 old-location: rras\ras_security_info_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Selected
-title: IX509EnrollmentStatus::put_Selected
+title: IX509EnrollmentStatus::put_Selected (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a value that indicates whether an item can be used during the enrollment process.
 old-location: security\ix509enrollmentstatus_selected_property.htm

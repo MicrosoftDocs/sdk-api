@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_LastUsedUserSectorInImage
-title: IRawCDImageCreator::get_LastUsedUserSectorInImage
+title: IRawCDImageCreator::get_LastUsedUserSectorInImage (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of total used sectors on the current media, including any overhead between existing tracks.
 old-location: imapi\irawcdimagecreator_get_lastusedusersectorinimage.htm

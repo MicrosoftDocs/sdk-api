@@ -1,6 +1,6 @@
 ---
 UID: NN:netlistmgr.IEnumNetworks
-title: IEnumNetworks
+title: IEnumNetworks (netlistmgr.h)
 author: windows-sdk-content
 description: The IEnumNetworks interface is a standard enumerator for networks. It enumerates all networks available on the local machine. This interface can be obtained from the INetworkListManager interface.
 old-location: nla\ienumnetworks.htm

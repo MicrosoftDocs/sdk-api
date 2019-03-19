@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IBasicDevice.remove_ConnectionStatusChanged
-title: IBasicDevice::streaming
+title: IBasicDevice::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Unregisters an event handler for the ConnectionStatusChanged event.
 old-location: mediastreaming\ibasicdevice_remove_connectionstatuschanged.htm

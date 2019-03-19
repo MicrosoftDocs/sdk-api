@@ -1,6 +1,6 @@
 ---
 UID: NF:lmalert.ALERT_VAR_DATA
-title: ALERT_VAR_DATA macro
+title: ALERT_VAR_DATA macro (lmalert.h)
 author: windows-sdk-content
 description: The ALERT_VAR_DATA macro returns a pointer to the variable-length portion of an alert message. Variable-length data can follow an ADMIN_OTHER_INFO, a PRINT_OTHER_INFO, or a USER_OTHER_INFO structure.
 old-location: netmgmt\alert_var_data.htm

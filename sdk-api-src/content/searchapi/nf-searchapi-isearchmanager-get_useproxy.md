@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UseProxy
-title: ISearchManager::get_UseProxy
+title: ISearchManager::get_UseProxy (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the proxy server to be used.
 old-location: search\_search_ISearchManager_get_UseProxy.htm

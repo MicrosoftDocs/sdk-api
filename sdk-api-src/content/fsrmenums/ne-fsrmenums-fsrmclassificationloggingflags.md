@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmClassificationLoggingFlags
-title: FsrmClassificationLoggingFlags
+title: FsrmClassificationLoggingFlags (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the different options for logging information while running classification.
 old-location: fsrm\fsrmclassificationloggingflags.htm

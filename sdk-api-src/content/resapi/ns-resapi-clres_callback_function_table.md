@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.CLRES_CALLBACK_FUNCTION_TABLE
-title: CLRES_CALLBACK_FUNCTION_TABLE
+title: CLRES_CALLBACK_FUNCTION_TABLE (resapi.h)
 author: windows-sdk-content
 description: Represents a function table for the StartupEx callback function.
 old-location: mscs\clres_callback_function_table.htm

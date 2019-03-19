@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.get_MailFrom
-title: IFsrmActionEmail::get_MailFrom
+title: IFsrmActionEmail::get_MailFrom (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the email address to use as the sender of the email when the action generates an email message.
 old-location: fsrm\ifsrmactionemail_mailfrom.htm

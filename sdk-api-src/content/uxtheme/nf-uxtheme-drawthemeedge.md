@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.DrawThemeEdge
-title: DrawThemeEdge function
+title: DrawThemeEdge function (uxtheme.h)
 author: windows-sdk-content
 description: Draws one or more edges defined by the visual style of a rectangle.
 old-location: controls\DrawThemeEdge.htm

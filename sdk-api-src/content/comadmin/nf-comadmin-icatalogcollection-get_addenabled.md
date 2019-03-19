@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_AddEnabled
-title: ICatalogCollection::get_AddEnabled
+title: ICatalogCollection::get_AddEnabled (comadmin.h)
 author: windows-sdk-content
 description: Indicates whether the Add method is enabled for the collection.
 old-location: cos\icatalogcollection_addenabled.htm

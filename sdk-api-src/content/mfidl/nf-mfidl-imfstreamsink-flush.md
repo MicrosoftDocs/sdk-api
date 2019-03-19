@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamSink.Flush
-title: IMFStreamSink::Flush
+title: IMFStreamSink::Flush (mfidl.h)
 author: windows-sdk-content
 description: Causes the stream sink to drop any samples that it has received and has not rendered yet.
 old-location: mf\imfstreamsink_flush.htm

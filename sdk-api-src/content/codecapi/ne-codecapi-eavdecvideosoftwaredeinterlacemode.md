@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVDecVideoSoftwareDeinterlaceMode
-title: eAVDecVideoSoftwareDeinterlaceMode
+title: eAVDecVideoSoftwareDeinterlaceMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies a video decoder's software deinterlace mode. This enumeration is used with the AVDecVideoSoftwareDeinterlaceMode property.
 old-location: dshow\eavdecvideosoftwaredeinterlacemode.htm

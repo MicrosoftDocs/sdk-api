@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetVersionString
-title: IMetaDataImport2::GetVersionString
+title: IMetaDataImport2::GetVersionString (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the version number of the runtime that was used to build the assembly.
 old-location: winrt\imetadataimport2_getversionstring.htm

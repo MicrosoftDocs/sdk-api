@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.KeyIdentifierHashAlgorithm
-title: KeyIdentifierHashAlgorithm
+title: KeyIdentifierHashAlgorithm (certenroll.h)
 author: windows-sdk-content
 description: Specifies the algorithm used to hash the public key in a certificate request.
 old-location: security\keyidentifierhashalgorithm_enum.htm

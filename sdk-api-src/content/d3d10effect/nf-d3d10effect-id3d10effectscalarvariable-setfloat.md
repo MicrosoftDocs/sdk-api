@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetFloat
-title: ID3D10EffectScalarVariable::SetFloat
+title: ID3D10EffectScalarVariable::SetFloat (d3d10effect.h)
 author: windows-sdk-content
 description: Set a floating-point variable.
 old-location: direct3d10\id3d10effectscalarvariable_setfloat.htm

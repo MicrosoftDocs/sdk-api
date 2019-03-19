@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIStream.Delete
-title: IAVIStream::Delete
+title: IAVIStream::Delete (vfw.h)
 author: windows-sdk-content
 description: The Delete method deletes data from a stream.
 old-location: multimedia\iavistream_delete.htm

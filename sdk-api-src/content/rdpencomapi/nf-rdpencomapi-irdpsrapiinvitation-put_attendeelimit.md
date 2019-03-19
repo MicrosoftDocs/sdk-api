@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.put_AttendeeLimit
-title: IRDPSRAPIInvitation::put_AttendeeLimit
+title: IRDPSRAPIInvitation::put_AttendeeLimit (rdpencomapi.h)
 author: windows-sdk-content
 description: The maximum number of attendees that can connect to the session.
 old-location: rdp\irdpsrapiinvitation_attendeelimit.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_TRANS_RECIPIENT_INFO
-title: CMSG_KEY_TRANS_RECIPIENT_INFO
+title: CMSG_KEY_TRANS_RECIPIENT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CMSG_KEY_TRANS_RECIPIENT_INFO structure contains information used in key transport algorithms.
 old-location: security\cmsg_key_trans_recipient_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibraryServices.getLibraryByType
-title: IWMPLibraryServices::getLibraryByType
+title: IWMPLibraryServices::getLibraryByType (wmp.h)
 author: windows-sdk-content
 description: The getLibraryByType method retrieves a pointer to an IWMPLibrary interface that represents the library that has the specified type and index.
 old-location: wmp\iwmplibraryservices_getlibrarybytype.htm

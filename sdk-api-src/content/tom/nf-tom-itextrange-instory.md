@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.InStory
-title: ITextRange::InStory
+title: ITextRange::InStory (tom.h)
 author: windows-sdk-content
 description: Determines whether this range's story is the same as a specified range's story.
 old-location: controls\ITextRange_InStory.htm

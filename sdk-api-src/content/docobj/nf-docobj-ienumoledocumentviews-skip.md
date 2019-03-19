@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Skip
-title: IEnumOleDocumentViews::Skip
+title: IEnumOleDocumentViews::Skip (docobj.h)
 author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoledocumentviews_skip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wininet.__unnamed_enum_0
-title: INTERNET_SCHEME
+title: INTERNET_SCHEME (wininet.h)
 author: windows-sdk-content
 description: Defines the flags used with the nScheme member of the URL_COMPONENTS structure.
 old-location: wininet\internet_scheme_enumerated_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0022
-title: XPS_GLYPH_MAPPING
+title: XPS_GLYPH_MAPPING (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes a glyph-to-index mapping.
 old-location: xps\xps_glyph_mapping.htm

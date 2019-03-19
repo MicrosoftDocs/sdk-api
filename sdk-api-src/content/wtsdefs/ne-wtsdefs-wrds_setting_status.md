@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsdefs._WRDS_SETTING_STATUS
-title: WRDS_SETTING_STATUS
+title: WRDS_SETTING_STATUS (wtsdefs.h)
 author: windows-sdk-content
 description: Specifies the status of a policy setting for various members of the WRDS_SETTINGS_1 structure.
 old-location: termserv\wrds_setting_status.htm

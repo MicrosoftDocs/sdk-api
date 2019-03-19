@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.CreateTemplate
-title: IFsrmQuotaTemplateManager::CreateTemplate
+title: IFsrmQuotaTemplateManager::CreateTemplate (fsrmquota.h)
 author: windows-sdk-content
 description: Creates a quota template object.
 old-location: fsrm\ifsrmquotatemplatemanager_createtemplate.htm

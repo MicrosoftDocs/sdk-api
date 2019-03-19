@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IWizardSite.GetNextPage
-title: IWizardSite::GetNextPage
+title: IWizardSite::GetNextPage (shobjidl.h)
 author: windows-sdk-content
 description: Called when the user navigates forward past the wizard extension pages. Gets the handle of the PROPSHEETPAGE that represents the wizard page immediately following the wizard extension page.
 old-location: shell\IWizardSite_GetNextPage.htm

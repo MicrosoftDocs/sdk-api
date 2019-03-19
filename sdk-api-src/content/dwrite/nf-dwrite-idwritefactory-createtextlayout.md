@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextLayout
-title: IDWriteFactory::CreateTextLayout
+title: IDWriteFactory::CreateTextLayout (dwrite.h)
 author: windows-sdk-content
 description: Takes a string, text format, and associated constraints, and produces an object that represents the fully analyzed and formatted result.
 old-location: directwrite\IDWriteFactory_CreateTextLayout.htm

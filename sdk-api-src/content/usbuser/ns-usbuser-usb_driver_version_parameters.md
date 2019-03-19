@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USB_DRIVER_VERSION_PARAMETERS
-title: USB_DRIVER_VERSION_PARAMETERS
+title: USB_DRIVER_VERSION_PARAMETERS (usbuser.h)
 author: windows-sdk-content
 description: The USB_DRIVER_VERSION_PARAMETERS structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve version information.
 old-location: buses\usb_driver_version_parameters.htm

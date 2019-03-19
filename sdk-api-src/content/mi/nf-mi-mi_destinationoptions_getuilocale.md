@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetUILocale
-title: MI_DestinationOptions_GetUILocale function
+title: MI_DestinationOptions_GetUILocale function (mi.h)
 author: windows-sdk-content
 description: Gets the user interface locale set by the user.
 old-location: wmi_v2\mi_destinationoptions_getuilocale.htm

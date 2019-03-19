@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaRegisterLogonProcess
-title: LsaRegisterLogonProcess function
+title: LsaRegisterLogonProcess function (ntsecapi.h)
 author: windows-sdk-content
 description: Establishes a connection to the LSA server and verifies that the caller is a logon application.
 old-location: security\lsaregisterlogonprocess.htm

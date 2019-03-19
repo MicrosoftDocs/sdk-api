@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPackageDependencies
-title: IAppxManifestReader::GetPackageDependencies
+title: IAppxManifestReader::GetPackageDependencies (appxpackaging.h)
 author: windows-sdk-content
 description: Gets an enumerator that iterates through dependencies defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getpackagedependencies.htm

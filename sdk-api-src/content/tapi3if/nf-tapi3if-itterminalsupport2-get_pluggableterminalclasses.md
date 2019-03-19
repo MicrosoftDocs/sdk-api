@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.get_PluggableTerminalClasses
-title: ITTerminalSupport2::get_PluggableTerminalClasses
+title: ITTerminalSupport2::get_PluggableTerminalClasses (tapi3if.h)
 author: windows-sdk-content
 description: The get_PluggableTerminalClasses method returns a collection of ITPluggableTerminalClassInfo terminal class information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggableterminalclasses.htm

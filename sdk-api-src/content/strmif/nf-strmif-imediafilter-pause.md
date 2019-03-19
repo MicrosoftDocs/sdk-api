@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaFilter.Pause
-title: IMediaFilter::Pause
+title: IMediaFilter::Pause (strmif.h)
 author: windows-sdk-content
 description: The Pause method pauses the filter.
 old-location: dshow\imediafilter_pause.htm

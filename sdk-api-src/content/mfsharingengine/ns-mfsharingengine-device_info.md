@@ -1,6 +1,6 @@
 ---
 UID: NS:mfsharingengine.DEVICE_INFO
-title: DEVICE_INFO
+title: DEVICE_INFO (mfsharingengine.h)
 author: windows-sdk-content
 description: Contains information about a media sharing device.
 old-location: mf\device_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetDocumentMgr
-title: ITfContext::GetDocumentMgr
+title: ITfContext::GetDocumentMgr (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetDocumentMgr method
 old-location: tsf\itfcontext_getdocumentmgr.htm

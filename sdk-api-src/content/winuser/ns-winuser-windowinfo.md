@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagWINDOWINFO
-title: WINDOWINFO
+title: WINDOWINFO (winuser.h)
 author: windows-sdk-content
 description: Contains window information.
 old-location: winmsg\windowinfo.htm

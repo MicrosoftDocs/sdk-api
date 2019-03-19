@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.get_Count
-title: ISdoCollection::get_Count
+title: ISdoCollection::get_Count (sdoias.h)
 author: windows-sdk-content
 description: The get_Count method returns the number of items in the collection.
 old-location: nps\SDO_isdocollection_get_count.htm

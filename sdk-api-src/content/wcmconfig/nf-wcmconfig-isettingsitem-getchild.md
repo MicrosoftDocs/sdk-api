@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetChild
-title: ISettingsItem::GetChild
+title: ISettingsItem::GetChild (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the child item that has the specified name.
 old-location: smi\isettingsitem_getchild.htm

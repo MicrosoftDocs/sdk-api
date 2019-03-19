@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProducts.get_Count
-title: INetFwProducts::get_Count
+title: INetFwProducts::get_Count (netfw.h)
 author: windows-sdk-content
 description: Indicates the number of registered third-party firewall products.
 old-location: ics\inetfwproducts_count.htm

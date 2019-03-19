@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_bPolyBezierTo
-title: PATHOBJ_bPolyBezierTo function
+title: PATHOBJ_bPolyBezierTo function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_bPolyBezierTo function draws Bezier curves on a path.
 old-location: display\pathobj_bpolybezierto.htm

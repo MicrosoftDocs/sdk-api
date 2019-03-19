@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetLoop
-title: IMFMediaEngine::SetLoop
+title: IMFMediaEngine::SetLoop (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies whether the Media Engine loops playback.
 old-location: mf\imfmediaengine_setloop.htm

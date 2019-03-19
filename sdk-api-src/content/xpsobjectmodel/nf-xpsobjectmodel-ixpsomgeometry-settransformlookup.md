@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetTransformLookup
-title: IXpsOMGeometry::SetTransformLookup
+title: IXpsOMGeometry::SetTransformLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the lookup key name of a shared matrix transform in a resource dictionary.
 old-location: xps\ixpsomgeometry_settransformlookup.htm

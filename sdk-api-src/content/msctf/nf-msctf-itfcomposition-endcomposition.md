@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfComposition.EndComposition
-title: ITfComposition::EndComposition
+title: ITfComposition::EndComposition (msctf.h)
 author: windows-sdk-content
 description: ITfComposition::EndComposition method
 old-location: tsf\itfcomposition_endcomposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaEnum0
-title: IPsecSaEnum0 function
+title: IPsecSaEnum0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns the next page of results from the IPsec security association (SA) enumerator.
 old-location: fwp\ipsecsaenum0_func.htm

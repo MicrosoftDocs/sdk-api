@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextSubscriptionsGet0
-title: IPsecSaContextSubscriptionsGet0 function
+title: IPsecSaContextSubscriptionsGet0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves an array of all the current IPsec security association (SA) change notification subscriptions.
 old-location: fwp\ipsecsacontextsubscriptionsget0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindFirstVolumeA
-title: FindFirstVolumeA function
+title: FindFirstVolumeA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the name of a volume on a computer.
 old-location: fs\findfirstvolume.htm

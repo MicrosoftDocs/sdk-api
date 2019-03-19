@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_USERNAME_PASSWORD_CREDS
-title: WSMAN_USERNAME_PASSWORD_CREDS
+title: WSMAN_USERNAME_PASSWORD_CREDS (wsman.h)
 author: windows-sdk-content
 description: Defines the credentials used for authentication.
 old-location: winrm\wsman_username_password_creds.htm

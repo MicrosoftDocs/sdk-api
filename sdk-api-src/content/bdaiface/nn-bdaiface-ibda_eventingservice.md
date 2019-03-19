@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_EventingService
-title: IBDA_EventingService
+title: IBDA_EventingService (bdaiface.h)
 author: windows-sdk-content
 description: Provides access to a device's Eventing Service.
 old-location: mstv\ibda_eventingservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PONLINE_ROUTINE
-title: PONLINE_ROUTINE
+title: PONLINE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Marks a resource as available for use.
 old-location: mscs\online.htm

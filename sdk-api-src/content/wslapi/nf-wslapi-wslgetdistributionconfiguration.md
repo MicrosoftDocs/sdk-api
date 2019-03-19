@@ -1,6 +1,6 @@
 ---
 UID: NF:wslapi.WslGetDistributionConfiguration
-title: WslGetDistributionConfiguration function
+title: WslGetDistributionConfiguration function (wslapi.h)
 author: windows-sdk-content
 description: Retrieves the current configuration of a distribution registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslgetdistributionconfiguration.htm

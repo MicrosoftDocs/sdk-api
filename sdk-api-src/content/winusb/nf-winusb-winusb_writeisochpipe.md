@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_WriteIsochPipe
-title: WinUsb_WriteIsochPipe function
+title: WinUsb_WriteIsochPipe function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_WriteIsochPipe function writes the contents of a caller-supplied buffer to an isochronous OUT endpoint, starting on a specified frame number.
 old-location: buses\winusb_writeisochpipe.htm

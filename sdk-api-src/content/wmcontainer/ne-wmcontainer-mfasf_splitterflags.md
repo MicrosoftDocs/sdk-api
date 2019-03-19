@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcontainer.MFASF_SPLITTERFLAGS
-title: MFASF_SPLITTERFLAGS
+title: MFASF_SPLITTERFLAGS (wmcontainer.h)
 author: windows-sdk-content
 description: Defines the ASF splitter options.
 old-location: mf\mfasf_splitterflags.htm

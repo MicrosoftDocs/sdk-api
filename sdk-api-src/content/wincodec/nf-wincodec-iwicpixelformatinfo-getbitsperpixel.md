@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetBitsPerPixel
-title: IWICPixelFormatInfo::GetBitsPerPixel
+title: IWICPixelFormatInfo::GetBitsPerPixel (wincodec.h)
 author: windows-sdk-content
 description: Gets the bits per pixel (BPP) of the pixel format.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getbitsperpixel.htm

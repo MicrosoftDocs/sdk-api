@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_CAConfigString
-title: IX509Enrollment::get_CAConfigString
+title: IX509Enrollment::get_CAConfigString (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the configuration string that identifies the certification authority (CA) to which the certificate request was submitted.
 old-location: security\ix509enrollment_caconfigstring_property.htm

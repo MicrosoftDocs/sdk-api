@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenu
-title: GetMenu function
+title: GetMenu function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the menu assigned to the specified window.
 old-location: menurc\getmenu.htm

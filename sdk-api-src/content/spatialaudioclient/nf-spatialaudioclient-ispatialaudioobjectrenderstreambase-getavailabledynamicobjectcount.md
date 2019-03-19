@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount
-title: ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount
+title: ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount (spatialaudioclient.h)
 author: windows-sdk-content
 description: Gets the number of dynamic spatial audio objects that are currently available.
 old-location: coreaudio\ispatialaudioobjectrenderstream_getavailabledynamicobjectcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkLineInfo
-title: IInkLineInfo
+title: IInkLineInfo (msinkaut.h)
 author: windows-sdk-content
 description: The IInkLineInfo interface provides access to the display properties and recognition result list of a text ink object (tInk).
 old-location: tablet\iinklineinfo.htm

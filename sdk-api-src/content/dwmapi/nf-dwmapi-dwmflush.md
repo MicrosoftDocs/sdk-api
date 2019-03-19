@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmFlush
-title: DwmFlush function
+title: DwmFlush function (dwmapi.h)
 author: windows-sdk-content
 description: Issues a flush call that blocks the caller until the next present, when all of the Microsoft DirectX surface updates that are currently outstanding have been made. This compensates for very complex scenes or calling processes with very low priority.
 old-location: dwm\dwmflush.htm

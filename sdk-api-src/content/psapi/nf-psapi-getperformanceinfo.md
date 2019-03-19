@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetPerformanceInfo
-title: GetPerformanceInfo function
+title: GetPerformanceInfo function (psapi.h)
 author: windows-sdk-content
 description: Retrieves the performance values contained in the PERFORMANCE_INFORMATION structure.
 old-location: psapi\getperformanceinfo.htm

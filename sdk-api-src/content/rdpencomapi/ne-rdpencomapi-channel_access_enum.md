@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0005
-title: CHANNEL_ACCESS_ENUM
+title: CHANNEL_ACCESS_ENUM (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the type of access granted to the attendee for the channel.
 old-location: rdp\channel_access_enum.htm

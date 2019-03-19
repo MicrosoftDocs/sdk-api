@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_GET_SIGNER_CERTIFICATE
-title: PFN_CRYPT_GET_SIGNER_CERTIFICATE
+title: PFN_CRYPT_GET_SIGNER_CERTIFICATE (wincrypt.h)
 author: windows-sdk-content
 description: The CryptGetSignerCertificateCallback user supplied callback function is used with the CRYPT_VERIFY_MESSAGE_PARA structure to get and verify a message signer's certificate.
 old-location: security\cryptgetsignercertificatecallback.htm

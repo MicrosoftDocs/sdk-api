@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetEffectInvalidRectangles
-title: ID2D1DeviceContext::GetEffectInvalidRectangles
+title: ID2D1DeviceContext::GetEffectInvalidRectangles (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the invalid rectangles that have accumulated since the last time the effect was drawn and EndDraw was then called on the device context.
 old-location: direct2d\id2d1devicecontext_geteffectinvalidrectangles.htm

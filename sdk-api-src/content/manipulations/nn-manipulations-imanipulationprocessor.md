@@ -1,6 +1,6 @@
 ---
 UID: NN:manipulations.IManipulationProcessor
-title: IManipulationProcessor
+title: IManipulationProcessor (manipulations.h)
 author: windows-sdk-content
 description: The IManipulationProcessor provides functionality for monitoring and responding to multitouch input.
 old-location: wintouch\imanipulationprocessor.htm

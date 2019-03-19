@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcompiler.D3DCOMPILER_STRIP_FLAGS
-title: D3DCOMPILER_STRIP_FLAGS
+title: D3DCOMPILER_STRIP_FLAGS (d3dcompiler.h)
 author: windows-sdk-content
 description: Strip flag options.
 old-location: direct3dhlsl\d3dcompiler_strip_flags.htm

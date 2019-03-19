@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Send
-title: IXMLHTTPRequest2::Send
+title: IXMLHTTPRequest2::Send (msxml6.h)
 author: windows-sdk-content
 description: Sends an HTTP request to the server asynchronously. On success, methods on the IXMLHTTPRequest2Callback interface implemented by the app are called to process the response.
 old-location: ixhr2\ixmlhttprequest2_send.htm

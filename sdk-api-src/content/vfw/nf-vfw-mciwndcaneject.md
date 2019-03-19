@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndCanEject
-title: MCIWndCanEject macro
+title: MCIWndCanEject macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndCanEject macro determines if an MCI device can eject its media. You can use this macro or explicitly send the MCIWNDM_CAN_EJECT message.
 old-location: multimedia\mciwndcaneject.htm

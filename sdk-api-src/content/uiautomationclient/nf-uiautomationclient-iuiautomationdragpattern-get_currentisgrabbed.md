@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.get_CurrentIsGrabbed
-title: IUIAutomationDragPattern::get_CurrentIsGrabbed
+title: IUIAutomationDragPattern::get_CurrentIsGrabbed (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the user has grabbed this element as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_currentisgrabbed.htm

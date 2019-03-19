@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.StartService
-title: ISdoServiceControl::StartService
+title: ISdoServiceControl::StartService (sdoias.h)
 author: windows-sdk-content
 description: The StartService method starts the service administered through SDO.
 old-location: nps\SDO_isdoservicecontrol_startservice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetEvictionPriority
-title: IDXGIResource::GetEvictionPriority
+title: IDXGIResource::GetEvictionPriority (dxgi.h)
 author: windows-sdk-content
 description: Get the eviction priority.
 old-location: direct3ddxgi\idxgiresource_getevictionpriority.htm

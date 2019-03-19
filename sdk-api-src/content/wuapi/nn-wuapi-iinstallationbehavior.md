@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IInstallationBehavior
-title: IInstallationBehavior
+title: IInstallationBehavior (wuapi.h)
 author: windows-sdk-content
 description: Represents the installation and uninstallation options of an update.
 old-location: wua\iinstallationbehavior.htm

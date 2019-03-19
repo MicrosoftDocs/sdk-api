@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetUnderline
-title: IDWriteTextLayout::SetUnderline
+title: IDWriteTextLayout::SetUnderline (dwrite.h)
 author: windows-sdk-content
 description: Sets underlining for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetUnderline.htm

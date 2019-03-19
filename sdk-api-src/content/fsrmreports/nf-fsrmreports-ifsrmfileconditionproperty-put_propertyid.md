@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.put_PropertyId
-title: IFsrmFileConditionProperty::put_PropertyId
+title: IFsrmFileConditionProperty::put_PropertyId (fsrmreports.h)
 author: windows-sdk-content
 description: Specifies the predefined file property, as enumerated by the FsrmFileSystemPropertyId enumeration.
 old-location: fsrm\ifsrmfileconditionproperty_propertyid.htm

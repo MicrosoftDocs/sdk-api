@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.SetEntries
-title: IDirectDrawPalette::SetEntries
+title: IDirectDrawPalette::SetEntries (ddraw.h)
 author: windows-sdk-content
 description: Changes entries in a DirectDrawPalette object immediately.
 old-location: directdraw\idirectdrawpalette_setentries.htm

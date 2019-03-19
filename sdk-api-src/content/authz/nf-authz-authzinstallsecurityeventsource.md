@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInstallSecurityEventSource
-title: AuthzInstallSecurityEventSource function
+title: AuthzInstallSecurityEventSource function (authz.h)
 author: windows-sdk-content
 description: Installs the specified source as a security event source.
 old-location: security\authzinstallsecurityeventsource.htm

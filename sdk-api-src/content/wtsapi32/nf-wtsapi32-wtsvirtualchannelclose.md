@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelClose
-title: WTSVirtualChannelClose function
+title: WTSVirtualChannelClose function (wtsapi32.h)
 author: windows-sdk-content
 description: Closes an open virtual channel handle.
 old-location: termserv\wtsvirtualchannelclose.htm

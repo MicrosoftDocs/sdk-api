@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileBits
-title: GetEnhMetaFileBits function
+title: GetEnhMetaFileBits function (wingdi.h)
 author: windows-sdk-content
 description: The GetEnhMetaFileBits function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer.
 old-location: gdi\getenhmetafilebits.htm

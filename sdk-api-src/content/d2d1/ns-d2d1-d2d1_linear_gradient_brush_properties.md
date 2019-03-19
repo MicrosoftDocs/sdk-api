@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
-title: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES
+title: D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES (d2d1.h)
 author: windows-sdk-content
 description: Contains the starting point and endpoint of the gradient axis for an ID2D1LinearGradientBrush.
 old-location: direct2d\D2D1_LINEAR_GRADIENT_BRUSH_PROPERTIES.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_GLYPH_IMAGE_DATA
-title: DWRITE_GLYPH_IMAGE_DATA
+title: DWRITE_GLYPH_IMAGE_DATA (dwrite_3.h)
 author: windows-sdk-content
 description: Data for a single glyph from GetGlyphImageData.
 old-location: directwrite\dwrite_glyph_image_data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:reconcil.INotifyReplica
-title: INotifyReplica
+title: INotifyReplica (reconcil.h)
 author: windows-sdk-content
 description: Exposes a method that provides an object's creator with the means to notify the object that it may be subject to subsequent reconciliation. The briefcase reconciler is responsible for implementing this interface.
 old-location: shell\INotifyReplica.htm

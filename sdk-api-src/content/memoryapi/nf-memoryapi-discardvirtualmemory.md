@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.DiscardVirtualMemory
-title: DiscardVirtualMemory function
+title: DiscardVirtualMemory function (memoryapi.h)
 author: windows-sdk-content
 description: Discards the memory contents of a range of memory pages, without decommitting the memory. The contents of discarded memory is undefined and must be rewritten by the application.
 old-location: base\discardvirtualmemory.htm

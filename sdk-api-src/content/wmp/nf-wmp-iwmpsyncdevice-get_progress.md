@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_progress
-title: IWMPSyncDevice::get_progress
+title: IWMPSyncDevice::get_progress (wmp.h)
 author: windows-sdk-content
 description: The get_progress method retrieves a value that indicates the synchronization progress as percent complete.
 old-location: wmp\iwmpsyncdevice_get_progress.htm

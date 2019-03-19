@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddEnum
-title: IWbemConfigureRefresher::AddEnum
+title: IWbemConfigureRefresher::AddEnum (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemConfigureRefresher::AddEnum method adds an enumerator to the requested refresher.
 old-location: wmi\iwbemconfigurerefresher_addenum.htm

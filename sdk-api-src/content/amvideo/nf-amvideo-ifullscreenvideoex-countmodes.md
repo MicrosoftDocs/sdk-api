@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.CountModes
-title: IFullScreenVideoEx::CountModes
+title: IFullScreenVideoEx::CountModes (amvideo.h)
 author: windows-sdk-content
 description: The CountModes method retrieves the number of display modes that the Full Screen Renderer supports.
 old-location: dshow\ifullscreenvideoex_countmodes.htm

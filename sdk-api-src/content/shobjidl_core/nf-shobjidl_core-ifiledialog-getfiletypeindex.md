@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFileTypeIndex
-title: IFileDialog::GetFileTypeIndex
+title: IFileDialog::GetFileTypeIndex (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the currently selected file type.
 old-location: shell\IFileDialog_GetFileTypeIndex.htm

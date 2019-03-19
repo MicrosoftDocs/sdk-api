@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingState
-title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState
+title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingState (wmlss.h)
 author: windows-sdk-content
 description: The get_userHomeMediaSharingState method retrieves a value that indicates whether the current user's media library is shared on the home network.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingState.htm

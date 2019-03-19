@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetClassRegistryPropertyW
-title: SetupDiSetClassRegistryPropertyW function
+title: SetupDiSetClassRegistryPropertyW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetClassRegistryProperty function sets a specified device class property in the registry.
 old-location: devinst\setupdisetclassregistryproperty.htm

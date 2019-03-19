@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetStringValue
-title: ICredentialProviderCredential::GetStringValue
+title: ICredentialProviderCredential::GetStringValue (credentialprovider.h)
 author: windows-sdk-content
 description: Enables retrieval of text from a credential with a text field.
 old-location: shell\ICredentialProviderCredential_GetStringValue.htm

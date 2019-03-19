@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IF_ROW2
-title: MIB_IF_ROW2
+title: MIB_IF_ROW2 (netioapi.h)
 author: windows-sdk-content
 description: Stores information about a particular interface.
 old-location: mib\mib_if_row2.htm

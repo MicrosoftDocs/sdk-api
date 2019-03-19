@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFSample
-title: IMFSample
+title: IMFSample (mfobjects.h)
 author: windows-sdk-content
 description: Represents a media sample, which is a container object for media data.
 old-location: mf\imfsample.htm

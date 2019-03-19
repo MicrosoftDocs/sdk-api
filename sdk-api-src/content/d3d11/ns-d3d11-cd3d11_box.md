@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_BOX
-title: CD3D11_BOX
+title: CD3D11_BOX (d3d11.h)
 author: windows-sdk-content
 description: Represents a box and provides convenience methods for creating boxes.
 old-location: direct3d11\cd3d11_box.htm

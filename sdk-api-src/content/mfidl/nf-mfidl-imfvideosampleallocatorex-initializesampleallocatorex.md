@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorEx.InitializeSampleAllocatorEx
-title: IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx
+title: IMFVideoSampleAllocatorEx::InitializeSampleAllocatorEx (mfidl.h)
 author: windows-sdk-content
 description: Initializes the video sample allocator object.
 old-location: mf\imfvideosampleallocatorex_initializesampleallocatorex.htm

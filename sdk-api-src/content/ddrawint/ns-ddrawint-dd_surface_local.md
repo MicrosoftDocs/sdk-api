@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SURFACE_LOCAL
-title: DD_SURFACE_LOCAL
+title: DD_SURFACE_LOCAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SURFACE_LOCAL structure contains surface-related data that is unique to an individual surface object.
 old-location: display\dd_surface_local.htm

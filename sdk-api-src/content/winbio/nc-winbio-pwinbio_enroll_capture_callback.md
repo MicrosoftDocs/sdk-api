@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio.PWINBIO_ENROLL_CAPTURE_CALLBACK
-title: PWINBIO_ENROLL_CAPTURE_CALLBACK
+title: PWINBIO_ENROLL_CAPTURE_CALLBACK (winbio.h)
 author: windows-sdk-content
 description: Called by the Windows Biometric Framework to return results from the asynchronous WinBioEnrollCaptureWithCallback function.
 old-location: secbiomet\pwinbio_enroll_capture_callback.htm

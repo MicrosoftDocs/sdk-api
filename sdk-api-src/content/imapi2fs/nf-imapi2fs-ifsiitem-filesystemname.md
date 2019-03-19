@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiItem.FileSystemName
-title: IFsiItem::FileSystemName
+title: IFsiItem::FileSystemName (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the name of the item as modified to conform to the specified file system.
 old-location: imapi\ifsiitem_filesystemname.htm

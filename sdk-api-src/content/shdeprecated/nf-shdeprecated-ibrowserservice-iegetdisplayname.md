@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.IEGetDisplayName
-title: IBrowserService::IEGetDisplayName
+title: IBrowserService::IEGetDisplayName (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves the URL that corresponds to a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_IEGetDisplayName.htm

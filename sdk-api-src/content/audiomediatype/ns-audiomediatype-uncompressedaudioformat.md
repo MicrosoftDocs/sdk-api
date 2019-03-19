@@ -1,6 +1,6 @@
 ---
 UID: NS:audiomediatype._UNCOMPRESSEDAUDIOFORMAT
-title: UNCOMPRESSEDAUDIOFORMAT
+title: UNCOMPRESSEDAUDIOFORMAT (audiomediatype.h)
 author: windows-sdk-content
 description: The UNCOMPRESSEDAUDIOFORMAT structure specifies the frame rate, channel mask, and other attributes of the uncompressed audio data format.
 old-location: audio\uncompressedauudioformat.htm

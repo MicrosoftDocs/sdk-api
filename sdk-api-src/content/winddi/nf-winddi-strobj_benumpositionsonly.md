@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.STROBJ_bEnumPositionsOnly
-title: STROBJ_bEnumPositionsOnly function
+title: STROBJ_bEnumPositionsOnly function (winddi.h)
 author: windows-sdk-content
 description: The STROBJ_bEnumPositionsOnly function enumerates glyph identities and positions for a specified text string, but does not create cached glyph bitmaps.
 old-location: display\strobj_benumpositionsonly.htm

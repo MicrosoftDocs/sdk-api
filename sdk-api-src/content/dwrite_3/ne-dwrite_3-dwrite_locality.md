@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_LOCALITY
-title: DWRITE_LOCALITY
+title: DWRITE_LOCALITY (dwrite_3.h)
 author: windows-sdk-content
 description: Specifies the location of a resource.
 old-location: directwrite\dwrite_locality.htm

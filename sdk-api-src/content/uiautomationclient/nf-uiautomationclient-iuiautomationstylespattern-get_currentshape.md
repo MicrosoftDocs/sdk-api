@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentShape
-title: IUIAutomationStylesPattern::get_CurrentShape
+title: IUIAutomationStylesPattern::get_CurrentShape (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the shape of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentShape.htm

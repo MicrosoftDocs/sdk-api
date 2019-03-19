@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedDescribedBy
-title: IUIAutomationElement::get_CachedDescribedBy
+title: IUIAutomationElement::get_CachedDescribedBy (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a cached array of elements that describe this element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedDescribedBy.htm

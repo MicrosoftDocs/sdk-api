@@ -1,6 +1,6 @@
 ---
 UID: NS:usp10.tag_SCRIPT_ANALYSIS
-title: SCRIPT_ANALYSIS
+title: SCRIPT_ANALYSIS (usp10.h)
 author: windows-sdk-content
 description: Contains a portion of a Unicode string, that is, an &#0034;item&#0034;.
 old-location: intl\script_analysis.htm

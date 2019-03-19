@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorHermiteV
-title: XMVectorHermiteV function
+title: XMVectorHermiteV function (directxmath.h)
 author: windows-sdk-content
 description: Performs a Hermite spline interpolation, using the specified vectors.
 old-location: dxmath\xmvectorhermitev.htm

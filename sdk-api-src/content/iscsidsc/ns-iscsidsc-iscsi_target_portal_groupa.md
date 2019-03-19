@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_13
-title: ISCSI_TARGET_PORTAL_GROUPA
+title: ISCSI_TARGET_PORTAL_GROUPA (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_TARGET_PORTAL_GROUP.
 old-location: iscsidisc\iscsi_target_portal_group.htm

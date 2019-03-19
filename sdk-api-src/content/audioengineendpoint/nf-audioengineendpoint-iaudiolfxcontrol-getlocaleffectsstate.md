@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioLfxControl.GetLocalEffectsState
-title: IAudioLfxControl::GetLocalEffectsState
+title: IAudioLfxControl::GetLocalEffectsState (audioengineendpoint.h)
 author: windows-sdk-content
 description: The GetLocalEffectsState method retrieves the local effects state that is currently applied to the offloaded audio stream.
 old-location: coreaudio\iaudiolfxcontrol_getlocaleffectsstate.htm

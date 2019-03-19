@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPISENDDOCUMENTS
-title: MAPISENDDOCUMENTS
+title: MAPISENDDOCUMENTS (mapi.h)
 author: windows-sdk-content
 description: The MAPISendDocuments function sends a standard message with one or more attached files and a cover note.
 old-location: mapi\mapisenddocuments.htm

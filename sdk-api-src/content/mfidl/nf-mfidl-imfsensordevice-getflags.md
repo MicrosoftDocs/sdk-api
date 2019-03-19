@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetFlags
-title: IMFSensorDevice::GetFlags
+title: IMFSensorDevice::GetFlags (mfidl.h)
 author: windows-sdk-content
 description: Gets the flags set for the sensor device. This method is reserved for future use.
 old-location: mf\imfsensordevice_getflags.htm

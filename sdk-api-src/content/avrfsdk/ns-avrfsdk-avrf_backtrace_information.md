@@ -1,6 +1,6 @@
 ---
 UID: NS:avrfsdk._AVRF_BACKTRACE_INFORMATION
-title: AVRF_BACKTRACE_INFORMATION
+title: AVRF_BACKTRACE_INFORMATION (avrfsdk.h)
 author: windows-sdk-content
 description: Contains information about backtraces performed.
 old-location: winprog\avrf_backtrace_information.htm

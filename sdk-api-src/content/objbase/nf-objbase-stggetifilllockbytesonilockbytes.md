@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.StgGetIFillLockBytesOnILockBytes
-title: StgGetIFillLockBytesOnILockBytes function
+title: StgGetIFillLockBytesOnILockBytes function (objbase.h)
 author: windows-sdk-content
 description: Creates a new wrapper object on a byte array object provided by the caller.
 old-location: stg\stggetifilllockbytesonilockbytes.htm

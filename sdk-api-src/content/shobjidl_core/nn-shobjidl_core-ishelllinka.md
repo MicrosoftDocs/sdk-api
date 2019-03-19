@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellLinkA
-title: IShellLinkA
+title: IShellLinkA (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that create, modify, and resolve Shell links.
 old-location: shell\IShellLink.htm

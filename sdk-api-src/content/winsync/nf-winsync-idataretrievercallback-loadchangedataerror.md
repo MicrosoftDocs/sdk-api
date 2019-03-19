@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IDataRetrieverCallback.LoadChangeDataError
-title: IDataRetrieverCallback::LoadChangeDataError
+title: IDataRetrieverCallback::LoadChangeDataError (winsync.h)
 author: windows-sdk-content
 description: Indicates that an IAsynchronousDataRetriever method failed.
 old-location: winsync\idataretrievercallback_loadchangedataerror.htm

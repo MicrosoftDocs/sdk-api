@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetDuplicate
-title: ITextFont::GetDuplicate
+title: ITextFont::GetDuplicate (tom.h)
 author: windows-sdk-content
 description: Gets a duplicate of this text font object.
 old-location: controls\ITextFont_GetDuplicate.htm

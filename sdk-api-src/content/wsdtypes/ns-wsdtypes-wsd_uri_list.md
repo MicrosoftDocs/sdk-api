@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_URI_LIST
-title: WSD_URI_LIST
+title: WSD_URI_LIST (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a node in a linked list of URIs.
 old-location: ncd\wsd_uri_list_struct.htm

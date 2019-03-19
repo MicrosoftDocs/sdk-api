@@ -1,6 +1,6 @@
 ---
 UID: NC:immdev.IMCENUMPROC
-title: IMCENUMPROC
+title: IMCENUMPROC (immdev.h)
 author: windows-sdk-content
 description: An application-defined callback function that processes input contexts provided by the ImmEnumInputContext function.
 old-location: intl\enuminputcontext.htm

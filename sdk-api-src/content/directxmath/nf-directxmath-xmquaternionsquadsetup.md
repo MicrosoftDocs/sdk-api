@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionSquadSetup
-title: XMQuaternionSquadSetup function
+title: XMQuaternionSquadSetup function (directxmath.h)
 author: windows-sdk-content
 description: Provides addresses of setup control points for spherical quadrangle interpolation.
 old-location: dxmath\xmquaternionsquadsetup.htm

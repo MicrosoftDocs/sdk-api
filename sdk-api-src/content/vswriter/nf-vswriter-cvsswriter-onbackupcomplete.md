@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackupComplete
-title: CVssWriter::OnBackupComplete
+title: CVssWriter::OnBackupComplete (vswriter.h)
 author: windows-sdk-content
 description: The OnBackupComplete method is called by a writer following a BackupComplete event. It is used to perform operations considered necessary following a backup. These operations cannot, however, modify the Backup Components Document.
 old-location: base\cvsswriter_onbackupcomplete.htm

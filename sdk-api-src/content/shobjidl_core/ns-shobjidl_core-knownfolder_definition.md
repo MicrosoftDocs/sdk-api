@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.KNOWNFOLDER_DEFINITION
-title: KNOWNFOLDER_DEFINITION
+title: KNOWNFOLDER_DEFINITION (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines the specifics of a known folder.
 old-location: shell\KNOWNFOLDER_DEFINITION.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetCheckButtonState
-title: IFileDialogCustomize::SetCheckButtonState
+title: IFileDialogCustomize::SetCheckButtonState (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the state of a check button (check box) in the dialog.
 old-location: shell\IFileDialogCustomize_SetCheckButtonState.htm

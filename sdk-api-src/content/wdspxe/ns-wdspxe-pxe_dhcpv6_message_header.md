@@ -1,6 +1,6 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_MESSAGE_HEADER
-title: PXE_DHCPV6_MESSAGE_HEADER
+title: PXE_DHCPV6_MESSAGE_HEADER (wdspxe.h)
 author: windows-sdk-content
 description: Describes the fields in common between the PXE_DHCPV6_MESSAGE and PXE_DHCPV6_RELAY_MESSAGE structures.
 old-location: wds\pxe_dhcpv6_message_header.htm

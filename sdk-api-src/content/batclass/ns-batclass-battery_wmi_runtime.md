@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass._BATTERY_WMI_RUNTIME
-title: BATTERY_WMI_RUNTIME
+title: BATTERY_WMI_RUNTIME (batclass.h)
 author: windows-sdk-content
 description: Defines information about the estimated runtime of a battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_runtime.htm

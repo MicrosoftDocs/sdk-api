@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.DeleteVirtualDiskMetadata
-title: DeleteVirtualDiskMetadata function
+title: DeleteVirtualDiskMetadata function (virtdisk.h)
 author: windows-sdk-content
 description: Deletes metadata from a virtual disk.
 old-location: vstor\deletevirtualdiskmetadata.htm

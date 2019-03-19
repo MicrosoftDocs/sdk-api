@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IWCContextMenuCallback
-title: IWCContextMenuCallback
+title: IWCContextMenuCallback (cluadmex.h)
 author: windows-sdk-content
 description: The IWCContextMenuCallback interface is called by a Failover Cluster Administrator extension to add items to a Failover Cluster Administrator context menu.
 old-location: mscs\iwccontextmenucallback.htm

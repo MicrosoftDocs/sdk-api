@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPathname.Set
-title: IADsPathname::Set
+title: IADsPathname::Set (iads.h)
 author: windows-sdk-content
 description: Sets up the Pathname object for parsing a directory path.
 old-location: adsi\iadspathname_set.htm

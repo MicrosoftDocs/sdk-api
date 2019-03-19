@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.CanConstrict
-title: IEVRTrustedVideoPlugin::CanConstrict
+title: IEVRTrustedVideoPlugin::CanConstrict (evr.h)
 author: windows-sdk-content
 description: Queries whether the plug-in can limit the effective video resolution.
 old-location: mf\ievrtrustedvideoplugin_canconstrict.htm

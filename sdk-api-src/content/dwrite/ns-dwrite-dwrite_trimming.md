@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_TRIMMING
-title: DWRITE_TRIMMING
+title: DWRITE_TRIMMING (dwrite.h)
 author: windows-sdk-content
 description: Specifies the trimming option for text overflowing the layout box.
 old-location: directwrite\dwrite_trimming.htm

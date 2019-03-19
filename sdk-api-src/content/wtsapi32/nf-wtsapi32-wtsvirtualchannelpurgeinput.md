@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelPurgeInput
-title: WTSVirtualChannelPurgeInput function
+title: WTSVirtualChannelPurgeInput function (wtsapi32.h)
 author: windows-sdk-content
 description: Deletes all queued input data sent from the client to the server on a specified virtual channel.
 old-location: termserv\wtsvirtualchannelpurgeinput.htm

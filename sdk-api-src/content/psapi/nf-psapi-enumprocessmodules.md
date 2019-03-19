@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.EnumProcessModules
-title: EnumProcessModules function
+title: EnumProcessModules function (psapi.h)
 author: windows-sdk-content
 description: Retrieves a handle for each module in the specified process.
 old-location: psapi\enumprocessmodules.htm

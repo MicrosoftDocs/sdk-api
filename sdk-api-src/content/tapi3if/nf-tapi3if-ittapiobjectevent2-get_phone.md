@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent2.get_Phone
-title: ITTAPIObjectEvent2::get_Phone
+title: ITTAPIObjectEvent2::get_Phone (tapi3if.h)
 author: windows-sdk-content
 description: The get_Phone method returns a pointer to the ITPhone interface on the phone object that caused this TAPI object event to be fired.
 old-location: tapi3\ittapiobjectevent2_get_phone.htm

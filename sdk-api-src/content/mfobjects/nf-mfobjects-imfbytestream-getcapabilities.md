@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.GetCapabilities
-title: IMFByteStream::GetCapabilities
+title: IMFByteStream::GetCapabilities (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the characteristics of the byte stream.
 old-location: mf\imfbytestream_getcapabilities.htm

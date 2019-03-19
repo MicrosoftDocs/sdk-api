@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IComponents
-title: IComponents
+title: IComponents (tuner.h)
 author: windows-sdk-content
 description: The IComponents interface represents a collection of components.
 old-location: mstv\icomponents.htm

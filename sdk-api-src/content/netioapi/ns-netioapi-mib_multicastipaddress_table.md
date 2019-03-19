@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_MULTICASTIPADDRESS_TABLE
-title: MIB_MULTICASTIPADDRESS_TABLE
+title: MIB_MULTICASTIPADDRESS_TABLE (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of multicast IP address entries.
 old-location: mib\mib_multicastipaddress_table.htm

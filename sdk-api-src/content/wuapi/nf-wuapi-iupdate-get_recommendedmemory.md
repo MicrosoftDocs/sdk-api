@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_RecommendedMemory
-title: IUpdate::get_RecommendedMemory
+title: IUpdate::get_RecommendedMemory (wuapi.h)
 author: windows-sdk-content
 description: Gets the recommended physical memory size that should be available in your computer before you install the update. The physical memory size is specified in megabytes (MB).
 old-location: wua\iupdate_recommendedmemory.htm

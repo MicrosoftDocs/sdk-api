@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.GetOperationStatus
-title: IOperationsProgressDialog::GetOperationStatus
+title: IOperationsProgressDialog::GetOperationStatus (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets operation status for progress dialog.
 old-location: shell\IOperationsProgressDialog_GetOperationStatus.htm

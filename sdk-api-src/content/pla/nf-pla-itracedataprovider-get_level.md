@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_Level
-title: ITraceDataProvider::get_Level
+title: ITraceDataProvider::get_Level (pla.h)
 author: windows-sdk-content
 description: Retrieves the level of information used to enable the provider.
 old-location: pla\itracedataprovider_level.htm

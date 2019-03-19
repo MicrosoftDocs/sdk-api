@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.put_Task
-title: IFsrmReportJob::put_Task
+title: IFsrmReportJob::put_Task (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the report job.
 old-location: fsrm\ifsrmreportjob_task.htm

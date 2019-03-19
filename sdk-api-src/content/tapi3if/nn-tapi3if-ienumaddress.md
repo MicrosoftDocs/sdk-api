@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumAddress
-title: IEnumAddress
+title: IEnumAddress (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumAddress interface provides COM-standard enumeration methods for the ITAddress interface. The ITTAPI::EnumerateAddresses and ITAgentHandler::EnumerateUsableAddresses methods return a pointer to IEnumAddress.
 old-location: tapi3\ienumaddress.htm

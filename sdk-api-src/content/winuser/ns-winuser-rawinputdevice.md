@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagRAWINPUTDEVICE
-title: RAWINPUTDEVICE
+title: RAWINPUTDEVICE (winuser.h)
 author: windows-sdk-content
 description: Defines information for the raw input devices.
 old-location: inputdev\rawinputdevice.htm

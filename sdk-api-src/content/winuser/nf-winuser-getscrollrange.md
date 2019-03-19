@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetScrollRange
-title: GetScrollRange function
+title: GetScrollRange function (winuser.h)
 author: windows-sdk-content
 description: The GetScrollRange function retrieves the current minimum and maximum scroll box (thumb) positions for the specified scroll bar.
 old-location: controls\GetScrollRange.htm

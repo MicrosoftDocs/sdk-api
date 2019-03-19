@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesCache2
-title: IOfflineFilesCache2
+title: IOfflineFilesCache2 (cscobj.h)
 author: windows-sdk-content
 description: Implements the RenameItemEx method.
 old-location: of\iofflinefilescache2.htm

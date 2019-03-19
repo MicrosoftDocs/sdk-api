@@ -1,6 +1,6 @@
 ---
 UID: NN:ocidl.IPropertyPage
-title: IPropertyPage
+title: IPropertyPage (ocidl.h)
 author: windows-sdk-content
 description: Provides the main features of a property page object that manages a particular page within a property sheet.
 old-location: com\ipropertypage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetSignatureXml
-title: IXpsSignature::GetSignatureXml
+title: IXpsSignature::GetSignatureXml (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the XML markup of the digital signature.
 old-location: xps\ixpssignature_getsignaturexml.htm

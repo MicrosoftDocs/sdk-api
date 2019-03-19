@@ -1,6 +1,6 @@
 ---
 UID: NE:bdaiface.BDA_DrmPairingError
-title: BDA_DrmPairingError
+title: BDA_DrmPairingError (bdaiface.h)
 author: windows-sdk-content
 description: Specifies the status of a DRM handshake between a tuner and the user's computer.
 old-location: mstv\bda_drmpairingerror.htm

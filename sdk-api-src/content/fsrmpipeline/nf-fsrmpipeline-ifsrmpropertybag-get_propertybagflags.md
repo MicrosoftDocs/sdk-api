@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_PropertyBagFlags
-title: IFsrmPropertyBag::get_PropertyBagFlags
+title: IFsrmPropertyBag::get_PropertyBagFlags (fsrmpipeline.h)
 author: windows-sdk-content
 description: A set of flags that provide additional information about the property bag.
 old-location: fsrm\ifsrmpropertybag_propertybagflags.htm

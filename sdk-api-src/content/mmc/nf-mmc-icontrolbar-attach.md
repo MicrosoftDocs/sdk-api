@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IControlbar.Attach
-title: IControlbar::Attach
+title: IControlbar::Attach (mmc.h)
 author: windows-sdk-content
 description: The IControlbar::Attach method allows the snap-in to associate a control with a control bar.
 old-location: mmc\icontrolbar_attach.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Start
-title: ITaskHandler::Start
+title: ITaskHandler::Start (taskschd.h)
 author: windows-sdk-content
 description: Called to start the COM handler.
 old-location: taskschd\itaskhandler_start.htm

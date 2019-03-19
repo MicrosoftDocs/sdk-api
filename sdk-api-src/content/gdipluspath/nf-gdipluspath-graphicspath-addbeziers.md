@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBeziers
-title: GraphicsPath::AddBeziers
+title: GraphicsPath::AddBeziers (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddBeziers methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBeziers_Methods.htm

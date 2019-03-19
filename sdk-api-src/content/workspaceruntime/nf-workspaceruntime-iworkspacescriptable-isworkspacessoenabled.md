@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable.IsWorkspaceSSOEnabled
-title: IWorkspaceScriptable::IsWorkspaceSSOEnabled
+title: IWorkspaceScriptable::IsWorkspaceSSOEnabled (workspaceruntime.h)
 author: windows-sdk-content
 description: Determines whether single sign on (SSO) is enabled for RemoteApp and Desktop Connection.
 old-location: termserv\iworkspacescriptable_isworkspacessoenabled.htm

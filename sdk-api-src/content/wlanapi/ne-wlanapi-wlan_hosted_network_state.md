@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_STATE
-title: WLAN_HOSTED_NETWORK_STATE
+title: WLAN_HOSTED_NETWORK_STATE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the possible values for the network state of the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_state.htm

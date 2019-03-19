@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateFromFile
-title: OleCreateFromFile function
+title: OleCreateFromFile function (ole2.h)
 author: windows-sdk-content
 description: Creates an embedded object from the contents of a named file.
 old-location: com\olecreatefromfile.htm

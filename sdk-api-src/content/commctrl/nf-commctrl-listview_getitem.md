@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetItem
-title: ListView_GetItem macro
+title: ListView_GetItem macro (commctrl.h)
 author: windows-sdk-content
 description: Gets some or all of a list-view item's attributes. You can use this macro or send the LVM_GETITEM message explicitly.
 old-location: controls\ListView_GetItem.htm

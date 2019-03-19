@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsEnumerateDomainTrustsA
-title: DsEnumerateDomainTrustsA function
+title: DsEnumerateDomainTrustsA function (dsgetdc.h)
 author: windows-sdk-content
 description: Obtains domain trust data for a specified domain.
 old-location: ad\dsenumeratedomaintrusts.htm

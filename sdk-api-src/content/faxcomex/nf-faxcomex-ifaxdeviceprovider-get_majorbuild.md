@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MajorBuild
-title: IFaxDeviceProvider::get_MajorBuild
+title: IFaxDeviceProvider::get_MajorBuild (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_MajorBuild property is a value that specifies the major part of the build number for the fax service provider (FSP)Â DLL.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorbuild_cpp.htm

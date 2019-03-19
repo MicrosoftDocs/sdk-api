@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_2.IDXGISurface2
-title: IDXGISurface2
+title: IDXGISurface2 (dxgi1_2.h)
 author: windows-sdk-content
 description: The IDXGISurface2 interface extends the IDXGISurface1 interface by adding support for subresource surfaces and getting a handle to a shared resource.
 old-location: direct3ddxgi\idxgisurface2.htm

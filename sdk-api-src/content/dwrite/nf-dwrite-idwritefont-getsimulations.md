@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetSimulations
-title: IDWriteFont::GetSimulations
+title: IDWriteFont::GetSimulations (dwrite.h)
 author: windows-sdk-content
 description: Gets a value that indicates what simulations are applied to the specified font.
 old-location: directwrite\IDWriteFont_GetSimulations.htm

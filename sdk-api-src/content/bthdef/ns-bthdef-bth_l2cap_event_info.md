@@ -1,6 +1,6 @@
 ---
 UID: NS:bthdef._BTH_L2CAP_EVENT_INFO
-title: BTH_L2CAP_EVENT_INFO
+title: BTH_L2CAP_EVENT_INFO (bthdef.h)
 author: windows-sdk-content
 description: Contains data about events associated with an L2CAP channel.
 old-location: bluetooth\bth_l2cap_event_info.htm

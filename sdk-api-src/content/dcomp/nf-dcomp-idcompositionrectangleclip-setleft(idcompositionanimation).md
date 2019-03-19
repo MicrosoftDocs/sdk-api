@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetLeft(IDCompositionAnimation)
-title: IDCompositionRectangleClip::SetLeft(IDCompositionAnimation)
+title: IDCompositionRectangleClip::SetLeft(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the Left property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setleft_idcompositionanimation.htm

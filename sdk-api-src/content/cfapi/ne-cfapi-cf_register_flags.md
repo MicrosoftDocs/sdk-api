@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_REGISTER_FLAGS
-title: CF_REGISTER_FLAGS
+title: CF_REGISTER_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags for registering and updating a sync root.
 old-location: cloudapi\cf_register_flags.htm

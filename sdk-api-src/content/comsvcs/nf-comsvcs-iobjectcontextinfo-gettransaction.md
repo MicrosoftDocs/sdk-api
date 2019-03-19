@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetTransaction
-title: IObjectContextInfo::GetTransaction
+title: IObjectContextInfo::GetTransaction (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a reference to the current transaction.
 old-location: cos\iobjectcontextinfo_gettransaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.ImageGetDigestStream
-title: ImageGetDigestStream function
+title: ImageGetDigestStream function (imagehlp.h)
 author: windows-sdk-content
 description: Retrieves the requested data from the specified image file.
 old-location: base\imagegetdigeststream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Pages
-title: IFaxOutgoingJob::get_Pages
+title: IFaxOutgoingJob::get_Pages (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_Pages property is a number that indicates the total number of pages in the outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_pages_cpp.htm

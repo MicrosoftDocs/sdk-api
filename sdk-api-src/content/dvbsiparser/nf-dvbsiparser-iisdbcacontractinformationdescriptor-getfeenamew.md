@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetFeeNameW
-title: IIsdbCAContractInformationDescriptor::GetFeeNameW
+title: IIsdbCAContractInformationDescriptor::GetFeeNameW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets, in Unicode-text format, the value of the fee_name field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field describes the fee for the ES group being described.
 old-location: mstv\iisdbcacontractinformationdescriptor_getfeenamew.htm

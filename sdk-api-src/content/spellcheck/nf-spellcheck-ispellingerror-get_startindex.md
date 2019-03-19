@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_StartIndex
-title: ISpellingError::get_StartIndex
+title: ISpellingError::get_StartIndex (spellcheck.h)
 author: windows-sdk-content
 description: Gets the position in the checked text where the error begins.
 old-location: intl\ispellingerror_startindex.htm

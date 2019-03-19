@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI2FromStr
-title: VarI2FromStr function
+title: VarI2FromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a short value.
 old-location: automat\vari2fromstr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Receive
-title: IFaxPort::put_Receive
+title: IFaxPort::put_Receive (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::get_Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_receive_cpp.htm

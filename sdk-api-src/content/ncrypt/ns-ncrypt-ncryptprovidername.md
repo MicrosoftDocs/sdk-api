@@ -1,6 +1,6 @@
 ---
 UID: NS:ncrypt.NCryptProviderName
-title: NCryptProviderName
+title: NCryptProviderName (ncrypt.h)
 author: windows-sdk-content
 description: Used to contain the name of a CNG key storage provider.
 old-location: security\ncryptprovidername_struct.htm

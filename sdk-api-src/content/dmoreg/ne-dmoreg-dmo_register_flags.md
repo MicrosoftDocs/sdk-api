@@ -1,6 +1,6 @@
 ---
 UID: NE:dmoreg.DMO_REGISTER_FLAGS
-title: DMO_REGISTER_FLAGS
+title: DMO_REGISTER_FLAGS (dmoreg.h)
 author: windows-sdk-content
 description: The DMO_REGISTER_FLAGS enumeration defines flags that specify registry information for a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_register_flags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetInterface
-title: IDot11AdHocNetwork::GetInterface
+title: IDot11AdHocNetwork::GetInterface (adhoc.h)
 author: windows-sdk-content
 description: Gets the interface associated with a network.
 old-location: nwifi\idot11adhocnetwork_getinterface.htm

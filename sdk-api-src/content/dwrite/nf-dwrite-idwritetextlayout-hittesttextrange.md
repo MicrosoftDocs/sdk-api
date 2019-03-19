@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.HitTestTextRange
-title: IDWriteTextLayout::HitTestTextRange
+title: IDWriteTextLayout::HitTestTextRange (dwrite.h)
 author: windows-sdk-content
 description: The application calls this function to get a set of hit-test metrics corresponding to a range of text positions. One of the main usages is to implement highlight selection of the text string.
 old-location: directwrite\IDWriteTextLayout_HitTestTextRange.htm

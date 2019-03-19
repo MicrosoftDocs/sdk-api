@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHLockShared
-title: SHLockShared function
+title: SHLockShared function (shlwapi.h)
 author: windows-sdk-content
 description: SHLockShared may be altered or unavailable.
 old-location: shell\SHLockShared.htm

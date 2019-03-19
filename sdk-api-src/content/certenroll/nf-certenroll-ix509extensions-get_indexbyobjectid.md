@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_IndexByObjectId
-title: IX509Extensions::get_IndexByObjectId
+title: IX509Extensions::get_IndexByObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the index of an extension in the collection by object identifier (OID).
 old-location: security\ix509extensions_indexbyobjectid_property.htm

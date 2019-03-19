@@ -1,6 +1,6 @@
 ---
 UID: NE:wrdsgraphicschannels.__MIDL___MIDL_itf_wrdsgraphicschannels_0000_0002_0001
-title: WRdsGraphicsChannelType
+title: WRdsGraphicsChannelType (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: Used to specify the type of graphics virtual channel to create in the IWRdsGraphicsChannelManager::CreateChannel method.
 old-location: termserv\wrdsgraphicschanneltype.htm

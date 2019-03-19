@@ -1,6 +1,6 @@
 ---
 UID: NF:rasshost.RasSecurityDialogSend
-title: RasSecurityDialogSend function
+title: RasSecurityDialogSend function (rasshost.h)
 author: windows-sdk-content
 description: The RasSecurityDialogSend function sends a message to be displayed in a terminal window on a remote computer. A third-party RAS security DLL sends this message as part of its authentication of a remote user.
 old-location: rras\rassecuritydialogsend.htm

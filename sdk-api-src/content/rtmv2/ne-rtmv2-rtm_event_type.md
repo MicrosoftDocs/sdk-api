@@ -1,6 +1,6 @@
 ---
 UID: NE:rtmv2._RTM_EVENT_TYPE
-title: RTM_EVENT_TYPE
+title: RTM_EVENT_TYPE (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_EVENT_TYPE enumeration enumerates the events that the routing table manager can notify the client about using the RTM_EVENT_CALLBACK callback.
 old-location: rras\rtm_event_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.AddCodecInfo
-title: IWMHeaderInfo3::AddCodecInfo
+title: IWMHeaderInfo3::AddCodecInfo (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddCodecInfo method adds codec information to a file. When you copy a compressed stream from one file to another, use this method to include the information about the encoding codec in the file header.
 old-location: wmformat\iwmheaderinfo3_addcodecinfo.htm

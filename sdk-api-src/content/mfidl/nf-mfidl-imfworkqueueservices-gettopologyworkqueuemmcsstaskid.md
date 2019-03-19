@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetTopologyWorkQueueMMCSSTaskId
-title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId
+title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSTaskId (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier for a specified branch of the current topology.
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcsstaskid.htm

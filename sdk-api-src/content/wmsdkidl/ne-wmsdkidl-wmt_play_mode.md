@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_PLAY_MODE
-title: WMT_PLAY_MODE
+title: WMT_PLAY_MODE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_PLAY_MODE enumeration type defines the playback options of the reader.
 old-location: wmformat\wmt_play_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngInitializeSafeSemaphore
-title: EngInitializeSafeSemaphore function
+title: EngInitializeSafeSemaphore function (winddi.h)
 author: windows-sdk-content
 description: The EngInitializeSafeSemaphore function initializes the specified safe semaphore.
 old-location: display\enginitializesafesemaphore.htm

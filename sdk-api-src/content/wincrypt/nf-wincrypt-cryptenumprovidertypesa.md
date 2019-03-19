@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptEnumProviderTypesA
-title: CryptEnumProviderTypesA function
+title: CryptEnumProviderTypesA function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
 old-location: security\cryptenumprovidertypes.htm

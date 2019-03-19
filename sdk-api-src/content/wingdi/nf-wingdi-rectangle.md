@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.Rectangle
-title: Rectangle function
+title: Rectangle function (wingdi.h)
 author: windows-sdk-content
 description: The Rectangle function draws a rectangle. The rectangle is outlined by using the current pen and filled by using the current brush.
 old-location: gdi\rectangle.htm

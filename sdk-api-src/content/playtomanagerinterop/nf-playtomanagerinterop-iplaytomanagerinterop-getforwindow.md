@@ -1,6 +1,6 @@
 ---
 UID: NF:playtomanagerinterop.IPlayToManagerInterop.GetForWindow
-title: IPlayToManagerInterop::GetForWindow
+title: IPlayToManagerInterop::GetForWindow (playtomanagerinterop.h)
 author: windows-sdk-content
 description: Gets the PlayToManager instance for the specified window.
 old-location: winrt\iplaytomanagerinterop_getforwindow.htm

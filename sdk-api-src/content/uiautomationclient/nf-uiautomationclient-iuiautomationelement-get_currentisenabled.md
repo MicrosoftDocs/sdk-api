@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsEnabled
-title: IUIAutomationElement::get_CurrentIsEnabled
+title: IUIAutomationElement::get_CurrentIsEnabled (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element is enabled.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsEnabled.htm

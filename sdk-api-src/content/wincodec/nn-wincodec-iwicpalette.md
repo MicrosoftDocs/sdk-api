@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICPalette
-title: IWICPalette
+title: IWICPalette (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods for accessing and building a color table, primarily for indexed pixel formats.
 old-location: wic\_wic_codec_iwicpalette.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.createFilePKCS10WStr
-title: IEnroll::createFilePKCS10WStr
+title: IEnroll::createFilePKCS10WStr (xenroll.h)
 author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request and saves it in a file.
 old-location: security\ienroll4_createfilepkcs10wstr.htm

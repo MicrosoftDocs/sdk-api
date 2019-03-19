@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngProbeForReadAndWrite
-title: EngProbeForReadAndWrite function
+title: EngProbeForReadAndWrite function (winddi.h)
 author: windows-sdk-content
 description: The EngProbeForReadAndWrite function probes a structure for read and write accessibility.
 old-location: display\engprobeforreadandwrite.htm

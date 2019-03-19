@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemFloatingRect
-title: ITfLangBarItemMgr::GetItemFloatingRect
+title: ITfLangBarItemMgr::GetItemFloatingRect (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemMgr::GetItemFloatingRect method
 old-location: tsf\itflangbaritemmgr_getitemfloatingrect.htm

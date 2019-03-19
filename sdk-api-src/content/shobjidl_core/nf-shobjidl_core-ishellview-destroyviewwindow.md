@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView.DestroyViewWindow
-title: IShellView::DestroyViewWindow
+title: IShellView::DestroyViewWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Destroys the view window.
 old-location: shell\IShellView_DestroyViewWindow.htm

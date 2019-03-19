@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaFilter.GetSyncSource
-title: IMediaFilter::GetSyncSource
+title: IMediaFilter::GetSyncSource (strmif.h)
 author: windows-sdk-content
 description: The GetSyncSource method retrieves the current reference clock.
 old-location: dshow\imediafilter_getsyncsource.htm

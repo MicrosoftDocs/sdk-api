@@ -1,6 +1,6 @@
 ---
 UID: NN:atscpsipparser.ISCTE_EAS
-title: ISCTE_EAS
+title: ISCTE_EAS (atscpsipparser.h)
 author: windows-sdk-content
 description: The ISCTE_EAS interface enables the client to get data from an ATSC emergency alert message (EAS) table.
 old-location: mstv\iscte_eas.htm

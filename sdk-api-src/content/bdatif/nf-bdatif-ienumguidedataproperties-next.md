@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Next
-title: IEnumGuideDataProperties::Next
+title: IEnumGuideDataProperties::Next (bdatif.h)
 author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the enumeration sequence.
 old-location: mstv\ienumguidedataproperties_next.htm

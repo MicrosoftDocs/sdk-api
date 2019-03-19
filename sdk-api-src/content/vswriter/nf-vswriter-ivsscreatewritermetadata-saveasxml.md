@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.SaveAsXML
-title: IVssCreateWriterMetadata::SaveAsXML
+title: IVssCreateWriterMetadata::SaveAsXML (vswriter.h)
 author: windows-sdk-content
 description: The SaveAsXML method saves the Writer Metadata Document that contains a writer's state information to a specified string.
 old-location: base\ivsscreatewritermetadata_saveasxml.htm

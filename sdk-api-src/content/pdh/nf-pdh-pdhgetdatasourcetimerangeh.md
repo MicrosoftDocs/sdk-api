@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetDataSourceTimeRangeH
-title: PdhGetDataSourceTimeRangeH function
+title: PdhGetDataSourceTimeRangeH function (pdh.h)
 author: windows-sdk-content
 description: Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source.This function is identical to the PdhGetDataSourceTimeRange function, except that it supports the use of handles to data sources.
 old-location: perf\pdhgetdatasourcetimerangeh.htm

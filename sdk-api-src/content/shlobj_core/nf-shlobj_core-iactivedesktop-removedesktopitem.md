@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.RemoveDesktopItem
-title: IActiveDesktop::RemoveDesktopItem
+title: IActiveDesktop::RemoveDesktopItem (shlobj_core.h)
 author: windows-sdk-content
 description: Removes the specified desktop item from the desktop.
 old-location: lwef\iactivedesktop_removedesktopitem.htm

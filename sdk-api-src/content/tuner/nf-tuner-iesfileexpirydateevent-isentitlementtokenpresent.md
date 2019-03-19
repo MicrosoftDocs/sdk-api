@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.IsEntitlementTokenPresent
-title: IESFileExpiryDateEvent::IsEntitlementTokenPresent
+title: IESFileExpiryDateEvent::IsEntitlementTokenPresent (tuner.h)
 author: windows-sdk-content
 description: Gets a flag from FileExpiryDate event that indicates whether a license for protected content contains an entitlement token.
 old-location: mstv\iesfileexpirydateevent_isentitlementtokenpresent.htm

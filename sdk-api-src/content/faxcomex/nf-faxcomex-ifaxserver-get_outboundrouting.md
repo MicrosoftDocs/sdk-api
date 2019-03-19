@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_OutboundRouting
-title: IFaxServer::get_OutboundRouting
+title: IFaxServer::get_OutboundRouting (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_OutboundRouting property creates a IFaxOutboundRouting configuration interface. The interface permits users to configure outbound routing groups and rules.
 old-location: fax\_mfax_faxserver_outboundrouting_cpp.htm

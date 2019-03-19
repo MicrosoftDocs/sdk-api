@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IContextMenu.QueryContextMenu
-title: IContextMenu::QueryContextMenu
+title: IContextMenu::QueryContextMenu (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds commands to a shortcut menu.
 old-location: shell\IContextMenu_QueryContextMenu.htm

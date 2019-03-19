@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.IThumbnailProvider.GetThumbnail
-title: IThumbnailProvider::GetThumbnail
+title: IThumbnailProvider::GetThumbnail (thumbcache.h)
 author: windows-sdk-content
 description: Gets a thumbnail image and alpha type.
 old-location: shell\IThumbnailProvider_GetThumbnail.htm

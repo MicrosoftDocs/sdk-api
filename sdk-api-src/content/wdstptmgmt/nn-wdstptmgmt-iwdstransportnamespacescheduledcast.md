@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCast
-title: IWdsTransportNamespaceScheduledCast
+title: IWdsTransportNamespaceScheduledCast (wdstptmgmt.h)
 author: windows-sdk-content
 description: Represents a base interface to the derived interfaces:\_IWdsTransportNamespaceScheduledCastManualStart and IWdsTransportNamespaceScheduledCastAutoStart.
 old-location: wds\iwdstransportnamespacescheduledcast.htm

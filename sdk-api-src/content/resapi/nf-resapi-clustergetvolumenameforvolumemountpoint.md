@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ClusterGetVolumeNameForVolumeMountPoint
-title: ClusterGetVolumeNameForVolumeMountPoint function
+title: ClusterGetVolumeNameForVolumeMountPoint function (resapi.h)
 author: windows-sdk-content
 description: ClusterGetVolumeNameForVolumeMountPoint may be altered or unavailable. Instead, use GetVolumeNameForVolumeMountPoint.
 old-location: mscs\clustergetvolumenameforvolumemountpoint.htm

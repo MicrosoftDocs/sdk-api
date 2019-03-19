@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.CreateFontFaceWithSimulations
-title: IDWriteFontFaceReference::CreateFontFaceWithSimulations
+title: IDWriteFontFaceReference::CreateFontFaceWithSimulations (dwrite_3.h)
 author: windows-sdk-content
 description: Creates a font face with alternate font simulations, for example, to explicitly simulate a bold font face out of a regular variant.
 old-location: directwrite\idwritefontfacereference_createfontfacewithsimulations.htm

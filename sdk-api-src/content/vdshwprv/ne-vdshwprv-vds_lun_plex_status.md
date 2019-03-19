@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_LUN_PLEX_STATUS
-title: VDS_LUN_PLEX_STATUS
+title: VDS_LUN_PLEX_STATUS (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of object status values for a LUN plex.
 old-location: base\vds_lun_plex_status.htm

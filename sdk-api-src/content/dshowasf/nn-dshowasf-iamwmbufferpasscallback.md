@@ -1,6 +1,6 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPassCallback
-title: IAMWMBufferPassCallback
+title: IAMWMBufferPassCallback (dshowasf.h)
 author: windows-sdk-content
 description: The IAMWMBufferPassCallback interface is provided for advanced scenarios in which applications need access to an INSSBuffer3 sample before it is passed downstream for further processing.
 old-location: wmformat\iamwmbufferpasscallback.htm

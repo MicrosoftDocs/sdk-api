@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.getAll
-title: IWMPPlaylistCollection::getAll
+title: IWMPPlaylistCollection::getAll (wmp.h)
 author: windows-sdk-content
 description: The getAll method retrieves a pointer to an IWMPPlaylistArray interface representing all of the playlists in the library.
 old-location: wmp\iwmpplaylistcollection_getall.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemInputPin.ReceiveMultiple
-title: IMemInputPin::ReceiveMultiple
+title: IMemInputPin::ReceiveMultiple (strmif.h)
 author: windows-sdk-content
 description: The ReceiveMultiple method receives multiple samples in the stream.
 old-location: dshow\imeminputpin_receivemultiple.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_Error
-title: IWSManEnumerator::get_Error
+title: IWSManEnumerator::get_Error (wsmandisp.h)
 author: windows-sdk-content
 description: Gets an XML representation of additional error information.
 old-location: winrm\iwsmanenumerator_error.htm

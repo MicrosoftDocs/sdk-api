@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPass.GetAnnotationByIndex
-title: ID3D10EffectPass::GetAnnotationByIndex
+title: ID3D10EffectPass::GetAnnotationByIndex (d3d10effect.h)
 author: windows-sdk-content
 description: Get an annotation by index.
 old-location: direct3d10\id3d10effectpass_getannotationbyindex.htm

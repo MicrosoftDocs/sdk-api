@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.OpenCommandSession
-title: IMbnDeviceService::OpenCommandSession
+title: IMbnDeviceService::OpenCommandSession (mbnapi.h)
 author: windows-sdk-content
 description: Opens a command session to a device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_opencommandsession.htm

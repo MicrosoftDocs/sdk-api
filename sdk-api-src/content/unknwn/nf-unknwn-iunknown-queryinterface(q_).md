@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwn.IUnknown.QueryInterface(Q,)
-title: IUnknown::QueryInterface(Q,)
+title: IUnknown::QueryInterface(Q,) (unknwn.h)
 author: windows-sdk-content
 description: Retrieves pointers to the supported interfaces on an object.
 old-location: com\iunknown_queryinterface.htm

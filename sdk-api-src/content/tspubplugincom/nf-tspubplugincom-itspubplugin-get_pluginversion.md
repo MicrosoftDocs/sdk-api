@@ -1,6 +1,6 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.get_pluginVersion
-title: ItsPubPlugin::get_pluginVersion
+title: ItsPubPlugin::get_pluginVersion (tspubplugincom.h)
 author: windows-sdk-content
 description: Retrieves the version of the plug-in.
 old-location: termserv\itspubplugin_pluginversion.htm

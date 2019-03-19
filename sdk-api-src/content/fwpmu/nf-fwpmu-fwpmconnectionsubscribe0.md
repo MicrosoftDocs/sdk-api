@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscribe0
-title: FwpmConnectionSubscribe0 function
+title: FwpmConnectionSubscribe0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to request the delivery of notifications about changes to a connection object.
 old-location: fwp\fwpmconnectionsubscribe0.htm

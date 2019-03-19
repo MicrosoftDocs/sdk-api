@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineMonitorTones
-title: TSPI_lineMonitorTones function
+title: TSPI_lineMonitorTones function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineMonitorTones function enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the client application through TAPI.
 old-location: tspi\tspi_linemonitortones.htm

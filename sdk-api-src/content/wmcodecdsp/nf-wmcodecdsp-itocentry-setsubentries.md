@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetSubEntries
-title: ITocEntry::SetSubEntries
+title: ITocEntry::SetSubEntries (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetSubEntries identifies a set of entries as being subentries of this entry.
 old-location: mf\itocentry_setsubentries.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_ID0_
-title: IPSEC_ID0
+title: IPSEC_ID0 (ipsectypes.h)
 author: windows-sdk-content
 description: Contains information corresponding to identities that are authenticated by IPsec.
 old-location: fwp\ipsec_id0.htm

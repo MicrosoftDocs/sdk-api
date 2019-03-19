@@ -1,6 +1,6 @@
 ---
 UID: NN:indexsrv.IWordBreaker
-title: IWordBreaker
+title: IWordBreaker (indexsrv.h)
 author: windows-sdk-content
 description: Parses text and identifies individual words and phrases. This interface is a language-specific language resource component. It is used in background processes and must be optimized for both throughput and minimal use of resources.
 old-location: search\_search_IWordBreaker.htm

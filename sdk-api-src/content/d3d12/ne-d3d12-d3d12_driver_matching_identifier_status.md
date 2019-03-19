@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS
-title: D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS
+title: D3D12_DRIVER_MATCHING_IDENTIFIER_STATUS (d3d12.h)
 author: windows-sdk-content
 description: Specifies the result of a call to ID3D12Device5::CheckDriverMatchingIdentifier which queries whether serialized data is compatible with the current device and driver version.
 old-location: direct3d12\d3d12_driver_matching_identifier_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.put_Description
-title: IValueMap::put_Description
+title: IValueMap::put_Description (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a description of the collection.
 old-location: pla\ivaluemap_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRImageCompositor
-title: IVMRImageCompositor
+title: IVMRImageCompositor (strmif.h)
 author: windows-sdk-content
 description: The IVMRImageCompositor interface is implemented by the default compositor for the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrimagecompositor.htm

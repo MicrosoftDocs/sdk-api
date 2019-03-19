@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.RestoreStarterGPO
-title: IGPMDomain2::RestoreStarterGPO
+title: IGPMDomain2::RestoreStarterGPO (gpmgmt.h)
 author: windows-sdk-content
 description: Restores the Starter Group Policy object (GPO) from a GPMStarterGPOBackup object.
 old-location: gpmc\igpmdomain2_restorestartergpo.htm

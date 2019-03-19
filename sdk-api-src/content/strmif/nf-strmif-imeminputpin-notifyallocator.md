@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemInputPin.NotifyAllocator
-title: IMemInputPin::NotifyAllocator
+title: IMemInputPin::NotifyAllocator (strmif.h)
 author: windows-sdk-content
 description: The NotifyAllocator method specifies an allocator for the connection.
 old-location: dshow\imeminputpin_notifyallocator.htm

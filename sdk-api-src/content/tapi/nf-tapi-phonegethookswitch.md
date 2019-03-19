@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneGetHookSwitch
-title: phoneGetHookSwitch function
+title: phoneGetHookSwitch function (tapi.h)
 author: windows-sdk-content
 description: The phoneGetHookSwitch function returns the current hookswitch mode of the specified open phone device.
 old-location: tapi2\phonegethookswitch.htm

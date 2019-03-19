@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRRESTOREDC
-title: EMRRESTOREDC
+title: EMRRESTOREDC (wingdi.h)
 author: windows-sdk-content
 description: The EMRRESTOREDC structure contains members for the RestoreDC enhanced metafile record.
 old-location: gdi\emrrestoredc.htm

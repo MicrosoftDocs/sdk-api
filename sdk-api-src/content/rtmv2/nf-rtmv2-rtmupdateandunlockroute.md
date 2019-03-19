@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmUpdateAndUnlockRoute
-title: RtmUpdateAndUnlockRoute function
+title: RtmUpdateAndUnlockRoute function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmUpdateAndUnlockRoute function updates the position of the route in the set of routes for a destination, and adjusts the best route information for the destination.
 old-location: rras\rtmupdateandunlockroute.htm

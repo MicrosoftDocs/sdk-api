@@ -1,6 +1,6 @@
 ---
 UID: NN:wabiab.IAddrBook
-title: IAddrBook
+title: IAddrBook (wabiab.h)
 author: windows-sdk-content
 description: Do not use.
 old-location: wab\_wab_IAddrBook.htm

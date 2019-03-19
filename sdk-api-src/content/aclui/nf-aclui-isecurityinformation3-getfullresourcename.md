@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation3.GetFullResourceName
-title: ISecurityInformation3::GetFullResourceName
+title: ISecurityInformation3::GetFullResourceName (aclui.h)
 author: windows-sdk-content
 description: Retrieves the full path and file name of the object associated with the access control editor that is displayed by calling the OpenElevatedEditor method.
 old-location: security\isecurityinformation3_getfullresourcename.htm

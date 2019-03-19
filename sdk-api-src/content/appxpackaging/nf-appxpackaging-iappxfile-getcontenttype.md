@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetContentType
-title: IAppxFile::GetContentType
+title: IAppxFile::GetContentType (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the content type of the file.
 old-location: appxpkg\iappxfile_getcontenttype.htm

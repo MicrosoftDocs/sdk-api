@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsDocumentPackageTarget3D.GetXpsOMFactory
-title: IXpsDocumentPackageTarget3D::GetXpsOMFactory
+title: IXpsDocumentPackageTarget3D::GetXpsOMFactory (xpsobjectmodel_2.h)
 author: windows-sdk-content
 description: Gets the IXpsOMObjectFactory object for the document package.
 old-location: xps\ixpsdocumentpackagetarget3d_getxpsomfactory.htm

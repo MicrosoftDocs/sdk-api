@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IMalloc.Free
-title: IMalloc::Free
+title: IMalloc::Free (objidl.h)
 author: windows-sdk-content
 description: Frees a previously allocated block of memory.
 old-location: com\imalloc_free.htm

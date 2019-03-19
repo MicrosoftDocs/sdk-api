@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1TransformNode
-title: ID2D1TransformNode
+title: ID2D1TransformNode (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Describes a node in a transform topology.
 old-location: direct2d\id2d1transformnode.htm

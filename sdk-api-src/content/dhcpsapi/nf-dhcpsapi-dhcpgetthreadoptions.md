@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetThreadOptions
-title: DhcpGetThreadOptions function
+title: DhcpGetThreadOptions function (dhcpsapi.h)
 author: windows-sdk-content
 description: The DhcpGetThreadOptions function retrieves the current thread options as set by DhcpSetThreadOptions.
 old-location: dhcp\dhcpgetthreadoptions.htm

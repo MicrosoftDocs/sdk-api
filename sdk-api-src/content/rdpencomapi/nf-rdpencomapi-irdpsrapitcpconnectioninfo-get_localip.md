@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_LocalIP
-title: IRDPSRAPITcpConnectionInfo::get_LocalIP
+title: IRDPSRAPITcpConnectionInfo::get_LocalIP (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves the local IP address that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_localip.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shtypes.tagSHCOLSTATE
-title: SHCOLSTATE
+title: SHCOLSTATE (shtypes.h)
 author: windows-sdk-content
 description: Describes how a property should be treated. These values are defined in Shtypes.h.
 old-location: shell\SHCOLSTATE.htm

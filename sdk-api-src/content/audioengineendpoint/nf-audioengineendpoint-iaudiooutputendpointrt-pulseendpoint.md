@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.PulseEndpoint
-title: IAudioOutputEndpointRT::PulseEndpoint
+title: IAudioOutputEndpointRT::PulseEndpoint (audioengineendpoint.h)
 author: windows-sdk-content
 description: Is reserved.
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IQueryCancelAutoPlay.AllowAutoPlay
-title: IQueryCancelAutoPlay::AllowAutoPlay
+title: IQueryCancelAutoPlay::AllowAutoPlay (shobjidl.h)
 author: windows-sdk-content
 description: Determines whether to play media inserted by a user and if so using what restrictions.
 old-location: shell\IQueryCancelAutoPlay_AllowAutoPlay.htm

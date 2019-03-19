@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetAvailableDeviceMediaType
-title: IMFCaptureSource::GetAvailableDeviceMediaType
+title: IMFCaptureSource::GetAvailableDeviceMediaType (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets a format that is supported by one of the capture streams.
 old-location: mf\imfcapturesource_getavailabledevicemediatype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GraphicsPathIterator(IN const GraphicsPath)
-title: GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath)
+title: GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath) (gdipluspath.h)
 author: windows-sdk-content
 description: Creates a new GraphicsPathIterator::GraphicsPathIterator object and associates it with a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_.htm

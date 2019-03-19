@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePath
-title: IXpsOMObjectFactory::CreatePath
+title: IXpsOMObjectFactory::CreatePath (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMPath interface that specifies a graphical path element on a page.
 old-location: xps\ixpsomobjectfactory_createpath.htm

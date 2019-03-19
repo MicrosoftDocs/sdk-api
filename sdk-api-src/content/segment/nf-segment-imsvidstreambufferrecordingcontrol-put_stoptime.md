@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.put_StopTime
-title: IMSVidStreamBufferRecordingControl::put_StopTime
+title: IMSVidStreamBufferRecordingControl::put_StopTime (segment.h)
 author: windows-sdk-content
 description: The put_StopTime method sets the stop time for the recording.
 old-location: mstv\imsvidstreambufferrecordingcontrol_put_stoptime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetText
-title: ITextStoreACP::GetText
+title: ITextStoreACP::GetText (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreACP::GetText method returns information about text at a specified character position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreacp_gettext.htm

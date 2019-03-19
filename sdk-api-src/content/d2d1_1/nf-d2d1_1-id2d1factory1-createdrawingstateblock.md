@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.CreateDrawingStateBlock
-title: ID2D1Factory1::CreateDrawingStateBlock
+title: ID2D1Factory1::CreateDrawingStateBlock (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a new drawing state block, this can be used in subsequent SaveDrawingState and RestoreDrawingState operations on the render target.
 old-location: direct2d\id2d1factory1_createdrawingstateblock.htm

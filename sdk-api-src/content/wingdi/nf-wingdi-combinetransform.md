@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CombineTransform
-title: CombineTransform function
+title: CombineTransform function (wingdi.h)
 author: windows-sdk-content
 description: The CombineTransform function concatenates two world-space to page-space transformations.
 old-location: gdi\combinetransform.htm

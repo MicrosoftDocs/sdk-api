@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CharToOemBuffA
-title: CharToOemBuffA function
+title: CharToOemBuffA function (winuser.h)
 author: windows-sdk-content
 description: Translates a specified number of characters in a string into the OEM-defined character set.
 old-location: menurc\chartooembuff.htm

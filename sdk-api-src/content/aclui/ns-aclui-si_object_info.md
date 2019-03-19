@@ -1,6 +1,6 @@
 ---
 UID: NS:aclui._SI_OBJECT_INFO
-title: SI_OBJECT_INFO
+title: SI_OBJECT_INFO (aclui.h)
 author: windows-sdk-content
 description: Used to initialize the access control editor.
 old-location: security\si_object_info.htm

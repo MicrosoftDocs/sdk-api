@@ -1,6 +1,6 @@
 ---
 UID: NS:wct._WAITCHAIN_NODE_INFO
-title: WAITCHAIN_NODE_INFO
+title: WAITCHAIN_NODE_INFO (wct.h)
 author: windows-sdk-content
 description: Represents a node in a wait chain.
 old-location: base\waitchain_node_info.htm

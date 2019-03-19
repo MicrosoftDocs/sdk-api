@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetTag
-title: IDvbLogicalChannelDescriptor::GetTag
+title: IDvbLogicalChannelDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.  .
 old-location: mstv\idvblogicalchanneldescriptor_gettag.htm

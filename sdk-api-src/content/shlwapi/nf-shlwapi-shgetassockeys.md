@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHGetAssocKeys
-title: SHGetAssocKeys function
+title: SHGetAssocKeys function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves an array of class subkeys associated with an IQueryAssociations object.
 old-location: shell\shgetassockeys.htm

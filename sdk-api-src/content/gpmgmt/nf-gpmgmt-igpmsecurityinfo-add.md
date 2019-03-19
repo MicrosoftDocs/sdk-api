@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.Add
-title: IGPMSecurityInfo::Add
+title: IGPMSecurityInfo::Add (gpmgmt.h)
 author: windows-sdk-content
 description: Adds the permission specified in a GPMPermission object to the GPMSecurityInfo collection. You can add a permission that is above the level of existing permissions. For more information about restrictions that apply, see the following Remarks section.
 old-location: gpmc\igpmsecurityinfo_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_PIPELINE_INIT_FN
-title: PIBIO_ENGINE_PIPELINE_INIT_FN
+title: PIBIO_ENGINE_PIPELINE_INIT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any initialization that remains incomplete.
 old-location: secbiomet\engineadapterpipelineinit.htm

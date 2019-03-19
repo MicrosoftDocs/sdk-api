@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.BeginStateBlock
-title: IDirect3DDevice9::BeginStateBlock
+title: IDirect3DDevice9::BeginStateBlock (d3d9.h)
 author: windows-sdk-content
 description: Signals Direct3D to begin recording a device-state block.
 old-location: direct3d9\idirect3ddevice9__beginstateblock.htm

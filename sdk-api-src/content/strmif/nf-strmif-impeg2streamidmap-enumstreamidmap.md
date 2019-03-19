@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMPEG2StreamIdMap.EnumStreamIdMap
-title: IMPEG2StreamIdMap::EnumStreamIdMap
+title: IMPEG2StreamIdMap::EnumStreamIdMap (strmif.h)
 author: windows-sdk-content
 description: The EnumStreamIdMap method returns a collection of all the mapped Stream IDs on this pin.
 old-location: dshow\impeg2streamidmap_enumstreamidmap.htm

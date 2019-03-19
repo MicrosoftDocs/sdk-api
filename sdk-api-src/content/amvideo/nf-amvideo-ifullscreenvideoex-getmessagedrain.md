@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetMessageDrain
-title: IFullScreenVideoEx::GetMessageDrain
+title: IFullScreenVideoEx::GetMessageDrain (amvideo.h)
 author: windows-sdk-content
 description: The GetMessageDrain method retrieves the window that receives mouse and keyboard messages, if any.
 old-location: dshow\ifullscreenvideoex_getmessagedrain.htm

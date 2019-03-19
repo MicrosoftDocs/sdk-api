@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_PROPERTY_BINDING
-title: D2D1_PROPERTY_BINDING
+title: D2D1_PROPERTY_BINDING (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Defines a property binding to a pair of functions which get and set the corresponding property.
 old-location: direct2d\d2d1_property_binding.htm

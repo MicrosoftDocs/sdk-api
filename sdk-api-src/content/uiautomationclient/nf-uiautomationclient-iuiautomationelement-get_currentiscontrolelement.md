@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsControlElement
-title: IUIAutomationElement::get_CurrentIsControlElement
+title: IUIAutomationElement::get_CurrentIsControlElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element is a control element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsControlElement.htm

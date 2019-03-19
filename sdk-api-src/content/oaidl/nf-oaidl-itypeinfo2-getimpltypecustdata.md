@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetImplTypeCustData
-title: ITypeInfo2::GetImplTypeCustData
+title: ITypeInfo2::GetImplTypeCustData (oaidl.h)
 author: windows-sdk-content
 description: Gets the custom data of the implementation type.
 old-location: automat\itypeinfo2_getimpltypecustdata.htm

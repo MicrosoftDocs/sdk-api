@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetSetPerSiteCookieDecisionA
-title: InternetSetPerSiteCookieDecisionA function
+title: InternetSetPerSiteCookieDecisionA function (wininet.h)
 author: windows-sdk-content
 description: Sets a decision on cookies for a given domain.
 old-location: wininet\internetsetpersitecookiedecision.htm

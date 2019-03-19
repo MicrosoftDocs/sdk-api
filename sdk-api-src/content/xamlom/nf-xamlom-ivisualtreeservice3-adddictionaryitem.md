@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.AddDictionaryItem
-title: IVisualTreeService3::AddDictionaryItem
+title: IVisualTreeService3::AddDictionaryItem (xamlom.h)
 author: windows-sdk-content
 description: Adds an item to a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key.
 old-location: xaml_diagnostics\ivisualtreeservice3_adddictionaryitem.htm

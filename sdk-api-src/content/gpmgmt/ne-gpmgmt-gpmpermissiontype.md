@@ -1,6 +1,6 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0002
-title: GPMPermissionType
+title: GPMPermissionType (gpmgmt.h)
 author: windows-sdk-content
 description: The categories, permissions included in the categories, and the object to which they can be applied.
 old-location: gpmc\gpmpermissiontype.htm

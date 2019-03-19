@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_SELECTIONSTYLE
-title: TF_SELECTIONSTYLE
+title: TF_SELECTIONSTYLE (msctf.h)
 author: windows-sdk-content
 description: The TF_SELECTIONSTYLE structure represents the style of a selection.
 old-location: tsf\tf_selectionstyle.htm

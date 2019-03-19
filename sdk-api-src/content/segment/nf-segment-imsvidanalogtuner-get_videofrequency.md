@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_VideoFrequency
-title: IMSVidAnalogTuner::get_VideoFrequency
+title: IMSVidAnalogTuner::get_VideoFrequency (segment.h)
 author: windows-sdk-content
 description: The get_VideoFrequency method retrieves the tuner's video frequency for testing purposes.
 old-location: mstv\imsvidanalogtuner_get_videofrequency.htm

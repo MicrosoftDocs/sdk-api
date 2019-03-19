@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0006
-title: WDSTRANSPORT_IP_ADDRESS_TYPE
+title: WDSTRANSPORT_IP_ADDRESS_TYPE (wdstptmgmt.h)
 author: windows-sdk-content
 description: Indicates the type of IP address.
 old-location: wds\wdstransport_ip_address_type.htm

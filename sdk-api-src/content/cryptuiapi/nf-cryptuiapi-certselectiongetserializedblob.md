@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptuiapi.CertSelectionGetSerializedBlob
-title: CertSelectionGetSerializedBlob function
+title: CertSelectionGetSerializedBlob function (cryptuiapi.h)
 author: windows-sdk-content
 description: A helper function used to retrieve a serialized certificate BLOB from a CERT_SELECTUI_INPUT structure.
 old-location: security\certselectiongetserializedblob.htm

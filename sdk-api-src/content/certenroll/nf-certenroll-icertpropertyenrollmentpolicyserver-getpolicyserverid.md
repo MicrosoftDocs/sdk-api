@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetPolicyServerId
-title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerId
+title: ICertPropertyEnrollmentPolicyServer::GetPolicyServerId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a string that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_getpolicyserverid.htm

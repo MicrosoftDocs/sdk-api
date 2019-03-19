@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromToken
-title: AuthzInitializeContextFromToken function
+title: AuthzInitializeContextFromToken function (authz.h)
 author: windows-sdk-content
 description: Initializes a client authorization context from a kernel token. The kernel token must have been opened for TOKEN_QUERY.
 old-location: security\authzinitializecontextfromtoken.htm

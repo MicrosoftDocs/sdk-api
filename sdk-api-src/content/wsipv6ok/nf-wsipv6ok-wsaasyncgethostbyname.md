@@ -1,6 +1,6 @@
 ---
 UID: NF:wsipv6ok.WSAAsyncGetHostByName
-title: WSAAsyncGetHostByName macro
+title: WSAAsyncGetHostByName macro (wsipv6ok.h)
 author: windows-sdk-content
 description: The WSAAsyncGetHostByName function asynchronously retrieves host information that corresponds to a host name.Note  The WSAAsyncGetHostByName function is not designed to provide parallel resolution of several names.
 old-location: winsock\wsaasyncgethostbyname_2.htm

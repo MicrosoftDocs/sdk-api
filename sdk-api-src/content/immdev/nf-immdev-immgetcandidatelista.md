@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetCandidateListA
-title: ImmGetCandidateListA function
+title: ImmGetCandidateListA function (immdev.h)
 author: windows-sdk-content
 description: Retrieves a candidate list.
 old-location: intl\immgetcandidatelist.htm

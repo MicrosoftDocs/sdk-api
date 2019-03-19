@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegWriteUSValueW
-title: SHRegWriteUSValueW function
+title: SHRegWriteUSValueW function (shlwapi.h)
 author: windows-sdk-content
 description: Writes a value to a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegWriteUSValue.htm

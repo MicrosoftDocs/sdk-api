@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapReader.GetFiles
-title: IAppxBlockMapReader::GetFiles
+title: IAppxBlockMapReader::GetFiles (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for traversing the files listed in the block map.
 old-location: appxpkg\iappxblockmapreader_getfiles.htm

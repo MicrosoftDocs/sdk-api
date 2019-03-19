@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.get_Value
-title: IValueMap::get_Value
+title: IValueMap::get_Value (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the value of the collection.
 old-location: pla\ivaluemap_value.htm

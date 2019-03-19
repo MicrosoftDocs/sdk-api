@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.OnBeginPainting
-title: IWRdsProtocolLogonErrorRedirector::OnBeginPainting
+title: IWRdsProtocolLogonErrorRedirector::OnBeginPainting (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol that the logon user interface is ready to begin painting.
 old-location: termserv\iwrdsprotocollogonerrorredirector_onbeginpainting.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_USER_AUTH_DATA
-title: LSA_GET_USER_AUTH_DATA
+title: LSA_GET_USER_AUTH_DATA (ntsecpkg.h)
 author: windows-sdk-content
 description: The GetUserAuthData function returns the authorization data for the user in a single buffer.
 old-location: security\getuserauthdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImagePresenter.StartPresenting
-title: IVMRImagePresenter::StartPresenting
+title: IVMRImagePresenter::StartPresenting (strmif.h)
 author: windows-sdk-content
 description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.
 old-location: dshow\ivmrimagepresenter_startpresenting.htm

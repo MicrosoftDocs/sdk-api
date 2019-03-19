@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_DisableGaplessAudio
-title: IRawCDImageCreator::put_DisableGaplessAudio
+title: IRawCDImageCreator::put_DisableGaplessAudio (imapi2.h)
 author: windows-sdk-content
 description: Sets the value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.
 old-location: imapi\irawcdimagecreator_put_disablegaplessaudio.htm

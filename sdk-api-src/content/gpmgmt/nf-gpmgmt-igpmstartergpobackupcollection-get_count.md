@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackupCollection.get_Count
-title: IGPMStarterGPOBackupCollection::get_Count
+title: IGPMStarterGPOBackupCollection::get_Count (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the number of GPMStarterGPOBackup objects in the collection.
 old-location: gpmc\igpmstartergpobackupcollection_get_count.htm

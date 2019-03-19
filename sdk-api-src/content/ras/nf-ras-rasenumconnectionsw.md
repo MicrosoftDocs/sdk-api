@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasEnumConnectionsW
-title: RasEnumConnectionsW function
+title: RasEnumConnectionsW function (ras.h)
 author: windows-sdk-content
 description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
 old-location: rras\rasenumconnections.htm

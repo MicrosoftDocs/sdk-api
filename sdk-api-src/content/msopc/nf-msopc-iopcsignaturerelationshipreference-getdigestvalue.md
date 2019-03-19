@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestValue
-title: IOpcSignatureRelationshipReference::GetDigestValue
+title: IOpcSignatureRelationshipReference::GetDigestValue (msopc.h)
 author: windows-sdk-content
 description: Gets the digest value calculated for the selected relationships when they are signed.
 old-location: opc\iopcsignaturerelationshipreference_getdigestvalue.htm

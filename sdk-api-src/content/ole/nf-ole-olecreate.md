@@ -1,6 +1,6 @@
 ---
 UID: NF:ole.OleCreate
-title: OleCreate function
+title: OleCreate function (ole.h)
 author: windows-sdk-content
 description: Creates an embedded object identified by a CLSID. You use it typically to implement the menu item that allows the end user to insert a new object.
 old-location: com\olecreate.htm

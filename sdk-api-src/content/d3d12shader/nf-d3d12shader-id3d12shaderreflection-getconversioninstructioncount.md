@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetConversionInstructionCount
-title: ID3D12ShaderReflection::GetConversionInstructionCount
+title: ID3D12ShaderReflection::GetConversionInstructionCount (d3d12shader.h)
 author: windows-sdk-content
 description: Gets the number of conversion instructions.
 old-location: direct3d12\id3d12shaderreflection_getconversioninstructioncount.htm

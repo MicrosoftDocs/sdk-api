@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateFromFileEx
-title: OleCreateFromFileEx function
+title: OleCreateFromFileEx function (ole2.h)
 author: windows-sdk-content
 description: Extends OleCreateFromFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreateFromFile.
 old-location: com\olecreatefromfileex.htm

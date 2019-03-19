@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.MakeSureDirectoryPathExists
-title: MakeSureDirectoryPathExists function
+title: MakeSureDirectoryPathExists function (dbghelp.h)
 author: windows-sdk-content
 description: Creates all the directories in the specified path, beginning with the root.
 old-location: base\makesuredirectorypathexists.htm

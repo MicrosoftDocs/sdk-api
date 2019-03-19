@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsAccessControlList.AddAce
-title: IADsAccessControlList::AddAce
+title: IADsAccessControlList::AddAce (iads.h)
 author: windows-sdk-content
 description: The IADsAccessControlList::AddAce method adds an IADsAccessControlEntry object to the IADsAccessControlList object.
 old-location: adsi\iadsaccesscontrollist_addace.htm

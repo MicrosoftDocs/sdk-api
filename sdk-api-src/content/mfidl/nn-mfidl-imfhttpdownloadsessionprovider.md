@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadSessionProvider
-title: IMFHttpDownloadSessionProvider
+title: IMFHttpDownloadSessionProvider (mfidl.h)
 author: windows-sdk-content
 description: Applications implement this interface in order to provide custom a custom HTTP or HTTPS download implementation.
 old-location: mf\imfhttpdownloadsessionprovider.htm

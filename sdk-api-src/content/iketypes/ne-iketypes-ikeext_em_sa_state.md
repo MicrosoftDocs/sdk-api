@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_EM_SA_STATE_
-title: IKEEXT_EM_SA_STATE
+title: IKEEXT_EM_SA_STATE (iketypes.h)
 author: windows-sdk-content
 description: States for the Extended Mode (EM) negotiation exchanges that are part of the Authenticated Internet Protocol (AuthIP) protocol.
 old-location: fwp\ikeext_em_sa_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.KillTimer
-title: KillTimer function
+title: KillTimer function (winuser.h)
 author: windows-sdk-content
 description: Destroys the specified timer.
 old-location: winmsg\killtimer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstanceCollectionQuery
-title: IFunctionInstanceCollectionQuery
+title: IFunctionInstanceCollectionQuery (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Implements the asynchronous query for a collection of function instances based on category and subcategory.
 old-location: ncd\ifunctioninstancecollectionquery.htm

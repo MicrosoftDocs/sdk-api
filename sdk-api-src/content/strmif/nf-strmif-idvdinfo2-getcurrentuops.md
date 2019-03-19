@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentUOPS
-title: IDvdInfo2::GetCurrentUOPS
+title: IDvdInfo2::GetCurrentUOPS (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentUOPS method retrieves a set of flags indicating which navigation commands, if any, the content authors have explicitly disabled for the current disc location.
 old-location: dshow\idvdinfo2_getcurrentuops.htm

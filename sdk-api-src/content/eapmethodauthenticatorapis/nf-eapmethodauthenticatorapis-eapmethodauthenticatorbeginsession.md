@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorBeginSession
-title: EapMethodAuthenticatorBeginSession function
+title: EapMethodAuthenticatorBeginSession function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Creates a new EAP authentication session on the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorbeginsession.htm

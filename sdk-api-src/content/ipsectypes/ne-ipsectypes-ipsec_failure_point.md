@@ -1,6 +1,6 @@
 ---
 UID: NE:ipsectypes.IPSEC_FAILURE_POINT_
-title: IPSEC_FAILURE_POINT
+title: IPSEC_FAILURE_POINT (ipsectypes.h)
 author: windows-sdk-content
 description: At what point IPsec has failed.
 old-location: fwp\ipsec_failure_point.htm

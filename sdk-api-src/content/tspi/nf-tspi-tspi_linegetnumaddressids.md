@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetNumAddressIDs
-title: TSPI_lineGetNumAddressIDs function
+title: TSPI_lineGetNumAddressIDs function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetNumAddressIDs function retrieves the number of address identifiers supported on the indicated line.
 old-location: tspi\tspi_linegetnumaddressids.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.get_ItemByIndex
-title: IX509Extensions::get_ItemByIndex
+title: IX509Extensions::get_ItemByIndex (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509Extension object from the collection by index number.
 old-location: security\ix509extensions_itembyindex_property.htm

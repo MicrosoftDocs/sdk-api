@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetRect
-title: IOleDocumentView::GetRect
+title: IOleDocumentView::GetRect (docobj.h)
 author: windows-sdk-content
 description: Retrieves the rectangular coordinates of the viewport in which the view is or will be activated.
 old-location: com\ioledocumentview_getrect.htm

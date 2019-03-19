@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ServerID
-title: IMcastScope::get_ServerID
+title: IMcastScope::get_ServerID (mdhcp.h)
 author: windows-sdk-content
 description: The get_ServerID method obtains the server ID associated with this scope.
 old-location: tapi3\imcastscope_get_serverid.htm

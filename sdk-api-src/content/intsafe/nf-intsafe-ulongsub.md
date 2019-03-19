@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongSub
-title: ULongSub function
+title: ULongSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type ULONG from another.
 old-location: shell\ULongSub.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_FIRMWARE_ACTIVATE
-title: IOCTL_STORAGE_FIRMWARE_ACTIVATE
+title: IOCTL_STORAGE_FIRMWARE_ACTIVATE (winioctl.h)
 author: windows-sdk-content
 description: Windows applications can use this control code to activate a firmware image on a specified device.
 old-location: fs\ioctl_storage_firmware_activate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_LOG_PROPERTY_ID
-title: EVT_LOG_PROPERTY_ID
+title: EVT_LOG_PROPERTY_ID (winevt.h)
 author: windows-sdk-content
 description: Defines the identifiers that identify the log file metadata properties of a channel or log file.
 old-location: wes\evt_log_property_id.htm

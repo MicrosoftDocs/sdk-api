@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1HwndRenderTarget.Resize(const D2D1_SIZE_U &)
-title: ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U &)
+title: ID2D1HwndRenderTarget::Resize(const D2D1_SIZE_U &) (d2d1.h)
 author: windows-sdk-content
 description: Changes the size of the render target to the specified pixel size.
 old-location: direct2d\ID2D1HwndRenderTarget_Resize_ref_D2D_SIZE_U.htm

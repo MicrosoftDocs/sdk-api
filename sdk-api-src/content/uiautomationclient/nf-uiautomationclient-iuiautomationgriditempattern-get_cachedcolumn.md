@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedColumn
-title: IUIAutomationGridItemPattern::get_CachedColumn
+title: IUIAutomationGridItemPattern::get_CachedColumn (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached zero-based index of the column that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedColumn.htm

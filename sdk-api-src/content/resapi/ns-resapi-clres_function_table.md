@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.CLRES_FUNCTION_TABLE
-title: CLRES_FUNCTION_TABLE
+title: CLRES_FUNCTION_TABLE (resapi.h)
 author: windows-sdk-content
 description: Describes a function table for any version of the Resource API.
 old-location: mscs\clres_function_table.htm

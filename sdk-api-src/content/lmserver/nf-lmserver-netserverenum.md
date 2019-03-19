@@ -1,6 +1,6 @@
 ---
 UID: NF:lmserver.NetServerEnum
-title: NetServerEnum function
+title: NetServerEnum function (lmserver.h)
 author: windows-sdk-content
 description: The NetServerEnum function lists all servers of the specified type that are visible in a domain.
 old-location: netmgmt\netserverenum.htm

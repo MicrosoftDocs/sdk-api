@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_BIND_ELEMENT
-title: DHCP_BIND_ELEMENT
+title: DHCP_BIND_ELEMENT (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines an individual network binding for the DHCP server. A single DHCP server can contain multiple bindings and serve multiple networks.
 old-location: dhcp\dhcp_bind_element.htm

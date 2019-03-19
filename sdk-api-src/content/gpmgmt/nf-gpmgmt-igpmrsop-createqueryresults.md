@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.CreateQueryResults
-title: IGPMRSOP::CreateQueryResults
+title: IGPMRSOP::CreateQueryResults (gpmgmt.h)
 author: windows-sdk-content
 description: Executes a Resultant Set of Policy (RSoP) query.
 old-location: gpmc\igpmrsop_createqueryresults.htm

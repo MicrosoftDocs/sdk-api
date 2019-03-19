@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ICoreFragment.Reset
-title: ICoreFragment::Reset
+title: ICoreFragment::Reset (winsync.h)
 author: windows-sdk-content
 description: Resets both the column and range enumerators to the beginning of their respective sets.
 old-location: winsync\icorefragment_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayDestroy
-title: SafeArrayDestroy function
+title: SafeArrayDestroy function (oleauto.h)
 author: windows-sdk-content
 description: Destroys an existing array descriptor and all of the data in the array.
 old-location: automat\safearraydestroy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
-title: ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
+title: ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite (winsync.h)
 author: windows-sdk-content
 description: Gets the knowledge that the destination replica learns when the destination provider applies all the changes in this change batch, based on the prerequisite knowledge of the change batch.
 old-location: winsync\isyncchangebatchwithprerequisite_getlearnedknowledgewithprerequisite.htm

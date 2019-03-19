@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_InnerFECRate
-title: ILocator::get_InnerFECRate
+title: ILocator::get_InnerFECRate (tuner.h)
 author: windows-sdk-content
 description: The get_InnerFECRate method gets the inner FEC rate.
 old-location: mstv\ilocator_get_innerfecrate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.Show
-title: IPropertySheetProvider::Show
+title: IPropertySheetProvider::Show (mmc.h)
 author: windows-sdk-content
 description: If the type that has been set in IPropertySheetProvider::CreatePropertySheet is a property sheet, IPropertySheetProvider::Show displays a property sheet frame that is parented to a hidden window.
 old-location: mmc\ipropertysheetprovider_show.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler
-title: IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler
+title: IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler (uianimation.h)
 author: windows-sdk-content
 description: Clears the handler for timer client status change events.
 old-location: uianimation\iuianimationtimerupdatehandler_cleartimerclienteventhandler.htm

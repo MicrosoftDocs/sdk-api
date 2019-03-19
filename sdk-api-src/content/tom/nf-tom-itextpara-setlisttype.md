@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetListType
-title: ITextPara::SetListType
+title: ITextPara::SetListType (tom.h)
 author: windows-sdk-content
 description: Sets the type of list to be used for paragraphs.
 old-location: controls\ITextPara_SetListType.htm

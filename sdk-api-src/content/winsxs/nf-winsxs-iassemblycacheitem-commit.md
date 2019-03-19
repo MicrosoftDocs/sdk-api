@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCacheItem.Commit
-title: IAssemblyCacheItem::Commit
+title: IAssemblyCacheItem::Commit (winsxs.h)
 author: windows-sdk-content
 description: The Commit method copies information into the side-by-side store. When this method returns, the assembly is visible in the side-by-side store.
 old-location: setup\iassemblycacheitem_commit.htm

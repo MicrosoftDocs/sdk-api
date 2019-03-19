@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.ChangeServiceConfigA
-title: ChangeServiceConfigA function
+title: ChangeServiceConfigA function (winsvc.h)
 author: windows-sdk-content
 description: Changes the configuration parameters of a service.
 old-location: base\changeserviceconfig.htm

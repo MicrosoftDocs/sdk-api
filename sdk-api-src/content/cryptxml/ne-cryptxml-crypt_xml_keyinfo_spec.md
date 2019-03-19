@@ -1,6 +1,6 @@
 ---
 UID: NE:cryptxml.__unnamed_enum_2
-title: CRYPT_XML_KEYINFO_SPEC
+title: CRYPT_XML_KEYINFO_SPEC (cryptxml.h)
 author: windows-sdk-content
 description: Specifies values for the dwKeyInfoSpec parameter in the CryptXmlSign function.
 old-location: security\crypt_xml_keyinfo_spec.htm

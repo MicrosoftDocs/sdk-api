@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateServiceManager
-title: IUpdateServiceManager
+title: IUpdateServiceManager (wuapi.h)
 author: windows-sdk-content
 description: Adds or removes the registration of the update service with Windows Update Agent or Automatic Updates.
 old-location: wua\iupdateservicemanager.htm

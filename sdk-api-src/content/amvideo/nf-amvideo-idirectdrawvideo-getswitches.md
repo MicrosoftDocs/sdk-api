@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSwitches
-title: IDirectDrawVideo::GetSwitches
+title: IDirectDrawVideo::GetSwitches (amvideo.h)
 author: windows-sdk-content
 description: The GetSwitches method retrieves the surface types that the renderer is allowed to use.
 old-location: dshow\idirectdrawvideo_getswitches.htm

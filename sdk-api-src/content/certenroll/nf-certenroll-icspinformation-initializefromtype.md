@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.InitializeFromType
-title: ICspInformation::InitializeFromType
+title: ICspInformation::InitializeFromType (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from the default cryptographic provider.
 old-location: security\icspinformation_initializefromtype_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetCommTimeouts
-title: SetCommTimeouts function
+title: SetCommTimeouts function (winbase.h)
 author: windows-sdk-content
 description: Sets the time-out parameters for all read and write operations on a specified communications device.
 old-location: base\setcommtimeouts.htm

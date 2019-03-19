@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Error
-title: IMFTimedTextNotify::Error
+title: IMFTimedTextNotify::Error (mfmediaengine.h)
 author: windows-sdk-content
 description: Called when an error occurs in a text track.
 old-location: mf\imftimedtextnotify_error.htm

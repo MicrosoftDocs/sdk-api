@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlIsNameLegalDOS8Dot3
-title: RtlIsNameLegalDOS8Dot3 function
+title: RtlIsNameLegalDOS8Dot3 function (winternl.h)
 author: windows-sdk-content
 description: Determines whether or not a specified name can be used to create a file on the FAT file system.
 old-location: winprog\rtlisnamelegaldos8dot3.htm

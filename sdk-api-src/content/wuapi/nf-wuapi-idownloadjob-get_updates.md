@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadJob.get_Updates
-title: IDownloadJob::get_Updates
+title: IDownloadJob::get_Updates (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains a read-only collection of the updates that are specified in a download.
 old-location: wua\idownloadjob_updates.htm

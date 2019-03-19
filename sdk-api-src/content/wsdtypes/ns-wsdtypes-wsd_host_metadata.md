@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes._WSD_HOST_METADATA
-title: WSD_HOST_METADATA
+title: WSD_HOST_METADATA (wsdtypes.h)
 author: windows-sdk-content
 description: Provides metadata for all services hosted by a device.
 old-location: ncd\wsd_host_metadata_struct.htm

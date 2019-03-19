@@ -1,6 +1,6 @@
 ---
 UID: NS:emi.__unnamed_struct_4
-title: EMI_CHANNEL_V2
+title: EMI_CHANNEL_V2 (emi.h)
 author: windows-sdk-content
 description: The EMI_CHANNEL_V2 structure provides data about an EMI V2 channel.
 old-location: powermeter\emi_channel_v2.htm

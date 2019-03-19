@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddHierarchicalScope
-title: ISearchCrawlScopeManager::AddHierarchicalScope
+title: ISearchCrawlScopeManager::AddHierarchicalScope (searchapi.h)
 author: windows-sdk-content
 description: Adds a hierarchical scope to the search engine.
 old-location: search\_search_ISearchCrawlScopeManager_AddHierachicalScope.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminBufferFree
-title: MprAdminBufferFree function
+title: MprAdminBufferFree function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminBufferFree function frees memory buffers returned by:\_MprAdminDeviceEnum, MprAdminInterfaceGetInfo, MprAdminInterfaceDeviceGetInfo, MprAdminInterfaceEnum, MprAdminServerGetInfo, MprAdminInterfaceTransportGetInfo, and MprAdminTransportGetInfo.
 old-location: rras\mpradminbufferfree.htm

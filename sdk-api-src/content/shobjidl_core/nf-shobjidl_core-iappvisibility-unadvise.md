@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Unadvise
-title: IAppVisibility::Unadvise
+title: IAppVisibility::Unadvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Cancels a connection that was previously established by using Advise.
 old-location: shell\IAppVisibility_Unadvise.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:davclnt.PFNDAVAUTHCALLBACK
-title: PFNDAVAUTHCALLBACK
+title: PFNDAVAUTHCALLBACK (davclnt.h)
 author: windows-sdk-content
 description: The WebDAV client calls the application-defined DavAuthCallback callback function to prompt the user for credentials.
 old-location: webdav\authcallback.htm

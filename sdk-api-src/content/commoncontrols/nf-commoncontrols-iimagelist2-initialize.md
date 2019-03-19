@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.Initialize
-title: IImageList2::Initialize
+title: IImageList2::Initialize (commoncontrols.h)
 author: windows-sdk-content
 description: Initializes an image list.
 old-location: controls\IImageList2_Initialize.htm

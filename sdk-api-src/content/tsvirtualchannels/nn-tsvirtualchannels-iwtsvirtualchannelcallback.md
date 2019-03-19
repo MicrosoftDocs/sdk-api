@@ -1,6 +1,6 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelCallback
-title: IWTSVirtualChannelCallback
+title: IWTSVirtualChannelCallback (tsvirtualchannels.h)
 author: windows-sdk-content
 description: Receives notifications about channel state changes or data received.
 old-location: termserv\iwtsvirtualchannelcallback.htm

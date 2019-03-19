@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSelection
-title: IMFPMediaItem::SetStreamSelection
+title: IMFPMediaItem::SetStreamSelection (mfplay.h)
 author: windows-sdk-content
 description: Selects or deselects a stream.
 old-location: mf\imfpmediaitem_setstreamselection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi.IsProcessInJob
-title: IsProcessInJob function
+title: IsProcessInJob function (jobapi.h)
 author: windows-sdk-content
 description: Determines whether the process is running in the specified job.
 old-location: base\isprocessinjob.htm

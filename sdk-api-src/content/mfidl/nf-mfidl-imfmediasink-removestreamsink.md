@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFMediaSink.RemoveStreamSink
-title: IMFMediaSink::RemoveStreamSink
+title: IMFMediaSink::RemoveStreamSink (mfidl.h)
 author: windows-sdk-content
 description: Removes a stream sink from the media sink.
 old-location: mf\imfmediasink_removestreamsink.htm

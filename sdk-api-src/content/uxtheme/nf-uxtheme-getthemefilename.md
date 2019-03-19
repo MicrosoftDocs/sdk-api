@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeFilename
-title: GetThemeFilename function
+title: GetThemeFilename function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of a filename property.
 old-location: controls\GetThemeFilename.htm

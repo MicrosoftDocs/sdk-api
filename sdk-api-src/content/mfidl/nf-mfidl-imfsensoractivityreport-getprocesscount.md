@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetProcessCount
-title: IMFSensorActivityReport::GetProcessCount
+title: IMFSensorActivityReport::GetProcessCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the count of IMFSensorProcessActivity objects, representing the current activity of a process associated with the sensor, that are available to be retrieved.
 old-location: mf\imfsensoractivityreport_getprocesscount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_PerformanceCounters
-title: IPerformanceCounterDataCollector::get_PerformanceCounters
+title: IPerformanceCounterDataCollector::get_PerformanceCounters (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the performance counters to query.
 old-location: pla\iperformancecounterdatacollector_performancecounters.htm

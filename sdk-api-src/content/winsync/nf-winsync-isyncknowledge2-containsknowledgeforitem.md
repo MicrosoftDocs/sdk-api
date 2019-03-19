@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ContainsKnowledgeForItem
-title: ISyncKnowledge2::ContainsKnowledgeForItem
+title: ISyncKnowledge2::ContainsKnowledgeForItem (winsync.h)
 author: windows-sdk-content
 description: Indicates whether the specified knowledge of the specified item is known by this knowledge.
 old-location: winsync\isyncknowledge2_containsknowledgeforitem.htm

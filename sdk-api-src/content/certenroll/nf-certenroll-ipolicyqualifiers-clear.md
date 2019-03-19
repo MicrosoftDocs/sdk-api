@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Clear
-title: IPolicyQualifiers::Clear
+title: IPolicyQualifiers::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: security\ipolicyqualifiers_clear_method.htm

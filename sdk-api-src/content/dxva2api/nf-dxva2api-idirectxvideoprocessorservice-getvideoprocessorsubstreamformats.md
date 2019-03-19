@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorSubStreamFormats
-title: IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats
+title: IDirectXVideoProcessorService::GetVideoProcessorSubStreamFormats (dxva2api.h)
 author: windows-sdk-content
 description: Gets a list of substream formats supported by a specified video processor device.
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessorsubstreamformats.htm

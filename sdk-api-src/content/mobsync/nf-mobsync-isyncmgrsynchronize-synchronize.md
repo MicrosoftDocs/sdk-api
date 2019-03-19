@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.Synchronize
-title: ISyncMgrSynchronize::Synchronize
+title: ISyncMgrSynchronize::Synchronize (mobsync.h)
 author: windows-sdk-content
 description: Called by the synchronization manager once for each selected group after the user has chosen the registered applications to be synchronized.
 old-location: shell\syncmgr_isyncmgrsynchronize_synchronize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:txlogpub.ILog.Force
-title: ILog::Force
+title: ILog::Force (txlogpub.h)
 author: windows-sdk-content
 description: Forces the contents of the log to disk, at least up through the specified LSN.
 old-location: com\ilog_force.htm

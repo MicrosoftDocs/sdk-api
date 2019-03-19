@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.get_ForwardTypeCallerAddressType
-title: ITForwardInformation2::get_ForwardTypeCallerAddressType
+title: ITForwardInformation2::get_ForwardTypeCallerAddressType (tapi3if.h)
 author: windows-sdk-content
 description: The get_ForwardTypeCallerAddressType method gets the caller address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypecalleraddresstype.htm

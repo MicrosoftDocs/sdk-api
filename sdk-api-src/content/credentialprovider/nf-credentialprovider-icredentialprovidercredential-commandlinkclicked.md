@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.CommandLinkClicked
-title: ICredentialProviderCredential::CommandLinkClicked
+title: ICredentialProviderCredential::CommandLinkClicked (credentialprovider.h)
 author: windows-sdk-content
 description: Enables the Logon UI and Credential UI to indicate that a link was clicked.
 old-location: shell\ICredentialProviderCredential_CommandLinkClicked.htm

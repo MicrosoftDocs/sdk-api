@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInfoListDetailA
-title: SetupDiGetDeviceInfoListDetailA function
+title: SetupDiGetDeviceInfoListDetailA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDeviceInfoListDetail function retrieves information associated with a device information set including the class GUID, remote computer handle, and remote computer name.
 old-location: devinst\setupdigetdeviceinfolistdetail.htm

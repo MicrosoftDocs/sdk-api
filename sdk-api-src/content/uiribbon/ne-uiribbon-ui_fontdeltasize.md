@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_FONTDELTASIZE
-title: UI_FONTDELTASIZE
+title: UI_FONTDELTASIZE (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify whether the font size of a highlighted text run should be incremented or decremented.
 old-location: windowsribbon\windowsribbon_ui_fontdeltasize.htm

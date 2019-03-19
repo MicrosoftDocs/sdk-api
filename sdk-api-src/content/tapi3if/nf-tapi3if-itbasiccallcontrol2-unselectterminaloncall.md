@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl2.UnselectTerminalOnCall
-title: ITBasicCallControl2::UnselectTerminalOnCall
+title: ITBasicCallControl2::UnselectTerminalOnCall (tapi3if.h)
 author: windows-sdk-content
 description: The UnselectTerminalOnCall method unselects a terminal from the call.
 old-location: tapi3\itbasiccallcontrol2_unselectterminaloncall.htm

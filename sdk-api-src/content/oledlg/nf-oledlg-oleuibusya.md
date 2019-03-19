@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIBusyA
-title: OleUIBusyA function
+title: OleUIBusyA function (oledlg.h)
 author: windows-sdk-content
 description: Invokes the standard Busy dialog box, allowing the user to manage concurrency.
 old-location: com\oleuibusy.htm

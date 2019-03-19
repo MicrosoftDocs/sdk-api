@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IColumnMapper.GetPropInfoFromId
-title: IColumnMapper::GetPropInfoFromId
+title: IColumnMapper::GetPropInfoFromId (indexsrv.h)
 author: windows-sdk-content
 description: Gets the property information from the DBID.
 old-location: search\icolumnmapper_getpropinfofromid.htm

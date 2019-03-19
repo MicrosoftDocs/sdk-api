@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SETOVERLAYPOSITIONDATA
-title: DD_SETOVERLAYPOSITIONDATA
+title: DD_SETOVERLAYPOSITIONDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SETOVERLAYPOSITIONDATA structure contains information necessary to change the display coordinates of an overlay surface.
 old-location: display\dd_setoverlaypositiondata.htm

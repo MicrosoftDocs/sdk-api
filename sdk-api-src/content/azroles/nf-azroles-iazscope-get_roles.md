@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_Roles
-title: IAzScope::get_Roles
+title: IAzScope::get_Roles (azroles.h)
 author: windows-sdk-content
 description: Retrieves an IAzRoles object that is used to enumerate IAzRole objects from the policy data.
 old-location: security\iazscope_roles.htm

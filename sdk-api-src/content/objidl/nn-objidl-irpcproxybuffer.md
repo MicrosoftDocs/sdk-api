@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IRpcProxyBuffer
-title: IRpcProxyBuffer
+title: IRpcProxyBuffer (objidl.h)
 author: windows-sdk-content
 description: Controls the RPC proxy used to marshal data between COM components.
 old-location: com\irpcproxybuffer.htm

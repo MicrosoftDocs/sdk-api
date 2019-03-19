@@ -1,6 +1,6 @@
 ---
 UID: NS:scesvc._SCESVC_CONFIGURATION_LINE_
-title: SCESVC_CONFIGURATION_LINE
+title: SCESVC_CONFIGURATION_LINE (scesvc.h)
 author: windows-sdk-content
 description: The SCESVC_CONFIGURATION_LINE structure contains information about a line of configuration data. It is used by the SCESVC_CONFIGURATION_INFO structure.
 old-location: security\scesvc_configuration_line.htm

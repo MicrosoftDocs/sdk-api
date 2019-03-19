@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IEncoderAPI
-title: IEncoderAPI
+title: IEncoderAPI (strmif.h)
 author: windows-sdk-content
 description: IEncoderAPI is no longer available for use.
 old-location: mstv\iencoderapi.htm

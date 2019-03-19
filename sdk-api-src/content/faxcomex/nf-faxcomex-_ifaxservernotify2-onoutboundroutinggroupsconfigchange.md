@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnOutboundRoutingGroupsConfigChange
-title: "_IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange"
+title: "_IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange" (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnOutboundRoutingGroupsConfigChange method when there is a configuration change related to outbound fax routing groups.
 old-location: fax\_mfax_ifaxservernotify2_onoutboundroutinggroupsconfigchange.htm

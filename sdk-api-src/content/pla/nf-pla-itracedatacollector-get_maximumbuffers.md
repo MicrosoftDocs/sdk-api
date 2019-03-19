@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_MaximumBuffers
-title: ITraceDataCollector::get_MaximumBuffers
+title: ITraceDataCollector::get_MaximumBuffers (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum number of buffers allocated for the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_maximumbuffers.htm

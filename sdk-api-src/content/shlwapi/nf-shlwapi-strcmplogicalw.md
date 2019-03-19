@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCmpLogicalW
-title: StrCmpLogicalW function
+title: StrCmpLogicalW function (shlwapi.h)
 author: windows-sdk-content
 description: Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.
 old-location: shell\StrCmpLogicalW.htm

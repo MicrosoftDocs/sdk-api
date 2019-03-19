@@ -1,6 +1,6 @@
 ---
 UID: NF:methodco.MethodContext.SetStatusObject
-title: MethodContext::SetStatusObject
+title: MethodContext::SetStatusObject (methodco.h)
 author: windows-sdk-content
 description: The SetStatusObject method sets an internal pointer to IWbemClassObject information. WMI does not implement any functionality based on the pointer.
 old-location: wmi\methodcontext_setstatusobject.htm

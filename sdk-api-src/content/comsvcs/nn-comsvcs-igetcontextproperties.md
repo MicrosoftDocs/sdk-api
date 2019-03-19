@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IGetContextProperties
-title: IGetContextProperties
+title: IGetContextProperties (comsvcs.h)
 author: windows-sdk-content
 description: Enables the caller to obtain the properties associated with the current object's context.
 old-location: cos\igetcontextproperties.htm

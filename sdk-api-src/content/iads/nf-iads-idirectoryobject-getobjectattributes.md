@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectoryObject.GetObjectAttributes
-title: IDirectoryObject::GetObjectAttributes
+title: IDirectoryObject::GetObjectAttributes (iads.h)
 author: windows-sdk-content
 description: Retrieves one or more specified attributes of the directory service object.
 old-location: adsi\idirectoryobject_getobjectattributes.htm

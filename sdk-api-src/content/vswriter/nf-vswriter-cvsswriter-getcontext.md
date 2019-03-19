@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetContext
-title: CVssWriter::GetContext
+title: CVssWriter::GetContext (vswriter.h)
 author: windows-sdk-content
 description: The GetContext information returns the current context for any ongoing or possible shadow copies.
 old-location: base\cvsswriter_getcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.ChangeDDrawDevice
-title: IVMRSurfaceAllocatorNotify::ChangeDDrawDevice
+title: IVMRSurfaceAllocatorNotify::ChangeDDrawDevice (strmif.h)
 author: windows-sdk-content
 description: The ChangeDDrawDevice method notifies the VMR that the DirectDraw playback device has changed. For example, on a multi-monitor system, the user has moved the video rectangle from one monitor to another.
 old-location: dshow\ivmrsurfaceallocatornotify_changeddrawdevice.htm

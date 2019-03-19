@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_WhiteBalance
-title: IVideoProcAmp::put_WhiteBalance
+title: IVideoProcAmp::put_WhiteBalance (vidcap.h)
 author: windows-sdk-content
 description: The put_WhiteBalance method sets the camera's white balance, specified as a color temperature.
 old-location: dshow\ivideoprocamp_put_whitebalance.htm

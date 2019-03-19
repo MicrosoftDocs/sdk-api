@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecCmpR8
-title: VarDecCmpR8 function
+title: VarDecCmpR8 function (oleauto.h)
 author: windows-sdk-content
 description: Compares a variant of type decimal with the a value of type double.
 old-location: automat\vardeccmpr8.htm

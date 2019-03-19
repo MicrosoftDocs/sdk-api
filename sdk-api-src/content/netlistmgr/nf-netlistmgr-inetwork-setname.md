@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.SetName
-title: INetwork::SetName
+title: INetwork::SetName (netlistmgr.h)
 author: windows-sdk-content
 description: The SetName method sets or renames a network.
 old-location: nla\inetwork_setname.htm

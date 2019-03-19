@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDataObjectProvider.GetDataObject
-title: IDataObjectProvider::GetDataObject
+title: IDataObjectProvider::GetDataObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets an IDataObject representation of the current DataPackage object.
 old-location: shell\IDataObjectProvider_GetDataObject.htm

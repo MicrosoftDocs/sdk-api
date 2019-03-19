@@ -1,6 +1,6 @@
 ---
 UID: NS:winsock2.protoent
-title: PROTOENT
+title: PROTOENT (winsock2.h)
 author: windows-sdk-content
 description: The protoent structure contains the name and protocol numbers that correspond to a given protocol name.
 old-location: winsock\protoent_2.htm

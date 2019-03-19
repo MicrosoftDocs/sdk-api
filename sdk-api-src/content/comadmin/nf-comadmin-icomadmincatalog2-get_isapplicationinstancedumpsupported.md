@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported
-title: ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported
+title: ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported (comadmin.h)
 author: windows-sdk-content
 description: Indicates whether the software required for application instance dumps is installed.
 old-location: cos\icomadmincatalog2_isapplicationinstancedumpsupported.htm

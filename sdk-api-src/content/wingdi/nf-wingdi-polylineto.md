@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.PolylineTo
-title: PolylineTo function
+title: PolylineTo function (wingdi.h)
 author: windows-sdk-content
 description: The PolylineTo function draws one or more straight lines.
 old-location: gdi\polylineto.htm

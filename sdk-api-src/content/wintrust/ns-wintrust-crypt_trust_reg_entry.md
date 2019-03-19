@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_TRUST_REG_ENTRY
-title: CRYPT_TRUST_REG_ENTRY
+title: CRYPT_TRUST_REG_ENTRY (wintrust.h)
 author: windows-sdk-content
 description: Identifies a provider function by DLL name and function name.
 old-location: security\crypt_trust_reg_entry.htm

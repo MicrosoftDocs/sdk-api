@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_LICENSE_CAPABILITIES
-title: WTS_LICENSE_CAPABILITIES
+title: WTS_LICENSE_CAPABILITIES (wtsdefs.h)
 author: windows-sdk-content
 description: Contains information about the licensing capabilities of the client.
 old-location: termserv\wts_license_capabilities.htm

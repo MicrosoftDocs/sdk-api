@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeTextExtent
-title: GetThemeTextExtent function
+title: GetThemeTextExtent function (uxtheme.h)
 author: windows-sdk-content
 description: Calculates the size and location of the specified text when rendered in the visual style font.
 old-location: controls\GetThemeTextExtent.htm

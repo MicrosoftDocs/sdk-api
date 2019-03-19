@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_UseFixedUDPPort
-title: IAMNetShowConfig::get_UseFixedUDPPort
+title: IAMNetShowConfig::get_UseFixedUDPPort (qnetwork.h)
 author: windows-sdk-content
 description: The get_UseFixedUDPPort method queries whether the filter should use the fixed UDP port.
 old-location: dshow\iamnetshowconfig_get_usefixedudpport.htm

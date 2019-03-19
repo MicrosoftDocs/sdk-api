@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPERATION_RETRIEVE_DATA_FLAGS
-title: CF_OPERATION_RETRIEVE_DATA_FLAGS
+title: CF_OPERATION_RETRIEVE_DATA_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags to retrieve data for a placeholder file or folder.
 old-location: cloudapi\cf_operation_retrieve_data_flags.htm

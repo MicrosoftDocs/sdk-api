@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumComponentsExA
-title: MsiEnumComponentsExA function
+title: MsiEnumComponentsExA function (msi.h)
 author: windows-sdk-content
 description: The MsiEnumComponentsEx function enumerates installed components. The function retrieves the component code for one component each time it is called. The component code is the string GUID unique to the component, version, and language.
 old-location: setup\msienumcomponentsex.htm

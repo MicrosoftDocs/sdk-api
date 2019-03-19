@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USB_PASS_THRU_PARAMETERS
-title: USB_PASS_THRU_PARAMETERS
+title: USB_PASS_THRU_PARAMETERS (usbuser.h)
 author: windows-sdk-content
 description: The USB_PASS_THRU_PARAMETERS structure is used with the IOCTL_USB_USER_REQUEST I/O control request to pass a vendor-specific command to the host controller miniport driver.
 old-location: buses\usb_pass_thru_parameters.htm

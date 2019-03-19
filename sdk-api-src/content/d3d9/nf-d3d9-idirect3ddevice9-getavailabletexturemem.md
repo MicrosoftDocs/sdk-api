@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetAvailableTextureMem
-title: IDirect3DDevice9::GetAvailableTextureMem
+title: IDirect3DDevice9::GetAvailableTextureMem (d3d9.h)
 author: windows-sdk-content
 description: Returns an estimate of the amount of available texture memory.
 old-location: direct3d9\idirect3ddevice9__getavailabletexturemem.htm

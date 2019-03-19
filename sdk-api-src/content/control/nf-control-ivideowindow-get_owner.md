@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.get_Owner
-title: IVideoWindow::get_Owner
+title: IVideoWindow::get_Owner (control.h)
 author: windows-sdk-content
 description: The get_Owner method retrieves the video window's parent window, if any.
 old-location: dshow\ivideowindow_get_owner.htm

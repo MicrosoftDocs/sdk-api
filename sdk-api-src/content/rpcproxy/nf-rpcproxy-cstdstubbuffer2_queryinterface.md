@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_QueryInterface
-title: CStdStubBuffer2_QueryInterface function
+title: CStdStubBuffer2_QueryInterface function (rpcproxy.h)
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdstubbuffer2_queryinterface.htm

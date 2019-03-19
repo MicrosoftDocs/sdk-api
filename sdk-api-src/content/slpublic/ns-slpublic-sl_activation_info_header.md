@@ -1,6 +1,6 @@
 ---
 UID: NS:slpublic._tagSL_ACTIVATION_INFO_HEADER
-title: SL_ACTIVATION_INFO_HEADER
+title: SL_ACTIVATION_INFO_HEADER (slpublic.h)
 author: windows-sdk-content
 description: Specifies the product activation information.
 old-location: security\sl_activation_info_header.htm

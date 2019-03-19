@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_DELETE_LOGON_SESSION
-title: LSA_DELETE_LOGON_SESSION
+title: LSA_DELETE_LOGON_SESSION (ntsecpkg.h)
 author: windows-sdk-content
 description: Cleans up any logon sessions created while determining whether a user's authentication information is legitimate.
 old-location: security\deletelogonsession.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_MEDIA_INFO
-title: DEVICE_MEDIA_INFO
+title: DEVICE_MEDIA_INFO (winioctl.h)
 author: windows-sdk-content
 description: Provides information about the media supported by a device.
 old-location: base\device_media_info_str.htm

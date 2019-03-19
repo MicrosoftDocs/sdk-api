@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.get_EnrollmentStatus
-title: ICspStatus::get_EnrollmentStatus
+title: ICspStatus::get_EnrollmentStatus (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IX509EnrollmentStatus object that contains information about the certificate enrollment.
 old-location: security\icspstatus_enrollmentstatus_property.htm

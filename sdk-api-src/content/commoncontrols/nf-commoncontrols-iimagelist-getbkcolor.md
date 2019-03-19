@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.GetBkColor
-title: IImageList::GetBkColor
+title: IImageList::GetBkColor (commoncontrols.h)
 author: windows-sdk-content
 description: Gets the current background color for an image list.
 old-location: controls\IImageList_GetBkColor.htm

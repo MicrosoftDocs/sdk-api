@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Gain
-title: IVideoProcAmp::getRange_Gain
+title: IVideoProcAmp::getRange_Gain (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Gain method returns the range of gain settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_gain.htm

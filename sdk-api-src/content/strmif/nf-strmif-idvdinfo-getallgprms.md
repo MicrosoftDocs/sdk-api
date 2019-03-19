@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetAllGPRMs
-title: IDvdInfo::GetAllGPRMs
+title: IDvdInfo::GetAllGPRMs (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all general parameter registers (GPRMs).
 old-location: dshow\idvdinfo_getallgprms.htm

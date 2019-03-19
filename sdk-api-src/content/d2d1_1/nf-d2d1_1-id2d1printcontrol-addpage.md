@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1PrintControl.AddPage
-title: ID2D1PrintControl::AddPage
+title: ID2D1PrintControl::AddPage (d2d1_1.h)
 author: windows-sdk-content
 description: Converts Direct2D primitives in the passed-in command list into a fixed page representation for use by the print subsystem.
 old-location: direct2d\id2d1printcontrol_addpage.htm

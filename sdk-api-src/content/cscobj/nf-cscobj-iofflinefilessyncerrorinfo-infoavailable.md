@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.InfoAvailable
-title: IOfflineFilesSyncErrorInfo::InfoAvailable
+title: IOfflineFilesSyncErrorInfo::InfoAvailable (cscobj.h)
 author: windows-sdk-content
 description: Indicates whether information was obtained for the local, remote, or original copy of the item during synchronization.
 old-location: of\iofflinefilessyncerrorinfo_infoavailable.htm

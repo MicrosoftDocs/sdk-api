@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDrawn
-title: IQualProp::get_FramesDrawn
+title: IQualProp::get_FramesDrawn (amvideo.h)
 author: windows-sdk-content
 description: The get_FramesDrawn method retrieves the number of frames actually drawn since streaming started.
 old-location: dshow\iqualprop_get_framesdrawn.htm

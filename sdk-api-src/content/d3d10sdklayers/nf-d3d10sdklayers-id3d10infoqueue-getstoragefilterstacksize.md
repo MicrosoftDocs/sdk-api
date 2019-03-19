@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetStorageFilterStackSize
-title: ID3D10InfoQueue::GetStorageFilterStackSize
+title: ID3D10InfoQueue::GetStorageFilterStackSize (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Get the size of the storage-filter stack in bytes.
 old-location: direct3d10\id3d10infoqueue_getstoragefilterstacksize.htm

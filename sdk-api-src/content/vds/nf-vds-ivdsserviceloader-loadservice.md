@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceLoader.LoadService
-title: IVdsServiceLoader::LoadService
+title: IVdsServiceLoader::LoadService (vds.h)
 author: windows-sdk-content
 description: Launches VDS on the specified computer and returns a pointer to the service object.
 old-location: base\ivdsserviceloader_loadservice.htm

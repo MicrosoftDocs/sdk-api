@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_SortedInsertPtr
-title: DPA_SortedInsertPtr macro
+title: DPA_SortedInsertPtr macro (dpa_dsa.h)
 author: windows-sdk-content
 description: Inserts a new item before or after a specified existing item.
 old-location: controls\DPA_SortedInsertPtr.htm

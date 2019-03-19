@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.HexToUnicode
-title: ITextRange2::HexToUnicode
+title: ITextRange2::HexToUnicode (tom.h)
 author: windows-sdk-content
 description: Converts and replaces the hexadecimal number at the end of this range to a Unicode character.
 old-location: controls\itextrange2_hextounicode.htm

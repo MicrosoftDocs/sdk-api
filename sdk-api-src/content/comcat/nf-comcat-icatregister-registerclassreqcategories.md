@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterClassReqCategories
-title: ICatRegister::RegisterClassReqCategories
+title: ICatRegister::RegisterClassReqCategories (comcat.h)
 author: windows-sdk-content
 description: Registers the class as requiring one or more component categories.
 old-location: com\icatregister_registerclassreqcategories.htm

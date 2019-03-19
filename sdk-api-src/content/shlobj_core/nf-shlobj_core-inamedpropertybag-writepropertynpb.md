@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.INamedPropertyBag.WritePropertyNPB
-title: INamedPropertyBag::WritePropertyNPB
+title: INamedPropertyBag::WritePropertyNPB (shlobj_core.h)
 author: windows-sdk-content
 description: Saves a property to the named property bag.
 old-location: shell\INamedPropertyBag_WritePropertyNPB.htm

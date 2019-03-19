@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputTargetRect
-title: ID3D11VideoContext::VideoProcessorSetOutputTargetRect
+title: ID3D11VideoContext::VideoProcessorSetOutputTargetRect (d3d11.h)
 author: windows-sdk-content
 description: Sets the target rectangle for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputtargetrect.htm

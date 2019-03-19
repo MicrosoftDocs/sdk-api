@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.get_JobID
-title: IBackgroundCopyJob1::get_JobID
+title: IBackgroundCopyJob1::get_JobID (qmgr.h)
 author: windows-sdk-content
 description: Use the get_JobID method to retrieve the job's identifier.
 old-location: bits\ibackgroundcopyjob1_get_jobid.htm

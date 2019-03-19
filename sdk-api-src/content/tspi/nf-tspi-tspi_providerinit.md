@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_providerInit
-title: TSPI_providerInit function
+title: TSPI_providerInit function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_providerInit function initializes the service provider and gives it parameters required for subsequent operations.
 old-location: tspi\tspi_providerinit.htm

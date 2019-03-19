@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_COMMENT_NODE
-title: WS_XML_COMMENT_NODE
+title: WS_XML_COMMENT_NODE (webservices.h)
 author: windows-sdk-content
 description: Represents a comment.
 old-location: wsw\ws_xml_comment_node.htm

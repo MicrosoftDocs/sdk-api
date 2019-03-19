@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommandProvider.GetCommand
-title: IExplorerCommandProvider::GetCommand
+title: IExplorerCommandProvider::GetCommand (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a specified Explorer command instance.
 old-location: shell\IExplorerCommandProvider_GetCommand.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeBidi
-title: IDWriteTextAnalyzer::AnalyzeBidi
+title: IDWriteTextAnalyzer::AnalyzeBidi (dwrite.h)
 author: windows-sdk-content
 description: Analyzes a text range for script directionality, reading attributes from the source and reporting levels to the sink callback SetBidiLevel.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeBidi.htm

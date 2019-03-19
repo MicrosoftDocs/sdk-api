@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumerateTerminals
-title: ITPhone::EnumerateTerminals
+title: ITPhone::EnumerateTerminals (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateTerminals method retrieves an enumeration of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumerateterminals.htm

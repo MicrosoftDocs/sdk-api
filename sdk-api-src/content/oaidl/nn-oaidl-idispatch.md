@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.IDispatch
-title: IDispatch
+title: IDispatch (oaidl.h)
 author: windows-sdk-content
 description: Exposes objects, methods and properties to programming tools and other applications that support Automation.
 old-location: automat\idispatch.htm

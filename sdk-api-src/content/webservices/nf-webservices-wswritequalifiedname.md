@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteQualifiedName
-title: WsWriteQualifiedName function
+title: WsWriteQualifiedName function (webservices.h)
 author: windows-sdk-content
 description: Writes an XML qualified name to the Writer.
 old-location: wsw\wswritequalifiedname.htm

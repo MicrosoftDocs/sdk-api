@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509EnrollmentStatus
-title: IX509EnrollmentStatus
+title: IX509EnrollmentStatus (certenroll.h)
 author: windows-sdk-content
 description: The IX509EnrollmentStatus interface can be used to specify or retrieve detailed error information about a certificate enrollment transaction.
 old-location: security\ix509enrollmentstatus.htm

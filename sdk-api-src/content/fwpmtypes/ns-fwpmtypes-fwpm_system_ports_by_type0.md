@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_SYSTEM_PORTS_BY_TYPE0_
-title: FWPM_SYSTEM_PORTS_BY_TYPE0
+title: FWPM_SYSTEM_PORTS_BY_TYPE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: The FWPM_SYSTEM_PORTS_BY_TYPE0 structure.
 old-location: fwp\fwpm_system_ports_by_type0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.GenerateReportToFile
-title: IGPMBackup::GenerateReportToFile
+title: IGPMBackup::GenerateReportToFile (gpmgmt.h)
 author: windows-sdk-content
 description: The GenerateReportToFile method gets the report for the backup Group Policy object (GPO) and then saves the report to a file in a specified path.
 old-location: gpmc\igpmbackup_generatereporttofile.htm

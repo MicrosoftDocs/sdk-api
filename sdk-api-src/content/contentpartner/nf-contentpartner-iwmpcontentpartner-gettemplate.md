@@ -1,6 +1,6 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetTemplate
-title: IWMPContentPartner::GetTemplate
+title: IWMPContentPartner::GetTemplate (contentpartner.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_gettemplate.htm

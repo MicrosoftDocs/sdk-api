@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetTags
-title: ID2D1RenderTarget::SetTags
+title: ID2D1RenderTarget::SetTags (d2d1.h)
 author: windows-sdk-content
 description: Specifies a label for subsequent drawing operations.
 old-location: direct2d\ID2D1RenderTarget_SetTags.htm

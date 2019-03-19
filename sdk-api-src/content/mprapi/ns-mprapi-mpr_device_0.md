@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_DEVICE_0
-title: MPR_DEVICE_0
+title: MPR_DEVICE_0 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_DEVICE_0 structure stores information about a device used for a link in a multilinked demand dial interface.
 old-location: rras\mpr_device_0.htm

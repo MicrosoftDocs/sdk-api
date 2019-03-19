@@ -1,6 +1,6 @@
 ---
 UID: NE:tspubplugin2com._TSPUB_PLUGIN_PD_RESOLUTION_TYPE
-title: TSPUB_PLUGIN_PD_RESOLUTION_TYPE
+title: TSPUB_PLUGIN_PD_RESOLUTION_TYPE (tspubplugin2com.h)
 author: windows-sdk-content
 description: Specifies the type of personal desktop resolution being requested.
 old-location: termserv\tspub_plugin_pd_resolution_type.htm

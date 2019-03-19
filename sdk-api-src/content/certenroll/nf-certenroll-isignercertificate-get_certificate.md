@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_Certificate
-title: ISignerCertificate::get_Certificate
+title: ISignerCertificate::get_Certificate (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate.
 old-location: security\isignercertificate_certificate_property.htm

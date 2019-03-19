@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.SetTcpEntry
-title: SetTcpEntry function
+title: SetTcpEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The SetTcpEntry function sets the state of a TCP connection.
 old-location: iphlp\settcpentry.htm

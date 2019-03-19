@@ -1,6 +1,6 @@
 ---
 UID: NE:mobsync._tagSYNCMGRITEMFLAGS
-title: SYNCMGRITEMFLAGS
+title: SYNCMGRITEMFLAGS (mobsync.h)
 author: windows-sdk-content
 description: Specifies information for the current item in the SYNCMGRITEM structure.
 old-location: shell\syncmgr_syncmgritemflags.htm

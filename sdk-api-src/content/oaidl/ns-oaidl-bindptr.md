@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagBINDPTR
-title: BINDPTR
+title: BINDPTR (oaidl.h)
 author: windows-sdk-content
 description: Describes a pointer.
 old-location: automat\bindptr.htm

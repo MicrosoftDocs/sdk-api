@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IDesktopGadget
-title: IDesktopGadget
+title: IDesktopGadget (shobjidl.h)
 author: windows-sdk-content
 description: Exposes a method that allows the programmatic addition of an installed gadget to the user's desktop.
 old-location: shell\IDesktopGadget.htm

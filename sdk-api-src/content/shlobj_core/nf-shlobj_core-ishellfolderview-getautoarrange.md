@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetAutoArrange
-title: IShellFolderView::GetAutoArrange
+title: IShellFolderView::GetAutoArrange (shlobj_core.h)
 author: windows-sdk-content
 description: GetAutoArrange may be altered or unavailable.
 old-location: shell\IShellFolderView_GetAutoArrange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterW
-title: RpcEpRegisterW function
+title: RpcEpRegisterW function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
 old-location: rpc\rpcepregister.htm

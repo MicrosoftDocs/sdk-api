@@ -1,6 +1,6 @@
 ---
 UID: NS:keycredmgr.KeyCredentialManagerInfo
-title: KeyCredentialManagerInfo
+title: KeyCredentialManagerInfo (keycredmgr.h)
 author: windows-sdk-content
 description: Data structure returned from KeyCredentialManagerGetInformation.
 old-location: security\keycredentialmanagerinfo.htm

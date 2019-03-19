@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorReciprocal
-title: XMVectorReciprocal function
+title: XMVectorReciprocal function (directxmath.h)
 author: windows-sdk-content
 description: Computes the per-component reciprocal of a vector.
 old-location: dxmath\xmvectorreciprocal.htm

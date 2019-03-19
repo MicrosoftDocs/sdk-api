@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsNameTranslate.Get
-title: IADsNameTranslate::Get
+title: IADsNameTranslate::Get (iads.h)
 author: windows-sdk-content
 description: Retrieves the name of a directory object in the specified format.
 old-location: adsi\iadsnametranslate_get.htm

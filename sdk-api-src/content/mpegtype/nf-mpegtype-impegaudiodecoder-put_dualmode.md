@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DualMode
-title: IMpegAudioDecoder::put_DualMode
+title: IMpegAudioDecoder::put_DualMode (mpegtype.h)
 author: windows-sdk-content
 description: Specifies the channel to be decoded.
 old-location: dshow\impegaudiodecoder_put_dualmode.htm

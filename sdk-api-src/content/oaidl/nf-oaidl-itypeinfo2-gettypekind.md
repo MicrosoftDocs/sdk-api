@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetTypeKind
-title: ITypeInfo2::GetTypeKind
+title: ITypeInfo2::GetTypeKind (oaidl.h)
 author: windows-sdk-content
 description: Returns the TYPEKIND enumeration quickly, without doing any allocations.
 old-location: automat\itypeinfo2_gettypekind.htm

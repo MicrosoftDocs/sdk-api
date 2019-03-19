@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsCreateWriter
-title: WsCreateWriter function
+title: WsCreateWriter function (webservices.h)
 author: windows-sdk-content
 description: creates an XML Writer with the specified properties.
 old-location: wsw\wscreatewriter.htm

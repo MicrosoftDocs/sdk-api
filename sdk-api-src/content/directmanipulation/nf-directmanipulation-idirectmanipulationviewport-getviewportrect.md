@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetViewportRect
-title: IDirectManipulationViewport::GetViewportRect
+title: IDirectManipulationViewport::GetViewportRect (directmanipulation.h)
 author: windows-sdk-content
 description: Retrieves the rectangle for the viewport relative to the origin of the viewport coordinate system specified by SetViewportRect.
 old-location: directmanipulation\idirectmanipulationviewport_getviewportrect.htm

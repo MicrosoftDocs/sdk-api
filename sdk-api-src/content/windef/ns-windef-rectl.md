@@ -1,6 +1,6 @@
 ---
 UID: NS:windef._RECTL
-title: RECTL
+title: RECTL (windef.h)
 author: windows-sdk-content
 description: The RECTL structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\rectl.htm

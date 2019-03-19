@@ -1,6 +1,6 @@
 ---
 UID: NS:accctrl._ACTRL_ACCESS_ENTRY_LISTA
-title: ACTRL_ACCESS_ENTRY_LISTA
+title: ACTRL_ACCESS_ENTRY_LISTA (accctrl.h)
 author: windows-sdk-content
 description: Contains a list of access entries.
 old-location: com\actrl_access_entry_list.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Folders
-title: IFaxServer::get_Folders
+title: IFaxServer::get_Folders (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::get_Folders property accesses a IFaxFolders configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
 old-location: fax\_mfax_faxserver_folders_cpp.htm

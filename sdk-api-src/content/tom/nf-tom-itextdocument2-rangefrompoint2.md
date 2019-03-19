@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.RangeFromPoint2
-title: ITextDocument2::RangeFromPoint2
+title: ITextDocument2::RangeFromPoint2 (tom.h)
 author: windows-sdk-content
 description: Retrieves the degenerate range at (or nearest to) a particular point on the screen.
 old-location: controls\itextdocument2_rangefrompoint2.htm

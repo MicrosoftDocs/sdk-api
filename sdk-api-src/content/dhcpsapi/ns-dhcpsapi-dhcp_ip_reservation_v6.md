@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION_V6
-title: DHCP_IP_RESERVATION_V6
+title: DHCP_IP_RESERVATION_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines an IPv6 reservation for a DHCPv6 client in a specific IPv6 prefix.
 old-location: dhcp\dhcp_ip_reservation_v6.htm

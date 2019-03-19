@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_INF_SIGNER_INFO_V2_W
-title: SP_INF_SIGNER_INFO_V2_W
+title: SP_INF_SIGNER_INFO_V2_W (setupapi.h)
 author: windows-sdk-content
 description: The SP_INF_SIGNER_INFO structure stores information about an INF file's digital signature.
 old-location: setup\sp_inf_signer_info.htm

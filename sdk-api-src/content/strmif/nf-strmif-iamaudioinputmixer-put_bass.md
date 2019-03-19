@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Bass
-title: IAMAudioInputMixer::put_Bass
+title: IAMAudioInputMixer::put_Bass (strmif.h)
 author: windows-sdk-content
 description: The put_Bass method sets the bass equalization.
 old-location: dshow\iamaudioinputmixer_put_bass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmDestroyContext
-title: ImmDestroyContext function
+title: ImmDestroyContext function (immdev.h)
 author: windows-sdk-content
 description: Releases the input context and frees associated memory.
 old-location: intl\immdestroycontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFNominalRange
-title: MFNominalRange
+title: MFNominalRange (mfobjects.h)
 author: windows-sdk-content
 description: Specifies whether color data includes headroom and toeroom.
 old-location: mf\mfnominalrange.htm

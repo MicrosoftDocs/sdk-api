@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.SetProcessValidCallTargets
-title: SetProcessValidCallTargets function
+title: SetProcessValidCallTargets function (memoryapi.h)
 author: windows-sdk-content
 description: Provides Control Flow Guard (CFG) with a list of valid indirect call targets and specifies whether they should be marked valid or not.
 old-location: base\setprocessvalidcalltargets.htm

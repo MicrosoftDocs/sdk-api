@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_FEATURE_DATA_DOUBLES
-title: D2D1_FEATURE_DATA_DOUBLES
+title: D2D1_FEATURE_DATA_DOUBLES (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Describes the support for doubles in shaders.
 old-location: direct2d\d2d1_feature_data_doubles.htm

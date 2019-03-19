@@ -1,6 +1,6 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT
-title: INTERACTION_CONTEXT_OUTPUT
+title: INTERACTION_CONTEXT_OUTPUT (interactioncontext.h)
 author: windows-sdk-content
 description: Defines the output of the Interaction Context object.
 old-location: input_intcontext\interaction_context_output.htm

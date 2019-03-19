@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfDisplayAttributeInfo.Clone
-title: IEnumTfDisplayAttributeInfo::Clone
+title: IEnumTfDisplayAttributeInfo::Clone (msctf.h)
 author: windows-sdk-content
 description: IEnumTfDisplayAttributeInfo::Clone method
 old-location: tsf\ienumtfdisplayattributeinfo_clone.htm

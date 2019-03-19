@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISharingSession2
-title: IRDPSRAPISharingSession2
+title: IRDPSRAPISharingSession2 (rdpencomapi.h)
 author: windows-sdk-content
 description: The main object that an application must create to start a collaboration session.
 old-location: rdp\irdpsrapisharingsession2.htm

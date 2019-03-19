@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_PARAMETERS
-title: SECPKG_PARAMETERS
+title: SECPKG_PARAMETERS (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_PARAMETERS structure contains information about the computer system. This structure is used by the SpInitialize function.
 old-location: security\secpkg_parameters.htm

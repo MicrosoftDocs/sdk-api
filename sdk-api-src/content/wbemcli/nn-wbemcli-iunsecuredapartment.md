@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IUnsecuredApartment
-title: IUnsecuredApartment
+title: IUnsecuredApartment (wbemcli.h)
 author: windows-sdk-content
 description: The IUnsecuredApartment interface is used to simplify the process of making asynchronous calls from a client process.
 old-location: wmi\iunsecuredapartment.htm

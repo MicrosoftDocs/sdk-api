@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.EndTouchFrame
-title: IRDPViewerInputSink::EndTouchFrame
+title: IRDPViewerInputSink::EndTouchFrame (rdpencomapi.h)
 author: windows-sdk-content
 description: Stops to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_endtouchframe.htm

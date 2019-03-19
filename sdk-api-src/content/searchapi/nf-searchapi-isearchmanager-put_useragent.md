@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.put_UserAgent
-title: ISearchManager::put_UserAgent
+title: ISearchManager::put_UserAgent (searchapi.h)
 author: windows-sdk-content
 description: Sets the user agent string that a user agent passes to website and services to identify itself.
 old-location: search\_search_ISearchManager_put_UserAgent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.FindText
-title: ITextRange::FindText
+title: ITextRange::FindText (tom.h)
 author: windows-sdk-content
 description: Searches up to Count characters for the text given by bstr. The starting position and direction are also specified by Count, and the matching criteria are given by Flags.
 old-location: controls\ITextRange_FindText.htm

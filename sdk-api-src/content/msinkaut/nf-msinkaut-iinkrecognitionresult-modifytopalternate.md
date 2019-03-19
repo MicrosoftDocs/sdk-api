@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.ModifyTopAlternate
-title: IInkRecognitionResult::ModifyTopAlternate
+title: IInkRecognitionResult::ModifyTopAlternate (msinkaut.h)
 author: windows-sdk-content
 description: Changes the top alternate of a recognition result by using the specified alternate.
 old-location: tablet\iinkrecognitionresult_modifytopalternate.htm

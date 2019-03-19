@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateGeometryShader
-title: ID3D10Device::CreateGeometryShader
+title: ID3D10Device::CreateGeometryShader (d3d10.h)
 author: windows-sdk-content
 description: Create a geometry shader.
 old-location: direct3d10\id3d10device_creategeometryshader.htm

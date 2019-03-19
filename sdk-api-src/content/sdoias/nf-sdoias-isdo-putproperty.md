@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.PutProperty
-title: ISdo::PutProperty
+title: ISdo::PutProperty (sdoias.h)
 author: windows-sdk-content
 description: The PutProperty method sets the value of the specified property.
 old-location: nps\SDO_isdo_putproperty.htm

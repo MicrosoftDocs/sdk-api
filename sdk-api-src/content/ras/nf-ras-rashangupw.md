@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasHangUpW
-title: RasHangUpW function
+title: RasHangUpW function (ras.h)
 author: windows-sdk-content
 description: The RasHangUp function terminates a remote access connection. The connection is specified with a RAS connection handle. The function releases all RASAPI32.DLL resources associated with the handle.
 old-location: rras\rashangup.htm

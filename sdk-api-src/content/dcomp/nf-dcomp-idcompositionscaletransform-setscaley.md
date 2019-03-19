@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleY
-title: IDCompositionScaleTransform::SetScaleY
+title: IDCompositionScaleTransform::SetScaleY (dcomp.h)
 author: windows-sdk-content
 description: Changes the value of the ScaleY property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setscaley_float.htm

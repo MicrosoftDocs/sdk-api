@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo2.GetApplicationInstanceId
-title: IObjectContextInfo2::GetApplicationInstanceId
+title: IObjectContextInfo2::GetApplicationInstanceId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the application instance of the current object context.
 old-location: cos\iobjectcontextinfo2_getapplicationinstanceid.htm

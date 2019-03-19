@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtQuerySystemInformation
-title: NtQuerySystemInformation function
+title: NtQuerySystemInformation function (winternl.h)
 author: windows-sdk-content
 description: Retrieves the specified system information.
 old-location: base\ntquerysysteminformation.htm

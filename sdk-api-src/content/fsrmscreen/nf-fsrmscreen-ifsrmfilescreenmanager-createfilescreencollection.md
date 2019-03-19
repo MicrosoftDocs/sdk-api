@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreenCollection
-title: IFsrmFileScreenManager::CreateFileScreenCollection
+title: IFsrmFileScreenManager::CreateFileScreenCollection (fsrmscreen.h)
 author: windows-sdk-content
 description: Creates an empty collection to which you can add file screens.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreencollection.htm

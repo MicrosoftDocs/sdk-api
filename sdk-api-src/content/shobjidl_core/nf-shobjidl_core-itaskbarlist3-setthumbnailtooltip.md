@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetThumbnailTooltip
-title: ITaskbarList3::SetThumbnailTooltip
+title: ITaskbarList3::SetThumbnailTooltip (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies or updates the text of the tooltip that is displayed when the mouse pointer rests on an individual preview thumbnail in a taskbar button flyout.
 old-location: shell\ITaskbarList3_SetThumbnailTooltip.htm

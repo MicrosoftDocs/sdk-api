@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMLatency.GetLatency
-title: IAMLatency::GetLatency
+title: IAMLatency::GetLatency (strmif.h)
 author: windows-sdk-content
 description: The GetLatency method retrieves the expected latency associated with this filter.
 old-location: dshow\iamlatency_getlatency.htm

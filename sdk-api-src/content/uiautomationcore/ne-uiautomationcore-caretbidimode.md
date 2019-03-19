@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.CaretBidiMode
-title: CaretBidiMode
+title: CaretBidiMode (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains possible values for the CaretBidiMode text attribute, which indicates whether the caret is in text that flows from left to right, or from right to left.
 old-location: winauto\uiauto_CaretBidiMode.htm

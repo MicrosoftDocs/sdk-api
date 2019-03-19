@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._NOTIFYICONIDENTIFIER
-title: NOTIFYICONIDENTIFIER
+title: NOTIFYICONIDENTIFIER (shellapi.h)
 author: windows-sdk-content
 description: Contains information used by Shell_NotifyIconGetRect to identify the icon for which to retrieve the bounding rectangle.
 old-location: shell\NOTIFYICONIDENTIFIER.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_FailInfo
-title: IX509SCEPEnrollment::get_FailInfo
+title: IX509SCEPEnrollment::get_FailInfo (certenroll.h)
 author: windows-sdk-content
 description: Gets information when the ProcessResponseMessage method detects a failed environment.
 old-location: security\ix509scepenrollment_failinfo.htm

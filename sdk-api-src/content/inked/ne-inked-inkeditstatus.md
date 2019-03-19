@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.InkEditStatus
-title: InkEditStatus
+title: InkEditStatus (inked.h)
 author: windows-sdk-content
 description: Specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.
 old-location: tablet\inkeditstatus.htm

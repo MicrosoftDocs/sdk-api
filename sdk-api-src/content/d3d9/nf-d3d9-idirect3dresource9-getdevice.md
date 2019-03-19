@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DResource9.GetDevice
-title: IDirect3DResource9::GetDevice
+title: IDirect3DResource9::GetDevice (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the device associated with a resource.
 old-location: direct3d9\idirect3dresource9__getdevice.htm

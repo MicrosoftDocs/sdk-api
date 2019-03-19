@@ -1,6 +1,6 @@
 ---
 UID: NE:mfreadwrite.MF_SOURCE_READER_FLAG
-title: MF_SOURCE_READER_FLAG
+title: MF_SOURCE_READER_FLAG (mfreadwrite.h)
 author: windows-sdk-content
 description: Contains flags that indicate the status of the IMFSourceReader::ReadSample method.
 old-location: mf\mf_source_reader_flag.htm

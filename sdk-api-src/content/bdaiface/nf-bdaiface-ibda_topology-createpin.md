@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.CreatePin
-title: IBDA_Topology::CreatePin
+title: IBDA_Topology::CreatePin (bdaiface.h)
 author: windows-sdk-content
 description: The CreatePin method creates an instance of a specified pin type.
 old-location: mstv\ibda_topology_createpin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.CreateFontFallbackBuilder
-title: IDWriteFactory2::CreateFontFallbackBuilder
+title: IDWriteFactory2::CreateFontFallbackBuilder (dwrite_2.h)
 author: windows-sdk-content
 description: Creates a font fallback builder object.
 old-location: directwrite\idwritefactory2_createfontfallbackbuilder.htm

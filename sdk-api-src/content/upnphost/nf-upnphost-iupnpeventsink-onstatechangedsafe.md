@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPEventSink.OnStateChangedSafe
-title: IUPnPEventSink::OnStateChangedSafe
+title: IUPnPEventSink::OnStateChangedSafe (upnphost.h)
 author: windows-sdk-content
 description: The OnStateChangedSafe method sends an event to the device host with the list of DISPIDs that have changed. The device host must query the service object to obtain the new value for each state variable that has changed.
 old-location: upnp\iupnpeventsink_onstatechangedsafe.htm

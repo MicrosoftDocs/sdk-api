@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.WSAAsyncGetServByName
-title: WSAAsyncGetServByName function
+title: WSAAsyncGetServByName function (winsock.h)
 author: windows-sdk-content
 description: The WSAAsyncGetServByName function asynchronously retrieves service information that corresponds to a service name and port.
 old-location: winsock\wsaasyncgetservbyname_2.htm

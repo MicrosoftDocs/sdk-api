@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.SetAt
-title: IXpsOMGeometryFigureCollection::SetAt
+title: IXpsOMGeometryFigureCollection::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_setat.htm

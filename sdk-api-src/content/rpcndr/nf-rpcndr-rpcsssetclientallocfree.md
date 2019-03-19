@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.RpcSsSetClientAllocFree
-title: RpcSsSetClientAllocFree function
+title: RpcSsSetClientAllocFree function (rpcndr.h)
 author: windows-sdk-content
 description: The RpcSsSetClientAllocFree function enables the memory allocation and release mechanisms used by the client stubs.
 old-location: rpc\rpcsssetclientallocfree.htm

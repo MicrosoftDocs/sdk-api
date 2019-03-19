@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.Attach
-title: ISdoMachine::Attach
+title: ISdoMachine::Attach (sdoias.h)
 author: windows-sdk-content
 description: The Attach method attaches to an SDO computer. Attaching to an SDO computer is the first step is using the SDO API to administer that computer.
 old-location: nps\SDO_isdomachine_attach.htm

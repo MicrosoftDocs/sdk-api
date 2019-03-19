@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CAPABILITY_ALLOW0_
-title: FWPM_NET_EVENT_CAPABILITY_ALLOW0
+title: FWPM_NET_EVENT_CAPABILITY_ALLOW0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information about network traffic allowed in relation to an app container network capability.
 old-location: fwp\fwpm_net_event_capability_allow0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_ExistingCACertificate
-title: ICertSrvSetupKeyInformation::get_ExistingCACertificate
+title: ICertSrvSetupKeyInformation::get_ExistingCACertificate (casetup.h)
 author: windows-sdk-content
 description: Gets or sets the binary value that has been encoded by using Distinguished Encoding Rules (DER) and that is the binary value of the certification authority (CA) certificate that corresponds to an existing key.
 old-location: security\icertsrvsetupkeyinformation_existingcacertificate.htm

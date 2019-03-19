@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpSetTimeouts
-title: WinHttpSetTimeouts function
+title: WinHttpSetTimeouts function (winhttp.h)
 author: windows-sdk-content
 description: Sets time-outs involved with HTTP transactions.
 old-location: http\winhttpsettimeouts.htm

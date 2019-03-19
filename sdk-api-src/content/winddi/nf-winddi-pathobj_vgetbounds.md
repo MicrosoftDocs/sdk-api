@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_vGetBounds
-title: PATHOBJ_vGetBounds function
+title: PATHOBJ_vGetBounds function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_vGetBounds function retrieves the bounding rectangle for the specified path.
 old-location: display\pathobj_vgetbounds.htm

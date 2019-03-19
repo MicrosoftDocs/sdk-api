@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextStringAsNative
-title: IDvdInfo2::GetDVDTextStringAsNative
+title: IDvdInfo2::GetDVDTextStringAsNative (strmif.h)
 author: windows-sdk-content
 description: The GetDVDTextStringAsNative method retrieves a DVD text string for a specified language, and returns the text string as an array of bytes.
 old-location: dshow\idvdinfo2_getdvdtextstringasnative.htm

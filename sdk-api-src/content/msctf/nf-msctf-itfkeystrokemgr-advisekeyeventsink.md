@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.AdviseKeyEventSink
-title: ITfKeystrokeMgr::AdviseKeyEventSink
+title: ITfKeystrokeMgr::AdviseKeyEventSink (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::AdviseKeyEventSink method
 old-location: tsf\itfkeystrokemgr_advisekeyeventsink.htm

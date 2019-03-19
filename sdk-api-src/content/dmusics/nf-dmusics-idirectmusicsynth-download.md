@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Download
-title: IDirectMusicSynth::Download
+title: IDirectMusicSynth::Download (dmusics.h)
 author: windows-sdk-content
 description: The Download method downloads a wave or instrument definition to the synthesizer.
 old-location: audio\idirectmusicsynth_download.htm

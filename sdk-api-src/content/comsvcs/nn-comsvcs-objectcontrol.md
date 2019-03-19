@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ObjectControl
-title: ObjectControl
+title: ObjectControl (comsvcs.h)
 author: windows-sdk-content
 description: If you implement this interface in your component, the COM+ run-time environment automatically calls its methods on your objects at the appropriate times.
 old-location: cos\objectcontrol.htm

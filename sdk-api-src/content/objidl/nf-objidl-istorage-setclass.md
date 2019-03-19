@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.SetClass
-title: IStorage::SetClass
+title: IStorage::SetClass (objidl.h)
 author: windows-sdk-content
 description: The SetClass method assigns the specified class identifier (CLSID) to this storage object.
 old-location: stg\istorage_setclass.htm

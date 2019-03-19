@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple.get_ProviderOptions
-title: IRawElementProviderSimple::get_ProviderOptions
+title: IRawElementProviderSimple::get_ProviderOptions (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the type of Microsoft UI Automation provider; for example, whether it is a client-side (proxy) or server-side provider.
 old-location: winauto\uiauto_IRawElementProviderSimple_ProviderOptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetReaderNode
-title: WsGetReaderNode function
+title: WsGetReaderNode function (webservices.h)
 author: windows-sdk-content
 description: The function returns the XML node at the current position of the XML reader.
 old-location: wsw\wsgetreadernode.htm

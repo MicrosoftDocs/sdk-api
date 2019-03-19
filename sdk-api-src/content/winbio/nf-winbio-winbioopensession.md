@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioOpenSession
-title: WinBioOpenSession function
+title: WinBioOpenSession function (winbio.h)
 author: windows-sdk-content
 description: Connects to a biometric service provider and one or more biometric units.
 old-location: secbiomet\winbioopensession.htm

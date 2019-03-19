@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.GetOutputProps
-title: IWMReader::GetOutputProps
+title: IWMReader::GetOutputProps (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetOutputProps method retrieves the current properties of an uncompressed output stream.
 old-location: wmformat\iwmreader_getoutputprops.htm

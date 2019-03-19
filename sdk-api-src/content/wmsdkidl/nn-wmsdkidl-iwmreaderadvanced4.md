@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced4
-title: IWMReaderAdvanced4
+title: IWMReaderAdvanced4 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMReaderAdvanced4 interface provides additional functionality to the reader.An IWMReaderAdvanced4 interface exists for every reader object.
 old-location: wmformat\iwmreaderadvanced4.htm

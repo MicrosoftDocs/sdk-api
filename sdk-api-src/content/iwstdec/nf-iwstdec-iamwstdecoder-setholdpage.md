@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetHoldPage
-title: IAMWstDecoder::SetHoldPage
+title: IAMWstDecoder::SetHoldPage (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the SetHoldPage method to tell the WST decoder to hold the current WST page. When the WST decoder holds a page, any updates from the TV stream are turned off. It is as though the page was paused in real time.
 old-location: dshow\iamwstdecoder_setholdpage.htm

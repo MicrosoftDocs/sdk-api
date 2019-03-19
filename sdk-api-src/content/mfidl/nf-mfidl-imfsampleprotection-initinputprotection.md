@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.InitInputProtection
-title: IMFSampleProtection::InitInputProtection
+title: IMFSampleProtection::InitInputProtection (mfidl.h)
 author: windows-sdk-content
 description: Initializes sample protection on the downstream component.
 old-location: mf\imfsampleprotection_initinputprotection.htm

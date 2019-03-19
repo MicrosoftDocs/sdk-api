@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetResourceBindingDescByName
-title: ID3D11FunctionReflection::GetResourceBindingDescByName
+title: ID3D11FunctionReflection::GetResourceBindingDescByName (d3d11shader.h)
 author: windows-sdk-content
 description: Gets a description of how a resource is bound to a function.
 old-location: direct3d11\id3d11functionreflection_getresourcebindingdescbyname.htm

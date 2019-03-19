@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofGetDriverVersion
-title: WofGetDriverVersion function
+title: WofGetDriverVersion function (wofapi.h)
 author: windows-sdk-content
 description: Used to query the version of the driver used to support a particular provider.
 old-location: fs\wofgetdriverversion.htm

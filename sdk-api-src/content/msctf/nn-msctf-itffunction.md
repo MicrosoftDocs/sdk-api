@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfFunction
-title: ITfFunction
+title: ITfFunction (msctf.h)
 author: windows-sdk-content
 description: The ITfFunction interface is the base interface for the individual function interfaces.
 old-location: tsf\itffunction.htm

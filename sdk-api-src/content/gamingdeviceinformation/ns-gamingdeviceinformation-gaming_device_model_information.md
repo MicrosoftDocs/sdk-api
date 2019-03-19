@@ -1,6 +1,6 @@
 ---
 UID: NS:gamingdeviceinformation.GAMING_DEVICE_MODEL_INFORMATION
-title: GAMING_DEVICE_MODEL_INFORMATION
+title: GAMING_DEVICE_MODEL_INFORMATION (gamingdeviceinformation.h)
 author: windows-sdk-content
 description: Contains information about the device that the game is running on.
 old-location: gamingdvcinfo\gaming_device_model_information.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_KCC_DSA_FAILUREW_BLOB
-title: DS_REPL_KCC_DSA_FAILUREW_BLOB
+title: DS_REPL_KCC_DSA_FAILUREW_BLOB (ntdsapi.h)
 author: windows-sdk-content
 description: Contains replication state data with respect to a specific inbound replication partner.
 old-location: ad\ds_repl_kcc_dsa_failurew_blob.htm

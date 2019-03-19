@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Baseline
-title: IInkRecognitionAlternate::get_Baseline
+title: IInkRecognitionAlternate::get_Baseline (msinkaut.h)
 author: windows-sdk-content
 description: Gets the baseline for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_baseline.htm

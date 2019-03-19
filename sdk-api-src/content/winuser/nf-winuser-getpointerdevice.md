@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerDevice
-title: GetPointerDevice function
+title: GetPointerDevice function (winuser.h)
 author: windows-sdk-content
 description: Gets information about the pointer device.
 old-location: input_pointerdevice\getpointerdevice.htm

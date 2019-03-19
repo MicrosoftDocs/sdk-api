@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetDescriptionW
-title: ImmGetDescriptionW function
+title: ImmGetDescriptionW function (immdev.h)
 author: windows-sdk-content
 description: Copies the description of the IME to the specified buffer.
 old-location: intl\immgetdescription.htm

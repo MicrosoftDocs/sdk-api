@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiDatabaseIsTablePersistentA
-title: MsiDatabaseIsTablePersistentA function
+title: MsiDatabaseIsTablePersistentA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiDatabaseIsTablePersistent function returns an enumeration that describes the state of a specific table.
 old-location: setup\msidatabaseistablepersistent.htm

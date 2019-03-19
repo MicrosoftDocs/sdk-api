@@ -1,6 +1,6 @@
 ---
 UID: NS:mtpext._MTP_COMMAND_DATA_IN
-title: MTP_COMMAND_DATA_IN
+title: MTP_COMMAND_DATA_IN (mtpext.h)
 author: windows-sdk-content
 description: The MTP_COMMAND_DATA_IN structure contains Media Transport Protocol (MTP) custom commands that are sent to the device by using the IWMDMDevice3::DeviceIoControl method.
 old-location: wmdm\mtp_command_data_in.htm

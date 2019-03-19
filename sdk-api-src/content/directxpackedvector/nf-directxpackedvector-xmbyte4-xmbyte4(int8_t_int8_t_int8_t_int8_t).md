@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(int8_t,int8_t,int8_t,int8_t)
-title: XMBYTE4::XMBYTE4(int8_t,int8_t,int8_t,int8_t)
+title: XMBYTE4::XMBYTE4(int8_t,int8_t,int8_t,int8_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMBYTE4 from four int8_t arguments.
 old-location: dxmath\xmbyte4_ctor_2.htm

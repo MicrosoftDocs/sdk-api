@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1PathGeometry.Open
-title: ID2D1PathGeometry::Open
+title: ID2D1PathGeometry::Open (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the geometry sink that is used to populate the path geometry with figures and segments.
 old-location: direct2d\ID2D1PathGeometry_Open.htm

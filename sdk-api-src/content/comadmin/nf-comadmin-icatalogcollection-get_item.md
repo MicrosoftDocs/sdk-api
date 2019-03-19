@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Item
-title: ICatalogCollection::get_Item
+title: ICatalogCollection::get_Item (comadmin.h)
 author: windows-sdk-content
 description: Retrieves the item that correspond to the specified index.
 old-location: cos\icatalogcollection_item.htm

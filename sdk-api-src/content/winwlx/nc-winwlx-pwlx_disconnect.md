@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_DISCONNECT
-title: PWLX_DISCONNECT
+title: PWLX_DISCONNECT (winwlx.h)
 author: windows-sdk-content
 description: Called by a replacement GINA DLL if Terminal Services is enabled. GINA calls this function to disconnect from a Terminal Services network session.
 old-location: security\wlxdisconnect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.IDXGIOutput6.GetDesc1
-title: IDXGIOutput6::GetDesc1
+title: IDXGIOutput6::GetDesc1 (dxgi1_6.h)
 author: windows-sdk-content
 description: Get an extended description of the output that includes color characteristics and connection type.
 old-location: direct3ddxgi\idxgioutput6_getdesc1.htm

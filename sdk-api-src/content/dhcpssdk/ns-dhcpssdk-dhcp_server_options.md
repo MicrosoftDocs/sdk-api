@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpssdk._DHCP_SERVER_OPTIONS
-title: DHCP_SERVER_OPTIONS
+title: DHCP_SERVER_OPTIONS (dhcpssdk.h)
 author: windows-sdk-content
 description: The DHCP_SERVER_OPTIONS structure specifies requested DHCP Server options.
 old-location: dhcp\dhcp_server_options.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddRestoreSubcomponent
-title: IVssBackupComponents::AddRestoreSubcomponent
+title: IVssBackupComponents::AddRestoreSubcomponent (vsbackup.h)
 author: windows-sdk-content
 description: Indicates that a subcomponent member of a component set, which had been marked as nonselectable for backup but is marked selectable for restore, is to be restored.
 old-location: base\ivssbackupcomponents_addrestoresubcomponent.htm

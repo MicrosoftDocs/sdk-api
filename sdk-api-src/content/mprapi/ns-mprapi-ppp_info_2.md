@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._PPP_INFO_2
-title: PPP_INFO_2
+title: PPP_INFO_2 (mprapi.h)
 author: windows-sdk-content
 description: The PPP_INFO_2 structure is used to report the results of the various Point-to-Point (PPP) projection operations for a connection.
 old-location: rras\ppp_info_2.htm

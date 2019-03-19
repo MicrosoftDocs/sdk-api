@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertNameToStrA
-title: CertNameToStrA function
+title: CertNameToStrA function (wincrypt.h)
 author: windows-sdk-content
 description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string.
 old-location: security\certnametostr.htm

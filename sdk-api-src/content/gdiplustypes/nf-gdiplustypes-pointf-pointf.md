@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF
-title: PointF::PointF
+title: PointF::PointF (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a PointF object and initializes the X and Y data members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_.htm

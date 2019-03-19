@@ -1,6 +1,6 @@
 ---
 UID: NS:winusb._WINUSB_SETUP_PACKET
-title: WINUSB_SETUP_PACKET
+title: WINUSB_SETUP_PACKET (winusb.h)
 author: windows-sdk-content
 description: The WINUSB_SETUP_PACKET structure describes a USB setup packet.
 old-location: buses\winusb_setup_packet.htm

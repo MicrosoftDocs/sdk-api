@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMREBARAUTOBREAK
-title: NMREBARAUTOBREAK
+title: NMREBARAUTOBREAK (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with the RBN_AUTOBREAK notification code.
 old-location: controls\NMREBARAUTOBREAK.htm

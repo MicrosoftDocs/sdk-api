@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWPCWebSettings.RequestURLOverride
-title: IWPCWebSettings::RequestURLOverride
+title: IWPCWebSettings::RequestURLOverride (wpcapi.h)
 author: windows-sdk-content
 description: Requests that the Parental Controls web restrictions subsystem set the specified primary and sub URLs to the allowed state.
 old-location: parcon\iwpcwebsettings_requesturloverride.htm

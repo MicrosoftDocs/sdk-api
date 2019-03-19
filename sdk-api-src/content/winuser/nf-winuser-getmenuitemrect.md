@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuItemRect
-title: GetMenuItemRect function
+title: GetMenuItemRect function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the bounding rectangle for the specified menu item.
 old-location: menurc\getmenuitemrect.htm

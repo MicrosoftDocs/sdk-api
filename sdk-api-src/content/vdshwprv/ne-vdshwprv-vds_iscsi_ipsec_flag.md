@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_ISCSI_IPSEC_FLAG
-title: VDS_ISCSI_IPSEC_FLAG
+title: VDS_ISCSI_IPSEC_FLAG (vdshwprv.h)
 author: windows-sdk-content
 description: Not supported.This enumeration is reserved for future use.
 old-location: base\vds_iscsi_ipsec_flag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.DecryptParam
-title: CSecureChannelClient::DecryptParam
+title: CSecureChannelClient::DecryptParam (scclient.h)
 author: windows-sdk-content
 description: The DecryptParam method decrypts data received through a parameter. Encryption is performed in-place on the encrypted data.
 old-location: wmdm\csecurechannelclient_decryptparam.htm

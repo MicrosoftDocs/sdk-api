@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter
-title: IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
+title: IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Gets the number of messages that were denied passage through a storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdeniedbystoragefilter.htm

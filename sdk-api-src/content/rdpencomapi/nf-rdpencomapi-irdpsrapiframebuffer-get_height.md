@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Height
-title: IRDPSRAPIFrameBuffer::get_Height
+title: IRDPSRAPIFrameBuffer::get_Height (rdpencomapi.h)
 author: windows-sdk-content
 description: Height, in pixels, of the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_height.htm

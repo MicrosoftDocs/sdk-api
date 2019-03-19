@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_DATA
-title: CERT_LOGOTYPE_DATA
+title: CERT_LOGOTYPE_DATA (wincrypt.h)
 author: windows-sdk-content
 description: Contains logotype data.
 old-location: security\cert_logotype_data.htm

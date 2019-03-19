@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.EnumCategories
-title: ICategoryProvider::EnumCategories
+title: ICategoryProvider::EnumCategories (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the enumerator for the list of GUIDs that represent categories.
 old-location: shell\ICategoryProvider_EnumCategories.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetGuid
-title: IPropertyValue::IPropertyValue
+title: IPropertyValue::IPropertyValue (windows.foundation.h)
 author: windows-sdk-content
 description: Gets the GUID value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getguid.htm

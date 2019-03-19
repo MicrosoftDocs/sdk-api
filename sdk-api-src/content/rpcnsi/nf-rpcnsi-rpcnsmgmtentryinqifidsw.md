@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryInqIfIdsW
-title: RpcNsMgmtEntryInqIfIdsW function
+title: RpcNsMgmtEntryInqIfIdsW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentryinqifids.htm

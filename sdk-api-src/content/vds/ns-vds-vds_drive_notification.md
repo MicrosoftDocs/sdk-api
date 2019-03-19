@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_DRIVE_NOTIFICATION
-title: VDS_DRIVE_NOTIFICATION
+title: VDS_DRIVE_NOTIFICATION (vds.h)
 author: windows-sdk-content
 description: Defines the details of drive events.
 old-location: base\vds_drive_notification.htm

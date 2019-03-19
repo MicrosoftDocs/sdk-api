@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSystemId
-title: IMFSystemId
+title: IMFSystemId (mfidl.h)
 author: windows-sdk-content
 description: Provides a method that retireves system id data.
 old-location: mf\imfsystemid.htm

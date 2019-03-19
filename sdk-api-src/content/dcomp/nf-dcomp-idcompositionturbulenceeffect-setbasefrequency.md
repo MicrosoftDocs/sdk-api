@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetBaseFrequency
-title: IDCompositionTurbulenceEffect::SetBaseFrequency
+title: IDCompositionTurbulenceEffect::SetBaseFrequency (dcomp.h)
 author: windows-sdk-content
 description: Sets the base frequencies in the X and Y direction.
 old-location: directcomp\idcompositionturbulenceeffect_setbasefrequency.htm

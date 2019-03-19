@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_CanUndo
-title: Edit_CanUndo macro
+title: Edit_CanUndo macro (windowsx.h)
 author: windows-sdk-content
 description: Determines whether there are any actions in the undo queue of an edit or rich edit control. You can use this macro or send the EM_CANUNDO message explicitly.
 old-location: controls\Edit_CanUndo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTOGGLEKEYS
-title: TOGGLEKEYS
+title: TOGGLEKEYS (winuser.h)
 author: windows-sdk-content
 description: Contains information about the ToggleKeys accessibility feature.
 old-location: winauto\togglekeys.htm

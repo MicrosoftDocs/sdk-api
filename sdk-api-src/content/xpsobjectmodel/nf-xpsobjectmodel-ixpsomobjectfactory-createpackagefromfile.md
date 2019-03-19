@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromFile
-title: IXpsOMObjectFactory::CreatePackageFromFile
+title: IXpsOMObjectFactory::CreatePackageFromFile (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Opens an XPS package file and returns an instantiated XPS document object tree.
 old-location: xps\ixpsomobjectfactory_createpackagefromfile.htm

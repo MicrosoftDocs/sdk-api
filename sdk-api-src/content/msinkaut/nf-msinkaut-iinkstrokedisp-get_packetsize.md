@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketSize
-title: IInkStrokeDisp::get_PacketSize
+title: IInkStrokeDisp::get_PacketSize (msinkaut.h)
 author: windows-sdk-content
 description: Gets the size, in bytes, of a packet.
 old-location: tablet\iinkstrokedisp_packetsize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.GetRegionScansCount
-title: Region::GetRegionScansCount
+title: Region::GetRegionScansCount (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::GetRegionScansCount method gets the number of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScansCount_matrix_.htm

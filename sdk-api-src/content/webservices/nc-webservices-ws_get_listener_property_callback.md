@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_GET_LISTENER_PROPERTY_CALLBACK
-title: WS_GET_LISTENER_PROPERTY_CALLBACK
+title: WS_GET_LISTENER_PROPERTY_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Handles the WsGetListenerProperty call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_get_listener_property_callback.htm

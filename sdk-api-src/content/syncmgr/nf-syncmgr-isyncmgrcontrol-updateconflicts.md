@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateConflicts
-title: ISyncMgrControl::UpdateConflicts
+title: ISyncMgrControl::UpdateConflicts (syncmgr.h)
 author: windows-sdk-content
 description: Informs Sync Center that conflicts have been added for a specific handler or item.
 old-location: shell\ISyncMgrControl_UpdateConflicts.htm

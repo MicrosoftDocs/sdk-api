@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypesbase._COAUTHINFO
-title: COAUTHINFO
+title: COAUTHINFO (wtypesbase.h)
 author: windows-sdk-content
 description: Contains the authentication settings used while making a remote activation request from the client computer to the server computer.
 old-location: com\coauthinfo.htm

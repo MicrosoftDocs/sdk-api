@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlSetHMACSecret
-title: CryptXmlSetHMACSecret function
+title: CryptXmlSetHMACSecret function (cryptxml.h)
 author: windows-sdk-content
 description: Sets the HMAC secret on the handle before calling the CryptXmlSign or CryptXmlVerify function.
 old-location: security\cryptxmlsethmacsecret.htm

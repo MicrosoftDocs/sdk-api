@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.SetProperty
-title: IWMPPluginUI::SetProperty
+title: IWMPPluginUI::SetProperty (wmpplug.h)
 author: windows-sdk-content
 description: The SetProperty method is called by Windows Media Player to set name/value property pairs for the plug-in.
 old-location: wmp\iwmppluginui_setproperty.htm

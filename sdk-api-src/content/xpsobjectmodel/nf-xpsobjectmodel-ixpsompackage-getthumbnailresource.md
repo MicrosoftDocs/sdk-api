@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetThumbnailResource
-title: IXpsOMPackage::GetThumbnailResource
+title: IXpsOMPackage::GetThumbnailResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMImageResource interface of the thumbnail resource that is associated with the XPS package.
 old-location: xps\ixpsompackage_getthumbnailresource.htm

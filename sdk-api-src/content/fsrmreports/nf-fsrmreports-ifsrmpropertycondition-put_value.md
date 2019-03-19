@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.put_Value
-title: IFsrmPropertyCondition::put_Value
+title: IFsrmPropertyCondition::put_Value (fsrmreports.h)
 author: windows-sdk-content
 description: The property condition's value.
 old-location: fsrm\ifsrmpropertycondition_value.htm

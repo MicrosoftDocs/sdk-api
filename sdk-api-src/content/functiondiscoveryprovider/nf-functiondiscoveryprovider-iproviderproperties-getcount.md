@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetCount
-title: IProviderProperties::GetCount
+title: IProviderProperties::GetCount (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Gets the number of properties in the property store.
 old-location: ncd\iproviderproperties_getcount_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_D3DBUFCALLBACKS
-title: DD_D3DBUFCALLBACKS
+title: DD_D3DBUFCALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_D3DBUFCALLBACKS structure is used only by drivers that implement driver level allocation of command and vertex buffers.
 old-location: display\dd_d3dbufcallbacks.htm

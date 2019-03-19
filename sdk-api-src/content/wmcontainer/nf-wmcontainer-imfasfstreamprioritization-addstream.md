@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.AddStream
-title: IMFASFStreamPrioritization::AddStream
+title: IMFASFStreamPrioritization::AddStream (wmcontainer.h)
 author: windows-sdk-content
 description: Note  This interface is not implemented in this version of Media Foundation. Adds a stream to the stream priority list.
 old-location: mf\imfasfstreamprioritization_addstream.htm

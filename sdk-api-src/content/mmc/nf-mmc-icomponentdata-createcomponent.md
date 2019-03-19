@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IComponentData.CreateComponent
-title: IComponentData::CreateComponent
+title: IComponentData::CreateComponent (mmc.h)
 author: windows-sdk-content
 description: The IComponentData::CreateComponent method creates an instance of the IComponent that will be associated with this IComponentData interface.
 old-location: mmc\icomponentdata_createcomponent.htm

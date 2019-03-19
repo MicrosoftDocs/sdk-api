@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.ResetDevice
-title: IDirect3DDeviceManager9::ResetDevice
+title: IDirect3DDeviceManager9::ResetDevice (dxva2api.h)
 author: windows-sdk-content
 description: Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
 old-location: mf\idirect3ddevicemanager9_resetdevice.htm

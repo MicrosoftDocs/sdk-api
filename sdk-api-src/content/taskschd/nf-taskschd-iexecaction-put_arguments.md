@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IExecAction.put_Arguments
-title: IExecAction::put_Arguments
+title: IExecAction::put_Arguments (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the arguments associated with the command-line operation.
 old-location: taskschd\iexecaction_arguments.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024
-title: XPS_COLOR
+title: XPS_COLOR (xpsobjectmodel.h)
 author: windows-sdk-content
 description: The contents of the XPS_COLOR structure when the colorType is XPS_COLOR_TYPE_CONTEXT.
 old-location: xps\xps_color_type_context.htm

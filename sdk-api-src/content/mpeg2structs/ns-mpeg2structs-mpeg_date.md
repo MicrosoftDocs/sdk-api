@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0025
-title: MPEG_DATE
+title: MPEG_DATE (mpeg2structs.h)
 author: windows-sdk-content
 description: The MPEG_DATE structure specifies a date.
 old-location: mstv\mpeg_date.htm

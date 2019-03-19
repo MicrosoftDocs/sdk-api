@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
-title: INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled
+title: INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
 old-location: ics\inetfwpolicy2_unicastresponsestomulticastbroadcastdisabled.htm

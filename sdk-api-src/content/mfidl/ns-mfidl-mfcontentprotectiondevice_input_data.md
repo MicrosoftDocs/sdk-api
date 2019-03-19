@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFCONTENTPROTECTIONDEVICE_INPUT_DATA
-title: MFCONTENTPROTECTIONDEVICE_INPUT_DATA
+title: MFCONTENTPROTECTIONDEVICE_INPUT_DATA (mfidl.h)
 author: windows-sdk-content
 description: Contains information about the data that you want to provide as input to a protection system function.
 old-location: mf\mfcontentprotectiondevice_input_data.htm

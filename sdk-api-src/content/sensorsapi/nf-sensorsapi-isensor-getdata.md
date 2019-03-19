@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensor.GetData
-title: ISensor::GetData
+title: ISensor::GetData (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves the most recent sensor data report.
 old-location: winsensors_com_ref\isensor_getdata.htm

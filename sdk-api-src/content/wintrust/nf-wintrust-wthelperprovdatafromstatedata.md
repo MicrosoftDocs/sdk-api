@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WTHelperProvDataFromStateData
-title: WTHelperProvDataFromStateData function
+title: WTHelperProvDataFromStateData function (wintrust.h)
 author: windows-sdk-content
 description: Retrieves trust provider information from a specified handle.
 old-location: security\wthelperprovdatafromstatedata.htm

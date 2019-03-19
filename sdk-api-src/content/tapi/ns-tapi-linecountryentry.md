@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linecountryentry_tag
-title: LINECOUNTRYENTRY
+title: LINECOUNTRYENTRY (tapi.h)
 author: windows-sdk-content
 description: Provides the data for a single country/region entry.
 old-location: tapi2\linecountryentry_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilRemoveResourceServiceEnvironment
-title: ResUtilRemoveResourceServiceEnvironment function
+title: ResUtilRemoveResourceServiceEnvironment function (resapi.h)
 author: windows-sdk-content
 description: Removes the environment data from a service. This function must be called from a resource DLL. The PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilremoveresourceserviceenvironment.htm

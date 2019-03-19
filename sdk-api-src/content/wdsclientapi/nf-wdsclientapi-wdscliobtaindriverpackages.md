@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliObtainDriverPackages
-title: WdsCliObtainDriverPackages function
+title: WdsCliObtainDriverPackages function (wdsclientapi.h)
 author: windows-sdk-content
 description: This function obtains from a WDS image, the driver packages (INF files) that can be used on this computer.
 old-location: wds\wdscliobtaindriverpackages.htm

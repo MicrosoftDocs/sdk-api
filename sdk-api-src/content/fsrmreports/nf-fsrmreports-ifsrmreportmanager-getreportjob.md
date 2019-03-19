@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetReportJob
-title: IFsrmReportManager::GetReportJob
+title: IFsrmReportManager::GetReportJob (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the specified report job.
 old-location: fsrm\ifsrmreportmanager_getreportjob.htm

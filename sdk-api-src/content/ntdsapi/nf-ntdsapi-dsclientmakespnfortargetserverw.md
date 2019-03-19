@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsClientMakeSpnForTargetServerW
-title: DsClientMakeSpnForTargetServerW function
+title: DsClientMakeSpnForTargetServerW function (ntdsapi.h)
 author: windows-sdk-content
 description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication.
 old-location: ad\dsclientmakespnfortargetserver.htm

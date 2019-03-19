@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_UNLOADED_MODULE
-title: MINIDUMP_UNLOADED_MODULE
+title: MINIDUMP_UNLOADED_MODULE (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains information about a module that has been unloaded. This information can help diagnose problems calling code that is no longer loaded.
 old-location: base\minidump_unloaded_module_str.htm

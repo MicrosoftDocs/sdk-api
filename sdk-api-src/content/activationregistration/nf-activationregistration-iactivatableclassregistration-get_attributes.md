@@ -1,6 +1,6 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_Attributes
-title: IActivatableClassRegistration::get_Attributes
+title: IActivatableClassRegistration::get_Attributes (activationregistration.h)
 author: windows-sdk-content
 description: Gets the attributes associated with the current activatable class.
 old-location: winrt\iactivatableclassregistration_attributes.htm

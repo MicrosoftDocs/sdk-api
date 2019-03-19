@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITPhone
-title: ITPhone
+title: ITPhone (tapi3if.h)
 author: windows-sdk-content
 description: The ITPhone interface is the main interface for the new Phone objects in the TAPI 3.1 object model.
 old-location: tapi3\itphone.htm

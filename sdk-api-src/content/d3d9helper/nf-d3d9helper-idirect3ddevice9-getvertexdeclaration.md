@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetVertexDeclaration
-title: IDirect3DDevice9::GetVertexDeclaration
+title: IDirect3DDevice9::GetVertexDeclaration (d3d9helper.h)
 author: windows-sdk-content
 description: Gets a vertex shader declaration.
 old-location: direct3d9\idirect3ddevice9__getvertexdeclaration.htm

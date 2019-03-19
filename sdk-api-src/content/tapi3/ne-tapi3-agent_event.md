@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3.AGENT_EVENT
-title: AGENT_EVENT
+title: AGENT_EVENT (tapi3.h)
 author: windows-sdk-content
 description: The AGENT_EVENT enum describes agent events. The ITAgentEvent::get_Event method returns a member of this enum to indicate the type of agent event that occurred.
 old-location: tapi3\agent_event.htm

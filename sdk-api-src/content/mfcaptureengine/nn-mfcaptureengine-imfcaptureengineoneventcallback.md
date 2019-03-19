@@ -1,6 +1,6 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineOnEventCallback
-title: IMFCaptureEngineOnEventCallback
+title: IMFCaptureEngineOnEventCallback (mfcaptureengine.h)
 author: windows-sdk-content
 description: Callback interface for receiving events from the capture engine.
 old-location: mf\imfcaptureengineoneventcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxConnectFaxServerA
-title: FaxConnectFaxServerA function
+title: FaxConnectFaxServerA function (winfax.h)
 author: windows-sdk-content
 description: The FaxConnectFaxServer function connects a fax client application to the local fax server. The function returns a fax server handle that is required to call other fax client functions that facilitate job, device, configuration, and document management.
 old-location: fax\_mfax_faxconnectfaxserver.htm

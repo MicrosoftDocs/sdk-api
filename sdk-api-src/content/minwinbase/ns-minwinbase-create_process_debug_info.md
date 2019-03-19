@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._CREATE_PROCESS_DEBUG_INFO
-title: CREATE_PROCESS_DEBUG_INFO
+title: CREATE_PROCESS_DEBUG_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains process creation information that can be used by a debugger.
 old-location: base\create_process_debug_info_str.htm

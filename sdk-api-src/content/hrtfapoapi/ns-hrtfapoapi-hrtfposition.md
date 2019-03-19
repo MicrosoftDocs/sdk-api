@@ -1,6 +1,6 @@
 ---
 UID: NS:hrtfapoapi.HrtfPosition
-title: HrtfPosition
+title: HrtfPosition (hrtfapoapi.h)
 author: windows-sdk-content
 description: Represents a position in 3D space, using a right-handed coordinate system.
 old-location: xaudio2\hrtfposition.htm

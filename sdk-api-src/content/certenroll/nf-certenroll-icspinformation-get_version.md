@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_Version
-title: ICspInformation::get_Version
+title: ICspInformation::get_Version (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the version number of the provider.
 old-location: security\icspinformation_version_property.htm

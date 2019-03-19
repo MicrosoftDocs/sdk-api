@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.RefreshRouter
-title: ICOMAdminCatalog::RefreshRouter
+title: ICOMAdminCatalog::RefreshRouter (comadmin.h)
 author: windows-sdk-content
 description: This method is obsolete.
 old-location: cos\icomadmincatalog_refreshrouter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextCue
-title: IMFTimedTextCue
+title: IMFTimedTextCue (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents the timed-text-cue object.
 old-location: mf\imftimedtextcue.htm

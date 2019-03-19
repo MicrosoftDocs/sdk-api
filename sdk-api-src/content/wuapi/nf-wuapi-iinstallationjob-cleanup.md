@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IInstallationJob.CleanUp
-title: IInstallationJob::CleanUp
+title: IInstallationJob::CleanUp (wuapi.h)
 author: windows-sdk-content
 description: Waits for an asynchronous operation to be completed and then releases all the callbacks.
 old-location: wua\iinstallationjob_cleanup.htm

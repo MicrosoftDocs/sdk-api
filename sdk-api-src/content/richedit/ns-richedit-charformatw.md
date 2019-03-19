@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._charformatw
-title: CHARFORMATW
+title: CHARFORMATW (richedit.h)
 author: windows-sdk-content
 description: Contains information about character formatting in a rich edit control.
 old-location: controls\CHARFORMAT.htm

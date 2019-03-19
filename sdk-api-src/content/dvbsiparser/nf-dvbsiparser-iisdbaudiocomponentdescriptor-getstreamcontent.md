@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetStreamContent
-title: IIsdbAudioComponentDescriptor::GetStreamContent
+title: IIsdbAudioComponentDescriptor::GetStreamContent (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the stream_content field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This field contains a code that identifies the descriptor as an ISDB audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getstreamcontent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFConvertToFP16Array
-title: MFConvertToFP16Array function
+title: MFConvertToFP16Array function (mfapi.h)
 author: windows-sdk-content
 description: Converts an array of 32-bit floating-point numbers into an array of 16-bit floating-point numbers.
 old-location: mf\mfconverttofp16array.htm

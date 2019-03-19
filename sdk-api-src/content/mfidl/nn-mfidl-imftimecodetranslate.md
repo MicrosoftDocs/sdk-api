@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTimecodeTranslate
-title: IMFTimecodeTranslate
+title: IMFTimecodeTranslate (mfidl.h)
 author: windows-sdk-content
 description: Converts between Society of Motion Picture and Television Engineers (SMPTE) time codes and 100-nanosecond time units.
 old-location: mf\imftimecodetranslate.htm

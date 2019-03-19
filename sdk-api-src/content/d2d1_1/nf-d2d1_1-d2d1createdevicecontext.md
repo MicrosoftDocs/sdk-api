@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.D2D1CreateDeviceContext
-title: D2D1CreateDeviceContext function
+title: D2D1CreateDeviceContext function (d2d1_1.h)
 author: windows-sdk-content
 description: Creates a new Direct2D device context associated with a DXGI surface.
 old-location: direct2d\d2d1createdevicecontext.htm

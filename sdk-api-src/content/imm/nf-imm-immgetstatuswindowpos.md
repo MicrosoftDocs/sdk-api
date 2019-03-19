@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmGetStatusWindowPos
-title: ImmGetStatusWindowPos function
+title: ImmGetStatusWindowPos function (imm.h)
 author: windows-sdk-content
 description: Retrieves the position of the status window.
 old-location: intl\immgetstatuswindowpos.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateException.get_Message
-title: IUpdateException::get_Message
+title: IUpdateException::get_Message (wuapi.h)
 author: windows-sdk-content
 description: Gets a message that describes the search results.
 old-location: wua\iupdateexception_message.htm

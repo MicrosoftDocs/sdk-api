@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_41
-title: WS_REPEATING_HEADER_OPTION
+title: WS_REPEATING_HEADER_OPTION (webservices.h)
 author: windows-sdk-content
 description: This enum is used to specify whether a header is expected to appear more than once in a message.
 old-location: wsw\ws_repeating_header_option.htm

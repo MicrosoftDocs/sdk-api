@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.LockRegion
-title: IStream::LockRegion
+title: IStream::LockRegion (objidl.h)
 author: windows-sdk-content
 description: The LockRegion method restricts access to a specified range of bytes in the stream.
 old-location: stg\istream_lockregion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorBalance.ColorBalance
-title: ColorBalance::ColorBalance
+title: ColorBalance::ColorBalance (gdipluseffects.h)
 author: windows-sdk-content
 description: Creates a new ColorBalance object.
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_ColorBalance_.htm

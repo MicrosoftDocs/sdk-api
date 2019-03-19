@@ -1,6 +1,6 @@
 ---
 UID: NS:pnrpdef._PNRP_CLOUD_ID
-title: PNRP_CLOUD_ID
+title: PNRP_CLOUD_ID (pnrpdef.h)
 author: windows-sdk-content
 description: The PNRP_CLOUD_ID structure contains the values that define a network cloud.
 old-location: p2p\pnrp_cloud_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_ENDFRAME
-title: PDD_MOCOMPCB_ENDFRAME
+title: PDD_MOCOMPCB_ENDFRAME (ddrawint.h)
 author: windows-sdk-content
 description: The DdMoCompEndFrame callback function completes a decoded frame.
 old-location: display\ddmocompendframe.htm

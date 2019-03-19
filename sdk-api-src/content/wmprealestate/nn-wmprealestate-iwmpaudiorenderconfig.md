@@ -1,6 +1,6 @@
 ---
 UID: NN:wmprealestate.IWMPAudioRenderConfig
-title: IWMPAudioRenderConfig
+title: IWMPAudioRenderConfig (wmprealestate.h)
 author: windows-sdk-content
 description: The IWMPAudioRenderConfig interface provides methods for setting and retrieving the audio output device used by the Windows Media Player ActiveX control.
 old-location: wmp\iwmpaudiorenderconfig.htm

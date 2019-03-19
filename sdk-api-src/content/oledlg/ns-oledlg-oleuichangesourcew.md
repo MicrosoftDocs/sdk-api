@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGESOURCEW
-title: OLEUICHANGESOURCEW
+title: OLEUICHANGESOURCEW (oledlg.h)
 author: windows-sdk-content
 description: Contains information that is used to initialize the standard Change Source dialog box.
 old-location: com\oleuichangesource_struct.htm

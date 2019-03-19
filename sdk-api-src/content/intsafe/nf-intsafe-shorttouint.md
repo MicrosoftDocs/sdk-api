@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ShortToUInt
-title: ShortToUInt function
+title: ShortToUInt function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type UINT.
 old-location: shell\ShortToUInt.htm

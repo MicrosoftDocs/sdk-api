@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IInitializeWithBindCtx
-title: IInitializeWithBindCtx
+title: IInitializeWithBindCtx (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a bind context.
 old-location: shell\IInitializeWithBindCtx.htm

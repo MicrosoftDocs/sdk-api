@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsValidCodePage
-title: IsValidCodePage function
+title: IsValidCodePage function (winnls.h)
 author: windows-sdk-content
 description: Determines if a specified code page is valid.
 old-location: intl\isvalidcodepage.htm

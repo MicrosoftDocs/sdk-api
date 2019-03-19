@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.PerUserInit
-title: PerUserInit function
+title: PerUserInit function (shlobj.h)
 author: windows-sdk-content
 description: Creates My Documents and other special folders, initializes them as needed, and creates the Send To shortcut menu item for My Documents.
 old-location: shell\PerUserInit.htm

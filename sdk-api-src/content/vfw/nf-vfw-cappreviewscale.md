@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capPreviewScale
-title: capPreviewScale macro
+title: capPreviewScale macro (vfw.h)
 author: windows-sdk-content
 description: The capPreviewScale macro enables or disables scaling of the preview video images.
 old-location: multimedia\cappreviewscale.htm

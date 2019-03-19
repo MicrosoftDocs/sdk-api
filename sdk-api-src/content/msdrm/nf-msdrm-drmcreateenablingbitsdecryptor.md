@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCreateEnablingBitsDecryptor
-title: DRMCreateEnablingBitsDecryptor function
+title: DRMCreateEnablingBitsDecryptor function (msdrm.h)
 author: windows-sdk-content
 description: Creates a decryption object that is used to decrypt content data.
 old-location: rm\drmcreateenablingbitsdecryptor.htm

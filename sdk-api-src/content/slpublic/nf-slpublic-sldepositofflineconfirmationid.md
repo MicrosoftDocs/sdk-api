@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLDepositOfflineConfirmationId
-title: SLDepositOfflineConfirmationId function
+title: SLDepositOfflineConfirmationId function (slpublic.h)
 author: windows-sdk-content
 description: Deposits Installation ID (IID) and Confirmation ID (CID) for offline activation.
 old-location: security\sldepositofflineconfirmationid.htm

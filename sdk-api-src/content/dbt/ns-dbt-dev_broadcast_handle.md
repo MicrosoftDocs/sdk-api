@@ -1,6 +1,6 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_HANDLE
-title: DEV_BROADCAST_HANDLE
+title: DEV_BROADCAST_HANDLE (dbt.h)
 author: windows-sdk-content
 description: Contains information about a file system handle.
 old-location: base\dev_broadcast_handle_str.htm

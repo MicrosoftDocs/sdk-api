@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._OBJECT_TYPE_LIST
-title: OBJECT_TYPE_LIST
+title: OBJECT_TYPE_LIST (winnt.h)
 author: windows-sdk-content
 description: Identifies an object type element in a hierarchy of object types.
 old-location: security\object_type_list.htm

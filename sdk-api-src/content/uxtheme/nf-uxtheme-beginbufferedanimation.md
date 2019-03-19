@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.BeginBufferedAnimation
-title: BeginBufferedAnimation function
+title: BeginBufferedAnimation function (uxtheme.h)
 author: windows-sdk-content
 description: Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
 old-location: controls\BeginBufferedAnimation.htm

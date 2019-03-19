@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.ClearCompartment
-title: ITfCompartmentMgr::ClearCompartment
+title: ITfCompartmentMgr::ClearCompartment (msctf.h)
 author: windows-sdk-content
 description: ITfCompartmentMgr::ClearCompartment method
 old-location: tsf\itfcompartmentmgr_clearcompartment.htm

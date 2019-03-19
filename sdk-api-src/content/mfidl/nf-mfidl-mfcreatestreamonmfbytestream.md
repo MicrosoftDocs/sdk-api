@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateStreamOnMFByteStream
-title: MFCreateStreamOnMFByteStream function
+title: MFCreateStreamOnMFByteStream function (mfidl.h)
 author: windows-sdk-content
 description: Returns an IStream pointer that wraps a Microsoft Media Foundation byte stream.
 old-location: mf\mfcreatestreamonmfbytestream.htm

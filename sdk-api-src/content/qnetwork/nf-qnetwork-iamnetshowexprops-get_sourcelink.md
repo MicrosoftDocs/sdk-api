@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_SourceLink
-title: IAMNetShowExProps::get_SourceLink
+title: IAMNetShowExProps::get_SourceLink (qnetwork.h)
 author: windows-sdk-content
 description: The get_SourceLink method retrieves the source link.
 old-location: dshow\iamnetshowexprops_get_sourcelink.htm

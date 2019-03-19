@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.IsOutputFormatSupported
-title: IXAPO::IsOutputFormatSupported
+title: IXAPO::IsOutputFormatSupported (xapo.h)
 author: windows-sdk-content
 description: Queries if a specific output format is supported for a given input format.
 old-location: xaudio2\ixapo_interface_isoutputformatsupported.htm

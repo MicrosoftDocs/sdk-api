@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory.DecryptBundle
-title: IAppxEncryptionFactory::DecryptBundle
+title: IAppxEncryptionFactory::DecryptBundle (appxpackaging.h)
 author: windows-sdk-content
 description: Creates an unencrypted Windows app bundle from an encrypted one.
 old-location: appxpkg\iappxencryptionfactory_decryptbundle.htm

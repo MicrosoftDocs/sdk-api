@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetHint
-title: IGPEInformation::GetHint
+title: IGPEInformation::GetHint (gpedit.h)
 author: windows-sdk-content
 description: The GetHint method retrieves the type of Active Directory object to which this GPO can be linked.
 old-location: policy\igpeinformation_gethint.htm

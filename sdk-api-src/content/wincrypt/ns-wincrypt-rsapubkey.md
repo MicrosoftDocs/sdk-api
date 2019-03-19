@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._RSAPUBKEY
-title: RSAPUBKEY
+title: RSAPUBKEY (wincrypt.h)
 author: windows-sdk-content
 description: The RSAPUBKEY structure contains information specific to the particular public key contained in the key BLOB.
 old-location: security\rsapubkey.htm

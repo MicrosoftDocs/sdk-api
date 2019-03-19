@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.DetachBuffer
-title: ISpatialAudioMetadataItemsBuffer::DetachBuffer
+title: ISpatialAudioMetadataItemsBuffer::DetachBuffer (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Detaches the buffer. Memory can only be attached to a single metadata item at a time.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_detachbuffer.htm

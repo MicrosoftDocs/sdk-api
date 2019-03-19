@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer2.get_Security2
-title: IFaxServer2::get_Security2
+title: IFaxServer2::get_Security2 (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer2::Security2 property returns a IFaxSecurity2 object used to configure security on the fax server.
 old-location: fax\_mfax_faxserver2_cpp_mfax_faxserver2_security2_cpp.htm

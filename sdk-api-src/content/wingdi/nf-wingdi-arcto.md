@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.ArcTo
-title: ArcTo function
+title: ArcTo function (wingdi.h)
 author: windows-sdk-content
 description: The ArcTo function draws an elliptical arc.
 old-location: gdi\arcto.htm

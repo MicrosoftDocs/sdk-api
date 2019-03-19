@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.GetInfo
-title: IAMDevMemoryAllocator::GetInfo
+title: IAMDevMemoryAllocator::GetInfo (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves information about the memory capabilities.
 old-location: dshow\iamdevmemoryallocator_getinfo.htm

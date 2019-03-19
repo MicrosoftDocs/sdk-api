@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_TILED_RESOURCES_TIER
-title: D3D12_TILED_RESOURCES_TIER
+title: D3D12_TILED_RESOURCES_TIER (d3d12.h)
 author: windows-sdk-content
 description: Identifies the tier level at which tiled resources are supported.
 old-location: direct3d12\d3d12_tiled_resources_tier.htm

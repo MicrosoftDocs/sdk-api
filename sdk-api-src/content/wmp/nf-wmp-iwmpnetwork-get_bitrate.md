@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bitRate
-title: IWMPNetwork::get_bitRate
+title: IWMPNetwork::get_bitRate (wmp.h)
 author: windows-sdk-content
 description: The get_bitRate method retrieves the current bit rate being received.
 old-location: wmp\iwmpnetwork_get_bitrate.htm

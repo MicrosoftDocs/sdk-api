@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IOverlayNotify
-title: IOverlayNotify
+title: IOverlayNotify (strmif.h)
 author: windows-sdk-content
 description: The IOverlayNotify interface provides an upstream filter, such as a decoder, with notifications of changes to the rendering window.
 old-location: dshow\ioverlaynotify.htm

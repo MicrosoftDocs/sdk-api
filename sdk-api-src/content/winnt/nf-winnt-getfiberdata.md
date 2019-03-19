@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.GetFiberData
-title: GetFiberData function
+title: GetFiberData function (winnt.h)
 author: windows-sdk-content
 description: Retrieves the fiber data associated with the current fiber.
 old-location: base\getfiberdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
-title: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE
+title: APPX_BUNDLE_PAYLOAD_PACKAGE_TYPE (appxpackaging.h)
 author: windows-sdk-content
 description: Specifies the type of package for a IAppxBundleManifestPackageInfo object.
 old-location: appxpkg\appx_bundle_payload_package_type.htm

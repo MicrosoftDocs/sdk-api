@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocByIndex
-title: ITocParser::GetTocByIndex
+title: ITocParser::GetTocByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetTocByIndex method retrieves a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_gettocbyindex.htm

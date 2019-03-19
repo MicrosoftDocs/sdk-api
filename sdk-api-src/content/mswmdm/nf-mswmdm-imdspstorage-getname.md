@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetName
-title: IMDSPStorage::GetName
+title: IMDSPStorage::GetName (mswmdm.h)
 author: windows-sdk-content
 description: The GetName method retrieves the display name of the storage object.
 old-location: wmdm\imdspstorage_getname.htm

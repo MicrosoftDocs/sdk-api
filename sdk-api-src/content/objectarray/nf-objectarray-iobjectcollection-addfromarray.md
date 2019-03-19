@@ -1,6 +1,6 @@
 ---
 UID: NF:objectarray.IObjectCollection.AddFromArray
-title: IObjectCollection::AddFromArray
+title: IObjectCollection::AddFromArray (objectarray.h)
 author: windows-sdk-content
 description: Adds the objects contained in an IObjectArray to the collection.
 old-location: shell\IObjectCollection_AddFromArray.htm

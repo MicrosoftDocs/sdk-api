@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.QueueEventParamUnk
-title: IMFMediaEventQueue::QueueEventParamUnk
+title: IMFMediaEventQueue::QueueEventParamUnk (mfobjects.h)
 author: windows-sdk-content
 description: Creates an event, sets an IUnknown pointer as the event data, and puts the event in the queue.
 old-location: mf\imfmediaeventqueue_queueeventparamunk.htm

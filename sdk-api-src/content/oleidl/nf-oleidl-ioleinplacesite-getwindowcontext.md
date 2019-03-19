@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.GetWindowContext
-title: IOleInPlaceSite::GetWindowContext
+title: IOleInPlaceSite::GetWindowContext (oleidl.h)
 author: windows-sdk-content
 description: Enables an in-place object to retrieve the window interfaces that form the window object hierarchy, and the position in the parent window where the object's in-place activation window should be located.
 old-location: com\ioleinplacesite_getwindowcontext.htm

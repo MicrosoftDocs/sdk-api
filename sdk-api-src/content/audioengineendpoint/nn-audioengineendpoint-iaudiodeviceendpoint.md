@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioDeviceEndpoint
-title: IAudioDeviceEndpoint
+title: IAudioDeviceEndpoint (audioengineendpoint.h)
 author: windows-sdk-content
 description: Initializes a device endpoint object and gets the capabilities of the device that it represents.
 old-location: termserv\iaudiodeviceendpoint.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.Notify
-title: IDsAdminNotifyHandler::Notify
+title: IDsAdminNotifyHandler::Notify (dsadmin.h)
 author: windows-sdk-content
 description: Called for each object after the confirmation dialog box has been displayed and the notification handler is selected in the confirmation dialog box.
 old-location: ad\idsadminnotifyhandler_notify.htm

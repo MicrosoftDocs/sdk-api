@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetDeviceIcons
-title: IPhotoAcquireSource::GetDeviceIcons
+title: IPhotoAcquireSource::GetDeviceIcons (photoacquire.h)
 author: windows-sdk-content
 description: The GetDeviceIcons method retrieves the icons that are used to represent the device.
 old-location: picacq\iphotoacquiresource_getdeviceicons.htm

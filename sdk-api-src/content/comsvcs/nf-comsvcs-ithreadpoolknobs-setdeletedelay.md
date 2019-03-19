@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetDeleteDelay
-title: IThreadPoolKnobs::SetDeleteDelay
+title: IThreadPoolKnobs::SetDeleteDelay (comsvcs.h)
 author: windows-sdk-content
 description: Sets the number of milliseconds a pooled thread can idle before being destroyed.
 old-location: cos\ithreadpoolknobs_setdeletedelay.htm

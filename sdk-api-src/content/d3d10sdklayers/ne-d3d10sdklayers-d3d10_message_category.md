@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10sdklayers.D3D10_MESSAGE_CATEGORY
-title: D3D10_MESSAGE_CATEGORY
+title: D3D10_MESSAGE_CATEGORY (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Categories of debug messages.
 old-location: direct3d10\d3d10_message_category.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateCollection.put_Item
-title: IUpdateCollection::put_Item
+title: IUpdateCollection::put_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets or sets an IUpdate interface in a collection.
 old-location: wua\iupdatecollection_item.htm

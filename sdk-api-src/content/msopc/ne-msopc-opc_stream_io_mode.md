@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0003
-title: OPC_STREAM_IO_MODE
+title: OPC_STREAM_IO_MODE (msopc.h)
 author: windows-sdk-content
 description: Describes the read/write status of a stream.
 old-location: opc\opc_stream_io_mode.htm

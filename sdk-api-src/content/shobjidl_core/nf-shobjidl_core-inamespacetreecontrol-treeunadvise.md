@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.TreeUnadvise
-title: INameSpaceTreeControl::TreeUnadvise
+title: INameSpaceTreeControl::TreeUnadvise (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables a client to unregister with the control.
 old-location: shell\INameSpaceTreeControl_TreeUnadvise.htm

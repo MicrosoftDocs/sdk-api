@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
-title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH
+title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_FLUSH (wincrypt.h)
 author: windows-sdk-content
 description: Specifies that an object has changed.
 old-location: security\pfn_crypt_object_locator_provider_flush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetDescription
-title: INetwork::GetDescription
+title: INetwork::GetDescription (netlistmgr.h)
 author: windows-sdk-content
 description: The GetDescription method returns a description string for the network.
 old-location: nla\inetwork_getdescription.htm

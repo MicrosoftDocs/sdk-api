@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedStyleName
-title: IUIAutomationStylesPattern::get_CachedStyleName
+title: IUIAutomationStylesPattern::get_CachedStyleName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached name of the visual style associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedStyleName.htm

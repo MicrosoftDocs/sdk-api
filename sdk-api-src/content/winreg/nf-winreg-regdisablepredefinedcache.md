@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDisablePredefinedCache
-title: RegDisablePredefinedCache function
+title: RegDisablePredefinedCache function (winreg.h)
 author: windows-sdk-content
 description: Disables handle caching of the predefined registry handle for HKEY_CURRENT_USER for the current process.
 old-location: base\regdisablepredefinedcache.htm

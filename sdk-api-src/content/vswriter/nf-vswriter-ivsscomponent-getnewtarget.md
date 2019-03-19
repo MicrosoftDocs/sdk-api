@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetNewTarget
-title: IVssComponent::GetNewTarget
+title: IVssComponent::GetNewTarget (vswriter.h)
 author: windows-sdk-content
 description: The GetNewTarget method returns the new file restoration locations for the selected component or component set.
 old-location: base\ivsscomponent_getnewtarget.htm

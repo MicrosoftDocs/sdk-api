@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IStringTable.FindString
-title: IStringTable::FindString
+title: IStringTable::FindString (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to search for a string in the snap-in string table.
 old-location: mmc\istringtable_findstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_State
-title: ITTerminal::get_State
+title: ITTerminal::get_State (tapi3if.h)
 author: windows-sdk-content
 description: The get_State method gets the current state of the terminal.
 old-location: tapi3\itterminal_get_state.htm

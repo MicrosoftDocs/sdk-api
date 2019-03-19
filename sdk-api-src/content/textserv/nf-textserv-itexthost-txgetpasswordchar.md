@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxGetPasswordChar
-title: ITextHost::TxGetPasswordChar
+title: ITextHost::TxGetPasswordChar (textserv.h)
 author: windows-sdk-content
 description: Requests the text host's password character.
 old-location: controls\ITextHost_TxGetPasswordChar.htm

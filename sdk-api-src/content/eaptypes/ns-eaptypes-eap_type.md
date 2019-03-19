@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_TYPE
-title: EAP_TYPE
+title: EAP_TYPE (eaptypes.h)
 author: windows-sdk-content
 description: Contains type and vendor identification information for an EAP method.
 old-location: eaphost\eap_type.htm

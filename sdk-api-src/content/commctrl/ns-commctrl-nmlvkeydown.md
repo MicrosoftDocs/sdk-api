@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVKEYDOWN
-title: NMLVKEYDOWN
+title: NMLVKEYDOWN (commctrl.h)
 author: windows-sdk-content
 description: Contains information used in processing the LVN_KEYDOWN notification code. This structure is the same as the NMLVKEYDOWN structure but has been renamed to fit standard naming conventions.
 old-location: controls\NMLVKEYDOWN.htm

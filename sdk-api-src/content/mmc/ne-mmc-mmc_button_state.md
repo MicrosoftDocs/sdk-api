@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_BUTTON_STATE
-title: MMC_BUTTON_STATE
+title: MMC_BUTTON_STATE (mmc.h)
 author: windows-sdk-content
 description: The MMC_BUTTON_STATE enumeration defines the possible states of buttons available in MMC. These values are used in the nState parameter of IConsoleVerb::GetVerbState, IConsoleVerb::SetVerbState, IToolbar::GetButtonState, and IToolbar::SetButtonState.
 old-location: mmc\mmc_button_state.htm

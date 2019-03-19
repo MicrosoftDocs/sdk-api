@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnPositionChange
-title: IOverlayNotify::OnPositionChange
+title: IOverlayNotify::OnPositionChange (strmif.h)
 author: windows-sdk-content
 description: The OnPositionChange method provides notification that the position has changed.
 old-location: dshow\ioverlaynotify_onpositionchange.htm

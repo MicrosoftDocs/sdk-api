@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetForeground
-title: ITfKeystrokeMgr::GetForeground
+title: ITfKeystrokeMgr::GetForeground (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::GetForeground method
 old-location: tsf\itfkeystrokemgr_getforeground.htm

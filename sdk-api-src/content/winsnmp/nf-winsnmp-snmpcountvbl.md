@@ -1,6 +1,6 @@
 ---
 UID: NF:winsnmp.SnmpCountVbl
-title: SnmpCountVbl function
+title: SnmpCountVbl function (winsnmp.h)
 author: windows-sdk-content
 description: A WinSNMP application calls the WinSNMP SnmpCountVbl function to enumerate the variable binding entries in the specified variable bindings list.
 old-location: snmp\snmpcountvbl.htm

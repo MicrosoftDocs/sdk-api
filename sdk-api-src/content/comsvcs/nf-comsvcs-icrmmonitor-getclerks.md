@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmMonitor.GetClerks
-title: ICrmMonitor::GetClerks
+title: ICrmMonitor::GetClerks (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a clerk collection object, which is a snapshot of the current state of the clerks.
 old-location: cos\icrmmonitor_getclerks.htm

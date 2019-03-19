@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_msgfree
-title: ldap_msgfree function
+title: ldap_msgfree function (winldap.h)
 author: windows-sdk-content
 description: The ldap_msgfree function frees the results obtained from a previous call to ldap_result, or to one of the synchronous search routines.
 old-location: ldap\ldap_msgfree.htm

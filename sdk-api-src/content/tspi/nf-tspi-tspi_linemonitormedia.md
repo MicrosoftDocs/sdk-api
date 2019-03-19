@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineMonitorMedia
-title: TSPI_lineMonitorMedia function
+title: TSPI_lineMonitorMedia function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineMonitorMedia function enables and disables the detection of media types on the specified call. When a media type is detected, a LINE_MONITORMEDIA message is sent to TAPI.
 old-location: tspi\tspi_linemonitormedia.htm

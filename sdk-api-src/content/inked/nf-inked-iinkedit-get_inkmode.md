@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.get_InkMode
-title: IInkEdit::get_InkMode
+title: IInkEdit::get_InkMode (inked.h)
 author: windows-sdk-content
 description: Gets or sets a value that specifies whether ink collection is disabled, ink is collected, or ink and gestures are collected.
 old-location: tablet\inkedit_inkmode.htm

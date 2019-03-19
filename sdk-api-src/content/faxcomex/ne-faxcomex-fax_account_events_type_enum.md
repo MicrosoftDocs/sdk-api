@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_ACCOUNT_EVENTS_TYPE_ENUM
-title: FAX_ACCOUNT_EVENTS_TYPE_ENUM
+title: FAX_ACCOUNT_EVENTS_TYPE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: Specifies the types of event notifications, on a particular account, that the server sends to listening clients.
 old-location: fax\_mfax_fax_account_events_type_enum.htm

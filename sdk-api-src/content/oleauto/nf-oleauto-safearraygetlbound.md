@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayGetLBound
-title: SafeArrayGetLBound function
+title: SafeArrayGetLBound function (oleauto.h)
 author: windows-sdk-content
 description: Gets the lower bound for any dimension of the specified safe array.
 old-location: automat\safearraygetlbound.htm

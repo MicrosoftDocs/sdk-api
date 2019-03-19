@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION_V4
-title: DHCP_IP_RESERVATION_V4
+title: DHCP_IP_RESERVATION_V4 (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_IP_RESERVATION_V4 structure defines a client IP reservation. This structure extends an IP reservation by including the type of client (DHCP or BOOTP) holding the reservation.
 old-location: dhcp\dhcp_ip_reservation_v4.htm

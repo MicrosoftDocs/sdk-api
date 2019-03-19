@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.GetElements
-title: Matrix::GetElements
+title: Matrix::GetElements (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::GetElements method gets the elements of this matrix. The elements are placed in an array in the order m11, m12, m21, m22, m31, m32, where mij denotes the element in row i, column j.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_GetElements_.htm

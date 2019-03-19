@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReaderCallback2
-title: IMFSourceReaderCallback2
+title: IMFSourceReaderCallback2 (mfreadwrite.h)
 author: windows-sdk-content
 description: Extends the IMFSourceReaderCallback interface.
 old-location: mf\imfsourcereadercallback2.htm

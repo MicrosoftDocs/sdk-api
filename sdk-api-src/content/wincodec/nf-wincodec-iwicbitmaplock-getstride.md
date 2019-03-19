@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapLock.GetStride
-title: IWICBitmapLock::GetStride
+title: IWICBitmapLock::GetStride (wincodec.h)
 author: windows-sdk-content
 description: Provides access to the stride value for the memory.
 old-location: wic\_wic_codec_iwicbitmaplock_getstride.htm

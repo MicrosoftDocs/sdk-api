@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToInt32
-title: VariantToInt32 function
+title: VariantToInt32 function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an Int32 property value of a variant structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToInt32.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_OutgoingQueuePaused
-title: IFaxConfiguration::get_OutgoingQueuePaused
+title: IFaxConfiguration::get_OutgoingQueuePaused (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the outgoing queue has been paused.
 old-location: fax\_mfax_IFaxConfiguration_PauseOutgoingQueue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.Skip
-title: IEnumBackgroundCopyJobs1::Skip
+title: IEnumBackgroundCopyJobs1::Skip (qmgr.h)
 author: windows-sdk-content
 description: Use the Skip method to skip the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
 old-location: bits\ienumbackgroundcopyjobs1_skip.htm

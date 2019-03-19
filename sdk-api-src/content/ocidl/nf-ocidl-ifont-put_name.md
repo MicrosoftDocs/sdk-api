@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IFont.put_Name
-title: IFont::put_Name
+title: IFont::put_Name (ocidl.h)
 author: windows-sdk-content
 description: Specifies a new name for the font family.
 old-location: com\ifont_put_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._SCOPE_MIB_INFO
-title: SCOPE_MIB_INFO
+title: SCOPE_MIB_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines information about an available scope for use within returned DHCP-specific SNMP Management Information Block (MIB) data.
 old-location: dhcp\scope_mib_info.htm

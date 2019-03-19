@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetPalette
-title: IWICBitmapFrameEncode::SetPalette
+title: IWICBitmapFrameEncode::SetPalette (wincodec.h)
 author: windows-sdk-content
 description: Sets the IWICPalette for indexed pixel formats.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setpalette.htm

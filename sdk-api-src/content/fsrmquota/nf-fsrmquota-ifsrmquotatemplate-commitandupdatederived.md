@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplate.CommitAndUpdateDerived
-title: IFsrmQuotaTemplate::CommitAndUpdateDerived
+title: IFsrmQuotaTemplate::CommitAndUpdateDerived (fsrmquota.h)
 author: windows-sdk-content
 description: Saves the quota template and then applies any changes to the derived quota objects.
 old-location: fsrm\ifsrmquotatemplate_commitandupdatederived.htm

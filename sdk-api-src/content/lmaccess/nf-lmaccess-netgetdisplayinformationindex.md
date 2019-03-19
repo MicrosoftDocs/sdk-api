@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetGetDisplayInformationIndex
-title: NetGetDisplayInformationIndex function
+title: NetGetDisplayInformationIndex function (lmaccess.h)
 author: windows-sdk-content
 description: The NetGetDisplayInformationIndex function returns the index of the first display information entry whose name begins with a specified string or whose name alphabetically follows the string.
 old-location: netmgmt\netgetdisplayinformationindex.htm

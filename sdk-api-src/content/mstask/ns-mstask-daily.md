@@ -1,6 +1,6 @@
 ---
 UID: NS:mstask._DAILY
-title: DAILY
+title: DAILY (mstask.h)
 author: windows-sdk-content
 description: Defines the interval, in days, at which a task is run.
 old-location: taskschd\daily.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.GetCurrentPosition
-title: IMFByteStream::GetCurrentPosition
+title: IMFByteStream::GetCurrentPosition (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the current read or write position in the stream.
 old-location: mf\imfbytestream_getcurrentposition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.RoRegisterActivationFactories
-title: RoRegisterActivationFactories function
+title: RoRegisterActivationFactories function (roapi.h)
 author: windows-sdk-content
 description: Registers an array out-of-process activation factories for a Windows Runtime exe server.
 old-location: winrt\roregisteractivationfactories.htm

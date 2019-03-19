@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_PasswordExpiry
-title: SecPkgContext_PasswordExpiry
+title: SecPkgContext_PasswordExpiry (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_PasswordExpiry structure contains information about the expiration of a password or other credential used for the security context. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_passwordexpiry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElementsEx.AddElementEx
-title: IMFMediaEngineSrcElementsEx::AddElementEx
+title: IMFMediaEngineSrcElementsEx::AddElementEx (mfmediaengine.h)
 author: windows-sdk-content
 description: Provides an enhanced version of IMFMediaEngineSrcElements::AddElement to add the key system intended to be used with content to an element.
 old-location: mf\imfmediaenginesrcelementsex_addelementex.htm

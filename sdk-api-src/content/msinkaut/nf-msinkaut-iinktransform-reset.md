@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.Reset
-title: IInkTransform::Reset
+title: IInkTransform::Reset (msinkaut.h)
 author: windows-sdk-content
 description: Resets the transform to its default state, the identity transform.
 old-location: tablet\inktransform_reset.htm

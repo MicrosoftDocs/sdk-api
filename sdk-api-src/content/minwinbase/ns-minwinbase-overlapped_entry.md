@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._OVERLAPPED_ENTRY
-title: OVERLAPPED_ENTRY
+title: OVERLAPPED_ENTRY (minwinbase.h)
 author: windows-sdk-content
 description: Contains the information returned by a call to the GetQueuedCompletionStatusEx function.
 old-location: fs\overlapped_entry.htm

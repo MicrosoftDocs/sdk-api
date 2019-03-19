@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.Append
-title: IXpsOMVisualCollection::Append
+title: IXpsOMVisualCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMVisual interface to the end of the collection.
 old-location: xps\ixpsomvisualcollection_append.htm

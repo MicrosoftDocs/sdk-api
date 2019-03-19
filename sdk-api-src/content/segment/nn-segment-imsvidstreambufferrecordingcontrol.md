@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidStreamBufferRecordingControl
-title: IMSVidStreamBufferRecordingControl
+title: IMSVidStreamBufferRecordingControl (segment.h)
 author: windows-sdk-content
 description: The IMSVidStreamBufferRecordingControl interface enables an application to manage a stream buffer recording object through the Video Control.
 old-location: mstv\imsvidstreambufferrecordingcontrol.htm

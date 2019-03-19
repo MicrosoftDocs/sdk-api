@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.Outline(const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink)
-title: ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink)
+title: ID2D1Geometry::Outline(const D2D1_MATRIX_3X2_F &,ID2D1SimplifiedGeometrySink) (d2d1.h)
 author: windows-sdk-content
 description: Computes the outline of the geometry and writes the result to an ID2D1SimplifiedGeometrySink.
 old-location: direct2d\ID2D1Geometry_Outline_ref_D2D_MATRIX_3X2_F_ptr_ID2D1SimplifiedGeometrySink.htm

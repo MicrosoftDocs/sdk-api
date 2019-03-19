@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetPassword
-title: IWCNDevice::SetPassword
+title: IWCNDevice::SetPassword (wcndevice.h)
 author: windows-sdk-content
 description: The IWCNDevice::SetPassword method configures the authentication method value, and if required, a password used for the pending session. This method may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setpassword.htm

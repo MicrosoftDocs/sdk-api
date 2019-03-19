@@ -1,6 +1,6 @@
 ---
 UID: NN:aclui.ISecurityInformation3
-title: ISecurityInformation3
+title: ISecurityInformation3 (aclui.h)
 author: windows-sdk-content
 description: Provides methods necessary for displaying an elevated access control editor when a user clicks the Edit button on an access control editor page that displays an image of a shield on that Edit button.
 old-location: security\isecurityinformation3.htm

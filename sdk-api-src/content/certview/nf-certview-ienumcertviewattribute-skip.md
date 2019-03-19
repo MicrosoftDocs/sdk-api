@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Skip
-title: IEnumCERTVIEWATTRIBUTE::Skip
+title: IEnumCERTVIEWATTRIBUTE::Skip (certview.h)
 author: windows-sdk-content
 description: Skips a specified number of attributes in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_skip.htm

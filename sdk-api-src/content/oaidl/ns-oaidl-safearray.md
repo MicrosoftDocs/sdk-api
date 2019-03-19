@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagSAFEARRAY
-title: SAFEARRAY
+title: SAFEARRAY (oaidl.h)
 author: windows-sdk-content
 description: Represents a safe array.
 old-location: automat\safearray.htm

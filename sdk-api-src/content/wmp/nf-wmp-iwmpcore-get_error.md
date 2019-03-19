@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_error
-title: IWMPCore::get_error
+title: IWMPCore::get_error (wmp.h)
 author: windows-sdk-content
 description: The get_error method retrieves a pointer to an IWMPError interface.
 old-location: wmp\iwmpcore_get_error.htm

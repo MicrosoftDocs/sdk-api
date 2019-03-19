@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ResizeNextBorderHelper
-title: IBrowserService2::_ResizeNextBorderHelper
+title: IBrowserService2::_ResizeNextBorderHelper (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. A helper method used by the implementation of IBrowserService2::_ResizeNextBorder.
 old-location: shell\IBrowserService2__ResizeNextBorderHelper.htm

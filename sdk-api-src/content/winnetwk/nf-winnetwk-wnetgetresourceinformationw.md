@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetGetResourceInformationW
-title: WNetGetResourceInformationW function
+title: WNetGetResourceInformationW function (winnetwk.h)
 author: windows-sdk-content
 description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource.
 old-location: wnet\wnetgetresourceinformation.htm

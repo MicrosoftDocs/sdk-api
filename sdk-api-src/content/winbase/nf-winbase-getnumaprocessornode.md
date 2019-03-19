@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNumaProcessorNode
-title: GetNumaProcessorNode function
+title: GetNumaProcessorNode function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the node number for the specified processor.
 old-location: base\getnumaprocessornode.htm

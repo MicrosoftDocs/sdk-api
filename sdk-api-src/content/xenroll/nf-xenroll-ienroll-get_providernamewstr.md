@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_ProviderNameWStr
-title: IEnroll::get_ProviderNameWStr
+title: IEnroll::get_ProviderNameWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the cryptographic service provider (CSP) to use.
 old-location: security\ienroll4_providernamewstr.htm

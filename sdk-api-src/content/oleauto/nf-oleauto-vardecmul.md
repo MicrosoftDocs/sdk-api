@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecMul
-title: VarDecMul function
+title: VarDecMul function (oleauto.h)
 author: windows-sdk-content
 description: Multiplies two variants of type decimal.
 old-location: automat\vardecmul.htm

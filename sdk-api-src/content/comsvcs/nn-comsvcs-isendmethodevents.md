@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ISendMethodEvents
-title: ISendMethodEvents
+title: ISendMethodEvents (comsvcs.h)
 author: windows-sdk-content
 description: Describes an event class that notifies subscribers whenever a method on the object that implements it either is called or returns from a call.
 old-location: cos\isendmethodevents.htm

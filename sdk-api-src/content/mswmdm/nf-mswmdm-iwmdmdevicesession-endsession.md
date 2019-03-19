@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.EndSession
-title: IWMDMDeviceSession::EndSession
+title: IWMDMDeviceSession::EndSession (mswmdm.h)
 author: windows-sdk-content
 description: The EndSession method ends a device session.
 old-location: wmdm\iwmdmdevicesession_endsession.htm

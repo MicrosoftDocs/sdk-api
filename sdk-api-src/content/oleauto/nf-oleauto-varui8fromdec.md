@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI8FromDec
-title: VarUI8FromDec function
+title: VarUI8FromDec function (oleauto.h)
 author: windows-sdk-content
 description: Converts a decimal value to an 8-byte unsigned integer value.
 old-location: automat\varui8fromdec.htm

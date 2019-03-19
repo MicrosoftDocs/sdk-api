@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagSOCK_ADDR
-title: DIAG_SOCKADDR
+title: DIAG_SOCKADDR (ndattrib.h)
 author: windows-sdk-content
 description: Stores an Internet Protocol (IP) address for a computer that is participating in a Windows Sockets communication.
 old-location: ndf\diag_sockaddr.htm

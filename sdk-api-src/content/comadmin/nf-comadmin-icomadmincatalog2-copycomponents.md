@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CopyComponents
-title: ICOMAdminCatalog2::CopyComponents
+title: ICOMAdminCatalog2::CopyComponents (comadmin.h)
 author: windows-sdk-content
 description: Copies the specified components from one partition to another.
 old-location: cos\icomadmincatalog2_copycomponents.htm

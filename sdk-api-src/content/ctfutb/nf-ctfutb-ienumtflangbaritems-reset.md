@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.IEnumTfLangBarItems.Reset
-title: IEnumTfLangBarItems::Reset
+title: IEnumTfLangBarItems::Reset (ctfutb.h)
 author: windows-sdk-content
 description: IEnumTfLangBarItems::Reset method
 old-location: tsf\ienumtflangbaritems_reset.htm

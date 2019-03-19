@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterIncrement
-title: SHGlobalCounterIncrement function
+title: SHGlobalCounterIncrement function (shlwapi.h)
 author: windows-sdk-content
 description: Increments a global counter.
 old-location: shell\SHGlobalCounterIncrement.htm

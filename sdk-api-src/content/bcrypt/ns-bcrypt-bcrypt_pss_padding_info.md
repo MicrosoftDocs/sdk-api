@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_PSS_PADDING_INFO
-title: BCRYPT_PSS_PADDING_INFO
+title: BCRYPT_PSS_PADDING_INFO (bcrypt.h)
 author: windows-sdk-content
 description: Used to provide options for the Probabilistic Signature Scheme (PSS) padding scheme.
 old-location: security\bcrypt_pss_padding_info.htm

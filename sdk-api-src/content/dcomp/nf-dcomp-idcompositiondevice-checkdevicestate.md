@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CheckDeviceState
-title: IDCompositionDevice::CheckDeviceState
+title: IDCompositionDevice::CheckDeviceState (dcomp.h)
 author: windows-sdk-content
 description: Determines whether the DirectComposition device object is still valid.
 old-location: directcomp\idcompositiondevice_checkdevicestate.htm

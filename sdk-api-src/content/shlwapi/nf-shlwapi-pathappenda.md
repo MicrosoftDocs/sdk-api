@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathAppendA
-title: PathAppendA function
+title: PathAppendA function (shlwapi.h)
 author: windows-sdk-content
 description: Appends one path to the end of another.
 old-location: shell\PathAppend.htm

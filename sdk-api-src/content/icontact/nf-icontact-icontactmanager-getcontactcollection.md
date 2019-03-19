@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactManager.GetContactCollection
-title: IContactManager::GetContactCollection
+title: IContactManager::GetContactCollection (icontact.h)
 author: windows-sdk-content
 description: Returns an IContactCollection object that contains all known contacts.
 old-location: wincontacts\_wincontacts_IContactManager_GetContactCollection.htm

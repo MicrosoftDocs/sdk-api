@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.NextPage
-title: IShellImageData::NextPage
+title: IShellImageData::NextPage (shimgdata.h)
 author: windows-sdk-content
 description: Switches to the next page of a multipage image. Any associated animations are reset.
 old-location: shell\IShellImageData_NextPage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1SvgGlyphStyle
-title: ID2D1SvgGlyphStyle
+title: ID2D1SvgGlyphStyle (d2d1_3.h)
 author: windows-sdk-content
 description: This object supplies the values for context-fill, context-stroke, and context-value that are used when rendering SVG glyphs.
 old-location: direct2d\id2d1svgglyphstyle.htm

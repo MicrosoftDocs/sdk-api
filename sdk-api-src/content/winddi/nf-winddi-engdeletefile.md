@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngDeleteFile
-title: EngDeleteFile function
+title: EngDeleteFile function (winddi.h)
 author: windows-sdk-content
 description: The EngDeleteFile function deletes a file.
 old-location: display\engdeletefile.htm

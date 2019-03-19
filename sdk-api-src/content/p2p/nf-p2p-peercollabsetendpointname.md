@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabSetEndpointName
-title: PeerCollabSetEndpointName function
+title: PeerCollabSetEndpointName function (p2p.h)
 author: windows-sdk-content
 description: Sets the name of the current endpoint used by the peer application.
 old-location: p2p\peercollabsetendpointname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_ReminderDuration
-title: IOCSPCAConfiguration::get_ReminderDuration
+title: IOCSPCAConfiguration::get_ReminderDuration (certadm.h)
 author: windows-sdk-content
 description: Gets or sets the percentage of a signing certificate lifetime after which a warning event is logged.
 old-location: security\iocspcaconfiguration_reminderduration_method.htm

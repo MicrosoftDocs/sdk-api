@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
-title: IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId
+title: IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility child identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.CreateDefaultConfiguration
-title: IFhConfigMgr::CreateDefaultConfiguration
+title: IFhConfigMgr::CreateDefaultConfiguration (fhcfg.h)
 author: windows-sdk-content
 description: Creates File History configuration files with default settings for the current user and loads them into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_createdefaultconfiguration.htm

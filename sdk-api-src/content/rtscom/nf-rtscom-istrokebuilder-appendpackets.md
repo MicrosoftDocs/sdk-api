@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.AppendPackets
-title: IStrokeBuilder::AppendPackets
+title: IStrokeBuilder::AppendPackets (rtscom.h)
 author: windows-sdk-content
 description: Adds a packet to the end of the digitizer input packet list.
 old-location: tablet\istrokebuilder_appendpackets.htm

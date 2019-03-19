@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_HWPROVIDER_TYPE
-title: VDS_HWPROVIDER_TYPE
+title: VDS_HWPROVIDER_TYPE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a hardware provider.
 old-location: base\vds_hwprovider_type.htm

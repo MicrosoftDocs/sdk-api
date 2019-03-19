@@ -1,6 +1,6 @@
 ---
 UID: NE:raseapif._RAS_AUTH_ATTRIBUTE_TYPE_
-title: RAS_AUTH_ATTRIBUTE_TYPE
+title: RAS_AUTH_ATTRIBUTE_TYPE (raseapif.h)
 author: windows-sdk-content
 description: The RAS_AUTH_ATTRIBUTE_TYPE enumerated type specifies attribute values used for session authentication.
 old-location: eap\ras_auth_attribute_type.htm

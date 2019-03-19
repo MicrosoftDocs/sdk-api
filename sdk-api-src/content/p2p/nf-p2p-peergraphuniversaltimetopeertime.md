@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphUniversalTimeToPeerTime
-title: PeerGraphUniversalTimeToPeerTime function
+title: PeerGraphUniversalTimeToPeerTime function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphUniversalTimeToPeerTime function converts a universal time value from the peer's computer to a common peer graph time value.
 old-location: p2p\peergraphuniversaltimetopeertime.htm

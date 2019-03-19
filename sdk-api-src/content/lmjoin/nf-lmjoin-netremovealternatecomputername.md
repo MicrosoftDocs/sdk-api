@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetRemoveAlternateComputerName
-title: NetRemoveAlternateComputerName function
+title: NetRemoveAlternateComputerName function (lmjoin.h)
 author: windows-sdk-content
 description: Removes an alternate name for the specified computer.
 old-location: netmgmt\netremovealternatecomputername.htm

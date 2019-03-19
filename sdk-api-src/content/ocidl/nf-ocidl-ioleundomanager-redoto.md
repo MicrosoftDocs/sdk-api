@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleUndoManager.RedoTo
-title: IOleUndoManager::RedoTo
+title: IOleUndoManager::RedoTo (ocidl.h)
 author: windows-sdk-content
 description: Instructs the undo manager to invoke undo actions back through the redo stack, down to and including the specified undo unit.
 old-location: com\ioleundomanager_redoto.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallUnmarshal.ReleaseMarshalData
-title: ICallUnmarshal::ReleaseMarshalData
+title: ICallUnmarshal::ReleaseMarshalData (callobj.h)
 author: windows-sdk-content
 description: Releases resources that may be held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet and calls the CoReleaseMarshalData function on each interface pointer.
 old-location: com\icallunmarshal_releasemarshaldata.htm

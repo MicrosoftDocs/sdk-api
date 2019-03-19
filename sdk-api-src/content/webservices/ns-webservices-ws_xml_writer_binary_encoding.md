@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_BINARY_ENCODING
-title: WS_XML_WRITER_BINARY_ENCODING
+title: WS_XML_WRITER_BINARY_ENCODING (webservices.h)
 author: windows-sdk-content
 description: Used to indicate that the writer should emit bytes as binary xml.
 old-location: wsw\ws_xml_writer_binary_encoding.htm

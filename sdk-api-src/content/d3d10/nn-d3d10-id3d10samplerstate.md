@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10.ID3D10SamplerState
-title: ID3D10SamplerState
+title: ID3D10SamplerState (d3d10.h)
 author: windows-sdk-content
 description: A sampler-state interface accesses sampler state for a texture.
 old-location: direct3d10\id3d10samplerstate.htm

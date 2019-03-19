@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusbrush.LinearGradientBrush
-title: LinearGradientBrush
+title: LinearGradientBrush (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush class defines a brush that paints a color gradient in which the color changes evenly from the starting boundary line of the linear gradient brush to the ending boundary line of the linear gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Class.htm

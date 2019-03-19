@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.erase
-title: IWMPCdromBurn::erase
+title: IWMPCdromBurn::erase (wmp.h)
 author: windows-sdk-content
 description: The erase method erases the current CD.
 old-location: wmp\iwmpcdromburn_erase.htm

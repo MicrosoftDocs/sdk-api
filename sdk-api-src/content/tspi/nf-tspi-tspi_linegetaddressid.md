@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineGetAddressID
-title: TSPI_lineGetAddressID function
+title: TSPI_lineGetAddressID function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineGetAddressID function returns the address identifier associated with address in a different format on the specified line.
 old-location: tspi\tspi_linegetaddressid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_CHANGE0_
-title: FWPM_FILTER_CHANGE0
+title: FWPM_FILTER_CHANGE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores change notification dispatched to subscribers.
 old-location: fwp\fwpm_filter_change0_struct.htm

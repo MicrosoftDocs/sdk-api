@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.IsFileOnClusterSharedVolume
-title: IsFileOnClusterSharedVolume function
+title: IsFileOnClusterSharedVolume function (clusapi.h)
 author: windows-sdk-content
 description: Specifies whether the file is on the cluster shared volume.
 old-location: mscs\isfileonclustersharedvolume.htm

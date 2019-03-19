@@ -1,6 +1,6 @@
 ---
 UID: NF:raseapif.RasEapGetIdentity
-title: RasEapGetIdentity function
+title: RasEapGetIdentity function (raseapif.h)
 author: windows-sdk-content
 description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.
 old-location: eap\raseapgetidentity.htm

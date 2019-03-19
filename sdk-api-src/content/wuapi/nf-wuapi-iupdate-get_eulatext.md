@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_EulaText
-title: IUpdate::get_EulaText
+title: IUpdate::get_EulaText (wuapi.h)
 author: windows-sdk-content
 description: Gets the full localized text of the Microsoft Software License Terms that are associated with the update.
 old-location: wua\iupdate_eulatext.htm

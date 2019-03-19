@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentProcessId
-title: IUIAutomationElement::get_CurrentProcessId
+title: IUIAutomationElement::get_CurrentProcessId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the process that hosts the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentProcessId.htm

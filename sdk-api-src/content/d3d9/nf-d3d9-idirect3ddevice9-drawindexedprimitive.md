@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawIndexedPrimitive
-title: IDirect3DDevice9::DrawIndexedPrimitive
+title: IDirect3DDevice9::DrawIndexedPrimitive (d3d9.h)
 author: windows-sdk-content
 description: Based on indexing, renders the specified geometric primitive into an array of vertices.
 old-location: direct3d9\idirect3ddevice9__drawindexedprimitive.htm

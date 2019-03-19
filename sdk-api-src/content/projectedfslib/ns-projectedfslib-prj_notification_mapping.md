@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_NOTIFICATION_MAPPING
-title: PRJ_NOTIFICATION_MAPPING
+title: PRJ_NOTIFICATION_MAPPING (projectedfslib.h)
 author: windows-sdk-content
 description: Describes a notification mapping, which is a pairing between a directory (referred to as a &#0034;notification root&#0034;) and a set of notifications, expressed as a bit mask.
 old-location: projfs\prj_notification_mapping.htm

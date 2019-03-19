@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_COMPARE
-title: OFFLINEFILES_COMPARE
+title: OFFLINEFILES_COMPARE (cscobj.h)
 author: windows-sdk-content
 description: Specifies the type of comparison to perform in the IOfflineFilesItemFilter::GetTimeFilter method.
 old-location: of\offlinefiles_compare.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.GetIObjectControl
-title: IManagedObjectInfo::GetIObjectControl
+title: IManagedObjectInfo::GetIObjectControl (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the IObjectControl interface that is associated with the managed object.
 old-location: cos\imanagedobjectinfo_getiobjectcontrol.htm

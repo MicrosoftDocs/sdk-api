@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PENUMLOADED_MODULES_CALLBACK64
-title: PENUMLOADED_MODULES_CALLBACK64
+title: PENUMLOADED_MODULES_CALLBACK64 (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the EnumerateLoadedModules64 function.
 old-location: base\enumerateloadedmodulesproc64.htm

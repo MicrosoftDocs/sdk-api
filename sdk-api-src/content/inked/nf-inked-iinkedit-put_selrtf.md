@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.put_SelRTF
-title: IInkEdit::put_SelRTF
+title: IInkEdit::put_SelRTF (inked.h)
 author: windows-sdk-content
 description: Gets or sets the currently selected Rich Text Format (RTF) formatted text in the InkEdit control (run time only).
 old-location: tablet\inkedit_selrtf.htm

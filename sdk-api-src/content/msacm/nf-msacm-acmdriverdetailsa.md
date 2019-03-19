@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmDriverDetailsA
-title: acmDriverDetailsA function
+title: acmDriverDetailsA function (msacm.h)
 author: windows-sdk-content
 description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.
 old-location: multimedia\acmdriverdetails.htm

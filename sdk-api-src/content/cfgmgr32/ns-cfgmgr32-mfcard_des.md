@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.MfCard_Des_s
-title: MFCARD_DES
+title: MFCARD_DES (cfgmgr32.h)
 author: windows-sdk-content
 description: The MFCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.
 old-location: devinst\mfcard_des.htm

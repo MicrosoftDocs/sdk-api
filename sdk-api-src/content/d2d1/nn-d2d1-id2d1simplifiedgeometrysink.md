@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1SimplifiedGeometrySink
-title: ID2D1SimplifiedGeometrySink
+title: ID2D1SimplifiedGeometrySink (d2d1.h)
 author: windows-sdk-content
 description: Describes a geometric path that does not contain quadratic bezier curves or arcs.
 old-location: direct2d\ID2D1SimplifiedGeometrySink.htm

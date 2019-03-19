@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.put_accValue
-title: IAccessible::put_accValue
+title: IAccessible::put_accValue (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::put_accValue method sets the value of the specified object. Not all objects have a value.
 old-location: winauto\iaccessible_iaccessible__put_accvalue.htm

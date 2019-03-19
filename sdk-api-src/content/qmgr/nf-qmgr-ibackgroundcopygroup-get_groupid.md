@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.get_GroupID
-title: IBackgroundCopyGroup::get_GroupID
+title: IBackgroundCopyGroup::get_GroupID (qmgr.h)
 author: windows-sdk-content
 description: Use the get_GroupID method to retrieve the group's identifier.
 old-location: bits\ibackgroundcopygroup_get_groupid.htm

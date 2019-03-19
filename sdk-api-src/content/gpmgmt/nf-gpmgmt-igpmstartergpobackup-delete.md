@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.Delete
-title: IGPMStarterGPOBackup::Delete
+title: IGPMStarterGPOBackup::Delete (gpmgmt.h)
 author: windows-sdk-content
 description: Removes the Starter GPO backup from the backup directory, and from the file system.
 old-location: gpmc\igpmstartergpobackup_delete.htm

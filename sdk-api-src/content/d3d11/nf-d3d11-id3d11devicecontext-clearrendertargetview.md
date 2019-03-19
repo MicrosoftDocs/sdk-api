@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearRenderTargetView
-title: ID3D11DeviceContext::ClearRenderTargetView
+title: ID3D11DeviceContext::ClearRenderTargetView (d3d11.h)
 author: windows-sdk-content
 description: Set all the elements in a render target to one value.
 old-location: direct3d11\id3d11devicecontext_clearrendertargetview.htm

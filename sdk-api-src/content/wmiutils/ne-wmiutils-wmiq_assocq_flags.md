@@ -1,6 +1,6 @@
 ---
 UID: NE:wmiutils.__MIDL___MIDL_itf_wmiutils_0000_0001_0003
-title: WMIQ_ASSOCQ_FLAGS
+title: WMIQ_ASSOCQ_FLAGS (wmiutils.h)
 author: windows-sdk-content
 description: Contains flags that indicate the features in a query.
 old-location: wmi\wmiq_assocq_flags.htm

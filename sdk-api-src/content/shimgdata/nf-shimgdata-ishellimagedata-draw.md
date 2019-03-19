@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.Draw
-title: IShellImageData::Draw
+title: IShellImageData::Draw (shimgdata.h)
 author: windows-sdk-content
 description: Draws a decoded image.
 old-location: shell\IShellImageData_Draw.htm

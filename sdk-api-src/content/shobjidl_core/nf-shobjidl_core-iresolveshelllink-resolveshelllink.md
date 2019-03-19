@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IResolveShellLink.ResolveShellLink
-title: IResolveShellLink::ResolveShellLink
+title: IResolveShellLink::ResolveShellLink (shobjidl_core.h)
 author: windows-sdk-content
 description: Requests that a folder object resolve a Shell link.
 old-location: shell\IResolveShellLink_ResolveShellLink.htm

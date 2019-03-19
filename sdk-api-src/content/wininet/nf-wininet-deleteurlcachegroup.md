@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.DeleteUrlCacheGroup
-title: DeleteUrlCacheGroup function
+title: DeleteUrlCacheGroup function (wininet.h)
 author: windows-sdk-content
 description: Releases the specified GROUPID and any associated state in the cache index file.
 old-location: wininet\deleteurlcachegroup.htm

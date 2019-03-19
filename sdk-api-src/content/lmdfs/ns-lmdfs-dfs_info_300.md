@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_300
-title: DFS_INFO_300
+title: DFS_INFO_300 (lmdfs.h)
 author: windows-sdk-content
 description: Contains the name and type (domain-based or stand-alone) of a DFS namespace.
 old-location: dfs\dfs_info_300_str.htm

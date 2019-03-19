@@ -1,6 +1,6 @@
 ---
 UID: NS:winnetwk._UNIVERSAL_NAME_INFOA
-title: UNIVERSAL_NAME_INFOA
+title: UNIVERSAL_NAME_INFOA (winnetwk.h)
 author: windows-sdk-content
 description: The UNIVERSAL_NAME_INFO structure contains information about the UNC form of a universal name. It is used by the NPGetUniversalName function.
 old-location: security\universal_name_info.htm

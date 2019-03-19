@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetUncompressedVideoFormat
-title: MFGetUncompressedVideoFormat function
+title: MFGetUncompressedVideoFormat function (mfapi.h)
 author: windows-sdk-content
 description: Returns the FOURCC or D3DFORMAT value for an uncompressed video format.
 old-location: mf\mfgetuncompressedvideoformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElementArray.get_Length
-title: IUIAutomationElementArray::get_Length
+title: IUIAutomationElementArray::get_Length (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the number of elements in the collection.
 old-location: winauto\uiauto_IUIAutomationElementArray_Length.htm

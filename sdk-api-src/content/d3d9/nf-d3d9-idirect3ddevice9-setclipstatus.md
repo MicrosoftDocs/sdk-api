@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetClipStatus
-title: IDirect3DDevice9::SetClipStatus
+title: IDirect3DDevice9::SetClipStatus (d3d9.h)
 author: windows-sdk-content
 description: Sets the clip status.
 old-location: direct3d9\idirect3ddevice9__setclipstatus.htm

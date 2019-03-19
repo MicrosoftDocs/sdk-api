@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherPropertyCollection
-title: IEventSubscription::GetPublisherPropertyCollection
+title: IEventSubscription::GetPublisherPropertyCollection (eventsys.h)
 author: windows-sdk-content
 description: Retrieves a collection of properties and values stored in the publisher property bag.
 old-location: cos\ieventsubscription_getpublisherpropertycollection.htm

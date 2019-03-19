@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ALGORITHM_INFO
-title: CRYPT_XML_ALGORITHM_INFO
+title: CRYPT_XML_ALGORITHM_INFO (cryptxml.h)
 author: windows-sdk-content
 description: Contains algorithm information.
 old-location: security\crypt_xml_algorithm_info.htm

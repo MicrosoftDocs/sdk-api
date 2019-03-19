@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptUninstallDefaultContext
-title: CryptUninstallDefaultContext function
+title: CryptUninstallDefaultContext function (wincrypt.h)
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptuninstalldefaultcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.STPFLAG
-title: STPFLAG
+title: STPFLAG (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by the ITaskbarList4::SetTabProperties method to specify tab properties.
 old-location: shell\STPFLAG.htm

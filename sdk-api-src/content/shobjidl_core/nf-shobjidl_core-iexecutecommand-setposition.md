@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetPosition
-title: IExecuteCommand::SetPosition
+title: IExecuteCommand::SetPosition (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the coordinates of a point used for display.
 old-location: shell\IExecuteCommand_SetPosition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetAt(int)
-title: CHStringArray::GetAt(int)
+title: CHStringArray::GetAt(int) (chstrarr.h)
 author: windows-sdk-content
 description: Gets the array element at the specified index.
 old-location: wmi\chstringarray_getat.htm

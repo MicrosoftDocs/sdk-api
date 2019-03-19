@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.put_FriendlyName
-title: ITuningSpace::put_FriendlyName
+title: ITuningSpace::put_FriendlyName (tuner.h)
 author: windows-sdk-content
 description: The put_FriendlyName method sets the localized, user-friendly name of the tuning space.
 old-location: mstv\ituningspace_put_friendlyname.htm

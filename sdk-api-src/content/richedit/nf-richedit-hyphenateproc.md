@@ -1,6 +1,6 @@
 ---
 UID: NF:richedit.HyphenateProc
-title: HyphenateProc function
+title: HyphenateProc function (richedit.h)
 author: windows-sdk-content
 description: The HyphenateProc function is an application&#8211;defined callback function used with the EM_SETHYPHENATEINFO message. It determines how hyphenation is done in a Microsoft Rich Edit control.
 old-location: controls\HyphenateProc.htm

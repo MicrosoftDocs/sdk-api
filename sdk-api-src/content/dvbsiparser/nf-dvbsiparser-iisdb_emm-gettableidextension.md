@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetTableIdExtension
-title: IISDB_EMM::GetTableIdExtension
+title: IISDB_EMM::GetTableIdExtension (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a table_id_extension field identifying a subtable within an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_gettableidextension.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetStorageFilter
-title: ID3D10InfoQueue::GetStorageFilter
+title: ID3D10InfoQueue::GetStorageFilter (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Get the storage filter at the top of the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_getstoragefilter.htm

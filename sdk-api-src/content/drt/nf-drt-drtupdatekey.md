@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtUpdateKey
-title: DrtUpdateKey function
+title: DrtUpdateKey function (drt.h)
 author: windows-sdk-content
 description: DrtUpdateKey function updates the application data associated with a registered key.
 old-location: p2p\drtupdatekey.htm

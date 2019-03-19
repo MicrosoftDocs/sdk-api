@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EnumUIElements
-title: ITfUIElementMgr::EnumUIElements
+title: ITfUIElementMgr::EnumUIElements (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementMgr::EnumUIElements method returns IEnumTfUIElements interface pointer to enumerate the ITfUIElement.
 old-location: tsf\itfuielementmgr_enumuielements.htm

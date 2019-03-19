@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.IsSameClassName
-title: IWbemPath::IsSameClassName
+title: IWbemPath::IsSameClassName (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::IsSameClassName method tests whether the class name passed in matches the one in the path. The method can return TRUE only if the path actually has a class name.
 old-location: wmi\iwbempath_issameclassname.htm

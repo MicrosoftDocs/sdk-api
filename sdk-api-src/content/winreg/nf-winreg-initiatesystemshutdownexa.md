@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.InitiateSystemShutdownExA
-title: InitiateSystemShutdownExA function
+title: InitiateSystemShutdownExA function (winreg.h)
 author: windows-sdk-content
 description: Initiates a shutdown and optional restart of the specified computer, and optionally records the reason for the shutdown.
 old-location: base\initiatesystemshutdownex.htm

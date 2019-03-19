@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.ClearMediaItem
-title: IMFPMediaPlayer::ClearMediaItem
+title: IMFPMediaPlayer::ClearMediaItem (mfplay.h)
 author: windows-sdk-content
 description: Clears the current media item.
 old-location: mf\imfpmediaplayer_clearmediaitem.htm

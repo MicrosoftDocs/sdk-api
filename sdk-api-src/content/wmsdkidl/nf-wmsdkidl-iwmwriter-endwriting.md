@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.EndWriting
-title: IWMWriter::EndWriting
+title: IWMWriter::EndWriting (wmsdkidl.h)
 author: windows-sdk-content
 description: The EndWriting method performs tasks required at the end of a writing session.
 old-location: wmformat\iwmwriter_endwriting.htm

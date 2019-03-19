@@ -1,6 +1,6 @@
 ---
 UID: NS:mmddk.midiopendesc_tag
-title: MIDIOPENDESC
+title: MIDIOPENDESC (mmddk.h)
 author: windows-sdk-content
 description: The MIDIOPENDESC structure is a client-filled structure that provides information about how to open a MIDI device.
 old-location: audio\midiopendesc.htm

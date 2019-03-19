@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureValue
-title: IOpcDigitalSignature::GetSignatureValue
+title: IOpcDigitalSignature::GetSignatureValue (msopc.h)
 author: windows-sdk-content
 description: Gets the decoded value in the SignatureValue element of the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturevalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509EndorsementKey
-title: IX509EndorsementKey
+title: IX509EndorsementKey (certenroll.h)
 author: windows-sdk-content
 description: X.509 Endorsement Key Interface
 old-location: security\ix509endorsementkey.htm

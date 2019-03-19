@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.PauseApplicationInstances
-title: ICOMAdminCatalog2::PauseApplicationInstances
+title: ICOMAdminCatalog2::PauseApplicationInstances (comadmin.h)
 author: windows-sdk-content
 description: Pauses the specified application server processes.
 old-location: cos\icomadmincatalog2_pauseapplicationinstances.htm

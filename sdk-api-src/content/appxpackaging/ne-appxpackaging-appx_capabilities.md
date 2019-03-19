@@ -1,6 +1,6 @@
 ---
 UID: NE:appxpackaging.APPX_CAPABILITIES
-title: APPX_CAPABILITIES
+title: APPX_CAPABILITIES (appxpackaging.h)
 author: windows-sdk-content
 description: Specifies the capabilities or privileges requested by a package.
 old-location: appxpkg\appx_capabilities.htm

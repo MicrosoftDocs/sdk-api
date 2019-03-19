@@ -1,6 +1,6 @@
 ---
 UID: NN:locationapi.ICivicAddressReport
-title: ICivicAddressReport
+title: ICivicAddressReport (locationapi.h)
 author: windows-sdk-content
 description: ICivicAddressReport represents a location report that contains information in the form of a street address.
 old-location: winlocation\icivicaddressreport.htm

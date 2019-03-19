@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AllocateLocallyUniqueId
-title: AllocateLocallyUniqueId function
+title: AllocateLocallyUniqueId function (securitybaseapi.h)
 author: windows-sdk-content
 description: Allocates a locally unique identifier (LUID).
 old-location: security\allocatelocallyuniqueid.htm

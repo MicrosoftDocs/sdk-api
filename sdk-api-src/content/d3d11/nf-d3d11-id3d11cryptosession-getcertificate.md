@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCertificate
-title: ID3D11CryptoSession::GetCertificate
+title: ID3D11CryptoSession::GetCertificate (d3d11.h)
 author: windows-sdk-content
 description: Gets the driver's certificate chain.
 old-location: mf\id3d11cryptosession_getcertificate.htm

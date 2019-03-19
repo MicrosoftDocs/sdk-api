@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.MMCFreeNotifyHandle
-title: MMCFreeNotifyHandle function
+title: MMCFreeNotifyHandle function (mmc.h)
 author: windows-sdk-content
 description: Called by a snap-in to free the handle to an MMCN_PROPERTY_CHANGE notification message sent to the snap-in by MMC in response to an MMCPropertyChangeNotify call made by a property sheet.
 old-location: mmc\mmcfreenotifyhandle.htm

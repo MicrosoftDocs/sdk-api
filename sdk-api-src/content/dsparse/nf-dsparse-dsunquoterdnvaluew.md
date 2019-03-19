@@ -1,6 +1,6 @@
 ---
 UID: NF:dsparse.DsUnquoteRdnValueW
-title: DsUnquoteRdnValueW function
+title: DsUnquoteRdnValueW function (dsparse.h)
 author: windows-sdk-content
 description: The DsUnquoteRdnValue function is a client call that converts a quoted RDN value back to an unquoted RDN value.
 old-location: ad\dsunquoterdnvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertRDNValueToStrW
-title: CertRDNValueToStrW function
+title: CertRDNValueToStrW function (wincrypt.h)
 author: windows-sdk-content
 description: The CertRDNValueToStr function converts a name in a CERT_RDN_VALUE_BLOB to a null-terminated character string.
 old-location: security\certrdnvaluetostr.htm

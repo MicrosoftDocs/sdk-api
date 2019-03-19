@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_BLEND_DESC
-title: D3D10_BLEND_DESC
+title: D3D10_BLEND_DESC (d3d10.h)
 author: windows-sdk-content
 description: Describes the blend state.
 old-location: direct3d10\d3d10_blend_desc.htm

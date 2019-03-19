@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.CryptXmlDllSignData
-title: CryptXmlDllSignData
+title: CryptXmlDllSignData (cryptxml.h)
 author: windows-sdk-content
 description: Signs data.
 old-location: security\cryptxmldllsigndata.htm

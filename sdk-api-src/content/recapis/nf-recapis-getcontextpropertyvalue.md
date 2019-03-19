@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetContextPropertyValue
-title: GetContextPropertyValue function
+title: GetContextPropertyValue function (recapis.h)
 author: windows-sdk-content
 description: Returns a specified property value from the recognizer context.
 old-location: tablet\getcontextpropertyvalue.htm

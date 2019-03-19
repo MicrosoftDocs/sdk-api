@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.get_CCEnable
-title: IAMAnalogVideoEncoder::get_CCEnable
+title: IAMAnalogVideoEncoder::get_CCEnable (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The get_CCEnable determines whether closed captioning on the encoder is currently enabled.
 old-location: dshow\iamanalogvideoencoder_get_ccenable.htm

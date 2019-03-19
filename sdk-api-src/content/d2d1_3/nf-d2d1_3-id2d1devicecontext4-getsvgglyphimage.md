@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.GetSvgGlyphImage
-title: ID2D1DeviceContext4::GetSvgGlyphImage
+title: ID2D1DeviceContext4::GetSvgGlyphImage (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves an image of the SVG glyph from the color glyph cache.
 old-location: direct2d\id2d1devicecontext4_getsvgglyphimage.htm

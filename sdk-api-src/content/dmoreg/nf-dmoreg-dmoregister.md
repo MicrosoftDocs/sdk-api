@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoreg.DMORegister
-title: DMORegister function
+title: DMORegister function (dmoreg.h)
 author: windows-sdk-content
 description: The DMORegister function registers a DMO.
 old-location: dshow\dmoregister.htm

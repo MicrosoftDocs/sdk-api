@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.GetStatus
-title: IWMDMDeviceControl::GetStatus
+title: IWMDMDeviceControl::GetStatus (mswmdm.h)
 author: windows-sdk-content
 description: The GetStatus method retrieves the control status of the device.
 old-location: wmdm\iwmdmdevicecontrol_getstatus.htm

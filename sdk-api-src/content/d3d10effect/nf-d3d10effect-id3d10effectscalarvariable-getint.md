@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetInt
-title: ID3D10EffectScalarVariable::GetInt
+title: ID3D10EffectScalarVariable::GetInt (d3d10effect.h)
 author: windows-sdk-content
 description: Get an integer variable.
 old-location: direct3d10\id3d10effectscalarvariable_getint.htm

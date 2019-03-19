@@ -1,6 +1,6 @@
 ---
 UID: NF:psapi.GetModuleFileNameExA
-title: GetModuleFileNameExA function
+title: GetModuleFileNameExA function (psapi.h)
 author: windows-sdk-content
 description: Retrieves the fully qualified path for the file containing the specified module.
 old-location: psapi\getmodulefilenameex.htm

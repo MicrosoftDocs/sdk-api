@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetTargetInfo
-title: ISettingsEngine::GetTargetInfo
+title: ISettingsEngine::GetTargetInfo (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the current offline target for the engine.
 old-location: smi\isettingsengine_gettargetinfo.htm

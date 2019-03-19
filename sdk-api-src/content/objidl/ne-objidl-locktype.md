@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagLOCKTYPE
-title: LOCKTYPE
+title: LOCKTYPE (objidl.h)
 author: windows-sdk-content
 description: The LOCKTYPE enumeration values indicate the type of locking requested for the specified range of bytes. The values are used in the ILockBytes::LockRegion and IStream::LockRegion methods.
 old-location: stg\locktype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.CompareTo
-title: IWbemClassObject::CompareTo
+title: IWbemClassObject::CompareTo (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::CompareTo method compares an object to another Windows Management object. Note that there are certain constraints in this comparison process.
 old-location: wmi\iwbemclassobject_compareto.htm

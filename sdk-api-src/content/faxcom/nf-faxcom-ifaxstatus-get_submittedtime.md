@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_SubmittedTime
-title: IFaxStatus::get_SubmittedTime
+title: IFaxStatus::get_SubmittedTime (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the SubmittedTime property for the FaxStatus object of a parent FaxPort object. The SubmittedTime property is a number that represents the time the user submitted the active fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_submittedtime_cpp.htm

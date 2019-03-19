@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS8_EXPORT_PARAMS
-title: CRYPT_PKCS8_EXPORT_PARAMS
+title: CRYPT_PKCS8_EXPORT_PARAMS (wincrypt.h)
 author: windows-sdk-content
 description: Identifies the private key and a callback function to encrypt the private key. CRYPT_PKCS8_EXPORT_PARAMS is used as a parameter to the CryptExportPKCS8Ex function, which exports a private key in PKCS #8 format.
 old-location: security\crypt_pkcs8_export_params.htm

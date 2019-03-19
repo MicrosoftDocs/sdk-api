@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndPause
-title: MCIWndPause macro
+title: MCIWndPause macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndPause macro sends a command to an MCI device to pause playing or recording.
 old-location: multimedia\mciwndpause.htm

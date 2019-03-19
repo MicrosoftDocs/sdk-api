@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Move
-title: IUIAutomationTextRange::Move
+title: IUIAutomationTextRange::Move (uiautomationclient.h)
 author: windows-sdk-content
 description: Moves the text range forward or backward by the specified number of text units .
 old-location: winauto\uiauto_IUIAutomationTextRange_Move.htm

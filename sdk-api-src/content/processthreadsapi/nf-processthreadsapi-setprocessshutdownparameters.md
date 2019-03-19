@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetProcessShutdownParameters
-title: SetProcessShutdownParameters function
+title: SetProcessShutdownParameters function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.
 old-location: base\setprocessshutdownparameters.htm

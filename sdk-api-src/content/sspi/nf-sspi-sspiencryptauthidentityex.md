@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiEncryptAuthIdentityEx
-title: SspiEncryptAuthIdentityEx function
+title: SspiEncryptAuthIdentityEx function (sspi.h)
 author: windows-sdk-content
 description: Encrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.
 old-location: security\sspiencryptauthidentityex.htm

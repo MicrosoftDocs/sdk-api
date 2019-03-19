@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.SetDescBarText
-title: IResultData::SetDescBarText
+title: IResultData::SetDescBarText (mmc.h)
 author: windows-sdk-content
 description: Sets the description bar text for the result view pane.
 old-location: mmc\iresultdata_setdescbartext.htm

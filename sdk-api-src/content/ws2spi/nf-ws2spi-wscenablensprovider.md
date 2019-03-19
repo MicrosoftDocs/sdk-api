@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCEnableNSProvider
-title: WSCEnableNSProvider function
+title: WSCEnableNSProvider function (ws2spi.h)
 author: windows-sdk-content
 description: Changes the state of a given namespace provider.
 old-location: winsock\wscenablensprovider_2.htm

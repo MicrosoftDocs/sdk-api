@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_POPULATION_POLICY_PRIMARY
-title: CF_POPULATION_POLICY_PRIMARY
+title: CF_POPULATION_POLICY_PRIMARY (cfapi.h)
 author: windows-sdk-content
 description: Allows a sync provider to control how placeholder directories and files should be created by the platform. This is the primary policy.
 old-location: cloudapi\cf_population_policy_primary.htm

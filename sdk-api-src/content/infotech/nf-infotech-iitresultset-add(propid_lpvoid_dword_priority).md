@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITResultSet.Add(PROPID,LPVOID,DWORD,PRIORITY)
-title: IITResultSet::Add(PROPID,LPVOID,DWORD,PRIORITY)
+title: IITResultSet::Add(PROPID,LPVOID,DWORD,PRIORITY) (infotech.h)
 author: windows-sdk-content
 description: Adds a column to the result set.
 old-location: htmlhelp\iitresultset_add2.htm

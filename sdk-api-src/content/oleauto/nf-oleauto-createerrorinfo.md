@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.CreateErrorInfo
-title: CreateErrorInfo function
+title: CreateErrorInfo function (oleauto.h)
 author: windows-sdk-content
 description: Creates an instance of a generic error object.
 old-location: automat\createerrorinfo.htm

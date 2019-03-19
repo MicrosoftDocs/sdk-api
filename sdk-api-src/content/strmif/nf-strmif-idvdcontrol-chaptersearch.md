@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.ChapterSearch
-title: IDvdControl::ChapterSearch
+title: IDvdControl::ChapterSearch (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current chapter and starts playback from the specified chapter within the same title.
 old-location: dshow\idvdcontrol_chaptersearch.htm

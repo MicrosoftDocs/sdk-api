@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ResetTransform
-title: Graphics::ResetTransform
+title: Graphics::ResetTransform (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::ResetTransform method sets the world transformation matrix of this Graphics object to the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ResetTransform_.htm

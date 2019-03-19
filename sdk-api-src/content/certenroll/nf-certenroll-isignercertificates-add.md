@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Add
-title: ISignerCertificates::Add
+title: ISignerCertificates::Add (certenroll.h)
 author: windows-sdk-content
 description: Adds an ISignerCertificate object to the collection.
 old-location: security\isignercertificates_add_method.htm

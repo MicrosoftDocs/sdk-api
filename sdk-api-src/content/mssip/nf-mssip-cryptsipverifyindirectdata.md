@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPVerifyIndirectData
-title: CryptSIPVerifyIndirectData function
+title: CryptSIPVerifyIndirectData function (mssip.h)
 author: windows-sdk-content
 description: Validates the indirect hashed data against the supplied subject.
 old-location: security\cryptsipverifyindirectdata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetDeviceIdentifier
-title: IDirectDraw7::GetDeviceIdentifier
+title: IDirectDraw7::GetDeviceIdentifier (ddraw.h)
 author: windows-sdk-content
 description: Obtains information about the device driver. This method can be used, with caution, to recognize specific hardware installations to implement workarounds for poor driver or chipset behavior.
 old-location: directdraw\idirectdraw7_getdeviceidentifier.htm

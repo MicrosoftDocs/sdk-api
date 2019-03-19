@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHShowManageLibraryUI
-title: SHShowManageLibraryUI function
+title: SHShowManageLibraryUI function (shobjidl_core.h)
 author: windows-sdk-content
 description: Shows the library management dialog box, which enables users to manage the library folders and default save location.
 old-location: shell\SHShowManageLibraryUI.htm

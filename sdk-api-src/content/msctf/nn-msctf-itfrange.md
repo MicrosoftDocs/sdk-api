@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfRange
-title: ITfRange
+title: ITfRange (msctf.h)
 author: windows-sdk-content
 description: The ITfRange interface is used by text services and applications to reference and manipulate text within a given context. The interface ID is IID_ITfRange.
 old-location: tsf\itfrange.htm

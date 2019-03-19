@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_parse_vlv_controlA
-title: ldap_parse_vlv_controlA function
+title: ldap_parse_vlv_controlA function (winldap.h)
 author: windows-sdk-content
 description: Used to find and parse VLV search results.
 old-location: ldap\ldap_parse_vlv_control.htm

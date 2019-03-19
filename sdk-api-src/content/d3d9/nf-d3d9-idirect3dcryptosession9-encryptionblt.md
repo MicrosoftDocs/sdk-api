@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.EncryptionBlt
-title: IDirect3DCryptoSession9::EncryptionBlt
+title: IDirect3DCryptoSession9::EncryptionBlt (d3d9.h)
 author: windows-sdk-content
 description: Reads encrypted data from a protected surface.
 old-location: mf\idirect3dcryptosession9_encryptionblt.htm

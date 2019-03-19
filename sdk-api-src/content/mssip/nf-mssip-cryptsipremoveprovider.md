@@ -1,6 +1,6 @@
 ---
 UID: NF:mssip.CryptSIPRemoveProvider
-title: CryptSIPRemoveProvider function
+title: CryptSIPRemoveProvider function (mssip.h)
 author: windows-sdk-content
 description: Removes registry details of a Subject Interface Package (SIP) DLL file added by a previous call to the CryptSIPAddProvider function.
 old-location: security\cryptsipremoveprovider.htm

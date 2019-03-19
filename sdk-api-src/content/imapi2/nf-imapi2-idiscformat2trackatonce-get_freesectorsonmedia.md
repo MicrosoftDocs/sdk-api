@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
-title: IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia
+title: IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of sectors available for adding a new track to the media.
 old-location: imapi\idiscformat2trackatonce_get_freesectorsonmedia.htm

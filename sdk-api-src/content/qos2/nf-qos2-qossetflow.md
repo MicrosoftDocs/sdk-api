@@ -1,6 +1,6 @@
 ---
 UID: NF:qos2.QOSSetFlow
-title: QOSSetFlow function
+title: QOSSetFlow function (qos2.h)
 author: windows-sdk-content
 description: Is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.
 old-location: qos\qossetoutgoingrate.htm

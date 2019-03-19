@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._PKU2U_CREDUI_CONTEXT
-title: PKU2U_CREDUI_CONTEXT
+title: PKU2U_CREDUI_CONTEXT (ntsecapi.h)
 author: windows-sdk-content
 description: Specifies a PKU2U client context.
 old-location: security\pku2u_credui_context.htm

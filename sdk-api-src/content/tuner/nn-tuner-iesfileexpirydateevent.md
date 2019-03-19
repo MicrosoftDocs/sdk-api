@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IESFileExpiryDateEvent
-title: IESFileExpiryDateEvent
+title: IESFileExpiryDateEvent (tuner.h)
 author: windows-sdk-content
 description: Gets information from a FileExpiryDate event.
 old-location: mstv\iesfileexpirydateevent.htm

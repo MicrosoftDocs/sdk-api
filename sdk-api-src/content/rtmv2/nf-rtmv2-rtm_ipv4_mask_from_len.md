@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_MASK_FROM_LEN
-title: RTM_IPV4_MASK_FROM_LEN macro
+title: RTM_IPV4_MASK_FROM_LEN macro (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_IPV4_MASK_FROM_LEN macro converts a generic route length to an IPv4 mask.
 old-location: rras\rtm_ipv4_mask_from_len.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Id
-title: IFaxOutgoingMessage::get_Id
+title: IFaxOutgoingMessage::get_Id (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_Id property is a null-terminated string that contains a unique identifier for the outbound fax message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_id_cpp.htm

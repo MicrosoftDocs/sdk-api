@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_REQUEST_V1
-title: HTTP_REQUEST_V1
+title: HTTP_REQUEST_V1 (http.h)
 author: windows-sdk-content
 description: Uses the HTTP_REQUEST structure to return data associated with a specific request.
 old-location: http\http_request_v1.htm

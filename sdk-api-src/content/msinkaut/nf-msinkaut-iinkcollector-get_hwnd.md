@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_hWnd
-title: IInkCollector::get_hWnd
+title: IInkCollector::get_hWnd (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the handle value of the window on which ink is drawn.
 old-location: tablet\inkcollector_hwnd.htm

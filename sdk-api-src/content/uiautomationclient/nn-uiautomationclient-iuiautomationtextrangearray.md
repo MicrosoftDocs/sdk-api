@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRangeArray
-title: IUIAutomationTextRangeArray
+title: IUIAutomationTextRangeArray (uiautomationclient.h)
 author: windows-sdk-content
 description: Represents a collection of IUIAutomationTextRange objects.
 old-location: winauto\uiauto_IUIAutomationTextRangeArray.htm

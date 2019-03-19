@@ -1,6 +1,6 @@
 ---
 UID: NC:imagehlp.PIMAGEHLP_STATUS_ROUTINE
-title: PIMAGEHLP_STATUS_ROUTINE
+title: PIMAGEHLP_STATUS_ROUTINE (imagehlp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the BindImageEx function. The status routine is called during the process of the image binding.
 old-location: base\statusroutine.htm

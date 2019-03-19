@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncDDService
-title: eAVEncDDService
+title: eAVEncDDService (codecapi.h)
 author: windows-sdk-content
 description: Specifies the audio service contained in a Dolby Digital audio stream. This enumeration is used with the AVEncDDService property.
 old-location: dshow\eavencddservice.htm

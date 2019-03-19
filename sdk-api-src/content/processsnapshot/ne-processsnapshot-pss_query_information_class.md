@@ -1,6 +1,6 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_3
-title: PSS_QUERY_INFORMATION_CLASS
+title: PSS_QUERY_INFORMATION_CLASS (processsnapshot.h)
 author: windows-sdk-content
 description: Specifies what information PssQuerySnapshot function returns.
 old-location: proc_snap\pss_query_information_class.htm

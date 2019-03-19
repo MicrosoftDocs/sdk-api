@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterSharedVolumeSetSnapshotState
-title: ClusterSharedVolumeSetSnapshotState function
+title: ClusterSharedVolumeSetSnapshotState function (clusapi.h)
 author: windows-sdk-content
 description: Updates the state of a snapshot of a cluster shared volume.
 old-location: mscs\clustersharedvolumesetsnapshotstate.htm

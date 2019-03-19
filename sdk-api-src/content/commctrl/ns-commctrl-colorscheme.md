@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagCOLORSCHEME
-title: COLORSCHEME
+title: COLORSCHEME (commctrl.h)
 author: windows-sdk-content
 description: Contains information for the drawing of buttons in a toolbar or rebar.
 old-location: controls\COLORSCHEME.htm

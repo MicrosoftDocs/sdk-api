@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.LoadStarterGPO
-title: IGPMDomain2::LoadStarterGPO
+title: IGPMDomain2::LoadStarterGPO (gpmgmt.h)
 author: windows-sdk-content
 description: Opens a Starter Group Policy object (GPO) cabinet (CAB) file and imports it into the domain.
 old-location: gpmc\igpmdomain2_loadstartergpo.htm

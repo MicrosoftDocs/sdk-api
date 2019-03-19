@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.Cancel
-title: IWMIndexer::Cancel
+title: IWMIndexer::Cancel (wmsdkidl.h)
 author: windows-sdk-content
 description: The Cancel method cancels the current indexing operation.
 old-location: wmformat\iwmindexer_cancel.htm

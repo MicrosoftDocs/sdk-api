@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6PrefixLeaseInformation
-title: DHCPV6PrefixLeaseInformation
+title: DHCPV6PrefixLeaseInformation (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Information about a prefix lease.
 old-location: dhcp\dhcpv6prefixleaseinformation.htm

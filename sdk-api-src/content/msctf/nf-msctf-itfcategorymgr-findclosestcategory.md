@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.FindClosestCategory
-title: ITfCategoryMgr::FindClosestCategory
+title: ITfCategoryMgr::FindClosestCategory (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::FindClosestCategory method
 old-location: tsf\itfcategorymgr_findclosestcategory.htm

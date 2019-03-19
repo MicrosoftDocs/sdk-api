@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.DeleteValue
-title: IWbemContext::DeleteValue
+title: IWbemContext::DeleteValue (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext::DeleteValue method deletes a named context value created by IWbemContext::SetValue.
 old-location: wmi\iwbemcontext_deletevalue.htm

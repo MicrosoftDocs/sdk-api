@@ -1,6 +1,6 @@
 ---
 UID: NE:dvdmedia.__unnamed_enum_7
-title: AM_PROPERTY_DVD_RATE_CHANGE
+title: AM_PROPERTY_DVD_RATE_CHANGE (dvdmedia.h)
 author: windows-sdk-content
 description: The AM_PROPERTY_DVD_RATE_CHANGE enumeration is not used.
 old-location: dshow\am_property_dvd_rate_change.htm

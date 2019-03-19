@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_TRANSFER
-title: PDX_TRANSFER
+title: PDX_TRANSFER (dxmini.h)
 author: windows-sdk-content
 description: The DxTransfer callback function informs the driver to bus master data from a surface to the buffer specified in the memory descriptor list (MDL).
 old-location: display\dxtransfer.htm

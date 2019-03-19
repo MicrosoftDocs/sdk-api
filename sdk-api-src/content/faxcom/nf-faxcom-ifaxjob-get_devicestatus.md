@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_DeviceStatus
-title: IFaxJob::get_DeviceStatus
+title: IFaxJob::get_DeviceStatus (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_DeviceStatus property is a null-terminated string that describes the status of the port associated with the fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_devicestatus_cpp.htm

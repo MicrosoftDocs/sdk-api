@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.MoveUp
-title: ITextSelection::MoveUp
+title: ITextSelection::MoveUp (tom.h)
 author: windows-sdk-content
 description: Mimics the functionality of the Up Arrow and Page Up keys.
 old-location: controls\ITextSelection_MoveUp.htm

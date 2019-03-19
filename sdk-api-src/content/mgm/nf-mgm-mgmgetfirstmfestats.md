@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGetFirstMfeStats
-title: MgmGetFirstMfeStats function
+title: MgmGetFirstMfeStats function (mgm.h)
 author: windows-sdk-content
 description: The MgmGetFirstMfeStats function retrieves MFE statistics starting at the beginning of the MFE list.
 old-location: rras\mgmgetfirstmfestats.htm

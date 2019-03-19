@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetStringId
-title: IUserInputString::GetStringId
+title: IUserInputString::GetStringId (photoacquire.h)
 author: windows-sdk-content
 description: The GetStringId method retrieves the unlocalized canonical name for the requested string. For example, when requesting a tag name, the canonical name might be &#0034;TagName&#0034;.
 old-location: picacq\iuserinputstring_getstringid.htm

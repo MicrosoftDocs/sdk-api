@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.BrightnessContrast.SetParameters
-title: BrightnessContrast::SetParameters
+title: BrightnessContrast::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The BrightnessContrast::SetParameters method sets the parameters of this BrightnessContrast object.
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_SetParameters_.htm

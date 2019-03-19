@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.SetColor
-title: IXpsOMSolidColorBrush::SetColor
+title: IXpsOMSolidColorBrush::SetColor (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the color value and color profile of the brush.
 old-location: xps\ixpsomsolidcolorbrush_setcolor.htm

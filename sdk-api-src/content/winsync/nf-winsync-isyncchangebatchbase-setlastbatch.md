@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetLastBatch
-title: ISyncChangeBatchBase::SetLastBatch
+title: ISyncChangeBatchBase::SetLastBatch (winsync.h)
 author: windows-sdk-content
 description: Sets a flag that indicates there are no more changes to be enumerated in the synchronization session.
 old-location: winsync\isyncchangebatchbase_setlastbatch.htm

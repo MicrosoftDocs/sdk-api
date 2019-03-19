@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.QueryProperty
-title: IWTSProtocolConnection::QueryProperty
+title: IWTSProtocolConnection::QueryProperty (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolConnection::QueryProperty is no longer available. Instead, use IWRdsProtocolConnection::QueryProperty.
 old-location: termserv\iwtsprotocolconnection_queryproperty.htm

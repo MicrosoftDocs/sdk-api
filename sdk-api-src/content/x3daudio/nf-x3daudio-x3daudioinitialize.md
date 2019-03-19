@@ -1,6 +1,6 @@
 ---
 UID: NF:x3daudio.X3DAudioInitialize
-title: X3DAudioInitialize function
+title: X3DAudioInitialize function (x3daudio.h)
 author: windows-sdk-content
 description: Sets all global 3D audio constants.
 old-location: xaudio2\x3daudioinitialize.htm

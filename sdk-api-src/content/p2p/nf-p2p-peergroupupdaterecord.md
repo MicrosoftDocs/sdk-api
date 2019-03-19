@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupUpdateRecord
-title: PeerGroupUpdateRecord function
+title: PeerGroupUpdateRecord function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupUpdateRecord function updates a record within a specific peer group.
 old-location: p2p\peergroupupdaterecord.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_NegoStatus
-title: SecPkgContext_NegoStatus
+title: SecPkgContext_NegoStatus (sspi.h)
 author: windows-sdk-content
 description: Specifies the error status of the last attempt to create a client context.
 old-location: security\secpkgcontext_negostatus.htm

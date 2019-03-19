@@ -1,6 +1,6 @@
 ---
 UID: NS:bits._BG_JOB_PROGRESS
-title: BG_JOB_PROGRESS
+title: BG_JOB_PROGRESS (bits.h)
 author: windows-sdk-content
 description: Provides job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\bg_job_progress.htm

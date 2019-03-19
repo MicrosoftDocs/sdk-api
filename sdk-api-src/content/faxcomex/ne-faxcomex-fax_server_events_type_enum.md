@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_SERVER_EVENTS_TYPE_ENUM
-title: FAX_SERVER_EVENTS_TYPE_ENUM
+title: FAX_SERVER_EVENTS_TYPE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_SERVER_EVENTS_TYPE_ENUM enumeration defines the types of events the fax service sends to client applications that are listening for events. The members of this enumeration are bit values and can be used in combination.
 old-location: fax\_mfax_fax_server_events_type_enum.htm

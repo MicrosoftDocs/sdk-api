@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_3.ID3D11Query1
-title: ID3D11Query1
+title: ID3D11Query1 (d3d11_3.h)
 author: windows-sdk-content
 description: Represents a query object for querying information from the graphics processing unit (GPU).
 old-location: direct3d11\id3d11query1.htm

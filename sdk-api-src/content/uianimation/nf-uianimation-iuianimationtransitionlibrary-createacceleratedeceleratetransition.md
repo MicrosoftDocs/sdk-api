@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition
-title: IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
+title: IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition (uianimation.h)
 author: windows-sdk-content
 description: Creates an accelerate-decelerate transition.
 old-location: uianimation\iuianimationtransitionlibrary_createacceleratedeceleratetransition.htm

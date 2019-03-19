@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_ALGORITHM_SUITE
-title: WS_SECURITY_ALGORITHM_SUITE
+title: WS_SECURITY_ALGORITHM_SUITE (webservices.h)
 author: windows-sdk-content
 description: Defines the security algorithms and key lengths to be used with WS-Security. This setting is relevant to message security bindings and mixed-mode security bindings.
 old-location: wsw\ws_security_algorithm_suite.htm

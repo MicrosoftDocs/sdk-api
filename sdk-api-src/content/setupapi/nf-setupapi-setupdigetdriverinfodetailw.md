@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetDriverInfoDetailW
-title: SetupDiGetDriverInfoDetailW function
+title: SetupDiGetDriverInfoDetailW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetDriverInfoDetail function retrieves driver information detail for a device information set or a particular device information element in the device information set.
 old-location: devinst\setupdigetdriverinfodetail.htm

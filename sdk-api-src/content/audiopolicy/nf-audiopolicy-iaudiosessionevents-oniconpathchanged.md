@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnIconPathChanged
-title: IAudioSessionEvents::OnIconPathChanged
+title: IAudioSessionEvents::OnIconPathChanged (audiopolicy.h)
 author: windows-sdk-content
 description: The OnIconPathChanged method notifies the client that the display icon for the session has changed.
 old-location: coreaudio\iaudiosessionevents_oniconpathchanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Equal
-title: XMVector3Equal function
+title: XMVector3Equal function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether two 3D vectors are equal.
 old-location: dxmath\xmvector3equal.htm

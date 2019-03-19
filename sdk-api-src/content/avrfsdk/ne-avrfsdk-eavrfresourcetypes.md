@@ -1,6 +1,6 @@
 ---
 UID: NE:avrfsdk.eAvrfResourceTypes
-title: eAvrfResourceTypes
+title: eAvrfResourceTypes (avrfsdk.h)
 author: windows-sdk-content
 description: Specifies the types of resources that can be enumerated using the VerifierEnumerateResource function.
 old-location: winprog\eavrfresourcetypes.htm

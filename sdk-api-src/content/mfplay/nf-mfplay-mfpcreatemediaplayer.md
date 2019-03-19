@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.MFPCreateMediaPlayer
-title: MFPCreateMediaPlayer function
+title: MFPCreateMediaPlayer function (mfplay.h)
 author: windows-sdk-content
 description: Creates a new instance of the MFPlay player object.
 old-location: mf\mfpcreatemediaplayer.htm

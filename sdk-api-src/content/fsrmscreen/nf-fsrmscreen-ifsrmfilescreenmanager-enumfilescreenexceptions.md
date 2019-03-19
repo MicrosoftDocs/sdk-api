@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.EnumFileScreenExceptions
-title: IFsrmFileScreenManager::EnumFileScreenExceptions
+title: IFsrmFileScreenManager::EnumFileScreenExceptions (fsrmscreen.h)
 author: windows-sdk-content
 description: Enumerates the file screen exceptions for the specified directory and its subdirectories.
 old-location: fsrm\ifsrmfilescreenmanager_enumfilescreenexceptions.htm

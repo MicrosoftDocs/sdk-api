@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const Point &)
-title: Graphics::DrawImage(IN Image,IN const Point &)
+title: Graphics::DrawImage(IN Image,IN const Point &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawImage method draws an image.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_point_.htm

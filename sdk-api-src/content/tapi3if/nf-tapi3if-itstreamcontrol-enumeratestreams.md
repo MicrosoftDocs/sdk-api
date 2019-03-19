@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStreamControl.EnumerateStreams
-title: ITStreamControl::EnumerateStreams
+title: ITStreamControl::EnumerateStreams (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateStreams method enumerates currently available media streams. Provided for C and C++ applications. Automation client applications such as Visual Basic must use the get_Streams method.
 old-location: tapi3\itstreamcontrol_enumeratestreams.htm

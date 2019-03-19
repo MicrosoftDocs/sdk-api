@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProviderEx.GetProviderCapabilities
-title: IVssHardwareSnapshotProviderEx::GetProviderCapabilities
+title: IVssHardwareSnapshotProviderEx::GetProviderCapabilities (vsprov.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_getprovidercapabilities.htm

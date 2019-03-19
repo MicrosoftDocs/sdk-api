@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_XHEIGHT
-title: DWRITE_PANOSE_XHEIGHT
+title: DWRITE_PANOSE_XHEIGHT (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_XHEIGHT enumeration contains values that specify info about the relative size of lowercase letters and the treatment of diacritic marks (xheight).
 old-location: directwrite\dwrite_panose_xheight.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.HRESULT_FACILITY
-title: HRESULT_FACILITY macro
+title: HRESULT_FACILITY macro (winerror.h)
 author: windows-sdk-content
 description: Extracts the facility of the specified HRESULT.
 old-location: com\hresult_facility_macro.htm

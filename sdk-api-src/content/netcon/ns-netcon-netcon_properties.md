@@ -1,6 +1,6 @@
 ---
 UID: NS:netcon.tagNETCON_PROPERTIES
-title: NETCON_PROPERTIES
+title: NETCON_PROPERTIES (netcon.h)
 author: windows-sdk-content
 description: The NETCON_PROPERTIES structure stores values that describe the properties of a network connection.
 old-location: ics\netcon_properties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.SetCatalogState
-title: SetCatalogState function
+title: SetCatalogState function (ntquery.h)
 author: windows-sdk-content
 description: Sets the catalog state for backup or other purposes.
 old-location: indexsrv\setcatalogstate.htm

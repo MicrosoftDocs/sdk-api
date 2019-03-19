@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TOKEN_CONTROL
-title: TOKEN_CONTROL
+title: TOKEN_CONTROL (winnt.h)
 author: windows-sdk-content
 description: Contains information that identifies an access token.
 old-location: security\token_control.htm

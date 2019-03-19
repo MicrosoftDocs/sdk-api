@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_DATA_ELEMENT
-title: DHCP_OPTION_DATA_ELEMENT
+title: DHCP_OPTION_DATA_ELEMENT (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_DATA_ELEMENT structure defines a data element present (either singly or as a member of an array) within a DHCP_OPTION_DATA structure.
 old-location: dhcp\dhcp_option_data_element.htm

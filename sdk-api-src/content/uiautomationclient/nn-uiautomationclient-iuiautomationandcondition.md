@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationAndCondition
-title: IUIAutomationAndCondition
+title: IUIAutomationAndCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Exposes properties and methods that Microsoft UI Automation client applications can use to retrieve information about an AND-based property condition.
 old-location: winauto\uiauto_IUIAutomationAndCondition.htm

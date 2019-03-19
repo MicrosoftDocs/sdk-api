@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnGetPreferredTouchKeyboardLayout.GetLayout
-title: ITfFnGetPreferredTouchKeyboardLayout::GetLayout
+title: ITfFnGetPreferredTouchKeyboardLayout::GetLayout (ctffunc.h)
 author: windows-sdk-content
 description: Obtains the touch keyboard layout identifier of the layout that the IME directs the touch keyboard to show while the IME is active.
 old-location: tsf\itffngetpreferredtouchkeyboardlayout_getlayout.htm

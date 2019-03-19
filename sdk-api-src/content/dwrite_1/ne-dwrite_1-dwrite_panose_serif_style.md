@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_SERIF_STYLE
-title: DWRITE_PANOSE_SERIF_STYLE
+title: DWRITE_PANOSE_SERIF_STYLE (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_SERIF_STYLE enumeration contains values that specify the appearance of the serif text.
 old-location: directwrite\dwrite_panose_serif_style.htm

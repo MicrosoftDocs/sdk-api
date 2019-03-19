@@ -1,6 +1,6 @@
 ---
 UID: NC:webapplication.UnregisterAuthoringClientFunctionType
-title: UnregisterAuthoringClientFunctionType
+title: UnregisterAuthoringClientFunctionType (webapplication.h)
 author: windows-sdk-content
 description: Unregisters the application-defined function that was registered with the RegisterAuthoringClientFunctionType function. This function is called when the app host terminates.
 old-location: debug\unregisterauthoringclientfunctiontype.htm

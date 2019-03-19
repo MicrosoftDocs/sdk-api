@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.GetNames
-title: ICallFrame::GetNames
+title: ICallFrame::GetNames (callobj.h)
 author: windows-sdk-content
 description: Retrieves the method or interface name of this call.
 old-location: com\icallframe_getnames.htm

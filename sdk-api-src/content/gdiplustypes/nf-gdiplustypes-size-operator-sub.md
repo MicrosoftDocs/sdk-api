@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Size.operator-sub
-title: Size::operator-sub
+title: Size::operator-sub (gdiplustypes.h)
 author: windows-sdk-content
 description: The Size::operator- method subtracts the Width and Height data members of two Size objects.
 old-location: gdiplus\_gdiplus_CLASS_Size_operator_opminus_sz_.htm

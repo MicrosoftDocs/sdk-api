@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDialogDpiChangeBehavior
-title: GetDialogDpiChangeBehavior function
+title: GetDialogDpiChangeBehavior function (winuser.h)
 author: windows-sdk-content
 description: Returns the flags that might have been set on a given dialog by an earlier call to SetDialogDpiChangeBehavior.
 old-location: hidpi\getdialogdpichangebehavior.htm

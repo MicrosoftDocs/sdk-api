@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_MESSAGE_DONE_CALLBACK
-title: WS_MESSAGE_DONE_CALLBACK
+title: WS_MESSAGE_DONE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Notifies the caller that the message has completed its use of either the WS_XML_READER structure that was supplied to WsReadEnvelopeStartfunction, or of the WS_XML_WRITER structure supplied to the WsWriteEnvelopeStart function.
 old-location: wsw\ws_message_done_callback.htm

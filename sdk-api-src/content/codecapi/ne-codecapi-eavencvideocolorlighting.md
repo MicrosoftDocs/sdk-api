@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncVideoColorLighting
-title: eAVEncVideoColorLighting
+title: eAVEncVideoColorLighting (codecapi.h)
 author: windows-sdk-content
 description: Specifies the intended lighting conditions for viewing a video source. This enumeration is used with the AVEncVideoInputColorLighting and AVEncVideoOutputColorLighting properties.
 old-location: dshow\eavencvideocolorlighting.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkTablet3
-title: IInkTablet3
+title: IInkTablet3 (msinkaut.h)
 author: windows-sdk-content
 description: Enables multitouch querying for input.
 old-location: tablet\iinktablet3.htm

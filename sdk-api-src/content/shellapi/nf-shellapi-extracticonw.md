@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.ExtractIconW
-title: ExtractIconW function
+title: ExtractIconW function (shellapi.h)
 author: windows-sdk-content
 description: Gets a handle to an icon from the specified executable file, DLL, or icon file. To retrieve an array of handles to large or small icons, use the ExtractIconEx function.
 old-location: shell\ExtractIcon.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStreamControl.CreateStream
-title: ITStreamControl::CreateStream
+title: ITStreamControl::CreateStream (tapi3if.h)
 author: windows-sdk-content
 description: The CreateStream method creates a new media stream.
 old-location: tapi3\itstreamcontrol_createstream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsVector
-title: ID3D10EffectVariable::AsVector
+title: ID3D10EffectVariable::AsVector (d3d10effect.h)
 author: windows-sdk-content
 description: Get a vector variable.
 old-location: direct3d10\id3d10effectvariable_asvector.htm

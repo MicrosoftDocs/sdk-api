@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdef._STRING
-title: STRING
+title: STRING (ntdef.h)
 author: windows-sdk-content
 description: The ANSI_STRING structure defines a counted string used for ANSI strings.
 old-location: kernel\ansi_string.htm

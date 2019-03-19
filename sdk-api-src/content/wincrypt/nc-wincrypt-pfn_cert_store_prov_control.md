@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_CONTROL
-title: PFN_CERT_STORE_PROV_CONTROL
+title: PFN_CERT_STORE_PROV_CONTROL (wincrypt.h)
 author: windows-sdk-content
 description: The CertStoreProvControl callback function supports the CertControlStore API. All of the API's parameters are passed straight through to the callback. For details, see CertControlStore.
 old-location: security\certstoreprovcontrol.htm

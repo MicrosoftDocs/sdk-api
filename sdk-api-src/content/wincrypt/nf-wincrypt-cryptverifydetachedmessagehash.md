@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptVerifyDetachedMessageHash
-title: CryptVerifyDetachedMessageHash function
+title: CryptVerifyDetachedMessageHash function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptVerifyDetachedMessageHash function verifies a detached hash.
 old-location: security\cryptverifydetachedmessagehash.htm

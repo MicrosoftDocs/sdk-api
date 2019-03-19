@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.Truncate
-title: IRdcFileWriter::Truncate
+title: IRdcFileWriter::Truncate (msrdc.h)
 author: windows-sdk-content
 description: Truncates a file to zero length.
 old-location: rdc\irdcfilewriter_truncate.htm

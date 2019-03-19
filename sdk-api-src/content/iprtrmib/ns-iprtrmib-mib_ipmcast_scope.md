@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib._MIB_IPMCAST_SCOPE
-title: MIB_IPMCAST_SCOPE
+title: MIB_IPMCAST_SCOPE (iprtrmib.h)
 author: windows-sdk-content
 description: Contains a multicast scope name and the associated IPv4 multicast group address and mask that define the scope.
 old-location: mib\mib_ipmcast_scope.htm

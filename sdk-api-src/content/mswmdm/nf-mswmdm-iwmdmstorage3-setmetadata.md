@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.SetMetadata
-title: IWMDMStorage3::SetMetadata
+title: IWMDMStorage3::SetMetadata (mswmdm.h)
 author: windows-sdk-content
 description: The SetMetadata method sets metadata on the storage.
 old-location: wmdm\iwmdmstorage3_setmetadata.htm

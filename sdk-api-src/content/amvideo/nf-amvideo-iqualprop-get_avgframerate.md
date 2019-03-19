@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IQualProp.get_AvgFrameRate
-title: IQualProp::get_AvgFrameRate
+title: IQualProp::get_AvgFrameRate (amvideo.h)
 author: windows-sdk-content
 description: The get_AvgFrameRate method retrieves the actual average frame rate since streaming started.
 old-location: dshow\iqualprop_get_avgframerate.htm

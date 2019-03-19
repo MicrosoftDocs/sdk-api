@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetScaling
-title: ITextFont2::GetScaling
+title: ITextFont2::GetScaling (tom.h)
 author: windows-sdk-content
 description: Gets the font horizontal scaling percentage.
 old-location: controls\itextfont2_getscaling.htm

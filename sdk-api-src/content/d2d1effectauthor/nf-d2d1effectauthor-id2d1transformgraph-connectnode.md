@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.ConnectNode
-title: ID2D1TransformGraph::ConnectNode
+title: ID2D1TransformGraph::ConnectNode (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Connects two nodes inside the transform graph.
 old-location: direct2d\id2d1transformgraph_connectnode.htm

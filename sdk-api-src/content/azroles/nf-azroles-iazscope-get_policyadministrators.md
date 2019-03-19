@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyAdministrators
-title: IAzScope::get_PolicyAdministrators
+title: IAzScope::get_PolicyAdministrators (azroles.h)
 author: windows-sdk-content
 description: The PolicyAdministrators property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
 old-location: security\iazscope_policyadministrators.htm

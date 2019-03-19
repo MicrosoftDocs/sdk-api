@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetRegionOfInterest
-title: IMILBitmapEffectRenderContext::SetRegionOfInterest
+title: IMILBitmapEffectRenderContext::SetRegionOfInterest (mileffects.h)
 author: windows-sdk-content
 description: Sets the region of interest for the effect.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setregionofinterest.htm

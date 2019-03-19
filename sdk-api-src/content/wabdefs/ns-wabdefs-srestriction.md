@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SRestriction
-title: SRestriction
+title: SRestriction (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Describes a filter for limiting the view of a table to particular rows.
 old-location: wab\_wab_SRestriction.htm

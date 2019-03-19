@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetHttpUrlPrefix
-title: MI_DestinationOptions_SetHttpUrlPrefix function
+title: MI_DestinationOptions_SetHttpUrlPrefix function (mi.h)
 author: windows-sdk-content
 description: Set the default HTTP URL prefix for transports that go over HTTP and HTTPS.
 old-location: wmi_v2\mi_destinationoptions_sethttpurlprefix.htm

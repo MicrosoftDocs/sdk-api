@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClient
-title: IRemoteDesktopClient
+title: IRemoteDesktopClient (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclient.htm

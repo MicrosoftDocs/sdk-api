@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpool
-title: CreateThreadpool function
+title: CreateThreadpool function (threadpoolapiset.h)
 author: windows-sdk-content
 description: Allocates a new pool of threads to execute callbacks.
 old-location: base\createthreadpool.htm

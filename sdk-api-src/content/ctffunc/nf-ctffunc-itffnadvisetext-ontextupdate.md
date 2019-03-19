@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnAdviseText.OnTextUpdate
-title: ITfFnAdviseText::OnTextUpdate
+title: ITfFnAdviseText::OnTextUpdate (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnAdviseText::OnTextUpdate method
 old-location: tsf\itffnadvisetext_ontextupdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.get_UseArchive
-title: IFaxIncomingArchive::get_UseArchive
+title: IFaxIncomingArchive::get_UseArchive (faxcomex.h)
 author: windows-sdk-content
 description: The UseArchive property is a Boolean value that indicates whether the fax service archives inbound fax messages.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_usearchive_cpp.htm

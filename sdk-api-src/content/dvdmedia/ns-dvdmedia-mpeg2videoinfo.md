@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia.tagMPEG2VIDEOINFO
-title: MPEG2VIDEOINFO
+title: MPEG2VIDEOINFO (dvdmedia.h)
 author: windows-sdk-content
 description: The MPEG2VIDEOINFO structure describes an MPEG-2 video stream.
 old-location: dshow\mpeg2videoinfo.htm

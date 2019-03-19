@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_DNN_SODAFS_CLONE_STATUS
-title: CLUS_DNN_SODAFS_CLONE_STATUS
+title: CLUS_DNN_SODAFS_CLONE_STATUS (clusapi.h)
 author: windows-sdk-content
 description: Represents the status of a Scale-Out File Server clone.
 old-location: mscs\clus_dnn_sodafs_clone_status.htm

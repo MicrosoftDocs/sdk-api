@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetOverflowRect
-title: Header_GetOverflowRect macro
+title: Header_GetOverflowRect macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the coordinates of the drop-down overflow area for a specified header control. The header control must be of type HDF_SPLITBUTTON. Use this macro or send the HDM_GETOVERFLOWRECT message explicitly.
 old-location: controls\Header_GetOverflowRect.htm

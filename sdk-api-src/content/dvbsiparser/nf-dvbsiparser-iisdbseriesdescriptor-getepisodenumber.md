@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetEpisodeNumber
-title: IIsdbSeriesDescriptor::GetEpisodeNumber
+title: IIsdbSeriesDescriptor::GetEpisodeNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the episode number from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getepisodenumber.htm

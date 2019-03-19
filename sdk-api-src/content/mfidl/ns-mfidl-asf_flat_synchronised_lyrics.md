@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._ASFFlatSynchronisedLyrics
-title: ASF_FLAT_SYNCHRONISED_LYRICS
+title: ASF_FLAT_SYNCHRONISED_LYRICS (mfidl.h)
 author: windows-sdk-content
 description: Contains synchronized lyrics stored as metadata for a media source. This structure is used as the data item for the WM/Lyrics_Synchronised metadata attribute.
 old-location: mf\asf_flat_synchronised_lyrics.htm

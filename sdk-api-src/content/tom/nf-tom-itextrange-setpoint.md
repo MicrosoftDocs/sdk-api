@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.SetPoint
-title: ITextRange::SetPoint
+title: ITextRange::SetPoint (tom.h)
 author: windows-sdk-content
 description: Changes the range based on a specified point at or up through (depending on Extend) the point (x, y) aligned according to Type.
 old-location: controls\ITextRange_SetPoint.htm

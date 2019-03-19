@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxDeviceProviders
-title: IFaxDeviceProviders
+title: IFaxDeviceProviders (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProviders interface defines a configuration collection which contains the fax device providers on a connected fax server.
 old-location: fax\_mfax_faxdeviceproviders_cpp.htm

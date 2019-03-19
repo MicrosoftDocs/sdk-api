@@ -1,6 +1,6 @@
 ---
 UID: NE:netcon.tagNETCON_STATUS
-title: NETCON_STATUS
+title: NETCON_STATUS (netcon.h)
 author: windows-sdk-content
 description: The NETCON_STATUS type enumerates possible status conditions for a network connection.
 old-location: ics\netcon_status.htm

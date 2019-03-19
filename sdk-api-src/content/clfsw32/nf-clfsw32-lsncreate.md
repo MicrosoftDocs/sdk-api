@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.LsnCreate
-title: LsnCreate function
+title: LsnCreate function (clfsw32.h)
 author: windows-sdk-content
 description: Creates a log sequence number (LSN), given a container ID, a block offset, and a record sequence number.
 old-location: fs\lsncreate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbCatNA
-title: StringCbCatNA function
+title: StringCbCatNA function (strsafe.h)
 author: windows-sdk-content
 description: Concatenates the specified number of bytes from one string to another string.
 old-location: menurc\stringcbcatn.htm

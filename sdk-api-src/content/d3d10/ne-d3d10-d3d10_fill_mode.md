@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_FILL_MODE
-title: D3D10_FILL_MODE
+title: D3D10_FILL_MODE (d3d10.h)
 author: windows-sdk-content
 description: Determines the fill mode to use when rendering triangles.
 old-location: direct3d10\d3d10_fill_mode.htm

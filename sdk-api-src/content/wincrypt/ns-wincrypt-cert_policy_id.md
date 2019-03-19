@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_ID
-title: CERT_POLICY_ID
+title: CERT_POLICY_ID (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_POLICY_ID structure contains a list of certificate policies that the certificate expressly supports, together with optional qualifier information pertaining to these policies.
 old-location: security\cert_policy_id.htm

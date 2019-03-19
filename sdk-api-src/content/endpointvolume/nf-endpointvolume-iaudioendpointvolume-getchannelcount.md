@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetChannelCount
-title: IAudioEndpointVolume::GetChannelCount
+title: IAudioEndpointVolume::GetChannelCount (endpointvolume.h)
 author: windows-sdk-content
 description: The GetChannelCount method gets a count of the channels in the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getchannelcount.htm

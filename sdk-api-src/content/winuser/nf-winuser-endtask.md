@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EndTask
-title: EndTask function
+title: EndTask function (winuser.h)
 author: windows-sdk-content
 description: Forcibly closes the specified window.
 old-location: winmsg\endtask.htm

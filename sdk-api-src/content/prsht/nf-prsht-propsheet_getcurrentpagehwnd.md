@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_GetCurrentPageHwnd
-title: PropSheet_GetCurrentPageHwnd macro
+title: PropSheet_GetCurrentPageHwnd macro (prsht.h)
 author: windows-sdk-content
 description: Retrieves a handle to the window of the current page of a property sheet. You can use this macro or send the PSM_GETCURRENTPAGEHWND message explicitly.
 old-location: controls\PropSheet_GetCurrentPageHwnd.htm

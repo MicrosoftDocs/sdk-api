@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12CommandSignature
-title: ID3D12CommandSignature
+title: ID3D12CommandSignature (d3d12.h)
 author: windows-sdk-content
 description: A command signature object enables apps to specify indirect drawing, including the buffer format, command type and resource bindings to be used.
 old-location: direct3d12\id3d12commandsignature.htm

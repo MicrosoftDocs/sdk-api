@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetActualSectionToInstallExW
-title: SetupDiGetActualSectionToInstallExW function
+title: SetupDiGetActualSectionToInstallExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture.
 old-location: devinst\setupdigetactualsectiontoinstallex.htm

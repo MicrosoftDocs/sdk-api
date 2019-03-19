@@ -1,6 +1,6 @@
 ---
 UID: NE:mprapi._RAS_HARDWARE_CONDITION
-title: RAS_HARDWARE_CONDITION
+title: RAS_HARDWARE_CONDITION (mprapi.h)
 author: windows-sdk-content
 description: The RAS_HARDWARE_CONDITION enumeration type specifies hardware status information about a given RAS port.
 old-location: rras\ras_hardware_condition.htm

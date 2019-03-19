@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IPrincipal2.get_RequiredPrivilegeCount
-title: IPrincipal2::get_RequiredPrivilegeCount
+title: IPrincipal2::get_RequiredPrivilegeCount (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of privileges in the required privileges array.
 old-location: taskschd\iprincipal2_requiredprivilegecount.htm

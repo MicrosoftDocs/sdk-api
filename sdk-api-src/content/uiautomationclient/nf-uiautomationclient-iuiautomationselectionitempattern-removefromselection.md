@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.RemoveFromSelection
-title: IUIAutomationSelectionItemPattern::RemoveFromSelection
+title: IUIAutomationSelectionItemPattern::RemoveFromSelection (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes this element from the selection.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_RemoveFromSelection.htm

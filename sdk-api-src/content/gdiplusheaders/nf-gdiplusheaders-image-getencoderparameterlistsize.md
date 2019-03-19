@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetEncoderParameterListSize
-title: Image::GetEncoderParameterListSize
+title: Image::GetEncoderParameterListSize (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetEncoderParameterListSize method gets the size, in bytes, of the parameter list for a specified image encoder.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetEncoderParameterListSize_clsidEncoder_.htm

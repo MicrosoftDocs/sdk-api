@@ -1,6 +1,6 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingActivity
-title: TraceLoggingActivity
+title: TraceLoggingActivity (traceloggingactivity.h)
 author: windows-sdk-content
 description: Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
 old-location: tracelogging\traceloggingactivity.htm

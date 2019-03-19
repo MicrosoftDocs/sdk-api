@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetFont2
-title: ITextRange2::GetFont2
+title: ITextRange2::GetFont2 (tom.h)
 author: windows-sdk-content
 description: Gets an ITextFont2 object with the character attributes of the current range.
 old-location: controls\itextrange2_getfont2.htm

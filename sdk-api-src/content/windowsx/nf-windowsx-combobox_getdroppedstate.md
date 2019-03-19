@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_GetDroppedState
-title: ComboBox_GetDroppedState macro
+title: ComboBox_GetDroppedState macro (windowsx.h)
 author: windows-sdk-content
 description: Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the CB_GETDROPPEDSTATE message explicitly.
 old-location: controls\ComboBox_GetDroppedState.htm

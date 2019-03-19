@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.HttpSendRequestW
-title: HttpSendRequestW function
+title: HttpSendRequestW function (wininet.h)
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server, allowing callers to send extra data beyond what is normally passed to HttpSendRequestEx.
 old-location: wininet\httpsendrequest.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditQuerySecurity
-title: AuditQuerySecurity function
+title: AuditQuerySecurity function (ntsecapi.h)
 author: windows-sdk-content
 description: Retrieves security descriptor that delegates access to audit policy.
 old-location: security\auditquerysecurity.htm

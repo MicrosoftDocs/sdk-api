@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetArchivedKey
-title: ICertAdmin2::GetArchivedKey
+title: ICertAdmin2::GetArchivedKey (certadm.h)
 author: windows-sdk-content
 description: Retrieves an archived key recovery BLOB.
 old-location: security\icertadmin2_getarchivedkey.htm

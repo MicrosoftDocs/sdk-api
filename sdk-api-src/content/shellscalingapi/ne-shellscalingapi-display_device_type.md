@@ -1,6 +1,6 @@
 ---
 UID: NE:shellscalingapi.__unnamed_enum_0
-title: DISPLAY_DEVICE_TYPE
+title: DISPLAY_DEVICE_TYPE (shellscalingapi.h)
 author: windows-sdk-content
 description: Indicates whether the device is a primary or immersive type of display.
 old-location: shell\display_device_type.htm

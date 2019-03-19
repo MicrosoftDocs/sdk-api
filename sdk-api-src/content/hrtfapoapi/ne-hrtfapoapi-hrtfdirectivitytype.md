@@ -1,6 +1,6 @@
 ---
 UID: NE:hrtfapoapi.HrtfDirectivityType
-title: HrtfDirectivityType
+title: HrtfDirectivityType (hrtfapoapi.h)
 author: windows-sdk-content
 description: Indicates one of several stock directivity patterns.
 old-location: xaudio2\hrtfdirectivitytype.htm

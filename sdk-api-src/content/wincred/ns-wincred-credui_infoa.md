@@ -1,6 +1,6 @@
 ---
 UID: NS:wincred._CREDUI_INFOA
-title: CREDUI_INFOA
+title: CREDUI_INFOA (wincred.h)
 author: windows-sdk-content
 description: The CREDUI_INFO structure is used to pass information to the CredUIPromptForCredentials function that creates a dialog box used to obtain credentials information.
 old-location: security\credui_info.htm

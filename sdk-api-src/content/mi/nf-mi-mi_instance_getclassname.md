@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_GetClassName
-title: MI_Instance_GetClassName function
+title: MI_Instance_GetClassName function (mi.h)
 author: windows-sdk-content
 description: Gets the class name of the specified instance.
 old-location: wmi_v2\mi_instance_getclassname.htm

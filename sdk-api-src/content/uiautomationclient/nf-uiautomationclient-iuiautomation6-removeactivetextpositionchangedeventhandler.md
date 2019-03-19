@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation6.RemoveActiveTextPositionChangedEventHandler
-title: IUIAutomation6::RemoveActiveTextPositionChangedEventHandler
+title: IUIAutomation6::RemoveActiveTextPositionChangedEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Removes an active text position changed event handler.
 old-location: winauto\uiauto_IUIAutomation6_RemoveActiveTextPositionChangedEventHandler.htm

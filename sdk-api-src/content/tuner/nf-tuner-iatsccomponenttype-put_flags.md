@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCComponentType.put_Flags
-title: IATSCComponentType::put_Flags
+title: IATSCComponentType::put_Flags (tuner.h)
 author: windows-sdk-content
 description: The put_Flags method specifies whether an audio component is in AC-3 format.
 old-location: mstv\iatsccomponenttype_put_flags.htm

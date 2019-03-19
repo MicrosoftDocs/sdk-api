@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpSendHttpResponse
-title: HttpSendHttpResponse function
+title: HttpSendHttpResponse function (http.h)
 author: windows-sdk-content
 description: Sends an HTTP response to the specified HTTP request.
 old-location: http\httpsendhttpresponse.htm

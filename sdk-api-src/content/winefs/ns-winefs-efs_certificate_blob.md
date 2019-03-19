@@ -1,6 +1,6 @@
 ---
 UID: NS:winefs._CERTIFICATE_BLOB
-title: EFS_CERTIFICATE_BLOB
+title: EFS_CERTIFICATE_BLOB (winefs.h)
 author: windows-sdk-content
 description: Contains a certificate.
 old-location: fs\efs_certificate_blob_str.htm

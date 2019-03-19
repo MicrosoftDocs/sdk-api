@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetAttributeString
-title: MFGetAttributeString function
+title: MFGetAttributeString function (mfapi.h)
 author: windows-sdk-content
 description: Gets a string value from an attribute store.
 old-location: mf\mfgetattributestring.htm

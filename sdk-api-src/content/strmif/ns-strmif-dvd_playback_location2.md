@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagDVD_PLAYBACK_LOCATION2
-title: DVD_PLAYBACK_LOCATION2
+title: DVD_PLAYBACK_LOCATION2 (strmif.h)
 author: windows-sdk-content
 description: The DVD_PLAYBACK_LOCATION2 structure indicates DVD playback location.
 old-location: dshow\dvd_playback_location2.htm

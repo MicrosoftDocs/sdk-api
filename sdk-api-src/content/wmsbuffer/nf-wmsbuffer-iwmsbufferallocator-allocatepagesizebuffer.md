@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsbuffer.IWMSBufferAllocator.AllocatePageSizeBuffer
-title: IWMSBufferAllocator::AllocatePageSizeBuffer
+title: IWMSBufferAllocator::AllocatePageSizeBuffer (wmsbuffer.h)
 author: windows-sdk-content
 description: The AllocatePageSizeBuffer method initializes a buffer that can be used to perform page-aligned reads.
 old-location: wmformat\iwmsbufferallocator_allocatepagesizebuffer.htm

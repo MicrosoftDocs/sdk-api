@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPorts.get_Count
-title: IFaxPorts::get_Count
+title: IFaxPorts::get_Count (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPorts::get_Count method retrieves the number of fax ports attached to the connected fax server.
 old-location: fax\_mfax_ifaxports_get_count.htm

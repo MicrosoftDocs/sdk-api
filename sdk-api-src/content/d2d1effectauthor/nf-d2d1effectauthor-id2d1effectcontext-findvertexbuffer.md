@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.FindVertexBuffer
-title: ID2D1EffectContext::FindVertexBuffer
+title: ID2D1EffectContext::FindVertexBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: This finds the given vertex buffer if it has already been created with ID2D1EffectContext::CreateVertexBuffer with the same GUID.
 old-location: direct2d\id2d1contextinternal_findvertexbuffer.htm

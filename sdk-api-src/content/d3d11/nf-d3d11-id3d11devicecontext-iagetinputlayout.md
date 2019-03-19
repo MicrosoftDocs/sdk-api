@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IAGetInputLayout
-title: ID3D11DeviceContext::IAGetInputLayout
+title: ID3D11DeviceContext::IAGetInputLayout (d3d11.h)
 author: windows-sdk-content
 description: Get a pointer to the input-layout object that is bound to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iagetinputlayout.htm

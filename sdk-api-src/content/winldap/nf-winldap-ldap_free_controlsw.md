@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_free_controlsW
-title: ldap_free_controlsW function
+title: ldap_free_controlsW function (winldap.h)
 author: windows-sdk-content
 description: Obsolete function which frees an array of LDAPControl structures.
 old-location: ldap\ldap_free_controls.htm

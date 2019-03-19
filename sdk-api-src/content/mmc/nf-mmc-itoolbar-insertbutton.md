@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IToolbar.InsertButton
-title: IToolbar::InsertButton
+title: IToolbar::InsertButton (mmc.h)
 author: windows-sdk-content
 description: Enables a snap-in to add a single button to the toolbar.
 old-location: mmc\itoolbar_insertbutton.htm

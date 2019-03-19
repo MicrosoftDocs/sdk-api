@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreatePalette
-title: CreatePalette function
+title: CreatePalette function (wingdi.h)
 author: windows-sdk-content
 description: The CreatePalette function creates a logical palette.
 old-location: gdi\createpalette.htm

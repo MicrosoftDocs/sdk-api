@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
-title: IUIAutomationRangeValuePattern::get_CurrentIsReadOnly
+title: IUIAutomationRangeValuePattern::get_CurrentIsReadOnly (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the value of the element can be changed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly.htm

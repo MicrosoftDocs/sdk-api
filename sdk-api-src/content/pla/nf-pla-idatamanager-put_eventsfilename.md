@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataManager.put_EventsFileName
-title: IDataManager::put_EventsFileName
+title: IDataManager::put_EventsFileName (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name for the events file.
 old-location: pla\idatamanager_eventsfilename.htm

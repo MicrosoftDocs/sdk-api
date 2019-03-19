@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManPluginReportContext
-title: WSManPluginReportContext function
+title: WSManPluginReportContext function (wsman.h)
 author: windows-sdk-content
 description: Reports shell and command context back to the Windows Remote Management (WinRM) infrastructure so that further operations can be performed against the shell and/or command.
 old-location: winrm\wsmanpluginreportcontext.htm

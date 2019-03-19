@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindActCtxSectionStringA
-title: FindActCtxSectionStringA function
+title: FindActCtxSectionStringA function (winbase.h)
 author: windows-sdk-content
 description: The FindActCtxSectionString function retrieves information on a specific string in the current activation context and returns a ACTCTX_SECTION_KEYED_DATA structure.
 old-location: setup\findactctxsectionstring.htm

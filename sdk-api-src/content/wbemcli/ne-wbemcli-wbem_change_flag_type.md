@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_CHANGE_FLAG_TYPE
-title: WBEM_CHANGE_FLAG_TYPE
+title: WBEM_CHANGE_FLAG_TYPE (wbemcli.h)
 author: windows-sdk-content
 description: Contains method parameter flags.
 old-location: wmi\wbem_change_flag_type.htm

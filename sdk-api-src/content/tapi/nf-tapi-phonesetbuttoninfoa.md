@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneSetButtonInfoA
-title: phoneSetButtonInfoA function
+title: phoneSetButtonInfoA function (tapi.h)
 author: windows-sdk-content
 description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tapi2\phonesetbuttoninfo.htm

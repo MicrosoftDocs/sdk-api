@@ -1,6 +1,6 @@
 ---
 UID: NS:wofapi._WIM_EXTERNAL_FILE_INFO
-title: WIM_EXTERNAL_FILE_INFO
+title: WIM_EXTERNAL_FILE_INFO (wofapi.h)
 author: windows-sdk-content
 description: Defines metadata specific to files provided by WOF_PROVIDER_WIM.
 old-location: fs\wim_external_file_info.htm

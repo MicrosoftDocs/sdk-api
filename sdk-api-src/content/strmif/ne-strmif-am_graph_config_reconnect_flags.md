@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_GRAPH_CONFIG_RECONNECT_FLAGS
-title: AM_GRAPH_CONFIG_RECONNECT_FLAGS
+title: AM_GRAPH_CONFIG_RECONNECT_FLAGS (strmif.h)
 author: windows-sdk-content
 description: Specifies how to reconnect filters when dynamically rebuilding the filter graph.
 old-location: dshow\am_graph_config_reconnect_flags.htm

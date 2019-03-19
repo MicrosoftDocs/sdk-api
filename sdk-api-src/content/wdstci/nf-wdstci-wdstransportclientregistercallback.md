@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstci.WdsTransportClientRegisterCallback
-title: WdsTransportClientRegisterCallback function
+title: WdsTransportClientRegisterCallback function (wdstci.h)
 author: windows-sdk-content
 description: Registers a callback with the multicast client.
 old-location: wds\wdstransportclientregistercallback.htm

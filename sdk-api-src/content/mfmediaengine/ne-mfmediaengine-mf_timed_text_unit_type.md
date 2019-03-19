@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_UNIT_TYPE
-title: MF_TIMED_TEXT_UNIT_TYPE
+title: MF_TIMED_TEXT_UNIT_TYPE (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies the units in which the timed text is measured.
 old-location: mf\mf_timed_text_unit_type.htm

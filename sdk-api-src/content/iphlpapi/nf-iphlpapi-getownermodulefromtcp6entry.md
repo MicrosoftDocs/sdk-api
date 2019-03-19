@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetOwnerModuleFromTcp6Entry
-title: GetOwnerModuleFromTcp6Entry function
+title: GetOwnerModuleFromTcp6Entry function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves data about the module that issued the context bind for a specific IPv6 TCP endpoint in a MIB table row.
 old-location: iphlp\getownermodulefromtcp6entry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.get_CachedRowOrColumnMajor
-title: IUIAutomationTablePattern::get_CachedRowOrColumnMajor
+title: IUIAutomationTablePattern::get_CachedRowOrColumnMajor (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached primary direction of traversal for the table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_CachedRowOrColumnMajor.htm

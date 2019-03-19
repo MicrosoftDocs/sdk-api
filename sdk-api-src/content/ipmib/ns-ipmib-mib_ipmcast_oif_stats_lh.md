@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_OIF_STATS_LH
-title: MIB_IPMCAST_OIF_STATS_LH
+title: MIB_IPMCAST_OIF_STATS_LH (ipmib.h)
 author: windows-sdk-content
 description: Stores the statistics that are associated with an outgoing multicast interface.
 old-location: mib\mib_ipmcast_oif_stats.htm

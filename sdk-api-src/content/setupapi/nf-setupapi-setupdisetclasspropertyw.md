@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetClassPropertyW
-title: SetupDiSetClassPropertyW function
+title: SetupDiSetClassPropertyW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetClassProperty function sets a class property for a device setup class or a device interface class.
 old-location: devinst\setupdisetclassproperty.htm

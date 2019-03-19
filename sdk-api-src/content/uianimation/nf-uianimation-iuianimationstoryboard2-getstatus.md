@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.GetStatus
-title: IUIAnimationStoryboard2::GetStatus
+title: IUIAnimationStoryboard2::GetStatus (uianimation.h)
 author: windows-sdk-content
 description: Gets the status of the storyboard.
 old-location: uianimation\iuianimationstoryboard2_getstatus.htm

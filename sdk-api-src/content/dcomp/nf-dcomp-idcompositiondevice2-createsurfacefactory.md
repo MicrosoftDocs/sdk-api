@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateSurfaceFactory
-title: IDCompositionDevice2::CreateSurfaceFactory
+title: IDCompositionDevice2::CreateSurfaceFactory (dcomp.h)
 author: windows-sdk-content
 description: Creates a Microsoft DirectComposition surface factory object, which can be used to create other DirectComposition surface or virtual surface objects.
 old-location: directcomp\idcompositiondevice2_createsurfacefactory.htm

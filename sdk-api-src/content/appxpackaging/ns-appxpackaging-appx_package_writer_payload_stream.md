@@ -1,6 +1,6 @@
 ---
 UID: NS:appxpackaging.APPX_PACKAGE_WRITER_PAYLOAD_STREAM
-title: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
+title: APPX_PACKAGE_WRITER_PAYLOAD_STREAM (appxpackaging.h)
 author: windows-sdk-content
 description: Contains the data and metadata of files to write into the app package.
 old-location: appxpkg\appx_package_writer_payload_stream.htm

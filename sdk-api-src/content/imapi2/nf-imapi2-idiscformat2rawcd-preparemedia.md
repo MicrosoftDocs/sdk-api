@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.PrepareMedia
-title: IDiscFormat2RawCD::PrepareMedia
+title: IDiscFormat2RawCD::PrepareMedia (imapi2.h)
 author: windows-sdk-content
 description: Locks the current media for exclusive access.
 old-location: imapi\idiscformat2rawcd_preparemedia.htm

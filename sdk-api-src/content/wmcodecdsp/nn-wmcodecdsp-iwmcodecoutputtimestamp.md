@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecOutputTimestamp
-title: IWMCodecOutputTimestamp
+title: IWMCodecOutputTimestamp (wmcodecdsp.h)
 author: windows-sdk-content
 description: Gets the time stamp of the next video frame to be decoded.
 old-location: mf\iwmcodecoutputtimestampinterface.htm

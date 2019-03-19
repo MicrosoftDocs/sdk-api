@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.BeginFigure
-title: ID2D1SimplifiedGeometrySink::BeginFigure
+title: ID2D1SimplifiedGeometrySink::BeginFigure (d2d1.h)
 author: windows-sdk-content
 description: Starts a new figure at the specified point.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_BeginFigure.htm

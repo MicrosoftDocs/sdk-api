@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptInstallDefaultContext
-title: CryptInstallDefaultContext function
+title: CryptInstallDefaultContext function (wincrypt.h)
 author: windows-sdk-content
 description: Installs a specific provider to be the default context provider for the specified algorithm.
 old-location: security\cryptinstalldefaultcontext.htm

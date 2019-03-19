@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaRemoveAccountRights
-title: LsaRemoveAccountRights function
+title: LsaRemoveAccountRights function (ntsecapi.h)
 author: windows-sdk-content
 description: Removes one or more privileges from an account.
 old-location: security\lsaremoveaccountrights.htm

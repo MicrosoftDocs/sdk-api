@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._DETACH_VIRTUAL_DISK_FLAG
-title: DETACH_VIRTUAL_DISK_FLAG
+title: DETACH_VIRTUAL_DISK_FLAG (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual disk detach request flags.
 old-location: vhd\detach_virtual_disk_flag.htm

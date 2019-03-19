@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWritePossibleValue
-title: PowerWritePossibleValue function
+title: PowerWritePossibleValue function (powrprof.h)
 author: windows-sdk-content
 description: Sets the value for a possible value of a power setting.
 old-location: base\powerwritepossiblevalue.htm

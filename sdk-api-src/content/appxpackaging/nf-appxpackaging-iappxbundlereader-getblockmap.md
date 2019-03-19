@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetBlockMap
-title: IAppxBundleReader::GetBlockMap
+title: IAppxBundleReader::GetBlockMap (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves a read-only block map object from the bundle.
 old-location: appxpkg\iappxbundlereader_getblockmap.htm

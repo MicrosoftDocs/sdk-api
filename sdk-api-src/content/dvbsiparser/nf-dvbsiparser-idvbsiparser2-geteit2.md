@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser2.GetEIT2
-title: IDvbSiParser2::GetEIT2
+title: IDvbSiParser2::GetEIT2 (dvbsiparser.h)
 author: windows-sdk-content
 description: "."
 old-location: mstv\idvbsiparser2_geteit2.htm

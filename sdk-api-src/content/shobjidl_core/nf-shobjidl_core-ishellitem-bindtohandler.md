@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem.BindToHandler
-title: IShellItem::BindToHandler
+title: IShellItem::BindToHandler (shobjidl_core.h)
 author: windows-sdk-content
 description: Binds to a handler for an item as specified by the handler ID value (BHID).
 old-location: shell\IShellItem_BindToHandler.htm

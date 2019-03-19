@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.linePark
-title: linePark function
+title: linePark function (tapi.h)
 author: windows-sdk-content
 description: The linePark function parks the specified call according to the specified park mode.
 old-location: tapi2\linepark.htm

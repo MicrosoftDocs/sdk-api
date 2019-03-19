@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.Clone
-title: ITfRange::Clone
+title: ITfRange::Clone (msctf.h)
 author: windows-sdk-content
 description: The ITfRange::Clone method duplicates this range of text.
 old-location: tsf\itfrange_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:jobapi2.TerminateJobObject
-title: TerminateJobObject function
+title: TerminateJobObject function (jobapi2.h)
 author: windows-sdk-content
 description: Terminates all processes currently associated with the job.
 old-location: base\terminatejobobject.htm

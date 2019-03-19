@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Next
-title: IEnumNetSharingPublicConnection::Next
+title: IEnumNetSharingPublicConnection::Next (netcon.h)
 author: windows-sdk-content
 description: The Next method retrieves the specified number of privately-shared connections that start from the current enumeration position.
 old-location: ics\ienumnetsharingpublicconnection_next.htm

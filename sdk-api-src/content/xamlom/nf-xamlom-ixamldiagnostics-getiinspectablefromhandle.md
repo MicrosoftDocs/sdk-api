@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetIInspectableFromHandle
-title: IXamlDiagnostics::GetIInspectableFromHandle
+title: IXamlDiagnostics::GetIInspectableFromHandle (xamlom.h)
 author: windows-sdk-content
 description: Gets the IInspectable from the XAML Diagnostics cache.
 old-location: xaml_diagnostics\ixamldiagnostics_getiinspectablefromhandle.htm

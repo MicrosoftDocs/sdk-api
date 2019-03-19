@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRDeinterlaceControl9.SetDeinterlacePrefs
-title: IVMRDeinterlaceControl9::SetDeinterlacePrefs
+title: IVMRDeinterlaceControl9::SetDeinterlacePrefs (vmr9.h)
 author: windows-sdk-content
 description: The SetDeinterlacePrefs method specifies how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
 old-location: dshow\ivmrdeinterlacecontrol9_setdeinterlaceprefs.htm

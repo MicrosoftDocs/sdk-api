@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetStencilRef
-title: ID3D12GraphicsCommandList::OMSetStencilRef
+title: ID3D12GraphicsCommandList::OMSetStencilRef (d3d12.h)
 author: windows-sdk-content
 description: Sets the reference value for depth stencil tests.
 old-location: direct3d12\id3d12graphicscommandlist_omsetstencilref.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellCount
-title: ITextRow::GetCellCount
+title: ITextRow::GetCellCount (tom.h)
 author: windows-sdk-content
 description: Gets the count of cells in this row.
 old-location: controls\itextrow_getcellcount.htm

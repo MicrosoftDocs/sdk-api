@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcommon.ID3DInclude.Close
-title: ID3DInclude::Close
+title: ID3DInclude::Close (d3dcommon.h)
 author: windows-sdk-content
 description: A user-implemented method for closing a shader #include file.
 old-location: direct3d11\id3dinclude_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:newdev.UpdateDriverForPlugAndPlayDevicesA
-title: UpdateDriverForPlugAndPlayDevicesA function
+title: UpdateDriverForPlugAndPlayDevicesA function (newdev.h)
 author: windows-sdk-content
 description: Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID.
 old-location: devinst\updatedriverforplugandplaydevices.htm

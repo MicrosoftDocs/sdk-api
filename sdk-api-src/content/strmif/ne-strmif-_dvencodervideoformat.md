@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._DVENCODERVIDEOFORMAT
-title: "_DVENCODERVIDEOFORMAT"
+title: "_DVENCODERVIDEOFORMAT" (strmif.h)
 author: windows-sdk-content
 description: Indicates the video standard (NTSC or PAL) for digital video (DV) encoding.
 old-location: dshow\dvencodervideoformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_MixLevel
-title: IAMAudioInputMixer::put_MixLevel
+title: IAMAudioInputMixer::put_MixLevel (strmif.h)
 author: windows-sdk-content
 description: The put_MixLevel method sets the recording level for this input.
 old-location: dshow\iamaudioinputmixer_put_mixlevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.NotifyLateDelivery
-title: IWMReaderAdvanced::NotifyLateDelivery
+title: IWMReaderAdvanced::NotifyLateDelivery (wmsdkidl.h)
 author: windows-sdk-content
 description: The NotifyLateDelivery method is used to notify the reader that it is delivering data to the application too slowly.
 old-location: wmformat\iwmreaderadvanced_notifylatedelivery.htm

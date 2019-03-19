@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACCESS_ALLOWED_ACE
-title: ACCESS_ALLOWED_ACE
+title: ACCESS_ALLOWED_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the discretionary access control list (DACL) that controls access to an object. An access-allowed ACE allows access to an object for a specific trustee identified by a security identifier (SID).
 old-location: security\access_allowed_ace.htm

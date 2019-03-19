@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMILangID
-title: IWMPClosedCaption2::getSAMILangID
+title: IWMPClosedCaption2::getSAMILangID (wmp.h)
 author: windows-sdk-content
 description: The getSAMILangID method retrieves the locale identifier (LCID) of a language supported by the current SAMI file.
 old-location: wmp\iwmpclosedcaption2_getsamilangid.htm

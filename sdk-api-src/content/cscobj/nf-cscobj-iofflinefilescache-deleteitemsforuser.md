@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.DeleteItemsForUser
-title: IOfflineFilesCache::DeleteItemsForUser
+title: IOfflineFilesCache::DeleteItemsForUser (cscobj.h)
 author: windows-sdk-content
 description: Deletes a user's files and directories from the local cache.
 old-location: of\iofflinefilescache_deleteitemsforuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBTuningSpace2.get_NetworkID
-title: IDVBTuningSpace2::get_NetworkID
+title: IDVBTuningSpace2::get_NetworkID (tuner.h)
 author: windows-sdk-content
 description: The get_NetworkID method retrieves the Network ID of the DVB system.
 old-location: mstv\idvbtuningspace2_get_networkid.htm

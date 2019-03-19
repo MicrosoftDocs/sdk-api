@@ -1,6 +1,6 @@
 ---
 UID: NF:ddkernel.IDirectDrawKernel.GetKernelHandle
-title: IDirectDrawKernel::GetKernelHandle
+title: IDirectDrawKernel::GetKernelHandle (ddkernel.h)
 author: windows-sdk-content
 description: The IDirectDrawKernel::GetKernelHandle method returns a kernel-mode handle to the DirectDraw object.
 old-location: display\idirectdrawkernel_getkernelhandle.htm

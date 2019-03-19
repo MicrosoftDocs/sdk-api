@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetTimelineMarkerTimer
-title: IMFMediaEngineEx::SetTimelineMarkerTimer
+title: IMFMediaEngineEx::SetTimelineMarkerTimer (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies a presentation time when the Media Engine will send a marker event.
 old-location: mf\imfmediaengineex_settimelinemarkertimer.htm

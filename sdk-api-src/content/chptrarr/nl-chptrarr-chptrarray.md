@@ -1,6 +1,6 @@
 ---
 UID: NL:chptrarr.CHPtrArray
-title: CHPtrArray
+title: CHPtrArray (chptrarr.h)
 author: windows-sdk-content
 description: The CHPtrArray class is part of the WMI Provider Framework. CHPtrArray is a utility interface for array pointer management used for provider handling of WMI queries.
 old-location: wmi\chptrarray.htm

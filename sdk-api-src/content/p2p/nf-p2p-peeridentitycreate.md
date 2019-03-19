@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerIdentityCreate
-title: PeerIdentityCreate function
+title: PeerIdentityCreate function (p2p.h)
 author: windows-sdk-content
 description: The PeerIdentityCreate function creates a new peer identity and returns its name.
 old-location: p2p\peeridentitycreate.htm

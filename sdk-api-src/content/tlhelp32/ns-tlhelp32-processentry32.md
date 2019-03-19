@@ -1,6 +1,6 @@
 ---
 UID: NS:tlhelp32.tagPROCESSENTRY32
-title: PROCESSENTRY32
+title: PROCESSENTRY32 (tlhelp32.h)
 author: windows-sdk-content
 description: Describes an entry from a list of the processes residing in the system address space when a snapshot was taken.
 old-location: toolhelp\processentry32_str.htm

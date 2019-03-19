@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.Start
-title: IWTSProtocolShadowConnection::Start
+title: IWTSProtocolShadowConnection::Start (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolShadowConnection::Start is no longer available. Instead, use IWRdsProtocolShadowConnection::Start.
 old-location: termserv\iwtsprotocolshadowconnection_start.htm

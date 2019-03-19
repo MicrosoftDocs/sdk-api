@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmSetOpenStatus
-title: ImmSetOpenStatus function
+title: ImmSetOpenStatus function (imm.h)
 author: windows-sdk-content
 description: Opens or closes the IME.
 old-location: intl\immsetopenstatus.htm

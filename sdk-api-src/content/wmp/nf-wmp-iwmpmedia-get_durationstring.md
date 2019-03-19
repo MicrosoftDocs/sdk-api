@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.get_durationString
-title: IWMPMedia::get_durationString
+title: IWMPMedia::get_durationString (wmp.h)
 author: windows-sdk-content
 description: The get_durationString method retrieves a string indicating the duration of the current media item in HH:MM:SS format.
 old-location: wmp\iwmpmedia_get_durationstring.htm

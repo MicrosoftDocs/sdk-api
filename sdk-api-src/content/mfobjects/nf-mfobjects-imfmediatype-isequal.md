@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaType.IsEqual
-title: IMFMediaType::IsEqual
+title: IMFMediaType::IsEqual (mfobjects.h)
 author: windows-sdk-content
 description: Compares two media types and determines whether they are identical. If they are not identical, the method indicates how the two formats differ.
 old-location: mf\imfmediatype_isequal.htm

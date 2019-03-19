@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0004
-title: ADS_ESCAPE_MODE_ENUM
+title: ADS_ESCAPE_MODE_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies how escape characters are displayed in a directory path.
 old-location: adsi\ads_escape_mode_enum.htm

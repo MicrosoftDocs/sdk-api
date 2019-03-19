@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.SetSignatureXml
-title: IXpsSignature::SetSignatureXml
+title: IXpsSignature::SetSignatureXml (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Sets the XML markup of the digital signature.
 old-location: xps\ixpssignature_setsignaturexml.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnAfterExpand
-title: INameSpaceTreeControlEvents::OnAfterExpand
+title: INameSpaceTreeControlEvents::OnAfterExpand (shobjidl.h)
 author: windows-sdk-content
 description: Called after an IShellItem is expanded.
 old-location: shell\INameSpaceTreeControlEvents_OnAfterExpand.htm

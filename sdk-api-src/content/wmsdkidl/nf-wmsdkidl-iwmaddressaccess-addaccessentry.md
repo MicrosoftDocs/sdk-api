@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.AddAccessEntry
-title: IWMAddressAccess::AddAccessEntry
+title: IWMAddressAccess::AddAccessEntry (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddAccessEntry method adds an entry to the IP address access list.
 old-location: wmformat\iwmaddressaccess_addaccessentry.htm

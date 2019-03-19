@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IConsoleNameSpace
-title: IConsoleNameSpace
+title: IConsoleNameSpace (mmc.h)
 author: windows-sdk-content
 description: Enables snap-ins to enumerate dynamic subcontainers in the scope pane. The particular snap-in determines what qualifies as a subcontainer.
 old-location: mmc\iconsolenamespace.htm

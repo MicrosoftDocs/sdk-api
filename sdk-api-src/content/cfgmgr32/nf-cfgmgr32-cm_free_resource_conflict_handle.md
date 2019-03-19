@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Resource_Conflict_Handle
-title: CM_Free_Resource_Conflict_Handle function
+title: CM_Free_Resource_Conflict_Handle function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Free_Resource_Conflict_Handle function invalidates a handle to a resource conflict list, and frees the handle's associated memory allocation.
 old-location: devinst\cm_free_resource_conflict_handle.htm

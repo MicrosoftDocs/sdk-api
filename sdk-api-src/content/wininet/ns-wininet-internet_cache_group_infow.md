@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_GROUP_INFOW
-title: INTERNET_CACHE_GROUP_INFOW
+title: INTERNET_CACHE_GROUP_INFOW (wininet.h)
 author: windows-sdk-content
 description: Contains the information for a particular cache group.
 old-location: wininet\internet_cache_group_info.htm

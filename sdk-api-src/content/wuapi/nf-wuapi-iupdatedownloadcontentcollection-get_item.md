@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get_Item
-title: IUpdateDownloadContentCollection::get_Item
+title: IUpdateDownloadContentCollection::get_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets the download content for an update from an IUpdateDownloadContentCollection interface.
 old-location: wua\iupdatedownloadcontentcollection_item.htm

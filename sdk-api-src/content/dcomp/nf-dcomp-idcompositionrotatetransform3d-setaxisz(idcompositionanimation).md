@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetAxisZ(IDCompositionAnimation)
-title: IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation)
+title: IDCompositionRotateTransform3D::SetAxisZ(IDCompositionAnimation) (dcomp.h)
 author: windows-sdk-content
 description: Animates the value of the AxisZ property of a 3D rotation transform. The AxisZ property specifies the z-coordinate for the axis vector of rotation. The default value is 1.0.
 old-location: directcomp\idcompositionrotatetransform3d_setaxisz_idcompositionanimation.htm

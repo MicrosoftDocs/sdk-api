@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetGuid
-title: ICreateTypeInfo::SetGuid
+title: ICreateTypeInfo::SetGuid (oaidl.h)
 author: windows-sdk-content
 description: Sets the globally unique identifier (GUID) associated with the type description.
 old-location: automat\icreatetypeinfo_setguid.htm

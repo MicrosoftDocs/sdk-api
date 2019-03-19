@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Delete
-title: IWbemClassObject::Delete
+title: IWbemClassObject::Delete (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::Delete method deletes the specified property from a CIM class definition and all of its qualifiers.
 old-location: wmi\iwbemclassobject_delete.htm

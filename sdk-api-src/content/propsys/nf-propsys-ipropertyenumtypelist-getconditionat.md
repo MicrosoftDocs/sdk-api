@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetConditionAt
-title: IPropertyEnumTypeList::GetConditionAt
+title: IPropertyEnumTypeList::GetConditionAt (propsys.h)
 author: windows-sdk-content
 description: Not supported.Gets the condition at the specified index.
 old-location: properties\IPropertyEnumTypeList_GetConditionAt.htm

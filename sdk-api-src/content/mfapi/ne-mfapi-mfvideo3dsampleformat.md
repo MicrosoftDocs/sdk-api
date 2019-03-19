@@ -1,6 +1,6 @@
 ---
 UID: NE:mfapi._MFVideo3DSampleFormat
-title: MFVideo3DSampleFormat
+title: MFVideo3DSampleFormat (mfapi.h)
 author: windows-sdk-content
 description: Specifies how a 3D video frame is stored in a media sample.
 old-location: mf\mfvideo3dsampleformat.htm

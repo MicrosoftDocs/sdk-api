@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetConfigV6
-title: DhcpServerSetConfigV6 function
+title: DhcpServerSetConfigV6 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Sets the DHCPv6 server configuration data at the scope or server level.
 old-location: dhcp\dhcpserversetconfigv6.htm

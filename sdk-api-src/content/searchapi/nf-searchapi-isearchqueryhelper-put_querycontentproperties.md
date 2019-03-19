@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryContentProperties
-title: ISearchQueryHelper::put_QueryContentProperties
+title: ISearchQueryHelper::put_QueryContentProperties (searchapi.h)
 author: windows-sdk-content
 description: Sets the properties to include in the query if search terms do not explicitly specify properties.
 old-location: search\_search_ISearchQueryHelper_put_QueryContentProperties.htm

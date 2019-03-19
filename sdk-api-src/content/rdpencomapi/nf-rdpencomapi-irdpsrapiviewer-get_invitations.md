@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Invitations
-title: IRDPSRAPIViewer::get_Invitations
+title: IRDPSRAPIViewer::get_Invitations (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapiviewer_invitations.htm

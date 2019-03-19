@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_MORPHOLOGY_MODE
-title: D2D1_MORPHOLOGY_MODE
+title: D2D1_MORPHOLOGY_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The mode for the Morphology effect.
 old-location: direct2d\d2d1_morphology_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICDrawSuggestFormat
-title: ICDrawSuggestFormat function
+title: ICDrawSuggestFormat function (vfw.h)
 author: windows-sdk-content
 description: The ICDrawSuggestFormat function notifies the drawing handler to suggest the input data format.
 old-location: multimedia\icdrawsuggestformat.htm

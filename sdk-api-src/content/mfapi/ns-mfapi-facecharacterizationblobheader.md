@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagFaceCharacterizationBlobHeader
-title: FaceCharacterizationBlobHeader
+title: FaceCharacterizationBlobHeader (mfapi.h)
 author: windows-sdk-content
 description: The FaceCharacterizationBlobHeader structure describes the size and count information of the blob format for the MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS attribute.
 old-location: stream\facecharacterizationblobheader.htm

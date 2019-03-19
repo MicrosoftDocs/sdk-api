@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtWaitServerListen
-title: RpcMgmtWaitServerListen function
+title: RpcMgmtWaitServerListen function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtWaitServerListen function performs the wait operation usually associated with RpcServerListen.
 old-location: rpc\rpcmgmtwaitserverlisten.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_LowOscillator
-title: IDVBSTuningSpace::put_LowOscillator
+title: IDVBSTuningSpace::put_LowOscillator (tuner.h)
 author: windows-sdk-content
 description: The put_LowOscillator method sets the low oscillator frequency.
 old-location: mstv\idvbstuningspace_put_lowoscillator.htm

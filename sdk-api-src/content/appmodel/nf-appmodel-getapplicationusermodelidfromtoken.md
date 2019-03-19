@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetApplicationUserModelIdFromToken
-title: GetApplicationUserModelIdFromToken function
+title: GetApplicationUserModelIdFromToken function (appmodel.h)
 author: windows-sdk-content
 description: Gets the application user model ID for the specified token.
 old-location: appxpkg\getapplicationusermodelidfromtoken.htm

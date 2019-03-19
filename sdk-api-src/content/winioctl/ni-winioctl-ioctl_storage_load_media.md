@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_LOAD_MEDIA
-title: IOCTL_STORAGE_LOAD_MEDIA
+title: IOCTL_STORAGE_LOAD_MEDIA (winioctl.h)
 author: windows-sdk-content
 description: Loads media into a device.
 old-location: base\ioctl_storage_load_media.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:msdrmdefs._DRMGLOBALOPTIONS
-title: DRMGLOBALOPTIONS
+title: DRMGLOBALOPTIONS (msdrmdefs.h)
 author: windows-sdk-content
 description: Defines values for specifying which protocol is used for the transport protocol and whether the server lockbox is used. This enumeration is used by the DRMSetGlobalOptions function.
 old-location: rm\drmglobaloptions.htm

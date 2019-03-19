@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi.tagDEVINFO
-title: DEVINFO
+title: DEVINFO (winddi.h)
 author: windows-sdk-content
 description: The DEVINFO structure provides information about the driver and its private PDEV to the graphics engine.
 old-location: display\devinfo.htm

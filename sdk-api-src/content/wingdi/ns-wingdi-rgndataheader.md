@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._RGNDATAHEADER
-title: RGNDATAHEADER
+title: RGNDATAHEADER (wingdi.h)
 author: windows-sdk-content
 description: The RGNDATAHEADER structure describes the data returned by the GetRegionData function.
 old-location: gdi\rgndataheader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetResourceTiling
-title: ID3D12Device::GetResourceTiling
+title: ID3D12Device::GetResourceTiling (d3d12.h)
 author: windows-sdk-content
 description: Gets info about how a tiled resource is broken into tiles.
 old-location: direct3d12\id3d12device_getresourcetiling.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MF_Plugin_Type
-title: MF_Plugin_Type
+title: MF_Plugin_Type (mfobjects.h)
 author: windows-sdk-content
 description: Specifies the object type for the IMFPluginControl interface.
 old-location: mf\mf_plugin_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MonthCal_GetCurSel
-title: MonthCal_GetCurSel macro
+title: MonthCal_GetCurSel macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the currently selected date. You can use this macro or send the MCM_GETCURSEL message explicitly.
 old-location: controls\MonthCal_GetCurSel.htm

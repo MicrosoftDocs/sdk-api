@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FileTimeToDosDateTime
-title: FileTimeToDosDateTime function
+title: FileTimeToDosDateTime function (winbase.h)
 author: windows-sdk-content
 description: Converts a file time to MS-DOS date and time values.
 old-location: base\filetimetodosdatetime.htm

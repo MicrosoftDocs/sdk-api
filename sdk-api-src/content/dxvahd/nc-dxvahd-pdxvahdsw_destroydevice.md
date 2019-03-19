@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_DestroyDevice
-title: PDXVAHDSW_DestroyDevice
+title: PDXVAHDSW_DestroyDevice (dxvahd.h)
 author: windows-sdk-content
 description: Destroys an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\pdxvahdsw_destroydevice.htm

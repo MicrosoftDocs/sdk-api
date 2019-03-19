@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo2.GetPartitionId
-title: IObjectContextInfo2::GetPartitionId
+title: IObjectContextInfo2::GetPartitionId (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the identifier of the partition of the current object context.
 old-location: cos\iobjectcontextinfo2_getpartitionid.htm

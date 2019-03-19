@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetLocationCodes
-title: ISCTE_EAS::GetLocationCodes
+title: ISCTE_EAS::GetLocationCodes (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetLocationCodes method returns location codes from the EAS table.
 old-location: mstv\iscte_eas_getlocationcodes.htm

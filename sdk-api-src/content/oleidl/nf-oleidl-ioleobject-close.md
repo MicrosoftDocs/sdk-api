@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.Close
-title: IOleObject::Close
+title: IOleObject::Close (oleidl.h)
 author: windows-sdk-content
 description: Changes an embedded object from the running to the loaded state. Disconnects a linked object from its link source.
 old-location: com\ioleobject_close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedContainingGrid
-title: IUIAutomationGridItemPattern::get_CachedContainingGrid
+title: IUIAutomationGridItemPattern::get_CachedContainingGrid (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached element that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedContainingGrid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:faxdev._FAX_SEND
-title: FAX_SEND
+title: FAX_SEND (faxdev.h)
 author: windows-sdk-content
 description: The FAX_SEND structure contains information about an outbound fax document.
 old-location: fax\_mfax_fax_send_str.htm

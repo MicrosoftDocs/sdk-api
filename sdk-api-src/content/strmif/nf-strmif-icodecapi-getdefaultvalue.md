@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.GetDefaultValue
-title: ICodecAPI::GetDefaultValue
+title: ICodecAPI::GetDefaultValue (strmif.h)
 author: windows-sdk-content
 description: The GetDefaultValue method gets the default value of a codec property.
 old-location: dshow\icodecapi_getdefaultvalue.htm

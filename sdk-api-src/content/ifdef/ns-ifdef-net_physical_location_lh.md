@@ -1,6 +1,6 @@
 ---
 UID: NS:ifdef._NET_PHYSICAL_LOCATION_LH
-title: NET_PHYSICAL_LOCATION_LH
+title: NET_PHYSICAL_LOCATION_LH (ifdef.h)
 author: windows-sdk-content
 description: The NET_PHYSICAL_LOCATION structure provides NDIS with information about the physical location of a registered network interface.
 old-location: netvista\net_physical_location.htm

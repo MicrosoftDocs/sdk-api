@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.Release
-title: IDirectInputEffectDriver::Release
+title: IDirectInputEffectDriver::Release (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::Release method decreases the reference count of the DirectInputEffectDriver object by 1. This method is part of the IUnknown interface inherited by DirectInputEffectDriver.
 old-location: hid\idirectinputeffectdriver_release.htm

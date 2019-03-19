@@ -1,6 +1,6 @@
 ---
 UID: NF:compressapi.CloseCompressor
-title: CloseCompressor function
+title: CloseCompressor function (compressapi.h)
 author: windows-sdk-content
 description: Call to close an open COMPRESSOR_HANDLE.
 old-location: cmpapi\closecompressor.htm

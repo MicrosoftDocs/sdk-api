@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagUSERCLASSTYPE
-title: USERCLASSTYPE
+title: USERCLASSTYPE (oleidl.h)
 author: windows-sdk-content
 description: Indicates the different variants of the display name associated with a class of objects.
 old-location: com\userclasstype.htm

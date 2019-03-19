@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetRequestId
-title: IESIsdbCasResponseEvent::GetRequestId
+title: IESIsdbCasResponseEvent::GetRequestId (tuner.h)
 author: windows-sdk-content
 description: Gets the request identifier returned in an IsdbCasResponse event. The request identifier identifies the request originated by a PBDA media sink device (MSD).
 old-location: mstv\iesisdbcasresponseevent_getrequestid.htm

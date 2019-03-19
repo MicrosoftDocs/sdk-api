@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.put_BlockedFileGroups
-title: IFsrmFileScreenBase::put_BlockedFileGroups
+title: IFsrmFileScreenBase::put_BlockedFileGroups (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets the names of the file groups that contain the file name patterns used to specify the files that are blocked by this screen.
 old-location: fsrm\ifsrmfilescreenbase_blockedfilegroups.htm

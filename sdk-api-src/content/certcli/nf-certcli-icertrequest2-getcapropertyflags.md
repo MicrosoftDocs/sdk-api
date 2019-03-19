@@ -1,6 +1,6 @@
 ---
 UID: NF:certcli.ICertRequest2.GetCAPropertyFlags
-title: ICertRequest2::GetCAPropertyFlags
+title: ICertRequest2::GetCAPropertyFlags (certcli.h)
 author: windows-sdk-content
 description: Retrieves the property flags for a certification authority (CA) property.
 old-location: security\icertrequest2_getcapropertyflags.htm

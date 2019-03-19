@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.RegisterUserDictionary
-title: IUserDictionariesRegistrar::RegisterUserDictionary
+title: IUserDictionariesRegistrar::RegisterUserDictionary (spellcheck.h)
 author: windows-sdk-content
 description: Registers a file to be used as a user dictionary for the current user, until unregistered.
 old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm

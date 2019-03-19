@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EnableNonClientDpiScaling
-title: EnableNonClientDpiScaling function
+title: EnableNonClientDpiScaling function (winuser.h)
 author: windows-sdk-content
 description: In high-DPI displays, enables automatic display scaling of the non-client area portions of the specified top-level window. Must be called during the initialization of that window.
 old-location: hidpi\enablenonclientdpiscaling.htm

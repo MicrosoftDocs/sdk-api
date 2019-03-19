@@ -1,6 +1,6 @@
 ---
 UID: NE:mfplay.MFP_EVENT_TYPE
-title: MFP_EVENT_TYPE
+title: MFP_EVENT_TYPE (mfplay.h)
 author: windows-sdk-content
 description: Defines event types for the IMFPMediaPlayerCallback interface.
 old-location: mf\mfp_event_type.htm

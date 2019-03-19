@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsContainer.Delete
-title: IADsContainer::Delete
+title: IADsContainer::Delete (iads.h)
 author: windows-sdk-content
 description: Deletes a specified directory object from this container.
 old-location: adsi\iadscontainer_delete.htm

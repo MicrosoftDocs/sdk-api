@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetIdentifier
-title: IMFStreamSink::GetIdentifier
+title: IMFStreamSink::GetIdentifier (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the stream identifier for this stream sink.
 old-location: mf\imfstreamsink_getidentifier.htm

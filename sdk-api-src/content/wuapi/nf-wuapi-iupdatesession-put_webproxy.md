@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.put_WebProxy
-title: IUpdateSession::put_WebProxy
+title: IUpdateSession::put_WebProxy (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the proxy settings that are used to access the server.
 old-location: wua\iupdatesession_webproxy.htm

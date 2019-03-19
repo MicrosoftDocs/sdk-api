@@ -1,6 +1,6 @@
 ---
 UID: NS:ctffunc.TF_LMLATTELEMENT
-title: TF_LMLATTELEMENT
+title: TF_LMLATTELEMENT (ctffunc.h)
 author: windows-sdk-content
 description: The TF_LMLATTELEMENT structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the IEnumTfLatticeElements::Next method.
 old-location: tsf\tf_lmlattelement.htm

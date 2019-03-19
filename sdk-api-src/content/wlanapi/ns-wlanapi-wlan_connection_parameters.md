@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_PARAMETERS
-title: WLAN_CONNECTION_PARAMETERS
+title: WLAN_CONNECTION_PARAMETERS (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the parameters used when using the WlanConnect function.
 old-location: nwifi\wlan_connection_parameters.htm

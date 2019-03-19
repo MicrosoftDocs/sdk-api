@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMStoreUNibble4
-title: XMStoreUNibble4 function
+title: XMStoreUNibble4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in an XMUNIBBLE4.
 old-location: dxmath\xmstoreunibble4.htm

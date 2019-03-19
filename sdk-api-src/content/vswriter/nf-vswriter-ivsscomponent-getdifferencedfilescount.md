@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFilesCount
-title: IVssComponent::GetDifferencedFilesCount
+title: IVssComponent::GetDifferencedFilesCount (vswriter.h)
 author: windows-sdk-content
 description: Returns the number of file specifications in this component (and in any subcomponents of the component set it defines) marked by a writer supporting an incremental backup or restore as differenced files.
 old-location: base\ivsscomponent_getdifferencedfilescount.htm

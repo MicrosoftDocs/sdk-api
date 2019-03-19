@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.GetMilliseconds
-title: IOperationsProgressDialog::GetMilliseconds
+title: IOperationsProgressDialog::GetMilliseconds (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets elapsed and remaining time for progress dialog.
 old-location: shell\IOperationsProgressDialog_GetMilliseconds.htm

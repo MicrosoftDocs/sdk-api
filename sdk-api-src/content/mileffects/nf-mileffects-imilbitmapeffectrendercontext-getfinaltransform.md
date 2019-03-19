@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetFinalTransform
-title: IMILBitmapEffectRenderContext::GetFinalTransform
+title: IMILBitmapEffectRenderContext::GetFinalTransform (mileffects.h)
 author: windows-sdk-content
 description: Gets the final MILMatrixF transform.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getfinaltransform.htm

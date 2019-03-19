@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnSeverity
-title: IDXGIInfoQueue::SetBreakOnSeverity
+title: IDXGIInfoQueue::SetBreakOnSeverity (dxgidebug.h)
 author: windows-sdk-content
 description: Sets a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakonseverity.htm

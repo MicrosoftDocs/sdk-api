@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.Save
-title: IFaxIncomingArchive::Save
+title: IFaxIncomingArchive::Save (faxcomex.h)
 author: windows-sdk-content
 description: The Save method saves the FaxIncomingArchive object's data.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_save_cpp.htm

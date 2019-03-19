@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsPropertyEntry
-title: IADsPropertyEntry
+title: IADsPropertyEntry (iads.h)
 author: windows-sdk-content
 description: The IADsPropertyEntry interface is used to manage a property entry in the property cache.
 old-location: adsi\iadspropertyentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ktmtypes._TRANSACTION_NOTIFICATION
-title: TRANSACTION_NOTIFICATION
+title: TRANSACTION_NOTIFICATION (ktmtypes.h)
 author: windows-sdk-content
 description: Contains the data that is associated with a transaction notification.
 old-location: fs\transaction_notification.htm

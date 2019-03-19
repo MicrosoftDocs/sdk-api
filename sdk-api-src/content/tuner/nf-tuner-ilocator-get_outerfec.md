@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_OuterFEC
-title: ILocator::get_OuterFEC
+title: ILocator::get_OuterFEC (tuner.h)
 author: windows-sdk-content
 description: The get_OuterFEC method gets the type of outer FEC that is used.
 old-location: mstv\ilocator_get_outerfec.htm

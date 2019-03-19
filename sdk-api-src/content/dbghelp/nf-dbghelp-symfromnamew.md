@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymFromNameW
-title: SymFromNameW function
+title: SymFromNameW function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves symbol information for the specified name.
 old-location: base\symfromname.htm

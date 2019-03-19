@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDisp.CreateStrokes
-title: IInkDisp::CreateStrokes
+title: IInkDisp::CreateStrokes (msinkaut.h)
 author: windows-sdk-content
 description: Creates a new InkStrokes collection from existing IInkStrokeDisp objects.
 old-location: tablet\inkdisp_createstrokes.htm

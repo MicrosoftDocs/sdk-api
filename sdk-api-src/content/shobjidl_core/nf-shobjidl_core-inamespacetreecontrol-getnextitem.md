@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetNextItem
-title: INameSpaceTreeControl::GetNextItem
+title: INameSpaceTreeControl::GetNextItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the next item in the tree according to which method is requested.
 old-location: shell\INameSpaceTreeControl_GetNextItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMINT2
-title: XMINT2
+title: XMINT2 (directxmath.h)
 author: windows-sdk-content
 description: A 2D vector where each component is a signed integer.
 old-location: dxmath\xmint2.htm

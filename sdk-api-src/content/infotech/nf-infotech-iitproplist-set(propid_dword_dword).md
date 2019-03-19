@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITPropList.Set(PROPID,DWORD,DWORD)
-title: IITPropList::Set(PROPID,DWORD,DWORD)
+title: IITPropList::Set(PROPID,DWORD,DWORD) (infotech.h)
 author: windows-sdk-content
 description: Sets a property to a given value or deletes a property from the list.
 old-location: htmlhelp\iitproplist_set1.htm

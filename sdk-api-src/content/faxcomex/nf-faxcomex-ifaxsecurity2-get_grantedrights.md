@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSecurity2.get_GrantedRights
-title: IFaxSecurity2::get_GrantedRights
+title: IFaxSecurity2::get_GrantedRights (faxcomex.h)
 author: windows-sdk-content
 description: Retrieves a combination of the fax server access rights granted to the user referencing this property.
 old-location: fax\_mfax_faxsecurity2_cpp_mfax_faxsecurity2_grantedrights_cpp.htm

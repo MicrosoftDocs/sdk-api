@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsAvailable
-title: IEncoderAPI::IsAvailable
+title: IEncoderAPI::IsAvailable (strmif.h)
 author: windows-sdk-content
 description: IEncoderAPI is no longer available for use.
 old-location: mstv\iencoderapi_isavailable.htm

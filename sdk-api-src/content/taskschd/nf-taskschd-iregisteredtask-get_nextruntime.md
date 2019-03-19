@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_NextRunTime
-title: IRegisteredTask::get_NextRunTime
+title: IRegisteredTask::get_NextRunTime (taskschd.h)
 author: windows-sdk-content
 description: Gets the time when the registered task is next scheduled to run.
 old-location: taskschd\iregisteredtask_nextruntime.htm

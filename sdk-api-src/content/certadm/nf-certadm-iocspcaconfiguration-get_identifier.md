@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_Identifier
-title: IOCSPCAConfiguration::get_Identifier
+title: IOCSPCAConfiguration::get_Identifier (certadm.h)
 author: windows-sdk-content
 description: Gets a name for the certification authority (CA) configuration.
 old-location: security\iocspcaconfiguration_identifier_method.htm

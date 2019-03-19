@@ -1,6 +1,6 @@
 ---
 UID: NS:wsman._WSMAN_SHELL_STARTUP_INFO_V11
-title: WSMAN_SHELL_STARTUP_INFO_V11
+title: WSMAN_SHELL_STARTUP_INFO_V11 (wsman.h)
 author: windows-sdk-content
 description: Defines the shell startup parameters to be used with the WSManCreateShell function. The structure must be allocated by the client and passed to the WSManCreateShell function.
 old-location: winrm\wsman_shell_startup_info.htm

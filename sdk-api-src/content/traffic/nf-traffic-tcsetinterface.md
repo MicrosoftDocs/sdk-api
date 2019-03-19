@@ -1,6 +1,6 @@
 ---
 UID: NF:traffic.TcSetInterface
-title: TcSetInterface function
+title: TcSetInterface function (traffic.h)
 author: windows-sdk-content
 description: The TcSetInterface function sets individual parameters for a given interface.
 old-location: qos\tcsetinterface.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange3.GetChildrenBuildCache
-title: IUIAutomationTextRange3::GetChildrenBuildCache
+title: IUIAutomationTextRange3::GetChildrenBuildCache (uiautomationclient.h)
 author: windows-sdk-content
 description: Returns the children and supplied properties and patterns for elements in a text range in a single cross-process call. This is equivalent to calling GetChildren, but adds the standard build cache pattern.
 old-location: winauto\uiauto_IUIAutomationTextRange3_GetChildrenBuildCache.htm

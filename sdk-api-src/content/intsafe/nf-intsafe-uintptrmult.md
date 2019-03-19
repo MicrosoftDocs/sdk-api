@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.UIntPtrMult
-title: UIntPtrMult function
+title: UIntPtrMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies one value of type UINT_PTR by another.
 old-location: shell\UIntPtrMult.htm

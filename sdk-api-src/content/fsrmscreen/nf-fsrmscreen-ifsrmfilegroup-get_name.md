@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_Name
-title: IFsrmFileGroup::get_Name
+title: IFsrmFileGroup::get_Name (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the file group.
 old-location: fsrm\ifsrmfilegroup_name.htm

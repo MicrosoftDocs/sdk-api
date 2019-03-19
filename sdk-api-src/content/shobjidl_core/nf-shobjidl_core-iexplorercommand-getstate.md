@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetState
-title: IExplorerCommand::GetState
+title: IExplorerCommand::GetState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets state information associated with a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetState.htm

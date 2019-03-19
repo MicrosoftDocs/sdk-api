@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSetAppPriority
-title: lineSetAppPriority function
+title: lineSetAppPriority function (tapi.h)
 author: windows-sdk-content
 description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
 old-location: tapi2\linesetapppriority.htm

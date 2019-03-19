@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetMediaSink
-title: IMFStreamSink::GetMediaSink
+title: IMFStreamSink::GetMediaSink (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the media sink that owns this stream sink.
 old-location: mf\imfstreamsink_getmediasink.htm

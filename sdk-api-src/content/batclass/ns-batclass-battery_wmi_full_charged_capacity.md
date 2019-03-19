@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass._BATTERY_WMI_FULL_CHARGED_CAPACITY
-title: BATTERY_WMI_FULL_CHARGED_CAPACITY
+title: BATTERY_WMI_FULL_CHARGED_CAPACITY (batclass.h)
 author: windows-sdk-content
 description: Defines information about the capacity of a battery for use with the BatteryClassQueryWmiDataBlock).
 old-location: battery\battery_wmi_full_charged_capacity.htm

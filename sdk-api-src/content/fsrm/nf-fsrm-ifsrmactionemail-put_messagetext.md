@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MessageText
-title: IFsrmActionEmail::put_MessageText
+title: IFsrmActionEmail::put_MessageText (fsrm.h)
 author: windows-sdk-content
 description: Retrieves or sets the message text of the email that is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_messagetext.htm

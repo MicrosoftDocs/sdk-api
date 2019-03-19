@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass.__unnamed_struct_1
-title: BATTERY_NOTIFY
+title: BATTERY_NOTIFY (batclass.h)
 author: windows-sdk-content
 description: A battery miniclass driver receives a BATTERY_NOTIFY structure when its BatteryMiniSetStatusNotify routine is called.
 old-location: battery\battery_notify.htm

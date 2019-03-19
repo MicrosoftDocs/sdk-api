@@ -1,6 +1,6 @@
 ---
 UID: NN:austream.IMemoryData
-title: IMemoryData
+title: IMemoryData (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\imemorydata.htm

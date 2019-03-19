@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDGETFIELDNUMIN
-title: DDGETFIELDNUMIN
+title: DDGETFIELDNUMIN (ddkmapi.h)
 author: windows-sdk-content
 description: The DDGETFIELDNUMIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handle information.
 old-location: display\ddgetfieldnumin.htm

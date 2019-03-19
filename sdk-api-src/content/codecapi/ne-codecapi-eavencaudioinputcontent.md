@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncAudioInputContent
-title: eAVEncAudioInputContent
+title: eAVEncAudioInputContent (codecapi.h)
 author: windows-sdk-content
 description: Specifies whether the audio content contains music or voice. This enumeration is used with the AVEncAudioInputContent property.
 old-location: dshow\eavencaudioinputcontent.htm

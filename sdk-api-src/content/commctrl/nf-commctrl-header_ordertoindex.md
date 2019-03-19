@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_OrderToIndex
-title: Header_OrderToIndex macro
+title: Header_OrderToIndex macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves an index value for an item based on its order in the header control. You can use this macro or send the HDM_ORDERTOINDEX message explicitly.
 old-location: controls\Header_OrderToIndex.htm

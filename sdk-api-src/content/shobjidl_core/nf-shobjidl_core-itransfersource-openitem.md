@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.OpenItem
-title: ITransferSource::OpenItem
+title: ITransferSource::OpenItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).
 old-location: shell\ITransferSource_OpenItem.htm

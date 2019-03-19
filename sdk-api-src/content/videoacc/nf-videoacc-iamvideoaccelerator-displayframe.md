@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.DisplayFrame
-title: IAMVideoAccelerator::DisplayFrame
+title: IAMVideoAccelerator::DisplayFrame (videoacc.h)
 author: windows-sdk-content
 description: The DisplayFrame method causes the video renderer to display a decoded frame.
 old-location: dshow\iamvideoaccelerator_displayframe.htm

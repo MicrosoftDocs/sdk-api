@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetUnicodeString
-title: IXpsOMGlyphsEditor::SetUnicodeString
+title: IXpsOMGlyphsEditor::SetUnicodeString (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the text in unescaped UTF-16 scalar values.
 old-location: xps\ixpsomglyphseditor_setunicodestring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireSettings
-title: IPhotoAcquireSettings
+title: IPhotoAcquireSettings (photoacquire.h)
 author: windows-sdk-content
 description: The IPhotoAcquireSettings interface is used to work with image acquisition settings, such as file name format.
 old-location: picacq\iphotoacquiresettings.htm

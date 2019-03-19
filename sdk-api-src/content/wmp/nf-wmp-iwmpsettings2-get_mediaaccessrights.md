@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSettings2.get_mediaAccessRights
-title: IWMPSettings2::get_mediaAccessRights
+title: IWMPSettings2::get_mediaAccessRights (wmp.h)
 author: windows-sdk-content
 description: The get_mediaAccessRights method retrieves a value indicating the permissions currently granted for library access.
 old-location: wmp\iwmpsettings2_get_mediaaccessrights.htm

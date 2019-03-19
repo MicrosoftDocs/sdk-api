@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_MoveItemToGroup
-title: ListView_MoveItemToGroup macro
+title: ListView_MoveItemToGroup macro (commctrl.h)
 author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\ListView_MoveItemToGroup.htm

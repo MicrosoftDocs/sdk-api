@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_SharingConnectionType
-title: INetSharingConfiguration::get_SharingConnectionType
+title: INetSharingConfiguration::get_SharingConnectionType (netcon.h)
 author: windows-sdk-content
 description: The get_SharingConnectionType method determines the type of sharing that is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_sharingconnectiontype.htm

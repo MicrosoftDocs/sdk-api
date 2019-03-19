@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetItalic
-title: ITextFont::SetItalic
+title: ITextFont::SetItalic (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are in italics.
 old-location: controls\ITextFont_SetItalic.htm

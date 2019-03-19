@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgClose
-title: CryptMsgClose function
+title: CryptMsgClose function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptMsgClose function closes a cryptographic message handle. At each call to this function, the reference count on the message is reduced by one. When the reference count reaches zero, the message is fully released.
 old-location: security\cryptmsgclose.htm

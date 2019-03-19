@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfExecute
-title: CfExecute function
+title: CfExecute function (cfapi.h)
 author: windows-sdk-content
 description: The main entry point for all connection key based placeholder operations. It is intended to be used by a sync provider to respond to various callbacks from the platform.
 old-location: cloudapi\cfexecute.htm

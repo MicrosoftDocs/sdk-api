@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineagentlist_tag
-title: LINEAGENTLIST
+title: LINEAGENTLIST (tapi.h)
 author: windows-sdk-content
 description: The LINEAGENTLIST structure describes a list of ACD agents. This structure can contain an array of LINEAGENTENTRY structures.
 old-location: tapi2\lineagentlist.htm

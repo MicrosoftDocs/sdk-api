@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredGetSessionTypes
-title: CredGetSessionTypes function
+title: CredGetSessionTypes function (wincred.h)
 author: windows-sdk-content
 description: The CredGetSessionTypes function returns the maximum persistence supported by the current logon session. A separate maximum persistence is returned for each credential type.
 old-location: security\credgetsessiontypes.htm

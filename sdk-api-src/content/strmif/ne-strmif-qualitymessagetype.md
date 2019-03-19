@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagQualityMessageType
-title: QualityMessageType
+title: QualityMessageType (strmif.h)
 author: windows-sdk-content
 description: Describes a quality message type.
 old-location: dshow\qualitymessagetype.htm

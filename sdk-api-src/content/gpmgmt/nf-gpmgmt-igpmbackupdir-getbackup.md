@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMBackupDir.GetBackup
-title: IGPMBackupDir::GetBackup
+title: IGPMBackupDir::GetBackup (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the GPMBackup object that has the specified backup ID (GUID). The backup ID is the ID of the backed-up GPO, not the ID of the GPO.
 old-location: gpmc\igpmbackupdir_getbackup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._CLASSIC_EVENT_ID
-title: CLASSIC_EVENT_ID
+title: CLASSIC_EVENT_ID (evntrace.h)
 author: windows-sdk-content
 description: Identifies the kernel event for which you want to enable call stack tracing.
 old-location: etw\classic_event_id.htm

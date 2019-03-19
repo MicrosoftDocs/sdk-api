@@ -1,6 +1,6 @@
 ---
 UID: NN:qmgr.IBackgroundCopyQMgr
-title: IBackgroundCopyQMgr
+title: IBackgroundCopyQMgr (qmgr.h)
 author: windows-sdk-content
 description: Use the IBackgroundCopyQMgr interface to create a new group, retrieve an existing group, or enumerate all groups in the queue. A group contains a download job.
 old-location: bits\ibackgroundcopyqmgr.htm

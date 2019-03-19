@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._PROCESS_MITIGATION_POLICY
-title: PROCESS_MITIGATION_POLICY
+title: PROCESS_MITIGATION_POLICY (winnt.h)
 author: windows-sdk-content
 description: Represents the different process mitigation policies.
 old-location: base\process_mitigation_policy.htm

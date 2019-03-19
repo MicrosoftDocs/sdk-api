@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofSetFileDataLocation
-title: WofSetFileDataLocation function
+title: WofSetFileDataLocation function (wofapi.h)
 author: windows-sdk-content
 description: Used to change a file from being backed by a physical file to one backed by a system data provider.
 old-location: fs\wofsetfiledatalocation.htm

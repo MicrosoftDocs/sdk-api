@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetMaxOutputSampleSize
-title: IWMSyncReader::GetMaxOutputSampleSize
+title: IWMSyncReader::GetMaxOutputSampleSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMaxOutputSampleSize method retrieves the maximum sample size for a specified output of the file open in the synchronous reader.
 old-location: wmformat\iwmsyncreader_getmaxoutputsamplesize.htm

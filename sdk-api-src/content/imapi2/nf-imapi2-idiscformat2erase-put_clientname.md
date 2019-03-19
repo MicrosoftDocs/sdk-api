@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.put_ClientName
-title: IDiscFormat2Erase::put_ClientName
+title: IDiscFormat2Erase::put_ClientName (imapi2.h)
 author: windows-sdk-content
 description: Sets the friendly name of the client.
 old-location: imapi\idiscformat2erase_put_clientname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_KeyboardShortcut
-title: ILegacyIAccessibleProvider::get_KeyboardShortcut
+title: ILegacyIAccessibleProvider::get_KeyboardShortcut (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the keyboard shortcut for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_KeyboardShortcut.htm

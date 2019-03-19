@@ -1,6 +1,6 @@
 ---
 UID: NC:winnls.LANGGROUPLOCALE_ENUMPROCA
-title: LANGGROUPLOCALE_ENUMPROCA
+title: LANGGROUPLOCALE_ENUMPROCA (winnls.h)
 author: windows-sdk-content
 description: An application-defined callback function that processes enumerated language group locale information provided by the EnumLanguageGroupLocales function.
 old-location: intl\enumlanguagegrouplocalesproc.htm

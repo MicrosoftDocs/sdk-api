@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPersistSerializedPropStorage2
-title: IPersistSerializedPropStorage2
+title: IPersistSerializedPropStorage2 (propsys.h)
 author: windows-sdk-content
 description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
 old-location: shell\IPersistSerializedPropStorage2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_ISSUER_SERIAL_NUMBER
-title: CERT_ISSUER_SERIAL_NUMBER
+title: CERT_ISSUER_SERIAL_NUMBER (wincrypt.h)
 author: windows-sdk-content
 description: Acts as a unique identifier of a certificate containing the issuer and issuer's serial number for a certificate.
 old-location: security\cert_issuer_serial_number.htm

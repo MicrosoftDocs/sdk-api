@@ -1,6 +1,6 @@
 ---
 UID: NF:mmstream.IStreamSample.GetSampleTimes
-title: IStreamSample::GetSampleTimes
+title: IStreamSample::GetSampleTimes (mmstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the current sample's start and end times. If the sample is updating, this method returns the times after the update completes.
 old-location: dshow\istreamsample_getsampletimes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderDumpState
-title: WdsTransportProviderDumpState function
+title: WdsTransportProviderDumpState function (wdstpdi.h)
 author: windows-sdk-content
 description: Instructs the transport provider to print a summary of its state and any other relevant information to the tracing log.
 old-location: wds\wdstransportproviderdumpstate.htm

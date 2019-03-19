@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.NotifySessionStateChange
-title: IWTSProtocolManager::NotifySessionStateChange
+title: IWTSProtocolManager::NotifySessionStateChange (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolManager::NotifySessionStateChange is no longer available. Instead, use IWRdsProtocolManager::NotifySessionStateChange.
 old-location: termserv\iwtsprotocolmanager_notifysessionstatechange.htm

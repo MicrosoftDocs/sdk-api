@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.AdviseEventSink
-title: ITfLangBarMgr::AdviseEventSink
+title: ITfLangBarMgr::AdviseEventSink (ctfutb.h)
 author: windows-sdk-content
 description: The ITfLangBarMgr::AdviseEventSink method advises a sink about a language bar event.
 old-location: tsf\itflangbarmgr_adviseeventsink.htm

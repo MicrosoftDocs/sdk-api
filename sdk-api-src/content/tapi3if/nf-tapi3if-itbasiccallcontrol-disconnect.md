@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Disconnect
-title: ITBasicCallControl::Disconnect
+title: ITBasicCallControl::Disconnect (tapi3if.h)
 author: windows-sdk-content
 description: The Disconnect method disconnects the call. The call state will transition to CS_DISCONNECTED after the method completes successfully.
 old-location: tapi3\itbasiccallcontrol_disconnect.htm

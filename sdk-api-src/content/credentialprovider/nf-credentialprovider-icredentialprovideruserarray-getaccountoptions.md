@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAccountOptions
-title: ICredentialProviderUserArray::GetAccountOptions
+title: ICredentialProviderUserArray::GetAccountOptions (credentialprovider.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the &#0034;Other user&#0034; tile for local or Microsoft accounts is shown in the logon or credential UI.
 old-location: shell\ICredentialProviderUserArray_GetAccountOptions.htm

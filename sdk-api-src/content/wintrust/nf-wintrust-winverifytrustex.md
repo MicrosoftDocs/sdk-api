@@ -1,6 +1,6 @@
 ---
 UID: NF:wintrust.WinVerifyTrustEx
-title: WinVerifyTrustEx function
+title: WinVerifyTrustEx function (wintrust.h)
 author: windows-sdk-content
 description: Performs a trust verification action on a specified object and takes a pointer to a WINTRUST_DATA structure.
 old-location: security\winverifytrustex.htm

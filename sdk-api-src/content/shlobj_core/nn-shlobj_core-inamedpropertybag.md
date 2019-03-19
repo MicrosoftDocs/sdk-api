@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.INamedPropertyBag
-title: INamedPropertyBag
+title: INamedPropertyBag (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes methods that provide an object with a specified property bag in which the object can save its properties.
 old-location: shell\INamedPropertyBag.htm

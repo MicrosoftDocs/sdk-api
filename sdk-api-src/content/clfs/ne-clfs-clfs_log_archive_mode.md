@@ -1,6 +1,6 @@
 ---
 UID: NE:clfs._CLFS_LOG_ARCHIVE_MODE
-title: CLFS_LOG_ARCHIVE_MODE
+title: CLFS_LOG_ARCHIVE_MODE (clfs.h)
 author: windows-sdk-content
 description: Specifies whether a log is ephemeral.
 old-location: fs\clfs_log_archive_mode.htm

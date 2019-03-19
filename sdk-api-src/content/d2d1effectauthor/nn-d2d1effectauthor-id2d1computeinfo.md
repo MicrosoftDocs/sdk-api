@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ComputeInfo
-title: ID2D1ComputeInfo
+title: ID2D1ComputeInfo (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Enables specification of information for a compute-shader rendering pass.
 old-location: direct2d\id2d1computeinfo.htm

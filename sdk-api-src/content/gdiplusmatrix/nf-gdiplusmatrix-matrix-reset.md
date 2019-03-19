@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Reset
-title: Matrix::Reset
+title: Matrix::Reset (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::Reset method updates this matrix with the elements of the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Reset_.htm

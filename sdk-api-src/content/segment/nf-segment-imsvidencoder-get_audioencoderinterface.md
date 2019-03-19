@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidEncoder.get_AudioEncoderInterface
-title: IMSVidEncoder::get_AudioEncoderInterface
+title: IMSVidEncoder::get_AudioEncoderInterface (segment.h)
 author: windows-sdk-content
 description: The get_AudioEncoderInterface method retrieves a pointer to the audio encoder interface.
 old-location: mstv\imsvidencoder_get_audioencoderinterface.htm

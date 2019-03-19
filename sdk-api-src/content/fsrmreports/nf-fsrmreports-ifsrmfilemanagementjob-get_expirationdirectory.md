@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_ExpirationDirectory
-title: IFsrmFileManagementJob::get_ExpirationDirectory
+title: IFsrmFileManagementJob::get_ExpirationDirectory (fsrmreports.h)
 author: windows-sdk-content
 description: The root directory that will contain the expired files.
 old-location: fsrm\ifsrmfilemanagementjob_expirationdirectory.htm

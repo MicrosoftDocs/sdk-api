@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IOverlay.GetColorKey
-title: IOverlay::GetColorKey
+title: IOverlay::GetColorKey (strmif.h)
 author: windows-sdk-content
 description: The GetColorKey method retrieves the current color key used for chroma keying.
 old-location: dshow\ioverlay_getcolorkey.htm

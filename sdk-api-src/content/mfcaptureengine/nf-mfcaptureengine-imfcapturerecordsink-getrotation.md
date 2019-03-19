@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.GetRotation
-title: IMFCaptureRecordSink::GetRotation
+title: IMFCaptureRecordSink::GetRotation (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the rotation that is currently being applied to the recorded video stream.
 old-location: mf\imfcapturerecordsink_getrotation.htm

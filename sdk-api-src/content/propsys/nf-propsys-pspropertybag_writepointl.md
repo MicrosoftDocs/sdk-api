@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WritePOINTL
-title: PSPropertyBag_WritePOINTL function
+title: PSPropertyBag_WritePOINTL function (propsys.h)
 author: windows-sdk-content
 description: Stores the property coordinates in aPOINTL structure of a specified property bag.
 old-location: properties\PSPropertyBag_WritePOINTL.htm

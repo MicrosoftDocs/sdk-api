@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_SETOVERLAYPOSITION
-title: PDD_SURFCB_SETOVERLAYPOSITION
+title: PDD_SURFCB_SETOVERLAYPOSITION (ddrawint.h)
 author: windows-sdk-content
 description: The DdSetOverlayPosition callback function sets the position for an overlay.
 old-location: display\ddsetoverlayposition.htm

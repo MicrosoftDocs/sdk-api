@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsSendComplete
-title: IMbnSmsEvents::OnSmsSendComplete
+title: IMbnSmsEvents::OnSmsSendComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates the completion of a message send operation.
 old-location: mbn\imbnsmsevents_onsmssendcomplete.htm

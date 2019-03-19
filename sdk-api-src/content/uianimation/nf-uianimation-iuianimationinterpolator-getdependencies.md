@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetDependencies
-title: IUIAnimationInterpolator::GetDependencies
+title: IUIAnimationInterpolator::GetDependencies (uianimation.h)
 author: windows-sdk-content
 description: Gets the aspects of the interpolator that depend on the initial value or velocity passed to SetInitialValueAndVelocity, or that depend on the duration passed to SetDuration.
 old-location: uianimation\iuianimationinterpolator_getdependencies.htm

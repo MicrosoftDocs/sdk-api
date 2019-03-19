@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_CREATE_CONTEXT_PARA
-title: CERT_CREATE_CONTEXT_PARA
+title: CERT_CREATE_CONTEXT_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Defines additional values that can be used when calling the CertCreateContext function.
 old-location: security\cert_create_context_para.htm

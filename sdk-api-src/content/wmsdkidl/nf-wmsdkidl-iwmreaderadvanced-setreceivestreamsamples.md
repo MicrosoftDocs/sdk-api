@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetReceiveStreamSamples
-title: IWMReaderAdvanced::SetReceiveStreamSamples
+title: IWMReaderAdvanced::SetReceiveStreamSamples (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetReceiveStreamSamples method specifies whether stream samples are delivered to the IWMReaderCallbackAdvanced::OnStreamSample callback.
 old-location: wmformat\iwmreaderadvanced_setreceivestreamsamples.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETICMPROFILE
-title: EMRSETICMPROFILE
+title: EMRSETICMPROFILE (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETICMPROFILE structure contains members for the SetICMProfile enhanced metafile record.
 old-location: gdi\emrseticmprofile.htm

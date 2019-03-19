@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Region.Complement(IN const Region)
-title: Region::Complement(IN const Region)
+title: Region::Complement(IN const Region) (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Region::Complement method updates this region to the portion of another region that does not intersect this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Complement_region_.htm

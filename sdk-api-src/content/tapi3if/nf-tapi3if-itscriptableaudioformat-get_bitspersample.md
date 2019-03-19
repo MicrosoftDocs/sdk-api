@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_BitsPerSample
-title: ITScriptableAudioFormat::get_BitsPerSample
+title: ITScriptableAudioFormat::get_BitsPerSample (tapi3if.h)
 author: windows-sdk-content
 description: The get_BitsPerSample method returns the value for the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_bitspersample.htm

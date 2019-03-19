@@ -1,6 +1,6 @@
 ---
 UID: NF:winml.IWinMLRuntime.EvaluateModel
-title: IWinMLRuntime::EvaluateModel
+title: IWinMLRuntime::EvaluateModel (winml.h)
 author: windows-sdk-content
 description: Evaluates a WinML model.
 old-location: machinelearning\iwinmlruntime_evaluatemodel.htm

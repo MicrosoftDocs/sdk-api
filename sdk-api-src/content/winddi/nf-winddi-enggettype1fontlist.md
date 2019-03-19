@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGetType1FontList
-title: EngGetType1FontList function
+title: EngGetType1FontList function (winddi.h)
 author: windows-sdk-content
 description: The EngGetType1FontList function retrieves a list of PostScript Type 1 fonts that are installed both locally and remotely.
 old-location: display\enggettype1fontlist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhGetFormattedCounterValue
-title: PdhGetFormattedCounterValue function
+title: PdhGetFormattedCounterValue function (pdh.h)
 author: windows-sdk-content
 description: Computes a displayable value for the specified counter.
 old-location: perf\pdhgetformattedcountervalue.htm

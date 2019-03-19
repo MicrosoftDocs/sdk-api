@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.Clone
-title: IComponentType::Clone
+title: IComponentType::Clone (tuner.h)
 author: windows-sdk-content
 description: The Clone method creates a new copy of this component type.
 old-location: mstv\icomponenttype_clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0023
-title: ADSI_DIALECT_ENUM
+title: ADSI_DIALECT_ENUM (iads.h)
 author: windows-sdk-content
 description: The ADSI_DIALECT_ENUM enumeration specifies query dialects used in the OLE DB provider for ADSI.
 old-location: adsi\adsi_dialect_enum.htm

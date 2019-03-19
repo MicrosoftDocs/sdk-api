@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IKsJackDescription2
-title: IKsJackDescription2
+title: IKsJackDescription2 (devicetopology.h)
 author: windows-sdk-content
 description: The IKsJackDescription2 interface provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player).
 old-location: coreaudio\iksjackdescription2.htm

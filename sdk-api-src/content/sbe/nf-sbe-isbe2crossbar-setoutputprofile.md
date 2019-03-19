@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.SetOutputProfile
-title: ISBE2Crossbar::SetOutputProfile
+title: ISBE2Crossbar::SetOutputProfile (sbe.h)
 author: windows-sdk-content
 description: Replaces the default or current input profile with the profile specified in this method.
 old-location: mstv\isbe2crossbar_setoutputprofile.htm

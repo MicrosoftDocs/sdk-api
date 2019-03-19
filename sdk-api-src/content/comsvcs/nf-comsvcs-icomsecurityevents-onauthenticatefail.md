@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticateFail
-title: IComSecurityEvents::OnAuthenticateFail
+title: IComSecurityEvents::OnAuthenticateFail (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a method call level authentication fails.
 old-location: cos\icomsecurityevents_onauthenticatefail.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_COUNTER_TYPE
-title: D3D11_COUNTER_TYPE
+title: D3D11_COUNTER_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Data type of a performance counter.
 old-location: direct3d11\d3d11_counter_type.htm

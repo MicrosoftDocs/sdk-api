@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer
-title: IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer
+title: IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer (mileffects.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether to use software rendering.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer.htm

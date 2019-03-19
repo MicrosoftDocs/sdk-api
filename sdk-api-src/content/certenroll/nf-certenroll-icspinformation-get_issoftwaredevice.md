@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsSoftwareDevice
-title: ICspInformation::get_IsSoftwareDevice
+title: ICspInformation::get_IsSoftwareDevice (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider is implemented in software.
 old-location: security\icspinformation_issoftwaredevice_property.htm

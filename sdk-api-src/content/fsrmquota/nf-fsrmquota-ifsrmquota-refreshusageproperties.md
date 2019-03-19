@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.RefreshUsageProperties
-title: IFsrmQuota::RefreshUsageProperties
+title: IFsrmQuota::RefreshUsageProperties (fsrmquota.h)
 author: windows-sdk-content
 description: Refreshes this object's quota usage information from the current information in FSRM.
 old-location: fsrm\ifsrmquota_refreshusageproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webapplication.IWebApplicationUIEvents.SecurityProblem
-title: IWebApplicationUIEvents::SecurityProblem
+title: IWebApplicationUIEvents::SecurityProblem (webapplication.h)
 author: windows-sdk-content
 description: Notifies the authoring app about an authentication problem.
 old-location: debug\iwebapplicationuievents_securityproblem.htm

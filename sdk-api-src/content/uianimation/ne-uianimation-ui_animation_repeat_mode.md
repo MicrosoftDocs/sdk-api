@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0004
-title: UI_ANIMATION_REPEAT_MODE
+title: UI_ANIMATION_REPEAT_MODE (uianimation.h)
 author: windows-sdk-content
 description: Defines the pattern for a loop iteration.
 old-location: uianimation\ui_animation_repeat_mode.htm

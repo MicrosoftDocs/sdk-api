@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SESSION_INFO_10
-title: SESSION_INFO_10
+title: SESSION_INFO_10 (lmshare.h)
 author: windows-sdk-content
 description: Contains information about the session, including name of the computer; name of the user; and active and idle times for the session.
 old-location: fs\session_info_10_str.htm

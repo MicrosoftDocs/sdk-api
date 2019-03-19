@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_HBAPORT_SPEED_FLAG
-title: VDS_HBAPORT_SPEED_FLAG
+title: VDS_HBAPORT_SPEED_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid flags for determining the speeds supported by an HBA port.
 old-location: base\vds_hbaport_speed_flag.htm

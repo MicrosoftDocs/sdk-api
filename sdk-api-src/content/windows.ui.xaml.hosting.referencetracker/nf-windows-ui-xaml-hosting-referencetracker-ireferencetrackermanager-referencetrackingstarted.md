@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.ReferenceTrackingStarted
-title: IReferenceTrackerManager::xaml
+title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls FindTrackerTargetsCompleted.
 old-location: winrt\ireferencetrackermanager_referencetrackingstarted.htm

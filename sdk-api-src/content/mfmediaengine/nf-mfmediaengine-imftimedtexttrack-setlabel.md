@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.SetLabel
-title: IMFTimedTextTrack::SetLabel
+title: IMFTimedTextTrack::SetLabel (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the label of a timed-text track.
 old-location: mf\imftimedtexttrack_setlabel.htm

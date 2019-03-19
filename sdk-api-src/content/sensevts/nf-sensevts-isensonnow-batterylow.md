@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensOnNow.BatteryLow
-title: ISensOnNow::BatteryLow
+title: ISensOnNow::BatteryLow (sensevts.h)
 author: windows-sdk-content
 description: The BatteryLow method notifies an application that battery power is low. SENS calls the BatteryLow method to notify an application that a computer is using battery power.
 old-location: sens\isensonnow_batterylow.htm

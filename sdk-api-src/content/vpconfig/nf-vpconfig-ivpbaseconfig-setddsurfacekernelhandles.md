@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetDDSurfaceKernelHandles
-title: IVPBaseConfig::SetDDSurfaceKernelHandles
+title: IVPBaseConfig::SetDDSurfaceKernelHandles (vpconfig.h)
 author: windows-sdk-content
 description: The SetDDSurfaceKernelHandles method specifies the kernel-mode handles of the DirectDraw surfaces to be used for the overlay suface.
 old-location: dshow\ivpbaseconfig_setddsurfacekernelhandles.htm

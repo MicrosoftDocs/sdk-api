@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfile
-title: IConfigAsfWriter::ConfigureFilterUsingProfile
+title: IConfigAsfWriter::ConfigureFilterUsingProfile (dshowasf.h)
 author: windows-sdk-content
 description: The ConfigureFilterUsingProfile method sets an ASF profile on the WM ASF Writer filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter_configurefilterusingprofile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbPlacementNotifySink
-title: ITsSbPlacementNotifySink
+title: ITsSbPlacementNotifySink (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that return information about environments to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbplacementnotifysink.htm

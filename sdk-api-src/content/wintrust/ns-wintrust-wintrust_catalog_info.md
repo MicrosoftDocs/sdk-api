@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust.WINTRUST_CATALOG_INFO_
-title: WINTRUST_CATALOG_INFO
+title: WINTRUST_CATALOG_INFO (wintrust.h)
 author: windows-sdk-content
 description: The WINTRUST_CATALOG_INFO structure is used when calling WinVerifyTrust to verify a member of a Microsoft catalog.
 old-location: security\wintrust_catalog_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.ReportIScsiInitiatorListA
-title: ReportIScsiInitiatorListA function
+title: ReportIScsiInitiatorListA function (iscsidsc.h)
 author: windows-sdk-content
 description: ReportIscsiInitiatorList function retrieves the list of initiator Host Bus Adapters that are running on the machine.
 old-location: iscsidisc\reportiscsiinitiatorlist.htm

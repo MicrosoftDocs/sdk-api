@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeDescAlias
-title: ICreateTypeInfo::SetTypeDescAlias
+title: ICreateTypeInfo::SetTypeDescAlias (oaidl.h)
 author: windows-sdk-content
 description: Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
 old-location: automat\icreatetypeinfo_settypedescalias.htm

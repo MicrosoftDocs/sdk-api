@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.SetDirectXManager
-title: IMFVideoSampleAllocator::SetDirectXManager
+title: IMFVideoSampleAllocator::SetDirectXManager (mfidl.h)
 author: windows-sdk-content
 description: Specifies the Direct3D device manager for the video media sink to use.
 old-location: mf\imfvideosampleallocator_setdirectxmanager.htm

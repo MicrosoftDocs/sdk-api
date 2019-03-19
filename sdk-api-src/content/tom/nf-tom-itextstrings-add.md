@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStrings.Add
-title: ITextStrings::Add
+title: ITextStrings::Add (tom.h)
 author: windows-sdk-content
 description: Adds a string to the end of the collection.
 old-location: controls\itextstrings_add.htm

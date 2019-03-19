@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI2FromDisp
-title: VarUI2FromDisp function
+title: VarUI2FromDisp function (oleauto.h)
 author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to an unsigned short value.
 old-location: automat\varui2fromdisp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVideoFrameStep.Step
-title: IVideoFrameStep::Step
+title: IVideoFrameStep::Step (strmif.h)
 author: windows-sdk-content
 description: The Step method causes the filter graph to step forward by the specified number of frames.
 old-location: dshow\ivideoframestep_step.htm

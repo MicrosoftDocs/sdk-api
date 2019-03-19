@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerStoreGetNextReportKey
-title: WerStoreGetNextReportKey function
+title: WerStoreGetNextReportKey function (werapi.h)
 author: windows-sdk-content
 description: Gets a reference to the next report in the error report store.
 old-location: wer\werstoregetnextreportkey.htm

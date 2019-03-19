@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_KEYMODULE_STATE0_
-title: IPSEC_KEYMODULE_STATE0
+title: IPSEC_KEYMODULE_STATE0 (ipsectypes.h)
 author: windows-sdk-content
 description: Stores Internet Protocol Security (IPsec) keying module specific information.
 old-location: fwp\ipsec_keymodule_state0_struct.htm

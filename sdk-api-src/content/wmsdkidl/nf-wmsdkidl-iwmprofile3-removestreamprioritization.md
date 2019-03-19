@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.RemoveStreamPrioritization
-title: IWMProfile3::RemoveStreamPrioritization
+title: IWMProfile3::RemoveStreamPrioritization (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveStreamPrioritization method removes the stream prioritization object from the profile.
 old-location: wmformat\iwmprofile3_removestreamprioritization.htm

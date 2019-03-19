@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.SetInitialValueAndVelocity
-title: IUIAnimationInterpolator2::SetInitialValueAndVelocity
+title: IUIAnimationInterpolator2::SetInitialValueAndVelocity (uianimation.h)
 author: windows-sdk-content
 description: Sets the initial value and velocity of the transition for the given dimension.
 old-location: uianimation\iuianimationinterpolator2_setinitialvalueandvelocity.htm

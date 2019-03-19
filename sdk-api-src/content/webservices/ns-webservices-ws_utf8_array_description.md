@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_UTF8_ARRAY_DESCRIPTION
-title: WS_UTF8_ARRAY_DESCRIPTION
+title: WS_UTF8_ARRAY_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: This type description is used with WS_UTF8_ARRAY_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_utf8_array_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetVideoWindow
-title: IMFVideoDisplayControl::GetVideoWindow
+title: IMFVideoDisplayControl::GetVideoWindow (evr.h)
 author: windows-sdk-content
 description: Gets the clipping window for the video.
 old-location: mf\imfvideodisplaycontrol_getvideowindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUICollection.GetCount
-title: IUICollection::GetCount
+title: IUICollection::GetCount (uiribbon.h)
 author: windows-sdk-content
 description: Retrieves the number of items contained in the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_getcount.htm

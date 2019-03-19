@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetAcceleratedStreamingDuration
-title: IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration
+title: IWMReaderNetworkConfig2::GetAcceleratedStreamingDuration (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAcceleratedStreamingDuration method retrieves the current accelerated streaming duration.
 old-location: wmformat\iwmreadernetworkconfig2_getacceleratedstreamingduration.htm

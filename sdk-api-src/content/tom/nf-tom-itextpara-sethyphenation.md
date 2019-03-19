@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetHyphenation
-title: ITextPara::SetHyphenation
+title: ITextPara::SetHyphenation (tom.h)
 author: windows-sdk-content
 description: Controls hyphenation for the paragraphs in the range.
 old-location: controls\ITextPara_SetHyphenation.htm

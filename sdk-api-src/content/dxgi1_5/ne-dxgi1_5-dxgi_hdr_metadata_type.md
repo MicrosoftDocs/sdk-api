@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_5.DXGI_HDR_METADATA_TYPE
-title: DXGI_HDR_METADATA_TYPE
+title: DXGI_HDR_METADATA_TYPE (dxgi1_5.h)
 author: windows-sdk-content
 description: Specifies the header metadata type.
 old-location: direct3ddxgi\dxgi_hdr_metadata_type.htm

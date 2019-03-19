@@ -1,6 +1,6 @@
 ---
 UID: NS:uxtheme._DTTOPTS
-title: DTTOPTS
+title: DTTOPTS (uxtheme.h)
 author: windows-sdk-content
 description: Defines the options for the DrawThemeTextEx function.
 old-location: controls\DTTOPTS.htm

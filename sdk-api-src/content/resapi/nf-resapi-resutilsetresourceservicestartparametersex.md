@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetResourceServiceStartParametersEx
-title: ResUtilSetResourceServiceStartParametersEx function
+title: ResUtilSetResourceServiceStartParametersEx function (resapi.h)
 author: windows-sdk-content
 description: Adjusts the start parameters of a specified service so that it operates correctly as a cluster resource. It must be called from a resource DLL. The PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX type defines a pointer to this function.
 old-location: mscs\resutilsetresourceservicestartparametersex.htm

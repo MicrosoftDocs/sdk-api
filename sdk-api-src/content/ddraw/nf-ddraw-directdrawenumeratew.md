@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.DirectDrawEnumerateW
-title: DirectDrawEnumerateW function
+title: DirectDrawEnumerateW function (ddraw.h)
 author: windows-sdk-content
 description: This function is superseded by the DirectDrawEnumerateEx function.
 old-location: directdraw\directdrawenumerate.htm

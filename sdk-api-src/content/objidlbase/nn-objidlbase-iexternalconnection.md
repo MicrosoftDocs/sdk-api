@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IExternalConnection
-title: IExternalConnection
+title: IExternalConnection (objidlbase.h)
 author: windows-sdk-content
 description: Manages a server object's count of marshaled, or external, connections. A server that maintains such a count can detect when it has no external connections and shut itself down in an orderly fashion.
 old-location: com\iexternalconnection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
-title: IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
+title: IMFHttpDownloadSessionProvider::CreateHttpDownloadSession (mfidl.h)
 author: windows-sdk-content
 description: Called by the Microsoft Media Foundation to open HTTP or HTTPS URLs instead of using the default implementation.
 old-location: mf\imfhttpdownloadsessionprovider_createhttpdownloadsession.htm

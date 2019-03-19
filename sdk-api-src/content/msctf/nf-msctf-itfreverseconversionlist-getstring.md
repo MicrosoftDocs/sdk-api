@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfReverseConversionList.GetString
-title: ITfReverseConversionList::GetString
+title: ITfReverseConversionList::GetString (msctf.h)
 author: windows-sdk-content
 description: Retrieves the keystroke sequence at the specified index.
 old-location: tsf\itfreverseconversionlist_getstring.htm

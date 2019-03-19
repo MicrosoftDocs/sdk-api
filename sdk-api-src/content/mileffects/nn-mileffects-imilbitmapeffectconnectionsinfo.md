@@ -1,6 +1,6 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnectionsInfo
-title: IMILBitmapEffectConnectionsInfo
+title: IMILBitmapEffectConnectionsInfo (mileffects.h)
 author: windows-sdk-content
 description: Exposes methods that retrieves information about what input and output pins are exposed by the bitmap effect.
 old-location: wibe\_wibe_imilbitmapeffectconnectionsinfo.htm

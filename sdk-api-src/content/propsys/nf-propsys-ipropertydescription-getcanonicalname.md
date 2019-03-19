@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetCanonicalName
-title: IPropertyDescription::GetCanonicalName
+title: IPropertyDescription::GetCanonicalName (propsys.h)
 author: windows-sdk-content
 description: Gets the case-sensitive name by which a property is known to the system, regardless of its localized name.
 old-location: properties\IPropertyDescription_GetCanonicalName.htm

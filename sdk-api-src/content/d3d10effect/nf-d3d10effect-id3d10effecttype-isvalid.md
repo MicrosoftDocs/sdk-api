@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.IsValid
-title: ID3D10EffectType::IsValid
+title: ID3D10EffectType::IsValid (d3d10effect.h)
 author: windows-sdk-content
 description: Tests that the effect type is valid.
 old-location: direct3d10\id3d10effecttype_isvalid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbResourcePlugin
-title: ITsSbResourcePlugin
+title: ITsSbResourcePlugin (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that extend the capabilities of Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbresourceplugin.htm

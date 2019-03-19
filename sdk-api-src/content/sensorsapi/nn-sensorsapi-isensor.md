@@ -1,6 +1,6 @@
 ---
 UID: NN:sensorsapi.ISensor
-title: ISensor
+title: ISensor (sensorsapi.h)
 author: windows-sdk-content
 description: Represents a sensor.
 old-location: winsensors\isensor.htm

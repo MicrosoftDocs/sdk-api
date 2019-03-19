@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmAutoApplyQuota.get_ExcludeFolders
-title: IFsrmAutoApplyQuota::get_ExcludeFolders
+title: IFsrmAutoApplyQuota::get_ExcludeFolders (fsrmquota.h)
 author: windows-sdk-content
 description: Retrieves or sets an array of immediate subdirectories to exclude from the automatic quota.
 old-location: fsrm\ifsrmautoapplyquota_excludefolders.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientOptions
-title: DhcpGetClientOptions function
+title: DhcpGetClientOptions function (dhcpsapi.h)
 author: windows-sdk-content
 description: Returns only ERROR_NOT_IMPLEMENTED, as it is not used or supported.
 old-location: dhcp\dhcpgetclientoptions.htm

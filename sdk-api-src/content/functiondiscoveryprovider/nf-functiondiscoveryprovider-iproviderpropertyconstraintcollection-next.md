@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Next
-title: IProviderPropertyConstraintCollection::Next
+title: IProviderPropertyConstraintCollection::Next (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Gets the name and value of the next property constraint in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_next.htm

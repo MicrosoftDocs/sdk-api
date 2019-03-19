@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_Version
-title: ITPluggableTerminalClassInfo::get_Version
+title: ITPluggableTerminalClassInfo::get_Version (tapi3if.h)
 author: windows-sdk-content
 description: The get_Version method gets the terminal version.
 old-location: tapi3\itpluggableterminalclassinfo_get_version.htm

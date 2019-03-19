@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetStoredSettings
-title: ISettingsContext::GetStoredSettings
+title: ISettingsContext::GetStoredSettings (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the stored setting changes from the context for the given namespace.
 old-location: smi\isettingscontext_getstoredsettings.htm

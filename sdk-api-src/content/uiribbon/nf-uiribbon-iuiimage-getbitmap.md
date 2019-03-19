@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIImage.GetBitmap
-title: IUIImage::GetBitmap
+title: IUIImage::GetBitmap (uiribbon.h)
 author: windows-sdk-content
 description: Retrieves a bitmap to display as an icon in the ribbon and context popup UI of the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiimage_getbitmap.htm

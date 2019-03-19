@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetCurrentTunerStandardCapability
-title: IScanningTunerEx::GetCurrentTunerStandardCapability
+title: IScanningTunerEx::GetCurrentTunerStandardCapability (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_getcurrenttunerstandardcapability.htm

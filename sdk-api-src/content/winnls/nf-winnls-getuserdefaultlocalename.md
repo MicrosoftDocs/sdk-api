@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetUserDefaultLocaleName
-title: GetUserDefaultLocaleName function
+title: GetUserDefaultLocaleName function (winnls.h)
 author: windows-sdk-content
 description: Retrieves the user default locale name.Note  The application should call this function in preference to GetUserDefaultLCID if designed to run only on Windows Vista and later.
 old-location: intl\getuserdefaultlocalename.htm

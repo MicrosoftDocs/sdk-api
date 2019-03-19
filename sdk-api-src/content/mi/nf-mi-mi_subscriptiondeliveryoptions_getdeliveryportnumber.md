@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber
-title: MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber function
+title: MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber function (mi.h)
 author: windows-sdk-content
 description: Gets the previously set delivery port number.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliveryportnumber.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_STATE_OBJECT_DESC
-title: D3D12_STATE_OBJECT_DESC
+title: D3D12_STATE_OBJECT_DESC (d3d12.h)
 author: windows-sdk-content
 description: Description of a state object. Pass this structure into ID3D12Device::CreateStateObject.
 old-location: direct3d12\d3d12_state_object_desc.htm

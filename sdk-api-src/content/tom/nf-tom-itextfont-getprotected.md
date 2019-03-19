@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetProtected
-title: ITextFont::GetProtected
+title: ITextFont::GetProtected (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are protected against attempts to modify them.
 old-location: controls\ITextFont_GetProtected.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyStoreCapabilities
-title: IPropertyStoreCapabilities
+title: IPropertyStoreCapabilities (propsys.h)
 author: windows-sdk-content
 description: Exposes a method that determines whether a property can be edited in the UI by the user.
 old-location: properties\IPropertyStoreCapabilities.htm

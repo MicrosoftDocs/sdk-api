@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Bcc
-title: IEmailAction::put_Bcc
+title: IEmailAction::put_Bcc (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the email address or addresses that you want to Bcc in the email message.
 old-location: taskschd\iemailaction_bcc.htm

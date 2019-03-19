@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.SetFocus
-title: IRawElementProviderFragment::SetFocus
+title: IRawElementProviderFragment::SetFocus (uiautomationcore.h)
 author: windows-sdk-content
 description: Sets the focus to this element.
 old-location: winauto\uiauto_IRawElementProviderFragment_SetFocus.htm

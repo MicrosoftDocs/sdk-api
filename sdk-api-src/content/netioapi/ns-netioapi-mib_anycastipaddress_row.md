@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_ANYCASTIPADDRESS_ROW
-title: MIB_ANYCASTIPADDRESS_ROW
+title: MIB_ANYCASTIPADDRESS_ROW (netioapi.h)
 author: windows-sdk-content
 description: Stores information about an anycast IP address.
 old-location: mib\mib_anycastipaddress_row.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdateEnd
-title: IMFSourceBufferNotify::OnUpdateEnd
+title: IMFSourceBufferNotify::OnUpdateEnd (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to indicate that the source buffer has finished updating.
 old-location: mf\imfsourcebuffernotify_onupdateend.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawi._DDCORECAPS
-title: DDCORECAPS
+title: DDCORECAPS (ddrawi.h)
 author: windows-sdk-content
 description: The DDCORECAPS structure specifies the core capabilities of the Microsoft DirectDraw driver and its device, which are exposed to an application through the DirectDraw object.
 old-location: display\ddcorecaps.htm

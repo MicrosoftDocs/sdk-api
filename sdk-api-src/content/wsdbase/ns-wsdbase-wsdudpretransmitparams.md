@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdbase._WSDUdpRetransmitParams
-title: WSDUdpRetransmitParams
+title: WSDUdpRetransmitParams (wsdbase.h)
 author: windows-sdk-content
 description: Defines the parameters for repeating a message transimission.
 old-location: ncd\wsdupdretransmitparams.htm

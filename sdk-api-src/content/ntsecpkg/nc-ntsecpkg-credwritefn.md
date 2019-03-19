@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.CredWriteFn
-title: CredWriteFn
+title: CredWriteFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Writes the specified credential to the Credential Manager.
 old-location: security\crediwrite.htm

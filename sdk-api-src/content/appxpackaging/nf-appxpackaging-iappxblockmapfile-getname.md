@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetName
-title: IAppxBlockMapFile::GetName
+title: IAppxBlockMapFile::GetName (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the name of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getname.htm

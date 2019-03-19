@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabGetContact
-title: PeerCollabGetContact function
+title: PeerCollabGetContact function (p2p.h)
 author: windows-sdk-content
 description: Obtains the information for a peer contact given the peer name of the contact.
 old-location: p2p\peercollabgetcontact.htm

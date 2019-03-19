@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IStreamBuilder.Render
-title: IStreamBuilder::Render
+title: IStreamBuilder::Render (strmif.h)
 author: windows-sdk-content
 description: The Render method completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
 old-location: dshow\istreambuilder_render.htm

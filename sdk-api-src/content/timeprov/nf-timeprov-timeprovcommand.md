@@ -1,6 +1,6 @@
 ---
 UID: NF:timeprov.TimeProvCommand
-title: TimeProvCommand function
+title: TimeProvCommand function (timeprov.h)
 author: windows-sdk-content
 description: A callback function that is called by the time provider manager to send commands to the time provider.
 old-location: base\timeprovcommand.htm

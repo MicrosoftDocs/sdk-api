@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateAttributes
-title: MFCreateAttributes function
+title: MFCreateAttributes function (mfapi.h)
 author: windows-sdk-content
 description: Creates an empty attribute store.
 old-location: mf\mfcreateattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactCollection.Next
-title: IContactCollection::Next
+title: IContactCollection::Next (icontact.h)
 author: windows-sdk-content
 description: Moves to the next contact.
 old-location: wincontacts\_wincontacts_IContactCollection_Next.htm

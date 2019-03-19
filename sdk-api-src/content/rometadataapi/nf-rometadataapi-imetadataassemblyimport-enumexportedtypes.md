@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumExportedTypes
-title: IMetaDataAssemblyImport::EnumExportedTypes
+title: IMetaDataAssemblyImport::EnumExportedTypes (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates the exported types referenced in the assembly manifest in the current metadata scope.
 old-location: winrt\imetadataassemblyimport_enumexportedtypes.htm

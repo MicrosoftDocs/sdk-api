@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesErrorInfo
-title: IOfflineFilesErrorInfo
+title: IOfflineFilesErrorInfo (cscobj.h)
 author: windows-sdk-content
 description: Provides a text description and raw data block associated with an error.
 old-location: of\iofflinefileserrorinfo.htm

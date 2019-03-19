@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_30
-title: MCI_DGV_STATUS_PARMSA
+title: MCI_DGV_STATUS_PARMSA (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_STATUS_PARMS structure contains parameters for the MCI_STATUS command for digital-video devices.
 old-location: multimedia\mci_dgv_status_parms.htm

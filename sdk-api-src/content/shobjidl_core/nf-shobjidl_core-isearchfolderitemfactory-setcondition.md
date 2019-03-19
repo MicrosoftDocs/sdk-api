@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetCondition
-title: ISearchFolderItemFactory::SetCondition
+title: ISearchFolderItemFactory::SetCondition (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the ICondition of the search. When this method is not called, the resulting search will have no filters applied.
 old-location: shell\ISearchFolderItemFactory_SetCondition.htm

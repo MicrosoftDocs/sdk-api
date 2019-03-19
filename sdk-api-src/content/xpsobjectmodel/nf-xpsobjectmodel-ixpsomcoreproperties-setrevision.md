@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetRevision
-title: IXpsOMCoreProperties::SetRevision
+title: IXpsOMCoreProperties::SetRevision (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the revision property.
 old-location: xps\ixpsomcoreproperties_setrevision.htm

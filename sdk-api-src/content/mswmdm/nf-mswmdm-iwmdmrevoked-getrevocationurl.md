@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMRevoked.GetRevocationURL
-title: IWMDMRevoked::GetRevocationURL
+title: IWMDMRevoked::GetRevocationURL (mswmdm.h)
 author: windows-sdk-content
 description: The GetRevocationURL method retrieves the URL from which updated components can be downloaded.
 old-location: wmdm\iwmdmrevoked_getrevocationurl.htm

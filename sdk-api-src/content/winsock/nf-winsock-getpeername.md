@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.getpeername
-title: getpeername function
+title: getpeername function (winsock.h)
 author: windows-sdk-content
 description: The getpeername function retrieves the address of the peer to which a socket is connected.
 old-location: winsock\getpeername_2.htm

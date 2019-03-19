@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.SetEndOfStream
-title: ISpatialAudioObjectBase::SetEndOfStream
+title: ISpatialAudioObjectBase::SetEndOfStream (spatialaudioclient.h)
 author: windows-sdk-content
 description: Instructs the system that the final block of audio data has been submitted for the ISpatialAudioObject so that the object can be deactivated and it's resources reused.
 old-location: coreaudio\ispatialaudioobject_setendofstream.htm

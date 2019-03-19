@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.SetMask
-title: IVdsLun::SetMask
+title: IVdsLun::SetMask (vds.h)
 author: windows-sdk-content
 description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN.
 old-location: base\ivdslun_setmask.htm

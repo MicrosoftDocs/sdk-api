@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_DevicePower
-title: IAMExtDevice::get_DevicePower
+title: IAMExtDevice::get_DevicePower (strmif.h)
 author: windows-sdk-content
 description: The get_DevicePower method retrieves the external device's power mode.
 old-location: dshow\iamextdevice_get_devicepower.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitiveImpl.IsVolatile
-title: IMILBitmapEffectPrimitiveImpl::IsVolatile
+title: IMILBitmapEffectPrimitiveImpl::IsVolatile (mileffects.h)
 author: windows-sdk-content
 description: Determines whether the current effect is considered volatile. If an effect is volatile, the effects framework will not attempt to cache the effect's output.
 old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl_isvolatile.htm

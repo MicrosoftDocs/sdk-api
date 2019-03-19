@@ -1,6 +1,6 @@
 ---
 UID: NF:apiquery2.IsApiSetImplemented
-title: IsApiSetImplemented function
+title: IsApiSetImplemented function (apiquery2.h)
 author: windows-sdk-content
 description: The IsApiSetImplemented function tests if a specified API set is present on the computer.
 old-location: winprog\isapisetimplemented.htm

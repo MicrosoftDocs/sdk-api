@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.SetProperty
-title: IMDSPDevice3::SetProperty
+title: IMDSPDevice3::SetProperty (mswmdm.h)
 author: windows-sdk-content
 description: The SetProperty method sets a specific device property that is writable.
 old-location: wmdm\imdspdevice3_setproperty.htm

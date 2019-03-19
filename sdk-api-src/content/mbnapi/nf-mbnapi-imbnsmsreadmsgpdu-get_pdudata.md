@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_PduData
-title: IMbnSmsReadMsgPdu::get_PduData
+title: IMbnSmsReadMsgPdu::get_PduData (mbnapi.h)
 author: windows-sdk-content
 description: The PDU message in hexadecimal format as used by GSM devices.
 old-location: mbn\imbnsmsreadmsgpdu_pdudata.htm

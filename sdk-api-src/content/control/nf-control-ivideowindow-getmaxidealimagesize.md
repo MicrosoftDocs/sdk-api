@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.GetMaxIdealImageSize
-title: IVideoWindow::GetMaxIdealImageSize
+title: IVideoWindow::GetMaxIdealImageSize (control.h)
 author: windows-sdk-content
 description: The GetMaxIdealImageSize method retrieves the maximum ideal image size for the video image.
 old-location: dshow\ivideowindow_getmaxidealimagesize.htm

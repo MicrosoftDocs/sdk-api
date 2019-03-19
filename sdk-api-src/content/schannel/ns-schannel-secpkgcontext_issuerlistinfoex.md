@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_IssuerListInfoEx
-title: SecPkgContext_IssuerListInfoEx
+title: SecPkgContext_IssuerListInfoEx (schannel.h)
 author: windows-sdk-content
 description: The SecPkgContext_IssuerListInfoEx structure holds a list of trusted certification authorities (CAs).
 old-location: security\secpkgcontext_issuerlistinfoex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_StartPort
-title: IWdsTransportServicePolicy::put_StartPort
+title: IWdsTransportServicePolicy::put_StartPort (wdstptmgmt.h)
 author: windows-sdk-content
 description: Enables a WDS client computer to configure the start of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_startport.htm

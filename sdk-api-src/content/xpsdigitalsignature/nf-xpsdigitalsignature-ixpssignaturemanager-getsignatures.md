@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatures
-title: IXpsSignatureManager::GetSignatures
+title: IXpsSignatureManager::GetSignatures (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets a pointer to an IXpsSignatureCollection interface that contains a collection of XPS digital signatures.
 old-location: xps\ixpssignaturemanager_getsignatures.htm

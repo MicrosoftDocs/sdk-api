@@ -1,6 +1,6 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetStringValue
-title: IUPnPRemoteEndpointInfo::GetStringValue
+title: IUPnPRemoteEndpointInfo::GetStringValue (upnphost.h)
 author: windows-sdk-content
 description: The GetStringValue method gets a string that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm

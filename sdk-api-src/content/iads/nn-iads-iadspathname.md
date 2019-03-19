@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsPathname
-title: IADsPathname
+title: IADsPathname (iads.h)
 author: windows-sdk-content
 description: Parses the X.500 and Windows path in ADSI.
 old-location: adsi\iadspathname.htm

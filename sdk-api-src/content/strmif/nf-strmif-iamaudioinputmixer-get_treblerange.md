@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_TrebleRange
-title: IAMAudioInputMixer::get_TrebleRange
+title: IAMAudioInputMixer::get_TrebleRange (strmif.h)
 author: windows-sdk-content
 description: The get_TrebleRange method retrieves the treble range for this input.
 old-location: dshow\iamaudioinputmixer_get_treblerange.htm

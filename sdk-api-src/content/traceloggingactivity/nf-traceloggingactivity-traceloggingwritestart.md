@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteStart
-title: TraceLoggingWriteStart macro
+title: TraceLoggingWriteStart macro (traceloggingactivity.h)
 author: windows-sdk-content
 description: Starts an activity and logs the start event.
 old-location: tracelogging\traceloggingwritestart.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi.tagCRYPTUI_INITDIALOG_STRUCT
-title: CRYPTUI_INITDIALOG_STRUCT
+title: CRYPTUI_INITDIALOG_STRUCT (cryptuiapi.h)
 author: windows-sdk-content
 description: Supports the CRYPTUI_VIEWCERTIFICATE_STRUCT structure.
 old-location: security\cryptui_initdialog_struct.htm

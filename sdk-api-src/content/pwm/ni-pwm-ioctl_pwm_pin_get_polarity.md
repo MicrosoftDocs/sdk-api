@@ -1,6 +1,6 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_GET_POLARITY
-title: IOCTL_PWM_PIN_GET_POLARITY
+title: IOCTL_PWM_PIN_GET_POLARITY (pwm.h)
 author: windows-sdk-content
 description: Retrieves the current signal polarity of the pin or channel. The control code gets the signal polarity as a PWM_PIN_GET_POLARITY_OUTPUT structure. The signal polarity is either Active High or Active Low, as defined in the PWM_POLARITY enumeration.
 old-location: base\ioctl_pwm_pin_get_polarity.htm

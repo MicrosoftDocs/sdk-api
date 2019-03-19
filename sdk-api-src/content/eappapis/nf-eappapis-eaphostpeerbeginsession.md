@@ -1,6 +1,6 @@
 ---
 UID: NF:eappapis.EapHostPeerBeginSession
-title: EapHostPeerBeginSession function
+title: EapHostPeerBeginSession function (eappapis.h)
 author: windows-sdk-content
 description: Starts an EAP authentication session.
 old-location: eaphost\eaphostpeerbeginsession.htm

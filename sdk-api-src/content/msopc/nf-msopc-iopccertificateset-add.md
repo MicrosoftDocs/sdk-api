@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.Add
-title: IOpcCertificateSet::Add
+title: IOpcCertificateSet::Add (msopc.h)
 author: windows-sdk-content
 description: Adds a certificate to the set.
 old-location: opc\iopccertificateset_add.htm

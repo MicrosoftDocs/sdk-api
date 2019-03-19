@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.get_ProgNo
-title: IMPEG2TuneRequest::get_ProgNo
+title: IMPEG2TuneRequest::get_ProgNo (tuner.h)
 author: windows-sdk-content
 description: The get_ProgNo method retrieves the program number ID.
 old-location: mstv\impeg2tunerequest_get_progno.htm

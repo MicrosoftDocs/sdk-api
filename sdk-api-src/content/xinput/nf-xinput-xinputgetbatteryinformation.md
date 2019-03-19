@@ -1,6 +1,6 @@
 ---
 UID: NF:xinput.XInputGetBatteryInformation
-title: XInputGetBatteryInformation function
+title: XInputGetBatteryInformation function (xinput.h)
 author: windows-sdk-content
 description: Retrieves the battery type and charge status of a wireless controller.
 old-location: xinput\xinputgetbatteryinformation.htm

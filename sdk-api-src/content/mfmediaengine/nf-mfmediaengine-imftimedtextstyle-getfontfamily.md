@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetFontFamily
-title: IMFTimedTextStyle::GetFontFamily
+title: IMFTimedTextStyle::GetFontFamily (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the font family of the timed-text style.
 old-location: mf\imftimedtextstyle_getfontfamily.htm

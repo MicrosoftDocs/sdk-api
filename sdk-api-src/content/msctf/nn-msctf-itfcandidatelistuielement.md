@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfCandidateListUIElement
-title: ITfCandidateListUIElement
+title: ITfCandidateListUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfCandidateListUIElement interface is implemented by a text service that has the candidate list UI.
 old-location: tsf\itfcandidatelistuielement.htm

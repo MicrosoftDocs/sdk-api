@@ -1,6 +1,6 @@
 ---
 UID: NF:ddpbackup.IDedupBackupSupport.RestoreFiles
-title: IDedupBackupSupport::RestoreFiles
+title: IDedupBackupSupport::RestoreFiles (ddpbackup.h)
 author: windows-sdk-content
 description: Reconstructs a set of files from a backup store that contains the fully optimized version of the files (reparse points) and the Data Deduplication store.
 old-location: dedup\idedupbackupsupport_restorefiles.htm

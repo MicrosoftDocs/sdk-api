@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeProfile
-title: MFCreateTranscodeProfile function
+title: MFCreateTranscodeProfile function (mfidl.h)
 author: windows-sdk-content
 description: Creates an empty transcode profile object.
 old-location: mf\mfcreatetranscodeprofile.htm

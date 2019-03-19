@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptCloseProtectionDescriptor
-title: NCryptCloseProtectionDescriptor function
+title: NCryptCloseProtectionDescriptor function (ncryptprotect.h)
 author: windows-sdk-content
 description: Zeros and frees a protection descriptor object and releases its handle.
 old-location: security\ncryptcloseprotectiondescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAPropertyDisplayName
-title: ICertAdmin2::GetCAPropertyDisplayName
+title: ICertAdmin2::GetCAPropertyDisplayName (certadm.h)
 author: windows-sdk-content
 description: The ICertAdmin2::GetCAPropertyDisplayName method retrieves the property display name for a certification authority (CA) property.
 old-location: security\icertadmin2_getcapropertydisplayname.htm

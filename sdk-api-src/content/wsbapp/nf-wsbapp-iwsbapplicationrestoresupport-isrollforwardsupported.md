@@ -1,6 +1,6 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.IsRollForwardSupported
-title: IWsbApplicationRestoreSupport::IsRollForwardSupported
+title: IWsbApplicationRestoreSupport::IsRollForwardSupported (wsbapp.h)
 author: windows-sdk-content
 description: Reports whether the application supports roll-forward restore.
 old-location: wsb\iwsbapplicationrestoresupport_isrollforwardsupported.htm

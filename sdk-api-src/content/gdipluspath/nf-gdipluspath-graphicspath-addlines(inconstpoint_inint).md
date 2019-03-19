@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddLines(IN const Point,IN INT)
-title: GraphicsPath::AddLines(IN const Point,IN INT)
+title: GraphicsPath::AddLines(IN const Point,IN INT) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddLines method adds a sequence of connected lines to the current figure of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddLines_Point_points_INT_count_.htm

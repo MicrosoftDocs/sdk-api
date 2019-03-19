@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.GetForwardType
-title: ITForwardInformation::GetForwardType
+title: ITForwardInformation::GetForwardType (tapi3if.h)
 author: windows-sdk-content
 description: The GetForwardType method gets the forwarding mode.
 old-location: tapi3\itforwardinformation_getforwardtype.htm

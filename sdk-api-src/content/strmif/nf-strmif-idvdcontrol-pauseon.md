@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.PauseOn
-title: IDvdControl::PauseOn
+title: IDvdControl::PauseOn (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Pauses the current media file playback.
 old-location: dshow\idvdcontrol_pauseon.htm

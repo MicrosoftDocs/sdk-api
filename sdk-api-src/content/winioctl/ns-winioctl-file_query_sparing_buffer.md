@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_QUERY_SPARING_BUFFER
-title: FILE_QUERY_SPARING_BUFFER
+title: FILE_QUERY_SPARING_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Contains defect management properties.
 old-location: fs\file_query_sparing_buffer.htm

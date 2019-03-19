@@ -1,6 +1,6 @@
 ---
 UID: NN:oaidl.ISupportErrorInfo
-title: ISupportErrorInfo
+title: ISupportErrorInfo (oaidl.h)
 author: windows-sdk-content
 description: Ensures that error information can be propagated up the call chain correctly. Automation objects that use the error handling interfaces must implement ISupportErrorInfo.
 old-location: automat\isupporterrorinfo.htm

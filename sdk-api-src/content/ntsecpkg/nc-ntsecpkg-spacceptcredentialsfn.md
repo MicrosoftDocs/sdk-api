@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpAcceptCredentialsFn
-title: SpAcceptCredentialsFn
+title: SpAcceptCredentialsFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Called by the Local Security Authority (LSA) to pass the security package any credentials stored for the authenticated security principal.
 old-location: security\spacceptcredentials.htm

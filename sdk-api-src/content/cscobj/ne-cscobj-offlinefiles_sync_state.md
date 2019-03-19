@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_SYNC_STATE
-title: OFFLINEFILES_SYNC_STATE
+title: OFFLINEFILES_SYNC_STATE (cscobj.h)
 author: windows-sdk-content
 description: Describes the sync state of an Offline Files item.
 old-location: of\offlinefiles_sync_state.htm

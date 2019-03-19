@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_SPACING
-title: DWRITE_LINE_SPACING
+title: DWRITE_LINE_SPACING (dwrite_3.h)
 author: windows-sdk-content
 description: "."
 old-location: directwrite\dwrite_line_spacing.htm

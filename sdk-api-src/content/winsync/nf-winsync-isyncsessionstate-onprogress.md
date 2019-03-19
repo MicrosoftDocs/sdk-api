@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.OnProgress
-title: ISyncSessionState::OnProgress
+title: ISyncSessionState::OnProgress (winsync.h)
 author: windows-sdk-content
 description: Reports synchronization progress to the application.
 old-location: winsync\isyncsessionstate_onprogress.htm

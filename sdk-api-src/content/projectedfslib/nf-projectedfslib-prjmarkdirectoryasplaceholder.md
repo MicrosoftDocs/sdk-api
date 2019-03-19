@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjMarkDirectoryAsPlaceholder
-title: PrjMarkDirectoryAsPlaceholder function
+title: PrjMarkDirectoryAsPlaceholder function (projectedfslib.h)
 author: windows-sdk-content
 description: Converts an existing directory to a directory placeholder.
 old-location: projfs\prjmarkdirectoryasplaceholder.htm

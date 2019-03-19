@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DeploymentAction
-title: IUpdate::get_DeploymentAction
+title: IUpdate::get_DeploymentAction (wuapi.h)
 author: windows-sdk-content
 description: Gets the action for which the update is deployed.
 old-location: wua\iupdate_deploymentaction.htm

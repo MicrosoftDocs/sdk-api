@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EVENT_NOTIFY
-title: SECPKG_EVENT_NOTIFY
+title: SECPKG_EVENT_NOTIFY (ntsecpkg.h)
 author: windows-sdk-content
 description: The SECPKG_EVENT_NOTIFY structure contains information about security events. This structure is passed to a function registered to receive event notifications. Event notification functions are registered by calling the RegisterNotification function.
 old-location: security\secpkg_event_notify.htm

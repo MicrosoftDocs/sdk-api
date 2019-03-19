@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.AddFolder
-title: IShellLibrary::AddFolder
+title: IShellLibrary::AddFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a folder to the library.
 old-location: shell\IShellLibrary_AddFolder.htm

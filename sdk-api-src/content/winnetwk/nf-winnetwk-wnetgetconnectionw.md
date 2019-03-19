@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetGetConnectionW
-title: WNetGetConnectionW function
+title: WNetGetConnectionW function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetGetConnection function retrieves the name of the network resource associated with a local device.
 old-location: wnet\wnetgetconnection.htm

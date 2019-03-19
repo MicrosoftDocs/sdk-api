@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SendDlgItemMessageW
-title: SendDlgItemMessageW function
+title: SendDlgItemMessageW function (winuser.h)
 author: windows-sdk-content
 description: Sends a message to the specified control in a dialog box.
 old-location: dlgbox\senddlgitemmessage.htm

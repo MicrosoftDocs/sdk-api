@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.GetCategoryInfo
-title: ICategorizer::GetCategoryInfo
+title: ICategorizer::GetCategoryInfo (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets information about a category, such as the default display and the text to display in the UI.
 old-location: shell\ICategorizer_GetCategoryInfo.htm

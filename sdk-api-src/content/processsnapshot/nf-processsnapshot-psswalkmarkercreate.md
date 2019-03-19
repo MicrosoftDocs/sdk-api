@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerCreate
-title: PssWalkMarkerCreate function
+title: PssWalkMarkerCreate function (processsnapshot.h)
 author: windows-sdk-content
 description: Creates a walk marker.
 old-location: proc_snap\psswalkmarkercreate.htm

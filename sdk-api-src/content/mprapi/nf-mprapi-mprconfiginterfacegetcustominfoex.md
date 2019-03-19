@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetCustomInfoEx
-title: MprConfigInterfaceGetCustomInfoEx function
+title: MprConfigInterfaceGetCustomInfoEx function (mprapi.h)
 author: windows-sdk-content
 description: Retrieves the custom IKEv2 policy configuration for the specified interface.
 old-location: rras\mprconfiginterfacegetcustominfoex.htm

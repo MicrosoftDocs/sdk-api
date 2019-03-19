@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_PROTSEQ_VECTOR
-title: RPC_PROTSEQ_VECTOR
+title: RPC_PROTSEQ_VECTOR (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_PROTSEQ_VECTOR structure contains a list of protocol sequences the RPC run-time library uses to send and receive remote procedure calls.
 old-location: rpc\rpc_protseq_vector.htm

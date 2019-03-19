@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleControlSite.ShowPropertyFrame
-title: IOleControlSite::ShowPropertyFrame
+title: IOleControlSite::ShowPropertyFrame (ocidl.h)
 author: windows-sdk-content
 description: Instructs a container to display a property sheet for the control embedded in this site.
 old-location: com\iolecontrolsite_showpropertyframe.htm

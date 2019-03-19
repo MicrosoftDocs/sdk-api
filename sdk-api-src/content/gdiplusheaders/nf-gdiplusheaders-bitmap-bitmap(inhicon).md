@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN HICON)
-title: Bitmap::Bitmap(IN HICON)
+title: Bitmap::Bitmap(IN HICON) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Bitmap object based on an icon.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_hicon_.htm

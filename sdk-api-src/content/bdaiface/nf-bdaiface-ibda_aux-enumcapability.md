@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AUX.EnumCapability
-title: IBDA_AUX::EnumCapability
+title: IBDA_AUX::EnumCapability (bdaiface.h)
 author: windows-sdk-content
 description: Gets the capabilities of an auxiliary connector, specified by index.
 old-location: mstv\ibda_aux_enumcapability.htm

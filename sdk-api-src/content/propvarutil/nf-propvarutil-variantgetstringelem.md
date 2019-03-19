@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantGetStringElem
-title: VariantGetStringElem function
+title: VariantGetStringElem function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a single wide string element from a variant structure.
 old-location: properties\VariantGetStringElem.htm

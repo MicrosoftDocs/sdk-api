@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GenerateIndexEntries
-title: IMFASFIndexer::GenerateIndexEntries
+title: IMFASFIndexer::GenerateIndexEntries (wmcontainer.h)
 author: windows-sdk-content
 description: Accepts an ASF packet for the file and creates index entries for them.
 old-location: mf\imfasfindexer_generateindexentries.htm

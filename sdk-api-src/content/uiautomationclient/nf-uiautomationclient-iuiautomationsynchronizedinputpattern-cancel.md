@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSynchronizedInputPattern.Cancel
-title: IUIAutomationSynchronizedInputPattern::Cancel
+title: IUIAutomationSynchronizedInputPattern::Cancel (uiautomationclient.h)
 author: windows-sdk-content
 description: Causes the Microsoft UI Automation provider to stop listening for mouse or keyboard input.
 old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern_Cancel.htm

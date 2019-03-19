@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.FloodFill
-title: FloodFill function
+title: FloodFill function (wingdi.h)
 author: windows-sdk-content
 description: The FloodFill function fills an area of the display surface with the current brush. The area is assumed to be bounded as specified by the crFill parameter.
 old-location: gdi\floodfill.htm

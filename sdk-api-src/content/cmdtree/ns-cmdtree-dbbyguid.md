@@ -1,6 +1,6 @@
 ---
 UID: NS:cmdtree.tagDBBYGUID
-title: DBBYGUID
+title: DBBYGUID (cmdtree.h)
 author: windows-sdk-content
 description: The DBBYGUID structure supplies supplementary information for a node.
 old-location: indexsrv\dbbyguid.htm

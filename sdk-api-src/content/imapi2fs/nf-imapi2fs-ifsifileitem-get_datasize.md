@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.get_DataSize
-title: IFsiFileItem::get_DataSize
+title: IFsiFileItem::get_DataSize (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the number of bytes in the file.
 old-location: imapi\ifsifileitem_get_datasize.htm

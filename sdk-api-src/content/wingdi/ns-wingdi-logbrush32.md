@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagLOGBRUSH32
-title: LOGBRUSH32
+title: LOGBRUSH32 (wingdi.h)
 author: windows-sdk-content
 description: The LOGBRUSH32 structure defines the style, color, and pattern of a physical brush.
 old-location: gdi\logbrush32.htm

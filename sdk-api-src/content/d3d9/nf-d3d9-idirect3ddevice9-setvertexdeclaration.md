@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetVertexDeclaration
-title: IDirect3DDevice9::SetVertexDeclaration
+title: IDirect3DDevice9::SetVertexDeclaration (d3d9.h)
 author: windows-sdk-content
 description: Sets a Vertex Declaration (Direct3D 9).
 old-location: direct3d9\idirect3ddevice9__setvertexdeclaration.htm

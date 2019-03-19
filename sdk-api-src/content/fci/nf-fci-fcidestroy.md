@@ -1,6 +1,6 @@
 ---
 UID: NF:fci.FCIDestroy
-title: FCIDestroy function
+title: FCIDestroy function (fci.h)
 author: windows-sdk-content
 description: The FCIDestroy function deletes an open FCI context, freeing any memory and temporary files associated with the context.
 old-location: winprog\fcidestroy.htm

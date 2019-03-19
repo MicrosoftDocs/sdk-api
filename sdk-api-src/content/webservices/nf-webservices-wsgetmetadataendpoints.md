@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetMetadataEndpoints
-title: WsGetMetadataEndpoints function
+title: WsGetMetadataEndpoints function (webservices.h)
 author: windows-sdk-content
 description: Returns the &#0034;Endpoints&#0034; defined within the metadata object documents.
 old-location: wsw\wsgetmetadataendpoints.htm

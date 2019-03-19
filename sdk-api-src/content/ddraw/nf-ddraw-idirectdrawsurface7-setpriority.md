@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetPriority
-title: IDirectDrawSurface7::SetPriority
+title: IDirectDrawSurface7::SetPriority (ddraw.h)
 author: windows-sdk-content
 description: Assigns the texture-management priority for this texture. This method succeeds only on managed textures.
 old-location: directdraw\idirectdrawsurface7_setpriority.htm

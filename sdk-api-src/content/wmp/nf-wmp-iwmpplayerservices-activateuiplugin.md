@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.activateUIPlugin
-title: IWMPPlayerServices::activateUIPlugin
+title: IWMPPlayerServices::activateUIPlugin (wmp.h)
 author: windows-sdk-content
 description: The activateUIPlugin method activates the specified UI plug-in in the full mode of Windows Media Player.
 old-location: wmp\iwmpplayerservices_activateuiplugin.htm

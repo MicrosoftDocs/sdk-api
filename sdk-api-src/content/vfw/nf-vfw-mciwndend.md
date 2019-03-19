@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndEnd
-title: MCIWndEnd macro
+title: MCIWndEnd macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndEnd macro moves the current position to the end of the content. You can use this macro or explicitly send the MCI_SEEK message.
 old-location: multimedia\mciwndend.htm

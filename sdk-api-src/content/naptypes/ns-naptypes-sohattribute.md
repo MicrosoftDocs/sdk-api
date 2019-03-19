@@ -1,6 +1,6 @@
 ---
 UID: NS:naptypes.tagSoHAttribute
-title: SoHAttribute
+title: SoHAttribute (naptypes.h)
 author: windows-sdk-content
 description: Defines the SoH protocol between the SHA/SHV and the NAP system.
 old-location: nap\sohattribute_struct.htm

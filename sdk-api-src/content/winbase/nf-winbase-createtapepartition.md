@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateTapePartition
-title: CreateTapePartition function
+title: CreateTapePartition function (winbase.h)
 author: windows-sdk-content
 description: Reformats a tape.
 old-location: backup\createtapepartition.htm

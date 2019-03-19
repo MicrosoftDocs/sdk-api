@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetMethodProps
-title: IMetaDataImport::GetMethodProps
+title: IMetaDataImport::GetMethodProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the metadata associated with the method referenced by the specified MethodDef token.
 old-location: winrt\imetadataimport_getmethodprops.htm

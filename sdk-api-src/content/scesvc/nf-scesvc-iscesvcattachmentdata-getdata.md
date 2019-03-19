@@ -1,6 +1,6 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.GetData
-title: ISceSvcAttachmentData::GetData
+title: ISceSvcAttachmentData::GetData (scesvc.h)
 author: windows-sdk-content
 description: The GetData method retrieves configuration information from the Security Configuration snap-in.
 old-location: security\iscesvcattachmentdata_getdata.htm

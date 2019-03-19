@@ -1,6 +1,6 @@
 ---
 UID: NF:dmort.MoCreateMediaType
-title: MoCreateMediaType function
+title: MoCreateMediaType function (dmort.h)
 author: windows-sdk-content
 description: The MoCreateMediaType function allocates a new media type structure.
 old-location: dshow\mocreatemediatype.htm

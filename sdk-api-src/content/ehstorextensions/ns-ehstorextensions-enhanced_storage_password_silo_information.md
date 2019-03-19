@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorextensions._ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
-title: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
+title: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION (ehstorextensions.h)
 author: windows-sdk-content
 description: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure contains data that defines the capabilities and requirements of a password silo.
 old-location: enstor\enhanced_storage_password_silo_information.htm

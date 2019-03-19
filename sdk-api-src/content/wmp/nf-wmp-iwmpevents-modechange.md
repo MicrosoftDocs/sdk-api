@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.ModeChange
-title: IWMPEvents::ModeChange
+title: IWMPEvents::ModeChange (wmp.h)
 author: windows-sdk-content
 description: The ModeChange event occurs when a mode of the player is changed.
 old-location: wmp\iwmpevents_iwmpevents__modechange.htm

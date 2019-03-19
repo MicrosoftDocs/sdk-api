@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Run
-title: IMSVidCtl::Run
+title: IMSVidCtl::Run (msvidctl.h)
 author: windows-sdk-content
 description: The Run method runs the filter graph.
 old-location: mstv\imsvidctl_run.htm

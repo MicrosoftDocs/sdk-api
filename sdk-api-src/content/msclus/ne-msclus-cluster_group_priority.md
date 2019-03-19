@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_GROUP_PRIORITY
-title: CLUSTER_GROUP_PRIORITY
+title: CLUSTER_GROUP_PRIORITY (msclus.h)
 author: windows-sdk-content
 description: Specifies the priority level of a group.
 old-location: mscs\cluster_group_priority.htm

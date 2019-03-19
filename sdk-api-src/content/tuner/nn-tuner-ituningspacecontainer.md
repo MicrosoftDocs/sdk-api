@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.ITuningSpaceContainer
-title: ITuningSpaceContainer
+title: ITuningSpaceContainer (tuner.h)
 author: windows-sdk-content
 description: The ITuningSpaceContainer interface is implemented on the SystemTuningSpaces object.
 old-location: mstv\ituningspacecontainer.htm

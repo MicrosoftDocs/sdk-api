@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Next
-title: IEnumSyncMgrEvents::Next
+title: IEnumSyncMgrEvents::Next (syncmgr.h)
 author: windows-sdk-content
 description: Gets the next batch of events from the event store.
 old-location: shell\IEnumSyncMgrEvents_Next.htm

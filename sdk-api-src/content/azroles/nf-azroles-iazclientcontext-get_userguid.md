@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserGuid
-title: IAzClientContext::get_UserGuid
+title: IAzClientContext::get_UserGuid (azroles.h)
 author: windows-sdk-content
 description: Retrieves the name of the current client in GUID format.
 old-location: security\iazclientcontext_userguid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Name
-title: IFaxPort::get_Name
+title: IFaxPort::get_Name (faxcom.h)
 author: windows-sdk-content
 description: The IFaxPort::get_Name property is a null-terminated string that contains the user-friendly display name for a fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_name_cpp.htm

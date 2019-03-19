@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID
-title: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
+title: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_DEVICE_PASSWORD_ID enumeration defines values that specify the origin or 'type' of a password.
 old-location: wcn\wcn_value_type_device_password_id.htm

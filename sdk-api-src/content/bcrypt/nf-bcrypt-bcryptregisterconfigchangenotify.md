@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptRegisterConfigChangeNotify
-title: BCryptRegisterConfigChangeNotify function
+title: BCryptRegisterConfigChangeNotify function (bcrypt.h)
 author: windows-sdk-content
 description: Creates a user mode CNG configuration change event handler.
 old-location: security\bcryptregisterconfigchangenotify_handle.htm

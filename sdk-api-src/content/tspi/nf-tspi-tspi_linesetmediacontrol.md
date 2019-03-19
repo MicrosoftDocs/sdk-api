@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetMediaControl
-title: TSPI_lineSetMediaControl function
+title: TSPI_lineSetMediaControl function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetMediaControl function enables and disables control actions on the media stream associated with the specified line, address, or call.
 old-location: tspi\tspi_linesetmediacontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_PropertySetFT
-title: MI_PropertySetFT
+title: MI_PropertySetFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_PropertySet structure. Use the functions with the name prefix &#0034;MI_PropertySet_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_propertysetft.htm

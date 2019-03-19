@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.Draw
-title: IDynamicRenderer::Draw
+title: IDynamicRenderer::Draw (rtscom.h)
 author: windows-sdk-content
 description: Draws the cached data to the specified device context.
 old-location: tablet\idynamicrenderer_draw.htm

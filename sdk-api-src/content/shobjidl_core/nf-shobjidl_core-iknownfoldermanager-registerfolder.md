@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.RegisterFolder
-title: IKnownFolderManager::RegisterFolder
+title: IKnownFolderManager::RegisterFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Adds a new known folder to the registry. Used particularly by independent software vendors (ISVs) that are adding one of their own folders to the known folder system.
 old-location: shell\IKnownFolderManager_RegisterFolder.htm

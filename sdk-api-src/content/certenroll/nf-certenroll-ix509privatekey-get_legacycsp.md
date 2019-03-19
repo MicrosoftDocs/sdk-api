@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_LegacyCsp
-title: IX509PrivateKey::get_LegacyCsp
+title: IX509PrivateKey::get_LegacyCsp (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether the provider is a CryptoAPI (legacy) cryptographic service provider (CSP).
 old-location: security\ix509privatekey_legacycsp.htm

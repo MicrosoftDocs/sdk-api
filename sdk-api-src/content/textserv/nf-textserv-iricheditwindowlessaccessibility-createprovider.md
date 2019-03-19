@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.IRicheditWindowlessAccessibility.CreateProvider
-title: IRicheditWindowlessAccessibility::CreateProvider
+title: IRicheditWindowlessAccessibility::CreateProvider (textserv.h)
 author: windows-sdk-content
 description: Obtains a Microsoft UI Automation provider object for the parent of a windowless rich edit control.
 old-location: controls\iricheditwindowlessaccessibility_createprovider.htm

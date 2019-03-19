@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSGetListenerSecurityW
-title: WTSGetListenerSecurityW function
+title: WTSGetListenerSecurityW function (wtsapi32.h)
 author: windows-sdk-content
 description: Retrieves the security descriptor of a Remote Desktop Services listener.
 old-location: termserv\wtsgetlistenersecurity.htm

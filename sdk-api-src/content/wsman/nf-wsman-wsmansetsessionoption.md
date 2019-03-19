@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManSetSessionOption
-title: WSManSetSessionOption function
+title: WSManSetSessionOption function (wsman.h)
 author: windows-sdk-content
 description: Sets an extended set of options for the session.
 old-location: winrm\wsmansetsessionoption.htm

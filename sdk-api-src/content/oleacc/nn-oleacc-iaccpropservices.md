@@ -1,6 +1,6 @@
 ---
 UID: NN:oleacc.IAccPropServices
-title: IAccPropServices
+title: IAccPropServices (oleacc.h)
 author: windows-sdk-content
 description: Exposes methods for annotating accessible elements and for manipulating identity strings.
 old-location: winauto\iaccpropservices.htm

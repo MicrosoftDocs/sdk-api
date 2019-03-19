@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedName
-title: IUIAutomationElement::get_CachedName
+title: IUIAutomationElement::get_CachedName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedName.htm

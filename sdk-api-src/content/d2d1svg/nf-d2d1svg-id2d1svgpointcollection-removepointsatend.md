@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.RemovePointsAtEnd
-title: ID2D1SvgPointCollection::RemovePointsAtEnd
+title: ID2D1SvgPointCollection::RemovePointsAtEnd (d2d1svg.h)
 author: windows-sdk-content
 description: Removes points from the end of the array.
 old-location: direct2d\id2d1svgpointcollection_removepointsatend.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecSaContextSubscribe0
-title: IPsecSaContextSubscribe0 function
+title: IPsecSaContextSubscribe0 function (fwpmu.h)
 author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding a particular IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextsubscribe0.htm

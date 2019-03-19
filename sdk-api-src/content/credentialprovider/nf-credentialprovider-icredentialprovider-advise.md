@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProvider.Advise
-title: ICredentialProvider::Advise
+title: ICredentialProvider::Advise (credentialprovider.h)
 author: windows-sdk-content
 description: Allows a credential provider to initiate events in the Logon UI or Credential UI through a callback interface.
 old-location: shell\ICredentialProvider_Advise.htm

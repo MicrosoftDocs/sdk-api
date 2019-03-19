@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceOpenEnum
-title: ClusterResourceOpenEnum function
+title: ClusterResourceOpenEnum function (clusapi.h)
 author: windows-sdk-content
 description: Opens an enumerator for iterating through a resource's dependencies and nodes.
 old-location: mscs\clusterresourceopenenum.htm

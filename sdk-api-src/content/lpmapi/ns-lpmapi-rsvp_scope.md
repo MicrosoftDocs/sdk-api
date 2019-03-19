@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_10
-title: RSVP_SCOPE
+title: RSVP_SCOPE (lpmapi.h)
 author: windows-sdk-content
 description: The RSVP_SCOPE structure provides RSVP scope information.
 old-location: qos\rsvp_scope.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_STORAGE_POOL_DRIVE_EXTENT
-title: VDS_STORAGE_POOL_DRIVE_EXTENT
+title: VDS_STORAGE_POOL_DRIVE_EXTENT (vds.h)
 author: windows-sdk-content
 description: Defines a drive extent that could be used by a storage pool.
 old-location: base\vds_storage_pool_drive_extent.htm

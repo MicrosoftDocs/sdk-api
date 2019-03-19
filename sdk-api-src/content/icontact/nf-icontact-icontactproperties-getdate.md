@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.GetDate
-title: IContactProperties::GetDate
+title: IContactProperties::GetDate (icontact.h)
 author: windows-sdk-content
 description: Retrieves the date and time value at a specified property into a caller's FILETIME structure. All times are stored and returned as Coordinated Universal Time (UTC).
 old-location: wincontacts\_wincontacts_IContactProperties_GetDate.htm

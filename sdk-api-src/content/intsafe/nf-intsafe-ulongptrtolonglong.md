@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongPtrToLongLong
-title: ULongPtrToLongLong function
+title: ULongPtrToLongLong function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type SIZE_T to a value of type INT64.
 old-location: shell\SIZETToInt64_1.htm

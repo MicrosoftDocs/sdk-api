@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushDenyAllRetrievalFilter
-title: IDXGIInfoQueue::PushDenyAllRetrievalFilter
+title: IDXGIInfoQueue::PushDenyAllRetrievalFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pushes a deny-all retrieval filter onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallretrievalfilter.htm

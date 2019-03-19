@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmf
-title: MetafileHeader::IsEmf
+title: MetafileHeader::IsEmf (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::IsEmf method determines whether the associated metafile is in the EMF format.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmf_.htm

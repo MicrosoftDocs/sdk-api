@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.KspMakeSignatureFn
-title: KspMakeSignatureFn
+title: KspMakeSignatureFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Generates a signature based on the specified message and security context.
 old-location: security\spmakesignature.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOle.HandsOffStorage
-title: IRichEditOle::HandsOffStorage
+title: IRichEditOle::HandsOffStorage (richole.h)
 author: windows-sdk-content
 description: Indicates when a rich edit control is to release its reference to the storage interface associated with the specified object. This call does not call the object's IRichEditOle::HandsOffStorage method; the caller must do that.
 old-location: controls\IRichEditOle_HandsOffStorage.htm

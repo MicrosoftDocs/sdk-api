@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.AddStylusAsyncPlugin
-title: IRealTimeStylus::AddStylusAsyncPlugin
+title: IRealTimeStylus::AddStylusAsyncPlugin (rtscom.h)
 author: windows-sdk-content
 description: Adds an IStylusAsyncPlugin to the asynchronous plug-in collection at the specified index.
 old-location: tablet\irealtimestylus_addstylusasyncplugin.htm

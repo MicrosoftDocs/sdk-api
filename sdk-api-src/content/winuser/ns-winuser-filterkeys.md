@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagFILTERKEYS
-title: FILTERKEYS
+title: FILTERKEYS (winuser.h)
 author: windows-sdk-content
 description: Contains information about the FilterKeys accessibility feature, which enables a user with disabilities to set the keyboard repeat rate (RepeatKeys), acceptance delay (SlowKeys), and bounce rate (BounceKeys).
 old-location: winauto\filterkeys.htm

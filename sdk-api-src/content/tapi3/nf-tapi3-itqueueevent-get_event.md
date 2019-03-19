@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITQueueEvent.get_Event
-title: ITQueueEvent::get_Event
+title: ITQueueEvent::get_Event (tapi3.h)
 author: windows-sdk-content
 description: The get_Event method gets the descriptor of the event that occurred.
 old-location: tapi3\itqueueevent_get_event.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_record_flags_tag
-title: PEER_RECORD_FLAGS
+title: PEER_RECORD_FLAGS (p2p.h)
 author: windows-sdk-content
 description: The PEER_RECORD_FLAGS enumeration specifies a set of flags for peer record behaviors.
 old-location: p2p\peer_record_flags.htm

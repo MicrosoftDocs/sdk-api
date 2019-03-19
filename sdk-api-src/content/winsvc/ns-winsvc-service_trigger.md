@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_TRIGGER
-title: SERVICE_TRIGGER
+title: SERVICE_TRIGGER (winsvc.h)
 author: windows-sdk-content
 description: Represents a service trigger event. This structure is used by the SERVICE_TRIGGER_INFO structure.
 old-location: base\service_trigger.htm

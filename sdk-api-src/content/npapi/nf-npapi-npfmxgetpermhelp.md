@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPFMXGetPermHelp
-title: NPFMXGetPermHelp function
+title: NPFMXGetPermHelp function (npapi.h)
 author: windows-sdk-content
 description: Retrieves the help file and help context of the permission editor dialog boxes when a menu item in the Security menu of File Manager is selected and F1 is pressed.
 old-location: security\npfmxgetpermhelp.htm

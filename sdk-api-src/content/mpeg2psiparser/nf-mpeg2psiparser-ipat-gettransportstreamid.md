@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetTransportStreamId
-title: IPAT::GetTransportStreamId
+title: IPAT::GetTransportStreamId (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetTransportStreamId method returns the transport stream identifier (TSID) for the PAT.
 old-location: mstv\ipat_gettransportstreamid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetIndex
-title: ITextRange::GetIndex
+title: ITextRange::GetIndex (tom.h)
 author: windows-sdk-content
 description: Retrieves the story index of the Unit parameter at the specified range Start character position.
 old-location: controls\ITextRange_GetIndex.htm

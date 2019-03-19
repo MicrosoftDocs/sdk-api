@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.RemoveDllDirectory
-title: RemoveDllDirectory function
+title: RemoveDllDirectory function (libloaderapi.h)
 author: windows-sdk-content
 description: Removes a directory that was added to the process DLL search path by using AddDllDirectory.
 old-location: base\removedlldirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_CreationTimeout
-title: IServicePoolConfig::get_CreationTimeout
+title: IServicePoolConfig::get_CreationTimeout (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the time-out interval for activating a pooled object.
 old-location: cos\iservicepoolconfig_get_creationtimeout.htm

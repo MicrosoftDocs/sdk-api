@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_SERVER_2
-title: MPR_SERVER_2
+title: MPR_SERVER_2 (mprapi.h)
 author: windows-sdk-content
 description: Is used to retrieve and set the number of ports available for the Point-to-Point Tunneling Protocol (PPTP), Layer 2 Tunneling Protocol (L2TP), and Secure Socket Tunneling Protocol (SSTP) on a device.
 old-location: rras\mpr_server_2.htm

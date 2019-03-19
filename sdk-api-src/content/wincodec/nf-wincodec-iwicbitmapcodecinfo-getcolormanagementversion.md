@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetColorManagementVersion
-title: IWICBitmapCodecInfo::GetColorManagementVersion
+title: IWICBitmapCodecInfo::GetColorManagementVersion (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the color manangement version number the codec supports.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getcolormanagementversion.htm

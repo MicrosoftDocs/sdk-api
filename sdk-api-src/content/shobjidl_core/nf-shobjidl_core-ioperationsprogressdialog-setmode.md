@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.SetMode
-title: IOperationsProgressDialog::SetMode
+title: IOperationsProgressDialog::SetMode (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets progress dialog operations mode.
 old-location: shell\IOperationsProgressDialog_SetMode.htm

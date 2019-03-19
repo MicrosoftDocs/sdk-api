@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetCount
-title: IXpsOMDashCollection::GetCount
+title: IXpsOMDashCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of XPS_DASH structures in the collection.
 old-location: xps\ixpsomdashcollection_getcount.htm

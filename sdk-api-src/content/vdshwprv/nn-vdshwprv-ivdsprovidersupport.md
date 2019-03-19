@@ -1,6 +1,6 @@
 ---
 UID: NN:vdshwprv.IVdsProviderSupport
-title: IVdsProviderSupport
+title: IVdsProviderSupport (vdshwprv.h)
 author: windows-sdk-content
 description: Provides a method to indicate what versions of the VDS interfaces are supported by the provider.
 old-location: base\ivdsprovidersupport.htm

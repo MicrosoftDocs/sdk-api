@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_AuthzInterfaceClsid
-title: IAzApplication::put_AuthzInterfaceClsid
+title: IAzApplication::put_AuthzInterfaceClsid (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the class identifier (CLSID) of the interface that the user interface (UI) uses to perform application-specific operations.
 old-location: security\iazapplication_authzinterfaceclsid.htm

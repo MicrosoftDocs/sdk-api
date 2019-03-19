@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamClose
-title: NCryptStreamClose function
+title: NCryptStreamClose function (ncryptprotect.h)
 author: windows-sdk-content
 description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\ncryptstreamclose.htm

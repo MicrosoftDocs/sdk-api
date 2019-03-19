@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventClass.get_EventClassID
-title: IEventClass::get_EventClassID
+title: IEventClass::get_EventClassID (eventsys.h)
 author: windows-sdk-content
 description: The CLSID for the event class object.
 old-location: cos\ieventclass_eventclassid.htm

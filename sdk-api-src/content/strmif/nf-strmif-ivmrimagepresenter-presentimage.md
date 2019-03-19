@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImagePresenter.PresentImage
-title: IVMRImagePresenter::PresentImage
+title: IVMRImagePresenter::PresentImage (strmif.h)
 author: windows-sdk-content
 description: The PresentImage method is called at precisely the moment this video frame should be presented.
 old-location: dshow\ivmrimagepresenter_presentimage.htm

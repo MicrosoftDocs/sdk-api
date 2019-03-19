@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._SYSTEM_SCOPED_POLICY_ID_ACE
-title: SYSTEM_SCOPED_POLICY_ID_ACE
+title: SYSTEM_SCOPED_POLICY_ID_ACE (winnt.h)
 author: windows-sdk-content
 description: Defines an access control entry (ACE) for the system access control list (SACL) that specifies the scoped policy identifier for a securable object.
 old-location: security\system_scoped_policy_id_ace.htm

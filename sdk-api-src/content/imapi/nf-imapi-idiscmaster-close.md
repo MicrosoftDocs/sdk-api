@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.Close
-title: IDiscMaster::Close
+title: IDiscMaster::Close (imapi.h)
 author: windows-sdk-content
 description: Closes the interface so other applications can use it.
 old-location: imapi\idiscmaster_close.htm

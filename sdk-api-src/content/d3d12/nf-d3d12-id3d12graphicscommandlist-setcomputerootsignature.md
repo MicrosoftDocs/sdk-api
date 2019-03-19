@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootSignature
-title: ID3D12GraphicsCommandList::SetComputeRootSignature
+title: ID3D12GraphicsCommandList::SetComputeRootSignature (d3d12.h)
 author: windows-sdk-content
 description: Sets the layout of the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootsignature.htm

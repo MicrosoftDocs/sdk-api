@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsController.InvalidateCache
-title: IVdsController::InvalidateCache
+title: IVdsController::InvalidateCache (vds.h)
 author: windows-sdk-content
 description: Invalidates the cache of the controller. All data in the cache is lost.
 old-location: base\ivdscontroller_invalidatecache.htm

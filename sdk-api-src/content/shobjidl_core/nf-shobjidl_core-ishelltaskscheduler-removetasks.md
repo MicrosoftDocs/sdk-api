@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellTaskScheduler.RemoveTasks
-title: IShellTaskScheduler::RemoveTasks
+title: IShellTaskScheduler::RemoveTasks (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes tasks from the scheduler's background queue.
 old-location: shell\IShellTaskScheduler_RemoveTasks.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetHandlerInfo
-title: ISyncMgrHandler::GetHandlerInfo
+title: ISyncMgrHandler::GetHandlerInfo (syncmgr.h)
 author: windows-sdk-content
 description: Gets properties that describe the handler.
 old-location: shell\ISyncMgrHandler_GetHandlerInfo.htm

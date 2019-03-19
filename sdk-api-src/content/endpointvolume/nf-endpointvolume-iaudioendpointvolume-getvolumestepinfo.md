@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetVolumeStepInfo
-title: IAudioEndpointVolume::GetVolumeStepInfo
+title: IAudioEndpointVolume::GetVolumeStepInfo (endpointvolume.h)
 author: windows-sdk-content
 description: The GetVolumeStepInfo method gets information about the current step in the volume range.
 old-location: coreaudio\iaudioendpointvolume_getvolumestepinfo.htm

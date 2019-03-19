@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.GetAttribute
-title: ISettingsIdentity::GetAttribute
+title: ISettingsIdentity::GetAttribute (wcmconfig.h)
 author: windows-sdk-content
 description: Gets an identity attribute for a namespace identity.
 old-location: smi\isettingsidentity_getattribute.htm

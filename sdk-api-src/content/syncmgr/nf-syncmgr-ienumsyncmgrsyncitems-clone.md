@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Clone
-title: IEnumSyncMgrSyncItems::Clone
+title: IEnumSyncMgrSyncItems::Clone (syncmgr.h)
 author: windows-sdk-content
 description: Not used. Clones an IEnumSyncMgrSyncItems object.
 old-location: shell\IEnumSyncMgrSyncItems_Clone.htm

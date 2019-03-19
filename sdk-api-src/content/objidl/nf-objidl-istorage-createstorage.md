@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.CreateStorage
-title: IStorage::CreateStorage
+title: IStorage::CreateStorage (objidl.h)
 author: windows-sdk-content
 description: Creates and opens a new storage object nested within this storage object with the specified name in the specified access mode.
 old-location: stg\istorage_createstorage.htm

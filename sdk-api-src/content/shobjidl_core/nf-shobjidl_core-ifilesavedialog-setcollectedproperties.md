@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.SetCollectedProperties
-title: IFileSaveDialog::SetCollectedProperties
+title: IFileSaveDialog::SetCollectedProperties (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies which properties will be collected in the save dialog.
 old-location: shell\IFileSaveDialog_SetCollectedProperties.htm

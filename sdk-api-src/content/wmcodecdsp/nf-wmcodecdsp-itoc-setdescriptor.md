@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetDescriptor
-title: IToc::SetDescriptor
+title: IToc::SetDescriptor (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetDescriptor method associates a descriptor with the table of contents.
 old-location: mf\itoc_setdescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IResultData.ModifyItemState
-title: IResultData::ModifyItemState
+title: IResultData::ModifyItemState (mmc.h)
 author: windows-sdk-content
 description: Enables the snap-in to modify the state of an item.
 old-location: mmc\iresultdata_modifyitemstate.htm

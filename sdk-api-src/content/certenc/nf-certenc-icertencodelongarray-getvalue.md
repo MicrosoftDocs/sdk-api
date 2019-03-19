@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.GetValue
-title: ICertEncodeLongArray::GetValue
+title: ICertEncodeLongArray::GetValue (certenc.h)
 author: windows-sdk-content
 description: Returns the specified Long value from the Long array.
 old-location: security\icertencodelongarray_getvalue.htm

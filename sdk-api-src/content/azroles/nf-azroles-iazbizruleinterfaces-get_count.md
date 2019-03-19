@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.get_Count
-title: IAzBizRuleInterfaces::get_Count
+title: IAzBizRuleInterfaces::get_Count (azroles.h)
 author: windows-sdk-content
 description: Specifies the number of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_count_method.htm

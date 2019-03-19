@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_DownloadContents
-title: IUpdate::get_DownloadContents
+title: IUpdate::get_DownloadContents (wuapi.h)
 author: windows-sdk-content
 description: Gets file information about the download contents of the update.
 old-location: wua\iupdate_downloadcontents.htm

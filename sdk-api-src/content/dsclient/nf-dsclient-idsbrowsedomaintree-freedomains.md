@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.FreeDomains
-title: IDsBrowseDomainTree::FreeDomains
+title: IDsBrowseDomainTree::FreeDomains (dsclient.h)
 author: windows-sdk-content
 description: The IDsBrowseDomainTree::FreeDomains method frees the memory allocated by the IDsBrowseDomainTree::GetDomains method.
 old-location: ad\idsbrowsedomaintree_freedomains.htm

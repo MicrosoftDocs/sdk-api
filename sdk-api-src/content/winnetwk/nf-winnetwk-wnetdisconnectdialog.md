@@ -1,6 +1,6 @@
 ---
 UID: NF:winnetwk.WNetDisconnectDialog
-title: WNetDisconnectDialog function
+title: WNetDisconnectDialog function (winnetwk.h)
 author: windows-sdk-content
 description: The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.
 old-location: wnet\wnetdisconnectdialog.htm

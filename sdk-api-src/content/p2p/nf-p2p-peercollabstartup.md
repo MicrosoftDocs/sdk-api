@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabStartup
-title: PeerCollabStartup function
+title: PeerCollabStartup function (p2p.h)
 author: windows-sdk-content
 description: Initializes the Peer Collaboration infrastructure.
 old-location: p2p\peercollabstartup.htm

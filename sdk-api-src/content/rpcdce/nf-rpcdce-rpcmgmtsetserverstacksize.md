@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetServerStackSize
-title: RpcMgmtSetServerStackSize function
+title: RpcMgmtSetServerStackSize function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtSetServerStackSize function specifies the stack size for server threads created by the RPC run time.
 old-location: rpc\rpcmgmtsetserverstacksize.htm

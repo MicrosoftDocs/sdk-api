@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHParseDisplayName
-title: SHParseDisplayName function
+title: SHParseDisplayName function (shlobj_core.h)
 author: windows-sdk-content
 description: Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).
 old-location: shell\SHParseDisplayName.htm

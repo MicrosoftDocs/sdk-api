@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.GopherGetAttributeW
-title: GopherGetAttributeW function
+title: GopherGetAttributeW function (wininet.h)
 author: windows-sdk-content
 description: Retrieves the specific attribute information from the server.
 old-location: wininet\gophergetattribute.htm

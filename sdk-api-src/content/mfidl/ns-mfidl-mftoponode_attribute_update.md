@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl._MFTOPONODE_ATTRIBUTE_UPDATE
-title: MFTOPONODE_ATTRIBUTE_UPDATE
+title: MFTOPONODE_ATTRIBUTE_UPDATE (mfidl.h)
 author: windows-sdk-content
 description: Specifies a new attribute value for a topology node.
 old-location: mf\mftoponode_attribute_update.htm

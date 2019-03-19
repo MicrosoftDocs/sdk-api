@@ -1,6 +1,6 @@
 ---
 UID: NC:wdsclientapi.PFN_WdsCliCallback
-title: PFN_WdsCliCallback
+title: PFN_WdsCliCallback (wdsclientapi.h)
 author: windows-sdk-content
 description: Defines a callback function that WDS can call for progress notification and error messages during a file or image transfer.
 old-location: wds\pfn_wdsclicallback.htm

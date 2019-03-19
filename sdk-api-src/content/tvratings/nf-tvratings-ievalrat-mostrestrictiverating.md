@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IEvalRat.MostRestrictiveRating
-title: IEvalRat::MostRestrictiveRating
+title: IEvalRat::MostRestrictiveRating (tvratings.h)
 author: windows-sdk-content
 description: The MostRestrictiveRating method compares two ratings and returns the more restrictive of the two.
 old-location: mstv\ievalrat_mostrestrictiverating.htm

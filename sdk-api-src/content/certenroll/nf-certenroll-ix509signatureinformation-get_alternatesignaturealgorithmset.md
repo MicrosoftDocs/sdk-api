@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
-title: IX509SignatureInformation::get_AlternateSignatureAlgorithmSet
+title: IX509SignatureInformation::get_AlternateSignatureAlgorithmSet (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the AlternateSignatureAlgorithm property has been explicitly set by a caller.
 old-location: security\ix509signatureinformation_alternatesignaturealgorithmset_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupFindFirstLineA
-title: SetupFindFirstLineA function
+title: SetupFindFirstLineA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupFindFirstLine function locates a line in the specified section of an INF file. If the Key parameter is NULL, SetupFindFirstLine returns the first line of the section.
 old-location: setup\setupfindfirstline.htm

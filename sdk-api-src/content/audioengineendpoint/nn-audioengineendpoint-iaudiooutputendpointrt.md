@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioOutputEndpointRT
-title: IAudioOutputEndpointRT
+title: IAudioOutputEndpointRT (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets the output buffer for each processing pass.
 old-location: termserv\iaudiooutputendpointrt.htm

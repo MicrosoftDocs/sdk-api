@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_PWD_INFO
-title: CLUS_NETNAME_PWD_INFO
+title: CLUS_NETNAME_PWD_INFO (clusapi.h)
 author: windows-sdk-content
 description: Provides information for resetting the security principal associated with a computer name.
 old-location: mscs\clus_netname_pwd_info.htm

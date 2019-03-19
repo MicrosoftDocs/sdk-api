@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IManagedPooledObj.SetHeld
-title: IManagedPooledObj::SetHeld
+title: IManagedPooledObj::SetHeld (comsvcs.h)
 author: windows-sdk-content
 description: Sets whether the managed object should go back into the COM+ object pool.
 old-location: cos\imanagedpooledobj_setheld.htm

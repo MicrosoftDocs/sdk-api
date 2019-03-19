@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.SetThreadStackGuarantee
-title: SetThreadStackGuarantee function
+title: SetThreadStackGuarantee function (processthreadsapi.h)
 author: windows-sdk-content
 description: Sets the minimum size of the stack associated with the calling thread or fiber that will be available during any stack overflow exceptions.
 old-location: base\setthreadstackguarantee.htm

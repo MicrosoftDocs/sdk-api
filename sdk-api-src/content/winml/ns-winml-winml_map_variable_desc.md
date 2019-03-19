@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_MAP_VARIABLE_DESC
-title: WINML_MAP_VARIABLE_DESC
+title: WINML_MAP_VARIABLE_DESC (winml.h)
 author: windows-sdk-content
 description: Contains description properties of the map variable.
 old-location: machinelearning\winml_map_variable_desc.htm

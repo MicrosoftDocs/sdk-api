@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_DestinationOptionsFT
-title: MI_DestinationOptionsFT
+title: MI_DestinationOptionsFT (mi.h)
 author: windows-sdk-content
 description: A support structure used in the MI_DestinationOptions structure. Use the functions with the name prefix &#0034;MI_DestinationOptions_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_destinationoptionsft.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetTransform
-title: IDirect3DDevice9::SetTransform
+title: IDirect3DDevice9::SetTransform (d3d9helper.h)
 author: windows-sdk-content
 description: Sets a single device transformation-related state.
 old-location: direct3d9\idirect3ddevice9__settransform.htm

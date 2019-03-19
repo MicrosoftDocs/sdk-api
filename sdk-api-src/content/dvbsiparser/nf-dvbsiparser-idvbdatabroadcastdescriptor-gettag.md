@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetTag
-title: IDvbDataBroadcastDescriptor::GetTag
+title: IDvbDataBroadcastDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastdescriptor_gettag.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetRequestAttribute
-title: ICertServerPolicy::GetRequestAttribute
+title: ICertServerPolicy::GetRequestAttribute (certif.h)
 author: windows-sdk-content
 description: Returns a named attribute from a request.
 old-location: security\icertserverpolicy_getrequestattribute.htm

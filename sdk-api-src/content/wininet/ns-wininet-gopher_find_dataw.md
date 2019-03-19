@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_18
-title: GOPHER_FIND_DATAW
+title: GOPHER_FIND_DATAW (wininet.h)
 author: windows-sdk-content
 description: Contains information retrieved by the GopherFindFirstFile and InternetFindNextFile functions.
 old-location: wininet\gopher_find_data.htm

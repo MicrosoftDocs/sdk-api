@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Gamma
-title: IVideoProcAmp::get_Gamma
+title: IVideoProcAmp::get_Gamma (vidcap.h)
 author: windows-sdk-content
 description: The get_Gamma method returns the camera's gamma setting.
 old-location: dshow\ivideoprocamp_get_gamma.htm

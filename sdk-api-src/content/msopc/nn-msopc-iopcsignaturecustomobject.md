@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcSignatureCustomObject
-title: IOpcSignatureCustomObject
+title: IOpcSignatureCustomObject (msopc.h)
 author: windows-sdk-content
 description: Represents an application-specific Object element that has been or will be signed.
 old-location: opc\iopcsignaturecustomobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_LEVEL_TRIM
-title: FILE_LEVEL_TRIM
+title: FILE_LEVEL_TRIM (winioctl.h)
 author: windows-sdk-content
 description: Used as input to the FSCTL_FILE_LEVEL_TRIM control code.
 old-location: fs\file_level_trim.htm

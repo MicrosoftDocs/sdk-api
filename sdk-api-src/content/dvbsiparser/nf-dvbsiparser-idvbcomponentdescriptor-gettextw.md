@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetTextW
-title: IDvbComponentDescriptor::GetTextW
+title: IDvbComponentDescriptor::GetTextW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the text describing the elementary stream, in Unicode string format, from a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_gettextw.htm

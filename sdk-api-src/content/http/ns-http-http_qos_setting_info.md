@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_QOS_SETTING_INFO
-title: HTTP_QOS_SETTING_INFO
+title: HTTP_QOS_SETTING_INFO (http.h)
 author: windows-sdk-content
 description: Contains information about a QOS setting.
 old-location: http\http_qos_setting_info.htm

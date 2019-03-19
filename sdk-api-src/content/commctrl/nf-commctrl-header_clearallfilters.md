@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_ClearAllFilters
-title: Header_ClearAllFilters macro
+title: Header_ClearAllFilters macro (commctrl.h)
 author: windows-sdk-content
 description: Clears all of the filters for a given header control. You can use this macro or send the HDM_CLEARFILTER message explicitly.
 old-location: controls\Header_ClearAllFilters.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_InternalPort
-title: IStaticPortMapping::get_InternalPort
+title: IStaticPortMapping::get_InternalPort (natupnp.h)
 author: windows-sdk-content
 description: The get_InternalPort method retrieves the internal port on the client computer for this port mapping.
 old-location: ics\istaticportmapping_get_internalport.htm

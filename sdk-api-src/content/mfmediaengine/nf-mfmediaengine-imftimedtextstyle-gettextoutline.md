@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetTextOutline
-title: IMFTimedTextStyle::GetTextOutline
+title: IMFTimedTextStyle::GetTextOutline (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the text outline for the timed-text style.
 old-location: mf\imftimedtextstyle_gettextoutline.htm

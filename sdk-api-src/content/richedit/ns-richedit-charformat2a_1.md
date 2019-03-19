@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._charformat2a
-title: CHARFORMAT2A
+title: CHARFORMAT2A (richedit.h)
 author: windows-sdk-content
 description: Contains information about character formatting in a rich edit control.
 old-location: controls\CHARFORMAT2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linecallstatus_tag
-title: LINECALLSTATUS
+title: LINECALLSTATUS (tapi.h)
 author: windows-sdk-content
 description: The LINECALLSTATUS structure describes the current status of a call.
 old-location: tapi2\linecallstatus_str.htm

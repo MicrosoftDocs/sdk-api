@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITAddressTranslation
-title: ITAddressTranslation
+title: ITAddressTranslation (tapi3if.h)
 author: windows-sdk-content
 description: The ITAddressTranslation interface provides methods that allow translation of a calling address into a different format. For example, an application may need to translate an address from canonical to dialable prior to making a call.
 old-location: tapi3\itaddresstranslation.htm

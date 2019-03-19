@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateWindowW
-title: CreateWindowW macro
+title: CreateWindowW macro (winuser.h)
 author: windows-sdk-content
 description: Creates an overlapped, pop-up, or child window.
 old-location: winmsg\createwindow.htm

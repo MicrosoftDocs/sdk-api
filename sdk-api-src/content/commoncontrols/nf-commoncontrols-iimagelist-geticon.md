@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.GetIcon
-title: IImageList::GetIcon
+title: IImageList::GetIcon (commoncontrols.h)
 author: windows-sdk-content
 description: Creates an icon from an image and a mask in an image list.
 old-location: controls\IImageList_GetIcon.htm

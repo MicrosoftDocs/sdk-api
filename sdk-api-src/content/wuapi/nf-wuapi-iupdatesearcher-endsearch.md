@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EndSearch
-title: IUpdateSearcher::EndSearch
+title: IUpdateSearcher::EndSearch (wuapi.h)
 author: windows-sdk-content
 description: Completes an asynchronous search for updates.
 old-location: wua\iupdatesearcherendsearch.htm

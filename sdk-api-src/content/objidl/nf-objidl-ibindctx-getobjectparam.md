@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IBindCtx.GetObjectParam
-title: IBindCtx::GetObjectParam
+title: IBindCtx::GetObjectParam (objidl.h)
 author: windows-sdk-content
 description: Retrieves an interface pointer to the object associated with the specified key in the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_getobjectparam.htm

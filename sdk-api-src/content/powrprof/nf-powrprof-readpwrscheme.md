@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.ReadPwrScheme
-title: ReadPwrScheme function
+title: ReadPwrScheme function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the power policy settings that are unique to the specified power scheme.
 old-location: base\readpwrscheme.htm

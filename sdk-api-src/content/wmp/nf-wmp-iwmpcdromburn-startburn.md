@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.startBurn
-title: IWMPCdromBurn::startBurn
+title: IWMPCdromBurn::startBurn (wmp.h)
 author: windows-sdk-content
 description: The startBurn method burns the CD.
 old-location: wmp\iwmpcdromburn_startburn.htm

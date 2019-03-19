@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetFirstLineIndent
-title: ITextPara::GetFirstLineIndent
+title: ITextPara::GetFirstLineIndent (tom.h)
 author: windows-sdk-content
 description: Retrieves the amount used to indent the first line of a paragraph relative to the left indent. The left indent is the indent for all lines of the paragraph except the first line.
 old-location: controls\ITextPara_GetFirstLineIndent.htm

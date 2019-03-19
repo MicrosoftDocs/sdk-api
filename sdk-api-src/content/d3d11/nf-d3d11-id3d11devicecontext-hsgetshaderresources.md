@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSGetShaderResources
-title: ID3D11DeviceContext::HSGetShaderResources
+title: ID3D11DeviceContext::HSGetShaderResources (d3d11.h)
 author: windows-sdk-content
 description: Get the hull-shader resources.
 old-location: direct3d11\id3d11devicecontext_hsgetshaderresources.htm

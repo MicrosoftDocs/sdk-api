@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddComponent
-title: IVssBackupComponents::AddComponent
+title: IVssBackupComponents::AddComponent (vsbackup.h)
 author: windows-sdk-content
 description: Used to explicitly add to the backup set.
 old-location: base\ivssbackupcomponents_addcomponent.htm

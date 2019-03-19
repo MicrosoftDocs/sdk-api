@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvQueryDeviceSupport
-title: DrvQueryDeviceSupport function
+title: DrvQueryDeviceSupport function (winddi.h)
 author: windows-sdk-content
 description: The DrvQueryDeviceSupport function returns requested device-specific information.
 old-location: display\drvquerydevicesupport.htm

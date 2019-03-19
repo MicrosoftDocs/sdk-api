@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddFilesToFileGroup
-title: IVssCreateExpressWriterMetadata::AddFilesToFileGroup
+title: IVssCreateExpressWriterMetadata::AddFilesToFileGroup (vswriter.h)
 author: windows-sdk-content
 description: Adds a file set (a specified file or files) to a specified file group component for an express writer.
 old-location: base\ivsscreateexpresswritermetadata_addfilestofilegroup.htm

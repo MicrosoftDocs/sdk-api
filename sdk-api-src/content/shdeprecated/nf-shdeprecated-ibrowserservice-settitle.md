@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetTitle
-title: IBrowserService::SetTitle
+title: IBrowserService::SetTitle (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets the title of a browser window.
 old-location: shell\IBrowserService_SetTitle.htm

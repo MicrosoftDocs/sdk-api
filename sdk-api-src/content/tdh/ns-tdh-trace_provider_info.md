@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._TRACE_PROVIDER_INFO
-title: TRACE_PROVIDER_INFO
+title: TRACE_PROVIDER_INFO (tdh.h)
 author: windows-sdk-content
 description: Defines the GUID and name for a provider.
 old-location: etw\trace_provider_info_struct.htm

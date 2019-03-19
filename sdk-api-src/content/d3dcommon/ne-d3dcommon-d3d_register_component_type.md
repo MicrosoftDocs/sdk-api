@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_REGISTER_COMPONENT_TYPE
-title: D3D_REGISTER_COMPONENT_TYPE
+title: D3D_REGISTER_COMPONENT_TYPE (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify the data types that can be stored in a register.
 old-location: direct3d11\d3d_register_component_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxActivityLogging
-title: IFaxActivityLogging
+title: IFaxActivityLogging (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxActivityLogging interface defines a configuration object used by a fax client application to retrieve and set options for activity logging.
 old-location: fax\_mfax_faxactivitylogging_cpp.htm

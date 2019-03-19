@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_FilePath
-title: IWdsTransportContentProvider::get_FilePath
+title: IWdsTransportContentProvider::get_FilePath (wdstptmgmt.h)
 author: windows-sdk-content
 description: Retrieves the path to the content provider’s DLL.
 old-location: wds\iwdstransportcontentprovider_filepath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoRevokeMallocSpy
-title: CoRevokeMallocSpy function
+title: CoRevokeMallocSpy function (objbase.h)
 author: windows-sdk-content
 description: Revokes a registered IMallocSpy object.
 old-location: com\corevokemallocspy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadListener.DownloadCompleted
-title: IDWriteFontDownloadListener::DownloadCompleted
+title: IDWriteFontDownloadListener::DownloadCompleted (dwrite_3.h)
 author: windows-sdk-content
 description: The DownloadCompleted method is called back on an arbitrary thread when a download operation ends.
 old-location: directwrite\idwritefontdownloadlistener_downloadcompleted.htm

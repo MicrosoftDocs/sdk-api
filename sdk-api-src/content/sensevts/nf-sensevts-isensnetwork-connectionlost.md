@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionLost
-title: ISensNetwork::ConnectionLost
+title: ISensNetwork::ConnectionLost (sensevts.h)
 author: windows-sdk-content
 description: The ConnectionLost method notifies your application that the specified connection has been dropped.
 old-location: sens\isensnetwork_connectionlost.htm

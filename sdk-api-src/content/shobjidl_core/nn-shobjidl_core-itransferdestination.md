@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ITransferDestination
-title: ITransferDestination
+title: ITransferDestination (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods that create a destination Shell item for a copy or move operation. This interface is provided to allow more control over file operations by providing an ITransferDestination::Advise method.
 old-location: shell\ITransferDestination.htm

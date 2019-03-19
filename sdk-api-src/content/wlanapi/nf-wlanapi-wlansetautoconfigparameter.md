@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSetAutoConfigParameter
-title: WlanSetAutoConfigParameter function
+title: WlanSetAutoConfigParameter function (wlanapi.h)
 author: windows-sdk-content
 description: Sets parameters for the automatic configuration service.
 old-location: nwifi\wlansetautoconfigparameter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATEnumerateMember
-title: CryptCATEnumerateMember function
+title: CryptCATEnumerateMember function (mscat.h)
 author: windows-sdk-content
 description: Enumerates the members of a catalog.
 old-location: security\cryptcatenumeratemember.htm

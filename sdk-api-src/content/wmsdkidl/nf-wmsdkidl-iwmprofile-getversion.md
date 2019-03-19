@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetVersion
-title: IWMProfile::GetVersion
+title: IWMProfile::GetVersion (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetVersion method retrieves the version number of the Windows Media Format SDK used to create the profile.
 old-location: wmformat\iwmprofile_getversion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdo.Restore
-title: ISdo::Restore
+title: ISdo::Restore (sdoias.h)
 author: windows-sdk-content
 description: The Restore method reloads the values of the Server Data Objects (SDO) properties from persistent storage.
 old-location: nps\SDO_isdo_restore.htm

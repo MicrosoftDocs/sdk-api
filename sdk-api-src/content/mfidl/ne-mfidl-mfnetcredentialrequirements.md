@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFNetCredentialRequirements
-title: MFNetCredentialRequirements
+title: MFNetCredentialRequirements (mfidl.h)
 author: windows-sdk-content
 description: Specifies how the credential manager should obtain user credentials.
 old-location: mf\mfnetcredentialrequirements.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.IsInvertible
-title: Matrix3x2F::IsInvertible
+title: Matrix3x2F::IsInvertible (d2d1helper.h)
 author: windows-sdk-content
 description: Indicates whether the matrix is invertible.
 old-location: direct2d\matrix3x2f_isinvertible.htm

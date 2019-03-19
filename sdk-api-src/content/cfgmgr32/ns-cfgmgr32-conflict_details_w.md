@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32._CONFLICT_DETAILS_W
-title: CONFLICT_DETAILS_W
+title: CONFLICT_DETAILS_W (cfgmgr32.h)
 author: windows-sdk-content
 description: The CONFLICT_DETAILS structure is used as a parameter to the CM_Get_Resource_Conflict_Details function.
 old-location: devinst\conflict_details.htm

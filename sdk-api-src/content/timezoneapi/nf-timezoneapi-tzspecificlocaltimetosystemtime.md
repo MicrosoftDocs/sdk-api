@@ -1,6 +1,6 @@
 ---
 UID: NF:timezoneapi.TzSpecificLocalTimeToSystemTime
-title: TzSpecificLocalTimeToSystemTime function
+title: TzSpecificLocalTimeToSystemTime function (timezoneapi.h)
 author: windows-sdk-content
 description: Converts a local time to a time in Coordinated Universal Time (UTC).
 old-location: base\tzspecificlocaltimetosystemtime.htm

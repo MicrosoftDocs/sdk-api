@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(XMFLOAT3SE &&)
-title: XMFLOAT3SE::XMFLOAT3SE(XMFLOAT3SE &&)
+title: XMFLOAT3SE::XMFLOAT3SE(XMFLOAT3SE &&) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMFLOAT3SE.
 old-location: dxmath\xmfloat3se_ctor_1.htm

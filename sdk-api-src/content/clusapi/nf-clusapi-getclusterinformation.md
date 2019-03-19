@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.GetClusterInformation
-title: GetClusterInformation function
+title: GetClusterInformation function (clusapi.h)
 author: windows-sdk-content
 description: Retrieves a cluster's name and version.
 old-location: mscs\getclusterinformation.htm

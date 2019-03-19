@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.GetPrivateData
-title: IDirect3DResource9::GetPrivateData
+title: IDirect3DResource9::GetPrivateData (d3d9helper.h)
 author: windows-sdk-content
 description: Copies the private data associated with the resource to a provided buffer.
 old-location: direct3d9\idirect3dresource9__getprivatedata.htm

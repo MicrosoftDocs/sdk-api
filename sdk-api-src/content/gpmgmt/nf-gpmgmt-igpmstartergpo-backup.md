@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Backup
-title: IGPMStarterGPO::Backup
+title: IGPMStarterGPO::Backup (gpmgmt.h)
 author: windows-sdk-content
 description: Creates a backup of the current Starter GPO.
 old-location: gpmc\igpmstartergpo_backup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shappmgr.IShellApp.GetPossibleActions
-title: IShellApp::GetPossibleActions
+title: IShellApp::GetPossibleActions (shappmgr.h)
 author: windows-sdk-content
 description: Gets a bitmask of management actions allowed for an application.
 old-location: shell\IShellApp_GetPossibleActions.htm

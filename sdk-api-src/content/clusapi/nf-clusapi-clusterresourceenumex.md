@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceEnumEx
-title: ClusterResourceEnumEx function
+title: ClusterResourceEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates a resource and then returns a pointer to the current dependent resource or node.
 old-location: mscs\clusterresourceenumex.htm

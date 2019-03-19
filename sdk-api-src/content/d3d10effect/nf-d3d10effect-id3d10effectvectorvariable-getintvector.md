@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetIntVector
-title: ID3D10EffectVectorVariable::GetIntVector
+title: ID3D10EffectVectorVariable::GetIntVector (d3d10effect.h)
 author: windows-sdk-content
 description: Get a four-component vector that contains integer data.
 old-location: direct3d10\id3d10effectvectorvariable_getintvector.htm

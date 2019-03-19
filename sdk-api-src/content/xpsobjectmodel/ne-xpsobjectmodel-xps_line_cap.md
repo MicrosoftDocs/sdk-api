@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0005
-title: XPS_LINE_CAP
+title: XPS_LINE_CAP (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Specifies the shapes of line segment caps.
 old-location: xps\xps_line_cap.htm

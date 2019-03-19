@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetInterfaceCapability
-title: IMbnInterface::GetInterfaceCapability
+title: IMbnInterface::GetInterfaceCapability (mbnapi.h)
 author: windows-sdk-content
 description: Gets the capabilities of the device.
 old-location: mbn\imbninterface_getinterfacecapability.htm

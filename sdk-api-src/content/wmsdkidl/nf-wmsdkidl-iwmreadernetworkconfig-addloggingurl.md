@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.AddLoggingUrl
-title: IWMReaderNetworkConfig::AddLoggingUrl
+title: IWMReaderNetworkConfig::AddLoggingUrl (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddLoggingUrl method specifies a server that receive logging information from the reader object.
 old-location: wmformat\iwmreadernetworkconfig_addloggingurl.htm

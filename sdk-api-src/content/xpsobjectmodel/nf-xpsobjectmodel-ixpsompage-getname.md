@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetName
-title: IXpsOMPage::GetName
+title: IXpsOMPage::GetName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the Name property of the page.
 old-location: xps\ixpsompage_getname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsWmf
-title: MetafileHeader::IsWmf
+title: MetafileHeader::IsWmf (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::IsWmf method determines whether the associated metafile is in the WMF format.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsWmf_.htm

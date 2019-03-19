@@ -1,6 +1,6 @@
 ---
 UID: NN:sensevts.ISensLogon2
-title: ISensLogon2
+title: ISensLogon2 (sensevts.h)
 author: windows-sdk-content
 description: The ISensLogon2 interface handles logon events fired by SENS.
 old-location: sens\isenslogon2.htm

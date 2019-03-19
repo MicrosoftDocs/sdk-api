@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontFamilyNameLength
-title: IDWriteTextLayout::GetFontFamilyNameLength
+title: IDWriteTextLayout::GetFontFamilyNameLength (dwrite.h)
 author: windows-sdk-content
 description: Get the length of the font family name at the current position.
 old-location: directwrite\IDWriteTextLayout_GetFontFamilyNameLength.htm

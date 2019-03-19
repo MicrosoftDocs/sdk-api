@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_10
-title: NMCOMBOBOXEXW
+title: NMCOMBOBOXEXW (commctrl.h)
 author: windows-sdk-content
 description: Contains information specific to ComboBoxEx items for use with notification codes.
 old-location: controls\NMCOMBOBOXEX.htm

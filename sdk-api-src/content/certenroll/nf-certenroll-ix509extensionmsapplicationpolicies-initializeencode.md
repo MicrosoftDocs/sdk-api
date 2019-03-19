@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.InitializeEncode
-title: IX509ExtensionMSApplicationPolicies::InitializeEncode
+title: IX509ExtensionMSApplicationPolicies::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the extension from an ICertificatePolicies collection.
 old-location: security\ix509extensionmsapplicationpolicies_initializeencode_method.htm

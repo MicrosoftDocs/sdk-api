@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_FileNamePattern
-title: IFsrmFileManagementJob::get_FileNamePattern
+title: IFsrmFileManagementJob::get_FileNamePattern (fsrmreports.h)
 author: windows-sdk-content
 description: A condition property:\_wildcard filter for names.
 old-location: fsrm\ifsrmfilemanagementjob_filenamepattern.htm

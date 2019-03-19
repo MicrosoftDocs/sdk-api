@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Static_SetIcon
-title: Static_SetIcon macro
+title: Static_SetIcon macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the icon for a static control. You can use this macro or send the STM_SETICON message explicitly.
 old-location: controls\Static_SetIcon.htm

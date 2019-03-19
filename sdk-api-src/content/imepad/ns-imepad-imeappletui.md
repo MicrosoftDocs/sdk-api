@@ -1,6 +1,6 @@
 ---
 UID: NS:imepad.tagIMEAPPLETUI
-title: IMEAPPLETUI
+title: IMEAPPLETUI (imepad.h)
 author: windows-sdk-content
 description: Used by IImePadApplet::CreateUI to specify applet window style.
 old-location: intl\imeappletui.htm

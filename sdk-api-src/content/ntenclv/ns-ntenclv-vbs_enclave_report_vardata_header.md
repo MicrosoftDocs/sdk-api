@@ -1,6 +1,6 @@
 ---
 UID: NS:ntenclv.VBS_ENCLAVE_REPORT_VARDATA_HEADER
-title: VBS_ENCLAVE_REPORT_VARDATA_HEADER
+title: VBS_ENCLAVE_REPORT_VARDATA_HEADER (ntenclv.h)
 author: windows-sdk-content
 description: Describes the format of a variable data block contained in a report that the EnclaveGetAttestationReport function generates.
 old-location: base\vbs_enclave_report_vardata_header.htm

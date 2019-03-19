@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabSubscribeEndpointData
-title: PeerCollabSubscribeEndpointData function
+title: PeerCollabSubscribeEndpointData function (p2p.h)
 author: windows-sdk-content
 description: Creates a subscription to an available endpoint.
 old-location: p2p\peercollabsubscribeendpointdata.htm

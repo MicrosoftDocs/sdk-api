@@ -1,6 +1,6 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetGamerAccount
-title: IXblIdpAuthManager::GetGamerAccount
+title: IXblIdpAuthManager::GetGamerAccount (xblidpauthmanager.h)
 author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getgameraccount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IContextProperties.EnumNames
-title: IContextProperties::EnumNames
+title: IContextProperties::EnumNames (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a reference to an enumerator for the context object properties.
 old-location: cos\icontextproperties_enumnames.htm

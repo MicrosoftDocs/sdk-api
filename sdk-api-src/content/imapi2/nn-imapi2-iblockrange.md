@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.IBlockRange
-title: IBlockRange
+title: IBlockRange (imapi2.h)
 author: windows-sdk-content
 description: Use this interface to retrieve information about a single continuous range of sectors on the media. This interface is typically used together with the IBlockRangeList interface to describe a collection of sector ranges.
 old-location: imapi\iblockrange.htm

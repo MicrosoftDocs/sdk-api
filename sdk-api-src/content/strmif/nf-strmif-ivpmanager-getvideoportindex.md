@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVPManager.GetVideoPortIndex
-title: IVPManager::GetVideoPortIndex
+title: IVPManager::GetVideoPortIndex (strmif.h)
 author: windows-sdk-content
 description: The GetVideoPortIndex method returns the current video port index being used by the Video Port Manager (VPM).
 old-location: dshow\ivpmanager_getvideoportindex.htm

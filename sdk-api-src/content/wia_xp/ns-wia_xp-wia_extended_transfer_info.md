@@ -1,6 +1,6 @@
 ---
 UID: NS:wia_xp._WIA_EXTENDED_TRANSFER_INFO
-title: WIA_EXTENDED_TRANSFER_INFO
+title: WIA_EXTENDED_TRANSFER_INFO (wia_xp.h)
 author: windows-sdk-content
 description: The WIA_EXTENDED_TRANSFER_INFO structure specifies extended transfer information for the IWiaDataTransfer::idtGetExtendedTransferInfo method.
 old-location: wia\_wia_WIA_EXTENDED_TRANSFER_INFO.htm

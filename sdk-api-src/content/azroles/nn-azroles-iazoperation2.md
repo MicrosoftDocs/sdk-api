@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzOperation2
-title: IAzOperation2
+title: IAzOperation2 (azroles.h)
 author: windows-sdk-content
 description: Extends the IAzOperation with a method that returns the role assignments associated with the operation.
 old-location: security\iazoperation2.htm

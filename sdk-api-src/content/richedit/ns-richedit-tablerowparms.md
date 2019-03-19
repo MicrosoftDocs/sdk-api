@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._tableRowParms
-title: TABLEROWPARMS
+title: TABLEROWPARMS (richedit.h)
 author: windows-sdk-content
 description: Defines the attributes of rows in a table.
 old-location: controls\tablerowparms.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationRegistrar
-title: IUIAutomationRegistrar
+title: IUIAutomationRegistrar (uiautomationcore.h)
 author: windows-sdk-content
 description: Exposes methods for registering new control patterns, properties, and events.
 old-location: winauto\uiauto_IUIAutomationRegistrar.htm

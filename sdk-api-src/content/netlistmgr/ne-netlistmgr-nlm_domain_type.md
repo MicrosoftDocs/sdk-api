@@ -1,6 +1,6 @@
 ---
 UID: NE:netlistmgr.NLM_DOMAIN_TYPE
-title: NLM_DOMAIN_TYPE
+title: NLM_DOMAIN_TYPE (netlistmgr.h)
 author: windows-sdk-content
 description: The NLM_DOMAIN_TYPE enumeration is a set of flags that specify the domain type of a network.
 old-location: nla\nlm_domain_type.htm

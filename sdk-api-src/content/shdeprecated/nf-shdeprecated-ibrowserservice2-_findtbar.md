@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._FindTBar
-title: IBrowserService2::_FindTBar
+title: IBrowserService2::_FindTBar (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Returns the index of a browser toolbar item based on Component Object Model (COM) identity rules.
 old-location: shell\IBrowserService2__FindTBar.htm

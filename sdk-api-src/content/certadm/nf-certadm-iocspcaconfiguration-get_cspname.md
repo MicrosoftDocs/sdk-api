@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_CSPName
-title: IOCSPCAConfiguration::get_CSPName
+title: IOCSPCAConfiguration::get_CSPName (certadm.h)
 author: windows-sdk-content
 description: Gets a cryptographic service provider (CSP) or key storage provider (KSP) name.
 old-location: security\iocspcaconfiguration_cspname_method.htm

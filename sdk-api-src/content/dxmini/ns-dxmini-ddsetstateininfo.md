@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDSETSTATEININFO
-title: DDSETSTATEININFO
+title: DDSETSTATEININFO (dxmini.h)
 author: windows-sdk-content
 description: The DDSETSTATEININFO structure contains the surface and video port extensions (VPE) object information.
 old-location: display\ddsetstateininfo.htm

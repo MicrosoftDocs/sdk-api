@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Name
-title: ITPluggableTerminalClassRegistration::put_Name
+title: ITPluggableTerminalClassRegistration::put_Name (termmgr.h)
 author: windows-sdk-content
 description: The put_Name method sets the name of the terminal class being registered.
 old-location: tapi3\itpluggableterminalclassregistration_put_name.htm

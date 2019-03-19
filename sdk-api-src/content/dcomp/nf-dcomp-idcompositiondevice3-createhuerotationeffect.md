@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateHueRotationEffect
-title: IDCompositionDevice3::CreateHueRotationEffect
+title: IDCompositionDevice3::CreateHueRotationEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionHueRotationEffect.
 old-location: directcomp\idcompositiondevice3_createhuerotationeffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstring.CHString.GetLength
-title: CHString::GetLength
+title: CHString::GetLength (chstring.h)
 author: windows-sdk-content
 description: The GetLength method gets a count of the number of wide characters in this CHString string. The count does not include a NULL terminator.
 old-location: wmi\chstring_getlength.htm

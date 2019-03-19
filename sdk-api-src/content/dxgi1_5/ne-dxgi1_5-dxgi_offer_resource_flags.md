@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_5._DXGI_OFFER_RESOURCE_FLAGS
-title: DXGI_OFFER_RESOURCE_FLAGS
+title: DXGI_OFFER_RESOURCE_FLAGS (dxgi1_5.h)
 author: windows-sdk-content
 description: Specifies flags for the OfferResources1 method.
 old-location: direct3ddxgi\dxgi_offer_resource_flags.htm

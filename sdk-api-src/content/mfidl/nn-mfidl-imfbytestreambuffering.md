@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFByteStreamBuffering
-title: IMFByteStreamBuffering
+title: IMFByteStreamBuffering (mfidl.h)
 author: windows-sdk-content
 description: Controls how a byte stream buffers data from a network.
 old-location: mf\imfbytestreambuffering.htm

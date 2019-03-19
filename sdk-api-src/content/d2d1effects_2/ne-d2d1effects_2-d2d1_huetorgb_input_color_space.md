@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HUETORGB_INPUT_COLOR_SPACE
-title: D2D1_HUETORGB_INPUT_COLOR_SPACE
+title: D2D1_HUETORGB_INPUT_COLOR_SPACE (d2d1effects_2.h)
 author: windows-sdk-content
 description: Values for the D2D1_HUETORGB_PROP_INPUT_COLOR_SPACE property of the Hue to RGB effect.
 old-location: direct2d\d2d1_huetorgb_input_color_space.htm

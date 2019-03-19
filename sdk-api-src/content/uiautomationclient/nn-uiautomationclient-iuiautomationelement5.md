@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement5
-title: IUIAutomationElement5
+title: IUIAutomationElement5 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationElement4 interface to provide access to current and cached landmark data.
 old-location: winauto\uiauto_IUIAutomationElement5.htm

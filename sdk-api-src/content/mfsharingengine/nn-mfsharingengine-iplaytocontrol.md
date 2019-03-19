@@ -1,6 +1,6 @@
 ---
 UID: NN:mfsharingengine.IPlayToControl
-title: IPlayToControl
+title: IPlayToControl (mfsharingengine.h)
 author: windows-sdk-content
 description: Enables the PlayToConnection object to connect to a media element.
 old-location: mf\iplaytocontrol.htm

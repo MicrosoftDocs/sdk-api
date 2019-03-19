@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Next
-title: IEnumCERTVIEWEXTENSION::Next
+title: IEnumCERTVIEWEXTENSION::Next (certview.h)
 author: windows-sdk-content
 description: Moves to the next extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_next.htm

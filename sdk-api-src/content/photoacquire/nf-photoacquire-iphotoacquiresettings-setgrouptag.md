@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetGroupTag
-title: IPhotoAcquireSettings::SetGroupTag
+title: IPhotoAcquireSettings::SetGroupTag (photoacquire.h)
 author: windows-sdk-content
 description: The SetGroupTag method sets the group tag for an acquisition session.
 old-location: picacq\iphotoacquiresettings_setgrouptag.htm

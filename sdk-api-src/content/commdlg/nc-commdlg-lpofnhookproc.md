@@ -1,6 +1,6 @@
 ---
 UID: NC:commdlg.LPOFNHOOKPROC
-title: LPOFNHOOKPROC
+title: LPOFNHOOKPROC (commdlg.h)
 author: windows-sdk-content
 description: Receives notification messages sent from the dialog box.
 old-location: dlgbox\ofnhookproc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_search_init_pageA
-title: ldap_search_init_pageA function
+title: ldap_search_init_pageA function (winldap.h)
 author: windows-sdk-content
 description: Initializes a search block for a simple paged-results search.
 old-location: ldap\ldap_search_init_page.htm

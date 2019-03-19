@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_Columns
-title: IInkRecognizerGuide::put_Columns
+title: IInkRecognizerGuide::put_Columns (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the number of columns in the recognition guide box.
 old-location: tablet\inkrecognizerguide_columns.htm

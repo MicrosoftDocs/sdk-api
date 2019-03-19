@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCustomTone
-title: ITCustomTone
+title: ITCustomTone (tapi3if.h)
 author: windows-sdk-content
 description: The ITCustomTone interface exposes methods that allow detailed control over the custom tones that are available with some phone sets.
 old-location: tapi3\itcustomtone.htm

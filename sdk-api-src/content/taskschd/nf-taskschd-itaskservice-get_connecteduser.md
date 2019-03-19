@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.get_ConnectedUser
-title: ITaskService::get_ConnectedUser
+title: ITaskService::get_ConnectedUser (taskschd.h)
 author: windows-sdk-content
 description: Gets the name of the user that is connected to the Task Scheduler service.
 old-location: taskschd\itaskservice_connecteduser.htm

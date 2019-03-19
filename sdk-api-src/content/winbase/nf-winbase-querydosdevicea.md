@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.QueryDosDeviceA
-title: QueryDosDeviceA function
+title: QueryDosDeviceA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves information about MS-DOS device names.
 old-location: fs\querydosdevice.htm

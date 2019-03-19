@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrComplexStructUnmarshall
-title: NdrComplexStructUnmarshall function
+title: NdrComplexStructUnmarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrComplexStructUnmarshall function unmarshals the complex structure from the network buffer to memory.
 old-location: winprog\ndrcomplexstructunmarshall.htm

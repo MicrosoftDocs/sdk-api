@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IProviderConverter.Initialize
-title: IProviderConverter::Initialize
+title: IProviderConverter::Initialize (winsync.h)
 author: windows-sdk-content
 description: When implemented by a derived class, initializes the IProviderConverter object with the ISyncProvider object to be converted to IKnowledgeSyncProvider.
 old-location: winsync\iproviderconverter_initialize.htm

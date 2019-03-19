@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemcli.tag_WBEM_SECURITY_FLAGS
-title: WBEM_SECURITY_FLAGS
+title: WBEM_SECURITY_FLAGS (wbemcli.h)
 author: windows-sdk-content
 description: Contains flags used for setting security access levels.
 old-location: wmi\wbem_security_flags.htm

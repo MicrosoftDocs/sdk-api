@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterNetInterfaceInfo.GetNetInterfaceHandle
-title: IGetClusterNetInterfaceInfo::GetNetInterfaceHandle
+title: IGetClusterNetInterfaceInfo::GetNetInterfaceHandle (cluadmex.h)
 author: windows-sdk-content
 description: Retrieves a handle to a node.
 old-location: mscs\igetclusternetinterfaceinfo_getnetinterfacehandle.htm

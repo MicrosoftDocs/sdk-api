@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0002
-title: ADS_ACETYPE_ENUM
+title: ADS_ACETYPE_ENUM (iads.h)
 author: windows-sdk-content
 description: Used to specify the type of an access-control entry for Active Directory objects.
 old-location: adsi\ads_acetype_enum.htm

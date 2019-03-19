@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyArrayElementID
-title: IContactPropertyCollection::GetPropertyArrayElementID
+title: IContactPropertyCollection::GetPropertyArrayElementID (icontact.h)
 author: windows-sdk-content
 description: Retrieves the unique ID for a given element in a property array.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyArrayElementID.htm

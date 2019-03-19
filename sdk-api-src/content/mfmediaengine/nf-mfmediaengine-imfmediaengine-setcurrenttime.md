@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetCurrentTime
-title: IMFMediaEngine::SetCurrentTime
+title: IMFMediaEngine::SetCurrentTime (mfmediaengine.h)
 author: windows-sdk-content
 description: Seeks to a new playback position.
 old-location: mf\imfmediaengine_setcurrenttime.htm

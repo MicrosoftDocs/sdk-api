@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrConformantStringMarshall
-title: NdrConformantStringMarshall function
+title: NdrConformantStringMarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrConformantStringMarshall function marshals the conformant string into a network buffer to be sent to the server.
 old-location: rpc\ndrconformantstringmarshall.htm

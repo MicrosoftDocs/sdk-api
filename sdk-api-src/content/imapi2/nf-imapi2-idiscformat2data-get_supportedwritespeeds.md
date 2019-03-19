@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_SupportedWriteSpeeds
-title: IDiscFormat2Data::get_SupportedWriteSpeeds
+title: IDiscFormat2Data::get_SupportedWriteSpeeds (imapi2.h)
 author: windows-sdk-content
 description: Retrieves a list of the write speeds supported by the disc recorder and current media.
 old-location: imapi\idiscformat2data_get_supportedwritespeeds.htm

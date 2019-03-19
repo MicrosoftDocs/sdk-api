@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMemFree
-title: CryptMemFree function
+title: CryptMemFree function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptMemFree function frees memory allocated by CryptMemAlloc or CryptMemRealloc.
 old-location: security\cryptmemfree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_SECURITY_QOS_V2_A
-title: RPC_SECURITY_QOS_V2_A
+title: RPC_SECURITY_QOS_V2_A (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_SECURITY_QOS_V2 structure defines version 2 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos_v2.htm

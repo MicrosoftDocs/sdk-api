@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_BackColor
-title: IMSVidCtl::get_BackColor
+title: IMSVidCtl::get_BackColor (msvidctl.h)
 author: windows-sdk-content
 description: The get_BackColor method retrieves the background color of the Video Control.
 old-location: mstv\imsvidctl_get_backcolor.htm

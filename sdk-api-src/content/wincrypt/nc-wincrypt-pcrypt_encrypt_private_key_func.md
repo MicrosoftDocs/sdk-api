@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
-title: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC
+title: PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Encrypts the private key and returns the encrypted contents in the pbEncryptedKey parameter.
 old-location: security\pcrypt_encrypt_private_key_func.htm

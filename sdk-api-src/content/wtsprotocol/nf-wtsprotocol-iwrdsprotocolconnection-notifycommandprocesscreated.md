@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.NotifyCommandProcessCreated
-title: IWRdsProtocolConnection::NotifyCommandProcessCreated
+title: IWRdsProtocolConnection::NotifyCommandProcessCreated (wtsprotocol.h)
 author: windows-sdk-content
 description: Notifies the protocol that the Winlogon.exe process has been created and initialized.
 old-location: termserv\iwrdsprotocolconnection_notifycommandprocesscreated.htm

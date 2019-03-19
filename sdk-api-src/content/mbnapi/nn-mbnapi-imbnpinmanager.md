@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnPinManager
-title: IMbnPinManager
+title: IMbnPinManager (mbnapi.h)
 author: windows-sdk-content
 description: Provides important details about the device PIN.
 old-location: mbn\imbnpinmanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.TextOutA
-title: TextOutA function
+title: TextOutA function (wingdi.h)
 author: windows-sdk-content
 description: The TextOut function writes a character string at the specified location, using the currently selected font, background color, and text color.
 old-location: gdi\textout.htm

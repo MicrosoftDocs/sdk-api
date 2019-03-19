@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineSwapHold
-title: lineSwapHold function
+title: lineSwapHold function (tapi.h)
 author: windows-sdk-content
 description: The lineSwapHold function swaps the specified active call with the specified call on consultation hold.
 old-location: tapi2\lineswaphold.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexes
-title: SymSrvGetFileIndexes function
+title: SymSrvGetFileIndexes function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the indexes for the specified .pdb, .dbg, or image file that would be used to store the file. The combination of these values uniquely identifies the file in the symbol server.
 old-location: base\symsrvgetfileindexes.htm

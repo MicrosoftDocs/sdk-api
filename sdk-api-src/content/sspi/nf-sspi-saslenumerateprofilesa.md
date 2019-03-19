@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SaslEnumerateProfilesA
-title: SaslEnumerateProfilesA function
+title: SaslEnumerateProfilesA function (sspi.h)
 author: windows-sdk-content
 description: Lists the packages that provide a SASL interface.
 old-location: security\saslenumerateprofiles.htm

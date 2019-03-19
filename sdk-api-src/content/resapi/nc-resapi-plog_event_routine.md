@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PLOG_EVENT_ROUTINE
-title: PLOG_EVENT_ROUTINE
+title: PLOG_EVENT_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Records an event in the cluster log.
 old-location: mscs\logevent.htm

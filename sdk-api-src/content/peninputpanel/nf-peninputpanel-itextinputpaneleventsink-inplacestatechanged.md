@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceStateChanged
-title: ITextInputPanelEventSink::InPlaceStateChanged
+title: ITextInputPanelEventSink::InPlaceStateChanged (peninputpanel.h)
 author: windows-sdk-content
 description: Occurs when the In-Place state has changed.
 old-location: tablet\itextinputpaneleventsink_inplacestatechanged.htm

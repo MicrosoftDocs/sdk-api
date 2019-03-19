@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.put_MinMinorChannel
-title: IATSCTuningSpace::put_MinMinorChannel
+title: IATSCTuningSpace::put_MinMinorChannel (tuner.h)
 author: windows-sdk-content
 description: The put_MinMinorChannel method sets the lowest minor channel number ever allowed for this tuning space.
 old-location: mstv\iatsctuningspace_put_minminorchannel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.GetIndexerVersion
-title: ISearchManager::GetIndexerVersion
+title: ISearchManager::GetIndexerVersion (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the version of the current indexer in two chunks:\_the major version signifier and the minor version signifier.
 old-location: search\_search_ISearchManager_GetIndexerVersion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_3.D2D1_PATCH_EDGE_MODE
-title: D2D1_PATCH_EDGE_MODE
+title: D2D1_PATCH_EDGE_MODE (d2d1_3.h)
 author: windows-sdk-content
 description: Specifies how to render gradient mesh edges.
 old-location: direct2d\d2d1_patch_edge_mode.htm

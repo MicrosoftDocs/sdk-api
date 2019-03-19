@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_FileNameFormat
-title: IDataCollector::put_FileNameFormat
+title: IDataCollector::put_FileNameFormat (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets flags that describe how to decorate the file name.
 old-location: pla\idatacollector_filenameformat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateRenderingParams
-title: IDWriteFactory::CreateRenderingParams
+title: IDWriteFactory::CreateRenderingParams (dwrite.h)
 author: windows-sdk-content
 description: Creates a rendering parameters object with default settings for the primary monitor. Different monitors may have different rendering parameters, for more information see the How to Add Support for Multiple Monitors topic.
 old-location: directwrite\IDWriteFactory_CreateRenderingParams.htm

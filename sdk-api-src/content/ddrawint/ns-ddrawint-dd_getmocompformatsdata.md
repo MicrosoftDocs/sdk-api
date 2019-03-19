@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETMOCOMPFORMATSDATA
-title: DD_GETMOCOMPFORMATSDATA
+title: DD_GETMOCOMPFORMATSDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETMOCOMPFORMATSDATA structure contains the uncompressed format information.
 old-location: display\dd_getmocompformatsdata.htm

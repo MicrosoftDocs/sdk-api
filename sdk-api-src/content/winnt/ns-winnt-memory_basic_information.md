@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._MEMORY_BASIC_INFORMATION
-title: MEMORY_BASIC_INFORMATION
+title: MEMORY_BASIC_INFORMATION (winnt.h)
 author: windows-sdk-content
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: base\memory_basic_information_str.htm

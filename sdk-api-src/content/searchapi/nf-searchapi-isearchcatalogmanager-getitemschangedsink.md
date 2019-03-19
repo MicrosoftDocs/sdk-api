@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetItemsChangedSink
-title: ISearchCatalogManager::GetItemsChangedSink
+title: ISearchCatalogManager::GetItemsChangedSink (searchapi.h)
 author: windows-sdk-content
 description: Gets the change notification sink interface.
 old-location: search\_search_ISearchCatalogManager_GetItemsChangedSink.htm

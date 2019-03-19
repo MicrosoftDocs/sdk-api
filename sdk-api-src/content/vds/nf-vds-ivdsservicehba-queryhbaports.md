@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsServiceHba.QueryHbaPorts
-title: IVdsServiceHba::QueryHbaPorts
+title: IVdsServiceHba::QueryHbaPorts (vds.h)
 author: windows-sdk-content
 description: Returns an IEnumVdsObject enumeration object containing a list of the HBA ports known to VDS on the local system.
 old-location: base\ivdsservicehba_queryhbaports.htm

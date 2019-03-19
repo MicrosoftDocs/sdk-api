@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetThumbnail
-title: IWICBitmapFrameEncode::SetThumbnail
+title: IWICBitmapFrameEncode::SetThumbnail (wincodec.h)
 author: windows-sdk-content
 description: Sets the frame thumbnail if supported by the codec.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setthumbnail.htm

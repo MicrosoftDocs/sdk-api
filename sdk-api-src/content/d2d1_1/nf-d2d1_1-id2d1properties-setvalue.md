@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.SetValue
-title: ID2D1Properties::SetValue
+title: ID2D1Properties::SetValue (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the corresponding property by index.
 old-location: direct2d\id2d1properties_setvalue.htm

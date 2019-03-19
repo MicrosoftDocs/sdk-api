@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCloseSession
-title: DRMCloseSession function
+title: DRMCloseSession function (msdrm.h)
 author: windows-sdk-content
 description: Closes a client session or a license storage session.
 old-location: rm\drmclosesession.htm

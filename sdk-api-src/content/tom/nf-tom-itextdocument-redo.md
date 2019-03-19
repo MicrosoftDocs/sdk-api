@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.Redo
-title: ITextDocument::Redo
+title: ITextDocument::Redo (tom.h)
 author: windows-sdk-content
 description: Performs a specified number of redo operations.
 old-location: controls\ITextDocument_Redo.htm

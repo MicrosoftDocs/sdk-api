@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.get_ThumbPrintWStr
-title: IEnroll4::get_ThumbPrintWStr
+title: IEnroll4::get_ThumbPrintWStr (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate.
 old-location: security\ienroll4_thumbprintwstr.htm

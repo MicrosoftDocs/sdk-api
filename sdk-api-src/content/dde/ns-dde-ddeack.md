@@ -1,6 +1,6 @@
 ---
 UID: NS:dde.__unnamed_struct_0
-title: DDEACK
+title: DDEACK (dde.h)
 author: windows-sdk-content
 description: Contains status flags that a DDE application passes to its partner as part of the WM_DDE_ACK message.
 old-location: dataxchg\ddeack.htm

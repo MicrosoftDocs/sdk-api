@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.DeleteTarget
-title: ITsSbResourcePluginStore::DeleteTarget
+title: ITsSbResourcePluginStore::DeleteTarget (sbtsv.h)
 author: windows-sdk-content
 description: Deletes a target.
 old-location: termserv\itssbresourcepluginstore_deletetarget.htm

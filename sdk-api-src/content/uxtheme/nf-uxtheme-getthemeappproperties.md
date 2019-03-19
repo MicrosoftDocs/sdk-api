@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeAppProperties
-title: GetThemeAppProperties function
+title: GetThemeAppProperties function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the property flags that control how visual styles are applied in the current application.
 old-location: controls\GetThemeAppProperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.End
-title: IActionProgress::End
+title: IActionProgress::End (shobjidl_core.h)
 author: windows-sdk-content
 description: Indicates that the action associated with this progress implementation has ended.
 old-location: shell\IActionProgress_End.htm

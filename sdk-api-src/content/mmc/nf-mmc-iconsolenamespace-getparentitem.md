@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetParentItem
-title: IConsoleNameSpace::GetParentItem
+title: IConsoleNameSpace::GetParentItem (mmc.h)
 author: windows-sdk-content
 description: The IConsoleNameSpace2::GetParentItem method enables the snap-in to retrieve the handle to a parent item in the scope view.
 old-location: mmc\iconsolenamespace2_getparentitem.htm

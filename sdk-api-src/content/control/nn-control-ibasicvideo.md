@@ -1,6 +1,6 @@
 ---
 UID: NN:control.IBasicVideo
-title: IBasicVideo
+title: IBasicVideo (control.h)
 author: windows-sdk-content
 description: The IBasicVideo interface sets video properties such as the destination and source rectangles.
 old-location: dshow\ibasicvideo.htm

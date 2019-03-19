@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabGetApplicationRegistrationInfo
-title: PeerCollabGetApplicationRegistrationInfo function
+title: PeerCollabGetApplicationRegistrationInfo function (p2p.h)
 author: windows-sdk-content
 description: Obtains application-specific registration information.
 old-location: p2p\peercollabgetapplicationregistrationinfo.htm

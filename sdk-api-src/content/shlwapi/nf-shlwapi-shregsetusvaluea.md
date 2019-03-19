@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegSetUSValueA
-title: SHRegSetUSValueA function
+title: SHRegSetUSValueA function (shlwapi.h)
 author: windows-sdk-content
 description: Sets a registry subkey value in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegSetUSValue.htm

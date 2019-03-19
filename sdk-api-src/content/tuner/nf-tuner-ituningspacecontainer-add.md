@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.Add
-title: ITuningSpaceContainer::Add
+title: ITuningSpaceContainer::Add (tuner.h)
 author: windows-sdk-content
 description: The Add method adds a new persistent tuning space to the system.
 old-location: mstv\ituningspacecontainer_add.htm

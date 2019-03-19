@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.tWAVEFORMATEX
-title: WAVEFORMATEX
+title: WAVEFORMATEX (mmeapi.h)
 author: windows-sdk-content
 description: The WAVEFORMATEX structure defines the format of waveform-audio data.
 old-location: multimedia\waveformatex.htm

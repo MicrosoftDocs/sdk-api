@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.TraceMessageVa
-title: TraceMessageVa function
+title: TraceMessageVa function (evntrace.h)
 author: windows-sdk-content
 description: The TraceMessageVa function sends an informational message with variable arguments to an event tracing session.
 old-location: etw\tracemessageva.htm

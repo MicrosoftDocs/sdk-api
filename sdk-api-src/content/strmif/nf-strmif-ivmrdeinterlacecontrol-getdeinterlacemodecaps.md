@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetDeinterlaceModeCaps
-title: IVMRDeinterlaceControl::GetDeinterlaceModeCaps
+title: IVMRDeinterlaceControl::GetDeinterlaceModeCaps (strmif.h)
 author: windows-sdk-content
 description: The GetDeinterlaceModeCaps method retrieves the capabilities of a specific deinterlacing mode supported by the graphics device driver.
 old-location: dshow\ivmrdeinterlacecontrol_getdeinterlacemodecaps.htm

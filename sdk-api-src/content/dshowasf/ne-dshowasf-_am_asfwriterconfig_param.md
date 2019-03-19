@@ -1,6 +1,6 @@
 ---
 UID: NE:dshowasf._AM_ASFWRITERCONFIG_PARAM
-title: "_AM_ASFWRITERCONFIG_PARAM"
+title: "_AM_ASFWRITERCONFIG_PARAM" (dshowasf.h)
 author: windows-sdk-content
 description: The _AM_ASFWRITERCONFIG_PARAM DirectShow QASF enumeration type defines filter configuration parameters used in the IConfigAsfWriter2::GetParam and SetParam methods.
 old-location: wmformat\_am_asfwriterconfig_param_enumeration.htm

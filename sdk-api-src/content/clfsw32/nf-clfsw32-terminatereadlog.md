@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.TerminateReadLog
-title: TerminateReadLog function
+title: TerminateReadLog function (clfsw32.h)
 author: windows-sdk-content
 description: Terminates a read context. This function frees system-allocated resources associated with the specified read context. Do not attempt to read log records after calling this function; you will receive indeterminate results.
 old-location: fs\terminatereadlog.htm

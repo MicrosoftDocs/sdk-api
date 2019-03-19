@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION_INFO
-title: DHCP_IP_RESERVATION_INFO
+title: DHCP_IP_RESERVATION_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_IP_RESERVATION_INFO structure defines an IPv4 reservation for a DHCPv4 client.
 old-location: dhcp\dhcp_ip_reservation_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncH264VLevel
-title: eAVEncH264VLevel
+title: eAVEncH264VLevel (codecapi.h)
 author: windows-sdk-content
 description: Specifies an H.264 encoding level.
 old-location: mf\eavench264vlevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.DDiscMaster2Events.NotifyDeviceAdded
-title: DDiscMaster2Events::NotifyDeviceAdded
+title: DDiscMaster2Events::NotifyDeviceAdded (imapi2.h)
 author: windows-sdk-content
 description: Receives notification when an optical media device is added to the computer.
 old-location: imapi\ddiscmaster2events_notifydeviceadded.htm

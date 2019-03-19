@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICFormatConverter
-title: IWICFormatConverter
+title: IWICFormatConverter (wincodec.h)
 author: windows-sdk-content
 description: Represents an IWICBitmapSource that converts the image data from one pixel format to another, handling dithering and halftoning to indexed formats, palette translation and alpha thresholding.
 old-location: wic\_wic_codec_iwicformatconverter.htm

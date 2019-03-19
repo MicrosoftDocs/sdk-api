@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetEffectInvalidRectangleCount
-title: ID2D1DeviceContext::GetEffectInvalidRectangleCount
+title: ID2D1DeviceContext::GetEffectInvalidRectangleCount (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the number of invalid output rectangles that have accumulated on the effect.
 old-location: direct2d\id2d1devicecontext_geteffectinvalidrectanglecount.htm

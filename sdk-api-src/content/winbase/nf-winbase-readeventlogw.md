@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ReadEventLogW
-title: ReadEventLogW function
+title: ReadEventLogW function (winbase.h)
 author: windows-sdk-content
 description: Reads the specified number of entries from the specified event log.
 old-location: base\readeventlog.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IkeextSaDbGetSecurityInfo0
-title: IkeextSaDbGetSecurityInfo0 function
+title: IkeextSaDbGetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: The IkeextSaDbGetSecurityInfo0 function retrieves a copy of the security descriptor for a security association (SA) database.
 old-location: fwp\ikeextsadbgetsecurityinfo0.htm

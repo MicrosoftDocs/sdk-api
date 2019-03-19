@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetTop
-title: ITfDocumentMgr::GetTop
+title: ITfDocumentMgr::GetTop (msctf.h)
 author: windows-sdk-content
 description: ITfDocumentMgr::GetTop method
 old-location: tsf\itfdocumentmgr_gettop.htm

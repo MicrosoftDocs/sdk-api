@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetMaxEnvelopeSize
-title: MI_DestinationOptions_GetMaxEnvelopeSize function
+title: MI_DestinationOptions_GetMaxEnvelopeSize function (mi.h)
 author: windows-sdk-content
 description: Gets the maximum size of the packet sent to a server or received by the client from the server.
 old-location: wmi_v2\mi_destinationoptions_getmaxenvelopesize.htm

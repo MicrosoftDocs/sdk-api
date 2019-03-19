@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetControlItemState
-title: IFileDialogCustomize::GetControlItemState
+title: IFileDialogCustomize::GetControlItemState (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the current state of an item in a container control found in the dialog.
 old-location: shell\IFileDialogCustomize_GetControlItemState.htm

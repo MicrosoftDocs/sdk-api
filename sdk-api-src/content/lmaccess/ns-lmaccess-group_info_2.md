@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_2
-title: GROUP_INFO_2
+title: GROUP_INFO_2 (lmaccess.h)
 author: windows-sdk-content
 description: The GROUP_INFO_2 structure contains information about a global group, including name, identifier, and resource attributes.
 old-location: netmgmt\group_info_2_str.htm

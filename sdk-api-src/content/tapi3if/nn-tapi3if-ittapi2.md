@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTAPI2
-title: ITTAPI2
+title: ITTAPI2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITTAPI2 interface derives from the ITTAPI interface. It adds additional methods on the TAPI object to support phone devices.
 old-location: tapi3\ittapi2.htm

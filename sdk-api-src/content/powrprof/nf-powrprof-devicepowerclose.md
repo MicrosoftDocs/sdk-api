@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.DevicePowerClose
-title: DevicePowerClose function
+title: DevicePowerClose function (powrprof.h)
 author: windows-sdk-content
 description: Frees all nodes in the device list and destroys the device list.
 old-location: base\devicepowerclose.htm

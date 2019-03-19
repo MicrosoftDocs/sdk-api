@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoProperties.PropCount
-title: IComTrackingInfoProperties::PropCount
+title: IComTrackingInfoProperties::PropCount (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of properties defined for a tracking information object.
 old-location: cos\icomtrackinginfoproperties_propcount.htm

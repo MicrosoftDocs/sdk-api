@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPrepareSnapshot
-title: CVssWriter::OnPrepareSnapshot
+title: CVssWriter::OnPrepareSnapshot (vswriter.h)
 author: windows-sdk-content
 description: The OnPrepareSnapshot method is called by a writer to handle a PrepareForSnapshot event. It is used to perform operations needed to prepare a writer to participate in the shadow copy or to veto a shadow copy.
 old-location: base\cvsswriter_onpreparesnapshot.htm

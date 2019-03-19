@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluscolor.Color.GetRed
-title: Color::GetRed
+title: Color::GetRed (gdipluscolor.h)
 author: windows-sdk-content
 description: The Color::GetRed method gets the red component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetRed_.htm

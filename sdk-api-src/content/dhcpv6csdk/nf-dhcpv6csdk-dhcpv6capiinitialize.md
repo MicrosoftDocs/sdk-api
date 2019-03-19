@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6CApiInitialize
-title: Dhcpv6CApiInitialize function
+title: Dhcpv6CApiInitialize function (dhcpv6csdk.h)
 author: windows-sdk-content
 description: The Dhcpv6CApiInitialize function must be the first function call made by users of DHCPv6.
 old-location: dhcp\dhcpv6capiinitialize.htm

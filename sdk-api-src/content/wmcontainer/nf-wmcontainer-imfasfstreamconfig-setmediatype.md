@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.SetMediaType
-title: IMFASFStreamConfig::SetMediaType
+title: IMFASFStreamConfig::SetMediaType (wmcontainer.h)
 author: windows-sdk-content
 description: Sets the media type for the Advanced Systems Format (ASF) stream configuration object.
 old-location: mf\imfasfstreamconfig_setmediatype.htm

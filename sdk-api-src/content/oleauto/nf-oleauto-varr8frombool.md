@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR8FromBool
-title: VarR8FromBool function
+title: VarR8FromBool function (oleauto.h)
 author: windows-sdk-content
 description: Converts a Boolean value to a double value.
 old-location: automat\varr8frombool.htm

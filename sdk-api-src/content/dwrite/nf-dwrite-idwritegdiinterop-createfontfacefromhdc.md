@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateFontFaceFromHdc
-title: IDWriteGdiInterop::CreateFontFaceFromHdc
+title: IDWriteGdiInterop::CreateFontFaceFromHdc (dwrite.h)
 author: windows-sdk-content
 description: Creates an IDWriteFontFace object that corresponds to the currently selected HFONT of the specified HDC.
 old-location: directwrite\IDWriteGdiInterop_CreateFontFaceFromHdc.htm

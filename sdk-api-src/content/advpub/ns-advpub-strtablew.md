@@ -1,6 +1,6 @@
 ---
 UID: NS:advpub._StrTableW
-title: STRTABLEW
+title: STRTABLEW (advpub.h)
 author: windows-sdk-content
 description: Represents a table of registry string replacements.
 old-location: winprog\_strtablew.htm

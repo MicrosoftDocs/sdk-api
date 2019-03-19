@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_Select
-title: SelectionItemPattern_Select function
+title: SelectionItemPattern_Select function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Selects an element in a selection container.
 old-location: winauto\uiauto_SelectionItemPattern_SelectConPat.htm

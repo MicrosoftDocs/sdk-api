@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_SourceTemplateName
-title: IFsrmFileScreen::get_SourceTemplateName
+title: IFsrmFileScreen::get_SourceTemplateName (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves the name of the template from which this file screen object was derived.
 old-location: fsrm\ifsrmfilescreen_sourcetemplatename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnItemCaptured
-title: ICameraUIControlEventCallback::OnItemCaptured
+title: ICameraUIControlEventCallback::OnItemCaptured (camerauicontrol.h)
 author: windows-sdk-content
 description: Occurs when an item is captured.
 old-location: winprog\icamerauicontroleventcallback_onitemcaptured.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.SetProfile
-title: IMFASFContentInfo::SetProfile
+title: IMFASFContentInfo::SetProfile (wmcontainer.h)
 author: windows-sdk-content
 description: Uses profile data from a profile object to configure settings in the ContentInfo object.
 old-location: mf\imfasfcontentinfo_setprofile.htm

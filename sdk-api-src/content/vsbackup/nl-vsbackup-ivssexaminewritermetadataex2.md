@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadataEx2
-title: IVssExamineWriterMetadataEx2
+title: IVssExamineWriterMetadataEx2 (vsbackup.h)
 author: windows-sdk-content
 description: Defines methods to retrieve version information and other basic information for a specific writer instance.
 old-location: base\ivssexaminewritermetadataex2.htm

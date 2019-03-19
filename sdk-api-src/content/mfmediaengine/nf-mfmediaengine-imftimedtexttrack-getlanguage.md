@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetLanguage
-title: IMFTimedTextTrack::GetLanguage
+title: IMFTimedTextTrack::GetLanguage (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the language of the track.
 old-location: mf\imftimedtexttrack_getlanguage.htm

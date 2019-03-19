@@ -1,6 +1,6 @@
 ---
 UID: NS:usbuser._USB_UNICODE_NAME
-title: USB_UNICODE_NAME
+title: USB_UNICODE_NAME (usbuser.h)
 author: windows-sdk-content
 description: The USB_UNICODE_NAME structure contains a Unicode string that specifies a symbolic link name.
 old-location: buses\usb_unicode_name.htm

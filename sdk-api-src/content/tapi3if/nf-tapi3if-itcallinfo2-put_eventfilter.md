@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo2.put_EventFilter
-title: ITCallInfo2::put_EventFilter
+title: ITCallInfo2::put_EventFilter (tapi3if.h)
 author: windows-sdk-content
 description: The put_EventFilter method sets an event filter for the current call.
 old-location: tapi3\itcallinfo2_put_eventfilter.htm

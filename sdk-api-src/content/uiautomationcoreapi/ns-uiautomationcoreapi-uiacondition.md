@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaCondition
-title: UiaCondition
+title: UiaCondition (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a condition.
 old-location: winauto\uiauto_UiaConditionStruct.htm

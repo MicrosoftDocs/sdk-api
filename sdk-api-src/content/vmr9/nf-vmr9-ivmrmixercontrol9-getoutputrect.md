@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetOutputRect
-title: IVMRMixerControl9::GetOutputRect
+title: IVMRMixerControl9::GetOutputRect (vmr9.h)
 author: windows-sdk-content
 description: The GetOutputRect method retrieves the position of this stream's video rectangle within the composition rectangle.
 old-location: dshow\ivmrmixercontrol9_getoutputrect.htm

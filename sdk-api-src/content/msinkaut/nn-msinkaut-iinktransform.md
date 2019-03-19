@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut.IInkTransform
-title: IInkTransform
+title: IInkTransform (msinkaut.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinktransform.htm

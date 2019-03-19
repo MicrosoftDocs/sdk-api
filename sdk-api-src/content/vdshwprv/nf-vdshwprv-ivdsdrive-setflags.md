@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsDrive.SetFlags
-title: IVdsDrive::SetFlags
+title: IVdsDrive::SetFlags (vdshwprv.h)
 author: windows-sdk-content
 description: Sets flags of a drive object.
 old-location: base\ivdsdrive_setflags.htm

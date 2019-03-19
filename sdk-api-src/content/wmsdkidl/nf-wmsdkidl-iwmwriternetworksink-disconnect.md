@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.Disconnect
-title: IWMWriterNetworkSink::Disconnect
+title: IWMWriterNetworkSink::Disconnect (wmsdkidl.h)
 author: windows-sdk-content
 description: The Disconnect method disconnects all clients from the network sink.
 old-location: wmformat\iwmwriternetworksink_disconnect.htm

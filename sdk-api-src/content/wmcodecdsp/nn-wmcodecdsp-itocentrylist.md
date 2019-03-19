@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.ITocEntryList
-title: ITocEntryList
+title: ITocEntryList (wmcodecdsp.h)
 author: windows-sdk-content
 description: The ITocEntryList interface represents a list of entries in a table of contents. It provides methods for adding entries to, and removing entries from the list.
 old-location: mf\itocentrylist.htm

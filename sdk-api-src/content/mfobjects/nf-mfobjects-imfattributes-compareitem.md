@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.CompareItem
-title: IMFAttributes::CompareItem
+title: IMFAttributes::CompareItem (mfobjects.h)
 author: windows-sdk-content
 description: Queries whether a stored attribute value equals to a specified PROPVARIANT.
 old-location: mf\imfattributes_compareitem.htm

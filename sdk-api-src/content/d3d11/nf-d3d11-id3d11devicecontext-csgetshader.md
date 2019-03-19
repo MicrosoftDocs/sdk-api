@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetShader
-title: ID3D11DeviceContext::CSGetShader
+title: ID3D11DeviceContext::CSGetShader (d3d11.h)
 author: windows-sdk-content
 description: Get the compute shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_csgetshader.htm

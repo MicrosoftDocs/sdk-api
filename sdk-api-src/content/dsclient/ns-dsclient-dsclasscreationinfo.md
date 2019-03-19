@@ -1,6 +1,6 @@
 ---
 UID: NS:dsclient.__unnamed_struct_4
-title: DSCLASSCREATIONINFO
+title: DSCLASSCREATIONINFO (dsclient.h)
 author: windows-sdk-content
 description: Used with the IDsDisplaySpecifier::GetClassCreationInfo method to hold data about the class creation wizard objects for an object class.
 old-location: ad\dsclasscreationinfo.htm

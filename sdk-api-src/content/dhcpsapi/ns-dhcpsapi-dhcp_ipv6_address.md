@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_IPV6_ADDRESS
-title: DHCP_IPV6_ADDRESS
+title: DHCP_IPV6_ADDRESS (dhcpsapi.h)
 author: windows-sdk-content
 description: DHCP_IPV6_ADDRESS structure contains an IPv6 address.
 old-location: dhcp\dhcp_ipv6_address.htm

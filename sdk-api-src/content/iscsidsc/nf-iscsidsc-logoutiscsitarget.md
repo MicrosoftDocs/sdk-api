@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.LogoutIScsiTarget
-title: LogoutIScsiTarget function
+title: LogoutIScsiTarget function (iscsidsc.h)
 author: windows-sdk-content
 description: The LogoutIscsiTarget routine closes the specified login session.
 old-location: iscsidisc\logoutiscsitarget.htm

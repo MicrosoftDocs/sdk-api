@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetCachedSelection
-title: IUIAutomationLegacyIAccessiblePattern::GetCachedSelection
+title: IUIAutomationLegacyIAccessiblePattern::GetCachedSelection (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility property that identifies the selected children of this element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection.htm

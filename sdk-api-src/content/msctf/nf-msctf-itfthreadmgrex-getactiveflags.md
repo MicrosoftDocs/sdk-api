@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEx.GetActiveFlags
-title: ITfThreadMgrEx::GetActiveFlags
+title: ITfThreadMgrEx::GetActiveFlags (msctf.h)
 author: windows-sdk-content
 description: The ITfThreadMgrEx::GetActiveFlags method returns the flags TSF is active with.
 old-location: tsf\itfthreadmgrex_getactiveflags.htm

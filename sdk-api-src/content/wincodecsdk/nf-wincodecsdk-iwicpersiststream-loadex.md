@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICPersistStream.LoadEx
-title: IWICPersistStream::LoadEx
+title: IWICPersistStream::LoadEx (wincodecsdk.h)
 author: windows-sdk-content
 description: Loads data from an input stream using the given parameters.
 old-location: wic\_wic_codec_iwicpersiststream_loadex.htm

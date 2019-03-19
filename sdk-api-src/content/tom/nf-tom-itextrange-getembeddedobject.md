@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetEmbeddedObject
-title: ITextRange::GetEmbeddedObject
+title: ITextRange::GetEmbeddedObject (tom.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the embedded object at the start of the specified range, that is, at cpFirst. The range must either be an insertion point or it must select only the embedded object.
 old-location: controls\ITextRange_GetEmbeddedObject.htm

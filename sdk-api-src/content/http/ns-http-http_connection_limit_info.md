@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_CONNECTION_LIMIT_INFO
-title: HTTP_CONNECTION_LIMIT_INFO
+title: HTTP_CONNECTION_LIMIT_INFO (http.h)
 author: windows-sdk-content
 description: Used to set or query the limit on the maximum number of outstanding connections for a URL Group.
 old-location: http\http_connection_limit_info.htm

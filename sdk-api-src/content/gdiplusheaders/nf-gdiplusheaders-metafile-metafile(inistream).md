@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN IStream)
-title: Metafile::Metafile(IN IStream)
+title: Metafile::Metafile(IN IStream) (gdiplusheaders.h)
 author: windows-sdk-content
 description: Creates a Metafile::Metafile object from an IStream interface for playback.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_stream_.htm

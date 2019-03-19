@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.CreateThresholdAction
-title: IFsrmQuotaBase::CreateThresholdAction
+title: IFsrmQuotaBase::CreateThresholdAction (fsrmquota.h)
 author: windows-sdk-content
 description: Creates an action and associates it with the specified threshold.
 old-location: fsrm\ifsrmquotabase_createthresholdaction.htm

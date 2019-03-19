@@ -1,6 +1,6 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.OnUserAuthenticationFailed
-title: ITSGAuthenticateUserSink::OnUserAuthenticationFailed
+title: ITSGAuthenticateUserSink::OnUserAuthenticationFailed (tsgauthenticationengine.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in failed to authenticate the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticationfailed.htm

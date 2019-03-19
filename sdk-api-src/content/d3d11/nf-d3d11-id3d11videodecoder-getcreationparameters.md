@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoder.GetCreationParameters
-title: ID3D11VideoDecoder::GetCreationParameters
+title: ID3D11VideoDecoder::GetCreationParameters (d3d11.h)
 author: windows-sdk-content
 description: Gets the parameters that were used to create the decoder.
 old-location: mf\id3d11videodecoder_getcreationparameters.htm

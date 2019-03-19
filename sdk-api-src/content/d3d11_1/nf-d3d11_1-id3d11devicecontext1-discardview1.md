@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.DiscardView1
-title: ID3D11DeviceContext1::DiscardView1
+title: ID3D11DeviceContext1::DiscardView1 (d3d11_1.h)
 author: windows-sdk-content
 description: Discards the specified elements in a resource view from the device context.
 old-location: direct3d11\id3d11devicecontext1_discardview1.htm

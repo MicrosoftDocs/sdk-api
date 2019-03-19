@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.Execute
-title: IExecuteCommand::Execute
+title: IExecuteCommand::Execute (shobjidl_core.h)
 author: windows-sdk-content
 description: Invoke the verb on the selected items. Call this method after you have called the other methods of this interface.
 old-location: shell\IExecuteCommand_Execute.htm

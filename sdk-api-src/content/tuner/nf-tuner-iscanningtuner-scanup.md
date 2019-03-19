@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IScanningTuner.ScanUp
-title: IScanningTuner::ScanUp
+title: IScanningTuner::ScanUp (tuner.h)
 author: windows-sdk-content
 description: The ScanUp method changes the channel to the next higher channel with valid programming, pauses for the specified number of milliseconds, then repeats until canceled.
 old-location: mstv\iscanningtuner_scanup.htm

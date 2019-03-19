@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMBYTEN4
-title: XMBYTEN4
+title: XMBYTEN4 (directxpackedvector.h)
 author: windows-sdk-content
 description: A 3D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
 old-location: dxmath\xmbyten4.htm

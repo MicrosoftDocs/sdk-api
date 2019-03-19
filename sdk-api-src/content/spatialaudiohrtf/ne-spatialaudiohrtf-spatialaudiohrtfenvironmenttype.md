@@ -1,6 +1,6 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfEnvironmentType
-title: SpatialAudioHrtfEnvironmentType
+title: SpatialAudioHrtfEnvironmentType (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Specifies the type of acoustic environment that is simulated when audio is processed for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfenvironmenttype.htm

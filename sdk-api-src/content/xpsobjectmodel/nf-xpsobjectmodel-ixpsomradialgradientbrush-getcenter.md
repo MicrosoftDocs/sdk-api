@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetCenter
-title: IXpsOMRadialGradientBrush::GetCenter
+title: IXpsOMRadialGradientBrush::GetCenter (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the center point of the radial gradient region ellipse.
 old-location: xps\ixpsomradialgradientbrush_getcenter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:msctf.ITfCompartmentMgr
-title: ITfCompartmentMgr
+title: ITfCompartmentMgr (msctf.h)
 author: windows-sdk-content
 description: The ITfCompartmentMgr interface is implemented by the TSF manager and used by clients (applications and text services) to obtain and manipulate TSF compartments.
 old-location: tsf\itfcompartmentmgr.htm

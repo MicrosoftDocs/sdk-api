@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.get_HashAlgorithm
-title: ICertSrvSetupKeyInformation::get_HashAlgorithm
+title: ICertSrvSetupKeyInformation::get_HashAlgorithm (casetup.h)
 author: windows-sdk-content
 description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm

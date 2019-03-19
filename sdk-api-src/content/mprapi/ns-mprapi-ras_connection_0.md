@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_CONNECTION_0
-title: RAS_CONNECTION_0
+title: RAS_CONNECTION_0 (mprapi.h)
 author: windows-sdk-content
 description: The RAS_CONNECTION_0 structure contains general information regarding a specific connection, such as user name or domain. For more detailed information about a specific connection, such as bytes sent or received, see RAS_CONNECTION_1.
 old-location: rras\ras_connection_0.htm

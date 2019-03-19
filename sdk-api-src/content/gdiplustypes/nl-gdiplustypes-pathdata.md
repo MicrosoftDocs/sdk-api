@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplustypes.PathData
-title: PathData
+title: PathData (gdiplustypes.h)
 author: windows-sdk-content
 description: The PathData class is a helper class for the GraphicsPath and GraphicsPathIterator classes.
 old-location: gdiplus\_gdiplus_CLASS_PathData_Class.htm

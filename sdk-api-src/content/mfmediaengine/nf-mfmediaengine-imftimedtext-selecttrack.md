@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SelectTrack
-title: IMFTimedText::SelectTrack
+title: IMFTimedText::SelectTrack (mfmediaengine.h)
 author: windows-sdk-content
 description: Selects or deselects a track of text in the timed-text component.
 old-location: mf\imftimedtext_selecttrack.htm

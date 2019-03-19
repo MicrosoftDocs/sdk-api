@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMKEY
-title: NMKEY
+title: NMKEY (commctrl.h)
 author: windows-sdk-content
 description: Contains information used with key notification messages.
 old-location: controls\NMKEY.htm

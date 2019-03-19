@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_TEXCUBE_ARRAY_SRV
-title: D3D12_TEXCUBE_ARRAY_SRV
+title: D3D12_TEXCUBE_ARRAY_SRV (d3d12.h)
 author: windows-sdk-content
 description: Describes the subresources from an array of cube textures to use in a shader-resource view.
 old-location: direct3d12\d3d12_texcube_array_srv.htm

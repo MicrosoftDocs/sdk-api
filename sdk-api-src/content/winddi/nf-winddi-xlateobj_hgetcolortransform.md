@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.XLATEOBJ_hGetColorTransform
-title: XLATEOBJ_hGetColorTransform function
+title: XLATEOBJ_hGetColorTransform function (winddi.h)
 author: windows-sdk-content
 description: The XLATEOBJ_hGetColorTransform function returns the color transform for the specified translation object.
 old-location: display\xlateobj_hgetcolortransform.htm

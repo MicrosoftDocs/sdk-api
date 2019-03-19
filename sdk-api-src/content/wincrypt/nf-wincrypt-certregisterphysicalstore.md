@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertRegisterPhysicalStore
-title: CertRegisterPhysicalStore function
+title: CertRegisterPhysicalStore function (wincrypt.h)
 author: windows-sdk-content
 description: Adds a physical store to a registry system store collection.
 old-location: security\certregisterphysicalstore.htm

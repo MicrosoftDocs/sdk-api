@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStreamEx
-title: ILLoadFromStreamEx function
+title: ILLoadFromStreamEx function (shlobj_core.h)
 author: windows-sdk-content
 description: This function may be altered or unavailable.
 old-location: shell\ILLoadFromStreamEx_IStream_PIDLIST_ABSOLUTE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalManager2.GetPluggableSuperclasses
-title: ITTerminalManager2::GetPluggableSuperclasses
+title: ITTerminalManager2::GetPluggableSuperclasses (termmgr.h)
 author: windows-sdk-content
 description: The GetPluggableSuperclasses method gets the public CLSIDs for all pluggable terminal superclasses in the registry.
 old-location: tapi3\itterminalmanager2_getpluggablesuperclasses.htm

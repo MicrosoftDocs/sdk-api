@@ -1,6 +1,6 @@
 ---
 UID: NE:objidlbase._APTTYPEQUALIFIER
-title: APTTYPEQUALIFIER
+title: APTTYPEQUALIFIER (objidlbase.h)
 author: windows-sdk-content
 description: Specifies the set of possible COM apartment type qualifiers.
 old-location: com\apttypequalifier.htm

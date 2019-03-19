@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext3.CreateSpriteBatch
-title: ID2D1DeviceContext3::CreateSpriteBatch
+title: ID2D1DeviceContext3::CreateSpriteBatch (d2d1_3.h)
 author: windows-sdk-content
 description: Creates a new, empty sprite batch. After creating a sprite batch, use ID2D1SpriteBatch::AddSprites to add sprites to it, then use ID2D1DeviceContext3::DrawSpriteBatch to draw it.
 old-location: direct2d\id2d1devicecontext3_createspritebatch.htm

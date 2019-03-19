@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IComThreadingInfo.GetCurrentThreadType
-title: IComThreadingInfo::GetCurrentThreadType
+title: IComThreadingInfo::GetCurrentThreadType (objidlbase.h)
 author: windows-sdk-content
 description: Retrieves the type of thread in which the caller is executing.
 old-location: com\icomthreadinginfo_getcurrentthreadtype.htm

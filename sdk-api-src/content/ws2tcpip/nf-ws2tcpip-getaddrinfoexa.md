@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExA
-title: GetAddrInfoExA function
+title: GetAddrInfoExA function (ws2tcpip.h)
 author: windows-sdk-content
 description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 old-location: winsock\getaddrinfoex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesSuspend
-title: IOfflineFilesSuspend
+title: IOfflineFilesSuspend (cscobj.h)
 author: windows-sdk-content
 description: Suspends or releases a share root or directory tree in the Offline Files cache.
 old-location: of\iofflinefilessuspend.htm

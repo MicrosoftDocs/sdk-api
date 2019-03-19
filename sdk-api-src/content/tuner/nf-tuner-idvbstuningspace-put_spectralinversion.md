@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_SpectralInversion
-title: IDVBSTuningSpace::put_SpectralInversion
+title: IDVBSTuningSpace::put_SpectralInversion (tuner.h)
 author: windows-sdk-content
 description: The put_SpectralInversion method sets a value indicating the spectral inversion.
 old-location: mstv\idvbstuningspace_put_spectralinversion.htm

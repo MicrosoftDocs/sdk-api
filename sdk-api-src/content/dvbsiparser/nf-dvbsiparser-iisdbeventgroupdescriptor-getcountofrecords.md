@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetCountOfRecords
-title: IIsdbEventGroupDescriptor::GetCountOfRecords
+title: IIsdbEventGroupDescriptor::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of event records from an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getcountofrecords.htm

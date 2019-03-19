@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
-title: CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO
+title: CMSG_RECIPIENT_ENCRYPTED_KEY_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information on a message receiver used to decrypt the session key needed to decrypt the message contents.
 old-location: security\cmsg_recipient_encrypted_key_encode_info.htm

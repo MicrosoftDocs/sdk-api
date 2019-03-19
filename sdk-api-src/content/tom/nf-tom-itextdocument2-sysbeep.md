@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.SysBeep
-title: ITextDocument2::SysBeep
+title: ITextDocument2::SysBeep (tom.h)
 author: windows-sdk-content
 description: Generates a system beep.
 old-location: controls\itextdocument2_sysbeep.htm

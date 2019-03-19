@@ -1,6 +1,6 @@
 ---
 UID: NF:dsgetdc.DsGetDcSiteCoverageA
-title: DsGetDcSiteCoverageA function
+title: DsGetDcSiteCoverageA function (dsgetdc.h)
 author: windows-sdk-content
 description: The DsGetDcSiteCoverage function returns the site names of all sites covered by a domain controller.
 old-location: ad\dsgetdcsitecoverage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileFromToken
-title: SymGetSourceFileFromToken function
+title: SymGetSourceFileFromToken function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves the source file associated with the specified token from the source server.
 old-location: base\symgetsourcefilefromtoken.htm

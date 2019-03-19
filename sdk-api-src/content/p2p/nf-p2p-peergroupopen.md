@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupOpen
-title: PeerGroupOpen function
+title: PeerGroupOpen function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupOpen function opens a peer group that a peer has created or joined. After a peer group is opened, the peer can register for event notifications.
 old-location: p2p\peergroupopen.htm

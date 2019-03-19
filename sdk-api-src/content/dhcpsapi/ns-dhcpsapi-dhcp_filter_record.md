@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_RECORD
-title: DHCP_FILTER_RECORD
+title: DHCP_FILTER_RECORD (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains information for a specific link-layer filter.
 old-location: dhcp\dhcp_filter_record.htm

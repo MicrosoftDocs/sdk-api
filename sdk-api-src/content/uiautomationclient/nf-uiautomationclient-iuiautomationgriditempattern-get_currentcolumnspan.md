@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentColumnSpan
-title: IUIAutomationGridItemPattern::get_CurrentColumnSpan
+title: IUIAutomationGridItemPattern::get_CurrentColumnSpan (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the number of columns spanned by the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentColumnSpan.htm

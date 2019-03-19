@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HIGHLIGHTSANDSHADOWS_PROP
-title: D2D1_HIGHLIGHTSANDSHADOWS_PROP
+title: D2D1_HIGHLIGHTSANDSHADOWS_PROP (d2d1effects_2.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Highlights and Shadows effect.
 old-location: direct2d\d2d1_highlightsandshadows_prop.htm

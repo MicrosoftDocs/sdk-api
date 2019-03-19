@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SecPkgContext_CipherInfo
-title: SecPkgContext_CipherInfo
+title: SecPkgContext_CipherInfo (schannel.h)
 author: windows-sdk-content
 description: Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the QueryContextAttributes (Schannel) function.
 old-location: security\secpkgcontext_cipherinfo.htm

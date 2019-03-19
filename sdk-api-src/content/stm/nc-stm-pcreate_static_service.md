@@ -1,6 +1,6 @@
 ---
 UID: NC:stm.PCREATE_STATIC_SERVICE
-title: PCREATE_STATIC_SERVICE
+title: PCREATE_STATIC_SERVICE (stm.h)
 author: windows-sdk-content
 description: The CreateStaticService function adds a static service to the table.
 old-location: rras\createstaticservice.htm

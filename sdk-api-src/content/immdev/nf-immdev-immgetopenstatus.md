@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetOpenStatus
-title: ImmGetOpenStatus function
+title: ImmGetOpenStatus function (immdev.h)
 author: windows-sdk-content
 description: Determines whether the IME is open or closed.
 old-location: intl\immgetopenstatus.htm

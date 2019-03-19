@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCreateStdEnumFmtEtc
-title: SHCreateStdEnumFmtEtc function
+title: SHCreateStdEnumFmtEtc function (shlobj_core.h)
 author: windows-sdk-content
 description: SHCreateStdEnumFmtEtc may be altered or unavailable.
 old-location: shell\SHCreateStdEnumFmtEtc.htm

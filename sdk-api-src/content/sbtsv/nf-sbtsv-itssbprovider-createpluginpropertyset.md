@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreatePluginPropertySet
-title: ITsSbProvider::CreatePluginPropertySet
+title: ITsSbProvider::CreatePluginPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Creates an ITsSbPluginPropertySet plug-in property set object.
 old-location: termserv\itssbprovider_createpluginpropertyset.htm

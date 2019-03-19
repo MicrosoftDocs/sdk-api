@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectRasterizerVariable
-title: ID3D10EffectRasterizerVariable
+title: ID3D10EffectRasterizerVariable (d3d10effect.h)
 author: windows-sdk-content
 description: A rasterizer-variable interface accesses rasterizer state.
 old-location: direct3d10\id3d10effectrasterizervariable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntrySet
-title: MprAdminMIBEntrySet function
+title: MprAdminMIBEntrySet function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminMIBEntrySet function sets the value of one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentryset.htm

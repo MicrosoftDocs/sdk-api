@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.CreatePropertyStore
-title: ITfCreatePropertyStore::CreatePropertyStore
+title: ITfCreatePropertyStore::CreatePropertyStore (msctf.h)
 author: windows-sdk-content
 description: ITfCreatePropertyStore::CreatePropertyStore method
 old-location: tsf\itfcreatepropertystore_createpropertystore.htm

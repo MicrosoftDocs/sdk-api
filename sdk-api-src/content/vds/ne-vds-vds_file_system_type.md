@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_FILE_SYSTEM_TYPE
-title: VDS_FILE_SYSTEM_TYPE
+title: VDS_FILE_SYSTEM_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid types for a file system.
 old-location: base\vds_file_system_type.htm

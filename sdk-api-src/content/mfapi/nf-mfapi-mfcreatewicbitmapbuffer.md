@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateWICBitmapBuffer
-title: MFCreateWICBitmapBuffer function
+title: MFCreateWICBitmapBuffer function (mfapi.h)
 author: windows-sdk-content
 description: Creates a media buffer object that manages a Windows Imaging Component (WIC).
 old-location: mf\mfcreatewicbitmapbuffer.htm

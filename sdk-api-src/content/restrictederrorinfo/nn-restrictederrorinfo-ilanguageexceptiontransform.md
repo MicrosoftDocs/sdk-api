@@ -1,6 +1,6 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionTransform
-title: ILanguageExceptionTransform
+title: ILanguageExceptionTransform (restrictederrorinfo.h)
 author: windows-sdk-content
 description: Allows language projections to make available to the system any and all context from an exception that gets thrown from the context of a catch handler that catches a different exception.
 old-location: winrt\ilanguageexceptiontransform.htm

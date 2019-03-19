@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_HitTest
-title: ListView_HitTest macro
+title: ListView_HitTest macro (commctrl.h)
 author: windows-sdk-content
 description: Determines which list-view item, if any, is at a specified position. You can use this macro or send the LVM_HITTEST message explicitly.
 old-location: controls\ListView_HitTest.htm

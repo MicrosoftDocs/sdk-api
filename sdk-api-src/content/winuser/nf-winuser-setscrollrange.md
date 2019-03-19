@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetScrollRange
-title: SetScrollRange function
+title: SetScrollRange function (winuser.h)
 author: windows-sdk-content
 description: The SetScrollRange function sets the minimum and maximum scroll box positions for the specified scroll bar.
 old-location: controls\SetScrollRange.htm

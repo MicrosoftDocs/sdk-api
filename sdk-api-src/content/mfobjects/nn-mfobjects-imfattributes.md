@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFAttributes
-title: IMFAttributes
+title: IMFAttributes (mfobjects.h)
 author: windows-sdk-content
 description: Provides a generic way to store key/value pairs on an object.
 old-location: mf\imfattributes.htm

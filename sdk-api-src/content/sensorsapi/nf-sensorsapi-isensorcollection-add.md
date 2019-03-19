@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Add
-title: ISensorCollection::Add
+title: ISensorCollection::Add (sensorsapi.h)
 author: windows-sdk-content
 description: Adds a sensor to the collection.
 old-location: winsensors_com_ref\isensorcollection_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetStart
-title: ITextStoreAnchor::GetStart
+title: ITextStoreAnchor::GetStart (textstor.h)
 author: windows-sdk-content
 description: The ITextStoreAnchor::GetStart method returns an anchor positioned at the start of the text stream.
 old-location: tsf\itextstoreanchor_getstart.htm

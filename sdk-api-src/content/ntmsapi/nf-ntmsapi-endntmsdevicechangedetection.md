@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.EndNtmsDeviceChangeDetection
-title: EndNtmsDeviceChangeDetection function
+title: EndNtmsDeviceChangeDetection function (ntmsapi.h)
 author: windows-sdk-content
 description: The EndNtmsDeviceChangeDetection function ends device change detection for any target devices specified using the SetNtmsDeviceChangeDetection function and closes the change detection handle.
 old-location: fs\endntmsdevicechangedetection.htm

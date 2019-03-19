@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.GetFile
-title: IVssWMComponent::GetFile
+title: IVssWMComponent::GetFile (vsbackup.h)
 author: windows-sdk-content
 description: The GetFile method obtains a file descriptor associated with a file group.
 old-location: base\ivsswmcomponent_getfile.htm

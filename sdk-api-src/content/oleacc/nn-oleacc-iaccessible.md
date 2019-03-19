@@ -1,6 +1,6 @@
 ---
 UID: NN:oleacc.IAccessible
-title: IAccessible
+title: IAccessible (oleacc.h)
 author: windows-sdk-content
 description: Exposes methods and properties that make a user interface element and its children accessible to client applications.
 old-location: winauto\iaccessible.htm

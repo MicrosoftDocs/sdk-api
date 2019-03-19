@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_3
-title: EXP_SPECIAL_FOLDER
+title: EXP_SPECIAL_FOLDER (shlobj_core.h)
 author: windows-sdk-content
 description: Holds an extra data block used by IShellLinkDataList. It holds special folder information.
 old-location: shell\EXP_SPECIAL_FOLDER_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.ISchemaProvider
-title: ISchemaProvider
+title: ISchemaProvider (structuredquery.h)
 author: windows-sdk-content
 description: Provides a schema repository that can be browsed.
 old-location: search\_search_ISchemaProvider.htm

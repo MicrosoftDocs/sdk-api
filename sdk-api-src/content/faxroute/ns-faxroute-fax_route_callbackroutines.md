@@ -1,6 +1,6 @@
 ---
 UID: NS:faxroute._FAX_ROUTE_CALLBACKROUTINES
-title: FAX_ROUTE_CALLBACKROUTINES
+title: FAX_ROUTE_CALLBACKROUTINES (faxroute.h)
 author: windows-sdk-content
 description: The FAX_ROUTE_CALLBACKROUTINES structure contains pointers to callback functions the fax service provides.
 old-location: fax\_mfax_fax_route_callbackroutines_str.htm

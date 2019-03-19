@@ -1,6 +1,6 @@
 ---
 UID: NE:certenroll.X509PrivateKeyExportFlags
-title: X509PrivateKeyExportFlags
+title: X509PrivateKeyExportFlags (certenroll.h)
 author: windows-sdk-content
 description: Specifies the export policy for a private key.
 old-location: security\x509privatekeyexportflags.htm

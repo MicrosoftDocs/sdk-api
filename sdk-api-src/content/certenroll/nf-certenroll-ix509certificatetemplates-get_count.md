@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.get_Count
-title: IX509CertificateTemplates::get_Count
+title: IX509CertificateTemplates::get_Count (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the number of IX509CertificateTemplate objects in the collection.
 old-location: security\ix509certificatetemplates_count.htm

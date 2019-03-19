@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IMemoryData.GetInfo
-title: IMemoryData::GetInfo
+title: IMemoryData::GetInfo (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves information describing an audio data object.
 old-location: dshow\imemorydata_getinfo.htm

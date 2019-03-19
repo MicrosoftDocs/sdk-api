@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
-title: IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
+title: IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize (vsmgmt.h)
 author: windows-sdk-content
 description: Updates the shadow copy storage area maximum size for a certain volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize.htm

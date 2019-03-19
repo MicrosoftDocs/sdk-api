@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMasterVolume
-title: IMFSimpleAudioVolume::GetMasterVolume
+title: IMFSimpleAudioVolume::GetMasterVolume (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the master volume level.
 old-location: mf\imfsimpleaudiovolume_getmastervolume.htm

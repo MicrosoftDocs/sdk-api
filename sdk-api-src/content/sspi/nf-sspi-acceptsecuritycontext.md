@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.AcceptSecurityContext
-title: AcceptSecurityContext function
+title: AcceptSecurityContext function (sspi.h)
 author: windows-sdk-content
 description: Lets the server component of a transport application establish a security context between the server and a remote client.
 old-location: security\acceptsecuritycontext__credssp_.htm

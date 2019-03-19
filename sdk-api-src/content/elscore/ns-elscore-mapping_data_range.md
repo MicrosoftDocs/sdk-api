@@ -1,6 +1,6 @@
 ---
 UID: NS:elscore._MAPPING_DATA_RANGE
-title: MAPPING_DATA_RANGE
+title: MAPPING_DATA_RANGE (elscore.h)
 author: windows-sdk-content
 description: Contains text recognition results for a recognized text subrange. An array of structures of this type is retrieved by an Extended Linguistic Services (ELS) service in a MAPPING_PROPERTY_BAG structure.
 old-location: intl\mappingdatarange.htm

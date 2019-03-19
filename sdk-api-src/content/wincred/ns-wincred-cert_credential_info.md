@@ -1,6 +1,6 @@
 ---
 UID: NS:wincred._CERT_CREDENTIAL_INFO
-title: CERT_CREDENTIAL_INFO
+title: CERT_CREDENTIAL_INFO (wincred.h)
 author: windows-sdk-content
 description: The CERT_CREDENTIAL_INFO structure contains a reference to a certificate.
 old-location: security\cert_credential_info.htm

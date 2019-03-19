@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteProperty
-title: IContactProperties::DeleteProperty
+title: IContactProperties::DeleteProperty (icontact.h)
 author: windows-sdk-content
 description: Deletes the value at a specified property. Property modification and version data can still be enumerated with IContactPropertyCollection.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteProperty.htm

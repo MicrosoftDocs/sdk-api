@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_fullScreen
-title: IWMPPlayer::get_fullScreen
+title: IWMPPlayer::get_fullScreen (wmp.h)
 author: windows-sdk-content
 description: The get_fullScreen method retrieves a value indicating whether video content is played back in full-screen mode.
 old-location: wmp\iwmpplayer_get_fullscreen.htm

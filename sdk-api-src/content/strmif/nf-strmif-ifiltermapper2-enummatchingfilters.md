@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterMapper2.EnumMatchingFilters
-title: IFilterMapper2::EnumMatchingFilters
+title: IFilterMapper2::EnumMatchingFilters (strmif.h)
 author: windows-sdk-content
 description: The EnumMatchingFilters method enumerates registered filters that meet specified requirements.
 old-location: dshow\ifiltermapper2_enummatchingfilters.htm

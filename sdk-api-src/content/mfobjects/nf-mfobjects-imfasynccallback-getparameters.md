@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallback.GetParameters
-title: IMFAsyncCallback::GetParameters
+title: IMFAsyncCallback::GetParameters (mfobjects.h)
 author: windows-sdk-content
 description: Provides configuration information to the dispatching thread for a callback.
 old-location: mf\imfasynccallback_getparameters.htm

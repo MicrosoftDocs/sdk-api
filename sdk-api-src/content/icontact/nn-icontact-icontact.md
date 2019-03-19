@@ -1,6 +1,6 @@
 ---
 UID: NN:icontact.IContact
-title: IContact
+title: IContact (icontact.h)
 author: windows-sdk-content
 description: Do not use. Defines methods for reading and writing properties for a single contact.
 old-location: wincontacts\_wincontacts_IContact.htm

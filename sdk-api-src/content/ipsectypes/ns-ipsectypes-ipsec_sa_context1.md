@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CONTEXT1_
-title: IPSEC_SA_CONTEXT1
+title: IPSEC_SA_CONTEXT1 (ipsectypes.h)
 author: windows-sdk-content
 description: Encapsulates an inbound and outbound security association (SA) pair.
 old-location: fwp\ipsec_sa_context1.htm

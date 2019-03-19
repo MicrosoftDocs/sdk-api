@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_SourcePath
-title: IMessageMover::get_SourcePath
+title: IMessageMover::get_SourcePath (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the current path of the source (input) queue.
 old-location: cos\imessagemover_get_sourcepath.htm

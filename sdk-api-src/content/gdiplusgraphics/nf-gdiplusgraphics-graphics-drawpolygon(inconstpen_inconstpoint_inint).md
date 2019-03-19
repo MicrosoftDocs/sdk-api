@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPolygon(IN const Pen,IN const Point,IN INT)
-title: Graphics::DrawPolygon(IN const Pen,IN const Point,IN INT)
+title: Graphics::DrawPolygon(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawPolygon method draws a polygon.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPolygon_Pen_pen_Point_points_INT_count_.htm

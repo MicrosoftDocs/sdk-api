@@ -1,6 +1,6 @@
 ---
 UID: NF:lzexpand.LZSeek
-title: LZSeek function
+title: LZSeek function (lzexpand.h)
 author: windows-sdk-content
 description: Moves a file pointer the specified number of bytes from a starting position.
 old-location: fs\lzseek.htm

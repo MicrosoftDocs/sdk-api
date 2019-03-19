@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt.__unnamed_enum_2
-title: POWER_ACTION
+title: POWER_ACTION (winnt.h)
 author: windows-sdk-content
 description: Defines values that are used to specify system power action types.
 old-location: base\power_action.htm

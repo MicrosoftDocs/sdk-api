@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbnailstreamcache.IThumbnailStreamCache.GetThumbnailStream
-title: IThumbnailStreamCache::GetThumbnailStream
+title: IThumbnailStreamCache::GetThumbnailStream (thumbnailstreamcache.h)
 author: windows-sdk-content
 description: Gets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache_getthumbnailstream.htm

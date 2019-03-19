@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMPlaneFromPointNormal
-title: XMPlaneFromPointNormal function
+title: XMPlaneFromPointNormal function (directxmath.h)
 author: windows-sdk-content
 description: Computes the equation of a plane constructed from a point in the plane and a normal vector.
 old-location: dxmath\xmplanefrompointnormal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.SetDiacriticSensitivity
-title: ISearchLanguageSupport::SetDiacriticSensitivity
+title: ISearchLanguageSupport::SetDiacriticSensitivity (searchapi.h)
 author: windows-sdk-content
 description: Sets a value that indicates whether an implemented ISearchLanguageSupport interface is sensitive to diacritics. A diacritic is an accent mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchLanguageSupport_SetDiacriticSensitivity.htm

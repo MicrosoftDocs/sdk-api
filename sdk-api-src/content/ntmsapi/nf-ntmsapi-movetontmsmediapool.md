@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.MoveToNtmsMediaPool
-title: MoveToNtmsMediaPool function
+title: MoveToNtmsMediaPool function (ntmsapi.h)
 author: windows-sdk-content
 description: The MoveToNtmsMediaPool function moves the specified medium from its current media pool to the specified media pool.
 old-location: fs\movetontmsmediapool.htm

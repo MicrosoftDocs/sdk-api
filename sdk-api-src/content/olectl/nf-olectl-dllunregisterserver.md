@@ -1,6 +1,6 @@
 ---
 UID: NF:olectl.DllUnregisterServer
-title: DllUnregisterServer function
+title: DllUnregisterServer function (olectl.h)
 author: windows-sdk-content
 description: Instructs an in-process server to remove only those entries created through DllRegisterServer.
 old-location: com\dllunregisterserver.htm

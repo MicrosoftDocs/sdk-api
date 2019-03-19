@@ -1,6 +1,6 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_SETTING_VALUE_TYPE
-title: OFFLINEFILES_SETTING_VALUE_TYPE
+title: OFFLINEFILES_SETTING_VALUE_TYPE (cscobj.h)
 author: windows-sdk-content
 description: Identifies the data type returned by the IOfflineFilesSetting::GetValueType method.
 old-location: of\offlinefiles_setting_value_type.htm

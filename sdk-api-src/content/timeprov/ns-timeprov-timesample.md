@@ -1,6 +1,6 @@
 ---
 UID: NS:timeprov.TimeSample
-title: TimeSample
+title: TimeSample (timeprov.h)
 author: windows-sdk-content
 description: Represents a time sample.
 old-location: base\timesample_str.htm

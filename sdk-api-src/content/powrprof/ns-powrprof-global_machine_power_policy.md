@@ -1,6 +1,6 @@
 ---
 UID: NS:powrprof._GLOBAL_MACHINE_POWER_POLICY
-title: GLOBAL_MACHINE_POWER_POLICY
+title: GLOBAL_MACHINE_POWER_POLICY (powrprof.h)
 author: windows-sdk-content
 description: Contains global computer power policy settings that apply to all power schemes for all users.
 old-location: base\global_machine_power_policy_str.htm

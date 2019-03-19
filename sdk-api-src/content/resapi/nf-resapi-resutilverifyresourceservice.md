@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilVerifyResourceService
-title: ResUtilVerifyResourceService function
+title: ResUtilVerifyResourceService function (resapi.h)
 author: windows-sdk-content
 description: Verifies that a named service is starting or currently running. The PRESUTIL_VERIFY_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilverifyresourceservice.htm

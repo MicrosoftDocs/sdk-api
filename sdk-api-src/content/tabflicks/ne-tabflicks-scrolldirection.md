@@ -1,6 +1,6 @@
 ---
 UID: NE:tabflicks.SCROLLDIRECTION
-title: SCROLLDIRECTION
+title: SCROLLDIRECTION (tabflicks.h)
 author: windows-sdk-content
 description: Defines the direction of the scrolling command for a pen flick.
 old-location: tablet\scrolldirection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessOutput
-title: IMFDeviceTransform::ProcessOutput
+title: IMFDeviceTransform::ProcessOutput (mftransform.h)
 author: windows-sdk-content
 description: The ProcessOutput method gets the processed output from the Device MFT output streams.
 old-location: stream\imfdevicetransform_processoutput.htm

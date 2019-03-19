@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayGetElement
-title: SafeArrayGetElement function
+title: SafeArrayGetElement function (oleauto.h)
 author: windows-sdk-content
 description: Retrieves a single element of the array.
 old-location: automat\safearraygetelement.htm

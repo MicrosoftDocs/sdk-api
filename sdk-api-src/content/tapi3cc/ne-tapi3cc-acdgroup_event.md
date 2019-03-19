@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3cc.ACDGROUP_EVENT
-title: ACDGROUP_EVENT
+title: ACDGROUP_EVENT (tapi3cc.h)
 author: windows-sdk-content
 description: The ACDGROUP_EVENT enum describes ACD group events. The ITACDGroupEvent::get_Event method returns a member of this enum to indicate the type of ACD group event that occurred.
 old-location: tapi3\acdgroup_event.htm

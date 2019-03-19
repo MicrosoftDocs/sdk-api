@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._GROUP_USERS_INFO_0
-title: GROUP_USERS_INFO_0
+title: GROUP_USERS_INFO_0 (lmaccess.h)
 author: windows-sdk-content
 description: The GROUP_USERS_INFO_0 structure contains global group member information.
 old-location: netmgmt\group_users_info_0_str.htm

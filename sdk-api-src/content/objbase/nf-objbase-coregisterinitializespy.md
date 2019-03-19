@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoRegisterInitializeSpy
-title: CoRegisterInitializeSpy function
+title: CoRegisterInitializeSpy function (objbase.h)
 author: windows-sdk-content
 description: Registers an implementation of the IInitializeSpy interface. The IInitializeSpy interface is defied to allow developers to perform initialization and cleanup on COM apartments.
 old-location: com\coregisterinitializespy.htm

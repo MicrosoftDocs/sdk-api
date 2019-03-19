@@ -1,6 +1,6 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_PROCESS_2
-title: PRADIUS_EXTENSION_PROCESS_2
+title: PRADIUS_EXTENSION_PROCESS_2 (authif.h)
 author: windows-sdk-content
 description: An application defined-function and is called by NPS for each authentication or accounting packet that NPS receives.
 old-location: nps\IAS_radiusextensionprocess2.htm

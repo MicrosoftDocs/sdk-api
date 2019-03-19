@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTSLISTENERCONFIGA
-title: WTSLISTENERCONFIGA
+title: WTSLISTENERCONFIGA (wtsapi32.h)
 author: windows-sdk-content
 description: Contains information about a Remote Desktop Services listener.
 old-location: termserv\wtslistenerconfig.htm

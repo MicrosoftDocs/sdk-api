@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleClientSite.RequestNewObjectLayout
-title: IOleClientSite::RequestNewObjectLayout
+title: IOleClientSite::RequestNewObjectLayout (oleidl.h)
 author: windows-sdk-content
 description: Asks a container to resize the display site for embedded objects.
 old-location: com\ioleclientsite_requestnewobjectlayout.htm

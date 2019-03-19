@@ -1,6 +1,6 @@
 ---
 UID: NS:mmreg.wavefilter_tag
-title: WAVEFILTER
+title: WAVEFILTER (mmreg.h)
 author: windows-sdk-content
 description: The WAVEFILTER structure defines a filter for waveform-audio data.
 old-location: multimedia\wavefilter.htm

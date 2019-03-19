@@ -1,6 +1,6 @@
 ---
 UID: NC:richedit.EDITSTREAMCALLBACK
-title: EDITSTREAMCALLBACK
+title: EDITSTREAMCALLBACK (richedit.h)
 author: windows-sdk-content
 description: The EditStreamCallback function is an application defined callback function used with the EM_STREAMIN and EM_STREAMOUT messages.
 old-location: controls\EditStreamCallback.htm

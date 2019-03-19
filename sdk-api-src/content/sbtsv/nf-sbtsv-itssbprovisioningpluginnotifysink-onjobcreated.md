@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnJobCreated
-title: ITsSbProvisioningPluginNotifySink::OnJobCreated
+title: ITsSbProvisioningPluginNotifySink::OnJobCreated (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a provisioning job is created.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcreated.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaQueryTrustedDomainInfo
-title: LsaQueryTrustedDomainInfo function
+title: LsaQueryTrustedDomainInfo function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaQueryTrustedDomainInfo function retrieves information about a trusted domain.
 old-location: security\lsaquerytrusteddomaininfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetDC
-title: IDirectDrawSurface7::GetDC
+title: IDirectDrawSurface7::GetDC (ddraw.h)
 author: windows-sdk-content
 description: Creates a GDI-compatible handle of a device context for this surface.
 old-location: directdraw\idirectdrawsurface7_getdc.htm

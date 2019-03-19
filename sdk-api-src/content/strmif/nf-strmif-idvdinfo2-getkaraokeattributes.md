@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetKaraokeAttributes
-title: IDvdInfo2::GetKaraokeAttributes
+title: IDvdInfo2::GetKaraokeAttributes (strmif.h)
 author: windows-sdk-content
 description: The GetKaraokeAttributes method retrieves the karaoke attributes of the specified audio stream in the current title or menu.
 old-location: dshow\idvdinfo2_getkaraokeattributes.htm

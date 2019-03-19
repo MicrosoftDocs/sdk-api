@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_LIST_TRANSACTIONS
-title: TXFS_LIST_TRANSACTIONS
+title: TXFS_LIST_TRANSACTIONS (winioctl.h)
 author: windows-sdk-content
 description: Contains a list of transactions.
 old-location: fs\txfs_list_transactions.htm

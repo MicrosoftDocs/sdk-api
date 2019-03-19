@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_SetElevationRequiredState
-title: Button_SetElevationRequiredState macro
+title: Button_SetElevationRequiredState macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the BCM_SETSHIELD message explicitly.
 old-location: controls\Button_SetElevationRequiredState.htm

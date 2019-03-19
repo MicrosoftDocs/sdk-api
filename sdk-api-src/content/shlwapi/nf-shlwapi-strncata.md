@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrNCatA
-title: StrNCatA function
+title: StrNCatA function (shlwapi.h)
 author: windows-sdk-content
 description: Appends a specified number of characters from the beginning of one string to the end of another.
 old-location: shell\StrNCat.htm

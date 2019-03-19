@@ -1,6 +1,6 @@
 ---
 UID: NS:winwlx._WLX_MPR_NOTIFY_INFO
-title: WLX_MPR_NOTIFY_INFO
+title: WLX_MPR_NOTIFY_INFO (winwlx.h)
 author: windows-sdk-content
 description: Provides identification and authentication information to network providers.
 old-location: security\wlx_mpr_notify_info.htm

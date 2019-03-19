@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.GetWidowControl
-title: ITextPara::GetWidowControl
+title: ITextPara::GetWidowControl (tom.h)
 author: windows-sdk-content
 description: Retrieves the widow and orphan control state for the paragraphs in a range.
 old-location: controls\ITextPara_GetWidowControl.htm

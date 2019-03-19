@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_LongestTimeToAnswer
-title: ITAgentSession::get_LongestTimeToAnswer
+title: ITAgentSession::get_LongestTimeToAnswer (tapi3cc.h)
 author: windows-sdk-content
 description: The get_LongestTimeToAnswer method gets the longest time (in seconds) a call was waiting to be answered.
 old-location: tapi3\itagentsession_get_longesttimetoanswer.htm

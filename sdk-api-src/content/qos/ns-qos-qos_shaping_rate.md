@@ -1,6 +1,6 @@
 ---
 UID: NS:qos._QOS_SHAPING_RATE
-title: QOS_SHAPING_RATE
+title: QOS_SHAPING_RATE (qos.h)
 author: windows-sdk-content
 description: The QOS object QOS_SHAPING_RATE specifies the uniform traffic shaping rate be applied to a given flow.
 old-location: qos\qos_shaping_rate.htm

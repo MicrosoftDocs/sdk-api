@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.InvalidateName
-title: InvalidateName function
+title: InvalidateName function (filehc.h)
 author: windows-sdk-content
 description: Enables the user to remove a single name and all associated data from the name cache.
 old-location: winprog\_invalidatename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.IsInPlaceModificationAllowed
-title: IMILBitmapEffectImpl::IsInPlaceModificationAllowed
+title: IMILBitmapEffectImpl::IsInPlaceModificationAllowed (mileffects.h)
 author: windows-sdk-content
 description: Determines whether the effect allows in-place modifications.
 old-location: wibe\_wibe_imilbitmapeffectimpl_isinplacemodificationallowed.htm

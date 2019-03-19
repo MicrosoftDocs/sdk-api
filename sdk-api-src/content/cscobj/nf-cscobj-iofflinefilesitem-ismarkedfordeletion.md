@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.IsMarkedForDeletion
-title: IOfflineFilesItem::IsMarkedForDeletion
+title: IOfflineFilesItem::IsMarkedForDeletion (cscobj.h)
 author: windows-sdk-content
 description: Determines whether an item has been deleted from the Offline Files cache.
 old-location: of\iofflinefilesitem_ismarkedfordeletion.htm

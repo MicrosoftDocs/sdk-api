@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get_Item
-title: IFsrmCollection::get_Item
+title: IFsrmCollection::get_Item (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the requested item from the collection.
 old-location: fsrm\ifsrmcollection_item.htm

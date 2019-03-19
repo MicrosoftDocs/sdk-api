@@ -1,6 +1,6 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_CONTROL
-title: LPDHCP_CONTROL
+title: LPDHCP_CONTROL (dhcpssdk.h)
 author: windows-sdk-content
 description: The DhcpControlHook function is called by Microsoft DHCP Server when the DHCP Server service is started, stopped, paused, or continued.
 old-location: dhcp\dhcpcontrolhook.htm

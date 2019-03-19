@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumContextProps.Reset
-title: IEnumContextProps::Reset
+title: IEnumContextProps::Reset (objidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumcontextprops_reset.htm

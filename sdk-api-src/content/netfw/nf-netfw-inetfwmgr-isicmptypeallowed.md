@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwMgr.IsIcmpTypeAllowed
-title: INetFwMgr::IsIcmpTypeAllowed
+title: INetFwMgr::IsIcmpTypeAllowed (netfw.h)
 author: windows-sdk-content
 description: Determines whether the specified ICMP type is allowed.
 old-location: ics\inetfwmgr_isicmptypeallowed.htm

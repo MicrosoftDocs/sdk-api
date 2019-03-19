@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowRgn
-title: GetWindowRgn function
+title: GetWindowRgn function (winuser.h)
 author: windows-sdk-content
 description: The GetWindowRgn function obtains a copy of the window region of a window.
 old-location: gdi\getwindowrgn.htm

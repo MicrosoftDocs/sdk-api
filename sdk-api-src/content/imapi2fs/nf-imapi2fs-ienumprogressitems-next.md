@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Next
-title: IEnumProgressItems::Next
+title: IEnumProgressItems::Next (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a specified number of items in the enumeration sequence.
 old-location: imapi\ienumprogressitems_next.htm

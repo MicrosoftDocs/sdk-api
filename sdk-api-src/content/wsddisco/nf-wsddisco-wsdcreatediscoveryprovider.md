@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryProvider
-title: WSDCreateDiscoveryProvider function
+title: WSDCreateDiscoveryProvider function (wsddisco.h)
 author: windows-sdk-content
 description: Creates an IWSDiscoveryProvider object.
 old-location: ncd\wsdcreatediscoveryprovider_func.htm

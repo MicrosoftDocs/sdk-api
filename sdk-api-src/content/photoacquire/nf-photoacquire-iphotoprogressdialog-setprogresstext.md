@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetProgressText
-title: IPhotoProgressDialog::SetProgressText
+title: IPhotoProgressDialog::SetProgressText (photoacquire.h)
 author: windows-sdk-content
 description: The SetProgressText method sets the text for the progress bar in the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setprogresstext.htm

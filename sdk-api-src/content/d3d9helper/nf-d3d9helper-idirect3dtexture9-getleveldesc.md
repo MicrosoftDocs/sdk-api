@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DTexture9.GetLevelDesc
-title: IDirect3DTexture9::GetLevelDesc
+title: IDirect3DTexture9::GetLevelDesc (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves a level description of a texture resource.
 old-location: direct3d9\idirect3dtexture9__getleveldesc.htm

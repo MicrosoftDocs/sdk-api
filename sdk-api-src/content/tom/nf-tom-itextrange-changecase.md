@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.ChangeCase
-title: ITextRange::ChangeCase
+title: ITextRange::ChangeCase (tom.h)
 author: windows-sdk-content
 description: Changes the case of letters in this range according to the Type parameter.
 old-location: controls\ITextRange_ChangeCase.htm

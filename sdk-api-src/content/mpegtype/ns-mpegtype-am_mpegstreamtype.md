@@ -1,6 +1,6 @@
 ---
 UID: NS:mpegtype.tagAM_MPEGSTREAMTYPE
-title: AM_MPEGSTREAMTYPE
+title: AM_MPEGSTREAMTYPE (mpegtype.h)
 author: windows-sdk-content
 description: The AM_MPEGSTREAMTYPE structure defines the media type for an MPEG-1 program stream.
 old-location: dshow\am_mpegstreamtype.htm

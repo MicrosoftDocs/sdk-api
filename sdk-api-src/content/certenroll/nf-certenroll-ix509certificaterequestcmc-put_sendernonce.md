@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_SenderNonce
-title: IX509CertificateRequestCmc::put_SenderNonce
+title: IX509CertificateRequestCmc::put_SenderNonce (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a byte array that contains a nonce.
 old-location: security\ix509certificaterequestcmc_sendernonce_property.htm

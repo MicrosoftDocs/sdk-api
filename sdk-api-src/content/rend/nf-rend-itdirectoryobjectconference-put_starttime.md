@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_StartTime
-title: ITDirectoryObjectConference::put_StartTime
+title: ITDirectoryObjectConference::put_StartTime (rend.h)
 author: windows-sdk-content
 description: The put_StartTime method sets the start time of the conference.
 old-location: tapi3\itdirectoryobjectconference_put_starttime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.ChapterPlayAutoStop
-title: IDvdControl::ChapterPlayAutoStop
+title: IDvdControl::ChapterPlayAutoStop (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Instructs the DVD player to start playing at the specified chapter within the specified title and play the number of chapters specified.
 old-location: dshow\idvdcontrol_chapterplayautostop.htm

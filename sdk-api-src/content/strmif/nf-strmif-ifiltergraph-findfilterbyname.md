@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.FindFilterByName
-title: IFilterGraph::FindFilterByName
+title: IFilterGraph::FindFilterByName (strmif.h)
 author: windows-sdk-content
 description: The FindFilterByName method finds a filter that was added to the filter graph with a specific name.
 old-location: dshow\ifiltergraph_findfilterbyname.htm

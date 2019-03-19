@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_BufferingTime
-title: IAMNetShowConfig::put_BufferingTime
+title: IAMNetShowConfig::put_BufferingTime (qnetwork.h)
 author: windows-sdk-content
 description: The put_BufferingTime method specifies the buffering time.
 old-location: dshow\iamnetshowconfig_put_bufferingtime.htm

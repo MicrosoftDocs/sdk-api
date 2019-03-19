@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgi.DXGI_OUTPUT_DESC
-title: DXGI_OUTPUT_DESC
+title: DXGI_OUTPUT_DESC (dxgi.h)
 author: windows-sdk-content
 description: Describes an output or physical connection between the adapter (video card) and a device.
 old-location: direct3ddxgi\dxgi_output_desc.htm

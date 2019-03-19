@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_BLEND_MODE
-title: D2D1_BLEND_MODE
+title: D2D1_BLEND_MODE (d2d1effects.h)
 author: windows-sdk-content
 description: The blend mode used for the Blend effect.
 old-location: direct2d\d2d1_blend_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.ResetDevice
-title: IMFDXGIDeviceManager::ResetDevice
+title: IMFDXGIDeviceManager::ResetDevice (mfobjects.h)
 author: windows-sdk-content
 description: Sets the Microsoft Direct3D device or notifies the device manager that the Direct3D device was reset.
 old-location: mf\imfdxgidevicemanager_resetdevice.htm

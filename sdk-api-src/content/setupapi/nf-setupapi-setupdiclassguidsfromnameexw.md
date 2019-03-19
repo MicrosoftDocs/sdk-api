@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiClassGuidsFromNameExW
-title: SetupDiClassGuidsFromNameExW function
+title: SetupDiClassGuidsFromNameExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiClassGuidsFromNameEx function retrieves the GUIDs associated with the specified class name. This resulting list contains the classes currently installed on a local or remote computer.
 old-location: devinst\setupdiclassguidsfromnameex.htm

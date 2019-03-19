@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.QueryCurrentDefault
-title: IApplicationAssociationRegistration::QueryCurrentDefault
+title: IApplicationAssociationRegistration::QueryCurrentDefault (shobjidl_core.h)
 author: windows-sdk-content
 description: Determines the default application for a given association type. This is the default application launched by ShellExecute for that type. Not intended for use in Windows 8.
 old-location: shell\IApplicationAssociationRegistration_QueryCurrentDefault.htm

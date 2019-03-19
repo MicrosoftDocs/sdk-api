@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONSTRAINTS
-title: WS_SECURITY_CONSTRAINTS
+title: WS_SECURITY_CONSTRAINTS (webservices.h)
 author: windows-sdk-content
 description: This structure specifies the security related constraints as part of WS_POLICY_CONSTRAINTS.
 old-location: wsw\ws_security_constraints.htm

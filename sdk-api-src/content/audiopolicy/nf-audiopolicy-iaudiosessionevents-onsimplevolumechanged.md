@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnSimpleVolumeChanged
-title: IAudioSessionEvents::OnSimpleVolumeChanged
+title: IAudioSessionEvents::OnSimpleVolumeChanged (audiopolicy.h)
 author: windows-sdk-content
 description: The OnSimpleVolumeChanged method notifies the client that the volume level or muting state of the audio session has changed.
 old-location: coreaudio\iaudiosessionevents_onsimplevolumechanged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2TransformCoord
-title: XMVector2TransformCoord function
+title: XMVector2TransformCoord function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a 2D vector by a given matrix, projecting the result back into w = 1.
 old-location: dxmath\xmvector2transformcoord.htm

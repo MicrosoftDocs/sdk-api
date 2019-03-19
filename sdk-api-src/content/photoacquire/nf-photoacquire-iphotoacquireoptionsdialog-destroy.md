@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Destroy
-title: IPhotoAcquireOptionsDialog::Destroy
+title: IPhotoAcquireOptionsDialog::Destroy (photoacquire.h)
 author: windows-sdk-content
 description: The Destroy method closes and destroys the modeless dialog box created with the Create method.
 old-location: picacq\iphotoacquireoptionsdialog_destroy.htm

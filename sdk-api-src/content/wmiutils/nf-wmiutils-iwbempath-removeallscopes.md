@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.RemoveAllScopes
-title: IWbemPath::RemoveAllScopes
+title: IWbemPath::RemoveAllScopes (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::RemoveAllScopes method removes all scopes from the path.
 old-location: wmi\iwbempath_removeallscopes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetNapStatus
-title: RasGetNapStatus function
+title: RasGetNapStatus function (ras.h)
 author: windows-sdk-content
 description: Retrieves the Network Access Protection (NAP) connection state variables for a given remote access connection.
 old-location: rras\rasgetnapstatus.htm

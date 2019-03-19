@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceruntime.IWorkspace.StartRemoteApplication
-title: IWorkspace::StartRemoteApplication
+title: IWorkspace::StartRemoteApplication (workspaceruntime.h)
 author: windows-sdk-content
 description: Starts a RemoteApp program.
 old-location: termserv\iworkspace_startremoteapplication.htm

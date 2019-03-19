@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIpStatisticsEx
-title: GetIpStatisticsEx function
+title: GetIpStatisticsEx function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIpStatisticsEx function retrieves the Internet Protocol (IP) statistics for the current computer.
 old-location: iphlp\getipstatisticsex.htm

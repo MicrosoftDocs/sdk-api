@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_EnrollmentContext
-title: IX509CertificateRequest::get_EnrollmentContext
+title: IX509CertificateRequest::get_EnrollmentContext (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies whether the certificate is intended for a computer or a user.
 old-location: security\ix509certificaterequest_enrollmentcontext_property.htm

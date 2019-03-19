@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.BitrateToStepNumber
-title: IMFASFStreamSelector::BitrateToStepNumber
+title: IMFASFStreamSelector::BitrateToStepNumber (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the index of a bandwidth step that is appropriate for a specified bit rate. This method is used for multiple bit rate (MBR) content.
 old-location: mf\imfasfstreamselector_bitratetostepnumber.htm

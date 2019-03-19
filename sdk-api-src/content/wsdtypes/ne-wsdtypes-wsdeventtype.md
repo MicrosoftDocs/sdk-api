@@ -1,6 +1,6 @@
 ---
 UID: NE:wsdtypes._WSDEventType
-title: WSDEventType
+title: WSDEventType (wsdtypes.h)
 author: windows-sdk-content
 description: Identifies the type of event produced by the session layer.
 old-location: ncd\wsdeventtype_enum.htm

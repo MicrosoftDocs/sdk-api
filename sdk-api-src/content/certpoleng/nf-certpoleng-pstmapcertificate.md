@@ -1,6 +1,6 @@
 ---
 UID: NF:certpoleng.PstMapCertificate
-title: PstMapCertificate function
+title: PstMapCertificate function (certpoleng.h)
 author: windows-sdk-content
 description: Retrieves a structure that specifies information that can be used to create a user token associated with the specified certificate.
 old-location: security\pstmapcertificate.htm

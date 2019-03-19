@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmGetRouteInfo
-title: RtmGetRouteInfo function
+title: RtmGetRouteInfo function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmGetRouteInfo function returns information for the specified route.
 old-location: rras\rtmgetrouteinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.RemoveClientCertificate
-title: IBackgroundCopyJobHttpOptions::RemoveClientCertificate
+title: IBackgroundCopyJobHttpOptions::RemoveClientCertificate (bits2_5.h)
 author: windows-sdk-content
 description: Removes the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_removeclientcertificate.htm

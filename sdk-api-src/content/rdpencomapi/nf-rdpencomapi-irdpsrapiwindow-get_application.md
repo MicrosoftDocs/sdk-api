@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Application
-title: IRDPSRAPIWindow::get_Application
+title: IRDPSRAPIWindow::get_Application (rdpencomapi.h)
 author: windows-sdk-content
 description: Returns a pointer to the application object that the window belongs to.
 old-location: rdp\irdpsrapiwindow_application.htm

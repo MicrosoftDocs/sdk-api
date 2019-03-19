@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MajorBuild
-title: IFaxInboundRoutingExtension::get_MajorBuild
+title: IFaxInboundRoutingExtension::get_MajorBuild (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_MajorBuild property is a value that specifies the major part of the build number for the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorbuild_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.StopEffect
-title: IDirectInputEffectDriver::StopEffect
+title: IDirectInputEffectDriver::StopEffect (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::StopEffect method halts the playback of an effect.
 old-location: hid\idirectinputeffectdriver_stopeffect.htm

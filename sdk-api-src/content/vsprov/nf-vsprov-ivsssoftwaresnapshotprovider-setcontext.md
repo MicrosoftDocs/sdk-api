@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.SetContext
-title: IVssSoftwareSnapshotProvider::SetContext
+title: IVssSoftwareSnapshotProvider::SetContext (vsprov.h)
 author: windows-sdk-content
 description: Sets the context for subsequent shadow copy-related operations.
 old-location: base\ivsssoftwaresnapshotprovider_setcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetLastErrorRecord
-title: MsiGetLastErrorRecord function
+title: MsiGetLastErrorRecord function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetLastErrorRecord function returns the error record that was last returned for the calling process. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetlasterrorrecord.htm

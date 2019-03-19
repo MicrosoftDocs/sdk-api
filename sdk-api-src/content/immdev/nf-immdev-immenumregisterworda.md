@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmEnumRegisterWordA
-title: ImmEnumRegisterWordA function
+title: ImmEnumRegisterWordA function (immdev.h)
 author: windows-sdk-content
 description: Enumerates the register strings having the specified reading string, style, and register string.
 old-location: intl\immenumregisterword.htm

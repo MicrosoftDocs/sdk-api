@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.UpdateCommands
-title: ID2D1SvgPathData::UpdateCommands
+title: ID2D1SvgPathData::UpdateCommands (d2d1svg.h)
 author: windows-sdk-content
 description: Updates the commands array. Existing commands not updated by this method are preserved. The array is resized larger if necessary to accomodate the new commands.
 old-location: direct2d\id2d1svgpathdata_updatecommands.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTEndReliableWrite
-title: BluetoothGATTEndReliableWrite function
+title: BluetoothGATTEndReliableWrite function (bluetoothleapis.h)
 author: windows-sdk-content
 description: Specifies the end of reliable writes, and the writes should be committed.
 old-location: bltooth\bluetoothgattendreliablewrite.htm

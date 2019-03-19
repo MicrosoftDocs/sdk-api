@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._FILE_FULL_DIR_INFO
-title: FILE_FULL_DIR_INFO
+title: FILE_FULL_DIR_INFO (winbase.h)
 author: windows-sdk-content
 description: Contains directory information for a file.
 old-location: fs\file_full_dir_info.htm

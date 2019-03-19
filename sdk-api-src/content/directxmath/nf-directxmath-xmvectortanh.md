@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorTanH
-title: XMVectorTanH function
+title: XMVectorTanH function (directxmath.h)
 author: windows-sdk-content
 description: Computes the hyperbolic tangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectortanh.htm

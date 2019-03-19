@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetSymbolicLink
-title: IMFSensorDevice::GetSymbolicLink
+title: IMFSensorDevice::GetSymbolicLink (mfidl.h)
 author: windows-sdk-content
 description: Gets the symbolic link name of the sensor device.
 old-location: mf\imfsensordevice_getsymboliclink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymQueryInlineTrace
-title: SymQueryInlineTrace function
+title: SymQueryInlineTrace function (dbghelp.h)
 author: windows-sdk-content
 description: Queries an inline trace.
 old-location: base\symqueryinlinetrace.htm

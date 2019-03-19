@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.IsFilterValidForReportType
-title: IFsrmReportManager::IsFilterValidForReportType
+title: IFsrmReportManager::IsFilterValidForReportType (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves a value that determines whether a specified report filter is configurable for the specified report type.
 old-location: fsrm\ifsrmreportmanager_isfiltervalidforreporttype.htm

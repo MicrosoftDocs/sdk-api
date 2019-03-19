@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetEnabledXStateFeatures
-title: GetEnabledXStateFeatures function
+title: GetEnabledXStateFeatures function (winbase.h)
 author: windows-sdk-content
 description: Gets a mask of enabled XState features on x86 or x64 processors.
 old-location: base\getenabledxstatefeatures.htm

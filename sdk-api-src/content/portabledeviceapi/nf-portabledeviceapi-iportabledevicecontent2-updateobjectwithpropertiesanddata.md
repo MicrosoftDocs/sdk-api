@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
-title: IPortableDeviceContent2::UpdateObjectWithPropertiesAndData
+title: IPortableDeviceContent2::UpdateObjectWithPropertiesAndData (portabledeviceapi.h)
 author: windows-sdk-content
 description: Updates an object by using properties and data found on the device.
 old-location: wpdsdk\iportabledevicecontent2_updateobjectwithpropertiesanddata.htm

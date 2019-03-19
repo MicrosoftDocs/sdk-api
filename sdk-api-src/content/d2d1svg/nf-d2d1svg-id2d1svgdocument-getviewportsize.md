@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.GetViewportSize
-title: ID2D1SvgDocument::GetViewportSize
+title: ID2D1SvgDocument::GetViewportSize (d2d1svg.h)
 author: windows-sdk-content
 description: Returns the size of the initial viewport.
 old-location: direct2d\id2d1svgdocument_getviewportsize.htm

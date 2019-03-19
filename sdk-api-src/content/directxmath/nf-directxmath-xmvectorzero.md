@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorZero
-title: XMVectorZero function
+title: XMVectorZero function (directxmath.h)
 author: windows-sdk-content
 description: Creates the zero vector.
 old-location: dxmath\xmvectorzero.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnConnectionManagerEvents
-title: IMbnConnectionManagerEvents
+title: IMbnConnectionManagerEvents (mbnapi.h)
 author: windows-sdk-content
 description: This notification interface signals an application about the arrival and removal of IMbnConnection interfaces in the system.
 old-location: mbn\imbnconnectionmanagerevents.htm

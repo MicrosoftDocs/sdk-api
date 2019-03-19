@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportChromakey
-title: IWICBitmapCodecInfo::DoesSupportChromakey
+title: IWICBitmapCodecInfo::DoesSupportChromakey (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a value indicating whether the codec supports chromakeys.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportchromakey.htm

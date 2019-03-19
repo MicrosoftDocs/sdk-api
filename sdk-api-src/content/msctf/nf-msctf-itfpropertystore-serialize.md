@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Serialize
-title: ITfPropertyStore::Serialize
+title: ITfPropertyStore::Serialize (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::Serialize method
 old-location: tsf\itfpropertystore_serialize.htm

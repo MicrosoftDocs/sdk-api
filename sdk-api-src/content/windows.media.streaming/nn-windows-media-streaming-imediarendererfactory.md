@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.streaming.IMediaRendererFactory
-title: IMediaRendererFactory
+title: IMediaRendererFactory (windows.media.streaming.h)
 author: windows-sdk-content
 description: Encapsulates the methods needed to asynchronously create a new instance of an object that implements the IMediaRenderer interface.
 old-location: mediastreaming\imediarendererfactory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetTableDescriptorByTag
-title: IISDB_BIT::GetTableDescriptorByTag
+title: IISDB_BIT::GetTableDescriptorByTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Searches a subtable in for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_gettabledescriptorbytag.htm

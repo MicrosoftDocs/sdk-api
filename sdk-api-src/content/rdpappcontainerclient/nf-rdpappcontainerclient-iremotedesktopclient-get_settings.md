@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.get_Settings
-title: IRemoteDesktopClient::get_Settings
+title: IRemoteDesktopClient::get_Settings (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Retrieves the settings object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_settings.htm

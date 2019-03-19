@@ -1,6 +1,6 @@
 ---
 UID: NF:rtmv2.RtmDeleteNextHop
-title: RtmDeleteNextHop function
+title: RtmDeleteNextHop function (rtmv2.h)
 author: windows-sdk-content
 description: The RtmDeleteNextHop function deletes a next hop from the next-hop list.
 old-location: rras\rtmdeletenexthop.htm

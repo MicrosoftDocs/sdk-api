@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetComment
-title: ISyncMgrSyncItemInfo::GetComment
+title: ISyncMgrSyncItemInfo::GetComment (syncmgr.h)
 author: windows-sdk-content
 description: Gets a string that contains commentary regarding the item.
 old-location: shell\ISyncMgrSyncItemInfo_GetComment.htm

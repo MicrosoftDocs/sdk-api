@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.LdapUTF8ToUnicode
-title: LdapUTF8ToUnicode function
+title: LdapUTF8ToUnicode function (winldap.h)
 author: windows-sdk-content
 description: Used to translate strings for modules that do not have the UTF-8 code page.
 old-location: ldap\ldaputf8tounicode.htm

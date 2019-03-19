@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryDrives
-title: IVdsSubSystem::QueryDrives
+title: IVdsSubSystem::QueryDrives (vds.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the drives in the subsystem.
 old-location: base\ivdssubsystem_querydrives.htm

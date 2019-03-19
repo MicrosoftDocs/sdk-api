@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingSphere.CreateMerged
-title: BoundingSphere::CreateMerged
+title: BoundingSphere::CreateMerged (directxcollision.h)
 author: windows-sdk-content
 description: Creates a BoundingSphere that contains the two specified BoundingSphere objects.
 old-location: dxmath\boundingsphere_createmerged.htm

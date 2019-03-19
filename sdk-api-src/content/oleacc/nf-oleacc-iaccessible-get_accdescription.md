@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.get_accDescription
-title: IAccessible::get_accDescription
+title: IAccessible::get_accDescription (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::get_accDescription method retrieves a string that describes the visual appearance of the specified object. Not all objects have a description.
 old-location: winauto\iaccessible_iaccessible__get_accdescription.htm

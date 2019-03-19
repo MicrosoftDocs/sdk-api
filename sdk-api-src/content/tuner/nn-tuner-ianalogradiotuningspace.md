@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IAnalogRadioTuningSpace
-title: IAnalogRadioTuningSpace
+title: IAnalogRadioTuningSpace (tuner.h)
 author: windows-sdk-content
 description: The IAnalogRadioTuningSpace interface provides methods for getting and setting parameters associated with tuning spaces for analog radio transmissions.
 old-location: mstv\ianalogradiotuningspace.htm

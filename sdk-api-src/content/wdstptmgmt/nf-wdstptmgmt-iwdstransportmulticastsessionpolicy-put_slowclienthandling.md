@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportMulticastSessionPolicy.put_SlowClientHandling
-title: IWdsTransportMulticastSessionPolicy::put_SlowClientHandling
+title: IWdsTransportMulticastSessionPolicy::put_SlowClientHandling (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sets or retrieves a WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE value that indicates the method used by the server to handle clients that are slowing down a multicast transmission.
 old-location: wds\iwdstransportmulticastsessionpolicy_slowclienthandling.htm

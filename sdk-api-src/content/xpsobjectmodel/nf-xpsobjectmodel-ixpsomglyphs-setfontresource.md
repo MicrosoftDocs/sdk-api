@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontResource
-title: IXpsOMGlyphs::SetFontResource
+title: IXpsOMGlyphs::SetFontResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the pointer to the IXpsOMFontResource interface of the font resource object that is required for this text.
 old-location: xps\ixpsomglyphs_setfontresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_GET_CURRENT_RECORD_FN
-title: PIBIO_STORAGE_GET_CURRENT_RECORD_FN
+title: PIBIO_STORAGE_GET_CURRENT_RECORD_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves the contents of the current record in the pipeline result set.
 old-location: secbiomet\storageadaptergetcurrentrecord.htm

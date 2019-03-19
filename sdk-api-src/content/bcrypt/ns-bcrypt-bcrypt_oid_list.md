@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_OID_LIST
-title: BCRYPT_OID_LIST
+title: BCRYPT_OID_LIST (bcrypt.h)
 author: windows-sdk-content
 description: Used to contain a collection of BCRYPT_OID structures. Use this structure with the BCRYPT_HASH_OID_LIST property to retrieve the list of hashing object identifiers (OIDs) that have been encoded by using Distinguished Encoding Rules (DER) encoding.
 old-location: security\bcrypt_oid_list.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_STROKE_VARIATION
-title: DWRITE_PANOSE_STROKE_VARIATION
+title: DWRITE_PANOSE_STROKE_VARIATION (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_STROKE_VARIATION enumeration contains values that specify the relationship between thin and thick stems of text characters.
 old-location: directwrite\dwrite_panose_stroke_variation.htm

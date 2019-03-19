@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_Height
-title: IVideoWindow::put_Height
+title: IVideoWindow::put_Height (control.h)
 author: windows-sdk-content
 description: The put_Height method sets the height of the video window.
 old-location: dshow\ivideowindow_put_height.htm

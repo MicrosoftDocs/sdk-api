@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_IntegerDecode
-title: IMpegAudioDecoder::get_IntegerDecode
+title: IMpegAudioDecoder::get_IntegerDecode (mpegtype.h)
 author: windows-sdk-content
 description: Returns whether the decoder is currently using integer-based decoding as opposed to floating point decoding.
 old-location: dshow\impegaudiodecoder_get_integerdecode.htm

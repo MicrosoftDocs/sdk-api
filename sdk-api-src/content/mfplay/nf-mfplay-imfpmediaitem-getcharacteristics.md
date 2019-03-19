@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetCharacteristics
-title: IMFPMediaItem::GetCharacteristics
+title: IMFPMediaItem::GetCharacteristics (mfplay.h)
 author: windows-sdk-content
 description: Gets various flags that describe the media item.
 old-location: mf\imfpmediaitem_getcharacteristics.htm

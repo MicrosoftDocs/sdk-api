@@ -1,6 +1,6 @@
 ---
 UID: NE:netsh.NS_CMD_FLAGS
-title: NS_CMD_FLAGS
+title: NS_CMD_FLAGS (netsh.h)
 author: windows-sdk-content
 description: Specifies command flags available in NetShell.
 old-location: netshell\ns_cmd_flags.htm

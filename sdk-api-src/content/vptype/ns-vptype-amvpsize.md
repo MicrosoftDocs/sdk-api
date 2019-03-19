@@ -1,6 +1,6 @@
 ---
 UID: NS:vptype._AMVPSIZE
-title: AMVPSIZE
+title: AMVPSIZE (vptype.h)
 author: windows-sdk-content
 description: The AMVPSIZE structure specifies the width and height for a VP image.
 old-location: dshow\amvpsize.htm

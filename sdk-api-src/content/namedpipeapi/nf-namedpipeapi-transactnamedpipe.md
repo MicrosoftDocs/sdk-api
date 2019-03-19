@@ -1,6 +1,6 @@
 ---
 UID: NF:namedpipeapi.TransactNamedPipe
-title: TransactNamedPipe function
+title: TransactNamedPipe function (namedpipeapi.h)
 author: windows-sdk-content
 description: Combines the functions that write a message to and read a message from the specified named pipe into a single network operation.
 old-location: base\transactnamedpipe.htm

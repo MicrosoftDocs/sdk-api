@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IContextProperties
-title: IContextProperties
+title: IContextProperties (comsvcs.h)
 author: windows-sdk-content
 description: Provides access to context object properties.
 old-location: cos\icontextproperties.htm

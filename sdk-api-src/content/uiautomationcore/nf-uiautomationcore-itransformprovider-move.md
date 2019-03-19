@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.Move
-title: ITransformProvider::Move
+title: ITransformProvider::Move (uiautomationcore.h)
 author: windows-sdk-content
 description: Moves the control.
 old-location: winauto\uiauto_ITransformProvider_Move.htm

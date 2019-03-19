@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.TiledResourceBarrier
-title: ID3D11DeviceContext2::TiledResourceBarrier
+title: ID3D11DeviceContext2::TiledResourceBarrier (d3d11_2.h)
 author: windows-sdk-content
 description: Specifies a data access ordering constraint between multiple tiled resources.
 old-location: direct3d11\id3d11devicecontext2_tiledresourcebarrier.htm

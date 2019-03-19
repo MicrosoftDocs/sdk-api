@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsContentElement
-title: IUIAutomationElement::get_CurrentIsContentElement
+title: IUIAutomationElement::get_CurrentIsContentElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element is a content element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsContentElement.htm

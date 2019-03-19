@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcPartUri
-title: IOpcPartUri
+title: IOpcPartUri (msopc.h)
 author: windows-sdk-content
 description: Represents the part name of a part.
 old-location: opc\iopcparturi.htm

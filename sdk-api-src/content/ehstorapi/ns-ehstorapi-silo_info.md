@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorapi._SILO_INFO
-title: SILO_INFO
+title: SILO_INFO (ehstorapi.h)
 author: windows-sdk-content
 description: SILO_INFO structure contains information that identifies and describes the silo.
 old-location: enstor\silo_info.htm

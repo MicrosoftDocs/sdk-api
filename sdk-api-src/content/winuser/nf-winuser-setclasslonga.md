@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetClassLongA
-title: SetClassLongA function
+title: SetClassLongA function (winuser.h)
 author: windows-sdk-content
 description: Replaces the specified 32-bit (long) value at the specified offset into the extra class memory or the WNDCLASSEX structure for the class to which the specified window belongs.
 old-location: winmsg\setclasslong.htm

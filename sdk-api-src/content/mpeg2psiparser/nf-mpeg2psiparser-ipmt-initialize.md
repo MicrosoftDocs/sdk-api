@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.Initialize
-title: IPMT::Initialize
+title: IPMT::Initialize (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The Initialize method initializes the object using captured table section data. This method is called internally by the IAtscPsipParser::GetPMT method, so applications typically should not call it.
 old-location: mstv\ipmt_initialize.htm

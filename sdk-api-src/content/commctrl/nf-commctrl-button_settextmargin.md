@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Button_SetTextMargin
-title: Button_SetTextMargin macro
+title: Button_SetTextMargin macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the margins for drawing text in a button control. You can use this macro or send the BCM_SETTEXTMARGIN message explicitly.
 old-location: controls\Button_SetTextMargin.htm

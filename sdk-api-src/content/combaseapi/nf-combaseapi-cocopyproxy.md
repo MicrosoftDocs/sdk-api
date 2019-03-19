@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoCopyProxy
-title: CoCopyProxy function
+title: CoCopyProxy function (combaseapi.h)
 author: windows-sdk-content
 description: Makes a private copy of the specified proxy.
 old-location: com\cocopyproxy.htm

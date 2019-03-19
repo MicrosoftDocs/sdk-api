@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetAlias
-title: IWSDUdpAddress::GetAlias
+title: IWSDUdpAddress::GetAlias (wsdbase.h)
 author: windows-sdk-content
 description: Gets the alias for the discovery address.
 old-location: ncd\iwsdudpaddress_getalias.htm

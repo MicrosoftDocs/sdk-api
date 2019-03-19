@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_Direction
-title: ITTerminal::get_Direction
+title: ITTerminal::get_Direction (tapi3if.h)
 author: windows-sdk-content
 description: The get_Direction method gets a TERMINAL_DIRECTION descriptor of the media stream direction for the terminal.
 old-location: tapi3\itterminal_get_direction.htm

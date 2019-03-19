@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_PIXEL_GEOMETRY
-title: DWRITE_PIXEL_GEOMETRY
+title: DWRITE_PIXEL_GEOMETRY (dwrite.h)
 author: windows-sdk-content
 description: Represents the internal structure of a device pixel (that is, the physical arrangement of red, green, and blue color components) that is assumed for purposes of rendering text.
 old-location: directwrite\dwrite_pixel_geometry.htm

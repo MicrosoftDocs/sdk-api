@@ -1,6 +1,6 @@
 ---
 UID: NF:srpapi.SrpDoesPolicyAllowAppExecution
-title: SrpDoesPolicyAllowAppExecution function
+title: SrpDoesPolicyAllowAppExecution function (srpapi.h)
 author: windows-sdk-content
 description: Evaluates whether a packaged app will be allowed to execute based on software restriction policies.
 old-location: edp\srpdoespolicyallowappexecution_.htm

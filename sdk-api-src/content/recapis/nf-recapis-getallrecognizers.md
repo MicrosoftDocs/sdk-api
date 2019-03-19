@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.GetAllRecognizers
-title: GetAllRecognizers function
+title: GetAllRecognizers function (recapis.h)
 author: windows-sdk-content
 description: Gets all recognizers.
 old-location: tablet\getallrecognizers.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetThreadContext
-title: GetThreadContext function
+title: GetThreadContext function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the context of the specified thread.
 old-location: base\getthreadcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.GetBufferSize
-title: ITAllocatorProperties::GetBufferSize
+title: ITAllocatorProperties::GetBufferSize (tapi3ds.h)
 author: windows-sdk-content
 description: The GetBufferSize method gets the size of the allocator buffer.
 old-location: tapi3\itallocatorproperties_getbuffersize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetMessageControl
-title: IIsdbCAServiceDescriptor::GetMessageControl
+title: IIsdbCAServiceDescriptor::GetMessageControl (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the delay time, in days, before the automatic entitlement management message (EMM) is displayed from a conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getmessagecontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11PixelShader
-title: ID3D11PixelShader
+title: ID3D11PixelShader (d3d11.h)
 author: windows-sdk-content
 description: A pixel-shader interface manages an executable program (a pixel shader) that controls the pixel-shader stage.
 old-location: direct3d11\id3d11pixelshader.htm

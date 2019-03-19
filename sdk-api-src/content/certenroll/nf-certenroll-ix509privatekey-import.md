@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Import
-title: IX509PrivateKey::Import
+title: IX509PrivateKey::Import (certenroll.h)
 author: windows-sdk-content
 description: Imports an existing private key into a key container within a cryptographic provider.
 old-location: security\ix509privatekey_import_method.htm

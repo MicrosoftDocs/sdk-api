@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.IRQ_Resource_32_s
-title: IRQ_RESOURCE_32
+title: IRQ_RESOURCE_32 (cfgmgr32.h)
 author: windows-sdk-content
 description: The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance.
 old-location: devinst\irq_resource.htm

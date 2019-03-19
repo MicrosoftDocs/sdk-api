@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.GetSnapshotDeviceName
-title: CVssWriter::GetSnapshotDeviceName
+title: CVssWriter::GetSnapshotDeviceName (vswriter.h)
 author: windows-sdk-content
 description: The GetSnapshotDeviceName method returns the name of the device that hosts the shadow copy of the specified volume or file share.
 old-location: base\cvsswriter_getsnapshotdevicename.htm

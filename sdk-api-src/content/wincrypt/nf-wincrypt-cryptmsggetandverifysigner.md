@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptMsgGetAndVerifySigner
-title: CryptMsgGetAndVerifySigner function
+title: CryptMsgGetAndVerifySigner function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptMsgGetAndVerifySigner function verifies a cryptographic message's signature.
 old-location: security\cryptmsggetandverifysigner.htm

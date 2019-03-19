@@ -1,6 +1,6 @@
 ---
 UID: NN:searchapi.IUrlAccessor
-title: IUrlAccessor
+title: IUrlAccessor (searchapi.h)
 author: windows-sdk-content
 description: Provides methods for processing an individual item in a content source whose URL is provided by the gatherer to the filter host.
 old-location: search\_search_IUrlAccessor.htm

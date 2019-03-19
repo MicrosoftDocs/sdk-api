@@ -1,6 +1,6 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.Detach
-title: ISharedBitmap::Detach
+title: ISharedBitmap::Detach (thumbcache.h)
 author: windows-sdk-content
 description: Retrieves the bitmap contained in an ISharedBitmap object, and returns a copy if the contained bitmap resides in shared memory.
 old-location: shell\ISharedBitmap_Detach.htm

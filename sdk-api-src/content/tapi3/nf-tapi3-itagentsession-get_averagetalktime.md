@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_AverageTalkTime
-title: ITAgentSession::get_AverageTalkTime
+title: ITAgentSession::get_AverageTalkTime (tapi3.h)
 author: windows-sdk-content
 description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent).
 old-location: tapi3\itagentsession_get_averagetalktime.htm

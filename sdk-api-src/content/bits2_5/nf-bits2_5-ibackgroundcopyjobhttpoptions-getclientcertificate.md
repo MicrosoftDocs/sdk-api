@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.GetClientCertificate
-title: IBackgroundCopyJobHttpOptions::GetClientCertificate
+title: IBackgroundCopyJobHttpOptions::GetClientCertificate (bits2_5.h)
 author: windows-sdk-content
 description: Retrieves the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_getclientcertificate.htm

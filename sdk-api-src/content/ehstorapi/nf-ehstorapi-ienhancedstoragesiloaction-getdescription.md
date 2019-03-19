@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetDescription
-title: IEnhancedStorageSiloAction::GetDescription
+title: IEnhancedStorageSiloAction::GetDescription (ehstorapi.h)
 author: windows-sdk-content
 description: Returns a descriptive string for the action specified by the IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_getdescription.htm

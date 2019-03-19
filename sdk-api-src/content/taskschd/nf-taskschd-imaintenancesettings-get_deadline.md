@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.get_Deadline
-title: IMaintenanceSettings::get_Deadline
+title: IMaintenanceSettings::get_Deadline (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the amount of time after which the Task scheduler attempts to run the task during emergency Automatic maintenance, if the task failed to complete during regular Automatic maintenance.
 old-location: taskschd\imaintenancesettings_deadline.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsafer._SAFER_URLZONE_IDENTIFICATION
-title: SAFER_URLZONE_IDENTIFICATION
+title: SAFER_URLZONE_IDENTIFICATION (winsafer.h)
 author: windows-sdk-content
 description: Represents a URL zone identification rule.
 old-location: security\safer_urlzone_identification.htm

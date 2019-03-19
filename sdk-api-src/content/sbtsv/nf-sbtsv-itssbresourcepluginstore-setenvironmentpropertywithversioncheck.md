@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
-title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck
+title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck (sbtsv.h)
 author: windows-sdk-content
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversioncheck.htm

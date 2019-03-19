@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.PRIMARYLANGID
-title: PRIMARYLANGID macro
+title: PRIMARYLANGID macro (winnt.h)
 author: windows-sdk-content
 description: Extracts a primary language identifier from a language identifier.
 old-location: intl\primarylangid.htm

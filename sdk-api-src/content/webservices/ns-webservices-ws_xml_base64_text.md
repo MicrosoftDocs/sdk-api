@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_BASE64_TEXT
-title: WS_XML_BASE64_TEXT
+title: WS_XML_BASE64_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents base64 encoded data.
 old-location: wsw\ws_xml_base64_text.htm

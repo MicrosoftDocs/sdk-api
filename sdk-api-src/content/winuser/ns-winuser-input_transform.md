@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagINPUT_TRANSFORM
-title: INPUT_TRANSFORM
+title: INPUT_TRANSFORM (winuser.h)
 author: windows-sdk-content
 description: Defines the matrix that represents a transform on a message consumer.
 old-location: inputmsg\input_transform.htm

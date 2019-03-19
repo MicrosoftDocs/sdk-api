@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectContext.IsCallerInRole
-title: IObjectContext::IsCallerInRole
+title: IObjectContext::IsCallerInRole (comsvcs.h)
 author: windows-sdk-content
 description: Indicates whether the object's direct caller is in a specified role (either directly or as part of a group).
 old-location: cos\iobjectcontext_iscallerinrole.htm

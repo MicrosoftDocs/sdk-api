@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_ObjectDecl
-title: MI_ObjectDecl
+title: MI_ObjectDecl (mi.h)
 author: windows-sdk-content
 description: Contains properties common to the MI_ClassDecl and MI_PropertyDecl structures.
 old-location: wmi_v2\mi_objectdecl.htm

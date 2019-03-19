@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsMaintenance.StartMaintenance
-title: IVdsMaintenance::StartMaintenance
+title: IVdsMaintenance::StartMaintenance (vdshwprv.h)
 author: windows-sdk-content
 description: Starts a maintenance operation.
 old-location: base\ivdsmaintenance_startmaintenance.htm

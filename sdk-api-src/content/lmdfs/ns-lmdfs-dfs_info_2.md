@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_2
-title: DFS_INFO_2
+title: DFS_INFO_2 (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, and number of DFS targets for the root or link.
 old-location: dfs\dfs_info_2_str.htm

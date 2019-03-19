@@ -1,6 +1,6 @@
 ---
 UID: NF:winsxs.IAssemblyCache.CreateAssemblyCacheItem
-title: IAssemblyCache::CreateAssemblyCacheItem
+title: IAssemblyCache::CreateAssemblyCacheItem (winsxs.h)
 author: windows-sdk-content
 description: The CreateAssemblyCacheItem method creates an item in the assembly cache that corresponds to the side-by-side assembly being installed.
 old-location: setup\iassemblycache_createassemblycacheitem.htm

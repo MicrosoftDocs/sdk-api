@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_STORAGESLOTINFORMATION
-title: NTMS_STORAGESLOTINFORMATION
+title: NTMS_STORAGESLOTINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_STORAGESLOTINFORMATION structure defines properties specific to a storage slot object.
 old-location: fs\ntms_storageslotinformation.htm

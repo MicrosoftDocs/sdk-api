@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.UpdateDebugInfoFile
-title: UpdateDebugInfoFile function
+title: UpdateDebugInfoFile function (imagehlp.h)
 author: windows-sdk-content
 description: Uses the specified information to update the corresponding fields in the symbol file.
 old-location: base\updatedebuginfofile.htm

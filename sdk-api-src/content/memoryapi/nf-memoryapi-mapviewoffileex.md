@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.MapViewOfFileEx
-title: MapViewOfFileEx function
+title: MapViewOfFileEx function (memoryapi.h)
 author: windows-sdk-content
 description: Maps a view of a file mapping into the address space of a calling process. A caller can optionally specify a suggested base memory address for the view.
 old-location: base\mapviewoffileex.htm

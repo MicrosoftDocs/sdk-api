@@ -1,6 +1,6 @@
 ---
 UID: NC:wingdi.GOBJENUMPROC
-title: GOBJENUMPROC
+title: GOBJENUMPROC (wingdi.h)
 author: windows-sdk-content
 description: The EnumObjectsProc function is an application-defined callback function used with the EnumObjects function.
 old-location: gdi\enumobjectsproc.htm

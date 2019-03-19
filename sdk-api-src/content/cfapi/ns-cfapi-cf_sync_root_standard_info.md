@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_SYNC_ROOT_STANDARD_INFO
-title: CF_SYNC_ROOT_STANDARD_INFO
+title: CF_SYNC_ROOT_STANDARD_INFO (cfapi.h)
 author: windows-sdk-content
 description: Standard sync root information.
 old-location: cloudapi\cf_sync_root_standard_info.htm

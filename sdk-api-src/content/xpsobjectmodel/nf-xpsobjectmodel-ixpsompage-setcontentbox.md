@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetContentBox
-title: IXpsOMPage::SetContentBox
+title: IXpsOMPage::SetContentBox (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the dimensions of the page's content box.
 old-location: xps\ixpsompage_setcontentbox.htm

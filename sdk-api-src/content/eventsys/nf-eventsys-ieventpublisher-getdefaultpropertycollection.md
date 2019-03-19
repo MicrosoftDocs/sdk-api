@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventPublisher.GetDefaultPropertyCollection
-title: IEventPublisher::GetDefaultPropertyCollection
+title: IEventPublisher::GetDefaultPropertyCollection (eventsys.h)
 author: windows-sdk-content
 description: Creates a collection object that enumerates the properties contained in the property bag associated with the event publisher object.
 old-location: com\ieventpublisher_getdefaultpropertycollection.htm

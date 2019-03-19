@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.ScrollWindowEx
-title: ScrollWindowEx function
+title: ScrollWindowEx function (winuser.h)
 author: windows-sdk-content
 description: The ScrollWindowEx function scrolls the contents of the specified window's client area.
 old-location: controls\ScrollWindowEx.htm

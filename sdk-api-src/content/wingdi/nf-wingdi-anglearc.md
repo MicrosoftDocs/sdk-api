@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.AngleArc
-title: AngleArc function
+title: AngleArc function (wingdi.h)
 author: windows-sdk-content
 description: The AngleArc function draws a line segment and an arc.
 old-location: gdi\anglearc.htm

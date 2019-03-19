@@ -1,6 +1,6 @@
 ---
 UID: NE:bluetoothapis._BLUETOOTH_AUTHENTICATION_REQUIREMENTS
-title: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+title: BLUETOOTH_AUTHENTICATION_REQUIREMENTS (bluetoothapis.h)
 author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration specifies the 'Man in the Middle' protection required for authentication.
 old-location: bluetooth\bluetooth_authentication_requirements.htm

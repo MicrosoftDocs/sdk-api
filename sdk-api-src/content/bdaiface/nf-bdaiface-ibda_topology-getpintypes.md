@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetPinTypes
-title: IBDA_Topology::GetPinTypes
+title: IBDA_Topology::GetPinTypes (bdaiface.h)
 author: windows-sdk-content
 description: The GetPinTypes method retrieves a list of all the pin types in the template topology for this filter and network type.
 old-location: mstv\ibda_topology_getpintypes.htm

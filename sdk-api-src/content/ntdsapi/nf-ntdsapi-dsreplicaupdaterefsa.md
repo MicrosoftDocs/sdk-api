@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaUpdateRefsA
-title: DsReplicaUpdateRefsA function
+title: DsReplicaUpdateRefsA function (ntdsapi.h)
 author: windows-sdk-content
 description: Adds or removes a replication reference for a destination from a source naming context.
 old-location: ad\dsreplicaupdaterefs.htm

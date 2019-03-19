@@ -1,6 +1,6 @@
 ---
 UID: NF:scclient.CSecureChannelClient.Authenticate
-title: CSecureChannelClient::Authenticate
+title: CSecureChannelClient::Authenticate (scclient.h)
 author: windows-sdk-content
 description: The Authenticate method authenticates communication between components to establish trust.
 old-location: wmdm\csecurechannelclient_authenticate.htm

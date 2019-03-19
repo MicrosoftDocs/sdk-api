@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Next
-title: IEnumWorkItems::Next
+title: IEnumWorkItems::Next (mstask.h)
 author: windows-sdk-content
 description: Retrieves the next specified number of tasks in the enumeration sequence.
 old-location: taskschd\ienumworkitems_next.htm

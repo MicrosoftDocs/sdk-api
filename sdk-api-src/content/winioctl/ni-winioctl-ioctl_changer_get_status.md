@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_STATUS
-title: IOCTL_CHANGER_GET_STATUS
+title: IOCTL_CHANGER_GET_STATUS (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the current status of the specified device.
 old-location: base\ioctl_changer_get_status.htm

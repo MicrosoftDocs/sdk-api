@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.SetValue(U,const T &,)
-title: ID2D1Properties::SetValue(U,const T &,)
+title: ID2D1Properties::SetValue(U,const T &,) (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the corresponding property by index. This is a template overload.
 old-location: direct2d\id2d1properties_setvalue2.htm

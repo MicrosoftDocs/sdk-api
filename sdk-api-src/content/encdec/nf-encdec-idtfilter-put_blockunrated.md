@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockUnRated
-title: IDTFilter::put_BlockUnRated
+title: IDTFilter::put_BlockUnRated (encdec.h)
 author: windows-sdk-content
 description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.
 old-location: mstv\idtfilter_put_blockunrated.htm

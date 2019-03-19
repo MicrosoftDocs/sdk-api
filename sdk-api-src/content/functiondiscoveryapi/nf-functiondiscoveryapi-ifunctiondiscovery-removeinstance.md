@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.RemoveInstance
-title: IFunctionDiscovery::RemoveInstance
+title: IFunctionDiscovery::RemoveInstance (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Removes the specified function instance, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_removeinstance_method.htm

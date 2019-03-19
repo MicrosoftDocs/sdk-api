@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.put_FrequencyMapping
-title: IFrequencyMap::put_FrequencyMapping
+title: IFrequencyMap::put_FrequencyMapping (bdaiface.h)
 author: windows-sdk-content
 description: The put_FrequencyMapping method sets the frequency table.
 old-location: mstv\ifrequencymap_put_frequencymapping.htm

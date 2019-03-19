@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetUserDefaultLangID
-title: GetUserDefaultLangID function
+title: GetUserDefaultLangID function (winnls.h)
 author: windows-sdk-content
 description: Returns the language identifier of the Region Format setting for the current user.
 old-location: intl\getuserdefaultlangid.htm

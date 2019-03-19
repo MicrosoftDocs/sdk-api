@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
-title: IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent
+title: IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Handles an event that is raised when the Microsoft UI Automation tree structure has changed.
 old-location: winauto\uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent.htm

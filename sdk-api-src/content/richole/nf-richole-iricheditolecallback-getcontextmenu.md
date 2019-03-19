@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetContextMenu
-title: IRichEditOleCallback::GetContextMenu
+title: IRichEditOleCallback::GetContextMenu (richole.h)
 author: windows-sdk-content
 description: Queries the application for a context menu to use on a right-click event.
 old-location: controls\IRichEditOleCallback_GetContextMenu.htm

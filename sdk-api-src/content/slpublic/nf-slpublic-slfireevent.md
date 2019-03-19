@@ -1,6 +1,6 @@
 ---
 UID: NF:slpublic.SLFireEvent
-title: SLFireEvent function
+title: SLFireEvent function (slpublic.h)
 author: windows-sdk-content
 description: Sends a specified event to a registered listener.
 old-location: security\slfireevent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.GetPartitionFileSystemProperties
-title: IVdsDiskPartitionMF::GetPartitionFileSystemProperties
+title: IVdsDiskPartitionMF::GetPartitionFileSystemProperties (vds.h)
 author: windows-sdk-content
 description: Returns property details about the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemproperties.htm

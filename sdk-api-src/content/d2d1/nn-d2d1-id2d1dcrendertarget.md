@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1DCRenderTarget
-title: ID2D1DCRenderTarget
+title: ID2D1DCRenderTarget (d2d1.h)
 author: windows-sdk-content
 description: Issues drawing commands to a GDI device context.
 old-location: direct2d\ID2D1DCRenderTarget.htm

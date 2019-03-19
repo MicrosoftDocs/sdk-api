@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_90
-title: WS_PARAMETER_TYPE
+title: WS_PARAMETER_TYPE (webservices.h)
 author: windows-sdk-content
 description: The different parameter types.
 old-location: wsw\ws_parameter_type.htm

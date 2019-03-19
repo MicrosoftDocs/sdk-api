@@ -1,6 +1,6 @@
 ---
 UID: NC:richedit.EDITWORDBREAKPROCEX
-title: EDITWORDBREAKPROCEX
+title: EDITWORDBREAKPROCEX (richedit.h)
 author: windows-sdk-content
 description: The EditWordBreakProcEx function is an application defined callback function used with the EM_SETWORDBREAKPROCEX message.
 old-location: controls\EditWordBreakProcEx.htm

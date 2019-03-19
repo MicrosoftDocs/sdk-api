@@ -1,6 +1,6 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyFromIDList
-title: CItemIDFactory::GetPropertyFromIDList
+title: CItemIDFactory::GetPropertyFromIDList (shidfact.h)
 author: windows-sdk-content
 description: Gets a property from the IPropertyStore within the IDList as a variant, using the key.
 old-location: shell\citemidfactory_getpropertyfromidlist_key.htm

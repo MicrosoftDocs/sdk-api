@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserType
-title: IOleObject::GetUserType
+title: IOleObject::GetUserType (oleidl.h)
 author: windows-sdk-content
 description: Retrieves the user-type name of an object for display in user-interface elements such as menus, list boxes, and dialog boxes.
 old-location: com\ioleobject_getusertype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntry
-title: IGPMMigrationTable::GetEntry
+title: IGPMMigrationTable::GetEntry (gpmgmt.h)
 author: windows-sdk-content
 description: The GetEntry method gets the entry in the migration table for a specified source field.
 old-location: gpmc\igpmmigrationtable_getentry.htm

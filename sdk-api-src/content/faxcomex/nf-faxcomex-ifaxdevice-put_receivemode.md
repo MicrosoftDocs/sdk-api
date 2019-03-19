@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.put_ReceiveMode
-title: IFaxDevice::put_ReceiveMode
+title: IFaxDevice::put_ReceiveMode (faxcomex.h)
 author: windows-sdk-content
 description: The ReceiveMode property is a value from the FAX_DEVICE_RECEIVE_MODE_ENUM enumeration that defines the way a device answers an incoming call.
 old-location: fax\_mfax_faxdevice_receivemode_cpp.htm

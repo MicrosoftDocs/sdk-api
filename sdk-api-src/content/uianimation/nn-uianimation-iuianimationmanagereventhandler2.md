@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationManagerEventHandler2
-title: IUIAnimationManagerEventHandler2
+title: IUIAnimationManagerEventHandler2 (uianimation.h)
 author: windows-sdk-content
 description: Defines a method for handling updates to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler2.htm

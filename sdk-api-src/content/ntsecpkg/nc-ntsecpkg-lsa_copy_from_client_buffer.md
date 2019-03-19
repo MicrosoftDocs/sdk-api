@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_COPY_FROM_CLIENT_BUFFER
-title: LSA_COPY_FROM_CLIENT_BUFFER
+title: LSA_COPY_FROM_CLIENT_BUFFER (ntsecpkg.h)
 author: windows-sdk-content
 description: Copies information from the address space of a client process into a buffer in the current process.
 old-location: security\copyfromclientbuffer.htm

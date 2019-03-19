@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeQueryConvInfo
-title: DdeQueryConvInfo function
+title: DdeQueryConvInfo function (ddeml.h)
 author: windows-sdk-content
 description: Retrieves information about a Dynamic Data Exchange (DDE) transaction and about the conversation in which the transaction takes place.
 old-location: dataxchg\ddequeryconvinfo.htm

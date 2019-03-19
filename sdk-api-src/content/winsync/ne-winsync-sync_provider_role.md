@@ -1,6 +1,6 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0001
-title: SYNC_PROVIDER_ROLE
+title: SYNC_PROVIDER_ROLE (winsync.h)
 author: windows-sdk-content
 description: Represents the role of a provider, relative to the other provider in the synchronization session.
 old-location: winsync\sync_provider_role.htm

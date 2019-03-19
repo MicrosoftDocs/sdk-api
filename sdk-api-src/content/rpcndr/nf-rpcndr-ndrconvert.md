@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrConvert
-title: NdrConvert function
+title: NdrConvert function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrConvert function converts the network buffer from the data representation of the sender to the data representation of the receiver if they are different.
 old-location: rpc\ndrconvert.htm

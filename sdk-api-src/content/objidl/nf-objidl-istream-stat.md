@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Stat
-title: IStream::Stat
+title: IStream::Stat (objidl.h)
 author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this stream.
 old-location: stg\istream_stat.htm

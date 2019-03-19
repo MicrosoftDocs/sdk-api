@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser._ICONINFOEXA
-title: ICONINFOEXA
+title: ICONINFOEXA (winuser.h)
 author: windows-sdk-content
 description: Contains information about an icon or a cursor. Extends ICONINFO. Used by GetIconInfoEx.
 old-location: menurc\iconinfoex.htm

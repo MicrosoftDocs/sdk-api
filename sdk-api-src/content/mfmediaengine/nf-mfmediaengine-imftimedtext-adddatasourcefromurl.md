@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.AddDataSourceFromUrl
-title: IMFTimedText::AddDataSourceFromUrl
+title: IMFTimedText::AddDataSourceFromUrl (mfmediaengine.h)
 author: windows-sdk-content
 description: Adds a timed-text data source from the specified URL.
 old-location: mf\imftimedtext_adddatasourcefromurl.htm

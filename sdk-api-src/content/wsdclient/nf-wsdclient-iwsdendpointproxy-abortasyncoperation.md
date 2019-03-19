@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.AbortAsyncOperation
-title: IWSDEndpointProxy::AbortAsyncOperation
+title: IWSDEndpointProxy::AbortAsyncOperation (wsdclient.h)
 author: windows-sdk-content
 description: Aborts a pending asynchronous operation.
 old-location: ncd\iwsdendpointproxy_abortasyncoperation.htm

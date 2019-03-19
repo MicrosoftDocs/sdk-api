@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN
-title: PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN
+title: PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Determines whether the enrollment object is ready to be committed to the pipeline.
 old-location: secbiomet\engineadaptergetenrollmentstatus.htm

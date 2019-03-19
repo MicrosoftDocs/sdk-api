@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioVolumeDuckNotification.OnVolumeDuckNotification
-title: IAudioVolumeDuckNotification::OnVolumeDuckNotification
+title: IAudioVolumeDuckNotification::OnVolumeDuckNotification (audiopolicy.h)
 author: windows-sdk-content
 description: The OnVolumeDuckNotification method sends a notification about a pending system ducking event.
 old-location: coreaudio\iaudiovolumeducknotification_onvolumeducknotification.htm

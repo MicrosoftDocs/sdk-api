@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._CLIPLINE
-title: CLIPLINE
+title: CLIPLINE (winddi.h)
 author: windows-sdk-content
 description: The CLIPLINE structure gives the driver access to a portion of a line between two clip regions used for drawing.
 old-location: display\clipline.htm

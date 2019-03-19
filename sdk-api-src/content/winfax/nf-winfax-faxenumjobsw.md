@@ -1,6 +1,6 @@
 ---
 UID: NF:winfax.FaxEnumJobsW
-title: FaxEnumJobsW function
+title: FaxEnumJobsW function (winfax.h)
 author: windows-sdk-content
 description: The FaxEnumJobs function enumerates all queued and active fax jobs on the fax server to which the client has connected. The function returns detailed information for each fax job to the fax client application.
 old-location: fax\_mfax_faxenumjobs.htm

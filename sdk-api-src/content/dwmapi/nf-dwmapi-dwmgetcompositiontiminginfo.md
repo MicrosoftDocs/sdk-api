@@ -1,6 +1,6 @@
 ---
 UID: NF:dwmapi.DwmGetCompositionTimingInfo
-title: DwmGetCompositionTimingInfo function
+title: DwmGetCompositionTimingInfo function (dwmapi.h)
 author: windows-sdk-content
 description: Retrieves the current composition timing information for a specified window.
 old-location: dwm\dwmgetcompositiontiminginfo.htm

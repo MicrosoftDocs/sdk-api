@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteRole
-title: IAzApplication::DeleteRole
+title: IAzApplication::DeleteRole (azroles.h)
 author: windows-sdk-content
 description: Removes the IAzRole object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleterole.htm

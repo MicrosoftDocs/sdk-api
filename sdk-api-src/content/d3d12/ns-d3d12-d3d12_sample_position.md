@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_SAMPLE_POSITION
-title: D3D12_SAMPLE_POSITION
+title: D3D12_SAMPLE_POSITION (d3d12.h)
 author: windows-sdk-content
 description: Describes a sub-pixel sample position for use with programmable sample positions.
 old-location: direct3d12\d3d12_sample_position.htm

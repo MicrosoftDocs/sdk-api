@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqDone
-title: RpcNsProfileEltInqDone function
+title: RpcNsProfileEltInqDone function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsProfileEltInqDone function deletes the inquiry context for viewing the elements in a profile.
 old-location: rpc\rpcnsprofileeltinqdone.htm

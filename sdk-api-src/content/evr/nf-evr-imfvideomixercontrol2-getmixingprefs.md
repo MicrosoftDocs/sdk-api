@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoMixerControl2.GetMixingPrefs
-title: IMFVideoMixerControl2::GetMixingPrefs
+title: IMFVideoMixerControl2::GetMixingPrefs (evr.h)
 author: windows-sdk-content
 description: Gets the current preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2_getmixingprefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.CreateIpNetEntry2
-title: CreateIpNetEntry2 function
+title: CreateIpNetEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Creates a new neighbor IP address entry on the local computer.
 old-location: iphlp\createipnetentry2.htm

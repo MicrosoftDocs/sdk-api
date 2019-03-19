@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToStrRet
-title: PropVariantToStrRet function
+title: PropVariantToStrRet function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a string from a PROPVARIANT structure and places it into a STRRET structure.
 old-location: properties\PropVariantToStrRet.htm

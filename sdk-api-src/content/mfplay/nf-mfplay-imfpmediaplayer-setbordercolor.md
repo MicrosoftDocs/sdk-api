@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetBorderColor
-title: IMFPMediaPlayer::SetBorderColor
+title: IMFPMediaPlayer::SetBorderColor (mfplay.h)
 author: windows-sdk-content
 description: Sets the color for the video border.
 old-location: mf\imfpmediaplayer_setbordercolor.htm

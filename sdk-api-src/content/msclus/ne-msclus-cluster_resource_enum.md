@@ -1,6 +1,6 @@
 ---
 UID: NE:msclus.CLUSTER_RESOURCE_ENUM
-title: CLUSTER_RESOURCE_ENUM
+title: CLUSTER_RESOURCE_ENUM (msclus.h)
 author: windows-sdk-content
 description: Describes the type of cluster object being enumerated by the ClusterResourceEnum or ClusterResourceOpenEnum functions.
 old-location: mscs\cluster_resource_enum.htm

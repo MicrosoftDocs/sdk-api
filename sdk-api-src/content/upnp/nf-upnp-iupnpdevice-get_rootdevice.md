@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_RootDevice
-title: IUPnPDevice::get_RootDevice
+title: IUPnPDevice::get_RootDevice (upnp.h)
 author: windows-sdk-content
 description: The RootDevice property specifies the topmost device in the device tree. The root device represents a physical object.
 old-location: upnp\iupnpdevice_rootdevice.htm

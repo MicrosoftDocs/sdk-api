@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToString
-title: PropVariantToString function
+title: PropVariantToString function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts a string value from a PROPVARIANT structure.
 old-location: properties\PropVariantToString.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetCapabilities
-title: ISyncMgrSyncItem::GetCapabilities
+title: ISyncMgrSyncItem::GetCapabilities (syncmgr.h)
 author: windows-sdk-content
 description: Gets a set of flags describing the item's defined capabilities.
 old-location: shell\ISyncMgrSyncItem_GetCapabilities.htm

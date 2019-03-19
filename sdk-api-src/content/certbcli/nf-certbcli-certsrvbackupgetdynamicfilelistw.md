@@ -1,6 +1,6 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetDynamicFileListW
-title: CertSrvBackupGetDynamicFileListW function
+title: CertSrvBackupGetDynamicFileListW function (certbcli.h)
 author: windows-sdk-content
 description: Retrieves the list of Certificate Services dynamic file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetdynamicfilelist.htm

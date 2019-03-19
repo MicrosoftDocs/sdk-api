@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.ColorAdjustLuma
-title: ColorAdjustLuma function
+title: ColorAdjustLuma function (shlwapi.h)
 author: windows-sdk-content
 description: Changes the luminance of a RGB value. Hue and saturation are not affected.
 old-location: shell\ColorAdjustLuma.htm

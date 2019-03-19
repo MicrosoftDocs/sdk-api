@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_COMPARISON_FUNC
-title: D3D12_COMPARISON_FUNC
+title: D3D12_COMPARISON_FUNC (d3d12.h)
 author: windows-sdk-content
 description: Specifies comparison options.
 old-location: direct3d12\d3d12_comparison_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11RefDefaultTrackingOptions.SetTrackingOptions
-title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions
+title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
 old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm

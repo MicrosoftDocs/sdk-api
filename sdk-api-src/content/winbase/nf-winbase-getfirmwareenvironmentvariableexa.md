@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableExA
-title: GetFirmwareEnvironmentVariableExA function
+title: GetFirmwareEnvironmentVariableExA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the value of the specified firmware environment variable and its attributes.
 old-location: base\getfirmwareenvironmentvariableex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagCUSTDATAITEM
-title: CUSTDATAITEM
+title: CUSTDATAITEM (oaidl.h)
 author: windows-sdk-content
 description: Represents a custom data item.
 old-location: automat\custdataitem.htm

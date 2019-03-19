@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuItemID
-title: GetMenuItemID function
+title: GetMenuItemID function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the menu item identifier of a menu item located at the specified position in a menu.
 old-location: menurc\getmenuitemid.htm

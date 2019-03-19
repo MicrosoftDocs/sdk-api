@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon.D3D_TESSELLATOR_OUTPUT_PRIMITIVE
-title: D3D_TESSELLATOR_OUTPUT_PRIMITIVE
+title: D3D_TESSELLATOR_OUTPUT_PRIMITIVE (d3dcommon.h)
 author: windows-sdk-content
 description: Output primitive types.
 old-location: direct3d11\d3d11_tessellator_output_primitive.htm

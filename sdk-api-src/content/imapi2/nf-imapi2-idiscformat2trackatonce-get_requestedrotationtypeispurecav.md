@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_RequestedRotationTypeIsPureCAV
-title: IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV
+title: IDiscFormat2TrackAtOnce::get_RequestedRotationTypeIsPureCAV (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the requested rotational-speed control type.
 old-location: imapi\idiscformat2trackatonce_get_requestedrotationtypeispurecav.htm

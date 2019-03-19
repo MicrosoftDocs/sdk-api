@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.POST_UPGRADE_VERSION_INFO
-title: POST_UPGRADE_VERSION_INFO
+title: POST_UPGRADE_VERSION_INFO (resapi.h)
 author: windows-sdk-content
 description: Represents post-upgrade state information for the cluster service.
 old-location: mscs\post_upgrade_version_info.htm

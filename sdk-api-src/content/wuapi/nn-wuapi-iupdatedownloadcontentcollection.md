@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdateDownloadContentCollection
-title: IUpdateDownloadContentCollection
+title: IUpdateDownloadContentCollection (wuapi.h)
 author: windows-sdk-content
 description: Represents a collection of download contents for an update.
 old-location: wua\iupdatedownloadcontentcollection.htm

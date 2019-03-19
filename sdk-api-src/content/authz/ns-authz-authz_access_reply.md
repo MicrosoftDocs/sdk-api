@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_ACCESS_REPLY
-title: AUTHZ_ACCESS_REPLY
+title: AUTHZ_ACCESS_REPLY (authz.h)
 author: windows-sdk-content
 description: Defines an access check reply.
 old-location: security\authz_access_reply.htm

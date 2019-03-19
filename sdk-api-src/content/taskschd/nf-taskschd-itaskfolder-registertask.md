@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolder.RegisterTask
-title: ITaskFolder::RegisterTask
+title: ITaskFolder::RegisterTask (taskschd.h)
 author: windows-sdk-content
 description: Registers (creates) a new task in the folder using XML to define the task.
 old-location: taskschd\itaskfolder_registertask.htm

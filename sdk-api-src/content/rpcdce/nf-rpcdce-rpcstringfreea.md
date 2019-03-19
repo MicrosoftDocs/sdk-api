@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcStringFreeA
-title: RpcStringFreeA function
+title: RpcStringFreeA function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcStringFree function frees a character string allocated by the RPC run-time library.
 old-location: rpc\rpcstringfree.htm

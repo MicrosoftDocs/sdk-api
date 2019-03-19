@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetAutoPlay
-title: IMFMediaEngine::SetAutoPlay
+title: IMFMediaEngine::SetAutoPlay (mfmediaengine.h)
 author: windows-sdk-content
 description: Specifies whether the Media Engine automatically begins playback.
 old-location: mf\imfmediaengine_setautoplay.htm

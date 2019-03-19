@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_EXPORTLOG_FLAGS
-title: EVT_EXPORTLOG_FLAGS
+title: EVT_EXPORTLOG_FLAGS (winevt.h)
 author: windows-sdk-content
 description: Defines values that indicate whether the events come from a channel or log file.
 old-location: wes\evt_exportlog_flags.htm

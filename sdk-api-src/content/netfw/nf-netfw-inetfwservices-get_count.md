@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwServices.get_Count
-title: INetFwServices::get_Count
+title: INetFwServices::get_Count (netfw.h)
 author: windows-sdk-content
 description: Retrieves a read-only element yielding the number of items in the collection.
 old-location: ics\inetfwservices_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.SHCreatePropSheetExtArray
-title: SHCreatePropSheetExtArray function
+title: SHCreatePropSheetExtArray function (shlobj.h)
 author: windows-sdk-content
 description: SHCreatePropSheetExtArray may be altered or unavailable.
 old-location: shell\SHCreatePropSheetExtArray.htm

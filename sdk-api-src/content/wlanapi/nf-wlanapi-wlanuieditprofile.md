@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanUIEditProfile
-title: WlanUIEditProfile function
+title: WlanUIEditProfile function (wlanapi.h)
 author: windows-sdk-content
 description: Displays the wireless profile user interface (UI).
 old-location: nwifi\wlanuieditprofile.htm

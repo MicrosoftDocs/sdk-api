@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICDevelopRaw
-title: IWICDevelopRaw
+title: IWICDevelopRaw (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that provide access to the capabilites of a raw codec format.
 old-location: wic\_wic_codec_iwicdevelopraw.htm

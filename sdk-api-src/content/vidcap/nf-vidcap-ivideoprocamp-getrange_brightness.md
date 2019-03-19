@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Brightness
-title: IVideoProcAmp::getRange_Brightness
+title: IVideoProcAmp::getRange_Brightness (vidcap.h)
 author: windows-sdk-content
 description: The getRange_Brightness method returns the range of brightness settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_brightness.htm

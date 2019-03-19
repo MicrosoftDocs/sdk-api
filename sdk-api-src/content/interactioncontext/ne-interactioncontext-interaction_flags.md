@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.INTERACTION_FLAGS
-title: INTERACTION_FLAGS
+title: INTERACTION_FLAGS (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the state of an interaction.
 old-location: input_intcontext\interaction_flags.htm

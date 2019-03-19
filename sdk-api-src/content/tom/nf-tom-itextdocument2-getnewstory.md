@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetNewStory
-title: ITextDocument2::GetNewStory
+title: ITextDocument2::GetNewStory (tom.h)
 author: windows-sdk-content
 description: Gets a new story.
 old-location: controls\itextdocument2_getnewstory.htm

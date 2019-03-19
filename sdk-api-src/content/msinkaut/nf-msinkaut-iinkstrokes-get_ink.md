@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.get_Ink
-title: IInkStrokes::get_Ink
+title: IInkStrokes::get_Ink (msinkaut.h)
 author: windows-sdk-content
 description: Gets the InkDisp object that contains a collection of strokes.
 old-location: tablet\inkstrokes_ink.htm

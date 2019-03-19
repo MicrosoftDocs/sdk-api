@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_AutoDemodulateEx.get_AuxInputCount
-title: IBDA_AutoDemodulateEx::get_AuxInputCount
+title: IBDA_AutoDemodulateEx::get_AuxInputCount (bdaiface.h)
 author: windows-sdk-content
 description: The get_AuxInputCount method retrieves a count of the number of auxiliary inputs on the demodulator.
 old-location: mstv\ibda_autodemodulateex_get_auxinputcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.Intersect
-title: RectF::Intersect
+title: RectF::Intersect (gdiplustypes.h)
 author: windows-sdk-content
 description: This topic lists the Intersect methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Intersect_Methods.htm

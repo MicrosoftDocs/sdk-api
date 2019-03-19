@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.MAKEIPRANGE
-title: MAKEIPRANGE macro
+title: MAKEIPRANGE macro (commctrl.h)
 author: windows-sdk-content
 description: Packs two byte-values into a single LPARAM suitable for use with the IPM_SETRANGE message.
 old-location: controls\MAKEIPRANGE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptDecodeObject
-title: CryptDecodeObject function
+title: CryptDecodeObject function (wincrypt.h)
 author: windows-sdk-content
 description: The CryptDecodeObject function decodes a structure of the type indicated by the lpszStructType parameter. The use of CryptDecodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptdecodeobject.htm

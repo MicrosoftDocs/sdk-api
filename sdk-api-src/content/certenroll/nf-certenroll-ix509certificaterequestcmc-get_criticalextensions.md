@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_CriticalExtensions
-title: IX509CertificateRequestCmc::get_CriticalExtensions
+title: IX509CertificateRequestCmc::get_CriticalExtensions (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an IObjectIds collection that identifies the version 3 certificate extensions marked as critical.
 old-location: security\ix509certificaterequestcmc_criticalextensions_property.htm

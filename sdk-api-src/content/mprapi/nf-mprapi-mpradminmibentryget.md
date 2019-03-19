@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryGet
-title: MprAdminMIBEntryGet function
+title: MprAdminMIBEntryGet function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminMIBEntryGet function retrieves the value of one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentryget.htm

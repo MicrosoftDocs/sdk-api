@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_LISTENER_PROPERTY
-title: WS_LISTENER_PROPERTY
+title: WS_LISTENER_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a listener specific setting.
 old-location: wsw\ws_listener_property.htm

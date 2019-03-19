@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_TEXT_NODE
-title: WS_XML_TEXT_NODE
+title: WS_XML_TEXT_NODE (webservices.h)
 author: windows-sdk-content
 description: Represents an element, attribute, or CDATA content.
 old-location: wsw\ws_xml_text_node.htm

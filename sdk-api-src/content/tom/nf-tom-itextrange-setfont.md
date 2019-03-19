@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.SetFont
-title: ITextRange::SetFont
+title: ITextRange::SetFont (tom.h)
 author: windows-sdk-content
 description: Sets this range's character attributes to those of the specified ITextFont object.
 old-location: controls\ITextRange_SetFont.htm

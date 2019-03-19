@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectoryObject.GetObjectInformation
-title: IDirectoryObject::GetObjectInformation
+title: IDirectoryObject::GetObjectInformation (iads.h)
 author: windows-sdk-content
 description: The IDirectoryObject::GetObjectInformation method retrieves a pointer to an ADS_OBJECT_INFO structure that contains data regarding the identity and location of a directory service object.
 old-location: adsi\idirectoryobject_getobjectinformation.htm

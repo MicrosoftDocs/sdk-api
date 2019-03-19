@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Retries
-title: IFaxOutgoingQueue::get_Retries
+title: IFaxOutgoingQueue::get_Retries (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingQueue::get_Retries property is a value that indicates the number of times that the fax service attempts to retransmit an outgoing fax when the initial transmission fails.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retries_cpp.htm

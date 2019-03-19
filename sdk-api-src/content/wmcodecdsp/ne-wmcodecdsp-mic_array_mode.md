@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcodecdsp.MIC_ARRAY_MODE
-title: MIC_ARRAY_MODE
+title: MIC_ARRAY_MODE (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies how the voice capture DSP performs microphone array processing. This enumeration is used with the MFPKEY_WMAAECMA_FEATR_MICARR_MODE property.
 old-location: mf\mic_array_modeenumeration.htm

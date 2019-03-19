@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkMousePointer
-title: InkMousePointer
+title: InkMousePointer (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the type of mouse pointer to appear.
 old-location: tablet\inkmousepointer.htm

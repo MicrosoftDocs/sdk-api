@@ -1,6 +1,6 @@
 ---
 UID: NE:dwmapi.DWM_TAB_WINDOW_REQUIREMENTS
-title: DWM_TAB_WINDOW_REQUIREMENTS
+title: DWM_TAB_WINDOW_REQUIREMENTS (dwmapi.h)
 author: windows-sdk-content
 description: Returned by DwmGetUnmetTabRequirements to indicate the requirements needed for a window to put tabs in the application title bar.
 old-location: dwm\dwm_tab_window_requirements.htm

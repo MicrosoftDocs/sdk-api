@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.AddStream
-title: IWMProfile::AddStream
+title: IWMProfile::AddStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The AddStream method adds a stream to the profile by copying the stream configuration details into the profile.
 old-location: wmformat\iwmprofile_addstream.htm

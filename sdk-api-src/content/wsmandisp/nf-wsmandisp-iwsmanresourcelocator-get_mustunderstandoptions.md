@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_MustUnderstandOptions
-title: IWSManResourceLocator::get_MustUnderstandOptions
+title: IWSManResourceLocator::get_MustUnderstandOptions (wsmandisp.h)
 author: windows-sdk-content
 description: Gets or sets the MustUnderstandOptions value for the ResourceLocator object.
 old-location: winrm\iwsmanresourcelocator_mustunderstandoptions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_RoutingString
-title: IFaxStatus::get_RoutingString
+title: IFaxStatus::get_RoutingString (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the RoutingString property for the FaxStatus object of a parent FaxPort object. The RoutingString property is a null-terminated string that contains routing information for inbound fax transmissions that is specific to a fax service provider.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_routingstring_cpp.htm

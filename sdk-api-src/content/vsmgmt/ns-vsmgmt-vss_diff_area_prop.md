@@ -1,6 +1,6 @@
 ---
 UID: NS:vsmgmt._VSS_DIFF_AREA_PROP
-title: VSS_DIFF_AREA_PROP
+title: VSS_DIFF_AREA_PROP (vsmgmt.h)
 author: windows-sdk-content
 description: Describes associations between volumes containing the original file data and volumes containing the shadow copy storage area.
 old-location: base\vss_diff_area_prop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectTechnique
-title: ID3D10EffectTechnique
+title: ID3D10EffectTechnique (d3d10effect.h)
 author: windows-sdk-content
 description: An ID3D10EffectTechnique interface is a collection of passes.
 old-location: direct3d10\id3d10effecttechnique.htm

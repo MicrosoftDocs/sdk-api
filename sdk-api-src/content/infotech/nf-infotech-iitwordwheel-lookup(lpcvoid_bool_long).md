@@ -1,6 +1,6 @@
 ---
 UID: NF:infotech.IITWordWheel.Lookup(LPCVOID,BOOL,LONG)
-title: IITWordWheel::Lookup(LPCVOID,BOOL,LONG)
+title: IITWordWheel::Lookup(LPCVOID,BOOL,LONG) (infotech.h)
 author: windows-sdk-content
 description: Looks up an entry and returns contents in a buffer.
 old-location: htmlhelp\iitwordwheel_lookup1.htm

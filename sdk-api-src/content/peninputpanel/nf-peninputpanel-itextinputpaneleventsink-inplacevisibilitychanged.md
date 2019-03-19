@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceVisibilityChanged
-title: ITextInputPanelEventSink::InPlaceVisibilityChanged
+title: ITextInputPanelEventSink::InPlaceVisibilityChanged (peninputpanel.h)
 author: windows-sdk-content
 description: Occurs when the Tablet PC Input Panel has switched between visible and invisible.
 old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanged.htm

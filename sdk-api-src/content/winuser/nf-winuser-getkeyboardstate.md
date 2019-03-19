@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetKeyboardState
-title: GetKeyboardState function
+title: GetKeyboardState function (winuser.h)
 author: windows-sdk-content
 description: Copies the status of the 256 virtual keys to the specified buffer.
 old-location: inputdev\getkeyboardstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_VideoRendererActive
-title: IMSVidCtl::put_VideoRendererActive
+title: IMSVidCtl::put_VideoRendererActive (msvidctl.h)
 author: windows-sdk-content
 description: The put_VideoRendererActive method specifies the active video renderer.
 old-location: mstv\imsvidctl_put_videorendereractive.htm

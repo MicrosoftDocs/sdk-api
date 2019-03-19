@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMHALF4.operator-assign
-title: XMHALF4::operator-assign
+title: XMHALF4::operator-assign (directxpackedvector.h)
 author: windows-sdk-content
 description: Assigns the vector component data from one instance of XMHALF4 to the current instance of XMHALF4.
 old-location: dxmath\xmhalf4_operator_eq.htm

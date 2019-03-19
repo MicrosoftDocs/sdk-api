@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetClampOutput
-title: IDCompositionArithmeticCompositeEffect::SetClampOutput
+title: IDCompositionArithmeticCompositeEffect::SetClampOutput (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether to clamp color values before the effect passes the values to the next effect in the graph.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setclampoutput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGlyphIndices
-title: IDWriteFontFace::GetGlyphIndices
+title: IDWriteFontFace::GetGlyphIndices (dwrite.h)
 author: windows-sdk-content
 description: Returns the nominal mapping of UCS4 Unicode code points to glyph indices as defined by the font 'CMAP' table.
 old-location: directwrite\IDWriteFontFace_GetGlyphIndices.htm

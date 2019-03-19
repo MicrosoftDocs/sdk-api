@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_DESCRIPTOR_RANGE_FLAGS
-title: D3D12_DESCRIPTOR_RANGE_FLAGS
+title: D3D12_DESCRIPTOR_RANGE_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies the volatility of both descriptors and the data they reference in a Root Signature 1.1 description, which can enable some driver optimizations.
 old-location: direct3d12\d3d12_descriptor_range_flags.htm

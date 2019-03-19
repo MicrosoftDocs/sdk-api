@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetFilteringValue
-title: IMFVideoProcessor::GetFilteringValue
+title: IMFVideoProcessor::GetFilteringValue (evr9.h)
 author: windows-sdk-content
 description: Retrieves the current setting for an image filter.
 old-location: mf\imfvideoprocessor_getfilteringvalue.htm

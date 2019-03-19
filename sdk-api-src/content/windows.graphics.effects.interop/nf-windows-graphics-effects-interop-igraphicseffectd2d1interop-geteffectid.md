@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetEffectId
-title: IGraphicsEffectD2D1Interop::effects
+title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
 author: windows-sdk-content
 description: Retrieves the ID of the effect.
 old-location: w_graph_fx\igraphicseffectd2d1interop_geteffectid.htm

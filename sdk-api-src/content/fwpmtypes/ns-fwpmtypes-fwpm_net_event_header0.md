@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER0_
-title: FWPM_NET_EVENT_HEADER0
+title: FWPM_NET_EVENT_HEADER0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Information common to all events.
 old-location: fwp\fwpm_net_event_header0.htm

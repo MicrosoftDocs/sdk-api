@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.ProcessItem
-title: IPhotoAcquirePlugin::ProcessItem
+title: IPhotoAcquirePlugin::ProcessItem (photoacquire.h)
 author: windows-sdk-content
 description: The ProcessItem method provides additional functionality each time an item is processed. The application provides the implementation of the ProcessItem method.
 old-location: picacq\iphotoacquireplugin_processitem.htm

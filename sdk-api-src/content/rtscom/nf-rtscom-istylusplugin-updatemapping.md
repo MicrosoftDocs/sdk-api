@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.UpdateMapping
-title: IStylusPlugin::UpdateMapping
+title: IStylusPlugin::UpdateMapping (rtscom.h)
 author: windows-sdk-content
 description: Notifies the plug-in when display properties, such as dpi or orientation, change.
 old-location: tablet\istylusplugin_updatemapping.htm

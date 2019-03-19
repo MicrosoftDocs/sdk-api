@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmIsIME
-title: ImmIsIME function
+title: ImmIsIME function (imm.h)
 author: windows-sdk-content
 description: Determines if the specified input locale has an IME.
 old-location: intl\immisime.htm

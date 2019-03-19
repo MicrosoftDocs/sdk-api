@@ -1,6 +1,6 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0003
-title: CHANNEL_PRIORITY
+title: CHANNEL_PRIORITY (rdpencomapi.h)
 author: windows-sdk-content
 description: Defines values for the priority used to send packets on the channel.
 old-location: rdp\channel_priority.htm

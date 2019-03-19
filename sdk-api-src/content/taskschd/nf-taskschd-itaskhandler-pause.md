@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskHandler.Pause
-title: ITaskHandler::Pause
+title: ITaskHandler::Pause (taskschd.h)
 author: windows-sdk-content
 description: Called to pause the COM handler.
 old-location: taskschd\itaskhandler_pause.htm

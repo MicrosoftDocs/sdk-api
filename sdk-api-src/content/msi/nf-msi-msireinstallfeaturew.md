@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiReinstallFeatureW
-title: MsiReinstallFeatureW function
+title: MsiReinstallFeatureW function (msi.h)
 author: windows-sdk-content
 description: Reinstalls features.
 old-location: setup\msireinstallfeature.htm

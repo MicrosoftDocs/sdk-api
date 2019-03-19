@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Reset
-title: IEnumNetworks::Reset
+title: IEnumNetworks::Reset (netlistmgr.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: nla\ienumnetworks_reset.htm

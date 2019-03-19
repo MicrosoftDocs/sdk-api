@@ -1,6 +1,6 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetSRGS
-title: ITfInputScope::GetSRGS
+title: ITfInputScope::GetSRGS (inputscope.h)
 author: windows-sdk-content
 description: ITfInputScope::GetSRGS method
 old-location: tsf\itfinputscope_getSRGS.htm

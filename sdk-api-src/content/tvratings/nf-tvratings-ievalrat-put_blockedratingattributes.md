@@ -1,6 +1,6 @@
 ---
 UID: NF:tvratings.IEvalRat.put_BlockedRatingAttributes
-title: IEvalRat::put_BlockedRatingAttributes
+title: IEvalRat::put_BlockedRatingAttributes (tvratings.h)
 author: windows-sdk-content
 description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
 old-location: mstv\ievalrat_put_blockedratingattributes.htm

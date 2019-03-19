@@ -1,6 +1,6 @@
 ---
 UID: NF:msacm.acmFilterChooseW
-title: acmFilterChooseW function
+title: acmFilterChooseW function (msacm.h)
 author: windows-sdk-content
 description: The acmFilterChoose function creates an ACM-defined dialog box that enables the user to select a waveform-audio filter.
 old-location: multimedia\acmfilterchoose.htm

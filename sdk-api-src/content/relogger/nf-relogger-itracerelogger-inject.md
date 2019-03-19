@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.Inject
-title: ITraceRelogger::Inject
+title: ITraceRelogger::Inject (relogger.h)
 author: windows-sdk-content
 description: Injects a non-system-generated event into the event stream being written to the output trace logfile.
 old-location: etw\itracerelogger_inject.htm

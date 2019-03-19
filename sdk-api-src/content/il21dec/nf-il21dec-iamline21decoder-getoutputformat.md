@@ -1,6 +1,6 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetOutputFormat
-title: IAMLine21Decoder::GetOutputFormat
+title: IAMLine21Decoder::GetOutputFormat (il21dec.h)
 author: windows-sdk-content
 description: The GetOutputFormat method retrieves the Line 21 Decoder filter's output format.
 old-location: dshow\iamline21decoder_getoutputformat.htm

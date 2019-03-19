@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.GetDevMemoryObject
-title: IAMDevMemoryAllocator::GetDevMemoryObject
+title: IAMDevMemoryAllocator::GetDevMemoryObject (strmif.h)
 author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves an IUnknown interface pointer to a device memory control object that can be aggregated with a custom allocator.
 old-location: dshow\iamdevmemoryallocator_getdevmemoryobject.htm

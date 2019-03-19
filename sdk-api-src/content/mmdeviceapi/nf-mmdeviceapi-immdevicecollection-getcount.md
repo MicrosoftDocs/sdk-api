@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceCollection.GetCount
-title: IMMDeviceCollection::GetCount
+title: IMMDeviceCollection::GetCount (mmdeviceapi.h)
 author: windows-sdk-content
 description: The GetCount method retrieves a count of the devices in the device collection.
 old-location: coreaudio\immdevicecollection_getcount.htm

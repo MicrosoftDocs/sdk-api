@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.item
-title: IWMPCdromCollection::item
+title: IWMPCdromCollection::item (wmp.h)
 author: windows-sdk-content
 description: The item method retrieves a pointer to an IWMPCdrom interface at the given index.
 old-location: wmp\iwmpcdromcollection_item.htm

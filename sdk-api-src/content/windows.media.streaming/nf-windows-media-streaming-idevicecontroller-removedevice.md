@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.RemoveDevice
-title: IDeviceController::streaming
+title: IDeviceController::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Removes the specified device from the list of devices that is returned by the CachedDevices method.
 old-location: mediastreaming\idevicecontroller_removedevice.htm

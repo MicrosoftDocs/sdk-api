@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapPoints
-title: IDirectManipulationPrimaryContent::SetSnapPoints
+title: IDirectManipulationPrimaryContent::SetSnapPoints (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the snap points for the inertia rest position.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnappoints.htm

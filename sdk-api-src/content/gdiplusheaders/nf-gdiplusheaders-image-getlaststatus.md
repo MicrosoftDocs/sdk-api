@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.GetLastStatus
-title: Image::GetLastStatus
+title: Image::GetLastStatus (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::GetLastStatus method returns a value that indicates the nature of this Image object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetLastStatus_.htm

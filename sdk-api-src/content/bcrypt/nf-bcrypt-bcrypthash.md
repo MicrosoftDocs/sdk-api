@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptHash
-title: BCryptHash function
+title: BCryptHash function (bcrypt.h)
 author: windows-sdk-content
 description: Performs a single hash computation. This is a convenience function that wraps calls to BCryptCreateHash, BCryptHashData, BCryptFinishHash, and BCryptDestroyHash.
 old-location: security\bcrypthash.htm

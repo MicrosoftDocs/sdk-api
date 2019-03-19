@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCEnumNameSpaceProviders32
-title: WSCEnumNameSpaceProviders32 function
+title: WSCEnumNameSpaceProviders32 function (ws2spi.h)
 author: windows-sdk-content
 description: Returns information on available 32-bit namespace providers.Note  This call is a strictly 32-bit version of WSAEnumNameSpaceProviders for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
 old-location: winsock\wscenumnamespaceproviders32.htm

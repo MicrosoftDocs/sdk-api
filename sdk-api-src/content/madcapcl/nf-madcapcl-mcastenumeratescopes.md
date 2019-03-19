@@ -1,6 +1,6 @@
 ---
 UID: NF:madcapcl.McastEnumerateScopes
-title: McastEnumerateScopes function
+title: McastEnumerateScopes function (madcapcl.h)
 author: windows-sdk-content
 description: The McastEnumerateScopes function enumerates multicast scopes available on the network.
 old-location: madcap\mcastenumeratescopes.htm

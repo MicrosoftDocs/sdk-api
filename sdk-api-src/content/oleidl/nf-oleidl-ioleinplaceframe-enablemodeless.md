@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.EnableModeless
-title: IOleInPlaceFrame::EnableModeless
+title: IOleInPlaceFrame::EnableModeless (oleidl.h)
 author: windows-sdk-content
 description: Enables or disables a frame's modeless dialog boxes.
 old-location: com\ioleinplaceframe_enablemodeless.htm

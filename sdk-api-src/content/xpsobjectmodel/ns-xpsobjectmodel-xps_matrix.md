@@ -1,6 +1,6 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0023
-title: XPS_MATRIX
+title: XPS_MATRIX (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the left two columns of a 3-by-3 matrix.
 old-location: xps\xps_matrix.htm

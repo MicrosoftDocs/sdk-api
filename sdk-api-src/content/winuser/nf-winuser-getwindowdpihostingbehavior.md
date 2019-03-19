@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowDpiHostingBehavior
-title: GetWindowDpiHostingBehavior function
+title: GetWindowDpiHostingBehavior function (winuser.h)
 author: windows-sdk-content
 description: Returns the DPI_HOSTING_BEHAVIOR of the specified window.
 old-location: hidpi\getwindowdpihostingbehavior.htm

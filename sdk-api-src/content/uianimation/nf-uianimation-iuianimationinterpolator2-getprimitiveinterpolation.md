@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.GetPrimitiveInterpolation
-title: IUIAnimationInterpolator2::GetPrimitiveInterpolation
+title: IUIAnimationInterpolator2::GetPrimitiveInterpolation (uianimation.h)
 author: windows-sdk-content
 description: Generates a primitive interpolation of the specified animation curve.
 old-location: uianimation\iuianimationinterpolator2_getprimitiveinterpolation.htm

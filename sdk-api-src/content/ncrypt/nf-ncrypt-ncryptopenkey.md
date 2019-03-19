@@ -1,6 +1,6 @@
 ---
 UID: NF:ncrypt.NCryptOpenKey
-title: NCryptOpenKey function
+title: NCryptOpenKey function (ncrypt.h)
 author: windows-sdk-content
 description: Opens a key that exists in the specified CNG key storage provider.
 old-location: security\ncryptopenkey_func.htm

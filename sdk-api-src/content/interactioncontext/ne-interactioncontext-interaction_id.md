@@ -1,6 +1,6 @@
 ---
 UID: NE:interactioncontext.INTERACTION_ID
-title: INTERACTION_ID
+title: INTERACTION_ID (interactioncontext.h)
 author: windows-sdk-content
 description: Specifies the interaction states used for configuring an Interaction Context object.
 old-location: input_intcontext\interaction_id.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterResourceType
-title: CreateClusterResourceType function
+title: CreateClusterResourceType function (clusapi.h)
 author: windows-sdk-content
 description: Creates a resource type in a cluster.
 old-location: mscs\createclusterresourcetype.htm

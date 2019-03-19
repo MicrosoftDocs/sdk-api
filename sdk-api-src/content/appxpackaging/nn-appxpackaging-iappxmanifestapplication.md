@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestApplication
-title: IAppxManifestApplication
+title: IAppxManifestApplication (appxpackaging.h)
 author: windows-sdk-content
 description: Provides access to attribute values of the application.
 old-location: appxpkg\iappxmanifestapplication.htm

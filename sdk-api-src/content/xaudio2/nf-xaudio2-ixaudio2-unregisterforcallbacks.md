@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.UnregisterForCallbacks
-title: IXAudio2::UnregisterForCallbacks
+title: IXAudio2::UnregisterForCallbacks (xaudio2.h)
 author: windows-sdk-content
 description: Removes an IXAudio2EngineCallback pointer from the XAudio2 engine callback list.
 old-location: xaudio2\ixaudio2_interface_unregisterforcallbacks.htm

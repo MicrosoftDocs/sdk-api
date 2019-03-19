@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetDomain
-title: IGPM::GetDomain
+title: IGPM::GetDomain (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns a GPMDomain object that corresponds to the specified domain.
 old-location: gpmc\igpm_getdomain.htm

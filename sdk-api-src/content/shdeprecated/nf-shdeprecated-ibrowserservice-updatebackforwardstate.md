@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.UpdateBackForwardState
-title: IBrowserService::UpdateBackForwardState
+title: IBrowserService::UpdateBackForwardState (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Updates the state of the browser's Back and Forward buttons.
 old-location: shell\IBrowserService_UpdateBackForwardState.htm

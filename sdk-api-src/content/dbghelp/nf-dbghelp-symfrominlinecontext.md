@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymFromInlineContext
-title: SymFromInlineContext function
+title: SymFromInlineContext function (dbghelp.h)
 author: windows-sdk-content
 description: Retrieves symbol information for the specified address and inline context.
 old-location: base\symfrominlinecontext.htm

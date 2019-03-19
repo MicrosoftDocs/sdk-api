@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GET_XBUTTON_WPARAM
-title: GET_XBUTTON_WPARAM macro
+title: GET_XBUTTON_WPARAM macro (winuser.h)
 author: windows-sdk-content
 description: Retrieves the state of certain buttons from the specified WPARAM value.
 old-location: inputdev\get_xbutton_wparam.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.Enable
-title: IWMDMLogger::Enable
+title: IWMDMLogger::Enable (wmdmlog.h)
 author: windows-sdk-content
 description: The Enable method enables or disables logging. Logging is enabled by default.
 old-location: wmdm\iwmdmlogger_enable.htm

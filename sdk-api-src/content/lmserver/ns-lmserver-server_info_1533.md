@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1533
-title: SERVER_INFO_1533
+title: SERVER_INFO_1533 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1533 structure specifies the maximum number of outstanding requests a client can send to the server.
 old-location: netmgmt\server_info_1533_str.htm

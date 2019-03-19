@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_StartLba
-title: IWriteEngine2EventArgs::get_StartLba
+title: IWriteEngine2EventArgs::get_StartLba (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the starting logical block address (LBA) of the current write operation.
 old-location: imapi\iwriteengine2eventargs_get_startlba.htm

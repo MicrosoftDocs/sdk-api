@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISelectCOMLBServer.Init
-title: ISelectCOMLBServer::Init
+title: ISelectCOMLBServer::Init (comsvcs.h)
 author: windows-sdk-content
 description: Initializes the load balancing server object.
 old-location: cos\iselectcomlbserver_init.htm

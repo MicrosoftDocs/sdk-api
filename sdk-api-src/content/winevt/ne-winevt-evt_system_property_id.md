@@ -1,6 +1,6 @@
 ---
 UID: NE:winevt._EVT_SYSTEM_PROPERTY_ID
-title: EVT_SYSTEM_PROPERTY_ID
+title: EVT_SYSTEM_PROPERTY_ID (winevt.h)
 author: windows-sdk-content
 description: Defines the identifiers that identify the system-specific properties of an event.
 old-location: wes\evt_system_property_id.htm

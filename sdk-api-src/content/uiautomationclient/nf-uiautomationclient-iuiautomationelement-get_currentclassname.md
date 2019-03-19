@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentClassName
-title: IUIAutomationElement::get_CurrentClassName
+title: IUIAutomationElement::get_CurrentClassName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the class name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentClassName.htm

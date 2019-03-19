@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetPromptUserMode
-title: MI_OperationOptions_GetPromptUserMode function
+title: MI_OperationOptions_GetPromptUserMode function (mi.h)
 author: windows-sdk-content
 description: Gets the value that tells the server how to respond to a provider's call to MI_Context_PromptUser.
 old-location: wmi_v2\mi_operationoptions_getpromptusermode.htm

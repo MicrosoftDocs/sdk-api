@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManCloseShell
-title: WSManCloseShell function
+title: WSManCloseShell function (wsman.h)
 author: windows-sdk-content
 description: Deletes a shell object and frees the resources associated with the shell.
 old-location: winrm\wsmancloseshell.htm

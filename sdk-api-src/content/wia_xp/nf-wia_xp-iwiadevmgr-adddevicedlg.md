@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.AddDeviceDlg
-title: IWiaDevMgr::AddDeviceDlg
+title: IWiaDevMgr::AddDeviceDlg (wia_xp.h)
 author: windows-sdk-content
 description: This method is not implemented.
 old-location: wia\_wia_IWiaDevMgr_AddDeviceDlg.htm

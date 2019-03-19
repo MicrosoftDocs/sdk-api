@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetStreamSelection
-title: IMFSourceReader::GetStreamSelection
+title: IMFSourceReader::GetStreamSelection (mfreadwrite.h)
 author: windows-sdk-content
 description: Queries whether a stream is selected.
 old-location: mf\imfsourcereader_getstreamselection.htm

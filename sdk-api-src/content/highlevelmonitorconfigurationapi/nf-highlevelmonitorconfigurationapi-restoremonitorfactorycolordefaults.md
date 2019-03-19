@@ -1,6 +1,6 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryColorDefaults
-title: RestoreMonitorFactoryColorDefaults function
+title: RestoreMonitorFactoryColorDefaults function (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Restores a monitor's color settings to their factory defaults.
 old-location: monitor\restoremonitorfactorycolordefaults.htm

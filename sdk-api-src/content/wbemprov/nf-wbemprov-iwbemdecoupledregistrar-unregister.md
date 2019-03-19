@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemDecoupledRegistrar.UnRegister
-title: IWbemDecoupledRegistrar::UnRegister
+title: IWbemDecoupledRegistrar::UnRegister (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemDecoupledRegistrar::UnRegister method removes the registration of an object interface from WMI.
 old-location: wmi\iwbemdecoupledregistrar_unregister.htm

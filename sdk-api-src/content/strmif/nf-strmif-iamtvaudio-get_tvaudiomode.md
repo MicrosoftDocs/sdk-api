@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTVAudio.get_TVAudioMode
-title: IAMTVAudio::get_TVAudioMode
+title: IAMTVAudio::get_TVAudioMode (strmif.h)
 author: windows-sdk-content
 description: The get_TVAudioMode method retrieves the current TV audio mode.
 old-location: dshow\iamtvaudio_get_tvaudiomode.htm

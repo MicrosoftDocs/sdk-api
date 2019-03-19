@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.InsertAt
-title: CHStringArray::InsertAt
+title: CHStringArray::InsertAt (chstrarr.h)
 author: windows-sdk-content
 description: The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
 old-location: wmi\insertat_method_in_class_chstringarray.htm

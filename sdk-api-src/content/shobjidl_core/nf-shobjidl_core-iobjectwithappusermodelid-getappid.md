@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithAppUserModelID.GetAppID
-title: IObjectWithAppUserModelID::GetAppID
+title: IObjectWithAppUserModelID::GetAppID (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves a file type handler's explicit Application User Model ID (AppUserModelID), if one has been declared.
 old-location: shell\IObjectWithAppUserModelID_GetAppID.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.DeleteAll
-title: IWbemContext::DeleteAll
+title: IWbemContext::DeleteAll (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext::DeleteAll method removes all named context values from the current object, thus emptying the object.
 old-location: wmi\iwbemcontext_deleteall.htm

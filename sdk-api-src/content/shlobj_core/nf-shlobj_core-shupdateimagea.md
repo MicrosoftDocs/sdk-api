@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHUpdateImageA
-title: SHUpdateImageA function
+title: SHUpdateImageA function (shlobj_core.h)
 author: windows-sdk-content
 description: Notifies the Shell that an image in the system image list has changed.
 old-location: shell\SHUpdateImage.htm

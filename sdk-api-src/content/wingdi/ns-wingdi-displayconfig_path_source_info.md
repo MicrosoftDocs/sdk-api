@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_PATH_SOURCE_INFO
-title: DISPLAYCONFIG_PATH_SOURCE_INFO
+title: DISPLAYCONFIG_PATH_SOURCE_INFO (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_PATH_SOURCE_INFO structure contains source information for a single path.
 old-location: display\displayconfig_path_source_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_USAGE_MATCH
-title: CTL_USAGE_MATCH
+title: CTL_USAGE_MATCH (wincrypt.h)
 author: windows-sdk-content
 description: Provides parameters for finding certificate trust lists (CTL) used to build a certificate chain.
 old-location: security\ctl_usage_match.htm

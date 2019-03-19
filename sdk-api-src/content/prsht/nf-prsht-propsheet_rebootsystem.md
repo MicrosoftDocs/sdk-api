@@ -1,6 +1,6 @@
 ---
 UID: NF:prsht.PropSheet_RebootSystem
-title: PropSheet_RebootSystem macro
+title: PropSheet_RebootSystem macro (prsht.h)
 author: windows-sdk-content
 description: Indicates the system needs to be restarted for the changes to take effect. You can use this macro or send the PSM_REBOOTSYSTEM message explicitly.
 old-location: controls\PropSheet_RebootSystem.htm

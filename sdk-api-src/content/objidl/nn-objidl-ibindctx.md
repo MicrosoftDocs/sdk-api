@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IBindCtx
-title: IBindCtx
+title: IBindCtx (objidl.h)
 author: windows-sdk-content
 description: Provides access to a bind context, which is an object that stores information about a particular moniker binding operation.
 old-location: com\ibindctx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagTIMECODE
-title: TIMECODE
+title: TIMECODE (strmif.h)
 author: windows-sdk-content
 description: The TIMECODE structure contains basic timecode frame count information.
 old-location: dshow\timecode.htm

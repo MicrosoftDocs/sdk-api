@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetFlags
-title: IBrowserService::SetFlags
+title: IBrowserService::SetFlags (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets flags that indicate browser status.
 old-location: shell\IBrowserService_SetFlags.htm

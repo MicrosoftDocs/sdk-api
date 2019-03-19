@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.tagMIDIOUTCAPSA
-title: MIDIOUTCAPSA
+title: MIDIOUTCAPSA (mmeapi.h)
 author: windows-sdk-content
 description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device.
 old-location: multimedia\midioutcaps.htm

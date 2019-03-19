@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.get_RoleDefinitions
-title: IAzApplication3::get_RoleDefinitions
+title: IAzApplication3::get_RoleDefinitions (azroles.h)
 author: windows-sdk-content
 description: Gets an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with the current IAzApplication3 object.
 old-location: security\iazapplication3_roledefinitions.htm

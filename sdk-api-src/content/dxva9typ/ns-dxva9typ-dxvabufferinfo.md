@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva9typ._DXVABufferInfo
-title: DXVABufferInfo
+title: DXVABufferInfo (dxva9typ.h)
 author: windows-sdk-content
 description: Specifies a buffer for the IDirect3DDXVADevice9::Execute method.
 old-location: mf\dxvabufferinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.GetControlWindow
-title: IShellBrowser::GetControlWindow
+title: IShellBrowser::GetControlWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the window handle to a browser control.
 old-location: shell\IShellBrowser_GetControlWindow.htm

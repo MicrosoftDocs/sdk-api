@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescriptionList.GetAt
-title: IPropertyDescriptionList::GetAt
+title: IPropertyDescriptionList::GetAt (propsys.h)
 author: windows-sdk-content
 description: Gets the property description at the specified index in a property description list.
 old-location: properties\IPropertyDescriptionList_GetAt.htm

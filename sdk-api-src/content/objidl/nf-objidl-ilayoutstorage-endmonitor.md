@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILayoutStorage.EndMonitor
-title: ILayoutStorage::EndMonitor
+title: ILayoutStorage::EndMonitor (objidl.h)
 author: windows-sdk-content
 description: The EndMonitor method ends monitoring of a compound file. Must be preceded by a call to ILayoutStorage::BeginMonitor.
 old-location: stg\ilayoutstorage_endmonitor.htm

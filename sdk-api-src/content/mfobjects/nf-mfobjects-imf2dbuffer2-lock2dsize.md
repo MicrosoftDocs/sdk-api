@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer2.Lock2DSize
-title: IMF2DBuffer2::Lock2DSize
+title: IMF2DBuffer2::Lock2DSize (mfobjects.h)
 author: windows-sdk-content
 description: Gives the caller access to the memory in the buffer.
 old-location: mf\imf2dbuffer2_lock2dsize.htm

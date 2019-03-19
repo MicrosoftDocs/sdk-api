@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetGammaRamp
-title: IDirect3DDevice9::SetGammaRamp
+title: IDirect3DDevice9::SetGammaRamp (d3d9helper.h)
 author: windows-sdk-content
 description: Sets the gamma correction ramp for the implicit swap chain. This method will affect the entire screen (not just the active window if you are running in windowed mode).
 old-location: direct3d9\idirect3ddevice9__setgammaramp.htm

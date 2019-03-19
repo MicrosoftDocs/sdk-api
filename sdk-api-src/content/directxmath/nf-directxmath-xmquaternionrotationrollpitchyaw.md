@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationRollPitchYaw
-title: XMQuaternionRotationRollPitchYaw function
+title: XMQuaternionRotationRollPitchYaw function (directxmath.h)
 author: windows-sdk-content
 description: Computes a rotation quaternion based on the pitch, yaw, and roll (Euler angles).
 old-location: dxmath\xmquaternionrotationrollpitchyaw.htm

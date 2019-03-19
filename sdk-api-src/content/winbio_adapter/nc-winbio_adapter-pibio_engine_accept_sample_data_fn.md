@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN
-title: PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN
+title: PIBIO_ENGINE_ACCEPT_SAMPLE_DATA_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Accepts a raw biometric sample and extracts a feature set.
 old-location: secbiomet\engineadapteracceptsampledata.htm

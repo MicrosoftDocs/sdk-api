@@ -1,6 +1,6 @@
 ---
 UID: NS:windns._DNS_QUERY_REQUEST
-title: DNS_QUERY_REQUEST
+title: DNS_QUERY_REQUEST (windns.h)
 author: windows-sdk-content
 description: The DNS_QUERY_REQUEST structure contains the DNS query parameters used in a call to DnsQueryEx.
 old-location: dns\dns_query_request.htm

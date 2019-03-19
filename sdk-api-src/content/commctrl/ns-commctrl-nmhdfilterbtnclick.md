@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMHDFILTERBTNCLICK
-title: NMHDFILTERBTNCLICK
+title: NMHDFILTERBTNCLICK (commctrl.h)
 author: windows-sdk-content
 description: Specifies or receives the attributes of a filter button click.
 old-location: controls\NMHDFILTERBTNCLICK.htm

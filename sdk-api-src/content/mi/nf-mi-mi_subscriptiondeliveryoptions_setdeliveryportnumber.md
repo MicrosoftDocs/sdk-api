@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber
-title: MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber function
+title: MI_SubscriptionDeliveryOptions_SetDeliveryPortNumber function (mi.h)
 author: windows-sdk-content
 description: Sets the subscription delivery port number.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliveryportnumber.htm

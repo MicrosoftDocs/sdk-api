@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INewMenuClient.SelectAndEditItem
-title: INewMenuClient::SelectAndEditItem
+title: INewMenuClient::SelectAndEditItem (shobjidl_core.h)
 author: windows-sdk-content
 description: INewMenuClient::SelectAndEditItem method
 old-location: shell\INewMenuClient_SelectAndEditItem.htm

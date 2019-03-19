@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPSyncDevice3.cancelEstimation
-title: IWMPSyncDevice3::cancelEstimation
+title: IWMPSyncDevice3::cancelEstimation (wmp.h)
 author: windows-sdk-content
 description: The cancelEstimation method cancels an estimation that was previously initiated by estimateSyncSize.
 old-location: wmp\iwmpsyncdevice3_cancelestimation.htm

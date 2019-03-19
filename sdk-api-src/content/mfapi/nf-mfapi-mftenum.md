@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTEnum
-title: MFTEnum function
+title: MFTEnum function (mfapi.h)
 author: windows-sdk-content
 description: Enumerates Media Foundation transforms (MFTs) in the registry.
 old-location: mf\mftenum.htm

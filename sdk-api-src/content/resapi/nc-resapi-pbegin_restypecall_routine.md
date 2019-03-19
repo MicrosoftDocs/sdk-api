@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PBEGIN_RESTYPECALL_ROUTINE
-title: PBEGIN_RESTYPECALL_ROUTINE
+title: PBEGIN_RESTYPECALL_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Starts a call to a resource control code. The PBEGIN_RESTYPECALL_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcetypecontrol.htm

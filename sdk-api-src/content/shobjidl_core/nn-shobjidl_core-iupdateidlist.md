@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IUpdateIDList
-title: IUpdateIDList
+title: IUpdateIDList (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides a method to update the ITEMIDLIST of the child of an folder object.
 old-location: shell\IUpdateIDList.htm

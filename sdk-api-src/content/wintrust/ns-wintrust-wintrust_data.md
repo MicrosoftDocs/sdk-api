@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._WINTRUST_DATA
-title: WINTRUST_DATA
+title: WINTRUST_DATA (wintrust.h)
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to pass necessary information into the trust providers.
 old-location: security\wintrust_data.htm

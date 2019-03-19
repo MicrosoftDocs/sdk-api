@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetVarHelpStringContext
-title: ICreateTypeInfo2::SetVarHelpStringContext
+title: ICreateTypeInfo2::SetVarHelpStringContext (oaidl.h)
 author: windows-sdk-content
 description: Sets a Help context value for a specified variable.
 old-location: automat\icreatetypeinfo2_setvarhelpstringcontext.htm

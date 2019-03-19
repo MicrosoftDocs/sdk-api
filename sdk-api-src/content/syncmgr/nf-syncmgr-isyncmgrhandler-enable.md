@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.Enable
-title: ISyncMgrHandler::Enable
+title: ISyncMgrHandler::Enable (syncmgr.h)
 author: windows-sdk-content
 description: Requests that an active handler be enabled or disabled. An enabled handler can be synchronized and a disabled handler cannot.
 old-location: shell\ISyncMgrHandler_Enable.htm

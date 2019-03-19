@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.InterlockedOr16
-title: InterlockedOr16 function
+title: InterlockedOr16 function (winnt.h)
 author: windows-sdk-content
 description: Performs an atomic OR operation on the specified SHORT values.
 old-location: base\interlockedor16.htm

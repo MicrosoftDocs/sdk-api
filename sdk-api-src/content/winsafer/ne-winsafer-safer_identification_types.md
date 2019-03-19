@@ -1,6 +1,6 @@
 ---
 UID: NE:winsafer._SAFER_IDENTIFICATION_TYPES
-title: SAFER_IDENTIFICATION_TYPES
+title: SAFER_IDENTIFICATION_TYPES (winsafer.h)
 author: windows-sdk-content
 description: Defines the possible types of identification rule structures that can be identified by the SAFER_IDENTIFICATION_HEADER structure.
 old-location: security\safer_identification_types.htm

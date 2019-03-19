@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer2.get_Id
-title: IInkRecognizer2::get_Id
+title: IInkRecognizer2::get_Id (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the ID for the InkRecognizer.
 old-location: tablet\iinkrecognizer2_get_id.htm

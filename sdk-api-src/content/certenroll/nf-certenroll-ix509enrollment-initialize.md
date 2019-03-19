@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.Initialize
-title: IX509Enrollment::Initialize
+title: IX509Enrollment::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the enrollment object and creates a default PKCS #10 request.
 old-location: security\ix509enrollment_initialize_method.htm

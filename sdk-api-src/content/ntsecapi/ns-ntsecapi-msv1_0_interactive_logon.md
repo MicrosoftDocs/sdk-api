@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._MSV1_0_INTERACTIVE_LOGON
-title: MSV1_0_INTERACTIVE_LOGON
+title: MSV1_0_INTERACTIVE_LOGON (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information about an interactive logon.
 old-location: security\msv1_0_interactive_logon.htm

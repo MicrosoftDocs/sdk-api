@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Item
-title: IComTrackingInfoCollection::Item
+title: IComTrackingInfoCollection::Item (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the specified interface from a specified member of a tracking information collection.
 old-location: cos\icomtrackinginfocollection_item.htm

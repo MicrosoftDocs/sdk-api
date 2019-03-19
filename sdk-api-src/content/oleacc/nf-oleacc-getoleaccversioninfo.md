@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.GetOleaccVersionInfo
-title: GetOleaccVersionInfo function
+title: GetOleaccVersionInfo function (oleacc.h)
 author: windows-sdk-content
 description: Retrieves the version number and build number of the Microsoft Active Accessibility file Oleacc.dll.
 old-location: winauto\getoleaccversioninfo.htm

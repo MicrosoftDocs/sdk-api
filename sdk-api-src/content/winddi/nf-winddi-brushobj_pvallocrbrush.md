@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.BRUSHOBJ_pvAllocRbrush
-title: BRUSHOBJ_pvAllocRbrush function
+title: BRUSHOBJ_pvAllocRbrush function (winddi.h)
 author: windows-sdk-content
 description: The BRUSHOBJ_pvAllocRbrush function allocates memory for the driver's realization of a specified brush.
 old-location: display\brushobj_pvallocrbrush.htm

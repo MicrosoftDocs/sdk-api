@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbTargetPropertySet
-title: ITsSbTargetPropertySet
+title: ITsSbTargetPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Derive from this interface to define a custom target property set.
 old-location: termserv\itssbtargetpropertyset.htm

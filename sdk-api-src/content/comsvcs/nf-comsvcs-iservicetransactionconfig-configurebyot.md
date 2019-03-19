@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfig.ConfigureBYOT
-title: IServiceTransactionConfig::ConfigureBYOT
+title: IServiceTransactionConfig::ConfigureBYOT (comsvcs.h)
 author: windows-sdk-content
 description: Enables you to configure the transaction that you use when you bring your own transaction.
 old-location: cos\iservicetransactionconfig_configurebyot.htm

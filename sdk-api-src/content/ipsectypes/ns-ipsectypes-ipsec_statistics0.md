@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_STATISTICS0_
-title: IPSEC_STATISTICS0
+title: IPSEC_STATISTICS0 (ipsectypes.h)
 author: windows-sdk-content
 description: Is the top-level of the IPsec statistics structures.
 old-location: fwp\ipsec_statistics0_struct.htm

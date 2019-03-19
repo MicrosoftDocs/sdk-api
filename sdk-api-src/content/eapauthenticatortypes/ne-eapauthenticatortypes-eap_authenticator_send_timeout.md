@@ -1,6 +1,6 @@
 ---
 UID: NE:eapauthenticatortypes._EAP_AUTHENTICATOR_SEND_TIMEOUT
-title: EAP_AUTHENTICATOR_SEND_TIMEOUT
+title: EAP_AUTHENTICATOR_SEND_TIMEOUT (eapauthenticatortypes.h)
 author: windows-sdk-content
 description: Indicates to the authenticator method the amount of time to wait for user input after the packet is sent. The timeout value can be set to none.
 old-location: eaphost\eap_authenticator_send_timeout.htm

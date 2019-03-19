@@ -1,6 +1,6 @@
 ---
 UID: NF:mswsock.WSARecvEx
-title: WSARecvEx function
+title: WSARecvEx function (mswsock.h)
 author: windows-sdk-content
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\wsarecvex_2.htm

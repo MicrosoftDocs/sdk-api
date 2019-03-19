@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetVersionNumber
-title: ISCTE_EAS::GetVersionNumber
+title: ISCTE_EAS::GetVersionNumber (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the EAS table.
 old-location: mstv\iscte_eas_getversionnumber.htm

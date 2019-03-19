@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_ParentWindow
-title: IUpdateInstaller::put_ParentWindow
+title: IUpdateInstaller::put_ParentWindow (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the interface that represents the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parentwindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0006_0001
-title: VMR9AlphaBitmapFlags
+title: VMR9AlphaBitmapFlags (vmr9.h)
 author: windows-sdk-content
 description: The VMR9AlphaBitmapFlags enumeration type defines the possible values for the dwFlags member of the VMR9AlphaBitmap structure.
 old-location: dshow\vmr9alphabitmapflags.htm

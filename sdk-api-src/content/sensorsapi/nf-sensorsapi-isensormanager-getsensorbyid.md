@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorByID
-title: ISensorManager::GetSensorByID
+title: ISensorManager::GetSensorByID (sensorsapi.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the specified sensor.
 old-location: winsensors_com_ref\isensormanager_getsensorbyid.htm

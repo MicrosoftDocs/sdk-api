@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.GetMultithreadProtected
-title: ID3D11Multithread::GetMultithreadProtected
+title: ID3D11Multithread::GetMultithreadProtected (d3d11_4.h)
 author: windows-sdk-content
 description: Find out if multithread protection is turned on or not.
 old-location: direct3d11\id3d11multithread_getmultithreadprotected.htm

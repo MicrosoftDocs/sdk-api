@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.CreateIpForwardEntry
-title: CreateIpForwardEntry function
+title: CreateIpForwardEntry function (iphlpapi.h)
 author: windows-sdk-content
 description: The CreateIpForwardEntry function creates a route in the local computer's IPv4 routing table.
 old-location: iphlp\createipforwardentry.htm

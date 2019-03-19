@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsOctetList
-title: IADsOctetList
+title: IADsOctetList (iads.h)
 author: windows-sdk-content
 description: The IADsOctetList interface provides methods for an ADSI client to access the Octet List attribute.
 old-location: adsi\iadsoctetlist.htm

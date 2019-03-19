@@ -1,6 +1,6 @@
 ---
 UID: NF:coml2api.StgOpenStorageOnILockBytes
-title: StgOpenStorageOnILockBytes function
+title: StgOpenStorageOnILockBytes function (coml2api.h)
 author: windows-sdk-content
 description: The StgOpenStorageOnILockBytes function opens an existing storage object that does not reside in a disk file, but instead has an underlying byte array provided by the caller.
 old-location: stg\stgopenstorageonilockbytes.htm

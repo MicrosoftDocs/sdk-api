@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.GetManagedExtensions
-title: GetManagedExtensions function
+title: GetManagedExtensions function (comsvcs.h)
 author: windows-sdk-content
 description: Determines whether the installed version of COM+ supports special features provided to manage serviced components (managed objects).
 old-location: cos\getmanagedextensions.htm

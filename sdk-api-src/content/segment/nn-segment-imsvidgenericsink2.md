@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidGenericSink2
-title: IMSVidGenericSink2
+title: IMSVidGenericSink2 (segment.h)
 author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidGenericSink2 interface represents a generic output device that supports streaming output. It is implemented by the MSVidGenericSink object.
 old-location: mstv\imsvidgenericsink2.htm

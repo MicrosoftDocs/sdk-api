@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IChannelTuneRequest.put_Channel
-title: IChannelTuneRequest::put_Channel
+title: IChannelTuneRequest::put_Channel (tuner.h)
 author: windows-sdk-content
 description: The put_Channel method sets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_put_channel.htm

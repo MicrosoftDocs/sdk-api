@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.CreateClusterNotifyPort
-title: CreateClusterNotifyPort function
+title: CreateClusterNotifyPort function (clusapi.h)
 author: windows-sdk-content
 description: Creates or modifies a notification port. For information on notification ports, see Receiving Cluster Events.
 old-location: mscs\createclusternotifyport.htm

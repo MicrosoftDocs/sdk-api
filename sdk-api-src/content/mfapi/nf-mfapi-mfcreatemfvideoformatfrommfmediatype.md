@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMFVideoFormatFromMFMediaType
-title: MFCreateMFVideoFormatFromMFMediaType function
+title: MFCreateMFVideoFormatFromMFMediaType function (mfapi.h)
 author: windows-sdk-content
 description: Creates an MFVIDEOFORMAT structure from a video media type.
 old-location: mf\mfcreatemfvideoformatfrommfmediatype.htm

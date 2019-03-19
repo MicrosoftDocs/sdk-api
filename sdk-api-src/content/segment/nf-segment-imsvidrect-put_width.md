@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidRect.put_Width
-title: IMSVidRect::put_Width
+title: IMSVidRect::put_Width (segment.h)
 author: windows-sdk-content
 description: The put_Width method specifies the width of the rectangle.
 old-location: mstv\imsvidrect_put_width.htm

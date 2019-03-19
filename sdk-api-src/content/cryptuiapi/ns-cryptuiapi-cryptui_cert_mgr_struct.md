@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_CERT_MGR_STRUCT
-title: CRYPTUI_CERT_MGR_STRUCT
+title: CRYPTUI_CERT_MGR_STRUCT (cryptuiapi.h)
 author: windows-sdk-content
 description: Contains information about a certificate manager dialog box.
 old-location: security\cryptui_cert_mgr_struct.htm

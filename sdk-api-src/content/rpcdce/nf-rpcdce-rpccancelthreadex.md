@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcCancelThreadEx
-title: RpcCancelThreadEx function
+title: RpcCancelThreadEx function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcCancelThreadEx function stops the execution of a thread.
 old-location: rpc\rpccancelthreadex.htm

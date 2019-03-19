@@ -1,6 +1,6 @@
 ---
 UID: NS:mobsync._tagSYNCMGRITEM
-title: SYNCMGRITEM
+title: SYNCMGRITEM (mobsync.h)
 author: windows-sdk-content
 description: Provides information about items being enumerated by the ISyncMgrEnumItems interface.
 old-location: shell\syncmgr_syncmgritem.htm

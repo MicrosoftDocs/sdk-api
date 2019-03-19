@@ -1,6 +1,6 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
-title: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
+title: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE (cryptxml.h)
 author: windows-sdk-content
 description: Releases the data provider.
 old-location: security\pfn_crypt_xml_data_provider_close.htm

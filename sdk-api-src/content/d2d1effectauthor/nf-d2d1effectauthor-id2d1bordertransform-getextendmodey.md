@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BorderTransform.GetExtendModeY
-title: ID2D1BorderTransform::GetExtendModeY
+title: ID2D1BorderTransform::GetExtendModeY (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Gets the extend mode in the y direction.
 old-location: direct2d\id2d1bordertransform_getextendmodey.htm

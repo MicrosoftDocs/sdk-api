@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetReferencePid
-title: IIsdbHierarchicalTransmissionDescriptor::GetReferencePid
+title: IIsdbHierarchicalTransmissionDescriptor::GetReferencePid (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the program ID (PID) of the primary hierarchical stream from a hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getreferencepid.htm

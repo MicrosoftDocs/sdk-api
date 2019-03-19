@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccServerDocMgr.NewDocument
-title: IAccServerDocMgr::NewDocument
+title: IAccServerDocMgr::NewDocument (msaatext.h)
 author: windows-sdk-content
 description: Server applications call the IAccServerDocMgr::NewDocument method when it is available. The adapter creates a wrapped document and registers it with the store, so clients can access information about the text in the document.
 old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__newdocument.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsMaintenance
-title: IVdsMaintenance
+title: IVdsMaintenance (vds.h)
 author: windows-sdk-content
 description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
 old-location: base\ivdsmaintenance.htm

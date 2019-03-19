@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_COUNTER_IDENTIFIER
-title: PERF_COUNTER_IDENTIFIER
+title: PERF_COUNTER_IDENTIFIER (perflib.h)
 author: windows-sdk-content
 description: Contains information about the PERF_COUNTER_IDENTIFIER block that contains the structure.
 old-location: perf\perf_counter_identifier.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.CreateTemplate
-title: IFsrmFileScreenTemplateManager::CreateTemplate
+title: IFsrmFileScreenTemplateManager::CreateTemplate (fsrmscreen.h)
 author: windows-sdk-content
 description: Creates a file screen template object.
 old-location: fsrm\ifsrmfilescreentemplatemanager_createtemplate.htm

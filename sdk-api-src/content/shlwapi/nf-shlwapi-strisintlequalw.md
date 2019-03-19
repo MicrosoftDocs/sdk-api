@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrIsIntlEqualW
-title: StrIsIntlEqualW function
+title: StrIsIntlEqualW function (shlwapi.h)
 author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings to determine if they are equal.
 old-location: shell\StrIsIntlEqual.htm

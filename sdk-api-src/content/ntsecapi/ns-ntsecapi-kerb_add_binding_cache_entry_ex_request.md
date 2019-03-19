@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
-title: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST
+title: KERB_ADD_BINDING_CACHE_ENTRY_EX_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Allows the user to bind to a specific domain controller (DC), overriding the Kerberos domain binding cache.
 old-location: security\kerb_add_binding_cache_entry_ex_request.htm

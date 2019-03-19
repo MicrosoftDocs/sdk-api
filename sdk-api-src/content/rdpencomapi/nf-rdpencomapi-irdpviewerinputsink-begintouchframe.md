@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.BeginTouchFrame
-title: IRDPViewerInputSink::BeginTouchFrame
+title: IRDPViewerInputSink::BeginTouchFrame (rdpencomapi.h)
 author: windows-sdk-content
 description: Begins to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_begintouchframe.htm

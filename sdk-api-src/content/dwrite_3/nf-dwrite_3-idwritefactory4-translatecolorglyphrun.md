@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory4.TranslateColorGlyphRun
-title: IDWriteFactory4::TranslateColorGlyphRun
+title: IDWriteFactory4::TranslateColorGlyphRun (dwrite_3.h)
 author: windows-sdk-content
 description: Translates a glyph run to a sequence of color glyph runs, which can be rendered to produce a color representation of the original &#0034;base&#0034; run.
 old-location: directwrite\idwritefactory4_translatecolorglyphrun.htm

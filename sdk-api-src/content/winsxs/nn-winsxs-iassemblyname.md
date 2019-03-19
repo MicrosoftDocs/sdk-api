@@ -1,6 +1,6 @@
 ---
 UID: NN:winsxs.IAssemblyName
-title: IAssemblyName
+title: IAssemblyName (winsxs.h)
 author: windows-sdk-content
 description: The IAssemblyName interface represents a side-by-side assembly name.
 old-location: setup\iassemblyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICGifImageDescriptorProperties
-title: WICGifImageDescriptorProperties
+title: WICGifImageDescriptorProperties (wincodec.h)
 author: windows-sdk-content
 description: Specifies the image descriptor metadata properties for Graphics Interchange Format (GIF) frames.
 old-location: wic\_wic_codec_wicgifimagedescriptorproperties.htm

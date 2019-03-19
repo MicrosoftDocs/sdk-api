@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetLength
-title: IIsdbSeriesDescriptor::GetLength
+title: IIsdbSeriesDescriptor::GetLength (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) series descriptor, in bytes.
 old-location: mstv\iisdbseriesdescriptor_getlength.htm

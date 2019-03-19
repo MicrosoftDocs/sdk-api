@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetUnjoinDomain
-title: NetUnjoinDomain function
+title: NetUnjoinDomain function (lmjoin.h)
 author: windows-sdk-content
 description: The NetUnjoinDomain function unjoins a computer from a workgroup or a domain.
 old-location: netmgmt\netunjoindomain.htm

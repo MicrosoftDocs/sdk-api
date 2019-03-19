@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.__unnamed_struct_5
-title: DLGITEMTEMPLATE
+title: DLGITEMTEMPLATE (winuser.h)
 author: windows-sdk-content
 description: Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a DLGTEMPLATE structure to form a standard template for a dialog box.
 old-location: dlgbox\dlgitemtemplate.htm

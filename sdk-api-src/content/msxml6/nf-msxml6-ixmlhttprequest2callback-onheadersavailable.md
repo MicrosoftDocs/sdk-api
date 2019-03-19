@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnHeadersAvailable
-title: IXMLHTTPRequest2Callback::OnHeadersAvailable
+title: IXMLHTTPRequest2Callback::OnHeadersAvailable (msxml6.h)
 author: windows-sdk-content
 description: Occurs after an HTTP request has been sent to the server and the server has responded with response headers.
 old-location: ixhr2\ixmlhttprequest2callback_onheadersavailable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator2.put_ProgramNumber
-title: IATSCLocator2::put_ProgramNumber
+title: IATSCLocator2::put_ProgramNumber (tuner.h)
 author: windows-sdk-content
 description: The put_ProgramNumber method specifies the program number.
 old-location: mstv\iatsclocator2_put_programnumber.htm

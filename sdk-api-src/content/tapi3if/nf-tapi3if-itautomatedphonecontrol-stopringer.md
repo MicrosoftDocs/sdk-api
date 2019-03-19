@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.StopRinger
-title: ITAutomatedPhoneControl::StopRinger
+title: ITAutomatedPhoneControl::StopRinger (tapi3if.h)
 author: windows-sdk-content
 description: The StopRinger method ceases any incoming ring that is currently being produced. If no ring is being produced, the method performs no action and returns success.
 old-location: tapi3\itautomatedphonecontrol_stopringer.htm

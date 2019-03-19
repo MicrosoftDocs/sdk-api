@@ -1,6 +1,6 @@
 ---
 UID: NS:directxpackedvector.XMSHORT2
-title: XMSHORT2
+title: XMSHORT2 (directxpackedvector.h)
 author: windows-sdk-content
 description: Describes a 2D vector consisting of 16-bit signed and normalized integer components.
 old-location: dxmath\xmshort2.htm

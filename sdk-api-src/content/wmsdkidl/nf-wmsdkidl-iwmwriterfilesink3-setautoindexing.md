@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetAutoIndexing
-title: IWMWriterFileSink3::SetAutoIndexing
+title: IWMWriterFileSink3::SetAutoIndexing (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetAutoIndexing method enables or disables automatic indexing of the file.
 old-location: wmformat\iwmwriterfilesink3_setautoindexing.htm

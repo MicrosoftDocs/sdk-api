@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6GetVendorOptionValue
-title: PxeDhcpv6GetVendorOptionValue function
+title: PxeDhcpv6GetVendorOptionValue function (wdspxe.h)
 author: windows-sdk-content
 description: Retrieves option values from the OPTION_VENDOR_OPTS (17) field of a DHCPv6 packet.
 old-location: wds\pxedhcpv6getvendoroptionvalue.htm

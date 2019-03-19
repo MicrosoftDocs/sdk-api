@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SERVICE_METADATA_DOCUMENT
-title: WS_SERVICE_METADATA_DOCUMENT
+title: WS_SERVICE_METADATA_DOCUMENT (webservices.h)
 author: windows-sdk-content
 description: Specifies the individual documents that make up the service metadata.
 old-location: wsw\ws_service_metadata_document.htm

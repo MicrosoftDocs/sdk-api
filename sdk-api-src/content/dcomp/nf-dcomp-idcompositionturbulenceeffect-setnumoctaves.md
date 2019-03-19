@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetNumOctaves
-title: IDCompositionTurbulenceEffect::SetNumOctaves
+title: IDCompositionTurbulenceEffect::SetNumOctaves (dcomp.h)
 author: windows-sdk-content
 description: Sets the number of octaves for the noise function.
 old-location: directcomp\idcompositionturbulenceeffect_setnumoctaves.htm

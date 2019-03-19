@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.PollForPotentialSupportedProperties
-title: IUIAutomation::PollForPotentialSupportedProperties
+title: IUIAutomation::PollForPotentialSupportedProperties (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the properties that might be supported on a UI Automation element.
 old-location: winauto\uiauto_IUIAutomation_PollForPotentialSupportedProperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmObject
-title: IFsrmObject
+title: IFsrmObject (fsrm.h)
 author: windows-sdk-content
 description: Base class for all FSRM objects.
 old-location: fsrm\ifsrmobject.htm

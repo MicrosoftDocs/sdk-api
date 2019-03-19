@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextStory.GetRange
-title: ITextStory::GetRange
+title: ITextStory::GetRange (tom.h)
 author: windows-sdk-content
 description: Gets a text range object for the story.
 old-location: controls\itextstory_getrange.htm

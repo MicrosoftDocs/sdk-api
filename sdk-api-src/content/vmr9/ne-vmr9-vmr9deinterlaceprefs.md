@@ -1,6 +1,6 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0013_0001
-title: VMR9DeinterlacePrefs
+title: VMR9DeinterlacePrefs (vmr9.h)
 author: windows-sdk-content
 description: The VMR9DeinterlacePrefs enumeration type describes the deinterlacing method that the Video Mixing Renderer Filter 9 (VMR-9) uses if the method set by the application cannot be used.
 old-location: dshow\vmr9deinterlaceprefs.htm

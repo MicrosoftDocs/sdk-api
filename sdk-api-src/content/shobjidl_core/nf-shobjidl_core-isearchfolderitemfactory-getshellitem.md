@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.GetShellItem
-title: ISearchFolderItemFactory::GetShellItem
+title: ISearchFolderItemFactory::GetShellItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the search folder as a IShellItem.
 old-location: shell\ISearchFolderItemFactory_GetShellItem.htm

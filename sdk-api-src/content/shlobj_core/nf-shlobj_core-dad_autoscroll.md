@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.DAD_AutoScroll
-title: DAD_AutoScroll function
+title: DAD_AutoScroll function (shlobj_core.h)
 author: windows-sdk-content
 description: Scrolls the window while an image is being dragged.
 old-location: shell\DAD_AutoScroll.htm

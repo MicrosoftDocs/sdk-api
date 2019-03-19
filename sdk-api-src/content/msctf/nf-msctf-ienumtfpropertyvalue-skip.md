@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfPropertyValue.Skip
-title: IEnumTfPropertyValue::Skip
+title: IEnumTfPropertyValue::Skip (msctf.h)
 author: windows-sdk-content
 description: IEnumTfPropertyValue::Skip method
 old-location: tsf\ienumtfpropertyvalue_skip.htm

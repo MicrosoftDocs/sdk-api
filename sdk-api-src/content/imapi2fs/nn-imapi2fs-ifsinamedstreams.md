@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2fs.IFsiNamedStreams
-title: IFsiNamedStreams
+title: IFsiNamedStreams (imapi2fs.h)
 author: windows-sdk-content
 description: Use this interface to enumerate the named streams associated with a file in a file system image.
 old-location: imapi\ifsinamedstreams.htm

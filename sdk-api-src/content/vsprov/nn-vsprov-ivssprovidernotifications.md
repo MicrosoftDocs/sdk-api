@@ -1,6 +1,6 @@
 ---
 UID: NN:vsprov.IVssProviderNotifications
-title: IVssProviderNotifications
+title: IVssProviderNotifications (vsprov.h)
 author: windows-sdk-content
 description: The IVssProviderNotifications interface manages providers registered with VSS.
 old-location: base\ivssprovidernotifications.htm

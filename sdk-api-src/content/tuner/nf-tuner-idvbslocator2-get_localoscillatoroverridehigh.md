@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator2.get_LocalOscillatorOverrideHigh
-title: IDVBSLocator2::get_LocalOscillatorOverrideHigh
+title: IDVBSLocator2::get_LocalOscillatorOverrideHigh (tuner.h)
 author: windows-sdk-content
 description: Specifies the high oscillator frequency of a Digital Video Broadcasting (DVB) system, in kHz.
 old-location: mstv\idvbslocator2_localoscillatoroverridehigh.htm

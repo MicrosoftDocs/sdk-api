@@ -1,6 +1,6 @@
 ---
 UID: NN:atscpsipparser.IServiceLocationDescriptor
-title: IServiceLocationDescriptor
+title: IServiceLocationDescriptor (atscpsipparser.h)
 author: windows-sdk-content
 description: Gets information from the Service Location Descriptor in an Advanced Television Systems Committee (ATSC) Virtual Channel Table (VCT).
 old-location: mstv\iservicelocationdescriptor.htm

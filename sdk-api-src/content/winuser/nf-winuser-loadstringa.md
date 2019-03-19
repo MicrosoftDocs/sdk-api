@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.LoadStringA
-title: LoadStringA function
+title: LoadStringA function (winuser.h)
 author: windows-sdk-content
 description: Loads a string resource from the executable file associated with a specified module, copies the string into a buffer, and appends a terminating null character.
 old-location: menurc\loadstring.htm

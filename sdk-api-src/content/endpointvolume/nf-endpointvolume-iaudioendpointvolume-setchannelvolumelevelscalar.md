@@ -1,6 +1,6 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetChannelVolumeLevelScalar
-title: IAudioEndpointVolume::SetChannelVolumeLevelScalar
+title: IAudioEndpointVolume::SetChannelVolumeLevelScalar (endpointvolume.h)
 author: windows-sdk-content
 description: The SetChannelVolumeLevelScalar method sets the normalized, audio-tapered volume level of the specified channel in the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setchannelvolumelevelscalar.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdxml.WSDXMLGetNameFromBuiltinNamespace
-title: WSDXMLGetNameFromBuiltinNamespace function
+title: WSDXMLGetNameFromBuiltinNamespace function (wsdxml.h)
 author: windows-sdk-content
 description: Gets a specified name from the built-in namespace.
 old-location: ncd\wsdxmlgetnamefrombuiltinnamespace.htm

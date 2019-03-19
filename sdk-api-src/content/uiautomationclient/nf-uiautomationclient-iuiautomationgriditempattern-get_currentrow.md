@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CurrentRow
-title: IUIAutomationGridItemPattern::get_CurrentRow
+title: IUIAutomationGridItemPattern::get_CurrentRow (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the zero-based index of the row that contains the grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CurrentRow.htm

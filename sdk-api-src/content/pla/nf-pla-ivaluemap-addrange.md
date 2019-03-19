@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IValueMap.AddRange
-title: IValueMap::AddRange
+title: IValueMap::AddRange (pla.h)
 author: windows-sdk-content
 description: Adds one or more items to the collection.
 old-location: pla\ivaluemap_addrange.htm

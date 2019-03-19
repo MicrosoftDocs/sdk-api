@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawRoundedRectangle
-title: ID2D1RenderTarget::DrawRoundedRectangle
+title: ID2D1RenderTarget::DrawRoundedRectangle (d2d1.h)
 author: windows-sdk-content
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 old-location: direct2d\id2d1rendertarget_drawroundedrectangle.htm

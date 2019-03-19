@@ -1,6 +1,6 @@
 ---
 UID: NF:lmconfig.NetConfigSet
-title: NetConfigSet function
+title: NetConfigSet function (lmconfig.h)
 author: windows-sdk-content
 description: The NetConfigSet function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
 old-location: netmgmt\netconfigset.htm

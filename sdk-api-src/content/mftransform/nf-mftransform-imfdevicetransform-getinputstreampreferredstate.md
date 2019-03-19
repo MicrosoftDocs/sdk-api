@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputStreamPreferredState
-title: IMFDeviceTransform::GetInputStreamPreferredState
+title: IMFDeviceTransform::GetInputStreamPreferredState (mftransform.h)
 author: windows-sdk-content
 description: The GetInputStreamPreferredState method gets a Device MFT input stream’s preferred state and media type.
 old-location: stream\imfdevicetransform_getinputstreampreferredstate.htm

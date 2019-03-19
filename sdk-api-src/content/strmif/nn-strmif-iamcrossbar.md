@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMCrossbar
-title: IAMCrossbar
+title: IAMCrossbar (strmif.h)
 author: windows-sdk-content
 description: The IAMCrossbar interface routes signals from an analog or digital source to a video capture filter.This interface is implemented by the Analog Video Crossbar Filter.
 old-location: dshow\iamcrossbar.htm

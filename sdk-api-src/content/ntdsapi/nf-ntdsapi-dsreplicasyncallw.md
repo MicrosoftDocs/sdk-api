@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsReplicaSyncAllW
-title: DsReplicaSyncAllW function
+title: DsReplicaSyncAllW function (ntdsapi.h)
 author: windows-sdk-content
 description: Synchronizes a server with all other servers, using transitive replication, as necessary.
 old-location: ad\dsreplicasyncall.htm

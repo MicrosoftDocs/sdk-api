@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.SetComputerNameExA
-title: SetComputerNameExA function
+title: SetComputerNameExA function (sysinfoapi.h)
 author: windows-sdk-content
 description: Sets a new NetBIOS or DNS name for the local computer.
 old-location: base\setcomputernameex.htm

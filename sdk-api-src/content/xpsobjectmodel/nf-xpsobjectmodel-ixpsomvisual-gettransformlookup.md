@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransformLookup
-title: IXpsOMVisual::GetTransformLookup
+title: IXpsOMVisual::GetTransformLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the lookup key name of the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the visual.
 old-location: xps\ixpsomvisual_gettransformlookup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetCustomHeaders
-title: IBackgroundCopyJobHttpOptions::SetCustomHeaders
+title: IBackgroundCopyJobHttpOptions::SetCustomHeaders (bits2_5.h)
 author: windows-sdk-content
 description: Specifies one or more custom HTTP headers to include in HTTP requests.
 old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm

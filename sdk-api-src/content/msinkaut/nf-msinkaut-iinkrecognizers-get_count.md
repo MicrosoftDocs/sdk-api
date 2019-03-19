@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizers.get_Count
-title: IInkRecognizers::get_Count
+title: IInkRecognizers::get_Count (msinkaut.h)
 author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\inkrecognizers_count.htm

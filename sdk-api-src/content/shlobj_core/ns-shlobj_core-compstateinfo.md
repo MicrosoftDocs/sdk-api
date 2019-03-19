@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._tagCOMPSTATEINFO
-title: COMPSTATEINFO
+title: COMPSTATEINFO (shlobj_core.h)
 author: windows-sdk-content
 description: Used by Windows 2000 to hold information about a component's state.
 old-location: shell\COMPSTATEINFO.htm

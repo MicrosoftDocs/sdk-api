@@ -1,6 +1,6 @@
 ---
 UID: NE:bcrypt.__unnamed_enum_4
-title: BCRYPT_HASH_OPERATION_TYPE
+title: BCRYPT_HASH_OPERATION_TYPE (bcrypt.h)
 author: windows-sdk-content
 description: The BCRYPT_HASH_OPERATION_TYPE enumeration specifies the hash operation type.
 old-location: security\bcrypt_hash_operation_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IAgileObject
-title: IAgileObject
+title: IAgileObject (objidl.h)
 author: windows-sdk-content
 description: Marks an interface as agile across apartments.
 old-location: com\iagileobject.htm

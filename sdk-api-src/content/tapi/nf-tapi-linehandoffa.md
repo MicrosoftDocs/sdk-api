@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineHandoffA
-title: lineHandoffA function
+title: lineHandoffA function (tapi.h)
 author: windows-sdk-content
 description: The lineHandoff function gives ownership of the specified call to another application. The application can be either specified directly by its file name or indirectly as the highest priority application that handles calls of the specified media mode.
 old-location: tapi2\linehandoff.htm

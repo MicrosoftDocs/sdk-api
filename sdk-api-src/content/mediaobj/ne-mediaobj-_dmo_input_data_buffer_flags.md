@@ -1,6 +1,6 @@
 ---
 UID: NE:mediaobj._DMO_INPUT_DATA_BUFFER_FLAGS
-title: "_DMO_INPUT_DATA_BUFFER_FLAGS"
+title: "_DMO_INPUT_DATA_BUFFER_FLAGS" (mediaobj.h)
 author: windows-sdk-content
 description: The DMO_INPUT_DATA_BUFFER_FLAGS enumeration defines flags that describe an input buffer.
 old-location: dshow\dmo_input_data_buffer_flags.htm

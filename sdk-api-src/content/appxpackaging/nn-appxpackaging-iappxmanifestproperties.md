@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestProperties
-title: IAppxManifestProperties
+title: IAppxManifestProperties (appxpackaging.h)
 author: windows-sdk-content
 description: Provides read-only access to the properties section of a package manifest.
 old-location: appxpkg\iappxmanifestproperties.htm

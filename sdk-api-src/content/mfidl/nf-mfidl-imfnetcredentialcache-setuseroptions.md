@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.SetUserOptions
-title: IMFNetCredentialCache::SetUserOptions
+title: IMFNetCredentialCache::SetUserOptions (mfidl.h)
 author: windows-sdk-content
 description: Specifies how user credentials are stored.
 old-location: mf\imfnetcredentialcache_setuseroptions.htm

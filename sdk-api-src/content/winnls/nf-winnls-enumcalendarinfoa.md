@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumCalendarInfoA
-title: EnumCalendarInfoA function
+title: EnumCalendarInfoA function (winnls.h)
 author: windows-sdk-content
 description: Enumerates calendar information for a specified locale.Note  To receive a calendar identifier in addition to calendar information, the application should use the EnumCalendarInfoEx function.
 old-location: intl\enumcalendarinfo.htm

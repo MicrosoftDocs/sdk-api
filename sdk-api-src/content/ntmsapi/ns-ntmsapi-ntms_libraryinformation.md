@@ -1,6 +1,6 @@
 ---
 UID: NS:ntmsapi._NTMS_LIBRARYINFORMATION
-title: NTMS_LIBRARYINFORMATION
+title: NTMS_LIBRARYINFORMATION (ntmsapi.h)
 author: windows-sdk-content
 description: The NTMS_LIBRARYINFORMATION structure defines properties specific to a library object.
 old-location: fs\ntms_libraryinformation.htm

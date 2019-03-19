@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_1
-title: Session_IPv4
+title: Session_IPv4 (lpmapi.h)
 author: windows-sdk-content
 description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
 old-location: qos\session_ipv4.htm

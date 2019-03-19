@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterVolumeInstanceFindClose
-title: FilterVolumeInstanceFindClose function
+title: FilterVolumeInstanceFindClose function (fltuser.h)
 author: windows-sdk-content
 description: The FilterVolumeInstanceFindClose function closes the specified volume instance search handle. FilterVolumeInstanceFindFirst and FilterVolumeInstanceFindNext use this search handle to locate instances on a volume.
 old-location: ifsk\filtervolumeinstancefindclose.htm

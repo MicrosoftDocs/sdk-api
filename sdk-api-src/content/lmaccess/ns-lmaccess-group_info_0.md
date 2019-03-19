@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_0
-title: GROUP_INFO_0
+title: GROUP_INFO_0 (lmaccess.h)
 author: windows-sdk-content
 description: The GROUP_INFO_0 structure contains the name of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\group_info_0_str.htm

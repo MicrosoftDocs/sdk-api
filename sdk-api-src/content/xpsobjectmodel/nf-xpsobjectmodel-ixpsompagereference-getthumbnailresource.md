@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetThumbnailResource
-title: IXpsOMPageReference::GetThumbnailResource
+title: IXpsOMPageReference::GetThumbnailResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMImageResource interface of the thumbnail image resource that is associated with the page.
 old-location: xps\ixpsompagereference_getthumbnailresource.htm

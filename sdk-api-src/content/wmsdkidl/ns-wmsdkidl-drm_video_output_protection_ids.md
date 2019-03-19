@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_VIDEO_OUTPUT_PROTECTION_IDS
-title: DRM_VIDEO_OUTPUT_PROTECTION_IDS
+title: DRM_VIDEO_OUTPUT_PROTECTION_IDS (wmsdkidl.h)
 author: windows-sdk-content
 description: The DRM_VIDEO_OUTPUT_PROTECTION_IDS structure holds an array of DRM_VIDEO_OUTPUT_PROTECTION structures.
 old-location: wmformat\drm_video_output_protection_ids.htm

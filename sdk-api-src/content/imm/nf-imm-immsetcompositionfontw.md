@@ -1,6 +1,6 @@
 ---
 UID: NF:imm.ImmSetCompositionFontW
-title: ImmSetCompositionFontW function
+title: ImmSetCompositionFontW function (imm.h)
 author: windows-sdk-content
 description: Sets the logical font to use to display characters in the composition window.
 old-location: intl\immsetcompositionfont.htm

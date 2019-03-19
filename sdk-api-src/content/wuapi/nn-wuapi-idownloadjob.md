@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IDownloadJob
-title: IDownloadJob
+title: IDownloadJob (wuapi.h)
 author: windows-sdk-content
 description: Contains properties and methods that are available to a download operation.
 old-location: wua\idownloadjob.htm

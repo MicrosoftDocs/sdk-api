@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaLookupId
-title: UiaLookupId function
+title: UiaLookupId function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets the integer identifier that can be used in methods that require a PROPERTYID, PATTERNID, CONTROLTYPEID, TEXTATTRIBUTEID, or EVENTID.
 old-location: winauto\uiauto_UiaLookupIdAutoMeth.htm

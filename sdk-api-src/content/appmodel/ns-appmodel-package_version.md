@@ -1,6 +1,6 @@
 ---
 UID: NS:appmodel.PACKAGE_VERSION
-title: PACKAGE_VERSION
+title: PACKAGE_VERSION (appmodel.h)
 author: windows-sdk-content
 description: Represents the package version information.
 old-location: appxpkg\package_version.htm

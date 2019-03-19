@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_FirewallEnabled
-title: INetFwPolicy2::get_FirewallEnabled
+title: INetFwPolicy2::get_FirewallEnabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether a firewall is enabled locally (the effective result may differ due to group policy settings).
 old-location: ics\inetfwpolicy2_firewallenabled.htm

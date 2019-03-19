@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Device.GetMaximumTextureMemory
-title: ID2D1Device::GetMaximumTextureMemory
+title: ID2D1Device::GetMaximumTextureMemory (d2d1_1.h)
 author: windows-sdk-content
 description: Sets the maximum amount of texture memory Direct2D accumulates before it purges the image caches and cached texture allocations.
 old-location: direct2d\id2d1device_getmaximumtexturememory.htm

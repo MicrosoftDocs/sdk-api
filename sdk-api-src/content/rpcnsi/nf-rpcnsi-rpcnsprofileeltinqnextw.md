@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileEltInqNextW
-title: RpcNsProfileEltInqNextW function
+title: RpcNsProfileEltInqNextW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsProfileEltInqNext function returns one element at a time from a profile.
 old-location: rpc\rpcnsprofileeltinqnext.htm

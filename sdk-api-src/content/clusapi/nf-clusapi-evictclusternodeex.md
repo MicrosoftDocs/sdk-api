@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.EvictClusterNodeEx
-title: EvictClusterNodeEx function
+title: EvictClusterNodeEx function (clusapi.h)
 author: windows-sdk-content
 description: Evicts a node from the cluster and initiates cleanup operations on the node.
 old-location: mscs\evictclusternodeex.htm

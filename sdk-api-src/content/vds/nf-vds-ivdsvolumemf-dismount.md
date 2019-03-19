@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF.Dismount
-title: IVdsVolumeMF::Dismount
+title: IVdsVolumeMF::Dismount (vds.h)
 author: windows-sdk-content
 description: Dismounts a mounted volume.
 old-location: base\ivdsvolumemf_dismount.htm

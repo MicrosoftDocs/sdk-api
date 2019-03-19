@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob2.get_HasCoverPage
-title: IFaxOutgoingJob2::get_HasCoverPage
+title: IFaxOutgoingJob2::get_HasCoverPage (faxcomex.h)
 author: windows-sdk-content
 description: Specifies if the fax has a cover page.
 old-location: fax\_mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_hascoverpage_cpp.htm

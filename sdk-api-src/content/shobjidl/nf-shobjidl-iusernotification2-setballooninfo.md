@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IUserNotification2.SetBalloonInfo
-title: IUserNotification2::SetBalloonInfo
+title: IUserNotification2::SetBalloonInfo (shobjidl.h)
 author: windows-sdk-content
 description: Sets the information to be displayed in a balloon notification.
 old-location: shell\IUserNotification2_SetBalloonInfo.htm

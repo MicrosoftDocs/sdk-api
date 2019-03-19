@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetRectComplex
-title: IOleDocumentView::SetRectComplex
+title: IOleDocumentView::SetRectComplex (docobj.h)
 author: windows-sdk-content
 description: Sets the rectangular coordinates of the viewport, scroll bars, and size box.
 old-location: com\ioledocumentview_setrectcomplex.htm

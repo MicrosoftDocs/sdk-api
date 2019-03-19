@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IColumnData.SetColumnConfigData
-title: IColumnData::SetColumnConfigData
+title: IColumnData::SetColumnConfigData (mmc.h)
 author: windows-sdk-content
 description: The IColumnData::SetColumnConfigData method enables a snap-in to set the persisted width, order, and hidden status of columns in a column set.
 old-location: mmc\icolumndata_setcolumnconfigdata.htm

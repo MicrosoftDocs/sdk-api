@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceRelogger.CreateEventInstance
-title: ITraceRelogger::CreateEventInstance
+title: ITraceRelogger::CreateEventInstance (relogger.h)
 author: windows-sdk-content
 description: Generates a new event.
 old-location: etw\itracerelogger_createeventinstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvEndDoc
-title: DrvEndDoc function
+title: DrvEndDoc function (winddi.h)
 author: windows-sdk-content
 description: The DrvEndDoc function is called by GDI when it has finished sending a document to the driver for rendering.
 old-location: display\drvenddoc.htm

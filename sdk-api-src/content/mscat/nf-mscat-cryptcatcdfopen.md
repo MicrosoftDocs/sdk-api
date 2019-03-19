@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATCDFOpen
-title: CryptCATCDFOpen function
+title: CryptCATCDFOpen function (mscat.h)
 author: windows-sdk-content
 description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
 old-location: security\cryptcatcdfopen.htm

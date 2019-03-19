@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_GreaterThanLong
-title: FLOATOBJ_GreaterThanLong function
+title: FLOATOBJ_GreaterThanLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_GreaterThanLong function determines whether the FLOATOBJ is greater than the value of type LONG.
 old-location: display\floatobj_greaterthanlong.htm

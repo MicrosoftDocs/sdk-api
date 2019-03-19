@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Res_Des_Data_Size
-title: CM_Get_Res_Des_Data_Size function
+title: CM_Get_Res_Des_Data_Size function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Get_Res_Des_Data_Size function obtains the buffer size required to hold the information contained in a specified resource descriptor on the local machine.
 old-location: devinst\cm_get_res_des_data_size.htm

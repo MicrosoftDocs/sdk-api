@@ -1,6 +1,6 @@
 ---
 UID: NE:wsdbase._WSDUdpMessageType
-title: WSDUdpMessageType
+title: WSDUdpMessageType (wsdbase.h)
 author: windows-sdk-content
 description: Identifies the type of UDP message.
 old-location: ncd\wsdudpmessagetype.htm

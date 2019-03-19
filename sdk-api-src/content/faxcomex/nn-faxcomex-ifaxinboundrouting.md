@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxInboundRouting
-title: IFaxInboundRouting
+title: IFaxInboundRouting (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRouting interface defines a configuration object used by a fax client application to access the inbound routing extensions registered with the fax service, represented by FaxInboundRoutingExtensions objects, and the routing methods the extensions expose, represented by FaxInboundRoutingMethods objects.
 old-location: fax\_mfax_faxinboundrouting_cpp.htm

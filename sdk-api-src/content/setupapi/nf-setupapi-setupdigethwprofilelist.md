@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileList
-title: SetupDiGetHwProfileList function
+title: SetupDiGetHwProfileList function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetHwProfileList function retrieves a list of all currently defined hardware profile IDs.
 old-location: devinst\setupdigethwprofilelist.htm

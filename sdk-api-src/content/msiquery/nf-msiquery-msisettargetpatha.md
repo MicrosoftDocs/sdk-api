@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiSetTargetPathA
-title: MsiSetTargetPathA function
+title: MsiSetTargetPathA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiSetTargetPath function sets the full target path for a folder in the Directory table.
 old-location: setup\msisettargetpath.htm

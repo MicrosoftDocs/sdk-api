@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.NormalizeState
-title: NormalizeState
+title: NormalizeState (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Contains values that specify the behavior of UiaGetUpdatedCache.
 old-location: winauto\uiauto_NormalizeStateEnum.htm

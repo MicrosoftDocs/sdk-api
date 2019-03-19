@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdattachment.IWSDOutboundAttachment.Write
-title: IWSDOutboundAttachment::Write
+title: IWSDOutboundAttachment::Write (wsdattachment.h)
 author: windows-sdk-content
 description: Sends attachment data to the remote host using a MIME container.
 old-location: ncd\iwsdoutboundattachment_write_method.htm

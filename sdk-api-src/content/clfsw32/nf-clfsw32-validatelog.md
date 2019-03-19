@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.ValidateLog
-title: ValidateLog function
+title: ValidateLog function (clfsw32.h)
 author: windows-sdk-content
 description: Validates the consistency of the log metadata and data before log archive and after log restore.
 old-location: fs\validatelogrestore.htm

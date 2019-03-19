@@ -1,6 +1,6 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientTouchPointer
-title: IRemoteDesktopClientTouchPointer
+title: IRemoteDesktopClientTouchPointer (rdpappcontainerclient.h)
 author: windows-sdk-content
 description: Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer.htm

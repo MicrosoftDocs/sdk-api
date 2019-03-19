@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_COLOR_YCbCrA
-title: D3D11_VIDEO_COLOR_YCbCrA
+title: D3D11_VIDEO_COLOR_YCbCrA (d3d11.h)
 author: windows-sdk-content
 description: Specifies a YCbCr color value.
 old-location: mf\d3d11_video_color_ycbcra.htm

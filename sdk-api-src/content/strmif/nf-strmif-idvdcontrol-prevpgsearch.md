@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl.PrevPGSearch
-title: IDvdControl::PrevPGSearch
+title: IDvdControl::PrevPGSearch (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current program and starts playback from the previous program within the program chain (PGC).
 old-location: dshow\idvdcontrol_prevpgsearch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_DIMENSION
-title: D3D12_RESOURCE_DIMENSION
+title: D3D12_RESOURCE_DIMENSION (d3d12.h)
 author: windows-sdk-content
 description: Identifies the type of resource being used.
 old-location: direct3d12\d3d12_resource_dimension.htm

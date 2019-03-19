@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsUpdateAgentInfo.GetInfo
-title: IWindowsUpdateAgentInfo::GetInfo
+title: IWindowsUpdateAgentInfo::GetInfo (wuapi.h)
 author: windows-sdk-content
 description: Retrieves version information about Windows Update Agent (WUA).
 old-location: wua\iwindowsupdateagentinfo_getinfo.htm

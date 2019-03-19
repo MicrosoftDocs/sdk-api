@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_BINDING_TEMPLATE
-title: WS_HTTP_BINDING_TEMPLATE
+title: WS_HTTP_BINDING_TEMPLATE (webservices.h)
 author: windows-sdk-content
 description: HTTP template structure to be filled in by application for http binding.
 old-location: wsw\ws_http_binding_template.htm

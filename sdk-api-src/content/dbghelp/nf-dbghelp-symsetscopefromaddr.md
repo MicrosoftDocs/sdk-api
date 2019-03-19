@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromAddr
-title: SymSetScopeFromAddr function
+title: SymSetScopeFromAddr function (dbghelp.h)
 author: windows-sdk-content
 description: Sets the local scope to the symbol that matches the specified address.
 old-location: base\symsetscopefromaddr.htm

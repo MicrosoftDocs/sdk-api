@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateFileMappingA
-title: CreateFileMappingA function
+title: CreateFileMappingA function (winbase.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file.
 old-location: base\createfilemapping.htm

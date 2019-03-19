@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.RegisterForEvent
-title: ICodecAPI::RegisterForEvent
+title: ICodecAPI::RegisterForEvent (strmif.h)
 author: windows-sdk-content
 description: The RegisterForEvent method registers the application to receive events from the codec.
 old-location: dshow\icodecapi_registerforevent.htm

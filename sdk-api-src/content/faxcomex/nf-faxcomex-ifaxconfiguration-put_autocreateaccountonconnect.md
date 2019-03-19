@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_AutoCreateAccountOnConnect
-title: IFaxConfiguration::put_AutoCreateAccountOnConnect
+title: IFaxConfiguration::put_AutoCreateAccountOnConnect (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the server automatically creates a fax account once a connection is initiated.
 old-location: fax\_mfax_IFaxConfiguration_AutoCreateAccountOnConnect.htm

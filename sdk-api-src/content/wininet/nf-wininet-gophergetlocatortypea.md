@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.GopherGetLocatorTypeA
-title: GopherGetLocatorTypeA function
+title: GopherGetLocatorTypeA function (wininet.h)
 author: windows-sdk-content
 description: Parses a Gopher locator and determines its attributes.
 old-location: wininet\gophergetlocatortype.htm

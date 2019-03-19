@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxImmGetContext
-title: ITextHost::TxImmGetContext
+title: ITextHost::TxImmGetContext (textserv.h)
 author: windows-sdk-content
 description: Retrieves the Input Method Editor (IME) input context associated with the text services host. This method is used only in Asian-language versions of the operating system.
 old-location: controls\ITextHost_TxImmGetContext.htm

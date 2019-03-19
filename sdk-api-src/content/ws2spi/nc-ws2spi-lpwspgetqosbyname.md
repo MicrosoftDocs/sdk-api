@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPWSPGETQOSBYNAME
-title: LPWSPGETQOSBYNAME
+title: LPWSPGETQOSBYNAME (ws2spi.h)
 author: windows-sdk-content
 description: The WSPGetQOSByName function initializes a QOS structure based on a named template, or retrieves an enumeration of the available template names.
 old-location: winsock\wspgetqosbyname_2.htm

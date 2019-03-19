@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.UnregisterFolder
-title: IKnownFolderManager::UnregisterFolder
+title: IKnownFolderManager::UnregisterFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Remove a known folder from the registry, which makes it unknown to the known folder system. This method does not remove the folder itself.
 old-location: shell\IKnownFolderManager_UnregisterFolder.htm

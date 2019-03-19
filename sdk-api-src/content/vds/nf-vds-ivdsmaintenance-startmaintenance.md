@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsMaintenance.StartMaintenance
-title: IVdsMaintenance::StartMaintenance
+title: IVdsMaintenance::StartMaintenance (vds.h)
 author: windows-sdk-content
 description: Starts a maintenance operation.
 old-location: base\ivdsmaintenance_startmaintenance.htm

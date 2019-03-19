@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILayoutStorage.BeginMonitor
-title: ILayoutStorage::BeginMonitor
+title: ILayoutStorage::BeginMonitor (objidl.h)
 author: windows-sdk-content
 description: The BeginMonitor method is used to begin monitoring when a loading operation is started. When the operation is complete, the application must call ILayoutStorage::EndMonitor.
 old-location: stg\ilayoutstorage_beginmonitor.htm

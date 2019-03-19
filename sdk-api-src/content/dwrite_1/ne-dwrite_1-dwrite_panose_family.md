@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_FAMILY
-title: DWRITE_PANOSE_FAMILY
+title: DWRITE_PANOSE_FAMILY (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_FAMILY enumeration contains values that specify the kind of typeface classification.
 old-location: directwrite\dwrite_panose_family.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCOMBOBOXINFO
-title: COMBOBOXINFO
+title: COMBOBOXINFO (winuser.h)
 author: windows-sdk-content
 description: Contains combo box status information.
 old-location: controls\COMBOBOXINFO.htm

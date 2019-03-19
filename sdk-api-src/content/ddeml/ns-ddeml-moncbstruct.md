@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagMONCBSTRUCT
-title: MONCBSTRUCT
+title: MONCBSTRUCT (ddeml.h)
 author: windows-sdk-content
 description: Contains information about the current Dynamic Data Exchange (DDE) transaction. A DDE debugging application can use this structure when monitoring transactions that the system passes to the DDE callback functions of other applications.
 old-location: dataxchg\moncbstruct_str.htm

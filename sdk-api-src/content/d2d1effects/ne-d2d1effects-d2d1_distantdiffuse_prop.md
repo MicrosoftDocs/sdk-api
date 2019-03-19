@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects.D2D1_DISTANTDIFFUSE_PROP
-title: D2D1_DISTANTDIFFUSE_PROP
+title: D2D1_DISTANTDIFFUSE_PROP (d2d1effects.h)
 author: windows-sdk-content
 description: Identifiers for properties of the Distant-diffuse lighting effect.
 old-location: direct2d\d2d1_distantdiffuse_prop.htm

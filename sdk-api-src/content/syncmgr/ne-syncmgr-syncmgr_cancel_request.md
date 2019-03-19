@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_CANCEL_REQUEST
-title: SYNCMGR_CANCEL_REQUEST
+title: SYNCMGR_CANCEL_REQUEST (syncmgr.h)
 author: windows-sdk-content
 description: Describes a request by the user to cancel a synchronization.
 old-location: shell\SYNCMGR_CANCEL_REQUEST.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:indexsrv.IColumnMapper
-title: IColumnMapper
+title: IColumnMapper (indexsrv.h)
 author: windows-sdk-content
 description: Retrieves property information for file based queries.
 old-location: search\icolumnmapper.htm

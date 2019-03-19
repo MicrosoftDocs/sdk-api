@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.LinearGradientMode
-title: LinearGradientMode
+title: LinearGradientMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The LinearGradientMode enumeration specifies the direction in which the change of color occurs for a linear gradient brush.
 old-location: gdiplus\_gdiplus_ENUM_LinearGradientMode.htm

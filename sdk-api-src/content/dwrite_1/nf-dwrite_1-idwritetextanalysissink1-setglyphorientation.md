@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalysisSink1.SetGlyphOrientation
-title: IDWriteTextAnalysisSink1::SetGlyphOrientation
+title: IDWriteTextAnalysisSink1::SetGlyphOrientation (dwrite_1.h)
 author: windows-sdk-content
 description: The text analyzer calls back to this to report the actual orientation of each character for shaping and drawing.
 old-location: directwrite\idwritetextanalysissink1_setglyphorientation.htm

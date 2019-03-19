@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetOutputOverride
-title: IMFASFStreamSelector::SetOutputOverride
+title: IMFASFStreamSelector::SetOutputOverride (wmcontainer.h)
 author: windows-sdk-content
 description: Sets the selection status of an output, overriding other selection criteria.
 old-location: mf\imfasfstreamselector_setoutputoverride.htm

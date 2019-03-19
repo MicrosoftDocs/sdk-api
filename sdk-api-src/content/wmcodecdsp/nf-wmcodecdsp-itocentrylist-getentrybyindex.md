@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryByIndex
-title: ITocEntryList::GetEntryByIndex
+title: ITocEntryList::GetEntryByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetEntryByIndex method retrieves an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_getentrybyindex.htm

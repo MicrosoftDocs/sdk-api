@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.DWriteEngine2Events.Update
-title: DWriteEngine2Events::Update
+title: DWriteEngine2Events::Update (imapi2.h)
 author: windows-sdk-content
 description: Implement this method to receive progress notification of the current write operation.
 old-location: imapi\dwriteengine2events_update.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetProtected
-title: ITextFont::SetProtected
+title: ITextFont::SetProtected (tom.h)
 author: windows-sdk-content
 description: Sets whether characters are protected against attempts to modify them.
 old-location: controls\ITextFont_SetProtected.htm

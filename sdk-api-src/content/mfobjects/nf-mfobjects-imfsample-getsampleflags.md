@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleFlags
-title: IMFSample::GetSampleFlags
+title: IMFSample::GetSampleFlags (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves flags associated with the sample.Currently no flags are defined.
 old-location: mf\imfsample_getsampleflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_EXTENSIONS
-title: CERT_EXTENSIONS
+title: CERT_EXTENSIONS (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_EXTENSIONS structure contains an array of extensions.
 old-location: security\cert_extensions.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetStrings
-title: ITextDocument2::GetStrings
+title: ITextDocument2::GetStrings (tom.h)
 author: windows-sdk-content
 description: Gets a collection of rich-text strings.
 old-location: controls\itextdocument2_getstrings.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_Name
-title: INetSharingPortMappingProps::get_Name
+title: INetSharingPortMappingProps::get_Name (netcon.h)
 author: windows-sdk-content
 description: The get_Name method retrieves the name for this port mapping.
 old-location: ics\inetsharingportmappingprops_get_name.htm

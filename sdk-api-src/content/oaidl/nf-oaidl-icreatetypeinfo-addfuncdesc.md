@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddFuncDesc
-title: ICreateTypeInfo::AddFuncDesc
+title: ICreateTypeInfo::AddFuncDesc (oaidl.h)
 author: windows-sdk-content
 description: Adds a function description to the type description.
 old-location: automat\icreatetypeinfo_addfuncdesc.htm

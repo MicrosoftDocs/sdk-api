@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.ReplaceDrive
-title: IVdsSubSystem::ReplaceDrive
+title: IVdsSubSystem::ReplaceDrive (vdshwprv.h)
 author: windows-sdk-content
 description: Replaces or migrates one drive with another in the subsystem.
 old-location: base\ivdssubsystem_replacedrive.htm

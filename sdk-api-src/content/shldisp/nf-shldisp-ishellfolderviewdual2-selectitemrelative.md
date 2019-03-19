@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual2.SelectItemRelative
-title: IShellFolderViewDual2::SelectItemRelative
+title: IShellFolderViewDual2::SelectItemRelative (shldisp.h)
 author: windows-sdk-content
 description: Selects an item relative to the current item.
 old-location: shell\IShellFolderViewDual2_SelectItemRelative.htm

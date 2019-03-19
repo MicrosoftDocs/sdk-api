@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsIscsiInitiatorAdapter
-title: IVdsIscsiInitiatorAdapter
+title: IVdsIscsiInitiatorAdapter (vds.h)
 author: windows-sdk-content
 description: Provides methods to query and interact with iSCSI initiator adapters on the local system.
 old-location: base\ivdsiscsiinitiatoradapter.htm

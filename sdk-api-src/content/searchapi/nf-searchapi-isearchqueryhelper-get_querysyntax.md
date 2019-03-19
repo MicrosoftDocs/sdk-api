@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySyntax
-title: ISearchQueryHelper::get_QuerySyntax
+title: ISearchQueryHelper::get_QuerySyntax (searchapi.h)
 author: windows-sdk-content
 description: Gets the syntax of the query.
 old-location: search\_search_ISearchQueryHelper_get_QuerySyntax.htm

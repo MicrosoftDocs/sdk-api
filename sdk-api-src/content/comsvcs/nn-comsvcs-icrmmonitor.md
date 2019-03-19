@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICrmMonitor
-title: ICrmMonitor
+title: ICrmMonitor (comsvcs.h)
 author: windows-sdk-content
 description: Captures a snapshot of the current state of the CRM and holds a specific CRM clerk.
 old-location: cos\icrmmonitor.htm

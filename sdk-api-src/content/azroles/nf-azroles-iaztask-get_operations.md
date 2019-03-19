@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_Operations
-title: IAzTask::get_Operations
+title: IAzTask::get_Operations (azroles.h)
 author: windows-sdk-content
 description: Retrieves the operations associated with the task.
 old-location: security\iaztask_operations.htm

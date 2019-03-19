@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetDeinterlaceMode
-title: IVMRDeinterlaceControl::GetDeinterlaceMode
+title: IVMRDeinterlaceControl::GetDeinterlaceMode (strmif.h)
 author: windows-sdk-content
 description: The GetDeinterlaceMode method retrieves the deinterlacing mode for the specified video stream.
 old-location: dshow\ivmrdeinterlacecontrol_getdeinterlacemode.htm

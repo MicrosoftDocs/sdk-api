@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpWaitForDisconnect
-title: HttpWaitForDisconnect function
+title: HttpWaitForDisconnect function (http.h)
 author: windows-sdk-content
 description: Notifies the application when the connection to an HTTP client is broken for any reason.
 old-location: http\httpwaitfordisconnect.htm

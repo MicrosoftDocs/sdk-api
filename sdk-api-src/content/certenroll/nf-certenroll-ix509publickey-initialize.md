@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PublicKey.Initialize
-title: IX509PublicKey::Initialize
+title: IX509PublicKey::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a public key algorithm object identifier (OID) and from byte arrays that contain a public key and the associated parameters, if any.
 old-location: security\ix509publickey_initialize_method.htm

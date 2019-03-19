@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetBackupSchema
-title: IVssExamineWriterMetadata::GetBackupSchema
+title: IVssExamineWriterMetadata::GetBackupSchema (vsbackup.h)
 author: windows-sdk-content
 description: The GetBackupSchema method is used by a requester to determine from the Writer Metadata Document the types of backup operations that a given writer can participate in.
 old-location: base\ivssexaminewritermetadata_getbackupschema.htm

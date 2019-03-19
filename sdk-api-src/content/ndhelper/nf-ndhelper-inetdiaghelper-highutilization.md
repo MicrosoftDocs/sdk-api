@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.HighUtilization
-title: INetDiagHelper::HighUtilization
+title: INetDiagHelper::HighUtilization (ndhelper.h)
 author: windows-sdk-content
 description: Check whether the corresponding component is highly utilized.
 old-location: ndf\inetdiaghelpe_highutilization.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.Delete
-title: IFaxIncomingMessage::Delete
+title: IFaxIncomingMessage::Delete (faxcomex.h)
 author: windows-sdk-content
 description: The Delete method deletes the specified fax message from the inbound fax archive.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_delete_cpp.htm

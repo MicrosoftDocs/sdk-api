@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.OfflineClusterGroup
-title: OfflineClusterGroup function
+title: OfflineClusterGroup function (clusapi.h)
 author: windows-sdk-content
 description: Takes a group offline.
 old-location: mscs\offlineclustergroup.htm

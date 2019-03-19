@@ -1,6 +1,6 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Close
-title: ICameraUIControl::Close
+title: ICameraUIControl::Close (camerauicontrol.h)
 author: windows-sdk-content
 description: Closes the user interface control.
 old-location: winprog\icamerauicontrol_close.htm

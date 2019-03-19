@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_STYLE
-title: DWRITE_FONT_STYLE
+title: DWRITE_FONT_STYLE (dwrite.h)
 author: windows-sdk-content
 description: Represents the style of a font face as normal, italic, or oblique.
 old-location: directwrite\dwrite_font_style.htm

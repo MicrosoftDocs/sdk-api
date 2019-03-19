@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_SMTP_AUTHENTICATION_TYPE_ENUM
-title: FAX_SMTP_AUTHENTICATION_TYPE_ENUM
+title: FAX_SMTP_AUTHENTICATION_TYPE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_SMTP_AUTHENTICATION_TYPE_ENUM enumeration defines the configuration options for delivery receipts sent through email.
 old-location: fax\_mfax_fax_smtp_authentication_type_enum.htm

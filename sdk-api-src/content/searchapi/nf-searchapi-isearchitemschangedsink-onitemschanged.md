@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.OnItemsChanged
-title: ISearchItemsChangedSink::OnItemsChanged
+title: ISearchItemsChangedSink::OnItemsChanged (searchapi.h)
 author: windows-sdk-content
 description: Call this method to notify an indexer to re-index some changed items.
 old-location: search\_search_ISearchItemsChangedSink_OnItemsChanged.htm

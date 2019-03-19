@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeByName
-title: IStreamBufferRecordingAttribute::GetAttributeByName
+title: IStreamBufferRecordingAttribute::GetAttributeByName (sbe.h)
 author: windows-sdk-content
 description: The GetAttributeByName method retrieves an attribute, specified by name.
 old-location: mstv\istreambufferrecordingattribute_getattributebyname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_63
-title: WS_SECURITY_ALGORITHM_SUITE_NAME
+title: WS_SECURITY_ALGORITHM_SUITE_NAME (webservices.h)
 author: windows-sdk-content
 description: A suite of security algorithms used for tasks such as signing and encryting. The values in this enumeration correspond to the suites defined in WS-SecurityPolicy 1.1section 7.1.
 old-location: wsw\ws_security_algorithm_suite_name.htm

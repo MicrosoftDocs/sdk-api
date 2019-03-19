@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpAddFragmentToCache
-title: HttpAddFragmentToCache function
+title: HttpAddFragmentToCache function (http.h)
 author: windows-sdk-content
 description: The HttpAddFragmentToCache function caches a data fragment with a specified name by which it can be retrieved, or updates data cached under a specified name.
 old-location: http\httpaddfragmenttocache.htm

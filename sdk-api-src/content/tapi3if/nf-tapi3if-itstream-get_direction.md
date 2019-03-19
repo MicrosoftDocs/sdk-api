@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStream.get_Direction
-title: ITStream::get_Direction
+title: ITStream::get_Direction (tapi3if.h)
 author: windows-sdk-content
 description: The get_Direction method gets the stream's terminal direction.
 old-location: tapi3\itstream_get_direction.htm

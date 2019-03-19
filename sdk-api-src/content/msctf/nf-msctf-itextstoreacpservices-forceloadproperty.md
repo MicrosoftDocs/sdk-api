@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.ForceLoadProperty
-title: ITextStoreACPServices::ForceLoadProperty
+title: ITextStoreACPServices::ForceLoadProperty (msctf.h)
 author: windows-sdk-content
 description: ITextStoreACPServices::ForceLoadProperty method
 old-location: tsf\itextstoreacpservices_forceloadproperty.htm

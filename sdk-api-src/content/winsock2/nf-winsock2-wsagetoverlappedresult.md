@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAGetOverlappedResult
-title: WSAGetOverlappedResult function
+title: WSAGetOverlappedResult function (winsock2.h)
 author: windows-sdk-content
 description: The WSAGetOverlappedResult function retrieves the results of an overlapped operation on the specified socket.
 old-location: winsock\wsagetoverlappedresult_2.htm

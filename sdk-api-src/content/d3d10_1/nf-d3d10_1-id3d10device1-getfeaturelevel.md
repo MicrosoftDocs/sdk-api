@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10_1.ID3D10Device1.GetFeatureLevel
-title: ID3D10Device1::GetFeatureLevel
+title: ID3D10Device1::GetFeatureLevel (d3d10_1.h)
 author: windows-sdk-content
 description: Gets the feature level of the hardware device.
 old-location: direct3d10\id3d10device1_getfeaturelevel.htm

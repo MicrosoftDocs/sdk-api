@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.getAllDevices
-title: IWindowsMediaLibrarySharingServices::getAllDevices
+title: IWindowsMediaLibrarySharingServices::getAllDevices (wmlss.h)
 author: windows-sdk-content
 description: The getAllDevices method retrieves an IWindowsMediaLibrarySharingDevices interface that represents all of the media-sharing client devices on the home network.
 old-location: wmlss\IWMLSSgetAllDevices.htm

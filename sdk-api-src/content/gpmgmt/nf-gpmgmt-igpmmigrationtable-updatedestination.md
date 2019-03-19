@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.UpdateDestination
-title: IGPMMigrationTable::UpdateDestination
+title: IGPMMigrationTable::UpdateDestination (gpmgmt.h)
 author: windows-sdk-content
 description: Updates the destination field of an entry in a migration table. You can specify the destination option and the destination.
 old-location: gpmc\igpmmigrationtable_updatedestination.htm

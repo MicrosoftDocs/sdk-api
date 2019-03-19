@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.MFP_GET_ERROR_EVENT
-title: MFP_GET_ERROR_EVENT macro
+title: MFP_GET_ERROR_EVENT macro (mfplay.h)
 author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_ERROR_EVENT pointer.
 old-location: mf\mfp_get_error_event.htm

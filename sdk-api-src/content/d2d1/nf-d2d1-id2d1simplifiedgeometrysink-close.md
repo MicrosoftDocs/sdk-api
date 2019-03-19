@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.Close
-title: ID2D1SimplifiedGeometrySink::Close
+title: ID2D1SimplifiedGeometrySink::Close (d2d1.h)
 author: windows-sdk-content
 description: Closes the geometry sink, indicates whether it is in an error state, and resets the sink's error state.
 old-location: direct2d\ID2D1SimplifiedGeometrySink_Close.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_MaximumInputRectangle
-title: IInkTablet::get_MaximumInputRectangle
+title: IInkTablet::get_MaximumInputRectangle (msinkaut.h)
 author: windows-sdk-content
 description: Gets the maximum input rectangle, in tablet device coordinates that the IInkTablet object supports.
 old-location: tablet\iinktablet_maximuminputrectangle.htm

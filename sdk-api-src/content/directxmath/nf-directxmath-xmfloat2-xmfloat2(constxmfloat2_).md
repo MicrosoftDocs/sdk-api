@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMFLOAT2.XMFLOAT2(const XMFLOAT2 &)
-title: XMFLOAT2::XMFLOAT2(const XMFLOAT2 &)
+title: XMFLOAT2::XMFLOAT2(const XMFLOAT2 &) (directxmath.h)
 author: windows-sdk-content
 description: Default constructor for XMFLOAT2.
 old-location: dxmath\xmfloat2_ctor_1.htm

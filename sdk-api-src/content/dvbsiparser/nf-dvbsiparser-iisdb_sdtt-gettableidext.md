@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetTableIdExt
-title: IISDB_SDTT::GetTableIdExt
+title: IISDB_SDTT::GetTableIdExt (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the table_id_extension field value from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). This field value identifies a specific instance of an SDTT.
 old-location: mstv\iisdb_sdtt_gettableidext.htm

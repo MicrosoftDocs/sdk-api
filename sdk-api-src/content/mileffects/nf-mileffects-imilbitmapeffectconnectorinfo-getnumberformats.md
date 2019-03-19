@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetNumberFormats
-title: IMILBitmapEffectConnectorInfo::GetNumberFormats
+title: IMILBitmapEffectConnectorInfo::GetNumberFormats (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the number of pixel formats supported by the pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getnumberformats.htm

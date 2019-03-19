@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.CloseDeviceHandle
-title: IMFDXGIDeviceManager::CloseDeviceHandle
+title: IMFDXGIDeviceManager::CloseDeviceHandle (mfobjects.h)
 author: windows-sdk-content
 description: Closes a Microsoft Direct3D device handle.
 old-location: mf\imfdxgidevicemanager_closedevicehandle.htm

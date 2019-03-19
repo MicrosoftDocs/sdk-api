@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadMessageEnd
-title: WsReadMessageEnd function
+title: WsReadMessageEnd function (webservices.h)
 author: windows-sdk-content
 description: Read the closing elements of a message from a channel.
 old-location: wsw\wsreadmessageend.htm

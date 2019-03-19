@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FONTSIM
-title: FONTSIM
+title: FONTSIM (winddi.h)
 author: windows-sdk-content
 description: The FONTSIM structure contains offsets to one or more FONTDIFF structures describing bold, italic, and bold italic font simulations.
 old-location: display\fontsim.htm

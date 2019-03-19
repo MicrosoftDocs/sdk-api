@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPicture.get_Height
-title: IPicture::get_Height
+title: IPicture::get_Height (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the current height of the picture in the picture object.
 old-location: com\ipicture_get_height.htm

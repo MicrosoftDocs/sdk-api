@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetConditionType
-title: IPropertyDescription::GetConditionType
+title: IPropertyDescription::GetConditionType (propsys.h)
 author: windows-sdk-content
 description: Gets the condition type and default condition operation to use when displaying the property in the query builder UI. This influences the list of predicate conditions (for example, equals, less than, and contains) that are shown for this property.
 old-location: properties\IPropertyDescription_GetConditionType.htm

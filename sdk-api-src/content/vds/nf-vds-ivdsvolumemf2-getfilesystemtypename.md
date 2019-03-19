@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumeMF2.GetFileSystemTypeName
-title: IVdsVolumeMF2::GetFileSystemTypeName
+title: IVdsVolumeMF2::GetFileSystemTypeName (vds.h)
 author: windows-sdk-content
 description: Retrieves the name of the file system on a volume.
 old-location: base\ivdsvolumemf2_getfilesystemtypename.htm

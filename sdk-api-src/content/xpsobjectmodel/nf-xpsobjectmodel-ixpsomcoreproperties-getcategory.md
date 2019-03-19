@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCategory
-title: IXpsOMCoreProperties::GetCategory
+title: IXpsOMCoreProperties::GetCategory (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the category property.
 old-location: xps\ixpsomcoreproperties_getcategory.htm

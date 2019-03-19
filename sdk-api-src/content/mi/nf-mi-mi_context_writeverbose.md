@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_WriteVerbose
-title: MI_Context_WriteVerbose function
+title: MI_Context_WriteVerbose function (mi.h)
 author: windows-sdk-content
 description: Writes a verbose message to the client.
 old-location: wmi_v2\mi_context_writeverbose.htm

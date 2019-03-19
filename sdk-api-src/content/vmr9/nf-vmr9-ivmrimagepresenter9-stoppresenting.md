@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.StopPresenting
-title: IVMRImagePresenter9::StopPresenting
+title: IVMRImagePresenter9::StopPresenting (vmr9.h)
 author: windows-sdk-content
 description: The StopPresenting method is called just after the video stops playing. The allocator-presenter should perform any necessary cleanup in this method.
 old-location: dshow\ivmrimagepresenter9_stoppresenting.htm

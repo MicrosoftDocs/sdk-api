@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetVoiceDetails
-title: IXAudio2Voice::GetVoiceDetails
+title: IXAudio2Voice::GetVoiceDetails (xaudio2.h)
 author: windows-sdk-content
 description: Returns information about the creation flags, input channels, and sample rate of a voice.
 old-location: xaudio2\ixaudio2voice_interface_getvoicedetails.htm

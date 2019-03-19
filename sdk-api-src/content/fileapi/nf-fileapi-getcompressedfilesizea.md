@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetCompressedFileSizeA
-title: GetCompressedFileSizeA function
+title: GetCompressedFileSizeA function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the actual number of bytes of disk storage used to store a specified file.
 old-location: fs\getcompressedfilesize.htm

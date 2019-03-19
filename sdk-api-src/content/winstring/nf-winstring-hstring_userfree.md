@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.HSTRING_UserFree
-title: HSTRING_UserFree function
+title: HSTRING_UserFree function (winstring.h)
 author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: winrt\hstring_userfree.htm

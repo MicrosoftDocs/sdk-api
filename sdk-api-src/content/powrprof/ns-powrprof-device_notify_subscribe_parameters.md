@@ -1,6 +1,6 @@
 ---
 UID: NS:powrprof._DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
-title: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS
+title: DEVICE_NOTIFY_SUBSCRIBE_PARAMETERS (powrprof.h)
 author: windows-sdk-content
 description: Contains parameters used when registering for a power notification.
 old-location: base\device_notify_subscribe_parameters.htm

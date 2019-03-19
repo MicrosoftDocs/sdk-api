@@ -1,6 +1,6 @@
 ---
 UID: NS:directxmath.XMFLOAT3X3
-title: XMFLOAT3X3
+title: XMFLOAT3X3 (directxmath.h)
 author: windows-sdk-content
 description: A 3*3 floating point matrix.
 old-location: dxmath\xmfloat3x3.htm

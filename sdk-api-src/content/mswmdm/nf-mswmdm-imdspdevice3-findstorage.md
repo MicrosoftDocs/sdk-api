@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.FindStorage
-title: IMDSPDevice3::FindStorage
+title: IMDSPDevice3::FindStorage (mswmdm.h)
 author: windows-sdk-content
 description: The FindStorage method finds a storage with the given persistent unique identifier. The persistent unique identifier of a storage is described by the g_wszWMDMPersistentUniqueID property of that storage.
 old-location: wmdm\imdspdevice3_findstorage.htm

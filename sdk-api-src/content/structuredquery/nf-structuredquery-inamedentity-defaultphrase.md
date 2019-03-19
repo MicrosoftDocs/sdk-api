@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.INamedEntity.DefaultPhrase
-title: INamedEntity::DefaultPhrase
+title: INamedEntity::DefaultPhrase (structuredquery.h)
 author: windows-sdk-content
 description: Retrieves a default phrase to use for this named entity in restatements.
 old-location: search\_search_INamedEntity_DefaultPhrase.htm

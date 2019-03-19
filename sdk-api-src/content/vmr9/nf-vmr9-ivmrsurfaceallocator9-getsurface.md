@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.GetSurface
-title: IVMRSurfaceAllocator9::GetSurface
+title: IVMRSurfaceAllocator9::GetSurface (vmr9.h)
 author: windows-sdk-content
 description: The GetSurface method gets a Direct3D surface from the allocator-presenter.
 old-location: dshow\ivmrsurfaceallocator9_getsurface.htm

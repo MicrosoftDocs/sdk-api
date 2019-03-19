@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.DriveType
-title: DriveType function
+title: DriveType function (shlobj.h)
 author: windows-sdk-content
 description: DriveType may be altered or unavailable.
 old-location: shell\DriveType.htm

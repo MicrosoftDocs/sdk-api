@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi._PROCESS_MEMORY_EXHAUSTION_INFO
-title: PROCESS_MEMORY_EXHAUSTION_INFO
+title: PROCESS_MEMORY_EXHAUSTION_INFO (processthreadsapi.h)
 author: windows-sdk-content
 description: Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the PROCESS_INFORMATION_CLASS class.
 old-location: base\process_memory_exhaustion_info.htm

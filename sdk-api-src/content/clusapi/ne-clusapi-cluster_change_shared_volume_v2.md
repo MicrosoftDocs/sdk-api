@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_CHANGE_SHARED_VOLUME_V2
-title: CLUSTER_CHANGE_SHARED_VOLUME_V2
+title: CLUSTER_CHANGE_SHARED_VOLUME_V2 (clusapi.h)
 author: windows-sdk-content
 description: Defines the notifications that are generated for a cluster shared volume.
 old-location: mscs\cluster_change_shared_volume_v2.htm

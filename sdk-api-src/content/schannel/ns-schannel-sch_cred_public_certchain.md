@@ -1,6 +1,6 @@
 ---
 UID: NS:schannel._SCH_CRED_PUBLIC_CERTCHAIN
-title: SCH_CRED_PUBLIC_CERTCHAIN
+title: SCH_CRED_PUBLIC_CERTCHAIN (schannel.h)
 author: windows-sdk-content
 description: The SCH_CRED_PUBLIC_CERTCHAIN structure contains a single certificate. A certification chain can be built from this certificate.
 old-location: security\sch_cred_public_certchain.htm

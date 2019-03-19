@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IHWEventHandler2
-title: IHWEventHandler2
+title: IHWEventHandler2 (shobjidl.h)
 author: windows-sdk-content
 description: Extends the IHWEventHandler interface to address User Account Control (UAC) elevation for device handlers.
 old-location: shell\IHWEventHandler2.htm

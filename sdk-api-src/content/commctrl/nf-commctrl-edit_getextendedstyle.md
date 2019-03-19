@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_GetExtendedStyle
-title: Edit_GetExtendedStyle macro
+title: Edit_GetExtendedStyle macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the extended styles that are currently in use for a given edit control. You can use this macro or send the EM_GETEXTENDEDSTYLE message explicitly.
 old-location: controls\edit_getextendedstyle.htm

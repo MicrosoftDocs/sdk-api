@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETDIBITSTODEVICE
-title: EMRSETDIBITSTODEVICE
+title: EMRSETDIBITSTODEVICE (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETDIBITSTODEVICE structure contains members for the SetDIBitsToDevice enhanced metafile record.
 old-location: gdi\emrsetdibitstodevice.htm

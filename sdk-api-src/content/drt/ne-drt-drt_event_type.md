@@ -1,6 +1,6 @@
 ---
 UID: NE:drt.drt_event_type_tag
-title: DRT_EVENT_TYPE
+title: DRT_EVENT_TYPE (drt.h)
 author: windows-sdk-content
 description: The DRT_EVENT_TYPE enumeration defines the set of events that can be raised by the Distributed Routing Table.
 old-location: p2p\drt_event_type.htm

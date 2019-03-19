@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformation.get_KeySpec
-title: ICspInformation::get_KeySpec
+title: ICspInformation::get_KeySpec (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a value that specifies the intended use of the algorithms supported by the provider.
 old-location: security\icspinformation_keyspec_property.htm

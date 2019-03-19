@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetFriendlyIfIndex
-title: GetFriendlyIfIndex function
+title: GetFriendlyIfIndex function (iphlpapi.h)
 author: windows-sdk-content
 description: Takes an interface index and returns a backward-compatible interface index, that is, an index that uses only the lower 24 bits.
 old-location: iphlp\getfriendlyifindex.htm

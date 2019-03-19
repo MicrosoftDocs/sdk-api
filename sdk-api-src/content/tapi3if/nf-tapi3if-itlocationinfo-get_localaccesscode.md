@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_LocalAccessCode
-title: ITLocationInfo::get_LocalAccessCode
+title: ITLocationInfo::get_LocalAccessCode (tapi3if.h)
 author: windows-sdk-content
 description: The get_LocalAccessCode method gets the local access code.
 old-location: tapi3\itlocationinfo_get_localaccesscode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_PIPELINE_CLEANUP_FN
-title: PIBIO_SENSOR_PIPELINE_CLEANUP_FN
+title: PIBIO_SENSOR_PIPELINE_CLEANUP_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the Sensor Adapter the chance to perform any cleanup in that requires help from the Engine or Storage adapter components.
 old-location: secbiomet\sensoradapterpipelinecleanup.htm

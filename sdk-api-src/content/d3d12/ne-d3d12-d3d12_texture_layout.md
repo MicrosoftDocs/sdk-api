@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_TEXTURE_LAYOUT
-title: D3D12_TEXTURE_LAYOUT
+title: D3D12_TEXTURE_LAYOUT (d3d12.h)
 author: windows-sdk-content
 description: Specifies texture layout options.
 old-location: direct3d12\d3d12_texture_layout.htm

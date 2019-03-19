@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFByteStreamBuffering.EnableBuffering
-title: IMFByteStreamBuffering::EnableBuffering
+title: IMFByteStreamBuffering::EnableBuffering (mfidl.h)
 author: windows-sdk-content
 description: Enables or disables buffering.
 old-location: mf\imfbytestreambuffering_enablebuffering.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDeleteKeyA
-title: RegDeleteKeyA function
+title: RegDeleteKeyA function (winreg.h)
 author: windows-sdk-content
 description: Deletes a subkey and its values.
 old-location: base\regdeletekey.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.IsAutomaticSupported
-title: IMFContentEnabler::IsAutomaticSupported
+title: IMFContentEnabler::IsAutomaticSupported (mfidl.h)
 author: windows-sdk-content
 description: Queries whether the content enabler can perform all of its actions automatically.
 old-location: mf\imfcontentenabler_isautomaticsupported.htm

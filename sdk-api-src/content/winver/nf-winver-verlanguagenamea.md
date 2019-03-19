@@ -1,6 +1,6 @@
 ---
 UID: NF:winver.VerLanguageNameA
-title: VerLanguageNameA function
+title: VerLanguageNameA function (winver.h)
 author: windows-sdk-content
 description: Retrieves a description string for the language associated with a specified binary Microsoft language identifier.
 old-location: menurc\verlanguagename.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon2.Logon
-title: ISensLogon2::Logon
+title: ISensLogon2::Logon (sensevts.h)
 author: windows-sdk-content
 description: The Logon method notifies an application that a user is logged on.
 old-location: sens\isenslogon2_logon.htm

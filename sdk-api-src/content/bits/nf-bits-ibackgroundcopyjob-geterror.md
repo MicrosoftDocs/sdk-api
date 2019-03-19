@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetError
-title: IBackgroundCopyJob::GetError
+title: IBackgroundCopyJob::GetError (bits.h)
 author: windows-sdk-content
 description: Retrieves the error interface after an error occurs.
 old-location: bits\ibackgroundcopyjob_geterror.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportTransform
-title: IDirectManipulationViewport::SetViewportTransform
+title: IDirectManipulationViewport::SetViewportTransform (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the transform from the viewport coordinate system to the window client coordinate system.
 old-location: directmanipulation\idirectmanipulationviewport_setviewporttransform.htm

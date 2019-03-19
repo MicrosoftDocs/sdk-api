@@ -1,6 +1,6 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_HEADER
-title: EVENT_FILTER_HEADER
+title: EVENT_FILTER_HEADER (evntprov.h)
 author: windows-sdk-content
 description: Defines the header data that must precede the filter data that is defined in the instrumentation manifest.
 old-location: etw\event_filter_header.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.VirtualQuery
-title: VirtualQuery function
+title: VirtualQuery function (memoryapi.h)
 author: windows-sdk-content
 description: Retrieves information about a range of pages in the virtual address space of the calling process.
 old-location: base\virtualquery.htm

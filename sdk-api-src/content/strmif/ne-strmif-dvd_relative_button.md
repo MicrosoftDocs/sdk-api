@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0004
-title: DVD_RELATIVE_BUTTON
+title: DVD_RELATIVE_BUTTON (strmif.h)
 author: windows-sdk-content
 description: Identifies the four directional buttons used for DVD menu navigation and other operations.
 old-location: dshow\dvd_relative_button.htm

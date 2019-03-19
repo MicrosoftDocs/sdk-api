@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControl2.GetControlStyle2
-title: INameSpaceTreeControl2::GetControlStyle2
+title: INameSpaceTreeControl2::GetControlStyle2 (shobjidl.h)
 author: windows-sdk-content
 description: Gets the extended display styles set for the namespace object's treeview controls.
 old-location: shell\INameSpaceTreeControl2_GetControlStyle2.htm

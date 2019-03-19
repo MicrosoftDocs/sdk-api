@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_RootStoreFlags
-title: IEnroll::get_RootStoreFlags
+title: IEnroll::get_RootStoreFlags (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for the root store.
 old-location: security\ienroll4_rootstoreflags.htm

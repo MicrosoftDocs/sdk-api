@@ -1,6 +1,6 @@
 ---
 UID: NE:wingdi.__unnamed_enum_3
-title: DISPLAYCONFIG_ROTATION
+title: DISPLAYCONFIG_ROTATION (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_ROTATION enumeration specifies the clockwise rotation of the display.
 old-location: display\displayconfig_rotation.htm

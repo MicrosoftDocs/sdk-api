@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMLoadFloat3
-title: XMLoadFloat3 function
+title: XMLoadFloat3 function (directxmath.h)
 author: windows-sdk-content
 description: Loads an XMFLOAT3 into an XMVECTOR.
 old-location: dxmath\xmloadfloat3.htm

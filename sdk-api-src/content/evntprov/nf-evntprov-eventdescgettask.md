@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescGetTask
-title: EventDescGetTask function
+title: EventDescGetTask function (evntprov.h)
 author: windows-sdk-content
 description: Retrieves the task from the event descriptor.
 old-location: etw\eventdescgettask_func.htm

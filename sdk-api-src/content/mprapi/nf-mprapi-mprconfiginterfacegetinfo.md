@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetInfo
-title: MprConfigInterfaceGetInfo function
+title: MprConfigInterfaceGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: The MprConfigInterfaceGetInfo function retrieves the configuration for the specified interface from the router.
 old-location: rras\mprconfiginterfacegetinfo.htm

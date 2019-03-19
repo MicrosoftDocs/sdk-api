@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcObjectSetType
-title: RpcObjectSetType function
+title: RpcObjectSetType function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcObjectSetType function assigns the type of an object.
 old-location: rpc\rpcobjectsettype.htm

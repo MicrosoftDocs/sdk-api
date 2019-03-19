@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyArchivedKeyHash.Initialize
-title: ICertPropertyArchivedKeyHash::Initialize
+title: ICertPropertyArchivedKeyHash::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a byte array that contains the hash.
 old-location: security\icertpropertyarchivedkeyhash_initialize_method.htm

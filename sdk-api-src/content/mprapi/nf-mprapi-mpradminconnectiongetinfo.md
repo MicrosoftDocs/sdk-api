@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminConnectionGetInfo
-title: MprAdminConnectionGetInfo function
+title: MprAdminConnectionGetInfo function (mprapi.h)
 author: windows-sdk-content
 description: Retrieves data about a specific connection.
 old-location: rras\mpradminconnectiongetinfo.htm

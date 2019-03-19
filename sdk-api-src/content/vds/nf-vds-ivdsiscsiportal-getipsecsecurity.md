@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiPortal.GetIpsecSecurity
-title: IVdsIscsiPortal::GetIpsecSecurity
+title: IVdsIscsiPortal::GetIpsecSecurity (vds.h)
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportal_getipsecsecurity.htm

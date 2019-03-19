@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMClientPropertiesEx
-title: WM_CLIENT_PROPERTIES_EX
+title: WM_CLIENT_PROPERTIES_EX (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_CLIENT_PROPERTIES_EX structure holds extended client information.
 old-location: wmformat\wm_client_properties_ex.htm

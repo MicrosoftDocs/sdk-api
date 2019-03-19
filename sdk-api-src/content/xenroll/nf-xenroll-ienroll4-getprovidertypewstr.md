@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll4.getProviderTypeWStr
-title: IEnroll4::getProviderTypeWStr
+title: IEnroll4::getProviderTypeWStr (xenroll.h)
 author: windows-sdk-content
 description: Retrieves the type of the specified cryptographic service provider (CSP).
 old-location: security\ienroll4_getprovidertypewstr.htm

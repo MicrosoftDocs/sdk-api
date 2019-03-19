@@ -1,6 +1,6 @@
 ---
 UID: NS:tdiinfo.TDIEntityID
-title: TDIEntityID
+title: TDIEntityID (tdiinfo.h)
 author: windows-sdk-content
 description: Contains a part of the TDIObjectID structure to represent information about TDI drivers retrieved using the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\tdientityid.htm

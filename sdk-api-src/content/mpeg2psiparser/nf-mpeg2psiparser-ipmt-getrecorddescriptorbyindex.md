@@ -1,6 +1,6 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordDescriptorByIndex
-title: IPMT::GetRecordDescriptorByIndex
+title: IPMT::GetRecordDescriptorByIndex (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The GetRecordDescriptorByIndex method retrieves a descriptor for a specified record in the PMT.
 old-location: mstv\ipmt_getrecorddescriptorbyindex.htm

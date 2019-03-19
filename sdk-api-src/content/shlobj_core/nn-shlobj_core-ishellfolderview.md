@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IShellFolderView
-title: IShellFolderView
+title: IShellFolderView (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes methods that manipulate Shell folder views.
 old-location: shell\IShellFolderView.htm

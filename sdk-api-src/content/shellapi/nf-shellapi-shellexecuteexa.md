@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.ShellExecuteExA
-title: ShellExecuteExA function
+title: ShellExecuteExA function (shellapi.h)
 author: windows-sdk-content
 description: Performs an operation on a specified file.
 old-location: shell\ShellExecuteEx.htm

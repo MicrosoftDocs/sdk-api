@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetMaxStreamSampleSize
-title: IWMReaderAdvanced::GetMaxStreamSampleSize
+title: IWMReaderAdvanced::GetMaxStreamSampleSize (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetMaxStreamSampleSize method retrieves the maximum buffer size to be allocated for stream samples for a specified media stream.
 old-location: wmformat\iwmreaderadvanced_getmaxstreamsamplesize.htm

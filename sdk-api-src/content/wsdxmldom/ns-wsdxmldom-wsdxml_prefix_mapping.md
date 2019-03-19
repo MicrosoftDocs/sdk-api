@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdxmldom._WSDXML_PREFIX_MAPPING
-title: WSDXML_PREFIX_MAPPING
+title: WSDXML_PREFIX_MAPPING (wsdxmldom.h)
 author: windows-sdk-content
 description: Describes an XML namespace prefix.
 old-location: ncd\wsdxml_prefix_mapping_struct.htm

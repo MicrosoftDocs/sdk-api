@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmreports.IFsrmReportManager
-title: IFsrmReportManager
+title: IFsrmReportManager (fsrmreports.h)
 author: windows-sdk-content
 description: Used to manage report jobs.
 old-location: fsrm\ifsrmreportmanager.htm

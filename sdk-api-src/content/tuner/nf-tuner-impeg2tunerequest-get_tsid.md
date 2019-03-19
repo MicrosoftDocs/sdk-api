@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IMPEG2TuneRequest.get_TSID
-title: IMPEG2TuneRequest::get_TSID
+title: IMPEG2TuneRequest::get_TSID (tuner.h)
 author: windows-sdk-content
 description: The get_TSID method retrieves the transport stream ID.
 old-location: mstv\impeg2tunerequest_get_tsid.htm

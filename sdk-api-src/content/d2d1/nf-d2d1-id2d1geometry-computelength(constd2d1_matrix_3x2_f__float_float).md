@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Geometry.ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT)
-title: ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT)
+title: ID2D1Geometry::ComputeLength(const D2D1_MATRIX_3X2_F &,FLOAT,FLOAT) (d2d1.h)
 author: windows-sdk-content
 description: Calculates the length of the geometry as though each segment were unrolled into a line.
 old-location: direct2d\ID2D1Geometry_ComputeLength_ref_D2D_MATRIX_3X2_F_FLOAT_ptr_FLOAT.htm

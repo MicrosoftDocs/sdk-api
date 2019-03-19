@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMDevMemoryAllocator
-title: IAMDevMemoryAllocator
+title: IAMDevMemoryAllocator (strmif.h)
 author: windows-sdk-content
 description: Note  This interface is no longer supported by the AVI Splitter. Note  This interface was defined to support older hardware decoders that required AVI files to be read into directly hardware memory.
 old-location: dshow\iamdevmemoryallocator.htm

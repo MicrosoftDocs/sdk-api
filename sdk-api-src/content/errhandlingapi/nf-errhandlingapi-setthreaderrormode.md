@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.SetThreadErrorMode
-title: SetThreadErrorMode function
+title: SetThreadErrorMode function (errhandlingapi.h)
 author: windows-sdk-content
 description: Controls whether the system will handle the specified types of serious errors or whether the calling thread will handle them.
 old-location: base\setthreaderrormode.htm

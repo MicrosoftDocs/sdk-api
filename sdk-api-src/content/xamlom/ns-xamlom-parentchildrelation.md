@@ -1,6 +1,6 @@
 ---
 UID: NS:xamlom.ParentChildRelation
-title: ParentChildRelation
+title: ParentChildRelation (xamlom.h)
 author: windows-sdk-content
 description: Associates a parent object with a child object.
 old-location: xaml_diagnostics\parentchildrelation.htm

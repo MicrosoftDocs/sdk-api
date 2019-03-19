@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetBinaryTypeW
-title: GetBinaryTypeW function
+title: GetBinaryTypeW function (winbase.h)
 author: windows-sdk-content
 description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file.
 old-location: fs\getbinarytype.htm

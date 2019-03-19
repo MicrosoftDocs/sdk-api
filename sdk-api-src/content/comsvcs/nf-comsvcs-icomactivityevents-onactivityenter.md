@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityEnter
-title: IComActivityEvents::OnActivityEnter
+title: IComActivityEvents::OnActivityEnter (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an activity thread is entered.
 old-location: cos\icomactivityevents_onactivityenter.htm

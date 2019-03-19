@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.ILockBytes.WriteAt
-title: ILockBytes::WriteAt
+title: ILockBytes::WriteAt (objidl.h)
 author: windows-sdk-content
 description: The WriteAt method writes the specified number of bytes starting at a specified offset from the beginning of the byte array.
 old-location: stg\ilockbytes_writeat.htm

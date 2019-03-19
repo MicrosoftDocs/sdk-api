@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnGetSAPIObject.Get
-title: ITfFnGetSAPIObject::Get
+title: ITfFnGetSAPIObject::Get (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnGetSAPIObject::Get method
 old-location: tsf\itffngetsapiobject_get.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginReceiveResponse
-title: IMFHttpDownloadRequest::BeginReceiveResponse
+title: IMFHttpDownloadRequest::BeginReceiveResponse (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the EndSendRequest method.
 old-location: mf\imfhttpdownloadrequest_beginreceiveresponse.htm

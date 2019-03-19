@@ -1,6 +1,6 @@
 ---
 UID: NS:winperf._PERF_OBJECT_TYPE
-title: PERF_OBJECT_TYPE
+title: PERF_OBJECT_TYPE (winperf.h)
 author: windows-sdk-content
 description: Describes object-specific performance information, for example, the number of instances of the object and the number of counters that the object defines.
 old-location: perf\perf_object_type_str.htm

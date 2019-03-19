@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientState
-title: IFaxDoc::get_RecipientState
+title: IFaxDoc::get_RecipientState (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the RecipientState property of a FaxDoc object. The RecipientState property is a null-terminated string that contains the state of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientstate_cpp.htm

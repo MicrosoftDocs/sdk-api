@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerUnregisterAdditionalProcess
-title: WerUnregisterAdditionalProcess function
+title: WerUnregisterAdditionalProcess function (werapi.h)
 author: windows-sdk-content
 description: Removes a process from the list of additional processes to be included in the error report.
 old-location: wer\werunregisteradditionalprocess.htm

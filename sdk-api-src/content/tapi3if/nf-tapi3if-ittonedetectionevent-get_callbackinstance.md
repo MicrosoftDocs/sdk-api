@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_CallbackInstance
-title: ITToneDetectionEvent::get_CallbackInstance
+title: ITToneDetectionEvent::get_CallbackInstance (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the application's callback function that will process the event.
 old-location: tapi3\ittonedetectionevent_get_callbackinstance.htm

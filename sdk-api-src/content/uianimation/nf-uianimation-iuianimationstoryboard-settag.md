@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.SetTag
-title: IUIAnimationStoryboard::SetTag
+title: IUIAnimationStoryboard::SetTag (uianimation.h)
 author: windows-sdk-content
 description: Sets the tag for the storyboard.
 old-location: uianimation\iuianimationstoryboard_settag.htm

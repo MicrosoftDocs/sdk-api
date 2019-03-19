@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagDIBSECTION
-title: DIBSECTION
+title: DIBSECTION (wingdi.h)
 author: windows-sdk-content
 description: The DIBSECTION structure contains information about a DIB created by calling the CreateDIBSection function.
 old-location: gdi\dibsection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.PutPublisherProperty
-title: IEventSubscription::PutPublisherProperty
+title: IEventSubscription::PutPublisherProperty (eventsys.h)
 author: windows-sdk-content
 description: Writes a property and its value to the property bag to define publisher context.
 old-location: cos\ieventsubscription_putpublisherproperty.htm

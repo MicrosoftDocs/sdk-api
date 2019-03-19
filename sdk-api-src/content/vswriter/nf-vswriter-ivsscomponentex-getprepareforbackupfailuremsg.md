@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetPrepareForBackupFailureMsg
-title: IVssComponentEx::GetPrepareForBackupFailureMsg
+title: IVssComponentEx::GetPrepareForBackupFailureMsg (vswriter.h)
 author: windows-sdk-content
 description: Returns the PrepareForBackup failure message string that a writer has set for a given component.
 old-location: base\ivsscomponentex_getprepareforbackupfailuremsg.htm

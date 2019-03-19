@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderInitialize
-title: WdsTransportProviderInitialize function
+title: WdsTransportProviderInitialize function (wdstpdi.h)
 author: windows-sdk-content
 description: Initializes a content provider.
 old-location: wds\wdstransportproviderinitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_GetCustomOptionCount
-title: MI_Context_GetCustomOptionCount function
+title: MI_Context_GetCustomOptionCount function (mi.h)
 author: windows-sdk-content
 description: Gets the number of custom options available to the provider.
 old-location: wmi_v2\mi_context_getcustomoptioncount.htm

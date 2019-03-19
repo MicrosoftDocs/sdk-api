@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryContentLocale
-title: ISearchQueryHelper::get_QueryContentLocale
+title: ISearchQueryHelper::get_QueryContentLocale (searchapi.h)
 author: windows-sdk-content
 description: Gets the language code identifier (LCID) for the query.
 old-location: search\_search_ISearchQueryHelper_get_QueryContentLocale.htm

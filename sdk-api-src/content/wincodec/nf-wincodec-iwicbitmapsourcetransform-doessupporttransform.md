@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.DoesSupportTransform
-title: IWICBitmapSourceTransform::DoesSupportTransform
+title: IWICBitmapSourceTransform::DoesSupportTransform (wincodec.h)
 author: windows-sdk-content
 description: Determines whether a specific transform option is supported natively by the implementation of the IWICBitmapSourceTransform interface.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_doessupporttransform.htm

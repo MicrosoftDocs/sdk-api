@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateBoundsAdjustmentTransform
-title: ID2D1EffectContext::CreateBoundsAdjustmentTransform
+title: ID2D1EffectContext::CreateBoundsAdjustmentTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Creates and returns a bounds adjustment transform.
 old-location: direct2d\id2d1effectcontext_createboundsadjustment.htm

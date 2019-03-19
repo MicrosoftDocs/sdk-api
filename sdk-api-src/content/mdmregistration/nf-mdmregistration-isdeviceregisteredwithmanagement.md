@@ -1,6 +1,6 @@
 ---
 UID: NF:mdmregistration.IsDeviceRegisteredWithManagement
-title: IsDeviceRegisteredWithManagement function
+title: IsDeviceRegisteredWithManagement function (mdmregistration.h)
 author: windows-sdk-content
 description: Checks whether the device is registered with an MDM service.
 old-location: mdmreg\isdeviceregisteredwithmanagement.htm

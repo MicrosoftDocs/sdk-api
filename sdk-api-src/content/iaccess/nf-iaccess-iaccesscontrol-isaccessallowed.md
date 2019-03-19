@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.IsAccessAllowed
-title: IAccessControl::IsAccessAllowed
+title: IAccessControl::IsAccessAllowed (iaccess.h)
 author: windows-sdk-content
 description: Determines whether the specified trustee has access rights to the object or property.
 old-location: com\iaccesscontrol_isaccessallowed.htm

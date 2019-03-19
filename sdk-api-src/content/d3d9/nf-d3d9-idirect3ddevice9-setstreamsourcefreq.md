@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetStreamSourceFreq
-title: IDirect3DDevice9::SetStreamSourceFreq
+title: IDirect3DDevice9::SetStreamSourceFreq (d3d9.h)
 author: windows-sdk-content
 description: Sets the stream source frequency divider value. This may be used to draw several instances of geometry.
 old-location: direct3d9\idirect3ddevice9__setstreamsourcefreq.htm

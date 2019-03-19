@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegDeleteTreeA
-title: RegDeleteTreeA function
+title: RegDeleteTreeA function (winreg.h)
 author: windows-sdk-content
 description: Deletes the subkeys and values of the specified key recursively.
 old-location: base\regdeletetree.htm

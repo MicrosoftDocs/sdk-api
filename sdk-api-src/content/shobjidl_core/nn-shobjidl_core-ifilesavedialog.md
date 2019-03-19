@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IFileSaveDialog
-title: IFileSaveDialog
+title: IFileSaveDialog (shobjidl_core.h)
 author: windows-sdk-content
 description: Extends the IFileDialog interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.
 old-location: shell\IFileSaveDialog.htm

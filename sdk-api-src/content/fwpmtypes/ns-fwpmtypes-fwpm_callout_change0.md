@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT_CHANGE0_
-title: FWPM_CALLOUT_CHANGE0
+title: FWPM_CALLOUT_CHANGE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Specifies a change notification dispatched to subscribers.
 old-location: fwp\fwpm_callout_change0_struct.htm

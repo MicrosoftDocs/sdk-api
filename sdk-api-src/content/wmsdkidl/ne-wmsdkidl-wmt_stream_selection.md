@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.WMT_STREAM_SELECTION
-title: WMT_STREAM_SELECTION
+title: WMT_STREAM_SELECTION (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_STREAM_SELECTION enumeration type defines the playback status of a stream.
 old-location: wmformat\wmt_stream_selection.htm

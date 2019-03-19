@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusheaders.CustomLineCap
-title: CustomLineCap
+title: CustomLineCap (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap class encapsulates a custom line cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Class.htm

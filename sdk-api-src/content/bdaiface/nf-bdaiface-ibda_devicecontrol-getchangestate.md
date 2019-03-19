@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.GetChangeState
-title: IBDA_DeviceControl::GetChangeState
+title: IBDA_DeviceControl::GetChangeState (bdaiface.h)
 author: windows-sdk-content
 description: The GetChangeState method returns a value indicating whether any uncommitted changes are currently pending in the filter.
 old-location: mstv\ibda_devicecontrol_getchangestate.htm

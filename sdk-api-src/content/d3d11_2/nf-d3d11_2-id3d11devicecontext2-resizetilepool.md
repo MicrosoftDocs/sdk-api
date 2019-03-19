@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.ResizeTilePool
-title: ID3D11DeviceContext2::ResizeTilePool
+title: ID3D11DeviceContext2::ResizeTilePool (d3d11_2.h)
 author: windows-sdk-content
 description: Resizes a tile pool.
 old-location: direct3d11\id3d11devicecontext2_resizetilepool.htm

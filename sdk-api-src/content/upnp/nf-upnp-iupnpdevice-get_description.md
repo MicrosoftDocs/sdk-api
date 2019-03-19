@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Description
-title: IUPnPDevice::get_Description
+title: IUPnPDevice::get_Description (upnp.h)
 author: windows-sdk-content
 description: The Description property specifies a human-readable summary of the device's functionality.
 old-location: upnp\iupnpdevice_description.htm

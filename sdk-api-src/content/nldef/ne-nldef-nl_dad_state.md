@@ -1,6 +1,6 @@
 ---
 UID: NE:nldef.__unnamed_enum_2
-title: NL_DAD_STATE
+title: NL_DAD_STATE (nldef.h)
 author: windows-sdk-content
 description: The IP_DAD_STATE enumeration specifies information about the duplicate address detection (DAD) state for an IPv4 or IPv6 address.
 old-location: iphlp\ip_dad_state.htm

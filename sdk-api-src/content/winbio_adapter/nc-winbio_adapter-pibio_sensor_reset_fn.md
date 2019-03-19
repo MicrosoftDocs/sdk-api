@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_RESET_FN
-title: PIBIO_SENSOR_RESET_FN
+title: PIBIO_SENSOR_RESET_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Reinitializes the sensor.
 old-location: secbiomet\sensoradapterreset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_ZoomMaximum
-title: ITransformProvider2::get_ZoomMaximum
+title: ITransformProvider2::get_ZoomMaximum (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves the maximum zoom level of the element.
 old-location: winauto\uiauto_itransformprovider2_zoommaximum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_PARAMETERS
-title: IOCTL_CHANGER_GET_PARAMETERS
+title: IOCTL_CHANGER_GET_PARAMETERS (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the parameters of the specified device.
 old-location: base\ioctl_changer_get_parameters.htm

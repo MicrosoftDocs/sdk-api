@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get_Item
-title: IGPMSOMCollection::get_Item
+title: IGPMSOMCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a SOM from the collection.
 old-location: gpmc\igpmsomcollection_get_item.htm

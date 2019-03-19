@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.Revoke
-title: IShellWindows::Revoke
+title: IShellWindows::Revoke (exdisp.h)
 author: windows-sdk-content
 description: Revokes a Shell window's registration and removes the window from the Shell windows collection.
 old-location: shell\IShellWindows_Revoke.htm

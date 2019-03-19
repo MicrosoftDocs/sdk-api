@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.linePickupW
-title: linePickupW function
+title: linePickupW function (tapi.h)
 author: windows-sdk-content
 description: The linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
 old-location: tapi2\linepickup.htm

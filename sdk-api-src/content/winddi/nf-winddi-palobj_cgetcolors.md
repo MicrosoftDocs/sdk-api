@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PALOBJ_cGetColors
-title: PALOBJ_cGetColors function
+title: PALOBJ_cGetColors function (winddi.h)
 author: windows-sdk-content
 description: The PALOBJ_cGetColors function copies RGB colors from an indexed palette.
 old-location: display\palobj_cgetcolors.htm

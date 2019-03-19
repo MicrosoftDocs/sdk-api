@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFShutdown
-title: IMFShutdown
+title: IMFShutdown (mfidl.h)
 author: windows-sdk-content
 description: Exposed by some Media Foundation objects that must be explicitly shut down.
 old-location: mf\imfshutdown.htm

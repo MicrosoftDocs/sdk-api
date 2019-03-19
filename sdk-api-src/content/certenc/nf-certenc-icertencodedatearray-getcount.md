@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.GetCount
-title: ICertEncodeDateArray::GetCount
+title: ICertEncodeDateArray::GetCount (certenc.h)
 author: windows-sdk-content
 description: Returns the number of DATE values in the object's DATE array.
 old-location: security\icertencodedatearray_getcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_ConnectionString
-title: ISearchQueryHelper::get_ConnectionString
+title: ISearchQueryHelper::get_ConnectionString (searchapi.h)
 author: windows-sdk-content
 description: Returns the OLE DB connection string for the Window Search index.
 old-location: search\_search_ISearchQueryHelper_get_ConnectionString.htm

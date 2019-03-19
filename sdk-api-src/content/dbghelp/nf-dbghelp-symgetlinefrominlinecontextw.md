@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetLineFromInlineContextW
-title: SymGetLineFromInlineContextW function
+title: SymGetLineFromInlineContextW function (dbghelp.h)
 author: windows-sdk-content
 description: Locates the source line for the specified inline context.
 old-location: base\symgetlinefrominlinecontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessMoveWithTime
-title: IManipulationProcessor::ProcessMoveWithTime
+title: IManipulationProcessor::ProcessMoveWithTime (manipulations.h)
 author: windows-sdk-content
 description: Feeds movement data, including a time stamp, for the target object to its manipulation processor.
 old-location: wintouch\imanpiulationprocessor_processmovewithtime.htm

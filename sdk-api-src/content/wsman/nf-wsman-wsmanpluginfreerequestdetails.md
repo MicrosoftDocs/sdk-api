@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManPluginFreeRequestDetails
-title: WSManPluginFreeRequestDetails function
+title: WSManPluginFreeRequestDetails function (wsman.h)
 author: windows-sdk-content
 description: Releases memory that is allocated for the WSMAN_PLUGIN_REQUEST structure, which is passed into operation plug-in entry points.
 old-location: winrm\wsmanpluginfreerequestdetails.htm

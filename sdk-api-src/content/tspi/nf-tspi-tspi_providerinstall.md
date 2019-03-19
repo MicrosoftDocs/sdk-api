@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_providerInstall
-title: TSPI_providerInstall function
+title: TSPI_providerInstall function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_providerInstall function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerInstall.
 old-location: tspi\tspi_providerinstall.htm

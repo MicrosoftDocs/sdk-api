@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescCreate
-title: EventDescCreate function
+title: EventDescCreate function (evntprov.h)
 author: windows-sdk-content
 description: Sets the values of an event descriptor.
 old-location: etw\eventdesccreate_func.htm

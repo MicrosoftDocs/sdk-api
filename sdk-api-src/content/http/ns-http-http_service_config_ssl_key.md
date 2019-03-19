@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_KEY
-title: HTTP_SERVICE_CONFIG_SSL_KEY
+title: HTTP_SERVICE_CONFIG_SSL_KEY (http.h)
 author: windows-sdk-content
 description: Serves as the key by which a given Secure Sockets Layer (SSL) certificate record is identified.
 old-location: http\http_service_config_ssl_key.htm

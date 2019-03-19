@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.InsertMenuW
-title: InsertMenuW function
+title: InsertMenuW function (winuser.h)
 author: windows-sdk-content
 description: Inserts a new menu item into a menu, moving other items down the menu.
 old-location: menurc\insertmenu.htm

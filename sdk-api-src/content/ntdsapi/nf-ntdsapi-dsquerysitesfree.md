@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsQuerySitesFree
-title: DsQuerySitesFree function
+title: DsQuerySitesFree function (ntdsapi.h)
 author: windows-sdk-content
 description: Frees the memory allocated by the DsQuerySitesByCost function.
 old-location: ad\dsquerysitesfree.htm

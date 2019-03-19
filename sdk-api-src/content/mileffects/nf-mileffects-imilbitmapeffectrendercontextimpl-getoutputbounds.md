@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetOutputBounds
-title: IMILBitmapEffectRenderContextImpl::GetOutputBounds
+title: IMILBitmapEffectRenderContextImpl::GetOutputBounds (mileffects.h)
 author: windows-sdk-content
 description: Gets the output bounds of the render context.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getoutputbounds.htm

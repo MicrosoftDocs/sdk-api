@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_QUERY_TEMPLATE
-title: SOCKET_SECURITY_QUERY_TEMPLATE
+title: SOCKET_SECURITY_QUERY_TEMPLATE (mstcpip.h)
 author: windows-sdk-content
 description: Contains the security template used by the WSAQuerySocketSecurity function.
 old-location: winsock\socket_security_query_template.htm

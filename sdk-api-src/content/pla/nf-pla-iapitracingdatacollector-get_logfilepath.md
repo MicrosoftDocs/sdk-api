@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_LogFilePath
-title: IApiTracingDataCollector::get_LogFilePath
+title: IApiTracingDataCollector::get_LogFilePath (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the log file that contains the API trace data.
 old-location: pla\iapitracingdatacollector_logfilepath.htm

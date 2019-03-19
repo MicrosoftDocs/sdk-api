@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.get_NumRingsNoAnswer
-title: ITForwardInformation::get_NumRingsNoAnswer
+title: ITForwardInformation::get_NumRingsNoAnswer (tapi3if.h)
 author: windows-sdk-content
 description: The get_NumRingsNoAnswer method retrieves the number of rings after which a no answer condition is assumed.
 old-location: tapi3\itforwardinformation_get_numringsnoanswer.htm

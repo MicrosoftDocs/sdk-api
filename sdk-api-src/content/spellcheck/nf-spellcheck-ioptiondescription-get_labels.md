@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Labels
-title: IOptionDescription::get_Labels
+title: IOptionDescription::get_Labels (spellcheck.h)
 author: windows-sdk-content
 description: Gets the label enumerator for the spell checker option.
 old-location: intl\ioptiondescription_labels.htm

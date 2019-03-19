@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetDocumentFont
-title: ITextDocument2::GetDocumentFont
+title: ITextDocument2::GetDocumentFont (tom.h)
 author: windows-sdk-content
 description: Gets an object that provides the default character format information for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getdocumentfont.htm

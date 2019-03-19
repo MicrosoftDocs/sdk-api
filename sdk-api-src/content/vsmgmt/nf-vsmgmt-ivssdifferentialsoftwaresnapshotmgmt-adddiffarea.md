@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
-title: IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
+title: IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea (vsmgmt.h)
 author: windows-sdk-content
 description: Adds a shadow copy storage area association for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_adddiffarea.htm

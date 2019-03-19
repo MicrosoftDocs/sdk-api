@@ -1,6 +1,6 @@
 ---
 UID: NC:dbghelp.PTRANSLATE_ADDRESS_ROUTINE64
-title: PTRANSLATE_ADDRESS_ROUTINE64
+title: PTRANSLATE_ADDRESS_ROUTINE64 (dbghelp.h)
 author: windows-sdk-content
 description: An application-defined callback function used with the StackWalk64 function. It provides address translation for 16-bit addresses.
 old-location: base\translateaddressproc64.htm

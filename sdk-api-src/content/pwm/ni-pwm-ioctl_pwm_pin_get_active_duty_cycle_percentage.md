@@ -1,6 +1,6 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
-title: IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE
+title: IOCTL_PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE (pwm.h)
 author: windows-sdk-content
 description: Retrieves the current duty cycle percentage for a pin or channel. The control code returns the percentage as a PWM_PIN_GET_ACTIVE_DUTY_CYCLE_PERCENTAGE_OUTPUT structure.
 old-location: base\ioctl_pwm_pin_get_active_duty_cycle_percentage.htm

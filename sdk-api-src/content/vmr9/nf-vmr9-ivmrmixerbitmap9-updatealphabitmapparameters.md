@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerBitmap9.UpdateAlphaBitmapParameters
-title: IVMRMixerBitmap9::UpdateAlphaBitmapParameters
+title: IVMRMixerBitmap9::UpdateAlphaBitmapParameters (vmr9.h)
 author: windows-sdk-content
 description: The UpdateAlphaBitmapParameters method changes the bitmap location, size and blending value.
 old-location: dshow\ivmrmixerbitmap9_updatealphabitmapparameters.htm

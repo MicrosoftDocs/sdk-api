@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.GetTraceEnableLevel
-title: GetTraceEnableLevel function
+title: GetTraceEnableLevel function (evntrace.h)
 author: windows-sdk-content
 description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceenablelevel.htm

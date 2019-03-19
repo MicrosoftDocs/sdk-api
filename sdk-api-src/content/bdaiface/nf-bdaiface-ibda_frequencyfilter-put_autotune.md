@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Autotune
-title: IBDA_FrequencyFilter::put_Autotune
+title: IBDA_FrequencyFilter::put_Autotune (bdaiface.h)
 author: windows-sdk-content
 description: The put_Autotune method specifies whether to activate the device's autotune capabilities.
 old-location: mstv\ibda_frequencyfilter_put_autotune.htm

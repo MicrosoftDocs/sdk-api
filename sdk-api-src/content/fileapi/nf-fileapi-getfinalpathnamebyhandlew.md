@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetFinalPathNameByHandleW
-title: GetFinalPathNameByHandleW function
+title: GetFinalPathNameByHandleW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the final path for the specified file.
 old-location: fs\getfinalpathnamebyhandle.htm

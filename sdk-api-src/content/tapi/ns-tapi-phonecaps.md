@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.phonecaps_tag
-title: PHONECAPS
+title: PHONECAPS (tapi.h)
 author: windows-sdk-content
 description: The PHONECAPS structure describes the capabilities of a phone device. The phoneGetDevCaps and TSPI_phoneGetDevCaps functions return this structure.
 old-location: tapi2\phonecaps_str.htm

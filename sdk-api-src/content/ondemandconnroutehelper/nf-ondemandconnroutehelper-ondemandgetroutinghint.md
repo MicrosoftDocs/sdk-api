@@ -1,6 +1,6 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandGetRoutingHint
-title: OnDemandGetRoutingHint function
+title: OnDemandGetRoutingHint function (ondemandconnroutehelper.h)
 author: windows-sdk-content
 description: The OnDemandGetRoutingHint function looks up a destination in the Route Request cache and, if a match is found, return the corresponding Interface ID.
 old-location: nla\ondemandgetroutinghint.htm

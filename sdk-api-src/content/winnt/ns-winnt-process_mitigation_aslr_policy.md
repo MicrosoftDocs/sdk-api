@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_ASLR_POLICY
-title: PROCESS_MITIGATION_ASLR_POLICY
+title: PROCESS_MITIGATION_ASLR_POLICY (winnt.h)
 author: windows-sdk-content
 description: Contains process mitigation policy settings for Address Space Randomization Layout (ASLR).
 old-location: base\process_mitigation_aslr_policy.htm

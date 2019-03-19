@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.SetProperty
-title: IAzOperation::SetProperty
+title: IAzOperation::SetProperty (azroles.h)
 author: windows-sdk-content
 description: Sets the specified value to the IAzOperation object property with the specified property ID.
 old-location: security\iazoperation_setproperty.htm

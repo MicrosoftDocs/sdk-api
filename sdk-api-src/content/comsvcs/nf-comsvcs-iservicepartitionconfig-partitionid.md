@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePartitionConfig.PartitionID
-title: IServicePartitionConfig::PartitionID
+title: IServicePartitionConfig::PartitionID (comsvcs.h)
 author: windows-sdk-content
 description: Sets the GUID for the partition that is used for the enclosed work.
 old-location: cos\iservicepartitionconfig_partitionid.htm

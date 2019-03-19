@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertCreateSelfSignCertificate
-title: CertCreateSelfSignCertificate function
+title: CertCreateSelfSignCertificate function (wincrypt.h)
 author: windows-sdk-content
 description: Builds a self-signed certificate and returns a pointer to a CERT_CONTEXT structure that represents the certificate.
 old-location: security\certcreateselfsigncertificate.htm

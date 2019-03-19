@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgent.get_NumberOfIncomingCalls
-title: ITAgent::get_NumberOfIncomingCalls
+title: ITAgent::get_NumberOfIncomingCalls (tapi3.h)
 author: windows-sdk-content
 description: The get_NumberOfIncomingCalls method gets the number of incoming non-ACD calls handled by this agent.
 old-location: tapi3\itagent_get_numberofincomingcalls.htm

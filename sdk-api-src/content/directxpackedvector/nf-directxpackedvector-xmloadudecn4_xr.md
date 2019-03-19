@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadUDecN4_XR
-title: XMLoadUDecN4_XR function
+title: XMLoadUDecN4_XR function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an extended range XMUDECN4 into an XMVECTOR.
 old-location: dxmath\_xmloadudecn4_xr.htm

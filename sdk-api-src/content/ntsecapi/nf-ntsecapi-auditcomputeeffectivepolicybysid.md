@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.AuditComputeEffectivePolicyBySid
-title: AuditComputeEffectivePolicyBySid function
+title: AuditComputeEffectivePolicyBySid function (ntsecapi.h)
 author: windows-sdk-content
 description: Computes the effective audit policy for one or more subcategories for the specified security principal. The function computes effective audit policy by combining system audit policy with per-user policy.
 old-location: security\auditcomputeeffectivepolicybysid_func.htm

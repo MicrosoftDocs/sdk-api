@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNodeEnum
-title: ClusterNodeEnum function
+title: ClusterNodeEnum function (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the network interfaces or groups installed on a node, returning the name of each with each call.
 old-location: mscs\clusternodeenum.htm

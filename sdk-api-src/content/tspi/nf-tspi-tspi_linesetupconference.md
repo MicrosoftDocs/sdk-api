@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetupConference
-title: TSPI_lineSetupConference function
+title: TSPI_lineSetupConference function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetupConference function sets up a conference call for the addition of the third party.
 old-location: tspi\tspi_linesetupconference.htm

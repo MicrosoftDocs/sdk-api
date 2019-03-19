@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_13
-title: MCI_DGV_OPEN_PARMSW
+title: MCI_DGV_OPEN_PARMSW (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_OPEN_PARMS structure contains information for the MCI_OPEN command for digital-video devices.
 old-location: multimedia\mci_dgv_open_parms.htm

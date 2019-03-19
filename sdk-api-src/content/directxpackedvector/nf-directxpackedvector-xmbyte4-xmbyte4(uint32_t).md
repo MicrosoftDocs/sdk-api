@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(uint32_t)
-title: XMBYTE4::XMBYTE4(uint32_t)
+title: XMBYTE4::XMBYTE4(uint32_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMBYTE4 from a uint32_tvariable containing component data in a packed format.
 old-location: dxmath\xmbyte4_ctor_6.htm

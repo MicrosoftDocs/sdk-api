@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_DESTROYPALETTEDATA
-title: DD_DESTROYPALETTEDATA
+title: DD_DESTROYPALETTEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_DESTROYPALETTEDATA structure contains information necessary to destroy the specified palette.
 old-location: display\dd_destroypalettedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.ICategory
-title: ICategory
+title: ICategory (wuapi.h)
 author: windows-sdk-content
 description: Represents the category to which an update belongs.
 old-location: wua\icategory.htm

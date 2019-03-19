@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetThreadDpiHostingBehavior
-title: GetThreadDpiHostingBehavior function
+title: GetThreadDpiHostingBehavior function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the DPI_HOSTING_BEHAVIOR from the current thread.
 old-location: hidpi\getthreaddpihostingbehavior.htm

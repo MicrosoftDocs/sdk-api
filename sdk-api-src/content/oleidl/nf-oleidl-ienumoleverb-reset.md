@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Reset
-title: IEnumOLEVERB::Reset
+title: IEnumOLEVERB::Reset (oleidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumoleverb_reset.htm

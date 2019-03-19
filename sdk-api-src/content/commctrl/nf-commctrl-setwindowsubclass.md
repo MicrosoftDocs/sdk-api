@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.SetWindowSubclass
-title: SetWindowSubclass function
+title: SetWindowSubclass function (commctrl.h)
 author: windows-sdk-content
 description: Installs or updates a window subclass callback.
 old-location: shell\SetWindowSubclass.htm

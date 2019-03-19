@@ -1,6 +1,6 @@
 ---
 UID: NE:shdeprecated.tagBNSTATE
-title: BNSTATE
+title: BNSTATE (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Used by IBrowserService::SetNavigateState and IBrowserService::GetNavigateState to specify navigation states.
 old-location: shell\BNSTATE.htm

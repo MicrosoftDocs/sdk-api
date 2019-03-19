@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetOwnerReplicaId
-title: ISyncKnowledge::GetOwnerReplicaId
+title: ISyncKnowledge::GetOwnerReplicaId (winsync.h)
 author: windows-sdk-content
 description: Gets the ID of the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_getownerreplicaid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcErrorAddRecord
-title: RpcErrorAddRecord function
+title: RpcErrorAddRecord function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcErrorAddRecord function adds extended error information to a chain of extended error information records.
 old-location: rpc\rpcerroraddrecord.htm

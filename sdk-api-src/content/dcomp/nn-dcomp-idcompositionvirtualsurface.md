@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionVirtualSurface
-title: IDCompositionVirtualSurface
+title: IDCompositionVirtualSurface (dcomp.h)
 author: windows-sdk-content
 description: Represents a sparsely allocated bitmap that can be associated with a visual for composition in a visual tree.
 old-location: directcomp\idcompositionvirtualsurface.htm

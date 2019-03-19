@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS
-title: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS
+title: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS (d3d12.h)
 author: windows-sdk-content
 description: Defines the inputs for a raytracing acceleration structure build operation. This structure is used by ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure and ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo.
 old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_inputs.htm

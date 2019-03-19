@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.TreeSetNamedSecurityInfoA
-title: TreeSetNamedSecurityInfoA function
+title: TreeSetNamedSecurityInfoA function (aclapi.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor of a specified tree of objects.
 old-location: security\treesetnamedsecurityinfo.htm

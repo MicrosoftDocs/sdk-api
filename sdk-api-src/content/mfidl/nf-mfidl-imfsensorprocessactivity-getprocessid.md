@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorProcessActivity.GetProcessId
-title: IMFSensorProcessActivity::GetProcessId
+title: IMFSensorProcessActivity::GetProcessId (mfidl.h)
 author: windows-sdk-content
 description: Gets the ID of the process with which the activity is associated.
 old-location: mf\imfsensorprocessactivity_getprocessid.htm

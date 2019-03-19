@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.CreateClassEnumAsync
-title: IWbemServices::CreateClassEnumAsync
+title: IWbemServices::CreateClassEnumAsync (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::CreateClassEnumAsync method returns an enumeration of all classes that the class provider supports.
 old-location: wmi\iwbemservices_createclassenumasync.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMVIEWCHANGE
-title: NMVIEWCHANGE
+title: NMVIEWCHANGE (commctrl.h)
 author: windows-sdk-content
 description: Stores information required to process the MCN_VIEWCHANGE notification code.
 old-location: controls\NMVIEWCHANGE.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1_1.D2D1_PRIMITIVE_BLEND
-title: D2D1_PRIMITIVE_BLEND
+title: D2D1_PRIMITIVE_BLEND (d2d1_1.h)
 author: windows-sdk-content
 description: Used to specify the geometric blend mode for all Direct2D primitives.
 old-location: direct2d\__d2d1_primitive_blend.htm

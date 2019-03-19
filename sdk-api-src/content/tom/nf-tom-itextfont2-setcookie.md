@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.SetCookie
-title: ITextFont2::SetCookie
+title: ITextFont2::SetCookie (tom.h)
 author: windows-sdk-content
 description: Sets the client cookie.
 old-location: controls\itextfont2_setcookie.htm

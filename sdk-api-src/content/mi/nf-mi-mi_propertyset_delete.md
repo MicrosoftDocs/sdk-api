@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_PropertySet_Delete
-title: MI_PropertySet_Delete function
+title: MI_PropertySet_Delete function (mi.h)
 author: windows-sdk-content
 description: Deletes the specified property list that was constructed on the heap.
 old-location: wmi_v2\mi_propertyset_delete.htm

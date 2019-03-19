@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get_Item
-title: IUpdateHistoryEntryCollection::get_Item
+title: IUpdateHistoryEntryCollection::get_Item (wuapi.h)
 author: windows-sdk-content
 description: Gets an IUpdateHistoryEntry interface in the collection.
 old-location: wua\iupdatehistoryentrycollection_item.htm

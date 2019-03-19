@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetEnums
-title: IVisualTreeService::GetEnums
+title: IVisualTreeService::GetEnums (xamlom.h)
 author: windows-sdk-content
 description: Gets an array of all the enums defined in the XAML runtime and the total count.
 old-location: xaml_diagnostics\ivisualtreeservice_getenums.htm

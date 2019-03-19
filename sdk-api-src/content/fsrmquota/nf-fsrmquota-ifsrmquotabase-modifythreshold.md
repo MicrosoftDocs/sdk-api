@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.ModifyThreshold
-title: IFsrmQuotaBase::ModifyThreshold
+title: IFsrmQuotaBase::ModifyThreshold (fsrmquota.h)
 author: windows-sdk-content
 description: Changes the threshold value.
 old-location: fsrm\ifsrmquotabase_modifythreshold.htm

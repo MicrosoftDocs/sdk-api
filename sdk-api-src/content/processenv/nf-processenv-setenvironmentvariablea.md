@@ -1,6 +1,6 @@
 ---
 UID: NF:processenv.SetEnvironmentVariableA
-title: SetEnvironmentVariableA function
+title: SetEnvironmentVariableA function (processenv.h)
 author: windows-sdk-content
 description: Sets the contents of the specified environment variable for the current process.
 old-location: base\setenvironmentvariable.htm

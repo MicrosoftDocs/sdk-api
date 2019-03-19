@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetStreamSource
-title: IDirect3DDevice9::GetStreamSource
+title: IDirect3DDevice9::GetStreamSource (d3d9.h)
 author: windows-sdk-content
 description: Retrieves a vertex buffer bound to the specified data stream.
 old-location: direct3d9\idirect3ddevice9__getstreamsource.htm

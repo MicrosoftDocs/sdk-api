@@ -1,6 +1,6 @@
 ---
 UID: NF:wsipv6ok.WSAAsyncGetHostByAddr
-title: WSAAsyncGetHostByAddr macro
+title: WSAAsyncGetHostByAddr macro (wsipv6ok.h)
 author: windows-sdk-content
 description: The WSAAsyncGetHostByAddr function asynchronously retrieves host information that corresponds to an address.Note  The WSAAsyncGetHostByAddr function is not designed to provide parallel resolution of several addresses.
 old-location: winsock\wsaasyncgethostbyaddr_2.htm

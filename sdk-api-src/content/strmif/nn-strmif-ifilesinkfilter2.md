@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFileSinkFilter2
-title: IFileSinkFilter2
+title: IFileSinkFilter2 (strmif.h)
 author: windows-sdk-content
 description: The IFileSinkFilter2 interface extends the IFileSinkFilter interface.
 old-location: dshow\ifilesinkfilter2.htm

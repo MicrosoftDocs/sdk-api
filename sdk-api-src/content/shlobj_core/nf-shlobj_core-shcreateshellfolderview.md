@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCreateShellFolderView
-title: SHCreateShellFolderView function
+title: SHCreateShellFolderView function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates a new instance of the default Shell folder view object (DefView).
 old-location: shell\SHCreateShellFolderView.htm

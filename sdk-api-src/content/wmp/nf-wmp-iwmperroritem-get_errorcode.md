@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorCode
-title: IWMPErrorItem::get_errorCode
+title: IWMPErrorItem::get_errorCode (wmp.h)
 author: windows-sdk-content
 description: The get_errorCode method retrieves the current error code.
 old-location: wmp\iwmperroritem_get_errorcode.htm

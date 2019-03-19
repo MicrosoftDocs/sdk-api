@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_100
-title: WS_URL_SCHEME_TYPE
+title: WS_URL_SCHEME_TYPE (webservices.h)
 author: windows-sdk-content
 description: The set of schemes used with WsDecodeUrl, WsEncodeUrl, and WsCombineUrl.
 old-location: wsw\ws_url_scheme_type.htm

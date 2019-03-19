@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.IsWindowedStereoEnabled
-title: IDXGIFactory2::IsWindowedStereoEnabled
+title: IDXGIFactory2::IsWindowedStereoEnabled (dxgi1_2.h)
 author: windows-sdk-content
 description: Determines whether to use stereo mode.
 old-location: direct3ddxgi\idxgifactory2_iswindowedstereoenabled.htm

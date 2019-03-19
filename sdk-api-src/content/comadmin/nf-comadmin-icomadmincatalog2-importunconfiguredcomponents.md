@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ImportUnconfiguredComponents
-title: ICOMAdminCatalog2::ImportUnconfiguredComponents
+title: ICOMAdminCatalog2::ImportUnconfiguredComponents (comadmin.h)
 author: windows-sdk-content
 description: Imports the specified classes into a COM+ application as unconfigured components.
 old-location: cos\icomadmincatalog2_importunconfiguredcomponents.htm

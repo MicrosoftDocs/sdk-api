@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsTypedName
-title: IADsTypedName
+title: IADsTypedName (iads.h)
 author: windows-sdk-content
 description: The IADsTypedName interface provides methods for an ADSI client to access the Typed Name attribute.
 old-location: adsi\iadstypedname.htm

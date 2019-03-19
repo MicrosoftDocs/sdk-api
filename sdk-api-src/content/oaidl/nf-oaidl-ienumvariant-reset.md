@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Reset
-title: IEnumVARIANT::Reset
+title: IEnumVARIANT::Reset (oaidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: automat\ienumvariant_reset.htm

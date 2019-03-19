@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptRegisterOIDFunction
-title: CryptRegisterOIDFunction function
+title: CryptRegisterOIDFunction function (wincrypt.h)
 author: windows-sdk-content
 description: Registers a DLL that contains the function to be called for the specified encoding type, function name, and object identifier (OID).
 old-location: security\cryptregisteroidfunction.htm

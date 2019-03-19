@@ -1,6 +1,6 @@
 ---
 UID: NF:mmsystem.DIBINDEX
-title: DIBINDEX macro
+title: DIBINDEX macro (mmsystem.h)
 author: windows-sdk-content
 description: The DIBINDEX macro takes an index to an entry in a DIB color table and returns a COLORREF value that specifies the color associated with the given index.
 old-location: gdi\dibindex.htm

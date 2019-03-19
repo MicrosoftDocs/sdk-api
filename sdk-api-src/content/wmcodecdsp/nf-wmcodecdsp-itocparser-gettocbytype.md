@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocByType
-title: ITocParser::GetTocByType
+title: ITocParser::GetTocByType (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetTocByType retrieves all tables of contents of a specified type from the TOC Parser object.
 old-location: mf\itocparser_gettocbytype.htm

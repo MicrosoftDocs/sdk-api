@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.Connect
-title: ICOMAdminCatalog::Connect
+title: ICOMAdminCatalog::Connect (comadmin.h)
 author: windows-sdk-content
 description: Connects to the COM+ catalog on a specified remote computer.
 old-location: cos\icomadmincatalog_connect.htm

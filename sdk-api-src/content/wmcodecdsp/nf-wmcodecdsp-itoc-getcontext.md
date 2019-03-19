@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetContext
-title: IToc::GetContext
+title: IToc::GetContext (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetContext method retrieves a block of bytes that was previously associated with the table of contents by a call to SetContext.
 old-location: mf\itoc_getcontext.htm

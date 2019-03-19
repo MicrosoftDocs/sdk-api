@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._TRANSACTION_OUTCOME
-title: TRANSACTION_OUTCOME
+title: TRANSACTION_OUTCOME (winnt.h)
 author: windows-sdk-content
 description: Defines the outcomes (results) that KTM can assign to a transaction.
 old-location: fs\transaction_outcome.htm

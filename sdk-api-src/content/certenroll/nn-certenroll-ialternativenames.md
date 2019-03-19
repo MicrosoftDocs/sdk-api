@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IAlternativeNames
-title: IAlternativeNames
+title: IAlternativeNames (certenroll.h)
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of IAlternativeName objects.
 old-location: security\ialternativenames.htm

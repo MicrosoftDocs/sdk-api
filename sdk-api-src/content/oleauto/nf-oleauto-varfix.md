@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarFix
-title: VarFix function
+title: VarFix function (oleauto.h)
 author: windows-sdk-content
 description: Returns the integer portion of a variant.
 old-location: automat\varfix.htm

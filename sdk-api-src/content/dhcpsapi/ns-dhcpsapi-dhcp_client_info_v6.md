@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_V6
-title: DHCP_CLIENT_INFO_V6
+title: DHCP_CLIENT_INFO_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_V6 structure contains information on DHCPv6 clients.
 old-location: dhcp\dhcp_client_info_v6.htm

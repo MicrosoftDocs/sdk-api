@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.GetAllAccessRights
-title: IAccessControl::GetAllAccessRights
+title: IAccessControl::GetAllAccessRights (iaccess.h)
 author: windows-sdk-content
 description: Gets the entire list of access rights and/or the owner and group for the specified object.
 old-location: com\iaccesscontrol_getallaccessrights.htm

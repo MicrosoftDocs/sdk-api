@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IEnumProgressItems.Reset
-title: IEnumProgressItems::Reset
+title: IEnumProgressItems::Reset (imapi2fs.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: imapi\ienumprogressitems_reset.htm

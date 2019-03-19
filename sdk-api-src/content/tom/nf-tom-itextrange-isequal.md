@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.IsEqual
-title: ITextRange::IsEqual
+title: ITextRange::IsEqual (tom.h)
 author: windows-sdk-content
 description: Determines whether this range has the same character positions and story as those of a specified range.
 old-location: controls\ITextRange_IsEqual.htm

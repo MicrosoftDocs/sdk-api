@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.STREAM_ID_MAP
-title: STREAM_ID_MAP
+title: STREAM_ID_MAP (strmif.h)
 author: windows-sdk-content
 description: The STREAM_ID_MAP structure describes an elementary stream within an MPEG-2 program stream. Used with the IEnumStreamIdMap interface methods.
 old-location: dshow\stream_id_map.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage2.get_ReceiptAddress
-title: IFaxOutgoingMessage2::get_ReceiptAddress
+title: IFaxOutgoingMessage2::get_ReceiptAddress (faxcomex.h)
 author: windows-sdk-content
 description: Specifies the address to which the delivery report is sent.
 old-location: fax\_mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_receiptaddress_cpp.htm

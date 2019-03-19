@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.IsIndexed
-title: IEnumCERTVIEWCOLUMN::IsIndexed
+title: IEnumCERTVIEWCOLUMN::IsIndexed (certview.h)
 author: windows-sdk-content
 description: Reports whether the data in the column is indexed.
 old-location: security\ienumcertviewcolumn_isindexed.htm

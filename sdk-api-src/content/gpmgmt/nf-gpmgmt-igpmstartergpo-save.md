@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Save
-title: IGPMStarterGPO::Save
+title: IGPMStarterGPO::Save (gpmgmt.h)
 author: windows-sdk-content
 description: Saves all Starter GPO settings into a single CAB file.
 old-location: gpmc\igpmstartergpo_save.htm

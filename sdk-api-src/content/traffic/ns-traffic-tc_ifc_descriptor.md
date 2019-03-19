@@ -1,6 +1,6 @@
 ---
 UID: NS:traffic._TC_IFC_DESCRIPTOR
-title: TC_IFC_DESCRIPTOR
+title: TC_IFC_DESCRIPTOR (traffic.h)
 author: windows-sdk-content
 description: The TC_IFC_DESCRIPTOR structure is an interface identifier used to enumerate interfaces.
 old-location: qos\tc_ifc_descriptor.htm

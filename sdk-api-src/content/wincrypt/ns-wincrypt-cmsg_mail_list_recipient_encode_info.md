@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO
-title: CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO
+title: CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO structure is used with previously distributed symmetric keys for decrypting the content key encryption key (KEK).
 old-location: security\cmsg_mail_list_recipient_encode_info.htm

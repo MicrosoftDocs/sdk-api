@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.LoadDefaultSender
-title: IFaxSender::LoadDefaultSender
+title: IFaxSender::LoadDefaultSender (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSender::get_LoadDefaultSender method fills the FaxSender object with the default sender information.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_loaddefaultsender_cpp.htm

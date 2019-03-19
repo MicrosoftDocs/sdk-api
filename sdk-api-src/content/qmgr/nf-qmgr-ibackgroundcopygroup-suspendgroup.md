@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SuspendGroup
-title: IBackgroundCopyGroup::SuspendGroup
+title: IBackgroundCopyGroup::SuspendGroup (qmgr.h)
 author: windows-sdk-content
 description: Use the SuspendGroup method to pause a group in the download queue. New groups, groups that are in error, or groups that have finished downloading are automatically suspended.
 old-location: bits\ibackgroundcopygroup_suspendgroup.htm

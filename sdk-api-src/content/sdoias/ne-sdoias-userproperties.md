@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._USERPROPERTIES
-title: USERPROPERTIES
+title: USERPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the USERPROPERTIES enumeration type enumerate the user properties supported by the SDO API.
 old-location: nps\SDO_userproperties.htm

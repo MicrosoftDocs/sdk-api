@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuner.get_SignalStrength
-title: ITuner::get_SignalStrength
+title: ITuner::get_SignalStrength (tuner.h)
 author: windows-sdk-content
 description: The get_SignalStrength method retrieves the Network Provider-specific signal strength metric.
 old-location: mstv\ituner_get_signalstrength.htm

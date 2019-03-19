@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzFreeHandle
-title: AuthzFreeHandle function
+title: AuthzFreeHandle function (authz.h)
 author: windows-sdk-content
 description: Finds and deletes a handle from the handle list.
 old-location: security\authzfreehandle.htm

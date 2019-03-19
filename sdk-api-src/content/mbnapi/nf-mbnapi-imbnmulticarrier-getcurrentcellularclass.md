@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetCurrentCellularClass
-title: IMbnMultiCarrier::GetCurrentCellularClass
+title: IMbnMultiCarrier::GetCurrentCellularClass (mbnapi.h)
 author: windows-sdk-content
 description: Gets the current cellular classes for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_getcurrentcellularclass.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0030_0001
-title: GPMBackupType
+title: GPMBackupType (gpmgmt.h)
 author: windows-sdk-content
 description: The type of backup created.
 old-location: gpmc\gpmbackuptype.htm

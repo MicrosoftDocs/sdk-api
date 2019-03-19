@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.OnTxInPlaceDeactivate
-title: ITextServices::OnTxInPlaceDeactivate
+title: ITextServices::OnTxInPlaceDeactivate (textserv.h)
 author: windows-sdk-content
 description: Notifies the text services object that this control is no longer in-place active.
 old-location: controls\ITextServices_OnTxInPlaceDeactivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetStereo3DFramePackingMode
-title: IMFMediaEngineEx::SetStereo3DFramePackingMode
+title: IMFMediaEngineEx::SetStereo3DFramePackingMode (mfmediaengine.h)
 author: windows-sdk-content
 description: For stereoscopic 3D video, sets the layout of the two views within a video frame.
 old-location: mf\imfmediaengineex_setstereo3dframepackingmode.htm

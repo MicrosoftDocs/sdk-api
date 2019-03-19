@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2IsInfinite
-title: XMVector2IsInfinite function
+title: XMVector2IsInfinite function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any component of a 2D vector is positive or negative infinity.
 old-location: dxmath\xmvector2isinfinite.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetListBoxInfo
-title: GetListBoxInfo function
+title: GetListBoxInfo function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the number of items per column in a specified list box.
 old-location: controls\GetListBoxInfo.htm

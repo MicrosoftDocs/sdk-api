@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.DsBrowseForContainerA
-title: DsBrowseForContainerA function
+title: DsBrowseForContainerA function (dsclient.h)
 author: windows-sdk-content
 description: Displays a dialog box used to browse for container objects in Active Directory Domain Services.
 old-location: ad\dsbrowseforcontainer.htm

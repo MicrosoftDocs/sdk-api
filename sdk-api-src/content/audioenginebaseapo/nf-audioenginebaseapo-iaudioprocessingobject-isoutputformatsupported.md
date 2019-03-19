@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.IsOutputFormatSupported
-title: IAudioProcessingObject::IsOutputFormatSupported
+title: IAudioProcessingObject::IsOutputFormatSupported (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The IsOutputFormatSupported method is used to verify that a specific output format is supported.
 old-location: audio\iaudioprocessingobject_isoutputformatsupported.htm

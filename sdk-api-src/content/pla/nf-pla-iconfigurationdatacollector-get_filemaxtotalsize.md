@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxTotalSize
-title: IConfigurationDataCollector::get_FileMaxTotalSize
+title: IConfigurationDataCollector::get_FileMaxTotalSize (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the maximum total file size of all files combined that you can collect.
 old-location: pla\iconfigurationdatacollector_filemaxtotalsize.htm

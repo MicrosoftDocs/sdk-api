@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanSaveTemporaryProfile
-title: WlanSaveTemporaryProfile function
+title: WlanSaveTemporaryProfile function (wlanapi.h)
 author: windows-sdk-content
 description: Saves a temporary profile to the profile store.
 old-location: nwifi\wlansavetemporaryprofile.htm

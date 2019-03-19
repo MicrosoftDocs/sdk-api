@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.DIALOG_DPI_CHANGE_BEHAVIORS
-title: DIALOG_DPI_CHANGE_BEHAVIORS
+title: DIALOG_DPI_CHANGE_BEHAVIORS (winuser.h)
 author: windows-sdk-content
 description: In Per Monitor v2 contexts, dialogs will automatically respond to DPI changes by resizing themselves and re-computing the positions of their child windows (here referred to as re-layouting).
 old-location: hidpi\dialog_dpi_change_behaviors.htm

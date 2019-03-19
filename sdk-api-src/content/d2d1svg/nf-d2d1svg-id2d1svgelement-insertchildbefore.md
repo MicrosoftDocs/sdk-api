@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.InsertChildBefore
-title: ID2D1SvgElement::InsertChildBefore
+title: ID2D1SvgElement::InsertChildBefore (d2d1svg.h)
 author: windows-sdk-content
 description: Inserts newChild as a child of this element, before the referenceChild element.
 old-location: direct2d\id2d1svgelement_insertchildbefore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.IncludedInCrawlScopeEx
-title: ISearchCrawlScopeManager::IncludedInCrawlScopeEx
+title: ISearchCrawlScopeManager::IncludedInCrawlScopeEx (searchapi.h)
 author: windows-sdk-content
 description: Retrieves an indicator of whether and why the specified URL is included in the crawl scope.
 old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx.htm

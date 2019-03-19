@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_GuardInterval
-title: IBDA_DigitalDemodulator2::put_GuardInterval
+title: IBDA_DigitalDemodulator2::put_GuardInterval (bdaiface.h)
 author: windows-sdk-content
 description: Sets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_put_guardinterval.htm

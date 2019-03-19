@@ -1,6 +1,6 @@
 ---
 UID: NN:termmgr.ITTerminalManager
-title: ITTerminalManager
+title: ITTerminalManager (termmgr.h)
 author: windows-sdk-content
 description: The ITTerminalManager interface is used by the MSP to create dynamic terminals.
 old-location: tapi3\itterminalmanager.htm

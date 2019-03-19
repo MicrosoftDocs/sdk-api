@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.SetCurrentTransform
-title: IDWriteBitmapRenderTarget::SetCurrentTransform
+title: IDWriteBitmapRenderTarget::SetCurrentTransform (dwrite.h)
 author: windows-sdk-content
 description: Sets the transform that maps abstract coordinate to DIPs (device-independent pixel). This does not affect the world transform of the underlying device context.
 old-location: directwrite\IDWriteBitmapRenderTarget_SetCurrentTransform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionSaturationEffect.SetSaturation(float)
-title: IDCompositionSaturationEffect::SetSaturation(float)
+title: IDCompositionSaturationEffect::SetSaturation(float) (dcomp.h)
 author: windows-sdk-content
 description: Sets the saturation of the image.
 old-location: directcomp\idcompositionsaturationeffect_setsaturation.htm

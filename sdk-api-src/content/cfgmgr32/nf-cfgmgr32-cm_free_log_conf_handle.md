@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf_Handle
-title: CM_Free_Log_Conf_Handle function
+title: CM_Free_Log_Conf_Handle function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Free_Log_Conf_Handle function invalidates a logical configuration handle and frees its associated memory allocation.
 old-location: devinst\cm_free_log_conf_handle.htm

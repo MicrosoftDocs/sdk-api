@@ -1,6 +1,6 @@
 ---
 UID: NN:wcmconfig.ITargetInfo
-title: ITargetInfo
+title: ITargetInfo (wcmconfig.h)
 author: windows-sdk-content
 description: Defines the offline target information, specifically, file and registry locations as well as wow64 information.
 old-location: smi\itargetinfo.htm

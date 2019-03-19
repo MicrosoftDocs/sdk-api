@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetContainerFormats
-title: IWICMetadataHandlerInfo::GetContainerFormats
+title: IWICMetadataHandlerInfo::GetContainerFormats (wincodecsdk.h)
 author: windows-sdk-content
 description: Retrieves the container formats supported by the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getcontainerformats.htm

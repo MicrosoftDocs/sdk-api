@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreatePrivateNamespaceA
-title: CreatePrivateNamespaceA function
+title: CreatePrivateNamespaceA function (winbase.h)
 author: windows-sdk-content
 description: Creates a private namespace.
 old-location: base\createprivatenamespace.htm

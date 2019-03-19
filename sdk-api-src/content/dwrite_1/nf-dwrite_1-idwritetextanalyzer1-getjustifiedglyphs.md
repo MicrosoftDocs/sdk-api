@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetJustifiedGlyphs
-title: IDWriteTextAnalyzer1::GetJustifiedGlyphs
+title: IDWriteTextAnalyzer1::GetJustifiedGlyphs (dwrite_1.h)
 author: windows-sdk-content
 description: Fills in new glyphs for complex scripts where justification increased the advances of glyphs, such as Arabic with kashida.
 old-location: directwrite\idwritetextanalyzer1_getjustifiedglyphs.htm

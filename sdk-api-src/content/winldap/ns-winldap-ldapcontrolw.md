@@ -1,6 +1,6 @@
 ---
 UID: NS:winldap.ldapcontrolW
-title: LDAPControlW
+title: LDAPControlW (winldap.h)
 author: windows-sdk-content
 description: Represents both client-side and server controls.
 old-location: ldap\ldapcontrol.htm

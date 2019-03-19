@@ -1,6 +1,6 @@
 ---
 UID: NS:winhttp.tagWINHTTP_CREDS_EX
-title: WINHTTP_CREDS_EX
+title: WINHTTP_CREDS_EX (winhttp.h)
 author: windows-sdk-content
 description: Contains user credential information used for server and proxy authentication.
 old-location: http\winhttp_creds_ex.htm

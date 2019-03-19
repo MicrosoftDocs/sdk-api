@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerClientEventHandler.OnTimerClientStatusChanged
-title: IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged
+title: IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged (uianimation.h)
 author: windows-sdk-content
 description: Handles events that occur when the status of the timer's client changes.
 old-location: uianimation\iuianimationtimerclienteventhandler_ontimerclientstatuschanged.htm

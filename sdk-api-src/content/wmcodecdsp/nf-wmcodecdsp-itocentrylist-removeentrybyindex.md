@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.RemoveEntryByIndex
-title: ITocEntryList::RemoveEntryByIndex
+title: ITocEntryList::RemoveEntryByIndex (wmcodecdsp.h)
 author: windows-sdk-content
 description: The RemoveEntryByIndex method removes an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_removeentrybyindex.htm

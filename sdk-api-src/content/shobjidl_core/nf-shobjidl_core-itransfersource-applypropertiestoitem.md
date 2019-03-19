@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.ApplyPropertiesToItem
-title: ITransferSource::ApplyPropertiesToItem
+title: ITransferSource::ApplyPropertiesToItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Apply a set of property changes to an item.
 old-location: shell\ITransferSource_ApplyPropertiesToItem.htm

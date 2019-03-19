@@ -1,6 +1,6 @@
 ---
 UID: NS:drt._DRT_ADDRESS
-title: DRT_ADDRESS
+title: DRT_ADDRESS (drt.h)
 author: windows-sdk-content
 description: DRT_ADDRESS structure contains endpoint information about a DRT node that participated in a search. This information is intended for use in debugging connectivity problems.
 old-location: p2p\drt_address.htm

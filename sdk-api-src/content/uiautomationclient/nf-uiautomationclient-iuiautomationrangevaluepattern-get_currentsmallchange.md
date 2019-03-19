@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentSmallChange
-title: IUIAutomationRangeValuePattern::get_CurrentSmallChange
+title: IUIAutomationRangeValuePattern::get_CurrentSmallChange (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the value that is added to or subtracted from the value of the control when a small change is made, such as when an arrow key is pressed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentSmallChange.htm

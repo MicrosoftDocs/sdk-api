@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.Rewind
-title: GraphicsPathIterator::Rewind
+title: GraphicsPathIterator::Rewind (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPathIterator::Rewind method rewinds this iterator to the beginning of its associated path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Rewind_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.Commit
-title: CInstance::Commit
+title: CInstance::Commit (instance.h)
 author: windows-sdk-content
 description: The Commit method returns the current instance to WMI.
 old-location: wmi\cinstance_commit.htm

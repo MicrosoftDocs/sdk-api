@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_BANDWIDTH_LIMIT_INFO
-title: HTTP_BANDWIDTH_LIMIT_INFO
+title: HTTP_BANDWIDTH_LIMIT_INFO (http.h)
 author: windows-sdk-content
 description: The HTTP_BANDWIDTH_LIMIT_INFO structure is used to set or query the bandwidth throttling limit. This structure must be used when setting or querying the HttpServerBandwidthProperty on a URL Group or server session.
 old-location: http\http_bandwidth_limit_info.htm

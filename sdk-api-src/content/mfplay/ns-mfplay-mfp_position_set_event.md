@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_POSITION_SET_EVENT
-title: MFP_POSITION_SET_EVENT
+title: MFP_POSITION_SET_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_POSITION_SET event.
 old-location: mf\mfp_position_set_event.htm

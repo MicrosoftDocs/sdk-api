@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange.GetFont
-title: ITextRange::GetFont
+title: ITextRange::GetFont (tom.h)
 author: windows-sdk-content
 description: Gets an ITextFont object with the character attributes of the specified range.
 old-location: controls\ITextRange_GetFont.htm

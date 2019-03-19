@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMINT2.XMINT2(int32_t,int32_t)
-title: XMINT2::XMINT2(int32_t,int32_t)
+title: XMINT2::XMINT2(int32_t,int32_t) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMINT2 from two int32_t arguments.
 old-location: dxmath\xmint2_ctor_2.htm

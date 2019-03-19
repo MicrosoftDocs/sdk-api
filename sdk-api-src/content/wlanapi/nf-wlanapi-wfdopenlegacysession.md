@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WFDOpenLegacySession
-title: WFDOpenLegacySession function
+title: WFDOpenLegacySession function (wlanapi.h)
 author: windows-sdk-content
 description: Retrieves and applies a stored profile for a Wi-Fi Direct legacy device.
 old-location: nwifi\wfdopenlegacysession.htm

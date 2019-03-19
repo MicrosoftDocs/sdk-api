@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIStream.SetFormat
-title: IAVIStream::SetFormat
+title: IAVIStream::SetFormat (vfw.h)
 author: windows-sdk-content
 description: The SetFormat method sets format information in a stream. Called when an application uses the AVIStreamSetFormat function.
 old-location: multimedia\iavistream_setformat.htm

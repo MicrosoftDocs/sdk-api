@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.SetLocaleInfoW
-title: SetLocaleInfoW function
+title: SetLocaleInfoW function (winnls.h)
 author: windows-sdk-content
 description: Sets an item of information in the user override portion of the current locale. This function does not set the system defaults.
 old-location: intl\setlocaleinfo.htm

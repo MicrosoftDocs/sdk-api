@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.AddIScsiStaticTargetA
-title: AddIScsiStaticTargetA function
+title: AddIScsiStaticTargetA function (iscsidsc.h)
 author: windows-sdk-content
 description: AddIscsiStaticTarget function adds a target to the list of static targets available to the iSCSI initiator.
 old-location: iscsidisc\addiscsistatictarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoreg.DMOEnum
-title: DMOEnum function
+title: DMOEnum function (dmoreg.h)
 author: windows-sdk-content
 description: The DMOEnum function enumerates DMOs listed in the registry. The caller can search by category, media type, or both.
 old-location: dshow\dmoenum.htm

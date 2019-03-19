@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.tagDVD_PREFERRED_DISPLAY_MODE
-title: DVD_PREFERRED_DISPLAY_MODE
+title: DVD_PREFERRED_DISPLAY_MODE (strmif.h)
 author: windows-sdk-content
 description: Indicates the user's preferred window aspect ratio and conversion method.
 old-location: dshow\dvd_preferred_display_mode.htm

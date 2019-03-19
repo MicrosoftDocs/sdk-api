@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.GetGestureStatus
-title: IInkCollector::GetGestureStatus
+title: IInkCollector::GetGestureStatus (msinkaut.h)
 author: windows-sdk-content
 description: Indicates whether the InkCollector or InkOverlay object is interested in a particular application gesture.
 old-location: tablet\inkcollector_getgesturestatus.htm

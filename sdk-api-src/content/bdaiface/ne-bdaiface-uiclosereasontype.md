@@ -1,6 +1,6 @@
 ---
 UID: NE:bdaiface.UICloseReasonType
-title: UICloseReasonType
+title: UICloseReasonType (bdaiface.h)
 author: windows-sdk-content
 description: The UICloseReasonType enumeration type specifies the reason that a user-interface dialog for a smart card was closed.
 old-location: mstv\uiclosereasontype.htm

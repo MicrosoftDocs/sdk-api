@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.get_ServerCoverpage
-title: IFaxServer::get_ServerCoverpage
+title: IFaxServer::get_ServerCoverpage (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the ServerCoverpage property for a FaxServer object. The ServerCoverpage property is a Boolean value that indicates whether the fax server permits the use of common cover pages only.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_servercoverpage_cpp.htm

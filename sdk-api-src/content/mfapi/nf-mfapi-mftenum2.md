@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTEnum2
-title: MFTEnum2 function
+title: MFTEnum2 function (mfapi.h)
 author: windows-sdk-content
 description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.
 old-location: mf\mftenum2.htm

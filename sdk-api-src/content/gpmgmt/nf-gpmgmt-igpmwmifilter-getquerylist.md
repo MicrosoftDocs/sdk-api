@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.GetQueryList
-title: IGPMWMIFilter::GetQueryList
+title: IGPMWMIFilter::GetQueryList (gpmgmt.h)
 author: windows-sdk-content
 description: Retrieves the query list stored in the WMI filter.
 old-location: gpmc\igpmwmifilter_getquerylist.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mfplay.MFP_MF_EVENT
-title: MFP_MF_EVENT
+title: MFP_MF_EVENT (mfplay.h)
 author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_MF event.
 old-location: mf\mfp_mf_event.htm

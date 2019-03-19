@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiValidateAuthIdentity
-title: SspiValidateAuthIdentity function
+title: SspiValidateAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Indicates whether the specified identity structure is valid.
 old-location: security\sspivalidateauthidentity.htm

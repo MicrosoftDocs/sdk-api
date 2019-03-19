@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
-title: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
+title: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT (d3d11.h)
 author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION command.
 old-location: mf\d3d11_authenticated_configure_crypto_session_input.htm

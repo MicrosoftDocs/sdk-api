@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IPerformanceCounterDataCollector
-title: IPerformanceCounterDataCollector
+title: IPerformanceCounterDataCollector (pla.h)
 author: windows-sdk-content
 description: Specifies the performance counters to query and the log file to which the counter data is written.To create this data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method.
 old-location: pla\iperformancecounterdatacollector.htm

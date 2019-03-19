@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_SupportedExtensions
-title: IFsrmPipelineModuleDefinition::put_SupportedExtensions
+title: IFsrmPipelineModuleDefinition::put_SupportedExtensions (fsrmpipeline.h)
 author: windows-sdk-content
 description: The list of file extensions supported by this module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_supportedextensions.htm

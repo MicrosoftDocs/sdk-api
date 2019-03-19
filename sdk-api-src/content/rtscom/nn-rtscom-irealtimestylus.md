@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IRealTimeStylus
-title: IRealTimeStylus
+title: IRealTimeStylus (rtscom.h)
 author: windows-sdk-content
 description: Handles the stylus packet data from a digitizer in real time.
 old-location: tablet\irealtimestylus.htm

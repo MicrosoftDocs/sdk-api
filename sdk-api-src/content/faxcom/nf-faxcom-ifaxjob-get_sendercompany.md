@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_SenderCompany
-title: IFaxJob::get_SenderCompany
+title: IFaxJob::get_SenderCompany (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_SenderCompany property is a null-terminated string that contains the company name for the sender of the fax job. The IFaxJob::get_SenderCompany property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_sendercompany_cpp.htm

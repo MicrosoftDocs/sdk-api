@@ -1,6 +1,6 @@
 ---
 UID: NF:prntvpt.PTOpenProviderEx
-title: PTOpenProviderEx function
+title: PTOpenProviderEx function (prntvpt.h)
 author: windows-sdk-content
 description: Opens an instance of a print ticket provider.
 old-location: gdi\ptopenproviderex.htm

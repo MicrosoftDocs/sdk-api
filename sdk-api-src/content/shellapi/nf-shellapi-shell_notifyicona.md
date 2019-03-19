@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.Shell_NotifyIconA
-title: Shell_NotifyIconA function
+title: Shell_NotifyIconA function (shellapi.h)
 author: windows-sdk-content
 description: Sends a message to the taskbar's status area.
 old-location: shell\Shell_NotifyIcon.htm

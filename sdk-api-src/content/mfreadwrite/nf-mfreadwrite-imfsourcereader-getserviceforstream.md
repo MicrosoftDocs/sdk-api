@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetServiceForStream
-title: IMFSourceReader::GetServiceForStream
+title: IMFSourceReader::GetServiceForStream (mfreadwrite.h)
 author: windows-sdk-content
 description: Queries the underlying media source or decoder for an interface.
 old-location: mf\imfsourcereader_getserviceforstream.htm

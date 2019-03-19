@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetTag
-title: IIsdbCAContractInformationDescriptor::GetTag
+title: IIsdbCAContractInformationDescriptor::GetTag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) conditional access (CA)contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_gettag.htm

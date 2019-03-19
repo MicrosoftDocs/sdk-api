@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributesSetup
-title: ICertServerExit::EnumerateAttributesSetup
+title: ICertServerExit::EnumerateAttributesSetup (certif.h)
 author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first request attribute associated with the current context.
 old-location: security\icertserverexit_enumerateattributessetup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_AllowHardTerminate
-title: ITaskSettings::put_AllowHardTerminate
+title: ITaskSettings::put_AllowHardTerminate (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task may be terminated by the Task Scheduler service using TerminateProcess.
 old-location: taskschd\itasksettings_allowhardterminate.htm

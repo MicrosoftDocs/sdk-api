@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmNotifyIME
-title: ImmNotifyIME function
+title: ImmNotifyIME function (immdev.h)
 author: windows-sdk-content
 description: Notifies the IME about changes to the status of the input context.
 old-location: intl\immnotifyime.htm

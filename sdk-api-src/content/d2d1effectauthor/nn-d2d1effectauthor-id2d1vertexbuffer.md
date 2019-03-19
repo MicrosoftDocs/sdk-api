@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1VertexBuffer
-title: ID2D1VertexBuffer
+title: ID2D1VertexBuffer (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Defines a mappable single-dimensional vertex buffer.
 old-location: direct2d\id2d1vertexbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetDisplaySurfaceData
-title: IDXGIOutput::GetDisplaySurfaceData
+title: IDXGIOutput::GetDisplaySurfaceData (dxgi.h)
 author: windows-sdk-content
 description: Gets a copy of the current display surface.
 old-location: direct3ddxgi\idxgioutput_getdisplaysurfacedata.htm

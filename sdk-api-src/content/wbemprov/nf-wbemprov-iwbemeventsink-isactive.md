@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.IsActive
-title: IWbemEventSink::IsActive
+title: IWbemEventSink::IsActive (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemEventSink::IsActive method is used by the provider to determine if there is interest in the events that the sink is filtering.
 old-location: wmi\iwbemeventsink_isactive.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetOffset
-title: IDCompositionTurbulenceEffect::SetOffset
+title: IDCompositionTurbulenceEffect::SetOffset (dcomp.h)
 author: windows-sdk-content
 description: Sets the coordinates where the turbulence output is generated.
 old-location: directcomp\idcompositionturbulenceeffect_setoffset.htm

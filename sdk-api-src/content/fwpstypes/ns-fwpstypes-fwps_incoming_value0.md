@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_INCOMING_VALUE0_
-title: FWPS_INCOMING_VALUE0
+title: FWPS_INCOMING_VALUE0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_INCOMING_VALUE0 structure defines an individual data value.Note  FWPS_INCOMING_VALUE0 is a specific version of FWPS_INCOMING_VALUE.
 old-location: netvista\fwps_incoming_value0.htm

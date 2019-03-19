@@ -1,6 +1,6 @@
 ---
 UID: NC:mgm.PMGM_RPF_CALLBACK
-title: PMGM_RPF_CALLBACK
+title: PMGM_RPF_CALLBACK (mgm.h)
 author: windows-sdk-content
 description: The PMGM_RPF_CALLBACK callback is a call into a routing protocol to determine if a given packet was received on the correct interface.
 old-location: rras\pmgm_rpf_callback.htm

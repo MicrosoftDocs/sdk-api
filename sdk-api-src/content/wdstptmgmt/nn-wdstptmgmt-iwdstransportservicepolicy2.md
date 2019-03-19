@@ -1,6 +1,6 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServicePolicy2
-title: IWdsTransportServicePolicy2
+title: IWdsTransportServicePolicy2 (wdstptmgmt.h)
 author: windows-sdk-content
 description: This interface inherits from the IWdsTransportServicePolicy interface and extends it beginning with Windows Server 2012.
 old-location: wds\iwdstransportservicepolicy2.htm

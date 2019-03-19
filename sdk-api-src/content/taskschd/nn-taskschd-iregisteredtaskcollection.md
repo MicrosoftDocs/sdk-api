@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IRegisteredTaskCollection
-title: IRegisteredTaskCollection
+title: IRegisteredTaskCollection (taskschd.h)
 author: windows-sdk-content
 description: Contains all the tasks that are registered.
 old-location: taskschd\iregisteredtaskcollection.htm

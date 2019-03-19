@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxLogoff
-title: WlxLogoff function
+title: WlxLogoff function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
 old-location: security\wlxlogoff.htm

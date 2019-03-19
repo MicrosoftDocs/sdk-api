@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.PSSelectStamp
-title: ID3D11ShaderTrace::PSSelectStamp
+title: ID3D11ShaderTrace::PSSelectStamp (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Sets the specified pixel-shader stamp.
 old-location: direct3d11\id3d11shadertrace_psselectstamp.htm

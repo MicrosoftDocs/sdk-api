@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmNetEventsGetSecurityInfo0
-title: FwpmNetEventsGetSecurityInfo0 function
+title: FwpmNetEventsGetSecurityInfo0 function (fwpmu.h)
 author: windows-sdk-content
 description: The FwpmNetEventsGetSecurityInfo0 function retrieves a copy of the security descriptor for a network event object.
 old-location: fwp\fwpmneteventsgetsecurityinfo0.htm

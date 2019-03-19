@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyValue
-title: IUIAutomationPropertyCondition::get_PropertyValue
+title: IUIAutomationPropertyCondition::get_PropertyValue (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the property value that must be matched for the condition to be true.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyValue.htm

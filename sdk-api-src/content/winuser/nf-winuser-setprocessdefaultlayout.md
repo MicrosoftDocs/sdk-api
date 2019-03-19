@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetProcessDefaultLayout
-title: SetProcessDefaultLayout function
+title: SetProcessDefaultLayout function (winuser.h)
 author: windows-sdk-content
 description: Changes the default layout when windows are created with no parent or owner only for the currently running process.
 old-location: winmsg\setprocessdefaultlayout.htm

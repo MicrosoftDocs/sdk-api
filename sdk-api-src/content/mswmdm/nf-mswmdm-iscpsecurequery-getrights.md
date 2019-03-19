@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.GetRights
-title: ISCPSecureQuery::GetRights
+title: ISCPSecureQuery::GetRights (mswmdm.h)
 author: windows-sdk-content
 description: The GetRights method retrieves rights information for the current piece of content. Rights are file-specific.
 old-location: wmdm\iscpsecurequery_getrights.htm

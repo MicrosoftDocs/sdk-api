@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothIsVersionAvailable
-title: BluetoothIsVersionAvailable function
+title: BluetoothIsVersionAvailable function (bluetoothapis.h)
 author: windows-sdk-content
 description: BluetoothIsVersionAvailable function indicates if the installed Bluetooth binary set supports the requested version.
 old-location: bluetooth\bluetoothisversionavailable.htm

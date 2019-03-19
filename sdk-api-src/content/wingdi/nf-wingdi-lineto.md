@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.LineTo
-title: LineTo function
+title: LineTo function (wingdi.h)
 author: windows-sdk-content
 description: The LineTo function draws a line from the current position up to, but not including, the specified point.
 old-location: gdi\lineto.htm

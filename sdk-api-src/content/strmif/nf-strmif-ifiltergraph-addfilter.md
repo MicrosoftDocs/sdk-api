@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IFilterGraph.AddFilter
-title: IFilterGraph::AddFilter
+title: IFilterGraph::AddFilter (strmif.h)
 author: windows-sdk-content
 description: The AddFilter method adds a filter to the graph.
 old-location: dshow\ifiltergraph_addfilter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetActualModelsSectionA
-title: SetupDiGetActualModelsSectionA function
+title: SetupDiGetActualModelsSectionA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetActualModelsSection function retrieves the appropriate decorated INF Models section to use when installing a device from a device INF file.
 old-location: devinst\setupdigetactualmodelssection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetString
-title: MI_SubscriptionDeliveryOptions_SetString function
+title: MI_SubscriptionDeliveryOptions_SetString function (mi.h)
 author: windows-sdk-content
 description: Sets the value of a named string option that is not covered by a dedicated function.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WFDCloseSession
-title: WFDCloseSession function
+title: WFDCloseSession function (wlanapi.h)
 author: windows-sdk-content
 description: Closes a session after a previously successful call to the WFDStartOpenSession function.
 old-location: nwifi\wfdclosesession.htm

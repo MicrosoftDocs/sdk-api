@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Context_ShouldProcess
-title: MI_Context_ShouldProcess function
+title: MI_Context_ShouldProcess function (mi.h)
 author: windows-sdk-content
 description: Queries the client to determine if an operation should continue.
 old-location: wmi_v2\mi_context_shouldprocess.htm

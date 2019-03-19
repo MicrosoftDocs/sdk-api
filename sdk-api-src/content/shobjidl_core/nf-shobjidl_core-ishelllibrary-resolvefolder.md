@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.ResolveFolder
-title: IShellLibrary::ResolveFolder
+title: IShellLibrary::ResolveFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Resolves the target location of a library folder, even if the folder has been moved or renamed.
 old-location: shell\IShellLibrary_ResolveFolder.htm

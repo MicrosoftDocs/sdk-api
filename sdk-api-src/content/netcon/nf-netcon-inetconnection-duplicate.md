@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnection.Duplicate
-title: INetConnection::Duplicate
+title: INetConnection::Duplicate (netcon.h)
 author: windows-sdk-content
 description: The Duplicate method creates a duplicate of this connection in the connections folder.
 old-location: ics\inetconnection_duplicate.htm

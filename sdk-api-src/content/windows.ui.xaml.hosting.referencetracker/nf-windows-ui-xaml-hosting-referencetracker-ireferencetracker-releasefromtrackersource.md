@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.ReleaseFromTrackerSource
-title: IReferenceTracker::xaml
+title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Indicates each time that a tracker source calls IUnknown::Release on the reference tracker; must be called before the Release call.
 old-location: winrt\ireferencetracker_releasefromtrackersource.htm

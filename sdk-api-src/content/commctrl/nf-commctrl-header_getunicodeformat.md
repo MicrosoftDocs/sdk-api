@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_GetUnicodeFormat
-title: Header_GetUnicodeFormat macro
+title: Header_GetUnicodeFormat macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the Unicode character format flag for the control. You can use this macro or send the HDM_GETUNICODEFORMAT message explicitly.
 old-location: controls\Header_GetUnicodeFormat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:netsh._CMD_GROUP_ENTRY
-title: CMD_GROUP_ENTRY
+title: CMD_GROUP_ENTRY (netsh.h)
 author: windows-sdk-content
 description: Defines a group of helper commands.
 old-location: netshell\cmd_group_entry.htm

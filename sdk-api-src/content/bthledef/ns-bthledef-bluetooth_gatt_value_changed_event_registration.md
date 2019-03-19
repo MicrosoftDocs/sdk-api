@@ -1,6 +1,6 @@
 ---
 UID: NS:bthledef._BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION
-title: BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION
+title: BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION (bthledef.h)
 author: windows-sdk-content
 description: The BLUETOOTH_GATT_VALUE_CHANGED_EVENT_REGISTRATION structure describes one or more characteristics that have changed.
 old-location: bltooth\bluetooth_gatt_value_changed_event_registration.htm

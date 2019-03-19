@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddScopedPolicyIDAce
-title: AddScopedPolicyIDAce function
+title: AddScopedPolicyIDAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds a SYSTEM_SCOPED_POLICY_ID_ACEaccess control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addscopedpolicyidace.htm

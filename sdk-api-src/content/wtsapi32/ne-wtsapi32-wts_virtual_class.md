@@ -1,6 +1,6 @@
 ---
 UID: NE:wtsapi32._WTS_VIRTUAL_CLASS
-title: WTS_VIRTUAL_CLASS
+title: WTS_VIRTUAL_CLASS (wtsapi32.h)
 author: windows-sdk-content
 description: Contains values that indicate the type of virtual channel information to retrieve.
 old-location: termserv\wts_virtual_class.htm

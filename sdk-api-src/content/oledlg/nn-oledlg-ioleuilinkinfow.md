@@ -1,6 +1,6 @@
 ---
 UID: NN:oledlg.IOleUILinkInfoW
-title: IOleUILinkInfoW
+title: IOleUILinkInfoW (oledlg.h)
 author: windows-sdk-content
 description: An extension of the IOleUILinkContainer interface. It returns the time that an object was last updated, which is link information that IOleUILinkContainer does not provide.
 old-location: com\ioleuilinkinfo.htm

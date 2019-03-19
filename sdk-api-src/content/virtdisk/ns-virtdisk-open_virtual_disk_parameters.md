@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._OPEN_VIRTUAL_DISK_PARAMETERS
-title: OPEN_VIRTUAL_DISK_PARAMETERS
+title: OPEN_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual disk open request parameters.
 old-location: vhd\open_virtual_disk_parameters.htm

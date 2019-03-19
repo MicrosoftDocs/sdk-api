@@ -1,6 +1,6 @@
 ---
 UID: NF:micaut.IMathInputControl.SetPosition
-title: IMathInputControl::SetPosition
+title: IMathInputControl::SetPosition (micaut.h)
 author: windows-sdk-content
 description: Modifies the location and size of the control.
 old-location: tablet\imathinputcontrol_setposition.htm

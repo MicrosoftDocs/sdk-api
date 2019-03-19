@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_LatestOutputLocation
-title: IDataCollector::put_LatestOutputLocation
+title: IDataCollector::put_LatestOutputLocation (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the fully decorated file name that PLA used the last time it created the file.
 old-location: pla\idatacollector_latestoutputlocation.htm

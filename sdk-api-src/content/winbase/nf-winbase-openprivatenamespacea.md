@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.OpenPrivateNamespaceA
-title: OpenPrivateNamespaceA function
+title: OpenPrivateNamespaceA function (winbase.h)
 author: windows-sdk-content
 description: Opens a private namespace.
 old-location: base\openprivatenamespace.htm

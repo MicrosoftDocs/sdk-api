@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_USAGE
-title: D3D11_VIDEO_USAGE
+title: D3D11_VIDEO_USAGE (d3d11.h)
 author: windows-sdk-content
 description: Specifies the intended use for a video processor.
 old-location: mf\d3d11_video_usage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorage
-title: CItemIDFactory::GetPropertyStorage
+title: CItemIDFactory::GetPropertyStorage (shidfact.h)
 author: windows-sdk-content
 description: Gets a read only pointer to the serialized property storage that is used for storing metadata.
 old-location: shell\citemidfactory_getpropertystorage.htm

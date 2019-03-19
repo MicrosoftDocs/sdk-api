@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetAdapterLuid
-title: ID3D12Device::GetAdapterLuid
+title: ID3D12Device::GetAdapterLuid (d3d12.h)
 author: windows-sdk-content
 description: Gets a locally unique identifier for the current device (adapter).
 old-location: direct3d12\id3d12device_getadapterluid.htm

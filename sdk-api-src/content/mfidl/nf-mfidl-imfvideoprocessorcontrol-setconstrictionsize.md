@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetConstrictionSize
-title: IMFVideoProcessorControl::SetConstrictionSize
+title: IMFVideoProcessorControl::SetConstrictionSize (mfidl.h)
 author: windows-sdk-content
 description: Specifies the amount of downsampling to perform on the output.
 old-location: mf\imfvideoprocessorcontrol_setconstrictionsize.htm

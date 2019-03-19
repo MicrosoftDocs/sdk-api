@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Session
-title: MI_Session
+title: MI_Session (mi.h)
 author: windows-sdk-content
 description: An object that is associated with a destination and has a set of credentials and options associated with it. .
 old-location: wmi_v2\mi_session.htm

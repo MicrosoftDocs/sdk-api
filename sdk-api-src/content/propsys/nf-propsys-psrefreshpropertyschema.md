@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSRefreshPropertySchema
-title: PSRefreshPropertySchema function
+title: PSRefreshPropertySchema function (propsys.h)
 author: windows-sdk-content
 description: Not supported.It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so.
 old-location: properties\PSRefreshPropertySchema.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsLunNaming
-title: IVdsLunNaming
+title: IVdsLunNaming (vds.h)
 author: windows-sdk-content
 description: Provides a method to name LUNs for a class implementing the IVdsLun interface.
 old-location: base\ivdslunnaming.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymGetSymFromName64
-title: SymGetSymFromName64 function
+title: SymGetSymFromName64 function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a symbol for the specified name.
 old-location: base\symgetsymfromname64.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CRITERIA0_
-title: IKEEXT_CERTIFICATE_CRITERIA0
+title: IKEEXT_CERTIFICATE_CRITERIA0 (iketypes.h)
 author: windows-sdk-content
 description: Contains a set of criteria to applied to an authentication method.
 old-location: fwp\ikeext_certificate_criteria0.htm

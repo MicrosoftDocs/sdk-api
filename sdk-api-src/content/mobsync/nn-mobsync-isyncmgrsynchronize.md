@@ -1,6 +1,6 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronize
-title: ISyncMgrSynchronize
+title: ISyncMgrSynchronize (mobsync.h)
 author: windows-sdk-content
 description: Exposes methods that enable the registered application or service to receive notifications from the synchronization manager.
 old-location: shell\syncmgr_isyncmgrsynchronize.htm

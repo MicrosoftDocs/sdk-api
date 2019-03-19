@@ -1,6 +1,6 @@
 ---
 UID: NE:tcpestats._TCP_BOOLEAN_OPTIONAL
-title: TCP_BOOLEAN_OPTIONAL
+title: TCP_BOOLEAN_OPTIONAL (tcpestats.h)
 author: windows-sdk-content
 description: Defines the states that a caller can specify when updating a member in the read/write information for a TCP connection.
 old-location: iphlp\tcp_boolean_optional.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMColorConvProps
-title: IWMColorConvProps
+title: IWMColorConvProps (wmcodecdsp.h)
 author: windows-sdk-content
 description: Sets properties on the color converter DSP.
 old-location: mf\iwmcolorconvpropsinterface.htm

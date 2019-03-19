@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoBannerURL
-title: IAMMediaContent::get_MoreInfoBannerURL
+title: IAMMediaContent::get_MoreInfoBannerURL (qnetwork.h)
 author: windows-sdk-content
 description: The get_MoreInfoBannerURL method retrieves a URL for a related-information banner.
 old-location: dshow\iammediacontent_get_moreinfobannerurl.htm

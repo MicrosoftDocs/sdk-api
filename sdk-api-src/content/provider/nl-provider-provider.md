@@ -1,6 +1,6 @@
 ---
 UID: NL:provider.Provider
-title: Provider
+title: Provider (provider.h)
 author: windows-sdk-content
 description: The Provider class is the base class for the class or classes that the framework provider supports.
 old-location: wmi\provider.htm

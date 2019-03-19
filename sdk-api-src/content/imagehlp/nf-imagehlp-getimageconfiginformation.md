@@ -1,6 +1,6 @@
 ---
 UID: NF:imagehlp.GetImageConfigInformation
-title: GetImageConfigInformation function
+title: GetImageConfigInformation function (imagehlp.h)
 author: windows-sdk-content
 description: Locates and returns the load configuration data of an image.
 old-location: base\getimageconfiginformation.htm

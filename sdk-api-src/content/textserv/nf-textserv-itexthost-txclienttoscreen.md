@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxClientToScreen
-title: ITextHost::TxClientToScreen
+title: ITextHost::TxClientToScreen (textserv.h)
 author: windows-sdk-content
 description: Converts text host coordinates to screen coordinates.
 old-location: controls\ITextHost_TxClientToScreen.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnLockGranted
-title: ITextStoreACPSink::OnLockGranted
+title: ITextStoreACPSink::OnLockGranted (textstor.h)
 author: windows-sdk-content
 description: ITextStoreACPSink::OnLockGranted method
 old-location: tsf\itextstoreacpsink_onlockgranted.htm

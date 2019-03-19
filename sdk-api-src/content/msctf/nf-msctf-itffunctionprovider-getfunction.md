@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetFunction
-title: ITfFunctionProvider::GetFunction
+title: ITfFunctionProvider::GetFunction (msctf.h)
 author: windows-sdk-content
 description: ITfFunctionProvider::GetFunction method
 old-location: tsf\itffunctionprovider_getfunction.htm

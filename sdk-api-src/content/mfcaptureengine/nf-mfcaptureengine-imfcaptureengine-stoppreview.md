@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StopPreview
-title: IMFCaptureEngine::StopPreview
+title: IMFCaptureEngine::StopPreview (mfcaptureengine.h)
 author: windows-sdk-content
 description: Stops preview.
 old-location: mf\imfcaptureengine_stoppreview.htm

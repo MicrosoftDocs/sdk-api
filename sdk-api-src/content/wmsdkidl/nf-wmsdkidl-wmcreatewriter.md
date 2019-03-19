@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.WMCreateWriter
-title: WMCreateWriter function
+title: WMCreateWriter function (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMCreateWriter function creates a writer object.
 old-location: wmformat\wmcreatewriter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SearchTreeForFile
-title: SearchTreeForFile function
+title: SearchTreeForFile function (dbghelp.h)
 author: windows-sdk-content
 description: Searches a directory tree for a specified file.
 old-location: base\searchtreeforfile.htm

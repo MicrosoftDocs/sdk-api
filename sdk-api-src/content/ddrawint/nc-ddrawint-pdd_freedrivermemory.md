@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_FREEDRIVERMEMORY
-title: PDD_FREEDRIVERMEMORY
+title: PDD_FREEDRIVERMEMORY (ddrawint.h)
 author: windows-sdk-content
 description: The DdFreeDriverMemory callback function frees offscreen or nonlocal display memory to satisfy a new allocation request.
 old-location: display\ddfreedrivermemory.htm

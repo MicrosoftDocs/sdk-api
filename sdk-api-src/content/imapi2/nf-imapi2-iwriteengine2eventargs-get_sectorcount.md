@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_SectorCount
-title: IWriteEngine2EventArgs::get_SectorCount
+title: IWriteEngine2EventArgs::get_SectorCount (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the number of sectors to write to the device in the current write operation.
 old-location: imapi\iwriteengine2eventargs_get_sectorcount.htm

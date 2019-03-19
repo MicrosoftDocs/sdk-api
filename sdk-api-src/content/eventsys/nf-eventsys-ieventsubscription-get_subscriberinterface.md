@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_SubscriberInterface
-title: IEventSubscription::get_SubscriberInterface
+title: IEventSubscription::get_SubscriberInterface (eventsys.h)
 author: windows-sdk-content
 description: A marshaled pointer to the event interface on the subscriber (for a transient subscription).
 old-location: cos\ieventsubscription_subscriberinterface.htm

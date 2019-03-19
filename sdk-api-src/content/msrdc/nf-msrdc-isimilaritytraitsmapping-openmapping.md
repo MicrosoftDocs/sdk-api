@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.OpenMapping
-title: ISimilarityTraitsMapping::OpenMapping
+title: ISimilarityTraitsMapping::OpenMapping (msrdc.h)
 author: windows-sdk-content
 description: Opens the file mapping object for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_openmapping.htm

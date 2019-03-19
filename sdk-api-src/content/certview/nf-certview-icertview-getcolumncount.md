@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.ICertView.GetColumnCount
-title: ICertView::GetColumnCount
+title: ICertView::GetColumnCount (certview.h)
 author: windows-sdk-content
 description: Retrieves the number of columns in the view of the Certificate Services database.
 old-location: security\icertview2_getcolumncount.htm

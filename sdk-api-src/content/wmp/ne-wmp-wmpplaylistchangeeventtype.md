@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPPlaylistChangeEventType
-title: WMPPlaylistChangeEventType
+title: WMPPlaylistChangeEventType (wmp.h)
 author: windows-sdk-content
 description: The WMPPlaylistChangeEventType enumeration type defines the types of changes that can be made to a playlist.
 old-location: wmp\wmpplaylistchangeeventtype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetStartEndFlag
-title: IIsdbEmergencyInformationDescriptor::GetStartEndFlag
+title: IIsdbEmergencyInformationDescriptor::GetStartEndFlag (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the value of the start_end_flag field from an emergency information descriptor. This field indicates whether the emergency alarm signal has started or finished broadcasting.
 old-location: mstv\iisdbemergencyinformationdescriptor_getstartendflag.htm

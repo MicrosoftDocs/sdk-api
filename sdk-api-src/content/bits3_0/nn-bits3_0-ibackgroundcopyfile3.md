@@ -1,6 +1,6 @@
 ---
 UID: NN:bits3_0.IBackgroundCopyFile3
-title: IBackgroundCopyFile3
+title: IBackgroundCopyFile3 (bits3_0.h)
 author: windows-sdk-content
 description: Use this interface to retrieve the name of the temporary file that contains the downloaded content and to validate the file so that peers can request its content.
 old-location: bits\ibackgroundcopyfile3.htm

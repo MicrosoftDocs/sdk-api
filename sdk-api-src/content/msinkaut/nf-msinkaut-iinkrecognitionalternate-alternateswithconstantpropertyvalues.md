@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.AlternatesWithConstantPropertyValues
-title: IInkRecognitionAlternate::AlternatesWithConstantPropertyValues
+title: IInkRecognitionAlternate::AlternatesWithConstantPropertyValues (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves a IInkRecognitionAlternates collection, which are a division of the IInkRecognitionAlternate object on which this method is called.
 old-location: tablet\iinkrecognitionalternate_alternateswithconstantpropertyvalues.htm

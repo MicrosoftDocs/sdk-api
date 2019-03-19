@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CTL_VERIFY_USAGE_STATUS
-title: CTL_VERIFY_USAGE_STATUS
+title: CTL_VERIFY_USAGE_STATUS (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about a Certificate Trust List (CTL) returned by CertVerifyCTLUsage.
 old-location: security\ctl_verify_usage_status.htm

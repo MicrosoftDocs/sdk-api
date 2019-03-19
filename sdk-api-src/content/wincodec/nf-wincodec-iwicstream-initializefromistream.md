@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromIStream
-title: IWICStream::InitializeFromIStream
+title: IWICStream::InitializeFromIStream (wincodec.h)
 author: windows-sdk-content
 description: Initializes a stream from another stream. Access rights are inherited from the underlying stream.
 old-location: wic\_wic_codec_iwicstream_initializefromistream.htm

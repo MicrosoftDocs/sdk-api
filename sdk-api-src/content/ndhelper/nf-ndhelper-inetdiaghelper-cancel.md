@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Cancel
-title: INetDiagHelper::Cancel
+title: INetDiagHelper::Cancel (ndhelper.h)
 author: windows-sdk-content
 description: Cancels an ongoing diagnosis or repair.
 old-location: ndf\inetdiaghelpe_cancel.htm

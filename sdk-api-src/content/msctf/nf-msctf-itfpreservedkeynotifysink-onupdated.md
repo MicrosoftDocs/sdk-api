@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPreservedKeyNotifySink.OnUpdated
-title: ITfPreservedKeyNotifySink::OnUpdated
+title: ITfPreservedKeyNotifySink::OnUpdated (msctf.h)
 author: windows-sdk-content
 description: ITfPreservedKeyNotifySink::OnUpdated method
 old-location: tsf\itfpreservedkeynotifysink_onupdated.htm

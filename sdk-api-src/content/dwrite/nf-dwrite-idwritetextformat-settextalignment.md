@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetTextAlignment
-title: IDWriteTextFormat::SetTextAlignment
+title: IDWriteTextFormat::SetTextAlignment (dwrite.h)
 author: windows-sdk-content
 description: Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a IDWriteTextFormat interface.
 old-location: directwrite\IDWriteTextFormat_SetTextAlignment.htm

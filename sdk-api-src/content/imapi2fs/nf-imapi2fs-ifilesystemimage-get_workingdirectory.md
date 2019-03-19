@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_WorkingDirectory
-title: IFileSystemImage::get_WorkingDirectory
+title: IFileSystemImage::get_WorkingDirectory (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the temporary directory in which stash files are built.
 old-location: imapi\ifilesystemimage_get_workingdirectory.htm

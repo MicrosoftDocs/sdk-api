@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcommon.ID3DInclude.Open
-title: ID3DInclude::Open
+title: ID3DInclude::Open (d3dcommon.h)
 author: windows-sdk-content
 description: A user-implemented method for opening and reading the contents of a shader #include file.
 old-location: direct3d11\id3dinclude_open.htm

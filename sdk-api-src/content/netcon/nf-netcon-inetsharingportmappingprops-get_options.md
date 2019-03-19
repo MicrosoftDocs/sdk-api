@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_Options
-title: INetSharingPortMappingProps::get_Options
+title: INetSharingPortMappingProps::get_Options (netcon.h)
 author: windows-sdk-content
 description: The get_Options method retrieves the options associated with this port mapping.
 old-location: ics\inetsharingportmappingprops_get_options.htm

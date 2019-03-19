@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreate3GPMediaSink
-title: MFCreate3GPMediaSink function
+title: MFCreate3GPMediaSink function (mfidl.h)
 author: windows-sdk-content
 description: Creates a media sink for authoring 3GP files.
 old-location: mf\mfcreate3gpmediasink.htm

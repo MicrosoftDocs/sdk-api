@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializeFromPalette
-title: IWICPalette::InitializeFromPalette
+title: IWICPalette::InitializeFromPalette (wincodec.h)
 author: windows-sdk-content
 description: Initialize the palette based on a given palette.
 old-location: wic\_wic_codec_iwicpalette_initializefrompalette.htm

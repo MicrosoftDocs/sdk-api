@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IPersistFile.Load
-title: IPersistFile::Load
+title: IPersistFile::Load (objidl.h)
 author: windows-sdk-content
 description: Opens the specified file and initializes an object from the file contents.
 old-location: com\ipersistfile_load.htm

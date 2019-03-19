@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HttpCancelHttpRequest
-title: HttpCancelHttpRequest function
+title: HttpCancelHttpRequest function (http.h)
 author: windows-sdk-content
 description: The HttpCancelHttpRequest function cancels a specified reqest.
 old-location: http\httpcancelhttprequest.htm

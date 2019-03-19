@@ -1,6 +1,6 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_VOLUME
-title: DEV_BROADCAST_VOLUME
+title: DEV_BROADCAST_VOLUME (dbt.h)
 author: windows-sdk-content
 description: Contains information about a logical volume.
 old-location: base\dev_broadcast_volume_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMessage.ErrorCode
-title: IGPMStatusMessage::ErrorCode
+title: IGPMStatusMessage::ErrorCode (gpmgmt.h)
 author: windows-sdk-content
 description: Returns the error that occurred during the GPMC operation.
 old-location: gpmc\igpmstatusmessage_errorcode.htm

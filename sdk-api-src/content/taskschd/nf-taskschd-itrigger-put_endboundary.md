@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITrigger.put_EndBoundary
-title: ITrigger::put_EndBoundary
+title: ITrigger::put_EndBoundary (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the date and time when the trigger is deactivated.
 old-location: taskschd\itrigger_endboundary.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
-title: ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
+title: ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Gets a pointer to the ISpatialAudioMetadataItems object which stores metadata items for the ISpatialAudioObjectForMetadataItems.
 old-location: coreaudio\ispatialaudioobjectformetadataitems_getspatialaudiometadataitems.htm

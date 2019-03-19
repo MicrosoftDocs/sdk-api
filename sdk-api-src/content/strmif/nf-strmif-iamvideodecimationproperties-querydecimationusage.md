@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoDecimationProperties.QueryDecimationUsage
-title: IAMVideoDecimationProperties::QueryDecimationUsage
+title: IAMVideoDecimationProperties::QueryDecimationUsage (strmif.h)
 author: windows-sdk-content
 description: The QueryDecimationUsage method retrieves the current decimation strategy.
 old-location: dshow\iamvideodecimationproperties_querydecimationusage.htm

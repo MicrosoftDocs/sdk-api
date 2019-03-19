@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetFamilyNames
-title: IDWriteFontFamily::GetFamilyNames
+title: IDWriteFontFamily::GetFamilyNames (dwrite.h)
 author: windows-sdk-content
 description: Creates a localized strings object that contains the family names for the font family, indexed by locale name.
 old-location: directwrite\IDWriteFontFamily_GetFamilyNames.htm

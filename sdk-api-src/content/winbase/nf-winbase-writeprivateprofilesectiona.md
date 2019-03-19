@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.WritePrivateProfileSectionA
-title: WritePrivateProfileSectionA function
+title: WritePrivateProfileSectionA function (winbase.h)
 author: windows-sdk-content
 description: Replaces the keys and values for the specified section in an initialization file.
 old-location: base\writeprivateprofilesection.htm

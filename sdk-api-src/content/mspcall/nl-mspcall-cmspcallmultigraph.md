@@ -1,6 +1,6 @@
 ---
 UID: NL:mspcall.CMSPCallMultiGraph
-title: CMSPCallMultiGraph
+title: CMSPCallMultiGraph (mspcall.h)
 author: windows-sdk-content
 description: Derived from CMSPCallBase, this class defines a call that uses a filter graph for each stream. This extra increased specificity allows this class to implement more of the call's functionality than CMSPCallBase. Defined in MSPcall.h.
 old-location: tapi3\cmspcallmultigraph.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi2.DDiscFormat2EraseEvents
-title: DDiscFormat2EraseEvents
+title: DDiscFormat2EraseEvents (imapi2.h)
 author: windows-sdk-content
 description: Implement this interface to receive notifications of the current erase operation.
 old-location: imapi\ddiscformat2eraseevents.htm

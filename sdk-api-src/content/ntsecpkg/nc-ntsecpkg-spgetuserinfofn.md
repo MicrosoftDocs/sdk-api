@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.SpGetUserInfoFn
-title: SpGetUserInfoFn
+title: SpGetUserInfoFn (ntsecpkg.h)
 author: windows-sdk-content
 description: Retrieves information about a logon session.
 old-location: security\spgetuserinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StopWatchMode
-title: StopWatchMode function
+title: StopWatchMode function (shlwapi.h)
 author: windows-sdk-content
 description: StopWatchMode may be altered or unavailable.
 old-location: shell\StopWatchMode.htm

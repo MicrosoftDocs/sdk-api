@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateDXGISurfaceBuffer
-title: MFCreateDXGISurfaceBuffer function
+title: MFCreateDXGISurfaceBuffer function (mfapi.h)
 author: windows-sdk-content
 description: Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
 old-location: mf\mfcreatedxgisurfacebuffer.htm

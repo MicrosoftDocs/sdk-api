@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.SetIpNetEntry2
-title: SetIpNetEntry2 function
+title: SetIpNetEntry2 function (netioapi.h)
 author: windows-sdk-content
 description: Sets the physical address of an existing neighbor IP address entry on the local computer.
 old-location: iphlp\setipnetentry2.htm

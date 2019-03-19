@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsWmfPlaceable
-title: MetafileHeader::IsWmfPlaceable
+title: MetafileHeader::IsWmfPlaceable (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::IsWmfPlaceable method determines whether the associated metafile is a placeable metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsWmfPlaceable_.htm

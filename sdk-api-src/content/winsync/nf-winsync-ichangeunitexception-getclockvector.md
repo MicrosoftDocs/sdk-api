@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetClockVector
-title: IChangeUnitException::GetClockVector
+title: IChangeUnitException::GetClockVector (winsync.h)
 author: windows-sdk-content
 description: Gets the clock vector that is associated with this exception.
 old-location: winsync\ichangeunitexception_getclockvector.htm

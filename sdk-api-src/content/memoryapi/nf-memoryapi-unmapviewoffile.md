@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.UnmapViewOfFile
-title: UnmapViewOfFile function
+title: UnmapViewOfFile function (memoryapi.h)
 author: windows-sdk-content
 description: Unmaps a mapped view of a file from the calling process's address space.
 old-location: base\unmapviewoffile.htm

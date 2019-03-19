@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilPaxosComparer
-title: ResUtilPaxosComparer function
+title: ResUtilPaxosComparer function (resapi.h)
 author: windows-sdk-content
 description: Compares two Paxos tags and indicates whether they have the same values.
 old-location: mscs\resutilpaxoscomparer.htm

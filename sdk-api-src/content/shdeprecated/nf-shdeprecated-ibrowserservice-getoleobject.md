@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetOleObject
-title: IBrowserService::GetOleObject
+title: IBrowserService::GetOleObject (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves an IOleObject for the browser.
 old-location: shell\IBrowserService_GetOleObject.htm

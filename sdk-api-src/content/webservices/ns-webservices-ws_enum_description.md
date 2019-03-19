@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_ENUM_DESCRIPTION
-title: WS_ENUM_DESCRIPTION
+title: WS_ENUM_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: A type description that is used with WS_ENUM_TYPE and is required. It provides information used in serializing and deserializing values of an enumeration.
 old-location: wsw\ws_enum_description.htm

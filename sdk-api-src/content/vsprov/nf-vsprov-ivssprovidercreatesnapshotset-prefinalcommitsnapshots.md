@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PreFinalCommitSnapshots
-title: IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots
+title: IVssProviderCreateSnapshotSet::PreFinalCommitSnapshots (vsprov.h)
 author: windows-sdk-content
 description: Enables providers to support auto-recover shadow copies.
 old-location: base\ivssprovidercreatesnapshotset_prefinalcommitsnapshots.htm

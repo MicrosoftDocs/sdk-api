@@ -1,6 +1,6 @@
 ---
 UID: NF:systemtopologyapi.GetNumaProximityNodeEx
-title: GetNumaProximityNodeEx function
+title: GetNumaProximityNodeEx function (systemtopologyapi.h)
 author: windows-sdk-content
 description: Retrieves the NUMA node number that corresponds to the specified proximity identifier as a USHORT value.
 old-location: base\getnumaproximitynodeex.htm

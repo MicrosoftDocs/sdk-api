@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine.MF_MSE_ERROR
-title: MF_MSE_ERROR
+title: MF_MSE_ERROR (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines the different error states of the Media Source Extension.
 old-location: mf\mf_mse_error.htm

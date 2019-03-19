@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.ReleaseImmContext
-title: ITextDocument2::ReleaseImmContext
+title: ITextDocument2::ReleaseImmContext (tom.h)
 author: windows-sdk-content
 description: Releases an Input Method Manager (IMM) input context.
 old-location: controls\itextdocument2_releaseimmcontext.htm

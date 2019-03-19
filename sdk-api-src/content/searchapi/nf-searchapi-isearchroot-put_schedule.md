@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_Schedule
-title: ISearchRoot::put_Schedule
+title: ISearchRoot::put_Schedule (searchapi.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchRoot_put_Schedule.htm

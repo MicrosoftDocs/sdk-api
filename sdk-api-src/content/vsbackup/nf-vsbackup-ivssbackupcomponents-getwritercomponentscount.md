@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterComponentsCount
-title: IVssBackupComponents::GetWriterComponentsCount
+title: IVssBackupComponents::GetWriterComponentsCount (vsbackup.h)
 author: windows-sdk-content
 description: The GetWriterComponentsCount method returns the number of writers whose components have been added to a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponentscount.htm

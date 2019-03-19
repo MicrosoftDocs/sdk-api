@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.Complement
-title: ISyncKnowledge2::Complement
+title: ISyncKnowledge2::Complement (winsync.h)
 author: windows-sdk-content
 description: Returns the knowledge that is contained in this object but that is not contained in the specified knowledge.
 old-location: winsync\isyncknowledge2_complement.htm

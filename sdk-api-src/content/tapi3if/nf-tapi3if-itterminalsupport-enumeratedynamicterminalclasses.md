@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.EnumerateDynamicTerminalClasses
-title: ITTerminalSupport::EnumerateDynamicTerminalClasses
+title: ITTerminalSupport::EnumerateDynamicTerminalClasses (tapi3if.h)
 author: windows-sdk-content
 description: The EnumerateDynamicTerminalClasses method enumerates the currently available dynamic terminal classes that are supported.
 old-location: tapi3\itterminalsupport_enumeratedynamicterminalclasses.htm

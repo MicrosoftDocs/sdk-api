@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_SECURITY_QOS_V4_A
-title: RPC_SECURITY_QOS_V4_A
+title: RPC_SECURITY_QOS_V4_A (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_SECURITY_QOS_V4 structure defines version 4 security quality-of-service settings on a binding handle. See Remarks for version availability on Windows editions.
 old-location: rpc\rpc_security_qos_v4.htm

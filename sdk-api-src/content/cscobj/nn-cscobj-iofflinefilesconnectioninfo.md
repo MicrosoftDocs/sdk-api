@@ -1,6 +1,6 @@
 ---
 UID: NN:cscobj.IOfflineFilesConnectionInfo
-title: IOfflineFilesConnectionInfo
+title: IOfflineFilesConnectionInfo (cscobj.h)
 author: windows-sdk-content
 description: Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.
 old-location: of\iofflinefilesconnectioninfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendMouseWheelEvent
-title: IRDPViewerInputSink::SendMouseWheelEvent
+title: IRDPViewerInputSink::SendMouseWheelEvent (rdpencomapi.h)
 author: windows-sdk-content
 description: Sends a mouse wheel event message.
 old-location: rdp\irdpviewerinputsink_sendmousewheelevent.htm

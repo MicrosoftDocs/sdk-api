@@ -1,6 +1,6 @@
 ---
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
-title: AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
+title: AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE (authz.h)
 author: windows-sdk-content
 description: Specifies an octet string value for a security attribute.
 old-location: security\authz_security_attribute_octet_string_value.htm

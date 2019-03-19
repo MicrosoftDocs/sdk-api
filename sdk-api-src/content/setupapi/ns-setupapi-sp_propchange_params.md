@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._SP_PROPCHANGE_PARAMS
-title: SP_PROPCHANGE_PARAMS
+title: SP_PROPCHANGE_PARAMS (setupapi.h)
 author: windows-sdk-content
 description: An SP_PROPCHANGE_PARAMS structure corresponds to a DIF_PROPERTYCHANGE installation request.
 old-location: devinst\sp_propchange_params.htm

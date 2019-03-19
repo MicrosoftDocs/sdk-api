@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsServiceHba
-title: IVdsServiceHba
+title: IVdsServiceHba (vds.h)
 author: windows-sdk-content
 description: Provides a method to query HBA ports on the local system.
 old-location: base\ivdsservicehba.htm

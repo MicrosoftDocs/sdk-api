@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertDuplicateCTLContext
-title: CertDuplicateCTLContext function
+title: CertDuplicateCTLContext function (wincrypt.h)
 author: windows-sdk-content
 description: The CertDuplicateCTLContext function duplicates a certificate trust list (CTL) context by incrementing its reference count.
 old-location: security\certduplicatectlcontext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Help
-title: ILegacyIAccessibleProvider::get_Help
+title: ILegacyIAccessibleProvider::get_Help (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies a string that contains help information for this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Help.htm

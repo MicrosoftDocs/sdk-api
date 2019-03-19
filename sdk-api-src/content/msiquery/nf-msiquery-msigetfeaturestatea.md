@@ -1,6 +1,6 @@
 ---
 UID: NF:msiquery.MsiGetFeatureStateA
-title: MsiGetFeatureStateA function
+title: MsiGetFeatureStateA function (msiquery.h)
 author: windows-sdk-content
 description: The MsiGetFeatureState function gets the requested state of a feature.
 old-location: setup\msigetfeaturestate.htm

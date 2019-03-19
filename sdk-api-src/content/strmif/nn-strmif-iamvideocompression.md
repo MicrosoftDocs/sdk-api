@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMVideoCompression
-title: IAMVideoCompression
+title: IAMVideoCompression (strmif.h)
 author: windows-sdk-content
 description: The IAMVideoCompression interface sets and retrieves video compression properties.
 old-location: dshow\iamvideocompression.htm

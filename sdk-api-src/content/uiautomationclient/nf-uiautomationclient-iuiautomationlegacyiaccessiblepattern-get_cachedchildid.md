@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedChildId
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedChildId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility child identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId.htm

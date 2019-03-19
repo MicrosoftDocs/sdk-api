@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutGetPosition
-title: waveOutGetPosition function
+title: waveOutGetPosition function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutGetPosition function retrieves the current playback position of the given waveform-audio output device.
 old-location: multimedia\waveoutgetposition.htm

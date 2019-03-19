@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetDialogBaseUnits
-title: GetDialogBaseUnits function
+title: GetDialogBaseUnits function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the system's dialog base units, which are the average width and height of characters in the system font.
 old-location: dlgbox\getdialogbaseunits.htm

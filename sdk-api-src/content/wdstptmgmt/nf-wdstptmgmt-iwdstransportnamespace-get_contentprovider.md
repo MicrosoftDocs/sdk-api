@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_ContentProvider
-title: IWdsTransportNamespace::get_ContentProvider
+title: IWdsTransportNamespace::get_ContentProvider (wdstptmgmt.h)
 author: windows-sdk-content
 description: Sets or retrieves the content provider for the namespace.
 old-location: wds\iwdstransportnamespace_contentprovider.htm

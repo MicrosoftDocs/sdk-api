@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonMode
-title: ITPhone::get_ButtonMode
+title: ITPhone::get_ButtonMode (tapi3if.h)
 author: windows-sdk-content
 description: The get_ButtonMode method retrieves the button mode associated with a particular button.
 old-location: tapi3\itphone_get_buttonmode.htm

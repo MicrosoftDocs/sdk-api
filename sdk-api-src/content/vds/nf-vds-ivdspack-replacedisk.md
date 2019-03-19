@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.ReplaceDisk
-title: IVdsPack::ReplaceDisk
+title: IVdsPack::ReplaceDisk (vds.h)
 author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdspack_replacedisk.htm

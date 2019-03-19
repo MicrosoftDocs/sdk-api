@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetVideoFormat
-title: IVPBaseConfig::SetVideoFormat
+title: IVPBaseConfig::SetVideoFormat (vpconfig.h)
 author: windows-sdk-content
 description: The SetVideoFormat method sets the video format.
 old-location: dshow\ivpbaseconfig_setvideoformat.htm

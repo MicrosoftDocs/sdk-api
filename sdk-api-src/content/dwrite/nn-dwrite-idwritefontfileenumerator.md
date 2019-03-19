@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite.IDWriteFontFileEnumerator
-title: IDWriteFontFileEnumerator
+title: IDWriteFontFileEnumerator (dwrite.h)
 author: windows-sdk-content
 description: Encapsulates a collection of font files. The font system uses this interface to enumerate font files when building a font collection.
 old-location: directwrite\IDWriteFontFileEnumerator.htm

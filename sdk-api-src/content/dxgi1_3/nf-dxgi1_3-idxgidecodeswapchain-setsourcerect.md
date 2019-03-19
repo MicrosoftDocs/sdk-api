@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetSourceRect
-title: IDXGIDecodeSwapChain::SetSourceRect
+title: IDXGIDecodeSwapChain::SetSourceRect (dxgi1_3.h)
 author: windows-sdk-content
 description: Sets the rectangle that defines the source region for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_setsourcerect.htm

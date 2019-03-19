@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetCount
-title: ICertEncodeStringArray::GetCount
+title: ICertEncodeStringArray::GetCount (certenc.h)
 author: windows-sdk-content
 description: Returns the number of string values in the string array.
 old-location: security\icertencodestringarray_getcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrAddA
-title: RpcNsGroupMbrAddA function
+title: RpcNsGroupMbrAddA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry.
 old-location: rpc\rpcnsgroupmbradd.htm

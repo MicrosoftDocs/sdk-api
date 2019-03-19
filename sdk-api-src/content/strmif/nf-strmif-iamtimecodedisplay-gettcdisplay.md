@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.GetTCDisplay
-title: IAMTimecodeDisplay::GetTCDisplay
+title: IAMTimecodeDisplay::GetTCDisplay (strmif.h)
 author: windows-sdk-content
 description: The GetTCDisplay method retrieves current settings of the timecode character generator output.
 old-location: dshow\iamtimecodedisplay_gettcdisplay.htm

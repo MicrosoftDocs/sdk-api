@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanDisconnect
-title: WlanDisconnect function
+title: WlanDisconnect function (wlanapi.h)
 author: windows-sdk-content
 description: Disconnects an interface from its current network.
 old-location: nwifi\wlandisconnect.htm

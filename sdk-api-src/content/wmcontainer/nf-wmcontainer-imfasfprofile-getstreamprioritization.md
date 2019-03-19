@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamPrioritization
-title: IMFASFProfile::GetStreamPrioritization
+title: IMFASFProfile::GetStreamPrioritization (wmcontainer.h)
 author: windows-sdk-content
 description: IMFASFProfile::GetStreamPrioritization method
 old-location: mf\imfasfprofile_getstreamprioritization.htm

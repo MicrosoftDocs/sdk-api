@@ -1,6 +1,6 @@
 ---
 UID: NF:weakreference.IWeakReference.Resolve(REFIID,IInspectable)
-title: IWeakReference::Resolve(REFIID,IInspectable)
+title: IWeakReference::Resolve(REFIID,IInspectable) (weakreference.h)
 author: windows-sdk-content
 description: Resolves a weak reference by returning a strong reference to the specified object.
 old-location: winrt\iweakreference_resolve.htm

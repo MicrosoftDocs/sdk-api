@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStreamInfo
-title: IMFTransform::GetOutputStreamInfo
+title: IMFTransform::GetOutputStreamInfo (mftransform.h)
 author: windows-sdk-content
 description: Gets the buffer requirements and other information for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputstreaminfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage2.GetPropertyStorageBuffer
-title: IPersistSerializedPropStorage2::GetPropertyStorageBuffer
+title: IPersistSerializedPropStorage2::GetPropertyStorageBuffer (propsys.h)
 author: windows-sdk-content
 description: Gets the serialized property storage buffer from the property store instance.
 old-location: shell\IPersistSerializedPropStorage2_GetPropertyStorageBuffer.htm

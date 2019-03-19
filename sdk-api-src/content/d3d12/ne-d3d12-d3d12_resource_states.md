@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_STATES
-title: D3D12_RESOURCE_STATES
+title: D3D12_RESOURCE_STATES (d3d12.h)
 author: windows-sdk-content
 description: Specifies the state of a resource regarding how the resource is being used.
 old-location: direct3d12\d3d12_resource_states.htm

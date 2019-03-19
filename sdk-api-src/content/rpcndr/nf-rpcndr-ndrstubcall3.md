@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrStubCall3
-title: NdrStubCall3 function
+title: NdrStubCall3 function (rpcndr.h)
 author: windows-sdk-content
 description: NdrStubCall3 is not intended to be directly called by applications.
 old-location: rpc\ndrstubcall3.htm

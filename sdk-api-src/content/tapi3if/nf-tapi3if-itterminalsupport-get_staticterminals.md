@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.get_StaticTerminals
-title: ITTerminalSupport::get_StaticTerminals
+title: ITTerminalSupport::get_StaticTerminals (tapi3if.h)
 author: windows-sdk-content
 description: The get_StaticTerminals method creates a collection of currently available static terminals.
 old-location: tapi3\itterminalsupport_get_staticterminals.htm

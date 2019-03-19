@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDistributorNotify.SetSyncSource
-title: IDistributorNotify::SetSyncSource
+title: IDistributorNotify::SetSyncSource (strmif.h)
 author: windows-sdk-content
 description: The SetSyncSource method is called when a new clock is registered.
 old-location: dshow\idistributornotify_setsyncsource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.get_CAErrorId
-title: ICertSrvSetup::get_CAErrorId
+title: ICertSrvSetup::get_CAErrorId (casetup.h)
 author: windows-sdk-content
 description: Gets the ID for additional error information related to a failed certification authority (CA) specification.
 old-location: security\icertsrvsetup_caerrorid.htm

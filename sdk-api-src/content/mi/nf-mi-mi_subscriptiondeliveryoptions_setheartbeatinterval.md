@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetHeartbeatInterval
-title: MI_SubscriptionDeliveryOptions_SetHeartbeatInterval function
+title: MI_SubscriptionDeliveryOptions_SetHeartbeatInterval function (mi.h)
 author: windows-sdk-content
 description: Sets the heartbeat interval.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setheartbeatinterval.htm

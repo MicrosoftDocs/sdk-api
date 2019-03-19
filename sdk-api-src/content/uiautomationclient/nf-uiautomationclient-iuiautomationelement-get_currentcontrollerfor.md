@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentControllerFor
-title: IUIAutomationElement::get_CurrentControllerFor
+title: IUIAutomationElement::get_CurrentControllerFor (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves an array of elements for which this element serves as the controller.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentControllerFor.htm

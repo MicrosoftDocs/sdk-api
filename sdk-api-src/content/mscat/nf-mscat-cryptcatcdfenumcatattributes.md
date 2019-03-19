@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.CryptCATCDFEnumCatAttributes
-title: CryptCATCDFEnumCatAttributes function
+title: CryptCATCDFEnumCatAttributes function (mscat.h)
 author: windows-sdk-content
 description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).
 old-location: security\cryptcatcdfenumcatattributes.htm

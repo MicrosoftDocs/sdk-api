@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransform
-title: IXpsOMVisual::GetTransform
+title: IXpsOMVisual::GetTransform (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the visual's resolved matrix transform.
 old-location: xps\ixpsomvisual_gettransform.htm

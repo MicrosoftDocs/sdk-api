@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.RtlTimeToSecondsSince1970
-title: RtlTimeToSecondsSince1970 function
+title: RtlTimeToSecondsSince1970 function (winternl.h)
 author: windows-sdk-content
 description: Converts the specified 64-bit system time to the number of seconds since the beginning of January 1, 1970.
 old-location: base\rtltimetosecondssince1970.htm

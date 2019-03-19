@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_QUERY_STATUS_FN
-title: PIBIO_SENSOR_QUERY_STATUS_FN
+title: PIBIO_SENSOR_QUERY_STATUS_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves information about the current status of the sensor device.
 old-location: secbiomet\sensoradapterquerystatus.htm

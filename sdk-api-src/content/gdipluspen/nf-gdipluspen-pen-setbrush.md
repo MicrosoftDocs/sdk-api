@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetBrush
-title: Pen::SetBrush
+title: Pen::SetBrush (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetBrush method sets the Brush object that a pen uses to fill a line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetBrush_brush_.htm

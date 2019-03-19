@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.get_PrerollTime
-title: IMediaPosition::get_PrerollTime
+title: IMediaPosition::get_PrerollTime (control.h)
 author: windows-sdk-content
 description: The get_PrerollTime method retrieves the amount of data that will be queued before the start position.
 old-location: dshow\imediaposition_get_prerolltime.htm

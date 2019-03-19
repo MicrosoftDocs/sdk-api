@@ -1,6 +1,6 @@
 ---
 UID: NN:amstream.IAMMediaTypeStream
-title: IAMMediaTypeStream
+title: IAMMediaTypeStream (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\iammediatypestream.htm

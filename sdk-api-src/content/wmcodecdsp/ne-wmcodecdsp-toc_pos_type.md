@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcodecdsp.TOC_POS_TYPE
-title: TOC_POS_TYPE
+title: TOC_POS_TYPE (wmcodecdsp.h)
 author: windows-sdk-content
 description: The TOC_POS_TYPE enumeration contains members that specify the position type of a table of contents.
 old-location: mf\toc_pos_type.htm

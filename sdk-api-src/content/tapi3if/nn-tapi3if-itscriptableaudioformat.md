@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITScriptableAudioFormat
-title: ITScriptableAudioFormat
+title: ITScriptableAudioFormat (tapi3if.h)
 author: windows-sdk-content
 description: The ITScriptableAudioFormat interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat.htm

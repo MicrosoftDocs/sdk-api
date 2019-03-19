@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderSimple
-title: IRawElementProviderSimple
+title: IRawElementProviderSimple (uiautomationcore.h)
 author: windows-sdk-content
 description: Defines methods and properties that expose simple UI elements.
 old-location: winauto\uiauto_IRawElementProviderSimple.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.put_Rate
-title: IMediaPosition::put_Rate
+title: IMediaPosition::put_Rate (control.h)
 author: windows-sdk-content
 description: The put_Rate method sets the playback rate.
 old-location: dshow\imediaposition_put_rate.htm

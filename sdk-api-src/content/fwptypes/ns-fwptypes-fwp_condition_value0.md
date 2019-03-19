@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.FWP_CONDITION_VALUE0_
-title: FWP_CONDITION_VALUE0
+title: FWP_CONDITION_VALUE0 (fwptypes.h)
 author: windows-sdk-content
 description: Contains values that are used in filter conditions when testing for matching filters.
 old-location: fwp\fwp_condition_value0.htm

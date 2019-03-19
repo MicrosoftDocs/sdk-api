@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle
-title: ID2D1RenderTarget::DrawRectangle
+title: ID2D1RenderTarget::DrawRectangle (d2d1.h)
 author: windows-sdk-content
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
 old-location: direct2d\id2d1rendertarget_drawrectangle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadBytes
-title: WsReadBytes function
+title: WsReadBytes function (webservices.h)
 author: windows-sdk-content
 description: Reads text from the Reader and decodes the characters as bytes according to the base64 specification.
 old-location: wsw\wsreadbytes.htm

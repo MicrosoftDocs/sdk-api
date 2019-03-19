@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_DETAILS1_
-title: IPSEC_SA_DETAILS1
+title: IPSEC_SA_DETAILS1 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to store information returned when enumerating IPsec security associations (SAs).
 old-location: fwp\ipsec_sa_details1_struct.htm

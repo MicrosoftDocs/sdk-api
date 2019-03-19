@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoDialtone
-title: ITAutomatedPhoneControl::get_AutoDialtone
+title: ITAutomatedPhoneControl::get_AutoDialtone (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoDialtone method retrieves the current value of the AutoDialtone property.
 old-location: tapi3\itautomatedphonecontrol_get_autodialtone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetNextSample
-title: IMFASFSplitter::GetNextSample
+title: IMFASFSplitter::GetNextSample (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves a sample from the Advanced Systems Format (ASF) splitter after the data has been parsed.
 old-location: mf\imfasfsplitter_getnextsample.htm

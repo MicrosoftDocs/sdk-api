@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRINVERTRGN
-title: EMRINVERTRGN
+title: EMRINVERTRGN (wingdi.h)
 author: windows-sdk-content
 description: The EMRINVERTRGN and EMRPAINTRGN structures contain members for the InvertRgn and PaintRgn enhanced metafile records.
 old-location: gdi\emrinvertrgn__emrpaintrgn.htm

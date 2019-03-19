@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.ReactivateAndUndo
-title: IOleInPlaceObject::ReactivateAndUndo
+title: IOleInPlaceObject::ReactivateAndUndo (oleidl.h)
 author: windows-sdk-content
 description: Reactivates a previously deactivated object, undoing the last state of the object.
 old-location: com\ioleinplaceobject_reactivateandundo.htm

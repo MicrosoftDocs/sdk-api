@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.GetPhoneCapsBuffer
-title: ITPhone::GetPhoneCapsBuffer
+title: ITPhone::GetPhoneCapsBuffer (tapi3if.h)
 author: windows-sdk-content
 description: The GetPhoneCapsBuffer method gets a buffer capability/information about the phone, based on the PHONECAPS_BUFFER enum passed in.
 old-location: tapi3\itphone_getphonecapsbuffer.htm

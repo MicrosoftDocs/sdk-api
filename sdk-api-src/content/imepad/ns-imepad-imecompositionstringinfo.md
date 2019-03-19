@@ -1,6 +1,6 @@
 ---
 UID: NS:imepad.tagIMECOMPOSITIONSTRINGINFO
-title: IMECOMPOSITIONSTRINGINFO
+title: IMECOMPOSITIONSTRINGINFO (imepad.h)
 author: windows-sdk-content
 description: Contains information of IME's composition string in an app.
 old-location: intl\imecompositionstringinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_GRAPHICS_STATES
-title: D3D12_GRAPHICS_STATES
+title: D3D12_GRAPHICS_STATES (d3d12.h)
 author: windows-sdk-content
 description: Defines flags that specify states related to a graphics command list. Values can be bitwise OR'd together.
 old-location: direct3d12\d3d12_graphics_states.htm

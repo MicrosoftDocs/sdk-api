@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.Commit
-title: ITocParser::Commit
+title: ITocParser::Commit (wmcodecdsp.h)
 author: windows-sdk-content
 description: The Commit method stores the current state of the TOC Parser object in its associated media file.
 old-location: mf\itocparser_commit.htm

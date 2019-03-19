@@ -1,6 +1,6 @@
 ---
 UID: NS:iprtrmib._MIB_BEST_IF
-title: MIB_BEST_IF
+title: MIB_BEST_IF (iprtrmib.h)
 author: windows-sdk-content
 description: Stores the index of the interface that has the best route to a particular destination IPv4 address.
 old-location: mib\mib_best_if.htm

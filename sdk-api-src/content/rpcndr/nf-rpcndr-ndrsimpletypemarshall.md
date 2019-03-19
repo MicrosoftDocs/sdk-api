@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrSimpleTypeMarshall
-title: NdrSimpleTypeMarshall function
+title: NdrSimpleTypeMarshall function (rpcndr.h)
 author: windows-sdk-content
 description: The NdrSimpleTypeMarshall function marshalls a simple type.
 old-location: rpc\ndrsimpletypemarshall.htm

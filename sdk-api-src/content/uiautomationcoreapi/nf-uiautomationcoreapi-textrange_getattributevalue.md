@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetAttributeValue
-title: TextRange_GetAttributeValue function
+title: TextRange_GetAttributeValue function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Gets the value of an text attribute for a text range.
 old-location: winauto\uiauto_TextRange_GetAttributeValueConPat.htm

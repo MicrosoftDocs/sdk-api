@@ -1,6 +1,6 @@
 ---
 UID: NC:userenv.PFNSTATUSMESSAGECALLBACK
-title: PFNSTATUSMESSAGECALLBACK
+title: PFNSTATUSMESSAGECALLBACK (userenv.h)
 author: windows-sdk-content
 description: The StatusMessageCallback function is an application-defined callback function used to display status messages when applying policy.
 old-location: policy\statusmessagecallback.htm

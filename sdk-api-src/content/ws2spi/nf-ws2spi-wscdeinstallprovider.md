@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WSCDeinstallProvider
-title: WSCDeinstallProvider function
+title: WSCDeinstallProvider function (ws2spi.h)
 author: windows-sdk-content
 description: Removes the specified transport provider from the system configuration database.
 old-location: winsock\wscdeinstallprovider_2.htm

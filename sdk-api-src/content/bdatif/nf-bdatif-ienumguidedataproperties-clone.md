@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Clone
-title: IEnumGuideDataProperties::Clone
+title: IEnumGuideDataProperties::Clone (bdatif.h)
 author: windows-sdk-content
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_clone.htm

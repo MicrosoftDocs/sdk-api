@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetCount
-title: IWICMetadataReader::GetCount
+title: IWICMetadataReader::GetCount (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the number of metadata items within the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getcount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmExecutionOption
-title: FsrmExecutionOption
+title: FsrmExecutionOption (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the options for how to apply the rule to the file.
 old-location: fsrm\fsrmexecutionoption.htm

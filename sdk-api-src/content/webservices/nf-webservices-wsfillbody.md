@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsFillBody
-title: WsFillBody function
+title: WsFillBody function (webservices.h)
 author: windows-sdk-content
 description: Ensures that there are a sufficient number of bytes available in a message for reading.
 old-location: wsw\wsfillbody.htm

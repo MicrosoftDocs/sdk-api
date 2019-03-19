@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetInitializationData
-title: IXamlDiagnostics::GetInitializationData
+title: IXamlDiagnostics::GetInitializationData (xamlom.h)
 author: windows-sdk-content
 description: Gets the initialization data passed in to XAML Diagnostics.
 old-location: xaml_diagnostics\ixamldiagnostics_getinitializationdata.htm

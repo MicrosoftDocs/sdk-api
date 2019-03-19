@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsGetSecurityTokenProperty
-title: WsGetSecurityTokenProperty function
+title: WsGetSecurityTokenProperty function (webservices.h)
 author: windows-sdk-content
 description: Extracts a field or a property from a security token.
 old-location: wsw\wsgetsecuritytokenproperty.htm

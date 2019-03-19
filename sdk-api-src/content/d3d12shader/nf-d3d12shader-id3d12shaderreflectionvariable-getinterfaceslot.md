@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetInterfaceSlot
-title: ID3D12ShaderReflectionVariable::GetInterfaceSlot
+title: ID3D12ShaderReflectionVariable::GetInterfaceSlot (d3d12shader.h)
 author: windows-sdk-content
 description: Gets the corresponding interface slot for a variable that represents an interface pointer.
 old-location: direct3d12\id3d12shaderreflectionvariable_getinterfaceslot.htm

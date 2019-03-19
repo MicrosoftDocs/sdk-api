@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetMedia
-title: IMFMediaEngineSrcElements::GetMedia
+title: IMFMediaEngineSrcElements::GetMedia (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the intended media type of an element in the list.
 old-location: mf\imfmediaenginesrcelements_getmedia.htm

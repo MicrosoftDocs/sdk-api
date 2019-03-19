@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.UpdateTransform
-title: IMILBitmapEffectRenderContextImpl::UpdateTransform
+title: IMILBitmapEffectRenderContextImpl::UpdateTransform (mileffects.h)
 author: windows-sdk-content
 description: Updates the output transform with the new matrix.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updatetransform.htm

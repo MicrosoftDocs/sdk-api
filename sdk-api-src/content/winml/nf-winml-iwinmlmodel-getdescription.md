@@ -1,6 +1,6 @@
 ---
 UID: NF:winml.IWinMLModel.GetDescription
-title: IWinMLModel::GetDescription
+title: IWinMLModel::GetDescription (winml.h)
 author: windows-sdk-content
 description: Retrieves the WinML model description.
 old-location: machinelearning\iwinmlmodel_getdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_PlaybackSpeed
-title: IAMExtendedSeeking::get_PlaybackSpeed
+title: IAMExtendedSeeking::get_PlaybackSpeed (qnetwork.h)
 author: windows-sdk-content
 description: The get_PlaybackSpeed method retrieves the playback speed.
 old-location: dshow\iamextendedseeking_get_playbackspeed.htm

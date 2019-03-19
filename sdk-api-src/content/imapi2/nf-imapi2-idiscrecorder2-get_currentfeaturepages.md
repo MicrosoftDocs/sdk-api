@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_CurrentFeaturePages
-title: IDiscRecorder2::get_CurrentFeaturePages
+title: IDiscRecorder2::get_CurrentFeaturePages (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the list of feature pages of the device that are marked as current.
 old-location: imapi\idiscrecorder2_get_currentfeaturepages.htm

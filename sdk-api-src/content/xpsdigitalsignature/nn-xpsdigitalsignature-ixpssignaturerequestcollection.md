@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureRequestCollection
-title: IXpsSignatureRequestCollection
+title: IXpsSignatureRequestCollection (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: A collection of IXpsSignatureRequest interfaces.
 old-location: xps\ixpssignaturerequestcollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetCookie
-title: ITextFont2::GetCookie
+title: ITextFont2::GetCookie (tom.h)
 author: windows-sdk-content
 description: Gets the client cookie.
 old-location: controls\itextfont2_getcookie.htm

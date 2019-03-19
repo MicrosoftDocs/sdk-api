@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData
-title: ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData
+title: ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData (d3d11_4.h)
 author: windows-sdk-content
 description: Gets the HDR metadata associated with the video stream.
 old-location: mf\id3d11videocontext2_videoprocessorgetstreamhdrmetadata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:timeprov.TimeProvSysCallbacks
-title: TimeProvSysCallbacks
+title: TimeProvSysCallbacks (timeprov.h)
 author: windows-sdk-content
 description: Contains pointers to functions for use by the time provider.
 old-location: base\timeprovsyscallbacks_str.htm

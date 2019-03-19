@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_ClassFactory
-title: IServicePoolConfig::put_ClassFactory
+title: IServicePoolConfig::put_ClassFactory (comsvcs.h)
 author: windows-sdk-content
 description: Sets a class factory for the pooled objects.
 old-location: cos\iservicepoolconfig_put_classfactory.htm

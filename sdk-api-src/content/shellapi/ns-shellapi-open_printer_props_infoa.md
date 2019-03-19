@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._OPEN_PRINTER_PROPS_INFOA
-title: OPEN_PRINTER_PROPS_INFOA
+title: OPEN_PRINTER_PROPS_INFOA (shellapi.h)
 author: windows-sdk-content
 description: Identifies a particular property sheet in a printer's property pages and whether that property sheet should be modal. Optionally used with the SHInvokePrinterCommand function.
 old-location: shell\OPEN_PRINTER_PROPS_INFO.htm

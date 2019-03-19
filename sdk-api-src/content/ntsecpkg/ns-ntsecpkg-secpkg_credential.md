@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CREDENTIAL
-title: SECPKG_CREDENTIAL
+title: SECPKG_CREDENTIAL (ntsecpkg.h)
 author: windows-sdk-content
 description: Specifies the credentials.
 old-location: security\secpkg_credential.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MapVirtualKeyExW
-title: MapVirtualKeyExW function
+title: MapVirtualKeyExW function (winuser.h)
 author: windows-sdk-content
 description: Translates (maps) a virtual-key code into a scan code or character value, or translates a scan code into a virtual-key code. The function translates the codes using the input language and an input locale identifier.
 old-location: inputdev\mapvirtualkeyex.htm

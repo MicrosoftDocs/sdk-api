@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.UpdateTraceA
-title: UpdateTraceA function
+title: UpdateTraceA function (evntrace.h)
 author: windows-sdk-content
 description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
 old-location: etw\updatetrace.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT1_
-title: FWPM_NET_EVENT1
+title: FWPM_NET_EVENT1 (fwpmtypes.h)
 author: windows-sdk-content
 description: Contains information about all event types.
 old-location: fwp\fwpm_net_event1.htm

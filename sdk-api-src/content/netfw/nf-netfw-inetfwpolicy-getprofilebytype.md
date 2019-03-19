@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwPolicy.GetProfileByType
-title: INetFwPolicy::GetProfileByType
+title: INetFwPolicy::GetProfileByType (netfw.h)
 author: windows-sdk-content
 description: Retrieves the profile of the requested type.
 old-location: ics\inetfwpolicy_getprofilebytype.htm

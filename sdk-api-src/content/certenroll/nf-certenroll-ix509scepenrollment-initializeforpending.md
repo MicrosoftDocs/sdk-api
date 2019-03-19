@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.InitializeForPending
-title: IX509SCEPEnrollment::InitializeForPending
+title: IX509SCEPEnrollment::InitializeForPending (certenroll.h)
 author: windows-sdk-content
 description: Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.
 old-location: security\ix509scepenrollment_initializeforpending.htm

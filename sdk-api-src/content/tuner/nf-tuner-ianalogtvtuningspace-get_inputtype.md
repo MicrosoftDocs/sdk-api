@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_InputType
-title: IAnalogTVTuningSpace::get_InputType
+title: IAnalogTVTuningSpace::get_InputType (tuner.h)
 author: windows-sdk-content
 description: The get_InputType method gets the input type (antenna or cable) intended for the tuning space.
 old-location: mstv\ianalogtvtuningspace_get_inputtype.htm

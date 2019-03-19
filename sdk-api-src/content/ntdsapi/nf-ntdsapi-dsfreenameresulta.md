@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsFreeNameResultA
-title: DsFreeNameResultA function
+title: DsFreeNameResultA function (ntdsapi.h)
 author: windows-sdk-content
 description: Frees the memory held by a DS_NAME_RESULT structure.
 old-location: ad\dsfreenameresult.htm

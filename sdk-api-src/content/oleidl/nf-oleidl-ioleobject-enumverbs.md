@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.EnumVerbs
-title: IOleObject::EnumVerbs
+title: IOleObject::EnumVerbs (oleidl.h)
 author: windows-sdk-content
 description: Exposes a pull-down menu listing the verbs available for an object in ascending order by verb number.
 old-location: com\ioleobject_enumverbs.htm

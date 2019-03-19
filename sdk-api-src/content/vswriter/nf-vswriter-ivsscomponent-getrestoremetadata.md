@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreMetadata
-title: IVssComponent::GetRestoreMetadata
+title: IVssComponent::GetRestoreMetadata (vswriter.h)
 author: windows-sdk-content
 description: The GetRestoreMetadata method retrieves private, writer-specific restore metadata that might have been set during a PreRestore event by CVssWriter::OnPreRestore using IVssComponent::SetRestoreMetadata.
 old-location: base\ivsscomponent_getrestoremetadata.htm

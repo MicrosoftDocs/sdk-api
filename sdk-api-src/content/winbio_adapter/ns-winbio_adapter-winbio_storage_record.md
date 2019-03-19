@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_adapter._WINBIO_STORAGE_RECORD
-title: WINBIO_STORAGE_RECORD
+title: WINBIO_STORAGE_RECORD (winbio_adapter.h)
 author: windows-sdk-content
 description: Contains a biometric template and associated data in a standard format.
 old-location: secbiomet\winbio_storage_record.htm

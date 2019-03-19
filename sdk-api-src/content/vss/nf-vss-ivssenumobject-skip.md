@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssEnumObject.Skip
-title: IVssEnumObject::Skip
+title: IVssEnumObject::Skip (vss.h)
 author: windows-sdk-content
 description: Skips the specified number of objects.
 old-location: base\ivssenumobject_skip.htm

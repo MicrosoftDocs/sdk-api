@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMSitesContainer
-title: IGPMSitesContainer
+title: IGPMSitesContainer (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMSitesContainer interface provides the methods required to access the scope of management (SOM) objects that represent sites in a forest.
 old-location: gpmc\igpmsitescontainer.htm

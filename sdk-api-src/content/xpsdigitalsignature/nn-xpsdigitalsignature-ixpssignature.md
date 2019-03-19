@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignature
-title: IXpsSignature
+title: IXpsSignature (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Represents a single digital signature.
 old-location: xps\ixpssignature.htm

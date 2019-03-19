@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ExposureRelative
-title: ICameraControl::get_ExposureRelative
+title: ICameraControl::get_ExposureRelative (vidcap.h)
 author: windows-sdk-content
 description: The get_ExposureRelative method returns the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_exposurerelative.htm

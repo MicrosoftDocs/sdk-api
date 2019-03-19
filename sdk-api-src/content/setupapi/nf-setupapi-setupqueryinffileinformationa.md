@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueryInfFileInformationA
-title: SetupQueryInfFileInformationA function
+title: SetupQueryInfFileInformationA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueryInfFileInformation function returns an INF filename from an SP_INF_INFORMATION structure to a buffer.
 old-location: setup\setupqueryinffileinformation.htm

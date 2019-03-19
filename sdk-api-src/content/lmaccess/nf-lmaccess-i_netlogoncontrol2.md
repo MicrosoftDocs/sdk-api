@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.I_NetLogonControl2
-title: I_NetLogonControl2 function
+title: I_NetLogonControl2 function (lmaccess.h)
 author: windows-sdk-content
 description: Controls various aspects of the Netlogon service.
 old-location: winprog\i_netlogoncontrol2.htm

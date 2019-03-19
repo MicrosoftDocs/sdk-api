@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.DeleteItem
-title: IMFAttributes::DeleteItem
+title: IMFAttributes::DeleteItem (mfobjects.h)
 author: windows-sdk-content
 description: Removes a key/value pair from the object's attribute list.
 old-location: mf\imfattributes_deleteitem.htm

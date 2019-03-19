@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncFilterInfo2.GetFlags
-title: ISyncFilterInfo2::GetFlags
+title: ISyncFilterInfo2::GetFlags (winsync.h)
 author: windows-sdk-content
 description: Gets the flags that specify additional information about the filter information object.
 old-location: winsync\isyncfilterinfo2_getflags.htm

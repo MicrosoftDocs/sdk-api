@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.RowOrColumnMajor
-title: RowOrColumnMajor
+title: RowOrColumnMajor (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify whether data in a table should be read primarily by row or by column.
 old-location: winauto\uiauto_RowOrColumnMajorEnum.htm

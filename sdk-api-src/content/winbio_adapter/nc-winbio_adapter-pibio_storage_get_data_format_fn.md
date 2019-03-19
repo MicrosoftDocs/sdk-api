@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_GET_DATA_FORMAT_FN
-title: PIBIO_STORAGE_GET_DATA_FORMAT_FN
+title: PIBIO_STORAGE_GET_DATA_FORMAT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Retrieves format and version information used by the current database associated with the pipeline.
 old-location: secbiomet\storageadaptergetdataformat.htm

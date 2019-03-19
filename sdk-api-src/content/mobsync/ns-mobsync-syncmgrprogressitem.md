@@ -1,6 +1,6 @@
 ---
 UID: NS:mobsync._tagSYNCMGRPROGRESSITEM
-title: SYNCMGRPROGRESSITEM
+title: SYNCMGRPROGRESSITEM (mobsync.h)
 author: windows-sdk-content
 description: Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback::Progress method and corresponds to a single synchronization item.
 old-location: shell\syncmgr_syncmgrprogressitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:commctrl.PFNLVGROUPCOMPARE
-title: PFNLVGROUPCOMPARE
+title: PFNLVGROUPCOMPARE (commctrl.h)
 author: windows-sdk-content
 description: The LVGroupCompare function is an application-defined callback function used with the LVM_INSERTGROUPSORTED and LVM_SORTGROUPS messages.
 old-location: controls\LVGroupCompare.htm

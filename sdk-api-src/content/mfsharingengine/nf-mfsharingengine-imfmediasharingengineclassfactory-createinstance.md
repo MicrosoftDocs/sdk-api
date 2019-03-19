@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngineClassFactory.CreateInstance
-title: IMFMediaSharingEngineClassFactory::CreateInstance
+title: IMFMediaSharingEngineClassFactory::CreateInstance (mfsharingengine.h)
 author: windows-sdk-content
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory_createinstance.htm

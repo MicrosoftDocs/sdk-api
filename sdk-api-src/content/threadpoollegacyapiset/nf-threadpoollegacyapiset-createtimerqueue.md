@@ -1,6 +1,6 @@
 ---
 UID: NF:threadpoollegacyapiset.CreateTimerQueue
-title: CreateTimerQueue function
+title: CreateTimerQueue function (threadpoollegacyapiset.h)
 author: windows-sdk-content
 description: Creates a queue for timers.
 old-location: base\createtimerqueue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.ICodecAPI
-title: ICodecAPI
+title: ICodecAPI (strmif.h)
 author: windows-sdk-content
 description: The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter.
 old-location: dshow\icodecapi.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesDiscardedByMessageCountLimit
-title: IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit
+title: IDXGIInfoQueue::GetNumMessagesDiscardedByMessageCountLimit (dxgidebug.h)
 author: windows-sdk-content
 description: Gets the number of messages that were discarded due to the message count limit.
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdiscardedbymessagecountlimit.htm

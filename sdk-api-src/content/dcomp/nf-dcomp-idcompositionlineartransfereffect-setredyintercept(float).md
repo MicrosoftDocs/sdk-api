@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedYIntercept(float)
-title: IDCompositionLinearTransferEffect::SetRedYIntercept(float)
+title: IDCompositionLinearTransferEffect::SetRedYIntercept(float) (dcomp.h)
 author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the red channel.
 old-location: directcomp\idcompositionlineartransfereffect_setredyintercept.htm

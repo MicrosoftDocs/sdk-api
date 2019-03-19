@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.put_Cost
-title: IX509EnrollmentPolicyServer::put_Cost
+title: IX509EnrollmentPolicyServer::put_Cost (certenroll.h)
 author: windows-sdk-content
 description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
 old-location: security\ix509enrollmentpolicyserver_cost.htm

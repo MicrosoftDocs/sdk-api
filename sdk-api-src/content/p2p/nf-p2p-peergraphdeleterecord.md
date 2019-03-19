@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphDeleteRecord
-title: PeerGraphDeleteRecord function
+title: PeerGraphDeleteRecord function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphDeleteRecord function marks a record as deleted within a peer graph. The record is not available on a local node to function calls, for example, calls to PeerGraphGetRecord and PeerGraphEnumRecords.
 old-location: p2p\peergraphdeleterecord.htm

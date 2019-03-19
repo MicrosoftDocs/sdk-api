@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMOperation3
-title: IWMDMOperation3
+title: IWMDMOperation3 (mswmdm.h)
 author: windows-sdk-content
 description: The optional, application-implemented IWMDMOperation3 interface extends IWMDMOperation by providing a new method for transferring data unencrypted for added efficiency.
 old-location: wmdm\iwmdmoperation3.htm

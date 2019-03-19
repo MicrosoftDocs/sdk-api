@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_STRETCH
-title: DWRITE_FONT_STRETCH
+title: DWRITE_FONT_STRETCH (dwrite.h)
 author: windows-sdk-content
 description: Represents the degree to which a font has been stretched compared to a font's normal aspect ratio.
 old-location: directwrite\dwrite_font_stretch.htm

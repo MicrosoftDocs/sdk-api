@@ -1,6 +1,6 @@
 ---
 UID: NE:ntsecapi._KERB_LOGON_SUBMIT_TYPE
-title: KERB_LOGON_SUBMIT_TYPE
+title: KERB_LOGON_SUBMIT_TYPE (ntsecapi.h)
 author: windows-sdk-content
 description: Identifies the type of logon being requested.
 old-location: security\kerb_logon_submit_type.htm

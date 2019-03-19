@@ -1,6 +1,6 @@
 ---
 UID: NC:batclass.BCLASS_QUERY_TAG_CALLBACK
-title: BCLASS_QUERY_TAG_CALLBACK
+title: BCLASS_QUERY_TAG_CALLBACK (batclass.h)
 author: windows-sdk-content
 description: BatteryMiniQueryTag returns the current battery tag.
 old-location: battery\batteryminiquerytag.htm

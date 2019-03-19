@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcasync.RpcErrorResetEnumeration
-title: RpcErrorResetEnumeration function
+title: RpcErrorResetEnumeration function (rpcasync.h)
 author: windows-sdk-content
 description: The RpcErrorResetEnumeration function resets an enumeration cursor for any in-process enumeration, resetting the process such that a subsequent call to the RpcErrorGetNextRecord retrieves the first extended error information record.
 old-location: rpc\rpcerrorresetenumeration.htm

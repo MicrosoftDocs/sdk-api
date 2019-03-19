@@ -1,6 +1,6 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_GAIN_TYPE
-title: MC_GAIN_TYPE
+title: MC_GAIN_TYPE (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Specifies whether to get or set a monitor's red, green, or blue gain.
 old-location: monitor\mc_gain_type.htm

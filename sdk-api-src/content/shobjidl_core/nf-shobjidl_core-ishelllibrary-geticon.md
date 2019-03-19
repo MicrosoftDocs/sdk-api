@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetIcon
-title: IShellLibrary::GetIcon
+title: IShellLibrary::GetIcon (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the default icon for the library.
 old-location: shell\IShellLibrary_GetIcon.htm

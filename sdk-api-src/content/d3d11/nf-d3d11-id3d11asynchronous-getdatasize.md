@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Asynchronous.GetDataSize
-title: ID3D11Asynchronous::GetDataSize
+title: ID3D11Asynchronous::GetDataSize (d3d11.h)
 author: windows-sdk-content
 description: Get the size of the data (in bytes) that is output when calling ID3D11DeviceContext::GetData.
 old-location: direct3d11\id3d11asynchronous_getdatasize.htm

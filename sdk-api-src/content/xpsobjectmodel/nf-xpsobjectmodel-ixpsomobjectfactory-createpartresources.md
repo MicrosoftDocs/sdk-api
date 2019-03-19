@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePartResources
-title: IXpsOMObjectFactory::CreatePartResources
+title: IXpsOMObjectFactory::CreatePartResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMPartResources interface that can contain part-based resources.
 old-location: xps\ixpsomobjectfactory_createpartresources.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.GetDeviceManufacturer
-title: IWICMetadataHandlerInfo::GetDeviceManufacturer
+title: IWICMetadataHandlerInfo::GetDeviceManufacturer (wincodecsdk.h)
 author: windows-sdk-content
 description: Retrieves the device manufacturer of the metadata handler.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_getdevicemanufacturer.htm

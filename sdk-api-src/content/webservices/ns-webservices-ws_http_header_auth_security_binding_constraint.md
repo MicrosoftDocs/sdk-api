@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT
-title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT
+title: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT (webservices.h)
 author: windows-sdk-content
 description: A security binding constraint that corresponds to the WS_HTTP_HEADER_AUTH_SECURITY_BINDING.
 old-location: wsw\ws_http_header_auth_security_binding_constraint.htm

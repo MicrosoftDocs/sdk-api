@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_USAGE_SCENARIO
-title: CREDENTIAL_PROVIDER_USAGE_SCENARIO
+title: CREDENTIAL_PROVIDER_USAGE_SCENARIO (credentialprovider.h)
 author: windows-sdk-content
 description: Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.
 old-location: shell\CREDENTIAL_PROVIDER_USAGE_SCENARIO.htm

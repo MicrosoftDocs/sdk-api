@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_REQUEST_ENTRY
-title: OCSP_REQUEST_ENTRY
+title: OCSP_REQUEST_ENTRY (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about a single certificate in an online certificate status protocol (OCSP) request.
 old-location: security\ocsp_request_entry.htm

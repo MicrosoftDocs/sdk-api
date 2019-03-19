@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.SetSourceDisplayName
-title: IOleLink::SetSourceDisplayName
+title: IOleLink::SetSourceDisplayName (oleidl.h)
 author: windows-sdk-content
 description: Sets the display name for the link source.
 old-location: com\iolelink_setsourcedisplayname.htm

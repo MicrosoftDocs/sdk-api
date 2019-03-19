@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMDone
-title: IComCRMEvents::OnCRMDone
+title: IComCRMEvents::OnCRMDone (comsvcs.h)
 author: windows-sdk-content
 description: Generated when CRM clerk is done processing transaction outcome notifications.
 old-location: cos\icomcrmevents_oncrmdone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentLocalizedControlType
-title: IUIAutomationElement::get_CurrentLocalizedControlType
+title: IUIAutomationElement::get_CurrentLocalizedControlType (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a localized description of the control type of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentLocalizedControlType.htm

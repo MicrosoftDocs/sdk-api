@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdutil.WSDXMLAddChild
-title: WSDXMLAddChild function
+title: WSDXMLAddChild function (wsdutil.h)
 author: windows-sdk-content
 description: Adds a child element.
 old-location: ncd\wsdxmladdchild.htm

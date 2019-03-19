@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11_3.ID3D11RasterizerState2
-title: ID3D11RasterizerState2
+title: ID3D11RasterizerState2 (d3d11_3.h)
 author: windows-sdk-content
 description: The rasterizer-state interface holds a description for rasterizer state that you can bind to the rasterizer stage. This rasterizer-state interface supports forced sample count and conservative rasterization mode.
 old-location: direct3d11\id3d11rasterizerstate2.htm

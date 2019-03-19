@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_BLEND_DESCRIPTION
-title: D2D1_BLEND_DESCRIPTION
+title: D2D1_BLEND_DESCRIPTION (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Defines a blend description to be used in a particular blend transform.
 old-location: direct2d\d2d1_blend_description.htm

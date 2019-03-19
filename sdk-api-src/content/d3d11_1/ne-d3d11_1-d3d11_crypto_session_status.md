@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11_1.D3D11_CRYPTO_SESSION_STATUS
-title: D3D11_CRYPTO_SESSION_STATUS
+title: D3D11_CRYPTO_SESSION_STATUS (d3d11_1.h)
 author: windows-sdk-content
 description: Represents the status of an ID3D11CryptoSession interface.
 old-location: mf\d3d11_crypto_session_status.htm

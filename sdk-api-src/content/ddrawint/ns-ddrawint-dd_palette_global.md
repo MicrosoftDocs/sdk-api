@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_PALETTE_GLOBAL
-title: DD_PALETTE_GLOBAL
+title: DD_PALETTE_GLOBAL (ddrawint.h)
 author: windows-sdk-content
 description: The DD_PALETTE_GLOBAL structure contains the global DirectDrawPalette data that can be shared between object instances.
 old-location: display\dd_palette_global.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedLastSelectedItem
-title: IUIAutomationSelectionPattern2::get_CachedLastSelectedItem
+title: IUIAutomationSelectionPattern2::get_CachedLastSelectedItem (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets a cached IUIAutomationElement object representing the last item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedLastSelectedItem.htm

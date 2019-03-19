@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITLegacyAddressMediaControl
-title: ITLegacyAddressMediaControl
+title: ITLegacyAddressMediaControl (tapi3if.h)
 author: windows-sdk-content
 description: The ITLegacyAddressMediaControl interface is provided to support legacy applications that require direct access to a device and its configuration. It is exposed by the Address Object and can be created by calling QueryInterface on ITAddress.
 old-location: tapi3\itlegacyaddressmediacontrol.htm

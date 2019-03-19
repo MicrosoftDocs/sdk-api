@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.DragFinish
-title: DragFinish function
+title: DragFinish function (shellapi.h)
 author: windows-sdk-content
 description: Releases memory that the system allocated for use in transferring file names to the application.
 old-location: shell\DragFinish.htm

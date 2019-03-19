@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ValidateTarget
-title: IFhConfigMgr::ValidateTarget
+title: IFhConfigMgr::ValidateTarget (fhcfg.h)
 author: windows-sdk-content
 description: Checks whether a certain storage device or network share can be used as a File History backup target.
 old-location: winprog\ifhconfigmgr_validatetarget.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.FrameStep
-title: IMFMediaEngineEx::FrameStep
+title: IMFMediaEngineEx::FrameStep (mfmediaengine.h)
 author: windows-sdk-content
 description: Steps forward or backward one frame.
 old-location: mf\imfmediaengineex_framestep.htm

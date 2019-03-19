@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
-title: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
+title: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains data that defines an array of DHCP_SUBNET_ELEMENT_DATA_V6 IPv6 prefix elements.
 old-location: dhcp\dhcp_subnet_element_info_array_v6.htm

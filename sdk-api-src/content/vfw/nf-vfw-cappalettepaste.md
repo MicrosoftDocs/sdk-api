@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capPalettePaste
-title: capPalettePaste macro
+title: capPalettePaste macro (vfw.h)
 author: windows-sdk-content
 description: The capPalettePaste macro copies the palette from the clipboard and passes it to a capture driver. You can use this macro or explicitly call the WM_CAP_PAL_PASTE message.
 old-location: multimedia\cappalettepaste.htm

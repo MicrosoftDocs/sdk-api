@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixAffineTransformation2D
-title: XMMatrixAffineTransformation2D function
+title: XMMatrixAffineTransformation2D function (directxmath.h)
 author: windows-sdk-content
 description: Builds a 2D affine transformation matrix in the xy plane.
 old-location: dxmath\xmmatrixaffinetransformation2d.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2fs.FsiItemType
-title: FsiItemType
+title: FsiItemType (imapi2fs.h)
 author: windows-sdk-content
 description: Defines values for the file system item that was found using the IFileSystemImage::Exists method.
 old-location: imapi\fsiitemtype.htm

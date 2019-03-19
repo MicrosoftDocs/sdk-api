@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasEnumDevicesA
-title: RasEnumDevicesA function
+title: RasEnumDevicesA function (ras.h)
 author: windows-sdk-content
 description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
 old-location: rras\rasenumdevices.htm

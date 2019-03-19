@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_StartOfNextSession
-title: IDiscFormat2RawCD::get_StartOfNextSession
+title: IDiscFormat2RawCD::get_StartOfNextSession (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the first sector of the next session.
 old-location: imapi\idiscformat2rawcd_get_startofnextsession.htm

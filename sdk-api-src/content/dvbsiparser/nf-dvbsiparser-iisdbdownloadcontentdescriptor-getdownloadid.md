@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetDownloadId
-title: IIsdbDownloadContentDescriptor::GetDownloadId
+title: IIsdbDownloadContentDescriptor::GetDownloadId (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the download identifier from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. The download identifier identifies an application number for the download.
 old-location: mstv\iisdbdownloadcontentdescriptor_getdownloadid.htm

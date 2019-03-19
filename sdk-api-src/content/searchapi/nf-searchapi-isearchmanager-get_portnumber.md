@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchManager.get_PortNumber
-title: ISearchManager::get_PortNumber
+title: ISearchManager::get_PortNumber (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the port number used to communicate with the proxy server. This port number is stored in the indexer and is set by the ISearchManager::SetProxy method.
 old-location: search\_search_ISearchManager_get_PortNumber.htm

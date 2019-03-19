@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSGetPropertyValue
-title: PSGetPropertyValue function
+title: PSGetPropertyValue function (propsys.h)
 author: windows-sdk-content
 description: Gets a property value from a property store.
 old-location: properties\PSGetPropertyValue.htm

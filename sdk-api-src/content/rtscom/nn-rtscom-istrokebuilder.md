@@ -1,6 +1,6 @@
 ---
 UID: NN:rtscom.IStrokeBuilder
-title: IStrokeBuilder
+title: IStrokeBuilder (rtscom.h)
 author: windows-sdk-content
 description: Use interface to programmatically create strokes from packet data.
 old-location: tablet\istrokebuilder.htm

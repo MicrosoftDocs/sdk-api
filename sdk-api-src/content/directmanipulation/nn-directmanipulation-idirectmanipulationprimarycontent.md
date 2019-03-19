@@ -1,6 +1,6 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationPrimaryContent
-title: IDirectManipulationPrimaryContent
+title: IDirectManipulationPrimaryContent (directmanipulation.h)
 author: windows-sdk-content
 description: Encapsulates the primary content inside a viewport.
 old-location: directmanipulation\idirectmanipulationprimarycontent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongPtrToChar
-title: ULongPtrToChar function
+title: ULongPtrToChar function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type CHAR.
 old-location: shell\ULongPtrToChar.htm

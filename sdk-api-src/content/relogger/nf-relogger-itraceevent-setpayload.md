@@ -1,6 +1,6 @@
 ---
 UID: NF:relogger.ITraceEvent.SetPayload
-title: ITraceEvent::SetPayload
+title: ITraceEvent::SetPayload (relogger.h)
 author: windows-sdk-content
 description: Sets the payload for an event.
 old-location: etw\ievent_setpayload.htm

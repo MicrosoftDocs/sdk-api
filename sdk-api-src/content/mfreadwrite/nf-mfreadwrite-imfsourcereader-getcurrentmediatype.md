@@ -1,6 +1,6 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetCurrentMediaType
-title: IMFSourceReader::GetCurrentMediaType
+title: IMFSourceReader::GetCurrentMediaType (mfreadwrite.h)
 author: windows-sdk-content
 description: Gets the current media type for a stream.
 old-location: mf\imfsourcereader_getcurrentmediatype.htm

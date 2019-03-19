@@ -1,6 +1,6 @@
 ---
 UID: NN:dwrite_1.IDWriteBitmapRenderTarget1
-title: IDWriteBitmapRenderTarget1
+title: IDWriteBitmapRenderTarget1 (dwrite_1.h)
 author: windows-sdk-content
 description: Encapsulates a 32-bit device independent bitmap and device context, which you can use for rendering glyphs.
 old-location: directwrite\idwritebitmaprendertarget1.htm

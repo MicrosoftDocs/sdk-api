@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetMaximumFrameLatency
-title: IDXGISwapChain2::GetMaximumFrameLatency
+title: IDXGISwapChain2::GetMaximumFrameLatency (dxgi1_3.h)
 author: windows-sdk-content
 description: Gets the number of frames that the swap chain is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgiswapchain2_getmaximumframelatency.htm

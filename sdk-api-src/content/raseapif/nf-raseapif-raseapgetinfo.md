@@ -1,6 +1,6 @@
 ---
 UID: NF:raseapif.RasEapGetInfo
-title: RasEapGetInfo function
+title: RasEapGetInfo function (raseapif.h)
 author: windows-sdk-content
 description: The RAS connection manager calls RasEapGetInfo to obtain a set of function pointers for a specified authentication protocol.
 old-location: eap\raseapgetinfo.htm

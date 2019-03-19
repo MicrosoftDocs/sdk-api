@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_REGISTER_NOTIFICATION
-title: LSA_REGISTER_NOTIFICATION
+title: LSA_REGISTER_NOTIFICATION (ntsecpkg.h)
 author: windows-sdk-content
 description: Provides a mechanism whereby the security package is notified. Notification can occur at fixed intervals, when an event object is signaled, or during certain system events.
 old-location: security\registernotification.htm

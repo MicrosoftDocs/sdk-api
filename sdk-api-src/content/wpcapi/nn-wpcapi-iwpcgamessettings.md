@@ -1,6 +1,6 @@
 ---
 UID: NN:wpcapi.IWPCGamesSettings
-title: IWPCGamesSettings
+title: IWPCGamesSettings (wpcapi.h)
 author: windows-sdk-content
 description: Accesses games settings for the user.
 old-location: parcon\iwpcgamessettings.htm

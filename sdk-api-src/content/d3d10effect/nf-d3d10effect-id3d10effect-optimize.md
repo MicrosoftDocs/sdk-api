@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.Optimize
-title: ID3D10Effect::Optimize
+title: ID3D10Effect::Optimize (d3d10effect.h)
 author: windows-sdk-content
 description: Minimize the amount of memory required for an effect.
 old-location: direct3d10\id3d10effect_optimize.htm

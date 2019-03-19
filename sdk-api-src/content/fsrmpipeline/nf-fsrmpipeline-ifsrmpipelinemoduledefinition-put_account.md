@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Account
-title: IFsrmPipelineModuleDefinition::put_Account
+title: IFsrmPipelineModuleDefinition::put_Account (fsrmpipeline.h)
 author: windows-sdk-content
 description: The account to use when running the module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_account.htm

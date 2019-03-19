@@ -1,6 +1,6 @@
 ---
 UID: NC:timeprov.SetProviderStatusFunc
-title: SetProviderStatusFunc
+title: SetProviderStatusFunc (timeprov.h)
 author: windows-sdk-content
 description: Sets the time provider's status information.
 old-location: base\setproviderstatusfunc.htm

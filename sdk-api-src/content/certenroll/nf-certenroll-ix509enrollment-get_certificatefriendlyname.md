@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_CertificateFriendlyName
-title: IX509Enrollment::get_CertificateFriendlyName
+title: IX509Enrollment::get_CertificateFriendlyName (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the display name of a certificate.
 old-location: security\ix509enrollment_certificatefriendlyname_property.htm

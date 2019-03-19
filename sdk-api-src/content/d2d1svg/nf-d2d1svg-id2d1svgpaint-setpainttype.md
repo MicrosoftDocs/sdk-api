@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.SetPaintType
-title: ID2D1SvgPaint::SetPaintType
+title: ID2D1SvgPaint::SetPaintType (d2d1svg.h)
 author: windows-sdk-content
 description: Sets the paint type.
 old-location: direct2d\id2d1svgpaint_setpainttype.htm

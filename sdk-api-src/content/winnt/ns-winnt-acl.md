@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACL
-title: ACL
+title: ACL (winnt.h)
 author: windows-sdk-content
 description: Header of an access control list (ACL).
 old-location: security\acl.htm

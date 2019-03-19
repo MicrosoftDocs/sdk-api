@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElementsEx
-title: IMFMediaEngineSrcElementsEx
+title: IMFMediaEngineSrcElementsEx (mfmediaengine.h)
 author: windows-sdk-content
 description: Extends the IMFMediaEngineSrcElements interface to provide additional capabilities.
 old-location: mf\imfmediaenginesrcelementsex.htm

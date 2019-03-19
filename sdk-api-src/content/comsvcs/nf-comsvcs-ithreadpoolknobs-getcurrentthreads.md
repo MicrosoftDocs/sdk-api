@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetCurrentThreads
-title: IThreadPoolKnobs::GetCurrentThreads
+title: IThreadPoolKnobs::GetCurrentThreads (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the number of threads currently in the pool.
 old-location: cos\ithreadpoolknobs_getcurrentthreads.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shdeprecated.IBrowserService4
-title: IBrowserService4
+title: IBrowserService4 (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService4.htm

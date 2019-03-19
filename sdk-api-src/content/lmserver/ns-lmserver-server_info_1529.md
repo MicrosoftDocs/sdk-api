@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1529
-title: SERVER_INFO_1529
+title: SERVER_INFO_1529 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1529 structure specifies the minimum number of free receive work items the server requires before it begins allocating more items.
 old-location: netmgmt\server_info_1529_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Warp
-title: GraphicsPath::Warp
+title: GraphicsPath::Warp (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::Warp method applies a warp transformation to this path. The GraphicsPath::Warp method also flattens (converts to a sequence of straight lines) the path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Warp_destPoints_count_srcRect_matrix_warpMode_flatness_.htm

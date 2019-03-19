@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.get_Count
-title: IUIAutomationProxyFactoryMapping::get_Count
+title: IUIAutomationProxyFactoryMapping::get_Count (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the number of entries in the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_Count.htm

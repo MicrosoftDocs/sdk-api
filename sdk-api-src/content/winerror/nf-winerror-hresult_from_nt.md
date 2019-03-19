@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.HRESULT_FROM_NT
-title: HRESULT_FROM_NT macro
+title: HRESULT_FROM_NT macro (winerror.h)
 author: windows-sdk-content
 description: Maps an NT status value to an HRESULT value.
 old-location: com\hresult_from_nt_macro.htm

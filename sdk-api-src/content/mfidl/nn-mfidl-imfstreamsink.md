@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFStreamSink
-title: IMFStreamSink
+title: IMFStreamSink (mfidl.h)
 author: windows-sdk-content
 description: Represents a stream on a media sink object.
 old-location: mf\imfstreamsink.htm

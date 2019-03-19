@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.DisableMcn
-title: IDiscRecorder2::DisableMcn
+title: IDiscRecorder2::DisableMcn (imapi2.h)
 author: windows-sdk-content
 description: Disables Media Change Notification (MCN) for the device.
 old-location: imapi\idiscrecorder2_disablemcn.htm

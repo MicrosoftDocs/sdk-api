@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.GetNames
-title: IWbemContext::GetNames
+title: IWbemContext::GetNames (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext::GetNames method returns a SAFEARRAY structure of all of the names of the named context values.
 old-location: wmi\iwbemcontext_getnames.htm

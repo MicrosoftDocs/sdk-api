@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IDataObjectProvider
-title: IDataObjectProvider
+title: IDataObjectProvider (shobjidl_core.h)
 author: windows-sdk-content
 description: Provides methods that enable you to set or retrieve a DataPackage object's IDataObject interface, which the DataPackage uses to support interoperability. The DataPackage object is used by an app to provide data to another app.
 old-location: shell\IDataObjectProvider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11Scan.SetScanDirection
-title: ID3DX11Scan::SetScanDirection
+title: ID3DX11Scan::SetScanDirection (d3dcsx.h)
 author: windows-sdk-content
 description: Sets which direction to perform scans in.
 old-location: direct3d11\id3dx11scan_setscandirection.htm

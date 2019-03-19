@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.RtwqCancelDeadline
-title: RtwqCancelDeadline function
+title: RtwqCancelDeadline function (rtworkq.h)
 author: windows-sdk-content
 description: Cancels a deadline that was previously set with RtwqSetDeadline.
 old-location: base\rtwqcanceldeadline.htm

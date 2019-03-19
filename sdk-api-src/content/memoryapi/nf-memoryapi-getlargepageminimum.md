@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.GetLargePageMinimum
-title: GetLargePageMinimum function
+title: GetLargePageMinimum function (memoryapi.h)
 author: windows-sdk-content
 description: Retrieves the minimum size of a large page.
 old-location: base\getlargepageminimum.htm

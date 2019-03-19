@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.GetRegistrationProperties
-title: IXAPO::GetRegistrationProperties
+title: IXAPO::GetRegistrationProperties (xapo.h)
 author: windows-sdk-content
 description: Returns the registration properties of an XAPO.
 old-location: xaudio2\ixapo_interface_getregistrationproperties.htm

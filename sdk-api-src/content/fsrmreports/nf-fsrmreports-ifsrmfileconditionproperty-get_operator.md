@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_Operator
-title: IFsrmFileConditionProperty::get_Operator
+title: IFsrmFileConditionProperty::get_Operator (fsrmreports.h)
 author: windows-sdk-content
 description: Specifies the comparison operator, as enumerated by the FsrmPropertyConditionType enumeration.
 old-location: fsrm\ifsrmfileconditionproperty_operator.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.put_SampleInterval
-title: IPerformanceCounterDataCollector::put_SampleInterval
+title: IPerformanceCounterDataCollector::put_SampleInterval (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the interval to wait between sampling counter data.
 old-location: pla\iperformancecounterdatacollector_sampleinterval.htm

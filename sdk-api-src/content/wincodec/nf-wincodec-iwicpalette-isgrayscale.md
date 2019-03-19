@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICPalette.IsGrayscale
-title: IWICPalette::IsGrayscale
+title: IWICPalette::IsGrayscale (wincodec.h)
 author: windows-sdk-content
 description: Retrieves a value that describes whether a palette is grayscale.
 old-location: wic\_wic_codec_iwicpalette_isgrayscale.htm

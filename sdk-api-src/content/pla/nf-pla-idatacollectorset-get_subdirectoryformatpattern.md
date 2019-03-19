@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SubdirectoryFormatPattern
-title: IDataCollectorSet::get_SubdirectoryFormatPattern
+title: IDataCollectorSet::get_SubdirectoryFormatPattern (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a format pattern to use when decorating the folder name.
 old-location: pla\idatacollectorset_get_subdirectoryformatpattern.htm

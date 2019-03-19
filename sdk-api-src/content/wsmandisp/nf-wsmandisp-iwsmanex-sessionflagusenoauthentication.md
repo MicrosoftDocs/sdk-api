@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseNoAuthentication
-title: IWSManEx::SessionFlagUseNoAuthentication
+title: IWSManEx::SessionFlagUseNoAuthentication (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseNoAuthentication for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenoauthentication.htm

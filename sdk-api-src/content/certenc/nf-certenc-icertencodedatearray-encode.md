@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Encode
-title: ICertEncodeDateArray::Encode
+title: ICertEncodeDateArray::Encode (certenc.h)
 author: windows-sdk-content
 description: Returns an Abstract Syntax Notation One (ASN.1)-encoded string of the date array stored in this object.
 old-location: security\icertencodedatearray_encode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.Item
-title: IShellWindows::Item
+title: IShellWindows::Item (exdisp.h)
 author: windows-sdk-content
 description: Returns the registered Shell window for a specified index.
 old-location: shell\IShellWindows_Item.htm

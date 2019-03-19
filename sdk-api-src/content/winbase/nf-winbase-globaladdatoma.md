@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalAddAtomA
-title: GlobalAddAtomA function
+title: GlobalAddAtomA function (winbase.h)
 author: windows-sdk-content
 description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.
 old-location: dataxchg\globaladdatom.htm

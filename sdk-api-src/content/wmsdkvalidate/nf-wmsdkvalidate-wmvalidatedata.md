@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkvalidate.WMValidateData
-title: WMValidateData function
+title: WMValidateData function (wmsdkvalidate.h)
 author: windows-sdk-content
 description: The WMValidateData function verifies that data from the beginning of a file is consistent with the header section of a file type that is supported by the Windows Media Format SDK.
 old-location: wmformat\wmvalidatedata.htm

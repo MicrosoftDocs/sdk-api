@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialVelocityX
-title: IInertiaProcessor::put_InitialVelocityX
+title: IInertiaProcessor::put_InitialVelocityX (manipulations.h)
 author: windows-sdk-content
 description: The InitialVelocityX property specifies the initial movement of the target object on the horizontal axis.
 old-location: wintouch\iinertiaprocessor_initialvelocityx.htm

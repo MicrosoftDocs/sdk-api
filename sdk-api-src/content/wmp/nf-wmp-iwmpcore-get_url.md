@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPCore.get_URL
-title: IWMPCore::get_URL
+title: IWMPCore::get_URL (wmp.h)
 author: windows-sdk-content
 description: The get_URL method retrieves the name of the clip to play.
 old-location: wmp\iwmpcore_get_url.htm

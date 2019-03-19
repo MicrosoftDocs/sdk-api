@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.SetState
-title: IAMVfwCompressDialogs::SetState
+title: IAMVfwCompressDialogs::SetState (strmif.h)
 author: windows-sdk-content
 description: The SetState method sets configuration for the VCM codec.
 old-location: dshow\iamvfwcompressdialogs_setstate.htm

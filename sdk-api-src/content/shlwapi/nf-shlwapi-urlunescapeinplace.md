@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlUnescapeInPlace
-title: UrlUnescapeInPlace macro
+title: UrlUnescapeInPlace macro (shlwapi.h)
 author: windows-sdk-content
 description: Converts escape sequences back into ordinary characters and overwrites the original string.
 old-location: shell\UrlUnescapeInPlace.htm

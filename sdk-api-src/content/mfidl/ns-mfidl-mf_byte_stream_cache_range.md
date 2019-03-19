@@ -1,6 +1,6 @@
 ---
 UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0058_0001
-title: MF_BYTE_STREAM_CACHE_RANGE
+title: MF_BYTE_STREAM_CACHE_RANGE (mfidl.h)
 author: windows-sdk-content
 description: Specifies a range of bytes.
 old-location: mf\mf_byte_stream_cache_range.htm

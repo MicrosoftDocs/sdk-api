@@ -1,6 +1,6 @@
 ---
 UID: NF:commdlg.GetOpenFileNameW
-title: GetOpenFileNameW function
+title: GetOpenFileNameW function (commdlg.h)
 author: windows-sdk-content
 description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
 old-location: dlgbox\getopenfilename.htm

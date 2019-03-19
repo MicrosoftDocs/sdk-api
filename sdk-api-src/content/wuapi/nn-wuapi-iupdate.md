@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IUpdate
-title: IUpdate
+title: IUpdate (wuapi.h)
 author: windows-sdk-content
 description: Contains the properties and methods that are available to an update.
 old-location: wua\iupdate.htm

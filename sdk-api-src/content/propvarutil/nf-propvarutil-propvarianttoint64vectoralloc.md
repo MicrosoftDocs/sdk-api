@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64VectorAlloc
-title: PropVariantToInt64VectorAlloc function
+title: PropVariantToInt64VectorAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated LONGLONG vector.
 old-location: properties\PropVariantToInt64VectorAlloc.htm

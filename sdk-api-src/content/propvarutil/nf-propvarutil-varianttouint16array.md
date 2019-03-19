@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToUInt16Array
-title: VariantToUInt16Array function
+title: VariantToUInt16Array function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a vector structure into an unsigned Int16 array.
 old-location: properties\VariantToUInt16Array.htm

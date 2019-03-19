@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMStreamTypeInfo
-title: WM_STREAM_TYPE_INFO
+title: WM_STREAM_TYPE_INFO (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_STREAM_TYPE_INFO structure is used as the data item for the WM/StreamTypeInfo complex metadata attribute. It stores the major type and the size of the associated format data.
 old-location: wmformat\wm_stream_type_info.htm

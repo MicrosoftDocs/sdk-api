@@ -1,6 +1,6 @@
 ---
 UID: NS:madcapcl._MCAST_LEASE_RESPONSE
-title: MCAST_LEASE_RESPONSE
+title: MCAST_LEASE_RESPONSE (madcapcl.h)
 author: windows-sdk-content
 description: The MCAST_LEASE_RESPONSE structure is used to respond to multicast lease requests.
 old-location: madcap\mcast_lease_response.htm

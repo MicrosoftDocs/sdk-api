@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationRule.put_ExecutionOption
-title: IFsrmClassificationRule::put_ExecutionOption
+title: IFsrmClassificationRule::put_ExecutionOption (fsrmpipeline.h)
 author: windows-sdk-content
 description: Determines how to apply the rule to the file.
 old-location: fsrm\ifsrmclassificationrule_executionoption.htm

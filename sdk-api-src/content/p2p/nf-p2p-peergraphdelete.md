@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphDelete
-title: PeerGraphDelete function
+title: PeerGraphDelete function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphDelete function deletes the data associated with a specified peer graph.
 old-location: p2p\peergraphdelete.htm

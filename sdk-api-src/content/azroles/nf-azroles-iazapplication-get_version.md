@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.get_Version
-title: IAzApplication::get_Version
+title: IAzApplication::get_Version (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the version of the application.
 old-location: security\iazapplication_version.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_Direction
-title: INetFwRule::put_Direction
+title: INetFwRule::put_Direction (netfw.h)
 author: windows-sdk-content
 description: Specifies the direction of traffic for which the rule applies.
 old-location: ics\inetfwrule_direction.htm

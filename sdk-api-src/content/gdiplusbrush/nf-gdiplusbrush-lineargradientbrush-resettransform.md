@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.ResetTransform
-title: LinearGradientBrush::ResetTransform
+title: LinearGradientBrush::ResetTransform (gdiplusbrush.h)
 author: windows-sdk-content
 description: The LinearGradientBrush::ResetTransform method resets the transformation matrix of this linear gradient brush to the identity matrix. This means that no transformation takes place.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_ResetTransform_.htm

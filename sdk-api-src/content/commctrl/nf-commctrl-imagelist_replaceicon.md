@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_ReplaceIcon
-title: ImageList_ReplaceIcon function
+title: ImageList_ReplaceIcon function (commctrl.h)
 author: windows-sdk-content
 description: Replaces an image with an icon or cursor.
 old-location: controls\ImageList_ReplaceIcon.htm

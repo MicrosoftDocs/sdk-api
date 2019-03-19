@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.InitializeDiscRecorder
-title: IDiscRecorder2::InitializeDiscRecorder
+title: IDiscRecorder2::InitializeDiscRecorder (imapi2.h)
 author: windows-sdk-content
 description: Associates the object with the specified disc device.
 old-location: imapi\idiscrecorder2_initializediscrecorder.htm

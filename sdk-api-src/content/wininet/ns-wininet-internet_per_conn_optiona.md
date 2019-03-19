@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_3
-title: INTERNET_PER_CONN_OPTIONA
+title: INTERNET_PER_CONN_OPTIONA (wininet.h)
 author: windows-sdk-content
 description: Contains the value of an option.
 old-location: wininet\internet_per_conn_option.htm

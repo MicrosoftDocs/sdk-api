@@ -1,6 +1,6 @@
 ---
 UID: NS:vdslun._VDS_LUN_INFORMATION
-title: VDS_LUN_INFORMATION
+title: VDS_LUN_INFORMATION (vdslun.h)
 author: windows-sdk-content
 description: Defines information about a LUN or disk. Applications can use this structure to uniquely identify a LUN at all times.
 old-location: base\vds_lun_information.htm

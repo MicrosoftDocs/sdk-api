@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SelectClipPath
-title: SelectClipPath function
+title: SelectClipPath function (wingdi.h)
 author: windows-sdk-content
 description: The SelectClipPath function selects the current path as a clipping region for a device context, combining the new region with any existing clipping region using the specified mode.
 old-location: gdi\selectclippath.htm

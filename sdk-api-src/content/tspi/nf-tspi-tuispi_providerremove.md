@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TUISPI_providerRemove
-title: TUISPI_providerRemove function
+title: TUISPI_providerRemove function (tspi.h)
 author: windows-sdk-content
 description: The TUISPI_providerRemove function asks the user to confirm elimination of the service provider. This function makes the TSPI_providerRemove function obsolete in version 2.0 and later (supported in version 1.4 and earlier).
 old-location: tspi\tuispi_providerremove.htm

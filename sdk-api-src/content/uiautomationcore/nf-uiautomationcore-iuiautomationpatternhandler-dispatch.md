@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternHandler.Dispatch
-title: IUIAutomationPatternHandler::Dispatch
+title: IUIAutomationPatternHandler::Dispatch (uiautomationcore.h)
 author: windows-sdk-content
 description: Dispatches a method or property getter to a custom control pattern provider.
 old-location: winauto\uiauto_IUIAutomationPatternHandler_Dispatch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.SetThreadLocale
-title: SetThreadLocale function
+title: SetThreadLocale function (winnls.h)
 author: windows-sdk-content
 description: Sets the current locale of the calling thread.
 old-location: intl\setthreadlocale.htm

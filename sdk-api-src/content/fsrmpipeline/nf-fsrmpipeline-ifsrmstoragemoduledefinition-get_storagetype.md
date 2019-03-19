@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.get_StorageType
-title: IFsrmStorageModuleDefinition::get_StorageType
+title: IFsrmStorageModuleDefinition::get_StorageType (fsrmpipeline.h)
 author: windows-sdk-content
 description: The type of storage that the storage module uses.
 old-location: fsrm\ifsrmstoragemoduledefinition_storagetype.htm

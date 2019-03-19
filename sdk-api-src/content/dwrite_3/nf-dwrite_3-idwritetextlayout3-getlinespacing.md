@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.GetLineSpacing
-title: IDWriteTextLayout3::GetLineSpacing
+title: IDWriteTextLayout3::GetLineSpacing (dwrite_3.h)
 author: windows-sdk-content
 description: Gets line spacing information.
 old-location: directwrite\idwritetextlayout3_getlinespacing.htm

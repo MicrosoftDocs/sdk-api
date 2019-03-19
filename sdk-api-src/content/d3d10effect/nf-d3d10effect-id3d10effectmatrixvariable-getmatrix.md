@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.GetMatrix
-title: ID3D10EffectMatrixVariable::GetMatrix
+title: ID3D10EffectMatrixVariable::GetMatrix (d3d10effect.h)
 author: windows-sdk-content
 description: Get a matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_getmatrix.htm

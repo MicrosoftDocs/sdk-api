@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSaveJob.EndSave
-title: IMFSaveJob::EndSave
+title: IMFSaveJob::EndSave (mfidl.h)
 author: windows-sdk-content
 description: Completes the operation started by IMFSaveJob::BeginSave.
 old-location: mf\imfsavejob_endsave.htm

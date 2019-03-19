@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Reset
-title: IEnumRegFilters::Reset
+title: IEnumRegFilters::Reset (strmif.h)
 author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. Resets the enumerator so that the next call to the IEnumRegFilters::Next method begins again at the first filter, if any.
 old-location: dshow\ienumregfilters_reset.htm

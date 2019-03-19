@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMAudioRendererStats
-title: IAMAudioRendererStats
+title: IAMAudioRendererStats (strmif.h)
 author: windows-sdk-content
 description: The IAMAudioRendererStats interface retrieves statistical performance information from an audio renderer filter.This interface is intended for use during development, to log performance data from the audio renderer.
 old-location: dshow\iamaudiorendererstats.htm

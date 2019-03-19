@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Hold
-title: ITBasicCallControl::Hold
+title: ITBasicCallControl::Hold (tapi3if.h)
 author: windows-sdk-content
 description: The Hold method places or removes the call from the hold.
 old-location: tapi3\itbasiccallcontrol_hold.htm

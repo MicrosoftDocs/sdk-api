@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.DeleteClusterGroupSet
-title: DeleteClusterGroupSet function
+title: DeleteClusterGroupSet function (clusapi.h)
 author: windows-sdk-content
 description: Deletes the specified groupset from the cluster.
 old-location: mscs\deleteclustergroupcollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetEndPoint
-title: IXpsOMLinearGradientBrush::SetEndPoint
+title: IXpsOMLinearGradientBrush::SetEndPoint (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the end point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_setendpoint.htm

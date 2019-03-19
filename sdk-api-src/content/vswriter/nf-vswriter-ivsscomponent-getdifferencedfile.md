@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDifferencedFile
-title: IVssComponent::GetDifferencedFile
+title: IVssComponent::GetDifferencedFile (vswriter.h)
 author: windows-sdk-content
 description: The GetDifferencedFile method returns information about a file set (a specified file or files) to participate in an incremental or differential backup or restore as a differenced file&#8212;that is, backup and restores associated with it are to be implemented as if entire files are copied to and from backup media (as opposed to using partial files).
 old-location: base\ivsscomponent_getdifferencedfile.htm

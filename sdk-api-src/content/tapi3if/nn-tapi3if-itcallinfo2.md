@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITCallInfo2
-title: ITCallInfo2
+title: ITCallInfo2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITCallInfo2 interface is an extension of the ITCallInfo interface. ITCallInfo2 provides additional methods that allow an application to set event filtering on a per-call basis.
 old-location: tapi3\itcallinfo2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0001
-title: VALID_UOP_FLAG
+title: VALID_UOP_FLAG (strmif.h)
 author: windows-sdk-content
 description: Indicates which user operation (UOP) commands are currently allowed by the DVD.
 old-location: dshow\valid_uop_flag.htm

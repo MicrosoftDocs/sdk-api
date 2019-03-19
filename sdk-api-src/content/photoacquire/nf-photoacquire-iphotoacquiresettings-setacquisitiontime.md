@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetAcquisitionTime
-title: IPhotoAcquireSettings::SetAcquisitionTime
+title: IPhotoAcquireSettings::SetAcquisitionTime (photoacquire.h)
 author: windows-sdk-content
 description: The SetAcquisitionTime method sets the acquisition time explicitly.
 old-location: picacq\iphotoacquiresettings_setacquisitiontime.htm

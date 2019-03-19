@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RequestAttrsTransitioningAtPosition
-title: ITextStoreACP2::RequestAttrsTransitioningAtPosition
+title: ITextStoreACP2::RequestAttrsTransitioningAtPosition (textstor.h)
 author: windows-sdk-content
 description: Gets text attributes transitioning at the specified character position.
 old-location: tsf\itextstoreacp2_requestattrstransitioningatposition.htm

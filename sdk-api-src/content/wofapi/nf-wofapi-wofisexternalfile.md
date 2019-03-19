@@ -1,6 +1,6 @@
 ---
 UID: NF:wofapi.WofIsExternalFile
-title: WofIsExternalFile function
+title: WofIsExternalFile function (wofapi.h)
 author: windows-sdk-content
 description: Used to determine if a file is being backed by a physical file or is backed by a system data provider, and optionally indicates which provider or additional data about the file.
 old-location: fs\wofisexternalfile.htm

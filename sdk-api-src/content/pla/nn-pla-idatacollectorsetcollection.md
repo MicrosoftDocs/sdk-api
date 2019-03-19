@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IDataCollectorSetCollection
-title: IDataCollectorSetCollection
+title: IDataCollectorSetCollection (pla.h)
 author: windows-sdk-content
 description: Manages a collection of DataCollectorSet objects.To get this interface, call the CoCreateInstance function, passing __uuidof(DataCollectorSetCollection) as the class identifier and __uuidof(IDataCollectorSetCollection) as the interface identifier.Then, to populate the collection, call the IDataCollectorSetCollection::GetDataCollectorSets method.
 old-location: pla\idatacollectorsetcollection.htm

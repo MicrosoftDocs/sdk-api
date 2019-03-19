@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetGammaControlCapabilities
-title: IDXGIOutput::GetGammaControlCapabilities
+title: IDXGIOutput::GetGammaControlCapabilities (dxgi.h)
 author: windows-sdk-content
 description: Gets a description of the gamma-control capabilities.
 old-location: direct3ddxgi\idxgioutput_getgammacontrolcapabilities.htm

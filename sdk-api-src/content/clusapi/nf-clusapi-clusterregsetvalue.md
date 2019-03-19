@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegSetValue
-title: ClusterRegSetValue function
+title: ClusterRegSetValue function (clusapi.h)
 author: windows-sdk-content
 description: Sets a value for a cluster database key.
 old-location: mscs\clusterregsetvalue.htm

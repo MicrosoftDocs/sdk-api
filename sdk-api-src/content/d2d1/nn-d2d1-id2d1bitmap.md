@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1Bitmap
-title: ID2D1Bitmap
+title: ID2D1Bitmap (d2d1.h)
 author: windows-sdk-content
 description: Represents a bitmap that has been bound to an ID2D1RenderTarget.
 old-location: direct2d\ID2D1Bitmap.htm

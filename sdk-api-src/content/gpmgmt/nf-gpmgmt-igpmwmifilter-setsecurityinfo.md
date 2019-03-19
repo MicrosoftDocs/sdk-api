@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.SetSecurityInfo
-title: IGPMWMIFilter::SetSecurityInfo
+title: IGPMWMIFilter::SetSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: Sets the list of permissions for the current WMI filter to that specified by the object.
 old-location: gpmc\igpmwmifilter_setsecurityinfo.htm

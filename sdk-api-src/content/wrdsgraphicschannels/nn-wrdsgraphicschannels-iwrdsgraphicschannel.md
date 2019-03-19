@@ -1,6 +1,6 @@
 ---
 UID: NN:wrdsgraphicschannels.IWRdsGraphicsChannel
-title: IWRdsGraphicsChannel
+title: IWRdsGraphicsChannel (wrdsgraphicschannels.h)
 author: windows-sdk-content
 description: This interface is used by the RemoteFX graphics services to send and receive data to a virtual graphics channel.
 old-location: termserv\iwrdsgraphicschannel.htm

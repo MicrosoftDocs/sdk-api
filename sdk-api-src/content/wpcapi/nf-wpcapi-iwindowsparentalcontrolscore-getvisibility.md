@@ -1,6 +1,6 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetVisibility
-title: IWindowsParentalControlsCore::GetVisibility
+title: IWindowsParentalControlsCore::GetVisibility (wpcapi.h)
 author: windows-sdk-content
 description: Indicates the visibility of the Parental Controls user interface.
 old-location: parcon\iwindowsparentalcontrols_getvisibility.htm

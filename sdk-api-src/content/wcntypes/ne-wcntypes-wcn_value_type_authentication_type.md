@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_AUTHENTICATION_TYPE
-title: WCN_VALUE_TYPE_AUTHENTICATION_TYPE
+title: WCN_VALUE_TYPE_AUTHENTICATION_TYPE (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration defines the authentication types supported by the Enrollee (access point or station).
 old-location: wcn\wcn_value_type_authentication_type.htm

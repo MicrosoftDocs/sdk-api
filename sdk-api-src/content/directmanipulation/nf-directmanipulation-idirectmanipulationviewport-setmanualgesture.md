@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetManualGesture
-title: IDirectManipulationViewport::SetManualGesture
+title: IDirectManipulationViewport::SetManualGesture (directmanipulation.h)
 author: windows-sdk-content
 description: Sets which gestures are ignored by Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationviewport_setmanualgesture.htm

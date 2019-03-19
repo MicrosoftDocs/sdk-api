@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.InitializeItemList
-title: IPhotoAcquireSource::InitializeItemList
+title: IPhotoAcquireSource::InitializeItemList (photoacquire.h)
 author: windows-sdk-content
 description: The InitializeItemList method enumerates transferable items on the device and passes each item to the optional progress callback, if it is supplied.
 old-location: picacq\iphotoacquiresource_initializeitemlist.htm

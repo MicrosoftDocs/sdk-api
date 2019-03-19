@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetConcatenatedTextW
-title: IDvbExtendedEventDescriptor::GetConcatenatedTextW
+title: IDvbExtendedEventDescriptor::GetConcatenatedTextW (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the concatenation of the text description in the current item with the text description in the next item (both in Unicode format) of a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getconcatenatedtextw.htm

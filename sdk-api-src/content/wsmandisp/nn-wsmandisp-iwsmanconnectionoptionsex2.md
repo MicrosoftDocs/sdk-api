@@ -1,6 +1,6 @@
 ---
 UID: NN:wsmandisp.IWSManConnectionOptionsEx2
-title: IWSManConnectionOptionsEx2
+title: IWSManConnectionOptionsEx2 (wsmandisp.h)
 author: windows-sdk-content
 description: The IWSManConnectionOptionsEx2 object is passed to the IWSMan::CreateSession method to provide the authentication mechanism, access type, and credentials to connect to a proxy server.
 old-location: winrm\iwsmanconnectionoptionsex2.htm

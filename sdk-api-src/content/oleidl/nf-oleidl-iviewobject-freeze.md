@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject.Freeze
-title: IViewObject::Freeze
+title: IViewObject::Freeze (oleidl.h)
 author: windows-sdk-content
 description: Freezes the drawn representation of an object so that it will not change until the IViewObject::Unfreeze method is called. The most common use of this method is for banded printing.
 old-location: com\iviewobject_freeze.htm

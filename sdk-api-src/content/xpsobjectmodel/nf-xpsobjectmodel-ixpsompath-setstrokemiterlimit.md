@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeMiterLimit
-title: IXpsOMPath::SetStrokeMiterLimit
+title: IXpsOMPath::SetStrokeMiterLimit (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the miter limit of the path.
 old-location: xps\ixpsompath_setstrokemiterlimit.htm

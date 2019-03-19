@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphSetProperties
-title: PeerGraphSetProperties function
+title: PeerGraphSetProperties function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphSetProperties function sets the peer graph properties.
 old-location: p2p\peergraphsetproperties.htm

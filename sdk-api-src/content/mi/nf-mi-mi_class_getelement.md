@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Class_GetElement
-title: MI_Class_GetElement function
+title: MI_Class_GetElement function (mi.h)
 author: windows-sdk-content
 description: Gets all details of a specified named element from a class.
 old-location: wmi_v2\mi_class_getelement.htm

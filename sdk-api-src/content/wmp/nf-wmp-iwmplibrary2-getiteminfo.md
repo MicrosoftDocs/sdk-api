@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrary2.getItemInfo
-title: IWMPLibrary2::getItemInfo
+title: IWMPLibrary2::getItemInfo (wmp.h)
 author: windows-sdk-content
 description: The getItemInfo method retrieves the value of the LibraryID attribute.
 old-location: wmp\iwmplibrary2_getiteminfo.htm

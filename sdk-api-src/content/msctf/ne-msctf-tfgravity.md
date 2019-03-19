@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL_ITfRange_0001
-title: TfGravity
+title: TfGravity (msctf.h)
 author: windows-sdk-content
 description: Elements of the TfGravity enumeration specify the type of gravity associated with the anchor of an ITfRange object.
 old-location: tsf\tfgravity.htm

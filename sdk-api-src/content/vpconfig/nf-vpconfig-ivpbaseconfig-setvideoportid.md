@@ -1,6 +1,6 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetVideoPortID
-title: IVPBaseConfig::SetVideoPortID
+title: IVPBaseConfig::SetVideoPortID (vpconfig.h)
 author: windows-sdk-content
 description: The SetVideoPortID method specifies the ID of the hardware video port to use.
 old-location: dshow\ivpbaseconfig_setvideoportid.htm

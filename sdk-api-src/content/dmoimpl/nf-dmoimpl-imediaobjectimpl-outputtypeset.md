@@ -1,6 +1,6 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.OutputTypeSet
-title: IMediaObjectImpl::OutputTypeSet
+title: IMediaObjectImpl::OutputTypeSet (dmoimpl.h)
 author: windows-sdk-content
 description: The OutputType method queries whether the media type was set on an output stream.
 old-location: dshow\imediaobjectimpl_outputtypeset.htm

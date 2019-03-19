@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller3.get_AttemptCloseAppsIfNecessary
-title: IUpdateInstaller3::get_AttemptCloseAppsIfNecessary
+title: IUpdateInstaller3::get_AttemptCloseAppsIfNecessary (wuapi.h)
 author: windows-sdk-content
 description: Gets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
 old-location: wua\iupdateinstaller3_get_attemptcloseappsifnecessary.htm

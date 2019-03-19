@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_0
-title: USER_MODALS_INFO_0
+title: USER_MODALS_INFO_0 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_MODALS_INFO_0 structure contains global password information for users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_0_str.htm

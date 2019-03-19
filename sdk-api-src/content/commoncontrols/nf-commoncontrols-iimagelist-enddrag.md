@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.EndDrag
-title: IImageList::EndDrag
+title: IImageList::EndDrag (commoncontrols.h)
 author: windows-sdk-content
 description: Ends a drag operation.
 old-location: controls\IImageList_EndDrag.htm

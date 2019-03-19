@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ITuningSpace.get_FrequencyMapping
-title: ITuningSpace::get_FrequencyMapping
+title: ITuningSpace::get_FrequencyMapping (tuner.h)
 author: windows-sdk-content
 description: The get_FrequencyMapping method retrieves the frequency mapping previously created by the network provider by a call to put_FrequencyMapping.
 old-location: mstv\ituningspace_get_frequencymapping.htm

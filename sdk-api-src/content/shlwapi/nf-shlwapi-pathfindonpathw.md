@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathFindOnPathW
-title: PathFindOnPathW function
+title: PathFindOnPathW function (shlwapi.h)
 author: windows-sdk-content
 description: Searches for a file.
 old-location: shell\PathFindOnPath.htm

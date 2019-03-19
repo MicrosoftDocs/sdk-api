@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.put_Step
-title: IAnalogRadioTuningSpace::put_Step
+title: IAnalogRadioTuningSpace::put_Step (tuner.h)
 author: windows-sdk-content
 description: The put_Step method sets the step value to the next frequency.
 old-location: mstv\ianalogradiotuningspace_put_step.htm

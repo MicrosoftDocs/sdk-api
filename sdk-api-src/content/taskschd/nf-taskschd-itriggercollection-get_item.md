@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.get_Item
-title: ITriggerCollection::get_Item
+title: ITriggerCollection::get_Item (taskschd.h)
 author: windows-sdk-content
 description: Gets the specified trigger from the collection.
 old-location: taskschd\itriggercollection_item.htm

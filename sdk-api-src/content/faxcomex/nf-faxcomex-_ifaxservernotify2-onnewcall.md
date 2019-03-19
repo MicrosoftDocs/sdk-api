@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnNewCall
-title: "_IFaxServerNotify2::OnNewCall"
+title: "_IFaxServerNotify2::OnNewCall" (faxcomex.h)
 author: windows-sdk-content
 description: The fax service calls the IFaxServerNotify2::OnNewCall method when there is a new incoming fax call.
 old-location: fax\_mfax_ifaxservernotify2_onnewcall.htm

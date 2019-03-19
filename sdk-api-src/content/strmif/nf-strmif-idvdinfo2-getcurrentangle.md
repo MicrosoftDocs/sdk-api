@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentAngle
-title: IDvdInfo2::GetCurrentAngle
+title: IDvdInfo2::GetCurrentAngle (strmif.h)
 author: windows-sdk-content
 description: The GetCurrentAngle method retrieves the number of available angles in the current angle block and the currently selected angle number.
 old-location: dshow\idvdinfo2_getcurrentangle.htm

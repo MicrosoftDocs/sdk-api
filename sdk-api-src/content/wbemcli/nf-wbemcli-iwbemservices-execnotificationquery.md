@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecNotificationQuery
-title: IWbemServices::ExecNotificationQuery
+title: IWbemServices::ExecNotificationQuery (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::ExecNotificationQuery method executes a query to receive events. The call returns immediately, and the user can poll the returned enumerator for events as they arrive. Releasing the returned enumerator cancels the query.
 old-location: wmi\iwbemservices_execnotificationquery.htm

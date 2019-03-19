@@ -1,6 +1,6 @@
 ---
 UID: NS:textstor.TS_STATUS
-title: TS_STATUS
+title: TS_STATUS (textstor.h)
 author: windows-sdk-content
 description: The TS_STATUS structure contains document status data.
 old-location: tsf\ts_status.htm

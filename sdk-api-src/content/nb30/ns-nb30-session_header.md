@@ -1,6 +1,6 @@
 ---
 UID: NS:nb30._SESSION_HEADER
-title: SESSION_HEADER
+title: SESSION_HEADER (nb30.h)
 author: windows-sdk-content
 description: The SESSION_HEADER structure contains information about a network session.
 old-location: netbios\session_header.htm

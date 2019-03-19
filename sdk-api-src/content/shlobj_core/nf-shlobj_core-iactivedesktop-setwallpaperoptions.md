@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetWallpaperOptions
-title: IActiveDesktop::SetWallpaperOptions
+title: IActiveDesktop::SetWallpaperOptions (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the wallpaper options.
 old-location: lwef\iactivedesktop_setwallpaperoptions.htm

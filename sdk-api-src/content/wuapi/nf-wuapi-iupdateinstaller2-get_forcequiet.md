@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller2.get_ForceQuiet
-title: IUpdateInstaller2::get_ForceQuiet
+title: IUpdateInstaller2::get_ForceQuiet (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether Windows Installer is forced to install the updates without user interaction.
 old-location: wua\iupdateinstaller2_forcequiet.htm

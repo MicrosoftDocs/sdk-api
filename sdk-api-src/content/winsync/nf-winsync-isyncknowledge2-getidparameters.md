@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetIdParameters
-title: ISyncKnowledge2::GetIdParameters
+title: ISyncKnowledge2::GetIdParameters (winsync.h)
 author: windows-sdk-content
 description: Gets the ID format schema of the provider.
 old-location: winsync\isyncknowledge2_getidparameters.htm

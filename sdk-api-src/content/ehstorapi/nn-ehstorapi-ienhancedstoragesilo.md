@@ -1,6 +1,6 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageSilo
-title: IEnhancedStorageSilo
+title: IEnhancedStorageSilo (ehstorapi.h)
 author: windows-sdk-content
 description: IEnhancedStorageSilo interface is the point of access for an IEEE 1667 silo and is used to obtain information and perform operations at the silo level.
 old-location: enstor\ienhancedstoragesilo.htm

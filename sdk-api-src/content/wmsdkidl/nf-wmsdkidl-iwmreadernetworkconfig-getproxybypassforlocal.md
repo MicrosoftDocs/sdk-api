@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyBypassForLocal
-title: IWMReaderNetworkConfig::GetProxyBypassForLocal
+title: IWMReaderNetworkConfig::GetProxyBypassForLocal (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetProxyBypassForLocal method queries whether the reader object bypasses the proxy server for local URLs.
 old-location: wmformat\iwmreadernetworkconfig_getproxybypassforlocal.htm

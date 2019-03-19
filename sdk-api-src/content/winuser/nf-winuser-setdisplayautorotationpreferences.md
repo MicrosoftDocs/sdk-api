@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetDisplayAutoRotationPreferences
-title: SetDisplayAutoRotationPreferences function
+title: SetDisplayAutoRotationPreferences function (winuser.h)
 author: windows-sdk-content
 description: Sets the screen auto-rotation preferences for the current process.
 old-location: base\setdisplayautorotationpreferences.htm

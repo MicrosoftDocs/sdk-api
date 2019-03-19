@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchProtocol.Init
-title: ISearchProtocol::Init
+title: ISearchProtocol::Init (searchapi.h)
 author: windows-sdk-content
 description: Initializes a protocol handler.
 old-location: search\_search_ISearchProtocol_Init.htm

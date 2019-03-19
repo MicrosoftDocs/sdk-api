@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferMediaSeeking2.SetRateEx
-title: IStreamBufferMediaSeeking2::SetRateEx
+title: IStreamBufferMediaSeeking2::SetRateEx (sbe.h)
 author: windows-sdk-content
 description: "."
 old-location: mstv\istreambuffermediaseeking2_setrateex.htm

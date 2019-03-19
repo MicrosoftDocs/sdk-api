@@ -1,6 +1,6 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_SNAPPOINT_COORDINATE
-title: DIRECTMANIPULATION_SNAPPOINT_COORDINATE
+title: DIRECTMANIPULATION_SNAPPOINT_COORDINATE (directmanipulation.h)
 author: windows-sdk-content
 description: Defines the coordinate system for a collection of snap points.
 old-location: directmanipulation\directmanipulation_snappoint_coordinate.htm

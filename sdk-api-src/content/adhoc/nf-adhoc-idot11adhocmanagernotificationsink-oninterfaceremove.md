@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocManagerNotificationSink.OnInterfaceRemove
-title: IDot11AdHocManagerNotificationSink::OnInterfaceRemove
+title: IDot11AdHocManagerNotificationSink::OnInterfaceRemove (adhoc.h)
 author: windows-sdk-content
 description: Notifies the client that a network interface card (NIC) has become inactive.
 old-location: nwifi\idot11adhocmanagernotificationsink_oninterfaceremove.htm

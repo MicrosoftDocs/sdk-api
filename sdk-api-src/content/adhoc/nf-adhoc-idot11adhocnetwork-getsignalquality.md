@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSignalQuality
-title: IDot11AdHocNetwork::GetSignalQuality
+title: IDot11AdHocNetwork::GetSignalQuality (adhoc.h)
 author: windows-sdk-content
 description: Gets the signal quality values associated with the network's radio.
 old-location: nwifi\idot11adhocnetwork_getsignalquality.htm

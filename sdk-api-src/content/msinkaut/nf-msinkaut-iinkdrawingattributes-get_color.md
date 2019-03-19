@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.get_Color
-title: IInkDrawingAttributes::get_Color
+title: IInkDrawingAttributes::get_Color (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the color of the ink that is drawn with this InkDrawingAttributes object.
 old-location: tablet\inkdrawingattributes_color.htm

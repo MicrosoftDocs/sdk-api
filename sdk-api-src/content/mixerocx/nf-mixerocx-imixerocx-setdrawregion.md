@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.SetDrawRegion
-title: IMixerOCX::SetDrawRegion
+title: IMixerOCX::SetDrawRegion (mixerocx.h)
 author: windows-sdk-content
 description: The SetDrawRegion method specifies the location and dimensions of the video and clipping rectangles in screen coordinates.
 old-location: dshow\imixerocx_setdrawregion.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpConnect
-title: WinHttpConnect function
+title: WinHttpConnect function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpConnect function specifies the initial target server of an HTTP request and returns an HINTERNET connection handle to an HTTP session for that initial target.
 old-location: http\winhttpconnect.htm

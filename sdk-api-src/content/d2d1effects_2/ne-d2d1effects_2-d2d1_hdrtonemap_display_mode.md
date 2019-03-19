@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HDRTONEMAP_DISPLAY_MODE
-title: D2D1_HDRTONEMAP_DISPLAY_MODE
+title: D2D1_HDRTONEMAP_DISPLAY_MODE (d2d1effects_2.h)
 author: windows-sdk-content
 description: Defines constants that specify a value for the D2D1_HDRTONEMAP_PROP_DISPLAY_MODE property of the HDR Tone Map effect.
 old-location: direct2d\d2d1_hdrtonemap_display_mode.htm

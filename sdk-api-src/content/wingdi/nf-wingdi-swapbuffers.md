@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SwapBuffers
-title: SwapBuffers function
+title: SwapBuffers function (wingdi.h)
 author: windows-sdk-content
 description: The SwapBuffers function exchanges the front and back buffers if the current pixel format for the window referenced by the specified device context includes a back buffer.
 old-location: opengl\swapbuffers.htm

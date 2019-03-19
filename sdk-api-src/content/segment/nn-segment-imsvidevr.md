@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidEVR
-title: IMSVidEVR
+title: IMSVidEVR (segment.h)
 author: windows-sdk-content
 description: The IMSVidEVR interface represents the Enhanced Video Renderer (EVR) filter within the Video Control filter graph.
 old-location: mstv\imsvidevr.htm

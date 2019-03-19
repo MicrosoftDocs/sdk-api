@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRealTimeClient.SetWorkQueue
-title: IMFRealTimeClient::SetWorkQueue
+title: IMFRealTimeClient::SetWorkQueue (mfidl.h)
 author: windows-sdk-content
 description: Specifies the work queue for the topology branch that contains this object.
 old-location: mf\imfrealtimeclient_setworkqueue.htm

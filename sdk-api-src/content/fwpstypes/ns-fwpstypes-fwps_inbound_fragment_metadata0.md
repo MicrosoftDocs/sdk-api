@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_INBOUND_FRAGMENT_METADATA0_
-title: FWPS_INBOUND_FRAGMENT_METADATA0
+title: FWPS_INBOUND_FRAGMENT_METADATA0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_INBOUND_FRAGMENT_METADATA0 structure describes the fragment data for a received packet fragment.Note  FWPS_INBOUND_FRAGMENT_METADATA0 is a specific version of FWPS_INBOUND_FRAGMENT_METADATA.
 old-location: netvista\fwps_inbound_fragment_metadata0.htm

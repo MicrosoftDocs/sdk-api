@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProvider.InstancePropertyStoreValidateAccess
-title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess
+title: IFunctionDiscoveryProvider::InstancePropertyStoreValidateAccess (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: Verifies that the provider supports the requested access.
 old-location: ncd\ifunctiondiscoveryprovider_instancepropertystorevalidateaccess.htm

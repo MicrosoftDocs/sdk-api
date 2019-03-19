@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.GetAttributesOf
-title: IShellFolder::GetAttributesOf
+title: IShellFolder::GetAttributesOf (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the attributes of one or more file or folder objects contained in the object represented by IShellFolder.
 old-location: shell\IShellFolder_GetAttributesOf.htm

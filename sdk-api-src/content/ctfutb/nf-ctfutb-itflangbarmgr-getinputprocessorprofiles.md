@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetInputProcessorProfiles
-title: ITfLangBarMgr::GetInputProcessorProfiles
+title: ITfLangBarMgr::GetInputProcessorProfiles (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarMgr::GetInputProcessorProfiles method
 old-location: tsf\itflangbarmgr_getinputprocessorprofiles.htm

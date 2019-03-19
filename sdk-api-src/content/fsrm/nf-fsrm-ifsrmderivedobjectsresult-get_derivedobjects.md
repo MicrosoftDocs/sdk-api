@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmDerivedObjectsResult.get_DerivedObjects
-title: IFsrmDerivedObjectsResult::get_DerivedObjects
+title: IFsrmDerivedObjectsResult::get_DerivedObjects (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the collection of derived objects that were updated.
 old-location: fsrm\ifsrmderivedobjectsresult_derivedobjects.htm

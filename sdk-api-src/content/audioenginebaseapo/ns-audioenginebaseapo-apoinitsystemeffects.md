@@ -1,6 +1,6 @@
 ---
 UID: NS:audioenginebaseapo.APOInitSystemEffects
-title: APOInitSystemEffects
+title: APOInitSystemEffects (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The APOInitSystemEffects structure gets passed to the system effects APO for initialization.
 old-location: audio\apoinitsystemeffects.htm

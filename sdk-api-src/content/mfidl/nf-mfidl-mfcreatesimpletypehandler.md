@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSimpleTypeHandler
-title: MFCreateSimpleTypeHandler function
+title: MFCreateSimpleTypeHandler function (mfidl.h)
 author: windows-sdk-content
 description: Creates a media-type handler that supports a single media type at a time.
 old-location: mf\mfcreatesimpletypehandler.htm

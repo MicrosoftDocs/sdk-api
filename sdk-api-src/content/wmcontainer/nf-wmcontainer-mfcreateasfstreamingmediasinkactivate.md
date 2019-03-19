@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamingMediaSinkActivate
-title: MFCreateASFStreamingMediaSinkActivate function
+title: MFCreateASFStreamingMediaSinkActivate function (wmcontainer.h)
 author: windows-sdk-content
 description: Creates an activation object for the ASF streaming sink.
 old-location: mf\mfcreateasfstreamingmediasinkactivate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderPropertyConstraintCollection
-title: IProviderPropertyConstraintCollection
+title: IProviderPropertyConstraintCollection (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: This interface is accessible to the provider through IFunctionDiscoveryProviderQuery::GetPropertyConstraints.
 old-location: ncd\iproviderpropertyconstraintcollection.htm

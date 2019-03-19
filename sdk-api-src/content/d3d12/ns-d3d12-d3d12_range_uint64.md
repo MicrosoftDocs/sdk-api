@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_RANGE_UINT64
-title: D3D12_RANGE_UINT64
+title: D3D12_RANGE_UINT64 (d3d12.h)
 author: windows-sdk-content
 description: Describes a memory range in a 64-bit address space.
 old-location: direct3d12\d3d12_range_uint64.htm

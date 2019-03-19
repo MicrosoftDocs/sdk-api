@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsGroup
-title: IADsGroup
+title: IADsGroup (iads.h)
 author: windows-sdk-content
 description: Manages group membership data in a directory service.
 old-location: adsi\iadsgroup.htm

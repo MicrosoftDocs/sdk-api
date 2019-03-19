@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutCacheDrumPatches
-title: midiOutCacheDrumPatches function
+title: midiOutCacheDrumPatches function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutCacheDrumPatches function requests that an internal MIDI synthesizer device preload and cache a specified set of key-based percussion patches.
 old-location: multimedia\midioutcachedrumpatches.htm

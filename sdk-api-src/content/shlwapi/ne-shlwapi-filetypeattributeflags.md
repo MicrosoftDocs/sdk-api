@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_10
-title: FILETYPEATTRIBUTEFLAGS
+title: FILETYPEATTRIBUTEFLAGS (shlwapi.h)
 author: windows-sdk-content
 description: Indicates FILETYPEATTRIBUTEFLAGS constants that are used in the EditFlags value of a file association PROGID registry key.
 old-location: shell\FILETYPEATTRIBUTEFLAGS.htm

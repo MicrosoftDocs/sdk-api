@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_ShowDropdown
-title: ComboBox_ShowDropdown macro
+title: ComboBox_ShowDropdown macro (windowsx.h)
 author: windows-sdk-content
 description: Shows or hides the list in a combo box. You can use this macro or send the CB_SHOWDROPDOWN message explicitly.
 old-location: controls\ComboBox_ShowDropdown.htm

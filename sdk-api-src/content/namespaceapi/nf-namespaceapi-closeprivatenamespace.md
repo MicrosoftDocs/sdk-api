@@ -1,6 +1,6 @@
 ---
 UID: NF:namespaceapi.ClosePrivateNamespace
-title: ClosePrivateNamespace function
+title: ClosePrivateNamespace function (namespaceapi.h)
 author: windows-sdk-content
 description: Closes an open namespace handle.
 old-location: base\closeprivatenamespace.htm

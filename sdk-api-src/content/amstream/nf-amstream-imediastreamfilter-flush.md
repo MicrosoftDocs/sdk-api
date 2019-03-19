@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.Flush
-title: IMediaStreamFilter::Flush
+title: IMediaStreamFilter::Flush (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Flush method notifies the filter that one of its pins has flushed data. The filter's input pins call this method.
 old-location: dshow\imediastreamfilter_flush.htm

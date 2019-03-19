@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_USAGE
-title: D3D11_USAGE
+title: D3D11_USAGE (d3d11.h)
 author: windows-sdk-content
 description: Identifies expected resource use during rendering. The usage directly reflects whether a resource is accessible by the CPU and/or the graphics processing unit (GPU).
 old-location: direct3d11\d3d11_usage.htm

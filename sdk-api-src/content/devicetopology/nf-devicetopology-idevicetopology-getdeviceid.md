@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetDeviceId
-title: IDeviceTopology::GetDeviceId
+title: IDeviceTopology::GetDeviceId (devicetopology.h)
 author: windows-sdk-content
 description: The GetDeviceId method gets the device identifier of the device that is represented by the device-topology object.
 old-location: coreaudio\idevicetopology_getdeviceid.htm

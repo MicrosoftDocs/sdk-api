@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMT_TIMECODE_EXTENSION_DATA
-title: WMT_TIMECODE_EXTENSION_DATA
+title: WMT_TIMECODE_EXTENSION_DATA (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_TIMECODE_EXTENSION_DATA structure contains information needed for a single SMPTE time code sample extension. One of these structures will be attached to every video frame that requires a SMPTE time code.
 old-location: wmformat\wmt_timecode_extension_data.htm

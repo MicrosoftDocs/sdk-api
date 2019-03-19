@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManagerEvents.OnConnectionRemoval
-title: IMbnConnectionManagerEvents::OnConnectionRemoval
+title: IMbnConnectionManagerEvents::OnConnectionRemoval (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates a connection was removed from the system.
 old-location: mbn\imbnconnectionmanagerevents_onconnectionremoval.htm

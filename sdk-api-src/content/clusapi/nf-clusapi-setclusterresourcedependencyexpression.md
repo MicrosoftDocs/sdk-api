@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.SetClusterResourceDependencyExpression
-title: SetClusterResourceDependencyExpression function
+title: SetClusterResourceDependencyExpression function (clusapi.h)
 author: windows-sdk-content
 description: Specifies the dependency expression to be associated with the resource referred to by hResource. Any existing dependency relationships for the resource will be overwritten.
 old-location: mscs\setclusterresourcedependencyexpression.htm

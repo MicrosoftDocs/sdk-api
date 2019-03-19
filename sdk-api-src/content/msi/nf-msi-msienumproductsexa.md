@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiEnumProductsExA
-title: MsiEnumProductsExA function
+title: MsiEnumProductsExA function (msi.h)
 author: windows-sdk-content
 description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.
 old-location: setup\msienumproductsex.htm

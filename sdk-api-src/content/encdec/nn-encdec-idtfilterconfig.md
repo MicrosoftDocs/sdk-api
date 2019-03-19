@@ -1,6 +1,6 @@
 ---
 UID: NN:encdec.IDTFilterConfig
-title: IDTFilterConfig
+title: IDTFilterConfig (encdec.h)
 author: windows-sdk-content
 description: The IDTFilterConfig interface configures the Decrypter/Detagger filter. Most applications will not have to use this interface.
 old-location: mstv\idtfilterconfig.htm

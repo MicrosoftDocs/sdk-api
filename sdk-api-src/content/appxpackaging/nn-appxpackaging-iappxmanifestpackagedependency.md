@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageDependency
-title: IAppxManifestPackageDependency
+title: IAppxManifestPackageDependency (appxpackaging.h)
 author: windows-sdk-content
 description: Describes the dependency of one package on another package.
 old-location: appxpkg\iappxmanifestpackagedependency.htm

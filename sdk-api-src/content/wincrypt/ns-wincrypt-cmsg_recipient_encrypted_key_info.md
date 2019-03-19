@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
-title: CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
+title: CMSG_RECIPIENT_ENCRYPTED_KEY_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure contains information used for an individual key agreement recipient.
 old-location: security\cmsg_recipient_encrypted_key_info.htm

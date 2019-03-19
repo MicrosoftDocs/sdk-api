@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_ATTACH_FN
-title: PIBIO_SENSOR_ATTACH_FN
+title: PIBIO_SENSOR_ATTACH_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Adds a sensor adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\sensoradapterattach.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTBRESTORE
-title: NMTBRESTORE
+title: NMTBRESTORE (commctrl.h)
 author: windows-sdk-content
 description: Allows applications to extract the information that was placed in NMTBSAVE when the toolbar state was saved. This structure is passed to applications when they receive a TBN_RESTORE notification code.
 old-location: controls\NMTBRESTORE.htm

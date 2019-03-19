@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.ICreateWithTipTransactionEx
-title: ICreateWithTipTransactionEx
+title: ICreateWithTipTransactionEx (comsvcs.h)
 author: windows-sdk-content
 description: Creates an object that is enlisted within a manual transaction using the Transaction Internet Protocol (TIP).
 old-location: cos\icreatewithtiptransactionex.htm

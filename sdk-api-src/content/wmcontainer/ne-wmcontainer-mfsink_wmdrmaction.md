@@ -1,6 +1,6 @@
 ---
 UID: NE:wmcontainer._MFSINK_WMDRMACTION
-title: MFSINK_WMDRMACTION
+title: MFSINK_WMDRMACTION (wmcontainer.h)
 author: windows-sdk-content
 description: Specifies how the ASF file sink should apply Windows Media DRM.
 old-location: mf\mfsink_wmdrmaction.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wabdefs.IMAPITable
-title: IMAPITable
+title: IMAPITable (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. This interface is used for content tables of Windows Address Book (WAB) containers and distribution lists.
 old-location: wab\_wab_IMAPITable.htm

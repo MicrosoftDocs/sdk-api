@@ -1,6 +1,6 @@
 ---
 UID: NE:eapmethodtypes.tagEapCode
-title: EapCode
+title: EapCode (eapmethodtypes.h)
 author: windows-sdk-content
 description: Defines the set of EAP packet types.
 old-location: eaphost\eapcode.htm

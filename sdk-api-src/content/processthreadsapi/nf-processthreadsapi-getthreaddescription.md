@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetThreadDescription
-title: GetThreadDescription function
+title: GetThreadDescription function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the description that was assigned to a thread by calling SetThreadDescription.
 old-location: base\getthreaddescription.htm

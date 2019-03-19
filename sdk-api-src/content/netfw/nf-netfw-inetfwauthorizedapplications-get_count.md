@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.get_Count
-title: INetFwAuthorizedApplications::get_Count
+title: INetFwAuthorizedApplications::get_Count (netfw.h)
 author: windows-sdk-content
 description: Specifies the number of items in the collection.
 old-location: ics\count_property_of_inetfwauthorizedapplications_count.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.get_ApplicationName
-title: INetFwRule::get_ApplicationName
+title: INetFwRule::get_ApplicationName (netfw.h)
 author: windows-sdk-content
 description: Specifies the friendly name of the application to which this rule applies.
 old-location: ics\inetfwrule_applicationname.htm

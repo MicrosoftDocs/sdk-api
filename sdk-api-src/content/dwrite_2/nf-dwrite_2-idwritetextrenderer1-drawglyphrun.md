@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextRenderer1.DrawGlyphRun
-title: IDWriteTextRenderer1::DrawGlyphRun
+title: IDWriteTextRenderer1::DrawGlyphRun (dwrite_2.h)
 author: windows-sdk-content
 description: IDWriteTextLayout::Draw calls this function to instruct the client to render a run of glyphs.
 old-location: directwrite\idwritetextrenderer1_drawglyphrun.htm

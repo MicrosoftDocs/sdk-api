@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_SecurityDescriptor
-title: IX509PrivateKey::get_SecurityDescriptor
+title: IX509PrivateKey::get_SecurityDescriptor (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves the security descriptor for the private key.
 old-location: security\ix509privatekey_securitydescriptor_property.htm

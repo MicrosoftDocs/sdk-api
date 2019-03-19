@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_AudioRendererActive
-title: IMSVidCtl::get_AudioRendererActive
+title: IMSVidCtl::get_AudioRendererActive (msvidctl.h)
 author: windows-sdk-content
 description: The get_AudioRendererActive method retrieves the audio renderer that is currently active.
 old-location: mstv\imsvidctl_get_audiorendereractive.htm

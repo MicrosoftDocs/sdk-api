@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_ConditionalAccess
-title: IBDA_ConditionalAccess
+title: IBDA_ConditionalAccess (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_ConditionalAccess interface provides conditional access to program content.
 old-location: mstv\ibda_conditionalaccess.htm

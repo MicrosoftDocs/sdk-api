@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetOutputFormat
-title: IAMWstDecoder::GetOutputFormat
+title: IAMWstDecoder::GetOutputFormat (iwstdec.h)
 author: windows-sdk-content
 description: Downstream filters use the GetOutputFormat method to retrieve the size, bit depth, and other parameters of the output video.
 old-location: dshow\iamwstdecoder_getoutputformat.htm

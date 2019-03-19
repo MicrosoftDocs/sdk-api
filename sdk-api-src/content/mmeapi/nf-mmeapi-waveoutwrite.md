@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutWrite
-title: waveOutWrite function
+title: waveOutWrite function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutWrite function sends a data block to the given waveform-audio output device.
 old-location: multimedia\waveoutwrite.htm

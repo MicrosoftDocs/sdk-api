@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.EnableTimeUpdateTimer
-title: IMFMediaEngineEx::EnableTimeUpdateTimer
+title: IMFMediaEngineEx::EnableTimeUpdateTimer (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables or disables the time update timer.
 old-location: mf\imfmediaengineex_enabletimeupdatetimer.htm

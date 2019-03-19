@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetGetJoinableOUs
-title: NetGetJoinableOUs function
+title: NetGetJoinableOUs function (lmjoin.h)
 author: windows-sdk-content
 description: The NetGetJoinableOUs function retrieves a list of organizational units (OUs) in which a computer account can be created.
 old-location: netmgmt\netgetjoinableous.htm

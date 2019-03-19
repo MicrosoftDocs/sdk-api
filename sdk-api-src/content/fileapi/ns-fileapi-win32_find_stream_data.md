@@ -1,6 +1,6 @@
 ---
 UID: NS:fileapi._WIN32_FIND_STREAM_DATA
-title: WIN32_FIND_STREAM_DATA
+title: WIN32_FIND_STREAM_DATA (fileapi.h)
 author: windows-sdk-content
 description: Contains information about the stream found by the FindFirstStreamW or FindNextStreamW function.
 old-location: fs\win32_find_stream_data_str.htm

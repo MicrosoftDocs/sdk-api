@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.ReadBuffer
-title: IRDPSRAPITransportStream::ReadBuffer
+title: IRDPSRAPITransportStream::ReadBuffer (rdpencomapi.h)
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to read the contents of a stream buffer.
 old-location: rdp\irdpsrapitransportstream_readbuffer.htm

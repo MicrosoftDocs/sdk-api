@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegConnectRegistryW
-title: RegConnectRegistryW function
+title: RegConnectRegistryW function (winreg.h)
 author: windows-sdk-content
 description: Establishes a connection to a predefined registry key on another computer.
 old-location: base\regconnectregistry.htm

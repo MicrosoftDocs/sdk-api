@@ -1,6 +1,6 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Value
-title: IGuideDataProperty::get_Value
+title: IGuideDataProperty::get_Value (bdatif.h)
 author: windows-sdk-content
 description: The get_Value method retrieves the value associated with the property.
 old-location: mstv\iguidedataproperty_get_value.htm

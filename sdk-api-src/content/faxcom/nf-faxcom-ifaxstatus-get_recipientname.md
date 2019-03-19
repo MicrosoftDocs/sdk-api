@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_RecipientName
-title: IFaxStatus::get_RecipientName
+title: IFaxStatus::get_RecipientName (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the RecipientName property for a FaxStatus object. The RecipientName property is a null-terminated string that contains the name of the recipient of an inbound fax transmission.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_recipientname_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.ActivateProfile
-title: ITfInputProcessorProfileMgr::ActivateProfile
+title: ITfInputProcessorProfileMgr::ActivateProfile (msctf.h)
 author: windows-sdk-content
 description: The ITfInputProcessorProfileMgr::ActivateProfile method activates the specified text service's profile or keyboard layout.
 old-location: tsf\itfinputprocessorprofilemgr_activateprofile.htm

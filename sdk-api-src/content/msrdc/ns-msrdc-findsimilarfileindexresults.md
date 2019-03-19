@@ -1,6 +1,6 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0013
-title: FindSimilarFileIndexResults
+title: FindSimilarFileIndexResults (msrdc.h)
 author: windows-sdk-content
 description: Contains the file index information that the ISimilarityTraitsTable::FindSimilarFileIndex method returned for a matching file.
 old-location: rdc\findsimilarfileindexresults.htm

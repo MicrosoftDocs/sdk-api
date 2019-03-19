@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_BIOMETRIC_DATA
-title: CERT_BIOMETRIC_DATA
+title: CERT_BIOMETRIC_DATA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about biometric data.
 old-location: security\cert_biometric_data.htm

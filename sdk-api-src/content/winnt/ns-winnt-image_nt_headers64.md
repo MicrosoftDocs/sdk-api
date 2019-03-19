@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_NT_HEADERS64
-title: IMAGE_NT_HEADERS64
+title: IMAGE_NT_HEADERS64 (winnt.h)
 author: windows-sdk-content
 description: Represents the PE header format.
 old-location: base\image_nt_headers_str.htm

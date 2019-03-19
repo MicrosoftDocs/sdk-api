@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILNext
-title: ILNext function
+title: ILNext function (shlobj_core.h)
 author: windows-sdk-content
 description: Retrieves the next SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILNext_PCUIDLIST_RELATIVE.htm

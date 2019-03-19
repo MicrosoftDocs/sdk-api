@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VariantTimeToDosDateTime
-title: VariantTimeToDosDateTime function
+title: VariantTimeToDosDateTime function (oleauto.h)
 author: windows-sdk-content
 description: Converts the variant representation of a date and time to MS-DOS date and time values.
 old-location: automat\varianttimetodosdatetime.htm

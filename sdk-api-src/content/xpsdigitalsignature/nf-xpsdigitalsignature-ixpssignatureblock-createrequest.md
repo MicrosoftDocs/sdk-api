@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.CreateRequest
-title: IXpsSignatureBlock::CreateRequest
+title: IXpsSignatureBlock::CreateRequest (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Creates a new IXpsSignatureRequest interface and adds it to the signature block.
 old-location: xps\ixpssignatureblock_createrequest.htm

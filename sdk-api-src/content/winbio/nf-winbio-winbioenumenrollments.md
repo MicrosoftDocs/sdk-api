@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioEnumEnrollments
-title: WinBioEnumEnrollments function
+title: WinBioEnumEnrollments function (winbio.h)
 author: windows-sdk-content
 description: Retrieves the biometric sub-factors enrolled for a specified identity and biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenumenrollments.htm

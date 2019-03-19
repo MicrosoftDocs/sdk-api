@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.ColorLUT.SetParameters
-title: ColorLUT::SetParameters
+title: ColorLUT::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The ColorLUT::SetParameters method sets the parameters of this ColorLUT object.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_SetParameters_.htm

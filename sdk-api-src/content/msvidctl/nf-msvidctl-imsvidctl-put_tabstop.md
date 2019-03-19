@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_TabStop
-title: IMSVidCtl::put_TabStop
+title: IMSVidCtl::put_TabStop (msvidctl.h)
 author: windows-sdk-content
 description: The put_TabStop method specifies whether a user can use the TAB key to give the focus to the Video Control.
 old-location: mstv\imsvidctl_put_tabstop.htm

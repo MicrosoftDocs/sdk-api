@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventWriteTransfer
-title: EventWriteTransfer function
+title: EventWriteTransfer function (evntprov.h)
 author: windows-sdk-content
 description: Links events together when tracing events in an end-to-end scenario.
 old-location: etw\eventwritetransfer_func.htm

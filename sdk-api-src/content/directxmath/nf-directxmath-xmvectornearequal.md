@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorNearEqual
-title: XMVectorNearEqual function
+title: XMVectorNearEqual function (directxmath.h)
 author: windows-sdk-content
 description: Performs a per-component test for equality of two vectors within a given threshold.
 old-location: dxmath\xmvectornearequal.htm

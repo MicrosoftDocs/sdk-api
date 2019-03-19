@@ -1,6 +1,6 @@
 ---
 UID: NE:oaidl.tagVARKIND
-title: VARKIND
+title: VARKIND (oaidl.h)
 author: windows-sdk-content
 description: Specifies the variable type.
 old-location: automat\varkind.htm

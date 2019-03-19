@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMSG
-title: MSG
+title: MSG (winuser.h)
 author: windows-sdk-content
 description: Contains message information from a thread's message queue.
 old-location: winmsg\msg.htm

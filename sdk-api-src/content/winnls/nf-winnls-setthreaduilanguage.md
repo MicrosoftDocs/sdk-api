@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.SetThreadUILanguage
-title: SetThreadUILanguage function
+title: SetThreadUILanguage function (winnls.h)
 author: windows-sdk-content
 description: Sets the user interface language for the current thread.
 old-location: intl\setthreaduilanguage.htm

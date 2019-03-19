@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetOptionAt
-title: MI_SubscriptionDeliveryOptions_GetOptionAt function
+title: MI_SubscriptionDeliveryOptions_GetOptionAt function (mi.h)
 author: windows-sdk-content
 description: Gets the option at the specified index.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoptionat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IEVRVideoStreamControl.SetStreamActiveState
-title: IEVRVideoStreamControl::SetStreamActiveState
+title: IEVRVideoStreamControl::SetStreamActiveState (evr9.h)
 author: windows-sdk-content
 description: IEVRVideoStreamControl::SetStreamActiveState method
 old-location: mf\ievrvideostreamcontrol_setstreamactivestate.htm

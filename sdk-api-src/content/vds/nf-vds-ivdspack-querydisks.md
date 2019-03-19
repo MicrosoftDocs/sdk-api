@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.QueryDisks
-title: IVdsPack::QueryDisks
+title: IVdsPack::QueryDisks (vds.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the disks in the pack.
 old-location: base\ivdspack_querydisks.htm

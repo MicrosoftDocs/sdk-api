@@ -1,6 +1,6 @@
 ---
 UID: NS:mfmediaengine.MFVideoNormalizedRect
-title: MFVideoNormalizedRect
+title: MFVideoNormalizedRect (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines a normalized rectangle, which is used to specify sub-rectangles in a video rectangle.
 old-location: mf\mfvideonormalizedrect.htm

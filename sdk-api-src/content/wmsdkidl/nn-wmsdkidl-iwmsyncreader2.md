@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMSyncReader2
-title: IWMSyncReader2
+title: IWMSyncReader2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMSyncReader2 interface provides advanced features for the synchronous reader.
 old-location: wmformat\iwmsyncreader2.htm

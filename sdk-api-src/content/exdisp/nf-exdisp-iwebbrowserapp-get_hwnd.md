@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IWebBrowserApp.get_HWND
-title: IWebBrowserApp::get_HWND
+title: IWebBrowserApp::get_HWND (exdisp.h)
 author: windows-sdk-content
 description: Gets the handle of the Windows Internet Explorer main window.
 old-location: winprog\iwebbrowser2_hwnd.htm

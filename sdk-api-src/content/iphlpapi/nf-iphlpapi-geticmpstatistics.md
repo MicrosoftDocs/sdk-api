@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetIcmpStatistics
-title: GetIcmpStatistics function
+title: GetIcmpStatistics function (iphlpapi.h)
 author: windows-sdk-content
 description: The GetIcmpStatistics function retrieves the Internet Control Message Protocol (ICMP) for IPv4 statistics for the local computer.
 old-location: iphlp\geticmpstatistics.htm

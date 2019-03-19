@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerRestoreDefaultPowerSchemes
-title: PowerRestoreDefaultPowerSchemes function
+title: PowerRestoreDefaultPowerSchemes function (powrprof.h)
 author: windows-sdk-content
 description: Replaces the power schemes for the system with default power schemes. All current power schemes and settings are deleted and replaced with the default system power schemes.
 old-location: base\powerrestoredefaultpowerschemes.htm

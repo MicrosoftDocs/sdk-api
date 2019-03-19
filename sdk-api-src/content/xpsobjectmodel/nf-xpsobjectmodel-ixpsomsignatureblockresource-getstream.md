@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetStream
-title: IXpsOMSignatureBlockResource::GetStream
+title: IXpsOMSignatureBlockResource::GetStream (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomsignatureblockresource_getstream.htm

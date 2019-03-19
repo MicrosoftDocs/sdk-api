@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationRunningStatus
-title: IFsrmClassificationManager::get_ClassificationRunningStatus
+title: IFsrmClassificationManager::get_ClassificationRunningStatus (fsrmpipeline.h)
 author: windows-sdk-content
 description: The running status of the classification.
 old-location: fsrm\ifsrmclassificationmanager_classificationrunningstatus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumProperties
-title: IMetaDataImport::EnumProperties
+title: IMetaDataImport::EnumProperties (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates PropertyDef tokens representing the properties of the type referenced by the specified TypeDef token.
 old-location: winrt\imetadataimport_enumproperties.htm

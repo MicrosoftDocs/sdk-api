@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IFilterGraph
-title: IFilterGraph
+title: IFilterGraph (strmif.h)
 author: windows-sdk-content
 description: The IFilterGraph interface provides methods for building a filter graph.
 old-location: dshow\ifiltergraph.htm

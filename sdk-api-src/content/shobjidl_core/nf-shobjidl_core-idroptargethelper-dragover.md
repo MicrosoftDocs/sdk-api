@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.DragOver
-title: IDropTargetHelper::DragOver
+title: IDropTargetHelper::DragOver (shobjidl_core.h)
 author: windows-sdk-content
 description: Notifies the drag-image manager that the drop target's IDropTarget::DragOver method has been called.
 old-location: shell\IDropTargetHelper_DragOver.htm

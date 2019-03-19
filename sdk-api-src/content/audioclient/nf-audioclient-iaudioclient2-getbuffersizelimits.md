@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient2.GetBufferSizeLimits
-title: IAudioClient2::GetBufferSizeLimits
+title: IAudioClient2::GetBufferSizeLimits (audioclient.h)
 author: windows-sdk-content
 description: The GetBufferSizeLimits method returns the buffer size limits of the hardware audio engine in 100-nanosecond units.
 old-location: coreaudio\iaudioclient2_getbuffersizelimits.htm

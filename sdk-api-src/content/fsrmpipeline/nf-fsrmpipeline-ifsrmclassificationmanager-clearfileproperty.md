@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.ClearFileProperty
-title: IFsrmClassificationManager::ClearFileProperty
+title: IFsrmClassificationManager::ClearFileProperty (fsrmpipeline.h)
 author: windows-sdk-content
 description: Attempts to remove the specified property from the file or folder.
 old-location: fsrm\ifsrmclassificationmanager_clearfileproperty.htm

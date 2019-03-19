@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.OpenDesktopW
-title: OpenDesktopW function
+title: OpenDesktopW function (winuser.h)
 author: windows-sdk-content
 description: Opens the specified desktop object.
 old-location: winstation\opendesktop.htm

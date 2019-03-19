@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Image.FromFile
-title: Image::FromFile
+title: Image::FromFile (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Image::FromFile method creates an Image object based on a file.
 old-location: gdiplus\_gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_.htm

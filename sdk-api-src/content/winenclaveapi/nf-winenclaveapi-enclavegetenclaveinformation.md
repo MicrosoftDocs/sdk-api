@@ -1,6 +1,6 @@
 ---
 UID: NF:winenclaveapi.EnclaveGetEnclaveInformation
-title: EnclaveGetEnclaveInformation function
+title: EnclaveGetEnclaveInformation function (winenclaveapi.h)
 author: windows-sdk-content
 description: Gets information about the currently executing enclave.
 old-location: base\enclavegetenclaveinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_PATH_TARGET_INFO
-title: DISPLAYCONFIG_PATH_TARGET_INFO
+title: DISPLAYCONFIG_PATH_TARGET_INFO (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_PATH_TARGET_INFO structure contains target information for a single path.
 old-location: display\displayconfig_path_target_info.htm

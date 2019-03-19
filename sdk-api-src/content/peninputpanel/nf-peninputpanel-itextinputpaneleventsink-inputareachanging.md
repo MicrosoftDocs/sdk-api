@@ -1,6 +1,6 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InputAreaChanging
-title: ITextInputPanelEventSink::InputAreaChanging
+title: ITextInputPanelEventSink::InputAreaChanging (peninputpanel.h)
 author: windows-sdk-content
 description: Occurs when the input area is about to change on the Tablet PC Input Panel.
 old-location: tablet\itextinputpaneleventsink_inputareachanging.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICatalogCollection.GetCollection
-title: ICatalogCollection::GetCollection
+title: ICatalogCollection::GetCollection (comadmin.h)
 author: windows-sdk-content
 description: Retrieves a collection from the COM+ catalog that is related to the current collection.
 old-location: cos\icatalogcollection_getcollection.htm

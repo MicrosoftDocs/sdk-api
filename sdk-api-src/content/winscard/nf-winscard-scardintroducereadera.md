@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardIntroduceReaderA
-title: SCardIntroduceReaderA function
+title: SCardIntroduceReaderA function (winscard.h)
 author: windows-sdk-content
 description: Introduces a new name for an existing smart card reader.
 old-location: security\scardintroducereader.htm

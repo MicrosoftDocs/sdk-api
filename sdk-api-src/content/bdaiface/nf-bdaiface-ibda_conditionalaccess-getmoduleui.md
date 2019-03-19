@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.GetModuleUI
-title: IBDA_ConditionalAccess::GetModuleUI
+title: IBDA_ConditionalAccess::GetModuleUI (bdaiface.h)
 author: windows-sdk-content
 description: The GetModuleUI method retrieves the URL for a user interface dialog.
 old-location: mstv\ibda_conditionalaccess_getmoduleui.htm

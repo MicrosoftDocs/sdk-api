@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapCodecInfo
-title: IWICBitmapCodecInfo
+title: IWICBitmapCodecInfo (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that provide information about a particular codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo.htm

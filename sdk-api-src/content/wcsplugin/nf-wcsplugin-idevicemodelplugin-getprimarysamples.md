@@ -1,6 +1,6 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetPrimarySamples
-title: IDeviceModelPlugIn::GetPrimarySamples
+title: IDeviceModelPlugIn::GetPrimarySamples (wcsplugin.h)
 author: windows-sdk-content
 description: Returns the measurement color for the primary sample.
 old-location: wcs\IDeviceModelPlugIn_GetPrimarySamples.htm

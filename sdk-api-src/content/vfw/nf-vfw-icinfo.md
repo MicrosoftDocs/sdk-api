@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICInfo
-title: ICInfo function
+title: ICInfo function (vfw.h)
 author: windows-sdk-content
 description: The ICInfo function retrieves information about specific installed compressors or enumerates the installed compressors.
 old-location: multimedia\icinfo.htm

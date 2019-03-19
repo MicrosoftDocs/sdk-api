@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITToneTerminalEvent.get_Terminal
-title: ITToneTerminalEvent::get_Terminal
+title: ITToneTerminalEvent::get_Terminal (tapi3if.h)
 author: windows-sdk-content
 description: The get_Terminal method returns an ITTerminal pointer for the tone terminal on which the event occurred.
 old-location: tapi3\ittoneterminalevent_get_terminal.htm

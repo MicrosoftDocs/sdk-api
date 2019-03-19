@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_INFO_3
-title: DFS_INFO_3
+title: DFS_INFO_3 (lmdfs.h)
 author: windows-sdk-content
 description: Contains information about a Distributed File System (DFS) root or link. This structure contains the name, status, number of DFS targets, and information about each target of the root or link.
 old-location: dfs\dfs_info_3_str.htm

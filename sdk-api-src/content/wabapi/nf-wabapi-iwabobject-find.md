@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.Find
-title: IWABObject::Find
+title: IWABObject::Find (wabapi.h)
 author: windows-sdk-content
 description: Launches the Windows Address Book (WAB) Find dialog box.
 old-location: wab\_wab_IWABObject_Find.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._WOW64_FLOATING_SAVE_AREA
-title: WOW64_FLOATING_SAVE_AREA
+title: WOW64_FLOATING_SAVE_AREA (winnt.h)
 author: windows-sdk-content
 description: Represents the 80387 save area on WOW64.
 old-location: base\wow64_floating_save_area.htm

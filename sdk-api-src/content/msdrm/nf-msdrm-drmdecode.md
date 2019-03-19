@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMDecode
-title: DRMDecode function
+title: DRMDecode function (msdrm.h)
 author: windows-sdk-content
 description: Decodes a string encoded with a common algorithm, such as base64.
 old-location: rm\drmdecode.htm

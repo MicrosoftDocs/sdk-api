@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHmenuProp
-title: IAccPropServices::SetHmenuProp
+title: IAccPropServices::SetHmenuProp (oleacc.h)
 author: windows-sdk-content
 description: This method wraps SetPropValue, providing a convenient entry point for callers who are annotating HMENU-based accessible elements. If the new value is a string, you can use IAccPropServices::SetHmenuPropStr instead.
 old-location: winauto\iaccpropservices_iaccpropservices__sethmenuprop.htm

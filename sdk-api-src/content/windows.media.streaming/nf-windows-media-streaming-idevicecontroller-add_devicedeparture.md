@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.add_DeviceDeparture
-title: IDeviceController::streaming
+title: IDeviceController::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Registers an event handler for the DeviceDeparture event.
 old-location: mediastreaming\idevicecontroller_add_devicedeparture.htm

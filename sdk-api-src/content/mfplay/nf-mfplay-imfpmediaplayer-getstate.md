@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetState
-title: IMFPMediaPlayer::GetState
+title: IMFPMediaPlayer::GetState (mfplay.h)
 author: windows-sdk-content
 description: Gets the current playback state of the MFPlay player object.
 old-location: mf\imfpmediaplayer_getstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.IsFormatSupported
-title: IAudioClient::IsFormatSupported
+title: IAudioClient::IsFormatSupported (audioclient.h)
 author: windows-sdk-content
 description: The IsFormatSupported method indicates whether the audio endpoint device supports a particular stream format.
 old-location: coreaudio\iaudioclient_isformatsupported.htm

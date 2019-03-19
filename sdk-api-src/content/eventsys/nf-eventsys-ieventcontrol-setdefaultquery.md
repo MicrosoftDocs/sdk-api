@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventControl.SetDefaultQuery
-title: IEventControl::SetDefaultQuery
+title: IEventControl::SetDefaultQuery (eventsys.h)
 author: windows-sdk-content
 description: Sets the default query to determine subscribers.
 old-location: cos\ieventcontrol_setdefaultquery.htm

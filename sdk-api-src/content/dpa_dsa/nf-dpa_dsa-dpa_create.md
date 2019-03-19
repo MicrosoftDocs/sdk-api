@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DPA_Create
-title: DPA_Create function
+title: DPA_Create function (dpa_dsa.h)
 author: windows-sdk-content
 description: Creates a dynamic pointer array (DPA).
 old-location: controls\DPA_Create.htm

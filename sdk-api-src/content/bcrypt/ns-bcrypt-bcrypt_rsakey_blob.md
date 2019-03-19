@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._BCRYPT_RSAKEY_BLOB
-title: BCRYPT_RSAKEY_BLOB
+title: BCRYPT_RSAKEY_BLOB (bcrypt.h)
 author: windows-sdk-content
 description: Used as a header for an RSA public key or private key BLOB in memory.
 old-location: security\bcrypt_rsakey_blob.htm

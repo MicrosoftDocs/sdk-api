@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.ConfigureTransaction
-title: IServiceTransactionConfigBase::ConfigureTransaction
+title: IServiceTransactionConfigBase::ConfigureTransaction (comsvcs.h)
 author: windows-sdk-content
 description: Configures how transactions are used in the enclosed work.
 old-location: cos\iservicetransactionconfigbase_configuretransaction.htm

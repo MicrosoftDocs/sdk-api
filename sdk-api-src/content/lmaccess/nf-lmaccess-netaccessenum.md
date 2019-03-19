@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetAccessEnum
-title: NetAccessEnum function
+title: NetAccessEnum function (lmaccess.h)
 author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessenum.htm

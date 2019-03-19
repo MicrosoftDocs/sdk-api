@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IHandlerInfo.GetApplicationDisplayName
-title: IHandlerInfo::GetApplicationDisplayName
+title: IHandlerInfo::GetApplicationDisplayName (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the display name of the application that implemented the handler.
 old-location: shell\IHandlerInfo_GetApplicationDisplayName.htm

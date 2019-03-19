@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectAttributeW
-title: SetNtmsObjectAttributeW function
+title: SetNtmsObjectAttributeW function (ntmsapi.h)
 author: windows-sdk-content
 description: The SetNtmsObjectAttribute function creates an extended attribute (named private data) in the specified RSM object.
 old-location: fs\setntmsobjectattribute.htm

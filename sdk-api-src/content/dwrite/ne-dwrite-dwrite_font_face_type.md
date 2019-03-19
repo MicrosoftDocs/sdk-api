@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_FACE_TYPE
-title: DWRITE_FONT_FACE_TYPE
+title: DWRITE_FONT_FACE_TYPE (dwrite.h)
 author: windows-sdk-content
 description: Indicates the file format of a complete font face.
 old-location: directwrite\dwrite_font_face_type.htm

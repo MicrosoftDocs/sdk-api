@@ -1,6 +1,6 @@
 ---
 UID: NF:adshlp.ADsGetObject
-title: ADsGetObject function
+title: ADsGetObject function (adshlp.h)
 author: windows-sdk-content
 description: Binds to an object given its path and a specified interface identifier.
 old-location: adsi\adsgetobject.htm

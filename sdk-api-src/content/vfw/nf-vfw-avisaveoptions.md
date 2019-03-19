@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVISaveOptions
-title: AVISaveOptions function
+title: AVISaveOptions function (vfw.h)
 author: windows-sdk-content
 description: The AVISaveOptions function retrieves the save options for a file and returns them in a buffer.
 old-location: multimedia\avisaveoptions.htm

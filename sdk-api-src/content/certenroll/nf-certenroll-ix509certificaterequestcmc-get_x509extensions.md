@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_X509Extensions
-title: IX509CertificateRequestCmc::get_X509Extensions
+title: IX509CertificateRequestCmc::get_X509Extensions (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of the extensions included in the certificate request.
 old-location: security\ix509certificaterequestcmc_x509extensions_property.htm

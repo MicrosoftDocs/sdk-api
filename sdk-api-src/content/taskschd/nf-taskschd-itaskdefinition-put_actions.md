@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Actions
-title: ITaskDefinition::put_Actions
+title: ITaskDefinition::put_Actions (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a collection of actions performed by the task.
 old-location: taskschd\itaskdefinition_actions.htm

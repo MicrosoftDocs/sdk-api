@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.IsOfType
-title: ITaskScheduler::IsOfType
+title: ITaskScheduler::IsOfType (mstask.h)
 author: windows-sdk-content
 description: The IsOfType method checks the object's type to verify that it supports a particular interface.
 old-location: taskschd\itaskscheduler_isoftype.htm

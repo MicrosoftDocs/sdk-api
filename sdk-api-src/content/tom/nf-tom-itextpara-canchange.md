@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.CanChange
-title: ITextPara::CanChange
+title: ITextPara::CanChange (tom.h)
 author: windows-sdk-content
 description: Determines whether the paragraph formatting can be changed.
 old-location: controls\ITextPara_CanChange.htm

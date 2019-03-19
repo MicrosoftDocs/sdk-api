@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawEllipse
-title: ID2D1RenderTarget::DrawEllipse
+title: ID2D1RenderTarget::DrawEllipse (d2d1.h)
 author: windows-sdk-content
 description: Draws the outline of an ellipse with the specified dimensions and stroke.
 old-location: direct2d\id2d1rendertarget_drawellipse.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetOpenW
-title: InternetOpenW function
+title: InternetOpenW function (wininet.h)
 author: windows-sdk-content
 description: Initializes an application's use of the WinINet functions.
 old-location: wininet\internetopen.htm

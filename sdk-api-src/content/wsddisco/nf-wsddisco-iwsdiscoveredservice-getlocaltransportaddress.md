@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetLocalTransportAddress
-title: IWSDiscoveredService::GetLocalTransportAddress
+title: IWSDiscoveredService::GetLocalTransportAddress (wsddisco.h)
 author: windows-sdk-content
 description: Retrieves the string representation of the local transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getlocaltransportaddress.htm

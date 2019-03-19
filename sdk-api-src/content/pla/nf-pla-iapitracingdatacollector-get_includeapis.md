@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_IncludeApis
-title: IApiTracingDataCollector::get_IncludeApis
+title: IApiTracingDataCollector::get_IncludeApis (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the list of functions to include in the trace.
 old-location: pla\iapitracingdatacollector_includeapis.htm

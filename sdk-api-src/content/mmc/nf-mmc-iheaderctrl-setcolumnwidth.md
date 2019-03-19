@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IHeaderCtrl.SetColumnWidth
-title: IHeaderCtrl::SetColumnWidth
+title: IHeaderCtrl::SetColumnWidth (mmc.h)
 author: windows-sdk-content
 description: Sets the width, in pixels, of a specific column.
 old-location: mmc\iheaderctrl_setcolumnwidth.htm

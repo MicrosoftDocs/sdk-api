@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDocumentLists.GetList
-title: IApplicationDocumentLists::GetList
+title: IApplicationDocumentLists::GetList (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves an object that represents the collection of destinations listed in the Recent or Frequent category in a Jump List.
 old-location: shell\IApplicationDocumentLists_GetList.htm

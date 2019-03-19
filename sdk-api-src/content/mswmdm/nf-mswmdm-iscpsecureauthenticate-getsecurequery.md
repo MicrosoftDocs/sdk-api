@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureAuthenticate.GetSecureQuery
-title: ISCPSecureAuthenticate::GetSecureQuery
+title: ISCPSecureAuthenticate::GetSecureQuery (mswmdm.h)
 author: windows-sdk-content
 description: The GetSecureQuery method is used to obtain a pointer to the ISCPSecureQuery interface.
 old-location: wmdm\iscpsecureauthenticate_getsecurequery.htm

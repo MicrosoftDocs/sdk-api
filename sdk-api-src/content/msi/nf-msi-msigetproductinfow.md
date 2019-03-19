@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetProductInfoW
-title: MsiGetProductInfoW function
+title: MsiGetProductInfoW function (msi.h)
 author: windows-sdk-content
 description: The MsiGetProductInfo function returns product information for published and installed products.
 old-location: setup\msigetproductinfo.htm

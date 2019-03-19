@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluseffects.HueSaturationLightness.SetParameters
-title: HueSaturationLightness::SetParameters
+title: HueSaturationLightness::SetParameters (gdipluseffects.h)
 author: windows-sdk-content
 description: The HueSaturationLightness::SetParameters method sets the parameters of this HueSaturationLightness object.
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_SetParameters_.htm

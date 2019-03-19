@@ -1,6 +1,6 @@
 ---
 UID: NN:natupnp.IUPnPNAT
-title: IUPnPNAT
+title: IUPnPNAT (natupnp.h)
 author: windows-sdk-content
 description: The IUPnPNAT interface is the primary interface for managing Network Address Translation (NAT) with UPnP. The IUPnPNAT interface provides access directly or indirectly to all the other interfaces in the NAT API with UPnP technology.
 old-location: ics\iupnpnat.htm

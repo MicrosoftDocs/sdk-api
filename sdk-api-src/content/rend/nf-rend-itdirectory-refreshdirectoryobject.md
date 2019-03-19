@@ -1,6 +1,6 @@
 ---
 UID: NF:rend.ITDirectory.RefreshDirectoryObject
-title: ITDirectory::RefreshDirectoryObject
+title: ITDirectory::RefreshDirectoryObject (rend.h)
 author: windows-sdk-content
 description: The RefreshDirectoryObject method refreshes the time to live (TTL) for an object on the server. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_refreshdirectoryobject.htm

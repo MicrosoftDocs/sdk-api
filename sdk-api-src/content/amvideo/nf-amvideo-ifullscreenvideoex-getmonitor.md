@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetMonitor
-title: IFullScreenVideoEx::GetMonitor
+title: IFullScreenVideoEx::GetMonitor (amvideo.h)
 author: windows-sdk-content
 description: The GetMonitor method queries which monitor the Full Screen Renderer is using. The Full Screen Renderer only supports the primary monitor, so the returned value is always zero.
 old-location: dshow\ifullscreenvideoex_getmonitor.htm

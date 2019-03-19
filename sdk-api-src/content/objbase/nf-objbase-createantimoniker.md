@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CreateAntiMoniker
-title: CreateAntiMoniker function
+title: CreateAntiMoniker function (objbase.h)
 author: windows-sdk-content
 description: Creates and returns a new anti-moniker.
 old-location: com\createantimoniker.htm

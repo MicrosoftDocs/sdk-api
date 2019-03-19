@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellIndex
-title: ITextRow::GetCellIndex
+title: ITextRow::GetCellIndex (tom.h)
 author: windows-sdk-content
 description: Gets the index of the active cell to get or set parameters for.
 old-location: controls\itextrow_getcellindex.htm

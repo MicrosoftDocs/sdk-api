@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGenericNotifySink.OnCompleted
-title: ITsSbGenericNotifySink::OnCompleted
+title: ITsSbGenericNotifySink::OnCompleted (sbtsv.h)
 author: windows-sdk-content
 description: Reports completion to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbgenericnotifysink_oncompleted.htm

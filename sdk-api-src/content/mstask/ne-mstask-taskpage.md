@@ -1,6 +1,6 @@
 ---
 UID: NE:mstask._TASKPAGE
-title: TASKPAGE
+title: TASKPAGE (mstask.h)
 author: windows-sdk-content
 description: Defines the type of task page to be retrieved.
 old-location: taskschd\taskpage.htm

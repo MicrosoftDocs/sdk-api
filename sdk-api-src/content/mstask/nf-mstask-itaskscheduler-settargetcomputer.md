@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.ITaskScheduler.SetTargetComputer
-title: ITaskScheduler::SetTargetComputer
+title: ITaskScheduler::SetTargetComputer (mstask.h)
 author: windows-sdk-content
 description: The SetTargetComputer method selects the computer that the ITaskScheduler interface operates on, allowing remote task management and enumeration.
 old-location: taskschd\itaskscheduler_settargetcomputer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetDiskSpaceInformation
-title: IOfflineFilesCache::GetDiskSpaceInformation
+title: IOfflineFilesCache::GetDiskSpaceInformation (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the amount of disk space used by the Offline Files cache as well as the space limits applied to cache usage.
 old-location: of\iofflinefilescache_getdiskspaceinformation.htm

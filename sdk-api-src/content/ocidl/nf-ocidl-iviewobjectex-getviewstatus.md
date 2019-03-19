@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetViewStatus
-title: IViewObjectEx::GetViewStatus
+title: IViewObjectEx::GetViewStatus (ocidl.h)
 author: windows-sdk-content
 description: Retrieves information about the opacity of the object, and what drawing aspects are supported.
 old-location: com\iviewobjectex_getviewstatus.htm

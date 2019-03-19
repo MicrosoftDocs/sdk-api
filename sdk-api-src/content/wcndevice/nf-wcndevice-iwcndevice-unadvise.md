@@ -1,6 +1,6 @@
 ---
 UID: NF:wcndevice.IWCNDevice.Unadvise
-title: IWCNDevice::Unadvise
+title: IWCNDevice::Unadvise (wcndevice.h)
 author: windows-sdk-content
 description: IWCNDevice::Unadvise method removes any callback previously set via IWCNDevice::Connect.
 old-location: wcn\iwcndevice_unadvise.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:resapi.PRELEASE_ROUTINE
-title: PRELEASE_ROUTINE
+title: PRELEASE_ROUTINE (resapi.h)
 author: windows-sdk-content
 description: Releases the quorum resource from arbitration.
 old-location: mscs\release.htm

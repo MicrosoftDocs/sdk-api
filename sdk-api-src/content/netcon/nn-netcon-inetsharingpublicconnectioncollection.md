@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.INetSharingPublicConnectionCollection
-title: INetSharingPublicConnectionCollection
+title: INetSharingPublicConnectionCollection (netcon.h)
 author: windows-sdk-content
 description: The INetSharingPublicConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate public connections.
 old-location: ics\inetsharingpublicconnectioncollection.htm

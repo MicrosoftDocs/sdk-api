@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IComponent
-title: IComponent
+title: IComponent (mmc.h)
 author: windows-sdk-content
 description: The IComponent interface enables MMC to communicate with snap-ins. Similar to the IComponentData interface, IComponent is typically implemented at the view level and is closely associated with items being displayed in the result pane.
 old-location: mmc\icomponent.htm

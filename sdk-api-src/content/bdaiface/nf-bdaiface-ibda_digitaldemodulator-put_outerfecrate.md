@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.put_OuterFECRate
-title: IBDA_DigitalDemodulator::put_OuterFECRate
+title: IBDA_DigitalDemodulator::put_OuterFECRate (bdaiface.h)
 author: windows-sdk-content
 description: The put_OuterFECRate method specifies the outer forward error correction rate for the signal.
 old-location: mstv\ibda_digitaldemodulator_put_outerfecrate.htm

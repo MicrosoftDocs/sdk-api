@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.PutSubscriberProperty
-title: IEventSubscription::PutSubscriberProperty
+title: IEventSubscription::PutSubscriberProperty (eventsys.h)
 author: windows-sdk-content
 description: Writes a property and its value to the property bag to define subscriber context.
 old-location: cos\ieventsubscription_putsubscriberproperty.htm

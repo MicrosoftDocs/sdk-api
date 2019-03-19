@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IRangeException
-title: IRangeException
+title: IRangeException (winsync.h)
 author: windows-sdk-content
 description: Represents an item ID range to exclude from a knowledge object.
 old-location: winsync\irangeexception.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiribbon.IUISimplePropertySet
-title: IUISimplePropertySet
+title: IUISimplePropertySet (uiribbon.h)
 author: windows-sdk-content
 description: IUISimplePropertySet is a read-only interface that defines a method for retrieving the value identified by a property key.
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset.htm

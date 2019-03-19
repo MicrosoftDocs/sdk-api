@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_first_element
-title: ber_first_element function
+title: ber_first_element function (winber.h)
 author: windows-sdk-content
 description: The ber_first_element function is used to begin the traversal of a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the first element.
 old-location: ldap\ber_first_element.htm

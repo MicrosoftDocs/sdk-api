@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_UsingOverlay
-title: IMSVidVideoRenderer::put_UsingOverlay
+title: IMSVidVideoRenderer::put_UsingOverlay (segment.h)
 author: windows-sdk-content
 description: The put_UsingOverlay method specifies whether the Video Mixing Renderer will use the hardware overlay.
 old-location: mstv\imsvidvideorenderer_put_usingoverlay.htm

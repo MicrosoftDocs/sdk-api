@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_NamesA
-title: SecPkgContext_NamesA
+title: SecPkgContext_NamesA (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_Names structure indicates the name of the user associated with a security context. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_names.htm

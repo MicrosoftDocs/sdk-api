@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetFillMode
-title: GraphicsPath::GetFillMode
+title: GraphicsPath::GetFillMode (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::GetFillMode method gets the fill mode of this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetFillMode_.htm

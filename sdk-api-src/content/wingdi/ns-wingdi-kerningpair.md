@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagKERNINGPAIR
-title: KERNINGPAIR
+title: KERNINGPAIR (wingdi.h)
 author: windows-sdk-content
 description: The KERNINGPAIR structure defines a kerning pair.
 old-location: gdi\kerningpair.htm

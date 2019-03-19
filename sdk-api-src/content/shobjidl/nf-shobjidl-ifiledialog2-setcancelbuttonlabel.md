@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFileDialog2.SetCancelButtonLabel
-title: IFileDialog2::SetCancelButtonLabel
+title: IFileDialog2::SetCancelButtonLabel (shobjidl.h)
 author: windows-sdk-content
 description: Replaces the default text &#0034;Cancel&#0034; on the common file dialog's Cancel button.
 old-location: shell\IFileDialog2_SetCancelButtonLabel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_Protocol
-title: INetFwOpenPort::get_Protocol
+title: INetFwOpenPort::get_Protocol (netfw.h)
 author: windows-sdk-content
 description: Specifies the protocol type setting for this port.
 old-location: ics\inetfwopenport_protocol.htm

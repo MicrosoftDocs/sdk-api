@@ -1,6 +1,6 @@
 ---
 UID: NF:madcapcl.McastApiStartup
-title: McastApiStartup function
+title: McastApiStartup function (madcapcl.h)
 author: windows-sdk-content
 description: The McastApiStartup function facilitates MADCAP-version negotiation between requesting clients and the version of MADCAP implemented on the system.
 old-location: madcap\mcastapistartup.htm

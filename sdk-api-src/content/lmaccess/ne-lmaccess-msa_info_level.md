@@ -1,6 +1,6 @@
 ---
 UID: NE:lmaccess._MSA_INFO_LEVEL
-title: MSA_INFO_LEVEL
+title: MSA_INFO_LEVEL (lmaccess.h)
 author: windows-sdk-content
 description: Indicates the level of a managed service account.
 old-location: security\msa_info_level.htm

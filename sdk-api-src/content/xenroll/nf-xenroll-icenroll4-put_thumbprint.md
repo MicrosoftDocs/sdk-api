@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_ThumbPrint
-title: ICEnroll4::put_ThumbPrint
+title: ICEnroll4::put_ThumbPrint (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a hash of the certificate data.
 old-location: security\icenroll4_thumbprint.htm

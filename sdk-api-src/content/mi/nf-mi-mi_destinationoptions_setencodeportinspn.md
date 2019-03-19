@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetEncodePortInSPN
-title: MI_DestinationOptions_SetEncodePortInSPN function
+title: MI_DestinationOptions_SetEncodePortInSPN function (mi.h)
 author: windows-sdk-content
 description: Enables or disables the encoding of the port number in the Service Principal Name when establishing a connection to a remote machine.
 old-location: wmi_v2\mi_destinationoptions_setencodeportinspn.htm

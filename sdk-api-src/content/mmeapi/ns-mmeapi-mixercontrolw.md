@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.tagMIXERCONTROLW
-title: MIXERCONTROLW
+title: MIXERCONTROLW (mmeapi.h)
 author: windows-sdk-content
 description: The MIXERCONTROL structure describes the state and metrics of a single control for an audio line.
 old-location: multimedia\mixercontrol.htm

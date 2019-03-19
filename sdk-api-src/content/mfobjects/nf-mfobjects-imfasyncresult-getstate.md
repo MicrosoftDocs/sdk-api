@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetState
-title: IMFAsyncResult::GetState
+title: IMFAsyncResult::GetState (mfobjects.h)
 author: windows-sdk-content
 description: Returns the state object specified by the caller in the asynchronous Begin method.
 old-location: mf\imfasyncresult_getstate.htm

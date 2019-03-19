@@ -1,6 +1,6 @@
 ---
 UID: NF:wmprealestate.IWMPAudioRenderConfig.get_audioOutputDevice
-title: IWMPAudioRenderConfig::get_audioOutputDevice
+title: IWMPAudioRenderConfig::get_audioOutputDevice (wmprealestate.h)
 author: windows-sdk-content
 description: The get_audioOutputDevice method retrieves the current audio output device used by the Windows Media Player ActiveX control.
 old-location: wmp\iwmpaudiorenderconfig_get_audiooutputdevice.htm

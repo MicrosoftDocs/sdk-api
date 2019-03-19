@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferDataCounters.ResetData
-title: IStreamBufferDataCounters::ResetData
+title: IStreamBufferDataCounters::ResetData (sbe.h)
 author: windows-sdk-content
 description: The ResetData method resets the Stream Buffer Engine's performance counters to zero.
 old-location: mstv\istreambufferdatacounters_resetdata.htm

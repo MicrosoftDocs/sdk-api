@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILanguageComponentType.put_LangID
-title: ILanguageComponentType::put_LangID
+title: ILanguageComponentType::put_LangID (tuner.h)
 author: windows-sdk-content
 description: The put_LangID method specifies the LCID that identifies the language.
 old-location: mstv\ilanguagecomponenttype_put_langid.htm

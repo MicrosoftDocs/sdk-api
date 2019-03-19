@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._MOF_FIELD
-title: MOF_FIELD
+title: MOF_FIELD (evntrace.h)
 author: windows-sdk-content
 description: You may use the MOF_FIELD structures to append event data to the EVENT_TRACE_HEADER or EVENT_INSTANCE_HEADER structures.
 old-location: etw\mof_field.htm

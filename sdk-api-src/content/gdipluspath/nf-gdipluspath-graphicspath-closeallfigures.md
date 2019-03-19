@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.CloseAllFigures
-title: GraphicsPath::CloseAllFigures
+title: GraphicsPath::CloseAllFigures (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::CloseAllFigures method closes all open figures in this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_CloseAllFigures_.htm

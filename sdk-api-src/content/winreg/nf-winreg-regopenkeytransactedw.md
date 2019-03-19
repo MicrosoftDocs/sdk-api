@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegOpenKeyTransactedW
-title: RegOpenKeyTransactedW function
+title: RegOpenKeyTransactedW function (winreg.h)
 author: windows-sdk-content
 description: Opens the specified registry key and associates it with a transaction.
 old-location: base\regopenkeytransacted.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.Edit_LineIndex
-title: Edit_LineIndex macro
+title: Edit_LineIndex macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the character index of the first character of a specified line in a multiline edit or rich edit control. You can use this macro or send the EM_LINEINDEX message explicitly.
 old-location: controls\Edit_LineIndex.htm

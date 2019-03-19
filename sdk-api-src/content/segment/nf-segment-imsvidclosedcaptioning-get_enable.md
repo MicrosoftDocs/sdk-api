@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning.get_Enable
-title: IMSVidClosedCaptioning::get_Enable
+title: IMSVidClosedCaptioning::get_Enable (segment.h)
 author: windows-sdk-content
 description: The get_Enable method queries whether closed captioning is enabled.
 old-location: mstv\imsvidclosedcaptioning_get_enable.htm

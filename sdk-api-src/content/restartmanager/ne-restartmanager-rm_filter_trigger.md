@@ -1,6 +1,6 @@
 ---
 UID: NE:restartmanager._RM_FILTER_TRIGGER
-title: RM_FILTER_TRIGGER
+title: RM_FILTER_TRIGGER (restartmanager.h)
 author: windows-sdk-content
 description: Describes the restart or shutdown actions for an application or service.
 old-location: rstmgr\rm_filter_trigger.htm

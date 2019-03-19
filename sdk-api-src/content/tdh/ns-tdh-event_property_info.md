@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._EVENT_PROPERTY_INFO
-title: EVENT_PROPERTY_INFO
+title: EVENT_PROPERTY_INFO (tdh.h)
 author: windows-sdk-content
 description: Provides information about a single property of the event or filter.
 old-location: etw\event_property_info_struct.htm

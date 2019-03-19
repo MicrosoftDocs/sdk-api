@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMMatrixInverse
-title: XMMatrixInverse function
+title: XMMatrixInverse function (directxmath.h)
 author: windows-sdk-content
 description: Computes the inverse of a matrix.
 old-location: dxmath\xmmatrixinverse.htm

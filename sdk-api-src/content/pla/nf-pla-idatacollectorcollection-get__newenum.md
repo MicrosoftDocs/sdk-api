@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorCollection.get__NewEnum
-title: IDataCollectorCollection::get__NewEnum
+title: IDataCollectorCollection::get__NewEnum (pla.h)
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\idatacollectorcollection__newenum.htm

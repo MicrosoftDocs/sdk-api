@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardReleaseContext
-title: SCardReleaseContext function
+title: SCardReleaseContext function (winscard.h)
 author: windows-sdk-content
 description: Closes an established resource manager context, freeing any resources allocated under that context, including SCARDHANDLE objects and memory allocated using the SCARD_AUTOALLOCATE length designator.
 old-location: security\scardreleasecontext.htm

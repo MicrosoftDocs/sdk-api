@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Enabled
-title: INetFwAuthorizedApplication::put_Enabled
+title: INetFwAuthorizedApplication::put_Enabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether the settings for this application are currently enabled.
 old-location: ics\inetfwauthorizedapplication_enabled.htm

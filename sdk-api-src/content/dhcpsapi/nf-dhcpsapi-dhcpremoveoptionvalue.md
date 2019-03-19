@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOptionValue
-title: DhcpRemoveOptionValue function
+title: DhcpRemoveOptionValue function (dhcpsapi.h)
 author: windows-sdk-content
 description: Removes the option value for a specific option on the DHCP4 server for the default user class and vendor class, for the specified scope.
 old-location: dhcp\dhcpremoveoptionvalue.htm

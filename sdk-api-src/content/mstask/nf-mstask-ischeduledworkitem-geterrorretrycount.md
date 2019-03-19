@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetErrorRetryCount
-title: IScheduledWorkItem::GetErrorRetryCount
+title: IScheduledWorkItem::GetErrorRetryCount (mstask.h)
 author: windows-sdk-content
 description: Retrieves the number of times that the Task Scheduler will retry an operation when an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_geterrorretrycount.htm

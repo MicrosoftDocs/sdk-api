@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaKeys
-title: IMFMediaKeys
+title: IMFMediaKeys (mfmediaengine.h)
 author: windows-sdk-content
 description: Represents a media keys used for decrypting media data using a Digital Rights Management (DRM) key system.
 old-location: mf\imfmediakeys.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFMediaStream
-title: IMFMediaStream
+title: IMFMediaStream (mfidl.h)
 author: windows-sdk-content
 description: Represents one stream in a media source.
 old-location: mf\imfmediastream.htm

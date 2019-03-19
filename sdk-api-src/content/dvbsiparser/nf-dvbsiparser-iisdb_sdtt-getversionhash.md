@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetVersionHash
-title: IISDB_SDTT::GetVersionHash
+title: IISDB_SDTT::GetVersionHash (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getversionhash.htm

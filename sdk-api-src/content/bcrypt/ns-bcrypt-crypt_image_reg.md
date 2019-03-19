@@ -1,6 +1,6 @@
 ---
 UID: NS:bcrypt._CRYPT_IMAGE_REG
-title: CRYPT_IMAGE_REG
+title: CRYPT_IMAGE_REG (bcrypt.h)
 author: windows-sdk-content
 description: Contains image registration information about a CNG provider.
 old-location: security\crypt_image_reg.htm

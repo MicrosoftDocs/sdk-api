@@ -1,6 +1,6 @@
 ---
 UID: NS:gdiplusmetaheader.__unnamed_struct_2
-title: WmfPlaceableFileHeader
+title: WmfPlaceableFileHeader (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The WmfPlaceableFileHeader structure defines the fields of a placeable metafile header. Placeable metafiles were created as a way of specifying how a metafile is mapped and scaled on a display device.
 old-location: gdiplus\_gdiplus_STRUC_WmfPlaceableFileHeader.htm

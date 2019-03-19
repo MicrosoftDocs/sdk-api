@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStatus
-title: IMFTransform::GetOutputStatus
+title: IMFTransform::GetOutputStatus (mftransform.h)
 author: windows-sdk-content
 description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.
 old-location: mf\imftransform_getoutputstatus.htm

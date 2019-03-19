@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_AUDIO_RENDERER_STAT_PARAM
-title: "_AM_AUDIO_RENDERER_STAT_PARAM"
+title: "_AM_AUDIO_RENDERER_STAT_PARAM" (strmif.h)
 author: windows-sdk-content
 description: The _AM_AUDIO_RENDERER_STAT_PARAM enumeration specifies which performance information to retrieve from the audio renderer.
 old-location: dshow\_am_audio_renderer_stat_param.htm

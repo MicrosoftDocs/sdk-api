@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetTextExtentPointA
-title: GetTextExtentPointA function
+title: GetTextExtentPointA function (wingdi.h)
 author: windows-sdk-content
 description: The GetTextExtentPoint function computes the width and height of the specified string of text.
 old-location: gdi\gettextextentpoint.htm

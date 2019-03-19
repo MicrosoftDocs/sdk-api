@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemprov.IWbemProviderIdentity
-title: IWbemProviderIdentity
+title: IWbemProviderIdentity (wbemprov.h)
 author: windows-sdk-content
 description: The IWbemProviderIdentity interface is implemented by an event provider if the provider registers itself using more than one Name (multiple instances of __Win32Provider) with the same CLSID value.
 old-location: wmi\iwbemprovideridentity.htm

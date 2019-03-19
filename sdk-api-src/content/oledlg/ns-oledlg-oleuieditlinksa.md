@@ -1,6 +1,6 @@
 ---
 UID: NS:oledlg.tagOLEUIEDITLINKSA
-title: OLEUIEDITLINKSA
+title: OLEUIEDITLINKSA (oledlg.h)
 author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Edit Links dialog box, and contains space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuieditlinks_struct.htm

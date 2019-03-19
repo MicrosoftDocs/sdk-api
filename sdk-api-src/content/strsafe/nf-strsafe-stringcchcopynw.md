@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchCopyNW
-title: StringCchCopyNW function
+title: StringCchCopyNW function (strsafe.h)
 author: windows-sdk-content
 description: Copies the specified number of characters from one string to another.
 old-location: menurc\stringcchcopyn.htm

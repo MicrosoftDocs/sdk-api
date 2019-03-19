@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_8
-title: NTFS_FILE_RECORD_INPUT_BUFFER
+title: NTFS_FILE_RECORD_INPUT_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Contains data for the FSCTL_GET_NTFS_FILE_RECORD control code.
 old-location: fs\ntfs_file_record_input_buffer_str.htm

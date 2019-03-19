@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.CLRES_V3_FUNCTIONS
-title: CLRES_V3_FUNCTIONS
+title: CLRES_V3_FUNCTIONS (resapi.h)
 author: windows-sdk-content
 description: Contains pointers to all Resource API version 3.0 entry points, except StartupEx.
 old-location: mscs\clres_v3_functions.htm

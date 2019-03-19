@@ -1,6 +1,6 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.stopBackgroundProcessing
-title: IWMPSubscriptionService2::stopBackgroundProcessing
+title: IWMPSubscriptionService2::stopBackgroundProcessing (subscriptionservices.h)
 author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2_stopbackgroundprocessing.htm

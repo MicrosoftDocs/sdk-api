@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3IsNaN
-title: XMVector3IsNaN function
+title: XMVector3IsNaN function (directxmath.h)
 author: windows-sdk-content
 description: Tests whether any component of a 3D vector is a NaN.
 old-location: dxmath\xmvector3isnan.htm

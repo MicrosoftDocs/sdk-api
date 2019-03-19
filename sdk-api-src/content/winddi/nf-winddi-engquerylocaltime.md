@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngQueryLocalTime
-title: EngQueryLocalTime function
+title: EngQueryLocalTime function (winddi.h)
 author: windows-sdk-content
 description: The EngQueryLocalTime function queries the local time.
 old-location: display\engquerylocaltime.htm

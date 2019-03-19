@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.Initialize
-title: ITfSpeechUIServer::Initialize
+title: ITfSpeechUIServer::Initialize (ctfspui.h)
 author: windows-sdk-content
 description: ITfSpeechUIServer::Initialize method
 old-location: tsf\itfspeechuiserver_initialize.htm

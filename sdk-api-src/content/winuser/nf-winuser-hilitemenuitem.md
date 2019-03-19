@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.HiliteMenuItem
-title: HiliteMenuItem function
+title: HiliteMenuItem function (winuser.h)
 author: windows-sdk-content
 description: Adds or removes highlighting from an item in a menu bar.
 old-location: menurc\hilitemenuitem.htm

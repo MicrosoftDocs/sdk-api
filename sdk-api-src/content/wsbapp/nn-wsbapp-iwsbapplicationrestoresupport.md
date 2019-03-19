@@ -1,6 +1,6 @@
 ---
 UID: NN:wsbapp.IWsbApplicationRestoreSupport
-title: IWsbApplicationRestoreSupport
+title: IWsbApplicationRestoreSupport (wsbapp.h)
 author: windows-sdk-content
 description: Defines methods for performing application-specific restore tasks.
 old-location: wsb\iwsbapplicationrestoresupport.htm

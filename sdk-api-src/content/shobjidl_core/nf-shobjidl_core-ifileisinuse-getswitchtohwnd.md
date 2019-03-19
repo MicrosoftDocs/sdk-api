@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetSwitchToHWND
-title: IFileIsInUse::GetSwitchToHWND
+title: IFileIsInUse::GetSwitchToHWND (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the handle of the top-level window of the application that is using the file.
 old-location: shell\IFileIsInUse_GetSwitchToHWND.htm

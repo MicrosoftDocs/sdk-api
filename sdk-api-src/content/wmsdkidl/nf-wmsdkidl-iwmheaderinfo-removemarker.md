@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.RemoveMarker
-title: IWMHeaderInfo::RemoveMarker
+title: IWMHeaderInfo::RemoveMarker (wmsdkidl.h)
 author: windows-sdk-content
 description: The RemoveMarker method removes a marker from the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_removemarker.htm

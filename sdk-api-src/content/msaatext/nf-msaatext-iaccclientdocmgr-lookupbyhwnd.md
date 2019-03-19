@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.LookupByHWND
-title: IAccClientDocMgr::LookupByHWND
+title: IAccClientDocMgr::LookupByHWND (msaatext.h)
 author: windows-sdk-content
 description: Clients call IAccClientDocMgr::LookupByHWND to get a document by providing the HWND for the document.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd.htm

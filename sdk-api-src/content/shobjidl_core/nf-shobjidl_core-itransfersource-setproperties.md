@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.SetProperties
-title: ITransferSource::SetProperties
+title: ITransferSource::SetProperties (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets properties that should be applied to an item.
 old-location: shell\ITransferSource_SetProperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentMediaItemAvailable
-title: IWMPEvents::CurrentMediaItemAvailable
+title: IWMPEvents::CurrentMediaItemAvailable (wmp.h)
 author: windows-sdk-content
 description: The CurrentMediaItemAvailable event occurs when the current media item becomes available.
 old-location: wmp\iwmpevents_iwmpevents__currentmediaitemavailable.htm

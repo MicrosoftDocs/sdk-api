@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDAddress.Deserialize
-title: IWSDAddress::Deserialize
+title: IWSDAddress::Deserialize (wsdbase.h)
 author: windows-sdk-content
 description: Parses the address, validates its component parts and saves them in the object.
 old-location: ncd\iwsdaddress_deserialize.htm

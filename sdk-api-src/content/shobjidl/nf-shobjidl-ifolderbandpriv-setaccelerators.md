@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetAccelerators
-title: IFolderBandPriv::SetAccelerators
+title: IFolderBandPriv::SetAccelerators (shobjidl.h)
 author: windows-sdk-content
 description: Sets accelerators.
 old-location: shell\IFolderBandPriv_SetAccelerators.htm

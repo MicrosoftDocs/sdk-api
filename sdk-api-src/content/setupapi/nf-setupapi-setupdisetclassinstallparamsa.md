@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetClassInstallParamsA
-title: SetupDiSetClassInstallParamsA function
+title: SetupDiSetClassInstallParamsA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetClassInstallParams function sets or clears class install parameters for a device information set or a particular device information element.
 old-location: devinst\setupdisetclassinstallparams.htm

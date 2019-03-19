@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddStructureChangedEventHandler
-title: IUIAutomationEventHandlerGroup::AddStructureChangedEventHandler
+title: IUIAutomationEventHandlerGroup::AddStructureChangedEventHandler (uiautomationclient.h)
 author: windows-sdk-content
 description: Registers a method that handles structure-changed events.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addstructurechangedeventhandler.htm

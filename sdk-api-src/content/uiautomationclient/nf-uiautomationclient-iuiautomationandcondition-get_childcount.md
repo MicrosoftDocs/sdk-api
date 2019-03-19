@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAndCondition.get_ChildCount
-title: IUIAutomationAndCondition::get_ChildCount
+title: IUIAutomationAndCondition::get_ChildCount (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the number of conditions that make up this &#0034;and&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationAndCondition_ChildCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpGetFilterV4
-title: DhcpGetFilterV4 function
+title: DhcpGetFilterV4 function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves the enable/disable settings for the DHCPv4 server's allow/deny lists.
 old-location: dhcp\dhcpgetfilterv4.htm

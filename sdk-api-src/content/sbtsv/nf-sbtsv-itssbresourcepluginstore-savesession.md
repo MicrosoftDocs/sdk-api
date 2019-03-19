@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SaveSession
-title: ITsSbResourcePluginStore::SaveSession
+title: ITsSbResourcePluginStore::SaveSession (sbtsv.h)
 author: windows-sdk-content
 description: Saves a session.
 old-location: termserv\itssbresourcepluginstore_savesession.htm

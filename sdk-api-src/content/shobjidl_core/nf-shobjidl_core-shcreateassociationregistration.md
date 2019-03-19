@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHCreateAssociationRegistration
-title: SHCreateAssociationRegistration function
+title: SHCreateAssociationRegistration function (shobjidl_core.h)
 author: windows-sdk-content
 description: Creates an IApplicationAssociationRegistration object based on the stock implementation of the interface provided by Windows.
 old-location: shell\SHCreateAssociationRegistration.htm

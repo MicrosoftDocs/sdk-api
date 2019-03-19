@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetBandedData
-title: IWiaDataTransfer::idtGetBandedData
+title: IWiaDataTransfer::idtGetBandedData (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaDataTransfer::idtGetBandedData method transfers a band of data from a hardware device to an application. For efficiency, applications retrieve data from Windows Image Acquisition (WIA) hardware devices in successive bands.
 old-location: wia\_wia_IWiaDataTransfer_idtGetBandedData.htm

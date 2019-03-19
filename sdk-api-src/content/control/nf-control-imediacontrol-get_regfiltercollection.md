@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaControl.get_RegFilterCollection
-title: IMediaControl::get_RegFilterCollection
+title: IMediaControl::get_RegFilterCollection (control.h)
 author: windows-sdk-content
 description: The get_RegFilterCollection method retrieves a collection of all the filters listed in the registry.
 old-location: dshow\imediacontrol_get_regfiltercollection.htm

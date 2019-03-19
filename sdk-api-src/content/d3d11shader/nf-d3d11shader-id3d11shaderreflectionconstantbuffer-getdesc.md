@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionConstantBuffer.GetDesc
-title: ID3D11ShaderReflectionConstantBuffer::GetDesc
+title: ID3D11ShaderReflectionConstantBuffer::GetDesc (d3d11shader.h)
 author: windows-sdk-content
 description: Get a constant-buffer description.
 old-location: direct3d11\id3d11shaderreflectionconstantbuffer_getdesc.htm

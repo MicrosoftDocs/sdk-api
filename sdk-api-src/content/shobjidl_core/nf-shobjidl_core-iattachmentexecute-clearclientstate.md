@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.ClearClientState
-title: IAttachmentExecute::ClearClientState
+title: IAttachmentExecute::ClearClientState (shobjidl_core.h)
 author: windows-sdk-content
 description: Removes any stored state that is based on the client's GUID. An example might be a setting based on a checked box that indicates a prompt should not be displayed again for a particular file type.
 old-location: shell\IAttachmentExecute_ClearClientState.htm

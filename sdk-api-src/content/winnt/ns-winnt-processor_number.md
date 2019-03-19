@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._PROCESSOR_NUMBER
-title: PROCESSOR_NUMBER
+title: PROCESSOR_NUMBER (winnt.h)
 author: windows-sdk-content
 description: Represents a logical processor in a processor group.
 old-location: base\processor_number.htm

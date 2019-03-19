@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.CreateMD5SSOHash
-title: CreateMD5SSOHash function
+title: CreateMD5SSOHash function (winineti.h)
 author: windows-sdk-content
 description: The CreateMD5SSOHash function obtains the default Microsoft Passport password for a specified account or realm, creates an MD5 hash from it using a specified wide-character challenge string, and returns the result as a string of hexadecimal digit bytes.
 old-location: wininet\createmd5ssohash.htm

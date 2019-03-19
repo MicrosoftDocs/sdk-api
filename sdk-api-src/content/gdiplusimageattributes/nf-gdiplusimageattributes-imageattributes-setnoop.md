@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetNoOp
-title: ImageAttributes::SetNoOp
+title: ImageAttributes::SetNoOp (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::SetNoOp method turns off color adjustment for a specified category. You can call ImageAttributes::ClearNoOp to reinstate the color-adjustment settings that were in place before the call to ImageAttributes::SetNoOp.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetNoOp_type_.htm

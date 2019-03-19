@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi._PROCESS_INFORMATION
-title: PROCESS_INFORMATION
+title: PROCESS_INFORMATION (processthreadsapi.h)
 author: windows-sdk-content
 description: Contains information about a newly created process and its primary thread. It is used with the CreateProcess, CreateProcessAsUser, CreateProcessWithLogonW, or CreateProcessWithTokenW function.
 old-location: base\process_information_str.htm

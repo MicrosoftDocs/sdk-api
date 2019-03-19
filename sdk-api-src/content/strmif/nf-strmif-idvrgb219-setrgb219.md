@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDVRGB219.SetRGB219
-title: IDVRGB219::SetRGB219
+title: IDVRGB219::SetRGB219 (strmif.h)
 author: windows-sdk-content
 description: The SetRGB219 method controls the dynamic range for DV encoding and decoding.
 old-location: dshow\idvrgb219_setrgb219.htm

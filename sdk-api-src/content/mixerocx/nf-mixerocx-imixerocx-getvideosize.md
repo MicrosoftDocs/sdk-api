@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetVideoSize
-title: IMixerOCX::GetVideoSize
+title: IMixerOCX::GetVideoSize (mixerocx.h)
 author: windows-sdk-content
 description: The GetVideoSize method retrieves the current size of the video rectangle.
 old-location: dshow\imixerocx_getvideosize.htm

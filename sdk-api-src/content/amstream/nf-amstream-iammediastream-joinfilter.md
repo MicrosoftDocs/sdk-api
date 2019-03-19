@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaStream.JoinFilter
-title: IAMMediaStream::JoinFilter
+title: IAMMediaStream::JoinFilter (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The JoinFilter method connects a media stream to the Media Stream filter, which is used internally by the multimedia stream object. Applications should not call this method.
 old-location: dshow\iammediastream_joinfilter.htm

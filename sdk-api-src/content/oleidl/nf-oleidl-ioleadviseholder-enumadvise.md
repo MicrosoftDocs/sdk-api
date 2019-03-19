@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.EnumAdvise
-title: IOleAdviseHolder::EnumAdvise
+title: IOleAdviseHolder::EnumAdvise (oleidl.h)
 author: windows-sdk-content
 description: Creates an enumerator that can be used to enumerate the advisory connections currently established for an object.
 old-location: com\ioleadviseholder_enumadvise.htm

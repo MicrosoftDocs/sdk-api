@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CreateDataAdviseHolder
-title: CreateDataAdviseHolder function
+title: CreateDataAdviseHolder function (objbase.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the OLE implementation of IDataAdviseHolder on the data advise holder object.
 old-location: com\createdataadviseholder.htm

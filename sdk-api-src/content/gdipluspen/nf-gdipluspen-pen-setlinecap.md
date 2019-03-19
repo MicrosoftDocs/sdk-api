@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspen.Pen.SetLineCap
-title: Pen::SetLineCap
+title: Pen::SetLineCap (gdipluspen.h)
 author: windows-sdk-content
 description: The Pen::SetLineCap method sets the cap styles for the start, end, and dashes in a line drawn with this pen.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetLineCap_startCap_endCap_dashCap_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamPalette
-title: ID3D11VideoContext::VideoProcessorSetStreamPalette
+title: ID3D11VideoContext::VideoProcessorSetStreamPalette (d3d11.h)
 author: windows-sdk-content
 description: Sets the color-palette entries for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreampalette.htm

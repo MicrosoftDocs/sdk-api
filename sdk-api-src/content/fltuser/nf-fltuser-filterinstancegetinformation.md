@@ -1,6 +1,6 @@
 ---
 UID: NF:fltuser.FilterInstanceGetInformation
-title: FilterInstanceGetInformation function
+title: FilterInstanceGetInformation function (fltuser.h)
 author: windows-sdk-content
 description: The FilterInstanceGetInformation function returns various kinds of information about a minifilter instance.
 old-location: ifsk\filterinstancegetinformation.htm

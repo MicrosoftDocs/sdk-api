@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_UsernamePasswordCreds
-title: MI_UsernamePasswordCreds
+title: MI_UsernamePasswordCreds (mi.h)
 author: windows-sdk-content
 description: A username/password combination used for subscription operations.
 old-location: wmi_v2\mi_usernamepasswordcreds.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptImportPKCS8
-title: CryptImportPKCS8 function
+title: CryptImportPKCS8 function (wincrypt.h)
 author: windows-sdk-content
 description: Imports the private key in PKCS #8 format to a cryptographic service provider (CSP).
 old-location: security\cryptimportpkcs8.htm

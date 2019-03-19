@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.ISeekingPassThru
-title: ISeekingPassThru
+title: ISeekingPassThru (strmif.h)
 author: windows-sdk-content
 description: The ISeekingPassThru interface creates a helper object that implements seeking for one-input filters.
 old-location: dshow\iseekingpassthru.htm

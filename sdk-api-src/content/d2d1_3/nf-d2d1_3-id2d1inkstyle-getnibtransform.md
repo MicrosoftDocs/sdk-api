@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.GetNibTransform
-title: ID2D1InkStyle::GetNibTransform
+title: ID2D1InkStyle::GetNibTransform (d2d1_3.h)
 author: windows-sdk-content
 description: Retrieves the transform to be applied to this style's nib shape.
 old-location: direct2d\id2d1inkstyle_getnibtransform.htm

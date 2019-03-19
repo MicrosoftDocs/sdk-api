@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport.arp_send_reply
-title: ARP_SEND_REPLY
+title: ARP_SEND_REPLY (ipexport.h)
 author: windows-sdk-content
 description: The ARP_SEND_REPLY structure stores information about an Address Resolution Protocol (ARP) reply messages.
 old-location: iphlp\arp_send_reply.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.CreatePrivateObjectSecurityWithMultipleInheritance
-title: CreatePrivateObjectSecurityWithMultipleInheritance function
+title: CreatePrivateObjectSecurityWithMultipleInheritance function (securitybaseapi.h)
 author: windows-sdk-content
 description: Allocates and initializes a self-relative security descriptor for a new private object created by the resource manager calling this function.
 old-location: security\createprivateobjectsecuritywithmultipleinheritance.htm

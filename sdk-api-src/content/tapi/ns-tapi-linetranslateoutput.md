@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.linetranslateoutput_tag
-title: LINETRANSLATEOUTPUT
+title: LINETRANSLATEOUTPUT (tapi.h)
 author: windows-sdk-content
 description: The LINETRANSLATEOUTPUT structure describes the result of an address translation. The lineTranslateAddress function uses this structure.
 old-location: tapi2\linetranslateoutput_str.htm

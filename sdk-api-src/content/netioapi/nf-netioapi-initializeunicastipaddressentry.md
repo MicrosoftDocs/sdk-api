@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.InitializeUnicastIpAddressEntry
-title: InitializeUnicastIpAddressEntry function
+title: InitializeUnicastIpAddressEntry function (netioapi.h)
 author: windows-sdk-content
 description: Initializes a MIB_UNICASTIPADDRESS_ROW structure with default values for a unicast IP address entry on the local computer.
 old-location: iphlp\initializeunicastipaddressentry.htm

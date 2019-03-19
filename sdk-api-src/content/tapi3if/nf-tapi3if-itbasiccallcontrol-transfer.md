@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Transfer
-title: ITBasicCallControl::Transfer
+title: ITBasicCallControl::Transfer (tapi3if.h)
 author: windows-sdk-content
 description: The Transfer method transfers the current call to the destination address.
 old-location: tapi3\itbasiccallcontrol_transfer.htm

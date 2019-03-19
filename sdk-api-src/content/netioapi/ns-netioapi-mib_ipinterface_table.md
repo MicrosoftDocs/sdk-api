@@ -1,6 +1,6 @@
 ---
 UID: NS:netioapi._MIB_IPINTERFACE_TABLE
-title: MIB_IPINTERFACE_TABLE
+title: MIB_IPINTERFACE_TABLE (netioapi.h)
 author: windows-sdk-content
 description: Contains a table of IP interface entries.
 old-location: mib\mib_ipinterface_table.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IObjectWithProgID.SetProgID
-title: IObjectWithProgID::SetProgID
+title: IObjectWithProgID::SetProgID (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the ProgID of an object.
 old-location: shell\IObjectWithProgID_SetProgID.htm

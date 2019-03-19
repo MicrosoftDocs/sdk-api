@@ -1,6 +1,6 @@
 ---
 UID: NS:peerdist.peerdist_retrieval_options_tag
-title: PEERDIST_RETRIEVAL_OPTIONS
+title: PEERDIST_RETRIEVAL_OPTIONS (peerdist.h)
 author: windows-sdk-content
 description: The PEER_RETRIEVAL_OPTIONS structure contains version of the content information to retrieve.
 old-location: p2p\peerdist_retrieval_options.htm

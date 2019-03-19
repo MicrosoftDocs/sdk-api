@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_CREATESURFACE
-title: PDD_CREATESURFACE
+title: PDD_CREATESURFACE (ddrawint.h)
 author: windows-sdk-content
 description: The CreateD3DBuffer callback function is used to create a driver-level command or vertex buffer of the specified description.
 old-location: display\created3dbuffer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wininet.__unnamed_struct_6
-title: INTERNET_PER_CONN_OPTION_LISTW
+title: INTERNET_PER_CONN_OPTION_LISTW (wininet.h)
 author: windows-sdk-content
 description: Contains the list of options for a particular Internet connection.
 old-location: wininet\internet_per_conn_option_list.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_StartWhenAvailable
-title: ITaskSettings::get_StartWhenAvailable
+title: ITaskSettings::get_StartWhenAvailable (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler can start the task at any time after its scheduled time has passed.
 old-location: taskschd\itasksettings_startwhenavailable.htm

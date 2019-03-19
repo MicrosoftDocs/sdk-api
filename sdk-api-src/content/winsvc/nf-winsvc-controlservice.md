@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.ControlService
-title: ControlService function
+title: ControlService function (winsvc.h)
 author: windows-sdk-content
 description: Sends a control code to a service.
 old-location: base\controlservice.htm

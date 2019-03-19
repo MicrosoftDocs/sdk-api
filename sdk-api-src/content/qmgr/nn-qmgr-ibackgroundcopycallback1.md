@@ -1,6 +1,6 @@
 ---
 UID: NN:qmgr.IBackgroundCopyCallback1
-title: IBackgroundCopyCallback1
+title: IBackgroundCopyCallback1 (qmgr.h)
 author: windows-sdk-content
 description: Implement the IBackgroundCopyCallback1 interface to receive notification when events occur.
 old-location: bits\ibackgroundcopycallback1.htm

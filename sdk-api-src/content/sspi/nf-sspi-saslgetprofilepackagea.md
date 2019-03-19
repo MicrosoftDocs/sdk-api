@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SaslGetProfilePackageA
-title: SaslGetProfilePackageA function
+title: SaslGetProfilePackageA function (sspi.h)
 author: windows-sdk-content
 description: Returns the package information for the specified package.
 old-location: security\saslgetprofilepackage.htm

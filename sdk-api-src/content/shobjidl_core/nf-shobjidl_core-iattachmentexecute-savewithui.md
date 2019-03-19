@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SaveWithUI
-title: IAttachmentExecute::SaveWithUI
+title: IAttachmentExecute::SaveWithUI (shobjidl_core.h)
 author: windows-sdk-content
 description: Presents the user with explanatory error UI if the save action fails.
 old-location: shell\IAttachmentExecute_SaveWithUI.htm

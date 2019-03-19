@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontSize
-title: IDWriteTextLayout::GetFontSize
+title: IDWriteTextLayout::GetFontSize (dwrite.h)
 author: windows-sdk-content
 description: Gets the font em height of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontSize.htm

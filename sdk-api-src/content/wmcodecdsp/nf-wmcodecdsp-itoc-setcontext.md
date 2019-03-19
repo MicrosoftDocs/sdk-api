@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetContext
-title: IToc::SetContext
+title: IToc::SetContext (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetContext method associates a caller-supplied context block with the table of contents.
 old-location: mf\itoc_setcontext.htm

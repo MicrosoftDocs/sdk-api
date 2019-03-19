@@ -1,6 +1,6 @@
 ---
 UID: NS:routprot._UPDATE_COMPLETE_MESSAGE
-title: UPDATE_COMPLETE_MESSAGE
+title: UPDATE_COMPLETE_MESSAGE (routprot.h)
 author: windows-sdk-content
 description: The UPDATE_COMPLETE_MESSAGE structure contains information describing the completion status of an update operation.
 old-location: rras\update_complete_message.htm

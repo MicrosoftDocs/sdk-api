@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.EnumSystemFirmwareTables
-title: EnumSystemFirmwareTables function
+title: EnumSystemFirmwareTables function (sysinfoapi.h)
 author: windows-sdk-content
 description: Enumerates all system firmware tables of the specified type.
 old-location: base\enumsystemfirmwaretables.htm

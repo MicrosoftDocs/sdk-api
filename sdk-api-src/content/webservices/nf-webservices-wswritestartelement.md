@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteStartElement
-title: WsWriteStartElement function
+title: WsWriteStartElement function (webservices.h)
 author: windows-sdk-content
 description: Writes a start element to the writer.
 old-location: wsw\wswritestartelement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetVMGAttributes
-title: IDvdInfo::GetVMGAttributes
+title: IDvdInfo::GetVMGAttributes (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves attributes of all video, audio, and subpicture streams for video manager (VMG) menus.
 old-location: dshow\idvdinfo_getvmgattributes.htm

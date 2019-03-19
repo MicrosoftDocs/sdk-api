@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ChooseImageDefaults
-title: IFileSystemImage::ChooseImageDefaults
+title: IFileSystemImage::ChooseImageDefaults (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the default file system types and the image size based on the current media.
 old-location: imapi\ifilesystemimage_chooseimagedefaults.htm

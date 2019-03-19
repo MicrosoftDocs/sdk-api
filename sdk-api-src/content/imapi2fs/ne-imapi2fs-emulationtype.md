@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2fs.EmulationType
-title: EmulationType
+title: EmulationType (imapi2fs.h)
 author: windows-sdk-content
 description: Defines values for media types that the boot image is intended to emulate.
 old-location: imapi\emulationtype.htm

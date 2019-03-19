@@ -1,6 +1,6 @@
 ---
 UID: NE:wmp.WMPBurnFormat
-title: WMPBurnFormat
+title: WMPBurnFormat (wmp.h)
 author: windows-sdk-content
 description: The WMPBurnFormat enumeration type defines the possible types of CDs for burning.
 old-location: wmp\wmpburnformat.htm

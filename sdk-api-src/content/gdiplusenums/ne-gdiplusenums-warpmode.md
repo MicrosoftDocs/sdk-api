@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.WarpMode
-title: WarpMode
+title: WarpMode (gdiplusenums.h)
 author: windows-sdk-content
 description: The WarpMode enumeration specifies warp modes that can be used to transform images.
 old-location: gdiplus\_gdiplus_ENUM_WarpMode.htm

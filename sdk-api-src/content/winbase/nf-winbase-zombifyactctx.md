@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ZombifyActCtx
-title: ZombifyActCtx function
+title: ZombifyActCtx function (winbase.h)
 author: windows-sdk-content
 description: The ZombifyActCtx function deactivates the specified activation context, but does not deallocate it.
 old-location: setup\zombifyactctx.htm

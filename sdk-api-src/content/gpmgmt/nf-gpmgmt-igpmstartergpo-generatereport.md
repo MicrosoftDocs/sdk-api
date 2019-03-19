@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GenerateReport
-title: IGPMStarterGPO::GenerateReport
+title: IGPMStarterGPO::GenerateReport (gpmgmt.h)
 author: windows-sdk-content
 description: Gets the report for the Starter GPO.
 old-location: gpmc\igpmstartergpo_generatereport.htm

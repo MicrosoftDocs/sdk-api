@@ -1,6 +1,6 @@
 ---
 UID: NN:rendezvoussession.DRendezvousSessionEvents
-title: DRendezvousSessionEvents
+title: DRendezvousSessionEvents (rendezvoussession.h)
 author: windows-sdk-content
 description: Handles events that are generated or received by a IRendezvousSession object.
 old-location: remoteassist\remoteassist_DRendezvousSessionEvents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.InjectNtmsMedia
-title: InjectNtmsMedia function
+title: InjectNtmsMedia function (ntmsapi.h)
 author: windows-sdk-content
 description: The InjectNtmsMedia function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues InjectNtmsMedia and returns success.
 old-location: fs\injectntmsmedia.htm

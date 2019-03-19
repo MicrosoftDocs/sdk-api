@@ -1,6 +1,6 @@
 ---
 UID: NF:ddstream.IDirectDrawStreamSample.SetRect
-title: IDirectDrawStreamSample::SetRect
+title: IDirectDrawStreamSample::SetRect (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Changes the clipping rectangle for a sample.
 old-location: dshow\idirectdrawstreamsample_setrect.htm

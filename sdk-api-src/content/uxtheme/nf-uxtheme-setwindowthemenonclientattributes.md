@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.SetWindowThemeNonClientAttributes
-title: SetWindowThemeNonClientAttributes function
+title: SetWindowThemeNonClientAttributes function (uxtheme.h)
 author: windows-sdk-content
 description: Sets non-client attributes to control how visual styles are applied to a specified window.
 old-location: controls\SetWindowThemeNonClientAttributes.htm

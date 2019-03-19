@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ENCODER_END_CALLBACK
-title: WS_ENCODER_END_CALLBACK
+title: WS_ENCODER_END_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Encodes the end of a message.
 old-location: wsw\ws_encoder_end_callback.htm

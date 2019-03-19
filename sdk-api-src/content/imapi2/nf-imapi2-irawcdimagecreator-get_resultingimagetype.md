@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_ResultingImageType
-title: IRawCDImageCreator::get_ResultingImageType
+title: IRawCDImageCreator::get_ResultingImageType (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the value that specifies the type of image file that will be generated.
 old-location: imapi\irawcdimagecreator_get_resultingimagetype.htm

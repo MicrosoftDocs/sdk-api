@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.GetDataForNewHardwareKey
-title: ID3D11VideoContext1::GetDataForNewHardwareKey
+title: ID3D11VideoContext1::GetDataForNewHardwareKey (d3d11_1.h)
 author: windows-sdk-content
 description: Allows the driver to return IHV specific information used when initializing the new hardware key.
 old-location: mf\id3d11videocontext1_getdatafornewhardwarekey.htm

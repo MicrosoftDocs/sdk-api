@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferRecordControl.Stop
-title: IStreamBufferRecordControl::Stop
+title: IStreamBufferRecordControl::Stop (sbe.h)
 author: windows-sdk-content
 description: The Stop method stops the recording and closes the file.
 old-location: mstv\istreambufferrecordcontrol_stop.htm

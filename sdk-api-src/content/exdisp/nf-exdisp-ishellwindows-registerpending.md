@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows.RegisterPending
-title: IShellWindows::RegisterPending
+title: IShellWindows::RegisterPending (exdisp.h)
 author: windows-sdk-content
 description: Registers a pending window as a Shell window; the window is specified by an absolute PIDL.
 old-location: shell\IShellWindows_RegisterPending.htm

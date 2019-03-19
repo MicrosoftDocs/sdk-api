@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicAudio.put_Volume
-title: IBasicAudio::put_Volume
+title: IBasicAudio::put_Volume (control.h)
 author: windows-sdk-content
 description: The put_Volume method sets the volume (amplitude) of the audio signal.
 old-location: dshow\ibasicaudio_put_volume.htm

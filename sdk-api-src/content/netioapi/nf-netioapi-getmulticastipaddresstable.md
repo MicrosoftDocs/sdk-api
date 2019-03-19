@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetMulticastIpAddressTable
-title: GetMulticastIpAddressTable function
+title: GetMulticastIpAddressTable function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves the multicast IP address table on the local computer.
 old-location: iphlp\getmulticastipaddresstable.htm

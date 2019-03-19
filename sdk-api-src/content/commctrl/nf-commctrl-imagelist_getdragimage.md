@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ImageList_GetDragImage
-title: ImageList_GetDragImage function
+title: ImageList_GetDragImage function (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the temporary image list that is used for the drag image. The function also retrieves the current drag position and the offset of the drag image relative to the drag position.
 old-location: controls\ImageList_GetDragImage.htm

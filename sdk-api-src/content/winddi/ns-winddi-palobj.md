@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._PALOBJ
-title: PALOBJ
+title: PALOBJ (winddi.h)
 author: windows-sdk-content
 description: The PALOBJ structure is a user object that represents an indexed color palette.
 old-location: display\palobj.htm

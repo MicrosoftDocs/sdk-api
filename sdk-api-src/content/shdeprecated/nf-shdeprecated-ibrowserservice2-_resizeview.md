@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ResizeView
-title: IBrowserService2::_ResizeView
+title: IBrowserService2::_ResizeView (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Calls IBrowserService2::_UpdateViewRectSize, then updates the browser view by using IOleInPlaceActiveObject::ResizeBorder.
 old-location: shell\IBrowserService2__ResizeView.htm

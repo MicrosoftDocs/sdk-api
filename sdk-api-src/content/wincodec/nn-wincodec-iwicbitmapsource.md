@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICBitmapSource
-title: IWICBitmapSource
+title: IWICBitmapSource (wincodec.h)
 author: windows-sdk-content
 description: Exposes methods that refers to a source from which pixels are retrieved, but cannot be written back to.
 old-location: wic\_wic_codec_iwicbitmapsource.htm

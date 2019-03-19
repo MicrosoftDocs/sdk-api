@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwService.put_Enabled
-title: INetFwService::put_Enabled
+title: INetFwService::put_Enabled (netfw.h)
 author: windows-sdk-content
 description: Indicates whether all the ports associated with the service are enabled.
 old-location: ics\inetfwservice_enabled.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterEncoderConfig
-title: IMFSinkWriterEncoderConfig
+title: IMFSinkWriterEncoderConfig (mfreadwrite.h)
 author: windows-sdk-content
 description: Provides additional functionality on the sink writer for dynamically changing the media type and encoder configuration.
 old-location: mf\imfsinkwriterencoderconfig.htm

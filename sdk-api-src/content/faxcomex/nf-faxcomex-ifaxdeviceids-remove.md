@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.Remove
-title: IFaxDeviceIds::Remove
+title: IFaxDeviceIds::Remove (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceIds::Remove method removes an item from the FaxDeviceIds collection.
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_remove_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IWriteEngine2.CancelWrite
-title: IWriteEngine2::CancelWrite
+title: IWriteEngine2::CancelWrite (imapi2.h)
 author: windows-sdk-content
 description: Cancels a write operation that is in progress.
 old-location: imapi\iwriteengine2_cancelwrite.htm

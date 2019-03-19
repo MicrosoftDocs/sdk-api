@@ -1,6 +1,6 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager.GetAudioSessionControl
-title: IAudioSessionManager::GetAudioSessionControl
+title: IAudioSessionManager::GetAudioSessionControl (audiopolicy.h)
 author: windows-sdk-content
 description: The GetAudioSessionControl method retrieves an audio session control.
 old-location: coreaudio\iaudiosessionmanager_getaudiosessioncontrol.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1Properties
-title: ID2D1Properties
+title: ID2D1Properties (d2d1_1.h)
 author: windows-sdk-content
 description: Represents a set of run-time bindable and discoverable properties that allow a data-driven application to modify the state of a Direct2D effect.
 old-location: direct2d\id2d1properties.htm

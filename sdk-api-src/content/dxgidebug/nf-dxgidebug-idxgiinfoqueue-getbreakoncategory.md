@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnCategory
-title: IDXGIInfoQueue::GetBreakOnCategory
+title: IDXGIInfoQueue::GetBreakOnCategory (dxgidebug.h)
 author: windows-sdk-content
 description: Determines whether the break on a message category is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakoncategory.htm

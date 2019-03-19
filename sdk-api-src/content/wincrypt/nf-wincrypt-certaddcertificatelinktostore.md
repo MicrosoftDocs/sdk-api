@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertAddCertificateLinkToStore
-title: CertAddCertificateLinkToStore function
+title: CertAddCertificateLinkToStore function (wincrypt.h)
 author: windows-sdk-content
 description: Adds a link in a certificate store to a certificate context in a different store.
 old-location: security\certaddcertificatelinktostore.htm

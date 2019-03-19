@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
-title: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
+title: WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING (webservices.h)
 author: windows-sdk-content
 description: The security binding subtype for specifying the use of the Windows Integrated Authentication protocol (such as Kerberos, NTLM or SPNEGO) with the TCP transport.
 old-location: wsw\ws_tcp_sspi_transport_security_binding.htm

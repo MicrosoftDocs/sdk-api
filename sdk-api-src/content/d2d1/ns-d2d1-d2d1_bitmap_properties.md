@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_BITMAP_PROPERTIES
-title: D2D1_BITMAP_PROPERTIES
+title: D2D1_BITMAP_PROPERTIES (d2d1.h)
 author: windows-sdk-content
 description: Describes the pixel format and dpi of a bitmap.
 old-location: direct2d\D2D1_BITMAP_PROPERTIES.htm

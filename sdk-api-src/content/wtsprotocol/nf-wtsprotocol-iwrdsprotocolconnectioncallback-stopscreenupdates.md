@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.StopScreenUpdates
-title: IWRdsProtocolConnectionCallback::StopScreenUpdates
+title: IWRdsProtocolConnectionCallback::StopScreenUpdates (wtsprotocol.h)
 author: windows-sdk-content
 description: Requests that the Remote Desktop Services service stop updating the client screen.
 old-location: termserv\iwrdsprotocolconnectioncallback_stopscreenupdates.htm

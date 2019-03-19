@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupCloseInfFile
-title: SetupCloseInfFile function
+title: SetupCloseInfFile function (setupapi.h)
 author: windows-sdk-content
 description: The SetupCloseInfFile function closes the INF file opened by a call to SetupOpenInfFile. This function closes any INF files appended to it by calling SetupOpenAppendInfFile.
 old-location: setup\setupcloseinffile.htm

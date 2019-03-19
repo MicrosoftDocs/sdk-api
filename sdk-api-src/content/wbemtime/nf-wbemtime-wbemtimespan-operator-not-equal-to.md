@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-not-equal-to
-title: WBEMTimeSpan::operator-not-equal-to
+title: WBEMTimeSpan::operator-not-equal-to (wbemtime.h)
 author: windows-sdk-content
 description: Compares two WBEMTimeSpan objects using a not equal comparison operator.
 old-location: wmi\wbemtimespan_comparison_operators_notequal.htm

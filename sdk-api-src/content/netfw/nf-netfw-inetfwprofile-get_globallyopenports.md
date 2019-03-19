@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwProfile.get_GloballyOpenPorts
-title: INetFwProfile::get_GloballyOpenPorts
+title: INetFwProfile::get_GloballyOpenPorts (netfw.h)
 author: windows-sdk-content
 description: Retrieves the collection of globally open ports of the profile.
 old-location: ics\inetfwprofile_globallyopenports.htm

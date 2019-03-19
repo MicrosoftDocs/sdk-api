@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_MulLong
-title: FLOATOBJ_MulLong function
+title: FLOATOBJ_MulLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_MulLong function multiplies the FLOATOBJ by the value of type LONG, and returns with the result in the first parameter.
 old-location: display\floatobj_mullong.htm

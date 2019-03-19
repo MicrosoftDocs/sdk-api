@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGetIntW
-title: XMVectorGetIntW function
+title: XMVectorGetIntW function (directxmath.h)
 author: windows-sdk-content
 description: Retrieve the w component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorgetintw.htm

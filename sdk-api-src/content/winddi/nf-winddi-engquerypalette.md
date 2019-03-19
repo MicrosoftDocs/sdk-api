@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngQueryPalette
-title: EngQueryPalette function
+title: EngQueryPalette function (winddi.h)
 author: windows-sdk-content
 description: The EngQueryPalette function queries the specified palette for its attributes.
 old-location: display\engquerypalette.htm

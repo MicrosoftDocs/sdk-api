@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.GetPageSize
-title: ISimilarityTraitsMapping::GetPageSize
+title: ISimilarityTraitsMapping::GetPageSize (msrdc.h)
 author: windows-sdk-content
 description: Returns the page size (disk block size) for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_getpagesize.htm

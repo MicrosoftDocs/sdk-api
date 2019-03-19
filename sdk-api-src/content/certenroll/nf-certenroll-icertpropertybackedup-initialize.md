@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyBackedUp.Initialize
-title: ICertPropertyBackedUp::Initialize
+title: ICertPropertyBackedUp::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Boolean value and a date.
 old-location: security\icertpropertybackedup_initialize_method.htm

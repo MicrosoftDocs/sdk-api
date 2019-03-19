@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSAGetLastError
-title: WSAGetLastError function
+title: WSAGetLastError function (winsock2.h)
 author: windows-sdk-content
 description: Returns the error status for the last Windows Sockets operation that failed.
 old-location: winsock\wsagetlasterror_2.htm

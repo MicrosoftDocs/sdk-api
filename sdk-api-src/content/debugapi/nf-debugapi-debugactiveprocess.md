@@ -1,6 +1,6 @@
 ---
 UID: NF:debugapi.DebugActiveProcess
-title: DebugActiveProcess function
+title: DebugActiveProcess function (debugapi.h)
 author: windows-sdk-content
 description: Enables a debugger to attach to an active process and debug it.
 old-location: base\debugactiveprocess.htm

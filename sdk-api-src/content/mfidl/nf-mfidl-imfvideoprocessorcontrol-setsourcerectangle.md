@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetSourceRectangle
-title: IMFVideoProcessorControl::SetSourceRectangle
+title: IMFVideoProcessorControl::SetSourceRectangle (mfidl.h)
 author: windows-sdk-content
 description: Sets the source rectangle.
 old-location: mf\imfvideoprocessorcontrol_setsourcerectangle.htm

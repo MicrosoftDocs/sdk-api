@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IEnumPIDMap
-title: IEnumPIDMap
+title: IEnumPIDMap (bdaiface.h)
 author: windows-sdk-content
 description: The IEnumPIDMap interface enumerates a collection of Packet ID (PID) maps.
 old-location: dshow\ienumpidmap.htm

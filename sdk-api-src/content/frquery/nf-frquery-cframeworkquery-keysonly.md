@@ -1,6 +1,6 @@
 ---
 UID: NF:frquery.CFrameworkQuery.KeysOnly
-title: CFrameworkQuery::KeysOnly
+title: CFrameworkQuery::KeysOnly (frquery.h)
 author: windows-sdk-content
 description: The KeysOnly method indicates whether only the key properties are required.
 old-location: wmi\cframeworkquery_keysonly.htm

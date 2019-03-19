@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.CreateTerminal
-title: ITTerminalSupport::CreateTerminal
+title: ITTerminalSupport::CreateTerminal (tapi3if.h)
 author: windows-sdk-content
 description: The CreateTerminal method creates and initializes a new ITTerminal object based on the dynamic terminal class and media. The terminal class is identified by a GUID. The GUID must be converted to a string using StringFromIID to pass to this method.
 old-location: tapi3\itterminalsupport_createterminal.htm

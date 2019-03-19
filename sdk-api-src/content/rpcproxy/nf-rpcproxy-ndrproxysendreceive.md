@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcproxy.NdrProxySendReceive
-title: NdrProxySendReceive function
+title: NdrProxySendReceive function (rpcproxy.h)
 author: windows-sdk-content
 description: The NdrProxySendReceive function sends a message to the server then waits for a reply.
 old-location: rpc\ndrproxysendreceive.htm

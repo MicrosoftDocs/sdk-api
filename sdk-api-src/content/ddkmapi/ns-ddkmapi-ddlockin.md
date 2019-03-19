@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDLOCKIN
-title: DDLOCKIN
+title: DDLOCKIN (ddkmapi.h)
 author: windows-sdk-content
 description: The DDLOCKIN structure contains the Microsoft DirectDraw object and DirectDraw surface handle information.
 old-location: display\ddlockin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Description
-title: IMsmConfigurableItem::get_Description
+title: IMsmConfigurableItem::get_Description (mergemod.h)
 author: windows-sdk-content
 description: The get_Description method retrieves the Description property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_description.htm

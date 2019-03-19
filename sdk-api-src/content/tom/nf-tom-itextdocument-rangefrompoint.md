@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument.RangeFromPoint
-title: ITextDocument::RangeFromPoint
+title: ITextDocument::RangeFromPoint (tom.h)
 author: windows-sdk-content
 description: Retrieves a range for the content at or nearest to the specified point on the screen.
 old-location: controls\ITextDocument_RangeFromPoint.htm

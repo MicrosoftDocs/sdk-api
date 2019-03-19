@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumStream
-title: IEnumStream
+title: IEnumStream (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumStream interface provides COM-standard enumeration methods for the ITStream interface. The ITStreamControl::EnumerateStreams and ITParticipant::EnumerateStreams methods return a pointer to IEnumStream.
 old-location: tapi3\ienumstream.htm

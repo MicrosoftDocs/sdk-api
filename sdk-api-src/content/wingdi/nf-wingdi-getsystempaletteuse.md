@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetSystemPaletteUse
-title: GetSystemPaletteUse function
+title: GetSystemPaletteUse function (wingdi.h)
 author: windows-sdk-content
 description: The GetSystemPaletteUse function retrieves the current state of the system (physical) palette for the specified device context (DC).
 old-location: gdi\getsystempaletteuse.htm

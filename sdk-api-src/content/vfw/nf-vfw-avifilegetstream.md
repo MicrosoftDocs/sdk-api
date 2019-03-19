@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIFileGetStream
-title: AVIFileGetStream function
+title: AVIFileGetStream function (vfw.h)
 author: windows-sdk-content
 description: The AVIFileGetStream function returns the address of a stream interface that is associated with a specified AVI file.
 old-location: multimedia\avifilegetstream.htm

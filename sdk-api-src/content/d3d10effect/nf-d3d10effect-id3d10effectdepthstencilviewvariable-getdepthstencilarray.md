@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilViewVariable.GetDepthStencilArray
-title: ID3D10EffectDepthStencilViewVariable::GetDepthStencilArray
+title: ID3D10EffectDepthStencilViewVariable::GetDepthStencilArray (d3d10effect.h)
 author: windows-sdk-content
 description: Get an array of depth-stencil-view resources.
 old-location: direct3d10\id3d10effectdepthstencilviewvariable_getdepthstencilarray.htm

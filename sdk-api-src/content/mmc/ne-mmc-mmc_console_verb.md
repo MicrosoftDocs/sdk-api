@@ -1,6 +1,6 @@
 ---
 UID: NE:mmc._MMC_CONSOLE_VERB
-title: MMC_CONSOLE_VERB
+title: MMC_CONSOLE_VERB (mmc.h)
 author: windows-sdk-content
 description: The MMC_CONSOLE_VERB enumeration defines the command identifiers available for MMC verbs. These values are used in the m_eCmdID parameter of IConsoleVerb::GetVerbState, IConsoleVerb::SetVerbState, and IConsoleVerb::SetDefaultVerb.
 old-location: mmc\mmc_console_verb.htm

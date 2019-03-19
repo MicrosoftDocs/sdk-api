@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.Reconnect
-title: IGraphConfig::Reconnect
+title: IGraphConfig::Reconnect (strmif.h)
 author: windows-sdk-content
 description: The Reconnect method performs a dynamic reconnection between two pins.
 old-location: dshow\igraphconfig_reconnect.htm

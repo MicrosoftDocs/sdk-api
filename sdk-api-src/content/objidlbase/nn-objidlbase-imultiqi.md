@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IMultiQI
-title: IMultiQI
+title: IMultiQI (objidlbase.h)
 author: windows-sdk-content
 description: Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call.
 old-location: com\imultiqi.htm

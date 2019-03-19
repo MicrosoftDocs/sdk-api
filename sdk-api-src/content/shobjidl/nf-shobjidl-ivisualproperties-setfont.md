@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetFont
-title: IVisualProperties::SetFont
+title: IVisualProperties::SetFont (shobjidl.h)
 author: windows-sdk-content
 description: Sets attributes of the font.
 old-location: shell\IVisualProperties_SetFont.htm

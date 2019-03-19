@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_IDENTITY_W
-title: SEC_WINNT_AUTH_IDENTITY_W
+title: SEC_WINNT_AUTH_IDENTITY_W (sspi.h)
 author: windows-sdk-content
 description: Allows you to pass a particular user name and password to the run-time library for the purpose of authentication.
 old-location: security\sec_winnt_auth_identity.htm

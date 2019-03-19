@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhParseInstanceNameA
-title: PdhParseInstanceNameA function
+title: PdhParseInstanceNameA function (pdh.h)
 author: windows-sdk-content
 description: Parses the elements of an instance string.
 old-location: perf\pdhparseinstancename.htm

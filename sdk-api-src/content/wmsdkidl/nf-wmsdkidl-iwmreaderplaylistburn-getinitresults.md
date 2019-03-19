@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.GetInitResults
-title: IWMReaderPlaylistBurn::GetInitResults
+title: IWMReaderPlaylistBurn::GetInitResults (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetInitResults method retrieves the results of the playlist file check.
 old-location: wmformat\iwmreaderplaylistburn_getinitresults.htm

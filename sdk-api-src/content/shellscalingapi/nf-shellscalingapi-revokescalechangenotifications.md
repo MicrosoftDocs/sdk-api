@@ -1,6 +1,6 @@
 ---
 UID: NF:shellscalingapi.RevokeScaleChangeNotifications
-title: RevokeScaleChangeNotifications function
+title: RevokeScaleChangeNotifications function (shellscalingapi.h)
 author: windows-sdk-content
 description: Revokes the registration of a window, preventing it from receiving callbacks when scaling information changes.
 old-location: shell\RevokeScaleChangeNotifications.htm

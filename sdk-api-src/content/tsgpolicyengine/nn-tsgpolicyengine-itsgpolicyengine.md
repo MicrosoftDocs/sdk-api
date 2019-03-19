@@ -1,6 +1,6 @@
 ---
 UID: NN:tsgpolicyengine.ITSGPolicyEngine
-title: ITSGPolicyEngine
+title: ITSGPolicyEngine (tsgpolicyengine.h)
 author: windows-sdk-content
 description: Exposes methods that authorize connections and resources.
 old-location: termserv\itsgpolicyengine.htm

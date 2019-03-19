@@ -1,6 +1,6 @@
 ---
 UID: NE:wtypesbase.tagMSHLFLAGS
-title: MSHLFLAGS
+title: MSHLFLAGS (wtypesbase.h)
 author: windows-sdk-content
 description: Specifies why the marshaling is to be done.
 old-location: com\mshlflags.htm

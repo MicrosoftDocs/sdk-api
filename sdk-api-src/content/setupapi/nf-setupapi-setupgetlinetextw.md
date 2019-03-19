@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupGetLineTextW
-title: SetupGetLineTextW function
+title: SetupGetLineTextW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupGetLineText function returns the contents of a line in an INF file in a compact form.
 old-location: setup\setupgetlinetext.htm

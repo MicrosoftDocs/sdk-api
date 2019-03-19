@@ -1,6 +1,6 @@
 ---
 UID: NF:mixerocx.IMixerOCX.OnDisplayChange
-title: IMixerOCX::OnDisplayChange
+title: IMixerOCX::OnDisplayChange (mixerocx.h)
 author: windows-sdk-content
 description: The OnDisplayChange method informs the Overlay Mixer that the monitor's display settings have changed. (Not implemented.).
 old-location: dshow\imixerocx_ondisplaychange.htm

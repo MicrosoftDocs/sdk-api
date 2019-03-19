@@ -1,6 +1,6 @@
 ---
 UID: NC:webservices.WS_ENCODER_ENCODE_CALLBACK
-title: WS_ENCODER_ENCODE_CALLBACK
+title: WS_ENCODER_ENCODE_CALLBACK (webservices.h)
 author: windows-sdk-content
 description: Encodes a message.
 old-location: wsw\ws_encoder_encode_callback.htm

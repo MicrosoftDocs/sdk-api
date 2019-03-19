@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.CreatePathGeometry
-title: ID2D1Factory1::CreatePathGeometry
+title: ID2D1Factory1::CreatePathGeometry (d2d1_1.h)
 author: windows-sdk-content
 description: Creates an ID2D1PathGeometry1 object.
 old-location: direct2d\id2d1factory1_createpathgeometry.htm

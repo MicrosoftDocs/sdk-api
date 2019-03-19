@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetGlyphOrientationTransform
-title: IDWriteTextAnalyzer1::GetGlyphOrientationTransform
+title: IDWriteTextAnalyzer1::GetGlyphOrientationTransform (dwrite_1.h)
 author: windows-sdk-content
 description: Returns 2x3 transform matrix for the respective angle to draw the glyph run.
 old-location: directwrite\idwritetextanalyzer1_getglyphorientationtransform.htm

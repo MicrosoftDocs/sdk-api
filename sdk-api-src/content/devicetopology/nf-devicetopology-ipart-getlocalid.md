@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IPart.GetLocalId
-title: IPart::GetLocalId
+title: IPart::GetLocalId (devicetopology.h)
 author: windows-sdk-content
 description: The GetLocalId method gets the local ID of this part.
 old-location: coreaudio\ipart_getlocalid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IETFilterConfig.InitLicense
-title: IETFilterConfig::InitLicense
+title: IETFilterConfig::InitLicense (encdec.h)
 author: windows-sdk-content
 description: The InitLicense method initializes an encryption license.
 old-location: mstv\ietfilterconfig_initlicense.htm

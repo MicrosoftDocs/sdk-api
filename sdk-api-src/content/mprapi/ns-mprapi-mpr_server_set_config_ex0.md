@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_SERVER_SET_CONFIG_EX0
-title: MPR_SERVER_SET_CONFIG_EX0
+title: MPR_SERVER_SET_CONFIG_EX0 (mprapi.h)
 author: windows-sdk-content
 description: Used to get or set the tunnel configuration information of a RAS server.
 old-location: rras\mpr_server_set_config_ex.htm

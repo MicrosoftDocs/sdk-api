@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ExcludeClip(IN const Rect &)
-title: Graphics::ExcludeClip(IN const Rect &)
+title: Graphics::ExcludeClip(IN const Rect &) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::ExcludeClip method updates the clipping region to the portion of itself that does not intersect the specified rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ExcludeClip_Rect_rect_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetDropPoint
-title: IShellFolderView::GetDropPoint
+title: IShellFolderView::GetDropPoint (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the point at which the current drag-and-drop operation was terminated.
 old-location: shell\IShellFolderView_GetDropPoint.htm

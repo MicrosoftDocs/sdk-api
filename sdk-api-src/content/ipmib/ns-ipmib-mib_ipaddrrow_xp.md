@@ -1,6 +1,6 @@
 ---
 UID: NS:ipmib._MIB_IPADDRROW_XP
-title: MIB_IPADDRROW_XP
+title: MIB_IPADDRROW_XP (ipmib.h)
 author: windows-sdk-content
 description: Specifies information for a particular IPv4 address in the MIB_IPADDRTABLE structure.
 old-location: mib\mib_ipaddrrow.htm

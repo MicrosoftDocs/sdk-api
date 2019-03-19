@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IEnumAssocHandlers
-title: IEnumAssocHandlers
+title: IEnumAssocHandlers (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes a method that allows enumeration of a collection of handlers associated with particular file name extensions.
 old-location: shell\IEnumAssocHandlers.htm

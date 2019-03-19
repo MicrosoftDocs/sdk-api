@@ -1,6 +1,6 @@
 ---
 UID: NE:eaphostpeertypes._ISOLATION_STATE
-title: ISOLATION_STATE
+title: ISOLATION_STATE (eaphostpeertypes.h)
 author: windows-sdk-content
 description: Defines the set of possible isolation state values of a machine.
 old-location: eaphost\isolation_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_EXCEPTION
-title: MINIDUMP_EXCEPTION
+title: MINIDUMP_EXCEPTION (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains exception information.
 old-location: base\minidump_exception_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.DeleteProfile
-title: IDot11AdHocNetwork::DeleteProfile
+title: IDot11AdHocNetwork::DeleteProfile (adhoc.h)
 author: windows-sdk-content
 description: Deletes any profile associated with the network.
 old-location: nwifi\idot11adhocnetwork_deleteprofile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetApplicationViewMinWidth
-title: IApplicationDesignModeSettings2::SetApplicationViewMinWidth
+title: IApplicationDesignModeSettings2::SetApplicationViewMinWidth (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the desired minimum width of the application design mode window.
 old-location: shell\IApplicationDesignModeSettings2_SetApplicationViewMinWidth.htm

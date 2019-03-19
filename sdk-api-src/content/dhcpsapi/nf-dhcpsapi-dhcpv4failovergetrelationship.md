@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetRelationship
-title: DhcpV4FailoverGetRelationship function
+title: DhcpV4FailoverGetRelationship function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves relationship details for a specific relationship name.
 old-location: dhcp\dhcpv4failovergetrelationship.htm

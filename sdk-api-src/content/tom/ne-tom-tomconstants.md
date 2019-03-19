@@ -1,6 +1,6 @@
 ---
 UID: NE:tom.__MIDL___MIDL_itf_tom_0000_0000_0001
-title: tomConstants
+title: tomConstants (tom.h)
 author: windows-sdk-content
 description: Defines values that are used with the Text Object Model (TOM)&#32;API.
 old-location: controls\tomconstants.htm

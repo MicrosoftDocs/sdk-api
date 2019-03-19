@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_HostedProvider_GetApplication
-title: MI_HostedProvider_GetApplication function
+title: MI_HostedProvider_GetApplication function (mi.h)
 author: windows-sdk-content
 description: Gets the top-level application handle from which the hosted provider handle was created.
 old-location: wmi_v2\mi_hostedprovider_getapplication.htm

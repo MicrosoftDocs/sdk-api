@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SHResolveLibrary
-title: SHResolveLibrary function
+title: SHResolveLibrary function (shobjidl_core.h)
 author: windows-sdk-content
 description: Resolves all locations in a library, even those locations that have been moved or renamed.
 old-location: shell\SHResolveLibrary.htm

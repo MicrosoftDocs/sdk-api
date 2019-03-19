@@ -1,6 +1,6 @@
 ---
 UID: NE:spellcheck.CORRECTIVE_ACTION
-title: CORRECTIVE_ACTION
+title: CORRECTIVE_ACTION (spellcheck.h)
 author: windows-sdk-content
 description: Identifies the type of corrective action to be taken for a spelling error.
 old-location: intl\corrective_action.htm

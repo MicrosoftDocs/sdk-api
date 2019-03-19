@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFont.HasCharacter
-title: IDWriteFont::HasCharacter
+title: IDWriteFont::HasCharacter (dwrite.h)
 author: windows-sdk-content
 description: Determines whether the font supports a specified character.
 old-location: directwrite\IDWriteFont_HasCharacter.htm

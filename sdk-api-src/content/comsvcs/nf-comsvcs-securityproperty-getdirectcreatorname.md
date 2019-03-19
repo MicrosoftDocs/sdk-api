@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetDirectCreatorName
-title: SecurityProperty::GetDirectCreatorName
+title: SecurityProperty::GetDirectCreatorName (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves the user name associated with the current object's immediate (out-of-process) creator.
 old-location: cos\securityproperty_getdirectcreatorname.htm

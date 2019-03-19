@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageId
-title: IAppxManifestPackageId
+title: IAppxManifestPackageId (appxpackaging.h)
 author: windows-sdk-content
 description: Provides access to the package identity.
 old-location: appxpkg\iappxmanifestpackageid.htm

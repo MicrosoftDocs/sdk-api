@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.OpenThread
-title: OpenThread function
+title: OpenThread function (processthreadsapi.h)
 author: windows-sdk-content
 description: Opens an existing thread object.
 old-location: base\openthread.htm

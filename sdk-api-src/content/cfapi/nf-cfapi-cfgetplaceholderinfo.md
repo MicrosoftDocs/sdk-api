@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderInfo
-title: CfGetPlaceholderInfo function
+title: CfGetPlaceholderInfo function (cfapi.h)
 author: windows-sdk-content
 description: Gets various characteristics of a placeholder file or folder.
 old-location: cloudapi\cfgetplaceholderinfo.htm

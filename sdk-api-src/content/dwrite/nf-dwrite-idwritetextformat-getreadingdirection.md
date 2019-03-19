@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetReadingDirection
-title: IDWriteTextFormat::GetReadingDirection
+title: IDWriteTextFormat::GetReadingDirection (dwrite.h)
 author: windows-sdk-content
 description: Gets the current reading direction for text in a paragraph.
 old-location: directwrite\IDWriteTextFormat_GetReadingDirection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITTerminalSupport
-title: ITTerminalSupport
+title: ITTerminalSupport (tapi3if.h)
 author: windows-sdk-content
 description: The ITTerminalSupport interface is exposed on an Address object only if an MSP exists. The methods of this interface allow an application to discover available terminals and/or create one, and get pointers to required Terminal objects.
 old-location: tapi3\itterminalsupport.htm

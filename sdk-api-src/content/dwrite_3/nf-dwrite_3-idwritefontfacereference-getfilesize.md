@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFileSize
-title: IDWriteFontFaceReference::GetFileSize
+title: IDWriteFontFaceReference::GetFileSize (dwrite_3.h)
 author: windows-sdk-content
 description: Get the total size of the font face in bytes.
 old-location: directwrite\idwritefontfacereference_getfilesize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.ITransferAdviseSink
-title: ITransferAdviseSink
+title: ITransferAdviseSink (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods supporting status collection and failure information.
 old-location: shell\ITransferAdviseSink.htm

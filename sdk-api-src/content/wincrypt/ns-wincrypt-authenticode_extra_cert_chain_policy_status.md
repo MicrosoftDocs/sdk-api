@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
-title: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS
+title: AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS (wincrypt.h)
 author: windows-sdk-content
 description: The AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_STATUS structure holds additional Authenticode policy information for chain verification of files.
 old-location: security\authenticode_extra_cert_chain_policy_status.htm

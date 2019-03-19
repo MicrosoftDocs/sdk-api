@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
-title: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
+title: DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Specifies how a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream is interlaced.
 old-location: mf\dxvahd_stream_state_frame_format_data.htm

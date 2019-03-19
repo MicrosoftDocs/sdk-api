@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeRenewalCertificate.InitializeEncode
-title: IX509AttributeRenewalCertificate::InitializeEncode
+title: IX509AttributeRenewalCertificate::InitializeEncode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the attribute by using the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_initializeencode_method.htm

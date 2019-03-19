@@ -1,6 +1,6 @@
 ---
 UID: NN:wmp.IWMPEvents2
-title: IWMPEvents2
+title: IWMPEvents2 (wmp.h)
 author: windows-sdk-content
 description: The IWMPEvents2 interface provides events originating from the Windows Media Player 10 or later control to which an embedding program can respond. The events exposed by IWMPEvents2 are also exposed by the _WMPOCXEvents interface.
 old-location: wmp\iwmpevents2_interface.htm

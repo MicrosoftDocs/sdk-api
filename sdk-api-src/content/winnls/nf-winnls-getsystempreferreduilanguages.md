@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetSystemPreferredUILanguages
-title: GetSystemPreferredUILanguages function
+title: GetSystemPreferredUILanguages function (winnls.h)
 author: windows-sdk-content
 description: Retrieves the system preferred UI languages. For more information, see User Interface Language Management.
 old-location: intl\getsystempreferreduilanguages.htm

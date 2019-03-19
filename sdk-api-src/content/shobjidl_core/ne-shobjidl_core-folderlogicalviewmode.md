@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.FOLDERLOGICALVIEWMODE
-title: FOLDERLOGICALVIEWMODE
+title: FOLDERLOGICALVIEWMODE (shobjidl_core.h)
 author: windows-sdk-content
 description: Used by IFolderViewSettings::GetViewMode and ISearchFolderItemFactory::SetFolderLogicalViewMode to describe the view mode.
 old-location: shell\FOLDERLOGICALVIEWMODE.htm

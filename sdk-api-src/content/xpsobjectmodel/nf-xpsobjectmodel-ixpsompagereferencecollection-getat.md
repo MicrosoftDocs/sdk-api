@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.GetAt
-title: IXpsOMPageReferenceCollection::GetAt
+title: IXpsOMPageReferenceCollection::GetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMPageReference interface pointer from a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_getat.htm

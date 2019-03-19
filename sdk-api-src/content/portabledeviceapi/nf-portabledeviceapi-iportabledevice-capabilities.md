@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Capabilities
-title: IPortableDevice::Capabilities
+title: IPortableDevice::Capabilities (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Capabilities method retrieves an interface used to query the capabilities of a portable device.
 old-location: wpdsdk\iportabledevice_capabilities.htm

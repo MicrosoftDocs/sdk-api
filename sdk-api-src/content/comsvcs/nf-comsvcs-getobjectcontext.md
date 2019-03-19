@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.GetObjectContext
-title: GetObjectContext macro
+title: GetObjectContext macro (comsvcs.h)
 author: windows-sdk-content
 description: Retrieves a reference to the context that is associated with the current COM+ object.
 old-location: cos\getobjectcontext.htm

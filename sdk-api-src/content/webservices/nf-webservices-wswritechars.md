@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsWriteChars
-title: WsWriteChars function
+title: WsWriteChars function (webservices.h)
 author: windows-sdk-content
 description: Writes a series of characters to an element or attribute.
 old-location: wsw\wswritechars.htm

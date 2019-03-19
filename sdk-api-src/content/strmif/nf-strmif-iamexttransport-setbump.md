@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetBump
-title: IAMExtTransport::SetBump
+title: IAMExtTransport::SetBump (strmif.h)
 author: windows-sdk-content
 description: The SetBump method temporarily changes the playback, for synchronization of multiple external devices.
 old-location: dshow\iamexttransport_setbump.htm

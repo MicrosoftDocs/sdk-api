@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_15
-title: ISCSI_SESSION_INFOW
+title: ISCSI_SESSION_INFOW (iscsidsc.h)
 author: windows-sdk-content
 description: ISCSI_SESSION_INFO.
 old-location: iscsidisc\iscsi_session_info.htm

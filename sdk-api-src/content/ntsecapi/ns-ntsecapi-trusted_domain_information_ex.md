@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_INFORMATION_EX
-title: TRUSTED_DOMAIN_INFORMATION_EX
+title: TRUSTED_DOMAIN_INFORMATION_EX (ntsecapi.h)
 author: windows-sdk-content
 description: Used to retrieve extended information about a trusted domain.
 old-location: security\trusted_domain_information_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.EnumDAdvise
-title: IDataObject::EnumDAdvise
+title: IDataObject::EnumDAdvise (objidl.h)
 author: windows-sdk-content
 description: Creates an object that can be used to enumerate the current advisory connections.
 old-location: com\idataobject_enumdadvise.htm

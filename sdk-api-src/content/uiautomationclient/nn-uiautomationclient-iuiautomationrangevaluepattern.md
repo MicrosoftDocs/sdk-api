@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationRangeValuePattern
-title: IUIAutomationRangeValuePattern
+title: IUIAutomationRangeValuePattern (uiautomationclient.h)
 author: windows-sdk-content
 description: Provides access to a control that presents a range of values.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern.htm

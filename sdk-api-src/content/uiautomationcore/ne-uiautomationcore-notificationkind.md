@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.NotificationKind
-title: NotificationKind
+title: NotificationKind (uiautomationcore.h)
 author: windows-sdk-content
 description: Defines values that indicate the type of a notification event, and a hint to the listener about the processing of the event.
 old-location: winauto\uiauto_NotificationKind.htm

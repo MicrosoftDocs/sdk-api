@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.get_HighestVersion
-title: ITaskService::get_HighestVersion
+title: ITaskService::get_HighestVersion (taskschd.h)
 author: windows-sdk-content
 description: Indicates the highest version of Task Scheduler that a computer supports.
 old-location: taskschd\itaskservice_highestversion.htm

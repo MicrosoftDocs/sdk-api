@@ -1,6 +1,6 @@
 ---
 UID: NF:mspstrm.CMSPStream.FinalRelease
-title: CMSPStream::FinalRelease
+title: CMSPStream::FinalRelease (mspstrm.h)
 author: windows-sdk-content
 description: The FinalRelease method releases the filter graph pointers.
 old-location: tapi3\cmspstream_finalrelease.htm

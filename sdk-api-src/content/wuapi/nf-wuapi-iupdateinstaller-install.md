@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.Install
-title: IUpdateInstaller::Install
+title: IUpdateInstaller::Install (wuapi.h)
 author: windows-sdk-content
 description: Starts a synchronous installation of the updates.
 old-location: wua\iupdateinstaller_install.htm

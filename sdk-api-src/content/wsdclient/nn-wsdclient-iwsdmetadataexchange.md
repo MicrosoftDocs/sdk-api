@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDMetadataExchange
-title: IWSDMetadataExchange
+title: IWSDMetadataExchange (wsdclient.h)
 author: windows-sdk-content
 description: Is the base class for other objects which access metadata.
 old-location: ncd\iwsdmetadataexchange.htm

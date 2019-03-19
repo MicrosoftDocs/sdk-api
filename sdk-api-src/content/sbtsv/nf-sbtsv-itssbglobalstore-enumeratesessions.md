@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateSessions
-title: ITsSbGlobalStore::EnumerateSessions
+title: ITsSbGlobalStore::EnumerateSessions (sbtsv.h)
 author: windows-sdk-content
 description: Returns an array that contains sessions on the specified provider.
 old-location: termserv\itssbglobalstore_enumeratesessions.htm

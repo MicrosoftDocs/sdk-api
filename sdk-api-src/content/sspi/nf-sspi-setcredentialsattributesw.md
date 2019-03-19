@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SetCredentialsAttributesW
-title: SetCredentialsAttributesW function
+title: SetCredentialsAttributesW function (sspi.h)
 author: windows-sdk-content
 description: Sets the attributes of a credential, such as the name associated with the credential.
 old-location: security\setcredentialsattributes.htm

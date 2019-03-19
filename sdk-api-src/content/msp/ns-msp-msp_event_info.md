@@ -1,6 +1,6 @@
 ---
 UID: NS:msp.__MIDL___MIDL_itf_msp_0000_0000_0005
-title: MSP_EVENT_INFO
+title: MSP_EVENT_INFO (msp.h)
 author: windows-sdk-content
 description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
 old-location: tapi3\msp_event_info.htm

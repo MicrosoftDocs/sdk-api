@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptSubstituteSingleGlyph
-title: ScriptSubstituteSingleGlyph function
+title: ScriptSubstituteSingleGlyph function (usp10.h)
 author: windows-sdk-content
 description: Enables substitution of a single glyph with one alternate form of the same glyph for OpenType processing.
 old-location: intl\scriptsubstitutesingleglyph.htm

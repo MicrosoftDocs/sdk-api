@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineTranslateAddressA
-title: lineTranslateAddressA function
+title: lineTranslateAddressA function (tapi.h)
 author: windows-sdk-content
 description: The lineTranslateAddress function translates the specified address into another format.
 old-location: tapi2\linetranslateaddress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterMetadata
-title: IVssBackupComponents::FreeWriterMetadata
+title: IVssBackupComponents::FreeWriterMetadata (vsbackup.h)
 author: windows-sdk-content
 description: The FreeWriterMetadata method frees system resources allocated when IVssBackupComponents::GatherWriterMetadata was called.
 old-location: base\ivssbackupcomponents_freewritermetadata.htm

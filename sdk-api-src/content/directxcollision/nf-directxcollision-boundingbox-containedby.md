@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingBox.ContainedBy
-title: BoundingBox::ContainedBy
+title: BoundingBox::ContainedBy (directxcollision.h)
 author: windows-sdk-content
 description: Tests whether the BoundingBox is contained by the specified frustum.
 old-location: dxmath\boundingbox_containedby.htm

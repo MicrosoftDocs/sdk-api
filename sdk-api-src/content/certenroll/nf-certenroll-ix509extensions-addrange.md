@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extensions.AddRange
-title: IX509Extensions::AddRange
+title: IX509Extensions::AddRange (certenroll.h)
 author: windows-sdk-content
 description: Adds a range of IX509Extension objects to the collection.
 old-location: security\ix509extensions_addrange_method.htm

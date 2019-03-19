@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_POLICY_MAPPINGS_INFO
-title: CERT_POLICY_MAPPINGS_INFO
+title: CERT_POLICY_MAPPINGS_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_POLICY_MAPPINGS_INFO structure provides mapping between the policy OIDs of two domains.
 old-location: security\cert_policy_mappings_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.GetSecurityInfo
-title: IGPMSOM::GetSecurityInfo
+title: IGPMSOM::GetSecurityInfo (gpmgmt.h)
 author: windows-sdk-content
 description: Returns an object that represents the collection of GPMPermission objects for the scope of management (SOM).
 old-location: gpmc\igpmsom_getsecurityinfo.htm

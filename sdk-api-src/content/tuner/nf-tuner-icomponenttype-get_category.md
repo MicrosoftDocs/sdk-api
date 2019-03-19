@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.get_Category
-title: IComponentType::get_Category
+title: IComponentType::get_Category (tuner.h)
 author: windows-sdk-content
 description: The get_Category method retrieves the component category.
 old-location: mstv\icomponenttype_get_category.htm

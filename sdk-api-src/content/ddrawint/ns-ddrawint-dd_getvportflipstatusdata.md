@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTFLIPSTATUSDATA
-title: DD_GETVPORTFLIPSTATUSDATA
+title: DD_GETVPORTFLIPSTATUSDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETVPORTFLIPSTATUSDATA structure contains the flip status information for the specified surface.
 old-location: display\dd_getvportflipstatusdata.htm

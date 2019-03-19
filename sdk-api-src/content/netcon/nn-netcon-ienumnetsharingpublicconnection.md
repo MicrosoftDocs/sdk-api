@@ -1,6 +1,6 @@
 ---
 UID: NN:netcon.IEnumNetSharingPublicConnection
-title: IEnumNetSharingPublicConnection
+title: IEnumNetSharingPublicConnection (netcon.h)
 author: windows-sdk-content
 description: The IEnumNetSharingPublicConnection interface provides methods for enumerating the currently configured publicly-shared connections.
 old-location: ics\ienumnetsharingpublicconnection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:amsi.AMSI_RESULT
-title: AMSI_RESULT
+title: AMSI_RESULT (amsi.h)
 author: windows-sdk-content
 description: Specifies the types of results returned by scans.
 old-location: amsi\amsi_result.htm

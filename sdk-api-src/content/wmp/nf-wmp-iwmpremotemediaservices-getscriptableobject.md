@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetScriptableObject
-title: IWMPRemoteMediaServices::GetScriptableObject
+title: IWMPRemoteMediaServices::GetScriptableObject (wmp.h)
 author: windows-sdk-content
 description: The GetScriptableObject method is called by Windows Media Player to retrieve a name and interface pointer for an object that can be called from the script code within a skin.
 old-location: wmp\iwmpremotemediaservices_getscriptableobject.htm

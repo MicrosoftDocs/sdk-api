@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.GetAccessibilityShortDescription
-title: IXpsOMCanvas::GetAccessibilityShortDescription
+title: IXpsOMCanvas::GetAccessibilityShortDescription (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a short textual description of the object's contents.
 old-location: xps\ixpsomcanvas_getaccessibilityshortdescription.htm

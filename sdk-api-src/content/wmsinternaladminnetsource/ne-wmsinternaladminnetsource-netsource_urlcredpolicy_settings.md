@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsinternaladminnetsource.NETSOURCE_URLCREDPOLICY_SETTINGS
-title: NETSOURCE_URLCREDPOLICY_SETTINGS
+title: NETSOURCE_URLCREDPOLICY_SETTINGS (wmsinternaladminnetsource.h)
 author: windows-sdk-content
 description: The NETSOURCE_URLCREDPOLICY_SETTINGS enumeration type is used for an output parameter of IWMSInternalAdminNetSource2::GetCredentialsEx.
 old-location: wmformat\netsource_urlcredpolicy_settings.htm

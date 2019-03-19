@@ -1,6 +1,6 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleExW
-title: GetModuleHandleExW function
+title: GetModuleHandleExW function (libloaderapi.h)
 author: windows-sdk-content
 description: Retrieves a module handle for the specified module and increments the module's reference count unless GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT is specified. The module must have been loaded by the calling process.
 old-location: base\getmodulehandleex.htm

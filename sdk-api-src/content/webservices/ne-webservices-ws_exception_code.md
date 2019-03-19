@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_31
-title: WS_EXCEPTION_CODE
+title: WS_EXCEPTION_CODE (webservices.h)
 author: windows-sdk-content
 description: The structured exception codes thrown by this component. These exceptions are fatal and should not be handled by the application.
 old-location: wsw\ws_exception_code.htm

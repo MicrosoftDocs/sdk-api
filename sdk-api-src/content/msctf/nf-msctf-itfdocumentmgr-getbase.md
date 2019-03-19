@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetBase
-title: ITfDocumentMgr::GetBase
+title: ITfDocumentMgr::GetBase (msctf.h)
 author: windows-sdk-content
 description: ITfDocumentMgr::GetBase method
 old-location: tsf\itfdocumentmgr_getbase.htm

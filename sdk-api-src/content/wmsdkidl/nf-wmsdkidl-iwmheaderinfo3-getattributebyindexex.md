@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeByIndexEx
-title: IWMHeaderInfo3::GetAttributeByIndexEx
+title: IWMHeaderInfo3::GetAttributeByIndexEx (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeByIndexEx method retrieves the value of an attribute specified by the attribute index.
 old-location: wmformat\iwmheaderinfo3_getattributebyindexex.htm

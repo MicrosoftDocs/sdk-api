@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryKey
-title: ITfFnLMProcessor::QueryKey
+title: ITfFnLMProcessor::QueryKey (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnLMProcessor::QueryKey method
 old-location: tsf\itffnlmprocessor_querykey.htm

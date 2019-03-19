@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsVolumePlex.GetProperties
-title: IVdsVolumePlex::GetProperties
+title: IVdsVolumePlex::GetProperties (vds.h)
 author: windows-sdk-content
 description: Returns the property details of the current volume plex.
 old-location: base\ivdsvolumeplex_getproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.SetNow
-title: IDMOQualityControl::SetNow
+title: IDMOQualityControl::SetNow (mediaobj.h)
 author: windows-sdk-content
 description: The SetNow method specifies the earliest time stamp that the DMO will deliver.
 old-location: dshow\idmoqualitycontrol_setnow.htm

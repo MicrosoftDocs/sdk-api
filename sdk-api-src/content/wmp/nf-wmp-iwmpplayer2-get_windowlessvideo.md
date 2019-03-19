@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer2.get_windowlessVideo
-title: IWMPPlayer2::get_windowlessVideo
+title: IWMPPlayer2::get_windowlessVideo (wmp.h)
 author: windows-sdk-content
 description: The get_windowlessVideo method retrieves a value indicating whether the Windows Media Player control renders video in windowless mode.
 old-location: wmp\iwmpplayer2_get_windowlessvideo.htm

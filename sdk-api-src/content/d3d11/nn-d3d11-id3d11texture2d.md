@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11Texture2D
-title: ID3D11Texture2D
+title: ID3D11Texture2D (d3d11.h)
 author: windows-sdk-content
 description: A 2D texture interface manages texel data, which is structured memory.
 old-location: direct3d11\id3d11texture2d.htm

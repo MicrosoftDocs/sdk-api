@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl.IBandHost
-title: IBandHost
+title: IBandHost (shobjidl.h)
 author: windows-sdk-content
 description: Exposes methods that create and destroy bands and specifiy their availability.
 old-location: shell\IBandHost.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnRedirect
-title: IXMLHTTPRequest2Callback::OnRedirect
+title: IXMLHTTPRequest2Callback::OnRedirect (msxml6.h)
 author: windows-sdk-content
 description: Occurs when a client sends an HTTP request that the server redirects to a new URL.
 old-location: ixhr2\ixmlhttprequest2callback_onredirect.htm

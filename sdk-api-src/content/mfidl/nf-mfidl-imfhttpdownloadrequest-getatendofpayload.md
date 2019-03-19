@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetAtEndOfPayload
-title: IMFHttpDownloadRequest::GetAtEndOfPayload
+title: IMFHttpDownloadRequest::GetAtEndOfPayload (mfidl.h)
 author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to check if it should invoke BeginReadPayload to read data from the message body of the response.
 old-location: mf\imfhttpdownloadrequest_getatendofpayload.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:http._HTTP_503_RESPONSE_VERBOSITY
-title: HTTP_503_RESPONSE_VERBOSITY
+title: HTTP_503_RESPONSE_VERBOSITY (http.h)
 author: windows-sdk-content
 description: The HTTP_503_RESPONSE_VERBOSITY enumeration defines the verbosity levels for a 503, service unavailable, error responses.This structure must be used when setting or querying the HttpServer503ResponseProperty on a request queue.
 old-location: http\http_503_response_verbosity.htm

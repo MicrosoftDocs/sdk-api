@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING
-title: WS_SECURITY_BINDING
+title: WS_SECURITY_BINDING (webservices.h)
 author: windows-sdk-content
 description: The abstract base type for all security bindings.
 old-location: wsw\ws_security_binding.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.WSASend
-title: WSASend function
+title: WSASend function (winsock2.h)
 author: windows-sdk-content
 description: Sends data on a connected socket.
 old-location: winsock\wsasend_2.htm

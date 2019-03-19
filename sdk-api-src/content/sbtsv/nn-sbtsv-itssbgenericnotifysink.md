@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbGenericNotifySink
-title: ITsSbGenericNotifySink
+title: ITsSbGenericNotifySink (sbtsv.h)
 author: windows-sdk-content
 description: Exposes methods that reports completion to and gets wait time from the Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbgenericnotifysink.htm

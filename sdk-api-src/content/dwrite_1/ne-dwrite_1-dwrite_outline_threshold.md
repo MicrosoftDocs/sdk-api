@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_OUTLINE_THRESHOLD
-title: DWRITE_OUTLINE_THRESHOLD
+title: DWRITE_OUTLINE_THRESHOLD (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_OUTLINE_THRESHOLD enumeration contains values that specify the policy used by the IDWriteFontFace1::GetRecommendedRenderingMode method to determine whether to render glyphs in outline mode.
 old-location: directwrite\dwrite_outline_threshold.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetObject(CInstance,long,CFrameworkQuery &)
-title: Provider::GetObject(CInstance,long,CFrameworkQuery &)
+title: Provider::GetObject(CInstance,long,CFrameworkQuery &) (provider.h)
 author: windows-sdk-content
 description: The GetObject method is called by WMI to retrieve an instance of a class.
 old-location: wmi\provider_getobject.htm

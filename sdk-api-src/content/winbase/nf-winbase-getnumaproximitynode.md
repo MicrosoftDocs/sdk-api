@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetNumaProximityNode
-title: GetNumaProximityNode function
+title: GetNumaProximityNode function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the NUMA node number that corresponds to the specified proximity domain identifier.
 old-location: base\getnumaproximitynode.htm

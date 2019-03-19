@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionary
-title: IXpsOMPage::GetDictionary
+title: IXpsOMPage::GetDictionary (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the resolved IXpsOMDictionary interface that is associated with this page.
 old-location: xps\ixpsompage_getdictionary.htm

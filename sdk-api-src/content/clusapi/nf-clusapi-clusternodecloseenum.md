@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNodeCloseEnum
-title: ClusterNodeCloseEnum function
+title: ClusterNodeCloseEnum function (clusapi.h)
 author: windows-sdk-content
 description: Closes a node enumeration handle.
 old-location: mscs\clusternodecloseenum.htm

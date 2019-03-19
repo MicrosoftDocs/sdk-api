@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFLockPlatform
-title: MFLockPlatform function
+title: MFLockPlatform function (mfapi.h)
 author: windows-sdk-content
 description: Blocks the MFShutdown function.
 old-location: mf\mflockplatform.htm

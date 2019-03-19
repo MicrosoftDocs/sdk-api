@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO_VQ
-title: DHCP_SERVER_CONFIG_INFO_VQ
+title: DHCP_SERVER_CONFIG_INFO_VQ (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines settings for the DHCP server.
 old-location: dhcp\dhcp_server_config_info_vq.htm

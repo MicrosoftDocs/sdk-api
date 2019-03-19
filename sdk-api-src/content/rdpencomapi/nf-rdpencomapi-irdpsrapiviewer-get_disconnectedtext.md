@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_DisconnectedText
-title: IRDPSRAPIViewer::get_DisconnectedText
+title: IRDPSRAPIViewer::get_DisconnectedText (rdpencomapi.h)
 author: windows-sdk-content
 description: Retrieves or sets the text that appears centered in the control before a connection is terminated.
 old-location: rdp\irdpsrapiviewer_disconnectedtext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10effect._D3D10_STATE_BLOCK_MASK
-title: D3D10_STATE_BLOCK_MASK
+title: D3D10_STATE_BLOCK_MASK (d3d10effect.h)
 author: windows-sdk-content
 description: Indicates the device state.
 old-location: direct3d10\d3d10_state_block_mask.htm

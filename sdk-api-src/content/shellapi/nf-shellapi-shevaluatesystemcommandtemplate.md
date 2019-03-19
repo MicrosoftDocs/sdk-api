@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHEvaluateSystemCommandTemplate
-title: SHEvaluateSystemCommandTemplate function
+title: SHEvaluateSystemCommandTemplate function (shellapi.h)
 author: windows-sdk-content
 description: Enforces strict validation of parameters used in a call to CreateProcess or ShellExecute.
 old-location: shell\SHEvaluateSystemCommandTemplate.htm

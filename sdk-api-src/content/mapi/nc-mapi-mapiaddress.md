@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPIADDRESS
-title: MAPIADDRESS
+title: MAPIADDRESS (mapi.h)
 author: windows-sdk-content
 description: The MAPIAddress function creates or modifies a set of address list entries.
 old-location: mapi\mapiaddress.htm

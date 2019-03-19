@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.SubscribeToMultipleOperations
-title: IWSDServiceProxyEventing::SubscribeToMultipleOperations
+title: IWSDServiceProxyEventing::SubscribeToMultipleOperations (wsdclient.h)
 author: windows-sdk-content
 description: Subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_subscribetomultipleoperations.htm

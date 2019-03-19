@@ -1,6 +1,6 @@
 ---
 UID: NF:atlthunk.AtlThunk_InitData
-title: AtlThunk_InitData function
+title: AtlThunk_InitData function (atlthunk.h)
 author: windows-sdk-content
 description: Initializes an ATL thunk.
 old-location: base\atlthunk_initdata.htm

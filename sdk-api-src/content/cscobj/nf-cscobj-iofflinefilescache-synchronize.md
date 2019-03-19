@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Synchronize
-title: IOfflineFilesCache::Synchronize
+title: IOfflineFilesCache::Synchronize (cscobj.h)
 author: windows-sdk-content
 description: Synchronizes files and directories in the Offline Files cache with their corresponding copies in the applicable network shared folders.
 old-location: of\iofflinefilescache_synchronize.htm

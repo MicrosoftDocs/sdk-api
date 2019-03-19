@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawGeometry
-title: ID2D1CommandSink::DrawGeometry
+title: ID2D1CommandSink::DrawGeometry (d2d1_1.h)
 author: windows-sdk-content
 description: Indicates the geometry to be drawn to the command sink.
 old-location: direct2d\id2d1commandsink_drawgeometry.htm

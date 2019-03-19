@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITableItemProvider.GetColumnHeaderItems
-title: ITableItemProvider::GetColumnHeaderItems
+title: ITableItemProvider::GetColumnHeaderItems (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a collection of Microsoft UI Automation provider representing all the column headers associated with a table item or cell.
 old-location: winauto\uiauto_ITableItemProvider_GetColumnHeaderItems.htm

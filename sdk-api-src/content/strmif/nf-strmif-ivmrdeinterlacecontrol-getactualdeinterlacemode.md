@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetActualDeinterlaceMode
-title: IVMRDeinterlaceControl::GetActualDeinterlaceMode
+title: IVMRDeinterlaceControl::GetActualDeinterlaceMode (strmif.h)
 author: windows-sdk-content
 description: The GetActualDeinterlaceMode method returns the deinterlacing mode that the VMR is using for a specified stream.
 old-location: dshow\ivmrdeinterlacecontrol_getactualdeinterlacemode.htm

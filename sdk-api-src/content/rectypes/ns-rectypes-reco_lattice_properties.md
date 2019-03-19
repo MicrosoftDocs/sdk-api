@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_PROPERTIES
-title: RECO_LATTICE_PROPERTIES
+title: RECO_LATTICE_PROPERTIES (rectypes.h)
 author: windows-sdk-content
 description: Contains an array of pointers to property structures.
 old-location: tablet\reco_lattice_properties.htm

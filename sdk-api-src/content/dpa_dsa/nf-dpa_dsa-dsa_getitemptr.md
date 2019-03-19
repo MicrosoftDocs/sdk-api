@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_GetItemPtr
-title: DSA_GetItemPtr function
+title: DSA_GetItemPtr function (dpa_dsa.h)
 author: windows-sdk-content
 description: Gets a pointer to an element from a dynamic structure array (DSA).
 old-location: controls\DSA_GetItemPtr.htm

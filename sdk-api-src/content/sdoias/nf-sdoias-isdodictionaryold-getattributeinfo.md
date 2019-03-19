@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.GetAttributeInfo
-title: ISdoDictionaryOld::GetAttributeInfo
+title: ISdoDictionaryOld::GetAttributeInfo (sdoias.h)
 author: windows-sdk-content
 description: The GetAttributeInfo retrieves information for the specified attribute.
 old-location: nps\SDO_isdodictionaryold_getattributeinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:ctfutb.ITfSystemLangBarItemSink
-title: ITfSystemLangBarItemSink
+title: ITfSystemLangBarItemSink (ctfutb.h)
 author: windows-sdk-content
 description: The ITfSystemLangBarItemSink interface is implemented by a system language bar menu extension and used by a system language bar menu (host) to allow menu items to be added to an existing system language bar menu.
 old-location: tsf\itfsystemlangbaritemsink.htm

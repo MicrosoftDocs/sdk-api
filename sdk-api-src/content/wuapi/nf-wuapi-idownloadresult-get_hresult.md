@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IDownloadResult.get_HResult
-title: IDownloadResult::get_HResult
+title: IDownloadResult::get_HResult (wuapi.h)
 author: windows-sdk-content
 description: Gets the exception code number if an exception code number is raised during the download.
 old-location: wua\idownloadresult_hresult.htm

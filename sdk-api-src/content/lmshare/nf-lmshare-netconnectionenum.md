@@ -1,6 +1,6 @@
 ---
 UID: NF:lmshare.NetConnectionEnum
-title: NetConnectionEnum function
+title: NetConnectionEnum function (lmshare.h)
 author: windows-sdk-content
 description: Lists all connections made to a shared resource on the server or all connections established from a particular computer.
 old-location: fs\netconnectionenum.htm

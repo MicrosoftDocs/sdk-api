@@ -1,6 +1,6 @@
 ---
 UID: NF:adsprop.ADsPropSetHwndWithTitle
-title: ADsPropSetHwndWithTitle function
+title: ADsPropSetHwndWithTitle function (adsprop.h)
 author: windows-sdk-content
 description: Used to notify the notification object of the property page window handle.
 old-location: ad\adspropsethwndwithtitle.htm

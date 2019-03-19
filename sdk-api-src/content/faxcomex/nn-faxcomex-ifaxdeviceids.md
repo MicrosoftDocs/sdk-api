@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxDeviceIds
-title: IFaxDeviceIds
+title: IFaxDeviceIds (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceIds interface defines a configuration collection used by a fax client application to enumerate the ordered fax device IDs associated with a FaxOutboundRoutingGroup object.
 old-location: fax\_mfax_faxdeviceids_cpp.htm

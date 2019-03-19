@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagRepairInfoEx
-title: RepairInfoEx
+title: RepairInfoEx (ndattrib.h)
 author: windows-sdk-content
 description: Contains detailed repair information that can be used to help resolve the root cause of an incident.
 old-location: ndf\repairinfoex.htm

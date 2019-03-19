@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings.Save
-title: IAutomaticUpdatesSettings::Save
+title: IAutomaticUpdatesSettings::Save (wuapi.h)
 author: windows-sdk-content
 description: Applies the current Automatic Updates settings.
 old-location: wua\iautomaticupdatessettings_save.htm

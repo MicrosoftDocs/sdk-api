@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemServices.GetObject
-title: IWbemServices::GetObject
+title: IWbemServices::GetObject (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemServices::GetObject method retrieves a class or instance. This method only retrieves objects from the namespace associated with the current IWbemServices object.
 old-location: wmi\iwbemservices_getobject.htm

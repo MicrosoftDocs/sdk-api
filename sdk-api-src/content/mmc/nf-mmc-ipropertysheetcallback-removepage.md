@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IPropertySheetCallback.RemovePage
-title: IPropertySheetCallback::RemovePage
+title: IPropertySheetCallback::RemovePage (mmc.h)
 author: windows-sdk-content
 description: The IPropertySheetCallback::RemovePage method enables a snap-in to remove a page from a property sheet.
 old-location: mmc\ipropertysheetcallback_removepage.htm

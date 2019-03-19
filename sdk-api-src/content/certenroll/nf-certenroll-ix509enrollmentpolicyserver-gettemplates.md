@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetTemplates
-title: IX509EnrollmentPolicyServer::GetTemplates
+title: IX509EnrollmentPolicyServer::GetTemplates (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of the templates supported by the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_gettemplates.htm

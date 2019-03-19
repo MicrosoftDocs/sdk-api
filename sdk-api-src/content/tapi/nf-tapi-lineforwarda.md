@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineForwardA
-title: lineForwardA function
+title: lineForwardA function (tapi.h)
 author: windows-sdk-content
 description: The lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
 old-location: tapi2\lineforward.htm

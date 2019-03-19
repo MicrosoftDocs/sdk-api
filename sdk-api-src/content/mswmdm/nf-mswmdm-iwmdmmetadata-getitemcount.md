@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.GetItemCount
-title: IWMDMMetaData::GetItemCount
+title: IWMDMMetaData::GetItemCount (mswmdm.h)
 author: windows-sdk-content
 description: The GetItemCount method retrieves the total number of properties held by the interface.
 old-location: wmdm\iwmdmmetadata_getitemcount.htm

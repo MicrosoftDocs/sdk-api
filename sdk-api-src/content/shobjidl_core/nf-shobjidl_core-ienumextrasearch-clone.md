@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Clone
-title: IEnumExtraSearch::Clone
+title: IEnumExtraSearch::Clone (shobjidl_core.h)
 author: windows-sdk-content
 description: Used to request a duplicate of the enumerator object to preserve its current state.
 old-location: shell\IEnumExtraSearch_Clone.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_CTRL_CAPS
-title: MBN_CTRL_CAPS
+title: MBN_CTRL_CAPS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_CTRL_CAPS enumerated type represents all of the Mobile Broadband device control capabilities as bit fields.
 old-location: mbn\mbn_ctrl_caps.htm

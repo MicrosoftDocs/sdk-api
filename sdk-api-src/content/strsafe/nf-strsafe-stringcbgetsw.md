@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCbGetsW
-title: StringCbGetsW function
+title: StringCbGetsW function (strsafe.h)
 author: windows-sdk-content
 description: Gets one line of text from stdin, up to and including the newline character ('\n').
 old-location: menurc\stringcbgets.htm

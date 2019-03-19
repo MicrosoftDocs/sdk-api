@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushCopyOfRetrievalFilter
-title: IDXGIInfoQueue::PushCopyOfRetrievalFilter
+title: IDXGIInfoQueue::PushCopyOfRetrievalFilter (dxgidebug.h)
 author: windows-sdk-content
 description: Pushes a copy of the retrieval filter that is currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushcopyofretrievalfilter.htm

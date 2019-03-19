@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.DeviceByUDN
-title: IUPnPDescriptionDocument::DeviceByUDN
+title: IUPnPDescriptionDocument::DeviceByUDN (upnp.h)
 author: windows-sdk-content
 description: The DeviceByUDN method returns the device with the specified unique device name (UDN) contained within the loaded description document.
 old-location: upnp\iupnpdescriptiondocument_devicebyudn.htm

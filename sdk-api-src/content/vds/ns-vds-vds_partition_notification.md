@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_PARTITION_NOTIFICATION
-title: VDS_PARTITION_NOTIFICATION
+title: VDS_PARTITION_NOTIFICATION (vds.h)
 author: windows-sdk-content
 description: Defines the details of partition events.
 old-location: base\vds_partition_notification.htm

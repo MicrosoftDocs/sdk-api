@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.SetSelection
-title: ITextStoreAnchor::SetSelection
+title: ITextStoreAnchor::SetSelection (textstor.h)
 author: windows-sdk-content
 description: ITextStoreAnchor::SetSelection method
 old-location: tsf\itextstoreanchor_setselection.htm

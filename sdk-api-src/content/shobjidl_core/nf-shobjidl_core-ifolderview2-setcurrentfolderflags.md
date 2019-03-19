@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetCurrentFolderFlags
-title: IFolderView2::SetCurrentFolderFlags
+title: IFolderView2::SetCurrentFolderFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets and applies specified folder flags.
 old-location: shell\IFolderView2_SetCurrentFolderFlags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.SetLinkSource
-title: IOleUILinkContainerW::SetLinkSource
+title: IOleUILinkContainerW::SetLinkSource (oledlg.h)
 author: windows-sdk-content
 description: Changes the source of a link.
 old-location: com\ioleuilinkcontainer_setlinksource.htm

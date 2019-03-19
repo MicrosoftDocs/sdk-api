@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._ACE_HEADER
-title: ACE_HEADER
+title: ACE_HEADER (winnt.h)
 author: windows-sdk-content
 description: Defines the type and size of an access control entry (ACE).
 old-location: security\ace_header.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignatureId
-title: IOpcSigningOptions::GetSignatureId
+title: IOpcSigningOptions::GetSignatureId (msopc.h)
 author: windows-sdk-content
 description: Gets the value of the Id attribute from the Signature element.
 old-location: opc\iopcsigningoptions_getsignatureid.htm

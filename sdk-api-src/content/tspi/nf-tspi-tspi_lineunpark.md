@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineUnpark
-title: TSPI_lineUnpark function
+title: TSPI_lineUnpark function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.
 old-location: tspi\tspi_lineunpark.htm

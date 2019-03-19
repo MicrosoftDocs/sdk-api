@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.DisableInternetFirewall
-title: INetSharingConfiguration::DisableInternetFirewall
+title: INetSharingConfiguration::DisableInternetFirewall (netcon.h)
 author: windows-sdk-content
 description: The DisableInternetFirewall method disables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_disableinternetfirewall.htm

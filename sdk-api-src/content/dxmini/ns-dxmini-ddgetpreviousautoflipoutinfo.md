@@ -1,6 +1,6 @@
 ---
 UID: NS:dxmini._DDGETPREVIOUSAUTOFLIPOUTINFO
-title: DDGETPREVIOUSAUTOFLIPOUTINFO
+title: DDGETPREVIOUSAUTOFLIPOUTINFO (dxmini.h)
 author: windows-sdk-content
 description: The DDGETPREVIOUSAUTOFLIPOUTINFO structure provides the surface data.
 old-location: display\ddgetpreviousautoflipoutinfo.htm

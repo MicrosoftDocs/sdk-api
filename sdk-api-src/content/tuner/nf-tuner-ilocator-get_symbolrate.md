@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.ILocator.get_SymbolRate
-title: ILocator::get_SymbolRate
+title: ILocator::get_SymbolRate (tuner.h)
 author: windows-sdk-content
 description: The get_SymbolRate method gets the QPSK symbol rate.
 old-location: mstv\ilocator_get_symbolrate.htm

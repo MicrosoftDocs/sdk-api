@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IDispatch.GetTypeInfoCount
-title: IDispatch::GetTypeInfoCount
+title: IDispatch::GetTypeInfoCount (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the number of type information interfaces that an object provides (either 0 or 1).
 old-location: automat\idispatch_gettypeinfocount.htm

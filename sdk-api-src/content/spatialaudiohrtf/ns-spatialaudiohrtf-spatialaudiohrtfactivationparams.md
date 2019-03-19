@@ -1,6 +1,6 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfActivationParams
-title: SpatialAudioHrtfActivationParams
+title: SpatialAudioHrtfActivationParams (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Specifies the activation parameters for an ISpatialAudioRenderStreamForHrtf.
 old-location: coreaudio\spatialaudiohrtfactivationparams.htm

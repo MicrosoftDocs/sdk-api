@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchSOMs
-title: IGPMDomain::SearchSOMs
+title: IGPMDomain::SearchSOMs (gpmgmt.h)
 author: windows-sdk-content
 description: Executes a search for GPMSOM objects (domains and organizational units) in the domain and then returns a GPMSOMCollection object.
 old-location: gpmc\igpmdomain_searchsoms.htm

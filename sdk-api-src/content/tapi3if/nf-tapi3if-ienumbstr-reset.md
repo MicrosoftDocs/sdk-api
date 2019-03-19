@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.IEnumBstr.Reset
-title: IEnumBstr::Reset
+title: IEnumBstr::Reset (tapi3if.h)
 author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumbstr_reset.htm

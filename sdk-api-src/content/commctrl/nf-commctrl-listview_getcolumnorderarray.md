@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetColumnOrderArray
-title: ListView_GetColumnOrderArray macro
+title: ListView_GetColumnOrderArray macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the current left-to-right order of columns in a list-view control. You can use this macro or send the LVM_GETCOLUMNORDERARRAY message explicitly.
 old-location: controls\ListView_GetColumnOrderArray.htm

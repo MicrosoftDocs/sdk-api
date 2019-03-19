@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get__NewEnum
-title: IUpdateHistoryEntryCollection::get__NewEnum
+title: IUpdateHistoryEntryCollection::get__NewEnum (wuapi.h)
 author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdatehistoryentrycollection__newenum.htm

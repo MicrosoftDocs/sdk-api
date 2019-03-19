@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.CreateNtmsMediaW
-title: CreateNtmsMediaW function
+title: CreateNtmsMediaW function (ntmsapi.h)
 author: windows-sdk-content
 description: The CreateNtmsMedia function creates a PMID and side (or sides) for a new piece of offline media. The media is placed in the media pool specified for lpPhysicalMedia.
 old-location: fs\createntmsmedia.htm

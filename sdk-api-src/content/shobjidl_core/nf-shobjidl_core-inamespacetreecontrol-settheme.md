@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.SetTheme
-title: INameSpaceTreeControl::SetTheme
+title: INameSpaceTreeControl::SetTheme (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets the desktop theme for the current window only.
 old-location: shell\INameSpaceTreeControl_SetTheme.htm

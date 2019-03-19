@@ -1,6 +1,6 @@
 ---
 UID: NN:msinkaut15.IInkDivider
-title: IInkDivider
+title: IInkDivider (msinkaut15.h)
 author: windows-sdk-content
 description: "."
 old-location: tablet\iinkdivider.htm

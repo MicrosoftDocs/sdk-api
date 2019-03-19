@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get_Count
-title: ITaskFolderCollection::get_Count
+title: ITaskFolderCollection::get_Count (taskschd.h)
 author: windows-sdk-content
 description: Gets the number of folders in the collection.
 old-location: taskschd\itaskfoldercollection_count.htm

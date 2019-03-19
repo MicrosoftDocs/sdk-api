@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetRepeatLabel
-title: IIsdbSeriesDescriptor::GetRepeatLabel
+title: IIsdbSeriesDescriptor::GetRepeatLabel (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a label that identifies a series repeat from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getrepeatlabel.htm

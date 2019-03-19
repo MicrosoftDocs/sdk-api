@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfUIElementSink.EndUIElement
-title: ITfUIElementSink::EndUIElement
+title: ITfUIElementSink::EndUIElement (msctf.h)
 author: windows-sdk-content
 description: The ITfUIElementSink::EndUIElement method is called when the UIElement is finished.
 old-location: tsf\itfuielementsink_enduielement.htm

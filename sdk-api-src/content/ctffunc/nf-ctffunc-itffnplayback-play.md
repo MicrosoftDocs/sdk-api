@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnPlayBack.Play
-title: ITfFnPlayBack::Play
+title: ITfFnPlayBack::Play (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnPlayBack::Play method
 old-location: tsf\itffnplayback_play.htm

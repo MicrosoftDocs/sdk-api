@@ -1,6 +1,6 @@
 ---
 UID: NN:mergemod.IMsmMerge
-title: IMsmMerge
+title: IMsmMerge (mergemod.h)
 author: windows-sdk-content
 description: The IMsmMerge interface and the IMsmMerge2 interface provide interfaces to the Merge object.
 old-location: setup\imsmmerge_interface.htm

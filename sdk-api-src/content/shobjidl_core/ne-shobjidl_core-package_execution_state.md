@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.PACKAGE_EXECUTION_STATE
-title: PACKAGE_EXECUTION_STATE
+title: PACKAGE_EXECUTION_STATE (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\PACKAGE_EXECUTION_STATE.htm

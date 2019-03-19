@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetMediaType
-title: IAMMediaTypeSample::SetMediaType
+title: IAMMediaTypeSample::SetMediaType (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetMediaType method sets the media type for the sample.
 old-location: dshow\iammediatypesample_setmediatype.htm

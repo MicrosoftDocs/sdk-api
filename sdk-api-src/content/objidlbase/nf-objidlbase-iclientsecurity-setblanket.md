@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IClientSecurity.SetBlanket
-title: IClientSecurity::SetBlanket
+title: IClientSecurity::SetBlanket (objidlbase.h)
 author: windows-sdk-content
 description: Sets the authentication information (the security blanket) that will be used to make calls on the specified proxy.
 old-location: com\iclientsecurity_setblanket.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._put_itbLastFocus
-title: IBrowserService2::_put_itbLastFocus
+title: IBrowserService2::_put_itbLastFocus (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Sets the last toolbar or the last view with focus.
 old-location: shell\IBrowserService2__put_itbLastFocus.htm

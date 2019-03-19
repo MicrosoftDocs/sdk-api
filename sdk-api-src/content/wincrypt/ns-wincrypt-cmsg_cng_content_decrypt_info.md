@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CNG_CONTENT_DECRYPT_INFO
-title: CMSG_CNG_CONTENT_DECRYPT_INFO
+title: CMSG_CNG_CONTENT_DECRYPT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains all the relevant information passed between CryptMsgControl and object identifier (OID) installable functions for the import and decryption of a Cryptography API:\_Next Generation (CNG) content encryption key (CEK).
 old-location: security\cmsg_cng_content_decrypt_info.htm

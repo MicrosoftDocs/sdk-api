@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabEnumContacts
-title: PeerCollabEnumContacts function
+title: PeerCollabEnumContacts function (p2p.h)
 author: windows-sdk-content
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network contacts currently available on the calling peer.
 old-location: p2p\peercollabenumcontacts.htm

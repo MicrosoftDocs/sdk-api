@@ -1,6 +1,6 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.DeleteResourceType
-title: IWorkspaceResTypeRegistry::DeleteResourceType
+title: IWorkspaceResTypeRegistry::DeleteResourceType (workspaceax.h)
 author: windows-sdk-content
 description: Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_deleteresourcetype.htm

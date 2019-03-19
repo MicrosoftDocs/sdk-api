@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.IUnknown_GetWindow
-title: IUnknown_GetWindow function
+title: IUnknown_GetWindow function (shlwapi.h)
 author: windows-sdk-content
 description: Attempts to retrieve a window handle from a Component Object Model (COM) object by querying for various interfaces that have a GetWindow method.
 old-location: shell\IUnknown_GetWindow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDFLIPVIDEOPORT
-title: DDFLIPVIDEOPORT
+title: DDFLIPVIDEOPORT (ddkmapi.h)
 author: windows-sdk-content
 description: The DDFLIPVIDEOPORT structure contains the information required to flip the hardware video port.
 old-location: display\ddflipvideoport.htm

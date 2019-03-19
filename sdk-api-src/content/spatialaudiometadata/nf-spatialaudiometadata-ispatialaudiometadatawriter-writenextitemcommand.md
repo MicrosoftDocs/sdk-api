@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItemCommand
-title: ISpatialAudioMetadataWriter::WriteNextItemCommand
+title: ISpatialAudioMetadataWriter::WriteNextItemCommand (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Writes metadata commands and value data to the current item.
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitemcommand.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRSurface9.IsSurfaceLocked
-title: IVMRSurface9::IsSurfaceLocked
+title: IVMRSurface9::IsSurfaceLocked (vmr9.h)
 author: windows-sdk-content
 description: The IsSurfaceLocked method indicates whether the Direct3D surface attached to this media sample is locked.
 old-location: dshow\ivmrsurface9_issurfacelocked.htm

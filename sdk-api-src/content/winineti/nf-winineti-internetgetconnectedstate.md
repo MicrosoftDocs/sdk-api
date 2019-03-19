@@ -1,6 +1,6 @@
 ---
 UID: NF:winineti.InternetGetConnectedState
-title: InternetGetConnectedState function
+title: InternetGetConnectedState function (winineti.h)
 author: windows-sdk-content
 description: Note  Using this API is not recommended, use the INetworkListManager::GetConnectivity method instead. Retrieves the connected state of the local system.
 old-location: wininet\internetgetconnectedstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_2
-title: RESPONSEBODY_Subscribe
+title: RESPONSEBODY_Subscribe (wsdtypes.h)
 author: windows-sdk-content
 description: Represents a WS-Eventing Subscribe response message.
 old-location: ncd\responsebody_subscribe_struct.htm

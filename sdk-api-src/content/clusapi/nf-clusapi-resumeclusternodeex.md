@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ResumeClusterNodeEx
-title: ResumeClusterNodeEx function
+title: ResumeClusterNodeEx function (clusapi.h)
 author: windows-sdk-content
 description: Initiates the specified failback operation, and then requests that a paused node resumes cluster activity.
 old-location: mscs\resumeclusternodeex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_TransmissionStart
-title: IFaxJobStatus::get_TransmissionStart
+title: IFaxJobStatus::get_TransmissionStart (faxcomex.h)
 author: windows-sdk-content
 description: The TransmissionStart property indicates the time that the fax job began transmitting.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_transmissionstart_cpp.htm

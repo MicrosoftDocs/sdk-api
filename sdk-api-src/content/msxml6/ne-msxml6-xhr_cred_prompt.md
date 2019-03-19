@@ -1,6 +1,6 @@
 ---
 UID: NE:msxml6._XHR_CRED_PROMPT
-title: XHR_CRED_PROMPT
+title: XHR_CRED_PROMPT (msxml6.h)
 author: windows-sdk-content
 description: Specifies whether to allow credential prompts to the user for authentication.
 old-location: ixhr2\xhr_cred_prompt.htm

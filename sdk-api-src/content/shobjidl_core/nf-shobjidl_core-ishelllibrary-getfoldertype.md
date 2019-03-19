@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetFolderType
-title: IShellLibrary::GetFolderType
+title: IShellLibrary::GetFolderType (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the library's folder type.
 old-location: shell\IShellLibrary_GetFolderType.htm

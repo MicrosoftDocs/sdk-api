@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.RemoveEffect
-title: IMFCaptureSource::RemoveEffect
+title: IMFCaptureSource::RemoveEffect (mfcaptureengine.h)
 author: windows-sdk-content
 description: Removes an effect from a capture stream.
 old-location: mf\imfcapturesource_removeeffect.htm

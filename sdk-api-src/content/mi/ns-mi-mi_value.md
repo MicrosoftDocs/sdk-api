@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Value
-title: MI_Value
+title: MI_Value (mi.h)
 author: windows-sdk-content
 description: A union of all CIM data types.
 old-location: wmi_v2\mi_value.htm

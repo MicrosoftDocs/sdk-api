@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFClock.GetCorrelatedTime
-title: IMFClock::GetCorrelatedTime
+title: IMFClock::GetCorrelatedTime (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the last clock time that was correlated with system time.
 old-location: mf\imfclock_getcorrelatedtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_OBJECT_TYPE
-title: VDS_OBJECT_TYPE
+title: VDS_OBJECT_TYPE (vds.h)
 author: windows-sdk-content
 description: Defines the set of valid types of a VDS object.
 old-location: base\vds_object_type.htm

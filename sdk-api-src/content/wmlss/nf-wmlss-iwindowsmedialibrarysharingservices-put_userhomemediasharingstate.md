@@ -1,6 +1,6 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.put_userHomeMediaSharingState
-title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState
+title: IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingState (wmlss.h)
 author: windows-sdk-content
 description: The put_userHomeMediaSharingState method enables or disables sharing of the current user's media library on the home network.
 old-location: wmlss\IWMLSSput_userHomeMediaSharingState.htm

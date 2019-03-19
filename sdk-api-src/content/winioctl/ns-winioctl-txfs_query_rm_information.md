@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._TXFS_QUERY_RM_INFORMATION
-title: TXFS_QUERY_RM_INFORMATION
+title: TXFS_QUERY_RM_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Contains information about the resource manager (RM).
 old-location: fs\txfs_query_rm_information.htm

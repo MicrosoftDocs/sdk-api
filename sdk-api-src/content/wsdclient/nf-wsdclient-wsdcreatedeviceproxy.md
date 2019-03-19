@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.WSDCreateDeviceProxy
-title: WSDCreateDeviceProxy function
+title: WSDCreateDeviceProxy function (wsdclient.h)
 author: windows-sdk-content
 description: Creates a device proxy and returns a pointer to the IWSDDeviceProxy interface.
 old-location: ncd\wsdcreatedeviceproxy.htm

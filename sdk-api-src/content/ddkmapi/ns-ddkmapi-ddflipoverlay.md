@@ -1,6 +1,6 @@
 ---
 UID: NS:ddkmapi._DDFLIPOVERLAY
-title: DDFLIPOVERLAY
+title: DDFLIPOVERLAY (ddkmapi.h)
 author: windows-sdk-content
 description: The DDFLIPOVERLAY structure contains the surface information required for the flip.
 old-location: display\ddflipoverlay.htm

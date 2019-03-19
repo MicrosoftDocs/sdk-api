@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetDeviceIcon
-title: IWMDMDevice::GetDeviceIcon
+title: IWMDMDevice::GetDeviceIcon (mswmdm.h)
 author: windows-sdk-content
 description: The GetDeviceIcon method retrieves a handle to the icon that the device manufacturer wants to display when the device is connected.
 old-location: wmdm\iwmdmdevice_getdeviceicon.htm

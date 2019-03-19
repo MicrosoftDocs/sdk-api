@@ -1,6 +1,6 @@
 ---
 UID: NN:sbe.IStreamBufferConfigure
-title: IStreamBufferConfigure
+title: IStreamBufferConfigure (sbe.h)
 author: windows-sdk-content
 description: The IStreamBufferConfigure interface configures the location, number, and size of the backing files used by the various stream buffer objects.The StreamBufferConfig object exposes this interface.Before calling any of the Set methods on this interface, you must specify a registry key to hold the new settings. For more information, see IStreamBufferInitialize::SetHKEY.
 old-location: mstv\istreambufferconfigure.htm

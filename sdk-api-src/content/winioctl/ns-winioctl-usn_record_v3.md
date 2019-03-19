@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl.__unnamed_struct_23
-title: USN_RECORD_V3
+title: USN_RECORD_V3 (winioctl.h)
 author: windows-sdk-content
 description: Contains the information for an update sequence number (USN) change journal version 3.0 record.
 old-location: fs\usn_record_v3.htm

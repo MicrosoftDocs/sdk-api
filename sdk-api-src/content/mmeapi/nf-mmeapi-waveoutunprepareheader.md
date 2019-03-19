@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveOutUnprepareHeader
-title: waveOutUnprepareHeader function
+title: waveOutUnprepareHeader function (mmeapi.h)
 author: windows-sdk-content
 description: The waveOutUnprepareHeader function cleans up the preparation performed by the waveOutPrepareHeader function. This function must be called after the device driver is finished with a data block. You must call this function before freeing the buffer.
 old-location: multimedia\waveoutunprepareheader.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptionsEx2.ProxyAuthenticationUseNegotiate
-title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate
+title: IWSManConnectionOptionsEx2::ProxyAuthenticationUseNegotiate (wsmandisp.h)
 author: windows-sdk-content
 description: Returns the value of the proxy authentication flag WSManFlagProxyAuthenticationUseNegotiate for use in the authenticationMechanism parameter of the IWSManConnectionOptionsEx2::SetProxy method.
 old-location: winrm\iwsmanconnectionoptionsex2_proxyauthenticationusenegotiate.htm

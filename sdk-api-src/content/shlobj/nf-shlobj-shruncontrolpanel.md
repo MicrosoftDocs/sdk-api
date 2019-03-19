@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.SHRunControlPanel
-title: SHRunControlPanel function
+title: SHRunControlPanel function (shlobj.h)
 author: windows-sdk-content
 description: Opens a Control Panel item.
 old-location: shell\SHRunControlPanel.htm

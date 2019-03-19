@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.IsProcessDPIAware
-title: IsProcessDPIAware function
+title: IsProcessDPIAware function (winuser.h)
 author: windows-sdk-content
 description: IsProcessDPIAware may be altered or unavailable. Instead, use GetProcessDPIAwareness.
 old-location: winmsg\isprocessdpiaware.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetState
-title: IRtwqAsyncResult::GetState
+title: IRtwqAsyncResult::GetState (rtworkq.h)
 author: windows-sdk-content
 description: Returns the state object specified by the caller in the asynchronous Begin method.
 old-location: base\irtwqasyncresult_getstate.htm

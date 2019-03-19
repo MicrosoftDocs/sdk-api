@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetMethodContext
-title: CInstance::GetMethodContext
+title: CInstance::GetMethodContext (instance.h)
 author: windows-sdk-content
 description: The GetMethodContext method returns a pointer to a MethodContext object.
 old-location: wmi\cinstance_getmethodcontext.htm

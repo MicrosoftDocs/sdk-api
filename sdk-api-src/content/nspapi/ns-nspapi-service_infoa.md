@@ -1,6 +1,6 @@
 ---
 UID: NS:nspapi._SERVICE_INFOA
-title: SERVICE_INFOA
+title: SERVICE_INFOA (nspapi.h)
 author: windows-sdk-content
 description: Contains information about a network service or a network service type.
 old-location: winsock\service_info_2.htm

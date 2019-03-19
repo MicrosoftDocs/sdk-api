@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IPBDAEntitlementDescriptor
-title: IPBDAEntitlementDescriptor
+title: IPBDAEntitlementDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that retrieve data from the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdaentitlementdescriptor.htm

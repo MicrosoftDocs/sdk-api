@@ -1,6 +1,6 @@
 ---
 UID: NS:oleauto.tagMETHODDATA
-title: METHODDATA
+title: METHODDATA (oleauto.h)
 author: windows-sdk-content
 description: Describes a method or property.
 old-location: automat\methoddata.htm

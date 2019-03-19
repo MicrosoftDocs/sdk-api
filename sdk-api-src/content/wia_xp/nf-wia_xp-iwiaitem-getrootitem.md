@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.GetRootItem
-title: IWiaItem::GetRootItem
+title: IWiaItem::GetRootItem (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaItem::GetRootItem method retrieves the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaItem_GetRootItem.htm

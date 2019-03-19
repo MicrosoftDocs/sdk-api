@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ComboBox_GetCount
-title: ComboBox_GetCount macro
+title: ComboBox_GetCount macro (windowsx.h)
 author: windows-sdk-content
 description: Gets the number of items in the list box of a combo box. You can use this macro or send the CB_GETCOUNT message explicitly.
 old-location: controls\ComboBox_GetCount.htm

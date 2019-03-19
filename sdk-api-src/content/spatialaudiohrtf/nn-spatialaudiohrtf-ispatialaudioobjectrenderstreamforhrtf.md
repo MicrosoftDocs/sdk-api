@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudiohrtf.ISpatialAudioObjectRenderStreamForHrtf
-title: ISpatialAudioObjectRenderStreamForHrtf
+title: ISpatialAudioObjectRenderStreamForHrtf (spatialaudiohrtf.h)
 author: windows-sdk-content
 description: Provides methods for controlling an Hrtf spatial audio object render stream, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudiorenderstreamforhrtf.htm

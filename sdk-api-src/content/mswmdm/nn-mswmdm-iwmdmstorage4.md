@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMStorage4
-title: IWMDMStorage4
+title: IWMDMStorage4 (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMStorage4 interface extends IWMDMStorage3 by providing methods for retrieving a subset of available metadata for a storage, and for setting and retrieving a list of references to other storages.
 old-location: wmdm\iwmdmstorage4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.RecognizeNamedEntities
-title: IConditionGenerator::RecognizeNamedEntities
+title: IConditionGenerator::RecognizeNamedEntities (structuredquery.h)
 author: windows-sdk-content
 description: Identifies named entities in an input string, and creates a collection containing them.
 old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm

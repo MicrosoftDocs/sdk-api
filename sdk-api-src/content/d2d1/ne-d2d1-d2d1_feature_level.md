@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_FEATURE_LEVEL
-title: D2D1_FEATURE_LEVEL
+title: D2D1_FEATURE_LEVEL (d2d1.h)
 author: windows-sdk-content
 description: Describes the minimum DirectX support required for hardware rendering by a render target.
 old-location: direct2d\D2D1_FEATURE_LEVEL.htm

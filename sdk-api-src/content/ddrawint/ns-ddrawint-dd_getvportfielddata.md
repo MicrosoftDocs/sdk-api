@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTFIELDDATA
-title: DD_GETVPORTFIELDDATA
+title: DD_GETVPORTFIELDDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETVPORTFIELDDATA structure contains the information required for the driver to determine whether the current field of an interlaced signal is even or odd.
 old-location: display\dd_getvportfielddata.htm

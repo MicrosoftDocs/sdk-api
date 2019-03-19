@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminGetIpv6AddressForUser
-title: MprAdminGetIpv6AddressForUser function
+title: MprAdminGetIpv6AddressForUser function (mprapi.h)
 author: windows-sdk-content
 description: RAS calls the MprAdminGetIpv6AddressForUser function once for each user that requires an IPv6 address.
 old-location: rras\mpradmingetipv6addressforuser.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetManifestResourceProps
-title: IMetaDataAssemblyImport::GetManifestResourceProps
+title: IMetaDataAssemblyImport::GetManifestResourceProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the set of properties of the manifest resource with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getmanifestresourceprops.htm

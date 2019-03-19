@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecPrivateData
-title: IWMCodecPrivateData
+title: IWMCodecPrivateData (wmcodecdsp.h)
 author: windows-sdk-content
 description: Gets the private codec data that must be appended to the output media type. This codec data is required for properly decoding Windows Media Video content.
 old-location: mf\iwmcodecprivatedatainterface.htm

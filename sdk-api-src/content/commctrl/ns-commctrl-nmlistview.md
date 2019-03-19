@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMLISTVIEW
-title: NMLISTVIEW
+title: NMLISTVIEW (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a list-view notification message. This structure is the same as the NM_LISTVIEW structure but has been renamed to fit standard naming conventions.
 old-location: controls\NMLISTVIEW.htm

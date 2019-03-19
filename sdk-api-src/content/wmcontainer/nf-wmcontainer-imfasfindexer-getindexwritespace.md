@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexWriteSpace
-title: IMFASFIndexer::GetIndexWriteSpace
+title: IMFASFIndexer::GetIndexWriteSpace (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the size, in bytes, of the buffer required to store the completed index.
 old-location: mf\imfasfindexer_getindexwritespace.htm

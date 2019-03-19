@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsConfigurationChange
-title: IMbnSmsEvents::OnSmsConfigurationChange
+title: IMbnSmsEvents::OnSmsConfigurationChange (mbnapi.h)
 author: windows-sdk-content
 description: Notification method that indicates that SMS configuration has changed or is available.
 old-location: mbn\imbnsmsevents_onsmsconfigurationchange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetItem
-title: IConsoleNameSpace::GetItem
+title: IConsoleNameSpace::GetItem (mmc.h)
 author: windows-sdk-content
 description: The IConsoleNameSpace2::GetItem method enables the snap-in to retrieve some or all of a single scope item's attributes.
 old-location: mmc\iconsolenamespace2_getitem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathCanonicalizeA
-title: PathCanonicalizeA function
+title: PathCanonicalizeA function (shlwapi.h)
 author: windows-sdk-content
 description: Simplifies a path by removing navigation elements such as &#0034;.&#0034; and &#0034;..&#0034; to produce a direct, well-formed path.
 old-location: shell\PathCanonicalize.htm

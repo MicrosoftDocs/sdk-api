@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.Wait
-title: ID3D12CommandQueue::Wait
+title: ID3D12CommandQueue::Wait (d3d12.h)
 author: windows-sdk-content
 description: Waits until the specified fence reaches or exceeds the specified value.
 old-location: direct3d12\id3d12commandqueue_wait.htm

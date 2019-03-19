@@ -1,6 +1,6 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0008_0001
-title: UI_ANIMATION_PRIORITY_EFFECT
+title: UI_ANIMATION_PRIORITY_EFFECT (uianimation.h)
 author: windows-sdk-content
 description: Defines potential effects on a storyboard if a priority comparison returns false.
 old-location: uianimation\ui_animation_priority_effect.htm

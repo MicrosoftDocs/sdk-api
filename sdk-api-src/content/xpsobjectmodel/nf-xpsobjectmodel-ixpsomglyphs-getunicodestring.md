@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetUnicodeString
-title: IXpsOMGlyphs::GetUnicodeString
+title: IXpsOMGlyphs::GetUnicodeString (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the text in unescaped UTF-16 scalar values.
 old-location: xps\ixpsomglyphs_getunicodestring.htm

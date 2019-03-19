@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferCreateLevel
-title: SaferCreateLevel function
+title: SaferCreateLevel function (winsafer.h)
 author: windows-sdk-content
 description: Opens a SAFER_LEVEL_HANDLE.
 old-location: security\safercreatelevel.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPFormatNetworkName
-title: NPFormatNetworkName function
+title: NPFormatNetworkName function (npapi.h)
 author: windows-sdk-content
 description: Formats a network name in a provider-specific format for display in a control.
 old-location: security\npformatnetworkname.htm

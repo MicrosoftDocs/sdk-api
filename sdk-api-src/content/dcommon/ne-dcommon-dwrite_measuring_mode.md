@@ -1,6 +1,6 @@
 ---
 UID: NE:dcommon.DWRITE_MEASURING_MODE
-title: DWRITE_MEASURING_MODE
+title: DWRITE_MEASURING_MODE (dcommon.h)
 author: windows-sdk-content
 description: Indicates the measuring method used for text layout.
 old-location: directwrite\dwrite_text_measuring_method.htm

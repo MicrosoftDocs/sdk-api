@@ -1,6 +1,6 @@
 ---
 UID: NS:comsvcs._ComponentHangMonitorInfo
-title: ComponentHangMonitorInfo
+title: ComponentHangMonitorInfo (comsvcs.h)
 author: windows-sdk-content
 description: Represents the hang monitoring configuration for a COM+ component.
 old-location: cos\componenthangmonitorinfo.htm

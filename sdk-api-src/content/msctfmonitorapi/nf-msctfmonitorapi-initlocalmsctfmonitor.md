@@ -1,6 +1,6 @@
 ---
 UID: NF:msctfmonitorapi.InitLocalMsCtfMonitor
-title: InitLocalMsCtfMonitor function
+title: InitLocalMsCtfMonitor function (msctfmonitorapi.h)
 author: windows-sdk-content
 description: The InitLocalMsCtfMonitor function initializes TextServicesFramework on the current desktop and prepares the floating language bar, if necessary. This function must be called on the app's desktop.
 old-location: tsf\InitLocalMsCtfMonitor.htm

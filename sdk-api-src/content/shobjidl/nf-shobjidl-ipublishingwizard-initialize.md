@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IPublishingWizard.Initialize
-title: IPublishingWizard::Initialize
+title: IPublishingWizard::Initialize (shobjidl.h)
 author: windows-sdk-content
 description: Initializes the Publishing Wizard object with the files to transfer, the settings to use, and the type of wizard to create.
 old-location: shell\IPublishingWizard_Initialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMSampleExtensionSupport.SetUseSampleExtensions
-title: IWMSampleExtensionSupport::SetUseSampleExtensions
+title: IWMSampleExtensionSupport::SetUseSampleExtensions (wmcodecdsp.h)
 author: windows-sdk-content
 description: Configures whether the codec supports sample extensions.
 old-location: mf\iwmsampleextensionsupportsetusesampleextensions.htm

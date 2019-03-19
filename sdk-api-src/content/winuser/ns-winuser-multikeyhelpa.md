@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMULTIKEYHELPA
-title: MULTIKEYHELPA
+title: MULTIKEYHELPA (winuser.h)
 author: windows-sdk-content
 description: Specifies a keyword to search for and the keyword table to be searched by Windows Help.
 old-location: shell\MULTIKEYHELP_str.htm

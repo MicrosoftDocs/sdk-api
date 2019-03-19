@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.DrawDibSetPalette
-title: DrawDibSetPalette function
+title: DrawDibSetPalette function (vfw.h)
 author: windows-sdk-content
 description: The DrawDibSetPalette function sets the palette used for drawing DIBs.
 old-location: multimedia\drawdibsetpalette.htm

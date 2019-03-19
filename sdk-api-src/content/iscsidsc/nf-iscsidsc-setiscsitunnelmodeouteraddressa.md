@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.SetIScsiTunnelModeOuterAddressA
-title: SetIScsiTunnelModeOuterAddressA function
+title: SetIScsiTunnelModeOuterAddressA function (iscsidsc.h)
 author: windows-sdk-content
 description: SetIscsiTunnelModeOuterAddress function establishes the tunnel-mode outer address that the indicated initiator Host Bus Adapter (HBA) uses when communicating in IPsec tunnel mode through the specified port.
 old-location: iscsidisc\setiscsitunnelmodeouteraddress.htm

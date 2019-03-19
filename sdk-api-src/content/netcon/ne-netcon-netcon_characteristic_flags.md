@@ -1,6 +1,6 @@
 ---
 UID: NE:netcon.tagNETCON_CHARACTERISTIC_FLAGS
-title: NETCON_CHARACTERISTIC_FLAGS
+title: NETCON_CHARACTERISTIC_FLAGS (netcon.h)
 author: windows-sdk-content
 description: The NETCON_CHARACTERISTIC_FLAGS enumeration type specifies possible characteristics for a network connection.
 old-location: ics\netcon_characteristic_flags.htm

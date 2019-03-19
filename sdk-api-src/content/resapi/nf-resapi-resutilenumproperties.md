@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilEnumProperties
-title: ResUtilEnumProperties function
+title: ResUtilEnumProperties function (resapi.h)
 author: windows-sdk-content
 description: Enumerates the property names of a cluster object. The PRESUTIL_ENUM_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilenumproperties.htm

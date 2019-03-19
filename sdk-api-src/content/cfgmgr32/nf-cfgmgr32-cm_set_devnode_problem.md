@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Problem
-title: CM_Set_DevNode_Problem function
+title: CM_Set_DevNode_Problem function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Set_DevNode_Problem function sets a problem code for a device that is installed in a local machine.
 old-location: devinst\cm_set_devnode_problem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:ctffunc.__MIDL___MIDL_itf_ctffunc_0000_0022_0001
-title: TfIntegratableCandidateListSelectionStyle
+title: TfIntegratableCandidateListSelectionStyle (ctffunc.h)
 author: windows-sdk-content
 description: Elements of the TfIntegratableCandidateListSelectionStyle enumeration specify the integratable candidate list selection styles.
 old-location: tsf\tfintegratablecandidatelistselectionstyle.htm

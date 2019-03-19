@@ -1,6 +1,6 @@
 ---
 UID: NE:winnls._NORM_FORM
-title: NORM_FORM
+title: NORM_FORM (winnls.h)
 author: windows-sdk-content
 description: Specifies the supported normalization forms.
 old-location: intl\norm_form.htm

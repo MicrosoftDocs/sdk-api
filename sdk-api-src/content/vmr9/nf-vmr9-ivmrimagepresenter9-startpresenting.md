@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.StartPresenting
-title: IVMRImagePresenter9::StartPresenting
+title: IVMRImagePresenter9::StartPresenting (vmr9.h)
 author: windows-sdk-content
 description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.
 old-location: dshow\ivmrimagepresenter9_startpresenting.htm

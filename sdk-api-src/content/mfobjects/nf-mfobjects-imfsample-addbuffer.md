@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFSample.AddBuffer
-title: IMFSample::AddBuffer
+title: IMFSample::AddBuffer (mfobjects.h)
 author: windows-sdk-content
 description: Adds a buffer to the end of the list of buffers in the sample.
 old-location: mf\imfsample_addbuffer.htm

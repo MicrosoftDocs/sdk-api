@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
-title: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+title: D3D11_VIDEO_PROCESSOR_STEREO_FLIP_MODE (d3d11.h)
 author: windows-sdk-content
 description: For stereo 3D video, specifies whether the data in frame 0 or frame 1 is flipped, either horizontally or vertically.
 old-location: mf\d3d11_video_processor_stereo_flip_mode.htm

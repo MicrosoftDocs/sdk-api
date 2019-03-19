@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.RotationArbitraryAxis
-title: Matrix4x4F::RotationArbitraryAxis
+title: Matrix4x4F::RotationArbitraryAxis (d2d1_1helper.h)
 author: windows-sdk-content
 description: Determines the 3-D Rotation matrix for an arbitrary axis.
 old-location: direct2d\matrix4x4f_rotationarbitraryaxis.htm

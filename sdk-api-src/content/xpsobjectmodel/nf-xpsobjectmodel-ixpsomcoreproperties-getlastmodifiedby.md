@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLastModifiedBy
-title: IXpsOMCoreProperties::GetLastModifiedBy
+title: IXpsOMCoreProperties::GetLastModifiedBy (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the lastModifiedBy property.
 old-location: xps\ixpsomcoreproperties_getlastmodifiedby.htm

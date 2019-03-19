@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.put_Version
-title: IAzApplication::put_Version
+title: IAzApplication::put_Version (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the version of the application.
 old-location: security\iazapplication_version.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsx.ListBox_SetItemHeight
-title: ListBox_SetItemHeight macro
+title: ListBox_SetItemHeight macro (windowsx.h)
 author: windows-sdk-content
 description: Sets the height of items in a list box.
 old-location: controls\ListBox_SetItemHeight.htm

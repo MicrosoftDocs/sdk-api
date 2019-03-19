@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetMaxItemCount
-title: ISpatialAudioMetadataItems::GetMaxItemCount
+title: ISpatialAudioMetadataItems::GetMaxItemCount (spatialaudiometadata.h)
 author: windows-sdk-content
 description: The maximum number of items allowed by the ISpatialAudioMetadataItems, defined when the object is created.
 old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm

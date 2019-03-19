@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d9caps._D3DOVERLAYCAPS
-title: D3DOVERLAYCAPS
+title: D3DOVERLAYCAPS (d3d9caps.h)
 author: windows-sdk-content
 description: Specifies hardware overlay capabilities for a Direct3D device.
 old-location: mf\d3doverlaycaps.htm

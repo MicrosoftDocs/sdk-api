@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbContentDescriptor
-title: IDvbContentDescriptor
+title: IDvbContentDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get information from a Digital Video Broadcast (DVB) content descriptor.
 old-location: mstv\idvbcontentdescriptor.htm

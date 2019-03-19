@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FDICreate
-title: FDICreate function
+title: FDICreate function (fdi.h)
 author: windows-sdk-content
 description: The FDICreate function creates an FDI context.
 old-location: winprog\fdicreate.htm

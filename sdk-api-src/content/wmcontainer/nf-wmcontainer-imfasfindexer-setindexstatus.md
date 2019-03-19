@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetIndexStatus
-title: IMFASFIndexer::SetIndexStatus
+title: IMFASFIndexer::SetIndexStatus (wmcontainer.h)
 author: windows-sdk-content
 description: Configures the index for a stream.
 old-location: mf\imfasfindexer_setindexstatus.htm

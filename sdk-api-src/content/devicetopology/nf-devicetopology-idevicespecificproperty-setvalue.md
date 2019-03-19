@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.SetValue
-title: IDeviceSpecificProperty::SetValue
+title: IDeviceSpecificProperty::SetValue (devicetopology.h)
 author: windows-sdk-content
 description: The SetValue method sets the value of the device-specific property.
 old-location: coreaudio\idevicespecificproperty_setvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:imapi2._IMAPI_CD_SECTOR_TYPE
-title: IMAPI_CD_SECTOR_TYPE
+title: IMAPI_CD_SECTOR_TYPE (imapi2.h)
 author: windows-sdk-content
 description: Defines the sector types that can be written to CD media.
 old-location: imapi\imapi_cd_sector_type.htm

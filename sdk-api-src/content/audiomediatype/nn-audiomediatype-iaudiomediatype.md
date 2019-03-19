@@ -1,6 +1,6 @@
 ---
 UID: NN:audiomediatype.IAudioMediaType
-title: IAudioMediaType
+title: IAudioMediaType (audiomediatype.h)
 author: windows-sdk-content
 description: The IAudioMediaType interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format.
 old-location: audio\iaudiomediatype.htm

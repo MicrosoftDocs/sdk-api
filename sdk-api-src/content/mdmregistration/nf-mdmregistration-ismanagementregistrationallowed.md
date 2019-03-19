@@ -1,6 +1,6 @@
 ---
 UID: NF:mdmregistration.IsManagementRegistrationAllowed
-title: IsManagementRegistrationAllowed function
+title: IsManagementRegistrationAllowed function (mdmregistration.h)
 author: windows-sdk-content
 description: Checks whether MDM registration is allowed by local policy.
 old-location: mdmreg\ismanagementregistrationallowed.htm

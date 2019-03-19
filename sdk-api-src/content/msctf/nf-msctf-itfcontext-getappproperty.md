@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfContext.GetAppProperty
-title: ITfContext::GetAppProperty
+title: ITfContext::GetAppProperty (msctf.h)
 author: windows-sdk-content
 description: ITfContext::GetAppProperty method
 old-location: tsf\itfcontext_getappproperty.htm

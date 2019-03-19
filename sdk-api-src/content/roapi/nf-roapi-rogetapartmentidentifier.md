@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.RoGetApartmentIdentifier
-title: RoGetApartmentIdentifier function
+title: RoGetApartmentIdentifier function (roapi.h)
 author: windows-sdk-content
 description: Gets a unique identifier for the current apartment.
 old-location: winrt\rogetapartmentidentifier.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderResourceVariable.SetResourceArray
-title: ID3D10EffectShaderResourceVariable::SetResourceArray
+title: ID3D10EffectShaderResourceVariable::SetResourceArray (d3d10effect.h)
 author: windows-sdk-content
 description: Set an array of shader resources.
 old-location: direct3d10\id3d10effectshaderresourcevariable_setresourcearray.htm

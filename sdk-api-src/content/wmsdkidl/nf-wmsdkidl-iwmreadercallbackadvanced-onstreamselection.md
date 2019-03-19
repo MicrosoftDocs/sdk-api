@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnStreamSelection
-title: IWMReaderCallbackAdvanced::OnStreamSelection
+title: IWMReaderCallbackAdvanced::OnStreamSelection (wmsdkidl.h)
 author: windows-sdk-content
 description: The OnStreamSelection method notifies the application of stream changes made due to bandwidth restrictions. To have this method called, call IWMReaderAdvanced::SetReceiveSelectionCallbacks.
 old-location: wmformat\iwmreadercallbackadvanced_onstreamselection.htm

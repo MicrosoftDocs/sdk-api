@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.KeyUp
-title: ITfKeystrokeMgr::KeyUp
+title: ITfKeystrokeMgr::KeyUp (msctf.h)
 author: windows-sdk-content
 description: ITfKeystrokeMgr::KeyUp method
 old-location: tsf\itfkeystrokemgr_keyup.htm

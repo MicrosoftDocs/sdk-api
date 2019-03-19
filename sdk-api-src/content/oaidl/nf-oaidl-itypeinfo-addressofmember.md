@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.AddressOfMember
-title: ITypeInfo::AddressOfMember
+title: ITypeInfo::AddressOfMember (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the addresses of static functions or variables, such as those defined in a DLL.
 old-location: automat\itypeinfo_addressofmember.htm

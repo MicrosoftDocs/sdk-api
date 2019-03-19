@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallApplication
-title: ICOMAdminCatalog::InstallApplication
+title: ICOMAdminCatalog::InstallApplication (comadmin.h)
 author: windows-sdk-content
 description: Installs a COM+ application or application proxy from the specified file.
 old-location: cos\icomadmincatalog_installapplication.htm

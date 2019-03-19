@@ -1,6 +1,6 @@
 ---
 UID: NE:spatialaudioclient.AudioObjectType
-title: AudioObjectType
+title: AudioObjectType (spatialaudioclient.h)
 author: windows-sdk-content
 description: Specifies the type of an ISpatialAudioObject.
 old-location: coreaudio\audioobjecttype.htm

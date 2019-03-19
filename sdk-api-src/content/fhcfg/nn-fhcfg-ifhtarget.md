@@ -1,6 +1,6 @@
 ---
 UID: NN:fhcfg.IFhTarget
-title: IFhTarget
+title: IFhTarget (fhcfg.h)
 author: windows-sdk-content
 description: The IFhTarget interface allows client applications to read numeric and string properties of a File History backup target.
 old-location: winprog\ifhtarget.htm

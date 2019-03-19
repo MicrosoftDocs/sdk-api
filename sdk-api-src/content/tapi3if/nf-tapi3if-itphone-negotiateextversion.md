@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.NegotiateExtVersion
-title: ITPhone::NegotiateExtVersion
+title: ITPhone::NegotiateExtVersion (tapi3if.h)
 author: windows-sdk-content
 description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support provider specific extensions.
 old-location: tapi3\itphone_negotiateextversion.htm

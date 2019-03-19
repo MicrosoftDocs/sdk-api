@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IDirectorySearch.GetNextRow
-title: IDirectorySearch::GetNextRow
+title: IDirectorySearch::GetNextRow (iads.h)
 author: windows-sdk-content
 description: Gets the next row of the search result.
 old-location: adsi\idirectorysearch_getnextrow.htm

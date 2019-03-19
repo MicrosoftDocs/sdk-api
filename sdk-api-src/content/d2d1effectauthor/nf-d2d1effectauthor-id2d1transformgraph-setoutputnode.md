@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.SetOutputNode
-title: ID2D1TransformGraph::SetOutputNode
+title: ID2D1TransformGraph::SetOutputNode (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Sets the output node for the transform graph.
 old-location: direct2d\id2d1transformgraph_setoutputnode.htm

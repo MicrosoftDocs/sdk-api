@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.NextWords
-title: IFEDictionary::NextWords
+title: IFEDictionary::NextWords (msime.h)
 author: windows-sdk-content
 description: Gets the next word entry from a dictionary.
 old-location: intl\ifedictionary_nextwords.htm

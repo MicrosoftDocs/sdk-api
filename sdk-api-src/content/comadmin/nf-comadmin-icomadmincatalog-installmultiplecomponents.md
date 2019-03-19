@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallMultipleComponents
-title: ICOMAdminCatalog::InstallMultipleComponents
+title: ICOMAdminCatalog::InstallMultipleComponents (comadmin.h)
 author: windows-sdk-content
 description: Installs components from multiple files into a COM+ application.
 old-location: cos\icomadmincatalog_installmultiplecomponents.htm

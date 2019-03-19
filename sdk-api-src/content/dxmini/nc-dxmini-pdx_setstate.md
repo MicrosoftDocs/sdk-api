@@ -1,6 +1,6 @@
 ---
 UID: NC:dxmini.PDX_SETSTATE
-title: PDX_SETSTATE
+title: PDX_SETSTATE (dxmini.h)
 author: windows-sdk-content
 description: The DxSetState callback function is called when a client of the video miniport driver decides it wants to switch from bob mode to weave mode, and vice versa.
 old-location: display\dxsetstate.htm

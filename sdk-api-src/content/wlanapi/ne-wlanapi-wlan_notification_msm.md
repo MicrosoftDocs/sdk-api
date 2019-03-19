@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_NOTIFICATION_MSM
-title: WLAN_NOTIFICATION_MSM
+title: WLAN_NOTIFICATION_MSM (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for Media Specific Module (MSM) notifications.
 old-location: nwifi\wlan_notification_msm.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get__NewEnum
-title: IFsiDirectoryItem::get__NewEnum
+title: IFsiDirectoryItem::get__NewEnum (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves a list of child items contained within the directory in the file system image.
 old-location: imapi\ifsidirectoryitem_get__newenum.htm

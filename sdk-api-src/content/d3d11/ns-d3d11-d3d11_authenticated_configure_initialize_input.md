@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
-title: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
+title: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT (d3d11.h)
 author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE command.
 old-location: mf\d3d11_authenticated_configure_initialize_input.htm

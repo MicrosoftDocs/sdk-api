@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToInt32WithDefault
-title: VariantToInt32WithDefault function
+title: VariantToInt32WithDefault function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts an Int32 property value of a variant structure. If no value exists, then the specified default value is returned.
 old-location: properties\VariantToInt32WithDefault.htm

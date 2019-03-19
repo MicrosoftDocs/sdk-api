@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetCapabilities
-title: IAppxManifestReader::GetCapabilities
+title: IAppxManifestReader::GetCapabilities (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the list of capabilities requested by the package.
 old-location: appxpkg\iappxmanifestreader_getcapabilities.htm

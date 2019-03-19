@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterGUIDDWORD
-title: ITfCategoryMgr::UnregisterGUIDDWORD
+title: ITfCategoryMgr::UnregisterGUIDDWORD (msctf.h)
 author: windows-sdk-content
 description: ITfCategoryMgr::UnregisterGUIDDWORD method
 old-location: tsf\itfcategorymgr_unregisterguiddword.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_3.DWRITE_CONTAINER_TYPE
-title: DWRITE_CONTAINER_TYPE
+title: DWRITE_CONTAINER_TYPE (dwrite_3.h)
 author: windows-sdk-content
 description: Specifies the container format of a font resource. A container format is distinct from a font file format (DWRITE_FONT_FILE_TYPE) because the container describes the container in which the underlying font file is packaged.
 old-location: directwrite\dwrite_container_type.htm

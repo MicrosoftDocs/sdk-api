@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetInputHandles
-title: IWRdsProtocolConnection::GetInputHandles
+title: IWRdsProtocolConnection::GetInputHandles (wtsprotocol.h)
 author: windows-sdk-content
 description: Obtains the handles to input/output devices for the protocol.
 old-location: termserv\iwrdsprotocolconnection_getinputhandles.htm

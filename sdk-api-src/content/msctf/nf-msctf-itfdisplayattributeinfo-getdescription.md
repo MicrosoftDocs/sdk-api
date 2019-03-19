@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.GetDescription
-title: ITfDisplayAttributeInfo::GetDescription
+title: ITfDisplayAttributeInfo::GetDescription (msctf.h)
 author: windows-sdk-content
 description: ITfDisplayAttributeInfo::GetDescription method
 old-location: tsf\itfdisplayattributeinfo_getdescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun.Shrink
-title: IVdsLun::Shrink
+title: IVdsLun::Shrink (vds.h)
 author: windows-sdk-content
 description: Shrinks a LUN by a specified number of bytes.
 old-location: base\ivdslun_shrink.htm

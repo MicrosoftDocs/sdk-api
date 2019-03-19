@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_KEY_MODULE_TYPE_
-title: IKEEXT_KEY_MODULE_TYPE
+title: IKEEXT_KEY_MODULE_TYPE (iketypes.h)
 author: windows-sdk-content
 description: Specifies the type of keying module.
 old-location: fwp\ikeext_key_module_type.htm

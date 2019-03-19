@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsapi32._WTS_SERVER_INFOA
-title: WTS_SERVER_INFOA
+title: WTS_SERVER_INFOA (wtsapi32.h)
 author: windows-sdk-content
 description: Contains information about a specific Remote Desktop Services server.
 old-location: termserv\wts_server_info.htm

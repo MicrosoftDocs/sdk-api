@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems
-title: IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems
+title: IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves optional packages in the bundle.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems.htm

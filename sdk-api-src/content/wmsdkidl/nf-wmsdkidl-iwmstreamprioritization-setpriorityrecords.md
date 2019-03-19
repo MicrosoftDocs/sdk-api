@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamPrioritization.SetPriorityRecords
-title: IWMStreamPrioritization::SetPriorityRecords
+title: IWMStreamPrioritization::SetPriorityRecords (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetPriorityRecords method assigns the members of an array as the stream priority list in the stream prioritization object.
 old-location: wmformat\iwmstreamprioritization_setpriorityrecords.htm

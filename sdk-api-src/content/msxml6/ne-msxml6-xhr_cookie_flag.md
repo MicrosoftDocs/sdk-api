@@ -1,6 +1,6 @@
 ---
 UID: NE:msxml6._XHR_COOKIE_FLAG
-title: XHR_COOKIE_FLAG
+title: XHR_COOKIE_FLAG (msxml6.h)
 author: windows-sdk-content
 description: Defines a set of flags that you can assign to a cookie in the HTTP cookie jar by calling the SetCookie method or query from the HTTP cookie jar by calling the GetCookie method.
 old-location: ixhr2\xhr_cookie_flag.htm

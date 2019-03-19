@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.SafeArrayToRectNativeArray
-title: IUIAutomation::SafeArrayToRectNativeArray
+title: IUIAutomation::SafeArrayToRectNativeArray (uiautomationclient.h)
 author: windows-sdk-content
 description: Converts a SAFEARRAY containing rectangle coordinates to an array of type RECT.
 old-location: winauto\uiauto_IUIAutomation_SafeArrayToRectNativeArray.htm

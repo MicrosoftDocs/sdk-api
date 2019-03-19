@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetDocumentPara
-title: ITextDocument2::GetDocumentPara
+title: ITextDocument2::GetDocumentPara (tom.h)
 author: windows-sdk-content
 description: Gets an object that provides the default paragraph format information for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getdocumentpara.htm

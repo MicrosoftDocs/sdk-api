@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocator.GetProperties
-title: IMemAllocator::GetProperties
+title: IMemAllocator::GetProperties (strmif.h)
 author: windows-sdk-content
 description: The GetProperties method retrieves the number of buffers that the allocator will create, and the buffer properties.
 old-location: dshow\imemallocator_getproperties.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Clone
-title: Matrix::Clone
+title: Matrix::Clone (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::Clone method creates a new Matrix object that is a copy of this Matrix object.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Clone_.htm

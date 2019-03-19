@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.EditStreamSetInfoA
-title: EditStreamSetInfoA function
+title: EditStreamSetInfoA function (vfw.h)
 author: windows-sdk-content
 description: The EditStreamSetInfo function changes characteristics of an editable stream.
 old-location: multimedia\editstreamsetinfo.htm

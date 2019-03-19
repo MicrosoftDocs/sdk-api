@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjPrimarySite.Commit
-title: IDsAdminNewObjPrimarySite::Commit
+title: IDsAdminNewObjPrimarySite::Commit (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObjPrimarySite::Commit method causes a single-page primary object creation extension's IDsAdminNewObjExt::WriteData method to be called and writes the temporary object to persistent memory.
 old-location: ad\idsadminnewobjprimarysite_commit.htm

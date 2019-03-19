@@ -1,6 +1,6 @@
 ---
 UID: NE:wbemdisp.WbemComparisonFlagEnum
-title: WbemComparisonFlagEnum
+title: WbemComparisonFlagEnum (wbemdisp.h)
 author: windows-sdk-content
 description: Define the settings for object comparison and are used by SWbemObject.CompareTo_.
 old-location: wmi\wbemcomparisonflagenum.htm

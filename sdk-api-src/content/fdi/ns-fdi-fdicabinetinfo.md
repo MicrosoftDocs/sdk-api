@@ -1,6 +1,6 @@
 ---
 UID: NS:fdi.__unnamed_struct_0
-title: FDICABINETINFO
+title: FDICABINETINFO (fdi.h)
 author: windows-sdk-content
 description: The FDICABINETINFO structure contains details about a particular cabinet file.
 old-location: winprog\fdicabinetinfo.htm

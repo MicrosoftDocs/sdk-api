@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldState
-title: ICredentialProviderCredentialEvents::SetFieldState
+title: ICredentialProviderCredentialEvents::SetFieldState (credentialprovider.h)
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that a field state has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldState.htm

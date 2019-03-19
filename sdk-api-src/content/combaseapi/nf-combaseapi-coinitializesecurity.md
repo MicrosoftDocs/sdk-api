@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoInitializeSecurity
-title: CoInitializeSecurity function
+title: CoInitializeSecurity function (combaseapi.h)
 author: windows-sdk-content
 description: Registers security and sets the default security values for the process.
 old-location: com\coinitializesecurity.htm

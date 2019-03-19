@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SMS_CDMA_ENCODING
-title: MBN_SMS_CDMA_ENCODING
+title: MBN_SMS_CDMA_ENCODING (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_CDMA_ENCODING enumerated type specifies character encoding types for CDMA.
 old-location: mbn\mbn_sms_cdma_encoding.htm

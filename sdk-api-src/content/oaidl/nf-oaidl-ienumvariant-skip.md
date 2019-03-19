@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Skip
-title: IEnumVARIANT::Skip
+title: IEnumVARIANT::Skip (oaidl.h)
 author: windows-sdk-content
 description: Attempts to skip over the next celt elements in the enumeration sequence.
 old-location: automat\ienumvariant_skip.htm

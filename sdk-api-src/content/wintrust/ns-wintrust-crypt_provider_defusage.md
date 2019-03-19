@@ -1,6 +1,6 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_DEFUSAGE
-title: CRYPT_PROVIDER_DEFUSAGE
+title: CRYPT_PROVIDER_DEFUSAGE (wintrust.h)
 author: windows-sdk-content
 description: Used by the WintrustGetDefaultForUsage function to retrieve callback information for a provider's default usage.
 old-location: security\crypt_provider_defusage.htm

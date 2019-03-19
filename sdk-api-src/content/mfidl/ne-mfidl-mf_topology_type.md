@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl.MF_TOPOLOGY_TYPE
-title: MF_TOPOLOGY_TYPE
+title: MF_TOPOLOGY_TYPE (mfidl.h)
 author: windows-sdk-content
 description: Defines the type of a topology node.
 old-location: mf\mf_topology_type.htm

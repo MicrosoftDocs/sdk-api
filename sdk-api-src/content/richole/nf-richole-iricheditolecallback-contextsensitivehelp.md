@@ -1,6 +1,6 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ContextSensitiveHelp
-title: IRichEditOleCallback::ContextSensitiveHelp
+title: IRichEditOleCallback::ContextSensitiveHelp (richole.h)
 author: windows-sdk-content
 description: Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for IOleWindow::ContextSensitiveHelp.
 old-location: controls\IRichEditOleCallback_ContextSensitiveHelp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
-title: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS
+title: IOCTL_GENERICUSBFN_ACTIVATE_USB_BUS (genericusbfnioctl.h)
 author: windows-sdk-content
 description: This I/O control code (IOCTL) is sent by a user-mode service or application to notify GenericUSBFn.sys to activate the Universal Serial Bus (USB). Once activated, the bus is prepared to process bus events and handle traffic.
 old-location: buses\ioctl_genericusbfn_activate_usb_bus.htm

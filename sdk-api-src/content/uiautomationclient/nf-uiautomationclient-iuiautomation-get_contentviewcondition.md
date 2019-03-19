@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ContentViewCondition
-title: IUIAutomation::get_ContentViewCondition
+title: IUIAutomation::get_ContentViewCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a predefined IUIAutomationCondition interface that selects content elements.
 old-location: winauto\uiauto_IUIAutomation_ContentViewCondition.htm

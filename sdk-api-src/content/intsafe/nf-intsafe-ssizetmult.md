@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.SSIZETMult
-title: SSIZETMult function
+title: SSIZETMult function (intsafe.h)
 author: windows-sdk-content
 description: Multiplies one SSIZE_T value by another.
 old-location: shell\SSIZETMult.htm

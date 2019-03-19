@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_MM_SA_STATE_
-title: IKEEXT_MM_SA_STATE
+title: IKEEXT_MM_SA_STATE (iketypes.h)
 author: windows-sdk-content
 description: States for the Main Mode (MM) negotiation exchanges that are part of the Authenticated Internet Protocol (AuthIP) and Internet Key Exchange (IKE) protocols.
 old-location: fwp\ikeext_mm_sa_state.htm

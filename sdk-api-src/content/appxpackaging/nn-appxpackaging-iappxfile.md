@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxFile
-title: IAppxFile
+title: IAppxFile (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves information about a payload or footprint file in a package.
 old-location: appxpkg\iappxfile.htm

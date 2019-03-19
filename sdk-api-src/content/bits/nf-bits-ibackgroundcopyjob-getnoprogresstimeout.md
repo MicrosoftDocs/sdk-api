@@ -1,6 +1,6 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNoProgressTimeout
-title: IBackgroundCopyJob::GetNoProgressTimeout
+title: IBackgroundCopyJob::GetNoProgressTimeout (bits.h)
 author: windows-sdk-content
 description: Retrieves the length of time that the service tries to transfer the file after a transient error condition occurs. If there is progress, the timer is reset.
 old-location: bits\ibackgroundcopyjob_getnoprogresstimeout.htm

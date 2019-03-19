@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnUnblockComplete
-title: IMbnPinEvents::OnUnblockComplete
+title: IMbnPinEvents::OnUnblockComplete (mbnapi.h)
 author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a PIN unblock operation has completed.
 old-location: mbn\imbnpinevents_onunblockcomplete.htm

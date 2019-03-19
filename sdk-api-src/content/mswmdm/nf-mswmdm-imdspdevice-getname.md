@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPDevice.GetName
-title: IMDSPDevice::GetName
+title: IMDSPDevice::GetName (mswmdm.h)
 author: windows-sdk-content
 description: The GetName method retrieves the name of the device.
 old-location: wmdm\imdspdevice_getname.htm

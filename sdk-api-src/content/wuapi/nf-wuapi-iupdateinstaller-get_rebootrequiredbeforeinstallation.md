@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_RebootRequiredBeforeInstallation
-title: IUpdateInstaller::get_RebootRequiredBeforeInstallation
+title: IUpdateInstaller::get_RebootRequiredBeforeInstallation (wuapi.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether a system restart is required before installing or uninstalling updates.
 old-location: wua\iupdateinstaller_rebootrequiredbeforeinstallation.htm

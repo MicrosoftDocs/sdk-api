@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.RevertSecurityContext
-title: RevertSecurityContext function
+title: RevertSecurityContext function (sspi.h)
 author: windows-sdk-content
 description: Allows a security package to discontinue the impersonation of the caller and restore its own security context.
 old-location: security\revertsecuritycontext.htm

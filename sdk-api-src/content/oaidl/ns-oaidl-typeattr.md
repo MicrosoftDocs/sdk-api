@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagTYPEATTR
-title: TYPEATTR
+title: TYPEATTR (oaidl.h)
 author: windows-sdk-content
 description: Contains attributes of a type.
 old-location: automat\typeattr.htm

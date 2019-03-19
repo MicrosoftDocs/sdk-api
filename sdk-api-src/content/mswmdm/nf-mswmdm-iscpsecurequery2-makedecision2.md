@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery2.MakeDecision2
-title: ISCPSecureQuery2::MakeDecision2
+title: ISCPSecureQuery2::MakeDecision2 (mswmdm.h)
 author: windows-sdk-content
 description: The MakeDecision2 method determines whether the secure content provider is responsible for the content by examining data that Windows Media Device Manager passes to this method.
 old-location: wmdm\iscpsecurequery2_makedecision2.htm

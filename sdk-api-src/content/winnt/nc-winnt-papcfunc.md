@@ -1,6 +1,6 @@
 ---
 UID: NC:winnt.PAPCFUNC
-title: PAPCFUNC
+title: PAPCFUNC (winnt.h)
 author: windows-sdk-content
 description: An application-defined completion routine. Specify this address when calling the QueueUserAPC function.
 old-location: base\apcproc.htm

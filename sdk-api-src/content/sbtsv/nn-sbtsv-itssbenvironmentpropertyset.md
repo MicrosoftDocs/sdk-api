@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbEnvironmentPropertySet
-title: ITsSbEnvironmentPropertySet
+title: ITsSbEnvironmentPropertySet (sbtsv.h)
 author: windows-sdk-content
 description: Can be used to define custom properties of an environment that hosts target computers as appropriate.
 old-location: termserv\itssbenvironmentpropertyset.htm

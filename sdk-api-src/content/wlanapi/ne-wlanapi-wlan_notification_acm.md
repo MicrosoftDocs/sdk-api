@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_NOTIFICATION_ACM
-title: WLAN_NOTIFICATION_ACM
+title: WLAN_NOTIFICATION_ACM (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the possible values of the NotificationCode member of the WLAN_NOTIFICATION_DATA structure for Auto Configuration Module (ACM) notifications.
 old-location: nwifi\wlan_notification_acm.htm

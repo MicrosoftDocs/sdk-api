@@ -1,6 +1,6 @@
 ---
 UID: NF:netcon.INetConnection.GetUiObjectClassId
-title: INetConnection::GetUiObjectClassId
+title: INetConnection::GetUiObjectClassId (netcon.h)
 author: windows-sdk-content
 description: The GetUiObjectClassId method retrieves the class identifier of the user interface object for this connection.
 old-location: ics\inetconnection_getuiobjectclassid.htm

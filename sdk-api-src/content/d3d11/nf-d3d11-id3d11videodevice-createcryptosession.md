@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateCryptoSession
-title: ID3D11VideoDevice::CreateCryptoSession
+title: ID3D11VideoDevice::CreateCryptoSession (d3d11.h)
 author: windows-sdk-content
 description: Creates a cryptographic session to encrypt video content that is sent to the graphics driver.
 old-location: mf\id3d11videodevice_createcryptosession.htm

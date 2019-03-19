@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PDISCONNECT_CLIENT
-title: PDISCONNECT_CLIENT
+title: PDISCONNECT_CLIENT (routprot.h)
 author: windows-sdk-content
 description: The router manager calls the DisconnectClient function when a client disconnects from an interface on which the routing protocol is running.
 old-location: rras\disconnectclient.htm

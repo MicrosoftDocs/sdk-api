@@ -1,6 +1,6 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectForMetadataItems
-title: ISpatialAudioObjectForMetadataItems
+title: ISpatialAudioObjectForMetadataItems (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Used to write spatial audio metadata for applications that require multiple metadata items per buffer with frame-accurate placement.
 old-location: coreaudio\ispatialaudioobjectformetadataitems.htm

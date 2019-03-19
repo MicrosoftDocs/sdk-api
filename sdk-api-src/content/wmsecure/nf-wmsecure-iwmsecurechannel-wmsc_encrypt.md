@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Encrypt
-title: IWMSecureChannel::WMSC_Encrypt
+title: IWMSecureChannel::WMSC_Encrypt (wmsecure.h)
 author: windows-sdk-content
 description: The WMSC_Encrypt method encrypts data across DLL boundaries.
 old-location: wmformat\iwmsecurechannel_wmsc_encrypt.htm

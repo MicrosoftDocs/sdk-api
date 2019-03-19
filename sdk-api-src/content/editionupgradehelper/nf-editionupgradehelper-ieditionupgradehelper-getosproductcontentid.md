@@ -1,6 +1,6 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.GetOsProductContentId
-title: IEditionUpgradeHelper::GetOsProductContentId
+title: IEditionUpgradeHelper::GetOsProductContentId (editionupgradehelper.h)
 author: windows-sdk-content
 description: Retrieves the content identifier that corresponds to the current installation of the operating system. The content identifier is used to look up the operating system product in the store catalog.
 old-location: winprog\ieditionupgradehelper_getosproductcontentid.htm

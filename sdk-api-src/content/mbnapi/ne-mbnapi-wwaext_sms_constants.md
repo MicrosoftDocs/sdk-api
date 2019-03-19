@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_SMS_CONSTANTS
-title: WWAEXT_SMS_CONSTANTS
+title: WWAEXT_SMS_CONSTANTS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_SMS_CONSTANTS enumerated type contains SMS constant values.
 old-location: mbn\mbn_sms_constants.htm

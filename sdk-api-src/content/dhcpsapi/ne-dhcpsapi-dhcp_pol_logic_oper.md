@@ -1,6 +1,6 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_4
-title: DHCP_POL_LOGIC_OPER
+title: DHCP_POL_LOGIC_OPER (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_POL_LOGIC_OPER enumeration defines how to group the constituent conditions and sub-expressions of an expression in a DHCP server policy.
 old-location: dhcp\dhcp_pol_logic_oper.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:icontact.IContactProperties.CreateArrayNode
-title: IContactProperties::CreateArrayNode
+title: IContactProperties::CreateArrayNode (icontact.h)
 author: windows-sdk-content
 description: Creates a new array node in a multi-value property.
 old-location: wincontacts\_wincontacts_IContactProperties_CreateArrayNode.htm

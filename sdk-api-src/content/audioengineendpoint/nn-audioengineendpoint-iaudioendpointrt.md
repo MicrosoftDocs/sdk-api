@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointRT
-title: IAudioEndpointRT
+title: IAudioEndpointRT (audioengineendpoint.h)
 author: windows-sdk-content
 description: Gets the difference between the current read and write positions in the endpoint buffer.
 old-location: termserv\iaudioendpointrt.htm

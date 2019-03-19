@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-sub
-title: WBEMTimeSpan::operator-sub
+title: WBEMTimeSpan::operator-sub (wbemtime.h)
 author: windows-sdk-content
 description: The WBEMTimeSpan class subtract operator (&#8211;) subtracts a time span from the object on which the method is executed.
 old-location: wmi\wbemtimespan_operator_minus.htm

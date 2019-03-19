@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiIsProductElevatedA
-title: MsiIsProductElevatedA function
+title: MsiIsProductElevatedA function (msi.h)
 author: windows-sdk-content
 description: The MsiIsProductElevated function returns whether or not the product is managed.
 old-location: setup\msiisproductelevated.htm

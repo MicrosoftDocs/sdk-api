@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._TAPE_ERASE
-title: TAPE_ERASE
+title: TAPE_ERASE (winnt.h)
 author: windows-sdk-content
 description: Describes the partition to be erased.
 old-location: backup\tape_erase_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_MSG_STATUS
-title: MBN_MSG_STATUS
+title: MBN_MSG_STATUS (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_MSG_STATUS enumerated type defines the type of message being handled.
 old-location: mbn\mbn_msg_status.htm

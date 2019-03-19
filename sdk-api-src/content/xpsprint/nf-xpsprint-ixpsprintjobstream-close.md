@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsprint.IXpsPrintJobStream.Close
-title: IXpsPrintJobStream::Close
+title: IXpsPrintJobStream::Close (xpsprint.h)
 author: windows-sdk-content
 description: Closes the stream and indicates to the print job that the entire document has been written to the print queue by the application.
 old-location: gdi\ixpsprintjobstream_close.htm

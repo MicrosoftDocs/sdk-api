@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupStartup
-title: PeerGroupStartup function
+title: PeerGroupStartup function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupStartup function initiates a peer group by using a requested version of the Peer infrastructure.
 old-location: p2p\peergroupstartup.htm

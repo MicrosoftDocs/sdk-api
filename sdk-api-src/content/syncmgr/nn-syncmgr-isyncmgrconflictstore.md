@@ -1,6 +1,6 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictStore
-title: ISyncMgrConflictStore
+title: ISyncMgrConflictStore (syncmgr.h)
 author: windows-sdk-content
 description: Exposes methods that allow a handler to provide conflicts that appear in the Conflicts folder.
 old-location: shell\ISyncMgrConflictStore.htm

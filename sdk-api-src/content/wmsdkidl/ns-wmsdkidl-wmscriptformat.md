@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl.tagWMSCRIPTFORMAT
-title: WMSCRIPTFORMAT
+title: WMSCRIPTFORMAT (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMSCRIPTFORMAT structure describes the type of script data used in a script stream.
 old-location: wmformat\wmscriptformat.htm

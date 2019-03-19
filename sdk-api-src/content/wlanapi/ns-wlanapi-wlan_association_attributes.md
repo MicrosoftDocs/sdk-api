@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_ASSOCIATION_ATTRIBUTES
-title: WLAN_ASSOCIATION_ATTRIBUTES
+title: WLAN_ASSOCIATION_ATTRIBUTES (wlanapi.h)
 author: windows-sdk-content
 description: Contains association attributes for a connection.
 old-location: nwifi\wlan_association_attributes.htm

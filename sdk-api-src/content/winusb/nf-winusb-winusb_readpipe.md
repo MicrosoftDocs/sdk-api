@@ -1,6 +1,6 @@
 ---
 UID: NF:winusb.WinUsb_ReadPipe
-title: WinUsb_ReadPipe function
+title: WinUsb_ReadPipe function (winusb.h)
 author: windows-sdk-content
 description: The WinUsb_ReadPipe function reads data from the specified pipe.
 old-location: buses\winusb_readpipe.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.IPsecKeyManagerSetSecurityInfoByKey0
-title: IPsecKeyManagerSetSecurityInfoByKey0 function
+title: IPsecKeyManagerSetSecurityInfoByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Sets specified security information in the security descriptor that controls access to the key manager.
 old-location: fwp\ipseckeymanagersetsecurityinfobykey0.htm

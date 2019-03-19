@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.Attributes
-title: ISettingsItem::Attributes
+title: ISettingsItem::Attributes (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the dictionary of attributes.
 old-location: smi\isettingsitem_attributes.htm

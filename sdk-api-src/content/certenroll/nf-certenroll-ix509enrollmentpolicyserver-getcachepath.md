@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCachePath
-title: IX509EnrollmentPolicyServer::GetCachePath
+title: IX509EnrollmentPolicyServer::GetCachePath (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the path of the policy cache file on the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getcachepath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetQueryHelper
-title: ISearchCatalogManager::GetQueryHelper
+title: ISearchCatalogManager::GetQueryHelper (searchapi.h)
 author: windows-sdk-content
 description: Gets the ISearchQueryHelper interface for the current catalog.
 old-location: search\_search_ISearchCatalogManager_GetQueryHelper.htm

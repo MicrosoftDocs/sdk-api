@@ -1,6 +1,6 @@
 ---
 UID: NN:tom.ITextStory
-title: ITextStory
+title: ITextStory (tom.h)
 author: windows-sdk-content
 description: The ITextStory interface methods are used to access shared data from multiple stories, which is stored in the parent ITextServices instance.
 old-location: controls\itextstory.htm

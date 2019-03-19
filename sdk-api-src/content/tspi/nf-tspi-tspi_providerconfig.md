@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_providerConfig
-title: TSPI_providerConfig function
+title: TSPI_providerConfig function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_providerConfig function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerConfig.
 old-location: tspi\tspi_providerconfig.htm

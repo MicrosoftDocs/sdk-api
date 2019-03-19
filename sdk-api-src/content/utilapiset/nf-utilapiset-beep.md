@@ -1,6 +1,6 @@
 ---
 UID: NF:utilapiset.Beep
-title: Beep function
+title: Beep function (utilapiset.h)
 author: windows-sdk-content
 description: Generates simple tones on the speaker.
 old-location: base\beep.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcndr._NDR_USER_MARSHAL_INFO_LEVEL1
-title: NDR_USER_MARSHAL_INFO_LEVEL1
+title: NDR_USER_MARSHAL_INFO_LEVEL1 (rpcndr.h)
 author: windows-sdk-content
 description: The NDR_USER_MARSHAL_INFO_LEVEL1 structure holds information about the state of an RPC call that can be passed to wire_marshal and user_marshal helper functions.
 old-location: rpc\ndr_user_marshal_info_level1.htm

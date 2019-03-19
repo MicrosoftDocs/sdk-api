@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetToolTip
-title: IExplorerCommand::GetToolTip
+title: IExplorerCommand::GetToolTip (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the tooltip string associated with a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetToolTip.htm

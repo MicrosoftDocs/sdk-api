@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._RAS_USER_0
-title: RAS_USER_0
+title: RAS_USER_0 (mprapi.h)
 author: windows-sdk-content
 description: The RAS_USER_0 structure contains information for a particular Remote Access Service user.
 old-location: rras\ras_user_0.htm

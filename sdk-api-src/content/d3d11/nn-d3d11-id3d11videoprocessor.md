@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessor
-title: ID3D11VideoProcessor
+title: ID3D11VideoProcessor (d3d11.h)
 author: windows-sdk-content
 description: Represents a video processor for Microsoft Direct3D 11.
 old-location: mf\id3d11videoprocessor.htm

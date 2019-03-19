@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherProperty
-title: IEventSubscription::GetPublisherProperty
+title: IEventSubscription::GetPublisherProperty (eventsys.h)
 author: windows-sdk-content
 description: Retrieves the value of a property stored in the property bag to define publisher context.
 old-location: cos\ieventsubscription_getpublisherproperty.htm

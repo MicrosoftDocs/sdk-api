@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MinMajorChannel
-title: IDigitalCableTuningSpace::get_MinMajorChannel
+title: IDigitalCableTuningSpace::get_MinMajorChannel (tuner.h)
 author: windows-sdk-content
 description: The get_MinMajorChannel method retrieves the lowest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_minmajorchannel.htm

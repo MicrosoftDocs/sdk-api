@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IPersistFile
-title: IPersistFile
+title: IPersistFile (objidl.h)
 author: windows-sdk-content
 description: Enables an object to be loaded from or saved to a disk file, rather than a storage object or stream.
 old-location: com\ipersistfile.htm

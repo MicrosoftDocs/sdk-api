@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IComInstanceEvents
-title: IComInstanceEvents
+title: IComInstanceEvents (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the subscriber of an object's creation or release.
 old-location: cos\icominstanceevents.htm

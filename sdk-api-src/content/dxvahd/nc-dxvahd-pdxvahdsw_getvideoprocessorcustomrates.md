@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorCustomRates
-title: PDXVAHDSW_GetVideoProcessorCustomRates
+title: PDXVAHDSW_GetVideoProcessorCustomRates (dxvahd.h)
 author: windows-sdk-content
 description: Gets the custom rates that a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports.
 old-location: mf\pdxvahdsw_getvideoprocessorcustomrates.htm

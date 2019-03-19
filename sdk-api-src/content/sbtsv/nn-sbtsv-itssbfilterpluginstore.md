@@ -1,6 +1,6 @@
 ---
 UID: NN:sbtsv.ITsSbFilterPluginStore
-title: ITsSbFilterPluginStore
+title: ITsSbFilterPluginStore (sbtsv.h)
 author: windows-sdk-content
 description: Filter Plugin Store
 old-location: termserv\itssbfilterpluginstore.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.ImageRvaToSection
-title: ImageRvaToSection function
+title: ImageRvaToSection function (dbghelp.h)
 author: windows-sdk-content
 description: Locates a relative virtual address (RVA) within the image header of a file that is mapped as a file and returns a pointer to the section table entry for that RVA.
 old-location: base\imagervatosection.htm

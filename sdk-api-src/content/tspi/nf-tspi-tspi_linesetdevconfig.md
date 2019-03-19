@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetDevConfig
-title: TSPI_lineSetDevConfig function
+title: TSPI_lineSetDevConfig function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetDevConfig function restores the configuration of a device associated one-to-one with the line device from a data structure previously obtained using TSPI_lineGetDevConfig.
 old-location: tspi\tspi_linesetdevconfig.htm

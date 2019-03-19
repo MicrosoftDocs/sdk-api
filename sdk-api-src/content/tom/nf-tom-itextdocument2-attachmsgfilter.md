@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.AttachMsgFilter
-title: ITextDocument2::AttachMsgFilter
+title: ITextDocument2::AttachMsgFilter (tom.h)
 author: windows-sdk-content
 description: Attaches a new message filter to the edit instance. All window messages that the edit instance receives are forwarded to the message filter.
 old-location: controls\itextdocument2_attachmsgfilter.htm

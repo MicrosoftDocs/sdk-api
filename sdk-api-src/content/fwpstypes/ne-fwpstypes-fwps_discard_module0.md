@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpstypes.FWPS_DISCARD_MODULE0_
-title: FWPS_DISCARD_MODULE0
+title: FWPS_DISCARD_MODULE0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_DISCARD_MODULE0 enumeration type specifies the type of module that discarded the data.Note  FWPS_DISCARD_MODULE0 is a specific version of FWPS_DISCARD_MODULE.
 old-location: netvista\fwps_discard_module0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointControl
-title: IAudioEndpointControl
+title: IAudioEndpointControl (audioengineendpoint.h)
 author: windows-sdk-content
 description: Controls the stream state of an endpoint.
 old-location: termserv\iaudioendpointcontrol.htm

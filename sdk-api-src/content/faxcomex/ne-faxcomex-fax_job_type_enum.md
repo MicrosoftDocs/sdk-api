@@ -1,6 +1,6 @@
 ---
 UID: NE:faxcomex.FAX_JOB_TYPE_ENUM
-title: FAX_JOB_TYPE_ENUM
+title: FAX_JOB_TYPE_ENUM (faxcomex.h)
 author: windows-sdk-content
 description: The FAX_JOB_TYPE_ENUM enumeration defines the fax job type.
 old-location: fax\_mfax_fax_job_type_enum.htm

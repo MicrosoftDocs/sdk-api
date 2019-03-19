@@ -1,6 +1,6 @@
 ---
 UID: NC:cmnquery.LPCQADDPAGESPROC
-title: LPCQADDPAGESPROC
+title: LPCQADDPAGESPROC (cmnquery.h)
 author: windows-sdk-content
 description: Called by a query form extension to add a page to a query form in the query dialog box.
 old-location: ad\cqaddpagesproc.htm

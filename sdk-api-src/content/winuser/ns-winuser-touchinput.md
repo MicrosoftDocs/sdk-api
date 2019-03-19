@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTOUCHINPUT
-title: TOUCHINPUT
+title: TOUCHINPUT (winuser.h)
 author: windows-sdk-content
 description: Encapsulates data for touch input.
 old-location: wintouch\touchinput.htm

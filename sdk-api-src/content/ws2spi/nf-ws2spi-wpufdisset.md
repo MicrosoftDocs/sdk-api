@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2spi.WPUFDIsSet
-title: WPUFDIsSet function
+title: WPUFDIsSet function (ws2spi.h)
 author: windows-sdk-content
 description: The WPUFDIsSet function checks the membership of the specified socket handle.
 old-location: winsock\wpufdisset_2.htm

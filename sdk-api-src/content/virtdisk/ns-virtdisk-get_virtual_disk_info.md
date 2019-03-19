@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._GET_VIRTUAL_DISK_INFO
-title: GET_VIRTUAL_DISK_INFO
+title: GET_VIRTUAL_DISK_INFO (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) information.
 old-location: vhd\get_virtual_disk_info.htm

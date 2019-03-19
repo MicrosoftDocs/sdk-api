@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationTimerUpdateHandler
-title: IUIAnimationTimerUpdateHandler
+title: IUIAnimationTimerUpdateHandler (uianimation.h)
 author: windows-sdk-content
 description: Defines methods for handling timing update events.
 old-location: uianimation\iuianimationtimerupdatehandler.htm

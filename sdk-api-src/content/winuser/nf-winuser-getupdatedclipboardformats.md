@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetUpdatedClipboardFormats
-title: GetUpdatedClipboardFormats function
+title: GetUpdatedClipboardFormats function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the currently supported clipboard formats.
 old-location: dataxchg\getupdatedclipboardformats.htm

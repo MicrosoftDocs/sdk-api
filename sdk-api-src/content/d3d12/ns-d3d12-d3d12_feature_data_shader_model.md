@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_SHADER_MODEL
-title: D3D12_FEATURE_DATA_SHADER_MODEL
+title: D3D12_FEATURE_DATA_SHADER_MODEL (d3d12.h)
 author: windows-sdk-content
 description: Contains the supported shader model.
 old-location: direct3d12\d3d12_feature_data_shader_model.htm

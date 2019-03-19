@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSensorProfile
-title: IMFSensorProfile
+title: IMFSensorProfile (mfidl.h)
 author: windows-sdk-content
 description: Describes a media foundation sensor profile.
 old-location: mf\imfsensorprofile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPCLEANUP
-title: LPNSPCLEANUP
+title: LPNSPCLEANUP (ws2spi.h)
 author: windows-sdk-content
 description: Terminates the use of a particular Windows Sockets namespace service provider.
 old-location: winsock\nspcleanup_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
-title: CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
+title: CMSG_CTRL_KEY_TRANS_DECRYPT_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about a key transport message recipient.
 old-location: security\cmsg_ctrl_key_trans_decrypt_para.htm

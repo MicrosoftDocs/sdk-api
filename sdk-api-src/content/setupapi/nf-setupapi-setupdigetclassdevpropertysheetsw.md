@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevPropertySheetsW
-title: SetupDiGetClassDevPropertySheetsW function
+title: SetupDiGetClassDevPropertySheetsW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetClassDevPropertySheets function retrieves handles to the property sheets of a device information element or of the device setup class of a device information set.
 old-location: devinst\setupdigetclassdevpropertysheets.htm

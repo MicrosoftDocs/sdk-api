@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxIsLogoffOk
-title: WlxIsLogoffOk function
+title: WlxIsLogoffOk function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function when the user initiates a logoff operation.
 old-location: security\wlxislogoffok.htm

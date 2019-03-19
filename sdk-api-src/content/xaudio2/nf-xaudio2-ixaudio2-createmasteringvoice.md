@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateMasteringVoice
-title: IXAudio2::CreateMasteringVoice
+title: IXAudio2::CreateMasteringVoice (xaudio2.h)
 author: windows-sdk-content
 description: Creates and configures a mastering voice.
 old-location: xaudio2\ixaudio2_interface_createmasteringvoice.htm

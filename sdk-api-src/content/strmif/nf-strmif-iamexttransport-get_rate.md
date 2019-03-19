@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_Rate
-title: IAMExtTransport::get_Rate
+title: IAMExtTransport::get_Rate (strmif.h)
 author: windows-sdk-content
 description: The get_Rate method retrieves the playback rate for variable-speed external devices.
 old-location: dshow\iamexttransport_get_rate.htm

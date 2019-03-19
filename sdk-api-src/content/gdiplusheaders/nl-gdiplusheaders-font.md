@@ -1,6 +1,6 @@
 ---
 UID: NL:gdiplusheaders.Font
-title: Font
+title: Font (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Font class encapsulates the characteristics, such as family, height, size, and style (or combination of styles), of a specific font. A Font object is used when drawing strings.
 old-location: gdiplus\_gdiplus_CLASS_Font_Class.htm

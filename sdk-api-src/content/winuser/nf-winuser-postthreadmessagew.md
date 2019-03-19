@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.PostThreadMessageW
-title: PostThreadMessageW function
+title: PostThreadMessageW function (winuser.h)
 author: windows-sdk-content
 description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message.
 old-location: winmsg\postthreadmessage.htm

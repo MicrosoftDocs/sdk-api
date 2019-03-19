@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_DocumentName
-title: IFaxOutgoingMessage::get_DocumentName
+title: IFaxOutgoingMessage::get_DocumentName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingMessage::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_documentname_cpp.htm

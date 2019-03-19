@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_3
-title: NETLOGON_INFO_3
+title: NETLOGON_INFO_3 (lmaccess.h)
 author: windows-sdk-content
 description: Defines a level-3 control query response from a domain controller.
 old-location: winprog\netlogon_info_3.htm

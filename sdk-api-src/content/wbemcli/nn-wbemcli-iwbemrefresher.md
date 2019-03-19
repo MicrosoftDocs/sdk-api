@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemRefresher
-title: IWbemRefresher
+title: IWbemRefresher (wbemcli.h)
 author: windows-sdk-content
 description: Provides an entry point through which refreshable objects such as enumerators or refresher objects, can be refreshed.
 old-location: wmi\iwbemrefresher.htm

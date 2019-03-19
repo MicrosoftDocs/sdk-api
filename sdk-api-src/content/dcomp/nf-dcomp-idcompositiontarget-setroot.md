@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTarget.SetRoot
-title: IDCompositionTarget::SetRoot
+title: IDCompositionTarget::SetRoot (dcomp.h)
 author: windows-sdk-content
 description: Sets a visual object as the new root object of a visual tree.
 old-location: directcomp\idcompositiontarget_setroot.htm

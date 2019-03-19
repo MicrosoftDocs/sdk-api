@@ -1,6 +1,6 @@
 ---
 UID: NE:shlwapi.tagSFBS_FLAGS
-title: tagSFBS_FLAGS
+title: tagSFBS_FLAGS (shlwapi.h)
 author: windows-sdk-content
 description: Specifies how the StrFormatByteSizeEx function should handle rounding of undisplayed digits.
 old-location: shell\SFBS_FLAGS.htm

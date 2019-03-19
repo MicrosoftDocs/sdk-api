@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_TIMEOUT_LIMIT_INFO
-title: HTTP_TIMEOUT_LIMIT_INFO
+title: HTTP_TIMEOUT_LIMIT_INFO (http.h)
 author: windows-sdk-content
 description: Defines the application-specific connection timeout limits.
 old-location: http\http_timeout_limit_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsHwProviderPrivateMpio.SetAllPathStatusesFromHbaPort
-title: IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort
+title: IVdsHwProviderPrivateMpio::SetAllPathStatusesFromHbaPort (vdshwprv.h)
 author: windows-sdk-content
 description: Sets the statuses of paths originating from a particular HBA port to a specified status.
 old-location: base\ivdshwproviderprivatempio_setallpathstatusesfromhbaport.htm

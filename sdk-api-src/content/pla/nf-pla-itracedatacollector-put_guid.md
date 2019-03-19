@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_Guid
-title: ITraceDataCollector::put_Guid
+title: ITraceDataCollector::put_Guid (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the session GUID.
 old-location: pla\itracedatacollector_guid.htm

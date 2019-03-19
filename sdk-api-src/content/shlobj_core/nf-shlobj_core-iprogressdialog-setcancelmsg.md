@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetCancelMsg
-title: IProgressDialog::SetCancelMsg
+title: IProgressDialog::SetCancelMsg (shlobj_core.h)
 author: windows-sdk-content
 description: Sets a message to be displayed if the user cancels the operation.
 old-location: shell\IProgressDialog_SetCancelMsg.htm

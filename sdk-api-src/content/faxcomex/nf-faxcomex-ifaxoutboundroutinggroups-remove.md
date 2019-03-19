@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.Remove
-title: IFaxOutboundRoutingGroups::Remove
+title: IFaxOutboundRoutingGroups::Remove (faxcomex.h)
 author: windows-sdk-content
 description: The Remove method removes an item from the FaxOutboundRoutingGroups collection.
 old-location: fax\_mfax_faxoutboundroutinggroups_cpp_mfax_faxoutboundroutinggroups_remove_cpp.htm

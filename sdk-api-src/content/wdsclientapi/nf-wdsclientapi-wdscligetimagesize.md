@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageSize
-title: WdsCliGetImageSize function
+title: WdsCliGetImageSize function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the size of the current image.
 old-location: wds\wdscligetimagesize.htm

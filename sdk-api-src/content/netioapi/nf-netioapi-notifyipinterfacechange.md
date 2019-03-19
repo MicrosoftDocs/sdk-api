@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.NotifyIpInterfaceChange
-title: NotifyIpInterfaceChange function
+title: NotifyIpInterfaceChange function (netioapi.h)
 author: windows-sdk-content
 description: Registers to be notified for changes to all IP interfaces, IPv4 interfaces, or IPv6 interfaces on a local computer.
 old-location: iphlp\notifyipinterfacechange.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_TOOL_KIND
-title: DWRITE_PANOSE_TOOL_KIND
+title: DWRITE_PANOSE_TOOL_KIND (dwrite_1.h)
 author: windows-sdk-content
 description: The DWRITE_PANOSE_TOOL_KIND enumeration contains values that specify the kind of tool that is used to create character forms.
 old-location: directwrite\dwrite_panose_tool_kind.htm

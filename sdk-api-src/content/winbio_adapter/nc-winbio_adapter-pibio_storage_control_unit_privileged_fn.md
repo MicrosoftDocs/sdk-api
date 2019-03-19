@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN
-title: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN
+title: PIBIO_STORAGE_CONTROL_UNIT_PRIVILEGED_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Performs a vendor-defined control operation that requires elevated privilege.
 old-location: secbiomet\storageadaptercontrolunitprivileged.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMReaderTimecode
-title: IWMReaderTimecode
+title: IWMReaderTimecode (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMReaderTimecode interface provides access to information about SMPTE (Society of Motion Picture and Television Engineers) time code ranges.
 old-location: wmformat\iwmreadertimecode.htm

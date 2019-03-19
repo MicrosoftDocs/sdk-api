@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.CreateTypeInfo
-title: ICreateTypeLib::CreateTypeInfo
+title: ICreateTypeLib::CreateTypeInfo (oaidl.h)
 author: windows-sdk-content
 description: Creates a new type description instance within the type library.
 old-location: automat\icreatetypelib_createtypeinfo.htm

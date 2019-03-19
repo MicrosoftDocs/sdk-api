@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.GetDuration
-title: IUIAnimationInterpolator::GetDuration
+title: IUIAnimationInterpolator::GetDuration (uianimation.h)
 author: windows-sdk-content
 description: Gets the duration of a transition.
 old-location: uianimation\iuianimationinterpolator_getduration.htm

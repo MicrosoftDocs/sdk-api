@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreatePMPServer
-title: MFCreatePMPServer function
+title: MFCreatePMPServer function (mfidl.h)
 author: windows-sdk-content
 description: Creates the protected media path (PMP) server object.
 old-location: mf\mfcreatepmpserver.htm

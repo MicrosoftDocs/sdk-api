@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFTrustedOutput
-title: IMFTrustedOutput
+title: IMFTrustedOutput (mfidl.h)
 author: windows-sdk-content
 description: Implemented by components that provide output trust authorities (OTAs).
 old-location: mf\imftrustedoutput.htm

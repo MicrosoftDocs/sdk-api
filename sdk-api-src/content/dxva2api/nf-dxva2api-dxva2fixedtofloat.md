@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.DXVA2FixedToFloat
-title: DXVA2FixedToFloat function
+title: DXVA2FixedToFloat function (dxva2api.h)
 author: windows-sdk-content
 description: Converts a DXVA2_Fixed32 value to a floating-point number.
 old-location: mf\dxva2fixedtofloat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:evntrace.TraceSetInformation
-title: TraceSetInformation function
+title: TraceSetInformation function (evntrace.h)
 author: windows-sdk-content
 description: Enables or disables event tracing session settings for the specified information class.
 old-location: etw\tracesetinformation.htm

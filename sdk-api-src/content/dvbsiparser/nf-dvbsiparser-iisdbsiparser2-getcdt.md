@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetCDT
-title: IIsdbSiParser2::GetCDT
+title: IIsdbSiParser2::GetCDT (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the common data table (CDT) from an Integrated Services Digital Broadcasting (ISDB) transport stream. A CDT contains data that is needed for receivers and stored in nonvolatile memory, such as company logos.
 old-location: mstv\iisdbsiparser2_getcdt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetCacheTime
-title: INetDiagHelper::GetCacheTime
+title: INetDiagHelper::GetCacheTime (ndhelper.h)
 author: windows-sdk-content
 description: Specifies the time when cached results of a diagnosis and repair operation have expired.
 old-location: ndf\inetdiaghelpe_getcachetime.htm

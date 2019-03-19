@@ -1,6 +1,6 @@
 ---
 UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001
-title: EDataFlow
+title: EDataFlow (mmdeviceapi.h)
 author: windows-sdk-content
 description: The EDataFlow enumeration defines constants that indicate the direction in which audio data flows between an audio endpoint device and an application.
 old-location: coreaudio\edataflow.htm

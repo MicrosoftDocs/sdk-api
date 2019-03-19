@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IStreamBuilder.Backout
-title: IStreamBuilder::Backout
+title: IStreamBuilder::Backout (strmif.h)
 author: windows-sdk-content
 description: The Backout method undoes steps taken in the IStreamBuilder::Render method. This includes disconnecting and removing any filters that were added inside Render.
 old-location: dshow\istreambuilder_backout.htm

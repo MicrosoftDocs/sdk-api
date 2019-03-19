@@ -1,6 +1,6 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.LoadConfiguration
-title: IFhConfigMgr::LoadConfiguration
+title: IFhConfigMgr::LoadConfiguration (fhcfg.h)
 author: windows-sdk-content
 description: Loads the File History configuration information for the current user into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_loadconfiguration.htm

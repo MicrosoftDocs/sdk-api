@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetSuperscript
-title: ITextFont::GetSuperscript
+title: ITextFont::GetSuperscript (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are displayed as superscript.
 old-location: controls\ITextFont_GetSuperscript.htm

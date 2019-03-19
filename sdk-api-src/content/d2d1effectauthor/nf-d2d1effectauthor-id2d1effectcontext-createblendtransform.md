@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateBlendTransform
-title: ID2D1EffectContext::CreateBlendTransform
+title: ID2D1EffectContext::CreateBlendTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: This creates a blend transform that can be inserted into a transform graph.
 old-location: direct2d\id2d1contextinternal_createblendtransform.htm

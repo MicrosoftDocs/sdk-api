@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.TpSetCallbackFinalizationCallback
-title: TpSetCallbackFinalizationCallback function
+title: TpSetCallbackFinalizationCallback function (winnt.h)
 author: windows-sdk-content
 description: Indicates a function to call when the callback environment is finalized.
 old-location: base\tpsetcallbackfinalizationcallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.IsStopped
-title: IWMWriterFileSink2::IsStopped
+title: IWMWriterFileSink2::IsStopped (wmsdkidl.h)
 author: windows-sdk-content
 description: The IsStopped method ascertains whether the file sink has stopped writing.
 old-location: wmformat\iwmwriterfilesink2_isstopped.htm

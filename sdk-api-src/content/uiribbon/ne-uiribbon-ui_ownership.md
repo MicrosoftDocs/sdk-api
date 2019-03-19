@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_OWNERSHIP
-title: UI_OWNERSHIP
+title: UI_OWNERSHIP (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the ownership conditions under which an image is created by the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_ui_ownership.htm

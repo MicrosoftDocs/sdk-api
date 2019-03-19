@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCreateWnd
-title: EngCreateWnd function
+title: EngCreateWnd function (winddi.h)
 author: windows-sdk-content
 description: The EngCreateWnd function creates a WNDOBJ structure for the window referenced by hwnd.
 old-location: display\engcreatewnd.htm

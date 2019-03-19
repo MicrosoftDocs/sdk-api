@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiMarshalAuthIdentity
-title: SspiMarshalAuthIdentity function
+title: SspiMarshalAuthIdentity function (sspi.h)
 author: windows-sdk-content
 description: Serializes the specified identity structure into a byte array.
 old-location: security\sspimarshalauthidentity.htm

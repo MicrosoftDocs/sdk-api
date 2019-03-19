@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFindCertificateInCRL
-title: CertFindCertificateInCRL function
+title: CertFindCertificateInCRL function (wincrypt.h)
 author: windows-sdk-content
 description: The CertFindCertificateInCRL function searches the certificate revocation list (CRL) for the specified certificate.
 old-location: security\certfindcertificateincrl.htm

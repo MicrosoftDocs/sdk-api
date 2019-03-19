@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IFindSimilarResults.GetNextFileId
-title: IFindSimilarResults::GetNextFileId
+title: IFindSimilarResults::GetNextFileId (msrdc.h)
 author: windows-sdk-content
 description: Retrieves the next valid similarity file ID in the file list that was returned by the ISimilarity::FindSimilarFileId method.
 old-location: rdc\ifindsimilarresults_getnextfileid.htm

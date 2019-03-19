@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagPOINTER_DEVICE_PROPERTY
-title: POINTER_DEVICE_PROPERTY
+title: POINTER_DEVICE_PROPERTY (winuser.h)
 author: windows-sdk-content
 description: Contains pointer-based device properties (Human Interface Device (HID) global items that correspond to HID usages).
 old-location: input_pointerdevice\pointer_device_property.htm

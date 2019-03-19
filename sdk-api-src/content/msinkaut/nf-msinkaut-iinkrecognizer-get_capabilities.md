@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Capabilities
-title: IInkRecognizer::get_Capabilities
+title: IInkRecognizer::get_Capabilities (msinkaut.h)
 author: windows-sdk-content
 description: Gets the capabilities of the IInkRecognizer object.
 old-location: tablet\iinkrecognizer_capabilities.htm

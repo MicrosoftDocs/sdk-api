@@ -1,6 +1,6 @@
 ---
 UID: NN:tssbx.IWTSSBPlugin
-title: IWTSSBPlugin
+title: IWTSSBPlugin (tssbx.h)
 author: windows-sdk-content
 description: Used to extend the capabilities of Terminal Services Session Broker (TS&#160;Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS&#160;Session Broker.
 old-location: termserv\iwtssbplugin.htm

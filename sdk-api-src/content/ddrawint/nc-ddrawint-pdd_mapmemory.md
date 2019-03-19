@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_MAPMEMORY
-title: PDD_MAPMEMORY
+title: PDD_MAPMEMORY (ddrawint.h)
 author: windows-sdk-content
 description: The DdMapMemory callback function maps application-modifiable portions of the frame buffer into the user-mode address space of the specified process, or unmaps memory.
 old-location: display\ddmapmemory.htm

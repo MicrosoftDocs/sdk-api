@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_3
-title: USER_MODALS_INFO_3
+title: USER_MODALS_INFO_3 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_MODALS_INFO_3 structure contains lockout information for users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_3_str.htm

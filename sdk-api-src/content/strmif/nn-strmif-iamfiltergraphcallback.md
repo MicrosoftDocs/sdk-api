@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMFilterGraphCallback
-title: IAMFilterGraphCallback
+title: IAMFilterGraphCallback (strmif.h)
 author: windows-sdk-content
 description: The IAMFilterGraphCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.
 old-location: dshow\iamfiltergraphcallback.htm

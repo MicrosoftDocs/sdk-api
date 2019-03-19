@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterOcclusionStatusEvent
-title: IDXGIFactory2::RegisterOcclusionStatusEvent
+title: IDXGIFactory2::RegisterOcclusionStatusEvent (dxgi1_2.h)
 author: windows-sdk-content
 description: Registers to receive notification of changes in occlusion status by using event signaling.
 old-location: direct3ddxgi\idxgifactory2_registerocclusionstatusevent.htm

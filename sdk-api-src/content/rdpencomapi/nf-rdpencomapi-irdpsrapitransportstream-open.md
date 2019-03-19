@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.Open
-title: IRDPSRAPITransportStream::Open
+title: IRDPSRAPITransportStream::Open (rdpencomapi.h)
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to start the stream and indicate that the RDP stack is ready to receive notifications of events.
 old-location: rdp\irdpsrapitransportstream_open.htm

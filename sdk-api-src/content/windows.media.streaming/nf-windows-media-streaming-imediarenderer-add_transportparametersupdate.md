@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.add_TransportParametersUpdate
-title: IMediaRenderer::streaming
+title: IMediaRenderer::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Registers an event handler for the TransportParametersUpdate event.
 old-location: mediastreaming\imediarenderer_add_transportparametersupdate.htm

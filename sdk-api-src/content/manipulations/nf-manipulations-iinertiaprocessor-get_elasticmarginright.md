@@ -1,6 +1,6 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_ElasticMarginRight
-title: IInertiaProcessor::get_ElasticMarginRight
+title: IInertiaProcessor::get_ElasticMarginRight (manipulations.h)
 author: windows-sdk-content
 description: The ElasticMarginRight property specifies the rightmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginright.htm

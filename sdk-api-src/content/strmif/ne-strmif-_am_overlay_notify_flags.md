@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif._AM_OVERLAY_NOTIFY_FLAGS
-title: "_AM_OVERLAY_NOTIFY_FLAGS"
+title: "_AM_OVERLAY_NOTIFY_FLAGS" (strmif.h)
 author: windows-sdk-content
 description: The AM_OVERLAY_NOTIFY_FLAGS enumeration indicates what the overlay has changed, or is about to change.
 old-location: dshow\am_overlay_notify_flags.htm

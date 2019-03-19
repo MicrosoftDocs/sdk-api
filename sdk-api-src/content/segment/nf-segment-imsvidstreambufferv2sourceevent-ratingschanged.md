@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.RatingsChanged
-title: IMSVidStreamBufferV2SourceEvent::RatingsChanged
+title: IMSVidStreamBufferV2SourceEvent::RatingsChanged (segment.h)
 author: windows-sdk-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
 old-location: mstv\imsvidstreambufferv2sourceevent_ratingschanged.htm

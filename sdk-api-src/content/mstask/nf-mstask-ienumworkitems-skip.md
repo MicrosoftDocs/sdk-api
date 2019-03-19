@@ -1,6 +1,6 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Skip
-title: IEnumWorkItems::Skip
+title: IEnumWorkItems::Skip (mstask.h)
 author: windows-sdk-content
 description: Skips the next specified number of tasks in the enumeration sequence.
 old-location: taskschd\ienumworkitems_skip.htm

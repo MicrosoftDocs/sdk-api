@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalUnlock
-title: LocalUnlock function
+title: LocalUnlock function (winbase.h)
 author: windows-sdk-content
 description: Decrements the lock count associated with a memory object that was allocated with LMEM_MOVEABLE.
 old-location: base\localunlock.htm

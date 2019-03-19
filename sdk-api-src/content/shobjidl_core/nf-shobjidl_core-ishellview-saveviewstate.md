@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellView.SaveViewState
-title: IShellView::SaveViewState
+title: IShellView::SaveViewState (shobjidl_core.h)
 author: windows-sdk-content
 description: Saves the Shell's view settings so the current state can be restored during a subsequent browsing session.
 old-location: shell\IShellView_SaveViewState.htm

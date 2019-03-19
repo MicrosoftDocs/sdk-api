@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevices.get_Item
-title: IUPnPDevices::get_Item
+title: IUPnPDevices::get_Item (upnp.h)
 author: windows-sdk-content
 description: The Item property specifies the IUPnPDevice interface for a device, identified by the UDN, in the collection.
 old-location: upnp\iupnpdevices_item.htm

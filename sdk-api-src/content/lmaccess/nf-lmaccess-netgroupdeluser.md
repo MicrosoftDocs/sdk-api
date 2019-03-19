@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetGroupDelUser
-title: NetGroupDelUser function
+title: NetGroupDelUser function (lmaccess.h)
 author: windows-sdk-content
 description: The NetGroupDelUser function removes a user from a particular global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupdeluser.htm

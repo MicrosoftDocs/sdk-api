@@ -1,6 +1,6 @@
 ---
 UID: NE:ws2spi._WSC_PROVIDER_INFO_TYPE
-title: WSC_PROVIDER_INFO_TYPE
+title: WSC_PROVIDER_INFO_TYPE (ws2spi.h)
 author: windows-sdk-content
 description: Enumeration type is used to specify the information class of a layered service protocol (LSP) in Windows Sockets 2.
 old-location: winsock\wsc_provider_info_type.htm

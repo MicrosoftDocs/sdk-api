@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiOutOpen
-title: midiOutOpen function
+title: midiOutOpen function (mmeapi.h)
 author: windows-sdk-content
 description: The midiOutOpen function opens a MIDI output device for playback.
 old-location: multimedia\midioutopen.htm

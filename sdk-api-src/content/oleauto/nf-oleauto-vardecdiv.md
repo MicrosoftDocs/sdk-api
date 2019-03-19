@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecDiv
-title: VarDecDiv function
+title: VarDecDiv function (oleauto.h)
 author: windows-sdk-content
 description: Divides two variants of type decimal.
 old-location: automat\vardecdiv.htm

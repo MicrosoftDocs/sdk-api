@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRSETWORLDTRANSFORM
-title: EMRSETWORLDTRANSFORM
+title: EMRSETWORLDTRANSFORM (wingdi.h)
 author: windows-sdk-content
 description: The EMRSETWORLDTRANSFORM structure contains members for the SetWorldTransform enhanced metafile record.
 old-location: gdi\emrsetworldtransform.htm

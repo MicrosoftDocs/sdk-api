@@ -1,6 +1,6 @@
 ---
 UID: NF:iphlpapi.GetTcpTable2
-title: GetTcpTable2 function
+title: GetTcpTable2 function (iphlpapi.h)
 author: windows-sdk-content
 description: Retrieves the IPv4 TCP connection table.
 old-location: iphlp\gettcptable2.htm

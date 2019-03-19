@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetStreamPrioritization
-title: IWMProfile3::GetStreamPrioritization
+title: IWMProfile3::GetStreamPrioritization (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetStreamPrioritization method retrieves the stream prioritization that exists in the profile.
 old-location: wmformat\iwmprofile3_getstreamprioritization.htm

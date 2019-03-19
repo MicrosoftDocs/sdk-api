@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Item
-title: INetFwOpenPorts::Item
+title: INetFwOpenPorts::Item (netfw.h)
 author: windows-sdk-content
 description: Returns the specified port if it is in the collection.
 old-location: ics\inetfwopenports_item.htm

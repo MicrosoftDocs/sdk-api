@@ -1,6 +1,6 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
-title: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC
+title: PFN_CRYPT_EXTRACT_ENCODED_SIGNATURE_PARAMETERS_FUNC (wincrypt.h)
 author: windows-sdk-content
 description: Called to decode and return the hash algorithm identifier and optionally the signature parameters.
 old-location: security\pfn_crypt_extract_encoded_signature_parameters_func.htm

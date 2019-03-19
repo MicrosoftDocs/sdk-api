@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.get__NewEnum
-title: IAlternativeNames::get__NewEnum
+title: IAlternativeNames::get__NewEnum (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\ialternativenames__newenum_property.htm

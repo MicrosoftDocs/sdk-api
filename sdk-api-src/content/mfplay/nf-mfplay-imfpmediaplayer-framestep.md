@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.FrameStep
-title: IMFPMediaPlayer::FrameStep
+title: IMFPMediaPlayer::FrameStep (mfplay.h)
 author: windows-sdk-content
 description: Steps forward one video frame.
 old-location: mf\imfpmediaplayer_framestep.htm

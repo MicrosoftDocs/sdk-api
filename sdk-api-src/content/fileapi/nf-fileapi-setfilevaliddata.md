@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.SetFileValidData
-title: SetFileValidData function
+title: SetFileValidData function (fileapi.h)
 author: windows-sdk-content
 description: Sets the valid data length of the specified file. This function is useful in very limited scenarios. For more information, see the Remarks section.
 old-location: fs\setfilevaliddata.htm

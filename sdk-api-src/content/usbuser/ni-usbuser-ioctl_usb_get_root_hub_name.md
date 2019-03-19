@@ -1,6 +1,6 @@
 ---
 UID: NI:usbuser.IOCTL_USB_GET_ROOT_HUB_NAME
-title: IOCTL_USB_GET_ROOT_HUB_NAME
+title: IOCTL_USB_GET_ROOT_HUB_NAME (usbuser.h)
 author: windows-sdk-content
 description: The IOCTL_USB_GET_ROOT_HUB_NAME I/O control request is used with the USB_ROOT_HUB_NAME structure to retrieve the symbolic link name of the root hub.IOCTL_USB_GET_ROOT_HUB_NAME is a user-mode I/O control request.
 old-location: buses\ioctl_usb_get_root_hub_name.htm

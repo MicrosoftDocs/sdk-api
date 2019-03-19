@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig2.GetOverlaySurfaceColorControls
-title: IMixerPinConfig2::GetOverlaySurfaceColorControls
+title: IMixerPinConfig2::GetOverlaySurfaceColorControls (mpconfig.h)
 author: windows-sdk-content
 description: The GetOverlaySurfaceColorControls method retrieves the color control settings associated with the specified overlay surface.
 old-location: dshow\imixerpinconfig2_getoverlaysurfacecolorcontrols.htm

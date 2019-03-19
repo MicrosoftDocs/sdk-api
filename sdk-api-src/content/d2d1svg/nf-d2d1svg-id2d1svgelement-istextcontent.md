@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.IsTextContent
-title: ID2D1SvgElement::IsTextContent
+title: ID2D1SvgElement::IsTextContent (d2d1svg.h)
 author: windows-sdk-content
 description: Returns a boolean indicating wether this element represents text content.
 old-location: direct2d\id2d1svgelement_istextcontent.htm

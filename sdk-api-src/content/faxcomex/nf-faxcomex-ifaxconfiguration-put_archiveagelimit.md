@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_ArchiveAgeLimit
-title: IFaxConfiguration::put_ArchiveAgeLimit
+title: IFaxConfiguration::put_ArchiveAgeLimit (faxcomex.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that indicates how long a fax message is kept on the server.
 old-location: fax\_mfax_IFaxConfiguration_ArchiveAgeLimit.htm

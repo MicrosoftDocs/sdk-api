@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetStreamAttribute
-title: IMFPMediaItem::GetStreamAttribute
+title: IMFPMediaItem::GetStreamAttribute (mfplay.h)
 author: windows-sdk-content
 description: Queries the media item for a stream attribute.
 old-location: mf\imfpmediaitem_getstreamattribute.htm

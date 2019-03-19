@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVFOOTERINFO
-title: LVFOOTERINFO
+title: LVFOOTERINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information on a footer in a list-view control.
 old-location: controls\LVFOOTERINFO.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeRenewalCertificate.get_RenewalCertificate
-title: IX509AttributeRenewalCertificate::get_RenewalCertificate
+title: IX509AttributeRenewalCertificate::get_RenewalCertificate (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_renewalcertificate_property.htm

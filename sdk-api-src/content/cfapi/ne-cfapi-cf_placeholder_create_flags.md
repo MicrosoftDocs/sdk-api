@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_CREATE_FLAGS
-title: CF_PLACEHOLDER_CREATE_FLAGS
+title: CF_PLACEHOLDER_CREATE_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags for creating a placeholder on a per-placeholder basis.
 old-location: cloudapi\cf_placeholder_create_flags.htm

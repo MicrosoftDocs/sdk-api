@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.ViewNext
-title: IMSVidCtl::ViewNext
+title: IMSVidCtl::ViewNext (msvidctl.h)
 author: windows-sdk-content
 description: The ViewNext method finds another input device to view the specified tune request.
 old-location: mstv\imsvidctl_viewnext.htm

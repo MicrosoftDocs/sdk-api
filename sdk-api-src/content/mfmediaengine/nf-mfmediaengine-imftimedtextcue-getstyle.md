@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetStyle
-title: IMFTimedTextCue::GetStyle
+title: IMFTimedTextCue::GetStyle (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets info about the style of the timed-text cue.
 old-location: mf\imftimedtextcue_getstyle.htm

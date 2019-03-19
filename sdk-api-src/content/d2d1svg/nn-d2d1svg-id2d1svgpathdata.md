@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPathData
-title: ID2D1SvgPathData
+title: ID2D1SvgPathData (d2d1svg.h)
 author: windows-sdk-content
 description: Interface describing SVG path data. Path data can be set as the 'd' attribute on a 'path' element.
 old-location: direct2d\id2d1svgpathdata.htm

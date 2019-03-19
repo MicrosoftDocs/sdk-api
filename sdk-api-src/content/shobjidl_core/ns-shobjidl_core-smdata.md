@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.tagSMDATA
-title: SMDATA
+title: SMDATA (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains information from a menu band.
 old-location: shell\SMDATA.htm

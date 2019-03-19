@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.GetType
-title: IDirect3DResource9::GetType
+title: IDirect3DResource9::GetType (d3d9helper.h)
 author: windows-sdk-content
 description: Returns the type of the resource.
 old-location: direct3d9\idirect3dresource9__gettype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaEvent.GetEventHandle
-title: IMediaEvent::GetEventHandle
+title: IMediaEvent::GetEventHandle (control.h)
 author: windows-sdk-content
 description: The GetEventHandle method retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.
 old-location: dshow\imediaevent_geteventhandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.CommitRecordVariants
-title: ICrmCompensatorVariants::CommitRecordVariants
+title: ICrmCompensatorVariants::CommitRecordVariants (comsvcs.h)
 author: windows-sdk-content
 description: Delivers a log record to the CRM Compensator during the commit phase.
 old-location: cos\icrmcompensatorvariants_commitrecordvariants.htm

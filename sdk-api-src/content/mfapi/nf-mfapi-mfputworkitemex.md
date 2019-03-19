@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFPutWorkItemEx
-title: MFPutWorkItemEx function
+title: MFPutWorkItemEx function (mfapi.h)
 author: windows-sdk-content
 description: Puts an asynchronous operation on a work queue.
 old-location: mf\mfputworkitemex.htm

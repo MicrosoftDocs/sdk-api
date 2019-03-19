@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamCount
-title: IMFASFProfile::GetStreamCount
+title: IMFASFProfile::GetStreamCount (wmcontainer.h)
 author: windows-sdk-content
 description: Retrieves the number of streams in the profile.
 old-location: mf\imfasfprofile_getstreamcount.htm

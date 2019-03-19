@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_ARRAY
-title: EAP_METHOD_PROPERTY_ARRAY
+title: EAP_METHOD_PROPERTY_ARRAY (eaptypes.h)
 author: windows-sdk-content
 description: Contains an array of EAP method properties.
 old-location: eaphost\eap_method_property_array.htm

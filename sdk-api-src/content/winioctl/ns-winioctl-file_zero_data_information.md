@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FILE_ZERO_DATA_INFORMATION
-title: FILE_ZERO_DATA_INFORMATION
+title: FILE_ZERO_DATA_INFORMATION (winioctl.h)
 author: windows-sdk-content
 description: Contains a range of a file to set to zeros.
 old-location: fs\file_zero_data_information_str.htm

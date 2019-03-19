@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509NameValuePair.Initialize
-title: IX509NameValuePair::Initialize
+title: IX509NameValuePair::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from strings that contain the name and associated value.
 old-location: security\ix509namevaluepair_initialize_method.htm

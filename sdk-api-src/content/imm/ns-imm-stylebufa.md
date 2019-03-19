@@ -1,6 +1,6 @@
 ---
 UID: NS:imm.tagSTYLEBUFA
-title: STYLEBUFA
+title: STYLEBUFA (imm.h)
 author: windows-sdk-content
 description: Contains the identifier and name of a style.
 old-location: intl\stylebuf.htm

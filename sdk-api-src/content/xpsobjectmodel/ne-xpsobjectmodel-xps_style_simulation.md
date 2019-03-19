@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0004
-title: XPS_STYLE_SIMULATION
+title: XPS_STYLE_SIMULATION (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the simulation style of a font or glyph.
 old-location: xps\xps_style_simulation.htm

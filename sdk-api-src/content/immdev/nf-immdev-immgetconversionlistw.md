@@ -1,6 +1,6 @@
 ---
 UID: NF:immdev.ImmGetConversionListW
-title: ImmGetConversionListW function
+title: ImmGetConversionListW function (immdev.h)
 author: windows-sdk-content
 description: Retrieves the conversion result list of characters or words without generating any IME-related messages.
 old-location: intl\immgetconversionlist.htm

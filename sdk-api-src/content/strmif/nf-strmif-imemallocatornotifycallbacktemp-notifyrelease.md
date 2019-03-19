@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMemAllocatorNotifyCallbackTemp.NotifyRelease
-title: IMemAllocatorNotifyCallbackTemp::NotifyRelease
+title: IMemAllocatorNotifyCallbackTemp::NotifyRelease (strmif.h)
 author: windows-sdk-content
 description: The NotifyRelease method is called whenever the allocator's IMemAllocator::ReleaseBuffer method is called. The ReleaseBuffer method returns a media sample to the allocator's free list. Samples call this method when their reference counts reach zero.
 old-location: dshow\imemallocatornotifycallbacktemp_notifyrelease.htm

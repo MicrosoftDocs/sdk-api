@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeTravelLog
-title: IBrowserService2::InitializeTravelLog
+title: IBrowserService2::InitializeTravelLog (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Allows the derived class to specify a navigation record to be used in a new window.
 old-location: shell\IBrowserService2_InitializeTravelLog.htm

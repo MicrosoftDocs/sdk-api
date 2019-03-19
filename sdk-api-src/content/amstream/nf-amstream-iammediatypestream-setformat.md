@@ -1,6 +1,6 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.SetFormat
-title: IAMMediaTypeStream::SetFormat
+title: IAMMediaTypeStream::SetFormat (amstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The SetFormat method sets the format of the stream.
 old-location: dshow\iammediatypestream_setformat.htm

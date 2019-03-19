@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFMediaEventGenerator.GetEvent
-title: IMFMediaEventGenerator::GetEvent
+title: IMFMediaEventGenerator::GetEvent (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the next event in the queue. This method is synchronous.
 old-location: mf\imfmediaeventgenerator_getevent.htm

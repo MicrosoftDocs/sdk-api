@@ -1,6 +1,6 @@
 ---
 UID: NE:msinkaut.InkOverlayEraserMode
-title: InkOverlayEraserMode
+title: InkOverlayEraserMode (msinkaut.h)
 author: windows-sdk-content
 description: Specifies the way in which ink is erased from the InkOverlay object and the InkPicture control.This mode is used when the InkOverlayEditingMode is set to Delete.
 old-location: tablet\inkoverlayerasermode.htm

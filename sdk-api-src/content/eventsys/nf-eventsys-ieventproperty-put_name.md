@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventProperty.put_Name
-title: IEventProperty::put_Name
+title: IEventProperty::put_Name (eventsys.h)
 author: windows-sdk-content
 description: The name of the event property.
 old-location: com\ieventproperty_name.htm

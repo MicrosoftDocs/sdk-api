@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_TabStop
-title: IMSVidCtl::get_TabStop
+title: IMSVidCtl::get_TabStop (msvidctl.h)
 author: windows-sdk-content
 description: The get_TabStop method queries whether a user can use the TAB key to give the focus to the Video Control.
 old-location: mstv\imsvidctl_get_tabstop.htm

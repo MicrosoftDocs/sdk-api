@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ITransactionStatus.SetTransactionStatus
-title: ITransactionStatus::SetTransactionStatus
+title: ITransactionStatus::SetTransactionStatus (comsvcs.h)
 author: windows-sdk-content
 description: Sets the transaction status to either committed or aborted. Do not use this method. It is used only internally by COM+.
 old-location: cos\itransactionstatus_settransactionstatus.htm

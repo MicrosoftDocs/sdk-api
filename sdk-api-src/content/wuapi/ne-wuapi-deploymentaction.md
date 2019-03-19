@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagDeploymentAction
-title: DeploymentAction
+title: DeploymentAction (wuapi.h)
 author: windows-sdk-content
 description: Defines the action for which an update is explicitly deployed.
 old-location: wua\deploymentaction.htm

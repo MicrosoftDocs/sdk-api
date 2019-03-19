@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_GEOMETRY_RELATION
-title: D2D1_GEOMETRY_RELATION
+title: D2D1_GEOMETRY_RELATION (d2d1.h)
 author: windows-sdk-content
 description: Describes how one geometry object is spatially related to another geometry object.
 old-location: direct2d\D2D1_GEOMETRY_RELATION.htm

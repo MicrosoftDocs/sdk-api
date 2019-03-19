@@ -1,6 +1,6 @@
 ---
 UID: NS:ipexport._IP_INTERFACE_INFO
-title: IP_INTERFACE_INFO
+title: IP_INTERFACE_INFO (ipexport.h)
 author: windows-sdk-content
 description: The IP_INTERFACE_INFO structure contains a list of the network interface adapters with IPv4 enabled on the local system.
 old-location: iphlp\ip_interface_info.htm

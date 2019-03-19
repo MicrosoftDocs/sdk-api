@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetComponentType
-title: IDvbComponentDescriptor::GetComponentType
+title: IDvbComponentDescriptor::GetComponentType (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the component type code for a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_getcomponenttype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget
-title: ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget
+title: ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget (sbtsv.h)
 author: windows-sdk-content
 description: Returns a load-balancing result to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbloadbalancingnotifysink_ongetmostsuitabletarget.htm

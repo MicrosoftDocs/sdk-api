@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellVerticalText
-title: ITextRow::GetCellVerticalText
+title: ITextRow::GetCellVerticalText (tom.h)
 author: windows-sdk-content
 description: Gets the vertical-text setting of the active cell.
 old-location: controls\itextrow_getcellverticaltext.htm

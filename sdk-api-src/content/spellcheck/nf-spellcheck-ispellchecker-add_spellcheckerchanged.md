@@ -1,6 +1,6 @@
 ---
 UID: NF:spellcheck.ISpellChecker.add_SpellCheckerChanged
-title: ISpellChecker::add_SpellCheckerChanged
+title: ISpellChecker::add_SpellCheckerChanged (spellcheck.h)
 author: windows-sdk-content
 description: Adds an event handler (ISpellCheckerChangedEventHandler) for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_add_spellcheckerchanged.htm

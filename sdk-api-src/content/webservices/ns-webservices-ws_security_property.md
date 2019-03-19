@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_SECURITY_PROPERTY
-title: WS_SECURITY_PROPERTY
+title: WS_SECURITY_PROPERTY (webservices.h)
 author: windows-sdk-content
 description: Specifies a channel-wide security setting.
 old-location: wsw\ws_security_property.htm

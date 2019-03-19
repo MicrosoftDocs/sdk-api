@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxServer.get_DirtyDays
-title: IFaxServer::get_DirtyDays
+title: IFaxServer::get_DirtyDays (faxcom.h)
 author: windows-sdk-content
 description: Sets or retrieves the DirtyDays property for a FaxServer object. The DirtyDays property is the number of days the fax server retains an unsent job in the fax job queue.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_dirtydays_cpp.htm

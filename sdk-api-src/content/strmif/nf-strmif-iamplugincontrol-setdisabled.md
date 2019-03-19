@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMPluginControl.SetDisabled
-title: IAMPluginControl::SetDisabled
+title: IAMPluginControl::SetDisabled (strmif.h)
 author: windows-sdk-content
 description: Adds a class identifier (CLSID) to the blocked list, or removes a CLSID from the list.
 old-location: dshow\iamplugincontrol_setdisabled.htm

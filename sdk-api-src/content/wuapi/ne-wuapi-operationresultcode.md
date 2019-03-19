@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagOperationResultCode
-title: OperationResultCode
+title: OperationResultCode (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible results of a download, install, uninstall, or verification operation on an update.
 old-location: wua\operationresultcode.htm

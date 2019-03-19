@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTVGETINFOTIPA
-title: NMTVGETINFOTIPA
+title: NMTVGETINFOTIPA (commctrl.h)
 author: windows-sdk-content
 description: Contains and receives tree-view item information needed to display a tooltip for an item. This structure is used with the TVN_GETINFOTIP notification code.
 old-location: controls\NMTVGETINFOTIP.htm

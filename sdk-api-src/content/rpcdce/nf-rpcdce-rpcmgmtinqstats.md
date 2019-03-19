@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqStats
-title: RpcMgmtInqStats function
+title: RpcMgmtInqStats function (rpcdce.h)
 author: windows-sdk-content
 description: The RpcMgmtInqStats function returns RPC run-time statistics.
 old-location: rpc\rpcmgmtinqstats.htm

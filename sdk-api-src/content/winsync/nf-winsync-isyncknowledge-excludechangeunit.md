@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ExcludeChangeUnit
-title: ISyncKnowledge::ExcludeChangeUnit
+title: ISyncKnowledge::ExcludeChangeUnit (winsync.h)
 author: windows-sdk-content
 description: Removes knowledge about the specified change unit from the knowledge.
 old-location: winsync\isyncknowledge_excludechangeunit.htm

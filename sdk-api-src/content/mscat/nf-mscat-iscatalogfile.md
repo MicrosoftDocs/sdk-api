@@ -1,6 +1,6 @@
 ---
 UID: NF:mscat.IsCatalogFile
-title: IsCatalogFile function
+title: IsCatalogFile function (mscat.h)
 author: windows-sdk-content
 description: Retrieves a Boolean value that indicates whether the specified file is a catalog file.
 old-location: security\iscatalogfile.htm

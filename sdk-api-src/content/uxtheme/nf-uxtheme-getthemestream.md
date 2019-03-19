@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeStream
-title: GetThemeStream function
+title: GetThemeStream function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves a data stream corresponding to a specified theme, starting from a specified part, state, and property.
 old-location: controls\GetThemeStream.htm

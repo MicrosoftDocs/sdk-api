@@ -1,6 +1,6 @@
 ---
 UID: NF:vss.IVssEnumObject.Next
-title: IVssEnumObject::Next
+title: IVssEnumObject::Next (vss.h)
 author: windows-sdk-content
 description: Returns the specified number of objects from the specified list of enumerated objects.
 old-location: base\ivssenumobject_next.htm

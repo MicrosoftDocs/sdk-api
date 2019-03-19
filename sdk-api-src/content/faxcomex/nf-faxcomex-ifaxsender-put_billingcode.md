@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_BillingCode
-title: IFaxSender::put_BillingCode
+title: IFaxSender::put_BillingCode (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxSender::get_BillingCode property is a null-terminated string that contains the billing code associated with the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_billingcode_cpp.htm

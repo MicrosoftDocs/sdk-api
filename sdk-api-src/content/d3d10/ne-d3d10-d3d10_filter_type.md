@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_FILTER_TYPE
-title: D3D10_FILTER_TYPE
+title: D3D10_FILTER_TYPE (d3d10.h)
 author: windows-sdk-content
 description: Types of magnification or minification sampler filters.
 old-location: direct3d10\d3d10_filter_type.htm

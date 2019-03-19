@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackRunsLong
-title: SetThreadpoolCallbackRunsLong function
+title: SetThreadpoolCallbackRunsLong function (winbase.h)
 author: windows-sdk-content
 description: Indicates that callbacks associated with this callback environment may not return quickly.
 old-location: base\setthreadpoolcallbackrunslong.htm

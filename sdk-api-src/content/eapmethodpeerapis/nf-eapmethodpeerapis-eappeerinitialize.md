@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerInitialize
-title: EapPeerInitialize function
+title: EapPeerInitialize function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Initializes an EAP peer method for EAPHost.
 old-location: eaphost\eappeerinitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:dwmapi.DWMTRANSITION_OWNEDWINDOW_TARGET
-title: DWMTRANSITION_OWNEDWINDOW_TARGET
+title: DWMTRANSITION_OWNEDWINDOW_TARGET (dwmapi.h)
 author: windows-sdk-content
 description: Identifies the target.
 old-location: dwm\dwmtransition_ownedwindow_target.htm

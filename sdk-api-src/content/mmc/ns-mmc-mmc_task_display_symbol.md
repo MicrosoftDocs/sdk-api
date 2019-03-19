@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._MMC_TASK_DISPLAY_SYMBOL
-title: MMC_TASK_DISPLAY_SYMBOL
+title: MMC_TASK_DISPLAY_SYMBOL (mmc.h)
 author: windows-sdk-content
 description: The MMC_TASK_DISPLAY_SYMBOL structure is introduced in MMC 1.1.
 old-location: mmc\mmc_task_display_symbol.htm

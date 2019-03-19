@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetNextItem
-title: TreeView_GetNextItem macro
+title: TreeView_GetNextItem macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the tree-view item that bears the specified relationship to a specified item. You can use this macro, use one of the TreeView_Get macros described below, or send the TVM_GETNEXTITEM message explicitly.
 old-location: controls\TreeView_GetNextItem.htm

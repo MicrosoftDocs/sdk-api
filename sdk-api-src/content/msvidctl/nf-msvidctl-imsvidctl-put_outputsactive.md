@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_OutputsActive
-title: IMSVidCtl::put_OutputsActive
+title: IMSVidCtl::put_OutputsActive (msvidctl.h)
 author: windows-sdk-content
 description: The put_OutputsActive method specifies the active output devices.
 old-location: mstv\imsvidctl_put_outputsactive.htm

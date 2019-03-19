@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateVertexShader
-title: ID3D10Device::CreateVertexShader
+title: ID3D10Device::CreateVertexShader (d3d10.h)
 author: windows-sdk-content
 description: Create a vertex-shader object from a compiled shader.
 old-location: direct3d10\id3d10device_createvertexshader.htm

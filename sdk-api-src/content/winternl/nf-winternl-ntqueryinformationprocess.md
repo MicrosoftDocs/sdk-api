@@ -1,6 +1,6 @@
 ---
 UID: NF:winternl.NtQueryInformationProcess
-title: NtQueryInformationProcess function
+title: NtQueryInformationProcess function (winternl.h)
 author: windows-sdk-content
 description: Retrieves information about the specified process.
 old-location: base\ntqueryinformationprocess.htm

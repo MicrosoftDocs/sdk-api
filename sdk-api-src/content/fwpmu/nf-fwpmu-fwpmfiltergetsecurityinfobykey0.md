@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmFilterGetSecurityInfoByKey0
-title: FwpmFilterGetSecurityInfoByKey0 function
+title: FwpmFilterGetSecurityInfoByKey0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a filter object.
 old-location: fwp\fwpmfiltergetsecurityinfobykey0_func.htm

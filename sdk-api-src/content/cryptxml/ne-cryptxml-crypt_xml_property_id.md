@@ -1,6 +1,6 @@
 ---
 UID: NE:cryptxml.__unnamed_enum_1
-title: CRYPT_XML_PROPERTY_ID
+title: CRYPT_XML_PROPERTY_ID (cryptxml.h)
 author: windows-sdk-content
 description: Specifies the type and usage of the XML property.
 old-location: security\crypt_xml_property_id.htm

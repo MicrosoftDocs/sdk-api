@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE
-title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE
+title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_TYPE (d3d12.h)
 author: windows-sdk-content
 description: Specifies the type of a raytracing acceleration structure.
 old-location: direct3d12\d3d12_raytracing_acceleration_structure_type.htm

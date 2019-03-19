@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IMediaPosition.get_Rate
-title: IMediaPosition::get_Rate
+title: IMediaPosition::get_Rate (control.h)
 author: windows-sdk-content
 description: The get_Rate method retrieves the playback rate.
 old-location: dshow\imediaposition_get_rate.htm

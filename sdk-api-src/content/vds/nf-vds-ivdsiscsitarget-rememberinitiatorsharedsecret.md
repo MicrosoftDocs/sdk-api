@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.RememberInitiatorSharedSecret
-title: IVdsIscsiTarget::RememberInitiatorSharedSecret
+title: IVdsIscsiTarget::RememberInitiatorSharedSecret (vds.h)
 author: windows-sdk-content
 description: Communicates the initiator CHAP secret that is used for mutual CHAP authentication when the initiator authenticates the target.
 old-location: base\ivdsiscsitarget_rememberinitiatorsharedsecret.htm

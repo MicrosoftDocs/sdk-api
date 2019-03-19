@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_0
-title: RPC_STATS_VECTOR
+title: RPC_STATS_VECTOR (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_STATS_VECTOR structure contains statistics from the RPC run-time library on a per-server basis.
 old-location: rpc\rpc_stats_vector.htm

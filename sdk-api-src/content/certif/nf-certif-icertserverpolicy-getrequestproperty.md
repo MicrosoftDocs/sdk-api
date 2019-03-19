@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetRequestProperty
-title: ICertServerPolicy::GetRequestProperty
+title: ICertServerPolicy::GetRequestProperty (certif.h)
 author: windows-sdk-content
 description: Retrieves a specific property from a request.
 old-location: security\icertserverpolicy_getrequestproperty.htm

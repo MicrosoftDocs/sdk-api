@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.get_ACDGroups
-title: ITAgentHandler::get_ACDGroups
+title: ITAgentHandler::get_ACDGroups (tapi3cc.h)
 author: windows-sdk-content
 description: The get_ACDGroups method creates a collection of ACD groups currently associated with the agent handler.
 old-location: tapi3\itagenthandler_get_acdgroups.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.QueryConsoleVerb
-title: IConsole::QueryConsoleVerb
+title: IConsole::QueryConsoleVerb (mmc.h)
 author: windows-sdk-content
 description: Queries for the IConsoleVerb interface.
 old-location: mmc\iconsole_queryconsoleverb.htm

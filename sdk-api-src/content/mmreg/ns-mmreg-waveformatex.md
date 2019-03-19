@@ -1,6 +1,6 @@
 ---
 UID: NS:mmreg.tWAVEFORMATEX
-title: WAVEFORMATEX
+title: WAVEFORMATEX (mmreg.h)
 author: windows-sdk-content
 description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.
 old-location: audio\waveformatex.htm

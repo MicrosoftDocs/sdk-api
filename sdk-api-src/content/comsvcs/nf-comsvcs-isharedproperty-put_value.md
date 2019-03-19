@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISharedProperty.put_Value
-title: ISharedProperty::put_Value
+title: ISharedProperty::put_Value (comsvcs.h)
 author: windows-sdk-content
 description: Sets the value of a shared property.
 old-location: cos\isharedproperty_put_value.htm

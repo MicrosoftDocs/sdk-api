@@ -1,6 +1,6 @@
 ---
 UID: NS:wsnwlink._IPX_ADDRESS_DATA
-title: IPX_ADDRESS_DATA
+title: IPX_ADDRESS_DATA (wsnwlink.h)
 author: windows-sdk-content
 description: The IPX_ADDRESS_DATA structure provides information about a specific adapter to which IPX is bound. Used in conjunction with getsockopt function calls that specify IPX_ADDRESS in the optname parameter.
 old-location: winsock\ipx_address_data_2.htm

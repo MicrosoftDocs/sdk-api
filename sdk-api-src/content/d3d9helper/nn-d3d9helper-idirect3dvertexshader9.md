@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d9helper.IDirect3DVertexShader9
-title: IDirect3DVertexShader9
+title: IDirect3DVertexShader9 (d3d9helper.h)
 author: windows-sdk-content
 description: Applications use the methods of the IDirect3DVertexShader9 interface to encapsulate the functionality of a vertex shader.
 old-location: direct3d9\idirect3dvertexshader9.htm

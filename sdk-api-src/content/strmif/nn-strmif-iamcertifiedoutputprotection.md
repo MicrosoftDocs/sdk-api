@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMCertifiedOutputProtection
-title: IAMCertifiedOutputProtection
+title: IAMCertifiedOutputProtection (strmif.h)
 author: windows-sdk-content
 description: The IAMCertifiedOutputProtection interface sends Certified Output Protection Protocol (COPP) messages to the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection.htm

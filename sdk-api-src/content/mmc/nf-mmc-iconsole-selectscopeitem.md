@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.SelectScopeItem
-title: IConsole::SelectScopeItem
+title: IConsole::SelectScopeItem (mmc.h)
 author: windows-sdk-content
 description: Selects the given scope item.
 old-location: mmc\iconsole_selectscopeitem.htm

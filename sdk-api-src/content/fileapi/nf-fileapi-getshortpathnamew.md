@@ -1,6 +1,6 @@
 ---
 UID: NF:fileapi.GetShortPathNameW
-title: GetShortPathNameW function
+title: GetShortPathNameW function (fileapi.h)
 author: windows-sdk-content
 description: Retrieves the short path form of the specified path.
 old-location: fs\getshortpathname.htm

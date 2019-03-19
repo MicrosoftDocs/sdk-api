@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMDecoderCaps.GetDecoderCaps
-title: IAMDecoderCaps::GetDecoderCaps
+title: IAMDecoderCaps::GetDecoderCaps (strmif.h)
 author: windows-sdk-content
 description: The GetDecoderCaps method queries the decoder for its capabilities.
 old-location: dshow\iamdecodercaps_getdecodercaps.htm

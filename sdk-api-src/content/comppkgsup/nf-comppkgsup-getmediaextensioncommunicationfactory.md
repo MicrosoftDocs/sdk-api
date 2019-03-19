@@ -1,6 +1,6 @@
 ---
 UID: NF:comppkgsup.GetMediaExtensionCommunicationFactory
-title: GetMediaExtensionCommunicationFactory function
+title: GetMediaExtensionCommunicationFactory function (comppkgsup.h)
 author: windows-sdk-content
 description: Creates a communication factory for registering a media extension.
 old-location: winprog\getmediaextensioncommunicationfactory.htm

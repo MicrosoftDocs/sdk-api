@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPLibrary.get_mediaCollection
-title: IWMPLibrary::get_mediaCollection
+title: IWMPLibrary::get_mediaCollection (wmp.h)
 author: windows-sdk-content
 description: The get_mediaCollection method retrieves a pointer to the IWMPMediaCollection interface for the current library.
 old-location: wmp\iwmplibrary_get_mediacollection.htm

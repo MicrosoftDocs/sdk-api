@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.RefreshOverlayImages
-title: IShellIconOverlayManager::RefreshOverlayImages
+title: IShellIconOverlayManager::RefreshOverlayImages (shlobj_core.h)
 author: windows-sdk-content
 description: Refreshes the overlay cache, the image list, or both.
 old-location: shell\IShellIconOverlayManager_RefreshOverlayImages.htm

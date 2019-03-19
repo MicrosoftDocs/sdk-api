@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10shader._D3D10_SHADER_VARIABLE_DESC
-title: D3D10_SHADER_VARIABLE_DESC
+title: D3D10_SHADER_VARIABLE_DESC (d3d10shader.h)
 author: windows-sdk-content
 description: Describes a shader variable.
 old-location: direct3d10\d3d10_shader_variable_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeySessionNotify.KeyAdded
-title: IMFMediaKeySessionNotify::KeyAdded
+title: IMFMediaKeySessionNotify::KeyAdded (mfmediaengine.h)
 author: windows-sdk-content
 description: Notifies the application that the key has been added.
 old-location: mf\imfmediakeysessionnotify_keyadded.htm

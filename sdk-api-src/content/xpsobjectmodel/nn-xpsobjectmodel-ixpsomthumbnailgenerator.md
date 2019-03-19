@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMThumbnailGenerator
-title: IXpsOMThumbnailGenerator
+title: IXpsOMThumbnailGenerator (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Generates a thumbnail image resource.
 old-location: xps\ixpsomthumbnailgenerator.htm

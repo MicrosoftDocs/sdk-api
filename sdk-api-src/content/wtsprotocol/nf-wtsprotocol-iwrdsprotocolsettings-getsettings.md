@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolSettings.GetSettings
-title: IWRdsProtocolSettings::GetSettings
+title: IWRdsProtocolSettings::GetSettings (wtsprotocol.h)
 author: windows-sdk-content
 description: Retrieves the settings for a particular policy.
 old-location: termserv\iwrdsprotocolsettings_getsettings.htm

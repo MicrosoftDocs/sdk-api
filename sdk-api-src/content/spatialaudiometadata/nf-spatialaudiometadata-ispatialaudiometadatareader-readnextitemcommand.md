@@ -1,6 +1,6 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.ReadNextItemCommand
-title: ISpatialAudioMetadataReader::ReadNextItemCommand
+title: ISpatialAudioMetadataReader::ReadNextItemCommand (spatialaudiometadata.h)
 author: windows-sdk-content
 description: Reads metadata commands and value data for the current item.
 old-location: coreaudio\ispatialaudiometadatareader_readnextitemcommand.htm

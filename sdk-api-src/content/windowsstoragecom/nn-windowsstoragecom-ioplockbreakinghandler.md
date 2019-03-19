@@ -1,6 +1,6 @@
 ---
 UID: NN:windowsstoragecom.IOplockBreakingHandler
-title: IOplockBreakingHandler
+title: IOplockBreakingHandler (windowsstoragecom.h)
 author: windows-sdk-content
 description: This interface is not currently implemented.
 old-location: winrt\ioplockbreakinghandler.htm

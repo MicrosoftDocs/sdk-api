@@ -1,6 +1,6 @@
 ---
 UID: NN:structuredquery.ISchemaLocalizerSupport
-title: ISchemaLocalizerSupport
+title: ISchemaLocalizerSupport (structuredquery.h)
 author: windows-sdk-content
 description: Provides a method for localizing keywords in a specified string.
 old-location: search\_search_ISchemaLocalizerSupport.htm

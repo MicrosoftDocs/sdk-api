@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdate.get_Categories
-title: IUpdate::get_Categories
+title: IUpdate::get_Categories (wuapi.h)
 author: windows-sdk-content
 description: Gets an interface that contains a collection of categories to which the update belongs.
 old-location: wua\iupdate_categories.htm

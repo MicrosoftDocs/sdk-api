@@ -1,6 +1,6 @@
 ---
 UID: NS:windef.tagSIZE
-title: SIZE
+title: SIZE (windef.h)
 author: windows-sdk-content
 description: The SIZE structure defines the width and height of a rectangle.
 old-location: display\size.htm

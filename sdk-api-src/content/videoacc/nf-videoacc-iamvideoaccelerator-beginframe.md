@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.BeginFrame
-title: IAMVideoAccelerator::BeginFrame
+title: IAMVideoAccelerator::BeginFrame (videoacc.h)
 author: windows-sdk-content
 description: The BeginFrame method begins the processing to create a decoded picture.
 old-location: dshow\iamvideoaccelerator_beginframe.htm

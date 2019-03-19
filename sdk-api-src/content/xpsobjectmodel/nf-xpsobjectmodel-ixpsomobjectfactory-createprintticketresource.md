@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePrintTicketResource
-title: IXpsOMObjectFactory::CreatePrintTicketResource
+title: IXpsOMObjectFactory::CreatePrintTicketResource (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMPrintTicketResource interface that enables access to a PrintTicket stream.
 old-location: xps\ixpsomobjectfactory_createprintticketresource.htm

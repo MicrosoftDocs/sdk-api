@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1.D2D1_TEXT_ANTIALIAS_MODE
-title: D2D1_TEXT_ANTIALIAS_MODE
+title: D2D1_TEXT_ANTIALIAS_MODE (d2d1.h)
 author: windows-sdk-content
 description: Describes the antialiasing mode used for drawing text.
 old-location: direct2d\D2D1_TEXT_ANTIALIAS_MODE.htm

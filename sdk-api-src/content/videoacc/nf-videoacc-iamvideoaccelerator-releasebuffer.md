@@ -1,6 +1,6 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.ReleaseBuffer
-title: IAMVideoAccelerator::ReleaseBuffer
+title: IAMVideoAccelerator::ReleaseBuffer (videoacc.h)
 author: windows-sdk-content
 description: The ReleaseBuffer method releases a buffer that was locked by a previous call to IAMVideoAccelerator::GetBuffer.
 old-location: dshow\iamvideoaccelerator_releasebuffer.htm

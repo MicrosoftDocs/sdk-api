@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1ImageSourceFromWic.TrimCache(const D2D1_RECT_U &)
-title: ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &)
+title: ID2D1ImageSourceFromWic::TrimCache(const D2D1_RECT_U &) (d2d1_3.h)
 author: windows-sdk-content
 description: This method trims the populated regions of the image source cache to just the specified rectangle.
 old-location: direct2d\id2d1imagesourcefromwic_trimcache_2.htm

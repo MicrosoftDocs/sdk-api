@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.IsBufferPrecisionSupported
-title: ID2D1DeviceContext::IsBufferPrecisionSupported
+title: ID2D1DeviceContext::IsBufferPrecisionSupported (d2d1_1.h)
 author: windows-sdk-content
 description: Indicates whether the buffer precision is supported by the underlying Direct3D device.
 old-location: direct2d\id2d1devicecontext_isbufferprecisionsupported.htm

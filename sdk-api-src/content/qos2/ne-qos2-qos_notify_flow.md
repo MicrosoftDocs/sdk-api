@@ -1,6 +1,6 @@
 ---
 UID: NE:qos2._QOS_NOTIFY_FLOW
-title: QOS_NOTIFY_FLOW
+title: QOS_NOTIFY_FLOW (qos2.h)
 author: windows-sdk-content
 description: The QOS_NOTIFY_FLOW enumeration specifies the circumstances that must be present for the QOSNotifyFlow function to send a notification.
 old-location: qos\qos_notify_flow.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateEmbeddingOption
-title: IOpcSigningOptions::GetCertificateEmbeddingOption
+title: IOpcSigningOptions::GetCertificateEmbeddingOption (msopc.h)
 author: windows-sdk-content
 description: Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
 old-location: opc\iopcsigningoptions_getcertificateembeddingoption.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.WindowFromAccessibleObject
-title: WindowFromAccessibleObject function
+title: WindowFromAccessibleObject function (oleacc.h)
 author: windows-sdk-content
 description: Retrieves the window handle that corresponds to a particular instance of an IAccessible interface.
 old-location: winauto\windowfromaccessibleobject.htm

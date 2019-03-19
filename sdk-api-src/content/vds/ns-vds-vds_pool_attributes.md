@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_POOL_ATTRIBUTES
-title: VDS_POOL_ATTRIBUTES
+title: VDS_POOL_ATTRIBUTES (vds.h)
 author: windows-sdk-content
 description: Defines the attributes of a storage pool.
 old-location: base\vds_pool_attributes.htm

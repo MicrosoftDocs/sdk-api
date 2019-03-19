@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictPresenter.PresentConflict
-title: ISyncMgrConflictPresenter::PresentConflict
+title: ISyncMgrConflictPresenter::PresentConflict (syncmgr.h)
 author: windows-sdk-content
 description: Presents the conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter_PresentConflict.htm

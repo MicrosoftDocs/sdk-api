@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_SID_INFO
-title: SERVICE_SID_INFO
+title: SERVICE_SID_INFO (winsvc.h)
 author: windows-sdk-content
 description: Represents a service security identifier (SID).
 old-location: base\service_sid_info.htm

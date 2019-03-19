@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.Query
-title: IVssSoftwareSnapshotProvider::Query
+title: IVssSoftwareSnapshotProvider::Query (vsprov.h)
 author: windows-sdk-content
 description: Queries the provider for information about the shadow copies that the provider has completed.
 old-location: base\ivsssoftwaresnapshotprovider_query.htm

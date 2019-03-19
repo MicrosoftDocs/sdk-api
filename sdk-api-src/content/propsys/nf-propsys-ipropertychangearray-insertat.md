@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.InsertAt
-title: IPropertyChangeArray::InsertAt
+title: IPropertyChangeArray::InsertAt (propsys.h)
 author: windows-sdk-content
 description: Inserts a change operation into an array at the specified position.
 old-location: properties\IPropertyChangeArray_InsertAt.htm

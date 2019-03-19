@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetPowerSource
-title: IWMDMDevice::GetPowerSource
+title: IWMDMDevice::GetPowerSource (mswmdm.h)
 author: windows-sdk-content
 description: The GetPowerSource method retrieves information about the power source and the percentage of power remaining for the device.
 old-location: wmdm\iwmdmdevice_getpowersource.htm

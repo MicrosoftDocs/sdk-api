@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerSetResponseAttributes
-title: EapPeerSetResponseAttributes function
+title: EapPeerSetResponseAttributes function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Provides an updated array of EAP response attributes to the EAP method.
 old-location: eaphost\eappeersetresponseattributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.CreateReportJob
-title: IFsrmReportManager::CreateReportJob
+title: IFsrmReportManager::CreateReportJob (fsrmreports.h)
 author: windows-sdk-content
 description: Creates a report job.
 old-location: fsrm\ifsrmreportmanager_createreportjob.htm

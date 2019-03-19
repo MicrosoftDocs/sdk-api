@@ -1,6 +1,6 @@
 ---
 UID: NS:timeapi.timecaps_tag
-title: TIMECAPS
+title: TIMECAPS (timeapi.h)
 author: windows-sdk-content
 description: The TIMECAPS structure contains information about the resolution of the timer.
 old-location: multimedia\timecaps.htm

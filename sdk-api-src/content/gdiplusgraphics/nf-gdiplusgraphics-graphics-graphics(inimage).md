@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(IN Image)
-title: Graphics::Graphics(IN Image)
+title: Graphics::Graphics(IN Image) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: Creates a Graphics::Graphics object that is associated with an Image object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_image_.htm

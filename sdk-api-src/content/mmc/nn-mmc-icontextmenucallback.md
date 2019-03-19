@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IContextMenuCallback
-title: IContextMenuCallback
+title: IContextMenuCallback (mmc.h)
 author: windows-sdk-content
 description: The IContextMenuCallback interface is used to add menu items to a context menu.
 old-location: mmc\icontextmenucallback.htm

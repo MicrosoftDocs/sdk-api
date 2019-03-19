@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextPattern2
-title: IUIAutomationTextPattern2
+title: IUIAutomationTextPattern2 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationTextPattern interface.
 old-location: winauto\uiauto_iuiautomationtextpattern2.htm

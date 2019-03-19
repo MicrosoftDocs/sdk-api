@@ -1,6 +1,6 @@
 ---
 UID: NE:windns.DNS_PROXY_INFORMATION_TYPE
-title: DNS_PROXY_INFORMATION_TYPE
+title: DNS_PROXY_INFORMATION_TYPE (windns.h)
 author: windows-sdk-content
 description: The DNS_PROXY_INFORMATION_TYPE enumeration defines the proxy information type in the DNS_PROXY_INFORMATION structure.
 old-location: dns\dns_proxy_information_type.htm

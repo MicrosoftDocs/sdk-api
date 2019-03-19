@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IQueueCommand.InvokeAtStreamTime
-title: IQueueCommand::InvokeAtStreamTime
+title: IQueueCommand::InvokeAtStreamTime (control.h)
 author: windows-sdk-content
 description: The InvokeAtStreamTime method queues a method or property change for execution at a specified stream time (that is, presentation time relative to the current stream time offset).
 old-location: dshow\iqueuecommand_invokeatstreamtime.htm

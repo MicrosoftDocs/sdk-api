@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_FILTER_ENUM_INFO
-title: DHCP_FILTER_ENUM_INFO
+title: DHCP_FILTER_ENUM_INFO (dhcpsapi.h)
 author: windows-sdk-content
 description: Contains information regarding the number of link-layer filter records.
 old-location: dhcp\dhcp_filter_enum_info.htm

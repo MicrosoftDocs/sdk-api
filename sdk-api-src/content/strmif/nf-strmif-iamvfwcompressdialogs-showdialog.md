@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.ShowDialog
-title: IAMVfwCompressDialogs::ShowDialog
+title: IAMVfwCompressDialogs::ShowDialog (strmif.h)
 author: windows-sdk-content
 description: The ShowDialog method displays the specified dialog box.
 old-location: dshow\iamvfwcompressdialogs_showdialog.htm

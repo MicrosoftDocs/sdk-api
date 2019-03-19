@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.GetColorContext
-title: ID2D1Bitmap1::GetColorContext
+title: ID2D1Bitmap1::GetColorContext (d2d1_1.h)
 author: windows-sdk-content
 description: Gets the color context information associated with the bitmap.
 old-location: direct2d\id2d1bitmap1_getcolorcontext.htm

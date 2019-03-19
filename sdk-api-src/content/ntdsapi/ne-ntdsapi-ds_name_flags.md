@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdsapi.__unnamed_enum_1
-title: DS_NAME_FLAGS
+title: DS_NAME_FLAGS (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_NAME_FLAGS enumeration is used to define how the name syntax will be cracked. These flags are used by the DsCrackNames function.
 old-location: ad\ds_name_flags.htm

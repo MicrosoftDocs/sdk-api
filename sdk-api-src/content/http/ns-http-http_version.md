@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_VERSION
-title: HTTP_VERSION
+title: HTTP_VERSION (http.h)
 author: windows-sdk-content
 description: Defines a version of the HTTP protocol that a request requires or a response provides.
 old-location: http\http_version.htm

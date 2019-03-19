@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.SetUnderline
-title: ITextFont::SetUnderline
+title: ITextFont::SetUnderline (tom.h)
 author: windows-sdk-content
 description: Sets the type of underlining for the characters in a range.
 old-location: controls\ITextFont_SetUnderline.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:p2p.PFNPEER_SECURE_RECORD
-title: PFNPEER_SECURE_RECORD
+title: PFNPEER_SECURE_RECORD (p2p.h)
 author: windows-sdk-content
 description: The PFNPEER_SECURE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to secure records.
 old-location: p2p\pfnpeer_secure_record.htm

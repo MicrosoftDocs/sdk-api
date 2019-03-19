@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_DecoderWordSize
-title: IMpegAudioDecoder::get_DecoderWordSize
+title: IMpegAudioDecoder::get_DecoderWordSize (mpegtype.h)
 author: windows-sdk-content
 description: Returns the word size used to decode, either eight or 16 bit.
 old-location: dshow\impegaudiodecoder_get_decoderwordsize.htm

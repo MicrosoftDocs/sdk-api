@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetSchemeHandlerConfig.GetNumberOfSupportedProtocols
-title: IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols
+title: IMFNetSchemeHandlerConfig::GetNumberOfSupportedProtocols (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the number of protocols supported by the network scheme plug-in.
 old-location: mf\imfnetschemehandlerconfig_getnumberofsupportedprotocols.htm

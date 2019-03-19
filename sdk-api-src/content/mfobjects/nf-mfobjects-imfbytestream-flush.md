@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Flush
-title: IMFByteStream::Flush
+title: IMFByteStream::Flush (mfobjects.h)
 author: windows-sdk-content
 description: Clears any internal buffers used by the stream. If you are writing to the stream, the buffered data is written to the underlying file or device.
 old-location: mf\imfbytestream_flush.htm

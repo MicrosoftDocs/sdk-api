@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetMetafileSize
-title: MetafileHeader::GetMetafileSize
+title: MetafileHeader::GetMetafileSize (gdiplusmetaheader.h)
 author: windows-sdk-content
 description: The MetafileHeader::GetMetafileSize method gets the size, in bytes, of the metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetMetafileSize_.htm

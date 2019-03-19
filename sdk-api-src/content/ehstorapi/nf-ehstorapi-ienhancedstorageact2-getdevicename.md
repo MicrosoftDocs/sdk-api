@@ -1,6 +1,6 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT2.GetDeviceName
-title: IEnhancedStorageACT2::GetDeviceName
+title: IEnhancedStorageACT2::GetDeviceName (ehstorapi.h)
 author: windows-sdk-content
 description: IEnhancedStorageACT2::GetDeviceName method returns the device name associated with the Addressable Command Target (ACT).
 old-location: enstor\ienhancedstorageact2_getdevicename.htm

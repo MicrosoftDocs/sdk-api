@@ -1,6 +1,6 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.QueryInterface
-title: IDirectInputEffectDriver::QueryInterface
+title: IDirectInputEffectDriver::QueryInterface (dinputd.h)
 author: windows-sdk-content
 description: The IDirectInputEffectDriver::QueryInterface method determines whether the DirectInputEffectDriver object supports a particular COM interface.
 old-location: hid\idirectinputeffectdriver_queryinterface.htm

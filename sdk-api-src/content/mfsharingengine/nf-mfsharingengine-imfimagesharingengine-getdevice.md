@@ -1,6 +1,6 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.GetDevice
-title: IMFImageSharingEngine::GetDevice
+title: IMFImageSharingEngine::GetDevice (mfsharingengine.h)
 author: windows-sdk-content
 description: Gets information about the image sharing device.
 old-location: mf\imfimagesharingengine_getdevice.htm

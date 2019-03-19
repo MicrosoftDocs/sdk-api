@@ -1,6 +1,6 @@
 ---
 UID: NS:vds._VDS_VOLUME_PROP2
-title: VDS_VOLUME_PROP2
+title: VDS_VOLUME_PROP2 (vds.h)
 author: windows-sdk-content
 description: Defines the properties of a volume object. This structure is identical to the VDS_VOLUME_PROP structure, except that it also includes the volume GUIDs.
 old-location: base\vds_volume_prop2.htm

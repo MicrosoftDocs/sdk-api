@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMRBAUTOSIZE
-title: NMRBAUTOSIZE
+title: NMRBAUTOSIZE (commctrl.h)
 author: windows-sdk-content
 description: Contains information used in handling the RBN_AUTOSIZE notification codes.
 old-location: controls\NMRBAUTOSIZE.htm

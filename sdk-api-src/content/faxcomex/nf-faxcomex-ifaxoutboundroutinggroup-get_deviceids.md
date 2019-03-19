@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroup.get_DeviceIds
-title: IFaxOutboundRoutingGroup::get_DeviceIds
+title: IFaxOutboundRoutingGroup::get_DeviceIds (faxcomex.h)
 author: windows-sdk-content
 description: The DeviceIds property retrieves an interface that represents the ordered collection of device IDs that participate in the outbound routing group.
 old-location: fax\_mfax_faxoutboundroutinggroup_deviceids_cpp.htm

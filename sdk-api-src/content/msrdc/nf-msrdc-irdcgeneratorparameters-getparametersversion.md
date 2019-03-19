@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetParametersVersion
-title: IRdcGeneratorParameters::GetParametersVersion
+title: IRdcGeneratorParameters::GetParametersVersion (msrdc.h)
 author: windows-sdk-content
 description: Returns information about the version of RDC used to serialize the parameters.
 old-location: rdc\irdcgeneratorparameters_getparametersversion.htm

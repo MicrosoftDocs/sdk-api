@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISmimeCapability.get_BitCount
-title: ISmimeCapability::get_BitCount
+title: ISmimeCapability::get_BitCount (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the length, in bits, of the encryption key.
 old-location: security\ismimecapability_bitcount_property.htm

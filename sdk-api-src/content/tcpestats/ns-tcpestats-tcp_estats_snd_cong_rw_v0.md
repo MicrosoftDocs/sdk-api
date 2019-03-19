@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_SND_CONG_RW_v0
-title: TCP_ESTATS_SND_CONG_RW_v0
+title: TCP_ESTATS_SND_CONG_RW_v0 (tcpestats.h)
 author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics on sender congestion for a TCP connection.
 old-location: iphlp\tcp_estats_snd_cong_rw_v0.htm

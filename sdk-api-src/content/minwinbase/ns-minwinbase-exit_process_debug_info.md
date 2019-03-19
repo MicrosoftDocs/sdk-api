@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._EXIT_PROCESS_DEBUG_INFO
-title: EXIT_PROCESS_DEBUG_INFO
+title: EXIT_PROCESS_DEBUG_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains the exit code for a terminating process.
 old-location: base\exit_process_debug_info_str.htm

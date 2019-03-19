@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiStaticTargetW
-title: RemoveIScsiStaticTargetW function
+title: RemoveIScsiStaticTargetW function (iscsidsc.h)
 author: windows-sdk-content
 description: RemoveIscsiStaticTarget function removes a target from the list of static targets made available to the machine.
 old-location: iscsidisc\removeiscsistatictarget.htm

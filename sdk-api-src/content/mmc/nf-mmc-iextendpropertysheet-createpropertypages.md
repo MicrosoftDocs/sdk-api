@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IExtendPropertySheet.CreatePropertyPages
-title: IExtendPropertySheet::CreatePropertyPages
+title: IExtendPropertySheet::CreatePropertyPages (mmc.h)
 author: windows-sdk-content
 description: Adds pages to a property sheet.
 old-location: mmc\iextendpropertysheet_createpropertypages.htm

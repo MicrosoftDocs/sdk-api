@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADs.PutEx
-title: IADs::PutEx
+title: IADs::PutEx (iads.h)
 author: windows-sdk-content
 description: Modifies the values of an attribute in the ADSI attribute cache.
 old-location: adsi\iads_putex.htm

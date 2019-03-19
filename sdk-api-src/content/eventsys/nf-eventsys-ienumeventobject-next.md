@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Next
-title: IEnumEventObject::Next
+title: IEnumEventObject::Next (eventsys.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: cos\ienumeventobject_next.htm

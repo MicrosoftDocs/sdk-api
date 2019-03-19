@@ -1,6 +1,6 @@
 ---
 UID: NN:bits2_0.IBackgroundCopyJob3
-title: IBackgroundCopyJob3
+title: IBackgroundCopyJob3 (bits2_0.h)
 author: windows-sdk-content
 description: Use the IBackgroundCopyJob3 interface to download ranges of a file and change the prefix of a remote file name.
 old-location: bits\ibackgroundcopyjob3.htm

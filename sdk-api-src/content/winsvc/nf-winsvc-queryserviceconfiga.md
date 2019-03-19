@@ -1,6 +1,6 @@
 ---
 UID: NF:winsvc.QueryServiceConfigA
-title: QueryServiceConfigA function
+title: QueryServiceConfigA function (winsvc.h)
 author: windows-sdk-content
 description: Retrieves the configuration parameters of the specified service.
 old-location: base\queryserviceconfig.htm

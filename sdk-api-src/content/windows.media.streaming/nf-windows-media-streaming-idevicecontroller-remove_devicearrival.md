@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.remove_DeviceArrival
-title: IDeviceController::streaming
+title: IDeviceController::streaming (windows.media.streaming.h)
 author: windows-sdk-content
 description: Unregisters an event handler for the DeviceArrival event.
 old-location: mediastreaming\idevicecontroller_remove_devicearrival.htm

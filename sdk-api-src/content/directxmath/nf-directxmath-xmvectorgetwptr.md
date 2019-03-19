@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorGetWPtr
-title: XMVectorGetWPtr function
+title: XMVectorGetWPtr function (directxmath.h)
 author: windows-sdk-content
 description: Retrieve the w component of an XMVECTOR Data Type containing floating-point data, and storing that component's value in an instance of float referred to by a pointer.
 old-location: dxmath\xmvectorgetwptr.htm

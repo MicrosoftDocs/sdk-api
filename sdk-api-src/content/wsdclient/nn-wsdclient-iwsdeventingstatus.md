@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdclient.IWSDEventingStatus
-title: IWSDEventingStatus
+title: IWSDEventingStatus (wsdclient.h)
 author: windows-sdk-content
 description: Implement this interface to receive notification when status changes occur in event subscriptions.
 old-location: ncd\iwsdeventingstatus.htm

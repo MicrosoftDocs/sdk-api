@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetFilterParameters
-title: IXAudio2Voice::SetFilterParameters
+title: IXAudio2Voice::SetFilterParameters (xaudio2.h)
 author: windows-sdk-content
 description: Sets the voice's filter parameters.
 old-location: xaudio2\ixaudio2voice_interface_setfilterparameters.htm

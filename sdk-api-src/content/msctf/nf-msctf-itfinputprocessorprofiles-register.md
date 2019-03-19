@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.Register
-title: ITfInputProcessorProfiles::Register
+title: ITfInputProcessorProfiles::Register (msctf.h)
 author: windows-sdk-content
 description: ITfInputProcessorProfiles::Register method
 old-location: tsf\itfinputprocessorprofiles_register.htm

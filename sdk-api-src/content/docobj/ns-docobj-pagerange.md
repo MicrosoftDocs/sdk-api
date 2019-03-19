@@ -1,6 +1,6 @@
 ---
 UID: NS:docobj.tagPAGERANGE
-title: PAGERANGE
+title: PAGERANGE (docobj.h)
 author: windows-sdk-content
 description: Specifies a range of pages.
 old-location: com\pagerange.htm

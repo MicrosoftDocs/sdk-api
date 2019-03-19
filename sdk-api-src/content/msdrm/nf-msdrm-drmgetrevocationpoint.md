@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetRevocationPoint
-title: DRMGetRevocationPoint function
+title: DRMGetRevocationPoint function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves information about the revocation point for an issuance license.
 old-location: rm\drmgetrevocationpoint.htm

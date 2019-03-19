@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._RESULT_VIEW_TYPE_INFO
-title: RESULT_VIEW_TYPE_INFO
+title: RESULT_VIEW_TYPE_INFO (mmc.h)
 author: windows-sdk-content
 description: The RESULT_VIEW_TYPE_INFO structure is introduced in MMC 2.0.
 old-location: mmc\result_view_type_info.htm

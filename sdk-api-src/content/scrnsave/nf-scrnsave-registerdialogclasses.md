@@ -1,6 +1,6 @@
 ---
 UID: NF:scrnsave.RegisterDialogClasses
-title: RegisterDialogClasses function
+title: RegisterDialogClasses function (scrnsave.h)
 author: windows-sdk-content
 description: Registers any nonstandard window classes required by a screen saver's configuration dialog box.
 old-location: shell\RegisterDialogClasses.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oaidl.tagTLIBATTR
-title: TLIBATTR
+title: TLIBATTR (oaidl.h)
 author: windows-sdk-content
 description: Contains information about a type library. Information from this structure is used to identify the type library and to provide national language support for member names.
 old-location: automat\tlibattr.htm

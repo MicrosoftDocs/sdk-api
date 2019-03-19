@@ -1,6 +1,6 @@
 ---
 UID: NE:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0003
-title: RdcNeedType
+title: RdcNeedType (msrdc.h)
 author: windows-sdk-content
 description: Defines the set of data chunks used to generate a remote copy.
 old-location: rdc\rdcneedtype.htm

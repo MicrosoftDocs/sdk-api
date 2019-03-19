@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.ExportPartition
-title: ICOMAdminCatalog2::ExportPartition
+title: ICOMAdminCatalog2::ExportPartition (comadmin.h)
 author: windows-sdk-content
 description: Exports a partition to a file.
 old-location: cos\icomadmincatalog2_exportpartition.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageLastModifiedTime
-title: WdsCliGetImageLastModifiedTime function
+title: WdsCliGetImageLastModifiedTime function (wdsclientapi.h)
 author: windows-sdk-content
 description: Returns the last-modification time of the current image.
 old-location: wds\wdscligetimagelastmodifiedtime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardForgetReaderW
-title: SCardForgetReaderW function
+title: SCardForgetReaderW function (winscard.h)
 author: windows-sdk-content
 description: Removes a previously introduced reader from control by the smart card subsystem. It is removed from the smart card database, including from any reader group that it may have been added to.
 old-location: security\scardforgetreader.htm

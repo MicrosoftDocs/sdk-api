@@ -1,6 +1,6 @@
 ---
 UID: NF:appmodel.GetApplicationUserModelId
-title: GetApplicationUserModelId function
+title: GetApplicationUserModelId function (appmodel.h)
 author: windows-sdk-content
 description: Gets the application user model ID for the specified process.
 old-location: appxpkg\getapplicationusermodelid.htm

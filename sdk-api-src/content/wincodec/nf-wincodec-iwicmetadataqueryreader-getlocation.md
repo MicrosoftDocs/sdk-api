@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetLocation
-title: IWICMetadataQueryReader::GetLocation
+title: IWICMetadataQueryReader::GetLocation (wincodec.h)
 author: windows-sdk-content
 description: Retrieves the current path relative to the root metadata block.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getlocation.htm

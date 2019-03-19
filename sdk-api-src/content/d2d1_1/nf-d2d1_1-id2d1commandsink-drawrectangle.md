@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawRectangle
-title: ID2D1CommandSink::DrawRectangle
+title: ID2D1CommandSink::DrawRectangle (d2d1_1.h)
 author: windows-sdk-content
 description: Draws a rectangle.
 old-location: direct2d\id2d1commandsink_drawrectangle.htm

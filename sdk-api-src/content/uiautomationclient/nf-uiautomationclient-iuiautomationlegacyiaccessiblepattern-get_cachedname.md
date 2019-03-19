@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedName
-title: IUIAutomationLegacyIAccessiblePattern::get_CachedName
+title: IUIAutomationLegacyIAccessiblePattern::get_CachedName (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility name property of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.TreeTraversalOptions
-title: TreeTraversalOptions
+title: TreeTraversalOptions (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Defines values that can be used to customize tree navigation order.
 old-location: winauto\uiauto_TreeTraversalOptions.htm

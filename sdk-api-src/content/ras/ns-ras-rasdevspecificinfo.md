@@ -1,6 +1,6 @@
 ---
 UID: NS:ras.tagRASDEVSPECIFICINFO
-title: RASDEVSPECIFICINFO
+title: RASDEVSPECIFICINFO (ras.h)
 author: windows-sdk-content
 description: Used to send a cookie for server validation and bypass point-to-point (PPP) authentication.
 old-location: rras\rasdevspecificinfo.htm

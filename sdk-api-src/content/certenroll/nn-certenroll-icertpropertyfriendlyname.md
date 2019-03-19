@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.ICertPropertyFriendlyName
-title: ICertPropertyFriendlyName
+title: ICertPropertyFriendlyName (certenroll.h)
 author: windows-sdk-content
 description: Enables you to specify and retrieve a string that contains the display name of a certificate.
 old-location: security\icertpropertyfriendlyname.htm

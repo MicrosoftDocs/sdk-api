@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetDescription
-title: IToc::GetDescription
+title: IToc::GetDescription (wmcodecdsp.h)
 author: windows-sdk-content
 description: The GetDescription method retrieves the description, set by a previous call to SetDescription, of the table of contents.
 old-location: mf\itoc_getdescription.htm

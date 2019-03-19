@@ -1,6 +1,6 @@
 ---
 UID: NC:mgm.PMGM_PRUNE_ALERT_CALLBACK
-title: PMGM_PRUNE_ALERT_CALLBACK
+title: PMGM_PRUNE_ALERT_CALLBACK (mgm.h)
 author: windows-sdk-content
 description: The PMGM_PRUNE_ALERT_CALLBACK callback is a call into a routing protocol to notify the protocol that receivers are no longer present on interfaces owned by other routing protocols.
 old-location: rras\pmgm_prune_alert_callback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetApplication
-title: IXamlDiagnostics::GetApplication
+title: IXamlDiagnostics::GetApplication (xamlom.h)
 author: windows-sdk-content
 description: Gets an instance of the application.
 old-location: xaml_diagnostics\ixamldiagnostics_getapplication.htm

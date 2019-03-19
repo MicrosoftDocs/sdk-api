@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.SetAlphaBitmap
-title: IMFVideoMixerBitmap::SetAlphaBitmap
+title: IMFVideoMixerBitmap::SetAlphaBitmap (evr9.h)
 author: windows-sdk-content
 description: Sets a bitmap image for the enhanced video renderer (EVR) to alpha-blend with the video.
 old-location: mf\imfvideomixerbitmap_setalphabitmap.htm

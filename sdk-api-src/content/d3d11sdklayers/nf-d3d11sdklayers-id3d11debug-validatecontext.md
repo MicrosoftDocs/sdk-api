@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.ValidateContext
-title: ID3D11Debug::ValidateContext
+title: ID3D11Debug::ValidateContext (d3d11sdklayers.h)
 author: windows-sdk-content
 description: Check to see if the draw pipeline state is valid.
 old-location: direct3d11\id3d11debug_validatecontext.htm

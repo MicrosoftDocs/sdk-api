@@ -1,6 +1,6 @@
 ---
 UID: NF:magnification.MagSetInputTransform
-title: MagSetInputTransform function
+title: MagSetInputTransform function (magnification.h)
 author: windows-sdk-content
 description: Sets the current active input transformation for pen and touch input, represented as a source rectangle and a destination rectangle.
 old-location: magapi\magapi_magsetinputtransform.htm

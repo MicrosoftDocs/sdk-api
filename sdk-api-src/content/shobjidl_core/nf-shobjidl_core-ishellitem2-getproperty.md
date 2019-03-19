@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetProperty
-title: IShellItem2::GetProperty
+title: IShellItem2::GetProperty (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a PROPVARIANT structure from a specified property key.
 old-location: shell\IShellItem2_GetProperty.htm

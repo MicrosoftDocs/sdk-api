@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetSubscript
-title: ITextFont::GetSubscript
+title: ITextFont::GetSubscript (tom.h)
 author: windows-sdk-content
 description: Gets whether characters are displayed as subscript.
 old-location: controls\ITextFont_GetSubscript.htm

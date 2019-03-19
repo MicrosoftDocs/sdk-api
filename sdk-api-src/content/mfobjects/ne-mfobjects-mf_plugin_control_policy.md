@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects.MF_PLUGIN_CONTROL_POLICY
-title: MF_PLUGIN_CONTROL_POLICY
+title: MF_PLUGIN_CONTROL_POLICY (mfobjects.h)
 author: windows-sdk-content
 description: Defines policy settings for the IMFPluginControl2::SetPolicy method.
 old-location: mf\mf_plugin_control_policy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif.tagVMRPRESENTATIONINFO
-title: VMRPRESENTATIONINFO
+title: VMRPRESENTATIONINFO (strmif.h)
 author: windows-sdk-content
 description: The VMRPRESENTATIONINFO structure is used in the IVMRImagePresenter::PresentImage method (VMR-7 only).
 old-location: dshow\vmrpresentationinfo.htm

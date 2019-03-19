@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_INPUT_TYPE
-title: D3D_SHADER_INPUT_TYPE
+title: D3D_SHADER_INPUT_TYPE (d3dcommon.h)
 author: windows-sdk-content
 description: Values that identify resource types that can be bound to a shader and that are reflected as part of the resource description for the shader.
 old-location: direct3d11\d3d_shader_input_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.AcquireNextFrame
-title: IDXGIOutputDuplication::AcquireNextFrame
+title: IDXGIOutputDuplication::AcquireNextFrame (dxgi1_2.h)
 author: windows-sdk-content
 description: Indicates that the application is ready to process the next desktop image.
 old-location: direct3ddxgi\idxgioutputduplication_acquirenextframe.htm

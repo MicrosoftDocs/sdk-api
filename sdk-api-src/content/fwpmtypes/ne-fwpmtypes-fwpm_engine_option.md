@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpmtypes.FWPM_ENGINE_OPTION_
-title: FWPM_ENGINE_OPTION
+title: FWPM_ENGINE_OPTION (fwpmtypes.h)
 author: windows-sdk-content
 description: Configurable options for the filter engine.
 old-location: fwp\fwpm_engine_option.htm

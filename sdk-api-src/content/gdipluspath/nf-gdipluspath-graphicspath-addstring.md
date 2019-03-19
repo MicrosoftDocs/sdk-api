@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddString
-title: GraphicsPath::AddString
+title: GraphicsPath::AddString (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the AddString methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_Methods.htm

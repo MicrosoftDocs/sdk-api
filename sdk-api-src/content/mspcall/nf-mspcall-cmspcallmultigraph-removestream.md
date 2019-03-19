@@ -1,6 +1,6 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.RemoveStream
-title: CMSPCallMultiGraph::RemoveStream
+title: CMSPCallMultiGraph::RemoveStream (mspcall.h)
 author: windows-sdk-content
 description: "(Interface RemoveStream) The RemoveStream method is called by the application to remove a stream from the call."
 old-location: tapi3\cmspcallmultigraph_removestream.htm

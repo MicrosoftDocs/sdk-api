@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertGetCertificateChain
-title: CertGetCertificateChain function
+title: CertGetCertificateChain function (wincrypt.h)
 author: windows-sdk-content
 description: Builds a certificate chain context starting from an end certificate and going back, if possible, to a trusted root certificate.
 old-location: security\certgetcertificatechain.htm

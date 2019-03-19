@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SetInsertMark
-title: TreeView_SetInsertMark macro
+title: TreeView_SetInsertMark macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the insertion mark in a tree-view control. You can use this macro or send the TVM_SETINSERTMARK message explicitly.
 old-location: controls\TreeView_SetInsertMark.htm

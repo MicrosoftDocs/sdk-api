@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_DynamicRendering
-title: IInkCollector::get_DynamicRendering
+title: IInkCollector::get_DynamicRendering (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
 old-location: tablet\inkcollector_dynamicrendering.htm

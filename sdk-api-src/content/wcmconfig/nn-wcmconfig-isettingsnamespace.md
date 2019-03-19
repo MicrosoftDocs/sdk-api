@@ -1,6 +1,6 @@
 ---
 UID: NN:wcmconfig.ISettingsNamespace
-title: ISettingsNamespace
+title: ISettingsNamespace (wcmconfig.h)
 author: windows-sdk-content
 description: Performs operations to set, retrieve, and validate settings, and save changes for a namespace instance.
 old-location: smi\isettingsnamespace.htm

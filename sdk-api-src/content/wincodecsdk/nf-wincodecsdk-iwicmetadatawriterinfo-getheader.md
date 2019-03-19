@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriterInfo.GetHeader
-title: IWICMetadataWriterInfo::GetHeader
+title: IWICMetadataWriterInfo::GetHeader (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the metadata header for the metadata writer.
 old-location: wic\_wic_codec_iwicmetadatawriterinfo_getheader.htm

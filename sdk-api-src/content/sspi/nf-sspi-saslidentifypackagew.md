@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SaslIdentifyPackageW
-title: SaslIdentifyPackageW function
+title: SaslIdentifyPackageW function (sspi.h)
 author: windows-sdk-content
 description: Returns the negotiate prefix that matches the specified SASL negotiation buffer.
 old-location: security\saslidentifypackage.htm

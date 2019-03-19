@@ -1,6 +1,6 @@
 ---
 UID: NI:tcpioctl.IOCTL_TCP_QUERY_INFORMATION_EX
-title: IOCTL_TCP_QUERY_INFORMATION_EX
+title: IOCTL_TCP_QUERY_INFORMATION_EX (tcpioctl.h)
 author: windows-sdk-content
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_URLACL_PARAM
-title: HTTP_SERVICE_CONFIG_URLACL_PARAM
+title: HTTP_SERVICE_CONFIG_URLACL_PARAM (http.h)
 author: windows-sdk-content
 description: Used to specify the permissions associated with a particular record in the URL namespace reservation store.
 old-location: http\http_service_config_urlacl_param.htm

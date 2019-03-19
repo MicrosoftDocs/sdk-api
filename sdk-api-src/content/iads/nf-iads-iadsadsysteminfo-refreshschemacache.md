@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsADSystemInfo.RefreshSchemaCache
-title: IADsADSystemInfo::RefreshSchemaCache
+title: IADsADSystemInfo::RefreshSchemaCache (iads.h)
 author: windows-sdk-content
 description: The IADsADSystemInfo::RefreshSchemaCache method refreshes the Active Directory schema cache.
 old-location: adsi\iadsadsysteminfo_refreshschemacache.htm

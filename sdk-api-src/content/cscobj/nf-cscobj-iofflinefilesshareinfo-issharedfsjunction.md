@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.IsShareDfsJunction
-title: IOfflineFilesShareInfo::IsShareDfsJunction
+title: IOfflineFilesShareInfo::IsShareDfsJunction (cscobj.h)
 author: windows-sdk-content
 description: Determines whether the share item is a DFS junction or a shared folder on a server.
 old-location: of\iofflinefilesshareinfo_issharedfsjunction.htm

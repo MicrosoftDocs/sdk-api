@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_BLEND_DESC
-title: CD3D11_BLEND_DESC
+title: CD3D11_BLEND_DESC (d3d11.h)
 author: windows-sdk-content
 description: Represents a blend-state structure and provides convenience methods for creating blend-state structures.
 old-location: direct3d11\cd3d11_blend_desc.htm

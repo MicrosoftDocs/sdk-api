@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.GetContext
-title: ITfRange::GetContext
+title: ITfRange::GetContext (msctf.h)
 author: windows-sdk-content
 description: ITfRange::GetContext method
 old-location: tsf\itfrange_getcontext.htm

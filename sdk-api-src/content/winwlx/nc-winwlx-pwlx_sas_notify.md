@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_SAS_NOTIFY
-title: PWLX_SAS_NOTIFY
+title: PWLX_SAS_NOTIFY (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to notify Winlogon of a secure attention sequence (SAS) event.
 old-location: security\wlxsasnotify.htm

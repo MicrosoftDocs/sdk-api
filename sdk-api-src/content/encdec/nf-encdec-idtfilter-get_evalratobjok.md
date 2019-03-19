@@ -1,6 +1,6 @@
 ---
 UID: NF:encdec.IDTFilter.get_EvalRatObjOK
-title: IDTFilter::get_EvalRatObjOK
+title: IDTFilter::get_EvalRatObjOK (encdec.h)
 author: windows-sdk-content
 description: The get_EvalRatObjOK method queries whether the EvalRat object was created successfully.
 old-location: mstv\idtfilter_get_evalratobjok.htm

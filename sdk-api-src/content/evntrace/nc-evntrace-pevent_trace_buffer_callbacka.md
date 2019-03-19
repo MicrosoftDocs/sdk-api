@@ -1,6 +1,6 @@
 ---
 UID: NC:evntrace.PEVENT_TRACE_BUFFER_CALLBACKA
-title: PEVENT_TRACE_BUFFER_CALLBACKA
+title: PEVENT_TRACE_BUFFER_CALLBACKA (evntrace.h)
 author: windows-sdk-content
 description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.
 old-location: etw\buffercallback.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.ISCPSecureExchange2
-title: ISCPSecureExchange2
+title: ISCPSecureExchange2 (mswmdm.h)
 author: windows-sdk-content
 description: The ISCPSecureExchange2 interface extends ISCPSecureExchange by providing a new version of the TransferContainerData method.
 old-location: wmdm\iscpsecureexchange2.htm

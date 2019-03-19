@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetClassName
-title: IWbemPath::GetClassName
+title: IWbemPath::GetClassName (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::GetClassName method retrieves the class name portion from the path.
 old-location: wmi\iwbempath_getclassname.htm

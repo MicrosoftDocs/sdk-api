@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVITEMW
-title: LVITEMW
+title: LVITEMW (commctrl.h)
 author: windows-sdk-content
 description: Specifies or receives the attributes of a list-view item. This structure has been updated to support a new mask value (LVIF_INDENT) that enables item indenting. This structure supersedes the LV_ITEM structure.
 old-location: controls\LVITEM.htm

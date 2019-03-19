@@ -1,6 +1,6 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetCity
-title: ICivicAddressReport::GetCity
+title: ICivicAddressReport::GetCity (locationapi.h)
 author: windows-sdk-content
 description: Retrieves the city name.
 old-location: winlocation_com_ref\icivicaddressreport_getcity.htm

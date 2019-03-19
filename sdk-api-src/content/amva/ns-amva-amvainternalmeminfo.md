@@ -1,6 +1,6 @@
 ---
 UID: NS:amva._tag_AMVAInternalMemInfo
-title: AMVAInternalMemInfo
+title: AMVAInternalMemInfo (amva.h)
 author: windows-sdk-content
 description: The AMVAInternalMemInfo structure specifies the amount of scratch memory the hardware abstraction layer (HAL) will allocate for its private use.
 old-location: dshow\amvainternalmeminfo.htm

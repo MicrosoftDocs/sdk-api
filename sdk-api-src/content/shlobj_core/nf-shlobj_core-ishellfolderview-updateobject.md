@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.UpdateObject
-title: IShellFolderView::UpdateObject
+title: IShellFolderView::UpdateObject (shlobj_core.h)
 author: windows-sdk-content
 description: UpdateObject may be altered or unavailable.
 old-location: shell\IShellFolderView_UpdateObject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_FLOWRATE_INFO
-title: HTTP_FLOWRATE_INFO
+title: HTTP_FLOWRATE_INFO (http.h)
 author: windows-sdk-content
 description: The transfer rate of a response.
 old-location: http\http_flowrate_info.htm

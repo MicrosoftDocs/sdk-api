@@ -1,6 +1,6 @@
 ---
 UID: NE:ndattrib.__MIDL___MIDL_itf_ndattrib_0000_0000_0003
-title: UI_INFO_TYPE
+title: UI_INFO_TYPE (ndattrib.h)
 author: windows-sdk-content
 description: The UI_INFO_TYPE enumeration identifies repairs that perform user interface tasks.
 old-location: ndf\ui_info_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManager.GetInterfaces
-title: IMbnInterfaceManager::GetInterfaces
+title: IMbnInterfaceManager::GetInterfaces (mbnapi.h)
 author: windows-sdk-content
 description: Gets a list of all available IMbnInterface objects.
 old-location: mbn\imbninterfacemanager_getinterfaces.htm

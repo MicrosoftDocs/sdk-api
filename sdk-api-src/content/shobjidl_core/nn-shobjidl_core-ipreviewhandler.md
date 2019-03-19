@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandler
-title: IPreviewHandler
+title: IPreviewHandler (shobjidl_core.h)
 author: windows-sdk-content
 description: Exposes methods for the display of rich previews.
 old-location: shell\IPreviewHandler.htm

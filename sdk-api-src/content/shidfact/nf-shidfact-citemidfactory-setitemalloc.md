@@ -1,6 +1,6 @@
 ---
 UID: NF:shidfact.CItemIDFactory.SetItemAlloc
-title: CItemIDFactory::SetItemAlloc
+title: CItemIDFactory::SetItemAlloc (shidfact.h)
 author: windows-sdk-content
 description: Provides the CItemIDFactory an IMalloc interface used to allocate and free item IDs.
 old-location: shell\citemidfactory_setitemalloc.htm

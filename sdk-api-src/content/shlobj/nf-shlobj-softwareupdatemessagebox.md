@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.SoftwareUpdateMessageBox
-title: SoftwareUpdateMessageBox function
+title: SoftwareUpdateMessageBox function (shlobj.h)
 author: windows-sdk-content
 description: Displays a standard message box that can be used to notify a user that an application has been updated.
 old-location: shell\SoftwareUpdateMessageBox.htm

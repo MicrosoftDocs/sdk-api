@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.GetNumMessagesDeniedByStorageFilter
-title: ID3D10InfoQueue::GetNumMessagesDeniedByStorageFilter
+title: ID3D10InfoQueue::GetNumMessagesDeniedByStorageFilter (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Get the number of messages that were denied passage through a storage filter.
 old-location: direct3d10\id3d10infoqueue_getnummessagesdeniedbystoragefilter.htm

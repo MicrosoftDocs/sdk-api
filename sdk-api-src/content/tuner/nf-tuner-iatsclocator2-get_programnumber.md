@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator2.get_ProgramNumber
-title: IATSCLocator2::get_ProgramNumber
+title: IATSCLocator2::get_ProgramNumber (tuner.h)
 author: windows-sdk-content
 description: The get_ProgramNumber method retrieves the program number.
 old-location: mstv\iatsclocator2_get_programnumber.htm

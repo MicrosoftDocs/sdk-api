@@ -1,6 +1,6 @@
 ---
 UID: NF:clfs.ClfsLsnNull
-title: ClfsLsnNull function
+title: ClfsLsnNull function (clfs.h)
 author: windows-sdk-content
 description: Determines whether a specified LSN is equal to the smallest possible LSN, which is CLFS_LSN_NULL.
 old-location: fs\lsnnull.htm

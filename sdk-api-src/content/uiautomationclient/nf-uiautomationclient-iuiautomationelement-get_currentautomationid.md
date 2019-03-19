@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAutomationId
-title: IUIAutomationElement::get_CurrentAutomationId
+title: IUIAutomationElement::get_CurrentAutomationId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the Microsoft UI Automation identifier of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAutomationId.htm

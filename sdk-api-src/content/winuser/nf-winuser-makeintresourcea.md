@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MAKEINTRESOURCEA
-title: MAKEINTRESOURCEA macro
+title: MAKEINTRESOURCEA macro (winuser.h)
 author: windows-sdk-content
 description: Converts an integer value to a resource type compatible with the resource-management functions. This macro is used in place of a string containing the name of the resource.
 old-location: menurc\makeintresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetBaseBrowserData
-title: IBrowserService2::GetBaseBrowserData
+title: IBrowserService2::GetBaseBrowserData (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Gets a read-only structure containing the protected elements owned by the base class, for the purpose of determining state.
 old-location: shell\IBrowserService2_GetBaseBrowserData.htm

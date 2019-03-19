@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetPointerFrameTouchInfo
-title: GetPointerFrameTouchInfo function
+title: GetPointerFrameTouchInfo function (winuser.h)
 author: windows-sdk-content
 description: Gets the entire frame of touch-based information for the specified pointers (of type PT_TOUCH) associated with the current message.
 old-location: inputmsg\getpointerframetouchinfo.htm

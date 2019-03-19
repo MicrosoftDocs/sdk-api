@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_AuthenticationType
-title: ISearchRoot::get_AuthenticationType
+title: ISearchRoot::get_AuthenticationType (searchapi.h)
 author: windows-sdk-content
 description: Retrieves the type of authentication needed to access the URLs under this this search root.
 old-location: search\_search_ISearchRoot_get_AuthenticationType.htm

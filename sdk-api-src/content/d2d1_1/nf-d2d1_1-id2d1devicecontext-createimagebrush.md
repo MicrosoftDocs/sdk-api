@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateImageBrush
-title: ID2D1DeviceContext::CreateImageBrush
+title: ID2D1DeviceContext::CreateImageBrush (d2d1_1.h)
 author: windows-sdk-content
 description: Creates an image brush. The input image can be any type of image, including a bitmap, effect, or a command list.
 old-location: direct2d\id2d1devicecontext_createimagebrush.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_InnerFECMethod
-title: IBDA_DigitalDemodulator::get_InnerFECMethod
+title: IBDA_DigitalDemodulator::get_InnerFECMethod (bdaiface.h)
 author: windows-sdk-content
 description: The get_InnerFECMethod method retrieves the inner forward error correction method.
 old-location: mstv\ibda_digitaldemodulator_get_innerfecmethod.htm

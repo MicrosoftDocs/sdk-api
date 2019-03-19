@@ -1,6 +1,6 @@
 ---
 UID: NS:winfax._FAX_EVENTA
-title: FAX_EVENTA
+title: FAX_EVENTA (winfax.h)
 author: windows-sdk-content
 description: The FAX_EVENT structure represents the contents of an I/O completion packet. The fax server sends the completion packet to notify a fax client application of an asynchronous fax server event.
 old-location: fax\_mfax_fax_event_str.htm

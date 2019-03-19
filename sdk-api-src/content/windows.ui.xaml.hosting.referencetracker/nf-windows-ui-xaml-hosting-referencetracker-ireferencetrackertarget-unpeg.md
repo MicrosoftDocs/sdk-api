@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.Unpeg
-title: IReferenceTrackerTarget::xaml
+title: IReferenceTrackerTarget::xaml (windows.ui.xaml.hosting.referencetracker.h)
 author: windows-sdk-content
 description: Marks that the reference tracker target is no longer in use by the XAML framework, and can be collected.
 old-location: winrt\ireferencetrackertarget_unpeg.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.Connect
-title: IMbnConnection::Connect
+title: IMbnConnection::Connect (mbnapi.h)
 author: windows-sdk-content
 description: Establishes a data connection.
 old-location: mbn\imbnconnection_connect.htm

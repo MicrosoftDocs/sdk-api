@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMAsyncReaderTimestampScaling.GetTimestampMode
-title: IAMAsyncReaderTimestampScaling::GetTimestampMode
+title: IAMAsyncReaderTimestampScaling::GetTimestampMode (strmif.h)
 author: windows-sdk-content
 description: Gets the filter's time-stamping mode.
 old-location: dshow\iamasyncreadertimestampscaling_gettimestampmode.htm

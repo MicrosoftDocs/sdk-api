@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Silent
-title: IX509PrivateKey::put_Silent
+title: IX509PrivateKey::put_Silent (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that indicates whether the Certificate Enrollment Control is allowed to display a dialog box when the private key is accessed.
 old-location: security\ix509privatekey_silent_property.htm

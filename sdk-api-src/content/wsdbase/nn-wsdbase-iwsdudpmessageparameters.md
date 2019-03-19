@@ -1,6 +1,6 @@
 ---
 UID: NN:wsdbase.IWSDUdpMessageParameters
-title: IWSDUdpMessageParameters
+title: IWSDUdpMessageParameters (wsdbase.h)
 author: windows-sdk-content
 description: Use this interface to specify how often WSD repeats the message transmission.
 old-location: ncd\iwsdudpmessageparameters.htm

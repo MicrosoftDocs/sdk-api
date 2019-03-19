@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.PreferenceChangeDetected
-title: IOfflineFilesEvents2::PreferenceChangeDetected
+title: IOfflineFilesEvents2::PreferenceChangeDetected (cscobj.h)
 author: windows-sdk-content
 description: Reports that the Offline Files service detected a change in one or more of its setting values that are not controlled by Group Policy.
 old-location: of\iofflinefilesevents2_preferencechangedetected.htm

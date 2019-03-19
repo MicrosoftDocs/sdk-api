@@ -1,6 +1,6 @@
 ---
 UID: NF:lmuse.NetUseGetInfo
-title: NetUseGetInfo function
+title: NetUseGetInfo function (lmuse.h)
 author: windows-sdk-content
 description: The NetUseGetInfo function retrieves information about a connection to a shared resource.
 old-location: netmgmt\netusegetinfo.htm

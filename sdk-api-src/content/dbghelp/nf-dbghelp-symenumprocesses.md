@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumProcesses
-title: SymEnumProcesses function
+title: SymEnumProcesses function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates each process that has called the SymInitialize function.
 old-location: base\symenumprocesses.htm

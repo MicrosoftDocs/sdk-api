@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderStreamClock.SetTimer
-title: IWMReaderStreamClock::SetTimer
+title: IWMReaderStreamClock::SetTimer (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetTimer method sets a timer on the clock.
 old-location: wmformat\iwmreaderstreamclock_settimer.htm

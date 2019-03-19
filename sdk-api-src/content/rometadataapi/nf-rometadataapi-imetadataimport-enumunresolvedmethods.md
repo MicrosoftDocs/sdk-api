@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumUnresolvedMethods
-title: IMetaDataImport::EnumUnresolvedMethods
+title: IMetaDataImport::EnumUnresolvedMethods (rometadataapi.h)
 author: windows-sdk-content
 description: Enumerates MemberDef tokens representing the unresolved methods in the current metadata scope.
 old-location: winrt\imetadataimport_enumunresolvedmethods.htm

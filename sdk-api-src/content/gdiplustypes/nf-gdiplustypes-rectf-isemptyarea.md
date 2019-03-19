@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.IsEmptyArea
-title: RectF::IsEmptyArea
+title: RectF::IsEmptyArea (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::IsEmptyArea method determines whether this rectangle is empty.
 old-location: gdiplus\_gdiplus_CLASS_RectF_IsEmptyArea_.htm

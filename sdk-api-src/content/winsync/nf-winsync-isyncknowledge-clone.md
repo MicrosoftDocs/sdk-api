@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.Clone
-title: ISyncKnowledge::Clone
+title: ISyncKnowledge::Clone (winsync.h)
 author: windows-sdk-content
 description: Creates a new instance of this object, and copies the data from this object to the new object.
 old-location: winsync\isyncknowledge_clone.htm

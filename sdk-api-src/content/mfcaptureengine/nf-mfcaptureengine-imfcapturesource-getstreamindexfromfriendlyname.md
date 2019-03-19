@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetStreamIndexFromFriendlyName
-title: IMFCaptureSource::GetStreamIndexFromFriendlyName
+title: IMFCaptureSource::GetStreamIndexFromFriendlyName (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets the actual device stream index translated from a friendly stream name.
 old-location: mf\imfcapturesource_getstreamindexfromfriendlyname.htm

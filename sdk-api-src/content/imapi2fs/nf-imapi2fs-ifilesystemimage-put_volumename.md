@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_VolumeName
-title: IFileSystemImage::put_VolumeName
+title: IFileSystemImage::put_VolumeName (imapi2fs.h)
 author: windows-sdk-content
 description: Sets the volume name for this file system image.
 old-location: imapi\ifilesystemimage_put_volumename.htm

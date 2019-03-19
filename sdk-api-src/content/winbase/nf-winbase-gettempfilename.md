@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetTempFileName
-title: GetTempFileName function
+title: GetTempFileName function (winbase.h)
 author: windows-sdk-content
 description: Creates a name for a temporary file. If a unique file name is generated, an empty file is created and the handle to it is released; otherwise, only a file name is generated.
 old-location: fs\gettempfilename.htm

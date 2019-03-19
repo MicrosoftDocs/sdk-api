@@ -1,6 +1,6 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_BITMAP_INTERPOLATION_MODE
-title: DCOMPOSITION_BITMAP_INTERPOLATION_MODE
+title: DCOMPOSITION_BITMAP_INTERPOLATION_MODE (dcomptypes.h)
 author: windows-sdk-content
 description: Specifies the interpolation mode to be used when a bitmap is composed with any transform where the pixels in the bitmap don't line up exactly one-to-one with pixels on screen.
 old-location: directcomp\dcomposition_bitmap_interpolation_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.SetSwapChain
-title: ID3D10Debug::SetSwapChain
+title: ID3D10Debug::SetSwapChain (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Set a swap chain that the runtime will use for automatically calling Present.
 old-location: direct3d10\id3d10debug_setswapchain.htm

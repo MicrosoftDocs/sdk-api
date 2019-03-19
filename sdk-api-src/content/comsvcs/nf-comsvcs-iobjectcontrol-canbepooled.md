@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IObjectControl.CanBePooled
-title: IObjectControl::CanBePooled
+title: IObjectControl::CanBePooled (comsvcs.h)
 author: windows-sdk-content
 description: Notifies the COM+ run-time environment whether the object can be pooled for reuse when it is deactivated.
 old-location: cos\iobjectcontrol_canbepooled.htm

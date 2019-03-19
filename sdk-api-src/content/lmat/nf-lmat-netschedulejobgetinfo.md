@@ -1,6 +1,6 @@
 ---
 UID: NF:lmat.NetScheduleJobGetInfo
-title: NetScheduleJobGetInfo function
+title: NetScheduleJobGetInfo function (lmat.h)
 author: windows-sdk-content
 description: The NetScheduleJobGetInfo function retrieves information about a particular job queued on a specified computer. This function requires that the schedule service be started.
 old-location: netmgmt\netschedulejobgetinfo.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymEnumSymbols
-title: SymEnumSymbols function
+title: SymEnumSymbols function (dbghelp.h)
 author: windows-sdk-content
 description: Enumerates all symbols in a process.
 old-location: base\symenumsymbols.htm

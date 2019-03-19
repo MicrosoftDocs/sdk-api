@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSelectDevices
-title: BluetoothSelectDevices function
+title: BluetoothSelectDevices function (bluetoothapis.h)
 author: windows-sdk-content
 description: Enables Bluetooth device selection.
 old-location: bluetooth\bluetoothselectdevices.htm

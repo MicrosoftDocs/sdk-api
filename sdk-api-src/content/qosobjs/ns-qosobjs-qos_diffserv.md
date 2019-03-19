@@ -1,6 +1,6 @@
 ---
 UID: NS:qosobjs._QOS_DIFFSERV
-title: QOS_DIFFSERV
+title: QOS_DIFFSERV (qosobjs.h)
 author: windows-sdk-content
 description: The QOS_DIFFSERV traffic control object is used to specify filters for the packet scheduler when it operates in Differentiated Services Mode.
 old-location: qos\qos_diffserv.htm

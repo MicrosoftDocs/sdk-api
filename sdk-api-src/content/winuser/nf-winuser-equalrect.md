@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.EqualRect
-title: EqualRect function
+title: EqualRect function (winuser.h)
 author: windows-sdk-content
 description: The EqualRect function determines whether the two specified rectangles are equal by comparing the coordinates of their upper-left and lower-right corners.
 old-location: gdi\equalrect.htm

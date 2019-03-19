@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.CD3D11_TEXTURE2D_DESC.CD3D11_TEXTURE2D_DESC
-title: CD3D11_TEXTURE2D_DESC::CD3D11_TEXTURE2D_DESC
+title: CD3D11_TEXTURE2D_DESC::CD3D11_TEXTURE2D_DESC (d3d11.h)
 author: windows-sdk-content
 description: Instantiates a new instance of a CD3D11_TEXTURE2D_DESC structure that is initialized with a D3D11_TEXTURE2D_DESC structure.
 old-location: direct3d11\cd3d11_texture2d_desc_cd3d11_texture2d_desc_d3d11_texture2d_desc_.htm

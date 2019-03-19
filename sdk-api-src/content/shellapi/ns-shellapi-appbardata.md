@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._AppBarData
-title: APPBARDATA
+title: APPBARDATA (shellapi.h)
 author: windows-sdk-content
 description: Contains information about a system appbar message.
 old-location: shell\APPBARDATA.htm

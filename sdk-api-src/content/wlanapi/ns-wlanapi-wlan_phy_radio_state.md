@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_PHY_RADIO_STATE
-title: WLAN_PHY_RADIO_STATE
+title: WLAN_PHY_RADIO_STATE (wlanapi.h)
 author: windows-sdk-content
 description: Specifies the radio state.
 old-location: nwifi\wlan_phy_radio_state.htm

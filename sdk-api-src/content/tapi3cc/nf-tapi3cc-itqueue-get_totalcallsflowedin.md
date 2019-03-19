@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITQueue.get_TotalCallsFlowedIn
-title: ITQueue::get_TotalCallsFlowedIn
+title: ITQueue::get_TotalCallsFlowedIn (tapi3cc.h)
 author: windows-sdk-content
 description: The get_TotalCallsFlowedIn method gets the total number of calls that flowed into this queue (passed down from another queue or ACD group) during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsflowedin.htm

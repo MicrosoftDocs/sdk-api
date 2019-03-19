@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetCodecProp
-title: IWMCodecProps::GetCodecProp
+title: IWMCodecProps::GetCodecProp (wmcodecdsp.h)
 author: windows-sdk-content
 description: Retrieves a codec property specific to an output format.
 old-location: mf\iwmcodecpropsgetcodecprop.htm

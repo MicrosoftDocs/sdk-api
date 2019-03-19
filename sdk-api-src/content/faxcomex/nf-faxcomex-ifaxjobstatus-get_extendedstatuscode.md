@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_ExtendedStatusCode
-title: IFaxJobStatus::get_ExtendedStatusCode
+title: IFaxJobStatus::get_ExtendedStatusCode (faxcomex.h)
 author: windows-sdk-content
 description: The ExtendedStatusCode property specifies a code describing the job's extended status.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_extendedstatuscode_cpp.htm

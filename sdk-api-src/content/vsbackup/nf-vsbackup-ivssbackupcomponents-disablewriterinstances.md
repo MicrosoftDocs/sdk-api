@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DisableWriterInstances
-title: IVssBackupComponents::DisableWriterInstances
+title: IVssBackupComponents::DisableWriterInstances (vsbackup.h)
 author: windows-sdk-content
 description: The DisableWriterInstances method disables a specified writer instance or instances.
 old-location: base\ivssbackupcomponents_disablewriterinstances.htm

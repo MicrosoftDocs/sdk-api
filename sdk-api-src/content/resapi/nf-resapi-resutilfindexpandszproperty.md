@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilFindExpandSzProperty
-title: ResUtilFindExpandSzProperty function
+title: ResUtilFindExpandSzProperty function (resapi.h)
 author: windows-sdk-content
 description: Locates an expandable string property in a property list. The PRESUTIL_FIND_EXPAND_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindexpandszproperty.htm

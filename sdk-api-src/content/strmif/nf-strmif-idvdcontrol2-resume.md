@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.Resume
-title: IDvdControl2::Resume
+title: IDvdControl2::Resume (strmif.h)
 author: windows-sdk-content
 description: The Resume method leaves a menu and resumes playback.
 old-location: dshow\idvdcontrol2_resume.htm

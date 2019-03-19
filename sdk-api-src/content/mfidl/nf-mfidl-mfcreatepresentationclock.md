@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreatePresentationClock
-title: MFCreatePresentationClock function
+title: MFCreatePresentationClock function (mfidl.h)
 author: windows-sdk-content
 description: Creates the presentation clock.
 old-location: mf\mfcreatepresentationclock.htm

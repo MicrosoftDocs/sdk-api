@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzClientContext3.IsInRoleAssignment
-title: IAzClientContext3::IsInRoleAssignment
+title: IAzClientContext3::IsInRoleAssignment (azroles.h)
 author: windows-sdk-content
 description: Checks whether the principal represented by the current client context is a member of the specified role in the specified scope.
 old-location: security\iazclientcontext3_isinroleassignment_method.htm

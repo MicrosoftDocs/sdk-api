@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextServices.OnTxUIActivate
-title: ITextServices::OnTxUIActivate
+title: ITextServices::OnTxUIActivate (textserv.h)
 author: windows-sdk-content
 description: Informs the text services object that the control is now UI active.
 old-location: controls\ITextServices_OnTxUIActivate.htm

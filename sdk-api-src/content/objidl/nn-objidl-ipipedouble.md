@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IPipeDouble
-title: IPipeDouble
+title: IPipeDouble (objidl.h)
 author: windows-sdk-content
 description: Transfers data of the double type (which is 64 bits wide).
 old-location: com\ipipedouble.htm

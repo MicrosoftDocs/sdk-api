@@ -1,6 +1,6 @@
 ---
 UID: NS:wmsdkidl._WMWriterStatistics
-title: WM_WRITER_STATISTICS
+title: WM_WRITER_STATISTICS (wmsdkidl.h)
 author: windows-sdk-content
 description: The WM_WRITER_STATISTICS structure describes the performance of a writing operation.
 old-location: wmformat\wm_writer_statistics.htm

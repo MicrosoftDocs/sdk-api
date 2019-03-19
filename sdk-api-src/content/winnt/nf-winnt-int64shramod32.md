@@ -1,6 +1,6 @@
 ---
 UID: NF:winnt.Int64ShraMod32
-title: Int64ShraMod32 macro
+title: Int64ShraMod32 macro (winnt.h)
 author: windows-sdk-content
 description: Performs a right arithmetic shift operation on a signed 64-bit integer value. The function provides improved shifting code for right arithmetic shifts where the shift count is in the range 0-31.
 old-location: winprog\int64shramod32.htm

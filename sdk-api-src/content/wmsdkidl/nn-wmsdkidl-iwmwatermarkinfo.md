@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMWatermarkInfo
-title: IWMWatermarkInfo
+title: IWMWatermarkInfo (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMWatermarkInfo interface retrieves information about available watermarking systems.
 old-location: wmformat\iwmwatermarkinfo.htm

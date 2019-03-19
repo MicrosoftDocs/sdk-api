@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndices
-title: IXpsOMGlyphs::GetGlyphIndices
+title: IXpsOMGlyphs::GetGlyphIndices (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.
 old-location: xps\ixpsomglyphs_getglyphindices.htm

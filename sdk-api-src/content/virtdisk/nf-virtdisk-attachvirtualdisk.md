@@ -1,6 +1,6 @@
 ---
 UID: NF:virtdisk.AttachVirtualDisk
-title: AttachVirtualDisk function
+title: AttachVirtualDisk function (virtdisk.h)
 author: windows-sdk-content
 description: Attaches a virtual hard disk (VHD) or CD or DVD image file (ISO) by locating an appropriate VHD provider to accomplish the attachment.
 old-location: vhd\attachvirtualdisk.htm

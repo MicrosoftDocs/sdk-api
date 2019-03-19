@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetLocaleName
-title: IDWriteTextLayout::SetLocaleName
+title: IDWriteTextLayout::SetLocaleName (dwrite.h)
 author: windows-sdk-content
 description: Sets the locale name for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetLocaleName.htm

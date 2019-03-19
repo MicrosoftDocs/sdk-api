@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IHandlerActivationHost.BeforeCoCreateInstance
-title: IHandlerActivationHost::BeforeCoCreateInstance
+title: IHandlerActivationHost::BeforeCoCreateInstance (shobjidl_core.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IHandlerActivationHost_BeforeCoCreateInstance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagMONLINKSTRUCT
-title: MONLINKSTRUCT
+title: MONLINKSTRUCT (ddeml.h)
 author: windows-sdk-content
 description: Contains information about a Dynamic Data Exchange (DDE) advise loop. A DDE monitoring application can use this structure to obtain information about an advise loop that has started or ended.
 old-location: dataxchg\monlinkstruct_str.htm

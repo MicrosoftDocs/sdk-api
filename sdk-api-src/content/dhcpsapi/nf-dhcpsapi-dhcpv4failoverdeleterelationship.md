@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverDeleteRelationship
-title: DhcpV4FailoverDeleteRelationship function
+title: DhcpV4FailoverDeleteRelationship function (dhcpsapi.h)
 author: windows-sdk-content
 description: Deletes a DHCPv4 failover relationship between two servers.
 old-location: dhcp\dhcpv4failoverdeleterelationship.htm

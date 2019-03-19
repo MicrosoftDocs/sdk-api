@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCatBuffA
-title: StrCatBuffA function
+title: StrCatBuffA function (shlwapi.h)
 author: windows-sdk-content
 description: Copies and appends characters from one string to the end of another.
 old-location: shell\StrCatBuff.htm

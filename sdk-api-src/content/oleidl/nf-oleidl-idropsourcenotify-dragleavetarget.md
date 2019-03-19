@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IDropSourceNotify.DragLeaveTarget
-title: IDropSourceNotify::DragLeaveTarget
+title: IDropSourceNotify::DragLeaveTarget (oleidl.h)
 author: windows-sdk-content
 description: OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
 old-location: com\idropsourcenotify_dragleavetarget.htm

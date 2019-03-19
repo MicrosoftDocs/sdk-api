@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_Elevation
-title: IDVBSLocator::put_Elevation
+title: IDVBSLocator::put_Elevation (tuner.h)
 author: windows-sdk-content
 description: The put_Elevation method sets the elevation of the satellite in tenths of a degree.
 old-location: mstv\idvbslocator_put_elevation.htm

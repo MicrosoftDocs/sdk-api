@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ExposureRelative
-title: ICameraControl::put_ExposureRelative
+title: ICameraControl::put_ExposureRelative (vidcap.h)
 author: windows-sdk-content
 description: The put_ExposureRelative method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_exposurerelative.htm

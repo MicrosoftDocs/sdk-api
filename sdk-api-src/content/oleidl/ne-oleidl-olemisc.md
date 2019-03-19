@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLEMISC
-title: OLEMISC
+title: OLEMISC (oleidl.h)
 author: windows-sdk-content
 description: Describes miscellaneous characteristics of an object or class of objects.
 old-location: com\olemisc.htm

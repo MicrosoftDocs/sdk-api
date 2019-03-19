@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoMixerControl2.SetMixingPrefs
-title: IMFVideoMixerControl2::SetMixingPrefs
+title: IMFVideoMixerControl2::SetMixingPrefs (evr.h)
 author: windows-sdk-content
 description: Sets the preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2_setmixingprefs.htm

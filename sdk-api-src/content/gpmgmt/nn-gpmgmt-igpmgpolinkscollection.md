@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMGPOLinksCollection
-title: IGPMGPOLinksCollection
+title: IGPMGPOLinksCollection (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMGPOLinksCollection interface contains methods that enable applications to access a collection of GPO links when using the Group Policy Management (GPMC) interfaces.
 old-location: gpmc\igpmgpolinkscollection.htm

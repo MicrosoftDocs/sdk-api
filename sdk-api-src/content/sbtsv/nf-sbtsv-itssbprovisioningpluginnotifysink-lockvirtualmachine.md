@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.LockVirtualMachine
-title: ITsSbProvisioningPluginNotifySink::LockVirtualMachine
+title: ITsSbProvisioningPluginNotifySink::LockVirtualMachine (sbtsv.h)
 author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the virtual machine is locked.
 old-location: termserv\itssbprovisioningpluginnotifysink_lockvirtualmachine.htm

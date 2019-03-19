@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemObjectTextSrc
-title: IWbemObjectTextSrc
+title: IWbemObjectTextSrc (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemObjectTextSrc interface is used to translate IWbemClassObject instances to and from differing text formats.
 old-location: wmi\iwbemobjecttextsrc.htm

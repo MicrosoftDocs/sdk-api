@@ -1,6 +1,6 @@
 ---
 UID: NF:lpmapi.LPM_DeleteState
-title: LPM_DeleteState function
+title: LPM_DeleteState function (lpmapi.h)
 author: windows-sdk-content
 description: The LPM_DeleteState function is called by the PCM to delete the LPMs' RSVP state information.
 old-location: qos\lpm_deletestate.htm

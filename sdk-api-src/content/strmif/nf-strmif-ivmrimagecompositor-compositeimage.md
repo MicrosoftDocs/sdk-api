@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.CompositeImage
-title: IVMRImageCompositor::CompositeImage
+title: IVMRImageCompositor::CompositeImage (strmif.h)
 author: windows-sdk-content
 description: The CompositeImage method composites the current frames available in each input stream.
 old-location: dshow\ivmrimagecompositor_compositeimage.htm

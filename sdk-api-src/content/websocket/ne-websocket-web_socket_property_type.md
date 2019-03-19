@@ -1,6 +1,6 @@
 ---
 UID: NE:websocket._WEB_SOCKET_PROPERTY_TYPE
-title: WEB_SOCKET_PROPERTY_TYPE
+title: WEB_SOCKET_PROPERTY_TYPE (websocket.h)
 author: windows-sdk-content
 description: Specifies a WebSocket property type.
 old-location: websock\web_socket_property_type.htm

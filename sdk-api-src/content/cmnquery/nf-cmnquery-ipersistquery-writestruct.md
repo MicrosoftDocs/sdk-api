@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IPersistQuery.WriteStruct
-title: IPersistQuery::WriteStruct
+title: IPersistQuery::WriteStruct (cmnquery.h)
 author: windows-sdk-content
 description: Writes a structure to the query store.
 old-location: ad\ipersistquery_writestruct.htm

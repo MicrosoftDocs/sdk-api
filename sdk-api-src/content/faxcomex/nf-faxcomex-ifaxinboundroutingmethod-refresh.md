@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.Refresh
-title: IFaxInboundRoutingMethod::Refresh
+title: IFaxInboundRoutingMethod::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingMethod::Refresh method refreshes IFaxInboundRoutingMethod interface information from the fax server.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_refresh_cpp.htm

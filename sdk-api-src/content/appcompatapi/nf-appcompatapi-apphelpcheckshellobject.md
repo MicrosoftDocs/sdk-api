@@ -1,6 +1,6 @@
 ---
 UID: NF:appcompatapi.ApphelpCheckShellObject
-title: ApphelpCheckShellObject function
+title: ApphelpCheckShellObject function (appcompatapi.h)
 author: windows-sdk-content
 description: Enables applications to detect bad extension objects and either block them from running or fix them.
 old-location: winprog\apphelpcheckshellobject.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_CALL_PACKAGEEX
-title: LSA_CALL_PACKAGEEX
+title: LSA_CALL_PACKAGEEX (ntsecpkg.h)
 author: windows-sdk-content
 description: The CallPackageEx function is used to call another security package to access its services.
 old-location: security\callpackageex.htm

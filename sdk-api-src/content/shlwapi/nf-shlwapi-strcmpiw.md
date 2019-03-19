@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.StrCmpIW
-title: StrCmpIW function
+title: StrCmpIW function (shlwapi.h)
 author: windows-sdk-content
 description: Compares two strings to determine if they are the same. The comparison is not case-sensitive.
 old-location: shell\StrCmpI.htm

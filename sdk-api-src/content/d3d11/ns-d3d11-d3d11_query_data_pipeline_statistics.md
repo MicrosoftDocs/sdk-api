@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DATA_PIPELINE_STATISTICS
-title: D3D11_QUERY_DATA_PIPELINE_STATISTICS
+title: D3D11_QUERY_DATA_PIPELINE_STATISTICS (d3d11.h)
 author: windows-sdk-content
 description: Query information about graphics-pipeline activity in between calls to ID3D11DeviceContext::Begin and ID3D11DeviceContext::End.
 old-location: direct3d11\d3d11_query_data_pipeline_statistics.htm

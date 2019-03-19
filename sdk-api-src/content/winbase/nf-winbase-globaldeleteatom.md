@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GlobalDeleteAtom
-title: GlobalDeleteAtom function
+title: GlobalDeleteAtom function (winbase.h)
 author: windows-sdk-content
 description: Decrements the reference count of a global string atom. If the atom's reference count reaches zero, GlobalDeleteAtom removes the string associated with the atom from the global atom table.
 old-location: dataxchg\globaldeleteatom.htm

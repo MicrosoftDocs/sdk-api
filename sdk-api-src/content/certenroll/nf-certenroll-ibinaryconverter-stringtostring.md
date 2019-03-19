@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IBinaryConverter.StringToString
-title: IBinaryConverter::StringToString
+title: IBinaryConverter::StringToString (certenroll.h)
 author: windows-sdk-content
 description: Modifies the type of Unicode encoding applied to a string.
 old-location: security\ibinaryconverter_stringtostring_method.htm

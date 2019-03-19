@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetQueryServiceAccount
-title: NetQueryServiceAccount function
+title: NetQueryServiceAccount function (lmaccess.h)
 author: windows-sdk-content
 description: Gets information about the specified managed service account.
 old-location: security\netqueryserviceaccount.htm

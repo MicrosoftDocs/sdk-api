@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptEnumAlgorithms
-title: BCryptEnumAlgorithms function
+title: BCryptEnumAlgorithms function (bcrypt.h)
 author: windows-sdk-content
 description: Gets a list of the registered algorithm identifiers.
 old-location: security\bcryptenumalgorithms_func.htm

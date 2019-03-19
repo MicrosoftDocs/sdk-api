@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.PauseTimer
-title: IOperationsProgressDialog::PauseTimer
+title: IOperationsProgressDialog::PauseTimer (shobjidl_core.h)
 author: windows-sdk-content
 description: Pauses progress dialog timer.
 old-location: shell\IOperationsProgressDialog_PauseTimer.htm

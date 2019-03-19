@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetStorageGlobals
-title: IMDSPStorage::GetStorageGlobals
+title: IMDSPStorage::GetStorageGlobals (mswmdm.h)
 author: windows-sdk-content
 description: The GetStorageGlobals method retrieves the IMDSPStorageGlobals interface to provide access to global information about a storage medium.
 old-location: wmdm\imdspstorage_getstorageglobals.htm

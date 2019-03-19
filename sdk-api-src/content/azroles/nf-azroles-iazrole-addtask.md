@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.AddTask
-title: IAzRole::AddTask
+title: IAzRole::AddTask (azroles.h)
 author: windows-sdk-content
 description: Adds the IAzTask object with the specified name to the role.
 old-location: security\iazrole_addtask.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetAdvisoryPageDimensions
-title: IXpsOMPageReference::GetAdvisoryPageDimensions
+title: IXpsOMPageReference::GetAdvisoryPageDimensions (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the suggested dimensions of the page.
 old-location: xps\ixpsompagereference_getadvisorypagedimensions.htm

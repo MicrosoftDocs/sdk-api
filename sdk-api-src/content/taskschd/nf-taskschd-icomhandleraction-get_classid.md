@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IComHandlerAction.get_ClassId
-title: IComHandlerAction::get_ClassId
+title: IComHandlerAction::get_ClassId (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the identifier of the handler class.
 old-location: taskschd\icomhandleraction_classid.htm

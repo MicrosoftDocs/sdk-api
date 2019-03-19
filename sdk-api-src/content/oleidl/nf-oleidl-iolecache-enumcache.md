@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.EnumCache
-title: IOleCache::EnumCache
+title: IOleCache::EnumCache (oleidl.h)
 author: windows-sdk-content
 description: Creates an enumerator that can be used to enumerate the current cache connections.
 old-location: com\iolecache_enumcache.htm

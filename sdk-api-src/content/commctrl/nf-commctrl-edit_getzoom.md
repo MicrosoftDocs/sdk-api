@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_GetZoom
-title: Edit_GetZoom macro
+title: Edit_GetZoom macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the current zoom ratio of an edit control (the zoom ratio is always between 1/64 and 64). You can use this macro or send the EM_GETZOOM message explicitly.
 old-location: controls\edit_getzoom.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.Enable
-title: IDesktopWallpaper::Enable
+title: IDesktopWallpaper::Enable (shobjidl_core.h)
 author: windows-sdk-content
 description: Enables or disables the desktop background.
 old-location: shell\IDesktopWallpaper_Enable.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:swdevice.SW_DEVICE_CREATE_CALLBACK
-title: SW_DEVICE_CREATE_CALLBACK
+title: SW_DEVICE_CREATE_CALLBACK (swdevice.h)
 author: windows-sdk-content
 description: Provides a device with backing in the registry and allows the caller to then make calls to Software Device API functions with the hSwDevice handle.
 old-location: swdevice\sw_device_create_callback.htm

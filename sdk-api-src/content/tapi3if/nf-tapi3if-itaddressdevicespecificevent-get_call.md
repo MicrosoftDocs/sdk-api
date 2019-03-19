@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressDeviceSpecificEvent.get_Call
-title: ITAddressDeviceSpecificEvent::get_Call
+title: ITAddressDeviceSpecificEvent::get_Call (tapi3if.h)
 author: windows-sdk-content
 description: The get_Call method gets a pointer to the ITCallInfo interface pointer for the call object involved in the event.
 old-location: tapi3\itaddressdevicespecificevent_get_call.htm

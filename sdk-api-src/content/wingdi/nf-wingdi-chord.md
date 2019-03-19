@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.Chord
-title: Chord function
+title: Chord function (wingdi.h)
 author: windows-sdk-content
 description: The Chord function draws a chord (a region bounded by the intersection of an ellipse and a line segment, called a secant). The chord is outlined by using the current pen and filled by using the current brush.
 old-location: gdi\chord.htm

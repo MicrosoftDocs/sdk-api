@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngGradientFill
-title: EngGradientFill function
+title: EngGradientFill function (winddi.h)
 author: windows-sdk-content
 description: The EngGradientFill function shades the specified primitives.
 old-location: display\enggradientfill.htm

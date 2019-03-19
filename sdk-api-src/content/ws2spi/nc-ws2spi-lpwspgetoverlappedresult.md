@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPWSPGETOVERLAPPEDRESULT
-title: LPWSPGETOVERLAPPEDRESULT
+title: LPWSPGETOVERLAPPEDRESULT (ws2spi.h)
 author: windows-sdk-content
 description: The WSPGetOverlappedResult function returns the results of an overlapped operation on the specified socket.
 old-location: winsock\wspgetoverlappedresult_2.htm

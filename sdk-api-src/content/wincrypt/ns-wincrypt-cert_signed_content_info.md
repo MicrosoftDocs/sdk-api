@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_SIGNED_CONTENT_INFO
-title: CERT_SIGNED_CONTENT_INFO
+title: CERT_SIGNED_CONTENT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_SIGNED_CONTENT_INFO structure contains encoded content to be signed and a BLOB to hold the signature. The ToBeSigned member is an encoded CERT_INFO, CRL_INFO, CTL_INFO or CERT_REQUEST_INFO.
 old-location: security\cert_signed_content_info.htm

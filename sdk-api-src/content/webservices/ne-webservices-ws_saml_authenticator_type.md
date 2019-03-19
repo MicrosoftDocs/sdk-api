@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_78
-title: WS_SAML_AUTHENTICATOR_TYPE
+title: WS_SAML_AUTHENTICATOR_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type IDs of the SAML token authenticators used on the server side (For example, relying party) to validate incoming SAML tokens.
 old-location: wsw\ws_saml_authenticator_type.htm

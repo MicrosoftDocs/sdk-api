@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyDefinitionValue
-title: IFsrmPropertyDefinitionValue
+title: IFsrmPropertyDefinitionValue (fsrmpipeline.h)
 author: windows-sdk-content
 description: Contains properties that describe a classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue.htm

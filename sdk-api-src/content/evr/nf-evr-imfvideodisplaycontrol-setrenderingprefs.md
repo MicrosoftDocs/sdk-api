@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetRenderingPrefs
-title: IMFVideoDisplayControl::SetRenderingPrefs
+title: IMFVideoDisplayControl::SetRenderingPrefs (evr.h)
 author: windows-sdk-content
 description: Sets various preferences related to video rendering.
 old-location: mf\imfvideodisplaycontrol_setrenderingprefs.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetLanguage
-title: IXpsOMPage::GetLanguage
+title: IXpsOMPage::GetLanguage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the Language property of the page.
 old-location: xps\ixpsompage_getlanguage.htm

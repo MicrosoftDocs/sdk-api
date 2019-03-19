@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1510
-title: SERVER_INFO_1510
+title: SERVER_INFO_1510 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1510 structure specifies the maximum number of users that can be logged on to the specified server using a single virtual circuit.
 old-location: netmgmt\server_info_1510_str.htm

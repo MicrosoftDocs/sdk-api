@@ -1,6 +1,6 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetup
-title: IBITSExtensionSetup
+title: IBITSExtensionSetup (bitscfg.h)
 author: windows-sdk-content
 description: Use the IBITSExtensionSetup interface to enable or disable BITS uploads to a virtual directory.
 old-location: bits\ibitsextensionsetup.htm

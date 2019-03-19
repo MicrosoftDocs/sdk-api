@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_DISALLOWED_USER_AGENT_SUBSTRINGS
-title: WS_DISALLOWED_USER_AGENT_SUBSTRINGS
+title: WS_DISALLOWED_USER_AGENT_SUBSTRINGS (webservices.h)
 author: windows-sdk-content
 description: Specifies the list of blocked UserAgent sub-string's. This is used with the WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT listener property.
 old-location: wsw\ws_disallowed_user_agent_substrings.htm

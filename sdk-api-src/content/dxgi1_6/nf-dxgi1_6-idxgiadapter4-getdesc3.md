@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_6.IDXGIAdapter4.GetDesc3
-title: IDXGIAdapter4::GetDesc3
+title: IDXGIAdapter4::GetDesc3 (dxgi1_6.h)
 author: windows-sdk-content
 description: Gets a Microsoft DirectX Graphics Infrastructure (DXGI) 1.6 description of an adapter or video card. This description includes information about ACG compatibility.
 old-location: direct3ddxgi\idxgiadapter4_getdesc3.htm

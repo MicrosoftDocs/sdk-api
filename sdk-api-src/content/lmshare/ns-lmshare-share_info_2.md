@@ -1,6 +1,6 @@
 ---
 UID: NS:lmshare._SHARE_INFO_2
-title: SHARE_INFO_2
+title: SHARE_INFO_2 (lmshare.h)
 author: windows-sdk-content
 description: Contains information about the shared resource, including name of the resource, type and permissions, and the number of current connections.
 old-location: fs\share_info_2_str.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.Validate
-title: ID3D10Debug::Validate
+title: ID3D10Debug::Validate (d3d10sdklayers.h)
 author: windows-sdk-content
 description: Check the validity of pipeline state.
 old-location: direct3d10\id3d10debug_validate.htm

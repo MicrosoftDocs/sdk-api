@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadBindToApartment
-title: IComThreadEvents::OnThreadBindToApartment
+title: IComThreadEvents::OnThreadBindToApartment (comsvcs.h)
 author: windows-sdk-content
 description: Generated when an apartment thread is allocated for a single-thread apartment (STA) thread that does not have an apartment thread to run in.
 old-location: cos\icomthreadevents_onthreadbindtoapartment.htm

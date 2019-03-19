@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsListInfoForServerA
-title: DsListInfoForServerA function
+title: DsListInfoForServerA function (ntdsapi.h)
 author: windows-sdk-content
 description: The DsListInfoForServer function lists miscellaneous data for a server.
 old-location: ad\dslistinfoforserver.htm

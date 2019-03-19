@@ -1,6 +1,6 @@
 ---
 UID: NC:evalcom2.LPEVALCOMCALLBACK
-title: LPEVALCOMCALLBACK
+title: LPEVALCOMCALLBACK (evalcom2.h)
 author: windows-sdk-content
 description: The LPEVALCOMCALLBACK specification defines a callback function prototype. The IValidate::SetStatus method enables an authoring tool to receive information about the progress of validation through the registered callback function.
 old-location: setup\lpevalcomcallback.htm

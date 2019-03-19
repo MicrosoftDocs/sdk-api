@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IContextMenu.GetCommandString
-title: IContextMenu::GetCommandString
+title: IContextMenu::GetCommandString (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets information about a shortcut menu command, including the help string and the language-independent, or canonical, name for the command.
 old-location: shell\IContextMenu_GetCommandString.htm

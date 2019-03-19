@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyAdministratorName
-title: IAzApplication::DeletePolicyAdministratorName
+title: IAzApplication::DeletePolicyAdministratorName (azroles.h)
 author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as policy administrators.
 old-location: security\iazapplication_deletepolicyadministratorname.htm

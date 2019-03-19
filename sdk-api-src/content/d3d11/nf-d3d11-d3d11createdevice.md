@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.D3D11CreateDevice
-title: D3D11CreateDevice function
+title: D3D11CreateDevice function (d3d11.h)
 author: windows-sdk-content
 description: Creates a device that represents the display adapter.
 old-location: direct3d11\d3d11createdevice.htm

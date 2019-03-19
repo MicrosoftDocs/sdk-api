@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsPropertyList.ResetPropertyItem
-title: IADsPropertyList::ResetPropertyItem
+title: IADsPropertyList::ResetPropertyItem (iads.h)
 author: windows-sdk-content
 description: Removes the specified item from the list; that is, from the cache.
 old-location: adsi\iadspropertylist_resetpropertyitem.htm

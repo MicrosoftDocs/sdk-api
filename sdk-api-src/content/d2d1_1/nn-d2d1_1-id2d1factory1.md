@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_1.ID2D1Factory1
-title: ID2D1Factory1
+title: ID2D1Factory1 (d2d1_1.h)
 author: windows-sdk-content
 description: Creates Direct2D resources.
 old-location: direct2d\id2d1factory1.htm

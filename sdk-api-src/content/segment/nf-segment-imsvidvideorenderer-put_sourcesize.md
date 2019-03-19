@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_SourceSize
-title: IMSVidVideoRenderer::put_SourceSize
+title: IMSVidVideoRenderer::put_SourceSize (segment.h)
 author: windows-sdk-content
 description: The put_SourceSize method specifies the type of clipping to apply to the video rectangle, if any.
 old-location: mstv\imsvidvideorenderer_put_sourcesize.htm

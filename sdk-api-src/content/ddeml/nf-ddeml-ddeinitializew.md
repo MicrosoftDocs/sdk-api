@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeInitializeW
-title: DdeInitializeW function
+title: DdeInitializeW function (ddeml.h)
 author: windows-sdk-content
 description: Registers an application with the Dynamic Data Exchange Management Library (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function.
 old-location: dataxchg\ddeinitialize.htm

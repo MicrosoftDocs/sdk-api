@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_503
-title: SERVER_INFO_503
+title: SERVER_INFO_503 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_503 structure is obsolete. The structure contains information about the specified server.
 old-location: netmgmt\server_info_503_str.htm

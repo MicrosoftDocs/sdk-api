@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsRequiredForForm
-title: IUIAutomationElement::get_CurrentIsRequiredForForm
+title: IUIAutomationElement::get_CurrentIsRequiredForForm (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the element is required to be filled out on a form.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsRequiredForForm.htm

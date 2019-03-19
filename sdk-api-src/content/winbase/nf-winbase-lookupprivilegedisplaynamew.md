@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LookupPrivilegeDisplayNameW
-title: LookupPrivilegeDisplayNameW function
+title: LookupPrivilegeDisplayNameW function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the display name that represents a specified privilege.
 old-location: security\lookupprivilegedisplayname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDVEnc.put_IFormatResolution
-title: IDVEnc::put_IFormatResolution
+title: IDVEnc::put_IFormatResolution (strmif.h)
 author: windows-sdk-content
 description: The put_IFormatResolution method sets the encoding resolution.
 old-location: dshow\idvenc_put_iformatresolution.htm

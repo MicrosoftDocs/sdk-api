@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.EnumItems
-title: ITfLangBarItemMgr::EnumItems
+title: ITfLangBarItemMgr::EnumItems (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarItemMgr::EnumItems method
 old-location: tsf\itflangbaritemmgr_enumitems.htm

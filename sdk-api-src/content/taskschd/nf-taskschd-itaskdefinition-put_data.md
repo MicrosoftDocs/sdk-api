@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Data
-title: ITaskDefinition::put_Data
+title: ITaskDefinition::put_Data (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the data that is associated with the task.
 old-location: taskschd\itaskdefinition_data.htm

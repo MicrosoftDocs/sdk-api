@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadQueue.GetGenerationCount
-title: IDWriteFontDownloadQueue::GetGenerationCount
+title: IDWriteFontDownloadQueue::GetGenerationCount (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the current generation number of the download queue, which is incremented every time after a download completes, whether failed or successful. This cookie value can be compared against cached data to determine if it is stale.
 old-location: directwrite\idwritefontdownloadqueue_getgenerationcount.htm

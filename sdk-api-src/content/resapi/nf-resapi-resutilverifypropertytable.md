@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilVerifyPropertyTable
-title: ResUtilVerifyPropertyTable function
+title: ResUtilVerifyPropertyTable function (resapi.h)
 author: windows-sdk-content
 description: Uses a property table to verify that a property list is correctly formatted.
 old-location: mscs\resutilverifypropertytable.htm

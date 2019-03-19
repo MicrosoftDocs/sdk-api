@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_Version
-title: IFsrmPipelineModuleDefinition::get_Version
+title: IFsrmPipelineModuleDefinition::get_Version (fsrmpipeline.h)
 author: windows-sdk-content
 description: The version of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_version.htm

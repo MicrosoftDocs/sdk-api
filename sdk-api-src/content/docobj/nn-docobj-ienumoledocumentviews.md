@@ -1,6 +1,6 @@
 ---
 UID: NN:docobj.IEnumOleDocumentViews
-title: IEnumOleDocumentViews
+title: IEnumOleDocumentViews (docobj.h)
 author: windows-sdk-content
 description: Enumerates the views supported by a document object.
 old-location: com\ienumoledocumentviews.htm

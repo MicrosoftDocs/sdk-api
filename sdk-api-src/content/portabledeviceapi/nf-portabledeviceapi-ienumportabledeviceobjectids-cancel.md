@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Cancel
-title: IEnumPortableDeviceObjectIDs::Cancel
+title: IEnumPortableDeviceObjectIDs::Cancel (portabledeviceapi.h)
 author: windows-sdk-content
 description: The Cancel method cancels a pending operation.
 old-location: wpdsdk\ienumportabledeviceobjectids_cancel.htm

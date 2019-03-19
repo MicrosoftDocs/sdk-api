@@ -1,6 +1,6 @@
 ---
 UID: NS:lmdfs._DFS_SUPPORTED_NAMESPACE_VERSION_INFO
-title: DFS_SUPPORTED_NAMESPACE_VERSION_INFO
+title: DFS_SUPPORTED_NAMESPACE_VERSION_INFO (lmdfs.h)
 author: windows-sdk-content
 description: Contains version information for a DFS namespace.
 old-location: dfs\dfs_supported_namespace_version_info.htm

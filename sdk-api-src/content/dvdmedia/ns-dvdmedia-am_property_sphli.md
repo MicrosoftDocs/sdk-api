@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_PROPERTY_SPHLI
-title: AM_PROPERTY_SPHLI
+title: AM_PROPERTY_SPHLI (dvdmedia.h)
 author: windows-sdk-content
 description: Describes the currently selected button from the DVD highlight information.
 old-location: dshow\am_property_sphli.htm

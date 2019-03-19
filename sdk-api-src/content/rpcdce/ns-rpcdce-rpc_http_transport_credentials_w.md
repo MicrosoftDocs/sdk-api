@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcdce._RPC_HTTP_TRANSPORT_CREDENTIALS_W
-title: RPC_HTTP_TRANSPORT_CREDENTIALS_W
+title: RPC_HTTP_TRANSPORT_CREDENTIALS_W (rpcdce.h)
 author: windows-sdk-content
 description: The RPC_HTTP_TRANSPORT_CREDENTIALS structure defines additional credentials to authenticate to an RPC proxy server when using RPC/HTTP.
 old-location: rpc\rpc_http_transport_credentials.htm

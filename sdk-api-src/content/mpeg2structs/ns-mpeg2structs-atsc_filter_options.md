@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017
-title: ATSC_FILTER_OPTIONS
+title: ATSC_FILTER_OPTIONS (mpeg2structs.h)
 author: windows-sdk-content
 description: The ATSC_FILTER_OPTIONS structure specifies additional criteria for matching ATSC section headers.
 old-location: mstv\atsc_filter_options.htm

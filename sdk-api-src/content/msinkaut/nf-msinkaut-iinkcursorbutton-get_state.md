@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkCursorButton.get_State
-title: IInkCursorButton::get_State
+title: IInkCursorButton::get_State (msinkaut.h)
 author: windows-sdk-content
 description: Gets the state of a cursor button, such as whether the button is unavailable, up, or down.
 old-location: tablet\iinkcursorbutton_state.htm

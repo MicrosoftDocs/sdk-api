@@ -1,6 +1,6 @@
 ---
 UID: NS:processthreadsapi._PROCESS_POWER_THROTTLING_STATE
-title: PROCESS_POWER_THROTTLING_STATE
+title: PROCESS_POWER_THROTTLING_STATE (processthreadsapi.h)
 author: windows-sdk-content
 description: Specifies the throttling policies and how to apply them to a target process when that process is subject to power management.
 old-location: base\process_power_throttling_state.htm

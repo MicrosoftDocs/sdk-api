@@ -1,6 +1,6 @@
 ---
 UID: NE:thumbcache.WTS_FLAGS
-title: WTS_FLAGS
+title: WTS_FLAGS (thumbcache.h)
 author: windows-sdk-content
 description: Values used by IThumbnailCache::GetThumbnail to specify options for the extraction and display of the thumbnail image.
 old-location: shell\WTS_FLAGS.htm

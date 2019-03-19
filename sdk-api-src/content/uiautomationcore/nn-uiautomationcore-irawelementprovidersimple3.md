@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderSimple3
-title: IRawElementProviderSimple3
+title: IRawElementProviderSimple3 (uiautomationcore.h)
 author: windows-sdk-content
 description: Extends the IRawElementProviderSimple2 interface to enable retrieving metadata about how accessible technology should say the preferred content type.
 old-location: winauto\uiauto_IRawElementProviderSimple3.htm

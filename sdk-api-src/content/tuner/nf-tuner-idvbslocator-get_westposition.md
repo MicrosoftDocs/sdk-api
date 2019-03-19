@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_WestPosition
-title: IDVBSLocator::get_WestPosition
+title: IDVBSLocator::get_WestPosition (tuner.h)
 author: windows-sdk-content
 description: The get_WestPosition method retrieves a value indicating whether the orbital position is given in east or west longitude.
 old-location: mstv\idvbslocator_get_westposition.htm

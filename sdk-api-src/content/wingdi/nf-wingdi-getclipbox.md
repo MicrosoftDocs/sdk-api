@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetClipBox
-title: GetClipBox function
+title: GetClipBox function (wingdi.h)
 author: windows-sdk-content
 description: The GetClipBox function retrieves the dimensions of the tightest bounding rectangle that can be drawn around the current visible area on the device.
 old-location: gdi\getclipbox.htm

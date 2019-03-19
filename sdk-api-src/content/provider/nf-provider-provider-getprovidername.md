@@ -1,6 +1,6 @@
 ---
 UID: NF:provider.Provider.GetProviderName
-title: Provider::GetProviderName
+title: Provider::GetProviderName (provider.h)
 author: windows-sdk-content
 description: The GetProviderName method retrieves the name of the class used in the constructor of the provider.
 old-location: wmi\provider_getprovidername.htm

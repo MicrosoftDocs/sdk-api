@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteInMemoryFontFileLoader.GetFileCount
-title: IDWriteInMemoryFontFileLoader::GetFileCount
+title: IDWriteInMemoryFontFileLoader::GetFileCount (dwrite_3.h)
 author: windows-sdk-content
 description: Returns the number of font file references that have been created using this loader instance.
 old-location: directwrite\idwriteinmemoryfontfileloader_getfilecount.htm

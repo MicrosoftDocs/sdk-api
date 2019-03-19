@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._COMMTIMEOUTS
-title: COMMTIMEOUTS
+title: COMMTIMEOUTS (winbase.h)
 author: windows-sdk-content
 description: Contains the time-out parameters for a communications device.
 old-location: base\commtimeouts_str.htm

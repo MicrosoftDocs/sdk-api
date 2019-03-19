@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetItemType
-title: IMFAttributes::GetItemType
+title: IMFAttributes::GetItemType (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves the data type of the value associated with a key.
 old-location: mf\imfattributes_getitemtype.htm

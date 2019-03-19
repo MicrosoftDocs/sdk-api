@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetItemPos
-title: IShellFolderView::SetItemPos
+title: IShellFolderView::SetItemPos (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the position of the given item.
 old-location: shell\IShellFolderView_SetItemPos.htm

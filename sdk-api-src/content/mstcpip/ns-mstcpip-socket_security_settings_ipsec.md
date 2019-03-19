@@ -1,6 +1,6 @@
 ---
 UID: NS:mstcpip._SOCKET_SECURITY_SETTINGS_IPSEC
-title: SOCKET_SECURITY_SETTINGS_IPSEC
+title: SOCKET_SECURITY_SETTINGS_IPSEC (mstcpip.h)
 author: windows-sdk-content
 description: Specifies various security requirements and settings that are specific to IPsec.
 old-location: winsock\socket_security_settings_ipsec.htm

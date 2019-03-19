@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetProperty
-title: IPhotoAcquireItem::GetProperty
+title: IPhotoAcquireItem::GetProperty (photoacquire.h)
 author: windows-sdk-content
 description: The GetProperty method retrieves the value of a property of an item.
 old-location: picacq\iphotoacquireitem_getproperty.htm

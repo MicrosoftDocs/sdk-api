@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass._BATTERY_WMI_CYCLE_COUNT
-title: BATTERY_WMI_CYCLE_COUNT
+title: BATTERY_WMI_CYCLE_COUNT (batclass.h)
 author: windows-sdk-content
 description: Defines information about number of charge cycles of a battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_cycle_count.htm

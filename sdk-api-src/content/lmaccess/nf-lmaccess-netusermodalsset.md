@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserModalsSet
-title: NetUserModalsSet function
+title: NetUserModalsSet function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserModalsSet function sets global information for all users and global groups in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netusermodalsset.htm

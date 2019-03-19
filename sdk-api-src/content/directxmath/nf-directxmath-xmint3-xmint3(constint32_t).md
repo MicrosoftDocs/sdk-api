@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMINT3.XMINT3(const int32_t)
-title: XMINT3::XMINT3(const int32_t)
+title: XMINT3::XMINT3(const int32_t) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMINT3 from a three element int32_t array argument.
 old-location: dxmath\xmint3_ctor_3.htm

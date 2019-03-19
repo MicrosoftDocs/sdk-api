@@ -1,6 +1,6 @@
 ---
 UID: NE:networkisolation.NETISO_FLAG
-title: NETISO_FLAG
+title: NETISO_FLAG (networkisolation.h)
 author: windows-sdk-content
 description: Specifies whether binaries should be returned for app containers.
 old-location: ics\netiso_flag.htm

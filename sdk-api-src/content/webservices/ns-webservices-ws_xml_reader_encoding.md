@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_READER_ENCODING
-title: WS_XML_READER_ENCODING
+title: WS_XML_READER_ENCODING (webservices.h)
 author: windows-sdk-content
 description: This structure is the base type for all the different kinds of reader encodings.
 old-location: wsw\ws_xml_reader_encoding.htm

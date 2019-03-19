@@ -1,6 +1,6 @@
 ---
 UID: NS:raseapif._PPP_EAP_INFO
-title: PPP_EAP_INFO
+title: PPP_EAP_INFO (raseapif.h)
 author: windows-sdk-content
 description: The PPP_EAP_INFO structure provides information to the Connection Manager about the authentication protocol, including pointers to functions located in the EAP DLL.
 old-location: eap\ppp_eap_info.htm

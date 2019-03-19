@@ -1,6 +1,6 @@
 ---
 UID: NE:msxml6._XHR_CERT_ERROR_FLAG
-title: XHR_CERT_ERROR_FLAG
+title: XHR_CERT_ERROR_FLAG (msxml6.h)
 author: windows-sdk-content
 description: Defines flags that indicate server certificate errors during SSL negotiation with the server by handling the OnServerCertificateReceived method on the IXMLHTTPRequest3Callback interface.
 old-location: ixhr2\xhr_cert_error_flag.htm

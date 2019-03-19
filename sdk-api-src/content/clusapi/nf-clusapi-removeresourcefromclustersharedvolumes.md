@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.RemoveResourceFromClusterSharedVolumes
-title: RemoveResourceFromClusterSharedVolumes function
+title: RemoveResourceFromClusterSharedVolumes function (clusapi.h)
 author: windows-sdk-content
 description: Removes storage from Cluster Shared Volumes.
 old-location: mscs\removeresourcefromclustersharedvolumes.htm

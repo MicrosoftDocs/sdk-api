@@ -1,6 +1,6 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter
-title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter
+title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter (traceloggingactivity.h)
 author: windows-sdk-content
 description: Creates a new TraceLoggingThreadActivityIdSetter object.
 old-location: tracelogging\traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter.htm

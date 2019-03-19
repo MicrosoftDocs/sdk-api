@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketSend
-title: WinHttpWebSocketSend function
+title: WinHttpWebSocketSend function (winhttp.h)
 author: windows-sdk-content
 description: Sends data over a WebSocket connection.
 old-location: http\winhttpwebsocketsend.htm

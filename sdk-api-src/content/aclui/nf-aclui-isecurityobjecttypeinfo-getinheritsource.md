@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityObjectTypeInfo.GetInheritSource
-title: ISecurityObjectTypeInfo::GetInheritSource
+title: ISecurityObjectTypeInfo::GetInheritSource (aclui.h)
 author: windows-sdk-content
 description: The ISecurityObjectTypeInfo::GetInheritSource method provides a means of determining the source of inherited access control entries in discretionary access control lists and system access control lists.
 old-location: security\isecurityobjecttypeinfo_getinheritsource.htm

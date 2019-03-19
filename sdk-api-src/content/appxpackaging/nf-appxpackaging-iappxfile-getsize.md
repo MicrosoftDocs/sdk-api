@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetSize
-title: IAppxFile::GetSize
+title: IAppxFile::GetSize (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves the uncompressed size of the file.
 old-location: appxpkg\iappxfile_getsize.htm

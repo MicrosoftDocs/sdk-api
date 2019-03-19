@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.FormatForDisplay
-title: IPropertyUI::FormatForDisplay
+title: IPropertyUI::FormatForDisplay (shobjidl_core.h)
 author: windows-sdk-content
 description: Developers should use IPropertyDescription instead. Gets a formatted, Unicode string representation of a property value.
 old-location: properties\IPropertyUI_FormatForDisplay.htm

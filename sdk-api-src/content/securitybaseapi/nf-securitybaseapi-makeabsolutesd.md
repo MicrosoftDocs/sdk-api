@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.MakeAbsoluteSD
-title: MakeAbsoluteSD function
+title: MakeAbsoluteSD function (securitybaseapi.h)
 author: windows-sdk-content
 description: Creates a security descriptor in absolute format by using a security descriptor in self-relative format as a template.
 old-location: security\makeabsolutesd.htm

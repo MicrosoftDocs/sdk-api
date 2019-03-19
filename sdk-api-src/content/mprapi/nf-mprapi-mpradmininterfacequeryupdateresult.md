@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceQueryUpdateResult
-title: MprAdminInterfaceQueryUpdateResult function
+title: MprAdminInterfaceQueryUpdateResult function (mprapi.h)
 author: windows-sdk-content
 description: The MprAdminInterfaceQueryUpdateResult function returns the result of the last request to a specified router manager to update its routes for an interface. For more information, see MprAdminInterfaceUpdateRoutes.
 old-location: rras\mpradmininterfacequeryupdateresult.htm

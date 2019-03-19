@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.BeginCreateObject
-title: IMFMediaEngineExtension::BeginCreateObject
+title: IMFMediaEngineExtension::BeginCreateObject (mfmediaengine.h)
 author: windows-sdk-content
 description: Begins an asynchronous request to create either a byte stream or a media source.
 old-location: mf\imfmediaengineextension_begincreateobject.htm

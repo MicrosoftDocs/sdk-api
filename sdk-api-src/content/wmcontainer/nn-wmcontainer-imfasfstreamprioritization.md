@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamPrioritization
-title: IMFASFStreamPrioritization
+title: IMFASFStreamPrioritization (wmcontainer.h)
 author: windows-sdk-content
 description: Not implemented.
 old-location: mf\imfasfstreamprioritization.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsDataSessionOpen
-title: IMbnDeviceService::get_IsDataSessionOpen
+title: IMbnDeviceService::get_IsDataSessionOpen (mbnapi.h)
 author: windows-sdk-content
 description: Reports if the device service data session is open.
 old-location: mbn\imbndeviceservice_isdatasessionopen.htm

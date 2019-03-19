@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUnmarshalCredentialA
-title: CredUnmarshalCredentialA function
+title: CredUnmarshalCredentialA function (wincred.h)
 author: windows-sdk-content
 description: The CredUnmarshalCredential function transforms a marshaled credential back into its original form.
 old-location: security\credunmarshalcredential.htm

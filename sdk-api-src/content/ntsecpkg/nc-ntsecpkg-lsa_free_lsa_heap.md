@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_LSA_HEAP
-title: LSA_FREE_LSA_HEAP
+title: LSA_FREE_LSA_HEAP (ntsecpkg.h)
 author: windows-sdk-content
 description: The FreeReturnBuffer function is used to free buffers allocated by the Local Security Authority (LSA) and returned to the security package. The package calls this function when the information in the returned buffer is no longer needed.
 old-location: security\freereturnbuffer.htm

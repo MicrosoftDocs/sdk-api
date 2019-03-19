@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardConnectW
-title: SCardConnectW function
+title: SCardConnectW function (winscard.h)
 author: windows-sdk-content
 description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned.
 old-location: security\scardconnect.htm

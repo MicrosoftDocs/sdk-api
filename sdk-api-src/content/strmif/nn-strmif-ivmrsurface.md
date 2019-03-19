@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IVMRSurface
-title: IVMRSurface
+title: IVMRSurface (strmif.h)
 author: windows-sdk-content
 description: The IVMRSurface interface is implemented on the media samples used by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurface.htm

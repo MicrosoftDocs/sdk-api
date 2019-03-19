@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWritePossibleFriendlyName
-title: PowerWritePossibleFriendlyName function
+title: PowerWritePossibleFriendlyName function (powrprof.h)
 author: windows-sdk-content
 description: Sets the friendly name for the specified possible setting of a power setting.
 old-location: base\powerwritepossiblefriendlyname.htm

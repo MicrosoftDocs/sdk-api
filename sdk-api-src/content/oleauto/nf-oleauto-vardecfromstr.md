@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarDecFromStr
-title: VarDecFromStr function
+title: VarDecFromStr function (oleauto.h)
 author: windows-sdk-content
 description: Converts an OLECHAR string to a decimal value.
 old-location: automat\vardecfromstr.htm

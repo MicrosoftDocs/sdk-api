@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.EndSession
-title: IKnowledgeSyncProvider::EndSession
+title: IKnowledgeSyncProvider::EndSession (winsync.h)
 author: windows-sdk-content
 description: Notifies the provider that a synchronization session to which it was enlisted has finished.
 old-location: winsync\iknowledgesyncprovider_endsession.htm

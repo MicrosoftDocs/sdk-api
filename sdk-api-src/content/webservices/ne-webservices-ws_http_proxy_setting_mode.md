@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_21
-title: WS_HTTP_PROXY_SETTING_MODE
+title: WS_HTTP_PROXY_SETTING_MODE (webservices.h)
 author: windows-sdk-content
 description: Proxy setting indicates HTTP proxy setting for the channel with binding WS_HTTP_CHANNEL_BINDING. This is specified as part of WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE channel property.
 old-location: wsw\ws_http_proxy_setting_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_SESSION0_
-title: FWPM_SESSION0
+title: FWPM_SESSION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores the state associated with a client session.
 old-location: fwp\fwpm_session0_struct.htm

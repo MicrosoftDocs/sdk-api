@@ -1,6 +1,6 @@
 ---
 UID: NF:ntquery.CIShutdown
-title: CIShutdown function
+title: CIShutdown function (ntquery.h)
 author: windows-sdk-content
 description: Shuts down the content indexer and closes all open catalogs.
 old-location: shell\CIShutdown.htm

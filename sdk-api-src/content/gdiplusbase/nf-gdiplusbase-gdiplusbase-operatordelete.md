@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusbase.GdiplusBase.operator delete
-title: GdiplusBase::operator delete
+title: GdiplusBase::operator delete (gdiplusbase.h)
 author: windows-sdk-content
 description: The GdiplusBase::operator delete method deallocates memory for one Windows GDI+ object.
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_.htm

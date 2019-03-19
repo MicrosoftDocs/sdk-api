@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.GetPrivateProfileStructA
-title: GetPrivateProfileStructA function
+title: GetPrivateProfileStructA function (winbase.h)
 author: windows-sdk-content
 description: Retrieves the data associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofilestruct.htm

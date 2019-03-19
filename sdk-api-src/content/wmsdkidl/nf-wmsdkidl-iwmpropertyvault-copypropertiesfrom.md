@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.CopyPropertiesFrom
-title: IWMPropertyVault::CopyPropertiesFrom
+title: IWMPropertyVault::CopyPropertiesFrom (wmsdkidl.h)
 author: windows-sdk-content
 description: The CopyPropertiesFrom method copies all of the properties from another property vault to this one.
 old-location: wmformat\iwmpropertyvault_copypropertiesfrom.htm

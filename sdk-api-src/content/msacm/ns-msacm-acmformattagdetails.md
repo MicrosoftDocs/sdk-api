@@ -1,6 +1,6 @@
 ---
 UID: NS:msacm.tACMFORMATTAGDETAILS
-title: ACMFORMATTAGDETAILS
+title: ACMFORMATTAGDETAILS (msacm.h)
 author: windows-sdk-content
 description: The ACMFORMATTAGDETAILS structure details a waveform-audio format tag for an ACM driver.
 old-location: multimedia\acmformattagdetails_struct.htm

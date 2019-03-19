@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Next
-title: IEnumVARIANT::Next
+title: IEnumVARIANT::Next (oaidl.h)
 author: windows-sdk-content
 description: Retrieves the specified items in the enumeration sequence.
 old-location: automat\ienumvariant_next.htm

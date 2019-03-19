@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_UNIT_ID_PARAMETER
-title: KEYBOARD_UNIT_ID_PARAMETER
+title: KEYBOARD_UNIT_ID_PARAMETER (ntddkbd.h)
 author: windows-sdk-content
 description: KEYBOARD_UNIT_ID_PARAMETER specifies the unit ID that Kbdclass assigns to a keyboard.
 old-location: hid\keyboard_unit_id_parameter.htm

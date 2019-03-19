@@ -1,6 +1,6 @@
 ---
 UID: NF:edpwin32.ProtectFileToEnterpriseIdentity
-title: ProtectFileToEnterpriseIdentity function
+title: ProtectFileToEnterpriseIdentity function (edpwin32.h)
 author: windows-sdk-content
 description: Protects the data in a file to an enterprise identity, so that only users who are associated with that enterprise identity can access the data. The application can then use standard APIs to read or write from the file.
 old-location: edp\protectfiletoenterpriseidentity.htm

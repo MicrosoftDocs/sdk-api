@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetBitrate
-title: IWMStreamConfig::GetBitrate
+title: IWMStreamConfig::GetBitrate (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetBitrate method retrieves the bit rate for the stream.
 old-location: wmformat\iwmstreamconfig_getbitrate.htm

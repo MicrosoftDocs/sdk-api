@@ -1,6 +1,6 @@
 ---
 UID: NE:mfmediaengine._MF_MEDIA_ENGINE_KEYERR
-title: MF_MEDIA_ENGINE_KEYERR
+title: MF_MEDIA_ENGINE_KEYERR (mfmediaengine.h)
 author: windows-sdk-content
 description: Defines media key error codes for the media engine.
 old-location: mf\mf_media_engine_keyerr.htm

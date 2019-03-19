@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_LastGeneratedFileNamePrefix
-title: IFsrmReport::get_LastGeneratedFileNamePrefix
+title: IFsrmReport::get_LastGeneratedFileNamePrefix (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves the report's generated file name for the last time the report was run.
 old-location: fsrm\ifsrmreport_lastgeneratedfilenameprefix.htm

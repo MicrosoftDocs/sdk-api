@@ -1,6 +1,6 @@
 ---
 UID: NF:certif.ICertServerExit.GetRequestAttribute
-title: ICertServerExit::GetRequestAttribute
+title: ICertServerExit::GetRequestAttribute (certif.h)
 author: windows-sdk-content
 description: Returns a named attribute value from a request.
 old-location: security\icertserverexit_getrequestattribute.htm

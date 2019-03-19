@@ -1,6 +1,6 @@
 ---
 UID: NN:thumbcache.IThumbnailCachePrimer
-title: IThumbnailCachePrimer
+title: IThumbnailCachePrimer (thumbcache.h)
 author: windows-sdk-content
 description: "."
 old-location: shell\IThumbnailCachePrimer.htm

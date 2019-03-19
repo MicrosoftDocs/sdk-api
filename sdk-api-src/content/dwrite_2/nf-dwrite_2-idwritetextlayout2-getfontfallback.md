@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.GetFontFallback
-title: IDWriteTextLayout2::GetFontFallback
+title: IDWriteTextLayout2::GetFontFallback (dwrite_2.h)
 author: windows-sdk-content
 description: Get the current font fallback object.
 old-location: directwrite\idwritetextlayout2_getfontfallback.htm

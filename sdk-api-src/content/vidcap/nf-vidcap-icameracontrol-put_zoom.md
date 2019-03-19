@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Zoom
-title: ICameraControl::put_Zoom
+title: ICameraControl::put_Zoom (vidcap.h)
 author: windows-sdk-content
 description: The put_Zoom method sets the camera's zoom level.
 old-location: dshow\icameracontrol_put_zoom.htm

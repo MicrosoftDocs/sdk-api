@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEventTrigger.put_Delay
-title: IEventTrigger::put_Delay
+title: IEventTrigger::put_Delay (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a value that indicates the amount of time between when the event occurs and when the task is started.
 old-location: taskschd\ieventtrigger_delay.htm

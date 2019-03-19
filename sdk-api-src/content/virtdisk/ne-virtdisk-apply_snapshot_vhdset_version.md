@@ -1,6 +1,6 @@
 ---
 UID: NE:virtdisk._APPLY_SNAPSHOT_VHDSET_VERSION
-title: APPLY_SNAPSHOT_VHDSET_VERSION
+title: APPLY_SNAPSHOT_VHDSET_VERSION (virtdisk.h)
 author: windows-sdk-content
 description: Enumerates the possible versions for parameters for the ApplySnapshotVhdSet function.
 old-location: vhd\apply_snapshot_vhdset_version.htm

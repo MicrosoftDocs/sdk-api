@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_GETAVAILDRIVERMEMORYDATA
-title: DD_GETAVAILDRIVERMEMORYDATA
+title: DD_GETAVAILDRIVERMEMORYDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_GETAVAILDRIVERMEMORYDATA structure contains the information needed by the driver to query and return the amount of free memory.
 old-location: display\dd_getavaildrivermemorydata.htm

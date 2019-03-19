@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetEndCap
-title: ID2D1StrokeStyle::GetEndCap
+title: ID2D1StrokeStyle::GetEndCap (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the type of shape used at the end of a stroke.
 old-location: direct2d\ID2D1StrokeStyle_GetEndCap.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
-title: IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
+title: IVssSoftwareSnapshotProvider::IsVolumeSnapshotted (vsprov.h)
 author: windows-sdk-content
 description: Determines whether any shadow copies exist for the specified volume.
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesnapshotted.htm

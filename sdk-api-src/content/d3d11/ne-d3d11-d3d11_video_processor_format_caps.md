@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_FORMAT_CAPS
-title: D3D11_VIDEO_PROCESSOR_FORMAT_CAPS
+title: D3D11_VIDEO_PROCESSOR_FORMAT_CAPS (d3d11.h)
 author: windows-sdk-content
 description: Defines capabilities related to input formats for a Microsoft Direct3D 11 video processor.
 old-location: mf\d3d11_video_processor_format_caps.htm

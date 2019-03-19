@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Vendor
-title: IInkRecognizer::get_Vendor
+title: IInkRecognizer::get_Vendor (msinkaut.h)
 author: windows-sdk-content
 description: Gets the vendor name of the IInkRecognizer object.
 old-location: tablet\iinkrecognizer_vendor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.FindWindowA
-title: FindWindowA function
+title: FindWindowA function (winuser.h)
 author: windows-sdk-content
 description: Retrieves a handle to the top-level window whose class name and window name match the specified strings. This function does not search child windows. This function does not perform a case-sensitive search.
 old-location: winmsg\findwindow.htm

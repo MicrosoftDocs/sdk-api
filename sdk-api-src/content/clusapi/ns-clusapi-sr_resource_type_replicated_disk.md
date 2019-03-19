@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_DISK
-title: SR_RESOURCE_TYPE_REPLICATED_DISK
+title: SR_RESOURCE_TYPE_REPLICATED_DISK (clusapi.h)
 author: windows-sdk-content
 description: Represents a replicated disk.
 old-location: mscs\sr_resource_type_replicated_disk.htm

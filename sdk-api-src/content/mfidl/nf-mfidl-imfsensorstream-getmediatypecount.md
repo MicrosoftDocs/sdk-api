@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorStream.GetMediaTypeCount
-title: IMFSensorStream::GetMediaTypeCount
+title: IMFSensorStream::GetMediaTypeCount (mfidl.h)
 author: windows-sdk-content
 description: Gets the count of media types supported by the sensor stream.
 old-location: mf\imfsensorstream_getmediatypecount.htm

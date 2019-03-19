@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DDisassemble
-title: D3DDisassemble function
+title: D3DDisassemble function (d3dcompiler.h)
 author: windows-sdk-content
 description: Disassembles compiled HLSL code.
 old-location: direct3dhlsl\d3ddisassemble.htm

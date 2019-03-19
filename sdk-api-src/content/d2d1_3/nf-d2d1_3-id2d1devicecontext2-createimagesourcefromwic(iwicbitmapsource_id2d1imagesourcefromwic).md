@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic)
-title: ID2D1DeviceContext2::CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic)
+title: ID2D1DeviceContext2::CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic) (d2d1_3.h)
 author: windows-sdk-content
 description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory.
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromwic3.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagAddServiceFlag
-title: AddServiceFlag
+title: AddServiceFlag (wuapi.h)
 author: windows-sdk-content
 description: Defines the possible ways in which the IUpdateServiceManager2 interface can process service registration requests.
 old-location: wua\addserviceflag.htm

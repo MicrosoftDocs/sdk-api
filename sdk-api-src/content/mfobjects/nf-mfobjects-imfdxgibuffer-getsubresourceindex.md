@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetSubresourceIndex
-title: IMFDXGIBuffer::GetSubresourceIndex
+title: IMFDXGIBuffer::GetSubresourceIndex (mfobjects.h)
 author: windows-sdk-content
 description: Gets the index of the subresource that is associated with this media buffer.
 old-location: mf\imfdxgibuffer_getsubresourceindex.htm

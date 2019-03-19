@@ -1,6 +1,6 @@
 ---
 UID: NS:projectedfslib.PRJ_PLACEHOLDER_INFO
-title: PRJ_PLACEHOLDER_INFO
+title: PRJ_PLACEHOLDER_INFO (projectedfslib.h)
 author: windows-sdk-content
 description: A buffer of metadata for the placeholder file or directory.
 old-location: projfs\prj_placeholder_info.htm

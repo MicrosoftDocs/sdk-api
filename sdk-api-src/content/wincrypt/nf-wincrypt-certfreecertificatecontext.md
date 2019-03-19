@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertFreeCertificateContext
-title: CertFreeCertificateContext function
+title: CertFreeCertificateContext function (wincrypt.h)
 author: windows-sdk-content
 description: Frees a certificate context by decrementing its reference count. When the reference count goes to zero, CertFreeCertificateContext frees the memory used by a certificate context.
 old-location: security\certfreecertificatecontext.htm

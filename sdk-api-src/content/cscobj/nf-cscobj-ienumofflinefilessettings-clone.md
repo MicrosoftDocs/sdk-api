@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IEnumOfflineFilesSettings.Clone
-title: IEnumOfflineFilesSettings::Clone
+title: IEnumOfflineFilesSettings::Clone (cscobj.h)
 author: windows-sdk-content
 description: Creates a new instance of the enumerator with the same enumeration state as the current one.
 old-location: of\ienumofflinefilessettings_clone.htm

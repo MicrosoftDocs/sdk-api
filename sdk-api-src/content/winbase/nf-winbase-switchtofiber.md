@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.SwitchToFiber
-title: SwitchToFiber function
+title: SwitchToFiber function (winbase.h)
 author: windows-sdk-content
 description: Schedules a fiber. The function must be called on a fiber.
 old-location: base\switchtofiber.htm

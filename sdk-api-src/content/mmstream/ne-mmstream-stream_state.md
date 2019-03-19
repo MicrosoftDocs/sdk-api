@@ -1,6 +1,6 @@
 ---
 UID: NE:mmstream.__MIDL___MIDL_itf_mmstream_0000_0000_0002
-title: STREAM_STATE
+title: STREAM_STATE (mmstream.h)
 author: windows-sdk-content
 description: Note  This API is deprecated. New applications should not use it. Describes the state of the stream.
 old-location: dshow\stream_state.htm

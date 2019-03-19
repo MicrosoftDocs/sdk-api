@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations
-title: IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
+title: IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations (wsdclient.h)
 author: windows-sdk-content
 description: Completes an asynchronous cancellation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_endunsubscribetomultipleoperations.htm

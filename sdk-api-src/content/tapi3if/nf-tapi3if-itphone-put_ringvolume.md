@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.put_RingVolume
-title: ITPhone::put_RingVolume
+title: ITPhone::put_RingVolume (tapi3if.h)
 author: windows-sdk-content
 description: The put_RingVolume method requests that the phone change its ring volume.
 old-location: tapi3\itphone_put_ringvolume.htm

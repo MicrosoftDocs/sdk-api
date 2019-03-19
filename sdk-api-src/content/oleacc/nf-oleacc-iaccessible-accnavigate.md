@@ -1,6 +1,6 @@
 ---
 UID: NF:oleacc.IAccessible.accNavigate
-title: IAccessible::accNavigate
+title: IAccessible::accNavigate (oleacc.h)
 author: windows-sdk-content
 description: The IAccessible::accNavigate method traverses to another UI element within a container and retrieves the object. This method is optional.
 old-location: winauto\iaccessible_iaccessible__accnavigate.htm

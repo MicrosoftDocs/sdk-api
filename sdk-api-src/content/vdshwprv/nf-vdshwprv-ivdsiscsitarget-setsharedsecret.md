@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.SetSharedSecret
-title: IVdsIscsiTarget::SetSharedSecret
+title: IVdsIscsiTarget::SetSharedSecret (vdshwprv.h)
 author: windows-sdk-content
 description: Sets the target CHAP shared secret that is used for CHAP authentication when the target authenticates the initiator.
 old-location: base\ivdsiscsitarget_setsharedsecret.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.get__NewEnum
-title: IMSVidAudioRendererDevices::get__NewEnum
+title: IMSVidAudioRendererDevices::get__NewEnum (segment.h)
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidaudiorendererdevices_get__newenum.htm

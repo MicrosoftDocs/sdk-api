@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpQueryHeaders
-title: WinHttpQueryHeaders function
+title: WinHttpQueryHeaders function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpQueryHeaders function retrieves header information associated with an HTTP request.
 old-location: http\winhttpqueryheaders.htm

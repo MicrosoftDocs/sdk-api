@@ -1,6 +1,6 @@
 ---
 UID: NF:ktmw32.CreateTransactionManager
-title: CreateTransactionManager function
+title: CreateTransactionManager function (ktmw32.h)
 author: windows-sdk-content
 description: Creates a new transaction manager (TM) object and returns a handle with the specified access.
 old-location: fs\createtransactionmanager.htm

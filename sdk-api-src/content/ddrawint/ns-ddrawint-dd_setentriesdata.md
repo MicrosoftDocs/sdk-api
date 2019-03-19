@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_SETENTRIESDATA
-title: DD_SETENTRIESDATA
+title: DD_SETENTRIESDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_SETENTRIESDATA structure contains information necessary to set palette entries.
 old-location: display\dd_setentriesdata.htm

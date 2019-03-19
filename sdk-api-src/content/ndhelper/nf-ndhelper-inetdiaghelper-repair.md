@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Repair
-title: INetDiagHelper::Repair
+title: INetDiagHelper::Repair (ndhelper.h)
 author: windows-sdk-content
 description: Performs a repair specified by the input parameter.
 old-location: ndf\inetdiaghelpe_repair.htm

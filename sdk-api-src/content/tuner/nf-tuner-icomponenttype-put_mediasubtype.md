@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.put_MediaSubType
-title: IComponentType::put_MediaSubType
+title: IComponentType::put_MediaSubType (tuner.h)
 author: windows-sdk-content
 description: The put_MediaSubType method sets the DirectShow media subtype.
 old-location: mstv\icomponenttype_put_mediasubtype.htm

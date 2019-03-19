@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_CONFIGURATION_ERROR
-title: WCN_VALUE_TYPE_CONFIGURATION_ERROR
+title: WCN_VALUE_TYPE_CONFIGURATION_ERROR (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_CONFIGURATION_ERROR enumeration defines possible error values returned to a device while attempting to configure to, and associate with, the WLAN.
 old-location: wcn\wcn_value_type_configuration_error.htm

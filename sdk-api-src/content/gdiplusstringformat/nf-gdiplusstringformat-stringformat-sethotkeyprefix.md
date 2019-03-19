@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetHotkeyPrefix
-title: StringFormat::SetHotkeyPrefix
+title: StringFormat::SetHotkeyPrefix (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::SetHotkeyPrefix method sets the type of processing that is performed on a string when the hot key prefix, an ampersand (&), is encountered.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetHotkeyPrefix_hotkeyPrefix_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.Show
-title: IRDPSRAPIWindow::Show
+title: IRDPSRAPIWindow::Show (rdpencomapi.h)
 author: windows-sdk-content
 description: Brings the current window to the foreground.
 old-location: rdp\irdpsrapiwindow_show.htm

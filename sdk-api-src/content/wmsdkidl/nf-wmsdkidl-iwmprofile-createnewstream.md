@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.CreateNewStream
-title: IWMProfile::CreateNewStream
+title: IWMProfile::CreateNewStream (wmsdkidl.h)
 author: windows-sdk-content
 description: The CreateNewStream method creates a stream configuration object. You can use a stream configuration object to define the characteristics of a media stream.
 old-location: wmformat\iwmprofile_createnewstream.htm

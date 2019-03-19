@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCreateShellItem
-title: SHCreateShellItem function
+title: SHCreateShellItem function (shlobj_core.h)
 author: windows-sdk-content
 description: Creates an IShellItem object.
 old-location: shell\SHCreateShellItem.htm

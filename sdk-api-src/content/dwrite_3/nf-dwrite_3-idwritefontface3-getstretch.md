@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetStretch
-title: IDWriteFontFace3::GetStretch
+title: IDWriteFontFace3::GetStretch (dwrite_3.h)
 author: windows-sdk-content
 description: Gets the stretch (also known as width) of this font.
 old-location: directwrite\idwritefontface3_getstretch.htm

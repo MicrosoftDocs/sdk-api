@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_CLASSIFY_OUT0_
-title: FWPS_CLASSIFY_OUT0
+title: FWPS_CLASSIFY_OUT0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_CLASSIFY_OUT0 structure defines the data that is returned to the caller of a callout's classifyFn callout function.Note  FWPS_CLASSIFY_OUT0 is a specific version of FWPS_CLASSIFY_OUT.
 old-location: netvista\fwps_classify_out0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6ParseRelayForw
-title: PxeDhcpv6ParseRelayForw function
+title: PxeDhcpv6ParseRelayForw function (wdspxe.h)
 author: windows-sdk-content
 description: This function can be used by a provider to parse RELAY-FORW messages and their nested OPTION_RELAY_MSG messages.
 old-location: wds\pxedhcpv6parserelayforw.htm

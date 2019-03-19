@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.media.streaming.IBasicDevice
-title: IBasicDevice
+title: IBasicDevice (windows.media.streaming.h)
 author: windows-sdk-content
 description: Encapsulates the methods and events needed to model a DLNA Device.
 old-location: mediastreaming\ibasicdevice.htm

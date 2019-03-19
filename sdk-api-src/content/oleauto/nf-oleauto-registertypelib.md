@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.RegisterTypeLib
-title: RegisterTypeLib function
+title: RegisterTypeLib function (oleauto.h)
 author: windows-sdk-content
 description: Adds information about a type library to the system registry.
 old-location: automat\registertypelib.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.ReplaceSignatureXml
-title: IOpcDigitalSignatureManager::ReplaceSignatureXml
+title: IOpcDigitalSignatureManager::ReplaceSignatureXml (msopc.h)
 author: windows-sdk-content
 description: Replaces the existing signature markup that is stored in a specified signature part.
 old-location: opc\iopcdigitalsignaturemanager_replacesignaturexml.htm

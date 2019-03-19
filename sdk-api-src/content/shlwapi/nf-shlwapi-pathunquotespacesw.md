@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathUnquoteSpacesW
-title: PathUnquoteSpacesW function
+title: PathUnquoteSpacesW function (shlwapi.h)
 author: windows-sdk-content
 description: Removes quotes from the beginning and end of a path.
 old-location: shell\PathUnquoteSpaces.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagWINDOWPLACEMENT
-title: WINDOWPLACEMENT
+title: WINDOWPLACEMENT (winuser.h)
 author: windows-sdk-content
 description: Contains information about the placement of a window on the screen.
 old-location: winmsg\windowplacement.htm

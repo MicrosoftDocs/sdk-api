@@ -1,6 +1,6 @@
 ---
 UID: NF:mergemod.IMsmConfigureModule.ProvideTextData
-title: IMsmConfigureModule::ProvideTextData
+title: IMsmConfigureModule::ProvideTextData (mergemod.h)
 author: windows-sdk-content
 description: The ProvideTextData method retrieves text data from the client tool. For more information, see the ProvideTextData method of the ConfigureModule object.
 old-location: setup\imsmconfiguremodule_providetextdata.htm

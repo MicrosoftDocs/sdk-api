@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Device3
-title: ID3D12Device3
+title: ID3D12Device3 (d3d12.h)
 author: windows-sdk-content
 description: Represents a virtual adapter. This interface extends ID3D12Device2 to support the creation of special-purpose diagnostic heaps in system memory that persist even in the event of a GPU-fault or device-removed scenario.
 old-location: direct3d12\id3d12device3.htm

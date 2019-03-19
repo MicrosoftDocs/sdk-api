@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_TotalACDCallTime
-title: ITAgent::get_TotalACDCallTime
+title: ITAgent::get_TotalACDCallTime (tapi3cc.h)
 author: windows-sdk-content
 description: The get_TotalACDCallTime gets the number of seconds spent on ACD calls by this agent (across all sessions). This value includes the time spent on the phone plus wrap-up time.
 old-location: tapi3\itagent_get_totalacdcalltime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.Draw
-title: IImageList::Draw
+title: IImageList::Draw (commoncontrols.h)
 author: windows-sdk-content
 description: Draws an image list item in the specified device context.
 old-location: controls\IImageList_Draw.htm

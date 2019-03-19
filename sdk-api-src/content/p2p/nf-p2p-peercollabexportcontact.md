@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabExportContact
-title: PeerCollabExportContact function
+title: PeerCollabExportContact function (p2p.h)
 author: windows-sdk-content
 description: Exports the contact data associated with a peer name to a string buffer. The buffer contains contact data in XML format.
 old-location: p2p\peercollabexportcontact.htm

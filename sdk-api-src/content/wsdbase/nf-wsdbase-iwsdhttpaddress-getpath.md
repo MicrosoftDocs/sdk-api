@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetPath
-title: IWSDHttpAddress::GetPath
+title: IWSDHttpAddress::GetPath (wsdbase.h)
 author: windows-sdk-content
 description: Gets the URI path for this address.
 old-location: ncd\iwsdhttpaddress_getpath.htm

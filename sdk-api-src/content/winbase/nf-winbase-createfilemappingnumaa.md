@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateFileMappingNumaA
-title: CreateFileMappingNumaA function
+title: CreateFileMappingNumaA function (winbase.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory.
 old-location: base\createfilemappingnuma.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Clone
-title: IEnumRegFilters::Clone
+title: IEnumRegFilters::Clone (strmif.h)
 author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. This method is not currently implemented and returns E_NOTIMPL.
 old-location: dshow\ienumregfilters_clone.htm

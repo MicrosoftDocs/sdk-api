@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.DeleteServiceForApplication
-title: ICOMAdminCatalog2::DeleteServiceForApplication
+title: ICOMAdminCatalog2::DeleteServiceForApplication (comadmin.h)
 author: windows-sdk-content
 description: Deletes the Windows service associated with the specified COM+ application.
 old-location: cos\icomadmincatalog2_deleteserviceforapplication.htm

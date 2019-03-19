@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredUnprotectA
-title: CredUnprotectA function
+title: CredUnprotectA function (wincred.h)
 author: windows-sdk-content
 description: Decrypts credentials that were previously encrypted by using the CredProtect function.
 old-location: security\credunprotect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateIndexBuffer
-title: IDirect3DDevice9::CreateIndexBuffer
+title: IDirect3DDevice9::CreateIndexBuffer (d3d9.h)
 author: windows-sdk-content
 description: Creates an index buffer.
 old-location: direct3d9\idirect3ddevice9__createindexbuffer.htm

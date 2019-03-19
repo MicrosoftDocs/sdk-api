@@ -1,6 +1,6 @@
 ---
 UID: NF:userenv.DestroyEnvironmentBlock
-title: DestroyEnvironmentBlock function
+title: DestroyEnvironmentBlock function (userenv.h)
 author: windows-sdk-content
 description: Frees environment variables created by the CreateEnvironmentBlock function.
 old-location: shell\DestroyEnvironmentBlock.htm

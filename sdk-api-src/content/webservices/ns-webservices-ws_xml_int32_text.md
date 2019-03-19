@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_XML_INT32_TEXT
-title: WS_XML_INT32_TEXT
+title: WS_XML_INT32_TEXT (webservices.h)
 author: windows-sdk-content
 description: Represents a signed 32 bit integer.
 old-location: wsw\ws_xml_int32_text.htm

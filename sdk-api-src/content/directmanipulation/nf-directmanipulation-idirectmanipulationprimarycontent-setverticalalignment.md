@@ -1,6 +1,6 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetVerticalAlignment
-title: IDirectManipulationPrimaryContent::SetVerticalAlignment
+title: IDirectManipulationPrimaryContent::SetVerticalAlignment (directmanipulation.h)
 author: windows-sdk-content
 description: Specifies the vertical alignment of the primary content in the viewport.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setverticalalignment.htm

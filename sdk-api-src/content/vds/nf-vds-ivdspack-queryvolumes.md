@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsPack.QueryVolumes
-title: IVdsPack::QueryVolumes
+title: IVdsPack::QueryVolumes (vds.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the volumes in the pack.
 old-location: base\ivdspack_queryvolumes.htm

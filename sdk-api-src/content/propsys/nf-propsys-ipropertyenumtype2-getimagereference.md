@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyEnumType2.GetImageReference
-title: IPropertyEnumType2::GetImageReference
+title: IPropertyEnumType2::GetImageReference (propsys.h)
 author: windows-sdk-content
 description: Retrieves the image reference associated with a property enumeration.
 old-location: properties\IPropertyEnumType2_GetImageReference.htm

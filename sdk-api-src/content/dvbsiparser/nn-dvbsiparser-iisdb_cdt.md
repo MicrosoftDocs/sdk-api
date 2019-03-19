@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IISDB_CDT
-title: IISDB_CDT
+title: IISDB_CDT (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT). A CDT contains data, such as company logos, that is needed for receivers and stored in nonvolatile memory.
 old-location: mstv\iisdb_cdt.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:instance.CInstance.GetDateTime
-title: CInstance::GetDateTime
+title: CInstance::GetDateTime (instance.h)
 author: windows-sdk-content
 description: The GetDateTime method returns a datetime property.
 old-location: wmi\cinstance_getdatetime.htm

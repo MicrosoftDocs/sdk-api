@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetLanguage
-title: IXpsOMVisual::GetLanguage
+title: IXpsOMVisual::GetLanguage (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the Language property of the visual and of its contents.
 old-location: xps\ixpsomvisual_getlanguage.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Pause
-title: IWMReader::Pause
+title: IWMReader::Pause (wmsdkidl.h)
 author: windows-sdk-content
 description: The Pause method pauses the current read operation.
 old-location: wmformat\iwmreader_pause.htm

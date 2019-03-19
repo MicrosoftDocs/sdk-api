@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.RoRevokeActivationFactories
-title: RoRevokeActivationFactories function
+title: RoRevokeActivationFactories function (roapi.h)
 author: windows-sdk-content
 description: Removes an array of registered activation factories from the Windows Runtime.
 old-location: winrt\rorevokeactivationfactories.htm

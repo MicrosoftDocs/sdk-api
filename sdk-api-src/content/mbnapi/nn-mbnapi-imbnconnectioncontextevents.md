@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnConnectionContextEvents
-title: IMbnConnectionContextEvents
+title: IMbnConnectionContextEvents (mbnapi.h)
 author: windows-sdk-content
 description: This notification interface is used to handle asynchronous provisioned context events.
 old-location: mbn\imbnconnectioncontextevents.htm

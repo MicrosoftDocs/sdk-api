@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.RateResource
-title: IDispenserDriver::RateResource
+title: IDispenserDriver::RateResource (comsvcs.h)
 author: windows-sdk-content
 description: Evaluates how well a candidate resource matches.
 old-location: cos\idispenserdriver_rateresource.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._FD_DEVICEMETRICS
-title: FD_DEVICEMETRICS
+title: FD_DEVICEMETRICS (winddi.h)
 author: windows-sdk-content
 description: The FD_DEVICEMETRICS structure is used to provide device-specific font information to GDI if the iMode parameter of the driver-supplied DrvQueryFontData function is QFD_MAXEXTENTS.
 old-location: display\fd_devicemetrics.htm

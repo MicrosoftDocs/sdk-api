@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIOutput.FindClosestMatchingMode
-title: IDXGIOutput::FindClosestMatchingMode
+title: IDXGIOutput::FindClosestMatchingMode (dxgi.h)
 author: windows-sdk-content
 description: Finds the display mode that most closely matches the requested display mode.
 old-location: direct3ddxgi\idxgioutput_findclosestmatchingmode.htm

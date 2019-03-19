@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Buffer.Map
-title: ID3D10Buffer::Map
+title: ID3D10Buffer::Map (d3d10.h)
 author: windows-sdk-content
 description: Get a pointer to the data contained in the resource and deny GPU access to the resource.
 old-location: direct3d10\id3d10buffer_map.htm

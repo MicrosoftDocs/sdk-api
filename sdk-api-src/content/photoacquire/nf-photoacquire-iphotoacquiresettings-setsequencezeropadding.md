@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetSequenceZeroPadding
-title: IPhotoAcquireSettings::SetSequenceZeroPadding
+title: IPhotoAcquireSettings::SetSequenceZeroPadding (photoacquire.h)
 author: windows-sdk-content
 description: The SetSequenceZeroPadding method sets a value indicating whether zeros or spaces are used to pad sequential file names.
 old-location: picacq\iphotoacquiresettings_setsequencezeropadding.htm

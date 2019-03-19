@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjExt.SetObject
-title: IDsAdminNewObjExt::SetObject
+title: IDsAdminNewObjExt::SetObject (dsadmin.h)
 author: windows-sdk-content
 description: The IDsAdminNewObjExt::SetObject method provides the object creation extension with a pointer to the directory object created.
 old-location: ad\idsadminnewobjext_setobject.htm

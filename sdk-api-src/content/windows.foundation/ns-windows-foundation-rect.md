@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.foundation.Rect
-title: Rect
+title: Rect (windows.foundation.h)
 author: windows-sdk-content
 description: Contains a set of four floating-point numbers that represent the location and size of a rectangle.
 old-location: winrt\rect.htm

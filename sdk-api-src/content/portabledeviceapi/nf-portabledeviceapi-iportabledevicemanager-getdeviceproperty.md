@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceProperty
-title: IPortableDeviceManager::GetDeviceProperty
+title: IPortableDeviceManager::GetDeviceProperty (portabledeviceapi.h)
 author: windows-sdk-content
 description: Retrieves a property value stored by the device on the computer. (These are not standard properties that are defined by Windows Portable Devices.).
 old-location: wpdsdk\iportabledevicemanager_getdeviceproperty.htm

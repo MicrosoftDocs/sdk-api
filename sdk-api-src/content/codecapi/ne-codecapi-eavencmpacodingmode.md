@@ -1,6 +1,6 @@
 ---
 UID: NE:codecapi.eAVEncMPACodingMode
-title: eAVEncMPACodingMode
+title: eAVEncMPACodingMode (codecapi.h)
 author: windows-sdk-content
 description: Specifies the MPEG audio encoding mode. This enumeration is used with the AVEncMPACodingMode property.
 old-location: dshow\eavencmpacodingmode.htm

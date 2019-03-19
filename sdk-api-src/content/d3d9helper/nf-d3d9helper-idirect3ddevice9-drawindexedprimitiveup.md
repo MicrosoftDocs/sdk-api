@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.DrawIndexedPrimitiveUP
-title: IDirect3DDevice9::DrawIndexedPrimitiveUP
+title: IDirect3DDevice9::DrawIndexedPrimitiveUP (d3d9helper.h)
 author: windows-sdk-content
 description: Renders the specified geometric primitive with data specified by a user memory pointer.
 old-location: direct3d9\idirect3ddevice9__drawindexedprimitiveup.htm

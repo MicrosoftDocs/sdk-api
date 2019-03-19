@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.put_FileScreenFlags
-title: IFsrmFileScreenBase::put_FileScreenFlags
+title: IFsrmFileScreenBase::put_FileScreenFlags (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves or sets the file screen flags.
 old-location: fsrm\ifsrmfilescreenbase_filescreenflags.htm

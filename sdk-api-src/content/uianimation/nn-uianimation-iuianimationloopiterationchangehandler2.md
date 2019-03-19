@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationLoopIterationChangeHandler2
-title: IUIAnimationLoopIterationChangeHandler2
+title: IUIAnimationLoopIterationChangeHandler2 (uianimation.h)
 author: windows-sdk-content
 description: Defines a method for handling storyboard loop iteration events.
 old-location: uianimation\iuianimationloopiterationchangehandler2.htm

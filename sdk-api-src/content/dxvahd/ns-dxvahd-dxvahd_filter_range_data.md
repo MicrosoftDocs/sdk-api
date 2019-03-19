@@ -1,6 +1,6 @@
 ---
 UID: NS:dxvahd._DXVAHD_FILTER_RANGE_DATA
-title: DXVAHD_FILTER_RANGE_DATA
+title: DXVAHD_FILTER_RANGE_DATA (dxvahd.h)
 author: windows-sdk-content
 description: Defines the range of supported values for an image filter.
 old-location: mf\dxvahd_filter_range_data.htm

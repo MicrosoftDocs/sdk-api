@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocalFree
-title: LocalFree function
+title: LocalFree function (winbase.h)
 author: windows-sdk-content
 description: Frees the specified local memory object and invalidates its handle.
 old-location: base\localfree.htm

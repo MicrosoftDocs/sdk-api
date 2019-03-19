@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_49
-title: WS_HTTP_HEADER_AUTH_TARGET
+title: WS_HTTP_HEADER_AUTH_TARGET (webservices.h)
 author: windows-sdk-content
 description: Defines the target for the HTTP header authentication security binding.
 old-location: wsw\ws_http_header_auth_target.htm

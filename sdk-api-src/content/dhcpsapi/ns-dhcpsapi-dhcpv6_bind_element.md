@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCPV6_BIND_ELEMENT
-title: DHCPV6_BIND_ELEMENT
+title: DHCPV6_BIND_ELEMENT (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines an IPv6 interface binding for the DHCP server over which it receives DHCPv6 packets.
 old-location: dhcp\dhcpv6_bind_element.htm

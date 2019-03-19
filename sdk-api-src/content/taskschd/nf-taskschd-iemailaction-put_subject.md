@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Subject
-title: IEmailAction::put_Subject
+title: IEmailAction::put_Subject (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the subject of the email message.
 old-location: taskschd\iemailaction_subject.htm

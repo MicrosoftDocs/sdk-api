@@ -1,6 +1,6 @@
 ---
 UID: NN:wmcodecdsp.ITocCollection
-title: ITocCollection
+title: ITocCollection (wmcodecdsp.h)
 author: windows-sdk-content
 description: The ITocCollection represents a collection of tables of contents. It provides methods for adding, retrieving, and removing, tables of contents from the collection.
 old-location: mf\itoccollection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.MSPAddressAddRef
-title: CMSPAddress::MSPAddressAddRef
+title: CMSPAddress::MSPAddressAddRef (mspaddr.h)
 author: windows-sdk-content
 description: The MSPAddressAddRef method is the private AddRef method for the address.
 old-location: tapi3\cmspaddress_mspaddressaddref.htm

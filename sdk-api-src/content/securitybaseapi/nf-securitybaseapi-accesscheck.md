@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AccessCheck
-title: AccessCheck function
+title: AccessCheck function (securitybaseapi.h)
 author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client identified by an access token.
 old-location: security\accesscheck.htm

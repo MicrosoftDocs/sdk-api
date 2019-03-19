@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NodeType
-title: IKsTopologyInfo::get_NodeType
+title: IKsTopologyInfo::get_NodeType (vidcap.h)
 author: windows-sdk-content
 description: The get_NodeType method returns the node type for a given node.
 old-location: dshow\ikstopologyinfo_get_nodetype.htm

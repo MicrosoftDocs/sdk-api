@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Plugin
-title: ITsSbTaskInfo::get_Plugin
+title: ITsSbTaskInfo::get_Plugin (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves the display name of the task agent.
 old-location: termserv\itssbtaskinfo_plugin.htm

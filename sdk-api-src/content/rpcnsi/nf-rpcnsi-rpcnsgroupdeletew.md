@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupDeleteW
-title: RpcNsGroupDeleteW function
+title: RpcNsGroupDeleteW function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsGroupDelete function deletes a group attribute.
 old-location: rpc\rpcnsgroupdelete.htm

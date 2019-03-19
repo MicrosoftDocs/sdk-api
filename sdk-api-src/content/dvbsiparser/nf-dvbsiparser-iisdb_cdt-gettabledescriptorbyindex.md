@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetTableDescriptorByIndex
-title: IISDB_CDT::GetTableDescriptorByIndex
+title: IISDB_CDT::GetTableDescriptorByIndex (dvbsiparser.h)
 author: windows-sdk-content
 description: Returns a specified logo transmission descriptor from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_gettabledescriptorbyindex.htm

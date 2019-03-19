@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPILOGON
-title: MAPILOGON
+title: MAPILOGON (mapi.h)
 author: windows-sdk-content
 description: The MAPILogon function begins a Simple MAPI session, loading the default message store and address book providers.
 old-location: mapi\mapilogon.htm

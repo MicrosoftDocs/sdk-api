@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.DeleteUrlCacheEntry
-title: DeleteUrlCacheEntry function
+title: DeleteUrlCacheEntry function (wininet.h)
 author: windows-sdk-content
 description: Removes the file associated with the source name from the cache, if the file exists.
 old-location: wininet\deleteurlcacheentry.htm

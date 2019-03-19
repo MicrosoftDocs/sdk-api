@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.AddClipboardFormatListener
-title: AddClipboardFormatListener function
+title: AddClipboardFormatListener function (winuser.h)
 author: windows-sdk-content
 description: Places the given window in the system-maintained clipboard format listener list.
 old-location: dataxchg\addclipboardformatlistener.htm

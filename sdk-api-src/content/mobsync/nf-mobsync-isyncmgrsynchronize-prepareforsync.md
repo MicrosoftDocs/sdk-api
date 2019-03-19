@@ -1,6 +1,6 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.PrepareForSync
-title: ISyncMgrSynchronize::PrepareForSync
+title: ISyncMgrSynchronize::PrepareForSync (mobsync.h)
 author: windows-sdk-content
 description: Allows a registered application to display any user interface, and perform any necessary initialization before the ISyncMgrSynchronize::Synchronize method is called.
 old-location: shell\syncmgr_isyncmgrsynchronize_prepareforsync.htm

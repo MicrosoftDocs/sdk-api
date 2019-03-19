@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetProgressValue
-title: ITaskbarList3::SetProgressValue
+title: ITaskbarList3::SetProgressValue (shobjidl_core.h)
 author: windows-sdk-content
 description: Displays or updates a progress bar hosted in a taskbar button to show the specific percentage completed of the full operation.
 old-location: shell\ITaskbarList3_SetProgressValue.htm

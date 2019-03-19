@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetTuningSpace
-title: IBDA_NetworkProvider::GetTuningSpace
+title: IBDA_NetworkProvider::GetTuningSpace (bdaiface.h)
 author: windows-sdk-content
 description: The GetTuningSpace method retrieves the tuning space.
 old-location: mstv\ibda_networkprovider_gettuningspace.htm

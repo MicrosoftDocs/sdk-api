@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValueByIndex
-title: IWICMetadataReader::GetValueByIndex
+title: IWICMetadataReader::GetValueByIndex (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the metadata item at the given index.
 old-location: wic\_wic_codec_iwicmetadatareader_getvaluebyindex.htm

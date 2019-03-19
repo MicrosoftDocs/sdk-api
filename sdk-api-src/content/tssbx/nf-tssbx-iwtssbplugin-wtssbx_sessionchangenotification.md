@@ -1,6 +1,6 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_SessionChangeNotification
-title: IWTSSBPlugin::WTSSBX_SessionChangeNotification
+title: IWTSSBPlugin::WTSSBX_SessionChangeNotification (tssbx.h)
 author: windows-sdk-content
 description: Notifies the plug-in that a change, such as a logon, logoff, disconnect, or reconnect, occurred in the session.
 old-location: termserv\iwtssbplugin_wtssbx_sessionchangenotification.htm

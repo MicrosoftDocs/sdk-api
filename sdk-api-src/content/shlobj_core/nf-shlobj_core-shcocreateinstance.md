@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHCoCreateInstance
-title: SHCoCreateInstance function
+title: SHCoCreateInstance function (shlobj_core.h)
 author: windows-sdk-content
 description: SHCoCreateInstance may be altered or unavailable. Instead, use CoCreateInstance.
 old-location: shell\SHCoCreateInstance.htm

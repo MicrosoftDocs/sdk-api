@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ILaunchTargetMonitor.GetMonitor
-title: ILaunchTargetMonitor::GetMonitor
+title: ILaunchTargetMonitor::GetMonitor (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the target monitor for the application being launched.
 old-location: shell\ILaunchTargetMonitor_GetMonitor.htm

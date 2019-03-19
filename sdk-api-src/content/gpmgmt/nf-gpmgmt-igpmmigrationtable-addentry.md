@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.AddEntry
-title: IGPMMigrationTable::AddEntry
+title: IGPMMigrationTable::AddEntry (gpmgmt.h)
 author: windows-sdk-content
 description: Creates an entry in the migration table. The method updates an existing entry.
 old-location: gpmc\igpmmigrationtable_addentry.htm

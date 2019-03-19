@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.BezierSegment
-title: BezierSegment function
+title: BezierSegment function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_BEZIER_SEGMENT structure.
 old-location: direct2d\beziersegment.htm

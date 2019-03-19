@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChainMedia.GetFrameStatisticsMedia
-title: IDXGISwapChainMedia::GetFrameStatisticsMedia
+title: IDXGISwapChainMedia::GetFrameStatisticsMedia (dxgi1_3.h)
 author: windows-sdk-content
 description: Queries the system for a DXGI_FRAME_STATISTICS_MEDIA structure that indicates whether a custom refresh rate is currently approved by the system.
 old-location: direct3ddxgi\idxgiswapchainmedia_getframestatisticsmedia.htm

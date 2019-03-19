@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.SetTimeStampOffset
-title: IMFSourceBuffer::SetTimeStampOffset
+title: IMFSourceBuffer::SetTimeStampOffset (mfmediaengine.h)
 author: windows-sdk-content
 description: Sets the timestamp offset for media segments appended to the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_settimestampoffset.htm

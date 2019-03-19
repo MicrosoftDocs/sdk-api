@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.GetAdjustedPalette
-title: ImageAttributes::GetAdjustedPalette
+title: ImageAttributes::GetAdjustedPalette (gdiplusimageattributes.h)
 author: windows-sdk-content
 description: The ImageAttributes::GetAdjustedPalette method adjusts the colors in a palette according to the adjustment settings of a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetBitmapInterpolationMode
-title: IDCompositionVisual::SetBitmapInterpolationMode
+title: IDCompositionVisual::SetBitmapInterpolationMode (dcomp.h)
 author: windows-sdk-content
 description: Sets the BitmapInterpolationMode property, which specifies the mode for Microsoft DirectComposition to use when interpolating pixels from bitmaps that are not axis-aligned or drawn exactly at scale.
 old-location: directcomp\idcompositionvisual_setbitmapinterpolationmode.htm

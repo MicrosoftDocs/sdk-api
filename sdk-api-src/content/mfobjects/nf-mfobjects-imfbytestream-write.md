@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Write
-title: IMFByteStream::Write
+title: IMFByteStream::Write (mfobjects.h)
 author: windows-sdk-content
 description: Writes data to the stream.
 old-location: mf\imfbytestream_write.htm

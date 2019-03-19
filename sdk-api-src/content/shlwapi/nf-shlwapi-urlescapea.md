@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.UrlEscapeA
-title: UrlEscapeA function
+title: UrlEscapeA function (shlwapi.h)
 author: windows-sdk-content
 description: Converts characters or surrogate pairs in a URL that might be altered during transport across the Internet (&#0034;unsafe&#0034; characters) into their corresponding escape sequences.
 old-location: shell\UrlEscape.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:mmdeviceapi.IMMDeviceCollection
-title: IMMDeviceCollection
+title: IMMDeviceCollection (mmdeviceapi.h)
 author: windows-sdk-content
 description: The IMMDeviceCollection interface represents a collection of multimedia device resources.
 old-location: coreaudio\immdevicecollection.htm

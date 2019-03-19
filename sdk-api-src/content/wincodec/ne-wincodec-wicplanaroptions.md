@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICPlanarOptions
-title: WICPlanarOptions
+title: WICPlanarOptions (wincodec.h)
 author: windows-sdk-content
 description: Specifies additional options to an IWICPlanarBitmapSourceTransform implementation.
 old-location: wic\wicplanaroptions.htm

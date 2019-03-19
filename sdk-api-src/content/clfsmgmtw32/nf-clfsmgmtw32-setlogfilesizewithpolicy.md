@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsmgmtw32.SetLogFileSizeWithPolicy
-title: SetLogFileSizeWithPolicy function
+title: SetLogFileSizeWithPolicy function (clfsmgmtw32.h)
 author: windows-sdk-content
 description: Adds or deletes containers from a log based on the state of the installed policies.
 old-location: fs\setlogfilesizewithpolicy.htm

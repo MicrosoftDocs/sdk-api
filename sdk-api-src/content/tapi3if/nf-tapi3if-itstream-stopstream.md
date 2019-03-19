@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITStream.StopStream
-title: ITStream::StopStream
+title: ITStream::StopStream (tapi3if.h)
 author: windows-sdk-content
 description: The StopStream method stops the stream.
 old-location: tapi3\itstream_stopstream.htm

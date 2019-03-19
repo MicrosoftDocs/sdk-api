@@ -1,6 +1,6 @@
 ---
 UID: NF:wincred.CredWriteDomainCredentialsA
-title: CredWriteDomainCredentialsA function
+title: CredWriteDomainCredentialsA function (wincred.h)
 author: windows-sdk-content
 description: Writes domain credentials to the user's credential set.
 old-location: security\credwritedomaincredentials.htm

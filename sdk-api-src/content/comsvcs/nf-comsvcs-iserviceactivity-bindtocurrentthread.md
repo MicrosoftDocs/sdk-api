@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IServiceActivity.BindToCurrentThread
-title: IServiceActivity::BindToCurrentThread
+title: IServiceActivity::BindToCurrentThread (comsvcs.h)
 author: windows-sdk-content
 description: Binds the user-defined batch work to the current thread.
 old-location: cos\iserviceactivity_bindtocurrentthread.htm

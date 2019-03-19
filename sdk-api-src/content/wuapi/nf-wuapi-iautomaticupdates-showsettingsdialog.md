@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.ShowSettingsDialog
-title: IAutomaticUpdates::ShowSettingsDialog
+title: IAutomaticUpdates::ShowSettingsDialog (wuapi.h)
 author: windows-sdk-content
 description: Displays a dialog box that contains settings for Automatic Updates.
 old-location: wua\iautomaticupdates_showsettingsdialog.htm

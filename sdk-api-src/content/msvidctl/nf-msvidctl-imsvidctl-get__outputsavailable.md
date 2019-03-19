@@ -1,6 +1,6 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get__OutputsAvailable
-title: IMSVidCtl::get__OutputsAvailable
+title: IMSVidCtl::get__OutputsAvailable (msvidctl.h)
 author: windows-sdk-content
 description: The get__OutputsAvailable method retrieves the output devices that are available in a specified category.
 old-location: mstv\imsvidctl_get__outputsavailable.htm

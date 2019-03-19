@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IComponent
-title: IComponent
+title: IComponent (tuner.h)
 author: windows-sdk-content
 description: The IComponent interface a base class for all derived interfaces such as IMPEG2Component and it describes the general characteristics of a component, which is an elementary stream within the program stream.
 old-location: mstv\icomponent.htm

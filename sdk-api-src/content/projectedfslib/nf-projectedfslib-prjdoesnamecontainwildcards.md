@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjDoesNameContainWildCards
-title: PrjDoesNameContainWildCards function
+title: PrjDoesNameContainWildCards function (projectedfslib.h)
 author: windows-sdk-content
 description: Determines whether a name contains wildcard characters.
 old-location: projfs\prjdoesnamecontainwildcards.htm

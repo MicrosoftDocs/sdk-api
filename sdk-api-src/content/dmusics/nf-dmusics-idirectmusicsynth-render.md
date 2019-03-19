@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Render
-title: IDirectMusicSynth::Render
+title: IDirectMusicSynth::Render (dmusics.h)
 author: windows-sdk-content
 description: The Render method is called by the synth sink to render to a buffer in the audio stream.
 old-location: audio\idirectmusicsynth_render.htm

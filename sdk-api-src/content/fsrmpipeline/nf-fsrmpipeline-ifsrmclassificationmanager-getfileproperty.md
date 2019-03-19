@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetFileProperty
-title: IFsrmClassificationManager::GetFileProperty
+title: IFsrmClassificationManager::GetFileProperty (fsrmpipeline.h)
 author: windows-sdk-content
 description: Retrieves the specified property from the file or folder.
 old-location: fsrm\ifsrmclassificationmanager_getfileproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IRunnableObject.SetContainedObject
-title: IRunnableObject::SetContainedObject
+title: IRunnableObject::SetContainedObject (objidl.h)
 author: windows-sdk-content
 description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.
 old-location: com\irunnableobject_setcontainedobject.htm

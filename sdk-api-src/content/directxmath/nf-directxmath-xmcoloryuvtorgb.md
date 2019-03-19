@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorYUVToRGB
-title: XMColorYUVToRGB function
+title: XMColorYUVToRGB function (directxmath.h)
 author: windows-sdk-content
 description: Converts YUV color values to RGB color values.
 old-location: dxmath\xmcoloryuvtorgb.htm

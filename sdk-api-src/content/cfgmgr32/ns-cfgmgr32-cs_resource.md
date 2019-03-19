@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.CS_Resource_s
-title: CS_RESOURCE
+title: CS_RESOURCE (cfgmgr32.h)
 author: windows-sdk-content
 description: The CS_RESOURCE structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see Hardware Resources.
 old-location: devinst\cs_resource.htm

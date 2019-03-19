@@ -1,6 +1,6 @@
 ---
 UID: NF:lmjoin.NetCreateProvisioningPackage
-title: NetCreateProvisioningPackage function
+title: NetCreateProvisioningPackage function (lmjoin.h)
 author: windows-sdk-content
 description: Creates a provisioning package that provisions a computer account for later use in an offline domain join operation. The package may also contain information about certificates and policies to add to the machine during provisioning.
 old-location: netmgmt\netcreateprovisioningpackage.htm

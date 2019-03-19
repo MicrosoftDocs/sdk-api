@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetCapture
-title: SetCapture function
+title: SetCapture function (winuser.h)
 author: windows-sdk-content
 description: Sets the mouse capture to the specified window belonging to the current thread.
 old-location: inputdev\setcapture.htm

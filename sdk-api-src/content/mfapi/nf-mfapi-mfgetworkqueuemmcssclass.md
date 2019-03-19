@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFGetWorkQueueMMCSSClass
-title: MFGetWorkQueueMMCSSClass function
+title: MFGetWorkQueueMMCSSClass function (mfapi.h)
 author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
 old-location: mf\mfgetworkqueuemmcssclass.htm

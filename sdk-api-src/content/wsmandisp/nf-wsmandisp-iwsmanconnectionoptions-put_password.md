@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.put_Password
-title: IWSManConnectionOptions::put_Password
+title: IWSManConnectionOptions::put_Password (wsmandisp.h)
 author: windows-sdk-content
 description: Sets the password of a local or a domain account on the remote computer.
 old-location: winrm\iwsmanconnectionoptions_password.htm

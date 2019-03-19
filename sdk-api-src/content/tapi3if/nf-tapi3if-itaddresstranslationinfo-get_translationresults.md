@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAddressTranslationInfo.get_TranslationResults
-title: ITAddressTranslationInfo::get_TranslationResults
+title: ITAddressTranslationInfo::get_TranslationResults (tapi3if.h)
 author: windows-sdk-content
 description: The get_TranslationResults method gets the results of a translation operation.
 old-location: tapi3\itaddresstranslationinfo_get_translationresults.htm

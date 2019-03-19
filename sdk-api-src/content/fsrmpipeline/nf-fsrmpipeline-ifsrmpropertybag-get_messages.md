@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_Messages
-title: IFsrmPropertyBag::get_Messages
+title: IFsrmPropertyBag::get_Messages (fsrmpipeline.h)
 author: windows-sdk-content
 description: A list of the error messages that have been added to the bag.
 old-location: fsrm\ifsrmpropertybag_messages.htm

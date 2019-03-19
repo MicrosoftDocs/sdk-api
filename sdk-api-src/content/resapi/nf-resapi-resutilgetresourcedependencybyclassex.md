@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetResourceDependencyByClassEx
-title: ResUtilGetResourceDependencyByClassEx function
+title: ResUtilGetResourceDependencyByClassEx function (resapi.h)
 author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency that matches a specified resource class. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencybyclassex.htm

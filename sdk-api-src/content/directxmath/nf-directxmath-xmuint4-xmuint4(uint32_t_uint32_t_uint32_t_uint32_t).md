@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMUINT4.XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t)
-title: XMUINT4::XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t)
+title: XMUINT4::XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUINT4 from four uint32_t arguments.
 old-location: dxmath\xmuint4_ctor_2.htm

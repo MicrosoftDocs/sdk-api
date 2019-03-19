@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsole.SetToolbar
-title: IConsole::SetToolbar
+title: IConsole::SetToolbar (mmc.h)
 author: windows-sdk-content
 description: Sets the toolbar interface to be used for this instance of IComponent. Be aware that this is used only by instances of IComponent.
 old-location: mmc\iconsole_settoolbar.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IAudioData.GetFormat
-title: IAudioData::GetFormat
+title: IAudioData::GetFormat (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the current data format.
 old-location: dshow\iaudiodata_getformat.htm

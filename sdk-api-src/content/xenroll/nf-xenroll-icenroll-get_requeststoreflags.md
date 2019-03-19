@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_RequestStoreFlags
-title: ICEnroll::get_RequestStoreFlags
+title: ICEnroll::get_RequestStoreFlags (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves the registry location used for the request store.
 old-location: security\icenroll4_requeststoreflags.htm

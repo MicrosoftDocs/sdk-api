@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetItem
-title: TreeView_GetItem macro
+title: TreeView_GetItem macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves some or all of a tree-view item's attributes. You can use this macro or send the TVM_GETITEM message explicitly.
 old-location: controls\TreeView_GetItem.htm

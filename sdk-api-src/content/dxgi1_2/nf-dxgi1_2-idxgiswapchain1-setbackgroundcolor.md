@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.SetBackgroundColor
-title: IDXGISwapChain1::SetBackgroundColor
+title: IDXGISwapChain1::SetBackgroundColor (dxgi1_2.h)
 author: windows-sdk-content
 description: Changes the background color of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_setbackgroundcolor.htm

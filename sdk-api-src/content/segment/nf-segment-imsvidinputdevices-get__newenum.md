@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidInputDevices.get__NewEnum
-title: IMSVidInputDevices::get__NewEnum
+title: IMSVidInputDevices::get__NewEnum (segment.h)
 author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidinputdevices_get__newenum.htm

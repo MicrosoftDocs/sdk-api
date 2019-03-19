@@ -1,6 +1,6 @@
 ---
 UID: NF:ws2tcpip.SetAddrInfoExA
-title: SetAddrInfoExA function
+title: SetAddrInfoExA function (ws2tcpip.h)
 author: windows-sdk-content
 description: Registers or deregisters a name, a service name, and associated addresses with a specific namespace provider.
 old-location: winsock\setaddrinfoex.htm

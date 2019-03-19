@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetRemoteAddress
-title: IWSDMessageParameters::GetRemoteAddress
+title: IWSDMessageParameters::GetRemoteAddress (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the generic address object representing the remote address from which the message was sent.
 old-location: ncd\iwsdmessageparameters_getremoteaddress.htm

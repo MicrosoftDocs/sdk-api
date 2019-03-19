@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MFCLOCK_RELATIONAL_FLAGS
-title: MFCLOCK_RELATIONAL_FLAGS
+title: MFCLOCK_RELATIONAL_FLAGS (mfidl.h)
 author: windows-sdk-content
 description: Defines properties of a clock.
 old-location: mf\mfclock_relational_flags.htm

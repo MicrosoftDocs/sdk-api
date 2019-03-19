@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.IsIdentity
-title: Matrix::IsIdentity
+title: Matrix::IsIdentity (gdiplusmatrix.h)
 author: windows-sdk-content
 description: The Matrix::IsIdentity method determines whether this matrix is the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_IsIdentity_.htm

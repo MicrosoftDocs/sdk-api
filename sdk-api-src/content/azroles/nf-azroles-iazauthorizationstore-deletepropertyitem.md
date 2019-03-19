@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePropertyItem
-title: IAzAuthorizationStore::DeletePropertyItem
+title: IAzAuthorizationStore::DeletePropertyItem (azroles.h)
 author: windows-sdk-content
 description: Removes the specified principal from the specified list of principals.
 old-location: security\azauthorizationstore_deletepropertyitem.htm

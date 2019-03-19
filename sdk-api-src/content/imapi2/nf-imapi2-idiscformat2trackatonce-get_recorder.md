@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_Recorder
-title: IDiscFormat2TrackAtOnce::get_Recorder
+title: IDiscFormat2TrackAtOnce::get_Recorder (imapi2.h)
 author: windows-sdk-content
 description: Retrieves the recording device to use for the write operation.
 old-location: imapi\idiscformat2trackatonce_get_recorder.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.IsCheckboxChecked
-title: IPhotoProgressDialog::IsCheckboxChecked
+title: IPhotoProgressDialog::IsCheckboxChecked (photoacquire.h)
 author: windows-sdk-content
 description: The IsCheckboxChecked method indicates whether the check box in the progress dialog box (typically indicating whether to delete files after transfer) is selected.
 old-location: picacq\iphotoprogressdialog_ischeckboxchecked.htm

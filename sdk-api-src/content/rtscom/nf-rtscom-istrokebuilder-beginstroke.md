@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.BeginStroke
-title: IStrokeBuilder::BeginStroke
+title: IStrokeBuilder::BeginStroke (rtscom.h)
 author: windows-sdk-content
 description: Begins a stroke on an ink object by using packet data from a RealTimeStylus Class object.
 old-location: tablet\istrokebuilder_beginstroke.htm

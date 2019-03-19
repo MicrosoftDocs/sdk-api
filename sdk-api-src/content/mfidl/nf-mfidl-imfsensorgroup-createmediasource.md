@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.CreateMediaSource
-title: IMFSensorGroup::CreateMediaSource
+title: IMFSensorGroup::CreateMediaSource (mfidl.h)
 author: windows-sdk-content
 description: Creates an IMFMediaSource that virtualizes the sensor group.
 old-location: mf\imfsensorgroup_createmediasource.htm

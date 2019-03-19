@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.AddStroke
-title: AddStroke function
+title: AddStroke function (recapis.h)
 author: windows-sdk-content
 description: Adds an ink stroke to the RecognizerContext.
 old-location: tablet\addstroke.htm

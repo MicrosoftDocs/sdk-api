@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1.D2D1_RENDER_TARGET_PROPERTIES
-title: D2D1_RENDER_TARGET_PROPERTIES
+title: D2D1_RENDER_TARGET_PROPERTIES (d2d1.h)
 author: windows-sdk-content
 description: Contains rendering options (hardware or software), pixel format, DPI information, remoting options, and Direct3D support requirements for a render target.
 old-location: direct2d\D2D1_RENDER_TARGET_PROPERTIES.htm

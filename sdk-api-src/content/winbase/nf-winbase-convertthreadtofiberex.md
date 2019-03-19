@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ConvertThreadToFiberEx
-title: ConvertThreadToFiberEx function
+title: ConvertThreadToFiberEx function (winbase.h)
 author: windows-sdk-content
 description: Converts the current thread into a fiber. You must convert a thread into a fiber before you can schedule other fibers.
 old-location: base\convertthreadtofiberex.htm

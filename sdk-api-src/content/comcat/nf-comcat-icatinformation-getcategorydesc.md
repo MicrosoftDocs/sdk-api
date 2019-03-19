@@ -1,6 +1,6 @@
 ---
 UID: NF:comcat.ICatInformation.GetCategoryDesc
-title: ICatInformation::GetCategoryDesc
+title: ICatInformation::GetCategoryDesc (comcat.h)
 author: windows-sdk-content
 description: Retrieves the localized description string for a specific category ID.
 old-location: com\icatinformation_getcategorydesc.htm

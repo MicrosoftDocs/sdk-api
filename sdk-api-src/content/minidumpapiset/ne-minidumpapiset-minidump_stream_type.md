@@ -1,6 +1,6 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_STREAM_TYPE
-title: MINIDUMP_STREAM_TYPE
+title: MINIDUMP_STREAM_TYPE (minidumpapiset.h)
 author: windows-sdk-content
 description: Represents the type of a minidump data stream.
 old-location: base\minidump_stream_type.htm

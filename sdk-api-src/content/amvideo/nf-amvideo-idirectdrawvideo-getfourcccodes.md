@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetFourCCCodes
-title: IDirectDrawVideo::GetFourCCCodes
+title: IDirectDrawVideo::GetFourCCCodes (amvideo.h)
 author: windows-sdk-content
 description: The GetFourCCCodes method retrieves the multimedia format type.
 old-location: dshow\idirectdrawvideo_getfourcccodes.htm

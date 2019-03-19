@@ -1,6 +1,6 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Title
-title: IProvideWinSATAssessmentInfo::get_Title
+title: IProvideWinSATAssessmentInfo::get_Title (winsatcominterfacei.h)
 author: windows-sdk-content
 description: Retrieves the title of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_title.htm

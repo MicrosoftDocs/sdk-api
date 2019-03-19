@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.CreateTraceDataProvider
-title: ITraceDataProviderCollection::CreateTraceDataProvider
+title: ITraceDataProviderCollection::CreateTraceDataProvider (pla.h)
 author: windows-sdk-content
 description: Creates a trace data provider object.
 old-location: pla\itracedataprovidercollection_createtracedataprovider.htm

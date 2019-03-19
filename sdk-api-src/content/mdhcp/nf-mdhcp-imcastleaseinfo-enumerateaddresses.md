@@ -1,6 +1,6 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.EnumerateAddresses
-title: IMcastLeaseInfo::EnumerateAddresses
+title: IMcastLeaseInfo::EnumerateAddresses (mdhcp.h)
 author: windows-sdk-content
 description: The EnumerateAddresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Addresses instead.
 old-location: tapi3\imcastleaseinfo_enumerateaddresses.htm

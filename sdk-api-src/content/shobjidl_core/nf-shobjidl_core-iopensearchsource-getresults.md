@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IOpenSearchSource.GetResults
-title: IOpenSearchSource::GetResults
+title: IOpenSearchSource::GetResults (shobjidl_core.h)
 author: windows-sdk-content
 description: Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.
 old-location: shell\IOpenSearchSource_GetResults.htm

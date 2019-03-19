@@ -1,6 +1,6 @@
 ---
 UID: NN:tvratings.IXDSToRat
-title: IXDSToRat
+title: IXDSToRat (tvratings.h)
 author: windows-sdk-content
 description: The IXDSToRat interface parses rating information from extended data services (XDS) information in line 21.
 old-location: mstv\ixdstorat.htm

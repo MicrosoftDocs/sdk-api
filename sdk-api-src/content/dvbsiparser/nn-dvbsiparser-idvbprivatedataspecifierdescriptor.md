@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IDvbPrivateDataSpecifierDescriptor
-title: IDvbPrivateDataSpecifierDescriptor
+title: IDvbPrivateDataSpecifierDescriptor (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) private data descriptor. The private data descriptor describes broadcaster-specific data that is not part of the official MPEG-2 standard for broadcast streams.
 old-location: mstv\idvbprivatedataspecifierdescriptor.htm

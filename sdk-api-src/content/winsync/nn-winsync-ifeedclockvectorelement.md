@@ -1,6 +1,6 @@
 ---
 UID: NN:winsync.IFeedClockVectorElement
-title: IFeedClockVectorElement
+title: IFeedClockVectorElement (winsync.h)
 author: windows-sdk-content
 description: Represents a clock vector element that contains FeedSync information.
 old-location: winsync\ifeedclockvectorelement.htm

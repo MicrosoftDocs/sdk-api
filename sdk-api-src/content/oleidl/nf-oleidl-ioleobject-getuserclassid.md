@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserClassID
-title: IOleObject::GetUserClassID
+title: IOleObject::GetUserClassID (oleidl.h)
 author: windows-sdk-content
 description: Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.
 old-location: com\ioleobject_getuserclassid.htm

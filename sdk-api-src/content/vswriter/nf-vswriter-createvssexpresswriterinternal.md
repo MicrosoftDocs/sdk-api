@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CreateVssExpressWriterInternal
-title: CreateVssExpressWriterInternal function
+title: CreateVssExpressWriterInternal function (vswriter.h)
 author: windows-sdk-content
 description: Creates an IVssExpressWriter interface object and returns a pointer to it.
 old-location: base\createvssexpresswriter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.get_hasDisplay
-title: IWMPPlayerApplication::get_hasDisplay
+title: IWMPPlayerApplication::get_hasDisplay (wmp.h)
 author: windows-sdk-content
 description: The get_hasDisplay method retrieves a value indicating whether video can display through the remoted Windows Media Player control.
 old-location: wmp\iwmpplayerapplication_get_hasdisplay.htm

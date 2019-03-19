@@ -1,6 +1,6 @@
 ---
 UID: NS:credssp._CREDSSP_CRED
-title: CREDSSP_CRED
+title: CREDSSP_CRED (credssp.h)
 author: windows-sdk-content
 description: Specifies authentication data for both Schannel and Negotiate security packages.
 old-location: security\credssp_cred.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dskquota.IDiskQuotaUser
-title: IDiskQuotaUser
+title: IDiskQuotaUser (dskquota.h)
 author: windows-sdk-content
 description: Represents a single user quota entry in the volume quota information file.
 old-location: fs\idiskquotauser.htm

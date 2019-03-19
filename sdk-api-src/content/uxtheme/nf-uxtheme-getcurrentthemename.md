@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetCurrentThemeName
-title: GetCurrentThemeName function
+title: GetCurrentThemeName function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the name of the current visual style, and optionally retrieves the color scheme name and size name.
 old-location: controls\GetCurrentThemeName.htm

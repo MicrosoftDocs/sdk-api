@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_KEYMODULE_STATISTICS1_
-title: IKEEXT_KEYMODULE_STATISTICS1
+title: IKEEXT_KEYMODULE_STATISTICS1 (iketypes.h)
 author: windows-sdk-content
 description: Contains various statistics specific to the keying module.
 old-location: fwp\ikeext_keymodule_statistics1.htm

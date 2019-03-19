@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_USER_STREAM_INFORMATION
-title: MINIDUMP_USER_STREAM_INFORMATION
+title: MINIDUMP_USER_STREAM_INFORMATION (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains a list of user data streams used by the MiniDumpWriteDump function.
 old-location: base\minidump_user_stream_information_str.htm

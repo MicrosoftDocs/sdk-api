@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETSIGNALSTATUS
-title: PDD_VPORTCB_GETSIGNALSTATUS
+title: PDD_VPORTCB_GETSIGNALSTATUS (ddrawint.h)
 author: windows-sdk-content
 description: The DdVideoPortGetSignalStatus callback function retrieves the status of the video signal currently being presented to the hardware video port.
 old-location: display\ddvideoportgetsignalstatus.htm

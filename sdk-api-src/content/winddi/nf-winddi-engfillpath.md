@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngFillPath
-title: EngFillPath function
+title: EngFillPath function (winddi.h)
 author: windows-sdk-content
 description: The EngFillPath function fills a path.
 old-location: display\engfillpath.htm

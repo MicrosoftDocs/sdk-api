@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerFreeBuffer
-title: WdsTransportServerFreeBuffer function
+title: WdsTransportServerFreeBuffer function (wdstpdi.h)
 author: windows-sdk-content
 description: Releases memory used by a buffer.
 old-location: wds\wdstransportserverfreebuffer.htm

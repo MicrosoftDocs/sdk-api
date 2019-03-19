@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1svg.D2D1_SVG_VIEWBOX
-title: D2D1_SVG_VIEWBOX
+title: D2D1_SVG_VIEWBOX (d2d1svg.h)
 author: windows-sdk-content
 description: Represents an SVG viewBox.
 old-location: direct2d\d2d1_svg_viewbox.htm

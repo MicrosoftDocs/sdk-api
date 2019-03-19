@@ -1,6 +1,6 @@
 ---
 UID: NN:casetup.IMSCEPSetup
-title: IMSCEPSetup
+title: IMSCEPSetup (casetup.h)
 author: windows-sdk-content
 description: Defines functionality to install and uninstall a Network Device Enrollment Service (NDES) role on a Certificate Services computer.
 old-location: security\imscepsetup.htm

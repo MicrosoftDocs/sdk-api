@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DCompile
-title: D3DCompile function
+title: D3DCompile function (d3dcompiler.h)
 author: windows-sdk-content
 description: Compile HLSL code or an effect file into bytecode for a given target.
 old-location: direct3dhlsl\d3dcompile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:winsxs.__MIDL_IAssemblyName_0004
-title: ASM_CMP_FLAGS
+title: ASM_CMP_FLAGS (winsxs.h)
 author: windows-sdk-content
 description: The values of the ASM_CMP_FLAGS enumeration are used by the IsEqual method to specify which portions of two assembly names to compare.
 old-location: setup\asm_cmp_flags_.htm

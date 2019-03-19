@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.CALL_STATE_EVENT_CAUSE
-title: CALL_STATE_EVENT_CAUSE
+title: CALL_STATE_EVENT_CAUSE (tapi3if.h)
 author: windows-sdk-content
 description: The CALL_STATE_EVENT_CAUSE enum is returned by the ITCallStateEvent::get_Cause method.
 old-location: tapi3\call_state_event_cause.htm

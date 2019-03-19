@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.GetDisplayModeEx
-title: IDirect3DDevice9Ex::GetDisplayModeEx
+title: IDirect3DDevice9Ex::GetDisplayModeEx (d3d9.h)
 author: windows-sdk-content
 description: Retrieves the display mode's spatial resolution, color resolution, refresh frequency, and rotation settings.
 old-location: direct3d9\idirect3ddevice9ex_getdisplaymodeex.htm

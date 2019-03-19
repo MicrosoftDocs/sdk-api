@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMConvertToRadians
-title: XMConvertToRadians function
+title: XMConvertToRadians function (directxmath.h)
 author: windows-sdk-content
 description: Converts an angle measured in degrees into one measured in radians.
 old-location: dxmath\xmconverttoradians.htm

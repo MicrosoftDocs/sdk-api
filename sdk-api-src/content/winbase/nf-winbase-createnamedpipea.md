@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.CreateNamedPipeA
-title: CreateNamedPipeA function
+title: CreateNamedPipeA function (winbase.h)
 author: windows-sdk-content
 description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations.
 old-location: base\createnamedpipe.htm

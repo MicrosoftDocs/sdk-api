@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_REQUEST_HEADERS
-title: HTTP_REQUEST_HEADERS
+title: HTTP_REQUEST_HEADERS (http.h)
 author: windows-sdk-content
 description: Contains headers sent with an HTTP request.
 old-location: http\http_request_headers.htm

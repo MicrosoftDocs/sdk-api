@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetIconOverlayIndexA
-title: SHGetIconOverlayIndexA function
+title: SHGetIconOverlayIndexA function (shlobj_core.h)
 author: windows-sdk-content
 description: Returns the index of the overlay icon in the system image list.
 old-location: shell\SHGetIconOverlayIndex.htm

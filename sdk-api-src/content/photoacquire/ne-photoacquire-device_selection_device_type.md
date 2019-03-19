@@ -1,6 +1,6 @@
 ---
 UID: NE:photoacquire.tagDEVICE_SELECTION_DEVICE_TYPE
-title: DEVICE_SELECTION_DEVICE_TYPE
+title: DEVICE_SELECTION_DEVICE_TYPE (photoacquire.h)
 author: windows-sdk-content
 description: The DEVICE_SELECTION_DEVICE_TYPE enumeration type indicates the type of a selected device.
 old-location: picacq\device_selection_device_type.htm

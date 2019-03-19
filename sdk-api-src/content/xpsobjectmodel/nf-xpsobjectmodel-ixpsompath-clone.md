@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.Clone
-title: IXpsOMPath::Clone
+title: IXpsOMPath::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsompath_clone.htm

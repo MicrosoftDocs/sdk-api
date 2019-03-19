@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInGetPosition
-title: waveInGetPosition function
+title: waveInGetPosition function (mmeapi.h)
 author: windows-sdk-content
 description: waveInGetPosition is no longer supported for use as of Windows Vista.
 old-location: multimedia\waveingetposition.htm

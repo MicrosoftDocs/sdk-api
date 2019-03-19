@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetEnableUDP
-title: IWMReaderNetworkConfig::GetEnableUDP
+title: IWMReaderNetworkConfig::GetEnableUDP (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetEnableUDP method queries whether UDP is enabled for protocol rollover.
 old-location: wmformat\iwmreadernetworkconfig_getenableudp.htm

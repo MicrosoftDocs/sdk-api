@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreatePalette
-title: IWICImagingFactory::CreatePalette
+title: IWICImagingFactory::CreatePalette (wincodec.h)
 author: windows-sdk-content
 description: Creates a new instance of the IWICPalette class.
 old-location: wic\_wic_codec_iwicimagingfactory_createpalette.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.GetByPartName
-title: IXpsOMFontResourceCollection::GetByPartName
+title: IXpsOMFontResourceCollection::GetByPartName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMFontResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomfontresourcecollection_getbypartname.htm

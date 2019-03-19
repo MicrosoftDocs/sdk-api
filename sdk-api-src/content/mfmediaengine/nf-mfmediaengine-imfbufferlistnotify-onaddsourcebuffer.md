@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFBufferListNotify.OnAddSourceBuffer
-title: IMFBufferListNotify::OnAddSourceBuffer
+title: IMFBufferListNotify::OnAddSourceBuffer (mfmediaengine.h)
 author: windows-sdk-content
 description: Indicates that a IMFSourceBuffer has been added.
 old-location: mf\imfbufferlistnotify_onaddsourcebuffer.htm

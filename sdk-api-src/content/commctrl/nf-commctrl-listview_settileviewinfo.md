@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_SetTileViewInfo
-title: ListView_SetTileViewInfo macro
+title: ListView_SetTileViewInfo macro (commctrl.h)
 author: windows-sdk-content
 description: Sets information that a list-view control uses in tile view. You can use this macro or send the LVM_SETTILEVIEWINFO message explicitly.
 old-location: controls\ListView_SetTileViewInfo.htm

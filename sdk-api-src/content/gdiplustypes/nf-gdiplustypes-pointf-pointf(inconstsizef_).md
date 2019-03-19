@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF(IN const SizeF &)
-title: PointF::PointF(IN const SizeF &)
+title: PointF::PointF(IN const SizeF &) (gdiplustypes.h)
 author: windows-sdk-content
 description: Creates a PointF object using a SizeF object to specify the X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_size_.htm

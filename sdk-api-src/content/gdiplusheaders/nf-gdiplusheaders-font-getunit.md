@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.Font.GetUnit
-title: Font::GetUnit
+title: Font::GetUnit (gdiplusheaders.h)
 author: windows-sdk-content
 description: The Font::GetUnit method returns the unit of measure of this Font object.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetUnit_.htm

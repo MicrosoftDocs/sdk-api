@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Blt
-title: IDirectDrawSurface7::Blt
+title: IDirectDrawSurface7::Blt (ddraw.h)
 author: windows-sdk-content
 description: Performs a bit block transfer (bitblt). This method does not support z-buffering or alpha blending during bitblt operations.
 old-location: directdraw\idirectdrawsurface7_blt.htm

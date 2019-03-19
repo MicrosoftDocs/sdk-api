@@ -1,6 +1,6 @@
 ---
 UID: NS:strmif._VIDEO_STREAM_CONFIG_CAPS
-title: VIDEO_STREAM_CONFIG_CAPS
+title: VIDEO_STREAM_CONFIG_CAPS (strmif.h)
 author: windows-sdk-content
 description: The VIDEO_STREAM_CONFIG_CAPS structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
 old-location: dshow\video_stream_config_caps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL)
-title: Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL)
+title: Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL) (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::DrawPie method draws a pie.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetFlags
-title: IExplorerCommand::GetFlags
+title: IExplorerCommand::GetFlags (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the flags associated with a Windows Explorer command.
 old-location: shell\IExplorerCommand_GetFlags.htm

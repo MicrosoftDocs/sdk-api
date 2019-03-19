@@ -1,6 +1,6 @@
 ---
 UID: NF:winber.ber_alloc_t
-title: ber_alloc_t function
+title: ber_alloc_t function (winber.h)
 author: windows-sdk-content
 description: Allocates and constructs a new BerElement structure.
 old-location: ldap\ber_alloc_t.htm

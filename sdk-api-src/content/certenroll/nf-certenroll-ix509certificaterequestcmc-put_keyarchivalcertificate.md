@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_KeyArchivalCertificate
-title: IX509CertificateRequestCmc::put_KeyArchivalCertificate
+title: IX509CertificateRequestCmc::put_KeyArchivalCertificate (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a certification authority (CA) encryption certificate.
 old-location: security\ix509certificaterequestcmc_keyarchivalcertificate_property.htm

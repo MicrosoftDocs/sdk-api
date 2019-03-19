@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_ReceiveTime
-title: IFaxTiff::get_ReceiveTime
+title: IFaxTiff::get_ReceiveTime (faxcom.h)
 author: windows-sdk-content
 description: Retrieves the ReceiveTime property for a FaxTiff object.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_receivetime_cpp.htm

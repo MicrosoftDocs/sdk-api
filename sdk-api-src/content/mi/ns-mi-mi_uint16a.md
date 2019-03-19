@@ -1,6 +1,6 @@
 ---
 UID: NS:mi._MI_Uint16A
-title: MI_Uint16A
+title: MI_Uint16A (mi.h)
 author: windows-sdk-content
 description: Represents an array of MI_Uint16 types.
 old-location: wmi_v2\mi_uint16a.htm

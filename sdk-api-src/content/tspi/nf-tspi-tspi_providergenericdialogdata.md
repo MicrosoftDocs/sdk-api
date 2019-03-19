@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_providerGenericDialogData
-title: TSPI_providerGenericDialogData function
+title: TSPI_providerGenericDialogData function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_providerGenericDialogData function delivers to the service provider data that was sent from the UI DLL running in an application context through the TUISPIDLLCALLBACK function.
 old-location: tspi\tspi_providergenericdialogdata.htm

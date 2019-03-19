@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._POWER_PLATFORM_ROLE
-title: POWER_PLATFORM_ROLE
+title: POWER_PLATFORM_ROLE (winnt.h)
 author: windows-sdk-content
 description: Indicates the OEM's preferred power management profile.
 old-location: base\power_platform_role.htm

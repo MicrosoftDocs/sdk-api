@@ -1,6 +1,6 @@
 ---
 UID: NS:fwptypes.FWP_RANGE0_
-title: FWP_RANGE0
+title: FWP_RANGE0 (fwptypes.h)
 author: windows-sdk-content
 description: Specifies a range of values.
 old-location: fwp\fwp_range0.htm

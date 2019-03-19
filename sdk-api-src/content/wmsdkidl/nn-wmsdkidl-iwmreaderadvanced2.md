@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced2
-title: IWMReaderAdvanced2
+title: IWMReaderAdvanced2 (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMReaderAdvanced2 interface provides additional advanced methods for a reader object.
 old-location: wmformat\iwmreaderadvanced2.htm

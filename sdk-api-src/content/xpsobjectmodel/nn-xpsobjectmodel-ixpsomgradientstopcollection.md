@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStopCollection
-title: IXpsOMGradientStopCollection
+title: IXpsOMGradientStopCollection (xpsobjectmodel.h)
 author: windows-sdk-content
 description: A collection of IXpsOMGradientStop interface pointers.
 old-location: xps\ixpsomgradientstopcollection.htm

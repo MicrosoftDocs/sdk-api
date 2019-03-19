@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.Get
-title: IWbemClassObject::Get
+title: IWbemClassObject::Get (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::Get method retrieves the specified property value, if it exists. This method can also return system properties.
 old-location: wmi\iwbemclassobject_get.htm

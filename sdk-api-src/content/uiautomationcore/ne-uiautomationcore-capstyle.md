@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.CapStyle
-title: CapStyle
+title: CapStyle (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values that specify the value of the CapStyle text attribute.
 old-location: winauto\uiauto_CapStyleEnum.htm

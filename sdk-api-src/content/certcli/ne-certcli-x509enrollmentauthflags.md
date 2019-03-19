@@ -1,6 +1,6 @@
 ---
 UID: NE:certcli.X509EnrollmentAuthFlags
-title: X509EnrollmentAuthFlags
+title: X509EnrollmentAuthFlags (certcli.h)
 author: windows-sdk-content
 description: Specifies the authentication type.
 old-location: security\x509enrollmentauthflags.htm

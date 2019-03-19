@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioCaptureSampleWithCallback
-title: WinBioCaptureSampleWithCallback function
+title: WinBioCaptureSampleWithCallback function (winbio.h)
 author: windows-sdk-content
 description: Captures a biometric sample asynchronously and returns the raw or processed data in a biometric information record (BIR).
 old-location: secbiomet\winbiocapturesamplewithcallback.htm

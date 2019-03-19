@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonState
-title: ITPhone::get_ButtonState
+title: ITPhone::get_ButtonState (tapi3if.h)
 author: windows-sdk-content
 description: The get_ButtonState method retrieves the button state associated with a particular button.
 old-location: tapi3\itphone_get_buttonstate.htm

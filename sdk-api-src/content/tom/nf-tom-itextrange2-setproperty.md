@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetProperty
-title: ITextRange2::SetProperty
+title: ITextRange2::SetProperty (tom.h)
 author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextrange2_setproperty.htm

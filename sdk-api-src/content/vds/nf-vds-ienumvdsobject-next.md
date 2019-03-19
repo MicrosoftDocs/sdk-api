@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IEnumVdsObject.Next
-title: IEnumVdsObject::Next
+title: IEnumVdsObject::Next (vds.h)
 author: windows-sdk-content
 description: Returns a specified number of objects in the enumeration, beginning from the current point. For more information, see Working with Enumeration Objects.
 old-location: base\ienumvdsobject_next.htm

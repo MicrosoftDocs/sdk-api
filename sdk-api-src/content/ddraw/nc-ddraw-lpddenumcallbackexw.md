@@ -1,6 +1,6 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKEXW
-title: LPDDENUMCALLBACKEXW
+title: LPDDENUMCALLBACKEXW (ddraw.h)
 author: windows-sdk-content
 description: The DDEnumCallbackEx function is an application-defined callback function for the DirectDrawEnumerateEx function.
 old-location: directdraw\ddenumcallbackex.htm

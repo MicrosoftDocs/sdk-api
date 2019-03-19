@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Edit_GetFileLineLength
-title: Edit_GetFileLineLength macro
+title: Edit_GetFileLineLength macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the length of the file (or logical) line of text from the specified character index (text wrap delimiters are ignored). You can use this macro or send the EM_FILELINELENGTH message explicitly.
 old-location: controls\edit_getfilelinelength.htm

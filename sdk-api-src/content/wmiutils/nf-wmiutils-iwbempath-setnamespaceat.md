@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetNamespaceAt
-title: IWbemPath::SetNamespaceAt
+title: IWbemPath::SetNamespaceAt (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPath::SetNamespace method sets a namespace in a path using zero-based indexing to designate where in the path the namespace is positioned.
 old-location: wmi\iwbempath_setnamespaceat.htm

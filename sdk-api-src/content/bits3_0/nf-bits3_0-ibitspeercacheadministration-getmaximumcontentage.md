@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetMaximumContentAge
-title: IBitsPeerCacheAdministration::GetMaximumContentAge
+title: IBitsPeerCacheAdministration::GetMaximumContentAge (bits3_0.h)
 author: windows-sdk-content
 description: Gets the age by when files are removed from the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcontentage.htm

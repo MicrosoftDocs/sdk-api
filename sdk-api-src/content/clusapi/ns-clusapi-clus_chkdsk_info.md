@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_CHKDSK_INFO
-title: CLUS_CHKDSK_INFO
+title: CLUS_CHKDSK_INFO (clusapi.h)
 author: windows-sdk-content
 description: Represents information about a Chkdsk operation.
 old-location: mscs\clus_chkdsk_info.htm

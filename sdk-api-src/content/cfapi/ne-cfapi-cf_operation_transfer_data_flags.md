@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPERATION_TRANSFER_DATA_FLAGS
-title: CF_OPERATION_TRANSFER_DATA_FLAGS
+title: CF_OPERATION_TRANSFER_DATA_FLAGS (cfapi.h)
 author: windows-sdk-content
 description: Flags to transfer data to hydrate a placeholder file or folder.
 old-location: cloudapi\cf_operation_transfer_data_flags.htm

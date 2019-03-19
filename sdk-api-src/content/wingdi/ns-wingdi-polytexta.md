@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagPOLYTEXTA
-title: POLYTEXTA
+title: POLYTEXTA (wingdi.h)
 author: windows-sdk-content
 description: The POLYTEXT structure describes how the PolyTextOut function should draw a string of text.
 old-location: gdi\polytext.htm

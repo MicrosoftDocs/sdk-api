@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetDelay
-title: IShellImageData::GetDelay
+title: IShellImageData::GetDelay (shimgdata.h)
 author: windows-sdk-content
 description: Gets the delay value for the current frame of an animation.
 old-location: shell\IShellImageData_GetDelay.htm

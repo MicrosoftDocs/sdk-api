@@ -1,6 +1,6 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_FragmentDialect
-title: IWSManResourceLocator::get_FragmentDialect
+title: IWSManResourceLocator::get_FragmentDialect (wsmandisp.h)
 author: windows-sdk-content
 description: Gets or sets the language dialect for a resource fragment dialect when IWSManResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_fragmentdialect.htm

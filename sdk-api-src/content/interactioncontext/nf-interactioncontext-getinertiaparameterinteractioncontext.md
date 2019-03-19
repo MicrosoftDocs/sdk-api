@@ -1,6 +1,6 @@
 ---
 UID: NF:interactioncontext.GetInertiaParameterInteractionContext
-title: GetInertiaParameterInteractionContext function
+title: GetInertiaParameterInteractionContext function (interactioncontext.h)
 author: windows-sdk-content
 description: Gets the inertia behavior of a manipulation (translation, rotation, scaling).
 old-location: input_intcontext\getinertiaparameterinteractioncontext.htm

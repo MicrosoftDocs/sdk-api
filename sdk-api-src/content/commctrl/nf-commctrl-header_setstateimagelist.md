@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.Header_SetStateImageList
-title: Header_SetStateImageList macro
+title: Header_SetStateImageList macro (commctrl.h)
 author: windows-sdk-content
 description: Assigns an image list to an existing header control state.
 old-location: controls\Header_SetStateImageList.htm

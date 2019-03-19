@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkQueryStatus
-title: WlanHostedNetworkQueryStatus function
+title: WlanHostedNetworkQueryStatus function (wlanapi.h)
 author: windows-sdk-content
 description: Queries the current status of the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkquerystatus.htm

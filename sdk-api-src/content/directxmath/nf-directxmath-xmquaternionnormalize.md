@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMQuaternionNormalize
-title: XMQuaternionNormalize function
+title: XMQuaternionNormalize function (directxmath.h)
 author: windows-sdk-content
 description: Normalizes a quaternion.
 old-location: dxmath\xmquaternionnormalize.htm

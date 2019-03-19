@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_PREFERRED_MODE
-title: DISPLAYCONFIG_TARGET_PREFERRED_MODE
+title: DISPLAYCONFIG_TARGET_PREFERRED_MODE (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_TARGET_PREFERRED_MODE structure contains information about the preferred mode of a display.
 old-location: display\displayconfig_target_preferred_mode.htm

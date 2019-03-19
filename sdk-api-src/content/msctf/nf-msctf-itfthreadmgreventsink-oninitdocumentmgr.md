@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnInitDocumentMgr
-title: ITfThreadMgrEventSink::OnInitDocumentMgr
+title: ITfThreadMgrEventSink::OnInitDocumentMgr (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnInitDocumentMgr method
 old-location: tsf\itfthreadmgreventsink_oninitdocumentmgr.htm

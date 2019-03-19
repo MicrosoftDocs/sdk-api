@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_COUNTER_INFO
-title: D3D10_COUNTER_INFO
+title: D3D10_COUNTER_INFO (d3d10.h)
 author: windows-sdk-content
 description: Information about the video card's performance counter capabilities.
 old-location: direct3d10\d3d10_counter_info.htm

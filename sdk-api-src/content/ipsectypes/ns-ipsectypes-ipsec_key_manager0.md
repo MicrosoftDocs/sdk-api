@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes._IPSEC_KEY_MANAGER0
-title: IPSEC_KEY_MANAGER0
+title: IPSEC_KEY_MANAGER0 (ipsectypes.h)
 author: windows-sdk-content
 description: Used to register key management callbacks with IPsec.
 old-location: fwp\ipsec_key_manager0.htm

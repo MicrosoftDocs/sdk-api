@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Shrink
-title: ITfPropertyStore::Shrink
+title: ITfPropertyStore::Shrink (msctf.h)
 author: windows-sdk-content
 description: ITfPropertyStore::Shrink method
 old-location: tsf\itfpropertystore_shrink.htm

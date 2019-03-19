@@ -1,6 +1,6 @@
 ---
 UID: NN:taskschd.IRegistrationInfo
-title: IRegistrationInfo
+title: IRegistrationInfo (taskschd.h)
 author: windows-sdk-content
 description: Provides the administrative information that can be used to describe the task.
 old-location: taskschd\iregistrationinfo.htm

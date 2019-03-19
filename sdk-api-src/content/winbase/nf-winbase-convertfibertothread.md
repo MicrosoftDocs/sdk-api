@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.ConvertFiberToThread
-title: ConvertFiberToThread function
+title: ConvertFiberToThread function (winbase.h)
 author: windows-sdk-content
 description: Converts the current fiber into a thread.
 old-location: base\convertfibertothread.htm

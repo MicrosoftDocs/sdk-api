@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FatalExit
-title: FatalExit function
+title: FatalExit function (winbase.h)
 author: windows-sdk-content
 description: Transfers execution control to the debugger. The behavior of the debugger thereafter is specific to the type of debugger used.
 old-location: base\fatalexit.htm

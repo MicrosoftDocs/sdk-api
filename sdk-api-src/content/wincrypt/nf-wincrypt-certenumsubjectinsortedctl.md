@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertEnumSubjectInSortedCTL
-title: CertEnumSubjectInSortedCTL function
+title: CertEnumSubjectInSortedCTL function (wincrypt.h)
 author: windows-sdk-content
 description: Retrieves the first or next TrustedSubject in a sorted certificate trust list (CTL).
 old-location: security\certenumsubjectinsortedctl.htm

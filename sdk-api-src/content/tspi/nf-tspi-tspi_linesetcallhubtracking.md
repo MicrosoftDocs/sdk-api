@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallHubTracking
-title: TSPI_lineSetCallHubTracking function
+title: TSPI_lineSetCallHubTracking function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_lineSetCallHubTracking function sets the CallHub tracking mode. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linesetcallhubtracking.htm

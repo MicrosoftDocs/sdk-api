@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileSysInfo.GetFileSize
-title: IOfflineFilesFileSysInfo::GetFileSize
+title: IOfflineFilesFileSysInfo::GetFileSize (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the size of an item.
 old-location: of\iofflinefilesfilesysinfo_getfilesize.htm

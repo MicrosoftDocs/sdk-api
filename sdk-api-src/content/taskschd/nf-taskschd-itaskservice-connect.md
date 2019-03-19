@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITaskService.Connect
-title: ITaskService::Connect
+title: ITaskService::Connect (taskschd.h)
 author: windows-sdk-content
 description: Connects to a remote computer and associates all subsequent calls on this interface with a remote session.
 old-location: taskschd\itaskservice_connect.htm

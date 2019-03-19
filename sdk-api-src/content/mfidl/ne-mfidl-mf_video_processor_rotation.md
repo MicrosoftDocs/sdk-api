@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_VIDEO_PROCESSOR_ROTATION
-title: MF_VIDEO_PROCESSOR_ROTATION
+title: MF_VIDEO_PROCESSOR_ROTATION (mfidl.h)
 author: windows-sdk-content
 description: Specifies how to rotate a video image.
 old-location: mf\mf_video_processor_rotation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_15
-title: WS_ENCODING
+title: WS_ENCODING (webservices.h)
 author: windows-sdk-content
 description: The different encodings (message formats).
 old-location: wsw\ws_encoding.htm

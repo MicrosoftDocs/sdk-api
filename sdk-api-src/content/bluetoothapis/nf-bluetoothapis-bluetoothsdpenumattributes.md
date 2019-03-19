@@ -1,6 +1,6 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpEnumAttributes
-title: BluetoothSdpEnumAttributes function
+title: BluetoothSdpEnumAttributes function (bluetoothapis.h)
 author: windows-sdk-content
 description: The BluetoothSdpEnumAttributes function enumerates through the SDP record stream, and calls the callback function for each attribute in the record.
 old-location: bluetooth\bluetoothsdpenumattributes.htm

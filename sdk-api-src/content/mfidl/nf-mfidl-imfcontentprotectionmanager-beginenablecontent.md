@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFContentProtectionManager.BeginEnableContent
-title: IMFContentProtectionManager::BeginEnableContent
+title: IMFContentProtectionManager::BeginEnableContent (mfidl.h)
 author: windows-sdk-content
 description: Begins an asynchronous request to perform a content enabling action.
 old-location: mf\imfcontentprotectionmanager_beginenablecontent.htm

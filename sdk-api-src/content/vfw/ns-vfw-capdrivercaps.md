@@ -1,6 +1,6 @@
 ---
 UID: NS:vfw.tagCapDriverCaps
-title: CAPDRIVERCAPS
+title: CAPDRIVERCAPS (vfw.h)
 author: windows-sdk-content
 description: The CAPDRIVERCAPS structure defines the capabilities of the capture driver.An application should use the WM_CAP_DRIVER_GET_CAPS message or capDriverGetCaps macro to place a copy of the driver capabilities in a CAPDRIVERCAPS structure whenever the application connects a capture window to a capture driver.
 old-location: multimedia\capdrivercaps.htm

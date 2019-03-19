@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnAbort
-title: IMFSourceBufferNotify::OnAbort
+title: IMFSourceBufferNotify::OnAbort (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to indicate that the source buffer has been aborted.
 old-location: mf\imfsourcebuffernotify_onabort.htm

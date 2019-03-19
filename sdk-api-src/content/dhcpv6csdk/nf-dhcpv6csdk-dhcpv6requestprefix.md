@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RequestPrefix
-title: Dhcpv6RequestPrefix function
+title: Dhcpv6RequestPrefix function (dhcpv6csdk.h)
 author: windows-sdk-content
 description: Requests a specific prefix.
 old-location: dhcp\dhcpv6requestprefix.htm

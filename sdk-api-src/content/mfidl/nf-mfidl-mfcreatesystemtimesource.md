@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateSystemTimeSource
-title: MFCreateSystemTimeSource function
+title: MFCreateSystemTimeSource function (mfidl.h)
 author: windows-sdk-content
 description: Creates a presentation time source that is based on the system time.
 old-location: mf\mfcreatesystemtimesource.htm

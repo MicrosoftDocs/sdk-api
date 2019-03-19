@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhBrowseCountersA
-title: PdhBrowseCountersA function
+title: PdhBrowseCountersA function (pdh.h)
 author: windows-sdk-content
 description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. To use handles to data sources, use the PdhBrowseCountersH function.
 old-location: perf\pdhbrowsecounters.htm

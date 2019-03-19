@@ -1,6 +1,6 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetTextExt
-title: ITextStoreACP2::GetTextExt
+title: ITextStoreACP2::GetTextExt (textstor.h)
 author: windows-sdk-content
 description: Gets the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreacp2_gettextext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Flags
-title: IRDPSRAPIVirtualChannel::get_Flags
+title: IRDPSRAPIVirtualChannel::get_Flags (rdpencomapi.h)
 author: windows-sdk-content
 description: The channel flags. This property is reserved for future use.
 old-location: rdp\irdpsrapivirtualchannel_flags.htm

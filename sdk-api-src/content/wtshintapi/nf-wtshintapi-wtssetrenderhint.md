@@ -1,6 +1,6 @@
 ---
 UID: NF:wtshintapi.WTSSetRenderHint
-title: WTSSetRenderHint function
+title: WTSSetRenderHint function (wtshintapi.h)
 author: windows-sdk-content
 description: Used by an application that is displaying content that can be optimized for displaying in a remote session to identify the region of a window that is the actual content.
 old-location: termserv\wtssetrenderhint.htm

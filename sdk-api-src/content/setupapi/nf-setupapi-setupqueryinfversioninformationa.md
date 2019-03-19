@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupQueryInfVersionInformationA
-title: SetupQueryInfVersionInformationA function
+title: SetupQueryInfVersionInformationA function (setupapi.h)
 author: windows-sdk-content
 description: The SetupQueryInfVersionInformation function returns INF file version information from an SP_INF_INFORMATION structure to a buffer.
 old-location: setup\setupqueryinfversioninformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFolder
-title: IFileDialog::SetFolder
+title: IFileDialog::SetFolder (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a folder that is always selected when the dialog is opened, regardless of previous user action.
 old-location: shell\IFileDialog_SetFolder.htm

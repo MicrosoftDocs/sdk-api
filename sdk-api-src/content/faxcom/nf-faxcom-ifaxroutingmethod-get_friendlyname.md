@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_FriendlyName
-title: IFaxRoutingMethod::get_FriendlyName
+title: IFaxRoutingMethod::get_FriendlyName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethod::get_FriendlyName property is a null-terminated string that contains the user-friendly name for a fax routing method.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_friendlyname_cpp.htm

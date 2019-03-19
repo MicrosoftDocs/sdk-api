@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.get_Message
-title: IFaxIncomingMessageIterator::get_Message
+title: IFaxIncomingMessageIterator::get_Message (faxcomex.h)
 author: windows-sdk-content
 description: The Message property retrieves the inbound fax message under the archive cursor.
 old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_message_cpp.htm

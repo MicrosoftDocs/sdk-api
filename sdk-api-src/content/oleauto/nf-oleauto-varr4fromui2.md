@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarR4FromUI2
-title: VarR4FromUI2 function
+title: VarR4FromUI2 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an unsigned short value to a float value.
 old-location: automat\varr4fromui2.htm

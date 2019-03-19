@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IViewObject2.GetExtent
-title: IViewObject2::GetExtent
+title: IViewObject2::GetExtent (oleidl.h)
 author: windows-sdk-content
 description: Retrieves the size that the specified view object will be drawn on the specified target device.
 old-location: com\iviewobject2_getextent.htm

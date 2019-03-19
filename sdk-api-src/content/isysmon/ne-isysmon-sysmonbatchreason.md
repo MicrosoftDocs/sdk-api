@@ -1,6 +1,6 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0003
-title: SysmonBatchReason
+title: SysmonBatchReason (isysmon.h)
 author: windows-sdk-content
 description: Defines the reason for locking the System Monitor.
 old-location: sysmon\sysmonbatchreason.htm

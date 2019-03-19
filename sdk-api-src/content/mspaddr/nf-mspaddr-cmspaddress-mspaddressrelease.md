@@ -1,6 +1,6 @@
 ---
 UID: NF:mspaddr.CMSPAddress.MSPAddressRelease
-title: CMSPAddress::MSPAddressRelease
+title: CMSPAddress::MSPAddressRelease (mspaddr.h)
 author: windows-sdk-content
 description: The MSPAddressRelease method is the private Release method for the address.
 old-location: tapi3\cmspaddress_mspaddressrelease.htm

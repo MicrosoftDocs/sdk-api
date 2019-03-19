@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetMenuState
-title: GetMenuState function
+title: GetMenuState function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the menu flags associated with the specified menu item.
 old-location: menurc\getmenustate.htm

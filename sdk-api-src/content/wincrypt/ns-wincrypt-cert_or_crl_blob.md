@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_OR_CRL_BLOB
-title: CERT_OR_CRL_BLOB
+title: CERT_OR_CRL_BLOB (wincrypt.h)
 author: windows-sdk-content
 description: Encapsulates certificates for use with Internet Key Exchange messages.
 old-location: security\cert_or_crl_blob.htm

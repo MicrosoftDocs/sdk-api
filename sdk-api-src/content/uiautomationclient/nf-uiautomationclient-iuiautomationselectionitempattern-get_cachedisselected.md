@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.get_CachedIsSelected
-title: IUIAutomationSelectionItemPattern::get_CachedIsSelected
+title: IUIAutomationSelectionItemPattern::get_CachedIsSelected (uiautomationclient.h)
 author: windows-sdk-content
 description: A cached value that indicates whether this item is selected.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected.htm

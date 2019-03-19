@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IS_HIGH_SURROGATE
-title: IS_HIGH_SURROGATE macro
+title: IS_HIGH_SURROGATE macro (winnls.h)
 author: windows-sdk-content
 description: Determines if a character is a UTF-16 high surrogate code point, ranging from 0xd800 to 0xdbff, inclusive.
 old-location: intl\is_high_surrogate.htm

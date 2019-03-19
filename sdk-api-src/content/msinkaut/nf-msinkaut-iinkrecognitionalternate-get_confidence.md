@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Confidence
-title: IInkRecognitionAlternate::get_Confidence
+title: IInkRecognitionAlternate::get_Confidence (msinkaut.h)
 author: windows-sdk-content
 description: Gets the level of confidence (strong, intermediate, or poor) that a recognizer has in the recognition of an IInkRecognitionAlternate object or a gesture.
 old-location: tablet\iinkrecognitionalternate_confidence.htm

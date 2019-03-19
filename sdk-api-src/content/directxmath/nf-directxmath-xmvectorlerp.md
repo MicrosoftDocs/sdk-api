@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorLerp
-title: XMVectorLerp function
+title: XMVectorLerp function (directxmath.h)
 author: windows-sdk-content
 description: Performs a linear interpolation between two vectors.
 old-location: dxmath\xmvectorlerp.htm

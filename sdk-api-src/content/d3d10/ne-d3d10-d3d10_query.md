@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10.D3D10_QUERY
-title: D3D10_QUERY
+title: D3D10_QUERY (d3d10.h)
 author: windows-sdk-content
 description: Query types.
 old-location: direct3d10\d3d10_query.htm

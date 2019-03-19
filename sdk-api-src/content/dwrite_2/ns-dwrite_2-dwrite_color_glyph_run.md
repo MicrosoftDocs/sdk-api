@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite_2.DWRITE_COLOR_GLYPH_RUN
-title: DWRITE_COLOR_GLYPH_RUN
+title: DWRITE_COLOR_GLYPH_RUN (dwrite_2.h)
 author: windows-sdk-content
 description: Contains the information needed by renderers to draw glyph runs with glyph color information.
 old-location: directwrite\dwrite_color_glyph_run.htm

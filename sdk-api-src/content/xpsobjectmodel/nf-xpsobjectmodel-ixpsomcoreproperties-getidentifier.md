@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetIdentifier
-title: IXpsOMCoreProperties::GetIdentifier
+title: IXpsOMCoreProperties::GetIdentifier (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the identifier property.
 old-location: xps\ixpsomcoreproperties_getidentifier.htm

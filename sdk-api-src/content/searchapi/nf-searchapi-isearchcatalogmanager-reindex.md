@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.Reindex
-title: ISearchCatalogManager::Reindex
+title: ISearchCatalogManager::Reindex (searchapi.h)
 author: windows-sdk-content
 description: Re-indexes all URLs in the catalog.
 old-location: search\_search_ISearchCatalogManager_Reindex.htm

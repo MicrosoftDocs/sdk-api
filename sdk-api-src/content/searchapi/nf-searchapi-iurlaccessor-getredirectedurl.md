@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetRedirectedURL
-title: IUrlAccessor::GetRedirectedURL
+title: IUrlAccessor::GetRedirectedURL (searchapi.h)
 author: windows-sdk-content
 description: Gets the redirected URL for the current item.
 old-location: search\_search_IUrlAccessor_GetRedirectedURL.htm

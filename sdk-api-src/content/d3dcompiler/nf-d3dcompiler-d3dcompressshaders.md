@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DCompressShaders
-title: D3DCompressShaders function
+title: D3DCompressShaders function (d3dcompiler.h)
 author: windows-sdk-content
 description: Compresses a set of shaders into a more compact form.
 old-location: direct3dhlsl\d3dcompressshaders.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.get_ClassName
-title: IUIAutomationProxyFactoryEntry::get_ClassName
+title: IUIAutomationProxyFactoryEntry::get_ClassName (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets or retrieves the name of the window class served by the proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ClassName.htm

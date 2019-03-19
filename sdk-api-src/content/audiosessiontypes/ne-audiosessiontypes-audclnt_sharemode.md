@@ -1,6 +1,6 @@
 ---
 UID: NE:audiosessiontypes._AUDCLNT_SHAREMODE
-title: AUDCLNT_SHAREMODE
+title: AUDCLNT_SHAREMODE (audiosessiontypes.h)
 author: windows-sdk-content
 description: The AUDCLNT_SHAREMODE enumeration defines constants that indicate whether an audio stream will run in shared mode or in exclusive mode.
 old-location: coreaudio\audclnt_sharemode.htm

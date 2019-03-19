@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsVQ
-title: DhcpEnumSubnetClientsVQ function
+title: DhcpEnumSubnetClientsVQ function (dhcpsapi.h)
 author: windows-sdk-content
 description: Retrieves all DHCP clients serviced from the specified IPv4 subnet.
 old-location: dhcp\dhcpenumsubnetclientsvq.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputStreamState
-title: IMFDeviceTransform::GetInputStreamState
+title: IMFDeviceTransform::GetInputStreamState (mftransform.h)
 author: windows-sdk-content
 description: The GetInputStreamState method gets the Device MFT’s input stream state.
 old-location: stream\imfdevicetransform_getinputstreamstate.htm

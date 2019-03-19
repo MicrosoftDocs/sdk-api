@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_IsRootDevice
-title: IUPnPDevice::get_IsRootDevice
+title: IUPnPDevice::get_IsRootDevice (upnp.h)
 author: windows-sdk-content
 description: The IsRootDevice property specifies whether the device is the topmost device in the device tree.
 old-location: upnp\iupnpdevice_isrootdevice.htm

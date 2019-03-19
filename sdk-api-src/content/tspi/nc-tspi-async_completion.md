@@ -1,6 +1,6 @@
 ---
 UID: NC:tspi.ASYNC_COMPLETION
-title: ASYNC_COMPLETION
+title: ASYNC_COMPLETION (tspi.h)
 author: windows-sdk-content
 description: Completion_Proc is a callback function implemented by TAPI and supplied to the service provider as a parameter to TSPI_providerInit.
 old-location: tspi\completion_proc.htm

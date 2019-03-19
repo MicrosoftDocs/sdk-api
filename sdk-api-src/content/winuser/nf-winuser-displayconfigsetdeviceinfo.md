@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DisplayConfigSetDeviceInfo
-title: DisplayConfigSetDeviceInfo function
+title: DisplayConfigSetDeviceInfo function (winuser.h)
 author: windows-sdk-content
 description: The DisplayConfigSetDeviceInfo function sets the properties of a target.
 old-location: display\displayconfigsetdeviceinfo.htm

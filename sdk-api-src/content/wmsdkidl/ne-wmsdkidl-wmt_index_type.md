@@ -1,6 +1,6 @@
 ---
 UID: NE:wmsdkidl.tagWMT_INDEX_TYPE
-title: WMT_INDEX_TYPE
+title: WMT_INDEX_TYPE (wmsdkidl.h)
 author: windows-sdk-content
 description: The WMT_INDEX_TYPE enumeration type defines the type of object that will be associated with an index.
 old-location: wmformat\wmt_index_type.htm

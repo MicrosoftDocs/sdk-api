@@ -1,6 +1,6 @@
 ---
 UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0005
-title: BITS_FILE_PROPERTY_VALUE
+title: BITS_FILE_PROPERTY_VALUE (bits5_0.h)
 author: windows-sdk-content
 description: Provides the property value of a BITS file.
 old-location: bits\bits_file_property_value.htm

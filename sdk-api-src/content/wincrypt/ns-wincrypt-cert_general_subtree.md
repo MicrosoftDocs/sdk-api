@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_GENERAL_SUBTREE
-title: CERT_GENERAL_SUBTREE
+title: CERT_GENERAL_SUBTREE (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_GENERAL_SUBTREE structure is used in CERT_NAME_CONSTRAINTS_INFO structure. This structure provides the identity of a certificate that can be included or excluded.
 old-location: security\cert_general_subtree.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetExpireDate
-title: IIsdbSeriesDescriptor::GetExpireDate
+title: IIsdbSeriesDescriptor::GetExpireDate (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets a series expiration date from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getexpiredate.htm

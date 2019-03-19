@@ -1,6 +1,6 @@
 ---
 UID: NF:iads.IADsAccessControlList.RemoveAce
-title: IADsAccessControlList::RemoveAce
+title: IADsAccessControlList::RemoveAce (iads.h)
 author: windows-sdk-content
 description: Removes an access-control entry (ACE) from the access-control list (ACL).
 old-location: adsi\iadsaccesscontrollist_removeace.htm

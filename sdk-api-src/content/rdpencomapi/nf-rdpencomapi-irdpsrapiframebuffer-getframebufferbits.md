@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.GetFrameBufferBits
-title: IRDPSRAPIFrameBuffer::GetFrameBufferBits
+title: IRDPSRAPIFrameBuffer::GetFrameBufferBits (rdpencomapi.h)
 author: windows-sdk-content
 description: Gets the bits in a specified area of the frame.
 old-location: rdp\irdpsrapiframebuffer_getframebufferbits.htm

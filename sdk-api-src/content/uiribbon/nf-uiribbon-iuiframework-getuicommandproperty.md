@@ -1,6 +1,6 @@
 ---
 UID: NF:uiribbon.IUIFramework.GetUICommandProperty
-title: IUIFramework::GetUICommandProperty
+title: IUIFramework::GetUICommandProperty (uiribbon.h)
 author: windows-sdk-content
 description: Retrieves a command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_getuicommandproperty.htm

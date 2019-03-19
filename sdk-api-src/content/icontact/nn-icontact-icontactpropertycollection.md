@@ -1,6 +1,6 @@
 ---
 UID: NN:icontact.IContactPropertyCollection
-title: IContactPropertyCollection
+title: IContactPropertyCollection (icontact.h)
 author: windows-sdk-content
 description: Do not use. Used to filter contact data, based on a label or property set. Enumerates contact properties exposed with an IContactProperties object. For each property, the name, type, version, and modification date can be retrieved.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection.htm

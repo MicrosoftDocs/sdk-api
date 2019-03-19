@@ -1,6 +1,6 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSize
-title: IPropertyValueStatics::IPropertyValueStatics
+title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
 author: windows-sdk-content
 description: Creates a new IPropertyValue object that contains the specified Size value.
 old-location: winrt\ipropertyvaluestatics_createsize.htm

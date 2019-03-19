@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetWordWrapping
-title: IDWriteTextFormat::GetWordWrapping
+title: IDWriteTextFormat::GetWordWrapping (dwrite.h)
 author: windows-sdk-content
 description: Gets the word wrapping option.
 old-location: directwrite\IDWriteTextFormat_GetWordWrapping.htm

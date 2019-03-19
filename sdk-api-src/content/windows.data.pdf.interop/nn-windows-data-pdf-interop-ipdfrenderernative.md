@@ -1,6 +1,6 @@
 ---
 UID: NN:windows.data.pdf.interop.IPdfRendererNative
-title: IPdfRendererNative
+title: IPdfRendererNative (windows.data.pdf.interop.h)
 author: windows-sdk-content
 description: Represents a high-performance API for displaying a single page of a Portable Document Format (PDF) file.
 old-location: winrt\ipdfrenderernative.htm

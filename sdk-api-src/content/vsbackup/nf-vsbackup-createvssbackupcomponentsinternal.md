@@ -1,6 +1,6 @@
 ---
 UID: NF:vsbackup.CreateVssBackupComponentsInternal
-title: CreateVssBackupComponentsInternal function
+title: CreateVssBackupComponentsInternal function (vsbackup.h)
 author: windows-sdk-content
 description: The CreateVssBackupComponents function creates an IVssBackupComponents interface object and returns a pointer to it.
 old-location: base\createvssbackupcomponents.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(const int8_t)
-title: XMBYTE2::XMBYTE2(const int8_t)
+title: XMBYTE2::XMBYTE2(const int8_t) (directxpackedvector.h)
 author: windows-sdk-content
 description: Default constructor for XMBYTE2.
 old-location: dxmath\xmbyte2_ctor_1.htm

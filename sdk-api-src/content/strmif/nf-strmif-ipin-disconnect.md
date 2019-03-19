@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IPin.Disconnect
-title: IPin::Disconnect
+title: IPin::Disconnect (strmif.h)
 author: windows-sdk-content
 description: The Disconnect method breaks the current pin connection.
 old-location: dshow\ipin_disconnect.htm

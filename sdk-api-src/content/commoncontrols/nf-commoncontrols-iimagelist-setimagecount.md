@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.SetImageCount
-title: IImageList::SetImageCount
+title: IImageList::SetImageCount (commoncontrols.h)
 author: windows-sdk-content
 description: Resizes an existing image list.
 old-location: controls\IImageList_SetImageCount.htm

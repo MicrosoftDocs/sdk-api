@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToStrRet
-title: VariantToStrRet function
+title: VariantToStrRet function (propvarutil.h)
 author: windows-sdk-content
 description: If the source variant is a VT_BSTR, extracts string and places it into a STRRET structure.
 old-location: properties\VariantToStrRet.htm

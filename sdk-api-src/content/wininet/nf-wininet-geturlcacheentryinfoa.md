@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.GetUrlCacheEntryInfoA
-title: GetUrlCacheEntryInfoA function
+title: GetUrlCacheEntryInfoA function (wininet.h)
 author: windows-sdk-content
 description: Retrieves information about a cache entry.
 old-location: wininet\geturlcacheentryinfo.htm

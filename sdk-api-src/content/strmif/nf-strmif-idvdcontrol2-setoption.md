@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdControl2.SetOption
-title: IDvdControl2::SetOption
+title: IDvdControl2::SetOption (strmif.h)
 author: windows-sdk-content
 description: The SetOption method enables or disables an internal behavior flag on the DVD Navigator filter.
 old-location: dshow\idvdcontrol2_setoption.htm

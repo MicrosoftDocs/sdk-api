@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetMatrixTransform
-title: IDXGISwapChain2::SetMatrixTransform
+title: IDXGISwapChain2::SetMatrixTransform (dxgi1_3.h)
 author: windows-sdk-content
 description: Sets the transform matrix that will be applied to a composition swap chain upon the next present.
 old-location: direct3ddxgi\idxgiswapchain2_setmatrixtransform.htm

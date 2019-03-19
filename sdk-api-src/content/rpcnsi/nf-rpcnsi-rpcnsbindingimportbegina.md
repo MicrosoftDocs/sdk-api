@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportBeginA
-title: RpcNsBindingImportBeginA function
+title: RpcNsBindingImportBeginA function (rpcnsi.h)
 author: windows-sdk-content
 description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object.
 old-location: rpc\rpcnsbindingimportbegin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:azroles.IAzRole
-title: IAzRole
+title: IAzRole (azroles.h)
 author: windows-sdk-content
 description: Defines the set of operations that can be performed by a set of users within a scope.
 old-location: security\iazrole.htm

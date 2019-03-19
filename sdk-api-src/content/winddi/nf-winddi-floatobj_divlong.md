@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_DivLong
-title: FLOATOBJ_DivLong function
+title: FLOATOBJ_DivLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_DivLong function divides the FLOATOBJ by the value of type LONG, and returns with the result in the first parameter.
 old-location: display\floatobj_divlong.htm

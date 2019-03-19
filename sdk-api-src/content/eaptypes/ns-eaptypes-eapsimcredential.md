@@ -1,6 +1,6 @@
 ---
 UID: NS:eaptypes._EapSimCredential
-title: EapSimCredential
+title: EapSimCredential (eaptypes.h)
 author: windows-sdk-content
 description: Contains information about the SIM that is used by the EAP method for authentication.
 old-location: eaphost\eapsimcredential.htm

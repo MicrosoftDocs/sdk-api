@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITLegacyAddressMediaControl2
-title: ITLegacyAddressMediaControl2
+title: ITLegacyAddressMediaControl2 (tapi3if.h)
 author: windows-sdk-content
 description: The ITLegacyAddressMediaControl2 interface derives from the ITLegacyAddressMediaControl interface. ITLegacyAddressMediaControl2 provides additional methods that allow the configuration of parameters related to line devices.
 old-location: tapi3\itlegacyaddressmediacontrol2.htm

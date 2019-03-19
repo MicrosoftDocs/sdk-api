@@ -1,6 +1,6 @@
 ---
 UID: NS:schedule._SCHEDULE
-title: SCHEDULE
+title: SCHEDULE (schedule.h)
 author: windows-sdk-content
 description: Used with the DsReplicaAdd and DsReplicaModify functions to contain replication schedule data for a replication source.
 old-location: ad\schedule.htm

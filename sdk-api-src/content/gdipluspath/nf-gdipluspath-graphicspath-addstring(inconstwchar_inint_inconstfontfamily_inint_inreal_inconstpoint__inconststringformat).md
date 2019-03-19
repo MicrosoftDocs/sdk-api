@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat)
-title: GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat)
+title: GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat) (gdipluspath.h)
 author: windows-sdk-content
 description: The GraphicsPath::AddString method adds the outlines of a string to this path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddString_WCHAR_string_INT_length_FontFamily_family_INT_style_REAL_emSiz.htm

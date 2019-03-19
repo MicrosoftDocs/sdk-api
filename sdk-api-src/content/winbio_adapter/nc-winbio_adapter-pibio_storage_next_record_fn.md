@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_NEXT_RECORD_FN
-title: PIBIO_STORAGE_NEXT_RECORD_FN
+title: PIBIO_STORAGE_NEXT_RECORD_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Advances the result set cursor by one record.
 old-location: secbiomet\storageadapternextrecord.htm

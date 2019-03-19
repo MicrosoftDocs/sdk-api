@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkPropertyChanged
-title: INetworkEvents::NetworkPropertyChanged
+title: INetworkEvents::NetworkPropertyChanged (netlistmgr.h)
 author: windows-sdk-content
 description: The NetworkPropertyChanged method is called when a network property change is detected.
 old-location: nla\inetworkevents_networkpropertychanged.htm

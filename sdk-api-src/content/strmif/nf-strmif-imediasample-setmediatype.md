@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IMediaSample.SetMediaType
-title: IMediaSample::SetMediaType
+title: IMediaSample::SetMediaType (strmif.h)
 author: windows-sdk-content
 description: The SetMediaType method sets the media type for the sample.
 old-location: dshow\imediasample_setmediatype.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFVideoMediaType.GetVideoRepresentation
-title: IMFVideoMediaType::GetVideoRepresentation
+title: IMFVideoMediaType::GetVideoRepresentation (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves an alternative representation of the media type.
 old-location: mf\imfvideomediatype_getvideorepresentation.htm

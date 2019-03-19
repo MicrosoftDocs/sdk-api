@@ -1,6 +1,6 @@
 ---
 UID: NS:wtsdefs._WTS_SOCKADDR
-title: WTS_SOCKADDR
+title: WTS_SOCKADDR (wtsdefs.h)
 author: windows-sdk-content
 description: Contains a socket address.
 old-location: termserv\wts_sockaddr.htm

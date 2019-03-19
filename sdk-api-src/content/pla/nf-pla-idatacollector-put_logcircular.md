@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollector.put_LogCircular
-title: IDataCollector::put_LogCircular
+title: IDataCollector::put_LogCircular (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should create a circular file.
 old-location: pla\idatacollector_logcircular.htm

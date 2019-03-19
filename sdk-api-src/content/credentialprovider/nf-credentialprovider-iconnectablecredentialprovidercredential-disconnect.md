@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.IConnectableCredentialProviderCredential.Disconnect
-title: IConnectableCredentialProviderCredential::Disconnect
+title: IConnectableCredentialProviderCredential::Disconnect (credentialprovider.h)
 author: windows-sdk-content
 description: Disconnects an IConnectableCredentialProviderCredential object.
 old-location: shell\IConnectableCredentialProviderCredential_Disconnect.htm

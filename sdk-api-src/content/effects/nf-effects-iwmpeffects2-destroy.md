@@ -1,6 +1,6 @@
 ---
 UID: NF:effects.IWMPEffects2.Destroy
-title: IWMPEffects2::Destroy
+title: IWMPEffects2::Destroy (effects.h)
 author: windows-sdk-content
 description: The Destroy method is called by Windows Media Player to destroy a visualization window instantiated in the Create method.
 old-location: wmp\iwmpeffects2_destroy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagBITMAPCOREINFO
-title: BITMAPCOREINFO
+title: BITMAPCOREINFO (wingdi.h)
 author: windows-sdk-content
 description: The BITMAPCOREINFO structure defines the dimensions and color information for a DIB.
 old-location: gdi\bitmapcoreinfo.htm

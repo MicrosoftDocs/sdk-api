@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.EnumerateSecurityPackagesW
-title: EnumerateSecurityPackagesW function
+title: EnumerateSecurityPackagesW function (sspi.h)
 author: windows-sdk-content
 description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client.
 old-location: security\enumeratesecuritypackages.htm

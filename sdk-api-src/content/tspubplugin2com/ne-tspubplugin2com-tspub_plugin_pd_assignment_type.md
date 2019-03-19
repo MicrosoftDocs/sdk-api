@@ -1,6 +1,6 @@
 ---
 UID: NE:tspubplugin2com._TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
-title: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
+title: TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE (tspubplugin2com.h)
 author: windows-sdk-content
 description: Specifies the type of assignment for a personal desktop resolution.
 old-location: termserv\tspub_plugin_pd_assignment_type.htm

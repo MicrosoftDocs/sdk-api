@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetBackgroundColor
-title: IMFVideoProcessor::SetBackgroundColor
+title: IMFVideoProcessor::SetBackgroundColor (evr9.h)
 author: windows-sdk-content
 description: Sets the background color for the composition rectangle. The background color is used for letterboxing the video image.
 old-location: mf\imfvideoprocessor_setbackgroundcolor.htm

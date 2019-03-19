@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN
-title: PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN
+title: PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Gives the engine adapter additional information about an enrollment operation.
 old-location: secbiomet\engineadaptersetenrollmentparameters.htm

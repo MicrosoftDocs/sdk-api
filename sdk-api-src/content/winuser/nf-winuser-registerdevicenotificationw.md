@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.RegisterDeviceNotificationW
-title: RegisterDeviceNotificationW function
+title: RegisterDeviceNotificationW function (winuser.h)
 author: windows-sdk-content
 description: Registers the device or type of device for which a window will receive notifications.
 old-location: base\registerdevicenotification.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetPropertyKey
-title: IPropertyDescription::GetPropertyKey
+title: IPropertyDescription::GetPropertyKey (propsys.h)
 author: windows-sdk-content
 description: Gets a structure that acts as a property's unique identifier.
 old-location: properties\IPropertyDescription_GetPropertyKey.htm

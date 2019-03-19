@@ -1,6 +1,6 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_IMFEATUREEVENT
-title: WPC_ARGS_IMFEATUREEVENT
+title: WPC_ARGS_IMFEATUREEVENT (wpcevent.h)
 author: windows-sdk-content
 description: Indicates information about the features of the instant messaging interaction.
 old-location: parcon\wpc_args_imfeatureevent.htm

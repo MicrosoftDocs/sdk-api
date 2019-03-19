@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetIntegerValue
-title: IUIAnimationVariable2::GetIntegerValue
+title: IUIAnimationVariable2::GetIntegerValue (uianimation.h)
 author: windows-sdk-content
 description: Gets the integer value of the animation variable.
 old-location: uianimation\iuianimationvariable2_getintegervalue.htm

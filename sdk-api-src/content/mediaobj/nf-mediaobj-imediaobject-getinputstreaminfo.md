@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputStreamInfo
-title: IMediaObject::GetInputStreamInfo
+title: IMediaObject::GetInputStreamInfo (mediaobj.h)
 author: windows-sdk-content
 description: The GetInputStreamInfo method retrieves information about an input stream, such as any restrictions on the number of samples per buffer, and whether the stream performs lookahead on the input data. This information never changes.
 old-location: dshow\imediaobject_getinputstreaminfo.htm

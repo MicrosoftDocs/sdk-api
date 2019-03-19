@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPQuery.beginNextGroup
-title: IWMPQuery::beginNextGroup
+title: IWMPQuery::beginNextGroup (wmp.h)
 author: windows-sdk-content
 description: The beginNextGroup method begins a new condition group.
 old-location: wmp\iwmpquery_beginnextgroup.htm

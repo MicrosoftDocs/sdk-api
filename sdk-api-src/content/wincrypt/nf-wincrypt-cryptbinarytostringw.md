@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CryptBinaryToStringW
-title: CryptBinaryToStringW function
+title: CryptBinaryToStringW function (wincrypt.h)
 author: windows-sdk-content
 description: Converts an array of bytes into a formatted string.
 old-location: security\cryptbinarytostring.htm

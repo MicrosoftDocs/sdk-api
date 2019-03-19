@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetVoiceCallState
-title: IMbnConnection::GetVoiceCallState
+title: IMbnConnection::GetVoiceCallState (mbnapi.h)
 author: windows-sdk-content
 description: Gets the voice call state of the device.
 old-location: mbn\imbnconnection_getvoicecallstate.htm

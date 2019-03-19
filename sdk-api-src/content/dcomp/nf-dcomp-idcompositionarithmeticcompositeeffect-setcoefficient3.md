@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionArithmeticCompositeEffect.SetCoefficient3
-title: IDCompositionArithmeticCompositeEffect::SetCoefficient3
+title: IDCompositionArithmeticCompositeEffect::SetCoefficient3 (dcomp.h)
 author: windows-sdk-content
 description: Sets the third coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient3.htm

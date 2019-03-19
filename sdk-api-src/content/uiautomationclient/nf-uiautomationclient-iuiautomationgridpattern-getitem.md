@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.GetItem
-title: IUIAutomationGridPattern::GetItem
+title: IUIAutomationGridPattern::GetItem (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a UI Automation element representing an item in the grid.
 old-location: winauto\uiauto_IUIAutomationGridPattern_GetItem.htm

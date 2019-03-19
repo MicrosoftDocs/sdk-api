@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_DESTROYVPORTDATA
-title: DD_DESTROYVPORTDATA
+title: DD_DESTROYVPORTDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_DESTROYVPORTDATA structure contains the information necessary for the driver to clean up.
 old-location: display\dd_destroyvportdata.htm

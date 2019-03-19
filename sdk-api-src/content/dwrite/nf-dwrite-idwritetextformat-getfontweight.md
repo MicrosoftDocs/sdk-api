@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontWeight
-title: IDWriteTextFormat::GetFontWeight
+title: IDWriteTextFormat::GetFontWeight (dwrite.h)
 author: windows-sdk-content
 description: Gets the font weight of the text.
 old-location: directwrite\IDWriteTextFormat_GetFontWeight.htm

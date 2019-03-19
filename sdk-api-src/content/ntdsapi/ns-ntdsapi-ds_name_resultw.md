@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_3
-title: DS_NAME_RESULTW
+title: DS_NAME_RESULTW (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_NAME_RESULT structure is used with the DsCrackNames function to contain the names converted by the function.
 old-location: ad\ds_name_result.htm

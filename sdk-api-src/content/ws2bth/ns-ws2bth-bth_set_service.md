@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2bth._BTH_SET_SERVICE
-title: BTH_SET_SERVICE
+title: BTH_SET_SERVICE (ws2bth.h)
 author: windows-sdk-content
 description: Provides service information for the specified Bluetooth service.
 old-location: bluetooth\bth_set_service.htm

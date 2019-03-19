@@ -1,6 +1,6 @@
 ---
 UID: NF:filter.IFilter.BindRegion
-title: IFilter::BindRegion
+title: IFilter::BindRegion (filter.h)
 author: windows-sdk-content
 description: Retrieves an interface representing the specified portion of object. Currently reserved for future use.
 old-location: indexsrv\ifilter_bindregion.htm

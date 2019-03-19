@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStream
-title: ILLoadFromStream function
+title: ILLoadFromStream function (shlobj_core.h)
 author: windows-sdk-content
 description: Deprecated. Loads an ITEMIDLIST structure from a stream.
 old-location: shell\ILLoadFromStream.htm

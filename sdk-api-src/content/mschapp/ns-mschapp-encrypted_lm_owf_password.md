@@ -1,6 +1,6 @@
 ---
 UID: NS:mschapp._ENCRYPTED_LM_OWF_PASSWORD
-title: ENCRYPTED_LM_OWF_PASSWORD
+title: ENCRYPTED_LM_OWF_PASSWORD (mschapp.h)
 author: windows-sdk-content
 description: The ENCRYPTED_LM_OWF_PASSWORD stores a user's encrypted Lan Manager (LM) one-way function (OWF) password hash.
 old-location: mschap\encrypted_lm_owf_password.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IEnumDiskQuotaUsers.Skip
-title: IEnumDiskQuotaUsers::Skip
+title: IEnumDiskQuotaUsers::Skip (dskquota.h)
 author: windows-sdk-content
 description: Skips over the specified number of user quota entries that are next in the enumeration sequence.
 old-location: fs\ienumdiskquotausers_skip.htm

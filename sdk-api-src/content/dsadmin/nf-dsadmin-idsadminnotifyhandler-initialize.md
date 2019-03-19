@@ -1,6 +1,6 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.Initialize
-title: IDsAdminNotifyHandler::Initialize
+title: IDsAdminNotifyHandler::Initialize (dsadmin.h)
 author: windows-sdk-content
 description: Called to initialize the notification handler.
 old-location: ad\idsadminnotifyhandler_initialize.htm

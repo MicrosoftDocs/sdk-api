@@ -1,6 +1,6 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetClientCertificateByName
-title: IBackgroundCopyJobHttpOptions::SetClientCertificateByName
+title: IBackgroundCopyJobHttpOptions::SetClientCertificateByName (bits2_5.h)
 author: windows-sdk-content
 description: Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request.
 old-location: bits\ibackgroundcopyjobhttpoptions_setclientcertificatebyname.htm

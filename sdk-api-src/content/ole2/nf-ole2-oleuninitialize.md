@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleUninitialize
-title: OleUninitialize function
+title: OleUninitialize function (ole2.h)
 author: windows-sdk-content
 description: Closes the COM library on the apartment, releases any class factories, other COM objects, or servers held by the apartment, disables RPC on the apartment, and frees any resources the apartment maintains.
 old-location: com\oleuninitialize.htm

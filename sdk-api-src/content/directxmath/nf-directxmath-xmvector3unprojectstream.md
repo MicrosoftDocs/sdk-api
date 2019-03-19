@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3UnprojectStream
-title: XMVector3UnprojectStream function
+title: XMVector3UnprojectStream function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a stream of 3D vectors from screen space to object space.
 old-location: dxmath\xmvector3unprojectstream.htm

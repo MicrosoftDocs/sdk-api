@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectPartResources
-title: IXpsOMPageReference::CollectPartResources
+title: IXpsOMPageReference::CollectPartResources (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates a list of all part-based resources that are associated with the page.
 old-location: xps\ixpsompagereference_collectpartresources.htm

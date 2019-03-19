@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.PtrdiffTSub
-title: PtrdiffTSub function
+title: PtrdiffTSub function (intsafe.h)
 author: windows-sdk-content
 description: Subtracts one value of type ptrdiff_t from another.
 old-location: shell\PtrdiffTSub.htm

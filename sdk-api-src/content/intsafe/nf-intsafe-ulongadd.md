@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ULongAdd
-title: ULongAdd function
+title: ULongAdd function (intsafe.h)
 author: windows-sdk-content
 description: Adds two values of type ULONG.
 old-location: shell\ULongAdd.htm

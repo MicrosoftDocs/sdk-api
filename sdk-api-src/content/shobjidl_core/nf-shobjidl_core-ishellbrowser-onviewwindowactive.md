@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.OnViewWindowActive
-title: IShellBrowser::OnViewWindowActive
+title: IShellBrowser::OnViewWindowActive (shobjidl_core.h)
 author: windows-sdk-content
 description: Called by the Shell view when the view window or one of its child windows gets the focus or becomes active.
 old-location: shell\IShellBrowser_OnViewWindowActive.htm

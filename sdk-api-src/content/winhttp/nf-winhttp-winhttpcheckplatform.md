@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpCheckPlatform
-title: WinHttpCheckPlatform function
+title: WinHttpCheckPlatform function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpCheckPlatform function determines whether the current platform is supported by this version of Microsoft Windows HTTP Services (WinHTTP).
 old-location: http\winhttpcheckplatform.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:oleauto.tagPARAMDATA
-title: PARAMDATA
+title: PARAMDATA (oleauto.h)
 author: windows-sdk-content
 description: Describes a parameter accepted by a method or property.
 old-location: automat\paramdata.htm

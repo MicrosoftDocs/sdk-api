@@ -1,6 +1,6 @@
 ---
 UID: NN:msopc.IOpcCertificateEnumerator
-title: IOpcCertificateEnumerator
+title: IOpcCertificateEnumerator (msopc.h)
 author: windows-sdk-content
 description: A read-only enumerator of pointers to CERT_CONTEXT structures.
 old-location: opc\iopccertificateenumerator.htm

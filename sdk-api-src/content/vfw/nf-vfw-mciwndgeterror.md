@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetError
-title: MCIWndGetError macro
+title: MCIWndGetError macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetError macro retrieves the last MCI error encountered. You can use this macro or explicitly send the MCIWNDM_GETERROR message.
 old-location: multimedia\mciwndgeterror.htm

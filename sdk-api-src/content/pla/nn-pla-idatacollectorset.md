@@ -1,6 +1,6 @@
 ---
 UID: NN:pla.IDataCollectorSet
-title: IDataCollectorSet
+title: IDataCollectorSet (pla.h)
 author: windows-sdk-content
 description: Manages the configuration information that is common to all data collector objects in the set; adds and removes data collectors from the set; and starts data collection. This is the primary PLA interface that you use.
 old-location: pla\idatacollectorset.htm

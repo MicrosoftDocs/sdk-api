@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.get_CAStoreFlags
-title: IEnroll::get_CAStoreFlags
+title: IEnroll::get_CAStoreFlags (xenroll.h)
 author: windows-sdk-content
 description: The CAStoreFlags property of IEnroll4 sets or retrieves a flag that controls the certification authority (CA) store when the store is opened.
 old-location: security\ienroll4_castoreflags.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMCloseEnvironmentHandle
-title: DRMCloseEnvironmentHandle function
+title: DRMCloseEnvironmentHandle function (msdrm.h)
 author: windows-sdk-content
 description: Closes an environment handle.
 old-location: rm\drmcloseenvironmenthandle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.SetExtendModeX
-title: ID2D1BitmapBrush::SetExtendModeX
+title: ID2D1BitmapBrush::SetExtendModeX (d2d1.h)
 author: windows-sdk-content
 description: Specifies how the brush horizontally tiles those areas that extend past its bitmap.
 old-location: direct2d\ID2D1BitmapBrush_SetExtendModeX.htm

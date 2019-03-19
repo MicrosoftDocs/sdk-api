@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_ATTRIBUTES
-title: CRYPT_ATTRIBUTES
+title: CRYPT_ATTRIBUTES (wincrypt.h)
 author: windows-sdk-content
 description: Contains an array of attributes.
 old-location: security\crypt_attributes.htm

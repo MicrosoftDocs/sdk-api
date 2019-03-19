@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Ascender
-title: IInkRecognitionAlternate::get_Ascender
+title: IInkRecognitionAlternate::get_Ascender (msinkaut.h)
 author: windows-sdk-content
 description: Gets the ascender line for a IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_ascender.htm

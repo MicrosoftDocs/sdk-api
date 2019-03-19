@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmLayerGetById0
-title: FwpmLayerGetById0 function
+title: FwpmLayerGetById0 function (fwpmu.h)
 author: windows-sdk-content
 description: Retrieves a layer object.
 old-location: fwp\fwpmlayergetbyid0_func.htm

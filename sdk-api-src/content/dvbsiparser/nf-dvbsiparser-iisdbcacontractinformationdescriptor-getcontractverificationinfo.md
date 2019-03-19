@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
-title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo
+title: IIsdbCAContractInformationDescriptor::GetContractVerificationInfo (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets data from the contract_verification_info field in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field is used to determine allowable uses of the conditional access service.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcontractverificationinfo.htm

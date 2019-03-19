@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMColorRGBToHSV
-title: XMColorRGBToHSV function
+title: XMColorRGBToHSV function (directxmath.h)
 author: windows-sdk-content
 description: Converts RGB color values to HSV color values.
 old-location: dxmath\xmcolorrgbtohsv.htm

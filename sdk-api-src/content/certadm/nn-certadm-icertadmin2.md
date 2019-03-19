@@ -1,6 +1,6 @@
 ---
 UID: NN:certadm.ICertAdmin2
-title: ICertAdmin2
+title: ICertAdmin2 (certadm.h)
 author: windows-sdk-content
 description: Provide administration functionality for properly authorized clients.
 old-location: security\icertadmin2.htm

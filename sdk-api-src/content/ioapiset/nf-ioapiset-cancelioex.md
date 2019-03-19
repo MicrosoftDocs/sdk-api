@@ -1,6 +1,6 @@
 ---
 UID: NF:ioapiset.CancelIoEx
-title: CancelIoEx function
+title: CancelIoEx function (ioapiset.h)
 author: windows-sdk-content
 description: Marks any outstanding I/O operations for the specified file handle. The function only cancels I/O operations in the current process, regardless of which thread created the I/O operation.
 old-location: fs\cancelioex_func.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:uiribbon.UI_FONTUNDERLINE
-title: UI_FONTUNDERLINE
+title: UI_FONTUNDERLINE (uiribbon.h)
 author: windows-sdk-content
 description: Specifies values that identify the underline state of a FontControl.
 old-location: windowsribbon\windowsribbon_ui_fontunderline.htm

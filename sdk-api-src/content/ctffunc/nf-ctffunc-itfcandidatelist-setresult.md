@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.SetResult
-title: ITfCandidateList::SetResult
+title: ITfCandidateList::SetResult (ctffunc.h)
 author: windows-sdk-content
 description: ITfCandidateList::SetResult method
 old-location: tsf\itfcandidatelist_setresult.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetDescription
-title: ISyncMgrEvent::GetDescription
+title: ISyncMgrEvent::GetDescription (syncmgr.h)
 author: windows-sdk-content
 description: Gets the event description.
 old-location: shell\ISyncMgrEvent_GetDescription.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetNBIT
-title: IIsdbSiParser2::GetNBIT
+title: IIsdbSiParser2::GetNBIT (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the network board information table (NBIT) from an Integrated Services Digital Broadcast (ISDB) transport stream. The NBIT describes the programs included in a multiplexed transport stream.
 old-location: mstv\iisdbsiparser2_getnbit.htm

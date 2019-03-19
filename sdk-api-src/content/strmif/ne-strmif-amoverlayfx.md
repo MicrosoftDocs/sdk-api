@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.AMOVERLAYFX
-title: AMOVERLAYFX
+title: AMOVERLAYFX (strmif.h)
 author: windows-sdk-content
 description: Specifies effects on a DirectDraw hardware overlay surface.
 old-location: dshow\amoverlayfx.htm

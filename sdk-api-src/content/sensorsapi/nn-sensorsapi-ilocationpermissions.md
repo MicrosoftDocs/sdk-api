@@ -1,6 +1,6 @@
 ---
 UID: NN:sensorsapi.ILocationPermissions
-title: ILocationPermissions
+title: ILocationPermissions (sensorsapi.h)
 author: windows-sdk-content
 description: Provides the status of the system setting that allows users to change location settings.
 old-location: winsensors\ilocationpermissions.htm

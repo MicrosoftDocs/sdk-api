@@ -1,6 +1,6 @@
 ---
 UID: NS:digitalv.__unnamed_struct_10
-title: MCI_DGV_LIST_PARMSW
+title: MCI_DGV_LIST_PARMSW (digitalv.h)
 author: windows-sdk-content
 description: The MCI_DGV_LIST_PARMS structure contains the information for the MCI_LIST command for digital-video devices.
 old-location: multimedia\mci_dgv_list_parms.htm

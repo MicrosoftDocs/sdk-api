@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspStatus.get_CspInformation
-title: ICspStatus::get_CspInformation
+title: ICspStatus::get_CspInformation (certenroll.h)
 author: windows-sdk-content
 description: Retrieves an ICspInformation object that contains general information about the provider.
 old-location: security\icspstatus_cspinformation.htm

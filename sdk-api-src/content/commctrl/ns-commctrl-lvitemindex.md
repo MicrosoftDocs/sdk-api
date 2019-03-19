@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVITEMINDEX
-title: LVITEMINDEX
+title: LVITEMINDEX (commctrl.h)
 author: windows-sdk-content
 description: Contains index information about a list-view item.
 old-location: controls\LVITEMINDEX.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawString
-title: Graphics::DrawString
+title: Graphics::DrawString (gdiplusgraphics.h)
 author: windows-sdk-content
 description: This topic lists the DrawString methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawString_Methods.htm

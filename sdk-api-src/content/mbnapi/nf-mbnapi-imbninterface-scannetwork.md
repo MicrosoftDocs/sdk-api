@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnInterface.ScanNetwork
-title: IMbnInterface::ScanNetwork
+title: IMbnInterface::ScanNetwork (mbnapi.h)
 author: windows-sdk-content
 description: Asynchronously scans the network to get a list of visible providers.
 old-location: mbn\imbninterface_scannetwork.htm

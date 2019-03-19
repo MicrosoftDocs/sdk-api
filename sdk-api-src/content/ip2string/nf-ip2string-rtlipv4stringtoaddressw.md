@@ -1,6 +1,6 @@
 ---
 UID: NF:ip2string.RtlIpv4StringToAddressW
-title: RtlIpv4StringToAddressW function
+title: RtlIpv4StringToAddressW function (ip2string.h)
 author: windows-sdk-content
 description: Converts a string representation of an IPv4 address to a binary IPv4 address.
 old-location: iphlp\rtlipv4stringtoaddress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_STORE_PROV_INFO
-title: CERT_STORE_PROV_INFO
+title: CERT_STORE_PROV_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information returned by the installed CertDllOpenStoreProv function when a store is opened by using the CertOpenStore function.
 old-location: security\cert_store_prov_info.htm

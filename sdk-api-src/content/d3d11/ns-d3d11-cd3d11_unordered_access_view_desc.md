@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.CD3D11_UNORDERED_ACCESS_VIEW_DESC
-title: CD3D11_UNORDERED_ACCESS_VIEW_DESC
+title: CD3D11_UNORDERED_ACCESS_VIEW_DESC (d3d11.h)
 author: windows-sdk-content
 description: Represents a unordered-access view and provides convenience methods for creating unordered-access views.
 old-location: direct3d11\cd3d11_unordered_access_view_desc.htm

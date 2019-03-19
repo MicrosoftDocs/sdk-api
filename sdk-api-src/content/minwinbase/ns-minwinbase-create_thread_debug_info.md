@@ -1,6 +1,6 @@
 ---
 UID: NS:minwinbase._CREATE_THREAD_DEBUG_INFO
-title: CREATE_THREAD_DEBUG_INFO
+title: CREATE_THREAD_DEBUG_INFO (minwinbase.h)
 author: windows-sdk-content
 description: Contains thread-creation information that can be used by a debugger.
 old-location: base\create_thread_debug_info_str.htm

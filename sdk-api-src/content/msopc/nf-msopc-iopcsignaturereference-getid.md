@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetId
-title: IOpcSignatureReference::GetId
+title: IOpcSignatureReference::GetId (msopc.h)
 author: windows-sdk-content
 description: Gets the identifier for the reference.
 old-location: opc\iopcsignaturereference_getid.htm

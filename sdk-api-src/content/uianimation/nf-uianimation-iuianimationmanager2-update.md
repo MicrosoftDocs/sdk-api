@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Update
-title: IUIAnimationManager2::Update
+title: IUIAnimationManager2::Update (uianimation.h)
 author: windows-sdk-content
 description: Updates the values of all animation variables.
 old-location: uianimation\iuianimationmanager2_update.htm

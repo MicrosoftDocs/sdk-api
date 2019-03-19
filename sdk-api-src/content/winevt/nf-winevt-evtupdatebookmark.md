@@ -1,6 +1,6 @@
 ---
 UID: NF:winevt.EvtUpdateBookmark
-title: EvtUpdateBookmark function
+title: EvtUpdateBookmark function (winevt.h)
 author: windows-sdk-content
 description: Updates the bookmark with information that identifies the specified event.
 old-location: wes\evtupdatebookmark.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetProviderListA
-title: lineGetProviderListA function
+title: lineGetProviderListA function (tapi.h)
 author: windows-sdk-content
 description: The lineGetProviderList function returns a list of service providers currently installed in the telephony system.
 old-location: tapi2\linegetproviderlist.htm

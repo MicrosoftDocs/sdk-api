@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._TRACE_PERIODIC_CAPTURE_STATE_INFO
-title: TRACE_PERIODIC_CAPTURE_STATE_INFO
+title: TRACE_PERIODIC_CAPTURE_STATE_INFO (evntrace.h)
 author: windows-sdk-content
 description: Information relating to a periodic capture state.
 old-location: etw\trace_periodic_capture_state_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IEnumAssocHandlers.Next
-title: IEnumAssocHandlers::Next
+title: IEnumAssocHandlers::Next (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves a specified number of elements.
 old-location: shell\IEnumAssocHandlers_Next.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetSortColumns
-title: IFolderView2::SetSortColumns
+title: IFolderView2::SetSortColumns (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets and sorts the view by the given sort columns.
 old-location: shell\IFolderView2_SetSortColumns.htm

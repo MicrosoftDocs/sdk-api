@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement6.get_CurrentFullDescription
-title: IUIAutomationElement6::get_CurrentFullDescription
+title: IUIAutomationElement6::get_CurrentFullDescription (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets the current full description of the automation element.
 old-location: winauto\uiauto_IUIAutomationElement6_CurrentFullDescription.htm

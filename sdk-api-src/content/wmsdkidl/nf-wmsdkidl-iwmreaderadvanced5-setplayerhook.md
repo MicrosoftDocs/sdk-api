@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced5.SetPlayerHook
-title: IWMReaderAdvanced5::SetPlayerHook
+title: IWMReaderAdvanced5::SetPlayerHook (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetPlayerHook method assigns a player-hook callback to the reader. The reader calls the callback method before sending each sample to the graphics processor for decompression.
 old-location: wmformat\iwmreaderadvanced5_setplayerhook.htm

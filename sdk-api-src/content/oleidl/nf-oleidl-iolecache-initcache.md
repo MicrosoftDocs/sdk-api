@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleCache.InitCache
-title: IOleCache::InitCache
+title: IOleCache::InitCache (oleidl.h)
 author: windows-sdk-content
 description: Fills the cache as needed using the data provided by the specified data object.
 old-location: com\iolecache_initcache.htm

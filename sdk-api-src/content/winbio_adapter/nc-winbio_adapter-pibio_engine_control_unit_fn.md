@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CONTROL_UNIT_FN
-title: PIBIO_ENGINE_CONTROL_UNIT_FN
+title: PIBIO_ENGINE_CONTROL_UNIT_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Performs a vendor-defined control operation that does not require elevated privilege.
 old-location: secbiomet\engineadaptercontrolunit.htm

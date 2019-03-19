@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometryLookup
-title: IXpsOMVisual::GetClipGeometryLookup
+title: IXpsOMVisual::GetClipGeometryLookup (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the lookup key for the IXpsOMGeometry interface in a resource dictionary that contains the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometrylookup.htm

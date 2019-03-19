@@ -1,6 +1,6 @@
 ---
 UID: NF:austream.IMemoryData.SetActual
-title: IMemoryData::SetActual
+title: IMemoryData::SetActual (austream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the amount of audio data currently in the object.
 old-location: dshow\imemorydata_setactual.htm

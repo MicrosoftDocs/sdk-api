@@ -1,6 +1,6 @@
 ---
 UID: NC:ras.RASDIALFUNC
-title: RASDIALFUNC
+title: RASDIALFUNC (ras.h)
 author: windows-sdk-content
 description: The RasDialFunc callback function is called by the RasDial function when a change of state occurs during a RAS connection process.
 old-location: rras\rasdialfunc.htm

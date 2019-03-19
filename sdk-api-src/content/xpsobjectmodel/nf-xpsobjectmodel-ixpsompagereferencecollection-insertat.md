@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.InsertAt
-title: IXpsOMPageReferenceCollection::InsertAt
+title: IXpsOMPageReferenceCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMPageReference interface pointer at a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_insertat.htm

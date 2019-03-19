@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32VectorAlloc
-title: PropVariantToUInt32VectorAlloc function
+title: PropVariantToUInt32VectorAlloc function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated ULONG vector.
 old-location: properties\PropVariantToUInt32VectorAlloc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.put_FarmName
-title: ITsSbTarget::put_FarmName
+title: ITsSbTarget::put_FarmName (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves or specifies the name of the farm to which this target is joined.
 old-location: termserv\itssbtarget_farmname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_HardwareCapabilities
-title: IInkTablet::get_HardwareCapabilities
+title: IInkTablet::get_HardwareCapabilities (msinkaut.h)
 author: windows-sdk-content
 description: Gets a bitmask that defines the hardware capabilities of the tablet, such as whether a cursor must be in physical contact with the tablet to report its position.
 old-location: tablet\iinktablet_hardwarecapabilities.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetType
-title: IDWriteFontFace::GetType
+title: IDWriteFontFace::GetType (dwrite.h)
 author: windows-sdk-content
 description: Obtains the file format type of a font face.
 old-location: directwrite\IDWriteFontFace_GetType.htm

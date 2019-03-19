@@ -1,6 +1,6 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_RF_BANDS
-title: WCN_VALUE_TYPE_RF_BANDS
+title: WCN_VALUE_TYPE_RF_BANDS (wcntypes.h)
 author: windows-sdk-content
 description: WCN_VALUE_TYPE_RF_BANDS enumeration defines the possible radio frequency bands on which an enrollee can send Discovery requests.
 old-location: wcn\wcn_value_type_rf_bands.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_OperationOptions_Delete
-title: MI_OperationOptions_Delete function
+title: MI_OperationOptions_Delete function (mi.h)
 author: windows-sdk-content
 description: Deletes an option set and its associated memory.
 old-location: wmi_v2\mi_operationoptions_delete.htm

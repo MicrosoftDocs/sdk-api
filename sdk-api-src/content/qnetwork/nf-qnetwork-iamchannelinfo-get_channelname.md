@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ChannelName
-title: IAMChannelInfo::get_ChannelName
+title: IAMChannelInfo::get_ChannelName (qnetwork.h)
 author: windows-sdk-content
 description: The get_ChannelName method retrieves the channel name.
 old-location: dshow\iamchannelinfo_get_channelname.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:bthsdpdef.SdpQueryUuidUnion
-title: SdpQueryUuidUnion
+title: SdpQueryUuidUnion (bthsdpdef.h)
 author: windows-sdk-content
 description: The SdpQueryUuidUnion union contains the UUID on which to perform an SDP query. Used in conjunction with the SdpQueryUuid structure.
 old-location: bluetooth\sdpqueryuuidunion.htm

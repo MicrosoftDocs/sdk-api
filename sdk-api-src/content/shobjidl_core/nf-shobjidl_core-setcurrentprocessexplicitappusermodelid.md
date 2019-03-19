@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.SetCurrentProcessExplicitAppUserModelID
-title: SetCurrentProcessExplicitAppUserModelID function
+title: SetCurrentProcessExplicitAppUserModelID function (shobjidl_core.h)
 author: windows-sdk-content
 description: Specifies a unique application-defined Application User Model ID (AppUserModelID) that identifies the current process to the taskbar. This identifier allows an application to group its associated processes and windows under a single taskbar button.
 old-location: shell\SetCurrentProcessExplicitAppUserModelID.htm

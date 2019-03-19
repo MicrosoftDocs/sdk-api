@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStorage.OpenStorage
-title: IStorage::OpenStorage
+title: IStorage::OpenStorage (objidl.h)
 author: windows-sdk-content
 description: Opens an existing storage object with the specified name in the specified access mode.
 old-location: stg\istorage_openstorage.htm

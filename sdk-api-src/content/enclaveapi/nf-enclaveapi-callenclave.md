@@ -1,6 +1,6 @@
 ---
 UID: NF:enclaveapi.CallEnclave
-title: CallEnclave function
+title: CallEnclave function (enclaveapi.h)
 author: windows-sdk-content
 description: Calls a function within an enclave.
 old-location: base\callenclave.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionDeviceDebug
-title: IDCompositionDeviceDebug
+title: IDCompositionDeviceDebug (dcomp.h)
 author: windows-sdk-content
 description: Provides access to rendering features that help with application debugging and performance tuning. This interface can be queried from the DirectComposition device interface.
 old-location: directcomp\idcompositiondevicedebug.htm

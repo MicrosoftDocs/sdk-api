@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateInkStyle
-title: ID2D1DeviceContext2::CreateInkStyle
+title: ID2D1DeviceContext2::CreateInkStyle (d2d1_3.h)
 author: windows-sdk-content
 description: Creates a new ID2D1InkStyle object, for use with ink rendering methods such as DrawInk.
 old-location: direct2d\id2d1devicecontext2_createinkstyle.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_FONT_METRICS
-title: DWRITE_FONT_METRICS
+title: DWRITE_FONT_METRICS (dwrite.h)
 author: windows-sdk-content
 description: The DWRITE_FONT_METRICS structure specifies the metrics that are applicable to all glyphs within the font face.
 old-location: directwrite\dwrite_font_metrics.htm

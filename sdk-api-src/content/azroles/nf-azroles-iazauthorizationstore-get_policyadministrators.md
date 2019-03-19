@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyAdministrators
-title: IAzAuthorizationStore::get_PolicyAdministrators
+title: IAzAuthorizationStore::get_PolicyAdministrators (azroles.h)
 author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as policy administrators in text form.
 old-location: security\azauthorizationstore_policyadministrators.htm

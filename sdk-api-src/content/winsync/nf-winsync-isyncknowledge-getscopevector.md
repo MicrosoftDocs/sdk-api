@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetScopeVector
-title: ISyncKnowledge::GetScopeVector
+title: ISyncKnowledge::GetScopeVector (winsync.h)
 author: windows-sdk-content
 description: Gets the clock vector that defines the changes that are contained in the knowledge.
 old-location: winsync\isyncknowledge_getscopevector.htm

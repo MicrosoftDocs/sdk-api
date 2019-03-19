@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderRenderTargets
-title: IDirectXVideoDecoderService::GetDecoderRenderTargets
+title: IDirectXVideoDecoderService::GetDecoderRenderTargets (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves the supported render targets for a specified decoder device.
 old-location: mf\idirectxvideodecoderservice_getdecoderrendertargets.htm

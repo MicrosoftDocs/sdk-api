@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetCurrentProcess
-title: GetCurrentProcess function
+title: GetCurrentProcess function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves a pseudo handle for the current process.
 old-location: base\getcurrentprocess.htm

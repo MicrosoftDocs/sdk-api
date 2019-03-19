@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.SetPath
-title: IKnownFolder::SetPath
+title: IKnownFolder::SetPath (shobjidl_core.h)
 author: windows-sdk-content
 description: Assigns a new path to a known folder.
 old-location: shell\IKnownFolder_SetPath.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AddEnvironmentToStore
-title: ITsSbResourcePluginStore::AddEnvironmentToStore
+title: ITsSbResourcePluginStore::AddEnvironmentToStore (sbtsv.h)
 author: windows-sdk-content
 description: Adds an environment to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_addenvironmenttostore.htm

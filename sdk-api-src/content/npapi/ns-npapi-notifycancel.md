@@ -1,6 +1,6 @@
 ---
 UID: NS:npapi._NOTIFYCANCEL
-title: NOTIFYCANCEL
+title: NOTIFYCANCEL (npapi.h)
 author: windows-sdk-content
 description: The NOTIFYCANCEL structure contains the details of a network disconnect operation. It is used by the CancelConnectNotify function.
 old-location: security\notifycancel.htm

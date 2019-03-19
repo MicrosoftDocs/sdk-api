@@ -1,6 +1,6 @@
 ---
 UID: NF:intsafe.ByteToInt8
-title: ByteToInt8 function
+title: ByteToInt8 function (intsafe.h)
 author: windows-sdk-content
 description: Converts a value of type BYTE to a value of type INT8.
 old-location: shell\ByteToInt8.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:filehc.InsertFile
-title: InsertFile function
+title: InsertFile function (filehc.h)
 author: windows-sdk-content
 description: Inserts a file into the cache.
 old-location: winprog\_insertfile.htm

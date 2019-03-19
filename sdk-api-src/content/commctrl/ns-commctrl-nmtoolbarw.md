@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagNMTOOLBARW
-title: NMTOOLBARW
+title: NMTOOLBARW (commctrl.h)
 author: windows-sdk-content
 description: Contains information used to process toolbar notification codes. This structure supersedes the TBNOTIFY structure.
 old-location: controls\NMTOOLBAR.htm

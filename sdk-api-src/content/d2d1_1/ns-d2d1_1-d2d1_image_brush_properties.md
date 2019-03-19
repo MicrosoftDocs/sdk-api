@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_IMAGE_BRUSH_PROPERTIES
-title: D2D1_IMAGE_BRUSH_PROPERTIES
+title: D2D1_IMAGE_BRUSH_PROPERTIES (d2d1_1.h)
 author: windows-sdk-content
 description: Describes image brush features.
 old-location: direct2d\d2d1_image_brush_properties.htm

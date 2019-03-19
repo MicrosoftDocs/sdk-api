@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetMnemonicString
-title: IAccDictionary::GetMnemonicString
+title: IAccDictionary::GetMnemonicString (msaatext.h)
 author: windows-sdk-content
 description: Retrieves a mnemonic string.Note  Active Accessibility Text Services is deprecated.
 old-location: winauto\iaccdictionary_iaccdictionary__getmnemonicstring.htm

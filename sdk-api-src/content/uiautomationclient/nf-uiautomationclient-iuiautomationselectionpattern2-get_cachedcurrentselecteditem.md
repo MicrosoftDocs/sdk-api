@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedCurrentSelectedItem
-title: IUIAutomationSelectionPattern2::get_CachedCurrentSelectedItem
+title: IUIAutomationSelectionPattern2::get_CachedCurrentSelectedItem (uiautomationclient.h)
 author: windows-sdk-content
 description: Gets a cached IUIAutomationElement object representing the currently selected item.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedCurrentSelectedItem.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCreateBatch
-title: ClusterRegCreateBatch function
+title: ClusterRegCreateBatch function (clusapi.h)
 author: windows-sdk-content
 description: Creates a batch that will execute commands on a cluster registry key.
 old-location: mscs\clusterregcreatebatch.htm

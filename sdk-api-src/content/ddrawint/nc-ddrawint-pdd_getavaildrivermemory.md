@@ -1,6 +1,6 @@
 ---
 UID: NC:ddrawint.PDD_GETAVAILDRIVERMEMORY
-title: PDD_GETAVAILDRIVERMEMORY
+title: PDD_GETAVAILDRIVERMEMORY (ddrawint.h)
 author: windows-sdk-content
 description: The DdGetAvailDriverMemory callback function queries the amount of free memory in the driver-managed memory heap.
 old-location: display\ddgetavaildrivermemory.htm

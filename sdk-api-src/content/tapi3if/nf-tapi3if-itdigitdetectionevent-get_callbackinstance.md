@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_CallbackInstance
-title: ITDigitDetectionEvent::get_CallbackInstance
+title: ITDigitDetectionEvent::get_CallbackInstance (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with the event.
 old-location: tapi3\itdigitdetectionevent_get_callbackinstance.htm

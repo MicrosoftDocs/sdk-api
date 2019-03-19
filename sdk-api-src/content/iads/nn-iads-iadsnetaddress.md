@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsNetAddress
-title: IADsNetAddress
+title: IADsNetAddress (iads.h)
 author: windows-sdk-content
 description: The IADsNetAddress interface provides methods for an ADSI client to access the Net Address attribute.
 old-location: adsi\iadsnetaddress.htm

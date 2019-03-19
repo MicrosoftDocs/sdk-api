@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUSPROP_BINARY
-title: CLUSPROP_BINARY
+title: CLUSPROP_BINARY (clusapi.h)
 author: windows-sdk-content
 description: Describes a binary data value.
 old-location: mscs\clusprop_binary.htm

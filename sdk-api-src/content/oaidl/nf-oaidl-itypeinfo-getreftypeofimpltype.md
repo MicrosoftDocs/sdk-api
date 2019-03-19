@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetRefTypeOfImplType
-title: ITypeInfo::GetRefTypeOfImplType
+title: ITypeInfo::GetRefTypeOfImplType (oaidl.h)
 author: windows-sdk-content
 description: If a type description describes a COM class, it retrieves the type description of the implemented interface types.
 old-location: automat\itypeinfo_getreftypeofimpltype.htm

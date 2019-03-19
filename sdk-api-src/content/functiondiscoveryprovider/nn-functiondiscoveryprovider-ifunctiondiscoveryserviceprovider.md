@@ -1,6 +1,6 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryServiceProvider
-title: IFunctionDiscoveryServiceProvider
+title: IFunctionDiscoveryServiceProvider (functiondiscoveryprovider.h)
 author: windows-sdk-content
 description: This interface is implemented to create and initialize objects to provide a specified access interface to a resource represented by the function instance. After the object is created, the Initialize method is called to initialize the object.
 old-location: ncd\ifunctiondiscoveryserviceprovider.htm

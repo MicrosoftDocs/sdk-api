@@ -1,6 +1,6 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem
-title: ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem
+title: ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem (credentialprovider.h)
 author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that an item should be deleted from a combo box and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem.htm

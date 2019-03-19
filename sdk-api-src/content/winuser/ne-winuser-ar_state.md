@@ -1,6 +1,6 @@
 ---
 UID: NE:winuser.tagAR_STATE
-title: AR_STATE
+title: AR_STATE (winuser.h)
 author: windows-sdk-content
 description: Indicates the state of screen auto-rotation for the system. For example, whether auto-rotation is supported, and whether it is enabled by the user.
 old-location: base\ar_state.htm

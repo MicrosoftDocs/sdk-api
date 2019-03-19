@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IACList2.SetOptions
-title: IACList2::SetOptions
+title: IACList2::SetOptions (shlobj_core.h)
 author: windows-sdk-content
 description: Sets the current autocomplete options.
 old-location: shell\IACList2_SetOptions.htm

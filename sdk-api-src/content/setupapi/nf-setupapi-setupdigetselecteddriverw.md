@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiGetSelectedDriverW
-title: SetupDiGetSelectedDriverW function
+title: SetupDiGetSelectedDriverW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiGetSelectedDriver function retrieves the selected driver for a device information set or a particular device information element.
 old-location: devinst\setupdigetselecteddriver.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:sspi._SecPkgContext_AuthorityA
-title: SecPkgContext_AuthorityA
+title: SecPkgContext_AuthorityA (sspi.h)
 author: windows-sdk-content
 description: The SecPkgContext_Authority structure contains the name of the authenticating authority if one is available.
 old-location: security\secpkgcontext_authority.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.ICEnroll.get_DeleteRequestCert
-title: ICEnroll::get_DeleteRequestCert
+title: ICEnroll::get_DeleteRequestCert (xenroll.h)
 author: windows-sdk-content
 description: Sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
 old-location: security\icenroll4_deleterequestcert.htm

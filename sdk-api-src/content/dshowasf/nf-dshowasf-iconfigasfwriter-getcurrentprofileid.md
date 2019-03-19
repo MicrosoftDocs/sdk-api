@@ -1,6 +1,6 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetCurrentProfileId
-title: IConfigAsfWriter::GetCurrentProfileId
+title: IConfigAsfWriter::GetCurrentProfileId (dshowasf.h)
 author: windows-sdk-content
 description: The GetCurrentProfileId method retrieves the identifier of the WM ASF Writer filter's profile, only when the filter is using a Windows Media Format 4.0 profile. (Deprecated.).
 old-location: dshow\iconfigasfwriter_getcurrentprofileid.htm

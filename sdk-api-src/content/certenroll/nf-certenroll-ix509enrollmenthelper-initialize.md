@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentHelper.Initialize
-title: IX509EnrollmentHelper::Initialize
+title: IX509EnrollmentHelper::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes an IX509EnrollmentHelper object.
 old-location: security\ix509enrollmenthelper_initialize.htm

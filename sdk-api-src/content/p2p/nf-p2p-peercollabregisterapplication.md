@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabRegisterApplication
-title: PeerCollabRegisterApplication function
+title: PeerCollabRegisterApplication function (p2p.h)
 author: windows-sdk-content
 description: Registers an application with the local computer so that it can be launched in a peer collaboration activity.
 old-location: p2p\peercollabregisterapplication.htm

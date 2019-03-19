@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.GetXMLContext
-title: IWSDiscoveryProvider::GetXMLContext
+title: IWSDiscoveryProvider::GetXMLContext (wsddisco.h)
 author: windows-sdk-content
 description: Gets the XML context associated with this provider.
 old-location: ncd\iwsdiscoveryprovider_getxmlcontext.htm

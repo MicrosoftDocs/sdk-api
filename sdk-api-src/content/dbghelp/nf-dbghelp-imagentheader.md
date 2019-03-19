@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.ImageNtHeader
-title: ImageNtHeader function
+title: ImageNtHeader function (dbghelp.h)
 author: windows-sdk-content
 description: Locates the IMAGE_NT_HEADERS structure in a PE image and returns a pointer to the data.
 old-location: base\imagentheader.htm

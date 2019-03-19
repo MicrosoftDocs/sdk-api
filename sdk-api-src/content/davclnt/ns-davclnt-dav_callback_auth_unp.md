@@ -1,6 +1,6 @@
 ---
 UID: NS:davclnt._DAV_CALLBACK_AUTH_UNP
-title: DAV_CALLBACK_AUTH_UNP
+title: DAV_CALLBACK_AUTH_UNP (davclnt.h)
 author: windows-sdk-content
 description: Stores user name and password information that was retrieved by the DavAuthCallback callback function.
 old-location: webdav\dav_callback_auth_unp.htm

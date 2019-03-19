@@ -1,6 +1,6 @@
 ---
 UID: NS:ws2spi.WSPData
-title: WSPDATA
+title: WSPDATA (ws2spi.h)
 author: windows-sdk-content
 description: The WSPDATA structure contains service provider information.
 old-location: winsock\wspdata_2.htm

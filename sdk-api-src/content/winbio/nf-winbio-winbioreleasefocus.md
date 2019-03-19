@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioReleaseFocus
-title: WinBioReleaseFocus function
+title: WinBioReleaseFocus function (winbio.h)
 author: windows-sdk-content
 description: Releases window focus.
 old-location: secbiomet\winbioreleasefocus.htm

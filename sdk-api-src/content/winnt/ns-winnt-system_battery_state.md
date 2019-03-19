@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt.__unnamed_struct_27
-title: SYSTEM_BATTERY_STATE
+title: SYSTEM_BATTERY_STATE (winnt.h)
 author: windows-sdk-content
 description: Contains information about the current state of the system battery.
 old-location: base\system_battery_state_str.htm

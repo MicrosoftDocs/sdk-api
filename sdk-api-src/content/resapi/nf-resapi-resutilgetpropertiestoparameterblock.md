@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilGetPropertiesToParameterBlock
-title: ResUtilGetPropertiesToParameterBlock function
+title: ResUtilGetPropertiesToParameterBlock function (resapi.h)
 author: windows-sdk-content
 description: Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.
 old-location: mscs\resutilgetpropertiestoparameterblock.htm

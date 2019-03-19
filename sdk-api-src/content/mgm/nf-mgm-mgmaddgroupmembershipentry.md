@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmAddGroupMembershipEntry
-title: MgmAddGroupMembershipEntry function
+title: MgmAddGroupMembershipEntry function (mgm.h)
 author: windows-sdk-content
 description: The MgmAddGroupMembershipEntry function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface.
 old-location: rras\mgmaddgroupmembershipentry.htm

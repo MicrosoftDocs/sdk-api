@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateMuxSink
-title: MFCreateMuxSink function
+title: MFCreateMuxSink function (mfidl.h)
 author: windows-sdk-content
 description: Creates a generic media sink that wraps a multiplexer Microsoft Media Foundation transform (MFT).
 old-location: mf\mfcreatemuxsink.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:setupapi._FILEPATHS_SIGNERINFO_W
-title: FILEPATHS_SIGNERINFO_W
+title: FILEPATHS_SIGNERINFO_W (setupapi.h)
 author: windows-sdk-content
 description: The FILEPATHS_SINGNERINFO structure stores source and target path information, and also file signature information.
 old-location: setup\filepaths_signerinfo.htm

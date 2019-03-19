@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_DeviceName
-title: IFaxRoutingMethod::get_DeviceName
+title: IFaxRoutingMethod::get_DeviceName (faxcom.h)
 author: windows-sdk-content
 description: The IFaxRoutingMethod::get_DeviceName property is a null-terminated string that contains the user-friendly display name for a fax port.
 old-location: fax\_mfax_ifaxroutingmethod_mfax_ifaxroutingmethod_get_devicename_cpp.htm

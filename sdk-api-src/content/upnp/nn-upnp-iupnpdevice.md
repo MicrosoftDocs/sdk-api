@@ -1,6 +1,6 @@
 ---
 UID: NN:upnp.IUPnPDevice
-title: IUPnPDevice
+title: IUPnPDevice (upnp.h)
 author: windows-sdk-content
 description: The IUPnPDevice interface enables an application to retrieve information about a specific device.
 old-location: upnp\iupnpdevice.htm

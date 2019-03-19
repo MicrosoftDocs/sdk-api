@@ -1,6 +1,6 @@
 ---
 UID: NF:aclapi.GetSecurityInfo
-title: GetSecurityInfo function
+title: GetSecurityInfo function (aclapi.h)
 author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for an object specified by a handle.
 old-location: security\getsecurityinfo.htm

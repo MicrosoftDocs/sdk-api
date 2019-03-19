@@ -1,6 +1,6 @@
 ---
 UID: NE:xamlom.VisualMutationType
-title: VisualMutationType
+title: VisualMutationType (xamlom.h)
 author: windows-sdk-content
 description: Defines constants that specify whether the element was added to or removed from the live visual tree.
 old-location: xaml_diagnostics\visualmutationtype.htm

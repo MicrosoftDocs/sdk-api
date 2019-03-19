@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.waveInUnprepareHeader
-title: waveInUnprepareHeader function
+title: waveInUnprepareHeader function (mmeapi.h)
 author: windows-sdk-content
 description: The waveInUnprepareHeader function cleans up the preparation performed by the waveInPrepareHeader function.
 old-location: multimedia\waveinunprepareheader.htm

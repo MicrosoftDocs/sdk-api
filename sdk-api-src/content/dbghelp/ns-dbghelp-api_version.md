@@ -1,6 +1,6 @@
 ---
 UID: NS:dbghelp.API_VERSION
-title: API_VERSION
+title: API_VERSION (dbghelp.h)
 author: windows-sdk-content
 description: Contains the library version.
 old-location: base\api_version_str.htm

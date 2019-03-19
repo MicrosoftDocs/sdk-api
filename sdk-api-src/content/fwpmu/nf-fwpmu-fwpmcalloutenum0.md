@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmCalloutEnum0
-title: FwpmCalloutEnum0 function
+title: FwpmCalloutEnum0 function (fwpmu.h)
 author: windows-sdk-content
 description: Returns the next page of results from the callout enumerator.
 old-location: fwp\fwpmcalloutenum0_func.htm

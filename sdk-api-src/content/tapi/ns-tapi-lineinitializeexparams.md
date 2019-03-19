@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineinitializeexparams_tag
-title: LINEINITIALIZEEXPARAMS
+title: LINEINITIALIZEEXPARAMS (tapi.h)
 author: windows-sdk-content
 description: The LINEINITIZALIZEEXPARAMS structure describes parameters supplied when making calls using LINEINITIALIZEEX.
 old-location: tapi2\lineinitializeexparams_str.htm

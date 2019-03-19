@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.CVssWriter.OnThaw
-title: CVssWriter::OnThaw
+title: CVssWriter::OnThaw (vswriter.h)
 author: windows-sdk-content
 description: The OnThaw method is called by a writer following a Thaw event.
 old-location: base\cvsswriter_onthaw.htm

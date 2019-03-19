@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Parameters
-title: IFsrmFileManagementJob::get_Parameters
+title: IFsrmFileManagementJob::get_Parameters (fsrmreports.h)
 author: windows-sdk-content
 description: The parameters for the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_parameters.htm

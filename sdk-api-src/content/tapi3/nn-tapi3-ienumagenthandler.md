@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3.IEnumAgentHandler
-title: IEnumAgentHandler
+title: IEnumAgentHandler (tapi3.h)
 author: windows-sdk-content
 description: The IEnumAgentHandler interface provides COM-standard enumeration methods for the ITAgentHandler interface. The ITTAPICallCenter::EnumerateAgentHandlers method returns a pointer to IEnumAgentHandler.
 old-location: tapi3\ienumagenthandler.htm

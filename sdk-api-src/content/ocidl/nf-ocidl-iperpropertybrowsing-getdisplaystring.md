@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetDisplayString
-title: IPerPropertyBrowsing::GetDisplayString
+title: IPerPropertyBrowsing::GetDisplayString (ocidl.h)
 author: windows-sdk-content
 description: Retrieves a text string describing the specified property.
 old-location: com\iperpropertybrowsing_getdisplaystring.htm

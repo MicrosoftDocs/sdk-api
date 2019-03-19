@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorReplicate
-title: XMVectorReplicate function
+title: XMVectorReplicate function (directxmath.h)
 author: windows-sdk-content
 description: Replicates a floating-point value into all four components of a vector.
 old-location: dxmath\xmvectorreplicate.htm

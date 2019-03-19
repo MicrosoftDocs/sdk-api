@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0006
-title: XPS_DASH_CAP
+title: XPS_DASH_CAP (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Specifies the style of a dash cap on a dashed stroke.
 old-location: xps\xps_dash_cap.htm

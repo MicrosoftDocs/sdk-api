@@ -1,6 +1,6 @@
 ---
 UID: NN:mpeg2psiparser.IPAT
-title: IPAT
+title: IPAT (mpeg2psiparser.h)
 author: windows-sdk-content
 description: The IPAT interface enables the client to get information from a Program Association Table (PAT). The IAtscPsipParser::GetPAT method returns a pointer to this interface.
 old-location: mstv\ipat.htm

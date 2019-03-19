@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarI1FromCy
-title: VarI1FromCy function
+title: VarI1FromCy function (oleauto.h)
 author: windows-sdk-content
 description: Converts a currency value to a char value.
 old-location: automat\vari1fromcy.htm

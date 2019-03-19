@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetSortDescription
-title: IPropertyDescription::GetSortDescription
+title: IPropertyDescription::GetSortDescription (propsys.h)
 author: windows-sdk-content
 description: Gets the current sort description flags for the property, which indicate the particular wordings of sort offerings.
 old-location: properties\IPropertyDescription_GetSortDescription.htm

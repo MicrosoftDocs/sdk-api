@@ -1,6 +1,6 @@
 ---
 UID: NF:netsh.RegisterContext
-title: RegisterContext function
+title: RegisterContext function (netsh.h)
 author: windows-sdk-content
 description: Registers a helper context with NetShell.
 old-location: netshell\registercontext.htm

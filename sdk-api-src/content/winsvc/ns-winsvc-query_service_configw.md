@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_CONFIGW
-title: QUERY_SERVICE_CONFIGW
+title: QUERY_SERVICE_CONFIGW (winsvc.h)
 author: windows-sdk-content
 description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function.
 old-location: base\query_service_config_str.htm

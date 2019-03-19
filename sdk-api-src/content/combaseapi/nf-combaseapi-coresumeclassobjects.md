@@ -1,6 +1,6 @@
 ---
 UID: NF:combaseapi.CoResumeClassObjects
-title: CoResumeClassObjects function
+title: CoResumeClassObjects function (combaseapi.h)
 author: windows-sdk-content
 description: Called by a server that can register multiple class objects to inform the SCM about all registered classes, and permits activation requests for those class objects.
 old-location: com\coresumeclassobjects.htm

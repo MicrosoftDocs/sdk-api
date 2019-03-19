@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia.get_attributeCount
-title: IWMPMedia::get_attributeCount
+title: IWMPMedia::get_attributeCount (wmp.h)
 author: windows-sdk-content
 description: The get_attributeCount method retrieves the number of attributes that can be queried and/or set for the media item.
 old-location: wmp\iwmpmedia_get_attributecount.htm

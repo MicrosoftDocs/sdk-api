@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetAttributes
-title: IShellItem::GetAttributes
+title: IShellItem::GetAttributes (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a requested set of attributes of the IShellItem object.
 old-location: shell\IShellItem_GetAttributes.htm

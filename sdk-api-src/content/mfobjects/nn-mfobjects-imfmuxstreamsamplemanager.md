@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamSampleManager
-title: IMFMuxStreamSampleManager
+title: IMFMuxStreamSampleManager (mfobjects.h)
 author: windows-sdk-content
 description: Provides the ability to retrieve IMFSample objects for individual substreams within the output of a multiplexed media source.
 old-location: mf\imfmuxstreamsamplemanager.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewProps
-title: IWMWriterPostView::SetPostViewProps
+title: IWMWriterPostView::SetPostViewProps (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetPostViewProps method specifies the format for the specified output stream.
 old-location: wmformat\iwmwriterpostview_setpostviewprops.htm

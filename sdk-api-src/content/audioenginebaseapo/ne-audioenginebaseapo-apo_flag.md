@@ -1,6 +1,6 @@
 ---
 UID: NE:audioenginebaseapo.APO_FLAG
-title: APO_FLAG
+title: APO_FLAG (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The APO_FLAG enumeration defines constants that are used as flags by an audio processing object (APO).
 old-location: audio\apo_flag.htm

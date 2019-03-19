@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_DeleteItem
-title: DSA_DeleteItem function
+title: DSA_DeleteItem function (dpa_dsa.h)
 author: windows-sdk-content
 description: Deletes an item from a dynamic structure array (DSA).
 old-location: controls\DSA_DeleteItem.htm

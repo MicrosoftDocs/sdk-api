@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
-title: IDvbMultilingualServiceNameDescriptor::GetCountOfRecords
+title: IDvbMultilingualServiceNameDescriptor::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of service records in a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getcountofrecords.htm

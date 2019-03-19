@@ -1,6 +1,6 @@
 ---
 UID: NF:msime.IFEDictionary.RegisterWord
-title: IFEDictionary::RegisterWord
+title: IFEDictionary::RegisterWord (msime.h)
 author: windows-sdk-content
 description: Registers a new word or deletes an existing word in the IFEDictionary.
 old-location: intl\ifedictionary_registerword.htm

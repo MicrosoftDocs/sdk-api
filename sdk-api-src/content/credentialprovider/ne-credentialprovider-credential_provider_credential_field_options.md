@@ -1,6 +1,6 @@
 ---
 UID: NE:credentialprovider.CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
-title: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS
+title: CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS (credentialprovider.h)
 author: windows-sdk-content
 description: Provides customization options for a single field in a logon or credential UI.
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_FIELD_OPTIONS.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_IO_CALLBACK
-title: MINIDUMP_IO_CALLBACK
+title: MINIDUMP_IO_CALLBACK (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains I/O callback information.
 old-location: base\minidump_io_callback.htm

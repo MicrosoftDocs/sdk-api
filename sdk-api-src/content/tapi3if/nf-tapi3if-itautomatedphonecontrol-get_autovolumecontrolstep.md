@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoVolumeControlStep
-title: ITAutomatedPhoneControl::get_AutoVolumeControlStep
+title: ITAutomatedPhoneControl::get_AutoVolumeControlStep (tapi3if.h)
 author: windows-sdk-content
 description: The get_AutoVolumeControlStep method retrieves the current value of the AutoVolumeControlStep property. The property determines the amount that the phone volume is adjusted when the volume button is pressed.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolstep.htm

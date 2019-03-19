@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetResourcePluginStore
-title: ITsSbProvider::GetResourcePluginStore
+title: ITsSbProvider::GetResourcePluginStore (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves an ITsSbResourcePluginStore instance of the resource plug-in store.
 old-location: termserv\itssbprovider_getresourcepluginstore.htm

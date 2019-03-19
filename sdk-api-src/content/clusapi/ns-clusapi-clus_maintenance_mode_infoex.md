@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi._CLUS_MAINTENANCE_MODE_INFOEX
-title: CLUS_MAINTENANCE_MODE_INFOEX
+title: CLUS_MAINTENANCE_MODE_INFOEX (clusapi.h)
 author: windows-sdk-content
 description: Represents the extended maintenance mode settings for a storage class resource.
 old-location: mscs\clus_maintenance_mode_infoex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdxml.IWSDXMLContext.SetNamespaces
-title: IWSDXMLContext::SetNamespaces
+title: IWSDXMLContext::SetNamespaces (wsdxml.h)
 author: windows-sdk-content
 description: Associates custom namespaces with the XML context object.
 old-location: ncd\iwsdxmlcontext_setnamespaces_method.htm

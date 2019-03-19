@@ -1,6 +1,6 @@
 ---
 UID: NF:wlanapi.WlanEnumInterfaces
-title: WlanEnumInterfaces function
+title: WlanEnumInterfaces function (wlanapi.h)
 author: windows-sdk-content
 description: Enumerates all of the wireless LAN interfaces currently enabled on the local computer.
 old-location: nwifi\wlanenuminterfaces.htm

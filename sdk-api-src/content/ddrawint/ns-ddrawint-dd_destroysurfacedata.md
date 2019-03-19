@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_DESTROYSURFACEDATA
-title: DD_DESTROYSURFACEDATA
+title: DD_DESTROYSURFACEDATA (ddrawint.h)
 author: windows-sdk-content
 description: The DD_DESTROYSURFACEDATA structure contains information necessary to destroy the specified surface--in the case of DestroyD3DBuffer, a command or vertex buffer.
 old-location: display\dd_destroysurfacedata.htm

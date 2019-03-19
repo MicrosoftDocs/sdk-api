@@ -1,6 +1,6 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_DRAIN_STATUS
-title: CLUSTER_NODE_DRAIN_STATUS
+title: CLUSTER_NODE_DRAIN_STATUS (clusapi.h)
 author: windows-sdk-content
 description: Enumerates the possible values of the status of a node drain.
 old-location: mscs\cluster_node_drain_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.GetQualityLevel
-title: IMFQualityAdvise::GetQualityLevel
+title: IMFQualityAdvise::GetQualityLevel (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the current quality level.
 old-location: mf\imfqualityadvise_getqualitylevel.htm

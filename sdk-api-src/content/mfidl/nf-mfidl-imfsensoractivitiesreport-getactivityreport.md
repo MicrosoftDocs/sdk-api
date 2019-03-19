@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReport.GetActivityReport
-title: IMFSensorActivitiesReport::GetActivityReport
+title: IMFSensorActivitiesReport::GetActivityReport (mfidl.h)
 author: windows-sdk-content
 description: Retrieves an IMFSensorActivityReport based on the specified index.
 old-location: mf\imfsensoractivityreport_getactivityreport.htm

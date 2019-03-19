@@ -1,6 +1,6 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolSettings
-title: IWRdsProtocolSettings
+title: IWRdsProtocolSettings (wtsprotocol.h)
 author: windows-sdk-content
 description: Exposes methods for retrieving and adding policy-related settings.
 old-location: termserv\iwrdsprotocolsettings.htm

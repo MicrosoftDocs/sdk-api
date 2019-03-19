@@ -1,6 +1,6 @@
 ---
 UID: NF:textserv.ITextHost.TxImmReleaseContext
-title: ITextHost::TxImmReleaseContext
+title: ITextHost::TxImmReleaseContext (textserv.h)
 author: windows-sdk-content
 description: Releases an input context returned by the ITextHost::TxImmGetContext method and unlocks the memory associated with the context. This method is used only in Asian-language versions of the operating system.
 old-location: controls\ITextHost_TxImmReleaseContext.htm

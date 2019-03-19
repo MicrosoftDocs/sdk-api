@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventControl.put_AllowInprocActivation
-title: IEventControl::put_AllowInprocActivation
+title: IEventControl::put_AllowInprocActivation (eventsys.h)
 author: windows-sdk-content
 description: Indicates whether subscribers can be activated in the publisher's process.
 old-location: cos\ieventcontrol_allowinprocactivation.htm

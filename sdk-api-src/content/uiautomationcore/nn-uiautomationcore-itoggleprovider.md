@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IToggleProvider
-title: IToggleProvider
+title: IToggleProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to controls that can cycle through a set of states and maintain a state after it is set.
 old-location: winauto\uiauto_IToggleProvider.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateLinearTransferEffect
-title: IDCompositionDevice3::CreateLinearTransferEffect
+title: IDCompositionDevice3::CreateLinearTransferEffect (dcomp.h)
 author: windows-sdk-content
 description: Creates an instance of IDCompositionLinearTransferEffect.
 old-location: directcomp\idcompositiondevice3_createlineartransfereffect.htm

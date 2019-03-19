@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgi1_4.DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
-title: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG
+title: DXGI_SWAP_CHAIN_COLOR_SPACE_SUPPORT_FLAG (dxgi1_4.h)
 author: windows-sdk-content
 description: Specifies color space support for the swap chain.
 old-location: direct3ddxgi\dxgi_swap_chain_color_space_support_flag.htm

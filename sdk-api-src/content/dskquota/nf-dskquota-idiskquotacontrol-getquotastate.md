@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetQuotaState
-title: IDiskQuotaControl::GetQuotaState
+title: IDiskQuotaControl::GetQuotaState (dskquota.h)
 author: windows-sdk-content
 description: Retrieves a set of flags describing the state of the quota system.
 old-location: fs\idiskquotacontrol_getquotastate.htm

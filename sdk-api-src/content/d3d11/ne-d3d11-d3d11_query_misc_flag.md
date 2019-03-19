@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_QUERY_MISC_FLAG
-title: D3D11_QUERY_MISC_FLAG
+title: D3D11_QUERY_MISC_FLAG (d3d11.h)
 author: windows-sdk-content
 description: Flags that describe miscellaneous query behavior.
 old-location: direct3d11\d3d11_query_misc_flag.htm

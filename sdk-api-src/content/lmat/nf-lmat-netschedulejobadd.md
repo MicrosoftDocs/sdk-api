@@ -1,6 +1,6 @@
 ---
 UID: NF:lmat.NetScheduleJobAdd
-title: NetScheduleJobAdd function
+title: NetScheduleJobAdd function (lmat.h)
 author: windows-sdk-content
 description: The NetScheduleJobAdd function submits a job to run at a specified future time and date. This function requires that the schedule service be started on the computer to which the job is submitted.
 old-location: netmgmt\netschedulejobadd.htm

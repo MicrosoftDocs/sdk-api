@@ -1,6 +1,6 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetAspectRatioMode
-title: IMixerPinConfig::GetAspectRatioMode
+title: IMixerPinConfig::GetAspectRatioMode (mpconfig.h)
 author: windows-sdk-content
 description: The GetAspectRatioMode method retrieves the aspect ratio correction mode for window resizing.
 old-location: dshow\imixerpinconfig_getaspectratiomode.htm

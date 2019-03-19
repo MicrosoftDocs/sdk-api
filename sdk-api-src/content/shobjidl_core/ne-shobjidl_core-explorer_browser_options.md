@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core.EXPLORER_BROWSER_OPTIONS
-title: EXPLORER_BROWSER_OPTIONS
+title: EXPLORER_BROWSER_OPTIONS (shobjidl_core.h)
 author: windows-sdk-content
 description: These flags are used with IExplorerBrowser::GetOptions and IExplorerBrowser::SetOptions.
 old-location: shell\EXPLORER_BROWSER_OPTIONS.htm

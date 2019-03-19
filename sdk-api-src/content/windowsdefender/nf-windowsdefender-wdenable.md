@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsdefender.WDEnable
-title: WDEnable function
+title: WDEnable function (windowsdefender.h)
 author: windows-sdk-content
 description: Changes Windows Defender status to on or off.
 old-location: lwef\defender_wdenable.htm

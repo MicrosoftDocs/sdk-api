@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetDimension
-title: IUIAnimationVariable2::GetDimension
+title: IUIAnimationVariable2::GetDimension (uianimation.h)
 author: windows-sdk-content
 description: Gets the number of dimensions that the animation variable is to be animated in.
 old-location: uianimation\iuianimationvariable2_getdimension.htm

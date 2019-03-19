@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationcore.IExpandCollapseProvider
-title: IExpandCollapseProvider
+title: IExpandCollapseProvider (uiautomationcore.h)
 author: windows-sdk-content
 description: Provides access to a control that visually expands to display content, and collapses to hide content.
 old-location: winauto\uiauto_IExpandCollapseProvider.htm

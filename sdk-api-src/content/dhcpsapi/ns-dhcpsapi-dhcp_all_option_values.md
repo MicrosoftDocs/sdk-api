@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_ALL_OPTION_VALUES
-title: DHCP_ALL_OPTION_VALUES
+title: DHCP_ALL_OPTION_VALUES (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines the set of all option values defined on a DHCP server, organized according to class/vendor pairing.
 old-location: dhcp\dhcp_all_option_values.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IDataObject.DAdvise
-title: IDataObject::DAdvise
+title: IDataObject::DAdvise (objidl.h)
 author: windows-sdk-content
 description: Called by an object supporting an advise sink to create a connection between a data object and the advise sink. This enables the advise sink to be notified of changes in the data of the object.
 old-location: com\idataobject_dadvise.htm

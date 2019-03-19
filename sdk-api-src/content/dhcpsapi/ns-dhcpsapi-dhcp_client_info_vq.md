@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_VQ
-title: DHCP_CLIENT_INFO_VQ
+title: DHCP_CLIENT_INFO_VQ (dhcpsapi.h)
 author: windows-sdk-content
 description: Defines information about the DHCPv4 client.
 old-location: dhcp\dhcp_client_info_vq.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetOutputPixelFormat
-title: IMILBitmapEffectRenderContext::GetOutputPixelFormat
+title: IMILBitmapEffectRenderContext::GetOutputPixelFormat (mileffects.h)
 author: windows-sdk-content
 description: Gets the output pixel format GUID.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getoutputpixelformat.htm

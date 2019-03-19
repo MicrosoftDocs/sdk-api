@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetBkMode
-title: GetBkMode function
+title: GetBkMode function (wingdi.h)
 author: windows-sdk-content
 description: The GetBkMode function returns the current background mix mode for a specified device context. The background mix mode of a device context affects text, hatched brushes, and pen styles that are not solid lines.
 old-location: gdi\getbkmode.htm

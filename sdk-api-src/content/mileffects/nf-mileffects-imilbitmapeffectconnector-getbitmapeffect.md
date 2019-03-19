@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnector.GetBitmapEffect
-title: IMILBitmapEffectConnector::GetBitmapEffect
+title: IMILBitmapEffectConnector::GetBitmapEffect (mileffects.h)
 author: windows-sdk-content
 description: Gets the IMILBitmapEffect associated with the connector.
 old-location: wibe\_wibe_imilbitmapeffectconnector_getbitmapeffect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDUdpMessageParameters.SetRetransmitParams
-title: IWSDUdpMessageParameters::SetRetransmitParams
+title: IWSDUdpMessageParameters::SetRetransmitParams (wsdbase.h)
 author: windows-sdk-content
 description: Sets the values that WSD uses to determine how often to repeat the message transmission.
 old-location: ncd\iwsdudpmessageparameters_setretransmitparams.htm

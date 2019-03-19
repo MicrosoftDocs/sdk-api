@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Next
-title: IEnumSTATDATA::Next
+title: IEnumSTATDATA::Next (objidl.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumstatdata_next.htm

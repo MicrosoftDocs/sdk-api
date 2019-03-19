@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice.GetFeatureMask
-title: ID3D12DebugDevice::GetFeatureMask
+title: ID3D12DebugDevice::GetFeatureMask (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Gets a bit field of flags that indicates which debug features are on or off.
 old-location: direct3d12\id3d12debugdevice_getfeaturemask.htm

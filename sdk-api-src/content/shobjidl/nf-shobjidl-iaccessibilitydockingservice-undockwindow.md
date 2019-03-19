@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.UndockWindow
-title: IAccessibilityDockingService::UndockWindow
+title: IAccessibilityDockingService::UndockWindow (shobjidl.h)
 author: windows-sdk-content
 description: Undocks the specified window handle if it is currently docked.
 old-location: com\iaccessibilitydockingservice_undockwindow.htm

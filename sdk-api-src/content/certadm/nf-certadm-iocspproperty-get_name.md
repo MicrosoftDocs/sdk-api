@@ -1,6 +1,6 @@
 ---
 UID: NF:certadm.IOCSPProperty.get_Name
-title: IOCSPProperty::get_Name
+title: IOCSPProperty::get_Name (certadm.h)
 author: windows-sdk-content
 description: Gets the identifier part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_name_method.htm

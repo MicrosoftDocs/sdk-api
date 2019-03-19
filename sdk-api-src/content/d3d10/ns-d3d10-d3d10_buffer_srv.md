@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_BUFFER_SRV
-title: D3D10_BUFFER_SRV
+title: D3D10_BUFFER_SRV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the elements in a buffer resource to use in a shader-resource view.
 old-location: direct3d10\d3d10_buffer_srv.htm

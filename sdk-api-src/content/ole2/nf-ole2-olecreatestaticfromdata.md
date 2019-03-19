@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateStaticFromData
-title: OleCreateStaticFromData function
+title: OleCreateStaticFromData function (ole2.h)
 author: windows-sdk-content
 description: Creates a static object, that contains only a representation, with no native data, from a data transfer object.
 old-location: com\olecreatestaticfromdata.htm

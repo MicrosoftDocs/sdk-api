@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IDvdState
-title: IDvdState
+title: IDvdState (strmif.h)
 author: windows-sdk-content
 description: The IDvdState interface caches the current state.The object that implements this interface is called a DVD bookmark. You can use it to save and restore the DVD state, which includes the playback location, the user's parental level, and the DVD region.
 old-location: dshow\idvdstate.htm

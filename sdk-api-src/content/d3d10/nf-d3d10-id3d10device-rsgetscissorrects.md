@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetScissorRects
-title: ID3D10Device::RSGetScissorRects
+title: ID3D10Device::RSGetScissorRects (d3d10.h)
 author: windows-sdk-content
 description: Get the array of scissor rectangles bound to the rasterizer stage.
 old-location: direct3d10\id3d10device_rsgetscissorrects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:authz.AuthzUnregisterSecurityEventSource
-title: AuthzUnregisterSecurityEventSource function
+title: AuthzUnregisterSecurityEventSource function (authz.h)
 author: windows-sdk-content
 description: Unregisters a security event source with the Local Security Authority (LSA).
 old-location: security\authzunregistersecurityeventsource.htm

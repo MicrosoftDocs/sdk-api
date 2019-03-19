@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetWindowPlacement
-title: GetWindowPlacement function
+title: GetWindowPlacement function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the show state and the restored, minimized, and maximized positions of the specified window.
 old-location: winmsg\getwindowplacement.htm

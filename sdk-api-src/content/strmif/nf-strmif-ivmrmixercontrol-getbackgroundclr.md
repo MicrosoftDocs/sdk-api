@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetBackgroundClr
-title: IVMRMixerControl::GetBackgroundClr
+title: IVMRMixerControl::GetBackgroundClr (strmif.h)
 author: windows-sdk-content
 description: Gets the current background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol_getbackgroundclr.htm

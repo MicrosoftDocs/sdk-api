@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyExceptionList
-title: IWMPNetwork::setProxyExceptionList
+title: IWMPNetwork::setProxyExceptionList (wmp.h)
 author: windows-sdk-content
 description: The setProxyExceptionList method specifies the proxy exception list.
 old-location: wmp\iwmpnetwork_setproxyexceptionlist.htm

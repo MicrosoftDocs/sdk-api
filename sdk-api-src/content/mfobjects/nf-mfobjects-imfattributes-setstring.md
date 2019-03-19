@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetString
-title: IMFAttributes::SetString
+title: IMFAttributes::SetString (mfobjects.h)
 author: windows-sdk-content
 description: Associates a wide-character string with a key.
 old-location: mf\imfattributes_setstring.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:dvbsiparser.IPBDASiParser
-title: IPBDASiParser
+title: IPBDASiParser (dvbsiparser.h)
 author: windows-sdk-content
 description: Implements methods that retrieve program and system information protocol (PSIP) and service information (SI) tables from a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser.htm

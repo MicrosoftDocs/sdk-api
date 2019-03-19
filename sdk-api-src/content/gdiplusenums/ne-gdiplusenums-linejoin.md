@@ -1,6 +1,6 @@
 ---
 UID: NE:gdiplusenums.LineJoin
-title: LineJoin
+title: LineJoin (gdiplusenums.h)
 author: windows-sdk-content
 description: The LineJoin enumeration specifies how to join two lines that are drawn by the same pen and whose ends meet. At the intersection of the two line ends, a line join makes the join look more continuous.
 old-location: gdiplus\_gdiplus_ENUM_LineJoin.htm

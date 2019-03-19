@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetPacketDescriptionData
-title: IRealTimeStylus::GetPacketDescriptionData
+title: IRealTimeStylus::GetPacketDescriptionData (rtscom.h)
 author: windows-sdk-content
 description: Retrieves the packet properties and scaling factors.
 old-location: tablet\irealtimestylus_getpacketdescriptiondata.htm

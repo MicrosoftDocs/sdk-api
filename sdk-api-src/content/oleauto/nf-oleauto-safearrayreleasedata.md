@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayReleaseData
-title: SafeArrayReleaseData function
+title: SafeArrayReleaseData function (oleauto.h)
 author: windows-sdk-content
 description: Decreases the pinning reference count for the specified safe array data by one. When that count reaches 0, the memory for that data is no longer prevented from being freed.
 old-location: automat\safearrayreleasedata.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoCompression.OverrideKeyFrame
-title: IAMVideoCompression::OverrideKeyFrame
+title: IAMVideoCompression::OverrideKeyFrame (strmif.h)
 author: windows-sdk-content
 description: The OverrideKeyFrame method instructs the filter to compress a particular frame as a key frame.
 old-location: dshow\iamvideocompression_overridekeyframe.htm

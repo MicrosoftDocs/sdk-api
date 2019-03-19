@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyDescriptionRelatedPropertyInfo
-title: IPropertyDescriptionRelatedPropertyInfo
+title: IPropertyDescriptionRelatedPropertyInfo (propsys.h)
 author: windows-sdk-content
 description: Provides a method that retrives an IPropertyDescription interface.
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo.htm

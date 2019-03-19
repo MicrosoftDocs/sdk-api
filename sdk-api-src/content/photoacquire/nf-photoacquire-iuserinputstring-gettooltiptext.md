@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetTooltipText
-title: IUserInputString::GetTooltipText
+title: IUserInputString::GetTooltipText (photoacquire.h)
 author: windows-sdk-content
 description: The GetTooltipText method retrieves the tooltip text displayed for a control.
 old-location: picacq\iuserinputstring_gettooltiptext.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi._FOLLOW_FLAGS
-title: FOLLOW_FLAGS
+title: FOLLOW_FLAGS (searchapi.h)
 author: windows-sdk-content
 description: Used to help define behavior when crawling or indexing. These flags are used by the ISearchCrawlScopeManager::AddDefaultScopeRule and ISearchCrawlScopeManager::AddUserScopeRule methods.
 old-location: search\_search_FOLLOW_FLAGS.htm

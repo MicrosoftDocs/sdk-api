@@ -1,6 +1,6 @@
 ---
 UID: NS:bdaiface.SmartCardApplication
-title: SmartCardApplication
+title: SmartCardApplication (bdaiface.h)
 author: windows-sdk-content
 description: The SmartCardApplication structure identifies a smart card application.
 old-location: mstv\smartcardapplication.htm

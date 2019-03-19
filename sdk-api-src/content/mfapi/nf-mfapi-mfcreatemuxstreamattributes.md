@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamAttributes
-title: MFCreateMuxStreamAttributes function
+title: MFCreateMuxStreamAttributes function (mfapi.h)
 author: windows-sdk-content
 description: Creates an IMFAttributes describing the content of multiplexed substreams.
 old-location: mf\mfcreatemuxstreamattributes.htm

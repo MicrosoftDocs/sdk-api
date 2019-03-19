@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetDouble
-title: IMFAttributes::GetDouble
+title: IMFAttributes::GetDouble (mfobjects.h)
 author: windows-sdk-content
 description: Retrieves a double value associated with a key.
 old-location: mf\imfattributes_getdouble.htm

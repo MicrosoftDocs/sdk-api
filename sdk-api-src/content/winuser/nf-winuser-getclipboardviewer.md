@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetClipboardViewer
-title: GetClipboardViewer function
+title: GetClipboardViewer function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the handle to the first window in the clipboard viewer chain.
 old-location: dataxchg\getclipboardviewer.htm

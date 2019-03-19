@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontList.GetFont
-title: IDWriteFontList::GetFont
+title: IDWriteFontList::GetFont (dwrite.h)
 author: windows-sdk-content
 description: Gets a font given its zero-based index.
 old-location: directwrite\IDWriteFontList_GetFont.htm

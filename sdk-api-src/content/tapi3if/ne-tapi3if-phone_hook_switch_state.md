@@ -1,6 +1,6 @@
 ---
 UID: NE:tapi3if.PHONE_HOOK_SWITCH_STATE
-title: PHONE_HOOK_SWITCH_STATE
+title: PHONE_HOOK_SWITCH_STATE (tapi3if.h)
 author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_STATE enum provides indicators of the phone hookswitch status.
 old-location: tapi3\phone_hook_switch_state.htm

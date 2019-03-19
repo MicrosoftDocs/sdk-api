@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngStretchBltROP
-title: EngStretchBltROP function
+title: EngStretchBltROP function (winddi.h)
 author: windows-sdk-content
 description: The EngStretchBltROP function performs a stretching bit-block transfer using a ROP.
 old-location: display\engstretchbltrop.htm

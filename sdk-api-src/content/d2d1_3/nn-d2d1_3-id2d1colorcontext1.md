@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1_3.ID2D1ColorContext1
-title: ID2D1ColorContext1
+title: ID2D1ColorContext1 (d2d1_3.h)
 author: windows-sdk-content
 description: Represents a color context to be used with the Color Management Effect.
 old-location: direct2d\id2d1colorcontext1.htm

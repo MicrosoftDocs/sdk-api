@@ -1,6 +1,6 @@
 ---
 UID: NF:vdmdbg.VDMEnumTaskWOWEx
-title: VDMEnumTaskWOWEx function
+title: VDMEnumTaskWOWEx function (vdmdbg.h)
 author: windows-sdk-content
 description: Enumerates tasks within a particular virtual DOS machine (VDM).
 old-location: winprog\vdmenumtaskwowex.htm

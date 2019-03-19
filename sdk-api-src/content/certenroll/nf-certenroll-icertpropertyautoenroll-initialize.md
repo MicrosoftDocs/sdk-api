@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICertPropertyAutoEnroll.Initialize
-title: ICertPropertyAutoEnroll::Initialize
+title: ICertPropertyAutoEnroll::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object by specifying the name of the template to be used for autoenrollment.
 old-location: security\icertpropertyautoenroll_initialize_method.htm

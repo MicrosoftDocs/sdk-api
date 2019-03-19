@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcCertificateSet.GetEnumerator
-title: IOpcCertificateSet::GetEnumerator
+title: IOpcCertificateSet::GetEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of certificates in the set.
 old-location: opc\iopccertificateset_getenumerator.htm

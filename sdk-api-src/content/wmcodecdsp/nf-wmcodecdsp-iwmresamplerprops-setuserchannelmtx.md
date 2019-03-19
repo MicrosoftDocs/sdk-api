@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMResamplerProps.SetUserChannelMtx
-title: IWMResamplerProps::SetUserChannelMtx
+title: IWMResamplerProps::SetUserChannelMtx (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies the channel matrix.
 old-location: mf\iwmresamplerpropssetuserchannelmtx.htm

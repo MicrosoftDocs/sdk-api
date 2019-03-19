@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1Factory.GetDesktopDpi
-title: ID2D1Factory::GetDesktopDpi
+title: ID2D1Factory::GetDesktopDpi (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the current desktop dots per inch (DPI). To refresh this value, call ReloadSystemMetrics.
 old-location: direct2d\ID2D1Factory_GetDesktopDpi.htm

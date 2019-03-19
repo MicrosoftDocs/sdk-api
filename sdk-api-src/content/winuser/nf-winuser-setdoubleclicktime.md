@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.SetDoubleClickTime
-title: SetDoubleClickTime function
+title: SetDoubleClickTime function (winuser.h)
 author: windows-sdk-content
 description: Sets the double-click time for the mouse.
 old-location: inputdev\setdoubleclicktime.htm

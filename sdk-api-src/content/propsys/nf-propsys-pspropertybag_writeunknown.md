@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteUnknown
-title: PSPropertyBag_WriteUnknown function
+title: PSPropertyBag_WriteUnknown function (propsys.h)
 author: windows-sdk-content
 description: Writes a property of an unknown data value in a property bag.
 old-location: properties\PSPropertyBag_WriteUnknown.htm

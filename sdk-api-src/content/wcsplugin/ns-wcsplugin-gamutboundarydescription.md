@@ -1,6 +1,6 @@
 ---
 UID: NS:wcsplugin._GamutBoundaryDescription
-title: GamutBoundaryDescription
+title: GamutBoundaryDescription (wcsplugin.h)
 author: windows-sdk-content
 description: Defines a gamut boundary.
 old-location: wcs\gamutboundarydescription.htm

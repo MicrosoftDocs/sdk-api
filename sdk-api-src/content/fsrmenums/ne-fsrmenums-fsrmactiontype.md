@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmActionType
-title: FsrmActionType
+title: FsrmActionType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the actions that can be triggered in response to a quota or file screen event (for example, a quota is exceeded or a file violates a file screen).
 old-location: fsrm\fsrmactiontype.htm

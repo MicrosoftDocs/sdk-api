@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.AddItemToSession
-title: ISyncMgrSyncCallback::AddItemToSession
+title: ISyncMgrSyncCallback::AddItemToSession (syncmgr.h)
 author: windows-sdk-content
 description: Adds a specified item to the set of items currently being synchronized.
 old-location: shell\ISyncMgrSyncCallback_AddItemToSession.htm

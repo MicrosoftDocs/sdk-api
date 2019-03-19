@@ -1,6 +1,6 @@
 ---
 UID: NF:docobj.IPrint.Print
-title: IPrint::Print
+title: IPrint::Print (docobj.h)
 author: windows-sdk-content
 description: Prints an object on the specified printer, using the specified job requirements.
 old-location: com\iprint_print.htm

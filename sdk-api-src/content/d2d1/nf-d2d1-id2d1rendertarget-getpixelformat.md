@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetPixelFormat
-title: ID2D1RenderTarget::GetPixelFormat
+title: ID2D1RenderTarget::GetPixelFormat (d2d1.h)
 author: windows-sdk-content
 description: Retrieves the pixel format and alpha mode of the render target.
 old-location: direct2d\ID2D1RenderTarget_GetPixelFormat.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage2.Refresh
-title: IFaxOutgoingMessage2::Refresh
+title: IFaxOutgoingMessage2::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: Refreshes FaxOutgoingMessage object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
 old-location: fax\_mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_refresh_cpp.htm

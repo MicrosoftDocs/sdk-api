@@ -1,6 +1,6 @@
 ---
 UID: NF:pdh.PdhFormatFromRawValue
-title: PdhFormatFromRawValue function
+title: PdhFormatFromRawValue function (pdh.h)
 author: windows-sdk-content
 description: Computes a displayable value for the given raw counter values.
 old-location: perf\pdhformatfromrawvalue.htm

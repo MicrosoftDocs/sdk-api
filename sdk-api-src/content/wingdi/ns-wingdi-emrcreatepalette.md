@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRCREATEPALETTE
-title: EMRCREATEPALETTE
+title: EMRCREATEPALETTE (wingdi.h)
 author: windows-sdk-content
 description: The EMRCREATEPALETTE structure contains members for the CreatePalette enhanced metafile record.
 old-location: gdi\emrcreatepalette.htm

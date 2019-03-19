@@ -1,6 +1,6 @@
 ---
 UID: NS:mcx._MODEMDEVCAPS
-title: MODEMDEVCAPS
+title: MODEMDEVCAPS (mcx.h)
 author: windows-sdk-content
 description: Contains information about the capabilities of a modem.
 old-location: base\modemdevcaps_str.htm

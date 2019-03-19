@@ -1,6 +1,6 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSTG.Clone
-title: IEnumSTATPROPSTG::Clone
+title: IEnumSTATPROPSTG::Clone (propidlbase.h)
 author: windows-sdk-content
 description: Creates an enumerator that contains the same enumeration state as the current STATPROPSTG structure enumerator.
 old-location: stg\ienumstatpropstg_clone.htm

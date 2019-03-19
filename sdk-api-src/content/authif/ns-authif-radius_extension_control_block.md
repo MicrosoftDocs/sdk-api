@@ -1,6 +1,6 @@
 ---
 UID: NS:authif._RADIUS_EXTENSION_CONTROL_BLOCK
-title: RADIUS_EXTENSION_CONTROL_BLOCK
+title: RADIUS_EXTENSION_CONTROL_BLOCK (authif.h)
 author: windows-sdk-content
 description: The RADIUS_EXTENSION_CONTROL_BLOCK structure provides information about the current RADIUS request. It also provides functions for obtaining the attributes associated with the request, and for setting the disposition of the request.
 old-location: nps\IAS_radius_extension_control_block.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerEndSession
-title: EapPeerEndSession function
+title: EapPeerEndSession function (eapmethodpeerapis.h)
 author: windows-sdk-content
 description: Ends an EAP authentication session for the EAP method.
 old-location: eaphost\eappeerendsession.htm

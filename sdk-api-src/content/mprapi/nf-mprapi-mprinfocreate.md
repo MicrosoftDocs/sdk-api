@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoCreate
-title: MprInfoCreate function
+title: MprInfoCreate function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoCreate function creates a new information header.
 old-location: rras\mprinfocreate.htm

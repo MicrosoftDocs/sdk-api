@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_MediaPhysicallyBlank
-title: IDiscFormat2::get_MediaPhysicallyBlank
+title: IDiscFormat2::get_MediaPhysicallyBlank (imapi2.h)
 author: windows-sdk-content
 description: Determines if the current media is reported as physically blank by the drive.
 old-location: imapi\idiscformat2_get_mediaphysicallyblank.htm

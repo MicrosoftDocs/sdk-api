@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGdiCompatibleGlyphMetrics
-title: IDWriteFontFace::GetGdiCompatibleGlyphMetrics
+title: IDWriteFontFace::GetGdiCompatibleGlyphMetrics (dwrite.h)
 author: windows-sdk-content
 description: Obtains glyph metrics in font design units with the return values compatible with what GDI would produce.
 old-location: directwrite\idwritefontface_getgdicompatibleglyphmetrics.htm

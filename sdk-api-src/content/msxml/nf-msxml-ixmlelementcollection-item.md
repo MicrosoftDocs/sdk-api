@@ -1,6 +1,6 @@
 ---
 UID: NF:msxml.IXMLElementCollection.item
-title: IXMLElementCollection::item
+title: IXMLElementCollection::item (msxml.h)
 author: windows-sdk-content
 description: Retrieves the child elements from a collection using their index, name, or both.
 old-location: winprog\ixmlelementcollection_item.htm

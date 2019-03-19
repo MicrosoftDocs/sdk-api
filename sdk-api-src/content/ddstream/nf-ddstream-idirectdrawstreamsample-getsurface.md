@@ -1,6 +1,6 @@
 ---
 UID: NF:ddstream.IDirectDrawStreamSample.GetSurface
-title: IDirectDrawStreamSample::GetSurface
+title: IDirectDrawStreamSample::GetSurface (ddstream.h)
 author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves pointers to the current sample's DirectDraw surface and associated clipping rectangle.
 old-location: dshow\idirectdrawstreamsample_getsurface.htm

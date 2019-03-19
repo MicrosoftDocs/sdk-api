@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzTask.get_BizRuleImportedPath
-title: IAzTask::get_BizRuleImportedPath
+title: IAzTask::get_BizRuleImportedPath (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the path to the file from which the business rule (BizRule) is imported.
 old-location: security\iaztask_bizruleimportedpath.htm

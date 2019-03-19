@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DTexture9.UnlockRect
-title: IDirect3DTexture9::UnlockRect
+title: IDirect3DTexture9::UnlockRect (d3d9helper.h)
 author: windows-sdk-content
 description: Unlocks a rectangle on a texture resource.
 old-location: direct3d9\idirect3dtexture9__unlockrect.htm

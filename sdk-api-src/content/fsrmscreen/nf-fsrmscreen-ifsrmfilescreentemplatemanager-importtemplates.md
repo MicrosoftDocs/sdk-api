@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.ImportTemplates
-title: IFsrmFileScreenTemplateManager::ImportTemplates
+title: IFsrmFileScreenTemplateManager::ImportTemplates (fsrmscreen.h)
 author: windows-sdk-content
 description: Imports the specified file screen templates from an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_importtemplates.htm

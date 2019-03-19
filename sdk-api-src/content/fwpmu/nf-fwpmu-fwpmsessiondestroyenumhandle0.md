@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpmu.FwpmSessionDestroyEnumHandle0
-title: FwpmSessionDestroyEnumHandle0 function
+title: FwpmSessionDestroyEnumHandle0 function (fwpmu.h)
 author: windows-sdk-content
 description: Frees a handle returned by FwpmSessionCreateEnumHandle0.
 old-location: fwp\fwpmsessiondestroyenumhandle0_func.htm

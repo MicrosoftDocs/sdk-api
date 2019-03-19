@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.DrawThemeParentBackgroundEx
-title: DrawThemeParentBackgroundEx function
+title: DrawThemeParentBackgroundEx function (uxtheme.h)
 author: windows-sdk-content
 description: Used by partially-transparent or alpha-blended child controls to draw the part of their parent in front of which they appear. Sends a WM_ERASEBKGND message followed by a WM_PRINTCLIENT.
 old-location: controls\DrawThemeParentBackgroundEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mmcobj.ISnapinProperties.Initialize
-title: ISnapinProperties::Initialize
+title: ISnapinProperties::Initialize (mmcobj.h)
 author: windows-sdk-content
 description: The Initialize method initializes a snap-in.
 old-location: mmc\isnapinproperties_initialize.htm

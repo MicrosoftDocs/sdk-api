@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.InitializeMetaCommand
-title: ID3D12GraphicsCommandList4::InitializeMetaCommand
+title: ID3D12GraphicsCommandList4::InitializeMetaCommand (d3d12.h)
 author: windows-sdk-content
 description: Initializes the specified meta command.
 old-location: direct3d12\id3d12graphicscommandlist4_initializemetacommand.htm

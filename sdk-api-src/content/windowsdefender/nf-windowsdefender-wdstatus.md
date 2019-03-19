@@ -1,6 +1,6 @@
 ---
 UID: NF:windowsdefender.WDStatus
-title: WDStatus function
+title: WDStatus function (windowsdefender.h)
 author: windows-sdk-content
 description: Returns the current status of Windows Defender.
 old-location: lwef\defender_wdstatus.htm

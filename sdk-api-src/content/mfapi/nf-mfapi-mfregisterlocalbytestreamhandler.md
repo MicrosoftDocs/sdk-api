@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFRegisterLocalByteStreamHandler
-title: MFRegisterLocalByteStreamHandler function
+title: MFRegisterLocalByteStreamHandler function (mfapi.h)
 author: windows-sdk-content
 description: Registers a byte-stream handler in the caller's process.
 old-location: mf\mfregisterlocalbytestreamhandler.htm

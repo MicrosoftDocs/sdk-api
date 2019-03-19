@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsSecurityDescriptor
-title: IADsSecurityDescriptor
+title: IADsSecurityDescriptor (iads.h)
 author: windows-sdk-content
 description: Provides access to properties on an ADSI security descriptor object.
 old-location: adsi\iadssecuritydescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NC:routprot.PMIB_CREATE
-title: PMIB_CREATE
+title: PMIB_CREATE (routprot.h)
 author: windows-sdk-content
 description: The MibCreate function passes an SNMP MIB-style Create Request to the routing protocol.
 old-location: rras\mibcreate.htm

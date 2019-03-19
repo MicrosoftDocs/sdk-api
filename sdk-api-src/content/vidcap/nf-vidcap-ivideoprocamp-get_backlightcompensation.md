@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_BacklightCompensation
-title: IVideoProcAmp::get_BacklightCompensation
+title: IVideoProcAmp::get_BacklightCompensation (vidcap.h)
 author: windows-sdk-content
 description: The get_BacklightCompensation method returns the camera's backlight compensation setting.
 old-location: dshow\ivideoprocamp_get_backlightcompensation.htm

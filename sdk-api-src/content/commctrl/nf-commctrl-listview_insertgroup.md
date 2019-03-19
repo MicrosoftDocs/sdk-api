@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_InsertGroup
-title: ListView_InsertGroup macro
+title: ListView_InsertGroup macro (commctrl.h)
 author: windows-sdk-content
 description: Inserts a group into a list-view control. You can use this macro or send the LVM_INSERTGROUP message explicitly.
 old-location: controls\ListView_InsertGroup.htm

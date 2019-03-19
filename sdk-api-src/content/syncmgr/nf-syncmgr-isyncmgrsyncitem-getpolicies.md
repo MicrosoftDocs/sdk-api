@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetPolicies
-title: ISyncMgrSyncItem::GetPolicies
+title: ISyncMgrSyncItem::GetPolicies (syncmgr.h)
 author: windows-sdk-content
 description: Gets a set of flags describing the policies set by the item.
 old-location: shell\ISyncMgrSyncItem_GetPolicies.htm

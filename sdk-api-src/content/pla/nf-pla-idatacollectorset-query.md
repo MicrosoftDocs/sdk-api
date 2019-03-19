@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.Query
-title: IDataCollectorSet::Query
+title: IDataCollectorSet::Query (pla.h)
 author: windows-sdk-content
 description: Retrieves the specified data collector set.
 old-location: pla\idatacollectorset_query.htm

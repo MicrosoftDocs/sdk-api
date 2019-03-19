@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifySessionChangeEx
-title: ITsSbResourceNotificationEx::NotifySessionChangeEx
+title: ITsSbResourceNotificationEx::NotifySessionChangeEx (sbtsv.h)
 author: windows-sdk-content
 description: Notifies registered plug-ins about state changes in a session object.
 old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm

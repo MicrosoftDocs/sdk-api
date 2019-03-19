@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzOperation.get_Writable
-title: IAzOperation::get_Writable
+title: IAzOperation::get_Writable (azroles.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the operation can be modified by the user context that initialized it.
 old-location: security\iazoperation_writable.htm

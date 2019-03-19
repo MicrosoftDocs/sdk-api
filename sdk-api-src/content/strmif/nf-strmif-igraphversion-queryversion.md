@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphVersion.QueryVersion
-title: IGraphVersion::QueryVersion
+title: IGraphVersion::QueryVersion (strmif.h)
 author: windows-sdk-content
 description: The QueryVersion method retrieves the current graph version number.
 old-location: dshow\igraphversion_queryversion.htm

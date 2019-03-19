@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordDownloadLevel
-title: IISDB_SDTT::GetRecordDownloadLevel
+title: IISDB_SDTT::GetRecordDownloadLevel (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the download level from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecorddownloadlevel.htm

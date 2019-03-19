@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.AVIStreamSampleSize
-title: AVIStreamSampleSize macro
+title: AVIStreamSampleSize macro (vfw.h)
 author: windows-sdk-content
 description: The AVIStreamRelease macro determines the size of the buffer needed to store one sample of information from a stream. The size corresponds to the sample at the position specified by lPos.
 old-location: multimedia\avistreamsamplesize.htm

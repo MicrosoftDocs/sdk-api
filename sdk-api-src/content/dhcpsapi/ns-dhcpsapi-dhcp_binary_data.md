@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_BINARY_DATA
-title: DHCP_BINARY_DATA
+title: DHCP_BINARY_DATA (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.
 old-location: dhcp\dhcp_binary_data.htm

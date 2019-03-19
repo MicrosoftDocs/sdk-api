@@ -1,6 +1,6 @@
 ---
 UID: NF:shidfact.CItemIDFactory.CreateItemID
-title: CItemIDFactory::CreateItemID
+title: CItemIDFactory::CreateItemID (shidfact.h)
 author: windows-sdk-content
 description: Creates an ItemID from the supplied data.
 old-location: shell\citemidfactory_createitemid.htm

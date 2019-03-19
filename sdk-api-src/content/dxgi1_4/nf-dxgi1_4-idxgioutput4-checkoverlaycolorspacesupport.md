@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGIOutput4.CheckOverlayColorSpaceSupport
-title: IDXGIOutput4::CheckOverlayColorSpaceSupport
+title: IDXGIOutput4::CheckOverlayColorSpaceSupport (dxgi1_4.h)
 author: windows-sdk-content
 description: Checks for overlay color space support.
 old-location: direct3ddxgi\idxgioutput4_checkoverlaycolorspacesupport.htm

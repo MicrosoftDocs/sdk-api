@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetSegmentStrokes
-title: IXpsOMGeometryFigure::GetSegmentStrokes
+title: IXpsOMGeometryFigure::GetSegmentStrokes (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets stroke definitions for the figure's segments.
 old-location: xps\ixpsomgeometryfigure_getsegmentstrokes.htm

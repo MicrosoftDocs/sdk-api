@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolutionItems.GetCount
-title: ISyncMgrConflictResolutionItems::GetCount
+title: ISyncMgrConflictResolutionItems::GetCount (syncmgr.h)
 author: windows-sdk-content
 description: Gets item count.
 old-location: shell\ISyncMgrConflictResolutionItems_GetCount.htm

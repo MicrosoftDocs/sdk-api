@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetMixingPrefs
-title: IVMRMixerControl9::GetMixingPrefs
+title: IVMRMixerControl9::GetMixingPrefs (vmr9.h)
 author: windows-sdk-content
 description: The GetMixingPrefs method retrieves the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol9_getmixingprefs.htm

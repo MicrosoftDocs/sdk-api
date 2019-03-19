@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.SetProperty
-title: IAzAuthorizationStore::SetProperty
+title: IAzAuthorizationStore::SetProperty (azroles.h)
 author: windows-sdk-content
 description: Sets the specified value to the AzAuthorizationStore object property with the specified property ID.
 old-location: security\azauthorizationstore_setproperty.htm

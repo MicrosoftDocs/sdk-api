@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._SHChangeDWORDAsIDList
-title: SHChangeDWORDAsIDList
+title: SHChangeDWORDAsIDList (shlobj_core.h)
 author: windows-sdk-content
 description: SHChangeDWORDAsIDList may be altered or unavailable.
 old-location: shell\SHChangeDWORDAsIDList.htm

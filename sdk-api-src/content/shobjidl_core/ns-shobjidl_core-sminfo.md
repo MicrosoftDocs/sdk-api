@@ -1,6 +1,6 @@
 ---
 UID: NS:shobjidl_core.tagSMINFO
-title: SMINFO
+title: SMINFO (shobjidl_core.h)
 author: windows-sdk-content
 description: Contains information about an item from a menu band.
 old-location: shell\SMINFO.htm

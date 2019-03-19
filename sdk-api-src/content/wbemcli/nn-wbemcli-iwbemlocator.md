@@ -1,6 +1,6 @@
 ---
 UID: NN:wbemcli.IWbemLocator
-title: IWbemLocator
+title: IWbemLocator (wbemcli.h)
 author: windows-sdk-content
 description: Use the IWbemLocator interface to obtain the initial namespace pointer to the IWbemServices interface for WMI on a specific host computer.
 old-location: wmi\iwbemlocator.htm

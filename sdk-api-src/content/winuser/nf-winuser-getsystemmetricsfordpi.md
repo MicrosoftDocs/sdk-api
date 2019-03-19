@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.GetSystemMetricsForDpi
-title: GetSystemMetricsForDpi function
+title: GetSystemMetricsForDpi function (winuser.h)
 author: windows-sdk-content
 description: Retrieves the specified system metric or system configuration setting taking into account a provided DPI.
 old-location: hidpi\getsystemmetricsfordpi.htm

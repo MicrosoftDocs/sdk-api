@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaClose
-title: LsaClose function
+title: LsaClose function (ntsecapi.h)
 author: windows-sdk-content
 description: The LsaClose function closes a handle to a Policy or TrustedDomain object.
 old-location: security\lsaclose.htm

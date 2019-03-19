@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetGravity
-title: ITextRange2::SetGravity
+title: ITextRange2::SetGravity (tom.h)
 author: windows-sdk-content
 description: Sets the gravity of this range.
 old-location: controls\itextrange2_setgravity.htm

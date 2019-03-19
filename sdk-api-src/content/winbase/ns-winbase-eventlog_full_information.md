@@ -1,6 +1,6 @@
 ---
 UID: NS:winbase._EVENTLOG_FULL_INFORMATION
-title: EVENTLOG_FULL_INFORMATION
+title: EVENTLOG_FULL_INFORMATION (winbase.h)
 author: windows-sdk-content
 description: Indicates whether the event log is full.
 old-location: base\eventlog_full_information_str.htm

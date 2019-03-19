@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnection.get_ConnectionID
-title: IMbnConnection::get_ConnectionID
+title: IMbnConnection::get_ConnectionID (mbnapi.h)
 author: windows-sdk-content
 description: Gets the unique identifier for the connection.
 old-location: mbn\imbnconnection_connectionid.htm

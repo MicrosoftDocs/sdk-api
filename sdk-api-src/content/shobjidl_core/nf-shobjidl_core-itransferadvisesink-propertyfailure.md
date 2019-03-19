@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.PropertyFailure
-title: ITransferAdviseSink::PropertyFailure
+title: ITransferAdviseSink::PropertyFailure (shobjidl_core.h)
 author: windows-sdk-content
 description: Called when there is a failure that involves file properties and user interaction is needed.
 old-location: shell\ITransferAdviseSink_PropertyFailure.htm

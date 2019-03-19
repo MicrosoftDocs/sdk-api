@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptProtectSecret
-title: NCryptProtectSecret function
+title: NCryptProtectSecret function (ncryptprotect.h)
 author: windows-sdk-content
 description: Encrypts data to a specified protection descriptor.
 old-location: security\ncryptprotectsecret.htm

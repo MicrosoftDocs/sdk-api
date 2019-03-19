@@ -1,6 +1,6 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_DRIVE_TYPE
-title: MC_DRIVE_TYPE
+title: MC_DRIVE_TYPE (highlevelmonitorconfigurationapi.h)
 author: windows-sdk-content
 description: Specifies whether to set or get a monitor's red, green, or blue drive.
 old-location: monitor\mc_drive_type.htm

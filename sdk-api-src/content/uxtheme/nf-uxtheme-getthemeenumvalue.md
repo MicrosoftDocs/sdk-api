@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.GetThemeEnumValue
-title: GetThemeEnumValue function
+title: GetThemeEnumValue function (uxtheme.h)
 author: windows-sdk-content
 description: Retrieves the value of an enumerated type property.
 old-location: controls\GetThemeEnumValue.htm

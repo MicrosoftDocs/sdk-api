@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SSortOrder
-title: SSortOrder
+title: SSortOrder (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Defines how to sort rows of a table, describing both the column to use as the sort key and the direction of the sort.
 old-location: wab\_wab_SSortOrder.htm

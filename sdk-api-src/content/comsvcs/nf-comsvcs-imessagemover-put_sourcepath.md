@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_SourcePath
-title: IMessageMover::put_SourcePath
+title: IMessageMover::put_SourcePath (comsvcs.h)
 author: windows-sdk-content
 description: Sets the path of the source (input) queue.
 old-location: cos\imessagemover_put_sourcepath.htm

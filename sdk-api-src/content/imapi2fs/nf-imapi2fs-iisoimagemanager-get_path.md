@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.get_Path
-title: IIsoImageManager::get_Path
+title: IIsoImageManager::get_Path (imapi2fs.h)
 author: windows-sdk-content
 description: Retrives the logical path to an .iso image.
 old-location: imapi\iisoimagemanager_get_path.htm

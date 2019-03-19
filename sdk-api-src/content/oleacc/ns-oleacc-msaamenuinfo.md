@@ -1,6 +1,6 @@
 ---
 UID: NS:oleacc.tagMSAAMENUINFO
-title: MSAAMENUINFO
+title: MSAAMENUINFO (oleacc.h)
 author: windows-sdk-content
 description: Used by server developers to expose the names of owner-drawn menu items.
 old-location: winauto\msaamenuinfo.htm

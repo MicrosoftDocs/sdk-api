@@ -1,6 +1,6 @@
 ---
 UID: NF:msp.ITPluggableTerminalEventSinkRegistration.UnregisterSink
-title: ITPluggableTerminalEventSinkRegistration::UnregisterSink
+title: ITPluggableTerminalEventSinkRegistration::UnregisterSink (msp.h)
 author: windows-sdk-content
 description: The UnregisterSink method clears event registration for pluggable terminal events.
 old-location: tapi3\itpluggableterminaleventsinkregistration_unregistersink.htm

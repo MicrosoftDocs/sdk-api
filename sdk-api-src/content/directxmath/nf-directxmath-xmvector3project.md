@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3Project
-title: XMVector3Project function
+title: XMVector3Project function (directxmath.h)
 author: windows-sdk-content
 description: Project a 3D vector from object space into screen space.
 old-location: dxmath\xmvector3project.htm

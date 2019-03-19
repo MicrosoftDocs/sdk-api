@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetHeader
-title: ListView_GetHeader macro
+title: ListView_GetHeader macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the handle to the header control used by a list-view control. You can use this macro or send the LVM_GETHEADER message explicitly.
 old-location: controls\ListView_GetHeader.htm

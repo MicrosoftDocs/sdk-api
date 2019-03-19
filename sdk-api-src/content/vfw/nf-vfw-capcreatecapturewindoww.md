@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.capCreateCaptureWindowW
-title: capCreateCaptureWindowW function
+title: capCreateCaptureWindowW function (vfw.h)
 author: windows-sdk-content
 description: The capCreateCaptureWindow function creates a capture window.
 old-location: multimedia\capcreatecapturewindow.htm

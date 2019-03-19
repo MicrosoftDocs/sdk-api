@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceName
-title: IWdsTransportSession::get_NetworkInterfaceName
+title: IWdsTransportSession::get_NetworkInterfaceName (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the name of the server network interface used by this transport session.
 old-location: wds\iwdstransportsession_networkinterfacename.htm

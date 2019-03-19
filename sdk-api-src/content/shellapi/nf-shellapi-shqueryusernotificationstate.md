@@ -1,6 +1,6 @@
 ---
 UID: NF:shellapi.SHQueryUserNotificationState
-title: SHQueryUserNotificationState function
+title: SHQueryUserNotificationState function (shellapi.h)
 author: windows-sdk-content
 description: Checks the state of the computer for the current user to determine whether sending a notification is appropriate.
 old-location: shell\SHQueryUserNotificationState.htm

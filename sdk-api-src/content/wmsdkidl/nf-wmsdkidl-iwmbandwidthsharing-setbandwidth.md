@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.SetBandwidth
-title: IWMBandwidthSharing::SetBandwidth
+title: IWMBandwidthSharing::SetBandwidth (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetBandwidth method sets the bandwidth and maximum buffer size for a combined stream.
 old-location: wmformat\iwmbandwidthsharing_setbandwidth.htm

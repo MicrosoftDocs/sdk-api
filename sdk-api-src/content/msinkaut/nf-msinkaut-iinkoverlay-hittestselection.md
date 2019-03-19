@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkOverlay.HitTestSelection
-title: IInkOverlay::HitTestSelection
+title: IInkOverlay::HitTestSelection (msinkaut.h)
 author: windows-sdk-content
 description: Determines what portion of the selection was hit during a hit test.
 old-location: tablet\inkoverlay_hittestselection.htm

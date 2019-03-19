@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusenums.ObjectTypeIsValid
-title: ObjectTypeIsValid function
+title: ObjectTypeIsValid function (gdiplusenums.h)
 author: windows-sdk-content
 description: The ObjectTypeIsValid function determines whether an element of the ObjectType enumeration represents a valid object type.
 old-location: gdiplus\_gdiplus_FUNC_ObjectTypeIsValid_.htm

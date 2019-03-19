@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextSelection.TypeText
-title: ITextSelection::TypeText
+title: ITextSelection::TypeText (tom.h)
 author: windows-sdk-content
 description: Types the string given by bstr at this selection as if someone typed it. This is similar to the underlying SetText method, but is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes.
 old-location: controls\ITextSelection_TypeText.htm

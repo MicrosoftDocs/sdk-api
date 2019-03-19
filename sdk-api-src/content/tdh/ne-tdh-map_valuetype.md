@@ -1,6 +1,6 @@
 ---
 UID: NE:tdh._MAP_VALUETYPE
-title: MAP_VALUETYPE
+title: MAP_VALUETYPE (tdh.h)
 author: windows-sdk-content
 description: Defines if the value map value is in a ULONG data type or a string.
 old-location: etw\map_valuetype_enum.htm

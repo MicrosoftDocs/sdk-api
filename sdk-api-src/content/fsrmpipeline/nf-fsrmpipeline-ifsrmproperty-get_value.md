@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Value
-title: IFsrmProperty::get_Value
+title: IFsrmProperty::get_Value (fsrmpipeline.h)
 author: windows-sdk-content
 description: The value of the property.
 old-location: fsrm\ifsrmproperty_value.htm

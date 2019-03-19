@@ -1,6 +1,6 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible
-title: GraphicsPath::IsOutlineVisible
+title: GraphicsPath::IsOutlineVisible (gdipluspath.h)
 author: windows-sdk-content
 description: This topic lists the IsOutlineVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods.htm

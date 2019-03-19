@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetFormat
-title: IMILBitmapEffectConnectorInfo::GetFormat
+title: IMILBitmapEffectConnectorInfo::GetFormat (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the pixel format for the given pin.
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getformat.htm

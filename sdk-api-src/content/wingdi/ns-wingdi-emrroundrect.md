@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRROUNDRECT
-title: EMRROUNDRECT
+title: EMRROUNDRECT (wingdi.h)
 author: windows-sdk-content
 description: The EMRROUNDRECT structure contains members for the RoundRect enhanced metafile record.
 old-location: gdi\emrroundrect.htm

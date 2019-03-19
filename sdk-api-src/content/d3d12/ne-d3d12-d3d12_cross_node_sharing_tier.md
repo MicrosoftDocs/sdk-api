@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_CROSS_NODE_SHARING_TIER
-title: D3D12_CROSS_NODE_SHARING_TIER
+title: D3D12_CROSS_NODE_SHARING_TIER (d3d12.h)
 author: windows-sdk-content
 description: Specifies the level of sharing across nodes of an adapter, such as Tier 1 Emulated, Tier 1, or Tier 2.
 old-location: direct3d12\d3d12_cross_node_sharing_tier.htm

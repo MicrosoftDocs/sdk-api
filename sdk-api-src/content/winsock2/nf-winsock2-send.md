@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.send
-title: send function
+title: send function (winsock2.h)
 author: windows-sdk-content
 description: Sends data on a connected socket.
 old-location: winsock\send_2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Deserializer_Class_GetClassName
-title: MI_Deserializer_Class_GetClassName function
+title: MI_Deserializer_Class_GetClassName function (mi.h)
 author: windows-sdk-content
 description: Gets the class name from a serialized class buffer.
 old-location: wmi_v2\mi_deserializer_class_getclassname.htm

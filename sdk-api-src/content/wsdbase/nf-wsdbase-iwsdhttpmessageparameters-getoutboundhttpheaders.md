@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetOutboundHttpHeaders
-title: IWSDHttpMessageParameters::GetOutboundHttpHeaders
+title: IWSDHttpMessageParameters::GetOutboundHttpHeaders (wsdbase.h)
 author: windows-sdk-content
 description: Retrieves the current HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_getoutboundhttpheaders.htm

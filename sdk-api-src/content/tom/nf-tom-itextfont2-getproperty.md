@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont2.GetProperty
-title: ITextFont2::GetProperty
+title: ITextFont2::GetProperty (tom.h)
 author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextfont2_getproperty.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.PifMgr_CloseProperties
-title: PifMgr_CloseProperties function
+title: PifMgr_CloseProperties function (shlobj_core.h)
 author: windows-sdk-content
 description: Closes application properties that were opened with PifMgr_OpenProperties.
 old-location: properties\PifMgr_CloseProperties.htm

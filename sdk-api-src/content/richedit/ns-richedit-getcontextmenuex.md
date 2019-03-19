@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit._getcontextmenuex
-title: GETCONTEXTMENUEX
+title: GETCONTEXTMENUEX (richedit.h)
 author: windows-sdk-content
 description: Contains context menu information that is passed to the IRichEditOleCallback::GetContextMenu method.
 old-location: controls\getcontextmenuex.htm

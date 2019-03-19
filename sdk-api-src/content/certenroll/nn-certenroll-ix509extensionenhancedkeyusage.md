@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509ExtensionEnhancedKeyUsage
-title: IX509ExtensionEnhancedKeyUsage
+title: IX509ExtensionEnhancedKeyUsage (certenroll.h)
 author: windows-sdk-content
 description: Can be used to define a collection of object identifiers (OIDs) that identify the intended uses of the public key contained in the certificate.
 old-location: security\ix509extensionenhancedkeyusage.htm

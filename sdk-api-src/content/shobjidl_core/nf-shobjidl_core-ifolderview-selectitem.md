@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IFolderView.SelectItem
-title: IFolderView::SelectItem
+title: IFolderView::SelectItem (shobjidl_core.h)
 author: windows-sdk-content
 description: Selects an item in the folder's view.
 old-location: shell\IFolderView_SelectItem.htm

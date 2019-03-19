@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.WndProcBS
-title: IBrowserService2::WndProcBS
+title: IBrowserService2::WndProcBS (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Allows a derived class to call the WinProc function of the base class.
 old-location: shell\IBrowserService2_WndProcBS.htm

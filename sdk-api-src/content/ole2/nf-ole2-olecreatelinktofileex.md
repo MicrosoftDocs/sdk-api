@@ -1,6 +1,6 @@
 ---
 UID: NF:ole2.OleCreateLinkToFileEx
-title: OleCreateLinkToFileEx function
+title: OleCreateLinkToFileEx function (ole2.h)
 author: windows-sdk-content
 description: Extends OleCreateLinkToFile functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLinkToFile.
 old-location: com\olecreatelinktofileex.htm

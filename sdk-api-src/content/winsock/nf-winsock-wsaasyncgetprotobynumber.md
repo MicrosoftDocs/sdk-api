@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock.WSAAsyncGetProtoByNumber
-title: WSAAsyncGetProtoByNumber function
+title: WSAAsyncGetProtoByNumber function (winsock.h)
 author: windows-sdk-content
 description: The WSAAsyncGetProtoByNumber function asynchronously retrieves protocol information that corresponds to a protocol number.
 old-location: winsock\wsaasyncgetprotobynumber_2.htm

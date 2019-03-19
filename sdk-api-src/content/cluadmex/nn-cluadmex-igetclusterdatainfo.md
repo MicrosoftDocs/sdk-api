@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IGetClusterDataInfo
-title: IGetClusterDataInfo
+title: IGetClusterDataInfo (cluadmex.h)
 author: windows-sdk-content
 description: The IGetClusterDataInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a cluster.
 old-location: mscs\igetclusterdatainfo.htm

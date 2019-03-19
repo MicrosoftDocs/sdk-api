@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcompiler.D3DDisassembleRegion
-title: D3DDisassembleRegion function
+title: D3DDisassembleRegion function (d3dcompiler.h)
 author: windows-sdk-content
 description: Disassembles a specific region of compiled Microsoft High Level Shader Language (HLSL) code.
 old-location: direct3dhlsl\d3ddisassembleregion.htm

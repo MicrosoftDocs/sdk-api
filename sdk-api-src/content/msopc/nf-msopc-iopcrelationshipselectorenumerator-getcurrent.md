@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.GetCurrent
-title: IOpcRelationshipSelectorEnumerator::GetCurrent
+title: IOpcRelationshipSelectorEnumerator::GetCurrent (msopc.h)
 author: windows-sdk-content
 description: Gets the IOpcRelationshipSelector interface pointer at the current position of the enumerator.
 old-location: opc\iopcrelationshipselectorenumerator_getcurrent.htm

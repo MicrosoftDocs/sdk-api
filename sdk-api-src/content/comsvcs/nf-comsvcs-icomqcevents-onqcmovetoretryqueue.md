@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCMoveToReTryQueue
-title: IComQCEvents::OnQCMoveToReTryQueue
+title: IComQCEvents::OnQCMoveToReTryQueue (comsvcs.h)
 author: windows-sdk-content
 description: Generated when a message is moved to a queued components retry queue.
 old-location: cos\icomqcevents_onqcmovetoretryqueue.htm

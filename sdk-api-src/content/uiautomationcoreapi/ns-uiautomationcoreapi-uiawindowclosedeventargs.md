@@ -1,6 +1,6 @@
 ---
 UID: NS:uiautomationcoreapi.UiaWindowClosedEventArgs
-title: UiaWindowClosedEventArgs
+title: UiaWindowClosedEventArgs (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about an event that is raised when one or more windows closes.
 old-location: winauto\uiauto_UiaWindowClosedEventArgsStruct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.ICurrentWorkingDirectory.GetDirectory
-title: ICurrentWorkingDirectory::GetDirectory
+title: ICurrentWorkingDirectory::GetDirectory (shlobj.h)
 author: windows-sdk-content
 description: Gets the current working directory.
 old-location: shell\ICurrentWorkingDirectory_GetDirectory.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumConnections.Next
-title: IEnumConnections::Next
+title: IEnumConnections::Next (ocidl.h)
 author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumconnections_next.htm

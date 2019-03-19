@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteDWORD
-title: PSPropertyBag_WriteDWORD function
+title: PSPropertyBag_WriteDWORD function (propsys.h)
 author: windows-sdk-content
 description: Sets the DWORD value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteDWORD.htm

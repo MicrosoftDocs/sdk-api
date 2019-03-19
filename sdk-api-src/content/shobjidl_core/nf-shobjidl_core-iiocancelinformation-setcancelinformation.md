@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IIOCancelInformation.SetCancelInformation
-title: IIOCancelInformation::SetCancelInformation
+title: IIOCancelInformation::SetCancelInformation (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets information that is posted when a user selects Cancel from the progress UI.
 old-location: shell\IIOCancelInformation_SetCancelInformation.htm

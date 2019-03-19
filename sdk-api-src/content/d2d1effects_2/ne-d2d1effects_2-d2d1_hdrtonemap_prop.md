@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effects_2.D2D1_HDRTONEMAP_PROP
-title: D2D1_HDRTONEMAP_PROP
+title: D2D1_HDRTONEMAP_PROP (d2d1effects_2.h)
 author: windows-sdk-content
 description: Defines constants that identify the top level properties of the HDR Tone Map effect.
 old-location: direct2d\d2d1_hdrtonemap_prop.htm

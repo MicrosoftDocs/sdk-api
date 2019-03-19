@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPage1.GetDocumentType
-title: IXpsOMPage1::GetDocumentType
+title: IXpsOMPage1::GetDocumentType (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompage1_getdocumenttype.htm

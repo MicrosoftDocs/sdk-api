@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DBaseTexture9.GetLOD
-title: IDirect3DBaseTexture9::GetLOD
+title: IDirect3DBaseTexture9::GetLOD (d3d9.h)
 author: windows-sdk-content
 description: Returns a value clamped to the maximum level-of-detail set for a managed texture (this method is not supported for an unmanaged texture).
 old-location: direct3d9\idirect3dbasetexture9__getlod.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfCleanupContextDurationSink.OnEndCleanupContext
-title: ITfCleanupContextDurationSink::OnEndCleanupContext
+title: ITfCleanupContextDurationSink::OnEndCleanupContext (msctf.h)
 author: windows-sdk-content
 description: ITfCleanupContextDurationSink::OnEndCleanupContext method
 old-location: tsf\itfcleanupcontextdurationsink_onendcleanupcontext.htm

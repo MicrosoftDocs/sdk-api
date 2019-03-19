@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumCallingCard
-title: IEnumCallingCard
+title: IEnumCallingCard (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumCallingCard interface provides COM-standard enumeration methods for the ITCallingCard interface. The ITAddressTranslation::EnumerateCallingCards method returns a pointer to IEnumCallingCard.
 old-location: tapi3\ienumcallingcard.htm

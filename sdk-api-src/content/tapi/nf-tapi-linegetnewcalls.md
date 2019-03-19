@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetNewCalls
-title: lineGetNewCalls function
+title: lineGetNewCalls function (tapi.h)
 author: windows-sdk-content
 description: The lineGetNewCalls function returns call handles to calls on a specified line or address for which the application currently does not have handles. The application is granted monitor privilege to these calls.
 old-location: tapi2\linegetnewcalls.htm

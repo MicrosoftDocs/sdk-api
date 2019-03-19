@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._RADIUSSERVERPROPERTIES
-title: RADIUSSERVERPROPERTIES
+title: RADIUSSERVERPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the RADIUSSERVERPROPERTIES enumeration type enumerate the properties of the RADIUS server, that is the SDO computer.
 old-location: nps\SDO_radiusserverproperties.htm

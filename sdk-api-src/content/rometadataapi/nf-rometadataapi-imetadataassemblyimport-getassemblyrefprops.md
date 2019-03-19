@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyRefProps
-title: IMetaDataAssemblyImport::GetAssemblyRefProps
+title: IMetaDataAssemblyImport::GetAssemblyRefProps (rometadataapi.h)
 author: windows-sdk-content
 description: Gets the set of properties for the assembly reference with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getassemblyrefprops.htm

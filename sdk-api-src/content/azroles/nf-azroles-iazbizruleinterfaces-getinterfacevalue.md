@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.GetInterfaceValue
-title: IAzBizRuleInterfaces::GetInterfaceValue
+title: IAzBizRuleInterfaces::GetInterfaceValue (azroles.h)
 author: windows-sdk-content
 description: Gets the ID and flags of the interface that corresponds to the specified interface name.
 old-location: security\iazbizruleinterfaces_getinterfacevalue_method.htm

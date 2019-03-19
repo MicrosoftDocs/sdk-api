@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_INTEGRITY_TYPE_
-title: IKEEXT_INTEGRITY_TYPE
+title: IKEEXT_INTEGRITY_TYPE (iketypes.h)
 author: windows-sdk-content
 description: Specifies the type of hash algorithm used for integrity protection of Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) messages.
 old-location: fwp\ikeext_integrity_type.htm

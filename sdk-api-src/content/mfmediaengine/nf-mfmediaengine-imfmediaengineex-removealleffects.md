@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.RemoveAllEffects
-title: IMFMediaEngineEx::RemoveAllEffects
+title: IMFMediaEngineEx::RemoveAllEffects (mfmediaengine.h)
 author: windows-sdk-content
 description: Removes all audio and video effects.
 old-location: mf\imfmediaengineex_removealleffects.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Languages
-title: IInkRecognizer::get_Languages
+title: IInkRecognizer::get_Languages (msinkaut.h)
 author: windows-sdk-content
 description: Gets an array of language identifiers for the languages that the IInkRecognizer object supports.
 old-location: tablet\iinkrecognizer_languages.htm

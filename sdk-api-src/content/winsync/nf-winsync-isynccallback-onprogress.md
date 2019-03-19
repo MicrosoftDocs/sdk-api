@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncCallback.OnProgress
-title: ISyncCallback::OnProgress
+title: ISyncCallback::OnProgress (winsync.h)
 author: windows-sdk-content
 description: Occurs periodically during the synchronization session to report progress.
 old-location: winsync\isynccallback_onprogress.htm

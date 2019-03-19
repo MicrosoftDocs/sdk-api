@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IColumnManager.GetColumnCount
-title: IColumnManager::GetColumnCount
+title: IColumnManager::GetColumnCount (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the column count for either the visible columns or the complete set of columns.
 old-location: shell\IColumnManager_GetColumnCount.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:resourceindexer.CreateResourceIndexer
-title: CreateResourceIndexer function
+title: CreateResourceIndexer function (resourceindexer.h)
 author: windows-sdk-content
 description: Creates a new resource indexer for the specified paths of the root of the project files and the extension DLL.
 old-location: menurc\createresourceindexer.htm

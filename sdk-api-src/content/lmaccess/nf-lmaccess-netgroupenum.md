@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetGroupEnum
-title: NetGroupEnum function
+title: NetGroupEnum function (lmaccess.h)
 author: windows-sdk-content
 description: The NetGroupEnum function retrieves information about each global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupenum.htm

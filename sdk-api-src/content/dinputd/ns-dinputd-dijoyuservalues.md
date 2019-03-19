@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIJOYUSERVALUES
-title: DIJOYUSERVALUES
+title: DIJOYUSERVALUES (dinputd.h)
 author: windows-sdk-content
 description: The DIJOYUSERVALUES structure contains information about the user's joystick settings.
 old-location: hid\dijoyuservalues.htm

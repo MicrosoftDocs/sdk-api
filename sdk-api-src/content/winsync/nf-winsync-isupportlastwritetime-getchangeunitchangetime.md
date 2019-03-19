@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISupportLastWriteTime.GetChangeUnitChangeTime
-title: ISupportLastWriteTime::GetChangeUnitChangeTime
+title: ISupportLastWriteTime::GetChangeUnitChangeTime (winsync.h)
 author: windows-sdk-content
 description: Gets the date and time when the specified change unit was last changed.
 old-location: winsync\isupportlastwritetime_getchangeunitchangetime.htm

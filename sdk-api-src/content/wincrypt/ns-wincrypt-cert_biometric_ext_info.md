@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_BIOMETRIC_EXT_INFO
-title: CERT_BIOMETRIC_EXT_INFO
+title: CERT_BIOMETRIC_EXT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains a set of biometric information.
 old-location: security\cert_biometric_ext_info.htm

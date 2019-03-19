@@ -1,6 +1,6 @@
 ---
 UID: NN:dxgi1_4.IDXGISwapChain3
-title: IDXGISwapChain3
+title: IDXGISwapChain3 (dxgi1_4.h)
 author: windows-sdk-content
 description: Extends IDXGISwapChain2 with methods to support getting the index of the swap chain's current back buffer and support for color space.
 old-location: direct3ddxgi\idxgiswapchain3.htm

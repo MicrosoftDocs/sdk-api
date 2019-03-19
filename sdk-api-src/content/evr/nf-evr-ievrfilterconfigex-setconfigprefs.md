@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IEVRFilterConfigEx.SetConfigPrefs
-title: IEVRFilterConfigEx::SetConfigPrefs
+title: IEVRFilterConfigEx::SetConfigPrefs (evr.h)
 author: windows-sdk-content
 description: Sets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter (EVR).
 old-location: mf\ievrfilterconfigex_setconfigprefs.htm

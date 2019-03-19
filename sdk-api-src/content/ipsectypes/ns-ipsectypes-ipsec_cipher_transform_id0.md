@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_CIPHER_TRANSFORM_ID0_
-title: IPSEC_CIPHER_TRANSFORM_ID0
+title: IPSEC_CIPHER_TRANSFORM_ID0 (ipsectypes.h)
 author: windows-sdk-content
 description: Specifies information used to uniquely identify the encryption algorithm used in an IPsec SA.
 old-location: fwp\ipsec_cipher_transform_id0_struct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_Status
-title: IFaxInboundRoutingExtension::get_Status
+title: IFaxInboundRoutingExtension::get_Status (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxInboundRoutingExtension::get_Status property is a value that indicates whether the fax routing extension loaded and initialized successfully.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_status_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetNoText
-title: IFolderBandPriv::SetNoText
+title: IFolderBandPriv::SetNoText (shobjidl.h)
 author: windows-sdk-content
 description: Sets whether text is displayed in a folder band.
 old-location: shell\IFolderBandPriv_SetNoText.htm

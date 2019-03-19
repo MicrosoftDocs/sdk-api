@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.MCIWndGetActiveTimer
-title: MCIWndGetActiveTimer macro
+title: MCIWndGetActiveTimer macro (vfw.h)
 author: windows-sdk-content
 description: The MCIWndGetActiveTimer macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the MCIWNDM_GETACTIVETIMER message.
 old-location: multimedia\mciwndgetactivetimer.htm

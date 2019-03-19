@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents
-title: IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents
+title: IUIAutomationProxyFactoryEntry::get_NeedsAdviseEvents (uiautomationclient.h)
 author: windows-sdk-content
 description: Sets or retrieves a value that specifies whether the proxy must be notified when an application has registered for events.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_NeedsAdviseEvents.htm

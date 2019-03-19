@@ -1,6 +1,6 @@
 ---
 UID: NF:iwscapi.IWscProduct.get_SignatureStatus
-title: IWscProduct::get_SignatureStatus
+title: IWscProduct::get_SignatureStatus (iwscapi.h)
 author: windows-sdk-content
 description: Returns the current status of the signature data for the security product.
 old-location: winprog\iwscproduct_signaturestatus.htm

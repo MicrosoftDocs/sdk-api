@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._LSA_TRANSLATED_SID
-title: LSA_TRANSLATED_SID
+title: LSA_TRANSLATED_SID (ntsecapi.h)
 author: windows-sdk-content
 description: Used with the LsaLookupNames function to return information about the SID that identifies an account.
 old-location: security\lsa_translated_sid.htm

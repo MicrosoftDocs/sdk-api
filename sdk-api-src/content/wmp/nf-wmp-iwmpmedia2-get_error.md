@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPMedia2.get_error
-title: IWMPMedia2::get_error
+title: IWMPMedia2::get_error (wmp.h)
 author: windows-sdk-content
 description: The get_error method retrieves a pointer to an IWMPErrorItem interface if the media item has an error condition.
 old-location: wmp\iwmpmedia2_get_error.htm

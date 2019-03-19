@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcoreapi.ProviderType
-title: ProviderType
+title: ProviderType (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Contains values that specify the type of a client-side (proxy) UI Automation provider.
 old-location: winauto\uiauto_ProviderTypeEnum.htm

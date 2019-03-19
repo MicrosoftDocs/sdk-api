@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DBaseTexture9.GenerateMipSubLevels
-title: IDirect3DBaseTexture9::GenerateMipSubLevels
+title: IDirect3DBaseTexture9::GenerateMipSubLevels (d3d9.h)
 author: windows-sdk-content
 description: Generate mipmap sublevels.
 old-location: direct3d9\idirect3dbasetexture9__generatemipsublevels.htm

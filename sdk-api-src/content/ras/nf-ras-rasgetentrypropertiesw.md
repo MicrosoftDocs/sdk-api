@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasGetEntryPropertiesW
-title: RasGetEntryPropertiesW function
+title: RasGetEntryPropertiesW function (ras.h)
 author: windows-sdk-content
 description: The RasGetEntryProperties function retrieves the properties of a phone-book entry.
 old-location: rras\rasgetentryproperties.htm

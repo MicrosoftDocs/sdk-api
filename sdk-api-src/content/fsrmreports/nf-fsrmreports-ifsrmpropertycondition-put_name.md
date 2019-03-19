@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmPropertyCondition.put_Name
-title: IFsrmPropertyCondition::put_Name
+title: IFsrmPropertyCondition::put_Name (fsrmreports.h)
 author: windows-sdk-content
 description: The name of the classification property whose value you want to compare to the property condition's value.
 old-location: fsrm\ifsrmpropertycondition_name.htm

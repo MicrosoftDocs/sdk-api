@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetTrimming
-title: IDWriteTextFormat::GetTrimming
+title: IDWriteTextFormat::GetTrimming (dwrite.h)
 author: windows-sdk-content
 description: Gets the trimming options for text that overflows the layout box.
 old-location: directwrite\IDWriteTextFormat_GetTrimming.htm

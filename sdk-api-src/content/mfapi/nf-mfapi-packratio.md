@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.PackRatio
-title: PackRatio function
+title: PackRatio function (mfapi.h)
 author: windows-sdk-content
 description: Packs two UINT32 values, which represent a ratio, into a UINT64 value.
 old-location: mf\packratio.htm

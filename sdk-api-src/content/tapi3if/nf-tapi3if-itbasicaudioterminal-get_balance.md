@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.get_Balance
-title: ITBasicAudioTerminal::get_Balance
+title: ITBasicAudioTerminal::get_Balance (tapi3if.h)
 author: windows-sdk-content
 description: The get_Balance method gets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_get_balance.htm

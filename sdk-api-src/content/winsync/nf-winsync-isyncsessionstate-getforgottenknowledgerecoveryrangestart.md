@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.ISyncSessionState.GetForgottenKnowledgeRecoveryRangeStart
-title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart
+title: ISyncSessionState::GetForgottenKnowledgeRecoveryRangeStart (winsync.h)
 author: windows-sdk-content
 description: Gets the lower bound of the recovery range when the session is performing forgotten knowledge recovery.
 old-location: winsync\isyncsessionstate_getforgottenknowledgerecoveryrangestart.htm

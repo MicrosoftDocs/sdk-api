@@ -1,6 +1,6 @@
 ---
 UID: NF:cmnquery.IPersistQuery.WriteString
-title: IPersistQuery::WriteString
+title: IPersistQuery::WriteString (cmnquery.h)
 author: windows-sdk-content
 description: Writes a string to the query store.
 old-location: ad\ipersistquery_writestring.htm

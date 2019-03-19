@@ -1,6 +1,6 @@
 ---
 UID: NS:winnt._IMAGE_ENCLAVE_IMPORT
-title: IMAGE_ENCLAVE_IMPORT
+title: IMAGE_ENCLAVE_IMPORT (winnt.h)
 author: windows-sdk-content
 description: Defines a entry in the array of images that an enclave can import.
 old-location: base\image_enclave_import.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj.IColumnProvider.GetItemData
-title: IColumnProvider::GetItemData
+title: IColumnProvider::GetItemData (shlobj.h)
 author: windows-sdk-content
 description: Requests column data for a specified file.
 old-location: shell\IColumnProvider_GetItemData.htm

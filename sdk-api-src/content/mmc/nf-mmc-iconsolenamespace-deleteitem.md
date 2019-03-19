@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.DeleteItem
-title: IConsoleNameSpace::DeleteItem
+title: IConsoleNameSpace::DeleteItem (mmc.h)
 author: windows-sdk-content
 description: The IConsoleNameSpace2::DeleteItem method IConsoleNameSpaceenables the snap-in to delete a single item from the scope pane.
 old-location: mmc\iconsolenamespace2_deleteitem.htm

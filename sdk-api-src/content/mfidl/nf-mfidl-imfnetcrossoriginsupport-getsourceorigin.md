@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.GetSourceOrigin
-title: IMFNetCrossOriginSupport::GetSourceOrigin
+title: IMFNetCrossOriginSupport::GetSourceOrigin (mfidl.h)
 author: windows-sdk-content
 description: Returns the W3C origin of the HTML5 media element.
 old-location: mf\imfnetcrossoriginsupport_getsourceorigin.htm

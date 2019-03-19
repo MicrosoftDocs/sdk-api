@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphBuilder.Connect
-title: IGraphBuilder::Connect
+title: IGraphBuilder::Connect (strmif.h)
 author: windows-sdk-content
 description: The Connect method connects the two pins, using intermediates if necessary.
 old-location: dshow\igraphbuilder_connect.htm

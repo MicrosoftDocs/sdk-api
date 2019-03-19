@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11Scan.Scan
-title: ID3DX11Scan::Scan
+title: ID3DX11Scan::Scan (d3dcsx.h)
 author: windows-sdk-content
 description: Performs an unsegmented scan of a sequence.
 old-location: direct3d11\id3dx11scan_scan.htm

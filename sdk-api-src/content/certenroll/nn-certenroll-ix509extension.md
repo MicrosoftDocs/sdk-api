@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509Extension
-title: IX509Extension
+title: IX509Extension (certenroll.h)
 author: windows-sdk-content
 description: Can be used to define an extension for a certificate request.
 old-location: security\ix509extension.htm

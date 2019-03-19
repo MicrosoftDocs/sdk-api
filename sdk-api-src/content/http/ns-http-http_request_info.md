@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_REQUEST_INFO
-title: HTTP_REQUEST_INFO
+title: HTTP_REQUEST_INFO (http.h)
 author: windows-sdk-content
 description: Extends the HTTP_REQUEST structure with additional information about the request.
 old-location: http\http_request_info.htm

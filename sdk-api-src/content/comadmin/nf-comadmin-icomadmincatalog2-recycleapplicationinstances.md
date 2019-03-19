@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.RecycleApplicationInstances
-title: ICOMAdminCatalog2::RecycleApplicationInstances
+title: ICOMAdminCatalog2::RecycleApplicationInstances (comadmin.h)
 author: windows-sdk-content
 description: Recycles (shuts down and restarts) the specified application server processes.
 old-location: cos\icomadmincatalog2_recycleapplicationinstances.htm

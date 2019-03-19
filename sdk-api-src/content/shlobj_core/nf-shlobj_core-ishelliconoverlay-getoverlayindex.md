@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlay.GetOverlayIndex
-title: IShellIconOverlay::GetOverlayIndex
+title: IShellIconOverlay::GetOverlayIndex (shlobj_core.h)
 author: windows-sdk-content
 description: Gets the overlay index in the system image list.
 old-location: shell\IShellIconOverlay_GetOverlayIndex.htm

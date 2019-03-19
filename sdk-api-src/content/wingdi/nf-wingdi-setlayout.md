@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.SetLayout
-title: SetLayout function
+title: SetLayout function (wingdi.h)
 author: windows-sdk-content
 description: The SetLayout function changes the layout of a device context (DC).
 old-location: gdi\setlayout.htm

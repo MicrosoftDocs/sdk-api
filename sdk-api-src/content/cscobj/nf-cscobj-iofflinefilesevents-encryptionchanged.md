@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.EncryptionChanged
-title: IOfflineFilesEvents::EncryptionChanged
+title: IOfflineFilesEvents::EncryptionChanged (cscobj.h)
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_encryptionchanged.htm

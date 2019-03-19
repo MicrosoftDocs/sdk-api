@@ -1,6 +1,6 @@
 ---
 UID: NS:d2d1_1.D2D1_EFFECT_INPUT_DESCRIPTION
-title: D2D1_EFFECT_INPUT_DESCRIPTION
+title: D2D1_EFFECT_INPUT_DESCRIPTION (d2d1_1.h)
 author: windows-sdk-content
 description: Describes features of an effect.
 old-location: direct2d\d2d1_effect_input_description.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi.tagPRIORITIZE_FLAGS
-title: tagPRIORITIZE_FLAGS
+title: tagPRIORITIZE_FLAGS (searchapi.h)
 author: windows-sdk-content
 description: Used by PrioritizeMatchingURLs to specify how to process items the indexer has previously failed to index.
 old-location: search\_search_PRIORITIZE_FLAGS.htm

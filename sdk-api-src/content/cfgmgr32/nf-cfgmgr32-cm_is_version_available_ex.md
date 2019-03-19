@@ -1,6 +1,6 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Version_Available_Ex
-title: CM_Is_Version_Available_Ex function
+title: CM_Is_Version_Available_Ex function (cfgmgr32.h)
 author: windows-sdk-content
 description: The CM_Is_Version_Available_Ex function indicates whether a specified version of the Plug and Play (PNP) Configuration Manager DLL (Cfgmgr32.dll) is supported by a local or a remote machine.
 old-location: devinst\cm_is_version_available_ex.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ocidl.tagCONTROLINFO
-title: CONTROLINFO
+title: CONTROLINFO (ocidl.h)
 author: windows-sdk-content
 description: Contains parameters that describe a control's keyboard mnemonics and keyboard behavior. The structure is populated during the IOleControl::GetControlInfo method.
 old-location: com\controlinfo.htm

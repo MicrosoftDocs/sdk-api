@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d12.ID3D12Heap
-title: ID3D12Heap
+title: ID3D12Heap (d3d12.h)
 author: windows-sdk-content
 description: A heap is an abstraction of contiguous memory allocation, used to manage physical memory. This heap can be used with ID3D12Resource objects to support placed resources or reserved resources.
 old-location: direct3d12\id3d12heap.htm

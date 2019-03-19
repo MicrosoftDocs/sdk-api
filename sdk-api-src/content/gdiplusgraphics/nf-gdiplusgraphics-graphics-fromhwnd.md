@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FromHWND
-title: Graphics::FromHWND
+title: Graphics::FromHWND (gdiplusgraphics.h)
 author: windows-sdk-content
 description: The Graphics::FromHWND method creates a Graphicsobject that is associated with a specified window.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_.htm

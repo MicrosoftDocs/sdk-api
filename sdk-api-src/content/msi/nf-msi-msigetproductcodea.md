@@ -1,6 +1,6 @@
 ---
 UID: NF:msi.MsiGetProductCodeA
-title: MsiGetProductCodeA function
+title: MsiGetProductCodeA function (msi.h)
 author: windows-sdk-content
 description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
 old-location: setup\msigetproductcode.htm

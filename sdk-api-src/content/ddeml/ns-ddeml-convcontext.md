@@ -1,6 +1,6 @@
 ---
 UID: NS:ddeml.tagCONVCONTEXT
-title: CONVCONTEXT
+title: CONVCONTEXT (ddeml.h)
 author: windows-sdk-content
 description: Contains information supplied by a Dynamic Data Exchange (DDE) client application. The information is useful for specialized or cross-language DDE conversations.
 old-location: dataxchg\convcontext_str.htm

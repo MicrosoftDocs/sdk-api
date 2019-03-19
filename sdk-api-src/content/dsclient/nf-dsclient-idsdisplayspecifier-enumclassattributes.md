@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.EnumClassAttributes
-title: IDsDisplaySpecifier::EnumClassAttributes
+title: IDsDisplaySpecifier::EnumClassAttributes (dsclient.h)
 author: windows-sdk-content
 description: Enumerates the attributes for a given object class.
 old-location: ad\idsdisplayspecifier_enumclassattributes.htm

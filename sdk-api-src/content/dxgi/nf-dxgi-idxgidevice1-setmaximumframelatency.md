@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIDevice1.SetMaximumFrameLatency
-title: IDXGIDevice1::SetMaximumFrameLatency
+title: IDXGIDevice1::SetMaximumFrameLatency (dxgi.h)
 author: windows-sdk-content
 description: Sets the number of frames that the system is allowed to queue for rendering.
 old-location: direct3ddxgi\idxgidevice1_setmaximumframelatency.htm

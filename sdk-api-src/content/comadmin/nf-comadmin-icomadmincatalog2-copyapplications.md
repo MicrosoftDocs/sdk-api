@@ -1,6 +1,6 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CopyApplications
-title: ICOMAdminCatalog2::CopyApplications
+title: ICOMAdminCatalog2::CopyApplications (comadmin.h)
 author: windows-sdk-content
 description: Copies the specified COM+ applications from one partition to another.
 old-location: cos\icomadmincatalog2_copyapplications.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadFloat3PK
-title: XMLoadFloat3PK function
+title: XMLoadFloat3PK function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMFLOAT3PK into an XMVECTOR.
 old-location: dxmath\xmloadfloat3pk.htm

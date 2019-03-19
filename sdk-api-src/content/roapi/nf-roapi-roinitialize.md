@@ -1,6 +1,6 @@
 ---
 UID: NF:roapi.RoInitialize
-title: RoInitialize function
+title: RoInitialize function (roapi.h)
 author: windows-sdk-content
 description: Initializes the Windows Runtime on the current thread with the specified concurrency model.
 old-location: winrt\roinitialize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:aclui.ISecurityInformation.GetInheritTypes
-title: ISecurityInformation::GetInheritTypes
+title: ISecurityInformation::GetInheritTypes (aclui.h)
 author: windows-sdk-content
 description: The GetInheritTypes method requests information about how ACEs can be inherited by child objects. For more information, see ACE Inheritance.
 old-location: security\isecurityinformation_getinherittypes.htm

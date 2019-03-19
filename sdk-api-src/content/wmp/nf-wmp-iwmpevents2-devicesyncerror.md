@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncError
-title: IWMPEvents2::DeviceSyncError
+title: IWMPEvents2::DeviceSyncError (wmp.h)
 author: windows-sdk-content
 description: The DeviceSyncError event occurs in response to a synchronization error.
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncerror.htm

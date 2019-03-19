@@ -1,6 +1,6 @@
 ---
 UID: NF:inked.IInkEdit.GetGestureStatus
-title: IInkEdit::GetGestureStatus
+title: IInkEdit::GetGestureStatus (inked.h)
 author: windows-sdk-content
 description: Indicates whether the InkEdit control is interested in a particular application gesture.
 old-location: tablet\inkedit_getgesturestatus.htm

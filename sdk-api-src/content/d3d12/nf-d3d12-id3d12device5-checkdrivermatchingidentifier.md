@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CheckDriverMatchingIdentifier
-title: ID3D12Device5::CheckDriverMatchingIdentifier
+title: ID3D12Device5::CheckDriverMatchingIdentifier (d3d12.h)
 author: windows-sdk-content
 description: Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to CopyRaytracingAccelerationStructure with mode D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE, with the current device/driver.
 old-location: direct3d12\id3d12device5_checkdrivermatchingidentifier.htm

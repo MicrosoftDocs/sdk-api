@@ -1,6 +1,6 @@
 ---
 UID: NS:nspapi._CSADDR_INFO
-title: CSADDR_INFO
+title: CSADDR_INFO (nspapi.h)
 author: windows-sdk-content
 description: Contains Windows Sockets address information for a socket, network service, or namespace provider.
 old-location: winsock\csaddr_info_2.htm

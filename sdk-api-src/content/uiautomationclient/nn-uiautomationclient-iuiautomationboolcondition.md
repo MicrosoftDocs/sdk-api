@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationBoolCondition
-title: IUIAutomationBoolCondition
+title: IUIAutomationBoolCondition (uiautomationclient.h)
 author: windows-sdk-content
 description: Represents a condition that can be either TRUE (selects all elements) or FALSE (selects no elements).
 old-location: winauto\uiauto_IUIAutomationBoolCondition.htm

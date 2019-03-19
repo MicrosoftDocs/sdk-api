@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.InternetQueryOptionA
-title: InternetQueryOptionA function
+title: InternetQueryOptionA function (wininet.h)
 author: windows-sdk-content
 description: Queries an Internet option on the specified handle.
 old-location: wininet\internetqueryoption.htm

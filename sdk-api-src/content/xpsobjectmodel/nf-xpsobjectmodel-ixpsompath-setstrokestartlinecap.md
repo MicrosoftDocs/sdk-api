@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeStartLineCap
-title: IXpsOMPath::SetStrokeStartLineCap
+title: IXpsOMPath::SetStrokeStartLineCap (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Sets the style of the stroke's line cap at the start of the stroke line.
 old-location: xps\ixpsompath_setstrokestartlinecap.htm

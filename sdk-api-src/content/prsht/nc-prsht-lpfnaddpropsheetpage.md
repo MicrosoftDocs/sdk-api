@@ -1,6 +1,6 @@
 ---
 UID: NC:prsht.LPFNADDPROPSHEETPAGE
-title: LPFNADDPROPSHEETPAGE
+title: LPFNADDPROPSHEETPAGE (prsht.h)
 author: windows-sdk-content
 description: Specifies an application-defined callback function that a property sheet extension uses to add a page to a property sheet.
 old-location: controls\AddPropSheetPageProc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_FORMAT_SUPPORT2
-title: D3D12_FORMAT_SUPPORT2
+title: D3D12_FORMAT_SUPPORT2 (d3d12.h)
 author: windows-sdk-content
 description: Specifies which unordered resource options are supported for a provided format.
 old-location: direct3d12\d3d12_format_support2.htm

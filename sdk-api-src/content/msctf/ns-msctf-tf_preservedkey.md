@@ -1,6 +1,6 @@
 ---
 UID: NS:msctf.TF_PRESERVEDKEY
-title: TF_PRESERVEDKEY
+title: TF_PRESERVEDKEY (msctf.h)
 author: windows-sdk-content
 description: The TF_PRESERVEDKEY structure represents a preserved key.
 old-location: tsf\tf_preservedkey.htm

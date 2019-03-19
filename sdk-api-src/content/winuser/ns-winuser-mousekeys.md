@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagMOUSEKEYS
-title: MOUSEKEYS
+title: MOUSEKEYS (winuser.h)
 author: windows-sdk-content
 description: Contains information about the MouseKeys accessibility feature.
 old-location: winauto\mousekeys.htm

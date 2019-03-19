@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.UnregisterThreads
-title: IMFRealTimeClientEx::UnregisterThreads
+title: IMFRealTimeClientEx::UnregisterThreads (mfidl.h)
 author: windows-sdk-content
 description: Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclientex_unregisterthreads.htm

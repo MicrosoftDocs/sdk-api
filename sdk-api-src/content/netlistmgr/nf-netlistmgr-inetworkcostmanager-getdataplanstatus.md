@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetDataPlanStatus
-title: INetworkCostManager::GetDataPlanStatus
+title: INetworkCostManager::GetDataPlanStatus (netlistmgr.h)
 author: windows-sdk-content
 description: GetDataPlanStatus retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getdataplanstatus.htm

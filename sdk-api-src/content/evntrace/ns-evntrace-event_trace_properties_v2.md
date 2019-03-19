@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_PROPERTIES_V2
-title: EVENT_TRACE_PROPERTIES_V2
+title: EVENT_TRACE_PROPERTIES_V2 (evntrace.h)
 author: windows-sdk-content
 description: The EVENT_TRACE_PROPERTIES_V2 structure contains information about an event tracing session.
 old-location: etw\event_trace_properties_v2.htm

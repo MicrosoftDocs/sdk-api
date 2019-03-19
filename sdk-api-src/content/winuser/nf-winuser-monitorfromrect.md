@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.MonitorFromRect
-title: MonitorFromRect function
+title: MonitorFromRect function (winuser.h)
 author: windows-sdk-content
 description: The MonitorFromRect function retrieves a handle to the display monitor that has the largest area of intersection with a specified rectangle.
 old-location: gdi\monitorfromrect.htm

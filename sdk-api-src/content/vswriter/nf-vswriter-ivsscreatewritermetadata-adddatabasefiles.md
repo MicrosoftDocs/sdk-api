@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddDatabaseFiles
-title: IVssCreateWriterMetadata::AddDatabaseFiles
+title: IVssCreateWriterMetadata::AddDatabaseFiles (vswriter.h)
 author: windows-sdk-content
 description: The AddDatabaseFiles method indicates the file set (the specified file or files) that make up the database component to be backed up.
 old-location: base\ivsscreatewritermetadata_adddatabasefiles.htm

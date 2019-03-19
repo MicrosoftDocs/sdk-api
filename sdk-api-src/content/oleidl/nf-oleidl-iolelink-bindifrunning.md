@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.BindIfRunning
-title: IOleLink::BindIfRunning
+title: IOleLink::BindIfRunning (oleidl.h)
 author: windows-sdk-content
 description: Activates the connection between the linked object and the link source if the link source is already running.
 old-location: com\iolelink_bindifrunning.htm

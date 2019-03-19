@@ -1,6 +1,6 @@
 ---
 UID: NC:cpl.APPLET_PROC
-title: APPLET_PROC
+title: APPLET_PROC (cpl.h)
 author: windows-sdk-content
 description: Serves as the entry point for a Control Panel application. This is a library-defined callback function.
 old-location: shell\CPlApplet.htm

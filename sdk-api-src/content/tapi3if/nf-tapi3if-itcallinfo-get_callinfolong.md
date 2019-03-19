@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallInfoLong
-title: ITCallInfo::get_CallInfoLong
+title: ITCallInfo::get_CallInfoLong (tapi3if.h)
 author: windows-sdk-content
 description: The get_CallInfoLong method gets call information items described by a long, such as the bearer mode.
 old-location: tapi3\itcallinfo_get_callinfolong.htm

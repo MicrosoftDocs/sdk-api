@@ -1,6 +1,6 @@
 ---
 UID: NE:shtypes.DEVICE_SCALE_FACTOR
-title: DEVICE_SCALE_FACTOR
+title: DEVICE_SCALE_FACTOR (shtypes.h)
 author: windows-sdk-content
 description: Indicates a spoofed device scale factor, as a percent. Used by IApplicationDesignModeSettings::SetApplicationViewState and IApplicationDesignModeSettings::IsApplicationViewStateSupported.
 old-location: shell\DEVICE_SCALE_FACTOR.htm

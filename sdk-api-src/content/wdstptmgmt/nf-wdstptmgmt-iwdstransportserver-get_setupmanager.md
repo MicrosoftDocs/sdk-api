@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_SetupManager
-title: IWdsTransportServer::get_SetupManager
+title: IWdsTransportServer::get_SetupManager (wdstptmgmt.h)
 author: windows-sdk-content
 description: Returns a pointer to the object of an IWdsTransportSetupManager interface used to manage the setup functionality on this server.
 old-location: wds\iwdstransportserver_setupmanager.htm

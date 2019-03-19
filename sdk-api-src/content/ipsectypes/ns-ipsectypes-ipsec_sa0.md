@@ -1,6 +1,6 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA0_
-title: IPSEC_SA0
+title: IPSEC_SA0 (ipsectypes.h)
 author: windows-sdk-content
 description: Is used to store information about an IPsec security association (SA).
 old-location: fwp\ipsec_sa0_struct.htm

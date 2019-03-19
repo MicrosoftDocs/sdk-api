@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRenderer.InkSpaceToPixelFromPoints
-title: IInkRenderer::InkSpaceToPixelFromPoints
+title: IInkRenderer::InkSpaceToPixelFromPoints (msinkaut.h)
 author: windows-sdk-content
 description: Converts an array of points in ink space coordinates to an array of points in pixel space.
 old-location: tablet\inkrenderer_inkspacetopixelfrompoints.htm

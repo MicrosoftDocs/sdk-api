@@ -1,6 +1,6 @@
 ---
 UID: NF:vmr9.IVMRImagePresenterConfig9.SetRenderingPrefs
-title: IVMRImagePresenterConfig9::SetRenderingPrefs
+title: IVMRImagePresenterConfig9::SetRenderingPrefs (vmr9.h)
 author: windows-sdk-content
 description: The SetRenderingPrefs method sets the rendering preferences on the VMR-9 filter's allocator-presenter.
 old-location: dshow\ivmrimagepresenterconfig9_setrenderingprefs.htm

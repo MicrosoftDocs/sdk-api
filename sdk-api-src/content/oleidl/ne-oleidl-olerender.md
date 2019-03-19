@@ -1,6 +1,6 @@
 ---
 UID: NE:oleidl.tagOLERENDER
-title: OLERENDER
+title: OLERENDER (oleidl.h)
 author: windows-sdk-content
 description: Indicates the type of caching requested for newly created objects.
 old-location: com\olerender.htm

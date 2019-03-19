@@ -1,6 +1,6 @@
 ---
 UID: NF:opmapi.OPMGetVideoOutputForTarget
-title: OPMGetVideoOutputForTarget function
+title: OPMGetVideoOutputForTarget function (opmapi.h)
 author: windows-sdk-content
 description: Returns a video output object for the VidPN target on the specified adapter.
 old-location: mf\opmgetvideooutputfortarget.htm

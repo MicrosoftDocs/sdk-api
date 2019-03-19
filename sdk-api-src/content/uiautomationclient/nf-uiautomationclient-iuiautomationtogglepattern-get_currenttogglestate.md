@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTogglePattern.get_CurrentToggleState
-title: IUIAutomationTogglePattern::get_CurrentToggleState
+title: IUIAutomationTogglePattern::get_CurrentToggleState (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the state of the control.
 old-location: winauto\uiauto_IUIAutomationTogglePattern_CurrentToggleState.htm

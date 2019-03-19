@@ -1,6 +1,6 @@
 ---
 UID: NS:sbe.__MIDL___MIDL_itf_sbe_0000_0015_0001
-title: SBE2_STREAM_DESC
+title: SBE2_STREAM_DESC (sbe.h)
 author: windows-sdk-content
 description: Describes a stream produced by the stream buffer engine.
 old-location: mstv\sbe2_stream_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.HitTestSelection
-title: IInkPicture::HitTestSelection
+title: IInkPicture::HitTestSelection (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves a member of the SelectionHitResult enumeration, which specifies which part of a selection, if any, was hit during a hit test.
 old-location: tablet\inkpicture_hittestselection.htm

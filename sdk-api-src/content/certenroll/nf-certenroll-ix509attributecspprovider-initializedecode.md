@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.InitializeDecode
-title: IX509AttributeCspProvider::InitializeDecode
+title: IX509AttributeCspProvider::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains information about the provider.
 old-location: security\ix509attributecspprovider_initializedecode_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinderCallback.DeviceAdded
-title: IUPnPDeviceFinderCallback::DeviceAdded
+title: IUPnPDeviceFinderCallback::DeviceAdded (upnp.h)
 author: windows-sdk-content
 description: The DeviceAdded method is invoked by the UPnP framework to notify the application that a device has been added to the network.
 old-location: upnp\iupnpdevicefindercallback_deviceadded.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMStreamControl.StopAt
-title: IAMStreamControl::StopAt
+title: IAMStreamControl::StopAt (strmif.h)
 author: windows-sdk-content
 description: The StopAt method informs the pin when to stop delivering data.
 old-location: dshow\iamstreamcontrol_stopat.htm

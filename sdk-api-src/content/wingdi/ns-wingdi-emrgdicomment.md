@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.tagEMRGDICOMMENT
-title: EMRGDICOMMENT
+title: EMRGDICOMMENT (wingdi.h)
 author: windows-sdk-content
 description: The EMRGDICOMMENT structure contains application-specific data.
 old-location: gdi\emrgdicomment.htm

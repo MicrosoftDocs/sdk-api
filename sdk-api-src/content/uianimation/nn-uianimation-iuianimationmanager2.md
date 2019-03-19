@@ -1,6 +1,6 @@
 ---
 UID: NN:uianimation.IUIAnimationManager2
-title: IUIAnimationManager2
+title: IUIAnimationManager2 (uianimation.h)
 author: windows-sdk-content
 description: Defines an animation manager, which provides a central interface for creating and managing animations in multiple dimensions.
 old-location: uianimation\iuianimationmanager2.htm

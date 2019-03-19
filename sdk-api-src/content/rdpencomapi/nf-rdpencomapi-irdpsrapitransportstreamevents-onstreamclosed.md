@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnStreamClosed
-title: IRDPSRAPITransportStreamEvents::OnStreamClosed
+title: IRDPSRAPITransportStreamEvents::OnStreamClosed (rdpencomapi.h)
 author: windows-sdk-content
 description: Notifies the Remote Desktop Protocol (RDP) stack that the connection was closed.
 old-location: rdp\irdpsrapitransportstreamevents_onstreamclosed.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.CreateFromBoundingBox
-title: BoundingOrientedBox::CreateFromBoundingBox
+title: BoundingOrientedBox::CreateFromBoundingBox (directxcollision.h)
 author: windows-sdk-content
 description: Creates a BoundingOrientedBox from a BoundingBox.
 old-location: dxmath\boundingorientedbox_createfromboundingbox.htm

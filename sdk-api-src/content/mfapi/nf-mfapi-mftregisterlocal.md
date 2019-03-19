@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFTRegisterLocal
-title: MFTRegisterLocal function
+title: MFTRegisterLocal function (mfapi.h)
 author: windows-sdk-content
 description: Registers a Media Foundation transform (MFT) in the caller's process.
 old-location: mf\mftregisterlocal.htm

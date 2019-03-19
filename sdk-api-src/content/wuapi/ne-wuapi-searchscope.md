@@ -1,6 +1,6 @@
 ---
 UID: NE:wuapi.tagSearchScope
-title: SearchScope
+title: SearchScope (wuapi.h)
 author: windows-sdk-content
 description: Defines the variety of updates that should be returned by the search:\_per-machine updates, per-user updates, or both.
 old-location: wua\searchscope.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoCollection.Item
-title: ISdoCollection::Item
+title: ISdoCollection::Item (sdoias.h)
 author: windows-sdk-content
 description: The Item method retrieves the specified item from the collection.
 old-location: nps\SDO_isdocollection_item.htm

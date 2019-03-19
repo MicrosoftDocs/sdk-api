@@ -1,6 +1,6 @@
 ---
 UID: NF:tspi.TSPI_phoneGetDevCaps
-title: TSPI_phoneGetDevCaps function
+title: TSPI_phoneGetDevCaps function (tspi.h)
 author: windows-sdk-content
 description: The TSPI_phoneGetDevCaps function queries a specified phone device to determine its telephony capabilities.
 old-location: tspi\tspi_phonegetdevcaps.htm

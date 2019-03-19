@@ -1,6 +1,6 @@
 ---
 UID: NF:secext.TranslateNameW
-title: TranslateNameW function
+title: TranslateNameW function (secext.h)
 author: windows-sdk-content
 description: Converts a directory service object name from one format to another.
 old-location: base\translatename.htm

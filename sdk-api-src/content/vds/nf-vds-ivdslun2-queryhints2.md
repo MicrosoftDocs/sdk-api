@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLun2.QueryHints2
-title: IVdsLun2::QueryHints2
+title: IVdsLun2::QueryHints2 (vds.h)
 author: windows-sdk-content
 description: Returns the hints currently applied to the LUN. This method is identical to the IVdsLun::QueryHints method, except that it uses a VDS_HINTS2 structure instead of a VDS_HINTS structure.
 old-location: base\ivdslun2_queryhints2.htm

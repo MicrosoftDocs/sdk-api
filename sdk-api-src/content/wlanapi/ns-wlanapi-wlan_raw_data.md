@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_RAW_DATA
-title: WLAN_RAW_DATA
+title: WLAN_RAW_DATA (wlanapi.h)
 author: windows-sdk-content
 description: Contains raw data in the form of a blob that is used by some Native Wifi functions.
 old-location: nwifi\dot11_psd_ie_data_entry.htm

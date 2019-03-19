@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICryptAttribute.get_ObjectId
-title: ICryptAttribute::get_ObjectId
+title: ICryptAttribute::get_ObjectId (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\icryptattribute_objectid_property.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_RenewalCertificate
-title: IX509CertificateRequest::get_RenewalCertificate
+title: IX509CertificateRequest::get_RenewalCertificate (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a byte array that contains the Distinguished Encoding Rules (DER) encoded certificate that is being renewed.
 old-location: security\ix509certificaterequest_renewalcertificate_property.htm

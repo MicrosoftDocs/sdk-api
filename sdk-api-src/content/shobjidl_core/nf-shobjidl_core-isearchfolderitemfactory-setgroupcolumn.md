@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetGroupColumn
-title: ISearchFolderItemFactory::SetGroupColumn
+title: ISearchFolderItemFactory::SetGroupColumn (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets a group column, as specified. If no group column is specified, no grouping occurs.
 old-location: shell\ISearchFolderItemFactory_SetGroupColumn.htm

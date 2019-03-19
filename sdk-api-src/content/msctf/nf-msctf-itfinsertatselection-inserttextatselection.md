@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfInsertAtSelection.InsertTextAtSelection
-title: ITfInsertAtSelection::InsertTextAtSelection
+title: ITfInsertAtSelection::InsertTextAtSelection (msctf.h)
 author: windows-sdk-content
 description: ITfInsertAtSelection::InsertTextAtSelection method
 old-location: tsf\itfinsertatselection_inserttextatselection.htm

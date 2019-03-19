@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetFillRule
-title: IXpsOMGeometry::GetFillRule
+title: IXpsOMGeometry::GetFillRule (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the XPS_FILL_RULE value that describes the fill rule to be used.
 old-location: xps\ixpsomgeometry_getfillrule.htm

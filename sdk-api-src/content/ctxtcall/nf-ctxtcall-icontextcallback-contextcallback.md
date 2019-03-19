@@ -1,6 +1,6 @@
 ---
 UID: NF:ctxtcall.IContextCallback.ContextCallback
-title: IContextCallback::ContextCallback
+title: IContextCallback::ContextCallback (ctxtcall.h)
 author: windows-sdk-content
 description: Enters the object context, executes the specified function, and returns.
 old-location: com\icontextcallback_contextcallback.htm

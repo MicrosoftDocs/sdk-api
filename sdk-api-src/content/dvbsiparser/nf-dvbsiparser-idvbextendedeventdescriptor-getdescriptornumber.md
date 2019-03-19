@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetDescriptorNumber
-title: IDvbExtendedEventDescriptor::GetDescriptorNumber
+title: IDvbExtendedEventDescriptor::GetDescriptorNumber (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the descriptor number from a Digital Video Broadcast (DVB) extended event descriptor.
 old-location: mstv\idvbextendedeventdescriptor_getdescriptornumber.htm

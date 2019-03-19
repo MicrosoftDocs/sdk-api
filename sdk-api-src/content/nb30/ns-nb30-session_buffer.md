@@ -1,6 +1,6 @@
 ---
 UID: NS:nb30._SESSION_BUFFER
-title: SESSION_BUFFER
+title: SESSION_BUFFER (nb30.h)
 author: windows-sdk-content
 description: The SESSION_BUFFER structure contains information about a local network session. One or more SESSION_BUFFER structures follows a SESSION_HEADER structure when an application specifies the NCBSSTAT command in the ncb_command member of the NCB structure.
 old-location: netbios\session_buffer.htm

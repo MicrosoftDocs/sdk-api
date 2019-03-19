@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.GetSink
-title: IMFCaptureEngine::GetSink
+title: IMFCaptureEngine::GetSink (mfcaptureengine.h)
 author: windows-sdk-content
 description: Gets a pointer to one of the capture sink objects.
 old-location: mf\imfcaptureengine_getsink.htm

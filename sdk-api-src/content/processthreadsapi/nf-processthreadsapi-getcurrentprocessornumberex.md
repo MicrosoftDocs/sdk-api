@@ -1,6 +1,6 @@
 ---
 UID: NF:processthreadsapi.GetCurrentProcessorNumberEx
-title: GetCurrentProcessorNumberEx function
+title: GetCurrentProcessorNumberEx function (processthreadsapi.h)
 author: windows-sdk-content
 description: Retrieves the processor group and number of the logical processor in which the calling thread is running.
 old-location: base\getcurrentprocessornumberex.htm

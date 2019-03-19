@@ -1,6 +1,6 @@
 ---
 UID: NE:vds._VDS_PARTITION_FLAG
-title: VDS_PARTITION_FLAG
+title: VDS_PARTITION_FLAG (vds.h)
 author: windows-sdk-content
 description: Defines a set of valid flags for a partition.
 old-location: base\vds_partition_flag.htm

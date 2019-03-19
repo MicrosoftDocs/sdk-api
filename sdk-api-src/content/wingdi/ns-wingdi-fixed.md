@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi._FIXED
-title: FIXED
+title: FIXED (wingdi.h)
 author: windows-sdk-content
 description: The FIXED structure contains the integral and fractional parts of a fixed-point real number.
 old-location: gdi\fixed.htm

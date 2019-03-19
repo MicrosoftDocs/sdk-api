@@ -1,6 +1,6 @@
 ---
 UID: NF:indexsrv.IColumnMapperCreator.GetColumnMapper
-title: IColumnMapperCreator::GetColumnMapper
+title: IColumnMapperCreator::GetColumnMapper (indexsrv.h)
 author: windows-sdk-content
 description: Retrieves a column mapper object.
 old-location: search\icolumnmappercreator_getcolumnmapper.htm

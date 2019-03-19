@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineGetIDA
-title: lineGetIDA function
+title: lineGetIDA function (tapi.h)
 author: windows-sdk-content
 description: The lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
 old-location: tapi2\linegetid.htm

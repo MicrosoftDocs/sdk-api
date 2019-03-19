@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetDescriptorHandleIncrementSize
-title: ID3D12Device::GetDescriptorHandleIncrementSize
+title: ID3D12Device::GetDescriptorHandleIncrementSize (d3d12.h)
 author: windows-sdk-content
 description: Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
 old-location: direct3d12\id3d12device_getdescriptorhandleincrementsize.htm

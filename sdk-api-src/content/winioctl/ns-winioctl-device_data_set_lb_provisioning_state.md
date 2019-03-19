@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_LB_PROVISIONING_STATE
-title: DEVICE_DATA_SET_LB_PROVISIONING_STATE
+title: DEVICE_DATA_SET_LB_PROVISIONING_STATE (winioctl.h)
 author: windows-sdk-content
 description: Output structure for the DeviceDsmAction_Allocation action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_lb_provisioning_state.htm

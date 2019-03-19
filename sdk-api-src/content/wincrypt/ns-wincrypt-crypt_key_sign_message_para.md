@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CRYPT_KEY_SIGN_MESSAGE_PARA
-title: CRYPT_KEY_SIGN_MESSAGE_PARA
+title: CRYPT_KEY_SIGN_MESSAGE_PARA (wincrypt.h)
 author: windows-sdk-content
 description: Contains information about the cryptographic service provider (CSP) and algorithms used to sign a message.
 old-location: security\crypt_key_sign_message_para.htm

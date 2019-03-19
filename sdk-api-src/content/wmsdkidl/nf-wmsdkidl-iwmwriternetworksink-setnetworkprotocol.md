@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMWriterNetworkSink.SetNetworkProtocol
-title: IWMWriterNetworkSink::SetNetworkProtocol
+title: IWMWriterNetworkSink::SetNetworkProtocol (wmsdkidl.h)
 author: windows-sdk-content
 description: The SetNetworkProtocol method sets the network protocol that the network sink uses. Currently, HTTP is the only protocol supported by the network sink.
 old-location: wmformat\iwmwriternetworksink_setnetworkprotocol.htm

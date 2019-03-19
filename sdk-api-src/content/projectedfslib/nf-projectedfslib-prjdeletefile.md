@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjDeleteFile
-title: PrjDeleteFile function
+title: PrjDeleteFile function (projectedfslib.h)
 author: windows-sdk-content
 description: Enables a provider to delete an item that has been cached on the local file system.
 old-location: projfs\prjdeletefile.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetAspectRatioMode
-title: IVMRWindowlessControl::SetAspectRatioMode
+title: IVMRWindowlessControl::SetAspectRatioMode (strmif.h)
 author: windows-sdk-content
 description: The SetAspectRatioMode method specifies whether the VMR will preserve the aspect ratio of the source video.
 old-location: dshow\ivmrwindowlesscontrol_setaspectratiomode.htm

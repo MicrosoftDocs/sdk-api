@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroup
-title: IAppxContentGroup
+title: IAppxContentGroup (appxpackaging.h)
 author: windows-sdk-content
 description: Retrieves information about a content group.
 old-location: appxpkg\iappxcontentgroup.htm

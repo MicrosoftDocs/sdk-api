@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.InsertAt
-title: IXpsOMColorProfileResourceCollection::InsertAt
+title: IXpsOMColorProfileResourceCollection::InsertAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Inserts an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_insertat.htm

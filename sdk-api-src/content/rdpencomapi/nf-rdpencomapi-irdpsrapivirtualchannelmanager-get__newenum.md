@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.get__NewEnum
-title: IRDPSRAPIVirtualChannelManager::get__NewEnum
+title: IRDPSRAPIVirtualChannelManager::get__NewEnum (rdpencomapi.h)
 author: windows-sdk-content
 description: An enumerator interface for the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager__newenum.htm

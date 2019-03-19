@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITQOSEvent.get_MediaType
-title: ITQOSEvent::get_MediaType
+title: ITQOSEvent::get_MediaType (tapi3if.h)
 author: windows-sdk-content
 description: The get_MediaType method gets the media type indicator.
 old-location: tapi3\itqosevent_get_mediatype.htm

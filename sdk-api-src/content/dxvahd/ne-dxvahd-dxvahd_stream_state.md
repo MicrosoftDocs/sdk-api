@@ -1,6 +1,6 @@
 ---
 UID: NE:dxvahd._DXVAHD_STREAM_STATE
-title: DXVAHD_STREAM_STATE
+title: DXVAHD_STREAM_STATE (dxvahd.h)
 author: windows-sdk-content
 description: Specifies state parameters for an input stream to a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_stream_state.htm

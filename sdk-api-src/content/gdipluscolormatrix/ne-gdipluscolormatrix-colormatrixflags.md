@@ -1,6 +1,6 @@
 ---
 UID: NE:gdipluscolormatrix.ColorMatrixFlags
-title: ColorMatrixFlags
+title: ColorMatrixFlags (gdipluscolormatrix.h)
 author: windows-sdk-content
 description: The ColorMatrixFlags enumeration specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an ImageAttributes object.
 old-location: gdiplus\_gdiplus_ENUM_ColorMatrixFlags.htm

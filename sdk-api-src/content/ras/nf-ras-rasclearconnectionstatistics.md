@@ -1,6 +1,6 @@
 ---
 UID: NF:ras.RasClearConnectionStatistics
-title: RasClearConnectionStatistics function
+title: RasClearConnectionStatistics function (ras.h)
 author: windows-sdk-content
 description: The RasClearConnectionStatistics functions clears any accumulated statistics for the specified RAS connection.
 old-location: rras\rasclearconnectionstatistics.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpQueryOption
-title: WinHttpQueryOption function
+title: WinHttpQueryOption function (winhttp.h)
 author: windows-sdk-content
 description: The WinHttpQueryOption function queries an Internet option on the specified handle.
 old-location: http\winhttpqueryoption.htm

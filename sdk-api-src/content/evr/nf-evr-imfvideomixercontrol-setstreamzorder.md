@@ -1,6 +1,6 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.SetStreamZOrder
-title: IMFVideoMixerControl::SetStreamZOrder
+title: IMFVideoMixerControl::SetStreamZOrder (evr.h)
 author: windows-sdk-content
 description: Sets the z-order of a video stream.
 old-location: mf\imfvideomixercontrol_setstreamzorder.htm

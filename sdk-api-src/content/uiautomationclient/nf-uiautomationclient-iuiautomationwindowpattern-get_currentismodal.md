@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentIsModal
-title: IUIAutomationWindowPattern::get_CurrentIsModal
+title: IUIAutomationWindowPattern::get_CurrentIsModal (uiautomationclient.h)
 author: windows-sdk-content
 description: Indicates whether the window is modal.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentIsModal.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.EnumSystemLocalesEx
-title: EnumSystemLocalesEx function
+title: EnumSystemLocalesEx function (winnls.h)
 author: windows-sdk-content
 description: Enumerates the locales that are either installed on or supported by an operating system.Note  The application should call this function in preference to EnumSystemLocales if designed to run only on Windows Vista and later.
 old-location: intl\enumsystemlocalesex.htm

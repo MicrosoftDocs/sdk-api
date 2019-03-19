@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_37
-title: WS_IP_VERSION
+title: WS_IP_VERSION (webservices.h)
 author: windows-sdk-content
 description: Specifies an IP version.
 old-location: wsw\ws_ip_version.htm

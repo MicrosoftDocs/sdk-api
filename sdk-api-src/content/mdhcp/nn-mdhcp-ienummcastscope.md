@@ -1,6 +1,6 @@
 ---
 UID: NN:mdhcp.IEnumMcastScope
-title: IEnumMcastScope
+title: IEnumMcastScope (mdhcp.h)
 author: windows-sdk-content
 description: The IEnumMcastScope interface provides COM-standard enumeration methods for the IMcastScope interface. The IMcastAddressAllocation::EnumerateScopes method returns a pointer to IEnumMcastScope.
 old-location: tapi3\ienummcastscope.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1DrawTransform
-title: ID2D1DrawTransform
+title: ID2D1DrawTransform (d2d1effectauthor.h)
 author: windows-sdk-content
 description: A specialized implementation of the Shantzis calculations to a transform implemented on the GPU.
 old-location: direct2d\id2d1drawtransform.htm

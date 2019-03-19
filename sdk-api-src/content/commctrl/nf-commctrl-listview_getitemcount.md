@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetItemCount
-title: ListView_GetItemCount macro
+title: ListView_GetItemCount macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the number of items in a list-view control. You can use this macro or send the LVM_GETITEMCOUNT message explicitly.
 old-location: controls\ListView_GetItemCount.htm

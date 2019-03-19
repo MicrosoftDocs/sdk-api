@@ -1,6 +1,6 @@
 ---
 UID: NS:ntsecapi._KERB_CHANGEPASSWORD_REQUEST
-title: KERB_CHANGEPASSWORD_REQUEST
+title: KERB_CHANGEPASSWORD_REQUEST (ntsecapi.h)
 author: windows-sdk-content
 description: Contains information used to change a password.
 old-location: security\kerb_changepassword_request.htm

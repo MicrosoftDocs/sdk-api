@@ -1,6 +1,6 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_LSA_HEAP
-title: LSA_ALLOCATE_LSA_HEAP
+title: LSA_ALLOCATE_LSA_HEAP (ntsecpkg.h)
 author: windows-sdk-content
 description: Allocates memory on the heap. Some information passed back to the LSA is expected to be allocated using this function.
 old-location: security\allocatelsaheap.htm

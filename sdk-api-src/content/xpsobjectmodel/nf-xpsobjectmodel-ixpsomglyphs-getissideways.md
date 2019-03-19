@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetIsSideways
-title: IXpsOMGlyphs::GetIsSideways
+title: IXpsOMGlyphs::GetIsSideways (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the text is to be rendered with the glyphs rotated sideways.
 old-location: xps\ixpsomglyphs_getissideways.htm

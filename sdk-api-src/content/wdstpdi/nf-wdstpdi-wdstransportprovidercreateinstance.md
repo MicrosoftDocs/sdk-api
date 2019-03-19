@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCreateInstance
-title: WdsTransportProviderCreateInstance function
+title: WdsTransportProviderCreateInstance function (wdstpdi.h)
 author: windows-sdk-content
 description: Opens a new instance of a content provider.
 old-location: wds\wdstransportprovidercreateinstance.htm

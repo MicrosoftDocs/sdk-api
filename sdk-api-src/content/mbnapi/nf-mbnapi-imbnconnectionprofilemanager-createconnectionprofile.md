@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.CreateConnectionProfile
-title: IMbnConnectionProfileManager::CreateConnectionProfile
+title: IMbnConnectionProfileManager::CreateConnectionProfile (mbnapi.h)
 author: windows-sdk-content
 description: Creates a new connection profile for the device.
 old-location: mbn\imbnconnectionprofilemanager_createconnectionprofile.htm

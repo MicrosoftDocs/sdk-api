@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetNamespace
-title: ISettingsEngine::GetNamespace
+title: ISettingsEngine::GetNamespace (wcmconfig.h)
 author: windows-sdk-content
 description: Opens an existing namespace as specified by the ISettingsIdentity parameter.
 old-location: smi\isettingsengine_getnamespace.htm

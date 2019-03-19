@@ -1,6 +1,6 @@
 ---
 UID: NN:eventsys.IPublisherFilter
-title: IPublisherFilter
+title: IPublisherFilter (eventsys.h)
 author: windows-sdk-content
 description: Acts as a callback interface so that event publishers can control which subscribers receive event notifications or the order in which subscribers are notified.
 old-location: cos\ipublisherfilter.htm

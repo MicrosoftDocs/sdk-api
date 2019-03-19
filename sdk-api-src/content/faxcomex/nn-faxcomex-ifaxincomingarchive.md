@@ -1,6 +1,6 @@
 ---
 UID: NN:faxcomex.IFaxIncomingArchive
-title: IFaxIncomingArchive
+title: IFaxIncomingArchive (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxIncomingArchive interface is used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service.
 old-location: fax\_mfax_faxincomingarchive_cpp.htm

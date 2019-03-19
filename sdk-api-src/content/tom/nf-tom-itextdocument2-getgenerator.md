@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextDocument2.GetGenerator
-title: ITextDocument2::GetGenerator
+title: ITextDocument2::GetGenerator (tom.h)
 author: windows-sdk-content
 description: Gets the name of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getgenerator.htm

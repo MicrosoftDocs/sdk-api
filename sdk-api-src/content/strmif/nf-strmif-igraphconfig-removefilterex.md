@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IGraphConfig.RemoveFilterEx
-title: IGraphConfig::RemoveFilterEx
+title: IGraphConfig::RemoveFilterEx (strmif.h)
 author: windows-sdk-content
 description: The RemoveFilterEx method removes a filter from the filter graph.
 old-location: dshow\igraphconfig_removefilterex.htm

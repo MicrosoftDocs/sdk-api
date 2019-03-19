@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPopContext
-title: ITfThreadMgrEventSink::OnPopContext
+title: ITfThreadMgrEventSink::OnPopContext (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnPopContext method
 old-location: tsf\itfthreadmgreventsink_onpopcontext.htm

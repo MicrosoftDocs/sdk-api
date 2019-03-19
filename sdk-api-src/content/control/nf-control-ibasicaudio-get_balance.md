@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IBasicAudio.get_Balance
-title: IBasicAudio::get_Balance
+title: IBasicAudio::get_Balance (control.h)
 author: windows-sdk-content
 description: The get_Balance method retrieves the balance for the audio signal.
 old-location: dshow\ibasicaudio_get_balance.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessMessage
-title: IMFTransform::ProcessMessage
+title: IMFTransform::ProcessMessage (mftransform.h)
 author: windows-sdk-content
 description: Sends a message to the Media Foundation transform (MFT).
 old-location: mf\imftransform_processmessage.htm

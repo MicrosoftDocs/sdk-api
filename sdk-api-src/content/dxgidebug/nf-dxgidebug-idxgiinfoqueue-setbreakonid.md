@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnID
-title: IDXGIInfoQueue::SetBreakOnID
+title: IDXGIInfoQueue::SetBreakOnID (dxgidebug.h)
 author: windows-sdk-content
 description: Sets a message identifier to break on when a message with that identifier passes through the storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakonid.htm

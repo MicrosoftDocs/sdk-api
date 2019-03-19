@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.GetAllocateForOutput
-title: IWMSyncReader2::GetAllocateForOutput
+title: IWMSyncReader2::GetAllocateForOutput (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAllocateForOutput method retrieves an interface for allocating output samples.
 old-location: wmformat\iwmsyncreader2_getallocateforoutput.htm

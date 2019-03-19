@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderGetContentMetadata
-title: WdsTransportProviderGetContentMetadata function
+title: WdsTransportProviderGetContentMetadata function (wdstpdi.h)
 author: windows-sdk-content
 description: Retrieves metadata for an open content stream.
 old-location: wds\wdstransportprovidergetcontentmetadata.htm

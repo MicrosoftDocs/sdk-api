@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IPerformanceCounterDataCollector.get_LogFileFormat
-title: IPerformanceCounterDataCollector::get_LogFileFormat
+title: IPerformanceCounterDataCollector::get_LogFileFormat (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the format of the log file.
 old-location: pla\iperformancecounterdatacollector_logfileformat.htm

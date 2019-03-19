@@ -1,6 +1,6 @@
 ---
 UID: NN:shlobj_core.IACList
-title: IACList
+title: IACList (shlobj_core.h)
 author: windows-sdk-content
 description: Exposes a method that improves the efficiency of autocompletion when the candidate strings are organized in a hierarchy.
 old-location: shell\IACList.htm

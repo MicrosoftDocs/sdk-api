@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.BeginCreateObjectFromByteStream
-title: IMFSourceResolver::BeginCreateObjectFromByteStream
+title: IMFSourceResolver::BeginCreateObjectFromByteStream (mfidl.h)
 author: windows-sdk-content
 description: Begins an asynchronous request to create a media source from a byte stream.
 old-location: mf\imfsourceresolver_begincreateobjectfrombytestream.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_FILTER_TYPE
-title: D3D11_FILTER_TYPE
+title: D3D11_FILTER_TYPE (d3d11.h)
 author: windows-sdk-content
 description: Types of magnification or minification sampler filters.
 old-location: direct3d11\d3d11_filter_type.htm

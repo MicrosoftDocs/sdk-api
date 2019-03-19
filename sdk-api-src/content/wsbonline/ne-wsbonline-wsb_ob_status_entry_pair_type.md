@@ -1,6 +1,6 @@
 ---
 UID: NE:wsbonline._WSB_OB_STATUS_ENTRY_PAIR_TYPE
-title: WSB_OB_STATUS_ENTRY_PAIR_TYPE
+title: WSB_OB_STATUS_ENTRY_PAIR_TYPE (wsbonline.h)
 author: windows-sdk-content
 description: Indicates the type of the parameter value.
 old-location: wsb\wsb_ob_status_entry_pair_type.htm

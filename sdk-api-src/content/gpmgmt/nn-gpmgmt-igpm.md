@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPM
-title: IGPM
+title: IGPM (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPM interface provides methods that access other interfaces of the Group Policy Management Console (GPMC) and methods that create other objects on which various search operations can be performed.
 old-location: gpmc\igpm.htm

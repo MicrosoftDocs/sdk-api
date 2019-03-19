@@ -1,6 +1,6 @@
 ---
 UID: NC:winwlx.PWLX_CREATE_USER_DESKTOP
-title: PWLX_CREATE_USER_DESKTOP
+title: PWLX_CREATE_USER_DESKTOP (winwlx.h)
 author: windows-sdk-content
 description: Called by GINA to create alternate application desktops for the user.
 old-location: security\wlxcreateuserdesktop.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetOwner
-title: IXpsOMCoreProperties::GetOwner
+title: IXpsOMCoreProperties::GetOwner (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the IXpsOMPackage interface that contains the core properties.
 old-location: xps\ixpsomcoreproperties_getowner.htm

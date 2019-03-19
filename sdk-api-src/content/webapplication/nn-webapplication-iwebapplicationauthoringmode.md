@@ -1,6 +1,6 @@
 ---
 UID: NN:webapplication.IWebApplicationAuthoringMode
-title: IWebApplicationAuthoringMode
+title: IWebApplicationAuthoringMode (webapplication.h)
 author: windows-sdk-content
 description: Provides the full local path to the authoring binary to be loaded into the WWAHost process.
 old-location: debug\iwebapplicationauthoringmode.htm

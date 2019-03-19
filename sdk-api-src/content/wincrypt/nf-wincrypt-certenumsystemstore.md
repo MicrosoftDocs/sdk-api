@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertEnumSystemStore
-title: CertEnumSystemStore function
+title: CertEnumSystemStore function (wincrypt.h)
 author: windows-sdk-content
 description: The CertEnumSystemStore function retrieves the system stores available. The function calls the provided callback function for each system store found.
 old-location: security\certenumsystemstore.htm

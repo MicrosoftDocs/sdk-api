@@ -1,6 +1,6 @@
 ---
 UID: NF:wscapi.WscRegisterForChanges
-title: WscRegisterForChanges function
+title: WscRegisterForChanges function (wscapi.h)
 author: windows-sdk-content
 description: Registers a callback function to be run when Windows Security Center (WSC) detects a change that could affect the health of one of the security providers.
 old-location: winprog\wscregisterforchanges.htm

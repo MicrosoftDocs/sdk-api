@@ -1,6 +1,6 @@
 ---
 UID: NS:cfapi.CF_SYNC_REGISTRATION
-title: CF_SYNC_REGISTRATION
+title: CF_SYNC_REGISTRATION (cfapi.h)
 author: windows-sdk-content
 description: The details of the sync provider and sync root to be registered.
 old-location: cloudapi\cf_sync_registration.htm

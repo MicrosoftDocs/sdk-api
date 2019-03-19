@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDeskBar.GetClient
-title: IDeskBar::GetClient
+title: IDeskBar::GetClient (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the client object.
 old-location: shell\IDeskBar_GetClient.htm

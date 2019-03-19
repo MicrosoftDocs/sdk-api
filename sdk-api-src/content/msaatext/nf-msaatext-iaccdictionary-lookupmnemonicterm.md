@@ -1,6 +1,6 @@
 ---
 UID: NF:msaatext.IAccDictionary.LookupMnemonicTerm
-title: IAccDictionary::LookupMnemonicTerm
+title: IAccDictionary::LookupMnemonicTerm (msaatext.h)
 author: windows-sdk-content
 description: Clients call the IAccDictionary::LookupMnemonicTerm method to find the property for a given mnemonic string.
 old-location: winauto\iaccdictionary_iaccdictionary__lookupmnemonicterm.htm

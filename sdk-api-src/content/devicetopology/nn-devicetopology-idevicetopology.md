@@ -1,6 +1,6 @@
 ---
 UID: NN:devicetopology.IDeviceTopology
-title: IDeviceTopology
+title: IDeviceTopology (devicetopology.h)
 author: windows-sdk-content
 description: The IDeviceTopology interface provides access to the topology of an audio device.
 old-location: coreaudio\idevicetopology.htm

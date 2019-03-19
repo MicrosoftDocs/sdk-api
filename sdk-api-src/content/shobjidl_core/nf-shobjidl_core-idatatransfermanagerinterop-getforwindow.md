@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDataTransferManagerInterop.GetForWindow
-title: IDataTransferManagerInterop::GetForWindow
+title: IDataTransferManagerInterop::GetForWindow (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the DataTransferManager instance for the specified window.
 old-location: shell\idatatransfermanagerinterop_getforwindow.htm

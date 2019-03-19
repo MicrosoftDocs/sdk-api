@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._COLORINFO
-title: COLORINFO
+title: COLORINFO (winddi.h)
 author: windows-sdk-content
 description: The COLORINFO structure defines a device's colors in CIE coordinate space.
 old-location: display\colorinfo.htm

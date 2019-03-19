@@ -1,6 +1,6 @@
 ---
 UID: NF:uxtheme.EnableThemeDialogTexture
-title: EnableThemeDialogTexture function
+title: EnableThemeDialogTexture function (uxtheme.h)
 author: windows-sdk-content
 description: Enables or disables the visual style of the background of a dialog window.
 old-location: controls\EnableThemeDialogTexture.htm

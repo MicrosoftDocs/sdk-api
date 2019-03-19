@@ -1,6 +1,6 @@
 ---
 UID: NF:vswriter.IVssWMDependency.GetLogicalPath
-title: IVssWMDependency::GetLogicalPath
+title: IVssWMDependency::GetLogicalPath (vswriter.h)
 author: windows-sdk-content
 description: The GetLogicalPath method retrieves the logical path of a component that the current component depends on in explicit writer-component dependency.
 old-location: base\ivsswmdependency_getlogicalpath.htm

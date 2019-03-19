@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSampleGrabberSinkCallback
-title: IMFSampleGrabberSinkCallback
+title: IMFSampleGrabberSinkCallback (mfidl.h)
 author: windows-sdk-content
 description: Callback interface to get media data from the sample-grabber sink.
 old-location: mf\imfsamplegrabbersinkcallback.htm

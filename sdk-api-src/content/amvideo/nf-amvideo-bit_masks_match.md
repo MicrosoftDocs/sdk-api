@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.BIT_MASKS_MATCH
-title: BIT_MASKS_MATCH macro
+title: BIT_MASKS_MATCH macro (amvideo.h)
 author: windows-sdk-content
 description: The BIT_MASKS_MATCH macro compares the color masks for two VIDEOINFO structures.
 old-location: dshow\bit_masks_match.htm

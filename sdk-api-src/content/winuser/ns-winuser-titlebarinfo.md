@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagTITLEBARINFO
-title: TITLEBARINFO
+title: TITLEBARINFO (winuser.h)
 author: windows-sdk-content
 description: Contains title bar information.
 old-location: winmsg\titlebarinfo.htm

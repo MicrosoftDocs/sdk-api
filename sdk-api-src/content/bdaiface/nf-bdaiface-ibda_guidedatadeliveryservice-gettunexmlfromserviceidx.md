@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx
-title: IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx
+title: IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx (bdaiface.h)
 author: windows-sdk-content
 description: Converts a service identifier into an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_gettunexmlfromserviceidx.htm

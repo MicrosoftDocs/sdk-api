@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.EndEnumeration
-title: IWbemClassObject::EndEnumeration
+title: IWbemClassObject::EndEnumeration (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemClassObject::EndEnumeration method terminates an enumeration sequence started with IWbemClassObject::BeginEnumeration.
 old-location: wmi\iwbemclassobject_endenumeration.htm

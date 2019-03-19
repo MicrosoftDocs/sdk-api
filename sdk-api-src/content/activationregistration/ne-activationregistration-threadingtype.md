@@ -1,6 +1,6 @@
 ---
 UID: NE:activationregistration.ThreadingType
-title: ThreadingType
+title: ThreadingType (activationregistration.h)
 author: windows-sdk-content
 description: Represents the apartment threading model to use for activating an in-process server.
 old-location: winrt\threadingtype.htm

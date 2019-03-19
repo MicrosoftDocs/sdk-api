@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.NextAsync
-title: IEnumWbemClassObject::NextAsync
+title: IEnumWbemClassObject::NextAsync (wbemcli.h)
 author: windows-sdk-content
 description: Use the NextAsync method when a controlled asynchronous retrieval of objects to a sink is required.
 old-location: wmi\ienumwbemclassobject_nextasync.htm

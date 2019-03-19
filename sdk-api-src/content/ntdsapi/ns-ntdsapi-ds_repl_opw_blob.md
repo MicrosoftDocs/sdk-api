@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OPW_BLOB
-title: DS_REPL_OPW_BLOB
+title: DS_REPL_OPW_BLOB (ntdsapi.h)
 author: windows-sdk-content
 description: The DS_REPL_OPW_BLOB structure describes a replication task currently executing or pending execution.
 old-location: ad\ds_repl_opw_blob.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDateTime
-title: MI_SubscriptionDeliveryOptions_GetDateTime function
+title: MI_SubscriptionDeliveryOptions_GetDateTime function (mi.h)
 author: windows-sdk-content
 description: Gets a previously set datetime option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdatetime.htm

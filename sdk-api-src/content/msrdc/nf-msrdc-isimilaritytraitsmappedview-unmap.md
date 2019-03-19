@@ -1,6 +1,6 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Unmap
-title: ISimilarityTraitsMappedView::Unmap
+title: ISimilarityTraitsMappedView::Unmap (msrdc.h)
 author: windows-sdk-content
 description: Unmaps a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_unmap.htm

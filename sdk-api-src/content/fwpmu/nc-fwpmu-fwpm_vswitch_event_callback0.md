@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpmu.FWPM_VSWITCH_EVENT_CALLBACK0
-title: FWPM_VSWITCH_EVENT_CALLBACK0
+title: FWPM_VSWITCH_EVENT_CALLBACK0 (fwpmu.h)
 author: windows-sdk-content
 description: Is used to add custom behavior to the vSwitch event subscription process.
 old-location: fwp\fwpm_vswitch_event_callback0.htm

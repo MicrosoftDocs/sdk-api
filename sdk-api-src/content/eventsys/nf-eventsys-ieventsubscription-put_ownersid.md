@@ -1,6 +1,6 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_OwnerSID
-title: IEventSubscription::put_OwnerSID
+title: IEventSubscription::put_OwnerSID (eventsys.h)
 author: windows-sdk-content
 description: The security ID of the subscription's creator.
 old-location: cos\ieventsubscription_ownersid.htm

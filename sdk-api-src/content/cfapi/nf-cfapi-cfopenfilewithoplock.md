@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfOpenFileWithOplock
-title: CfOpenFileWithOplock function
+title: CfOpenFileWithOplock function (cfapi.h)
 author: windows-sdk-content
 description: Opens an asynchronous opaque handle to a file or directory (for both normal and placeholder files) and sets up a proper oplock on it based on the open flags.
 old-location: cloudapi\cfopenfilewithoplock.htm

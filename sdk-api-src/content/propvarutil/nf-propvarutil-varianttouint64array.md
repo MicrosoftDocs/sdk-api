@@ -1,6 +1,6 @@
 ---
 UID: NF:propvarutil.VariantToUInt64Array
-title: VariantToUInt64Array function
+title: VariantToUInt64Array function (propvarutil.h)
 author: windows-sdk-content
 description: Extracts data from a vector structure into an unsigned Int64 array.
 old-location: properties\VariantToUInt64Array.htm

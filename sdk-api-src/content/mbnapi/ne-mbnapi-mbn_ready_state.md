@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_READY_STATE
-title: MBN_READY_STATE
+title: MBN_READY_STATE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_READY_STATE enumerated type contains values that indicate the readiness of a Mobile Broadband device to engage in cellular network traffic operations.
 old-location: mbn\mbn_ready_state.htm

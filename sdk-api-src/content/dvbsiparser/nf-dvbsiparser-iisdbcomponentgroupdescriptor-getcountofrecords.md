@@ -1,6 +1,6 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetCountOfRecords
-title: IIsdbComponentGroupDescriptor::GetCountOfRecords
+title: IIsdbComponentGroupDescriptor::GetCountOfRecords (dvbsiparser.h)
 author: windows-sdk-content
 description: Gets the number of component records in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor_getcountofrecords.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:certenroll.IX509Enrollment
-title: IX509Enrollment
+title: IX509Enrollment (certenroll.h)
 author: windows-sdk-content
 description: Represents the top level object and enables you to enroll in a certificate hierarchy and install a certificate response.
 old-location: security\ix509enrollment.htm

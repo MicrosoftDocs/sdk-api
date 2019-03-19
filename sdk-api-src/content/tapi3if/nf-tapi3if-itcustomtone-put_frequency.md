@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCustomTone.put_Frequency
-title: ITCustomTone::put_Frequency
+title: ITCustomTone::put_Frequency (tapi3if.h)
 author: windows-sdk-content
 description: The put_Frequency method sets the frequency of the tone component to generate.
 old-location: tapi3\itcustomtone_put_frequency.htm

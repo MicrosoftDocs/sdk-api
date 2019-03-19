@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsOMPackageWriter3D.SetModelPrintTicket
-title: IXpsOMPackageWriter3D::SetModelPrintTicket
+title: IXpsOMPackageWriter3D::SetModelPrintTicket (xpsobjectmodel_2.h)
 author: windows-sdk-content
 description: Creates a print ticket with the specified part.
 old-location: xps\ixpsompackagewriter3d_setmodelprintticket.htm

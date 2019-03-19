@@ -1,6 +1,6 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0003
-title: AutoPathFormat
+title: AutoPathFormat (pla.h)
 author: windows-sdk-content
 description: Defines how to decorate the file name or subdirectory name.
 old-location: pla\autopathformat.htm

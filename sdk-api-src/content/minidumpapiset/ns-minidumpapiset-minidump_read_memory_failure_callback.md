@@ -1,6 +1,6 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
-title: MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
+title: MINIDUMP_READ_MEMORY_FAILURE_CALLBACK (minidumpapiset.h)
 author: windows-sdk-content
 description: Contains information about a failed memory read operation.
 old-location: base\minidump_read_memory_failure_callback.htm

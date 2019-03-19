@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.ExportTemplates
-title: IFsrmFileScreenTemplateManager::ExportTemplates
+title: IFsrmFileScreenTemplateManager::ExportTemplates (fsrmscreen.h)
 author: windows-sdk-content
 description: Exports the templates as an XML string.
 old-location: fsrm\ifsrmfilescreentemplatemanager_exporttemplates.htm

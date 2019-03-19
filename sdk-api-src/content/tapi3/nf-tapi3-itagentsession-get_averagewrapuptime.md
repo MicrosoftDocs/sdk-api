@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_AverageWrapUpTime
-title: ITAgentSession::get_AverageWrapUpTime
+title: ITAgentSession::get_AverageWrapUpTime (tapi3.h)
 author: windows-sdk-content
 description: The get_AverageWrapUpTime method gets the average time (in seconds) per ACD call spent in wrap-up (after-call work) during this agent session.
 old-location: tapi3\itagentsession_get_averagewrapuptime.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerGetMethods
-title: EapHostPeerGetMethods function
+title: EapHostPeerGetMethods function (eaphostpeerconfigapis.h)
 author: windows-sdk-content
 description: Enumerates all EAP methods installed and available for use, including legacy EAP Methods.
 old-location: eaphost\eaphostpeergetmethods.htm

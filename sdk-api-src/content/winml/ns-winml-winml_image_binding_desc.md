@@ -1,6 +1,6 @@
 ---
 UID: NS:winml.WINML_IMAGE_BINDING_DESC
-title: WINML_IMAGE_BINDING_DESC
+title: WINML_IMAGE_BINDING_DESC (winml.h)
 author: windows-sdk-content
 description: Contains properties for the binding of the type image.
 old-location: machinelearning\winml_image_binding_desc.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IEnumConnections.Reset
-title: IEnumConnections::Reset
+title: IEnumConnections::Reset (ocidl.h)
 author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumconnections_reset.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.RemoveAll
-title: IDiskQuotaUserBatch::RemoveAll
+title: IDiskQuotaUserBatch::RemoveAll (dskquota.h)
 author: windows-sdk-content
 description: Removes all IDiskQuotaUser pointers from the batch list.
 old-location: fs\idiskquotauserbatch_removeall.htm

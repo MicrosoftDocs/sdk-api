@@ -1,6 +1,6 @@
 ---
 UID: NF:robuffer.IBufferByteAccess.Buffer
-title: IBufferByteAccess::Buffer
+title: IBufferByteAccess::Buffer (robuffer.h)
 author: windows-sdk-content
 description: Gets the array of bytes in the buffer.
 old-location: winrt\ibufferbyteaccess_buffer.htm

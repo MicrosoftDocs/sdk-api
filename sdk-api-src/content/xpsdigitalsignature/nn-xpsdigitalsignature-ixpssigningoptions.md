@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSigningOptions
-title: IXpsSigningOptions
+title: IXpsSigningOptions (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Provides access to the individual signing options that are used by new signatures.
 old-location: xps\ixpssigningoptions.htm

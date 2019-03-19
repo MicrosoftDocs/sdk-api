@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetListStart
-title: ITextPara::SetListStart
+title: ITextPara::SetListStart (tom.h)
 author: windows-sdk-content
 description: Sets the starting number or Unicode value for a numbered list.
 old-location: controls\ITextPara_SetListStart.htm

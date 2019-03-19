@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_SecurityDescriptor
-title: IRegistrationInfo::put_SecurityDescriptor
+title: IRegistrationInfo::put_SecurityDescriptor (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets the security descriptor of the task.
 old-location: taskschd\iregistrationinfo_securitydescriptor.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpeg2structs._DSMCC_ELEMENT
-title: DSMCC_ELEMENT
+title: DSMCC_ELEMENT (mpeg2structs.h)
 author: windows-sdk-content
 description: The DSMCC_ELEMENT structure contains information from a DSM-CC element.
 old-location: mstv\dsmcc_element.htm

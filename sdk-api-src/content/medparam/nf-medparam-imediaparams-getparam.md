@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParams.GetParam
-title: IMediaParams::GetParam
+title: IMediaParams::GetParam (medparam.h)
 author: windows-sdk-content
 description: The GetParam method retrieves the current value of the specified parameter. If the parameter is currently within an envelope segment, the returned value is the value on the most recently processed sample.
 old-location: dshow\imediaparams_getparam.htm

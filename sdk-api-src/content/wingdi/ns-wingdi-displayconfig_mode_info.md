@@ -1,6 +1,6 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_MODE_INFO
-title: DISPLAYCONFIG_MODE_INFO
+title: DISPLAYCONFIG_MODE_INFO (wingdi.h)
 author: windows-sdk-content
 description: The DISPLAYCONFIG_MODE_INFO structure contains either source mode or target mode information.
 old-location: display\displayconfig_mode_info.htm

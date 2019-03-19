@@ -1,6 +1,6 @@
 ---
 UID: NE:cfapi.CF_OPERATION_TYPE
-title: CF_OPERATION_TYPE
+title: CF_OPERATION_TYPE (cfapi.h)
 author: windows-sdk-content
 description: The types of operations that can be performed on placeholder files and directories.
 old-location: cloudapi\cf_operation_type.htm

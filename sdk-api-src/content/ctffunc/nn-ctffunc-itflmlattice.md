@@ -1,6 +1,6 @@
 ---
 UID: NN:ctffunc.ITfLMLattice
-title: ITfLMLattice
+title: ITfLMLattice (ctffunc.h)
 author: windows-sdk-content
 description: The ITfLMLattice interface is implemented by the speech text service to provide information about lattice element properties and is used by a client (application or other text service).
 old-location: tsf\itflmlattice.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMSG_ENVELOPED_ENCODE_INFO
-title: CMSG_ENVELOPED_ENCODE_INFO
+title: CMSG_ENVELOPED_ENCODE_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains information needed to encode an enveloped message. It is passed to CryptMsgOpenToEncode if the dwMsgType parameter is CMSG_ENVELOPED.
 old-location: security\cmsg_enveloped_encode_info.htm

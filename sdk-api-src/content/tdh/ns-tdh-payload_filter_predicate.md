@@ -1,6 +1,6 @@
 ---
 UID: NS:tdh._PAYLOAD_FILTER_PREDICATE
-title: PAYLOAD_FILTER_PREDICATE
+title: PAYLOAD_FILTER_PREDICATE (tdh.h)
 author: windows-sdk-content
 description: Defines an event payload filter predicate that describes how to filter on a single field in a trace session.
 old-location: etw\payload_filter_predicate.htm

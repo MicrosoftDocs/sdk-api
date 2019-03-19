@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.BSTR_UserMarshal64
-title: BSTR_UserMarshal64 function
+title: BSTR_UserMarshal64 function (oaidl.h)
 author: windows-sdk-content
 description: Marshals a BSTR object into the RPC buffer.
 old-location: automat\bstr_usermarshal64.htm

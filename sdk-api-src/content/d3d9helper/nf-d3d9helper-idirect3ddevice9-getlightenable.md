@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetLightEnable
-title: IDirect3DDevice9::GetLightEnable
+title: IDirect3DDevice9::GetLightEnable (d3d9helper.h)
 author: windows-sdk-content
 description: Retrieves the activity status - enabled or disabled - for a set of lighting parameters within a device.
 old-location: direct3d9\idirect3ddevice9__getlightenable.htm

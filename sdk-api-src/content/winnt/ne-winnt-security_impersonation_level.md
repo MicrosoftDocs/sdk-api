@@ -1,6 +1,6 @@
 ---
 UID: NE:winnt._SECURITY_IMPERSONATION_LEVEL
-title: SECURITY_IMPERSONATION_LEVEL
+title: SECURITY_IMPERSONATION_LEVEL (winnt.h)
 author: windows-sdk-content
 description: Contains values that specify security impersonation levels. Security impersonation levels govern the degree to which a server process can act on behalf of a client process.
 old-location: security\security_impersonation_level.htm

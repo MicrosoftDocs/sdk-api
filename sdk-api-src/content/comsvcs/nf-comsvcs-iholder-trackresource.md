@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IHolder.TrackResource
-title: IHolder::TrackResource
+title: IHolder::TrackResource (comsvcs.h)
 author: windows-sdk-content
 description: Tracks the resource.
 old-location: cos\iholder_trackresource.htm

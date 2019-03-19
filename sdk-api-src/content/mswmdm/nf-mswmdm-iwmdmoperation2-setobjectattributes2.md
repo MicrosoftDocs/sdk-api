@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMOperation2.SetObjectAttributes2
-title: IWMDMOperation2::SetObjectAttributes2
+title: IWMDMOperation2::SetObjectAttributes2 (mswmdm.h)
 author: windows-sdk-content
 description: The SetObjectAttributes2 method sets attributes of files or storages. This method is currently not called by Windows Media Device Manager.
 old-location: wmdm\iwmdmoperation2_setobjectattributes2.htm

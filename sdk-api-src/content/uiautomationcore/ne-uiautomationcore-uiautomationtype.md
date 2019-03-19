@@ -1,6 +1,6 @@
 ---
 UID: NE:uiautomationcore.UIAutomationType
-title: UIAutomationType
+title: UIAutomationType (uiautomationcore.h)
 author: windows-sdk-content
 description: Contains values used to indicate Microsoft UI Automation data types.
 old-location: winauto\uiauto_UIAutomationTypeEnum.htm

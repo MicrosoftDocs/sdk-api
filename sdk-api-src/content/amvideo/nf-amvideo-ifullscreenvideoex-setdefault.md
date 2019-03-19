@@ -1,6 +1,6 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetDefault
-title: IFullScreenVideoEx::SetDefault
+title: IFullScreenVideoEx::SetDefault (amvideo.h)
 author: windows-sdk-content
 description: The SetDefault method saves the current settings.
 old-location: dshow\ifullscreenvideoex_setdefault.htm

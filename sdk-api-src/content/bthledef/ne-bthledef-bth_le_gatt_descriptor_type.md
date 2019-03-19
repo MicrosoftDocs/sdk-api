@@ -1,6 +1,6 @@
 ---
 UID: NE:bthledef._BTH_LE_GATT_DESCRIPTOR_TYPE
-title: BTH_LE_GATT_DESCRIPTOR_TYPE
+title: BTH_LE_GATT_DESCRIPTOR_TYPE (bthledef.h)
 author: windows-sdk-content
 description: The BTH_LE_GATT_DESCRIPTOR_TYPE enumeration describes the different types of Bluetooth LE generic attributes (GATT).
 old-location: bltooth\bth_le_gatt_descriptor_type.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11Asynchronous
-title: ID3D11Asynchronous
+title: ID3D11Asynchronous (d3d11.h)
 author: windows-sdk-content
 description: This interface encapsulates methods for retrieving data from the GPU asynchronously.
 old-location: direct3d11\id3d11asynchronous.htm

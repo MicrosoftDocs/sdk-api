@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometry
-title: IXpsOMPath::GetGeometry
+title: IXpsOMPath::GetGeometry (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets a pointer to the path's IXpsOMGeometry interface, which describes the resolved fill area for this path.
 old-location: xps\ixpsompath_getgeometry.htm

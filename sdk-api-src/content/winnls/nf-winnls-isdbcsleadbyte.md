@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.IsDBCSLeadByte
-title: IsDBCSLeadByte function
+title: IsDBCSLeadByte function (winnls.h)
 author: windows-sdk-content
 description: Determines if a specified character is a lead byte for the system default Windows ANSI code page (CP_ACP). A lead byte is the first byte of a two-byte character in a double-byte character set (DBCS) for the code page.
 old-location: intl\isdbcsleadbyte.htm

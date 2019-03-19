@@ -1,6 +1,6 @@
 ---
 UID: NN:objidlbase.IEnumContextProps
-title: IEnumContextProps
+title: IEnumContextProps (objidlbase.h)
 author: windows-sdk-content
 description: Provides a mechanism for enumerating the context properties associated with a COM+ object context.
 old-location: com\ienumcontextprops.htm

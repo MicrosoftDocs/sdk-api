@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.SetOutputFileName
-title: ICaptureGraphBuilder::SetOutputFileName
+title: ICaptureGraphBuilder::SetOutputFileName (strmif.h)
 author: windows-sdk-content
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Creates the rendering section of the filter graph, which will save bits to disk with the specified file name.
 old-location: dshow\icapturegraphbuilder_setoutputfilename.htm

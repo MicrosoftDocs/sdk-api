@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_CHANGE0_
-title: FWPM_PROVIDER_CONTEXT_CHANGE0
+title: FWPM_PROVIDER_CONTEXT_CHANGE0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Change notification dispatched to subscribers.
 old-location: fwp\fwpm_provider_context_change0_struct.htm

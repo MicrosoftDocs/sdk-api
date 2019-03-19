@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_ResultingImageType
-title: IRawCDImageCreator::put_ResultingImageType
+title: IRawCDImageCreator::put_ResultingImageType (imapi2.h)
 author: windows-sdk-content
 description: Sets the value that defines the type of image file that will be generated.
 old-location: imapi\irawcdimagecreator_put_resultingimagetype.htm

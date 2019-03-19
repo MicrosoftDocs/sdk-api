@@ -1,6 +1,6 @@
 ---
 UID: NF:devicetopology.IAudioPeakMeter.GetLevel
-title: IAudioPeakMeter::GetLevel
+title: IAudioPeakMeter::GetLevel (devicetopology.h)
 author: windows-sdk-content
 description: The GetLevel method gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.
 old-location: coreaudio\iaudiopeakmeter_getlevel.htm

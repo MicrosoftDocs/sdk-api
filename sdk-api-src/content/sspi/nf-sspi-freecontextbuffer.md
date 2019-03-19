@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.FreeContextBuffer
-title: FreeContextBuffer function
+title: FreeContextBuffer function (sspi.h)
 author: windows-sdk-content
 description: Enables callers of security package functions to free memory buffers allocated by the security package.
 old-location: security\freecontextbuffer.htm

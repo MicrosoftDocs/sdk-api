@@ -1,6 +1,6 @@
 ---
 UID: NS:winioctl._FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
-title: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
+title: FSCTL_SET_INTEGRITY_INFORMATION_BUFFER (winioctl.h)
 author: windows-sdk-content
 description: Input buffer passed with the FSCTL_SET_INTEGRITY_INFORMATION control code.
 old-location: fs\fsctl_set_integrity_information_buffer.htm

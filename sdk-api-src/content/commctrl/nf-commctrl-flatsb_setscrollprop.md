@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.FlatSB_SetScrollProp
-title: FlatSB_SetScrollProp function
+title: FlatSB_SetScrollProp function (commctrl.h)
 author: windows-sdk-content
 description: Sets the properties for a flat scroll bar.
 old-location: controls\FlatSB_SetScrollProp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:cfgmgr32.IO_Des_s
-title: IO_DES
+title: IO_DES (cfgmgr32.h)
 author: windows-sdk-content
 description: The IO_DES structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\io_des.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:sspi.SspiPrepareForCredWrite
-title: SspiPrepareForCredWrite function
+title: SspiPrepareForCredWrite function (sspi.h)
 author: windows-sdk-content
 description: Generates values from an identity structure that can be passed as the values of parameters in a call to the CredWrite function.
 old-location: security\sspiprepareforcredwrite.htm

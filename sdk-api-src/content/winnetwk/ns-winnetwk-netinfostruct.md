@@ -1,6 +1,6 @@
 ---
 UID: NS:winnetwk._NETINFOSTRUCT
-title: NETINFOSTRUCT
+title: NETINFOSTRUCT (winnetwk.h)
 author: windows-sdk-content
 description: Contains information describing the network provider returned by the WNetGetNetworkInformation function.
 old-location: wnet\netinfostruct_str.htm

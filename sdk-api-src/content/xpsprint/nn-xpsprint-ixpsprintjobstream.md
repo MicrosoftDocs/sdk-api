@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsprint.IXpsPrintJobStream
-title: IXpsPrintJobStream
+title: IXpsPrintJobStream (xpsprint.h)
 author: windows-sdk-content
 description: A write-only stream interface into which an application writes print job data.
 old-location: gdi\ixpsprintjobstream.htm

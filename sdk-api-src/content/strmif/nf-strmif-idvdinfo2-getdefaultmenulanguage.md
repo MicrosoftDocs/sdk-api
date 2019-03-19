@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDefaultMenuLanguage
-title: IDvdInfo2::GetDefaultMenuLanguage
+title: IDvdInfo2::GetDefaultMenuLanguage (strmif.h)
 author: windows-sdk-content
 description: The GetDefaultMenuLanguage method retrieves the default menu language.
 old-location: dshow\idvdinfo2_getdefaultmenulanguage.htm

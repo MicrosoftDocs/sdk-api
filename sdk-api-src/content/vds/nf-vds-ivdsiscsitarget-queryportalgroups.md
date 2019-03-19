@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.QueryPortalGroups
-title: IVdsIscsiTarget::QueryPortalGroups
+title: IVdsIscsiTarget::QueryPortalGroups (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration of the iSCSI portal groups within the target.
 old-location: base\ivdsiscsitarget_queryportalgroups.htm

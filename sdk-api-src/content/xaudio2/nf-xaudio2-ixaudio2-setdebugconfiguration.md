@@ -1,6 +1,6 @@
 ---
 UID: NF:xaudio2.IXAudio2.SetDebugConfiguration
-title: IXAudio2::SetDebugConfiguration
+title: IXAudio2::SetDebugConfiguration (xaudio2.h)
 author: windows-sdk-content
 description: Changes global debug logging options for XAudio2.
 old-location: xaudio2\ixaudio2_interface_setdebugconfiguration.htm

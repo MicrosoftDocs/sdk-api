@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_SessionStartBlock
-title: IFileSystemImage::get_SessionStartBlock
+title: IFileSystemImage::get_SessionStartBlock (imapi2fs.h)
 author: windows-sdk-content
 description: Retrieves the starting block address for the recording session.
 old-location: imapi\ifilesystemimage_get_sessionstartblock.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._CLIPOBJ
-title: CLIPOBJ
+title: CLIPOBJ (winddi.h)
 author: windows-sdk-content
 description: The CLIPOBJ structure describes the clip region used when drawing.
 old-location: display\clipobj.htm

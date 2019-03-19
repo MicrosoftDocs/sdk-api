@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_ProcessName
-title: IX509AttributeClientId::get_ProcessName
+title: IX509AttributeClientId::get_ProcessName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the name of the application that generated the request.
 old-location: security\ix509attributeclientid_processname_property.htm

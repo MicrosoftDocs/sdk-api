@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.GetGestureStatus
-title: IInkPicture::GetGestureStatus
+title: IInkPicture::GetGestureStatus (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates whether the InkPicture control has interest in a particular application gesture.
 old-location: tablet\inkpicture_getgesturestatus.htm

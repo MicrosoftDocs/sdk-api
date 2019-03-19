@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabParseContact
-title: PeerCollabParseContact function
+title: PeerCollabParseContact function (p2p.h)
 author: windows-sdk-content
 description: Parses a Unicode string buffer containing contact XML data into a PEER_CONTACT data structure.
 old-location: p2p\peercollabparsecontact.htm

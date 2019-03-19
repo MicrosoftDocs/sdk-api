@@ -1,6 +1,6 @@
 ---
 UID: NN:shobjidl_core.IShellMenuCallback
-title: IShellMenuCallback
+title: IShellMenuCallback (shobjidl_core.h)
 author: windows-sdk-content
 description: A callback interface that exposes a method that receives messages from a menu band.
 old-location: shell\IShellMenuCallback.htm

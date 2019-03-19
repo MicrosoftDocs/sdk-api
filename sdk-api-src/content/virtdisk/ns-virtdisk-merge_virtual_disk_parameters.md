@@ -1,6 +1,6 @@
 ---
 UID: NS:virtdisk._MERGE_VIRTUAL_DISK_PARAMETERS
-title: MERGE_VIRTUAL_DISK_PARAMETERS
+title: MERGE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
 author: windows-sdk-content
 description: Contains virtual hard disk (VHD) merge request parameters.
 old-location: vhd\merge_virtual_disk_parameters.htm

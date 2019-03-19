@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhGetPropertySize
-title: TdhGetPropertySize function
+title: TdhGetPropertySize function (tdh.h)
 author: windows-sdk-content
 description: Retrieves the size of one or more property values in the event data.
 old-location: etw\tdhgetpropertysize_func.htm

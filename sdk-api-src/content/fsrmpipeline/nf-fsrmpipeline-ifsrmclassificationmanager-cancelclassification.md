@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CancelClassification
-title: IFsrmClassificationManager::CancelClassification
+title: IFsrmClassificationManager::CancelClassification (fsrmpipeline.h)
 author: windows-sdk-content
 description: Cancels classification if it is running.
 old-location: fsrm\ifsrmclassificationmanager_cancelclassification.htm

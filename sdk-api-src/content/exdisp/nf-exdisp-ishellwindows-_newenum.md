@@ -1,6 +1,6 @@
 ---
 UID: NF:exdisp.IShellWindows._NewEnum
-title: IShellWindows::_NewEnum
+title: IShellWindows::_NewEnum (exdisp.h)
 author: windows-sdk-content
 description: Retrieves an enumerator for the collection of Shell windows.
 old-location: shell\IShellWindows_NewEnum.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector3TransformStream
-title: XMVector3TransformStream function
+title: XMVector3TransformStream function (directxmath.h)
 author: windows-sdk-content
 description: Transforms a stream of 3D vectors by a given matrix.
 old-location: dxmath\xmvector3transformstream.htm

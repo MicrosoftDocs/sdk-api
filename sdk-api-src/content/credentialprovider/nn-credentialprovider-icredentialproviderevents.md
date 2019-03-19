@@ -1,6 +1,6 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderEvents
-title: ICredentialProviderEvents
+title: ICredentialProviderEvents (credentialprovider.h)
 author: windows-sdk-content
 description: Provides an asynchronous callback mechanism used by a credential provider to notify it of changes in the list of credentials or their fields.
 old-location: shell\ICredentialProviderEvents.htm

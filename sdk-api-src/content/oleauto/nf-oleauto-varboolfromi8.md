@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarBoolFromI8
-title: VarBoolFromI8 function
+title: VarBoolFromI8 function (oleauto.h)
 author: windows-sdk-content
 description: Converts an 8-byte integer value to a Boolean value.
 old-location: automat\varboolfromi8.htm

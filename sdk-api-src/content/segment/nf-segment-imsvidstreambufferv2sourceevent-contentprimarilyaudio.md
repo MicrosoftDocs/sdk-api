@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.ContentPrimarilyAudio
-title: IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
+title: IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio (segment.h)
 author: windows-sdk-content
 description: Fired when an SBE2 source filter receives a STREAMBUFFER_EC_PRIMARY_AUDIO event, which is fired through the IMSVidStreamBufferSourceEvent3 interface, and indicates that SBE is processing primarily audio data.
 old-location: mstv\imsvidstreambufferv2sourceevent_contentprimarilyaudio.htm

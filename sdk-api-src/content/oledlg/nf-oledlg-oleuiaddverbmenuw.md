@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIAddVerbMenuW
-title: OleUIAddVerbMenuW function
+title: OleUIAddVerbMenuW function (oledlg.h)
 author: windows-sdk-content
 description: Adds the Verb menu for the specified object to the specified menu.
 old-location: com\oleuiaddverbmenu.htm

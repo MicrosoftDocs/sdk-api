@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.PowerWriteDescription
-title: PowerWriteDescription function
+title: PowerWriteDescription function (powrprof.h)
 author: windows-sdk-content
 description: Sets the description for the specified power setting, subgroup, or scheme.
 old-location: base\powerwritedescription.htm

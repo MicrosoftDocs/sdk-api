@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.GetPropertyValue
-title: IInkRecognitionAlternate::GetPropertyValue
+title: IInkRecognitionAlternate::GetPropertyValue (msinkaut.h)
 author: windows-sdk-content
 description: Retrieves the value of a specified property of the alternate.
 old-location: tablet\iinkrecognitionalternate_getpropertyvalue.htm

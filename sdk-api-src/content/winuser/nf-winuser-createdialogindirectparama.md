@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateDialogIndirectParamA
-title: CreateDialogIndirectParamA function
+title: CreateDialogIndirectParamA function (winuser.h)
 author: windows-sdk-content
 description: Creates a modeless dialog box from a dialog box template in memory.
 old-location: dlgbox\createdialogindirectparam.htm

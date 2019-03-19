@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.SetGfxState
-title: IHardwareAudioEngineBase::SetGfxState
+title: IHardwareAudioEngineBase::SetGfxState (audioengineendpoint.h)
 author: windows-sdk-content
 description: The SetGfxState method sets the GFX state of the offloaded audio stream.
 old-location: coreaudio\ihardwareaudioenginebase_setgfxstate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_UserActivityService.GetUserActivityInterval
-title: IBDA_UserActivityService::GetUserActivityInterval
+title: IBDA_UserActivityService::GetUserActivityInterval (bdaiface.h)
 author: windows-sdk-content
 description: Gets the interval that a Media Sink Device (MSD) in a Protected Broadcast Driver Architecture (PBDA) media graph waits before calling the UserActivityDetected method after the MSD detects user activity.
 old-location: mstv\ibda_useractivityservice_getuseractivityinterval.htm

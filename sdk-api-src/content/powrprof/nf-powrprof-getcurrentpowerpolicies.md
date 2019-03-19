@@ -1,6 +1,6 @@
 ---
 UID: NF:powrprof.GetCurrentPowerPolicies
-title: GetCurrentPowerPolicies function
+title: GetCurrentPowerPolicies function (powrprof.h)
 author: windows-sdk-content
 description: Retrieves the current system power policy settings.
 old-location: base\getcurrentpowerpolicies.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplication3.DeleteRoleDefinition
-title: IAzApplication3::DeleteRoleDefinition
+title: IAzApplication3::DeleteRoleDefinition (azroles.h)
 author: windows-sdk-content
 description: Removes the specified IAzRoleDefinition object from the IAzApplication3 object.
 old-location: security\iazapplication3_deleteroledefinition.htm

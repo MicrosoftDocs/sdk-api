@@ -1,6 +1,6 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.GetSnapshotProperties
-title: IVssSoftwareSnapshotProvider::GetSnapshotProperties
+title: IVssSoftwareSnapshotProvider::GetSnapshotProperties (vsprov.h)
 author: windows-sdk-content
 description: Gets the properties of the specified shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_getsnapshotproperties.htm

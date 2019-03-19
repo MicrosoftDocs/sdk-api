@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.PollForPotentialSupportedPatterns
-title: IUIAutomation::PollForPotentialSupportedPatterns
+title: IUIAutomation::PollForPotentialSupportedPatterns (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the control patterns that might be supported on a UI Automation element.
 old-location: winauto\uiauto_IUIAutomation_PollForPotentialSupportedPatterns.htm

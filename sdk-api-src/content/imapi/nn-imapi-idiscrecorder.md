@@ -1,6 +1,6 @@
 ---
 UID: NN:imapi.IDiscRecorder
-title: IDiscRecorder
+title: IDiscRecorder (imapi.h)
 author: windows-sdk-content
 description: The IDiscRecorder interface enables access to a single disc recorder device, labeled the active disc recorder. An IMAPI object such as MSDiscMasterObj maintains an active disc recorder.
 old-location: imapi\idiscrecorder.htm

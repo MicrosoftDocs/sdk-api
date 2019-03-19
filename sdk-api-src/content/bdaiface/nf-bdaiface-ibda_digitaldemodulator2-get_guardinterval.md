@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_GuardInterval
-title: IBDA_DigitalDemodulator2::get_GuardInterval
+title: IBDA_DigitalDemodulator2::get_GuardInterval (bdaiface.h)
 author: windows-sdk-content
 description: Gets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_get_guardinterval.htm

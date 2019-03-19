@@ -1,6 +1,6 @@
 ---
 UID: NF:mfapi.MFCopyImage
-title: MFCopyImage function
+title: MFCopyImage function (mfapi.h)
 author: windows-sdk-content
 description: Copies an image or image plane from one buffer to another.
 old-location: mf\mfcopyimage.htm

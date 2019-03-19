@@ -1,6 +1,6 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetLocale
-title: IGetClusterUIInfo::GetLocale
+title: IGetClusterUIInfo::GetLocale (cluadmex.h)
 author: windows-sdk-content
 description: Returns the locale identifier to be used with property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getlocale.htm

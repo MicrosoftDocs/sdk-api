@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetToolTips
-title: ListView_GetToolTips macro
+title: ListView_GetToolTips macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the tooltip control that the list-view control uses to display tooltips. You can use this macro or send the LVM_GETTOOLTIPS message explicitly.
 old-location: controls\ListView_GetToolTips.htm

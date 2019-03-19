@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanapi._WLAN_INTERFACE_STATE
-title: WLAN_INTERFACE_STATE
+title: WLAN_INTERFACE_STATE (wlanapi.h)
 author: windows-sdk-content
 description: Indicates the state of an interface.
 old-location: nwifi\wlan_interface_state.htm

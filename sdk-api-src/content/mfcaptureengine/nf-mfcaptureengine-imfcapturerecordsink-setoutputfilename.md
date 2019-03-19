@@ -1,6 +1,6 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputFileName
-title: IMFCaptureRecordSink::SetOutputFileName
+title: IMFCaptureRecordSink::SetOutputFileName (mfcaptureengine.h)
 author: windows-sdk-content
 description: Specifies the name of the output file for the recording.
 old-location: mf\imfcapturerecordsink_setoutputfilename.htm

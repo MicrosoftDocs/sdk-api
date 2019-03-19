@@ -1,6 +1,6 @@
 ---
 UID: NF:winerror.HRESULT_FROM_WIN32
-title: HRESULT_FROM_WIN32 macro
+title: HRESULT_FROM_WIN32 macro (winerror.h)
 author: windows-sdk-content
 description: Maps a system error code to an HRESULT value.
 old-location: com\hresult_from_win32_macro.htm

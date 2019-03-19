@@ -1,6 +1,6 @@
 ---
 UID: NF:dpa_dsa.DSA_Sort
-title: DSA_Sort function
+title: DSA_Sort function (dpa_dsa.h)
 author: windows-sdk-content
 description: Sorts the items in a dynamic structure array (DSA).
 old-location: controls\DSA_Sort.htm

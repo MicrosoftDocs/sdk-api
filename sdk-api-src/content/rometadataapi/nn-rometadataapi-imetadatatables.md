@@ -1,6 +1,6 @@
 ---
 UID: NN:rometadataapi.IMetaDataTables
-title: IMetaDataTables
+title: IMetaDataTables (rometadataapi.h)
 author: windows-sdk-content
 description: Provides methods for the storage and retrieval of metadata information in tables.
 old-location: winrt\imetadatatables.htm

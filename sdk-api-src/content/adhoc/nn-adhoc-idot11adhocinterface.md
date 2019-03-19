@@ -1,6 +1,6 @@
 ---
 UID: NN:adhoc.IDot11AdHocInterface
-title: IDot11AdHocInterface
+title: IDot11AdHocInterface (adhoc.h)
 author: windows-sdk-content
 description: Represents a wireless network interface card (NIC).
 old-location: nwifi\idot11adhocinterface.htm

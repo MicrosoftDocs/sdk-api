@@ -1,6 +1,6 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceRegistration2
-title: IWorkspaceRegistration2
+title: IWorkspaceRegistration2 (workspaceruntime.h)
 author: windows-sdk-content
 description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration2.htm

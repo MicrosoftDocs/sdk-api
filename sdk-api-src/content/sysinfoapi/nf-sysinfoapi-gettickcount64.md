@@ -1,6 +1,6 @@
 ---
 UID: NF:sysinfoapi.GetTickCount64
-title: GetTickCount64 function
+title: GetTickCount64 function (sysinfoapi.h)
 author: windows-sdk-content
 description: Retrieves the number of milliseconds that have elapsed since the system was started.
 old-location: base\gettickcount64.htm

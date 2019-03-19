@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventDescZero
-title: EventDescZero function
+title: EventDescZero function (evntprov.h)
 author: windows-sdk-content
 description: Initializes an event descriptor to zero.
 old-location: etw\eventdesczero.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.GetType
-title: IDirect3DQuery9::GetType
+title: IDirect3DQuery9::GetType (d3d9helper.h)
 author: windows-sdk-content
 description: Gets the query type.
 old-location: direct3d9\idirect3dquery9__gettype.htm

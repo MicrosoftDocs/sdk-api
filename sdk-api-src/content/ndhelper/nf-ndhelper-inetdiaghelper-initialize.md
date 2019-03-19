@@ -1,6 +1,6 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Initialize
-title: INetDiagHelper::Initialize
+title: INetDiagHelper::Initialize (ndhelper.h)
 author: windows-sdk-content
 description: The Initialize method passes in attributes to the Helper Class Extension from the hypothesis. The helper class should store these parameters for use in the main diagnostics functions. This method must be called before any diagnostics function.
 old-location: ndf\inetdiaghelpe_initialize.htm

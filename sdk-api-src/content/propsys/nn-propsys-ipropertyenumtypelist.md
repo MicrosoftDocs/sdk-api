@@ -1,6 +1,6 @@
 ---
 UID: NN:propsys.IPropertyEnumTypeList
-title: IPropertyEnumTypeList
+title: IPropertyEnumTypeList (propsys.h)
 author: windows-sdk-content
 description: Exposes methods that enumerate the possible values for a property.
 old-location: properties\IPropertyEnumTypeList.htm

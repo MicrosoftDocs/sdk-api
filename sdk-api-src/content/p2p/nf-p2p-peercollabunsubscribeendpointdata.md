@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerCollabUnsubscribeEndpointData
-title: PeerCollabUnsubscribeEndpointData function
+title: PeerCollabUnsubscribeEndpointData function (p2p.h)
 author: windows-sdk-content
 description: Removes a subscription to an endpoint created with PeerCollabSubscribeEndpointData.
 old-location: p2p\peercollabunsubscribeendpointdata.htm

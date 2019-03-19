@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IEnumMediaTypes
-title: IEnumMediaTypes
+title: IEnumMediaTypes (strmif.h)
 author: windows-sdk-content
 description: The IEnumMediaTypes interface enumerates a pin's preferred media types.
 old-location: dshow\ienummediatypes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.BuildCommDCBW
-title: BuildCommDCBW function
+title: BuildCommDCBW function (winbase.h)
 author: windows-sdk-content
 description: Fills a specified DCB structure with values specified in a device-control string.
 old-location: base\buildcommdcb.htm

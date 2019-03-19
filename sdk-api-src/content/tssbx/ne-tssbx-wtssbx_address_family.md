@@ -1,6 +1,6 @@
 ---
 UID: NE:tssbx.__MIDL_IWTSSBPlugin_0003
-title: WTSSBX_ADDRESS_FAMILY
+title: WTSSBX_ADDRESS_FAMILY (tssbx.h)
 author: windows-sdk-content
 description: Contains values that indicate the address family of a network address that is being used for redirection.
 old-location: termserv\wtssbx_address_family.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.__unnamed_struct_15
-title: MCHITTESTINFO
+title: MCHITTESTINFO (commctrl.h)
 author: windows-sdk-content
 description: Carries information specific to hit-testing points for a month calendar control. This structure is used with the MCM_HITTEST message and the corresponding MonthCal_HitTest macro.
 old-location: controls\MCHITTESTINFO.htm

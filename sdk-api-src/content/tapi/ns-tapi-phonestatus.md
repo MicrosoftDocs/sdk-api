@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.phonestatus_tag
-title: PHONESTATUS
+title: PHONESTATUS (tapi.h)
 author: windows-sdk-content
 description: The PHONESTATUS structure describes the current status of a phone device. The phoneGetStatus and TSPI_phoneGetStatus functions return this structure.
 old-location: tapi2\phonestatus_str.htm

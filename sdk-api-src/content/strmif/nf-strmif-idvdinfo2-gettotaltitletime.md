@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetTotalTitleTime
-title: IDvdInfo2::GetTotalTitleTime
+title: IDvdInfo2::GetTotalTitleTime (strmif.h)
 author: windows-sdk-content
 description: The GetTotalTitleTime method retrieves the total playback time for the current title.
 old-location: dshow\idvdinfo2_gettotaltitletime.htm

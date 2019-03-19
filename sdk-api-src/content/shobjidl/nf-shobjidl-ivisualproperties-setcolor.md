@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetColor
-title: IVisualProperties::SetColor
+title: IVisualProperties::SetColor (shobjidl.h)
 author: windows-sdk-content
 description: Sets the color, as specified.
 old-location: shell\IVisualProperties_SetColor.htm

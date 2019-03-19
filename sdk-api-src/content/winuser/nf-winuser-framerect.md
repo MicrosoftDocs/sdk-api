@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.FrameRect
-title: FrameRect function
+title: FrameRect function (winuser.h)
 author: windows-sdk-content
 description: The FrameRect function draws a border around the specified rectangle by using the specified brush. The width and height of the border are always one logical unit.
 old-location: gdi\framerect.htm

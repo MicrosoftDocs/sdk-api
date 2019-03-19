@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCAsForTemplate
-title: IX509EnrollmentPolicyServer::GetCAsForTemplate
+title: IX509EnrollmentPolicyServer::GetCAsForTemplate (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a collection of certificate enrollment servers that support a specified template.
 old-location: security\ix509enrollmentpolicyserver_getcasfortemplate.htm

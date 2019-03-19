@@ -1,6 +1,6 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.QueryControllers
-title: IVdsSubSystem::QueryControllers
+title: IVdsSubSystem::QueryControllers (vdshwprv.h)
 author: windows-sdk-content
 description: Returns an object that enumerates the online and offline controllers managed by the subsystem.
 old-location: base\ivdssubsystem_querycontrollers.htm

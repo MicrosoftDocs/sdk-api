@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d10_1shader.ID3D10ShaderReflection1
-title: ID3D10ShaderReflection1
+title: ID3D10ShaderReflection1 (d3d10_1shader.h)
 author: windows-sdk-content
 description: A shader-reflection interface accesses shader information.
 old-location: direct3d10\id3d10shaderreflection1.htm

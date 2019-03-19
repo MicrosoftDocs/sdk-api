@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreateBlockMapReader
-title: IAppxFactory::CreateBlockMapReader
+title: IAppxFactory::CreateBlockMapReader (appxpackaging.h)
 author: windows-sdk-content
 description: Creates a read-only block map object model from contents provided by an IStream.
 old-location: appxpkg\iappxfactory_createblockmapreader.htm

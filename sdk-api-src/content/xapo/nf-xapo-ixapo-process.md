@@ -1,6 +1,6 @@
 ---
 UID: NF:xapo.IXAPO.Process
-title: IXAPO::Process
+title: IXAPO::Process (xapo.h)
 author: windows-sdk-content
 description: Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
 old-location: xaudio2\ixapo_interface_process.htm

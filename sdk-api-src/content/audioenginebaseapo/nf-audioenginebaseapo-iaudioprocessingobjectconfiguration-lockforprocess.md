@@ -1,6 +1,6 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectConfiguration.LockForProcess
-title: IAudioProcessingObjectConfiguration::LockForProcess
+title: IAudioProcessingObjectConfiguration::LockForProcess (audioenginebaseapo.h)
 author: windows-sdk-content
 description: The LockForProcess method is used to verify that the APO is locked and ready to process data.
 old-location: audio\iaudioprocessingobjectconfiguration_lockforprocess.htm

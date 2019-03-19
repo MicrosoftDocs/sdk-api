@@ -1,6 +1,6 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_DiacriticSensitivity
-title: ISearchCatalogManager::get_DiacriticSensitivity
+title: ISearchCatalogManager::get_DiacriticSensitivity (searchapi.h)
 author: windows-sdk-content
 description: Gets a value that indicates whether the catalog is sensitive to diacritics. A diacritic is a mark added to a letter to indicate a special phonetic value or pronunciation.
 old-location: search\_search_ISearchCatalogManager_get_DiacriticSensitivity.htm

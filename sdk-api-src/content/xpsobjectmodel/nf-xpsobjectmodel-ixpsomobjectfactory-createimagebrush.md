@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateImageBrush
-title: IXpsOMObjectFactory::CreateImageBrush
+title: IXpsOMObjectFactory::CreateImageBrush (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Creates an IXpsOMImageBrush interface.
 old-location: xps\ixpsomobjectfactory_createimagebrush.htm

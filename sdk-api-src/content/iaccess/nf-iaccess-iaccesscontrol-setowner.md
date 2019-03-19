@@ -1,6 +1,6 @@
 ---
 UID: NF:iaccess.IAccessControl.SetOwner
-title: IAccessControl::SetOwner
+title: IAccessControl::SetOwner (iaccess.h)
 author: windows-sdk-content
 description: Sets the owner or the group of an item.
 old-location: com\iaccesscontrol_setowner.htm

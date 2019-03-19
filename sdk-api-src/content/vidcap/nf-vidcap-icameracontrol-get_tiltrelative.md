@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.ICameraControl.get_TiltRelative
-title: ICameraControl::get_TiltRelative
+title: ICameraControl::get_TiltRelative (vidcap.h)
 author: windows-sdk-content
 description: This topic applies only to Windows XP Service Pack 2 and later.
 old-location: dshow\icameracontrol_get_tiltrelative.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:windows.foundation.DateTime
-title: DateTime
+title: DateTime (windows.foundation.h)
 author: windows-sdk-content
 description: Represents an instant in time, typically expressed as a date and time of day.
 old-location: winrt\datetime.htm

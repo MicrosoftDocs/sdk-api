@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMsgCollection.get_Item
-title: IGPMStatusMsgCollection::get_Item
+title: IGPMStatusMsgCollection::get_Item (gpmgmt.h)
 author: windows-sdk-content
 description: Given an index, returns a message from the collection.
 old-location: gpmc\igpmstatusmsgcollection_get_item.htm

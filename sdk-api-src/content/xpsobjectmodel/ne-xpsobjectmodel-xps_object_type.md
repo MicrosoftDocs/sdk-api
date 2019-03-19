@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0014
-title: XPS_OBJECT_TYPE
+title: XPS_OBJECT_TYPE (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Describes the type of an object that is derived from IXpsOMShareable.
 old-location: xps\xps_object_type.htm

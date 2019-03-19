@@ -1,6 +1,6 @@
 ---
 UID: NS:iketypes.IKEEXT_PROPOSAL0_
-title: IKEEXT_PROPOSAL0
+title: IKEEXT_PROPOSAL0 (iketypes.h)
 author: windows-sdk-content
 description: Is used to store an IKE/AuthIP main mode proposal.
 old-location: fwp\ikeext_proposal0.htm

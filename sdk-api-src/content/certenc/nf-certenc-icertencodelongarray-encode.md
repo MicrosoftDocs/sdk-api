@@ -1,6 +1,6 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Encode
-title: ICertEncodeLongArray::Encode
+title: ICertEncodeLongArray::Encode (certenc.h)
 author: windows-sdk-content
 description: Returns an ASN.1-encoded string of the LONG array stored in this object.
 old-location: security\icertencodelongarray_encode.htm

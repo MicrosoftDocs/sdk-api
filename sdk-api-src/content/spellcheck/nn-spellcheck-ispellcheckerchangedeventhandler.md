@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheck.ISpellCheckerChangedEventHandler
-title: ISpellCheckerChangedEventHandler
+title: ISpellCheckerChangedEventHandler (spellcheck.h)
 author: windows-sdk-content
 description: Allows the caller to create a handler for notifications that the state of the speller has changed.
 old-location: intl\ispellcheckerchangedeventhandler.htm

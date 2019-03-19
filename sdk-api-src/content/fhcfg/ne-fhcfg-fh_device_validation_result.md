@@ -1,6 +1,6 @@
 ---
 UID: NE:fhcfg._FH_DEVICE_VALIDATION_RESULT
-title: FH_DEVICE_VALIDATION_RESULT
+title: FH_DEVICE_VALIDATION_RESULT (fhcfg.h)
 author: windows-sdk-content
 description: Indicates whether the storage device or network share can be used as a File History backup target.
 old-location: winprog\fh_device_validation_result.htm

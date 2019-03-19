@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.Import
-title: IWABObject::Import
+title: IWABObject::Import (wabapi.h)
 author: windows-sdk-content
 description: Imports a .wab file into the user's Address Book.
 old-location: wab\_wab_IWABObject_Import.htm

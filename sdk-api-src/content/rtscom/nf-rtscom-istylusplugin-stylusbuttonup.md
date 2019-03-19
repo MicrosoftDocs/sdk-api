@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonUp
-title: IStylusPlugin::StylusButtonUp
+title: IStylusPlugin::StylusButtonUp (rtscom.h)
 author: windows-sdk-content
 description: Notifies the implementing plug-in that the user has released a stylus button.
 old-location: tablet\istylusplugin_stylusbuttonup.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wincodec.IWICPlanarFormatConverter
-title: IWICPlanarFormatConverter
+title: IWICPlanarFormatConverter (wincodec.h)
 author: windows-sdk-content
 description: Allows a format converter to be initialized with a planar source.
 old-location: wic\iwicplanarformatconverter.htm

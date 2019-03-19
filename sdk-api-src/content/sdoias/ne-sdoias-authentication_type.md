@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._AUTHENTICATION_TYPE
-title: AUTHENTICATION_TYPE
+title: AUTHENTICATION_TYPE (sdoias.h)
 author: windows-sdk-content
 description: The values of the AUTHENTICATION_TYPE enumerated type are used to specify the authentication method.
 old-location: nps\sdo_authentication_type.htm

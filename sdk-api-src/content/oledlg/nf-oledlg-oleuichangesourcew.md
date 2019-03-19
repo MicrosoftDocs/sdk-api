@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIChangeSourceW
-title: OleUIChangeSourceW function
+title: OleUIChangeSourceW function (oledlg.h)
 author: windows-sdk-content
 description: Invokes the Change Source dialog box, allowing the user to change the source of a link.
 old-location: com\oleuichangesource.htm

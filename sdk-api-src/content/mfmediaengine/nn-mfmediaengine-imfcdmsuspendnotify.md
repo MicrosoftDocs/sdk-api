@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFCdmSuspendNotify
-title: IMFCdmSuspendNotify
+title: IMFCdmSuspendNotify (mfmediaengine.h)
 author: windows-sdk-content
 description: Used to enable the client to notify the Content Decryption Module (CDM) when global resources should be brought into a consistent state prior to suspending.
 old-location: mf\imfcdmsuspendnotify.htm

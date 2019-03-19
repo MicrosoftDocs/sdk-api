@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsUserInRole
-title: ISecurityCallContext::IsUserInRole
+title: ISecurityCallContext::IsUserInRole (comsvcs.h)
 author: windows-sdk-content
 description: Determines whether the specified user is in the specified role.
 old-location: cos\isecuritycallcontext_isuserinrole.htm

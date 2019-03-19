@@ -1,6 +1,6 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0070_0001
-title: TF_DA_LINESTYLE
+title: TF_DA_LINESTYLE (msctf.h)
 author: windows-sdk-content
 description: Elements of the TF_DA_LINESTYLE enumeration specify the underline style of a display attribute in the TF_DA_COLOR structure.
 old-location: tsf\tf_da_linestyle.htm

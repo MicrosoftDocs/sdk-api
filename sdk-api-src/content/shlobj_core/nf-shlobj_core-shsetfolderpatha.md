@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHSetFolderPathA
-title: SHSetFolderPathA function
+title: SHSetFolderPathA function (shlobj_core.h)
 author: windows-sdk-content
 description: Deprecated. Assigns a new path to a system folder identified by its CSIDL.
 old-location: shell\SHSetFolderPath.htm

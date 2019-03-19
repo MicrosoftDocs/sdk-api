@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_TEXTURE1D_DESC
-title: D3D11_TEXTURE1D_DESC
+title: D3D11_TEXTURE1D_DESC (d3d11.h)
 author: windows-sdk-content
 description: Describes a 1D texture.
 old-location: direct3d11\d3d11_texture1d_desc.htm

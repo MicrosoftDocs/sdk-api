@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Gain
-title: IVideoProcAmp::get_Gain
+title: IVideoProcAmp::get_Gain (vidcap.h)
 author: windows-sdk-content
 description: The get_Gain method returns the camera's gain setting.
 old-location: dshow\ivideoprocamp_get_gain.htm

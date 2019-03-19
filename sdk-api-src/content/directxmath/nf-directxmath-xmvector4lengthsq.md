@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector4LengthSq
-title: XMVector4LengthSq function
+title: XMVector4LengthSq function (directxmath.h)
 author: windows-sdk-content
 description: Computes the square of the length of a 4D vector.
 old-location: dxmath\xmvector4lengthsq.htm

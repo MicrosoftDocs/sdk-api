@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.ChangeUniquenessValue
-title: IDirectDrawSurface7::ChangeUniquenessValue
+title: IDirectDrawSurface7::ChangeUniquenessValue (ddraw.h)
 author: windows-sdk-content
 description: Manually updates the uniqueness value for this surface.
 old-location: directdraw\idirectdrawsurface7_changeuniquenessvalue.htm

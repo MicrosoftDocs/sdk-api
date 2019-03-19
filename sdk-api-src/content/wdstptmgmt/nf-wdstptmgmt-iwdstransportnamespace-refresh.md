@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Refresh
-title: IWdsTransportNamespace::Refresh
+title: IWdsTransportNamespace::Refresh (wdstptmgmt.h)
 author: windows-sdk-content
 description: Resets the property values of the namespace with values from the server.
 old-location: wds\iwdstransportnamespace_refresh.htm

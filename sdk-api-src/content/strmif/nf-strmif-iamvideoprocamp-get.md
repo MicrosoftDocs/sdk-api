@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.Get
-title: IAMVideoProcAmp::Get
+title: IAMVideoProcAmp::Get (strmif.h)
 author: windows-sdk-content
 description: The Get method gets the current setting of a video property.
 old-location: dshow\iamvideoprocamp_get.htm

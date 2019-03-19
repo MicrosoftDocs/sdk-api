@@ -1,6 +1,6 @@
 ---
 UID: NS:dinputd.DIJOYCONFIG
-title: DIJOYCONFIG
+title: DIJOYCONFIG (dinputd.h)
 author: windows-sdk-content
 description: The DIJOYCONFIG structure contains information about a joystick's configuration.
 old-location: hid\dijoyconfig.htm

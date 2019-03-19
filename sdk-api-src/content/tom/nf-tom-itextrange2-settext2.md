@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.SetText2
-title: ITextRange2::SetText2
+title: ITextRange2::SetText2 (tom.h)
 author: windows-sdk-content
 description: Sets the text of this range.
 old-location: controls\itextrange2_settext2.htm

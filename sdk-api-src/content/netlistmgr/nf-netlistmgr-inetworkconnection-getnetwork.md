@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetNetwork
-title: INetworkConnection::GetNetwork
+title: INetworkConnection::GetNetwork (netlistmgr.h)
 author: windows-sdk-content
 description: The GetNetwork method returns the network associated with the connection.
 old-location: nla\inetworkconnection_getnetwork.htm

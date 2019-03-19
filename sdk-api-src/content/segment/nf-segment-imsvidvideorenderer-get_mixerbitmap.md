@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MixerBitmap
-title: IMSVidVideoRenderer::get_MixerBitmap
+title: IMSVidVideoRenderer::get_MixerBitmap (segment.h)
 author: windows-sdk-content
 description: The get_MixerBitmap method retrieves the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmap.htm

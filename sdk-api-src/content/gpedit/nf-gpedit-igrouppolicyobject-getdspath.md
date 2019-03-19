@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetDSPath
-title: IGroupPolicyObject::GetDSPath
+title: IGroupPolicyObject::GetDSPath (gpedit.h)
 author: windows-sdk-content
 description: The GetDSPath method retrieves the Active Directory path to the root of the specified GPO section.
 old-location: policy\igrouppolicyobject_getdspath.htm

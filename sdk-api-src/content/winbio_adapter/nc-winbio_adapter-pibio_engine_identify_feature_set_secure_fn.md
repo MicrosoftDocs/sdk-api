@@ -1,6 +1,6 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN
-title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN
+title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN (winbio_adapter.h)
 author: windows-sdk-content
 description: Called by the Windows Biometric Framework to build a template from the current feature set and locate a matching template in the database.
 old-location: secbiomet\engineadapteridentifyfeaturesetsecure.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.OnModalInput
-title: ITfLangBarEventSink::OnModalInput
+title: ITfLangBarEventSink::OnModalInput (ctfutb.h)
 author: windows-sdk-content
 description: ITfLangBarEventSink::OnModalInput method
 old-location: tsf\itflangbareventsink_onmodalinput.htm

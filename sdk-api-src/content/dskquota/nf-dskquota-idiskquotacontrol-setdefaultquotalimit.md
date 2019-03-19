@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetDefaultQuotaLimit
-title: IDiskQuotaControl::SetDefaultQuotaLimit
+title: IDiskQuotaControl::SetDefaultQuotaLimit (dskquota.h)
 author: windows-sdk-content
 description: Modifies the default quota limit.
 old-location: fs\idiskquotacontrol_setdefaultquotalimit.htm

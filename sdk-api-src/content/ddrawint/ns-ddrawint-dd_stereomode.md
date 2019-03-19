@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint._DD_STEREOMODE
-title: DD_STEREOMODE
+title: DD_STEREOMODE (ddrawint.h)
 author: windows-sdk-content
 description: The DD_STEREOMODE structure is used by the runtime with GUID_DDStereoMode in a DdGetDriverInfo call to query whether the driver supports stereo for a given video display mode.
 old-location: display\dd_stereomode.htm

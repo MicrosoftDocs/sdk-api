@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetScope
-title: ISearchFolderItemFactory::SetScope
+title: ISearchFolderItemFactory::SetScope (shobjidl_core.h)
 author: windows-sdk-content
 description: Sets search scope, as specified.
 old-location: shell\ISearchFolderItemFactory_SetScope.htm

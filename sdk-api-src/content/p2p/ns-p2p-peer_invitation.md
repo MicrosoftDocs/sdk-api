@@ -1,6 +1,6 @@
 ---
 UID: NS:p2p.peer_invitation_tag
-title: PEER_INVITATION
+title: PEER_INVITATION (p2p.h)
 author: windows-sdk-content
 description: The PEER_INVITATION structure contains a request to initiate or join a peer collaboration activity.
 old-location: p2p\peer_invitation.htm

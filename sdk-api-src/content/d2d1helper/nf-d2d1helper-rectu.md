@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1helper.RectU
-title: RectU function
+title: RectU function (d2d1helper.h)
 author: windows-sdk-content
 description: Creates a D2D1_RECT_U structure that contains the specified dimensions.
 old-location: direct2d\rectu.htm

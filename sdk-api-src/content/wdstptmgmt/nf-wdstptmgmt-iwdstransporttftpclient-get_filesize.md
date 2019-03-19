@@ -1,6 +1,6 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_FileSize
-title: IWdsTransportTftpClient::get_FileSize
+title: IWdsTransportTftpClient::get_FileSize (wdstptmgmt.h)
 author: windows-sdk-content
 description: Receives the size in bytes of the file being transferred.
 old-location: wds\iwdstransporttftpclient_filesize.htm

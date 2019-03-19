@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.GetStatus
-title: IDMOQualityControl::GetStatus
+title: IDMOQualityControl::GetStatus (mediaobj.h)
 author: windows-sdk-content
 description: The GetStatus method determines whether quality control is active.
 old-location: dshow\idmoqualitycontrol_getstatus.htm

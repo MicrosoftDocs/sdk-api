@@ -1,6 +1,6 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.ScrollRect
-title: IOleInPlaceSiteWindowless::ScrollRect
+title: IOleInPlaceSiteWindowless::ScrollRect (ocidl.h)
 author: windows-sdk-content
 description: Enables an object to scroll an area within its in-place active image on the screen.
 old-location: com\ioleinplacesitewindowless_scrollrect.htm

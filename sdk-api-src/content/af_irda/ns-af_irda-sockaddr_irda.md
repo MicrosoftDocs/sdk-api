@@ -1,6 +1,6 @@
 ---
 UID: NS:af_irda._SOCKADDR_IRDA
-title: SOCKADDR_IRDA
+title: SOCKADDR_IRDA (af_irda.h)
 author: windows-sdk-content
 description: The SOCKADDR_IRDA structure is used in conjunction with IrDA socket operations, defined by address family AF_IRDA.
 old-location: winsock\sockaddr_irda_2.htm

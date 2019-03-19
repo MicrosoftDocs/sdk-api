@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterResourceCloseEnumEx
-title: ClusterResourceCloseEnumEx function
+title: ClusterResourceCloseEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Closes a handle to a resource enumeration.
 old-location: mscs\clusterresourcecloseenumex.htm

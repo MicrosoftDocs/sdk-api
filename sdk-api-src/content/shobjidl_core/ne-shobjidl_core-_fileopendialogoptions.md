@@ -1,6 +1,6 @@
 ---
 UID: NE:shobjidl_core._FILEOPENDIALOGOPTIONS
-title: "_FILEOPENDIALOGOPTIONS"
+title: "_FILEOPENDIALOGOPTIONS" (shobjidl_core.h)
 author: windows-sdk-content
 description: Defines the set of options available to an Open or Save dialog.
 old-location: shell\FILEOPENDIALOGOPTIONS.htm

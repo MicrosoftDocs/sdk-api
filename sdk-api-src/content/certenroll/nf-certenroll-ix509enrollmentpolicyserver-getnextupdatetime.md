@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetNextUpdateTime
-title: IX509EnrollmentPolicyServer::GetNextUpdateTime
+title: IX509EnrollmentPolicyServer::GetNextUpdateTime (certenroll.h)
 author: windows-sdk-content
 description: Retrieves the date and time at which the policy expires and should be refreshed.
 old-location: security\ix509enrollmentpolicyserver_getnextupdatetime.htm

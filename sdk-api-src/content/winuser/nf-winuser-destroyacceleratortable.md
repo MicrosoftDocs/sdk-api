@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.DestroyAcceleratorTable
-title: DestroyAcceleratorTable function
+title: DestroyAcceleratorTable function (winuser.h)
 author: windows-sdk-content
 description: Destroys an accelerator table.
 old-location: menurc\destroyacceleratortable.htm

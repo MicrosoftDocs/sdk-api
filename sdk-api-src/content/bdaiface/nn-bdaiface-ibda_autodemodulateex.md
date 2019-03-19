@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_AutoDemodulateEx
-title: IBDA_AutoDemodulateEx
+title: IBDA_AutoDemodulateEx (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_AutoDemodulateEx interface extends IBDA_AutoDemodulate.
 old-location: mstv\ibda_autodemodulateex.htm

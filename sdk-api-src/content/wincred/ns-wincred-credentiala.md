@@ -1,6 +1,6 @@
 ---
 UID: NS:wincred._CREDENTIALA
-title: CREDENTIALA
+title: CREDENTIALA (wincred.h)
 author: windows-sdk-content
 description: The CREDENTIAL structure contains an individual credential.
 old-location: security\credential.htm

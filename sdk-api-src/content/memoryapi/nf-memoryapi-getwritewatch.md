@@ -1,6 +1,6 @@
 ---
 UID: NF:memoryapi.GetWriteWatch
-title: GetWriteWatch function
+title: GetWriteWatch function (memoryapi.h)
 author: windows-sdk-content
 description: Retrieves the addresses of the pages that are written to in a region of virtual memory.
 old-location: base\getwritewatch.htm

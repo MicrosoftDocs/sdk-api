@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.AddAccessAllowedAce
-title: AddAccessAllowedAce function
+title: AddAccessAllowedAce function (securitybaseapi.h)
 author: windows-sdk-content
 description: Adds an access-allowed access control entry (ACE) to an access control list (ACL). The access is granted to a specified security identifier (SID).
 old-location: security\addaccessallowedace.htm

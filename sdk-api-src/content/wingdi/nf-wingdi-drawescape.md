@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.DrawEscape
-title: DrawEscape function
+title: DrawEscape function (wingdi.h)
 author: windows-sdk-content
 description: The DrawEscape function provides drawing capabilities of the specified video display that are not directly available through the graphics device interface (GDI).
 old-location: gdi\drawescape.htm

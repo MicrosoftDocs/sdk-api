@@ -1,6 +1,6 @@
 ---
 UID: NF:winstring.WindowsDuplicateString
-title: WindowsDuplicateString function
+title: WindowsDuplicateString function (winstring.h)
 author: windows-sdk-content
 description: Creates a copy of the specified string.
 old-location: winrt\windowsduplicatestring.htm

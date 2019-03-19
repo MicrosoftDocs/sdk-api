@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Clear
-title: IAlternativeNames::Clear
+title: IAlternativeNames::Clear (certenroll.h)
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: security\ialternativenames_clear_method.htm

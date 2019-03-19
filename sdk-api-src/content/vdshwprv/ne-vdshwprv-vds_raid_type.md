@@ -1,6 +1,6 @@
 ---
 UID: NE:vdshwprv._VDS_RAID_TYPE
-title: VDS_RAID_TYPE
+title: VDS_RAID_TYPE (vdshwprv.h)
 author: windows-sdk-content
 description: Defines the set enumeration values that can be used to specify the underlying RAID type of a storage pool.
 old-location: base\vds_raid_type.htm

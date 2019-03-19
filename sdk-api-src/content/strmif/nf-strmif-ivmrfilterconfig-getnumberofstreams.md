@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.GetNumberOfStreams
-title: IVMRFilterConfig::GetNumberOfStreams
+title: IVMRFilterConfig::GetNumberOfStreams (strmif.h)
 author: windows-sdk-content
 description: The GetNumberOfStreams method retrieves the number of input streams being mixed.
 old-location: dshow\ivmrfilterconfig_getnumberofstreams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetLocalFileSize
-title: IDWriteFontFaceReference::GetLocalFileSize
+title: IDWriteFontFaceReference::GetLocalFileSize (dwrite_3.h)
 author: windows-sdk-content
 description: Get the local size of the font face in bytes, which will always be less than or equal to GetFullSize. If the locality is remote, this value is zero. If full, this value will equal GetFileSize.
 old-location: directwrite\idwritefontfacereference_getlocalfilesize.htm

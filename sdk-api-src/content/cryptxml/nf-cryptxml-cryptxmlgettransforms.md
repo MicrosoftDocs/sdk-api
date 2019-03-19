@@ -1,6 +1,6 @@
 ---
 UID: NF:cryptxml.CryptXmlGetTransforms
-title: CryptXmlGetTransforms function
+title: CryptXmlGetTransforms function (cryptxml.h)
 author: windows-sdk-content
 description: Returns information about the default transform chain engine.
 old-location: security\cryptxmlgettransforms.htm

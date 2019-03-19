@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IESEvent.GetData
-title: IESEvent::GetData
+title: IESEvent::GetData (tuner.h)
 author: windows-sdk-content
 description: Gets data from an event that is derived from the IESEvent interface. This method gets a byte array that contains the data in an IESEvent object, which is passed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_getdata.htm

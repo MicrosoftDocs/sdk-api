@@ -1,6 +1,6 @@
 ---
 UID: NS:lmaccess._USER_INFO_1014
-title: USER_INFO_1014
+title: USER_INFO_1014 (lmaccess.h)
 author: windows-sdk-content
 description: The USER_INFO_1014 structure contains the names of workstations from which the user can log on. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1014_str.htm

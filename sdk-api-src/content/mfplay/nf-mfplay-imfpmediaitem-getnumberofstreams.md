@@ -1,6 +1,6 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetNumberOfStreams
-title: IMFPMediaItem::GetNumberOfStreams
+title: IMFPMediaItem::GetNumberOfStreams (mfplay.h)
 author: windows-sdk-content
 description: Gets the number of streams (audio, video, and other) in the media item.
 old-location: mf\imfpmediaitem_getnumberofstreams.htm

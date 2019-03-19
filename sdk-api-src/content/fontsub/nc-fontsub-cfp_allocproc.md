@@ -1,6 +1,6 @@
 ---
 UID: NC:fontsub.CFP_ALLOCPROC
-title: CFP_ALLOCPROC
+title: CFP_ALLOCPROC (fontsub.h)
 author: windows-sdk-content
 description: Client-provided callback function, used by CreateFontPackage and MergeFontPackage to allocate memory.
 old-location: gdi\cfp_allocproc.htm

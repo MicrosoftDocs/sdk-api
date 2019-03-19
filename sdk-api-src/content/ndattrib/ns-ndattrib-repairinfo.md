@@ -1,6 +1,6 @@
 ---
 UID: NS:ndattrib.tagRepairInfo
-title: RepairInfo
+title: RepairInfo (ndattrib.h)
 author: windows-sdk-content
 description: The RepairInfo structure contains data required for a particular repair option.
 old-location: ndf\repairinfo.htm

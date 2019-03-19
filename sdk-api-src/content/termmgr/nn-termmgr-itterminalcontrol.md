@@ -1,6 +1,6 @@
 ---
 UID: NN:termmgr.ITTerminalControl
-title: ITTerminalControl
+title: ITTerminalControl (termmgr.h)
 author: windows-sdk-content
 description: The ITTerminalControl interface provides methods to get the MSP handle, connect and disconnect a terminal from a filter graph, and run or stop a renderer.
 old-location: tapi3\itterminalcontrol.htm

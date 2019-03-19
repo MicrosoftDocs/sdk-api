@@ -1,6 +1,6 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetCurrentService
-title: IAMWstDecoder::GetCurrentService
+title: IAMWstDecoder::GetCurrentService (iwstdec.h)
 author: windows-sdk-content
 description: Applications use the GetCurrentService method to retrieve the current WST service.
 old-location: dshow\iamwstdecoder_getcurrentservice.htm

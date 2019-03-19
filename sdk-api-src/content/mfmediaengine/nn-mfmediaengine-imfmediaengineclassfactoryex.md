@@ -1,6 +1,6 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineClassFactoryEx
-title: IMFMediaEngineClassFactoryEx
+title: IMFMediaEngineClassFactoryEx (mfmediaengine.h)
 author: windows-sdk-content
 description: Extension for the IMFMediaEngineClassFactory interface.
 old-location: mf\imfmediaengineclassfactoryex.htm

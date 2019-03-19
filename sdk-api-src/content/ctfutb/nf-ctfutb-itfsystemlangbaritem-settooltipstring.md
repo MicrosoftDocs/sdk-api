@@ -1,6 +1,6 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItem.SetTooltipString
-title: ITfSystemLangBarItem::SetTooltipString
+title: ITfSystemLangBarItem::SetTooltipString (ctfutb.h)
 author: windows-sdk-content
 description: ITfSystemLangBarItem::SetTooltipString method
 old-location: tsf\itfsystemlangbaritem_settooltipstring.htm

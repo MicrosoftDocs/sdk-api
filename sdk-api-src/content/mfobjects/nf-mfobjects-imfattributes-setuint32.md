@@ -1,6 +1,6 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetUINT32
-title: IMFAttributes::SetUINT32
+title: IMFAttributes::SetUINT32 (mfobjects.h)
 author: windows-sdk-content
 description: Associates a UINT32 value with a key.
 old-location: mf\imfattributes_setuint32.htm

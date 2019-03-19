@@ -1,6 +1,6 @@
 ---
 UID: NS:comcat.tagCATEGORYINFO
-title: CATEGORYINFO
+title: CATEGORYINFO (comcat.h)
 author: windows-sdk-content
 description: Describes a component category.
 old-location: com\categoryinfo.htm

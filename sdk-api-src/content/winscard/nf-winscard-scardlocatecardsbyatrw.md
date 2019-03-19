@@ -1,6 +1,6 @@
 ---
 UID: NF:winscard.SCardLocateCardsByATRW
-title: SCardLocateCardsByATRW function
+title: SCardLocateCardsByATRW function (winscard.h)
 author: windows-sdk-content
 description: Searches the readers listed in the rgReaderStates parameter for a card with a name that matches one of the card names contained in one of the SCARD_ATRMASK structures specified by the rgAtrMasks parameter.
 old-location: security\scardlocatecardsbyatr.htm

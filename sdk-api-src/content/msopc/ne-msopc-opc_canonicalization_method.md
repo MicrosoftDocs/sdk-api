@@ -1,6 +1,6 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0001
-title: OPC_CANONICALIZATION_METHOD
+title: OPC_CANONICALIZATION_METHOD (msopc.h)
 author: windows-sdk-content
 description: Describes the canonicalization method to be applied to XML markup.
 old-location: opc\opc_canonicalization_method.htm

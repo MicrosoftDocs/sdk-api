@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.put_NumRingsNoAnswer
-title: ITForwardInformation::put_NumRingsNoAnswer
+title: ITForwardInformation::put_NumRingsNoAnswer (tapi3if.h)
 author: windows-sdk-content
 description: The put_NumRingsNoAnswer method sets the number of rings after which a no answer condition is assumed.
 old-location: tapi3\itforwardinformation_put_numringsnoanswer.htm

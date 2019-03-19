@@ -1,6 +1,6 @@
 ---
 UID: NE:iketypes.IKEEXT_SA_ROLE_
-title: IKEEXT_SA_ROLE
+title: IKEEXT_SA_ROLE (iketypes.h)
 author: windows-sdk-content
 description: Security association (SA) role for Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) Main Mode or Quick Mode negotiations.
 old-location: fwp\ikeext_sa_role.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mbnapi.MBN_PIN_MODE
-title: MBN_PIN_MODE
+title: MBN_PIN_MODE (mbnapi.h)
 author: windows-sdk-content
 description: The MBN_PIN_MODE enumerated type indicates if the PIN type is enabled.
 old-location: mbn\mbn_pin_mode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsafer.SaferGetPolicyInformation
-title: SaferGetPolicyInformation function
+title: SaferGetPolicyInformation function (winsafer.h)
 author: windows-sdk-content
 description: Gets information about a policy.
 old-location: security\safergetpolicyinformation.htm

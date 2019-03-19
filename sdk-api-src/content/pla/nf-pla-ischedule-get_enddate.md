@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ISchedule.get_EndDate
-title: ISchedule::get_EndDate
+title: ISchedule::get_EndDate (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets the last date that the schedule is valid.
 old-location: pla\ischedule_enddate.htm

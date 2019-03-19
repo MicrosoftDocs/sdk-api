@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.AddNtmsMediaType
-title: AddNtmsMediaType function
+title: AddNtmsMediaType function (ntmsapi.h)
 author: windows-sdk-content
 description: The AddNtmsMediaType function adds the specified media type to the specified library if there is not currently a relation in the library object. The function then creates the system media pools if they do not exist.
 old-location: fs\addntmsmediatype.htm

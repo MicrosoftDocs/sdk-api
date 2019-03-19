@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.ExportNtmsDatabase
-title: ExportNtmsDatabase function
+title: ExportNtmsDatabase function (ntmsapi.h)
 author: windows-sdk-content
 description: The ExportNtmsDatabase function creates a consistent set of database files in the RSM database directory.
 old-location: fs\exportntmsdatabase.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_VALUE
-title: D3D11_TRACE_VALUE
+title: D3D11_TRACE_VALUE (d3d11shadertracing.h)
 author: windows-sdk-content
 description: Describes a trace value.
 old-location: direct3d11\d3d11_trace_value.htm

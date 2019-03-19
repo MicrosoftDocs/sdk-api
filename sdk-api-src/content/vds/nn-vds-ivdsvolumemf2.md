@@ -1,6 +1,6 @@
 ---
 UID: NN:vds.IVdsVolumeMF2
-title: IVdsVolumeMF2
+title: IVdsVolumeMF2 (vds.h)
 author: windows-sdk-content
 description: Provides methods to perform additional file system management operations on the volume object.
 old-location: base\ivdsvolumemf2.htm

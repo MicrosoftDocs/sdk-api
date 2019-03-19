@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterRegCloseKey
-title: ClusterRegCloseKey function
+title: ClusterRegCloseKey function (clusapi.h)
 author: windows-sdk-content
 description: Releases the handle of a cluster database key.
 old-location: mscs\clusterregclosekey.htm

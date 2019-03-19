@@ -1,6 +1,6 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterfaceNotificationSink.OnConnectionStatusChange
-title: IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange
+title: IDot11AdHocInterfaceNotificationSink::OnConnectionStatusChange (adhoc.h)
 author: windows-sdk-content
 description: Notifies the client that the connection status of the network associated with the NIC has changed.
 old-location: nwifi\idot11adhocinterfacenotificationsink_onconnectionstatuschange.htm

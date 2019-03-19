@@ -1,6 +1,6 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetJob
-title: IBackgroundCopyGroup::GetJob
+title: IBackgroundCopyGroup::GetJob (qmgr.h)
 author: windows-sdk-content
 description: Use the GetJob method to retrieve a job from the group.
 old-location: bits\ibackgroundcopygroup_getjob.htm

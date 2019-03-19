@@ -1,6 +1,6 @@
 ---
 UID: NS:rpcproxy.tagProxyFileInfo
-title: ProxyFileInfo
+title: ProxyFileInfo (rpcproxy.h)
 author: windows-sdk-content
 description: The ProxyFileInfo structure contains information about the interface proxies in the proxy DLL.
 old-location: rpc\proxyfileinfo.htm

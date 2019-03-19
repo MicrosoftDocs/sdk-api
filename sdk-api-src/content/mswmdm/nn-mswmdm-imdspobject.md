@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IMDSPObject
-title: IMDSPObject
+title: IMDSPObject (mswmdm.h)
 author: windows-sdk-content
 description: The IMDSPObject interface manages the transfer of data to and from storage media.The Open, Read, Write, and Close methods are valid only if the storage object is a file.
 old-location: wmdm\imdspobject.htm

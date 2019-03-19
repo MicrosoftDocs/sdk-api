@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.DeleteTab
-title: ITextPara::DeleteTab
+title: ITextPara::DeleteTab (tom.h)
 author: windows-sdk-content
 description: Deletes a tab at a specified displacement.
 old-location: controls\ITextPara_DeleteTab.htm

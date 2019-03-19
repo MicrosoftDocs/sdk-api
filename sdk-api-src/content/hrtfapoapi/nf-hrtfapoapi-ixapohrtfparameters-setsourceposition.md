@@ -1,6 +1,6 @@
 ---
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetSourcePosition
-title: IXAPOHrtfParameters::SetSourcePosition
+title: IXAPOHrtfParameters::SetSourcePosition (hrtfapoapi.h)
 author: windows-sdk-content
 description: Sets the position of the sound relative to the listener.
 old-location: xaudio2\ixapohrtfparameters_setsourceposition.htm

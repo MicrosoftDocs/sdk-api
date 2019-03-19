@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.BrowseObject
-title: IShellBrowser::BrowseObject
+title: IShellBrowser::BrowseObject (shobjidl_core.h)
 author: windows-sdk-content
 description: Informs Windows Explorer to browse to another folder.
 old-location: shell\IShellBrowser_BrowseObject.htm

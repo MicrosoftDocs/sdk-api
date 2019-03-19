@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara2.IsEqual2
-title: ITextPara2::IsEqual2
+title: ITextPara2::IsEqual2 (tom.h)
 author: windows-sdk-content
 description: Determines whether this text paragraph object has the same properties as the specified text paragraph object.
 old-location: controls\itextpara2_isequal2.htm

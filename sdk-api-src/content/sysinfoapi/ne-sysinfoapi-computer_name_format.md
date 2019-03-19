@@ -1,6 +1,6 @@
 ---
 UID: NE:sysinfoapi._COMPUTER_NAME_FORMAT
-title: COMPUTER_NAME_FORMAT
+title: COMPUTER_NAME_FORMAT (sysinfoapi.h)
 author: windows-sdk-content
 description: Specifies a type of computer name.
 old-location: base\computer_name_format_str.htm

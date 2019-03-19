@@ -1,6 +1,6 @@
 ---
 UID: NS:wtypes.tagQUERYCONTEXT
-title: QUERYCONTEXT
+title: QUERYCONTEXT (wtypes.h)
 author: windows-sdk-content
 description: Contains a list of attributes used to look up a class implementation.
 old-location: com\querycontext.htm

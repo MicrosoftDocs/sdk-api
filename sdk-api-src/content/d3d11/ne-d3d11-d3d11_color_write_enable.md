@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d11.D3D11_COLOR_WRITE_ENABLE
-title: D3D11_COLOR_WRITE_ENABLE
+title: D3D11_COLOR_WRITE_ENABLE (d3d11.h)
 author: windows-sdk-content
 description: Identify which components of each pixel of a render target are writable during blending.
 old-location: direct3d11\d3d11_color_write_enable.htm

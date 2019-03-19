@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineCreateAgentW
-title: lineCreateAgentW function
+title: lineCreateAgentW function (tapi.h)
 author: windows-sdk-content
 description: The lineCreateAgent function creates a new Agent object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENT.
 old-location: tapi2\linecreateagent.htm

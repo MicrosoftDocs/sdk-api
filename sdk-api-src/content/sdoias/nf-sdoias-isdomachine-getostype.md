@@ -1,6 +1,6 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetOSType
-title: ISdoMachine::GetOSType
+title: ISdoMachine::GetOSType (sdoias.h)
 author: windows-sdk-content
 description: The GetOSType method retrieves the type of operating system running on the SDO computer.
 old-location: nps\SDO_isdomachine_getostype.htm

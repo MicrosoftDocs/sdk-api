@@ -1,6 +1,6 @@
 ---
 UID: NN:cluadmex.IWEExtendWizard97
-title: IWEExtendWizard97
+title: IWEExtendWizard97 (cluadmex.h)
 author: windows-sdk-content
 description: Implement the IWEExtendWizard97 interface to add Wizard97-style wizard pages to a Failover Cluster Administrator wizard.
 old-location: mscs\iweextendwizard97.htm

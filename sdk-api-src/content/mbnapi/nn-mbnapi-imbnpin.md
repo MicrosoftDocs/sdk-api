@@ -1,6 +1,6 @@
 ---
 UID: NN:mbnapi.IMbnPin
-title: IMbnPin
+title: IMbnPin (mbnapi.h)
 author: windows-sdk-content
 description: Represents the device PIN.
 old-location: mbn\imbnpin.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.IEnumBstr
-title: IEnumBstr
+title: IEnumBstr (tapi3if.h)
 author: windows-sdk-content
 description: The IEnumBstr interface provides COM-standard methods to enumerate BSTR strings.
 old-location: tapi3\ienumbstr.htm

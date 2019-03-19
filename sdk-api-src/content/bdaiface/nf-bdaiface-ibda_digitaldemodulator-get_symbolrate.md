@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_SymbolRate
-title: IBDA_DigitalDemodulator::get_SymbolRate
+title: IBDA_DigitalDemodulator::get_SymbolRate (bdaiface.h)
 author: windows-sdk-content
 description: The get_SymbolRate method retrieves the symbol rate for the signal.
 old-location: mstv\ibda_digitaldemodulator_get_symbolrate.htm

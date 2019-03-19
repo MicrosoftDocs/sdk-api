@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_RESERVED_SCOPE
-title: DHCP_RESERVED_SCOPE
+title: DHCP_RESERVED_SCOPE (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_RESERVED_SCOPE structure defines a reserved DHCP scope.
 old-location: dhcp\dhcp_reserved_scope.htm

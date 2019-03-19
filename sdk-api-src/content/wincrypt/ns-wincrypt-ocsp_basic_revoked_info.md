@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_REVOKED_INFO
-title: OCSP_BASIC_REVOKED_INFO
+title: OCSP_BASIC_REVOKED_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Contains the reason a certificate was revoked.
 old-location: security\ocsp_basic_revoked_info.htm

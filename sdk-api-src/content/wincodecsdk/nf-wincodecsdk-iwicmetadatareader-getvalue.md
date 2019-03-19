@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValue
-title: IWICMetadataReader::GetValue
+title: IWICMetadataReader::GetValue (wincodecsdk.h)
 author: windows-sdk-content
 description: Gets the metadata item value.
 old-location: wic\_wic_codec_iwicmetadatareader_getvalue.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.IAVIEditStream.Copy
-title: IAVIEditStream::Copy
+title: IAVIEditStream::Copy (vfw.h)
 author: windows-sdk-content
 description: The Copy method copies a stream or a portion of it to a temporary stream. Called when an application uses the EditStreamCopy function.
 old-location: multimedia\iavieditstream_copy.htm

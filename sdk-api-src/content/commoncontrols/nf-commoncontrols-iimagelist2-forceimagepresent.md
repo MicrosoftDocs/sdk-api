@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList2.ForceImagePresent
-title: IImageList2::ForceImagePresent
+title: IImageList2::ForceImagePresent (commoncontrols.h)
 author: windows-sdk-content
 description: Forces an image present, as specified.
 old-location: controls\IImageList2_ForceImagePresent.htm

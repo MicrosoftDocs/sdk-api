@@ -1,6 +1,6 @@
 ---
 UID: NE:wincodec.WICRawParameterSet
-title: WICRawParameterSet
+title: WICRawParameterSet (wincodec.h)
 author: windows-sdk-content
 description: Specifies the parameter set used by a raw codec.
 old-location: wic\_wic_codec_wicrawparameterset.htm

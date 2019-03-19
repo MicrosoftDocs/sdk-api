@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanapi._WLAN_RATE_SET
-title: WLAN_RATE_SET
+title: WLAN_RATE_SET (wlanapi.h)
 author: windows-sdk-content
 description: The set of supported data rates.
 old-location: nwifi\wlan_rate_set.htm

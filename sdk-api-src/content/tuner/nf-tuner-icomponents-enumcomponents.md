@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponents.EnumComponents
-title: IComponents::EnumComponents
+title: IComponents::EnumComponents (tuner.h)
 author: windows-sdk-content
 description: The EnumComponents method returns an enumerator for the components in the collection.
 old-location: mstv\icomponents_enumcomponents.htm

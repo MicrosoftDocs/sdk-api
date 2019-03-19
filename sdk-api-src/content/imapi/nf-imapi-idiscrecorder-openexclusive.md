@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.OpenExclusive
-title: IDiscRecorder::OpenExclusive
+title: IDiscRecorder::OpenExclusive (imapi.h)
 author: windows-sdk-content
 description: Opens a disc recorder for exclusive access.
 old-location: imapi\idiscrecorder_openexclusive.htm

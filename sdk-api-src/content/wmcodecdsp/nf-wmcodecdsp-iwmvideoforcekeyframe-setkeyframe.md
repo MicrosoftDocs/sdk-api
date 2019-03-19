@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoForceKeyFrame.SetKeyFrame
-title: IWMVideoForceKeyFrame::SetKeyFrame
+title: IWMVideoForceKeyFrame::SetKeyFrame (wmcodecdsp.h)
 author: windows-sdk-content
 description: Specifies that the current frame will be encoded as a key frame.
 old-location: mf\iwmvideoforcekeyframesetkeyframe.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_Description
-title: IFaxDevice::get_Description
+title: IFaxDevice::get_Description (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDevice::get_Description property is a null-terminated string that contains a user-friendly description for the fax device. This string is suitable for display to users.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_description_cpp.htm

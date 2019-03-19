@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.AttachBuffersAndPrecompute
-title: ID3DX11FFT::AttachBuffersAndPrecompute
+title: ID3DX11FFT::AttachBuffersAndPrecompute (d3dcsx.h)
 author: windows-sdk-content
 description: Attaches buffers to an FFT context and performs any required precomputations.
 old-location: direct3d11\id3dx11fft_attachbuffersandprecompute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wincrypt.CertVerifyRevocation
-title: CertVerifyRevocation function
+title: CertVerifyRevocation function (wincrypt.h)
 author: windows-sdk-content
 description: Checks the revocation status of the certificates contained in the rgpvContext array. If a certificate in the list is found to be revoked, no further checking is done.
 old-location: security\certverifyrevocation.htm

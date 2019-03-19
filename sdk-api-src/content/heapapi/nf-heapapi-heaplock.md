@@ -1,6 +1,6 @@
 ---
 UID: NF:heapapi.HeapLock
-title: HeapLock function
+title: HeapLock function (heapapi.h)
 author: windows-sdk-content
 description: Attempts to acquire the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heaplock.htm

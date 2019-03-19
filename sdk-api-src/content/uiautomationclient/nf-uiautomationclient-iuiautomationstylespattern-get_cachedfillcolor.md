@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedFillColor
-title: IUIAutomationStylesPattern::get_CachedFillColor
+title: IUIAutomationStylesPattern::get_CachedFillColor (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached fill color of an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedFillColor.htm

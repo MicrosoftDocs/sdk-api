@@ -1,6 +1,6 @@
 ---
 UID: NE:minwinbase._FINDEX_SEARCH_OPS
-title: FINDEX_SEARCH_OPS
+title: FINDEX_SEARCH_OPS (minwinbase.h)
 author: windows-sdk-content
 description: Defines values that are used with the FindFirstFileEx function to specify the type of filtering to perform.
 old-location: fs\findex_search_ops_str.htm

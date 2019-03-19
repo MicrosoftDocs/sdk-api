@@ -1,6 +1,6 @@
 ---
 UID: NS:shlwapi.__unnamed_struct_0
-title: QITAB
+title: QITAB (shlwapi.h)
 author: windows-sdk-content
 description: Used by the QISearch function to describe a single interface.
 old-location: shell\QITAB.htm

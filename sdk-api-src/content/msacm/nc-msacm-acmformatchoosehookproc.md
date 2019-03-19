@@ -1,6 +1,6 @@
 ---
 UID: NC:msacm.ACMFORMATCHOOSEHOOKPROC
-title: ACMFORMATCHOOSEHOOKPROC
+title: ACMFORMATCHOOSEHOOKPROC (msacm.h)
 author: windows-sdk-content
 description: The acmFormatChooseHookProc function specifies a user-defined function that hooks the acmFormatChoose dialog box. The acmFormatChooseHookProc name is a placeholder for an application-defined name.
 old-location: multimedia\acmformatchoosehookproc.htm

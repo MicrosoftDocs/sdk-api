@@ -1,6 +1,6 @@
 ---
 UID: NS:shlobj_core._CSFV
-title: CSFV
+title: CSFV (shlobj_core.h)
 author: windows-sdk-content
 description: Used with the SHCreateShellFolderViewEx function.
 old-location: shell\CSFV.htm

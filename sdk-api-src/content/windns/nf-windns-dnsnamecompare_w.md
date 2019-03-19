@@ -1,6 +1,6 @@
 ---
 UID: NF:windns.DnsNameCompare_W
-title: DnsNameCompare_W function
+title: DnsNameCompare_W function (windns.h)
 author: windows-sdk-content
 description: The DnsNameCompare function compares two DNS names.
 old-location: dns\dnsnamecompare.htm

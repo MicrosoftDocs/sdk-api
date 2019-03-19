@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetInputSourceBounds
-title: IMILBitmapEffectImpl::GetInputSourceBounds
+title: IMILBitmapEffectImpl::GetInputSourceBounds (mileffects.h)
 author: windows-sdk-content
 description: Gets the bounds of the input source.
 old-location: wibe\_wibe_imilbitmapeffectimpl_getinputsourcebounds.htm

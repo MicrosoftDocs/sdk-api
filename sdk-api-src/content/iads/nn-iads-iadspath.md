@@ -1,6 +1,6 @@
 ---
 UID: NN:iads.IADsPath
-title: IADsPath
+title: IADsPath (iads.h)
 author: windows-sdk-content
 description: The IADsPath interface provides methods for an ADSI client to access the Path attribute.
 old-location: adsi\iadspath.htm

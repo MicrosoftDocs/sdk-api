@@ -1,6 +1,6 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.SetDesiredPacketDescription
-title: IRealTimeStylus::SetDesiredPacketDescription
+title: IRealTimeStylus::SetDesiredPacketDescription (rtscom.h)
 author: windows-sdk-content
 description: Requests properties to be included in the packet stream.
 old-location: tablet\irealtimestylus_setdesiredpacketdescription.htm

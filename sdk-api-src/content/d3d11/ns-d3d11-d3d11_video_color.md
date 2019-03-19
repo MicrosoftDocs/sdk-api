@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_COLOR
-title: D3D11_VIDEO_COLOR
+title: D3D11_VIDEO_COLOR (d3d11.h)
 author: windows-sdk-content
 description: Defines a color value for Microsoft Direct3D 11 video.
 old-location: mf\d3d11_video_color.htm

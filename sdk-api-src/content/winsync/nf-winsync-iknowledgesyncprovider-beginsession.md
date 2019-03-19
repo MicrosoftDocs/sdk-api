@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.BeginSession
-title: IKnowledgeSyncProvider::BeginSession
+title: IKnowledgeSyncProvider::BeginSession (winsync.h)
 author: windows-sdk-content
 description: Notifies the provider that it is joining a synchronization session.
 old-location: winsync\iknowledgesyncprovider_beginsession.htm

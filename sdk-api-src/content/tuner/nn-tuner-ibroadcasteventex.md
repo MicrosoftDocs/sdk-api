@@ -1,6 +1,6 @@
 ---
 UID: NN:tuner.IBroadcastEventEx
-title: IBroadcastEventEx
+title: IBroadcastEventEx (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ibroadcasteventex.htm

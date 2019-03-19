@@ -1,6 +1,6 @@
 ---
 UID: NS:stm._IPX_SERVER_ENTRY
-title: IPX_SERVER_ENTRY
+title: IPX_SERVER_ENTRY (stm.h)
 author: windows-sdk-content
 description: The IPX_SERVER_ENTRY structure describes a particular IPX service.
 old-location: rras\ipx_server_entry.htm

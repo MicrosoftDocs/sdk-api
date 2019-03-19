@@ -1,6 +1,6 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterNotificationSink
-title: IWSDiscoveryPublisher::RegisterNotificationSink
+title: IWSDiscoveryPublisher::RegisterNotificationSink (wsddisco.h)
 author: windows-sdk-content
 description: Attaches a callback notification sink to the discovery publisher.
 old-location: ncd\iwsdiscoverypublisher_registernotificationsink_method.htm

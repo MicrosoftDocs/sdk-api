@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_Direction
-title: ITPluggableTerminalClassInfo::get_Direction
+title: ITPluggableTerminalClassInfo::get_Direction (tapi3if.h)
 author: windows-sdk-content
 description: The get_Direction method gets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassinfo_get_direction.htm

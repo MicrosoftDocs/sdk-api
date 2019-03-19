@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Security
-title: IDataCollectorSet::put_Security
+title: IDataCollectorSet::put_Security (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets access control information that determines who can access this data collector set.
 old-location: pla\idatacollectorset_get_security.htm

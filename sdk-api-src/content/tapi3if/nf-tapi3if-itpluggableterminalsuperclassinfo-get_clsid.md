@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalSuperclassInfo.get_CLSID
-title: ITPluggableTerminalSuperclassInfo::get_CLSID
+title: ITPluggableTerminalSuperclassInfo::get_CLSID (tapi3if.h)
 author: windows-sdk-content
 description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassinfo_get_clsid.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetInputLayout
-title: ID3D11DeviceContext::IASetInputLayout
+title: ID3D11DeviceContext::IASetInputLayout (d3d11.h)
 author: windows-sdk-content
 description: Bind an input-layout object to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iasetinputlayout.htm

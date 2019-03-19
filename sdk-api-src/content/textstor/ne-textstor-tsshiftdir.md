@@ -1,6 +1,6 @@
 ---
 UID: NE:textstor.__MIDL_IAnchor_0002
-title: TsShiftDir
+title: TsShiftDir (textstor.h)
 author: windows-sdk-content
 description: Elements of the TsShiftDir enumeration specify which direction an anchor is moved.
 old-location: tsf\tsshiftdir.htm

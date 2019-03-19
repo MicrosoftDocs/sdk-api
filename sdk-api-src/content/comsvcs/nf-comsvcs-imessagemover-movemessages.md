@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.IMessageMover.MoveMessages
-title: IMessageMover::MoveMessages
+title: IMessageMover::MoveMessages (comsvcs.h)
 author: windows-sdk-content
 description: Moves all messages from the source queue to the destination queue.
 old-location: cos\imessagemover_movemessages.htm

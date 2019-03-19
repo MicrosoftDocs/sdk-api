@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpItemData
-title: IWiaItem::DumpItemData
+title: IWiaItem::DumpItemData (wia_xp.h)
 author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaItem_DumpItemData.htm

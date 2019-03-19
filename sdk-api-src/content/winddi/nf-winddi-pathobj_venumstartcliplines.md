@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.PATHOBJ_vEnumStartClipLines
-title: PATHOBJ_vEnumStartClipLines function
+title: PATHOBJ_vEnumStartClipLines function (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ_vEnumStartClipLines function allows the driver to request lines to be clipped against a specified clip region.
 old-location: display\pathobj_venumstartcliplines.htm

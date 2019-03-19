@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MinorVersion
-title: IFaxDeviceProvider::get_MinorVersion
+title: IFaxDeviceProvider::get_MinorVersion (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxDeviceProvider::get_MinorVersion property is a value that specifies the minor part of the version number for the fax service provider (FSP)Â DLL.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_minorversion_cpp.htm

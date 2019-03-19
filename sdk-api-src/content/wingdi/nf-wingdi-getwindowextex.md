@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.GetWindowExtEx
-title: GetWindowExtEx function
+title: GetWindowExtEx function (wingdi.h)
 author: windows-sdk-content
 description: This function retrieves the x-extent and y-extent of the window for the specified device context.
 old-location: gdi\getwindowextex.htm

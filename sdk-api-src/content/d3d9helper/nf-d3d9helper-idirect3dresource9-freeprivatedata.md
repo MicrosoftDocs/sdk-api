@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.FreePrivateData
-title: IDirect3DResource9::FreePrivateData
+title: IDirect3DResource9::FreePrivateData (d3d9helper.h)
 author: windows-sdk-content
 description: Frees the specified private data associated with this resource.
 old-location: direct3d9\idirect3dresource9__freeprivatedata.htm

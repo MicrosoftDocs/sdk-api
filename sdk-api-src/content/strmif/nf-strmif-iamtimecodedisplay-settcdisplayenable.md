@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.SetTCDisplayEnable
-title: IAMTimecodeDisplay::SetTCDisplayEnable
+title: IAMTimecodeDisplay::SetTCDisplayEnable (strmif.h)
 author: windows-sdk-content
 description: The SetTCDisplayEnable method enables or disables an external device's timecode character output generator.
 old-location: dshow\iamtimecodedisplay_settcdisplayenable.htm

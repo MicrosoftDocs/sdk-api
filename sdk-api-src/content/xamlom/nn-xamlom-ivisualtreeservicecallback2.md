@@ -1,6 +1,6 @@
 ---
 UID: NN:xamlom.IVisualTreeServiceCallback2
-title: IVisualTreeServiceCallback2
+title: IVisualTreeServiceCallback2 (xamlom.h)
 author: windows-sdk-content
 description: Represents additional capabilities of an IVisualTreeServiceCallback object.
 old-location: xaml_diagnostics\ivisualtreeservicecallback2.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_State
-title: ILegacyIAccessibleProvider::get_State
+title: ILegacyIAccessibleProvider::get_State (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the state of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_State.htm

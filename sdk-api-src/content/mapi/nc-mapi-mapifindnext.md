@@ -1,6 +1,6 @@
 ---
 UID: NC:mapi.MAPIFINDNEXT
-title: MAPIFINDNEXT
+title: MAPIFINDNEXT (mapi.h)
 author: windows-sdk-content
 description: The MAPIFindNext function retrieves the next (or first) message identifier of a specified type of incoming message.
 old-location: mapi\mapifindnext.htm

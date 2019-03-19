@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.GenerateReport
-title: IGPMRSOP::GenerateReport
+title: IGPMRSOP::GenerateReport (gpmgmt.h)
 author: windows-sdk-content
 description: The GenerateReport method generates a report on the RSoP data.
 old-location: gpmc\igpmrsop_generatereport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:contentpartner.WMPContextMenuInfo
-title: WMPContextMenuInfo
+title: WMPContextMenuInfo (contentpartner.h)
 author: windows-sdk-content
 description: The WMPContextMenuInfo structure contains data about a context menu command.
 old-location: wmp\wmpcontextmenuinfo.htm

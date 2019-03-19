@@ -1,6 +1,6 @@
 ---
 UID: NF:evr9.IEVRVideoStreamControl.GetStreamActiveState
-title: IEVRVideoStreamControl::GetStreamActiveState
+title: IEVRVideoStreamControl::GetStreamActiveState (evr9.h)
 author: windows-sdk-content
 description: IEVRVideoStreamControl::GetStreamActiveState method
 old-location: mf\ievrvideostreamcontrol_getstreamactivestate.htm

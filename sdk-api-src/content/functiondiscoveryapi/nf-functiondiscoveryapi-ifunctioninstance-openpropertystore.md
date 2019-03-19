@@ -1,6 +1,6 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.OpenPropertyStore
-title: IFunctionInstance::OpenPropertyStore
+title: IFunctionInstance::OpenPropertyStore (functiondiscoveryapi.h)
 author: windows-sdk-content
 description: Opens the property store for the function instance.
 old-location: ncd\ifunctioninstance_openpropertystore_method.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Remove
-title: ITriggerCollection::Remove
+title: ITriggerCollection::Remove (taskschd.h)
 author: windows-sdk-content
 description: Removes the specified trigger from the collection of triggers used by the task.
 old-location: taskschd\itriggercollection_remove.htm

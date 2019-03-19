@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.Clone
-title: IMFPresentationDescriptor::Clone
+title: IMFPresentationDescriptor::Clone (mfidl.h)
 author: windows-sdk-content
 description: Creates a copy of this presentation descriptor.
 old-location: mf\imfpresentationdescriptor_clone.htm

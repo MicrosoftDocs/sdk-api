@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetWeight
-title: ITextFont::GetWeight
+title: ITextFont::GetWeight (tom.h)
 author: windows-sdk-content
 description: Gets the font weight for the characters in a range.
 old-location: controls\ITextFont_GetWeight.htm

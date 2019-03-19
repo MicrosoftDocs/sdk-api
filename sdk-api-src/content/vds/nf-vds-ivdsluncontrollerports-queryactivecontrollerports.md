@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsLunControllerPorts.QueryActiveControllerPorts
-title: IVdsLunControllerPorts::QueryActiveControllerPorts
+title: IVdsLunControllerPorts::QueryActiveControllerPorts (vds.h)
 author: windows-sdk-content
 description: Returns an enumeration of currently active controller ports.
 old-location: base\ivdsluncontrollerports_queryactivecontrollerports.htm

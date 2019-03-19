@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetSharedHandle
-title: IDXGIResource::GetSharedHandle
+title: IDXGIResource::GetSharedHandle (dxgi.h)
 author: windows-sdk-content
 description: Gets the handle to a shared resource.
 old-location: direct3ddxgi\idxgiresource_getsharedhandle.htm

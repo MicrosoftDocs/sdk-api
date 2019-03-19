@@ -1,6 +1,6 @@
 ---
 UID: NF:netioapi.GetIfTable2
-title: GetIfTable2 function
+title: GetIfTable2 function (netioapi.h)
 author: windows-sdk-content
 description: Retrieves the MIB-II interface table.
 old-location: iphlp\getiftable2.htm

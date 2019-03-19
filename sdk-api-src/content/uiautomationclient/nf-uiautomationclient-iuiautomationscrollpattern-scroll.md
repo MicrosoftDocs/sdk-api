@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.Scroll
-title: IUIAutomationScrollPattern::Scroll
+title: IUIAutomationScrollPattern::Scroll (uiautomationclient.h)
 author: windows-sdk-content
 description: Scrolls the visible region of the content area horizontally and vertically.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_Scroll.htm

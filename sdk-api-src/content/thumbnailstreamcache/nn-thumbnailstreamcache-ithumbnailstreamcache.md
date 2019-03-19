@@ -1,6 +1,6 @@
 ---
 UID: NN:thumbnailstreamcache.IThumbnailStreamCache
-title: IThumbnailStreamCache
+title: IThumbnailStreamCache (thumbnailstreamcache.h)
 author: windows-sdk-content
 description: Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache.htm

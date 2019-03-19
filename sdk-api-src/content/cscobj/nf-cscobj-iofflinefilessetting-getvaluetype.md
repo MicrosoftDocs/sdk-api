@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetValueType
-title: IOfflineFilesSetting::GetValueType
+title: IOfflineFilesSetting::GetValueType (cscobj.h)
 author: windows-sdk-content
 description: Retrieves the data type of a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getvaluetype.htm

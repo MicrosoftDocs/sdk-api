@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreFloat4x4
-title: XMStoreFloat4x4 function
+title: XMStoreFloat4x4 function (directxmath.h)
 author: windows-sdk-content
 description: Stores an XMMATRIX in an XMFLOAT4X4.
 old-location: dxmath\xmstorefloat4x4.htm

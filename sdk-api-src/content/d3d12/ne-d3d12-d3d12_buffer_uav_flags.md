@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_BUFFER_UAV_FLAGS
-title: D3D12_BUFFER_UAV_FLAGS
+title: D3D12_BUFFER_UAV_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Identifies unordered-access view options for a buffer resource.
 old-location: direct3d12\d3d12_buffer_uav_flags.htm

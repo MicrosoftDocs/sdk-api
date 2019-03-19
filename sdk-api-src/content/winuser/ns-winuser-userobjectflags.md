@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagUSEROBJECTFLAGS
-title: USEROBJECTFLAGS
+title: USEROBJECTFLAGS (winuser.h)
 author: windows-sdk-content
 description: Contains information about a window station or desktop handle.
 old-location: winstation\userobjectflags_str.htm

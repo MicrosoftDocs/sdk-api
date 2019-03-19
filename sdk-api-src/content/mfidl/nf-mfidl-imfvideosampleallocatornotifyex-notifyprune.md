@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorNotifyEx.NotifyPrune
-title: IMFVideoSampleAllocatorNotifyEx::NotifyPrune
+title: IMFVideoSampleAllocatorNotifyEx::NotifyPrune (mfidl.h)
 author: windows-sdk-content
 description: Called when allocator samples are released for pruning by the allocator, or when the allocator is removed.
 old-location: mf\imfvideosampleallocatornotifyex_notifyprune.htm

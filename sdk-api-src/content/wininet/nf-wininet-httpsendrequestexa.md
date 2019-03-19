@@ -1,6 +1,6 @@
 ---
 UID: NF:wininet.HttpSendRequestExA
-title: HttpSendRequestExA function
+title: HttpSendRequestExA function (wininet.h)
 author: windows-sdk-content
 description: Sends the specified request to the HTTP server.
 old-location: wininet\httpsendrequestex.htm

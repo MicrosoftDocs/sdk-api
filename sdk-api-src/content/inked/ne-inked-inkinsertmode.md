@@ -1,6 +1,6 @@
 ---
 UID: NE:inked.InkInsertMode
-title: InkInsertMode
+title: InkInsertMode (inked.h)
 author: windows-sdk-content
 description: Specifies how ink is inserted onto the InkEdit control.
 old-location: tablet\inkinsertmode.htm

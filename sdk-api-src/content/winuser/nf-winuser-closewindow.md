@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CloseWindow
-title: CloseWindow function
+title: CloseWindow function (winuser.h)
 author: windows-sdk-content
 description: Minimizes (but does not destroy) the specified window.
 old-location: winmsg\closewindow.htm

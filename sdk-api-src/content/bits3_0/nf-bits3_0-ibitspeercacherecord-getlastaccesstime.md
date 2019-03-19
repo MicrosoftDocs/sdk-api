@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetLastAccessTime
-title: IBitsPeerCacheRecord::GetLastAccessTime
+title: IBitsPeerCacheRecord::GetLastAccessTime (bits3_0.h)
 author: windows-sdk-content
 description: Gets the date and time that the file was last accessed.
 old-location: bits\ibitspeercacherecord_getlastaccesstime.htm

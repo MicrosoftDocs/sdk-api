@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_ServiceName
-title: INetFwRule::put_ServiceName
+title: INetFwRule::put_ServiceName (netfw.h)
 author: windows-sdk-content
 description: Specifies the service name property of the application.
 old-location: ics\inetfwrule_servicename.htm

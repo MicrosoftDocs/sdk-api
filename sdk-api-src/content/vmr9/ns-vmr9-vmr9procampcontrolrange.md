@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9ProcAmpControlRange
-title: VMR9ProcAmpControlRange
+title: VMR9ProcAmpControlRange (vmr9.h)
 author: windows-sdk-content
 description: The VMR9ProcAmpControlRange structure specifies the valid range for an image adjustment property. The range depends on the graphics device driver. This structure is used with the Video Mixing Renderer 9 Filter (VMR-9).
 old-location: dshow\vmr9procampcontrolrange.htm

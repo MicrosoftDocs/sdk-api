@@ -1,6 +1,6 @@
 ---
 UID: NS:propidl.tagSERIALIZEDPROPERTYVALUE
-title: SERIALIZEDPROPERTYVALUE
+title: SERIALIZEDPROPERTYVALUE (propidl.h)
 author: windows-sdk-content
 description: A range of memory of arbitrary type that represents a serialized PROPVARIANT structure.
 old-location: shell\SERIALIZEDPROPERTYVALUE.htm

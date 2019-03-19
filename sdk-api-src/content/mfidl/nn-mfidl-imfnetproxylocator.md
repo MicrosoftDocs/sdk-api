@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFNetProxyLocator
-title: IMFNetProxyLocator
+title: IMFNetProxyLocator (mfidl.h)
 author: windows-sdk-content
 description: Determines the proxy to use when connecting to a server.
 old-location: mf\imfnetproxylocator.htm

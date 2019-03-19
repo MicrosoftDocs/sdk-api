@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_DeviceId
-title: IFaxJobStatus::get_DeviceId
+title: IFaxJobStatus::get_DeviceId (faxcomex.h)
 author: windows-sdk-content
 description: The DeviceId property indicates the device ID of the device associated with the fax job.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_deviceid_cpp.htm

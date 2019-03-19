@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.IURLSearchHook2.TranslateWithSearchContext
-title: IURLSearchHook2::TranslateWithSearchContext
+title: IURLSearchHook2::TranslateWithSearchContext (shlobj_core.h)
 author: windows-sdk-content
 description: Called by the browser when the browser cannot determine the protocol of a URL address. This method uses a search context to determine the protocol.
 old-location: shell\IURLSearchHook2_TranslateWithSearchContext.htm

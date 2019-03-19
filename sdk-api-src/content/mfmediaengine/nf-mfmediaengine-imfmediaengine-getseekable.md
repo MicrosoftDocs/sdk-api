@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetSeekable
-title: IMFMediaEngine::GetSeekable
+title: IMFMediaEngine::GetSeekable (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the time ranges to which the Media Engine can currently seek.
 old-location: mf\imfmediaengine_getseekable.htm

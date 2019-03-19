@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION_SUBSCRIPTION0_
-title: FWPM_CONNECTION_SUBSCRIPTION0
+title: FWPM_CONNECTION_SUBSCRIPTION0 (fwpmtypes.h)
 author: windows-sdk-content
 description: Stores information used to subscribe to notifications about a connection object.
 old-location: fwp\fwpm_connection_subscription0.htm

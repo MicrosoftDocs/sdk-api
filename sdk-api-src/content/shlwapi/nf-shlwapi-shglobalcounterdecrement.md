@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterDecrement
-title: SHGlobalCounterDecrement function
+title: SHGlobalCounterDecrement function (shlwapi.h)
 author: windows-sdk-content
 description: Decrements a global counter.
 old-location: shell\SHGlobalCounterDecrement.htm

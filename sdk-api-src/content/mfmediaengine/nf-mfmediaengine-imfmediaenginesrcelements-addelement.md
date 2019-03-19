@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.AddElement
-title: IMFMediaEngineSrcElements::AddElement
+title: IMFMediaEngineSrcElements::AddElement (mfmediaengine.h)
 author: windows-sdk-content
 description: Adds a source element to the end of the list.
 old-location: mf\imfmediaenginesrcelements_addelement.htm

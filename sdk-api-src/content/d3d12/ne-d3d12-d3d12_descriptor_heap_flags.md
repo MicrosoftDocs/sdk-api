@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_DESCRIPTOR_HEAP_FLAGS
-title: D3D12_DESCRIPTOR_HEAP_FLAGS
+title: D3D12_DESCRIPTOR_HEAP_FLAGS (d3d12.h)
 author: windows-sdk-content
 description: Specifies options for a heap.
 old-location: direct3d12\d3d12_descriptor_heap_flags.htm

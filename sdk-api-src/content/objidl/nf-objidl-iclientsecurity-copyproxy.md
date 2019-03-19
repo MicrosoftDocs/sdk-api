@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IClientSecurity.CopyProxy
-title: IClientSecurity::CopyProxy
+title: IClientSecurity::CopyProxy (objidl.h)
 author: windows-sdk-content
 description: Makes a private copy of the proxy for the specified interface.
 old-location: com\iclientsecurity_copyproxy.htm

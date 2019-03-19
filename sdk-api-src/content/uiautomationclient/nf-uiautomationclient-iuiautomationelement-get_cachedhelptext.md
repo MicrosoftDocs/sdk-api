@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedHelpText
-title: IUIAutomationElement::get_CachedHelpText
+title: IUIAutomationElement::get_CachedHelpText (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached help text for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedHelpText.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetISearchString
-title: TreeView_GetISearchString macro
+title: TreeView_GetISearchString macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the incremental search string for a tree-view control. The tree-view control uses the incremental search string to select an item based on characters typed by the user. You can use this macro or send the TVM_GETISEARCHSTRING message explicitly.
 old-location: controls\TreeView_GetISearchString.htm

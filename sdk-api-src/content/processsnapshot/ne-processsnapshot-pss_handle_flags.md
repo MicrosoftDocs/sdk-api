@@ -1,6 +1,6 @@
 ---
 UID: NE:processsnapshot.__unnamed_enum_0
-title: PSS_HANDLE_FLAGS
+title: PSS_HANDLE_FLAGS (processsnapshot.h)
 author: windows-sdk-content
 description: Flags to specify what parts of a PSS_HANDLE_ENTRY structure are valid.
 old-location: proc_snap\pss_handle_flags.htm

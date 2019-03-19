@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationActiveTextPositionChangedEventHandler.HandleActiveTextPositionChangedEvent
-title: IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent
+title: IUIAutomationActiveTextPositionChangedEventHandler::HandleActiveTextPositionChangedEvent (uiautomationclient.h)
 author: windows-sdk-content
 description: Handles a Microsoft UI Automation active text position change event.
 old-location: winauto\uiauto_IUIAutomationActiveTextPositionChangedEventHandler_HandleActiveTextPositionChangedEvent.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
-title: HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
+title: HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY (http.h)
 author: windows-sdk-content
 description: Used by HttpQueryServiceConfiguration to return a list of the Internet Protocol (IP) addresses to which the HTTP service binds.
 old-location: http\http_service_config_ip_listen_query.htm

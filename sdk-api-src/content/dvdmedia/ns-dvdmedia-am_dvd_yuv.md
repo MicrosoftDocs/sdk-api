@@ -1,6 +1,6 @@
 ---
 UID: NS:dvdmedia._AM_DVD_YUV
-title: AM_DVD_YUV
+title: AM_DVD_YUV (dvdmedia.h)
 author: windows-sdk-content
 description: Contains DVD YUV subpicture data.
 old-location: dshow\am_dvd_yuv.htm

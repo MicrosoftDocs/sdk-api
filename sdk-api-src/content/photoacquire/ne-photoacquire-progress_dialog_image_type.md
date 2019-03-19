@@ -1,6 +1,6 @@
 ---
 UID: NE:photoacquire.tagPROGRESS_DIALOG_IMAGE_TYPE
-title: PROGRESS_DIALOG_IMAGE_TYPE
+title: PROGRESS_DIALOG_IMAGE_TYPE (photoacquire.h)
 author: windows-sdk-content
 description: The PROGRESS_DIALOG_IMAGE_TYPE enumeration type indicates the image type set in IPhotoProgressDialog::SetImage.
 old-location: picacq\progress_dialog_image_type.htm

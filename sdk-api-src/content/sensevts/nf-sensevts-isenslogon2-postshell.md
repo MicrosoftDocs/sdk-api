@@ -1,6 +1,6 @@
 ---
 UID: NF:sensevts.ISensLogon2.PostShell
-title: ISensLogon2::PostShell
+title: ISensLogon2::PostShell (sensevts.h)
 author: windows-sdk-content
 description: Use the PostShell method when a user has logged on and Windows Explorer is running. This method is different from the Logon method because Logon is called after logon when the Shell may not yet be running.
 old-location: sens\isenslogon2_sessionpostshell.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:dwrite.DWRITE_SCRIPT_ANALYSIS
-title: DWRITE_SCRIPT_ANALYSIS
+title: DWRITE_SCRIPT_ANALYSIS (dwrite.h)
 author: windows-sdk-content
 description: Stores the association of text and its writing system script, as well as some display attributes.
 old-location: directwrite\dwrite_script_analysis.htm

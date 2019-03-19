@@ -1,6 +1,6 @@
 ---
 UID: NN:objidl.IAdviseSink2
-title: IAdviseSink2
+title: IAdviseSink2 (objidl.h)
 author: windows-sdk-content
 description: The IAdviseSink2 interface is an extension of the IAdviseSink interface, adding the method OnLinkSrcChange to the contract to handle a change in the moniker of a linked object.
 old-location: com\iadvisesink2.htm

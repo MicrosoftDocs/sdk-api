@@ -1,6 +1,6 @@
 ---
 UID: NF:ntdsapi.DsFreeSpnArrayW
-title: DsFreeSpnArrayW function
+title: DsFreeSpnArrayW function (ntdsapi.h)
 author: windows-sdk-content
 description: Frees an array returned from the DsGetSpn function.
 old-location: ad\dsfreespnarray.htm

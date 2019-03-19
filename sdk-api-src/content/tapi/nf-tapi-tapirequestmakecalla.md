@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.tapiRequestMakeCallA
-title: tapiRequestMakeCallA function
+title: tapiRequestMakeCallA function (tapi.h)
 author: windows-sdk-content
 description: The tapiRequestMakeCall function requests the establishment of a voice call. A call-manager application is responsible for establishing the call on behalf of the requesting application, which is then controlled by the user's call-manager application.
 old-location: tapi2\tapirequestmakecall.htm

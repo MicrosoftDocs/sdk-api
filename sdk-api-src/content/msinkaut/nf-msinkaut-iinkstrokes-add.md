@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Add
-title: IInkStrokes::Add
+title: IInkStrokes::Add (msinkaut.h)
 author: windows-sdk-content
 description: Adds an IInkStrokeDisp object or InkStrokes collection to an existing InkStrokes collection.
 old-location: tablet\inkstrokes_add.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMReaderNetworkConfig
-title: IWMReaderNetworkConfig
+title: IWMReaderNetworkConfig (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMReaderNetworkConfig interface is used to set and test network configuration settings.
 old-location: wmformat\iwmreadernetworkconfig.htm

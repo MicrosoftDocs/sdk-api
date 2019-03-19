@@ -1,6 +1,6 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.RepeatBetweenKeyframes
-title: IUIAnimationStoryboard2::RepeatBetweenKeyframes
+title: IUIAnimationStoryboard2::RepeatBetweenKeyframes (uianimation.h)
 author: windows-sdk-content
 description: Creates a loop between two keyframes.
 old-location: uianimation\iuianimationstoryboard2_repeatbetweenkeyframes.htm

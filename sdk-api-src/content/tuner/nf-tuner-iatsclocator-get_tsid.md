@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IATSCLocator.get_TSID
-title: IATSCLocator::get_TSID
+title: IATSCLocator::get_TSID (tuner.h)
 author: windows-sdk-content
 description: The get_TSID method retrieves the transport stream ID.
 old-location: mstv\iatsclocator_get_tsid.htm

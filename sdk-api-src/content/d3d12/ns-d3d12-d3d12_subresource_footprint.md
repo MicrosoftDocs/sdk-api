@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12.D3D12_SUBRESOURCE_FOOTPRINT
-title: D3D12_SUBRESOURCE_FOOTPRINT
+title: D3D12_SUBRESOURCE_FOOTPRINT (d3d12.h)
 author: windows-sdk-content
 description: Describes the format, width, height, depth, and row-pitch of the subresource into the parent resource.
 old-location: direct3d12\d3d12_subresource_footprint.htm

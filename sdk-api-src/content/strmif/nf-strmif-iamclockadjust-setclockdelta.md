@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IAMClockAdjust.SetClockDelta
-title: IAMClockAdjust::SetClockDelta
+title: IAMClockAdjust::SetClockDelta (strmif.h)
 author: windows-sdk-content
 description: The SetClockDelta method adjusts the clock time.
 old-location: dshow\iamclockadjust_setclockdelta.htm

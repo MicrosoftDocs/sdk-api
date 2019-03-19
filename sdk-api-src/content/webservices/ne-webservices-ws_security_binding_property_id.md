@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_69
-title: WS_SECURITY_BINDING_PROPERTY_ID
+title: WS_SECURITY_BINDING_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Identifies the properties used to specify security binding settings. Security binding settings are present in security bindingsthat are used, in turn, in a security description.
 old-location: wsw\ws_security_binding_property_id.htm

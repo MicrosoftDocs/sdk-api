@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsReadElement
-title: WsReadElement function
+title: WsReadElement function (webservices.h)
 author: windows-sdk-content
 description: Read an element producing a value of the specified WS_TYPE.
 old-location: wsw\wsreadelement.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeFreeDataHandle
-title: DdeFreeDataHandle function
+title: DdeFreeDataHandle function (ddeml.h)
 author: windows-sdk-content
 description: Frees a Dynamic Data Exchange (DDE) object and deletes the data handle associated with the object.
 old-location: dataxchg\ddefreedatahandle.htm

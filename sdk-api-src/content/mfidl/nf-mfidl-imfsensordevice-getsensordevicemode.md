@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetSensorDeviceMode
-title: IMFSensorDevice::GetSensorDeviceMode
+title: IMFSensorDevice::GetSensorDeviceMode (mfidl.h)
 author: windows-sdk-content
 description: Gets a value that specifies the current sharing mode of the sensor device, which is either controller or shared.
 old-location: mf\imfsensordevice_getsensordevicemode.htm

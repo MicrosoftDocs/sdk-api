@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.Append
-title: IXpsOMFontResourceCollection::Append
+title: IXpsOMFontResourceCollection::Append (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Appends an IXpsOMFontResource interface to the end of the collection.
 old-location: xps\ixpsomfontresourcecollection_append.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcom.IFaxJob.get_BillingCode
-title: IFaxJob::get_BillingCode
+title: IFaxJob::get_BillingCode (faxcom.h)
 author: windows-sdk-content
 description: The IFaxJob::get_BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_billingcode_cpp.htm

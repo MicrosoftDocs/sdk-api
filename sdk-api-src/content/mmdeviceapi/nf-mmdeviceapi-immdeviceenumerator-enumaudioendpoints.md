@@ -1,6 +1,6 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.EnumAudioEndpoints
-title: IMMDeviceEnumerator::EnumAudioEndpoints
+title: IMMDeviceEnumerator::EnumAudioEndpoints (mmdeviceapi.h)
 author: windows-sdk-content
 description: The EnumAudioEndpoints method generates a collection of audio endpoint devices that meet the specified criteria.
 old-location: coreaudio\immdeviceenumerator_enumaudioendpoints.htm

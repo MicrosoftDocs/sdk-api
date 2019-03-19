@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CopyResource
-title: ID3D11DeviceContext::CopyResource
+title: ID3D11DeviceContext::CopyResource (d3d11.h)
 author: windows-sdk-content
 description: Copy the entire contents of the source resource to the destination resource using the GPU.
 old-location: direct3d11\id3d11devicecontext_copyresource.htm

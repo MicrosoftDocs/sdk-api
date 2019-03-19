@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_DECIMAL_DESCRIPTION
-title: WS_DECIMAL_DESCRIPTION
+title: WS_DECIMAL_DESCRIPTION (webservices.h)
 author: windows-sdk-content
 description: An optional type description used with WS_DECIMAL_TYPE. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_decimal_description.htm

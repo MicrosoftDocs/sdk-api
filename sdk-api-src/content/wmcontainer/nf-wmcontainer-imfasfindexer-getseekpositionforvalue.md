@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetSeekPositionForValue
-title: IMFASFIndexer::GetSeekPositionForValue
+title: IMFASFIndexer::GetSeekPositionForValue (wmcontainer.h)
 author: windows-sdk-content
 description: Given a desired seek time, gets the offset from which the client should start reading data.
 old-location: mf\imfasfindexer_getseekpositionforvalue.htm

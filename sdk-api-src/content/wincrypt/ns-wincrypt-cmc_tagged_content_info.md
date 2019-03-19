@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_CONTENT_INFO
-title: CMC_TAGGED_CONTENT_INFO
+title: CMC_TAGGED_CONTENT_INFO (wincrypt.h)
 author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_content_info.htm

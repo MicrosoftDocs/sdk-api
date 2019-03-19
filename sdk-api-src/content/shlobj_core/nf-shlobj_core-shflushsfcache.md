@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHFlushSFCache
-title: SHFlushSFCache function
+title: SHFlushSFCache function (shlobj_core.h)
 author: windows-sdk-content
 description: SHFlushSFCache may be altered or unavailable.
 old-location: shell\SHFlushSFCache.htm

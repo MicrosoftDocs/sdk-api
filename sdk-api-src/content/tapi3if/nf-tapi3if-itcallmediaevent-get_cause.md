@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Cause
-title: ITCallMediaEvent::get_Cause
+title: ITCallMediaEvent::get_Cause (tapi3if.h)
 author: windows-sdk-content
 description: The get_Cause method gets the cause of the call media event, such as a timeout on the renderer device.
 old-location: tapi3\itcallmediaevent_get_cause.htm

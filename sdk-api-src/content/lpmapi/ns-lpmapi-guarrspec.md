@@ -1,6 +1,6 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_26
-title: GuarRspec
+title: GuarRspec (lpmapi.h)
 author: windows-sdk-content
 description: The GuarRspec structure contains guaranteed Rspec information.
 old-location: qos\guarrspec.htm

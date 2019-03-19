@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetRestrictionFacets
-title: ISettingsItem::GetRestrictionFacets
+title: ISettingsItem::GetRestrictionFacets (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the restrictions defined for this item.
 old-location: smi\isettingsitem_getrestrictionfacets.htm

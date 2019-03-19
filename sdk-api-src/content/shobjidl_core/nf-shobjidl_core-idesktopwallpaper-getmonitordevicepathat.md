@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorDevicePathAt
-title: IDesktopWallpaper::GetMonitorDevicePathAt
+title: IDesktopWallpaper::GetMonitorDevicePathAt (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the unique ID of one of the system's monitors.
 old-location: shell\IDesktopWallpaper_GetMonitorDevicePathAt.htm

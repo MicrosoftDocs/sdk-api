@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateItem
-title: ISyncMgrControl::UpdateItem
+title: ISyncMgrControl::UpdateItem (syncmgr.h)
 author: windows-sdk-content
 description: Informs Sync Center that properties of a sync item have changed.
 old-location: shell\ISyncMgrControl_UpdateItem.htm

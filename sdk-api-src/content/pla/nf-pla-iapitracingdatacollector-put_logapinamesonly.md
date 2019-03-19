@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.put_LogApiNamesOnly
-title: IApiTracingDataCollector::put_LogApiNamesOnly
+title: IApiTracingDataCollector::put_LogApiNamesOnly (pla.h)
 author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether PLA logs only the function name.
 old-location: pla\iapitracingdatacollector_logapinamesonly.htm

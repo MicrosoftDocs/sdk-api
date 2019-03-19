@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetPalette
-title: IBrowserService::GetPalette
+title: IBrowserService::GetPalette (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves the browser's palette.
 old-location: shell\IBrowserService_GetPalette.htm

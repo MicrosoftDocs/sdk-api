@@ -1,6 +1,6 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.Cancelled
-title: IPhotoAcquireProgressCB::Cancelled
+title: IPhotoAcquireProgressCB::Cancelled (photoacquire.h)
 author: windows-sdk-content
 description: The Cancelled method provides extended functionality when a cancellation occurs during an acquisition session. The application provides the implementation of the Cancelled method.
 old-location: picacq\iphotoacquireprogresscb_cancelled.htm

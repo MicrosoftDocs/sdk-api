@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVectorExp2
-title: XMVectorExp2 function
+title: XMVectorExp2 function (directxmath.h)
 author: windows-sdk-content
 description: Computes two raised to the power for each component.
 old-location: dxmath\xmvectorexp2.htm

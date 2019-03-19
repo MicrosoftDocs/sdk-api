@@ -1,6 +1,6 @@
 ---
 UID: NS:qosobjs._QOS_FRIENDLY_NAME
-title: QOS_FRIENDLY_NAME
+title: QOS_FRIENDLY_NAME (qosobjs.h)
 author: windows-sdk-content
 description: The QOS_FRIENDLY_NAME traffic control object associates a friendly name with flow.
 old-location: qos\qos_friendly_name.htm

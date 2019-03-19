@@ -1,6 +1,6 @@
 ---
 UID: NN:oleidl.IOleInPlaceActiveObject
-title: IOleInPlaceActiveObject
+title: IOleInPlaceActiveObject (oleidl.h)
 author: windows-sdk-content
 description: Provides a direct channel of communication between an in-place object and the associated application's outer-most frame window and the document window within the application that contains the embedded object.
 old-location: com\ioleinplaceactiveobject.htm

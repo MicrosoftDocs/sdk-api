@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.StopVoice
-title: IDirectMusicSynth8::StopVoice
+title: IDirectMusicSynth8::StopVoice (dmusics.h)
 author: windows-sdk-content
 description: StopVoice is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_stopvoice.htm

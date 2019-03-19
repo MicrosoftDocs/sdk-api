@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfRange.GetGravity
-title: ITfRange::GetGravity
+title: ITfRange::GetGravity (msctf.h)
 author: windows-sdk-content
 description: ITfRange::GetGravity method
 old-location: tsf\itfrange_getgravity.htm

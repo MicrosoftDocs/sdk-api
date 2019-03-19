@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemcli.IWbemContext.Clone
-title: IWbemContext::Clone
+title: IWbemContext::Clone (wbemcli.h)
 author: windows-sdk-content
 description: The IWbemContext::Clone method makes a logical copy of the current IWbemContext object. This method can be useful when many calls must be made which have largely identical IWbemContext objects.
 old-location: wmi\iwbemcontext_clone.htm

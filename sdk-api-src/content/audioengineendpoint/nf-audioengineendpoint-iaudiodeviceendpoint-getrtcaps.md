@@ -1,6 +1,6 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.GetRTCaps
-title: IAudioDeviceEndpoint::GetRTCaps
+title: IAudioDeviceEndpoint::GetRTCaps (audioengineendpoint.h)
 author: windows-sdk-content
 description: Queries whether the audio device is real-time (RT)-capable. This method is not used in Remote Desktop Services implementations of IAudioDeviceEndpoint.
 old-location: termserv\iaudiodeviceendpoint_getrtcaps.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterGroupEnumEx
-title: ClusterGroupEnumEx function
+title: ClusterGroupEnumEx function (clusapi.h)
 author: windows-sdk-content
 description: Retrieves an item in the enumeration.
 old-location: mscs\clustergroupenumex.htm

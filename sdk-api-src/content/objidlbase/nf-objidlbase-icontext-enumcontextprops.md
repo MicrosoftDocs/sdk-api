@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IContext.EnumContextProps
-title: IContext::EnumContextProps
+title: IContext::EnumContextProps (objidlbase.h)
 author: windows-sdk-content
 description: Returns an IEnumContextProps interface pointer that can be used to enumerate the context properties in this context.
 old-location: com\icontext_enumcontextprops.htm

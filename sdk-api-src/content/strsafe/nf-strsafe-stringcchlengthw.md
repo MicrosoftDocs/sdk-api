@@ -1,6 +1,6 @@
 ---
 UID: NF:strsafe.StringCchLengthW
-title: StringCchLengthW function
+title: StringCchLengthW function (strsafe.h)
 author: windows-sdk-content
 description: Determines whether a string exceeds the specified length, in characters.
 old-location: menurc\stringcchlength.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.QueryAbilities
-title: ISyncMgrResolutionHandler::QueryAbilities
+title: ISyncMgrResolutionHandler::QueryAbilities (syncmgr.h)
 author: windows-sdk-content
 description: Determines what options the conflict presenter will display.
 old-location: shell\ISyncMgrResolutionHandler_QueryAbilities.htm

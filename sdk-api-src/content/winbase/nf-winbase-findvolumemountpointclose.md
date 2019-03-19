@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.FindVolumeMountPointClose
-title: FindVolumeMountPointClose function
+title: FindVolumeMountPointClose function (winbase.h)
 author: windows-sdk-content
 description: Closes the specified mounted folder search handle.
 old-location: fs\findvolumemountpointclose.htm

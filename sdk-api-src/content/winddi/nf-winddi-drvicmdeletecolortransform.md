@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.DrvIcmDeleteColorTransform
-title: DrvIcmDeleteColorTransform function
+title: DrvIcmDeleteColorTransform function (winddi.h)
 author: windows-sdk-content
 description: The DrvIcmDeleteColorTransform function deletes the specified color transform.
 old-location: display\drvicmdeletecolortransform.htm

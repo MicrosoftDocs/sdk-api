@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.RequestAccess
-title: IMFInputTrustAuthority::RequestAccess
+title: IMFInputTrustAuthority::RequestAccess (mfidl.h)
 author: windows-sdk-content
 description: Requests permission to perform a specified action on the stream.
 old-location: mf\imfinputtrustauthority_requestaccess.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GraphCreationPostRender
-title: IWMPGraphCreation::GraphCreationPostRender
+title: IWMPGraphCreation::GraphCreationPostRender (wmpservices.h)
 author: windows-sdk-content
 description: The GraphCreationPostRender method is called by Windows Media Player after a file has been rendered.
 old-location: wmp\iwmpgraphcreation_graphcreationpostrender.htm

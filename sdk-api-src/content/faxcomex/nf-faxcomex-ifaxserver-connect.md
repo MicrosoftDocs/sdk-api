@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxServer.Connect
-title: IFaxServer::Connect
+title: IFaxServer::Connect (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxServer::Connect method connects a fax client application to the specified fax server.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_connect_cpp.htm

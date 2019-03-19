@@ -1,6 +1,6 @@
 ---
 UID: NS:t2embapi.__unnamed_struct_2
-title: TTVALIDATIONTESTSPARAMS
+title: TTVALIDATIONTESTSPARAMS (t2embapi.h)
 author: windows-sdk-content
 description: The TTVALIDATIONTESTSPARAMS structure contains parameters for testing a Microsoft OpenType font.
 old-location: gdi\ttvalidationtestparams.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.Refresh
-title: IFaxEventLogging::Refresh
+title: IFaxEventLogging::Refresh (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxEventLogging::Refresh method refreshes IFaxEventLogging interface information from the fax server.
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp.htm

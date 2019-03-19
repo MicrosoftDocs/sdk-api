@@ -1,6 +1,6 @@
 ---
 UID: NN:wuapi.IInstallationCompletedCallback
-title: IInstallationCompletedCallback
+title: IInstallationCompletedCallback (wuapi.h)
 author: windows-sdk-content
 description: Handles the notification that indicates that an asynchronous installation or uninstallation is complete.
 old-location: wua\iinstallationcompletedcallback.htm

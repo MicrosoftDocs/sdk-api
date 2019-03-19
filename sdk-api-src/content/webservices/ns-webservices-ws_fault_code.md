@@ -1,6 +1,6 @@
 ---
 UID: NS:webservices._WS_FAULT_CODE
-title: WS_FAULT_CODE
+title: WS_FAULT_CODE (webservices.h)
 author: windows-sdk-content
 description: Represents a fault code.
 old-location: wsw\ws_fault_code.htm

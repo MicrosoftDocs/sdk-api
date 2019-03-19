@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCert
-title: IWMAuthorizer::GetCert
+title: IWMAuthorizer::GetCert (wmsecure.h)
 author: windows-sdk-content
 description: Retrieves the specified certificate.
 old-location: wmformat\iwmauthorizer_getcert.htm

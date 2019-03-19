@@ -1,6 +1,6 @@
 ---
 UID: NE:p2p.peer_graph_property_flags_tag
-title: PEER_GRAPH_PROPERTY_FLAGS
+title: PEER_GRAPH_PROPERTY_FLAGS (p2p.h)
 author: windows-sdk-content
 description: The PEER_GRAPH_PROPERTY_FLAGS enumeration specifies properties of a peer graph.
 old-location: p2p\peer_graph_property_flags.htm

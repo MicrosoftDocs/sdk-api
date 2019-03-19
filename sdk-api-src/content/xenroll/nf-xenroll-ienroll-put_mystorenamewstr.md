@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_MyStoreNameWStr
-title: IEnroll::put_MyStoreNameWStr
+title: IEnroll::put_MyStoreNameWStr (xenroll.h)
 author: windows-sdk-content
 description: The MyStoreNameWStr property of IEnroll4 sets or retrieves the name of the store where certificates with linked private keys are kept.
 old-location: security\ienroll4_mystorenamewstr.htm

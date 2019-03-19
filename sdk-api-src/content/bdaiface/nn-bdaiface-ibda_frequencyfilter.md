@@ -1,6 +1,6 @@
 ---
 UID: NN:bdaiface.IBDA_FrequencyFilter
-title: IBDA_FrequencyFilter
+title: IBDA_FrequencyFilter (bdaiface.h)
 author: windows-sdk-content
 description: The IBDA_FrequencyFilter interface is implemented on a BDA tuner device, and is used by the Network Provider to tell the tuner how to set its frequencies.
 old-location: mstv\ibda_frequencyfilter.htm

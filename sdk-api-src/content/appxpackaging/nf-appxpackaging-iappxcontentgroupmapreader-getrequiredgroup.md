@@ -1,6 +1,6 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapReader.GetRequiredGroup
-title: IAppxContentGroupMapReader::GetRequiredGroup
+title: IAppxContentGroupMapReader::GetRequiredGroup (appxpackaging.h)
 author: windows-sdk-content
 description: Gets the required content group from the content group map.
 old-location: appxpkg\iappxcontentgroupmapreader_getrequiredgroup.htm

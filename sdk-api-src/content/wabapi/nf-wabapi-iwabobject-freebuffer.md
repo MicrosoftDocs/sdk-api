@@ -1,6 +1,6 @@
 ---
 UID: NF:wabapi.IWABObject.FreeBuffer
-title: IWABObject::FreeBuffer
+title: IWABObject::FreeBuffer (wabapi.h)
 author: windows-sdk-content
 description: Frees memory allocated with IWABObject::AllocateBuffer or any of the other Windows Address Book (WAB) methods.
 old-location: wab\_wab_IWABObject_FreeBuffer.htm

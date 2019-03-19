@@ -1,6 +1,6 @@
 ---
 UID: NS:winuser.tagCURSORSHAPE
-title: CURSORSHAPE
+title: CURSORSHAPE (winuser.h)
 author: windows-sdk-content
 description: Contains information about a cursor.
 old-location: menurc\cursorshape.htm

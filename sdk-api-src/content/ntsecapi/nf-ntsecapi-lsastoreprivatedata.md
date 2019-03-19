@@ -1,6 +1,6 @@
 ---
 UID: NF:ntsecapi.LsaStorePrivateData
-title: LsaStorePrivateData function
+title: LsaStorePrivateData function (ntsecapi.h)
 author: windows-sdk-content
 description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
 old-location: security\lsastoreprivatedata.htm

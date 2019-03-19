@@ -1,6 +1,6 @@
 ---
 UID: NF:directxpackedvector.XMLoadHalf4
-title: XMLoadHalf4 function
+title: XMLoadHalf4 function (directxpackedvector.h)
 author: windows-sdk-content
 description: Loads an XMHALF4 into an XMVECTOR.
 old-location: dxmath\xmloadhalf4.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.EnableThreadProfiling
-title: EnableThreadProfiling function
+title: EnableThreadProfiling function (winbase.h)
 author: windows-sdk-content
 description: Enables thread profiling on the specified thread.
 old-location: hcp\enablethreadprofiling.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:chstrarr.CHStringArray.ElementAt(int)
-title: CHStringArray::ElementAt(int)
+title: CHStringArray::ElementAt(int) (chstrarr.h)
 author: windows-sdk-content
 description: The ElementAt method returns a temporary reference to the element pointer within the array.
 old-location: wmi\chstringarray_elementat.htm

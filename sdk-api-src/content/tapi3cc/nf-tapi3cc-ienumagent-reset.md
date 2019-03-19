@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3cc.IEnumAgent.Reset
-title: IEnumAgent::Reset
+title: IEnumAgent::Reset (tapi3cc.h)
 author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: tapi3\ienumagent_reset.htm

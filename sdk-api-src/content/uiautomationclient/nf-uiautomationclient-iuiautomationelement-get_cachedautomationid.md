@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAutomationId
-title: IUIAutomationElement::get_CachedAutomationId
+title: IUIAutomationElement::get_CachedAutomationId (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the cached Microsoft UI Automation identifier of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAutomationId.htm

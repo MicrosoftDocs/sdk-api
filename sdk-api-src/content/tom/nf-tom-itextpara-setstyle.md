@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextPara.SetStyle
-title: ITextPara::SetStyle
+title: ITextPara::SetStyle (tom.h)
 author: windows-sdk-content
 description: Sets the paragraph style for the paragraphs in a range.
 old-location: controls\ITextPara_SetStyle.htm

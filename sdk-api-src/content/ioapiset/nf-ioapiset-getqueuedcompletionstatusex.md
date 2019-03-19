@@ -1,6 +1,6 @@
 ---
 UID: NF:ioapiset.GetQueuedCompletionStatusEx
-title: GetQueuedCompletionStatusEx function
+title: GetQueuedCompletionStatusEx function (ioapiset.h)
 author: windows-sdk-content
 description: Retrieves multiple completion port entries simultaneously.
 old-location: fs\getqueuedcompletionstatusex_func.htm

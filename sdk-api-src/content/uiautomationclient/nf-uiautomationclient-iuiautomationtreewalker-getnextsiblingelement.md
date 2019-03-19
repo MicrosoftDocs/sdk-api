@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetNextSiblingElement
-title: IUIAutomationTreeWalker::GetNextSiblingElement
+title: IUIAutomationTreeWalker::GetNextSiblingElement (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves the next sibling element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSibling.htm

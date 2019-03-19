@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IConfigInterleaving
-title: IConfigInterleaving
+title: IConfigInterleaving (strmif.h)
 author: windows-sdk-content
 description: The IConfigInterleaving interface controls how the AVI Mux filter interleaves audio and video samples.
 old-location: dshow\iconfiginterleaving.htm

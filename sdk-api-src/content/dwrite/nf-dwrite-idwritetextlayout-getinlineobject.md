@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetInlineObject
-title: IDWriteTextLayout::GetInlineObject
+title: IDWriteTextLayout::GetInlineObject (dwrite.h)
 author: windows-sdk-content
 description: Gets the inline object at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetInlineObject.htm

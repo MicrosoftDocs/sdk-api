@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Move
-title: IInkStrokes::Move
+title: IInkStrokes::Move (msinkaut.h)
 author: windows-sdk-content
 description: Applies a translation to the ink of an IInkStrokeDisp object or InkStrokes collection.
 old-location: tablet\inkstrokes_move.htm

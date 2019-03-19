@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IColumnData.SetColumnSortData
-title: IColumnData::SetColumnSortData
+title: IColumnData::SetColumnSortData (mmc.h)
 author: windows-sdk-content
 description: The IColumnData::SetColumnSortData method enables a snap-in to set the sorted column and sorting direction for columns in a column set.
 old-location: mmc\icolumndata_setcolumnsortdata.htm

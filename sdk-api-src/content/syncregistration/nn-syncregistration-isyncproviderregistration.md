@@ -1,6 +1,6 @@
 ---
 UID: NN:syncregistration.ISyncProviderRegistration
-title: ISyncProviderRegistration
+title: ISyncProviderRegistration (syncregistration.h)
 author: windows-sdk-content
 description: Represents synchronization provider registration.
 old-location: winsync\isyncproviderregistration.htm

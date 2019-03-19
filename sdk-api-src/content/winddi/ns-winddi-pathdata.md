@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._PATHDATA
-title: PATHDATA
+title: PATHDATA (winddi.h)
 author: windows-sdk-content
 description: The PATHDATA structure describes all or part of a subpath.
 old-location: display\pathdata.htm

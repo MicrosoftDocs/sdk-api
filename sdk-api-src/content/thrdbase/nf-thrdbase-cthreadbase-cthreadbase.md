@@ -1,6 +1,6 @@
 ---
 UID: NF:thrdbase.CThreadBase.CThreadBase
-title: CThreadBase::CThreadBase
+title: CThreadBase::CThreadBase (thrdbase.h)
 author: windows-sdk-content
 description: The CThreadBase::CThreadBase constructor initializes a new instance of CThreadBase. CThreadBase is called internally.
 old-location: wmi\cthreadbase_cthreadbase.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserSize
-title: LPSAFEARRAY_UserSize function
+title: LPSAFEARRAY_UserSize function (wia_xp.h)
 author: windows-sdk-content
 description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data.
 old-location: automat\lpsafearray_usersize.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMaster.ProgressUnadvise
-title: IDiscMaster::ProgressUnadvise
+title: IDiscMaster::ProgressUnadvise (imapi.h)
 author: windows-sdk-content
 description: Cancels progress notifications for an application.
 old-location: imapi\idiscmaster_progressunadvise.htm

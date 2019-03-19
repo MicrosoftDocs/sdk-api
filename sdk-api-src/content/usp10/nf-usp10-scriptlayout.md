@@ -1,6 +1,6 @@
 ---
 UID: NF:usp10.ScriptLayout
-title: ScriptLayout function
+title: ScriptLayout function (usp10.h)
 author: windows-sdk-content
 description: Converts an array of run embedding levels to a map of visual-to-logical position and/or logical-to-visual position.
 old-location: intl\scriptlayout.htm

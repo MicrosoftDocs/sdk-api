@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetMuteDebugOutput
-title: ID3D12InfoQueue::GetMuteDebugOutput
+title: ID3D12InfoQueue::GetMuteDebugOutput (d3d12sdklayers.h)
 author: windows-sdk-content
 description: Get a boolean that determines if debug output is on or off.
 old-location: direct3d12\id3d12infoqueue_getmutedebugoutput.htm

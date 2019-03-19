@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.phoneConfigDialogW
-title: phoneConfigDialogW function
+title: phoneConfigDialogW function (tapi.h)
 author: windows-sdk-content
 description: The phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box that allows the user to configure parameters related to the phone device.
 old-location: tapi2\phoneconfigdialog.htm

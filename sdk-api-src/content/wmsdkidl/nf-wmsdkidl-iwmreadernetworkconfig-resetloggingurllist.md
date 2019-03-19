@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.ResetLoggingUrlList
-title: IWMReaderNetworkConfig::ResetLoggingUrlList
+title: IWMReaderNetworkConfig::ResetLoggingUrlList (wmsdkidl.h)
 author: windows-sdk-content
 description: The ResetLoggingUrlList method clears the list of servers that receive logging data.
 old-location: wmformat\iwmreadernetworkconfig_resetloggingurllist.htm

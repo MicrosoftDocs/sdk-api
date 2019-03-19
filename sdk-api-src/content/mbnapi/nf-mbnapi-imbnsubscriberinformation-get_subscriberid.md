@@ -1,6 +1,6 @@
 ---
 UID: NF:mbnapi.IMbnSubscriberInformation.get_SubscriberID
-title: IMbnSubscriberInformation::get_SubscriberID
+title: IMbnSubscriberInformation::get_SubscriberID (mbnapi.h)
 author: windows-sdk-content
 description: The subscriber ID of the device.
 old-location: mbn\imbnsubscriberinformation_subscriberid.htm

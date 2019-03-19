@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextFont.GetPosition
-title: ITextFont::GetPosition
+title: ITextFont::GetPosition (tom.h)
 author: windows-sdk-content
 description: Gets the amount that characters are offset vertically relative to the baseline.
 old-location: controls\ITextFont_GetPosition.htm

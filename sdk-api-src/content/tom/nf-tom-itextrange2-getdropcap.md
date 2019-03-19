@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRange2.GetDropCap
-title: ITextRange2::GetDropCap
+title: ITextRange2::GetDropCap (tom.h)
 author: windows-sdk-content
 description: Gets the drop-cap parameters of the paragraph that contains this range.
 old-location: controls\itextrange2_getdropcap.htm

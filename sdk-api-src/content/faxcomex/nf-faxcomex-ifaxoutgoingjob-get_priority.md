@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Priority
-title: IFaxOutgoingJob::get_Priority
+title: IFaxOutgoingJob::get_Priority (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp.htm

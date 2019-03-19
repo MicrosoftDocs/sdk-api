@@ -1,6 +1,6 @@
 ---
 UID: NF:ctffunc.ITfFnPropertyUIStatus.SetStatus
-title: ITfFnPropertyUIStatus::SetStatus
+title: ITfFnPropertyUIStatus::SetStatus (ctffunc.h)
 author: windows-sdk-content
 description: ITfFnPropertyUIStatus::SetStatus method
 old-location: tsf\itffnpropertyuistatus_setstatus.htm

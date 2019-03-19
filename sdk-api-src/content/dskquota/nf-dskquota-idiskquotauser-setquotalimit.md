@@ -1,6 +1,6 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.SetQuotaLimit
-title: IDiskQuotaUser::SetQuotaLimit
+title: IDiskQuotaUser::SetQuotaLimit (dskquota.h)
 author: windows-sdk-content
 description: Sets the user's quota limit value on the volume.
 old-location: fs\idiskquotauser_setquotalimit.htm

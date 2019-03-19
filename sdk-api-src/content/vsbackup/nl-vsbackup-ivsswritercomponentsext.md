@@ -1,6 +1,6 @@
 ---
 UID: NL:vsbackup.IVssWriterComponentsExt
-title: IVssWriterComponentsExt
+title: IVssWriterComponentsExt (vsbackup.h)
 author: windows-sdk-content
 description: The IVssWriterComponentsExt interface is a C++ (not COM) interface used by requesters to access and modify the components of a writer involved in a backup.
 old-location: base\ivsswritercomponentsext.htm

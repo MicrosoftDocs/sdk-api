@@ -1,6 +1,6 @@
 ---
 UID: NE:syncmgr.SYNCMGR_RESOLUTION_ABILITIES
-title: SYNCMGR_RESOLUTION_ABILITIES
+title: SYNCMGR_RESOLUTION_ABILITIES (syncmgr.h)
 author: windows-sdk-content
 description: Indicates abilities and the conflict resolution activity to follow. Used with ISyncMgrResolutionHandler::QueryAbilities.
 old-location: shell\SYNCMGR_RESOLUTION_ABILITIES.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:werapi.WerReportSetUIOption
-title: WerReportSetUIOption function
+title: WerReportSetUIOption function (werapi.h)
 author: windows-sdk-content
 description: Sets the user interface options for the specified report.
 old-location: wer\werreportsetuioption.htm

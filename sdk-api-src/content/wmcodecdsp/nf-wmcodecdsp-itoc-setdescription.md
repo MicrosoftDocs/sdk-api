@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetDescription
-title: IToc::SetDescription
+title: IToc::SetDescription (wmcodecdsp.h)
 author: windows-sdk-content
 description: The SetDescription method associates a description with the table of contents.
 old-location: mf\itoc_setdescription.htm

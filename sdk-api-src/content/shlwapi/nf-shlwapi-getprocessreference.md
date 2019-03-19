@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.GetProcessReference
-title: GetProcessReference function
+title: GetProcessReference function (shlwapi.h)
 author: windows-sdk-content
 description: Retrieves the process-specific object supplied by SetProcessReference, incrementing the reference count to keep the process alive.
 old-location: shell\GetProcessReference.htm

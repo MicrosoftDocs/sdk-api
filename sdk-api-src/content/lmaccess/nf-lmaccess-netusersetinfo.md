@@ -1,6 +1,6 @@
 ---
 UID: NF:lmaccess.NetUserSetInfo
-title: NetUserSetInfo function
+title: NetUserSetInfo function (lmaccess.h)
 author: windows-sdk-content
 description: The NetUserSetInfo function sets the parameters of a user account.
 old-location: netmgmt\netusersetinfo.htm

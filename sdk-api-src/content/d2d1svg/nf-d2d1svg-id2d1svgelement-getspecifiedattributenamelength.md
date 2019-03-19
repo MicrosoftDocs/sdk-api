@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetSpecifiedAttributeNameLength
-title: ID2D1SvgElement::GetSpecifiedAttributeNameLength
+title: ID2D1SvgElement::GetSpecifiedAttributeNameLength (d2d1svg.h)
 author: windows-sdk-content
 description: Gets the string length of the name of the specified attribute at the given index.
 old-location: direct2d\id2d1svgelement_getspecifiedattributenamelength.htm

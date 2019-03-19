@@ -1,6 +1,6 @@
 ---
 UID: NS:qossp._RSVP_POLICY
-title: RSVP_POLICY
+title: RSVP_POLICY (qossp.h)
 author: windows-sdk-content
 description: The RSVP_POLICY structure stores one or more undefined policy elements.
 old-location: qos\rsvp_policy.htm

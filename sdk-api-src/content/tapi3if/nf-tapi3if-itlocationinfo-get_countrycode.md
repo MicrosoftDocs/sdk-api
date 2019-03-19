@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_CountryCode
-title: ITLocationInfo::get_CountryCode
+title: ITLocationInfo::get_CountryCode (tapi3if.h)
 author: windows-sdk-content
 description: The get_CountryCode method gets the country/region code.
 old-location: tapi3\itlocationinfo_get_countrycode.htm

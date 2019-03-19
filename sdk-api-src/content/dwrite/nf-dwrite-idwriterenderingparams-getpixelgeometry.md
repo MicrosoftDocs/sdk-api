@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetPixelGeometry
-title: IDWriteRenderingParams::GetPixelGeometry
+title: IDWriteRenderingParams::GetPixelGeometry (dwrite.h)
 author: windows-sdk-content
 description: Gets the pixel geometry of the rendering parameters object.
 old-location: directwrite\IDWriteRenderingParams_GetPixelGeometry.htm

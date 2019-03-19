@@ -1,6 +1,6 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0013_0001
-title: CLUSION_REASON
+title: CLUSION_REASON (searchapi.h)
 author: windows-sdk-content
 description: These flags enumerate reasons why URLs are included or excluded from the current crawl scope.
 old-location: search\_search_CLUSION_REASON.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:taskschd.ITrigger.get_Enabled
-title: ITrigger::get_Enabled
+title: ITrigger::get_Enabled (taskschd.h)
 author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates whether the trigger is enabled.
 old-location: taskschd\itrigger_enabled.htm

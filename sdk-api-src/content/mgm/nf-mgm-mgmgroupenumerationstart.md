@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGroupEnumerationStart
-title: MgmGroupEnumerationStart function
+title: MgmGroupEnumerationStart function (mgm.h)
 author: windows-sdk-content
 description: The MgmGroupEnumerationStart function obtains an enumeration handle that is later used to obtain the list of groups that have been joined. After the client obtains the handle, it should use the MgmGroupEnumerationGetNext function to enumerate the groups.
 old-location: rras\mgmgroupenumerationstart.htm

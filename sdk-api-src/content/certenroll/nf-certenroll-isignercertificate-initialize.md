@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ISignerCertificate.Initialize
-title: ISignerCertificate::Initialize
+title: ISignerCertificate::Initialize (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a signing certificate.
 old-location: security\isignercertificate_initialize_method.htm

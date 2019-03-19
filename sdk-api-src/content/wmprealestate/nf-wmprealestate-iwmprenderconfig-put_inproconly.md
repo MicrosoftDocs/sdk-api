@@ -1,6 +1,6 @@
 ---
 UID: NF:wmprealestate.IWMPRenderConfig.put_inProcOnly
-title: IWMPRenderConfig::put_inProcOnly
+title: IWMPRenderConfig::put_inProcOnly (wmprealestate.h)
 author: windows-sdk-content
 description: The put_inProcOnly method specifies a value indicating whether playback is restricted to the current process.
 old-location: wmp\iwmprenderconfig_put_inproconly.htm

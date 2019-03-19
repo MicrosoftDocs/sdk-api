@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11shader.ID3D11ShaderReflectionVariable
-title: ID3D11ShaderReflectionVariable
+title: ID3D11ShaderReflectionVariable (d3d11shader.h)
 author: windows-sdk-content
 description: This shader-reflection interface provides access to a variable.
 old-location: direct3d11\id3d11shaderreflectionvariable.htm

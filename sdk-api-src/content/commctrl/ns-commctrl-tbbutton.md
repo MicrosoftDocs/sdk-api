@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl._TBBUTTON
-title: TBBUTTON
+title: TBBUTTON (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a button in a toolbar.
 old-location: controls\TBBUTTON.htm

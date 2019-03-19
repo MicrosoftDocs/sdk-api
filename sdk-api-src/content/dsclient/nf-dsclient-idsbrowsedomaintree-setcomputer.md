@@ -1,6 +1,6 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.SetComputer
-title: IDsBrowseDomainTree::SetComputer
+title: IDsBrowseDomainTree::SetComputer (dsclient.h)
 author: windows-sdk-content
 description: Specifies the computer and credentials to be used by this instance of the IDsBrowseDomainTree interface.
 old-location: ad\idsbrowsedomaintree_setcomputer.htm

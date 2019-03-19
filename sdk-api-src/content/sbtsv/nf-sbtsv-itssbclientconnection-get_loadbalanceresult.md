@@ -1,6 +1,6 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_LoadBalanceResult
-title: ITsSbClientConnection::get_LoadBalanceResult
+title: ITsSbClientConnection::get_LoadBalanceResult (sbtsv.h)
 author: windows-sdk-content
 description: Retrieves a value that indicates the name of the target computer returned by load balancing.
 old-location: termserv\itssbclientconnection_loadbalanceresult.htm

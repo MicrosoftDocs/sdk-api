@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.ClusterNetworkControl
-title: ClusterNetworkControl function
+title: ClusterNetworkControl function (clusapi.h)
 author: windows-sdk-content
 description: Initiates an operation on a network. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternetworkcontrol.htm

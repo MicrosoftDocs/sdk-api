@@ -1,6 +1,6 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetID
-title: IWSDHttpMessageParameters::SetID
+title: IWSDHttpMessageParameters::SetID (wsdbase.h)
 author: windows-sdk-content
 description: Sets the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setid.htm

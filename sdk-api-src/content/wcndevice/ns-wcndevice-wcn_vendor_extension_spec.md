@@ -1,6 +1,6 @@
 ---
 UID: NS:wcndevice.tagWCN_VENDOR_EXTENSION_SPEC
-title: WCN_VENDOR_EXTENSION_SPEC
+title: WCN_VENDOR_EXTENSION_SPEC (wcndevice.h)
 author: windows-sdk-content
 description: WCN_VENDOR_EXTENSION_SPEC structure contains data that defines a vendor extension.
 old-location: wcn\wcn_vendor_extension_spec.htm

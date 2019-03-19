@@ -1,6 +1,6 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.GetCurrentOperationMode
-title: IDMOVideoOutputOptimizations::GetCurrentOperationMode
+title: IDMOVideoOutputOptimizations::GetCurrentOperationMode (mediaobj.h)
 author: windows-sdk-content
 description: The GetCurrentOperationMode method retrieves the optimization features in effect.
 old-location: dshow\idmovideooutputoptimizations_getcurrentoperationmode.htm

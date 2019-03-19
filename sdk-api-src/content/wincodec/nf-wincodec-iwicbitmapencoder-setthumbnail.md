@@ -1,6 +1,6 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetThumbnail
-title: IWICBitmapEncoder::SetThumbnail
+title: IWICBitmapEncoder::SetThumbnail (wincodec.h)
 author: windows-sdk-content
 description: Sets the global thumbnail for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setthumbnail.htm

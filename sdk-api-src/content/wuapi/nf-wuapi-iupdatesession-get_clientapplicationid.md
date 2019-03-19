@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IUpdateSession.get_ClientApplicationID
-title: IUpdateSession::get_ClientApplicationID
+title: IUpdateSession::get_ClientApplicationID (wuapi.h)
 author: windows-sdk-content
 description: Gets and sets the current client application.
 old-location: wua\iupdatesession_clientapplicationid.htm

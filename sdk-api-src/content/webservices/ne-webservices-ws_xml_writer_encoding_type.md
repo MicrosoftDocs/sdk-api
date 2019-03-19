@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_12
-title: WS_XML_WRITER_ENCODING_TYPE
+title: WS_XML_WRITER_ENCODING_TYPE (webservices.h)
 author: windows-sdk-content
 description: The type of WS_XML_WRITER_ENCODING structure.
 old-location: wsw\ws_xml_writer_encoding_type.htm

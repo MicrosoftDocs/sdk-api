@@ -1,6 +1,6 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetGuid
-title: IMetaDataTables::GetGuid
+title: IMetaDataTables::GetGuid (rometadataapi.h)
 author: windows-sdk-content
 description: Gets a GUID from the row at the specified index.
 old-location: winrt\imetadatatables_getguid.htm

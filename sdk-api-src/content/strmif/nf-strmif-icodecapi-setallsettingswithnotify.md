@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllSettingsWithNotify
-title: ICodecAPI::SetAllSettingsWithNotify
+title: ICodecAPI::SetAllSettingsWithNotify (strmif.h)
 author: windows-sdk-content
 description: The SetAllSettingsWithNotify method reads codec properties from a stream, sets them on the codec, and returns a list of the properties that changed.
 old-location: dshow\icodecapi_setallsettingswithnotify.htm

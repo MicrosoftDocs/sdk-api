@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRange3
-title: IUIAutomationTextRange3
+title: IUIAutomationTextRange3 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomationTextRange2 interface to support faster access to the underlying rich text data on a text range.
 old-location: winauto\uiauto_IUIAutomationTextRange3.htm

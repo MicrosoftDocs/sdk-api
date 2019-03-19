@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.StretchBlt
-title: StretchBlt function
+title: StretchBlt function (wingdi.h)
 author: windows-sdk-content
 description: The StretchBlt function copies a bitmap from a source rectangle into a destination rectangle, stretching or compressing the bitmap to fit the dimensions of the destination rectangle, if necessary.
 old-location: gdi\stretchblt.htm

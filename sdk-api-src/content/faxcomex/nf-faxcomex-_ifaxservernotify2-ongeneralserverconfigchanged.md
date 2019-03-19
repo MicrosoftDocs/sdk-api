@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnGeneralServerConfigChanged
-title: "_IFaxServerNotify2::OnGeneralServerConfigChanged"
+title: "_IFaxServerNotify2::OnGeneralServerConfigChanged" (faxcomex.h)
 author: windows-sdk-content
 description: Called by the fax service when the IFaxServer2::Configuration property changes.
 old-location: fax\_mfax_ifaxservernotify2_ongeneralserverconfigchanged.htm

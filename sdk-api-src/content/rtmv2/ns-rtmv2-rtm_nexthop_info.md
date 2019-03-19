@@ -1,6 +1,6 @@
 ---
 UID: NS:rtmv2._RTM_NEXTHOP_INFO
-title: RTM_NEXTHOP_INFO
+title: RTM_NEXTHOP_INFO (rtmv2.h)
 author: windows-sdk-content
 description: The RTM_NEXTHOP_INFO structure is used to exchange next-hop information with the routing table manager.
 old-location: rras\rtm_nexthop_info.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:winsvc._SERVICE_DESCRIPTIONW
-title: SERVICE_DESCRIPTIONW
+title: SERVICE_DESCRIPTIONW (winsvc.h)
 author: windows-sdk-content
 description: Contains a service description.
 old-location: base\service_description_str.htm

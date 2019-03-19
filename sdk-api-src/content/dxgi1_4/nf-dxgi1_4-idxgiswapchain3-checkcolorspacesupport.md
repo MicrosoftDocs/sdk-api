@@ -1,6 +1,6 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.CheckColorSpaceSupport
-title: IDXGISwapChain3::CheckColorSpaceSupport
+title: IDXGISwapChain3::CheckColorSpaceSupport (dxgi1_4.h)
 author: windows-sdk-content
 description: Checks the swap chain's support for color space.
 old-location: direct3ddxgi\idxgiswapchain3_checkcolorspacesupport.htm

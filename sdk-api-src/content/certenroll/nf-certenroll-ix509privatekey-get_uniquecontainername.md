@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_UniqueContainerName
-title: IX509PrivateKey::get_UniqueContainerName
+title: IX509PrivateKey::get_UniqueContainerName (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a unique name for the key container.
 old-location: security\ix509privatekey_uniquecontainername_property.htm

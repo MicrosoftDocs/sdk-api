@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetPaletteEntries
-title: IDWriteFontFace2::GetPaletteEntries
+title: IDWriteFontFace2::GetPaletteEntries (dwrite_2.h)
 author: windows-sdk-content
 description: Gets color values from the font's color palette.
 old-location: directwrite\idwritefontface2_getpaletteentries.htm

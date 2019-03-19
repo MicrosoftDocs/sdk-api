@@ -1,6 +1,6 @@
 ---
 UID: NF:casetup.ICertSrvSetup.CAImportPFX
-title: ICertSrvSetup::CAImportPFX
+title: ICertSrvSetup::CAImportPFX (casetup.h)
 author: windows-sdk-content
 description: Imports a certification authority (CA) certificate and its associated private key into the local computer store.
 old-location: security\icertsrvsetup_caimportpfx.htm

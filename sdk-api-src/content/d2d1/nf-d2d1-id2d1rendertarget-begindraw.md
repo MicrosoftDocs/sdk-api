@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.BeginDraw
-title: ID2D1RenderTarget::BeginDraw
+title: ID2D1RenderTarget::BeginDraw (d2d1.h)
 author: windows-sdk-content
 description: Initiates drawing on this render target.
 old-location: direct2d\ID2D1RenderTarget_BeginDraw.htm

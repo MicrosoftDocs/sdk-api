@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlayer.get_enabled
-title: IWMPPlayer::get_enabled
+title: IWMPPlayer::get_enabled (wmp.h)
 author: windows-sdk-content
 description: The get_enabled method retrieves a value indicating whether the Windows Media Player control is enabled.
 old-location: wmp\iwmpplayer_get_enabled.htm

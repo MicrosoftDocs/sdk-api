@@ -1,6 +1,6 @@
 ---
 UID: NF:mmeapi.midiInAddBuffer
-title: midiInAddBuffer function
+title: midiInAddBuffer function (mmeapi.h)
 author: windows-sdk-content
 description: The midiInAddBuffer function sends an input buffer to a specified opened MIDI input device. This function is used for system-exclusive messages.
 old-location: multimedia\midiinaddbuffer.htm

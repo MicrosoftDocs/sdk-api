@@ -1,6 +1,6 @@
 ---
 UID: NF:winbase.LocateXStateFeature
-title: LocateXStateFeature function
+title: LocateXStateFeature function (winbase.h)
 author: windows-sdk-content
 description: Retrieves a pointer to the processor state for an XState feature within a CONTEXT structure.
 old-location: base\locatexstatefeature.htm

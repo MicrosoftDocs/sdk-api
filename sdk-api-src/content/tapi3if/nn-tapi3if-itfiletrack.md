@@ -1,6 +1,6 @@
 ---
 UID: NN:tapi3if.ITFileTrack
-title: ITFileTrack
+title: ITFileTrack (tapi3if.h)
 author: windows-sdk-content
 description: The ITFileTrack interface exposes methods that allow an application to get and set information concerning file terminal tracks. The ITFileTerminalEvent::get_Track method creates the ITFileTrack interface.
 old-location: tapi3\itfiletrack.htm

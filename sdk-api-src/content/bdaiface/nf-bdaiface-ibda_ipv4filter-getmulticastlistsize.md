@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastListSize
-title: IBDA_IPV4Filter::GetMulticastListSize
+title: IBDA_IPV4Filter::GetMulticastListSize (bdaiface.h)
 author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the number of addresses in the list.
 old-location: mstv\ibda_ipv4filter_getmulticastlistsize.htm

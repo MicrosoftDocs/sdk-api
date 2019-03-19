@@ -1,6 +1,6 @@
 ---
 UID: NN:gpmgmt.IGPMSOM
-title: IGPMSOM
+title: IGPMSOM (gpmgmt.h)
 author: windows-sdk-content
 description: The IGPMSOM interface contains methods that allow you to create and retrieve GPO links for a scope of management (SOM), and to set and retrieve security attributes and various properties for a SOM. A SOM can be a site, domain or OU.
 old-location: gpmc\igpmsom.htm

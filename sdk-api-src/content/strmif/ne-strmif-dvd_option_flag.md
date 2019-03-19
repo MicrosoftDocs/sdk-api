@@ -1,6 +1,6 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0003
-title: DVD_OPTION_FLAG
+title: DVD_OPTION_FLAG (strmif.h)
 author: windows-sdk-content
 description: The DVD_OPTION_FLAG enumeration defines flags that control the behavior of the DVD Navigator Filter. To set any of these flags, call IDvdControl2::SetOption.
 old-location: dshow\dvd_option_flag.htm

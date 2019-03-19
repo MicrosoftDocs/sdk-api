@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInput
-title: IMFTopologyNode::GetInput
+title: IMFTopologyNode::GetInput (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the node that is connected to a specified input stream on this node.
 old-location: mf\imftopologynode_getinput.htm

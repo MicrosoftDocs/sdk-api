@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineAgentSpecific
-title: lineAgentSpecific function
+title: lineAgentSpecific function (tapi.h)
 author: windows-sdk-content
 description: The lineAgentSpecific function allows the application to access proprietary handler-specific functions of the agent handler associated with the address.
 old-location: tapi2\lineagentspecific.htm

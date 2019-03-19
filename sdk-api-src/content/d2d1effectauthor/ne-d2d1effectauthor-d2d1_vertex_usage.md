@@ -1,6 +1,6 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_VERTEX_USAGE
-title: D2D1_VERTEX_USAGE
+title: D2D1_VERTEX_USAGE (d2d1effectauthor.h)
 author: windows-sdk-content
 description: Indicates whether the vertex buffer changes infrequently or frequently.
 old-location: direct2d\d2d1_vertex_usage.htm

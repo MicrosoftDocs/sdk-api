@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_UsingOverlay
-title: IMSVidVideoRenderer::get_UsingOverlay
+title: IMSVidVideoRenderer::get_UsingOverlay (segment.h)
 author: windows-sdk-content
 description: The get_UsingOverlay method queries whether the Video Mixing Renderer (VMR) is using the hardware overlay.
 old-location: mstv\imsvidvideorenderer_get_usingoverlay.htm

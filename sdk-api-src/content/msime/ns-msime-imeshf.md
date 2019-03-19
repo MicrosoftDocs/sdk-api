@@ -1,6 +1,6 @@
 ---
 UID: NS:msime._IMESHF
-title: IMESHF
+title: IMESHF (msime.h)
 author: windows-sdk-content
 description: The header of an opened user dictionary file. Used to get the user dictionary's properties, such as version, title, description, and copyright.
 old-location: intl\imeshf.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.put_Balance
-title: ITBasicAudioTerminal::put_Balance
+title: ITBasicAudioTerminal::put_Balance (tapi3if.h)
 author: windows-sdk-content
 description: The put_Balance method sets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_put_balance.htm

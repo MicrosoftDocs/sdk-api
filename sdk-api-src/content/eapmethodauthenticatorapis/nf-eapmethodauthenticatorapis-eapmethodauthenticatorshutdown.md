@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorShutdown
-title: EapMethodAuthenticatorShutdown function
+title: EapMethodAuthenticatorShutdown function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Shuts down the EAP authenticator method and prepares to unload it from the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorshutdown.htm

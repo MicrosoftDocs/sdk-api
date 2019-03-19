@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_STACK_TRACE32
-title: EVENT_EXTENDED_ITEM_STACK_TRACE32
+title: EVENT_EXTENDED_ITEM_STACK_TRACE32 (evntcons.h)
 author: windows-sdk-content
 description: Defines a call stack on a 32-bit computer.
 old-location: etw\event_extended_item_stack_trace32.htm

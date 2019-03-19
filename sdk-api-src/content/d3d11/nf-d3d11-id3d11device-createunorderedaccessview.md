@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateUnorderedAccessView
-title: ID3D11Device::CreateUnorderedAccessView
+title: ID3D11Device::CreateUnorderedAccessView (d3d11.h)
 author: windows-sdk-content
 description: Creates a view for accessing an unordered access resource.
 old-location: direct3d11\id3d11device_createunorderedaccessview.htm

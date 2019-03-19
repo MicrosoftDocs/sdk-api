@@ -1,6 +1,6 @@
 ---
 UID: NF:winsock2.GetHostNameW
-title: GetHostNameW function
+title: GetHostNameW function (winsock2.h)
 author: windows-sdk-content
 description: The GetHostNameW function retrieves the standard host name for the local computer as a Unicode string.
 old-location: winsock\gethostnamew.htm

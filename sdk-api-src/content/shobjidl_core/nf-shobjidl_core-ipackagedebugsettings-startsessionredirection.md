@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.StartSessionRedirection
-title: IPackageDebugSettings::StartSessionRedirection
+title: IPackageDebugSettings::StartSessionRedirection (shobjidl_core.h)
 author: windows-sdk-content
 description: Causes background tasks for the specified package to activate in the specified user session.
 old-location: shell\IPackageDebugSettings_StartSessionRedirection.htm

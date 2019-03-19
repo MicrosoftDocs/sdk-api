@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetTrackById
-title: IMFTimedTextTrackList::GetTrackById
+title: IMFTimedTextTrackList::GetTrackById (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets a text track in the list from the identifier of the track.
 old-location: mf\imftimedtexttracklist_gettrackbyid.htm

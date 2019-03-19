@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetStrokeJoin
-title: CustomLineCap::GetStrokeJoin
+title: CustomLineCap::GetStrokeJoin (gdiplusheaders.h)
 author: windows-sdk-content
 description: The CustomLineCap::GetStrokeJoin method returns the style of LineJoin used to join multiple lines in the same GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetStrokeJoin_.htm

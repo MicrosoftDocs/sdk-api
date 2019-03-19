@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_COLOR_RGBA
-title: D3D11_VIDEO_COLOR_RGBA
+title: D3D11_VIDEO_COLOR_RGBA (d3d11.h)
 author: windows-sdk-content
 description: Specifies an RGB color value.
 old-location: mf\d3d11_video_color_rgba.htm

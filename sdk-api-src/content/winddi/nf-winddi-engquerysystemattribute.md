@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngQuerySystemAttribute
-title: EngQuerySystemAttribute function
+title: EngQuerySystemAttribute function (winddi.h)
 author: windows-sdk-content
 description: The EngQuerySystemAttribute function queries processor-specific or system-specific capabilities.
 old-location: display\engquerysystemattribute.htm

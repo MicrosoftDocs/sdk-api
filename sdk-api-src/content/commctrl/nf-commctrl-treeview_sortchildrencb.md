@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_SortChildrenCB
-title: TreeView_SortChildrenCB macro
+title: TreeView_SortChildrenCB macro (commctrl.h)
 author: windows-sdk-content
 description: Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the TVM_SORTCHILDRENCB message explicitly.
 old-location: controls\TreeView_SortChildrenCB.htm

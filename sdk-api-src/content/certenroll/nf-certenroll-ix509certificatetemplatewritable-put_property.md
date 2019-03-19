@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.put_Property
-title: IX509CertificateTemplateWritable::put_Property
+title: IX509CertificateTemplateWritable::put_Property (certenroll.h)
 author: windows-sdk-content
 description: Specifies or retrieves a property value for the IX509CertificateTemplateWritable object.
 old-location: security\ix509certificatetemplatewritable_property.htm

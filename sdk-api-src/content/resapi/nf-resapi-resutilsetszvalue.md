@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetSzValue
-title: ResUtilSetSzValue function
+title: ResUtilSetSzValue function (resapi.h)
 author: windows-sdk-content
 description: Sets a string value in the cluster database. The PRESUTIL_SET_SZ_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetszvalue.htm

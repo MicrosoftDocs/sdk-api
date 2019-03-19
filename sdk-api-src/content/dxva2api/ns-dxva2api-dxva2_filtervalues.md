@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva2api._DXVA2_FilterValues
-title: DXVA2_FilterValues
+title: DXVA2_FilterValues (dxva2api.h)
 author: windows-sdk-content
 description: Contains parameters for a DirectX Video Acceleration (DXVA) image filter.
 old-location: mf\dxva2_filtervalues.htm

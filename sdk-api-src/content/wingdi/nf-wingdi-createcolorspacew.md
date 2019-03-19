@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateColorSpaceW
-title: CreateColorSpaceW function
+title: CreateColorSpaceW function (wingdi.h)
 author: windows-sdk-content
 description: The CreateColorSpace function creates a logical color space.
 old-location: wcs\createcolorspace.htm

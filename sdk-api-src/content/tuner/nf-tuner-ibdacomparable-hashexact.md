@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IBDAComparable.HashExact
-title: IBDAComparable::HashExact
+title: IBDAComparable::HashExact (tuner.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashexact.htm

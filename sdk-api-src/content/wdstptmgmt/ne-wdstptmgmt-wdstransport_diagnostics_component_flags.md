@@ -1,6 +1,6 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0009
-title: WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS
+title: WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS (wdstptmgmt.h)
 author: windows-sdk-content
 description: Configures which WDS components have diagnostics enabled. WDS diagnostics log events to the system event log.
 old-location: wds\wdstransport_diagnostics_component_flags.htm

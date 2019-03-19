@@ -1,6 +1,6 @@
 ---
 UID: NF:d2d1effecthelpers.ValueSetter
-title: ValueSetter function
+title: ValueSetter function (d2d1effecthelpers.h)
 author: windows-sdk-content
 description: Calls a member-function property setter callback for a value-type property.
 old-location: direct2d\valuesetter.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.putref_Guide
-title: IInkRecognizerContext::putref_Guide
+title: IInkRecognizerContext::putref_Guide (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkRecognizerGuide to use for ink input.
 old-location: tablet\inkrecognizercontext_guide.htm

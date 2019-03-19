@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoMemoryConfiguration.GetAvailableSurfaceTypeByIndex
-title: IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex
+title: IDirectXVideoMemoryConfiguration::GetAvailableSurfaceTypeByIndex (dxva2api.h)
 author: windows-sdk-content
 description: Retrieves a supported video surface type.
 old-location: mf\idirectxvideomemoryconfiguration_getavailablesurfacetypebyindex.htm

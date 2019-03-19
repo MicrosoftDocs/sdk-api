@@ -1,6 +1,6 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.RemoveAt
-title: IPropertyChangeArray::RemoveAt
+title: IPropertyChangeArray::RemoveAt (propsys.h)
 author: windows-sdk-content
 description: Removes a specified change.
 old-location: properties\IPropertyChangeArray_RemoveAt.htm

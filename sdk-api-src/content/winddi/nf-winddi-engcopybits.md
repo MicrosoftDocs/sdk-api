@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngCopyBits
-title: EngCopyBits function
+title: EngCopyBits function (winddi.h)
 author: windows-sdk-content
 description: The EngCopyBits function translates between device-managed raster surfaces and GDI standard-format bitmaps.
 old-location: display\engcopybits.htm

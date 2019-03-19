@@ -1,6 +1,6 @@
 ---
 UID: NF:bcrypt.BCryptEnumRegisteredProviders
-title: BCryptEnumRegisteredProviders function
+title: BCryptEnumRegisteredProviders function (bcrypt.h)
 author: windows-sdk-content
 description: Retrieves information about the registered providers.
 old-location: security\bcryptenumregisteredproviders.htm

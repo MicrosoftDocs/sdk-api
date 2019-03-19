@@ -1,6 +1,6 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_IP_INFO_ENTRY
-title: CLUS_NETNAME_IP_INFO_ENTRY
+title: CLUS_NETNAME_IP_INFO_ENTRY (clusapi.h)
 author: windows-sdk-content
 description: Represents IP information for a NetName resource.
 old-location: mscs\clus_netname_ip_info_entry.htm

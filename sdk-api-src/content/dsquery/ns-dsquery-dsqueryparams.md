@@ -1,6 +1,6 @@
 ---
 UID: NS:dsquery.__unnamed_struct_2
-title: DSQUERYPARAMS
+title: DSQUERYPARAMS (dsquery.h)
 author: windows-sdk-content
 description: The DSQUERYPARAMS structure contains query data used by the directory service query when searching the directory service.
 old-location: ad\dsqueryparams.htm

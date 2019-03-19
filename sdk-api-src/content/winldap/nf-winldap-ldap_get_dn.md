@@ -1,6 +1,6 @@
 ---
 UID: NF:winldap.ldap_get_dn
-title: ldap_get_dn function
+title: ldap_get_dn function (winldap.h)
 author: windows-sdk-content
 description: The ldap_get_dn function retrieves the distinguished name for a given entry.
 old-location: ldap\ldap_get_dn.htm

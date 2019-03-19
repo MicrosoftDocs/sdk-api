@@ -1,6 +1,6 @@
 ---
 UID: NF:xenroll.IEnroll.put_SPCFileNameWStr
-title: IEnroll::put_SPCFileNameWStr
+title: IEnroll::put_SPCFileNameWStr (xenroll.h)
 author: windows-sdk-content
 description: The SPCFileNameWStr property of IEnroll4 sets or retrieves the name of the file to which to write the base64-encoded PKCS #7 (in BSTR form) as returned from the certification authority.
 old-location: security\ienroll4_spcfilenamewstr.htm

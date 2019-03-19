@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceStatusChange
-title: IWMPEvents2::DeviceStatusChange
+title: IWMPEvents2::DeviceStatusChange (wmp.h)
 author: windows-sdk-content
 description: The DeviceStatusChange event occurs when the partnership status of a device changes.
 old-location: wmp\iwmpevents2_iwmpevents2__devicestatuschange.htm

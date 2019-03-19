@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.GetDocumentTypeFromFile
-title: IXpsOMObjectFactory1::GetDocumentTypeFromFile
+title: IXpsOMObjectFactory1::GetDocumentTypeFromFile (xpsobjectmodel_1.h)
 author: windows-sdk-content
 description: Detects the type of XPS document that is stored in the specified file.
 old-location: xps\ixpsomobjectfactory1_getdocumenttypefromfile.htm

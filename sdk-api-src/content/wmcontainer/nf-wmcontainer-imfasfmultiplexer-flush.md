@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.Flush
-title: IMFASFMultiplexer::Flush
+title: IMFASFMultiplexer::Flush (wmcontainer.h)
 author: windows-sdk-content
 description: Signals the multiplexer to process all queued output media samples. Call this method after passing the last sample to the multiplexer.
 old-location: mf\imfasfmultiplexer_flush.htm

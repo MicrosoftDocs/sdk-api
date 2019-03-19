@@ -1,6 +1,6 @@
 ---
 UID: NS:rectypes.tagRECO_RANGE
-title: RECO_RANGE
+title: RECO_RANGE (rectypes.h)
 author: windows-sdk-content
 description: The structure is obsolete.
 old-location: tablet\reco_range.htm

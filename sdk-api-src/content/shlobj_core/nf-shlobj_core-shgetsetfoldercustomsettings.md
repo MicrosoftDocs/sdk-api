@@ -1,6 +1,6 @@
 ---
 UID: NF:shlobj_core.SHGetSetFolderCustomSettings
-title: SHGetSetFolderCustomSettings function
+title: SHGetSetFolderCustomSettings function (shlobj_core.h)
 author: windows-sdk-content
 description: SHGetSetFolderCustomSettings may be altered or unavailable.
 old-location: shell\SHGetSetFolderCustomSettings.htm

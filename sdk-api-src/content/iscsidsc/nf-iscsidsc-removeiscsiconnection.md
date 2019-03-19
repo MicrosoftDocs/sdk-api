@@ -1,6 +1,6 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiConnection
-title: RemoveIScsiConnection function
+title: RemoveIScsiConnection function (iscsidsc.h)
 author: windows-sdk-content
 description: RemoveIscsiConnection function removes a connection from an active session.
 old-location: iscsidisc\removeiscsiconnection.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscRecorder.Erase
-title: IDiscRecorder::Erase
+title: IDiscRecorder::Erase (imapi.h)
 author: windows-sdk-content
 description: Attempts to erase the CD-RW media if this is a CD-RW disc recorder. Both full and quick erases are supported.
 old-location: imapi\idiscrecorder_erase.htm

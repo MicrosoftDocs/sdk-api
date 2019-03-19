@@ -1,6 +1,6 @@
 ---
 UID: NN:fsrm.IFsrmSetting
-title: IFsrmSetting
+title: IFsrmSetting (fsrm.h)
 author: windows-sdk-content
 description: Used to configure FSRM.
 old-location: fsrm\ifsrmsetting.htm

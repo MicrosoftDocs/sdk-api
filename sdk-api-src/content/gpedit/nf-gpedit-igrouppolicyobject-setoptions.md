@@ -1,6 +1,6 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.SetOptions
-title: IGroupPolicyObject::SetOptions
+title: IGroupPolicyObject::SetOptions (gpedit.h)
 author: windows-sdk-content
 description: The SetOptions method sets the options for the GPO.
 old-location: policy\igrouppolicyobject_setoptions.htm

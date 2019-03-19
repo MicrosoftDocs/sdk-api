@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d10.ID3D10Device.IASetIndexBuffer
-title: ID3D10Device::IASetIndexBuffer
+title: ID3D10Device::IASetIndexBuffer (d3d10.h)
 author: windows-sdk-content
 description: Bind an index buffer to the input-assembler stage.
 old-location: direct3d10\id3d10device_iasetindexbuffer.htm

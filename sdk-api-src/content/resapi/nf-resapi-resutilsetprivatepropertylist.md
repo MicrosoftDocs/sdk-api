@@ -1,6 +1,6 @@
 ---
 UID: NF:resapi.ResUtilSetPrivatePropertyList
-title: ResUtilSetPrivatePropertyList function
+title: ResUtilSetPrivatePropertyList function (resapi.h)
 author: windows-sdk-content
 description: Sets the private properties of a cluster object.
 old-location: mscs\resutilsetprivatepropertylist.htm

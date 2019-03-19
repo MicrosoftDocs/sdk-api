@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidPlayback.Pause
-title: IMSVidPlayback::Pause
+title: IMSVidPlayback::Pause (segment.h)
 author: windows-sdk-content
 description: The Pause method pauses the playback device.
 old-location: mstv\imsvidplayback_pause.htm

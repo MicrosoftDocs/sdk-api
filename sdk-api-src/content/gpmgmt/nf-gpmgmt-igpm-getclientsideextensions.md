@@ -1,6 +1,6 @@
 ---
 UID: NF:gpmgmt.IGPM.GetClientSideExtensions
-title: IGPM::GetClientSideExtensions
+title: IGPM::GetClientSideExtensions (gpmgmt.h)
 author: windows-sdk-content
 description: Creates and returns a GPMCSECollection object that allows you to enumerate Group Policy client-side extensions (CSEs) that are registered on the local computer.
 old-location: gpmc\igpm_getclientsideextensions.htm

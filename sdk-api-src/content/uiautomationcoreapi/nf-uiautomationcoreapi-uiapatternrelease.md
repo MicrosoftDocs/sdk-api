@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcoreapi.UiaPatternRelease
-title: UiaPatternRelease function
+title: UiaPatternRelease function (uiautomationcoreapi.h)
 author: windows-sdk-content
 description: Deletes an allocated pattern object from memory.
 old-location: winauto\uiauto_UiaPatternReleaseMemManMeth.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerFreeInformation
-title: KeyCredentialManagerFreeInformation function
+title: KeyCredentialManagerFreeInformation function (keycredmgr.h)
 author: windows-sdk-content
 description: API to free the KeyCredentialManagerInfo pointer variable from the KeyCredentialManagerGetInformation call.
 old-location: security\keycredentialmanagerfreeinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vds.IVdsDiskOnline.Offline
-title: IVdsDiskOnline::Offline
+title: IVdsDiskOnline::Offline (vds.h)
 author: windows-sdk-content
 description: Takes the disk offline.Windows Vista:  This method is not supported until Windows Vista with Service Pack 1 (SP1). Use IVdsDisk2::SetSANMode instead.
 old-location: base\ivdsdiskonline_offline.htm

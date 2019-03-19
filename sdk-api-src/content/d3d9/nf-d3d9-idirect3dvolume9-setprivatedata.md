@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.SetPrivateData
-title: IDirect3DVolume9::SetPrivateData
+title: IDirect3DVolume9::SetPrivateData (d3d9.h)
 author: windows-sdk-content
 description: Associates data with the volume that is intended for use by the application, not by Direct3D.
 old-location: direct3d9\idirect3dvolume9__setprivatedata.htm

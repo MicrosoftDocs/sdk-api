@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetMediaTypeHandler
-title: IMFStreamSink::GetMediaTypeHandler
+title: IMFStreamSink::GetMediaTypeHandler (mfidl.h)
 author: windows-sdk-content
 description: Retrieves the media type handler for the stream sink. You can use the media type handler to find which formats the stream supports, and to set the media type on the stream.
 old-location: mf\imfstreamsink_getmediatypehandler.htm

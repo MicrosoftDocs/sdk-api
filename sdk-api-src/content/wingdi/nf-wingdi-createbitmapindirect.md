@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateBitmapIndirect
-title: CreateBitmapIndirect function
+title: CreateBitmapIndirect function (wingdi.h)
 author: windows-sdk-content
 description: The CreateBitmapIndirect function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 old-location: gdi\createbitmapindirect.htm

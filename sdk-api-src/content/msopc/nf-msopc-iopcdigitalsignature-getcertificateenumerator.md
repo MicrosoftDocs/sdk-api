@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCertificateEnumerator
-title: IOpcDigitalSignature::GetCertificateEnumerator
+title: IOpcDigitalSignature::GetCertificateEnumerator (msopc.h)
 author: windows-sdk-content
 description: Gets an enumerator of certificates that are used in the signature.
 old-location: opc\iopcdigitalsignature_getcertificateenumerator.htm

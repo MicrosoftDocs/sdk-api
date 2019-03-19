@@ -1,6 +1,6 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_2
-title: PSS_AUXILIARY_PAGES_INFORMATION
+title: PSS_AUXILIARY_PAGES_INFORMATION (processsnapshot.h)
 author: windows-sdk-content
 description: Holds auxiliary pages information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_auxiliary_pages_information.htm

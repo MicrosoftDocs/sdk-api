@@ -1,6 +1,6 @@
 ---
 UID: NS:winddi._PATHOBJ
-title: PATHOBJ
+title: PATHOBJ (winddi.h)
 author: windows-sdk-content
 description: The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled.
 old-location: display\pathobj.htm

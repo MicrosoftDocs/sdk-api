@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Application_NewSession
-title: MI_Application_NewSession function
+title: MI_Application_NewSession function (mi.h)
 author: windows-sdk-content
 description: Creates a session used to share connections for a set of operations to a single destination.
 old-location: wmi_v2\mi_application_newsession.htm

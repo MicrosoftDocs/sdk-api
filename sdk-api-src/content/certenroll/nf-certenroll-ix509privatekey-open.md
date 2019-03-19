@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Open
-title: IX509PrivateKey::Open
+title: IX509PrivateKey::Open (certenroll.h)
 author: windows-sdk-content
 description: Opens an existing private key.
 old-location: security\ix509privatekey_open_method.htm

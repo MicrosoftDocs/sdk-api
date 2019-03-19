@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FNALLOC
-title: FNALLOC macro
+title: FNALLOC macro (fdi.h)
 author: windows-sdk-content
 description: The FNALLOC provides the declaration for the application-defined callback function to allocate memory in an FDI context.
 old-location: winprog\fnalloc.htm

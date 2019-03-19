@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.GetStreamDescriptorByIndex
-title: IMFPresentationDescriptor::GetStreamDescriptorByIndex
+title: IMFPresentationDescriptor::GetStreamDescriptorByIndex (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a stream descriptor for a stream in the presentation. The stream descriptor contains information about the stream.
 old-location: mf\imfpresentationdescriptor_getstreamdescriptorbyindex.htm

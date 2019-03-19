@@ -1,6 +1,6 @@
 ---
 UID: NF:processsnapshot.PssFreeSnapshot
-title: PssFreeSnapshot function
+title: PssFreeSnapshot function (processsnapshot.h)
 author: windows-sdk-content
 description: Frees a snapshot.
 old-location: proc_snap\pssfreesnapshot.htm

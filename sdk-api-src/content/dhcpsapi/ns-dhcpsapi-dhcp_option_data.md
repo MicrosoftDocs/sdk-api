@@ -1,6 +1,6 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_DATA
-title: DHCP_OPTION_DATA
+title: DHCP_OPTION_DATA (dhcpsapi.h)
 author: windows-sdk-content
 description: The DHCP_OPTION_DATA structure defines a data container for one or more data elements associated with a DHCP option.
 old-location: dhcp\dhcp_option_data.htm

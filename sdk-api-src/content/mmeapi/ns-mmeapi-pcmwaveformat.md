@@ -1,6 +1,6 @@
 ---
 UID: NS:mmeapi.pcmwaveformat_tag
-title: PCMWAVEFORMAT
+title: PCMWAVEFORMAT (mmeapi.h)
 author: windows-sdk-content
 description: The PCMWAVEFORMAT structure describes the data format for PCM waveform-audio data. This structure has been superseded by the WAVEFORMATEX structure.
 old-location: multimedia\pcmwaveformat.htm

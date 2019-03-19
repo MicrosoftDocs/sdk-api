@@ -1,6 +1,6 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapReader
-title: IAppxBlockMapReader
+title: IAppxBlockMapReader (appxpackaging.h)
 author: windows-sdk-content
 description: Represents a read-only object model for block maps that provides access to the file attributes and block hashes.
 old-location: appxpkg\iappxblockmapreader.htm

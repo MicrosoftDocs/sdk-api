@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetCount
-title: IXpsOMRemoteDictionaryResourceCollection::GetCount
+title: IXpsOMRemoteDictionaryResourceCollection::GetCount (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets the number of IXpsOMRemoteDictionaryResource interface pointers in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_getcount.htm

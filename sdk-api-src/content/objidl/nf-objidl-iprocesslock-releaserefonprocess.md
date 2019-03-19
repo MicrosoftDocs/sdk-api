@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IProcessLock.ReleaseRefOnProcess
-title: IProcessLock::ReleaseRefOnProcess
+title: IProcessLock::ReleaseRefOnProcess (objidl.h)
 author: windows-sdk-content
 description: Decrements the reference count of the process.
 old-location: com\iprocesslock_releaserefonprocess.htm

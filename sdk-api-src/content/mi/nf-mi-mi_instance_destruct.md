@@ -1,6 +1,6 @@
 ---
 UID: NF:mi.MI_Instance_Destruct
-title: MI_Instance_Destruct function
+title: MI_Instance_Destruct function (mi.h)
 author: windows-sdk-content
 description: Deletes an instance that was created on the stack or as a member of a structure.
 old-location: wmi_v2\mi_instance_destruct.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:winuser.CreateDesktopA
-title: CreateDesktopA function
+title: CreateDesktopA function (winuser.h)
 author: windows-sdk-content
 description: Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.
 old-location: winstation\createdesktop.htm

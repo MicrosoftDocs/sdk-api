@@ -1,6 +1,6 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_WINS_SERVER_ADDRESS_LH
-title: IP_ADAPTER_WINS_SERVER_ADDRESS_LH
+title: IP_ADAPTER_WINS_SERVER_ADDRESS_LH (iptypes.h)
 author: windows-sdk-content
 description: Stores a single Windows Internet Name Service (WINS) server address in a linked list of WINS server addresses for a particular adapter.
 old-location: iphlp\ip_adapter_wins_server_address.htm

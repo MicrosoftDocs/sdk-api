@@ -1,6 +1,6 @@
 ---
 UID: NF:evntprov.EventActivityIdControl
-title: EventActivityIdControl function
+title: EventActivityIdControl function (evntprov.h)
 author: windows-sdk-content
 description: Creates, queries, and sets the current activity identifier used by the EventWriteTransfer function.
 old-location: etw\eventactivityidcontrol_func.htm

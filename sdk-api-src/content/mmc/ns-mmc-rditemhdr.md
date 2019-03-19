@@ -1,6 +1,6 @@
 ---
 UID: NS:mmc._RDCITEMHDR
-title: RDITEMHDR
+title: RDITEMHDR (mmc.h)
 author: windows-sdk-content
 description: The RDITEMHDR structure is introduced in MMC 1.2.
 old-location: mmc\rditemhdr.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vfw.ICGetDefaultQuality
-title: ICGetDefaultQuality macro
+title: ICGetDefaultQuality macro (vfw.h)
 author: windows-sdk-content
 description: The ICGetDefaultQuality macro queries a video compression driver to provide its default quality setting. You can use this macro or explicitly call the ICM_GETDEFAULTQUALITY message.
 old-location: multimedia\icgetdefaultquality.htm

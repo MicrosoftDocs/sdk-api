@@ -1,6 +1,6 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_DecoderAccuracy
-title: IMpegAudioDecoder::get_DecoderAccuracy
+title: IMpegAudioDecoder::get_DecoderAccuracy (mpegtype.h)
 author: windows-sdk-content
 description: Returns the decoder accuracy as a three-level quality setting.
 old-location: dshow\impegaudiodecoder_get_decoderaccuracy.htm

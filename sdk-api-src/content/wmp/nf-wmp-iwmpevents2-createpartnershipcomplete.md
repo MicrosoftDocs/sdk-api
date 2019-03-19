@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPEvents2.CreatePartnershipComplete
-title: IWMPEvents2::CreatePartnershipComplete
+title: IWMPEvents2::CreatePartnershipComplete (wmp.h)
 author: windows-sdk-content
 description: The CreatePartnershipComplete event occurs when an asynchronous call to IWMPSyncDevice::createPartnership completes.
 old-location: wmp\iwmpevents2_iwmpevents2__createpartnershipcomplete.htm

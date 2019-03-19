@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateManager.GetTemplate
-title: IFsrmFileScreenTemplateManager::GetTemplate
+title: IFsrmFileScreenTemplateManager::GetTemplate (fsrmscreen.h)
 author: windows-sdk-content
 description: Retrieves the specified file screen template.
 old-location: fsrm\ifsrmfilescreentemplatemanager_gettemplate.htm

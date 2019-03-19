@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFRealTimeClient.RegisterThreads
-title: IMFRealTimeClient::RegisterThreads
+title: IMFRealTimeClient::RegisterThreads (mfidl.h)
 author: windows-sdk-content
 description: Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclient_registerthreads.htm

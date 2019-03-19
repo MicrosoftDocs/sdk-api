@@ -1,6 +1,6 @@
 ---
 UID: NS:resapi.MONITOR_STATE
-title: MONITOR_STATE
+title: MONITOR_STATE (resapi.h)
 author: windows-sdk-content
 description: TBD.
 old-location: mscs\monitor_state.htm

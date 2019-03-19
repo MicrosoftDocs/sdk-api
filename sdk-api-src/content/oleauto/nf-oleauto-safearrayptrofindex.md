@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.SafeArrayPtrOfIndex
-title: SafeArrayPtrOfIndex function
+title: SafeArrayPtrOfIndex function (oleauto.h)
 author: windows-sdk-content
 description: Gets a pointer to an array element.
 old-location: automat\safearrayptrofindex.htm

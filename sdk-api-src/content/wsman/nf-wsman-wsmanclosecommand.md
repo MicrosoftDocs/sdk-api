@@ -1,6 +1,6 @@
 ---
 UID: NF:wsman.WSManCloseCommand
-title: WSManCloseCommand function
+title: WSManCloseCommand function (wsman.h)
 author: windows-sdk-content
 description: Deletes a command and frees the resources that are associated with it.
 old-location: winrm\wsmanclosecommand.htm

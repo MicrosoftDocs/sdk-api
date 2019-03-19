@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateRotateTransform
-title: IDCompositionDevice2::CreateRotateTransform
+title: IDCompositionDevice2::CreateRotateTransform (dcomp.h)
 author: windows-sdk-content
 description: Creates a 2D rotation transform object.
 old-location: directcomp\idcompositiondevice2_createrotatetransform.htm

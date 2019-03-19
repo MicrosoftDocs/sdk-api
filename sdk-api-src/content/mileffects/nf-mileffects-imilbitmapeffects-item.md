@@ -1,6 +1,6 @@
 ---
 UID: NF:mileffects.IMILBitmapEffects.Item
-title: IMILBitmapEffects::Item
+title: IMILBitmapEffects::Item (mileffects.h)
 author: windows-sdk-content
 description: Retrieves the effect at the given index.
 old-location: wibe\_wibe_imilbitmapeffects_item.htm

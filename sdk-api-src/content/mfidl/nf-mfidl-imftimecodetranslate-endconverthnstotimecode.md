@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFTimecodeTranslate.EndConvertHNSToTimecode
-title: IMFTimecodeTranslate::EndConvertHNSToTimecode
+title: IMFTimecodeTranslate::EndConvertHNSToTimecode (mfidl.h)
 author: windows-sdk-content
 description: Completes an asynchronous request to convert time in 100-nanosecond units to Society of Motion Picture and Television Engineers (SMPTE) time code.
 old-location: mf\imftimecodetranslate_endconverthnstotimecode.htm

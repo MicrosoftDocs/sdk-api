@@ -1,6 +1,6 @@
 ---
 UID: NF:msdrm.DRMGetUserRights
-title: DRMGetUserRights function
+title: DRMGetUserRights function (msdrm.h)
 author: windows-sdk-content
 description: Retrieves user/right pairs from an issuance license.
 old-location: rm\drmgetuserrights.htm

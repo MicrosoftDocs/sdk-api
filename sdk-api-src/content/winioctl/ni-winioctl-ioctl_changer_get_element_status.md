@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_ELEMENT_STATUS
-title: IOCTL_CHANGER_GET_ELEMENT_STATUS
+title: IOCTL_CHANGER_GET_ELEMENT_STATUS (winioctl.h)
 author: windows-sdk-content
 description: Retrieves the status of all elements or a specified number of elements of a particular type.
 old-location: base\ioctl_changer_get_element_status.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mapiunicodehelp.MAPISendMailHelper
-title: MAPISendMailHelper function
+title: MAPISendMailHelper function (mapiunicodehelp.h)
 author: windows-sdk-content
 description: Takes Unicode message information and sends the message using MAPISendMailW or, if necessary, converts the message to ANSI and sends the message using MAPISendMail.
 old-location: mapi\mapisendmailhelper.htm

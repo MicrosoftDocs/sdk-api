@@ -1,6 +1,6 @@
 ---
 UID: NE:eaptypes._EAP_CONFIG_INPUT_FIELD_TYPE
-title: EAP_CONFIG_INPUT_FIELD_TYPE
+title: EAP_CONFIG_INPUT_FIELD_TYPE (eaptypes.h)
 author: windows-sdk-content
 description: Defines a set of possible input field types available when querying for user credentials.
 old-location: eaphost\eap_config_input_field_type.htm

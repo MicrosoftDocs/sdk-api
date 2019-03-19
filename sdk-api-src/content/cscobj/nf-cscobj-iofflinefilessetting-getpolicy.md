@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPolicy
-title: IOfflineFilesSetting::GetPolicy
+title: IOfflineFilesSetting::GetPolicy (cscobj.h)
 author: windows-sdk-content
 description: Retrieves a policy associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getpolicy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:mprapi.MprInfoDuplicate
-title: MprInfoDuplicate function
+title: MprInfoDuplicate function (mprapi.h)
 author: windows-sdk-content
 description: The MprInfoDuplicate function duplicates an existing information header.
 old-location: rras\mprinfoduplicate.htm

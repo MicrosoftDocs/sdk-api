@@ -1,6 +1,6 @@
 ---
 UID: NF:clfsw32.GetLogFileInformation
-title: GetLogFileInformation function
+title: GetLogFileInformation function (clfsw32.h)
 author: windows-sdk-content
 description: Returns a buffer that contains metadata about a specified log and its current state, which is defined by the CLFS_INFORMATION structure.
 old-location: fs\getlogfileinformation.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:mfobjects._MFVideoFlags
-title: MFVideoFlags
+title: MFVideoFlags (mfobjects.h)
 author: windows-sdk-content
 description: Contains flags that describe a video stream.
 old-location: mf\mfvideoflags.htm

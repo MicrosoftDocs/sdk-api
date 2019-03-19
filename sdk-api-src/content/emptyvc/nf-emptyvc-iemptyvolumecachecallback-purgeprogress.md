@@ -1,6 +1,6 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCacheCallBack.PurgeProgress
-title: IEmptyVolumeCacheCallBack::PurgeProgress
+title: IEmptyVolumeCacheCallBack::PurgeProgress (emptyvc.h)
 author: windows-sdk-content
 description: Called periodically by a disk cleanup handler to update the disk cleanup manager on the progress of a purge of deletable files.
 old-location: lwef\iemptyvolumecachecallback_purgeprogress.htm

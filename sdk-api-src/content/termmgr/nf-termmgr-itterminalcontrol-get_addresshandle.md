@@ -1,6 +1,6 @@
 ---
 UID: NF:termmgr.ITTerminalControl.get_AddressHandle
-title: ITTerminalControl::get_AddressHandle
+title: ITTerminalControl::get_AddressHandle (termmgr.h)
 author: windows-sdk-content
 description: The get_AddressHandle method gets the MSP address handle.
 old-location: tapi3\itterminalcontrol_get_addresshandle.htm

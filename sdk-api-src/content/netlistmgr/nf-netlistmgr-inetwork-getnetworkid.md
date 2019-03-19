@@ -1,6 +1,6 @@
 ---
 UID: NF:netlistmgr.INetwork.GetNetworkId
-title: INetwork::GetNetworkId
+title: INetwork::GetNetworkId (netlistmgr.h)
 author: windows-sdk-content
 description: The GetNetworkId method returns the unique identifier of a network.
 old-location: nla\inetwork_getnetworkid.htm

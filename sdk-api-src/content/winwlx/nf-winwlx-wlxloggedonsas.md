@@ -1,6 +1,6 @@
 ---
 UID: NF:winwlx.WlxLoggedOnSAS
-title: WlxLoggedOnSAS function
+title: WlxLoggedOnSAS function (winwlx.h)
 author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while the user is logged on and the workstation is not locked.
 old-location: security\wlxloggedonsas.htm

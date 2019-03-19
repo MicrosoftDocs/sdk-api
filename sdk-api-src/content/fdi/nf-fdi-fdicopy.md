@@ -1,6 +1,6 @@
 ---
 UID: NF:fdi.FDICopy
-title: FDICopy function
+title: FDICopy function (fdi.h)
 author: windows-sdk-content
 description: The FDICopy function extracts files from cabinets.
 old-location: winprog\fdicopy.htm

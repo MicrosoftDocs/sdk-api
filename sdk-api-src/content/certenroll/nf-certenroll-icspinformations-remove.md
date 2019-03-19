@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.ICspInformations.Remove
-title: ICspInformations::Remove
+title: ICspInformations::Remove (certenroll.h)
 author: windows-sdk-content
 description: Removes an ICspInformation object from the collection by index number.
 old-location: security\icspinformations_remove_method.htm

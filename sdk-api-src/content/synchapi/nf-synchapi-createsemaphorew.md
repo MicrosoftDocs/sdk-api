@@ -1,6 +1,6 @@
 ---
 UID: NF:synchapi.CreateSemaphoreW
-title: CreateSemaphoreW function
+title: CreateSemaphoreW function (synchapi.h)
 author: windows-sdk-content
 description: Creates or opens a named or unnamed semaphore object.
 old-location: base\createsemaphore.htm

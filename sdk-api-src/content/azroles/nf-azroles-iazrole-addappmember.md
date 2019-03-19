@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzRole.AddAppMember
-title: IAzRole::AddAppMember
+title: IAzRole::AddAppMember (azroles.h)
 author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that belong to this role.
 old-location: security\iazrole_addappmember.htm

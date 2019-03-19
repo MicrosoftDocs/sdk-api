@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFTransform.GetStreamLimits
-title: IMFTransform::GetStreamLimits
+title: IMFTransform::GetStreamLimits (mftransform.h)
 author: windows-sdk-content
 description: Gets the minimum and maximum number of input and output streams for this Media Foundation transform (MFT).
 old-location: mf\imftransform_getstreamlimits.htm

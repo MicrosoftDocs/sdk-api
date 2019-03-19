@@ -1,6 +1,6 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetSettingType
-title: ISettingsItem::GetSettingType
+title: ISettingsItem::GetSettingType (wcmconfig.h)
 author: windows-sdk-content
 description: Gets the setting type for the item.
 old-location: smi\isettingsitem_getsettingtype.htm

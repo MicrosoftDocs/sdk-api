@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGraphGetItemCount
-title: PeerGraphGetItemCount function
+title: PeerGraphGetItemCount function (p2p.h)
 author: windows-sdk-content
 description: The PeerGraphGetItemCount function retrieves the number of items in an enumeration.
 old-location: p2p\peergraphgetitemcount.htm

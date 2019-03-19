@@ -1,6 +1,6 @@
 ---
 UID: NN:wmsdkidl.IWMPropertyVault
-title: IWMPropertyVault
+title: IWMPropertyVault (wmsdkidl.h)
 author: windows-sdk-content
 description: The IWMPropertyVault interface provides methods to store and retrieve properties.
 old-location: wmformat\iwmpropertyvault.htm

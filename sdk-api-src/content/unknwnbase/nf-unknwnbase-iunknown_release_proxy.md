@@ -1,6 +1,6 @@
 ---
 UID: NF:unknwnbase.IUnknown_Release_Proxy
-title: IUnknown_Release_Proxy function
+title: IUnknown_Release_Proxy function (unknwnbase.h)
 author: windows-sdk-content
 description: The IUnknown_Release_Proxy function implements the Release method for all interface proxies.
 old-location: rpc\iunknown_release_proxy.htm

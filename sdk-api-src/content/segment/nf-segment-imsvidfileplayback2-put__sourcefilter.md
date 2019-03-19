@@ -1,6 +1,6 @@
 ---
 UID: NF:segment.IMSVidFilePlayback2.put__SourceFilter
-title: IMSVidFilePlayback2::put__SourceFilter
+title: IMSVidFilePlayback2::put__SourceFilter (segment.h)
 author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsvidfileplayback2_put__sourcefilter.htm

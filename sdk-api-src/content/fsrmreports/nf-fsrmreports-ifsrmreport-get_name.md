@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_Name
-title: IFsrmReport::get_Name
+title: IFsrmReport::get_Name (fsrmreports.h)
 author: windows-sdk-content
 description: Retrieves or sets the name of the report.
 old-location: fsrm\ifsrmreport_name.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:tcpioctl.IPInterfaceInfo
-title: IPInterfaceInfo
+title: IPInterfaceInfo (tcpioctl.h)
 author: windows-sdk-content
 description: The IPInterfaceInfo structure contains information about a specific IP interface, returned by the IOCTL_TCP_QUERY_INFORMATION_EX control code.
 old-location: winprog\ipinterfaceinfo.htm

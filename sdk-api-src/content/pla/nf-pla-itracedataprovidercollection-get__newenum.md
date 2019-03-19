@@ -1,6 +1,6 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get__NewEnum
-title: ITraceDataProviderCollection::get__NewEnum
+title: ITraceDataProviderCollection::get__NewEnum (pla.h)
 author: windows-sdk-content
 description: Retrieves an interface to the enumeration.
 old-location: pla\itracedataprovidercollection__newenum.htm

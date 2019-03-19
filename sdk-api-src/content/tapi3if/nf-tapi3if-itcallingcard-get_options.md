@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_Options
-title: ITCallingCard::get_Options
+title: ITCallingCard::get_Options (tapi3if.h)
 author: windows-sdk-content
 description: The get_Options method gets the translation options for this address and card.
 old-location: tapi3\itcallingcard_get_options.htm

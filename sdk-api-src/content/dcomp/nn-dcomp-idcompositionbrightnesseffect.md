@@ -1,6 +1,6 @@
 ---
 UID: NN:dcomp.IDCompositionBrightnessEffect
-title: IDCompositionBrightnessEffect
+title: IDCompositionBrightnessEffect (dcomp.h)
 author: windows-sdk-content
 description: The brightness effect controls the brightness of the image.
 old-location: directcomp\idcompositionbrightnesseffect.htm

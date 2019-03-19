@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TreeView_GetTextColor
-title: TreeView_GetTextColor macro
+title: TreeView_GetTextColor macro (commctrl.h)
 author: windows-sdk-content
 description: Retrieves the current text color of the control. You can use this macro or send the TVM_GETTEXTCOLOR message explicitly.
 old-location: controls\TreeView_GetTextColor.htm

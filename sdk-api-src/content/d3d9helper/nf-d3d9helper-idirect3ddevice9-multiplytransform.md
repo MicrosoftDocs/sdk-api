@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.MultiplyTransform
-title: IDirect3DDevice9::MultiplyTransform
+title: IDirect3DDevice9::MultiplyTransform (d3d9helper.h)
 author: windows-sdk-content
 description: Multiplies a device's world, view, or projection matrices by a specified matrix.
 old-location: direct3d9\idirect3ddevice9__multiplytransform.htm

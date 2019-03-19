@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerFrame.GetWindowContext
-title: IPreviewHandlerFrame::GetWindowContext
+title: IPreviewHandlerFrame::GetWindowContext (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets a list of the keyboard shortcuts for the preview host.
 old-location: shell\IPreviewHandlerFrame_GetWindowContext.htm

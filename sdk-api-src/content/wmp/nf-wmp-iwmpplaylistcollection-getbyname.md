@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.getByName
-title: IWMPPlaylistCollection::getByName
+title: IWMPPlaylistCollection::getByName (wmp.h)
 author: windows-sdk-content
 description: The getByName method retrieves a pointer to an IWMPPlaylistArray interface on an object containing playlists with the specified name, if any exist.
 old-location: wmp\iwmpplaylistcollection_getbyname.htm

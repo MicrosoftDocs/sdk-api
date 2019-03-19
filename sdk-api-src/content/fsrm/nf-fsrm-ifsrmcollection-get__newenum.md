@@ -1,6 +1,6 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get__NewEnum
-title: IFsrmCollection::get__NewEnum
+title: IFsrmCollection::get__NewEnum (fsrm.h)
 author: windows-sdk-content
 description: Retrieves the IUnknown pointer of a new IEnumVARIANT enumeration for the items in the collection.
 old-location: fsrm\ifsrmcollection__newenum.htm

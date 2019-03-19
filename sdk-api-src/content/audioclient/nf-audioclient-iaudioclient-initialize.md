@@ -1,6 +1,6 @@
 ---
 UID: NF:audioclient.IAudioClient.Initialize
-title: IAudioClient::Initialize
+title: IAudioClient::Initialize (audioclient.h)
 author: windows-sdk-content
 description: The Initialize method initializes the audio stream.
 old-location: coreaudio\iaudioclient_initialize.htm

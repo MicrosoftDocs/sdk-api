@@ -1,6 +1,6 @@
 ---
 UID: NF:mmiscapi.mmioClose
-title: mmioClose function
+title: mmioClose function (mmiscapi.h)
 author: windows-sdk-content
 description: The mmioClose function closes a file that was opened by using the mmioOpen function.
 old-location: multimedia\mmioclose.htm

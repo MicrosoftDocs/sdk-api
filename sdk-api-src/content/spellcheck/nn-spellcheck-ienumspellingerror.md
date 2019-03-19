@@ -1,6 +1,6 @@
 ---
 UID: NN:spellcheck.IEnumSpellingError
-title: IEnumSpellingError
+title: IEnumSpellingError (spellcheck.h)
 author: windows-sdk-content
 description: An enumeration of the spelling errors.
 old-location: intl\ienumspellingerror.htm

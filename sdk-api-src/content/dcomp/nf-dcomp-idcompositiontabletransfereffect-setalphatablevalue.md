@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTableValue
-title: IDCompositionTableTransferEffect::SetAlphaTableValue
+title: IDCompositionTableTransferEffect::SetAlphaTableValue (dcomp.h)
 author: windows-sdk-content
 description: Sets a value in the alpha table.
 old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue.htm

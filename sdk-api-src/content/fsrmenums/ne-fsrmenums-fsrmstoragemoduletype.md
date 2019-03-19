@@ -1,6 +1,6 @@
 ---
 UID: NE:fsrmenums._FsrmStorageModuleType
-title: FsrmStorageModuleType
+title: FsrmStorageModuleType (fsrmenums.h)
 author: windows-sdk-content
 description: Defines the possible storage module types.
 old-location: fsrm\fsrmstoragemoduletype.htm

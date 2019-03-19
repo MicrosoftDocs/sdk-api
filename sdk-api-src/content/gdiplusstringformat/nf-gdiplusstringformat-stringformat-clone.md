@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.Clone
-title: StringFormat::Clone
+title: StringFormat::Clone (gdiplusstringformat.h)
 author: windows-sdk-content
 description: The StringFormat::Clone method creates a new StringFormat object and initializes it with the contents of this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_Clone_.htm

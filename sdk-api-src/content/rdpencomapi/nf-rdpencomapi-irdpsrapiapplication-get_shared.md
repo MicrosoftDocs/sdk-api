@@ -1,6 +1,6 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Shared
-title: IRDPSRAPIApplication::get_Shared
+title: IRDPSRAPIApplication::get_Shared (rdpencomapi.h)
 author: windows-sdk-content
 description: The sharing state.
 old-location: rdp\irdpsrapiapplication_shared.htm

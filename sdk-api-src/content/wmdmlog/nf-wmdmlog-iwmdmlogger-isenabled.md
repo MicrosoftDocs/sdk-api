@@ -1,6 +1,6 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.IsEnabled
-title: IWMDMLogger::IsEnabled
+title: IWMDMLogger::IsEnabled (wmdmlog.h)
 author: windows-sdk-content
 description: The IsEnabled method determines whether logging is enabled.
 old-location: wmdm\iwmdmlogger_isenabled.htm

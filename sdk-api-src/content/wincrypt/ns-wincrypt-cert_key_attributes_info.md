@@ -1,6 +1,6 @@
 ---
 UID: NS:wincrypt._CERT_KEY_ATTRIBUTES_INFO
-title: CERT_KEY_ATTRIBUTES_INFO
+title: CERT_KEY_ATTRIBUTES_INFO (wincrypt.h)
 author: windows-sdk-content
 description: The CERT_KEY_ATTRIBUTES_INFO structure contains optional additional information about the public key being certified.
 old-location: security\cert_key_attributes_info.htm

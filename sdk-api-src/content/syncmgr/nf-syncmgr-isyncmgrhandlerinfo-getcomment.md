@@ -1,6 +1,6 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.GetComment
-title: ISyncMgrHandlerInfo::GetComment
+title: ISyncMgrHandlerInfo::GetComment (syncmgr.h)
 author: windows-sdk-content
 description: Gets a string that contains commentary regarding the handler.
 old-location: shell\ISyncMgrHandlerInfo_GetComment.htm

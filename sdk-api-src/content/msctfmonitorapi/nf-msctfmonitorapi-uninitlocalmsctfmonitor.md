@@ -1,6 +1,6 @@
 ---
 UID: NF:msctfmonitorapi.UninitLocalMsCtfMonitor
-title: UninitLocalMsCtfMonitor function
+title: UninitLocalMsCtfMonitor function (msctfmonitorapi.h)
 author: windows-sdk-content
 description: The UninitLocalMsCtfMonitor function uninitializes TextServicesFramework on the current desktop.
 old-location: tsf\UninitLocalMsCtfMonitor.htm

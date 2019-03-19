@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkTransform.SetTransform
-title: IInkTransform::SetTransform
+title: IInkTransform::SetTransform (msinkaut.h)
 author: windows-sdk-content
 description: Modifies the InkTransform member data.
 old-location: tablet\inktransform_settransform.htm

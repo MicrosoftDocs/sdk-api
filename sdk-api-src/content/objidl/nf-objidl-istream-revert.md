@@ -1,6 +1,6 @@
 ---
 UID: NF:objidl.IStream.Revert
-title: IStream::Revert
+title: IStream::Revert (objidl.h)
 author: windows-sdk-content
 description: The Revert method discards all changes that have been made to a transacted stream since the last IStream::Commit call. On streams open in direct mode and streams using the COM compound file implementation of IStream::Revert, this method has no effect.
 old-location: stg\istream_revert.htm

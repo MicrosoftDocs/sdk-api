@@ -1,6 +1,6 @@
 ---
 UID: NF:drt.DrtRegisterKey
-title: DrtRegisterKey function
+title: DrtRegisterKey function (drt.h)
 author: windows-sdk-content
 description: The DrtRegisterKey function registers a key in the DRT.
 old-location: p2p\drtregisterkey.htm

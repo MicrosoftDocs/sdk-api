@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_VIEWPORT
-title: D3D10_VIEWPORT
+title: D3D10_VIEWPORT (d3d10.h)
 author: windows-sdk-content
 description: Defines the dimensions of a viewport.
 old-location: direct3d10\d3d10_viewport.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation2
-title: IUIAutomation2
+title: IUIAutomation2 (uiautomationclient.h)
 author: windows-sdk-content
 description: Extends the IUIAutomation interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation2.htm

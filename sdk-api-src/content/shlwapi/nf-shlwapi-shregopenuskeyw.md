@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.SHRegOpenUSKeyW
-title: SHRegOpenUSKeyW function
+title: SHRegOpenUSKeyW function (shlwapi.h)
 author: windows-sdk-content
 description: Opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegOpenUSKey.htm

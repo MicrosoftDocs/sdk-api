@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetByPartName
-title: IXpsOMImageResourceCollection::GetByPartName
+title: IXpsOMImageResourceCollection::GetByPartName (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Gets an IXpsOMImageResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomimageresourcecollection_getbypartname.htm

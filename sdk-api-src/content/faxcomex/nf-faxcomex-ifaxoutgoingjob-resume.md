@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Resume
-title: IFaxOutgoingJob::Resume
+title: IFaxOutgoingJob::Resume (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::Resume method resumes the paused outbound fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_resume_cpp.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.SetAsyncMode
-title: IDataObjectAsyncCapability::SetAsyncMode
+title: IDataObjectAsyncCapability::SetAsyncMode (shldisp.h)
 author: windows-sdk-content
 description: Called by a drop source to specify whether the data object supports asynchronous data extraction.
 old-location: shell\IDataObjectAsyncCapability_SetAsyncMode.htm

@@ -1,6 +1,6 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_PROTOCOL_COMMAND
-title: IOCTL_STORAGE_PROTOCOL_COMMAND
+title: IOCTL_STORAGE_PROTOCOL_COMMAND (winioctl.h)
 author: windows-sdk-content
 description: Windows applications can use this control code to return properties of a storage device or adapter. The request indicates the kind of information to retrieve, such as inquiry data for a device or capabilities and limitations of an adapter.
 old-location: fs\ioctl_storage_protocol_command.htm

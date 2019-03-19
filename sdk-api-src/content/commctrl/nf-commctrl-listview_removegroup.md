@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_RemoveGroup
-title: ListView_RemoveGroup macro
+title: ListView_RemoveGroup macro (commctrl.h)
 author: windows-sdk-content
 description: Removes a group from a list-view control. You can use this macro or send the LVM_REMOVEGROUP message explicitly.
 old-location: controls\ListView_RemoveGroup.htm

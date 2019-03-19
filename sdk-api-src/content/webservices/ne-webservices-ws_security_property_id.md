@@ -1,6 +1,6 @@
 ---
 UID: NE:webservices.__unnamed_enum_61
-title: WS_SECURITY_PROPERTY_ID
+title: WS_SECURITY_PROPERTY_ID (webservices.h)
 author: windows-sdk-content
 description: Identifies the properties representing channel-wide security settings. This enumeration is used within the WS_SECURITY_PROPERTY structure, which is in turn used within a WS_SECURITY_DESCRIPTION structure.
 old-location: wsw\ws_security_property_id.htm

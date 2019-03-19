@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_SamplesPerSec
-title: ITScriptableAudioFormat::put_SamplesPerSec
+title: ITScriptableAudioFormat::put_SamplesPerSec (tapi3if.h)
 author: windows-sdk-content
 description: The put_SamplesPerSec method sets the nSamplesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_samplespersec.htm

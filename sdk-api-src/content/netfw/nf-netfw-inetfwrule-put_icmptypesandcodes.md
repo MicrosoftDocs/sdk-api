@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRule.put_IcmpTypesAndCodes
-title: INetFwRule::put_IcmpTypesAndCodes
+title: INetFwRule::put_IcmpTypesAndCodes (netfw.h)
 author: windows-sdk-content
 description: Specifies the list of ICMP types and codes for this rule.
 old-location: ics\inetfwrule_icmptypesandcodes.htm

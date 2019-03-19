@@ -1,6 +1,6 @@
 ---
 UID: NF:pathcch.PathCchRemoveFileSpec
-title: PathCchRemoveFileSpec function
+title: PathCchRemoveFileSpec function (pathcch.h)
 author: windows-sdk-content
 description: Removes the last element in a path string, whether that element is a file name or a directory name.
 old-location: shell\PathCchRemoveFileSpec.htm

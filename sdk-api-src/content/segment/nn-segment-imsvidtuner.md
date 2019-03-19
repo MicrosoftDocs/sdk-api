@@ -1,6 +1,6 @@
 ---
 UID: NN:segment.IMSVidTuner
-title: IMSVidTuner
+title: IMSVidTuner (segment.h)
 author: windows-sdk-content
 description: The IMSVidTuner interface manages tuning devices.
 old-location: mstv\imsvidtuner.htm

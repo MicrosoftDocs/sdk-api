@@ -1,6 +1,6 @@
 ---
 UID: NS:pdh._PDH_RAW_LOG_RECORD
-title: PDH_RAW_LOG_RECORD
+title: PDH_RAW_LOG_RECORD (pdh.h)
 author: windows-sdk-content
 description: The PDH_RAW_LOG_RECORD structure contains information about a binary trace log file record.
 old-location: perf\pdh_raw_log_record_str.htm

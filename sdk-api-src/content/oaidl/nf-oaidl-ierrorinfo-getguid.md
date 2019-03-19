@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetGUID
-title: IErrorInfo::GetGUID
+title: IErrorInfo::GetGUID (oaidl.h)
 author: windows-sdk-content
 description: Returns the globally unique identifier (GUID) of the interface that defined the error.
 old-location: automat\ierrorinfo_getguid.htm

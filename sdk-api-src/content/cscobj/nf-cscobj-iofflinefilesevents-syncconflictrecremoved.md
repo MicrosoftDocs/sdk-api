@@ -1,6 +1,6 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecRemoved
-title: IOfflineFilesEvents::SyncConflictRecRemoved
+title: IOfflineFilesEvents::SyncConflictRecRemoved (cscobj.h)
 author: windows-sdk-content
 description: Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecremoved.htm

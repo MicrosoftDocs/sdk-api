@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnSetFocus
-title: ITfThreadMgrEventSink::OnSetFocus
+title: ITfThreadMgrEventSink::OnSetFocus (msctf.h)
 author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnSetFocus method
 old-location: tsf\itfthreadmgreventsink_onsetfocus.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.Clone
-title: IEnumCERTVIEWEXTENSION::Clone
+title: IEnumCERTVIEWEXTENSION::Clone (certview.h)
 author: windows-sdk-content
 description: Creates a copy of the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_clone.htm

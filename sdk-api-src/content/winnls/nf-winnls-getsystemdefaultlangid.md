@@ -1,6 +1,6 @@
 ---
 UID: NF:winnls.GetSystemDefaultLangID
-title: GetSystemDefaultLangID function
+title: GetSystemDefaultLangID function (winnls.h)
 author: windows-sdk-content
 description: Returns the language identifier for the system locale.
 old-location: intl\getsystemdefaultlangid.htm

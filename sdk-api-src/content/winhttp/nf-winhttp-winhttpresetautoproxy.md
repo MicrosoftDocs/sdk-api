@@ -1,6 +1,6 @@
 ---
 UID: NF:winhttp.WinHttpResetAutoProxy
-title: WinHttpResetAutoProxy function
+title: WinHttpResetAutoProxy function (winhttp.h)
 author: windows-sdk-content
 description: Resets the auto-proxy.
 old-location: http\winhttpresetautoproxy.htm

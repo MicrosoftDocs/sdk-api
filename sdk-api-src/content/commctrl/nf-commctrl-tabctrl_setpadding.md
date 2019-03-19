@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.TabCtrl_SetPadding
-title: TabCtrl_SetPadding macro
+title: TabCtrl_SetPadding macro (commctrl.h)
 author: windows-sdk-content
 description: Sets the amount of space (padding) around each tab's icon and label in a tab control. You can use this macro or send the TCM_SETPADDING message explicitly.
 old-location: controls\TabCtrl_SetPadding.htm

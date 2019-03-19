@@ -1,6 +1,6 @@
 ---
 UID: NS:batclass._BATTERY_TAG_CHANGE
-title: BATTERY_TAG_CHANGE
+title: BATTERY_TAG_CHANGE (batclass.h)
 author: windows-sdk-content
 description: This structure is reserved for system use.
 old-location: battery\battery_tag_change.htm

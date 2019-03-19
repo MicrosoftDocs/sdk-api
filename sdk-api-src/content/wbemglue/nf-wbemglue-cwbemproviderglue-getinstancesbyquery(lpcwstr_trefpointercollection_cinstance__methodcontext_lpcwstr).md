@@ -1,6 +1,6 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
-title: CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
+title: CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR) (wbemglue.h)
 author: windows-sdk-content
 description: The GetInstancesByQuery method retrieves a list of instances that match a particular query.
 old-location: wmi\cwbemproviderglue_getinstancesbyquery.htm

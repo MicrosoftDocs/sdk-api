@@ -1,6 +1,6 @@
 ---
 UID: NN:d3d11.ID3D11Buffer
-title: ID3D11Buffer
+title: ID3D11Buffer (d3d11.h)
 author: windows-sdk-content
 description: A buffer interface accesses a buffer resource, which is unstructured memory. Buffers typically store vertex or index data.
 old-location: direct3d11\id3d11buffer.htm

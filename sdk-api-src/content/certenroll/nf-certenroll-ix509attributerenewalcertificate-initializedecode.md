@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509AttributeRenewalCertificate.InitializeDecode
-title: IX509AttributeRenewalCertificate::InitializeDecode
+title: IX509AttributeRenewalCertificate::InitializeDecode (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_initializedecode_method.htm

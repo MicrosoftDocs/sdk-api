@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleLink.Update
-title: IOleLink::Update
+title: IOleLink::Update (oleidl.h)
 author: windows-sdk-content
 description: Updates the compound document's cached data for a linked object. This involves binding to the link source, if it is not already bound.
 old-location: com\iolelink_update.htm

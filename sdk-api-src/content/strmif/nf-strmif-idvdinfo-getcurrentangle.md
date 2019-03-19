@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentAngle
-title: IDvdInfo::GetCurrentAngle
+title: IDvdInfo::GetCurrentAngle (strmif.h)
 author: windows-sdk-content
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available angles and the currently selected angle number.
 old-location: dshow\idvdinfo_getcurrentangle.htm

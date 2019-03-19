@@ -1,6 +1,6 @@
 ---
 UID: NF:commctrl.ListView_GetTextColor
-title: ListView_GetTextColor macro
+title: ListView_GetTextColor macro (commctrl.h)
 author: windows-sdk-content
 description: Gets the text color of a list-view control. You can use this macro or send the LVM_GETTEXTCOLOR message explicitly.
 old-location: controls\ListView_GetTextColor.htm

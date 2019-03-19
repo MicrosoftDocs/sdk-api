@@ -1,6 +1,6 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_TS_ID
-title: EVENT_EXTENDED_ITEM_TS_ID
+title: EVENT_EXTENDED_ITEM_TS_ID (evntcons.h)
 author: windows-sdk-content
 description: Defines the terminal session that logged the event.
 old-location: etw\event_extended_item_ts_id.htm

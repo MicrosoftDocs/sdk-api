@@ -1,6 +1,6 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetBackingFileCount
-title: IStreamBufferConfigure::SetBackingFileCount
+title: IStreamBufferConfigure::SetBackingFileCount (sbe.h)
 author: windows-sdk-content
 description: The SetBackingFileCount method sets the maximum and minimum number of backing files.
 old-location: mstv\istreambufferconfigure_setbackingfilecount.htm

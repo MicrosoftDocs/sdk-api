@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMVector2Reflect
-title: XMVector2Reflect function
+title: XMVector2Reflect function (directxmath.h)
 author: windows-sdk-content
 description: Reflects an incident 2D vector across a 2D normal vector.
 old-location: dxmath\xmvector2reflect.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowStyle
-title: IVideoWindow::put_WindowStyle
+title: IVideoWindow::put_WindowStyle (control.h)
 author: windows-sdk-content
 description: The put_WindowStyle method sets the window styles on the video window.
 old-location: dshow\ivideowindow_put_windowstyle.htm

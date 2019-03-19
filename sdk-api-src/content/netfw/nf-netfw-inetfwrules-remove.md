@@ -1,6 +1,6 @@
 ---
 UID: NF:netfw.INetFwRules.Remove
-title: INetFwRules::Remove
+title: INetFwRules::Remove (netfw.h)
 author: windows-sdk-content
 description: The Remove method removes a rule from the collection.
 old-location: ics\inetfwrules_remove.htm

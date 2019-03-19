@@ -1,6 +1,6 @@
 ---
 UID: NF:mgm.MgmGetProtocolOnInterface
-title: MgmGetProtocolOnInterface function
+title: MgmGetProtocolOnInterface function (mgm.h)
 author: windows-sdk-content
 description: The MgmGetProtocolOnInterface function retrieves the protocol ID of the multicast routing protocol that owns the specified interface.
 old-location: rras\mgmgetprotocoloninterface.htm

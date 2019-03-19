@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelPurgeOutput
-title: WTSVirtualChannelPurgeOutput function
+title: WTSVirtualChannelPurgeOutput function (wtsapi32.h)
 author: windows-sdk-content
 description: Deletes all queued output data sent from the server to the client on a specified virtual channel.
 old-location: termserv\wtsvirtualchannelpurgeoutput.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:snmp.SnmpExtensionQueryEx
-title: SnmpExtensionQueryEx function
+title: SnmpExtensionQueryEx function (snmp.h)
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionQueryEx function to process SNMP requests that specify variables in one or more MIB subtrees registered by SNMP extension agents. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionqueryex.htm

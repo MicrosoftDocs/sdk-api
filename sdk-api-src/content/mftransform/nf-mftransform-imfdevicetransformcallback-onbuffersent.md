@@ -1,6 +1,6 @@
 ---
 UID: NF:mftransform.IMFDeviceTransformCallback.OnBufferSent
-title: IMFDeviceTransformCallback::OnBufferSent
+title: IMFDeviceTransformCallback::OnBufferSent (mftransform.h)
 author: windows-sdk-content
 description: Called when system-allocated frame buffers are sent to the device driver.
 old-location: stream\imfdevicetransformcallback_onbuffersent.htm

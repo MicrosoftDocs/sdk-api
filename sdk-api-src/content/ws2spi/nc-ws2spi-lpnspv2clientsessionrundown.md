@@ -1,6 +1,6 @@
 ---
 UID: NC:ws2spi.LPNSPV2CLIENTSESSIONRUNDOWN
-title: LPNSPV2CLIENTSESSIONRUNDOWN
+title: LPNSPV2CLIENTSESSIONRUNDOWN (ws2spi.h)
 author: windows-sdk-content
 description: Notifies a namespace service provider version-2 (NSPv2) provider that the client session is terminating.
 old-location: winsock\nspv2clientsessionrundown.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.IDropTargetProvider.get_DropTargetEffect
-title: IDropTargetProvider::get_DropTargetEffect
+title: IDropTargetProvider::get_DropTargetEffect (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a localized string that describes the effect that happens when the user drops the grabbed element on this drop target.
 old-location: winauto\uiauto_idroptargetprovider_droptargeteffect.htm

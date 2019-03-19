@@ -1,6 +1,6 @@
 ---
 UID: NF:http.HTTPAPI_GREATER_VERSION
-title: HTTPAPI_GREATER_VERSION macro
+title: HTTPAPI_GREATER_VERSION macro (http.h)
 author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_greater_version.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:avrt.AvQuerySystemResponsiveness
-title: AvQuerySystemResponsiveness function
+title: AvQuerySystemResponsiveness function (avrt.h)
 author: windows-sdk-content
 description: Retrieves the system responsiveness setting used by the multimedia class scheduler service.
 old-location: base\avquerysystemresponsiveness.htm

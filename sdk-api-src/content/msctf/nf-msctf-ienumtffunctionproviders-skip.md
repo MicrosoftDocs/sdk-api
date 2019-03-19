@@ -1,6 +1,6 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Skip
-title: IEnumTfFunctionProviders::Skip
+title: IEnumTfFunctionProviders::Skip (msctf.h)
 author: windows-sdk-content
 description: IEnumTfFunctionProviders::Skip method
 old-location: tsf\ienumtffunctionproviders_skip.htm

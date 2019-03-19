@@ -1,6 +1,6 @@
 ---
 UID: NS:vmr9._VMR9DeinterlaceCaps
-title: VMR9DeinterlaceCaps
+title: VMR9DeinterlaceCaps (vmr9.h)
 author: windows-sdk-content
 description: The VMR9DeinterlaceCaps structure describes the capabilities of a deinterlacing mode.
 old-location: dshow\vmr9deinterlacecaps.htm

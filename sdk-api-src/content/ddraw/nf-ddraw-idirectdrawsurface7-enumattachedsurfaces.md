@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.EnumAttachedSurfaces
-title: IDirectDrawSurface7::EnumAttachedSurfaces
+title: IDirectDrawSurface7::EnumAttachedSurfaces (ddraw.h)
 author: windows-sdk-content
 description: Enumerates all the surfaces that are attached to this surface.
 old-location: directdraw\idirectdrawsurface7_enumattachedsurfaces.htm

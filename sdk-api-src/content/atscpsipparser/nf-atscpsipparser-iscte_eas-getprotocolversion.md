@@ -1,6 +1,6 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetProtocolVersion
-title: ISCTE_EAS::GetProtocolVersion
+title: ISCTE_EAS::GetProtocolVersion (atscpsipparser.h)
 author: windows-sdk-content
 description: The GetProtocolVersion method returns the protocol version of the EAS table.
 old-location: mstv\iscte_eas_getprotocolversion.htm

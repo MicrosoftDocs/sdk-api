@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetFieldNoCopy
-title: IRecordInfo::GetFieldNoCopy
+title: IRecordInfo::GetFieldNoCopy (oaidl.h)
 author: windows-sdk-content
 description: Returns a pointer to the value of a given field name without copying the value and allocating resources.
 old-location: automat\irecordinfo_getfieldnocopy.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMUINT2.XMUINT2(uint32_t,uint32_t)
-title: XMUINT2::XMUINT2(uint32_t,uint32_t)
+title: XMUINT2::XMUINT2(uint32_t,uint32_t) (directxmath.h)
 author: windows-sdk-content
 description: Initializes a new instance of XMUINT2 from two uint32_t arguments.
 old-location: dxmath\xmuint2_ctor_2.htm

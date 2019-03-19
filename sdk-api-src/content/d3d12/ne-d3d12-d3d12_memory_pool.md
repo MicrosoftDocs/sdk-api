@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12.D3D12_MEMORY_POOL
-title: D3D12_MEMORY_POOL
+title: D3D12_MEMORY_POOL (d3d12.h)
 author: windows-sdk-content
 description: Specifies the memory pool for the heap.
 old-location: direct3d12\d3d12_memory_pool.htm

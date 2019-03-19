@@ -1,6 +1,6 @@
 ---
 UID: NF:recapis.CloneContext
-title: CloneContext function
+title: CloneContext function (recapis.h)
 author: windows-sdk-content
 description: Creates a recognizer context that contains the same settings as the original. The new recognizer context does not include the ink or recognition results of the original.
 old-location: tablet\clonecontext.htm

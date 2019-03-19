@@ -1,6 +1,6 @@
 ---
 UID: NF:webservices.WsResetServiceHost
-title: WsResetServiceHost function
+title: WsResetServiceHost function (webservices.h)
 author: windows-sdk-content
 description: Resets service host so that it can be opened again.
 old-location: wsw\wsresetservicehost.htm

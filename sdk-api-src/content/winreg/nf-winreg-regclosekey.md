@@ -1,6 +1,6 @@
 ---
 UID: NF:winreg.RegCloseKey
-title: RegCloseKey function
+title: RegCloseKey function (winreg.h)
 author: windows-sdk-content
 description: Closes a handle to the specified registry key.
 old-location: base\regclosekey.htm

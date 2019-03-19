@@ -1,6 +1,6 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Polarity
-title: IBDA_FrequencyFilter::put_Polarity
+title: IBDA_FrequencyFilter::put_Polarity (bdaiface.h)
 author: windows-sdk-content
 description: The put_Polarity method specifies the polarity of the signal.
 old-location: mstv\ibda_frequencyfilter_put_polarity.htm

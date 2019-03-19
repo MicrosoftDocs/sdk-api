@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.EngAlphaBlend
-title: EngAlphaBlend function
+title: EngAlphaBlend function (winddi.h)
 author: windows-sdk-content
 description: The EngAlphaBlend function provides bit-block transfer capabilities with alpha blending.
 old-location: display\engalphablend.htm

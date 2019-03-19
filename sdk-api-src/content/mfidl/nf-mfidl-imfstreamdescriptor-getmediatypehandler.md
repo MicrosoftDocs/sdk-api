@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFStreamDescriptor.GetMediaTypeHandler
-title: IMFStreamDescriptor::GetMediaTypeHandler
+title: IMFStreamDescriptor::GetMediaTypeHandler (mfidl.h)
 author: windows-sdk-content
 description: Retrieves a media type handler for the stream. The media type handler can be used to enumerate supported media types for the stream, get the current media type, and set the media type.
 old-location: mf\imfstreamdescriptor_getmediatypehandler.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:securitybaseapi.DestroyPrivateObjectSecurity
-title: DestroyPrivateObjectSecurity function
+title: DestroyPrivateObjectSecurity function (securitybaseapi.h)
 author: windows-sdk-content
 description: Deletes a private object's security descriptor.
 old-location: security\destroyprivateobjectsecurity.htm

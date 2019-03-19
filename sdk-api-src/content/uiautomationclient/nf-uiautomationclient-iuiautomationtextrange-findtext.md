@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.FindText
-title: IUIAutomationTextRange::FindText
+title: IUIAutomationTextRange::FindText (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a text range subset that contains the specified text.
 old-location: winauto\uiauto_IUIAutomationTextRange_FindText.htm

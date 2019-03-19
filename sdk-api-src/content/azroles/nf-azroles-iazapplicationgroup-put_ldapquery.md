@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.put_LdapQuery
-title: IAzApplicationGroup::put_LdapQuery
+title: IAzApplicationGroup::put_LdapQuery (azroles.h)
 author: windows-sdk-content
 description: Sets or retrieves the Lightweight Directory Access Protocol (LDAP) query used to define membership for an LDAP query application group.
 old-location: security\iazapplicationgroup_ldapquery.htm

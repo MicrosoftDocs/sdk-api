@@ -1,6 +1,6 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.TranslateColorGlyphRun
-title: IDWriteFactory2::TranslateColorGlyphRun
+title: IDWriteFactory2::TranslateColorGlyphRun (dwrite_2.h)
 author: windows-sdk-content
 description: This method is called on a glyph run to translate it in to multiple color glyph runs.
 old-location: directwrite\idwritefactory2_translatecolorglyphrun.htm

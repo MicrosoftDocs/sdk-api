@@ -1,6 +1,6 @@
 ---
 UID: NF:projectedfslib.PrjGetOnDiskFileState
-title: PrjGetOnDiskFileState function
+title: PrjGetOnDiskFileState function (projectedfslib.h)
 author: windows-sdk-content
 description: Gets the on-disk file state for a file or directory.
 old-location: projfs\prjgetondiskfilestate.htm

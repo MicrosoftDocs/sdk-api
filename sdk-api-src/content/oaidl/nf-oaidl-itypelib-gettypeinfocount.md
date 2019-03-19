@@ -1,6 +1,6 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoCount
-title: ITypeLib::GetTypeInfoCount
+title: ITypeLib::GetTypeInfoCount (oaidl.h)
 author: windows-sdk-content
 description: Provides the number of type descriptions that are in a type library.
 old-location: automat\itypelib_gettypeinfocount.htm

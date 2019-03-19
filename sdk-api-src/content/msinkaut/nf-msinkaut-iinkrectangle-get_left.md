@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkRectangle.get_Left
-title: IInkRectangle::get_Left
+title: IInkRectangle::get_Left (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the left position of the InkRectangle object.
 old-location: tablet\inkrectangle_left.htm

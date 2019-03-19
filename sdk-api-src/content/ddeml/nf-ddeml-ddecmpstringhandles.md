@@ -1,6 +1,6 @@
 ---
 UID: NF:ddeml.DdeCmpStringHandles
-title: DdeCmpStringHandles function
+title: DdeCmpStringHandles function (ddeml.h)
 author: windows-sdk-content
 description: Compares the values of two string handles. The value of a string handle is not related to the case of the associated string.
 old-location: dataxchg\ddecmpstringhandles.htm

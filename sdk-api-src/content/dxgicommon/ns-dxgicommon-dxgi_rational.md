@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgicommon.DXGI_RATIONAL
-title: DXGI_RATIONAL
+title: DXGI_RATIONAL (dxgicommon.h)
 author: windows-sdk-content
 description: Represents a rational number.
 old-location: direct3ddxgi\dxgi_rational.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyPnPActivity
-title: IDiscMasterProgressEvents::NotifyPnPActivity
+title: IDiscMasterProgressEvents::NotifyPnPActivity (imapi.h)
 author: windows-sdk-content
 description: Notifies the application that there is a change to the list of valid disc recorders. (For example, a USB CD-R driver is removed from the system.).
 old-location: imapi\idiscmasterprogressevents_notifypnpactivity.htm

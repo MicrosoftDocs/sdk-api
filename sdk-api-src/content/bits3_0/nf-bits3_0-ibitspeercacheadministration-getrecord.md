@@ -1,6 +1,6 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetRecord
-title: IBitsPeerCacheAdministration::GetRecord
+title: IBitsPeerCacheAdministration::GetRecord (bits3_0.h)
 author: windows-sdk-content
 description: Gets a record from the cache.
 old-location: bits\ibitspeercacheadministration_getrecord.htm

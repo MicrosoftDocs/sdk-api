@@ -1,6 +1,6 @@
 ---
 UID: NF:winddi.FLOATOBJ_SetLong
-title: FLOATOBJ_SetLong function
+title: FLOATOBJ_SetLong function (winddi.h)
 author: windows-sdk-content
 description: The FLOATOBJ_SetLong function assigns the value of type LONG to the FLOATOBJ.
 old-location: display\floatobj_setlong.htm

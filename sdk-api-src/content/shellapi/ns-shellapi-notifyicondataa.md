@@ -1,6 +1,6 @@
 ---
 UID: NS:shellapi._NOTIFYICONDATAA
-title: NOTIFYICONDATAA
+title: NOTIFYICONDATAA (shellapi.h)
 author: windows-sdk-content
 description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.
 old-location: shell\NOTIFYICONDATA.htm

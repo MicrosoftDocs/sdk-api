@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.GetRemovedDestinations
-title: ICustomDestinationList::GetRemovedDestinations
+title: ICustomDestinationList::GetRemovedDestinations (shobjidl_core.h)
 author: windows-sdk-content
 description: Retrieves the current list of destinations that have been removed by the user from the existing Jump List that this custom Jump List is meant to replace.
 old-location: shell\ICustomDestinationList_GetRemovedDestinations.htm

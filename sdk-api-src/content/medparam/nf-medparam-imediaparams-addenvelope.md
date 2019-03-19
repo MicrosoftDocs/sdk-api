@@ -1,6 +1,6 @@
 ---
 UID: NF:medparam.IMediaParams.AddEnvelope
-title: IMediaParams::AddEnvelope
+title: IMediaParams::AddEnvelope (medparam.h)
 author: windows-sdk-content
 description: The AddEnvelope method adds an envelope to a parameter.
 old-location: dshow\imediaparams_addenvelope.htm

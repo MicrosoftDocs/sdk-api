@@ -1,6 +1,6 @@
 ---
 UID: NN:mfidl.IMFSAMIStyle
-title: IMFSAMIStyle
+title: IMFSAMIStyle (mfidl.h)
 author: windows-sdk-content
 description: Sets and retrieves Synchronized Accessible Media Interchange (SAMI) styles on the SAMI Media Source.
 old-location: mf\imfsamistyle.htm

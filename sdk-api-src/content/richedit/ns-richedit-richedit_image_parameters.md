@@ -1,6 +1,6 @@
 ---
 UID: NS:richedit.tagRICHEDIT_IMAGE_PARAMETERS
-title: RICHEDIT_IMAGE_PARAMETERS
+title: RICHEDIT_IMAGE_PARAMETERS (richedit.h)
 author: windows-sdk-content
 description: Defines the attributes of an image to be inserted by the EM_INSERTIMAGE message.
 old-location: controls\richedit_image_parameters.htm

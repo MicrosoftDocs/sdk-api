@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaError.GetExtendedErrorCode
-title: IMFMediaError::GetExtendedErrorCode
+title: IMFMediaError::GetExtendedErrorCode (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the extended error code.
 old-location: mf\imfmediaerror_getextendederrorcode.htm

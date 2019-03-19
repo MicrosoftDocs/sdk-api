@@ -1,6 +1,6 @@
 ---
 UID: NF:ncryptprotect.NCryptUnprotectSecret
-title: NCryptUnprotectSecret function
+title: NCryptUnprotectSecret function (ncryptprotect.h)
 author: windows-sdk-content
 description: Decrypts data to a specified protection descriptor.
 old-location: security\ncryptunprotectsecret.htm

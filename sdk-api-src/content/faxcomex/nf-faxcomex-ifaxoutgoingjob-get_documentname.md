@@ -1,6 +1,6 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_DocumentName
-title: IFaxOutgoingJob::get_DocumentName
+title: IFaxOutgoingJob::get_DocumentName (faxcomex.h)
 author: windows-sdk-content
 description: The IFaxOutgoingJob::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_documentname_cpp.htm

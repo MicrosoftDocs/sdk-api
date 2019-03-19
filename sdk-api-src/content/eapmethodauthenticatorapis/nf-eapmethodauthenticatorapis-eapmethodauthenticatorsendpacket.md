@@ -1,6 +1,6 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorSendPacket
-title: EapMethodAuthenticatorSendPacket function
+title: EapMethodAuthenticatorSendPacket function (eapmethodauthenticatorapis.h)
 author: windows-sdk-content
 description: Obtains an authentication packet from the EAP authenticator method to send to the supplicant.
 old-location: eaphost\eapmethodauthenticatorsendpacket.htm

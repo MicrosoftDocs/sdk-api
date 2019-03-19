@@ -1,6 +1,6 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.get_SortColumns
-title: IShellFolderViewDual3::get_SortColumns
+title: IShellFolderViewDual3::get_SortColumns (shldisp.h)
 author: windows-sdk-content
 description: Gets the names of the columns used to sort the current folder.
 old-location: shell\IShellFolderViewDual3_get_SortColumns.htm

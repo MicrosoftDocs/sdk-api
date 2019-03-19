@@ -1,6 +1,6 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Delete
-title: IPNPXDeviceAssociation::Delete
+title: IPNPXDeviceAssociation::Delete (pnpxassoc.h)
 author: windows-sdk-content
 description: Removes an entry from the association database and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_delete.htm

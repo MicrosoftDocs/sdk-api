@@ -1,6 +1,6 @@
 ---
 UID: NF:commoncontrols.IImageList.Merge
-title: IImageList::Merge
+title: IImageList::Merge (commoncontrols.h)
 author: windows-sdk-content
 description: Creates a new image by combining two existing images. This method also creates a new image list in which to store the image.
 old-location: controls\IImageList_Merge.htm

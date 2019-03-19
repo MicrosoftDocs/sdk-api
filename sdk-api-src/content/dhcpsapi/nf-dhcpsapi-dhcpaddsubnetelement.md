@@ -1,6 +1,6 @@
 ---
 UID: NF:dhcpsapi.DhcpAddSubnetElement
-title: DhcpAddSubnetElement function
+title: DhcpAddSubnetElement function (dhcpsapi.h)
 author: windows-sdk-content
 description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
 old-location: dhcp\dhcpaddsubnetelement.htm

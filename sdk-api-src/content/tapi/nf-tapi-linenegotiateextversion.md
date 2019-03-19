@@ -1,6 +1,6 @@
 ---
 UID: NF:tapi.lineNegotiateExtVersion
-title: lineNegotiateExtVersion function
+title: lineNegotiateExtVersion function (tapi.h)
 author: windows-sdk-content
 description: The lineNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified line device. This operation need not be called if the application does not support extensions.
 old-location: tapi2\linenegotiateextversion.htm

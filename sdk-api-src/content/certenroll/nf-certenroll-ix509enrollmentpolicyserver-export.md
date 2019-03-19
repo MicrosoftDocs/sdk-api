@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Export
-title: IX509EnrollmentPolicyServer::Export
+title: IX509EnrollmentPolicyServer::Export (certenroll.h)
 author: windows-sdk-content
 description: Exports templates and object identifiers associated with the certificate enrollment policy (CEP) server to a buffer.
 old-location: security\ix509enrollmentpolicyserver_export.htm

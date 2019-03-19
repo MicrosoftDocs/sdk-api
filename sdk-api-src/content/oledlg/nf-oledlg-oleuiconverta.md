@@ -1,6 +1,6 @@
 ---
 UID: NF:oledlg.OleUIConvertA
-title: OleUIConvertA function
+title: OleUIConvertA function (oledlg.h)
 author: windows-sdk-content
 description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class.
 old-location: com\oleuiconvert.htm

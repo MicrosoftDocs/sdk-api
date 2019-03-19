@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDetailsEx
-title: IShellFolder2::GetDetailsEx
+title: IShellFolder2::GetDetailsEx (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets detailed information, identified by a property set identifier (FMTID) and a property identifier (PID), on an item in a Shell folder.
 old-location: shell\IShellFolder2_GetDetailsEx.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.DisplayParseError
-title: IBrowserService::DisplayParseError
+title: IBrowserService::DisplayParseError (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Displays a URL that failed to be successfully parsed by IBrowserService::IEParseDisplayName.
 old-location: shell\IBrowserService_DisplayParseError.htm

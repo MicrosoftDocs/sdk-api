@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetBool
-title: IShellItem2::GetBool
+title: IShellItem2::GetBool (shobjidl_core.h)
 author: windows-sdk-content
 description: Gets the boolean value of a specified property key.
 old-location: shell\IShellItem2_GetBool.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntmsapi.OpenNtmsNotification
-title: OpenNtmsNotification function
+title: OpenNtmsNotification function (ntmsapi.h)
 author: windows-sdk-content
 description: The OpenNtmsNotification function opens a channel to receive RSM object change notifications for objects of the specified type.
 old-location: fs\openntmsnotification.htm

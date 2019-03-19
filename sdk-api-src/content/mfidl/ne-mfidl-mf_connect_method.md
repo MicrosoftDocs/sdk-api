@@ -1,6 +1,6 @@
 ---
 UID: NE:mfidl._MF_CONNECT_METHOD
-title: MF_CONNECT_METHOD
+title: MF_CONNECT_METHOD (mfidl.h)
 author: windows-sdk-content
 description: Specifies how the topology loader connects a topology node.
 old-location: mf\mf_connect_method.htm

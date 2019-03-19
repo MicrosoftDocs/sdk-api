@@ -1,6 +1,6 @@
 ---
 UID: NS:mfapi.tagHistogramBlobHeader
-title: HistogramBlobHeader
+title: HistogramBlobHeader (mfapi.h)
 author: windows-sdk-content
 description: The HistogramBlobHeader structure describes the blob size and the number of histograms in the blob for the MF_CAPTURE_METADATA_HISTOGRAM attribute.
 old-location: stream\histogramblobheader.htm

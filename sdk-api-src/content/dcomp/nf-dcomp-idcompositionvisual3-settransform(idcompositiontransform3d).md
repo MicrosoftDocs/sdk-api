@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetTransform(IDCompositionTransform3D)
-title: IDCompositionVisual3::SetTransform(IDCompositionTransform3D)
+title: IDCompositionVisual3::SetTransform(IDCompositionTransform3D) (dcomp.h)
 author: windows-sdk-content
 description: Sets the Transform property of this visual to the specified 3D transform object.
 old-location: directcomp\idcompositionvisual3_settransform_2.htm

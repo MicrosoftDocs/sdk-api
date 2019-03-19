@@ -1,6 +1,6 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetColorKey
-title: IDirectDrawSurface7::GetColorKey
+title: IDirectDrawSurface7::GetColorKey (ddraw.h)
 author: windows-sdk-content
 description: Retrieves the color key value for this surface.
 old-location: directdraw\idirectdrawsurface7_getcolorkey.htm

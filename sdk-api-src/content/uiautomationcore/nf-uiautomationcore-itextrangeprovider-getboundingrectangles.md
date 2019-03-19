@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetBoundingRectangles
-title: ITextRangeProvider::GetBoundingRectangles
+title: ITextRangeProvider::GetBoundingRectangles (uiautomationcore.h)
 author: windows-sdk-content
 description: Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
 old-location: winauto\uiauto_ITextRangeProvider_GetBoundingRectangles.htm

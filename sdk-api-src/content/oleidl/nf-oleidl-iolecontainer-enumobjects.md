@@ -1,6 +1,6 @@
 ---
 UID: NF:oleidl.IOleContainer.EnumObjects
-title: IOleContainer::EnumObjects
+title: IOleContainer::EnumObjects (oleidl.h)
 author: windows-sdk-content
 description: Enumerates the objects in the current container.
 old-location: com\iolecontainer_enumobjects.htm

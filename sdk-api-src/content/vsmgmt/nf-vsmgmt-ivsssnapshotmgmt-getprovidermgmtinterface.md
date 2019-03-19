@@ -1,6 +1,6 @@
 ---
 UID: NF:vsmgmt.IVssSnapshotMgmt.GetProviderMgmtInterface
-title: IVssSnapshotMgmt::GetProviderMgmtInterface
+title: IVssSnapshotMgmt::GetProviderMgmtInterface (vsmgmt.h)
 author: windows-sdk-content
 description: Returns an interface to further configure the system provider.
 old-location: base\ivsssnapshotmgmt_getprovidermgmtinterface.htm

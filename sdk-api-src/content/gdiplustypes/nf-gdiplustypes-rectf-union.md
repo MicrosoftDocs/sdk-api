@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.RectF.Union
-title: RectF::Union
+title: RectF::Union (gdiplustypes.h)
 author: windows-sdk-content
 description: The RectF::Union method determines the union of two rectangles and stores the result in a RectF object.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Union_c_a_b_.htm

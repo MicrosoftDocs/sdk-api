@@ -1,6 +1,6 @@
 ---
 UID: NS:shdeprecated.BASEBROWSERDATALH
-title: BASEBROWSERDATALH
+title: BASEBROWSERDATALH (shdeprecated.h)
 author: windows-sdk-content
 description: Contains protected members of the base class. BASEBROWSERDATA defines the browser state and is used with IBrowserService2::GetBaseBrowserData and IBrowserService2::PutBaseBrowserData.
 old-location: shell\BASEBROWSERDATA.htm

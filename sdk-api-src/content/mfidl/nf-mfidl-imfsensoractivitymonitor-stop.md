@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.IMFSensorActivityMonitor.Stop
-title: IMFSensorActivityMonitor::Stop
+title: IMFSensorActivityMonitor::Stop (mfidl.h)
 author: windows-sdk-content
 description: Stops the sensor activity monitor.
 old-location: mf\imfsensoractivitymonitor_stop.htm

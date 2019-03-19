@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IAlternativeName.InitializeFromRawData
-title: IAlternativeName::InitializeFromRawData
+title: IAlternativeName::InitializeFromRawData (certenroll.h)
 author: windows-sdk-content
 description: Initializes the object from a Digital Signature Algorithm (DSA) GUID, an X.500 directory name, or an Internet Protocol (IP) address contained in a Distinguished Encoding Rules (DER) encoded byte array.
 old-location: security\ialternativename_initializefromrawdata_method.htm

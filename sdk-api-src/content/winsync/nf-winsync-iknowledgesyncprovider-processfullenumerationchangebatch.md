@@ -1,6 +1,6 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
-title: IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
+title: IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch (winsync.h)
 author: windows-sdk-content
 description: Processes a set of changes for a full enumeration by applying changes to the item store.
 old-location: winsync\iknowledgesyncprovider_processfullenumerationchangebatch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.Execute
-title: IDirectXVideoDecoder::Execute
+title: IDirectXVideoDecoder::Execute (dxva2api.h)
 author: windows-sdk-content
 description: Executes a decoding operation on the current frame.
 old-location: mf\idirectxvideodecoder_execute.htm

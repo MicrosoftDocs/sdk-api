@@ -1,6 +1,6 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_frameRate
-title: IWMPNetwork::get_frameRate
+title: IWMPNetwork::get_frameRate (wmp.h)
 author: windows-sdk-content
 description: The get_frameRate method retrieves the current video frame rate.
 old-location: wmp\iwmpnetwork_get_framerate.htm

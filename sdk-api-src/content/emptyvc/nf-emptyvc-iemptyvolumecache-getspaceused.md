@@ -1,6 +1,6 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.GetSpaceUsed
-title: IEmptyVolumeCache::GetSpaceUsed
+title: IEmptyVolumeCache::GetSpaceUsed (emptyvc.h)
 author: windows-sdk-content
 description: Requests the amount of disk space that the disk cleanup handler can free.
 old-location: lwef\iemptyvolumecache_getspaceused.htm

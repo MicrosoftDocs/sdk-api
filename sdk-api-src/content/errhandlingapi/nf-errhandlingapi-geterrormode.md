@@ -1,6 +1,6 @@
 ---
 UID: NF:errhandlingapi.GetErrorMode
-title: GetErrorMode function
+title: GetErrorMode function (errhandlingapi.h)
 author: windows-sdk-content
 description: Retrieves the error mode for the current process.
 old-location: base\geterrormode.htm

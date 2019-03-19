@@ -1,6 +1,6 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.GetKey
-title: IWbemPathKeyList::GetKey
+title: IWbemPathKeyList::GetKey (wmiutils.h)
 author: windows-sdk-content
 description: The IWbemPathKeyList::GetKey method retrieves a key's name or value. Keys are indexed from 0 (zero), though the order of the keys is not significant.
 old-location: wmi\iwbempathkeylist_getkey.htm

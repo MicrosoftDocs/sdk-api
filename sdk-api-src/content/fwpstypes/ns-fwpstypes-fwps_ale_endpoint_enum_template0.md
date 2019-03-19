@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpstypes.FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_
-title: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0
+title: FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 (fwpstypes.h)
 author: windows-sdk-content
 description: The FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 structure specifies a template for application layer enforcement (ALE) endpoints to be enumerated.Note  FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0 is a specific version of FWPS_ALE_ENDPOINT_ENUM_TEMPLATE.
 old-location: netvista\fwps_ale_endpoint_enum_template0.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:wabdefs._SPropProblem
-title: SPropProblem
+title: SPropProblem (wabdefs.h)
 author: windows-sdk-content
 description: Do not use. Describes an error relating to an operation involving a property.
 old-location: wab\_wab_SPropProblem.htm

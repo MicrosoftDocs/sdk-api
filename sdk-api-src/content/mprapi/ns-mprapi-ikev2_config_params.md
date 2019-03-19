@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._IKEV2_CONFIG_PARAMS
-title: IKEV2_CONFIG_PARAMS
+title: IKEV2_CONFIG_PARAMS (mprapi.h)
 author: windows-sdk-content
 description: Used to get or set parameters for Internet Key Exchange version 2 (IKEv2) devices (RFC 4306).
 old-location: rras\ikev2_config_params.htm

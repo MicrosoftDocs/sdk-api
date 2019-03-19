@@ -1,6 +1,6 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetAttributeByIndex
-title: IWMHeaderInfo::GetAttributeByIndex
+title: IWMHeaderInfo::GetAttributeByIndex (wmsdkidl.h)
 author: windows-sdk-content
 description: The GetAttributeByIndex method returns a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::GetAttributeByIndexEx and should not be used.
 old-location: wmformat\iwmheaderinfo_getattributebyindex.htm

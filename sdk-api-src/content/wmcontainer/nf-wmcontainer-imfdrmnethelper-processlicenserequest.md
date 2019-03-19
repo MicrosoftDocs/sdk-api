@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.ProcessLicenseRequest
-title: IMFDRMNetHelper::ProcessLicenseRequest
+title: IMFDRMNetHelper::ProcessLicenseRequest (wmcontainer.h)
 author: windows-sdk-content
 description: Gets the license response for the specified request.
 old-location: mf\imfdrmnethelper_processlicenserequest.htm

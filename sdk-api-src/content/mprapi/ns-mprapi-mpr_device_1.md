@@ -1,6 +1,6 @@
 ---
 UID: NS:mprapi._MPR_DEVICE_1
-title: MPR_DEVICE_1
+title: MPR_DEVICE_1 (mprapi.h)
 author: windows-sdk-content
 description: The MPR_DEVICE_1 structure stores information about a device used for a link in a multilinked demand dial interface. In addition to the information in MPR_DEVICE_0, MPR_DEVICE_1 contains phone-number information.
 old-location: rras\mpr_device_1.htm

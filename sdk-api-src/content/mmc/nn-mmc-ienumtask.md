@@ -1,6 +1,6 @@
 ---
 UID: NN:mmc.IEnumTASK
-title: IEnumTASK
+title: IEnumTASK (mmc.h)
 author: windows-sdk-content
 description: The IEnumTASK interface is introduced in MMC 1.1.
 old-location: mmc\ienumtask.htm

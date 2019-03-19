@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SetInBandEnabled
-title: IMFTimedText::SetInBandEnabled
+title: IMFTimedText::SetInBandEnabled (mfmediaengine.h)
 author: windows-sdk-content
 description: Enables or disables inband mode.
 old-location: mf\imftimedtext_setinbandenabled.htm

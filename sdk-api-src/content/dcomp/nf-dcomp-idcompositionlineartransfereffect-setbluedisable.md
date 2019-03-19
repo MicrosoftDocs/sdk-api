@@ -1,6 +1,6 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueDisable
-title: IDCompositionLinearTransferEffect::SetBlueDisable
+title: IDCompositionLinearTransferEffect::SetBlueDisable (dcomp.h)
 author: windows-sdk-content
 description: Specifies whether to apply the transfer function to the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setbluedisable.htm

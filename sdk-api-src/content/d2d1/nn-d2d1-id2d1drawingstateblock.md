@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1DrawingStateBlock
-title: ID2D1DrawingStateBlock
+title: ID2D1DrawingStateBlock (d2d1.h)
 author: windows-sdk-content
 description: Represents the drawing state of a render target:\_the antialiasing mode, transform, tags, and text-rendering options.
 old-location: direct2d\ID2D1DrawingStateBlock.htm

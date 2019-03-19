@@ -1,6 +1,6 @@
 ---
 UID: NF:rpcndr.NdrMesProcEncodeDecode4
-title: NdrMesProcEncodeDecode4 function
+title: NdrMesProcEncodeDecode4 function (rpcndr.h)
 author: windows-sdk-content
 description: NdrMesProcEncodeDecode4 may be altered or unavailable.
 old-location: rpc\ndrmesprocencodedecode4.htm

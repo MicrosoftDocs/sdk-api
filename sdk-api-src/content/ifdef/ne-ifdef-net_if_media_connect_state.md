@@ -1,6 +1,6 @@
 ---
 UID: NE:ifdef._NET_IF_MEDIA_CONNECT_STATE
-title: NET_IF_MEDIA_CONNECT_STATE
+title: NET_IF_MEDIA_CONNECT_STATE (ifdef.h)
 author: windows-sdk-content
 description: The NET_IF_MEDIA_CONNECT_STATE enumeration type specifies the NDIS network interface connection state.
 old-location: netvista\net_if_media_connect_state.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.AddEntry
-title: ITocCollection::AddEntry
+title: ITocCollection::AddEntry (wmcodecdsp.h)
 author: windows-sdk-content
 description: The AddEntry method adds an individual table of contents to the collection and assigns an index to the added table of contents.
 old-location: mf\itoccollection_addentry.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10.D3D10_BUFFER_RTV
-title: D3D10_BUFFER_RTV
+title: D3D10_BUFFER_RTV (d3d10.h)
 author: windows-sdk-content
 description: Specifies the elements from a buffer resource to use in a render-target view.
 old-location: direct3d10\d3d10_buffer_rtv.htm

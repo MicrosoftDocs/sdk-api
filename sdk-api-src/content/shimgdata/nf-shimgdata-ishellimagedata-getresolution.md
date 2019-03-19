@@ -1,6 +1,6 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetResolution
-title: IShellImageData::GetResolution
+title: IShellImageData::GetResolution (shimgdata.h)
 author: windows-sdk-content
 description: Gets the resolution, in dots per inch (dpi), of the image.
 old-location: shell\IShellImageData_GetResolution.htm

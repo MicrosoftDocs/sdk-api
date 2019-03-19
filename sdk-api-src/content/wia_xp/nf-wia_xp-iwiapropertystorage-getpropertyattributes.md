@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetPropertyAttributes
-title: IWiaPropertyStorage::GetPropertyAttributes
+title: IWiaPropertyStorage::GetPropertyAttributes (wia_xp.h)
 author: windows-sdk-content
 description: The IWiaPropertyStorage::GetPropertyAttributes method retrieves access rights and legal value information for a specified set of properties.
 old-location: wia\_wia_IWiaPropertyStorage_GetPropertyAttributes.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.Clone
-title: IXpsOMCanvas::Clone
+title: IXpsOMCanvas::Clone (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomcanvas_clone.htm

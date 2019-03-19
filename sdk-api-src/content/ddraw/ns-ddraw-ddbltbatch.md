@@ -1,6 +1,6 @@
 ---
 UID: NS:ddraw._DDBLTBATCH
-title: DDBLTBATCH
+title: DDBLTBATCH (ddraw.h)
 author: windows-sdk-content
 description: The DDBLTBATCH structure passes bit block transfer (bitblt) operations to the IDirectDrawSurface7::BltBatch method.
 old-location: directdraw\ddbltbatch.htm

@@ -1,6 +1,6 @@
 ---
 UID: NS:ddrawint.DD_CALLBACKS
-title: DD_CALLBACKS
+title: DD_CALLBACKS (ddrawint.h)
 author: windows-sdk-content
 description: The DD_CALLBACKS structure contains entry pointers to the callback functions that a device driver supports.
 old-location: display\dd_callbacks.htm

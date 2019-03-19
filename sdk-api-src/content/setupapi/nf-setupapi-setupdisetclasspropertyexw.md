@@ -1,6 +1,6 @@
 ---
 UID: NF:setupapi.SetupDiSetClassPropertyExW
-title: SetupDiSetClassPropertyExW function
+title: SetupDiSetClassPropertyExW function (setupapi.h)
 author: windows-sdk-content
 description: The SetupDiSetClassPropertyEx function sets a device property for a device setup class or a device interface class on a local or remote computer.
 old-location: devinst\setupdisetclasspropertyex.htm

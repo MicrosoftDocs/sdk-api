@@ -1,6 +1,6 @@
 ---
 UID: NN:xamlom.IVisualTreeService3
-title: IVisualTreeService3
+title: IVisualTreeService3 (xamlom.h)
 author: windows-sdk-content
 description: Represents additional capabilities of an IVisualTreeService2 object.
 old-location: xaml_diagnostics\ivisualtreeservice3.htm

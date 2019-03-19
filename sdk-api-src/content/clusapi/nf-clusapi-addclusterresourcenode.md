@@ -1,6 +1,6 @@
 ---
 UID: NF:clusapi.AddClusterResourceNode
-title: AddClusterResourceNode function
+title: AddClusterResourceNode function (clusapi.h)
 author: windows-sdk-content
 description: Adds a node to the list of possible nodes that a resource can run on.
 old-location: mscs\addclusterresourcenode.htm

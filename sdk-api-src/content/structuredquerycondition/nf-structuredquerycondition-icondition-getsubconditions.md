@@ -1,6 +1,6 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetSubConditions
-title: ICondition::GetSubConditions
+title: ICondition::GetSubConditions (structuredquerycondition.h)
 author: windows-sdk-content
 description: Retrieves a collection of the subconditions of the search condition node and the IID of the interface for enumerating the collection.
 old-location: search\_search_ICondition_GetSubConditions.htm

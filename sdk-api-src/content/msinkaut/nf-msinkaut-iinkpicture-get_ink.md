@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Ink
-title: IInkPicture::get_Ink
+title: IInkPicture::get_Ink (msinkaut.h)
 author: windows-sdk-content
 description: Gets or sets the InkDisp object that is associated with the InkPicture control.
 old-location: tablet\inkpicture_ink.htm

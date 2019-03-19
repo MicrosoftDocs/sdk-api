@@ -1,6 +1,6 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamAttributesManager
-title: IMFMuxStreamAttributesManager
+title: IMFMuxStreamAttributesManager (mfobjects.h)
 author: windows-sdk-content
 description: Provides access to the IMFAttributes of the substreams of a multiplexed media source.
 old-location: mf\imfmuxstreamattributesmanager.htm

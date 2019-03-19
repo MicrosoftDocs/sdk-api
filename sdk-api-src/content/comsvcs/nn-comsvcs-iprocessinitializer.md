@@ -1,6 +1,6 @@
 ---
 UID: NN:comsvcs.IProcessInitializer
-title: IProcessInitializer
+title: IProcessInitializer (comsvcs.h)
 author: windows-sdk-content
 description: Provides methods that can be called whenever Dllhost.exe starts up or shuts down.
 old-location: cos\iprocessinitializer.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:shlwapi.PathStripToRootA
-title: PathStripToRootA function
+title: PathStripToRootA function (shlwapi.h)
 author: windows-sdk-content
 description: Removes all file and directory elements in a path except for the root information.
 old-location: shell\PathStripToRoot.htm

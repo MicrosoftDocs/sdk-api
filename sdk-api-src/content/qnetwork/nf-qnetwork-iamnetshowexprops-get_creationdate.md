@@ -1,6 +1,6 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_CreationDate
-title: IAMNetShowExProps::get_CreationDate
+title: IAMNetShowExProps::get_CreationDate (qnetwork.h)
 author: windows-sdk-content
 description: The get_CreationDate method retrieves the creation date of the source file.
 old-location: dshow\iamnetshowexprops_get_creationdate.htm

@@ -1,6 +1,6 @@
 ---
 UID: NN:uiribbon.IUIApplication
-title: IUIApplication
+title: IUIApplication (uiribbon.h)
 author: windows-sdk-content
 description: The IUIApplication interface is implemented by the application and defines the callback entry-point methods for the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiapplication.htm

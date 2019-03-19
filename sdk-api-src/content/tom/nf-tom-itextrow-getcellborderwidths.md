@@ -1,6 +1,6 @@
 ---
 UID: NF:tom.ITextRow.GetCellBorderWidths
-title: ITextRow::GetCellBorderWidths
+title: ITextRow::GetCellBorderWidths (tom.h)
 author: windows-sdk-content
 description: Gets the border widths of the active cell.
 old-location: controls\itextrow_getcellborderwidths.htm

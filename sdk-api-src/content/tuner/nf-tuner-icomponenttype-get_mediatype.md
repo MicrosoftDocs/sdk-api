@@ -1,6 +1,6 @@
 ---
 UID: NF:tuner.IComponentType.get_MediaType
-title: IComponentType::get_MediaType
+title: IComponentType::get_MediaType (tuner.h)
 author: windows-sdk-content
 description: The get_MediaType method retrieves the DirectShow AM_MEDIA_TYPE structure for the component.
 old-location: mstv\icomponenttype_get_mediatype.htm

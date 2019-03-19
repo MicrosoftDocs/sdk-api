@@ -1,6 +1,6 @@
 ---
 UID: NE:slpublic._tagSLIDTYPE
-title: SLIDTYPE
+title: SLIDTYPE (slpublic.h)
 author: windows-sdk-content
 description: Represents the type of Software Licensing ID.
 old-location: security\slidtype.htm

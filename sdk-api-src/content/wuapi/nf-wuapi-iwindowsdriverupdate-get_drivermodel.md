@@ -1,6 +1,6 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverModel
-title: IWindowsDriverUpdate::get_DriverModel
+title: IWindowsDriverUpdate::get_DriverModel (wuapi.h)
 author: windows-sdk-content
 description: Gets the language-invariant model name of the device for which the Windows driver update is intended.
 old-location: wua\iwindowsdriverupdate_drivermodel.htm

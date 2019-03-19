@@ -1,6 +1,6 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetTitle
-title: IBrowserService::GetTitle
+title: IBrowserService::GetTitle (shdeprecated.h)
 author: windows-sdk-content
 description: Deprecated. Retrieves the title of a browser window.
 old-location: shell\IBrowserService_GetTitle.htm

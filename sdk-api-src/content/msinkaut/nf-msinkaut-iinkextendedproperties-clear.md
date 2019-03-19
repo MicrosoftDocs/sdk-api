@@ -1,6 +1,6 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Clear
-title: IInkExtendedProperties::Clear
+title: IInkExtendedProperties::Clear (msinkaut.h)
 author: windows-sdk-content
 description: Clears all of the IInkExtendedProperty objects from the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_clear.htm

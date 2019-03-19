@@ -1,6 +1,6 @@
 ---
 UID: NF:certenroll.IX509Extension.get_RawData
-title: IX509Extension::get_RawData
+title: IX509Extension::get_RawData (certenroll.h)
 author: windows-sdk-content
 description: Retrieves a byte array that contains the extension value.
 old-location: security\ix509extension_rawdata_property.htm

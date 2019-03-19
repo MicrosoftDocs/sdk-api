@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1.ID2D1Brush
-title: ID2D1Brush
+title: ID2D1Brush (d2d1.h)
 author: windows-sdk-content
 description: Defines an object that paints an area. Interfaces that derive from ID2D1Brush describe how the area is painted.
 old-location: direct2d\ID2D1Brush.htm

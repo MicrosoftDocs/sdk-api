@@ -1,6 +1,6 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListenerCallback.OnConnected
-title: IWTSProtocolListenerCallback::OnConnected
+title: IWTSProtocolListenerCallback::OnConnected (wtsprotocol.h)
 author: windows-sdk-content
 description: IWTSProtocolListenerCallback::OnConnected is no longer available. Instead, use IWRdsProtocolListenerCallback::OnConnected.
 old-location: termserv\iwtsprotocollistenercallback_onconnected.htm

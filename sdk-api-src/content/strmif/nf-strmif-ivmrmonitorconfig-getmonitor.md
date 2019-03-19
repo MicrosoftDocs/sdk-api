@@ -1,6 +1,6 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetMonitor
-title: IVMRMonitorConfig::GetMonitor
+title: IVMRMonitorConfig::GetMonitor (strmif.h)
 author: windows-sdk-content
 description: The GetMonitor method retrieves the monitor that this instance of the VMR is using for video playback.
 old-location: dshow\ivmrmonitorconfig_getmonitor.htm

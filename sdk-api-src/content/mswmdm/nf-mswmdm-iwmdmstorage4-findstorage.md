@@ -1,6 +1,6 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.FindStorage
-title: IWMDMStorage4::FindStorage
+title: IWMDMStorage4::FindStorage (mswmdm.h)
 author: windows-sdk-content
 description: The FindStorage method retrieves a storage in the current root storage, based on its persistent unique identifier.
 old-location: wmdm\iwmdmstorage4_findstorage.htm

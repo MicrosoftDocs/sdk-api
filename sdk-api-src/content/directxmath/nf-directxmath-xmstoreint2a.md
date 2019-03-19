@@ -1,6 +1,6 @@
 ---
 UID: NF:directxmath.XMStoreInt2A
-title: XMStoreInt2A function
+title: XMStoreInt2A function (directxmath.h)
 author: windows-sdk-content
 description: Stores an XMVECTOR in a 16-byte aligned 2 element uint32_t array.
 old-location: dxmath\xmstoreint2a.htm

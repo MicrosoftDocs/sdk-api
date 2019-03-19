@@ -1,6 +1,6 @@
 ---
 UID: NF:tdh.TdhEnumerateProviderFieldInformation
-title: TdhEnumerateProviderFieldInformation function
+title: TdhEnumerateProviderFieldInformation function (tdh.h)
 author: windows-sdk-content
 description: Retrieves the specified field metadata for a given provider.
 old-location: etw\tdhenumerateproviderfieldinformation_func.htm

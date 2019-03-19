@@ -1,6 +1,6 @@
 ---
 UID: NF:mfidl.MFCreateFMPEG4MediaSink
-title: MFCreateFMPEG4MediaSink function
+title: MFCreateFMPEG4MediaSink function (mfidl.h)
 author: windows-sdk-content
 description: Creates a media sink for authoring fragmented MP4 files.
 old-location: mf\mfcreatefmpeg4mediasink.htm

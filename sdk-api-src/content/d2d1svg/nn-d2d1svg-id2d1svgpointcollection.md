@@ -1,6 +1,6 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgPointCollection
-title: ID2D1SvgPointCollection
+title: ID2D1SvgPointCollection (d2d1svg.h)
 author: windows-sdk-content
 description: Interface describing an SVG points value in a polyline or polygon element.
 old-location: direct2d\id2d1svgpointcollection.htm

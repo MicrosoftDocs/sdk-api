@@ -1,6 +1,6 @@
 ---
 UID: NS:perflib._PERF_COUNTERSET_REG_INFO
-title: PERF_COUNTERSET_REG_INFO
+title: PERF_COUNTERSET_REG_INFO (perflib.h)
 author: windows-sdk-content
 description: Contains information about the PERF_COUNTERSET_REG_INFO block that contains the structure.
 old-location: perf\perf_counterset_reg_info.htm

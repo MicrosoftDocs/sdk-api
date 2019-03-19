@@ -1,6 +1,6 @@
 ---
 UID: NE:objidl.tagSTGTY
-title: STGTY
+title: STGTY (objidl.h)
 author: windows-sdk-content
 description: The STGTY enumeration values are used in the type member of the STATSTG structure to indicate the type of the storage element. A storage element is a storage object, a stream object, or a byte-array object (LOCKBYTES).
 old-location: stg\stgty.htm

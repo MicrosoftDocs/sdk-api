@@ -1,6 +1,6 @@
 ---
 UID: NF:objidlbase.IMarshalingStream.GetMarshalingContextAttribute
-title: IMarshalingStream::GetMarshalingContextAttribute
+title: IMarshalingStream::GetMarshalingContextAttribute (objidlbase.h)
 author: windows-sdk-content
 description: Gets information about the marshaling context.
 old-location: com\imarshalingstream_getmarshalingcontextattribute.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateSet
-title: IOpcSigningOptions::GetCertificateSet
+title: IOpcSigningOptions::GetCertificateSet (msopc.h)
 author: windows-sdk-content
 description: Gets an IOpcCertificateSet interface pointer.
 old-location: opc\iopcsigningoptions_getcertificateset.htm

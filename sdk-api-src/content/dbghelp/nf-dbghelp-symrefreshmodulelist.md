@@ -1,6 +1,6 @@
 ---
 UID: NF:dbghelp.SymRefreshModuleList
-title: SymRefreshModuleList function
+title: SymRefreshModuleList function (dbghelp.h)
 author: windows-sdk-content
 description: Refreshes the module list for the process.
 old-location: base\symrefreshmodulelist.htm

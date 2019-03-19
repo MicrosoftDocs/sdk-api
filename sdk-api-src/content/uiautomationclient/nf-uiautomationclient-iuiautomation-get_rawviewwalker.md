@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_RawViewWalker
-title: IUIAutomation::get_RawViewWalker
+title: IUIAutomation::get_RawViewWalker (uiautomationclient.h)
 author: windows-sdk-content
 description: Retrieves a tree walker object used to traverse an unfiltered view of the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomation_RawViewWalker.htm

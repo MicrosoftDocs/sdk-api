@@ -1,6 +1,6 @@
 ---
 UID: NF:npapi.NPGetConnection
-title: NPGetConnection function
+title: NPGetConnection function (npapi.h)
 author: windows-sdk-content
 description: Retrieves information about a connection.
 old-location: security\npgetconnection.htm

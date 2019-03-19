@@ -1,6 +1,6 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_X509DATA
-title: CRYPT_XML_X509DATA
+title: CRYPT_XML_X509DATA (cryptxml.h)
 author: windows-sdk-content
 description: Represents the sequence of choices in the X509Data element.
 old-location: security\crypt_xml_x509data.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:urlmon.CreateAsyncBindCtx
-title: CreateAsyncBindCtx function
+title: CreateAsyncBindCtx function (urlmon.h)
 author: windows-sdk-content
 description: Creates an asynchronous bind context for use with asynchronous monikers.
 old-location: com\createasyncbindctx.htm

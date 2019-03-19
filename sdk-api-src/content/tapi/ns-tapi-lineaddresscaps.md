@@ -1,6 +1,6 @@
 ---
 UID: NS:tapi.lineaddresscaps_tag
-title: LINEADDRESSCAPS
+title: LINEADDRESSCAPS (tapi.h)
 author: windows-sdk-content
 description: The LINEADDRESSCAPS structure describes the capabilities of a specified address. The lineGetAddressCaps function and the TSPI_lineGetAddressCaps function return the LINEADDRESSCAPS structure.
 old-location: tapi2\lineaddresscaps_str.htm

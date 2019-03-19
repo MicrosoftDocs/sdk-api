@@ -1,6 +1,6 @@
 ---
 UID: NF:gdiplustypes.Size.Equals
-title: Size::Equals
+title: Size::Equals (gdiplustypes.h)
 author: windows-sdk-content
 description: The Size::Equals method determines whether two Size objects are equal.
 old-location: gdiplus\_gdiplus_CLASS_Size_Equals_sz_.htm

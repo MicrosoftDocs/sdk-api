@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12.ID3D12Device1.SetEventOnMultipleFenceCompletion
-title: ID3D12Device1::SetEventOnMultipleFenceCompletion
+title: ID3D12Device1::SetEventOnMultipleFenceCompletion (d3d12.h)
 author: windows-sdk-content
 description: Specifies an event that should be fired when one or more of a collection of fences reach specific values.
 old-location: direct3d12\id3d12device1_seteventonmultiplefencecompletion.htm

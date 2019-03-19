@@ -1,6 +1,6 @@
 ---
 UID: NF:p2p.PeerGroupOpenDirectConnection
-title: PeerGroupOpenDirectConnection function
+title: PeerGroupOpenDirectConnection function (p2p.h)
 author: windows-sdk-content
 description: The PeerGroupOpenDirectConnection function establishes a direct connection with another peer in a peer group.
 old-location: p2p\peergroupopendirectconnection.htm

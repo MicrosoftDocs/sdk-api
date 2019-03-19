@@ -1,6 +1,6 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetError
-title: IMFMediaEngine::GetError
+title: IMFMediaEngine::GetError (mfmediaengine.h)
 author: windows-sdk-content
 description: Gets the most recent error status.
 old-location: mf\imfmediaengine_geterror.htm

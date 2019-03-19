@@ -1,6 +1,6 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AdviseVisualTreeChange
-title: IVisualTreeService::AdviseVisualTreeChange
+title: IVisualTreeService::AdviseVisualTreeChange (xamlom.h)
 author: windows-sdk-content
 description: Starts listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_advisevisualtreechange.htm

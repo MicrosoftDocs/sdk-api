@@ -1,6 +1,6 @@
 ---
 UID: NN:mswmdm.IWMDMDeviceSession
-title: IWMDMDeviceSession
+title: IWMDMDeviceSession (mswmdm.h)
 author: windows-sdk-content
 description: The IWMDMDeviceSession interface improves the efficiency of device operations by bundling multiple operations into one session.
 old-location: wmdm\iwmdmdevicesession.htm

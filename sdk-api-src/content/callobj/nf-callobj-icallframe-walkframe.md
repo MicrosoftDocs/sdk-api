@@ -1,6 +1,6 @@
 ---
 UID: NF:callobj.ICallFrame.WalkFrame
-title: ICallFrame::WalkFrame
+title: ICallFrame::WalkFrame (callobj.h)
 author: windows-sdk-content
 description: Searches for interface pointers that are reachable from [in], [in, out], or [out] parameters of the frame.
 old-location: com\icallframe_walkframe.htm

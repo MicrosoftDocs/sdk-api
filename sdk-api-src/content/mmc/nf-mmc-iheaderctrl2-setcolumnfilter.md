@@ -1,6 +1,6 @@
 ---
 UID: NF:mmc.IHeaderCtrl2.SetColumnFilter
-title: IHeaderCtrl2::SetColumnFilter
+title: IHeaderCtrl2::SetColumnFilter (mmc.h)
 author: windows-sdk-content
 description: The IHeaderCtrl2::SetColumnFilter sets the filter value and its maximum character length for a specified column in a filtered list.
 old-location: mmc\iheaderctrl2_setcolumnfilter.htm

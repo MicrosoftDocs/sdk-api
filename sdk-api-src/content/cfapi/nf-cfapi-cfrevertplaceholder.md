@@ -1,6 +1,6 @@
 ---
 UID: NF:cfapi.CfRevertPlaceholder
-title: CfRevertPlaceholder function
+title: CfRevertPlaceholder function (cfapi.h)
 author: windows-sdk-content
 description: Reverts a placeholder back to a regular file, stripping away all special characteristics such as the reparse tag, the file identity, etc.
 old-location: cloudapi\cfrevertplaceholder.htm

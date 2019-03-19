@@ -1,6 +1,6 @@
 ---
 UID: NN:strmif.IAMOpenProgress
-title: IAMOpenProgress
+title: IAMOpenProgress (strmif.h)
 author: windows-sdk-content
 description: The IAMOpenProgress interface reports the progress of a file-open operation and enables the application to cancel the operation.Filters that open files over a network can expose this interface.
 old-location: dshow\iamopenprogress.htm

@@ -1,6 +1,6 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0002
-title: ADS_FORMAT_ENUM
+title: ADS_FORMAT_ENUM (iads.h)
 author: windows-sdk-content
 description: Specifies the available path value types used by the IADsPathname::Retrieve method.
 old-location: adsi\ads_format_enum.htm

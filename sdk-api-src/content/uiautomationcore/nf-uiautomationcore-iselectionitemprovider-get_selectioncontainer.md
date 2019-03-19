@@ -1,6 +1,6 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.get_SelectionContainer
-title: ISelectionItemProvider::get_SelectionContainer
+title: ISelectionItemProvider::get_SelectionContainer (uiautomationcore.h)
 author: windows-sdk-content
 description: Specifies the provider that implements ISelectionProvider and acts as the container for the calling object.
 old-location: winauto\uiauto_ISelectionItemProvider_SelectionContainer.htm

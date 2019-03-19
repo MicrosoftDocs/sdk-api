@@ -1,6 +1,6 @@
 ---
 UID: NF:wingdi.CreateFontIndirectExA
-title: CreateFontIndirectExA function
+title: CreateFontIndirectExA function (wingdi.h)
 author: windows-sdk-content
 description: The CreateFontIndirectEx function specifies a logical font that has the characteristics in the specified structure. The font can subsequently be selected as the current font for any device context.
 old-location: gdi\createfontindirectex.htm

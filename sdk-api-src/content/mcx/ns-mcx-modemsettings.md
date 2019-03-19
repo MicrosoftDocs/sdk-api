@@ -1,6 +1,6 @@
 ---
 UID: NS:mcx._MODEMSETTINGS
-title: MODEMSETTINGS
+title: MODEMSETTINGS (mcx.h)
 author: windows-sdk-content
 description: Contains information about a modem's configuration.
 old-location: base\modemsettings_str.htm

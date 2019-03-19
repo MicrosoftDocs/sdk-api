@@ -1,6 +1,6 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.PrepareRecordVariants
-title: ICrmCompensatorVariants::PrepareRecordVariants
+title: ICrmCompensatorVariants::PrepareRecordVariants (comsvcs.h)
 author: windows-sdk-content
 description: Delivers a log record to the CRM Compensator during the prepare phase.
 old-location: cos\icrmcompensatorvariants_preparerecordvariants.htm

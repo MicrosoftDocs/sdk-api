@@ -1,6 +1,6 @@
 ---
 UID: NF:oleauto.VarUI1FromDec
-title: VarUI1FromDec function
+title: VarUI1FromDec function (oleauto.h)
 author: windows-sdk-content
 description: Converts a decimal value to an unsigned char value.
 old-location: automat\varui1fromdec.htm

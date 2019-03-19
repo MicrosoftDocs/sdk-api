@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetRequestId
-title: IXpsSignatureRequest::GetRequestId
+title: IXpsSignatureRequest::GetRequestId (xpsdigitalsignature.h)
 author: windows-sdk-content
 description: Gets the unique identifier of the signature request.
 old-location: xps\ixpssignaturerequest_getrequestid.htm

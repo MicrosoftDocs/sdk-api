@@ -1,6 +1,6 @@
 ---
 UID: NF:shobjidl.IHWEventHandler2.HandleEventWithHWND
-title: IHWEventHandler2::HandleEventWithHWND
+title: IHWEventHandler2::HandleEventWithHWND (shobjidl.h)
 author: windows-sdk-content
 description: Handles AutoPlay device events that contain content types that the application is not registered to handle. This method provides a handle to the owner window so that UI can be displayed if the process requires elevated privileges.
 old-location: shell\IHWEventHandler2_HandleEventWithHWND.htm

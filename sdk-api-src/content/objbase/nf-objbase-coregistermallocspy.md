@@ -1,6 +1,6 @@
 ---
 UID: NF:objbase.CoRegisterMallocSpy
-title: CoRegisterMallocSpy function
+title: CoRegisterMallocSpy function (objbase.h)
 author: windows-sdk-content
 description: Registers an implementation of the IMallocSpy interface, thereafter requiring OLE to call its wrapper methods around every call to the corresponding IMalloc method.
 old-location: com\coregistermallocspy.htm

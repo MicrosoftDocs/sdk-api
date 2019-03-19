@@ -1,6 +1,6 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1516
-title: SERVER_INFO_1516
+title: SERVER_INFO_1516 (lmserver.h)
 author: windows-sdk-content
 description: The SERVER_INFO_1516 structure specifies whether the server is a reliable time source.
 old-location: netmgmt\server_info_1516_str.htm

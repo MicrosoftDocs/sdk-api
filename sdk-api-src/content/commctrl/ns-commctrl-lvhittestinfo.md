@@ -1,6 +1,6 @@
 ---
 UID: NS:commctrl.tagLVHITTESTINFO
-title: LVHITTESTINFO
+title: LVHITTESTINFO (commctrl.h)
 author: windows-sdk-content
 description: Contains information about a hit test.
 old-location: controls\LVHITTESTINFO.htm

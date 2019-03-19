@@ -1,6 +1,6 @@
 ---
 UID: NF:winbio.WinBioMonitorPresence
-title: WinBioMonitorPresence function
+title: WinBioMonitorPresence function (winbio.h)
 author: windows-sdk-content
 description: Turns on the face-recognition or iris-monitoring mechanism for the specified biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiomonitorpresence.htm

@@ -1,6 +1,6 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_DigitalMultiplier
-title: IVideoProcAmp::put_DigitalMultiplier
+title: IVideoProcAmp::put_DigitalMultiplier (vidcap.h)
 author: windows-sdk-content
 description: The put_DigitalMultiplier method sets the camera's digital zoom level.
 old-location: dshow\ivideoprocamp_put_digitalmultiplier.htm

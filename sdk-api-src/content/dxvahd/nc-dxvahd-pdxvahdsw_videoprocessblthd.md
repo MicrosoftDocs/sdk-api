@@ -1,6 +1,6 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_VideoProcessBltHD
-title: PDXVAHDSW_VideoProcessBltHD
+title: PDXVAHDSW_VideoProcessBltHD (dxvahd.h)
 author: windows-sdk-content
 description: Performs a video processing blit.
 old-location: mf\pdxvahdsw_videoprocessblthd.htm

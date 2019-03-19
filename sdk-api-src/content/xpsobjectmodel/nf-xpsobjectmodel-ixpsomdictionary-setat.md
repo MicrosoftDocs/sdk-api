@@ -1,6 +1,6 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.SetAt
-title: IXpsOMDictionary::SetAt
+title: IXpsOMDictionary::SetAt (xpsobjectmodel.h)
 author: windows-sdk-content
 description: Replaces the entry at a specified location in the dictionary.
 old-location: xps\ixpsomdictionary_setat.htm

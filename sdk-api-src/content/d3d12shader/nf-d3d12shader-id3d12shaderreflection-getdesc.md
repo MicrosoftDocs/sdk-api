@@ -1,6 +1,6 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetDesc
-title: ID3D12ShaderReflection::GetDesc
+title: ID3D12ShaderReflection::GetDesc (d3d12shader.h)
 author: windows-sdk-content
 description: Gets a shader description.
 old-location: direct3d12\id3d12shaderreflection_getdesc.htm

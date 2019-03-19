@@ -1,6 +1,6 @@
 ---
 UID: NC:ras.PFNRASSETCOMMSETTINGS
-title: PFNRASSETCOMMSETTINGS
+title: PFNRASSETCOMMSETTINGS (ras.h)
 author: windows-sdk-content
 description: Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.
 old-location: rras\rassetcommsettings.htm

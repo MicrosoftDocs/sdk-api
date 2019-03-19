@@ -1,6 +1,6 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Initialize
-title: IAzAuthorizationStore::Initialize
+title: IAzAuthorizationStore::Initialize (azroles.h)
 author: windows-sdk-content
 description: Initializes the authorization manager.
 old-location: security\azauthorizationstore_initialize.htm

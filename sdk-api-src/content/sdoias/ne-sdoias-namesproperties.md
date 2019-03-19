@@ -1,6 +1,6 @@
 ---
 UID: NE:sdoias._NAMESPROPERTIES
-title: NAMESPROPERTIES
+title: NAMESPROPERTIES (sdoias.h)
 author: windows-sdk-content
 description: The values of the NAMESPROPERTIES enumeration type enumerate properties related to the name of the user requesting network access.
 old-location: nps\SDO_namesproperties.htm
